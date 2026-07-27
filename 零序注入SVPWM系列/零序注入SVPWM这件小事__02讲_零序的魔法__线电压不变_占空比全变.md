@@ -12,7 +12,7 @@
 
 咱们先回到理论。看文末提供的论文的第二章，**“Carrier-Based PWM”**。里面提到了一个对三相调制信号的通用表达方式，这个公式可以说是整篇论文的基石，也是我们理解零序的关键。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGicjicWDoLIERIXVM0gn0LtqlhuVKP2qQOK6LOFUVaibSMTXCpEPjJicqpdZsxRlian2XQRGRGgMtxUpw/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__02讲_零序的魔法__线电压不变_占空比全变_images/img_000_56587e44bea0.png)
 
 这里的ui\*(t)就是我们**真正想要的、理想的、对称的三相正弦波。**它们决定了我们想让电机输出什么样的转矩和磁链。而这个 ei(t) 呢，就是咱们今天的主角，**零序信号（zero-sequence signal）**。你看它的特点，ABC三相上加的是同一个东西。
 
@@ -24,15 +24,15 @@
 
 比如我们看A相和B相的线电压，它是由 ma 和 mb 的差决定的，对吧？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGicjicWDoLIERIXVM0gn0LtqCQgU7ATwwUhJp1SHxrh3M9QYJpv491xRug0vzDvz35aDbbcCsYSI7g/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__02讲_零序的魔法__线电压不变_占空比全变_images/img_001_a04eb6c72d56.png)
 
 我们把上面的通用公式代进去：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGicjicWDoLIERIXVM0gn0Ltq5RWbjZianbeVsMm5vxaibqibLFiaficiaA4dUgqDblCxD6QGrH2bgNOOSjpA/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__02讲_零序的魔法__线电压不变_占空比全变_images/img_002_766232a277ae.png)
 
 看到了吗？神奇的事情发生了：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGicjicWDoLIERIXVM0gn0LtqGDFvj47QGS3lDevAGaH1KvknqBaDJPeEHXUVJJT43upFLFWZB8xTLQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__02讲_零序的魔法__线电压不变_占空比全变_images/img_003_40c75df0ddb1.png)
 
 那个 e(t) 被减掉了！B、C相之间，C、A相之间，也是同理。
 
@@ -81,35 +81,35 @@
 
 搭建的模块化模型如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGicjicWDoLIERIXVM0gn0LtqT1cianpEYysd1VWTJEI7yAR3dibQ5kOjTedUvaicxK3dAyibh6rb1XncZg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__02讲_零序的魔法__线电压不变_占空比全变_images/img_004_38c5186bb62b.png)
 
 最核心的演示部分在中间的橙色调制模块，Modulator\_Core里：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGicjicWDoLIERIXVM0gn0LtqvuWiaetKlrEsHCztROMk9t7C8oHVhJJibED9jOZOia4NInFLRJFOL1tEQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__02讲_零序的魔法__线电压不变_占空比全变_images/img_005_dcf7dbdd574b.png)
 
 我们看下**路径A**：从 Inv\_Clarke 出来直接连到比较器 Comp\_SPWM，这里中间没有任何加法。这代表什么？这就是 e(t)，也就是最原始的 SPWM。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGicjicWDoLIERIXVM0gn0LtqjIWboEBcsaibfAiarAT5pRDTjQ59FV2mSjEGfLOmxyynrYibbwmkxnA3A/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__02讲_零序的魔法__线电压不变_占空比全变_images/img_006_93ab376a0bde.png)
 
 我们看下**路径B**：这里有个 Add\_ZeroSeq 加法器。它的一端是理想正弦波，另一端是从 Add\_MaxMin 过来的信号。这个加法器，就是在执行 m + e 这个公式。那个 Gain\_HalfNeg（乘以 -0.5）和前面的 Max/Min 组合在一起，算出来的就是 e(t)。这就是我们在代码里写的 uDC。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGicjicWDoLIERIXVM0gn0LtqgOg47ngVG1P2qCx4vhVIticN0wVruh7v1qShfAFkFZ5k5ZQ1EgKnsicA/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__02讲_零序的魔法__线电压不变_占空比全变_images/img_007_71cc76fd0ee9.png)
 
 看着最终的仿真波形（示波器在绿色的测量模块Measurements里）：
 
 双击进入 Measurements 子系统，打开 Scope\_Vab ：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGicjicWDoLIERIXVM0gn0LtqH7RPB2I9WBibs8J8ns3HKnFHrt8b5hibibE9sB32RvhCBpiaa66hjPVKWg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__02讲_零序的魔法__线电压不变_占空比全变_images/img_008_2aeecc50e14c.png)
 
 SPMW与ZSI\_PWM生成的占空比**完全不同**，但是，打开 Scope\_Vab ：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGicjicWDoLIERIXVM0gn0Ltqby7PZiblB6CQp5YxCYiafpLzYxqzdRUgOo8pZmzn0dPXsDQicI6vGlgbA/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__02讲_零序的魔法__线电压不变_占空比全变_images/img_009_a9a7ef009177.png)
 
 SPMW与ZSI\_PWM调制出来的线电压Uab**完全相同**。
 
 感兴趣的同仁也可以打开 Scope\_ModWave ，看下SPMW与ZSI\_PWM的调制波形不相同，但并不影响二者调制出相同幅值和相位的线电压Uab。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGicjicWDoLIERIXVM0gn0LtqowuWMm8f8Z5XDknxiaMXRlGe9P8HibPzPGMTWib35jrqv3bKZXKYaflZg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__02讲_零序的魔法__线电压不变_占空比全变_images/img_010_3ba4b1cd8ebb.png)
 
 Wave\_SPWM1/2/3 是纯正弦波。这是理想的调制波，是我们想让电机输出的。Wave\_ZSI1/2/3 这是著名的**马鞍波**。这是实际送进比较器的调制波。大家看，它塌下去了，变丑了，对吧？正是因为它在原本应该是波峰和波谷的地方塌下去了，原来正弦波顶不到头的地方，现在能顶到了。这就是为什么SVPWM能比SPWM多输出 15% 电压的几何解释——**把高的压低，把低的抬高，让三相挤一挤，空间就出来了。**
 

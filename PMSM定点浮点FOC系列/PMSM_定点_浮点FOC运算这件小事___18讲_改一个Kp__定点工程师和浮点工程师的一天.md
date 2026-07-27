@@ -96,13 +96,13 @@ rtb_SignPreSat = (int16_T)((((rtb_Sum_d * 14746) >> 15) +
 
 简单演示一下，在画布中不需要构建完整的 PMSM FOC 模型，而是把 d 轴电流环 PI 单独拿出来放大。主要目的是为了演示“改一个 Kp 时，浮点和定点工程流程完全不同”。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQBlufjftsiaYdsbdXiaicKWV9JfLx8mgicaSkpvIy3K0RZZvl3Hod7aGIk4PxTnFicynwbrFFzO7wCpG4tibaJHC0GDuOJbJBc1Jqn4/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___18讲_改一个Kp__定点工程师和浮点工程师的一天_images/img_000_ad0b8897e47e.png)
 
 在同样的输入条件（画布中的棕黄色背景的子系统）下，对比查看小王的浮点运算（蓝色背景的子系统）、老李的定点运算（绿色背景的子系统）和压力测试子系统（把Kp改成1.2时）的运算（橙色背景的子系统）的数据处理过程。
 
 我们看下小王的工作为什么简单：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATGFsNMjJicl3gtMibFNwvGzENCuWeicTpeecXicoVJrTN46eEhMUElicic8wPwY8nwRUia52SNR28iclFMfknPAmhwE6hiaNkFGRpIba5o/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___18讲_改一个Kp__定点工程师和浮点工程师的一天_images/img_001_cdbfacfeb6a2.png)
 
 蓝色背景的 Float\_PI\_CurrentLoop 子系统中三条结构相同的浮点支路：
 
@@ -114,9 +114,9 @@ Kp_old    = 0.981
 
 我们先看下小王工作的仿真结果，主要看D轴的电流反馈值和D轴的PI输出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASygAextncOgYFIMO63WTk3IFcfuZy6c1hKd6yzv3olJ5eHuHbFSrntQMl5895Tia32ymPFfiaMY6iaT4csiahseXu2u1icPlhWzLwY/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___18讲_改一个Kp__定点工程师和浮点工程师的一天_images/img_002_6196baec7d13.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASEKBrs4wqIKF1oRsJoOjgxbffkJcGpTXSNFo1wDPZRXC4j1r6hV4dk61qFoAOcNEC8rnib16bBF3EsaTjZwytcc0QLR22QYtvM/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___18讲_改一个Kp__定点工程师和浮点工程师的一天_images/img_003_25ec8f94f265.png)
 
 可以看到：
 
@@ -131,7 +131,7 @@ Kp_old    = 0.981
 
 我们再来看下老李的工作为什么麻烦：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAThmEN5y6Owib0sTaU9UjZZvfqPIvcZ1d8wcIjbAXXa77xxjBDm3KgA7ib2MCiawtLWb8Bu2cuGPdMiaPb7jEfebLCg9P5fvF6SneA/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___18讲_改一个Kp__定点工程师和浮点工程师的一天_images/img_004_5e97cc7a2d04.png)
 
 重点看这些环节：
 
@@ -147,7 +147,7 @@ Kp -> Q15
 
 老李不是只看 Kp 数值。他要确认 Kp 能不能放进 Q15，乘法后的小数位怎么处理，比例项和积分项相加时是不是同一 Q 格式，最后限幅有没有问题。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASSwW21NEP6Xzb5obCkMWphqY2bjJ1ibVBrcmO8S4H55kuPqULcaZIh50ep6Aj2vmGfM1vJpWcVfibTy1MaxmuRX4LSLYg9YFXy8/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___18讲_改一个Kp__定点工程师和浮点工程师的一天_images/img_005_ab4153c2faa3.png)
 
 workspace中的各个变量，就是文章里 Q 格式追踪表在模型中的可视化结果。
 
@@ -155,11 +155,11 @@ Kp 降到 0.45 后，比例项 P 变小。为了让电流最终跟上参考值�
 
 可以参考如下老李的定点运算的PI中P（绿线）和I（紫线）的分工变化：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARZVSNuiaicWGiaDggXQwEmHr2wyDWNZMnURk1xIXucODGFk7x3yzWia3UaicdWTJib5Ady1w83GcicnFdpVBnPHjYiaEHDIiclHWpKdw8E/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___18讲_改一个Kp__定点工程师和浮点工程师的一天_images/img_006_6e5a81f0172f.png)
 
 如果 Kp 改成 1.2 呢？看下橙色背景的压力测试子系统：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASIhVtgXiaic2IHQwU63wOpPgictP18QXT0djZL7GJ4btzCr7Lrbia0SOLTrTlU8eyZ4T1BLjeUkdIFwha5pOoibEUK5JWibBAuos5b0/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___18讲_改一个Kp__定点工程师和浮点工程师的一天_images/img_007_462c5f03cfce.png)
 
 因为：round(1.2 \* 215) ，结果为：39322。这已经超过 `int16` 最大正数 `32767`。
 
@@ -169,7 +169,7 @@ Kp 降到 0.45 后，比例项 P 变小。为了让电流最终跟上参考值�
 KpStress_q15_raw = 39322
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASSQiabk44ujichdCcdibfKWuqdtlgbicqhjLy9fAoiaqfo7Lq4eP38mGIy9S3j61rpicnMnSGLswx0A3fr3FzJ0yV6uwd1dSHfh1GKE/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___18讲_改一个Kp__定点工程师和浮点工程师的一天_images/img_008_602424558f5a.png)
 
 而 Q14 下，round(1.2 \* 214)的结果为 19661，所以 `Kp = 1.2` 在 Q14 中可以表示。
 

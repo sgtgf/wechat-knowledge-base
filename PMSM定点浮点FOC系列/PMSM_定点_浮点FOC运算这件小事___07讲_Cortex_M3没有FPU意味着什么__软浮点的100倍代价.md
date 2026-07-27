@@ -50,7 +50,7 @@ Cortex-M3没有FPU，同样的浮点乘法需要调用编译器内置的软浮�
 
 把常见运算的性能差异列成表：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARmHtiaP8icFLRas62YYpmy7ppNZfMicUEyGIANQibZe30kwZs4rfRgvNudATdtZJxlBALssw1RrZniaByZccQFkTT7UCJrKDdQQRr4/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___07讲_Cortex_M3没有FPU意味着什么__软浮点的100倍代价_images/img_000_2730f413505b.png)
 
 最后一行是关键对照：**定点乘法在M3和M4上都是1个周期**。M3不是算得慢，而是算浮点慢。做整数运算，M3一点都不含糊。
 
@@ -102,33 +102,33 @@ Simulink演示
 
 我们在Simulink中搭建如下对比模型：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARUALwGUZayWSuByt4d5gErPpP0G0PjRxibtAibl4t1OlKaeNvSExYJUXJmOVv8aYUqOW9SNbtxUvxpspoe0XicZQMrjhXxuiaNTJc/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___07讲_Cortex_M3没有FPU意味着什么__软浮点的100倍代价_images/img_001_e5474a5b0f63.png)
 
 **Subsystem A：**基于单精度浮点（Single）的 FOC 计算。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAT5EILa9icqhSKxbpp4xNGxicy8gMhEQPiaUf2TqydRlMlAicTPGib84WoU5KO0ibYxIns3WgFfWfs6kv4qSWjibELKQ18qwA8fvATTMc/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___07讲_Cortex_M3没有FPU意味着什么__软浮点的100倍代价_images/img_002_1a50e5186891.png)
 
 Subsystem B：基于定点数（Fixed-Point）的 FOC 计算。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATFqMGl1BLfafKsb1Zn6hHTib32GxIFHEdE61yrFzspJKh7E2WAzniazuFRQ4HVspMVvJPv2s6gNr49icICDic8QpsKBTJxUQA7EbE/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___07讲_Cortex_M3没有FPU意味着什么__软浮点的100倍代价_images/img_003_ed0f14e77482.png)
 
 我们首先看下仿真结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAScDgLEiaYCPU0WxpaFAI6fwfroTeCUupJcZasicic12w7YaX0kaEWgCRsfQ3YNTcSS5ULibpcbbd5icvnZAnwh2ibxQ3UVyDSRjG94o/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___07讲_Cortex_M3没有FPU意味着什么__软浮点的100倍代价_images/img_004_991f4b61f38c.png)
 
 在全局视野下，浮点（双通道）和定点（双通道）输出的 Iα 和 Iβ 波形是两条漂亮的正弦波，并且完全重叠，幅值精准地保持在输入设定的 1.5A 上。
 
 我们再把模型放大来看：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARRiamns2dJtpyRFcJbTVK77J3Hxdo7j968FkgicZQdYQ5ZuveEMCmOQ4a1uzIJ6U1smHldskmAzmcrBJUIAUY6ayiaSJtrdicwoUE/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___07讲_Cortex_M3没有FPU意味着什么__软浮点的100倍代价_images/img_005_a6b9862995e8.png)
 
 当波形横轴放大到 ms 级别时，所有的正弦波不再平滑，而是呈现出一格一格的阶梯状。
 
 这是在模型中设置的 Ts = 50us 离散定步长求解器发挥的作用。真实单片机的 ADC 采样和运算是在定时器中断里一次次执行的。波形里的每一个台阶，就代表了一个 50us 的运算周期。这是高度还原 MCU 真实运行环境的表现。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARplJ9TicYcmPtWjjYhHaOPbLvE3YxXgUIAHajzxiazIaqg05hkK1iaibV8SPpmh3XtT7mw4ydqnloENH90fwuZWRJe520TtA62ibNA/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___07讲_Cortex_M3没有FPU意味着什么__软浮点的100倍代价_images/img_006_e3e24c2f199f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASBN2xDaBjpUx668bJiaxuKul5XRo3QLWH95vXrADDGs7yk8BaMRjR5ADoiab7X1p7ibYKDl9q1f5nXtTzGFK4ibQ9SAq5CjW1PMLE/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___07讲_Cortex_M3没有FPU意味着什么__软浮点的100倍代价_images/img_007_58649a163644.png)
 
 针对Iα，黄色（浮点）与蓝色（定点）的贴合度非常高，差异极小；而针对Iβ，橙色（浮点）与绿色（定点）**存在明显的缝隙，且绿色定点波形在波峰处明显“矮”了一点点！**
 
@@ -139,7 +139,7 @@ Subsystem B：基于定点数（Fixed-Point）的 FOC 计算。
 2.  **“向下取整”带来的偏置误差（Bias Error）**：在模型中，给所有定点模块配置的舍入模式是 “RndMeth”, “Floor”（向下截断）。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARPCZ7tXq0nls452dE7B5nwfn3KRjQw1pMibh8baYGN7WL9j7by29OGZltDSnV4FWTQqbQ1xicC20w9icCGofBtzXkUnFW7btGgA0/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___07讲_Cortex_M3没有FPU意味着什么__软浮点的100倍代价_images/img_008_cf687271e8a3.png)
 
 **MCU 的原生右移操作（比如**\>> 11）**在底层硬件上的数学表现，就是纯粹的无脑截断（Floor）！**因为总是抹掉小数位，不进位，所以每次计算结果都会比真实的浮点数**小一点点**。经过三次积累，绿色的定点波就不可避免地向内收缩了一点（变矮了）。
 

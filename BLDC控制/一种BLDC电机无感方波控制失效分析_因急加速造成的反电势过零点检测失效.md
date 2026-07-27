@@ -14,19 +14,19 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRF1gYBfjzsuqgibc07zn5FJiagcf83LntNqSeEOSxvURfDpXGVXOT05MmpeOom4tO4djiciaCsYMYia95g/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无感方波控制失效分析_因急加速造成的反电势过零点检测失效_images/img_000_ceb1f8bce472.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRF1gYBfjzsuqgibc07zn5FJiaWe4gsiatSpf8bjWTbQia1pSibzm2uerWb6ibpaHYPwUMlE4iajZ6XA3CkIA/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无感方波控制失效分析_因急加速造成的反电势过零点检测失效_images/img_001_582e0f01f1a8.png)
 
 突然将转速（占空比）指令给到最（极）大，电机急速加速，会发生漏检或错检反电势过零点的情况，致使电机换相失败，进而引起大电流烧机。
 
 以A相绕组端电压为例，如下图:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRF1gYBfjzsuqgibc07zn5FJiay0ERjR1f6k6JSn5yrmBHSmmIiax0hGn9XMCH95prgw0qLSQdBP0OhTA/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无感方波控制失效分析_因急加速造成的反电势过零点检测失效_images/img_002_5e77d7acaf8f.png)
 
 如图(b)所示，续流的影响会湮没掉过零点（续流时间超过30°/ω，ω为角速度，单位为rad/s），特别是在控制端电压的占空比急剧增加的情况下。如下图所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRF1gYBfjzsuqgibc07zn5FJia7dyRAeKyfvxZHklzicjbwZgsOVgI9hNfMFmgelQhUW03mic9jUuicpNsg/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无感方波控制失效分析_因急加速造成的反电势过零点检测失效_images/img_003_376d5f24b347.png)
 
 一旦过零点被湮没，造成过零点漏(错)检会导致电机错误换相，严重时产生大电流烧机。
 
@@ -36,9 +36,9 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRF1gYBfjzsuqgibc07zn5FJiagcf83LntNqSeEOSxvURfDpXGVXOT05MmpeOom4tO4djiciaCsYMYia95g/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无感方波控制失效分析_因急加速造成的反电势过零点检测失效_images/img_004_ceb1f8bce472.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRF1gYBfjzsuqgibc07zn5FJiaWe4gsiatSpf8bjWTbQia1pSibzm2uerWb6ibpaHYPwUMlE4iajZ6XA3CkIA/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无感方波控制失效分析_因急加速造成的反电势过零点检测失效_images/img_005_582e0f01f1a8.png)
 
 在控制算法中杜绝占空比剧增的情况。
 

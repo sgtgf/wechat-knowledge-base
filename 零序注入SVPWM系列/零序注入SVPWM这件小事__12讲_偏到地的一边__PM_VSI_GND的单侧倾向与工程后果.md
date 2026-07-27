@@ -26,7 +26,7 @@ if (pm->config_VSI_ZERO == PM_VSI_GND) {
 
 首先：uDC = -uMIN 。然后，这个 uDC 会被加到三相上。我们来看看，当 uMIN 所在的这一相，加上这个 uDC 之后，会发生什么：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAT2iaz8icgeTJj28v14EZpOiaBpnIhcYeSWCUp9Cu3dicf0BQ8ibyH0jRibBicy998ExZFcCag35ne8AibggvX4peTj4GUwPmGSSG0f6PQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__12讲_偏到地的一边__PM_VSI_GND的单侧倾向与工程后果_images/img_000_8efd6ae85880.png)
 
 看到了吗？这个策略的目的，就是把三相电压中**最低的那一相，直接拉到 0！**
 
@@ -101,11 +101,11 @@ if (pm->config_VSI_ZERO == PM_VSI_GND) {
 -   **路径B (GND)**：注入零序 e = -u\_min（占空比域\[0,1\]）。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARialQXc8v9TvicCPpHkq97WkLWEz8EQlwlkVlsiaiajJkFGsgAyZoqpCrrakhGeicyyokc55kUibZJlqibKSzgwfKJBsFap3g07aZbAo/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__12讲_偏到地的一边__PM_VSI_GND的单侧倾向与工程后果_images/img_001_8e7354e2f4d6.png)
 
 **3\. 观测：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQ7riaWMmtfhKCibAbLWu4cmouQl2OMcaAZzDVd4Qj9icHTVOwttAXliaj0GxvQvoicaMwFItmMraSekYlib4wmKCgu5E3ISnHRPYgYU/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__12讲_偏到地的一边__PM_VSI_GND的单侧倾向与工程后果_images/img_002_c2429edf2922.png)
 
 我们首先在视觉直观上感受一下，什么是“偏航”：
 
@@ -120,7 +120,7 @@ if (pm->config_VSI_ZERO == PM_VSI_GND) {
 
 注意看下图里的那些**水平直线段**（这里原本应该是波谷出现的地方）。在这段时间里，占空比是 0。这意味着什么？意味着这一相的下桥臂开关是**常开**的，上桥臂是**常关**的。此时**根本没有开关动作！**既然没有动作，就没有开关损耗。每一相都有 1/3 的时间在“休息”。所以，GND 策略能帮我们**节省 1/3 的开关损耗**。这就是它的核心价值。”
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQl5icVYJf2tcF9cMK6TtOPfycIHP15vjYqrb88ukAu2MjqFuNqMeCYO2SMZAVsmzWMwsUKH7URe2vnGpVP6jblpZ2bHv6SbKeE/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__12讲_偏到地的一边__PM_VSI_GND的单侧倾向与工程后果_images/img_003_9feb64db7fab.png)
 
 **代价是什么？**
 

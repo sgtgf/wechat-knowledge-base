@@ -76,4 +76,4 @@ AI行业正在交的学费，电机工程行业在二十年前就交过了。学
 
 **资源受限不是过渡期，是常态。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARX79ictmib66E186uu7IU8m1a6fWhuKduXfia4VxqnOwltj2XRvjHwVxC9dvP8mwaUz5O4p6U1F8ZPGM72HkjlJhsMvXF9MFGlMI/640?wx_fmt=png&from=appmsg)
+![](从_Q格式到_4bit_量化_电控工程师比_AI_工程师更懂什么叫_降本__images/img_000_72f325c344a6.png)

@@ -35,7 +35,7 @@
 
 我们可以把整个散热路径，看成一个**串联的热阻网络**，就像电路里串联的几个电阻一样。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRF2uGYkvsYBMyOxQawu9NhE5tVlWibvcoiaYRYicK1pMVKT3h7b0s4WicrVguTR3e1pw8LIotNOF4Gc4w/640?wx_fmt=png&from=appmsg)
+![](一招鲜吃遍天_揭秘MOSFET直流稳态下的_热阻_大法_images/img_000_158ae395a43a.png)
 
 这场“长征”主要分为三段：
 
@@ -67,7 +67,7 @@
 -   **查找**`**Rth_jc**`**:** 我们打开一份MOSFET的数据手册，比如AOT240L这个型号的NMOS，找到里面的“Thermal Characteristics”表格。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRF2uGYkvsYBMyOxQawu9NhE8ZgVuj2FHFdEAMC4cHZw6xLXoMz0kjbFfwwo0KKbeicLxVlXzTKuYrA/640?wx_fmt=png&from=appmsg)
+![](一招鲜吃遍天_揭秘MOSFET直流稳态下的_热阻_大法_images/img_001_87cf45842ad5.png)
 
 看到了吗？`RθJC`的最大值是**0.85 °C/W**。这意味着，在这颗MOSFET内部，每产生1W的热量，芯片的核心温度(Tj)就会比外壳温度(Tc)高出0.85°C。
 

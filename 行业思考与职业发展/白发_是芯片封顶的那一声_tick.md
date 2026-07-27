@@ -52,4 +52,4 @@ Overflow。
 
 它是一个等你去走的岔路。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARzYkIzfRSTciaOLD6Ehicic6qaqutxcLVO1ibqCVRbQcOB4I2iblC0uiasr8p6IwnolgqaBh4w6nnggicZMJym7Tf1a2xxw6EdN73xek/640?wx_fmt=png&from=appmsg)
+![](白发_是芯片封顶的那一声_tick_images/img_000_bb6b604b14e0.png)

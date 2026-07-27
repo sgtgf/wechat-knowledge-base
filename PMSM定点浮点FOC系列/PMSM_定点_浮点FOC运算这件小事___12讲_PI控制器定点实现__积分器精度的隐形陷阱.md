@@ -50,15 +50,15 @@ rtb_SignPreSat_h = (int16_T)(((rtb_Sum1_l * 32149) >> 15) + Integrator_DSTATE_e)
 
 ## 魔数身世快报
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASG9ZQqIRflcZUVpybibsbqYCTrkJm8HlfDb2kpltXzrnsRX3Zs8EwlFxlHyZVatMpynoLT5e8fxmdHLzrrY7nXiaKWNtuFxR1w8/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_000_c130d2e2fa42.png)
 
 先说**积分系数为什么拆成两步**。浮点版代码一行`0.0001F * rtb_IProdOut_j`就完事，定点版把它拆成了两次乘法：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARiccj8x95icqWG676ne677ia9XfplibBe8cj8WmacAMy30mr4w4McghsqOTuKJic0GSPdtewmHQnDyUMg5j2vGxGQtBKMrGSxeTOia8/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_001_e3f6d9988084.png)
 
 为什么拆？因为0.02215这个数，如果直接用Q15表示就是 `round(0.02215 × 32768) = 726`。乘法 error × 726 里，726 只占到 int16 满量程的2%——绝大部分位宽都浪费了，精度很糟糕。而拆成两步，每一步的常数都能用到 Q15/Q16 的满精度。这就像你算 0.02215 × 1234 时不直接把0.02215近似成"0.02"，而是换个思路：把0.02215拆成两个稍大数的乘积。比如：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATIHRVEuITDZJgpLVYbN5QpQWjB6q6yJYkUYaZlf53ia0yPqJnmGb3AUdJWCOpzWBal03s5hMRhB56dEJGySicvzlG1bIWq7VPZs/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_002_b42174208b09.png)
 
 -   第一步用Q15表示1.7308：1.7308×32768≈56715（用到满量程的87%，16位有效位）。
     
@@ -75,13 +75,13 @@ rtb_SignPreSat_h = (int16_T)(((rtb_Sum1_l * 32149) >> 15) + Integrator_DSTATE_e)
 
 各位同仁，重点来了。定点积分器的更新公式是：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARLo9GVjVfIjHBWmPEqh8M7tEnF6kdRzeRAYMCJEic3z5GZxbpREmo1S8BsqB1icr3djtPnZ8f8DxK7MfdGP3LibVHNQ3sD1Urnhw/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_003_391cc36e3b33.png)
 
 那个`⌊⌋`就是移位截断——小数部分被丢掉，向下取整。
 
 现在问一个关键问题：**error要多大，积分器才真的会动？**带入数字算一下。要让增量至少是1（积分器最小动一格），需要：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATvGhomkKIxJU5AcqwcdziadTCBvA4tS1iabYadXDLsAcsIQnLOYI5icUN9vSwzQrZNSC1OIQ0AwKYN14VO23BjXjCRuINQWDyZDw/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_004_952952e0adc9.png)
 
 也就是说，**在Q15格式下，误差的绝对值要大于等于12**。低于12的误差，乘完56715、再乘6711、再右移32位——都会被截断成0。积分器纹丝不动。
 
@@ -123,43 +123,43 @@ Embedded Coder不傻，它看得见这个问题。它的应对策略是：**在S
 
 我们在同一张仿真画布中，并列跑3条计算，分别是浮点运算（蓝色子系统）、定点16位运算（绿色子系统）和定点32位运算（橙色子系统），基于同样的指令（黄色子系统），我们对比一下各个子模块输出的信号及误差。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASWH6npzNNfCW1H2ialrb6piavTJibwOjFgL61HevdKZ4r2uC85a8pC10VRA2PS4ibzO1zUSed3khxYDibDHOKDBaKVqvgib4uyns43w/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_005_020a0e6592f0.png)
 
 指令子系统（黄色子系统）内部实现概览：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARsphPn5ey9lhcYF2IkJWxDPmwdv1Haia7yQicZCDYZzN0HDMTWPNmAQDGd1bG801PsicSbdqdhQNK5rkhroK0Z4Rx6UpMicgkCsTg/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_006_2903171bf31f.png)
 
 浮点运算（蓝色子系统）概览：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARFcxK47SyxF6YjuwQjAL7rzBVe724cHia1zSaL0demnCicDAo5l5pHj49x3vDn6JIiavm1yS3df82V5RlVbDOIsmqIOmibFFdkKibo/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_007_5df8c3822bc2.png)
 
 定点16位运算（绿色子系统）概览：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATJChEL8zenvuBgDGOHCUbD4Fcoibmjom4Bqv85oLhbJlfUoS3C0VFQ8rj0LAOeCgz431jzm7QsvBJOZ4mgqibltdCErsJUemEq0/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_008_766936bd3322.png)
 
 定点32位运算（橙色子系统）概览：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARq30bYzv9ibhF0qtX63rK4Vicx9pMKo30Xko1quI0MiaIQiaVlhw5LuvhekBBXI41pAUl3sJzRP7WIc8e3A7o60lSpYCW4MVhHias8/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_009_6a1df5e4ef54.png)
 
 为了更贴近生成的代码逻辑，仿真画布中还加入了死区分析的部分，即白色背景的子系统，其内部概览为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQveY1xABPS7qZGXtIPHmWzVW6MEUsOVPMI4RwUfcGeDQ6uEJICCPJiauictUibVnXDYRPQHv09207ox1QNvw85cC049CuhOPYeWw/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_010_d12dc7439ec6.png)
 
 我们来看下仿真结果：
 
 先把目光放到 **Scope\_Main** 这个示波器上。咱们先看最显眼的三条线：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARXRfpiaX4EXzWibczX1PvyfG2iaSLaCUTrsBI4IxuyWHnJcvf7u8sghuzDxFcTpIXC0kS1lOW76jjXibPkLibOmZ9zvnjkEXpOCzW8/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_011_57bb3b5462ce.png)
 
 **蓝色的**是浮点PI的积分器输出（被绿色线覆盖），**绿色的**是改良版定点PI（int32累加器），**红色的**是咱们最常见的 int16 定点PI。三条线摆在一起，各位同仁能一眼看出问题在哪吗？
 
 咱们再看下前30毫秒，误差是多少？看最底下那根黄色的线：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARqNBKVeh83mqb2eTljxR7BwY0q7qBSZ0k7Biar8N1nUOabHu9fOrWHGGflpPYMEicZVbicFDlYmmZfBT9v3icWGRPtEygRVJElhHo/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_012_e4e76d919259.png)
 
 它只有5 counts、11 counts，换算成Q15的话，连满量程的万分之二都不到。但就是这种"小误差"，在实际的电机控制里天天遇到——误差很小的“稳态”。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASM3sLvibdFQ8KepjhMwxYP5G8TMk9LEEmXadqL0icq6W9AGCn0KdAvMBz1qF5bV9qkcOzNHpFEiaSbX8NBIvgibic0nPLx5774Gb6Q/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_013_2fc1c181e213.png)
 
 继续盯着红色线，0到0.03秒这段时间。蓝线跟绿线在慢慢往上爬，爬到两百多counts了，**红线呢？纹丝不动，像死了一样。**
 
@@ -173,7 +173,7 @@ Embedded Coder不傻，它看得见这个问题。它的应对策略是：**在S
 
 那阈值是多少呢？咱们上文中推过了：`232 / (56715 * 6711) ≈ 11.3`。误差小于12，全部阵亡。你看0.01到0.03秒，误差分别是5和11，正好都在这个"死亡区间"里。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQvblbX0XFR69MyvZVxwVRVuF1Mj1ygySvVZvNDuNK6DcibdzTXic3Sa5mPDqRCh02jEe29Lxjo68ORRT3RJ4uUXiaypO3Z6HMJ5A/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_014_ff9ccd838dfc.png)
 
 好，时间走到0.03秒，误差变成了12。咱们再看红线——**它动了！** 虽然动得很慢，但好歹开始爬坡了。
 
@@ -183,11 +183,11 @@ Embedded Coder不傻，它看得见这个问题。它的应对策略是：**在S
 
 再看另一个示波器 **Scope\_Delta**。蓝色线就是 Fixed16 每个周期的积分增量 ΔI。0.01到0.03秒，蓝色线死死趴在零上，一点脾气都没有。红色的死区标志在这段时间是高电平——它也在喊："注意！死区来了！"
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQB218kuciawtkwEd5bDKKxQCKViatSxOawO8yUfxqyCXDMmM5dMSSpvTic9icOxVMS5yiaq6kyiaU7VicW7GHZbd6AjzegKoxklY56vE/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_015_76339e03567a.png)
 
 重头戏来了。0.04秒，误差突然跳到200——可以把这个过程理解为一个突加负载。咱们看三条线怎么反应：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATR5uZM32pUMZmhCSklecnyBcVDfH8NOynl1ibiaKkRcuicQJtrj5f9ZWCXLfFILILF0P0Iy500DkwRzMGgo1AdiclOgA6qpaqK85Y/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_016_e47ddb6e2011.png)
 
 蓝线和绿线，几乎是重合着往上冲，0.05秒冲到接近2000 counts。红线也在冲，但**明显落后了一截**，大概少了两百counts。
 
@@ -203,7 +203,7 @@ Embedded Coder不傻，它看得见这个问题。它的应对策略是：**在S
 
 咱们再看 Scope\_Delta 里绿色的 lost\_increment（死区损失量）：在死区期间它是正的，说明Float版本的积分器确实在跑，而Fixed16全丢了；到了大信号阶段，绿线几乎回到零，说明两种实现增量基本一致，**差距只在死区**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAT1h0hQibnpBmL7hyMoGEdorJ2eFcCnrWYLdW78qLTkqRric3OSxUhz50ZoFNWZPRqYEM5HBNTIMBzQTWy9zvg9iczO2fXOVa4VKk/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___12讲_PI控制器定点实现__积分器精度的隐形陷阱_images/img_017_18e06a79d450.png)
 
 定点PI的积分器，最怕的不是算不准，而是**算完被 Floor 截断成零**。当稳态误差小到 Q15 下的几个 counts 时，int16 字长的精度刚好和 `Ki*Ts` 的量级撞在一起，增量被 Floor 吃掉，积分器进入"假死"状态。这不是某个代码bug，是16位字长的**结构性死区**。
 

@@ -15,13 +15,13 @@
 -   同时，还有一个基础的`Id`指令，我们称之为`Id_ref_in`。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFGHG67RZ0LPjRJUxHw6uOUDIvzZPolJw1aGgqaQKFef6XhWl0gkwUIiaBXYVnbnicaBFBL1a52Vm9Q/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_点火_篇_开环仿真与观察_images/img_000_5da1b1bb81a2.png)
 
 **2\. 第一站 - MTPA修正**:
 
 MTPA\_Calculation\_Module是一个“旁路修正”模块。它的输入Iq\_feedback，是**反馈电流**`lu_iQ`！这个信号不是我们生成的`Iq_ref_in`，而是从真实硬件测量回来的 `Iq`！所以，在我们的顶层画布上，需要增加一个新的输入端口，就叫`Iq_feedback`。将这个`Iq_feedback`端口连接到`MTPA_Calculation_Module`的输入。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFGHG67RZ0LPjRJUxHw6uOUtJzI4iaib5M2KlIGic45K3JIFeibwCYd5pPCZdCNcS31ZALFBYkJdR8RoQ/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_点火_篇_开环仿真与观察_images/img_001_3c70b4fd5941.png)
 
 模块的输出`Id_mtpa_component` (`iD`)，根据C代码，还需要经过一个**低通滤波器**！原始代码为：
 
@@ -31,7 +31,7 @@ pm->mtpa_track_D += (iD - pm->mtpa_track_D) * pm->mtpa_gain_LP;
 
 我们可以用一个`Discrete Filter`模块，或者用`Gain`, `Sum`, `Unit Delay`搭建一个一阶低通滤波器来实现它。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFGHG67RZ0LPjRJUxHw6uOU0PSVXmibf2PrFXyn7KKn7JZ2EKyJqJpezrWibpXvUu3jsJYibQ5pNh0fQ/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_点火_篇_开环仿真与观察_images/img_002_32d537de5e70.png)
 
 **合流！: 将****主干道**上的`Id_ref_in`，与经过**低通滤波后**的MTPA `Id`分量，用一个`Sum`模块**相加**！这个`Sum`模块的输出，才是经过MTPA修正后的`Id`指令！
 
@@ -42,7 +42,7 @@ pm->mtpa_track_D += (iD - pm->mtpa_track_D) * pm->mtpa_gain_LP;
 -   同时，将`vsi_DC`, `U_bus`等信号也连接到`Flux_Weakening_Module`。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFGHG67RZ0LPjRJUxHw6uOUcbMBYL3dYicq8SlweHdfFic7RN34koQIWVmic8iblJBASpS8BC9NKia1bIQ/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_点火_篇_开环仿真与观察_images/img_003_f6e9e9b05afa.png)
 
 **4\. 终点站 - 最终裁决**:
 
@@ -51,7 +51,7 @@ pm->mtpa_track_D += (iD - pm->mtpa_track_D) * pm->mtpa_gain_LP;
 -   同时，将`Ud_fb`, `Uq_fb`, `U_bus`等反馈信号连接到`Power_Limit_Module`。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFGHG67RZ0LPjRJUxHw6uOUgCBrXmu49ibeRJ74SXqFzV90trpialEZiaZwDKlcnjtesV7Zia52nLGnpA/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_点火_篇_开环仿真与观察_images/img_004_108bdddb0709.png)
 
 **5\. 最终输出**:
 
@@ -60,7 +60,7 @@ pm->mtpa_track_D += (iD - pm->mtpa_track_D) * pm->mtpa_gain_LP;
 -   插入一个scope示波器，用于观察。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFGHG67RZ0LPjRJUxHw6uOUk41raicrbOSp4sGXKEjg0yOrgUicQicCRlwCsibxSyZ24pWcicRicgkA9tbw/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_点火_篇_开环仿真与观察_images/img_005_f9978e89adfb.png)
 
 终于，我们的simulink模型就和`pm.c`的逻辑“像素级”对齐了！
 
@@ -74,7 +74,7 @@ pm->mtpa_track_D += (iD - pm->mtpa_track_D) * pm->mtpa_gain_LP;
 
 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFGHG67RZ0LPjRJUxHw6uOUVLW2BjKakZ1APeQ7iaKYbAIxc5diaZpgoVm3LcFHb5rwGaCXVJ3FXibXg/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_点火_篇_开环仿真与观察_images/img_006_350699b02942.png)
 
 #### **Step 2: 设定仿真参数（时间与步长）**
 
@@ -82,13 +82,13 @@ pm->mtpa_track_D += (iD - pm->mtpa_track_D) * pm->mtpa_gain_LP;
 
 **1\. 仿真时间: 在Simulink窗口顶部的工具栏中，你会看到一个写着`10.0`（或其它数字）的框。这是“Stop time”，代表仿真持续的时间（秒）。对于初步测试，`1.0`或`2.0`秒就足够了。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFGHG67RZ0LPjRJUxHw6uOU6yV9SA9sTvROQ1FdtoiaPhnjtCqPnvdRrRsd9euqAzdU9w4tkkb5DdA/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_点火_篇_开环仿真与观察_images/img_007_b1d5bfdc29aa.png)
 
 **2\. 求解器**(Solver)**设置:**
 
 -   点击工具栏上的**齿轮图标**（Model Settings）。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFGHG67RZ0LPjRJUxHw6uOUzdWzialVwU9diahCt3LbChPOpvwMPQBQWE09RpAs8HUpBKkuVTTRNlPg/640?wx_fmt=png&from=appmsg)
+    ![](Simulink_弱磁控制沙盘推演_之_点火_篇_开环仿真与观察_images/img_008_69de11d5f3ae.png)
     
       
     
@@ -104,7 +104,7 @@ pm->mtpa_track_D += (iD - pm->mtpa_track_D) * pm->mtpa_gain_LP;
 -   **`Fixed-step size`**: 这里需要填入你的C代码的运行周期，也就是`1 / pm->m_freq`。例如，如果你的控制频率是20kHz，那么这里就填`1/20000`或`5e-5`。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFGHG67RZ0LPjRJUxHw6uOUDLm0tWwkicEDbRLibalmMkn92ibuL68DqnMefdibwt7DQDXTWqpib6dJxcg/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_点火_篇_开环仿真与观察_images/img_009_18fe6b910ad5.png)
 
 #### **Step 3: 踩下油门！**
 
@@ -117,15 +117,15 @@ pm->mtpa_track_D += (iD - pm->mtpa_track_D) * pm->mtpa_gain_LP;
 
 PS：此时没有真正的被控对象，因此模型中的constant变量都通过.m脚本文件提前进行了赋值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFGHG67RZ0LPjRJUxHw6uOUDYic4yzicxtPUEOibiayicZPQiaiaXaBM0qVCa2WiaK4Ls5fJjUI2dGxwTAvng/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_点火_篇_开环仿真与观察_images/img_010_d6eef23c9538.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFGHG67RZ0LPjRJUxHw6uOUCvqRy4NJzUo7wbSKp828beepVXdP0MdkI3GEIQahSgzianqA7MWbVBw/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_点火_篇_开环仿真与观察_images/img_011_446da6ee7bf7.png)
 
 Step 4: 查看结果！
 
 双击你放置的`Scope`模块。一个绘图窗口会弹出来！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFGHG67RZ0LPjRJUxHw6uOUUUq1FcNzESXfPYGiatGJ6l2kXIYsX59HPXicklgZeiaSjbVTAGr46GMVg/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_点火_篇_开环仿真与观察_images/img_012_eeebab952c56.png)
 
 改变DQ轴的电压指令，改变转速值（和相应的反电势值），你会发现：
 

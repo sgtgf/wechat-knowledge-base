@@ -42,7 +42,7 @@ LUT（Look-Up Table）的核心思想就是：把复杂的计算工作放在线�
 
 请看图！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH8NtXNRjLpGB2YuvbxVpwyAn45oiafVJx79ZEMOTtW7icVQeopqxkr649Q3jweBW68j2G16rNdzUcQ/640?from=appmsg)
+![](制表_的艺术_如何为PMSM的MTPA打造一本_通关答案集___images/img_000_33d57fe154fc.png)
 
 这张图展示了Simulink里一个叫LUT based PMSM Control Reference的模块，它就像一个“制表大师”。你看，它可以接受各种各样的“原材料”：
 
@@ -87,9 +87,9 @@ mcbGenerateTables
 
 请看图！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH8NtXNRjLpGB2YuvbxVpwyvVL9QWgBGH3bT2aicsKibhUlrwnrCxMCqsRSe064KO5axm3Fz87KvFTQ/640?from=appmsg)
+![](制表_的艺术_如何为PMSM的MTPA打造一本_通关答案集___images/img_001_22ba0d66ec79.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH8NtXNRjLpGB2YuvbxVpwyuIgiaC9ick6NUScCmaS5GOV5Z1NptxhTprYkJZWS3KquZSSdd51EhJPg/640?from=appmsg)
+![](制表_的艺术_如何为PMSM的MTPA打造一本_通关答案集___images/img_002_a23ba1a590c6.png)
 
 (左图为 id LUT, 右图为iq LUT)
 
@@ -115,7 +115,7 @@ mcbGenerateTables
 
 请再看这张图！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH8NtXNRjLpGB2YuvbxVpwyxVngIXdqvOTeSdWtn8tDslvuDWTpnoeRViaPPtDruicD6SUkCFMNO7VA/640?from=appmsg)
+![](制表_的艺术_如何为PMSM的MTPA打造一本_通关答案集___images/img_003_c4863a2623b2.png)
 
 这张图把我们的“答案集”（那些密密麻麻的黑点）和我们上上次讲的“约束地图”叠在了一起。你可以清楚地看到，我们算出的所有“标准答案”，都完美地落在了物理约束允许的范围之内，并且沿着最优的路径（MTPA和弱磁路径）分布！这证明我们的“制表”工作是完美无缺的！
 

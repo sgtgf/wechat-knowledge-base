@@ -44,7 +44,7 @@ MRAS 的误差  是  平面上的一个二维矢量。它有两个分量  
 
 反过来，当 **估大了**，估计磁链转得太快，**超前**于真实磁链，误差矢量的旋转方向也反过来——顺时针"甩"。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vvmIAIMZsAR8Zwj3Ma3vPgVYa61to7VXyBgJ6zESAFAruRYFgHEWbapWIJu49SE7ctNe9UbkbIYtD8TwDxyU4ggARHDTFtORibJ3L9icusLc0/640?wx_fmt=gif&from=appmsg)
+![](PMSM观测器控制这件小事___43讲_自适应律_Popov_超稳定性是怎么_逼_出转速的__images/img_000_486da840cf55.gif)
 
 所以，**误差矢量不是乱指的——它的方向里编码了"转速是估大了还是估小了"的信息。**
 

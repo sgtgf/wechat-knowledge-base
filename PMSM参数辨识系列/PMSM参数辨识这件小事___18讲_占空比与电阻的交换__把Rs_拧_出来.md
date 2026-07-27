@@ -92,17 +92,17 @@ m_ULong3 = m_ULong2 - m_ULong1; // 电压差
 
 如果你只测一点：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFQibPP80ZIiak0uHBFCwrT25Du7D9UFN3wueUSfob3b8EfibEPBOUzmZkvKMnB2DTIC0n87hWeaiaGtA/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___18讲_占空比与电阻的交换__把Rs_拧_出来_images/img_000_aa41d6e5bdef.png)
 
 算出来的 _Rs_ 会比真值大很多，尤其是在低压电机上，误差能到20%！
 
 但是，如果我们测两个点：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFQibPP80ZIiak0uHBFCwrT25gaxlxBvkJMrZrlgbdaceAOtia0Y0icjJagziaCGHlyJWEhBMt9Bpoq9eg/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___18讲_占空比与电阻的交换__把Rs_拧_出来_images/img_001_f62ffccc458e.png)
 
 两式相减，_Vdrop_ 这个“过路费”就被减掉了！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFQibPP80ZIiak0uHBFCwrT25jY9Llf539nZbRDtiawrQVmFOZwiaaDbo2vmvTJnfSKDhiazxibthO0JXgA/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___18讲_占空比与电阻的交换__把Rs_拧_出来_images/img_002_4d949ab9fa7a.png)
 
 **这就是代码里**`Case 4`**拼命在做减法的物理本质。**代码B的作者非常清楚，硬件是不完美的，软件必须通过数学手段来“提纯”物理参数。
 

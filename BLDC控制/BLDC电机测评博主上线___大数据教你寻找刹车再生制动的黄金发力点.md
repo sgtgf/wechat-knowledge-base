@@ -18,7 +18,7 @@
 
 请全体同仁，目光锁定这张图！这就是咱们的“遥控器灵敏度测试报告”（注：论文原文中的图标有误，粉线理应代表刹车时的充电电流\[Charging Current\], 但作者手误标注成了电压\[Voltage\], 蓝线理应代表充电电压\[Voltage\]，但作者手误标注成了电流\[Current\]）！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHhVQRsyjdXTDWY0ziaESrVlyBYhsgXiaauubc6iaPgHzgcsMibiaK9PEIjLGIR6cEo5h1va9syhJiaKMHA/640?from=appmsg)
+![](BLDC电机测评博主上线___大数据教你寻找刹车再生制动的黄金发力点_images/img_000_16404b6cdadd.png)
 
 这张图告诉我们，这个“遥控器”的脾气，有点古怪！
 
@@ -55,7 +55,7 @@
 
 全体同仁，请将目光转向这张图！这是咱们的“不同车速下的性能汇报”（下图中，图(a)测试点为：PWM占空比47.33%，起始电压47.46V；图(b)测试点为：PWM占空比59.17%，起始电压48.18V；图(c)测试点为：PWM占空比71.01%，起始电压47.81V；横轴图标理应为转速\[rpm\]，但作者笔误标注成了PWM duty \[%\]）！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHhVQRsyjdXTDWY0ziaESrVlJ4ZAlHRzTj1rsbyiarweGomkd0LyXEEns0AdAZzrNbyw5n1oQBJyF7A/640?from=appmsg)
+![](BLDC电机测评博主上线___大数据教你寻找刹车再生制动的黄金发力点_images/img_001_3f2ec2400d8d.png)
 
 发现一：速度太慢，它就“罢工”了！
 
@@ -79,7 +79,7 @@
 
 这篇论文最后还真刀真枪地去路上跑了一圈（图5和图6），总结了一些血泪教训：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHhVQRsyjdXTDWY0ziaESrVlZAcRVFB0fQMYrE2tccjnYsRBJvTWR6CJGkHpn4nuVy7JW3EiatHeWaQ/640?from=appmsg)
+![](BLDC电机测评博主上线___大数据教你寻找刹车再生制动的黄金发力点_images/img_002_8bbc089bcf16.png)
 
 1.  To 硬件工程师（电源护卫）：你们看图6(e)那个电压波形，车子一启动，电池电压“Duang”地一下掉了5V！一刹车，电压又“biu”地一下冲上去3V！这个电压波动非常剧烈！你的电源电路设计，必须有过压、欠压保护，不然电池和控制器都得“英年早逝”！
     

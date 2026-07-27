@@ -85,7 +85,7 @@ gImAcrQ24.Total = (gPmCsr2.UMOut<<12) - ((s32)gPmCsr2.DeltM * (s32)gImAcrQ24.KP
 
 为了凸显 代码B 的“暴力美学”，我在仿真画布中平铺了三个平行的PI控制器，去控制三个完全相同的虚构电机（被控对象），并在同一个Scope里显示波形：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARjicTRWUDR7ickuOTx0NnI6bCicJxIH4Kr0gsQOsxHfHiaDcYnkkbC3XBD7Gdbojxl5z7oiczyZZZ1zLA18HttcCRw6dK9cThuUW08/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___09讲_抗饱和实战_(II)____反向计算法_(Back_calculation)_与状态重置_images/img_000_ab181f3d90ec.png)
 
 -   **Controller 1 (小白派 - 无抗饱和)**：传统的离散PI控制器，无任何限幅处理。用以展示积分器是怎么“跑飞”的（Windup现象）。
     
@@ -96,7 +96,7 @@ gImAcrQ24.Total = (gPmCsr2.UMOut<<12) - ((s32)gPmCsr2.DeltM * (s32)gImAcrQ24.KP
 
 对每个子模块感兴趣的同仁，可以自行下载该模型研究学习，本文不再赘述各个子模块的内部实现原理（需要特别留意的模块已经用显眼的颜色标识出），直接看下仿真结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAS3YiaCHwZQ6ibNPicncszOyPOfXicukylT2upzUGX90hibfiaPXWTaKiaC4lpnLzPs1hpVQNiboMkJBQSNRbY0jvJ0lMhcXbLO1K3jRAI/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___09讲_抗饱和实战_(II)____反向计算法_(Back_calculation)_与状态重置_images/img_001_b646e5ff2b4c.png)
 
 通过以上Scope中的对比曲线，我们可以清晰可见：
 

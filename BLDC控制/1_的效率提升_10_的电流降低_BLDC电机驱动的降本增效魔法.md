@@ -16,11 +16,11 @@
 
 这篇论文的作者也得出了同样的结论，他们用的公式稍微有点不一样，但意思完全相同。看这里：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHPNgC13CKpF3EgvZfcia146EI6ml1xOVJWlHnyMmSiadtGQlEWfZHFpOWAesE5Zzh1rxLyVFVAE0Pw/640?from=appmsg)
+![](1_的效率提升_10_的电流降低_BLDC电机驱动的降本增效魔法_images/img_000_e39cce2d2aca.png)
 
 这个公式再次告诉我们，就算总的磁力不变，Ft 这个有效力也会随着转子角度θ的变化而波动。他们的仿真图也证明了这一点：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHPNgC13CKpF3EgvZfcia146nFOLeQYPn2zDwRHgjJPx9sq2iaE2WVHZNrCYibUutkLE1Yk9adrByRJg/640?from=appmsg)
+![](1_的效率提升_10_的电流降低_BLDC电机驱动的降本增效魔法_images/img_001_4ea787524cb7.png)
 
 大家看，这张图和我们上次看的是不是异曲同工？都清楚地显示，在一次拔河（一个导通周期）中，有一个“黄金发力点”，我们论文里管它叫“最大转矩点”（Maximum torque point）。在这个点上，你使的每一分力气，效果都是最好的！
 
@@ -46,9 +46,9 @@
 
 这就是他们的“两步电压控制法”。来看如下两张神图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHPNgC13CKpF3EgvZfcia146uneRzuEaRYh8lyEY35S2XOADexoVZlhAEKAV0jib7qmaUCUEnaO1GicA/640?from=appmsg)
+![](1_的效率提升_10_的电流降低_BLDC电机驱动的降本增效魔法_images/img_002_d7f0681537b3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHPNgC13CKpF3EgvZfcia146A51ob2Via3o970w1203nQXBrzR0GcLpMiaM46a1Zq69DAXYyiag54SaOQ/640?from=appmsg)
+![](1_的效率提升_10_的电流降低_BLDC电机驱动的降本增效魔法_images/img_003_f2fbe0ec0da9.png)
 
 这个策略分为两步：
 
@@ -69,13 +69,13 @@
 
 我们直接来看最终的“战报”！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHPNgC13CKpF3EgvZfcia146Aqn6FEPo0qlDqM1gysutKPoEqd8kBy5rRibmndjXMbk025rbVItNYhg/640?wx_fmt=png&from=appmsg)
+![](1_的效率提升_10_的电流降低_BLDC电机驱动的降本增效魔法_images/img_004_eba95db84eb6.png)
 
 上图是电流，下图是转矩。看，红线（新方法）在最大转矩点附近的峰值，明显比黑线（旧方法）要高！这说明我们的“提前冲刺”策略成功了！
 
 最最关键的是这张效率对比表！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHPNgC13CKpF3EgvZfcia146wIYkFMMVy6DJqFu9X8WH1UY7X6ibEnrTPLmevaO02iamZnS8aGvFEBiag/640?from=appmsg)
+![](1_的效率提升_10_的电流降低_BLDC电机驱动的降本增效魔法_images/img_005_bf5e7575bb04.png)
 
 这张表告诉了我们效率提升的全部秘密！在输出同样大的力气（8.05 Nm）时：
 

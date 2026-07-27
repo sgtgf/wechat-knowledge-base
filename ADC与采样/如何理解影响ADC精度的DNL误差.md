@@ -22,7 +22,7 @@
 
 想象一个3位的ADC，它能输出8个不同的数字（000到111）。理想情况下，它像一个均匀的楼梯（图1蓝色线），每升高1°C，就正好上一个台阶（1 LSB）。温度变化1°C，输出编码就变一次。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFReBHKXkFNKMdjmvbLwVLkAKpuoh2D8D1KeTuZOO9faR9Ksy5cvwDtribanYmxdy3L5f6X7glWjFQ/640?wx_fmt=png&from=appmsg)
+![](如何理解影响ADC精度的DNL误差_images/img_000_96656be293b3.png)
 
 图1 3-bit单极性ADC理想传输函数下的示例
 
@@ -38,7 +38,7 @@
 
  它的计算公式是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFReBHKXkFNKMdjmvbLwVLk6jCdR5n3736fAsmQvu6yw8jndeiaE23BGjLFmBiaxHsiaucG5htp0zdjw/640?wx_fmt=png&from=appmsg)
+![](如何理解影响ADC精度的DNL误差_images/img_001_acb0cb7f1876.png)
 
 k 是台阶（编码）的编号（比如001是k=1）。
 
@@ -83,7 +83,7 @@ k 是台阶（编码）的编号（比如001是k=1）。
 
 工程师们会把所有台阶的DNL值画成一张图（图2），或者告诉你最大和最小的DNL值是多少（比如±1.0 LSB）。好的ADC会明确说“无缺失编码(No Missing Codes)”。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFReBHKXkFNKMdjmvbLwVLkUCVJOwslhsXNbsaUsnhTeDibIecYumq5QEJbE9xpH9xAia8M9UXBjMPA/640?wx_fmt=png&from=appmsg)
+![](如何理解影响ADC精度的DNL误差_images/img_002_9a14e85b465b.png)
 
 图2：DNL随编码变化的示意图
 
@@ -91,13 +91,13 @@ k 是台阶（编码）的编号（比如001是k=1）。
 
 假设我们用这个3位ADC来控制一个恒温箱（图3），温度范围是30°C到37°C（理想分辨率1°C）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFReBHKXkFNKMdjmvbLwVLkiaF8YPQxxKq74xKDpGoxV5Vnm8VkVOhNREplpawPSJicWwGiaicvvm3a6g/640?wx_fmt=png&from=appmsg)
+![](如何理解影响ADC精度的DNL误差_images/img_003_4dbbf8418770.png)
 
 图3：温度控制系统示意图
 
 **理想ADC（图4蓝线）**：温度从31.5°C升到32.5°C（变化1°C），编码正好从010变到011。系统立刻知道温度变了1度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFReBHKXkFNKMdjmvbLwVLkeKagEdgCMjezfAUwkErVabnwIOk1PYLFXR6Bh9bWgdxlo5wNWx4klQ/640?wx_fmt=png&from=appmsg)
+![](如何理解影响ADC精度的DNL误差_images/img_004_4f49c3753c2c.png)
 
 图4：理想ADC输入输出关系
 
@@ -109,7 +109,7 @@ k 是台阶（编码）的编号（比如001是k=1）。
 
 -   如果某个台阶缺失（比如图5中的点C与点D），问题更大！在那个温度区间，系统完全**“失明”**，不知道温度在变化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFReBHKXkFNKMdjmvbLwVLkKTs1T6sOibsMYK5IGo29sMgAQpWHPexZsD8RY7BwjH1woiceTwqL9qLw/640?wx_fmt=png&from=appmsg)
+![](如何理解影响ADC精度的DNL误差_images/img_005_a068690f762c.png)
 
 图5：有DNL误差的系统响应
 
@@ -119,11 +119,11 @@ k 是台阶（编码）的编号（比如001是k=1）。
 
 -   **精度（主要受****INL影响）**：指的是**测量值离真实值有多远**。这跟所有误差累积起来的总偏差有关。即使分辨率变差了（台阶宽），如果正负DNL误差互相抵消（图6），精度误差可能还比较小（±1 LSB）。但如果都是负DNL（台阶窄），误差会累积（图7），精度就变差很多（比如±1.75 LSB）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFReBHKXkFNKMdjmvbLwVLkt1rySicvYYWsOzD4EMnvthh4WgAjyv7rY0CyMv3GZd4hVj73jdCD2Lg/640?wx_fmt=png&from=appmsg)
+![](如何理解影响ADC精度的DNL误差_images/img_006_b5a700bb1a73.png)
 
 图6：DNL误差部分抵消，精度误差±1 LSB
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFReBHKXkFNKMdjmvbLwVLkjOAGBVTZCAhSicunWISLBejU4sfbzHrTkEgiazib712ib4GGey1JdWOLJQ/640?wx_fmt=png&from=appmsg)
+![](如何理解影响ADC精度的DNL误差_images/img_007_f9f694ee4699.png)
 
 图7：负DNL累积导致精度误差增大(±1.75 LSB)
 
@@ -131,7 +131,7 @@ k 是台阶（编码）的编号（比如001是k=1）。
 
 DNL是看每个台阶的“个体户”，**INL（积分非线性）** 则是看所有台阶误差累积起来的“总账”。它的计算公式是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFReBHKXkFNKMdjmvbLwVLkiavRzyb2Guvv47ibMrNuHqnTHaD9VxOkeXhBU3Igq2iapFJNDI5dTXBEg/640?wx_fmt=png&from=appmsg)
+![](如何理解影响ADC精度的DNL误差_images/img_008_551754c52e91.png)
 
 INL衡量的是每个转换点（台阶边缘）偏离理想位置的程度。它更能反映ADC整体的线性度好坏。通常看最大值（比如±2.0 LSB）。高INL通常意味着DNL问题严重（误差累积多）。
 
@@ -139,7 +139,7 @@ INL衡量的是每个转换点（台阶边缘）偏离理想位置的程度。�
 
 前面讲的DNL/INL都是理想情况下的“静态”误差。现实中的ADC还面临**噪声**干扰（图8）。想象一下，你站在台阶边缘，一阵风吹来（噪声），你可能站不稳，一会儿觉得在上一级，一会儿觉得在下一级。ADC也一样，在转换点附近，一点点噪声就会让输出编码在相邻值之间跳动。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFReBHKXkFNKMdjmvbLwVLkxEF4wo7tyZhDX3DQODYqtXLJAbhjs8bKTVaJPf1TeHGg9FTKXboJjg/640?wx_fmt=png&from=appmsg)
+![](如何理解影响ADC精度的DNL误差_images/img_009_e25ab2f88e84.png)
 
 图8：噪声对ADC转换点的影响
 

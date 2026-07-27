@@ -48,4 +48,4 @@
 
 别让Workbench定义你的价值。**去定义Workbench。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATTQXSF2zCoGHzPxHp9vEWs7ZpnUqmwHPr4oUibCDFZEQNPhOWPtMAXrLQWLqC0KUcBw7kt1T3NMT5YIWxspM9uGO0sMCYuffWc/640?wx_fmt=png&from=appmsg)
+![](Token化来袭_电机控制的_黑盒子_正在被强行打开_images/img_000_4f7307537b77.png)

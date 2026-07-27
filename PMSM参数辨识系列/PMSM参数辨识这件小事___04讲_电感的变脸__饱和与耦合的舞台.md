@@ -48,11 +48,11 @@
 
 在文末的`IEEE Std 1812-2023`的**Annex E.3**，**Figure E.3**这张图完美地展示了自饱和现象：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREJcCw78gOrOe2QMMOiaVsrwoS9d0riaDpAxVsaMrkiaFV9F3k49vAwzYu6Itw2C29ccSoYCcbN5fyyg/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___04讲_电感的变脸__饱和与耦合的舞台_images/img_000_73ce74f17a00.png)
 
 标准在E.2节也用(E.3)式给出了数学描述：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREJcCw78gOrOe2QMMOiaVsrw0T9EO3wibtrxMPN0iajg2u7DU4DQrAiaJss4Dps24rvr4l733p4O4HnJg/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___04讲_电感的变脸__饱和与耦合的舞台_images/img_001_6ff40c0169be.png)
 
 这明确告诉我们，磁链和电感不再是常数，而是电流的函数。
 
@@ -170,7 +170,7 @@
 -   利用稳态电压方程 (Annex E.2, (E.1)式)反解Ld, Lq：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREJcCw78gOrOe2QMMOiaVsrw1ZGLcUtysA0UAcD3fqYSuj3ecsdcoqlA6osn5OHiamxVC3J4HxnVNHw/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___04讲_电感的变脸__饱和与耦合的舞台_images/img_002_9d7ca151657b.png)
 
 -   这个方法可以得到非常精确的、**运行状态下**的电感地图，可以作为驱动器自整定地图的“Ground Truth”。
     

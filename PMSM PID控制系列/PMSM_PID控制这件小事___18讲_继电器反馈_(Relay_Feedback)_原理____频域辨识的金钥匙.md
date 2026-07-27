@@ -44,7 +44,7 @@
 
 请各位同仁翻看 **_Autotuning of PID Controllers_** 第3章里的原理图 Figure 3.1。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQ1W5v2oKSiarbRlkl0gkgFq0ictuhdR5PTbMiaicVojcFPuWZsFic31ksE4xLicytZPZQjgsP3xOyvLJJnfW8ORNp8AebZF1eO2nyico/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_000_eef2c23263e8.png)
 
 咱们现在把速度环的 PID 控制器暂时“拔掉换掉”，换上一个什么东西呢？换上一个极其简单的、甚至可以说简陋到了极点的东西——**理想双位继电器（On-Off Relay）**。
 
@@ -81,11 +81,11 @@
 
 作者利用方波的傅里叶级数展开，直接提取出它的基波分量。根据临界稳定状态的约束条件：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARXXibmKfSUhSYlHYfjP2VckspAwRJy7bkxpEbQXVBKgMMrT4mOGQYcOgl0H4xicWXSRuFyJS6XibD6SyZETjmIMTx0KF3d30OZ6g/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_001_cc2b2190b003.png)
 
 而理想继电器的基波等效增益就是：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARcdmemicaLZ7AVZlicpMUM0NB8XUJy3ia4D9o7pibSibj9cpKvaebmic5VelVnw6a0TfTEuQws0q4jYchSrwl3lCgts8tiaB66H7rplk/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_002_2d711931841c.png)
 
 经过一个惊为天人的代数替换，作者得出了极其震撼的推导结果。
 
@@ -139,63 +139,63 @@
 
 空口无凭，还是得上simulink。我们首先在仿真画布中构建模型，顶层视图如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATjib3FqGlJiaD65aHqID9ibgdNicNga1q7VzFCmsb7icibua7Qb5oBUIwcnIgtI8Ul67Azct3AFjPq04VKewvztqSsbPqTCKKXpdoeM/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_003_84e48c72367d.png)
 
 在蓝色的控制器区域Controller\_Area中，用一个波动开关来切换正常PI工作模式和继电器探测模式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARkvrRwpPuMrmf2WeqQARia0dv7po1J43MxM4vJhAibcM75U3GPg0qWxj2rwJnT2NObehUpGWLRHEAlQric7jWfAVkEbZ1Sd8SqnI/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_004_454db34c8a4b.png)
 
 在黄色的算法引擎Math\_Engine中，通过配合计时器来实时测量波形的周期 Pu，并在Function函数中通过 MinMax 抓取速度波形的波峰波谷，算出实际振幅 A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQOYTDVlicXZCk4qZgP832B7ZrgOh1kWic9N2HA3DPB2SQkok8TysMdhNKD9TsPibhEJTltG94npNoV9ETzGhicQFUxdAbWAHJ8MlE/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_005_affa49fac6a2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARZxJUwN4DKoA53iaB49x6JJicxX1p2FN1NRYc5wwGGfJLyE4mTCzRGsibDYdxWO2LcEwibAqOssu3myWRBcYRp2EnFMsGsnDPuT0Q/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_006_6331b8cdb79c.png)
 
 我们首先看下正常PI模式下的仿真结果：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQvco73qwwQGFd00vUiaSAXvZwhq3D4bRgO0zsPmVYYDJQkseJW8SYvaKNemQaZtzHryByeGYCiatPj8lcVQzp7vibBicCHHDUKic8s/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_007_31039c92ac54.png)
 
 此时的波形为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASF17qJM3mFTmCnT7MibNpKjgwpiccFC5jbNe70BWFR9cO5ntWc1IichiasIEvpH1WJhcXnR2spVLxPlxqicxMHrPjInsvqfAYk4Ir8/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_008_c088ee3d3d8f.png)
 
 从曲线可见，目前设置的PI控制器及其参数，是可以工作，但还不够好的。说可以工作，是因为最终的速度信号（蓝线）可以稳定无稳态误差地跟上速指令（黄线），说不够好，是因为还是有超调。
 
 我们看下，使用“激怒”电机后（使用继电器探测模式）获得的PI参数后的最终控制效果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASNt0YSdO0FRYibV4jF3p1BZzpjmBkqb22ybqI10gia4QdBX4HG3WygBQW7qJcPEibVLzFyvVSRZ6OGOrBN0SqTBYIqFTEXicv4E8M/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_009_42308e18c9ed.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASrRTVibHOGlBichBT45icBbrsMlwK5k3B4MMY9TDNT7gyb4uvfPxkjRpJeLgM5TiaG1HEQQGnoWMnYqBDTibntBPz00X0cXVkYxa4g/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_010_98e446a83032.png)
 
 现在，通过使用“激怒”电机后获得的PI调节器的参数，电机可以**快速且无超调**地跟上转速指令了！
 
 怎么做到的？整个过程都发生了什么？我们把所有的观测变量都在示波器中打开就一目了然了：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARSibd5MsyX5nxb57leia5wWfL0FIGmuMmh0IicjdRd10VIfWom8aMTjEUzuz3EE9DftkfPVrxYbIhxwnKSR0LN9mff80gqAbtnoU/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_011_8a398f4db6d9.png)
 
 我们把示波器放大了来细看：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQ7lsibqkfUyyf7nzKpcqtiaVDJgcib37m6fvo6Y5YdaaK5ap6onOrLDaG7SibthVbGoBu9hL7scD3TlhsOPYfk5GeYsstptcnWcac/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_012_80de4f805586.png)
 
 在 t = 0~0.4s 的起振期（前20个周期），PI调节器的参数 Kp (绿线) 和 Ki (紫线)老老实实地趴在底部（0.1 和 1.0 的初始值），一动不动。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATBCYmrwlibicgqyNLIoJ0fE7LqBICbumAMWz3b98iabdJQnLLxwtTan5ujqBU81FxBNPIZXMUKxUVQibq5BzIsgo6erZD16IwCcdU/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_013_5e93ae56b119.png)
 
 在 t = 0.42s 时（第20个周期打卡完成），PI调机器的参数**如利剑出鞘，没有任何拖泥带水，没有任何阶梯，一瞬间就跳跃并精确锁死**在了 Kp = 2.2，Ki = 114.5 的位置！大惯量电机的起振包络被完美屏蔽！
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARfhfuutMFRv2v6u13qHaAM3ZTNrDpyicJN5Wib7iaq0BmzymBo6iaMnhmV8IQoWggKBN7LorVu5RsiahxcquKQuYL9DicxjVdlLiaTxE/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_014_ce9087c4b193.png)
 
 在 t = 0.5~1.0s 期间，目标速度从 0 跃变到 100 的爬坡加速区，继电器满载输出，不存在极限环发抖。此时参数**坚如磐石，完美冻结**，彻底免疫了速度基准跳变带来的毁灭性打击！
 
 细心的同仁，可能注意到了最终的Ki参数（紫线）不是稳定的，而是带有“毛刺”的：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATvXfic8YTa5rfVfGsO2sZkYZVHRblZrvzyFjjTDiaN56vPia7NjuqWadpSicLE6XEwe389Ltibln9OLynctBSp2IEBiaIYuoL1NKlqQ/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_015_58d93ab4fb63.png)
 
 这是Bug吗？**绝对不是 Bug！这恰恰是数字芯片（单片机）存在于这个世界的“灵魂指纹”——数字量化截断误差（Quantization Error & Aliasing）！**
 
 在建模时，为了彻底隔离 Simulink 连续求解器的污染，强制加装了 1ms 的 Zero-Order Hold（ZOH 零阶保持器）。这意味着仿真模型中的算法是每 1ms 才睁开一次眼睛。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATyqkv5lTZGwpfay0icyq9xhXtmpia9X2ibfoUicuYyEtVDjpFEeAwticLviaDz4keL9HOMHNoSG0C5rg8kdouH6U9APYa3vuBQ6U1XE/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_016_cafa60d5e9b6.png)
 
 这会带来如下（类似于嵌入式中实时中断系统）的影响：
 
@@ -208,7 +208,7 @@
 
 为了让各位同仁看清最终的Kp和Ki参数，顶层模型画布中的灰色部分的 Visualization 模块里加入了数值显示器，可以清晰地显示用来计算PI参数值的Ku和Pu。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAT0IuXhZCtmXIC1qTlSTrA9UxBU8UzolgCRicZvxkzZia0AJajSUHy05F2iaTkPiaqUfj06hWvR3UMyZdlW3wXOUE2icaLW43IGI6QY/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___18讲_继电器反馈_(Relay_Feedback)_原理____频域辨识的金钥匙_images/img_017_307918f6a8a3.png)
 
 * * *
 

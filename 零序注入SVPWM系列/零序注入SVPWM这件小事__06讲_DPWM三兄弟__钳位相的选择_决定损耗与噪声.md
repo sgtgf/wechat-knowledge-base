@@ -21,7 +21,7 @@ DPWM的核心思想，就是在一个PWM周期里，**只用一种零矢量**（
 
 咱们先来看文末参考文献里的 **Fig. 8. Modulation signals of discontinuous PWM**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2VQCqolFFGk1j2lenemlfQZ9lN2JzVwbJlgiafbXiaPichk0lPkHdonFrjQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__06讲_DPWM三兄弟__钳位相的选择_决定损耗与噪声_images/img_000_915a6a8c8ecb.png)
 
 各位同仁请看这三张图，它们都是DPWM，但长相完全不同：
 
@@ -40,7 +40,7 @@ DPWM的核心思想，就是在一个PWM周期里，**只用一种零矢量**（
 -   **零序注入公式：**
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2V0zwtogfCNzy2iccpDVTEuBNeDqMWfZdpk4kpHlveNQicf6furVLhcxHA/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__06讲_DPWM三兄弟__钳位相的选择_决定损耗与噪声_images/img_001_4a76e3b5a57f.png)
 
 （如果是占空比域\[0, 1\]，就是 e(t) = 0 - umin\*(t)）
 
@@ -56,7 +56,7 @@ DPWM的核心思想，就是在一个PWM周期里，**只用一种零矢量**（
 -   零序注入公式：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2VAC2rwuohu4zaBA29UarVICWQlPA5Mk5oRV59qFfUBv6boYP9vLHITQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__06讲_DPWM三兄弟__钳位相的选择_决定损耗与噪声_images/img_002_131e897335a4.png)
 
 -   **效果：**加上这个偏置后，umax 这一相的最终调制波就变成了+1。这意味着，在它作为最大值的这段时间里，它对应的桥臂**上管常开**，被钳位在直流母线正端。
     
@@ -105,29 +105,29 @@ uDC = (bMIN + bA < bMAX) ? 1.f - uMAX : 0.f - uMIN;
 
 **1\. 信号源：**模仿数字信号系统里随着中断时间的递增产生的角度和旋转的uα和uβ。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2VbtjwX58k4XAsU7K8X3zsb3icZJtuazH2XovibWoojDw5NQf3Khh3tC3Q/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__06讲_DPWM三兄弟__钳位相的选择_决定损耗与噪声_images/img_003_6a5293f62428.png)
 
 **2\. 四条并行路径：**
 
 -   **路径A (CPWM)：**min-max居中注入。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2VnZgEQVfgX3CbOicGVfkEibxgx4TbPicH7eict7q6PVDxjxosC7zho9U13g/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__06讲_DPWM三兄弟__钳位相的选择_决定损耗与噪声_images/img_004_228807a40dc2.png)
 
 -   **路径B (DPWMMIN)：**注入 e = -u\_min（假设占空比域\[0,1\]）。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2VOzics0KnIGD3sGg06nO3Gt59FPMkm2ygeX69avtjDx7cZjK41icGusog/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__06讲_DPWM三兄弟__钳位相的选择_决定损耗与噪声_images/img_005_3c2174470fc2.png)
 
 -   **路径C (DPWMMAX)：**注入 e = 1 - u\_max。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2VM4udyVBibQ4YdWdOjG3SY1MD27xXLLXImBBB4rHJTVfYdCzSAlqnbFg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__06讲_DPWM三兄弟__钳位相的选择_决定损耗与噪声_images/img_006_679e462a5fab.png)
 
 -   **路径D (DPWM1)：为了避免****开关硬切换带来的调制波过零点阶跃**，我们来实施“**加权平均（Soft Switching）**”方案。我们需要一个混合因子 k (0~1)，用来在 uDC\_Max 和 uDC\_Min 之间平滑过渡。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2VxPcico9FOriaOQxDZ7cLuiaibFObkFiczt4zoChh0mkcUMiamlUibE6nreW1Q/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__06讲_DPWM三兄弟__钳位相的选择_决定损耗与噪声_images/img_007_1b7060cc5657.png)
 
 这个 k 怎么来？
 
@@ -142,23 +142,23 @@ uDC = (bMIN + bA < bMAX) ? 1.f - uMAX : 0.f - uMIN;
 
 其实这就是一个 **Sigmoid 函数** 或者 **饱和线性函数**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2VMhrAqGibQt5N1tSeBw8I9VuwcTfibs6u8HpyjyfiaUc1tm2CkiazxPiarkQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__06讲_DPWM三兄弟__钳位相的选择_决定损耗与噪声_images/img_008_78a04cd40e6a.png)
 
 然后把 k 限制在 \[0, 1\] 之间。这个 Gain 决定了过渡区的宽度。Gain 越大，过渡越陡峭（越像硬切换）；Gain 适中，就能实现平滑过渡。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2VtVXoFxuQMUB2ydIoX7IbfznzbQk21SAXJpOZhy5M9micgpmibPD4YXLA/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__06讲_DPWM三兄弟__钳位相的选择_决定损耗与噪声_images/img_009_a5931e303527.png)
 
 **3\. 观测：**
 
 -   **看三相占空比/门极信号：**清晰地对比四种策略下，哪一相、在何时、被如何钳位。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2VbjUL3iaL4rCyVEKkfmEOgfVADBMbavXzLmwrYWwwaFBumovkicQFcD6A/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__06讲_DPWM三兄弟__钳位相的选择_决定损耗与噪声_images/img_010_ae9d7d3bd193.png)
 
 -   **看开关次数：**用计数器验证三种DPWM的开关次数都约等于CPWM的2/3。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2V8iafk7mGcltyCFEYBFUOeUWicWeaP7yFFxKHCAaO0m8w8oukfgTV6AAA/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__06讲_DPWM三兄弟__钳位相的选择_决定损耗与噪声_images/img_011_e68312a0bb7f.png)
 
 这个实验做完，各位同仁对DPWM的理解，就不再是纸上谈兵了，而是有了直观的体感。
 

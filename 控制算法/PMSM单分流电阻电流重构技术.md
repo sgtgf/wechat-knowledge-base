@@ -22,7 +22,7 @@
 
 行业内的解决方案之一是用**一个电流传感器装在直流母线上**（就好比在河的主流上装一块水位计），然后通过数学和聪明算法“算”出三条支流的流量。听起来很酷，但有一个大问题：在某些时候，河水流动太快或太慢，水位计会“拍糊”了数据！这叫**不可测区域**，如下图蓝色及红色斜线区域。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRF7YflEHYvK7r5bdC5EiaMrxg4jFWgSJWHu5fuBwTbiaa2enSZDQBibM3rCbic9hiaAb4SUhIWVDNEhdicA/640?wx_fmt=png&from=appmsg)
+![](PMSM单分流电阻电流重构技术_images/img_000_2aa25045dac9.png)
 
 文末的参考文献中的图3形象地展示了这个“不可测区域”。就像一张地图：整个电机的电压空间被分成六边形区域（六边形代表不同扇区）。正常区域是三角形未阴影区（正常电流可测），但有两个阴影区会出问题： 
 
@@ -40,7 +40,7 @@
 
 **DC-link电流与电机三相相电流对应表**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRF7YflEHYvK7r5bdC5EiaMrxjlPXHVR5NT6d18yOMia3jJpJrw3chkD3o5VRlFia3h0jwebmhkmFbibEw/640?wx_fmt=png&from=appmsg)
+![](PMSM单分流电阻电流重构技术_images/img_001_acce1384a4f7.png)
 
 -   当开关状态是 V1(100)时，idc\=ia（测A支流）。
 
@@ -66,11 +66,11 @@
 
 以扇区I为例，按照如下公式确定三相电流的占空比：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHLYkib0vibPWAgbsgyc4NdCeNFsicNAicSibPwVZ8Wib6kcWzkV6fC9mMgBRFNHRtM8njwIciczuGaCEWTg/640?wx_fmt=png&from=appmsg)
+![](PMSM单分流电阻电流重构技术_images/img_002_5adc9de81605.png)
 
 其中，T0 = T7（称为零矢量时间），它们的作用时间按照如下公式进行分配：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHLYkib0vibPWAgbsgyc4NdCeX0scdbgKKPZrIJ5Samdwwu6sOtQaGE5vXqEXnfH8cbkpt1xuSic3LkQ/640?wx_fmt=png&from=appmsg)
+![](PMSM单分流电阻电流重构技术_images/img_003_215b0ca5b5fc.png)
 
 这样可以确保PWM发波对称，减少谐波。
 
@@ -103,7 +103,7 @@
 
 妙招：延长T2 到两倍的Tmin（即2Tmin），然后在零时间插入一个互补电压矢量V'5来补偿（保证总电压不变）。具体过程可参考图4(c)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH93icnR6r3tofqswULZBN0Uey4XfVTPv7TwhDiaCGDkyVruLSOL5pria8vbPZia4oGkg8YiauKVOpcL2w/640?wx_fmt=png&from=appmsg)
+![](PMSM单分流电阻电流重构技术_images/img_004_8a9a577af3ad.png)
 
 **就好比：**拍水流时，拉长拍摄时间两倍，但在旁边放块反光镜补充“曝光”，确保照片亮度不变。增加了一次开关，但值。
 
@@ -114,7 +114,7 @@
 
 妙招：延长T1 到两倍的Tmin（即2Tmin），插入互补矢量V'4 来补偿，具体过程可参考图5(c)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH93icnR6r3tofqswULZBN0UCc5ovS0OXlrNibxMlbWlWofcgStds9E19YsM6eFJd9kwDr3npRibViaicw/640?wx_fmt=png&from=appmsg)
+![](PMSM单分流电阻电流重构技术_images/img_005_7644f81b13b8.png)
 
 类似P1，但这次是延长另一块时间。一定要做到“波形对称”（也就是双边调制），避免谐波失真。
 
@@ -125,13 +125,13 @@
 
 妙招：两者都延长到2Tmin，然后插入两个互补矢量V'4 和V'5 。零矢量时段插入这些来补偿。具体过程可参考图6(c)和(d)。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH93icnR6r3tofqswULZBN0UqSMwiax6lphWPNVtnr7GkSZKhE7mvDNlCQGJvKte95ZG5Pwr2RYuAkw/640?wx_fmt=png&from=appmsg)
+![](PMSM单分流电阻电流重构技术_images/img_006_1304f54b5ba6.png)
 
 **就好比****：**水流超慢？双倍延长俩拍摄时段，放两块反光镜！文章说开关次数增加1–2次，但只在需要时触发（对风扇应用可接受）。
 
 核心流程图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH93icnR6r3tofqswULZBN0UsicPknRYlIpxOWVOvtxcibRJKqTIem6PQjpbV59TiaJhNZRT5XArGLkzw/640?wx_fmt=png&from=appmsg)
+![](PMSM单分流电阻电流重构技术_images/img_007_275945a3e6b9.png)
 
 **图7**用流程图统一处理P1、P2、P3。步骤：检测电压参考 → 分类问题类型 → 调整PWM信号 → 重构电流。这张图就像“操作手册”，确保只在必要时调整。
 
@@ -154,7 +154,7 @@
 
 **核心数据表：Table II（THD比较）**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH93icnR6r3tofqswULZBN0UCJSv7q44Ezy5HHNcubqB9YO46qo3soF0tDHIgGiaymXtHIhr4ZeJqiaA/640?wx_fmt=png&from=appmsg)
+![](PMSM单分流电阻电流重构技术_images/img_008_9f67761b01fb.png)
 
 数据解读： 
 
@@ -170,15 +170,15 @@
 
 **图 8** **(高速波形)**：新方法重构电流（绿色） vs 三分流实测（橙色），基本一致。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH93icnR6r3tofqswULZBN0UgL1pTjdoN7ctuibROfiaiavbRBQWjgJEZNQvCia6fOf9ibhoMAj2vmSiaUxA/640?wx_fmt=png&from=appmsg)
+![](PMSM单分流电阻电流重构技术_images/img_009_7f36ce767655.png)
 
- **图9、10 (中低速波形)**：中低速时新方法绿色线紧贴橙色线，而传统法波形毛糙（失真大）。![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH93icnR6r3tofqswULZBN0U21OAbppkfPjMmLmP9PiaTPiaSoEy3Kk18bax1ZKyxkBMw3Ucv2Kv42vw/640?wx_fmt=png&from=appmsg)
+ **图9、10 (中低速波形)**：中低速时新方法绿色线紧贴橙色线，而传统法波形毛糙（失真大）。![](PMSM单分流电阻电流重构技术_images/img_010_fcbe8aa54711.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH93icnR6r3tofqswULZBN0UcZlyQOvL6W517tLTkasiaZ1qvCnQdUA1rQfPktEbVmKGiay3rjydx0AA/640?wx_fmt=png&from=appmsg)
+![](PMSM单分流电阻电流重构技术_images/img_011_823f31c30b5e.png)
 
 **图11 (THD对比图)**：曲线图显示，新方法在低速时THD接近三分流传感器，比传统单分流法低得多。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH93icnR6r3tofqswULZBN0UwibIQ9gsCMmhT2EduOgY4hA9V70DkBtH1nFxb7v0cibgMGvs2X6enuag/640?wx_fmt=png&from=appmsg)
+![](PMSM单分流电阻电流重构技术_images/img_012_814c8e3c7e0b.png)
 
 * * *
 

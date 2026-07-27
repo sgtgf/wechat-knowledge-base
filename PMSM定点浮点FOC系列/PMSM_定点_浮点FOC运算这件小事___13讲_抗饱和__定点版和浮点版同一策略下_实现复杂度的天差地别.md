@@ -94,19 +94,19 @@
 
 量化函数可以写成 ：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASV3UEbNN9K85XdXvp0l81XESFf4hSxx3n2NTic9BicA2b5AWcVvMLK7dKNzLl7aiabtGlsropibjoteDicvG42r5iba5Ul21JNe8B9s/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___13讲_抗饱和__定点版和浮点版同一策略下_实现复杂度的天差地别_images/img_000_c1c64e264f40.png)
 
 其中：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAScmKDWGibGaTctIjKN2C9v7S4M9DZhHy13Fia6rApANxJcwAiat2ExDXGjHo43Zib6mtIe9aBK5dfBgdm4z8Hv1w4y1BwjejlmkM8/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___13讲_抗饱和__定点版和浮点版同一策略下_实现复杂度的天差地别_images/img_001_58ca87fd64b4.png)
 
 这是量化误差。而饱和函数可以写成：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASj9ORTufribhgia5dlSxjTia9KSRJMTReV7PrDjDXass5xGkibc3GeQLTceCPzicTM0HaicwWwyTQmPLQceibQgl1fnmDLO2MYG8yhpw/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___13讲_抗饱和__定点版和浮点版同一策略下_实现复杂度的天差地别_images/img_002_fc9c28bf4e3d.png)
 
 其中：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARY2sLctEuibrM7XjLdcJVyeic8ZhdLiaNuk1BEeia0pHzZlczrZp2xuav0O62RTA17y30Fe0L5m5NqRxPyQkK9WiczQIgktU0aJjTA/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___13讲_抗饱和__定点版和浮点版同一策略下_实现复杂度的天差地别_images/img_003_1380ee9c968f.png)
 
 这是死区部分。两者的"误差项" φ 和 d 都满足同一个数学性质——**有界、扇区约束（sector-bounded）**。
 
@@ -129,11 +129,11 @@ Alsamadi等人2023年在IFAC上发表的工作\[1\]，正是从这个角度出�
 -   Float\_PI\_NoAW（橙色模块）：没有抗饱和的浮点 PI，作为反例，专门展示 windup 有多严重。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASbzsWE1Q4rHnp9lfGd6cRDrVRSwykvemNyGGcP34Zu2tr8qldpm7AkibQ9rVeUfGEAMw43xI2EgNyp91zeuBmlRe49oo9Df7kQ/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___13讲_抗饱和__定点版和浮点版同一策略下_实现复杂度的天差地别_images/img_004_7c48e9207b34.png)
 
 黄色背景的 Error\_Stimulus 负责给定指令。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQUIsGueibwJjJLPyN74ZxdShJYcELeTricmQrvSaZvVJYg5YgvbtgCuQxqvxVEKdFVChHwXJhDEhzCeHJicJIPS3X1q39TA4YYvk/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___13讲_抗饱和__定点版和浮点版同一策略下_实现复杂度的天差地别_images/img_005_4deaa4f72de1.png)
 
 它生成一段误差信号：
 
@@ -148,25 +148,25 @@ Alsamadi等人2023年在IFAC上发表的工作\[1\]，正是从这个角度出�
 
 Float\_PI\_AW 子系统是标准的带抗饱和功能的浮点运算PI模型，它做的事情很清楚：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQos2xf5KEpwUZ6y6uMmvoAraEqrRsPw5Xgk39dribXJFCDn3guU7lSLJIgMLdqBELxr0K9pEL9jF7aO2B91ErmPb0TAbR8Apbg/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___13讲_抗饱和__定点版和浮点版同一策略下_实现复杂度的天差地别_images/img_006_4924ce30f1bf.png)
 
 FixPt\_PI\_AW 是定点版算法，它和浮点版做同一件事，但实现方式变复杂了：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQxA1L0shh6VPgmmWrH0WZR7m2Yf7Km78FBrALuLy8u7LPqbRGQBjCRm84su4pOUTLQsyymjYNicqSqMaD4nt3ggcQOHZ2JfaoY/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___13讲_抗饱和__定点版和浮点版同一策略下_实现复杂度的天差地别_images/img_007_cd403a27d949.png)
 
 Float\_PI\_NoAW 是反面教材。它没有 freeze 逻辑，输出饱和以后积分器还继续累加。结果就是：表面上输出卡在限幅，但里面的积分器已经越滚越大，等误差反向时，它一时半会儿回不来。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQ2qrNMECJicibVB4FZfy339icYJDwFq7mNhqfJAkmxRiariaFO20lgultabEeQm7rsSXoJAI4qiazYDz8QPibucsKcBHxWiaGANy3ibILU/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___13讲_抗饱和__定点版和浮点版同一策略下_实现复杂度的天差地别_images/img_008_cce779c57023.png)
 
 我们看下仿真结果，首先看Scope\_Outputs，这张图看的是最终 PI 输出。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATJsML5LFBTxgKC2rvib38biaINuXEX3ECzdazALhd4A4dPibtx8aVJ3Gky62PMEycibjVjBtMDyxD53RocsRrjVsInat8L7G3rXg4/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___13讲_抗饱和__定点版和浮点版同一策略下_实现复杂度的天差地别_images/img_009_abe90066a5ec.png)
 
 黄色信号和蓝色信号(几乎)重合，说明浮点 AW 和定点 AW 的控制效果一致。而且不带抗饱和功能的PI反应明显要慢很多。
 
 我们再看Scope\_Integrator， 这是积分器内部状态：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASBHnmQ9JwY3fvmicXtjo2lTWTUxL1H9O6BU8NKud6u3meuLC8FedD8CTcMKFuaIRSyAo1lzticIKMicQDTncKbqzJ6UwIwJlrMvM/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___13讲_抗饱和__定点版和浮点版同一策略下_实现复杂度的天差地别_images/img_010_9b41541f370d.png)
 
 这里最关键的一点是：橙色的没有抗饱和功能的积分项一路冲到几十万 counts，而带有抗饱和功能的积分项（蓝线与黄线）两条线只在一小段范围内变化。也就是说，抗饱和真正保护的是积分器，不让它在输出已经被限幅时继续瞎累加。
 
@@ -180,11 +180,11 @@ excess != 0 && sign(excess) == sign(integrand)
 
 最后来看 Scope\_Excess ，这是3条计算路径的PI调节器超出限幅的量。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATFLCA0AlgAKxoibrHdG155ibQSCCjjFCe3kmljRsJBEKxrCvGkxwqm757VQEv7dweEEG0WP1RLg9K7jhib3PmJHrJ8LrDxW8LY6M/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___13讲_抗饱和__定点版和浮点版同一策略下_实现复杂度的天差地别_images/img_011_e1a0f7a32520.png)
 
 没有抗饱和功能的PI调节器输出（橙线）的超出限幅值很大，说明内部 preSat 已经远远超过限幅，只是输出被 Saturation  压住了。而带有抗饱和功能（无论是定点计算还是浮点计算）的PI调节器输出（黄线和蓝线）的超出限幅值贴近 0 轴附近，说明它及时冻结积分，没有让内部状态继续失控。这一点可以从 Freeze ,也就是触发抗饱和信号的曲线看出来：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAT7fhkUaaWpzibsBnyBuC4Wcl4SMuxDibjBdolX8nnhcqPCyK2QWxgB6v4najdicaTAJ3dGXwaD6IoVKyl6mkZGPLHKraXqQsribicA/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___13讲_抗饱和__定点版和浮点版同一策略下_实现复杂度的天差地别_images/img_012_4010328f3797.png)
 
 总之，抗饱和并不是让输出“不饱和”，而是输出饱和时别让积分器继续犯错；浮点版运算表达清楚，定点版运算实现复杂，但两者可以做到同样的控制效果。
 

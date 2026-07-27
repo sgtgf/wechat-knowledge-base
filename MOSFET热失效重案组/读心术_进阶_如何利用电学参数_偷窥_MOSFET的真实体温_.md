@@ -79,7 +79,7 @@
 
 **原理**: `Vgs(th)`随着温度升高，会**线性地降低**。这个线性关系非常稳定，堪称完美的温度计\[4\]。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFlS6iaeM0pNP7yTq5Oib4RMfSJXCBl1IbyZh3eAf7eVLeKttPKuSyHzaiaicWkLNUKQB9SSjYDDBCxGA/640?wx_fmt=png&from=appmsg)
+![](读心术_进阶_如何利用电学参数_偷窥_MOSFET的真实体温__images/img_000_4bc201337cc9.png)
 
 **怎么测**: 
 
@@ -101,7 +101,7 @@
 
 **原理**: 我们在[前期文章](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247484781&idx=1&sn=b07cdb00d04a8cdd46c14b413a5eb288&scene=21#wechat_redirect)就介绍过，`Rds(on)`随温度升高而**显著增大**。在导通电流`Id`已知的情况下，测量此时MOSFET两端的压降`Vds`，根据`Rds(on)= Vds/Id`，就可以得到`Rds(on)`，进而反推出结温\[4\]。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFlS6iaeM0pNP7yTq5Oib4RMfDhbBydFKH6IUpBoRnD08WnIliaTe8Nvw6jOCandhscLIAjrMDCVB0rw/640?wx_fmt=png&from=appmsg)
+![](读心术_进阶_如何利用电学参数_偷窥_MOSFET的真实体温__images/img_001_70e66a2dedea.png)
 
 怎么测:
 

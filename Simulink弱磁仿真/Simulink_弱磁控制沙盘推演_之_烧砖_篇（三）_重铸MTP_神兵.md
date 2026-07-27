@@ -44,7 +44,7 @@ static float pm_torque_MTPA(pmc_t *pm, float iQ)
 
 -   **参数: `const_lambda`, `quick_Lrel` (`Ld-Lq`), `quick_iL4rel` (`1/(4*(Ld-Lq))`)。这些我们将在模块的Mask里配置。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREfslGu7hficmaSRia2MEwQqwu2HoAsQClx7Ov8qzsAHbvlZrMWGdxNgt1icicr0HuAUZHVVOdD5a8f4w/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（三）_重铸MTP_神兵_images/img_000_101ec00476a6.png)
 
 #### **Step 2: 锻造核心——用Simulink复现MTPA公式**
 
@@ -58,7 +58,7 @@ static float pm_torque_MTPA(pmc_t *pm, float iQ)
 -   bQ = (Iq\_feedback \* quick\_Lrel)²: 拖入`Constant`模块（值为`quick_Lrel`）和`Product`模块，计算`Iq_feedback * quick_Lrel`。然后将结果送入一个`Math Function`模块（设置为`square`）。给输出信号线命名为`bQ`。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREfslGu7hficmaSRia2MEwQqwdqh0Mo5M6YP57vbqtP6f986nW1VJVNVdBU76e43QDFCAx3tqR463lA/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（三）_重铸MTP_神兵_images/img_001_94cc4b478af6.png)
 
 **3\. 计算内层`sqrt`**: `sqrt(4*bQ + bW)`
 
@@ -69,7 +69,7 @@ static float pm_torque_MTPA(pmc_t *pm, float iQ)
 -   将`Sum`的结果送入一个`Math Function`模块（设置为`pow`）。给输出信号线命名为`inner_sqrt`。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREfslGu7hficmaSRia2MEwQqwLNl4IYibaIHVCkPf2JnZt8TBbjUFKPHJ5w9tdHbbtuvHrAub50icJffA/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（三）_重铸MTP_神兵_images/img_002_48bbbffe9208.png)
 
 **4\. 计算外层`sqrt`的内部参数**: `16*bQ - 4*lambda*inner_sqrt + 5*bW`
 
@@ -86,14 +86,14 @@ static float pm_torque_MTPA(pmc_t *pm, float iQ)
      第一个是`+ (16*bQ)`，第二个是`- (4*lambda*inner_sqrt)`，第三个是`+ (5*bW)`。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREfslGu7hficmaSRia2MEwQqwKicwXmeWuBU85qgfEdJsHImicoH0z8iaCGar8O8EcJBU04ibIJagWzghGg/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（三）_重铸MTP_神兵_images/img_003_23f4e468dd35.png)
 
 **5\. 计算外层`sqrt`**:
 
 -   将上一步`Sum`的结果送入一个`Math Function`模块（设置为`pow`）,并与一个值为0.5的Constant模块相乘。给输出信号线命名为`outer_sqrt`。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREfslGu7hficmaSRia2MEwQqwdGEDT8DyEeVwbdLCrpeDiaHXAibpyLjaw27PpgpBmN9RKgFkiaTNO7VcQ/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（三）_重铸MTP_神兵_images/img_004_dcb37540a7be.png)
 
 **6\. 计算最终的`iD`**: `(outer_sqrt - lambda) * quick_iL4rel`
 
@@ -103,11 +103,11 @@ static float pm_torque_MTPA(pmc_t *pm, float iQ)
     
 -   **大功告成！这个`Product`的输出，就是我们梦寐以求的`Id_mtpa_component`！将它连接到模块的输出端口。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREfslGu7hficmaSRia2MEwQqwfibNT1Z1lrfhS65NLaHXOhiaIwnicsia0hsonT3kMmPgGcDThqeFnXookw/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（三）_重铸MTP_神兵_images/img_005_a6c49b5861b4.png)
 
 **7\. 返回上一层级画布，右键点击Mask，封装核心参数。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREfslGu7hficmaSRia2MEwQqw5Rqe3FgACViaRFRCFRiaIzZ9oPnZPPiaDscGZdO2HGaH5X0tpsbT6Rdxw/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（三）_重铸MTP_神兵_images/img_006_79e6f61591b0.png)
 
 **总结**
 

@@ -26,7 +26,7 @@
 
 请看图！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH8NtXNRjLpGB2YuvbxVpwyUDfgQZoPHTVrvVwQ2fiaPwkPnsxHCelpJNKAN7MAN83jREIQcDUhFfg/640?from=appmsg)
+![](PMSM世界的_五指山__孙悟空也逃不出的物理法则_images/img_000_173c7629d592.png)
 
 我们知道，总的定子电流is，可以分解成id和iq两个分量。根据勾股定理，它们的关系就是：
 
@@ -48,13 +48,13 @@ id² + iq²≤ismax²
 
 请看图！ 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH8NtXNRjLpGB2YuvbxVpwy8ctzKmUbSWHfyHofUDZntluojNYyukDKgjMQHC1hxOzpu66vQhwrqw/640?from=appmsg)
+![](PMSM世界的_五指山__孙悟空也逃不出的物理法则_images/img_001_fc2310978a43.png)
 
 上图中红色的线叫恒转矩曲线，你看它长得像不像地图上的“等高线”？在这条线上的任何一个点，海拔（转矩）都是一样的！
 
 电机设计工程师同仁，注意了！这条线长什么样，完全取决于你！它的数学方程是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH8NtXNRjLpGB2YuvbxVpwyvOtibanPcO4tmbNAXffh0S8731nkZib1mLtzs67JTAmtsia6M3t09WUyA/640?from=appmsg)
+![](PMSM世界的_五指山__孙悟空也逃不出的物理法则_images/img_002_f763c523c62b.png)
 
 你看，这里面有你设计的极对数p、永磁体磁链λpm，还有你最关心的直轴和交轴电感Ld, Lq！你把电机设计成什么样，这些“等高线”的形状就完全不一样。数学上，它是一条双曲线。
 
@@ -66,7 +66,7 @@ id² + iq²≤ismax²
 
 请看图！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH8NtXNRjLpGB2YuvbxVpwyvy2iahianNE4ynejDI8t48Roac7SZ3YX0xkicqtuicQNkWa5MZOIHc2dzw/640?from=appmsg)
+![](PMSM世界的_五指山__孙悟空也逃不出的物理法则_images/img_003_7a3b9e08465a.png)
 
 大家看，这条蓝色的MTPA曲线，就是一系列“等高线”（恒转矩曲线）和“电流圈圈”（电流极限圆）的切点的连线！在每个切点上，我们都用刚好那么大的电流，实现了那个转矩，一丁点儿都没浪费！所以，在不考虑其他限制的情况下，沿着这条路走，就是效率最高的！
 
@@ -84,7 +84,7 @@ id² + iq²≤ismax²
 
 它的方程比较复杂：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH8NtXNRjLpGB2YuvbxVpwyJcBia5cMaljXfvCJsBZ0sVoxnBg4gG5fjxnR0zPcsnylSNrl4hzKicXg/640?from=appmsg)
+![](PMSM世界的_五指山__孙悟空也逃不出的物理法则_images/img_004_48630adf5e06.png)
 
 同仁们不要怕这个公式！我们不是要解它，而是要看懂它！你们发现没有，这个公式里，到处都是转速ωe！
 
@@ -94,7 +94,7 @@ id² + iq²≤ismax²
 
 请看图！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH8NtXNRjLpGB2YuvbxVpwyiaicBrIUhiaOjJB8qDUHkrsfo8y5YuQy56COGBagCLL0KGkLhhOmwX1nw/640?from=appmsg)
+![](PMSM世界的_五指山__孙悟空也逃不出的物理法则_images/img_005_4dff698933ff.png)
 
 你看，随着速度增加（Increasing speed），这个蓝色的椭圆是不是越来越小，还在往左边跑？这就是电压极限！转速越高，留给我们操作的空间就越小！这就是为什么电动车不能无限提速的根本原因之一！它的形状是一个椭圆，因为我们电机的Ld和Lq不一样，把这个限制给“拉扁”了。
 
@@ -104,7 +104,7 @@ id² + iq²≤ismax²
 
 请看图！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH8NtXNRjLpGB2YuvbxVpwyFKMHSAibDfWO9TxibTZ0FtbJrJocicvDjiaALgS5m5v3Iic5G7adY2T0IZQ/640?from=appmsg)
+![](PMSM世界的_五指山__孙悟空也逃不出的物理法则_images/img_006_e5d49b5a1728.png)
 
 那条粉色的MTPV曲线，就是我们性能的“最后一道防线”。它定义了在电压受限的情况下，电机所能达到的性能边界。
 

@@ -64,7 +64,7 @@
 
 在这条乘法链里，14189是唯一一个新面孔。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATURIdPzGWysMduDCadtTqvqwMO1s3TtSYYYibut5kZUKebia2xxgPibW1Rwic7tZzdERyytlibxe1QicRf8OljQ7RLEH6CL5YNXPuYE/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___14讲_反Park变换与三相电压合成__定点乘法链的精度怎么一级级丢掉的_images/img_000_7b9c7123af67.png)
 
 编码误差0.0003%——比 21845（[第3篇](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247486161&idx=1&sn=4cc0c68986f3ec9c3a53c56b4f8432a5&scene=21#wechat_redirect)讲述的2/3）和 18919（[第9篇](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247486271&idx=1&sn=387609e9eca0972d784d0852217e8f4b&scene=21#wechat_redirect) 讲述的1/√3）都要精确。这是因为 √3/4 这个值恰好接近一个"好"的二进制分数，用Q15编码时运气好，舍入误差极小。
 
@@ -96,7 +96,7 @@
 
 我们现在只盯着一条算法链：给定 `Vd`、`Vq`、电角度 `theta` 和母线电压 `Vbus`，看看浮点算法和定点 C 风格算法算出来的结果差多少。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASVoswxtETHWicz2uMgz3P7iaYGicxYl1BQ0oG7hboNTP6VKpF5JWiavTDKbw0eEGnn4pXKKibXFh8bCickypkTN6K1MCXUgS88iaXJuk/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___14讲_反Park变换与三相电压合成__定点乘法链的精度怎么一级级丢掉的_images/img_001_f080b126b9c6.png)
 
 顶层左边是四个输入源：`Vd_ref`，`Vq_ref`，`Theta_e`，`Vbus`。这四个量就像考试题里的已知条件。`Theta_e` 用 50 Hz 斜坡生成，所以 0.04 秒刚好是两个电周期。这样示波器里看到的两圈波形，既完整，又不拖沓。
 
@@ -106,7 +106,7 @@
 
 蓝色背景的`Float_Reference` 是标准答案：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATYl5vlicbpnFbExLZ9WAvryHBFCsT4POuWrMRwvkwZZHEXNyQFLj6XO2KiaqutUugnNNn6AEppe6UBeX8VbZicT8EYO0f6tLFuzA/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___14讲_反Park变换与三相电压合成__定点乘法链的精度怎么一级级丢掉的_images/img_002_c7481f61973a.png)
 
 它就做四件事：
 
@@ -138,7 +138,7 @@ Va,Vb,Vc,Vzero -> tA,tB,tC
 
 绿色背景的`FixedPoint_C_Emulation` 不是为了写得“优雅”，而是为了贴近Embedder Coder的 C 风格定点链路。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARiaNBiaPvibL3lWM5axQFUqLKEgtmMQDsvzD4OuZsA5j2zVHU10pcDLQicPkDf9O5MqDkWW4icx6ITcDAUHgb7I7VEWegYyERpvWvM/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___14讲_反Park变换与三相电压合成__定点乘法链的精度怎么一级级丢掉的_images/img_003_25c47f95886e.png)
 
 在function函数中故意保留这些动作：
 
@@ -158,7 +158,7 @@ Va,Vb,Vc,Vzero -> tA,tB,tC
 
 我们来看一下最终的仿真结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASSib2rbxxfSqjylC3WRB6AGicmlPYBvu89uRdTk89FnEd2HhweYdjnL53KoHItNu5PJhLjZVEbEDryqCtFQ6L6PuXkz5TzySng0/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___14讲_反Park变换与三相电压合成__定点乘法链的精度怎么一级级丢掉的_images/img_004_4697fc283558.png)
 
 Scope\_AlphaBeta 这个示波器显示的是文中的反 Park 原始输出，也就是 `Valpha` 和未乘 `√3/2` 的 `Vbeta`。
 
@@ -166,13 +166,13 @@ Scope\_AlphaBeta 这个示波器显示的是文中的反 Park 原始输出，也
 
 再来看代表三相电压合成的 Scope\_ABC：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATic50xZ56VIQWLRb1rjH7pK2looO2DFzjoDZdlTqZvibWy0e9ApNibh6ckH2gXicGbKSwqOo7ic7UM1V23YJCNmaCR8xN4D5QR5BvQ/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___14讲_反Park变换与三相电压合成__定点乘法链的精度怎么一级级丢掉的_images/img_005_c0a2c9ed39a7.png)
 
 这里的三相合成内部实际使用 `Vbeta_scaled = Vbeta * sqrt(3)/2`。图例里有 6 路信号，但画面上基本是 3 条三相波形。这是因为每一相的浮点结果和定点结果都贴在一起。没有削顶，没有漂移，也没有直流偏置，零序注入前后的三相合成逻辑准确无误。
 
 再来看一下代表最终 PWM 计数 `tA/tB/tC` 的Scope\_PWM\_Counts：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQEuLV8WicibKFQeAQlbGMjbeDkz0zxFuQ0xYh8GhVXcRysVicXuNh65rd5ZRfxpia6LURaongfCTp5ZSKueicKUYFcibRibItNb7q20g/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___14讲_反Park变换与三相电压合成__定点乘法链的精度怎么一级级丢掉的_images/img_006_ba426b5d4a9d.png)
 
 波形大约落在 `1400 ~ 2800` counts，中心在 `PWM_MAX/2` 附近。这个结果很符合预期，因为 `PWM_MAX = 4199`，中点大约是 2099.5。
 
@@ -180,7 +180,7 @@ Scope\_AlphaBeta 这个示波器显示的是文中的反 Park 原始输出，也
 
 最后来看所有 `float - fixed` 的误差Scope\_Error\_All：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAR0a6m8x2v1HLNib0qMiaa5WnhrzEpibJ8CudlKnX1JuOmSjfRE66zYbGy00WPjcpjOQqH5oXvJata4dTCRjpPYP5erVLPG92gO2w/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___14讲_反Park变换与三相电压合成__定点乘法链的精度怎么一级级丢掉的_images/img_007_93a00096f3e1.png)
 
 可能有同仁看到这里会紧张：怎么有一堆抖动？其实这正是定点算法的样子。整数右移和截断不会产生光滑误差，而会产生一格一格的量化抖动。电压误差只有几个 Q15 LSB，在 `1e-4`以内，在这个混合单位示波器里几乎贴着 0 轴，看不明显。
 

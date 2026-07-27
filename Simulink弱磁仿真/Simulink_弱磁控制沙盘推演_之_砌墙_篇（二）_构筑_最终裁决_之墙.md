@@ -20,7 +20,7 @@
 
 1\. 在昨日的Simulink模型中，拖入一个新的 **Subsystem** 模块，命名为`Power_Limit_Module`
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhpxRPwqDhJEuNaQkPeDhomiaHzDE75ePicLefrGmiabo2eCnLpqjmb4jez1icMnqp0K91bzocibehW7Q/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（二）_构筑_最终裁决_之墙_images/img_000_45deccc378cd.png)
 
 2\. 双击进入子系统。
 
@@ -48,7 +48,7 @@
 -   拖入2个 **Outport** 模块，分别命名为`Id_out`, `Iq_out`。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhpxRPwqDhJEuNaQkPeDhoCuuY4PDicWsjBiblK79RyiaUtOBftCK7DXWfuibe3Q9UFtjUupWkSQYGaA/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（二）_构筑_最终裁决_之墙_images/img_001_f36d6013ec78.png)
 
 蓝图已定！这个“指挥中心”比之前的“墙”要复杂，因为它不仅要处理电流，还要分析电压。
 
@@ -58,17 +58,17 @@
 
 1\. 在`Power_Limit_Module`内部，再拖入一个**Subsystem**，命名为`Overvoltage_PI_Controller`。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhpxRPwqDhJEuNaQkPeDhof2yvfaN6ApibviatZjhabiaDicr9Pl7192Lg3Vrfhb4fibCeSqFN7sQSpTA/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（二）_构筑_最终裁决_之墙_images/img_002_2cd6e7211d70.png)
 
 2\. 进入这个新子系统，定义它的**输入**：`U_bus_in`和`current_power_in`（用于积分项初始化）。定义它的**输出**：`wattage_limit_out`。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhpxRPwqDhJEuNaQkPeDhoYibInKABO6LkqicOoguvAgUUOCRUjicU92CLsYiblqnz62Y5XibICS5uILA/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（二）_构筑_最终裁决_之墙_images/img_003_12017a04b9da.png)
 
 **3\. 内部逻辑（参考[本文](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247484618&idx=1&sn=4ffa6ceb2737dcc0084d9bef7db51184&scene=21#wechat_redirect)讲解）**:
 
 -   用一个`Relational Operator`模块（设置为`>`）比较`U_bus_in`和一个代表`uMAX`的`Constant`模块。其输出是一个布尔信号（0或1）。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhpxRPwqDhJEuNaQkPeDhoo8SbJ8zhZpMp3qJOL4icP8Mrc3ZKJgBw4F90oG8QCE4XOlguaeq1yKw/640?wx_fmt=png&from=appmsg)
+    ![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（二）_构筑_最终裁决_之墙_images/img_004_58c7878a417c.png)
     
 -   用这个布尔信号，去控制一个`Switch`模块。
     
@@ -77,7 +77,7 @@
     
 -   否则，输出一个默认的、非常大的负数（比如`-1e6`），表示不限制再生功率。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGSM5OiaZcAdJYic5QOU6z9T6SWPboiaytgbEcByFm7GvuYTjY0Ys4qPEl8gFRHibsmeMndTDMlmp9KfA/640?wx_fmt=png&from=appmsg)
+    ![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（二）_构筑_最终裁决_之墙_images/img_005_1a82c9a1aff6.png)
     
 
 -   **过压保护逻辑：**
@@ -95,7 +95,7 @@
     
 -   **`Initial condition source`**: 在下拉菜单中选择`external`。模块上会出现一个`'x0'`端口。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGSM5OiaZcAdJYic5QOU6z9T6YTPUPWW5tlkic3uZEuAPiboPicOuLgdlDfXvd5rd0bUv6r5Tdc1zEcqUg/640?wx_fmt=png&from=appmsg)
+    ![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（二）_构筑_最终裁决_之墙_images/img_006_d5b540d91f1f.png)
     
 -   将输入`in` (`eDC * Ki`) 连接到`Discrete-Time Integrator`的主输入端。
     
@@ -105,18 +105,18 @@
     
 -   将`Discrete-Time Integrator`的输出，连接到另一个双端`sum`输入端口，Sum模块的另一个输入口接入eDC的比例项。Sum的输出即为最终的`bSP`！
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGSM5OiaZcAdJYic5QOU6z9T6RhIKqBL1IsyicMzJu9advUDDnCOHPK1CRtECxdpze8sPXbyJgRIcbsg/640?wx_fmt=png&from=appmsg)
+    ![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（二）_构筑_最终裁决_之墙_images/img_007_e6a986bb9459.png)
     
 
 -   用`Saturation`模块将其限制在`[无穷小的负数, 0]`之间。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGSM5OiaZcAdJYic5QOU6z9T6QjgiaicTDm6qJkHBdqbibhNyHrCGicOx2mAy1kVD5Xt9jbW1wmyzarJHng/640?wx_fmt=png&from=appmsg)
+    ![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（二）_构筑_最终裁决_之墙_images/img_008_65f9ae9b2ca5.png)
     
 
 -   Saturation的输出接入Switch上端，将`Switch`的最终输出连接到`wattage_limit_out`。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGSM5OiaZcAdJYic5QOU6z9T6uH7sHBHnE1icYlAyAKKx2V0ntYsWnB2srosblxlLZW8uTQ6QqArd3tg/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（二）_构筑_最终裁决_之墙_images/img_009_1e31f279312c.png)
 
 **这块“砖”非常复杂，是带状态、带反馈的“智能砖”！** 我们暂时可以先简化它，用一个简单的`Switch`来模拟：当`U_bus_in`超限时，输出一个固定的较小负数`wREV`，否则输出一个很大的负数。  
 
@@ -126,7 +126,7 @@
 
 1\. 返回到Power\_Limit\_Module主模型画布，把这块我们刚刚搭建的Overvoltage\_PI\_Controller的“砖”放在画布的**左侧**区域。因为在我们的数据流中，它代表着“规则的制定者”，处于逻辑的上游。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGSM5OiaZcAdJYic5QOU6z9T6G6tzZaXib6wcnFQKPmZbbLOWlXkDuDrDJib68N1jIFh2MUtAAeIibQIhQ/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（二）_构筑_最终裁决_之墙_images/img_010_d9214b4fd385.png)
 
 现在，我们的“指挥中心”里，已经有了一个核心部件！它就像一个待命的“雷霆守护神”，静静地等待着被激活。
 
@@ -134,7 +134,7 @@
 
  完成！“守护神”现在已经能实时“看到”母线电压了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGSM5OiaZcAdJYic5QOU6z9T69icfYXoBLZrnWMeQVmtkibXJoOhMrb4G6jg0ZXzsQoDiblPZ6VibqdABgQ/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（二）_构筑_最终裁决_之墙_images/img_011_a2db8735aca6.png)
 
 **3\. 连接`current_power_in` 【重点！】**:
 
@@ -149,7 +149,7 @@
     
 -   **这意味着: “守护神”说：“我需要一个叫做`wP`的信号，谁都可以，只要你有名叫`wP`的信号，就请传送给我！” 稍后，我们会在计算出实际功率的地方，用一个`Goto`模块，以`wP`为标签，把信号“广播”出去。这就形成了一个完美的反馈！**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGSM5OiaZcAdJYic5QOU6z9T63IRtQGjYqEtCy4kP04F2VDaQyiczFDeg33E0DiatGSLxSQTNXQoOZpxg/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（二）_构筑_最终裁决_之墙_images/img_012_28a86efe0c4e.png)
 
 现在，“守护神”的所有输入都已经接好，虽然其中一条线（`wP`）暂时还悬而未决，但我们已经为它预留了接口。
 
@@ -169,7 +169,7 @@
 
 **至此，我们已经完成了“指挥中心”左半部分的所有工作！**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGSM5OiaZcAdJYic5QOU6z9T634O025E9EiaLiaXCHzg9c2nThCk4JOQp4acwbjbeicZIywMq2evJnLcvg/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（二）_构筑_最终裁决_之墙_images/img_013_69f3ef96de2f.png)
 
 ### **5\. 搭建“军法官”——执行最终裁决**
 
@@ -222,7 +222,7 @@
     
 3.  **【关键！】双击这个`Goto`模块，将其`Goto tag`设置为我们之前在左边`From`模块里约定的名字：**`wP`**。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGSM5OiaZcAdJYic5QOU6z9T6pgCDskQrUAZc5kBagq5HaoLGg8TjCwx5YL92gkVyotHQsOjhLgrmKQ/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（二）_构筑_最终裁决_之墙_images/img_014_4a6c8eb65e3a.png)
 
 #### **5.3 执行最终裁决——缩放或放行**
 
@@ -290,7 +290,7 @@
 -   将`Switch`的输出信号（需要用`Demux`拆包），分别连接到`Power_Limit_Module`的输出端口 **`Id_out`** 和 **`Iq_out`**。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGSM5OiaZcAdJYic5QOU6z9T6k6CoFH3aM4u6dUHwUh8w4BibnicibF9FSLVYibUnSH3IicSwIicWPfiaDrEaw/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（二）_构筑_最终裁决_之墙_images/img_015_0f5789c55c9d.png)
 
 ### **至此，我们终于成功了！**
 

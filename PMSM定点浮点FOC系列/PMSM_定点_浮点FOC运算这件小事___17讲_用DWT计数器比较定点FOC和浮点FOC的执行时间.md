@@ -28,13 +28,13 @@ MCU也一样。"定点比浮点快"就像"身体还行"，听着像那么回事�
 
 Cortex-M3的整数运算很快——大多数ALU指令单周期完成，32位乘法`MUL`也是单周期，带累加的`MLA`也是单周期。查表操作就是数组索引加一次线性插值，几条指令的事。最贵的操作是`div_s16s32_floor()`里的32位除法——Cortex-M3的硬件除法`SDIV`需要2到12个周期，取决于操作数。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQ0Nr8bG3vlH4ANBSbxjZHaFDE4dianh0ic8R4KJfnyHicd3zym9Kh69YBbNyUwL9UvsexpNc1Q8iaZmFLeDIjzCSjpIZ5AgCFwELk/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___17讲_用DWT计数器比较定点FOC和浮点FOC的执行时间_images/img_000_08b13f31a3a4.png)
 
 ### 浮点版跑在同一颗M3上（软浮点）
 
 这才是重头戏。Cortex-M3没有FPU，所有`float`运算都要调用编译器的软浮点库函数。[第7篇](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247486245&idx=1&sn=a502626e76b9b2f7b44a978e4796c4f1&scene=21#wechat_redirect) 我们讲过，一次软浮点乘法大约30–50个周期，加法20–30个周期，除法50–80个周期。三角函数`sinf()`/`cosf()`更离谱，一次调用少说150个周期往上。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQG1cnR9ok1mQ9u5us0IBqFXxqGV4oTic0VvYTicKMItia07dY9DzzXGE8R0NcL7k1u2nTz6YttlJDK1MavYBx8rXxnmEVoozMorw/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___17讲_用DWT计数器比较定点FOC和浮点FOC的执行时间_images/img_001_470069c80340.png)
 
 按 72 MHz算，2000个周期约 **28 μs**，2500个周期约 **35 μs**。
 
@@ -48,13 +48,13 @@ Cortex-M3的整数运算很快——大多数ALU指令单周期完成，32位乘
 
 `VMUL.F32`单周期，`VADD.F32`单周期，`VDIV.F32`约14个周期。CMSIS-DSP的`arm_sin_f32()`/`arm_cos_f32()`走的是优化过的查表加插值，大约20–25个周期搞定一次。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATPejskib3sF7LDibeCT92iaQy5I18pBX2ng0PQeyYEme34JibGGKAJ7w4ib3rqIZoLzs5ANtV2ic6wzG38pL62G83o30sQ4K2pNQSSQ/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___17讲_用DWT计数器比较定点FOC和浮点FOC的执行时间_images/img_002_6bf67004538c.png)
 
 按170 MHz算，180个周期约**1.1 μs**。
 
 ## 三个场景放在一起看
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASOLXwANWovF4V5hXlhicyp6PLqcxBUYqiczd11oMUnXg0SNiagu6naYOoViaficaIIGcG8Ul9RmCdl1wRxic8zpOWlTiaaRdvGGMIUfs/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___17讲_用DWT计数器比较定点FOC和浮点FOC的执行时间_images/img_003_3a5976ab0d50.png)
 
 几个结论直接从数字里蹦出来：
 

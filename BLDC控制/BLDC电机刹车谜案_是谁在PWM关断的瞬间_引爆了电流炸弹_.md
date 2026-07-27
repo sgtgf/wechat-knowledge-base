@@ -25,7 +25,7 @@
 
 请全体同仁，目光锁定这张案发现场的“电路图”：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhDv9JL4KfaoAScfUOdTBWRmM5Gibnq4nxcibuJNH6YxGzv7UibSqZWCgN5aJPr4PNak8gAbXunDcoA/640?from=appmsg)
+![](BLDC电机刹车谜案_是谁在PWM关断的瞬间_引爆了电流炸弹__images/img_000_14b8aae390c0.png)
 
 这就是咱们的“战场”！一个标准的三相全桥电路。想让它刹车，就得给它反向的驱动信号。按理说，我用PWM波控制开关管的开关时间，不就能控制电流大小了吗？
 
@@ -50,7 +50,7 @@
 
 请看这张“犯罪路径图”！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhDv9JL4KfaoAScfUOdTBWcnQcOeQxAQsibhibico8HoVBXeicBnurzrdNc9SRkKS0lB8GhPhfjbMZeA/640?from=appmsg)
+![](BLDC电机刹车谜案_是谁在PWM关断的瞬间_引爆了电流炸弹__images/img_001_ee1b4bdd9776.png)
 
 单管调制时，PWM OFF阶段形成的“反电动势短路循环”
 
@@ -76,7 +76,7 @@ PWM OFF (T2和T3同时关)：现在，T3也被关断了，那个可怕的内部�
 
 请看这张“救援成功图”！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhDv9JL4KfaoAScfUOdTBWy9TfGX4ticRfu1kRNTNOzUdEY9wKgzm7RXGZtu6vByANwbKuRX80icHQ/640?from=appmsg)
+![](BLDC电机刹车谜案_是谁在PWM关断的瞬间_引爆了电流炸弹__images/img_002_c84d4a6212e6.png)
 
 双管调制时，PWM OFF阶段形成“反向续流回路”
 
@@ -97,9 +97,9 @@ Ud的力量远大于E，所以在这个阶段，电流会被迅速地压制下�
 
 请看这两张至关重要的“现场对比图”——图3和图4！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhDv9JL4KfaoAScfUOdTBWmuucibTAtQIHVngiaZiaUCM3geu4JIC2Ob0ESeC2M2twWwxnlicGLibXjcw/640?from=appmsg)
+![](BLDC电机刹车谜案_是谁在PWM关断的瞬间_引爆了电流炸弹__images/img_003_bc5e5cc82dae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhDv9JL4KfaoAScfUOdTBWkmH3q0bhiclkZWuEVsZoe8NIvMojSRyyYL6z6YM1DIAia2CvoibmZ8MYg/640?from=appmsg)
+![](BLDC电机刹车谜案_是谁在PWM关断的瞬间_引爆了电流炸弹__images/img_004_a0203c893797.png)
 
 -   图3：这是“单管调制”的“事故录像”。电流像脱缰的野马，瞬间就冲破了±10A的量程，彻底失控！
     

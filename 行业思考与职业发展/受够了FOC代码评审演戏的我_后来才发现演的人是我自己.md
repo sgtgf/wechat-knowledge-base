@@ -26,7 +26,7 @@
 
 孔子听见了，回了三个字：**是礼也（这就是礼啊）。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAT0UDpiazcwsMYE9e8jBLHfxu0N4iauPgzgGh8AV5c7j5JOHEORg5ibibOSLG39oiaFicoz2wUdfc6Tic64oKEE72JlicmCK0iaqyXPQQS0/640?wx_fmt=png&from=appmsg)
+![](受够了FOC代码评审演戏的我_后来才发现演的人是我自己_images/img_000_56a120bc197a.png)
 
 我盯着屏幕愣了好一会儿。
 
@@ -96,7 +96,7 @@
 
 武道、茶道里讲修行阶段，用这三个字。守，是老老实实按师父教的来，一招一式不敢走样；破，是熟了之后开始打破规矩，找自己的路；离，是离开规矩，彻底形成自己的东西。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAToPMqgG8dcm1qKibXGvggolibKAXgFg2XV7gIicXDHficibnvuEX9jXzfianY0Wqt9VeI1MSvMVIW37VUL0LM0AcrAaYQ4jtehx8ZP4/640?wx_fmt=png&from=appmsg)
+![](受够了FOC代码评审演戏的我_后来才发现演的人是我自己_images/img_001_1f25129c8987.png)
 
 但故事到"离"不算完。真正的高手最终会回到规矩里。这个"回来"，外人看跟初学者没什么两样——一样规规矩矩、一样一丝不苟。可内里完全不同。初学者守规矩是因为不会别的，高手守规矩是通透之后选择回来。
 
@@ -130,4 +130,4 @@
 
 是礼也。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARBF2w7SSrsns9SGLmlg69qlE6LSoRARia0t1Q7u4xXIt6Za8FXkvwLwibic3RPU2nMZHqvJcq49WWEWEl4y0Np8Bm5ABxSNgnURM/640?wx_fmt=png&from=appmsg)
+![](受够了FOC代码评审演戏的我_后来才发现演的人是我自己_images/img_002_9a3476cbcec6.png)

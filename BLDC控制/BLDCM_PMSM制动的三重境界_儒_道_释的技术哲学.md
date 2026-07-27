@@ -70,4 +70,4 @@
 
 因为，一切工程问题，最终都是哲学问题。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Z8Iha3NiaCRHia4DTj8r4fjMNLUtKuZY8xpww3MS1ARkWusX5bdUdV3VhJbgKzq9nJu0SKVbdtV6sqvsTt9ibicibMw/640?wx_fmt=jpeg&from=appmsg)
+![](BLDCM_PMSM制动的三重境界_儒_道_释的技术哲学_images/img_000_c6ebc29e92b9.jpg)

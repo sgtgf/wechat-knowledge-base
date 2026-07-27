@@ -62,7 +62,7 @@
 3.  **5.5.3 CAUTION** 警告框里也写到：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFolBhrOzUt93tprpjyGIxiarvicJIS280WunMgpYhE3gQ2GSCObT5pSKoJmTSZbncled9puRnZ7SCw/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___07讲_安全的边界__不退磁_不炸机_不冒烟_images/img_000_b076ee5816eb.png)
 
 翻译成大白话就是：要测超常规工况？先问问电机厂，不然搞坏了别怪我没提醒你。
 

@@ -12,7 +12,7 @@
 
 你打开示波器，夹上电流探头，先看 A 相。正弦波的过零点附近，每隔 180° 电角度有一道极细的凹槽。换到 B 相、C 相，也一样。三相电流轮流过零，一个电周期内总共有六次过零——平均下来每 60° 电角度就有一相在"被死区啃一口"。凹槽的深度不大，但位置极其规律。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATr1RGezzoccEN7rppcS2816B22xqrsn1nBEVSI6wtoeAHyZNseHvO4IN80QqKPS7BLH4IicXk7kwLXGKjbm4MATphmPmlXhu0U/640?wx_fmt=png&from=appmsg)
+![](PMSM观测器控制这件小事___08讲_逆变器非线性_死区和管压降__像油门踏板卡住了_images/img_000_f9ba5ab19d0f.png)
 
 你第一反应是观测器增益没调好。调了一下午，凹槽还在。然后怀疑是 PWM 分辨率不够，换了更高的开关频率——这可能改变电流纹波的观感，但固定死区时间下，死区占空比误差并不会因此减小，凹槽也不会消失。
 

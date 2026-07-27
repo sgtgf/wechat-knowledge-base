@@ -44,7 +44,7 @@ Clarke 变换负责先把三相电流合成一根"旋转箭头"。Park 变换负
 
 三个绕组空间上互差 120 度，像三把椅子围成一圈。A 相电流大的时候，箭头指向 A 相；B 相大的时候，箭头偏向 B 相；C 相大的时候，箭头又偏向 C 相。三个电流此消彼长，合起来的效果就是一根箭头，在定子平面里匀速旋转。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/vvmIAIMZsAQbcURgRzZicDEG67cVOwy3va2e4b3cskG3qt5YsntbsQ6pbN86tRCex7XNLN66U0Y8A0d8ia8p8H5DZhtjhSBWlbVbby6k78Ppw/640?wx_fmt=gif&from=appmsg)
+![](PMSM观测器控制这件小事___03讲_Clarke_和_Park_变换_正弦波没有消失_只是你坐到了转子上_images/img_000_d2d8ca364211.gif)
 
 这跟三相平衡有关系。三相电机没有中线，。这三个数不是互相独立的，知道了两个，第三个就被"锁死"了。所以表面上看是三个自由度，实际上真正的自由度只有两个——一个决定箭头指向哪里（角度），一个决定箭头有多长（幅值）。
 
@@ -81,7 +81,7 @@ Clarke 的思路朴素到近乎粗暴：既然三相电流本质上是一根在�
 -   • A 相和 α 轴对齐，所以在 β 轴上的投影为零
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/vvmIAIMZsATIC4MlVSChYib9YbwwkgExBHQVGS0KdIlukWDa7GOicyRaC6FGCe30pCJ4uY2Co3hU0pqzGSGwB2ibicJjXIDnQIr0ZG4Icfib4Z3Q/640?wx_fmt=gif&from=appmsg)
+![](PMSM观测器控制这件小事___03讲_Clarke_和_Park_变换_正弦波没有消失_只是你坐到了转子上_images/img_001_b3cfe1557d04.gif)
 
 说白了，Clarke 变换就是：站在 α 轴上看，A 相贡献全部，B 和 C 各贡献一半但反向；站在 β 轴上看，A 相没贡献，B 和 C 各贡献 ，方向相反。
 
@@ -143,7 +143,7 @@ Park 变换就是这个意思。αβ 坐标系是"地面"，dq 坐标系是"旋�
 
 电流环的 PI 控制器分别控制这两个直流分量，就像控制两台直流电机一样简单。 的参考值由速度环给出，要多少转矩给多少。这就是 FOC 的核心直觉：**不是把交流变没了，而是让 PI 控制器换到了一个交流看起来是直流的位置。**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vvmIAIMZsAT5vpj816zopAvloV49XjppasJ4pKd6EiaBvfxwO7ibQBYb0ehtMYr1gRIGLicMYa90QAc3XicM0iayIYylmHyibQHOWS3zKkzhrhMaU/640?wx_fmt=gif&from=appmsg)
+![](PMSM观测器控制这件小事___03讲_Clarke_和_Park_变换_正弦波没有消失_只是你坐到了转子上_images/img_002_01891dba5293.gif)
 
 **这里最容易翻车的地方，是角度。**
 

@@ -63,11 +63,11 @@ uX *= pm->quick_iU; // 先归一化到母线电压标幺
 1.  **信号源**：继续用那个旋转的电压矢量，但这次咱们让它的**幅值跳变**。比如，前2秒幅值是0.5（在圆内），然后突然跳到0.7（在圆外）。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASzclbIKFv2LZWJ2xVJlib99cBwqvH5tdQA6gd3ZC09nichsWdJIBCE5WicpIb9cIpJWgnFVG5IMHr8wqu8fSKlGAibV9sv0rbRyn0/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__09讲_先把矢量收进圆里__内切圆限幅的温柔护栏_images/img_000_2e4c215ff752.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQOiaVfrd2VMGMmoAzOVHSFicqOkzPr4cGgRx1ksNd6d6TUepnlO2ATT3mfRHGRHh7mqX1Y0MKsykcZ4g0WUXg1RWN3e6O3u4wtU/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__09讲_先把矢量收进圆里__内切圆限幅的温柔护栏_images/img_001_ab52891a8623.png)
 
 2.  **限幅模块：**搭建一个和代码逻辑完全一样的“内切圆限幅”模块。
     
@@ -79,11 +79,11 @@ uX *= pm->quick_iU; // 先归一化到母线电压标幺
 -   用一个 switch 判断：如果 norm > k\_EMAX，则计算 scale = k\_EMAX / norm，然后输出 u\_alpha \* scale 和 u\_beta \* scale。否则，原样输出。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAR1dYNbL5hCxo2AHMvB3x4jbewpbc9LpYAuib7sgmoZiaOTdicfU4qpsgxiakHzDFDX1fmTqGsCMZ5SEl8hdh7riaOdNZcibq27WU9I4/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__09讲_先把矢量收进圆里__内切圆限幅的温柔护栏_images/img_002_44bf74e85dee.png)
 
 **3\. 观测结果**：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQ3dbxNnHUbBAwvw2hQ14gZpTzWRVG7x3A58DAQniaT9mgvbKLzmfQYT4I8ftNawRPsQeocBpC2DCu75B5eK92yIKg3gNHBHzSI/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__09讲_先把矢量收进圆里__内切圆限幅的温柔护栏_images/img_003_abecdead0c60.png)
 
 各位同仁请看**左下角 XY\_Traj\_Raw（原始指令）**：两个同心圆。内圈是 0.5（2秒前），外圈是 0.7（2秒后）。这就是咱们本讲文章封面图中说的“试图把车开到路外的夜色里”。指令毫无顾忌地冲到了 0.7 的位置。
 

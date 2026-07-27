@@ -24,7 +24,7 @@ A组用的芯片是STM32G431，Cortex-M4内核，自带硬件浮点运算单元�
 
 两个组的算法工程师都在Simulink里搭好了FOC模型，Clark变换模块用的数学公式一模一样：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQ43kdcdibzDQAjJicEtu2a3eNyts3wibicYGBKtlBSDEmSUMm0nOwGiaZCjIJo2gpabZ6yjSIgbbX2HEXgoJFcYBlwmJ1ibXiciaHkKkA/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___01讲_同一个Clark变换_两种代码_你能看懂哪个__images/img_000_118f5e48d425.png)
 
 就是经典的三相电流变两相，在座各位闭着眼睛都能写出来的公式。
 
@@ -76,13 +76,13 @@ void FOC_CURRENT_clark(int16_T rtu_i_a, int16_T rtu_i_b, int16_T rtu_i_c,
 
 怎么换的？这里有一个简单的换算关系：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARRRict0tc6ayB0wTOg5L4fGdBDT76pVV0Xg09oyDptSKGMAbibbnApicbbicTYlUgNjqxia6HsIwjAmRV6vPGGR3WHACibC0esfDiaEU/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___01讲_同一个Clark变换_两种代码_你能看懂哪个__images/img_001_c283d661d623.png)
 
 你可以反过来验证一下：21845 ÷ 32768 = 0.66665...，确实非常接近2/3。
 
 同样，18919就是 1/√3 这个小数：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATAMolRmwcpRCw4JvkGKibJrtGyS6ujaCcSeBHibEbld1ibsEJoF5SRJSfBib8u5pOuDBofjlA4iaWODv4LeekP9tltAfqdAxOiaW9LQ/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___01讲_同一个Clark变换_两种代码_你能看懂哪个__images/img_002_015cd092a120.png)
 
 验证一下：18919 ÷ 32768 = 0.57737... 和 1/√3 = 0.57735... 差不了多少。
 
@@ -144,35 +144,35 @@ STM32F103没有FPU，芯片只认识整数。你想做小数运算，就得先�
 
 我们在模型里动态对比一下两种不同算法的异同，仿真模型的顶层画布入如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQSkBjTf4ic8mVI6xpEvTCrqsQkhy11kPjhYs4j1gO8eKXiaPKPvnvs2SS9m04FYl1L2YPJXIMrTfcCJqhp1wJEphQZ8BPok4auI/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___01讲_同一个Clark变换_两种代码_你能看懂哪个__images/img_003_a4b98161c803.png)
 
 用三个Sine Wave模块，生成互差120度的理想 ia，ib，ic 信号。为符合实际，可以加上一点高频白噪声模拟ADC采样噪声。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASXnxkLibsBBEVZB4eTia2tvX1SCyrRR1yVnLjib3KBC5LJqXhunAto4gsYuVJQwbTDphMw97WXLdpk9BGY7o4UcRmo6Ul3n3URwg/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___01讲_同一个Clark变换_两种代码_你能看懂哪个__images/img_004_e4202eb34406.png)
 
 三相电流信号发出来后，兵分两路，一路是浮点计算路线，走 Data Type Conversion 模块，强制转换为 single（单精度浮点）；另一路是定点计算路线，同样走 Data Type Conversion 模块，转换为16位有符号整数，定为 fixdt(1,16,15)（也就是Q15格式）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARdpmAnQnSrSj9zYnBIwUQDpLQeLYD73rxVLupadOP9eAkWA6TD3RkibiaXpQSicCsAQU448bIAJvE8yxpNUwfQoGTibH5RJ73BhfE/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___01讲_同一个Clark变换_两种代码_你能看懂哪个__images/img_005_ef26d74a91d2.png)
 
 在浮点计算路线和定点计算路线的两个 Clark 变换子系统里，里面的“数学运算模块”长得**一模一样**！
 
 看下仿真结果，首先是浮点计算路径和定点计算路径的输出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASWf3z0mb5sNMsdbgib0jI2XOUCP4WtHicUiafA2IoSkyoag9bViaWxgCYH8YvZQ9hOwWkdsqmtMPju70RliajlDibNAhFDuk4q5NUrg/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___01讲_同一个Clark变换_两种代码_你能看懂哪个__images/img_006_d63de5374027.png)
 
 黄标（A路浮点 α）与 蓝标（B路定点还原 α）、红标（A路浮点 β）与 绿标（B路定点还原 β）严丝合缝地重叠在一起。这证明**两组代码的数学逻辑已经完全等效。**
 
 最后看下浮点计算和定点计算，二者结果的量化误差：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQBtve7IvTxggJLNiaE6R3eS4OISwOHkKz9BoMZk9KeYjYf89icUwfv9llHuhmkAG85SaKoNDoRT5c8bdes9UBmjZvljqOfuFhVM/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___01讲_同一个Clark变换_两种代码_你能看懂哪个__images/img_007_d3a00599546d.png)
 
 纵轴坐标为 ×10\-5 !现在的误差被极度拉低到了十万分之几的水平。因为在定点计算路径用的是 Q15 格式（fixdt(1,16,15)）。Q15 的 1 个 LSB（最低有效位）代表的物理真值是：2\-15 = 1/32768 ≈ 3.05×10\-15，而最终计算的误差峰值在 4~6×10\-15左右，也就是说，**整个极其复杂的两相加减乘除链路走下来，最终的定点精度损失被严格控制在了 1 到 2 个 bit （LSB）以内**！ 这是极其优秀的定点表现。
 
 可能有细心的同仁会发现，最终的计算**误差不是围绕着 0 轴绝对对称的，而是整体重心偏向正数（上方）。**这是为什么？这是因为在模型里设置了一个极其硬核的魔法： 'Floor'（**向下取整**）！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQ9e9085Zfe95V78jJIjU4To9dWLic3y4sEE12KGV1uic0fRmJYhZRiaFsKhYgL0tibjWN3DbkNpOQibzSzsl10fPIVqibo2ibVtJTHdw/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___01讲_同一个Clark变换_两种代码_你能看懂哪个__images/img_008_18cb96a763b7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQ4qz9U8OBZV3sPfPJyPLZaGEUfMiaTb19Wx3Jy5gv9Rs0WMzAzKaXybCRRvSw3bUVtw6zHLn44E7Ljn3Jppsvzh7L47HxBMWbs/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___01讲_同一个Clark变换_两种代码_你能看懂哪个__images/img_009_e5eaee29672f.png)
 
 在定点处理中，当底层 C 代码执行右移 \>> 12 这种操作时，任何被移出去的低位小数都会被无情丢弃。这在数学上等同于“向下取整（Floor）”。向下取整意味着：**定点算出来的值，永远比理论浮点值稍微“小”一点点。**
 
@@ -180,11 +180,11 @@ STM32F103没有FPU，芯片只认识整数。你想做小数运算，就得先�
 
 更进一步地，此时如果我们右键点击绿色的浮点子系统 \-> C/C++ Code -> Build This Subsystem。生成出的代码，里面就是满屏的 \>> 12 和 21845。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATHSlX5R49Bp3sUdILNaBqEiblj77x4py0F5S0d9LZgrXGtKQBNpbn4m8kicuLL22j5WhM8WSGvZnCMG00ktvMHTmpRiaUt9b2sic8/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___01讲_同一个Clark变换_两种代码_你能看懂哪个__images/img_010_ec7d9c239de0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASeLjoCB9VlLrvmiajxLe9HaKFBu7r36l7iafqHdsuGc8mTqM8CQogmoNUMA67DGfM1mh2WAERLxtNMUo4BAh0UpmLUKPibRuEBnw/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___01讲_同一个Clark变换_两种代码_你能看懂哪个__images/img_011_e0c56a601100.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQfTThAgzEc11omraibxAqa5Y3Zd1VibPoLUPnPITxhEeAShiaj9tFy8VwPgjFgdOBPWPCtMWNqQ3JvRkibJwkqvZnweRna2d71DlU/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___01讲_同一个Clark变换_两种代码_你能看懂哪个__images/img_012_894230427014.png)
 
 * * *
 

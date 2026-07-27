@@ -26,9 +26,9 @@
 
 1\. 和上次一样，在你的Simulink模型中，通过双击画布空白页面，键入“subsystem”一个新的子系统**模块，命名为**`Iq_Limiter`。这就是我们的第二块“砖”。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkic4PajQQKoJvX9A7icM1G0IdIhXdH2RcpXWzt4vmib75tLKqN9nroTKXww/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（二）_锻造_守护之锤__images/img_000_5cccdddd915f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkicaUCrk4h6ibR3tNEGuxicWfCAnheyUAusPhicPyrRTTg6TyXWgpTZFMA2Q/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（二）_锻造_守护之锤__images/img_001_5de0a5614f19.png)
 
 2\. 双击进入子系统。
 
@@ -56,7 +56,7 @@
 -   拖入1个 **Outport** 模块，命名为`Iq_out`。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkicdw4CU7YqejossOreVKU4jicC9GPmKCK7Qx84ExoAkHXe2fmt0Dcq3yQ/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（二）_锻造_守护之锤__images/img_002_aa4f1f9904f8.png)
 
 我们的“锻造台”已经准备就绪，原材料和最终产品的接口都已定义好。
 
@@ -75,7 +75,7 @@
 -   现在，这个`Gain`模块的输出，就是`U_max`。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkicIdB3sehXB5mekcFUib3CQSZ66tvnmPX0Hk9zic3Y3RE2C1dxRHQUUqhg/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（二）_锻造_守护之锤__images/img_003_64867fe3fe3a.png)
 
 **2\. 实现分母 `abs(w_e * Lq)`**:
 
@@ -94,7 +94,7 @@
 -   现在，`Abs`模块的输出，就是分母 `abs(wLS)`。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkic0y1ZEtkvLwJXdjPRuicYhIFE87SWiatTdaaj4dPf4KZpVNSKSnAaR3Ww/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（二）_锻造_守护之锤__images/img_004_3172e5f871bf.png)
 
 **3\. 实现除法，得到`iMAX`**:
 
@@ -111,11 +111,11 @@
 -   这个`Divide`模块的输出，就是我们梦寐以求的`iMAX`！
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkic2I1Yqzia0oTB8Z5sCUmFoTY3JyyH5eXBZgO2mtpSNKfO0VPfCicvKwqg/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（二）_锻造_守护之锤__images/img_005_19104beee7c9.png)
 
 -   **鲁棒性处理：当`w_e`为0时，分母为0，会导致计算错误（除以0）。文末的代码`m_fast_recipf`内部通常会处理这种情况。在Simulink中，我们可以加一个**保护**。在`abs(wLS)`信号线上，加一个`Saturation`模块，设置下限为一个很小的正数（比如`1e-6`），上限设为inf。这样就避免了除以0的风险！**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkicHhwfd02qn0KaeV1rFWonibc3Z5wXliayaTLcDD1Jb9uSDsXXibbQdkR2Q/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（二）_锻造_守护之锤__images/img_006_7b9f7f16ae37.png)
 
 **4\. 实现最终的限幅**:
 
@@ -138,7 +138,7 @@
 -   最后，将`Saturation Dynamic`模块的输出，连接到我们之前创建的输出端口`Iq_out`。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkicQHRUC1w0M5KYsbSeUloRO51IqnOK9Tyhdx6eV2PujLYUMYF4qGDIuw/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（二）_锻造_守护之锤__images/img_007_6e5e902dda71.png)
 
 **锻造完成！** 你现在拥有了一块精密的、能动态响应的“守护之锤”！
 
@@ -148,20 +148,20 @@
 
 1\. 回到上一层，右键点击`Iq_Limiter`子系统，选`Mask` -> `Create Mask`。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkicty7c3dy8drIk0HQyRjSpwurzcjwlVkkdc2nBKoCG3yicF2JZGQJHklg/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（二）_锻造_守护之锤__images/img_008_55c7d5aa99bc.png)
 
 2\. 在`Parameters & Dialog`标签页下，添加两个`Edit`类型的参数：
 
 -   **Prompt: `电压系数 (k_EMAX)` **Name**: `k_emax`**
 -   **Prompt: `Q轴电感 (Lq)` **Name**: `Lq`**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRETMlKiclp40RT2vLoMghJicMucnm2pDUb4sucF2k9MRiah2AP7Lanj1FLY0L8uWSsHyaPuEqApbTibpA/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（二）_锻造_守护之锤__images/img_009_440d6579ca12.png)
 
 3\. 点击`OK`。
 
 `Iq_Limiter`子系统封装完成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkicmRtuyvFwLu4QsCsicqkQibE5GncFOTgSnicQ876niaJ74hrCpBB6DB4Mmg/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（二）_锻造_守护之锤__images/img_010_f90928d6c824.png)
 
 现在，你拥有了第二块完美的“砖”！它和第一块“砖”一样，接口清晰，参数可配，逻辑严谨！
 

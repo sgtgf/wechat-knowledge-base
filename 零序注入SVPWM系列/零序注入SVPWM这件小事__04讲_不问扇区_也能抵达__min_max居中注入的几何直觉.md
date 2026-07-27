@@ -64,7 +64,7 @@
 
 加上偏置后，新的三相值变成了：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmCZronrMbWLmmvjdgDx6UcsDwZgrXyBxCdDiafyHcczsvXnTfRKJvPXcpI5NCmopEPwsickgcWKFQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__04讲_不问扇区_也能抵达__min_max居中注入的几何直觉_images/img_000_a12b783511ee.png)
 
 新的最大值是 umax\_new = umax + e。
 
@@ -72,19 +72,19 @@
 
 我们希望新的这组棍子的“中点”，正好是 0.5。也就是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmCZronrMbWLmmvjdgDx6UqfWWn7ILdcwC5ej8p4AYNzic2lYZIu9hnjCcGj4jWlLIqs9EaRbMwmg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__04讲_不问扇区_也能抵达__min_max居中注入的几何直觉_images/img_001_1e78f568be2a.png)
 
 把 umax + e 和 umin + e 代进去：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmCZronrMbWLmmvjdgDx6UwL649wQniaPicsict8eHSyyIibarcElb3H5GcDj8l3vNutP5t7utKstkTA/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__04讲_不问扇区_也能抵达__min_max居中注入的几何直觉_images/img_002_17c10b3f9dd0.png)
 
 整理一下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmCZronrMbWLmmvjdgDx6U5N55SCms52mzib0JwfIBibch7gMHoenL7gOqjG6MZsbnDbnfFAvEJtmQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__04讲_不问扇区_也能抵达__min_max居中注入的几何直觉_images/img_003_a87c8661eea2.png)
 
 现在，解这个关于 e 的一元一次方程，太简单了：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmCZronrMbWLmmvjdgDx6UKvQFSKiaGwzdyzV8yyEm3ZY7nY18ib5CGTAxpJ3zTTATvZEz9IeUCeHA/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__04讲_不问扇区_也能抵达__min_max居中注入的几何直觉_images/img_004_715dac698790.png)
 
 **推出来了！**这个 e，就是我们为了实现“居中”这个目标，必须给三相同时加上的那个零序偏置量。
 
@@ -129,7 +129,7 @@ else if (pm->config_VSI_ZERO == PM_VSI_CENTER) {
 
 **1\. 信号源**：继续用那个旋转的 uα，uβ 矢量。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmCZronrMbWLmmvjdgDx6URJAFhALo2O0mkUzTh3tUkibzPmAqiaZtWTxSZBuUHOzIRsHoDqshxb1g/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__04讲_不问扇区_也能抵达__min_max居中注入的几何直觉_images/img_005_49761cad2411.png)
 
 2.  **两条并行路径：**
     
@@ -137,9 +137,9 @@ else if (pm->config_VSI_ZERO == PM_VSI_CENTER) {
 -   **路径A（扇区法SVPWM）**：用一个写好“判扇区、算T1/T2、算占空比”逻辑的MATLAB Function模块。这是我们的“真值”。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmCZronrMbWLmmvjdgDx6UwH6O6mV4u8pcpiajYAtzdm3TaGzEcNQzglsQxr7ianIbploE7PgTjicZg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__04讲_不问扇区_也能抵达__min_max居中注入的几何直觉_images/img_006_9493743ce1f3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmCZronrMbWLmmvjdgDx6UgFawPQic1dVibR8emunicg205VDXVQ4diaWxr22kgMnU5xIGcTVKWaB9eA/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__04讲_不问扇区_也能抵达__min_max居中注入的几何直觉_images/img_007_b1d8ca55b2fc.png)
 
 -   **路径B（min-max注入法）：**
     
@@ -153,13 +153,13 @@ else if (pm->config_VSI_ZERO == PM_VSI_CENTER) {
 4.  将 uDC 加到三相上，得到最终的占空比。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmCZronrMbWLmmvjdgDx6UXb9w4iaR6S1hv6JXiaNBaqF59lm83oAuia1ria5voI07raoricUpU5FWIXA/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__04讲_不问扇区_也能抵达__min_max居中注入的几何直觉_images/img_008_1f9dfa8a7ae3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmCZronrMbWLmmvjdgDx6U7YC9og5nxWzNEeO6EeyLB0M3KalbqquHt9zvC2tS1LMIHwdxMU6ia7w/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__04讲_不问扇区_也能抵达__min_max居中注入的几何直觉_images/img_009_e17bb702cdb6.png)
 
 **3\. 观测结果**：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmCZronrMbWLmmvjdgDx6UfiaApom9xN7uoFgYuA6G0BH82ZjYA7nqAicPiaLOgvjShjgl3ibw8VCoSg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__04讲_不问扇区_也能抵达__min_max居中注入的几何直觉_images/img_010_32e4ba39284d.png)
 
 示波器上，扇区法产生的调制波形，和min-max注入法产生的调制波形完全重合！
 

@@ -124,7 +124,7 @@ PLL 输出的 `θ̂`
 
 三条腿连起来，PLL 的闭环结构就长这样：                                   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQJwUoP05QqEibBToNYQl0rl3yn3N33k1X2qyicnIjVWMJ6AYPFiaf9SfptOjdjXMgq1oeGgiaEe7WZleLq7H5aJ5b40KmGHCv9wGc/640?wx_fmt=png&from=appmsg)
+![](PMSM观测器控制这件小事___22讲_SMO_PLL_用_追光_的方式提取角度_images/img_000_052995bfefae.png)
 
 注意一个关键细节：PLL 的**天然输出是速度**。角度只是速度的积分附带产物。这跟 atan2 正好反过来——atan2 天然输出角度，速度要靠差分求导，而差分会放大噪声。PLL 用积分换微分，从源头上躲开了"差分噪声"这个坑 \[P-001\]。
 

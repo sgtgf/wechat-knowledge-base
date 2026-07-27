@@ -63,9 +63,9 @@ JESD51-14告诉我们，不需要！MOSFET自己就会“说话”。我们只�
 -   **关键：** 采样的时间点不是均匀的，而是**对数均匀**的。比如，在1μs到10μs之间采10个点，在10μs到100μs之间也采10个点...以此类推。因为热量的变化，在开始时极快，后面越来越慢，对数采样能用最经济的数据量，捕捉到最完整的变化过程。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRG4yO2XoGSmJy5UtgiaeZ9ZCvicrffGfQb9G3BJ3K545vEuubf7n4jOhtLO5fic1R9bQO5OXlDu6icjdQ/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷03_消失的零点____重建犯罪现场的初始温度_images/img_000_25ea3f825fa6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRG4yO2XoGSmJy5UtgiaeZ9ZCo4uLS2adOlU8CTWNDHTheu4jmGQq4V4OicPSPRIovEVIZjicb73Io7fA/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷03_消失的零点____重建犯罪现场的初始温度_images/img_001_42c73dfc9084.png)
 
 **为什么标准推荐用“冷却”而不是“加热”？**
 
@@ -147,7 +147,7 @@ JESD51-14告诉我们，不需要！MOSFET自己就会“说话”。我们只�
 
 参见标准文件中的Figure 1中 t < tcut 的温度曲线波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRG4yO2XoGSmJy5UtgiaeZ9ZCOA3NOSJJSo4yqiarA70jdGfCvueDWkicnZrib7aia9woDgc5sibicjwV7s2g/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷03_消失的零点____重建犯罪现场的初始温度_images/img_002_3143246b3649.png)
 
 怎么办？JESD51-14的第4.1.3节，给了我们一个天才般的解决方案：**利用物理规律进行数学外推！**
 
@@ -170,7 +170,7 @@ JESD51-14告诉我们，不需要！MOSFET自己就会“说话”。我们只�
 4.  **找到零点：** 将这条直线反向延长，让它与纵轴（`t=0`的地方）相交。这个交点的Y值，就是我们苦苦追寻的、被抹去的初始温度`TJ0`！
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRG4yO2XoGSmJy5UtgiaeZ9ZCXdB2HycSfOQke5hSKktFbXfsSTcgY26mDRKicKxKNIZEiaGicVLuS56zA/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷03_消失的零点____重建犯罪现场的初始温度_images/img_003_8a97b186904a.png)
 
 **本案小结与下一步行动**
 

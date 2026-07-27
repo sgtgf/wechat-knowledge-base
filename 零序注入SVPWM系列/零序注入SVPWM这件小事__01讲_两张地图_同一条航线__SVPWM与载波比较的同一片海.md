@@ -57,41 +57,41 @@
 
 模型总览：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFZA0EXZ2PKchJj9LJHbe9caKXQyxic4l9TbllNzbkF3CbicdEvtNEJkJ2xb13MNlia6Tu2rVACPQ3Zg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__01讲_两张地图_同一条航线__SVPWM与载波比较的同一片海_images/img_000_baf1a1a328c5.png)
 
 **1\. 信号源：**咱们先搭一个理想的时钟源。用一个增益为电角速度w的增益进行放大，产生一个连续变化的电角度 theta（theta = w·t），然后用 sin(theta) 和 cos(theta) 生成一个幅值固定的、匀速旋转的电压矢量 uα 和 uβ。这就像咱们的船，要沿着一个完美的圆形轨迹航行。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFZA0EXZ2PKchJj9LJHbe9cggiazWUgPK3EY6Vt1xLszzpKGRwbuxibibH1eNjcTsicqfuGa03ukG2NibQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__01讲_两张地图_同一条航线__SVPWM与载波比较的同一片海_images/img_001_231719536377.png)
 
 2.  **第一条航线（载波比较法）**：
     
 
 咱们先把这个uα、uβ送进一个逆Clarke变换矩阵，得到三相电压参考 ua，ub，uc。然后，我们先不做“比较器积分求平均”，而是用理想映射：d = 0.5·u + 0.5，这是最朴素的SPWM，不加任何零序注入，先理清概念。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFZA0EXZ2PKchJj9LJHbe9cxSB16uke9ZVyvZaqGQYV1NFQN5LVLcwsc00xk6hnJ7PiabPpIyweibQg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__01讲_两张地图_同一条航线__SVPWM与载波比较的同一片海_images/img_002_6203f8d7efe1.png)
 
 再模仿文末代码中的SVPWM的生成方式，基于Matlab Function搭建一个使用min-max比较法生成SVPWM的模块，使其输出的占空比和线电压Uab与SPWM模块的输出做对比。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFZA0EXZ2PKchJj9LJHbe9cHUnQ3pamdcDT2hJ0GYeiaBDDKAVm8dHuc5Ar2TYricbDYcl5DtTictjRQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__01讲_两张地图_同一条航线__SVPWM与载波比较的同一片海_images/img_003_440343bd3959.png)
 
 跑一下仿真，两组调制波**波形**不一样！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFZA0EXZ2PKchJj9LJHbe9c7l7po8Pcc5OtyuOEbzibicICW32JQOOtdvI2fanc9q9EIKRNnyrKjiaPw/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__01讲_两张地图_同一条航线__SVPWM与载波比较的同一片海_images/img_004_4985fee5d456.png)
 
 但是，它们合成的**线电压基波**，在幅值和相位上，几乎是**一样的！**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFZA0EXZ2PKchJj9LJHbe9cr6icBEQwEaODs0ygkuVibpu5YASGtgc1RKwLyj8EibMYicOpPtBAAib41EA/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__01讲_两张地图_同一条航线__SVPWM与载波比较的同一片海_images/img_005_2d12999f5265.png)
 
 3.  **第二条航线（扇区法）：**
     
 
 再利用Matlab Function搭建一个教科书版的扇区法SVPWM模块，再与min-max比较法生成SVPWM的模块的输出进行比较。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFZA0EXZ2PKchJj9LJHbe9cMVeHReHsyCN5Z0wI28azTUXgaCWVicF4p9vBUia5pIjt9SfkMvK0icgTQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__01讲_两张地图_同一条航线__SVPWM与载波比较的同一片海_images/img_006_5e4ac0f204e2.png)
 
 在线性区（有效矢量组成的正六边形的内切圆中）下，无论是通过min-max比较法生成的SVPWM，还是基于扇区法生成的SVPWM，二者输出的调制波波形是**一样的**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFZA0EXZ2PKchJj9LJHbe9c3MXdlwy6H4gjXlrXYUolkVuIREodJWXdBJRs45sQnBaXL5dRUhLlXQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__01讲_两张地图_同一条航线__SVPWM与载波比较的同一片海_images/img_007_e102abf7d736.png)
 
 以上这个小实验，就直观地告诉了我们今天这讲的核心：**地图不同，路线不同，但最终抵达的目的地（合成的线电压矢量）是同一个。**
 

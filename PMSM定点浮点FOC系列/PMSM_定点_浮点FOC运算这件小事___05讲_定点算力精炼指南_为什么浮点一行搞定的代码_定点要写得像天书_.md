@@ -78,7 +78,7 @@ Q19减Q18？格式不一样，不能直接减吧？其实可以——在这个�
 
 把上面的过程画成一张图，就是所谓的"数据位宽流水线"：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQMU1lnHzSqRmB2YWz8FEdicOr3mlXu8WLZWF9FOPt7OVVansXic12ndvWYae3UUuMNOQr09M58rJoNtn8e3M4OShw4NrPwgAKia8/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___05讲_定点算力精炼指南_为什么浮点一行搞定的代码_定点要写得像天书__images/img_000_13f96aa3d945.png)
 
 你看，每一次移位都不是随意的。右移12位、右移14位、左移1位、左移2位——每一个数字都是在保证"中间结果不溢出int16"的前提下，尽可能多保留精度的结果。
 
@@ -110,7 +110,7 @@ Q19减Q18？格式不一样，不能直接减吧？其实可以——在这个�
 
 在simulink的画布中搭建模型，从左到右划分三部分，分别是信号注入部分、核心算法部分和示波器。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASjV4shtWwx683pGv3IHGkJCBtAotBZxC2jicSzl0FFHicBOTMflNtxKYFObcuf8W9vfibuKHkib6BbqVicicEzLoj8Vc2lOyqADc5Zk/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___05讲_定点算力精炼指南_为什么浮点一行搞定的代码_定点要写得像天书__images/img_001_d728c58328dd.png)
 
 信号注入部分：使用三个相位相差120度的的正弦波（Sine Wave模块）来模拟 ia，ib，ic，并在源头处使用 Data Type Conversion 模块，将浮点正弦波强制转为 int16 数据类型。
 
@@ -120,13 +120,13 @@ Q19减Q18？格式不一样，不能直接减吧？其实可以——在这个�
 
 直接用浮点公式：rty\_i\_alpha = 0.666666687F \* rtu\_i\_a - (rtu\_i\_b + rtu\_i\_c) \* 0.333333343F 搭建模型。模拟“完美水杯”（永远不会溢出，且精度无穷大），为后面的定点数提供做差比较的基准。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATLJXKJDwAt7sXYkm37uGVQJgalYT0MoIwbwjGJlJSfuehZswmDufhibO3jxtWxcib8f7TraYq9kxQUot1dfwsjF98gqdJ3yMtao/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___05讲_定点算力精炼指南_为什么浮点一行搞定的代码_定点要写得像天书__images/img_002_bfa7787e8e0c.png)
 
 **支路 2：Embedded Coder 优化定点组**（右移12位）
 
 用 Simulink 的可视化模块1：1的复现还原本系列[第1篇文章](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247486137&idx=1&sn=f207043b0a7fbea6d3e4927b69a2b48e&scene=21#wechat_redirect)中那段冗长的C代码。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQrAlCeuCXtgoXqMn5GbxNEByO4pvMPo0Rbib2D86LK31JZA2j19698tKFWes4qhEFkeMfNvNz6adHt5TnqicwnrX3g4skYH71L8/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___05讲_定点算力精炼指南_为什么浮点一行搞定的代码_定点要写得像天书__images/img_003_f5a5c1ef81bb.png)
 
 在Simulink的线条上开启了“Port Data Types”功能，这样各位同仁就能在连线上清晰地看到类型从 int16 变成 int32，经过移位后又变回 int16。这就把上文中抽象的流水线图，变成了可视化的模型信号流！
 
@@ -134,17 +134,17 @@ Q19减Q18？格式不一样，不能直接减吧？其实可以——在这个�
 
 故意设计一个“想当然”的系统。也就是乘法 Q15 \* Q15 = Q30 之后，直接粗暴地 \>> 15，剥夺所有的 Headroom（留白余量）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATBRgnEdSHTLEyEju4M9y2pW9cQdYmmNAO2JGjgfic7tlUf2JLUetIgNEO6tDPjRqNAH7WEXrw0Cr2O4OI3Jv9psGneqibGqqf7k/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___05讲_定点算力精炼指南_为什么浮点一行搞定的代码_定点要写得像天书__images/img_004_a46855309499.png)
 
 我们看下仿真结果：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARMWQcovowSdMp8G1tRylROybnys4m7IDGndicCKJQ8XRn7GSBYfwb5joIORDibvJbuqdp0p0K35vAgb1WVJwD0Qhb2pfxrjsMJY/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___05讲_定点算力精炼指南_为什么浮点一行搞定的代码_定点要写得像天书__images/img_005_e0af26df542d.png)
 
 宏观上看，定点运算和浮点运算的结果是殊途同归的，黄线（浮点运算版）、蓝线（右移12解码版）、橙线（粗暴右移15版）在 5000 幅值的宏观尺度下完美重合。至少证明了我们的**算法逻辑是绝对正确**的，无论底层怎么移位，我们最终把数据“翻译”回真实物理世界（也就是电流幅值 5000）时，大家都能转动电机。这是定点开发的第一步——**功能正确**。
 
 但是我们放大了来看：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARCu4FADV07Dy6Do0qdBfGjC601ViatBrmB16rXXdvjmoI0SsgnDleJknZjribRNmWSUiaqZyxrSA035XNSjibmolA0Mnn3WBeSIj8/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___05讲_定点算力精炼指南_为什么浮点一行搞定的代码_定点要写得像天书__images/img_006_996b6eca2bb7.png)
 
 橙线（粗暴右移15版）的台阶，明显要比蓝线（右移12解码版）的大。因为蓝线比橙线少右移了 2 位， 这少右移的 2 位，保住了它 **2 bit 的小数精度！** 我们把它除以 4（也就是乘以 0.25）解码回真实世界时，它的最小精度（LSB）由 1 变成了 1/22 = 0.25。 它的分辨率，**硬生生比橙色粗暴版提高了 4 倍！台阶细腻了 4 倍！**
 
@@ -152,7 +152,7 @@ Q19减Q18？格式不一样，不能直接减吧？其实可以——在这个�
 
 我们再看下支路二种的数据格式变化，类型如何从 int16 变成 int32，经过移位后又变回 int16。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATOHGpMibTI5rSQ0OXao6bv0HjDTjia3zKXF5JK1MiatLXib3FzPlmBrXlsPAehucD0xlhVUXmElB19vDNiaQQcicjpeMjJuwkqYCBhI/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___05讲_定点算力精炼指南_为什么浮点一行搞定的代码_定点要写得像天书__images/img_007_52d2ad7f6684.png)
 
 以上，就是用Clark变换的计算为例，通过造物主视角看到的定点开发过程。
 
@@ -162,7 +162,7 @@ Q19减Q18？格式不一样，不能直接减吧？其实可以——在这个�
 
 它不仅在不溢出的情况下完成了加减法，更是在最后仅仅右移 2 位归位，刻意把数据停留在了放大 4 倍的 Q13 格式上，肉眼可见的，蓝线（右移12解码版）与黄线（浮点运算版）的距离明显要小于橙线（粗暴右移15版）与黄线（浮点运算版）的距离。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASAqo3Wt6Icxk0vYdeqJpbtaIn1d2SFUEcUCm5cHHDTicE9uDgibfU0UXPrDGJvzibfdRELxSlLlBBUibPicicVxS2F0NNmRYvroWeCc/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___05讲_定点算力精炼指南_为什么浮点一行搞定的代码_定点要写得像天书__images/img_008_8b6dd0cb67cc.png)
 
 代码把这个带着两路 **高精度小数位** 的计算结果，直接喂给了下一个环节，从而保全了整个 FOC 环路的控制精度。
 

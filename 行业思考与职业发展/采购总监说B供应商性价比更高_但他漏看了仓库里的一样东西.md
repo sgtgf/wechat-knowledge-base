@@ -120,4 +120,4 @@ IATF 16949 的过程审核呢？VDA 6.3 倒是有一章叫"产品和过程开发
 
 就写：此价格不含软件。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATn4bRkGs1nmGibyHCcEBC7aiah9IQiagzQ37kt2yLdVOndXzRfapFWviaQsau9JqtxfCbtH177Dewr2ib3EiaPMrVaF8fkF5BmicNX74/640?wx_fmt=png&from=appmsg)
+![](采购总监说B供应商性价比更高_但他漏看了仓库里的一样东西_images/img_000_f5846f2a3200.png)

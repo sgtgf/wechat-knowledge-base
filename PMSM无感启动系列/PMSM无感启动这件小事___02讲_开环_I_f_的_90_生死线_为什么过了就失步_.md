@@ -77,7 +77,7 @@ SPMSM 的电磁转矩为
 
 式 (5) 的物理含义是： 必须处在  曲线的**上升段**。一旦进入下降段， 和  就“各走各的”，反馈机制失效。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARZibGz3jzNeAPyrj6ZTjZc0dl031LlicaCIrZ9gHx2swzwrkabqTIib2IeOYJGq3q45LTPPQ1T24xos7Zw31Kypich7EaUMqxkuTw/640?wx_fmt=png&from=appmsg)
+![](PMSM无感启动这件小事___02讲_开环_I_f_的_90_生死线_为什么过了就失步__images/img_000_8209e45acac1.png)
 
 **第三层：物理反馈——为什么上升段稳定、下降段失稳？**
 
@@ -91,7 +91,7 @@ SPMSM 的电磁转矩为
 
  增大一点，转矩反而减小，转子减速， 被越推越大。这是正反馈，系统失稳。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vvmIAIMZsAT8slRMLmBMKFOlicG4HXWOZxib5zUH5TiarTOJAde56Trwox7LFia5O3H34upIvgW79eqwQvSicU5KOtJiaqLg9m3icTjBIFmp5s2ibaI/640?wx_fmt=gif&from=appmsg)
+![](PMSM无感启动这件小事___02讲_开环_I_f_的_90_生死线_为什么过了就失步__images/img_001_a733e82e38bd.gif)
 
 **第四层：类比收束——指南针的边界**
 

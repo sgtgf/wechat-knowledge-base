@@ -113,7 +113,7 @@ PM\_VSI\_EXTREME 那个复杂的、与采样窗口强相关的决策逻辑，�
 -   **性能评估**：同时计算“总开关损耗”和“电流纹波RMS”两个指标。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARFwygnGOgucPDlpeDpUSSXFlgpZz25uqEfV88xx5MY1kwV2ErzKuRcmmMd5QR3YspOCHeelm1qmQIPc05Xzdub3vN6VhepL2c/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_补遗03_当算法遇见现实__DPWM的权衡进化_images/img_000_251f0534cfae.png)
 
 2.  **实现两种DPWM决策器：**
     
@@ -128,11 +128,11 @@ PM\_VSI\_EXTREME 那个复杂的、与采样窗口强相关的决策逻辑，�
 
 首先观测 CENTER 模式下的结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARiaVLSDJLwz0ynpgsZUsaibEibw8JhicmFDp8YbYpkASIG5WjCxOAWjA6DKv3FBoiaEXJPt6XoCC4ePoqTlqdeVWdiajeUVf09Zibw0k/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_补遗03_当算法遇见现实__DPWM的权衡进化_images/img_001_3de5f9af9f31.png)
 
 我们首先来看下Scope\_Main的波形：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARv4bLCM5tzAWGVUkMd7zDZicQBCXD5ffgG2Fk0lPIXic0A1txDyNksYXUTrR1e5Lia3HQ8nBmmFhDSb1IffojKzNgQTiabF5Y3pGs/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_补遗03_当算法遇见现实__DPWM的权衡进化_images/img_002_96514656151b.png)
 
 -   **上图**：这就是经过 PM\_VSI\_CENTER 调制后的三相占空比波形。各位同仁请看那个经典的**马鞍形**，波形中间凹下去的那一块，就是**三次谐波注入**的特征。这就是 uZero = 0.5 - (uMAX + uMIN) \* 0.5 这个简单的公式，给波形施加的“魔法”。它把正弦波的顶峰“按”下去了，从而留出了更多的电压裕量。
     
@@ -141,15 +141,15 @@ PM\_VSI\_EXTREME 那个复杂的、与采样窗口强相关的决策逻辑，�
 
 我们再来看下Scope\_Zero里的波形：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATNabQYMfBeWk9U3FpxOfaniboic7ib7HjwibMv4ib6t0450KomRI1Kc96ibZpb43Re7JicnVdxIUd70L9zeFplWjhw7blERpXgAibyM8E/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_补遗03_当算法遇见现实__DPWM的权衡进化_images/img_003_422616b24328.png)
 
 这是一个频率很高的三角波信号，也是 PM\_VSI\_CENTER 计算出来的零序分量 uZero。它以 3 倍于基波频率（我们设的是 50Hz，所以这个是 150Hz）在波动。这就是著名的**三次谐波零序**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATFE1qzJfXBc2EUvNKb6rRiaBBmicpoWiczMJM4KxZlNdeA0uenyktvjewFP8s7YHjrR9ysWLWR0Ls9oBic1eBzlTmL1vdicFZIHZE4/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_补遗03_当算法遇见现实__DPWM的权衡进化_images/img_004_2acd3d94f7d4.png)
 
 我们再来看一下Scope\_Loss (瞬时开关损耗)的波形：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASlbPAua2jUYmI1D7v4qVT6B9kl43vO2BVc9YFt0DQFUbxcnmYLGiagZUza6fdB4aXZ5NCZUuNyQialHgZ9FJMicAicpCTtInqheSc/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_补遗03_当算法遇见现实__DPWM的权衡进化_images/img_005_8c75d3e40f90.png)
 
 以上这张图展示了损耗随时间的变化。
 
@@ -165,11 +165,11 @@ PM\_VSI\_EXTREME 那个复杂的、与采样窗口强相关的决策逻辑，�
 
 下一步，把 Switch\_Strategy 模块的 Value 从 0 改成 1，切换到 EXTREME 策略。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAReBDw4VxRH4qmwkQAGnm5RTM1P8uabPSFVaiaLmGlreAcgiaswCYMcs7jFQ7paCFxibjwtvzl1aBcNVFCjkVY5DlTYTOwicxm6KVg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_补遗03_当算法遇见现实__DPWM的权衡进化_images/img_006_95f40358337a.png)
 
 我们首先来看下Scope\_Main的波形：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATKPLZxwFNpaVXr0xr6mPqJ3dkRRFWiawDC3hqQWybHeTS9nMkEWpGTFjRwqfJGjl9NTAo55PYRvamCAcjyOr10iaFzgmxScKUxI/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_补遗03_当算法遇见现实__DPWM的权衡进化_images/img_007_087fa9787028.png)
 
 -   **上图**：这是此时的**占空比**波形，注意看那些**平顶（Clamp to 1）**和**平底（Clamp to 0）**。这就是 DPWM 的标志性特征！在每一个电周期里，三相占空比轮流被“按死”在 0 或者“顶死”在 1。这意味着，在那段时间里，对应的功率管**完全停止了开关动作**。这就是为什么它叫 **Discontinuous PWM**。
     
@@ -178,13 +178,13 @@ PM\_VSI\_EXTREME 那个复杂的、与采样窗口强相关的决策逻辑，�
 
 我们再来看下Scope\_Zero里的波形：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATPUJ8aFg91EkgaxGk47ibPYZEq4UJpIuMwjogWPGv2uSbNk53ZK5VvDrnkygm8trwXXRuQbRDTxTlDr4fC2ySSA0XOtWIAKibHk/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_补遗03_当算法遇见现实__DPWM的权衡进化_images/img_008_1632eeed7d91.png)
 
 **这是什么鬼画符？** 别慌，这就是 EXTREME 策略下零序波形的真面目。它不再是那种优雅的、连续的三次谐波（马鞍形）。它是一系列**尖锐的、不连续的跳变**。每一次跳变，都对应着策略在“钳上管”和“钳下管”之间的切换，或者钳位对象的切换。正是这种剧烈的零序波动，才把三相电压“暴力”地拉到了 0 或 1 的边界上。
 
 我们再来看一下Scope\_Loss (瞬时开关损耗)的波形：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQTa0tGUQg6uI7vPAzvE1EapiaiavnDhcdMYiccxHXjRdkJpIdN3hkLhaicdTt9FcS7CeCDepFcBp9pjuBgFUymDLpqfDiblHPPwZQU/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_补遗03_当算法遇见现实__DPWM的权衡进化_images/img_009_7c12e3f8afa5.png)
 
 -   **平均值大降**：还记得刚才 CENTER 策略的平均损耗吗？大约是 **360**。现在看这张图，稳态平均值目测只有 **240-250** 左右。**足足降低了 1/3**！
     
@@ -193,7 +193,7 @@ PM\_VSI\_EXTREME 那个复杂的、与采样窗口强相关的决策逻辑，�
 
 **什么时候掉下去的？** 对照一下电流波形，你会发现，掉下去的时候，正是**某相电流达到峰值的时候！**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASylAGP4gflWTOHspOGTpBdr7HaAaPygV0cbyVgsSnrXPfqKHP9YzwVDJ6QLRGiadicBRMSRCF1x6bgTjaicct6ywQkW6KIibOINs4/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_补遗03_当算法遇见现实__DPWM的权衡进化_images/img_010_5ec370fde2a5.png)
 
 **为什么会掉下去？** 因为 EXTREME 策略在这个时候，强行把那个电流最大的相**钳位**了（不开关了）。最大的电流源头不产生开关损耗了，剩下的两个小电流相产生的损耗自然就很少。
 

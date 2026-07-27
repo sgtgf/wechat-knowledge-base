@@ -40,7 +40,7 @@
 
 同一个公式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQxxEgoTBbwSL8lPRiakzD7IcXmqiaHe2G9bPZTfPlEhoaG0wjTjibfndF7RdsMkHYo3ic0aHB7Mk01UwIDnicuuf2CFicnydEluZHww/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___08讲_Clark变换定点实现逐行拆解（上）__i_的七步计算_images/img_000_0983b3dff43d.png)
 
 浮点版一行算术表达式，定点版嵌套了七层括号。
 
@@ -52,7 +52,7 @@
 
 假设某一时刻三相电流为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARR5PMtLvShicYYmHdic396II7sl0Qvk4phHQpOicBVhyMePsj7vq7keiapGQbwtWooJAso4qsYVs3FQtSMqqBe94wlMW0kbUNAmSY/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___08讲_Clark变换定点实现逐行拆解（上）__i_的七步计算_images/img_001_9e764f6ecfe0.png)
 
 三相之和为零，符合平衡条件。用浮点算一下参考结果：iα = (2/3)×0.09155 - (1/3)×(-0.09155) = **0.09155**，对应Q15整数值**3000**。
 
@@ -152,27 +152,27 @@ Q30右移12位变成Q18，从int32截断存进int16。15999在int16的\[-32768, 
 
 在Simulink的画布中建立浮点运算、定点运算的两条并行路径的仿真模型，最终对比两条计算路线的输出结果差异：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASnpZDltSnKQGDjSHQZ3wLQan6pcBM2icaW9BB1Yib50W5hYK3q2IP0nSshpGtVllQ9KTafYcOpibH3Z4RN6c042m2WwdhalJeVick/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___08讲_Clark变换定点实现逐行拆解（上）__i_的七步计算_images/img_002_58a0946f121b.png)
 
 蓝色的子系统模块用于模拟浮点运算：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASUzYfNes8IAWcyclibqHicdK1ib5jwktlia0mt1d7GicHfULnLlXKjDyuBcicAH662KSG0DU5mcmG2b8fmOJ7yNM0P3rbBjYt1ia1PSY/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___08讲_Clark变换定点实现逐行拆解（上）__i_的七步计算_images/img_003_4ab37f68a9ef.png)
 
 绿色的子系统模块用于模拟定点运算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASvy9o9slvFQU8NezFJvSic9HtH4GicKhxb7Y5Vg7FYbMJS6xA6g6O30MIbSn8UOuwmmufiakvo9eQA5OyLDdHTJ5VIJORCAsBeJA/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___08讲_Clark变换定点实现逐行拆解（上）__i_的七步计算_images/img_004_95b80282298d.png)
 
 我们看下仿真结果：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATkZBtO036rx0fjxIvv08XD5cwiabDAV5BurPNPw9BpXibAd9A4shRlQic3PjRqDdP7Yodzf1MbFd2ajTwiaU3sLgeiaabL2f4ePfz0/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___08讲_Clark变换定点实现逐行拆解（上）__i_的七步计算_images/img_005_c60261c27b8b.png)
 
 粗看仿真结果，似乎浮点计算与定点计算的结果是吻合的。我们把结果逐级放大了来看：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQUaKpLtK6icfOc200JzCEVsufwL1NIxRFM4T0D3EDfyFf7O4VYS0gptpjQZVicyzuyYjOlibxVJpwxwibACib7ibAlL70LEQlMqRaLk/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___08讲_Clark变换定点实现逐行拆解（上）__i_的七步计算_images/img_006_8b2e17992a79.png)
 
 代表定点计算结果的蓝线呈现明显的阶梯状，这是定点运算量化的直观表现：每级台阶高度 ≈ Q17的LSB = 2\-17 ≈ 7.63μV（归一化单位），台阶宽度对应采样周期 Ts = 50μs ，这正是上文中要跟各位同仁传达的内容——定点数不是连续的，而是离散的"阶梯"。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARWlKib7ezId4hLpibFHHiaIaPgTwRIZwMDgab6TPMQpFR4fWO0W0a4v02trtaiczh8YkWG8x77j0wu1EPEibTap4CT0N76Ia0WrPA8/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___08讲_Clark变换定点实现逐行拆解（上）__i_的七步计算_images/img_007_9aefc48abfb9.png)
 
 代表浮点计算的黄色（Float\_Clark）曲线虽不是光滑曲线，但这是单精度浮点的"理想参考"，代表定点计算的蓝色（DTC\_Scope\_Alpha）曲线是阶梯状，紧贴黄线，偏差仅1~2个LSB，而且，两者的分离程度极小，说明Q17格式保留了足够的精度，这是对上文中讲到的Clark函数输出的iα“不是Q15格式，而是Q17"，并且 "误差仅0.008%"的直观展示。
 

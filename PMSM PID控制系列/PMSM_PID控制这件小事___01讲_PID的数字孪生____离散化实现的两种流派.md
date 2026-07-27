@@ -6,7 +6,7 @@
 
 各位同仁，我们做电机控制，天天跟PID打交道。大家都很熟悉这个公式，它写在每一本自动化教材的封面上，像一座丰碑。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQewE7kZziar4wL1458pmxtmWbngmyI3xGthEIneUfgibYmyXRpCKia0U9mpSZZgWwJ12AwO9HianGEJ4AS44vRnBTqv4NkZFPjwNc/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___01讲_PID的数字孪生____离散化实现的两种流派_images/img_000_f88453c7d2b6.png)
 
 多漂亮，多优雅。比例、积分、微分，像三位一体的神祇，掌管着我们的控制系统。但问题来了，这个公式是写给谁看的？是写给数学家看的，它存在于一个叫“连续时域”的理想国。
 
@@ -26,7 +26,7 @@
 
 怎么算呢？咱们把积分变成求和，把微分变成差分。更详细的内容可以参考文末参考教材\[1\]中的 Chapter 1.7, 公式 (1.36)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARVQwzqs17DXSFQR8uhyH5se06XcQnlF5hicuDPWaNDPsOMhebzecEDMtxAVNmL6MIcrMia7MW4ictY579YMZECMPcrLl4rYpUtz8/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___01讲_PID的数字孪生____离散化实现的两种流派_images/img_001_1016cb19a051.png)
 
 看，那个优雅的积分符号 ∫ 变成了一个有点笨拙的求和符号 ∑。这就是“现实”。
 
@@ -52,15 +52,15 @@ typedef struct {
 
 我们还是参考文末参考教材\[1\]中Chapter 1.7的公式 (1.37)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARbmfj7nJ9NmIrp3vTNF2qSRuS7sg7RS8qb7U7icmI9v5t6Dl7uHabCEBKqeBtzR7C1eL37jutHZwXHzNfQnjWoMGKLD8KECvVo/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___01讲_PID的数字孪生____离散化实现的两种流派_images/img_002_80cc82fda537.png)
 
 这个公式是通过用这次的位置式输出 u(tk) 减去上一次的输出 u(tk-1) 推导出来的：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATiaxwD0YkuMV3xS9ynW8VWcUOY69vYvqDg6wH1Uno989JIfkzCfZW7Uq4A6iaWFF8mdhtYia021D1aKY4McuTHXeBUrTnevhDC5s/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___01讲_PID的数字孪生____离散化实现的两种流派_images/img_003_322e1e841667.png)
 
 最终的输出是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATdqgcEApc1m86POpaicd2ic3CadlJMYbfraYnu1P6ST6nb3yCM9C5CnRibZRjxiaqOWZIdQrQ57V3eU3EHoxibqibR83HDVYIcKJ3N0/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___01讲_PID的数字孪生____离散化实现的两种流派_images/img_004_dcb692ea57de.png)
 
 **增量式PID最大的好处是什么？**
 
@@ -78,7 +78,7 @@ void pm_loop_current(pmc_t *pm)
 
 **本讲小结**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARqvXpZwSEr1icDqJeCQsnmKJvwmCuxAfD7OkGKAWUny6jFuZmbrrXoD2muejZSz30VaSMZCccRBfJib0v6TUsgaOhmSbVCbM160/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___01讲_PID的数字孪生____离散化实现的两种流派_images/img_005_d8f00c7a5565.png)
 
 那么，**为什么我们的两份电机代码看起来都偏向位置式？**
 
@@ -97,29 +97,29 @@ void pm_loop_current(pmc_t *pm)
 3.  **残酷现实 (低采样率)：** 同样的离散PID，采样率降低到1kHz。各位同仁会看到振荡和延迟立刻就出现了！
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATlwa0ibWOibI5bCjfZWz9pNH9ibtRCgRTXM3abve6sybnnUsXQkDh15iafvHDsP6WS0oItlI2micTCbXsia4qGBtNwPiaXoicK8693vxw/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___01讲_PID的数字孪生____离散化实现的两种流派_images/img_006_48f677ca8cb7.png)
 
 **理想国模块中的细节**如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASfH0QwRYGOEydcgT8vcBOv1zAWFXGib5xSJwjiayjmnHZ9mtcwRQZjL7TectpY5jaPqQ9zL2CttTpxGl9GY3cJrzT1D8icUzvKuw/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___01讲_PID的数字孪生____离散化实现的两种流派_images/img_007_469c0130b484.png)
 
 其作用是用于对标。我们会放入标准的 PID Controller (Continuous) 模块和被控对象 Transfer Fcn。这代表了教科书上的理论最优解。
 
 **现实世界 (高采样率)模块中的细节**如下**：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASQtBzk4srWl5rchly2LicUxCsH0RUqYTQg4nxbONGBCo69VFBeFS2pxnspgLvgQekqbVFLYic80ibJ9C0VeTMibyHvRPjKSW1Nb48/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___01讲_PID的数字孪生____离散化实现的两种流派_images/img_008_c2ee79ad0467.png)
 
 这是重头戏。我们不使用 Simulink 自带的 PID 模块，而是用**基本模块（Sum, Gain, Delay）手动搭建一个“位置式离散PID”结构**。以此来精确模拟 代码 B ( MotorVCMain.c 文件) 中的 PID32 算法逻辑（u(k) = kp·e(k) + ki·∑e(i)）。
 
 **残酷现实 (低采样率)的实现细节**如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASXKNxfiaDPgTgmfj5cF8U4cbRNBpUf2dfC1pbn1tvQYkNarNt9z5XPKnWGzvxyezW4xaVPn5ODnEcoojyD3b5zosHUyPXzxjD0/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___01讲_PID的数字孪生____离散化实现的两种流派_images/img_009_128db118285e.png)
 
 结构同上，但在被控对象处增加了低分辨率的 Zero-Order Hold (零阶保持器)，强制模拟低采样率下的物理世界反应。
 
 看下示波器中的仿真波形：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATyPaZHHM8h0P3GBDia7uPickmejejDAS0UeibUoMBjWrqe7Q6kvcBtPPjbG3kDjRicRSziaRoicglUeLDCrbVnPgd7FzwaibnRa86318/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___01讲_PID的数字孪生____离散化实现的两种流派_images/img_010_c5241beef3ea.png)
 
 各位同仁，咱们辛苦搭了半天模型，最后跑出来的这张图，可以说是咱们做数字控制最核心的一张“体检报告”。
 

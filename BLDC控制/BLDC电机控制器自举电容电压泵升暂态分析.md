@@ -92,7 +92,7 @@
 
 所以，你看，整个逻辑链是这样的：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRErUsSR9dbQmqs6r3JnKpxSZsYWdSs4IiaticiclZ3MuAaenE91MAoDwbgdaniciaAq3WWcESqibgcETicGw/640?wx_fmt=png&from=appmsg)
+![](BLDC电机控制器自举电容电压泵升暂态分析_images/img_000_a1f54a79e1cd.png)
 
   
 
@@ -106,8 +106,8 @@
 
 使用仿真软件PSIM，可以快速且清晰地复现这个过程。在仿真模型中，在母线的正回路和负回路中，加入了20nH的寄生电感；BLDC电机的三相绕组线上加入了50mΩ和50nH的电阻电感串联，用于模拟接触电阻、导线电阻和控制器引线的寄生电感。MOSFET电动驱动IC选用了国产（峰岹）的FD2203S，自举电容选用了105（1uF）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRErUsSR9dbQmqs6r3JnKpxStODgYibHqF9LLYRtib59OLyMS7clNiasQr7CjibdfAhXcL7BX1xLkJI4iaw/640?wx_fmt=png&from=appmsg)
+![](BLDC电机控制器自举电容电压泵升暂态分析_images/img_001_bc14107c7dfa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRErUsSR9dbQmqs6r3JnKpxS83lSGVtCoxWTAPxPDGhB0acuz3FQs0duQpvCFnCgtSdPic7ylQ3Q17Q/640?from=appmsg)
+![](BLDC电机控制器自举电容电压泵升暂态分析_images/img_002_fa4e1728b900.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRErUsSR9dbQmqs6r3JnKpxSNCch7yRGGMcDuzL3KrvzXawV5RMbNxChVtLl1dkEITib3qmnxzATl8A/640?from=appmsg)
+![](BLDC电机控制器自举电容电压泵升暂态分析_images/img_003_4abee7e57a81.png)

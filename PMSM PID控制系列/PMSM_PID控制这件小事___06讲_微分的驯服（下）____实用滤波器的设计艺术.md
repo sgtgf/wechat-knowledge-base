@@ -20,7 +20,7 @@
 
 而必须是：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATiarfOqXmNX6wTHhzsBn7UDeaZzWTicm5wPKs6jZxLE6zFiat7SFW6LYMU1XyfVkml9jCAicvv5F54JbXMyDbQdNV5WYQmKKLBr2Q/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___06讲_微分的驯服（下）____实用滤波器的设计艺术_images/img_000_ec05aab97fc0.png)
 
 这两者到底差在哪？就差在分母那个 Tf·s + 1 上！这在控制理论里叫作**一阶低通滤波器（Low-pass Filter, LPF）。**
 
@@ -79,7 +79,7 @@
 
 模型框架如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQcWQxsqCpnq0OyvOG1p4etS4NIhuBCvzOfjBpS5Mz2oZJTalMRBMtoo5UEjccec6MMZia6V3xwQqzJB5Gm7c2HrDiaEwbMlVujc/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___06讲_微分的驯服（下）____实用滤波器的设计艺术_images/img_001_9bbb181da136.png)
 
 左半部分是信号输入侧，用一个平滑的 Sine Wave 信号，叠加上一个 Quantizer（量化器，模拟编码器分辨率带来的阶梯状离散误差）信号，用来模拟一个宏观看着平滑，但微观上充满高频毛刺的“真实观测速度”。
 
@@ -89,7 +89,7 @@
 
 我们首先来看一下滤波系数 α = 0.1（alpha = Ts/(Tf+Ts)）时的仿真波形：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASjJxVZmxWfvHWXVWficZZlvuL3ZITVKQvb7icfVBjhPicLOiaXXDMMf9WHDRE3BCPhytRagS67R0ZehsGqDvJWcAG1BoVP8vUHrlc/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___06讲_微分的驯服（下）____实用滤波器的设计艺术_images/img_002_9cd51588cb0f.png)
 
 解读一下波形：
 
@@ -102,11 +102,11 @@
 
 感兴趣的同仁，可以用鼠标拖动模型下方的滑块，当滑块被拖到最左方时，滤波系数α = 0.005，滤波能力最强，此时的仿真波形为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQ4OToaQvBLHibM3DyFkD6mNMfS13fkHvUgVFkIxPwOeRJQaXt7CsUm27xnkgzL7jW1SdJoz0TcKEUlpf9asYFm6W5VDIkf6dyA/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___06讲_微分的驯服（下）____实用滤波器的设计艺术_images/img_003_1f1c05959f7d.png)
 
 当滑块被拖到最右方时，滤波系数α = 0.4，滤波能力最差，此时的仿真波形为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASkVqWxibLVx4HUTPeDtolDKwARE8IlCnybbdT6F2jr7EEibLgPXeRqZIAxOKYXiaKHN7NxSblAbKTnfibwXlEhTFEUepUicHbNSl7g/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___06讲_微分的驯服（下）____实用滤波器的设计艺术_images/img_004_ff248aeba4e5.png)
 
 我们可以真真切切地在这个模型的**第三个视窗里**看到：只要把滤波能力加强，波形就会变得无比圆滑；但随之代价就是，**整座波峰就像蜗牛一样向右平移了（慢半拍）！**
 

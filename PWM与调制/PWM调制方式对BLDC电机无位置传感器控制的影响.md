@@ -12,32 +12,32 @@ BLDC电机的逆变器控制拓扑中，在电机每60度的旋转区间内（�
 
 1.  on\_pwm型： 前半程（60°）开关常开（恒通），后半程（60°）快速开关（PWM）。就像先让水流通畅流一会儿，后半段再快速开关水龙头调节。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHCfeibO32TRQ2cyiay8AsonWkwicpGwEHUErF1oeEoiaL3RerQOKFEhichibiaeUNianEQ9LOasKYp36eLIQ/640?wx_fmt=png&from=appmsg)
+    ![](PWM调制方式对BLDC电机无位置传感器控制的影响_images/img_000_ccb1a651e870.png)
     
       
     
 2.  pwm\_on型： 前半程（60°）快速开关（PWM），后半程（60°）开关常开（恒通）。和上面反过来，先调节，后通畅。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHCfeibO32TRQ2cyiay8AsonW9icyPlE93PoUibPiaqIfXYAcU7VTGsHHEtfyD88hibqfERuK7kq0nZ9DmA/640?wx_fmt=png&from=appmsg)
+    ![](PWM调制方式对BLDC电机无位置传感器控制的影响_images/img_001_abe9fb46f2c6.png)
     
       
     
 3.  H\_pwm-L\_on型： 上开关组（H）快速开关（PWM），下开关组（L）常开（恒通）。想象上闸门在调节，下闸门一直开着。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHCfeibO32TRQ2cyiay8AsonWrrJGRic6mjk9Gv4HIdhibMibibJHs2dAVcRsbbGKdib96Y8VLVfMzw5Q8icw/640?wx_fmt=png&from=appmsg)
+    ![](PWM调制方式对BLDC电机无位置传感器控制的影响_images/img_002_c528c794d445.png)
     
       
     
 4.  H\_on-L\_pwm型： 上开关组（H）常开（恒通），下开关组（L）快速开关（PWM）。上闸门一直开，下闸门在调节。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHCfeibO32TRQ2cyiay8AsonW3G7H8G9LCNwicWVPKlSU2ic67GXqwichzw18jD2Dafkak1a2SuAD8qia2Q/640?wx_fmt=png&from=appmsg)
+    ![](PWM调制方式对BLDC电机无位置传感器控制的影响_images/img_003_8580827e6925.png)
     
       
     
 5.  H\_pwm-L\_pwm型： 上下开关组都快速开关（PWM）。两个闸门都在不停调节。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHCfeibO32TRQ2cyiay8AsonWLHU4FnTfYNtzpqS9WpbHM5U9x90b478yl9gZgjezWR8opznC8NRbtQ/640?wx_fmt=png&from=appmsg)
+![](PWM调制方式对BLDC电机无位置传感器控制的影响_images/img_004_264d5cba3e85.png)
 
 简单分为两类：
 
@@ -54,15 +54,15 @@ BLDC电机的逆变器控制拓扑中，在电机每60度的旋转区间内（�
 
 1.  正常的“刹车”电流： 当你关掉一个相的开关（比如A相），线圈里的电流不会立刻消失，它会“续流”一小会儿（像踩刹车滑行），方向可能正可能负。文献中图5-7中的\[t1, t2\]和\[t6, t7\]就是“刹车”电流。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHCfeibO32TRQ2cyiay8AsonWvdFWIHwdHoW1WJMPwFviaoicEdtkiaia5pRdHSjiaE8EniaknwE5SuSIxaWw/640?wx_fmt=png&from=appmsg)
+    ![](PWM调制方式对BLDC电机无位置传感器控制的影响_images/img_005_fd1be4a24a80.png)
     
       
     
 2.  “幽灵”现身： “刹车”结束后（比如t2或t6之后），电流应该归零了吧？并没有！ 因为电机还在转，它本身产生的反电动势 (ea) 还在。这个电压ea和电路中另一个关键点“中性点”电压 (UN ) 在“较劲”，如果条件合适 (ea - UN > 0 或 ea + UN > US)，就能凭空“抽”出一个小电流来！这就是反电动势电流。看图5-7中 \[t2, t3\]或 \[t6, t7\]那段脉动的、峰值渐变的电流。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHCfeibO32TRQ2cyiay8AsonWK2FAhicRoJHXBBhiaiabC7TzZiblYO1ddw9gkePKJiaLiaomibQecQHmzLYrA/640?wx_fmt=png&from=appmsg)
+    ![](PWM调制方式对BLDC电机无位置传感器控制的影响_images/img_006_284e20c87884.png)
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHCfeibO32TRQ2cyiay8AsonWY1CWh3FM05M7pfZznGkkPb2XeqWMDgHGWZTmrSFzQcKEHOf6o94cNg/640?wx_fmt=png&from=appmsg)
+    ![](PWM调制方式对BLDC电机无位置传感器控制的影响_images/img_007_8cab7f50aa3d.png)
     
     (虚线箭头方向就是幽灵电流的流向)
     
@@ -77,7 +77,7 @@ BLDC电机的逆变器控制拓扑中，在电机每60度的旋转区间内（�
       
     
 
-关键问题：不同的PWM“开关节奏”（调制方式），会极大影响这个“幽灵电流”的大小和出现时机！![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHCfeibO32TRQ2cyiay8AsonWGcYgYj6Mhqq9rRib8hC7a7RKlF1GMpOhoqxQAbl5WiaxBTzsyPeG0evQ/640?wx_fmt=png&from=appmsg)
+关键问题：不同的PWM“开关节奏”（调制方式），会极大影响这个“幽灵电流”的大小和出现时机！![](PWM调制方式对BLDC电机无位置传感器控制的影响_images/img_008_ae58b5fff67b.png)
 
 三、 “开关节奏”如何影响“幽灵电流”？(核心分析)
 
@@ -87,11 +87,11 @@ BLDC电机的逆变器控制拓扑中，在电机每60度的旋转区间内（�
 
 · 向上续流：开关管关断时，电流通过二极管流向电源正极（原文图5-10）。此时UN  ≈ (1+S')/2 \* US 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHCfeibO32TRQ2cyiay8AsonWtqwibKAEIEXxnvB4PXlfYs3aB5jDWicRj6pUv5aTz76quXqNbzwtGGIg/640?wx_fmt=png&from=appmsg)
+![](PWM调制方式对BLDC电机无位置传感器控制的影响_images/img_009_d21b41c466dc.png)
 
 · 向下续流：开关管关断时，电流通过二极管流向电源负极（原文图5-11）。此时UN ≈ S/2 \* US 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHCfeibO32TRQ2cyiay8AsonWbnRjfVibhkoWu9qZ32n0tc0mOyV01tkn7IBz57N0Xu0vctRz5QFg3iaw/640?wx_fmt=png&from=appmsg)
+![](PWM调制方式对BLDC电机无位置传感器控制的影响_images/img_010_6e41ffa80856.png)
 
 (S和S'是开关状态函数，0或1)
 
@@ -103,27 +103,27 @@ BLDC电机的逆变器控制拓扑中，在电机每60度的旋转区间内（�
 
 -   如果另外两相是向上续流(on\_pwm, H\_on-L\_pwm)，UN 较高，ea - UN 或 ea + UN 不易满足产生大幽灵电流的条件。幽灵电流小且早结束，影响小。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHCfeibO32TRQ2cyiay8AsonWC39I2bAWFIgtDHqicmHRzBsLqfybMcLPvNIWOsDlEibCOJumsibKGc9icA/640?wx_fmt=png&from=appmsg)
+    ![](PWM调制方式对BLDC电机无位置传感器控制的影响_images/img_011_13743bb9e56d.png)
     
       
     
 -   如果另外两相是 向下续流 (pwm\_on, H\_pwm-L\_on)，U\_N较低，容易产生幽灵电流，且电流大且持续时间长（靠近换相点），影响大！严重干扰换相判断！
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHCfeibO32TRQ2cyiay8AsonWSAypiaeCgD3NFbHjiac2K2kJiatTU7tP2rsXgfpzBeQqicYMol3mmJh6bA/640?wx_fmt=png&from=appmsg)
+![](PWM调制方式对BLDC电机无位置传感器控制的影响_images/img_012_a4bba067b85e.png)
 
 2\. 下桥臂关断后 (如关A相下桥)：
 
 -   如果另外两相是向下续流 (on\_pwm, H\_pwm-L\_on)，幽灵电流小且早结束。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHCfeibO32TRQ2cyiay8AsonWSDPOj1iao8yJk4JS9Sk4DEbkvxlgcXiaNRMGqEah4YwLjQCRx8B11zXw/640?wx_fmt=png&from=appmsg)
+    ![](PWM调制方式对BLDC电机无位置传感器控制的影响_images/img_013_ba47b83bdcae.png)
     
       
     
 -   如果另外两相是向上续流 (pwm\_on, H\_on-L\_pwm)，幽灵电流大且持续时间长。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHCfeibO32TRQ2cyiay8AsonWwxfN0twKjIhice4h6gO5C5HxaHwS6eo18xk0H43I7mHLlibDibib2hicTVg/640?wx_fmt=png&from=appmsg)
+![](PWM调制方式对BLDC电机无位置传感器控制的影响_images/img_014_1aeb7e89893d.png)
 
 汇总四种调制方式的“幽灵电流”表现：
 
@@ -148,7 +148,7 @@ BLDC电机的逆变器控制拓扑中，在电机每60度的旋转区间内（�
     
       
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHCfeibO32TRQ2cyiay8AsonWgia4NRtKZx8cbb9VYM7nyLH2ia2PvyhxxJ2icoVWPiaLfgWz7jwcI5nssg/640?wx_fmt=png&from=appmsg)
+    ![](PWM调制方式对BLDC电机无位置传感器控制的影响_images/img_015_e33a0d1f096f.png)
     
       
     
@@ -159,7 +159,7 @@ BLDC电机的逆变器控制拓扑中，在电机每60度的旋转区间内（�
       
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHCfeibO32TRQ2cyiay8AsonWX9Biatic6hjGuarib4cpOLjScVKyOfib8GodK2IGnxwjH3bCCjnKnQWAag/640?wx_fmt=png&from=appmsg)
+![](PWM调制方式对BLDC电机无位置传感器控制的影响_images/img_016_ad529883c42d.png)
 
 关键抉择：哆嗦可以治，“幽灵”难缠！
 

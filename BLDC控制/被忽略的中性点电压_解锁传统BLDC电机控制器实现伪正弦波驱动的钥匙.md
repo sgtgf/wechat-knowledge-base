@@ -19,7 +19,7 @@
 
 （下图右侧插入永磁体的可以转的部分就是转子，左侧缠着铜线圈的部分就是定子。）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH3YPiaKQLHKxTG3kViagCqufIEdvJvv5ou93wHQb08gyPpx6vhrdNziaLkXJg3NnjzMNWE0Mz8CoXLw/640?from=appmsg)
+![](被忽略的中性点电压_解锁传统BLDC电机控制器实现伪正弦波驱动的钥匙_images/img_000_40f3850f1c28.png)
 
 怎么让秋千一直转起来呢？你得在正确的时间、正确的方向去推它。你不能等它荡到最高点再推，也不能逆着它推，对吧？
 
@@ -33,7 +33,7 @@
 
 这种方法简单粗暴，就像开车只知道踩死油门和一脚刹车。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH3YPiaKQLHKxTG3kViagCqufC8R7sC95FDIpIMXzqW36Vykm14ZBzkC5MA5bB7E5nkTxsvkn3MeJiaQ/640?from=appmsg)
+![](被忽略的中性点电压_解锁传统BLDC电机控制器实现伪正弦波驱动的钥匙_images/img_001_d06b27b4d1e5.png)
 
 -   极电压（Pole Voltage）：这就是我们给推手的“指令”，你看，要么是满格的力（+Vdc），要么是没力（0）。这种波形，我们叫它方波。
     
@@ -53,9 +53,9 @@
 
 要得到正弦波的推力，我们首先得理解推力是怎么来的。大家看原文的核心公式(3)，可以配合下图来理解：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH3YPiaKQLHKxTG3kViagCqufjO9aU7HOADqSOr2T41oibBWU02WiauEkxhrmB8wkSFkhNWGZ8DGB2oKA/640?from=appmsg)
+![](被忽略的中性点电压_解锁传统BLDC电机控制器实现伪正弦波驱动的钥匙_images/img_002_fe2ce2ffdbc4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH3YPiaKQLHKxTG3kViagCqufKZE0KcvibFKNA1nGaeKYicmAzr7wchgfr5rKyTA1AibEyLghflicOzBgcg/640?from=appmsg)
+![](被忽略的中性点电压_解锁传统BLDC电机控制器实现伪正弦波驱动的钥匙_images/img_003_23547ce807ea.png)
 
 用大白话讲就是：
 
@@ -65,7 +65,7 @@
 
 这就是这篇论文最牛的地方！他们提出的“改进的150°换向法”就是这么干的。我们来看原文出现的下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH3YPiaKQLHKxTG3kViagCquf0NtC9iaYY06hglE1YndbNjWrpdWdPlxlNo9rOo3TCVADNyLiawlwB8Ow/640?from=appmsg)
+![](被忽略的中性点电压_解锁传统BLDC电机控制器实现伪正弦波驱动的钥匙_images/img_004_ebd7e7bf7407.png)
 
 请大家仔细看这个Vpole的波形，它不再是简单的“开”或“关”了。在波形的“肩膀”位置（比如15°到45°区间），它给的不是满格的力，而是一个不大不小的力。这个力是多少呢？论文里写了，是Vdc \* sin(60°)。
 
@@ -94,11 +94,11 @@
 
 1.  转矩更平稳：看下图的仿真结果，传统120°法的转矩曲线抖动得像得了帕金森（脉动率24.1%），而改进150°法的曲线平滑多了（脉动率12.03%），几乎减少了一半！
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH3YPiaKQLHKxTG3kViagCqufG9kiag6hrvqntC8v9ScTHYmkuKIcoibudMaho34j3szicXhib9N4OgLZZQ/640?from=appmsg)
+    ![](被忽略的中性点电压_解锁传统BLDC电机控制器实现伪正弦波驱动的钥匙_images/img_005_8235e9c60e18.png)
     
 2.  效率更高：看下表的数据，在同样的工况下：
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH3YPiaKQLHKxTG3kViagCqufRr4fgz92GM25D32s3fGmqEcPhOvYfKiatibTJ6qZLmynib7fnSE2N9u9w/640?from=appmsg)
+    ![](被忽略的中性点电压_解锁传统BLDC电机控制器实现伪正弦波驱动的钥匙_images/img_006_4490874379ea.png)
     
             i. 120°法效率：92.1%
     
@@ -108,17 +108,17 @@
     
 3.  电流更平滑，谐波更小：看下图的实验图，改进150°法的电流波形（右下角那个）明显比右上角的更圆润，更像正弦波。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH3YPiaKQLHKxTG3kViagCquffibxTvHJiaUhwyXWQmMic0jLnmCPp1UapuC6av2uficcfUjc1WIbZHZckw/640?from=appmsg)
+    ![](被忽略的中性点电压_解锁传统BLDC电机控制器实现伪正弦波驱动的钥匙_images/img_007_c4377877a9fd.png)
     
     再看它的总谐波失真（THD）只有0.055，而120°法高达0.287，差了整整5倍！谐波就是噪音和振动的元凶。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH3YPiaKQLHKxTG3kViagCqufUYYuru6cJNagQsQcseYPbXhA757LBn0QZIywsaw8NvezCf4qJFVvtA/640?from=appmsg)
+    ![](被忽略的中性点电压_解锁传统BLDC电机控制器实现伪正弦波驱动的钥匙_images/img_008_1cdee935c240.png)
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH3YPiaKQLHKxTG3kViagCqufor2Sq4r8coXsl4ATYtrKWcOS0YBDz0q536Z2iadb4Eia7QB1s8J3mJ5A/640?from=appmsg)
+    ![](被忽略的中性点电压_解锁传统BLDC电机控制器实现伪正弦波驱动的钥匙_images/img_009_9ad1614e770a.png)
     
 4.  噪音更小：最后，科学家们把它放进消音室里“听诊”，看下表的数据：  
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH3YPiaKQLHKxTG3kViagCquficaz4SIbsRRpjSf9TOMnHJ6DT1JvP2aD7dffDwRI4jPPwJ3jMUNXjYQ/640?from=appmsg)
+    ![](被忽略的中性点电压_解锁传统BLDC电机控制器实现伪正弦波驱动的钥匙_images/img_010_48d1a253702d.png)
     
 
 1.  120°法噪音：51.1 dBA  

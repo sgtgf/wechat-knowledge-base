@@ -187,19 +187,19 @@ SynInitPosDetect函数就像一个勤奋的勘探队员，他拿着锤子（电�
 
 电压方程是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHhkL9A8DXklaGQluN7NnBJr3LeK3gnCmwvITtu2E5ia8sHR3FcLYPjylTibFTRsAddFWIBf9fyiaJSg/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___17讲_把转子哄到该去的位置__初始角辨识的温柔与强硬_images/img_000_331ccb92e286.png)
 
 如果我们发的脉冲时间 △_t_ 很短，电流 _i_ 很小，那么 _R·i_ 这一项其实很小。
 
 粗略算的话：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHhkL9A8DXklaGQluN7NnBJyztwu6tHU3cJx1Efa6bwJX3RzqicubuHibxY170QiaaS0b2FDBibtNztwg/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___17讲_把转子哄到该去的位置__初始角辨识的温柔与强硬_images/img_001_53beef9b8745.png)
 
 但是！作为追求极致的工程师，代码B的作者并不满足于“粗略”。他要把那个微小的电阻压降 _R·i_ 也给扣掉，算出最纯净的电感电压。
 
 所以公式变成了：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHhkL9A8DXklaGQluN7NnBJ7FUQwlG6T8C5NAcLic2AYPDdKXc5VGKxBnHyrBpr6aNwcOI5UEtvQag/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___17讲_把转子哄到该去的位置__初始角辨识的温柔与强硬_images/img_002_bf8a2bc9d82d.png)
 
 ### 4.1.2 代码逐段解析
 
@@ -264,7 +264,7 @@ void SynCalLdAndLq(void)
 
 以上的代码段，是一个纯粹的数学分解。它基于一个理论：三相绕组的线电感会随着转子角度θ呈现cos(2θ)的规律变化。这背后的数学原理，与文末的IEEE标准1812-2023中的Annex E.4.1.1 中描述的线电感与d-q电感的数学关系 (E.4)式 是一致的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHhkL9A8DXklaGQluN7NnBJmgNwDiae9KMF6wPxokumLhh5WFpfNn47GK97qeZR3b2yNxeVWRVROKw/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___17讲_把转子哄到该去的位置__初始角辨识的温柔与强硬_images/img_003_3de57fa4f373.png)
 
 以上的代码段，还有一个很有意思的点，就是注释掉的角度求解代码：
 

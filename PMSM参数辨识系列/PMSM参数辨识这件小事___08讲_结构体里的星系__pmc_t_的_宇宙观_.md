@@ -186,7 +186,7 @@ typedef struct {
 
 整个的电阻辨识流程的框架是这样的：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRETTtlOBzJtPChFz1N1MctSiaXlibfHrJL3YUeJVm3KLIcFiavZ2TnBf9WLtXhrEuwiblIgxeIN3IThlw/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___08讲_结构体里的星系__pmc_t_的_宇宙观__images/img_000_f773e0bc908a.png)
 
 1.  **启动**: 上层应用设置 `pm->fsm_req = PM_STATE_PROBE_CONST_RESISTANCE;`
     

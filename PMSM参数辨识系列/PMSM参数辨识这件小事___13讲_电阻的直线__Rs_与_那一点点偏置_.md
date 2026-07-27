@@ -203,7 +203,7 @@ Ucmd = R·I + Vdead·1
 
 而在`adjust_dcu_voltage`里，作者引入了具体的死区补偿模型。我们在**[站点二](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247485032&idx=1&sn=a6ea942eb527c6fcfaf0a10ddf4c05ad&scene=21#wechat_redirect)**讲过，死区补偿电压`DTu`的计算公式是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRF6UwUzznibp5Zg9YibHkibuq3gPW3tw75EibiaWE135cSreZuqp6tZI416icEqOT0TjdjJpsyjpmAbZFXA/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___13讲_电阻的直线__Rs_与_那一点点偏置__images/img_000_425f2344ec32.png)
 
 或者写成：Vdead = Kdead·Vmodel，其中Vmodel是基于当前死区时间设定值算出来的理论补偿电压。
 

@@ -12,7 +12,7 @@
 
 关键规律：每次检测到这个反电动势 **过零点（Z点）后，再等30度电角度（相当于最佳“换挡”时机），就是电机该“换挡”（换相）的最佳时刻（C点）**。看下面图(b)里标注的Z点和C点，它们就像精准的时钟刻度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREETn8bURz57Z49LIWW3v46EycE563dmoHzaLP8lAG0czFCgcxetMarWJu3Zib3SYYxVvR3iaiaSzyxw/640?wx_fmt=png&from=appmsg)
+![](BLDC电机无感方波控制_H_PWM_L_ON模式下的反电势过零点采样解析_images/img_000_3dc6e37f10da.png)
 
 二、**“抓零点”的独门绝技：直接端电压采样**
 
@@ -24,13 +24,13 @@
 
 在 **上臂PWM开关“刚关断那一瞬间”** （如下图(b)所示），去测量那个暂时“休息”的相（悬空相）的端电压（比如A相的UA），信号最干净，受开关干扰最小！这就好比在喧闹的课间突然安静的那一刹那，听清楚老师点名。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREETn8bURz57Z49LIWW3v46tncvNicYia68h8E0zoFmNjsXdT7pm1OjxL7vTWfHlC6ed0roOF6slWyg/640?wx_fmt=png&from=appmsg)
+![](BLDC电机无感方波控制_H_PWM_L_ON模式下的反电势过零点采样解析_images/img_001_0a4a1009a910.png)
 
   
 
 3.抓零点核心公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREETn8bURz57Z49LIWW3v46icjXCXIwVLgicw3rqNjficsuJKS3rlIBYcRmiblbL0mByQ9HZ1M9ttVnibg/640?wx_fmt=png&from=appmsg)
+![](BLDC电机无感方波控制_H_PWM_L_ON模式下的反电势过零点采样解析_images/img_002_486ea89ac71f.png)
 
   
 
@@ -64,7 +64,7 @@
     
     **换晚了（滞后换相）：** 转子都冲过头了你才让它“转身”，更糟糕！不仅颤抖，下次的零点（Z点）可能直接被淹没，导致电机彻底“迷路”（失步）。看下图右部分，端电压波形右侧被“吃掉”，甚至看不到下次过零点了！
     
--   ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREETn8bURz57Z49LIWW3v46tuvkEqposBnKZT9tL2Y1GLvQ08j16VPkj6zgd3MtChqJ9KJrsjgCibg/640?wx_fmt=png&from=appmsg)
+-   ![](BLDC电机无感方波控制_H_PWM_L_ON模式下的反电势过零点采样解析_images/img_003_f1e881b5ceac.png)
     
       
     
@@ -72,7 +72,7 @@
     
     以前常用的方法是：**这次零点（Z(k)）到下次换相点（C(k)）的等待时间（`tZC(k)`），等于上一次零点间隔（Z(k-1)到Z(k)的时间 `TZC(k-1)`）的一半**。
     
--   ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREETn8bURz57Z49LIWW3v46sBb2yAT6zt1WuxsUKDHdXicF6clwrVXR7GUWXkAR5wY0r5V4nFvOxKQ/640?wx_fmt=png&from=appmsg)
+-   ![](BLDC电机无感方波控制_H_PWM_L_ON模式下的反电势过零点采样解析_images/img_004_bf1287ef1d39.png)
     
     这个方法在电机“呼吸均匀”（反电动势对称，零点间隔相等）时挺好用。但 **现实很骨感！** 电机做出来不可能完全对称，反电动势波形可能有点“歪”，导致 **相邻过零点之间的间隔时间（`Tzz`）并不相等！** 如果用老方法，在某些地方换相点就会严重偏离理想位置，特别是高速时容易丢零点、导致失步。
     
@@ -81,11 +81,11 @@
 
 文献作者发现了新大陆！他们观察到，虽然相邻间隔不一样，但 **过零点间隔存在“周期性规律”**：**每相隔180度电角度（也就是同一相的下一个过零点），间隔时间是基本相同的！** 看下图，比如 `Tzz(1)`和 `Tzz(4)`就差不多相等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREETn8bURz57Z49LIWW3v46wf1Qtic4zzgCQKVCicOVIxwpFaiaD3ibAx5f2kIaEwKSadU6PS6ZoPyibAw/640?wx_fmt=png&from=appmsg)
+![](BLDC电机无感方波控制_H_PWM_L_ON模式下的反电势过零点采样解析_images/img_005_f1a98935d088.png)
 
 **基于此，文献作者发明了新的“换挡”等待时间算法：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREETn8bURz57Z49LIWW3v4641nB0UpzUHZZlcT8VdyDyCxAWQic3toUwhbSZLE16c25PLdzMIZD38g/640?wx_fmt=png&from=appmsg)
+![](BLDC电机无感方波控制_H_PWM_L_ON模式下的反电势过零点采样解析_images/img_006_0a94d62e537d.png)
 
 **核心思想：** 当你抓住当前这个零点 `Z(k)`时，你不再看紧挨着的前一个间隔 `Tzz(k-1)`，而是**往回数三个，找到那个具有“周期性相似”的间隔 `Tzz(k-3)`，用它的一半时间作为等待时间**。
 
@@ -100,11 +100,11 @@
     **精准居中：** 这样算出来的换相点 `C(k)`会 **稳稳地落在前一个零点 `Z(k-1)`和当前零点 `Z(k)`的正中间位置**（如下图），这才是理论上的最佳换相点（距离前后零点各30度）！无论波形怎么歪，换相点都在中间，大大降低了丢零点和失步的风险。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREETn8bURz57Z49LIWW3v46libjnTI6qvwNLKkdIEOibpO5Su9uFBeKkYAibaW9jpD3aELwIrx9TicvSg/640?wx_fmt=png&from=appmsg)
+![](BLDC电机无感方波控制_H_PWM_L_ON模式下的反电势过零点采样解析_images/img_007_f5387dbe83b6.png)
 
 **效果如何？看图说话！** 下图是实测的端电压波形。上面是用老方法（传统延迟），波形不对称，换相点（通道3的下降沿）偏离中心。**下面是用新方法（新延迟）**，波形明显对称多了，换相点稳稳地在两个过零点（通道2的上升沿和下降沿）中间！这就是精准换相的直观体现。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREETn8bURz57Z49LIWW3v46dQYNd8AJZ3Wext0ZibkNBGBxiab294IfJ2fiaaEcxDibFRrpsbHnP5qrcg/640?wx_fmt=png&from=appmsg)
+![](BLDC电机无感方波控制_H_PWM_L_ON模式下的反电势过零点采样解析_images/img_008_788c86db8d72.png)
 
 **五、总结：省钱又靠谱的“无感”驾驶方案**
 

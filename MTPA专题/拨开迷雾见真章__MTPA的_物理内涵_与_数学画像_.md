@@ -32,7 +32,7 @@ SPM，就是永磁体直接贴在转子表面的那种。它有个特点，就�
 
 我们来看看它的数学画像。这是电机世界最最基础的转矩公式，所有人都要刻在脑子里！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe2Gt0yBQSEeBicI5CTr62nnfcUEW3rJzeTp1pv3kFicTfOVjhV1e45ic8XA/640?from=appmsg)
+![](拨开迷雾见真章__MTPA的_物理内涵_与_数学画像__images/img_000_f9e934f8e4fc.png)
 
 其中，Pn是极数相关常数，前面这部分Pn\*Ψm\*iq叫永磁转矩，后面这部分Pn\*(Ld - Lq)\*id\*iq叫磁阻转矩。
 
@@ -40,7 +40,7 @@ SPM，就是永磁体直接贴在转子表面的那种。它有个特点，就�
 
 请看图！这就是“老实人”的转矩构成图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe2wt8kdAeqb6VIp3qT16iaPRVoZE8NbNmkFy9ibj0Zy9EschpehmjfUnRw/640?from=appmsg)
+![](拨开迷雾见真章__MTPA的_物理内涵_与_数学画像__images/img_001_5ef3c9d500b1.png)
 
 大家看，红色的“磁阻转矩”线，就是一条趴在0上的“咸鱼”。总转矩（绿线）和永磁转矩（蓝线）完全重合了。这说明，它根本不会利用磁阻转矩，是个“实在人”。
 
@@ -75,7 +75,7 @@ Te = 1.5\*Pn\*(Ψm\*iq + (Ld - Lq) \*id \*iq)
 
 请看“聪明人”的自画像！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe2n0npWWENFlxKk5G3aW568JHiawDNagt6l3cuzsCgxpL14pIHokK9T9w/640?from=appmsg)
+![](拨开迷雾见真章__MTPA的_物理内涵_与_数学画像__images/img_002_56447fc4ecc4.png)
 
 看到没！红色的“磁阻转矩”线不再是“咸鱼”了，它变成了一座漂亮的小山峰！而我们的总转矩（绿线），现在是永磁转矩（蓝线）和磁阻转矩（红线）的叠加！1 + 1 > 2的效果出现了！我们白捡了一部分力气，省电就是这么来的！
 

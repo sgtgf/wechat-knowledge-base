@@ -81,7 +81,7 @@ PM\_VSI\_EXTREME 就是那个懂得“借月光”的聪明人。它知道，�
 
 1. 搭建一个带采样窗口约束的模型：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASsarjhuDKwpeF3291N5gNZsPVY723lLIeXxTWMmQpvjsW1Jo9AOibhplhlme6Viaz4yJ0ibFtYmyicWIMVCTHvSp3J14k99B8SeWk/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_极值注入的工程味__PM_VSI_EXTREME与_为测量让路__images/img_000_99947d9905fd.png)
 
 2.  两条并行路径：
     
@@ -91,14 +91,14 @@ PM\_VSI\_EXTREME 就是那个懂得“借月光”的聪明人。它知道，�
 -   路径B (一个简化的EXTREME)：比如，当A相电流需要采样，而CPWM提供的窗口不够时，就强制切换到钳A相下管的DPWM模式。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAR6PnxrS5lOTrhjXSRN7vYBTd8ECXHoeo9iabzsACzEcLfTpB9lrlEoozNEPEnoY55eepFBBTE625Wn0HVEgt4kVGDrWmWyRic24/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_极值注入的工程味__PM_VSI_EXTREME与_为测量让路__images/img_001_94330e110882.png)
 
 3.  仿真并观测：
     
 
 看下不同路径（PWM生成策略）的调制波波形：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARPaqOwH3UJ22ZQwu0Y26A6vtmXbU0slE4mOyyNMX6piaeHeP02VAK7hX8uoIdZUgDZRXibEqgU20MevqYhTvVaQtkgTyWPicdv2w/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_极值注入的工程味__PM_VSI_EXTREME与_为测量让路__images/img_002_710d3e8e4050.png)
 
 上面 Center 模式生成的PWM调制波是三条连续的马鞍波；而下面的 Extreme 模式生成的PWM调制波，
 
@@ -106,7 +106,7 @@ PM\_VSI\_EXTREME 就是那个懂得“借月光”的聪明人。它知道，�
 
 我们再来看一看Scope\_Flags (采样有效性)：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQ3SryjnmhEkTjN38sYgCarXoUVmgsw4sb36JhTdhDSaEnu81iaFc4rGu5pkP4hnGKMMDl9DR0FSPDSHbKyGad4QXnvKqaEekLk/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_极值注入的工程味__PM_VSI_EXTREME与_为测量让路__images/img_003_acd4a9465ba1.png)
 
 解释一下信号含义：
 
@@ -133,7 +133,7 @@ PM\_VSI\_EXTREME 就是那个懂得“借月光”的聪明人。它知道，�
     它虽然也有 0，但 0 的位置和宽度改变了。原因是 EXTREME 策略通过钳位（把某一相拉到 GND，即占空比为 0），强制让这一相的下管 100% 时间导通，看下图就知道了。这相当于人为制造了一个超级宽的采样窗口。虽然可能为了维持电压平衡，其他相的占空比变高了，但它改变了无效区的分布。这就是“机会主义者”。它不是死板地大家都好，而是“拆东墙补西墙”，哪怕牺牲一点波形质量，也要拼命挤出一点采样时间来。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQN63ibfMg1rm6dsNZ85nOhAOnAqiaPzGiagmiaKI6C5ONmicdPfn9IghbTJz8D0PnhovPqld7K9O1t85rwQ1R45vX79xtAv97ReOhc/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_极值注入的工程味__PM_VSI_EXTREME与_为测量让路__images/img_004_d6f28fb99dac.png)
 
 以上这个实验，就能让各位同仁深刻体会到，为什么在实际工程中，我们不能只追求理论上的“最优波形”，而必须把**调制、硬件拓扑、采样时序**这三者，作为一个整体来协同设计。
 

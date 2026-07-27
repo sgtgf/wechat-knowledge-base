@@ -18,7 +18,7 @@
 
 这个效应在数学上，由永磁同步电机的电压方程明确定义：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAT6Wab6IYfEXEiafvTIcZrLQGibnPicpxBKexvwNfOFQicibHq7ibup2U5uZpcGPlJ75ryia838YMAiax2xmZRuP2XHlocOs0HPLxwX2Nw/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___04讲_解耦与前馈____让DQ轴不再_打架__images/img_000_bc66a1142cef.png)
 
 各位同仁请看，红框里的交叉项：
 
@@ -52,7 +52,7 @@
 
 我们只需要在PI控制器的输出上，提前把这些扰动项加回去，就能在它们产生影响之前将其完美抵消。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASVlvQrnOujE3hIHBXJxDgylgibKnqfaooEGYZfhxyTRAxemibpKcPs7FQ6rPavSia3TbFMVTSEia8SkDXFfnIfpGclkicsZjiabfNx4/640?from=appmsg)
+![](PMSM_PID控制这件小事___04讲_解耦与前馈____让DQ轴不再_打架__images/img_001_c50db0521350.png)
 
 这就是**前馈解耦**。现在，让我们看看两份代码是如何实现这个“神枪手”操作的。
 
@@ -107,23 +107,23 @@ gPmDecoup.Isd = Filter2((gIMTQ24.M>>12), gPmDecoup.Isd);
 
 我们搭建一个FOC模型，观察在不同PID模式下的DQ轴电流波形。其中，Mode = 0 代表没有解耦的PID控制；Mode = 1 代表“电流指令给定值前馈”的PID控制，模拟的是代码A的效果；Mode = 2 代表“电流实测值反馈”的PID控制，模拟的是代码B的效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAR0cgEsHiaAiagvx8NlvXwlOYznM8GsoNT6L55ia2icULEI6gFAQzcyQ2YSKxQp3bmBict31jibXY8qv47JrweONJxwxT0y0ZWk2Pus8/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___04讲_解耦与前馈____让DQ轴不再_打架__images/img_002_51b0a1a7fd4f.png)
 
 我们首先看下 Mode = 1 （代码A的模拟）的仿真结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQO9N1cwOfeVLqX41Ficp7LmSq4C42heYV7VLHElFRnIcxv4IhJAHjC1LsM6N096rIGSL27NI8lU30pHesTFBMacpJJx4yAjia9Y/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___04讲_解耦与前馈____让DQ轴不再_打架__images/img_003_9cc4f7ef48ef.png)
 
 图中明显可见，当**红色线**（代表**Q轴电流的指令值**）在0.1s的时候，从0A阶跃到10A时，**蓝色线**（代表**D轴电流的反馈值**）有一个明显跳变。这是**代码A算法的尴尬时刻**，因为当Q轴电流的指令从 0A 瞬间阶跃到 10A 时，由于电感的存在，真实的电流 Iqreal 其实还是 0，它需要时间慢慢爬升。此时，电机内部的物理耦合项其实是 0。但是代码A的算法中，直接使用了指令值 Iqref 去计算前馈补偿电压 Udff = -ωeLq×10 ，这意味着，控制器在 t = 0.1s 时刻，**没有任何物理耦合发生的情况下**，就猛地施加了一个巨大的反向电压进行补偿。结果导致了**过补偿 (Over-compensation)**。你为了抵消一个还没到来的“敌人”（耦合电压），提前开了一枪（补偿电压）。结果敌人还没来，你的子弹却把队友（Id）打伤了（导致 Id 向下突变）。
 
 我们再设置一下 Mode = 2（代码B的模拟），看一下代码B的“鸡贼”之处。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQWCdqk5mQT7EnfB0kvGSSryqVElv1SEZCWstQ1zbocnbJtM4kZWxKEjcHzuK10TKLszZAE0Rlgp6sIRicVDHw1YmVhpd3fb3hM/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___04讲_解耦与前馈____让DQ轴不再_打架__images/img_004_d1fdd537defd.png)
 
 效果很好是不是？因为代码B选择了**使用电流的测量值作为补偿值**，当指令阶跃时，因为电机绕组电感的存在，真实电流 Iqreal 还没起来，补偿电压也就没起来。当真实电流慢慢爬升，物理耦合电压变大了，补偿电压也跟着**同步变大**。结果就是药量和病情完美同步。所以 Mode 2 在仿真中看起来波形极其完美。
 
 如果不做任何解耦控制呢？我们让 Mode = 0 ，来看一下效果。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQpkPYbkWjQdZAibu1f8umnpzNsuMgEMxTg31iamnRzEye6pu55buAAJv1GC6lic959vk66s4lHgAbaHMDcgs4Y3IkaZwbR5K3WlY/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___04讲_解耦与前馈____让DQ轴不再_打架__images/img_005_513832b4ce57.png)
 
 此时的仿真波形非常差，主要由两个物理因素导致：**反电动势 (Back EMF)** 和 **交叉耦合 (Cross-Coupling)**。
 

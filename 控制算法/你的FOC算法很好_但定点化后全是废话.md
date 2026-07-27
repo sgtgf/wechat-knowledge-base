@@ -142,4 +142,4 @@ MCU的中断周期就那么长。10kHz的开关频率，就给你100微秒的开
 
 **_与所有在资源受限的世界里追求极致的同仁共勉。_**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASTNiarKV1B8qiaDfAJUztohHmzAAscaKINcSwEE9RLrNDDhrjBoEUrpkQBPkVRfLERQakc8m1CeibibIMn1YzBWhWcvFKtbdaqwmM/640?wx_fmt=png&from=appmsg)
+![](你的FOC算法很好_但定点化后全是废话_images/img_000_206952a68621.png)

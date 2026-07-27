@@ -23,7 +23,7 @@
 
 作者首先用公式(2) 给咱们的主角电机画了个像：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGjv4vXGQcrR1OuBBHtZLQ32wqLwhmxibI9jibWHp4E5CbyeceuPVqibTP9ybI5CmYg5kkgtaOW0wialg/640?from=appmsg)
+![](从玩家到游戏管理员___以上帝视角掌控PMSM刹车能量流_images/img_000_f57990643081.png)
 
 哎呀，看着头大？别怕，给大家翻译一下！这篇论文用的是一种叫“表贴式”的永磁同步电机，它的直轴Ld和交轴电感Lq差不多大，所以前面那一大坨 (Ld - Lq)idiq就约等于0了！
 
@@ -47,7 +47,7 @@ Te≈ np \* Φm \* iq
 
 GM还得关心后勤仓库（电池）。作者用图2这个电路模型，把电池的脾气摸得透透的。这个模型告诉我们，电池不只是一个简单的电压源，它有内阻Ro（会发热），还有“极化效应”Rp、Cp（充电或放电时电压会慢慢变化）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGjv4vXGQcrR1OuBBHtZLQ3nDQeJFFeibj6R5cdhNupev5ZsyoayevgR1POKwH1jaThP6XWoicFPRtA/640?from=appmsg)
+![](从玩家到游戏管理员___以上帝视角掌控PMSM刹车能量流_images/img_001_5f3342c4e966.png)
 
 第二节：创世法则——哈密顿能量模型
 
@@ -55,7 +55,7 @@ GM还得关心后勤仓库（电池）。作者用图2这个电路模型，把�
 
 GM创世公式 H(x) :
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGjv4vXGQcrR1OuBBHtZLQ3ibViaicuZxu7KM7CfDKDfGickSWgOZfeE5BzSCC3rp0PSS5GYC32z5uHnA/640?from=appmsg)
+![](从玩家到游戏管理员___以上帝视角掌控PMSM刹车能量流_images/img_002_4ddfe49740cc.png)
 
 大白话翻译：这就是咱们电机宇宙里的“能量守恒定律”！
 
@@ -63,7 +63,7 @@ GM创世公式 H(x) :
 
 有了总能量，作者又用了一个更牛的公式，PCH模型，来描述这个宇宙是怎么运转的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGjv4vXGQcrR1OuBBHtZLQ3GgTHcOfv8BlJMzZcEcqD9xRERGGKITjyMrOD7Gl0jwvWY94cT6PXicQ/640?from=appmsg)
+![](从玩家到游戏管理员___以上帝视角掌控PMSM刹车能量流_images/img_003_81cc63cfd17e.png)
 
 这个公式看起来能吓跑99%的同仁，但你只要跟紧着我，就能看懂它的本质！
 
@@ -93,7 +93,7 @@ GM创世公式 H(x) :
 
 GM的终极指令——控制器公式(15):
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGjv4vXGQcrR1OuBBHtZLQ35tbguzFdCpF6sV6PYUKd3U6Qq2SrXROcTvWNlib3qFa62PdiavrDkloA/640?from=appmsg)
+![](从玩家到游戏管理员___以上帝视角掌控PMSM刹车能量流_images/img_004_4840bd544438.png)
 
 这一对复杂的ud和uq公式，就是我们GM权杖上发出的魔法咒语！我们不需要去手算它，我们只需要知道：
 
@@ -112,7 +112,7 @@ GM的终极指令——控制器公式(15):
 
 请全体同仁，将目光聚焦在最后几张图上！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGjv4vXGQcrR1OuBBHtZLQ3ibaUaYQRGiaz6dia0Hug2aeMNXvnZ0j6C9T7HmFZxZVmib3FrPDAoTfIKg/640?from=appmsg)
+![](从玩家到游戏管理员___以上帝视角掌控PMSM刹车能量流_images/img_005_2fb847f11894.png)
 
 图5的矢量图：这就是能量流动的方向图！
 
@@ -120,7 +120,7 @@ GM的终极指令——控制器公式(15):
 
 (b) 再生制动时：iq变成负的，力气向后（刹车），开始往电池“吐”能量！我们的GM成功地逆转了能量流！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGjv4vXGQcrR1OuBBHtZLQ3PGPVVCTHXwMAxwZggemL2FEy5z0Q6Yclb0tGMjHYq6JQVnzNgsbBtg/640?from=appmsg)
+![](从玩家到游戏管理员___以上帝视角掌控PMSM刹车能量流_images/img_006_8993dda2b603.png)
 
 图8的电池电流/电压图：这是最直接的证据！
 
@@ -128,7 +128,7 @@ GM的终极指令——控制器公式(15):
 
 你们看上面那根电流线，瞬间从正数（放电），跳水到了负数（充电）！钱，真的被我们从系统里抽回来了！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGjv4vXGQcrR1OuBBHtZLQ3WNPd7EibIVzvBxq6ACBoJTcgFGNuGdfPESGyS3g2yV7z2MZLs2LrauQ/640?from=appmsg)
+![](从玩家到游戏管理员___以上帝视角掌控PMSM刹车能量流_images/img_007_7bad775eeed5.png)
 
 图9的电池SOC图：这是“国库”的账本！
 

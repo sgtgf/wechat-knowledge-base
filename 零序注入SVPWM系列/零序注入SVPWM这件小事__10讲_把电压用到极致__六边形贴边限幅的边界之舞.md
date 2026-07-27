@@ -82,7 +82,7 @@ A相和B相的电压差 uA - uB，它的物理实体，是A相桥臂输出点�
 1.  **信号源**：继续用那个旋转矢量，幅值从0一路扫到0.8（远超六边形边界）。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAS4icNu53uX3WMv8xr6owbFDTZHJv1jliaKjoOLG5aIyI0bSWAOA8FjicJKxm8VibrYVdkAAcJEcZL77mGqNWibiaqfQ8Y6ePichgwiayQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__10讲_把电压用到极致__六边形贴边限幅的边界之舞_images/img_000_262f61aeb76e.png)
 
 2.  **两套限幅逻辑**：
     
@@ -92,14 +92,14 @@ A相和B相的电压差 uA - uB，它的物理实体，是A相桥臂输出点�
 -   **模块B（六边形贴边限幅）**：严格按照 pm.c 的逻辑，计算 uMAX-uMIN，然后进行缩放。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASC0TTYpgiab0Ox2VGEDV78C3RxTrc0ial0Hu3qY2W7v8NUnq6AuD6DAYoCFe6xaBWqGdI85fZFAIG3Tjahm2zBgNsMzd2mw7Q5A/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__10讲_把电压用到极致__六边形贴边限幅的边界之舞_images/img_001_6b2763875398.png)
 
 3.  **观测：**
     
 
 **αβ轨迹图**：用XY Graph同时画出三条轨迹：原始指令、内切圆限幅后、六边形限幅后，会看到：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATuhvOH4ZLiaTdBPdx1n9ia68Hg9T0dmcmt24yuLxo4zibb2PoBtaFAQ4eNCQupDgdOOUQDOF2icc9pZcibIFkTAk2gnYl2QZb7iaDIY/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__10讲_把电压用到极致__六边形贴边限幅的边界之舞_images/img_002_486d0287077b.png)
 
 **左下角（内切圆限幅）**：轨迹是一个完美的圆形，半径较小（＜1）。这是最保守的策略，为了保全波形质量，它主动放弃了角落里的电压空间。
 

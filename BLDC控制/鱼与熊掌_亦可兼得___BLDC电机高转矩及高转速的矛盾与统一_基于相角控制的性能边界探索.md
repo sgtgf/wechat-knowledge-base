@@ -16,7 +16,7 @@
 
 这个过程，可以用下面这个非常关键的公式来描述：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFledynhWkg0I3SicxZhmDhoZw4UQApL81RDPxuMrllB1iaticXEcZThhWiby0JKrYoSedUYVkLMVTAHQ/640?from=appmsg)
+![](鱼与熊掌_亦可兼得___BLDC电机高转矩及高转速的矛盾与统一_基于相角控制的性能边界探索_images/img_000_f10c4f79c7c2.png)
 
 我们来掰扯一下这个公式：
 
@@ -48,7 +48,7 @@ Vt 是电池给的电压，可以理解成你使出的总力气。
 
 削弱了磁场，电机的“基础力量”就变小了。这个“基础力量”在电机里有个参数叫转矩常数（Kt）。我们来看论文里的这张图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFledynhWkg0I3SicxZhmDho8avxthQPF7Xd44NhibSZ81ia1cyhUsuXqON5ehynibk1QF6qZ3ZUFkib3A/640?from=appmsg)
+![](鱼与熊掌_亦可兼得___BLDC电机高转矩及高转速的矛盾与统一_基于相角控制的性能边界探索_images/img_001_480e7215e901.png)
 
 大家请看！这张图告诉我们：
 
@@ -69,7 +69,7 @@ Vt 是电池给的电压，可以理解成你使出的总力气。
 
 理论说得天花乱坠，到底行不行呢？作者做了大量的实验，我们来看这张最关键的实验结果图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFledynhWkg0I3SicxZhmDhoINyYA2JYRVVaPq8vV9aWhzNL8pxicC627Q38Ro9oyqia1QEFUpNtcbOg/640?from=appmsg)
+![](鱼与熊掌_亦可兼得___BLDC电机高转矩及高转速的矛盾与统一_基于相角控制的性能边界探索_images/img_002_146498e8fb71.png)
 
 这张图的信息量太大了！
 
@@ -93,7 +93,7 @@ Vt 是电池给的电压，可以理解成你使出的总力气。
 
 最后，作者把转矩、转速和提前角这三者的关系，绘制成了一张非常震撼的三维“性能地图”，就像一张寻宝图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFledynhWkg0I3SicxZhmDho4yWib4x1KdUyJc70SeYcbC2Ogppe4qRTicHa94A2tbvBtwiaLa6KYewjw/640?from=appmsg)
+![](鱼与熊掌_亦可兼得___BLDC电机高转矩及高转速的矛盾与统一_基于相角控制的性能边界探索_images/img_003_5b6e5434ca01.png)
 
 这张图简直就是电机控制工程师及电机设计工程师们的“孙子兵法”！
 

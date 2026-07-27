@@ -37,7 +37,7 @@
 
 在 I/f 文献里， 常被称为负载角或转矩角。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQnmqJSiaSCae8UaFicZDpCcJBoqRUttpxRibgsDXLbWFibSoe3Ivf2ffNicGfut3Gd2mu622ZaBxEhdwhU0rqPXxAG6cpGicr1ZRnpg/640?wx_fmt=png&from=appmsg)
+![](PMSM无感启动这件小事___05讲_电流矢量定向的______坐标系是什么__images/img_000_a01cd6b8cf3e.png)
 
 用矩阵写，\- 到 d-q 的关系是：
 
@@ -80,7 +80,7 @@
 
 所以更准确的物理图像是：I/f 控制器让电流矢量在转子前面“领跑”，转子以稳定负载角  跟随。领跑者转速  被人为给定，跟随者转速  由电磁转矩和机械负载共同决定；两者之间的滑差，就是  变化的原因。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARK2PoicK8dSw04ibRs8kNgicIuwNIxYauz9icGledy8ENDB0K8OapibPKQeS0cONSMbJdocrlnH1L5d13EdD1BWbk7xd1vskbwDfpM/640?wx_fmt=png&from=appmsg)
+![](PMSM无感启动这件小事___05讲_电流矢量定向的______坐标系是什么__images/img_001_c383a880f1cd.png)
 
 **关于坐标约定的说明** \[1\]：核心文献图 1 的文字描述把沿电流矢量的轴标为  轴，垂直轴标为  轴，且该  轴**落后**电流 ；本文则把  轴标为沿电流， 轴**超前**电流 。因此两套坐标不是简单互换轴名，正确的基向量映射是：
 

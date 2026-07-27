@@ -66,7 +66,7 @@ PWM开关动作是采样的"危险区"。MOS管导通关断的瞬间，di/dt引�
 
 现代控制论里所有的同步采样方案、所有的anti-aliasing滤波器，骨子里都是同一句话：先看清楚，再动手。急于采样和急于出手，坏的方式是一样的。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASy5QicTg3VeMG6ibg3VVdCctb1Xe2A7ic4MpHibRQiaoo4EGgNiaUvToxyibEMoOic3CmZSuz2fUibHI22fJPRzTMfHq3TLia13zVSQpDL4/640?wx_fmt=png&from=appmsg)
+![](每一个FOC工程师_都是当代的山梁观雉人_images/img_000_1f7dd041b089.png)
 
 ### 庄子：别跟电机较劲
 
@@ -84,7 +84,7 @@ PWM开关动作是采样的"危险区"。MOS管导通关断的瞬间，di/dt引�
 
 庖丁解牛十九年，刀刃若新发于硎。好的控制器跑十万小时，功率管也应该若新。道理相通——顺着系统的纹理走，不跟物理较劲，器件便不受折磨。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAT84rJMrqbwxBJ2UAm6ChErmoQ3ITtqWcDNoevmC8oVZ7JvMmRNErPtYrhIah66l12QdotwD8LYLT867bqRuDjOicQDZKtV9ChQ/640?wx_fmt=png&from=appmsg)
+![](每一个FOC工程师_都是当代的山梁观雉人_images/img_001_cfab59bb7bd7.png)
 
 ### 《周易》：一切参数都在漂移
 
@@ -100,7 +100,7 @@ PWM开关动作是采样的"危险区"。MOS管导通关断的瞬间，di/dt引�
 
 "易"这个字，本义就是"变"。整本《周易》归结起来就一句话：变是常态，指望以不变应万变是自欺欺人。搞控制的人听这话，应该比搞文学的人更有体感——你那台电机的参数，从上电那一刻起就在漂了。温度在变化，磁钢在退磁，负载在跳动。抱着一组参数不动的人，迟早被系统教育。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATkpImWe02Xqzq6mEhUvlc4oNjpXkZqD0Tvnr9v0jzEW3Cr4wicqoibVBsDMrq7nPGZeYNzciccqBDvsmXeJnRYApTOaLVfCibnxIE/640?wx_fmt=png&from=appmsg)
+![](每一个FOC工程师_都是当代的山梁观雉人_images/img_002_e214420ae08a.png)
 
 ### 墨子：可复现，才算数
 
@@ -124,7 +124,7 @@ PWM开关动作是采样的"危险区"。MOS管导通关断的瞬间，di/dt引�
 
 墨子大概是中国古代最像工程师的圣人。我们每天埋头做的那些枯燥的验证、比对、回归测试，原来接着一条两千多年前的精神血脉。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASKnRmAibJeDSfdSIAQlLnjYstHf1hwhQ6XkJahW0PH0hLoK28Xt4ZNUcvFqrMBcRFjBmnLtYkuCP44oJ1OQibtCLepbpCqhtXns/640?wx_fmt=png&from=appmsg)
+![](每一个FOC工程师_都是当代的山梁观雉人_images/img_003_eb7ccfc60730.png)
 
 回过头看这四位：孔子教你先看清楚再动手，庄子教你顺着系统的纹理走，《周易》教你策略必须跟着状态变，墨子教你没有标准就没有工程。
 
@@ -180,4 +180,4 @@ PWM开关动作是采样的"危险区"。MOS管导通关断的瞬间，di/dt引�
 
 你的古人懂你。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASdthic0BR8eUJPH50cQKquictxRK7cuq3lxpDVsX1lJh878OxML5d0VBoc4Jo0mTe5RowicxeZxvGibKxqsmwjAclibAfSNT4nTOSs/640?wx_fmt=png&from=appmsg)
+![](每一个FOC工程师_都是当代的山梁观雉人_images/img_004_a22809e12a8d.png)

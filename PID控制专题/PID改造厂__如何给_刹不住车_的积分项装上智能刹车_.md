@@ -53,7 +53,7 @@
 
 这个方法，我愿称之为“**引入审计员**”。咱们直接看 **Figure 3.3** 这张图。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAR81EaaibF6K9K6iaobZ5vbhSz9ukkJgH0TKqecSbPhRuyMLWUXKGapJ2iad6hqKb7UCQTicoZKiamUYrgGXpibrqWicsXjXw1DGp2pIY/640?wx_fmt=png&from=appmsg)
+![](PID改造厂__如何给_刹不住车_的积分项装上智能刹车__images/img_000_e24facde2bcf.png)
 
 大家看，这张图的精髓在于**那条从下面反馈回来的线**。
 
@@ -64,7 +64,7 @@
 -   **强制销账**：审计员立刻跑到会计那里，把这个差值 u' - u （一个负数）强行加到积分项的输入上。大家看 **(3.2)** 式： 
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARONy5L7xlQyK7UXQOTeqG19FJ9R8vbGdeGHiaBiba7zdwMywQiamesFgP6YE8FYB3r2Zhym2VN9KXS92vmkUx0RNwV4bib8ZwUAick/640?wx_fmt=png&from=appmsg)
+![](PID改造厂__如何给_刹不住车_的积分项装上智能刹车__images/img_001_bf2a617ea3be.png)
 
 这个反馈项 (u' - u) 就是在告诉积分器：“你算多了！赶紧给我减回去！”
 

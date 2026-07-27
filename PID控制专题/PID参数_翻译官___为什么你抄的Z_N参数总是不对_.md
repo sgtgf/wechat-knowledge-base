@@ -23,22 +23,22 @@
 1.  **理想式 (Ideal Form)**：就是我们最熟悉的 **(1.13)** 式。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARriaeWSSqqpUdoklszgRTAna5TsA5UvUoGiatNZ4yG6zJZ081eVSstO2r5a6ibdetaicLQ14fqPlG9J9Mr4CQMKrRLYrtSRNYibmPk/640?wx_fmt=png&from=appmsg)
+![](PID参数_翻译官___为什么你抄的Z_N参数总是不对__images/img_000_b5407dc48b70.png)
 
 我把它叫做**“全能选手”**。它的P、I、D三项是并联的，各管各的，互不干扰。它的两个零点可以是实数，也可以是共轭复数，非常灵活。
 
 2.  **串联式 (Series or Interacting Form)**：也就是 **(1.14)** 式。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARq4dicANu8sRCMic1WKNMv4vLnGteRkct578vMDperT0hBic4sWSYUlbvD9S8zdzjKE2DBibDp98oLbJ4oIIRJ4RHZCu9AEY9F8C4/640?wx_fmt=png&from=appmsg)
+![](PID参数_翻译官___为什么你抄的Z_N参数总是不对__images/img_001_f7477bb695c0.png)
 
 我把它叫做“**老派工匠**”。这个结构源于早期的气动控制器，它的PI部分和PD部分是“串”在一起的。你调微分时间 Td'，会间接影响到积分和比例作用。它的两个零点，永远只能是实数。
 
 这两种结构，在数学上可以通过 公式 **(1.15)** 和 **(1.17)** 进行“**翻译**”。但注意，这个翻译是有条件的！只有当理想式的 Ti ≥ 4Td 时（即零点为实数时），才能完美地翻译成串联式。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARicdW4micppbWtzDIjqXTR79JUn0WZd1RKLs2rEDJ8D8Kp1XjMMNp2kIQLjtV7py880ug55e9pve3LAnsfaS4wuwcSAjCvZlDkA/640?wx_fmt=png&from=appmsg)
+![](PID参数_翻译官___为什么你抄的Z_N参数总是不对__images/img_002_64ae7ea294e1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAT5wsnB7MUzfDtubicwa2S7g3BCjiaJYLoEBlnWDAuKEsPGEVlcTIxAN5O5VJHSLp0xdd3GhFU9nCLdqZX0TPQqNVJ4bYkRTIFJc/640?wx_fmt=png&from=appmsg)
+![](PID参数_翻译官___为什么你抄的Z_N参数总是不对__images/img_003_cab884d68f0a.png)
 
 * * *
 
@@ -61,7 +61,7 @@
 -   **实验对象**：一个水箱系统，模型是 **(2.6)** 式：
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATaQA58A58vCsG0SiaNlkvb6mw2rGLF2Ma6X3TdibzSXS9Bv5kT4tyLYZYPe51GXWnLxO7vjOlQoEib0hhnMvZHV5ZxYTHZib0nTaU/640?wx_fmt=png&from=appmsg)
+![](PID参数_翻译官___为什么你抄的Z_N参数总是不对__images/img_004_a80713ba576d.png)
 
 -   **实验目标**：我们要设计一个控制器，把闭环系统的4个极点，配置到我们想要的位置上，比如说，都配置在以 λ = 3 为特征的位置上。目标是明确的！
     
@@ -75,18 +75,18 @@
 
 经过的计算，也就是解**（2.10）**这个方程。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQXkj9NV45C4r1kltwCgg5mcHWpNJbJD3xuQgsjkN4wtC9U1eMVeI33k1iaKHM1yVrKzIb4elBUicsFaCaaraG9mdUia9SibWIibiagY/640?wx_fmt=png&from=appmsg)
+![](PID参数_翻译官___为什么你抄的Z_N参数总是不对__images/img_005_cbb7bac6b7c2.png)
 
 他交出的答卷是 **(2.11) 式**：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASpjhRLfYLK1Cy0KiaOYuJhKdg3okywjVUtXdmbIUEFDZ30a51MUyN9hzQVI1cGDkMKjBGtiacfAWmO8DeYA6qErjHgUCjz2NbmY/640?wx_fmt=png&from=appmsg)
+![](PID参数_翻译官___为什么你抄的Z_N参数总是不对__images/img_006_768f9d4b8375.png)
 
 2.  **串联式选手的答卷：**
     
 
 同样，为了达到那个目标，他算出来的参数是 **(2.12)** 式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARiaHok3Paxaep6Pm3wg4ZDKttBOp5ib1LpIic7sF5kHLEicC97cjQq2ONLHphvJGHx6Dkx9cjNkM3YDUYADmHqwOW1haKriaibYobx0/640?wx_fmt=png&from=appmsg)
+![](PID参数_翻译官___为什么你抄的Z_N参数总是不对__images/img_007_a270c2f67d51.png)
 
 各位同仁，请停下来，仔细看看这两组参数。Kp 和 Ki 看着还算接近，但看看那个**微分时间** Td！
 
@@ -107,23 +107,23 @@
 
 我们看理想式的公式：**(1.20)**，里面除了 Kp，Ti，Td 外，还有一个参数 N。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATKFD4LMgaskjta5j0ZIUgDhwSZcga8htD5vsL1uHBRLySU0smkHLKrlq4DgLrfzgMkPldH3Chw0OWWrrLsofDQCddAibWb3oYs/640?wx_fmt=png&from=appmsg)
+![](PID参数_翻译官___为什么你抄的Z_N参数总是不对__images/img_008_475115ed1a14.png)
 
 这个 N 通常被看作一个固定的、不起眼的小角色，很多控制器里它甚至是锁死的（比如默认等于10）。
 
 但是，文末共享的那本PID经典文献的作者通过 **(2.4)** 式的零点计算和 **Figure 2.1, 2.2** 的灵敏度分析告诉我们一个残酷的事实：这个**被忽略的 N 值，会严重地影响理想式控制器零点的位置！**特别是当 Ti 接近 4Td 时（Z-N法则的经典配置），这种影响是灾难性的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASFH0oCFhRaEhFSqc4gw7BRibeNe44Ta8yzrawYYbkL5HNSBQ2ULcfFhiaqOZjS0mSXiad42UiccIMWVSOVglbkRTAmczcqMY6NaAc/640?wx_fmt=png&from=appmsg)
+![](PID参数_翻译官___为什么你抄的Z_N参数总是不对__images/img_009_97723a7ca5b5.png)
 
 而串联式控制器 **(1.22)**，它的微分滤波器参数 N'，**不会改变控制器零点的位置。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQBPxXTibF8RarYqE5C8Wg8OgfFegpEVoh9WSIoDnL3d4zJPTN8auhI5DCBygBXsBMQtPzkZnWwiaHFPNQ1pdPk4gb1LDEnVQxVA/640?wx_fmt=png&from=appmsg)
+![](PID参数_翻译官___为什么你抄的Z_N参数总是不对__images/img_010_ba80b8ab7fae.png)
 
 你看，它的零点永远在 s = -1/Td' 。
 
 这就是为什么当你用公式 **(1.17)** 去做“翻译”时，如果**不考虑滤波器的影响**，翻译结果就会出错。这也是 **Chapter 2.4** 中，使用Z-N参数的仿真结果（**Figure 2.7**）里，理想式和串联式曲线表现完全不同的根本原因。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATNLiaGH9LCEtqS7NOl6MbcJlOobvNh8gPHiaqDb9zuQoQ18MhuqvSdcib0fv3y7MkGb5Yf1Qxkj5j1Lk1VsFPvfEIBDMIPg4YmWg/640?wx_fmt=png&from=appmsg)
+![](PID参数_翻译官___为什么你抄的Z_N参数总是不对__images/img_011_2192fee4e30f.png)
 
 * * *
 

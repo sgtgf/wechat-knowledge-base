@@ -131,7 +131,7 @@ COMG 是“**C**ommutation **O**utput **M**anagement **G**eneration”的缩
 -   加入一个“Enable”端口，模拟 CCER 的作用。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATkxFdAothUdhCb2Qicqx1o9zW6ZtvVOmziaxCm0GZ3PmVR0mpMgLiczWpSicaJAWgtJiao31zZK1Zo2sMrEOKJqSiaiaKjzqQ0Gzwyz0/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__18讲_互补_死区与COM事件__让硬件在危险处沉默_在该说时开口_images/img_000_550bc2a9feb1.png)
 
 2.  信号源：
     
@@ -141,11 +141,11 @@ COMG 是“**C**ommutation **O**utput **M**anagement **G**eneration”的缩
 -   在 Time = 2.5e-4 (0.25ms) 时刻，控制“Enable”信号失效。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASDia5cdNOOzibEtTNt2D2ibo98u1DZugvaHFXH38gM83HKuIx2KXtibVL5icWjXwXt32XgtjGUPFpGhVAYcSlFicTe2yANNLJeo0zao/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__18讲_互补_死区与COM事件__让硬件在危险处沉默_在该说时开口_images/img_001_b4e68289b504.png)
 
 **3.观测仿真结果**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARKGhWKVjcznfZBVicaibeevMj1icH4G3kEBIzAWTh3G6IWfU8Db2JRAHTgs5GuoK54QyZtSIRy2iaqIwfCk4GmvicIQgVptq6RibJCg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__18讲_互补_死区与COM事件__让硬件在危险处沉默_在该说时开口_images/img_002_0601bcb0aea6.png)
 
 从上图中观看**“硬件沉默” (The COM Event / PWM\_set\_Z)：**在 Time = 2.5e-4 (0.25ms) 时刻，所有的波形（通道1、2、3）都瞬间**跌落为 0** 并保持低电平。这模拟了软件检测到故障或需要滑行时，调用 PWM\_set\_Z() 将 MOE 位拉低，强制硬件切断输出的场景。
 

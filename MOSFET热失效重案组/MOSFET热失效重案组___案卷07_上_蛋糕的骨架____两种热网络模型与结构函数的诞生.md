@@ -20,7 +20,7 @@
 
 同仁们，请看证物A。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGMtthlcvE1A2dwGEY4ricK0HyPC5Jzg09Egic2dkDA3FrCjgGzoQBpU8Ju1hbbUkTUtOTmuSZGbh8A/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷07_上_蛋糕的骨架____两种热网络模型与结构函数的诞生_images/img_000_ce6e873f8aff.png)
 
 这是我们遇到的第一种骨架模型，叫**Foster网络**。
 
@@ -46,7 +46,7 @@
 
 现在，请看证物B。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGMtthlcvE1A2dwGEY4ricK0picAws0rQTx64JBchJeZO0hoJ5hEzmazYsRkFgyic5NP2vmYY8O9CL9A/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷07_上_蛋糕的骨架____两种热网络模型与结构函数的诞生_images/img_001_6240e58785e5.png)
 
 这是我们真正追求的终极模型，叫**Cauer网络**。
 
@@ -105,7 +105,7 @@
 
 **这张图长什么样？**类似于文末给出的标准文件的Figure 6.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGMtthlcvE1A2dwGEY4ricK0s58rHhc2bjyFDU5c3BXn6tnj4Z8iaeqL7ibkESAtZMZvmrc60ZI21cMw/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷07_上_蛋糕的骨架____两种热网络模型与结构函数的诞生_images/img_002_3ea7b67a4e13.png)
 
 这是一张神奇的“热地图”，它的每一个“拐点”和每一段的“坡度”，都在说话！
 

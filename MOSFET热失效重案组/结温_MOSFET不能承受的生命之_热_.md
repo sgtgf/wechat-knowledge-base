@@ -40,7 +40,7 @@
 
 我们来看一张图\[1\]，这张图非常经典，它描绘了热量从芯片内部传递到外部空气的完整路径。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRERLDzBAS6lib6TWUDKGyxq47Ja91JYhKMQ1KhhdXZBy2gjrSQTmRqzibQE1mjpYXvaCwbQAauGr2NA/640?wx_fmt=png&from=appmsg)
+![](结温_MOSFET不能承受的生命之_热__images/img_000_99cc286faa1e.png)
 
 大家看，热量起源于**Junction（结）**，它需要穿过层层阻碍——芯片到封装外壳的内部结构、封装外壳到散热器、散热器到周围空气——才能散发出去。每一层传递，都存在“热阻”，都会产生“温差”。
 
@@ -56,7 +56,7 @@
 
 我们以ALPHA&OMEGA的型号为AOL240L的NMOS为例，根据其datasheet：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRERLDzBAS6lib6TWUDKGyxq4tKu8wrgL4Q4ic5qk41Oav3JK2Jhmc4oCo8IZtQgC6JSYiceATtVo8uBw/640?wx_fmt=png&from=appmsg)
+![](结温_MOSFET不能承受的生命之_热__images/img_001_a320d7b86209.png)
 
 这张图告诉我们一个残酷的事实：**随着结温(Tj)的升高，MOSFET的导通电阻Rds(on)会显著增大！**
 

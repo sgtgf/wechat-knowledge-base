@@ -22,6 +22,6 @@
 
 这不是一场灾难，这是一场静悄悄的生产力革命。而我很庆幸，自己是首批的体验者。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFVwcLEpTrouQ1v2QHiaR4IufcRmxeIewrxLpYnmPjial6IP4bnge8ZsKzEJcMiar0uqd23z6I74ye9g/640?wx_fmt=png&from=appmsg)
+![](既生瑜_何生亮_一位工程师的_AI生产力革命_体验_images/img_000_4920300ed684.png)
 
 (AI生图)

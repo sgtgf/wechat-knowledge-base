@@ -150,4 +150,4 @@ Storm 输掉的，还真不在哪一处具体的手感。它暴露的是黑莓�
 
 揣而锐之的刀，留不住。这把刀怎么换，说实话，我自己也还在摸。只是方向是清楚的：趁竿头还风光，趁刀刃还没崩，把它换成庖丁手里那一柄。以无厚入有间，十九年，刀刃若新发于硎。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASHegQsTIoiaoZ67Zzm72IcVIty8bgvicSOYjDicNGx11epjkNVQuz8LJtPrV5RyWjJBZbpxZpP1iaZy2w0kWXCnmEWD1kYfU2DLWE/640?wx_fmt=png&from=appmsg)
+![](黑莓的键盘与FOC的参数_你的十年盲打_正在变成电机及其控制行业的下一块墓碑_images/img_000_c6d634ba188e.png)

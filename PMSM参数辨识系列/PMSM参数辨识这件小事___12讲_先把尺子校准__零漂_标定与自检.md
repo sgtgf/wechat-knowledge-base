@@ -259,25 +259,25 @@ Vout = k1 · Vtarget + k0
 
 我们把Vout的定义代入 LSE 的结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGUQjItq4GMyqqhY3AS5fugtQ8gaF1cUVV6dfviaTauia0knPRmX9Oib9afJNzibiayKHAY2xlOyMnosiaA/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___12讲_先把尺子校准__零漂_标定与自检_images/img_000_da6de71b7343.png)
 
 我们的目标是求出Vtarget的表达式，所以把Vtarget移到左边：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGUQjItq4GMyqqhY3AS5fuguee1N3RXiadcuHHzGvmibaVE4dO4XpeN1PyrvHkz0IgUjSk2AtTSFYwg/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___12讲_先把尺子校准__零漂_标定与自检_images/img_001_b3dd7de0e7de.png)
 
 我们对比一下目标公式 Vtarget = Snew · Vadc + Onew，可以直接一眼看出新的系数应该是多少：
 
 -   **新的增益 (Snew)：**
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGUQjItq4GMyqqhY3AS5fugVfqKpACLNpGQLYPk1qkpKia7J9QIUwdCANEqN2ial1N4msaJJUpJce5A/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___12讲_先把尺子校准__零漂_标定与自检_images/img_002_b27f11c560a8.png)
 
 对应代码：`pm->scale_uA[1] / ls->sol.m[1]`
 
 -   **新的偏置 (Onew)：**
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGUQjItq4GMyqqhY3AS5fugfZlqLerISEQgP8NLN2pQpqv1Anj1aicZ3yny6cLjia6KM7MubnusLFEQ/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___12讲_先把尺子校准__零漂_标定与自检_images/img_003_107d614bbb7c.png)
 
 对应代码：`pm->scale_uA[0] - ls->sol.m[0] / ls->sol.m[1]`
 
@@ -397,7 +397,7 @@ static void
 
 我们设真实的电流为Ireal，传感器的读数为Iadc，校准系数为K。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGUQjItq4GMyqqhY3AS5fug9cIeDxEPS9dcaYYFu4prjdjicMJ3Oq2qHCNNI3BUH9EcSMexvy9mJ3Q/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___12讲_先把尺子校准__零漂_标定与自检_images/img_004_0e8cf19d0e85.png)
 
 所以真实电流是：Ireal = Iadc / K
 
@@ -407,11 +407,11 @@ static void
 
 如果读数是Mb和Mc（由`ls`算出），那么：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGUQjItq4GMyqqhY3AS5fugF6icNQjhBksdsBB9scnuCX1kLTa4nR9B3iaRICZOVGFTAe3arYObS1vw/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___12讲_先把尺子校准__零漂_标定与自检_images/img_005_7c37991f4118.png)
 
 或者写成：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGUQjItq4GMyqqhY3AS5fugJdxGeqnp6iaibvh7ic76wW4BIDYE4CoXNLny9zOzib4ML4DUQPHe9WrmDw/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___12讲_先把尺子校准__零漂_标定与自检_images/img_006_432df2e054ce.png)
 
 这就得到了Kb 和Kc 的比例关系！
 
@@ -423,7 +423,7 @@ static void
 
 以上代码段实际上是在构建一个方程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGUQjItq4GMyqqhY3AS5fugWpCvuuPiaIPmwQ9jALjsNibae8icxibzYdU50aCGrRoEVBVdbHPydXQU6Q/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___12讲_先把尺子校准__零漂_标定与自检_images/img_007_88d2b0491534.png)
 
 #### case 6: 正则化约束
 

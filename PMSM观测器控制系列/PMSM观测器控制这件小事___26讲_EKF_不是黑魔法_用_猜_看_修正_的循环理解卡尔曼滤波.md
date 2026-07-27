@@ -88,7 +88,7 @@ EKF 说：别慌，打脸是好事。打脸说明模型有偏差，咱们来修�
 
 把预测步和更新步拼起来，EKF 的整周期流程长这样：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAStdjriajoKjA9mgauxRfP2kybzjicfCNHbkicfSIRib5zPFNHGTnfUlNE3SaKgICb9HINpXOBQllsictTDrwc2Cj5pdAjRWpnIoICc/640?wx_fmt=png&from=appmsg)
+![](PMSM观测器控制这件小事___26讲_EKF_不是黑魔法_用_猜_看_修正_的循环理解卡尔曼滤波_images/img_000_64ea6142011e.png)
 
 每一步控制周期，这个循环走一遍。
 

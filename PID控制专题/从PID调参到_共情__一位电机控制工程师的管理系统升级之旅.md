@@ -69,6 +69,6 @@
 
 愿我们都能完成这次从“PID”到“共情”的系统升级，成为一名卓越的“人生总师”。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHlYVz8cuxV3pqs2htwfibJdjibG9IYV5PpTGqLNl4925ZhkfzsicXz023jywjblcc8lC8RxlkibNzeicg/640?wx_fmt=png&from=appmsg)
+![](从PID调参到_共情__一位电机控制工程师的管理系统升级之旅_images/img_000_007d7be95bcb.png)
 
 （AI生图）

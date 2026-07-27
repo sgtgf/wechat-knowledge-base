@@ -48,7 +48,7 @@
     
 2.  然后，将这个`da/dz`曲线，与一个固定的、长得像“彗星”的函数`w(z)`（标准附录B，公式B3）进行“反卷积”运算。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGMtthlcvE1A2dwGEY4ricK0P7HmIY8Pryj8pDYVmrWLwGzASS3R9iaNdU22yf7mq4iaHNaRGLc4EZ2g/640?wx_fmt=png&from=appmsg)
+    ![](MOSFET热失效重案组___案卷07_下_基因重组____从Zth曲线到结构函数的逆向工程_images/img_000_476ed84e5324.png)
     
 3.  运算的结果，就是我们想要的**时间常数谱 R(z)**（这里z=ln(τ)）。
     
@@ -74,7 +74,7 @@
 -   这一步，就像我们拿到了果汁配方表，然后去储藏室里，按配方取出相应分量的“苹果浓缩汁”、“柠檬浓缩汁”... 把它们简单地并排放在桌子上。桌子上这一排瓶瓶罐罐，就是我们的Foster网络。它在“口感”上已经和原始果汁一模一样了，但它还只是一堆原材料，不是一个有结构的产品。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGMtthlcvE1A2dwGEY4ricK0tBkNCgicKr0EibvWZsxFqGCVx4Rsd9G9qiaA9ciaeOicuhPfqIviageZ56fA/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷07_下_基因重组____从Zth曲线到结构函数的逆向工程_images/img_001_c4329016da99.png)
 
 **第三步：本案最关键的魔法——“基因重组”（Foster-to-Cauer变换）**
 
@@ -125,9 +125,9 @@
 -   **方法B（更精确）：** 计算两条曲线的**差值** `**ΔCθΣ = CθΣ2 - CθΣ1**`。画出`ΔCθΣ`对`RθΣ`的图。**当**`**ΔCθΣ**`**开始显著、持续地上升时**，那个拐点对应的横坐标`RθΣ`，就是最精确的θJC！
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGMtthlcvE1A2dwGEY4ricK01qKZ03rU8Fja5aGdkdDBtEzvBsibVVociadEbgjCr2MqTAcrkRRiafIhA/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷07_下_基因重组____从Zth曲线到结构函数的逆向工程_images/img_002_390a715ce5d3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGMtthlcvE1A2dwGEY4ricK0FvvFZKeC3WGO6pegicmqZyp2CJba9sxDBBjA0FkMTStQRjTVVTeR8Wg/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷07_下_基因重组____从Zth曲线到结构函数的逆向工程_images/img_003_6079cf961b84.png)
 
 **本案总结与特别提醒**
 

@@ -40,7 +40,7 @@
 
 公式是：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATJ13ZlOIrGEmaWageOzu5RpzpxdAJhHg0Uq7shicAJicnVy5kNSWREXyadptrWqsbQLSPzD7hugbKbaxGGsOXoDAXM0BY9ZcpT0/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___09讲_Clark变换定点实现逐行拆解（下）__i_的实现与精度实测_images/img_000_b7bb34baa044.png)
 
 浮点版代码直接拿 1/√3 = 0.577350… 乘上去就完了。定点版呢？只有三步，但每步都有讲究。
 
@@ -90,7 +90,7 @@
 
 结果如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASYDjMxJp47cI45KkJG0M6Z9cO2dgqNXibaoKdGjFVzbbjJLibRvsjWE3cKGOXm79Oal7wia0S2DtoDK9u37xNnOJLibuGMtL94dibM/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___09讲_Clark变换定点实现逐行拆解（下）__i_的实现与精度实测_images/img_001_cfd6bf64b53d.png)
 
 这里有两个关键结论：
 
@@ -117,29 +117,29 @@ Clark变换的精度测试，与其说是在给Clark本身做体检，不如说�
 
 还是按照上一篇文章的思路，在simulink的画布中构建定点运算与浮点运算的对比支路：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATVMbicZH6gCsQLsoictbxNhCF6K4JxAfeTHns45PunSlgAV8FzYhrEP1dzuCKWFuWgSONiblQzFD5fQXOU33ibIFh2Spv5TmeP7XE/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___09讲_Clark变换定点实现逐行拆解（下）__i_的实现与精度实测_images/img_002_f54694ff34e1.png)
 
 蓝色的子模块为精度为 single 的Clark变换浮点计算实现过程：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASwjop5u4L3Ld9Jzch02MScKNZgrI6wrxoldupyClwsyHrp25E8wgIBUVhMlAQ0kt6qn1iaXlHtibFrRC9stVxw2VbBMyvmSrcCM/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___09讲_Clark变换定点实现逐行拆解（下）__i_的实现与精度实测_images/img_003_f2b8930a20d6.png)
 
 绿色的子模块为精度为Clark变化定点计算实现过程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAT5IQeYATTIDbeaQHyG2GibCCxv78PXv53KKDUMdnkibHUoIv5sWk81U1X4XyRRKgXXLsb92xXgpibNEU23AWadCdqTLVYV5Fqqm4/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___09讲_Clark变换定点实现逐行拆解（下）__i_的实现与精度实测_images/img_004_d3199d192a8d.png)
 
 我们看一下两条支路的仿真结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARz3wp1KPULujeKn1NVccLDkJCOpVz9EKDFQyiaia0ZfAOG2W4ERFtgWwOsa2sjLticuncjH4G6REcRrtmkKfUicrsMagEzP8icX8qI/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___09讲_Clark变换定点实现逐行拆解（下）__i_的实现与精度实测_images/img_005_e7cd5a8a4aa3.png)
 
 从仿真结果可见，无论是定点计算出来的Clark变换结果，还是浮点计算出来的Clark变换结果，宏观上是看不出区别的，这就是上文中说的“食客根本吃不出区别”。
 
 但是，当我们把结果放大来看，量化误差的影响就出来了：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATP8SCicetK9ia2chFrMXUt9gLun9TnxPn3Yktm22bgEraX0MsfIOAFSRsSFCzhlBiaaKtIlHdR8b0iakXhfFTP4skYeaYUUGQC38Y/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___09讲_Clark变换定点实现逐行拆解（下）__i_的实现与精度实测_images/img_006_3395302ee0f3.png)
 
 再进一步放大，针对Iβ信号，定点计算的结果要比浮点计算的结果偏小：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAToIHmicrUcFa2PV8xtJFjeCYicZ44iaCNlGGl8ZNRKVB46XCuGekcdCR7ibFzb8KzjSqU0v6g9Q9SIFO5b7Gx66icgJxdIuXe2IOaE/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___09讲_Clark变换定点实现逐行拆解（下）__i_的实现与精度实测_images/img_007_18f8f8b49497.png)
 
 这是由于 fixdt(1,16,11) + "Floor" 舍入的典型特征——每个采样点的输出值被量化到最接近的Q格式网点上。
 

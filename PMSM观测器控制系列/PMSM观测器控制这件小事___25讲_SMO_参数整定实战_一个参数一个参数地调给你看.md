@@ -291,7 +291,7 @@ K(V)
 
 把三个指标随 K 的变化趋势画成三条曲线：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQibPJNl2q8gQ6IHApoxFVkCZibXShlTHjcnClgk2BmkiapAsS1Qjqp44ZsllwnhcRqIM5bUatPpQiaibtdficR83UiaOVMibN2cTJjY0E/640?wx_fmt=png&from=appmsg)
+![](PMSM观测器控制这件小事___25讲_SMO_参数整定实战_一个参数一个参数地调给你看_images/img_000_5a6e6d3c0532.png)
 
 甜点区在空转时找到了，客户现场可不是空转。
 

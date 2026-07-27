@@ -76,4 +76,4 @@ BLDC电机启动有三个阶段：对齐、开环运行、受控换相。对齐�
 
 一切刚刚好。可以开始了。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vvmIAIMZsAQAAohbauaBJr8GibXAy0H6QF6vylQyO6mbv9QqbuEBiaZPKXMPXYZy09AVPPVVia2RBgaTghaiaUo12I6u8NUT4FAmBJBia621UjgA/640?wx_fmt=jpeg&from=appmsg)
+![](致电机控制同仁_你烧过的MOS管_让这个世界转了起来_images/img_000_909b00408a30.jpg)

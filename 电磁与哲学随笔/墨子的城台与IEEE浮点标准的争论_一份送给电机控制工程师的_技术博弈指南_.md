@@ -68,7 +68,7 @@
 
 墨子用了三招，只用了三招：**道理让对方无话可说，对抗性演示让对方无路可走，后手让对方无计可施。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vvmIAIMZsARFyJPgOOMwhTtIgtZic0BGVWmvJt0SbBibKGEYYlUGOcuib3ib4PEXOR8uicQaZlMEvBbicjS9Eg0HUfYacTiappFjH1uKlPB3QSCS1E/640?wx_fmt=jpeg&from=appmsg)
+![](墨子的城台与IEEE浮点标准的争论_一份送给电机控制工程师的_技术博弈指南__images/img_000_7c6d9757ff93.jpg)
 
 你可能觉得这是古代寓言，太久远了。那我给你讲一个现代版，发生在1970年代末的美国硅谷，主角是一个叫William Kahan的数学教授。他干的事情，跟墨子几乎一模一样。
 
@@ -110,7 +110,7 @@ DEC的技术反对彻底瓦解。
 
 禽滑厘的三百人，早就在宋国城头了。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/vvmIAIMZsAQhfITbHLMtrjru0NcQbdgLfKFhsJypEicJa27bZNlxp0xp6K8gQKT0iceHWtmibVY9hNPpUqwWcowPZciciadM7lQiaVdxHibQkia4Un0/640?wx_fmt=jpeg&from=appmsg)
+![](墨子的城台与IEEE浮点标准的争论_一份送给电机控制工程师的_技术博弈指南__images/img_001_0dad8fca82ae.jpg)
 
 现在把两个故事放在一起看，各位同仁，是否有些醒悟的感觉了？
 
@@ -150,4 +150,4 @@ DEC的技术反对彻底瓦解。
 
 **别自己跑。让对手来跑。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/vvmIAIMZsAQMYo41JdBD46Ns2XuKDRD7icroYFHXGRB6XyQkrfYicgnUFyvvLcVjhWmOsEO2bLwhqdNERDQKFicwEx5Bm8bdQcaDXYnqEYTKics/640?wx_fmt=jpeg&from=appmsg)
+![](墨子的城台与IEEE浮点标准的争论_一份送给电机控制工程师的_技术博弈指南__images/img_002_ec74f657e588.jpg)

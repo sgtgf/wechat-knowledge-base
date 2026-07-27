@@ -12,7 +12,7 @@
 
 要回答这个问题，咱们得回到最原始的扇区法SVPWM。回忆一下，在一个PWM周期 Ts 里，我们要做的是合成一个参考电压矢量 Vref。我们把它分解成三个部分：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2Vg2xhibHcxnsdVuM2CNOpmSjpjGE7W1XEWpFnyFiaVvWzRqEuw9FmLFtg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__05讲_零矢量的分配权__连续PWM与不连续PWM的分水岭_images/img_000_6884b4d7147f.png)
 
 这里的 T1 和 T2 是相邻两个有效矢量的作用时间，它们是由 Vref 的位置和幅值**唯一确定的**，我们没得选。这就像我们本讲文章封面页上的宣传语所说的，这是**“命运写好的主句”**。
 
@@ -31,7 +31,7 @@
 
 我们仔细查看一下文末参考文献的 Figure 10 中的 Pattern I ：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2V1Jibc5F8c9ib4dGRs7N3mm3FQ8JiciaQTgicqoWiaWeeRCMfWBWg3uPpw11w/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__05讲_零矢量的分配权__连续PWM与不连续PWM的分水岭_images/img_001_a23dd415bd8a.png)
 
 这是一个在第一扇区的典型开关序列。你看它的排布：
 
@@ -96,7 +96,7 @@ V0 → V1 → V2 → V0
 1.  **信号源：**继续用那个旋转矢量。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2VI2pVIqHWRfHP33GkYSsENLiacpKfUEGqWOsrB7PRX3guIwae8zTSKHw/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__05讲_零矢量的分配权__连续PWM与不连续PWM的分水岭_images/img_002_a0775b03fd8d.png)
 
 2.  **两条并行路径：**
     
@@ -104,12 +104,12 @@ V0 → V1 → V2 → V0
 -   **路径A（CPWM）**：使用我们上一讲已经验证过的min-max居中注入法。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2VOO8Tkib49t5rN6Kv6hLpNT2hXPV7ysvE1AJS63PhHQn6rg09iapiaqcYg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__05讲_零矢量的分配权__连续PWM与不连续PWM的分水岭_images/img_003_2be7ae32169f.png)
 
 -   **路径B（DPWM）：**我们来实现一种最简单的DPWM。比如，我们规定，在一个PWM周期内，找到三相调制波 ua\*, ub\*, uc\* 中最小的那一相，然后注入一个零序，让它正好被“钳位”到-1。这个零序就是 e = -1 - u\_min。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2VuicviajdXewdEXm71yJ9eAic8ma0saNI4vtibM99NbuQoxuI1ED5BChG5Q/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__05讲_零矢量的分配权__连续PWM与不连续PWM的分水岭_images/img_004_ebc69649a5ad.png)
 
 3.  **观测：**
     
@@ -117,21 +117,21 @@ V0 → V1 → V2 → V0
 -   **看三相PWM门极信号：**你会清晰地看到，在路径B（DPWM）中，总有一相的门极信号，在一段比较长的时间内（通常是60度或120度电角度），是一条直线（要么全高，要么全低）。而CPWM的三相信号，则一直在密集地跳变。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2VGqlp2GEj4HLR2Ribh7kvwCrtSPIFruYJCoibnicj9G9LlNTn68gicWku4g/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__05讲_零矢量的分配权__连续PWM与不连续PWM的分水岭_images/img_005_c2dbdc127f23.png)
 
 -   **看开关次数：**用一个边沿计数器，分别统计两条路径在一个电周期内的总开关次数。你会发现，DPWM的开关次数，大约是CPWM的 **2/3**。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2VyKw4bs0yCz8icOIMKWwy9xHZXp4RU3h0bQ3BZaV51O3Ua85uSCtOic2g/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__05讲_零矢量的分配权__连续PWM与不连续PWM的分水岭_images/img_006_d58b52cd7420.png)
 
 -   **看线电压：**对比两条路径的线电压波形和频谱。你会发现，它们的**基波分量仍然几乎一样！**但是，DPWM的谐波含量会比CPWM略高一些，谐波分布也不同。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2Vmm1t1FiaQxLcPzmK4eb2QbEFc9FgJGwnkAgcQ0DwmOxIlPr0zOB1PHA/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__05讲_零矢量的分配权__连续PWM与不连续PWM的分水岭_images/img_007_62a4abbd5906.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2Vt8XdFUcvsfKIluytRyviafgACj0Z6kQ8OOia4UJEdg7hk0Q4PT90Skng/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__05讲_零矢量的分配权__连续PWM与不连续PWM的分水岭_images/img_008_9c3a061de393.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGNfhzxbPEiasiaiaB7ljGXx2VDGgnwb4pMAv7wSib3ssEGYK4Ty7urqLic0brB9eLvNKkCibV039MBL8oQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__05讲_零矢量的分配权__连续PWM与不连续PWM的分水岭_images/img_009_12f7facadf22.png)
 
 这个实验，就把CPWM和DPWM最核心的区别——**开关行为**——给暴露无遗了。
 

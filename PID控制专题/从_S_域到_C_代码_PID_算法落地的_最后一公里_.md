@@ -6,7 +6,7 @@
 
 各位同仁，[昨天的文章](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247485672&idx=1&sn=5c719696d791123001289fafd9051e18&scene=21#wechat_redirect)基于实战代码和仿真模型讲解了一下PID实现的两种流派，因为文章篇幅限制，理论部分内容很少，咱们今天继续进行这个有意思的话题。文末的链接里提供了一本Springer出版社提供的教材，讲的是PID控制。这个理论，可以说撑起了现代工业的半壁江山。但是，书本上的公式，像(1.13)式那样的：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARUGTicXjjjRgSZ2FtIZ5b0ShOjl31UckBYib0rrNS2p8EtFOUk7uicDhPXPYiaGfvnT0ybEfXd80GRYdlhTDPrb5iclVuIXgCPBuQI/640?wx_fmt=png&from=appmsg)
+![](从_S_域到_C_代码_PID_算法落地的_最后一公里__images/img_000_4efbe23f01e5.png)
 
 这是一个充满了“s”和积分符号“∫”的连续世界。这个世界，是牛顿和莱布尼茨的世界，是数学家眼里的完美世界。但我们工程师要干的活，是把这个理论装进一个“铁盒子”里——单片机、PLC、计算机。
 
@@ -29,7 +29,7 @@
 
 **所以，书里的 (1.34) 式：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARgdazLa9YqnEBCazvsziahCZRU28bMb05BTFOv7lAQddwy0tiaJo2rxJGLFicib1eGQlsR2b8cmVeicggf4e0T9Z2enTJoibokIrjV8/640?wx_fmt=png&from=appmsg)说白了，就是 “**连续求和变成了离散累加**”。左边是求一块光滑曲线下的面积，右边是把这块面积切成好多好多的小长方形，然后把它们的面积加起来。简单粗暴，但管用！
+![](从_S_域到_C_代码_PID_算法落地的_最后一公里__images/img_001_2675f6f420a4.png)说白了，就是 “**连续求和变成了离散累加**”。左边是求一块光滑曲线下的面积，右边是把这块面积切成好多好多的小长方形，然后把它们的面积加起来。简单粗暴，但管用！
 
 2.  **微分项 (Derivative Action)：**
     
@@ -40,7 +40,7 @@
 
 **所以，教材里的** **(1.35)** 式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARsSp96q39E35uxEfdQfXPmpw9TGBeE9LdNK5qn19rm9yFZiabuib27IHUgHJ3vQV022OzT74ZibXdf6cJYOcf74uwI7wee7pnGQM/640?wx_fmt=png&from=appmsg)它的本质就是 “**用两点间的斜率近似替代切线斜率**”。就是用当前误差减去上一个时刻的误差，再除以时间间隔。
+![](从_S_域到_C_代码_PID_算法落地的_最后一公里__images/img_002_8a271fcb79f5.png)它的本质就是 “**用两点间的斜率近似替代切线斜率**”。就是用当前误差减去上一个时刻的误差，再除以时间间隔。
 
 好，工具我们准备好了。现在，把这两个“降维打击”后的工具代回到我们原始的PID公式里，会发生什么呢？奇妙的事情发生了，PID控制从此分化出了两大流派！
 
@@ -54,7 +54,7 @@
 
 各位同仁把上面那两个离散化的工具——累加求和的积分、两点求差的微分——直接代入PID公式，就得到了教材里的 **(1.36)** 式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARPlhP3XrX1QuILKcZjvKh0enNSQzz6NcsVBp2sCAgr0vslurIlpZUVzgDtlIIgSLmLCtZVMt6zy3LIMlFIkrDFwZ89eOztSgo/640?wx_fmt=png&from=appmsg)
+![](从_S_域到_C_代码_PID_算法落地的_最后一公里__images/img_003_2744f9e44390.png)
 
 这个公式，就是**位置式PID**。为什么叫它“位置式”？因为它计算的是**最终的位置**。
 
@@ -77,21 +77,21 @@
 
 我们有 tk 时刻的输出（公式1.36）：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATouS5vCTPxf59Fo1Nfvxu0ZYdeQT0877MQ7y3p2Q8xnbWZUSYYdbEf03sGx3PyxQcM64S5koWy9tnWMz8k3GcIiaNTAVVZK4KM/640?wx_fmt=png&from=appmsg)
+![](从_S_域到_C_代码_PID_算法落地的_最后一公里__images/img_004_444464e3ed59.png)
 
 我们也有 tk-1 时刻的输出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQDJLbMwzmPUFYdwibmsDj2Snz1qcDXS2Rla5HnYfDBnDaicicR1WNAyPXfT6dWcH9TicByODgzZ3Lcy8ypCfYQEO7lIFVSaQIiaU7I/640?wx_fmt=png&from=appmsg)
+![](从_S_域到_C_代码_PID_算法落地的_最后一公里__images/img_005_18a358217e3d.png)
 
 现在，我们用第一个式子减去第二个式子，看看增量 △u = u(tk) - u(tk-1) 是多少。
 
 有意思的地方来了！那个最麻烦的、要从头加到尾的积分项 ∑ei，两者一减，大部分都消掉了，只剩下了当前这一项 ek！
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQm0icZjzRQBTOeiaicvfyryOESS4r8UlE3eCLQSlKZhAJOR0rBPRjLziaicT85UJHuvo6MTgfY2ntI5nBzdYu60066ZXpo1YJlEUic4/640?wx_fmt=png&from=appmsg)
+![](从_S_域到_C_代码_PID_算法落地的_最后一公里__images/img_006_b46d6b420774.png)
 
 经过整理，我们就得到了教材里的 **(1.37)** 式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASnAUHq56Annhia8LAEPibh17IxV9wM4gl9fKEnl7znGfpYQra3ClKGlMgw0IQXpvlMP5YpdMVx3Tpz715LZZmQkAicibS9s7GQnE4/640?wx_fmt=png&from=appmsg)
+![](从_S_域到_C_代码_PID_算法落地的_最后一公里__images/img_007_04214f6c0711.png)
 
 这个公式看起来比位置式复杂，但它的核心思想非常简单：**我这次的输出 = 上次的输出 + 一个增量。**
 
@@ -99,7 +99,7 @@
 
 教材进一步把它简化成了 **(1.38)** 和 **(1.39)** 的形式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATvZdgdQ0yrbpvWVlciae5UtAWBvblncU6zCOzLpTk6OQ1PWibWicH1ua7vcckhMcyZRGpVCGVv4QRAamURK2chvxFCMJ6QrYXGZA/640?wx_fmt=png&from=appmsg)
+![](从_S_域到_C_代码_PID_算法落地的_最后一公里__images/img_008_060af86bc3ea.png)
 
 这个“操作员”的优点就非常明显了：
 

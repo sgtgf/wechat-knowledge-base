@@ -44,7 +44,7 @@ ESD-51-14标准（第5.2.1节）的思路正是如此。它告诉我们：**不�
 
 现在我们有了两条导数曲线：`da1/dz`(“干”接触) 和`da2/dz`(“湿”接触)。我们可以计算它们的差值`Δ(da/dz) = da1/dz - da2/dz`(参考标准Figure 8)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHpRWibaGjYBetria06wAFVgN9AXWaWGUDicvTsCGaSkTVjhbP80ohibEfo3Uww5npo3FicgA7Tgic8tmHw/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷06_十字路口的抉择_____阈值算法与分离点的最终裁定_images/img_000_e8e926eff050.png)
 
 但是，这个差值的大小，会受到一个因素的严重影响——那就是我们[上一案](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247484913&idx=1&sn=d9c1c433143350a396215d0ba9bfc9e7&scene=21#wechat_redirect)提到的**稳态差Δθ**。如果“干”“湿”差别很大（Δθ很大），这个导数差也会被不成比例地放大，反之亦然。
 
@@ -97,7 +97,7 @@ JESD-51-14标准在5.2节的最后，给出了一个清晰、可编程的裁定�
 -   这样，我们就得到了一条**δ(Zθ)**的曲线。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHpRWibaGjYBetria06wAFVgNlia5dLbGTHo8hicibfpVUdnup1IDQuILZRcdvA4AXDHzMeOnjOf8CnlsQ/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷06_十字路口的抉择_____阈值算法与分离点的最终裁定_images/img_001_6912313afc0b.png)
 
 2.  **绘制“法律线”：**
     

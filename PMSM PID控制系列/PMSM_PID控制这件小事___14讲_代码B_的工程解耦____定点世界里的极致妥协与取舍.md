@@ -107,7 +107,7 @@ uD = uD - (we \* Lq \* Iq\_track) >> N
 
 空口无凭，得上Simulink。整体的仿真模型如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASw2xvuhGU9cicsLWmuufMS44S72bGebO1ObjhR3vDakIw2S8eLRhRossSU3v7FlP0O2SOGw6yCCFPiaAAhh0JPSP70mrXGrx1icE/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___14讲_代码B_的工程解耦____定点世界里的极致妥协与取舍_images/img_000_d2026022dadc.png)
 
 青色模块为控制器模块，通过左下角的 Ctrl\_Mode 可以在 Mode 1、Mode 2、Mode 3 和 Mode 4 四种控制策略之间切换，其中：
 
@@ -120,45 +120,45 @@ uD = uD - (we \* Lq \* Iq\_track) >> N
 -   **Mode 4**: 代码B 选项1（断腕求生：带滤波，且只补反电动势 EMF。对应代码中现场最默认、最稳妥的选择）
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARagSZYuzHopSqalcNpb2euastFoepffwePJiboJ19B4Sia0MELb1wkuOrpicicr3Z43F7HHxUibIXbBCliaGM7tp8bovbutSJaVaMSA/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___14讲_代码B_的工程解耦____定点世界里的极致妥协与取舍_images/img_001_ef44b8b47328.png)
 
 我们首先看下 Mode 1 （无任何解耦前馈）的仿真结果，Q 轴电流环的反应实在是太慢了：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQ4CGS5tR4tlictacI8MnA4mhW3tlaNIibkC3KAic3Jw2gibuibjcdyCrcHfXlAHHfbvm5yEybPLMkibTWLQlywCQlBFW0g4G5C7a4nU/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___14讲_代码B_的工程解耦____定点世界里的极致妥协与取舍_images/img_002_87dba84fb3fc.png)
 
 但好在 D 轴和 Q 轴电流环的输出，也就是送入帕克逆变换模块的电压指令足够光滑（因为模型中给定了Kp\=5；Ki = 500这种非常强悍的PI参数）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARfYY9nkdsOXCphqNziaIToMPBbWGFaicezYPJIsBYX3IK40ib2XSKiaky8PZMhq2LR8eB503Rib3DqLgulgwpMwzDEg7x2z7ntIFhY/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___14讲_代码B_的工程解耦____定点世界里的极致妥协与取舍_images/img_003_550c1495bafe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAR2ayH302gDgQVoxwjbCUUzd0fZna2bebT5L22g5Vic0iaZfpwRvHJjN0vYEicoVze0ZGibkCI1arkd1CyZgiccnZ5DWlHEc7oF58G0/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___14讲_代码B_的工程解耦____定点世界里的极致妥协与取舍_images/img_004_e0366748ebb3.png)
 
 我们再来看下 Mode 2 （全解耦，但无滤波且掺杂了错误的电感 Ctrl.Ld\_err）的仿真结果，Q 轴电流环的反应上来了，但是杂波噪声非常大：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASZm1WZOTYz2djU4iaXdx1KBIbqjAWCP23ia5GiaEX30b4qHrk5aoPe3He1naFbSugewnKeAm1TJia6DgVNt3UN0LXTzNRK21tqL6Y/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___14讲_代码B_的工程解耦____定点世界里的极致妥协与取舍_images/img_005_80deb9023048.png)
 
 D 轴和 Q 轴电流环的输出，也就是送入帕克逆变换模块的电压指令噪声也非常大：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQra1cNvOQCPPxzqqPiaQicYz7jdUoJ7wMHJjUdOvicGLuV1e5egic7Ys5frQVoxyXekOibhhdSGibSlhVVW8M3QClokCOBTMwWm7WsM/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___14讲_代码B_的工程解耦____定点世界里的极致妥协与取舍_images/img_006_ccccaae929a7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARWQ36ZErNmwSxYuypxPkOKxDNObSZtCYpSZO1Heic47FkxUVtHUFCPC6n6hXG2vCXA3GMkQ8ic4ZC5y9yudvNTwQxuIFjCDhicZI/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___14讲_代码B_的工程解耦____定点世界里的极致妥协与取舍_images/img_007_b8f5b9470777.png)
 
 我们紧跟着再来看下 Mode 3 （全解耦，带 Filter2 迟滞平滑）的仿真结果，Q 轴电流环的响应，在未有牺牲的前提下，噪声值减少了：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQfX0LhX6va2xXK7Zic6micZozCjPYL79pnbWgdVBkJicBWNhUqQl7FMzY5BRvZPj4C1P7aXuHia9tyibf5uibOrRlkAzNrBoKyapDwk/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___14讲_代码B_的工程解耦____定点世界里的极致妥协与取舍_images/img_008_801615788f74.png)
 
 同样的，D 轴和 Q 轴电流环的输出，也就是送入帕克逆变换模块的电压指令噪声也减小了：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATolNWmSibjPv89RriaCUibRAr3lEShmmt8P9KA9EU2UQpERa08jcbVEwB4Sc9rWJAjPk6hIicJcQwQ4NMwcosRJIdphCCfSvCCWI8/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___14讲_代码B_的工程解耦____定点世界里的极致妥协与取舍_images/img_009_4611a98a2697.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATI4scb7UwX3QnreKxGDdxqbBcmiagUw3zwicgdT7Xiavkz7aPorA2TD6laSy6kPwVQuzAjppLy9ucKvA7hEXzIVTQr3THuicDichwk/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___14讲_代码B_的工程解耦____定点世界里的极致妥协与取舍_images/img_010_5a689e2d1eca.png)
 
 有同仁说这种模式可以在实战中使用了，但是先别急，咱么再看看 Mode 4 （断腕求生：带滤波，且只补反电动势 EMF。对应 代码B 中现场最默认、最稳妥的选择）的仿真结果：电流环的响应、D 轴和 Q 轴电流环的输出都未有牺牲，但对于运行的MCU或DSP的算力负担却大大下降了：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATIGf47zzGbaF0NXKmZrX1ibdL9kJkKAoM5DdHdfiaoS1zpOZsT0SbUYkkmMqHAwdc2AZ3hbhRPH5cnvN6KJFa3jd0gU1icoBJmjk/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___14讲_代码B_的工程解耦____定点世界里的极致妥协与取舍_images/img_011_3a9e14aba6f5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARvb7kYicys5kiabY9QIpqhR3GS4ZYxVHT7560uD0PADVzeXaeDST5GtsQrxd1icia70Mt5TRtz4Aw5xrciaSaib47c1MRicUQzRh16Gg/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___14讲_代码B_的工程解耦____定点世界里的极致妥协与取舍_images/img_012_c1f569a708f2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQsUvdeAnb6MlkNEhNYPR7I9LlBxzkkPKd0MUl7UttxUoMicticxHzgWegfT6z2tI427XKT0XcYic2QWqaxxdQJQujs6Ric6ia9AeTI/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___14讲_代码B_的工程解耦____定点世界里的极致妥协与取舍_images/img_013_d757da198e8d.png)
 
 * * *
 

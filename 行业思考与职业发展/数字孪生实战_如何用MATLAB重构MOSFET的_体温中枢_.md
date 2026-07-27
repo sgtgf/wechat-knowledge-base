@@ -31,7 +31,7 @@
 
 我们就以型号为AOB240L的NMOS为例，重新打开数据手册，找到那个热阻抗测试曲线。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGqicUA85tQMMH5h0jcG4n5mV9hTKR78FFLXazodI8cGMquXJvtpkib0Zq9aLXW2t7Dlt1ZkaASmoeA/640?wx_fmt=png&from=appmsg)
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_000_1290f847daee.png)
 
 这一步，要分享两个关键点：“**取哪条线**”和“**怎么取点**”。这直接决定了后面的参数提取能不能算准。
 
@@ -78,39 +78,39 @@
 
 https://apps.automeris.io/wpd4/index.zh\_CN.html
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGqicUA85tQMMH5h0jcG4n5mzygOkYPOt6zNtrhO1CrKGmlXgtLdH4vCTiaRtEXagaeFtohoiaibKZic0A/640?wx_fmt=png&from=appmsg)
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_001_25f256b65f8c.png)
 
 点击页面右下角的“导入图片”按钮，加载刚刚的热阻抗曲线截图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGqicUA85tQMMH5h0jcG4n5mmiaBlbhHVibWAZLibmiccEL5GNsSYklktsWAS6WhV3wte4KhPQpFoVNCuQ/640?wx_fmt=png&from=appmsg)
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_002_debec5bc4371.png)
 
 针对我们截图的热阻抗曲线类型，选择“二维（X-Y）图”
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGqicUA85tQMMH5h0jcG4n5mGia4qDZq1whJnKBSy0ctFGb6wMzIMbLltRfLMLmHPibyskrEH5jRw9uQ/640?wx_fmt=png&from=appmsg)
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_003_4e0400a470f6.png)
 
 点击弹出页面下方的“对齐轴”，按照页面提示选取4个点来确认坐标轴。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGqicUA85tQMMH5h0jcG4n5mqpl7ibUfxlfG32GmBtQAX4M6jXzZzPKWRUffC71iaYVqzLlwcKE0ibzdg/640?wx_fmt=png&from=appmsg)
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_004_7072d51a479d.png)
 
 点击“继续”，按照先X轴，后Y轴，从小到大的顺序选取4个点，尽量涵盖住整个曲线显示范围，页面右方会显示鼠标放大图，方便锚点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGqicUA85tQMMH5h0jcG4n5mslPWrGUSebJQuXaKYLsDl0CibO4EcMQruxvDYjrPl1a7ccOr28p3BicQ/640?wx_fmt=png&from=appmsg)先描x轴的第一个点。
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_005_7607e0bf2c4f.png)先描x轴的第一个点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGqicUA85tQMMH5h0jcG4n5md2vnOkVmqwX8ib2p1TLuGT4QLxJEcZja0k2sJS8o480feSPWIr9sibVg/640?wx_fmt=png&from=appmsg)再描x轴的第二个点。
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_006_3a74886f4ca6.png)再描x轴的第二个点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGqicUA85tQMMH5h0jcG4n5mMLDSzYN9JDaFoiaZPhJpjTANwMnoqwKhT19victeZKiaWmQJicxxD7HfRQ/640?wx_fmt=png&from=appmsg)然后描y轴的第一个点。
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_007_a4e9ac64b96a.png)然后描y轴的第一个点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGqicUA85tQMMH5h0jcG4n5mkZZrwdicMAia6XO3VmyzeqvbfZxwGRAapm0uXMqK6icVcjDB6W015JB9Q/640?wx_fmt=png&from=appmsg)最后描y轴的第二个点。
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_008_eae8d60c0571.png)最后描y轴的第二个点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGqicUA85tQMMH5h0jcG4n5mzPgz9EceKf035mwSaBBf91TTUrWVqfoXDxDoIa4fSIQR91kls6WnBA/640?wx_fmt=png&from=appmsg)四个点选完后，点击页面右侧的“完成”，在弹出的页面中，填入刚刚锚定的四个点的坐标值，切记，一定要将“对数刻度”打钩！
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_009_2c831d885a41.png)四个点选完后，点击页面右侧的“完成”，在弹出的页面中，填入刚刚锚定的四个点的坐标值，切记，一定要将“对数刻度”打钩！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGqicUA85tQMMH5h0jcG4n5mUmXfx6OFo6l008mWUFicmJZUgm24m0AbuVWI3W9SsaDQia8QyqkP0qaQ/640?wx_fmt=png&from=appmsg)
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_010_f18bee9aa4cd.png)
 
 点击“确认”按钮，在新的页面中开始描Single Pulse热阻曲线上的点，15~20个点足够了，但要包含曲线完整的形状，如头、尾（稳定值）和关键形变的点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGqicUA85tQMMH5h0jcG4n5meFFjgYS415INUNccmSuFDkAicWp0L2GAfYpRCy2P6TiaO3kQFcOD1icJg/640?wx_fmt=png&from=appmsg)描点完成后，点击页面左下方的“查看数据”按钮。
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_011_7dc64fdc479f.png)描点完成后，点击页面左下方的“查看数据”按钮。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGqicUA85tQMMH5h0jcG4n5mpxScU40QqGPHUczDdbtojcjh6mjoKx82XfVJjWOIGfrxcd4Ooibvt4A/640?wx_fmt=png&from=appmsg)
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_012_722446bad77b.png)
 
 在弹出的页面中，刚刚描的点的坐标值就全部显示出来了，点击新弹出页面下方的“复制到剪切板”或“下载.CSV文件”，复制或保存的数据用于后续在MATLAB中处理。
 
@@ -127,7 +127,7 @@ https://apps.automeris.io/wpd4/index.zh\_CN.html
 
 在物理世界中，这其实是无数层材料叠加的结果。但在工程上，我们发现只要用4组“热阻+热容” 并联的模组串联起来，就能把这个过程模仿得惟妙惟肖。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGqicUA85tQMMH5h0jcG4n5m8dIiapgdll3cz5tHCkyMdbRqDntB736DDrYxxkJJDdKWZl8WichnWqibQ/640?wx_fmt=png&from=appmsg)
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_013_36c2b9e155e8.png)
 
 这就是 4阶 Foster 模型 的由来：
 
@@ -142,11 +142,11 @@ https://apps.automeris.io/wpd4/index.zh\_CN.html
 
 我们在 MATLAB 里要拟合的目标公式长这样\[1\]：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGqicUA85tQMMH5h0jcG4n5mm5pPZyYWAg4RHRZySaaFicInFSRwqpNricfgJopsppmxI9s6G6GwoepA/640?wx_fmt=png&from=appmsg)
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_014_ec366ed79c07.png)
 
 别晕！把它拆开看，其实就是**4个小括号加起来：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGqicUA85tQMMH5h0jcG4n5mI6laY3mjQDncJjOrL4IX2ibXpkkiaZ5IAYTe65LibJdP8IbSZCnIMWuYQ/640?wx_fmt=png&from=appmsg)
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_015_33b7ac5a5a52.png)
 
 这里有两个关键角色：
 
@@ -199,15 +199,15 @@ https://apps.automeris.io/wpd4/index.zh\_CN.html
 
 先看下仿真运行结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHhVIVapbx2A5PJEmwKDicNia19lw5ov4O9krrFZE0Evtnz2VV1r6HEYIt5HxboT7m2uwdGtfTq4h4Q/640?wx_fmt=png&from=appmsg)
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_016_f98fada133e4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHhVIVapbx2A5PJEmwKDicNia5WPk2mXgckc4xeYmG2b0T8tsqOvJvf8nOCcj5r4gVxOWPCR3QzFRag/640?wx_fmt=png&from=appmsg)
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_017_2588a618bb4f.png)
 
 看下残差Resnorm的计算结果，只有1.297966e-03, 此刻的我就知道——**这事儿成了！**
 
 这个残差值意味着，刚刚拟合出来的曲线和原厂的数据误差极小，几乎就是那条线的“克隆体”。但如果你是一个**非常较真**儿的人，比如，处女座+A型血（当然是玩笑的），会看着图中的两个圆圈“不爽”：**为什么这两个红色圆圈没能死死地压在蓝线上？**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHhVIVapbx2A5PJEmwKDicNiaK6mTBQf778cYvQ3JS7zpqlmyh5zic2JlBTnjTXtDrGr2iaSGNPPVGb7g/640?wx_fmt=png&from=appmsg)
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_018_c8a88d1332d2.png)
 
 其实这是由于第一步获得数据的取点误差造成的，在代码的注释中也标注了，我们取出来的数据点，有些是不准确的，最明显的特征就是Y值（对应于热阻抗曲线上的纵坐标）大于1，因为这个曲线是标幺化后的数据，Y值最大只能是1，这也是为什么代码中要加入如下语句来“清洗”数据的原因。
 
@@ -217,13 +217,13 @@ https://apps.automeris.io/wpd4/index.zh\_CN.html
 
 修正后的描点数据，也就是图中的红色小圆圈，最大值应该，也只可能等于1。代码中把那些大于1的异常点数据“按”回来了，列位会看到红色的圆圈在最后那段平平的曲线中趴在1.0线上，蓝色的线也会很平稳。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHhVIVapbx2A5PJEmwKDicNiaTiaE8W23KmXgdEJ213ncP7lnJfAibFFGSicT5nqlMRq84GOiaxiaVLrtEQA/640?wx_fmt=png&from=appmsg)
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_019_6cda23b7b411.png)
 
 再多说几句，我们取点有误差，原因并不完全是因为我们手抖、不细心等这些原因，还有很重要的一个原因是，不知道AOB240L这款NMOS的datasheet的作者是**有意**还是**无心**，把这条热阻抗曲线画得太 **粗** 了。
 
 另一家更负责任的大厂ST，他家的型号为STL115N10F7AG的NMOS，给出的热阻抗曲线，就很 **细** 。特别适合用来描点进行RC参数提取。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHhVIVapbx2A5PJEmwKDicNiagfH6dI1lb1VRzMEa3ZIibXFiaBykrduQGrSeQk0eNSibUws8J4L4q4KoA/640?wx_fmt=png&from=appmsg)
+![](数字孪生实战_如何用MATLAB重构MOSFET的_体温中枢__images/img_020_09d12909f514.png)
 
 我用以上同样的步骤，基于上图提取出来的数据进行曲线拟合，拟合残差`Resnorm`只有1.02e-4，精度整整提升了一个数量级！
 

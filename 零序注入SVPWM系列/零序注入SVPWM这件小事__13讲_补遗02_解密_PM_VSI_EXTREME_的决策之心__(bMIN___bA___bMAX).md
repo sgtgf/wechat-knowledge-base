@@ -86,7 +86,7 @@ bA = pm->fault_current_tol;
 
 举个例子：假设在某一时刻，电角度处于第 I 扇区，如文末参考文献的Fig.6。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQLVYm4R7PPPnKiboJ7z1MNy6yibOqExjZLP9PNzUnpX12Z0BQzbbgfNj0hpxOVyNAn76icpgj0kicRHbBEZHic6RXQz95o68nzwbnY/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_补遗02_解密_PM_VSI_EXTREME_的决策之心__(bMIN___bA___bMAX)_images/img_000_13abdf191e48.png)
 
 -   **电压关系**：uA 是正的最大（uMAX），uB 是负的，uC 是负的且绝对值最大（uMIN）。所以，“电压最大相”是A相，“电压最小相”是C相。
     
@@ -129,13 +129,13 @@ Simulink 演示
 
 我们就是基于 pm.c 代码思路，在simulink中重现A相占空比的调制波形、注入的零序矢量波形和A相的开关状态。同时引入一个模块用以模拟Cortex-M4内核中的TIM1时基产生的PWM波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAS4aLdghOWbZL6CVbGSumU6TicAyiajZeKbXZ7kCjW8lumGh3veltF7Rfia7RgZWMZZwHP0dRBrn0VM8nCSm4S1RGFHjKjBFCRHYE/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_补遗02_解密_PM_VSI_EXTREME_的决策之心__(bMIN___bA___bMAX)_images/img_001_01c0e0b946b4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASc7qw6FamNwRvywyDWO5xG6odZr6PbEtakdNZlgkSAuMicvcjmxMLIfRXibTzrEj4sOm2okamAnicNmomxqneLlBNNWbmOlhJVyk/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_补遗02_解密_PM_VSI_EXTREME_的决策之心__(bMIN___bA___bMAX)_images/img_002_9d9bf5e86d78.png)
 
 看下仿真结果：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASc5SmktXvKiafeF69HXP3OkIsQGPsXZ907aqVl1pPxADfg3UxzuprnlbbXZUr3XxKQm7BfCt84AGOqqTxAeQg1kYaW1wYQxhyE/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__13讲_补遗02_解密_PM_VSI_EXTREME_的决策之心__(bMIN___bA___bMAX)_images/img_003_d83be7261de8.png)
 
 -   **scope中的上图(Duty\_A):**
     

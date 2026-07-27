@@ -112,21 +112,21 @@ D 轴的 PI 瞬间蒙圈了：“哎哟？怎么电压掉下去了！” 于是 
 
 空口无凭，得上Simulink，我们通过仿真模型再体会一下DQ轴是怎么“打架”，又是怎么被制伏的 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARDSgSTHPgpTGfralc2tKsERcAaOCrh8oOmUoJjsOUAiaicBt8B0nNFy5vXBVvDcARzedTZva2tdDW6dlBjNKQQfWoX8gUicz4FSY/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___12讲_解耦控制的理论基础____当_D_轴遇上_Q_轴_images/img_000_20858cb10985.png)
 
 为了能在仿真模型中展示“电流是怎么随着时间变化慢慢积累出来的”，上图右侧绿色的PMSM模型中，电机的电压方程改用了电流的状态来展示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASRe3an1gy269oHNlhU6X2UDhoZmomJ5R5d3jXzTicBdmoG5I4Cf0GIiaqG0GK73Tj70pF2KX47guicUqvmStRnwLdHruqKzlWQBk/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___12讲_解耦控制的理论基础____当_D_轴遇上_Q_轴_images/img_001_3b92ba3047d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQStkFrLqanoPHOobECz3bZFjYEuroicLcXFtVzpLakdEGASCTp9sco3THePbj06hk7PjGWiaQyE1oAHbCeIeIs9gsvsp8yxgGOM/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___12讲_解耦控制的理论基础____当_D_轴遇上_Q_轴_images/img_002_ee4724f083bf.png)
 
 仿真画布中橙色的FOC控制器，加入了两个开关，鼠标双击就可以在没有解耦和有解耦两条控制路径之间切换：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQhHhSlvnB6blqSXLHIEc3Z9iaOZFAibHCACGE3POj82zfrBBlyq1VTwAeMfdicEDm6RMBzlfic57BpK2v7MR5SQkwSMPmZnNEys7Q/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___12讲_解耦控制的理论基础____当_D_轴遇上_Q_轴_images/img_003_34024d2de417.png)
 
 我们首先看下没有解耦的回路控制效果：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATibzaQuxbHlWOQ5uiaSInnWicAE30azW26Hz4YsiboXUp7TN9whDZA9YmibPv5IWiaJ2nWy4k8c434ciboc1vGu7J8q4FWsJ9qdiauI7w/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___12讲_解耦控制的理论基础____当_D_轴遇上_Q_轴_images/img_004_2e9fc5a9d3de.png)
 
 上图中，无论是 Q 轴电流还是 D 轴电流，明显可见有一个很大的“深坑”，在 0~0.3s 期间，明明两根轴的指令都是 0，但实际的 Iq（上视图中的蓝线）却瞬间暴跌到 -10A，然后死命挣扎着才被 PI 控制器拉回 0。因为我们一开局就给了 1500 rad/s 的超高转速。此时 Q 轴方程里巨大的反电动势项 \-ωeλm 瞬间作用。由于 PI 控制器的积分项 Ki 是慢慢累加的，开局它毫无防备，瞬间就被反电势把电流“冲垮”了。
 
@@ -136,11 +136,11 @@ D 轴的 PI 瞬间蒙圈了：“哎哟？怎么电压掉下去了！” 于是 
 
 这么危险的波形，我们怎么敢在实际控制中应用于实际的电机控制战场上呢？必须要解耦！咱们再看一下解耦后的效果（双击打开画布中的 FOC\_Controller 将 D 和 Q 共计两个黑色的 Manual Switch 开关）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATbVWkdIdYsO6elGPMXZOldAPwELDoJHkkfRxUGEIp7EZb7hvMUTFg4tN6DSv3hmSun4u6iaU6hzC75cAnSwpKlwWkBZDvicTlo4/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___12讲_解耦控制的理论基础____当_D_轴遇上_Q_轴_images/img_005_6445a6adf3d5.png)
 
 我们再来看下解耦后的仿真结果：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQjoHozr8t5W7tnBQ3RK6B81Rnfe6T9hDjJruK5dG1WC4JTwNj54KbeRzuyYuDBHI93ickE8kZWxNsibulozPPOjRicPkwoibPp0qY/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___12讲_解耦控制的理论基础____当_D_轴遇上_Q_轴_images/img_006_221a62cecd54.png)
 
 **对比效果是不是特别明显？**
 

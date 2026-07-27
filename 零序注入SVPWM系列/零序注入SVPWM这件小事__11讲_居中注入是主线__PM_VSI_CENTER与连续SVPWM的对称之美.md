@@ -54,7 +54,7 @@ PM\_VSI\_CENTER 这个策略，它不仅仅是数学上的等效，它和我们
 
 咱们回顾一下文末共享代码的底层配置内容，我们的TIM1定时器被配置成了 CMS=11，也就是中心对齐模式。在这种模式下，计数器从0数到ARR，再从ARR数回0，形成一个三角波。PWM的比较事件，在上数和下数阶段都会发生。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARsjBQPuCMGEc3L2rKeXljLAThM6NJU7T5QvAIGLyMib3Vz25oqNjl6qJoo8zeZSNEkmyeI9rPG3m7xzib9szBsytfBsaf6FM2Bo/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__11讲_居中注入是主线__PM_VSI_CENTER与连续SVPWM的对称之美_images/img_000_1f52e5bdaa4d.png)
 
 这种硬件机制，有几个关键特点：
 
@@ -92,20 +92,20 @@ PM\_VSI\_CENTER 就是那只把“尺子”放在正中的手。它为整个系
 -   **模型B（边沿对齐PWM）**：用一个锯齿波发生器作为载波，模拟边沿对齐模式。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQHfAbNyqXPrsKvDu4V9uiajVrBrFib4M4ymqJt4N1KgdWOjibDPohw4ddqVnuUROM36zESjsCuVib9MCJDiakGDH0iaANy8j7aTY1s4/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__11讲_居中注入是主线__PM_VSI_CENTER与连续SVPWM的对称之美_images/img_001_0b13d369f6ea.png)
 
 3.  **调制策略**：两条路径都使用我们已经验证过的 **min-max居中注入** 逻辑来计算三相占空比。
     
 4.  **观测结果**：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAS5rPIGWQ5WMicYj4E9f2KxW2Zibl0hXUAZ9jT9XIrXe9nib5NYQHnN9UeoXlSq4lXDvYmYUXjiaoEvPno7AdEI3WucEZqWLUuPGv0/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__11讲_居中注入是主线__PM_VSI_CENTER与连续SVPWM的对称之美_images/img_002_957f8ee9fa42.png)
 
 各位同仁请看图中的 **黄色细线**（Duty），它不是平滑的正弦波，而是呈现出一种中间凹陷的 “马鞍形”（双峰波），这个“马鞍波”就是 PM\_VSI\_CENTER 的签名。
 
 如果只是普通的 SPWM，它应该是个正弦波。但为什么它变成了马鞍形？这就是 pm.c 里 uDC = 0.5 - (uMAX+uMIN)\*0.5 这行代码的功劳。我们把三相电压整体进行了平移，把原本高的压低，把原本低的抬高，让它们挤在中间。这样做的好处是**极大提高了直流母线电压的利用率**，而且不改变线电压的波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARibDaicfQX5FQ7vyAy0nHwibweCAIOavNbvlnMZib3FYujaKOnqd232To0hzVhYlyFwpG7XrWv4K2jTePd7auVda0cgzx9Z17Znicw/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__11讲_居中注入是主线__PM_VSI_CENTER与连续SVPWM的对称之美_images/img_003_e999b1c49f72.png)
 
 咱们再对比一下 **蓝色细线**（Carrier）
 

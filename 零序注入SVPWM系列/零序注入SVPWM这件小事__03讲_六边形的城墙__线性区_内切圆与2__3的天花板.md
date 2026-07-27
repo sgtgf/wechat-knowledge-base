@@ -16,7 +16,7 @@
 
 现在，咱们先来看最淳朴的 **SPWM（Sinusoidal PWM）**。它的三相调制波就是纯正弦：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREjhWSFnL9zQRkic1RfLNLKYkCjUG85GZhe8mzILlLpC3TxX6d8B0emRiaAoqwHs4EQ23rurS17QFDg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__03讲_六边形的城墙__线性区_内切圆与2__3的天花板_images/img_000_6c2bf835e88a.png)
 
 为了保证任何一相都不饱和，这个调制指数 M 最大能取到多少？毫无疑问，M 最大只能是 **1** 。
 
@@ -28,7 +28,7 @@
 
 所以，SPWM的电压利用率就是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREjhWSFnL9zQRkic1RfLNLKYIOUxicicgKPKL7K4PThicpUygibcHnrQm0Rx4yN8Feo57btVDC6E2J9qDQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__03讲_六边形的城墙__线性区_内切圆与2__3的天花板_images/img_001_a749910347d2.png)
 
 这就是那个著名的 86.6% 的由来。它的根源在于，为了保证**每一相都不越界**，我们限制了整体的发挥。
 
@@ -36,7 +36,7 @@
 
 咱们换个视角，进入**空间矢量**的世界。逆变器只有8个基本开关状态，对应8个基本电压矢量，看下文末参考文献的图3(b)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREjhWSFnL9zQRkic1RfLNLKYSdjTdCsibCofiar6drGqIP5fZIKpCibRSAslvC3LRg25tU8XwBZsDGOZA/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__03讲_六边形的城墙__线性区_内切圆与2__3的天花板_images/img_002_96fcc2c64a9e.png)
 
 这6个非零矢量（ V1 到 V6 ）的顶点，构成了一个**正六边形**。这个六边形，就是逆变器能够瞬时合成的所有电压矢量的**“能力边界”**。我们想要输出的任何一个参考电压矢量 Vref，只要它的尖尖落在这个六边形内部或者边界上，我们就能通过组合相邻的两个有效矢量和零矢量，在一个PWM周期内，把它精确地平均出来。这个区域，就叫**线性调制区**。
 
@@ -46,7 +46,7 @@
 
 答案是：**这个六边形的内切圆。**参考文末文献中的图4.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREjhWSFnL9zQRkic1RfLNLKYIgxRuW0n9I2jmIicyzl90jlPRicbv6F0aUY5oX5iavuiaE23lS09lcNKdg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__03讲_六边形的城墙__线性区_内切圆与2__3的天花板_images/img_003_1104948bfae8.png)
 
 现在，咱们用同一个标尺来量一下 SPWM 和 SVPWM 的极限。这个标尺就是**直流母线电压**Vdc。
 
@@ -106,11 +106,11 @@ pm\_quick\_build() 里的 k\_EMAX = 0.57735027f，也就是 1/√3，这个�
 
 整个模型概览如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREjhWSFnL9zQRkic1RfLNLKY3w6mpXkfSuqkV9XZ0BqxPIlgInwJagQficrrqWmCtwXXiauEV9Iyc49w/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__03讲_六边形的城墙__线性区_内切圆与2__3的天花板_images/img_004_92fa008e6f2f.png)
 
 模型使用了callback功能，每次仿真前自动加载参数，在众多初始化参数中，调制比 Mod\_Index = 0.95 是关键。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREjhWSFnL9zQRkic1RfLNLKY9rdETvIhTL2HuKpaIPwKAF6IZjZHFczr5oacGDBibNTk1WbaoEWKY7Q/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__03讲_六边形的城墙__线性区_内切圆与2__3的天花板_images/img_005_2eda74c5abd7.png)
 
 在 SPWM 里，0.95 还是安全的，但这个值在 SPWM 体系下已经接近过调制（如果按线电压 0.866 算的话）。在咱们这个简单的标幺体系下（载波±1，相电压±1），0.95 意味着 SPWM 不削顶，而且方便展示 SVPWM 的注入效果（变成马鞍波，峰值降低）。
 
@@ -123,23 +123,23 @@ pm\_quick\_build() 里的 k\_EMAX = 0.57735027f，也就是 1/√3，这个�
 
 在线性区，SPWM和SVPWM的调制波形都正常：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREjhWSFnL9zQRkic1RfLNLKYyichKny4gW3INcrX3ibtsPZlk4ejJCagG5Wvic8IcyR4UPP3hZQnsEIpg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__03讲_六边形的城墙__线性区_内切圆与2__3的天花板_images/img_006_94cacce9d295.png)
 
 无论是SPWM还是SVPWM，调制出的线电压Vab，无论是幅值还是相位，都是接近的（没有100%重合，是因为模型中引入了一个一阶低通滤波器，造成了部分相位延迟，5KHz的载波频率，LPF的带宽设置为500Hz；线电压的锯齿波是为了模拟电机定子电感的充放电过程）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREjhWSFnL9zQRkic1RfLNLKYEBicCUwQiaE1oEoVDRtEBq6rAic2jIWRiatxvZibfVp8AGVtB5NspotSSYg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__03讲_六边形的城墙__线性区_内切圆与2__3的天花板_images/img_007_1c16c34a9803.png)
 
 当调制比大于 1 ，如 1.1 时，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREjhWSFnL9zQRkic1RfLNLKYcXsoS4MbMuNkFxMbhJ5pQZ8HH32NhE7DPJW87iaMZPYKgbqtalGGxdQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__03讲_六边形的城墙__线性区_内切圆与2__3的天花板_images/img_008_7333d2e4b19b.png)
 
 SPWM的调制波形明显发生了“削平”现象，但SVPWM的调制波形依然可以在\[-1, 1\]的范围内！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREjhWSFnL9zQRkic1RfLNLKYWx7BYibEbyG4yWvccy61mr73to1XEicT2r6Rjk3EOLFMKMb9t8L1uib2Q/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__03讲_六边形的城墙__线性区_内切圆与2__3的天花板_images/img_009_c82ddfbbdf07.png)
 
 此时SPWM调制出来的线电压已经效率低了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREjhWSFnL9zQRkic1RfLNLKYoWm2CJr904FqMHHavWHPcYyw4FJEgYN1n0P8pkW1m7icELUz9znY6PQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__03讲_六边形的城墙__线性区_内切圆与2__3的天花板_images/img_010_c5363cebc35a.png)
 
 这个实验，就把SVPWM为什么能“提压”15.4%的秘密，活生生地展现在我们眼前了。
 

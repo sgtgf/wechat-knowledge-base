@@ -27,7 +27,7 @@
 
 这就是本文最核心的能量对冲思想（Pcu≥Pg）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhDv9JL4KfaoAScfUOdTBWxORKaslXT51W91W7P4sN8BZHTong0uyoGIdgOX93bxdfG1WZDHoiahA/640?from=appmsg)
+![](PMSM_我发起疯来_连自己发的电都烧___自损八百_伤敌一千的刹车制动神功_images/img_000_d5f37bd8a12d.png)
 
 只要满足这个不等式，我们就是安全的！
 
@@ -36,14 +36,14 @@
 -   发电量Pg: 
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhDv9JL4KfaoAScfUOdTBWwdibDicHmzZBL0wnWgUYwxLmiaGEaBzav6OI9xIZQlSt8dEgCQiaw7WWGw/640?from=appmsg)
+![](PMSM_我发起疯来_连自己发的电都烧___自损八百_伤敌一千的刹车制动神功_images/img_001_ed0cdc79a9bc.png)
 
 它的“发电量”主要跟我们的“魔法值”isq（q轴电流）成正比。
 
 -   发热量Pcu: 
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhDv9JL4KfaoAScfUOdTBW0EUpib9ovP6gibLVb7Ux4BFpgzlxPN3EU8wQDo6vAibBAQVcKugCH5tyQ/640?from=appmsg)
+![](PMSM_我发起疯来_连自己发的电都烧___自损八百_伤敌一千的刹车制动神功_images/img_002_aa1ea81f1376.png)
 
 它的“发热量”跟两个“魔法值”isd和isq的平方和成正比！
 
@@ -68,13 +68,13 @@
 
 作者通过如下精密的数学计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhDv9JL4KfaoAScfUOdTBWyKLvcblIFQMHfh80F5uWkoWvKPBKN9vcOicwPXhiaHZmVNxbMefofdxw/640?from=appmsg)
+![](PMSM_我发起疯来_连自己发的电都烧___自损八百_伤敌一千的刹车制动神功_images/img_003_2277caf57283.png)
 
 为我们画出了一张在不同速度下的“最佳电流走位图”。
 
 请全体同仁，目光锁定这张武功总纲——图1！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhDv9JL4KfaoAScfUOdTBWf6UN6iaD4ASbtwahMiakxETiaeY8aF9AsFjWVVlYBicVFGktV5scWicst7Q/640?from=appmsg)
+![](PMSM_我发起疯来_连自己发的电都烧___自损八百_伤敌一千的刹车制动神功_images/img_004_e96dcba199bb.png)
 
 这张图就是我们算法工程师的“藏宝图”！
 
@@ -104,7 +104,7 @@
 
 请看这张系统设计图——图2！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhDv9JL4KfaoAScfUOdTBWpiaDShghgH81n3yoz5mNX7VgpEcSNNEHYich1F2ua736QacIoxmrCeHQ/640?from=appmsg)
+![](PMSM_我发起疯来_连自己发的电都烧___自损八百_伤敌一千的刹车制动神功_images/img_005_1a4d7acc35d4.png)
 
 他增加了一个PI调节器，这个调节器就像一个兢兢业业的“监工”。
 
@@ -130,11 +130,11 @@ isq不那么负了，意味着什么？意味着发电量Pg立刻就减小了！
 
 看图5中的Vdc电压：在刹车过程中，母线电压确实升高了，但被牢牢地摁住了，离500V的危险线还远着呢！“监工PI”立功了！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhDv9JL4KfaoAScfUOdTBWqVKZv1BMuiamlOC0BlRYQxLXMtnOEbBxkVFlFCGHHKk5nOl97BQSsqw/640?from=appmsg)
+![](PMSM_我发起疯来_连自己发的电都烧___自损八百_伤敌一千的刹车制动神功_images/img_006_c871cc34e5c3.png)
 
 看图6中的Te转矩：你们看那根转矩线，从正2Nm的驱动力，瞬间干到了将近\-4Nm的制动力！这刹车效果，杠杠的！比很多带制动电阻的方案还要猛！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFhDv9JL4KfaoAScfUOdTBWf6KZeWPOExXTjG4IWNGntmFCia6iazypHWibbxf6zj7BXiaWLxjrhfRovw/640?from=appmsg)
+![](PMSM_我发起疯来_连自己发的电都烧___自损八百_伤敌一千的刹车制动神功_images/img_007_8e2df1b0a3d8.png)
 
 总结：
 

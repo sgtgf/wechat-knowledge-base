@@ -36,7 +36,7 @@ Q格式也一样。两个Q15的数相加，结果还是Q15。用数学写就是�
 
 还是菜市场。白菜1.20元（120分），你买了2.5斤（相当于250钱，假设我们把斤这个单位折算成钱这个单位，也用定点表示，乘以100）。总价是多少？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQA6WIdDs8QN1UNw5kTgFw6Dl79ib4zXf84icKZM2IKb34BzHkntjfia6mia2qweuV0qjGQerw4ITeUFPPW25fibSaHPrTDgthNmGJQ/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___04讲_你的定点乘法到底算对了没有___揪出那个_跑偏_的小数点__images/img_000_7ca0006f59fa.png)
 
 这个30000，单位是什么？不是"分"，也不是"钱"，而是"分×钱"——一个两层缩放叠加起来的单位。你要把它换回"元"，得除以100×100=10000，得到3.00元。
 
@@ -44,7 +44,7 @@ Q格式也一样。两个Q15的数相加，结果还是Q15。用数学写就是�
 
 Q格式也是这个道理。Q15的缩放因子是215，两个Q15的数相乘：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARAxSeiaOEV69URZcPIic81G5MUV64E9T1k0ao0e5nml8U7EmUp620ARqibMxHuRsTYEsY4QOk3eG85J0sXib81dqgGibqVkhXtp9YY/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___04讲_你的定点乘法到底算对了没有___揪出那个_跑偏_的小数点__images/img_001_3988037763a2.png)
 
 结果的缩放因子变成了230，也就是说结果的格式变成了**Q30**。用规则 **Qm × Qn = Q(m+n)** 来写，就是 Q15 × Q15 = Q30。小数点的位置从第15位跑到了第30位。这就是所谓的"小数点跑偏"。
 
@@ -69,7 +69,7 @@ Q格式也是这个道理。Q15的缩放因子是215，两个Q15的数相乘：
 
 答案很直接：**右移15位。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQh2ZsibewfnLoQP9VBF5gl2vwxdWtuC4jCdE5WlxGOmdrghupsysUiczcItic2pmvMDBy0dIty0TGEQZhaP0bmiagibgqBIjbsReFs/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___04讲_你的定点乘法到底算对了没有___揪出那个_跑偏_的小数点__images/img_002_bc95281bd641.png)
 
 右移15位在数学上就是除以215（也就是32768），正好把多乘的那个缩放因子除掉了。但各位同仁请回头看代码，写的是`>> 12`，右移了12位而不是15位。这意味着结果不是Q15，而是Q18（30-12=18）。
 
@@ -96,7 +96,7 @@ Q格式也是这个道理。Q15的缩放因子是215，两个Q15的数相乘：
 
 把今天的内容画成一张速查表：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQHIwx0VPSafbDia6f7lXRxuT245WcicxibP3JDDvAic8UHBvrKBJ2DA9RWucPianow5B4SkBkn5S8kM6jfAly22a1GsZYWOSOHibVkY/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___04讲_你的定点乘法到底算对了没有___揪出那个_跑偏_的小数点__images/img_003_c355f0717fbc.png)
 
 核心就一条：**加减法格式不变，乘法格式叠加。** 乘完了必须右移，否则后续所有运算的"单位"都是错的。
 
@@ -106,21 +106,21 @@ Q格式也是这个道理。Q15的缩放因子是215，两个Q15的数相乘：
 
 在 Simulink 的画布中搭建一个包含四个对比区域的综合演示看板：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASHAcZ02ZlgYq3BiaibZfgia4Dibm1rYhZnmMXFZHv8lWnbCsQ21TOgsTWozxQGgLnf0lYE8aR6rll4n6f95nyQUHU6zexJI6mP8JQ/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___04讲_你的定点乘法到底算对了没有___揪出那个_跑偏_的小数点__images/img_004_06f43c48dafb.png)
 
 模块一是加法演示区，用来验证 Q15 + Q15 = Q15 ；模块二是乘法“跑偏”揭秘区，直接展示 Q15 × Q15 = Q30；模块三是Clark变换代码“硬核”复现区，直接还原 C 代码 (int16\_T)((21845 \* rtu\_i\_a) >> 12) ；模块四是除法替代区。
 
 我们看下仿真结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATlWSib2MBHTnXt2ibIfWa8Og4FCmWe86J93IEW3BX8trpMl6t6zRYk3W3JtQzicC40yKONX83ibxo54ibr51iamrhmGho1pXGjY0cVE/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___04讲_你的定点乘法到底算对了没有___揪出那个_跑偏_的小数点__images/img_005_76d5d4d198c2.png)
 
 输入 0.3 和 0.5 转为 sfix16\_En15，经过加法后输出依然是 sfix16\_En15。显示结果是精确的 0.8。完美验证了 Q15 + Q15 = Q15 的理论，“单位没变”，底层分别用整数 9830 和 16384 相加等于 26214 。26214/32768 = 0.8。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASL56ZQbLYoibE67QOjCfm97O1ouVR13LPBGOoaJz73UWuJx3dGrcc5CPibxTPQyYp1cwkMLBWFEQmrELziaRicyPZFOFvWibnbqq3s/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___04讲_你的定点乘法到底算对了没有___揪出那个_跑偏_的小数点__images/img_006_fa85d49f1255.png)
 
 fix16\_En15 相乘后，出来的信号线自动标上了 sfix32\_En30！这直接给本文的核心撑腰了！它直观地证明了 Q15×Q15 会促使缩放因子叠加，小数点真的跑偏到了第 30 位。且它必须用 32 位容器来装，否则就会装不下。显示器最终显示的 0.15 与浮点数一致。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAR80HLObrNORURKWemojNRbYAIBuKPewSt1ZXby1RMkZxPDrFBGpXsS2lmibBnSuiao74y52PMJWb2tIAheOFdTaBEnFQJ9sQYAw/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___04讲_你的定点乘法到底算对了没有___揪出那个_跑偏_的小数点__images/img_007_e149dbc65069.png)
 
 这个框图中的两个显示器的结果，完美展示了定点的右移 12 位（通过 sfix32\_En30 → sfix16\_En18 实现）等效于乘法运算而且结果一致（都是 0.1左右）：
 
@@ -131,7 +131,7 @@ fix16\_En15 相乘后，出来的信号线自动标上了 sfix32\_En30！这�
 
 同时下路那微小的偏差（0.09999 vs 0.1），直观地展示了定点运算中无可避免的**“量化误差（Quantization Error）”**。上路的理想浮点算出来是 0.1，下面单片机里的定点运算加上移位后，算出来是 0.09999。不仅大致对上了，证明右移代替除法是可行的，而且这微小的 0.00001 的差别，就是我们在单片机里把小数砍断（\>>12）时丢掉的精度。这就是定点电控工程师们每天在权衡的东西！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAT3u6cUokAOfJyc8gkkmrGlaqNYyYCf53bdroyTTdsicg0so2WC2rHpHGmvAgteRxYiaiaOqk4FGQwDtEicYbVjibumCYibXT7xXAfNs/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___04讲_你的定点乘法到底算对了没有___揪出那个_跑偏_的小数点__images/img_008_8ca77717e3c6.png)
 
 上路纯浮点除法 0.75/3 = 0.25。下路变成了 0.75×0.333 然后经过 Q15->Q30->右移 15位 回到 Q15。结果也是 **0.25**。这完美证明了“乘以倒数再右移”等于“除法”，并且最后这根线上的标签又回到了 sfix16\_En15，证明格式不仅修正回来了，过程也被我们忠实地复现了。
 

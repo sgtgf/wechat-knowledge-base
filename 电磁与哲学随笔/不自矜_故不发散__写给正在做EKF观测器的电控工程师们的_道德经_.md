@@ -32,7 +32,7 @@
 
 今天，咱们就来解剖这桩“自信致死案”。而你会发现，所有的刀口，最后都落向同一个地方——这台观测器，对它自己那份“我到底有多准”的把握。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQjkUyIY4eLdRgawNiasfz12ZFUdicib3uPUGelwHpZUhkG72Mn70fLFdsMOWUpBznJ1GckFFZM0EaZKRrguKib7WGQkNPDUScyX6E/640?wx_fmt=png&from=appmsg)
+![](不自矜_故不发散__写给正在做EKF观测器的电控工程师们的_道德经__images/img_000_702dd5a35250.png)
 
 **一、自信，看着就是本事**
 
@@ -64,7 +64,7 @@ P 一路缩小，还悄悄捎带着另一件事：这台滤波器，越来越不
 
 而那台电机，撞上了。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARdW2hhXJibGgpB7ia7MAkDUP2LScfnWhyu8V68F089cGYIDib1ib406icCnrJAnTnaAjarbJXnKjlgzcRQZzXMv7rJxpalUt9R1y0o/640?wx_fmt=png&from=appmsg)
+![](不自矜_故不发散__写给正在做EKF观测器的电控工程师们的_道德经__images/img_001_156bed705b2b.png)
 
 **二、自信反噬：发散**
 
@@ -116,7 +116,7 @@ Q 一旦给得太小，P 收敛之后，就再没什么能把它重新撑起来�
 
 它是因为，太把自己当回事了。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQOypLOhbWgtYt7qcuhJArMRpy65eic17eJLqGdcuzicexepKgWicwIrfaWWkSgXfpWs0Xl3MpsHZztuyPh60OWgcrqULWJKYFGRI/640?wx_fmt=png&from=appmsg)
+![](不自矜_故不发散__写给正在做EKF观测器的电控工程师们的_道德经__images/img_002_a88037f22736.png)
 
 **三、谦虚不是软弱，是结构**
 
@@ -150,7 +150,7 @@ Q 一旦给得太小，P 收敛之后，就再没什么能把它重新撑起来�
 
 它们全都，是在想方设法，不让滤波器太信自己。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATq5gQ9fITicWHpDGczNk4Ytg8Bry2eVHpdGjZMlJicVhic20T29P3grGkjM7T7fq9LuYPDnOlRZY8ZjIAzjyfUvYJZ4QNaCbAd6w/640?wx_fmt=png&from=appmsg)
+![](不自矜_故不发散__写给正在做EKF观测器的电控工程师们的_道德经__images/img_003_11ae39ec0628.png)
 
 这就绕回了老子。第二十四章那句“自矜者不长”，是给前面那场死亡定的罪；而第二十二章，给出的正是这一服药——
 
@@ -182,4 +182,4 @@ Q 不只是一个“噪声参数”。你给它的每一个值，都是在替这
 
 **不自矜，故不发散。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASic8wmwb1cwFJDREq1Ety34iaGYOjJJEz2wLno8DtA8CAlAgcjVfibVCaSlk2z2qsOXjKwZib0KOPwbLmH3PGPKO2fxdiaTWbTcGWI/640?wx_fmt=png&from=appmsg)
+![](不自矜_故不发散__写给正在做EKF观测器的电控工程师们的_道德经__images/img_004_abbff26d7cd5.png)

@@ -64,7 +64,7 @@
 -   标准在 **Annex E.4.2.1** 的 **(E.23)式** 中给出了一个直接的计算公式：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHtQc45gCXmpGDmgNibGicnLfdY8zdAGTDGOrbXwUDhzoEHgCkc9A05bdxiaVMU3dXRGAhCbS5omSSUA/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___15讲_磁链与惯量_看不见的旋律___与J的故事_images/img_000_bb44dab8b17b.png)
 
 -   **重要提醒**:
     
@@ -198,13 +198,13 @@ void SynTuneBemf()
 
 已知反电动势公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHtQc45gCXmpGDmgNibGicnLfcm30xleibe8FZSKic3ictVaZYe0jOxtCk5icOfTXbzibs7Aiap8yiar06RaaA/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___15讲_磁链与惯量_看不见的旋律___与J的故事_images/img_001_bc1bae2e2c67.png)
 
 （假设 Iq ≈ 0，且忽略定子电阻压降，因为在高转速下 _E_ 很大，_I·R_ 占比很小）。
 
 如果我们控制电机空载运行，可以假设 Iq ≈ 0，如果我们再注入两个不同的 Id（比如 Id1 和 Id2），就能列出两个方程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHtQc45gCXmpGDmgNibGicnLfMbLAR3zibSgNA1zdltxHVLd2qibBByT9UIGjl4jyoHmWia2vicvHspsAjw/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___15讲_磁链与惯量_看不见的旋律___与J的故事_images/img_002_5835e18a2030.png)
 
 把两个方程一减，就能消掉 φf，算出 Ld（虽然这个函数没算），或者利用这两个方程，通过加权平均或者直接计算，求出φf。
 
@@ -401,7 +401,7 @@ static void
 
 传统的牛顿第二定律是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHtQc45gCXmpGDmgNibGicnLf7zvnB7sgVNicYaodbNrqtlNHNwFPTYANez7InsgofRdmH3GDcQKk2QA/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___15讲_磁链与惯量_看不见的旋律___与J的故事_images/img_003_726baf151184.png)
 
 其中 _Te_ 是电磁转矩，_J_ 是转动惯量，_ω_ 是角速度。
 
@@ -409,11 +409,11 @@ static void
 
 代码A的作者逆其道而行之，采用了**积分大法，**把牛顿定律两边同时**积分**：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHtQc45gCXmpGDmgNibGicnLfxKSu1VuaObt6WicvHkNPFtW0BoS49bLCia1VpqObvd9gem8ibfWt6NvGw/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___15讲_磁链与惯量_看不见的旋律___与J的故事_images/img_004_a96edf812293.png)
 
 如果不考虑摩擦和负载（或者假设它们是常数/线性的），我们可以构建一个线性模型：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHtQc45gCXmpGDmgNibGicnLfP54lDrBUDugz2TpYOpia91clMVblDkMPL5lQ5nvjXFmABJB3RBASiaIQ/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___15讲_磁链与惯量_看不见的旋律___与J的故事_images/img_005_1eb331985617.png)
 
 即：**冲量 = 动量变化量**
 
@@ -437,7 +437,7 @@ static void
 
 代码作者构建的方程实际上是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHtQc45gCXmpGDmgNibGicnLflX5OYXz6JpQtAwl8pp16AfdUwZ4EsItld4IBibvyn8p9q9IrSrUUGng/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___15讲_磁链与惯量_看不见的旋律___与J的故事_images/img_006_4372a78a5894.png)
 
 -   _k_1：对应 1/_J_**（惯量的倒数）。**
     

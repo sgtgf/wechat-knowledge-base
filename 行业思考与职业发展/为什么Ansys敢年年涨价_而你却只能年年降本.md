@@ -20,7 +20,7 @@
 
 同一家公司，同一天，同一支笔。一张纸只会往下走，另一张纸年年往上走。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASoSXBR5UxdibgUaff0148UDaDgfevHjO7RWg2UiavDiaDp4z4ef93cpvlgpz3XUDGqN3fzkgoJgaAyzicYDeDnHIIVeHavicgKaFy8/640?wx_fmt=png&from=appmsg)
+![](为什么Ansys敢年年涨价_而你却只能年年降本_images/img_000_ad77964080a1.png)
 
 为什么？
 
@@ -54,7 +54,7 @@
 
 合同。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARK2hFMNxNg2dzAQyycsR2k0caKO8uYKkHiaoWfeYyQaLib4rCRqYQbw7l0CUoicHEGSnsxrWaSCf02lTqrczFMCUwSFXrE0f3fgY/640?wx_fmt=png&from=appmsg)
+![](为什么Ansys敢年年涨价_而你却只能年年降本_images/img_001_e07f1b1ab569.png)
 
 第一份，你们公司跟客户签的供货协议。里面写着什么？质保二十四个月起步，PPM指标，8D报告时限，批量事故处理条款，违约金比例。每一块烧掉的板子都有序列号，能追溯到产线、班次、来料批号。一句话：失败可归因，责任可追偿。
 
@@ -82,7 +82,7 @@ Ansys就是工程界的季布。你买的从来不是它的求解器比别人快
 
 **有责者贱，无责者贵。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAT14icNflMErETZAIym7SEw1RkwUxJFnFTAvgLvyQWnSrkpBJj5jacJVhiaZOV0F8OlRWMhUUkuoibLqgoyjOEvgVdsjJmUbKZY3E/640?wx_fmt=png&from=appmsg)
+![](为什么Ansys敢年年涨价_而你却只能年年降本_images/img_002_1b9be7fca66c.png)
 
 这条规律顺手还能解开一桩老疑案：为什么航空器件、植入级医疗器械能卖出溢价？不是因为它们"勇于承担责任"——恰恰是因为它们一旦失败，机毁人亡、医疗事故、整个项目推倒重来，后果大到超出任何供应商的赔付能力。在天文数字面前，合同追偿失效了，客户只好退回到事前买信任：适航认证，FDA审批，几十年的可靠性记录。溢价，出现在追责够不着的地方。而老周所在的车规这一行，恰恰是个尴尬的中间地带——功能安全要求一年比一年严，可一旦真出了批量问题，召回、索赔、断供条款一样不少，归因清楚，追偿顺畅，于是该担的责一分跑不掉，该给的溢价一分见不着。
 
@@ -100,7 +100,7 @@ Ansys就是工程界的季布。你买的从来不是它的求解器比别人快
 
 **上单，即上秤。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAT6GZF3Ma7pCZgxMj74E41XDTGueUPlFhTwRQVFHbbsoVdcWXe3uKqMAphvBnSGeVnic81OohPtH8ShkKVYrjFtXuklIGnh84pk/640?wx_fmt=png&from=appmsg)
+![](为什么Ansys敢年年涨价_而你却只能年年降本_images/img_003_793b760bd574.png)
 
 那CAE软件的license凭什么不遭此待遇？因为它压根不走这张纸。它的发票，开给研发预算，不开给BOM。
 
@@ -128,7 +128,7 @@ Ansys就是工程界的季布。你买的从来不是它的求解器比别人快
 
 人质的共性只有一条：**在采购的比价表之外，再造一个客户绕不开的支点。**让客户的客户认你，或者让标准认你，或者让法规认你。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATCeK1uSmia89XwuJznkr819TFYFjuaKBHU4SMKEpZViclWq77YOvZ15QhK0HuZHH41mVibzmeWXU09yic9xfmnaf8WjYr6LAPbvDc/640?wx_fmt=png&from=appmsg)
+![](为什么Ansys敢年年涨价_而你却只能年年降本_images/img_004_ba773c98f77d.png)
 
 没有人质的升维宣言，采购听到的版本是：
 
@@ -140,7 +140,7 @@ cost down 和 cost up，根本不是两个现象，它们是同一架跷跷板�
 
 **物理的东西注定通缩，社会学的东西注定通胀。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAS3Wf0BBBKicGlKyrXMI2KaGsN35l0884v3ldGt0vcwOiaUwicxia5rbO6ahjSVI8phKCiblJkRWibudxmyfW3mW1qUoLRQqIKrwXARU/640?wx_fmt=png&from=appmsg)
+![](为什么Ansys敢年年涨价_而你却只能年年降本_images/img_005_f3fb1378a4e2.png)
 
 Ansys解的是麦克斯韦方程组，看上去是物理；可它计价的根据，是"这份报告评审会认"——这是社会学。它坐在跷跷板上涨的那一端。你交付的是实打实的功率与扭矩，纯粹的物理，于是你坐在通缩的那一端。
 
@@ -154,7 +154,7 @@ Ansys解的是麦克斯韦方程组，看上去是物理；可它计价的根据
 
 体制之内，能做的是三件事。其一，去积累τ长的资产：现场失效数据库、与实测对标过的模型库、自动化测试基础设施——这些东西，挖一个人挖不走，抄一份图纸抄不来。其二，把交付物里"失败无法清晰归因于你"的那部分剥出来，单独计费：标定工具、参数辨识服务、仿真模型。剥出来不是因为客户更珍视它们，是因为它们能逃出质保—追责那套计价体制，到声誉的市场里去领自己的价。其三，想清楚自己的人质是什么。一时想不清楚，就先别急着喊升维。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATPhVoqUX2dIEngwVpyyaYUpwrLf1pVTs9NJITuz3JkBiaAFYSpk3IYt1TPDJlGhfxrTLpTjlOTK70cYPY2DdjrfY5j8laVibrNY/640?wx_fmt=png&from=appmsg)
+![](为什么Ansys敢年年涨价_而你却只能年年降本_images/img_006_c9539b93f9d7.png)
 
 至于靠割肉撑年降，这笔账，《养生主》里庖丁早就算过了：良庖岁更刀，割也；族庖月更刀，折也。刀越割越钝，是两千多年前就写好的结局。
 

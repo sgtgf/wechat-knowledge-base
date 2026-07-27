@@ -11,14 +11,14 @@
 优点：在线计算量极低、实现简单。它以“空间换时间”，将预先算好的最优值存入表格。运行时MCU仅需快速查表和线性插值，因此可以使用低成本MCU，极大降低了硬件开销和开发门槛，且运行稳定。  
 缺点：精度受限、适应性差。插值会带来误差，控制并非严格最优。更重要的是，固化的表格无法响应电机参数的实际变化，导致控制偏离最优状态。此外，高精度表格会占用大量存储空间（Flash）。
 
-![图1](https://mmbiz.qpic.cn/mmbiz_jpg/Z8Iha3NiaCRHZgxRUhqtVIibjWTXibVMDJMxvp5a1yPnibndYGicHlI9hwZiasoFWiciczwDR5ONRia3LJB5ialwpVuldfzw/0?wx_fmt=jpeg&from=appmsg)
+![图1](MTPA在嵌入式系统中两种实现方式的优缺点_images/img_000_1940944d7aae.jpg)
 
 图1
 
-![图2](https://mmbiz.qpic.cn/mmbiz_jpg/Z8Iha3NiaCRHZgxRUhqtVIibjWTXibVMDJM6qTunm25EROTBPqccnrjKhiaXich8XnQnX9hGV425ibp2LDDIhG3bXylg/0?wx_fmt=jpeg&from=appmsg)
+![图2](MTPA在嵌入式系统中两种实现方式的优缺点_images/img_001_6d12bed5f565.jpg)
 
 图2
 
-![图3](https://mmbiz.qpic.cn/mmbiz_jpg/Z8Iha3NiaCRHZgxRUhqtVIibjWTXibVMDJMzCcfMewkicqQfuucf0ALomeiaQUrXNWxgvU2yK8Gry9BTs4B8GHia1EaA/0?wx_fmt=jpeg&from=appmsg)
+![图3](MTPA在嵌入式系统中两种实现方式的优缺点_images/img_002_2609765373b5.jpg)
 
 图3

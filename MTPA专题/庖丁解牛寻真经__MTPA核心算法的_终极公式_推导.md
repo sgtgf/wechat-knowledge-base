@@ -16,7 +16,7 @@
 
 我们再来拜会一下老朋友——转矩公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe2tweBIhou0rtkjicBGmvkqjAib8mvSCrgjcTU6NKClUV080OdB2Xbqt8A/640?from=appmsg)
+![](庖丁解牛寻真经__MTPA核心算法的_终极公式_推导_images/img_000_2b43497989fc.png)
 
 这个公式里，有两个变量id和iq，不好处理。我们能不能把它变成只有一个变量呢？
 
@@ -39,7 +39,7 @@ Te = 3/2\*Pn\* (Ψm\*(Im\*sin(β))+(Ld - Lq)\*(Im\*cos(β))\*(Im\*sin(β)))
 
 整理一下，提出公共项Im：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe2qetfRwHNWCLT1tsCjicQVdicopialu2uhWEfbhDoNGeuOwbIL2FAUGlbg/640?from=appmsg)
+![](庖丁解牛寻真经__MTPA核心算法的_终极公式_推导_images/img_001_0af67565bcea.png)
 
 大家看这个新公式！现在，如果我们固定总电流Im不变（比如，我只舍得花5A的“体力”），那么转矩Te是不是就只剩下唯一的变量——角度β的函数了？
 
@@ -61,7 +61,7 @@ sin(2β) = 2sin(β)cos(β)。
 
 把它代入上面的公式，得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe2Xic5mqvsNcPreks7X8mRd38WduQWcgTKQBWG85tqiayJicV6RXh5GxDlg/640?from=appmsg)
+![](庖丁解牛寻真经__MTPA核心算法的_终极公式_推导_images/img_002_22a334f74f6a.png)
 
 现在，我们对这个公式求导，dTe/dβ。常数项3/2\*Pn我们先不管它。
 
@@ -71,17 +71,17 @@ sin(2β) = 2sin(β)cos(β)。
 
 所以，导数就是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe2e5YY5iasQCiamNib85p3iakM4EVEcJibn3vkGFQs311B8WtZSHeVoEmiafCg/640?from=appmsg)
+![](庖丁解牛寻真经__MTPA核心算法的_终极公式_推导_images/img_003_c38c38b9610f.png)
 
 要让Te最大，我们就需要让Te' = 0 ！
 
 所以，括号里的那部分等于0：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe2LW4kDm3Lib9CwotFNqB96rq0SqichAku3ibsqt05Z70P9LAGZoEXh0nLw/640?from=appmsg)
+![](庖丁解牛寻真经__MTPA核心算法的_终极公式_推导_images/img_004_afa901bc6077.png)
 
 两边同时除以Im，得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe2dnib2Im1MiajxpBJkicRQwQlqY8ApbFLX0vudakmF8ukaiasoauy4gbKTg/640?from=appmsg)
+![](庖丁解牛寻真经__MTPA核心算法的_终极公式_推导_images/img_005_52359253562a.png)
 
 关键一步！我们又遇到了β和2β，还是不好解。再用一次二倍角公式！这次用cos(2β) = 2\*cos²(β) - 1。
 
@@ -112,7 +112,7 @@ cos(β) = (-Ψm±√(Ψm² + 8(Ld\-Lq)²Im²)) / (4(Ld\-Lq)Im)
 
 因为角度β在物理上有意义的解是唯一的，我们取“+”号（舍去负根）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe223VWhS2LibGNs34d7CQIfpjWhl2FiczQibhk6GHph6A8GoXVPqvMI1xZA/640?from=appmsg)
+![](庖丁解牛寻真经__MTPA核心算法的_终极公式_推导_images/img_006_ed6a578f1a14.png)
 
 同仁们！看到这个公式，是不是热血沸腾！我们已经成功解出了在给定总电流Im下，那个能让转矩最大的最佳角度cos(β)！
 
@@ -124,7 +124,7 @@ cos(β) = (-Ψm±√(Ψm² + 8(Ld\-Lq)²Im²)) / (4(Ld\-Lq)Im)
 
 把上面那个巨大的cos(β)表达式，两边同时乘以Im！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe22lYVTPFqGfxqCavOze3lr9285sic0hffe8h236soH6790z9Ma0wOWfA/640?from=appmsg)
+![](庖丁解牛寻真经__MTPA核心算法的_终极公式_推导_images/img_007_dc2db2ef008a.png)
 
 这个公式好是好，但它表达的是id = f(Im)，也就是id和总电流的关系。在实际FOC控制中，我们通常是先给定iq（因为iq主要负责转矩），然后再去配一个id。
 
@@ -132,7 +132,7 @@ cos(β) = (-Ψm±√(Ψm² + 8(Ld\-Lq)²Im²)) / (4(Ld\-Lq)Im)
 
 我们知道Im² = id² + iq²。把这个关系代入到上面的推导过程中，经过一番更加复杂的化简（这里我们就不展开了，Cypress的工程师们已经帮我们算对啦！），最终，我们可以得到一个极其优美、极其有用的公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe23XPT93CEQiaVKD4oLJVy7tyla0q1TpYelAJfeju0f1VibrB5E2nY1YSA/640?from=appmsg)
+![](庖丁解牛寻真经__MTPA核心算法的_终极公式_推导_images/img_008_f37391bca12e.png)
 
 掌声响起来！
 
@@ -144,7 +144,7 @@ cos(β) = (-Ψm±√(Ψm² + 8(Ld\-Lq)²Im²)) / (4(Ld\-Lq)Im)
 
 请看图！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe2iaTUUMAe9T5RtRGN6mRBNiacpsiaNXhVqao6nibx6ohib0vtylkP4lKjmQA/640?from=appmsg)
+![](庖丁解牛寻真经__MTPA核心算法的_终极公式_推导_images/img_009_520b17375b60.png)
 
 这张图，就是上面那个公式的“函数图像”！横坐标是iq的大小（文档里用了1, 3, 5...39的序号来代表不同的iq），纵坐标就是算出来的idref。你看，它是一条平滑的曲线。随着iq（负载）的增大，为了保持效率最高，我们需要注入一个越来越大的负向id！
 

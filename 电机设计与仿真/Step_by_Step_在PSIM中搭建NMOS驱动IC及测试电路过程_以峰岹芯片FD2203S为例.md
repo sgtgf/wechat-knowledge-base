@@ -8,111 +8,111 @@
 
 按照如下过程逐步操作，我们一起重新构建FD2203S这颗国产NMOS驱动芯片及其外围测试电路（芯片的datasheet可在官网下载到），并尝试通过更改外围测试电路的器件或控制参数，观察自举电容电压泵升的暂态过程及其影响因素。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nILKSmRcL95AKwXxB3JKE06sNcH5kgAhVaIxuyRwRnr1JNhOtfkNhsQ/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_000_edf828b1bf89.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nU3Ex0UlToKFBF9yAQiaeGkt2AueGoq5ZicZkyibHzFlibt2Lt4tcPWNibYA/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_001_0890bb5617f1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nm5WjmbPAPE1Hrft2icuicn7ratibSkmeeicak7Kxe6n1a3tKMtz5qfXqdg/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_002_7d6bfcb9be96.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nxuZywZtdJzw2Q9UCO5dH36HPF1ojyVh4h2wXpSrSCYuSicicic91QMicug/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_003_37d75f7bd118.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nzra1chZ737vFqXUNxpia005NoRKerRgPvtuPbe2EnGuvYXYQuoLMTeg/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_004_2df29aaaa037.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nH6cpZWATNW8ian8WB620ia3OHbjVHHDG6WBqDzH9obFNnSM58ks8qFeg/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_005_9bdb838b5977.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nNPTBUTlymnpBSdMBfYycqIh06f5yqC0icDyBzl23CrMMbEB5vZLQ1jQ/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_006_0586dfc453b5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nOibN3SB1micCF5ERv2wOU8rwq7Z471fN8Oic9vAyfQjAtylKLXORFYbkw/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_007_fe2abf3470a5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nNG9UjGLckNcIBqj9AgibbcIrpzH2iaRCdaZPOYCyhycp9vBLsNDibaRLw/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_008_e96e8a2ff281.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nydibLK5zqRNkb5HGVByDlMqbIn3hek8NaVXZnIHm04wylchsRXTdXTQ/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_009_68d25d3fe53f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nDhMstfoNufh57ibUhkG9n9TSXosa2NpjvJKribibJyLaQvZnHAVQLp79g/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_010_050af6605d02.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nt9yU1yYpEBibqLOMgCv2lg0g5e7htOKSGcFiclF5eAcSCQ5Ud6AQOxGw/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_011_99a1fdb4cee4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7niaVJPjRTRGk7ygKpAgauVWW2LOLiaBxem2OdPA8Q5AOJKYmNWSRR0PqA/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_012_c3e665d143c5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7n8u9rMYRJshPO3svXv9LaNjcz4Ua1OYXzxicNibG3I2skicAwnymQHaHGw/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_013_421fad0f7911.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nicHcBsQNSXiaxibFpuQIuvAAI4ozjCtdxhofhK3nMjO9qsL2L5oVIv9gw/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_014_ffbbb04c2926.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7n0YxJsWZo1daicAHTPiald7bpiak8DDZIreLknJicCRp3zlaZaKoLlwlgNg/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_015_35259c69652b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7n3hiaoiamhS0HdMueJv55ZoxVPDGYtHic8JicCHqN0mycbjakttPOV3cticQ/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_016_ebaef770e099.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7ns2b2ic4iaMMRBRO4bBHWCKFOia2L6ZIco3jmwibdicHPGUFkvF360icx0bBw/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_017_0d7244dccb87.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nDJoGrVrL4UbaHHyQCHic4hmDqqTebNo3x35Gbn4yfnNlxHp1xIh4QDw/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_018_17e7870294ed.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7n9MHCN4RlCVJtibiabJgdazNCaP9JWSSHkBQ86Q91XUmC2kQFwtypvf0Q/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_019_b32179b35a61.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nfR8Sa8PoGSz9h7lQpF9iafl0dIIs2bvibHYo68LyCs4v7Z8qt7GrQFgQ/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_020_aa5069dc6da3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nvICNpliapCLbMJDcVpeaiccjUyk7K9kv4h6KZwE2GnVS8KfVeQrRXHVA/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_021_e350793c9f3b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nU1JicTF8e4icLaLW1vr3K2wGmicHyqKqliblnn8BqDTEjXxap4wFvXUtKA/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_022_d4193dfdd4bc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7n1AThB0UDYd7z7lv9vs167a24ukINpQKiaN3t62nT8icqMEMbOJKtod4w/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_023_dbb15747d666.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nQkmUJAzfbO26Zr4TSe0qBdOKyHB5hNYD8QW1UdESsVsDgTGLHuOrZQ/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_024_643214df24ae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nlRyQ0n94FibK5LqNianKvrNL35VJIqIIlF7iaUJd5S514LcfaVunkKCvg/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_025_3ad4117c6aba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nPtKPKaayeR5RXpp0icrDOFFEjMhf1zmibWZC1XguBs5EPZicicPlynt4Lw/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_026_fcf00cbe4f83.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nAej4mAr2GcFXIDYkw8d9Qut3cZn2vRWaaqIbVC4WW0CMz3auPWeCng/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_027_9b0739927fff.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nVp0AKCeiaR0qzic5gTEc74jfut4srSMCTEAjRuggqJFmy7BC1k5VTiaBw/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_028_cb988299dedf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nprGNJgLlQCMjkyMpDBUfZ02TkH7wEQQHUEcZ1Q64F6aXnksTOvIWwQ/640?wx_fmt=png&from=appmsg)
-
-  
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nxK9dCw5tTvAnVgksyt6RtrKEF5gNVU2IMfPpAibE031hKuqrTafo6Mw/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7n8uagk6REZM2dqMDQEVHvWMf3yVYvVNNSotsIYZ32CYkNq8ER5jswjA/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7n6CeAhRk1gv0moYWicsIIoCCcDfuZv6Hhvee9GtLic3FlmRY484VOFw2A/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nLAEeTOrbaxrK9ibufasia9vm9K8PfYuic1remu5htriaic6y1mx4eCLNvFg/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7neHrcZe5BP2vMTBFoyJTEgibcuD9HCaCc3S6Wblr8X1OtD6IAhFeZ6NA/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7n9sUb9eicREq61VKV7OUiamnjkJNezUv8ibq0xSugKBXqaHnXjHt3SUAmg/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nrKMWv7mLq1ayibIWqH9TaiaHmlBBZ9XMdhQWytUthCpCJVjXPz27DZuw/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nnqgXzAjkiaibwvmEaT2R98dLrr0ibIibme7kmicRNzY86pu70iay4rOyjcwQ/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nvcx8iaTEZRRZ4ZeaaZmvhkPo3vOnsPOFZBLDQRoibKoEldiamQlJictkjw/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7npMRDVbbYibTyicIJxhib7sXggeZmlqsiaCK4GgvnfrhbnMO5XuXM9Wp8Lw/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nb0adZPZDc3PxszJnvoiaS3fc8NzOJoaHcjgzHsNadRVos45BicVgxyrQ/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nlwpFGmVEbU40HJXZcTzVYkPMy5MmmwXcVIwylibcKFWpnSVAcVVcCXw/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nFNMMaXMPbSP6h65RIlsgdIKfwiaE1qvuwClj6wlIgzHswbcF34iaZ0kA/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nm6fOdu0x14YmOjOM8dfr1e1o6F1RFrJdgjicwzRqdn4dIuw7TzGXIPQ/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7ncyrqciam7a8kZWUtIJKcPVBSwlcDyqbAbLbd1tib5iaeREKdhRsPCNLIQ/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7niceJnloXYNQM4rK9g3rEq4gujDQYqEWhOUQzVjichkq9LlUh4IxAvp0A/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7nTsv3RKJY3G0icfM6Vd0kvm2y16ibQD7IjTreGXZ5nvBk6WWibkJaEfHwA/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7ngmHQZvoy8PNicLibW1FvVIjEEJF3nK6a9daydZH0m4XmLk5hw9PwKCvw/640?wx_fmt=png&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7n2vBUvwIPM3urGiaX6qhCRwz8ujGoQibHIRevKEhwGLyhxw8hKjCt6ibWw/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_029_ac85baf461c1.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7ngXxM6uKW7IrhzkEguAslzqYuo886YCgzEVpvfDfTMGRuK6Cic7iajNxw/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_030_4235a0a912ac.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGmjBKGLg83UpicBEyWBam7ngJ0xACyek6D9VDpZxhLu9dQ8cRAkCiaX5REQPvibw5FdBhrPzdz7HROg/640?wx_fmt=png&from=appmsg)
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_031_e360b0ba53d9.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_032_260ada150887.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_033_db6dbd839059.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_034_d4bd7a23724a.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_035_a78095308e8a.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_036_5652bdd0ca54.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_037_9d3f18760375.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_038_06c6b761f9eb.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_039_6e49506ebaea.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_040_83fd5484cc8f.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_041_63214f70d2cc.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_042_1909f8e26e80.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_043_8381139b3d18.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_044_4b6f2c517ae1.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_045_25dea1354c54.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_046_3b5298d9f2cb.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_047_a5a776c0e6ef.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_048_1328ccccf0af.png)
+
+  
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_049_ecf432578dba.png)
+
+![](Step_by_Step_在PSIM中搭建NMOS驱动IC及测试电路过程_以峰岹芯片FD2203S为例_images/img_050_9fd7f4bacc2f.png)
 
   
 

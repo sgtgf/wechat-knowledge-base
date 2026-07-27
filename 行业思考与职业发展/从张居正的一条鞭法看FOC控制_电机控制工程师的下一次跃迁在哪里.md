@@ -46,7 +46,7 @@ FOC从头到尾，没有在Maxwell方程里添过一个新的项。它做的事�
 
 FOC改写的不是物理定律，而是被控对象的表达方式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASuHP0yEoNd6e3FDe4pDgqY8DxjPNibA6WcjFZUZ5leAM92fhJmqlzXJiab0b07Vm9Iwyn9kw9JCjV1vn9oV7wviaicaOZHPF36le8/640?wx_fmt=png&from=appmsg)
+![](从张居正的一条鞭法看FOC控制_电机控制工程师的下一次跃迁在哪里_images/img_000_0473f9453195.png)
 
 那天听导师讲"变量重构"这个概念的时候，我脑子里突然咯噔了一下。
 
@@ -80,13 +80,13 @@ FOC改写的不是物理定律，而是被控对象的表达方式。
 
 放在一张表里看就更清楚了：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARXCxyRtro1FxquVfJLhlPhrqD5qLbrERg2AakmzXlibLrticM1kWnCxu5WlLEHVEOewxrUT6qhLMZEBwxJnZ0ibMmTQF5RWAdgYI/640?wx_fmt=png&from=appmsg)
+![](从张居正的一条鞭法看FOC控制_电机控制工程师的下一次跃迁在哪里_images/img_001_60f62bf64ab8.png)
 
 两件事的深层逻辑是一样的：**一个复杂系统要被高效控制，前提是先被重新表达成可观测、可计算、可执行、可反馈的变量系统。**
 
 一条鞭法是大明财政的"变量重构"，FOC是交流电机的"变量重构"。它们都不是革命，但都极大提升了系统的"可治理性"。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQibk0o2jsvorw87O9p0B7HCkPeyevpKbmLIFzt5nAKPUyiclqBs2kPWJiaiau4W3hBRknD1ibTC3fg0gJkE0IJnllMQtx1LccRLLa0/640?wx_fmt=png&from=appmsg)
+![](从张居正的一条鞭法看FOC控制_电机控制工程师的下一次跃迁在哪里_images/img_002_17898dd734bf.png)
 
 和导师聊完之后，我以为这个话题可以结束了。但自己夜来又想了好几天，发现还少了一根支柱。
 
@@ -130,7 +130,7 @@ FOC从论文走到量产，不只是因为控制理论成熟了，也不只是�
 
 变量没法被测量，就没法被治理。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARh7I3Bh8mXLy1b6TQDkPTibqndUrgAEeiaE5WEziahaaVnd5hMkIQjQeoPfuaic6OWSqR70vc34NWl42qNI29fs97tclvib6GJSzEk/640?wx_fmt=png&from=appmsg)
+![](从张居正的一条鞭法看FOC控制_电机控制工程师的下一次跃迁在哪里_images/img_003_d0acf8996093.png)
 
 讲张居正的时候，有一个人绕不开——王安石。
 
@@ -160,4 +160,4 @@ FOC从论文走到量产，不只是因为控制理论成熟了，也不只是�
 
 毕竟，**下一条"鞭"，要等下一次"丈"。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASRuAwuIU7jicUjaKiaa0Lia7zCyCxdpErFTOV14ictb1ZZTSm71XfOThWorheDswZdEHCa8IaHa1ZffXSkEicEkH9lzOvnicDcdmX7I/640?wx_fmt=png&from=appmsg)
+![](从张居正的一条鞭法看FOC控制_电机控制工程师的下一次跃迁在哪里_images/img_004_d5c2b6cf070d.png)

@@ -48,7 +48,7 @@
 2.  **身法受外部影响极大\[2\]**: 它的“出手速度”(`ton`, `toff`)，受到硬件工程师设计的驱动电路（特别是驱动电阻`Rg`）的直接影响。一个不好的驱动设计，等于给了这个“刺客”更长的作案时间。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRF2uGYkvsYBMyOxQawu9NhEGiapWjJyKs3cJNg63frd8Pq4AZkctDlUMEfMqMACibVnic0iaRCcofAkiag/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRF2uGYkvsYBMyOxQawu9NhEFqJdzQOw34C8HWQe98oa2Iu0nt9RhXcVQwXVoSX9FaTP0Q8g9XTCdg/640?wx_fmt=png&from=appmsg)
+![](MOSFET发热元凶大揭秘_导通_开关与看不见的_第三者__images/img_000_7819637cb211.png)![](MOSFET发热元凶大揭秘_导通_开关与看不见的_第三者__images/img_001_d24a10e66b6d.png)
 
 **小结:** 这位“快手刺客”的罪行非常狡猾，专挑**高频率**场合下手，它的“武功”高低，和我们的硬件设计息息相关。
 
@@ -67,7 +67,7 @@ Bingo！原来在每个作案周期之间，都有一段极其短暂的**“死�
 2.  **第二宗罪：阴险的“背后捅刀”——反向恢复！** 这才是它最阴险、最“第三者”的行径！当它的“值班时间”（死区时间）结束，对面桥臂的MOSFET要开通时，它本应立刻“下班”（关断）。但它不会！它会“耍流氓”，在短时间内形成一个**反向的恢复电流Irr\[1\]**。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRF2uGYkvsYBMyOxQawu9NhELPDj98x9SOcicdORz5fg9WYygic0MPtMaTUciaYJk0GkIiaDDU0EqYo54w/640?wx_fmt=png&from=appmsg)
+![](MOSFET发热元凶大揭秘_导通_开关与看不见的_第三者__images/img_002_eba50058eecc.png)
 
 这个Irr像一个**叛徒**，它会直接叠加到对面MOSFET的开通电流上！这就导致：
 

@@ -10,7 +10,7 @@
 
 **线索呈现：** 同仁们请看Table 2，上面白纸黑字写着：`ID = 107A`，`PTOT = 136W`。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRG9kslWK47nlaYH6ibaiav4zKhNmQvliaz1ibuwxf78dzOzfnkKAjC0NEEia9ComNapedQnd2o11zALL2w/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷02_嫌疑人的供词____从Datasheet的字里行间寻找线索_images/img_000_5725a0e0f235.png)
 
 **提问环节：** “这个数据看起来很强啊！既然它能承受107A，为什么我们在96A时还会担心它的安危？”
 
@@ -20,7 +20,7 @@
 
 **线索呈现：** Table 3提供了两个关键的热阻值信息：`Rthj-case = 1.1 °C/W` 和 `Rthj-pcb = 31.3 °C/W`。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRG9kslWK47nlaYH6ibaiav4zKFdDtaicMlEBFezxJRIOhq8Lymoyod0LxjK9TdCJeK2hicROxGUib9ZicQg/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷02_嫌疑人的供词____从Datasheet的字里行间寻找线索_images/img_001_8c8d5846b643.png)
 
 **常规解读：** 从字面上看，一个是结到壳的热阻，一个是结到PCB的热阻。
 
@@ -35,7 +35,7 @@
 
 **线索呈现：** Figure 3，这张复杂的曲线图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRG9kslWK47nlaYH6ibaiav4zKmic3lwiaBPBPoYN29prNh11POtVd0SAcvkGzsPAISNG3ibj3Vk7ibG06qg/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷02_嫌疑人的供词____从Datasheet的字里行间寻找线索_images/img_002_6b54bbe00c43.png)
 
 **提问环节**： “这张图看起来像心电图，各种曲线，它到底想告诉我们什么？为什么热阻不是一个固定的值？”
 

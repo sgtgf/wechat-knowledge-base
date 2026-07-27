@@ -21,7 +21,7 @@
 
 我们来看文档里的这张核心电路图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFLoNjAb28PafcgpD0z0H9rdcQoLiaBnNFeBLic8WCzNMjxJGpuDdg3RG7YWQ28Su6WP5zqHqiaXZYhA/640?from=appmsg)
+![](BLDC电机控制电路自举电容电压泵升原因分析及对策_images/img_000_8931d285363b.png)
 
 大家看，那个红色椭圆圈起来的电容，就是我们的小水桶（自举电容）。它的工作流程是这样的：
 
@@ -32,7 +32,7 @@
 
 这个小水桶要多大才合适呢？文档里给出了一个核心计算公式：     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFLoNjAb28PafcgpD0z0H9rE93VmWibAuq9ecl5ACbpJicRicgATvmBI5Vic58q0iaDyYucLqKb4dNI22Q/640?from=appmsg)     
+![](BLDC电机控制电路自举电容电压泵升原因分析及对策_images/img_001_39ca9d894b0d.png)     
 
 这个公式告诉我们：水桶的容积 CBOOT\_CAP，必须大于等于开一次高处水龙头需要的“水量”QGATE，除以我们能容忍的水桶“水位下降”ΔVBOOT\_CAP。
 
@@ -45,7 +45,7 @@
 
 为了更直观，文档还给了我们一张图，就像选水杯一样：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFLoNjAb28PafcgpD0z0H9rMG3lbNf6p7tmNHAsXF0DFCwaJtgicP4JNWME2puCejHV3ic8YAD2ibBPw/640?from=appmsg)
+![](BLDC电机控制电路自举电容电压泵升原因分析及对策_images/img_002_8fcd2aaefaeb.png)
 
 这张图告诉我们，对于一定的“需水量”（横轴QGATE），桶越大（CBOOT\_CAP不同曲线），水位下降（纵轴ΔVBOOT\_CAP）就越小。
 
@@ -91,13 +91,13 @@
 
 文档还提到了一个在“启动时”可能发生的问题，虽然和我们讲的泵升不完全一样，但也是保护高处开关的重要措施。我们可以把它看成是给高处开关加一个“泄压阀”。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFLoNjAb28PafcgpD0z0H9r4wcCm4f8hR4DfGpZxRnQDkvvmEAvt3UrpuR56fJlibIEE7UFLjEQ2EQ/640?from=appmsg)
+![](BLDC电机控制电路自举电容电压泵升原因分析及对策_images/img_003_9b483a810de8.png)
 
 大家看，这个图里多了一个电阻 RUGPH，它连接了高处开关的控制端（UGATE）和平台（PHASE）。它的作用就像一个小的“泄压孔”。在系统刚上电，机器人还没开始工作时，如果外部总水源（VIN）突然来一股很猛的水流，可能会通过水龙头内部的“缝隙”（寄生电容CGD）意外把开关冲开。加上这个泄压孔，就能把这点意外的“水压”给放掉，保证安全。
 
 文档里也给出了估算这个“耦合效应”的公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFLoNjAb28PafcgpD0z0H9rmz1LA4uk1ayfsLpOR87YbAJvKv92Z5jTllUbWlnvkibS3qsBgKe6wEg/640?from=appmsg)
+![](BLDC电机控制电路自举电容电压泵升原因分析及对策_images/img_004_706594673535.png)
 
 这个公式比较复杂，我们不用深究（如确实感兴趣，请留言申请讲解），只需要记住它的物理意义：它描述了外部电压的快速变化（dV/dt）如何通过内部电容（Crss）和电阻（R）引起开关意外开启的风险。加上这个RUGPH电阻，就是为了减小这个风险。
 
@@ -118,7 +118,7 @@
 
 实测自居电容电压泵升波形
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFLoNjAb28PafcgpD0z0H9rEnuZcMicvclNYG9A0icUWfF29Ydo5zQvGpdtyOU6d6cLUnTm9fnp3UfQ/640?from=appmsg)
+![](BLDC电机控制电路自举电容电压泵升原因分析及对策_images/img_005_cec190d1d77d.png)
 
 文档链接：
 

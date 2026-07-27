@@ -82,11 +82,11 @@ static void
 
 测电阻我们用的是直流（DC），测电感就得用交流（AC）了。 因为电感的物理公式是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGJY422cwVtmWFJh4lSbnIJ7lZ2c327RUbcjNbACx9Z5BeQ1GxUBicuvUx6wxIgFfUI3zRWsmlE7Ow/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲_阻抗的回声__在一个频点听见Ld与Lq_images/img_000_d4ac7c84523e.png)
 
 如果是正弦交流电，电阻就变成了复阻抗：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGJY422cwVtmWFJh4lSbnIJCulmxazU1hqeeP68KRr834VNO1yFVeTTKNnF9HXA3iafGCEby6P0XFQ/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲_阻抗的回声__在一个频点听见Ld与Lq_images/img_001_7c03ca1d6eb7.png)
 
 所以，要想测出_L_，我们必须给电机注入一个**高频正弦波（HFI）**，然后看它回馈回来的电流波形长什么样。
 
@@ -184,7 +184,7 @@ void m_rsumf(float *sum, float *rem, float x)
 
 在数学上，一个正弦波 _A_cos(_ωt_ + _Φ_) 可以用一个复数（相量）来表示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGJY422cwVtmWFJh4lSbnIJE59Y15seM2njicttP3DnhuBHMjPtt1e8REh3yu4nf0Eh2YdrkvGvxeQ/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲_阻抗的回声__在一个频点听见Ld与Lq_images/img_002_9d8bf683968f.png)
 
 -   X 叫实部（同相分量）。
     
@@ -214,7 +214,7 @@ void m_rsumf(float *sum, float *rem, float x)
 
 代码里的操作是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGJY422cwVtmWFJh4lSbnIJKbNsQeRAX0qyvibHNfX1nFCW2o3EJibYbdQXIGdGkFUKiaKYLkRJt4c8w/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲_阻抗的回声__在一个频点听见Ld与Lq_images/img_003_d0e591452c06.png)
 
 具体来说：
 
@@ -229,7 +229,7 @@ void m_rsumf(float *sum, float *rem, float x)
 
 假设我们的电流信号是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGJY422cwVtmWFJh4lSbnIJAJY8VUD5tvUAnliawz2OFelwfpcNjkxZ0GUwhoX4eO18nEgqsmwic9ibg/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲_阻抗的回声__在一个频点听见Ld与Lq_images/img_004_0672e7ec5720.png)
 
 我们把它乘以cos(_ωt_ )并积分（累加）：
 
@@ -296,13 +296,13 @@ static void
 
 在静止坐标系（αβ轴，即代码里的 X/Y）下，高频低速（或零速）下，电机的电压方程可以忽略电阻的影响，是这样的：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGJY422cwVtmWFJh4lSbnIJfwMNFN2hZS7IdCvENar6FWhUm4dmHzQkNe9dv2YOBIKCTgz4bIgbXA/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲_阻抗的回声__在一个频点听见Ld与Lq_images/img_005_b84f0c1b95af.png)
 
 其中 **Z** 是一个 2×2 的阻抗矩阵。
 
 对于凸极电机（IPM），这个阻抗矩阵长这样：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGJY422cwVtmWFJh4lSbnIJYibjbQ3ScCt0mV7cs9f4of425fyRTcSwC8rpnEEvDp9G5c4piatTySbw/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲_阻抗的回声__在一个频点听见Ld与Lq_images/img_006_3685bd4b1644.png)
 
 -   _Lavg_ = _(Ld + Lq)/2_（平均电感）
     
@@ -315,17 +315,17 @@ static void
 
 这太复杂了！但作者用了一个更聪明的写法，定义了三个未知的阻抗分量 _Z_(0), _Z_(1) 和 _Z_(2):
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGJY422cwVtmWFJh4lSbnIJd97CZk52HhfXSXCEzsMHunUqs58srEjVvJF2paG0MKic6NibAgicibvpSg/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲_阻抗的回声__在一个频点听见Ld与Lq_images/img_007_c95dacf853b4.png)
 
 **为什么说这种写法聪明？**
 
 作者选用了如下这种参数化形式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGJY422cwVtmWFJh4lSbnIJrHzBWBJnDnPhQxwopWhC4MeymR5caJCWwHXPRaaMgAokwL4kqw17MA/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲_阻抗的回声__在一个频点听见Ld与Lq_images/img_008_59e41cc329eb.png)
 
 而不是如下这种参数化形式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGJY422cwVtmWFJh4lSbnIJmoJQRBNKWsSEPbCofVIG1ucwt4PIPhGz1nEkkic4icZXhHXUOxLefo9g/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲_阻抗的回声__在一个频点听见Ld与Lq_images/img_009_9def3df54471.png)
 
 这样做有两个工程层面的好处：
 
@@ -346,7 +346,7 @@ iW = 1.f / pm->quick_HFwS; 
 
 所以，我们要把方程改写成 _A · x_ = _b_ 的形式，其中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGJY422cwVtmWFJh4lSbnIJdgXA8DN3CVd2H55xlwNy2AUu3uguZqRF9RI2KeYM3zBOSSUqtBGIyQ/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲_阻抗的回声__在一个频点听见Ld与Lq_images/img_010_18637f144fec.png)
 
 复数方程 _A · x_ = _b_ 可以拆成实部和虚部两个方程。
 
@@ -379,7 +379,7 @@ iW = 1.f / pm->quick_HFwS; 
 
 现在我们得到了αβ坐标系下的电感矩阵：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGJY422cwVtmWFJh4lSbnIJ7LtY9mltPiajnlWicZdpve4Ip6CGxibSg8SxHsrlJKeIuPyA9WZTPG6yw/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲_阻抗的回声__在一个频点听见Ld与Lq_images/img_011_4ec33f3979d4.png)
 
 ### 终极关卡：特征值分解
 
@@ -387,7 +387,7 @@ iW = 1.f / pm->quick_HFwS; 
 
 我们知道，电感矩阵 Lαβ 是一个**对称矩阵**。线性代数告诉我们：对称矩阵可以通过**特征值分解**对角化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGJY422cwVtmWFJh4lSbnIJgPWOQbNulpsx44L086NQLRzLjzmgkX6v7qsuNghcpJqJJgCicIHW2pA/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲_阻抗的回声__在一个频点听见Ld与Lq_images/img_012_a1deb04efdb7.png)
 
 其中：
 
@@ -487,7 +487,7 @@ iW = 1.f / pm->quick_HFwS; 
 -   **改变偏置电流验证饱和**: 在台架上，让电机运行在不同的`Id`直流工作点，然后重复代码A的辨识流程。画出`Ld vs Id`的曲线，看是否和IEEE Std 1812-2023中附录E的`Figure E.3`的趋势一致。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGJY422cwVtmWFJh4lSbnIJ5b538nmoHftKYb8aBcic37Pw8qaDnwb1iaGRhHwVB4w2LadyZEaDib4Xg/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲_阻抗的回声__在一个频点听见Ld与Lq_images/img_013_006b9f739689.png)
 
 ## 六、本文小结：
 

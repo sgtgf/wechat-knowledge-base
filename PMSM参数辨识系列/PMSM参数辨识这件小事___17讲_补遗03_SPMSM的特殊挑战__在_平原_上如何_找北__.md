@@ -6,19 +6,19 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2jBZiacq3IKYpJnLECV2Q3jkoU8OV6Vq3gT2TRMIvDhx3iaWuiafNictAzOL5zmQpWGk6Kz6wOjNleuZiaAXQg2xZ3Q/640?from=appmsg)
+![](PMSM参数辨识这件小事___17讲_补遗03_SPMSM的特殊挑战__在_平原_上如何_找北___images/img_000_10a0a06dc078.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/ibibcV5C2Fxt8KF2nvUB4ibibbBvwBdymVkQKw5xG6xAoAFellPY0mz4BREtkJ1M3Mib3uSxwXrpSDicAia7jCEKemWsw/640?from=appmsg)
+![](PMSM参数辨识这件小事___17讲_补遗03_SPMSM的特殊挑战__在_平原_上如何_找北___images/img_001_1b7e1272580b.png)
 
 前言 / Introduction
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/sxpiaKwDophU2yeWKJ2ORfc1vovvdIG4JGcBhibMKDibsoIoSGHolvlCHjzrlsBx1fyorystCpNvOd8Tibf6zcmRnA/640?from=appmsg)
+![](PMSM参数辨识这件小事___17讲_补遗03_SPMSM的特殊挑战__在_平原_上如何_找北___images/img_002_c0fc7ead9a74.png)
 
 本年度，宏观经济形势复杂多变，行业竞争格局深度调整。在全体员工的共同努力下，企业保持了稳健发展态势，各项事业取得积极进展。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/SJYrsibye3hEtVnvlLDpzAYPVibvaTtX82hQmAJBIsZgzAClbkrRnGYHNXz6gDw99AXMu6aDfvWgt8JQ7VgUicJKw/640?from=appmsg)
+![](PMSM参数辨识这件小事___17讲_补遗03_SPMSM的特殊挑战__在_平原_上如何_找北___images/img_003_ea2d58b00f69.png)
 
   
 
@@ -70,7 +70,7 @@
 
 也就是说：初始位置辨识精度在IPMSM上误差最大5.5度，在SPMSM上直接飙到25度！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGUd6unqH5kTGghmUGgI3UBn1URZ6gBapVM90jvnp7CjLPCuniboCLAiaLsDhowV7A6ATVzIhicQB1qg/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___17讲_补遗03_SPMSM的特殊挑战__在_平原_上如何_找北___images/img_004_720ff56d5909.png)
 
 文献\[1\]中还提到：
 
@@ -78,7 +78,7 @@
 
 也就是说：IPMSM上每次结果都差不多（重复性好），而SPMSM上，同个位置测出来的结果像“天女散花”，完全不收敛。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGUd6unqH5kTGghmUGgI3UBibgmibyaKu4ODpkXZwuK1NkkDl99EibwgscwQmTicUdV2ZoHee9Tt8zFbw/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___17讲_补遗03_SPMSM的特殊挑战__在_平原_上如何_找北___images/img_005_04928e96497b.png)
 
 所以这里的结论是：**直接把基于凸极效应的辨识方法用在SPMSM上，是行不通的。** 因为信号的“信噪比”太低了，电流响应的微小差异，完全被噪声和测量误差淹没了。
 
@@ -127,11 +127,11 @@
     
     Figure 13 展示了普通注入下，N极和S极的电流差异很小，容易判错。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGUd6unqH5kTGghmUGgI3UBE9keyzpxcwfKbw0DicibvfUF1OnJQSayibVay648nxvHZ2K8gm7sk0rcA/640?wx_fmt=png&from=appmsg)
+    ![](PMSM参数辨识这件小事___17讲_补遗03_SPMSM的特殊挑战__在_平原_上如何_找北___images/img_006_0661dead6aa0.png)
     
     Figure 14展示了“改进策略”下，N极和S极的电流峰值差异巨大，一目了然。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGUd6unqH5kTGghmUGgI3UBOXTjwGXiaApB4rapib7lAPJVAfnibOTXQCa4sGaoNU3XkbFIz8Wxv8SxA/640?wx_fmt=png&from=appmsg)
+    ![](PMSM参数辨识这件小事___17讲_补遗03_SPMSM的特殊挑战__在_平原_上如何_找北___images/img_007_dc6bb4b71593.png)
     
 5.  **迭代细化**: 在准确判断出N/S极性后，再在N极附近进行更小角度的注入，迭代逼近最终的精确位置。
     

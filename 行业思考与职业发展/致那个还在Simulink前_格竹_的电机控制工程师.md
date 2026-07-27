@@ -16,7 +16,7 @@
 
 很多做MBD的工程师，第一次听到这个故事，会下意识地对号入座：我每天在Simulink里搭建的，不也是一根"数字竹子"吗？我是不是也在守仁格竹？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQQcEWcyh5kUQ1OicyCWh0BfzCxnPia4uoSKXEOtfIGSaLFYGWhQcFHyHODtiaxL7RthTiaw1x8GkLVtYoQoYRr9lM5RNhkLrQXoPQ/640?wx_fmt=png&from=appmsg)
+![](致那个还在Simulink前_格竹_的电机控制工程师_images/img_000_6dc5013721ba.png)
 
 **先别急着代入。**
 
@@ -68,4 +68,4 @@ Simulink里的完美波形，是船在静水里划出的直线。而真实的电
 
 而你的电机，正在岸的那一头，等着你去听懂它的声音。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASk6iafT0wUwOjIrjBhkyYvwryUJZYjMeicszFGBH1DlKic77tkaZkFuicpuvTCyygFjKeyrazfbM5RhHsXQNy8K2uIU7R0ibXqicgLs/640?wx_fmt=png&from=appmsg)
+![](致那个还在Simulink前_格竹_的电机控制工程师_images/img_001_ba26983bafd0.png)

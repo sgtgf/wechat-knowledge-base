@@ -278,4 +278,4 @@ ADI 白送仿真器，是设好的局，专等在硅片上收回来。你白送�
 
 也是从"跪着"，到"站着"，最短的那一步。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARt6RJbunxgUHRjkOjicgSEqnnSGNYStcRs8wHe2UHG3CyzDL73teZg9ChSxd5zYEUr0gBf7v83MicsGYhBOlPrCcMgynic1Czu18/640?wx_fmt=png&from=appmsg)
+![](从_JMAG_到_LTspice_为什么最贵的和免费的仿真工具_都在赚你的钱__images/img_000_24eaf7ec2fb8.png)

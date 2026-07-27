@@ -68,7 +68,7 @@
 -   **标准里的证据**: **Figure E.9** 就展示了通过这种方法得到的电流响应曲线。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH1OSWEsNCMEusYAEeMxMb4c98643XGlTZCbblsHvb7aib31gEqHLQNppC8C2vKWp8ibUn0xicPHpQ3w/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___03讲_测量的五条岔路__Annex_E_的选择与代价_images/img_000_eededf1c0ab0.png)
 
 -   **评价**: 这种方法可以在驱动器内部实现，因为它只需要控制器能输出一个直流电压阶跃，并高速采样电流。**这和我们后面要讲的代码B的思路非常接近。**
     
@@ -97,7 +97,7 @@
 -   标准原文 **(E.23) 式** 给了完整的计算公式，考虑了电阻R：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH1OSWEsNCMEusYAEeMxMb47DdQK1gibPW4VEaBM6bf7OL0CaNlPtwSsqkvgSicwEtpfHvV44UsBrwQ/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___03讲_测量的五条岔路__Annex_E_的选择与代价_images/img_001_20240853d35e.png)
 
 -   **重要提示**: 标准明确指出，**这种方法只能得到Ld**，因为三相短路时，电流产生的磁场方向正好和永磁体磁场方向相反，处于d轴上，q轴电流分量几乎为零。
     

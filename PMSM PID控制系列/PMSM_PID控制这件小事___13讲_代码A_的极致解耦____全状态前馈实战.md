@@ -85,55 +85,55 @@
 
 空口无凭，还是要在Simulink中动态演示一番，才能更加形象。我们首先构建如下的仿真画布：代码A中的PI控制逻辑在绿框的 CodeA\_Controller中实现，被控对象PMSM在橙色框的PMSM\_Plant\_With\_Noise中实现。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARZXqHWICDibSJMYh3JH2vJQcwNAPEZvbYz8U7Dm4yHExDlcFkyJlx42HxzPUXlGdgibj7Dp0dIxajyzuibaV7jciauia24Cu5d0vVI/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___13讲_代码A_的极致解耦____全状态前馈实战_images/img_000_dc501cd8d0de.png)
 
 在PMSM的模型中，故意挂上红色框的 Band-Limited White Noise（带限白噪声）模块！这不仅是为了模拟真实的 ADC 量化误差，也是为了后面演示“高频噪声正反馈灾难”。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATgXG4F3SEj4xP8JyTbaskriaw5J5vZe5nuC1RP8Qib1oYfJWicia6JEvzvVicXlqH0jhM8FjZaCibPERANcbNt1xIFuHyibxZFU00u9c/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___13讲_代码A_的极致解耦____全状态前馈实战_images/img_001_be51eeb1172e.png)
 
 在CodeA\_Controller中，使用粉框勾勒除了代码A中的解耦算法，同时，加入了红框的switch，用于切换加入了前馈解耦和未加入前馈解耦的效果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQh6IbDNU4jGicufm5OXOlWCuBEKulf5DUcNcxtqKjj6Ye6BIKGXUa3Q9QB90RfniaqgFFGj89S8wK1L54icXOOa7SSQrFu1vBU1U/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___13讲_代码A_的极致解耦____全状态前馈实战_images/img_002_95f46fa411a7.png)
 
 我们来看下不同情况下的仿真结果：
 
 首先，我们让 FF\_Enable = 0 ，也就是说，关闭前馈护盾！让纯被动 PID 裸奔：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASGjc1Lp1I13OQreayU1mF8AlHpZRmeibnqyNgj5GdaticGbKslo4vBwt2CRUmWZRrhGry2Tiaalr1ZI3Uq73LzVJtXU6ErC7SNPQ/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___13讲_代码A_的极致解耦____全状态前馈实战_images/img_003_3cc7574f14ce.png)
 
 此时的仿真结果为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASovriasMkGia1CkUrXwbXIib9uncKRlQEcuhua8VFk0V9tZbiawmkR4YpPdjQlKVicG2rfGKBzls4G7QLgcsSibnL3cYQDAVCObliao0/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___13讲_代码A_的极致解耦____全状态前馈实战_images/img_004_9cb070840469.png)
 
 各位同仁请看！在 0.5s 时我们需要提速，Q 轴电流发生剧烈跃变。此时电机高达5000rpm（ωe极大），交叉耦合的"手榴弹"爆炸了！大家看下面的 D 轴电流（橙色线），原本应该是0，结果瞬间被撕扯出了巨大的突起，挣扎了很久才被积分器缓慢拉回0！
 
 我们再设置 FF\_Enable = 1 ，也就是开启 CodeA\_Controller 中基于 代码A 的 C 代码复刻出来的紫色魔法护盾。同时也设置FF\_Source = 0 ，意味着前馈解耦信号采用的是**反馈值**，也就是 D 轴和 Q 轴电流的真实测量值。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQ3OeSMWMicBs04mibKSsbgJHHRE0GuKQQrULKR8icaFlv5QF8tWPpXtBSBCjXABYHSZ0lNGjI0Xj0bcajlxvhuUzuwtZNe7ydia5w/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___13讲_代码A_的极致解耦____全状态前馈实战_images/img_005_620f4c9a464c.png)
 
 我们看下此时的仿真结果：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASx1Hb9d2SrHA3U640YY5tSnHMicibHnSVNk63q4VWugZAlubPeEDOY5ibAPzibOibnVol3NntsB85NRZj3VRI4rroL15pT0qfw7Sq0/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___13讲_代码A_的极致解耦____全状态前馈实战_images/img_006_e03bad160682.png)
 
 和不使用前馈解耦相比，采用了前馈解耦时，D 轴和 Q 轴彼此之间不会再“互扔手榴弹”了，但是 D 轴和 Q 轴的反馈电流，或者说实际电流，是很毛躁的。有经验的同仁也可以一看看出，虽然是仿真波形，但是在真实的嵌入式系统中的电流真实测量值就是这样充满着高频噪声。
 
 我们看下此时的前馈品质因数，同样是毛毛躁躁的。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATpsWxyrrTneqj2tnO4T2E4mtSVwNawmsWiajaH2sITH9xVfF6bQzicdMVGejM6bywwxvibgh2MyA9t00FltG4dFHGezFwtDPQQVQ/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___13讲_代码A_的极致解耦____全状态前馈实战_images/img_007_c2bb2fb3231c.png)
 
 最后，我们在保持 FF\_Enable = 1 的基础上，也就是开启 CodeA\_Controller 中基于 代码A 的 C 代码复刻出来的紫色魔法护盾。再设置FF\_Source = 1 ，意味着前馈解耦信号**采用的是 D 轴和 Q 轴电流的指令值，不是反馈值**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARHAZeQBFRSzeS3TD9AfG8w8cyCeZKluaiamflX0qPtwmN3Jdp0JCw5GfxWUgBDZjrkgaGgMibwGoicjwT0ky21b3RvJ7VffwNGKk/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___13讲_代码A_的极致解耦____全状态前馈实战_images/img_008_c1ff5f2feff8.png)
 
 我们看下此时的仿真结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATAzqKiaiaibdV6a8rKKNs0WckbEKmqN1gSQklFibR0TcBWjXAtlKDM17VvgzjzkkBtMSL6naen8rOjY5VnhVgzibaibxvP1sjLUeg2U/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___13讲_代码A_的极致解耦____全状态前馈实战_images/img_009_5e470da0aa28.png)
 
 虽然还是有高频噪声，但是和采用了反馈值作为解耦的系统相比，是不是“干净”了很多？
 
 我们再看下此时的前馈品质因数，就更加一目了然了：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQdQG0hwcLW6u07YN8rkS6BWJn3ac7zembFibRa6qgQlx8eGRup7buO4b9iaibktekDAnVLQ78Ee95MjzRCQxTS5icz26q6PmKyAUg/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___13讲_代码A_的极致解耦____全状态前馈实战_images/img_010_defca27f3756.png)
 
 清清爽爽，干干净净有木有？
 

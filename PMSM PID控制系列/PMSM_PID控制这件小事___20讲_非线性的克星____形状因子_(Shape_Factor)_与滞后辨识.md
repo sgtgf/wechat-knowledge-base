@@ -55,9 +55,9 @@
 
 **物理意义**： 电机正转和反转时，受到的静摩擦力或重力偏置完全不同（比如带垂直负载的机械手）。这也可能暗示了机械导轨一侧有严重卡涩，或者逆变器本身存在不平衡的死区时间。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARWu7vXzf6lK3vlfZHiaibpTpIUVwOibzRLdP9Mj5ErpibKa7437Tv749R5E4xtMBu3DgcKUD4DzL2DcbMxf5xUYicicPFDbCiaDOYjaU/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___20讲_非线性的克星____形状因子_(Shape_Factor)_与滞后辨识_images/img_000_9f3aed9df322.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARhlc785EZc16rMWibib938ribJ6J9fwGUofC86ShhfviaGgibhFqucHEDV4JQA95ZYdlvNEAibZmibsvWbgz32jegkubyD2OP4gHBibJs/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___20讲_非线性的克星____形状因子_(Shape_Factor)_与滞后辨识_images/img_001_e6d539f294e5.png)
 
 * * *
 
@@ -120,7 +120,7 @@
 
 仿真模型的顶层画布如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAR7GOPQSpu99mL2U4hGxYavKv4TCFhdr62jNfdF4cduOpDa5QO4P4ZqDOibKGesJZoP15V9VB33MnSmMcps3ib294sG0SiaicvRY4w/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___20讲_非线性的克星____形状因子_(Shape_Factor)_与滞后辨识_images/img_002_ea69700fd3ba.png)
 
 此次的仿真模型主要由三部分组成：
 
@@ -136,7 +136,7 @@
 -   **平顶怪兽（大死区/机械间隙）：**串联一个Matlab Function模块，模拟皮带松弛或齿轮磨损。（用于演示**平顶/矩形波**）
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATYwydufxB7ltd4YOgMH5jAzlh51tgEXPfPNQFdTvKfdy4fsnj3jE3IUlrLnudVWwpvcGQBzlEs1LvycYfF5hcVQRoOuPBVzMw/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___20讲_非线性的克星____形状因子_(Shape_Factor)_与滞后辨识_images/img_003_64fed2b085ab.png)
 
 2.  **继电器自整定与执行器模块（The Relay Autotuner —— 逼迫系统现原形的“猎人”）**
     
@@ -148,58 +148,58 @@
 -   **Two-step Procedure（二次辨识法发电机）：**这是一个包含 switch 逻辑的模块。先输出一个小幅值方波 h1 持续几个周期，然后再切换到大幅值方波 h2。以此演示教材中第10章“不完美执行器”的辨识。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQPRNwJV8FfjmagVCCpt9aJUD0skkmWejt8AMfAbicUibhib0zRsyqac6PfTujCSayDvicn6I79fQzcKvHFzicr2vpOGs4icWB9fbsNU/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___20讲_非线性的克星____形状因子_(Shape_Factor)_与滞后辨识_images/img_004_6479e636582e.png)
 
 3.  **形状因子实时计算模块（Shape Factor Calculator —— 核心诊断代码的“具象化”）**
     
 
 使用一个Matlab Function模型来完成上文中咱们用 C 语言描述的“基于半周期面积与最大振幅的数学找茬逻辑”！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATezU3VOulB3FJkvqnYTHL91U9I47mXo0QAyewk9HL19oibpqMcOErpbdx0sAKibcRsicWGnIPKM4iaM1J5Da7uNBmPP6ch0nny4Ro/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___20讲_非线性的克星____形状因子_(Shape_Factor)_与滞后辨识_images/img_005_6b6451e6316a.png)
 
 我们来看下仿真结果，首先看下“健康状态”（也就是 Demo\_Mode = 2 ）下的结果:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAR6ficBGceAx6dne9M69sIuZC2jmQwReqUu2WkbAa83wQrDoBp8PSnas1VhgL272ibS967YmbDGzH2rTfGFnicSutWxyXHmMicQfl0/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___20讲_非线性的克星____形状因子_(Shape_Factor)_与滞后辨识_images/img_006_fc16c786dbac.png)
 
 波形完美印证了**“二次辨识法（Two-step Procedure）”**： 图中黄色方波（力矩指令）在5秒处发生了极其明显的台阶跨越，从幅值 h1 = 1 跃迁到了 h2 = 3。对应下方的蓝色速度波形也随之按比例放大。这就是我们上文中说的利用大小两次激振来穿越可能存在的静摩擦与死区！
 
 我们放大了来看下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARs5rz0sW5kcb5K1tCQqLbjFW6DPF4QXTJR5CsvNLwoqk5csPPYqhEmECxbibHSibT3OiaCc23cj06qx7FOQXnqExAjAGXgjPecgE/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___20讲_非线性的克星____形状因子_(Shape_Factor)_与滞后辨识_images/img_007_01f1c3221550.png)
 
 蓝色的速度反馈曲线是一条**弧度极其优美、圆润的类正弦波（Sine-like wave）**。因为健康的电机本身就是一个完美的“低通滤波器”（含有转动惯量 J 和定子延迟 Te）。系统滤除了方波中的高次谐波，只剩下了基波分量。这正是我们在无感控制中敢于使用“描述函数法”的物理前提！
 
 我们再来看下**诊断仪表盘**：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAS4V88vOYGR8UIk6qKHia41P4YXsokBj4Aiay0NqSXEIfYH5zTAuwKxESCg80ic1mxGwQHZTSAtJA1Sna9S31u85oNMJzf7gicPqiak/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___20讲_非线性的克星____形状因子_(Shape_Factor)_与滞后辨识_images/img_008_84a50c691035.png)
 
 **形状因子（Shape Factor）= 0.6444！**这是一个令人激动的数据！纯粹理想的正弦波，其绝对值的平均值除以峰值，在数学上是 2/π ≈ 0.636。由于我们的模型带着真实的物理阻尼，并未把高次谐波 100% 滤除得极其干净，所以算出来是 0.6444。这是非常有说服力的工程数据，完美验证了咱们上文给出的伪代码中 \>0.6 且 <0.7 的“极度接近正弦”的判断区间内！
 
 我们再改变 DEMO\_MODE = 1：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASBtHlBSwrTWCjWouPQUAkCSfcrjqBliaEQ2tFHS3jyvOjy0kdsHwbgXOdoDX2ibWU8ST0ibqWVScOwNPJKkY2Liar03Aq7qyjZs8c/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___20讲_非线性的克星____形状因子_(Shape_Factor)_与滞后辨识_images/img_009_385267410b7a.png)
 
 此时的仿真结果为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARJvWQFrmicDg7Bvia8rkA4licIgfmUhVkxrlWJNqHdH34E0V30pmGzBCevZVHGGMvXYbGPgicMT8VJTODaGPicSV6AUvkib7rpN51ps/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___20讲_非线性的克星____形状因子_(Shape_Factor)_与滞后辨识_images/img_010_b8a7509c832c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARLXLkc8azDiciaicstnwlmemHoUJk9OBIuAibTAxofI0FoRkGP9hTJFgOJyCHA2nic10tEowtsOe4HiciaGceiczKaVyNytvjgj6TXiaxI/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___20讲_非线性的克星____形状因子_(Shape_Factor)_与滞后辨识_images/img_011_3a3df341afa4.png)
 
 蓝色的正弦波会瞬间变成刀切一样的**尖锐三角波！**
 
 再看仪表盘：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARTeknX1F9rwphcdZSqhAyV9dWbnAI21GpNWG4eo1jjuo3WGWV9veDtE9LibsIdQeHlNYmE0ic5FOXdoLPaa40cI4S95wtBZP5RI/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___20讲_非线性的克星____形状因子_(Shape_Factor)_与滞后辨识_images/img_012_e2f33acd718c.png)
 
 ShapeFactor 从 0.64 暴跌至 0.4688 ，同时状态字 Status 变成 1 报警！
 
 同样，将 DEMO\_MODE 改为 DEMO\_MODE = 3;（这模拟了严重的皮带松动或 15 毫秒的齿隙空转），此时的仿真波形为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATX2KaQbESJdtZytxMFf4JUGib0gziaJxFqGNNmE2PzgHWYh23mvwrfkibh6u7oNzfgSt6WTPuqkWs2ou3H3PgkbUY1Ciba06TYQnk/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___20讲_非线性的克星____形状因子_(Shape_Factor)_与滞后辨识_images/img_013_60377b7be0b9.png)
 
 当力矩（黄色）反转的瞬间，速度波形（蓝色）会**悬空停滞**，走出一个个平坦的平台，变成一个**平顶矩形波！**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARvYt1vuylYkES92c2SiazqSLBe3ZDTSxFXpMpW5ibILYYAKsz5T3fvpKLa3nmibTa7zd0dyCdiaw7VJpqZbeNsDpDs6O2ia1Yk0uUo/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___20讲_非线性的克星____形状因子_(Shape_Factor)_与滞后辨识_images/img_014_c2a8a2bbf249.png)
 
 仪表盘中，ShapeFactor 从 0.64 一路飙升至 0.9673 ，同时状态字 Status 变成 3 报警！
 

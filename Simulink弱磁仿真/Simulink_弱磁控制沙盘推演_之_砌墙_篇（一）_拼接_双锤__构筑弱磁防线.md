@@ -18,9 +18,9 @@
 
 1\. 在你的Simulink模型中，拖入一个新的 **Subsystem** 模块，或者在已经建好“双锤的画布中，选中两个模块，鼠标右键点击“Create Sybsystem”，命名为`Flux_Weakening_Module`。这就是我们要砌的“墙”。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRETMlKiclp40RT2vLoMghJicMEmvyND7Md8tB3vOB8FnlVOlt2qbOicgvDczuXF9oFJQzfnY0kAAIklg/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（一）_拼接_双锤__构筑弱磁防线_images/img_000_0aa3115b4322.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRETMlKiclp40RT2vLoMghJicMQcVltaFDPsY2MEpZsgCshLabwyQlBbaxbqqRicibIMjdDpG31ZjcnqHw/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（一）_拼接_双锤__构筑弱磁防线_images/img_001_0f39cd37d568.png)
 
 2\. 双击进入这个子系统。
 
@@ -49,7 +49,7 @@ Id\_out, `Iq_out`: 经过弱磁逻辑修正后的d, q轴电流指令。
 
 从这里开始，我们把之前烧制好的两块“砖”——`Weakening_PI_Controller`和`Iq_Limiter`——复制粘贴到`Flux_Weakening_Module`这个子系统的画布里。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRETMlKiclp40RT2vLoMghJicMd6Ko1SuJKDXdAUmTY5mibGo3orIIsv1vg4YCOWjEicBONcI2CXH36FHw/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（一）_拼接_双锤__构筑弱磁防线_images/img_002_be0e0eb41a05.png)
 
 接下来，就是激动人心的“连线”环节！我们将用连线，来定义数据在这两块“砖”之间以及和外部接口之间的流动路径。
 
@@ -65,7 +65,7 @@ Id\_out, `Iq_out`: 经过弱磁逻辑修正后的d, q轴电流指令。
     
 -   **Iq路径完成！数据流从`Iq_in`流入，经过“守护之锤”的锻造，直接流向`Iq_out`。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRETMlKiclp40RT2vLoMghJicMmJJxdKymJHXn8EBhDbArTxyNDHIAKkAVN3UJEcd0g8JPlibEzLT5smA/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（一）_拼接_双锤__构筑弱磁防线_images/img_003_161bc270e87b.png)
 
 **2\. 连接 `Weakening_PI_Controller`（破壁之锤）**:
 
@@ -76,7 +76,7 @@ Id\_out, `Iq_out`: 经过弱磁逻辑修正后的d, q轴电流指令。
 -   Weakening\_PI\_Controller的输出 `weak_track_D`，就是我们计算出的弱磁电流分量。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRETMlKiclp40RT2vLoMghJicM0GZg2SDxP4MbOC4JtyMpgSm81icvZ1Xkq20bLBau5yDeSpDXFE3zK0g/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（一）_拼接_双锤__构筑弱磁防线_images/img_004_0692c3c6e1d7.png)
 
 **3\. 合成最终的 `Id_out`**:
 
@@ -93,7 +93,7 @@ Id\_out, `Iq_out`: 经过弱磁逻辑修正后的d, q轴电流指令。
 
 **大功告成！** 我们的第一面“墙”——`Flux_Weakening_Module`已经砌好了！它的内部结构清晰地展示了“双锤”并肩作战的宏伟蓝图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRETMlKiclp40RT2vLoMghJicMibFtzdib6iaRmyqoqq6rcjpntTiak9fXInLf5GmkC4stW4uiaOmUGPFrbGw/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（一）_拼接_双锤__构筑弱磁防线_images/img_005_903898a315c8.png)
 
 #### **Step 3: 封装与升级——打造一块更专业的“预制墙”**
 
@@ -101,7 +101,7 @@ Id\_out, `Iq_out`: 经过弱磁逻辑修正后的d, q轴电流指令。
 
 1\. 回到上一层，右键点击`Flux_Weakening_Module`，选择`Mask` -> `Create Mask`。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRETMlKiclp40RT2vLoMghJicMBsw7JKOEDozqKBLibEpTNtF7LIfeuwSey7EC423XDiblm6UibJxic6h1Ig/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（一）_拼接_双锤__构筑弱磁防线_images/img_006_1a68bff534f4.png)
 
 2\. 在`Parameters & Dialog`标签页下，我们需要把两块“砖”的参数都“提升”到这面“墙”的配置界面上来。
 
@@ -121,7 +121,7 @@ Id\_out, `Iq_out`: 经过弱磁逻辑修正后的d, q轴电流指令。
 -   Prompt: `Q轴电感 (Lq)` Name: `Lq`
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRETMlKiclp40RT2vLoMghJicMpmf3P2bF1yH7Un4sRibCNB95DsTBCADnD6gHDX2ZibwaC5IJ0NjgEBSg/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（一）_拼接_双锤__构筑弱磁防线_images/img_007_86cca59fcfde.png)
 
 4\. 点击`OK`
 
@@ -129,17 +129,17 @@ Id\_out, `Iq_out`: 经过弱磁逻辑修正后的d, q轴电流指令。
 
 -   双击你封装好的`Flux_Weakening_Module`，会弹出包含4个参数的对话框。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRETMlKiclp40RT2vLoMghJicMOJ3sMRFxAD13xiam7ibLiaK7bKabjUba86Bv4EcL2RN1nsImEuLsicDdibw/640?wx_fmt=png&from=appmsg)
+    ![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（一）_拼接_双锤__构筑弱磁防线_images/img_008_0a4710221296.png)
     
 
 -   现在，进入这面“墙”的内部（Look Under Mask）。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRETMlKiclp40RT2vLoMghJicMJjE8NmXGJtDA9lMbXUyqIClGUXLaZKUnmy6iawvmLzibic3wrlXhBvPgQ/640?wx_fmt=png&from=appmsg)
+    ![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（一）_拼接_双锤__构筑弱磁防线_images/img_009_a5914947cc81.png)
     
 
 -   双击`Weakening_PI_Controller`模块，在它的Mask对话框里，把 `gain_EU` 字段的值，从一个固定的数值，改成**外面那堵“墙”的参数名** `weak_gain_EU`！
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRETMlKiclp40RT2vLoMghJicM5k5Qgy1cbHibFLe2CSWVeqmP2ZsxK3vR2BO2gEnndaba7ic7OylWBaBA/640?wx_fmt=png&from=appmsg)
+    ![](Simulink_弱磁控制沙盘推演_之_砌墙_篇（一）_拼接_双锤__构筑弱磁防线_images/img_010_e78d8aceb348.png)
     
       
     

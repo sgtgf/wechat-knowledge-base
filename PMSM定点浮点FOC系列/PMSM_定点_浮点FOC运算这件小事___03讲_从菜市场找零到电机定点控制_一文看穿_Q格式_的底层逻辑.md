@@ -44,13 +44,13 @@
 
 举个例子。我要存储2/3这个小数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQYfptwWKSic1uQ2RQx5BHLaYdAW839hJv8zneeP3LOtl7bgickxZP8ZWG14magib4z0afRYHvGRHPnrEka30WuKlLnvAGed8ibQqI/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___03讲_从菜市场找零到电机定点控制_一文看穿_Q格式_的底层逻辑_images/img_000_c116c2701cdf.png)
 
 验算一下：21845 ÷ 32768 = 0.666504...跟真实的 2/3 = 0.666666... 比，误差大约是0.000163，相对误差不到万分之三。对于电机控制来说，这个精度完全够用。
 
 再来一个，1/√3 ≈ 0.5774：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASnddCMXemotTHKtXQPO7Liafy4QNDf8gbEqtWicPSRl5f9MZv8hKowTR0TpIrHTNWIbMh4Plf8suvO0zSlg7reDOSrNKCAwlkak/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___03讲_从菜市场找零到电机定点控制_一文看穿_Q格式_的底层逻辑_images/img_001_eb96e9b526bb.png)
 
 验算：18919 ÷ 32768 = 0.577362... 跟真实值 0.577350... 比，误差约0.000012。
 
@@ -90,7 +90,7 @@ Q15是最常见的定点格式，但不是唯一的。"Q"后面的数字表示�
 
 如果各位同仁觉得今日的文章有些干，那我们就通过仿真模型来动态展示一下，在Simulink中搭建两个模块，模块一用来解密“魔数”与量化误差；模块二用来展示不同Q格式数据相加时，一旦处理不好时的灾难，也就是“君子约定”坍塌的全过程。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQNRTUH83vSdM0TTClGicvlt9XSFsicic2uPkibyVickU6cIiakpA4wzOicxTM5KeqaiapIqplVTuqvve73JgqeaZ6VKO38ibOMib7Ms93ow/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___03讲_从菜市场找零到电机定点控制_一文看穿_Q格式_的底层逻辑_images/img_002_ddbf6e173501.png)
 
 在绿色的模块一中，要直观地验证上文中提到的 2/3 和 1/√3。
 
@@ -98,21 +98,21 @@ Q15是最常见的定点格式，但不是唯一的。"Q"后面的数字表示�
 
 再并排摆放两个 Display，针对同样的Q15信号，一个设置为**“Real World Value”（物理真实值）**，另一个设置为**“Stored Integer”（存储整数值）**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQ7yuibORBcDSOQpZTAW1ewwgVZqntAiaKe8ibkbSQZmZR0SsHCJpDBrDD8lZHee7OficvBPHwOA9PrYBN02UWQ4WgtP68Dic87LYxU/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___03讲_从菜市场找零到电机定点控制_一文看穿_Q格式_的底层逻辑_images/img_003_d0da3de842bf.png)
 
 在橙色的模块二中，放置了两路信号处理流程，一路为对照组，另一路为试验组。其中，对照组为Embedded Coder的做法，用 Simulink 的 Add 模块把 A(Q15) 和 B(Q14) 相加。Simulink 会自动做底层的移位对齐（维护君子约定），输出正确的物理结果（约0.885）。实验组模拟手写C代码常见的Bug：通过使用 Data Type Duplicate ，强行剥夺A和B的“Q格式”外衣，让它们变成纯粹的 int16（即在CPU眼里它们只是25736和1638）。然后用普通的整数加法相加，得到 27374。再还原回Q15，我们最终会看见计算得到的值是乱套的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASuUHO9aMqnDE0jXhgXViaHrtdaWy00U2A1cYKf85rpziaTyibHMRdLF0OLuTuwGN8gOmVde4HwghXXnicyhQHib9qiawnZicwnCZogq0/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___03讲_从菜市场找零到电机定点控制_一文看穿_Q格式_的底层逻辑_images/img_004_868cb31d1912.png)
 
 我看看下仿真结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQ3HkYQpBmp6SKNicicpDcRyiblKKKWLdziahX7aGlsWyX48DN6VDt8pt1E1HaYU8xUwAEZibLLjoM4FukXfcMnI7tfURJEYme8m0B0/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___03讲_从菜市场找零到电机定点控制_一文看穿_Q格式_的底层逻辑_images/img_005_ab043b13eaa3.png)
 
 各位同仁情况用红色框框起来的信号线，这条线上的字 sfix16\_En15，这是 MATLAB 对 Q15 的专属称呼。fix16 代表16位定点，En15 代表小数点在第15位。Q15 格式下的 1/√3 ，也就是 0.5773 ，被显示为 18919 是正确的，此时的浮点数与定点数之间的误差只有 1.87×10\-5。
 
 再看下模块二的仿真结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQHsojyRC0PfkTW4qGjDFreeProc2BRcgHb9vI8Wo0p3Jic8JfqIujI3YuSlXQ7pl78BwhzWecQibEn2HO3weNJHial4xb5ZE5iaIs/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___03讲_从菜市场找零到电机定点控制_一文看穿_Q格式_的底层逻辑_images/img_006_617bd5515661.png)
 
 25736 + 1638 = 27374，CPU是没有计算错误的，但这真的是我们想要的结果吗？27374 在Q15格式下代表的小数是 0.8354，可是我们真正想要的计算结果是 **π/4 + 0.1 = 0.8854** ！
 

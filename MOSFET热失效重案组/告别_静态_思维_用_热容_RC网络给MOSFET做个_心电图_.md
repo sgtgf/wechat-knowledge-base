@@ -39,7 +39,7 @@
 
 Cauer模型就用一级RC并联电路来模拟每一层的物理特性\[1\]。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRG4icqh5j7t99J3qxcErqXvpWIhBdAwTeibUr5iabO6mZgkOicHfgx2ia3k7VpBQNddJFkrHh5VjUSRuUQ/640?wx_fmt=png&from=appmsg)
+![](告别_静态_思维_用_热容_RC网络给MOSFET做个_心电图__images/img_000_ebb7f92be25e.png)
 
 -   **优点**: 物理意义清晰！模型中的每一个节点都对应一个真实的物理位置的温度。比如，你想知道芯片和铜基板之间的温度，直接看对应的节点的“电压（温度）”就行了。
     
@@ -52,7 +52,7 @@ Cauer模型就用一级RC并联电路来模拟每一层的物理特性\[1\]。
 
 Foster模型通过数学拟合的方式，用一个个RC并联的串联链，来**纯粹地、数学地**复现这条温度响应曲线\[1\]。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRG4icqh5j7t99J3qxcErqXvp62afaylwh2uI2hABKcPF9cn3sGjTxuaictpjeFqm3yqOwlicTyyibSW7Q/640?wx_fmt=png&from=appmsg)
+![](告别_静态_思维_用_热容_RC网络给MOSFET做个_心电图__images/img_001_5daa04aea6e1.png)
 
 -   **优点**: **参数可以直接从数据手册里提取！** 这对于我们使用者来说是天大的福音！
     
@@ -73,13 +73,13 @@ Foster模型通过数学拟合的方式，用一个个RC并联的串联链，来
 
 很多负责人的大厂，已经替我们完成了这部分的工作，我们直接查表即可，如，安森美的1200 V SiC MOSFET模块NVXK2KR80WDT，可以直接在官方datasheet中查找到标定好的热阻`Rth`和热容`Cth`\[2\]：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRG4icqh5j7t99J3qxcErqXvp5Uau1depAUtSmr5JGdXZ2r8voFSr8DibibsugGPHF1OlyIw6vNpib0HQg/640?wx_fmt=png&from=appmsg)
+![](告别_静态_思维_用_热容_RC网络给MOSFET做个_心电图__images/img_002_9dc0a958384d.png)
 
 如果没有给出详细的热阻`Rth`和热容`Cth`值，但给出了热阻抗`ZθJC`的测试曲线，也可以通过先查表再拟合计算的曲线救国方式得到。
 
 我们找到数据手册里的`ZθJC(t)`曲线，比如，打开AOT240L这个型号的NMOS的数据手册的第4页，就能看到这张图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRG4icqh5j7t99J3qxcErqXvpVSylLBXgKia8UFgJQmcD4qfVia1GgFmktqpya001aqDqS0nburuhI6vw/640?wx_fmt=png&from=appmsg)
+![](告别_静态_思维_用_热容_RC网络给MOSFET做个_心电图__images/img_003_cd934d533663.png)
 
 这张图怎么看？
 
@@ -103,7 +103,7 @@ Foster模型通过数学拟合的方式，用一个个RC并联的串联链，来
 
 我们还需要知道，一个N阶Foster网络的瞬态热阻抗`Z(t)`的数学表达式是什么样的。它的公式长这样\[3\]：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRG4icqh5j7t99J3qxcErqXvpssvAZfXuxxxJWfDD8ibMI4JwO1RiaKoPgxPK4oibxocFjlAPv6r1oGlMg/640?wx_fmt=png&from=appmsg)
+![](告别_静态_思维_用_热容_RC网络给MOSFET做个_心电图__images/img_004_d6e75581681d.png)
 
 其中，时间常数 `τi = Ri * Ci`
 

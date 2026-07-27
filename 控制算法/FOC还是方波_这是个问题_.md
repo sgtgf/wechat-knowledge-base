@@ -15,14 +15,14 @@
 代价：性能有天花板（转矩脉动、噪音、效率在低速时较低）。  
 适用场景：对成本敏感、可靠性要求高、性能要求不极致的场合，如风机、水泵、电动工具、 drones 等。
 
-![图1](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGjv4vXGQcrR1OuBBHtZLQ3ja1WClWamV0rRBcia6aUARQk4JpLribLPbDdlrcfb9S9JxqlTKR39BNA/0?wx_fmt=png&from=appmsg)
+![图1](FOC还是方波_这是个问题__images/img_000_198204bb7cce.png)
 
 图1
 
-![图2](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGjv4vXGQcrR1OuBBHtZLQ3Irib5ZDwySGVuM2x3Kyjo5icXIdm63lsWB5ae9vcH5ZS2gAoK5H0oiahg/0?wx_fmt=png&from=appmsg)
+![图2](FOC还是方波_这是个问题__images/img_001_e6d653a43b04.png)
 
 图2
 
-![图3](https://mmbiz.qpic.cn/mmbiz_jpg/Z8Iha3NiaCRGjv4vXGQcrR1OuBBHtZLQ396GH6CqATce0eicAIl43EFoKWMpfrEXUcaWRJQ1gecwKOb7nsoVOibOw/0?wx_fmt=jpeg&from=appmsg)
+![图3](FOC还是方波_这是个问题__images/img_002_5b708ca9dabd.jpg)
 
 图3

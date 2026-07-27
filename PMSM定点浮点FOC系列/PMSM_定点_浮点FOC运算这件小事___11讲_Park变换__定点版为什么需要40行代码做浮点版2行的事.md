@@ -54,13 +54,13 @@ rtb_QuadHandle1 = (uint16_T)((uint16_T)(((uint32_T)FOC_CURRENT_U.theta << 11) 
 
 核心就是那个**3217**。它是怎么来的？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARgMNpbvJxvU7eT4omiaNgFpsytQ6F1URkkDDrYkgwomZgQ45F5nlXymI0zaqOY5icnzhEjnLzjF1u9j9CllazLS5S8EgKG5DQSg/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___11讲_Park变换__定点版为什么需要40行代码做浮点版2行的事_images/img_000_5c5c17d38bd8.png)
 
 也就是说，3217是π的Q10定点表示（3217 vs 理论值3216.99，精度误差0.001%）。这段代码把输入的Q13弧度角，转换成一个 uint16 格式的"归一化角度"——其中0代表0°，16384代表90°，32768代表180°，49152代表270°，一圈正好对应 uint16 的全部容量65536，超过2π的部分自动按uint16的模运算回绕到起点。
 
 我们验证一下。假设当前theta对应电角度90°，即 theta\_Q13 = π/2 × 8192 ≈ 12867：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsART7qM9FicsD60nyP50fMUg7v03bmDlOch0Lc8qozbNAtJic7ERbeOXzRF5NiaNf44RtXOLbibQib2iarJbCL5VX2cDSIxicp34DKlIf0/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___11讲_Park变换__定点版为什么需要40行代码做浮点版2行的事_images/img_001_d3bd3dff35fb.png)
 
 正好对应 uint16 角度格式下的90°。换成180°、270°，都能对得上。
 
@@ -88,7 +88,7 @@ rtb_QuadHandle1 = (uint16_T)((uint16_T)(((uint32_T)FOC_CURRENT_U.theta << 11) 
 
 最后一段。数学上就两行：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQmicLEPpd8XgYUUj0LEux2sbMtLIMr3K2DbrxH8D77dA71icib6g322SoO4OfX0yCluLKMW1rclkSYgvHdsbfhEFAyKT0QQicsDLM/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___11讲_Park变换__定点版为什么需要40行代码做浮点版2行的事_images/img_002_d4b7cc1af231.png)
 
 浮点版代码照抄：
 

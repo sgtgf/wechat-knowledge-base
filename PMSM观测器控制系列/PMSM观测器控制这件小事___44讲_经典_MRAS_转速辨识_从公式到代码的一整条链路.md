@@ -59,7 +59,7 @@ MRAS 的代码链路本质上是一种**保守的显式实现顺序**：每一�
 
 把这条链画成数据流图，它长这样：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATy0ND1licvYqqkjVn3S7rA0vEUwOnDtgpibaiawWqibhVmj5Fp5auAiaQXBibicbJT84azDAXQ4Gbg4IW9Z9dJ0XgwwC6mzs3348J7xg/640?wx_fmt=png&from=appmsg)
+![](PMSM观测器控制这件小事___44讲_经典_MRAS_转速辨识_从公式到代码的一整条链路_images/img_000_1989577df25c.png)
 
 注意数据流是单向的。没有从"新转速"回流到"本拍可调模型"的箭头。如果有，就是正反馈。
 

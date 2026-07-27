@@ -39,9 +39,9 @@ Case 1: 低速巡航，风和日丽——MTPA区
 
 同仁们，请看图！如下两张图（上面为全局图，下面为工作点的局部放大图）把这个情况画得一清二楚！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH8NtXNRjLpGB2YuvbxVpwyAo0MuLcmoXq3fM1BVjpsJnB6RwwHwvfjPhPQZDXDzaxQstklErR05A/640?from=appmsg)
+![](寻龙诀之PMSM点穴_如何在约束迷宫中找到最优工作点的唯一_生门___images/img_000_6825e577a917.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH8NtXNRjLpGB2YuvbxVpwyD4PebyoI9ibWibEglhHqXq8uBp2lIOg1ibUDsLKEYdYnZpXZTIStxOib7w/640?from=appmsg)
+![](寻龙诀之PMSM点穴_如何在约束迷宫中找到最优工作点的唯一_生门___images/img_001_e0d3a067a3a5.png)
 
 大家看上面的那张图，那个巨大的虚线蓝色椭圆就是电压极限，它把所有东西都包在里面，完全不起作用。黑色的圈是电流极限。红色的曲线是代表 0.1N.m 的恒转矩曲线。
 
@@ -57,7 +57,7 @@ Case 2: 高速狂飙，风声鹤唳——弱磁区
 
 请看图！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH8NtXNRjLpGB2YuvbxVpwyTYZu0xvCnncykz3kdg71tXModT5w0bKtSKXmngI9IsEdlNea6Xibu9A/640?from=appmsg)
+![](寻龙诀之PMSM点穴_如何在约束迷宫中找到最优工作点的唯一_生门___images/img_002_a6f49efc4f69.png)
 
 我们发现一个严重的问题：之前那个完美的MTPA点（就是恒转矩线和MTPA线的交点1），现在已经跑到缩小的电压极限椭圆外面去了！这意味着，如果我们还想走MTPA那条路，电压就不够用了！这条路被堵死了！
 
@@ -83,7 +83,7 @@ Case 3: 力不从心，勉为其难——极限扭矩区
 
 请看图！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH8NtXNRjLpGB2YuvbxVpwyRTMpvT5GgDcAviavFSOPsZDfdfD6MLcJnj8gv0OUEYk6wk0IrUWNC1Q/640?from=appmsg)
+![](寻龙诀之PMSM点穴_如何在约束迷宫中找到最优工作点的唯一_生门___images/img_003_e61d01fe2875.png)
 
 天哪！我们发现，代表0.1N.m的那条红色恒转矩曲线，已经和电流圈与电压椭圆的公共区域（那个小小的月牙）完全没有交集了！
 

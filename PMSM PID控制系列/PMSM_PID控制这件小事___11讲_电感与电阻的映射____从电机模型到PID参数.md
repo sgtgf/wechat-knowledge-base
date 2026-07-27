@@ -87,25 +87,25 @@
 
 空口无凭，还是得在Simulink中体验一下，我们在一张画布中同时把代码A和代码B的算法列出来，进行一场PI算法对比的“双城记”：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARKBticqWhOT4o2RVtkAO67J8VC4A0hjHoMpbXuGeqO2pdgHMEqQZRZX7r3w4BPoEkY1v4DNLeXWQVeuW4iarVaZYhDicmib6Wl6eo/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___11讲_电感与电阻的映射____从电机模型到PID参数_images/img_000_cafdae299108.png)
 
 模型画布中，青蓝色代表带有 FPU（浮点运算单元）的“贵族”芯片领域，模拟的是代码A的算法；橙色代表资源极度受限、靠定点运算过日子的“平民”DSP领域，模拟的是代码B的算法。
 
 需要特别说明的是，我们看到的多数教材里的 PID 画的是纯积分符号，但工业界如果敢这么写，电机起步瞬间无穷大的误差会瞬间撑爆内存，导致严重的“积分风暴（超调鼓包）”。在代码A中，特意加入了钳位限幅模块，用紫色标记：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATlzEYGYHWibJBrjM70MrZia6oichaVxt3miaibgNLIPZUib5QtO2Xgyic3iatWicZRDcYM1So0UrnmUAxZvtJxnJ7Pbmds8IkbofaebjqQ/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___11讲_电感与电阻的映射____从电机模型到PID参数_images/img_001_521a3b30bd83.png)
 
 这朵紫色的模块，在 C 代码里就是一行不起眼的 if(sum > MAX) sum = MAX;，它是保命的！
 
 代码B的建模会相对复杂一些：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATGoaZeTkwciahboJGrksDaQugmrTjRwuic5ceWzWDasibgfffovscDuzPrAt2thSr7w4oZpfa1dmRLlx18ibso3QIGcez4RRAgBBc/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___11讲_电感与电阻的映射____从电机模型到PID参数_images/img_002_141c75434050.png)
 
 因为定点芯片里根本没有 10A 或 24V 这种物理概念。黄色模块展示了客观世界的电流如何被除以 I\_base，剥去单位变成纯粹的百分比或 ADC 采样值进入芯片；最后又乘以 V\_base，借由逆变器还原成物理世界的电压。而红色的模块应该是整张画布中最硬核的地方。理论曲线是绝对丝滑的，但在低端 16位 DSP 中，精度只有 1/32768。红色的量化器强行把连续的数学信号“砍”成了阶梯状，这就是定点运算在微观上存在毛刺和稳态微小震荡的物理根源。
 
 我们来看下最终的仿真结果：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARoicNndXiaPqDviaoFb23lKpL04yShV2W6ibXv5dNn0U7Tic77ibJBl52gdiaHGlnAxmqXJianjPh7Bwt0ibcnlloL2LahUpmhicwkh6lYU/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___11讲_电感与电阻的映射____从电机模型到PID参数_images/img_003_4b8ee073795c.png)
 
 各位同仁，请看这张图中的橙线（来源于代码B），肯定有人心里在犯嘀咕：代码B 可是跑在廉价的无 FPU 芯片上的，我们明明在 Simulink 里塞进去了一个只认 16 位整数的红色量化器（斩波器），为什么它的曲线依然像德芙巧克力一样丝滑？
 
@@ -115,7 +115,7 @@
 
 我们把曲线放大来看：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQJ8VBg97oKh8Nh6IU1acdw9f3YWSDLxdG8CwvKEnuj10QTVicibzNHXicFQ4VcnGa2dkbRnt2RDByic31w1BEAtjwk1TFI4SAuHQA/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___11讲_电感与电阻的映射____从电机模型到PID参数_images/img_004_3bdc3593696a.png)
 
 如果我们的文章此为止，那只能是一篇普通的科普文。但请各位同仁把目光盯在上图的超调峰顶上！蓝线（浮点运算的代码A）冲到了 10.64A 左右，而橙线（定点运算的代码B）却只冲到了 10.58A，矮了那么一点点。这是仿真误差吗？不，这是两位老程序员思想博弈的证据！为什么定点的橙线峰值更低（或者说更保守一点）？这不是玄学！
 

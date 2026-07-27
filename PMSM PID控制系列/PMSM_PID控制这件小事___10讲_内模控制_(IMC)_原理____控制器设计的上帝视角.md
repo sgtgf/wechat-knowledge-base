@@ -26,13 +26,13 @@
 
 假设被控对象（比如电机）的传递函数是 Gp(s)（Plant）。控制器是 Gc(s)（Controller）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAR6fiaFGsKNLLMmc39glpAA6HbP5QFzdt534HhP3B4yATxXJvRR4Ob5kIJdwCA1JlicickupGsdHiaJVe8s32hmyibzS0ST787DdUgk/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___10讲_内模控制_(IMC)_原理____控制器设计的上帝视角_images/img_000_df5f31d4fb1c.png)
 
 IMC 理论不再去瞎调 Gc(s) 里的参数，而是站在上帝上帝视角，直接对整个闭环系统下达命令：**我不管你原来是什么样，我希望你最终的表现，像一个完美、顺滑的一阶低通滤波器！**
 
 在数学上，这个期望的完美闭环数学模型 F(s) 被定义为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAT98ArzyGTdYv8t1jALMXlmSxoAMWhFccc39hiaiagezJmZvGB0OClSXaBeP9GJYN88NwhIUVqLG8ribZPJdRWeHd68XU7JrgDE2o/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___10讲_内模控制_(IMC)_原理____控制器设计的上帝视角_images/img_001_aacfb5bdb151.png)
 
 这里的 λ 是这个完美滤波器的“时间常数”。它是一个极度神奇的参数：**控制闭环系统的反应有多快，完全取决于 λ**。（ λ 越小，响应越快，也就是**系统带宽**越高）。
 
@@ -44,19 +44,19 @@ IMC 理论不再去瞎调 Gc(s) 里的参数，而是站在上帝上帝视角，
 
 **_Practical PID Control_** 第7.5.1节给出了极其优雅的推导：我们知道，经典的闭环传递函数是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARoxvjiaKTvrQuDHC2gcHCgFSAjL39ibtW0h5ATFY9wdPjjL3ogCbdLFTCicib3IOuL3DcwuUDTjcLia4sQIzKvicrOkU0LekbTBicsfw/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___10讲_内模控制_(IMC)_原理____控制器设计的上帝视角_images/img_002_7fff5fea74fd.png)
 
 现在，上帝视角来了，我们强行让这个闭环等于我们期望的完美系统 F(s)：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATkteicsowCTCeuv1gia3E0uBfhRe6FtSUCnviaWibBTeAzdkmhyP1VLIp3NW7rTsKQFSSE9Yql7PicEEVdUwGmrBZgyriaK9RZeQG4A/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___10讲_内模控制_(IMC)_原理____控制器设计的上帝视角_images/img_003_ee568825e2a0.png)
 
 各位同仁，稍微动用一下高中的代数知识，把 Gc 提取出来，会得到什么？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATvNq8uB1J9CqOG8FpQqxW7sfibSqzhSicx5J7leubZl38Jk2nlyia5cZSxMPZdia2zupfMTHzHYtiaSSRYbic67ic2BicjxRksOTLS348/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___10讲_内模控制_(IMC)_原理____控制器设计的上帝视角_images/img_004_65566c081efe.png)
 
 把 F(s) = 1/(λs + 1) 代入进去化简，最终的终极形态是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATdeAthicsUY2n7xMPzkeL0yJLcPs41ibWeAuXPc5qxpyzZOMEakAlxAszCEsdLLV0cclceEejh0cxkSxhG57icTibVuYibXDOzLribA/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___10讲_内模控制_(IMC)_原理____控制器设计的上帝视角_images/img_005_1ddc2dc45974.png)
 
 **这就是 IMC 设计的灵魂公式！**
 
@@ -76,23 +76,23 @@ IMC 理论不再去瞎调 Gc(s) 里的参数，而是站在上帝上帝视角，
 
 大家回忆一下，直流电机或者永磁同步电机（PMSM）定子的电气方程是什么？就是一个电阻 R 串联一个电感 L。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQCtfr7LJZEHT9MqXJv9P2HUN3xyaRm13pthgOuBVLG9Q6ptzW9DTQwL39dyt0Y3Pty8TVic4VF3FBmorl5hlsKwWOdpGAgbicM0/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___10讲_内模控制_(IMC)_原理____控制器设计的上帝视角_images/img_006_dba9be5a0dfe.png)
 
 它的传递函数 Gp(s) 是：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATDaGeCB9aFyBPLeKYMSJNNSjHsFSoibKEcvXuN22E0rOE9EozXI7ADhYJVKDJ8OKW8wGawcUOiaN3fzJHTiaBrqMbfPQzb0Lk7G4/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___10讲_内模控制_(IMC)_原理____控制器设计的上帝视角_images/img_007_154bf34a1c3a.png)
 
 这就意味着，电机的逆模型 Gp\-1(s) 是：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQP5xj47hrlWahehBiczoDvSxmPFKKVepqibTfhT53OAIiarK4oSLZeyNXYFQpMXOw2lTAcufRtq0BkaEmibyibdlxglODCNGBYy4Us/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___10讲_内模控制_(IMC)_原理____控制器设计的上帝视角_images/img_008_90c9f4bc7080.png)
 
 好，现在我们把这个电机的解药，代入刚才的上帝视角 IMC 公式里：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQy6sG35UGiadL9U8zGibDOhhmBiaibB8yNTGjoXLvQ3aJ7AgxGBpjZzlSiciaPeROHphEUzYXp0VpgAa8F6EjevV8Sdnf8mJSd184Jc/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___10讲_内模控制_(IMC)_原理____控制器设计的上帝视角_images/img_009_5773fa2c3444.png)
 
 把括号拆开，神奇的事情发生了：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASDSVSgiadPrjAZfIx4wLprTiaeyWHddib4gG6NlnUDicepEmicIOBydsU05VkWmAuxdpug4bSFWI09qS0FZibzJJIUSlhzoibDJcQkpY/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___10讲_内模控制_(IMC)_原理____控制器设计的上帝视角_images/img_010_d2ec6b5d7dfc.png)
 
 各位同仁！！！看清楚上面这个式子。
 
@@ -112,18 +112,18 @@ IMC 理论中最爽的一点——“**零极点对消”**和**“闭环响应�
 
 为了凸显 IMC 的“降维打击”，新建的模型并不是只有一个回路，而采用了**并联对比**的结构：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATCqdVG2W1UBeG5XkFKywkaoiaicc8pibrkTs1iad04Ff2326bJrBsJtjNLH9yaUw7Yic4T7prr9eASTxp7UoyDI6v1gBWLkEUu5PicM/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___10讲_内模控制_(IMC)_原理____控制器设计的上帝视角_images/img_011_cce577770954.png)
 
 -   **对照组 A（传统试凑法 PI 控制）**：PI Controller的Kp和Ki参数可以随便填写。
     
 -   **对照组 B（IMC 内模控制法）**：PI Controller的Kp和Ki参数是基于电机的电阻R、电感L和目标带宽 Bandwidth 的具体数值计算出来的。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQMf8TJiau7BkV98WwuxOUGKjMm6X7npGibbiaCR6PYIJqIN3gN4ibpUwgUnXiaCeJhwEtbr9KBxq2AfWcI4dHbjzCRcCqiaCIS7FNyY/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___10讲_内模控制_(IMC)_原理____控制器设计的上帝视角_images/img_012_c55941fa2aed.png)
 
 直接运行仿真模型，看一下Scope中的仿真结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATsthuJ4jibNvOgmyDLOubpJibtWuBQvbhttPo48LHXqXcmq2VgXqnZCWcQESicKrW0U0KjY6RoNF0a315UfJuLibJptJQfzYicpu7c/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___10讲_内模控制_(IMC)_原理____控制器设计的上帝视角_images/img_013_b816fa7322d6.png)
 
 从Scope中的结果可以清晰看见：
 

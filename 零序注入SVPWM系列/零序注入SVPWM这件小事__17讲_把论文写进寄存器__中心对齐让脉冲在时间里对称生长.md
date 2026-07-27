@@ -68,7 +68,7 @@ TIM1->CCMR1 = TIM_CCMR1_OC2M_2 | TIM_CCMR1_OC2M_1 | TIM_CCMR1_OC2PE
 -   **物理意义**：把这个规则，和我们前面说的“三角波”载波一结合，各位同仁的脑子里是不是已经有画面了？
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATnYLFYdOpDKwUicEeors2ciavwKIqpYKL1N2C478aXMibmwS0ia3E7T1sAmQEeybd0hUpGm06BtfLr9qVeK5mLeibd2TgCqeyyA838/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__17讲_把论文写进寄存器__中心对齐让脉冲在时间里对称生长_images/img_000_8d9854435f9e.png)
 
 向上数的时候，CNT 从下往上穿过 CCR，电平翻转一次；向下数的时候，CNT 从上往下再次穿过 CCR，电平又翻转一次。这两次翻转，关于周期的中心点（ARR 所在的位置），是**完美对称的！**这就是本讲文章封面页的宣传语说的“**脉冲在时间里对称生长**”。
 
@@ -122,7 +122,7 @@ CCR4 被设置在接近 ARR 的地方，并在**上计数阶段**触发ADC采
 -   用“Unit Delay”模块来模拟影子寄存器。用一个计数器模拟RCR，每两次溢出，才让影子寄存器的值“通过”到工作寄存器。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARZfs0pib2xCic89IqyrTpmt3sD2Oibr31JfXvxZiaILYTZLoo32bKkWzFFnUjSLx9ZVYeHkricwqicmwH33Vop7jUGjSBhrfxiczhrtQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__17讲_把论文写进寄存器__中心对齐让脉冲在时间里对称生长_images/img_001_a2d937617aae.png)
 
 2.  **插入代码**pm.c**文件中的SVPWM算法，同时构建功率级与电机模型**
     
@@ -132,28 +132,28 @@ CCR4 被设置在接近 ARR 的地方，并在**上计数阶段**触发ADC采
 -   构建电机物理模型：使用传递函数 1/(Ls + R) 来模拟电机绕组。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQibTibE3fqdt0jt60QCFHSa3qlBPRHwopkxz6GqNhibtpfyTzmKVib3VrnUT4uuzF95ibM6R6hAg1m59mYqaAmTFqibGW4dwIH7FicicU/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__17讲_把论文写进寄存器__中心对齐让脉冲在时间里对称生长_images/img_002_ef00b7554aba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAS3aibmpTQQiaPgVsEpOZksvicBntyo2CVWlSkQV6vjN6kxMoZL9CA8LSsAOibKTG6SJCTt6icWeYgibt68zfSJx3YtjJLD3jibNO0icWQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__17讲_把论文写进寄存器__中心对齐让脉冲在时间里对称生长_images/img_003_a61207c8c20f.png)
 
 3.  **观测结果：**
     
 
 我们以A相为例，看下占空比更新时的波形：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQiaC2r7gtRarSONG3J9X7VwOCoPdOytqpZ3eXWNFVJRzDvNLQ5gUArbSTxRDUEsFOlyj0BBegjPsNJJ0rzut9Y3riaP8jLk2wL4/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__17讲_把论文写进寄存器__中心对齐让脉冲在时间里对称生长_images/img_004_8d87823e5780.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARF1pbW6HHnALX5XQmWyHfw8VdBUictQQwLePV3EMdBRicPtVAaQfjHz6GOYWXGULNJPEHUJiaUrLPljtE67bwgzWMWdfjgr9s0xQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__17讲_把论文写进寄存器__中心对齐让脉冲在时间里对称生长_images/img_005_7e80cb09ec54.png)
 
 当时间大于8.45ms后，黄色的CCR\_A的值明显大于蓝色的CNT值，此时应该看看黄色的CCR\_A的占空比明显增大，但是，由于我们开启了 Preload (影子寄存器) 且 RCR = 1 (每2个周期更新一次)，A相 PWM 波形不会在 8.45ms 立刻变宽，而是会有明显的“滞后”，必须等待下一次有效的 Update Event (UEV)。
 
 ADC的触发时刻，也是每2个中断后（上溢中断1次+下溢中断1次）进行一次更新。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARVYP8Kb0Pu3xoGC2dOQ1jBRfK2zvibVakUHHUOH6uGvdCcF8CviatdSInbSt6R5Ih2h5sYkDj7VAA4wqAGkGYu7MUTCqEAJug28/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__17讲_把论文写进寄存器__中心对齐让脉冲在时间里对称生长_images/img_006_79e4fff78d0f.png)
 
 我们再来看下写入 STM32 CCR1, CCR2, CCR3 寄存器的计数值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARPwGaKfTfedaJx94qjAxXqB9f6iagPLBvZaOcEbia8iabKvRLN73O36eIFUaicjM8lf0df86swKfZntXz8XYE6bOTKyhHaLzhYofs/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__17讲_把论文写进寄存器__中心对齐让脉冲在时间里对称生长_images/img_007_4e5d6f050442.png)
 
 波形呈现显著的“**马鞍形**”，波形里的凹陷，就是我们在代码里计算 uZero（零序分量）并注入的结果。它的物理意义是：**我们在不改变电机相电压差值（线电压）的前提下，人为地把三相电位同时压低或抬高，从而让直流母线电压的利用率提高了 15.47%。**
 
@@ -161,11 +161,11 @@ ADC的触发时刻，也是每2个中断后（上溢中断1次+下溢中断1次�
 
 我们再来看下电机绕组的电流波形：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARn32nOfjo2icoOTvuWHD25yujWBTibqX4NYwS8b4IlBJCcSoAN4tCB5nZykDnNfcic69dyyXyo7DGdoiakiaRiay6CYawLibDYoKJaiaY/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__17讲_把论文写进寄存器__中心对齐让脉冲在时间里对称生长_images/img_008_caa60f8e9c38.png)
 
 虽然我们给逆变器的指令是那一串串忽宽忽窄的方波：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATZITg8nuSmkpcKdVtO83asiaPUtXP2ZQicsLaXWA7iaBDF5GI9AT1ImxkLONqtllESUKl1zj6YItvmduickaviaSbUzIocYXKVhPjI/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__17讲_把论文写进寄存器__中心对齐让脉冲在时间里对称生长_images/img_009_4f36c76ed8ee.png)
 
 但电机——这个基于电感和电阻的物理实体，它天然就是一个**低通滤波器。**电感平滑了电流，过滤掉了高频的开关噪声，只留下了低频的基波分量。
 

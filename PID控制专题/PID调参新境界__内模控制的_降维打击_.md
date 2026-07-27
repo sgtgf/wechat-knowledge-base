@@ -40,7 +40,7 @@
 
 它在控制器内部，建立了一个你所要控制的那个过程的“内心小模型”。我们来看IMC的框图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQtIlZhm39UEek5j3zwVwCgoIbibYMPtPOx9W1n0js6sHib77xa7Cg4LIH7D9jlBiaiaicqJvLDSRwD74IicibxfyRial2y3gFvUpRl4IM/640?wx_fmt=png&from=appmsg)
+![](PID调参新境界__内模控制的_降维打击__images/img_000_661437d3aa15.png)
 
 你看，控制器内部有一个“Process Model”（过程模型）。它不断地把“如果按我的指令干，系统应该是什么样”和“现实中系统实际是什么样”进行比较。一旦有偏差，就说明有外部干扰或者模型不准，然后它就通过反馈去修正。
 
@@ -48,7 +48,7 @@
 
 **第一步：给你的“对手”分类，见 (7.120) 式。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATfSco6Bm7mkcsnHYqG8TIsTXEN2nytkVcSrhNcrle4FQXicEHWiaiaUSCtib9QR09PCjlsMk3BgBFseqJ2RRN7z2ibYlW0thDGghCM/640?wx_fmt=png&from=appmsg)
+![](PID调参新境界__内模控制的_降维打击__images/img_001_006096f721be.png)
 
 这是在说，任何一个系统 P(s)，我们都可以把它拆成两部分：
 
@@ -59,7 +59,7 @@
 
 **第二步：设计“靶向药”，见 (7.121) 式。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQZgsGyEJOWA7dOdAY6Zia7KHvBdN2bdiauZNAcuFia0bHBxy6kxx8vUqrJYUibVVHlobCEWfekFTcr0IshrUczDejZ7mVQ2W3nR54/640?wx_fmt=png&from=appmsg)
+![](PID调参新境界__内模控制的_降维打击__images/img_002_c80752b58c63.png)
 
 这个公式看起来吓人，但它的逻辑非常清晰：
 
@@ -67,13 +67,13 @@
 
 然后，引入一个**滤波器** f(s)。这个滤波器就是我们前面说的那个“神仙旋钮”λ的化身。看 **(7.122) 式**： 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQC6LTGxbDtm0TY3NXrZZ34zAfHHXBUUibtgTkfMlRrWdNa67GLV5eAjFDKfJzufaibVCiaicLPCUhtbL7Z2CLAgxN8qbtSNDpTBLk/640?wx_fmt=png&from=appmsg)
+![](PID调参新境界__内模控制的_降维打击__images/img_003_ac1e3679cfcc.png)
 
 它的作用是“**软化**”我们对系统的控制。λ 越大，滤波器作用越强，系统就越平滑、越稳定，但响应也越慢。
 
 通过这个设计，最终的闭环响应变成了什么样呢？见 **(7.123) 式**：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQTibkFWPebHJgZm4ia6sMdCS8AQMKuDOqy4TibELSNgQQfMZ0sxUvnvXV3F0hEPDy7Wm5U25DSySzY6x3StqB0UaibtPFDyC3hrHM/640?wx_fmt=png&from=appmsg)
+![](PID调参新境界__内模控制的_降维打击__images/img_004_b177411dce9c.png)
 
 你看，闭环系统最终的表现，只剩下那个“不听话”的 Pa(s) 和我们自己设定的滤波器 f(s)。我们把能控制的都控制了，把不能控制的也摸透了。这就是“上帝视角”！
 
@@ -90,7 +90,7 @@
 1.  **控制器降阶 (Controller Reduction)**：把这个复杂的“航天锤子”C(s) ，通过数学方法（比如教材 **Chapter 7.5.3** 讲的**麦克劳林级数展开**），近似成一个只包含 Kp, Ti, Td 的 PID 公式（**7.124 式**）。这相当于给你的完美设计做一个“三维投影”，让凡人能理解。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAR2BicOozMcIS1EdlRITQJlhpSXY7eDktUq6LqW9wvJnMTRoHsxJQBayCA2MhTn5GoibqwKWUZtMPtkNkcbic4jKhFTJdvvYdyEvA/640?wx_fmt=png&from=appmsg)
+![](PID调参新境界__内模控制的_降维打击__images/img_005_9585ffb835d6.png)
 
 **2\. 模型降阶 (Process Model Reduction)**：在设计之初，就别用那么复杂的模型。先把你的高阶过程模型P(s)，“降维”成一个简单的 **FOPDT** (一阶加延时) 或 **SOPDT** (二阶加延时) 模型。因为我们知道，用这些简单的模型去套用IMC公式，最终算出来的控制器**刚好就是 PID 结构**！
 

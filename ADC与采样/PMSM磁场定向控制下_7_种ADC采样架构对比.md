@@ -10,7 +10,7 @@
 
 **做法：** 这是最基础、最常用的方法，像标准流水线作业。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFfv7CrRId9qkxwOd8hf9VyLYJjKaMRf1EJoGWcF337KN2DOSaicQceQaoEgqPIuD7SoaiaibJ3ffkNg/640?wx_fmt=png&from=appmsg)
+![](PMSM磁场定向控制下_7_种ADC采样架构对比_images/img_000_50a3d25a614a.png)
 
 **节奏：** PWM波像一个来回晃的钟摆（上下计数），每次晃到中间点（Center），就立刻采样一次电流和位置（ADC触发）；采完样结果一出来（ADC EOC），控制算法马上计算，然后立刻设定下一个周期PWM波的“占空比”（Duty Cycle）。就像在钟摆荡到中点时精准测量和调整下一次的幅度。
 
@@ -22,7 +22,7 @@
 
 **做法：** 不想花钱买更贵的传感器（高精度ADC）？那就勤快点，多量几次算平均！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFfv7CrRId9qkxwOd8hf9VywDqrNC1SolmsIYnbUxp6qOcg0rCmGlQoeRiaUXOMnCBRhUSDXuj44XQ/640?wx_fmt=png&from=appmsg)
+![](PMSM磁场定向控制下_7_种ADC采样架构对比_images/img_001_b531d4acce1d.png)
 
 **节奏：** PWM波的“钟摆”还是按自己原来的速度晃。但是！在一个完整的PWM周期内，它会多次触发ADC采样（比如晃2下、3下都测量一次）。最后，控制算法在周期中心点启动，把这一大堆采样数据平均一下，算出下一个周期的占空比。
 
@@ -44,7 +44,7 @@
 
 **做法：** 感觉一个周期调一次不够精细？那就拆成两半！中间再插一次调整。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFfv7CrRId9qkxwOd8hf9Vykae05IRsthyYmQ2USaANkBYIIj6ib0zbPJBKgmnnKy6upz6hNRGp7jw/640?wx_fmt=png&from=appmsg)
+![](PMSM磁场定向控制下_7_种ADC采样架构对比_images/img_002_3aad876e1d97.png)
 
 **节****奏：**PWM波的“钟摆”速度没变。但是，ADC采样和算法计算的频率是它的**两****倍**！这意味着：在每个PWM周期的**起****点**和**中心点**都会采样一次。每次采样结果出来，算法立刻计算，然后分别更新**下一个半周期**的占空比。相当于一个周期内发两次指令。
 
@@ -68,7 +68,7 @@
 
 **做法：** 想让电机响应更快、开关损耗更低？那就拼命提高PWM频率呗！但计算跟不上怎么办？让它少算点！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFfv7CrRId9qkxwOd8hf9Vyw7CGCXujicfUA0XCNwrukqpxSrHVFkkNZXwmfpXEMng4gu4hcaDKt9A/640?wx_fmt=png&from=appmsg)
+![](PMSM磁场定向控制下_7_种ADC采样架构对比_images/img_003_787a84e5cb00.png)
 
 **节奏：** PWM波的“钟摆”晃得飞快（频率**加倍**）。但是，ADC采样和计算算法的频率**保持原样（减半）** 。算法在每**两个**完整PWM周期里才跑一次（跑的时候采样），设定下两个周期的占空比。
 
@@ -88,7 +88,7 @@
 
 **做法：** 想降低电路干扰（EMI）或者减少电机嗡嗡声？试试把“钟摆”的晃动节奏故意变一变！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFfv7CrRId9qkxwOd8hf9VyYcu3MlNsKMh4ak0ia72WaW7ibQuwBt6ITugYmRtDWOkibGJbcDa99lMxQ/640?wx_fmt=png&from=appmsg)
+![](PMSM磁场定向控制下_7_种ADC采样架构对比_images/img_004_0a9813d254ea.png)
 
 **节奏：** PWM波的频率（“钟摆”速度）不是固定的，是在一定**范围内变化**的（抖动）。但是，每一次周期中心点（Center）还是会触发ADC采样和算法计算（与基础同步一样）。
 
@@ -108,7 +108,7 @@
 
 **做法：**“我预判你的预判”！在标准中心点触发时间**往前挪一点**（提前约ADC转换时间的一半）。这样，ADC转换过程刚好能“跨坐”在中心点上完成，结果刚好在算法需要的时候出来。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFfv7CrRId9qkxwOd8hf9VyCZrcZ4tKMXDKP7VSkIvXN95fftDuDV0LUWicVNevcicvPBZYib7XkiccLQ/640?wx_fmt=png&from=appmsg)
+![](PMSM磁场定向控制下_7_种ADC采样架构对比_images/img_005_673437911a05.png)
 
 **优点：**
 
@@ -127,7 +127,7 @@
 
 **做法：** 电流采样太费钱（三个独立的传感器或电阻）？工程师说：能省则省！只用**一个电阻**接在公共回路上（DC link），通过聪明的**数学算法（单电阻重构）**，反推算出三相电流！然后用这个“算出来”的电流去做FOC控制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFfv7CrRId9qkxwOd8hf9VyDRrBCYLYYDc2E5UumvYxuaNW149BmSaClETqZHR2WTriavtiauGdpTFQ/640?wx_fmt=png&from=appmsg)
+![](PMSM磁场定向控制下_7_种ADC采样架构对比_images/img_006_274ca57da3b0.png)
 
 **优点：**
 

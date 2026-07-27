@@ -91,7 +91,7 @@
     **在我们的调制器模型里，严格复现 forced clamp to GND/TOP 的逻辑。需要一个 nZONE 的判断，然后根据结果，选择是否进行“二次平移”。**
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAR21JTibHfats4BO4UxxqVnh8a0IIlbHqya3pujWyTkb518svPsUHibXqybzGDJPnEVXo3x1NQQsaSY7MAYSoAngF6LC2GHwdFoM/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__16讲_二次平移的暗线__forced_clamp_to_GND_TOP把现实写回算法_images/img_000_71d43da5e0bf.png)
 
 2.  **两条并行路径：**
     
@@ -101,11 +101,11 @@
 -   **路径B（有抢救）**：在量化后，加入 forced clamp 逻辑。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATuCzHRdlCzMEvGiblHNABjy1kaCUoNhq6QqDcfQOFZBF9PYgRIDHmMVhYv2TLZo3AZPLrJZ0KbJdfCFIaXmqDIeyATiagzwK0Dg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__16讲_二次平移的暗线__forced_clamp_to_GND_TOP把现实写回算法_images/img_001_141e47b1a610.png)
 
 **3\. 观测结果：**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQSbasuKsAiagelIQnC9hicYViaWDtjyNr007gRMStqBkDGQPxf8JhRnasvKvCcdo6Y28AlmjXPTDjJc4ncNdict4UIERscCpGoSIA/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__16讲_二次平移的暗线__forced_clamp_to_GND_TOP把现实写回算法_images/img_002_030ad26fdc91.png)
 
 大家盯着这个示波器，这不仅仅是两条线，这是**两种工程哲学的碰撞。**
 

@@ -142,4 +142,4 @@
 
 这不是逆袭。是走对了路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARbPFStEusHtefC1pdlicRUiaAmsoEbKjMfFCPVXZ3HyXlicPH4mVyLT0ssD7N0EqFMtYwm9B9keFkJXLhZScjviavBnbGcf9m3Idg/640?wx_fmt=png&from=appmsg)
+![](你的简历写着_精通FOC__但面试官看到的却是另一个故事_images/img_000_f6ba9a73ae26.png)

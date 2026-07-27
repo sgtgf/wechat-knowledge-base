@@ -79,11 +79,11 @@ uMAX = pm->k\_UMAX \* pm->const\_fb\_U;
 3.  **系统3（代码A版，青框）**： 完全复刻 pm.c 代码中那段精绝逻辑的条件积分 PI 控制器。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAT8oADPpODDJF1Ab6bG69tUg4XA0L1tnrBQiag3ZAe9Luuic6icXLwEDaHyBpm4Hww5r1sAzWUia73GnVkB7qvIHdpQ0qhbUoK5zsA/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___08讲_抗饱和实战_(I)____钳位法与条件积分法_images/img_000_fd3ec2d1dc5b.png)
 
 仿真的工况是，在0.1s时给电机施加加速指令，在0.4s时给电机施加刹车指令，看下仿真结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAT7M9SAapsUzNuc9ribU3ib4gGsMic1D3EtduEOBdxI9adQZTsOYa8ib3R8JNDFYeWicuNP6TrOehNsclkwCxcZicyEyhhmxGVTq0IgI/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___08讲_抗饱和实战_(I)____钳位法与条件积分法_images/img_001_39daeb81bd9b.png)
 
 请各位同仁看最上面的第一张子图，在 t = 0.4s 的刹车时刻发生了什么：
 

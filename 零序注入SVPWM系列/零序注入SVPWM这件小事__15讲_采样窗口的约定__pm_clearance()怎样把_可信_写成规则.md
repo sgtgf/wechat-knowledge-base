@@ -85,7 +85,7 @@ void pm_clearance(pmc_t *pm, int xA, int xB, int xC)
 
 严格按照 pm\_clearance() 的逻辑，用if/else和逻辑运算符，搭建一个能根据前后两拍CCR值，输出 vsi\_AF, vsi\_BF, vsi\_CF, vsi\_IF 标志的模块。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARHVXOGStK33AWYVAG8O278h0anGlbRgHS57Ad6kg2HSr55eHK3kdJsUIbQRDicV8WJMWuH6YsrKD3clty4dpicRqkonbydj5ZpU/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__15讲_采样窗口的约定__pm_clearance()怎样把_可信_写成规则_images/img_000_6aab9bbbc2f6.png)
 
 2.  **信号源与噪声模块**
     
@@ -95,7 +95,7 @@ void pm_clearance(pmc_t *pm, int xA, int xB, int xC)
 -   模拟开关噪声。当某个相的“干净”标志位（比如vsi\_AF）为0时，就在这一相的理想电流上，叠加一个随机的高频噪声。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQm82buW4UnKuxK5o3yyVE417dU4mWtED6x3czKBOvQtW4cu2QBgicOm85aJHlHtjSyDRhqdRZ5YZHe9RbeH8ryibqDSEp3UcUJQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__15讲_采样窗口的约定__pm_clearance()怎样把_可信_写成规则_images/img_001_1187e037f9c2.png)
 
 3.  **两条并行路径：**
     
@@ -105,28 +105,28 @@ void pm_clearance(pmc_t *pm, int xA, int xB, int xC)
 -   **路径B（有质检）**：根据 vsi\_IF 标志，如果为0，就保持上一次的有效电流值；如果为1，才更新电流反馈。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQ4kKGREMXMpOtSu8iaQumDIibLQLf9Ln8OnadzSWCyY0kGJ7KhRYG5FU9HBPic5TvG2f3I3UYjf0A8El1jRjhCC2doxFVj8VwsC8/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__15讲_采样窗口的约定__pm_clearance()怎样把_可信_写成规则_images/img_002_abaa40d51eea.png)
 
 4.  **观测结果**
     
 
 我们先来看下Scope\_Inspector的结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQnuJdpicnBLicEk1N5fFM2d6OVqiadLyucqCZ8UNqwR99aTBXsUnCvL8dxXRibUHKepSOURQ8ic9h6ibp1mKygOYlA8TLDYdvEIOP9w/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__15讲_采样窗口的约定__pm_clearance()怎样把_可信_写成规则_images/img_003_42f8a32b9638.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATiaKiavzyWHPhSCrroccqLU0RFPjr4VM6ov2mibPt4eD8yedWRnEPkwUsRicz8GJVSQt7iaeM3myeCuV4SkzSEjJyQNVolXYuLKia9A/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__15讲_采样窗口的约定__pm_clearance()怎样把_可信_写成规则_images/img_004_b957d4ccc64c.png)
 
 从上图可以清晰看见，标志位为 **1** 的时间远多于为 **0** 的时间，也就是说，只有当 PWM 占空比超过 **90%** (4500/5000) 时，才会触发“不干净”标志。这证明了 pm\_clearance 逻辑正在正确地监控 PWM 的“高占空比禁区”。它就像一个只有在极端情况下才会拉响的警报器。
 
 更具体的，可以查看Scope\_Comparison示波器的波形：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARGiajfibicmxNg3NL3QVgWaVicT2jBS90ypSiaHicSCv4ibPCCC6aXweT5gbs0jibIYWCNrCE7llyic1ib5SH7ibVDnmkQRkN5jlCRjzlF3Y/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__15讲_采样窗口的约定__pm_clearance()怎样把_可信_写成规则_images/img_005_f7cf5467389b.png)
 
 **在存在信号毛刺的采样禁区，**pm\_clearance**直接把信号给“削平”了。**这就是 pm\_clearance 的核心价值：**与其吃有毒的饭（噪声数据），不如饿一顿（保持旧值）**。
 
 为了方便各位同仁动态体会这个过程，文末又增加了一个封装成库的模型，直接修改相关参数，能体会到不同的噪声值与pm\_clearance 的灵敏度对采样造成的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATw3UVuE7xbZ0u3ZDG2JcOib3hbmTG9GKRZq8iaSaq1r8AtibyS0vKjqqbRrf9ZMvkicynETCZSCOgjK1hSlaqd4IfrCyMY9gD8U1U/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__15讲_采样窗口的约定__pm_clearance()怎样把_可信_写成规则_images/img_006_9693e645b0e5.png)
 
 以上这个实验，把 pm\_clearance() 这个“幕后英雄”的价值，体现得淋漓尽致。它就像一个经验丰富的门卫，虽然不直接参与生产，但它把所有的“危险品”都挡在了门外，保证了整个车间（FOC闭环）的安全、稳定运行。
 

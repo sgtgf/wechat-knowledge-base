@@ -12,15 +12,15 @@
 
 方波驱动的无刷直流电机，理想情况下其反电势应为上底宽度为120°的梯形，如下图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFz2xucnkO8kjEJHIexR7iaXmclJibhJX6ZrfxYhssAWlvhHslVVHn4wSX9N8jD9G0saKdbNSVIKibJw/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无感方波控制失效分析_因绕组续流造成的反电势检测失效_images/img_000_de382958e411.png)
 
 控制器对电机三相端电压进行AD采样，用以判断对应相反电势的过零点，理想情况下，三相端电压及对应相反电势过零点的关系如下图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFz2xucnkO8kjEJHIexR7iaXdj6aeAZL0ajVV18q0E7e93PMQyNSoUiaw18syz2FC9uHspoIFbYaYDA/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无感方波控制失效分析_因绕组续流造成的反电势检测失效_images/img_001_1eead1c98562.png)
 
 在120°方波控制方案中，360°电角度被分为为6个扇区，每个扇区内有且仅有两相绕组通电。以I、II扇区为例，在I扇区中，A、B两相绕组通电，且A相通正电，B相通负电。当电机由I扇区切换到II扇区时，A、C两相绕组通电，且A相通正电，C相通负电。此过程中，因绕组电感的存在，B相绕组电流不能突变为零，而是需要一段时间逐渐减小至零。这段时间称为消磁时间，或者续流时间。因此，实际中的端电压，波形示意图如下。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFz2xucnkO8kjEJHIexR7iaXTFeVmdN2LRibKB1rIvKa1ssSgsQ9Tibl4SdCMMwhkQ2W4fv0xnErAcicA/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无感方波控制失效分析_因绕组续流造成的反电势检测失效_images/img_002_9346f37fffef.png)
 
 可见，消磁（续流）现象的存在，严重的情况下会湮没掉过零点，进而造成电机换相失败。
 
@@ -36,7 +36,7 @@
 
 该方法的优点是原理简单，易实现，缺点是当电机转速过低，或者母线电压相对较低，亦或电机时间常数相对较大时，过零点检测时间窗口过窄，依然会导致检测失败。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFz2xucnkO8kjEJHIexR7iaX1xJEhn2jyMV040qq9ibBtjibvw87Ws40xCfc1N0LkDe7B06eFmf2KANg/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无感方波控制失效分析_因绕组续流造成的反电势检测失效_images/img_003_c1ba8cfde76d.png)
 
 所谓主动消磁，其核心思想是在消磁（续流）时间内，在消磁的绕组上施加最大的反向电压，进而加速消磁（续流）过程，使得反电势过零点检测窗口得以最大化。
 
@@ -44,11 +44,11 @@
 
 以IV扇区为例，按照目前驱动器上桥臂斩波，下桥臂常通的PWM方案，PWM ON状态下的激磁电流和PWM OFF状态下的续流电流分别如图中的实线和虚线所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFz2xucnkO8kjEJHIexR7iaXUF2QTcUvI0ABETVrictCIZ59ovgMwtZInuG6mMHApKgh4cd9KWuTGibg/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无感方波控制失效分析_因绕组续流造成的反电势检测失效_images/img_004_0fb889b82394.png)
 
 当电机的换相次序从IV扇区（B＋A－）向V扇区（C＋A－）转变时，B相上桥臂开关管T2关闭，C相上桥臂开关管T4导通。在换相初期，因电机绕组相电感的作用，B相续流电流逐渐减小，C相激磁电流逐渐增大。当T4导通时，电流情况如下图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFz2xucnkO8kjEJHIexR7iaXDQ5oVzQ4icjIfTziblIWxdibqdIg9rrZwTO4BI16GKWRx3Mld3ibcSdbNA/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无感方波控制失效分析_因绕组续流造成的反电势检测失效_images/img_005_d7ae3962658d.png)
 
 此时，容易证明：
 
@@ -58,17 +58,17 @@ B相端电压为0；
 
 前已阐述，为了加速退磁时间，核心方法是加大（与续流方向相反的）反向电压。在上例中，续流电流（虚线）从B端流入，中性点N端流出至A端，再经开关管T3至地。因此，为了加速B相绕组的续流过程，唯一可行的方案是提高中性点N端（对地）电压。而N点（对地）电压的大小是和PWM信号究竟是应用在上桥臂开关管还是应用在下桥臂开关管相关的。容易证明，在V扇区中将PWM信号应用于下桥臂，即T3，PWM OFF状态下（电流状况如下图所示）中性点N端（对地）电压最大，为 （2Udc/3）。若将PWM信号应用于上桥臂，即T4，则PWM OFF状态下中性点N端（对地）电压为0V。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFz2xucnkO8kjEJHIexR7iaX5369Bm2hhzhuNsSwiayXVC8nfNAZVs03TdDOQRz9VTKut4wxeiakIlvQ/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无感方波控制失效分析_因绕组续流造成的反电势检测失效_images/img_006_4b6c654a7cb9.png)
 
 同理可证，除了在扇区V以外，在扇区I和扇区III中，将PWM信号应用于下桥臂开关管可以加速退磁。
 
 再以III扇区为例，按照目前驱动器上桥臂斩波，下桥臂常通的PWM方案，PWM ON状态下的激磁电流和PWM OFF状态下的续流电流分别如图中的实线和虚线所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFz2xucnkO8kjEJHIexR7iaXFPxxUgCv13RRDPIxPqvnO1LXiaugnPrNkWicZjHKPfMVP9ugeRzWEPcg/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无感方波控制失效分析_因绕组续流造成的反电势检测失效_images/img_007_48c3455b422f.png)
 
 当电机的换相次序从III扇区（B＋C－）向IV扇区（B＋A－）转变时，C相下桥臂开关管T1关闭，A相下桥臂开关管T3导通。在换相初期，因电机绕组相电感的作用，C相续流电流逐渐减小，A相激磁电流逐渐增大。当T3导通时，电流情况如下图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFz2xucnkO8kjEJHIexR7iaXgDP12j8S8wlQhDTiaATW2c0UUWcA85CLhfpcy8DjeC4Qmy7icg3TtlKQ/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无感方波控制失效分析_因绕组续流造成的反电势检测失效_images/img_008_09b24d8f9bb6.png)
 
 此时，容易证明：
 
@@ -78,7 +78,7 @@ C相端电压为Udc；
 
 前已阐述，为了加速退磁时间，核心方法是加大（与续流方向相反的）反向电压。在上例中，续流电流（虚线）从B端流入，中性点N端流出至C端，经续流二极管D4至。因此，为了加速C相绕组的续流过程，唯一可行的方案是降低中性点N端（对地）电压。而N点（对地）电压的大小是和PWM信号应用在上桥臂开关管还是应用在下桥臂开关管相关的。容易证明，在IV扇区中将PWM信号应用于上桥臂，即T2，PWM OFF状态下（电流状况如下图所示）中性点N端（对地）电压最小，为Udc/3。若将PWM信号应用于下桥臂，即T3，则PWM OFF状态下中性点N端（对地）电压为Udc。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFz2xucnkO8kjEJHIexR7iaXmBtYwk1FpRVdBsOHBibqVnzjnnbIrD36XVfEOm9OJ9UuicahFfVic1qQA/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无感方波控制失效分析_因绕组续流造成的反电势检测失效_images/img_009_5a0bcdf5b1ca.png)
 
 同理可证，除了在扇区IV以外，在扇区II和扇区VI中，将PWM信号应用于上桥臂开关管可以加速退磁。
 
@@ -151,4 +151,4 @@ T4
 
 如下图配置PWM，可加速消磁（续流）过程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFz2xucnkO8kjEJHIexR7iaXgxMNhlL8eQk6M40yeg10EUVXDmibduHAn9D3rbDmTsZTJR11ZemQATQ/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无感方波控制失效分析_因绕组续流造成的反电势检测失效_images/img_010_e518af3d944f.png)

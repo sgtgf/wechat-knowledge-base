@@ -87,11 +87,11 @@
 
 下面的PI调节器是“对照组”（带抗饱和的PI控制器），使用了**反算跟踪法**，核心模块已被标绿，把“**实际给电机的电压**”与“**PI算出的理论大电压**”做差。当阀门没卡死时，两者相等，差值为0，积分器正常工作；**一旦阀门卡死在 400V，而 PI 算出了 50000V，此时会产生一个巨大的负向差值，我们将这个差值乘上一个系数，直接“倒灌”回积分器的入口，强行把积分器肚子里的水抽干，实现“主动泄压”。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATnmD9PwM7eAzU1Lk3Yptp2EdaJljLmClNoX2gG3j2np8HoAnnu0Y2WWQxZyDQ9AIM9WDFqoynShJTMJzkeW0q7Pkny26P0u7Q/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___07讲_积分饱和_(Windup)_的物理本质与危害_images/img_000_0d9e03794fc8.png)
 
 我们最后看一下仿真结果：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAS6xgzuXZJ5IIuTpL4xFvA62WNNG8Cwtuch12yemI43JVZIBqZN6PX06nmaBFLuicaOk7ukKP3D8zQHCR7tiaCyEJCjhupqpEm6k/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___07讲_积分饱和_(Windup)_的物理本质与危害_images/img_001_04799189656a.png)
 
 我们首先看最上面的视窗：
 
@@ -107,7 +107,7 @@
 -   **蓝线（有抗饱和）**： 如果仔细观察这条极其贴近0轴的蓝线，它在电机加速阶段（0.5s~0.9s）**并不是0，而是处于一个正负震荡的区间！**为什么会这样？这是反算跟踪（Back-Calculation）算法的物理体现。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARtUktsBPgOye2D1dlGckYHNkxgCWiaLEvy4RShBRP5nibZXPNaGnuMl8ULPPMcCFyQe1gotRicBGv6FXW8zo8TK8EmoGkZGA58LU/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___07讲_积分饱和_(Windup)_的物理本质与危害_images/img_002_3661ca7a90ee.png)
 
 我们最后看下最下面的视窗：
 

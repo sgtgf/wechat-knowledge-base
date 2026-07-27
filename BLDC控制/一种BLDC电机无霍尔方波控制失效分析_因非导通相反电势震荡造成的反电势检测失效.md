@@ -10,7 +10,7 @@
 
 对于某些电气时间常数 τ（τ = L/R）较大的电机，采用无霍尔方波120°导通控制方式时，电机非导通相在非换相区间存在严重的反电势电流续流问题，这种续流会湮没掉非导通相反电势的过零点，致使换相失败。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREm1I1wia8FaxRgArBAk1rGzv5nyMFUrSUSD8q3MG90ucWYYI2KGUahSAmhzBFTEgeLUjMEVZJG11Q/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无霍尔方波控制失效分析_因非导通相反电势震荡造成的反电势检测失效_images/img_000_773e6dc31c2c.png)
 
 非导通相的相反电势的震荡，严重时会湮没掉过零点。
 
@@ -32,11 +32,11 @@
 
 在双边（管）调制方式中，功率开关动态功耗是单边（管）调制方式中的两倍。与单边（管）调制方式相比，双边（管）调制方式降低系统效率，给散热带来困难。同时，与单边（管）调制方式相比，双边（管）调制方式在PWM信号关断时电流下降率快，导致在相同的直流母线电压和占空比条件下，稳态时平均电流小，从而平均转矩和实际的转速也小\[1\]。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREm1I1wia8FaxRgArBAk1rGzgfbDYV6ltA0G0klHbq240kXkV1csdqRVhOqDO8xBap1iaX76VeTM8kQ/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无霍尔方波控制失效分析_因非导通相反电势震荡造成的反电势检测失效_images/img_001_db76864dc0f5.png)
 
 随着PWM调制方式的不同，在每一相关断期间，关断相反电动势电流出现的时间和幅值也不一样，如下图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREm1I1wia8FaxRgArBAk1rGzYvOyA545pvsicqEgJziczaicLmflcuZpicEAa3FoP6ndL7uhuQOjiaBtjMA/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无霍尔方波控制失效分析_因非导通相反电势震荡造成的反电势检测失效_images/img_002_6783dbba35c0.png)
 
 结论：
 
@@ -51,7 +51,7 @@
 
 然后，按照如下方式实现电机的换相：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREm1I1wia8FaxRgArBAk1rGzZ5sATuF52G3WiaDng4iaKmaZ88zerIdTZxeT638gtqhvQibVrqCu6x4vg/640?wx_fmt=png&from=appmsg)
+![](一种BLDC电机无霍尔方波控制失效分析_因非导通相反电势震荡造成的反电势检测失效_images/img_003_e0e87932a484.png)
 
   
 

@@ -29,7 +29,7 @@
 
 可我们与梁惠王一样，都忽略了孟子真正想问的那个问题：**为什么总要面对“凶年”？**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARuI9JggV68UnRicVxMzhIMibTHu1c87j8lSUQoAnic4CLFX12vkGRWEyg0Pp8ANeV0dCMul4Lrt7TEN4yibtvcsAOs9INH1roH7kc/640?wx_fmt=png&from=appmsg)
+![](代码的尽头是物理_一名FOC算法工程师的_孟子_式拷问_images/img_000_cf665c7b291c.png)
 
 **第一性原理：问题的守恒定律**
 
@@ -43,7 +43,7 @@
 
 我们引以为傲的死区补偿、转矩脉动抑制、在线参数辨识……这些看似高深的算法，有多少不是在为硬件的“先天不足”而做的“后端理疗”？它们的复杂性，正是硬件缺陷的直接投影。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAT0IbGZmmDkv4L3WoYuUp8S8T8vOLmgbf3n34HDcxSOfpK8Yumrkb44oF2BjHZFQG112XQBibuZ9tv6LPm2AvDSZ6ZzBlmQrXmk/640?wx_fmt=png&from=appmsg)
+![](代码的尽头是物理_一名FOC算法工程师的_孟子_式拷问_images/img_001_4b659d22b5a9.png)
 
 **系统成本：你省下的BOM，终将变成昂贵的“人**”
 
@@ -57,7 +57,7 @@
 
 别让你的软件团队，成为公司里最“尽心”的梁惠王。他们越“尽心”，说明你的“土地”越贫瘠。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATrswNU2duv9zWwVENiawEkiaosiaxg2pobzzLCtEGLKRwIdsduY7uXR7Gg8OeBEGibptrCurAaE2MG6zK8sxafLt4UtjMte2bbJB4/640?wx_fmt=png&from=appmsg)
+![](代码的尽头是物理_一名FOC算法工程师的_孟子_式拷问_images/img_002_e2e970d62e0c.png)
 
 **工程师的价值：做“名医”，还是做“良医”？**
 
@@ -85,4 +85,4 @@
 
 代码的尽头是物理。愿我们所有的努力，不只为了在“霸道”的权谋中辗转腾挪，而是为了抵达那“王道”的澄明之境。那里，技术不再是修补的工具，而是创造的艺术。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASW1EuKHMgvSBIKqPgg4knbXfkg4EBY4lcnu4UPfCggg89icUxQLP4DHYxMEzc6Zic9kr8HXAlJ5oAmZmZWd7Zgrh8z23FhzACVI/640?wx_fmt=png&from=appmsg)
+![](代码的尽头是物理_一名FOC算法工程师的_孟子_式拷问_images/img_003_117f93829594.png)

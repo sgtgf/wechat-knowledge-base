@@ -46,9 +46,9 @@
 
 下面，请全体同仁，目光锁定这两张图！这就是咱们的“舞步分解图”！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGMv10uSU44R8xTrfD0NUnScGtxxPIhDjYdS95vst1cPIRwFQNB3j5fXLyWbqP1GRYRgxiaibU559AA/640?from=appmsg)
+![](拧巴_的艺术_如何让装了BLDC电机的小电驴跟自己较劲来发电_回血___images/img_000_b140e9c4d0f5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGMv10uSU44R8xTrfD0NUnSZWspxNUK2nllmlcvR17kusCE4REydT9t6vV0sxxUXom1XicdtL82uibQ/640?from=appmsg)
+![](拧巴_的艺术_如何让装了BLDC电机的小电驴跟自己较劲来发电_回血___images/img_001_a5949a5f2369.png)
 
 咱们以区域I (Region I)为例，看看这个舞是怎么跳的。
 
@@ -78,7 +78,7 @@
 
 请全体同仁们，再次将目光转向这张刑侦现场般的波形图！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRGMv10uSU44R8xTrfD0NUnS3ratYmOcg4pnqKics54iabibODuz97UjHX0xltjeqqsSueTbZ5NicuE0SA/640?from=appmsg)
+![](拧巴_的艺术_如何让装了BLDC电机的小电驴跟自己较劲来发电_回血___images/img_002_f680d9e06632.png)
 
 看下面放大的小图 (ZOOM)：
 

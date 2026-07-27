@@ -27,7 +27,7 @@
 
 你看图3(a)，这个梯形波（Back-emf）就是秋千的“势头”，它有一个很宽的“平台期”，意思是秋千荡到最高点附近，速度最慢，最适合我们发力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREaCwPrN1ZlibsbHcBH8AqvS3VotB0JkicvOQp9ME7woprEDFl8KaobgcxE2BWd8ol3ic3lO1icsIUw2g/640?from=appmsg)
+![](当FOC遇上梯形波反电势的BLDC电机_我们是否一直在_错误_的道路上做_正确_的优化__images/img_000_83b248c6ae38.png)
 
 “方波电流”（Current）就是一种简单粗暴的推法：等秋千到了那个点，我咣当一下，用最大的力气猛推一下！你看，这个电流波形像个方块，简单直接。
 
@@ -35,13 +35,13 @@
 
 你看图3(b)，在α\-β二维坐标系里，秋千的势头（黑色六边形轨迹）是连续变化的，但我们的推力（蓝色点）却是在几个点之间“瞬移”、“跳跃”。这俩能配合好吗？显然不能。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREaCwPrN1ZlibsbHcBH8AqvSIeQVp2rLPeWpKkiaR2FtX6KwsHlb8tB0DlyaqHQPt2hTeh1kXYf7ZOA/640?from=appmsg)
+![](当FOC遇上梯形波反电势的BLDC电机_我们是否一直在_错误_的道路上做_正确_的优化__images/img_001_ed14775b5e51.png)
 
 办法二：正弦波电流（高手推法，但用错了地方）
 
 有人说，那我用一种“丝滑”的力气去推，像推普通秋千一样，用一个完美的正弦波怎么样？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREaCwPrN1ZlibsbHcBH8AqvSCo6Zf6LRzdn349ONglrj5CanqGYiaKpSQF5H3FMmCbhria48MvIkwCjQ/640?from=appmsg)
+![](当FOC遇上梯形波反电势的BLDC电机_我们是否一直在_错误_的道路上做_正确_的优化__images/img_002_2319ff56eb89.png)
 
 问题又来了！你看，我们的这个BLDC“秋千”，它的“势头”是梯形波，不是标准的正弦波。你用推普通秋千的方法来推这个“特制秋千”，节奏对不上！该发力的时候你力气不够，不该发力的时候你还在使劲。结果呢？秋千还是会晃晃悠悠，产生转矩脉动。如图4(a)下方所示，这个转矩τs波动得很厉害。
 
@@ -55,7 +55,7 @@
 
 必须能啊！你看图5(b)，这个黄色的轨迹，就是“瓣波电流”。它不再是傻傻地跳跃，也不是一个标准的圆，而是像一朵花瓣一样，努力地去追踪那个黑色的六边形轨迹。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREaCwPrN1ZlibsbHcBH8AqvSZhj4DNs2uqZ3l4DRPcdcGugAJKAG3kmg98mibQjuHBL8XLOlQm6zpIQ/640?from=appmsg)
+![](当FOC遇上梯形波反电势的BLDC电机_我们是否一直在_错误_的道路上做_正确_的优化__images/img_003_b4ae77499857.png)
 
 这一下，配合默契了！结果就是，转矩平滑了，秋千稳了！
 
@@ -75,7 +75,7 @@
 
 我们来看全文中最关键的公式，原文的公式(10)：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREaCwPrN1ZlibsbHcBH8AqvSVUbfebcXcr0vYmf09KibCicNPCibYvAphKlh3naQaZtpatKlPMxC0Ptpw/640?from=appmsg)
+![](当FOC遇上梯形波反电势的BLDC电机_我们是否一直在_错误_的道路上做_正确_的优化__images/img_004_942fac838fc5.png)
 
 翻译成人话：
 
@@ -88,7 +88,7 @@
 
 你看图6(c)这张三维图，简直太漂亮了！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREaCwPrN1ZlibsbHcBH8AqvSZxQxpRibN4FDNdvQh3eq9bWtZbIIZ7Z699EDSqjNLsib5O9V8preVrvw/640?from=appmsg)
+![](当FOC遇上梯形波反电势的BLDC电机_我们是否一直在_错误_的道路上做_正确_的优化__images/img_005_87c856accb15.png)
 
 橙色的线（Back-emf）是反电动势在三维空间里的轨迹，它一直在α\-β平面和0轴平面来回穿梭。而蓝色的线（Current），就是我们设计的“3D瓣波电流”，它像一条三维空间中的灵蛇，完美地追随并匹配着橙线的每一个动作！这才是真正的“人机合一”啊！
 
@@ -100,7 +100,7 @@
 
 看图8，这个图的纵坐标是“能量损耗”，纵坐标越低越省电。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREaCwPrN1ZlibsbHcBH8AqvSuOFqTUh21rPED1ol8iaNRpQAIBO9dj7ibiblgcg18V6x5xWIH7Wic4icHXg/640?from=appmsg)
+![](当FOC遇上梯形波反电势的BLDC电机_我们是否一直在_错误_的道路上做_正确_的优化__images/img_006_a647a1c57c06.png)
 
 -   蓝色（方波）：损耗最高，咱们把它设为基准“1”。
     
@@ -117,7 +117,7 @@
 
 根据文章的计算（Table I），在保证电机发热情况相同（即RMS电流相同）的前提下，使用“3D瓣波电流”，电机输出的转矩，比使用传统的方波电流能高出大约 7.2%！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREaCwPrN1ZlibsbHcBH8AqvSz5eYuyqDLKRIwmCGTtxcEVU2niaicHIVZb27jC6RHdic7hviaZ4utDR12A/640?from=appmsg)
+![](当FOC遇上梯形波反电势的BLDC电机_我们是否一直在_错误_的道路上做_正确_的优化__images/img_007_a40675f837ba.png)
 
 这是什么概念？这意味着你的电动车，在电池和电机不变的情况下，光靠升级控制算法，续航就能变长，加速还能变猛！
 

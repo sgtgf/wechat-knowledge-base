@@ -38,7 +38,7 @@
 
 这是我们老朋友PID的公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHKWAwcN2TfmA3ciaPgn9ENibtjNnKUDXicchdunxf5hfGQBkz2vQ3BxibylqNWvhjd0mpXO1iae2UHic6g/640?from=appmsg)
+![](电动车用BLDC电机控制器的心脏手术_PID老矣_尚能饭否__images/img_000_34e392a7a40a.png)
 
 -   Uc(s) 是控制器要给电机的指令。
     
@@ -49,13 +49,13 @@
 
 现在，看天才TID的公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHKWAwcN2TfmA3ciaPgn9ENibfCxksqQEqiaia99m4dLqFlVFR2xnMKYTDffC3ZzPKTAYqic6YmsBKZbWQ/640?from=appmsg)
+![](电动车用BLDC电机控制器的心脏手术_PID老矣_尚能饭否__images/img_001_c743fe117ab5.png)
 
 大家发现区别了吗？
 
 对！就是第一项不一样了！PID的Kp（比例项）被换成了一个奇怪的 KT/s^(1/n)。这个1/s^(1/n) 是什么鬼？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHKWAwcN2TfmA3ciaPgn9ENib9tibdBushKtmHYxnHTCGeOtCibEfYjbdWbuVvmAGPfric7CZM4kzorptQ/640?from=appmsg)
+![](电动车用BLDC电机控制器的心脏手术_PID老矣_尚能饭否__images/img_002_e10101409ef5.png)
 
 图(a)是PID，图(c)就是我们的主角TID。看，就是P环节那里动了手脚
 
@@ -81,7 +81,7 @@
 
 成绩单1：赛道追踪能力
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHKWAwcN2TfmA3ciaPgn9ENibFYxiaCzp5ibxic9Fav83V9p0bib1Y3XufFDhwr0baLfDn9GOLNYAYSnrog/640?from=appmsg)
+![](电动车用BLDC电机控制器的心脏手术_PID老矣_尚能饭否__images/img_003_595c2f6f4fb5.png)
 
 这张图的上半部分是“目标赛道”（预设的速度变化），下半部分是三位“司机”的实际表现。大家看！绿色的TID线，绝不会发生速度突变的情况！而红色和蓝色的线，虽然准确跟上了速度指令的节奏，但坐在车上的司机容易晕车哪。
 
@@ -89,7 +89,7 @@
 
 成绩单2：能量消耗
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHKWAwcN2TfmA3ciaPgn9ENibicZjzIkAIw1WNiaZOMKsIwczMuakVCt2EXFdOkvQwLAYAuXnXko8J6pA/640?from=appmsg)
+![](电动车用BLDC电机控制器的心脏手术_PID老矣_尚能饭否__images/img_004_7286db027f0e.png)
 
 这张图是电池剩余电量（SOC）的变化。线越高，说明越省电。在比赛的后半段，绿色的TID线明显在最上面！
 
@@ -97,7 +97,7 @@
 
 成绩单3：乘坐舒适度
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHKWAwcN2TfmA3ciaPgn9ENibmakhiaWwKMXvf35sazKaehQ2J5nibTsenK6SZxawyJjKBq856E3gHF1g/640?from=appmsg)
+![](电动车用BLDC电机控制器的心脏手术_PID老矣_尚能饭否__images/img_005_b4ff936047b7.png)
 
 这张图是电机的输出力矩（转矩）。这个力矩越平滑，车子开起来就越稳，不会“蹿”。你们看，蓝色和红色的线有很多“毛刺”，一抖一抖的。而绿色的TID线，像丝一样顺滑！
 
@@ -107,19 +107,19 @@
 
 工程师们说：“电脑上跑得好有啥用？我得把它真做出来！”于是他们就用Arduino（一个大家都能玩的微型电脑板）和一些电路元件，搭了一个真实的实验台。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHKWAwcN2TfmA3ciaPgn9ENibk17L0al5KHS3ZibGwzhicdyib6X5daEmvkRz20MUo4BjESlS0XQ6Zib2icw/640?from=appmsg)
+![](电动车用BLDC电机控制器的心脏手术_PID老矣_尚能饭否__images/img_006_0ee366a29772.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHKWAwcN2TfmA3ciaPgn9ENibG7zmWAPjyW7Tj9jeVLVj2yY2Xq3cmtcia0CSUjTlNiaK1ZTEiaEE2cEag/640?from=appmsg)
+![](电动车用BLDC电机控制器的心脏手术_PID老矣_尚能饭否__images/img_007_7fca1ebe2cf1.png)
 
 这就是他们DIY的“最强大脑”和驱动系统。看着是不是有点简陋？但高手在民间，功能强大就行！
 
 他们把电机接上，用示波器一看，嚯！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHKWAwcN2TfmA3ciaPgn9ENibhjRaR6qzfqrQObkUicMKQSXS9rmI0nMmiauQ2ZRicY1q7ObttOEHhHFGA/640?from=appmsg)
+![](电动车用BLDC电机控制器的心脏手术_PID老矣_尚能饭否__images/img_008_4901834eced0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHKWAwcN2TfmA3ciaPgn9ENiblkPlSDYJdIM3JnvkialkpSkGBykcrc1dZFQ0M6stQLzOtbYQxJalNJA/640?from=appmsg)
+![](电动车用BLDC电机控制器的心脏手术_PID老矣_尚能饭否__images/img_009_b1b545c641f5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHKWAwcN2TfmA3ciaPgn9ENibCC4dPVy6jnSjnDHcY3BH7hjeGg0JRxy5RCEVqPUXic5jgRTiayeuTtUg/640?from=appmsg)
+![](电动车用BLDC电机控制器的心脏手术_PID老矣_尚能饭否__images/img_010_3b1677d284cc.png)
 
 这三张图是在不同速度下，示波器捕捉到的三相电压波形。你们看，这波形是不是很规整？三个波峰之间正好差了120度，就像奔驰的标志一样完美。这说明，他们DIY的TID控制器，成功地、精确地指挥着电机在转动。而且，实验结果和电脑仿真的结果高度吻合！
 

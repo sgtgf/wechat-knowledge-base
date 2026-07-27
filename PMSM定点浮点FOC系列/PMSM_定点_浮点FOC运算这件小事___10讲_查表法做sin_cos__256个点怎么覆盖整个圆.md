@@ -73,7 +73,7 @@ int16_T intrp1d_s16s32s32u32u32n16l_f(uint32_T bpIndex, uint32_T frac,
 
 以上代码，在数学上其实就是一行：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARVEjN161TicbT2VJJOouFZbqiau4BhBgU715RibrVy5zfYpyDPmW7GjUutTAq4Y323I2HMX9t4qtct6BkwLib8fmc5ibHPedu11CIg/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___10讲_查表法做sin_cos__256个点怎么覆盖整个圆_images/img_000_ea2caaf45aae.png)
 
 定点版本把小数frac写成Q16格式（就是上一步左移10位得到的那个东西），所以乘完之后要`>> 16`把格式搬回来——这是[第4篇](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247486177&idx=1&sn=948819bb60e37f1186a91480aab0232a&scene=21#wechat_redirect)讲过的Q格式运算基本规则。
 

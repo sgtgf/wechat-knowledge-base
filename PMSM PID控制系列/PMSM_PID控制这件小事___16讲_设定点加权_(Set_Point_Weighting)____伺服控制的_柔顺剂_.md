@@ -107,7 +107,7 @@ m_DetaFreq = ((s32)gMainCmd.FreqSet<<9) - gAsr.FreqSet;
 
 今天的文章内容，在Simulink中，使用同一张画布一对比便知分晓：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARjd44sER1V7bFJe5x6qibrpHDsT2ia31d3DPuic7xsqU47hUhtib8K7G4t6Fs6Uf4xte6EV3jvtfG6bWextDibA3sicK1wUUIqibEStk/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___16讲_设定点加权_(Set_Point_Weighting)____伺服控制的_柔顺剂__images/img_000_d7156a0d303e.png)
 
 -   **动作指令（Reference）**：在 t = 1s 时，给一个巨大的**阶跃（Step）指令**。用来触发“比例冲击”。
     
@@ -125,7 +125,7 @@ m_DetaFreq = ((s32)gMainCmd.FreqSet<<9) - gAsr.FreqSet;
 
 我们先来看下位置跟随与抗扰对比（Scope\_Position）的结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARRUetCru1uZRnSnLpwLXAME1ibyibcYtD0dKosy4des7HWCDibvMJq5vtBDsPUCgyMEV6wAbXgurSuCMxbFkw6I3icnoKMcI4FMFs/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___16讲_设定点加权_(Set_Point_Weighting)____伺服控制的_柔顺剂__images/img_001_c5e49335ce08.png)
 
 各位同仁注意看 t = 1s 处：
 
@@ -140,7 +140,7 @@ m_DetaFreq = ((s32)gMainCmd.FreqSet<<9) - gAsr.FreqSet;
 
 我们最后看一下**比例冲击**（Scope\_TorqCmd）的仿真结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASvcPxSg2gaOTia80q3iatNJWqNLmxkGJfJDceP6YzXO2Tg3zWtLbqzmtXDpN7VrgC5c6sOcgRQebvjyfOrGOdIKR5hM0JSCt5kk/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___16讲_设定点加权_(Set_Point_Weighting)____伺服控制的_柔顺剂__images/img_002_f032c2c427c9.png)
 
 -   **黄线（旧算法）**：在 t = 1s 时，常规 PI 控制器的输出产生了一根高达 **50 Nm 以上的擎天巨刺！**对于电机的电流环或是机械轴来说，这瞬间的几倍过载指令就是毁坏机械连轴器、产生刺耳异音的罪魁祸首。
     

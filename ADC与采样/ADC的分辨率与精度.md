@@ -38,13 +38,13 @@
 
 案例1（图1）：一个12-bit的ADC，因为存在[积分非线性误差（](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247483720&idx=1&sn=bf4cecf365148440fefe5df8ff545d3e&scene=21#wechat_redirect)[INL](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247483720&idx=1&sn=bf4cecf365148440fefe5df8ff545d3e&scene=21#wechat_redirect)[）](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247483720&idx=1&sn=bf4cecf365148440fefe5df8ff545d3e&scene=21#wechat_redirect)，某个AD输出码的误差达到了4LSB。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREk6eOr5vTSXThulx9DVLsNJRByJCT2Mke8lAf5ibciaiaImhibXNgvj0Ik60Ric4HaUYfMuuUEqzdWaQw/640?wx_fmt=png&from=appmsg)
+![](ADC的分辨率与精度_images/img_000_b31530534f03.png)
 
 图1 12-bit ADC示例
 
 根据公式（误差值Error以LSB为单位）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREk6eOr5vTSXThulx9DVLsNuwdkBhJScyaXict1kezyQ4wkAVgy3F6FEcQa50O86EdI9kfzaEicGQicA/640?wx_fmt=png&from=appmsg)
+![](ADC的分辨率与精度_images/img_001_d752c6552546.png)
 
 计算结果为：
 
@@ -57,7 +57,7 @@
 
 案例2（图2）：一个3-bit的ADC（只有8个码），它的最大INL误差只有0.125 LSB。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREk6eOr5vTSXThulx9DVLsN7ZRfmRz4QIY9vDLLzlL2oOyic2jogTJce3ehubg1AaVWHJ3P0qQOqwQ/640?wx_fmt=png&from=appmsg)
+![](ADC的分辨率与精度_images/img_002_64aa3b8fd581.png)
 
 图2 分辨率为3 bit的ADC曲线示例
 
@@ -88,7 +88,7 @@
 
 2.**第二级 -** **细量化 (Fine ADC)****：**像一个精细的“测量员”，专门负责测量第一级留下的那个残余信号（低位码LSB）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREk6eOr5vTSXThulx9DVLsN0F2CeQgBa4jhGbRHe4ODj3EdCZmYQeJN6klMFHhDb20aFWKCyqG4wQ/640?wx_fmt=png&from=appmsg)
+![](ADC的分辨率与精度_images/img_003_2f14fff4e276.png)
 
 图3 从 ADC 输入信号中减去 DAC 输出信号所得到的“残余”信号示意图
 
@@ -102,7 +102,7 @@
 
 将图3的概念扩展，可以得到图4的完整的系统结构：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREk6eOr5vTSXThulx9DVLsNk9JJz93L9uRDRjAPZzKClVGHKnWMtXlt66TYZra9JJic0eehvQTVxnA/640?wx_fmt=png&from=appmsg)
+![](ADC的分辨率与精度_images/img_004_9528f50fc4ad.png)
 
 图4 Sub-range或Two-step ADC的系统框图
 
@@ -114,7 +114,7 @@
 
 计算公式为（单位通常为LSB）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREk6eOr5vTSXThulx9DVLsNqZyrdM8GHL2yQ7NdYXn2dRHERtBDqEmasT9HeB6bicElUActpdIDIKQ/640?wx_fmt=png&from=appmsg)
+![](ADC的分辨率与精度_images/img_005_4da1fc6bfaa0.png)
 
 计算举例：一个12-bit ADC：Offset Error = 2.5LSB，Gain Error = 3LSB，INL = 3LSB，则有：
 

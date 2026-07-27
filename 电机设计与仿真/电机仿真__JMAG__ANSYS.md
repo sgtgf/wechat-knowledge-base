@@ -6,14 +6,14 @@
 
 #电机仿真 #JMAG #ANSYS
 
-![图1](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFmKtOuGmic4MlicjKr0ZdwTf54ZHYiaJmahpvJnGfyKOZXxrpCU8Hd4h21JRuzViac6E1iahEiciccdkJEQ/0?wx_fmt=png&from=appmsg)
+![图1](电机仿真__JMAG__ANSYS_images/img_000_6425bbed7534.png)
 
 图1
 
-![图2](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFmKtOuGmic4MlicjKr0ZdwTfYq4jfJG1GY84ZeGO9c9tnryRHnnQ8IzI7GtreiboC5kajDnjjpV6OUQ/0?wx_fmt=png&from=appmsg)
+![图2](电机仿真__JMAG__ANSYS_images/img_001_596792950d39.png)
 
 图2
 
-![图3](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFmKtOuGmic4MlicjKr0ZdwTfibcLh5wunOJEf0PibrVNA5dOPgVc9Wgm9a6Y68DuxshUDh9CNbTjIu9g/0?wx_fmt=png&from=appmsg)
+![图3](电机仿真__JMAG__ANSYS_images/img_002_17fcc60c2faf.png)
 
 图3

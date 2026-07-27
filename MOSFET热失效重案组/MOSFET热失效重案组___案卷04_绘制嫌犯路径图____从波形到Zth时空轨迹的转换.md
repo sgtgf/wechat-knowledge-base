@@ -32,7 +32,7 @@
 
 JESD51-14标准的4.1.4节，给出了将原始证据标准化的官方公式。对于冷却曲线，公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHEVpqeUqpv4Mg0QVwUia1qgSZsLDzicGHJkx7NtynFGqBarBudptwmytpOdvB59FLtVicuGg9JRRXDQ/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷04_绘制嫌犯路径图____从波形到Zth时空轨迹的转换_images/img_000_417a3cd78fb9.png)
 
 让我们把这个公式翻译成大白话：
 
@@ -135,7 +135,7 @@ Zθ(t) = (TJ0\-TJ)/ΔPH (K/W)
 
 将最后一列数据绘制在半对数坐标纸上，我们就得到了一条从左下角向右上角延伸，并最终趋于平缓的曲线。**这，就是一张标准的ZθJC(t)曲线！**这就是那颗STL115N10F7AG数据手册里Figure 3的“同款”地图。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHEVpqeUqpv4Mg0QVwUia1qgiaR4Cic1HZ78QaoXdibaFNHbOB00Mjpa7HYIhuepia9EGFfkM8RhHEQ7eA/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷04_绘制嫌犯路径图____从波形到Zth时空轨迹的转换_images/img_001_dbe7f8de0ac3.png)
 
 **第三项技术：确保证据质量——测量的关键细节**
 

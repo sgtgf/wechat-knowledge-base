@@ -24,7 +24,7 @@
 
 但是！一旦这个公式落地到咱们MCU的离散环境（数字世界）里，情况就变了。在代码里，最直接的微分计算方法叫做“向后差分法”，也就是用当前拍的误差减去上一拍的误差，除以控制周期：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASf45eLjfC25pAX5IhCE8hxEqWEEbBW0OHhicgVEPv1US3cTl80aIHgsmgwW4WE8t83NOVvhB4NoakdCPsFQqhR6XIJJoKzFicjI/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___05讲_微分的驯服（上）____直面噪声与差分的陷阱_images/img_000_b06308ed3a3c.png)
 
 各位同仁，陷阱就在这！我们在做电机控制时，速度反馈来自哪里？编码器或霍尔传感器的差分。这玩意儿是有**量化噪声**和**机械抖动**的。
 
@@ -32,7 +32,7 @@
 
 这时候，你的微分项输出会变成多少？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASqQYN7mPLQUugY84kdicsqaJyAicFG0eGwFiaW0vwndIoQJuQTmibsaPxg5s0OheMbt0ibhjIhPTE4KPgVzXIjna7kY36hCp21L8zU/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___05讲_微分的驯服（上）____直面噪声与差分的陷阱_images/img_001_d20d33baefb2.png)
 
 就因为编码器无意间哆嗦了一下，你的微分项瞬间放大了**1万倍**，算出一个巨大的力矩指令直接砸给无辜的电流环。这就是 **_Practical PID Control_** 第1.6.1节反复警告的严重问题：**纯微分（Pure Derivative）不仅没有预测未来，反而放大了噪声，它就是一个彻头彻尾的“噪声放大器”！**
 
@@ -94,11 +94,11 @@ tA = (pm->lu_mq_produce - pm->lu_mq_load) * m_fast_recipf(pm->const_Ja);
 
 以上文字即便讲解得再精妙，也不如自己动手实际测试一次，我们还是用simulink的模型来说明问题，看一下针对相同的电机模型，不同的PID算法，会对电机控制造成什么样的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARQHtUBgqrYvSse9TMcUDibbq3EQDN1ZNIHhnHeTAQHvfCeaibgdOxOoiaaEoFicnXrbbuNADabQtbguHlkdpCzz7vqO7gZedXpvN8/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___05讲_微分的驯服（上）____直面噪声与差分的陷阱_images/img_002_17d0cd55d47a.png)
 
 用一个简单的一阶惯性传递函数 1/(Js + B) 代表电机的机械特性就足够了，输入是电磁转矩，输出是真实转速。同时，给定**量化噪声**注入和**高频扰动**注入，通过在真实转速后接一个 **Quantizer（量化器）**来模拟编码器，以及模拟位置反馈的离散跳变情况，通过加入一个 **Band-limited White Noise（带宽限制白噪声）**，模拟机械震动或电气干扰。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQ11iciaawrgMxQau1NYDgyiazVxpJEldC1PkNbib4NjeicsIrLHgRdczibel1yialSUFo5ef5e1riaO5gP3MN7WBZeI5icObziaXiaUj6pPA/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___05讲_微分的驯服（上）____直面噪声与差分的陷阱_images/img_003_19a48bfe75cf.png)
 
 而在控制器算法区，为了对比，在模型里把输入信号分发给三个平行运行的控制器，它们分别代表本文中的三种方案：
 
@@ -109,11 +109,11 @@ tA = (pm->lu_mq_produce - pm->lu_mq_load) * m_fast_recipf(pm->const_Ja);
 -   控制器 C（代码A的算法）：微分模块的输入不再是误差 e，而是去取速度反馈的负值（Feed-back derivative），用于消除微分冲击(Derivative Kick)，使用负载观测器提取加速度，再将这个算出来的“平滑加速度”乘以 Kd 作为补偿。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAR8JnA55kgG5yw7CE5JicBrIJe5YrHz5hRY78HJ8X2cNMTmrCteCWvfbGKib7QxPRSZKRMxXE7fcSjvnLz11ZicxmSD1ZtUibXcVaY/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___05讲_微分的驯服（上）____直面噪声与差分的陷阱_images/img_004_f7d947c4109a.png)
 
 运行仿真，看下画布右侧3个scope的仿真结果：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATkXuiapLb81WcUupUkbDIzFibj5mWBxwRoCVBTuDtnYHTibPB9INeUJERZwqZLNF4WNxtYhqibAbCKfoia9FUXiaWceweMbbExeibXVs/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___05讲_微分的驯服（上）____直面噪声与差分的陷阱_images/img_005_0a495717dc97.png)
 
 各位同仁请看上图，这是关于加速度计算的仿真结果：
 
@@ -126,7 +126,7 @@ tA = (pm->lu_mq_produce - pm->lu_mq_load) * m_fast_recipf(pm->const_Ja);
 
 咱们再看下电机速度的仿真结果：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQ02chgYIiazyT373rIzBPlmVrviaV8eX9icGJyWaHY2W7GJjp6kcMGAukgiaBgb4KcWJDokdn3akkFYsvLXojoMkGnD8gRoFibxUDc/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___05讲_微分的驯服（上）____直面噪声与差分的陷阱_images/img_006_2ad42e3d607c.png)
 
 -   **黄色线（反面教材 - 纯 PID 算法）**： 从起步开始就狂魔乱舞，虽然加了限幅没让它数值爆炸，但速度波形极其恶劣。
     
@@ -135,13 +135,13 @@ tA = (pm->lu_mq_produce - pm->lu_mq_load) * m_fast_recipf(pm->const_Ja);
 -   **橘色线（代码A - 观测器 PD）**：起步非常平滑，没有超调，但是，到了 t = 0.4s ，面对同样的负载，它的速度**砸出了一个深达 60 rad/s 的大坑**，系统软兮兮的，过了好一阵子才恢复。此时只有将负责观测器中的 kd 从 0.003 降低到 0.001 时，才可以消除这个“大坑”，如这张Scope中的波形所示：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASyTknK1eTrgaicycMicSg4LkAiaibB1yKWCdJXm8BHbGUKuXZHnqAAGkh9wEQ7Q86LGErfP4ovYI2shAHRMcIeGLicclQh4Q08TibeI/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___05讲_微分的驯服（上）____直面噪声与差分的陷阱_images/img_007_400b2a253ba8.png)
 
 这个实验充分证明了，只有被合理驯服的 D 项，才可以是抵御负载突变、提升系统刚性的究极神器。
 
 我们再看最后一个scope，展示的是不同算法的转矩曲线（局部放大图）：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATQbslV9f4fxuSbhM738jtCibIIL45okibgSNG1UbBa2nZWVEEbv21OV9YbOnCADPWT2T0dGg7ufLINKeO5zX5uNqRA77VqHENk4/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___05讲_微分的驯服（上）____直面噪声与差分的陷阱_images/img_008_a3e7d492a718.png)
 
 -   **黄线（纯 PID）**： 每隔 100us 就在 +15 和 -15 之间疯狂撞击。现实中，这台电机会因为剧烈震荡发出刺耳尖叫，开关管会迅速发热。
     

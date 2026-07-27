@@ -114,39 +114,39 @@
 
 我们还是要在Simulink中实际感受一下，才能体会深刻。在Simulink的画布中，构建如下的仿真模型：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQ5DdHVEicVkDVwIICYvm0wotzEqLfTpiaI2rjOB3t3BgbeDfwZnUjD7u0IZLiao8rvncZOdgibzc2fQbRiazvLRlw0AlNUIP9jbHSU/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___19讲_继电器反馈实战____工程中的自整定序列构建_images/img_000_18acf5b95c69.png)
 
 其中，橙色模块是电机及机械系统模块，模块中的乘法、求和、积分模块组合，极度还原了牛顿第二定律（或者说电机转子动力学公式）ω = ∫\[(Kt·Iq - B·ω)/J\]dt 。没有任何掩饰，这正是理论根基。特别的，用了一个叫 Dead\_Time\_Lag 的模块，来模拟极其微小、但在真实机床和伺服驱动器中绝对存在的 **2ms 电气与机械指令传输滞后**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASzGfkKPUnLhycjUzjyeMaWic5eAViaGXhAHnvnudKiaOqHBvwiaLdGyAuOLZbaV2xM2RlazribjH5KYw7EvJEwbKyXmXvibnIpTysw8/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___19讲_继电器反馈实战____工程中的自整定序列构建_images/img_001_6b085bdcc081.png)
 
 画布中的黄色模块，是主导全场的 **MCU 控制器大闸**，也是本讲的**算法中枢**！而画布中青蓝色的模块，提供了如何基于MCU那边通过冻结法抓到的极致精准的 A 和 Pu，根据描述函数推导的公式 Jcalc = Ku·Kt/ωu，解密出转动惯量的公式算法！
 
 我们看下最终的仿真结果，首先看速度：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARq4zOt2s1BxD82ezQkh4uUfVhaGWl11YdUgfhKKCup5zFVT5Fvk98xWvqUcQWW62JK1ZHYydtZIqOCu9ibkytaiaNXfcrgR4uMA/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___19讲_继电器反馈实战____工程中的自整定序列构建_images/img_002_16b33d34673f.png)
 
 转速以 0 RPM 为中心，极其匀称、绵密、稳定地形成了幅度大约 ±12 RPM 左后的连续振荡波！这就是极其标准、被继电器反馈强行“养住”的非线性极限环震荡！由于有 HYST\_BAND（迟滞死区）兜底，它完全无视了底噪，极其坚固地存活了下来。
 
 也许有同仁会好奇，0.5s 的时候为什么有一个飙到 230 RPM 的巨大尖刺？这是失控了吗？不，并没有失控，恰恰相反，这是顶级大厂代码里的工程智慧！因为在 Autoturning Core（firmware）（黄色模块）中加入了 Kick-start（启动激励）算法，代码里我们写了：前 50 ms（0.5s ~ 0.55s），强行输出 +h\_Relay（即 +2A）的推力。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQOC9Qhc6DwGzU40mHuYib5Xm9Yj2r7IqZMYmxSLVgibtibwZj3dzibDOm192z8qxnDtoqO9MPBCeq4FqS4LcrjDLwlHq2icYBiaYib8c/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___19讲_继电器反馈实战____工程中的自整定序列构建_images/img_003_aecfcb9ada64.png)
 
 **为什么要这么写？** 因为真实的机床静摩擦力极大，如果只是温柔地等误差累积，电机可能根本动不起来，波形当场憋死卡在 0 位。就是这 50ms 的强推，把转速“踹”到了 200 多转，给系统注入了巨大的初始动能。当 0.55s 推力撤销、闭环继电器刚一接手，巨大的反向力矩瞬间将速度拉回来。通过这股势能，系统瞬间就跌入了稳定的极限环振荡中，**连过渡时间都省了！**
 
 我们看下电流的仿真结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARjqTyDdRmG5UTticlNUtZVLK2IOibDZr7eM6Qia6To6X82qI3y9BbPDc5jHicFt9bqXNGGtKJibbOltdLibHU6klCsrZw1GpKSQNImM/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___19讲_继电器反馈实战____工程中的自整定序列构建_images/img_004_20a9c3e69172.png)
 
 极其规整！在 +2A 和 -2A 之间干脆利落地翻转，没有任何高频电锯毛刺（Chattering），这是极其健康的继电器 Limit Cycle（极限环）切换。
 
 我们最后看下转动惯量 J 的辨识精度：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASCmEuqa2769xSd3gY7OBTFdg1qaogWgoK6ia3OzTFXKsxNrr3ZpF9Dyibm0F8x9TdFAG40QFx9GDeXiaJzAaL1PocIdyH7Ikxbsg/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___19讲_继电器反馈实战____工程中的自整定序列构建_images/img_005_d137f4c8f15b.png)
 
 看那块绿色的仪表盘：J\_calc = 0.004929 。模型在底层深处埋下的真实转动惯量是 J\_True = 0.005！
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQTwTRAbeulEQ9YvFd8qDsdfRibDlg7ibRgCH3VkDj9LVO9Q97vBQX2nFwHNFVYJVNNyyuqialP8W1YRgq8ib6bJHfD7klzFYqD1QI/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___19讲_继电器反馈实战____工程中的自整定序列构建_images/img_006_6211b562bd44.png)
 
 两者之间的误差仅为 1.42%！
 

@@ -24,7 +24,7 @@
 
 请看这张图！这是我们今天这篇文章的“藏宝图”！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRH8NtXNRjLpGB2YuvbxVpwykwTUKxVAWmRhPP0iacAQKAdib0UEAD2Jb9cicePTYOBHcIRw0pNqSUzKQ/640?from=appmsg)
+![](PMSM的_独孤九剑__如何榨干每一安培电流_让它跑得飞快__images/img_000_55485b454158.png)
 
 大家看图b里那条橙色的线条，上面标着MTPA。这是什么意思？Maximum Torque Per Ampere，翻译过来就是“用最小的电流，干最大的活儿”！
 

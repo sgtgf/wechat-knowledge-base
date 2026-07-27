@@ -33,7 +33,7 @@ Iq忽大忽小，算出来的Idref也会上蹿下跳，整个控制系统就会�
 
 请看图！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe2HFwOeMZZaQLRo8HyrLQC8HqA94F0Laz367xgujIeBqibn1gVdzKS1NQ/640?from=appmsg)
+![](落地为王铸利剑__MTPA的_软件实现_与_工程细节__images/img_000_72ad3eb2700a.png)
 
 这叫低通滤波器 (Low pass filter)！
 
@@ -45,7 +45,7 @@ Iq忽大忽小，算出来的Idref也会上蹿下跳，整个控制系统就会�
 
 好了，现在我们有了一个干净的Iqf，也手握那条神圣的公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe21nB9xF0V3iatMoTQ20GvU7MZF9euvCcN0L9svYxD0iccH34V1bN0IZSA/640?from=appmsg)
+![](落地为王铸利剑__MTPA的_软件实现_与_工程细节__images/img_001_c2a712b3e00b.png)
 
 接下来，就是最激动人心的时刻：把它变成代码！这就像把一本中文小说，翻译成英文。
 
@@ -53,7 +53,7 @@ Iq忽大忽小，算出来的Idref也会上蹿下跳，整个控制系统就会�
 
 请看图！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe2tMqJdXjwGU3r0iaOR4LGoUJt2JQN4ZzibOFm7OOY31uj1IMIciajPKqCQ/640?from=appmsg)
+![](落地为王铸利剑__MTPA的_软件实现_与_工程细节__images/img_002_dddaa2d5f136.png)
 
 这张软件流程图，就是我们代码的“施工蓝图”！它清晰地告诉了我们每一步该干什么：
 
@@ -78,7 +78,7 @@ Iq忽大忽小，算出来的Idref也会上蹿下跳，整个控制系统就会�
 
 这段140多行的代码，实现了MTPA的功能，其内部的子函数及子模块之间的调用关系是这样的：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe2U6aB9xlfMwUPZzHBxmV0UI0q2dNdutJicrTibmKLJ3AAVbfly0wpI05w/640?from=appmsg)
+![](落地为王铸利剑__MTPA的_软件实现_与_工程细节__images/img_003_1f10d9274e60.png)
 
 下面，捡重点的代码段跟算法同仁们分析：
 
@@ -183,9 +183,9 @@ STRH！Store Halfword！存储半个字！
 
 请看图！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe21DtNhPGeZg4pdDsrdaqOCBJg7yxo2bFVdePDNRuSkG0EOzTz6FfRAQ/640?from=appmsg)
+![](落地为王铸利剑__MTPA的_软件实现_与_工程细节__images/img_004_8d99d62bee56.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHbWt1EAt2ibBSwKVpZVpIe2VXkRlMo7Tlj4HAmYicyfuPxmgBhJYCv4Xm0ticSMJicGXaGvar5LicLQWw/640?from=appmsg)
+![](落地为王铸利剑__MTPA的_软件实现_与_工程细节__images/img_005_12228e0e2026.png)
 
 (上图 Figure 19:“加了MTPA”；下图 Figure 20:“没加MTPA”)
 

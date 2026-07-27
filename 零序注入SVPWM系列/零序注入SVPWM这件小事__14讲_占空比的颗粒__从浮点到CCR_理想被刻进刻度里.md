@@ -88,7 +88,7 @@
 -   再用一个**幅值接近1**的斜坡信号，让它慢慢地穿过“满占空比饱和区”。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARtficBFQib0jsWPY2ibTBnN0IibBL9kfCRpWpP6ayAQQiaicev1mtkdPsgl242E6vu9dcjiaJibuuGGkJcUGzhMqWplFmWntiaxNlyMojA/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__14讲_占空比的颗粒__从浮点到CCR_理想被刻进刻度里_images/img_000_59ca8fd59783.png)
 
 2.  **搭建一个带量化和最小脉宽的模型：**
     
@@ -98,14 +98,14 @@
 -   **最小脉宽限制模块**：用 if/else 逻辑，严格复现代码里的 xA = (xA < xMIN) ? 0 : (xA > xMAX) ? pm->dc\_resolution : xA 逻辑。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAS8LhSLWJBf2hW779zTlHH1HHqBfGPicWLsm5V3oJhGqt5G99zUrCWUPhy1PVT2ibTqHRD4cHicFEFugZDcbL3J25CTJSAGpehnxc/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__14讲_占空比的颗粒__从浮点到CCR_理想被刻进刻度里_images/img_001_7991498829c6.png)
 
 3.  **观测结果：**
     
 
 我们首先观察一下理想电压指令曲线和寄存器实际输出的电压曲线。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASrBu47rsFibIyldg2iamiagem7mG75M1s3nvVpkzwd8ODCbWA2S85e87TAo808ad4y5Db8IDhJwOEGRFucsq8okY2nFbicyzBPJuA/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__14讲_占空比的颗粒__从浮点到CCR_理想被刻进刻度里_images/img_002_d10d36a1c7c9.png)
 
 各位同仁，请看上图，谁是“连续的水”，谁是“刻度的雨”已经非常清楚了。
 
@@ -117,7 +117,7 @@
 
 咱们再来看一下对应的PWM信号与 CCR\_Steps 的关系：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARsKvUYNQf1OyeyHVxWpdIDlRuVwxeHDmWrrlhTWSau3ialXk1I3CGoRjZu5gshLocOULQXtI5CvTOG9ZriaHk1kU8TJiaRZaBEyI/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__14讲_占空比的颗粒__从浮点到CCR_理想被刻进刻度里_images/img_003_0fdca90fa6ed.png)
 
 我们着重看蓝色的PWM波形，死区结束时间在大约0.004秒左右，而且，PWM 脉冲不是从无限窄慢慢变宽的，而是**突然蹦出来一个有一定宽度的脉冲**。这个“突然出现的脉冲”，其宽度就对应着 ts\_minimal（本例中设为2个Tick，即 4% 占空比）。
 
@@ -125,7 +125,7 @@
 
 在以上条件下，咱们再加入一个RL串联电路（其实在模型里被等效成了一个一阶低通滤波器，滤波器的时间常数 τ = L/R），用于模拟电机的某一相绕组，看下这一相的电流波形：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASTvg90SI0fdbl8E6cOHZ4LhPKYERhiav1w8N4LpboY4eaTOqDlVLeslCpFCg0pYMSkrpNKhgIbwPEKqNVqiaeQdS1wgibx9a1xsU/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__14讲_占空比的颗粒__从浮点到CCR_理想被刻进刻度里_images/img_004_999365c2e8a4.png)
 
 从上图中清晰可见，橙色线（滤波后的平均电压）明显滞后于黄色线（理想指令）。这是因为电感（低通滤波器）具有惯性，电流不能突变，必须慢慢爬升。同时橙色线也不是平滑的曲线，而是带有锯齿状的纹波。这是因为 PWM 频率（1kHz）相对于滤波器时间常数来说还不够快，导致“开关动作”的痕迹被保留了下来。尽管有波纹，但它的**平均趋势**紧紧跟随着通道 2 的阶梯。**死区**效应也清晰可见：在开始阶段（t < 0.004s），它是平的（0V），直到 PWM 脉冲突然出现，它才开始缓慢上升。
 
@@ -135,19 +135,19 @@
 
 咱们模拟一个相对低端的MCU（Res=50, Min=2）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATl2TetIQn9GZ2qpSlhib8TtLoVpFlu0kcU5mrpg1O4f6VjFIZWoblrsHC8OJKfaHANh9aTtPLGc3ea8iaZRNEYKP7wHAbwVyLAQ/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__14讲_占空比的颗粒__从浮点到CCR_理想被刻进刻度里_images/img_005_73c87f5cf03b.png)
 
 波形像粗糙的楼梯：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATiaw9ia4eicqT0kxicJcD9rHNh1tzb4nVTY2ddFDDtnnyyaTZgwSAebr5aqrHRKjz9kPKoZjicmxnu0eoleXM6TDH1Y1elTic0FJyHg/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__14讲_占空比的颗粒__从浮点到CCR_理想被刻进刻度里_images/img_006_c44318a2936d.png)
 
 咱们再模拟一个相对高端的DSP（Res=5000, Min=20，Carrier Fre = 10K）：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAT4M7ria4uRlddPib11NlwVSZ1tqJWfMwM0OpaN5LRZ5ajlQic4heVdjss0cX1OGoqZpOrWxn7ZKxwn1TranibhAvLr7JaVURQ9zqU/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__14讲_占空比的颗粒__从浮点到CCR_理想被刻进刻度里_images/img_007_b7d24043f96e.png)
 
 波形极其丝滑：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQaRn1wueMaNSUtEuC5HmuZNhjibSegiaUpDS9FPFibVia6zRWddIzYSNxiaIqUlBI3oAKOQzDKeTIYrl9TqqEjAJTNxKYFDwlj8OjM/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__14讲_占空比的颗粒__从浮点到CCR_理想被刻进刻度里_images/img_008_f3d586752d8d.png)
 
 以上这个实验，就把理论世界和现实世界的“鸿沟”，血淋淋地展示了出来。它告诉我们，一个鲁棒的FOC算法，不仅要懂SVPWM的数学，更要懂得尊重硬件的“脾气”。
 

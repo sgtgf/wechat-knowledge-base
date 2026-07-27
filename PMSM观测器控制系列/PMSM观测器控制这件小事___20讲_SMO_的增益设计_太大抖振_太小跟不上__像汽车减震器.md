@@ -171,7 +171,7 @@ K 从 1.2 ×  开始，每次增加 20%~30%。每改一次，观察三个指�
 
 把三个指标随 K 的变化画成三条曲线：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQQQR5GGngXriaYknU5IytfnH3gHCFCcpuNQMCyibYwxJUtxJkZgHgjOuykXKDWQJJhBKLD8qRy9r6vUNGe2HgjY19nzhZUPibW18/640?wx_fmt=png&from=appmsg)
+![](PMSM观测器控制这件小事___20讲_SMO_的增益设计_太大抖振_太小跟不上__像汽车减震器_images/img_000_2966ac7a8199.png)
 
 甜点区是两条曲线的交叉点附近：抖振可接受，动态不滞后。这个区间通常不是一个点，而是一个范围——比如 K = 90~110 V 都挺好。你选中间值，留点裕量应对参数漂移。
 

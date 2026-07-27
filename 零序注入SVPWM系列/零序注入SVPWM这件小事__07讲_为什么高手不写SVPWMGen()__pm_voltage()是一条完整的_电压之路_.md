@@ -86,7 +86,7 @@ pm\_voltage() 这个函数，就是那条从“写诗”到“寄信”的完�
 
 **1\. 搭建一个简化的闭环FOC系统：**包含一个PI电流控制器，一个调制模块，一个带死区效应的逆变器平均模型，一个电机模型，以及一个滑模观测器。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQTzQdjTicFEJPricYU8oaOIIOvHhSUfiaQKN5ZHsOA50mVRcBZpjLiaiatK7P2MmibXtribJI9PMckoJ8XibEibeqSkT1pfG6GYuX7M1S4/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__07讲_为什么高手不写SVPWMGen()__pm_voltage()是一条完整的_电压之路__images/img_000_137231995662.png)
 
 我们在 PathA 和 PathB 里分别植入一个**基于电机方程的电流观测器。**
 
@@ -97,12 +97,12 @@ pm\_voltage() 这个函数，就是那条从“写诗”到“寄信”的完�
 -   **PathA (信息断裂)：**观测器输入电压 = PI 输出的 Ud\_ref, Uq\_ref（理想值）。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATmzyYLicOWBoZMoXUsn1E4FAZHFRyiclLaH9s6GV4n2H1sZtbgRUGgeFlvBqibMW9HEefj68BMb5v5NibU8jVD3g7j6bMPv0CLJv8/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__07讲_为什么高手不写SVPWMGen()__pm_voltage()是一条完整的_电压之路__images/img_001_bfccb5f29fbe.png)
 
 -   **PathB (信息闭合)：**观测器输入电压 = 调制器重建的 Ud\_act, Uq\_act（真实值）。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASvlvPHnqAza08ibqb6E7Sd9syb3rz3icrMbyJMKzLL8sdDvAQeHrOjDLEKKQT3JG02Q4BL90icrgkyjqGKA5Gia1FibU6oAkl5fkUc/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__07讲_为什么高手不写SVPWMGen()__pm_voltage()是一条完整的_电压之路__images/img_002_2eb1280a0c9a.png)
 
 **2\. 两条并行路径：**
 
@@ -130,9 +130,9 @@ pm\_voltage() 这个函数，就是那条从“写诗”到“寄信”的完�
 -   对比两条路径在**相同**工况下的电流波动。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQ48dM93taFZouyZgVh6eckMBTj4r7rmKJCUpMQvqPkic9WxTRt1ctfh4iacgEjEXoQ8GDbt5kTrhLhWsYVQGaLovTnQ0Rf4jEuM/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__07讲_为什么高手不写SVPWMGen()__pm_voltage()是一条完整的_电压之路__images/img_003_be902a9d2999.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATvR7oWkP6wIRN1u6BWbaxEVKvNVicoibwMJKljFXyia7VsTprBliaGG72C0E2iayOuFFvX320IFQxAgiccuAWQs4rNiaCwKPulibaqf38/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__07讲_为什么高手不写SVPWMGen()__pm_voltage()是一条完整的_电压之路__images/img_004_037dee56ee31.png)
 
 **Motor\_A (理想路径)输出（黄色波形）**：PI 控制器算出的电压，被**无损**地施加到了电机上。因为没有逆变器的非线性（限幅、量化），PI 参数（Kp=10, Ki=2000）在这套理想模型下表现得非常完美，响应迅速且无超调。
 
@@ -143,9 +143,9 @@ pm\_voltage() 这个函数，就是那条从“写诗”到“寄信”的完�
 -   对比观测器输出的电流（如Q轴估算电流）误差：
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQJRjdat6uGeBj42Ew6JdpPYJibSXpjrpoHpBCVIuLFxZh2lGlV2pFjZkkaUaNwgrIgZNtiam88kibl1DJJBDQpkeibOyGibDPCqCKA/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__07讲_为什么高手不写SVPWMGen()__pm_voltage()是一条完整的_电压之路__images/img_005_d1fafd7771b9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATqhYsVE3ZUCicRnXx3yKicuSUS2jI3lR0NwrLbpKcAgsNgEm6VFMhVsZqQFROGSuxMxAfCa864rq6EJlIvtRsXiaPj6s8mCYuW78/640?wx_fmt=png&from=appmsg)
+![](零序注入SVPWM这件小事__07讲_为什么高手不写SVPWMGen()__pm_voltage()是一条完整的_电压之路__images/img_006_264e0b2a82f8.png)
 
 **3.1 黄线 (Err\_A - PathA 理想信息流)解读：**
 

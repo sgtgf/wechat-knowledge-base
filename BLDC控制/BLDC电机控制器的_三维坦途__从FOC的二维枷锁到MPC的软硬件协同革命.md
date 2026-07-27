@@ -20,7 +20,7 @@
 
 作者们提出的解决方案，简单粗暴又非常有效：给控制器再加一只“手”，或者说，一只“脚”！这就是图1里画的“三相四桥臂逆变器”。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREaCwPrN1ZlibsbHcBH8AqvSdN1TqmStwNZ1ZpnbUFbDbiaN7hwt5ZF0kibCQ1sHu8mfVDZQHavlBppg/640?from=appmsg)
+![](BLDC电机控制器的_三维坦途__从FOC的二维枷锁到MPC的软硬件协同革命_images/img_000_ce75ff26b812.png)
 
 你看，除了控制 Sa, Sb, Sc三个常规的“手”之外，我们多了一个第四个桥臂Sn！这只“脚”专门连到电机三相绕组的中心点 n 上。
 
@@ -38,17 +38,17 @@
 
 你看图2这个控制框图，核心就是那个 FCS-MPC 模块。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREaCwPrN1ZlibsbHcBH8AqvSEERg5FpZiaSmHJUiaIumQjW4d6lnoz9KkZEB8ZavgK54ZbFWibayeCB8g/640?from=appmsg)
+![](BLDC电机控制器的_三维坦途__从FOC的二维枷锁到MPC的软硬件协同革命_images/img_001_d074457ba7f2.png)
 
 它的工作流程是这样的：
 
 1.  “算” (Prediction)：在每个极短的瞬间（比如25微秒），它会想：“我的‘四桥臂’神兵总共有2⁴ = 16种出招方式（开关组合）。如果我用第一招，下一个瞬间电流会变成什么样？如果用第二招呢？...”，它会一口气把16种未来的可能性全都算出来！这个计算的依据，就是原文的公式(8)，一个描述电机行为的数学模型。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREaCwPrN1ZlibsbHcBH8AqvSJUKZKN0N4F7eWFDkiaJqtzLYtkicdSY8MrSEmYt9iaBaFuB74NP6giclwA/640?from=appmsg)
+    ![](BLDC电机控制器的_三维坦途__从FOC的二维枷锁到MPC的软硬件协同革命_images/img_002_62da5329a2a8.png)
     
 2.  “比” (Evaluation)：算出来16个“未来”之后，它会把每一个“未来”的电流，都跟我们心中最完美的那个“3D瓣波”目标电流（iref）去比较。谁离目标最近，谁的“误差”最小，谁就是最好的选择。这个比较的过程，用的就是原文的公式(9)，我们叫它成本函数 g。
     
-    ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREaCwPrN1ZlibsbHcBH8AqvSjOFicINQhhdTiaC4egRsvqJMViaJSicUWhH6IiafNoiaKv70BrIERrBicytwA/640?from=appmsg)
+    ![](BLDC电机控制器的_三维坦途__从FOC的二维枷锁到MPC的软硬件协同革命_images/img_003_83d5af169bae.png)
     
     这个公式太直白了，就是计算预测电流和目标电流在三个维度上的误差绝对值之和。g越小，说明这一招打出去，效果越接近完美。
     
@@ -61,7 +61,7 @@
 
 你看图3，这就是那16种招式（电压矢量）在三维空间中的分布，像一个晶体一样。FCS-MPC算法的本质，就是在每一个瞬间，从这16个点里，选一个最合适的来“推”一下电流，让它往目标方向走。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREaCwPrN1ZlibsbHcBH8AqvSRguH7DSXVHXDR0BWswYlSmRlAYPRbclexHtWcDYVyDvJwTXISVoYRA/640?from=appmsg)
+![](BLDC电机控制器的_三维坦途__从FOC的二维枷锁到MPC的软硬件协同革命_images/img_004_3623e4a54acd.png)
 
 第四幕：神功练成，效果如何？
 
@@ -71,7 +71,7 @@
 
 看图4(b)，这简直就是艺术品！最上面是转矩τ，你看它几乎是一条直线，非常平滑！中间是三维电流iα, iβ, i₀，它们都呈现出理论预测的那种复杂的周期性波动。最关键的是零序电流i₀，它不再是0了，而是被精确地控制成了一个特定的波形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREaCwPrN1ZlibsbHcBH8AqvSh8AGsEMiaERBByCU3RHWiaLXLSlxwOBpfN0YzHkiaarEMYvgVD8mImMew/640?from=appmsg)
+![](BLDC电机控制器的_三维坦途__从FOC的二维枷锁到MPC的软硬件协同革命_images/img_005_9e99acc1c9c2.png)
 
 再看图4(c)，这是电流在三维空间中跑出来的真实轨迹。橙色的轨迹，是不是跟我们上节课看到的那个理论上的“[三维灵蛇](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247484244&idx=1&sn=b29e3a09ee241a2165c7c01ee4a66a3e&scene=21#wechat_redirect)”一模一样？这说明，我们的“神兵”和“心法”配合得天衣无缝，完美复现了理论！
 
@@ -81,7 +81,7 @@
 
 光稳不行，还得快！作者模拟了负载突然增加的情况，你看图5(d)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREaCwPrN1ZlibsbHcBH8AqvSGwzOuBL6PxTGn5dY3JmiaeNACMKFGaUYn2ONrvaicRQ3AlaVS88Y7mqQ/640?from=appmsg)
+![](BLDC电机控制器的_三维坦途__从FOC的二维枷锁到MPC的软硬件协同革命_images/img_006_811b0a591afe.png)
 
 当负载转矩T在0.1秒时突然跳变，我们的控制系统反应极快，几乎是瞬间就调整了电流输出来顶住负载，而整个过程转速ωm的波动非常小。这说明什么？说明我们这套复杂的控制系统，不仅“稳如老狗”，而且“动如脱兔”，动态性能一点没打折扣！
 

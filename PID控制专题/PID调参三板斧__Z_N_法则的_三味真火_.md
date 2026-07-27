@@ -33,7 +33,7 @@
 
 好，现在我们打开文末共享的PID经典教材 **_Autotuning of PID Controllers_** 中的 **Chapter 2.3.1**，直接看 **Table 2.2**。这张表，就是Z-N法则的精髓所在。它其实给了我们三套不同的“武功秘籍”。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATicY55MKia6a1hMmiaQYNbpsTL6Eia8KsogrJodlzB3tLHHtDMVAgAXQtNcjJUc8g9SEtjVUIyauFmVUvhNcxnzicZ6tRibWWnkAI8Y/640?wx_fmt=png&from=appmsg)
+![](PID调参三板斧__Z_N_法则的_三味真火__images/img_000_6c4edb2e34b6.png)
 
 1.  **原版Z-N法则 (Ziegler-Nichols) —— “激进派教练”**
     
@@ -45,7 +45,7 @@
 -   **公式**（以PI为例, 这就是我们最常背的那个公式）：
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARdibEFNcibiahoHWKQ01nGaMvobYCEYh1uibFN3BCBlWbP9Jpp8t10CrhCC6SElrkpbT7H8BtXxKOMcXd6hGBDhy8rL6jzdk53K2E/640?wx_fmt=png&from=appmsg)
+![](PID调参三板斧__Z_N_法则的_三味真火__images/img_001_e5bb1f8085a1.png)
 
 2.  **Tyreus-Luyben 法则 —— “稳健派教练”**
     
@@ -57,9 +57,9 @@
 -   公式：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASibj2ffbwM6wpQODemiajUR2Prpic3xrW1818iaCywiaudokiaTegpPhBI3Y3KTgAsHNiaArKeHOD8zicA02WH6ej3kMmtvcwRPm66as8/640?wx_fmt=png&from=appmsg)
+![](PID调参三板斧__Z_N_法则的_三味真火__images/img_002_4336f43e72ed.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQ5IDvPqeVxkEs2jTKibdmvjDEwCPAhsW8gePWngxLPwS44ZZQpvbDibDuKkPB3rRVCCnJ23svLkPmODK9jC99SWDvtddiaStbGp0/640?wx_fmt=png&from=appmsg)
+![](PID调参三板斧__Z_N_法则的_三味真火__images/img_003_a56130ae478a.png)
 
 这里有个存疑点：根据通用文献，Tyreus-Luyben PI 法则中Ti是Ti = 2.2Pu, 而不是文末共享教材表格 Table2.2 中的Ti = Pu/0.45, 我们以更通用的Ti = 2.2Pu为准。
 
@@ -73,7 +73,7 @@
 -   **公式**（以PI为例）：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATjHbasvUia6j3x87JvvmkL3RkfwMQibLt0rJSLrIAKdZguU7kMqegNraHZyibuDUUEInTNywXPGmofuo3soUd8OGxAbXRicndTDuY/640?wx_fmt=png&from=appmsg)
+![](PID调参三板斧__Z_N_法则的_三味真火__images/img_004_1a301aefe334.png)
 
 * * *
 
@@ -115,13 +115,13 @@
 
 假设我们手里的控制器是理想式/并联式 (Parallel) 的，我们需要一个“翻译官”。这时候，我们翻到文末共享的教材的 **Table 2.1**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASOPuIbXMIsYKl0nwUjru6mHtrhC60uJI7QhWoEwYt5jJCiaePDhVB6Lqribbq35icckyqxtEUiaAiaYHmSrCxBiaxJKtzJbAHRYXpbI/640?wx_fmt=png&from=appmsg)
+![](PID调参三板斧__Z_N_法则的_三味真火__images/img_005_87e1fbf37ff0.png)
 
 这本书的 **Table 2.1** 给出了从 PID\_series 到 PID\_parallel 的转换公式：
 
 好消息是，这是针对 PID 的，我们现在是 PI。PI 的情况就简单多了，串联式和理想式PI的转换关系是：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAROT4mCQmwgzwvtFoGUOr0A8tMko9ZWSaK0H2nCJ1ib6Zx8libpGnW0IeqXdAzEZvcb7FmxFtIpuLoZzESViaNs0ANnlbKCbUK7cA/640?wx_fmt=png&from=appmsg)
+![](PID调参三板斧__Z_N_法则的_三味真火__images/img_006_1e230aa1e5df.png)
 
 在没有D项的情况下，串联和理想式在数学上是等价的，即 Kc = Kc' 且 τI = τI'。
 
@@ -145,7 +145,7 @@
 
 如果有同仁觉得以上的文字过程不够形象的话，在Simulink中自己调整一下参数，看一下动态的波形，相信印象会更加深刻。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQ9znMUx9e4CSfhHm9icWUnyvFRstN5EJaXjGKNpj8RfvgvxVp6C9QIXP1WSR9Nytic2X72sJjM0DE4hibT1nBgLicuoMgS5Ric3yOs/640?wx_fmt=png&from=appmsg)
+![](PID调参三板斧__Z_N_法则的_三味真火__images/img_007_49b793dead36.png)
 
 各位同仁可以在这张画布的不同part中，结合本文的内容，实现：
 
@@ -158,7 +158,7 @@
 
 基于现有模型的参数，我们看一下part3中的示波器的仿真结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARSmSeqgTl6YeNPoGy1g8Ar7ozESur0Zt6fCIVhaa2eY0ybcIL6G6PS8xFshGYPZjc9OtMcnG9lfibdHkSP3xwMuJXsNU4oTXc4/640?wx_fmt=png&from=appmsg)
+![](PID调参三板斧__Z_N_法则的_三味真火__images/img_008_240e184e3775.png)
 
 结果解读：
 

@@ -101,7 +101,7 @@ SVPWM 调制能输出的电压，在 DQ 坐标系里，是由 Ud 和 Uq 矢量
 
 我们在simulink中先提前感受一下动态限幅与弱磁的过程与效果。此次的模型不是普通的、无脑闭环的FOC的Demo，而是模拟测试台架上的**测功机对拖模式**。用一个理想转速源强行拖着电机转，从0拖动到无穷大，让电机的转速跨越额定非弱磁边界，甚至超过硬性的母线电压（48V）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATfdiaw6T60Qx9nJAicqJYM94YFNmEZth6pOR2dZ1Csbzx7ZtgfmYaib880iaibVIOw6bjel5YibibWsJJnA55x20cdzzEO6V3hc9rcAk/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___15讲_动态限幅与弱磁____电流环的边界生存法则_images/img_000_a79136930f93.png)
 
 在Controller Core模块中，引入了 代码A 和 代码B 的核心算法，并可以通过粉色的模块快速切换，共有1,2,3三种模式：
 
@@ -112,17 +112,17 @@ SVPWM 调制能输出的电压，在 DQ 坐标系里，是由 Ud 和 Uq 矢量
 -   **模式3**为 **代码A** 的算法复刻，实现路径如模型中的青色模块所示，模拟一旦电池突然亏电或功率受限时，电流环目标 Id 、Iq 瞬间按比例内缩，避免底层硬件暴力保护触发。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQD2e1Mic5U5tJfFcRFibQ5fcE1LlgFKowSjDeFic7Dmdibb5KrGMIkmt8TguUPJiaFK5icIRAFfJQPkNaicVcyAEjfqEsKM9emyaXkMg/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___15讲_动态限幅与弱磁____电流环的边界生存法则_images/img_001_160c0b78eea4.png)
 
 我们首先看下 **模式1** （不加弱磁、无限幅）的仿真结果，我们首先看 Scope\_Voltage\_Limit 这个示波器，这个示波器详细显示了电压“撞墙”的全过程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARUpSzzMOdG2QOzjSBdA4PQVXcay09xGoicyo6icfhA2cia0wHqkGDxicqy7BeFtQIvjVn10ic6ufIg39WzbujLt9uWGg2JMbeM0nTI/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___15讲_动态限幅与弱磁____电流环的边界生存法则_images/img_002_9a2ac69ab2e0.png)
 
 黄线代表所需总电压幅值，蓝线代表控制器的绝对母线限制。在 T = 1.4s ，黄色斜线狠狠地撞到了蓝色线这个天花板。这就意味着：**控制器破产了，再也借不出一丢丢电压了！** 接下来发生的所有惨象都源于这一刻。
 
 我们再来看 Scope\_I\_dq 这个示波器，详细展示了发电机状态下电流的逆冲与解耦崩溃：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQ7wDiaHRjicGZSzd0prah5YR0hkJcHhuwURa4TMSlmk8icpunMuJicmSfWAyVUY7gglp5ZYWl9aA5bRicpqFLTA7znKB4zzHZsvGCM/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___15讲_动态限幅与弱磁____电流环的边界生存法则_images/img_003_6764783ce6a0.png)
 
 **代表 Iq 的蓝线为什么掉到了负数？**咱们给的指令明明是踩 60A 的油门向正前方跑，电流怎么会变成负的？因为转速被强行拉得太高（跑到了7000rpm），导致内部反电动势 Eq = ωmφm 高达40~50V，远超逆变器能发出的 27.7V （48V/√3）极限。**电机的反电动势高于电源，这就变成了“发电机”，把电流硬生生倒灌回了母线！**
 
@@ -130,21 +130,21 @@ SVPWM 调制能输出的电压，在 DQ 坐标系里，是由 Ud 和 Uq 矢量
 
 我们再来开一下 Volt\_Circle\_XY 示波器，这是Ud、Uq电压的挣扎：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASjpiceprdh296tibhB3Z1gO6Q6J0X0Xk4dkZQYGsVdByaD0K3PA7E2SC2Gicrl1RQ3ibc7BibLU1WEibXmjuEpBlxBg3G6KH3uibFDrE/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___15讲_动态限幅与弱磁____电流环的边界生存法则_images/img_004_14d192bc8f79.png)
 
 看那个扇形轨迹！当电压到达圆的边缘后，因为我们加了“向量按比例缩放”的底层保护，使得输出端没有变成正方形，而是**像溜冰一样死死地滑贴在圆的内边缘**。
 
 我们最后看下 Current\_Traj\_XY 示波器，这是电流 Id、Iq 的轨迹：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARz1GkC0niaPQucVx5kiaMD8Zah6ibF3aicWTmaQqVj6PBK70CyJPWpP1joezuVMkJmcKHxXiaTLGzdCwVUaia932q7grCLj9CIzM6Po/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___15讲_动态限幅与弱磁____电流环的边界生存法则_images/img_005_f68d19aa3502.png)
 
 因为没有弱磁指引，电流轨迹偏离了原定目标，像面条一样被甩向了深空，毫无控制可言，如果此时接了真实的电机，必定会因为异常的负向扭矩发生剧烈震动甚至飞车。
 
 我们再来看下 **模式2** （**代码B** 的算法复刻）的仿真结果，我们首先看 Scope\_Voltage\_Limit 和 Scope\_I\_dq 这两个示波器：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARsvvQ1miaswKvicoCnmzrVm466LuRJBQ5F5LGhu1bs09SEN5EqnInoCH7XLbDaaBf6MwMW1EW1XcOY1knXUSEu98ibeCsiaic5DR3Y/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___15讲_动态限幅与弱磁____电流环的边界生存法则_images/img_006_d3a125d18c8b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATIJZrtentbicBdmic0cLCKsfmJzVb0LsXiaNX0L8Lx2DNV6d6ibdYcvWFQqNIFsxeL8CzoeiayVMaK9RgCsjrtfb4ZJnoKbibI3vxM0/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___15讲_动态限幅与弱磁____电流环的边界生存法则_images/img_007_c069a19d9979.png)
 
 在 T = 1.4s 时，转速导致的反电动势终于撞到了母线电压的天花板（Scope\_Voltage\_Limit 中的黄线触碰蓝线）。此时，弱磁积分器发现了差值（ Limit - Vmag < 0 ），开始动作，拼命往下输出负的 Id。
 
@@ -154,19 +154,19 @@ SVPWM 调制能输出的电压，在 DQ 坐标系里，是由 Ud 和 Uq 矢量
 
 看下整个过程中Id和Iq组成的电流轨迹，是一个S型的弯：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATN3x3D3YktXVIrDVGXgREEfYtuVwxjQ6GbORcmFEadAW6Lr1MDEwHDzFIfCNKicudUdFdibRx2OgOYdFSvCr82GoTWhBdjtZ5lE/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___15讲_动态限幅与弱磁____电流环的边界生存法则_images/img_008_aae0d743675c.png)
 
 随后，由于转速还在死命往上拉，系统彻底进入了**稳态弱磁区**，Iq 只能随着转速升高而无奈地平滑下降，保证电压始终贴在圆上，也就有了下图中电压轨迹滑溜的圆弧。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASxnkc3yNz77xkv2ibdAXI7iaZkibzFkMysicrVX8QH5IkyG72Drh6EhXK232t4Y4jqH51AR80AibGxBU8ib12tNXmmJb6RYibIPqYeWg/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___15讲_动态限幅与弱磁____电流环的边界生存法则_images/img_009_999a04981cc1.png)
 
 代码B（电压反馈积分法）的风格充满了工业现场的真实感，**试探法极其稳健（图彻底不炸了，乖乖贴着圆走），但它是一种“事后诸葛亮”。它必定要在物理边界上发生一次“硬核碰撞（电压饱和）”，引发一次动态波动（扭矩掉坑），才能找到新的平衡点。这在电动车上，就是驾驶员在极速时感受到的一次“顿挫”。**
 
 我们最后看下 **模式3** （**代码A** 的算法复刻）的仿真结果，我们首先看 Scope\_Voltage\_Limit 和 Scope\_I\_dq 这两个示波器：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASwZhY2pGY2eyZvBOibYBqghkjLOdXqbcUPCLNxCu0Y8tN0LetQWNc3051Sic2Xu30Kjgiax3FoWicwG8uNnNl3tb7ibmwBGNKf1USc/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___15讲_动态限幅与弱磁____电流环的边界生存法则_images/img_010_e8747d134e15.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARiaHn56aV9PnnBCJ7KhJibLVuWgAvWqB3KsPltwgkgTibS9gNb9quKYoLItKSIg6QXibWpdFtY9Wgju9h5J8Vtyibc30aj6OUopbibc/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___15讲_动态限幅与弱磁____电流环的边界生存法则_images/img_011_8fce1461d4c0.png)
 
 对比刚刚 代码B 在 T = 1.4s 撞墙时那个让 Iq（蓝线）凄惨掉沟里的波形，各位同仁请看现在的图：
 
@@ -174,7 +174,7 @@ SVPWM 调制能输出的电压，在 DQ 坐标系里，是由 Ud 和 Uq 矢量
 
 我们再来看下电流雷达图的“性感收缩”：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASZtXA5ETIBQciatZNjAMz1Jnd22IZwULicekiazic5oBV3ib8mBMBP43kuuiaRogsR5ZNkYCiadOf9moQXHRcxf6y73rXmtUkFNltPwM/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___15讲_动态限幅与弱磁____电流环的边界生存法则_images/img_012_13ce94628f71.png)
 
 在 代码B 中，当遇到电压天花板时，电流轨迹点是向左**横向硬推**出负 Id 的。但在目前的 代码A 中，由于受到功率极值限制 wP > wMax ，代码瞬间算出了一个缩放比例系数 Scal 。目标 Iq 被这个系数直接“按扁”。这就形成了上图中那条**极度优美的向内回卷曲线！**这根曲线代表着：**系统始终踩在不同电流幅值下的 MTPA 最优阻力曲线上退让，而不是盲目退让。**
 

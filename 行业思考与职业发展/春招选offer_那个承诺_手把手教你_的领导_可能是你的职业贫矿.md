@@ -62,4 +62,4 @@
 
 答案很清楚：**选那个能让你满手油，而不是满手书的位置。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATeI5icuv6kMKQGsc0DIjicjKRcJegbl0LMdZiaUMvQmFCiaHOeuFeISibCWfO4QuSgVUU2ibkMrU7rGWObKmBotOIP06M7ghiaMrDoMg/640?wx_fmt=png&from=appmsg)
+![](春招选offer_那个承诺_手把手教你_的领导_可能是你的职业贫矿_images/img_000_c94bc7079d06.png)

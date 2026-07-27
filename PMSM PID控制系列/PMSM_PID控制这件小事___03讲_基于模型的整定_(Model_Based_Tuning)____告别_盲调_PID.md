@@ -20,11 +20,11 @@
 
 对我们电机控制来说，被控对象是什么？就是电机的FOC电流环。它的物理模型，就是我们大学里学的**电机绕组的等效电路**：一个电阻 R 和一个电感 L 串联。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQGPUn7R5F16hTJAbiafdOr3ksiaqia3owGjPicgcibBiaPgibibWF8RG0T6PcMxtYQ2TT1ED2ibOx0t0o3IsON3xYIFDic4sx2u0lYGmEKQ/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___03讲_基于模型的整定_(Model_Based_Tuning)____告别_盲调_PID_images/img_000_38671eaf2ac6.png)
 
 它的数学模型，也就是传递函数，写出来就是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAS70T15s0KgicQOUrmEJhr028aLPXWrXUDG52uBy3CnYZia82VOSnmfBkolFTcKlpvqg4R46KqNws9licPT5vxneTvnut3CTKglyI/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___03讲_基于模型的整定_(Model_Based_Tuning)____告别_盲调_PID_images/img_001_9f8e303c1b5e.png)
 
 其中，增益 _K = 1/R_，时间常数 _T = L/R_。这是一个标准的一阶惯性环节。
 
@@ -34,21 +34,21 @@
 
 IMC的理论比较复杂，但它推导出的一个结论极其优美和实用。它告诉我们，对于一个一阶惯性环节，要想得到一个又快又稳的响应，最佳的控制器形式应该是：**把被控对象的模型“倒过来”，再串联一个低通滤波器，即：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQyhMSqCJCj7QOveDZCZnMYeDbX251WsQ8kUL4V7iaXvTtZjvgEAia7C1wLibSWdcLolQk3XcKrrLIVSYSIyCFic7a9GRJQia6ia1e8M/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___03讲_基于模型的整定_(Model_Based_Tuning)____告别_盲调_PID_images/img_002_ed8ddb6a6d7f.png)
 
 其中 _F(s)_ 是一个低通滤波器，通常是 _1/(λs + 1)_。_λ_ 是我们唯一需要调节的参数，它代表了我们期望的闭环响应速度。
 
 我们把 _Gp(s) = K/(Ts + 1)_ 代进去：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATziaH3zP44kmqfLIJvqibcu1SHGczFOW2HgjnAnMaQoHoOP7TiapUeEmjqpIfrpZREZdu3aDS7tBA3ZgkdiaGv8v6Ox00LprhAaJQ/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___03讲_基于模型的整定_(Model_Based_Tuning)____告别_盲调_PID_images/img_003_f86a52cb27fc.png)
 
 这个公式看起来还不像PI控制器。别急，我们把它放到一个标准的闭环反馈结构里，经过一个简单的变换（如文末参考文献\[1\]中所述，_C(s) = Gc/(1 - Gp·Gc)_ ），最终得到的等效控制器 _C(s)_，化简后会惊人地变成一个PI控制器的形式！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsART4Hm2aFUw83pibsN00ea2Zg4FebEFOzJhxT3E1SO95UQU7VvBwPWtGicA1XpIQ7Ll4jSXVLgOBLzRPXE6dnrATqicDQ8JicFDXls/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___03讲_基于模型的整定_(Model_Based_Tuning)____告别_盲调_PID_images/img_004_b984a6f94bfc.png)
 
 并且，它的参数可以直接算出来：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASicCiaicZCkEfA5SbcmiaBvXGgcuudKGm0YxuyiaZr5QDNG9PLx1UsytwbjLI2xILsDg6yeZvAW7sGwJM7JiaZcN1niccOG9x4WzZMLY/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___03讲_基于模型的整定_(Model_Based_Tuning)____告别_盲调_PID_images/img_005_758959cc729b.png)
 
 所以，_Ki = Kp/Ti = (L/λ)/(L/R) = R/λ_。
 
@@ -99,7 +99,7 @@ IMC的理论比较复杂，但它推导出的一个结论极其优美和实用�
 
 **总结与互补**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARPdunicRQFneMyl5vc1a4SYWIKbbmWwjstQPzfpARPVUNjr1zkDWSuicehFdtTUnbYb3uYrOtYL4iaRhI3Y7yARBdtEoHYSGHdxw/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___03讲_基于模型的整定_(Model_Based_Tuning)____告别_盲调_PID_images/img_006_1126716cf2a1.png)
 
 **互补点：**
 
@@ -113,7 +113,7 @@ IMC的理论比较复杂，但它推导出的一个结论极其优美和实用�
 
 代码A、代码B的PID效果，对比起来看是最直观的，按照各自代码内的实现逻辑，在simulink中搭建仿真模型，同时，让二者的输出控制相同的电机，模型中用Plant\_Motor\_A和Plant\_Motor\_B作为代码A和代码B输出的负载，这是为了布线方便，实际上Plant\_Motor\_A和Plant\_Motor\_B二者的内部参数是完全一致的。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAR6pPD3EQ6oGSvicZr06r03GL4XREdc2EgLm2t8Rw9rG2icBibAcZVjJyqgFI3Pv5Bm3gVxXwbbnhWOAtGUoJHeV0qbW9CfMPDeUg/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___03讲_基于模型的整定_(Model_Based_Tuning)____告别_盲调_PID_images/img_007_3d3761015aff.png)
 
 让 **代码A（物理计算派）** 和 **代码B（经验工程派）** 在 2000 RPM 的匀速工况下进行了一场同台竞技。
 
@@ -121,7 +121,7 @@ IMC的理论比较复杂，但它推导出的一个结论极其优美和实用�
 
 结果怎么样？请看这张“战报”。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQIWG4Wt33c7ic0SCwsmX54QOgZ6qpJRELfzGQ4grhKHt64oib2RdUTeasY2RM4lV3hyrZY2Vxp7x4TRcF96G9Re6RKTmGIv6o4g/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___03讲_基于模型的整定_(Model_Based_Tuning)____告别_盲调_PID_images/img_008_5936a8c0c400.png)
 
 我们首先看**速度的较量（Iq的响应）**：
 

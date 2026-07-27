@@ -72,7 +72,7 @@
 
 这个流派更激进。它认为，一旦饱和，积分器不仅不应该继续累加，还应该**主动地往回减少**，让自己紧紧地“贴”在饱和边界上，时刻准备着退出饱和。详细技术理论可参见文末参考文献\[1\]的**Chapter 3.3.3 "Back-calculation"。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARSUBBNV2mwLlbhQagNp0dsWTRQp94LK0WpToBWSKX1xQ3NBgFxIKpTr93HoTMSyagoibbKpmMghXHZdbqYeCUlJ1RKuwysDe5U/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___02讲_给控制器装上_刹车_____抗积分饱和(Anti_windup)的深度解析_images/img_000_577525450371.png)
 
 u'是实际饱和输出，u是PID计算的虚拟输出。
 
@@ -97,7 +97,7 @@ u'是实际饱和输出，u是PID计算的虚拟输出。
 
 **本文小结：**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARu9ib3nwgibRxQdEKN87kyANjKy3HpFbTrhAp6XFGZQIskGxpyia21ypQqK1qG5TcDW9NB2RJGLEI5qIMXyjDsTfS8BTZGQ1vEdc/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___02讲_给控制器装上_刹车_____抗积分饱和(Anti_windup)的深度解析_images/img_001_c71ed9bd1daf.png)
 
 * * *
 
@@ -107,11 +107,11 @@ u'是实际饱和输出，u是PID计算的虚拟输出。
 
 首先，构建可对比观测的模型。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATjibBYB4sDZdI3Vk0cRGCM5ZziaSnjdtL3F6PTU8Tt4Y9ovxPASOH137BuW4Ft0Q9a98OjDTAshkjSuzOia1jibxHQQoIvcNXaWrU/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___02讲_给控制器装上_刹车_____抗积分饱和(Anti_windup)的深度解析_images/img_002_866d305b101b.png)
 
 然后，观测波形：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARgVDiaTuwYFQL0ZleE6JTjKAdpjC6NxtMG92tRyWtic7Vvp56fL079GY1Uq5j7ibNum0LuBzkPhPQJgnBKfGNJkiadpyjK3QH8B5k/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___02讲_给控制器装上_刹车_____抗积分饱和(Anti_windup)的深度解析_images/img_003_ff0f559e86ac.png)
 
 请重点关注 **0.08秒** 这一时刻（Reference 从 100A 掉下来的瞬间），
 

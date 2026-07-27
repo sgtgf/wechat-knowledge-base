@@ -28,7 +28,7 @@ P⁻ 是预测的方差，代表模型这份证词有多不可靠；R 是测量�
 
 R 大了，传感器一身杂波，K 就趋近于 0，滤波器几乎不理测量，闷头信自己的模型。P⁻ 大了，模型自己都心虚，K 就趋近于 1，滤波器扭头跟着测量走。它总是把权重投给那个此刻看起来更靠谱的一方。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASgce7fRia7yyo85vzzCMXTlbb4tWCNDTMCItDUjhBF0dDNpHxhiaLljJPnzFP8hCrrU2Jo6PDJ0ZXzprU51hezcFKeoU7kIs7Qw/640?wx_fmt=png&from=appmsg)
+![](EKF_的协方差塌缩_当滤波器_自信_到撒谎_images/img_000_56d246646e86.png)
 
 这套逻辑漂亮得让人安心，于是我们顺理成章地推想：温度升上来，模型算不准了，P 这边该心虚了，滤波器自然会转过去多信传感器，把温漂带来的误差纠回来。取其精华，去其糟粕，多好。
 
@@ -42,7 +42,7 @@ R 大了，传感器一身杂波，K 就趋近于 0，滤波器几乎不理测�
 
 这就是开头那一幕的由来。它一边错得离谱，一边报告一个极小的 P，这两件事不是自相矛盾，恰恰是同一件事的两面：它之所以敢报告这么小的 P，正是因为它早就不听测量了；而它之所以错，也正是因为它不听。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAThwyHtJ15liclIIfXicoCgKulNQRNDqskpcHH2KUv8K2LDJco3Jd9ib7NqmsnyA80yeDFZy5u3k8GsI2lmzSxOTydqUThfrGglkU/640?wx_fmt=png&from=appmsg)
+![](EKF_的协方差塌缩_当滤波器_自信_到撒谎_images/img_001_779f46ad72b7.png)
 
 这个失效模式在教科书里有自己的名字，叫滤波器发散。它的机理也有名字，叫协方差塌缩。
 
@@ -56,7 +56,7 @@ R 大了，传感器一身杂波，K 就趋近于 0，滤波器几乎不理测�
 
 所以滤波器其实有两种截然相反的病。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARQd6FCJxmB7zKeBeIeyUiaXZjFN7thTdf2Cr53d8E2ybl92s9JHo1EIjqBmcKV6ibcVSX3gicDo5icYA8sPFfMbUeotib03bYhZiaMw/640?wx_fmt=png&from=appmsg)
+![](EKF_的协方差塌缩_当滤波器_自信_到撒谎_images/img_002_001ed0318d76.png)
 
 Q 太小，是教条——错得笃定，听不进新证据。Q 太大，是轻信——谁说最后一句它信谁，被噪声牵着满地跑。一个太硬，一个太软。而调卡尔曼滤波器这件事的本质，就是在这两种病之间，找到那个信得够狠、又谦虚得住的地方。硬到能滤掉杂波，软到能追上变化。
 
@@ -80,7 +80,7 @@ Q 太小，是教条——错得笃定，听不进新证据。Q 太大，是轻�
 
 这一层的味道和前面不太一样。前面所有的融合，都是滤波器在用证据修正它对世界的估计；到这一层，它开始用证据修正它对自己的估计——修正它对 “我到底有多大把握” 这件事的把握。它不光在问 “世界是什么样” ，还在问 “我凭什么这么确信” 。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARLwib0S6PaDWln1TuVXuicRJpAYRibdJYa5wxNxbplEc6P9zDfD1DP9EBJgaib3PHVUpiacic8E6GS53YzfucD3wnMg1s3XPf2nibegk/640?wx_fmt=png&from=appmsg)
+![](EKF_的协方差塌缩_当滤波器_自信_到撒谎_images/img_003_fecce44a5481.png)
 
 剩下的招数也都顺着这个方向走。加遗忘因子，让老数据按指数打折，先验的自信就没法一年年无限攒下去。给 P 硬设一个下限，不许它缩到零，等于按住滤波器的肩膀跟它讲：话别说太满。
 
@@ -120,4 +120,4 @@ Q 太小，是教条——错得笃定，听不进新证据。Q 太大，是轻�
 
 保持锋利的办法，不是把自己磨得更硬，而是别让自己硬到不肯顺着纹理走。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQQYtCwS4e67kYb24wWEFO23ZLQiaHicIHdtbCH1Yl2g27uUMQ2WvYaouia6UO2GETibia2sRU0yoZfrzb3B8uo73yjRLaTQ0qjuIcM/640?wx_fmt=png&from=appmsg)
+![](EKF_的协方差塌缩_当滤波器_自信_到撒谎_images/img_004_441a61fd7ab3.png)

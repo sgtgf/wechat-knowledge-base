@@ -19,13 +19,13 @@
 
 现在有个任务：**要把一箱货从院子正中间，拉到东北角某个点**（这就是咱们需要控制的的“参考电压矢量V” ）。但你这三蹦子只会往那六个固定方向跑，咋办？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREMib3M4HiaXHHnGuvw6Zxs7mLZAgKoZDtibk7ibO4pSK2uwUJEfyvGWDic1NPkN8OfAPeqqPhae7abypw/640?wx_fmt=png&from=appmsg)
+![](矢量法与解析法_SVPWM的两种殊途同归式的代码实现_images/img_000_1b2bd815ab06.png)
 
 **“扇区”** 这就出来了！你一看，哦，东北角在 **扇区 I**，也就是在“正东”（V1）和“东北60度”（V2）这两个方向之间。
 
 那不简单了嘛！**先往正东蹬一会儿，再往东北60度蹬一会儿，**不就到了吗？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREMib3M4HiaXHHnGuvw6Zxs7mJic6OTDGlibYGKrexTXAKf4ZsiaCYWtgtdenicYS0icKpglvYgUPgHF79Ew/640?wx_fmt=png&from=appmsg)
+![](矢量法与解析法_SVPWM的两种殊途同归式的代码实现_images/img_001_3629d940bede.png)
 
 -   **T1 和 T2**：就是你分别朝 V1 和 V2 方向蹬了多长时间。
     
@@ -38,7 +38,7 @@
 
 现在换个场景。有仨兄弟，叫 **a, b, c**，他们要爬一个楼梯。这个楼梯有个规定：**顶不能高于天花板，脚不能低于地板**（这就是载波的 \[-1, 1\] 范围）。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Z8Iha3NiaCREMib3M4HiaXHHnGuvw6Zxs7mzFic3htWTqbIZibGs5rBXREicHf2F5SoeQwBEDA3EDO0327eE3H6SQNNg/640?wx_fmt=jpeg&from=appmsg)
+![](矢量法与解析法_SVPWM的两种殊途同归式的代码实现_images/img_002_3a8c225344ba.jpg)
 
 ua', ub', uc': 这是仨兄弟本来想爬的高度。他们仨特团结，任何时候爬楼的高度加起来都是0（三相对称）。比如 a 想爬到 0.8米，b 可能就想在 0.1米，c 就得在 -0.9米。
 
@@ -75,7 +75,7 @@ u0 = ½ - ½( umax + umin)
     比如扇区I，a 总是最高的那个，c 总是最矮的那个。“扇区”和“谁高谁矮”就是一回事！
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREMib3M4HiaXHHnGuvw6Zxs7mIljen3KegBfrbw2WNibttefZf1Hp6b1ia5tLfxToIU0T8Ek9IAn3Z3Mg/640?wx_fmt=png&from=appmsg)
+![](矢量法与解析法_SVPWM的两种殊途同归式的代码实现_images/img_003_f6bcd23be648.png)
 
 -   “三蹦子”往 V1 方向蹬了多久（T1）、往 V2 方向蹬了多久（T2），这不就决定了最终目的地离“正东”和“东北60度”有多近吗？
     
@@ -93,9 +93,9 @@ u0 = ½ - ½( umax + umin)
 
 文末论文中的 Table II 和 Table IV，就是在告诉各位：**如果你知道了“三蹦子”的时间（Ti），我能帮你算出“仨兄弟”该踩多高的板凳（ei(t)）；反过来也行！**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREMib3M4HiaXHHnGuvw6Zxs7m3LK4licICvl45REJPibKNib6uZw34rVnTXWFPl6d2hkuujnVz5MQQhs7g/640?wx_fmt=png&from=appmsg)
+![](矢量法与解析法_SVPWM的两种殊途同归式的代码实现_images/img_004_2bab98afbd06.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREMib3M4HiaXHHnGuvw6Zxs7mNG9iby7Zl2Co5ZopiclKmxZS2ZckYUH5Y3Bqx6LA7DC0mjoCTBk98apw/640?wx_fmt=png&from=appmsg)
+![](矢量法与解析法_SVPWM的两种殊途同归式的代码实现_images/img_005_4e7bf13cd3e1.png)
 
 所以，以后别怕了。一个 SVPWM，俩“马甲”。一个叫“几何形式”，一个叫“代数形式”。你喜欢哪个就用哪个，都是英雄，殊途同归！
 

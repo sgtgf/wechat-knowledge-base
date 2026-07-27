@@ -16,7 +16,7 @@
 
 在最理想的情况下，我们给它的“指令”（电流）是一个很完美的“方波”，就像下面这张图里画的一样（黑色波形为相反电势波形，红色波形为相电流波形）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFledynhWkg0I3SicxZhmDhoricfib4MIUpU6MeoQvkwrAw26qumm9CwquKngJDdnib1W8rtatViaUSO1A/640?wx_fmt=png&from=appmsg)
+![](你的BLDC电机_摸鱼_了吗___把换相损耗的电流榨干_提效2_3_的秘密_images/img_000_72e17c8222d2.png)
 
 你看，当反电动势e（可以理解成电机转动时产生的、代表“推力时机”的信号）达到一个平台时，我们就给它一个同样是平台的电流i。e和i的形状完全匹配，方向相同，根据物理学，这时候电机产生的力气（转矩）就是最大的！就像你每次都在木马最需要力的时候，用尽全力推了一把！
 
@@ -28,7 +28,7 @@
 
 所以，因为电感这个“懒家伙”的存在，我们发出的完美方波指令，到了电机那里就变成了下面这个样子：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFledynhWkg0I3SicxZhmDhokBepEAfDj5MCWf2jpXbvkiaOfMbmS5b5qGbVTDQF3zQTqQ9vZOvGRWw/640?from=appmsg)
+![](你的BLDC电机_摸鱼_了吗___把换相损耗的电流榨干_提效2_3_的秘密_images/img_001_f014bc78e4fc.png)
 
 请看上面这张图，这是本次引用论文的核心！
 
@@ -60,7 +60,7 @@
 
 作者的目标是让电机的平均功率（P）最大化，因为功率大就意味着转矩大。他通过一系列复杂的积分运算，得到了一个表示平均功率P和提前角θadv关系的公式。我们直接来看这个关键的“藏宝图”：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFledynhWkg0I3SicxZhmDhot0J6icLQnVrPnTxjkHnq6alzIzt6IOqk4UeDMDLvWsTyKW7r2835oJw/640?from=appmsg)
+![](你的BLDC电机_摸鱼_了吗___把换相损耗的电流榨干_提效2_3_的秘密_images/img_002_8c9499a98c4c.png)
 
 大家请看这个公式，是不是有点头大？别怕！我们把它翻译一下。Em和Im是电压和电流的最大值，是常数。真正影响结果的，是我们能控制的θadv（提前角）和电机固有的θcomm（懒惰时间）。
 
@@ -70,7 +70,7 @@
 
 原文公式 (6) 推演:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFledynhWkg0I3SicxZhmDhoO4asJXfYhCDic0QncL36DCMGTJFgDtPKz41QqSeQ5LoicPtLfkFVHuVw/640?from=appmsg)
+![](你的BLDC电机_摸鱼_了吗___把换相损耗的电流榨干_提效2_3_的秘密_images/img_003_4f0442c82d3e.png)
 
 我们来解这个方程。把常数项 (3EmIm/π²) 约掉，就得到：
 
@@ -78,7 +78,7 @@
 
 移项一下，我们就得到了一个无比简洁、无比优美的结论！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFledynhWkg0I3SicxZhmDhorgfMSd7xickBia7gCOhoqKSxqwSuFfB67S94BEp4kl6h4rBlXcPX7wuw/640?from=appmsg)
+![](你的BLDC电机_摸鱼_了吗___把换相损耗的电流榨干_提效2_3_的秘密_images/img_004_5898ca8e9847.png)
 
 多么漂亮的结论啊！它告诉我们：最佳的提前时间，正好是电机“犯懒”时间的一半！
 
@@ -88,7 +88,7 @@
 
 作者算出了这个结论，然后就在电脑上用仿真软件试了一下。结果怎么样呢？
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFledynhWkg0I3SicxZhmDhoRl8fbpX30icxY4GtZmd6J5de3NiaI3gpVI4sN3xloYnEgibajw9Bevm9w/640?from=appmsg)
+![](你的BLDC电机_摸鱼_了吗___把换相损耗的电流榨干_提效2_3_的秘密_images/img_005_508c95a6e6c5.png)
 
 请看这张图。横轴是电机输出的力气（Torque），纵轴是消耗的电流（Current）。
 

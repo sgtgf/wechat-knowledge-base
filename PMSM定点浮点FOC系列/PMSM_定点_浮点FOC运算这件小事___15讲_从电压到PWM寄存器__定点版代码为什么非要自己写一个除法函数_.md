@@ -123,7 +123,7 @@ if (denominator == 0) {
 
 两者差**1个PWM tick。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAR7FpPpbStCL8qibic7ibSSUxpnQtUyoQMOvYLpibiacQVbkiboib1oFrH7V6hdl1CA9uCWlh3vvE8HPgVRmZJeqMRZ5TFxrTzC0TCHIk/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___15讲_从电压到PWM寄存器__定点版代码为什么非要自己写一个除法函数__images/img_000_05ed3b8bfe9e.png)
 
 我又把三相SVPWM完整跑了一圈，发现在某些电角度（比如接近1°附近）同样踩到了这个边界。这说明差异虽然窄，但**不是数学上不存在**，而是发生条件比较刁钻——需要被除数刚好落在取整边界附近。
 

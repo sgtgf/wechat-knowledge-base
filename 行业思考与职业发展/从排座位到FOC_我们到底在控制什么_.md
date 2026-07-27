@@ -10,7 +10,7 @@
 
 两种规则，一个叫“公平”，一个叫“公正”。哪一个更好？我一时答不上来。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARCPQeKlIvE0icJhSWd0t9RkM9DtvuEUkqCDB2iaOM1MKmU6UBAhib4UDolVqOX40sbyl9U4mMGVWL0aSVfme6zLq9hBicQQH7E5c4/640?wx_fmt=png&from=appmsg)
+![](从排座位到FOC_我们到底在控制什么__images/img_000_abcefdece174.png)
 
 直到我回到工作台，打开电脑，盯着屏幕上那几条上下翻飞的电流波形时，一个念头如闪电般击中了我：**这不就是一个FOC控制的“排座位”问题吗？**
 
@@ -26,7 +26,7 @@
 
 在这个世界里，没有“凭什么”，只有“是什么”。**法则是冰冷的，但结果是正义的。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAT4T0EQCN7Y8mnpGWSXfiavibT8KRlrTE63pxnFbknX62MvUpMU2KkbuEhd4bEiaEyCxPMP9bCGPFq9ovo6iaXddHLiaDSBylZnqkxU/640?wx_fmt=png&from=appmsg)
+![](从排座位到FOC_我们到底在控制什么__images/img_001_24646764bc5e.png)
 
 然而，我孩子教室里的那个轮流制，遵循的却是完全不同的逻辑。
 
@@ -36,7 +36,7 @@
 
 在这个世界里，“是什么”不重要，“凭什么”才重要。**法则是温情的，但结果可能是荒谬的。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASelSPJ05zfiaYJqMnYU2XW4lH7lDUYmLMeCOqetEZbKlibNdsiblsmyclAPvN5tibSXQwJasVzTBcOswrzW4AUWgCWwSibxPzichCpw/640?wx_fmt=png&from=appmsg)
+![](从排座位到FOC_我们到底在控制什么__images/img_002_6bdd3bd147cb.png)
 
 当我把这两个场景并排放在一起时，我仿佛触摸到了一个更底层的逻辑：
 
@@ -50,7 +50,7 @@
 
 如果你强行在这个系统里推行“物理公正”，要求最能干的人（快响应）拿最多的项目（内环任务），最勤奋的人得最高的奖金，而忽略了其他人对“机会均等”的渴望，那么系统短期内效率会很高，但长期看，可能会因为内部的“转矩脉动”（人心不稳）而产生巨大的内耗，甚至崩盘。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/vvmIAIMZsASFxTt2x8HcHVs5pibHfbiabeHIXCTnVZSMIb6j6rkHwT1fz0Aqf33xRVle3kNAX6O9zjBz8rHgRE3QJ0RXmPV3sqZqdFU2Kjzqg/640?wx_fmt=jpeg&from=appmsg)
+![](从排座位到FOC_我们到底在控制什么__images/img_003_222089c16850.jpg)
 
 那么，技术的世界里，就永远是“物理公正”的天下吗？
 
@@ -64,7 +64,7 @@
 
 这就像给教室里的每个孩子都发了一副VR眼镜，知识直接投射到他们眼前。谁还会在乎自己坐在第几排？**当技术维度提升后，那个曾经让我们无比纠结的“公平与公正”的矛盾，本身就消失了。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARjXx10pW8Y3K4l2YNmfDx03990qrj12Zs0qNsAjVfuH1mUWChplZoKwthgt5Ip0qKflOe1GTichatXFhjWU1YRlDMvKpIiaA2oo/640?wx_fmt=png&from=appmsg)
+![](从排座位到FOC_我们到底在控制什么__images/img_004_2b083a3bf4a2.png)
 
 写到这里，我抬起头，再次望向我的工作台。
 
@@ -78,4 +78,4 @@
 
 今天，你手头的那个系统，遵循的是哪一种逻辑？它的“内环”，又会是什么呢？
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/vvmIAIMZsAQlsGjeDcLBChyLl7fUs2SMqfyzd8ib6oMbxdLLiaLh5Twtq1N5ZTibzBmgicp91iajdZUl5tvk7CUncGqBpng1GulOfJwQbZ2wkYoc/640?wx_fmt=jpeg&from=appmsg)
+![](从排座位到FOC_我们到底在控制什么__images/img_005_e4b039f000a7.jpg)

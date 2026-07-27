@@ -16,7 +16,7 @@
 
 具体情况可参考图1中ADC转换曲线示例：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREk6eOr5vTSXThulx9DVLsNAuWtVTQhiadN7JqqxfP8aDYz21nibvB0pg36U3e8F1JSGDgGU06lYCiaA/640?wx_fmt=png&from=appmsg)
+![](如何理解影响ADC精度的积分非线性（INL）误差_images/img_000_ccf7ce8f5dc8.png)
 
 图1 ADC转换的示例曲线
 
@@ -30,7 +30,7 @@
 
 想象一下，你从楼梯的起点（第一个转换点）开始往上走。理想的楼梯，你每走一级台阶，你的**绝对高度**应该正好增加1 LSB。实际的楼梯呢？因为每级台阶的宽度（DNL）有误差，你走到第k级台阶顶端的**实际高度**，可能和**理想高度**（k \* 1 LSB）不一样了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREk6eOr5vTSXThulx9DVLsN3lzgVIBoYJDfUDI8fH2Sib2dHiaclQQ8EG9q3qiaPRJCBSRV94krfn8aQ/640?wx_fmt=png&from=appmsg)
+![](如何理解影响ADC精度的积分非线性（INL）误差_images/img_001_9ed42ae1f753.png)
 
   
 
@@ -40,7 +40,7 @@
 
 计算公式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREk6eOr5vTSXThulx9DVLsNysnLIey1uc0x2iaOClQwT1ryo7Ql8kicxWObqYk3EhFscj25KrJbdpnQ/640?wx_fmt=png&from=appmsg)
+![](如何理解影响ADC精度的积分非线性（INL）误差_images/img_002_85cb68b9e13f.png)
 
   
 
@@ -88,7 +88,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREk6eOr5vTSXThulx9DVLsNicwYyHm0pdNMz0I50ITdpu1l24saibWUvX0VLD1fZYIOgoQGYsoiaLkLg/640?wx_fmt=png&from=appmsg)
+![](如何理解影响ADC精度的积分非线性（INL）误差_images/img_003_6d6a178b5a09.png)
 
 图2 INL与ADC编码值之间的关系示例图
 
@@ -108,7 +108,7 @@
 
 **举个例子（结合图3****）：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREk6eOr5vTSXThulx9DVLsNIxrweibMTvX8cic3ByKbNuia189fDCCbpicTcaYTBkxfcqt1lTjAWqA3rg/640?wx_fmt=png&from=appmsg)
+![](如何理解影响ADC精度的积分非线性（INL）误差_images/img_004_4020c9a38e9f.png)
 
 理想转换图（a）     误差波形图（b）
 

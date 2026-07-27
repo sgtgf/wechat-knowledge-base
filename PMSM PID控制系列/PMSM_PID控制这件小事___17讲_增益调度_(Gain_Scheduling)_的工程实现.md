@@ -96,11 +96,11 @@ m_DetaKP   = gAsr.KPHigh - gAsr.KPLow; // 算出高低挡位的参数差极差
 
 空口无凭，还是得上Simulink。模型的画布中主要由以下4部分组成：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQgAaX9z3aMaaKg2Ov6KPfplNZGG6mNNBozGzibWk4A62siaHfJp9hribOv7yZ8ib5uiaPAAXSv5vib0Wt3tUqib0TVPqpy81YxF3sTQA/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___17讲_增益调度_(Gain_Scheduling)_的工程实现_images/img_000_8cadc05c8110.png)
 
 1\. 被控对象模型：带“非线性物理特性的电机及负载”，引入一个 Friction\_Stiction（粘性摩擦）模块。特别是在转速过零点或极低速区域，设置一个较大的静摩擦转矩（Stiction）和死区。为了让仿真跑得快、波形清晰，没有搭建完整的包含了PWM和逆变死区的逆变器+FOC底层模型，而是用一个一阶惯性环节（代表闭环后的电流环）加上机械运动方程来聚焦于速度环
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATxfgXqtFgcLLOnL0HQfacZ7icrWrjPrVROJC4icyvWodQXj4Ku6vicuJUj45ELW7LFLMSUy4m8mblv5D5Gs47wJoYzLAAGibxc8Sg/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___17讲_增益调度_(Gain_Scheduling)_的工程实现_images/img_001_2c9cb406a0e5.png)
 
 2.  三组对比控制器，如画布中的青色模块：
     
@@ -117,11 +117,11 @@ m_DetaKP   = gAsr.KPHigh - gAsr.KPLow; // 算出高低挡位的参数差极差
 
 我们来看下具体的仿真结果，首先来看速度跟随大比拼的结果，也就是 Scope\_1\_Speed\_Compare 示波器理的显示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQfAGeszTrzrtaIYJb9HbYdPnKxmnz1FnTA8QTZOfjAFoibIG14ICTnSN60gHD8JFO7FBp4KquWqxdn0uFNkundNCqUvSmuSGL0/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___17讲_增益调度_(Gain_Scheduling)_的工程实现_images/img_002_05bdeb2fc82d.png)
 
 我们放大一下看：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASZH8ovrejrMQOl57MQ1djcWQ59Uq57ToJQqbiaFqGvI0VWicPwmZQTLIFV5ia2RzEkO0ib4Mic3rmh5iaIT7I4zEp1NQB6uTOeAVT3c/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___17讲_增益调度_(Gain_Scheduling)_的工程实现_images/img_003_6571e5853994.png)
 
 1.  **红线（Motor\_B，固定高速小参数）**：这就是“低速软脚虾”！给定10rpm的指令，红线无法消除自己的稳态误差，因为我们设定的静摩擦力是 1.5Nm。Motor\_B 用的 Kp = 1.0 太小了，计算出的力矩根本冲不破这个“恐怖的死区死区”，电机陷入泥潭。
     
@@ -130,13 +130,13 @@ m_DetaKP   = gAsr.KPHigh - gAsr.KPLow; // 算出高低挡位的参数差极差
 
 我们来看下示波器 Scope\_2\_Kp\_Schedule\_Q12 的结果，这是用来展现 代码B 插值艺术的定点极差曲线的：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARdB0StHrCQjYqNVTlImUmvLPSqodl3UKAiczQfA9GiaLeqCsktPvGJUnhPwia7cG7Lz7ByLqk8CQk5iaA65ia6dIWY31bK09YicaIug/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___17讲_增益调度_(Gain_Scheduling)_的工程实现_images/img_004_63fd59005b42.png)
 
 在起步的 0~2.5s 期间：Kp 稳定在 40960。因为转速还没到 500rpm（预设的 SwitchLow 锚点）。各位同仁请注意，真实的 Kp 是 10.0，但在 Q12 格式下，左移12位（乘 4096），数值是 10×4096 = 40960。**高能时刻**在 2.5~4.2s ，此时电机正在全力加速（对应上图的爬坡段）。由于咱们的速度已经跨越了 500rpm 且正在向 2000rpm 逼近，那段全定点整型代码 (极差 \* 溢出量进度) / 总区间尺度 被触发！在这个区间，我们看到了一条**极其漂亮、毫无台阶的线性下降斜坡**。4.2s 以后，转速满 2000rpm，Kp 稳稳降落并锁死在 4096（对应真实的 Kp =1.0）。
 
 我们最后看一下不同PI算法输出的转矩指令值，也就是 Scope\_3\_Torque\_Cmd 示波器的显示：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQc4cnEtPYf6OcxemibYU2XK23GC6ibqIjjyIJlS4SdKKJPfniaictU7VOVicFPlWCdk9GGFfy5CrDQKSM7L1Ol0bO05iaj91bIL5giaU/640?wx_fmt=png&from=appmsg)
+![](PMSM_PID控制这件小事___17讲_增益调度_(Gain_Scheduling)_的工程实现_images/img_005_9f510430b654.png)
 
 这张图揭示了控制器的“内心戏（控制努力程度）：在第 2s 加速指令到来时，三个控制器的输出扭矩瞬间都顶到了我们设置的限幅天花板（50Nm），电机在以最大能力加速。**分水岭出现在 4.3s （到达目标速度的瞬间）**，蓝色和黄色的交织线中，黄线（Motor\_A大参数组）在退出饱和区时，像高台跳水一样砸到底部，然后发生了剧烈反弹！而代表增益调度的红线，它的退饱和曲线极其圆滑，那是因为此时它的 Kp 大脑已经悄无声息地降到了 1.0，以一种极其温和的姿态将庞大的惯性接管住了。
 

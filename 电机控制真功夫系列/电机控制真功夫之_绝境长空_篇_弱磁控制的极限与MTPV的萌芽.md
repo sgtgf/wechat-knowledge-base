@@ -91,7 +91,7 @@ Ud = Rs\*Id - ωe\*Ld\*|Id|
 
 Uq ≈ -ωe\*Ld\*|Id| + ωe\*λm = ωe \* (λm - Ld\*|Id|)
 
-此时，合成电压为 ![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCREniaa0GC7uuW3cjWtd4JQBEjGnB6DCVsXdEhKY02ZAlWvJUfVQcELHshEF7ydvFIILYZIyXkxyqGQ/640?wx_fmt=png&from=appmsg)。
+此时，合成电压为 ![](电机控制真功夫之_绝境长空_篇_弱磁控制的极限与MTPV的萌芽_images/img_000_06da8d69824c.png)。
 
 **弱磁控制的“终点线”在哪里？**
 

@@ -52,7 +52,7 @@ Simulink 里的波形漂亮得不像话。
 
 这就是 **前向欧拉（Forward Euler）** 离散化。几何上看，它用一块矩形去近似曲线下方的面积——矩形的高度是起点处的函数值，宽度是采样周期 。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/vvmIAIMZsASOt3HwUia6VricjMTx97u3abjBhTeR9plDvt16dGxELzx0WwU2GqHILu8VfgeIibDR9X38B3zUEsly3iclz0ZtDP57ibnlEQaKib26g/640?wx_fmt=gif&from=appmsg)
+![](PMSM观测器控制这件小事___06讲_从连续域到离散域_你的观测器在_MCU_里是怎么_跑_的__images/img_000_530436eea722.gif)
 
 通俗来讲：你在开车，只看了一眼时速表（当前速度），然后就假设接下来一分钟都以这个速度匀速前进。如果这一分钟里你加速了或减速了，这个假设就会出错。出错的大小，跟你"看表的频率"有关。
 
@@ -104,7 +104,7 @@ D-003 的综述提到，有文献报道精确离散化的全阶状态观测器�
 
 这就是**Tustin 方法**，也叫**双线性变换（Bilinear Transform）**或**梯形积分**。它同时用了起点和终点的斜率，用梯形的斜边去贴合曲线，明显比矩形的平顶更贴近真实形状。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vvmIAIMZsASbgzuLmLe2BvpDPhcaUyvkfZ7lRWlEts4zMypedeIG0PjRl8VHw4DHSH312WibWYMtTjj3ek1lTZn3zCNA4lHm8qibXdQCnmaog/640?wx_fmt=gif&from=appmsg)
+![](PMSM观测器控制这件小事___06讲_从连续域到离散域_你的观测器在_MCU_里是怎么_跑_的__images/img_001_7b5f83e34ec9.gif)
 
 精度也提升了一档：局部截断误差是 。采样周期减半，误差降到八分之一。
 

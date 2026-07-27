@@ -32,17 +32,17 @@
 
 2\. 在画布空白处，双击鼠标右键，输入"subsystem"，创建一个 **Subsystem** 模块到画布上。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkicq8ZTIHp5ds2HO9pTHaBDk9nFnrdohxs4ZVFIUBytO2htob8dnnMsfA/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（一）_锻造_破壁之锤__images/img_000_515dc5c41494.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkiclHM8u3vaoUuhcNYOR860ibAWXuY439FkibPzZLVQa0rK2AibsdGUCv5PA/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（一）_锻造_破壁之锤__images/img_001_e50601a96cd4.png)
 
 3.双击这个Subsystem，给它改个名字，就叫`Weakening_PI_Controller`。这就是我们的“砖”！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkicHehWBKiaxcwoNgP3kibA4zoxgblNKY6oggsXaiapo2EPnEIENw74AMj5g/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（一）_锻造_破壁之锤__images/img_002_2ffe32222d11.png)
 
 4\. 双击进入这个子系统。现在里面空空如也，只有一个`In1`和一个`Out1`。这是子系统的默认输入输出。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkichMU3Ifsxm6LSqcdamXKYX0alAenicibNvFFQl1mgXKEEHjz4frDNgGQw/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（一）_锻造_破壁之锤__images/img_003_6fe373253cfa.png)
 
 5\. 思考代码的输入:
 
@@ -73,7 +73,7 @@
 
 现在，你的`Weakening_PI_Controller`子系统的内部看起来是这样的：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkicrlDOILicdMmmHXkYIsOxCLM7EJt69JGyfgPLDuPI4ib2E2ib41BuomOWw/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（一）_锻造_破壁之锤__images/img_004_21e58bd503f5.png)
 
 我们的“砖窑”已经准备好了模具！
 
@@ -100,7 +100,7 @@
 -   现在，Product模块的输出，就是`eDC`了！
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkicWiaLocUekibeckMVNVlfcI5YE4MgyHOxMmQgONqrSs6xrlcYeUSNkzmA/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（一）_锻造_破壁之锤__images/img_005_de92d0cc864c.png)
 
 2. **实现 `pm->weak_track_D += eDC * pm->weak_gain_EU`**:
 
@@ -120,7 +120,7 @@
 -   Gain模块的输出，就是`weak_track_D`的未限幅值！
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkicQWYvU7cbPpricb5awG3SWFQozx8RI9wibRCMicOsO442oAMJqicxcqnHkw/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（一）_锻造_破壁之锤__images/img_006_97aa28d49654.png)
 
 3. **实现输出限幅**:
 
@@ -143,7 +143,7 @@
 
 **大功告成！** 你已经完成了“砖”的内部搭建！它现在看起来应该是这样的：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkicBBO7iaABjGCTYWyeVcoDAhVtlYic4zcmfTPeUCBCibDyrQOly2X7IkrrQ/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（一）_锻造_破壁之锤__images/img_007_117bbbcc3d5a.png)
 
 #### **Step 3: 封装与测试——给“砖”一个漂亮的外观和说明书（Mask）**
 
@@ -151,24 +151,24 @@
 
 1\. 回到上一层，右键点击我们的`Weakening_PI_Controller`子系统，选择`Mask` -> `Create Mask`。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkiciaBlm0nj92FicWFiaHwOtDUicQYtL0jiakfdOXqAZcLaic39A1ibygibQp04aQ/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（一）_锻造_破壁之锤__images/img_008_970fa893f72e.png)
 
 2\. 在`Parameters & Dialog`标签页下，我们可以添加参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkicjcw2sNa9SMh4umHtpMXNrwrHWIVyqepmGmDuoV2AibaKrWfpYLnJBkw/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（一）_锻造_破壁之锤__images/img_009_8090ad146641.png)
 
 3\. 点击左侧的`Parameter`，在右侧添加两个`Edit`类型的参数：
 
 -   **Prompt: `积分增益 (Ki)` **Name**: `gain_EU`**
 -   **Prompt: `最大弱磁电流 (Abs)` **Name**: `weak_maximal`**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkicgSogbyhj2aIsnZ1ze8u518fWuu7iaDN3czJqUJiaC6nvYejQD3P06yyw/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（一）_锻造_破壁之锤__images/img_010_0af4344afa69.png)
 
 4\. 点击 OK。
 
 现在，你再双击你的`Weakening_PI_Controller`模块，它就不再是进入子系统，而是弹出一个漂亮的对话框，让你输入`Ki`和`weak_maximal`的值！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFxyYVSv35t7jZsUaiciaWibkicEiaw5N3hZIxnWajtMTCD2VfyVsHwZtS4ykicypyKky059sS3JL68cqcw/640?wx_fmt=png&from=appmsg)
+![](Simulink_弱磁控制沙盘推演_之_烧砖_篇（一）_锻造_破壁之锤__images/img_011_2d51c4a39672.png)
 
 **现在，你拥有了一块完美的“砖”！**
 

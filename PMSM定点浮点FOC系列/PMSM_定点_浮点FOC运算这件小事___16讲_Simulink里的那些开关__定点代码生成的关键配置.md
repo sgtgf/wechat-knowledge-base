@@ -26,7 +26,7 @@ Simulink的配置界面就是FOC代码的隐蔽工程。你打开生成的`FOC_C
 
 我们打开F103定点模型的配置文件，里面这样配置：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASBR0m9IRp8srlvm9SSNOd5yfTKVPc918a24OIt3nQ56MdykB7yBDUv6Fsv6bRUVxyoVDbdc9efNQGdGpg1FiaCMialnukp04pC8/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___16讲_Simulink里的那些开关__定点代码生成的关键配置_images/img_000_a5a4378dd83a.png)
 
 这几行告诉Embedded Coder：你的目标芯片是ARM Cortex-M架构，`short`是16位，`int`是32位，`float`是32位。
 
@@ -40,11 +40,11 @@ Simulink的配置界面就是FOC代码的隐蔽工程。你打开生成的`FOC_C
 
 数据字典里存着每一路信号的数据类型定义。F103的字典里，变量与常量的类型是这样写的：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASjLpRUZ8eNE4IhkUGXS3STNowTEeFSTcNYwoGndMR294QCJU3hlVicsoHYxGgtLb4d55JwQcCPB3A94IbI86Ravk1GEic5f6nos/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___16讲_Simulink里的那些开关__定点代码生成的关键配置_images/img_001_75a6db8ba75e.png)
 
 而G474的字典里，同一路信号被设置的是 sigle (32位单精度浮点) ：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQNJ3HxQy8YmQLVYcfve0hv9DZFMfT4ZGslEdE2A2JEtFsuxFXCib3NuiaaqPMpibBzk9IkVdlKUycGyuZfr571ByrahjMLjTg4g0/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___16讲_Simulink里的那些开关__定点代码生成的关键配置_images/img_002_de6d9402b761.png)
 
 就这一行之差。Clark变换的输入信号在F103模型里是`fixdt(1,16,15)`，于是Embedded Coder生成了我们前面拆了八篇才读懂的那堆移位和魔数代码。换成G474模型，同样的Clark变换算法，因为信号类型是`single`，生成出来就是一行乘法一行减法，干干净净。
 
@@ -56,7 +56,7 @@ Simulink的配置界面就是FOC代码的隐蔽工程。你打开生成的`FOC_C
 
 两个模型的配置里还有一行一样的参数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARInicbR8L2S4GpibnotMfZFTBUWVOVu1Iic1od5Bs3l8GBfE2vQGOJVXHfr40iaiaeRMdzOAVXF9at1OibIfL6wOuJWLXQpJ1AnNQaA/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___16讲_Simulink里的那些开关__定点代码生成的关键配置_images/img_003_eae44900483b.png)
 
 这个选项告诉Embedded Coder：生成代码时，如果遇到标准数学函数，优先替换成ARM优化的版本。
 
@@ -68,9 +68,9 @@ Simulink的配置界面就是FOC代码的隐蔽工程。你打开生成的`FOC_C
 
 F103模型有一个被打开的配置，G474模型却关着：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATTMkTDAFURBysex9GMy9envUiaQBIXImefNA1jE6zR7IZx1UAaM43LEK0Xqw8owj4Vnv2tGRr84uTstn2LeJHou5iaQCUPPyIEc/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___16讲_Simulink里的那些开关__定点代码生成的关键配置_images/img_004_38c36557c252.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQUMqBZu6K8jq2UGMhntfUUibVvCeDFtOOsHcqLBPJuI6TV1GF8DEInaULy8gYG5WnT7R8mjL2bkiazpfVNppDTXVhMoveTMsV4g/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___16讲_Simulink里的那些开关__定点代码生成的关键配置_images/img_005_c944fdf20f24.png)
 
 `SimulationRangeChecking`设成`warning`，意味着Simulink在仿真时会监控每一路信号的实际数值范围，一旦超出各位同仁在数据字典里设定的表示范围就报警。
 
@@ -80,9 +80,9 @@ F103模型有一个被打开的配置，G474模型却关着：
 
 同样的道理，F103模型的编辑器设置里`ShowDesignRanges`是打开的，G474是关的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATV8ZeVGlTxeI0cibCetKeRQR1Gy7ts1b5rNJ5MuWibJ08K7YKkp0DtvO5JiblOFBG1Z83PmCXJwlmh2qUybYBEyy1ug8SlVZDiaUk/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___16讲_Simulink里的那些开关__定点代码生成的关键配置_images/img_006_a1302dbf39a4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATUVk8fwNpJ0kkPFneicfJWwzOktadiaB3mA5CKVh8nWr0lMmWdhYIBg1k7ib2WnhfEGKMaf1zTzyhbaUVESVc4CMDiaBG5OvETnzU/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___16讲_Simulink里的那些开关__定点代码生成的关键配置_images/img_007_5cd30bf433bd.png)
 
 定点开发需要时时刻刻盯着每个信号的设计范围，浮点开发不需要——这就是两种开发范式在工具链层面的真实差异。
 

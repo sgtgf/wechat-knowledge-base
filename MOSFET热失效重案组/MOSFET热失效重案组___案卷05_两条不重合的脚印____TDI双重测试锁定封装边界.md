@@ -33,7 +33,7 @@
 
 当我们把这两张图叠在一起时，一个惊人的现象出现了——它们在开始时完全重合，走到一半时却神秘地“分岔”了！留下了**两条不重合的脚印**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRETd4R6lMOcndXBEeUB0xoEUYMibxjcTTs6mNb5Qm7lxTgWUBibDReQxxpHFZKH1UaOIEyLvaT8mv4Q/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷05_两条不重合的脚印____TDI双重测试锁定封装边界_images/img_000_99bade4c4ef3.png)
 
 **我们今天的核心任务，就是解读这个“分岔点”的含义！**
 
@@ -65,7 +65,7 @@
 -   标准给了一个建议值：**约10N/cm²**。不大，刚刚好能固定住就行。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRETd4R6lMOcndXBEeUB0xoECo2d3BXlRPDZDxY8E69IJeSspvOsHsZ756aoRYc8RF85pHkl1hngkg/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷05_两条不重合的脚印____TDI双重测试锁定封装边界_images/img_001_5f5e1d64392c.png)
 
 **第二部分：作案过程的重演——TDI测试流程**
 
@@ -93,7 +93,7 @@
 
 现在，我们把两张图（ZθJC1 和 ZθJC2）叠在一起（参考标准Figure 4）进行关键解读。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRETd4R6lMOcndXBEeUB0xoEUYMibxjcTTs6mNb5Qm7lxTgWUBibDReQxxpHFZKH1UaOIEyLvaT8mv4Q/640?wx_fmt=png&from=appmsg)
+![](MOSFET热失效重案组___案卷05_两条不重合的脚印____TDI双重测试锁定封装边界_images/img_002_99bade4c4ef3.png)
 
 -   **初始阶段（t < 15ms）：** 两条曲线**完美重合**。
     

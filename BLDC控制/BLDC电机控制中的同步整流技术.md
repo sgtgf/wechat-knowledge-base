@@ -14,7 +14,7 @@
 
 参考文档2中的图2清楚展示了传统模式的运作机理：当Q1阀门关闭，水流只能挤进旁边窄小的泄压池（二极管D2），这个池子入口有一个0.7V电压门槛——相当于水流要翻一座山才能进去！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFLmtRUxib3oXMwPX8FPCVib4icpuricicAeUpLY8OAmuV7LH3UtTMylVhrqLficiaHic7ehOYxh7Adh7sqew/640?wx_fmt=png&from=appmsg)
+![](BLDC电机控制中的同步整流技术_images/img_000_1724ea423481.png)
 
 计算能量浪费（参考文档2数据）：
 
@@ -32,7 +32,7 @@
 
 参考文档2的图3展示了主动续流模式的工作机理：M1关闭瞬间，M2闸门经一段死区后开启，形成绿色通道！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFLmtRUxib3oXMwPX8FPCVib4RM7iaVr1iaRHB2QzMGuP38icyqQFMTfiahv8dUs7TWCficqt43uyztqmFKQ/640?wx_fmt=png&from=appmsg)
+![](BLDC电机控制中的同步整流技术_images/img_001_6a27c29b23f2.png)
 
 关键技术：互补PWM+死区时间（参考文档2中的图4）
 
@@ -41,7 +41,7 @@
 -   但切换瞬间留个“安全空隙”（死区时间），防止两管同时开导致短路爆炸。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFLmtRUxib3oXMwPX8FPCVib4Sh4trcAXnFD2of2sTeXfwz2dIwOz6CxtD6bicPvUWl9LLm1z8zialNiag/640?wx_fmt=png&from=appmsg)
+![](BLDC电机控制中的同步整流技术_images/img_002_78afb1708aa8.png)
 
 * * *
 
@@ -64,7 +64,7 @@
 
 翻译成人话：占空比D就像水闸开合比例，通过它和总流量 is可反推出分管流量！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFLmtRUxib3oXMwPX8FPCVib4HzbLJHbhSxL0jXW1Ty5Phn4hniaR9Adib7XiaxibIMuIMpkKBOlPzvGqNA/640?wx_fmt=png&from=appmsg)
+![](BLDC电机控制中的同步整流技术_images/img_003_bb210efeb8c2.png)
 
 2\. 三相导通模式（换相瞬间，参考文档1图4）
 
@@ -84,7 +84,7 @@
 
 翻译成人话：想象一个水龙头（直流母线）只在占空比D的时间里“开门”与电机交换水量，其余时间（水门关）水都在三相管道里打圈（自由续流），因此直流母线电流和电机相电流之间有了一个近似的比例关系。负号只是电流方向的约定问题：再生制动时母线电流为负（回灌），而受控相电流按相位可能取正。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFLmtRUxib3oXMwPX8FPCVib4SgDTHKYPjEQVIq3iaEbCKtugR4FniaB4xkS7aibo5IjqUs5K9pL7IVPwQ/640?wx_fmt=png&from=appmsg)
+![](BLDC电机控制中的同步整流技术_images/img_004_d9cc27b656e2.png)
 
 * * *
 
@@ -94,11 +94,11 @@
 
 用重构算法实现电流闭环控制，设定值-20A → 实测-20.5A，误差仅2.5%！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFLmtRUxib3oXMwPX8FPCVib4c1QbmewVKGyx9XwFLFrCIGW1T5Yfous3f8NOvMRuKMx8zgrMM2Jr8Q/640?wx_fmt=png&from=appmsg)
+![](BLDC电机控制中的同步整流技术_images/img_005_dab09474f5cd.png)
 
 整套系统如参考文档1中的图7所示：单电流传感器+重构算法+PI控制器，形成智能水流调度中枢！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRFLmtRUxib3oXMwPX8FPCVib4KPZbSC67nHyGVdJMJSiaHG7fs0z1jMdT5DKJ7vo0z6jKcOwEPxRk3Pg/640?wx_fmt=png&from=appmsg)
+![](BLDC电机控制中的同步整流技术_images/img_006_2062fc447893.png)
 
 * * *
 

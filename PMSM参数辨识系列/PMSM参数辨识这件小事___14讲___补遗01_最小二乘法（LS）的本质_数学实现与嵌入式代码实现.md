@@ -47,7 +47,7 @@
 
 论文里 2.3 节讲的就是这个，请看公式 (2.19) 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHxgyQC2RMgArwM7ZmC06Y3oIQFsFE6dwgJIvNzjM8YSMwDMBaB61Fvib4hBFMPSVuMrXO0ONprINQ/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲___补遗01_最小二乘法（LS）的本质_数学实现与嵌入式代码实现_images/img_000_9d5624ba4068.png)
 
 这公式看着吓人，其实就是把每个点的“误差”都算出来，平方一下（为了让正负误差都算数），再加起来。我们要找的，就是让这个总误差 _E_ 最小的那条线。
 
@@ -57,14 +57,14 @@
 
 怎么找到那条“误差平方和最小”的线呢？我们回忆一下中学的数学：求一个函数的最小值，就对它求导，让导数等于0。而论文里的公式 (2.20) 和 (2.21) 就是这么干的！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHxgyQC2RMgArwM7ZmC06Y3L4mIezQRapvxVJYOwGcpBV2QBLbdrowaQ0owCTNYic5MCMZ3s0KuAZA/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲___补遗01_最小二乘法（LS）的本质_数学实现与嵌入式代码实现_images/img_001_16f4c5c0f7f5.png)
 
 -   它对误差 _E_ 分别求关于斜率 _k_ 和截距 _m_ 的偏导，然后让它们都等于0。
     
 -   最后解出来的 (2.22) 和 (2.23) 就是 _k_ 和 _m_ 的计算公式。
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHxgyQC2RMgArwM7ZmC06Y3fic6AVoA0F7soRjibaiaHotbMLcxe3Duo4MaEXRfK8b9ZFH9W7myKeh5A/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲___补遗01_最小二乘法（LS）的本质_数学实现与嵌入式代码实现_images/img_002_2fe5ee57b1a2.png)
 
 **但是！** 代码A比这高级！它没有直接用那两个求和公式，而是用了**更通用、更强大的线性代数方法。**
 
@@ -129,7 +129,7 @@ void lse_construct(lse_t *ls, int n_cascades, int n_len_of_x, int n_len_
 
 **物理直觉**上： 这是一个“阶梯状”的表格。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHxgyQC2RMgArwM7ZmC06Y36XdaJe2oALiaJr9QDcr4HtxS6PspNASa5sOJkfth8DxImKxgm2jPBGw/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲___补遗01_最小二乘法（LS）的本质_数学实现与嵌入式代码实现_images/img_003_f11dcf7ff6d7.png)
 
 它的**数学魔力**是： 用它来解方程，可以**从下往上，一个一个地解出来。**这就是别的地方常说的**“回代法”（Backward Substitution）**。
 
@@ -151,7 +151,7 @@ void lse_construct(lse_t *ls, int n_cascades, int n_len_of_x, int n_len_
 
 想象一下，我们已经有了一个上三角矩阵 R（来自之前所有的数据）。现在来了一行新数据 `v`（比如 `[电流i, 1, 电压u]`）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHxgyQC2RMgArwM7ZmC06Y3eWIeBzYQMM3mTU0g3PJpwM2jnGhribhLIv4zQ7yNcVXk6YCExph283g/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲___补遗01_最小二乘法（LS）的本质_数学实现与嵌入式代码实现_images/img_004_faccd608abc2.png)
 
 我们的目标是：**把新来的那一行数据里的**`**v1**`**变成 0**，让整个矩阵重新变回上三角形式。
 
@@ -170,23 +170,23 @@ void lse_construct(lse_t *ls, int n_cascades, int n_len_of_x, int n_len_
 
 现在，我们把它们拼成一个列向量：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHxgyQC2RMgArwM7ZmC06Y3YDA5mAicltCvZvjXZEwVw09xELJP8ocez6rj0PQ0NU8oJnIl93cCl3A/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲___补遗01_最小二乘法（LS）的本质_数学实现与嵌入式代码实现_images/img_005_f295c85c9c72.png)
 
 我们的目标是：**找到一个旋转矩阵 G，使得 Gx 的第二个元素变成 0。**也就是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHxgyQC2RMgArwM7ZmC06Y3T5iaQl1suyicN9H1xdsB0OGb1sHCYWXtibbyhQhF0nVyGtTtepuook1sQ/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲___补遗01_最小二乘法（LS）的本质_数学实现与嵌入式代码实现_images/img_006_091b7ecf2219.png)
 
 这个 r' 就是更新后的 R11。
 
 吉文斯旋转矩阵的标准形式是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHxgyQC2RMgArwM7ZmC06Y3cSs5tupBzS1QqWa85VgnZPd9nNvLUXAqQDFROUwC1Pw6ibPOSvKQBcQ/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲___补遗01_最小二乘法（LS）的本质_数学实现与嵌入式代码实现_images/img_007_8e8dbcad9776.png)
 
 其中 _c_ = _cosθ_, _s_ = _sinθ_。
 
 我们希望：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHxgyQC2RMgArwM7ZmC06Y3tse9l0gc0TQNQObZIns3X89UrGVibScQxBsI358y4ZJdv5IPicZfr2UQ/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲___补遗01_最小二乘法（LS）的本质_数学实现与嵌入式代码实现_images/img_008_5c6eb50edeb3.png)
 
 展开第二行：-_s_ · 3 + _c_ · 4 = 0
 
@@ -205,11 +205,11 @@ void lse_construct(lse_t *ls, int n_cascades, int n_len_of_x, int n_len_
 
 现在我们有了_G_：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHxgyQC2RMgArwM7ZmC06Y3rPaJbUm3v51ZOAiapaX9DTXK6mWRX8sCPmjCcQn6dpbdDRx19zmpgxw/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲___补遗01_最小二乘法（LS）的本质_数学实现与嵌入式代码实现_images/img_009_b5c111eb19b1.png)
 
 我们验证一下结果，把 _G_ 乘回去：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHxgyQC2RMgArwM7ZmC06Y37eTlFvxGWUplUyk6puutHF4qmvS285XoTIg4da9N1YmWwpHcSdOsqw/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲___补遗01_最小二乘法（LS）的本质_数学实现与嵌入式代码实现_images/img_010_a43924444ffa.png)
 
 **看！奇迹发生了：**
 
@@ -224,7 +224,7 @@ void lse_construct(lse_t *ls, int n_cascades, int n_len_of_x, int n_len_
 
 那么，我们就用**刚才算出来的同一个 G 矩阵**，去乘第二列：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Z8Iha3NiaCRHxgyQC2RMgArwM7ZmC06Y3ucbtf9mJiaMTRzBMyhXHOoQNylXwrtanxnHN9PawL4SRF72LX486JHw/640?wx_fmt=png&from=appmsg)
+![](PMSM参数辨识这件小事___14讲___补遗01_最小二乘法（LS）的本质_数学实现与嵌入式代码实现_images/img_011_a943bdcbc4f0.png)
 
 于是，更新后的矩阵变成了：
 

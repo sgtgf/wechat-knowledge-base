@@ -105,27 +105,27 @@ Embedded Coder不是傻瓜式翻译器。它会分析你整个模型的数据流
 -   **下半部分（定点通道）**： 采用完全相同的基础模块，但强制指定数据类型为 fixdt(1,16,15)（带符号的16位整型，15位小数，即Q15格式）。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARkt16EDP8C6r4fmp8ap9PibNK9PyEVIhXicH1C1upRRsac1xzYbMj7p3cwU09hD7fhqmf06NmUIk1ojX1NbU9v3guPW2tFJriaXs/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___02讲_看不懂Simulink生成的定点代码_真不是你的锅_images/img_000_9e9a466ae1ac.png)
 
 我们首先看一下 **误差计算通道**（Error\_Scope） 的仿真结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQWjcLaNjMLQWZZAXgvWNG0edXTDpGPvowib49455BfFEkHaUR04fVCYJvX1mnDYZJtYicaQYbaXGQQDfFx9UYeJ0r7Pick9nibJqA/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___02讲_看不懂Simulink生成的定点代码_真不是你的锅_images/img_001_93c0b828370b.png)
 
 各位同仁注意看示波器左上角的纵坐标，写着 ×10\-15。峰值大约在 3.5×10\-15 左右。我们的定点通道是 Q15 格式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATTrAJp5WQp5MJ1ZCDLrx18k7pFia4EvPE1lr96YY6avPdn6WtE4EkU0yfwstKnqcmib08QjX6kZCL7ib4Cnzhvv1WkickDgUcx5oA/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___02讲_看不懂Simulink生成的定点代码_真不是你的锅_images/img_002_52406ae307a8.png)
 
 Q15 的最小分辨率（LSB，也就是它能表示的最小刻度）是多少？ 答案是： 2\-15 = 0.000030517578...（约等于 3.05×10\-15）。示波器上显示的误差，**恰好就在 1 个左右的 Q15 最小刻度精度 (1 LSB)附近！**
 
 有同仁可能会好奇，浮点运算与定点运算的误差曲线为什么不是完美的平直线，而是这种像杂草一样上下跳动的毛刺呢？ 这是因为在做乘法（比如乘以 2/3 的近似整数 21845）然后右移 \>> 15 时，最低位的小数被不断地“舍去（Floor）”。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASER3MxfnRibOk9DPLQsVYzmFApcwD5AkdxrX7g9Qdeiadic7lYWibTbV6E551OgaZFT370KXjE8ICCe0sSe3wRuoMmfo0eVlvG8Go/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___02讲_看不懂Simulink生成的定点代码_真不是你的锅_images/img_003_2b0560dabae0.png)
 
 由于正弦波一直在变化，这种截断带来的误差就会像白噪声一样高频振荡。这就是学术界常说的**“量化噪声 (Quantization Noise)”**。
 
 我们再打开一下生成的C语言报告，不需要看 ert\_main.c (这个文件就像是单片机里的 main.c 和定时器中断。它本身不包含任何数学公式，它只是搭好了一个框架（什么时候关中断、什么时候算步长），然后在中断里调用了仿真中搭建的算法模型)，而是看 Clark\_Fixed\_vs\_Float\_Demo.c 文件，找到名为  Clark\_Fixed\_vs\_Float\_Demo\_step(void) 的函数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARuThu4TOPIv3pvv8oFG4KypMdp8uKiagocyBBqF5kJAJD272C2Ficjrz2YVqon5VpLOgic2LoORmtMPLuvmDt4N0qnILolghrssM/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___02讲_看不懂Simulink生成的定点代码_真不是你的锅_images/img_004_b1367299e954.png)
 
 浮点运算的部分，看到一行极其干净（一目了然的公式）的代码，长这样：
 

@@ -10,7 +10,7 @@
 
 什么叫积分饱和？我先不讲定义，咱们先来看一个“灵异事件”。大家请看文末提供的教材里的 **Figure 3.1**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASIpcHTBS2JD3O7keh0ePAibBics405Vg7HzK50h4IDjy79tnk4dllj4l6BrsAO3V8NAbDoYvgKz0Kmo6MnrqnicxvboQ9pj8ZdEE/640?wx_fmt=png&from=appmsg)
+![](PID_大排档之_积分饱和____为啥你的_PID_刹不住车__images/img_000_bdb6b92cbb99.png)
 
 这个图告诉我们一件事：控制器（Controller）想让执行机构干的活（u），和执行机构实际能干的活（u'），中间可能隔着一道“天花板”——**饱和（Saturation）**。
 
@@ -24,13 +24,13 @@
 
 作者给了我们一个系统模型，在**(3.1)式**中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQ3q0S8wgBlUPrhHegngQLTKZBr0YPmf0R2qsk8aqRFuCV8EJ4hQgxkTgCYDSxWm0XDcKL3NYw5iaoWUicOPZeicgA639z1pEgxoY/640?wx_fmt=png&from=appmsg)
+![](PID_大排档之_积分饱和____为啥你的_PID_刹不住车__images/img_001_3110d3cf338c.png)
 
 这是一个典型的一阶惯性加纯滞后系统，很常见。我们给它配了一个PID控制器，参数都调好了 (Kp = 3, Ti = 8, Td = 2)。然后我们让执行机构的输出范围在 umin = 0, umax = 1.5 之间。
 
 现在，我们给系统一个指令：把输出从0干到1。好，系统开始跑了，我们来看 **Figure 3.2** 这张图。这张图信息量非常大，可以说是这一章的灵魂，我们必须把它看懂！
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASus5rxWSxtCku7AY7YaHiasH3RG02AdCdbFyvuF2wIsg12bials5sGGMlEyXtL25DcqibPa1HKYhfJQZ0OIGlKXAwGmLI9rWF5YI/640?wx_fmt=png&from=appmsg)
+![](PID_大排档之_积分饱和____为啥你的_PID_刹不住车__images/img_002_44d9cfb24ed4.png)
 
 大家看这张图，有三条线：
 

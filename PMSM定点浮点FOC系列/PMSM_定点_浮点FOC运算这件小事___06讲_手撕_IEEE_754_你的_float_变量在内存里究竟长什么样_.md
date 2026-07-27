@@ -30,7 +30,7 @@
 
 IEEE 754标准规定，一个32位单精度浮点数由三部分组成：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQl47SsWNicQB1YnKI9ic6ZprS6uXNagsYxqHNKPibg17uibc9ILlVyRU1hNY4us1mjwjvoRyI4DbJVOHuibAsWuPhvxDDW7T5IZQibM/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___06讲_手撕_IEEE_754_你的_float_变量在内存里究竟长什么样__images/img_000_e33a4df45675.png)
 
 -   **S（符号位）**：1位。0表示正数，1表示负数。这个跟定点数一样，没什么特别的。
     
@@ -41,7 +41,7 @@ IEEE 754标准规定，一个32位单精度浮点数由三部分组成：
 
 把三部分组合起来，一个浮点数的值就是：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATvKib2GLXKYItSjwu7LVY1XeAgUBMwqkS4QNyhsxVJ86iaiayQTRwIDyNAIfIbpT8cKLIiarVfAqYIuKhdCDib2UibwFtJmJAXHZ94M/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___06讲_手撕_IEEE_754_你的_float_变量在内存里究竟长什么样__images/img_001_ce6adda934f2.png)
 
 其中E是指数域存储的8位无符号整数，M是23位尾数域表示的小数部分。
 
@@ -55,11 +55,11 @@ IEEE 754标准规定，一个32位单精度浮点数由三部分组成：
 
 **第一步：把2/3转成二进制小数。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARaIn8MeWOoGES6AUSgHwZXjVmcs0EhuBmTT82In4ulZpc2ChBT06YDg4zXv0Ucs34Sf45Alvic6rMQicCRNnaY2GyXibHHEafibwY/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___06讲_手撕_IEEE_754_你的_float_变量在内存里究竟长什么样__images/img_002_b045ec79ca1c.png)
 
 **第二步：规格化。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQ9BqSoGgaEhtuLWK5ER8DG7f85ibiamaEhW1re4CJvOlxepvTQWibT1Aib0uuWJKcy1NF5KkhIFAiapvaBcKFNbrfq9CgSp9y429GE/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___06讲_手撕_IEEE_754_你的_float_变量在内存里究竟长什么样__images/img_003_1822523d2434.png)
 
 所以实际指数是-1，尾数部分是0101010...（去掉隐藏位"1"之后）。
 
@@ -117,7 +117,7 @@ IEEE 754标准规定，一个32位单精度浮点数由三部分组成：
 
 在Simulink中的总画布上，平铺四个模块：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASBcP3HVmCQTW21oe0YQ6CTHiaibcRdyHCbOCanOgiaia0iaLn4LOcpFG6trYoSHoq5aXkZnXrMLSQGhK5xhB4RDAHqDkT8aFBWF0b4/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___06讲_手撕_IEEE_754_你的_float_变量在内存里究竟长什么样__images/img_004_7b7dbf001902.png)
 
 **模块1：Float的“X光机”，打开float的盖子看一看**
 
@@ -125,13 +125,13 @@ IEEE 754标准规定，一个32位单精度浮点数由三部分组成：
 
 用一个Display模块显示第31位（S符号位）。用一个Display模块显示第30-23位（E指数位），并旁路计算显示(E - 127)的实际偏移。再用一个带有二进制（Binary）显示格式的Display模块，展示底层的23位尾数，可以通过随意改变输入，直接观察到S、E、M三部分是怎么随之“浮动”的。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASJxGYiaurfAnA3VCjdt9B2RvCzqVeUoQBIy8mDAQiaQrnUDeXiaogYIL2q4S6onMdnfZYCbX7qCszgx1sZ94DF7RWNhLas8WDCDM/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___06讲_手撕_IEEE_754_你的_float_变量在内存里究竟长什么样__images/img_005_91a2531b3c6b.png)
 
 **模块2：固定汇率 vs 浮动汇率的“算力对决”**
 
 在这个模块里，直观对比定点Q15和浮点Single的乘法运算过程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAS0rJAgOpJjP7iaR1EiashXf4YJbX7icnOmuWCcFsUQMWb1cl3Jf1FWMXmtyYicF2LKVbKz5ibiaxNRbj1CLI86Bo3MCsSK5KYSyvaIM/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___06讲_手撕_IEEE_754_你的_float_变量在内存里究竟长什么样__images/img_006_ec2569b86c25.png)
 
 **模块3：浮点数“吞噬效应”与“0.1不精确”，直观展示浮点不是万能的。**
 
@@ -139,17 +139,17 @@ IEEE 754标准规定，一个32位单精度浮点数由三部分组成：
 
 下面的通路利用一个Feedback Loop（反馈环），模拟10个0.1相加，在Single数据类型下运行，输出结果减去 1.0，看二者的误差。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASdbs9iaVm5UYnF1jvjcL04TN3fahbDc02drDO6z26HaZ5ckZGyZHZDQpTo90wOkZAZCibC3e53HADiaH5W9N2EMGY5oGiaUxpZGd8/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___06讲_手撕_IEEE_754_你的_float_变量在内存里究竟长什么样__images/img_007_e856530ec8c9.png)
 
 **模块4：演示“毒药”的曼延（特殊值的存在 NaN/Inf）**
 
 搭建一个极其简化的PI电流环，人为在反馈回路上制造一个“除以0”的错误（例如模拟传感器开路，除法分母变0）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATaAARw64m218wkRfMqYujUEXY0iawBicNULAdeylOawkoXhtWBA0sDZmazPsxXJ4UzL5lEvoAtav9q9rn4JkicMdFcQvPibst5SiaE/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___06讲_手撕_IEEE_754_你的_float_变量在内存里究竟长什么样__images/img_008_ea8aa1b48365.png)
 
 我们来看一下仿真结果，首先看下模块一：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASxKBeLCIh29PcvEjle1On1sZmeGryiazWJxYOX9EZTrJxqbMLib3YgZ1vZ7goXonr3uick7Kdg4lwxgkw4EylVY3ITWMmKFMzr38/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___06讲_手撕_IEEE_754_你的_float_变量在内存里究竟长什么样__images/img_009_565cf3810367.png)
 
 看左上角，这是我们想存的 0.6667。但在芯片眼里，它根本不认识什么小数，它只认识一串32位的0和1组合成的巨大整数：1059760811 (十六进制的 0x3F2AAAAB)，也就是下方示波器显示的 1.06e+09。
 
@@ -166,7 +166,7 @@ IEEE 754标准规定，一个32位单精度浮点数由三部分组成：
 
 我们再来看模块二：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQEJiaN4GCgWlGquvth1IWkzInicItaPfsgt2PVbYcf2otzkXe5yQAicd3EKehX6VS1DqHtVD0Cju0WH1y364JKzLMiaLTGeuXF5y4/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___06讲_手撕_IEEE_754_你的_float_变量在内存里究竟长什么样__images/img_010_aa8034793882.png)
 
 既然底层都是整数，为什么我们还要区分定点和浮点芯片呢？我们来算一笔账：0.8 \* 0.6667。
 
@@ -182,7 +182,7 @@ IEEE 754标准规定，一个32位单精度浮点数由三部分组成：
 
 我们接下来看模块三：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARnmjnXFtopaeHpLz1uAo71MibmV2LSqDicV86Pbm2ZYU98uFVPdsY3U4v2a0MnEq4TX9HLT8fUxo1ysTUqLg7dAn0wyIegN6x4E/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___06讲_手撕_IEEE_754_你的_float_变量在内存里究竟长什么样__images/img_011_57dee3ab105d.png)
 
 各位同仁，用了浮点就能高枕无忧了吗？请看上面的通道。这是一个有 1000 万存款的富老头，走在路上捡了 2 毛 5 分钱（0.25），然后他花掉了 1000 万，他还剩多少钱？
 
@@ -196,7 +196,7 @@ IEEE 754标准规定，一个32位单精度浮点数由三部分组成：
 
 我们最后来看下模块四：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAT8qPkDjp72aAe5ZFMPCpmBvOCCqQo38sFeC5QXaSVIsVWQiaUplT7aW1avsV0pjvn2r9ic5xPW0ZAGvNs7345ggFxWsAiaWkyiaNc/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___06讲_手撕_IEEE_754_你的_float_变量在内存里究竟长什么样__images/img_012_3110a3cf5cd9.png)
 
 我们来看软件系统的“核弹级灾难”：除以零。
 
@@ -206,21 +206,21 @@ IEEE 754标准规定，一个32位单精度浮点数由三部分组成：
 
 t=1，各位同仁请看，现在分子分母都是正常的，一路相安无事。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASFiarviboUFibeR3YQpMGtV3IoqnZqA19tRDF8ubFUb8B6pRRYanVTukmP89hGXAl8HJqeYdWoQSbnJiay9oASOg2qPyySmo5Kmao/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___06讲_手撕_IEEE_754_你的_float_变量在内存里究竟长什么样__images/img_013_ab8a7db2e373.png)
 
 再点击单步仿真，t=2，假设此时传感器突然断线了！分母变成 0。各位同仁请看，编译器没死机，除法器输出了一个特殊值——Inf（**无穷大**）！随后闭环积分器开始暴走。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASMT856XywRvLLwFu2kro3pDn6yQyAvWfYg0vQiclPg2whc8iccgVvEvmrtKOMCeFB4d7kRUTLQCYlIictgtONMNYpGPuciciap6A3U/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___06讲_手撕_IEEE_754_你的_float_变量在内存里究竟长什么样__images/img_014_d0bfdf325bfd.png)
 
 再点击单步，t=3，最绝望的时刻来了！分子分母同时变成了 0。除法器输出了 NaN（**Not a Number**）！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATiaaUOytwicWFUumTicBkn3ibrD4Aj1NDQM5m0NXbNQLfqxYZCicXIXicUVWAvia2c49ia3SZobX7rB7kCHKmb7zj54zCYiazLmW8Rm7hM/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___06讲_手撕_IEEE_754_你的_float_变量在内存里究竟长什么样__images/img_015_85eb752fd3a2.png)
 
 连续点击单步，各位同仁请看 NaN 是怎么传染的。
 
 NaN 进入了加法器，加法器变成了 NaN；NaN 顺着反馈回路进入了积分器，积分器的历史数据全被洗成了 NaN；最后，这个包含着 NaN 的数据乘上了增益，送到了最终的 PWM\_Command！
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQrSEXsa6XV3SAtTvGnIH2hWdC2vMgXWVQNiahdGqs9ibjTOfictmvf34l7bRqBLoH9HM9EhTnicysah4lq65lnFgWYaPuQSFzRPpU/640?wx_fmt=png&from=appmsg)
+![](PMSM_定点_浮点FOC运算这件小事___06讲_手撕_IEEE_754_你的_float_变量在内存里究竟长什么样__images/img_016_33934ca6361e.png)
 
 **记住，只要** NaN **进到了你的控制闭环里，任何数值加上** NaN **都会变成** NaN。**你的代码没死机，CPU还在满载运行，但整个控制链条已经被“毒药”彻底瘫痪。**这就是为什么在写FOC控制库时，必须要做除零保护和数据合理性校验！
 

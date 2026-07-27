@@ -35,11 +35,11 @@
 
 具体的公式为 **(7.128)** 和 **(7.129)**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATfX93Szr4FE4NHVgS4gvY5yHk85NNdT3eUYatlPxqKJ2iaMdtvnwNibibicLs5HkiaOEcYzlLzx4iaw8gN2oicujptJP8l51AOvwuQKk/640?wx_fmt=png&from=appmsg)
+![](从_航天_到_五金店___如何把完美的IMC控制器塞进PID的盒子里__images/img_000_484956923d24.png)
 
 这个方法物理直觉很强，简单易记，但因为它有一些判断规则（比如公式(7.125)），自动化实现起来稍微有点麻烦。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQrtODS9Bg3Q3GS8oFx1PKZia57hlicAYaRuL1RGN64AibhoUu11ib0tYRBW70MkNUJIbdIhkwR7nuKAOgiabxe1658icejroLHzlAYs/640?wx_fmt=png&from=appmsg)
+![](从_航天_到_五金店___如何把完美的IMC控制器塞进PID的盒子里__images/img_001_0204de4d8867.png)
 
 **方法2：Isaksson 和 Graebe 的“混合法”**
 
@@ -54,7 +54,7 @@
 3.  最后，把这两个模型“各取一半，混合起来”！看 **(7.133)** 式：
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASdExN4oiaFALu8lC0kfNuXfsAcw1MZa3tmlkLymutZSsB4pHplz5UOBCPgByZZAfZAgeYvoCKyNF6qgJ7eQ5CbmIfns445eic9o/640?wx_fmt=png&from=appmsg)
+![](从_航天_到_五金店___如何把完美的IMC控制器塞进PID的盒子里__images/img_002_6098c4b96ffb.png)
 
 这就像给一个人画像。一个画师只画他的轮廓和骨架（低频特性），另一个画师只画他的五官和表情（高频特性）。最后你把两张画叠在一起，各取50%的透明度，就得到了一个既有骨架又有细节的近似画像。这个方法非常适合计算机自动处理，逻辑清晰，没有模糊的经验规则。
 
@@ -78,7 +78,7 @@
 
 **核心操作**是，使用**麦克劳林级数展开 (Maclaurin series expansion)**。 我们看 **(7.135)** 式：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASeFHgIAhJicwGiceUpeK6q6YaX1fjn7xKibQO0SPVMaadzXKozJmicfRkdBKeQNqko35obtlwq7nKNRcleN5AYKJtNq6pfbII27U0/640?wx_fmt=png&from=appmsg)
+![](从_航天_到_五金店___如何把完美的IMC控制器塞进PID的盒子里__images/img_003_5cd781166254.png)
 
 这个式子要表达的是，任何一个复杂的控制器传递函数 C(s)，在频率很低的时候（s → 0），它的行为可以近似等于一个简单的多项式。
 
@@ -93,7 +93,7 @@
 
 因此，我们只需要取这个级数的前三项，一个完美的PID控制器就诞生了！它的参数可以直接通过 (7.136) 式计算出来。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQQhRDsdJ9r0mducdoerYkBTib9BkmGj2ksGQY47dJlKAm1PQ2b6iaib1796AOUgh2WKdFw9OdCsBY3LhPsnouZ5Yt0Cibjo3llEbU/640?wx_fmt=png&from=appmsg)
+![](从_航天_到_五金店___如何把完美的IMC控制器塞进PID的盒子里__images/img_004_c1ca0367687b.png)
 
 **这个方法看起来是不是特别优雅？**它保留了IMC设计的“原汁原味”，只在最后做了一步近似。
 
@@ -109,7 +109,7 @@
 
 为了能让各位同仁更好地理解本文中的“对比”和“妥协”思想，文末提供了一个采用了**“平行宇宙”（并行多回路）**的对比结构的Simulink模型。模型中包含了**三个并行的闭环控制回路**，它们共用同一个阶跃给定信号（Set Point），并将其输出显示在同一个示波器（Scope）上。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARz56h4wCMIGzPIQXCWXu8AJvaGpvFrLfvsVqYCZvdQsNcNXb4oZ2kElLKQukTGr4ibGS4Eg2jJcEe8pEE9yHclfTWVJVCIFVyY/640?wx_fmt=png&from=appmsg)
+![](从_航天_到_五金店___如何把完美的IMC控制器塞进PID的盒子里__images/img_005_633b73795da1.png)
 
 三条回路，控制相同的复杂的“对手”，即一个带纯滞后的多阶惯性环节。其中：
 
@@ -124,7 +124,7 @@
 
 我们先看一下 λ = 1.5 时候的结果：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARPEblicbvHsem7qxwIbm2vMJJAwsrvycCq0LFtQOrgP3icLRNErX1NRpYfPjOD2GRJ75ibecmUKfOR7bTRkA2hFIibMOFjY0nmCCM/640?wx_fmt=png&from=appmsg)
+![](从_航天_到_五金店___如何把完美的IMC控制器塞进PID的盒子里__images/img_006_610fbcf58a4d.png)
 
 我们先观察一下现象：
 
@@ -139,7 +139,7 @@
 
 假设，因为生产工艺要求，我们需要把响应调快，也就是把咱们的神仙旋钮 λ 调小到了 0.6。会发生了什么呢？我们让 λ = 0.6 再来看一下结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARBrJJ3YvGjuClsWOCGH7I3OgXMZkEOibSQ2oVbDfJaTwPEPXGHtib9auicicj7cqQWd6NH08RHqZ1Rbjb1JR9BzYDrnrcJ3yp1mU0/640?wx_fmt=png&from=appmsg)
+![](从_航天_到_五金店___如何把完美的IMC控制器塞进PID的盒子里__images/img_007_009e335034c7.png)
 
 观察曲线：
 
@@ -154,7 +154,7 @@
 
 我们再来看一下 λ 很大时的情况，比如，让 λ = 8。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARYw3okp4ve6Adn8mdysHXicp0jvZg2zjW8UaXibDVeiblr5TF8S4Rkr6T9yZiahfnmqHEUhapicghOc2EdNutNah1WZSBBKrl5WsV0/640?wx_fmt=png&from=appmsg)
+![](从_航天_到_五金店___如何把完美的IMC控制器塞进PID的盒子里__images/img_008_f10e077b4ac3.png)
 
 当我们把 λ 调到很大的 8 时，蓝线非常非常缓慢、平滑。（因为设定滤波器把一切动作软化了）。红线同样乖乖听话，变得非常缓慢（跟着蓝线走）。但**绿线出现了匪夷所思的现象**：它不仅**没有**跟着蓝线变慢，反而比蓝线和红线都要**快得多**，完全脱离了 IMC 的理论轨迹！
 

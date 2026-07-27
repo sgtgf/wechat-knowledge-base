@@ -27,9 +27,9 @@
 -   **核心器件**：依旧使用 **ER28/34** 磁芯 (A\_e = 82 mm^2)。在这个功率下，ER28 可以游刃有余
     
 
-![](https://mmbiz.qpic.cn/mmbiz_png/r4Lxc81mibcEtrwnA7xEaSk1gw17gD14hbN6k9g86eia5OOaIIIHa3POBIibeJBj6Y3PIzrfY60d0aibxnswTu6C3TIQoAzdQloU2ttgf4dcYaI/640?wx_fmt=png&from=appmsg)
+![](100W___100kHz_DCM_高频反激变压器全过程硬核设计_images/img_000_d510d3113bf7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/r4Lxc81mibcEwnCmCcH9sw3PEWLzxAKIBlBEhYNv65iam2JN9bDNoxI6ns7trPSLstSUCql0W48s2g5E8CLUo4vzL6y0OicoAqhc99jyb4ictyE/640?wx_fmt=png&from=appmsg)
+![](100W___100kHz_DCM_高频反激变压器全过程硬核设计_images/img_001_55d295421d79.png)
 
 #### 四、 应力验证：极度安全的元件选型
 
@@ -49,7 +49,7 @@ Plaintext
 -   **次级二极管耐压**：24V + 375V / 3.14 = 143.4V。选用 **200V / 10A** 的快恢复二极管即可。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r4Lxc81mibcFEBHUFeNkia9h4o1RXU26GC42h3kfZBvqiaHGvp7ARsThob8SRTyxbGnxh8ttcoibMCHa0q4lnsATzKbPNiclwJbGfsHzknLG6qdc/640?wx_fmt=png&from=appmsg)
+![](100W___100kHz_DCM_高频反激变压器全过程硬核设计_images/img_002_b1fc7d125bd4.png)
 
   【 ER28 骨架 (Bobbin) 绕线剖面 】  
   =====================================  <-- 绝缘胶带 (3T)  

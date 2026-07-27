@@ -6,9 +6,9 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r4Lxc81mibcF2ibR7PMS1kM2iaD0gxia7BAgqR1yC1eMGUhrTyU83Tf8RcoficsfenBnnGaQGwsggd7H0WYkdGACBHWyhia5iaYOwA0tS3N8ELeGU8/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_开关瞬态全景图_images/img_000_438a18c18260.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r4Lxc81mibcFud9ic0Ffc3IudGjeNxfm7jHpBiciaEVQvtXwoJUu5aJj1TIflhwYmJvyFsibQsibxSwwibZbNSmHPrQFJrVjUfC239TVp4PiaPVMZuQ/640?wx_fmt=png&from=appmsg)
+![](SiC_MOSFET_开关瞬态全景图_images/img_001_ed14d508ff16.png)
 
   
 

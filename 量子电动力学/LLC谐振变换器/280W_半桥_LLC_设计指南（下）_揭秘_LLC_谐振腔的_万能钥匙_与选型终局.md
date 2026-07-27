@@ -12,7 +12,7 @@
 
 做了一次极其精妙的变量代换： 已知 ，且变比  。 把这两个等式代入  的公式中，忽略微小的二极管压降 ，我们得到了一个令人震惊的化简结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/r4Lxc81mibcEhiacVDTGmeZe0FcH4qVETOybUIvbmQibQzQsouj2yoBtc4Q4kbcEgRwRHj0dzic8QFn06IhsicJkJibYFrLSaE0QJ40mPbIdmwKGg/640?wx_fmt=png&from=appmsg)
+![](280W_半桥_LLC_设计指南（下）_揭秘_LLC_谐振腔的_万能钥匙_与选型终局_images/img_000_07bdd7888a44.png)
 
 💡 这个公式为什么伟大？（平台化设计的万能钥匙）
 

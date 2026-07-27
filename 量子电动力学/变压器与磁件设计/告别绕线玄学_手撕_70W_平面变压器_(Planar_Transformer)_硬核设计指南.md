@@ -53,11 +53,11 @@
 
 为了避免次谐波振荡等不稳定工况，我们设定占空比上限 D\_{on} < 0.5（实际设计取 0.49） 。 基于此，计算原边承受的反射电压 V\_or：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/r4Lxc81mibcHZepb9DTEia5RfCu0zCpt5FHQbT8UOhDW3ZibwOuZDspGxxXuGeLe9nly8aGWqtqCDJ7hBXpvQ0CqhgHZD759ibKic0FNJP3mgsrs/640?wx_fmt=png&from=appmsg)
+![](告别绕线玄学_手撕_70W_平面变压器_(Planar_Transformer)_硬核设计指南_images/img_000_4330ea9356a1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r4Lxc81mibcHWZ3MeJjBlUdxQzjwHlChkebvUrQkW81u0JPbm7YE5XQwxBYzDLHnuTEB5vibeEVxh4iatuj8Pu03zFeB23rEfeRbAQJghJv6Tw/640?wx_fmt=png&from=appmsg)
+![](告别绕线玄学_手撕_70W_平面变压器_(Planar_Transformer)_硬核设计指南_images/img_001_4ca28ec9bf6f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r4Lxc81mibcF3icXxwBOiclznt5DLoRCHSu6Cz79WibIZBYSNBlQEiczF0jH4GPia7IeibSyctkEhLSppIUiceSWbdpMVY6k5aEvFFO9GPWjFjCJx3E/640?wx_fmt=png&from=appmsg)
+![](告别绕线玄学_手撕_70W_平面变压器_(Planar_Transformer)_硬核设计指南_images/img_002_d2fe9f0dab7c.png)
 
 这就要求磁芯中柱需进行 0.30 mm 的双侧研磨（实测 0.28–0.32 mm）来形成气隙 。
 

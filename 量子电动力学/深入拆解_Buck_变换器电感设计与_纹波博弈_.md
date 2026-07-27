@@ -17,10 +17,10 @@
 -   **装水与倒水：** 开关管导通时，水杯从大水池舀水（电感充磁）；开关管断开时，水杯把水倒进小水池（电感退磁、续流）
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r4Lxc81mibcH579gaDNwWWNgQOWp1JsKL0Jg5m9w2Je91ib4TsPIH5RP8zabaxrYgeYzmLicyRmB9Kibj0exCQEFAEhYp9V4BtXfOT9aIjqYcak/640?wx_fmt=png&from=appmsg)
+![](深入拆解_Buck_变换器电感设计与_纹波博弈__images/img_000_445911e98eeb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/r4Lxc81mibcEUblWWjRkhHkDDNOu0qnEP3NZ8mZpGiaesDHDvaS3cl3Qo3smic9Ficqh6DU7rqKZkeYwOZticn3jfYnuJ9ibtQPBQOuXGZSZYGic08/640?wx_fmt=png&from=appmsg)
+![](深入拆解_Buck_变换器电感设计与_纹波博弈__images/img_001_0a4deabb8333.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r4Lxc81mibcHciaytCuEbGW8ss3k47g9k9vNFbjsGB2QVfnicnW78wDEAKIUia8Nxan2ibt0TOyldpZBukB5we1upF3hg2pUsVzGzwvMoSdDu9hc/640?wx_fmt=png&from=appmsg)
+![](深入拆解_Buck_变换器电感设计与_纹波博弈__images/img_002_3b3d5c405fae.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/r4Lxc81mibcGEA76vgKEQye7YcP5XUcWcCyPumLA6BZt9KbwcHvrJ226ZTay9ExPgLFYV4O7ibibS2lOwU28gfFRIecEHwictnJeyDQiaZVfrrK4/640?wx_fmt=png&from=appmsg)
+![](深入拆解_Buck_变换器电感设计与_纹波博弈__images/img_003_d59959b42890.png)

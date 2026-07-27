@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Www6Dg40-eenBjvCl5bvIg](https://mp.weixin.qq.com/s/Www6Dg40-eenBjvCl5bvIg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r4Lxc81mibcFgSOa9w8UpOFRwCfBeILVzPn8OQUj8mkZQZPVwRI8dMDm1NakW9nSYP0vQibPe3utSC6cuCIjH3ZLt6xKazjG4Rp1X4C3Fqzmg/640?wx_fmt=png&from=appmsg)
+![](三相交错并联同步_Buck_可调电源_images/img_000_c2c5be59861b.png)
 
 ## 设计规格：输入与输出参数
 

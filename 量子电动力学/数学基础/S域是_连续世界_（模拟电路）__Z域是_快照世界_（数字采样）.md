@@ -52,7 +52,7 @@
 
 这是最科学、精度最高的翻法，它取了前向和后向的平均值（梯形积分）。
 
--   ![](https://mmbiz.qpic.cn/mmbiz_png/r4Lxc81mibcFS2NCy8HHQibiavexBhY2eINd5dibqs6rMdbZk0UowtPfMP8yaT28t089L9biat5p2qlxrw2sjYn5GVQRc7eO8tx7rwMI9ONOOVPA/640?wx_fmt=png&from=appmsg)
+-   ![](S域是_连续世界_（模拟电路）__Z域是_快照世界_（数字采样）_images/img_000_3f5d2413c966.png)
     
     **优点：** 它能完美地保持系统的稳定性。如果你的模拟电路在 s 域是稳定的，翻译到 z 域也一定是稳定的。
     
@@ -83,7 +83,7 @@
 
 咱们拿你最熟悉的 PI 控制器来练手。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/r4Lxc81mibcGOxrh9UOGgdXJLL1XuSn2uc9iaZicu6kQxX9rzYNcq8GvOTIbLIjzP12jicV1E0Eib3083UUlFeDibefIE0RwTy4Fx5YUJrxZiaVcRY/640?wx_fmt=png&from=appmsg)
+![](S域是_连续世界_（模拟电路）__Z域是_快照世界_（数字采样）_images/img_001_e867c7cf168b.png)
 
 1.  **写成 C 代码：**
     
@@ -110,6 +110,6 @@
     
 3.  **看书重点：**  
     
-    ![](https://mmbiz.qpic.cn/sz_mmbiz_png/r4Lxc81mibcEdnSgJkiccWQ1rSoJhJBcsKMDol01P9Z7m3RB9hCmmv3Hd6jAJ4wQqFXpyGZG1By5p47icOfoicYHeBDDLPI9gLwVddE8nQdFY9M/640?wx_fmt=png&from=appmsg)
+    ![](S域是_连续世界_（模拟电路）__Z域是_快照世界_（数字采样）_images/img_002_cbb1a9d53f28.png)
     
     ，你就把它脑补成 **“代码里保存的上一个周期的变量”**。

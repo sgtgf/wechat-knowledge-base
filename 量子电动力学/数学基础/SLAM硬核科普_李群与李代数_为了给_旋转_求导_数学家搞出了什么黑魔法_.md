@@ -22,7 +22,7 @@ SLAM 的本质是\*\*“找茬”\*\*（优化问题）。
 
 用数学公式写就是梯度下降：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r4Lxc81mibcHjvuviaPh1k70Tibl0GVlWSdhshn91cC473iaNqe9DvXc2icPvsDoS76k56xic8exicQQQyhQEY3n5bxdwBol4XfW1bQXujS5W8DBxY/640?wx_fmt=png&from=appmsg)
+![](SLAM硬核科普_李群与李代数_为了给_旋转_求导_数学家搞出了什么黑魔法__images/img_000_e14b86a32bbc.png)
 
 **恭喜你，结果 Rnew不再是一个旋转矩阵了。** 它会变形，甚至把空间扭曲，完全失去了物理意义。
 
@@ -30,7 +30,7 @@ SLAM 的本质是\*\*“找茬”\*\*（优化问题）。
 
 没有加法，就没法定义导数（导数是差值的极限）。没法求导，SLAM 就没法优化。怎么办
 
-![](https://mmbiz.qpic.cn/mmbiz_png/r4Lxc81mibcFpxaSapystTdgrGmO1USeoBCkJPDFBJibDCgowbZibKL2rT4mrv85UPFh84xGd36ZicHK8mHyjqe59oibpFI2PLoYS8EPsc7ibLX8A/640?wx_fmt=png&from=appmsg)
+![](SLAM硬核科普_李群与李代数_为了给_旋转_求导_数学家搞出了什么黑魔法__images/img_001_26310504e914.png)
 
 **这就是李群与李代数的本质：**
 
@@ -51,10 +51,10 @@ SLAM 的本质是\*\*“找茬”\*\*（优化问题）。
 
 你想从北极点往南走一点，你不能走直线（切线），否则一步就踏进太空了。你必须沿着球面走
 
-![](https://mmbiz.qpic.cn/mmbiz_png/r4Lxc81mibcHMvneO7chFV2AUKBPWQ2ga5NtgJagg3uib7b85Rs2opEHuBOia5mmHM3iaP3CWePsobfbib6b3icYwSCRZjhXA1HxjrkVvAyktrmYg/640?wx_fmt=png&from=appmsg)
+![](SLAM硬核科普_李群与李代数_为了给_旋转_求导_数学家搞出了什么黑魔法__images/img_002_45a421531842.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/r4Lxc81mibcEkVEKyib3EAQxQgKwvMX1EDCvQ9wicFWToABsia7J2J0w77WYAoadVdE30kUS7icU2kGegichAkCxLO9VlRZibN9z4WdzicoTUR6jFfY/640?wx_fmt=png&from=appmsg)
+![](SLAM硬核科普_李群与李代数_为了给_旋转_求导_数学家搞出了什么黑魔法__images/img_003_1a47f0ad9f4c.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r4Lxc81mibcFgttIQicNtiaAuc9Cy1cBgdUDNs74Bx4eBePpfzd1n1maTnttQI9JsylMeJZTCicUmj9OuDW599PrFiaZHYKlnhMQooaCKricvWtHw/640?wx_fmt=png&from=appmsg)
+![](SLAM硬核科普_李群与李代数_为了给_旋转_求导_数学家搞出了什么黑魔法__images/img_004_68296a72a39c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/r4Lxc81mibcFJ3fafDT5kAycw5C62XJ3kiaGym3hDhNm0JPK3dgneCLKbUMTo8YZKrIr8mxia2bCCgm7aQRj9YB0x5pbEzC6ORs34VSM8FzMSA/640?wx_fmt=png&from=appmsg)
+![](SLAM硬核科普_李群与李代数_为了给_旋转_求导_数学家搞出了什么黑魔法__images/img_005_8934a920e77b.png)

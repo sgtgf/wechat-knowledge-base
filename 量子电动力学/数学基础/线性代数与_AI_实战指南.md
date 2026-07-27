@@ -241,7 +241,7 @@ SVD 告诉我们，矩阵里大部分信息是冗余的（奇异值接近 0）�
 
 如果不做归一化，不同特征的尺度差距极大，地形会变成一个“极其狭长的峡谷”。优化器会在峡谷两侧疯狂震荡撞墙，就是不往前走。归一化相当于从数学上强行把峡谷拉扯成了圆润的“碗”，让 AI 少走弯路。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/r4Lxc81mibcEaAX4aagOElVmDAia6w2jQE2K5bQV5gdSicLLWUMbR4icmh7yT6F8HnyNkricVr643m4BibCsJdAicr4PBAib5bTT08Enqfv8gPjyasU/640?wx_fmt=png&from=appmsg)
+![](线性代数与_AI_实战指南_images/img_000_7c08c3e48b65.png)
 
 ## 8\. 终极一问：既然线性代数这么强，为什么 AI 还需要非线性？
 

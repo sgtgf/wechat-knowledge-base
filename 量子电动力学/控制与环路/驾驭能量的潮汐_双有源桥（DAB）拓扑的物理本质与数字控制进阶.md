@@ -76,7 +76,7 @@ _(其中 d为移相比，范围 -0.5 到 0.5；n为变压器匝比；f\_s为开�
     
      当原边电压和折算后的副边电压不匹配
     
-    ![](https://mmbiz.qpic.cn/sz_mmbiz_png/r4Lxc81mibcGVe6AQtTssXPZqn5gGvdCkhcIVh9bUdczNVrkWN6icbZekianr5aic5fDyNZNWG7BZo8KAGBAty9F6QKYXZhNh00a64jx2EjpdrE/640?wx_fmt=png&from=appmsg)
+    ![](驾驭能量的潮汐_双有源桥（DAB）拓扑的物理本质与数字控制进阶_images/img_000_615bca85489f.png)
     
     或者系统处于轻载时，电感中会产生极其巨大的\*\*环流（Circulating Current）\*\*。
     

@@ -1,0 +1,6 @@
+name = "wechat-kb-mcp"
+main = "src/worker.js"
+compatibility_date = "2026-07-27"
+
+[env.production]
+vars = { GITHUB_OWNER = "sgtgf", GITHUB_REPO = "wechat-knowledge-base" }

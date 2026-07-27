@@ -1,0 +1,252 @@
+# 《PMSM PID控制这件小事》| 18讲：继电器反馈 (Relay Feedback) 原理 —— 频域辨识的金钥匙
+
+原创 傅存敬 电磁散人 2026-04-03 07:06 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/r9ah7\_SRhC4HeIe85bV6AA](https://mp.weixin.qq.com/s/r9ah7_SRhC4HeIe85bV6AA)
+
+各位同仁好。
+
+终于，我们越过了漫长的底层控制环路搭建和参数整定的泥潭，真正踏入了大纲的**第四阶段：智能化与自整定 (Autotuning)** 的大门。
+
+假设现在你带队研发一款高端交流伺服驱动器。你们的代码（就像我们之前看过的 代码A 或 代码B）已经写得很稳了，[电流环推导了 IMC](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247485914&idx=1&sn=61e80e314b0519d434b2b1a1bd9275d5&scene=21#wechat_redirect)，速度环做了[抗饱和](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247485867&idx=1&sn=f3aaf21bab8a296b83c04d76cb3bddc1&scene=21#wechat_redirect)与[增益调度](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247486025&idx=1&sn=94b229c27018413a54ffaf4040902941&scene=21#wechat_redirect)。机器卖给第一家工厂，调机工程师花了两天时间，看着波形把参数（Kp, Ki, 惯量阻尼等）手拧妥当了。如果卖出去一万台，配着一万种不同的负载（机床、机械臂、飞剪），难道要雇一万个工程师去现场手调吗？
+
+显然不可能。**高端伺服的壁垒，永远在于“能否一键自整定”**。
+
+只要客户按下一个按钮，驱动器就能闭着眼睛算出当前这台甚至连铭牌都看不清的电机的惯量 J、辨识出摩擦系数 B，自己把电流环、速度环的最优 Kp，Ki 算出来。
+
+这该怎么实现？
+
+我们今天拿出来的绝对是这门技术的“镇山之宝”——由于这套方法过于经典和有效，以至于我们前面反复拿出来铺垫的那本专著 **_Autotuning of PID Controllers_** ，副标题干脆直接叫 “**_A Relay Feedback Approach_（一种继电器反馈的方法）**”！
+
+今天我们就钻进这本书的第 3 章，手剥这套理论的核：**继电器反馈（Relay Feedback）**到底是个什么魔法？
+
+* * *
+
+**“逼出”临界参数的古老智慧**
+
+在很久很久以前，工程师们为了自动整定 PID，喜欢用 Ziegler-Nichols 的“连续震荡试凑法”。逻辑很狂野：慢慢调大纯比例控制器（P）的增益 Kc，直到系统处于**刚好能够自我维持等幅震荡**的边缘（这叫临界状态或极限环）。
+
+这个时候，控制器用掉的增益统称为**临界增益（Ultimate Gain**，Ku**）**；记录下它发抖一圈的时间，也就是**临界周期（Ultimate Period，**Pu**）**。
+
+有了 Ku 和 Pu 这两个代表系统频域极限的密码，所有的最佳 PID 参数就能用经验表换算出来。
+
+**但这个古老的办法在电机控制里是直接送命的！**
+
+你敢直接调大速度环 Kp 让重载的高速主轴处在“持续等幅震荡”的边缘吗？它随时可能因为外边一点风吹草动瞬间被激发出发散震荡，把车床主轴硬生生扭断。
+
+那问题来了：**有没有一种办法，既能安全地、受控地让电机只在极其微小的幅度内“发抖”，同时又能精准地测出它极限频域的** Ku**和** ωu**呢？**
+
+1984 年，瑞典控制学界的泰斗 Åström 和 Hägglund （没错， **_Practical PID Control_** 也是这两位老祖宗精神的延续）抛出了一把旷世神兵，这就是——**继电器反馈法**。
+
+* * *
+
+**魔法生效：用理想继电器逼出的“极限环”**
+
+请各位同仁翻看 **_Autotuning of PID Controllers_** 第3章里的原理图 Figure 3.1。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQ1W5v2oKSiarbRlkl0gkgFq0ictuhdR5PTbMiaicVojcFPuWZsFic31ksE4xLicytZPZQjgsP3xOyvLJJnfW8ORNp8AebZF1eO2nyico/640?wx_fmt=png&from=appmsg)
+
+咱们现在把速度环的 PID 控制器暂时“拔掉换掉”，换上一个什么东西呢？换上一个极其简单的、甚至可以说简陋到了极点的东西——**理想双位继电器（On-Off Relay）**。
+
+这个继电器的行为逻辑如下（假设指令速度是 0，也就是要求电机静止）：
+
+-   只要编码器反馈当前速度为**正**（哪怕只超过了一丝丝，比如 1 RPM），继电器就立刻输出**负的恒定电磁转矩指令** -h 给电流环。
+    
+-   既然电流是负的，电机不仅不再旋转，还会被强行向后拉。
+    
+-   一旦电机速度过零变成了**负**（比如 -1 RPM），继电器立刻“啪”地一下跳闸，输出变**为正的恒定电磁转矩指令** +h。
+    
+
+各位同仁设想一下此时的电机会发生什么？
+
+如果是现实中的物理电机，它绝不会像代码判断那么利索瞬间掉头（因为存在转动惯量 J 的低通滤波效应和电气延迟）。
+
+它只会在这个 ±h 的强行拉拽下，围绕着 0 速度线，发生一种极具规律性的、被迫的**等幅持续微小震荡！**
+
+这就叫激发出系统的**极限环（Limit Cycle）**。
+
+各位同仁注意到了吗？**这个震荡的剧烈程度，完全是被那个力矩指令边界 h 死死限定住的！**
+
+如果你害怕震断轴，你把继电器幅度 h 设成仅仅只能勉强克服小静摩擦的 5A 电流。微波荡漾，绝对安全！
+
+* * *
+
+**频域炼金术：背后的神级描述函数**
+
+电机颤抖起来了，但这并不重要，重要的是**我们能从这阵发抖中剥离出什么？**
+
+当我们把这套 ±h 的方波硬生生灌进电机并得到它的正弦反馈波形（振幅设为 A，周期其实就是振荡周期 Pu）时，奇迹发生了。
+
+书上的第 3.1 节给出了在频域里对非线性继电器进行线性化等效的神来之笔——**描述函数（Describing Function，简称 N(A)）**。
+
+作者利用方波的傅里叶级数展开，直接提取出它的基波分量。根据临界稳定状态的约束条件：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARXXibmKfSUhSYlHYfjP2VckspAwRJy7bkxpEbQXVBKgMMrT4mOGQYcOgl0H4xicWXSRuFyJS6XibD6SyZETjmIMTx0KF3d30OZ6g/640?wx_fmt=png&from=appmsg)
+
+而理想继电器的基波等效增益就是：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARcdmemicaLZ7AVZlicpMUM0NB8XUJy3ia4D9o7pibSibj9cpKvaebmic5VelVnw6a0TfTEuQws0q4jYchSrwl3lCgts8tiaB66H7rplk/640?wx_fmt=png&from=appmsg)
+
+经过一个惊为天人的代数替换，作者得出了极其震撼的推导结果。
+
+**在受到幅度为** h **的受控继电器震荡刺激后，如果你测出了反馈震荡波形的实际振幅为** A**，震荡的完整周期为** Pu**，**那么这个黑盒对象的临界绝密参数就是：
+
+-   **临界频率**  ωu = 2π/Pu
+    
+-   **临界增益**  Ku = 4h/πA
+    
+
+各位同仁！看着这个公式你们不觉得起鸡皮疙瘩吗？！
+
+**我们不需要知道这个电机里面的绕组是怎么缠的、磁钢多大、皮带传动惯量有多沉、齿轮比是多少！**
+
+只要我们拿小电流推它一下，看它摆动的回弹高度 A 和摆动一圈所需的时间 Pu。
+
+这个黑盒的“终极命门（Ku，ωu）”就全盘暴露了！
+
+只要有了 Ku 和 Pu，你要么直接查 Ziegler-Nichols 的经典整定表（比如 PI 的 Kc = Ku/2.2），要么用咱们以前提过的极点配置进一步解出惯量 J 和阻尼 B。
+
+* * *
+
+**为什么这是伺服控制器的灵魂？**
+
+各位同仁回忆一下我们在**第二篇章**学习的[内模控制（IMC）](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247485924&idx=1&sn=c8af7b449df1f84de797adab76d65900&scene=21#wechat_redirect)。我们当时极其得意地推出了 Kp ∝ L 这样的精妙代码。
+
+如果明天有个客户买了个无名电机接在你的变频器上，你该怎么办？让他填电感参数吗？大部分客户连拿万用表的姿势都不对。他强行填了个错数据，然后运行起来炸机了，肯定会怪你的变频器是垃圾产品。
+
+如果你懂得了今天这篇文章的神级原理，你会在变频器初始化的界面上设计一个“Start Autotuning”按钮。
+
+当客按下按钮时：
+
+1.  断开普通的 PID，悄悄切入 Relay 继电器模式；
+    
+2.  给个受控的、几乎听不见声音的小幅方波 U；
+    
+3.  量一下电流的刺耳小回弹周期和振幅；
+    
+4.  **底层直接跑一波描述函数公式，瞬间把极轴频率、等效电阻电感甚至转动惯量全部算完！**
+    
+5.  最后把根据你自己的硬件平台换算得来的 Q 格式 的 Kp，Ki 悄无声息地填入 代码B 的对应参数表里。
+    
+
+**客户看到的，只是电机轻轻地发出了“嗡嗡嗡嗡”一阵不到2秒的蝉鸣声。下一秒，电机已经极其霸道、丝滑且暴力地锁在了它最完美的工作带宽上。**
+
+各位同仁，这就叫技术壁垒。这才是拉开普通工控板和几千甚至上万元进口高端驱动器核心差距的“金钥匙”。
+
+* * *
+
+**Simulink演示**
+
+空口无凭，还是得上simulink。我们首先在仿真画布中构建模型，顶层视图如下：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATjib3FqGlJiaD65aHqID9ibgdNicNga1q7VzFCmsb7icibua7Qb5oBUIwcnIgtI8Ul67Azct3AFjPq04VKewvztqSsbPqTCKKXpdoeM/640?wx_fmt=png&from=appmsg)
+
+在蓝色的控制器区域Controller\_Area中，用一个波动开关来切换正常PI工作模式和继电器探测模式：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARkvrRwpPuMrmf2WeqQARia0dv7po1J43MxM4vJhAibcM75U3GPg0qWxj2rwJnT2NObehUpGWLRHEAlQric7jWfAVkEbZ1Sd8SqnI/640?wx_fmt=png&from=appmsg)
+
+在黄色的算法引擎Math\_Engine中，通过配合计时器来实时测量波形的周期 Pu，并在Function函数中通过 MinMax 抓取速度波形的波峰波谷，算出实际振幅 A。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQOYTDVlicXZCk4qZgP832B7ZrgOh1kWic9N2HA3DPB2SQkok8TysMdhNKD9TsPibhEJTltG94npNoV9ETzGhicQFUxdAbWAHJ8MlE/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARZxJUwN4DKoA53iaB49x6JJicxX1p2FN1NRYc5wwGGfJLyE4mTCzRGsibDYdxWO2LcEwibAqOssu3myWRBcYRp2EnFMsGsnDPuT0Q/640?wx_fmt=png&from=appmsg)
+
+我们首先看下正常PI模式下的仿真结果：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQvco73qwwQGFd00vUiaSAXvZwhq3D4bRgO0zsPmVYYDJQkseJW8SYvaKNemQaZtzHryByeGYCiatPj8lcVQzp7vibBicCHHDUKic8s/640?wx_fmt=png&from=appmsg)
+
+此时的波形为：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASF17qJM3mFTmCnT7MibNpKjgwpiccFC5jbNe70BWFR9cO5ntWc1IichiasIEvpH1WJhcXnR2spVLxPlxqicxMHrPjInsvqfAYk4Ir8/640?wx_fmt=png&from=appmsg)
+
+从曲线可见，目前设置的PI控制器及其参数，是可以工作，但还不够好的。说可以工作，是因为最终的速度信号（蓝线）可以稳定无稳态误差地跟上速指令（黄线），说不够好，是因为还是有超调。
+
+我们看下，使用“激怒”电机后（使用继电器探测模式）获得的PI参数后的最终控制效果：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASNt0YSdO0FRYibV4jF3p1BZzpjmBkqb22ybqI10gia4QdBX4HG3WygBQW7qJcPEibVLzFyvVSRZ6OGOrBN0SqTBYIqFTEXicv4E8M/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASrRTVibHOGlBichBT45icBbrsMlwK5k3B4MMY9TDNT7gyb4uvfPxkjRpJeLgM5TiaG1HEQQGnoWMnYqBDTibntBPz00X0cXVkYxa4g/640?wx_fmt=png&from=appmsg)
+
+现在，通过使用“激怒”电机后获得的PI调节器的参数，电机可以**快速且无超调**地跟上转速指令了！
+
+怎么做到的？整个过程都发生了什么？我们把所有的观测变量都在示波器中打开就一目了然了：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARSibd5MsyX5nxb57leia5wWfL0FIGmuMmh0IicjdRd10VIfWom8aMTjEUzuz3EE9DftkfPVrxYbIhxwnKSR0LN9mff80gqAbtnoU/640?wx_fmt=png&from=appmsg)
+
+我们把示波器放大了来细看：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQ7lsibqkfUyyf7nzKpcqtiaVDJgcib37m6fvo6Y5YdaaK5ap6onOrLDaG7SibthVbGoBu9hL7scD3TlhsOPYfk5GeYsstptcnWcac/640?wx_fmt=png&from=appmsg)
+
+在 t = 0~0.4s 的起振期（前20个周期），PI调节器的参数 Kp (绿线) 和 Ki (紫线)老老实实地趴在底部（0.1 和 1.0 的初始值），一动不动。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATBCYmrwlibicgqyNLIoJ0fE7LqBICbumAMWz3b98iabdJQnLLxwtTan5ujqBU81FxBNPIZXMUKxUVQibq5BzIsgo6erZD16IwCcdU/640?wx_fmt=png&from=appmsg)
+
+在 t = 0.42s 时（第20个周期打卡完成），PI调机器的参数**如利剑出鞘，没有任何拖泥带水，没有任何阶梯，一瞬间就跳跃并精确锁死**在了 Kp = 2.2，Ki = 114.5 的位置！大惯量电机的起振包络被完美屏蔽！
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARfhfuutMFRv2v6u13qHaAM3ZTNrDpyicJN5Wib7iaq0BmzymBo6iaMnhmV8IQoWggKBN7LorVu5RsiahxcquKQuYL9DicxjVdlLiaTxE/640?wx_fmt=png&from=appmsg)
+
+在 t = 0.5~1.0s 期间，目标速度从 0 跃变到 100 的爬坡加速区，继电器满载输出，不存在极限环发抖。此时参数**坚如磐石，完美冻结**，彻底免疫了速度基准跳变带来的毁灭性打击！
+
+细心的同仁，可能注意到了最终的Ki参数（紫线）不是稳定的，而是带有“毛刺”的：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATvXfic8YTa5rfVfGsO2sZkYZVHRblZrvzyFjjTDiaN56vPia7NjuqWadpSicLE6XEwe389Ltibln9OLynctBSp2IEBiaIYuoL1NKlqQ/640?wx_fmt=png&from=appmsg)
+
+这是Bug吗？**绝对不是 Bug！这恰恰是数字芯片（单片机）存在于这个世界的“灵魂指纹”——数字量化截断误差（Quantization Error & Aliasing）！**
+
+在建模时，为了彻底隔离 Simulink 连续求解器的污染，强制加装了 1ms 的 Zero-Order Hold（ZOH 零阶保持器）。这意味着仿真模型中的算法是每 1ms 才睁开一次眼睛。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATyqkv5lTZGwpfay0icyq9xhXtmpia9X2ibfoUicuYyEtVDjpFEeAwticLviaDz4keL9HOMHNoSG0C5rg8kdouH6U9APYa3vuBQ6U1XE/640?wx_fmt=png&from=appmsg)
+
+这会带来如下（类似于嵌入式中实时中断系统）的影响：
+
+-   **时间网格偏差：**假设真实的物理极限环周期是 21.3ms 。单片机的定时器只能数整数，它这一个周期数到了 21ms ，下一个周期可能凑足了误差数到了 22ms 。
+    
+-   **幅值网格截断：**电机真实的物理速度波峰可能发生在两个 1ms 采样点之间的 0.4ms 处。单片机抓不到真正的物理绝对波峰，只能抓到它“睁眼”那一瞬间的离散速度值。
+    
+-   **滤波器的呼吸效应：**由于每一拍算出来的基础数据（时间和振幅）在最后一位小数上有跳动，经过我们的 0.9 和 0.1 权重滤波器后，就自然而然地形成了这种微小而规律的“呼吸”波动。
+    
+
+为了让各位同仁看清最终的Kp和Ki参数，顶层模型画布中的灰色部分的 Visualization 模块里加入了数值显示器，可以清晰地显示用来计算PI参数值的Ku和Pu。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAT0IuXhZCtmXIC1qTlSTrA9UxBU8UzolgCRicZvxkzZia0AJajSUHy05F2iaTkPiaqUfj06hWvR3UMyZdlW3wXOUE2icaLW43IGI6QY/640?wx_fmt=png&from=appmsg)
+
+* * *
+
+**本文小结**
+
+**_Autotuning of PID Controllers_** 的第三章展示的是纯净无瑕的自动辨识巅峰理论。各位同仁如果在这周末打开 Simulink，用书中给出的 Relay 方块替代 PID 挂在一个非线性反馈对象上，正如文末共享的模型一样，立刻就会亲眼看到这优雅的公式在屏幕上生效。
+
+然而，现实世界绝不美好。如果在真实的 代码B（定点工业环境）中直接原样写这套代码，我们立刻就会遇到一堆致命的工程问题：
+
+-   **如果现场机械轴有虚位（游隙）呢？**
+    
+-   **如果由于摩擦力不对称，导致这个发抖的波形根本不是正弦，而是偏向一侧甚至变形了呢？**
+    
+-   **单纯的 0/1 开关继电器直接砸转矩指令，会不会造成齿轮剧烈敲击硬损？**
+    
+
+所以，在下一篇文章中，我们将直接从数学殿堂空降到工业泥潭。我们要动手画状态机，看看在基于定点的 **代码B** 框架中，如何安全、无损、且抗噪声地去实现一段**真正的自整定（Autotune）探测 C 代码序列**！
+
+各位可以先体会一下“描述函数以不变应万变”的美感，咱们下篇文章见！
+
+  
+
+参考文献：
+
+\[1\] VISIOLI A. Practical PID Control\[M\]. London: Springer, 2006.
+
+\[2\] YU C C. Autotuning of PID Controllers: A Relay Feedback Approach \[M\]. 2nd ed. London: Springer, 2006.
+
+文献链接：
+
+\[1\] https://pan.baidu.com/s/1h9nutvCGosgBItC40gXClQ?pwd=hwuq 提取码: hwuq
+
+\[2\] https://pan.baidu.com/s/1mfqXkjV3CBe12iD9N5XvIA?pwd=j8da 提取码: j8da
+
+代码链接：
+
+代码A：https://github.com/rombrew/phobia/tree/master/src/phobia
+
+代码B：https://pan.baidu.com/s/13k1lnvCQcDwUiJtkqgpfxQ?pwd=85ug 提取码: 85ug
+
+模型链接：https://pan.baidu.com/s/13OEOAbWw4PqciNqBi1xJ9w?pwd=a7sv 提取码: a7sv

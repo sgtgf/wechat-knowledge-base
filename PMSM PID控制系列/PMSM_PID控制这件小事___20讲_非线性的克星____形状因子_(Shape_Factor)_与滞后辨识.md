@@ -1,0 +1,247 @@
+# 《PMSM PID控制这件小事》| 20讲：非线性的克星 —— 形状因子 (Shape Factor) 与滞后辨识
+
+原创 傅存敬 电磁散人 2026-04-07 07:06 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/xum0MCjoRsc25cpF2sZSiw](https://mp.weixin.qq.com/s/xum0MCjoRsc25cpF2sZSiw)
+
+各位同仁，大家好。
+
+[上一篇文章](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247486072&idx=1&sn=0b243ff0691c87281a8514f9c4a98094&scene=21#wechat_redirect)，我们像做微创手术一样，极其小心地把继电器反馈（Relay Feedback）融进了 **代码B** 的底层中断里。通过让电机进行受控的微波荡漾，我们成功地逼出了传说中的临界参数 Ku 和 Pu。
+
+按理说，有了这两个参数，直接套用文末参考文献\[1\]中给出的 Ziegler-Nichols 公式或者把惯量 J 算出来，这趟自整定（Autotuning）之旅就该完美收官了。
+
+但是，现实的工业现场总是充满“惊吓”。
+
+这天，客户带着一段电机速度反馈波形找上门来，怒气冲冲地说：“你们这自整定算出来的 Kp 根本不对！电机一启动就抖得厉害，定位误差极大！”
+
+你连上串口一看，当你的驱动器在做继电器震荡（Relay Feedback）时，抓回来的速度波形根本不是你在实验室里看到的那种完美的、平滑的**正弦波**（Sine wave）。
+
+相反，它变成了一种极其丑陋的波形——要么像刀劈一样的**三角波**（Triangle wave），要么像积木一样平头平脑的**矩形波**（Rectangular wave），更离谱的是，波形的上升沿和下降沿居然是不对称的！一边陡得像悬崖，另一边缓得像个下坡。
+
+各位同仁，这时候不要慌，也不要去怀疑你写的 C 代码。这其实是整个机电系统在通过这种诡异的波形，向你发出紧急求救信号。
+
+今天，我们要翻开 **_Autotuning of PID Controllers_** 最精华的**第4章**和**第10章**。这两章的内容，在经典的 PID 教程里几乎绝迹，但它揭示了工业现场最隐蔽的真相：**形状因子（Shape Factor）与不完美执行器（Imperfect Actuators）的辨识。**
+
+* * *
+
+**波形为什么会变形？**
+
+在理想世界里，当继电器输出方波力矩时，如果电机（加上负载）是一个完美的线性系统（比如一阶或二阶低通惯性环节），受到方波反复激励后，它的反馈波形只可能是一种：也就是滤除掉方波包含的诸多高频次谐波之后，剩下的**基波正弦波**。
+
+这也是我们能用描述函数法（Describing Function）的前提：假设高频都被系统本身滤掉了。
+
+但在书中第 4.1 节明确指出：**当波形不再是正弦波时，说明系统内部充满了极强的低频特征或者严重的非线性！**
+
+原著给出了极其精彩的分类和诊断（大家可以参考书中的 Figure 4.2 和 Figure 4.3）：
+
+1.  **尖锐的三角波（Triangle wave）**
+    
+
+**诊断结果：** 这是一个极其典型的**积分环节主导（纯积分）**的标志。
+
+**物理意义**： 对于电机的速度环来说，纯积分意味着什么？意味着极小的摩擦阻力，几乎纯粹的巨大转动惯量主导。方波力矩就像均匀的加速度指令 a，速度 v = ∫adt ，所以速度波形是一条笔直上升的斜线，翻转后又笔直下降，形成了标准的三角波。
+
+2.  **平顶或接近矩形波（Rectangular wave）**
+    
+
+**诊断结果**： 大死区（Dead-zone）或长非线性延迟。
+
+**物理意义**： 当你的力矩反向时，速度反馈居然迟迟不掉头，而是在顶部平着走了一段才开始下降。这就是典型的“空转无响应”。在机械上，这是什么？这就是**传动链中间的间隙过大（Backlash，齿隙）或者皮带严重松弛！**传动轴转过去了，但反馈编码器（如果装在负载端）还没动！
+
+3.  **波形严重不对称（Asymmetric wave）**
+    
+
+**诊断结果**： 强烈的方向非线性。
+
+**物理意义**： 电机正转和反转时，受到的静摩擦力或重力偏置完全不同（比如带垂直负载的机械手）。这也可能暗示了机械导轨一侧有严重卡涩，或者逆变器本身存在不平衡的死区时间。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARWu7vXzf6lK3vlfZHiaibpTpIUVwOibzRLdP9Mj5ErpibKa7437Tv749R5E4xtMBu3DgcKUD4DzL2DcbMxf5xUYicicPFDbCiaDOYjaU/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARhlc785EZc16rMWibib938ribJ6J9fwGUofC86ShhfviaGgibhFqucHEDV4JQA95ZYdlvNEAibZmibsvWbgz32jegkubyD2OP4gHBibJs/640?wx_fmt=png&from=appmsg)
+
+* * *
+
+**形状因子：把“看图说话”变成代码诊断**
+
+书里的理论很漂亮，但我们不能每次都让工程师盯着示波器看啊。我们的驱动器里只有一颗冰冷的 DSP，它怎么“看懂”波形是圆的还是尖的？
+
+**_Autotuning of PID Controllers_** 的作者极其敏锐地提出了一个量化的数学工具——**形状因子（Shape Factor）。**
+
+虽然书里没有给出一个唯一的万能公式，但根据其理论精髓，我们在 C 代码里（比如结合前面学的 代码B 架构），完全可以这样实现这个诊断工具：
+
+我们可以计算出在一个震荡周期 Pu 内，实际反馈信号波形包络下的**积分面积（Area）**，然后去和**相同振幅、相同周期下的理想正弦波的理论面积**进行比对。
+
+如果二者极为接近（比值 ≈ 1），它是正弦波。
+
+如果实际面积仅为纯正弦波面积的 63% 左右（或者 2/π 相关的比例），那它就是尖锐的三角波！
+
+在实际的高级伺服驱动器 C 代码中，这甚至不需要复杂的积分，只需要非常简单的采样：
+
+```
+// 伪代码：在继电器自整定过程中，计算波形的胖瘦程度
+```
+
+各位同仁，这段代码的价值，已经远远超出了“控制”本身的范畴。
+
+原本，继电器反馈只是为了整定 PID 用的“副产品”。但由于波形形状蕴含了极其丰富的非线性信息，我们顺手把它变成了一个**在线的机械健康监测仪（Condition Monitoring）！**
+
+当你在上位机界面上弹出“传动皮带疑似松动”时，客户绝对会对你的产品顶礼膜拜。
+
+* * *
+
+**不完美执行器（Imperfect Actuators）的辨识纠偏**
+
+**_Autotuning of PID Controllers_** 第 10 章专门讲了“不完美的执行器”。书里讲得很明确：在强非线性（特别是大齿隙或阀门死区）存在的情况下，如果我们依然傻乎乎地用 Ku = 4h/πA 去算临界增益，算出来的闭环 PID 参数往往会导致系统失稳发震。
+
+为什么？因为实际执行器并没有百分百地把力度传输出去，这个“吃掉”的死区力度如果不加补偿，会导致我们**高估了被控对象的实际响应能力**，所以算出来的临界增益 Ku 会偏大。
+
+书里的解法是什么？**二次辨识法（Two-step Procedure）**。
+
+它巧妙利用了两段式的继电器幅值：
+
+1.  **第一次试探**：**用小一点的力矩幅值 h1**，系统刚能勉强越过静摩擦或死区，震荡出来的振幅 A1 极其可怜。
+    
+2.  **第二次发力：用大一点的力矩幅值 h2**，系统不仅越过了死区，还产生了健康的振幅 A2。
+    
+
+有了这两组数据，咱们根本不需要手动去测那个卡涩死区到底有多大，一个牛逼的二元一次方程直接就联立出来了：
+
+**这不仅能把真实的死区（死区宽度）给准准地算出来，而且自动修正出了去除死区干扰后的唯一真实临界增益 Ku！**
+
+[这个过程，和对电机的电阻进行参数辨识时，为了抵消掉开关管内阻和死区的影响，用两次不同幅值的电压进行电阻辨识过程的底层逻辑是一样一样的。](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247485081&idx=1&sn=4c4bd5c41a80b43a62f93caa99bff375&scene=21#wechat_redirect)
+
+这就是数学与工程完美结合的顶级智慧。
+
+* * *
+
+**Simulink演示**
+
+单单看文字，通过二次辨识法来识别非线性的过程还是太干了，我们在Simulink中看一下吧。
+
+仿真模型的顶层画布如下：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAR7GOPQSpu99mL2U4hGxYavKv4TCFhdr62jNfdF4cduOpDa5QO4P4ZqDOibKGesJZoP15V9VB33MnSmMcps3ib294sG0SiaicvRY4w/640?wx_fmt=png&from=appmsg)
+
+此次的仿真模型主要由三部分组成：
+
+1.  **机械与电机被控对象模块（The Plant —— 制造非线性的“元凶”）**
+    
+
+这里没有使用理想的一阶惯性环节（1/(Js + B)）来代表电机，而是加入了非线性模块，并做成随时可切换或调参的模式
+
+-   **理想状态：**只有转动惯量 J 和适中的线性粘滞摩擦 B。（用于演示完美的**正弦波**）
+    
+-   **纯积分主导（悬浮/极小摩擦）：**将摩擦力 B 设为近乎 0，只有极大的转动惯量 J。（用于演示**尖锐的三角波**）
+    
+-   **平顶怪兽（大死区/机械间隙）：**串联一个Matlab Function模块，模拟皮带松弛或齿轮磨损。（用于演示**平顶/矩形波**）
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATYwydufxB7ltd4YOgMH5jAzlh51tgEXPfPNQFdTvKfdy4fsnj3jE3IUlrLnudVWwpvcGQBzlEs1LvycYfF5hcVQRoOuPBVzMw/640?wx_fmt=png&from=appmsg)
+
+2.  **继电器自整定与执行器模块（The Relay Autotuner —— 逼迫系统现原形的“猎人”）**
+    
+
+这个部分我们要接管正常的速度环PID，注入继电器信号：
+
+-   **Relay（继电器）模块：**配置具有一定迟滞宽度（Hysteresis）的转矩方波输出。
+    
+-   **Two-step Procedure（二次辨识法发电机）：**这是一个包含 switch 逻辑的模块。先输出一个小幅值方波 h1 持续几个周期，然后再切换到大幅值方波 h2。以此演示教材中第10章“不完美执行器”的辨识。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQPRNwJV8FfjmagVCCpt9aJUD0skkmWejt8AMfAbicUibhib0zRsyqac6PfTujCSayDvicn6I79fQzcKvHFzicr2vpOGs4icWB9fbsNU/640?wx_fmt=png&from=appmsg)
+
+3.  **形状因子实时计算模块（Shape Factor Calculator —— 核心诊断代码的“具象化”）**
+    
+
+使用一个Matlab Function模型来完成上文中咱们用 C 语言描述的“基于半周期面积与最大振幅的数学找茬逻辑”！
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATezU3VOulB3FJkvqnYTHL91U9I47mXo0QAyewk9HL19oibpqMcOErpbdx0sAKibcRsicWGnIPKM4iaM1J5Da7uNBmPP6ch0nny4Ro/640?wx_fmt=png&from=appmsg)
+
+我们来看下仿真结果，首先看下“健康状态”（也就是 Demo\_Mode = 2 ）下的结果:
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAR6ficBGceAx6dne9M69sIuZC2jmQwReqUu2WkbAa83wQrDoBp8PSnas1VhgL272ibS967YmbDGzH2rTfGFnicSutWxyXHmMicQfl0/640?wx_fmt=png&from=appmsg)
+
+波形完美印证了**“二次辨识法（Two-step Procedure）”**： 图中黄色方波（力矩指令）在5秒处发生了极其明显的台阶跨越，从幅值 h1 = 1 跃迁到了 h2 = 3。对应下方的蓝色速度波形也随之按比例放大。这就是我们上文中说的利用大小两次激振来穿越可能存在的静摩擦与死区！
+
+我们放大了来看下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARs5rz0sW5kcb5K1tCQqLbjFW6DPF4QXTJR5CsvNLwoqk5csPPYqhEmECxbibHSibT3OiaCc23cj06qx7FOQXnqExAjAGXgjPecgE/640?wx_fmt=png&from=appmsg)
+
+蓝色的速度反馈曲线是一条**弧度极其优美、圆润的类正弦波（Sine-like wave）**。因为健康的电机本身就是一个完美的“低通滤波器”（含有转动惯量 J 和定子延迟 Te）。系统滤除了方波中的高次谐波，只剩下了基波分量。这正是我们在无感控制中敢于使用“描述函数法”的物理前提！
+
+我们再来看下**诊断仪表盘**：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAS4V88vOYGR8UIk6qKHia41P4YXsokBj4Aiay0NqSXEIfYH5zTAuwKxESCg80ic1mxGwQHZTSAtJA1Sna9S31u85oNMJzf7gicPqiak/640?wx_fmt=png&from=appmsg)
+
+**形状因子（Shape Factor）= 0.6444！**这是一个令人激动的数据！纯粹理想的正弦波，其绝对值的平均值除以峰值，在数学上是 2/π ≈ 0.636。由于我们的模型带着真实的物理阻尼，并未把高次谐波 100% 滤除得极其干净，所以算出来是 0.6444。这是非常有说服力的工程数据，完美验证了咱们上文给出的伪代码中 \>0.6 且 <0.7 的“极度接近正弦”的判断区间内！
+
+我们再改变 DEMO\_MODE = 1：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsASBtHlBSwrTWCjWouPQUAkCSfcrjqBliaEQ2tFHS3jyvOjy0kdsHwbgXOdoDX2ibWU8ST0ibqWVScOwNPJKkY2Liar03Aq7qyjZs8c/640?wx_fmt=png&from=appmsg)
+
+此时的仿真结果为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARJvWQFrmicDg7Bvia8rkA4licIgfmUhVkxrlWJNqHdH34E0V30pmGzBCevZVHGGMvXYbGPgicMT8VJTODaGPicSV6AUvkib7rpN51ps/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARLXLkc8azDiciaicstnwlmemHoUJk9OBIuAibTAxofI0FoRkGP9hTJFgOJyCHA2nic10tEowtsOe4HiciaGceiczKaVyNytvjgj6TXiaxI/640?wx_fmt=png&from=appmsg)
+
+蓝色的正弦波会瞬间变成刀切一样的**尖锐三角波！**
+
+再看仪表盘：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARTeknX1F9rwphcdZSqhAyV9dWbnAI21GpNWG4eo1jjuo3WGWV9veDtE9LibsIdQeHlNYmE0ic5FOXdoLPaa40cI4S95wtBZP5RI/640?wx_fmt=png&from=appmsg)
+
+ShapeFactor 从 0.64 暴跌至 0.4688 ，同时状态字 Status 变成 1 报警！
+
+同样，将 DEMO\_MODE 改为 DEMO\_MODE = 3;（这模拟了严重的皮带松动或 15 毫秒的齿隙空转），此时的仿真波形为：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATX2KaQbESJdtZytxMFf4JUGib0gziaJxFqGNNmE2PzgHWYh23mvwrfkibh6u7oNzfgSt6WTPuqkWs2ou3H3PgkbUY1Ciba06TYQnk/640?wx_fmt=png&from=appmsg)
+
+当力矩（黄色）反转的瞬间，速度波形（蓝色）会**悬空停滞**，走出一个个平坦的平台，变成一个**平顶矩形波！**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARvYt1vuylYkES92c2SiazqSLBe3ZDTSxFXpMpW5ibILYYAKsz5T3fvpKLa3nmibTa7zd0dyCdiaw7VJpqZbeNsDpDs6O2ia1Yk0uUo/640?wx_fmt=png&from=appmsg)
+
+仪表盘中，ShapeFactor 从 0.64 一路飙升至 0.9673 ，同时状态字 Status 变成 3 报警！
+
+* * *
+
+**本文小结**
+
+今天这篇文章，我们完全跳出了单纯“调参数”的思维结界。
+
+通过 **_Autotuning of PID Controllers_** 这本书里的“形状因子”和“不完美执行器辨识”，我们拥有了看透波形背后的机械实质的两双眼睛：
+
+-   **一双眼看胖瘦（Shape Factor）**：从正弦、三角到矩形，波形的胖瘦直接对应了纯惯量、摩擦力、与机械松动的物理现实。
+    
+-   **一双眼看非线性补偿（Two-step Procedure）**：通过大小两次继电器力矩的对比，直接剥离出隐藏在黑暗中的静摩擦力和死区宽度。
+    
+
+掌握了这两个绝招，你的变频器不再是一个被机械工程师来回甩锅的“黑盒”。你能用数据硬怼回去：“不是我的参数调不稳，是你们机床的丝杠齿隙已经磨损到了 3 毫米！”
+
+到此为止，我们已经在代码底层的防呆设计、各种滤波器穿插、以及继电器自整定中走过了漫长的路。但我们一直没提最高维的一件事：**咱们那两个高配版的 代码A 中的卡尔曼观测器和强大的内环，如果跟外环配合得不好，会导致整个闭环生态的崩溃。**
+
+下一篇文章，我们将重新把 **代码A**（浮点全家桶）端上来，去拆解一种在 PID 书里极少提到，但在无感伺服领域最要命的难题：**当 PID 的眼睛（观测器）自己都还没看清的时候，PID 的手（控制极点）却已经狂野开干了……分离原理失效的恐怖现场！**
+
+这绝对是烧脑的一篇理论与代码碰撞的技术干货文章。大家做好准备，咱们明天不见不散！
+
+  
+
+参考文献：
+
+\[1\] VISIOLI A. Practical PID Control\[M\]. London: Springer, 2006.
+
+\[2\] YU C C. Autotuning of PID Controllers: A Relay Feedback Approach \[M\]. 2nd ed. London: Springer, 2006.
+
+文献链接：
+
+\[1\] https://pan.baidu.com/s/1h9nutvCGosgBItC40gXClQ?pwd=hwuq 提取码: hwuq
+
+\[2\] https://pan.baidu.com/s/1mfqXkjV3CBe12iD9N5XvIA?pwd=j8da 提取码: j8da
+
+代码链接：
+
+代码A：https://github.com/rombrew/phobia/tree/master/src/phobia
+
+代码B：https://pan.baidu.com/s/13k1lnvCQcDwUiJtkqgpfxQ?pwd=85ug 提取码: 85ug
+
+模型链接：https://pan.baidu.com/s/1ETdHTrUsTuhLAnqyLJQEMQ?pwd=pd6r 提取码: pd6r

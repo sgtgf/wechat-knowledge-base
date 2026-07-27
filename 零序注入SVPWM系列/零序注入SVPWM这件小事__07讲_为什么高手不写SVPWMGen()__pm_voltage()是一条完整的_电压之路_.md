@@ -1,0 +1,211 @@
+# 《零序注入SVPWM这件小事》｜07讲：为什么高手不写SVPWMGen()——pm\_voltage()是一条完整的“电压之路”
+
+原创 傅存敬 电磁散人 2026-02-09 07:06 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/O0Q3CyOhGS-Mst65jw6dNw](https://mp.weixin.qq.com/s/O0Q3CyOhGS-Mst65jw6dNw)
+
+各位同仁，前面六讲，咱们一直在天上飞，聊理论，看公式，搭Simulink。从今天开始，咱们要“降落”了，一头扎进 pm.c 这片代码的“热带雨林”里。
+
+很多同仁，包括我自己，刚开始接触这种工业级代码的时候，都会有一个共同的困惑。按照我们学软件工程的习惯，一个功能明确的模块，不是应该封装成一个独立的函数吗？比如SVPWM生成，直觉上就应该有个 SVPWM\_Generate(u\_alpha, u\_beta, \*duty\_a, \*duty\_b, \*duty\_c) 这样的函数。
+
+但是，你翻开 pm.c，找到 pm\_voltage() 这个函数，你会发现，它根本不是这么回事。SVPWM的生成逻辑，被“打散”在了这个函数里，和一堆看似“无关”的代码（比如限幅、采样窗口处理、最小脉宽约束、电压重建）混在一起。
+
+这是代码写得乱吗？还是作者不懂封装？
+
+都不是！恰恰相反，这背后隐藏着一种深刻的、从无数次“炸机”和“调试到深夜”中总结出来的**工程哲学。**
+
+pm\_voltage()**这个函数，它的定位，根本就不是一个纯粹的“SVPWM生成器”。它是一个更宏大的角色：逆变器输出级的“软件模型”和“执行管线”。**
+
+它的使命，是回答一个闭环控制系统里最致命的问题：**我这一拍，到底给电机施加了一个什么样的电压？**
+
+这个问题的答案，绝对不是PI控制器算出来的那个理想的 uX, uY。那个，只是“**诗句**”，是你对世界的美好愿望。而电机真正收到的那封“**信**”，内容已经被现实的各种约束给修改得面目全非了。
+
+pm\_voltage() 这个函数，就是那条从“写诗”到“寄信”的完整邮路。我们来把这条路拆解一下，看看它都经过了哪些“站点”。
+
+**第一站：Reference Conditioning (指令预处理)**
+
+**代码锚点：**pm\_voltage() 开头部分，对 uX, uY 的处理。
+
+**它在干嘛：**
+
+1.  **归一化：**uX \*= pm->quick\_iU; uY \*= pm->quick\_iU;  把控制器输出的电压指令，转换到以母线电压为基准的标幺值。
+    
+2.  **两级限幅：**
+    
+
+-   if (pm->config\_VSI\_CLAMP == PM\_ENABLED ...)：可选的**内切圆限幅**，保证绝对的线性。
+    
+-   if (uMAX - uMIN > 1.f ...)：强制的**六边形贴边限幅**，这是物理极限，必须遵守。
+    
+
+**工程哲学：**在算法的最开始，就把“不切实际的幻想”给砍掉。指令如果已经超出了硬件能力范围，就别让它再往下走了，先在源头处理掉。
+
+**第二站：Modulation + Constraints (调制与约束叠加)**
+
+**代码锚点：**从逆Clarke变换，到 PM\_VSI\_ZERO 策略选择，再到 forced clamp，最后到最小脉宽处理。
+
+**它在干嘛：**
+
+1.  **调制核心**：逆Clarke得到三相，然后根据 PM\_VSI\_ZERO 策略（CENTER/GND/EXTREME）注入第一次零序，实现SVPWM的核心思想。
+    
+2.  **量化：**xA = (int) (pm->dc\_resolution \* uA); 把浮点占空比变成整数的CCR值，引入了量化误差。
+    
+3.  **为采样让路：**if (nZONE < 2) { ... Forced clamp to GND/TOP; } 这是[为了保证电流采样窗口](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247485037&idx=1&sn=34ad9c107aae358b358629b54af0ab22&scene=21#wechat_redirect)，强行对三相占空比进行第二次整体平移，本质是注入了第二次零序！
+    
+4.  **硬件底线：**最后，再用 ts\_minimal（最小脉宽）去卡一下，确保输出的脉冲硬件能识别，驱动能响应。
+    
+
+**工程哲学：**调制不是一步到位的。它是一个“**层层叠加约束**”的过程。每叠加一层约束（采样、最小脉宽），都可能改变最终的占空比。如果把这些步骤分开，状态同步会成为噩梦。
+
+**第三站：Reconstruction + Validity (重建与有效性确认)**
+
+**代码锚点：**pm\_voltage() 的末尾部分。
+
+**它在干嘛：**
+
+1.  **输出到硬件：**pm->proc\_set\_DC(xA, xB, xC); 把千辛万苦算出来的、满足所有约束的最终CCR值，发给定时器。
+    
+2.  **电压重建**：根据这个**最终的、即将要生效的**xA, xB, xC，反向Clarke变换，重新计算出这一拍**实际等效输出**的电压 pm->vsi\_X 和 pm->vsi\_Y。
+    
+3.  **有效性广播：**调用 pm\_clearance(pm, xA, xB, xC);，根据最终的占空比，去更新全局的采样有效性标志位（vsi\_IF, vsi\_UF等），告诉系统里的其他模块（比如观测器、电流环），“这一拍的采样数据能用吗？”
+    
+
+**工程哲学：闭环系统的稳定，依赖于精确的反馈。** 观测器（比如滑模、龙伯格）和各种补偿算法（比如死区补偿），它们需要知道的，不是你“想”输出什么电压，而是你“实际”输出了什么电压。把重建放在这条管线的最后一环，保证了送给观测器的，就是那封已经被修改过无数次的、最终版本的“信”。
+
+现在，各位同仁，你们再看 pm\_voltage() 这个函数，还觉得它“乱”吗？
+
+它一点都不乱。它的结构，是一种**高度内聚的、事务性的处理流程**。从接收指令到最终输出，中间所有可能改变占空比的环节，以及这些改变带来的后果（实际电压是多少、采样是否可用），全部被封装在了这一个“原子操作”里。
+
+这就像一个经验丰富的老产线主管，他把“领料、加工、质检、打包、贴标签”这些工序，全部安排在一条流水线上，由他一个人盯着。这样，就不会出现“质检不合格的产品被错误打包”或者“标签贴错”的问题。
+
+如果把SVPWM生成单独封装成 SVPWMGen()，就相当于把“加工”这个环节独立了出去。后面“质检”（比如[采样窗口约束](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247485037&idx=1&sn=34ad9c107aae358b358629b54af0ab22&scene=21#wechat_redirect)）发现问题，要返工，或者打了补丁，但“贴标签”（电压重建）的环节如果不知道，它还是按照原始的“加工”结果去贴，那整个系统的信息流就断裂了。
+
+**Simulink 演示**
+
+今天这个思想，比较务虚，但至关重要。我们用Simulink来模拟一下“信息流断裂”的后果。
+
+**1\. 搭建一个简化的闭环FOC系统：**包含一个PI电流控制器，一个调制模块，一个带死区效应的逆变器平均模型，一个电机模型，以及一个滑模观测器。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQTzQdjTicFEJPricYU8oaOIIOvHhSUfiaQKN5ZHsOA50mVRcBZpjLiaiatK7P2MmibXtribJI9PMckoJ8XibEibeqSkT1pfG6GYuX7M1S4/640?wx_fmt=png&from=appmsg)
+
+我们在 PathA 和 PathB 里分别植入一个**基于电机方程的电流观测器。**
+
+**观测器逻辑：**完全复刻电机物理方程（ U = RI + LI + E ），用来估算电流。
+
+**关键差异：**
+
+-   **PathA (信息断裂)：**观测器输入电压 = PI 输出的 Ud\_ref, Uq\_ref（理想值）。
+    
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATmzyYLicOWBoZMoXUsn1E4FAZHFRyiclLaH9s6GV4n2H1sZtbgRUGgeFlvBqibMW9HEefj68BMb5v5NibU8jVD3g7j6bMPv0CLJv8/640?wx_fmt=png&from=appmsg)
+
+-   **PathB (信息闭合)：**观测器输入电压 = 调制器重建的 Ud\_act, Uq\_act（真实值）。
+    
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASvlvPHnqAza08ibqb6E7Sd9syb3rz3icrMbyJMKzLL8sdDvAQeHrOjDLEKKQT3JG02Q4BL90icrgkyjqGKA5Gia1FibU6oAkl5fkUc/640?wx_fmt=png&from=appmsg)
+
+**2\. 两条并行路径：**
+
+-   **路径A（信息流断裂）：**
+    
+
+-   调制模块是一个“纯净”的SVPWM生成器。
+    
+-   死区补偿的输入，是PI控制器输出的理想电压。
+    
+-   滑模观测器的输入，也是PI控制器输出的理想电压。
+    
+
+-   **路径B（信息流闭合，即****pm\_voltage()****的思想）：**
+    
+
+-   调制模块是一个“带约束”的模型，它会模拟最小脉宽和饱和效应。
+    
+-   死区补偿和滑模观测器的输入，都来自于这个带约束调制模块重建的、实际输出的电压。
+    
+
+3.  **观测：**
+    
+
+-   对比两条路径在**相同**工况下的电流波动。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQ48dM93taFZouyZgVh6eckMBTj4r7rmKJCUpMQvqPkic9WxTRt1ctfh4iacgEjEXoQ8GDbt5kTrhLhWsYVQGaLovTnQ0Rf4jEuM/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsATvR7oWkP6wIRN1u6BWbaxEVKvNVicoibwMJKljFXyia7VsTprBliaGG72C0E2iayOuFFvX320IFQxAgiccuAWQs4rNiaCwKPulibaqf38/640?wx_fmt=png&from=appmsg)
+
+**Motor\_A (理想路径)输出（黄色波形）**：PI 控制器算出的电压，被**无损**地施加到了电机上。因为没有逆变器的非线性（限幅、量化），PI 参数（Kp=10, Ki=2000）在这套理想模型下表现得非常完美，响应迅速且无超调。
+
+**Motor\_B (真实路径)输出（蓝色波形）**：PI 算出的电压，经过了 SVPWM\_Core，引入了微小的随机扰动。同样的一套 PI 参数（Kp=10, Ki=2000）对于理想模型是完美的，但对于**带延迟和非线性的真实模型**来说，可能**增益过大**或者**带宽过高**了，导致了系统不稳定（震荡）。
+
+图中蓝色波形的震荡不是错误，而是**真实世界对理想参数的“打脸”**。这恰恰证明了：我们不能只在理想环境下调 PI，必须把逆变器模型加进去，才能调出真正能用的参数。
+
+-   对比观测器输出的电流（如Q轴估算电流）误差：
+    
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQJRjdat6uGeBj42Ew6JdpPYJibSXpjrpoHpBCVIuLFxZh2lGlV2pFjZkkaUaNwgrIgZNtiam88kibl1DJJBDQpkeibOyGibDPCqCKA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATqhYsVE3ZUCicRnXx3yKicuSUS2jI3lR0NwrLbpKcAgsNgEm6VFMhVsZqQFROGSuxMxAfCa864rq6EJlIvtRsXiaPj6s8mCYuW78/640?wx_fmt=png&from=appmsg)
+
+**3.1 黄线 (Err\_A - PathA 理想信息流)解读：**
+
+-   现象：在 0.02s 阶跃发生的瞬间，误差（Iq\_real - Iq\_est）突然飙升到一个巨大的负值（接近 -11mA，相对于电机电流来说是一个明显的偏差），然后慢慢收敛回 0。
+    
+-   **为什么？**
+    
+
+-   在阶跃瞬间，PI 控制器为了让电流快速上升，输出了一个**巨大的电压指令**（可能瞬间超过了母线电压 Vdc）。
+    
+-   PathA 的观测器是个“老实人”，它盲目相信这个巨大的电压指令，认为电流也会随之剧烈增加（dI/dt = U/L），所以估算出的 Iq\_est 瞬间变得很大。
+    
+-   但真实的电机（Motor\_A）并没有收到那么大的电压，虽然 PathA 里电机也是理想的，但由于 PI 参数在动态时的响应特性，导致真实电流 Iq\_real 没有估算值跑得快。
+    
+-   结果就是：Iq\_est >> Iq\_real，所以误差 Err = Real - Est 出现了一个巨大的负尖峰。
+    
+
+-   **结论：**这就是“**信息断裂**”。控制器以为自己输出了强力电压，观测器也信了，但实际上并没有（或者说动态过程没对上），导致观测器在动态瞬间严重失准。
+    
+
+**3.2 蓝线 (Err\_B - PathB 真实信息流)解读：**
+
+-   **现象：**在 0.02s 阶跃瞬间，误差虽然也有波动（这是数值计算和离散化不可避免的），但幅值极小（在 1e-3 级别），而且始终在一个很小的范围内震荡，没有出现那个巨大的尖峰。
+    
+-   **为什么？**
+    
+
+-   在阶跃瞬间，PI 同样输出了巨大的电压指令。
+    
+-   但这个指令经过了 VSI\_Model（SVPWM 核心），被**狠狠地限幅了**（限制在六边形/母线电压内）。
+    
+-   PathB 的观测器接收到的是这个**被限幅后的、真实的电压**Uq\_act。
+    
+-   观测器算出的 **dI/dt** 就跟真实电机受到的激励是一致的。
+    
+-   所以，Iq\_est 紧紧咬住了 Iq\_real，两者步调一致，误差极小。
+    
+
+这个simulink小实验，就是本讲文章封面宣传语的铁证：**在闭环里，“想要的电压”（PathA的黄线尖峰）只是诗句；只有走完这条路（PathB的蓝线平稳），才是电机真正收到的信。**
+
+**如果你直接用 PI 输出喂给观测器，只要一动态加速，观测器就瞎了；但如果你用了**pm\_voltage()**这种回传机制，观测器就永远清醒。**
+
+这个实验，就是对 pm\_voltage() 设计哲学的最佳致敬。它告诉我们，在嵌入式实时控制的世界里，**封装的边界，应该由“数据一致性”和“事务的原子性”来决定，而不是由“功能的纯粹性”来决定。**
+
+从下一讲开始，我们就要拿着放大镜，一个“站点”一个“站点”地去解剖 pm\_voltage() 这条流水线上的每一个细节。第一个要看的，就是那些神秘的归一化常数。
+
+好，今天就到这里。大家可以回去思考一下，在自己的项目里，是不是也存在这种“信息流断裂”的隐患？
+
+  
+
+参考代码：https://github.com/rombrew/phobia/tree/master/src/phobia
+
+参考文献：
+
+\[1\] Zhou K , Wang D .Relationship Between Space-Vector Modulation and Three-Phase Carrier-Based PWM: A Comprehensive Analysis.\[J\].IEEE Transactions on Industrial Electronics, 2002.
+
+文献链接：
+
+https://pan.baidu.com/s/1R6veKtYAG86LhfOXaLKJxw?pwd=rdf7 提取码: rdf7
+
+模型链接：
+
+https://pan.baidu.com/s/1ZQqRLrrtb0hnAbbdO3tTrg?pwd=tf3w 提取码: tf3w

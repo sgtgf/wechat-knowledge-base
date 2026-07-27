@@ -1,0 +1,153 @@
+# 《PMSM PID控制这件小事》| 02讲：给控制器装上“刹车” —— 抗积分饱和(Anti-windup)的深度解析
+
+原创 傅存敬 电磁散人 2026-03-04 07:06 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/5ENXIatENY5jxw4e1PsKCQ](https://mp.weixin.qq.com/s/5ENXIatENY5jxw4e1PsKCQ)
+
+各位同仁，[上一讲](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247485672&idx=1&sn=5c719696d791123001289fafd9051e18&scene=21#wechat_redirect)我们聊到，位置式PID里面有一个积分累加项Total，像一个账本，记录了所有的历史误差。如果系统一直有误差，这个账本上的数字就会越记越大。
+
+这在平时没什么问题，但如果遇到一种极端情况，它就会变成一个巨大的麻烦。什么情况呢？
+
+**执行器饱和 (Actuator Saturation)。**
+
+对我们电机控制来说，最典型的饱和就是：**电压不够用了。**
+
+想象一下这个场景：你的电机需要紧急从静止加速到高速。速度环的PID控制器一看，哎呀，实际速度和目标速度差得太远了！误差 e(t) 巨大。于是它拼命地喊：“加油！加油！”，给出的转矩指令（也就是 Iq 电流指令）非常大。
+
+电流环也很听话，忠实地执行速度环的指令。但它能给出的电压不是无限的。电机的反电动势随着转速升高而线性增加，很快，电流环为了维持 Iq 所需的电压，加上反电动势，总电压需求就超过了母线电压的极限。此时，SVPWM的调制深度已经达到了最大值，我们俗称“**电压打满了**”。
+
+这个时候，物理世界已经无能为力了，电机不可能转得再快了。但我们的PID控制器，特别是那个积分项Total，它不知道啊！它还在傻傻地累加那个巨大的误差，Total值变得越来越大，像一个吹得快要爆炸的气球。
+
+这就是**积分饱和 (Integrator Windup)，**更多详细内容，可以参考文末参考文献\[1\]中的 Chapter 3.2 "Integrator Windup"。
+
+它的危害是什么？
+
+试想一下，当电机的速度终于接近目标速度，误差 e(t) 变小甚至反向时，会发生什么？
+
+比例项 Kp·e(t) 变小了，但那个巨大的积分项 Total 还在那里！它像一个喝醉了的大汉，惯性十足，导致PID的总输出依然死死地顶在饱和的边界上。结果就是，电机速度会毫无悬念地冲过目标值，造成一个巨大的超调。然后系统又需要花很长的时间，用负的误差去“消化”掉那个巨大的正积分，才能把控制拉回来。
+
+这就像你开车时油门已经踩到底（执行器饱和），但你的导航系统（积分器）还在计算“应该踩得更深”，并在屏幕上显示一个不断增长的“建议踩踏深度”数值。当你想减速时，必须先等导航系统把那个虚高的数值降下来（积分消化），才能实际控制车速，这个“认知延迟”导致你冲过了路口。
+
+那么，工程师们是怎么解决这个问题的呢？咱们看看教科书上和代码里是怎么做的。
+
+* * *
+
+**流派一：条件积分 (Conditional Integration) —— “如果帮不上忙，就别添乱”**
+
+这是最直观的一种方法。它的逻辑很简单：
+
+**“当我发现我的输出已经被限幅（饱和）了，而且当前的误差还在让这个饱和更严重，那我就停止积分累加。”**详细内容可以参考文末参考文献\[1\]中的 **Chapter 3.3.2 "Conditional Integration"。**
+
+这个流派的关键在于判断“误差是否在让饱和更严重”。
+
+现在，我们打开文末共享的 **代码A** (pm.c)，看看它是如何用一行代码，优雅地实现这个逻辑的。
+
+```
+// pm_loop_current()
+```
+
+这段代码真是妙不可言，我们来逐句拆解这个 if 判断：
+
+1.  (uD < uMAX || eD < 0.f)：
+    
+
+-   uD < uMAX：如果PID计算的输出**没有**达到正饱和。
+    
+-   eD < 0.f：或者，虽然可能达到了正饱和 (uD >= uMAX)，但误差已经是**负的**了。负误差意味着系统需要减小输出，这正是在帮助系统“退出饱和”。所以，这半句的意思是：“只要没正饱和，或者误差已经在帮我往回拉了，就可以继续积分。”
+    
+
+2.  (uD > -uMAX || eD > 0.f)：同理，这半句的意思是：“只要没负饱和，或者误差已经在帮我往正向拉了，就可以继续积分。”
+    
+
+把它们用 && 连接起来，就实现了完美的**条件积分**：只有在**不饱和**或者**误差有助于脱离饱和**的情况下，才允许积分器i\_integral\_D进行累加。一旦饱和且误差同向，积分就被“冻结”了。
+
+-   **优点**： 逻辑清晰，计算开销极小。
+    
+-   **缺点**： 只是“冻结”积分，如果饱和时间很长，当误差反向时，那个巨大的积分值依然需要时间来“消化”，只是不会再增大了而已。
+    
+
+* * *
+
+**流派二：反馈校正/重置法 (Back-calculation/Resetting) —— “知错能改，善莫大焉”**
+
+这个流派更激进。它认为，一旦饱和，积分器不仅不应该继续累加，还应该**主动地往回减少**，让自己紧紧地“贴”在饱和边界上，时刻准备着退出饱和。详细技术理论可参见文末参考文献\[1\]的**Chapter 3.3.3 "Back-calculation"。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARSUBBNV2mwLlbhQagNp0dsWTRQp94LK0WpToBWSKX1xQ3NBgFxIKpTr93HoTMSyagoibbKpmMghXHZdbqYeCUlJ1RKuwysDe5U/640?wx_fmt=png&from=appmsg)
+
+u'是实际饱和输出，u是PID计算的虚拟输出。
+
+现在，我们来看 **代码B** (MotorVCMain.c)。它采用了一种非常直接，甚至有些“粗暴”的工程实现方式，我称之为“**重置法**”。
+
+```
+// VCCsrControl() -> gItAcrQ24是T轴电流环PI调节器
+```
+
+各位同仁注意看 gItAcrQ24.Total = ((s32)m\_UMT.T << 12) 这一行。它没有去累加或减去什么，而是直接**覆盖**！它把积分器的“历史账本”Total，直接改写成了当前经过限幅后的电压值（当然，这里是乘以了Q格式的缩放系数）。
+
+这意味着什么？
+
+这意味着，只要电压一饱和，积分器就立刻“失忆”了，它的状态被强行拉回到饱和边界。一旦下一拍误差反向，PID的输出会立刻从饱和边界下降，几乎没有任何延迟。这就是**最快**的退出饱和方式。
+
+-   **优点**： 响应极快，超调极小。
+    
+-   **缺点**： 实现相对复杂，需要精确地反算出积分值。代码B中省略的电压矢量压缩算法是这里的精髓。
+    
+
+* * *
+
+**本文小结：**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARu9ib3nwgibRxQdEKN87kyANjKy3HpFbTrhAp6XFGZQIskGxpyia21ypQqK1qG5TcDW9NB2RJGLEI5qIMXyjDsTfS8BTZGQ1vEdc/640?wx_fmt=png&from=appmsg)
+
+* * *
+
+**Simulink演示**
+
+我们的Simulink演示，将清晰地展示这两种策略的天壤之别。
+
+首先，构建可对比观测的模型。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATjibBYB4sDZdI3Vk0cRGCM5ZziaSnjdtL3F6PTU8Tt4Y9ovxPASOH137BuW4Ft0Q9a98OjDTAshkjSuzOia1jibxHQQoIvcNXaWrU/640?wx_fmt=png&from=appmsg)
+
+然后，观测波形：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsARgVDiaTuwYFQL0ZleE6JTjKAdpjC6NxtMG92tRyWtic7Vvp56fL079GY1Uq5j7ibNum0LuBzkPhPQJgnBKfGNJkiadpyjK3QH8B5k/640?wx_fmt=png&from=appmsg)
+
+请重点关注 **0.08秒** 这一时刻（Reference 从 100A 掉下来的瞬间），
+
+无论 代码 A 还是 代码 B，电流即使在 100A 的指令下，也只能跑到 **48A** 左右。这是由物理定律的极限决定的，模型中设置的Ubus = 24V，R = 0.5Ω。欧姆定律告诉我们，Imax = U/R = 24/0.5 = 48A。控制器想要 **100A**，但物理世界只能给 **48A**。**系统进入了深度饱和状态**。
+
+代码A的控制结果(蓝线 Plant\_A)，在 **0.08s** 指令归零后，蓝色线条不仅没有立刻下降，而是保持水平。
+
+代码B的控制结果（红线 Plant\_B），在 **0.08s** 指令归零后，红色线条开始快速减小。因为 代码B 的逻辑是 if (saturation) { Integrator = Limit - P; } 这意味着，在饱和期间，积分器的值被**强行修改**了。它被死死地按在饱和边界上，不允许存任何多余的“私房钱”。因此，只要误差一反向，P项一减小，总和 P+I 立刻就会小于限幅值。系统**瞬间**回到线性区（Linear Region），这就是所谓的 “无扰退出饱和”。
+
+各位同仁情况，上半场（上升段）代码A和代码B两兄弟表现一样，都顶到了物理极限。但到了下半场（下降段）高下立判：
+
+-   **蓝线（代码A）** 像是吃撑了动不了，反应慢半拍，这在高速电机控制里可能导致过冲或震荡。
+    
+-   **红线（代码B）** 就像随时准备起跑的运动员，指令一变，在这里实现了零延迟的响应。
+    
+
+这就是为什么在高性能伺服驱动（如机器人、关节手臂）中，还可以看到工程师更倾向于使用 **反向计算/重置法 (代码 B)** 的原因。
+
+  
+
+参考文献：
+
+\[1\] VISIOLI A. Practical PID Control\[M\]. London: Springer, 2006.
+
+\[2\] YU C C. Autotuning of PID Controllers: A Relay Feedback Approach \[M\]. 2nd ed. London: Springer, 2006.
+
+文献链接：
+
+\[1\] https://pan.baidu.com/s/1h9nutvCGosgBItC40gXClQ?pwd=hwuq 提取码: hwuq
+
+\[2\] https://pan.baidu.com/s/1mfqXkjV3CBe12iD9N5XvIA?pwd=j8da 提取码: j8da
+
+代码链接：
+
+代码A：https://github.com/rombrew/phobia/tree/master/src/phobia
+
+代码B：https://pan.baidu.com/s/13k1lnvCQcDwUiJtkqgpfxQ?pwd=85ug 提取码: 85ug
+
+模型链接：https://pan.baidu.com/s/1\_bWBRRZPvabS1DhOe5gC7g?pwd=kbcn 提取码: kbcn

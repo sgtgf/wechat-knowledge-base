@@ -1,0 +1,187 @@
+# 《PMSM PID控制这件小事》| 17讲：增益调度 (Gain Scheduling) 的工程实现
+
+原创 傅存敬 电磁散人 2026-04-02 07:06 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/nrS6qn\_jMr6SRsz9BnjwwA](https://mp.weixin.qq.com/s/nrS6qn_jMr6SRsz9BnjwwA)
+
+各位同仁，大家好。
+
+[上一篇文章](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247486014&idx=1&sn=c7fc1949f9199885fc5ad7e6d9d32abc&scene=21#wechat_redirect)，我们用 β 参数摆平了“抗扰动”和“柔顺跟踪”这对天敌。那是一招改变底层系统结构的“外科手术”。今天，我们要直面另一个让无数调试工程师抓狂的物理现实：**非线性。**
+
+我打个比方，你去推动一辆静止的、拉满货的熄火卡车。
+
+刚开始推的那一下，你需要用尽全身的洪荒之力去对抗恐怖的**静摩擦力**（电机死区和摩擦），车子纹丝不动；可是当车子真的被你推起来，借着巨大的**惯性**慢慢往前溜（进入高速区），这时候你哪怕只是轻轻用一个手指头稍微扒拉一下方向盘，车子可能就会发生剧烈的摆动。
+
+在电机控制的世界里也是一模一样：
+
+-   **在极低速或者过零点死区时：**非线性静摩擦力极大。如果此时你的 Kp 很小，电机就会像陷入了泥潭一样，指令给了好几十转，电机还停在原地震荡、爬行。
+    
+-   **在高速运行或者弱磁区时：**摩擦力已经变成滑动的了，系统的极大惯量成了主导。如果这时候你还用低速时那个巨大的 Kp，稍微有点扰动，系统立刻就会发生极其狂暴的震荡！
+    
+
+你用同一套 PID 参数（Kp，Ki）怎么可能既推得动泥潭里的静止卡车，又镇得住高速滑行中狂躁的惯性呢？
+
+这也是为什么很多电机控制工程师在调 PID 时会发出这样的感慨：“低速调稳了，高速就发抖；高速调稳了，低速就成了软脚虾。”
+
+为了突破这层物理限制，文末共享的另一本PID经典教材 **_Autotuning of PID Controllers_** 第8章专门讲了一个大招，叫做 **Multiple Models（多模型策略）**。而在工业界，它有一个更响亮的名字，叫作 **Gain Scheduling（增益调度）**。
+
+* * *
+
+**理论核心：什么是增益调度？**
+
+我们先看看书里是怎么定义增益调度的。其实它的思想简单粗暴到了极致：**既然一个模型罩不住，那我就把整个工作区间“切碎”！**
+
+就像汽车的自动变速箱一样：
+
+-   在0~20公里/小时（低转速），我强制让系统处于“1挡”，也就是切入一组专门为对抗高摩擦力定制的大增益 PID 参数（ Kp 极大）；
+    
+-   到了80公里/小时以上（高转速），我强制系统切入最高挡“5挡”，换上一组专门为高速镇流定制的**小增益 PID 参数**。
+    
+-   中间速度怎么切？为了不像学驾照踩离合那样顿挫，书里推荐在这个切换的过程中，参数必须要进行**平滑的线性插值（Linear Interpolation）**。
+    
+
+这就叫作基于“调度变量（Scheduling Variable）”的增益切换。在电机速度环里，这个调度变量，显然就是**当前的实时转速（Speed/Freq）**。
+
+* * *
+
+**源码实证：代码B 中的“三段式”经典换挡**
+
+理论虽然很简单，一旦落到代码里，想要跑在资源抠搜的定点 DSP 里，又要丝滑又不能占用太多算力，这可是极速考验工程底蕴的活儿。
+
+今天的主角依然是我们的定点派王牌—— 代码B。
+
+请大家立刻翻到 PrepareAsrPar(void) 这个函数。这个函数的名字，直译过来就是“准备速度环参数”，它的唯一职责就是**实施增益调度！**
+
+请看这堪称教科书级别的代码段：
+
+```
+m_DetaKP   = gAsr.KPHigh - gAsr.KPLow; // 算出高低挡位的参数差极差
+```
+
+大家看到这段代码，是不是有一种头皮发麻的极度舒适感？
+
+这就是工业界极其经典的**“三段式状态机”**增益调度！
+
+1.  **设定锚点：**预设两个极其重要的转速门槛值 SwitchLow（通过用户在上位机上手动设定， 如10Hz）和 SwitchHigh（通过用户在上位机上手动设定， 如300Hz）。这两个值决定了“什么时候挂挡”。
+    
+2.  **切挡执行**：如果当前转速低于 SwitchLow，直接死死咬住纯低速的大增益，绝不松口，靠蛮力拔出泥潭。
+    
+3.  **丝滑插值（最精彩的部分）**：看到那个 else 里面的定点算法了吗？没有用任何浮点小数，没有用任何除法算出的斜率 k。 为了防止除不尽或者浮点运算拖垮系统，它巧妙地用了全整数乘法： (极差 \* 溢出量进度) / 总区间尺度。这就完美地构造出了一根从低速逐步平滑斜溜到高速的**过渡增益线（Ramp）**。参数切得天衣无缝，电机连顿挫的“咔哒”声都不会出！
+    
+
+* * *
+
+**降维思考：为什么不用多模型模糊逻辑？**
+
+有些在学校里研究过前沿算法的同仁可能会问了：除了纯线性插值，遇到极其恶劣的非线性（比如极低速的大死区和严重迟滞），不是可以用 **_Autotuning of PID Controllers_** 这本书里讲到的 **模糊逻辑（Fuzzy Model Scheduling）**，开10个挡位去拟合吗？”
+
+确实如此。如果有强大的算力（像 代码A 那样装配了 FPU 卡尔曼滤波全家桶），你甚至可以引入一个神经网络来实时输出 Kp。但我们在看 代码B 的时候，必须保持极度的清醒——它是个伺服驱动器。**伺服驱动器永远要权衡两件事：调优的难度，和执行的效率。**
+
+如果把这套参数做成模糊逻辑或者查表法（Lookup Table）暴露给终端客户去调，客户得调 10 组 Kp/Ki 和 10 个拐点速度——那样的话现场工程师直接提桶跑路了。
+
+代码B 只留出了最最基础的 4 个用户参数给外界：
+
+-   **低速刚性（**KPLow, KILow**）**
+    
+-   **高速抗震（**KPHigh, KIHigh**）**
+    
+-   **低/高速拐点转速值（**SwitchLow, SwitchHigh**）**
+    
+
+就是这如此“克制”的 3 段式切挡法则，用全定点的极低成本数学运算，挡住了 95% 以上工厂流水线上的常规非线性麻烦。
+
+* * *
+
+**Simulink演示**
+
+空口无凭，还是得上Simulink。模型的画布中主要由以下4部分组成：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsAQgAaX9z3aMaaKg2Ov6KPfplNZGG6mNNBozGzibWk4A62siaHfJp9hribOv7yZ8ib5uiaPAAXSv5vib0Wt3tUqib0TVPqpy81YxF3sTQA/640?wx_fmt=png&from=appmsg)
+
+1\. 被控对象模型：带“非线性物理特性的电机及负载”，引入一个 Friction\_Stiction（粘性摩擦）模块。特别是在转速过零点或极低速区域，设置一个较大的静摩擦转矩（Stiction）和死区。为了让仿真跑得快、波形清晰，没有搭建完整的包含了PWM和逆变死区的逆变器+FOC底层模型，而是用一个一阶惯性环节（代表闭环后的电流环）加上机械运动方程来聚焦于速度环
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vvmIAIMZsATxfgXqtFgcLLOnL0HQfacZ7icrWrjPrVROJC4icyvWodQXj4Ku6vicuJUj45ELW7LFLMSUy4m8mblv5D5Gs47wJoYzLAAGibxc8Sg/640?wx_fmt=png&from=appmsg)
+
+2.  三组对比控制器，如画布中的青色模块：
+    
+
+-   **Controller A（死咬低速参数）：**固定使用极大的 Kp 和 Ki。
+    
+-   **Controller B（死咬高速参数）：**固定使用较小的 Kp 和 Ki。
+    
+-   **Controller C（智能自适应）：**使用我们上一个模块计算出来的实时变参数 Kp 和 Ki,  驱动的增益调度PI控制器。
+    
+
+3.  指令模块与示波器模块
+    
+
+我们来看下具体的仿真结果，首先来看速度跟随大比拼的结果，也就是 Scope\_1\_Speed\_Compare 示波器理的显示：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQfAGeszTrzrtaIYJb9HbYdPnKxmnz1FnTA8QTZOfjAFoibIG14ICTnSN60gHD8JFO7FBp4KquWqxdn0uFNkundNCqUvSmuSGL0/640?wx_fmt=png&from=appmsg)
+
+我们放大一下看：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsASZH8ovrejrMQOl57MQ1djcWQ59Uq57ToJQqbiaFqGvI0VWicPwmZQTLIFV5ia2RzEkO0ib4Mic3rmh5iaIT7I4zEp1NQB6uTOeAVT3c/640?wx_fmt=png&from=appmsg)
+
+1.  **红线（Motor\_B，固定高速小参数）**：这就是“低速软脚虾”！给定10rpm的指令，红线无法消除自己的稳态误差，因为我们设定的静摩擦力是 1.5Nm。Motor\_B 用的 Kp = 1.0 太小了，计算出的力矩根本冲不破这个“恐怖的死区死区”，电机陷入泥潭。
+    
+2.  **蓝线（Motor\_A，固定低速大参数）**和**绿线（Motor\_C，咱们的 代码B 增益调度）**：0s 起步时，二者一样孔武有力（冲出泥潭），快速地锁定了黄色指令线。
+    
+
+我们来看下示波器 Scope\_2\_Kp\_Schedule\_Q12 的结果，这是用来展现 代码B 插值艺术的定点极差曲线的：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsARdB0StHrCQjYqNVTlImUmvLPSqodl3UKAiczQfA9GiaLeqCsktPvGJUnhPwia7cG7Lz7ByLqk8CQk5iaA65ia6dIWY31bK09YicaIug/640?wx_fmt=png&from=appmsg)
+
+在起步的 0~2.5s 期间：Kp 稳定在 40960。因为转速还没到 500rpm（预设的 SwitchLow 锚点）。各位同仁请注意，真实的 Kp 是 10.0，但在 Q12 格式下，左移12位（乘 4096），数值是 10×4096 = 40960。**高能时刻**在 2.5~4.2s ，此时电机正在全力加速（对应上图的爬坡段）。由于咱们的速度已经跨越了 500rpm 且正在向 2000rpm 逼近，那段全定点整型代码 (极差 \* 溢出量进度) / 总区间尺度 被触发！在这个区间，我们看到了一条**极其漂亮、毫无台阶的线性下降斜坡**。4.2s 以后，转速满 2000rpm，Kp 稳稳降落并锁死在 4096（对应真实的 Kp =1.0）。
+
+我们最后看一下不同PI算法输出的转矩指令值，也就是 Scope\_3\_Torque\_Cmd 示波器的显示：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/vvmIAIMZsAQc4cnEtPYf6OcxemibYU2XK23GC6ibqIjjyIJlS4SdKKJPfniaictU7VOVicFPlWCdk9GGFfy5CrDQKSM7L1Ol0bO05iaj91bIL5giaU/640?wx_fmt=png&from=appmsg)
+
+这张图揭示了控制器的“内心戏（控制努力程度）：在第 2s 加速指令到来时，三个控制器的输出扭矩瞬间都顶到了我们设置的限幅天花板（50Nm），电机在以最大能力加速。**分水岭出现在 4.3s （到达目标速度的瞬间）**，蓝色和黄色的交织线中，黄线（Motor\_A大参数组）在退出饱和区时，像高台跳水一样砸到底部，然后发生了剧烈反弹！而代表增益调度的红线，它的退饱和曲线极其圆滑，那是因为此时它的 Kp 大脑已经悄无声息地降到了 1.0，以一种极其温和的姿态将庞大的惯性接管住了。
+
+* * *
+
+**本文小结**
+
+各位同仁，我们今天见识到了解决复杂非线性系统的一个至高法则。
+
+当你发现用“一个世界观（一套参数）”解释不了整个物理宇宙（低速和高速情况同时存在）的时候，不要硬刚，更不要奢求去造一个完美的数学模型。
+
+**承认世界的不同，把转速拆成几个阶段，用分段去化解非线性！** ——这就是工业伺服里 **多重增益调度（Gain Scheduling）** 的哲学。
+
+当我们掌握了[二自由度（2-DOF，对准阶跃）](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247486014&idx=1&sn=c7fc1949f9199885fc5ad7e6d9d32abc&scene=21#wechat_redirect)、[解耦（对准高速交叉）](https://mp.weixin.qq.com/s?__biz=MzE5MTYzNjgzOA==&mid=2247485952&idx=1&sn=50f5ef3e2c2583bec711f43ce01c6e5e&scene=21#wechat_redirect)、以及增益调度（对准全段非线性）之后，我们的电机控制环路其实已经足够完美了。
+
+但回到最根本的命题：我们要如何才能**自动获取**这辆车在某个速度挡位下，到底能扛多大的电流、惯量又是多少的重要信息呢？
+
+换句话说，刚才在这个 代码B 里，填在 gVCPar.ASRKpHigh 里的那些值，依然是人手填进去的！
+
+如何让电机“自己告诉我们”它要什么参数？
+
+各位同仁！从下一篇文章开始，我们将迎来本系列讲座最硬核的巅峰对决—— **智能化与自整定** ！
+
+首先登场的，就是所有自适应控制算法的皇冠明珠——继电器反馈 (Relay Feedback) 原理 —— 频域辨识的金钥匙。 我们要揭开Autotuning of PID Controllers 最核心的密码：让黑盒电机“颤抖”出它的灵魂参数！
+
+请各位拭目以待，咱们下篇文章的高能物理推导见！
+
+  
+
+参考文献：
+
+\[1\] VISIOLI A. Practical PID Control\[M\]. London: Springer, 2006.
+
+\[2\] YU C C. Autotuning of PID Controllers: A Relay Feedback Approach \[M\]. 2nd ed. London: Springer, 2006.
+
+文献链接：
+
+\[1\] https://pan.baidu.com/s/1h9nutvCGosgBItC40gXClQ?pwd=hwuq 提取码: hwuq
+
+\[2\] https://pan.baidu.com/s/1mfqXkjV3CBe12iD9N5XvIA?pwd=j8da 提取码: j8da
+
+代码链接：
+
+代码A：https://github.com/rombrew/phobia/tree/master/src/phobia
+
+代码B：https://pan.baidu.com/s/13k1lnvCQcDwUiJtkqgpfxQ?pwd=85ug 提取码: 85ug
+
+模型链接：https://pan.baidu.com/s/156s8PJEkLM74LKiixVsg0g?pwd=v3eu 提取码: v3eu

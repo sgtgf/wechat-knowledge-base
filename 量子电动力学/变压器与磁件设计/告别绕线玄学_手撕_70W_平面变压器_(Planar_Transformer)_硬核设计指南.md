@@ -1,0 +1,146 @@
+# 告别绕线玄学！手撕 70W 平面变压器 (Planar Transformer) 硬核设计指南
+
+原创 Frank 量子电动力学 2026-02-25 17:05
+
+> 原文地址: [https://mp.weixin.qq.com/s/BCQFy\_EriztB2\_8aqauw2w](https://mp.weixin.qq.com/s/BCQFy_EriztB2_8aqauw2w)
+
+在电力电子的进阶之路上，传统绕线变压器往往是工程师挥之不去的梦魇：漏感公差大、高频趋肤效应严重、全自动绕线机良率低 。为了突破高频大功率密度的瓶颈，**平面变压器 (PCB 变压器)** 应运而生。它将绕组镶嵌进扁平的磁芯中（或直接埋入 PCB），让匝间电容极小，漏感甚至可低至 2–4nH 。
+
+  
+
+今天，我们不谈空洞的理论，直接拿一个 **输入 90–240 Vac、输出 20 V/3.5 A (70 W) 的 QR-BCM 准谐振反激** 案例开刀 。结合一线研发的“血泪经验”，彻底打通从磁芯计算到量产工艺的全链路。
+
+  
+
+* * *
+
+### 🔍 第一阶段：确立物理边界与核心公式
+
+设计电源的第一步，永远是画出不可逾越的物理红线。
+
+**系统初始规格**：
+
+-     
+    
+    **输入输出**：90–240 Vac（整流后 V\_{dc} 为 85–340 V），输出 20 V / 3.5 A (70 W) 。
+    
+      
+    
+      
+    
+-     
+    
+    **预估效率**：92 %，推导出输入功率 P\_{in} = 76 W 。
+    
+      
+    
+      
+    
+-     
+    
+    **工作频率**：最小开关频率 f\_{sw,min} 为 65 kHz (QR-BCM 模式) 。
+    
+      
+    
+      
+    
+-     
+    
+    **磁芯选型**：EEL22 平面磁芯，有效截面积 A\_e = 41 mm^2，窗口面积 A\_w = 38.8 mm^2 。
+    
+
+#### 1\. 守住生命线：最大占空比 (D\_max) 与反射电压
+
+为了避免次谐波振荡等不稳定工况，我们设定占空比上限 D\_{on} < 0.5（实际设计取 0.49） 。 基于此，计算原边承受的反射电压 V\_or：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/r4Lxc81mibcHZepb9DTEia5RfCu0zCpt5FHQbT8UOhDW3ZibwOuZDspGxxXuGeLe9nly8aGWqtqCDJ7hBXpvQ0CqhgHZD759ibKic0FNJP3mgsrs/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/r4Lxc81mibcHWZ3MeJjBlUdxQzjwHlChkebvUrQkW81u0JPbm7YE5XQwxBYzDLHnuTEB5vibeEVxh4iatuj8Pu03zFeB23rEfeRbAQJghJv6Tw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/r4Lxc81mibcF3icXxwBOiclznt5DLoRCHSu6Cz79WibIZBYSNBlQEiczF0jH4GPia7IeibSyctkEhLSppIUiceSWbdpMVY6k5aEvFFO9GPWjFjCJx3E/640?wx_fmt=png&from=appmsg)
+
+这就要求磁芯中柱需进行 0.30 mm 的双侧研磨（实测 0.28–0.32 mm）来形成气隙 。
+
+  
+
+* * *
+
+### 🧮 第二阶段：工程师必须跨越的“认知陷阱”
+
+计算公式只是敲门砖，真正的挑战在 PCB Layout 和生产工艺里。
+
+Plaintext
+
+  \[ Top PCB Layer \]      === Primary Winding (P1) ===  <- High dV/dt  
+  \[ Inner Layer 1 \]      --- Shielding Copper Foil --  <- Grounded  
+  \[ Inner Layer 2 \]      === Secondary Winding (S) ==  <- High Current  
+  \[ Inner Layer 3 \]      === Secondary Winding (S) ==  
+  \[ Inner Layer 4 \]      --- Shielding Copper Foil --  
+  \[ Bottom Layer  \]      === Primary Winding (P2) ===
+
+-     
+    
+    **漏感 vs 分布电容的“死结”**：为了降低漏感，大家常使用“三明治绕法”（P-S-P 交错） 。但这会导致极大的层间分布电容，恶化共模 EMI。**妥协方案**：初级分段（如 P/2 - S - P/2）而非全夹，并在中间加入接地的屏蔽铜箔引流共模电流 。
+    
+      
+    
+      
+    
+-     
+    
+    **热网络建模不是噱头**：传统的“预估温升 = 热阻 × 损耗”在平面变压器极高的热流密度下误差极大 。必须引入 6 节点热网络，把磁芯、绕组、绝缘、外壳、散热器、环境各算一个节点进行耦合求解 。
+    
+      
+    
+      
+    
+-     
+    
+    **生产工艺的雷区**：变压器浸漆后，电感量下降 8% 是正常现象 。这是因为高磁导率铁氧体遇漆膨胀或烘烤产生了应力退磁 。但如果下降超过 10%，说明磁芯有应力微裂，必须改用真空浸渍或应力释放胶 。
+    
+      
+    
+      
+    
+
+* * *
+
+### 📦 附：高频变压器设计的 5 大保命哲学
+
+在这个“算不准是常态”的领域，请牢记以下一线老鸟的生存法则：
+
+1.    
+    
+    **电感决定能量，匝比决定电压，绕法决定 EMI。**
+    
+      
+    
+      
+    
+2.    
+    
+    **磁芯是骨架，绕组是灵魂，气隙是命门。**
+    
+      
+    
+      
+    
+3.    
+    
+    **算不准就测，测不了就留余量。**（例如：打样后给 10V/5匝的脉冲，逐渐加宽，次级电压塌陷点就是实际的饱和脉宽，以此反推 B\_{max}，这是最保命的技能） 。
+    
+      
+    
+      
+    
+4.    
+    
+    **客户要效率你压铜损，客户要温升你压铁损，客户要体积你上纳米晶。**
+    
+      
+    
+      
+    
+5.    
+    
+    **打样靠技术，量产靠工艺**

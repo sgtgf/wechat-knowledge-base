@@ -1,0 +1,458 @@
+# 基于共高频母线 MMC-SST 互联通道分布参数研究的同步变压器优化设计
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/yrTpCbKmSAK33Bxmd0OE-g](https://mp.weixin.qq.com/s/yrTpCbKmSAK33Bxmd0OE-g)
+
+文章来源：中国电机工程学报
+
+作者：潘禹卓，曲盈睿，赵巍，齐磊，尹丽稳，魏津，孙孝峰\*(电力电子节能与传动控制河北省重点实验室(燕山大学电气工程学院)，河北省秦皇岛市 066004)  
+
+摘要：基于共高频母线模块化多电平固态变压器拓扑结构，构建其互联通道的分布参数等效模型与解析模型；分析漏感、绕组电阻和开关器件等效电阻等分布参数对系统直流电压与功率传递的影响；在确保系统性能稳定可靠的前提下，进一步探讨分布参数应满足的合理范围，并以变压器功率密度、效率为目标，以有功传输比和温升为约束对互联通道的高频变压器进行寻优设计以满足互联通道的性能需求；建立变压器和翅片等效热路模型，以质量轻、散热量大为优化目标对变压器进行散热设计；最后，根据优化结果制作一台50kW/5kHz 的变压器样机，实验结果验证该文变压器设计的有效性。  
+
+关键词：高频互联通道；分布参数；热路模型；变压器优化设计  
+
+0. 引言  
+
+随着可再生资源和分布式电源的不断发展，分布式发电、储能等分布式能源接入配电网的容量不断增加，电网负荷的复杂性与多样性也不断提高，为了实现可再生能源、电网与储能间的灵活互动，固态变压器技术应运而生，成为当前研究的热点。基于模块化多电平变换器(modular multilevel  converter ，MMC) 的固态变压器(solid state  transformer，SST)具备中压直流端口且具有高度模块化和良好冗余性等优点，在高铁牵引系统、智能电网、混合交直流配电网中得到长足的发展。  
+
+文献\[5\]提出一种隔离级外联式MMC-SST 拓扑，DC/DC 变换器模块数量和功率等级均可独立于MMC 级进行设计，可以显著减少高频变压器的数量，用于智能配电网中实现中压交流与低压直流端口之间的电能传递；文献\[6\]提出一种隔离级内联式MMC-SST 拓扑，每个子模块后接双有源桥变换器(dual active bridge，DAB)实现DC/DC 变换，DAB的输出侧并联形成低压直流母线，可实现分布式能源以及负荷与配电网的柔性互联。由于传统MMCSST方案中通常采用大容量电容、环流注入或增加额外的电路设计来吸收子模块固有的低频脉动功率，限制了系统的功率密度。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP65NvY42pEKaot2ZHMnVCyR3wpNBSpEDTE1NEo4SbbFZ0Mgxiblt5nM0UaMxZ8SY7iaiaNiaYOsCHsaV1kcyAiaCY3h5pIlxaDdicIg/640?wx_fmt=png&from=appmsg)
+
+本文研究如图1 所示的共高频母线MMC-SST拓扑结构，拓扑前级采用子模块(sub module，SM)为半桥结构的MMC电路，SM 级联形成中压交流(medium voltage AC ，MVAC)母线与中压直流(medium voltage DC，MVDC)母线，用于实现中压交流与中压直流端口的变换。全桥结构以及同步变压器构成高频链路，高频链路互联所有SM 并在同步变压器输出端形成一条公共高频交流(high  frequency AC，HFAC)母线，同步全桥模块并联接入共高频母线进而引入低压直流(low voltage DC，LVDC)端口，同步全桥模块的数量可依据低压侧传输功率等级灵活调整，实现交直流配电网之间的输配电，高频链路及同步全桥结构构成隔离级互联通道。互联通道的寄生参数影响该变换器的有功传输能力以及低频脉动消除效果，因此，有必要对其分布参数模型进行建模并分析其对变换器性能的影响。
+
+在SST 中，高频变压器是实现电气隔离和功率传输的核心磁性元件，其性能和各项分布参数直接决定了电路的整体工作特性。为了更精确地识别高频变压器的寄生参数，文献\[11\]提出了一种针对DAB 变压器的寄生参数识别方法，该方法主要关注于绕组电阻、漏感及分布电容等关键参数，并分析了这些寄生参数对电路特性的具体影响。其中，寄生电感会直接影响功率的传递效率，寄生电容可能导致变压器电压产生高频振荡现象，而寄生电阻则会影响变压器原副边电流的相位关系。因此，提取变压器的分布参数模型并进行变压器的优化设计，对于深入分析系统的可靠运行具有至关重要的意义。  
+
+在变压器的优化设计中，大容量高频变压器高效率、高功率密度、良好绝缘和散热等指标之间存在相互制约和耦合的关系，因此，越来越多的研究倾向于采用多目标优化算法来解决设计问题。文献\[14\]提出了一种利兹线绕组的高频变压器设计方法，基于建立的损耗及热阻模型将变压器的设计问题简化为一个解决五变量非线性优化的问题；文献\[15\]以体积和损耗为设计目标，提出了一种基于多目标遗传算法的中频铁基非晶变压器优化设计方法；文献\[16\]基于蛮力算法优化设计了一台适用于串联谐振变换器的100kW/10kHz 的高频变压器样机；文献\[17\]提出了一种基于多目标非支配排序遗传算法II，使中频变压器的功率容量、效率和功率密度最大化，同时符合材料、绝缘、漏感和温度限制，并制作了一台适用于DAB 变换器的200kW/ 10kHz 的变压器样机；文献\[18\]采用一种全面优化程序对变压器进行最大功率密度和最大效率的优化。文献\[12-18\]的优化方案在进行变压器寻优设计时，未充分考虑寄生参数间复杂的相互作用及其对电路工作特性的显著影响。为了设计出使电路性能更为卓越的变压器，须将这些关键因素纳入考量，并据此进行深入的迭代寻优，以确保最终得到的变压器设计能够充分满足电路性能的优化需求。  
+
+本文建立共高频交流母线MMC-SST 中互联通道的分布参数模型，分析分布参数对变换器有功传输能力以及脉动消除效果的影响，进一步建立分布参数的解析模型。基于上述模型，本文设计变压器寻优策略指导大功率变压器的优化设计，在满足绝缘与温升等安全性能需求的基础上，所设计的寻优变压器可有效增强变换器的有功传输性能，降低了变压器研制过程中的试错成本。  
+
+本文介绍不同绝缘结构变压器的分布参数和互联通道的等效模型，分析考虑分布参数影响的MMC-SST 调控策略和等效模型以及功率传输特性，分析互联通道分布参数的解析模型，优化设计变压器及其散热器，研制同步变压器样机并搭建互联通道平台进行实验测试。
+
+1. 互联通道工作原理及分布参数模型  
+
+1.1 高频变压器绝缘结构设计  
+
+浇筑式绝缘结构的大功率高频变压器截面示意图如图2 所示，图中：dce为原副边绕组与上下磁轭之间的绝缘距离；dn为绕组匝间绝缘距离；dca为内侧副边绕组与磁芯之间的绝缘距离；diso为原副边绕组之间的绝缘距离。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNLP9d37jjwTLmbdbk0ACbcVF4e1iaIgm3E5RHicMmQgvG00HlGFQA3ny2A13ZVbq9xNiaOtB3j4uasKiaHDNFDFooPn3CWvDVXepg/640?wx_fmt=png&from=appmsg)
+
+满足变压器所需绝缘水平的绝缘距离计算表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM3Ef9YOhYnoRHHphOCCbNUPdCoTAVfNDpxsQnF2843FLpP7HUWBRN89D3qlpSelPmI5kF8FAROopwOua1fRGwPn5hkFZzdM10/640?wx_fmt=png&from=appmsg)
+
+式中：dresin 为绝缘距离；Vst 为绝缘电压等级；Ksaf为安全系数；Eins\_resin为绝缘材料的介电强度。  
+
+带风道双层骨架绝缘结构的变压器如图3 所示，内层绕组与磁芯之间以及两层绝缘骨架之间均留有一定的散热气道。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNG6ibErT0aiaQ0SXubSgsMtia8MFibmaBznoHCHkvickKLD8ibTDMMSic8DrxB4I0o5IMrnhdSUqRlxR0wib6IKxuBviaVF8CnKPIp6OP8/640?wx_fmt=png&from=appmsg)
+
+对于由空气和固体绝缘材料构成的混合绝缘方式，其各自的绝缘距离可采用式(2)进行计算：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMwguXw4q2q8Y3sFyx4AFsfDEl6S7TAvk75b78B4KRGUrXeqdsquPdOvqibiaGzH1a3cZT1lB3bBNno9wDxFAxDjtoGPvjibVTBXs/640?wx_fmt=png&from=appmsg)
+
+式中：dair、dresin分别为所需空气和固体绝缘材料的绝缘距离；Eins\_air、Eins\_resin 为空气和绝缘材料的电场强度。  
+
+在原副边绕组之间施加7.5kV 电压激励，变压器电场仿真结果如图4 所示。仿真结果表明，在工作电压下，矩形、椭圆形以及圆形骨架变压器的电场强度均低于空气和绝缘材料的击穿电场强度，不会出现明显的局部放电现象。椭圆和圆形骨架变压器的电场强度低于矩形骨架变压器。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMPdnsCr7g176UsX2ptDeyehcL9f2RT54OtevxLWwYFrXyyRcw54ELLAbJTSbx8pmAwCvjiaic78X1rO4syBLHHfFRLomyD7CRhQ/640?wx_fmt=png&from=appmsg)
+
+图5 为两种骨架、4 种磁芯的8 种变压器结构俯视图，十字形、矩形、方形和山字形磁芯的横截面积相同。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPjCibAtyRwgXWSicP57L1ic3h1WebMiaBacSgIibqFBiadUqgxF6TqPictCMFkV1AaCgLaia9OBIMbHss3o4ET77QGVwQXp8cRQjibx0LI/640?wx_fmt=png&from=appmsg)
+
+表1 对比了图5 所示8 种变压器结构的励磁电感Lm、耦合系数k、漏感Le 以及变压器绕组交流电阻Re 的参数性能，相同截面积磁芯，矩形骨架的变压器漏感略大。圆形管筒结构体积大使其绕组长度更长，因此，圆形管筒变压器的等效电阻比矩形管筒变压器更大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMjibBEAXzlWLIibAdqVtK6MVjQVicod3JpFOtyIF72DfRX4TiapaQBic1hDdQevibnbRuB9p1XsDQLMSzXswP85qMKIKib1Ul3f1pRto/640?wx_fmt=png&from=appmsg)
+
+1.2 互联通道工作原理及等效模型
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOibYslwMxjkjq0sgQKEVh56eibaro5VPjeeSWtjibiaJdlvLXpAysbwhlFtG41HWp3R4TEfdCa5nrkCf48X8tT1CwDRSGVdp6m44c/640?wx_fmt=png&from=appmsg)
+
+隔离级高频互联电路采取同步控制策略，如图6 所示，变压器原边侧全桥与副边侧全桥相同位置的开关管采用相同时序占空比为50%的触发脉冲，每一个全桥模块对角开关管采用同步触发脉冲，上下开关管采用互补触发脉冲。在该控制方案下，互联电路的电流流通路径如图7 所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMoDEgIyeibTGiaabaeiaCWWXX7qb2kpmAumA0vgpqK0ZKbZiaf7QicbKOFTPNQQMQ55T8BWxkV1XTFP2ggq3sU8XFiaicibibdiatBqALpU/640?wx_fmt=png&from=appmsg)
+
+根据1.1 节分析，隔离级电路中存在变压器电阻、漏感和开关等效电阻等分布参数。考虑分布参数的隔离级同步全桥电路模型如图8 所示，图中：uigbt、udiode 分别为IGBT 和反并联二极管的通态压降；Le、Re 分别为变压器的漏感和等效电阻；Rigbt为开关器件的等效电阻；Rm为同步全桥电路的交直流母排的等效电阻；iT\_in、iT\_o 分别为变压器的输入和输出电流；io、R 分别为负载电流和负载电阻。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPeagZGdIOgsibo41bQEWvNiaHs3WzOjwbJI43o3uxLrgwwqrpah65qfbj9ebywptNOjlsAVYhPU6NvYx2q7fT2kJJPzBvXsnJSM/640?wx_fmt=png&from=appmsg)
+
+2. 考虑分布参数影响的拓扑特性分析  
+
+2.1 MMC-SST 调制控制及等效模型分析  
+
+本文拓扑输入MMC 整流级控制策略采用电感电流内环控制实现单位功率因数，中压直流母线电压外环控制实现SM 电容电压稳定，调制策略为载波移相调制。为进一步分析低压直流侧的动态响应，建立等效的低压直流控制环路如图9 所示，图中：G3(s)为图8 同步全桥电路的传递函数；Wci(s)为电流内环的传递函数。隔离级互联通道在同步控制策略下，子模块电容电压和低压直流母线电压相互钳位从而实现低压直流母线电压控制。在实际场景下，互联通道的电压钳位作用受图8 所示寄生参数的影响。因此，本节基于互联通道与控制环路的传递函数对分布参数影响下的低压直流母线输出电压特性进行分析。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN3iatyIsZicyfk5Escpx4AQsmems7XxOZgFvc4c1aIu2KC2dl6icExads7V3zsM9x7vEqB1ycNjkupgyWYflCT2ib8PMetH79BeCs/640?wx_fmt=png&from=appmsg)
+
+此外，图 9 中：Gu(s)为比例积 分调节器的传递函数；Gs(s)为电压采样延迟；G2(s)为电压环的受控对象；Kdc 为转换系数，可分别表 示为式(3)。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN79wDGo1yyicpNDHtQokPXouR7Jic09ZJHqy1eGriaWvfvWqShlmcUKsCVS27sZRwXKXaQsZb6b1MjUMzlvbwzlwlPGYEvoFaHS8/640?wx_fmt=png&from=appmsg)
+
+对图 8 所示的互联通道同步全桥电路应用基尔 霍夫定律，得到：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMkfr53ftnC5uZpsLutYLTx2b7O8aGyFdV9BdyGmz8tksRiaPxJQiaXbHerwgepAngyMEdhyawOaChmdTCTtc2Zs1AdsIyxJefx4/640?wx_fmt=png&from=appmsg)
+
+定义输出信号为低压直流侧电压，输入信号为 计及开关管压降的子模块电压，则互联通道电压增 益的的传递函数为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPpb4M4KKmTT1NSZ7ZgicgJRrNM0tzhp2k9xHKLDIzB4B26drxwMO0BPVmfYUdfubdtwiaXLpmkq7KeRdDIOaaK0A4V4ic6Y4EvBI/640?wx_fmt=png&from=appmsg)
+
+其中，互联通道的总等效电阻 Rz：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOKOJDuaoD4gDjVib1hyXBJDJ2gM7Vsn2pu1ycDZpeKbqVSteDOJwZ9cJqg4iaEMxicAB2NKJ9btFicAZR3nhJgs7zEugOIvABofqg/640?wx_fmt=png&from=appmsg)
+
+由文献\[10\]可知，低压直流侧电压的响应速度 受 SM 电压与分布参数的影响，为使其具备较好的 动态响应能力，需对 SM 电压控制的调节器进行设 计。按照典型的 I 型系统设计电流调节器，校正后 电流内环的开环传递函数如式(7)所示，取系统阻尼比ξ\=0.707，电流环的闭环系统 Wci可简化成式(8)。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPfIRk5TvLuKDs5R7pdd9gTEq745xtbvicsgmXTY4sErKnxs7yxJjSMpoBSBtCccWzAzeSjVs0zZG3GURR5EEMg6AE9hfyyxEibw/640?wx_fmt=png&from=appmsg)
+
+由图 9 和式(8)得到电压外环的开环传递函数为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM6WRicPBAnZIPosGwiaDI1Me0c8ZP2t4DW9icoFiblevGGO41riaZlGvzZrJ2yGiam4qAnzHibX8XIMpdpVDFXIXPaCQwqmfMso38dbM/640?wx_fmt=png&from=appmsg)
+
+将电压采样小惯性时间常数、电流内环等效小 时间常数及电压增益的小时间常数合并，即：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMNdqLm1ZxzqYiafVEw69QbBp7iapicIafP0aPYGkTJdO5iaetErd234lvusGt7cZ2tlk4iaQc9Ifx5ryKMulpK3v6KcFdoBEfuyTNc/640?wx_fmt=png&from=appmsg)
+
+按照典型 II 型系统设计电压调节器，电压开环传递函数如式(11)所示，取中频带宽 hv\=5，计算得 电压环 PI 调节器参数如式(12)所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP3bTErqSNT6bA9p1ORasrjG57lliaVU5Hfs5Rw9lnoM0qCf8LDiamWWABRs8EEtwrus8nmWEd8ibRkRk6NR3hmPBlRdZsAwaMp6c/640?wx_fmt=png&from=appmsg)
+
+由式(11)、(12)计算得到系统的开环波德图如图10所示，相位裕度为41.1º，截止频率为212rad/s，验证了设计的合理性。通过直流电压的环路设计，可有效提升 SM 电压的动态响应能力，基于互联通 道的电压钳位作用，低压直流电压的动态响应能力也相应提升。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMWoibmTbDFzboQ2OTfeTzQviaAYibQ9wwLokeWReqhVg2z9ibibqy3nxU7Anc7ssicnWpfAgHDOxcnZdO7q3kz0AGasUo3JPRLM7FQU/640?wx_fmt=png&from=appmsg)
+
+2.2 互联通道的功率传递特性  
+
+同步全桥电路的典型波形如图6(b)所示，由于采用同步控制，变压器原边绕组电压和副边绕组电压同相位。在实际运行过程中，由于互联通道分布参数的存在，变压器存在输入电压激励为正，输入电流为负的阶段，该阶段会产生回流功率，即变压器正向传输功率为负，功率回流到输入侧。若回流功率过大则会影响MMC 级向DC/DC 变换器传输有功功率的能力。  
+
+以半个开关周期为例分析变压器的传输功率，忽略开关管自身压降，当开关S1/S4导通，开关S2/S3关断时，同步全桥电路模型满足基尔霍夫定律：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMiazH2Wf9S56n9dkchTuzL1WyJkgEwxww7paLTIvkxMpHox7ECJiamh98bjHB18iayC90tETpetJwXahibQGmiavdianHMT9feiazicNE/640?wx_fmt=png&from=appmsg)
+
+同步全桥电路的初始条件即变压器电流达到稳态：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMuFdS1mvSb894tDaFJK4dvP6iaP7CMefsOuYcN1wr4a6u5tQf6qDzNyt0Vj6IiajmPTV7C7yxibR6AlD7VIjLJuKKrjRLAwpMyds/640?wx_fmt=png&from=appmsg)
+
+结合式(14)，求解式(13)的二阶微分方程，得到变压器电流的时域表达式为
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMYx8MqYVaQSf4Ev4fbfYXXSImnFaWHwA5Otv4x4AxbUqx2wGzNr2Ybia04iaAmYxEqqeJSfk7VrPqiaBlWicLXkrdwW5ybXbuNr5w/640?wx_fmt=png&from=appmsg)
+
+根据式(15)，同步变压器电流在半开关周期内存在暂态阶段和稳态阶段。暂态过程呈指数形式衰减，衰减时间τ为Le/Rz，稳态阶段变压器漏感接近饱和，只有电路中的电阻消耗能量。  
+
+半开关周期内的平均回流功率为
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMge2lmB8Q6edFf4CnVtdWJicPXGQ7RrTenbO311Ha7wkxE4TgdffQxmia747iaptv8Du7EiboT6zGfFYwaDqt1S2tPge66Wy36M7g/640?wx_fmt=png&from=appmsg)
+
+当Le/Rz 较大时，会增加回流时间，降低稳态时间，进而增加回流功率。为了满足同步全桥电路负载输出侧功率稳定，变压器需要传输更多的功率以抵消掉回流功率带来的不利影响，这会导致变压器电流增加，从而增加了磁性元件的功率损耗，降低了变换器的传输效率。  
+
+由式(15)可知，同步全桥电路在半个周期内实际传输的功率为
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPYhWVA1nToKzT9APsecHPWgibgf1Tw6yoerEyNaTrnr4J8YUuF6IV6qwTUEZDY6OwasVjdc5fAwox04UISe6ib7lzBofM7SHkibo/640?wx_fmt=png&from=appmsg)
+
+如果忽略变压器漏感，则半周期内变压器传输的理想功率为
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpONq3SugBAaUiaRMtyjFdPkziaicDK7oNWWSQliaUanI5MzfzFjdVlbicj4498hniaibBKWOr7DPEEhaPIEuKbIfvxOwo6wvSf97RTLg8/640?wx_fmt=png&from=appmsg)
+
+定义同一周期内变压器实际传输功率与理想传输功率的比值为有功传输比εp：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMwKXOSzxrJayTbC6yx5YSDutoic4EAmDPytEU4UiaLcMZwUaoaI819ppgCztW9To61ZeLzXnYtK3PQjkE0obgk1BtkbM6ic8qBE8/640?wx_fmt=png&from=appmsg)
+
+式(19)反映了有功传输比与互联通道分布参数之间的关系，其与开关频率、漏感及分布电阻相关，当变压器频率为5、10 及15kHz 时，其对应的有功传输比如图11 所示。  
+
+由图11 可知，高频互联通道的有功传输能力与频率、变压器漏感及分布电阻有关。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPweLgV5ibiaxQrd78a6tgWy9REcSvUibiaQeCVYyoibLdlqMZibuIKkGrNmnEMjgM5xhqBRobdVic3ibrJVxd8jWiagAgCTTo69iceia6Uqw/640?wx_fmt=png&from=appmsg)
+
+通过对比图11 可得，在分布参数不变化的前提下，工作频率越低，高频互联通道的有功传输能力越高。因此，为保证较高的有功传输比，变压器的频率不宜设计过高。当频率一定时，有功传输比受漏感以及分布电阻共同影响，当分布电阻相同时，变压器的漏感越小，有功传输能力越强，当漏感相同时，分布电 阻越大，有功传输能力越强，因此减小变压器漏感并适当增大分布电阻有利于增大有功传输比。  
+
+由图6(b)和式(15)知，变压器电流处于稳态T1阶段时，同步电路处于等效并联的状态，稳态时间越长，越有利于脉动电流的耦合消除。隔离级互联电路的等效导纳模型如图12所示，其中：iuxac 为纹波电流；iuxac1、iuxac2分别为流向SM1 自身电容和其余6N\-1个SM的低频脉动电流分量；L 为高频变压器漏感；C 为SM 电容；C0为低压直流侧电容。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMuqPRibgpyibgYPL2Ps2xw2ISia5zibgvU2lsXTB7uVTQ3tvIpZibia1oiahb64ibbNg4XB75ibBnwLCEnBbt7j4WQ6FMI7MUf2P2nWpibI/640?wx_fmt=png&from=appmsg)
+
+图12 中，SM1 自身电容等效导纳Y1模值，其余6N\-1个SM支路的等效导纳Y2模值及归算至变压器原边侧的低压直流电容的等效导纳方程Y3 模值分别为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOuPg8dNxK6wWfeAQrMiaxIT8d7txAw9Rbm4pHMw1XGKWib3055Cm27ZhwndwB0XzVLHXn1OeusvXLQj78icwiciaahf1UT3I5zmibto/640?wx_fmt=png&from=appmsg)
+
+结合图12 及式(20)可求得流向SM1自身电容和后级互联通道的低频脉动分量分别为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPa6GS02WqK8OhDC9EXGMBAiaB7qr8esIKvGSurlkyFY3OdEW00eIqneorf2VOztwultyHuJf2tW7EwfbatlxXroSTrHYMU7mp0/640?wx_fmt=png&from=appmsg)
+
+流向SM1自身电容的和后级SM的低频脉动分量的分布示意图如图13 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPZXB5QPw28bmYb2PMmu6dQcUicNG1JvE6xFxr0ZS3mrSXt1rA4pC0JVwozlv3Z09dIlaz11HDxibII5mZXIfCWArriaS532lj5Go/640?wx_fmt=png&from=appmsg)
+
+如图13 所示，当各子模块互联后，全桥高频链路表现出低阻抗特性，基于该特性使原本流向子模块电容的电流大部分流向公共高频交流母线，仅有小部分传递至SM 电容中。随着变压器漏感的增加，传递至互联通道中的脉动电流分量减小，SM 电容中的电流分量逐渐增多，表明变压器的漏感不利于SM 中的低频脉动电流向互联通道传递，因此，漏感是变压器设计中应该考虑的关键参数之一。  
+
+根据文献\[19\]，MMC 同一相上下桥臂对应子模块电容电流的基频和三倍频电流幅值相同相位相反，二倍频电流幅值和相位相同；位于同一水平位置的三相子模块电容低频脉动电流幅值均相同，且基频脉动电流呈正序排列，二倍频脉动电流呈现负序排列。因此，具有三相对称性的子模块低频脉动电流在共高频母线处自然耦合抵消，隔离级脉动电流流通路径如图14 所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMaDCtddbc6Zg3YpZ565xZ8JmLvwFL2MgCjyR7Om5oN4H9BdY25m8QxxlxjGDWuVfiblVJwdDic5hkJicM551KsrxgUZsHboL4oia4/640?wx_fmt=png&from=appmsg)
+
+经过上述分析，在同步调制策略下，三相SM电容通过互联通道构建了一个开关电容电路，基于开关电容电路的低阻抗特性，将谐波电流通过互联通道有效地传递至公共高频交流母线处。同时，基于三相对称性的原理，这些谐波电流在传递过程中实现了耦合抵消，从而确保了LVDC 侧不含有低频脉动分量，保证低压直流端口的稳定运行。  
+
+3 .互联通道分布参数解析  
+
+2.2节对互联通道的分布参数模型进行了建模，并分析了分布参数对变换器电路特性的影响，为保证变换器的电路性能满足要求，需对互联通道内的分布参数进行合理设计。本节给出分布参数的解析模型，用于计算互联通道内分布参数的解析解，该解析解作为后续变压器寻优设计过程中评估所设计变压器的分布参数是否满足电路特性需求的关键标准之一。  
+
+3.1 分布电阻解析模型  
+
+3.1.1 开关器件等效电阻  
+
+开关器件的等效电阻Rsemi 由开关器件的总功率损耗PI\_loss 决定，其计算公式如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNDfgzuMV8PduNH8vxpeGicK5y06kdPbWQLD731AAqyY4eW4Jhn7n8PfNCnPTXyuC5YhmEMvUrE7flJDGTooPGTZYSPkLXBX1oE/640?wx_fmt=png&from=appmsg)
+
+式中：PTcon、PDcon分别为IGBT 和反向续流二极管的导通损耗；PTsw、PDrec 分别为IGBT 和反向续流二极管的开关损耗；T 为开关周期；ir 为器件电流。 
+
+PTcon、PDcon为通过将IGBT 等效为一个理想电压源与导通电阻串联的模型，通过式(23)计算其导通损耗的计算公式：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNfhzas8CDmN7V6eL1M7XNfK9pUh20niaMiaSzDHP0a17Xge2lh5RibTzDtg5ciaiap4EP6T9bB7mgpxxu5R5qDC4CQf06GoU7Fm1hU/640?wx_fmt=png&from=appmsg)
+
+式中：UCE0、UD0分别为IGBT的擎住电压和FWD的偏置电压；RCE、RD分别为IGBT 和FWD的通态电阻；Iav,I、IRMS,I 和Iav,D、IRMS,D 分别为流过IGBT和FWD 的平均电流和有效电流。  
+
+式(22)中的PTsw、PDrec 是通过累加一定时间内单次开关能量并求取平均值的方法得到器件的开关损耗，如式(24)所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP0o7A0MyKmW24bgvVHZPcRb9mEictfdbPaut1VpUNO8lePqtlOhubIUvicSRKCkezETE1U9QbMxqQ8EzPmkfUcddAMlOdSyMV9I/640?wx_fmt=png&from=appmsg)
+
+式中：t0 为计算开关损耗的起始时刻；m、n 分别为IGBT和FWD 在t0 到t 期间内的开关次数。 
+
+3.1.2 变压器绕组交流电阻  
+
+高频工作条件下，集肤效应和邻近效应的共同作用使绕组实际的电阻大于导体的直流电阻，圆形利兹线的各次谐波交流电阻用Tourkhani 模型计算得到：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPd1EPfuxOeBQ3RXqFfx0DlgOl4l0yicrbw9JYCPLOTEiaicUBibN98zM3KNIRtwr08fmScYEMxAt0d7s4JQFNicD0xSicAibrsD4C6iao/640?wx_fmt=png&from=appmsg)
+
+式中：σ、ι和S 分别为导体的电导率、长度和载流面积；FR,n、Rac,n 分别为第n 次谐波分量对应的交直流电阻比和交流电阻；Ns为利兹线束细导线股数；Ds 为利兹线内单股直径；βt为利兹线填充系数；Δ为导体穿透率。 
+
+3.1.3 母排电阻  
+
+为了提高主功率回路的电流承载能力，降低回路的杂散电感。本文设计叠层母排实现母线电容和功率器件之间的电气连接，如图15所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOelKm327g9ClOv7gnlD1jp116oQGTO0boDcb3BBkmXJ121kicHxamEl5vUYv5YaTibkmJ3uoh79b0nGqZwtHZOx7FVOypiadEvRA/640?wx_fmt=png&from=appmsg)
+
+综合以上分析，高频互联通道的总等效电阻为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOrRZJ8M8j5uibSOD6BGHKlibzD4RkIFtwDqj285lUiaiaPBDld2mia65QQicBESqsD7oicmajKM1wnkL1HN8u2JqibuVbtPEdQ2c0YWhE/640?wx_fmt=png&from=appmsg)
+
+式中：Rsemi为开关器件的等效电阻；Re 为高频变压器的交流电阻；Rm为高频互联通道直流母排和交流母排的等效电阻。  
+
+3.2 高频漏感解析模型  
+
+将变压器圆形绕组等效为铜箔绕组，进而根据Dowell 模型计算高频下变压器的漏感。将矩形变压器绕组分区，分别计算各个区域的磁场能量并累加，其解析表达式分别为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNB1qGSmKZicdCjqbYb9ku0En5okTVvb2EDnRu7BGKMcvTjaP3ApXYVPda72EXIOG2uqo7OsCtic89jCN4mWt2RGic4iczjnshVgac/640?wx_fmt=png&from=appmsg)
+
+式中：Hiso/Hp,H/Hs,H、Wiso/Wp,H/Ws,H分别为变压器原副边之间绝缘部分/原边绕组内部/副边绕组内部的磁场强度和漏磁场能量；hs/hw分别为磁芯窗口/绕组高度；dsec/dpri/diso分别为副边绕组/原边绕组/绝缘层厚度。  
+
+根据磁场能量法得变压器漏感的表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOfYGibBtokkwBoWom56vfMiamM7IPAT52W3dApzYAiaTqR6KhUHOeiaiaXuqPxxwjQ0FEB16sxw0YAd8HXaPwYhO0ptl8gJD87PLwE/640?wx_fmt=png&from=appmsg)
+
+4 .高频同步变压器的优化设计  
+
+4.1 高频变压器的温升约束  
+
+3 节的互联通道分布参数解析分析可用于判断所设计变压器的分布参数是否满足互联通道有功传输特性的要求，此外为保证变压器的可靠运行，变压器的温升也需要合理设计。通过计算变压器的损耗作为热源，并建立变压器的等效热阻网络来计算变压器的热点温度，将理论计算的热点温度与规定的温度相比来判断当前自由参数下的变压器是否满足设计要求。 
+
+4.1.1 变压器损耗模型 
+
+1）磁芯损耗。  
+
+在方波激励下，磁芯损耗的计算公式可以进一步表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPGrYyXVvibXbud7icArE6vh8HgHjkwJ2HNglcFyLV9q9L4n617dMKSfDJwoaP5BuoEusyZXoH34t54ibtia6TGXw4ibbMuEH8WPye0/640?wx_fmt=png&from=appmsg)
+
+式中：Pv 为单位磁芯损耗；磁芯损耗参数K\=8.79×10\-⁵、α=1.39、β=2.34 由磁芯手册的B-P曲线拟合得到。 
+
+2）绕组损耗。  
+
+对高频变压器非正弦电流波形进行傅里叶分析，分别计算每个谐波频率下导体的交流电阻因子、绕组交流电阻和交流损耗，最后求和得到总的绕组损耗，绕组损耗表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPQibuP07Pjfr02BnZKLzvDuNkbnh4BRHIwm4lPU0rM9uFFCsCEicwfED8LTVRogCkmJMUGbzs0kSPMCESiaxw5Loqjf1ePibnjODw/640?wx_fmt=png&from=appmsg)
+
+式中：Ploss 为绕组交流损耗；n 为谐波次数；IR,n 为第n 次谐波分量对应的电流有效值；Rdc 为绕组直流电阻。 
+
+4.1.2 热路模型
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNCEFGdu0DOkOibWibftdJTrhbsL81O1lxPlxwgWxIrmcfKGHkYMD4BfdpPT9f9aV1DYNpwCkQibViclULEW1cFFyXjia8ricMyUIvVQ/640?wx_fmt=png&from=appmsg)
+
+以并联同心式结构变压器为例分析，其热路模型搭建如图16 所示，绕组和铁芯会持续将电能转化为绕组损耗以及铁芯损耗，上述损耗以热能的形式散发，具体的传热路径包括：1）变压器铁芯和原副边绕组通过热传导方式在各自内部之间传递热量；2）包围绕组的绝缘物质内部通过热传导方式将热量传递到表面；3）磁芯磁轭表面及绝缘物质表面在空气的作用下，通过对流和辐射换热的方 式将热量向周围扩散。  
+
+通过对变压器传热产热机理的分析建立变压器的等效热路模型，对图16 所示的变压器结构做合理简化，抽象出8 温度节点变压器热网络模型的拓扑结构如图17 所示。其中磁芯侧柱划分为3 个区域，原边绕组和副边绕组各划分一个区域，绝缘物质根据方向划分区域。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNibgeIHRBA7Eyxy1VahnIqXMibz2mg9iaRicoIQ7HXblR3HLGpUT64VdNXicSLaiavibbxmvLGnjSz5iaEUJKzZbyUnfibr0zrLu8PXwvM/640?wx_fmt=png&from=appmsg)
+
+图17 中：T、P、R 分别为温度节点、节点损耗和热阻；下标cy、cb、cc、s、p、po、iso、am分别为磁芯磁轭、不被绕组包围的磁芯侧柱、被绕组包围的磁芯侧柱、副边绕组、原边绕组、原边绕组外层绝缘、原副边绕组之间绝缘和外部环境；下标xr、xc(x\=1,2,…,6)分别为与空气直接接触的固体表面与环境之间辐射和对流的换热过程；下标i(i\=1,2,…,13)表征固体内部向固体表面的传导换热过程。  
+
+本节提出的热路模型为后续变压器优化流程中温升约束条件提供了理论基础，保证了所设计的变压器运行时的温度不超过设定值。在4.3 节的变压器优化结果中，对所设计的变压器的温度仿真验证了该热路模型的合理性及有效性。  
+
+4.2 高频变压器的优化设计流程  
+
+同步高频变压器的优化设计流程如图18 所示。接下来分步骤介绍寻优流程。 
+
+1）步骤1：在预设计阶段根据同步全桥电路的参数指标选择磁芯材料、绕组结构、绕组类型和绝缘形式。 
+
+2）步骤2：将变压器匝数Np、Ns 及磁芯尺寸参数设置为自由参数，其中：la 为磁芯磁柱宽度；lb 为磁芯窗口宽度；lc为窗口高度；ld 为磁芯厚度。 在预设计的绕组与绝缘结构下，每组不同的自由参数对应不同的变压器设计结果。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNsW5A7XiaGpEFjZfNUhrkXd39vJjJVMpjdgGIeZ36hHA08DOCz0mAZZzCMam7sox3TLQjktjXDxNXEXZDfiaouBxKPtpCicHoIks/640?wx_fmt=png&from=appmsg)
+
+3）步骤3：通过3 节的分布参数解析模型计算每组自由参数下的互联通道的分布参数，用于步骤4 中的约束判断，同时，计算每组自由参数下的变压器体积和损耗用于步骤5 中，转换为以功率密度和效率形式输出的解集。 
+
+4）步骤4：根据2.2 节分析可知，变压器的绕组电阻为互联通道的等效电阻组成部分，等效电阻与漏感之间的作用会影响互联通道的有功传输能力。定义高频互联通道允许的最小有功传输比为90%，若自由参数下的变压器结构通过步骤3 解析 出的互联通道分布参数不满足设定的传输比约束条件，则进一步对自由参数迭代选择。为保证互联通道的长久稳定运行需要对变压器的温升进行约 束，结合4.1.2 节的等效热路模型计算变压器的理论温升，定义变压器允许的最高热点温度为120℃，不满足的变压器设计则进一步返回自由参数选择阶段进行寻优。 
+
+5）步骤5：将满足步骤4 的约束条件下的变压器设计结果以功率密度和效率的形式呈现，进一步在满足电路性能与温升条件下的解集中根据所侧重的方向选取其中一个解，通过返回该得到该解的自由参数以确定最终的变压器优化设计。  
+
+4.3 高频变压器的优化结果  
+
+在图18 所示的变压器优设计流程中，预设计阶段选取纳米晶材料制作磁芯，绕组结构选择双层并联同心式结构，其原副边绕组之间紧密耦合，相比于其他结构有更小的漏感值。由于带风道的骨架绝缘方式在高压下电场强度较大，不容易满足电场绝缘的要求，且该结构的体积和漏感更大，所以本文采用浇筑式绝缘方式，绝缘距离dresign 根据式(1)进行计算。通过寻优流程遍历满足电路特性与温升约束的变压器设计如图19 所示，图中每一个点代表满足条件的变压器设计，其呈现形式为当前自由参数下的变压器功率密度与效率，用于进一步确定 最终的变压器设计结果。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOO1E88Jwl3SYb9JmlDf0YkdEwQzVztkuKzOSibnePT19DbNmkoXDjDCfKwevCUX6Gp0ZjKSeFNJWajiaPQdU3Myia1gJPic0sx7xs/640?wx_fmt=png&from=appmsg)
+
+在图19 中选取3 个满足条件的解集点A、B 和C，其自由参数结果与特性对比如表2 所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPbgAhw5YmZicw6GY7aysIC6dzphPetJlBp8o2XzzialPamHYFRLmARdia4lDkpyKs4uQbt1nv8sqcibiasiaicq9nibMngKaU8Dt9ib0w4/640?wx_fmt=png&from=appmsg)
+
+经过对表2 中A、B、C 3 种变压器设计的寻优结果进行对比分析，可根据不同的应用领域来做出选择。对于车载电源领域，应优先考虑功率密度最高的设计。在智能电网与输配电领域，效率最高的设计则更为适用。而对于封闭式空间作业环境，应选择温升最低的设计。综合考量各方面性能指标，本次设计最终选定B点作为变压器优化设计的最终结果，其综合性能表现较为优越。  
+
+点B 对应的设计结果中，变压器各节点平均温度如表3 所示。绕组是变压器的主要发热源，而原 副边绕组之间绝缘层为不良热导体，其阻碍了绕组 的导热和散热，因此绕组成为变压器的热点位置。 对磁芯来说，被绕组包围的磁芯边柱温度高于磁轭 温度和裸露在空气中的磁芯边柱的温度，磁芯磁轭 温度相对较低。等效热路模型法与有限元法计算结 果相比偏差小于 15%，说明本文搭建的高频变压器 的等效热路模型合理可行，可以实现高效的温升评估。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPaLvBCsTtsuhxNB7VicbOKAWkc89v7Zst1x7qQNcxOlvr5UhMcZd4icxichIvBSuM6bBicruKslFuflRkHZibvicLLYMukFee3bwsm0/640?wx_fmt=png&from=appmsg)
+
+鉴于高频变压器在自然空气冷却条件下的温度计算结果虽可满足约束条件但仍偏高，为此提出散热优化设计方法。本文以基底厚度、翅片宽度和翅片长度为固定参数，以翅片厚度、翅片高度为待求参数，以散热量大和质量轻为目标函数，利用NSGA-II 算法优化设计散热片，设计流程图如图 20所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMqeZx20Fe9zcl6iboyLibnIPKOMviavDjL66lMUpKjQiavw3WX3Lz87gO60Lenfp5diaicd9B4yoEKHnntERY7AWpoTX1dQfDJuxtvw/640?wx_fmt=png&from=appmsg)
+
+根据流体动力学，最优的表面传热系数hopt为  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOAskHqDicYLeuaIbEMdt4cXGCiaA2TITXNMqGo11caD4tgicAibU6FeCnvmA1B86WPakGYCTCdCUcAwglLeEWj5sgcNMG9ghMnRmk/640?wx_fmt=png&from=appmsg)
+
+式中kg为空气的热传导系数。  
+
+通过将空气参数用于平均表面温度，翅片组的最佳间距zopt 为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOGUFicmCkh6VMOE20Ug2iaJmZKn7g2g6ialoZmrFCKXJG7ParhzQYMZE0JdLdOQf96Jue5gicPdT3msUzQ4b41cLmYicspsicIPuib4g/640?wx_fmt=png&from=appmsg)
+
+散热器热阻与器件功耗之间的关系为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMtem90NTfXH1XD9wBzQicCodUAsVlsdjdV5Km7ECbnoCicFCq1vLCp9rexKygQozuQiaXgE4YvY44WH2oAt5CvcVInTTkCzJSdXg/640?wx_fmt=png&from=appmsg)
+
+因此当翅片基底温度固定时，翅片散热量最大即总热阻最小，质量轻即翅片组的轮廓面积小，因此散热器的目标函数可以进一步表示为
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO1miaqzHic4qNK91wT3lM5GehpebJwRygYicE0P9h5oBibUmibK5OnzBPpiapuAxohvDrl1j5QTunkYYK2sdg1LrXSAWxiaf256L71G8/640?wx_fmt=png&from=appmsg)
+
+式中n为翅片个数，n\=(W+zopt)/(，δ+zopt)。  
+
+矩形翅片结构及两翅片散热器的稳态热路模型如图21 所示，翅片基底的热量通过翅片自身导热和向周围环境对流及辐射换热耗散掉，本文建立的热路模型充分考虑了翅片每一部分的热阻。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPN1ibYiceRndEewYbXYRgONeuqvgh4g9nAyBLH1KG5X8MfTu0iazA4WpaqDqFkeV0qZ5FzmSJFXnmrcWMq9P2z7kGcesJanlPiaic8/640?wx_fmt=png&from=appmsg)
+
+散热翅片基底的热传导热阻、热对流热阻和热辐射热阻分别表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOAiabLMO0QCxScVm9NBE1aHCaflq2W2ia9AThFWyokzZAwRIwMZbkXdNjxJCYuKtUvo0aHzccFcCxYosSTr9U69FugS5rcH2Cbg/640?wx_fmt=png&from=appmsg)
+
+式中h、w 分别为对流和辐射换热的传热系数。
+
+基底对流热阻及辐射热阻并联后的等效热阻为
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNRaxoUZ2KqnAnCy2Kib9Mot9QicqaPIQAhsdhPQwpJB2Rlum7KWI5xrbmR18YY7U19PERrVV7MwQxHia8nshtXe0hickXY1xN0Dck/640?wx_fmt=png&from=appmsg)
+
+矩形翅片侧面及翅片顶端的热对流热阻和热辐射热阻分别为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMX1BTiaOCMMdAOgrH12VnGNz7IcjFEpicTYWEpjNa1qQUyde9CsrPAgHkibFmmgEGx9leyOsIqwt0oKhorEbkzBkOFW51vmicrdiac/640?wx_fmt=png&from=appmsg)
+
+翅片顶端对流和辐射的并联热阻为
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMjI2KgfHhvR0Q2mIGvO4T4kCDrJulVU6BN7EuWiadBqrJ52jEtfNW0cRxOfrVgYAZibicsYvgxlVicMSeFX7OAlFkyS28B7wZXE2E/640?wx_fmt=png&from=appmsg)
+
+现实中翅片越接近基底部分的翅片温度更高，相应通过对流散出去的热量也多，若仍用等温壁面的计算公式计算翅片的传导热阻会影响最终的计算结果。因此本文用散热量公式修正翅片的传导热阻。  
+
+根据傅里叶定律，散热片总的散热量为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPv2JUygTXYTicFzqP1CAh7qBE7kokIyI9B6QxpA9BjvO6c1cAJ24PmLhSWaS8VyrtAiad8xib82xTuEbeDRbAMqibV3qN5HVd25xM/640?wx_fmt=png&from=appmsg)
+
+对于固定轮廓面积的翅片，将翅片的总散热量整理成与b 无关的表达式，并令qb 关于b 的导数为0，可以得到：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNdRQWmqwNzxzIibvpvibRRXArtkKutFchXCm76uwShdUSCFv0icbLktv3mWuic7qlec9ialFFINSe5fTic1hyGCgQFwicCkfbtGoqribQ/640?wx_fmt=png&from=appmsg)
+
+式中βL\=mb，通过数值方法求得超越方程的解为βL\=1.4192。将散热量最佳翅片性能参数βL代入式(39)可得翅片的传导热阻为
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMwPzjTsugzkRw1dn5j0ZG7ucxAMdLnQMIQvayrbAvCTTLrI0pFGabQbQ3l3zAqPf1sLRbcZ9jfjXiczIT9haHM0Iibk0ESkmTz8/640?wx_fmt=png&from=appmsg)
+
+据散热器热阻网络计算散热器的总热阻为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMK0aibItmBgZXmOESxZDuydaVSAdzMly4qiavJvZ8qCrFbKS2iatHex5JQGJXh5Uic7DvmxZmyP9SR1JnJqZFeRZXhzFxeGM9y1kM/640?wx_fmt=png&from=appmsg)
+
+式中：Rcvrd\_b 为基底对流和辐射的并联热阻；Rcvrd\_fin为翅片对流和辐射的并联热阻；Rcvrd\_a 为翅片顶端对流和辐射的并联热阻。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMGicMRc0MKcRnr1L45ibRibv6zLjcvWQCDOCE0UU2ycUT1ktOttGJKSkgndnBJgzWTiaZQ503icTIENec8bwp4gphqM6aThicCURuHI/640?wx_fmt=png&from=appmsg)
+
+散热器总热阻与轮廓面积之间的关系图如图22 所示，轮廓面积反映散热器的质量，总热阻反映散热器的散热效果。图22 表明，散热器散热效果好与质量轻这两个优点不可兼得，因此折中选择A 方案去设计散热片尺寸。  
+
+当翅片高度为110mm、翅片厚度为4mm时，散热器的总热阻为0.035K/W ，轮廓面积为2232cm²，此时散热器的综合性能最佳。散热片尺寸的优化结果如表4 所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOjrC8jEdkqiatmAonzHEm4fun5spAqVcLRZ1QKj9pDiaDiaF973Ofs59Grv0CueDHsHpCicibHTvhiaUQia3NGwem5ttTWhzwAzOaM38/640?wx_fmt=png&from=appmsg)
+
+4.4 仿真及实验验证  
+
+4.4.1 有限元仿真结果  
+
+基于表2 的变压器优化结果，在有限元仿真软件中建立变压器模型如图23 所示。变压器的漏磁场强度仿真如图24 所示，漏感仿真结果分别是7.3、6.4、5.3μH，验证了解析结果具备较高精度。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOjg9hwgDPNhSxg6xLnN3p484c0VH0WfjOL2Emu4drgRGXM242qIVZAFeicicgLjfYyLtAk04YYJA8xRlOPN4ials1cueyvt2Ifhs/640?wx_fmt=png&from=appmsg)
+
+变压器电场仿真结果如图25 所示，电场强度主要分布在原副边绕组之间，在原副边绕组之间施加35kV 正弦激励电压，3 种设计结果下变压器最高电场强度为17.4kV/mm，小于绝缘材料的电场强度，说明本文设计的变压器不会出现绝缘击穿现象，满足绝缘要求。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPn7tGa6zT5lVicAWUpoMaSH1utKZjXmib2MnTFFDFbia9QHIgPbh9XkrVEFqyXFo3FMS8RDtfPZKzXB7cUBbNbbYwwLXib5Rct138/640?wx_fmt=png&from=appmsg)
+
+变压器热场仿真结果如图26 所示，变压器热点温度均小于120℃，验证了优化设计的同步变压器可以满足温度约束条件。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPgA4LKict5NQNdQ1EibJEBqDu8ImG5RlUoic1cFHeAZfaHpT2a5iaQsVv90HMGa2icPcuyxKDGbZficUXE14ibZvIPwJF5YuehgsJezo/640?wx_fmt=png&from=appmsg)
+
+为了显著降低高频变压器的磁芯温升，在磁轭部位增设了散热翅片，增加了散热面积，更有效地促进了热量的散失以避免磁芯温升过高，从而防止磁芯的饱和磁感应强度大幅降低，保证变压器能够长久稳定的运行。同时，针对磁芯芯柱和内侧绕组间空气流通不畅的问题，采用强迫风冷方式提高散热效率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNctZ8N25m2VmJ4SHGSUibvu4GOBgJnF6gQxVd4WmzvOeh4ibFicYQFqKLBjkSnIeJ2Qariaoamic29icicXWfLA017TJiatg1fyUHZiarw/640?wx_fmt=png&from=appmsg)
+
+基于所选择的B 点变压器设计结果以及表4 的散热片设计结果，散热优化设计下的变压器热仿真云图如图27 所示，散热优化设计前后变压器各节点温度对比如图28 所示，散热优化后变压器各组件的温度均有效降低，验证了散热片寻优设计的有效性。 
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpONfYRnrib2aLibZunw3XuSs354qcu1L7q2EJ3rWb5eDv26UDR2rd7Cuyib4CJwHOg5TAQwPTEeJDx1wJKBzeVttWsac8elibjXj7A/640?wx_fmt=png&from=appmsg)
+
+4.4.2 实验结果  
+
+根据变压器优化设计结果研制同步变压器样机，搭建互联通道实验平台如图29 所示，变压器原边侧和副边侧全桥的开关管均选用英飞凌公司型号为FF450R12KT4 的IGBT半桥模块。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMPhnrM220fQHqEutDTSk8Z9kXhE9Q0bfgCZIHJYehlVCUmiaavO8PGQibjrTkhPqwIGBsnz4Wic5R9BRQRav8vIoQmFKAHqL5xtU/640?wx_fmt=png&from=appmsg)
+
+在根据寻优结果B 的变压器设计下，同步全桥有功传输能力的验证如图30、31 所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMSDGW1pY4XTfmicEeLNupn8Uu6MkHCy5LnEKAxwjKBnvmPppCsX1MCiaptUxSgBm4BRRcKMFexZZbB1rlFmhQvWLwiaFRPUjBQSw/640?wx_fmt=png&from=appmsg)
+
+其中：ugs为驱动波形；upri、usec 分别为变压器原边电压和副边电压；iT为变压器原边电流。图30 为互联通道稳定运行阶段，优化设计的变压器下电流稳态时间较长，可满足有功传输比的要求，电路的功率传递特性较优。图31 为半载切满载工况下互联通道的变压器动态波形，在不同工况下系统均具备较好的有功传输性能，且具备较好的动态响应能力。上述波形验证了本文理论分析的精准性与实用性。按照寻优流程所设计的变压器满足电路特性要求。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPweqxEePdPwibCplSXDShtffXO9k7fIpxde9NSURIsAicThibyYxfma3FKpOS2ej4ClouDldwkhmnvibTa1l8mPVWGHoxia9lVfABE/640?wx_fmt=png&from=appmsg)
+
+对优化后的互联通道进行热实验如图32 所示。由图32 温度分布云图可知，系统整体的温升在合理范围内，且进行散热优化后的变压器温度分布与仿真结果一致，变压器能够安全稳定的运行。进一步验证依所提出的优化流程制造的变压器满足电路性能的要求，且整个寻优流程高效可靠。
+
+5. 结论  
+
+本文以共高频母线MMC-SST 变换器的高频互联通道设计为研究对象，取得的主要研究成果如下： 
+
+1）建立互联通道的等效数学模型，研究了功率传输能力与分布电阻和漏感之间的约束关系。结果表明小漏感和适当增加的分布电阻会降低变压器的衰减时间，抑制有功功率回流，提高有功传输能力并有利于脉动电流的消除。 
+
+2）基于开关器件等效电阻、交流电阻和漏感的解析模型，提出适用于共高频母线MMC-SST 的同步变压器优化设计方案。优化方案以功率密度和效率为优化目标，有功传输比和温升为约束条件寻优设计变压器以满足互联通道的性能需求。并建立了变压器和翅片的热路模型，以质量轻散热量大为目标优化设计对变压器进行散热设计。  
+
+ 3）根据寻优结果制作50kW/5kHz 的变压器原型样机，实验结果验证了本文变压器设计的正确性和有效性。
+
+注明：  
+
+【版权声明】：本公众号平台注明来源或转载的文章，版权归原作者及原出处所有，仅供大家学习参考之用，若来源标注错误或侵犯到您的权利，烦请告知，我们将立即改正或删除。
+
+【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPIFibOIiaiaiajBNHPAl8iaEib7FFHRGvtLRVtQI3Wz9ay29QwmIc0ibBIdlSib7eXMiaFqT4Ea8IeA8ztyAxUgGrrFJRX6hopic8Xh42q4/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNp0wJ33jpDmwibNGTrGTia2Mricm7Nd6DAku8fI6TDkjvNATxNyJe9ibauYZmTnIhVE9Dqr1Hkja5nib9hg7u6Eku8bX5qUvFam9icg/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMXme6l4jfavz7auficicicgjU4WMNu2SIuOu423IgJskafiaHhiajDYdjNAicM5JyiaPvFWVtNSDgAFVVtKmHzUDk78XNEGWflW93TxQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMj3ZhvMx6bUGpZ8Yfsvpvg4uQl9IGBdeSQR2KeQFa845TMe5YCxdFDLUgibmicF41TlKxUDZsgcV48wKtiaKia9NiaEoU4d2e5uowM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)

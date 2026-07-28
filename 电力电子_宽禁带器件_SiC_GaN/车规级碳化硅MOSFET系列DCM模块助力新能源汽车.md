@@ -1,0 +1,124 @@
+# 车规级碳化硅MOSFET系列DCM模块助力新能源汽车
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/WmlMSQ7\_q50ECACnvK3D-A](https://mp.weixin.qq.com/s/WmlMSQ7_q50ECACnvK3D-A)
+
+**一.碳化硅功率器件应用及优势**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsncCUbDicXEamAoWJ7BIAKlgOQflkic85PL8HGg6ibpRMW405PzicKz1nC9LCxWNEG4tu3lMWpP5dqBwA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)碳化硅器件在新能源汽车应用中，有着更高的效率、更高的功率密度和更优的性能，特别是在800 V电池系统和大电池容量中，它可提高逆变器的效率，从而延长续航里程或降低电池成本。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndCJCicnDcthbl5oziaEFP91IxKz018icmareY5aMGjibFj2ND66gjPTVQFbLQxB2VqPo552v0dyrG5w/640?wx_fmt=png&from=appmsg)
+
+SiC 功率半导体具有关键的效率特性，能够降低成本，同时提高多种应用中的系统性能，如电动汽车充电器、太阳能逆变器、电动汽车电机驱动器等，预计使用指数增长快。
+
+**与基于 IGBT 的电源模块相比，SiC 具有以下几个优势：** 
+
+1.开关速度更快：开关损耗更低，对无源元件的需求更少，从而减少了系统面积
+
+2.适用于高开关频率的应用
+
+3.高阻断电压 
+
+4.结温更高
+
+5.高电流密度
+
+6.SiC 可降低开关损耗，实现最高效率
+
+7.高功率密度：高开关频率、最小化损耗和最大化效率相结合，可实现卓越的输出功率和功率密度。
+
+8.降低整体系统成本：开关频率的增加，可以减少无源滤波器元件的数量。同时，也降低了功率损耗，从而减少了散热器的面积，减少了整体的冷却需求。这两个优势大幅降低了总体系统成本。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqOePM0lMRicbe4VMgJe08gSGtvBiaN2qyghTjk5WKbLFgQDtVjwicRhN67As8XvtmCyXncGt3IjibXg/640?wx_fmt=png&from=appmsg)
+
+**SiC 功率模块的典型应用包括：**
+
+1.大功率电源  
+
+2.电动汽车充电器
+
+3.太阳能逆变器
+
+4.电机驱动器
+
+5.储能
+
+6.电动汽车
+
+**二.碳化硅MOS系列DCM模块**  
+
+碳化硅功率模块是使用碳化硅半导体作为开关的功率模块。 碳化硅功率模块用于转换电能，转换效率高 ，功率是指电流和电压的乘积。
+
+# 车规级碳化硅MOSFET系列DCM模块，是专为新能源汽车主驱逆变器应用设计的一款高功率密度的碳化硅功率模块。目前已广泛用于新能源乘用车、商用车等的电力驱动系统及燃料电池能源转换系统等。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqOePM0lMRicbe4VMgJe08gWb9D4HetowVzGpaqfqg246tIYL9MTMK0TQkRBXuqmGD84Oib25CSAEA/640?wx_fmt=png&from=appmsg)
+
+DCS12模块特点
+
+1\. 采用单面水冷+模封工艺，最高工作结温175℃；
+
+2\. 功率密度高，适用高温、高频应用，超低损耗；  
+
+3\. 集成NTC温度传感器，易于系统集成。  
+
+**三.新能源汽车市场应用**
+
+**（资料来源：行家说三代半）**
+
+目前，商用车规级SiC功率模块多采用基于硅器件的传统模块封装技术，三相全桥HPD模块仍是主流，但随着800V+SiC时代的到来，以半桥结构和塑封工艺为主的封装模式或将成为大趋势。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVnyspeHmGjoEdzzugsXh1rthH0cXP0rBFcqr56vGTZ8WCnlqiae3L7r6l01fMWrRGSZhyNwY4dDbUA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+传统HPD灌胶模块只是SiC模块的“过渡性”封装方案，并不能充分发挥SiC MOSFET芯片的高耐温、高频率和高耐压等优势，很难克服杂散电感、可靠性、兼容性、工作温度等方面的挑战。  
+
+对比之下，SiC塑封半桥模块式则更灵活，配合银烧结、塑封转模等关键技术，不仅可实现更均匀的电流密度分布，而且热容热阻和杂散电感等方面表现也更好。据行业人士分析，传统HPD模块的杂散电感高达12 nH，而塑封半桥模块仅为3-4 nH，相较之下杂散电感下降了75%左右，SiC模块的可靠性更佳。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVnyspeHmGjoEdzzugsXh1rt0fHqHjxjMLZibJltgKRu3vEcqicUR4j3SIE88Yg0681WlIDpPXN9rrxg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+_北汽第五代SiC电驱_
+
+此外，通过采用双面水冷等技术，还可以大幅降低SiC芯片成本。以北汽的第五代SiC电驱动总成为例，相对于标准HPD封装，在同样输出功率情况下，他们的双面水冷塑封SiC半桥模块的芯片数量减少1/4、功率密度提高28%，封装拓展更加灵活，寿命提升4倍。
+
+12月23日，蔚来发布了最新的旗舰车型ET9，该车型搭载了1200V SiC功率模块，采取半桥封装工艺，功率模块密度1315kW/L，拥有高达30万次的功率循环能力。蔚来此前的SiC车型主要采用HPD模块，而从ET9开始转向SiC半桥模块。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVnyspeHmGjoEdzzugsXh1rtZLOibtdTExy8xetF2tku4tR2lKSzhWde1yZibfV5Hx0XypIw0yzicYrjw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+无独有偶，比亚迪汽车也在更新SiC主驱功率模块技术路线，逐渐从HPD模式向半桥模式转移，并推出相关产品。比亚迪的主驱SiC模块已经发展至第三代：2020年推出第一代1200V、840A三相全桥SiC功率模块，已搭载比亚迪“汉EV”等车型；2022年推出第二代1200V、1040A三相全桥SiC功率模块；2023年推出第三代SiC半桥模块。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVnyspeHmGjoEdzzugsXh1rt6O1aaevBiabZwVIkKzfFlGoG0txhCCianJFaxNI2icLNTQicNwQwficy6yQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+_比亚迪汽车SiC模块路线变化_
+
+最近小米汽车SU7正式亮相，他们主驱电控的SiC功率模块并没有采用常规的HPD三相全桥模块，而是采用了SiC半桥模块。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVnyspeHmGjoEdzzugsXh1rtWnJY002HeVJacsrhZOKle2HibfNl5icqAibFTNAVIgxQ4okE3vztR7JBQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)据“行家说三代半”调研，国内比亚迪、蔚来和小米，北汽、长安、赛力斯、长城等车企也在主驱中导入SiC半桥模块。
+
+**四.爱仕特碳化硅MOS系列模块**  
+
+爱仕特推出了为新一代车规级SiC模块—DCS12系列，该产品采用半桥式结构，工作额定电压范围为650V-1700V，工作电流范围为400A-1000A，契合大多数新能源汽车的使用场景，给即将到来的高压高功率时代注入新动力。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVnyspeHmGjoEdzzugsXh1rt7GfaDkKgPlKNeRFpE6PWH54BqKS84YdQ1hEAFmxqlibK63LJ12QpOibQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)在工艺设计上，爱仕特DCS12模块系列具有以下优势：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqOePM0lMRicbe4VMgJe08gb15icEU2b47lSLQGBhROt35IxGianWGyvl2Ro0s6CzwCk4A3plmUjNWw/640?wx_fmt=png&from=appmsg)
+
+●散热架构优越，整体可靠性强：DCS12模块一方面优化水道结构设计，通过分区散热和对水流的精准控制，避免了整体温差梯度过大的问题，实现直接水冷以降低系统热阻，最高工作结温175℃；另一方面，这种并联的水道设计使得芯片均匀冷却无温差，利于并联的芯片中电流均匀分布，模块可靠性进一步提升。   
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/LvpTvIKCWVnyspeHmGjoEdzzugsXh1rtBc8oz8dbeYaQ4icGLkdoROJTgicxKCOqiaaG2A287QoHAsVUdmic11Ffhg/640?wx_fmt=gif&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+
+●密封性良好，杂散电感低：DCS12模块的封装是一次铸造成型，其密封保护可以确保逆变器在机械冲击和潮湿环境下仍然可实现稳定可靠的性能，允许极限温度循环以及更高的结温来提升功率密度；此外，模块结构紧凑，利于降低模块的杂散电感，进而降低系统杂散电感，并充分利用SiC器件的高速开关特性，以降低电压过冲的影响。
+
+●功率密度高，适用高温、高频应用，超低损耗：DCS12模块采用银烧结与铜绑定技术的结合，解决了普通绑定工艺可靠性问题，在不降低电流的情况下实现更高结温下运行，功率循环能力得到大幅度提升。
+
+综合来看，爱仕特DCS12模组系列在缩小半导体器件使用尺寸的同时，还可以提高车载逆变器的功率密度、可靠性、耐用性以及寿命周期，紧密贴合新能源汽车的使用场景和实际要求，未来势必得到多数车企的欢迎。
+
+作为SiC器件头部厂商，爱仕特目前已完成A+轮融资，累积融资金额达数亿元，基于自主设计的6英寸SiC 芯片，现已量产650V、1200V、1700V、3300V全系列 SiC MOSFET（46款）及功率模块（71款） ，并自建车规级SiC功率模块生产基地。截至目前，爱仕特SiC功率器件获得了多家车企的亿元订单。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskKncSVKlmnLq3gLTicUsxvshgicPiaEfkdGicSQQ6jy8fQ0bB7cntXmOQibxv6svZXy5PDwYHmE8INWyQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqb8Po3qdBDOEjHEmo3DibcFdSeQxPepq4CgmLpeSttlMicicb3ru8mu738A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)

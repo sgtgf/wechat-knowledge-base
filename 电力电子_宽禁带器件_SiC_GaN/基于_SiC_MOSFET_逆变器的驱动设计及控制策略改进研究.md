@@ -1,0 +1,640 @@
+# 基于 SiC MOSFET 逆变器的驱动设计及控制策略改进研究
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/ayztv3LV55El\_X61Wc7R2A](https://mp.weixin.qq.com/s/ayztv3LV55El_X61Wc7R2A)
+
+文章来源：重庆大学电气工程学院
+
+作者：黄樟坚（硕士学位论文）
+
+摘要：近年来，以碳化硅（Silicon Carbide,SiC）金属氧化物半导体场效应晶体管（Metallic Oxide Semiconductor Field Effecttransistor,MOSFET）为代表的宽禁带半导体器件，凭借其高开关速度、高开关频率、高热传导率等优点，已成为高频、高效、高温逆变器应用的理想选择。为了更好地发挥SiC器件特性优势，论文针对SiC MOSFET在高开关速度下串扰现象明显及高开关频率下死区效应加剧问题，开展SiC MOSFET逆变器驱动设计及死区消除的适应性研究，主要研究内容包括：
+
+① 针对传统驱动下SiC MOSFET 受器件高开关速度特性及寄生参数影响，桥臂串扰现象更加明显，而现有抑制串扰驱动电路又往往带来增加开关损耗、开关延时和控制复杂程度的弊端，开展抑制桥臂串扰现象的门极驱动电路研究。首先，论文阐述了串扰现象产生原理及其典型抑制方法。其次，基于控制辅助三极管开断，降低串扰产生过程中驱动回路阻抗的思想，提出一种在栅源极增加三极管串电容新型辅助支路的改进驱动方法，分析了改进驱动电路工作原理及其关键参数设计原则。最后，搭建双脉冲测试实验平台，并在不同驱动电阻、输入电压、负载电流条件下，对改进驱动设计进行验证。
+
+② 针对SiC MOSFET 开关频率提升致使死区时间对逆变器输出特性影响加剧，而传统死区补偿方法存在补偿效果不佳或误补偿等问题，提出一种考虑电流纹波因素的在线自适应死区消除方法。首先，论文阐述了死区效应产生原理及其传统补偿方法。其次，基于死区消除原则，通过在线计算单个调制周期内电流纹波最大值，自适应检测出负载电流过零区域宽度，实现整个调制周期内有效消除死区效应。最后，开展SiC MOSFET 逆变器样机实验，对比不同开关频率下死区对逆变器输出性能影响，并在不同电压调制比下对本文提出方法进行有效性验证。
+
+③ 为了进一步分析研制的SiC MOSFET 逆变器样机性能，论文理论分析和实验对比了硅（Silicon,Si）绝缘栅双极晶体管（Insulated Gate Bipolar Transistor,IGBT）与SiC MOSFET 逆变器的损耗分布及带载效率。首先，搭建了Si IGBT 与SiC MOSFET 逆变器实验样机平台。其次，建立了电压源逆变器的损耗计算模型，并对其损耗分布与效率曲线进行理论分析。最后，基于Si IGBT 与SiC MOSFET 逆变器样机平台，在不同开关频率与输出功率下对样机效率进行评估。
+
+论文研究成果对发挥SiC MOSFET 逆变器性能优势，及推广SiC 器件在高开关速度、高开关频率场合下的应用具有重要的学术价值和实践意义。
+
+关键词：SiC MOSFET，电压源逆变器，串扰抑制，死区消除，效率分析
+
+1. 绪 论
+
+1.1 课题背景及研究意义
+
+随着新能源发电技术的不断成熟与现代电力电子器件的快速发展，以风力、光伏发电为代表的新型清洁能源将成为未来能源结构的重要组成部分。逆变器作为风力、光伏等新能源发电系统与交流电网的接口，是保障系统经济、高效、可靠运行的关键部件之一。然而现有逆变系统普遍采用传统硅（Silicon,Si）基电力电子器件，经过近半个世纪的发展，Si 基器件应用已发展十分成熟，其性能几乎逼近由其材料特性所决定的理论极限值，已经无法继续满足逆变器追寻高效、高功率密度和高可靠性的发展要求。
+
+近年来，以碳化硅（Silicon Carbide,SiC）为代表的新型宽禁带半导体器件，凭借其优异的材料特征属性，突破了传统Si 基器件的性能极限，开始逐渐成为产业界的研究热点。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQNsHfqtUZxKbHFmKicaj9fVWHz0mreNcfKUNaiaoy8qoldb3Sicxc3iboFA/640?wx_fmt=png)
+
+表1.1 给出了Si 与SiC 材料特性的对比结果，相比传统Si器件，新型 SiC 器件的主要优势在于：
+
+1）SiC 材料的禁带宽度更大是Si 材料的两倍以上，Si-C 键能更强，对价电子束缚更牢，意味着晶体在更高温度下仍可以继续保持稳定结构，耐受更恶劣的高温环境。SiC 器件的理论最高耐受结温约600℃，而Si器件只有175℃。目前商用Si基器件的最大允许工作结温大多在175℃，受制于高温封装技术，导致现有商用SiC 器件最大允许工作结温大多只有225℃，还有很大提升空间。
+
+  
+2）SiC 材料热导率是Si 三倍之多，更高的热导率意味着更小的器件热阻与更好的散热性能，凭借SiC 器件优良的耐热及散热特性，将有效减小散热装置体积与重量，提升逆变系统功率密度。
+
+  
+3）相比传统Si 基器件，SiC的击穿场强提高了10 倍左右，更高的击穿场强意味着相同器件结构下，SiC可以耐受更高的电压等级。由于金属氧化物半导体场效应晶体管（Metallic Oxide Semiconductor Field Effecttransistor,MOSFET）器件结构不存在电导调制效应，因此相比于绝缘栅双极晶体管（Insulated Gate Bipolar Transistor，IGBT），开关速度更快、开关频率更高。传统Si 基MOSFET 器件结构的耐压等级低于1kV，在更高压应用场合普遍采用IGBT 器件结构。然而IGBT 结构在关断过程中的电流拖尾现象，加大了器件开关损耗，限制了IGBT 开关频率的提升，通常只能工作在20kHz 以下。而基于SiC 材料的MOSFET 结构耐受电压可达1.7kV 左右，IGBT 结构则可达10kV 以上。
+
+  
+4）电子迁移率低意味着在相同晶片尺寸下，SiC 器件导通电阻可能比Si 略微大一些，但是由于SiC 材料的击穿场强远高于Si，因此在相同耐压等级下，SiC 晶片尺寸可以做到更小，从而大大降低了器件导通电阻与结电容大小，减小器件损耗，提高器件开关频率。
+
+  
+5）SiC 材料的饱和电子漂移速率为Si 的两倍左右，漂移速率更高意味着开关速度更快，开关频率更高。SiC 功率器件正因其高开关速度、高开关频率、高击穿场强、高热传导率等优异材料特性，已成为高频、高温、高功率密度电压源逆变器应用的理想选择。
+
+现有逆变器的驱动设计与控制策略普遍只针对传统Si 基器件，然而SiC 与Si 材料特性存在较大差异，因此并不能简单采用SiC 器件代替Si 器件。面对SiC 器件在逆变器应用中带来的新型挑战，需对其驱动设计、控制策略等进行重新设计与优化，才能更好地适应SiC材料出色的特性优势。
+
+MOSFET 器件结构凭借其更高的输入阻抗、更简单的驱动电路、更小的驱动功率以及更出色的开关性能，已逐步成为商用SiC器件的主流研究方向，目前1.2kV与1.7kV 的SiC MOSFET 产品已实现批量生产。然而，随着SiC MOSFET 开关速度加快，桥式电路受寄生参数影响加剧，将引起桥式电路中处在关断状态的器件栅极产生更加严重的电压振荡。由于SiC MOSFET 正向阈值电压与负向安全电压较小，这里以科锐（Cree）公司1.2kV SiC MOSFET 半导体器件C2M0080120D为例，其最小阈值电压为 2.0V，且随结温上升降低，最大负向耐压为\-10V；而英飞凌（Infineon）公司1.2kV Si IGBT 器件IGW15N120H3 的阈值电压为5V，且受结温影响较小，负向耐压为\-20V。正向电压尖峰更容易造成器件不完全导通，进而增加器件损耗，严重时甚至可能引起桥臂短路，使器件过流损坏；负向电压尖峰也更容易造成栅源极击穿，从而缩短器件使用寿命，严重时可能直接损坏器件。但是，现有SiC MOSFET 串扰抑制驱动方法普遍以牺牲开关损耗、开关延时或增加控制成本与复杂程度为代价。如何设计一种新型的SiC MOSFET 门极驱动电路，并分析驱动电路关键参数设计原则，在实现串扰抑制的同时减小开关损耗与开关延时，简化控制复杂程度，对适应SiC 材料的高开关速度特性，提高逆变器工作可靠性、延长SiC 器件使用寿命具有重要意义。
+
+三相电压源逆变器每一相桥臂上、下开关管的驱动信号理想情况下是完全互补的，然而由于开关管在实际工作中存在一定的开通与关断时间，为避免单相桥臂上、下开关管之间产生直通短路现象，通常须向互补驱动信号插入死区时间，以确保开关管可靠关断后再开通。死区时间的注入将引起逆变器实际与理想输出电压出现偏差，从而产生逆变器基波电压幅值损失、低次谐波含量加大、电机转矩脉动加剧的死区效应，且随SiC MOSFET 器件开关频率的显著提升，死区时间在开关周期内的占比增加，死区效应影响愈加严重。然而，现有死区补偿或消除方法大都存在死区补偿不精确或误补偿、受负载参数影响较大、算法复杂、参数整定困难或增加硬件成本的弊端。因此，研究一种简单有效的死区补偿或消除方法，对适应SiC MOSFET 高开关频率特性，提高逆变器输出电压幅值，改善输出波形质量具有重要意义。
+
+因此，为了更好地发挥SiC 器件高开关速度与高开关频率的特性优势，突破传统Si 基器件的性能极限，以满足新型逆变装置追求高频、高效、轻量化与小型化的发展需求。针对SiC 器件高开关速度特性导致的桥臂串扰加剧现象及高开关频率特性造成的死区效应更加明显问题，开展抑制SiC MOSFET 桥臂串扰的门极驱动电路设计研究，并在此基础上，进一步研究基于SiC MOSFET 逆变器的在线自适应死区消除方法。课题研究成果对提高逆变系统工作可靠性、延长器件使用寿命、提升系统运行效率和改善系统输出性能具有重要理论意义与工程应用价值；也为高开关速度下SiC MOSFET 逆变系统的驱动电路设计及高开关频率下逆变系统的控制策略改进提供一定参考价值，进一步推动了SiC 器件在高开关速度、高开关频率场合下的应用。
+
+1.2 国内外研究现状
+
+1.2.1 SiC 器件研究现状
+
+SiC 功率器件的研制主要以美国科锐、德国英飞凌以及日本罗姆（Rhom）等半导体产业巨头为代表。Infineon 公司在2000 年左右就推出首款SiC 肖特基二极管（Schottky Barrier Diode,SBD），并成功运用到通信电源的商业解决方案中，这标志着SiC 新型半导体器件开始由实验研究阶段迈入市场化阶段。当前，以SiC二极管及场效应晶体管为主的功率器件已开始逐步占据市场空间。其中SiC 功率二极管可分为SBD 二极管、PiN 二极管、结势垒肖特基二极管(Junction Barrier Schottky,JBS)三种结构。SBD 结构开关特性出色，PiN 结构漏电流较低，JBS 结构融合了两者的优点。此外，SiC 二极管属于多子导电型器件，几乎没有反向恢复电荷，反向恢复损耗大幅降低，适用于高频应用场合。目前，SiC 肖特基二极管在低压领域应用已初具规模，例如电机驱动、光伏逆变器等诸多产业。SiC场效应管分为结型场效应晶体管（J-Type Field Effect Transistor,JFET）和MOSFET 两种结构，传统JEFT 为常闭开关管，驱动电路复杂且容易短路，MOSFET 凭借其更高的输入阻抗，更简单的驱动电路，以及不存在因少子存储或复合导致的电流拖尾效应，因此还兼具更低开关损耗、更快开关速度与更高开关频率的优点，是目前主流的SiC 场效应管产品，并在商业化的道路上取得了迅猛发展。Rhom 公司在2008 年就成功给本田公司研制了一款基于SiC MOSFET 器件的高频、高效车载逆变装置，该装置工作频率可高达80kHz，而开关损耗却仅有传统Si IGBT 的25%，在同等功率等级下，大大缩小了车载逆变装置体积。且Rhom公司于2010年率先实现第一代商用SiC MOSFET器件的量产，Cree公司随后也在2011年成功投产600V/1.2kV/1.7kV三种耐压等级的商用SiC MOSFET 器件。Rhom 公司不久便在2012 年研制出第二代SiC MOSFET 器件，大大降低了SiC MOSFET 体二极管压降，并首次推出备受业内关注的全SiC 功率模块。在2013 年，台达公司采用Cree 公司生产的第二代1.2kV SiC MOSFET 器件替代电源装置中的传统Si 基IGBT，使电源装置损耗减小21%，器件数量降低了45%。
+
+随着SiC 单晶研制工艺的稳步提升，晶片尺寸由以往常规的2 英寸，到如今已成功实现4 英寸晶片的大规模生产，使SiC 器件价格几乎以每年10%的趋势下降，特别是6 英寸SiC 晶片的成功问世，更有可能极大降低未来SiC 器件的制造成本。SiC 外延层的工艺制造水平也从之前每平方厘米几个缺陷，到现在最少仅有0.05个，极大提高了SiC 功率器件成品率与可靠性。SiC 功率器件的耐压等级随着外延层加厚至如今的数百微米级别，也将有可能实现更大突破。由于SiC 功率器件制造成本快速下降，可靠性大幅提高，耐压等级不断提升，正逐渐开始被市场接受。近年来，SiC 器件的市场占有空间逐年提升，预计在2020 年SiC 商用器件的销售业绩将逼近20 亿美元大关，且市场应用领域也将由低压扩大至中压范围，对Si 基器件市场造成一定程度的冲击。
+
+为了抢占以SiC为典型的新型半导体材料研制的战略竞争制高点。美国于2014年成立了第三代宽禁带半导体创新中心，旨在未来几年解决新型半导体在研制与应用过程中的关键技术问题，制造新一代高效、紧凑和轻量化的电力电子装置。日本在近几年成立了新能源及工业技术发展组织，出台了一系列推动宽禁带半导体技术发展的政策措施，以确保在新一代半导体器件研发与应用领域占有一席之地。欧洲各国也在政府相关机构主导下，围绕宽禁带半导体材料研制与器件制造工艺，加速促进产业链升级。国内关于SiC 等新型半导体材料的研究起步较晚，普遍还处于仿真与实验分析阶段，研制的SiC 功率器件在性能指标方面与国外还存在一定差距。但近年来国家加大支持力度，国内诸多科研院所及高校开展了SiC材料研制工艺制造的相关研究，并已初步建成了SiC 工艺生产线，成功研制出SiC二极管及场效应管样品，对 SiC 功率器件也做了大量理论分析与实验研究，取得了较为丰硕研究成果。
+
+1.2.2 桥臂串扰现象抑制方法研究现状
+
+桥式电路中，同一桥臂开关管快速开断，将引起处在关断模态的互补开关管漏源极电压迅速变化，使之栅漏极米勒电容进行充放电，充放电的米勒电流会在栅源极产生正负向电压尖峰的串扰现象。受SiC MOSFET 器件高开关速度特性及电路寄生参数影响，桥臂串扰现象更加明显。然而SiC MOSFET 的正向阈值电压与负向安全耐受电压比传统Si IGBT 更小一些，串扰问题引起的栅极正负向振荡电压更容易造成开关管误导通或栅源极击穿。且由于寄生参数客观存在，无法从根源上消除串扰问题造成的不利影响，仅能对其不同程度进行地削弱。除了通过优化线路布局与器件封装设计等方式来减小寄生参数之外，还可以采用改进门极驱动设计来削弱串扰影响，从而确保开关管准确动作，提高桥式电路工作可靠性，延长器件使用寿命。
+
+目前，已有一些文献对如何改进门极驱动设计抑制串扰现象展开研究，归结起来主要分为两类。一类是控制栅极驱动阻抗的抑制方法，如文献\[40\]在开通栅极电阻两端反接二极管串电阻支路来减小关断栅极电阻，并在栅源极并一个辅助电容，降低串扰产生过程中的驱动回路阻抗，抑制串扰，但该方法增大了栅源极等效电容，将导致电容充放电时间延长，存在增大开关损耗与延时问题。文献\[41\]提出一种在关断栅极电阻两端并一个辅助电容的方法来降低串扰产生过程中的驱动回路阻抗。由于该方法的辅助电容与栅源极电容串联，使栅源极电容在关断过程中的分压降低，减小了关断速度，增大了关断损耗。文献\[42,43\]提出一种只在开关过程的米勒平台期增大驱动电阻的方法，降低米勒平台期的电压变化率dv/dt，抑制串扰。该方法虽然具有较低的开关延时，且能有效抑制电压电流过冲，但却增大了开关损耗，同时很难准确监测开关状态，监测电路复杂。文献\[44-49\]在栅源极增加MOS 管或三极管串联电容的辅助支路，通过控制MOS 管或三极管开断，减小驱动回路阻抗，抑制串扰。该方法具有较低的开关损耗与延时，但MOS 管开启电压较高，需外加驱动信号，加大了控制复杂程度，虽然三极管只需为其发射结提供0.7V 的正向偏置电压即可导通，无需外加控制信号，但文献所提方法要么只对单一方向的栅源极电压尖峰具有抑制作用，要么栅源极辅助单元较为复杂。另一类是负压关断的抑制方法，文献\[50\]通过选择恰当的开关管关断负压，确保将栅源极正负向振荡电压控制在安全范围内。但是SiC MOSFET 正向阈值电压与负向安全耐受电压较小，导致关断负压的可选区间较小。文献\[51\]提出一种在栅源极产生正向电压尖峰时采取负压驱动，产生负向电压尖峰时采取0V 驱动的抑制方法。但是由于寄生电感的存在，栅源极会同时产生正负向电压振荡，因此该方法难以取得较好的抑制效果。文献\[52\]采用无源稳压二极管将栅源极负向电压尖峰限制在关断负压，但由于缺少限流电阻的作用，使流过二极管的电流大大超过其正常工作值，稳压效果较差。文献\[53\]在栅源极增加基于MOS 管开断的有源钳位电路，该方法能有效将栅源极电压钳位在关断负压，但同样需外加MOS 管驱动信号。
+
+基于此，论文结合驱动阻抗控制与负压关断的串扰抑制方法，提出一种在栅源极增加三极管串电容新型辅助支路的改进驱动设计方法，该方法具有开关损耗与延时较低、控制简单的特点。
+
+1.2.3 逆变器死区补偿或消除方法研究现状
+
+考虑功率器件在开通与关断过程中存在一定延时，为避免逆变器中每相桥臂互补开关管之间产生直通短路现象，通常需要向互补驱动信号中插入死区时间，以确保其安全可靠工作。然而死区时间的注入使逆变器实际输出电压与理想值产生偏差，导致其输出产生基波电压损失、低次谐波含量加大、电机转矩脉动加剧的死区效应。且随着SiC MOSFET 器件开关频率的显著提升，死区时间占开关周期的比重增大，死区效应影响将愈加严重。因此，研究死区补偿或消除方法，对改进逆变系统控制策略，改善输出波形质量有一定的参考价值。
+
+目前，已有一些文献对死区补偿与消除方法展开研究，归结起来主要分为四类：平均误差补偿方法、扰动观测器补偿方法、电流谐波补偿方法、死区消除方法。文献\[56-59\]基于平均误差补偿方法，考虑器件开断延时，开关管和二极管导通压降及其寄生参数等因素，基于平均误差理论，通过离线实验测量、在线模型计算等方法得出平均电压偏差或平均脉冲偏差，并根据电流极性对输入参考电压或开关管脉冲信号进行补偿。但是受器件非理想开关特性影响，很难精确计算出平均偏差值，同时该方法需精确检测电流极性，受负载电流纹波等因素影响，可能造成因电流极性误判而引起误补偿。文献\[60,61\]通过分析平均偏差电压与纹波电流的关系，提出一种基于纹波电流估算补偿电压的死区补偿方法，有效克服了因电流极性容易误判而产生误补偿现象的不足，但此方法在估算过程中的积分环节存在初值不确定问题。文献\[62-67\]基于扰动观测器补偿方法，在同步旋转的dq 坐标系下，将死区引起的偏差电压视为扰动电压，再通过设计观测器获得此扰动电压，并将其补偿到输入参考电压。该方法无需离线实验测量与判别电流极性，但观测效果受负载参数变化影响较大，且很难整定合理的观测器增益系数。文献\[68-71\]基于电流谐波补偿方法，在同步旋转的dq 坐标系下，分离出受死区影响的6次电流谐波含量，根据谐波含量决定补偿电压，并将其反馈至参考电压。该方法无需判别电流极性，但很难有效分离出精确的电流谐波含量，且参数整定困难，补偿算法复杂。文献\[72-75\]基于死区消除方法，根据负载电流极性，仅控制互补开关管的其中一个动作，通过反并联的二极管的续流作用消除死区。文献\[72,73\]采用添加监测反并联二极管电压的硬件电路方式判别输出电流极性，具有一定的死区消除效果，但该方法增加了硬件成本，且无法有效解决由电流纹波引起的过零区域多点穿越问题。文献\[74\]提出一种在负载电流过零区域采用死区补偿方法，而非过零区域采用死区消除方法的混合控制策略，该方法无需硬件检测电路，但存在过零区域误补偿问题。文献\[75\]提出一种在线自适应计算过零区域宽度的死区消除方法，减小了消除算法受器件开关特性的影响，但未考虑电流噪声影响，且单一模数转换器（Analog to Digital Converter,ADC）采样模式下可能引起所判别过零区域宽度小于实际值，影响逆变器工作可靠性。
+
+基于此，论文提出一种基于SiC MOSFET 逆变器的在线自适应死区消除方法，通过自适应计算过零区域宽度，实现整个调制周期内死区效应的有效消除，且算法简单，受器件非理想开关特性和负载参数影响较小，无需外加硬件检测电路。
+
+1.3 本文研究内容
+
+本文以电压源逆变器（Voltage Source Inverter,VSI）为研究对象，在分析传统桥臂串扰抑制驱动方法弊端的基础上，提出一种在栅源极增加三极管串电容新型辅助支路的改进抑制串扰驱动方法。并从降低高开关频率下死区效应影响，减小逆变器输出波形谐波含量，提高输出波形质量出发，提出一种考虑负载电流纹波因素的在线自适应死区消除方法。此外，还研究了Si IGBT 与SiC MOSFET 逆变器的损耗分布与效率评估情况。主要研究内容有：
+
+① 针对高开关速度特性下SiC MOSFET 器件受寄生参数影响更加明显，导致桥臂串扰现象愈加严重，而典型抑制串扰驱动电路又普遍存在增加开关损耗、开关延时和控制复杂程度的问题。因此，论文结合驱动阻抗控制与负压关断的串扰抑制方法，基于控制辅助三极管开断，降低串扰产生过程中驱动回路阻抗的基本思想，提出一种在栅源极增加三极管串电容新型辅助支路的改进驱动方法。分析了改进驱动电路工作原理，研究了改进驱动电路关键参数设计原则，并搭建了双脉冲测试实验平台，在不同驱动电阻、不同输入电压、不同负载电流条件下对改进驱动电路设计进行验证。
+
+② 针对高开关频率特性下SiC MOSFET 逆变器受死区因素影响加剧，而传统死区补偿方法受器件非理想开关特性影响较大，存在补偿效果不佳或误补偿等问题。论文在分析死区效应产生原理及其传统补偿方法的前提下，基于死区消除原则，通过在线计算单个调制周期内电流纹波最大值，提出一种考虑电流纹波因素的在线自适应死区消除方法，从而自适应检测出负载电流过零区域宽度，实现整个调制周期内死区效应的有效消除。并开展SiC MOSFET 逆变器样机实验，比较分析不同开关频率下死区因素对逆变器输出性能的影响，并在不同电压调制比下对论文提出死区消除方法的有效性进行验证。
+
+③ 为了进一步分析SiC MOSFET逆变器样机性能，论文搭建Si IGBT 与SiC MOSFET 逆变器测试样机，建立了三相逆变器损耗计算模型，基于功率模块器件手册对逆变器损耗分布与带载效率进行理论计算分析，并开展Si IGBT 与SiC MOSFET 逆变器样机实验对理论分析结果进行验证。
+
+2. 抑制SiC MOSFET桥臂串扰的改进门极驱动设计
+
+2.1 引言
+
+受SiC MOSFET 器件高开关速度特性及电路寄生参数影响，桥臂串扰现象更加严重，由于SiC MOSFET 正向阈值电压与负向安全耐受电压相比传统Si IGBT更小，且阈值电压随结温升高而降低。串扰问题引发的正负向电压尖峰更容易造成 SiC MOSFET 误导通或栅源极击穿，进而增加开关损耗，严重时甚至会损坏开关管。因此，研究适应SiC MOSFET 高速开关特性的串扰抑制门极驱动方法，对优化SiC MOSFET 桥式电路驱动设计，延长开关器件使用寿命，提高逆变系统工作可靠性具有重要意义。
+
+目前，国内外已有一些文献对抑制串扰驱动设计展开研究，但现有方法大都要么增加开关损耗、开关延时，要么增加控制复杂程度，或者抑制效果不佳。如文献\[40,41\]通过设置关断栅极电阻小于开通栅极电阻，并在栅源极并联或串联辅助电容抑制串扰。但并联辅助电容增大了栅源极等效电容，延长了电容充放电时间，而串联辅助电容又使栅源极电容分压降低，减慢了开关速度，这都增加了开关损耗与开关延时。文献\[44-49\]在栅源极增加MOS 管或三极管串联电容的辅助支路，通过控制MOS 管或三极管开断，减小驱动回路阻抗，抑制串扰。该方法具有较低的开关损耗与延时，但MOS 管开启电压较高，需外加驱动信号，加大了控制复杂程度，虽然三极管只需为其发射结提供0.7V 的正向偏置电压即可导通，无需外加控制信号，但文献所提方法要么只对单一方向的栅源极电压尖峰具有抑制作用，要么栅源极辅助单元较为复杂。文献\[50\]通过选择恰当的驱动负压，确保将栅源极正负向电压尖峰限制在安全范围内，但由于SiC MOSFET 的正向阈值电压与负向安全耐受电压较小，导致难以合理整定关断负压。文献\[51\]提出一种在栅源极产生正向电压尖峰时采取负压驱动，产生负向电压尖峰时采取0V 驱动的抑制方法。但是由于寄生电感的存在，栅源极会同时产生正负向电压振荡，因此该方法难以取得较好的抑制效果。
+
+基于此，论文结合驱动阻抗控制与负压关断的串扰抑制方法，基于控制辅助三极管开断，降低串扰产生过程中驱动回路阻抗的思想，提出一种在栅源极增加三极管串电容新型辅助支路的改进驱动设计方法，该方法具有开关损耗与开关延时较低、控制简单的特点。论文首先阐述了串扰现象产生原理及其典型抑制方法存在的问题，其次分析了改进驱动电路工作原理及其关键参数设计原则，最后，搭建了双脉冲实验平台，在不同驱动电阻、不同输入电压、不同负载电流下对改进驱动电路有效性进行实验验证。
+
+2.2 桥臂串扰产生原理及其典型抑制方法
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQChJoibh1Vl6icOMVVEwDhhD8ZslIiaicnlNZeiakywev5TuDQXzolnxLNAw/640?wx_fmt=png)
+
+图2.1 给出了考虑电路寄生参数的串扰现象产生原理及其典型抑制方法，其中QH、QL分别为上、下桥臂SiC MOSFET 开关管，QH、QL寄生参数包括极间寄生电容CgdH、CgsH、CdsH 和CgdL、CgsL、CdsL，寄生电感LgH、LsH和LgL、LsL，内部栅极电阻RgH(in)、RgL(in)，以及体二极管VDH、VDL。V1H、V1L分别为QH、QL开关管正向开通电压，V2H、V2L分别为QH、QL开关管负向关断电压，VDC 为直流侧供电电压，L 为负载电感。
+
+如图2.1（a）所示，在QH开通之前，QL体二极管VDL续流。QH开通瞬间，QH沟道与VDL换流，QH漏源极电压vdsH迅速下降，QL漏源极电压vdsL迅速上升，QL米勒电容CgdL开始充电，充电电流方向如图中实线箭头所示，此电流在栅极阻抗产生负压降，抬升了QL栅源极电压vgsL，可能导致vgsL大于正向阈值电压Vth，引起QL误导通。
+
+如图2.1（b）所示，在QH关断之前，负载电流流过QH沟道。QH关断瞬间，VDL 与QH 沟道换流，vdsH 迅速上升，vdsL 迅速下降，米勒电容CgdL 开始放电，放电电流方向如图中实线箭头所示，此电流在栅极阻抗产生正压降，降低了QL栅源极电压vgsL，可能导致vgsL超过安全耐受负压，损坏QL开关管。
+
+采用典型抑制串扰驱动方法时，在QH开通瞬间，QL栅极阻抗产生负压降，二极管VD1L 正向导通，CgdL 充电电流通过CL 分流，电流方向如图 2.1（a）虚线箭头所示，QL栅极驱动回路阻抗减小，抑制了QH开通瞬间造成QL栅极出现的正向电压尖峰；在QH关断瞬间，QL栅极阻抗产生正压降，VD1L反向截止，CgdL放电电流通过CL分流，电流方向如图2.1（b）虚线箭头所示，QL栅极驱动回路阻抗减小，抑制了QH关断瞬间造成QL栅极出现的负向电压尖峰。
+
+受SiC MOSFET 高开关速度特性影响，导致上述串扰现象更加明显。虽然典型抑制方法能有效解决串扰问题，但该方法增大了栅源极等效电容，延长了栅源极电容充放电时间，带来开关延时增加、开关损耗增大的弊端。为了提高基于SiC MOSFET 桥式电路的工作可靠性，发挥SiC 器件高开关速度的特性优势，针对桥式电路中存在的串扰问题，本节提出一种抑制SiC MOSFET 串扰的改进驱动设计方法，此方法在抑制串扰的同时兼具开关损耗与延时较低、控制简单的优点。
+
+2.3 改进抑制串扰驱动方法及其工作原理
+
+2.3.1 改进抑制串扰驱动方法
+
+本节结合驱动阻抗控制与负压关断的串扰抑制方法，提出一种在SiC MOSFET栅源极间增加三极管串电容新型辅助支路的改进抑制串扰驱动电路，其原理框图如图 2.2 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQic6oFUDEbONP2cVwDSLNFAveUiab5AlwPozhCGOwlkJYZJ6ohW0oTM6w/640?wx_fmt=png)
+
+改进驱动电路的基本思路是在串扰产生过程中，通过控制三极管开断，使三极管串联电容的辅助支路为充放电的米勒电流提供旁路通道，减小栅极驱动回路阻抗，抑制串扰，并降低辅助支路电容对SiC MOSFET 开关性能影响。由于辅助支路的NPN 与PNP 型三极管只需为其发射结提供0.7V 的正向偏置电压即可导通，因此本节提出方法无需外加控制信号，降低了控制复杂程度与成本。同时尽可能减少辅助支路器件数量，本节所提辅助支路分别仅由一对三极管、肖特基二极管、基极电阻及辅助电容构成。当上下开关管辅助电容Ca\_H、Ca\_L足够大时，共源寄生电感LsH、LsL上的电压相对Ca\_H、Cb\_L电压可忽略不计，Ca\_H、Ca\_L电压几乎保持在关断负压V2H、V2L，从而实现LsH、LsL与驱动回路解耦，减小共源寄生电感LsH、LsL对器件开关特性的影响。
+
+2.3.2 改进抑制串扰驱动电路工作原理
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQYDzotD8RvfyhBorIsAI4gEwiaibs8KzvN0LiaUD2HB7XgrHibZL6BB4ibfQ/640?wx_fmt=png)
+
+改进抑制串扰驱动电路开关过程中的相关波形如图2.3 所示，其中SH、SL分别为上、下桥臂开关管QH、QL驱动信号，vdsL、vgsL分别为下桥臂开关管QL漏源极与栅源极电压。
+
+为了进一步深入分析改进驱动电路开关过程，并考虑死区时间等因素，本节在单个开关周期内，对改进抑制串扰驱动电路的工作原理进行分析。图2.4 给出了共源寄生电感LsH、LsL 被辅助电容CaH、CaL 解耦后，单个开关周期内改进驱动电路在各模态下的工作原理图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQK44p6DKO2QRuqaF4Tbgf7x3ZGYYXNCVjvMKUicV0ic2zf6fb6CB9BzMw/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQtuRGCQKdveEckialIDYvucX9iaLuPnjibznbwmIt7SvOOEibqdqPicsTTNA/640?wx_fmt=png)
+
+开关模态1\[t0~t1\]：QH处在完全开通状态，QL处在完全关断状态，负载电流流经QH沟道，此时驱动回路无电流，辅助支路不工作。
+
+开关模态2\[t1~t2\]：QH开始关断，此时V2H给CgsH 充电，由于VD1H具有单向导电性，且VT2H 输出寄生电容远小于QH 栅源极电容CgsH，因此V2H 给辅助电容CH 充电电流很小，CH 对QH 关断性能影响可忽略不计。与此同时，QH 沟道与QL体二极管 VDL 换流，vdsH 迅速上升，vdsL 迅速下降，QL 米勒电容CgdL 开始放电，放电电流在QL栅极阻抗产生正向压降，使VT2L发射结正偏，VT1L发射结反偏，VT2L 开通，VT1L 关断，放电电流通过辅助电容CL 分流，电流方向如图2.4（b）中的箭头所示，减小了QL栅极驱动回路阻抗，抑制了QL栅极负向电压尖峰。
+
+开关模态3\[t2~t3\]：换流结束后，负载电流通过VDL续流，QH与QL都关断，单相桥臂处于死区状态，此时驱动回路无电流，辅助支路不工作。
+
+开关模态4\[t3~t4\]：QL开始导通，QL体二极管VDL与QL沟道换流，此时V1L给QL栅源极电容CgsL充电，由于辅助二极管VD2L具有单向导电性，且VT1L输出寄生电容远小于CgsL，因此V1L 给辅助电容CL 充电电流很小，CL 对QL开通性能影响可忽略不计。
+
+开关模态5\[t4~t5\]：换流结束后，负载电流流经QL 沟道，QH 处在完全关断状态，QL处在完全开通状态，此时驱动回路无电流，辅助支路不工作。
+
+开关模态6\[t5~t6\]：QL开始关断，QL沟道与QL体二极管VDL换流，此时V2L给 QL栅源极电容CgsL充电，由于辅助二极管VD1L具有单向导电性，且VT2L输出寄生电容远小于CgsL，因此V2L 给辅助电容CL 充电电流很小，CL 对QL关断性能影响可忽略不计。
+
+开关模态7\[t6~t7\]：换流结束后，VDL 续流，QH 与QL 都关断，单相桥臂处在死区状态，此过程驱动回路无电流，辅助支路不工作。
+
+开关模态8\[t7~t8\]：QH开始开通，此时V1H给CgsH 充电，由于VD2H具有单向导电性，且VT1H 输出寄生电容远小于QH 栅源极电容CgsH，因此V1H 给辅助电容CH 充电电流很小，CH 对QH 开通性能影响可忽略不计。与此同时，QH 沟道与QL体二极管 VDL 换流，vdsH 迅速下降，vdsL 迅速上升，QL 米勒电容CgdL 开始充电，充电电流在QL栅极阻抗产生负向压降，使VT1L发射结正偏，VT2L发射结反偏，VT1L 开通，VT2L 关断，充电电流通过辅助电容CL 分流，电流方向如图2.4（h）中的箭头所示，减小了QL栅极驱动回路阻抗，抑制了QL栅极正向电压尖峰。
+
+换流结束后，QH处在完全开通状态，QL处在完全关断状态，工作模式继续转为开关模态1，之后的开关模态与前述类似，这里不再赘述。
+
+由上述分析可知，在开关模态2 与开关模态8 过程中，QH开关瞬间会引起QL产生正负向电压尖峰，本节所提改进方法能有效抑制串扰问题，且削弱了辅助电路对器件开关性能的影响。
+
+2.4 改进抑制串扰驱动电路参数设计
+
+本节以Cree公司第2代1.2kV SiC MOSFET半导体器件C2M0080120D 为例，对改进门极驱动电路关键参数设计原则进行研究，C2M0080120D 器件的基本参数如表2.1 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQ9ew4LnAVXA3fticRUWGsFAy55cHH0V1aL8ZKT6SicibIac4SOYfHObReA/640?wx_fmt=png)
+
+为简化分析，忽略栅极寄生电感影响，在QH开关瞬间，当无源辅助支路不工作，且共源寄生电感LsH、LsL被辅助电容CaH、CaL解耦时，QL驱动回路的等效简化电路如图2.5 所示。图中电压源vin 等效QH开关瞬间对QL的影响，令vin\=at，a表示 QH开关速率，假设QH开关速率保持不变，则a 的绝对值恒定，V2L表示关断负压电源，RgL(in)表示门极驱动内阻。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQpQN2jKpqFoqUGIH817QibQBDCsNwNldsHlZjwFdjfOPiaVSdzljkjYibQ/640?wx_fmt=png)
+
+由基尔霍夫定律可得节点G 的节点电压方程：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQmxsvzNoY1J4Gr6kqqkVc2JrnpdUHF0erMkBGRwRs17lt5vSlLpxMHA/640?wx_fmt=png)
+
+将式（2.1）化为一阶微分方程标准表达式：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQvdrfj7ONicZWyUticoDmbu6bKsymw0hpEHtTHPhTfic7n2hR6frrwy09A/640?wx_fmt=png)
+
+求解式（2.2）可得栅源极电容电压表达式：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQicu8Gib7S9VGDj8iakVFrxrqgIWYjKlWQ5zOK5PBmVDomMZQu5va9mpicA/640?wx_fmt=png)
+
+其中R\=RgL+RgL(in)，Ciss\=CgsL+CgdL。令t\=VDC/a，并带入式（2.3）可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQt5L57ticPIBnWwd4VGGMcLXjBCNHqwwFa0zozLPUDicWz0BONMR6dZJA/640?wx_fmt=png)
+
+要使辅助支路转换到工作状态，则QH 开关瞬间，充放电的米勒电流在QL 栅极驱动电阻RgL上产生的电压降V1 应使三极管发射结正偏，且肖特基二极管正向导通，因此RgL的取值应满足：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQKGOuR0ycjwp93L2nvPwZ6qa0ymibbnYldzuIAnAxQStq7BJ3hjzl5JA/640?wx_fmt=png)
+
+式中，0.7V 为辅助三极管发射结的正向偏置电压，0.4V 为肖特基二极管的正向导通电压。当关断负压V2L取值为5V 时，求解式（2.5）可得栅极驱动电阻RgL的取值范围如图2.6 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQOV9kY2kbAiaITiaFZWgR6ds91bJIWfV8ne888I2DPEAv4WH6ickgAzvoA/640?wx_fmt=png)
+
+由图2.6 可知，在不考虑栅极寄生电感影响时，RgL取值应大于3.9Ω才能满足辅助支路的开通要求，如果考虑其影响，则米勒电流将在寄生电感上产生压降，导致RgL 取值小于3.9Ω便可使栅极阻抗压降满足辅助支路开通要求，使辅助支路工作。因此，本节中栅极驱动电阻取值大于等于5Ω。
+
+当无源辅助支路处于工作状态时，鉴于辅助支路三极管与肖特基二极管的饱和导通电阻只有几十毫欧，可忽略其影响，则在QH开关瞬间，QL驱动回路的等效简化电路如图2.7 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQic7J9N0MG7m5O2hy7ODqkOv3P2ViapBuLHEncYnAThngMiacsW0u31FvA/640?wx_fmt=png)
+
+由基尔霍夫定律可得节点G 的节点电压方程：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQohTLMowYyPss6S3Q3sw7yz6hmPC96okLDwE05SQDV0NbibyVOwvNVcg/640?wx_fmt=png)
+
+将式（2.6）化为二阶微分方程标准表达式：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQrBPgRWPuTuiaf6LedIeUsLlD5Fh7icsWL8pO7J2ShuqMV8clKicczuZCw/640?wx_fmt=png)
+
+求解式（2.7）可得由QH快速开断而引起CL的电压变化量ΔV2 表达式为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQA6egolb4lk7nPpzvorDkqHicWveWnTrrOeYqZAbodL8OdmvFEN3f2kA/640?wx_fmt=png)
+
+式中，A\=CL+Ciss，令t\=VDC/a，可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQlicZbm3tED0icMo28oUnxtFiardDy8xq5OZ1zBNYNHttRbGBNYlEI5zkw/640?wx_fmt=png)
+
+为有效抑制串扰问题，QL栅极正向电压尖峰应低于阈值电压Vth，负向电压尖峰应高于负向安全耐受电压VMAX(neg)，由此可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQJsibLic78pojZEhn1O2I68tewlOMVLhJJlgfAhMXb7g5XGAvU2aBmWUQ/640?wx_fmt=png)
+
+化简式（2.10）得ΔV2<3.9V，图2.8 给出辅助支路中电容CL的取值范围。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQKqPDYbOC4AtO3BMDgBghVLiacSqlyUThOrvHTNt8cQmWcnZnFW0U3Tw/640?wx_fmt=png)
+
+从图2.8 可以看出，当辅助电容CL取值大于10nF 时，ΔV2 变化平缓且裕度较宽，能有效抑制串扰现象，因此，本节中辅助支路电容取值为100nF。此外，在辅助支路三极管基极串一个0Ω电阻，抑制高频噪声干扰。
+
+2.5 改进抑制串扰驱动电路实验验证
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQia6GyhkuqRTmJupdxZtFDdQNIjm8Z2mWekgVZLsM39ib6KVYIV9cib3SQ/640?wx_fmt=png)
+
+为了验证改进抑制串扰驱动电路有效性，本节基于C2M0080120D，搭建了如图2.9 所示的双脉冲测试平台，并对传统驱动电路、典型抑制串扰驱动电路、改进抑制串扰驱动电路进行了实验对比。平台通过信号发生器生成双脉冲控制信号，利用可编程直流电源给驱动电路提供工作电压。采用美国Pearson Electronics 公司的宽频带电流监测器测量负载电流信号，测量结果经同轴电缆连接示波器即可读取电流波形。电压波形则采用北京普源公司的RP1100D 高压差分探头进行测量。负载电感采用400uH 空心电感，不同驱动电路无源器件基本参数见表2.2。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQERVsicqj5lamjgkR21TBTrSEPcZibNL6K3ErsuCbibKccGib6j3J107eZA/640?wx_fmt=png)
+
+图2.10、图2.11、图2.12 分别给出了驱动电阻为10Ω，输入电压为400V，负载电流为5A 时，不同驱动电路的实验波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQtQgYkdTVWGXztrXJF0GzAsWKXE20libaDxv2JE0E1VOcIL3zVo5Jib9Q/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQUlicCibG0qia4dtPicoNb3X7oicHudfj5CuHANj6nDtrHatrMdF89D9jqhw/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQJ26RMqW29hqicvAhuBttWgYg3RMFibm2picdR95icZJZFwDsCia1kruicpFQ/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQYT94ZPFP4G0kvXDtOGBJuhUQVoOm2vPJh3GSEv8qZN8LEpY1UykE7g/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQNctoLibWzWibNqBvduwzIOOofianOEVtncGfNluDIPibCXMojfXGdwDSPQ/640?wx_fmt=png)
+
+通过图2.10、图2.11、图2.12 可得不同驱动电路实验对比结果如表2.3 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQZasB9Iadic8CIu4JvBKD0Frk3sNXNhwVFiczRAxMiaWFbxHvcGQzFxhzA/640?wx_fmt=png)
+
+由实验结果分析可知，传统驱动电路正向电压尖峰高达3.8V，大于QL阈值电压，负向电压尖峰低至\-15.6V，超过了QL负向安全耐受电压，串扰现象明显。典型抑制串扰驱动电路正向电压尖峰降至\-1.3V，负向电压尖峰升至\-8.2V，较好地抑制了串扰现象，但带来增大开关延时与开关损耗的弊端。改进驱动电路正向电压尖峰仅有\-1.6V，负向电压尖峰也只有\-7.9V，更好地抑制了串扰问题。且QH 开关延时与开关损耗与传统驱动相差较小，由此可知，辅助支路电容对QH开关特性影响较小；相比典型抑制串扰驱动，改进抑制串扰驱动中QH 开通延时时间降低了78.1%，关断延时时间降低了65.8%，开关总损耗降低了33.5%。
+
+为了进一步比较分析典型抑制串扰驱动电路与改进抑制串扰驱动电路的驱动特性，本节分别在不同驱动电阻、不同输入电压、不同负载电流条件下，对两者在开关延时、开关损耗、正负向电压尖峰方面进行实验对比。
+
+图2.13与附录表A1给出了当输入电压为400V，负载电流为5A，驱动电阻分别为5Ω、10Ω、20Ω 时的实验对比结果。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQ9ExUZVJXwNyzGyiaKskicwYpZSRp2f8hJEgBbWSENjricvaCg90RKBqhg/640?wx_fmt=png)
+
+图2.14 与附录表A2 给出了当驱动电阻为10Ω，负载电流为5A，输入电压分别为300V、400V、500V、600V 时的实验对比结果。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQEOuaDU7icibh9jqPb6aUgH3dniaxgNlX4ovGEl5z97KE55l5qvYnPbKNw/640?wx_fmt=png)
+
+图2.15 与附录表A3 给出了当驱动电阻为10Ω，输入电压为400V，负载电流分别为3A、5A、7A、10A 时的实验对比结果。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQFUeaDDF4eDOjqDWNia7lt821fl5SHhYXBxgQ0HR2JzX1gaqxObXicEww/640?wx_fmt=png)
+
+分析对比如下实验结果可知，在不同驱动电阻、输入电压、负载电流条件下，两种驱动电路都能有效限制QL栅极正负向电压尖峰在允许范围内，抑制串扰现象。QH 开关损耗随驱动电阻、输入电压、负载电流的增大而增加。当驱动电压幅值一定时，QH开关延时主要取决于驱动回路阻抗与栅源极等效电容大小，因此受输入电压、负载电流变化影响相对较小。驱动电阻增加时，栅源极电容充放电速度减缓，开关延时加长，且由于典型抑制串扰驱动的等效栅源极电容变大，而改进驱动电路的辅助电容对栅源极电容影响几乎可以忽略不计，导致在驱动电阻增大时，改进驱动电路的开关延时相比典型驱动更短。实验结果表明，相比典型抑制串扰驱动电路，改进抑制串扰驱动电路开通延时时间下降了75%左右，关断延时时间下降了65%左右，开关总损耗下降了35%左右，改进驱动电路能有效缩短开关延时，降低开关损耗，且随着驱动电阻、输入电压、负载电流的增加，降低开关损耗的效果更为明显。
+
+2.6 本章小结
+
+为了有效解决典型驱动电路在抑制串扰同时增加开关延时与开关损耗问题，本节提出一种在SiC MOSFET 栅源极增加三极管串联电容新型辅助支路的改进抑制串扰驱动电路及其设计方法，并通过原理分析与实验验证，表明了本节所提改进串扰抑制驱动电路及其参数设计方法的有效性。所得主要结论如下：
+
+① 传统无辅助支路的SiC MOSFET 驱动电路，桥臂串扰现象明显。典型抑制串扰驱动和本节所提改进驱动电路都能有效抑制串扰问题。
+
+② 无论是典型抑制串扰驱动电路，还是本节提出的改进驱动电路，SiC MOSFET 开关损耗都会随驱动电阻、输入电压、负载电流的增大而增加；而SiC MOSFET 开关延时受输入电压与负载电流影响相对较小，但也会随驱动电阻的增大而增加。
+
+③ 相比典型抑制串扰驱动设计，本节所提改进驱动设计有效降低了开关延时与损耗，且随着驱动电阻、输入电压、负载电流增大，降低SiC MOSFET 开关损耗的效果更明显，进一步说明本节方法在抑制串扰和提高开关特性方面更具优势。
+
+3. 基于 SiC MOSFET 逆变器的在线自适应死区消除方法
+
+3.1 引言
+
+考虑功率器件在开通与关断过程中存在一定延时，因此通常需要向互补驱动信号中插入死区时间以避免逆变器桥臂产生直通现象。然而死区时间的注入将导致逆变器产生输出基波电压损失、低次谐波含量增大、电机转矩脉动加剧的死区效应，且随着SiC MOSFET 器件开关频率的显著提升，死区效应将愈加不可忽视。因此，研究适应SiC MOSFET 逆变器高开关频率特性的死区补偿或消除方法，对提高输出电压幅值、改善输出波形质量具有一定的参考价值，同时也为改进SiC MOSFET 逆变器控制策略提供借鉴意义。
+
+目前，国内外已有一些文献对死区补偿与消除方法展开研究，但现有死区补偿或消除方法大都存在死区补偿不精确或误补偿、受负载参数影响较大、算法复杂、参数整定困难或增加硬件成本的弊端。如文献\[56-59\]通过离线实验测量、在线模型计算等方法得出平均电压偏差或平均脉冲偏差，并根据电流极性对输入参考电压或开关管脉冲信号进行补偿。但是受器件非理想开关特性影响，很难精确计算出平均偏差值，同时该方法需精确检测电流极性，受输出电流纹波等因素影响，电流极性容易判别错误而引发误补偿。文献\[62-67\]在dq 同步旋转坐标系下，根据设计的观测器获得由死区因素带来的扰动电压，并将其补偿到输入参考电压，但观测效果受负载参数变化影响较大，且很难整定合理的观测器增益系数。文献\[72,73\]基于死区消除原则，并采用硬件电路监测二极管电压的方式判别负载电流极性，但该方法增加了硬件成本，且无法有效解决因电流纹波引起的过零区域多点穿越问题。文献\[75\]提出一种自适应计算过零区域宽度的死区消除方法，减小了消除算法受器件开关特性的影响，但单一ADC 采样模式下可能引起所判别过零区域宽度小于实际值，影响逆变器工作可靠性。
+
+基于此，本节基于死区消除原则，提出一种考虑纹波因素的死区消除方法，通过在线计算单个调制周期内电流纹波最大值，自适应检测出过零区域宽度，实现整个调制周期内死区效应的有效消除，该方法减小了器件非理想特性对消除算法的影响，解决了模数转换器单采样模式下，消除算法可能存在的检测宽度小于理论宽度问题，且算法简单，受负载参数影响较小，不用外加硬件检测电路。论文首先阐述了死区效应产生原理及其传统补偿方法，其次分析了在线自适应死区消除方法与过零区域宽度设计原则，最后，基于SiC MOSFET 逆变器实验样机平台，比较分析了不同开关频率下死区因素对样机输出性能的影响，并在不同电压调制比下对本节提出死区消除方法的有效性进行验证。
+
+3.2 死区效应分析及其传统补偿方法
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQMiaUmVj5vaB7szrWKpDZUnia8caaQpicZDUwcvwBSskvicia7fhjeVoiacIg/640?wx_fmt=png)
+
+图3.1 给出了电压源型逆变器单相桥臂的结构示意图，其中VTP、VTN分别为上、下桥臂开关管，VDP、VDN 为相应的反并联二极管，定义电感电流iL 从逆变器流出为正，流入为负。为防止互补开关管VTP、VTN 产生直通短路现象，传统控制方式在理想驱动信号间加入一定死区。死区过程中，开关管VTP 与VTN截止，且仅有一个反并联二极管续流，若iL极性为正时，则VDN开通，桥臂输出直流母线电压，反之则VDP 开通，输出电压为零。
+
+为简化分析，忽略开关管、二极管通态压降及寄生参数等因素，可得逆变器A相死区效应如图 3.2 所示。其中S\* P、S\* N分别为VTP、VTN的理想驱动波形，SP、SN为注入死区后的实际驱动波形，V\* AN 和VAN 分别表示理想与实际输出电压波形，Vd 为注入死区后的实际与理想输出电压偏差，td 为死区时间，ton 为开关管开通时间，toff为开关管关断时间。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQmCmsxRAQLqFMakU17WvU9kTrADOfZyFr6AhYQ6tJvian7FcMMib5BvTg/640?wx_fmt=png)
+
+由图3.2 分析可知，在iL\>0 区域，输出电压缩减了一个宽度为terr，周期为Ts，幅值为VDC 的脉冲电压；反之，则增加了一个同等的周期性脉冲电压。当只考虑td、ton 及toff 因素对逆变器输出电压影响时，则等效死区时间terr 如下所示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQJPN9fdL8gcViaULWN85tEZliauVqKqHa1R88El5WzlEiaAaiaFwkicic2smQ/640?wx_fmt=png)
+
+式中：sgn(iL)的值取决于电感电流iL 极性，当iL\>0时，sgn(iL)=1；当iL<0 时，sgn(iL)=-1。根据平均误差理论，可得单个开关周期内，iL 电流极性不同时，实际与理想输出电压偏差为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQ6P9EQvicED4D35H7JNxSAn05O1tDnBxh3BaPHnEadSj4l0iaf2C56ghw/640?wx_fmt=png)
+
+显然，由死区因素所引起偏差电压的累积效果将使逆变器产生输出基波电压损失，电流谐波含量增加的死区效应。
+
+传统死区补偿方法通常是向逆变器输出参考电压前馈一个与Verr 等值反向的电压作为补偿。由于开关管的器件特性受运行条件影响较大，如温度、母线电压、负载电流等，传统补偿方法很难精确计算误差电压，且受电流纹波等因素影响，传统补偿方法容易引起误补偿。
+
+3.3 死区消除原理
+
+3.3.1 电流非过零区域死区消除原理
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQIytLQSzAkJyfSnut1zOkwAPGe55bO9AYbvaWXHJyjBeHJsrqTiaDF1w/640?wx_fmt=png)
+
+根据电感电流极性，将逆变器单相桥臂分解为如图3.3 所示的P 型与N 型两种动作单元。在iL\>0 区域，VTP 开通，iL从VTP 流出，VTN关断，iL通过VDN续流，无论VTN处于何种开关状态，此时均无电流通过，这里称VTP 与VDN为有效动作器件，它们组成了单相桥臂在iL\>0 区域的P 型动作单元，VTN与VDP 为无效动作器件，因此，无需使能开关管VTN；反之在iL<0 区域，VTN开通，iL从VTN流入，VTP 关断，iL通过VDP 续流，无论VTP 处于何种开关状态，均无电流通过，此时VTN与VDP 为有效动作器件，它们构成了单相桥臂在iL<0 区域的N 型动作单元，VTP 与VDN为无效动作器件，无需使能开关管VTP。
+
+由以上分析可知，在电流非过零区域，每相桥臂只工作在一种动作单元模式，因此，只需根据电流极性驱动有效动作器件，屏蔽无效动作器件，则可实现非过零区域的死区消除。
+
+3.3.2 电流过零区域死区消除原理
+
+受电感电流纹波影响，理论上电流过零点实际是具有一定宽度的过零区域，为了使逆变器在过零区域能安全可靠换流，必须在互补开关管中重新恢复死区时间。根据过零区域电流穿越零点次数可分为单点穿越与多点穿越两种情况。以过零区域多点穿越情况为例，当考虑iL 纹波电流时其死区效应如图3.4 所示，其中C1、C2 和C3 分别为3 个过零区域穿越点。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQCkqTicyHnVNDpnMibllm8PwRPxZJYLWDBCANPORy2cL5L2ptgqIfbFxA/640?wx_fmt=png)
+
+由图3.4 分析可知，在iL过零区域，单个开关周期的过零穿越点两侧电流方向相反，实际输出电压在相应开关管关断瞬间能快速作出响应，使过零区域阶段实际与理想输出电压保持一致，死区效应被消除。因此，当考虑电感电流纹波因素时，单个开关周期内实际与理想输出电压的平均误差如下所示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQZ1NTlbksjTgFVO02bHBQxCjOmGwJAiaK378FmemqOr10xYiaA00WREsA/640?wx_fmt=png)
+
+由式（3.3）可知，如果能够准确检测出过零区域电流边界值IP 与IN，判别出过零区域宽度，则可从原理上消除过零区域的死区影响。结合电流过零与非过零区域死区消除原理，即能实现整个调制周期内的死区消除，其示意图如图3.5 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQ8Cibq6V7jELc80rOocTZaoftYarYCpticXrWp7PhbESVW7ogoS86UicaQ/640?wx_fmt=png)
+
+3.4 在线自适应死区消除实现方法
+
+由以上分析可知，如果能使过零区域检测宽度Wzc 在不小于其理论宽度W\* zc的基础上，尽可能地与 W\* zc 接近，就能在整个调制周期内有效消除死区效应。相比于传统死区补偿方法，死区消除方法无需计算偏差电压Verr，减小了消除算法对器件开关特性的依赖程度；同时还考虑了纹波因素影响，削弱了过零区域存在的误补偿现象；并将对过零点的检测问题简化为对过零区域的检测问题，降低了消除算法对电流传感单元的精度要求。但由于过零区域宽度受电压调制比、负载阻抗等因素影响而动态变化，因此必须使消除算法能够自适应检测出合理的过零区域宽度，才能达到较好的死区消除效果。
+
+电流采样结果随ADC 采样模式不同而有所差别。图3.6 给出了逆变器A 相过零区域相关波形图。其中：uc 为载波信号；ur为调制波信号，ur 幅值大小为M√3/2;M为电压调制比，0≤M≤2√3/3；_δ_为输出电压脉宽占空比。由于生成空间矢量脉宽调制（Space VectorPulseWidthModulation,SVPWM）的自然采样法与规则采样法所得脉宽δTs 非常接近，则根据三角形相似定理可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQyxYPBRyiaRbp2MyDVDXQoGAtdDNm4iaPqmYfAP4kvwhGKp4lbXTqVWgQ/640?wx_fmt=png)
+
+求解式（3.4）可得_δ_\=ur，在单个开关周期的电流纹波ΔiL如下所示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQ1U6jY216zOf1RehcCcgxIHFh4PTVJy67kAcrBf8GVksl2OlTnQPMibA/640?wx_fmt=png)
+
+式中，L 为表示输出滤波电感，vout 为逆变器输出电压。将_δ_\=ur 代入式（3.5），即可得到电流纹波ΔiL表达式如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQvoLypiaxTmMSYavpveezkI4URcoaUyAl8Nq8abmEMb5KEQrOCw1V2yA/640?wx_fmt=png)
+
+式中，vout 可由电压传感器获得，ur 在生成SVPWM 控制信号时也已计算出。根据数字信号处理器（Digital Signal Processor,DSP）中增强型脉宽调制模块（Enhanced Pulse Width Modulation Module,EPWM）中断方式不同，ADC 采样模式可分为：（a）EPWM载波上升沿比较值中断模式，（b）EPWM 载波下降沿比较值中断模式，（c）EPWM 载波下溢中断模式，（d）EPWM 载波上溢中断模式四种。图3.6 中Sa、Sb、Sc 和Sd 分别表示不同采样中断模式所得的电流采样点，模式a 所得电流采样波形为iLa，模式b为iLb，模式c 与模式d 为<iL\>，<iL\>可近似等效为实际电流波形iL的平均值。文献\[74,75\]采用EPWM载波下溢的单采样模式，并根据如下判据检测电流过零区域宽度：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQfDBB0YIUIZLkHicvPq99QcHe1U1TwsZWO40439sORFCoudpHfuYyTww/640?wx_fmt=png)
+
+由图3.6 可以看出，在载波下溢的单采样模式下，当电流iL极性由负变正时，逆变器输出电压占空比_δ>0.5_，ΔiL+>ΔiL\-，通过式（3.7）判别的过零区域宽度略大于理论值；然而当电流iL 极性由正变负时，_δ<0.5_，ΔiL+<ΔiL\-，采样点Sc1 的电流幅值大于ΔiL+/2，直到下一个开关周期的采样点Sc2 的电流幅值才小于ΔiL+/2，此时电流iL过零点C1、C2被误判为非过零区域，根据式（3.7）判别的过零区域宽度略小于理论值，这可能影响桥臂换流效果，降低逆变器可靠性，同理可知载波上溢的单采样模式也存在类似问题。虽然通过在不同区域分别采用载波下溢与上溢采样模式可以解决该问题，但双采样模式下必然大大加重了处理器负担。
+
+基于此，本节提出一种考虑纹波因素在线自适应死区消除方法，其算法流程如图3.7 所示。其基本思路是通过在线计算单个调制周期内电流纹波的最大值，并作为过零区域边界的判断条件，从而解决ADC 单采样模式下过零区域检测宽度小于理论宽度的问题，实现整个调制周期内在线自适应消除死区效应的目标。图中iL\_init 为电流纹波初始值，其表达式为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQqElQ5fxC1P7ibLciaUyjUd8pw8Iwg5OgTsXKOSRHsp2uwrKkublbmxTQ/640?wx_fmt=png)
+
+式中，Vom 为逆变器输出电压vout 的幅值，ΔiL\_max 为整个调制周期内电感电流纹波ΔiL+的最大值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQ4N0mhDLmYZF1llfMArhzNwIfbvoD7XJ7QUwWJs1ghHHBf4o2XjiclNw/640?wx_fmt=png)
+
+由图3.7 可知，采用EPWM 载波下溢中断模式，采样电压、电流信号，并对采样信号进行低通滤波，消除高频噪声信号；然后计算比较得出单个调制周期内电流纹波的最大值ΔiL\_max；再利用所得电流纹波最大值ΔiL\_max，根据式（3.7）判别出电感电流过零区域宽度；最后根据死区消除原则，在过零区域内插入死区时间，在iL\>0 非过零区域内驱动P 型动作单元，在iL<0 非过零区域内驱动N 型动作单元。本节所提的死区消除方法将有效解决ADC单采样模式下过零区域检测宽度小于理论宽度的问题，实现整个调制周期内在线自适应消除死区效应的目标。
+
+3.5 在线自适应死区消除方法实验验证
+
+为了验证本节提出的SiC MOSFET逆变器在线自适应死区消除方法的有效性，基于CREE公司1.2kV SiC MOSFET功率模块CCS050M12CM2，开展SiC MOSFET逆变器测试样机实验。实验参数设置如下：直流母线电压VDC\=200V，输出电压基波频率f\=50Hz，负载电阻R\=20Ω，负载电感L\=3mH。当开关频率fs\=10kHz时，输出滤波电感Lf\=1mH，滤波电容Cf\=10uF；当fs\=100kHz时，输出滤波电感Lf\=100uH，滤波电容Cf\=1uF。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQus9szcH2icTUibVLL494Q8rO4YtaJWDqFD0gPRTnbTlSAIT5Gf9xuJBg/640?wx_fmt=png)
+
+图3.8给出了10kHz与100kHz滤波器实物图。可以看出随着开关频率的提高，滤波器体积与质量大幅下降。SiC MOSFET功率模块CCS050M12CM2基本参数如表3.1所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQla2uSiawibMAytHvibnpNyib5F3w2UNLibEqu7yueUPaTw9sfEZXiaArFZibQ/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQiarHgsmhWuHlXoevpWOLeia1bJsBdR50Eb033msJJESsMtKXibnLsz9cQ/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQHt8sEnq6S6JY4yuO7Wt2VyvDrNbk3wQKWH720M1VxV7M8hgw1PSTibA/640?wx_fmt=png)
+
+为了分析不同开关频率下，死区因素对SiC MOSFET逆变器输出性能的影响，基于测试样机平台，本节首先对比研究了开关频率为10kHz和100kHz时，SiC MOSFET逆变器输出性能。
+
+设VDC\=200V，td\=0.8us，M\=0.6，fs分别为10kHz、100kHz，且无死区补偿与消除方法时，实验波形如图3.9所示。其相应电流谐波分析如图3.10所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQyBsRGRHibtPfW9ibQBmUOaVdRNaHT3TQJIibiaSPq8LKJnAicibNcKv2ydxA/640?wx_fmt=png)
+
+由图3.9、图3.10 分析可知，当fs\=10kHz，基波电压幅值V1 为101.8V，电流谐波含量THD 为3.59%，当fs\=100kHz 时，其基波电压幅值V1 降低至75.9V，电流谐波含量增大至8.04%，电流过零钳位现象明显，输出电压与电流波形发生畸变。由此可知，死区效应随着SiC MOSFET 开关频率的提升而更加严重。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQSN0iax6vcobTmUlrt2TyD5nsHpyRqWlayzAriajwg0ia7aVySbib8FY7nw/640?wx_fmt=png)
+
+为了验证所提在线自适应死区消除方法的有效性，本节对比分析了传统死区补偿方法与所提消除算法的实验结果。图3.11 给出了当VDC\=200V，fs\=100kHz，td\=0.6us，M\=0.8 时，无死区补偿或消除方法、采用传统死区补偿方法与采用本节在线自适应死区消除方法的实验波形，其相应电流谐波分析如图3.12 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQNIB4S0tmdRDGnPUBqsG8InzS0DMySmGGDxtMrkWhsNUtXtyQRogCnA/640?wx_fmt=png)
+
+由图3.11、图3.12 分析可得，本节所提死区消除方法能自适应的检测出过零区域宽度。当不采用死区补偿或消除方法时，基波电压幅值V1\=118.2V，电流谐波含量THD=6.30%，电流过零钳位现象明显，死区效应严重；当采用传统死区补偿方法时，基波电压幅值V1\=133.4V，电流谐波含量THD=3.78%，电流过零钳位现象减弱，一定程度上削弱了死区效应；当采用在线自适应死区消除方法时，V1\=136.7V，THD=2.80%，相比传统死区补偿方法，进一步削弱了死区效应，达到较好的死区消除效果。
+
+为了进一步验证本节所提自适应死区消除方法有效性，在不同电压调制比M下，对不同死区补偿或消除方法开展实验对比分析。当VDC\=200V，fs\=100kHz，td\=0.6us 时，其输出电压基波幅值百分比K（以理想基波电压幅值为基准）与电流谐波含量THD 的实验结果如图3.13 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQX78l4soQ1xcwNpUx8dSxVo5kERF1DVXn2rHPJ9yhrsHTCYMJl8yOFQ/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQPpJ7slA5A75ZaDLMMEd08XateahF3srtX23YESSL45HpibrCL44HicjA/640?wx_fmt=png)
+
+分析实验对比结果可知，在不同电压调制比M 下，当不采用死区补偿或消除方法时，即使在高调制比M\=1.1 时，输出电压基波幅值百分比K 只有88.45%，电流谐波失真THD 高达5.52%，死区效应严重，且随着电压调制比M 降低，死区效应进一步加剧；传统死区补偿方法在一定程度降低了死区因素影响，但由于该方法受开关管器件非理想特性及电流纹波等因素影响，不可避免地抑制了传统死区补偿方法的补偿效果；本节所提死区消除方法在不同调制比M 下都能自适应的检测出过零区域宽度，相比传统死区补偿，本节提出的在线自适应死区消除方法，对死区效应的削弱效果更为明显，且随着电压调制比M 降低，削弱作用进一步加强。相比传统死区补偿方法，当M\=0.6 时，本节所提方法 K 提高了2.97%，THD减小了1.30%，当M\=1 时，K 提高了1.38%，THD 减小了0.54%，有效地提高了输出电压基波幅值，改善了波形质量。
+
+3.6 本章小结
+
+针对因SiC MOSFET 器件开关频率显著提升导致死区效应愈加严重的问题。本节提出一种在线检测电流过零区域宽度的自适应死区消除方法，并通过原理分析与实验验证，表明了本节所提消除方法的有效性。所得主要结论如下：
+
+① 随着SiC MOSFET 开关频率的显著提升，死区效应加剧，且随着电压调制比的降低，死区影响愈加严重。
+
+② 虽然传统死区补偿方法一定程度降低了死区效应，但受开关管器件非理想特性及电流纹波等因素影响，存在补偿不精确及误补偿问题，本节所提消除方法无需计算偏差电压Verr，且考虑了电流纹波因素影响，更有效地削弱了死区效应。
+
+③ 本节提出的死区消除方法在不同电压调制比M 下，能自适应检测出过零区域宽度，且解决了ADC 单采样模式下检测宽度小于理论宽度的问题，随着调制比M降低，相比传统死区补偿，本节所提自适应死区消除方法对死区效应的削弱作用加强，有效提高输出电压基波幅值，改善输出波形质量。
+
+4\. SiC MOSFET 逆变器样机研制及效率对比分析
+
+4.1 引言
+
+相比传统Si 基材料，SiC 的临界场强提高了10 倍左右，意味着在同等耐压条件下，SiC 晶片尺寸也可以做到更小，因而SiC 器件通态电阻更小，导通损耗也更低。此外，SiC 材料的饱和电子漂移速率大约是Si 的两倍，更高的漂移速率意味着更快的开关速度和更高的开关频率。且SiC 属于多子导电型器件，几乎没有反向恢复电荷，具有更好的反向恢复特性。MOSFET 器件结构凭借其更高的输入阻抗、更简单的驱动电路、更小的驱动功率以及更出色的开关性能，已逐步成为商用SiC器件的主流研究方向，目前已实现量产的SiC MOSFET电压等级达到1.7kV，样品最高耐受电压更高达10kV。而Si 基MOSFET 随着电压升高，通态电阻迅速增加，限制了耐压等级的提高，现有Si MOSFET 的耐受电压普遍低于1kV，在更高的电压范围内大多采用Si IGBT。Si IGBT 的电导调制效应，具有较强的通流能力，但其开关速度较低，且关断过程中存在拖尾电流现象，开关损耗较高，限制了Si IGBT 开关频率的提升，通常只能工作在20kHz 以下。因此，采用SiC MOSFET取代逆变器中的 Si IGBT 器件，能有效降低损耗，提高逆变器效率。
+
+目前，已有一些文献开展Si IGBT 与SiC MOSFET 逆变器损耗与效率对比分析。文献\[76\]通过仿真计算得出在25℃常温工作时，相同工况下，SiC MOSFET逆变器的开关频率相比 Si IGBT 提高5 倍左右，在125℃高温下，能提高至8 倍左右。文献\[77\]通过对比额定输出功率下的Si IGBT与SiC MOSFET逆变器效率发现，在同等散热条件下，工作在10kHz 的SiC MOSFET 逆变器效率比Si IGBT 提高了2%左右。文献\[78\]分析了不同输出功率下SiC MOSFET 与Si IGBT 逆变器的效率分布曲线，并发现在轻载情况下，两者效率都有所降低，但相比Si IGBT，轻载时SiC MOSFET逆变器效率明显更高。
+
+为了体现SiC 器件在逆变器应用中降低损耗与提高效率方面的优势，本节理论分析与实验对比了Si IGBT 与SiC MOSFET 逆变器测试样机的损耗分布与带载效率情况。首先，搭建了Si IGBT 与SiC MOSFET 逆变器实验样机平台，其次，建立了三相电压源逆变器的功率损耗计算模型，并基于Si IGBT 与SiC MOSFET功率模块器件手册，对逆变器损耗分布与带载效率进行理论计算。最后，在不同开关频率与输出功率条件下开展样机效率实验分析。
+
+4.2 SiC MOSFET 逆变器样机研制
+
+SiC MOSFET 逆变器样机结构框图如4.1 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQiasgHMBPC7HCBFaHNUPP7S92G88K92IvNpQqbDKhFVylPhXMtcRDAtA/640?wx_fmt=png)
+
+由图4.1 可知，SiC MOSFET 逆变器测试样机主要由DSP 控制器、驱动模块、功率模块、电压电流采样模块、电源供电模块、滤波模块与散热模块构成。电压电流传感单元的采样信号经过调理电路之后输入到DSP 控制器的ADC 端口，DSP控制器根据采集到的数字信号，通过调制算法生成PWM 控制信号，PWM 信号经电平转换单元后输入到驱动单元，并输出可以控制功率开关管开断的驱动电压。为避免SiC MOSFET 功率模块在工作过程中温升过高，有必要在功率模块底部安装散热装置，此外，要使逆变器输出正弦电压波形，需在其输出端安装滤波装置。电源供电模块给DSP 控制器、驱动单元、采样单元等提供工作电压。本节将重点介绍SiC MOSFET 逆变器样机中的驱动单元、采样信号调理单元和电源供电单元的硬件设计原理图。
+
+4.2.1 驱动模块设计
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQobAgJ8yy6mmgfoDMaM77cSibstPY63hasnskf82Nv3qHP3pIDpr5g9A/640?wx_fmt=png)
+
+图4.2 给出了SiC MOSFET 改进抑制串扰驱动硬件电路原理框图，驱动单元主要由隔离DC-DC 变换器、光耦隔离芯片、栅极驱动芯片与辅助支路构成。其中，隔离DC-DC 变换器RP-1209D 将12V 输入电压转换为+/-9V 的输出电压，RP-1205S将 12V 输入电压转换为+5V 的输出电压。RP-1209D 与RP-1205S 串联，并将串联节点与SiC MOSFET 源极连接，从而实现若PWM 控制信号输入为+5V 高电平，驱动单元输出+18V 正向开通电压，反之若PWM 信号输入为0V 低电平，则驱动单元输出\-5V 的负向关断电压。RP-1209D 与RP-1205S 输出功率最大可达1W，足以满足驱动电路的功率要求。光耦隔离芯片选择具有快转换速率、宽工作电压范围、低传输延时的ACPL-4800。栅极驱动芯片选择输入阻抗较低、驱动电流较大的IXDN609（最大驱动电流可达9A）。辅助支路中的NPN 和PNP 三极管分别选择具有低饱和压降、高阻断压降且能承受较大集电极电流特性的中等功率三极管ZXTN25100BFHTA和ZXTP25100BFHTA。辅助支路中的肖特基二极管选择低导通压降、快反向恢复特性的1N5819HW-7-F。同时在紧靠SiC MOSFET 源极管脚与负压供电输出端之间并一个较大的辅助电容，实现器件共源寄生电感与驱动回路解耦，减小共源寄生电感对开关特性的影响，驱动电路其他无源器件的取值可依据第二章参数设计原则决定。
+
+4.2.2 采样模块设计
+
+SiC MOSFET 逆变器测试样机的电压、电流传感单元分别选择莱姆公司中精度高、线性度好、速度快及功耗小的LV25-P、LA55-P 模块。由于LV25-P 电压传感单元输入为电流信号，需在LV25-P 输入端串接高精度功率电阻将采样电压信号转化为成比例的电流信号。LV25-P 与LA55-P 传感模块的输出信号也为电流型，同样有必要在输出端串接高精度采样电阻，将电流信号转化为成比例的电压信号供ADC 端口采样。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQE9y2uBWXJPyrVtCCg7ytIMV1hOmUgdNdCk6uMrnOq5qM7OBCwLQMHg/640?wx_fmt=png)
+
+图4.3 给出了逆变器样机的电压、电流信号调理电路原理图。为了降低信号在调理过程中受温漂、时漂的影响，运算放大器U1、U2 选择TI 公司高精度、低温漂、低时漂的OP213ES 芯片。信号调理电路由四部分组成，第一部分为电压跟随器，其作用是减小传感单元阻抗变化对调理电路影响，同时在电压跟随器输入端串接高精度采样电阻，以此获取与传感单元输出电流成正比的电压信号，并在运放输入端口并联正反接二极管，避免输入电压过高而造成运放损坏；第二部分为一个二阶低通滤波器，用来滤除采样信号中的高频噪声成分；第三部分为电压偏置电路，由于电流波形为交流信号，而ADC 采样端口的允许输入电压范围为0~3V，为使端口输入信号满足此要求，需向原信号加入1.5V 的直流偏置电压；第四部分由一阶低通滤波器与限幅箝位电路组成，进一步滤除高频噪声含量，并将ADC 端口采样电压信号的幅值限制在安全电压范围内，避免DSP 芯片过压烧坏。
+
+4.2.3 电源模块设计
+
+SiC MOSFET 逆变器样机的电源模块如图4.4 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQto2Pzpok7icqt4SBsheHGfawibJRibh6t5v6LFQV2FdfTLzYVZzmLxwNQ/640?wx_fmt=png)
+
+隔离电压变换模块MEW20-D12B 将220V 交流电压转换为+/-12V 直流电压，为使变换电路发生过流故障时能快速切断电源，在MEW20-D12B 模块火线输入端串联一个熔断电流为0.5A 的保险丝，同时为防止MEW20-D12B 模块输出电压过高而损坏后级电路，在其输出端并联一个瞬态抑制二极管。+/-12V 直流电压为驱动单元及运算放大器提供工作电压。值得注意的是，DSP控制器的EPWM 模块输出电压只有3.3V，需通过电平转换芯片把PWM 控制信号从3.3V 转成5V。采用隔离DC-DC 变换模块URB2405YMD 将+/-12V 电压转成5V 电压，5V 电压可为电平转换芯片SN74HCT244 提供工作电压。电压调节芯片AMS1084CM-3.3 将实现5V到3.3V 的电压转换，为DSP芯片提供稳定工作电压。ADR423 电压调节芯片将实现5V 到3V 的电压转换，为信号调理电路提供偏置电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQ2ufXKKqvRbnfqibWOTLfva0RULzFHVHGKMeQehfy9xeE8CLrMwkXaibg/640?wx_fmt=png)
+
+基于上述驱动模块、电压电流采样模块、电源模块硬件设计原理图，采用Cree公司的 SiC MOSFET 功率模块CCS050M12CM2，建立SiC MOSFET 逆变器测试样机平台。同时，为了对比Si IGBT 与SiC MOSFET 逆变器的损耗分布及带载效率情况，基于Infineon 公司的Si IGBT 功率模块FS50R12KT4\_B15，建立Si IGBT逆变器测试样机平台。为了提高实验结果的可比性，所选取的功率模块CCS050M12CM2 与FS50R12KT4\_B15 具有相同的额定电压、额定电流以及同样的模块封装，其模块封装如图4.5 所示。Si IGBT 与SiC MOSFET 逆变器样机平台图分别如图4.6、图4.7 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQBjH0JiaAWgB0ugbTqSOv2oLmkCTDaBzMDSn2YPM4qfyD2DHaH6nyOdw/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQ2LDyz5HmOrIt5QGfiboTtYPruGxiauHYgoTXeO3sTYDVbbdWTsx1dQaQ/640?wx_fmt=png)
+
+4.3 逆变器损耗理论对比分析
+
+图4.8 为三相电压源逆变器简化示意图，由六个开关管及相应的反并联二极管组成，这里规定负载电流iL方向由逆变器流出时为正。当iL方向为正时，在一个开关周期Ts 内，上桥臂开关管开通时间为_δ_VTTs，下桥臂反并联二极管开通时间为(1-_δ_VT)Ts；反之，则下桥臂开关管的开通时间为_δ_VTTs，上桥臂反并联二极管的开通时间为(1-_δ_VT)Ts 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQxzLRk2oTs5oMvzat564KXbyqBzx56McQBfnCsNqicvB1EkYQee4pRwA/640?wx_fmt=png)
+
+由于滤波器损耗受磁芯材料、开关频率、电流大小等诸多因素影响，为简化分析，本节未考虑Si IGBT 与SiC MOSFET 逆变器滤波模块损耗，仅比较分析逆变器功率模块本身的损耗分布与带载效率。功率器件损耗主要由导通损耗与开关损耗两部分组成，由于反并联二极管的开关损耗相比开关管很小，可忽略其影响。由于SiC 二极管反向恢复特性很好，因此可忽略其反向恢复损耗。
+
+4.3.1 导通损耗
+
+设负载电流iL表达式为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQGzlhodYScqFHOguKlTciaRwOlibI52eZw2icuuCapkGJSMEFoXrw0MYPA/640?wx_fmt=png)
+
+式中，_ω_为电流角频率。假设负载电流滞后电压相位角为_Φ_，令_θ_\=ωt，则由SPWM调制原理可知开关管的脉宽占空比_δ_VT表达式为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQMxK7jXKggs2MoQibrPuHMRlrIUomibjgd5HrCB8LLEbJNM01w8pAQpyA/640?wx_fmt=png)
+
+式中，M为逆变器的电压调制比。在单个调制周期内，流过开关管的电流平均值表达式如下所示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQtwKfQeicOtXs5j55trCUsIFycc1XfY9ZcNKjRvBuKgSurmORaR91X4Q/640?wx_fmt=png)
+
+将式（4.2）代入式（4.3）可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQZhrvx7U9SgTn42bx7CGY2jj1hdUPcia9sxWa5qepO1s0VvmIpoucVMw/640?wx_fmt=png)
+
+求解式（4.4）可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQiaU4jqvrvWcL2Ypua2TGW07Jj2Cy2Uh9LM9ftnHONYfW9RbPBIUEhMw/640?wx_fmt=png)
+
+反并联二极管的脉宽占空比_δ_VD表达式为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQYrwvx89gdrWUVCVlaukpxibJicEj6kFlV0Grd1zBHoP9Z1oPPxYfiaYrw/640?wx_fmt=png)
+
+同理，可得单个调制周期内流过二极管的电流平均值为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQ67MsNMrUBt7AibTiaS8oKrAicB3EzHMUEJibMqsiaibY60ia4KbB1dyRtv17Q/640?wx_fmt=png)
+
+根据电流均方根值的定义可得开关管电流均方根值表达式为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQAGlyKM5FqMrLwUqy4BRTplfl277Bf2C1pXuOLKusV5L7NA6dI0pD2A/640?wx_fmt=png)
+
+求解式（4.8）可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQQtVcwtM37micCznvoeicGAxKkibbe7SliblFk12hsZt4RdVAznD36gGOzw/640?wx_fmt=png)
+
+反并联二极管电流均方根值表达式则为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQX4L8N716hjL04xoHMjBF7fUz6SVSWh0k57HzkF2SEyndYhFtOuOaxA/640?wx_fmt=png)
+
+求解式（4.10）可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQ0FtanIZViadGggttjxarWPiauT3YTpGvDNrmwTHxUguuaGCyC6pBcQmQ/640?wx_fmt=png)
+
+由此根据式（4.12）可得器件导通损耗：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQLicibzmqnZ26YnialGElBh9U1PC035jYb7zAZUAZn4oTBFaM58EpsplyQ/640?wx_fmt=png)
+
+其中，VVT(on)、VVD(on)分别为开关管与二极管的导通压降，RVT(on)、RVD(on)分别为开关管与二极管的导通电阻。逆变器通态总损耗是单个器件通态损耗的6倍。
+
+4.3.2 开关损耗
+
+当直流输入电压为常数时，且假设在一个正弦调制周期内，开关损耗是开关管电流大小的线性函数，则可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQ7xRoVdl6pa7icSRyGIGhksASJrWWmBTwRFhOOwtgvW42wWmA3h2U87w/640?wx_fmt=png)
+
+式中，Etot 表示开通与关断损耗之和，Emax 表示峰值电流时刻开关总损耗。式（4.14）给出了一个正弦周期内平均开关损耗表达式：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQJ2ofapPLhsbRZo4HQichjexib93CluR5hDL2kiaBibtpEBrIBPBfMzbFYg/640?wx_fmt=png)
+
+式中，载波比m\=fs/fc。由于开关管在半个正弦周期内流过的电流大小为零，所以在这期间开关损耗为零。因此，在额定直流电压VDC(ref)与额定电流峰值Ipeak(ref)下，额定开关损耗Psw(ref)可写成如下积分表达式：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQhsQoSuE4ric31CtM1ZxAzdCrIh9l1PQicPIib3v8d9OvHkfcic1LCwMhGA/640?wx_fmt=png)
+
+为简化计算，假设开关损耗与电压电流成线性关系，则开关损耗表达式为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQq7hRQVHGflbdNI4j15vVcPlXSLq0VVukqzVcxtV5jRF3zBDFPrP0tA/640?wx_fmt=png)
+
+当考虑Si 二极管反向恢复损耗及Si IGBT 电流拖尾效应时，其开关损耗理论计算值应增加30%左右。
+
+4.3.3 不同输出功率下逆变器损耗计算结果
+
+当逆变器输出功率Pout\=0.5kW，开关频率fs\=20kHz 时，通过查阅器件手册可得Si IGBT 与SiC MOSFET 功率模块参数如表4.1 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQYwjcJKK7X0eLt5zY39V1fCTyZ9966zKM3v7L9br7WMkTnxA6pckUeA/640?wx_fmt=png)
+
+基于表4.1 所得功率模块参数，通过损耗理论计算公式，可求出输出功率Pout\=0.5kW，开关频率fs\=20kHz 时，Si IGBT与SiC MOSFET 功率模块损耗分布对比结果如表4.2 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQoHupUDmA7cT3I0IGFQWusqiam8vbb8kkZ86wsK7iao8L6xZAQ12ia14Zg/640?wx_fmt=png)
+
+由表4.2 可知，当输出功率Pout\=0.5kW，开关频率fs\=20kHz 时，Si IGBT 功率模块理论计算总损耗为56.34W，其中导通损耗11.22W，开关损耗为45.12W，效率为89.87%，而SiC MOSFET 功率模块理论计算总损耗为17.10W，其中导通损耗3.72W，开关损耗为13.38W，效率为96.69%。当fs\=20kHz 时，开关损耗占据总损耗的主要部分，相比Si IGBT 功率模块，SiC MOSFET 模块在此条件下损耗不足Si IGBT 的1/3，效率提高了7%左右，表明轻载情况下，SiC MOSFET 功率模块效率明显高于Si IGBT。
+
+图4.9 给出了开关频率fs\=20kHz，不同输出功率下逆变器的损耗分布与效率曲线理论计算结果。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQg9G6O0WGBluuefpLJjibvQBoKvJg89GGicbHRUjC8g6yiaTcFvibTUdnkg/640?wx_fmt=png)
+
+由图4.9 计算结果分析可知，随着输出功率增加，Si IGBT 与SiC MOSFET 功率模块导通损耗与开关损耗都有所增加，但SiC MOSFET 模块损耗明显低于Si IGBT。当输出功率Pout\=2.5kW，Si IGBT 功率模块总损耗为129.84W，效率为95.06%，相比Pout\=0.5kW 的效率提高5.19%；SiC MOSFET 功率模块在Pout\=2.5kW的总损耗为 34.38W，效率为98.64%，相比Pout\=0.5kW 的效率提高1.95%。说明轻载情况下，逆变器效率有所降低，且Si IGBT 效率下降更明显。
+
+4.3.4 不同开关频率下逆变器损耗计算结果
+
+通过查阅器件手册，可得逆变器输出功率Pout\=2kW，开关频率fs\=10kHz 时，Si IGBT与SiC MOSFET 功率模块参数如表4.3 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQZTmfbag58HCM2OJEtHdicjUHia32ZSCKiaOVcNXSjnNhfTrMic2nOgYrPg/640?wx_fmt=png)
+
+基于表4.3 所得模块参数，通过损耗计算公式，可得Pout\=2kW，fs\=10kHz 时，Si IGBT与SiC MOSFET 功率模块损耗分布对比结果如表4.4 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQAE09AhQ1BRiaQawAibuWT8e7N0Z01EjGAQNSQqc3mXkZ7icvsccaMZ1GA/640?wx_fmt=png)
+
+由表4.4 可知，当输出功率Pout\=2kW，开关频率fs\=10kHz 时，Si IGBT 功率模块总损耗理论计算值为70.14W，其中导通损耗为28.5W，开关损耗为41.64W，效率为96.61%；而SiC MOSFET 功率模块总损耗理论计算值为20.82W，其中导通损耗9.36W，开关损耗为20.82W，效率为98.97%。相比Si IGBT 功率模块，SiC MOSFET 模块导通损耗与开关损耗都低于Si IGBT，总损耗不足Si IGBT 的1/3，效率提高了2%左右。
+
+图4.10 给出了输出功率Pout\=2kW，不同开关频率下的损耗分布与逆变器效率曲线理论计算结果。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQyfYicUN5282eRyUEBuCNlvruvPHoabQliceNiacwXscNVASOEfy8alBNA/640?wx_fmt=png)
+
+从图4.10 对比结果分析可知，当fs\=5kHz 时，Si IGBT 模块导通损耗为28.5W，开关损耗为41.64W，而SiC MOSFET 导通损耗为11.46W，开关损耗为4.68W。因此在开关频率较低时，导通损耗占主要部分，由于SiC MOSFET 导通损耗小于Si IGBT，即使低频工作时，SiC MOSFET 逆变器效率仍高于Si IGBT。随着开关频率升高，开关损耗大于导通损耗，开始占总损耗的主要部分。值得注意的是，随开关频率的增加，Si IGBT 功率模块开关损耗急剧上升，效率显著下降，这限制了Si IGBT 逆变器的最高工作频率。
+
+4.4 逆变器损耗实验对比分析
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQGoHwZX0rNJPiaJAIFMTqERH0DfSUhrMWCBqsnFU77UK6sqsMLktQCbw/640?wx_fmt=png)
+
+本节基于Si IGBT 与SiC MOSFET 逆变器样机平台，在不同开关频率、输出功率下对样机损耗与带载效率进行对比分析，实验平台参数设置如表4.5 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQWKtIDQeF1G1OcXKDeXOR5Q3lOPgBq1NdDARq4Fuq8T16ibwLZ3iaxlkA/640?wx_fmt=png)
+
+当电压调制比M\=0.8，功率因素cos_Φ_\=0.9，输出功率Pout\=0.5kW 时，图4.11分别给出了当开关频率 fs\=10kHz、fs\=20kHz 的Si IGBT 测试样机输出电压与负载电流的实验波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQW8UqjqPicYZxmEzjia2G5slolBIVPk6WMfRHnWbUIjXI3B5FR0NXNbGA/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQum6B3t8e7sicQm4L39ste1ceYc5p53HHqBcZ6u13miaPdO34iciaPXicg5w/640?wx_fmt=png)
+
+图4.12 分别给出了当电压调制比M\=0.8，功率因素cos_Φ_\=0.9，输出功率Pout\=0.5kW时，开关频率fs\=10kHz、fs\=20kHz、fs\=50kHz、fs\=100kHz 的SiC MOSFET测试样机输出电压与负载电流实验波形。
+
+Si IGBT 与SiC MOSFET 样机测试结果如表4.6 所示。由图4.11、图4.12 实验波形可以看出，随着SiC MOSFET 开关频率的显著提高，样机输出波形谐波含量增加，说明在高开关频率下死区效应加剧。分析表4.6 所示测试结果可知，Si IGBT样机在10kHz、20kHz 的效率分别89.75%、84.25%，SiC MOSFET 样机在10kHz、20kHz 的效率分别为95.67%、94.07%，SiC MOSFET 样机效率明显高于Si IGBT。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQzldBeb4GZ95D7RrF8J0u5ichRkpQvYrw0WRghm2shVWRxZkk6EdP9MA/640?wx_fmt=png)
+
+SiC MOSFET 样机在50kHz、100kHz 的效率分别为91.2%、86.39%，随着开关频率增加，Si IGBT 与SiC MOSFET 样机损耗增加，效率降低。但相比SiC MOSFET，Si IGBT样机损耗随开关频率增加更加显著，造成SiC MOSFET 样机即使工作在50kHz、100kHz 的高开关频率，其效率仍明显高于工作在10kHz、20kHz 的Si IGBT。
+
+为了进一步对比分析Si IGBT 与SiC MOSFET 测试样机在不同开关频率、不同输出功率下的效率曲线，实验设置了0.5kW、1kW、1.5kW、2kW、2.5kW 共五组不同输出功率，并改变测试样机工作频率，所得实验结果如图4.13 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk1lmK1UiaicuL5ph2gEG2OAQGkXIhPhpXhLoxFJkkWb9Pib1P1UqjBzh7BxGKHRtg14vfkAibjOU0bJw/640?wx_fmt=png)
+
+由图4.13 分析可知，SiC MOSFET 测试样机在Pout\=2.5kW、fs\=10kHz 的效率高达97.49%，比同等工作条件下的Si IGBT 样机提升了5%左右。在不同输出功率下，随着开关频率的增加，Si IGBT 样机效率下降更快，导致即使SiC MOSFET样机工作在50kHz、100kHz 高开关频率，其效率仍明显高于10kHz、20kHz 工作频率下的Si IGBT 样机。值得注意的是，当Si IGBT 逆变器开关频率超过20kHz时，容易造成 Si IGBT 器件误导通，因此现有Si IGBT 逆变器普遍工作在20kHz频率以下。此外，SiC MOSFET 与Si IGBT 样机在轻载时，效率有所下降，但SiC MOSFET 样机效率仍明显高于Si IGBT。
+
+4.5 本章小结
+
+为了对比分析Si IGBT 与SiC MOSFET 逆变器的损耗分布与带载效率，本节搭建了Si IGBT 与SiC MOSFET 实验样机平台，建立了三相电压源逆变器的功率损耗计算模型，并基于Infineon 公司的Si IGBT 功率模块FS50R12KT4\_B15与Cree公司的SiC MOSFET 功率模块CCS050M12CM2 数据手册，对Si IGBT 与SiC MOSFET 逆变器损耗分布与效率曲线进行理论分析计算。最后基于Si IGBT 与SiC MOSFET 实验样机平台开展实验验证。所得主要结论如下：
+
+① 当开关频率较低时，导通损耗占逆变器损耗的主要部分，由于SiC MOSFET导通损耗小于 Si IGBT，导致即使工作在较低开关频率，SiC MOSFET 逆变器效率仍高于Si IGBT。
+
+② 随着开关频率升高，逆变器效率降低，开关损耗开始占逆变器损耗的主要部分。由于SiC MOSFET 开关损耗低于Si IGBT，使得SiC MOSFET 逆变器即使工作在50kHz、100kHz 的高开关频率，其效率仍显著高于10kHz、20kHz 工作频率下的Si IGBT。
+
+③ 轻载情况下，逆变器效率有所降低，相比Si IGBT，SiC MOSFET 逆变器在轻载情况下仍然具有更高的效率。
+
+5. 结论与展望
+
+本文以三相电压源逆变器为研究对象，在分析传统抑制串扰驱动方法弊端的基础上，提出一种在栅源极增加三极管串电容新型辅助支路的改进抑制串扰驱动方法。并从降低高开关频率下死区因素影响，减小逆变器输出波形谐波含量，提高输出波形质量出发，提出一种考虑电流纹波因素的在线自适应死区消除方法。最后，搭建了Si IGBT 与SiC MOSFET 逆变器的实验样机平台，对比了Si IGBT与 SiC MOSFET 实验样机的损耗分布与效率评估情况。所得主要结论如下：
+
+① 在详细分析典型串扰抑制方法弊端的前提下，基于控制辅助三极管开断，降低串扰产生过程中驱动回路阻抗的思想，提出一种在栅源极增加三极管串电容新型辅助支路的改进抑制串扰驱动方法，并分析了改进驱动电路工作原理及其关键参数设计原则，搭建了双脉冲测试实验平台对改进方法的有效性进行验证。实验结果表明，传统无辅助支路的SiC MOSFET 驱动电路，串扰现象明显，典型抑制串扰驱动和论文提出的改进门极驱动电路都能有效抑制串扰问题；无论是典型抑制串扰门极驱动，还是改进门极驱动，SiC MOSFET 开关损耗都会随驱动电阻、输入电压、负载电流的增大而增加；而SiC MOSFET 开关延时则受输入电压与负载电流影响相对较小，但也会随驱动电阻增大而增加；相比典型抑制串扰驱动电路，改进驱动电路有效降低了开关延时与损耗，且随着驱动电阻、输入电压、负载电流的增大，降低SiC MOSFET 开关损耗的效果更明显，进一步说明改进抑制串扰驱动电路在提高开关特性方面更具有优势。
+
+② 在分析死区效应产生原理及其传统补偿方法的前提下，基于死区消除原则，提出一种考虑电流纹波因素的在线自适应死区消除方法。通过在线计算单个调制周期内电流纹波最大值，从而自适应检测出过零区域宽度，实现整个调制周期内死区效应的有效消除。并基于SiC MOSFET 逆变器测试样机开展实验验证了论文所提消除方法的有效性。实验结果表明，随着SiC MOSFET 开关频率的显著提升，死区效应加剧，且随着电压调制比M 的降低，死区影响愈加严重；虽然传统死区补偿方法一定程度降低了死区效应，但受开关管器件非理想特性及电流纹波等因素影响，存在补偿不精确及误补偿问题，论文所提消除方法无需计算偏差电压Verr，且考虑了电流纹波因素影响，更有效地削弱了死区效应；且论文所提死区消除方法在不同电压调制比M 下，能自适应检测出过零区域宽度，解决了ADC单采样模式下检测宽度小于理论宽度的问题；此外随着调制比 M 降低，相比传统死区补偿，自适应死区消除方法对死区效应的削弱作用更明显，有效提高了输出电压基波幅值，改善了输出波形质量。
+
+③ 在建立三相逆变器损耗计算模型的前提下，基于功率模块数据手册，对逆变器损耗分布与带载效率进行理论计算分析，并搭建了Si IGBT 与SiC MOSFET逆变器样机平台对理论分析结果开展实验验证。研究结果表明，开关频率较低时，导通损耗占逆变器损耗的主要部分，由于SiC MOSFET 导通损耗小于Si IGBT，导致工作在较低开关频率，SiC MOSFET 测试样机效率仍高于Si IGBT；随着开关频率升高，样机效率降低，开关损耗开始成为损耗的主要部分，由于SiC MOSFET开关损耗低于 Si IGBT，使得SiC MOSFET 样机即使工作在50kHz、100kHz 的高开关频率，其效率仍明显高于10kHz、20kHz 工作频率的Si IGBT；在轻载情况下，样机效率有所降低，但相比Si IGBT，SiC MOSFET 轻载时同样具有更高的效率。
+
+本文对SiC MOSFET 桥臂串扰抑制方法及在线自适应死区消除方法进行了研究，同时对比分析了Si IGBT 与SiC MOSFET 逆变器样机的损耗分布与带载效率，取得了一定研究成果，并得到了一些结论。但仍有以下内容值得进一步研究：
+
+① 虽然本文提出的改进抑制串扰驱动方法有一定效果，且能有效减小开关损耗与开关延时，但由于辅助三极管耐受电流能力较弱，当直流侧电压过高，负载电流过大时容易导致辅助三极管损坏，使辅助支路失去抑制串扰功能；同时门极驱动印刷电路板（Printed Circuit Board,PCB）的线路布局规则及功率器件的封装设计规则都将影响驱动特性；如何提高辅助支路在高压大电流条件下的工作可靠性，优化门极驱动PCB 线路布局及改进器件封装设计规则还有待进一步研究。
+
+② 虽然本文对比分析了Si IGBT 与SiC MOSFET 逆变器样机的损耗分布与带载效率情况，但只考虑了功率模块本身，并未计及输出滤波器损耗，也没有研究散热装置设计及逆变器的热分布情况。如何合理优化设计逆变器滤波与散热装置，分析逆变器输出滤波器损耗及热分布情况，搭建高功率密度的测试样机平台仍需进一步研究。
+
+③ 本文搭建的Si IGBT 与SiC MOSFET 逆变器测试样机并未考虑电路保护单元，增加电路保护单元能在故障发生时有效动作，避免功率器件损坏，减小事故带来的损失。如何设计逆变器的保护动作单元仍需进一步研究。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)

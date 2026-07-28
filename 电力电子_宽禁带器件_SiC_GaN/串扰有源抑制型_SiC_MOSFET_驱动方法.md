@@ -1,0 +1,202 @@
+# 串扰有源抑制型 SiC MOSFET 驱动方法
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/aUrRWLY78cd9eTHbb8df\_Q](https://mp.weixin.qq.com/s/aUrRWLY78cd9eTHbb8df_Q)
+
+文章来源：中国电机工程学报
+
+作者：李国文 1，杭丽君 1，童安平 2，曾庆威 1，何远彬 1，沈磊 1，曾平良 1，李国杰 2(1．区域能源互联网技术浙江省工程实验室(杭州电子科技大学)，浙江省 杭州市 310018；2．电力传输与功率变换控制教育部重点实验室(上海交通大学)，上海市 闵行区 200240)
+
+摘要：与传统 Si 材料相比，SiC 材料有着更高的场强，热导率和能隙。因而 SiC MOSFET 更适用于高压高频的工作场合，以提高系统效率。然而随着开关速度的提高，栅极串扰问题变得更为严重。文中根据 SiC MOSFET 的开关特性，提出一种具有电平移位功能的高速负压驱动器。考虑到负压驱动对串扰的抑制能力有限，在此基础上加入无需主动控制的米勒钳位回路实现了对串扰的有效抑制，并克服了传统的米勒钳位方式增加驱动控制复杂度的问题。双脉冲测试和串扰测试结果表明，该驱动电路在保持高速开关的同时串扰电压得到了有效的抑制。
+
+关键词：SiC MOSFET；驱动电路；电平移位器；串扰；米勒钳位
+
+0\. 引言
+
+SiC 材料在场强、能隙、热导率等方面有着数倍于传统的 Si 材料的性能，这使得第三代宽禁带半导体 SiC 器件更适用于高压、高温、高频的工作场合，能满足电力电子技术的发展需求，成为未来大功率变换器的优先选择。相比于传统大功率 Si MOSFET，SiC MOSFET 更耐高压的同时又有着 Si IGBT 所不具备的高开关速度，非常适于高压高频应用。然而更高的电压和开关频率意味着更大的dv/dt 和di/dt，导致SiC MOSFET相比于 Si MOSFET对线路的寄生参数更为敏感，因此传统的 Si MOSFET 驱动电路往往不适用于 SiC MOSFET，需要重新针对 SiC MOSFET 特性设计相应的驱动。此外在桥式电路中，克服器件高速动作引发的串扰问题也变得更为重要。
+
+针对桥式电路中 SiC MOSFET 的高速导通带来的串扰问题，引起了学术界和工业界的高度重视，其开关特性的研究和驱动电路的设计成为热点。抑制串扰问题常用的办法有 4 类：1）直接增大驱动电阻，降低开关速度。然而，开关速度的降低会导致开关损耗的增加；2）栅源极并电容：文献\[11-13\]提出在器件关断稳态时，在栅源极间并入小电容来抑制串扰电压，但在一定程度上会增大开关损耗；3）负压驱动：CREE 公司的设计参考采用了光耦隔离驱动，在 -VEE和地之间并联多个电容来抑制环路电感，然而其需要额外的负压源。为了替代负压源，文献\[15\]设计了一种简单的 RCD 电平移位回路制造负压，然而其开关速度较慢，不宜进行双脉冲测试。4）米勒钳位：文献\[16\]通过在驱动回路加入两个辅助晶体管和二极管来主动调节回路阻抗，提高了器件开关速度，并有效抑制了串扰。然而新增的有源器件需要主动控制，增加了控制的复杂度。
+
+针对上述问题，本文设计一种高速且具有强串扰抑制能力的驱动电路。首先，利用无源器件制造可调负压代替负电压源，实现结构简单、成本低廉、负压灵活可调的同时解决文献\[15\]所提出结构开关速度慢的问题。其次，由于负压驱动需考虑 SiC MOS 管较小的反向门极耐压，因此对串扰抑制能力有限，在负压驱动的基础上设计无需主动控制的米勒钳位回路，在器件关断时自动实现钳位功能，为器件在关断稳态时提供低阻抗通路，从而进一步抑制串扰。最后，针对 Wolfspeed 公司的 900V SiC MOSFET 搭建相应的双脉冲测试平台，通过双脉冲测试和串扰(Crosstalk)测试验证所提出驱动的高速性和稳定性。
+
+1\. 桥臂电路中 SiC MOSFET 的开关过程及驱动要求
+
+图 1 为一个典型的带有电感负载的半桥电路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139pBdSPSjz1sbKuoydictb24kLiabEfl0LAvnmPRzyLAOhial5DKOqwAUIw/640?wx_fmt=png&from=appmsg)
+
+图中：Cgs、Cds 和 Cgd为 MOSFET 的栅–源、漏–源和栅–漏极电容；Lg、Ld 和 Ls 为 MOSFET 的三端寄生电感；Lld 和 Lls 分别为漏极和源极线路上的寄生电感；Rg 为栅极内部的电阻；L 为加在下管两端的电感负载；CDC 为直流侧电容；UDC 为直流源。以图 1 为例进行分析，假设下管 Q2 保持关断，上管Q1 进行开通关断，假设流经负载电感 L 的电流保持不变，得到典型的开关波形如图 2 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139giaBzym6HOibKsGIyWiahMPYRsuxYtjJCwUfOsxLrV4SE5Mjic9wZDcImg/640?wx_fmt=png&from=appmsg)
+
+根据文献\[17\]，0—t1 期间，上管 Q1 门极电压上升至阈值电压 Vth。t1 时刻，上管开始导通，id\_h上升，下管续流 id\_l 下降。t2 时刻，上管进入米勒平台，母线电压加在下管两端，较高的 dvds\_l/dt 作用在下管 Q2 的栅–漏电容 Cgd\_l 和 di/dt 作用在共源电感 Ls\_l 和 Lls\_l上，两者共同导致了下管 Q2 的栅源极电压 vgs\_l 的上升，若此时 vgs\_l 上升至阈值电压Vth 将导致下管的误导通。t3 时刻米勒平台结束。t3到 t4 区间，vgs\_h 上升至 Vg，上管 Q1 进入稳定导通阶段。关断过程与开通过程近似，其中 t6 到 t8 期间，较高的 dvds\_l/dt 和 di/dt 分别作用在 Cgd\_l和共源电感上降低了 vgs\_l，此时若 vgs\_l 超过器件的反向阈值将导致器件的损坏。
+
+通过上述分析可知，为了优化驱动性能，应当尽可能选用低阻值驱动电阻加速开通关断；减小驱动回路阻抗和采用负压关断来抑制串扰。据此本文将提出一种可以灵活提供可调门极电压的 SiC MOSFET 快速驱动电路。
+
+2\. 具有可调门极电压的驱动回路设计
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS1395NkUibgzibTR9dEeWJ0PbwfB8kibFF9N3873YHG1CiccrS8dYUuiaZOAQpQ/640?wx_fmt=png&from=appmsg)
+
+综合上述要求本文提出了一种具有可调门极电压的驱动回路。在器件导通时，提供高电压加速导通，在器件关断时，提负压加速关断并抵抗扰动。以下管驱动为例，具体电路如图 3 所示，该电路由两个电容 C1 和 C2，一个稳压管 D1，两个快恢复二极管 D2、D3 和 3 个电阻 R1—R3构成。其中，图腾柱电路 T1 和 T2 用来放大驱动电流，Vcc为驱动电源输出电压。详细的工作原理如下。
+
+2.1 开通过程
+
+导通稳态时，下管的等效导通电路如图 4 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS1394pzxiamHGFKiacwwRG9RxL9Psic8ZAfiaFekKy9ibjp9XxqLUW2weUuQduw/640?wx_fmt=png&from=appmsg)
+
+下管导通期间，驱动信号输出高电平，图腾柱上管T1 导通。二极管 D2 导通，电容 C1 充电，电压为稳压管 D1 反向电压 vd1。因此，在忽略 T1 导通压降的条件下，下管 Q2 的门极驱动电压 vgs为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139PBxCW8cJLSdntibtXAA2WJ0w6soic1X5xvIZZ3ibQUmqCUQlJWYrrkFnA/640?wx_fmt=png&from=appmsg)
+
+下管 Q2 的详细导通过程如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS1392NgDyY4HVEaQogz4aV1ibiae6JT0icQgibOXzW0oj8bB2pgxC5rCLQX7GA/640?wx_fmt=png&from=appmsg)
+
+在导通瞬态，Vcc 同时为 C1、C2 和 Cgs 充电。假设 Vcc为理想电源且忽略 T1 导通压降，T1 导通时的等效电路如图 5 所示。该过程可由下式表述为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139aiaq9NpnXwjCoP7aADvsjvuCpLlfwY2RREGEickr2pGykWGia679a8Xpg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139FlE5nWricltA0qILx5NOBJ8wZwHmUdmRe4CNwVuzqjzO6CK0TkLUFuA/640?wx_fmt=png&from=appmsg)
+
+利用拉普拉斯变换及其反变换可求解出 vc1(t)为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139eI1IFOZreia6iaH6iaecUs1CXLA9zeTOT4Upmicp3j2eiaR8TYR9icbsBnmg/640?wx_fmt=png&from=appmsg)
+
+由等式(5)可知 vc1(t)初值为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139rAaxzSJmLK4ibbmSHteO4ahPEcRvWjMfQTztKYiasUqGlBRbN1XvJVwQ/640?wx_fmt=png&from=appmsg)
+
+随后，在稳压管 D1 的作用下，vc1(t)终值为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139Qoj0GerSU7h63JibFcedeE3iaNBm1AMJibLMZPW5q7xcCLGvAxbqKmyQg/640?wx_fmt=png&from=appmsg)
+
+由于 C1、C2容值远大于结电容 Cgs，在忽略结电容 Cgs 的条件下，若 C1、C2、D1 和 Vcc满足式(8)，则驱动回路导通的启动过程至稳态过程的过渡将大大缩短。因此可以通过合理配置 C1、C2、D1 和Vcc的参数来加速导通过程。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139OlR9WpQwuO5MQ8L6qyC3qs2qg0iaMCO4INbJEibHqTv21ib7j1EHkOCqw/640?wx_fmt=png&from=appmsg)
+
+最后，为了求解 vgs，联立式(2)—(4)与式(9)，假设 C1 和 C2 两端电压初值分别为关断稳态的电压Vc1off和 Vc2off。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139BFstfSaQicFsBOYtor9aHIxWhcRUnuUAYf5PCuE7tbnxSYlXv4Uia0lQ/640?wx_fmt=png&from=appmsg)
+
+利用拉氏变换及其反变换可求解出 vgs(t)为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139eWBC9NJf7xDswsP6wib9ls643vLd1CHNI1iamHjPXdKLRAHrqmkQSy7g/640?wx_fmt=png&from=appmsg)
+
+其中：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139QDrOfcDyR6PGeJYEXSicNFmcG6ljFiavb0PcvYjbsma3uOyHHI7CPDOA/640?wx_fmt=png&from=appmsg)
+
+式(1)中已给出 vgs 的终值，因此电容 C1、C2 两端稳态导通电压为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139T0jnhrh2ib0WXs0l4JLwGmDaawGepUYfwlmOu2wHawhju1SeuBdUrbw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139icLToIWEMKWKDicJv6KVxT9HtqygW0FrLSGY5ticWxmlZBcBdciazoLB6A/640?wx_fmt=png&from=appmsg)
+
+2.2 关断过程
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139q9cuhTDicSIEp1YLsENTxMhGv8SSviaiaoaKic469AtW9JmX5WgHa665qg/640?wx_fmt=png&from=appmsg)
+
+图 6 为关断阶段的等效回路。当驱动信号置低时，图腾柱上管 T1 关断，下管 T2 导通。此时，二极管 D2 反向关断，D2、C2 和 R1 构成的 RCD 回路从驱动回路断开。由于 Cgs 远小于 C1，结电容 Cgs可视为并联于 C1 两端。假设 C1 和 C2两端电压初始条件为稳态导通电压 Vc1on 和 Vc2on。则关断过程等效方程为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139pnaJS70vibHeP4TnzPEE9P3mGYdLFBDiaWZ7SaPibCtMiaJRUxlh9oR41g/640?wx_fmt=png&from=appmsg)
+
+利用拉氏变换即可求解 vgs。终值定理表明 vgs终值为 0。然而，若开关频率足够大，时间常数足够长，则可忽略 C1 的放电，解出 vgs为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139P9hlcAxNMEBUJWhIdoC8WG7FwHdwC2jyExdvntMypbich8hWD3ygetg/640?wx_fmt=png&from=appmsg)
+
+因为 C1 容值远大于 Q2 的结电容 Cgs，因此忽略 Cgs 的条件下代入终值定理可得 vgs的终值为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS1391QkSbONFbZjJe2fQMZjtFvgSSGTicVB3qGdTqOLSePgGXxdKDJR8vTQ/640?wx_fmt=png&from=appmsg)
+
+通过电平移位器的门极电压 vgs 如图 7 所示，
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139Z5AwqSS4eeRH60IHCZeQByob7kUjgQjRUibNZLgd3Vqblq9mygNRicsg/640?wx_fmt=png&from=appmsg)
+
+导通和关断电压分别降低了 vd1。因此可以通过选择不同反向电压的稳压管 D1来获得所需的关断负压，根据式(1)，通过调整电源 Vcc和稳压管 D1 来获得所需的导通电压。
+
+在器件关断期间，二极管 D2 关断，D2、C2 和R1 构成的 RCD 回路从驱动回路断开，此时，高阻值电阻 R1 被用于轻微泄放电容 C2 存储的电荷：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139rBHafbf8KVxg6Omr7Sg1m1sHkBYnrx84sgSibL2r6nIAopbl1Qs5NZw/640?wx_fmt=png&from=appmsg)
+
+在关断期间结束时，vc2的电压为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139Vxrh6ic7RpRf2YGp8LP2tXwo3RuPJSLOSQpARcZZQf6Nk23cgjYhc9A/640?wx_fmt=png&from=appmsg)
+
+式中：D 为导通占空比；Ts 为开关周期。若该支路没有 R1，则不断累积在 C2 上的电荷会导致 vc2 上的电压升高，进而影响到 vgs 的电压。
+
+3\. 串扰抑制电路
+
+第 2 节中已经阐明了桥式电路中的串扰发生机理。因此，可采取两方面的措施来克服由串扰带来的干扰。
+
+首先，如图 8 所示，垂直式的 PCB 环路设计使得正反面的电流路径尽可能交叠可以最大化抵消磁场的影响，进而最小化杂散电感。其次，器件的开尔文封装有助于减小功率侧电流对驱动侧影响。当使用非开尔文封装的器件时，可以在 PCB布局中引出开尔文源极来改善该问题。
+
+对于抑制串扰电流 igd 方面，本文在图 3 电路结构的基础上增加了由 2 个低压 N 沟道 MOS 管 T3和 T4 构成米勒钳位辅助回路，其工作原理如图 9所示。假设下管处于关断稳态，此时 T3、T4 源极电压被钳位至 -vd1，由于栅源极的电势差 -vd1 驱动T3、T4 导通。在上管 Q1 导通时刻，高速的 dv/dt 作用在下管 Q2 的结电容 Cgd 上产生串扰电流 igd，而由于 T3、T4 的导通电阻极小，因此 T3、T4 导通形成的低阻抗回路将原本的 R2、R3 关断支路旁路使得原本流入结电容 Cgs 的电流大部分转而流经此处。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139gRR83bSfwWyhllkNDvfibzqSVJCuysKW5Rpao0kleVgCX8R8TMMqkcg/640?wx_fmt=png&from=appmsg)
+
+因此，有效抑制了因串扰电流 igd 引起的 vgs 的电压尖峰。当上管关断时，原理与导通类似，此处不再赘述。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139NL9EVJsAsia4ZZ9UiaKnY3ia3B0HCKRY24KoZrs3pYPscT7qrkteEBGiaA/640?wx_fmt=png&from=appmsg)
+
+4\. 实验结果
+
+为验证本文提出的驱动电路和理论分析，搭建了相应的双脉冲测试平台。待测器件为 Wolfspeed公司生产的900V 35A SiC MOSFET C3M0065090J，上升时间为 10ns。为满足测量需求，示波器使用了Tektronix 公司的 MDO3054，带宽为 500MHz；用于测量栅源极电压的探头为 Tektronix 公司的TPP0250，带宽 250MHz；用于测量漏源极电压的探头为 ROHDE&SCHWAR 的 RT-ZH11，带宽400MHz；电流测量使用了 T&M Research 公司的SSDN-010 同轴分流器，带宽 2GHz。使用 DSP28379作为控制器产生触发信号。
+
+针对图 9 所示驱动电路，本实验中给出各无源器件参数，且可作为实际应用中选取的设计参考。
+
+首先选用高低电平为 0/20V(Vcc = 20V)的电源芯片进行供电。通常 SiC 负压驱动电平设为 -5V，对于D1 根据式(7)选用 5.1V 稳压管。在稳压管工作电压和 Vcc电平确定的前提下，电容 C1、C2 的比例关系为 C1/C2 = 3/1。考虑到 SiC 寄生电容 Cgs 为 pF 级，为了实现更快的电平调节，同时考虑到关断期间C2 的衰减，C1，C2 分别选取为 0.3uF 和 0.1uF。R1用于轻微泄放 C2 内电荷，阻值选取为 50kΩ。D2，D3 选用快恢复二极管 1N5819。驱动电阻 R2、R3根据实验需求分别选用了 5、10、20Ω 进行测试。
+
+首先，为了验证第 4 节提出的被动式米勒钳位支路不会对驱动的开关性能造成影响，本文进行了加入钳位支路前后的对比验证。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139cEYbzEuyYKuucf54cxTtHQ8c3cH60MpHGKDs878fKluDEzz2icYExLA/640?wx_fmt=png&from=appmsg)
+
+图 10 为 Udc = 500V，Id = 20A，Vgs+ = 15V，Vgs- =-5V 时，使用 5Ω 的驱动电阻得到的开关波形。观察上图可以看出，加入米勒钳位回路后导通时间延长了 5.2ns，关断时间延长了 2.4ns，均略有延长。此外，加入米勒钳位回路后电压 Vds及 Vgs 震荡及过冲无变化，电流过冲有所降低。为进一步确认米勒钳位支路对驱动的影响，本文进行了 Udc = 500V，不同漏极电流条件下的工况验证，验证结果如图 11所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139Y0TjJrNex3aojKLAic3qdyjGJ1ianr1rIjvFRx4giatYpX0AhxbwoZmkA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139sIP1axAvcIhGdY5UsTlQzPsgBEX28RMvibX54zHEhVelZInrAYQ6rQA/640?wx_fmt=png&from=appmsg)
+
+图 11 说明，加入米勒钳位支路后，虽然导通/关断延迟时间略微增加，但开关损耗反而低于加入钳位支路之前。在不影响损耗的前提下，导通/关断延迟时间的增加相对于 SiC MOSFET 在实际应用的开关频率可忽略不计。综上所述，加入米勒钳位后对开关性能的影响很小。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139jg5R0yc8k7hrT3V20vicN0YyEGc71xE9ib3JuJjXv1IhOneGYPOibvTjQ/640?wx_fmt=png&from=appmsg)
+
+图 12 给出了 Udc = 500V，Id = 25A，Vgs+ = 15V，Vgs- = -5V 时，使用不同阻值驱动电阻 Rg(Rg = R1= R2)条件下的导通波形。由图可知，随着驱动电阻的增大，导通速度逐渐下降，导通损耗增加，但增大了驱动回路的阻尼，抑制了电流的震荡和过冲。
+
+图 13 为不同驱动电阻下的关断波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139yGicNyOCibOUwFm4m9d9dHX7EdJk03bwIDJZf3t56hD7nicpxlzGGarVw/640?wx_fmt=png&from=appmsg)
+
+为了验证本文所提出的串扰抑制方法的有效性，进行了相应的实验。测试中，保持下管 Q2 关断，开通和关断上管 Q1，测量下管端电压和电流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139CibmrVf5oeTHcbbM0Erljic6V5pBVItjj9YiciatUj4VYdeldKfJDrLvaQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139T03cpL3m2KSU5hVLB31ydicyIEQ5M0mqZKfF0vT2EvUdNibibeibmk6gjg/640?wx_fmt=png&from=appmsg)
+
+首先对比了 5Ω 驱动电阻时加入钳位电路前后的串扰波形如图 14、15 所示(Udc = 500V，Id = 20A)，可见加入米勒钳位回路后效果显著。在 5W 的驱动电阻条件下，dv/dt 高达 50V/ns 时，上管导通时作用在下管门极电压的正向尖峰从 -0.2V 降低到 -1.6V，上管关断时下管门极电压的负向尖峰从 -9.4V 降低到 -6.6V。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139rZ0icYhD6uxjvFIeJzXs00Nt7klT1oBWOTkMM8bEUwUu6NJyVzBJrQQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139OXUGbvTzbV67kj34d5pBwDVZGbxsU6icFRSHZUfkNMTm4awQ89kwiaIA/640?wx_fmt=png&from=appmsg)
+
+图 16、17 为不同驱动电阻下的米勒钳位驱动Crosstalk 测量波形。结合图 18 的串扰电压变化趋势表明随着驱动电阻的增大，串扰电压得到进一步抑制，但同时伴随着开关损耗的增加。因此，实际应用时应折衷考虑。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskgicYqvnoxzTFUnPD9WS139CeC7Gr0qkrE6ZR2mziaY7KpcKrEsAs7nPb6csJow9mh0FQbqLjk8IsA/640?wx_fmt=png&from=appmsg)
+
+5\. 结论
+
+本文对桥式电路中的 SiC 开关过程及其串扰问题进行了简要分析，理想的驱动电路需要足够高的驱动正压快速导通，一定的驱动负压实现快速关断，同时需抵抗串扰而又不会超过反向阈值电压。
+
+针对桥式电路中 SiC 对驱动电路的特殊需求，本文设计了一种适合高速、中大功率场合的驱动电路。在实现器件高速通断的同时，通过低成本的无源器件制造可调负压结合米勒钳位回路有效的抑制了串扰问题，保证了栅极电压的稳定性。
+
+最后搭建了相应的双脉冲测试平台，验证了本文所提出设计实现快速开关的同时有效的抑制了串扰问题。分析了不同驱动电阻，负载电流对 SiC开关速度、开关损耗和栅极串扰电压的影响，为合理的设计和调节驱动提供了依据。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

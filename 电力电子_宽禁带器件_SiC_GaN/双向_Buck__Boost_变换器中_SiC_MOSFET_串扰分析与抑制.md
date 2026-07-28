@@ -1,0 +1,177 @@
+# 双向 Buck /Boost 变换器中 SiC MOSFET 串扰分析与抑制
+
+原创 张昊 ，孟润泉 SiC碳化硅MOS管及功率模块的应用 2025-01-07 10:57 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/o\_p-MhXHHrW2KNG2Sr-d1g](https://mp.weixin.qq.com/s/o_p-MhXHHrW2KNG2Sr-d1g)
+
+文章来源：半导体材料与器件
+
+作者：张昊1，孟润泉1，\* ，李新宇1，曹锐2，郭卓燕1( 1． 太原理工大学 电气与动力工程学院，太原 030024;2． 太原市优特奥科电子科技有限公司，太原 030006)
+
+摘要: 由于寄生参数的影响，SiC MOSFET 应用于双向 Buck /Boost 变换器时会出现串扰现象，在高速开关过程中会产生额外损耗甚至发生误导通，影响变换器的安全可靠运行。针对双向Buck /Boost 变换器在 Buck 模式及 Boost 模式运行时出现的串扰电压，首先提取相关寄生电容和寄生电感参数，建立了含寄生参数的 LTspice 仿真模型，并搭建实验测试装置验证了模型的正确性。然后利用所建 LTspice 模型分析寄生电感参数对串扰电压的影响规律，提出了在 Buck 模式和 Boost 模式中分别采用不同的串扰抑制方法，并验证了所提方法的有效性。
+
+关键词: SiC MOSFET; 寄生参数; 串扰抑制; Buck /Boost; 驱动电路
+
+0\.  引言
+
+双向 Buck /Boost 变换器因其拓扑简单和运行高效而被广泛应用于光伏发电、电动汽车和储能系统等领域，高速高频 SiC MOSFET 功率器件的引入为进一步提高变换器功率密度和功率控制性能提供了可能，但是由于双向 Buck /Boost 变换器的类桥式结构，在功率管开关切换过程中会发生由寄生参数引起的串扰现象。此处的串扰现象是指一只开关管在开关过程中，会造成其他处于关断状态的开关管在栅源之间产生一个衰减振荡的扰动电 压，影响变换器的正常运行。由 于 SiC MOSFET 栅极开通阈值电压与允许承受的最低关断负电压较 Si 器件更低，因此受串扰问题影响更为严重，主要表现为正负向串扰电压尖峰，正向电压尖峰过大会造成器件的误导通，而负向电压尖峰过大则可能导致器件栅极损坏，使变换器无法正常工作。
+
+目前，关于寄生电感、寄生电容以及驱动回路阻抗 对 串 扰 问 题 的 影 响 规 律 还 有 待 深 入 研究。可行的串扰抑制方法主要分为无源抑制方式和有源抑制方式，现有的串扰抑制研究很多都基于上下桥臂电路，通过双脉冲实验进行研究，其研究结果脱离了主电路的拓扑结构。针对这个现象，本文将串扰问题与实际的双向 Buck /Boost 变换器拓扑结构结合起来进行分析。由于双向 Buck /Boost 变换器可以实现功率的双向流动，在功率正向流动时与反向流动时 SiC MOSFET 的漏源电 压 变 换 率 会 有 所 不 同，需要进行具体分析，设计合适的串扰抑制辅助电路来满足不同工作模式下的可靠性要求。
+
+准确把握寄生参数对串扰问题的影响规律，能够为 SiC MOSFET 驱动电路的优化设计提供依据。本文建立了含寄生参数的 SiC MOSFET 仿真模型，在实验验证模型正确性的基础上，再利用该模型研究相关参数变化对串扰电压的影响规律，据此提出抑制串扰的 SiC MOSFET 栅极驱动策略，并通过实验验证其有效性。
+
+1. 串扰问题原理分析
+
+双向 Buck /Boost 变换器是一种类桥式拓扑结构，当使用 SiC MOSFET 时，在高速开关下寄生参数 效 应 显 现， 其中串扰现象最为突出。 SiC MOSFET 的寄生参数可分为两大部分。第一部分为器件封装和引脚中所固有的栅漏寄生电容 Cgd、栅源寄生电容 Cgs、漏源总寄生电容 Cds、栅极寄生电阻 Ｒg\_in、漏极寄生电感 Ld\_in、栅极寄生电感 Lg\_in、源极寄生电感 Ls\_in，它们与芯片本身的材料及结构有关，属于芯片级的寄生参数，使用者一般难以改变这些参数。第二部分为外部印制电路板 ( PCB)走线及 封 装 引 脚 引 起 的 寄 生 电 感 Ld\_ex、Lg\_e x 和Ls\_ex，外加栅极驱动电路阻抗 Ｒg\_ex，这些参数由外部电路的结构所决定，优化设计 PCB 走线及封装结构可以减小寄生参数对变换器的影响，从而提高变换器的可靠性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBCylECA7WbJKdnOdZfgS3vy3CNLxuN32S0oM6CTeCvwh0NvHjGQ0dIw/640?wx_fmt=png&from=appmsg)
+
+双向 Buck /Boost 变换器有降压 ( Buck) 和升压 ( Boost) 两种基本工作模式。Buck 模式下，高压直流母线 ( DC1) 侧为低压直流母线 ( DC2) 侧提供电能，图 1 所示为 Buck 模式下 Q1 开通瞬间串扰的产生过程。首先在 Q1 开通瞬间，Q1 的沟道与D2 换流，Q1 的漏源电压 Vds1下降，Q2 的漏源电压Vds2上升，Cgd2开始充电，电流方向如图 1 所示，并分别流经栅极 Ｒg2\_in、Ｒg2\_ex 及寄生电容 Cgs2，使得Q2 栅源电压 Vgs2超过开启阈值电压，造成器件的误导通，轻则增加开关损耗，降低变换器效率，重则引起桥臂短路，危害直流母线电源。在 Q1 关断瞬间，Q2 的沟道与 D1 换流，Q1 的 Vds1 上升，Q2 的Vds2下降，Cgd2开始放电，当 Q2 的 Vgs2超过器件可承受的最大负压时，大概率会造成 Q2 损坏，从而影响变换器正常工作。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBCJvd534ZYBuXGxdXUXUHX3iaog9aANVKIsic1yQOV0OUSsDzxbqtDwTw/640?wx_fmt=png&from=appmsg)
+
+为了分析在 Q1 开关过程中，Q2 的栅源之间受串扰现象影响而产生的电压，将 Q2 驱动电路进行等效，如图 2 所示。图 2 ( a) 为时域下的等效电路图，图中 Vp2为 Q2 的关断电压，栅极驱动电阻Ｒg2 \=Ｒg2\_in+Ｒg2\_ex，a2 为 Q2 漏源电压变换率，t 为时间。
+
+运用拉氏变换，可得 s 域下的等效电路，如图图 2 ( b) 所示。以源极为参考节点，列写栅极节点在 s 域下的节点电压方程，即
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBA4bp90vtJHpDTicHtsE3rewmFW034oiaDDMW8FA8RxXYMnKx0XbBia5TQ/640?wx_fmt=png&from=appmsg)
+
+式中 Vgs2( s) 为 s 域下的 Q2 栅源电压。
+
+由式 ( 1) 可以得到 Vgs2( s) 的 s 域表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBUKtwUvrzNnAadz06pqvMJz8TtMOAwp17MqGHEvzLTDictiaJic1ZgiaXGg/640?wx_fmt=png&from=appmsg)
+
+由于栅极输入电容 Ciss2 \= Cgs2 +Cgd2，因此栅极正向串扰电压又可以表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxB3eFbnTlAQPT8ZALofzchSPmwaQKVBHB0BMhVkH31cqibAyF5IK0DQmg/640?wx_fmt=png&from=appmsg)
+
+将式 ( 3) 转换为时域表达式，即
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxB1sZJib27ycfXaCuwQtL3saROUibyGEH3CWsS3PlpnFTvu3a7blDP0wXQ/640?wx_fmt=png&from=appmsg)
+
+由 Vds2表达式可以得到 t 的表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBlKzkAFVTsHYTeXicR64xDwM5ZvpG31W6N4heJr0biaDYCnbhy6ABV78Q/640?wx_fmt=png&from=appmsg)
+
+因此 Q2 的正向串扰电压 V\+ gs2可以表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxB92ugPdGYj0fRneAy1BfhdD9pke34jA2vKkiariasNmPBJficHg8mVzbvQ/640?wx_fmt=png&from=appmsg)
+
+从式 ( 6) 可以看出，V\+ gs2的大小与 Vp2、Ｒg2、a2 以及 Cgd2有关。
+
+Q2 负向串扰电压的分析与正向串扰电压的分析方法类似，不同之处在于这里 Vds2 \= －a2 t，利用上述分析方法，可得 Q2 负向串扰电压 V- gs2为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBibhsTvKKd3wlekpGCcFlox5al27iaW6S9ichicAdeySSa3ibk6bLDOZyWPQ/640?wx_fmt=png&from=appmsg)
+
+Boost 模式下，当 Q2 导通时，DC2 侧为储能电感 L 积蓄电能，同时经由 D1 为 DC1 侧提供电能;当 Q2 关断时，L 中储存的能量会释放出来，和DC2 侧一起经 D1 为 DC1 侧提供电能，同样 Q1 栅源之间也会产生串扰电压。图 3 为 Boost 模式下 Q2开通瞬间串扰产生过程的原理图，首先在 Q2 开通瞬间，Q2 的沟道与 D1 换流，Q2 的 Vds2 下降，Q1的 Vds1上升，Cgd1开始充电，电流方向如图 3 所示，并分别流经 Ｒg1\_in、Ｒg1\_ex及 Cgs1，使得 Q1 栅源电压Vgs1超过开启阈值电压，造成器件的误导通，但不同于 Buck 模式，Boost 模式下 Q1 即使误导通也不会造成电源侧短路，只会影响开关损耗，因此对变换器的影响不大。在 Q2 关断瞬间，Q1 的沟道与D2 换流，Vds2 上升，Vds1 下降，Cgd1 开始放电，当Vgs1超过可承受的最大负压时，大概率会造成 Q1 器件损坏，从而影响变换器正常工作。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBWhJKA0Z7icS3hOvFyB3K1IwbRqIB4QANkSWL4OSUYuWf1NIKP8SYg2g/640?wx_fmt=png&from=appmsg)
+
+类似于 Buck 模式下的分析过程，可以得到 Q1的正向串扰电压 V\+ gs1为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBLk8YOfFuRByIicfkVIu19oVRJOgrAByRekdF4qaZZWUGuR3uZqvYqGQ/640?wx_fmt=png&from=appmsg)
+
+式中: Vp1为 Q1 的关断电压; Vds1 \= a1 t，其中 a1 为Q1 漏源电压变换率; Q1 栅极驱动电阻 Ｒg1 \= Ｒg1\_in +Ｒg1\_ex，Q1 栅极输入电容 Ciss1 \=Cgs1+Cgd1。
+
+Q1负向串扰电压 V－ gs1同样可以表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBY4hickickBUUO5ibG9pTDXxjJuOlSiaaXIkON7k6uu5Lo2c57Yc59GxkWQ/640?wx_fmt=png&from=appmsg)
+
+相较于 Buck 模式，Boost 模式的输出电压更高，因此当双向变换器连接两个不同电压等级的母线时，即使开关频率、电路中采用的开关器件和驱动电路结构都相同，即 Vp1 \= Vp2，Ｒg1 \= Ｒg2，Cgs1 \= Cgs2 时，Boost 模式下的 a1 要比 Buck 模式下的 a2 更大，受串扰电压影响更严重，因此有必要针对同一变换器的不同工作模式设计不同的串扰抑制策略。
+
+2\.  仿真模型的建立
+
+为探究各寄生参数对基于 SiC MOSFET 的双向Buck /Boost 变换器的影响，需改变各寄生参数的值来观察相应的串扰电压的变化。由于寄生参数与变换器电路结构联系紧密，直接在硬件电路里进行更改难度很大，因此可以在 LTspice 下建立含寄生参数的变换器等效仿真模型。选用英飞凌公司的 SiC MOSFET 功率管 ( IMW120Ｒ045M1) 进行寄生参数提取，其主要参数如表 1所示。其中，Vgs( th) 为阈值电压，Vdss为漏源之间最大可承受电压，V\+ gss为栅源之间最大正向瞬态电压，V－ gss为栅源之间最大负向瞬态电压，Ｒds( on) 为漏源导通电阻，Vsd为寄生体二极管正向电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxB3FtcFibCuX2IJNvoe1x0atnbezDA8BibbDjnr0ibicGBA6pOcCZx0IqEyw/640?wx_fmt=png&from=appmsg)
+
+输入电容 Ciss、输出电容 Coss和米勒电容 Crss随漏源电压 Vds 变化，而 Vds 与变换器的工作电压有关，在确定的工作电压下可将寄生电容作为确定值来处理。同时，将封装内部寄生电感与外部 PCB走线电感合并，即令栅极寄生电感 Lg \= Lg\_in +Lg\_ex，源极寄生电感 Ls \= Ls\_in +Ls\_ex，漏极寄生电感 Ld \=Ld\_in+Ld\_ex，这样有利于模型的简化。
+
+搭建基于 SiC MOSFET 的双向 Buck /Boost 变换器实验装置如图 4 所示，并利用 Ansys Q3D 提取PCB 及器件引脚的寄生电感参数 Ls、Lg 和 Ld。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBkRsXcs9zibTZRFTVc11Z4rCoLhq7cTRqcEFdsHoV33SZVTRUEbYAloA/640?wx_fmt=png&from=appmsg)
+
+寄生电容参数 Cgs、Cds、Cgd的计算公式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBUwMsWiaJTlTSF2OiaWwQUr7XEae26nria0veicYibPt5gyvq8j3MAEyTjibQ/640?wx_fmt=png&from=appmsg)
+
+式中 Ciss、Coss和 Crss的值可由器件手册得到，所得变换器参数如表 2 所示，其中 VDC1 为高压侧电压，VDC2为低压侧电压，f 为变换器开关频率，Ｒ为等效负载，C1 与 C2 分别为高压侧和低压侧的滤波电容。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBhJKM7HSz8icheiaiaNhH7TuYtWFkzZbxgYF2W83OHFI3brl7owXzco4uQ/640?wx_fmt=png&from=appmsg)
+
+图 5 和图 6 分别为 Q1在开通过程与关断过程中 Vgs 2的仿真与实验波形。可见，所建开关模型的仿真结果可以准确反映实际变换器的运行情况。在Q1开关过程中，由于寄生参数的存在，Q2 的栅源之间会产生一个衰减振荡的串扰电压，且随着开关频率和电压等级的增大，串扰电压的影响也会加剧。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBhtIVzS359KxLp4mv9o81tJBMkUPslDxicKBdoyty0OMciccUXELyQfHQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBVqzAsuWia0dlDNNgQJH8z7LCyj807SvEHS7UU1R0hdetFFdUyib9GvAA/640?wx_fmt=png&from=appmsg)
+
+  
+
+其中，仿真和实验波形未完全一致的原因在于，SiC MOSFET 提取的寄生参数值与实际值之间存在不可避免的误差，且走线之间的耦合电感也未考虑在内，器件本身也存在着制造上的误差。
+
+3. 寄生电感参数影响规律分析
+
+串扰电压以衰减振荡的形式出现，并存在着正向电压尖峰和负向电压尖峰。基于第 2 节建立的含寄生参数的双向 Buck /Boost 变换器 LTspice 模型，改变寄生电感参数，分析在 Buck 模式和 Boost 模式下串扰电压正负电压尖峰的变化规律。Buck 模式下的串扰现象与上下桥臂电路中的情况类似，前人已做了大量的研究分析，本文以 Boost 模式为例进行详细分析。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBc6Ym7FMeygOfFo9Y0f6yyic8XX8h5iaEO7pDCPw6e0QMJK63StZq5LCw/640?wx_fmt=png&from=appmsg)
+
+图 7 反映了 Q2 开通过程中在 Q1 栅源之间出现的正向串扰电压尖峰 vgs1\_max+ 与负向串扰电压尖峰vgs1\_max－ 随寄生电感的变化。其 中，图 7 ( a ) 为vgs1\_max+随各寄生电感参数变化的仿真结果。可以看出，Ls1与 vgs1\_max+呈正相关且影响较大，Ls1改变较小的 值 就 可 引 起 vgs1\_max+ 发 生 显 著 变 化; Ld1 与vgs1\_max+呈负相关，在合理范围内增加 Ld1的值可对vgs1\_max+起到轻微的抑制; Lg1和 vgs1\_max+基本不相关。Ls2、Ld2与 vgs1\_max+呈负相关，在一定范围内可减小vgs1\_max+，但影响不是很明显; Lg2对 vgs1\_max+基本无影响，可以忽略不计。
+
+图 7 ( b) 为 vgs1\_max－随各寄生电感参数变化的仿真结果。可以看出，Q2 开通过程的负向串扰电压尖峰 vgs1\_max－尤为严重，Ls1与 |vgs1\_max－ | 呈正相关，是影响 vgs1\_max－ 的主要寄生电感参数; Lg1与 vgs2\_max－基本无关; Ld1与 |vgs1\_max－ | 呈负相关，在合理范围内增加 Ld1的值可对 vgs1\_max－起到一定的抑制。Ls2及Ld2与 |vgs1\_max－ | 呈负相关，在合理范围内增加 Ls2及Ld2的值可对 vgs1\_max－起到一定的抑制; Lg2与 vgs1\_max－基本无关。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBZCA5x1KTGEx3ibK8XHBkwwBEwl1aG7CQUMP468bwn50H5WPIaXSDMCA/640?wx_fmt=png&from=appmsg)
+
+图 8 为 Q2 关断过程中 Vgs1受寄生参数影响的仿真结果。如图 8 ( a) 所示，Q2 关断过程的正向串扰电压 尖 峰 vgs1\_max+ 主要受 Ls1 影响，Ls1 越大，vgs1\_max+越大，Lg1、Ld1、Lg2和 Ld2对 vgs1\_max+基本无影响。Ls2对关断串扰电压的影响也较为明显，且 Ls2越大，vgs1\_max+ 越小。由图 8 ( b) 可以看到，Ls1是造成负向串扰的主要因素，随着 Ls1 的 增加，对vgs1\_max－的不利影响加剧，随 着 Ld1 与 Ld2 的 增 大，|vgs1\_max－ | 也有较为明显的增大; Ls2与 |vgs1\_max－ | 呈负相关且影响较大，在一定范围内可减小 |vgs1\_max－ | ;Lg1和 Lg2对 vgs1\_max－基本无影响。
+
+综合考虑变换器的两种工作模式，在器件的放置及 PCB 的走线布置过程中，主要考虑尽可能减小 Ls1，这是因为相比于 Buck 模式，Boost 模式下的串扰现象更为严重，极易造成器件损坏，而 Ls1仅对 Boost 模式影响明显，减小 Ls1即可增加变换器的可靠性。其次考虑 Ls2，为了在 Buck 模式下防止串扰电压尖峰超过 Q2 开通阈值进而导致器件误导通，造成电源侧短路，损坏电源与变换器，同时不对 Boost 模式造成太大影响，Ls2的取值不宜太大也不宜太小。然后考虑 Ld1与 Ld2，适当增大这两个寄生参数可对串扰电压进行一定的抑制，但同时也会增加变换器的损耗。最后考虑 Lg1与 Lg2，由于栅极PCB 走线连接低压侧控制电路与高压侧主电路，因此为了防止高压侧向低压侧爬电，可以优先考虑走线的安全距离，忽略其对串扰电压的影响。
+
+4. 串扰电压抑制策略
+
+Ls 中的共源部分是造成串扰现象的主要寄生参数，所谓 “共源”是指驱动回路与功率回路的共有源极寄生电感，即驱动回路的电流与功率回路的电流均经过该部分。为了更有效地减小 Ls，可以采用具有开尔文源极的封装结构，其原理如图 9所示，通过使用额外的键合线将源极分为两条支路，一条供驱动回路使用，另一条供功率回路使用。将两个回路人为地分开，虽然驱动回路依然存在着寄生电感，但新引入的寄生电感为非共源电感，对串扰电压无明显影响，因而可以消除由共源电感引起的串扰电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBeqjLI0AY3bW1trVdDQgVFFkreJXd0mn2ia1vRnMk7DbePHDxLQicl1Hg/640?wx_fmt=png&from=appmsg)
+
+由于双向 Buck /Boost 变换器具有功率双向流动的特性，其在 Buck 模式和 Boost 模式下产生的串扰电压也有所不同，因此针对这一现象，可以对不同模式下的串扰采用不同的抑制策略。如图 10所示，Q1 和 Q2 分别是 Buck 模式和 Boost 模式的主控管，在其栅极分别设计不同的辅助驱动电路来抑制串扰电压的产生。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBIw9ECooBLJ7LO3lJiblwJFPIWGdLibpLag0e7e4BQicW0fgfjmg7KYgbw/640?wx_fmt=png&from=appmsg)
+
+Buck 模式下的串扰抑制原理如图 11 所示，在Q1 开通瞬间，Vds2迅速上升，Cgd2开始充电，充电电流在 Ｒ2 上产生左负右正的电压，使三极管 Q4 发射结正偏，Q5 发射结反偏，D5 及 Q4 开通，充电电流通过电阻 Ｒ4 分流，电流方向如图 11 ( a) 中箭头所示，此时 Q2 栅源电压钳位在 Ｒ2 电压两端，正向串扰电压被有效抑制。在 Q1 关断瞬间，Vds2迅速下降，Cgd2 开始放电，放电电流在 Ｒ2 上产生左正右负的电压，使 Q5 导通，Q4 关断，充电电流通过外加 电 源 串 联 电 阻 Ｒ5 分 流，电 流 方 向 如 图11 ( b) 中箭头所示，此时 Vgs2被钳位在外接电源串联电阻 Ｒ5 电压两端，负向串扰电压被有效抑制。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxB0nt8AyeMhyaiaiaXuRnWKjXNSxicdg9N24Lo02hEvbH9PuYnJaP2b2xbg/640?wx_fmt=png&from=appmsg)
+
+Boost 模式下的串扰抑制原理如图 12 所示。Q2 开通瞬间，Vds1迅速上升，在 Cgd1上形成充电电流，如图 12 ( a) 所示。电流在 Ｒ1 上形成上正下负的电压，使得 Q3 发射结正偏，Q3 导通，一个比Cgs1大得多的 C3 并联在 Cgs1两端，从而在 Q1 栅源极两端形成一个低阻抗支路，充电电流得以分流，使得正向串扰被有效抑制。Q2 关断瞬间，Vds1下降使得 Cgd2放电，放电电流通过二极管 D4、C3 回路及 D3 回路，电流流向如图 12 ( b) 所示，有效抑制了负向串扰电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBpiatXtAiam9gwaF68EfuC87Xn3y2hnA9ZF2iaIbJ1iarkIvKGpFJ3phCiag/640?wx_fmt=png&from=appmsg)
+
+图 13 和图 14 分别给出了 Buck 模式下 Q1 开通和关断过程中的三种串扰抑制策略的结果对比，其中负压驱动为仅在 Vgs2栅极驱动电路中利用负压进行抑制，可以看到，在采用了负压驱动以后，Q1开通与关断过程产生的正向串扰电压尖峰分别为3. 84 V 和－0. 23 V，由表 1 可知 SiC MOSFET 的阈值电压为 4\. 5 V，因此负压驱动可对正向串扰进行有效抑制。然而负压驱动下在 Q1 开通与关断过程产生的负向串扰电压尖峰分别为－ 8. 06 V 和－8. 63 V，而 SiC MOSFET 的栅源极最大可承受负压 ( 即 VGSS ) 为－10 V，两者非常接近，极端情况下会造成器件损坏。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBsnf8tMc6IdJrPbxcdQhU5eLls4yulW7xjdhCpbYl6tIPmibJ9ysO9Tw/640?wx_fmt=png&from=appmsg)
+
+采用开尔文源极后，串扰电压得到进一步抑制，在 Q1 开通与关断过程中产生的最大正向串扰电压尖峰为 1\. 82 V 和－2. 93 V，最大负向串扰电压尖峰为－4. 70 V 和－5. 84 V。采用辅助驱动电路后，抑制效果最好，在 Q1 开通与关断过程中产生的最大正向串扰电压尖峰为 0\. 8 V 和－2. 94 V，最大负向串扰电压尖峰为－4. 25 V 和－4. 23 V。
+
+图 15 和图 16 分别为 Boost 模式下 Q2 开通与关断过程中的三种串扰抑制策略的结果对比图。相比Buck 模式，Boost 模式下的串扰现象更为严重，在采用负压驱动抑制策略时，在 Q2 开通与关断过程中产生的正向串扰电压尖峰分别为 4\. 17 V 和3. 06 V，接近 SiC MOSFET 开通阈值，有误导通的风险。负向串扰电压尖峰分别为 － 18. 25 V 和－11. 61 V，已超过 SiC MOSFET 的最大可承受负压，会造成器件损坏。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl6qAicDhm4ibWO798KEQWxxBoXlGsmMJ5yJYianWQebkOIEbBMJ4UcZv9F1zBer7mia8NvvEA55NN5Ag/640?wx_fmt=png&from=appmsg)
+
+采用开尔文源极后，在 Q2 开关过程产生的最大正向串扰电压尖峰为 5\. 17 V 和－2. 86 V，抑制效果不是很理想。负向串扰电压尖峰分别为－8. 14 V和－6. 37 V，可达到一定的抑制效果。采用辅助驱动电路后，此过程产生的最大正向串扰电压尖峰分别为 2\. 68 V 和－2. 87 V，负向串扰电压尖峰分别为－5. 95 V和－4. 39 V，串扰电压得到了很好的抑制。
+
+5\.  结论
+
+本文针对双向 Buck /Boost 变换器设计中出现的串扰现象，分析了 PCB 走线及器件封装引起的寄生参数在 Buck 模式和 Boost 模式下对正负串扰电压尖峰的影响，提出了串扰抑制的方法，所得主要结论如下。
+
+①双向 Buck /Boost 变换器主要有两种工作模式，其中 Boost 模式下串扰电压的影响主要表现在负向串扰电压尖峰上，并且开通过程发生的串扰较关断过程更为严重，相较于 Buck 模式更有可能损坏 SiC MOSFET。在 Buck 模式下，正向串扰电压尖峰超过 Q2 开通阈值有可能引起器件误导通，进而造成电源侧短路，损坏电源与变换器。
+
+②由于两种工作模式均会受到寄生参数的影响，并且同一寄生参数对不同工作模式造成的影响也有所不同，因此在设计双向变换器时，PCB 走线布局及驱动电路的设计对变换器性能的影响要综合考虑两种工作模式的情况。
+
+③寄生参数对串扰电压的影响主要来自于 Ls，该参数值越大，正负串扰电压尖峰越大。可以采用具有开尔文源极的封装来抑制串扰电压，同时针对不同工作模式可以采用不同的辅助驱动电路来对串扰电压进行抑制。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

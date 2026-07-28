@@ -1,0 +1,458 @@
+# 碳化硅（SiC)MOS与超结(SJ)MOS和IGBT的性能及应用和器件选型方法
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/EuhIHDu1e4SoE7AfaFwfyw](https://mp.weixin.qq.com/s/EuhIHDu1e4SoE7AfaFwfyw)
+
+整个电力半导体器件中变化最大的就是功率MOSFET，其中，硅基器件中SJ MOSFET器件和IGBT器件在结构和工艺技术得到了较深的发展。SJ（超结）MOSFET采用基于电荷平衡的器件结构，导通电阻明显下降，在高压应用时优势尤其突出。但是，以宽禁带半导体（碳化硅（SiC）和氮化镓（GaN））形式出现的新材料技术正在提供可改善电路设计人员选择的选择，特性更接近理想的开关。
+
+                                 ![](https://mmbiz.qpic.cn/mmbiz_png/Ikic2OickbhYLt8Jg1RT4hOicUiaialibEYPic41jBY1kr8CibMoTIw43DStjINwMnF3MpdKFdhvaBftOOca4ucLZFTDjw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)                                 半导体材料发展路径（数据来源：浙商证券研究所  ）
+
+工程师在性能、成本、操作、尺寸、热效率和可用性之间进行设计抉择时需要权衡取舍。
+
+**一.  碳化硅MOS器件**
+
+碳化硅（SiC）是由碳元素和硅元素组成的一种化合物半导体材料，是制作高温、高频、大功率、高压器件的理想材料之一。相比传统的硅材料（Si），碳化硅的禁带宽度是硅的3倍；导热率为硅的4-5倍；击穿电压为硅的8-10倍；电子饱和漂移速率为硅的2-3倍，满足了现代工业对高功率，满足了现代工业对高功率、高电压、高频率的需求，主要被用于制作高速、高频、大功率及发光电子元器件，下游应用领域包括智能电网、新能源汽车、光伏风电、5G通信等，在功率器件领域，碳化硅二极管、MOSFET已经开始商业化应用。  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnV74iaF6DHUicgLevN2hPMrxFOPNgLfnelCnZqYUccK6ribbK97aTibiaz8SKzfJn7XV4Qok2lKrWGdEw/640?wx_fmt=jpeg&from=appmsg)碳化硅从材料到半导体功率器件会经历单晶生长、晶锭切片、外延生长、晶圆设计、制造、封装等工艺流程。在合成碳化硅粉后，先制作碳化硅晶锭，然后经过切片、打磨、抛光得到碳化硅衬底，经外延生长得到外延片。外延片经过光刻、刻蚀、离子注入、金属钝化等工艺得到碳化硅晶圆，将晶圆切割成die，经过封装得到器件，器件组合在一起放入特殊外壳中组装成模组。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn92wOg8rMk4h0Yw018rEjmRzPU0ICBr0116gxZPPVPSqUN0UV2BVzCXgBw0WgEny0pUMt7oC5vbg/640?wx_fmt=png&from=appmsg)
+
+-   **耐高温。**碳化硅的禁带宽度是硅的2-3倍，在高温下电子不易发生跃迁，可耐受更高的工作温度，且碳化硅的热导率是硅的4-5倍，使得器件散热更容易，极限工作温度更高。耐高温特性可以显著提升功率密度，同时降低对散热系统的要求，使终端更加轻量和小型化。
+    
+-   **耐高压。**碳化硅的击穿电场强度是硅的10倍，能够耐受更高的电压，更适用于高电压器件。
+    
+-   **耐高频。**碳化硅具有2倍于硅的饱和电子漂移速率，导致其器件在关断过程中不存在电流拖尾现象，能有效提高器件的开关频率，实现器件小型化。
+    
+-   **低能量损耗。**碳化硅相较于硅材料具有极低的导通电阻，导通损耗低；同时，碳化硅的高禁带宽度大幅减少泄漏电流，功率损耗降低；此外，碳化硅器件在关断过程中不存在电流拖尾现象，开关损耗低。
+    
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/Ikic2OickbhYLt8Jg1RT4hOicUiaialibEYPic4dJU0YkibVxL9q1FticE8M2wquuXdiajxpgWKgJTzYJ2kovY3m3hZTcVWg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+不同半导体材料性能对比
+
+  
+
+**二.   超结(SJ)MOS器件**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn92wOg8rMk4h0Yw018rEjmc2pIfEF8XBgQwjnRTRDZfDIrdcL0nicfPKqWVVUxRU4D828XuxuX2Bg/640?wx_fmt=jpeg&from=appmsg)
+
+  
+
+Si-MOSFET根据制造工艺可分为平面栅极MOSFET和超结MOSFET。平面栅极MOSFET在提高额定电压时，漂移层会变厚，导致导通电阻增加的问题。而超结MOSFET通过在D端和S端排列多个垂直pn结的结构来解决这个问题，实现了在保持高电压的同时降低导通电阻。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/5ruz572icUGQnPfeqk4yVWicPNc2UrVZersW4iaMMt0pp7CBhHB7lQV3Q3ElcKHe4fNblWCLmic5Dkm4czK5jIsoYQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)【硅的理论极限和超越硅极限的超级结】
+
+ 超结MOSFET的优势在于其具有高耐压和低电阻的特点。相较于普通高压VDMOS，超结MOSFET的导通电阻远小，适用于高能效和高功率密度的快速开关应用。此外，超结MOSFET的额定电压越高，导通电阻的下降越明显，使其在中低功率水平下的高速运行非常适合。
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/5ruz572icUGQnPfeqk4yVWicPNc2UrVZer0oSMZyyjDdd5T83LbdDE0MFwbYOVg6FMe7X0ND9qlMiamlM9M9CWCtQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)【左边是平面MOS，右边是超结MOS】
+
+ 超结MOSFET的制造工艺相较于常规MOSFET更加复杂，主要体现在沟槽的填充外延制造方法上。超级结MOSFET通过使沟槽和沟槽间距尽可能小和深，设计具有较低电阻的N层，实现了低导通电阻产品。
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/5ruz572icUGQnPfeqk4yVWicPNc2UrVZer8oHjIpPLfYpmQEviciawOqHgmrMHkeicaAic9ibfv7dFa29M0jztO1cn0Nw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)【超级结中，trr比平面MOSFET快，irr电流更大】
+
+ 超结MOSFET相较于平面MOSFET具有更大的pn结面积，因此在内部二极管的反向电流和反向恢复时间方面存在一些问题。虽然超结MOSFET的trr比平面MOSFET快，但irr电流更大。
+
+以下是Si-MOSFET的常规制造工艺和超结制造工艺的对比：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/5ruz572icUGQnPfeqk4yVWicPNc2UrVZermS7AqPSoJPeJIA2PJTI4hWhCgVqBicLLuwTuZMRflxjNtv4ibqcgEAXA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)【常规MOS制造工艺】
+
+![](https://mmbiz.qpic.cn/mmbiz_png/5ruz572icUGQnPfeqk4yVWicPNc2UrVZerCx7Gr5Y1nZg36l3ujD8KwLbfoSSkCKS4C33wdlib6rtyLwDZBDwgFYQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)【超级结的沟槽填充外延制造方法】
+
+ 此外，Si-MOSFET还与其他器件进行了功率和频率的比较，如IGBT、碳化硅MOS、平面/超结MOS等。
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/5ruz572icUGQnPfeqk4yVWicPNc2UrVZerLM9lORgrRGr26ib6qGZAdaS2vfSvjzwSic88ibawG5xevYPxYIWohNTfw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+
+【IGBT、碳化硅MOS、平面/超结MOS的功率和频率比较】
+
+ 以下是SJ-MOSFET的一些关键特点和优势：
+
+高耐压：SJ-MOSFET具有高额定电压，能够在高压环境下稳定工作。
+
+低导通电阻：SJ-MOSFET的导通电阻远小于传统平面MOSFET，能够提供更高的效率和功率密度。
+
+高速开关：SJ-MOSFET的超级结结构使其具有快速开关特性，适用于高频率应用。
+
+可靠性：SJ-MOSFET的产品质量可靠，性能稳定，适用于各种严苛的工作环境。
+
+**三.  IGBT器件**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn92wOg8rMk4h0Yw018rEjmNO2H6ypqvdLpytclsqeUALOdJiaKFTr7weUJXs4ZbmibGlpJe1ySu7PQ/640?wx_fmt=jpeg&from=appmsg)  
+
+IGBT，绝缘栅双极型晶体管，是由（BJT）双极型三极管和绝缘栅型场效应管（MOS）组成的复合全控型电压驱动式功率半导体器件, 兼有（MOSFET）金氧半场效晶体管的高输入阻抗和电力晶体管（GTR）的低导通压降两方面的优点。  
+
+GTR饱和压降低，载流密度大，但驱动电流较大；（因为Vbe=0.7V,而Ic可以很大（跟PN结材料和厚度有关））MOSFET驱动功率很小，开关速度快，但导通压降大，载流密度小。（因为MOS管有Rds，如果Ids比较大，就会导致Vds很大）  
+
+  
+
+IGBT综合了以上两种器件的优点，驱动功率小而饱和压降低。非常适合应用于直流电压为600V及以上的变流系统如交流电机、变频器、开关电源、照明电路、牵引传动等领域。
+
+  
+
+IGBT最主要的作用就是把高压直流变为交流，以及变频（所以用在电动车上比较多）。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnV74iaF6DHUicgLevN2hPMrx2MJIRd53OzjYeiaSsicheenfK8EicjQFklYh95Np37x2ib5vbsejlZ6AvA/640?wx_fmt=jpeg&from=appmsg)
+
+  
+
+**IGBT有N沟道型和P沟道型两种，主流的N沟道IGBT的电路图符号及其等效电路如下：**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnV74iaF6DHUicgLevN2hPMrxBHpx40T7e7sOWjdNpErTiaJVcpukN3dwrahsMD7usjtx3vIUGzQbESw/640?wx_fmt=png&from=appmsg)  
+
+  
+
+  
+
+**所以整个过程就很简单：**
+
+**当栅极G为高电平时，NMOS导通，所以PNP的CE也导通，电流从CE流过。  
+**
+
+**当栅极G为低电平时，NMOS截止，所以PNP的CE截止，没有电流流过。**![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnV74iaF6DHUicgLevN2hPMrxFZzVWJTsJE7gtQATibrI20WqVd8qgEpf2SQtKYsYicZeibdRnVbCcL2lw/640?wx_fmt=jpeg&from=appmsg)  
+
+  
+
+**IGBT与MOSFET不同，内部没有寄生的反向二极管，因此在实际使用中(感性负载)需要搭配适当的快恢复二极管。**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnV74iaF6DHUicgLevN2hPMrxXM1kBl6uR4qdyWNKnO8XY2VJia2xfSGBlZdknrxFib1r1XQVWb08vjvQ/640?wx_fmt=jpeg&from=appmsg)  
+
+  
+
+  
+
+IGBT的优缺点
+
+优点：  
+
+1、具有更高的电压和电流处理能力。  
+
+2、极高的输入阻抗。  
+
+3、可以使用非常低的电压切换非常高的电流。
+
+4、电压控制装置，即它没有输入电流和低输入损耗。  
+
+5、栅极驱动电路简单且便宜，降低了栅极驱动的要求  
+
+6、通过施加正电压可以很容易地打开它，通过施加零电压或稍微负电压可以很容易地关闭它。  
+
+7、具有非常低的导通电阻。  
+
+8、具有高电流密度，使其能够具有更小的芯片尺寸。  
+
+9、具有比 BJT 和 MOS 管更高的功率增益。10、具有比 BJT 更高的开关速度。  
+
+11、可以使用低控制电压切换高电流电平。
+
+12、双极性质，增强了传导性。  
+
+13、安全可靠。  
+
+  
+
+缺点：
+
+1、开关速度低于 MOS管。  
+
+2、因为是单向的，在没有附加电路的情况下无法处理AC波形。  
+
+3、不能阻挡更高的反向电压。  
+
+4、比 BJT 和 MOS管价格更高。  
+
+5、类似于晶闸管的P-N-P-N结构，因此它存在锁存问题  
+
+  
+
+IGBT的主要参数：  
+
+1、集电极-发射极额定电压UCES是IGBT在截止状态下集电极与发射极之间能够承受的最大电压，一般UCES小于或等于器件的雪崩击穿电压。  
+
+  
+
+2、栅极-发射极额定电压UGE是IGBT栅极与发射极之间允许施加的最大电压，通常为20V。栅极的电压信号控制IGBT的导通和关断，其电压不可超过UGE。  
+
+  
+
+3、集电极额定电流IC是IGBT在饱和导通状态下，允许持续通过的最大电流。  
+
+  
+
+4、集电极-发射极饱和电压UCE是IGBT在饱和导通状态下，集电极与发射极之间的电压降。该值越小，则管子的功率损耗越小。
+
+  
+
+5、开关频率在IGBT的使用说明书中，开关频率是以开通时间tON、下降时间t1和关断时间tOFF给出的，根据这些参数可估算出IGBT的开关频率，一般可达30～40kHz。在变频器中，实际使用的载波频率大多在15kHz以下。
+
+  
+
+  
+
+IGBT如何选型：  
+
+1、IGBT额定电压的选择三相380V输入电压经过整流和滤波后，直流母线电压的最大值：在开关工作的条件下，IGBT的额定电压一般要求高于直流母线电压的两倍，根据IGBT规格的电压等级，选择1200V电压等级的IGBT。  
+
+  
+
+2、IGBT额定电流的选择以30kW变频器为例，负载电流约为79A，由于负载电气启动或加速时，电流过载，一般要求1分钟的时间内，承受1.5倍的过流，择最大负载电流约为119A ，建议选择150A电流等级的IGBT。  
+
+  
+
+3、IGBT开关参数的选择变频器的开关频率一般小于10kHZ，而在实际工作的过程中，IGBT的通态损耗所占比重比较大，建议选择低通态型IGBT。  
+
+  
+
+**四.  SiC MOSFET与Si SJ-MOSFET对比**
+
+  
+
+**1.1静态特性**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmNtFfic16qGicUzU3ZjcGZHVAiaKvh9erKrjc4Km8be2jbyrTUdAkJN0Hw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)表1：Si SJ-MOSFET和SiC MOSFET器件参数  
+
+表1为Si SJ-MOSFET和SiC MOSFET器件的静态参数，图1为Si SJ-MOSFET(图左)与SiC MOSFET（图右）传递特性曲线，可以看出SJ-MOSFET VGS（栅压）大于VTH（阈值电压）后电流迅速上升，且呈现负温系数。而对于SiC MOSFET 在VGS超过VTH后，上升速度缓慢，说明器件Gf（跨导）较小，且VGS小于10V呈现正温特性。同时在VGS高达20V时（参考输出特型曲线），也没有进入饱和状态，正是由于以上特性，要求SiC MOSFET的开通驱动电压高于SJ-MOSFET，以使得SiC MOSFET工作在负温区。可以看出温度对SiC  MOSFET输出电流特性的影响小于SJ-MOSFET。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmibFumAL3lEKDvjAt7a8Bg9oACqTjBhUXoh7b5sGsjNjLBRwunbicavtg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图1：Si SJ-MOSFET(图左)与SiC MOSFET（图右）传递特性曲线
+
+如图 2所示为SJ-MOSFET与SiC MOSFET的输出特性曲线，当VGS超过8V后，SJ-MOSFET已经充分导通，其IDS\-VDS的特性曲线几乎重叠。而SiC MOSFET在不同VGS下的IDS\-VDS曲线相距较远，且饱和区与线性区的拐点没有Si器件明显。同时SiC  MOSFET的曲线的斜率在VGS大于15V后变化才会较小，才能获得低导通电阻，以上特征都与其传递特性相吻合。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSm3Vw6qsO2PKBgMX3JcQeHMCpljjf3THGx6s6RgNglwZOT6WlIkLskeg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图2：Si SJ-MOSFET（图左）与SiC MOSFET（图右）输出特性曲线
+
+此外如图 3所示，SiC MOSFET 的RDS(ON)（导通电阻）曲线呈现U形，而SJ-MOSFET的RDS(ON)随着Tj（结温）的升高而升高，这是由于SJ-MOSET的JFET（Junction Field Effect Transistor）区与漂移区电阻起主导作用，同时从图可以看出SiC MOSFET在高温下依然保持较低的导通损耗，而在使用SJ-MOSFET需要特别关注RDS(ON)上升对散热的要求。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmKvPrW2yArPgsQbXvgXQSE4rgyqlLYaNptTthEaOYJsr1Q41M5odKicQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+      图3：Si SJ-MOSFET(图左)与SiC MOSFET（图右）RDS(ON)\-TJ特性曲线
+
+**1.2 动态特性对比**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmlh6nBWXsITfKbialYnoicaGOYEggdG54JgRnFnibBr53dQyp8k8VnHjog/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)表2 ：Si SJ-MOSFET和 SiC MOSFET动态参数  
+
+由于器件开关测试条件不同，因此通过观察SiC MOSFET 与SJ-MOSFET  C-V曲线，对器件的开关参数进行初步判断。如表2可以看到SiC MOSFET的Ciss（输入电容）明显小于SJ-MOSFET，可以进一步推测SiC的关断延时会明显小。同时值得注意的是Si SJ-MOSFET的Crss（米勒电容）在低压（小于300V）时相对较小。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmRQlqtLy7gdmsVPicTZSvKfjuMGlJFpthHVa34icw61gOjHiaaYib1m17kw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图4：Si SJ-MOSFET(图左))与SiC MOSFET （图右）C-V特性曲线
+
+图 5显示SiC MOSFET与SJ-MOSFET的栅电荷Qg，从图中可以看出SiC MOSFET的Qg明显小于SJ-MOSFET，这表明SiC MOSFET的驱动能量明显更小，同时可以看到SiC MOSFET的米勒平台（图中红色标注地方）更小，而SJ-MOSFET有明显的米勒平台，因此SiC MOSFET更适用于高频率的开关。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmlGlD9QictepNpuwkCBSSxK8UcN5fADrR4ibty13yAMxQPlxnY7dNicXPg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+    图5：Si SJ-MOSFET（图左）与SiC MOSFET（图右）Qg特性曲线
+
+**五、SiC MOSFET与Si IGBT的参数对比**
+
+由于SiC材料的特性，1200V、1700V 电压等级的SiC MOSFET可以与硅基同等电压的IGBT相比较，为了更好地体现SiC与Si IGBT器件之间的特性区别，选取常用的1200V25A等级的SiC MOSFET与Si IGBT，利用其数据手册中提供的数据进行对比。
+
+**2.1静态特性**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmG1oIZPEbRicSUZLglYjffeicJibN6PeA6LVWDkZkkIrSpzAHdoUpBsIRQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+                           表3：为SiC MOSFET和Si IGBT器件静态参数
+
+图 6为选取IKW25T120与C2M0080120D进行参数对比，可以看出SiC MOSFET和Si IGBT的传递特性形态基本相似，当VGS小于VTH时是正温系数，当VGS较高时呈现负温系数。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSm3lvichFDhtibGwI9ZVuAmmXFicqfPD80RIPJ7UdvlNrCWf85VNh6IoHhw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图6：Si IGBT(图左)与 SiC MOSFET（图右）转移特性曲线
+
+图 7为器件的输出特性曲线，SiC MOSFET的ID\-VDS曲线是从零点开始，是由于其电阻特性，而Si IGBT是在VCE大于VCEsat(饱和压降)后才有电流输出，这是因为IGBT其内部寄生BJT（Bipolar junction Transistor）负责导通。因此在小电流下IGBT的导通压降更大，SiC MOSFET导通损耗更小。在大电流下IGBT能够在较小的导通压降下流通更大的电流，所以IGBT的跨导更大。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmNqP5x38rubbZCYEIjc0qrxVaG6b3RWJ8CT2iaDicicBo56henE1rOXicTA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图7：Si IGBT（图左）与SiC MOSFET（图右）输出特性曲线
+
+**2.2动态特性**
+
+表4为SiC MOSFET和Si IGBT器件动态参数，图8所示为选取IKW25T120与C2M0080120D的C-V曲线，从表格可以看出SiC MOSFET 的Crss（米勒电容）明显小于Si IGBT。对比发现由于Si IGBT有较大的Ciss，会导致器件的开通时间与关断拖尾时间较长，则其开关能量就会明显大于SiC MOSFET。但同时需要注意的是SiC MOSFET的快速开关，也会导致开通过程中较大的VDS与IDS尖峰。但值得注意是，不同厂家对不同应用进行器件最优匹配时，会对参数采取不同的规格设计（也受限于结构、工艺等多种因素）。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmpzx6LXiaibt4Wicfm7KpWZqcRjQRLQUmljKAh6skqWE9HevYpFUJ2Hk7Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)                      表4 ：SiC MOSFET和Si IGBT器件动态参数
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSm2c2PfwGRtBR2ibjYG7PjyBxAqH1QiaiajJXfX1jPE7X2hLnnAqjESDMVQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  图8：Si IGBT（图左）与SiC MOSFET（图右）C-V特性曲线
+
+Si IGBT和SiC MOSFET的栅电荷Qg如图9所示，SiC MOSFET的Qg明显小于IGBT，这说明SiC MOSFET更适用于高频率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmcUjMeYvib9lFDbdaVm0ka8A9JvLpcQuI3QdUiazraA4icCzMX1vsibuPLQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图9：Si IGBT（图左）与SiC MOSFET（图右）Qg特性曲线
+
+以上都是通过DateSheet数据分析，但是对于器件性能的评估，还需要结合实际应用中器件静态特性、开关性能、温度行为和损耗分布等方面的综合比较。引用相关文献中三种器件（SiC MOSFET与Si IGBT与Si SJ-MOSFET）的关断测试波形，如图 10、图 11所示。在相同半桥测试条件下，SiC MOSFET比其他器件更快，SiC器件可以显著减小开关电路的开关损耗，提高效率。因此，SiC功率器件很适合于高频高压场合。同时需要注意的是，碳化硅设备的栅极驱动电压是不同的。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSm2bzxia7hKVc9ZNgBibenIRicudibOia1TPGOibibqwNMB5KvhvWNViaXEgVgicw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图10：Si IGBT 与SiC MOSFET Turn off曲线
+
+Eoff@ Ic=12.5A, Vce=800V, Rgoff=2.2Ω,Vgsoff=4V
+
+![](https://mmbiz.qpic.cn/mmbiz_png/vR9OTXQM1cnHYjn3fZPYrKtNx00VGcSmx6OdNutibbzSrQ1F0rs2PZbZlicS2icUv0nzwySI3nfBEBXupb7FvkCAQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图11：SiC MOSFET与Si SJ-MOSFET Turn off曲线
+
+Eoff@ Ic=16A, Vce=400V, Rgoff=14.7Ω
+
+**六.  器件的选择**
+
+如果您对在不同类型的半导体器件和材料之间进行选择感到困惑，为您提供了一种简单的方法。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn92wOg8rMk4h0Yw018rEjmbq4Hic056NZ8tB5420D1x3XDXYib2uggQq9TkibAibKPI7vS1bt8vJUWIA/640?wx_fmt=png&from=appmsg)
+
+  
+
+根据电源开关电路的工作条件，我们应在电源开关电路中使用哪种半导体器件？  
+
+以H桥作为AC-DC转换器的设计为例。直流母线电压为370V，变压器中的电流约为3A，开关的工作频率为15至25kHz。出于安全原因，我们选择一种能够承受650V开关和至少30A的组件。我们没有胶合逻辑，计划使用硅绝缘栅双极晶体管（IGBT），硅超结（SJ），SiC或GaN器件。  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn92wOg8rMk4h0Yw018rEjmiaWJEbHkVT5HFPNFsPTFPGkO1npbSXPmcKvIluKLEZZpx7nTqEwqKyw/640?wx_fmt=png&from=appmsg "1615880551762514.png")
+
+                       100W辅助器件中SiC MOSFET的简单示例电源
+
+  
+
+选择使用哪种器件的方法是关注其工作条件。通过回答以下一系列问题来做出选择：
+
+  
+
+·电路设计的开关频率是否低于20kHz？
+
+  
+
+·功率水平是否高于3kW？
+
+  
+
+·如果低成本很重要，那么系统成本低吗？
+
+  
+
+·由三相电网供电么？
+
+  
+
+如果以上任何一个答案为“是”，则最好的选择是Si IGBT。
+
+  
+
+如果设计不符合这些条件，那么下一组问题将有助于缩小选择范围：
+
+  
+
+·开关频率是否在20 kHz至100kHz之间？
+
+  
+
+·设计将在各种各样的线路和负载条件下运行吗？
+
+  
+
+·设计是否需要以适中的成本实现高效率？
+
+  
+
+·设计将由单相电网供电吗？
+
+  
+
+如果设计满足这些特性，那么最好的器件选择是Si SJ MOSFET。
+
+  
+
+如果设计不符合这些标准，那么我们可以继续选择：
+
+  
+
+·开关频率是否高于100kHz？
+
+  
+
+·设计将在各种各样的线路和负载条件下运行吗？
+
+  
+
+·数kw的功率吗？需要高效率吗？
+
+  
+
+·设计是否应允许功率双向流动？
+
+  
+
+·是由三相电网提供吗？
+
+  
+
+如果满足这些条件，则最好的器件选择是SiC MOSFET。
+
+  
+
+或者以下判断标准：
+
+  
+
+·设计的开关频率是否会高于100kHz且在MHz范围内？
+
+  
+
+·它将在各种各样的线路和负载条件下运行吗？
+
+  
+
+·该设计是否应支持最大功率密度和效率的中等功率（最高数百瓦）？
+
+  
+
+·设计将由单相电网提供吗？
+
+  
+
+如果设计确实满足这些标准，则最好的选择可能是GaN MOSFET。
+
+  
+
+根据目标应用选择设备
+
+  
+
+同样，我们可以通过一组标准来定义要使用的设备。通常，应围绕Si IGBT设计驱动功率超过250W的电机驱动器，运行功率超过3kW的功率因数校正（PFC）电路，运行功率超过5kW的太阳能/风能逆变器以及UPS和H桥逆变器。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn92wOg8rMk4h0Yw018rEjm23vta20B1Ny2KjrZnibbcrlkXv738851rMtJXOpBeiaK63mkzeEfDYOQ/640?wx_fmt=png&from=appmsg "1615880598725552.png")
+
+                      适用于AC-DC应用的中复杂度10kW六包PFC转换器
+
+  
+
+对于工作在250W以下的电动机驱动器，工作在75W至3kW之间的DC-DC转换器，中低功率PFC电路和LCC转换器，正向转换器电源，通用输入AC-DC反激电路以及太阳能微逆变器应使用Si SJ MOSFET。
+
+  
+
+应该使用SiC MOSFET来构建更高功率的设计，例如以3kW以上的功率运行的PFC电路，以5kW以上的太阳能逆变器，一些电动汽车和车载充电器以及一些不间断电源和嵌入式PFC电路。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn92wOg8rMk4h0Yw018rEjmBUHZfG6SWzUFT8jk7DHkjBfBZ9rjTa6a0Ab4Y1Ir1C2KS2gfeGtEDg/640?wx_fmt=png&from=appmsg "1615880618930128.png")
+
+           双向有源PFC转换器，用于AC / DC应用，逆变器或电动汽车车载充电器
+
+  
+
+最后，应围绕GaN MOSFET设计由单相电网供电，工作电压低于650V，工作电压在75W至750W之间，且需要小型，凉爽和便携式的应用。
+
+  
+
+在设备的性能，成本，操作要求，尺寸，热效率，可用性等之间，设计选择之间总是需要权衡取舍。引入Sic和GaN技术可能会通过引入更多选项使探索这些折衷变得更加复杂，但是在某些应用中，它可以帮助您的设计更接近于完美。
+
+    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqb8Po3qdBDOEjHEmo3DibcFdSeQxPepq4CgmLpeSttlMicicb3ru8mu738A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)

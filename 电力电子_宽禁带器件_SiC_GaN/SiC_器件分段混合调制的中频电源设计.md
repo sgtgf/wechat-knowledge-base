@@ -1,0 +1,113 @@
+# SiC 器件分段混合调制的中频电源设计
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/DMQoyTW\_RPcpGxHlDbnwMA](https://mp.weixin.qq.com/s/DMQoyTW_RPcpGxHlDbnwMA)
+
+文章来源：电力电子技术
+
+作者：安少亮，王可嘉，姚小虎，孙向东（西安理工大学，电气工程学院，陕西西安 710048）
+
+摘要：本文基于碳化硅（SiC）器件的单相400Hz中频逆变电源，聚焦于逆变电源变换效率和输出电压谐波含量的整体优化，提出了一种在400Hz中频周期内单双极性分段混合的调制策略。首先，分析了传统单极性与双极性调制分别在交流调制波周期内的调制精度与效率，结合单极性与双极性的各自优势，采用准比例谐振（QPR）控制。其次，设计了系统的电路与控制参数，并进行了仿真分析。最后，通过搭建一台基于SiC 器件的300W电源样机，验证了所提出的单双极性混合调制策略能够在高开关频率下保证低谐波畸变率的同时兼顾高效率的优势。
+
+关键词：电源；碳化硅；混合调制；准比例谐振控制
+
+1　引言
+
+当前，以SiC 为典型代表的第三代半导体材料，正日益受到国内外众多科研专家与学者的高度重视。在现代电力电子技术不断革新的进程中，SiC 作为一种极具潜力的新型材料，正逐步彰显出其不可替代的价值。在当今电力电子领域中，400Hz中频逆变电源作为一种关键的电能转换设备，被广泛用于飞机及机载设备、雷达、导航等工业场景与特殊领域。而将SiC 材料应用于中频逆变电源领域时，能显著提升开关频率、转换效率并提高功率密度。
+
+在中频逆变电源调制策略的选择上，多采用单极性调制或双极性调制等传统调制策略，然而单一某一种传统调制策略通常比较难以在保证低谐波畸变率的同时兼顾高效率，当开关频率提高以后，两个指标的兼顾就显得更为重要。由于这一矛盾存在，使得整机性能无法达到系统最佳，而日益严苛的工业需求也将技术指标推向了更高的程度。在环路控制上，逆变电源的控制器多采用PI控制，PI 控制器的优点是针对直流控制量的稳态无静差控制，但是也存在一个不可回避的局限性，即无法对交流信号无静差跟踪，使得系统控制精度降低、稳定性变差以及动态响应变慢，进而影响整个系统的运行效率以及性能表现。
+
+本文首先对单极性调制、双极性调制的特点 进行分析，有效结合两种调制方式的优势，提出 了一种同时利用两者调制优点的混合调制策略，采用 QPR 控制方式设计了系统参数，最后进行了仿真分析和实验验证。
+
+2　主电路拓扑及调制策略分析
+
+2.1　中频电源电路拓扑
+
+SiC 器件凭借其更高的开关速度、低导通电阻及更高的工作温度等特性，在高开关频率下的中频逆变电源中展现出多方面的优势，为中频逆变电源的发展提供了新的技术支持和更广阔的应用前景。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylnLylLm2eichRQGoY7DheJnHXLbH8GvD9haez8lb2iaRhicKzib3S5K1ZibA/640?wx_fmt=png&from=appmsg)
+
+本文采用单相全桥逆变拓扑结构，如图1 所示。其中，Udc为直流母线电压，S1~S4为SiC 管，Cdc为直流稳压电容。为实现更好的对称结构并减小电流纹波，输出滤波电感分为上下两个相同的电感L1和L2，其大小都为输出电感的1/2，二者与滤波电容C共同组成LC 滤波器，r 为线路及滤波电感的等效电阻。
+
+2.2　单双极性调制方式
+
+传统调制策略有单极性调制和双极性调制。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylbgO3EdJtkdtCp81zL3XDdL1NBGRtRPrIpK7r26BVvj0HzOXLTPo5Ww/640?wx_fmt=png&from=appmsg)
+
+单极性调制示意图如图 2（a）所示，其中，uc为载波信号，ur为调制波信号。由于单极性调制需要在过零点处进行换向，会出现SPWM 占空比突变的情况，而占空比突变必然致使输出正弦信号在过零点处产生振荡。
+
+双极性调制示意图如图2（b）所示。双极性调制方式不存在过零点换向问题，输出电压过零点无振荡现象，谐波含量小。
+
+在整个工频周期范围内，双极性调制方式下的开关次数比单极性调制方式下多，单极性调制方式下逆变器的效率要明显高于双极性调制方式。由于单极性调制方式下输出电压在过零点处存在振荡，增加输出电压、输出电流的谐波含 量。而双极性调制方式不存在上述问题，电压过零点处可平滑切换，输出电压和电流的谐波含量较小。
+
+2.3　混合调制策略原理分析
+
+效率方面，单极性调制方式优于双极性调制方式；输出电压总谐波畸变率（THD）方面，双极性调制方式优于单极性调制方式。而单极性调制方式存在的问题主要集中于电压过零点附近区域。结合两种调制方式的优势，提出在400Hz中频周期内分段混合调制策略，即在电压过零点附近区域内采用双极性调制方式，其余区域采用单极性调制方式。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylxJqia72zHGTlhl026XLJLicSugQq4TjBZ7XgrhABFGnbS2ib4iaJjnLL2w/640?wx_fmt=png&from=appmsg)
+
+混合调制方式示意图如图3 所示，其中，ugS1为高频管驱动信号，ugS4为低频管驱动信号。
+
+双极性调制的时间区域位于整个电源周期的过零点附近，占比较小不会降低系统效率，但可以有效减少波形失真，提高电源输出的波形质量。因此这种分段混合调制方式在中频电源的应用中能兼顾逆变器的整机效率和输出电压THD，在确保输出电压波形质量的情况下，同时实现逆变电源的效率提升。
+
+3   QPR 控制策略
+
+采用闭环控制提高系统的动稳态响应能力，并考虑数字控制的延时作用对控制性能的影响，系统控制框图如图 4 所示。其中，uref为给定电压参考信号，Gu（s）为电压控制器，Ts 为采样周期，CPK为载波峰值，L 为滤波电感。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92byl52FxPHXjhGDfmjMnbGZAjBgqVPibmmI1xklZpDQhhJanTxvjWUHmqeg/640?wx_fmt=png&from=appmsg)
+
+PI 控制器对于交流信号的控制有一定局限性，对直流信号的控制性能好。而PR控制器可以无静差跟踪交流正弦指令信号，通常被用来跟踪工频交流信号，即使电网频率出现偏移，QPR控制策略仍能输出质量良好的电压波形。考虑中频逆变电源对输出波形质量有着严苛要求，本文采用 QPR 控制器对400Hz 交流输出进行控制，并在100kHz 的高开关频率下考虑数字控制的延时作用设计与之适配的控制器参数，旨在进一步提升中频逆变电源的性能表现。图5 为QPR和 PI 控制器波特图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylvsrtxqD76HwMPrCOLaT6GJt6qFhCedCv24j3IsicXibEyWmlQY38syRA/640?wx_fmt=png&from=appmsg)
+
+根据QPR 控制器传递函数的幅频响应，在谐振频率ω\=ω0处频率点的增益无穷大，且没有相位滞后，可设计谐振频率等于输出角频率2πf\=800π rad·s−¹，使400Hz 基波信号增益无穷大而其 他频段增益小，从而更好地控制输出电压波形。
+
+QPR 控制器的表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylmd872uiaBQicYAPYhla7PI0ia1hpBA5y2bUQ2DHvOUGduibOIVSNOh1nuQ/640?wx_fmt=png&from=appmsg)
+
+式中：Kp 为比例增益系数；Kr 为谐振增益系数；ωc为截止频率；ω0 为基波角频率。
+
+其中，Kp 和Kr 主要影响控制器的增益和相位裕度，ωc 主要影响ω0 处的带宽，调节Kp 和Kr 可以优化系统的动态性能和稳态性能，调节ωc 可以改善系统的抗干扰能力。
+
+4　仿真及实验结果分析
+
+4.1　仿真结果
+
+利用Simulink 软件搭建单相逆变主电路，其中，Udc\=200V，开关频率为100 kHz，输出功率Po\=300W，滤波电感L1\=L2\=0.25 mH，C\=1μF，模拟混合调制策略及QPR 控制下的仿真输出结果。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylBaYjU8Y4IlibXf0HMk0lXKqpPOJYI1NHNOvEibDVDKxPyVF8rPQsnc8w/640?wx_fmt=png&from=appmsg)
+
+图6 为单双极性混合调制策略及QPR 控制下的中频逆变电源在输出功率为300 W 下的仿真波形。 单极性调制下，系统输出电压THD\=1.32%，存在过零点附近电感电流振荡，导致输出电压和电流波形畸变，电能质量下降。当采用混合调制策略后，在过零点附近区域切换成双极性调制，振荡情况得到了明显改善，输出电压THD\=0.89%。过零点处采用双极性调制，使得电流变 化更加平滑，有效避免了单极性调制方式在过零 点区域附近带来的振荡和畸变问题，输出电压波 形质量良好，这对于提升逆变电源整体性能具有 重要的实际意义。
+
+4.2　实验验证
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylrvtSlHEK6unCOPoiaMSpx2nuo1xF2fXlm9xpVL8EBXa94jDUlviaPl9A/640?wx_fmt=png&from=appmsg)
+
+为验证SiC 器件在高开关频率下的性能及混合调制方式的效果，本文采用IMZA65R057M1H开关管搭建了一台单相全桥逆变实验平台，该实验平台如图7 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylx5MlicbZibjykvzvCYKzvRgCnx8bQssONEUoEL9EMwHjOKcm9FOEibiaug/640?wx_fmt=png&from=appmsg)
+
+图8 为逆变电源实验波形，其中，Udc\=200V，开关频率为100kHz，输出功率Po\=300W，基于混合调制的单相全桥逆变电源输出电压实验波形。根据实验结果，输出电压交流有效值115.26V，最大电平165V，波形质量良好。300 W 逆变电源输出电压的THD分析结果显示，此时THD\=1.84%，在单双极性混合调制策略及 QPR 控制下，能够在较长时间内保持电压的稳定输出，减少波动和误差，输出电压波形质量良好，稳态精度高。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsndd04grsxL9NRv0wD92bylXegiby5CtdLicuLxDgaOntblNhgqhaIe0zxoAgfvQdm7hQ1NibWic6jUCA/640?wx_fmt=png&from=appmsg)
+
+根据图9 对比不同调制方式下的输出效率及THD，相较于传统调制方式，混合调制方式具有一定优势，其能够保持在一定THD 的基础上，有效提高系统效率，为中频逆变电源的优化运行提供了有力保障。
+
+5　结论
+
+本文基于第三代宽禁带SiC 器件，将其应用于100kHz开关频率的400Hz 机载中频单相逆变电源，结合双极性在过零点面积等效准确度更高、单极性在其他区间开关损耗更小的特点，提出了一种在电源工作周期内单双极性混合的调制策略，在高开关频率下优化了系统效率与输出电压的THD。电源系统采用QPR 闭环控制，进一步提升了输出电压的波形质量。最终通过实验测试，给出了不同调制方式下的电源输出效率与THD曲线对比图，其结果显示，本文所提的单双极性混合调制策略具有能够在高开关频率下保证低谐波畸变率的同时兼顾高效率的优势。
+
+注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslU2YLeGmDglNssatWcicvqJVCKrPwx4RTnfoyMa21FXCCtnLbuKQiao1uSFArZv7Y8msice6uf7rxRQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=1umdp7l6&tp=webp#imgIndex=6)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslU2YLeGmDglNssatWcicvqJyJWnYrRnYsZJm1iaMrZ2GsfB6565Zl4UXqNibCqPMVbdIPar5KRfhKjw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=56ak8fax&tp=webp#imgIndex=7)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslU2YLeGmDglNssatWcicvqJQvqRN30S9IDqQRfLLHC6lSUuT2yIzJWkrfM6IUAeIeLtMt7qlMxBpg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&randomid=a0lpe1mu&tp=webp#imgIndex=8)

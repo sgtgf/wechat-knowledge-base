@@ -1,0 +1,808 @@
+# 基于宽禁带功率器件的高效率 Boost 型 PFC 整流器设计与实现
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/jTZWT7wDkZgyu52ajzHJeA](https://mp.weixin.qq.com/s/jTZWT7wDkZgyu52ajzHJeA)
+
+文章来源：华中科技大学
+
+作者：陈子博（硕士学位论文）
+
+摘要：重复脉冲强磁场作为一种特殊的强磁场在经颅磁刺激、核磁共振、太赫兹辐射等领域得到了广泛的应用。在重复脉冲强磁场装置中，重复脉冲放电的频率往往会被充电电源的功率等级所限制。重复脉冲强磁场电源装置通常由前级PFC整流器和后级DC-DC变换器的两级拓扑组成，本文介绍了Boost 型PFC 整流器的发展历程及国内外研究现状，并针对不同功率等级的重复脉冲强磁场电源装置，分别设计了基于GaN 器件的5kW交错并联图腾柱整流器和基于SiC MOSFET的20kW 维也纳整流器。
+
+图腾柱整流器是重复脉冲强磁场电源装置的理想前级PFC整流器拓扑，将GaN 器 件应用其中可将其功率等级提升至几千瓦。对5kW 交错并联图腾柱整流器进行了元件选型和系统损耗分析，提出一种分布式的散热设计提升系统散热能力；对GaN 器件独特的物理构造及开关特性进行分析，设计了一种在动态和稳态过程具有不同驱动阻抗的低损耗高速驱动电路，并通过双脉冲测试对GaN 器件及驱动电路的动态特性进行测试，证实其在400V/12A 工作条件下可实现10ns 内开关。
+
+维也纳整流器是一种三相三电平Boost 型PFC整流器，其功率等级可达几十千瓦。 本文对20kW 维也纳整流器的散热系统进行整体优化设计，将开关频率提升至140kHz， 大幅减小磁性元件的体积；将T-Type 电路的调制方法应用其中，实现对背靠背SiC  MOSFET 器件的独立控制，消除了过零点区域的电压尖峰问题；完善两级EMI 滤波器设计，降低系统高频共模噪声，并通过加入阻尼电阻的方式增加相位裕度，提高系统的稳定性；提出功率器件双列排布的方式，将功率回路中的寄生电感减少25%。
+
+搭建5kW 交错并联图腾柱整流器和20kW 维也纳整流器样机。经测试，图腾柱整 流器在5.4kW 交错并联DC-DC 实验中，满载效率高达99.1%，GaN 器件外表温度不超过50.6度；维也纳整流器在21kW 实验中，满载效率可达98.5%，SiC MOSFET 器件外表温度不超过68.7 度。上述实验结果验证了本文设计的可靠性与有效性。
+
+关键词：Boost 型PFC 整流器；图腾柱整流器；维也纳整流器；损耗分析；热设计
+
+1.绪论
+
+1.1 研究背景与意义
+
+强磁场是现代科学试验的一个重要极端条件，武汉国家脉冲强磁场科学中心对脉冲强磁场、平顶长脉冲强磁场及重复脉冲强磁场进行了深入的研究，在凝聚态物理学、磁学、化学以及材料科学等领域取得了众多前沿研究成果。
+
+重复脉冲强磁场作为一种特殊的强磁场在经颅磁刺激、核磁共振、太赫兹辐射等领域有着广泛的应用前景。重复脉冲强磁场装置主要由电容器充电电源、脉冲电容器组、放电回路和磁体组成。其中前级电容器充电电源的功率将极大地影响重复脉冲放电的频率，限制重复脉冲强磁场装置的工作性能。
+
+应用于重复脉冲强磁场的充电电源装置通常为两级结构，前级为AC-DC的PFC整流器，后级为DC-DC变换器。在中小功率应用场合，通常使用单相PFC+LCC谐振的电路结构；在大功率场合常使用三相PFC+LCC谐振的电路结构或采用模块化电源的方案。
+
+电力电子变换器会对电力系统造成谐波污染，甚至威胁到电网的安全运行。国际电工委员会、美国电气和电子工程师协会、欧洲电工技术标准委员会和中国国家标准等都对谐波都制定了相应的标准，如IEC61000-3-2、IEEE Std 519、GB/T 14549-1993。 近年来，在美国国家环保局“能源之星”计划以及中国中标认证中心的推动下，世界各地正在制定有关电源工作效率的能效标准，将功率因数与效率相结合作为电力电子变换器的基本评价标准。因此，高效率高功率因数的前级整流器对高性能重复脉冲强磁场装置的研究具有非常重要的意义。
+
+1.2 国内外研究现状
+
+1.2.1功率因数校正技术的分类及研究现状
+
+现代功率因数校正技术（Power Factor Correction，PFC）通常指有源PFC 技术。根据电网的供电方式，功率因数校正技术可分为单相PFC 技术和三相PFC 技术。根据电路的基本拓扑，功率因数变换器主要可分为Boost 型PFC 装置(升压)、Buck 型PFC 装置(降压)、Buck-Boost 型PFC 装置(升降压)以及多电平PFC 装置。有时Flyback、Sepic 和 Cuk 电路等基本电路结构也被应用于功率因数校正装置中，多脉冲PFC 装置也被应用于超大功率三相电源供电的场合。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfHCNvtTUgH0w5JpCV0HE2SCbSyeibBcIOLMiapic91iaJCeHuwNHsjM7APg/640?wx_fmt=png)
+
+如图1-1 和1-2 所示为典型单相Boost 型PFC 整流器及三相Boost 型PFC 整流器。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfN8wPp8icdCy0FKMVLdSRQMnfrcqpLab1PK0ekonUWBoib0NOLViatODcw/640?wx_fmt=png)
+
+图1-3 和图1-4 所示为典型单相Buck 型PFC 整流器及三相Buck 型PFC 整流器。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfBZPursWaURmYhIluGas8icgiaU3UMF7JWDJRJfIgaryptH3r9BcibZvQw/640?wx_fmt=png)
+
+图1-5 和图1-6 所示为典型单相Buck-Boost 型PFC 整流器及三相Buck-Boost 型PFC整流器。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfe3FxIuyf8kPYC6PLZAiaHYPZxZBlZ19cLHwrVd5G9O0TRUodCmfqOqw/640?wx_fmt=png)
+
+图1-7 和图1-8 所示为典型单相多电平PFC 整流器及三相多电平PFC 整流器。
+
+国内外对功率因数校正技术已经有了很长时间的探索和实践，可已经以实现较高的功率因数和较低的谐波畸变率。目前功率因数校正技术正朝着更高效率和更高功率密度的方向发展。提高PFC 整流器工作效率主要有以下几个方面：
+
+（1）减少功率半导体器 件的开关损耗，如采用软开关技术，提高器件开关速度；
+
+（2）减小功率器件通态损耗， 如利用无桥技术降低整流过程中产生的损耗；
+
+（3）使用新的拓扑降低损耗，如交错并联 变换器和多电平变换器；
+
+（4）使用新一代功率半导体器件降低损耗，如氮化镓器件（GaN）和碳化硅器件（SiC）。
+
+1.2.2单相Boost 型PFC 整流器研究现状
+
+近年来，一些新的PFC 整流器拓扑不断被提出，在提高功率因数、降低谐波畸变率、减小磁性元件体积、增强系统稳定性、提高效率和功率密度方面有着显著的进展。
+
+（1）传统Boost 型PFC 整流器
+
+传统Boost 型PFC 整流器在单相供电电源中得到了广泛的应用，是一个极为成熟的功率因数校正方案，具有拓扑结构简单、输入电流连续的特性，其产生的电磁干扰比Buck型 PFC 整流器和Buck-Boost 型PFC 整流器更小。如图1-9 所示，无论开关S 在何种状 态，电流总会流经三个功率半导体器件，因此会产生大量的通态损耗，这种损耗在输入电压低、输入电流大时尤为严重。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfUTW01sIpjCiaKtbh0Dqdb8O9icGK2yfUvibMQEGibp3CYFVECBeic6AGdibQ/640?wx_fmt=png)
+
+（2）交错并联Boost 型PFC 整流器
+
+为了提升整流器的功率等级，通常将几个整流器模块并联使用来增加输出功率，这样往往不能充分利用器件，并对控制提出了更高的要求，降低了系统的稳定性。交错并联Boost 型PFC 整流器的提出使整流器可工作在更高的功率等级，N 个功率通道以360°/N的相位差交替运行，在不增加开关器件电压电流应力的前提下，使整机功率提升至原来的N 倍。同时，通过交错并联技术可以有效减小纹波，降低对滤波器的要求。 但该电路拓扑仍存在着整流桥功率损耗大、Boost 二极管反向恢复严重等问题。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfPR4O6XAwhL6WibOLuhrBuicd6PY2K5hrtgHBJ8eGovJ5ppDtRad4NQjA/640?wx_fmt=png)
+
+（3）桥式Boost 型PFC整流器  
+
+图1-11 所示为一种半桥结构的Boost 型 PFC 整流器。在该拓扑中电流在每个开 关周期内只流经一个开关管，使通态损耗大大减小。同时，该拓扑具有高输出电压的特性，例如当输入电压为220V 时，其输出电压必须大于620V。过高的电压应力对器件选 型带来了困难，两个输出电容上的电压平衡也是限制该拓扑应用的一个主要问题。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfsjWGUlbPw0kllEMN2dde8ulwTibNOYjWVY5xfwWrH6zKfdRrVDMKk2g/640?wx_fmt=png)
+
+图1-12 所示为全桥Boost 型PFC 整流器，该电路可以消除半桥结构电压不平衡的问题，但由于使用了更多的功率半导体器件，将大大提高系统的成本。
+
+（4）三电平Boost 型PFC 整流器
+
+如图1-13 所示为三电平Boost 型PFC 整流器，该拓扑在输出电压高于400V 的应用中有着很大的优势，其三电平结构使每个开关管承受的电压应力只有输出母线电压的一半。同时，该拓扑中输出电流纹波频率是传统Boost 型PFC 整流器的二倍，对滤波器的体积要求也随之降低。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf1vibok3Qwa0soeB4kvxpAqU3icKQyWibazxjqoiblTsiayGX0gwkXa4yrvw/640?wx_fmt=png)
+
+（5）无桥Boost 型PFC 整流器  
+
+在传统Boost 型PFC 整流器中，二极管整流桥产生的通态损耗是系统最主要的损耗来源。为了提高工作效率，研究人员提出了如图1-14 所示的基本无桥PFC 整流器拓扑，通过减少回路中功率半导体器件的方式减少了通态损耗。然而，该电路拓扑中的两个二极管存在严重的反向恢复问题和EMI 问题。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfSI33Cibwq8icFWva2nqwtvSV9xWfBflnl6J9mKTibn1JLicZddgnTE3WuA/640?wx_fmt=png)
+
+在典型Boost 型PFC 整流器中，无论工作在正半周期还是负半周期输入电源总是能通过二极管桥钳位在输出直流地电位上。然而对于基本无桥Boost 型PFC 整流器，在正半周期时交流电源可以通过开关管S2 的体二极管钳位在直流输出地上，但是在负半周期，交流输入和输出地之间存在一个高频的电压跳变。高频跳变的电压会不断对交流输入和直流输出间的寄生电容充放电，大大增加共模干扰。
+
+表1-1 总结并比较了上述五种单相Boost 型PFC 整流器在相同电流、电压、功率以及开关频率下的特性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfiawpYZKfnBN4LCGjjEMpv20bU9jBqRaR0N5mIV9bbf077eu2mox2Xow/640?wx_fmt=png)
+
+无桥PFC 因其高工作效率而得到了广泛的研究，为解决二极管反向恢复问题和EMI问题，多种改良拓扑被陆续提出。其中，技术比较成熟的拓扑有Dual Boost 无桥PFC 整流器，双向开关Boost 无桥PFC 整流器，三电平Boost 无桥PFC 整流器，伪图腾柱无桥PFC整流器和图腾柱无桥PFC 整流器。
+
+①Dual Boost 无桥PFC 整流器 
+
+Dual Boost 无桥PFC 整流器拓扑如图1-15 所示，该拓扑由两组Boost 变换器组成， 通过在电路中加入一个Boost 电感和两个慢速二极管，组成两套分别在正负半周期工作的Boost PFC。在正半周期和负半周期，电路分别通过二极管D3 和D4 将输出地和交流输入相连接，从而能够减小共模干扰至和传统Boost PFC 一样的水平。由于电路中每个Boost 电感只工作半个工频周期，器件难以得到有效的利用。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfJJgLKdoBhEevbqSGaBKQJjYKmBg5lTO0Py3MyI42GJTghGUUvFHO2Q/640?wx_fmt=png)
+
+②双向开关Boost 无桥PFC 整流器  
+
+如图1-16 所示为双向开关Boost无桥 PFC整流器，该拓扑也可以解决共模干扰的问题。电路中D1 和D2为快恢复二极管，而D3 和D4 可以使用慢速二极管。在正负半周期内，D4 和D1 分别将输入交流电源钳位至输出电平。该拓扑的主要缺点在于两个开关管的驱动电位不同，并且都需要隔离，使驱动电路的设计变得复杂。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfEscTgmHocg0PwWmicbSOMjibRPOcDwiaqeQTOEoBQOWG67zMncM4SaC8w/640?wx_fmt=png)
+
+③三电平Boost 无桥PFC 整流器
+
+类似于Dual Boost无桥PFC，三电平Boost 无桥PFC 整流器在正负半周期内两组Boost电路分别工作，而且在一组Boost 电路工作时另一组Boost 电路停止工作。三电平Boost无桥PFC 整流器具有三电平电路的共有优点，即能使开关器件的电压应力减半，又能减轻共模干扰，但也存在着需要使用隔离驱动和电感利用率低的缺点。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfdBNZsBg4WVkia0wJgTWTtI7o0pOtKks9CKh4wcRbAJqSHeeUIjY6BNQ/640?wx_fmt=png)
+
+④伪图腾柱无桥PFC 整流器
+
+如图1-18 为一种伪图腾柱无桥PFC 整流器，该电路与Dual-Boost 无桥PFC 整流器相似，由两组Boost 电路在正负半周期分别工作。在正半周期LB1\-S1\-D1 支路经D4 导通，负半周期LB2\-S2\-D2 支路经D3 导通，使输入交流电源与输出始终保持同电位，进而解决了共模干扰问题。该电路因驱动电路复杂和电感利用率低等缺点，较少在实际中应用。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfPvpxfCcgQCj7QnmdeHHhzDjibDWOjHbGXDQ5ibZ61WoUlCBOjxvEmSicA/640?wx_fmt=png)
+
+⑤图腾柱无桥PFC 整流器  
+
+如图1-19 所示为图腾柱整流器，其结构简单，成本低廉，是近年无桥整流技术的研究热点。与基本无桥Boost PFC 相比，图腾柱整流器即没有增加器件的数量，也没有带来EMI 问题。在正负半周期分别由二极管D2 和D1 将交流电源与输出电平连接。但图腾柱整流器在实际应用中还存在着严重的二极管反向恢复问题，在连续电流模式（CCM）下会产生极大的损耗，只能工作在断续电流模式（DCM）和临界电流模式（CRM），因此只适用于中小功率的应用场合。目前，GaN 器件的出现完美的解决了图腾柱整流器在CCM 模式下的二极管反向恢复问题，使其工作在几千瓦的功率等级仍能保持很高的效率，成为当前研究的热点。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfbFzuYiaMzFxwAlrf1yltU35Epbv4sHQt7LYrpfhWasDtBojicV2ZsjRA/640?wx_fmt=png)
+
+表1-2 对上述几种无桥整流器拓扑的关键元件数量、共模噪声、和工作模式等方面进行了对比，进而对常用无桥整流拓扑进行评估。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfdce23JVAZeC07SaNQZulgnH9AE6qialACrvlkwNuiaCsJhXFRspVFeiaw/640?wx_fmt=png)
+
+1.2.3三相Boost 型PFC 整流器研究现状
+
+在单相PFC 整流技术发展的同时，大功率场合的三相PFC 整流技术也在不断发展。 对于三相整流来说，最简单的方法就是将已有的单相PFC 整流器进行星形连接或三角形连接，直接作为三相整流器使用。该方法大大缩短了产品研发周期，并有助于进行批量生产，但同时也存在着三相不平衡、器件利用率低等诸多缺点。为了简化设计， 常在三相电源输入的应用中采用直接三相功率因数校正技术。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfwcyFZzuAo6okMhFfxI2HOHmojZAtIqtk3KgbIzGickQtha5ibhticSkCw/640?wx_fmt=png)
+
+图1-22 所示为三相单开关Boost 型PFC 整流器，该拓扑是由单相Boost 型整流器 发展而来，通常工作在断续电流模式（DCM）下。其优点在于只使用一个开关器件，控制简单，成本低廉。但DCM 模式的断续输入电流特性使其输入电流峰值较大，对EMI滤波器的要求高，通常只应用于输出功率较小、THD 要求不高的场合。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfJ7YrVeasbUfg2KrnlWJsibwMIy4aGqya2ic62R8lPcib9b0UflMnu4viaQ/640?wx_fmt=png)
+
+三相六开关Boost 型PFC 整流器如图1-23 所示，主要由三个PFC 电感和六个开关 管组成。该拓扑在中低压领域得到了广泛的应用，具有结构简单，每一相上下桥臂都可以独立开关，在缺相时仍能正常工作的优点。但该拓扑仍然存在开关管电压应力高、 开关损耗大、电磁干扰强的问题，当电压和功率等级提高时，其功率密度和效率很难进一步提升。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfKTxmicwp2c98LNXiag5NdMX7RCkAjU87vYjnVeY4ew2ub5AAYVl7bGibA/640?wx_fmt=png)
+
+图1-24 所示为三次谐波注入三相Boost 型PFC 整流器，通过开关动作使在Y 处注 入的电流成3 倍基波频率变化。该拓扑可以缺相运行，并具有输入电流连续、开关损耗低等优点，但庞大的器件数量大大限制了该拓扑的实际应用。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfibI5iau1Rw3NibfCuLhROuWPIypXAw1dNAyh7NLalmdHIA7DGphaVHUVA/640?wx_fmt=png)
+
+三电平整流器与传统两电平整流器相比，具备开关器件电压应力小、损耗小、效率高的优点。日本学者A. Nabae 提出了中点钳位变换器，主要是由二极管钳位式和电容器钳位式两种拓扑构成。如图1-25 所示为二极管钳位式三相PFC 整流器，其电平数的增加使输入电流更加接近于正弦波，谐波畸变率明显降低，同时也减小了EMI 问题。该拓扑适用于高电压、大功率的场合，但需要使用大量器件，结构复杂并大大增加了制造成本。此外三电平功率因数校正电路普遍存在电容电压不平衡问题，降低了系统的可靠性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf8zNbmDtU2NUsOBqicdnwf6mw3e8rwiaJRcWa99MCFic9vswSbzdxHIFOw/640?wx_fmt=png)
+
+90 年代初，J. W. Kolar 提出了一种三相三电平结构的维也纳整流器，该拓扑具有输入电感电流连续、波形畸变率低、能够实现单位功率因数运行等优点。维也纳整流器的开关管电压应力为输出直流母线电压的一半，且电压跳变小，纹波低，可实现更高的功率密度。维也纳整流器不存在上下管直通的问题，当控制系统失效时可进入不控整流模式工作，具有较高的可靠性。基于以上优点，维也纳整流器在过去三十年来被广泛进行研究和改进。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfYuDMPxicyOS179ReKdULSkFicXBdVzWibZlwbib0WAuY8ibFThl3oNheVFQ/640?wx_fmt=png)
+
+1.3本文研究内容及论文结构
+
+1.3.1研究内容
+
+随着重复脉冲强磁场技术的发展，高性能重复脉冲强磁场装置对于电容器充电电源 的性能要求也越来越高。为了满足相应国家标准的规定，重复脉冲强磁场装置充电电源的AC-DC 整流器需要带有功率因数校正功能，并尽可能实现高效率和高功率密度的需 求。有源功率因数校正是中小功率电力电子装置中应用的主要功率因数校正技术，根据 其基本拓扑结构主要可分为Boost 型PFC 整流器、Buck 型PFC 整流器和 Buck-Boost 型PFC 整流器，其中Boost 型PFC 整流器以其优良的特性在工业产品中得以广泛的运用。
+
+在众多单相Boost 型PFC 整流器拓扑当中，无桥整流器通过消除二极管整流桥而大大降低了二极管上产生的通态损耗，具备实现高效率和高功率密度的潜力。而在众多无桥整流器拓扑中，图腾柱整流器使用的功率半导体器件最少，也不会带来额外的EMI 问题。随着GaN 器件的应用，图腾柱整流器突破了以往只能工作在DCM 和CRM 模式的局限，其工作在CCM 模式下时可应用在功率等级高达几千瓦的应用场合当中，具有良好的应用前景。表1-3 对各公司发布的单相整流器性能进行了对比，从中可看出图腾柱整流器不仅大大提升了单相整流器的效率，还在单相整流器的功率等级和功率密度方面有了很大的提升。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfwHd5yW2PlsX3WZicMpKHU0qmKOAsdMAJ5InOdDYfqiamYYTClRXHBe0w/640?wx_fmt=png)
+
+当涉及到高压大功率应用场合时，就需要使用三相Boost 型PFC 整流器。其中维也纳整流器可实现单位功率因数，并具备波形畸变率低、开关器件电压应力小、功率密度高和系统稳定性强等一系列优点，得到了广泛的应用。表1-4 展示了文献44 中对几种60kW的三相整流整流器进行的性能对比，从中可看到维也纳整流器的效率和功率密度都高于其他的几种整流器拓扑。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf5zCyyCyvzibUcm3NLwKqYsIendhrK5Myia5C8JiaAUZsd8wPeMAfBDt6w/640?wx_fmt=png)
+
+本文针对不同功率等级重复脉冲强磁场装置对于电源的需求，分别设计了基于GaN器件的 5kW 交错并联图腾柱整流器和基于SiC MOSFET 器件的20kW 维也纳整流器。 表1-5 为两个整流器的性能指标。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfD13TlyNBUURClGR9PyY8TK1QO5lGUcchpAnA4pU155rE2LaPEryqWA/640?wx_fmt=png)
+
+其中，5kW 图腾柱整流器项目是于美国德克萨斯大学联合培养时，由Infineon 公司资助进行研究；20kW 维也纳整流器项目是于美国北卡罗莱纳州立大学联合培养时，由Microsemi公司资助开展研究。本文设计的硬件电路中均带有相应公司的标志。
+
+1.3.2论文结构
+
+本文的章节安排如下：  
+
+第一章介绍了重复脉冲强磁场的研究背景和研究现状，说明强磁场技术对于现代科学研究的重大意义。回顾PFC 整流器发展历程，对Boost 型PFC 整流器的实用拓扑进行对比综述，分析了当前各主流Boost 型整流器拓扑的优缺点。针对不同电压等级的重复脉冲强磁场装置，提出5kW 交错并联图腾柱整流器和20kW 维也纳整流器设计方案和关键设计指标。
+
+第二章介绍了基于GaN 器件的5kW 交错并联图腾柱整流器设计方案。分析了图腾柱整流器的工作原理和基本控制方法，确定了交错并联图腾柱整流器的拓扑和CCM 工作模式；对GaN 器件和其他主要器件进行对比选型，计算各主要元件产生的损耗并对系统做出损耗分析；提出用一种分布式的散热设计加强对功率半导体器件的散热，并通过温升计算对图腾柱整流器的工作温度进行预估；分析器件开关过程，设计新型GaN 器件高速驱动电路，并通过双脉冲测试对GaN 器件及其驱动电路的开关特性进行评估。
+
+第三章介绍了20kW 维也纳整流器的设计方法。介绍了维也纳整流器的基本工作原理，提出使用一种T-Type 变换器的调制方式对控制系统进行优化，并消除了过零点区域的电压尖峰问题；对SiC 器件和其他主要器件进行选型和损耗计算，并通过PLECS软件进行仿真验证；针对大功率电力电子装置严重的散热问题，对散热系统进行优化设计；最后介绍了 EMI 滤波器设计及减小功率回路寄生电感的优化方法，并对20kW 维也纳整流器的三维建模和机械结构设计进行说明。
+
+第四章依据前文介绍的设计指标和设计方法，分别搭建了图腾柱整流器和维也纳整流器实验装置，对图腾柱整流器进行双脉冲测试、散热能力测试以及5.4kW 交错并联DC-DC测试，证实该设计可实现99.1%的满载效率；对维也纳整流器进行21kW 满载测试，最终可以实现98.5%的满载效率，验证了设计的可靠性。
+
+第五章对前文的理论分析、装置设计和实验验证进行全面的总结和分析，并提出对后续研究工作的进一步展望。
+
+2.基于GAN 器件的5KW 交错并联图腾柱整流器
+
+图腾柱整流器是一种单相无桥Boost 型PFC 整流器，其无桥电路结构可以大幅提升整机效率。GaN 器件是新一代宽禁带半导体器件的代表，具有极小的反向恢复电荷，可彻底解决Si MOSFET 在开关过程中严重的二极管反向恢复问题。基于GaN 器件的交错并联图腾柱整流器在CCM 模式下可工作于几千瓦的功率等级，是经颅磁刺激和太赫兹源等5kW 以下重复脉冲强磁场电源装置的理想前级PFC 整流器拓扑。表2-1 对近年来各公司发布的高性能CCM 图腾柱PFC 整流器进行了比较。本章设计了一种基于GaN器件的交错并联图腾柱整流器，其峰值效率99.3%，满载效率99%，功率密度87W/Inch³， 具有很强的竞争力，是于美国德克萨斯大学联合培养时，由Infineon公司资助进行研究。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfcKH8CqI77tSjYbfUvaIKkiaLBupldoraOhJfhgE6E2nnEx90fPrLbNQ/640?wx_fmt=png)
+
+本章介绍了图腾柱整流器的基本工作原理和演变历程；从图腾柱整流器的运行模态和基本控制方法出发，完成对GaN 器件及其他主要元件的选型和损耗计算，并对整个系统进行损耗分析；针对大功率电力电子设备严峻的散热问题，提出一种分布式的散热设计对散热系统进行优化；对GaN 器件物理构造及开关特性进行分析，设计了一种针对Infineon CoolGaN 器件的低损耗高速驱动电路；介绍了基于双脉冲测试的器件开关特性评估方法，对GaN 器件及其驱动电路进行测试，证实其在400V/12A 的工作条件下可 实现10ns 内开关。
+
+2.1图腾柱整流器的拓扑分析
+
+图腾柱整流器可实现极高的工作效率，是当前单相Boost 型整流器的研究热点。传统图腾柱整流器拓扑是由两个开关器件和两个二极管组成的，如图2-1 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfj4rnUnU9fFjrdxw63EHUrSDb0L9nBfI2xENvicQDnFcMsvu849S7iaibw/640?wx_fmt=png)
+
+为了进一步提升图腾柱整流器的工作效率，通常使用同步整流技术对图腾柱整流器 电路进行改进，如图 2-2 所示。使用两个Si MOSFET 代替二极管进行同步整流，可以进一步减小在工频桥臂上产生的通态损耗。当电路工作在CCM 模式下，在正半周期当S2断开时 S1 的体二极管为输入电流提供了导通路径，在S2 开通的瞬间，流过S2 的电流是输入电流和S1 体二极管反向恢复电流之和，此现象将产生大量损耗甚至可能将开关管损坏，限制其只能工作在断续导通模式和临界导通模式，增加了控制器设计的难度，也限制了功率等级和效率的提升。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfb9bRquCBJycI82lau3dAkT3hUSWpEGpWibpRia1H0bQwahSRcHUQhFMQ/640?wx_fmt=png)
+
+半导体技术的发展，尤其是以氮化镓器件(GaN)和碳化硅器件(SiC)为代表的宽禁带功率半导体器件的发展，为图腾柱整流器的性能带来了质的飞跃。GaN 器件独特的内部结构消除了体二极管反向恢复带来的困扰，使图腾柱整流器可以工作于CCM 模式并应用于更高的功率等级。
+
+交错并联技术是图腾柱整流器发展的另一个方向，图2-3 所示为交错并联图腾柱整流器电路拓扑。随着功率的增加，功率器件的通流能力成为一个主要的限制因素，通常需要将电力电子变换器进行串并联组合来增大输出功率。而交错并联技术可以在只增加一个开关管桥臂的情况下使输出功率翻倍，大大的提升了图腾柱整流器的功率密度和效率。交错并联的图腾柱整流器不但没有增加功率器件的电压应力和电流应力，还可以显著的降低电路中的纹波，如图2-4 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfLbNEOMXvbfib0TiaIMuJxrJ1x51ibMdT6ViaNWvFGPAHuAtotF8qwASHicA/640?wx_fmt=png)
+
+图腾柱整流器工作时，电流只流经两个开关管，其工作模态如图2-5 所示。
+
+模态一：在工频正半周期，当S2 开通时，交流电源通过S2 和S6 的体二极管为电感L1 充电，此时输出电容Co为负载提供能量。二极管S6 将交流电源钳位在输出地。
+
+模态二：当S2 断开时，电感L1 通过S1 和S6为电容Co和负载提供能量。二极管S6将交流电源钳位在输出地。
+
+模态三：在工频负半周期，当S1 开通时，交流电源通过S1 和S5 为电感L1 充电，此时输出电容Co为负载提供能量。二极管S5将交流电源钳位在输出正电压。
+
+模态四：当S1 断开时，电感L1 通过S2 和S5为电容Co和负载提供能量。二极管S5将交流电源钳位在输出正电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfMq7dgDRM7mfTtKVmJ8ya7Z5R0ibUlB9gYosHOvWE9icJGVHRQ1V7Vp8Q/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfp0j29xQTFaXQdOjA9BcNMuwKn3AF3WnIic0K0h8FcH5CeBrUM7ZYY4A/640?wx_fmt=png)
+
+根据Boost 电感的电流特性，图腾柱整流器可以工作在三种不同的工作模式，即连续电流模式（CCM），断续电流模式（DCM）和临界电流模式（CRM）。工作在DCM模式的PFC 通常使用电压跟随的控制方式，控制器中只使用一个电压环，控制简单并且能够避免二极管的反向恢复问题。但是DCM 模式下电流是断续的，需要使用更大规格的滤波器来满足EMI 的需求，并且DCM 模式下流经开关管的平均电流值要大于CCM模式，工作时会产生更大的损耗。因此，DCM 模式主要应用在小功率的场合，CCM 模 式更适用于中大功率的场合。
+
+2.2主要器件选型与损耗分析
+
+2.2.1GaN 器件选型
+
+氮化镓器件（GaN）和碳化硅器件（SiC）是新一代宽禁带功率半导体器件，具有比传统硅器件更加优良的特性。GaN 器件具有导通电阻低、驱动损耗低、开关速度快和反向恢复电荷为零的优点，使用在图腾柱整流器中可以大大提升其性能表现。表2-2对Si SJ MOSFET、SiC MOSFET 和GaN HFETS 等器件的优值（Figure of Merits，FOM）进行了比较，从而观测其性能上的差异。优值FOM1=Ron\*Ciss 可表征器件的开关速度， 其值越小开关速度越快。从表2.2 中可知E-Mode GaN 器件的开关特性远远好于其他三种器件，Cascade GaN 器件和SiC 器件的开关特性不相上下，但都远优于Si 器件。优值FOM2=Ron\*Qoss 表征了器件的开关损耗，FOM2 越小其在硬开关时的开关损耗越低。目前几种主流器件的开关损耗性能相当，英飞凌公司的G7系列Si SJ MOSFET 甚至有着优于GaN和SiC的性能。FOM3=Ron\*Qrr 表征器件的反向恢复损耗，FOM3 越小其反向恢复损耗越小。从表中可以看到GaN 器件和SiC 器件都能够大大减小反向恢复损耗，E-Mode GaN 器件的反向恢复损耗甚至可以忽略不计。在过去的设计中Si SJ MOSFET巨大的反向恢复损耗使图腾柱整流器不适用于 CCM 模式下，但是宽禁带功率器件的出现改变了这一现状，CCM 模式下的图腾柱整流器成为了新的研究热点。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf95l9Q0UZ41qCWm4U4VnmGbu2Oatj5FNZFafWOUNMBFmQgYOxibpfkRw/640?wx_fmt=png)
+
+本文中选用Infineon公司的IGOT60R070D1常关型E-Mode GaN器件，该器件的输入输出寄生电容都很小，不存在反向恢复问题。此外，该器件还在源极处采用Kelvin  Source的连接方式，降低了驱动回路中的寄生电感，大大提高开关速度，减小开关过程中产生的尖峰电压并进一步降低了损耗。
+
+从封装技术的层面对器件进行优化可以减少40%的损耗。如图2-6 所示为开关器 件的等效电路，Lsource 是由器件封装和PCB 铜线产.的寄生电感，通常在几nH 的量级。 寄生电感的存在限制了开关管的电流变化率，这会降低器件的开关速度并产生更多的损耗。在电路工作时，瞬态电流会在寄生电感上产生电压降，这会降低驱动电压甚至造成开关管的误动作。 Infineon 公司首先提出Kelvin Source 的连接方式，对器件从封装层面进行改进，将驱动电路与源极的连接点尽可能排除在功率回路以外，为驱动电路提供了独立的参考电位。这种方式可以大大减少驱动回路中的寄生电感。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfq43UGPTZH5msQiaJzIFanVVJoh6ic1SQTxILiciatqPxz607N4LaoycC4w/640?wx_fmt=png)
+
+2.2.2 开关器件损耗计算 
+
+功率半导体器件在工作时产生的损耗降低了电力电子变换器的效率，器件温度的上升也对散热装置也提出了较高的要求。开关器件产生的总损耗由通态损耗(PCond)、开关损耗(PSW)和死区损耗(PDT)三部分构成，如式 2.1 所示。为了保证设计能够安全稳定的运行，在损耗计算的数据选取时应选用较差指标来估算设备在最恶劣条件下的运行情况。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfrVaibE1fFYibDfXdNDDlQpwBxF1uPicHylOtibmjaQib9IViaAn5DsCGuWBQ/640?wx_fmt=png)
+
+式 2.2 为导通损耗的计算式，其中IDrms 为电流有效值，RDSon 为通态电阻，D 为导通占空比。为了获得尽可能准确的计算结果，需要从器件的数据手册中读取特定工作条件下的通态电阻值，例如本文中，GaN 器件在Tj\=100度，ID\=8A 时RDSon 为80mOhm。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfqoCAicX63wrJiaPcwjFv8DKj9urONV5QoUCOjV3sAUQ9pFibaBIdVhwibw/640?wx_fmt=png)
+
+本文中的交错并联图腾柱整流器由两个GaN 桥臂和一个MOSFET 桥臂组成。GaN桥臂上的一个Gan 器件关断时另一个GaN 器件开通，可使用式2.3 对整个GaN 半桥的导通损耗进行计算。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf1JnkibV2YGAoIdzEpjlicFz4X3CQrNSgz8LdSq3vZzndfylKVMprJGXQ/640?wx_fmt=png)
+
+开关损耗主要由I-V 交叠损耗和反向恢复损耗构成，如式2.4。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfsdQZE1Ox6WanMNL26KhmtPPIWCQaqReTicjBRuBvFTFAt5uBYx5AGWw/640?wx_fmt=png)
+
+式2.5 为I-V 交叠损耗计算公式，其中VDC 为输出母线电压，TR 为电压上升时间，TF 为电压下降时间，fSW为开关频率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfwSENUe6hPqm57SO3PunMl68B34O46iadvlsgWNq0HLG0SZYKuY6xEIA/640?wx_fmt=png)
+
+式2.6 为反向恢复损耗的计算公式，其中Qrr 为反向恢复电荷。E-GaN 器件中此损耗可忽略不计。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfFTsFv2Gib40zZPbZQeyLroztX2XncQWrZyMQlKIQFUZ0uGEhSYnmGSQ/640?wx_fmt=png)
+
+死区期间产生损耗如式2.7，其中VD 为体二极管导通压降，TDR 和TDF 分别为开通和关断时设置的死区时间。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf6qpaz09OmcNFuFY6LSZFhBbEiaAQRLYYU0vSVoXAzo8jSN3Rbu4rCicA/640?wx_fmt=png)
+
+表2-3 和表2-4 分别为对GaN 半桥和MOSFET 半桥的损耗计算，可以得到每个GaN半桥的损耗为 15.85W，MOSFET 半桥损耗为10.3W。不论对于GaN 器件还是MOSFET器件，满载工作时的通态损耗都占据了总损耗的绝大部分。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf5oOibiacEIjCQgjfLico3w3vic0CO5QuLkufm2xsanSxdgCEC16vRAmnuA/640?wx_fmt=png)
+
+2.2.3其他元件选型及损耗计算
+
+在电力电子设备中，无源元件往往占据了大部分的体积和重量，并且在工作中产生大量的损耗。为设计高效率、高功率密度的电力电子装置，必须对无源元件进行妥善的选择。
+
+本文设计的图腾柱整流器作为完整的电力电子装置，具有独立的辅助电源系统，可从输出直流母线上直接获得弱电系统所需要的电源。为满足EMI 标准在输入侧采用两级EMI 滤波器设计，并在输出侧使用单级EMI 滤波器设计。整机高度不超过43m，可满足1U 工业机箱的标准。本设计的图腾柱整流器正面最高点为PFC 电感和输出共模电感，高度均为38mm，标准PCB 电路板厚1.6mm；反面最高点为Si MOSFET，高度为2.4mm，整机理论高度为42mm。  
+
+Boost 电感是功率因数校正电路中的主要磁性元件，合理设计Boost 电感对于减少损耗和体积都具有重大影响。本设计要求在200V 以上时可以输出5kW 的功率，故最小输入电压为Vin \_min\=200V，并要求电流纹波在最大输入电流20%以内。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf5D5XMPMPlVia7zeKbhtxUOj38rAibqcobW8eB7cCvRib0L19V6cgGUAxQ/640?wx_fmt=png)
+
+因此本文中电感值必须大于435.2µH，最终使用三个Magnetics公司生产的Kool Mu  MAX 磁芯0079071A7堆叠在一起使用，电感值为660µH，体积约38mm\*38mm\*38mm。 如图2-8 所示，通过Magnetics公司电感设计软件可对损耗进行估算，可得该电感磁芯损耗为0.75W，铜损为5.69W。
+
+输出直流母线电容具有滤除输出电压纹波的功能，可以在负载变化时将输出电压波动稳定在一定范围内，并且在系统掉电时仍保持一段时间的输出。在电力电子装置中， 通常希望输出直流母线电容的值尽可能的大，但这样会大大的增加系统的体积和成本。 本文中期望输出电压纹波Vripple 在15%以内，由式2.12 计算得出输出电容值应大于1105µF。本文选用一个1000µF和470µF 的电容并联，总容值为1470µF。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfL3N1D30IylmibK4CN8uooh6K09kN3vYafE4PRgXJt11cMEAPicjXubng/640?wx_fmt=png)
+
+表2-5 为本文中使用的主要其他无源元件及其损耗计算结果。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf2hZYA5YffUXVeXSCUtME5TpnTBCD7icerKY05o3D0U1h5U38bDcb1Xw/640?wx_fmt=png)
+
+2.2.4系统损耗分析
+
+如表2-6 所示为本文中各部分电路的损耗计算值，预计电路满载工作的总损耗不超过67W，5kW 时满载效率在98.66%以上。从计算结果可以看到，GaN 半桥上的损耗几乎占整个系统损耗的一半，是最主要的损耗来源。其中，导通损耗占比高达GaN 半桥总损耗的四分之三，开关损耗占将近四分之一。MOSFET 半桥是另一个主要损耗来源，由于MOSFET 是以工频开关，其损耗几乎全部来自于导通损耗。因此使用具有更低通态 电阻的功率半导体器件将进一步降低系统的损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfPgMjIbLMlfuAmYZwfBtd4J1oGAGey528TnKwaDOtFy5Rb0Ziaw8goXQ/640?wx_fmt=png)
+
+本文中Boost 电感的损耗主要来自于铜损，其磁芯损耗相对较小。目前设计中使用了AWG14 铜线，其窗口因数只有47%，因此可以使用直径更大的铜线进一步降低铜损。 但由于1U 的高度设计对于电感高度有严格的要求，需要在损耗与体积间寻求平衡。
+
+直流输出母线电容的损耗与其ESR 值相关，电解电容的ESR 值通常比薄膜电容大很多，但同容量下体积却相较薄膜电容更小，在设计直流母线电容时通常将大容量电解电容与小容量薄膜电容并联使用。高效高功率密度电力电子变换器对电解电容的体积与容量都有着严格的要求，选型时需要选取具有高能量密度、低ESR 和高纹波电流承载能力的电解电容。
+
+风扇的散热能力通常随着其转速和所产生的风压的提高而提高。而风扇的转速又往往与其功率消耗呈正相关，风扇转速越高其散热能力越强，但功耗也会越高。由于功率半导体器件的导通电阻往往随着温度的上升而升高，进而产生更多的导通损耗。因此， 在实际应用中应当在增强散热性能而增加的风扇功耗和因温度上升而增加的导通损耗间找到一个平衡。鉴于本文中GaN半桥和MOSFET半桥的导通损耗都非常大，应当尽量选用散热性能强的风扇来控制器件的温度。
+
+2.3散热系统优化
+
+2.3.1散热计算
+
+电力电子装置在工作过程中会产生大量的热量，而温度会大大影响电力电子器件的性能并减少其使用寿命。因此，良好热设计对电力电子装置的稳定运行具有非常重要的作用。电力电子装置的散热主要有风冷、液冷及热管冷却三种方式。风冷可分为空气自然对流冷却和强迫对流冷却，其中后者由于成本低、结构简单、散热性能良好，被广泛应用于中小功率电力电子装置中。散热器是电力电子装置中的主要散热器件，直接决定着功率半导体器件内部的热量能否及时的传导至外界。不同形状和工艺的散热器在散 热能力上存在着很大的差异，本文中使用带有独立风道散热器，通过强迫对流冷却方式对装置进行散热。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfricXEgpDayp61I5eZIPWiaKNGrT6OBfeVpyEM0kkEQ5W40LrARJxaegA/640?wx_fmt=png)
+
+如图2-7 所示，散热器及功率半导体器件之间有着许多肉眼不可见的空气间隙，这些空气间隙的存在会大大增大散热通路的热阻，削弱散热效果。因此，必须在功率半导体器件和散热器之间使用热界面材料来填充空气间隙，保证散热效果。同时，功率半导体器件的散热金属部分通常与源极相连，必须使用绝缘材料保证散热器与功率半导体器 件间的电隔离。散热器的固定方式分为螺丝固定、铆钉固定、夹片固定以及直接焊接等 多种方式，其核心在于施加足够大的扭矩将开关器件平整的固定在散热器上。
+
+如图2-8 所示为功率半导体器件与散热器装配后热阻示意图。本文中选用顶端散热的GaN 器件，散热通路的热阻可由器件内部到封装热阻Rjc，热界面材料热阻RTIM 和散热器的热阻RHeatsink组成。MOSFET 置于PCB 电路板另一侧需计入PCB 板的热阻RPCB。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf87icBTEldE4ZeeVAbBVl8mG67dnSja8WDWOTfU3yjIMPeXckUOnjBicQ/640?wx_fmt=png)
+
+本文选用Fischer Elektronik 公司生产的LAM 3 D 型散热器，在使用12V 配套风扇时热阻小于1.05度/W。表2-7 总结了本文中GaN 器件及MOSFET 器件的散热通路中各处热阻值，进一步对于器件工作状态下的温升进行预估。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfniczKt7tvfL8eWiaOZlH4kiaheIcc5NaTkia63oCX2jiahwiaAXxSQ765MJQ/640?wx_fmt=png)
+
+通常功率半导体器件内部允许的最大结温为 150度，本文设定环境温度为 25度时其结温不超过 105度。根据 2.2 节的计算结果，两个GaN 半桥产生的损耗为31.7W，MOSFET 半桥产生的损耗为10.3W，通过式2.13-式 2.15可对功率半导体器件的工作温度进行计算，可以得到散热器的最高温度为69.1度，GaN器件的最高结温为104.9度，MOSFET 的最高结温为78.1度。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfTpwDOZ5LNCoqVNdibmB6sbxjsApOdLf041EZQm3MetlQOJAmW9xceng/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfic2SQK7OCXQvz76OkicAd5GTUOusKCIupmeoIiboszvXryOm8Ror22Alg/640?wx_fmt=png)
+
+2.3.2分布式热设计
+
+从前文的分析中可以得到GaN 器件产生的总损耗高达31.7W，占系统总损耗的47.4%，是系统中最主要的损耗来源。同时，GaN 器件的工作结温可以达到105度，需要在系统的热设计中重点优化对GaN 器件的散热设计。
+
+本文为了充分利用散热器性能，引入分布式散热的理念，将热源分布在散热器的三 面来增强对GaN 器件的散热效果。如图2-9，两个GaN 半桥被设计成分立式子电路，分别位于散热器两侧，既能够增强散热效果，又能直接对GaN 半桥进行双脉冲测试，获得最接近于实际工况的器件性能测试结果。本文中的四个MOSFET 为底端散热的元件， 与散热器分居PCB 板两侧，通过在PCB 板的大面积覆铜和导热孔将MOSFET 的热量传导至散热器。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf2F7iaDnbsMVkialrKkZEFqiavywOiaw2Ht4J6zSB19jvPSNWQHQpPibTJuQ/640?wx_fmt=png)
+
+在图腾柱整流器硬件电路中，GaN半桥子卡及散热器位于PCB 板中央区域。两个Boost电感在工作中可产生近13W 的损耗，占总损耗的19%，因此需要将Boost 电感布置在散热器风道上以增强散热效果。同时，风道末端的EMI 滤波器也能得到一定程度的散热辅助。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfHzlbK4CHG1T0Pqo6Y6FrgehOmAJkd8vvrWYVGrHw5RmPsk13cGh2icA/640?wx_fmt=png)
+
+2.4高速驱动电路设计
+
+2.4.1GaN 器件特性
+
+GaN器件的导电沟道是由高导电性二维电子气（2DEG）在AlGaN 或GaN 界面形成的，其内部为纯横向结构，不存在物理意义上的PN结，因此GaN 器件既可以作为开关管使用，也可以用作二极管，其反向恢复电荷Qrr 可忽略不计。
+
+然而GaN 器件通常是常开型器件，需要外加负电压来将其关断，这一特性大大的限制了GaN 器件的应用。为了解决这一问题，通常采用在GaN 器件中级联一个低压MOSFET的方法，但这会样削弱GaN 器件独有的良好特性并产生额外的损耗。
+
+本文使用Infineon公司生产的第一代CoolGaN 器件IGOT60R070D1，通过在栅极下增加一层P 型掺杂的GaN 材料，将开通阈值电压提升至正值（1-1.5V）。但与此同时，该结构会在栅极形成PN 二极管，这种特性对器件的驱动过程产生了显著的影响， 原有的普通驱动方式不再能满足要求，需要重新对驱动电路进行设计。
+
+2.4.2开关过程分析
+
+如图2-11 所示为带有寄生参数的MOSFET和驱动电路等效电路，CGS、CGD和CDS为受电压影响的非线性寄生电容，Rint 为器件内部的电阻，驱动电路中两个开关分别动 作并产生驱动正电压VP 和驱动负电压VN。为了使驱动电路稳定工作，驱动回路中的电阻不可过小，通过改变Ron 和Roff 的阻值可以对开通和关断时的开关特性进行分别独立进行调节。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfjNWiaVmsN78V7EnzWl1YFeO0icZrcHdplCMhpiab5ApniafOporB4MMpCw/640?wx_fmt=png)
+
+如图2-12 为截止\-导通过程波形，包括栅极电压曲线和相应的漏\-源极电压和漏极电流的变化曲线，在器件开通时共可分为四个阶段： 
+
+T0\-T1 区间：栅极电压从VN 上升至门限电压Vth，这段时间称为延迟时间。在延迟时间内MOSFET 漏\-源极间电压及漏极电流都不变化。
+
+T1\-T2 区间：从T1 时刻开始，漏极电流ID开始上升，在T2 时ID到达最大值，VG 也上升至米勒平台电压，而漏\-源极电压VDS 仍保持在高电平不变，VDS 与ID产生交叠，因而导致MOSFET 产生大量损耗。T1\-T2 区间内驱动电路为CGS 充电，提供电荷量为QGS。 
+
+T2\-T3 区间：该区间驱动电路为CGD充电，提供电荷量为QGD，此时VG不再上升而进入米勒平台。VDS 从T2 时刻开始下降，并在T3 时刻降到最低值。这段时间的长短将大大影响到开关管的开通速度。  
+
+T3\-T4区间：VG从米勒平台上升至VP，MOSFET完全导通，最终驱动电路为MOSFET提供QGtot总电荷量。 
+
+MOSFET 的关断过程与开通过程基本相同，只是时间顺序相反，在此不再赘述。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfhoesibhLaLyw1T7hE8pxv5cxOmdVmsRAqNgbbV3Q134GXjaI0HOfU8w/640?wx_fmt=png)
+
+MOSFET 的驱动电流越大，开关管动作的速度就越快。开通和关断时驱动电流的值可分别由下式表示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfzEh73TPBPsWrLqr0nUJsblST5s0a3qhJvSjI9QfNs7TrhCibRDibUOwg/640?wx_fmt=png)
+
+而对于本文中使用的GaN 器件，由于PN 结的存在，其栅极\-源极和栅极\-漏极之间 存在一个二极管。该二极管导通压降通常为3V-3.5V，其等效电路如图2-13 所示。该GaN器件的阈值电压Vth 通常在1V 左右，远远低于典型的MOSFET，很容易受到干扰而产生误触发，其驱动方式也与传统的MOSFET大不相同。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfMLPgDC7ib2ozId6vpL0ctnmloHaesn8SX5MMnyJgv0XM3CDl5h9vy9w/640?wx_fmt=png)
+
+如图2-14 所示为GaN 器件截止\-导通转换过程波形，其开关过程与传统MOSFET极为相似，唯一的不同之处在于通过米勒平台后，驱动节点的电位被钳位在二极管导通 电压 VF。与MOSFET 一样，GaN 器件的开关速度取决于驱动电流的大小。但是在GaN器件开关动作结束且器件处于开通状态后，仍将有一个恒定电流 ISS 流过寄生二极管， 其大小如式2.18 所示。这个电流会不断地产生损耗，因此必须尽可能消除计生二极管带 来的不利影响。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfMVnPC5U7fQWXz6aL1VrAricQNsibjco7KpBfSdYFcvQpIibad0sC9DtKA/640?wx_fmt=png)
+
+2.4.3驱动电路设计
+
+从数据手册可以看出，本文使用GaN 器件IGOT60R070D1 寄生电容小，储存的电荷量很低，具有极快的开关速度。同时，GaN 器件的开通阈值电压很低，需要驱动电路能提供负电压来保持关断，防止出现误触发。如上节所述，在驱动电路工作时希望Ion 尽可能大且Iss 尽可能小，这就需要驱动电路工作在瞬态和稳态时有着不同的阻抗或驱动电压，传统的MOSFET 驱动电路不能满足这一需求。
+
+本文使用的驱动芯片为1EDI20N12AF，该芯片使用无磁芯变压器技术（CTT）在芯片内部实现电气隔离，并可以在开通和关断时提供不同的回路，具有2Ω 的内部输出电阻和最大2A 的电流输出能力。
+
+如图 2-15 所示为本文中采用的驱动电路，使用一个RC 网络代替传统驱动电路中的Ron，并在器件开关时提供了两个不同的驱动路径。驱动开关管开通时驱动电路输出正电压VP，关断时输出负电压为VN。当取值合理时，Ion 由Ron 的大小来决定，而稳态电流Iss 将由Rss 决定。在驱动电路中，栅\-源极间二极管可由理想二极管和寄生电阻Rdio等效 表示，Rss 通常远大于Ron。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf1enu8OGEsqkeOq02XIxFkgw6iaKlKL3N7nXO1V7ibeExDmb8M9jObEYw/640?wx_fmt=png)
+
+假设驱动芯片的输出是一个理想的开关，在驱动电压由VN到VP 的瞬间，CG和Con存储的电荷量都已经归零。随着驱动电压上升，Con 和CG都被充电，其电流大小如下式2.19所示，直到VG\=VF二极管导通。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfMgDMiceePPcfUd9amjQvMDUzcDJjjqTmNmhz93ibXIBmwvOypLYQQ9nA/640?wx_fmt=png)
+
+通常来讲，在开关过程到达稳态时，可以得到：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfEyH9ibBbibTzqV7uRa9Dd38uVN8YpOxrkYsb9zxX3Dc8sGXzv4m3k64A/640?wx_fmt=png)
+
+如图2-16 所示为带有高速驱动电路的GaN半桥电路三维模型。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVficPiclJS6WLBHOaw7CFHGsMOhnWuNABpTs5XGCSrnSUEMCoLHuUB8FBw/640?wx_fmt=png)
+
+2.5器件性能评估  
+
+2.5.1器件性能评估的基本方法
+
+双脉冲测试(Double Pulse Test，DPT)是一种被广泛接受的功率半导体器件开关特性评估方法。将待测元件连接在带有感性负载的测试平台中，通过两段不同长度的脉冲信号，可以对器件在指定电压和电流条件下的开关特性进行测试，进而评估器件在实际样机中工作的状态。由于开关器件两次开通的时间都很短，其产生的损耗很小，器件温度可以得到控制。通过双脉冲测试中得到的元件特性，可以对电力电子装置的驱动电路设计、频率选择、死区时间设置、热管理和效率评估进行有效指导。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfYhjyTDFa6cFooUvWLyG1bGT9fVnNPmcDz8SQ8oWdgEY03OpErDToqA/640?wx_fmt=png)
+
+如图2-17 所示为双脉冲测试拓扑结构，其中下管为待测试开关管，上管为续流管。
+
+如图2-18 所示为双脉冲测试时下管驱动信号Vgs、下管漏极\-源极电压Vds、电感电流IL和漏极电流 Id 的波形。在t0 时刻下管开通，电感电流达到设定值。t1时，下管关断，电感电流流经上管体二极管续流，此刻可以得到开关管在设定电流值下的关断特性。经过 一段延时，在t2 时刻再次将下管开通，此时可以得到开关管在该电流下的开通特性。同时，在第二次开通时，也可以观察到开关管的反向恢复特性。经过一段时间后在t3 时刻将开关管关断，注意此时电流值不可超过开关管的额定值。由于电感值很大且t1\-t2 这段延时很短（通常为几µs），可认为这段时间内电流大小不变。同时应当保证t1\-t2 和t2\-t3时间足够长，开关管漏极电压和电流的振荡已经衰减至稳定。
+
+如图2-19 所示CREE 公司某800V 双脉冲测试时VDS 和ID 的典型开通关断波形示意图，其电压尖峰由开关管输出电容与线路中寄生电感振荡产生。电压与电流的交叠面积即为开通损耗（Eon）和关断损耗（Eoff）。因此，通过双脉冲测试，既可以得到在设定电压、电流下开关管的开关特性，又可以计算每次开关时所产生的损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVflURyZX8amic9r8y04wOeRJrd7ibu5KjZm6cspUmM3iad8umiaSicNDcNKew/640?wx_fmt=png)
+
+2.5.2器件性能评估的注意事项
+
+宽禁带功率半导体器件的开关速度非常快，在双脉冲实验时，有三个主要因素会影响测试结果准确性。一是双脉冲实验的测试条件应当与日后功率半导体器件在电力电子装置中工作环境极为相似。二是需要优化PCB 电路中的寄生参数，如功率回路寄生电感，共模回路寄生电感和米勒电容等。三是测试器材有足够的带宽、动态测试范围和准确度，如示波器、电压探头和电流探头等。
+
+在诸多的探头种类中，无源电压探头和差分探头可满足双脉冲测试的需求。差分探头的差分信号是互相参考而不是参考接地的信号，因此无需担心探头接地的问题。然而，差分探头的带宽有限，而且其探头尖端引线往往很长，会在测量回路中引入较大的寄生电感。无源探头具有更高的带宽，而且往往配备种类丰富的探头尖端适配器，可以大大的减小测量回路中的寄生电感。无源电压探头具有更高的带宽和动态测量范围，因而更适用于双脉冲测试当中。表2.8 总结了几种电压探头的特性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfsBJw10e2J5RDgib2zaqBOeff7dBWMUvHIJt98VQpGPVx5V1ccFvKmwA/640?wx_fmt=png)
+
+电压探头的接地线往往很长，导致测量回路中存在较大的地线电感，在高速精密测量中对被测电路产生影响，无法得到准确测试结果。测量回路中的CP 与地线电感LP 形 成串联谐振电路，在高dv/dt 下会产生严重振荡。同时，如果地线电感过大，会延长CP的充电时间，从而限制被测电路中脉冲的上升时间。图2-20 为对本文设计的驱动电路设计时，带有探头寄生参数的等效电路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfD2tdD6Kib2cLziaraZJ1zDAXYeKWFvugUC7beHLe8G0UYSvVOcKK7raA/640?wx_fmt=png)
+
+2.6本章小结
+
+本章介绍了基于GaN 器件的5kW 交错并联图腾柱整流器的原理与设计方法。首先对图腾柱整流器拓扑的发展历程进行回顾，引入同步整流技术和交错并联技术来进一步提升工作效率和功率等级，确定了其拓扑及工作模态。与传统MOSFET 器件相比，宽禁带功率半导体器件具有更加卓越的开关性能，其中GaN 器件的反向恢复电荷可忽略不计，彻底解决了图腾柱整流器在CCM 工作模式下严重的二极管反向恢复问题，将功率等级提升至几千瓦的范围。
+
+损耗是限制工作效率提升的主要因素，从器件选型开始对设计进行优化，对各主要元器件的损耗进行计算，并对系统整体损耗分布进行了分析。由计算结果可知，GaN 器件产生的损耗可以占到系统总损耗的47%，是最主要的损耗来源。而对于GaN 来说， 其损耗主要来自大电流产生的通态损耗。从损耗分析可知，GaN 器件、MOSFET 器件与Boost 电感产生的损耗高达系统总损耗的82%，需要有良好的热设计对器件进行散热。 针对本文的损耗情况完成对散热器的选型，并围绕GaN 器件的散热提出一种分布式散热的方法。
+
+GaN器件具有独特的物理结构，其器件开关特性与驱动方法也与传统的MOSFET器件不尽相同。将 GaN 器件的驱动阈值电压提升至正值是制造上的一个难题，本文中使用的Infineon CoolGaN 器件驱动阈值通常在1-1.5V，器件导通后栅极\-源极间的二极管将驱动电压钳位会产生大量损耗。针对GaN 器件的特性，设计了一种低损耗的高速驱动电路对GaN 器件进行驱动，并通过双脉冲测试对器件和驱动电路的开关特性进行评估。
+
+3.基于SIC 器件的20KW 维也纳整流器
+
+维也纳整流器是典型的三相三电平Boost 型PFC 整流器，具有高效率和高功率因数的优点，功率等级可达几十千瓦，是大功率重复脉冲强磁场电源装置的理想PFC 拓扑。 与硅器件相比，宽禁带功率半导体器件可以工作在更高的开关频率，进而大大减小了无源元件的体积。针对重复脉冲强磁场装置电源在大功率场合的应用，本章提出一个基于SiC MOSFET器件的20kW 维也纳整流器设计方案，工作频率达到140kHz，大大减小磁性元件的体积，实现了98.5%的满载效率。本设计由Microsemi 公司资助开展研究。
+
+在控制器设计中，突破维也纳整流器中背靠背开关器件共用同一个驱动信号的传统做法，将T-Type 功率变换器的调制方式应用于维也纳整流器，提出一种基于载波的调制方法优化控制系统设计，解决了过零点区域的电压尖峰问题；针对大功率电力电子装置严峻的散热问题，使用新型热界面材料和氮化铝热相变材料，对散热系统进行优化； 设计两级EMI 滤波器，降低系统高频共模噪声，并通过加入阻尼电阻的方式增加相位裕度，提高系统的稳定性；提出功率器件双列排布的方式，将功率回路中的寄生电感减少25%；最后将对装置机械结构进行优化设计，大大提升装置的可靠性。
+
+3.1维也纳整流器的基本拓扑
+
+三相三线维也纳整流器的核心拓扑电路如图3.1 所示\[，该电路主要由三个滤波电感 L、六个二极管组成的三相整流桥臂、两个直流母线电容，以及三个双向可控开关Sa\-Sc组成。三组双向开关共存在8 种可能的开关状态，即111，110，101，011，100，010，001 和000(开关断开时S=1，开关闭合时S=0)。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfMF1hLAzicE7Nnh7AShUWlHLaj2F4dan0l9T7xsP9xw7Mib5YApzCxedA/640?wx_fmt=png)
+
+功率桥臂上的三个双向开关主要有四种拓扑构成，如图3-2 所示。在四种拓扑中，拓扑d 在四种中使用元件总数最少，产生的损耗也最小。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf0nBCWJf8pYbXwOEPIF0O4PzQjEov7wW55Waiaib72zwJjEicuVgK2xLtw/640?wx_fmt=png)
+
+表3-1 对传统两电平三相Boost 型整流器、三电平中点钳位变换器（三电平NPC变换器）、 T-Type 变换器以及维也纳整流器的四种拓扑进行了对比。本文中20kW 维也纳整流器选用d 型拓扑电路，如图3-3 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfa0naYNK7RJG4FllqfA0HjDaMOickh7fR9I66RVJP2rDEPY7aiaADGGIQ/640?wx_fmt=png)
+
+由于维也纳整流器的电路拓扑是对称的，可通过其中的一相对工作原理进行分析， 其单相等效电路及各模态下等效电路如图3-4 所示。图3.2 为A 相的单相等效电路，当Sa 闭合时电流经电感、双向开关流向输出电容的中点，对上电容放电的同时对下电容充电，此时A 点与电容中点直接连接，桥臂中点电压Vam 为零。当Sa 断开且ia\>0 时，电 路的等效电路如图3-4(b)所示，此时A 点与输出直流母线连接，Vam 为正电平，电流经电感、二极管流向输出上电容的正极，对上、下电容充电，A 点被嵌位于直流电压正极且三相平衡。当输入电源处在负半周期时有着类似的工作过程。维也纳整流器的每一相桥臂中点都能输出三种电平状态，可以通过一定的调制方式在桥臂中点产生三电平脉冲， 滤除高频谐波分量后既可以得到正弦的基波电流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfBakWAEuz64yibYVqJHb1JZLBj3SeqGNwMhlfJjLUj3P9ytV03rNibsKw/640?wx_fmt=png)
+
+3.2维也纳整流器的调制方法
+
+维也纳整流器的调制方法是依据其拓扑结构而定的，不同的调制方式会对开关特性产生很大的影响。在使用维也纳整流器的d 型拓扑时，大多研究都将背靠背放置的开关器件共用驱动信号，当作一个双向开关来使用，并且假设背靠背的开关器件能够同时开通和关断。然而，在半个基本时钟周期内其中一个开关管并没有动作的必要，与此同时，这种调制方法在过零点区域还存在着电压和电流不同相导致的占空比畸变的问题。
+
+维也纳整流器的d 拓扑与T-Type 变换器极为相似，唯一的区别就在于三相整流桥臂是由二极管而不是开关管组成，更适用于AC-DC 单向电能传输。图3-5 所示为T-Type整流器与维也纳整流器拓扑对比。为了解决传统维也纳整流器 d 型拓扑的电流过零畸变问题，在本文对背靠背SiC 器件使用不同的控制信号进行控制，并将一种应用在T-Type变换器中的调制方式应用于维也纳整流器。T-Type 变换器的调制方式与NPC 变换器类似，这种调制方式不依靠于电流的方向。在半个基本时钟周期中只有一个开关管动作并处于导通状态。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfXXDLgFiaYE8VqsvupiamKORziadaibxCkUZbBMq8aoaYFLC37U61WC2O1Q/640?wx_fmt=png)
+
+本文使用基于载波的调制方式，与空间矢量调制方式相比，控制的复杂度大大降低，并且不需要FPGA 就能够实现控制器的设计，如图3-6 所示，只需要使用一个载波来为每个开关管产生独立的驱动信号。该调制方式不需要额外的逻辑单元和零点检测电路，与传统的调制方法相比可减少50%的驱动损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfibUgsdwYGAPAGboApTJD9pnV4jwrWrjGx1LpiaL8qoC5LcpK9gcnOnTQ/640?wx_fmt=png)
+
+本文提出的调制方法可以在过零区域占空比和电流不同相时将电压自然钳位到零。 图3-7(a)所示为20kW 满载条件下传统调制方法在过零点出现的电压尖峰问题，当使用新的调制方法时该尖峰不再存在。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfAKjib7xgiaUFw5opichicCpV1k1XkngJW6qSXB8ChD5zFY89ApKnUKlMmQ/640?wx_fmt=png)
+
+3.3损耗计算与热设计
+
+3.3.1损耗计算
+
+开关频率是电力电子装置的一个重要设计指标，随着开关频率的提升通常可以减小无源元件的体积并提升系统的功率密度，但同时开关器件和磁性元件的损耗也会随之增加，相应的散热器体积也需要增大。在选取最佳的开关频率时需要对EMI 滤波器的影响进行考量，对于80dB 衰减的两级EMI 滤波器，当系统的开关频率为40kHz、70kHz、140kHz或300-500kHz时，EMI滤波器的截止频率为相对优化取值。根据相应的国家标准，EMI 测试通常从150kHz 的频率开始进行测试，当器件的开关频率在150kHZ 以下时不会测试到系统开关频率的噪声，只能测试到倍频噪声。当器件开关频率到达500kHz以上时，对控制系统和硬件电路设计都会带来一定的挑战。本文中SiC 器件的开关频率为140kHz。
+
+维也纳整流器的主要损耗来自于功率半导体器件、Boost 电感和共模电感。在本文中，每个双向开关桥臂由两组并联的SiC 器件背靠背放置组成，12 个开关管全部工作在硬开关模式下。器件开通能量Eon 和关断能量Eoff 可用来计算器件的开关损耗，这些值可通过数据手册构建查找表的方式来获得。对于维也纳整流器，其二极管电流平均值IFav、 二极管电流有效值IFrms 和开关器件漏极电流有效值IDrms。可分别由式3.1-3.3 求得。其中M 为调制指数，IL为电感电流幅值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfMiaVLnCpZ7k39hqa3ICWOTiaWj5TWo09WpIpewg15bWSR3QFtSV1SO0A/640?wx_fmt=png)
+
+经计算，维也纳整流器在20kW 满载时功率半导体器件产生的总损耗为230.9W,损耗计算结果表3.2 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfJBFUiapZibicticUCvApMIk9HXVX7GfQvZ9AItq9tKqER6Ac7D5ziaDsUVQ/640?wx_fmt=png)
+
+Boost 电感产生的损耗主要包括磁芯损耗和铜损，其中磁芯损耗的计算公式如式3.8所示。对于60µ的High Flux材料磁芯，a=2.284，b=3.050，c=0.0023，d=2.397。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf7iaqbJft6aVG4KRLJDpnB8wRzXIPiaQoKZX4WV52ygKfjkJAWYqgF4rA/640?wx_fmt=png)
+
+磁芯损耗由不断变化的电流纹波产生的高频磁芯损耗和由基本电流纹波产生的低 频磁损组成。由高频开关电流纹波导致的磁通量变化∆Bh 为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfkgiaXrpfE49OGxTUuQo93iaE62Vicu3nQhsibDNuJrf7zicicibVKHRib9p8zg/640?wx_fmt=png)
+
+由基本电流纹波产生的磁通量变化∆Bf 为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfic0cMFuH9PEolSjYZHQx7wmNdpAhuntQ1ibbJoTnwSRn5gbFFW8GTvbg/640?wx_fmt=png)
+
+因此，由式3.11 和式3.12 可以分别对磁芯损耗和铜损进行计算，并最终得到单个Boost电感的总损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfrlKXV1PM8j7iaT8GvicmnfWLwVuqez06oJbiaZqo90Aq0ibq3z4A2ERd3w/640?wx_fmt=png)
+
+经计算可得，每个Boost 电感的磁芯损耗为5.7W，铜损为6.6W，Boost 电感产生的总损耗为12.3W。
+
+如图3-8 所示为本文中使用的Boost 电感实物图。根据上述的损耗计算结果，Boost电感在工作中会产生大量的热量。图3-9 介绍了Boost 电感的散热方式，通过将Boost电感放置在散热风道中来增强对 Boost 电感的散热。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf8RHR6mnsHDicWas2PbEbcUCl6uN6Q47HpWEekF5ictFVBXN9PDJfcShg/640?wx_fmt=png)
+
+3.3.2热设计与热仿真
+
+控制功率半导体器件工作时的结温是热设计的核心所在。从效率的角度来看，因为导通电阻RDSon 的温度系数为正，导通损耗会随着结温的增加而增加。在本文中，工作温度设定在最大允许结温的70%，即105度。根据上节求得的损耗计算可知，散热回路允许的最大热阻为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf0cKEvs77R40hicVFKwZC3aGBqFmZPQAH90HoSblaJ8YtRHIibPFiagXMQ/640?wx_fmt=png)
+
+本文采取主动风冷的方式进行散热方式，三相电路的每一相都使用单独的散热器并形成独立的散热通道，如图3-10 所示为本文中SiC 器件的散热回路。本文选用带有独立风道的散热器为SiC 器件和二极管进行散热，主动风冷条件下的热阻为0.35K/W。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfX4caRmdRaWQTLsYpDbicT84FXeeoh5pDY3t3F4ZX7k86dduTVVNFEFw/640?wx_fmt=png)
+
+在散热回路中使用了一种低热阻的新型AlN 热界面材料将开关器件产生的大量热量传导至散热器，并为器件和散热器间提供了高压绝缘。同时，AlN 热界面材料具有较大的厚度，可以大大减少开关器件与散热器之间的耦合电容。最后使用具有低热阻、高稳定性和大热容量的特性的新型热相变材料代替导热胶，填补各接触表面间的缝隙。如表3-11 为相应的一维热等效模型。
+
+表3-3 给出了本文使用的各种材料热阻值，散热回路的总热阻值为0.797 （K/W）， 满足0.91（K/W）的散热需求。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVftUSQs2feicLCibbibvjSsWia0u5SbiafU3prbxkherxyI1Qia02s3PAcIkvg/640?wx_fmt=png)
+
+通过PLECS 软件可对电力电子装置运行中的温度情况进行仿真，验证设计的准确性。本文根据SiC 器件和二极管的数据手册建立损耗和温度模型，在PLECS 仿真软件中搭建了带有温度模型的20kW 维也纳整流器的仿真模型。引入一维温度等效模型，可在PLECS 软件中得到功率半导体器件的损耗和节温。如图3-12 所示为功率半导体器件的通态损耗，其二极管的通态损耗平均值为14.9W，SiC器件的通态损耗平均值为3.5W， 与上节计算结果十分接近。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfiaz0OvqR9QbMoBlUjqG4X5Vo382yuauY8gEV1TOEf6gpgianzqEnPfGg/640?wx_fmt=png)
+
+当电感电流为最大值时的器件的开关损耗仿真结果如图3-13 所示，从仿真结果可以得到平均开关损耗为8.32W，与计算结果十分相近。如图3-14 所示为器件结温和封装的温度仿真结果，从中可看出MOSFET 和二极管的平均节温均不超过105度，TO-247的封装表面温度为 65.72度。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfic9tZNYromLSWmmL45djn9iaHyKJouRtTibV5LkkND933tXibIeqoun1NQ/640?wx_fmt=png)
+
+本文中使用的SiC 器件为Microsemi 公司生产的MSC040SMA120B 器件，其通态电阻为40mohm，器件耐压值为1200V。若使用Microsemi公司下一代SiC器件MSC015SMA070B，可实现30kW的功率等级和更高的工作效率。
+
+3.4硬件电路设计
+
+3.4.1功率回路优化设计
+
+在大功率电力电子装置中功率回路的寄生参数会对装置的正常运行带来极大的危害。如图3-15 所示为维也纳整流器的一个功率回路。与两电平PWM 整流器或NPC 变换器相比，维也纳整流器的功率回路中有两个开关管，导致其具有更大的寄生电感值。 功率回路中寄生电感值过大会在开关管漏极\-源极间产生很大的电压尖峰和开关损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfiaxFGuwzZibmiaH04sWKJssfctdTxnEBbZKb2BlWOgN0UvRHaibJMWbjCA/640?wx_fmt=png)
+
+本文中使用了分立式To-247 封装的SiC 器件，将并两个SiC MOSFET 并联来增强通流能力。如图3-17 (a)所示，在使用风冷散热的电力电子装置中，通常将功率半导体器件单列排布使用。这种排列方式非常简单，但对于控制功率回路的寄生电感值来说不是最优方案，如图3-17(b)所示为本文提出的一种器件双列排布的方案，在该种排列方式下寄生电感可以比单列排布的方案减少25%。图3-16 为本文中提出的半导体器件双列排布方式三维装配模型，包括两组背靠背并联的SiC 器件、二极管、风扇以及散热器底座。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfuk4e1YWRYgFbfYXPxLdHwKuHbib6gm4k54Tflib8ydvDEFibIvL6Xibrhw/640?wx_fmt=png)
+
+3.4.2EMI 滤波器设计
+
+EMI 滤波器是电子电子装置中重量最大的元件之一，其体积也通常可以占到电力电子装置总体积的三分之一到三分之二。本文设计采用了两级EMI 滤波器结构，其拓扑电路如图3.18 所示，通过反馈电容CFB 连接滤波器共模电容形成的中点和输出直流母线电容中点，可有效减小高频共模噪声。图3-19 为本文带有EMI 滤波器的拓扑电路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfzUY29GfkErj3osPiaJdyqN9KcA77HZztXk8kicI8ssMmarUdoibMCnwbQ/640?wx_fmt=png)
+
+然而，该种电路在共模回路的相位裕度很小的问题，为了提高系统稳定性，本文在反馈回路上增加了一个阻尼电阻RFB 来增加相位裕度，提高系统稳定性。共模滤波器等效电路模型如图3-20 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfeG7joJF9B6uxI0nLrmwaykKoOZObibZyTH69xY8BJ1WDbxBeDNGuYxw/640?wx_fmt=png)
+
+假设电网的阻抗为零，并忽略寄生电容的影响。与LCM 相比，Li 很小可忽略不计， 相应的CDM 也可以忽略不计。直流母线中点电压VM 与共模电压VCM 的传递函数如式3.13所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfGMudpI0pqEMwQibSibqUDwMXe0DplsK7DNPtDM4NAL6ibpRuONia7E6nqQ/640?wx_fmt=png)
+
+由上式可以看到，阻尼电阻RFB在传递函数中引入了一个零点，可以通过对该零点进行调整来增加相位裕度，提升系统稳定性。共模电流通常非常小，即便使用有源阻尼技术也仍然难以检测，因此阻尼电阻RFB的引入十分必要。在本文设计的20kW维也纳整流器中，LCM\=0.81mH,CFB\=0.47µF, RFB\=20Ω。图3-21所示为相应波德图，阻尼电阻RFB 将相位裕度提高到24°。但与此同时，在开关频率处的环路增益却正在减小。因此， 设计时需要在系统稳定性和衰减增益间寻求平衡。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfVKkL5Unibs37vP2S9mn5R5GYjbZKu2nkpGdQcooZNmibbfKibLmicklpoA/640?wx_fmt=png)
+
+为了防止共模电感发生饱和，反馈回路的阻抗必须足够的大。共模电流ICM 到共模电压VCM 的传递函数如式3.14 所示。ICM/VCM的伯德图如图3-22 所示。当CFB 保持在相同时，阻尼电阻对低频回路的没有影响。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfJ6SvuJgFhREUoKIVuPrKCFwOZUykCpI27UEEAmKVOR6qPnVnXgAOwQ/640?wx_fmt=png)
+
+  
+从上图中可以看出，低频时回路阻抗由反馈电容来决定。为了避免在低频时共模电感饱和，需要在饱和电流限制的基础上对电容进行选型。对于设计中使用的共模电感T60405-S6123-X240，反馈电容的值由式 3.17 决定：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf4EenEriaOWzDcROzibWDwA33n4IWKTQkQIT8O8DRgxFNCZBLTjekTCZA/640?wx_fmt=png)
+
+ 相似的，高频时回路阻抗由共模电感决定，其最大感值如式3.18 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfkicYhkwtVzX34h7uY3CocEpcADibwTmniaxBZzFWENX7SPp1s4HeaVMKg/640?wx_fmt=png)
+
+对于大功率电力电子设备，EMI 滤波器上产生的损耗非常大，需要对其工作温度进行限制。根据仿真结果，当维也纳整流器的工作在21kW 时，其共模电流有效值为0.2A， 通过上式分别对共模电感的等效磁阻Rm、磁芯损耗损耗Pcore 和铜损Pcopper 进行计算。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfpcz5XcHuCMSLpwIMdMdVIUMRkps6jISBmDicYozRV04r6L8Sx8qKKwg/640?wx_fmt=png)
+
+由以上的计算可以看出，在本文中共模电感的损耗甚至比 Boost 电感还要大，必须对其产生的温升问题进行考虑。如图3-23所示为共模电流的仿真结果，其有效值为0.2A， 主要是由开关电流纹波组成。通过仿真可以看到，在空气中自然散热时的共模电感的温度还在可以接受的范围内，最终的实验也验证了这一结论。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfbCq4w930p4xNO71VqHibcTcX5tBGD9UVBWtJzUV1byibNypUDHC9bDyw/640?wx_fmt=png)
+
+3.5机械结构优化
+
+大功率电力电子装置的重量往往可达数千克，已远远超出普通PCB 电路板的承重范围，需要对整套装置的机械结构进行优化设计。如图3-24 为20kW 维也纳整流器三维模型，PCB 板的尺寸为44.7cm\*30.3cm。对于一个Boost 型PFC 整流器，其质量最重的几种元件往往是散热器、Boost 电感、EMI 电感以及DC 电容。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfSPj15rRyx3It1libELWPO65S64kYRXheZb87hW41WHhPS1XibwIPKASQ/640?wx_fmt=png)
+
+在本文中，EMI 滤波器集中分布于PCB 电路板左侧，Boost 电感、散热器分布在PCB电路板右侧，共同将控制系统及辅助电源包络在电路板中间区域。这种重量分布会对PCB 电路板产生极大的张力，有极大的损毁风险。为了满足装置的可靠性，本文使用铝板对装置进行支撑，起到与实际工况中机壳相同的作用。如图3-25 所示，装配后的体积为447mm\*331mm\*73mm。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfPt1geRytAW2OEXQwnYVbiaGBUZEiblaqVSKB4icEZssgaW7LNXvdGBYEA/640?wx_fmt=png)
+
+在PCB 电路板与铝板间共有16 个支撑点均匀分布，使用尼龙圆柱对其进行支撑。 对于质量较大的散热器和Boost 电感需要特别进行结构设计。如图3-26 所示在PCB 电 路板上对Boost 电感位置进行开窗，电感放入支撑底座后，通过灌胶进行绝缘处理，其底座直接固定于铝板上。散热器通过底座与PCB 板连接，并通过承重块固定在铝板上。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfnDTtKB4Het1vibDaeD9zibKWlyN5ebfjRdRgGmcyUrC9iaibqs6sqnjOiaw/640?wx_fmt=png)
+
+3.6本章小结
+
+本章介绍了基于SiC器件的20kW维也纳整流器设计方法。首先对维也纳整流器的几种典型拓扑电路进行对比，选取效率最高的d型维也纳整流器拓扑作为本文的拓扑电路。对工作模态进行分析，提出将T-Type 功率变换器的调制方式应用在维也纳整流器中，解决了过零点区域的波形畸变问题，并提升整机效率至98.5%。
+
+散热设计是保证大功率电子设备稳定运行的重点，通过数据手册建立开关器件温度模型，经计算在开关过程中功率半导体器件将产生230.87W 的损耗，并通过PLECS 软件仿真加以验证。为了保证系统的良好散热，在散热装置设计中使用氮化铝热界面材料和新型热相变材料减小散热通路的热阻，通过仿真验证器件结温可控制在105度以下。
+
+功率回路中的寄生电感会导致器件开关过程中震荡产生较大的电压尖峰，本文提出一种器件双列排布的方式，可将功率回路寄生电感减小25%，避免开关过程中产生过高的电压尖峰，保证器件能够安全稳定运行。EMI滤波器设计是硬件电路设计的难点，本文了改进两级EMI 滤波器中的共模回路，通过添加一个反馈阻尼电阻来提高系统的相位裕度和稳定性，并对共模电感的工作状态进行了仿真分析。最后，对机械结构设计进行优化，使整机适用于2U 机箱，同时提升了系统的稳定性。
+
+4.样机研制与测试结果
+
+4.1图腾柱整流器样机研制与测试结果
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfNvF3lUXOQNVmu1icIZAvSDAnCmdxP5GfIJETH4JibkuXoaPbeNh0AvNw/640?wx_fmt=png)
+
+如图4-1 和图4-2 所示为基于GaN 器件的5kW 交错并联图腾柱整流器样机和三维模型。其尺寸为243.5\*90\*43mm，功率电路主要由输入EMI 滤波器、Boost 电感、GaN器件半桥电路子板、散热器、辅助电源、输出母线电容、输出EMI 滤波器等部分组成。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfhaglUuiayXJ2mibut8nsz9BkU2Jj2q0bFa4wjPTNamVp4QDkhuxZicVug/640?wx_fmt=png)
+
+如图4-3 所示为本文的其他主要功能模块，包括:400V-12V辅助电源，风扇转速控制电路，12V-5V电源模块，输出直流电压传感器，数字控制器，电流传感调理电路，MOSFET驱动电路，硬件保护电路，输入交流电压传感器，CoolMOS，电流采集电阻，12V-3.3V电源模块，霍尔电流传感器，继电器驱动电路等。本文使用了Infineon公司的XMC1300系列超低功耗数字控制器，经实测全部控制电路及驱动电路的耗电不超过2.1W。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfTQK1VIJpbksofh0lQlkV86RsrND71ibv1jicT3iauGJLh3zAAfCSwD3vg/640?wx_fmt=png)
+
+4.1.1散热能力测试
+
+为保证装置的安全稳定运行，需对图腾柱整流器散热装置的散热能力进行测试。如图4-4 为该测试的原理图，将两个GaN 半桥的四个GaN 器件反向串联，源极\-漏极与电源连接，随着电压的提升GaN器件将反向导通，此时每个GaN器件产生的损耗如式4.1。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf07qOOeJDwsx7jaiaVqLkEUpTLSuP7lHmRw5sJicv10VMLwhyFMnM5D0A/640?wx_fmt=png)
+
+经2.2 节计算，在5kW 工作时每个GaN 半桥产生的损耗为15.85W，MOSFET 半桥产生的损耗为10.3W，功率半导体器件产生的总损耗为42W。如图4-5 所示为散热能力测试实验平台，实验中共使用两个电源装置，左侧电源在GaN 器件上产生损耗，右侧电源为风扇供电。
+
+图4-6 和图4-7 所示为当GaN 器件上产生40W 和48W 损耗时散热器及两GaN 半桥温度测试。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfGllo5FQlkkQzqQvay7SxkoCEfbCrjnUkWCB26oYvJ3Bib9DVKBCRTlg/640?wx_fmt=png)
+
+从上图可看出，当GaN 器件产生40W 损耗时，两个GaN 半桥上GaN 器件封装表面温度分别为54.3度 和53.4度，散热器表面温度约为45.7 度；当GaN 器件产生40W 损耗时，两个GaN 半桥上GaN 器件封装表面温度分别为59.1度 和58.5度，散热器表面温度约为47.2 度。在图4-5 中也可以得到两个风扇全速工作时产生的损耗共为1.572W。
+
+4.1.2器件开关特性测试
+
+本文第2.4 小节介绍了本文所使用GaN 器件的开关特性，并针对其开关特性设计了高速驱动电路。在第2.5 小节介绍了器件特性评估方法，通过双脉冲测试获得器件在指定电压、电流下的工作表现，并在最后介绍了实验平台搭建的注意事项。  
+
+为了尽可能减小测试误差，可以使用探头尖端适配器来缩短地线的长度。本测试中使用了无源探头TPP0850(800MHz)，并使用BNC 连接器对下管Vds进行测量，图4-8 为测试电路实物图。测试时使用的示波器为MDO3104（1GHz，5GS/s）。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf8qv1mb7jliakf2F5MXFPWt9TF6TB9x4X7zW1K7pUIgV8ZdmibjhTPKmA/640?wx_fmt=png)
+
+在开关过程中，漏极电压从90%下降到10%的时间称为电压下降时间Tf，相应的漏极电压从10%上升到90%的时间称为电压上升时间Tr。Tr 和Tf 可以体现器件的开关速度，并在一定程度上决定了器件可实现的最大开关频率。当器件的开通速度较慢时，会产生明显的拖尾现象，本测试定义电压从10%下降为5%的时间为拖尾时间Tt。
+
+本测试中使用的电感感值为518µH，脉冲时间长度为µs，可以测试GaN 器件在母线电压为400V、电流为12A时的开关特性。图4-9和图4-10所示为Cg\=1.5nF，Ron\=2ohm，Roff\=2ohm，Rss\=680ohm 时的双脉冲测试波形。  
+
+从测试结果中可以看出，在器件过程中，在刚开始dv/dt 的速度非常快，但随即产生一个非常长的拖尾，使器件总开通时间很长，这样会产生非常巨大的损耗。在器件关断时无此现象。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfTMJf9afj57VnLNHM5ylP5bhuhGwataqGnSB0iaGPAfklR2ek2mP9nog/640?wx_fmt=png)
+
+为了消除期间开通时严重的拖尾问题，需要对驱动电路中RC 网络的阻值进行调整。 在测试中 Tf1、Tt1、Tr1 和 Tf2、Tt2、Tr2 分别为器件第一次和第二次开通关断时的下降时间、拖尾时间和上升时间。
+
+如图4-11 所示为开关速度随Ron 和Roff 的变化曲线，此时Cg\=3.3nF，Rss\=680ohm，VCC2=12V。当Ron 与Roff 升高时，开通和关断速度都会变慢，拖尾持续时间也会变长。 从中还可以看出，器件第一次开通的速度总是远远快于第二次开通的速度，这是由于器件的开通速度会随着电流的提升而变慢，在第一次开通时电流为零，而第二次开通时通过器件的电流已经达到12A，延缓了器件的开通速度。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfcNFJJKDPZE4EWxWeo9EG5t251ic2Mp5ctt6qwZ1hccCjYSjicbl3Rx9g/640?wx_fmt=png)
+
+如图4-12 所示为器件开关速度随Cg的变化曲线，该图纵坐标为对数坐标。此时，Rss\=680ohm，Ron\=2ohm，Roff\=2ohm，VCC2=12V 从中可以看出，当Cg很小时，器件的开通关断速度会非常的慢，这段期间主要由Rss 限制了启动电流的大小。随着Cg的增大器件的开通速度在一定程度上变快，但拖尾电流的时间会显著的减小。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfjYicQb5klB34uiau6nBtViapREGEaATGBCAHiaviavjOMMjeprYOvpatZTQ/640?wx_fmt=png)
+
+当Cg取值足够大时，Rss 不是驱动电路中的主要影响因素，Rss 的取值只影响器件开通后流过二极管的电流大小。但是当Cg取值不足时，Rss 可对器件的开通速度产生显著的影响。如图4-13 所示为器件开关速度随Rss 的变化曲线，此时Cg\=1.2nF，Ron\=2ohm，Roff\=2ohm，VCC2=12V。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfnvia3ZLmtn1p4bdc25duJXFK9rcB1aoib7YJIPW9Ka2kUPwSqtaSoCXg/640?wx_fmt=png)
+
+如图4-14 所示为器件开关速度随驱动芯片副边电压VCC2 变化曲线，此时Cg\=3.3nF，Rss\=390ohm，Ron\=0ohm，Roff\=0ohm 当驱动电压上升时，开通速度显著加快，拖尾电流的时间也得以显著减小。这是由于驱动电压的提升直接增大了驱动电流而导致的。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfWS2pk0magUueCGnWkYHkUOXPBShtBgyyE8sUD1JdueJz0myCsPUIOw/640?wx_fmt=png)
+
+电流测量是GaN 器件特性测试的一个突出难题。应用于示波器的电流测量工具主要包括霍尔电流传感器、电流互感器、罗氏线圈、Shunt 电阻以及同轴分流电阻。电流互感器、Shunt 电阻和同轴分流电阻会在线路中引入寄生电感，使测试结果与器件在样机中工作的实际状态不能完全相同；霍尔电流传感器的体积往往很大，而被测GaN 器件封装通常非常小，使霍尔电流传感器难以应用于GaN 器件电流的测量；而罗氏线圈则存在着带宽受限且易受电磁干扰的问题。  
+
+图4-15 所示为某双脉冲测试中的实验波形，粉色曲线为流过下管GaN 器件电流Id，绿色曲线为电感电流IL 波形，蓝色曲线为器件漏极\-源极两端电压Vds。在开关过程中，Vds 与Id 的交叠区域的面积就是开关过程中产生的损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfCyiaR29UP95xnoSFeKLBMJ07274RDaAzTianUic1ibH1FhvwKfgVMxPvoA/640?wx_fmt=png)
+
+如图4-16所示为使用50MHz电流探头TCP0020A与30MHz罗氏线圈TRCP0300测量同一GaN器件漏极\-源极电流结果。从图中可以看出，两种测量方式存在明显的延时，且罗氏线圈的测量结果中存在着严重震荡。至此，由于GaN器件开关速度过快，本实验无法精确获取GaN 器件精准电流波形计算损耗。在图4-15 和图4-16 测试使用的电路中，上下管之间的功率回路引入了几nH的寄生电感，因此Vds 上产生了严重的震荡。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf495TKwzibAibauIPiaD9q2nH0oBzsicUbW7XChYvoOyqXOa3rmCcgRsOTw/640?wx_fmt=png)
+
+在对高速开关的GaN 器件进行双脉冲测试时，应注意不能对器件栅极\-源极电压Vgs进行测量。当使用使用电压探头对 Vgs进行测量时，会在驱动回路中引入新的寄生电容和寄生电容，影响器件的开关速度。经测试，在Vdc\=400V，IL\=12A，Cg\=3.3nF，Ron\=Roff\=2ohm 条件下，器件第二次开通下降时间Tf2\=11.6ns；若使用200MHz电压差分探头对Vgs 进行测试，器件第二次开通下降时间将上升至Tf2\=15.1ns。
+
+4.1.3 DC-DC 测试
+
+图腾柱整流器可以实现双向能量变换，既可以实现AC-DC 的整流变换，也可以实现DC-AC 的逆变变换。在图腾柱整流器的效率测试中，可以让其工作于DC-DC 模式， 通过开环控制的方式对其在AC-DC 模式下的效率进行预估。图4-17为单通道DC-DC测试的原理图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfr9ZibJ5BV5jnsxgAUmXxYEMSFLNC9ibr2KjiciaAJea8MzwsCvo2SQ4lXA/640?wx_fmt=png)
+
+在输入电压为400V，输出电压为280V，开关频率为65kHz的测试条件下，分别对两个功率通道进行DC-DC测试。使用30 ohm 阻性负载，输入电压从0 上升至400V， 并使用YOKOGAWA 的功率分析仪WT3000E 对效率进行测量。本测试的最大测试功率为2.5kW，图4-18 所示为两个功率通路测试波形图及效率曲线。从测试结果可以看出， 两个功率通路的性能基本一致，在2.5kW工作时均可以实现99.2%的满载效率。该测试结果已包括所有辅助电源及风扇产生的弱电功率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf9LK580u8VSgZIlKuLOicyWic1dN0iaibmLcAfXfd1rHD3bO3iasBIeA9auw/640?wx_fmt=png)
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfPYRIHkCYMoGknDAYK10icqh96tGVGxQicCy0SvKtxickK3Y1lwKZOzicJg/640?wx_fmt=png)
+
+两个功率通道分别测试至满功率后，便可对整机进行交错并联DC-DC 测试。本测试条件为输入电压为400V，输出电压为300V，开关频率为65kHz，阻性负载15 ohm， 输入电压从0V 升高至390V。本测试的最大测试功率为5.4kW，图4-20 所示为相关波形及效率曲线。当样机交错并联工作在5.4kW 时，可实现99.1%的满载效率。该测试结果已包括所有辅助电源及控制系统产生的弱电功率。当样机工作在5.4kW 时，器件封装表面温度为50.4度，验证了散热设计的可靠性。该测试结果已经包含了1.98W 的辅助电源功率和1.57W 的风扇损耗。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfb5ZibxZic6mOzygSD0PxzbGlmib0EezNClNbP5TA1Ntm1yGOiaUrXWYia4A/640?wx_fmt=png)
+
+表4-1 给出了5.4kW 交错并联DC-DC 测试详细数据.
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfCZ9GxNzmM9o5fV4649UO2avB1IobgoNaD5ibulFK4T1wgTiawC7ia0v2w/640?wx_fmt=png)
+
+4.2维也纳整流器样机研制与测试结果
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf9mgA7C4JAxlhhcrrQHKwrbvlibq5tiaubh3OG4v1y9W1xEC2QNiaypbVA/640?wx_fmt=png)
+
+如图4-21和图4-22所示为20kW维也纳整流器样机及三维模型，其尺寸为447mm\*331mm\*73mm。该设计由功率半导体器件、散热器、Boost电感、EMI滤波器、辅助电源、传感器和数字控制器等模块构成。其中数字控制器为Texas Instruments公司的数字控制器TMS320F28379D。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVftarvfhRicyrxVnNRnBia2JWTdAdOPrVpShH30GXM2gQORCAV8hrUTw5g/640?wx_fmt=png)
+
+如图4-23 所示为20kW 维也纳整流器测试平台。输入电源为California Instruments公司的MX30-3PI 型30kW 可编程AC电源，并使用Yokogawa公司生产的WT3000型功率分析仪测试效率。实验过程中要注意观测负载电阻的温度。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVf5U986gdK139WBb6mkibfqicMKffxicJKmNqSJ4ubqhXTDeHbWE3G8bFpw/640?wx_fmt=png)
+
+图4-24 所示为该样机在21kW 下的实验结果，此时电流总谐波畸变率（THD）为5%。粉色波形为器件漏极\-源极电压VDS；浅蓝色波形为输入相电流Iin；深蓝色波形为输入线电压VL-L；绿色波形为直流母线输出中点和地之间的电压VM。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfqQickzGNwoIjhCKeXzOj0ib8fYQvw4UZDibgFYDFOJ36xdLf5rwnkjsVA/640?wx_fmt=png)
+
+如图4-25 和图4-26 所示为21kW 测试时电压和电流频谱。从频谱分析来看中高频谐波的比例较低。共模设计的概念也经过了衰减性能验证。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfjTrg8QPLqIj8Lhx9s3vWmlkhzCNbceCYI0fkRI7xYcSyqjqMKnj0jQ/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfAicEPFcxva8kvo21s9HrYIel51yrg10bSVzZcaicM7U3eDLuXRWDTeibQ/640?wx_fmt=png)
+
+在图4-27 的测试结果中，深蓝色波形为输出正点平至电容中点电压Vpm；紫色波形为两相支路之间的线电压Vl-l；浅蓝色和绿色波形分别为输入线电压Vab 和相电流Ia。从实验结果可以看出，维也纳整流器具有良好的三电平特性，电感电流的纹波很小。同时， 在过零区域没有产生电压尖峰，这充分验证了本文所提出调制方法的可靠性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfZtT7HOMTwX7UHCuic3icCdgeGqEmKAAHGuOiaGU14o54Aia8p3jbibycFow/640?wx_fmt=png)
+
+如图4-28 所示为SiC 器件关断时漏极\-源极电压VDS 的电压尖峰，其电压过冲为母线电压的20%，系统可靠。较低的电压尖峰也证实了功率回路寄生电感足够小，验证了本文提出的器件双列排布对于减小功率回路寄生电感的作用。
+
+图4-29 所示维也纳整流器21kW 测试中主要器件的温度。当整机功率为21kW 时， 散热器表面的温度为35度, Boost电感的温度很低，而MOSFET封装表面的温度为68.7度， 在热仿真中得到的65.72度非常接近，验证了前期设计的正确性。图4.28(b)所示共模电感的温度为51.4度。上述温度测试的结果证实了热设计的可靠性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfWmUel8tZQBX69TcyRIgiaXXsS5G0QZ6CMYXSWDPFbhvrZdYA9MicoGpA/640?wx_fmt=png)
+
+如图4-30，使用功率分析仪测试3kW、6kW、9kW、12kW、18kW 和21kW 下的整机效率，其中峰值效率约为98.6%，满载效率为98.5%。在负载小于满载功率的10%时， 其效率仍在97.9%以上。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslje3Pib24E6zxdMTTDu9hVfoy9MCT1SFvgWiaAKPcR3MZuPl7GPXNtPw1Af20TbQ0VibdfnUpIdcdmA/640?wx_fmt=png)
+
+4.3 本章小结
+
+本章根据前文所述的步骤，分别搭建了图腾柱整流器和维也纳整流器样机，对设计进行了验证。在图腾柱整流器散热能力测试实验中，GaN 器件体二极管产生48W 的损耗，此时器件封装表面的温度仍不超过60度，验证了散热系统设计的可靠性；在GaN器件开关特性测试中，通过大量实验验证了器件开关速度随驱动电路中 RC 网络参数变化的关系，保证其在400V/12A 的实际工况下可实现10ns 内开关；DC-DC 测试可估算能量双向流通整流器装置的工作效率，在图腾柱整流器5.4kW 交错并联DC-DC 实验中，样机满载工作效率仍高达99.1%，GaN器件外表温度不超过50.6度；最后，对维也纳整流器进行实验，在 21kW 满功率运行时，满载效率可达98.5%，SiC 器件外表温度不超过68.7 度。上述实验结果验证了本文设计的可靠性与有效性。
+
+5.总结与展望
+
+强磁场技术在现代科学研究中有着广阔的前景，重复脉冲强磁场作为一种特殊的强磁场在经颅磁刺激、核磁共振、太赫兹辐射等领域得到了广泛的应用。本文介绍了PFC整流器的发展历程及国内外研究现状，对Boost 型PFC 整流器各经典拓扑进行分析和对比，并针对不同的功率等级的重复脉冲强磁场电源装置，设计了一种基于GaN 器件的5kW交错并联图腾柱整流器和基于SiC 器件的20kW 维也纳整流器。
+
+图腾柱整流器是一种单相无桥Boost 型PFC 整流器，其无桥电路结构消除了传统Boost整流器中产生大量损耗的整流桥，可大幅提升整机效率。将同步整流技术和交错并联技术引入图腾柱整流器，可以进一步提升其功率和工作效率。GaN 器件是新一代宽禁带半导体器件的代表，具有极小的反向恢复电荷，可彻底解决MOSFET 在开关过程中严重的二极管反向恢复问题。基于GaN 器件的交错并联图腾柱整流器在CCM 模式下 可工作于几千瓦的功率等级，是5kW 以下脉冲强磁场电源装置的理想前级PFC 整流器拓扑。
+
+损耗是提升工作效率的最主要阻碍因素，本文从器件选型开始对设计进行优化，对各主要元器件的损耗进行计算，并对系统整体损耗分布进行了分析。从结果可以看到，GaN器件产生的损耗可以占到系统总损耗的47%，是最主要的损耗来源。而对于GaN器件来说，其损耗主要来自大电流产生的通态损耗。从损耗分析可知，GaN器件、MOSFET器件与Boost电感产生的损耗高达系统总损耗的82%，需要有良好的热设计对器件进行散热。针对本文的损耗情况完成对散热器的选型，并围绕GaN器件的散热提出一种分布式散热的方法。  
+
+GaN器件具有独特的物理结构，其器件开关特性与驱动方法也与传统的MOSFET器件不尽相同。将GaN 器件的驱动阈值电压提升至正值是制造上的一个难题，本文中使用的Infineon CoolGaN器件驱动阈值通常在1-1.5V，器件导通后栅极\-源极间的二极管将驱动电压钳位会产生大量损耗。针对GaN器件的特性，设计了一种低损耗的高速驱动电路对GaN器件进行驱动，并通过双脉冲测试对器件和驱动电路的开关特性进行评估。
+
+维也纳整流器是典型的三相三电平Boost 型PFC 整流器，具有高效率和高功率因数的优点，功率等级可达几十千瓦。与硅器件相比，宽禁带功率半导体器件可以工作在更高的开关频率，进而大大减小了无源元件的体积。针对重复脉冲强磁场装置电源在大功率场合的应用，本文设计了一个基于SiC 器件的20kW 维也纳整流器，工作频率达到140kHz，并实现了98.5%的满载效率。
+
+本文采用维也纳整流器拓扑中效率最高的d 型，突破维也纳整流器中背靠背开关器件共用同一个驱动信号的传统做法，将T-Type 功率变换器的调制方式应用于维也纳整流器中，提出一种基于载波的调制方法优化控制系统设计，解决了过零点区域的电压尖峰问题。通过数据手册建立开关器件温度模型，经计算在开关过程中功率半导体器件将产生230.87W 的损耗，并通过PLECS 软件仿真加以验证。为了保证系统的良好散热， 在散热装置设计中使用氮化铝热界面材料和新型热相变材料减小散热通路的热阻，通过仿真验证器件结温可控制在105度以下。功率回路中的寄生电感会导致器件开关过程中 震荡产生较大的电压尖峰，本文提出一种器件双列排布的方式，可将功率回路寄生电感减小25%，避免开关过程中产生过高的电压尖峰，保证器件能够安全稳定运行。EMI 滤波器设计是硬件电路设计的难点，本文了改进两级EMI 滤波器中的共模回路，通过添加 一个反馈阻尼电阻来提高系统的相位裕度和稳定性，并对共模电感的工作状态进行了仿真分析。最后，对机械结构设计进行优化，使整机适用于2U 工业标准机箱，同时提升了系统的稳定性。
+
+基于上述设计分别搭建了5kW 图腾柱整流器和20kW 维也纳整流器样机，并对设计进行了验证。在图腾柱整流器散热能力测试实验中，通过GaN 器件体二极管产生48W的损耗，此时器件封装表面的温度仍不超过 60度，验证了散热系统设计的可靠性；在GaN器件开关特性测试中，通过大量实验验证了器件开关速度随驱动电路中RC 网络参数变化的关系，保证其在400V/12A 的实际工况下可实现10ns 内开关；DC-DC 测试可估算能量双向流通整流器装置的工作效率，在图腾柱整流器5.4kW 交错并联DC-DC实验中，样机满载工作效率仍高达99.1%，GaN器件外表温度不超过50.6度；最后，对维也纳整流器进行实验，在21kW满功率运行时，满载效率可达98.5%，SiC 器件外表温度不超过68.7 度，充分验证了设计的可靠性与有效性。
+
+由于实验条件和时间的限制，本文还可从以下几个方面进行优化：
+
+（1）针对图腾柱整流器和维也纳整流器在过零点区域的电流畸变问题，对控制系统进行优化设计，通过改善控制方法进一步提高效率，并改善波形畸变率。对图腾柱整流器和维也纳整流器的软启动过程进行研究，优化其软启动过程，使其更加适应实际工况。
+
+（2）完善图腾柱整流器和维也纳整流器的控制器设计，进一步提升功率因数并降低谐波畸变率。对图腾柱整流器的共模噪声产生机理进行研究，进一步减小其EMI 噪声，并对EMI 进行测试，验证EMI 滤波器设计的合理性。
+
+（3）完成对图腾柱整流器的AC-DC 硬件电路测试，进行短路实验、变功率跳载等实验， 并对图腾柱整流器能量双向流动的机理及其应用展开研究。
+
+（4）对5kW 图腾柱整流器和20kW 维也纳整流器的硬件电路寄生参数进行实测，并在实验中对各部分损耗进行标定，对整机进行损耗分析并于理论计算结果进行比较。
+
+（5）完成对后级LCC 谐振变换器、放电电路以及磁体的设计，对重复脉冲强磁场装置进行系统实验测试。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)

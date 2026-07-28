@@ -1,0 +1,237 @@
+# 低温银烧结工艺，提高SiC功率模块的效率与可靠性，加速SiC器件在电动汽车、航空航天和工业电源等领域应用
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/5bIhZaX-KYW\_aRdXf66vsQ](https://mp.weixin.qq.com/s/5bIhZaX-KYW_aRdXf66vsQ)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmz4MZiaKqaOia2amEVhpF2Eia04biaicFgCahhhoCuXZqjMfxtuicR1Sol3AaNPpcIwyPQT1InyGL1xAcA/640?wx_fmt=png)
+
+“
+
+**导语**
+
+  
+
+在工业电源、电动汽车与航空航天领域，碳化硅（SiC）功率器件的高效率与耐高温特性正逐步替代传统硅基器件。然而，SiC芯片的高功率密度与高温运行需求，对封装技术提出了前所未有的挑战——传统焊料在高温下易疲劳失效，成为制约性能释放的关键瓶颈。
+
+  
+
+**银烧结技术凭借低温工艺与超高可靠性，成为解锁SiC潜力的‘银钥匙’。**爱仕特基于此技术开发的碳化硅模块，已在多个应用场景中验证其性能优势，为行业提供高效、稳定、可靠的解决方案。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrc7fRchVz2pEriaMSKLIFZiaPhAHBSFoNnwUgmqIoNaomE37cRQgpnVlWkBmOMfIpXaicxG9c3kSsb2g/640?wx_fmt=png)
+
+随着新能源汽车、5G通信、高端装备制造等的蓬勃发展，这些领域对功率器件的要求越来越高——既要有更高的效率和可靠性，又要寿命更长，制造步骤尽可能简单易行，还要满足无铅监管的要求。这些都对焊接材料和工艺提出了更高、更全面的可靠性要求。
+
+无压低温烧结银焊料和银烧结互连技术，将为大功率模块器件带来受用不尽的好处。
+
+**01**
+
+**银烧结技术：低温工艺破解高温难题**
+
+银烧结技术利用纳米银颗粒在低温（<250℃）下致密化形成导电层，兼具**优异的导电性、散热性、机械强度**三重优势，完美适配SiC器件的严苛需求。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmz4MZiaKqaOia2amEVhpF2EiajG5RZjgTwMNjoq0og7cglZBT0sDpN1hgv9oMp1tVkF7oDzxNoPrbvA/640?wx_fmt=png)
+
+▲银烧结互连示意图
+
+  
+
+**性能对比：全面超越传统焊料**
+
+**指标**
+
+**银烧结技术**
+
+**传统焊料**
+
+**优势提升**
+
+电阻率
+
+3×10⁻⁶ Ω·cm
+
+1×10⁻⁵ Ω·cm
+
+**导电性提升3倍**
+
+热导率
+
+\>200 W/(m·K)
+
+50 W/(m·K)
+
+**散热效率翻4倍**
+
+最高工作温度
+
+250℃
+
+150℃
+
+**耐温提升66%**
+
+功率循环次数
+
+  
+
+\>5000次
+
+(-40℃~200℃)
+
+<1000次
+
+(-40℃~125℃)
+
+**寿命延长5倍**
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmz4MZiaKqaOia2amEVhpF2EiaR8T9DoibSwfs3a3wQfVAAgVzVkmC9QDv4f3YZXMxdlqMFGVelZoYvVA/640?wx_fmt=png)
+
+▲钎焊与银烧结工艺对比
+
+**银烧结如何解决SiC器件的关键问题？**
+
+**· 高温稳定性：**烧结温度低于250℃，避免芯片热损伤；连接层在200℃以上仍能稳定工作。
+
+  
+
+**· 高效散热：**优化单面散热设计，热阻降低至0.1℃/W（传统焊料>0.3℃/W）。
+
+  
+
+**· 抗疲劳性：**弹性模量低，抵御热循环应力，寿命比传统焊料延长5倍以上。
+
+**02**
+
+**技术解析：爱仕特持续优化工艺与应用深度融合**
+
+  
+
+**高精简四步工艺流程**
+
+**· 衬板印刷：**银膏厚度误差<3%，确保SiC芯片与陶瓷基板的低阻抗连接，适配车规级模块设计。
+
+  
+
+**· 银膏固化：**梯度预热工艺去除溶剂，抑制气泡生成，提升结构致密性。
+
+  
+
+**· 芯片贴装：**±10μm精度满足高密度封装需求，适配高频、高压场景。
+
+  
+
+**· 加压烧结：**通过低温和压力辅助烧结，孔隙率<3%，支持双面散热设计。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmz4MZiaKqaOia2amEVhpF2EiasZXctK662HqbegaZuefKTwibBhO6UJPBc5wd3zRibej2cWbs9QianXPug/640?wx_fmt=png)
+
+▲银烧结技术工艺流程
+
+**材料创新与应用关联**
+
+**· 纳米银低温烧结技术：**采用纳米银膏，抗热疲劳性能优于普通焊料10倍以上，热导率轻松达到200W/(m·K)。
+
+  
+
+**· 银铜复合结构设计：**芯片底部通过银烧结（高导热）、顶部铜片烧结（低成本高载流）与铜线键合（大电流互联）的复合设计，实现SiC模块的超高热-电-机械性能平衡。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmz4MZiaKqaOia2amEVhpF2Eia2Dld6wsQbG8qgyfqQn6K5f280Ce3EdJ01lEOCuAG9fUQViaGeqmEb8A/640?wx_fmt=png)
+
+▲SiC模块剖面图
+
+**03**
+
+**场景化实验：技术落地的多维验证**
+
+  
+
+**电动汽车：续航与快充的双重突破**
+
+**· 场景痛点：**逆变器高温导致效率下降，传统焊料寿命不足。
+
+  
+
+**· 解决方案：**采用ASC800N1200DCS12模块（1200V/800A），通过银烧结连接实现。
+
+1.  热阻降低至0.1℃/W以下，支持150℃结温下连续工作；
+    
+2.  功率循环寿命>5万次（ASC800N1700DCS12 过了30万次秒级功率循环）；
+    
+3.  某车企实测数据：逆变器效率提升至98.5%，续航增加8%。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmz4MZiaKqaOia2amEVhpF2EiaLNFNZxmpbEM7ucnjxsn8v3L0r3x8rhWF9a2eLmtN9mGqNNaRgFfHFA/640?wx_fmt=png)
+
+▲ASC800N1200DCS12产品介绍
+
+**工业电源：极端环境下的稳定守护者**
+
+**· 场景痛点：**变频器在重载、高温环境下频繁故障。
+
+  
+
+**· 解决方案：**采用ASC600N1700ME3模块（1700V/600A），结合银烧结技术实现。
+
+1.  \-40℃~150℃温差下，5000次热循环后电阻变化<1%；
+    
+2.  某工厂应用案例：
+    
+    能耗降低12%，年维护成本减少30%。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmz4MZiaKqaOia2amEVhpF2EiaxmoREETibW4MfwUHvxGLqGz8LY52ic0V9sZhGK5uEMUn9If15yMbgA5Q/640?wx_fmt=png)
+
+▲ASC600N1700ME3产品介绍
+
+**航空航天：轻量化与高可靠的平衡术**
+
+**· 场景痛点：**器件重量与散热能力影响飞行器性能。
+
+  
+
+**· 解决方案：**采用ASC600N1200MD3模块（1200V/600A），通过银烧结技术实现。
+
+1.  器件减重20%，满足NASA减重标准；
+    
+2.  通过MIL-STD-810G振动测试，200℃真空环境下寿命超10万小时。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmz4MZiaKqaOia2amEVhpF2EiaX1oict7Qb3Gvz1UTJjKs716icLtaIgxRudsqlYjiaEuW6Vdbr8FD2ibzeA/640?wx_fmt=png)
+
+▲ASC600N1200MD3产品介绍
+
+**04**
+
+**技术纵深：银烧结的工艺创新与未来方向**
+
+爱仕特通过优化银膏配方与烧结参数，将孔隙率控制在5%以下，确保连接层的高致密性。目前，其量产模块良率已稳定在98%以上。
+
+  
+
+未来，银烧结技术将朝两个方向迭代：
+
+  
+
+**· 材料创新：**通过纳米银颗粒的尺寸优化，提高界面致密性降低热阻，同时可兼容更敏感的芯片材料；进一步降低烧结温度至180℃，降低热应力，保护芯片。
+
+  
+
+**· 成本控制：**开发微米级银膏规模化生产工艺，推动成本降低30%以上，拓展至光伏逆变器、5G基站等民用领域。
+
+**05**
+
+**结语：以银烧结技术，定义SiC器件新标准**
+
+银烧结技术通过低温工艺与高可靠连接，为SiC功率器件提供了突破高温瓶颈的终极方案。爱仕特基于实测数据与行业验证，持续优化产品性能，助力客户在工业电源、电动汽车与航空航天领域实现效率与可靠性的双重跃升。随着材料与工艺的迭代，这项技术有望在更广阔的能源领域释放潜力，推动电力电子系统向更高效、紧凑的未来迈进。
+
+  
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)

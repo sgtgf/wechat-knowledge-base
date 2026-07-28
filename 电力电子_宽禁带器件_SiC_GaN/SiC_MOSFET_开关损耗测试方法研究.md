@@ -1,0 +1,150 @@
+# SiC MOSFET 开关损耗测试方法研究
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/407rc-nCX\_u-mhyfd9Pl6g](https://mp.weixin.qq.com/s/407rc-nCX_u-mhyfd9Pl6g)
+
+**文章来源：**中国电机工程学报
+
+**作者：**郑丹 1，张少昆 1，李磊 1,2，曹瀚 1,2，范涛 1,3\*，宁圃奇 1,3，张瑾 1,3，温旭辉 1,2(1．中国科学院电力电子与电气驱动重点实验室(中国科学院电工研究所)；2．中国科学院大学；3．北京市电动汽车协同创新中心)
+
+**摘要：**准确测量金属氧化物半导体场效应晶体管(metal oxide-semiconductor，MOSFET)开关损耗，是正确评估碳化硅(silicon carbide，SiC) MOSFET 开关特性、优化驱动电路、降低损耗的前提。由于 SiC MOSFET 具有较高的开关速度，传统的双脉冲测试方法存在测量延时、高频振荡等问题，导致损耗评估这一在Si IGBT时期并不严重的问题在SiC时代更加凸显。该文首先对理想开关过程进行分析，提出一种由开关时序特征来校准测量延时的方法，并考虑到实际开关过程中寄生参数的影响，对延时校准方法进行改进；其次分析开关暂态过程中的高频振荡，提出一种计算高频振荡产生附加开关损耗的方法，在保证器件安全的前提下，通过综合开关损耗最优原则对驱动电路参数进行筛选；最后以一款自主封装的全 SiC MOSFET 功率模块为例，对测试方法进行评估验证，设计结果应用于一款车用驱动控制器，和相同功率等级的 Si IGBT 控制器进行测试对比，证明文中方法的正确性和实用性。
+
+**关键词：**碳化硅 MOSFET；开关损耗；延时补偿；振荡
+
+**0 引言**
+
+在新能源汽车驱动领域，应用碳化硅(silicon carbide，SiC)金属氧化物半导体场效应晶体管(metal-oxide-semiconductor，MOSFET)器件提升驱动控制器能效并提升其功率密度是世界范围内的共识。这是由于碳化硅器件具有更快的开关速度、更低的导通电阻、更高的工作耐温和更低的热阻率。由于这些优异的材料性能，使得由碳化硅器件制成的控制器工作在相同开关频率和输出电流条件下具有更低的损耗\[1-4\]。另一方面，过高的电压/电流变化率带来了电压过冲问题、高频振荡问题，也为开关损耗的测量带来许多新的挑战。
+
+准确测量开关损耗，是评价 MOSFET 开关特性的重要依据，是在驱动层面对 MOSFET 的开关过程进行控制和优化的前提，是研发高效高功率密度车用驱动控制器的基础，对研究如何降低开关损耗，提高开关频率、提升控制器效率具有重要意义。
+
+目前，确定开关损耗的方法主要是双脉冲测试，通过 MOSFET 栅–源极电压 vDS(t)和漏极电流iD(t)暂态波形的乘积对时间进行积分得到开关能量Eon/off，进而求得开关损耗，损耗对电压通道和电流通道的同步问题比较敏感。SiC MOSFET 较高的开关速度对测试设备提出了更高的要求\[5-7\]，同时由于开关速度变快，示波器探头和通道的延时问题逐步凸显，文献\[7\]指出延时对开关损耗的测量结果有相当大的影响，需要对延时进行测量，并在示波器内补偿。目前测量延时的方法主要有 3 种：一种是示波器厂家推出的功率测量偏移校准工具\[8\]，使用同一脉冲信号驱动电压和电流探头，在示波器上手动进行偏移校准，但是这些校准工具信号过小(电压小于 50V，电流小于 1A)，在功率 MOSFET 工作范围进行校准误差太大；还可以选择功率无感电阻搭建脉冲电路\[9\]，利用电阻两端的电压电流波形一致的特点测量延时，但是这种方法很难做到整个回路的无感设计，上升沿不够陡峭，应用难度较大；再者就是选择专业测量机构进行比对校准，这种方法成本高，需要定期进行检测，还要在测量时固定通道，固定探头，一般只适用于大型的检测认证机构。因此，如何对电压、电流的测量信号进行延时校准，是 SiC MOSFET 开关损耗测试中面临的现实问题。
+
+SiC MOSFET 较高的开关速度使其对寄生参数非常敏感，高频振荡的问题也显现出来。高频振荡不仅增加器件应力，带来电磁兼容问题，同时也增加了额外的开关损耗。文献\[10-11\]对于振荡产生的原因进行了分析，指出高频振荡无法避免，只能通过减小寄生电感来来控制。为了排除高频振荡对开关损耗计算的影响，大多数厂家选择截取平缓段\[12-13\]进行计算，并不计入高频振荡产生的附加损耗。高频振荡与杂散电感参数密切相关，文献\[14\]研究了杂散电感的抽取方法，文献\[15-16\]研究了杂散电感参数对于开关损耗的影响，由于杂散参数的定量计算十分复杂，验证也很困难，以上的研究均为定性分析。本文试图寻找一种定量描述高频振荡产生的附加开关损耗的简易方法，能够满足工程需要，对驱动电路的参数设计提供一定的指导。
+
+基于以上问题，本文通过对 MOSFET 理想开关过程的分析，提出一种由 MOSFET 自身的开关时序特征来进行探头测量延时校准的方法，考虑到实际开关过程中高频振荡的影响，对延时校准方法进行了优化。针对实际开关暂态过程中的高频振荡，分析振荡幅值和频率的影响因素，提出一种由电感储能计算高频振荡产生附加开关损耗的方法，并以综合损耗最优为原则对驱动电路参数进行筛选。运用改进的开关损耗测试方法对一款 1200V/300A SiC MOSFET 功率模块进行不同条件下的开关损耗测试和变流器总体损耗测试，测试结果与文中理论分析和计算规律相符合。最后，将所研发的功率模块应用于一款百千瓦级车用驱动控制器原型机中，在 20kHz 开关频率下，其峰值功率为 85kW，功率密度达到 37.1kW/L，最高效率超过 98.6%。证明所提方法的准确性和对搭载设备研发的价值。
+
+**1 延时校准方法**
+
+**1.1 理想模型的开关时序和开关损耗**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHflvqyDNLRyhCtKtwr9ky0oQyCaehOice8PPQWicvG6fH0wOjpxSpmbrg/640?wx_fmt=png&from=appmsg)
+
+理想模型的双脉冲测试电路如图 1 所示，红色标识为 MOSFET 测试信号，图中：vGS为栅–源极电压；iD为漏极电流；vDS为漏–源极电压；vGS\_in 为栅–源极驱动电压；iL为负载电流。在理想开关模型中，只考虑 MOSFET 极间电容(CGS为栅–源极电容，CGD为栅–漏极电容，CDS为漏–源极电容)的影响。
+
+对于开关时序的分析，本质是求解表达式vGS(t)、iD(t)、vDS(t)。iD(t)由转移特性曲线 iD  f (vGS)得到；vDS 的变化主要在米勒平台，控制米勒平台的宽度，即可控制 vDS的变化率。由此，本文以 vGS(t)为参考对开关过程在时间域进行分段解析，把对开关损耗的分析也转换为对特征时间的分析。
+
+以最常用的两电平驱动方式(驱动正电压为VGSon，驱动负电压为 VGSoff)对开关过程和特征时间进行分析。理想开关暂态波形如图 2 所示，图中：绿色为栅–源极电压 vGS；橙色为漏–源极电压 vDS；蓝色为漏极电流 iD；实线为实际的电流波形；虚线为电流超前电压的情况；点线为电流滞后电压的情况。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHWO9KPV5WwU1RSyMqTMLOKDNN6ick2OZE16gKSd1uzer7KzY7LAmB4Fg/640?wx_fmt=png&from=appmsg)
+
+1）t0—t1 时间段为开通延迟时间 tdon，驱动电路通过栅极电阻 RG 对 CGS 和 CGD 充电，在 t1 时刻vGS达到阈值电压 Vth，MOSFET 开始导通。
+
+2）t1—t2 时间段为电流上升时间 tir，电流由上面的二极管逐渐换流到 MOSFET，iD由 0 上升至负载电流 IL(漏极导通电流稳态值 ID  IL)，此段时间驱动电路通过栅极电阻 RG 对 CGS 和 CGD 充电，在 t2时刻 vGS达到米勒平台电压 Vp。tir的表达式如式(1)所示，其中 gfs 为 MOSFET 正向跨导。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHHdrzJbiaOtz3OjHzIQqtFrICu3TnEm915zqaJ8iaE26PmTwDHq8YCwUw/640?wx_fmt=png&from=appmsg)
+
+3）t2—t3 时间段为电压下降时间 tvf，vDS 由母线电压 VDC下降到饱和电压 VDSon。此段时间驱动电流全部用来给 CGD 充电，vGS 电压保持在米勒平台电压 Vp。tvf的表达式如式(2)所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHF5PhwyNd2Fwh1nvylH8xnH8ZLNfCrYR3WGPSkg7ic3Dibic6Wj6INyKdg/640?wx_fmt=png&from=appmsg)
+
+4）t4—t5 时间段为关断延迟时间 tdoff，vGS由导通电压 VGSon下降到米勒平台电压 Vp处。
+
+5）t5—t6 时间段为电压上升时间 tvr，原理与 tvf相似。tvr的表达式如式(3)所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHmhicOtaVMdbEatRKNZEwiaoDJRksickuWkmKHEl6e1zP3xyp0QXftHsicA/640?wx_fmt=png&from=appmsg)
+
+6）t6—t7 时间段为电流下降时间 tif，原理与 tir相似。tif的表达式如式(4)所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHvrNiaISJujCXOX5tibkwPLNwZOEiaY0VTrJO7uxSDN4ibdFlcuC9aEtuoQ/640?wx_fmt=png&from=appmsg)
+
+结合图 2，相对延时对开关损耗的影响如表 1所示。仅由积分时间推导延时对开关损耗的影响：当电流超前电压时，导通损耗增大，关断损耗减小；当电流滞后电压时，导通损耗减小，关断损耗增大。不仅考虑延时对积分时间影响，同时考虑延时对积分的数值的影响，开关损耗变化方向不变，变化趋势更加明显。通常探头和示波器的延时达到几 ns至几十 ns 量级，而 SiC MOSFET 的电流/电压变化时间通常也只有几十 ns，如果不做校准，将会对测试结果产生相当大的影响。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHQxyylKGLd4QADSDDoXiashYS0BXXkicdalpAN6Q8ia74qa8M6bNCnrPXg/640?wx_fmt=png&from=appmsg)
+
+**1.2 利用开关时序进行延时校准**
+
+MOSFET 的开通过程实际上是上管二极管电流逐渐转移到下管 MOSFET 的过程，由于 vF  vDS VDC，当 vDS开始下降，二极管因承受反压而马上截止，所以电流上升和电压下降过程在时间上是不重合的；关断过程与此相似。因此本文提出可以应用开关过程在时间上的特征(图 2 的 t2或 t7时刻)来校准电压电流测值的相对延时。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHP8ibDHdgbibia6hrMtG4wia5wbyVnOjnMj8mPYZiaSBeEds1RO0OUibpic68w/640?wx_fmt=png&from=appmsg)
+
+而在实际应用中，由于开关速度较快，电路中的寄生参数不能忽略，理想模型下的延时校准方法需要改进。考虑模型简化，本文应用集总参数来研究寄生参数的影响。图 3 为考虑寄生参数影响的实际双脉冲模型，图中：Lbus 为直流母排寄生电感；Lin 为模块内部的寄生电感；LG 为驱动回路寄生电感；Cpar为负载电感的寄生电容和二极管的结电容。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwH1XDxufvGXcFicSyHLgjgNdsD0osuVG07RqTTgQTnKdfGfrq9COPjEUg/640?wx_fmt=png&from=appmsg)
+
+实际开关暂态波形如图 4 所示，其中：实线为理想波形；虚线为实际波形。由图 4 看到由于实际开关波形存在振荡，无论开通过程的 t2 时刻还是关断过程的 t7时刻，都已经没有了明显的转折点，无法作为延时确认的标志点。但是，由于母排杂散电感的影响，在开通过程中的 t1—t2 阶段，变化的电流加载到母排的寄生电感 LBus上，在漏源极电压 vDS上形成缺口，此阶段 vDS(t)的表达式如式(5)所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHnj5WN7mFqCf9avRBZFxU1FGNkgYc2GFLUvcubbYMoTFLYZVkk6kUEw/640?wx_fmt=png&from=appmsg)
+
+因此实际的开关波形 t1时刻具有明显时序特征，可以作为延时的标记点进行延时校准。
+
+**2 高频振荡对开关损耗的影响**
+
+**2.1 高频振荡产生的附加开关损耗**
+
+在实际开关模型中，vDS 和 iD 的高频振荡理论上是无功功率在杂散电感和杂散电容之间流动，但是这部分能量最终会全部以热的形式消耗在母排和模块内部(阻尼谐振)。这部分高频振荡产生的附加损耗并不能完全忽略掉，在设计中需要定量分析。理论上高频振荡产生的损耗可以直接由 iD(t)vDS(t)的积分得到，但是这种方法对于测量设备的带宽要求过高，相移会对测量结果产生非常大的影响，不具可行性。而模块的杂散电感比较容易获得，本文提出通过起振电流在模块寄生电感中存储的能量来计算高频振荡产生的额外开关损耗 Eon/off\_h，其表达式如(6)所示，其中 Ion/off\_h 为高频电流的起振有效值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHAlaicL4Uzeofn81Sn4vc4xJRgTdI4leDx52zOIUpRpFFn86XLZzibXtg/640?wx_fmt=png&from=appmsg)
+
+**2.2 综合损耗最优为原则优化驱动参数**
+
+调整驱动电路参数可以有效降低开关损耗。本文式(1)—(4)推导了驱动电路参数与特征时间的对应关系，将开关损耗的调节转变为对特征时间的调节。通过调节栅极电阻 RG来改变 MOSFET 的开关特性是最简单有效的方法，也可以将开通、关断应用不同的 RG 以达到更好的驱动效果。其他驱动方法包括改变极间电容\[17-18\]、多电平开通/关断、驱动信号边沿调制\[19\]、电流源型驱动\[20\]等。
+
+MOSFET 的高频振荡同样对驱动电路参数非常敏感。MOSFET 的结电容会随着电压的升高而减小，如图 5 所示，不同的 vDS会对振荡频率产生影响。通过调整驱动电路参数，减小特征时间，使电流上升沿、下降沿变陡峭(频域分析即为高频成分增加)，振荡幅值将会增大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHgVjjwlSLtMhhOqJGKsX4kEdKm4KTscbkvHG2DyqZKCrh42f2dCy5sQ/640?wx_fmt=png&from=appmsg)
+
+因此单纯提高开关速度，即使是器件安全余量允许的情况下，也未必会降低总开关损耗。本文指出应该把高频振荡产生的附加损耗 Eon/off\_h 与正常的开关损耗 Eon/off一同计入综合开关损耗 Eon/off\_tot Eon/off\_h  Eon/off。在全工作范围内抽取若干点，对综合开关损耗进行加权，应用综合开关损耗最优的方法对驱动电路参数进行筛选。
+
+当二极管或 MOSFET 导通后，会旁路与其并联的寄生电容，开通和关断暂态过程中高频振荡的路径并不相同，如图 6 所示，其中红色实线为主电流路径，蓝色虚线为高频振荡电流路径。因此驱动参数对于开通和关断振荡的影响也需要分别考虑。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHg523NEGWdMX98AYAHSXicxfadLONdQaSzqqS1NVTKXxhSsKeJve01Mg/640?wx_fmt=png&from=appmsg)
+
+**3 开关损耗测量验证**
+
+本文以一款全 SiC MOSFET 功率模块为例对文中方法进行实验验证。被测模块(图 7)为中科院电工所和上海道之科技有限公司联合研发，国内自主封装，功率等级为 1200V/300A，采用 HP1 封装，内部集成 72 颗 SiC 芯片。模块基本参数如表 2 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHwgqfDA8jqkMsclQj3r87cYibNtk23WyNxNDtZtNU6WKk8xCicModnOzw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHRxdJo5ocE0tuP6UZbbEN1tz4pfUKpgGMXMMp82PQEjIicdXLQcEEy4w/640?wx_fmt=png&from=appmsg)
+
+搭建图 1 所示双脉冲测试电路，驱动电压VGSon  20V，VGSoff  5V，导通驱动电阻 RGon  10，负载电感 L  45H。示波器应用 Agilent 公司的DSO-X4034A；电压测量应用 Tektronix 公司的高压差分探头 P5200A；电流测量应用 LEMSYS 公司提供的电流测量单元 SSCB。在 600V/300A 下测得的开通波形如图 8 所示，应用本文方法由电流上升起始时间的转折点测量得到电流波形滞后电压波形15.6ns。由 LEMSYS 厂家对测试平台校准的延时为16ns，对比数据证明了此校准方法的准确性。对比引言中的 3 种校准方法，本方法无需增加其他设备和费用，更具实用性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHkiaqy52bOp5BWeSHpb2rm4CrqascaR6LXGU9sDPJWN9nLMmK5MXH1nA/640?wx_fmt=png&from=appmsg)
+
+对于有无延时补偿下测得的开关损耗对比如表 3 所示(RGon  10，RGoff  10)。在没有进行延时补偿的情况下，虽然总损耗的误差只有 3%，但是开通损耗和关断损耗单独的误差分别达到了15%和 23%，严重影响了对于 SiC MOSFET 的正确评估和分析。尤其是开通/关断过程中应用不同的驱动电阻值的驱动方式，及驱动过程中动态调整驱动参数等闭环驱动方法，都要求对开通/关断损耗进行分离。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHEQQvlwlmM2ZcnyukH9Wfzc7icvcZ9VCatKCsT0dUpvTGoJ77x92QBMA/640?wx_fmt=png&from=appmsg)
+
+以驱动电阻为例，测试不同的驱动电路参数对于开关损耗的影响。图 9 为 600V/300A 情况不同驱动电阻下的开通/关断波形，其中：开通波形实线为RGon  10的测试波形，点线为 RGon  15的测试波形；关断波形实线为 RGoff  7.5的测试波形，点线为 RGoff  15的测试波形。测试对比数据同时列于表 4。由实验结果显示，在一定范围内，电压/电流的变化时间、开关损耗基本随 RG 线性变化，实验规律与 1.1 节理论推导相符合。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHwdjX8awQQIqXx8A0mgRps197OqRPxeHeRKgxRbS50cWPZrwbfAOQkA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHzLDeCXibP974ib9qicjTN9mWWXSJic8j5FSHI4UlCQft2oEBUFF9IlbUpA/640?wx_fmt=png&from=appmsg)
+
+减小 RG可以直接降低开关损耗，但是 RG的减小也使电流振荡幅值增加，振荡产生的附加损耗增加，电磁干扰增加，因此驱动参数的选取需要综合考虑。以综合开关损耗最优为依据，在工作范围内经过多组对比试验，最终选择驱动电阻 RGon  10，RGoff  7.5。固定直流侧电压为 600V，测得开通损耗 Eon、关断损耗 Eoff、开通振荡损耗 Eonh、关断振荡损耗 Eoffh与电流的关系曲线如图 10 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHgDbibJkUEMAHt3GssDg4TCtXQfwMOzSMt3CnTkRaeGz4DBmgr3SzGTg/640?wx_fmt=png&from=appmsg)
+
+为了验证本文的开关损耗测试方法，搭建图 11所示电路，测量变流器的总损耗。其中电压 VDC 600V，电感 L  500H，电阻 R  4，开关频率 fS 20kHz，通过改变占空比调整负载电流。变流器损耗由功率分析仪 LMG670 测得，电流采样应用霍尔电流传感器 CT1000。变流器测试损耗与计算损耗的对比数据如图 12 所示，可以看出，考虑高频振荡的变流器总损耗更接近实测值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHx0gKGwLfMVobNW6UGf4ZPlF4XGmL6GDDXNd0FzJ11QI6rU5plh7oow/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwH8A67kq9UkBQMH0QT3e7sq7FuDyoUJ2SU2K98ZpibsVxnVSnWP5DOSCg/640?wx_fmt=png&from=appmsg)
+
+此 SiC MOSFET 功率模块和驱动电路参数应用于 85kW(峰值功率)车用控制器中，开关频率20kHz，控制器效率可达 98.6%，如图 13 所示，功率密度 37.1kW/L。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwH0QtY8z9716XTVugBMDvKILuzrOw7iaUVOBibyjINAkQhFIickL4BSKawg/640?wx_fmt=png&from=appmsg)
+
+与相同功率等级的基准 Si 基IGBT 控制器对比，如图 14 所示，功率密度相提升344%，大于 95%的高效区面积占比相对于基准 Si基控制器提升 80%。SiC MOSFET 表现出了明显的功率密度优势。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHdXHIUmZNysqvBjE5uxNO2EtfXH27ro1rsqeXcxmviaKJ3LUTbNRs7QA/640?wx_fmt=png&from=appmsg)
+
+**4 结论**
+
+SiC MOSFET 由于开关速度过快给传统的开关损耗测量带来若干问题。针对测量延时问题，本文提出一种利用 MOSFET 自身开关时序来对延时进行校准的方法。通过与厂家校准结果的比对，证明了本方法的正确性和实用性。针对开关过程中的高频振荡，本文提出一种计算附加开关损耗的方法，并指出可以应用综合开关损耗最优的原则对驱动电路参数进行筛选。运用改进的双脉冲测试方法对一款 1200V/300A SiC MOSFET 功率模块进行了不同条件下的开关损耗测试，并进行了控制器总体损耗测试，测试结果与文中理论分析和计算规律相符合。最后应用本文方法，对驱动电路参数进行了设计，研究成果应用于一款百千瓦级车用驱动控制器原型机中，体积和效率对比基准 Si 基控制器均有大幅度改进。测试数据和最终的控制器加载实验证明了本文研究方法的准确性和对驱动电路以及控制器设计的指导意义。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

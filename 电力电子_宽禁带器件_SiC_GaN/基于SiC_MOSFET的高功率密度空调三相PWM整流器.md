@@ -1,0 +1,88 @@
+# 基于SiC MOSFET的高功率密度空调三相PWM整流器
+
+原创 刘 翔 SiC碳化硅MOS管及功率模块的应用 2025-09-02 17:10 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/bOGDOoaiM0iM501Gtz7sPw](https://mp.weixin.qq.com/s/bOGDOoaiM0iM501Gtz7sPw)
+
+文章来源：日用电器
+
+作者：刘 翔（深圳慧能泰半导体科技有限公司 深圳 518052）
+
+摘要：传统空调设备的谐波抑制方案存在能量密度低且低效的缺点，难以满足“双碳”目标下空调设备推广应用的需求。对此，本文提出一种基于全 SiC MOSFET IPM 的高功率密度空调三相 PWM 整流器，可有效抑制网侧电流谐波，提高电能质量和功率密度。对比于传统的基于 IGBT IPM 的空调三相 PWM 整流器，本文所提的空调三相整流器综合效率可提升 2.5 %、体积降低 64 %。
+
+关键词：SiC MOSFET；三相 PWM 整流器；电流谐波抑制；高功率密度
+
+引言
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLtuIwiaHFyIc64eRhWx93f7g82C14YVxUl4dP9EiaeBXyygAibqQo7PPYA/640?wx_fmt=png&from=appmsg)
+
+作为满足法规要求的谐波电流抑制和功率因数校正解决方案三相 PWM 整流器如图 1 中所示，在工业上、暖通行业内广泛用于用无源滤波器或并联有源电力滤波器取代通用二极管桥式整流器。作为整流器或前端变流器，三相PWM 整流器提供恒定的直流母线电压，VFD 型负载可以利用该电压，而无需额外的算法来对直流母线电压上的纹波作出反应，并增加基波电压的幅值。从电网侧来看，在一定的负载条件下，可以将功率因数控制在 1 左右，并且可以抑制输入交流电流的 THDi 。
+
+随着宽禁带第三代半导体的发展，例如主要用于应用的氮化镓（GaN）需要 600 V/650 V 以下的反向阻断电压，以及 1200 V 以上反向阻断电压的碳化硅（SiC）。与传统的硅基 IGBT 模块相比，使用 SiC 基 MOSFET 可以减少反向恢复损耗、死区时间和传导损耗，从而降低功率模块的功率损耗。因此，这些 PWM 整流器的效率可以达到非常高的水平。在之前的研究中，功率器件基于单片 SiC MOSFET 或半桥SiC 模块。因此，需要复杂的集成过程来实现高功率密度，尤其是包括控制板和板上的电感器，并在功率密度和输入交流电流 THDi 性能之间进行权衡。
+
+本文提出了在基于 SiC MOSFET IPM（智能功率模块）的设计和实验研究，应用于 8 kW 三相 PWM 整流器。在380 Vac（-15 ~ 10）% 交流输入条件下，与采用 IGBT  IPM 方案实现的方案进行了详细的比较，充分体现了其成本、性能、体积的综合优势。
+
+1\. 三相 PWM 整流器的设计
+
+三相 PWM 整流器的电网电压，直流母线电压将由电网输入电压的均方根值、功率设备的额定电流死区时间和 PWM 调制方法确定。一般来说，直流母线电压将设置为（650 ~ 700）Vdc，以满足系统需求并考虑整体效率，如表 1 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLgeeZOzLYpUSSTYRibUZMJHraHRcG0ibQ7nWPdmUW4Lzvrdtic5k1DNiaEA/640?wx_fmt=png&from=appmsg)
+
+除这些基本系统条件外，根据有关额定输入电流的规定，正弦输入电流在全球市场上的均方根值小于16 A，应满足 IEC 61000-3-2 标准规定，而中国大陆应满足 GB/T14549-93 标准。在工业应用中，在一定负载条件下，每相电流总 THDi 通常应小于 5 %。此外，作为功率因数校正器的整体解决方案，PWM 整流器基本的控制逻辑将使电源行为应在特定负载条件下将功率因数校正到高于 0.99。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLgre38S5Wkkbjxg2K7ctnOU5ISjHoQJ1vwWGRkIHLXicQD8ujOv6hCGw/640?wx_fmt=png&from=appmsg)
+
+基于表 2 的 SiC-MOSFET IPM 解决方案和 IGBT IPM解决方案的系统配置都可以满足前面讨论的要求。SiC  IPM 解决方案和 IGBT IPM 解决方案的本质区别在于开关频率。宽禁带半导体器件 SiC MOSFET 与硅半导体的IGBT 器件相比，其开关损耗和传导损耗低得多，因此可以设计用于高开关频率应用。因此，IGBT IPM 解决方案，考虑成本和性能之间的平衡开关频率设计为 16 kHz。对于全 SiC MOSFET IPM 解决方案，它可以利用其高开关频率来改善 PWM 整流器的特性。
+
+2\. SiC-MOSFET IPM 带来的性能提升
+
+SiC MOSFET IPM 解决方案和 IGBT IPM 解决方案的配置如表 2 所示，可见 SiC IPM 解决方案的开关频率是IGBT IPM 解决方案的两倍，因此，可以选择体积较小的无源元件，尤其是 SiC IPM 解决方案中的电感。然而，即使具有更高的开关频率，SiC 器件的开关特性仍比IGBT 具有更好的性能。与 IGBT IPM 解决方案相比，SiC  IPM解决方案的散热器可以很好地设计为具有小散热器，从而大大降低了开关损耗和传导损耗。三相 PWM 整流器的原型如图 2 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLOE5n0gTRcAPUjcwb0BkXy5mTajEAcJ7CtMm0kAW9pnibw2SiaFpbBo2A/640?wx_fmt=png&from=appmsg)
+
+2.1 功率模块
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLyybp99khL49KzAACFQr3wglyiasOVpCvPx5EiaJC4Yye2nRbNN5G8AYw/640?wx_fmt=png&from=appmsg)
+
+基本上，全 SiC MOSFET IPM 在直流特性和交流特性上，其性能优于传统的硅 IGBT 智能功率模块。在直流特性如 Vds（on）/Vce（sat），SiC MOSFET IPM 在导通电流高至 25 A 时仍显示出比基于硅基的 IGBT IPM 更好的性能，如图 3 所示。如图 4 所示，在开关损耗（ESW）等交流特性的情况下 SiC MOSFET IPM 显示出比 Si IGBT  IPM 更好的性能。特别是，SiC MOSFET IPM 的 25 ℃和150 ℃之间的 ESW差异几乎相同。然而，Si IGBT IPM 在TC=150 ℃时的 ESW比 TC=25 ℃时的 ESW高 60 %。因此，SiC MOSFET IPM 的这些优越特性可以在更高的开关频率条件下提高效率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLVLrGQxibpynmOcSgS7hW1jgfPhNE3yKicOVmpGXGq1YicuicJIc4MO9qGA/640?wx_fmt=png&from=appmsg)
+
+表 3 是给定条件下基于两个器件特性的功率损耗仿真结果。其中，VDC=600V，VDD=15V，FSW\= 16/36 kHz，SVPWM，MI=0.8，PF=0.9，TC=100 ℃ 基于仿真结果，SiC MOSFET IPM 在 FSW \=16 kHz 时的功率损耗比 Si IGBT IPM 小 60 %，在 FSW \=36 kHz 时的功率损耗比 Si IGBT IPM 小 70 %。此外，由于 SiC MOSFET 具有更高电流密度的优越特性，SiC MOSFET IPM 能够实现比传统 35 A Si IGBT IPM 小 64 % 的封装尺寸。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLNBdqTpF70km1jFCOQRm9BY2fXRibVFrlMqNdBNVbibgkjtJ7ouAibFJnQ/640?wx_fmt=png&from=appmsg)
+
+2.2 实验结果
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLFhU95zaGGSG7HlQzSPyCcUnTZPUE5tfgRbwmgCjfAIJ5ApPjfzvxiaA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLXjHFTGdbLf6aZYsPe5O8g7L7qPMFQd5IUR7J7rCLse4hvxDY4zWAXQ/640?wx_fmt=png&from=appmsg)
+
+三相 PWM 整流器通过连接到直流母线电压输出端子的恒流负载进行测试。从功率分析仪读取的实验结果如图 5、6 所示，效率曲线如图 7 所示，以及电网各相谐波电流如图 8 所示。在极大的满足电流谐波抑制需求的条件下，相比之下 SiC MOSFET IPM 解决方案由于其较低的开关损耗和导通损耗而被证明是更有效的整体解决方案。如图 7 所示的实验结果表明，在 380 Vac 的正常电网电压下，SiC IPM 解决方案的效率将提高 2.5 %，总解决方案的损耗约为 200 W。对于 IGBT IPM 解决方案，在 6 kW 时效率继续下降到 94 %，而在相同情况下，当输入电流增加时，SiC IPM 的导通损耗略有增加，但 SiC  IPM 解决方案的效率仍为 97 %。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLVxtFXGicwRkPstpXb5VwpicTY42NAbrYRcYgiacnibjjJwBz31ucmJIicFA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLqzBJssjTTmYspR49r88n4Mb8mMib4sZ3iczAjhaA9DLwroTKz25qFibAw/640?wx_fmt=png&from=appmsg)
+
+2.3 整体尺寸与功率密度
+
+考虑 PCB 板（包括浪涌继电器 / 电阻器、功率直流母线电容器、辅助电源和功率模块等相同功能）、电感器和散热器的 IGBT IPM 解决方案和 SiC IPM 解决方案的总体体积。因此，表 4 中包含了各部分的筏体积比较。在采用 SiC IPM 的常见配置下，功率密度比 IGBT IPM 解决方案提高了约 2.773 倍，三相 PWM 整流器的总体积减少了 64 %。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvL3Q83GPAOjjQMtQLEgGzib59K4H371RawN2wVAbFZgXhypX7ruXO4icwQ/640?wx_fmt=png&from=appmsg)
+
+4\. 结束语
+
+在电流谐波抑制标准日益严苛的当下，基于 SiC  MOSFET IPM 第三代半导体器件的三相 PWM 整流器解决方案具有诸多良好特性，使得空调整机在极大满足谐波电流 THDi 抑制要求的前提下，升整流器的综合效率、降低整流器装置的体积并提升了整机的功率密度，该方案节能环保，具有较大的发展前景。
+
+注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsngicTCM1aozIMqNJaDGDYsVBZ76ofSNtiaOYVOOJJBndtA8N9p5n6Ogt76aNeaQo8aC5Yap5VkUrJw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=1umdp7l6&tp=webp#imgIndex=6)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsngicTCM1aozIMqNJaDGDYsVTq9TURj8xJKwX4nmXrAQuFzpELWY4YCiaOPuWnu8ic8mOc8pLtzHjSbg/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=56ak8fax&tp=webp#imgIndex=7)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsngicTCM1aozIMqNJaDGDYsViaicTuLrqzD5TJC9gT1c8oJ4ib9Mj3mxoKPuMfOFCv7ZfMAYyDMzb8lqQ/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&randomid=a0lpe1mu&tp=webp#imgIndex=8)

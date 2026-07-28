@@ -1,0 +1,187 @@
+# SiC器件新书推荐《碳化硅MOSFET封装、驱动及应用》，每一位电力电子工程师的“碳化硅时代”生存手册
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/NobI7ExRKJmUkWoLVvr45g](https://mp.weixin.qq.com/s/NobI7ExRKJmUkWoLVvr45g)
+
+文章来源：机工电气
+
+前言
+
+在电力电子行业的发展过程中，半导体技术起到了决定性作用。其中，功率半导体器件一直被认为是电力电子设备的关键组成部分。随着电力电子技术在工业、医疗、交通、消费等行业的广泛应用，功率半导体器件直接影响着这些电力电子设备的成本和效率。
+
+硅基功率硅器件(silicon，Si)的应用已经相当成熟，但随着日益增长的行业需求，硅基器件由于其本身物理特性的限制，已经开始不适用于一些高压、高温、高效率及高功率密度的应用场合。 
+
+20 世纪90 年代以来，碳化硅(silicon carbide，SiC)MOSFET 技术的迅速发展，引起人们对这种新一代功率器件的广泛关注。与Si 材料相比，碳化硅材料较高的热导率决定了其高电流密度的特性，较高的禁带宽度又决定了SiC 器件的高击穿场强和高工作温度。尤其在SiC MOSFET 的开发与应用方面，与相同功率等级的Si MOSFET 相比，SiC MOSFET 导通电阻、开关损耗大幅降低，适用于更高的工作频率，另由于其高温工作特性，大大提高了高温稳定性。
+
+碳化硅（SiC)器件的特性
+
+SiC材料与Si材料相比，较高的热导率决定了其高电流密度的特性，较高的禁带宽度又决定了SiC器件的高击穿场强和高工作温度。其优点主要可以概括为以下几点：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslsrq1WXAYb8Va7M7TjibxMu96YR3vwvRT9EehVwrne80LEPH1kviaRU1SQjtjcSLaYJK2OMz2Zz7cA/640?wx_fmt=png&from=appmsg)
+
+1) 高温工作：SiC在物理特性上拥有高度稳定的晶体结构，其能带宽度可达2.2eV至3.3eV，几乎是Si材料的两倍以上。因此，SiC所能承受的温度更高，一般而言，SiC器件所能达到的最大工作温度可到600 ºC。
+
+2) 高阻断电压：与Si材料相比，SiC的击穿场强是Si的十倍多，因此SiC器件的阻断电压比Si器件高很多。
+
+3) 低损耗：一般而言，半导体器件的导通损耗与其击穿场强成反比，故在相似的功率等级下，SiC器件的导通损耗比Si器件小很多。且SiC器件导通损耗对温度的依存度很小，SiC器件的导通损耗 随温度的变化很小，这与传统的Si器件也有很大差别。
+
+4) 开关速度快：SiC的热导系数几乎是Si材料的2.5倍，饱和电子漂移率是Si的2倍，所以SiC器件能在更高的频率下工作。
+
+综合以上优点，在相同的功率等级下，设备中功率器件的数量、散热器的体积、滤波元件体积都能大大减小，同时效率也有大幅度的提升。
+
+碳化硅（SiC)器件的应用场景
+
+目前主要应用于以下领域： 
+
+新能源汽车：主驱逆变器、车载充电机（OBC）、直流快充桩； 
+
+光伏与储能系统：组串式逆变器、储能变流器（PCS）； 
+
+数据中心与通信电源：服务器电源、UPS不间断电源； 
+
+轨道交通：牵引变流器、辅助电源； 
+
+智能电网与能源基础设施：固态变压器、高压直流输电（HVDC）； 
+
+工业电机驱动：高频变频器、伺服驱动器； 
+
+航空航天与国防：高功率特种电源、机载电源系统； 
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslsrq1WXAYb8Va7M7TjibxMuaI3j3XXe2PgBFYwMPem0iczicEL3dTlCKvFENjktwVEm7wCIRnQkjMRg/640?wx_fmt=jpeg&from=appmsg)
+
+随着技术的成熟和成本的降低，SiC MOSFET器件正在逐步替代传统的硅基IGBT和MOSFET，成为高效、高功率密度系统的首选。
+
+正文推荐
+
+最近在阅读机械工业出版社发行的《碳化硅MOSFET封装、驱动及应用》一书，分享给从业电力电子相关的工程师们，让其了解碳化硅MOSFET特性及应用，为其方案设计带来便利。这本书成为工程师们的“碳化硅时代”生存手册。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslsrq1WXAYb8Va7M7TjibxMuK3c4YWwCUAFtD0INAFu0iayG86icYdtqAkuMz2zyESBnT4iaj28Hbfficw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslsrq1WXAYb8Va7M7TjibxMuoicxgsSCdbF0ILwloQGbOPCFVBtbHNd5O32KKuia58XpB0eP0nwQVsmQ/640?wx_fmt=jpeg)
+
+**来自工业一线**
+
+《碳化硅MOSFET封装、驱动及应用》系统地介绍了碳化硅MOSFET在应用中的关键技术要领及核心问题，重点在于碳化硅MOSFET的封装、特性及测试和驱动，具体内容包括碳化硅器件概述、功率器件封装基础、静动态特性、短路及串并联特性、应用问题及解决方法、栅极驱动和新型栅极驱动等内容。本书内容设置注重前后知识的衔接和逻辑关系，构建系统性知识框架。书中内容主要针对碳化硅MOSFET，但是部分内容如封装共性理论基础、特性测试、驱动设计等也适用于硅IGBT/MOSFET或氮化镓HEMT。
+
+本书入选了“中国电工技术学会青年学者高水平学术著作出版工程”以及“机械工业出版社高水平著作出版基金项目”。
+
+点进查看图书详情
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PxZSaHztnMQ9cLicxbUKVpialTgIoP6qtQlclX6uoia7HyYQIrvLV6odfw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=0)
+
+  
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PhMxIaSXsyMAEnib2oicTRqA8iadwWdPdo6W62oEutPWIWuLG1foUxPuibg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=1)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PWSZjN44SKJiaiag15kAdyia1kB2JA0c61PDiaFXrnibcLBVBrjD0Ed3uEkw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=2)
+
+  
+
+### 编辑解读：为什么这本书是你技术跨越的必选项？  
+
+不止于“是什么”，更透彻讲解“为什么”与“怎么办”：它从半导体物理与封装基础讲起，帮你建立根本性的认知模型。但核心篇幅全力聚焦于动态特性、短路可靠性、串并联难题这些教科书避而不谈、却是工程成败关键的核心痛点。书中对电压/电流变化率（dv/dt, di/dt）引发的振荡、串扰、过冲等问题的机理分析与解决方案，堪称工程师的“避险宝典”。
+
+封装与驱动，双轮驱动系统可靠性：独家深入剖析封装寄生参数（电阻、电感、电容）对性能的致命影响，并专章详解栅极驱动设计与先进的有源栅极驱动技术。这不仅教你如何选型，更教你如何设计和优化，确保碳化硅的潜能被安全、极致地释放。
+
+深厚的工业血统与权威背书：本书系“十四五”国家重点出版物，并获中国电工技术学会与机械工业出版社双重基金支持。编写过程得到阿肯色大学Alan Mantooth教授、宏微科技董事长赵善麒博士、哈尔滨工业大学徐殿国教授、浙江大学盛况教授、武汉大学查晓明教授、合肥工业大学张兴教授等多位国内外学界产业界顶级专家的倾力指导，确保了内容的前瞻性、系统性与极高的工程实践价值。
+
+### 主要内容
+
+-   第1章 碳化硅器件概述；
+    
+-   第2章 功率器件封装基础；
+    
+-   第3章 静动态特性； 
+    
+-   第4章 短路及串并联特性； 
+    
+-   第5章 应用问题及解决方法； 
+    
+-   第6章 栅极驱动；
+    
+-   第7章 新型栅极驱动；  
+    
+
+  
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PDfV9zgpXEUNehEYWcSeRHkj0vpVSKoeyvRiajqtdEfmoHISMuT5t7mQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=3)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PksZZeylKETm2fouMTqiaiaNiaQHRKy9ayjV4EFmoaNic02NqnTpUPHKYQw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=4)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PTU8FOJMSLNn5Z4qrNUGiaEW3uFz9Q5NutscV3sC1mIAB4sbNDicjXcAw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=5)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PgnjvDn8bicb3DEZUjEdIJC9BJ54GGVGQ62nPrBpBtR1NnoVgiaaDHEWg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=6)
+
+  
+
+  
+
+  
+
+  
+
+下滑查看图书目录
+
+### 关于作者
+
+赵爽，博士，本科及硕士毕业于武汉大学，博士毕业于美国阿肯色大学。2019年加入英飞凌美国公司，担任汽车业务应用工程师，为汽车整机厂及Tier1供应商等提供技术支持。2022年加入合肥工业大学任职副教授，主要研究功率半导体器件特性测试、驱动、及其新能源应用。
+
+李贺龙，博士，本科和硕士毕业于哈尔滨工业大学，博士毕业于丹麦奥尔堡大学。2016年加入英国丹尼克斯半导体公司，担任功率半导体模块首席研发工程师，2019年加入CREE欧洲公司，担任功率模块专家。2021年加入合肥工业大学任教授，主要从事功率半导体封装及电力电子应用相关研究工作。
+
+吴义伯，博士，毕业于上海交通大学，2010年加入中车时代半导体有限公司，2011年加入英国尼克斯半导体公司，历任教授级高级工程师、技术专家，2021年加入武汉大学任职特聘教授，2023年加入常州芯动能半导体有限公司担任总经理兼技术总监，主要研究塑封功率半导体集成封装技术、互连可靠性及其产业化。
+
+丁立健，博士，毕业于华北电力大学，1999起在华北电力大学工作，2006年任电气与电子工程学院副院长，2008年调入国家自然科学基金委员会工作。2018年加入合肥工业大学，任电气与自动化工程学院院长，2022年任合肥工业大学副校长。主要研究电工材料与绝缘技术、功率半导体器件封装集成与可靠性、雷电与电磁脉冲功率技术、在线监测与故障诊断等。
+
+### 本书的三大优势
+
+1）系统化的知识框架：打通从器件物理、封装到驱动应用的任督二脉，告别知识碎片。
+
+2）真实世界的解决方案：直接针对应用中的电磁兼容、可靠性、并联均流等棘手问题，提供经过验证的设计思路与方法。
+
+3）面向未来的技术视野：涵盖平面栅与沟槽栅芯片技术、先进封装展望及新型驱动策略，让你从容应对技术迭代。
+
+  
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibfzylYSJo85xBeyNfYQovCk8vhCSfZamOlhR6vBsyl7bLOiaFhgm81gRyBSl70QznYCciaZ9NHGHUWg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=7)
+
+**下滑查看图书内容**
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PzS9Vy2Xpiaoq9oBEficlia7H7JCJCJDXWcic3MTWfktuUHw7FLtlEGUdbg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=8)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PWtZHUibk3QQfEMyt8R9NibZZEEsQkDg6sMyAudo9WgDHFabXJ2ibm4UAg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=9)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PzFT2icVCEVm9XzkLJPa7g6btOIgxz8VQqTh719mU5Ogtk1q9mF3vdRg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=10)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/leicQ2a3NFibeGxjFcbXrkaZTGQt4iazx7PThZybkC0Qhrn479iatr2lXrAfNxJvPiaQ6eaaQdXFTzpFFiapeKjH1kSw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&watermark=1#imgIndex=11)
+
+  
+
+  
+
+  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslsrq1WXAYb8Va7M7TjibxMukiaTJ7bjqkSR6oPQCyibwKcL7xwPtwvPm7cLRBtltiaqibM1qCwgyBGSYw/640?wx_fmt=jpeg)
+
+  
+
+* * *
+
+  
+
+注明：  
+
+【版权声明】：本公众号平台注明来源或转载的文章，版权归原作者及原出处所有，仅供大家学习参考之用，若来源标注错误或侵犯到您的权利，烦请告知，我们将立即改正或删除。
+
+【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbViciakK6zIjF5qlcSnF1iavjkjHMxt7kkQL56t2I0VkMMGPHAlYCdcic10UQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbViciaeWPoukpPSoodzkAIEebeRqm1uPL6FbiaWJpjkn1uQXDBpck2ibQk5pA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbViczk316DvZLAIY5ODl8oOr06x638bzC5wceE3licVx8yia9wdFO7GB1bnQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmTSJ1ibyXa5h37ucguErbVicbz7NgK7j4g1MCoaClV4h1ic8eof2OicIvGKvhVLkyjc7LGo5V6Q8sWaQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)

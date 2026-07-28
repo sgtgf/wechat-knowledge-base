@@ -1,0 +1,264 @@
+# 74款SiC车型亮相北京车展，加速碳化硅器件在新能源汽车中应用成熟化，技术大众化
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/lqYUdoHkOfvBQFQDY-wWIg](https://mp.weixin.qq.com/s/lqYUdoHkOfvBQFQDY-wWIg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWCW5aoYLOWy8TKgrln33ia2PD6ahViatyiaBIMstalfZKOxsxW2icHcofMg/640?wx_fmt=png&from=appmsg)
+
+4月25日，第十八届北京车展正式开幕，根据官方信息，展会上的新能源车型达到278款。据《中国电子报》记者不完全统计，此次车展中展出的配备碳化硅的车型74款，除了上市不久的小米SU7、智己L6、华为智界S7及问界新M5，奇瑞星纪元ET、玛莎拉蒂GranCabrio Fulgore等新车型也均配备碳化硅器件及系统，“含SiC量”成为新能源汽车比拼的一大指标。可以确定的是，碳化硅正受到越来越多新能源汽车厂商的重视。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWgW6KwcDf6ygHEtYJZc61Hq5ArQ8PX94HLa26rKzXum1SngVj35QSog/640?wx_fmt=jpeg&from=appmsg)
+
+在新能源汽车性能稳步提升的过程中，碳化硅器件正在与更多新能源汽车、更多功能器件实现深度融合，而此前备受关注的成本问题也将在碳化硅晶圆从6英寸向8英寸的过渡中得到改善。种种迹象表明，车规级碳化硅市场正在加速走向成熟。  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWhC5IgrhDyx7S2J8ibtyTx3OO0j73Ms0YrjQibj8VxyHAiaOB7IN7j2ARQ/640?wx_fmt=jpeg&from=appmsg)
+
+我国纯电动车企希望基于 800V 超高压充电平台解决 " 补能焦虑 "。特别是进入 2023 年，小鹏、智己、理想、阿维塔、埃安、蔚来、极氪等品牌发布的新车型和技术，都涉及了 800V。值得注意的是，不同于以往 800V 超高压平台大多为价格较高的高端车型专属的现象，眼下，800V 正逐渐出现在 20 万级车型上。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWIPrlKVAuZKcROuP3icB8an0CxiagaCs5s9WBoLxBbOBwP4s1cPFTL9Rg/640?wx_fmt=jpeg&from=appmsg)
+
+800V超充即将加速：华为数字能源携手阿维塔、北汽、比亚迪、长城、广汽、合众、江淮、理想汽车、奇瑞、赛力斯、小鹏等首批11家车企、线上线下500多家充电运营商见证了“超充联盟”的成立。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWLAgVwrOXMiawjIryzIbAzRC2DKpjSSwic0SXPKWZ3dUjeE06NCsmibe4g/640?wx_fmt=jpeg&from=appmsg)
+
+**一.  新能源汽车，看中国速度（**碳化硅车型、电驱、超充、碳化硅飞机等新产品简介）。****
+
+**1\.  小米SU7：3款碳化硅电驱+液冷充电桩亮相**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWmOvGut8mWfiagH6cpAwnZDD8fiazjEVo0cULh6OkvNhHtlneIy6L2zDw/640?wx_fmt=jpeg&from=appmsg)
+
+小米汽车首次亮相北京国际车展，小米汽车展示了碳化硅相关的4个零部件，包括600kW的液冷超充桩和3款碳化硅电驱。
+
+小米SU7共有3个版本，分别是搭载400V电驱平台的SU7标准版和SU7 Pro版，以及搭载800V电驱平台的SU7 Max。其中，小米SU7的四驱版（SU7 Max）搭载的是汇川联合动力的SiC电驱；其两驱版（SU7标准版和SU7 Pro）搭载的是联合汽车电子的400V SiC电驱。  
+
+**2\.   比亚迪：携12款碳化硅车型现身**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWbvtlLBVRibvkA1fnAp43cZfP7uhYgjicZjcLzwESevoia9fFRo0X3qOAg/640?wx_fmt=jpeg&from=appmsg)
+
+本次车展，比亚迪旗下的海洋、仰望、方程豹和腾势4大品牌都展示碳化硅车型。
+
+海狮07EV提供单电机以及双电机四驱两种动力供选择，其中单电机提供170kW、230kW两种功率，双电机四驱版前后电机最大功率分别为160kW和230kW。单电机版续航分别为550km和610km，四驱版则搭载80.64kWh电池组，续航550km。  
+
+海鲨Shark基于DMO超级混动越野平台所打造，最大输出功率为194匹马力，2.0T版本则达到了245匹马力的水平；此外，在实现高性能的同时，DMO系统也实现了低能耗，电控和发电系统控制器全系标配SiC芯片，效率可达99.5%；亏电综合油耗为7.8L/100km，综合续航里程可达1200km，纯电续航或在100km上下。  
+
+豹5将加推新版车型，自2023年11月上市以来，豹5累计交付近2万辆，豹5搭载比亚迪DMO平台，该平台包含纵置EHS电混系统，该系统采用了SiC器件，峰值功率为200kW的驱动电机，工作效率达到99.5%。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWM0khXJ4z5FNsMaT3eWLpTdZYjhT28f6V7noicxYnYpnFCJJ6IgMLCpg/640?wx_fmt=jpeg&from=appmsg)
+
+仰望汽车携旗下仰望U8、仰望U9、仰望U7亮相。仰望品牌全系车型标配“易四方”技术，而全新一代SiC电控技术的也是“易四方”平台的一大亮点，最高效率 99.5%。以更高的运算能力和控制速度，实现电流输出能力提升 50% ，功率密度提升 100% ，整车工况效率提升 3% 以上。  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWELJX16gTmZgfPibrW4TRnC6JlZFPxxqq41dMKHUeX1o8y5cD86fJOAw/640?wx_fmt=jpeg&from=appmsg)
+
+腾势Z9GT装备了三台驱动电机，整个系统的最大马力高达985马力，从零加速到百公里的速度仅需3秒钟。新款腾势N7采用全栈800V碳化硅高压平台，搭载全球首款量产八合一高性能碳化硅电动力总成，四驱版配合SUV专属高性能双电机四驱架构和前后双电机驱动，动力系统最大功率390kW，最大扭矩670N·m，0-100km/h加速时间3.9s。  
+
+**3\.  华为鸿蒙智行：4款碳化硅车型亮相**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWeLYjcElzicuT98wIkOu631XaOWrROSVfsRvSpdbMNwfduQLCmTu2RQg/640?wx_fmt=jpeg&from=appmsg)
+
+华为-鸿蒙智行携全新家族阵容参展，主要碳化硅车型包括：问界M9、智界S7、问界M5和享界S9主力车型组成 “全明星”产品矩阵亮相。
+
+                                               ![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWt81pkjaHsAArDFQ8vRLjFsuNylyazFDZBBhe4WSK5TphoCFjGFsFIA/640?wx_fmt=jpeg&from=appmsg)  问界M9
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWoKolga3Aogj57g5RFko0He8tB2NDZEcH1Uo3gFPclbreOqwtl6UicJg/640?wx_fmt=png&from=appmsg)智界S7
+
+**4\.  吉利汽车：超20款车型亮相，展示SiC/IGBT混并电驱**  
+
+本次车展，吉利汽车旗下的极氪、极星、极越、Smart、路特斯、银河等品牌都展示超过20款碳化硅车型。不仅如此，吉利汽车还展示了自研的碳化硅混合驱动集成、GEA全球智能新能源架构、银河11合1智能电驱、AI数字底盘等数十项造车科技。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWiaaiaR0OicTo2FTLuSH4nw2CKmV3ibZrt1dHS0hflsib5ia7Ey3AQATr7AZg/640?wx_fmt=png&from=appmsg)
+
+吉利的碳化硅混合驱动集成技术，与特斯拉的新一代电驱具有“异曲同工之妙”——节约75%的碳化硅用量，吉利想借助这项技术，让碳化硅普及到更多的车型。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPW9d9H6318TIP2TCBgloyYznw0cWmRMxoOHtUS89z62E3S46QySRBPJQ/640?wx_fmt=jpeg&from=appmsg)
+
+**5\.  蔚来：8款碳化硅车型亮相**  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWtdPkUBwM4J7bWpyyjAORABt42xAXS3xK9bQHTXw7ZZYPiceBahDMZMg/640?wx_fmt=png&from=appmsg)
+
+4月25日，蔚来携旗下8款2024款车型在北京车展集体亮相，其中智能电动高端行政轿车2024款ET7行政版宣布正式上市。  
+
+ET7行政版共推出4款配置，搭载碳化硅高效电驱平台，标配智能双电机四驱系统，最大功率480kW，最大扭矩850Nm，0-100km/h加速仅3.8秒。搭载三种电池包，分别为75kWh、100kWh以及150kWh，CLTC续航分别为550km、705km以及1050km。
+
+**6\.  小鹏：4款碳化硅车型+碳化硅飞机亮相**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWHcgUFws7bJKbFOloP1pG5qicBgOINYOY7xpTFRKZS4VMYFJByeKKvbQ/640?wx_fmt=jpeg&from=appmsg)
+
+4月25日，小鹏汽车携旗下小鹏X9、G6、G9、P7i亮相，此外，小鹏汇天“陆地航母”分体式飞行汽车首次亮相。此次发布会上，小鹏汽车还宣布其800kW液冷S5超快充，将于2024年Q3全面升级，补能速度将达到行业领先的“1秒超过1公里”，极大提高车主的出行效率和补能体验，解决用户的续航焦虑。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPW0ngiaM6iaF2SAxInjej2qMns8y6QfRGicutgZmRqMyLMTUczukgJB08pA/640?wx_fmt=jpeg&from=appmsg)
+
+**7\.  奇瑞汽车：携2款碳化硅车型亮相**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWDIJuoRJl2WIfSWu5kaLKFT8pZkGoaic3hBSJlAHLcCYysUqN87dDibqQ/640?wx_fmt=jpeg&from=appmsg)
+
+4月25日，奇瑞集团旗下奇瑞、星途、捷途、iCAR四大品牌携25款重磅车型参展。其中，奇瑞星途表现亮眼——展示了E08概念车、星纪元ET等明星新能源车型。  
+
+**8\.  广汽：埃安、昊铂展示4款SiC车型**  
+
+展览会上，广汽集团旗下整车品牌广汽传祺、埃安、昊铂、广汽本田、广汽丰田将展出崭新车型，秀出更多前沿黑科技。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPW32MicruLeGSjMxxMlheRjt5IKjqibWz8ZVV4oWcfrNxFzHhoibGk7ghicQ/640?wx_fmt=jpeg&from=appmsg)
+
+**9\.  东风汽车：发布沟槽栅SiC MOS电驱、碳化硅超充**  
+
+**![](https://mmbiz.qpic.cn/mmbiz_jpg/LvpTvIKCWVmbLnEfSgN6b0o1zh9WhdXZIexgGibOcgDWykUndUcUZVvYDyia7ibkeJgXplibYkAgp5fIsUDWLpQKAw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)**
+
+北京车展前夕，岚图汽车举行春季技术沟通会，岚图发布了2项碳化硅技术。
+
+包括全新岚海动力系统，该系统搭载了自研的800V碳化硅平台，CLTC工况下效率达到92.5%，同等电量下能多50km续航；碳化硅平台搭载最新一代TMOS+ 160纳米级精细沟槽栅芯片技术。此外，岚图还自主开发了5C超级快充技术和800V碳化硅高压平台，并通过这项技术实现了充电10分钟增加450公里的续航能力。
+
+**10\.  零跑汽车：C16全球首秀**
+
+**![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPW1HX3gNOc7jWrfCnyX4Lu2H1Fl1IZSuOf50yWdDSCswU6IV1IUHGnLg/640?wx_fmt=jpeg&from=appmsg)**  
+
+零跑C16和首款全球化产品C10、全新C11、全新C01及全新T03齐聚2024北京车展。其中，零跑C16迎来全球首秀，并同步开启预售。据介绍，零跑C16是一款六座SUV车型，搭载了零跑自主研发的LEAP3.0最新旗舰技术，拥有行业领先的800V黄金动力总成（CTC电池+碳化硅电驱）、旗舰座舱8295，可为消费者提供了极致的驾驶体验。
+
+**11\.  红旗汽车：EHS7首秀**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPW5EDpmQOJWoOfK1dfPuKnpXDrNLq3HVf8TqtpdEbiagT5R64ymsyicb0A/640?wx_fmt=jpeg&from=appmsg)
+
+红旗新能源品牌首款战略车型——红旗EH7正式上市，该车搭载前后碳化硅电机，总功率达455kW，峰值扭矩更可实现756N·m，0-100km/h加速仅3.9秒。  
+
+**12\.  北汽：4款碳化硅车型发布**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWv1x9RWHjoE5bab6zOricL6SXAgXpusloPxOSwheLpcPGyvkwosd1X4Q/640?wx_fmt=jpeg&from=appmsg)
+
+北汽集团展出极狐阿尔法S5、享界S9、BJ40魔核电驱版、BJ60电驱版等4款碳化硅车型。
+
+作为极狐旗下新款纯电动车型，极狐阿尔法S5叠加多方面创新技术——该车采用全域800V高压架构，具有先进的碳化硅电驱系统、8层扁线圈电机设计，76000平方毫米双面翅片散热结构等，配合第四代极锋动力双电机，可实现530匹马力、390kW峰值功率、690N·m峰值扭矩、零百加速3.7秒等效果。  
+
+全新BJ40魔核电驱版则更专注于越野场景，搭载了大功率电机、碳化硅电控、前后电驱桥带电机专用锁和敏捷中锁、高倍率放电、高效率补能、智能越野辅助。据精进电动，北汽越野BJ60e车型的后驱系统就搭载了基于碳化硅的250kW三合一总成产品。  
+
+**13\.  哪吒汽车：哪吒S猎装版官宣亮相**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWnbzX34WvibohQAdiaricSxW5iaGMhUYHD5sRNrZd440qcp1S20ZG61qp0Q/640?wx_fmt=jpeg&from=appmsg)
+
+哪吒汽车在北京车展前夕举办了哪吒新车的上市发布会，并宣布哪吒L和哪吒S猎装版在北京车展上首次亮相。哪吒S猎装版纯电版则将采用800V高压架构搭配SiC碳化硅多合一电机，后驱版车型的最大功率可达到250kW，为驾驶者带来强劲的动力体验。  
+
+**14.  创维：EV6 Ⅱ量产上市**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPW2q8Zq6ra9t8pZrJzXqgLURYYWQoPhXGsYjaym49TuDfnbLflBMGcYg/640?wx_fmt=png&from=appmsg)
+
+创维汽车携全新车型创维EV6 Ⅱ超充车型及系列创新技术亮相。该车型搭载行业领先的全域800V超充技术，在充电效率上实现了质的飞跃。此外，创维EV6 Ⅱ超充车型还是业内首款支持100千瓦直流放电的车型，有望颠覆充电桩补能垄断。
+
+“行家说三代半”了解到，创维EV6 II的碳化硅技术来自钧联电子，搭载产品为钧联电子自研自制的800V碳化硅三合一电驱总成（250kW），采用油冷扁线电机技术和全碳化硅功率器件，最高工作电压900V。  
+
+**15\.  上汽通用：发布别克GL8陆尊PHEV**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWlXxBiaUjic65PK4PWmCArGHnRN4wrJ9QYTGgW5XrdZuvficNq4HUsW42A/640?wx_fmt=jpeg&from=appmsg)
+
+上汽通用汽车别克品牌迎来2024年度品牌日，并重磅发布长全新GL8陆尊PHEV搭载CTP电池架构、准900V高压平台、5C倍率电芯、固态电池、碳化硅电驱等纯电新技术，拥有292kW综合功率和580Nm综合扭矩，CLTC综合续航里程高达1370km，并拥有7.8s零百公里加速以及5.2s的80-120km/h超车加速，动力表现同级领先。  
+
+**16\.  江汽集团：发布DE-FINE概念车**
+
+**![](https://mmbiz.qpic.cn/mmbiz_png/LvpTvIKCWVmbLnEfSgN6b0o1zh9WhdXZETQJnHdhUWgzOiaicyAzmWdbPtqXJspm073cUk43zkpPTOq5mGljlbNg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)**  
+
+在2024北京车展期间，江汽集团发布了技术愿景概念车：DE-FINE。这款车展示了江汽集团接下来的新技术方向，包含智能架构、整车FOTA、动力组合、快充、线控底盘等诸多方面。动力方面，该车使用的架构支持电动和混动，驱动形式包含两驱和四驱，电池可充可换。它的碳化硅电机总功率达到460kW，峰值转速可达到22000转/s，0-100km/h加速在3秒之内。它使用的是800V架构，配备4C电池。
+
+**二.  碳化硅器件优势**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWf6oukbVvZTibfLTw1ViaiakvLzbpoBRiaRCLp5w58T1JAdcVibToPicZMXibA/640?wx_fmt=png&from=appmsg)相比硅基半导体，碳化硅具有更高速的开关切换、更低的开关损耗和更高的效率，更低的杂散电感，可以实现简化的冷却系统，可以在更高的电压和频率上工作，能够实现电池的小型化。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWzX5YqMyECyUm0QXddKS0hIsSX4zhTRr3giab8icBexib0e1j4CNkxouqA/640?wx_fmt=jpeg&from=appmsg)
+
+特别是在新能源汽车上，使用碳化硅器件可以使用电压系统，把电池体积做得更小，同等体积下提升续航，这正是新能源汽车目前阶段最重要的痛点。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWAOHe80yLcv9fI2LxEYExmgjqMVYXj4TISQwq6WIvGkxHib1b7Co6nTQ/640?wx_fmt=png&from=appmsg)
+
+上图中，左边可以看到所有可以用上碳化硅的零部件，在一辆汽车中，有充电桩，充电器，高压电池，逆变器、电机、低压电池和直流交流转换等。
+
+其中对碳化硅最重要的零部件，也是用得最多，市场份额最大的是逆变器。80%碳化硅市场是新能源汽车，20%是光伏和工业应用。这80%中的80%是逆变器，因此大部分碳化硅芯片会用在逆变器上面。  
+
+如果用传统的IGBT和逆变器，续航可以提高5%，这个提升不明显，价值可能不大。  
+
+如果用800V电池加上碳化硅逆变器，续航会提升12%，这种提升效果将比较大。  
+
+因此，碳化硅在提升续航方面可以作出很大的贡献。  
+
+同时，使用800伏和碳化硅逆变器还可以加快充电速度、提高转换效率。从20%电量充电到80%，用碳化硅方案只需要10-20分钟时间。转化效率相比传统器件也能提高10%。此外，使用碳化硅技术能够省掉很多高压线缆，使车辆变得更轻。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWCP2LzDCqwHpFxcBibia0hZcHFU7EdCsWn7ibesUIFXwEHAB8aZjc1R68A/640?wx_fmt=png&from=appmsg)  
+
+碳化硅一直与新能源汽车“双向奔赴”，二者联系十分紧密。碳化硅器件在高温、高压、高频等方面的优异性能与消费者对新能源汽车快充和续航方面的需求相吻合，并逐渐成为新能源汽车逆变器及充电设备的首选材料，融合程度持续加深。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPW8l6Loibo7qxfibcf4noFRicibZjWNLGbB8RpLbLNVCG5XJOaaQ15ictxeibg/640?wx_fmt=jpeg&from=appmsg)
+
+当前碳化硅器件在新能源汽车中的主要应用场景包括OBC（车载充电器）、DC/DC、主驱逆变器等。“主驱逆变器更注重器件的导通电阻、短路耐受能力和高可靠性，而OBC和DC/DC更关注器件的高频开关性能和效率，以便提高功率密度进行多合一的集成。此外，碳化硅器件还可能应用于PTC、空调压缩机等其他电子系统。据了解，采用碳化硅的空调压缩机可极大提高电动汽车的热管理能效，提升空调压缩机的NVH性能（噪音、振动和声振粗糙度），在推动电动压缩机系统小型化的同时进一步降低成本。  
+
+**三.  爱仕特碳化硅器件产品线**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWmkZPsXMSBPJaR4pnzgEyuNlWn1kdicdOvQvfNvcaxpG9GqZuB2ROpwg/640?wx_fmt=jpeg&from=appmsg)
+
+**1\.  芯片：**  
+
+**自主设计碳化硅MOS芯片，采用6吋芯片研发和生产碳化硅MOS单管和模块，耐压650V-1200V-1700V-3300V,电流：1A-150A,自建晶圆厂。**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWkLZibsDLvAOx7DBYIkyTlLkpBukPhyKZia9rj0cgzpFxExkza6Pck4EA/640?wx_fmt=jpeg&from=appmsg)
+
+SiC的市场还处于爆发的前夕。从实际情况上看，目前多数SiC都采用的4英寸、6英寸晶圆进行生产，而6英寸和8英寸的可用面积大约相差1.78倍，这也就意味着8英寸制造将会在很大程度上降低SiC的应用成本，因而，SiC何时才能迈进8英寸时代也成为了产业聚焦的热点之一。
+
+随着8英寸SiC的到来，8英寸SiC可能会为产业带来以下几方面改变：
+
+1.价格进一步降低：8英寸SiC量产后，器件价格相比于6英寸SiC进一步降低。
+
+2.市场进一步发展：随着价格的进一步降低，碳化硅产品将进入更多的市场。
+
+3.竞争进一步加剧：小尺寸（4英寸）碳化硅晶圆厂将逐步因为成本原因被淘汰。8英寸是目前硅基功率半导体的主流尺寸，当8英寸碳化硅成为市场主流后，更多的硅基半导体巨头将加入碳化硅的竞争中。
+
+4.核心技术重要性凸显：随着技术不断发展，因为性能差距造成的成本差距将更为明显，技术能力相对薄弱的厂商将被逐渐淘汰。
+
+**2\. SiC MOSFTE**
+
+**采用自主碳化硅MOS芯片，研发和生产碳化硅MOS单管，耐压650V-1200V-1700V-3300V,电流：1A-150A。产品封装全，可定制产品规格。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPW7YYK8ErATbXMZTfBcQx6aG57QDQInDr5EFHK8tiaNibLtU6lUfcaEVuw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWLmyPEAGqw0HDCSVcjx1Lbt7UqfOfbzibrfxxAW6icrrkM69UsEo8Uicgg/640?wx_fmt=png&from=appmsg)
+
+**3.碳化硅功率模块**
+
+****采用自主碳化硅MOS芯片，研发和生产碳化硅功率模块，耐压650V-1200V-1700V-,电流：30A-800A。产品封装全，可定制产品规格。****
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWfJmcoWO1ZLdAicGQBzj0icgMEW2qCoV8X6fbb84SxmgTw6UaCKyjPmNA/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWUbQX7IoWa1ib9MhCiaN65sd725PZFyDwhzdwSEwwv8A4A4cJKjnSoFPQ/640?wx_fmt=png&from=appmsg)三相全桥HPD封装模块，配套驱动板
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWV1pGpy3D1MFJotPVhiaS81HgPSBV9xsfOnS5evrxhzS0RHicJ29IE5SQ/640?wx_fmt=png&from=appmsg)半桥DCM封装模块，配套驱动板
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWiaSnJmn6XibJ20lrRxCdU6UgW9l1lvM8vqfCGBoa5jYicXNRADOKTv0Jw/640?wx_fmt=png&from=appmsg)三相全桥DWC3封装模块，配套驱动板
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWaVeoJhGL6RgwOKRwbhiaOFPeKS5LdmDUBsQfzT91fpzFIVRVa4WRmEQ/640?wx_fmt=jpeg&from=appmsg)半桥Econodual封装模块
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWibH1cIp7ibe6okrCxPFoHzllqsocSO91A1AVJeGY47Q51r9OH7dABw8A/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWC6xpGCfh5OQxOttL9CzO9r7JAz0eSA1X06pibDyOTkof5PgnCKlAJLw/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPW8icF57ibwRcr66gkicREia0ETDnpTqlL6kcosG1w9BcddqphUQjHibXtA4Q/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPW0t8Nib7TIyw4NJPgUoVZib14EwIO3icBwVxCOatOrJ4jzwMekCwmT7ianQ/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWhlKr4XiafDrPqLgSSTTaskNsuTLBtwkmvyR7Qv0OiaDcheeyAtod94Tg/640?wx_fmt=jpeg&from=appmsg)
+
+4**.碳化硅器件的应用**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPW7qNXpuicEn1hsTQc45gBqqtQrOsSDEibNPqSsZWezL8bHq12IibNV1doA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPW2BP4HU1LGppB2zL0iatibafD9qbwtGOUdUpXuRjxQ2ia6AWuUxziaJPIDw/640?wx_fmt=jpeg&from=appmsg)  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWuickAiaeGjuSldAstBfsUicBrMLZuZxs3xeIFVM4VAibcHczZMYBNAcaUg/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWAknohhyFHkS7qZPatXsMH1hTxZgfnjWQT7lE7ibwOnu996tib2SlQiayg/640?wx_fmt=jpeg&from=appmsg)
+
+**5.产品与优势**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPWC4SwbAjBztBflR7OH27DruTb4RXzzZSUTe4YmctOZ7QZicmTpc8CTog/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmchuHKsvFbHkJyCbPp4zPW6ibDGJa64fPd1nicp0uZ9e4BOfLDgC6OhwdVgHu7Idnl6yAgA9C8dUww/640?wx_fmt=png&from=appmsg)
+
+**随着节能减排.新能源汽车.再生能源发电.智能电网等领域的快速发展，电源和电控模块等行业对功率半导体器件的性能指标和可靠性的要求日益提高，要求器件有更高的工作电压.更大的电流承载能力.更高的工作频率.更高的效率.更高的工作温度.更强的散热能力和更高的可靠性。碳化硅功率器件能够大幅度提升电子器件的高压.高频.高功率与耐高温等工作特性，在电源.工控.再生能源发电.储能.电动汽车与电网等领域具有非常大的应用前景。**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

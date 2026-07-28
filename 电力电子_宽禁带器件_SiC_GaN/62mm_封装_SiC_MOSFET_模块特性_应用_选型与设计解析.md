@@ -1,0 +1,416 @@
+# 62mm 封装 SiC MOSFET 模块特性、应用、选型与设计解析
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/op0oxKnC\_uLeU2wcfYLQSw](https://mp.weixin.qq.com/s/op0oxKnC_uLeU2wcfYLQSw)
+
+62mm封装是工业中大功率电力电子通用标准化功率模块封装，行业统一底板宽度62mm，兼容全球主流散热器、叠层母排、驱动板；电压覆盖650V-1200V-1700V，电流 60A~600A，拓扑以半桥为主，有定制化共源极和斩波拓扑电路，是30kW~1MW设备从硅 IGBT 向全 SiC 升级的主力载体，批量落地于高频开关应用、DC/DC转换器、太阳能和风能逆变器、UPS和SMPS、电动车直流充电器、轨道交通变流器、固态变压器-SST、AI大功率电源等应用场景。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPlfTw7Wu7AfyBP4tAS3jfyzx3icEWxwdTn7cn05sgeuTGKiaNzFIK8kicsvhXtxX5y2616uUIPVia3YKGPZPBlDPK2esnibFU2BUqE/640?wx_fmt=png&from=appmsg)
+
+62mm模块应用场景图
+
+一、62mm 封装 SiC 模块基础结构与核心特性
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOKoZvdiaaNhjaE0h9awVlqUlD0j2eZYUXacPv1AibZ5E8K15EShmJLhpfia4oqCHOfc02P4AF4gkDvUpytM6n6ylib0jjbM1Idla4/640?wx_fmt=jpeg)
+
+62mm封装产品图（1700V600A）
+
+1\. 封装硬件架构
+
+基板与散热体系
+
+主流采用Si₃N₄氮化硅 AMB 活性金属钎焊基板，搭配加厚铜底板；对比传统 Al₂O₃氧化铝基板：导热提升 40%、热循环寿命提升 5 倍、抗热冲击能力大幅增强，适配 SiC 175℃长期结温运行；结壳热阻 RthJC 低至 0.06~0.12℃/W。
+
+内部低杂散电感布局
+
+内部对称层叠功率布线、集成开尔文栅极引脚，模块内部杂散电感 Ls≤20nH，完美释放 SiC 纳秒级高速开关，抑制电压尖峰、栅极振荡，无需大量 RC 吸收电路。
+
+标准化机械接口
+
+底板安装孔位、功率端子间距、爬电 / 电气间隙行业统一，可pin-to-pin 替换同规格硅 IGBT 62mm 模块，存量设备升级改板成本极低；功率端子支持叠层母排 / 铜排直连，适配数百安大电流传输。
+
+内置监测与可靠性设计
+
+全部集成 NTC 热敏电阻，实时采集基板温度用于过温保护；塑封材料满足 THB-80 湿热老化，绝缘耐压 4kV 以上，1700V 型号爬电距离≥30mm，满足光伏、储能、轨道高压安规要求。
+
+芯片工艺匹配 SiC 特性
+
+内部采用全银烧结 / 厚焊片工艺，无铝丝键合瓶颈；单模块集成多颗 SiC MOS 芯片并联，单管 Rds (on) 低至 12mΩ，覆盖 80~600A 额定电流，零拖尾电流、开关损耗仅硅 IGBT 1/3~1/5。
+
+2\. 62mm封装SiC 模块核心四大优势
+
+（1）功率密度碾压分立器件，系统小型化
+
+同等体积下，62mm封装SiC模块输出功率是硅 IGBT 的 1.8~2.2 倍；开关频率可从硅器件 8kHz 提升至 100~200kHz，电感、电容体积缩减 50% 以上，整机重量、柜体体积下降 30%~50%，尤其适配车载、轨道、超薄储能柜空间受限场景。
+
+（2）热管理简化，冷却成本大幅下降
+
+SiC 开关损耗极低，满载发热功率降低 40%~60%；62mm 大面积铜底板可适配风冷、水冷、水冷板多种散热方案；中小功率可取消水冷，仅强制风冷即可长期满载，散热器重量、水泵、散热耗材 BOM 显著降低。
+
+（3）系统寄生极低，EMI 与可靠性双重提升
+
+内部对称低电感布局 + 开尔文栅极分离驱动回路，硬开关工况无严重米勒震荡，桥臂误导通风险大幅降低；波形边沿干净，EMC 滤波器件规格减小，整机安规调试周期缩短；多芯片内部并联，动态均流一致性远优于外部多颗MOSFET分立并联，无单管过热失效隐患。
+
+（4）标准化通用平台，规模化降本
+
+全球厂商全部量产 62mm封装SiC 模块，引脚、尺寸、安装完全兼容；存量硅设备直接替换，无需重新开发散热器、母排、结构件；大功率场景单模块替代 6~12 颗 TO-247 分立器件，装配工时、PCB 面积大幅节约，量产综合成本更优。
+
+3\. 62mm 电压 / 电流规格覆盖表（行业通用）
+
+耐压等级
+
+适配母线电压
+
+主流电流档位
+
+典型应用功率区间
+
+650V
+
+单相 400V 母线（OBC、服务器、户储）
+
+80A~300A
+
+30~150kW
+
+1200V
+
+三相 800V 母线（快充、组串光伏、储能 PCS、DAB）
+
+300A~600A
+
+50~600kW
+
+1700V
+
+1500V 光伏、轨道直流、固态变压器
+
+300A~600A
+
+200kW~1MW
+
+  
+
+二、62mm 封装SiC MOS 模块参数介绍
+
+1.模块特性参数
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNRKsTBptgycngxYiacrFngWk4EfS1nArsCxoAVo7OG4gicEJ8JQiclhLDMraic7Ck9vFGDgOp7DtmqO96ZNT4icVgrB4fibrcTlgkto/640?wx_fmt=png&from=appmsg)
+
+62mm封装产品实物图
+
+采用全焊片工艺，Cu底板+低热值AlN绝缘陶瓷；
+
+高功率密度，低寄生电感，低开关损耗；
+
+适用高温、高频应用；
+
+ 参数范围：
+
+         **V****DS****：650~1700V**
+
+           **I****D****：30~600A**
+
+    **R****DS(on)** **：2~80mΩ**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNnlcoWhHefTbqH6m5QNgs4j2JjEjkZTWV0t3qCshPBIPC2fAIm69ibEcVjknxBM493Eq4ITY90qBSQgFQ6DSmNNLgdGAC2Mqtg/640?wx_fmt=png&from=appmsg)
+
+1700V600A模块关键参数表
+
+**2.模块拓扑图**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpNiarFNk3T1X0kp30Cmlg1iboLIlFXKCXibIPC9hgE1TFwuD5xpZQ4g02lpFUS4xSYfibUBQxibCzn7fib1LaNp41KA0HDibAqbVq8dI4/640?wx_fmt=jpeg&from=appmsg)
+
+62mm封装拓扑图
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPL9KHaNXwQF0DTUxTlsemm5ZkPNzl8XKib2OjBxVPXK9MdvML72oiaxZl7bky87F9Na0Gu5MKzzibrcJzCI3XiahvuLZKrCWvGV0Q/640?wx_fmt=jpeg&from=appmsg)
+
+62mm封装外并二极管拓扑图
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpNu2WsSV92cZibDwgE8EBQd1aKUTickQ8EZDouMouYZT1UFrThWLn2NcVDBVqib5VBHvOAkubQNibGTdkepF6RfJegRkM4Y9D4xiczM/640?wx_fmt=jpeg&from=appmsg)
+
+62mm封装共源极拓扑图
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpNu6aS4Yu8metaGhxqZxRvp50wADUeWS5icTfvV4bNA2wIxMRgy4WBlPQiaJj8PmcJHz8Bhm6QhcTfnyzc9H0b2D6ChBl4LaLmib0/640?wx_fmt=jpeg&from=appmsg)
+
+62mm封装斩波拓扑图
+
+三、62mm 封装SiC MOS 模块细分应用场景
+
+（一）光储充新能源赛道（最大批量市场）
+
+大功率直流快充桩（60kW/120kW/240kW 模块）
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMB0ptt4LWHM6XusibEkLJfg2C5Bu4vnRGVsFGoqT19tpK7Wv1EGQ3RtAicmN1PaIXjOPcX1xWXDzzeUyZ8J2pa6V89BA1v2KSrk/640?wx_fmt=jpeg&from=appmsg)
+
+图片来源：网络
+
+前级图腾柱 PFC + 后级 DAB 移相全桥，1200V 62mm 半桥模块为行业标准方案；单模块 360~540A，两模块并联实现 240kW 功率；高频 120~200kHz，快充模块体积减半，风冷散热满足户外高温工况，整车桩功率密度提升 70%。
+
+组串式 / 集中式光伏逆变器（30kW~1MW）
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMuvMjoDS7fFdYto8UmOMD2BwViaWt0EkTtKF07Vle5fVM2FEQ5883fF2BwxLnVP7eaAUg92YfDcHN2JWRBlHtlmoIFmUcoSaNk/640?wx_fmt=jpeg&from=appmsg)
+
+图片来源：网络
+
+30kW 以上机型弃用 TO-247 分立，统一采用 1200V 62mm SiC 半桥；MPPT Boost + 并网逆变硬开关拓扑，峰值效率突破 99.2%；1500V 高压光伏系统选用 1700V 62mm 模块，适配长串光伏高压母线，减少汇流箱数量。
+
+储能变流器 PCS、户用光储一体机、工商业 BESS
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNAuz59Ywo2lTWPboXJJTpQdlpFlZ9FWpAZn6mGticGFjW74f1u7ujQUCmgRlE9rZb3p8mITUNDkzlytJ6PlhMah8nzYER6ngOs/640?wx_fmt=jpeg)图片来源：网络
+
+双向 Boost + 全桥逆变、大功率 DAB 双向 DC-DC 拓扑；频繁充放电双向硬开关，62mm 内置多芯片并联动态均流优异；户外 - 30~50℃宽温运行，175℃耐温降低降额损耗，延长储能设备 20 年设计寿命。
+
+（二）新能源汽车大功率电控
+
+大功率车载 OBC（11kW/22kW 商用乘用车、重卡）
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMJr9xlrDwpibaOGnUCB4dve2ia1Tpb3xgpIBMnVrvxNuXCtUuNvCkicHgXjeDKG32ibxZbteEoq8L2ia27odI7u1HvZ4hAKTZxsdrk/640?wx_fmt=png&from=appmsg)
+
+图片来源：网络
+
+商用重卡、大巴 22kW 高压 OBC 采用 650V/1200V 62mm SiC 模块；替代多颗 TO-247 并联，电控盒体积缩小 40%，整车轻量化；车规级塑封满足车载振动、温循严苛标准。
+
+重卡 / 工程机械辅助逆变器、电动空调压缩机驱动
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpMCx41AiarexOrMCMyice3tLx1VBiamgBgUjzYMCOyDPCS9ta2AuenDPzFW5PXkoInhAKW5wuuhcG6icTjAcQfUHwUDcBwKsazgOog/640?wx_fmt=jpeg)
+
+图片来源：网络
+
+高压直流母线 800V，1200V 62mm 模块驱动大功率电机，开关损耗降低，电池续航提升 5%~8%。
+
+（三）轨道交通、电网装备
+
+地铁 / 动车辅助牵引变流器
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpOXaouVic48fXOVTGa5gicPrtHbI6JI2jsYpcjEoyHVAVhQ0VeusQ7pyu39JSibuGDqMvuLy3ibFwBxtvTtpWnZicXr54fjwLBu21dw/640?wx_fmt=jpeg&from=appmsg)
+
+图片来源：网络
+
+列车车顶 / 底盘空间极小，1700V 62mm SiC 模块替代传统硅 IGBT 模块；整机减重 30%，散热系统简化，降低列车牵引能耗；高频化减小车载工频变压器、滤波电感重量。
+
+固态变压器 SST、直流微电网、有源电力滤波器 APF
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPibaIKhPUM26ickH4ry4KBgLWTYPEZv73wtaG0EjviauEbpU2LFicFhgOibiaZMPkibic3icFBmnt4fcv9fgUv5QKglOqY1jSU4libu6xfU/640?wx_fmt=jpeg&from=appmsg)
+
+图片来源：网络
+
+SST 核心 DAB 双向变换，1200V/1700V 62mm 模块高频运行，取消工频变压器，实现高压轻量化配电；直流配网固态断路器 SSCB 采用 62mm SiC 模块，微秒级短路保护，提升电网安全。
+
+大功率工业 UPS、AI 数据中心大功率整流
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpP3oYyGKj5aqVZntOqdjzCY8v8nSWAvlFWbZufNO2xbTyLV25XtSa1S4kXDhMjoFk35hBCCTJryQsbm8VMApNngxEPl1585cAA/640?wx_fmt=jpeg&from=appmsg)
+
+图片来源：网络
+
+100kW 以上服务器不间断电源、算力中心高压整流，62mm 模块多并联拓展兆瓦级功率，满载效率 98.8% 以上，降低机房散热能耗。
+
+（四）工业大功率装备
+
+大功率伺服驱动、高压变频、工业高频焊机、高压测试电源；硬开关高频工况，62mm 低寄生抑制振荡，提升控制带宽与动态响应。
+
+四、市场落地典型应用案例分析
+
+案例 1：240kW 一体式直流快充模块（1200V 62mm SiC 半桥）
+
+系统参数：AC380V 输入，800V 直流母线，前级图腾柱 PFC 150kHz，后级 DAB 移相全桥；单桥臂 2 颗 600A 62mm 模块并联；
+
+器件选型：（1200V/600A，Rds (on)=2.7mΩ）62mm 半桥模块；
+
+62mm 封装价值对比 12 颗 TO-247 并联方案：
+
+总寄生电感减小，开关损耗降低 48%，整机满载效率提升 1.1%；
+
+PCB 面积缩减 65%，装配工序减少 70%，单模块生产成本下降 22%；
+
+内部芯片天然均流，并联器件温差从 12℃降至 3℃，无局部过热风险；
+
+痛点解决：分立器件并联不均流、整机体积过大、EMI 滤波器件多、量产装配复杂。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN3mfUYNINhHRDicU8G8O59s1we2o71tS6zFHc3LHVp0MrDB1xNnKBMoFBc7GkHNmpXnMmc6hS9CSjd6yTQlQgdWCw5a3XC5jJg/640?wx_fmt=png&from=appmsg)
+
+1200V600A模块关键参数表
+
+案例 2：500kW 工商业储能 PCS（1200V 62mm SiC 模块）
+
+工况：双向 Boost + 三相全桥逆变，频繁充放电切换，环境温度 - 20~45℃；每相桥臂 1 颗 400A 62mm 半桥模块；
+
+对比同规格硅 IGBT 62mm 模块：
+
+整机损耗下降 52%，风冷散热器体积缩小一半，取消水冷系统；
+
+开关频率从 8kHz 提升至 100kHz，滤波电感体积减少 55%；
+
+全年充放电节电超 1.2 万度，投资回收周期缩短 1.5 年；
+
+可靠性收益：SiC 无拖尾电流，关断无反向恢复尖峰，电网电压波动时无器件击穿故障。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNZuzibQZfqG3NGzQQibnBWibhV5qRTRFByYIupPefX98icb87M56TAT3v05EJFG3kQ7TVRibuR5UGCm8DbPEsr1bVLa6iabLN9zKNZk/640?wx_fmt=png&from=appmsg)
+
+1200V400A模块关键参数表
+
+案例 3：动车辅助逆变电源（1700V 62mm SiC 模块）
+
+母线 1500V 直流，输出 380V 交流车载空调、照明；选用 1700V/300A 62mm 模块；
+
+核心优势：
+
+整机重量减少 45kg，列车长期运营能耗显著降低；
+
+宽温 - 40~175℃稳定工作，适应北方严寒、高原高温环境；
+
+低振荡、低噪声，降低车厢电磁干扰，不影响车载通讯设备。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNZ6NGjm1xHhWbCibFJPVBepAiaCOJwqaLCAHJqXyUoNuTpSxLj3S3giaSaalD1icf29fLZd3Etoa9VUHal4gibrZpUj3zTrcXuB9jQ/640?wx_fmt=png&from=appmsg)
+
+1700V300A模块关键参数表
+
+案例 4：1MW 集中式光伏逆变器（1700V 62mm 多并联）
+
+1500V 光伏直流母线，8 路 Boost 并联并网逆变；每路 Boost 采用 1 颗 400A 62mm 1700V SiC 模块；
+
+落地收益：单台逆变器元器件数量减少 60%，整机峰值效率 99.3%，电站发电量提升 0.7%。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP8pvibcSGAhWfQ1mAibLwCWmDw3gnfPEUq163Gwg9KuhshvLicIica9d4CY7gBDTKB3rcDsvo8l93zEoibI74C4TynoLjhVvW52noc/640?wx_fmt=png&from=appmsg)
+
+1700V400A模块关键参数表
+
+五、62mm SiC MOS 模块完整参数选型体系
+
+（一）耐压等级选型（核心基准）
+
+遵循Vds ≥ 系统最大直流母线电压 × 1.8~2 倍安全裕量
+
+单相 400V 母线（OBC、户储、60kW 以下快充）：峰值 450V → 650V 62mm；
+
+三相 800V 母线（商用快充、组串光伏、工商业 PCS、DAB）：峰值 900V → 1200V 62mm（行业主流）；
+
+1500V 光伏、轨道直流、固态变压器、高压 SSCB：峰值 1600V → 1700V 62mm。
+
+（二）额定电流 Id 选型与降额准则
+
+基础降额系数：
+
+强制风冷 / 水冷良好散热：0.8~0.9；
+
+自然风冷、密闭柜体、环境温度＞40℃：0.6~0.7；
+
+光伏、储能存在 MPPT 浪涌，额定电流需≥系统峰值电流 ×1.5 倍。
+
+导通电阻 Rds (on) 动态权衡
+
+低频拓扑（＜60kHz，Boost 逆变）：优先极小 Rds (on)，压低导通损耗；
+
+高频硬开关（100~200kHz，图腾柱 PFC、DAB）：优先低栅电荷 Qgd 型号，平衡开关损耗，适度放宽 Rds (on)；
+
+多模块并联选型规则
+
+同一桥臂必须同品牌、同型号 62mm 模块，禁止混用不同电流 / 不同厂商批次；
+
+并联数量建议≤4 颗，超过 4 颗采用更大电流单模块（如 600A 替代 2 颗 300A），简化均流设计。
+
+（三）拓扑结构选型
+
+半桥模块（90% 场景首选）：单模块集成上下桥臂，适配 Boost、全桥、DAB、图腾柱 PFC，通用性最强；
+
+共源双管模块：双向 DC-DC、固态开关专用，两路独立 MOS 并联。
+
+六、62mm SiC 模块整机硬件设计核心要点
+
+（一）散热系统设计
+
+安装规范
+
+模块铜底板通过 0.1~0.2mm 高导热绝缘导热垫贴合散热器，统一扭力 1.2~1.5N・m，扭力不均会导致局部热阻翻倍；严禁漏涂导热硅脂、导热垫褶皱。
+
+散热器匹配
+
+60~200A 中小电流：铝型材强制风冷；
+
+300A 以上大功率、密闭柜体、轨道设备：水冷板散热；
+
+多模块并联布局：模块间距≥15mm，错峰排布，避免散热器局部热堆积；
+
+温度保护策略
+
+读取模块内置 NTC 电阻，设置两级保护：150℃降功率、165℃硬件停机，限制最高结温不超 175℃。
+
+（二）叠层母排与功率回路低感设计
+
+必须采用双层叠层母排替代单铜排，正负母线紧密贴合抵消磁场，外部回路寄生电感控制在 5nH 以内；
+
+高压高频陶瓷缓冲电容紧贴 62mm 功率端子（DC+/DC-）放置，缩短功率环路长度，抑制开关电压尖峰；
+
+多模块并联母排设计：每路功率支路铜排长度、厚度完全对称，保证动态均流；禁止长短不一、分支阻抗差异过大。
+
+（三）栅极驱动专属设计
+
+驱动回路强制分离功率源极与开尔文信号源极：
+
+模块 Kelvin S 引脚单独短线直连驱动芯片信号地，走线宽度 0.25mm，长度＜20mm；
+
+功率大电流源极仅走母排功率回路，两路地线仅在驱动芯片单点共地，杜绝共源电感干扰；
+
+栅极电阻匹配 SiC 高频特性：
+
+100~200kHz 硬开关：Rg=5~10Ω；
+
+50kHz 以内低频软开关：Rg=10~20Ω；
+
+G-S 两端并联 15V 双向稳压二极管，抑制负压振荡；
+
+驱动功率选型：单模块驱动峰值电流≥15A，选用带有源钳位、DESAT 快速短路保护的隔离驱动芯片，SiC 短路耐受时间短，故障响应必须＜200ns。
+
+（四）PCB 与安规绝缘设计
+
+功率端子高压爬电距离：1200V 模块≥20mm，1700V 模块≥30mm；PCB 高压区域开槽增强绝缘；
+
+驱动弱信号区域与功率母排间距：≥8mm，地层完整分割驱动地、功率地、采样地，单点共地抑制地环路噪声；
+
+驱动板紧贴模块栅极端子布置：栅极走线越短越好，远离 D 极高压开关节点，降低 dv/dt 耦合干扰。
+
+（五）EMI、可靠性与量产工艺要点
+
+EMI 优化：62mm 低寄生使开关波形干净，可减小共模电感、Y 电容规格；高频工况可取消大功率 RC 吸收，仅保留栅极小型稳压防护；
+
+热应力管控：整机高低温循环测试 - 40~125℃，PCB 选用高 TG 板材；户外设备模块、母排做三防涂覆；
+
+量产焊接：功率端子螺栓锁紧防松，栅极信号端子焊接饱满无虚焊；模块底部导热垫完整全覆盖，空洞率＜5%。
+
+七、选型与设计高频避坑总结
+
+误区 1：大功率方案用多颗小电流 62mm 并联替代单颗大电流模块
+
+后果：并联均流变差、母排设计复杂、整机体积变大，综合成本更高；优先选 600A 单模块简化系统。
+
+误区 2：忽略开尔文源极布线，功率地与信号地共铜箔
+
+后果：模块低电感优势完全失效，栅极剧烈振荡、开关损耗飙升，极易炸管。
+
+误区 3：1500V 光伏系统选用 1200V 62mm 模块，裕量不足
+
+后果：电网浪涌、光伏瞬时高压击穿器件，必须严格匹配 1700V 耐压规格。
+
+误区 4：SiC 模块沿用硅 IGBT 大 Rg 降速，浪费 SiC 高频优势
+
+后果：开关频率上不去，磁性元件无法小型化，功率密度无提升。
+
+误区 5：多模块并联散热器无分区，局部热堆积导致单模块提前老化
+
+解决方案：模块错开放置、增加分流风道 / 独立水冷流道，均衡散热。
+
+注明：  
+
+【版权声明】：本公众号平台注明来源或转载的文章，版权归原作者及原出处所有，仅供大家学习参考之用，若来源标注错误或侵犯到您的权利，烦请告知，我们将立即改正或删除。
+
+【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpN9a9iaHCogoRqtINDCK1JiaoKQ2rqhZgZCHeMO31YEN6QY5gWIgPEkEdhNbSLzEocCcz5EyhH5AKkA2UQZcTyiap5iaUN8NxgBrbE/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNFDOiaBpr5COISRmoemCwaPj9ddPcgFAfSxia4SwbUiat3TaazNX14eD2nQQfFZicj8bRn0CiacEeD7e0ytnsGCCeziaRJFe4DAlIrM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNtiaQ6eibYOJOfJmWHiaY7PucutP8E8sn83YejL3zgPEWx0Wr2ZzCTy73JibNCkhBVj0qTFdG9SFytMJdUKkJBjPNzxmqGGp8iaFjs/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOHMTDIics9WhibibC6GuEAYdFOOjCiaccob8MxTTfqusy4CWmUN8gZDeoEicNm92ydTbz01ZBCw4v26Wd6BAgHnXqO6PaibhkxXticeQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)

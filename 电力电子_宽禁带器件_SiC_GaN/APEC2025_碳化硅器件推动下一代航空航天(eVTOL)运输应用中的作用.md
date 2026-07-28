@@ -1,0 +1,147 @@
+# APEC2025:碳化硅器件推动下一代航空航天(eVTOL)运输应用中的作用
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/V9NdRD5KcOr-PTPUkd1DlA](https://mp.weixin.qq.com/s/V9NdRD5KcOr-PTPUkd1DlA)
+
+文章来源：APEC2025(Wolfspeed)
+
+作者：Dereje Woldegiorgis, PhD
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQdc8Fp4jgibd0MUmGYWqe9K65ic9nMTDoC8tk0kgeXSEUulAGzO4MpjEw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQtglASWMgA3bnjZicgCbgLHPGU468H7xicS5icY4FstqNkhZ8BfYicVIAlQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQRiavriaTIrDgxBVMLnsQ593JicECErU15mU6ric0X3UFwvicdHLsOEdxexQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQ5LoRFSgaVkyk9mgUpvOSWmOl5t7jChqNJ1ZTZbsjicoWs1JicU1HcNicg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQUXOicNIZhCSqml2TxMxSt9LySyByjibibXN4fJ8brciaNVSUU7fN1icwGQA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQrdV13sH0JHAljdvQyec0uNQhicEMuQpDqyXwp7uHLmP1FpgCgeoaRqw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQ1mcC3z9zH5QqBb2HWP2qVziaCn2YZKuQebmFKAaTP1YOhiceg28iaDYmA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQpicWGibchPoczXXlAqBA7roTVSJofe6KefurYg7cAibKWOiasfOQuHW8QQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQV3PT3dyQOtsO80GzuQ0qRsQejVGkP4JuMhPUictGod6uibJaRSjYMWbw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQ2PibCj1xKMYhqMVmRmrnZn8d8RHoqCiaGPNCqqy9eECVjiabXEHDYTQnA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQRbE5zMpueveuYbpXZjknzCX4xe082DFjTRfn35L5Wawt0cRgBpcWOQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQXKnEL8Vkm93Zvs0euo3dKWbrib2CSk5PKGBCbSIcOWM5kMjDUZMhIeA/640?wx_fmt=png&from=appmsg)
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQP0DhzE6ysSI37Tj3Jmlc4todsnzpFRJGITvoffh88fgPU2BibXicGjaQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQKjLJ28B0Trxu1LhI4vS5FTW0rnmMsvDD7zu8sLvjEByLxwTPHgtsCQ/640?wx_fmt=png&from=appmsg)
+
+注：文字与报告无关
+
+碳化硅（SiC）器件凭借其宽禁带半导体的卓越性能，正成为推动电动垂直起降飞行器（eVTOL）技术突破的核心引擎。以下从技术特性、应用场景、行业进展及未来趋势展开分析：
+
+一、技术特性：突破传统材料极限
+
+高效能与轻量化
+
+SiC器件的开关速度比硅基IGBT快3-5倍，导通损耗降低50%以上。使eVTOL逆变器效率提升至98% 以上。其功率密度可达10kW/kg（传统电机的 2 倍），直接推动eVTOL载重比提升20%-30%。
+
+耐高温与抗辐射
+
+SiC器件可在200°C以上稳定运行，且抗单粒子烧毁阈值达1200V。例如，空客CityAirbus NextGen的SiC逆变器在高温测试中连续运行超1000小时无性能衰减，支持其在复杂气候条件下的稳定飞行。
+
+高电压与高频特性
+
+SiC器件支持800V及以上高压平台，可减少线缆重量30%，同时适配超快充技术（15 分钟内补能）。例如，小鹏汇天eVTOL采用800V SiC增程平台，陆行与飞行体均实现高频次城市空中交通。
+
+二、核心应用场景
+
+动力系统革新
+
+电机驱动：H3X公司的SiC电动机HPDM-3000功率密度达10kW/kg，获 NASA和美国空军7亿美元订单，支持eVTOL实现1000米/分钟的爬升率。
+
+多电机协同控制：Joby S4的12个电机通过SiC控制器实现冗余控制，在单个电机失效时仍能维持飞行姿态，系统可靠性提升5倍。
+
+能源管理优化
+
+逆变器与充电系统：Lilium Jet的SiC逆变器使推进系统成本降低40%，同时支持其36个涵道风扇的高频协同工作，续航里程达300公里。
+
+热管理系统：Archer Aviation的eVTOL采用霍尼韦尔SiC热管理技术，通过空气对流冷却设计省去复杂液冷装置，重量减轻15%，热响应速度提升3倍。
+
+飞控与传感器集成
+
+高频信号处理：SiC器件的高频特性(>1MHz)支持飞控系统实现微秒级响应，例如亿航EH216-S的16个旋翼通过SiC控制器实现 ±0.1° 的精准角度控制。
+
+极端环境感知：SiC传感器可在- 60°C 至 200°C 范围内稳定工作，例如密歇根大学开发的SiC压力传感器已用于eVTOL发动机实时监测，精度达 ±0.5%。
+
+三、行业进展与实际案例
+
+商业化验证
+
+空客 CityAirbus NextGen：搭载SiC逆变器完成多次稳定试飞，目标2025年通过FAA/EASA认证，计划在巴黎、新加坡等城市投入运营。
+
+Joby S4：采用3D打印钛环SiC电机，续航达240公里，获美国国防部 “先进空中机动性” 项目支持，计划2025年启动纽约-华盛顿航线。
+
+产业链协同创新
+
+材料与制造：意法半导体在意大利建设8英寸SiC产业园，实现衬底-外延-封装垂直整合，目标将eVTOL用SiC模块成本降低40%。中国天岳先进、烁科晶体已进军12英寸SiC衬底。
+
+系统集成：西门子与劳斯莱斯合作开发SiC 混合推进系统，在H135直升机验证中实现燃油效率提升30%，计划2026年应用于eVTOL。
+
+成本与可靠性突破
+
+成本下降：2025年SiC MOSFET价格首次低于IGBT，国产模块成本较进口低 30%，推动eVTOL单机成本下降15%-20%。
+
+寿命提升：SiC器件寿命是硅基器件的3-5 倍，例如Wolfspeed第4代SiC MOSFET在185°C下可稳定运行10万小时，维护频率降低 60%。
+
+四、技术挑战与解决方案
+
+制造工艺瓶颈
+
+大尺寸晶圆量产：8英寸SiC衬底激光剥离技术尚未成熟，全球产能集中于 Wolfspeed、意法半导体等企业。中国企业通过升华法将6英寸衬底缺陷密度降至 0.1/cm² 以下，接近国际水平。
+
+封装技术优化：Fraunhofer IZM 开发的SMD表面封装技术，将SiC芯片寄生电感降至1nH 以下，同时支持空气对流冷却，系统体积缩小50%。
+
+电磁兼容性（EMC）
+
+主动门极控制：SiC模块通过优化驱动电路，将dV/dt控制在50V/ns以内，EMI辐射降低20dB，满足RTCA DO-160G航空认证。
+
+集成滤波设计：安森美采用三维堆叠封装，在模块内部集成LC滤波器，使 eVTOL电控系统的EMC设计复杂度降低 30%。
+
+五、未来趋势与行业影响
+
+技术迭代方向
+
+材料创新：掺杂SiC纤维（如湖南泽睿 Zeralon®3A）耐温达 1800°C，可用于eVTOL热防护系统，重量减轻 50%。
+
+智能化集成：SiC与氮化镓（GaN）混合封装技术将开关频率提升至10MHz，支持eVTOL实现微秒级多电机协同控制。
+
+政策与市场驱动
+
+政策支持：中国 “十四五” 规划将eVTOL列为低空经济重点，深圳、合肥等地设立专项基金支持SiC产业链发展。欧盟通过 “Clean Sky 3” 计划，投资15亿欧元推动SiC在航空电气化中的应用。
+
+市场规模：预计2030年全球eVTOL市场规模达1500亿美元，SiC器件渗透率将超60%，年需求量超576万颗。
+
+标准化与认证
+
+行业标准：Microchip的BL系列SiC模块通过DO-160G认证，推动eVTOL电控系统标准化。中国民航局正在制定《电动航空器电动力系统适航要求》，明确 SiC器件可靠性测试指标。
+
+结论
+
+碳化硅器件通过高效能、轻量化、耐高温等特性，正在重塑 eVTOL 的技术体系。从动力系统到飞控单元，从材料创新到制造工艺，SiC 已从实验阶段迈向规模化商用。随着成本下降和政策支持，SiC 有望成为 eVTOL 产业爆发的 “催化剂”，推动城市空中交通进入全新时代。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsntrDiaG0Ln62P1Ce7xsFGZQAaUJP5dwibwevKNLu9xJwibwIFcBqpsd1p6eYKHib1RJBib82FH4pgHScw/640?wx_fmt=jpeg&from=appmsg)
+
+### 注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcIL9s9icLpA7sMkZl1yeAoJ70pnzOEicPx72xfic8DAlykF9ISV9UaWFibgtA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILvxnibEN9LH8II05JCjJuHZ0eJDvLRlLLPec3gpN4R5gy7IAvkRDiatdw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILQftGrb0sLqYcs0hr4mZSf1WbuCoQjtIcgLmencF3V61K3BE4h5A4Sw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)

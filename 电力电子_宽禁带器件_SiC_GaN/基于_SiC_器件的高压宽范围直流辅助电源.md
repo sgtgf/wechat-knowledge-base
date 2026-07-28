@@ -1,0 +1,387 @@
+# 基于 SiC 器件的高压宽范围直流辅助电源
+
+原创 王议锋  车超昌 SiC碳化硅MOS管及功率模块的应用 2025-03-04 16:13 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/NUl4UTFwNZkGgpaua-WAeQ](https://mp.weixin.qq.com/s/NUl4UTFwNZkGgpaua-WAeQ)
+
+文章来源：电工技术学报
+
+作者：王议锋 1 车超昌 1 陈 博 1 白 昱 2 张向前 3（1. 天津大学电气自动化与信息工程学院 天津 300072；2. 天津恩特能源科技有限公司 天津 300100 ；3. 天津电气科学研究院有限公司 天津 300180）
+
+摘要: 辅助电源是电力变换装置中的重要组成部分，在太阳能发电站等系统中，需应对高压宽范围输入下的稳定运行挑战。针对单管反激电源在高压宽范围输入导致的高电压应力、高成本以及低效率问题，该文基于级联反激变换器，首先进行了开关模态分析，深入研究计及寄生参数的开关工作过程；然后在此基础上，建立级联反激变换器的精确数学模型，研究了各核心元器件对电路性能的影响，并提出一种参数设计方法；最后基于 SiC 器件，搭建了一台 300～1 500V 输入、24 V 输出的 100 W 辅助电源样机，变换器全工况运行中最高效率达到 93.4%。结果验证了所设计的高压宽范围辅助电源方案的有效性。在低成本、宽输入范围和高电压应力条件下，保证了辅助电源的高效转换。
+
+关键词：SiC 高压 辅助电源 反激变换器
+
+0. 引言
+
+光伏发电系统因其清洁无污染的特性得到广泛应用，而光伏电站的降本增效可使其得到更广泛的推广。在光伏发电系统中，提高电压等级可以降低线路损耗，减少汇流箱等设备，利于光伏平价上网，符合高压并网发展趋势。光伏系统电压等级正在由1000V向1500 V 过渡。三相光伏逆变器出货量电压等级占比如图1 所示。从图1 中可以看出，1500 V 光伏系统的应用占比逐年增加，其成本与性能对该系统的进一步推广至关重要，这对光伏系统中的电力变换装置提出了更高的要求。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuyAOyWK8qBHRuDAJF9jAeOFBVuK7ZIHqtVUYDnz5fNOOiciaLlxAnApwA/640?wx_fmt=png&from=appmsg)
+
+辅助电源是电力电子装置中的重要组成部分，主要用于给系统中的控制芯片和驱动电路等装置供电。在一些无法通过外部给予低压供电的场景，辅助电源同样面临光伏高压输入宽范围波动的问题，需要具备高/宽增益能力以保证安全稳定运行，因此辅助电源多采用结构简单、输入输出隔离的反激变换器。
+
+高压宽输入范围的应用场合给反激变换器的应用带来巨大挑战。学者刘计龙等基于传统反激变换器提出一种应用于高压输入变压器的绕制方法，实现高压宽范围输入的功率变换，但尚未解决功率器件应力大、变换器效率低等问题。
+
+相比于单管反激变换器，双管反激变换器更适用于高压输入场景。胡亮灯等基于双管反激拓扑开展研究，设计了一台输入电压范围为300～2500 V、输出为24 V 的辅助电源。但该辅助电源效率较低，100W负载下效率不到80%，额定功率50 W 时不如单管反激变换器。此外，多管独立的驱动电路也不利于成本与体积的优化。
+
+为解决单个开关管应力过高带来的问题，还可通过开关管串联来分担电压应力，根据相关研究可知，在使用相同芯片面积的前提下，串联器件的漂移区电阻和单个高压器件相同，但是其半导体材料的成本比高压器件更低，利于降低成本。P. JGrbovic提出一种一次侧采用分裂绕组，开关管串联的反激拓扑结构，这种结构的输入电容通过电阻、二极管支路来实现均压，驱动电路复杂，设计难度较大，附加的均压支路增加了变换器的损耗。在此基础上，张帆等针对串联SiC MOSFET 结构，提出一种缓冲电路，可以自动平衡关断时的开关电压，同时该结构回收部分漏感能量可提高变换器效率。王涛等针对串联MOSFET 关断瞬态期间的电压不平衡问题，建立了漏源电压上升瞬态期间的简化模型，提出一种调节驱动信号延迟时间的有源控制方法，在一定程度上改善了该问题。刘基业等提出一种二极管\-电容混合钳位的间接串联拓扑和准两电平开环调制方法，可实现拓扑中串联器件的电压自动均衡。
+
+输入串联输出并联的模块化拓扑结构也可有效降低开关应力。许奕辰提出一种采用磁集成技术的输入串联有源钳位反激变换器，搭建了200～ 1000V输入实验平台，证明了磁集成结构的均压优势，但成本较高，不适合于低成本应用。孟涛等分析了输入串联双管反激变换器中各模块循环电流的作用和影响，并提出抑制策略。
+
+串联模块化的拓扑结构因其能有效降低一次侧开关管的电压应力，实现更高的输入电压等级，得到了一定的推广与应用。然而各模块参数不完全一致，需要额外的控制策略实现模块均压，增加了控制难度，并且同样需要引入独立的驱动模块单元，增加成本负担。
+
+因此，在光伏等需要高压宽范围辅助电源的场景，同时兼顾低电压应力、低成本以及宽电压范围的研究工作有待深入进行。为此，本文基于级联反激变换器结构进行了工作模态分析，深入研究计及寄生参数的开关过程，建立电路模型，分析关键元器件对电路性能的影响，并提出一种参数设计方法，保证辅助电源实现低成本、高电压、宽范围的稳定运行。最终，搭建100W 样机进行实验，验证了理论的有效性与合理性。
+
+1. 变换器的拓扑结构及工作原理
+
+为了解决高压场景下开关管的电压应力问题，同时避免多驱动芯片带来的驱动信号不同步以及成本问题，本文采用单驱动芯片级联反激变换器拓扑，如图2 所示。图中R1～Rn\-1 为限流电阻；Vc1～Vc(n\-1)为瞬态电压抑制二极管（Transient Voltage Suppressor,TVS），V1～Vn\-1 为稳压二极管，Cc1～Cc(n\-1)为Vc1～Vc(n\-1)的寄生电容（TVS 管为提高瞬时功率，增加了结面积，其寄生电容也变大，在高频工作时必须给予考虑），C1～Cn\-1 为V1～Vn\-1 并联的电容；Lm 为变压器T 的励磁电感，Lk为变压器一次侧漏感；RCD（resistor capacitor diode）缓冲电路用于降低开关管电压尖峰；S1～Sn 为MOSFET 开关管。从图2 可以看出，仅用一个驱动芯片就可驱动多个开关管。针对电压应力问题，采用Vc 钳位分压处理。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnujItYnIQtXkhziaNpl5tGO4afoakYP477sVicRNTviaIiaQTRUt39ccsmKQ/640?wx_fmt=png&from=appmsg)
+
+在本方案中，采用如图3 所示的二阶级联反激拓扑。图3 中，Cc、Rg、R1 和V1 构成了S2 的驱动电路。当S1 开通时，V1 钳位，由电容Cc 和输入电压提供驱动电流实现S2 快速跟随开通，可减缓驱动不同步导致的局部过电压问题，同时节省了S2 的驱动电路，在有利于节省空间的同时降低了成本。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnu2Do3RdOiannbKPO6icf4vlYlWto5I5X3T7UoCE8IEJOKMA2lHMs1br2g/640?wx_fmt=png&from=appmsg)
+
+该级联型反激变换器工作在断续模式。下面将对工作模态进行分析，本方案采用RCD 缓冲电路吸收电压尖峰，其工作原理在模态分析中不再赘述。该变换器工作模式根据Vc 是否钳位分为钳位工作模式与非钳位工作模式。
+
+当开关管S1 漏源极电压Vds1 小于Vc 的钳位电压Vvc 时，拓扑工作在非钳位模式；反之，当Vvc≤Vds1 时，变换器工作在钳位模式。两种模式的开通过程相同，仅关断模式有所区别，钳位模式下，开关管S1 的电压在上升过程中被钳位在Vvc，剩余电压被开关管S2 承担。本文仅对非钳位模式进行具体介绍。
+
+非钳位工作模式关键波形如图4 所示。图4 中，Vds1、Vds2 分别为开关管S1 和S2 的漏源极电压，Vgs1、Vgs2 为对应的栅源极电压，Id1、Id2 分别为S1 和S2 的漏极电流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuKeInYp3pfdS4Ukrn6oxXuIPgTyXcB81yBNPBib1TBBPjExvH9lVibX1Q/640?wx_fmt=png&from=appmsg)
+
+t0～t1：开关管S1 准谐振开通，Vds1 迅速下降为0，开关管S1 的Coss1 迅速放电，沟道电流上升，两端电压下降，C1 两端电压上升（此时S2 的栅极充电电流为iR1+iCc\-iC1），V1 此时本应处于钳位状态，但当C1 两端电压超过V1 的钳位电压Vz 时，开关管S2的电容 Cgd2 充电，从栅极抽取电流，且此时R1 电流较小，Cgd2 将会从C1 抽取电流（此时S2 的栅极充电电流为iR1+iC1），使得C1 两端电压下降，故此时 V1不工作在钳位状态，其电压也会小于 Vz，进而S2 的电压Vgs 在上升过程中会突然减小。可以看出，电容C1 在开通过程的不同时刻作用不同，在iCc≠0时，C1 旁路一部分栅极充电电流，属于减缓开通过程；在iCc 降为0 之后，由于R1 提供的电流有限，C1 此时作为源提供栅极充电电流，加快开关管开通，Cc 给开关管S2 提供驱动电流，加快S2 的开通，模态如图5a 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnu59gNCibNwSkokGdYHXoeGRmV1CBx8OmNIzwSUqq2XdpcldicmnugeOFw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnu4XcXUQTwEHKrVZwjFGfMuxxMPYaDSWF9CRORgJFbUSlsDeJBs1c9dg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuDCNs7xfbxbsnWH8SrYyzGFatia9ubOAzszBHqVYcZhoJ6cuxPa7gtvg/640?wx_fmt=png&from=appmsg)
+
+t1～t2：S1 完全开启后，电容Cc 两端电压不再变化，此时S2 的驱动电流由输入电压和电阻R1 决定，该驱动电流较小，Vgs2 继续增大。此外，输入电压Vin 给Lm 充电，一次电流线性增加。如图5b 所示。
+
+t2～t3：t2 时刻，Vgs2 达到V1 的钳位值，此时Vgs2不再变化，如图 5c 所示。
+
+t3～t4：t3 时刻，开关管S1 先开始关断，Coss1 开始充电，Vds1 上升，V1 两端电压逐渐减小，电容Cc两端电压增加，从 C1 、Cgs1 汲取电流，此时Id2\=Id1+ICc，Vgs2 减小，如图5d 所示。
+
+t4～t5：t4 时刻后，一次侧开关管处于关断状态，二次侧放电，变压器释放能量向输出电容及负载供电。开关管S1、S2 共同承担电压，且有Vds1+Vds2\=Vin+VR，其中VR 为反射电压，如图5e所示。
+
+t5～t6：t5 时刻，二次电流变为0，变压器两端电压不再被输出钳位，Lm 与Coss1、Coss2、Cc 和C1 谐振，控制器驱动会在开关管电压的谷底处开通，实现准谐振开通。与此同时，由于Vds1 在谐振过程中下降，V1 两端电压将会上升，如图5f 所示。
+
+2. 开关管关断过程及电压应力研究
+
+根据第1 节分析可知，关断期间两个开关管共同承担电压Vin+VR，在TVS 管Vc 稳压工作时，开关管S1 承担的电压为Vvc，开关管S2 承担的电压为Vin+VR\-Vvc。在非钳位模式下时，开关管承担的电压由动态分压和静态分压共同决定，本节将对分压过程进行具体分析。
+
+2.1 动态分压
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnulSKYkoDWXIqATeCOticT1TgaJibAujCPic6T4sfdb5x2ickU4KURsxRULQ/640?wx_fmt=png&from=appmsg)
+
+为方便分析，对电路做简化，模态可见图5d 中的t3～t4 状态，在开关管漏源极电压上升的过程中，变压器一次电流恒定，等效为恒流源ip。V1、Vc 均工作在截止状态，仅考虑其寄生电容的影响。在暂态分析过程中，电阻R1 上的电流较小可忽略，等效电路如图6 所示。动态分压过程的开关管电压波形如图7 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuqkLtdG2htOEcdjwUUjm9Du5M4HAU34SYtIb2qBfdibpfOy4UvLcDr5g/640?wx_fmt=png&from=appmsg)
+
+t0～t1：驱动电压由VG 变为0，Vgs1 下降，Vds 和id 基本保持不变。在该时间段内，MOSFET 工作在可变电阻区，在图8 中为A 到B 的过程，开关管沟道可等效为导通电阻Rds(on)。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuhwN4JBL1otZIX3NmnyHcA3b2Xc2nhaphJcmrMDYxuUCZ31VHCzBAaQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuZzoAcA06hWjkIHvH1POCKh3wlRjMh5ozkq2eeBrRNUyCAQWmibNibJmw/640?wx_fmt=png&from=appmsg)
+
+式中，Δt10 为t0～t1 的过渡时间；Ciss 为开关管的输入电容；Vmill 为开关管的米勒平台电压。
+
+t1～t2：S1的驱动电压下降到米勒平台电压Vmill，Coss1 开始充电，Vds1 电压增大，在图8 中为B 至C的过程，S1 沟道等效为受控电流源，S2 沟道等效为导通电阻Rds(on)。其等效电路如图9 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuhaIoj9W60KwBt3OYK7ybK9qib7icRckiaSicfhibxhDEicofhGZz79ZZibqlw/640?wx_fmt=png&from=appmsg)
+
+在该时间段内，存在如下关系
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuevh4GgffiaYz3XpUhGZbj5R4aBBQFT3hbgYrrR7LE8LNMLg9JNypcQA/640?wx_fmt=png&from=appmsg)
+
+式中，Vth 为开关管阈值电压；ich1 为S1 沟道电流；gm 为MOSFET 的跨导。可得出
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnu8Dr8KD31WiaibE5M94qncKv4kte5EZhlKNhqmC6ia6ASxLMPtiaX3Fvv4g/640?wx_fmt=png&from=appmsg)
+
+对于开关管S2，有
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnul9tFBSoYvf8UVoW2I8X5AyGlglZReHZCkCFVSticYTOickg5g9172xsQ/640?wx_fmt=png&from=appmsg)
+
+式中，Qg 为总栅电荷；Qgs 为栅\-源电荷；Qgd 为栅\-漏电荷。
+
+从而可以得出延迟时间td\=t2\-t1。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnusLnpfnuQAd4zyyOLu2xz7xysoNVZUhck972iaw4tTH7iaXkRriaxfuL5A/640?wx_fmt=png&from=appmsg)
+
+式中，Cm\=C1+Cgs2\-Cc。
+
+t2～t3：在t2 时刻，开关管S2 驱动电压下降到米勒平台，Cgd2、Cds2 开始充电，Vds2 电压开始上升，等效电路如图10 所示，S2 沟道等效为受控电流源，S1 等效为线性电压源。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuicpMX4cZDljRMXVDqAibuTkORm63X9nu3pwAIPQ1PzHuAm1bQ3UAB4gg/640?wx_fmt=png&from=appmsg)
+
+在该时间段内，存在如下关系
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuVh5Bon7ia54gA8cpBG4ia5kV23tasNibYje9TKNOrFG9ohjDXXgcLbOpA/640?wx_fmt=png&from=appmsg)
+
+其中 R1 电流相比于其他元件较小，可忽略不计。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuWqo7nzNjyW2fWmnEicIvHrFq2HXZ3SB4LjcXl58Ozg6iaQVMN1IDsjsQ/640?wx_fmt=png&from=appmsg)
+
+可得出
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuuGWypkBIJ0XDWw5xADoumBzOroSibibAvPNmbgl92tFvkoC3ic16dicibEw/640?wx_fmt=png&from=appmsg)
+
+t3～t4：t3 时刻开关管S1 和S2 电压之和等于Vin+VR，关断过程结束，在图8 中为C 至D 的过程。从式（9）可以看出，上管的电压上升速率要大于下管。
+
+由电容Coss 和漏源极电压Vds 之间的负相关特性可以得出，串联MOSFET 的关断过程是一个正反馈过程，驱动信号的延时会导致两个开关管产生电压差，Coss\-Vds 的负相关特性进一步放大该差值，使两个开关管之间的电压差越来越大。当二者之和到达Vin+VR 时，电压差不再变化，差值越大会使损耗和应力不均衡，不利于变换器效率提升。因此，延时时间应尽量短，减小两个开关管电压差，对此结合式（6）在参数设计部分进行优化。
+
+2.2 静态分压
+
+在非钳位模式下，t4～t5 时间段内，开关管S1、S2 二者之间会存在静态分压的情况，具体分析如下。
+
+工作模态如图5e 所示。关断瞬态结束后，Vds1电压值大于输入电压，V1 正向导通，R1 电流反向，电流通过变压器一次绕组流向开关管S2，因此Vds1电压下降，Vds2 电压上升。
+
+静态分压等效电路如图11 所示。V1 处于导通状态，可等效为导线，Vc 处于截止状态，可看作断路。变压器一次绕组被输出电压钳位，等效为恒定电压源。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnueYCu5fNvcFn26MMHRmgH3jkdUFNpj1sAHcCv3aDAheBAGEr16xgcBw/640?wx_fmt=png&from=appmsg)
+
+设定Vc10 为Coss1 的初始电压，可得出
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuKHrhZeJukgva0kFcibW7VuUSEImH7ia91BkOJIYyDIJycCeTqeCwbDLg/640?wx_fmt=png&from=appmsg)
+
+式中，Ceq1\=Coss1+Cc。
+
+根据式（10）、式（11），由于非钳位模式下 Vc10＞Vin，在关断之后，Vds1 电压以指数形式逐渐减小，终值为输入电压Vin，Vds2 电压以指数形式逐渐增大，终值为反射电压VR，二者电压之和为Vin+VR。非钳位模式下的静态分压过程会增大电阻R1 的损耗，且会增大上管S2 的电压应力，在参数设计过程中应对R1 进行合理设计以减小损耗。
+
+3. 开关管开通过程及电压应力研究
+
+变换器工作在准谐振模式，本节对MOSFET 开通过程展开研究。
+
+根据准谐振工作模式的工作原理，变压器二次电流变为0 之后，励磁电感Lm 会与开关管等器件的寄生电容谐振，控制器此时会通过辅助绕组检测电压，该电压小于阈值时开通一次侧开关管。Lm 与一次侧电容谐振的等效电路如图12 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnus1nicSsAfWJ5oUTVEACibEZg8C7o9VhgVLBe6vV8BINpgW6YKZNNZFBw/640?wx_fmt=png&from=appmsg)
+
+存在如下关系式
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnusm9taTelmG1QboedxV6G066X2UJb2ez0aZzWNv16T3psMEEbDtQ5iag/640?wx_fmt=png&from=appmsg)
+
+可以得出
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuCye0mgnGCvtMf58TntCLDR3ib367ibyZtbykW8hM9d2ojnDwsvXDoUAg/640?wx_fmt=png&from=appmsg)
+
+根据准谐振的工作原理，得出S1 和S2 的开通电压为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnu2W7MueqB3Cib1qiaEYEj39RicCtng6iccTs8CV5U5euU0mwTiaicn5EoFibqA/640?wx_fmt=png&from=appmsg)
+
+可以看出开通电压与Coss、C1 和Cc 有关，两个开关管的振荡周期相同，振荡幅值按照电容容值分配，容值越大振荡幅值越小。另外，输出电容容值与开关管电压有关，且随着电压增大，容值会减小，可以得出开关管S1 的振荡幅值将会随着输入电压的升高逐渐减小，准谐振开通对于降低S1 开通损耗的作用将会越来越小。从式（16）、式（17）可以看出开关管开通电压与关断电压有关，而关断电压分配与TVS 管的钳位电压有关，因此在选择TVS 管钳位电压时需要考虑其对开通损耗的影响。
+
+同时还可以得出谐振过程结束后uC1 两端电压uC1-QR(on)为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnukBWuwG1ORBQeQdhiadtPiaJzp7ic9aKp0VLTUnkQglqavO4G27pBEAV3A/640?wx_fmt=png&from=appmsg)
+
+式中，Δu1QR、Δu2QR 分别为谐振过程中开关管S1、S2 漏源极电压的变化量，即
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnu4cUgp2HmlPfyK3Ns5DGw6feGyTSKOIQpb10Ra3CRUGmF9OEuBia2GlQ/640?wx_fmt=png&from=appmsg)
+
+从而得出
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnug1HEMkOZ0icJRhbxGZ2mAudM3je03FKZhIvKK3VMPVsCBXkubFPNcEA/640?wx_fmt=png&from=appmsg)
+
+准谐振过程不仅会影响两个开关管的开通电压，而且会影响S2 开通之前的电压，需要对C1 电容进行合理设计，避免在准谐振过程中开通S2。
+
+4. 变换器参数及环路设计方法
+
+在宽输入电压范围内保持高效率和稳定性是一个严峻的挑战。变换器设计需要在不同输入电压下保持稳定的输出，同时实现高效率。级联反激变换器现有研究中对于R1、C1、TVS 管Vc 和稳压管V1的选取没有明确的设计方法，而这些元件对于变换器的正常运行和高效率至关重要，因此本文针对上述元件提出一种参数设计优化方法。
+
+4.1 变换器参数设计
+
+该变换器中功率器件的参数设计与传统单管反激变换器相同，变压器、缓冲电路、输入输出电容的设计不再赘述，仅对R1、C1、TVS 管Vc 和稳压管 V1 选取的设计过程进行具体介绍。
+
+4.1.1 限流电阻R1
+
+电阻R1 为S2 的驱动充放电提供回路，在宽范围输入时，该电阻的功率额度需要满足高压输入下的需求。另一方面，开关管关断状态下，该电阻阻值越小，静态分压过程越明显，损耗越大。因此限流电阻R1 的选择需要综合考虑开关过程与静态分压过程。
+
+在静态分压过程中，电容充放电的时间常数τ应远大于最大关断时间 toffmax，即
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnumlLyBCfcKOVAibUjVdV5rIND7R7yAojMPibWkT8WIIoUnhYEia4cBiav0A/640?wx_fmt=png&from=appmsg)
+
+结合式（10）、式（11）可得
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnucUibqZH3IjCJiaoibR9VfzANb7FJ6gCqGWiaG6HGvWQfNIzSBsacdaiaRFw/640?wx_fmt=png&from=appmsg)
+
+忽略准谐振过程时间，开关周期T\=ton+toff,可得关断时间toff 为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnucn2KicXVaksMqiaty0dahR6NKiclkDWO4erd4JCwShVmQg6N0xibyXkibAw/640?wx_fmt=png&from=appmsg)
+
+式中，Pin 为输入功率；Vo 为输出电压；Rload 为输出负载阻值。
+
+对于式（23），dtoff/dVin＜0 恒成立，所以输入电压最低时，关断时间toff 最大。
+
+结合式（22）、式（23）可以得出
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnu0IloXeOPyfcArkbBfmxps0pKC2sGvib8xngfiaqyUib1bNlUxwPjAdYicA/640?wx_fmt=png&from=appmsg)
+
+式中，Vinmin 为变换器最低输入电压。
+
+另外，根据第1 节分析可知，上管S2 的开通主要由电容Cc 决定，但在变换器开始启动过程中，电容Cc 无初始电荷，此时上管的开通需要通过R1 从输入电源取电以建立栅源电压。在控制器启动后第一个开关周期到S2 正常开通这段时间，输入电压通过R1 给C1 充电，C1 两端电压uC1-start 为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuiaJcVrXPcgN8g3l9BLBDtYdhAWHeekge0icPaYUFs697fYMxYZ0yLQxQ/640?wx_fmt=png&from=appmsg)
+
+当uC1-start 大于上管S2 的阈值时，S2 开通，从而使得TVS 管在关断过程中其电压可正常建立，变换器进入正常工作。设定变换器在控制器启动后Tstart时间内正常工作，则
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuGhkCkbRqG9bCdibiaNSDASLD0q7EJicqknJ9kbmhic3QY0xe7qpawlvRpg/640?wx_fmt=png&from=appmsg)
+
+式中，VS2-th 为S2 开关管的阈值电压。
+
+综上所述，结合式（24）、式（26），R1 阻值位于该范围内时可保证变换器正常工作。在本变换器设计中，为提高效率，R1 取其上限值。
+
+4.1.2 驱动电容C1 和驱动稳压管V1
+
+C1 的设定需考虑其对开关过程的影响。根据式（6）可以看出，延迟时间与C1 容值成正比，电容C1越小，延迟时间越小，越有利于减小 S1、S2 开关管之间的电压差。
+
+另外，在开通过程中，开关管S2 的驱动电压由两段过程组成。
+
+1）在图12 所示准谐振过程中，C1 参与谐振，该过程结束后，C1 两端电压如式（20）所示。在此阶段，为使开关管S1、S2 在电压最低点开通，C1 两端电压uC1-QR(on)不能超过S2 的阈值电压VS2-th。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuzAGb6Pplh6a1R9ERlLPic5II5Yc1DSz7hb5ulNcJxWYG8O49kaYiafZg/640?wx_fmt=png&from=appmsg)
+
+2）准谐振过程之后，S1 开启，电容Cc 中的电荷释放至电容C1 和S2 的输入电容中，设ΔuC1on 为电容C1 两端电压的变化值，依据电荷守恒，有
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuLcgZYr6ezpvicEVvWJUHlCr4lVwhwsCafiaz0OfbdNFZKLxvjrMia6zng/640?wx_fmt=png&from=appmsg)
+
+式中，ΔuCon为S1开启之后Cc两端电压变化量，可得
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuwOUZfJ8XBrFojRD99WrcCaCvE8JzDf0KvOWREwG1cOeBJWPgcBqvPg/640?wx_fmt=png&from=appmsg)
+
+结合式（16）、式（28）、式（29）可以求出电容C1 两端电压的变化值为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuHLJhQn4OltbP51QgI8uUvCTs9xQT6icgYRJXXUcPEzhCbcicHJJo8DHg/640?wx_fmt=png&from=appmsg)
+
+综上所述，从谐振过程开始到S2 开通，电容C1两端电压变化值为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnu0aaIFvSZuXOWr4JaRG8lI4IZyXtmB9NrKJPqkJ1sECgOykgXuLibp5g/640?wx_fmt=png&from=appmsg)
+
+开关管S2 开通电压即为ΔuC1，S2 开通电压的选择首先需要结合器件Datasheet 中的转移特性曲线，在保证MOSFET 通流能力的前提下选择合适的驱动电压。另外根据式（31）可以看出，驱动电容C1的电压与输入电压有关，输入电压越大，C1 上的电压越高，为保证变换器在低压输入时也能正常运行，驱动电压还需要在输入电压最低时进行确定。
+
+在本样机的具体设计中，一次电流最大值约为2.5A，结合开关管MSC750SMA170B ，选择驱动电压为16 V，由于稳压管工作时会抽取电流，因此考虑裕度后选择稳压管BZT52C18，C1 容值为1 nF。
+
+4.1.3 分压控制TVS 管Vc
+
+根据第1 节分析可知，钳位模式下S1 关断电压为Vc 的钳位电压值，S2 的关断电压为Vin+VR\-Vvc。TVS管的钳位电压值会影响MOSFET 的开关损耗，因此该TVS 管的选取需要考虑对开通损耗的影响。
+
+S1、S2 开关管开通损耗之和为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnu6A5FuCxH4sa13zKMYlkIbQvu6RG0U7KLwUuEI3Z0dWPSm8fRiayOxdA/640?wx_fmt=png&from=appmsg)
+
+式中，fs 为开关频率。将式（12）、式（16）和式（17）代入式（32）中并对Vds1 求导可得
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnutPH2icXTvy1uY07zufNZvyKU43EVIWTjYZS1EicwrzHicwAvbkLEDtDpg/640?wx_fmt=png&from=appmsg)
+
+令式（33）等于0，可求得
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuNf2MyF3HyAapACTamfViaLDRcBicCcf013oiaWrMgd3CeeiaWjzeI5KrCQ/640?wx_fmt=png&from=appmsg)
+
+此时可使开通损耗Pon 最小。
+
+因此，可将Vds1 看作受控量，通过TVS 管的选型，进而根据钳位电压影响开通损耗的大小。在额定输入电压下确定该钳位电压，并将钳位电压设置为Vds1off 时，可将额定输入下的开通损耗降到最小。该变换器的参数设计框图如图13 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnut6rAiayNIZ0FbfYJia33hOAVsWN4TM9sRSm784KCTaZ7VVL8yWeTNibyA/640?wx_fmt=png&from=appmsg)
+
+4.2 环路设计
+
+宽电压范围输入下，变换器需要具有宽增益和快速应对输入电压变化的能力。在本方案中，变换器工作在准谐振模式减小开通损耗，采用峰值电流模式控制快速稳定输出电压，即在控制环路中加入输入电压的前馈信息，将输出电压的误差放大之后与一次电流峰值进行比较，提高动态响应能力。
+
+环路设计首先需要对变换器进行建模，在开关元件平均建模中，用以平均变量为参数的受控源替代原来的开关器件，忽略其中的时变元素。因此可将变换器中的开关管S1 和S2 当作一个整体，变换器的小信号等效电路如图14 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnub0iaBkFzAzOsPLXK0XKAsqzQHVSLXhX2EVPDmWDy2PXukLGLejTUgrw/640?wx_fmt=png&from=appmsg)
+
+Req1、J1、Req2、J2 变量表达式如式（35）所示，Rcs 为采样电阻，RC 为Cout 的等效串联电阻，D1 为一次侧管的占空比。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnupSTaXN1YIsFXsSDysIerTiaxEdssXVu4Rssotp0qowG9et1D2DPqYmQ/640?wx_fmt=png&from=appmsg)
+
+可得控制量到输出的传递函数为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuK2V1qSLsHQhYXA372BibZic6XeJWn8tTia7Qkhicf9wAqWRSMAaf7ICmfg/640?wx_fmt=png&from=appmsg)
+
+不同输入电压下的Bode 图如图15 所示。电解电容的寄生电阻影响了极点和零点，高频零点使得相位提升，利于提升相位裕度。但较大的寄生电阻会导致大纹波和高损耗。同时，该变换器即使不使用反馈补偿，输出也不会自激振荡，但其低频增益不高，高频衰减不足，会使高频噪声较大，仍需补偿网络进行校正。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuoNJB22zMCldI8AvMYicoYrGURpvNFud421RdiaFCqWjIewz7NZibF9m9w/640?wx_fmt=png&from=appmsg)
+
+Ⅱ型补偿反馈电路如图16 所示，其中Opto 为光耦元件，FB 为控制器的反馈引脚，用以调节输出电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnu1gFhdOd2t1vT6W3NvOpSWrjS2jojgYzPialnCtt8ruDr9LaTXz9qcow/640?wx_fmt=png&from=appmsg)
+
+传递函数（设定 C2s  C1p，KCTR为光耦传输比）为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuuicIx1t6SeIe1p181pXF8Ps2eibQXVuzht6Z0iapibbUvQY3UFBK1Lf3icQ/640?wx_fmt=png&from=appmsg)
+
+式中，Cop为光耦元件的寄生电容；Rpullup 为上拉电阻；R2s、C2s、C1p、CFB 为环路补偿阻容元件；R1d 和Rd 为反馈电压的分压采样电阻；UFB 为反馈电压；Uo 为输出电压。
+
+反馈回路Bode 图如图17 所示。从图17 可以看出，Ⅱ型补偿网络会带来两个左半平面极点与一个左半平面零点，可以在提高稳态精度、调节动态响应速度的同时进一步调节高频衰减能力。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuKoV2P3hlWGBM2l0ZhTq0vcgicnX17e4sPicS7QiagqGNSsmoWvOpNmIWw/640?wx_fmt=png&from=appmsg)
+
+补偿后系统的开环传递函数sys 为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuFwI8icLSVfFgw8ziaDRWeKWz08hurKo7AekcSpxaQVCPRJq0uD5FXt0Q/640?wx_fmt=png&from=appmsg)
+
+式中，FB(s)为反馈通路传递函数。
+
+Ⅱ型补偿系统Bode 图如图18 所示。通过Ⅱ型补偿方法，补偿后变换器系统的截止频率为3.6 kHz，满足动态调整率需求，相位裕度为55.3°，系统稳定，高频衰减较好，符合需求。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuovGmn2D6b6UTUtM9OoZWtKNS2BGU0R362bNtxFOFrYMeHD87AcMqWQ/640?wx_fmt=png&from=appmsg)
+
+5. 变换器损耗建模与分布
+
+根据文献\[17\]中的损耗建模方法，在100 W 负载工况下进行分析，变换器中各损耗构成如图19所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuFuRTtribdkBp96KAMuqRdxDIgIDPAQw5pCwH1ia8mfHicdFMzrmkAITVQ/640?wx_fmt=png&from=appmsg)
+
+300V 工况下，一次侧开关损耗占比较大，二次侧整流管的导通损耗占比较大，TVS 管处于截止状态。900V 工况下，一次电流减小，开关损耗占比变小，TVS 管的损耗也变小。1500 V 工况下，开关损耗和TVS 管损耗增加，外围电路中的杂散损耗增加。
+
+杂散损耗主要包括熔断器损耗、输出滤波器损耗、控制器的外围电路损耗以及反馈回路的损耗，其中控制器外围电路损耗中启动电阻的损耗与电压正相关，会随着输入电压的升高而明显增加。
+
+6. 实验与验证
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuOEVcAy4ndy1tC7Ee4vicWrBDtHdlbWBngicWcwXibfOCvw6uZkqUuKfmg/640?wx_fmt=png&from=appmsg)
+
+为了验证方案的合理性，搭建了一台100 W 级联型反激变换器样机。在低成本前提下，尽量保证性能，一次侧采用SiC MOSFET，二次侧采用Si 整流管，基于应用需求，变换器参数见表1。TVS 管按照额定输入电压900 V 进行选择。基于上述参数和型号（成本小于200 元），搭建实验样机如图20 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuhrlQrV1dBWOCIRP8mDA294h3pwQ2EtDt8wSoYJggf7OpibI8SsLOAibQ/640?wx_fmt=png&from=appmsg)
+
+在满载功率为100 W，输入电压为300、900、1500V的典型工况下进行验证，波形如图21～ 图 23 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuVkdIutXTnD1gd9okH8lFjnnejxU1PLiafSjHQVesNxSyPuXVFFKibvSw/640?wx_fmt=png&from=appmsg)
+
+图21 为变换器工作在300 V 输入电压工况下的波形，此时变换器工作在非钳位模式，变换器的占空比为39.3%，工作频率为60.47 kHz，输出电压为23.82 V，纹波为190 mV，开关管S1 漏源极电压为530V，在第一个波谷处开通，开关管S2 电压为0。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuDurHic86eSpKmG2ug4Pr9GmH8DzxnUMagjtSQajxPSp5yTwxS9LP0Tg/640?wx_fmt=png&from=appmsg)
+
+图22 为变换器工作在900 V 输入电压工况时的波形，此时变换器工作在钳位模式，变换器的占空比为14.5%，工作频率为110.8 kHz，输出电压为23.84 V，纹波为130 mV。此时开关管S1 钳位至600 V，Vds2 为550 V。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnu3bnxnxqsxygM8qcx5fSgLKYf5Su6T8UsbyNfwHRm6LG1FcNI0LImRA/640?wx_fmt=png&from=appmsg)
+
+图23 为变换器工作在1500 V 输入电压工况时的波形，此时变换器工作在钳位模式，变换器的占空比为10.9%，工作频率为129.1 kHz，输出电压为24.10 V。此时开关管S1 钳位至650 V，Vds2 为1100V。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuDDzYc7hWibuqmHDu9chl0A8ooFhPknQOgTjJbX4zI1gX6kvNhAQgahA/640?wx_fmt=png&from=appmsg)
+
+动态负载切换如图24 所示。从图24 可以看出，负载变化时（90%负载切换到10%负载），输出电压变化峰峰值为1.2 V，为输出电压的5%，满足动态调整率需求。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuXBEgvDA0Yklwba9uh4uyCGgKEgiclVf9tHBNmFbXofW8b870y8Ktmsw/640?wx_fmt=png&from=appmsg)
+
+分别在满载（100 W）、半载（50 W）和轻载（10 W）工况下，对变换器进行效率测试，并与开关管数量和变压器数量相同的双管反激辅助电源进行比较，效率对比如图25 所示。可以看出，本变换器在满载与半载时相比于双管反激平均效率更高。但在轻载高压工况下，仍然有所不足：一是控制芯片的启动部分在高压输入时损耗较高；二是TVS 的电流在高压工况下会变大，损耗升高，是级联型反激拓扑的不足之处，在未来将深入研究该损耗并加以改善。从图25 中可以看出，基于所提出的参数设计方法研发的级联反激变换器可以满足宽增益的应用需求，同时具有很好的应用前景。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmtQ82t7Y4FwJY4RbBMJXnuMFfB4dLsSpEK5SdmIeFiaxsWyhx6dzaFUbDeRTgU2oVRKNxcyZtBTnw/640?wx_fmt=png&from=appmsg)
+
+低成本是级联型反激拓扑相比于双管反激拓扑、输入端串联型反激拓扑和多电平反激拓扑的一大优势。变换器成本对比见表2（以1500V 输入为例）。可以看出，通过TVS 管钳位可将电压进行合理分配，减小开关管电压应力，同时还能降低变换器成本，实现低成本、宽输入范围、高应力的高效电能转换。
+
+7\. 结论
+
+本文针对太阳能发电站、风能发电站等系统中高压宽范围输入的辅助电源，设计了一种级联型反激变换器，对该变换器细化了计及寄生参数影响的多模式工作模态，归纳了参数约束条件。针对R1、C1、TVS 管Vc 和稳压管V1，分析了这些元器件对电路性能的影响，并提出一种新型参数设计方法，同时对环路进行补偿设计。相比于传统方案，该拓扑采用单芯片驱动多个级联开关管，利用TVS 管分配开关管电压应力，拓宽了器件选择范围，并降低了成本。最后通过实验验证了所设计的高压宽范围辅助电源方案的有效性，并获得93.4%的运行效率。可以看出，所设计的方案可以有效地降低开关管电压应力，适用于高压宽范围输入的辅助电源设备。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)

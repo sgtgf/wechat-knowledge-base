@@ -1,0 +1,450 @@
+# IGBT 和 SiC 栅极驱动器基础知识
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/NqVFIgK6Tvp-cIMf59vjLQ](https://mp.weixin.qq.com/s/NqVFIgK6Tvp-cIMf59vjLQ)
+
+IGBT 和 SiC 电源开关基础知识
+
+  
+
+  
+
+**IGBT 和 SiC 电源开关有哪些市场和应用？** 
+
+高效的电源转换在很大程度上取决于系统中使用的功 率半导体器件。由于功率器件技术不断改进，大功率应 用的效率越来越高并且尺寸越来越小。此类器件包括 IGBT 和 SiC MOSFET，它们具有高电压额定值、高电 流额定值以及低导通和开关损耗，因此非常适合大功 率应用。具体而言，总线电压大于 400V 的应用要求器件电压 额定值大于 650V，以留有足够的裕度，从而确保安全 运行。包括工业电机驱动器、电动汽车/混合动力汽车(EV/HEV)、牵引逆变器和可再生能源光伏逆变器在内 的应用具有几千瓦 (kW) 到一兆瓦 (MW) 甚至更高的 功率水平。SiC MOSFET 和 IGBT 的应用具有相似的功 率水平，但随着频率的增加而产生差异，如图 1 所示。SiC MOSFET 在功率因数校正电源、光伏逆变器、用于 EV/HEV 的直流/直流、用于 EV 的牵引逆变器、电机驱 动器和铁路中变得越来越常见，而 IGBT 在电机驱动器 （交流电机），不间断电源 (UPS)、小于 3kW 的集中式 和串式光伏逆变器以及牵引逆变器 EV/HEV 中很常见。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pUeibsazWd09mPluth2u9CPiaQ42JmmpcSMmyZialfyyy19aOR5ibuLGGYg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 1：基于功率和频率水平的功率半导体器件应用
+
+  
+
+**SiC MOSFET 与硅 (Si) MOSFET 和 IGBT 相比有何系统优势？**
+
+Si MOSFET 和 IGBT 已在电源转换器中使用了很长时间。不过，SiC MOSFET 已成为一项新技术，鉴于其固 有的材料特性（宽带隙 (WBG) 材料），其优势已超过这 些器件。表 1 中总结了这些特性。与使用 Si 器件的系 统相比，SiC 的材料特性可直接转化为系统级优势，包 括更小的尺寸、更低的成本以及更轻的重量。因此，SiC MOSFET 正在逐渐取代 Si 功率器件。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pa4Mrsuha6Bnqcr92yL5S3Ou7jMJichAPPhjNSSXFT1qh7FDxBwicFzibA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+表 1：功率器件材料特性
+
+  
+
+**Si MOSFET、Si IGBT 和 SiC MOSFET 电 源开关之间有何差异？** 
+
+Si MOSFET、Si IGBT 和 SiC MOSFET 均可用于电源 应用，但其功率水平、驱动方法和工作模式有所不同。功率 IGBT 和 MOSFET 在栅极均由电压进行驱动，因 为 IGBT 内部是一个驱动双极结型晶体管 (BJT) 的 MOSFET。由于 IGBT 的双极特性，它们以低饱和电压 承载很大的电流，从而实现低导通损耗。MOSFET 也具 有低导通损耗，但取决于器件的漏源导通电阻 RDS(ON) 与导通状态电压。Si MOSFET 承载的电流要小于 IGBT，因此 IGBT 用于大功率应用。MOSFET 用于重视 高效率的高频应用。就器件类型而言，SiC MOSFET 与 Si MOSFET 相似。不 过，SiC 是一种 WBG 材料，其特性允许这些器件在与 IGBT 相同的高功率水平下运行，同时仍然能够以高频 率进行开关。这些特性可转化为系统优势，包括更高的 功率密度、更高的效率和更低的热耗散。表 2 列出了这些器件之间的一些主要差异。 
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pia8K8Yic2ekOwc0JWrrZVkib7qUhq8hd6m0FYZbuSODNO5zNIeuCLZUZQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+表 2：功率器件额定值和应用
+
+  
+
+  
+
+  
+
+隔离式栅极驱动器特性
+
+  
+
+  
+
+**隔离的一些常见形式是什么，它们有何差异？  
+**
+
+隔离对于系统可靠性和人身安全而言至关重要。可以 使用各种形式的电气隔离。三种主要的类型是光学隔 离、磁隔离和电容隔离。每种类型使用不同的方法将交 流或直流信号可靠地传输到输出，无需实际的电气连 接。光学隔离（如图 2 所示）通过驱动 LED 灯来传输信 号。LED 位于光晶体管附近，光晶体管将光信号转换为 由互补金属氧化物半导体 (CMOS) 电路缓冲的电流。磁隔离（如图 3 所示）使用变压器的绕组通过磁场在气 隙中传输信号。输入端的磁场在输出端感应出与原始 信号成正比的电流。电容隔离（如图 4 所示）使用电场 在两个导电板之间传输信号。在选择正确的隔离栅类型时，主要考虑因素是隔离级 别、CMTI 等级以及降级和寿命。德州仪器 (TI) 电容隔离技术的工作电压由时间依赖型 电介质击穿 (TDDB) 决定，其中考虑了所有降级机制。与基于光耦合器和基于变压器的隔离相比，TI 的电容技术显示了处理更高应力电压的能力。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pt8gGWT4uvyNYR04a1Vqv5HHLdiayicXP0BX7pGUXc9KCmr8AsaQ9jjSg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pUiaMWJIKfL7hECYSLaJp3iadJFjLDg4HwxJU24qfibMpwc7hmaXmFKIvA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pB8umVmuaYrbhVibdiaE5u1whMiap8SV1nwMfAPjIzPYr5QGjPN1RXicBgQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+**高电压应用为何需要隔离？** 
+
+许多系统包含低电压和高电压电路。这些电路相互连 接，将所有控制和电源功能结合在一起。例如，图 5 显 示了牵引逆变器的方框图。这包括初级侧的低电压通 信、控制和主电源电路。次级侧具有高电压电路，包括 电机驱动器、功率级和其他辅助电路。控制器使用来自高电压侧的反馈信号，并且容易受到 高压的影响，因此如果没有隔离栅，则会造成损坏。隔离栅通过形成单独的接地基准将初级侧电路与次级 侧电路进行电气隔离，这也称为电隔离。这种隔离可以 防止不需要的交流或直流信号从一侧传输到另一侧。初级侧不会超过电路的最大额定值。此外，人可能会触 及控制电路，因此需要采用高电压隔离以防止电击。有三种主要类型的隔离：功能隔离、基本隔离和增强型 隔离。功能隔离指确保正常运行但不防止电击的隔离 级别。只要隔离栅完好无损，基本隔离就可以提供足够 的电击防护。安全准则要求使用增强型隔离，这是基本 隔离级别的两倍，用于提供冗余。
+
+  
+
+表 5：牵引逆变器方框图
+
+  
+
+**如何确定电源开关的驱动强度？  
+**
+
+驱动强度指栅极驱动器的拉电流和灌电流能力。驱 动器强度的选择取决于所使用的电源开关 (IGBT 或 MOSFET)（基于其栅极电荷）。栅极电荷是所需的电荷 量或给定时间段内的电流，用于对输入电容进行充电 和放电，CISS = Cgd+ Cgs，如图 6 所示。栅极电荷表示为 一段时间内栅极电流的积分，并重新调整以求解所需 的栅极电流：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pbJIqN7WhgicjJEP8tQSmENhE8ntZvCd14gYnwNuGZZpOdYNzZmW9BTQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+其中 trise/fall 是栅极电压提高开关速度所需的上升和下 降时间。栅极电荷在大多数数据表中表示为如图 7 所 示的图，其中描述了电荷分布到 Cgd 或 Cgs 的区域。最 关键的区域是米勒平坦区域，在该区域中对 Cgd 进行充 电并且栅极电压保持恒定。在该区域内，器件上切换的 电压会改变状态并导致开关损耗。因此，驱动器应该能 够在该区域内提供最大的驱动强度。栅极驱动器所需 的功率由下式给出：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0prGZApO8BUYR0Z3sYsZTNZnoC57fkKDKiazP3ibHaNuXZUHe0Le84cOfw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+其中 fsw 是开关频率，VDRV 是驱动电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0ptZFYBNlRr6IWGRRoddzf1c9BrEhz43ianbzVicTUaEIZxwXogoLuZYHQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 6：功率器件输入电容
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pmG2b3VUDo4kMT4FDb6Jtn4IWdGVlQT9uevFKg8VLRBOtcolDqGibehQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 7：功率器件栅极电荷图
+
+  
+
+**对于驱动电源开关而言，分离输出为何比 单个输出更好？**
+
+栅极驱动器在电源开关器件的栅极上拉取和灌入电 流，以使其导通和关断。开关电源器件的速度取决于驱 动电流。要计算驱动器可用的驱动电流，应使用施加的 栅极驱动电压和栅极电阻：
+
+  
+
+栅极电阻器控制器件的瞬态电压 (dv/dt) 和瞬态电流 (di/dt) 的速度，以限制开关噪声和开关损耗。对于功率 器件，上升时间、下降时间以及导通和关断之间的延迟 通常是不同的，因此需要单独考虑。例如，关断时的 di/ dt 可能导致较大的电压过冲，因此降低开关速度是有 益的。不过，在导通期间，最好快速进行开关，以降低开 关损耗。栅极驱动器可以具有单个或分离输出。图 8 显示了单 输出驱动器。在这种情况下，二极管会分离导通和关断 的控制。这会增加物料清单，占据栅极驱动器板上的更 多空间，并且增大栅极回路中的阻抗。作为替代方案， 分离输出驱动器具有单独的导通和关断路径，用于完 全独立地控制驱动拉电流或灌电流强度。关断时具有 较低的 RG 对 SiC MOSFET 是有利的，可以防止由于快 速开关和米勒电流引起的误导通。因此，分离输出（图 9 ）是高效且安全地控制功率器件的最佳选择。
+
+  
+
+图 8：具有单个输出的驱动器
+
+  
+
+图 9：具有分离输出的驱动器
+
+  
+
+**高驱动强度为何对 IGBT 和 SiC MOSFET 有益？**
+
+IGBT 和 SiC MOSFET 在开关瞬变期间会因电压和电 流重叠而产生损耗，如图 10 所示。栅极电流或驱动强 度决定了器件输入电容器的充电和放电速度，在图中 表示为 tsw。当栅极电流增大时，tsw 减小。如果电流过 小，则损耗升高。所需的栅极驱动强度取决于器件的 栅极电荷 QG，如图 11 所示。可以使用以下公式计算在 V gs 增大至超过 Vth 到最大驱动电压 VDRV 期间（时间为 ton）为器件充电所需的平均电流：
+
+  
+
+该电流是使器件完全导通所需的平均电流。不过，我们 感兴趣的区域是米勒平坦区域，在该区域中栅极电压 在开关瞬态期间保持恒定。栅极驱动器必须能够在该 区域期间提供最大电流，以降低开关损耗。这取决于栅 极电阻器和该平坦区域期间的驱动电压。SiC MOSFET 可以非常快速地进行开关，从而适合大功率和高频率 应用。栅极电流必须很高才能使器件提供这些好处。更 快的开关速度可最大限度地减少无源组件，从而减小 总体系统尺寸和重量。在快速且高效地开关时，IGBT 和 SiC MOSFET 均可提供系统级优势。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pSdW9YNEn13rYqPQmsfwdxRgLiaHMqLQ7AjbnGuZBgsFbTbtQ9QoxKZQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 10：器件导通开关损耗 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pvTL0TJe7mHNsxk1OPzCKTA9kPJYRSmukgHKKbMIU37HugpfBecF1qA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 11：器件栅极电荷图
+
+  
+
+**保持最小死区时间为何对于电源系统运行 而言至关重要？**
+
+死区时间在许多开关模式电源转换器、逆变器和电机 驱动器中至关重要。死区时间是指两个器件采用半桥 配置时都没有进行开关以避免任何潜在重叠的时间 段，如图 12 所示。有几个因素可以影响死区时间设置：脉冲宽度失真、传播延迟以及上升和下降时间。脉冲宽 度失真由上升沿和下降沿的传播延迟不匹配决定，如 图 13 所示。传播延迟也至关重要，特别是在针对高侧 和低侧使用两个单独的驱动器时。这两者之间可能发 生不匹配情况，如图 14 所示。此外，上升和下降时间也 可能影响这些信号的重叠。这些参数中最大的是最小 允许死区时间，加上一定的误差幅度。在电源系统中，保持最小死区时间以提高转换器效率 至关重要。在死区时间期间，电流向回流过 IGBT 或 MOSFET 体二极管，如图 12 所示。体二极管的压降比 器件本身大得多，因此导通损耗更高。死区时间越长， 损耗就越高，从而降低效率并产生热量。因此，最好通 过使用具有低脉冲宽度失真、低传播延迟和短上升和 下降时间的栅极驱动器来最大程度地缩短死区时间。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pbTBX3matLl9pRwrjPw99raqC4xXIclmDykqPk13JCMVIFq3oichW88g/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 12：同步开关半桥 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0paTA3qBE4SgB56DS43bicLoecVbhQic4eTibG7kYVFibdXjJEJWAewiaT44Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+ 图13：脉宽失真
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pU5ALGyEvs71JicCyxQWXpoSY4Pfc5zmJO8L6Re6mfVChxDI0kC612Ww/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+ 图 14：传播延迟不匹配的影响
+
+  
+
+**低传播延迟为何对于高频电源系统而言至 关重要？** 
+
+由于 SiC MOSFET 等 WBG 器件，现在可以使用高频电 源系统。在这些系统中，更高的频率能够最大程度地减 少滤波组件，从而最大程度地减小系统，因此能够实现 更高的功率密度。不过，更高的频率也意味着更高的开 关损耗。因此，最大程度地降低损耗至关重要。传播延 迟是栅极驱动器的关键参数之一，它可能会影响高频 系统的损耗和安全性。传播延迟定义为从输入的 50% 到输出的 50% 的延时时间，如图 15 所示。该延迟会影 响器件之间切换的时序，这在器件之间的死区时间或 关断时间受限的高频应用中至关重要。死区时间是必 需的，用于确保两个器件不会同时导通，而同时导通可 导致击穿并降低效率。如果死区时间小于传播延迟，则 两个器件将同时导通，如图 16 所示。不过，使死区时间大于传播延迟会导致系统效率降低。在使用 SiC MOSFET 时该结果至关重要，因为在死区 时间期间电流会向回流过体二极管。该二极管两端的 压降很大，因此会增加损耗。传播延迟至关重要的其他 应用包括并联 MOSFET 和 IGBT 并以最小的导通延迟 差异同时驱动它们。通常，最好使用具有低传播延迟的 栅极驱动器，并且在高频系统中提高效率至关重要。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0p3UicloqwGSaNNeQ5eibH7I6z1nxmlIATdJibYiaknKatWCg9RpVB6zj8Wg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 15：传播延迟 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pbLn4UHku6M3wy60Lfa2sqribwU6kMo8Te2aTKqDnCNgpALYnlfNJp2g/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 16：传播延迟不匹配
+
+  
+
+**严格的器件至器件传播延迟匹配为何至关 重要？** 
+
+当使用多个驱动器来驱动电源和逆变器应用中的同步 开关时，传播延迟是电源系统中的关键参数。延迟会影 响设计到系统中的死区时间，以防止两个器件同时打 开或同时驱动多个并行器件。双通道栅极驱动器同时 具有用于上下开关的输出，高侧和低侧输出之间的传 播延迟可能会有所不同。不过，使用两个单通道驱动器 也很常见（如图 17 所示），可将其放置在更靠近功率器 件的位置。如果两个驱动器具有相同的传播延迟规格， 则可以设计死区时间，以一定的误差幅度匹配该规格。由于器件之间的差异（例如，高侧驱动器的传播延迟比 低侧驱动器更长），也可以将传播延迟指定为较宽的范 围。图 18 显示了一个不匹配的传播延迟与上升时间 和下降时间示例，这会在某些开关周期（甚至包含死区 时间）内导致重叠。在这种情况下，您需要大幅度增加 死区时间设置以防止击穿，因此会降低转换器效率。不 过，如果驱动器具有严格的器件到器件传播延迟匹配， 则可以减小死区时间，而不必牺牲效率或担心安全性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pTxPc5iaZdibCm3RDjiaRBePwBhUjpBBQrrpFZYuFQ87VfGqdPLjvqq03Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 17：硬开关半桥配置 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0p6ah8AfZqxeiaU51ibOPKJC2o9YMbNiaCZ2qia2Ckh3quLZxDiahJrTjH3Sw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 18：传播延迟对死区时间的影响
+
+  
+
+**高 UVLO 为何对于 IGBT 和 SiC MOSFET 电源开关的安全运行而言很重要？**
+
+UVLO 监视栅极驱动器的电源引脚，以确保电压保持在 特定的阈值以上，从而确保正常工作。在次级侧，UVLO 额定值设置了打开电源开关所需的最小允许驱动电 压。栅极电压对导通损耗和开关损耗都有影响。由于可 用栅极电流减小，因此当 VGS 较小时，开关损耗将增加， 从而使开关速度更慢： 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pcmy4QbVweVCzwRoV3SdUDyNU7VXts85RGj6v47646RORiagwk9sa15Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+导通损耗对于系统性能而言至关重要，并且高度依赖 于 VGS。如图 19 所示，当栅极电压降低时，IGBT 和 SiC MOSFET 的输出特性会发生变化。对于 SiC MOSFET， 这种变化更加明显。例如，如果某个 IGBT 的 UVLO 为 10V，则该器件仍会在特定的电流水平下以类似的导通 损耗运行。不过，对于 MOSFET，与较高的驱动电压相 比，其导通损耗将高得多。高导通损耗的结果是导致更 低的效率和发热，从而缩短寿命。一个次要的考虑因素 是栅极驱动架构。SiC MOSFET 和 IGBT 通常使用负电 压轨，以实现更佳的关断性能和可靠性。如果 UVLO 以 VEE 为基准，则最小驱动电压可能甚至低于规格。通常 最好使用较高的 UVLO 电压，以确保随着时间的推移 实现低导通损耗和更佳的可靠性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pfPx98kcYM3ZyfYP0HABV05377Kh84fxoDkUkzqPTuDwDnySy4BLtmg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 19：IGBT 和 SiC MOSFET I-V 曲线
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pKmPJDTOK6oBKlp0Rx205f698S0XqBiaQHTznRiazISMVwCtIDiawTTl3w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 20：以 COM 为基准的 UVLO
+
+  
+
+**什么是输入抗尖峰滤波器，它们为何在大功率应用中很重要？** 
+
+大功率应用容易受到电源开关中大电压和电流瞬变的 影响。该噪声可能耦合到与栅极驱动器相连的控制信 号线。结果，栅极驱动器输入端可能会产生意外的电压 尖峰，从而导致驱动器在不应该使电源开关器件导通 时将其导通。由于输入电容和栅极电阻，因此该脉冲可 能很小，以至于不足以使功率器件完全导通，从而导致 大量的导通损耗。如果两个器件在半桥中互补开关，则 在其意外地同时导通时，可能会导致击穿问题。击穿允 许大电流流过器件，可能损坏其中一个器件或使两个 器件都损坏。输入抗尖峰脉冲滤波器可以抑制环境噪声，从而使驱 动器输出看不到干扰。干扰抑制通常约为 20-30ns，相 应开关频率为 50MHz，该频率不接近于 IGBT 或 SiC MOSFET 应用的常见开关频率。干扰滤波器可以同时 抑制正脉冲和负脉冲，以防止器件意外导通或关断，如 图 21 和 22 所示。在栅极驱动器中集成抗尖峰脉冲滤 波器可改善高噪声环境中的驱动器性能，并保护器件 免受可能的故障影响。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pGibSWlGnEJNCZY0DJ82Yl6KwkS7HFn7VbszqTLLO3buHek5ibjzA4Hqg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 21：导通时的抗尖峰脉冲滤波器
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pXuAFTkBz0piaSiaibQOiaj2KPA72AWJ992dHYdzSdvq18ah8WKPVa8voRA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+ 图 22：关断时的抗尖峰脉冲滤波器
+
+  
+
+**什么是互锁保护及其如何在驱动器中实现？**
+
+IGBT 或 SiC MOSFET 对它们在其中运行的系统的运 行至关重要，因此对其进行保护非常重要。这些器件不 仅对于高效运行而言至关重要，它们也是系统中最昂 贵的组件之一。将器件布置在半桥中（如图 23 所示） 时，它们不能同时导通。因此，在开关改变状态以及两 个器件都关断之前使用死区时间。如果两个器件同时 导通，则会发生击穿并导致大电流尖峰和潜在的故障。如果死区时间计算不正确（过短、驱动器之间的传播延 迟不同或输入端噪声），则会发生击穿。互锁是一项集成在栅极驱动器中的功能，可防止击穿。逻辑电路结合了栅极驱动器的正输入和负输入，因此 它们永远无法同时导通。可以将其视为一项集成的死 区时间功能，其中考虑了驱动器的固有延迟。即使用户 编程的死区时间出错，驱动器互锁也不会允许两个输 出同时打开。可以为单输出或双通道驱动器实现互锁 如图 24 和 25 所示。在双通道驱动器中，输入通道在 内部连接在一起；在单输出驱动器中，输入在外部连接 在一起。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0p0Te7oXnjorIUkwiajM7q6MiaWSszWRBJMCFcLBfA6fXetfPPnHqWliaTg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 23：硬开关半桥 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0p7ibQ9VWyne1CW6AZhzz7yzI9llqKY3Je9a2XKfodkWR7vDmyZLxDWsw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 24：具有互锁功能的双通道驱动器 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pLMnyicEZJs0O8q5GO8rtpJD1zicpibBTic6bNOIysH61UUIgoibn0iaNTV1Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 25：两个具有互锁功能的单通道驱动器
+
+  
+
+**为何在电源转换器中感应温度？** 
+
+由于封装材料限制，分立电源开关和电源模块设计为 在特定的温度范围（通常为 -50°C 至 150°C）内工作。不 过，开关引起的功率损耗和导通损耗将导致芯片发热， 从而导致其随时间的推移而损坏或完全毁坏。器件的运 行环境可能包含极高的热量，这也可能导致裸片温度过 高。通常，电源系统设计人员会首先在温度达到特定的 限值时降低功率，然后在温度超过最大阈值时完全关闭 转换器。为此，使用温度传感器来监测器件温度。温度测量精度是关键因素，因为在不必要的情况下，降 低功率是不可取的。如果精度很差，则该器件可能仍会 承受过多的热量并随着时间的推移而退化。当降低散热 器设计的成本时，高度精确的测量还提供了裕度空间。通常使用热敏电阻或热敏二极管监测温度。负温度系 数 (NTC) 热敏电阻通常监测 IGBT 电源模块中的温度， 并集成在靠近器件的位置，以便提供最精确的读数 （图 26）。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pHlQgzFWQUEiblWNiaox7JDDNOibzBQhAPaiaFOrmYbYfy0D68QibQmwoLlw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 26：具有集成温度传感器的电源模块
+
+  
+
+**什么是 CMTI，如何进行测量？** 
+
+共模瞬态抗扰度 (CMTI) 是隔离式栅极驱动器的一项 主要规格。CMTI 是施加在两个隔离电路之间的共模电 压 VCM 上升或下降的最大容许速率，如图 27 所示，单 位为千伏/微秒 (kV/us) 或伏/纳秒 (V/ns)。为了改变测 试的压摆率，可以增大电压或减小时间间隔。该隔离等 级与其他静态隔离或浪涌等级不同，因为它以更快的 变化率施加。大功率开关能够在几百纳秒内改变电压 和电流 - 对于 SiC MOSFET，该时间短于 100ns。这会 产生非常大的电压瞬变，通常大于 100V/ns。栅极驱动 器在每个开关瞬间都会经历这些电压摆幅，尤其是在 驱动器以开关节点为基准时，如图 28 所示。因此，驱动 器需要能够承受高于额定水平的 CMTI，以防止低压电 路侧产生噪声，并防止隔离栅发生故障。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0picK0KKkfKe0HNLnicPedfNMLrmMAbgd3W3AhROKKB7In3uRwT6cNkDGQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 27：CMTI 测试
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pKLIMcUZjZEKDGgQBSetfTcvRCwIzN9Lia55LskbHyibOyoF1IG4uHUbQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 28：隔离式双通道驱动器 
+
+  
+
+**隔离式感应为何很重要，它需要达到多高的精度？** 
+
+电源转换器和逆变器使用电压、电流和温度传感器来 提供反馈控制，优化系统性能或防止产生故障。例如， 三相电机驱动器使用电流反馈来调节电机的转速和扭 矩。如果电流测量不精确，则电机会产生扭矩纹波，从 而无法正常运行。如图 29 所示，可以测量系统中的各种信号，包括相电 流、电压和温度。出于功能和安全原因，对这些信号进 行隔离，从而将低压控制侧与高压感应侧分开。在低电 流系统中，使用分流电阻器在相线上的一个分流上测 量相电流，其中参考节点位于逆变器的开关节点上。如 果未隔离此信号，则控制侧将看到 VDC 的高压摆动，低 压电路将损坏。此外，人可能会触及控制箱，因此需要 采用高电压隔离以防止电击。测量精度取决于系统要求。通常，电流和电压必须十分 精确（在 ±1% 以内），因为它们会反馈到控制器，用于 直接改善系统输出。通常，温度不需要如此精确；处于 ±3% 至 5% 的范围之内就足以防止由于过热而导致 故障或降低功率以冷却系统。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pCfvSAaM0kpNkWhOhREZWhtBpugbm98SUoGQwYBiapJ75Wz8WFiatS0uQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 29：三相电机驱动系统中的隔离式感应  
+
+  
+
+  
+
+  
+
+IGBT 和 SiC 保护基础知识
+
+  
+
+  
+
+**什么是 dv/dt 引起的导通？**
+
+IGBT 和 SiC MOSFET 通常用于大功率逆变器、转换器 和电机驱动应用。由于高功率水平和这些快速开关器 件，在每个开关瞬间都会产生很大的 dv/dt 和 di/dt。在理想情况下，这些快速瞬变对系统有利，并且不会造 成任何负面影响。实际上，电路和开关器件包含与这些 瞬变相互作用的寄生电容和电感，从而可能对系统造 成破坏。具体而言，dv/dt 可能会通过在上部器件 S1 开启时错 误地使半桥中的下部器件 S2 导通导致击穿，如图 30 所示。Vds 或 dv/dt 的快速增加导致电流流过寄生电容 Cgd 或 Cge （该寄生电容称为米勒电容，位于 MOSFET 内），其路径如图 31 所示。相应的关系为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pEL468zhh1L9TRRzO1UeDKcibn58uficAc4wr4fPFibt2Bs3rEJwCBRFQw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+米勒电流根据栅极电阻以及 Cgd 与 Cgs 之比在栅极上 产生电压。如果压降大于阈值电压 Vth（如图 32 所示）， 则该器件可能会导通并引起击穿，从而导致过大的电 流和功率耗散。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0p04uv5Bl3b663RJyGGAgv3zCg1nTjbuypicsKGBNMGz30QJzyPvcicxJA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 30：MOSFET 半桥
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pdNanjdUdBAz7Q6Sv7qF5OVDQrPNzsMvBZmBMx0QEmYxC65fQwqRwcw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+ 图 31：S2 的米勒电流路径
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0prms9qnR32saYVCKtqSOyBG4R75tUCdmk71ogt6mI8eJAicfViay22dMA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+ 图 32：米勒电流对 S2 的栅极电压的影响
+
+**什么是米勒钳位？** 
+
+电源开关的电压瞬变 dv/dt 与寄生米勒电容器 Cgd 相 互作用，导致电流流过栅极并可能导致误导通。米勒电 容是基于功率器件的物理特性的固定参数，无法更改。下一个解决方案是减小 dv/dt。通常，会调整栅极电阻 器 Rg 以调节驱动强度，从而将开关速度降低至可接受 的水平。不过，增大 Rg 也会通过减慢开关速度来增大 开关损耗。米勒钳位可以在不影响开关效率的情况下 重定向电流。米勒钳位以米勒电容器命名，是一种低阻抗开关，可重 定向由 dv/dt 引起的电流。米勒钳位通过将 MOSFET 的栅极接地或与负电压轨相连，将器件保持在关断状 态。实施米勒钳位的一些主要考虑因素是位置和下拉 电流能力。位置决定了阻抗，从而决定了钳位的有效 性；阻抗越高，其有效性越差。下拉能力决定钳位是否 能够重定向足够的由 Cgd 产生的电流，以防止误导通。如果下拉电流过小，则钳位无效。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pOPlxIGLUrbsgfXVaRFsxbayRHPImbemCAiba6vXcgpqSNjVQFT9Hw5w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 33：不带米勒钳位的栅极驱动器 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0ptBhxiaFt7nb3eQ5CFkXDDOA3b9ZL6MIf7hQp3lQ1LRCenH3UTHuYdrw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 34：带米勒钳位的栅极驱动器
+
+  
+
+**内部米勒钳位与外部米勒钳位之间有何差异？**
+
+米勒钳的位置会极大地影响其有效性。钳位的目的是为 米勒电流提供一个低阻抗路径，使其流向接地端。如果 钳位的位置远离开关器件，并且布局未经过优化，则钳 位路径中的阻抗可能大于通过栅极驱动器的阻抗。根据 系统评估是需要内部还是外部米勒钳位非常重要。内部米勒钳位位于驱动器 IC 内。使用内部钳位可减少 构建电路所需的组件，但其位置可能远离电源开关。米 勒电流的路径中可能具有寄生电阻和电感 Rp 和 Lp ，如 图 35 所示。如果该电流足够大，则米勒钳位不会对驱 动器性能产生太大的影响。外部米勒钳位由驱动器控制，但位于外部，如图 36 所 示。这样，可以将钳位放置在非常靠近电源开关的位 置，以减小电流路径中的任何阻抗。该实现最适合具有 高 dv/dt 的器件。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pialuibNibh2Y0BqkMyBO1eCRhSB1c6vLHvmGS9gQzEBicjelxcLvTBkKqw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 35：带内部米勒钳位的栅极驱动器 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pOQicljV5ZJdzV0WlrMezJdBqQYl52ic1keib2JBKp1B5mqz43MibO4IicpQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 36：带外部米勒钳位的栅极驱动器
+
+  
+
+**什么是短路电流？** 
+
+在电位不同的导体之间建立电气连接时会发生短路， 从而形成几乎没有阻抗的路径。在这种状态下，电流不 再受到限制，可能达到破坏性的水平。短路可能由各种 原因导致，包括接线不良、过载情况或控制故障。短路是逆变器、转换器和电机驱动器等电力电子产品 中最普遍的故障之一。短路可能导致电源开关器件发 生灾难性故障。IGBT 或 SiC MOSFET 等开关具有有限 的基于其热容量的电流承受能力。过大的短路电流 （远高于额定水平）会导致裸片中产生大量的热耗散。在图 37 中，VDC 通过 S1 与 VOUT 短接。当 S2 导通时，短 路电流通过开关迅速增大（如图 38 所示），从而导致 过热和损坏。因此，有必要使用保护电路来检测何时发 生短路，然后在发生故障之前关闭功率器件。根据器件 可以承受过流事件的允许电流水平和时长来设计保护 电路。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0ptA9KvyrmcPVTJFxicYMuzgZ6PyibwY3x5V03LHfazwCPkVQmkCkNXZAg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 37：具有非重叠输入的硬开关半桥 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pCHQR19Oo45X9nIqGbw7JN6VwRbCrzJKia7zGqKMlDe2TmxW7rIa4CJw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 38：短路事件期间的 S2 波形
+
+  
+
+**检测短路的方法有哪些？** 
+
+可以通过多种方法来检测短路。方法的选择取决于功 率器件的类型、系统电压和电流额定值、精度要求以及 成本限制。短路感应就是直接或间接测量流经 IGBT 或 SiC MOSFET 的电流。请参阅表 4。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pP1HQPCm3y8Pbsc9XKTiaHAvg6MMibQV41QaJt3LWt3MCtuTZ6sjbrPHg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+表 4：短路检测方法的优点和缺点
+
+  
+
+**快速短路反馈为何至关重要？** 
+
+快速短路反馈对于将器件保持在其安全工作范围内而 言至关重要。发生短路时，电流会迅速增加至超过器件 额定值的水平，从而由于功率耗散而发热。根据电流水 平和保持该电流水平的时间，器件可能损坏。给定时间 段内耗散的功率称为短路能量（如图 39 所示），器件可 以承受的最小能量称为其临界能量 EC。EC 的定义不一定总是很明确，但您可以根据结至外壳 热阻 Zthjc 图进行估算，如图 40 所示。该图显示了 Zthjc (°C/W) 与脉冲时间 tp 之间的关系（采用变化的占空比 D）。热阻至关重要，因为它定义了裸片的热容量。通常， 器件需要保持在指定的结温 Tj 以下，临界能量的计算 公式为： 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0p3ne5LWAMibv5tEPRaiaNgBhLQ9rgU4g3PuibNQKn9ecFEm1mU1qiafQFYA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+脉冲宽度可以帮助确定短路反馈电路必须达到多快的 速度，以防止器件过热。这对于 SiC MOSFET 尤为重 要，因为它们快速进行开关，从而使电流可以迅速增 大，并且它们具有很小的裸片尺寸，因此与 IGBT 相比， 它们的短路承受时间 (SCWT) 更短。因此，缩短测量过 电流事件的时间并选择相应的保护电路至关重要。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pnzA46Yib4NbNL3hwpIQibeic0uMPGfYCnJmb24RbCLD2ITRjgDiaW8vGuA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 39：短路期间的功率损耗
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0p3bKyADF2xn0uH8VcN6YbhHnyibz3f7L0ZEhs3ibjCaOFdibib81UZWrOVA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 40：单个脉冲的 MOSFET 热阻
+
+  
+
+**什么是 IGBT 中的去饱和，如何检测它？**
+
+IGBT 中的过电流会导致去饱和。各种短路事件都可能 导致去饱和，在这些事件中电流会迅速增大至超过器 件最大额定值的水平。当 IGBT 去饱和时，从饱和区移 到有源区，会消耗最大功率，从而导致过热并可能造成 灾难性损坏。因此，通过限制电流 Ic 以确保在饱和区域 内运行 IGBT 至关重要。在电流膝点（如图 41 所示）处，器件开始转换到有源 区域。此时，Ic 停止增大，而 Vce 继续增大。保护电路旨 在通过测量电流或监测电压水平是否达到预设的阈值 （分别为 IDESAT 和 VDESAT）来检测该转换。最常见的保护 电路称为 DESAT 保护，它监测导通状态电压 Vce，以检 测何时达到阈值。在这种情况下，选择 VDESAT，使其处 于电流膝点区域内（通常为 7V 至 10V）。在正常运行期 间，VDESAT > Vce。当 VDESAT < Vce 时，将触发 DESAT，该电 路将安全地关断 IGBT，以防止损坏器件。DESAT 电路 可以集成到栅极驱动器中，也可以使用分立组件实现。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pEAz8uDpicch1IN4vDMbhIAwRRkMzWCYgFzPRv7QoJmL2rwic4JnXODCQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 41：IGBT 的 I-V 曲线
+
+  
+
+**什么是 IGBT 去饱和检测中的消隐时间？** 
+
+DESAT 检测必须足够快地触发，以防止发生灾难性故 障。不过，由于系统的非理想性（例如功率器件的非理 想开关，其中完成电压和电流转换可能需要数百纳秒 的时间），立即进行 DESAT 检测可能会导致不精确的 故障触发。如图 42 所示，首先是电流上升，然后电压下 降。DESAT 在导通状态期间检测电压 Vce 或 Vds，因此 应将测量延迟到器件完全导通且电压达到其最低值之 前进行。此外，在快速电压瞬变之后可能会发生振荡， 从而导致 DESAT 电压上升到阈值以上。由于这些原 因，DESAT 电路设计具有称为消隐时间的固有延迟，该 延迟应至少为 t4-t0。如上所述，消隐时间 tBLK 应足够长，以防止误跳闸，但 又应足够短，以在器件损坏之前将其关闭。建议的消隐 时间通常大约为 2µs，该值小于 IGBT 的 SCWT。SCWT 由给定时间段的最大允许功率耗散定义。DESAT 电路 设计采用图 43 中所示的组件，这些组件包括一个电流 源 ICHG、一个电压基准 VDESAT 和一个电容器 CBLK。消隐时间计算公式为：
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0p9y8fXuP5lW5avzU5CVIibaB0aRSO5WuI5CsjqjV6EAdcCB15LpVctgQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pNDAAfgUKibKz2DOTmLB6mrTiaTfvYEzibcCExKAlmBZRWQiaqsZJrMArRw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 42：电源开关导通波形 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pzTQ0ZWy7kq8Pwg5NKTRnIAouHqC9kRIciaicktribibC2lBYicotSoWZH8A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 43：典型的 DESAT 电路实现
+
+  
+
+**如何为 IGBT 设计去饱和电路？**
+
+DESAT 保护电路需要考虑适当设置消隐时间、DESAT 阈值电压和高压阻断二极管。消隐时间 tBLK 必须足够 长，以防止误触发，但必须短于器件的 SCWT。消隐时 间设置取决于 IGBT 的特性。通常在具有 DESAT 功 能以及阈值电压 VDESAT 的驱动器 IC 中提供充电电流 I CHG，如图 44 所示。根据直流总线电压设置高压二极管 DHV。当 VDC 的范围 为千伏级时，DHV 可以是多个串联的二极管。DHV 的反 向恢复应极小，以防止反向电流引起误跳闸。最好使 用快速恢复二极管，以防止产生错误的 DESAT 故障信 号。此外，多个高压二极管可以帮助调节实际阈值电 压 VDESAT,actual，其中从 VDESAT 中减去二极管数量乘以其 正向电压所得的值。VDESAT 是 DESAT 故障触发时的基 准电压，该基准电压在具有集成 DESAT 保护功能的栅 极驱动器中设置。实际检测电压可以根据消隐电阻器 RBLK 和高压二极管的正向压降进行调节。您必须使用 所有这些组件来精确地设置 DESAT 电压。因此，实际 检测电压为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pxzlebtRzA0K0zGtf5cjagx7nfo5DibOXGibvicPDu54aPAIQLKsOLoGBg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pTxzRZ0Sa7QyMtOtNlehSf00P8UkTMxYdnWWbfQvl01UJGn279SMmng/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 44：典型的 DESAT 电路实现
+
+  
+
+**检测 IGBT 的去饱和为何比检测 SiC 的去 饱和更有意义？**
+
+DESAT 是最常见的过电流保护电路，由于易于实现，因 此是许多应用的默认选择。不过，IGBT 与 SiC MOSFET 之间存在固有差异，这些差异使 DESAT 保护与 SiC MOSFET 相比更适合 IGBT。图 45 显示了 IGBT 和 SiC MOSFET 的 I-V 特性。对于相同的额定电流和电 压，IGBT 到达有源区域时的 Vce 比 SiC MOSFET 转 换到饱和区域时相应的 Vds 水平低得多。从本质上 讲，IGBT 限制了耗散的功率，因为电流停止增加。在 SiC MOSFET 中，电流持续增大，而 Vds 也增大，由于 高功率耗散和产生的热量，导致器件以更快的速度发 生故障。此外，SiC MOSFET 比 IGBT 更快地达到最大 功率耗散点，因为它们的开关速度要快得多。IGBT 的去饱和电压通常为 7V-10V，而 SiC MOSFET 的去饱和电压没有明确定义的范围。因此，为 IGBT 选 择 DESAT 电压较为简单，但这对于 SiC MOSFET 而言 几乎是不可能的。可以在进行一些修改后将 DESAT 用 于 SiC MOSFET，但不会实现最佳性能。SiC MOSFET 具有比 IGBT 更短的 SCWT 并且开关速度更快，因此 时序至关重要。分流电阻器电流监测或过电流检测等 方法最适合 SiC MOSFET。 
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0pHKcZ5vOXibhRZ531Rcz2yxM99WOJbHeRKRcyyI5PbibvUKO9txKJibkyA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图 45：IGBT 与 SiC MOSFET 的 I-V 曲线
+
+  
+
+**什么是过电流检测，它为何更适用于 SiC MOSFET？**
+
+DESAT 作为一种短路保护形式在 IGBT 中很常见， 但由于其 I-V 特性，并非始终适合 SiC MOSFET。SiC MOSFET 从线性区域到饱和区域的转换尚不明确，因 此使用单个电压阈值进行 DESAT 检测可能不太精确。一种更适用的检测形式是过电流检测，它测量流经精 确分流电阻器 Rshunt 的电流。考虑到 Rshunt 中会流过很 大的电流，其测量确实会导致更大的功率损耗。结果， 由于自热，其精度也可能更低。分流电阻器值通常处 于毫欧级范围之内，测量的电流根据欧姆定律 (V = I \* R) 得出。与 DESAT 相比，分流电阻器监测更加精确并 且所需的电路更少。更少的电路还意味着响应速度更 快，这对于 SiC MOSFET 而言至关重要，因为它们的 SCWT 比 IGBT 更短。为了解决功率损耗问题，有些电源模块包含集成的电 流调节功能，以减小流经分流电阻器的电流（图 46）。模块中内置的分流电路可降低分流电阻器中耗散的功 率，相应的比率由功率器件制造商提供。该方法的功耗 比典型的分流电阻器测量要低，从而可以实现更精确 的电流测量。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZhMDjZ4MfLiaJQzMZfhibu0p1ibnS97qicFHYBAicReVUVxia8Ky0hDJEXcxFYOy3h4icwNsREYTerPDdDA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+图 46：使用具有集成电流调节功能的 FET 的过流
+
+资料来源：Ti
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

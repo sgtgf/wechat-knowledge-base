@@ -1,0 +1,76 @@
+# 工业设备辅助电源驱动用的1700V SiC MOSFET电源解决方案
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/3oAwp7NcRJJXM0S6guvfng](https://mp.weixin.qq.com/s/3oAwp7NcRJJXM0S6guvfng)
+
+**文章来源：**罗姆半导体
+
+**前言**
+
+包括光伏逆变器、电气驱动装置、UPS及HVDC在内的功率转换系统，需要栅极驱动器、微控制器、显示器、传感器及风扇来使系统正常运行。这类产品需要能够提供12V或24V低电压电源的辅助电源。辅助电源则需要输入通常工业设备所使用的三相400/480V AC电源、或太阳能光伏逆变器所使用的高电压DC电源才能工作。
+
+本文将介绍融入了ROHM的SiC技术优势且设计简单、性价比高的电源解决方案。  
+
+**小型辅助电源用SiC MOSFET**  
+
+图1是辅助电源所用的普通电路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLK7WF9Jj1ibGFnHOS2K5rwfUOf4C0jJ74T28nI3nE3LXAWOukulbSYJSbbtI7iaZQ2tMK6mM2WT0w/640?wx_fmt=png&from=appmsg)图1. 普通反激式转换器方式的辅助电源拓扑
+
+在某些输入电压条件下，MOSFET的最高耐压需要达到1300V。为了确保安全，需要一定的电压余量，因此一般来讲至少需要使用额定电压1500V的产品。当然也可以使用具有同样绝缘击穿电压的Si MOSFET，但损耗将变大，故而需要昂贵且厚重的散热器。
+
+另外还有使用更复杂的拓扑结构（双端反激式转换器方式、低电压器件串联等）而不使用1500V MOSFET的做法。但是，这些做法不仅会增加设计难度，还会使部件数量增加。  
+
+如果使用特定导通电阻仅为1500V Si-MOSFET的1/2（参见图2）的1700V SiC-MOSFET，则辅助电源的设计者们将能够使用简单的单端反激式转换器的拓扑，从而获得小巧的身材和良好的性能。
+
+ROHM拥有完全塑封的TO-3PFM封装以及表面贴装型封装（TO-268-2L）技术，并提供适用于此类应用的高耐压SiC-MOSFET。这些产品的特点是分别可确保5mm和5.45m的爬电距离。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLK7WF9Jj1ibGFnHOS2K5rw12stHSFTg9S6VuKRCntgFQB9gfCkkHibBfC33Xboe5aXYj0yKr4dNJA/640?wx_fmt=png&from=appmsg)图2. 特定导通电阻条件下的Si和SiC MOSFET性能比较
+
+**极具性价比且实现SiC单端反激式拓扑结构的控制IC**  
+
+采用了SiC-MOSFET的反激式转换器的辅助电源解决方案，因采用了ROHM的控制IC而更具魅力和吸引力。这种控制IC的设计利用反激式转换器安全可靠地驱动SiC-MOSFET，而且不会因栅极驱动器IC而变得复杂。  
+
+ROHM针对目前可入手的几款SiC-MOSFET，开发出特别满足各元器件栅极驱动所需条件的准谐振AC/DC转换器控制IC“BD768xFJ”并已实施量产。这款控制IC与ROHM的1700V耐压SiC-MOSFET相结合，可以最大限度地发挥产品的效率与性能。BD768xFJ不仅可控制所有的反激式电路，还能够以适当的栅极电压驱动SiC-MOSFET，从而保证最佳性能。此外，还可通过栅极箝位功能和过载保护功能来保护SiC-MOSFET。  
+
+BD768xFJ这款控制IC，采用小型SOP8-J8封装，具备电流检测用的外置分流电阻和过负载、输入欠压、输出过电压保护等保护功能以及软启动等功能。搭载了准谐振开关，以在全部工作范围内将EMI抑制在最低水平，并降低开关损耗。另外，为了优化在低负载范围的工作，控制器还安装了突发模式工作和降频功能。  
+
+下图中是采用了BD768xFJ控制IC和ROHM生产的1700V耐压SiC-MOSFET的辅助电源的主要电路，简单而又高性能。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLK7WF9Jj1ibGFnHOS2K5rwjz445HXyHvLicGKh5X7NQib26k5mJO8XibibpLYmkPcDicSicKhyicpRpiar6g/640?wx_fmt=png&from=appmsg)图3. 使用了BD768xFJ控制IC和1700V耐压SiC-MOSFET的辅助电源电路
+
+**使用了SiC-MOSFET的辅助电源的性能**  
+
+ROHM为了便于对使用了SiC-MOSFET的简单辅助电源的性能进行评估而专门开发了评估板（参见图4）。这款评估板为了在准谐振开关AC/DC转换器中驱动1700V耐压SiC-MOSFET“SCT2H12NZ”而使用了BD768xFJ-LB。准谐振工作有助于将开关损耗控制在最低并抑制EMI。电流检测通过外置的电阻器进行。另外，通过使用轻负载时的突发模式工作和降频功能，还可实现节能化与高效化。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLK7WF9Jj1ibGFnHOS2K5rwJUuuNRBia2ZylNTuVAXFiaYRy81Z2YnaCpFHT2LCcLFWG6ElSS29c5lg/640?wx_fmt=png&from=appmsg)图4. 使用了SiC-MOSFET的辅助电源单元用评估板
+
+SiC-MOSFET的开关波形如图5所示。通过不同输出负载的波形可以看出在接通SiC-MOSFET时谐振漏源电压如何变化。采用准谐振工作，可最大限度地降低开关损耗和EMI。轻负载时（Pout = 5W时，左图）的突发工作模式结束后，转为准谐振工作模式。通过跳过很多波谷来控制频率。当输出负载増加（Pout = 20W时，中图）时，波谷数量减少，频率上升。当接近规定的最大输出负载（在这种情况下Pout = 40W，右图）时，将只有一个波谷。此时，开关频率达到最大值120kHz。  
+
+另外，为了延长一次侧的开关导通时间，可以稍微降低开关频率并提高输出功率的要求。这样，一次侧电流峰值增加，传输的能量也增加（Pout = 40W时）。当超过最大输出功率时，过电流保护功能工作并阻止开关动作，以防止系统过热。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLK7WF9Jj1ibGFnHOS2K5rwuxicg0Gu8EEmxIwJfeDD2mq7mZ0judb18mKxskXBjRyT5NJNdNY0Jog/640?wx_fmt=png&from=appmsg)图5. 准谐振工作时的SiC-MOSFET开关波形
+
+首先，评估板因有两个工作点而以电流不连续模式（DCM）工作。然后，在最后一个工作点（40W）时正好达到电流临界模式（BCM）。根据不同的输入电压，DCM和BCM在不同的输出功率进行切换。  
+
+图6左侧是对于不同的输入电压，在最大40W的负载范围输出12V电压时的效率。如图6右侧所示，通过测量可知SiC-MOSFET的外壳温度保持在90℃以下。SiC-MOSFET的最大容许结温为175℃。芯片-外壳间的热阻远远低于外壳-环境间的热阻，因此只要是结温低于上限值的外壳即可以说是安全的。这表明该评估板即使在高达40W的输出功率条件下，无需散热器也可工作。另外，如果对SiC-MOSFET增加散热器来冷却输出整流二极管，则可以实现更高的输出功率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskLK7WF9Jj1ibGFnHOS2K5rwYq5brLSSaOJNWSQegWv7k0u4wlaMGn75jiazRFhekMDCKopMtuZVzdA/640?wx_fmt=png&from=appmsg)图6. 使用了SiC-MOSFET的辅助电源单元评估
+
+这里给出的是各DC输入电压的测量值，利用400 / 480V的三相AC电源也可运行评估板。PCB上安装了整流所需的二极管电桥。  
+
+**利用SiC-MOSFET技术，可实现小型化并提高系统效率、可靠性及简洁性**  
+
+在需要几十瓦的简单且性价比高的三相输入用单端反激式解决方案和超过400V的DC输入电压条件下，Si-MOSFET并不适用。因为大电压Si功率MOSFET的性能较低。另外，使用双端反激式或堆叠式MOSFET等设计复杂结构的辅助电源，是非常费时费力的。这部分精力应该用在主电源系统的设计上。
+
+利用1700V SiC-MOSFET的优异性能和BD768xFJ控制IC，不仅能够设计三相系统用或高DC输入电压用的简单辅助电源，而且还可以发挥出卓越的性能。利用基于SiC-MOSFET的技术，设计人员可提高产品的效率、简洁性、可靠性并实现小型化。1700V SiC-MOSFET在性能方面的优势可以与使用了Si-MOSFET的解决方案系统的成本相匹敌，比如可削减散热器、线圈等昂贵部件的成本。经过优化的控制IC可安全地驱动SiC-MOSFET，是能够减轻设计负担并将系统产品投入市场的周期最短化的极具突破性的解决方案。
+
+**明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

@@ -1,0 +1,116 @@
+# 碳化硅 （SiC）器件 与氮化镓 （GaN）器件应用差异
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/vUyIK-ubcLq\_w8\_FyrmM7w](https://mp.weixin.qq.com/s/vUyIK-ubcLq_w8_FyrmM7w)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZxBmZMDSWdiamf81jo5jsP4icLCCReZXYe6TiaibYTCmBdAGqrSyFZ4USFjGAp4bMqR7WplmaPO0rLA/640?wx_fmt=png)
+
+SiC 和 GaN 被称为“宽带隙半导体”(WBG)。由于使用的生产工艺，WBG 设备显示出以下优点：
+
+1.宽带隙半导体
+
+     氮化镓（GaN）和碳化硅（SiC）在带隙和击穿场方面相对相似。氮化镓的带隙为3.2 eV，而碳化硅的带隙为3.4 eV。虽然这些值看起来相似，但它们明显高于硅的带隙。硅的带隙仅为1.1 eV，比氮化镓和碳化硅小三倍。这些化合物的较高带隙允许氮化镓和碳化硅舒适地支持更高电压的电路，但它们不能像硅那样支持低压电路。
+
+2.击穿场强度
+
+　　氮化镓和碳化硅的击穿场相对相似，氮化镓的击穿场为3.3 MV/cm，而碳化硅的击穿场为3.5 MV/cm。与普通硅相比，这些击穿场使化合物明显更好地处理更高的电压。硅的击穿场为0.3 MV/cm，这意味着氮化镓和碳化硅保持更高电压的能力几乎高出十倍。它们还能够使用明显更小的器件支持较低的电压。
+
+3.高电子迁移率晶体管（HEMT）
+
+　　氮化镓和碳化硅之间最显着的区别在于它们的电子迁移率，这表明电子在半导体材料中的移动速度。首先，硅的电子迁移率为1500 cm^2/Vs.氮化镓的电子迁移率为2000 cm^2/Vs，这意味着电子的移动速度比硅的电子快30%以上。然而，碳化硅的电子迁移率为650 cm^2/Vs，这意味着碳化硅的电子比GaN和硅的电子移动得慢。凭借如此高的电子迁移率，GaN几乎是高频应用的三倍。电子可以通过氮化镓半导体比SiC快得多。
+
+4.氮化镓和碳化硅导热系数
+
+　　材料的导热性是其通过自身传递热量的能力。考虑到材料的使用环境，导热系数直接影响材料的温度。在大功率应用中，材料的低效率会产生热量，从而提高材料的温度，并随后改变其电气特性。氮化镓的导热系数为1.3 W/cmK，实际上比硅的导热系数差，硅的导率为1.5 W/cmK。然而，碳化硅的导热系数为5 W/cmK，使其在传递热负荷方面提高了近三倍。这一特性使碳化硅在高功率、高温应用中具有很高的优势。
+
+5.半导体晶圆制造工艺
+
+　　目前的制造工艺是氮化镓和碳化硅的限制因素，因为这些工艺比广泛采用的硅制造工艺更昂贵、精度更低或能源密集。例如，氮化镓在小面积上含有大量的晶体缺陷。另一方面，硅每平方厘米只能包含100个缺陷。显然，这种巨大的缺陷率使得GaN效率低下。虽然制造商近年来取得了长足的进步，但GaN仍在努力满足严格的半导体设计要求。
+
+6.功率半导体市场
+
+　　与硅相比，目前的制造技术限制了氮化镓和碳化硅的成本效益，使这两种高功率材料在短期内更加昂贵。然而，这两种材料在特定半导体应用中都具有强大的优势。
+
+　　碳化硅在短期内可能是一种更有效的产品，因为它比氮化镓更容易制造更大、更均匀的SiC晶片。随着时间的推移，鉴于其更高的电子迁移率，氮化镓将在小型高频产品中找到自己的位置。碳化硅在较大的功率产品中将更可取，因为它的功率能力比氮化镓更高的导热性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZxBmZMDSWdiamf81jo5jsP5qmcIXqY9FGSEFYL884TSFd3eSjn7KOekxv8QZToFV7FHoIgFWCJ8g/640?wx_fmt=png)
+
+氮化镓和碳化硅器件，与硅半导体(LDMOS) MOSFET和超级结MOSFET竞争。GaN和SiC器件在某些方面是相似的，但也有很大的差异。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZxBmZMDSWdiamf81jo5jsPicMssdZYDpCRcLbc19eBpqSvbWkZDf4bethINpVvqrFyMS7SPXPL1cg/640?wx_fmt=png)
+
+图1.高压、大电流，开关频率的关系，以及主要应用领域。
+
+## 宽禁带半导体
+
+WBG化合物半导体具有较高的电子迁移率和较高的带隙能量，转化为优于硅的特性。由WBG化合物半导体制成的晶体管具有更高的击穿电压和对高温的耐受性。这些器件在高压和高功率应用中比硅更有优势。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZxBmZMDSWdiamf81jo5jsPwwKBOzCFKtdpy6fU8a5NUL0zrvbSZQibbUn1xWoPbxI70Zakc58xEzA/640?wx_fmt=png)
+
+图2. 双裸片双场效应管(FET)级联电路将GaN晶体管转换为常关断器件，实现了大功率开关电路中的标准增强型工作模式
+
+与硅相比，WBG晶体管的开关速度也更快，可在更高的频率下工作。更低的“导通”电阻意味着它们耗散的功率更小，从而提升能效。这种独特的特性组合使这些器件对汽车应用中一些最严苛要求的电路具有吸引力，特别是混合动力和电动车。
+
+GaN和SiC晶体管以应对汽车电气设备的挑战。GaN和SiC器件的主要优势：高电压能力，有650 V、900 V和1200 V的器件，碳化硅器件有更高的1700V.3300V和6500V。
+
+更快的开关速度，更高的工作温度。
+
+更低导通电阻，功率耗散最小，能效更高。
+
+## GaN器件
+
+## **在开关应用中，通常“关断”的增强型(或E型)器件是首选，这导致了E型GaN器件的发展。首先是两个FET器件的级联(图2)。现在，标准的e型GaN器件已问世。它们可以在高达10兆赫频率下进行开关，功率达几十千瓦。**
+
+GaN器件被广泛用于无线设备中，作为频率高达100 GHz的功率放大器。一些主要的用例是蜂窝基站功率放大器、军用雷达、卫星发射器和通用射频放大。然而，由于高压(高达1,000 V)、高温和快速开关，它们也被纳入各种开关电源应用，如DC-DC转换器、逆变器和电池充电器。
+
+## SiC器件
+
+SiC晶体管是天然的E型MOSFET。这些器件可在高达1 MHz的频率下进行开关，其电压和电流水平远高于硅MOSFET。最大漏源电压高达约1,800 V，电流能力为100安培。此外，SiC器件的导通电阻比硅MOSFET低得多，因而在所有开关电源应用(SMPS设计)中的能效更高。
+
+SiC器件需要18至20伏的门极电压驱动，导通具有低导通电阻的器件。标准的Si MOSFET只需要不到10伏的门极就能完全导通。此外，SiC器件需要一个-3至-5 V的门极驱动来切换到关断状态。SiC MOSFET在高压、高电流的能力使它们很适合用于汽车电源电路。
+
+在许多应用中，IGBT正在被SiC器件取代。SiC器件可在更高的频率下开关，从而减少电感或变压器的尺寸和成本，同时提高能效。此外，SiC可以比GaN处理更大的电流。  
+
+GaN和SiC器件存在竞争，特别是硅LDMOS MOSFET、超级结MOSFET和IGBT。在许多应用中，正逐渐被GaN和SiC晶体管所取代。
+
+总结GaN与SiC的比较，以下是重点：
+
+GaN的开关速度比Si快。
+
+SiC工作电压比GaN更高。
+
+SiC需要高的门极驱动电压。
+
+许多功率电路和器件可用GaN和SiC进行设计而得到改善。最大的受益者之一是汽车电气系统。现代混合动力车和纯电动车含有可使用这些器件的设备。其中一些流行的应用是OBC、DC-DC转换器、电机驱动器和激光雷达(LiDAR)。图3指出了电动车中需要高功率开关晶体管的主要子系统。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZxBmZMDSWdiamf81jo5jsP53DblWicj6dx6vM2C4Zg2DChNFznC5w8fiblceRTLVzNiaibkGatiap6CLw/640?wx_fmt=png)
+
+图3.  用于混合动力车和电动车的WBG车载充电器(OBC)。交流输入经过整流、功率因数校正(PFC)，然后进行DC-DC转换(一个输出用于给高压电池充电，另一个用于给低压电池充电)。
+
+DC-DC转换器。这是个电源电路，将高的电池电压转换为较低的电压，以运行其他电气设备。现在电池的电压范围高达600伏或900伏。DC-DC转换器将其降至48伏或12伏，或同时降至48伏和12伏，用于其他电子元件的运行(图3)。在混合动力电动车和电动车(HEVEVs)中，DC-DC也可用于电池组和逆变器之间的高压总线。
+
+车载充电器(OBCs)。插电式HEVEV和EVs包含一个内部电池充电器，可以连接到交流电源上。这样就可以在家里充电，而不需要外部的AC− DC充电器(图4)。
+
+主驱电机驱动器。主驱电机是高输出的交流电机，驱动车辆的车轮。驱动器是个逆变器，将电池电压转换为三相交流电，使电机运转。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskZxBmZMDSWdiamf81jo5jsPj6AtUyeJDt6zkdLFloMIh7zsicfaT3siaXeQicAAA19fmQ0GlsN72Mib5w/640?wx_fmt=png)
+
+图4. 一个典型的DC-DC转换器用于将高电池电压转换为12伏和/或48伏。高压电桥中使用的IGBT正逐渐被SiC MOSFET所取代。
+
+由于GaN和SiC晶体管具有高电压、大电流和快速开关的特点，为汽车电气设计人员提供了灵活和更简单的设计以及卓越的性能。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskZxBmZMDSWdiamf81jo5jsPt5lZKkdfImVVukwpy8fzWEdOQkOsicZKoiasLUHaJ3Lzq4HoeIqFcCVQ/640?wx_fmt=jpeg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVeSU08bjrGD8tfqRgeXySqvkQ9qYPX6JBZ6uog6gV2hpczM9iayo0icsA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVScHI0p5O0vWJDL7yMydRZ125WRrZ1x1SibvtcCIALN0FPp9gyMQ3O8g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+       专注SiC MOS管和全碳化硅功率模块的研发和销售。MOS产品具有更快速开关响应、更低损耗的特性，完全满足车载充电机对高效率、高功率密度、高可靠性的要求，有利于加快光伏产业发展，助力双碳目标的实现。随着新能源替代加速，逆变器向高效率、高功率密度、高可靠性等方向发展，具备高功率、耐高压、 耐高温、高频和低能耗等优点的SiC功率器件将迎来发展新机遇 。公司自建晶圆厂，将推出更多优质产品和服务，携手上下游产业，加速能源结构转型和碳中和进程。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVLL6QPUmBrg5H6rzH5O9KUriagkmbMT7sJibtJyu9O6A0WRdGlEvAWrcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
+
+                    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)

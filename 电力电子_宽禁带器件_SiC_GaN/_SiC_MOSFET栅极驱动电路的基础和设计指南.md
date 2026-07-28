@@ -1,0 +1,476 @@
+# ​SiC MOSFET栅极驱动电路的基础和设计指南
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/nJ0hwzQsdQtTEv7v3mAKLg](https://mp.weixin.qq.com/s/nJ0hwzQsdQtTEv7v3mAKLg)
+
+**文章来源：**罗姆（ROHM）半导体
+
+**摘要：**SiC MOSFET 可作为开关器件用于各种开关电源中，因为其导通状态可通过在栅极和源极之间施加一定电压来控制。除了降低传导损耗外，开关器件还必须降低开关损耗并将 EMC 噪声降至最低，而这可以通过设计在栅极和源极之间施加电压的方法来实现。为了考虑如何充分发挥 SiC MOSFET 的潜力，首先有必要了解在栅极和源极之间施加电压时发生的基本动作（状态转换）。本文总结了 SiC MOSFET 在栅极和源极之间施加电压时发生的状态转换，旨在为设计能充分发挥其性能的栅极驱动电路提供指导。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSDs3OeQg2jJLq8OHHiadlEaGtRbIkF0I9O0qne4YTTnVHh7cL2L0Uu0w/640?wx_fmt=png&from=appmsg)
+
+**1\. 关于 SiC MOSFET**
+
+**1.1 SiC MOSFET 的重要性** 
+
+近年来，车辆和我们周围各种物体的电气化进程日新月异，如何更有效地控制电能已成为一项技术挑战。功率控制一般涉及改变功率的形式，例如通过接通和断开电流调整从电源向负载提供的功率大小，或将直流电转换为交流电。图 1 显示了开关频率和负载电容的适用范围。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKShODhPb3ByCRIJhvC9J5MKDDMt8eTCfpctMaibqsr0j3icFD5fMfjuP3Q/640?wx_fmt=png&from=appmsg)  
+
+近年来，节能和设备小型化的需求日益增长。通过将开关频率提高到更高的频率，可以使电感器和电容器等无源元件的体积更小。频率越高，开关损耗越大。具有良好开关特性的SiC MOSFET 具有最广泛的应用范围，在实现高频和节能方面正变得越来越重要和负载能力的适用范围。
+
+**1.2 SiC MOSFET 的基本构造**
+
+SiC MOSFET 的结构如图 2 所示。通过在漏极和源极之间施加漏极极性为正的电压(VDS)以及在栅极和源极之间施加栅极极性为正的电压(VGS)，电子被吸引到 P 型半导体区域，并形成一个 n 型沟道（反转层）。电流通过该沟道从漏极流向源极。这种机制使 MOSFET 能够通过电压实现开关控制，通过 n 型沟道实现高速，并通过垂直结构实现高耐压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSsvgAdB0zrqLGMTBXBtD9DrCVT3GF1wt1oq3leXUHewLum2R5dDY8mg/640?wx_fmt=png&from=appmsg)  
+
+根据栅极结构和漂移层结构的不同，SiC MOSFET 大致可分为平面结构（图 2-(a)）和沟槽结构（图 2-(b)）。
+
+・平面型构造如图 2-(a) 所示，栅极是在晶圆表面形成的。因此，由于通道横向形成，单个单元尺寸就会变大。
+
+・沟槽型构造如图 2-(b)所示，沟槽结构是从晶圆表面向漏极方向挖沟槽，并嵌入栅极电极。在这种结构中，沟槽是垂直形成的，从而实现了单元的微型化。因此，可以比平面结构排列更多的单元格，降低导通电阻。
+
+**1.3 寄生容量特性**
+
+SiC MOSFET 有源极电极、栅极电极和漏极电极，这些电极的组合会产生寄生电容。源极和栅极之间的电容为 CGS，漏极和栅极之间的电容为 CGD，源极和漏极之间的电容为 CDS。CGD由作为电介质的栅极氧化膜形成的电容决定，CGS 由在栅极-源极之间形成的电容 CO和 P 通道以及 N 通道和以氧化膜为电介质形成的 CP、CN＋的总和决定(CGS=CO+CP+CN+)。另外，CDS是漏极-源极之间的接合电容。(图 3)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKS0Sl3yd29KM2l1VbnuMDThf67vQ00ibqce72cicZgKGiaIsHF0e2iadYHBQ/640?wx_fmt=png&from=appmsg)
+
+单一单元构造中栅极氧化膜纵向深的沟道结构，往往具有较高的寄生电容。但是，ROHM 的 SiC MOSFET 通过工艺技术的进步，利用沟道结构可以降低导通电阻的特征，减小芯片尺寸来降低芯片整体的寄生电容。图 4 是 ROHM 第二代平面结构 SiC MOSFET 和第四代沟槽结构 SiC MOSFET 的栅极电容比较。尽管第 4 代是沟槽结构，通过单元的微细化，实现了比平面结构更小的寄生电容。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSCOgDkMEa8l8XYqXHqsja8S2m6KhklOkftVunniaC5ia8UicGSEGdZmN4A/640?wx_fmt=png&from=appmsg)
+
+这里的寄生电容通常在 MOSFET Datasheet 中（Ⅰ）/输入电容（Ciss）、（Ⅱ）/输出电容（Coss）和（Ⅲ）/反馈电容（Crss）三个参数表示。这些都是影响开关特性的重要参数。
+
+(Ⅰ). 输入电容: Ciss = CGD+CGS
+
+要打开/关闭 MOSFET，必须对 Ciss 充电/放电，这会影响延迟时间；对 Ciss 充电所需的电量为 Qg
+
+(Ⅱ). 输出电容 : Coss = CDS + CGD
+
+Coss 会影响关断特性：如果 Coss 较高，因为关断时需要更多时间对 Coss 充电，关断时间会更长
+
+(Ⅲ). 反馈电容 : Crss = CGD
+
+Crss 会影响开关速度。当 Crss 较大的时候，漏极-源极电压的导通和关断时间较长。
+
+另外、Ciss, Coss, Crss 还与漏极-源极电压 VDS 有关。如图 5 所示，随着 VDS 的增大、电容值趋向减小。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSqIlMoZ3eV6vibQtn9WG4iaZdOFqkwVsZ0tedFI1PlA0WMZ5NWicroHib3Q/640?wx_fmt=png&from=appmsg)
+
+**1.4 栅极充电特性**
+
+图 6 是栅极充电特性的示例， SiC MOSFET 的栅极充电特性是决定驱动电流和驱动损耗的参数。大致可以分为三个阶段。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSdHlz0jJSvmIIVD9CMHTDcrGbTiaWBmVBSVSFZhp8rlekIB0M89za9lQ/640?wx_fmt=png&from=appmsg)
+
+Period.１
+
+栅极电压上升，到达米勒电压的期间。向栅极源极间电容 CGS充电使栅极电压上升。超过 VGS(th)之后，漏极-源极之间的电流开始流动。另外，漏极电流增加后，漏极源极电压(VDS)下降。
+
+Period.２
+
+VDS 变化，栅极-漏极电容 CGD 放电。这个期间被称为米勒期间，栅极-源极电压不会上升。另外，这个时候的栅极电压被称为平台电压。
+
+Period.３
+
+当 CGD 的电压与 CGS 的电压相同时，开关操作完成，漏极-源极间电压不再变化，然后再次开始对 CGS 和 CGD 充电，栅极电压开始上升。
+
+为了加快漏极-源极电压的变化，选择 CGD 小的器件，或者为了缩短米勒时间，加大对 CGD 放电的电流。
+
+**2\. 栅极驱动相关的问题**
+
+本节将举例说明在设计栅极驱动电路时，使用同步整流BOOST 电路（图 7），SiC MOSFET 在开关时可能出现的问题。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSzC2ruH2xNxEOx0ClN3bME9MTmF6qibMKkSKSzoBmRiaPfhLtsYPC1xng/640?wx_fmt=png&from=appmsg)
+
+**2.1 器件的发热／功率损耗大**
+
+驱动电感负载的器件中产生的功率损耗(PLOSS)，如图 8 所示，在开关的导通/关断时，由于电压和电流的重叠而产生的开关损耗(Eon／Eoff)，以及由导通时流过的电流和器件的导通电阻决定的导通损耗(ECOND)。由于每次开关发生，开关频率(fSW)的乘积为器件的功耗 PLOSS，如公式(1)所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKStK0la2lsC5RjJGahoic2rib8v55HBR8oPBTegvqcWmAdYk147qKIU5rw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSnOEeEibn7nZfWfEqp3IYoFwN6SnVHzbu8ic8GSB7BS4tJoRnqAHgMQDg/640?wx_fmt=png&from=appmsg)
+
+降低功率损耗的方法之一是降低开关频率，但如果选择较高开关频率的优势，则需要使用栅极驱动电路来抵消这一问题。图 9 是栅极电阻的大小与导通损耗（Eon）和关断损耗（Eoff）之间的关系。图 10 是栅极电阻 (RG\_EXT) 与开关速度 (dV/dt)之间的关系。如图 10 所示，栅极电阻 (RG\_EXT) 越小，开关速度 (dV/dt) 越高，VDS 变化时间就越短，这是由于栅极电阻(RG\_EXT) 越小，开关速度 (dV/dt) 越高，VDS 变化时间就越短。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSUFOKchGFMHibI30AasibGTYydMq7ibzqFxOxqp2Gqbic4sxLqTvamme0Fg/640?wx_fmt=png&from=appmsg)
+
+**2.2 漏极-源极电压(VDS)的浪涌电压大**
+
+Low Side 的 MOSFET 在关断时，漏极-源极电压 VDS 上升到输出电压(VOUT)，但由于电流路径的电感成分，产生浪涌电压。
+
+作为降低 VDS 浪涌电压的方法，也有在漏极-源极之间设置snubber 电路的方法，不过，作为栅极驱动电路能做的对策，也通过增大外接栅极电阻值 RG\_EXT 来降低开关速度的方法。图11 表示栅极电阻(RG\_EXT)和漏极-源极电压浪涌的变化。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSaIamxoOEKrmRg26V8PGmeUsvcibS3RUS9NpnEymugL15zuv2d7iaffjA/640?wx_fmt=png&from=appmsg)
+
+**2.3 栅极-源极电压(VGS)的"正电压上升 "或 "负浪涌电压”**
+
+虽然重点往往放在 VDS 和 ID 的变化上，但也必须考虑这些变化对栅源电压 (VGS-HS) 的影响。在应用说明 「桥式结构中的栅极-源极电压的动作」 \*1 中对此进行了详细说明，本应用说明也将再次说明一下。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSrXWicVyqZ3PxXPAiaBz5JDElZURQHJCkLQVoTwSBSRYTB9ibZbX9VQnMQ/640?wx_fmt=png&from=appmsg)
+
+低压侧 (LS) 在导通时的行为如等效电路图（图 12）和波形（图 13）所示：在 LS 导通时，ID 首先发生变化；LS 的 ID 趋于增大，而高压侧 (HS) 的 ID 趋于减小，因此事件(Ⅰ)，使得图 12 (Ⅰ)中表现出极性起电发生。由于这个起电的电流对CGS-HS 充电，源极为正，因此在 HS 中 VGS-HS 被拉到负侧，表现为 "负浪涌"；当 ID 变化结束时，LS 侧 VDS 的电位降低；
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSsQbFibkakgicSYyFcnsW3iaNq09x9PfgLmVlUGucEVDv9syxbgqg8yEhw/640?wx_fmt=png&from=appmsg)
+
+如图 13（II）所示，HS 和 LS 在 VGS-HS 处分别出现 "正电压上升"。因此，本应关闭的 HS 侧会根据 VGS-HS 的上升程度启动导通动作（自开启）、与 LS 侧的导通动作重叠，导致上下 MOSFET 同时接通，从而产生直通电流。CGS 的充电电流持续流动，直至接通操作完成，储存在 LG\_HS，不过，在 VSW 的变化结束的时消失，LG\_HS 像如 12（Ⅲ）一样起电。因为这个起电，再次再次表现为 "负浪涌"。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSKicn1wAsNiavYYh9qIAquA1fB2qVvPWicWrzfegjOr3UlcC3Hk0wGNgOw/640?wx_fmt=png&from=appmsg)
+
+接下来，对 LS 侧关闭时的动作进行说明。LS 侧的关闭时的动作等效电路图（图 14）和波形（图 15）所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSZVG4ncFU8QVp59OFT82FC3nXWxzgzyia8SqnqmyL5ibWiaHZnOwyXTIFg/640?wx_fmt=png&from=appmsg)
+
+与接通时一样，每个事件都编号为 (IV)、(V) 和 (VI)。与导通相比，基本动作相同，只是 VDS 和 ID 的变化顺序有所改变，对应如下
+
+关闭            导通
+
+事象(Ⅳ) → 事象(Ⅱ)
+
+事象(Ⅴ) → 事象(Ⅲ)
+
+事象(Ⅵ) → 事象(Ⅰ)
+
+HS 侧的 VGS "负浪涌 "为事件 (Ⅳ)。
+
+事件 (Ⅵ)导致的 VGS 升高已在关断结束之前，因此，即使 HS 侧处于导通运行状态，LS 侧仍处于关断状态，而且几乎不成问题。
+
+**2.4 正电压上升导致自导通（误点弧）的发生**
+
+在导通过程中（事件 II），当栅极电压超过栅极阈值电压VGS(th) 时，由于正侧电压上升，会发生自导通，从而导致意外接通。正电压上升与 LS 侧的开关速度和栅极电阻 (RG\_HS)有关，如果 LS 侧的开关速度较慢，而 HS 侧的栅极电阻(RG\_HS) 较小，则自导通发生的可能性较小。图 16 是驱动侧(LS) 接通时，续流侧 (HS) 的栅极-源极电压波形。栅极电阻(RG\_HS) 越大，栅极电压上升越大（图 16-(a)），而驱动侧 (LS)的栅极电阻 (RG\_LS) 越小，开关速度越快，栅极电压上升越大（图 16-(b)）
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSJsiadBQLe5w1W9qE2F13ia33DdH37vkLibaVsTgfnUg2dGIx5pVd9zSfA/640?wx_fmt=png&from=appmsg)
+
+发生自导通时，如图 17 所示，LS 侧的漏极-源极电流观测到以下 4 个电流。
+
+➀正常开启电流
+
+②HS 侧二极管的恢复电流
+
+③自导通电流
+
+④Coss 充电电流 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSMrwxYLpH3yExF17aMA2y8ibr0ia8FzupNnf1Bw0J1XYY91CctxroYI6g/640?wx_fmt=png&from=appmsg)
+
+因此，很难确定是否发生了自导通。此外，由于所评估的波形包含了器件内阻的影响，因此简单地判断栅极波形是否超过 VGS(th) 也不是一个好的标准。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSmpRl9O7NWq4YMCcYkaGzodmJCwsOHxytYzEXNfruVnrTfc0mLlNpoA/640?wx_fmt=png&from=appmsg)
+
+图 18 是将续流侧的栅极电阻（RG\_HS）设为 1Ω 和 22Ω 时的波形比较。RG\_HS 为 22Ω 时，发生大的栅极电压上升，超过 VGS（th）约 10ns。此时，由于自导通电流增加，续流侧的 VDS的斜率变小，峰值降低。另外，驱动侧的漏极-源极电流增加。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSrJCPsVkEjaB31ElcNjcpianycQLP9qn8gWKbLar7JwDr2qz3W3PxiadA/640?wx_fmt=png&from=appmsg)
+
+如图 19 所示，从开关损耗方面进行比较，RG\_HS=22Ω 时，开通恢复损耗 ERR（※包括看似自开通的电流波形）略高，但导通损耗（Eon）和关断损耗（Eoff）几乎没有变化、 可以说，自导通的影响很小。
+
+可以通过判断高温下的开关损耗（此时 VGS(th) 较低）或比较负偏压下的损耗和 0 V 下的关断损耗（两者无明显差异）来确认。
+
+**2.5 负浪涌电压的发生**
+
+由于栅极电阻和栅极负电压的设置，驱动侧关断时续流侧的栅极波形如图 20 所示。可以看出，栅极负电压不会产生栅极负浪涌效应。栅极电阻越大，负浪涌效应往往越小。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSMAvPqJiclZqBDpAzOR5teDNE2lVtics1oK0dwaYm2ZPeB6ThLMeKouFw/640?wx_fmt=png&from=appmsg)
+
+**3\. 栅极驱动器的作用**
+
+在设计栅极驱动电路时，首先需要了解栅极驱动器的作用，因此其主要作用如下。
+
+**3.1 功率器件的输出**
+
+驱动电压功率器件的推荐驱动电压取决于器件和制造商；对于ROHM 的 SiC MOSFET，建议栅极源极正电压为 15~18 V(VGH)，栅极源极负电压为 0 V (VGL)。作为栅极信号主要来源的控制器 (MCU) 是 5 V/3.3 V (DVDD) CMOS 输出，栅极驱动器的作用之一是以 15 V 以上的电压驱动功率器件，以最佳方式驱动功率器件。图 21 显示了为输出功率器件驱动电压而设计的 LowSide 栅极驱动器的电路图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSz9zLSFwUehUn200NgAzz8A1GrfHSg0JXfSn5VR3icm8pN0TKanPglHQ/640?wx_fmt=png&from=appmsg)
+
+**3.2 驱动快速开关的功率器件**
+
+作为栅极信号源的控制器（MCU）的电流能力一般小于 0.1A，无法直接驱动功率器件；以 MOSFET 的输入电容为 5nF、控制器 I/O 端口的输出阻抗为 500Ω 为例，时间常数 t 的值如下𝑡 = 𝐶𝑅 = 5𝑛 × 500 = 2.5 \[µ𝑠\]栅极的导通/关断速度变得非常慢，导致开关损耗很高。为了优化功率器件的驱动，栅极驱动器的作用之一就是高速驱动功率器件。
+
+**3.3 控制电路的电平转换**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSUAXalDvlRraL9DliafFKW7VHK2JW5WnMTs6ib64MEsmjYFofp1oLhC3Q/640?wx_fmt=png&from=appmsg)
+
+图 22 是一个具有电平转换功能的栅极驱动电路示例。在大多数情况下，作为栅极信号源的微控制器 (MCU) 的 GND电平与功率器件的源电平（VS\_HS,VS\_LS）往往是不同的，为了施加最佳的栅极-源极电压，需要对 MCU 信号进行电平转换，这是栅极驱动器的重要作用之一。
+
+**3.4 隔离控制电路和电源电路** 
+
+在使用功率器件的应用中，主电路的总线电压可处理几百伏或更高的电压，功率器件漏极-源极之间的电流可达几十安或更高。如果控制系统和电源系统之间没有绝缘，万一发生漏电，产品本身没有足够的绝缘措施的话，或者由于系统故障导致电子元件损坏，用户可能会触电。使用具有隔离功能的栅极驱动器集成电路可降低用户触电的风险。图 23 是绝缘型栅极驱动回路的示例。因此，使用具有绝缘能力的栅极驱动 IC，可以减少客户触电的风险。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSycF0b0aFm1SLCXOZkdfxenFfsAlVPBBZypI0way5I8mpkYg523ibzDA/640?wx_fmt=png&from=appmsg)
+
+**4\. 栅极驱动电路设计指南**
+
+栅极驱动电路由栅极驱动及其外围电路组成；栅极驱动器一般采用集成电路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSPGGaLbWziaEuZfZpxQV3Zwznc3kwRaXEDw2StClnR55hDMXrrqHKKGg/640?wx_fmt=png&from=appmsg)
+
+为了器件的最优化，如图 24 所示，需要选择栅极 IC、选择栅极电阻、设计栅极驱动电压和电流驱动能力以及设计保护电路。栅极驱动器电路的基本设计项目如下。
+
+**4.1 栅极驱动IC 的选择**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSq9WqndrEia6ibX45ibxbvYtJzlRpBJea2JM5NchXSZMxfQic9Gibvflia8Tw/640?wx_fmt=png&from=appmsg)
+
+栅极驱动器 IC 有 1ch(LowSide)/ 2ch(LowSide+HighSide)驱动类型、绝缘类型/非绝缘类型等，需要根据使用用途选择合适的。在表 1 中介绍了不同驱动条件下的门驱动 IC 的种类。在图 25 是 2ch 输出栅极驱动 IC 使用时的设计电路示例。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSnQhjEq488GPVlL6dpWCl1SbF3ich6oeyL5t0Mk7ricdkVOsjJnPxSWIQ/640?wx_fmt=png&from=appmsg)
+
+另外，栅极驱动器集成电路的隔离方法也有三种：光耦隔离、磁隔离和容隔离。
+
+✓ 光耦隔离：光耦合由一个发光元件（发光端）和一个受光元件（受光端）组成，输入光耦合器的电流信号通过内部元件转换成光信号，并从发光端传输到受光端。 (图 26)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSxNDvqawsx4QUXaNqibziax7eZP33YL7eanrtYYetC6DlUM0pVseYGvQw/640?wx_fmt=png&from=appmsg)
+
+✓ 磁隔离：这种方法在输入和输出端使用线圈，在隔离的线圈之间传递信号。 (图 27）
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSV4cLKYwPVRyWUt4UJH8mZMo0DdianEXOTB5ib0aPL9sCPqoyuyQjgibKg/640?wx_fmt=png&from=appmsg)
+
+✓ 容隔离：使用 SiO2 电容、实现输入侧(Transmitter)和输出侧(Receiver)的绝缘、在被绝缘的电容之间传递 AC 信号。(图 28)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSRIvXvFIpAb1lTibv90OD7Mzy5LhtvC04MNA1JHeo98IhJjHELR1JYzQ/640?wx_fmt=png&from=appmsg)
+
+如图 29 所示，光耦合方法成本低廉，但与磁性和电容方法相比，其缺点是使用寿命较短，通信速度较慢，原因是 LED 和密封树脂的老化。磁隔离和容隔离被称为数字隔离器，可在芯片上制作，因此集成度高、寿命长。 高可靠性和长寿命在产品设计中尤为重要，近年来，磁性和电容系统得到了广泛应用。在选择隔离栅极驱动器时，还必须考虑共模瞬态抗扰度（CMTI）因素。 这是在开关过程中，即使栅极驱动器 IC 的输入和输出之间出现较大的 dV/dt 也能稳定工作的指标。在驱动 SiC MOSFET 时，开关过程中漏极-源极电压的 dV/dt快达 40~90 V/ns。 光耦合方法的 CMTI 为 50 V/ns，而磁性和电容方法的 CMTI 为 100 V/ns。 因此，在使用 SiCMOSFET 等器件且需要快速开关的应用中，建议使用磁隔离或容隔离的方式。 在本应用说明中，采用的是 ROHM 的栅极驱动器 IC (BM61S41RFV)、磁隔离型和单通道输出。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSEeGs9gibPxtZwHJEI3xyCxZhNzuVmJhyAHKTLL9VAP6HTkMlaMj1lTg/640?wx_fmt=png&from=appmsg)
+
+**4.2 栅极驱动电压的决定在设置**
+
+SiC MOSFET 的栅极驱动电压时，请参考数据表中的推荐驱动电压。推荐的栅极驱动电压取决于器件的构造和材料。一般来说，SiC MOSFET 的栅极驱动电压为 15V~20V，因此在用 SiC MOSFET 替换 Si-MOSFET 时需要注意。图 30 是 ROHM 第四代 SiC MOSFET 和 Si-MOSFET 在栅-源极电压 VGS= 15V 和导通电阻为 1 时的图形。 从图中可以看出，当栅-源极电压在 10 至 15V 之间时，Si-MOSFET 的导通电阻几乎保持不变。然而，当驱动电压低于 15V 时，SiCMOSFET 的导通电阻会迅速增加。 因此，在驱动 ROHM 第四代 SiC MOSFET 时，建议将栅-源极电压设定在 15 V 以上，以获得足够低的导通电阻。
+
+另外，还必须注意确保栅极驱动电压不超过栅极-源极电压的绝对最大额定值。即使施加的栅极电压保持在绝对最大额定值以下，栅极的电感和电容也会导致振铃电压，其电压可能会达到破坏氧化层的程度。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSGscFiaFMGSf1kgyQLNDD8T0EqnoHqeHZG9iaJIQB3Y7RmBicyhhO4PlXw/640?wx_fmt=png&from=appmsg)
+
+**4.3 栅极驱动电流能力的检讨**
+
+随着栅极驱动电路设计的推进，所使用的开关器件、栅极电阻和栅极驱动电压决定后，就有必要检讨这些常数是否真的能提供在所需时间内导通/关断的驱动能力。当并联大电流模块或器件时，输入电容 Ciss 会增大，开关时间也会增加，因此需要设计一个推挽电路，如图31所示将 NPN和 PNP 双极晶体管组合在一起。
+
+在推挽式电路中，当栅极驱动 IC 接通时，NPN 双极晶体管接通，电流从 VGH 流出供给；关断时，电流通过 PNP 双极晶体管输入。 因此，如果栅极驱动器集成电路的驱动电流能力不足，可从具有足够电流供应能力的电源中补充。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSUVmBwZicfgAzgKibVibYaZZrvJmgNun05HWibXNkrErdUURGMpLuy5xceg/640?wx_fmt=png&from=appmsg)
+
+**4.4 栅极驱动电路的功耗**
+
+本节介绍栅极驱动电路消耗的功率。图 32 是一个使用栅极驱动器 IC 的栅极驱动回路示例。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSeS4XuB2icictOEE8TibJYKkY9Xbko6AMJM6Zla9mPJPv5esjLe69MK9vw/640?wx_fmt=png&from=appmsg)
+
+要打开栅极，必须对输入电容 Ciss(CGS+CGD)或栅-源极之间的电容(CEXT)充电。 另外、要关断的话，必须对已充电的电荷进行放电。图 33 是 图 32 的导通/关断等效电路的充电电流(ICHG)、放电电流 (IDisCHG) 和栅极驱动器 IC 消耗的电流 (ICC)。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSsUTzUL5cnyrpYgJ8LibhickqH4yibiaicSSjbZKyQMujiciaZmicpDvAialdRxA/640?wx_fmt=png&from=appmsg)
+
+栅极驱动电路的功耗 PGDR 包括：开启的时候，对电容元件充电时在 RP、REXT、RINT 处产生的损耗 PRES (➀)；关断期间对电容元件放电时在 RINT、REXT、RN 处产生的功耗 PDisCHG(②)；栅极驱动器集成电路消耗的功率总和 PIC(③)，可用公式 (2)表示。
+
+𝑃GDR = 𝑃RES + 𝑃DisCHG + 𝑃IC ⋯ (2)
+
+图 34 是耗电量的明细。可以看出 PCHG 发生的损耗和储存在电容中能量相等。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSJ28o965sQe2AUdqz9OQzBHVnvUrLBlo32E7yysKoFicyOt7pEknJQCg/640?wx_fmt=png&from=appmsg)
+
+对电容元件充电时，电阻消耗的功率 PRES 如公式（3）所示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSskMHEpcogJFNl9DTiaEab6uX51RF81EtMs2skUNj5t0EQNj2gy1UtTA/640?wx_fmt=png&from=appmsg)
+
+导通时电容元件的充电能量由公式 (4) 得出。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSuRbCcHsSLL3wHOCBFF9XbwgBBzV4PEJPWySIEEmZejM7tU9zEmCt1A/640?wx_fmt=png&from=appmsg)
+
+Qg 栅极总电荷量VGH 导通栅极电压VGL 关闭栅极电压导通/关闭电压 VG 由公式（5）得出。
+
+𝑉G = 𝑉GH + |𝑉GL| ⋯ (5)
+
+PDisCHG 在关断时消耗PCHG在接通时充电的电量，因此公式 (6)成立。
+
+𝑃DisCHG = 𝑃CHG ⋯ (6)
+
+栅极驱动器的充电平均电流 ICHG 由公式 (7) 得出。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSEao1EAs7fTnkZ7iba3Sud4V2xzmkIVHU5OkicbRYYMUqXJF77U0m7tnA/640?wx_fmt=png&from=appmsg)
+
+另外，器件的栅极的充电平均电流 IG 由公式 (8) 得出。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSNIQqkr1UbXVmib1VzIialyGJhXBC3ogtHv3jNh0sovPtAPicXp8CQlOww/640?wx_fmt=png&from=appmsg)
+
+提供给栅极驱动 IC 的电流为 ICC， 则 PIC 的计算公式为：
+
+𝑃IC = 𝑉G × 𝐼CC ⋯ (9)
+
+**4.5 栅极驱动回路的峰值电流**
+
+栅极驱动回路的峰值电流 ICHG\_PEAK 是，当栅极驱动瞬时理想开启时，由公式（10）得出。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSq60Z1IFafgDt0snnr5yxOZYnbozyUQQFlsHf7ADNt6sesPtUuFZTvw/640?wx_fmt=png&from=appmsg)
+
+实际上，栅极驱动器也会产生开启时间。图 35 是在栅极电源 VG 为 15 V、所有栅极电阻均为 10 Ω 的条件下栅极电流的模拟结果。展示了栅极驱动器（tRISE=0ns）瞬间开启（IDEAL）和发生延迟(tRISE=20ns)（REAL）时的栅极电流波形。 公式 (9)适用于理想 (IDEAL) 导通的情况，但发生延迟 (REAL) 时的峰值电流较低。 虽然很难精确计算峰值电流，但可以说公式 (9)是最大峰值电流值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKS4HYc6Dv4IvN5hmib4Ppn8MeXOBcqpnibkZPx3wQfeiaUIfX8mia46uc0sQ/640?wx_fmt=png&from=appmsg)
+
+**4.6 栅极驱动 IC 的功耗**
+
+栅极驱动 IC 的功耗 PDRV 由公式 (11) 得出，其中 Rp 是栅极 IC 驱动段的电源侧的导通电阻，RN 是接地侧的导通电阻。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSgfdloapt5ZH3iceVgZYF2PtGoCgibXU2ZH5BeeIBKs2A0kIgKXLBM5pw/640?wx_fmt=png&from=appmsg)
+
+**4.7 栅极电阻的选择**
+
+在确定栅极电阻值时，要从多个因素中选择最佳值。图 36是栅极电阻大小对电路的影响。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSK2tRb5DETrMn5lrRE5mN6QK022WDgh4xgicfKXMvqmD2hwosKPyibT8A/640?wx_fmt=png&from=appmsg)
+
+较小的栅极电阻值可因开关速度更快而减少功率损耗，但由于浪涌电压、EMI 和其他风险的增加，必须调整到适当的栅极电阻值。
+
+另外，如图 37 所示，采用二极管可以设计成在接通和关断时使用不同大小的栅极电阻；如果 VDS 浪涌有一定的余量，则可以减小关断时的栅极电阻值，使关断速度更快。 但是由于电路变复杂，在设计中还应考虑安全设计和故障安全，包括可靠性和故障事件。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSVMfYCvD8iajluk8aurIbd2vBicnBhod3gxSxTrMlfhqHibAicyt1FdbkXg/640?wx_fmt=png&from=appmsg)
+
+栅极电阻变化引起的开关速度变化会影响开关损耗：对于 VDS浪涌对策而言，使用过大的栅极电阻会降低开通和关断开关速度，增加开关损耗。 损耗会转化为热量，随着器件温度的升高，漏极和源极之间的导通电阻也会增加，如图 38 所示。由此，器件会陷入损耗不断增加、导通电阻也不断增加的循环，从而导致器件损坏。 因此，有必要选择最佳栅极电阻值，同时也要注意损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSwNXhx2reeod9gttkttNcbIe5eAOwy6iaqMUFib72flkiabK6sBqo0Gr8w/640?wx_fmt=png&from=appmsg)
+
+**4.8 保护回路的设计**
+
+正如应用说明「栅-源极浪涌电压的抑制方法」\*2 中详细解释的那样，在使用 SiC MOSFET 的应用中，高速开关动作中的电压和电流的变化，不能忽视器件自身的封装电感和外围电路的布线电感的影响。特别是，栅极到源极电压会出现各种问题，例如意外的正或负浪涌。图 39 是栅-源极浪涌和避免问题的保护电路示例。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSs9qT9KFRhmokDtmOskxdL5YoFOoN2gHoWpbklJFVq4t9Ry2Z0z0TGg/640?wx_fmt=png&from=appmsg)
+
+① 栅-源极间电容 (CEXT)
+
+如果 SiC MOSFET 的开关频率较高，开关速度较快的话，流过栅-漏极间的电容 CGD 的电流，假设所有电流都流向栅-源极电容 CGS，MOSFET 的栅-源极电压 VGS 如公式（12）所示，是栅-漏极间电容 CGD 和栅-源极电容 CGS 之间的分压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSm8pfhzvE88rpY7ln3x3veuPZDdjn7IupAvVR9T1TZZialQpqsJeEd2w/640?wx_fmt=png&from=appmsg)
+
+如图 39 所示，在栅极和源极之间增加一个电容 CEXT，栅-源极电压 如公式 (13)所示，
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKS4Cxjq0OKwCYC6T2k7yiaDoPuPxPuPdPvL5LZnSqrQa5CKqMiao0nIXjQ/640?wx_fmt=png&from=appmsg)
+
+因此，栅极-源极电压 VGS 可以降低，自导通的风险也可以抑制。不过，CEXT 增大的话也会增加损耗，因此需要选择合适的电容。
+
+② 正浪涌钳位二极管 (D1)
+
+在 VGH -栅极之间安装二极管 D1 可钳位 VGH 的电压，抑制正向浪涌。 另外，建议使用肖特基势垒二极管 (SBD)，因为D1 会吸收几十 ns 的脉冲，需要尽可能低的电压钳位。
+
+③ 负浪涌钳位二极管 (D2)
+
+栅极-VGL 之间的二极管 (D2)可在负浪涌发生的时候，钳位到VGL。D2 和 D1 一样，建议使用肖特基势垒二极管 (SBD)。
+
+④ 米勒钳位(MC)回路(Q1)
+
+当器件处于关断状态时，通过开启 MOSFET 进行米勒钳位，VGS 被连接到 0V，以抑制栅极电位抬升。 (图 40）为了提供米勒钳位电路，需要一个控制信号来驱动 MOSFET 进行米勒钳位。该控制信号需要在关断期间通过监测 VGS 来找到驱动时序，通常在栅极驱动器 IC 中都有提供。 本应用说明所选用的栅极驱动 IC（BM61S41RFV-C）是一款内置米勒钳位电路的IC。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSJBnrN2nr9JkV06ibVJ7V1Rxu9hNkr1paNLiaGZSqBuYZXVx2rfGfrnbg/640?wx_fmt=png&from=appmsg)
+
+⑤ 低电压检测电路(UVLO)
+
+如果在栅极驱动电路的电源电压（VGH）未充分升高时开启MOSFET，导通电阻会很高，从而可能导致发热和损坏。有些栅极驱动 IC 配备了控制电路，可监控电源电压，如果检测到电压过低，则不开启栅极。本应用说明中举例的栅极驱动IC(BM61S41RFV)具有 UVLO 功能。
+
+⑥ 栅-源极间电阻（R1）
+
+在栅极和源极之间连接一个电阻，以便在栅极电源关闭时固定栅极电位。
+
+**5.栅极驱动电路的实际案例**
+
+**5.1 ROHM SiC MOSFET SCT4018KR**
+
+栅极驱动电路的设计条件如下。 栅极驱动 IC 是 ROHM 的BM61S41RFV-C，它是具有米勒钳位功能的单通道隔离型，适用于高速驱动 SiC MOS。
+
+栅极电压方面，导通电压(VGH)为 18V，关断电压(VGL)为 0 V。栅极电阻(REXT)暂定为 4.7Ω。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSTMicSYIuEhgkAbwtlDkNkx9Lcanun74NWugaSkZRQRtq5GImsI4E6jQ/640?wx_fmt=png&from=appmsg)
+
+充放电栅极电压 VG 由公式（5）计算得出。
+
+𝑉G = 𝑉GH + |𝑉GL| = 18 + |0| = 18\[𝑉\]
+
+栅极驱动范围的 Total Gate Charge(Qg)、从图 41 可以读出+18V 的 Qg为 170nC。
+
+𝑄𝑔 = +𝑄𝑔 + |−𝑄𝑔| = 170𝑛 + 0 = 170𝑛 \[𝐶\]
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSSVC4JqaU3aw4ZCp89ChRpMzlib0icWakUOFLaCYnLbNaQPicFqgHtzUOQ/640?wx_fmt=png&from=appmsg)
+
+开关时，对电容元件充电的功率由公式（4）计算得出，
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSWyNkwpaTib4all696icwkdo752XicuV7ib09lLMicSzEdtNNPiaicmcCFEf7A/640?wx_fmt=png&from=appmsg)
+
+关闭时，从电容器件放电的能量产生的功耗 PDisCHG 由公式（4）得出，
+
+𝑃DisCHG = 𝑃CHG = 77 \[𝑚𝑊\]
+
+对栅极的充电平均电流 ICHG，由公式（7）计算得出以下值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSBsN0icchQqOyLyaLib17jMZE8N7BP6EQJCYub2xJddW2OKxfibX3Xpf5Q/640?wx_fmt=png&from=appmsg)
+
+对器件栅极的充电平均电流 IG ，由公式 (8)计算得以下值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSCk0FGyL8FTzIQAUvk2MmdDrne3aIHiaxL1L4az0AL6TsZWSTK58cUYg/640?wx_fmt=png&from=appmsg)
+
+在实际操作中试用器件，并根据图 36 所示的栅极电阻因素考虑最佳栅极电阻。检查 VDS 浪涌波形。图 42 是栅极电阻REXT 和 VDS 浪涌的特性；图 42 的导通的图中的 VDS 浪涌是续流侧的浪涌，而关闭的图中的 VDS 浪涌是驱动侧的浪涌。图 43 是栅极电阻 REXT 和开关损耗的特性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSlHwwA2AhQZntxsEH8L2ARJErFicWNslSEmvsssqXia0QzqmjdJqzhKbg/640?wx_fmt=png&from=appmsg)
+
+如果绝对最大额定电压为 1200V，降额为 80%，调整栅极电阻值，以确保将 VDS 浪涌保持在 960V 以下。 当栅极电阻较小时，开关损耗会降低，但为了将 VDS 浪涌值保持在 960 V以下，需要在导通时选择 4Ω 以上的栅极电阻，在关断时选择2Ω 以上的栅极电阻。
+
+由于关断时的栅极电阻较小，在图 44 的电路图中选择了 4.7Ω 的电阻。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKS6ic1vlaiaEGiccSJIzqDwKWzcgtxmtcyWiap2icTVEpF0JU0chx1fW6EopQ/640?wx_fmt=png&from=appmsg)
+
+图 44. 选定的栅极电阻
+
+导通时电容元件充电的时候，电阻产生的功耗 PRES 由公式（3）得出以下值：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKS5JNqtXJwibas4fibfq5ddvCfGBFHCeNlJicEq2SpeTNdBBLBpd93D9TMQ/640?wx_fmt=png&from=appmsg)
+
+栅极驱动 IC 的功耗由公式（8）得出：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSBzZvaMcLH15afc3hBZp4JVYNWFnhkAyFqjknP3gOCjMcaR4adrbWVw/640?wx_fmt=png&from=appmsg)
+
+栅极驱动电路的功耗 PGDR 由公式（2）得出以下结果：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKS134xzsF0q8658ejia5riaibeicj3wsMDtmcrExPTiaObaF3EcJTvZiaZV1qw/640?wx_fmt=png&from=appmsg)
+
+栅极驱动电路的峰值电流 ICHG\_PEAK 由公式（10）计算得出。根据栅极驱动 IC 的 datasheet，栅极驱动 IC 充电侧晶体管的输出电阻 RN 的最小值为 0.3Ω，放电侧晶体管的输出电阻RN 的最小值为 0.15Ω，因此可以计算出放电时的最大峰值电流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSSB6Z3R6pgvkvUsaLdic6ZVTtE26DFcWcGgkp4fHMYavDwhPU9owANjA/640?wx_fmt=png&from=appmsg)
+
+如图 45 所示，将具有 f 时间常数的方波进行脉冲换算，则以峰值电流为 5.14A、脉冲持续时间 (t/2) 为 16.2ns 计算。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKS85NgAutLALw2KKsfWrniafeuiaQnwUeUQl8ZCicZs2Zo4LdMAk1NQicZWA/640?wx_fmt=png&from=appmsg)
+
+𝐷𝑢𝑡𝑦 = 𝑡 × 𝑓𝑆𝑊 × 2 = 33.4𝑛 × 50𝑘 × 2 = 0.0033
+
+从图 46 中可以读出电阻的连续脉冲极限功率约为 13W。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSc8ia4eQkpGFe8CqsGTA9wj6Jia2ZcibjoJZ5wuzgiaWXpYA5QlzF6mpNkg/640?wx_fmt=png&from=appmsg)
+
+电阻的额定脉冲电压由以下的公式计算得出：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSB2lqDeIYcxj8TDOuWYkk2R3csktIAica6Cv00uFQZ9wZZibjWXe34heA/640?wx_fmt=png&from=appmsg)
+
+脉冲额定电压可以降低到 VR\_MAX= 7.81 V 以下值。
+
+栅极驱动电路的功耗为 90 mW，这意味着栅极驱动电路的电源必须设计为 90 mW 以上的额定功率，并且不受最大 5.14A/33 ns 宽度的陡峭负载波动的影响。假设占空比为 50%，栅极驱动 IC 的功耗 PDRV，由公式 (11)得出：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSlabasaePsXhsaWTzib0DNTc28eDmicSBbP0R5UQpZL9Vjj0lfkZp221A/640?wx_fmt=png&from=appmsg)
+
+封装功率 Pd 为热阻为 180 °C/W，Pd = 694 mW，这证明栅极 IC 产生的热量不成问题。栅极电阻(REXT)的功耗 PR\_EXT ：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKS697u0oGrk33vzX8fgYTrIEicHpUElcSdKQyE8TwicibHjMHrlamlx2BEA/640?wx_fmt=png&from=appmsg)
+
+ROHM 耐浪涌电阻：如果选择 ESR10 的话，额定功率为250mW，平均功率不成问题。但因为脉冲功率会产生的瞬时热量会被积累，所以请进行热测量评估。
+
+图 44 中的关断二极管(DG)选用 的是 40 V/1A 的产品。
+
+图 47 的设计示例中检讨的是采用 ROHM SiC MOSFETSCT4018KR 实现的栅极驱动电路图示例
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjLibXF9D0Uiaiabt6INf6lKSQia7iapWaHH6UV0U2Uy4qQneH7I0nZFrJmpeK0lbTuSm6YvfoRfHwKLw/640?wx_fmt=png&from=appmsg)
+
+**6.总结**
+
+随着 SiC MOSFET 的替代，开关速度的提高，出现漏-源极电压浪涌和自导通等问题的风险也在增加。经过深思熟虑的栅极驱动电路设计将有助于避免问题的发生，并最大限度地发挥SiC MOSFET 的能力。
+
+希望本应用说明中介绍的栅极驱动电路设计指南和保护电路设计示例能对栅极驱动电路设计有所帮助。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

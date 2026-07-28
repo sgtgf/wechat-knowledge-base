@@ -1,0 +1,221 @@
+# 固态变压器(SST）开发加速器：半实物仿真全链路解决方案
+
+原创 EasyGo 实时仿真 SiC碳化硅MOS管及功率模块的应用 2025-12-31 11:50 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/8Bu8ngPDqYesaw3bEKTF0g](https://mp.weixin.qq.com/s/8Bu8ngPDqYesaw3bEKTF0g)
+
+  
+
+在AI算力爆发的背景下，数据中心供电系统面临巨大挑战。固态变压器(SST）以其模块化、可控性与高功率密度，成为突破传统供电瓶颈的关键技术。为确保其复杂系统在量产前的高可靠性与稳定性，EasyGo半实物仿真方案通过构建实物+仿真的闭环测试环境，显著降低研发风险并缩短调试周期，为超高压、大电流AI服务器集群的供电仿真验证提供了全链路解决方案。
+
+  
+
+**AI算力爆发下的供电挑战**
+
+  
+
+随着 AI 算力密度飙升，单机柜功耗已突破 100kW，传统交流供电架构因转换效率低、动态响应慢，难以满足高效能需求。高压直流（HVDC）技术凭借直流直达芯片的简洁路径，成为 AI 数据中心的新标准。
+
+![](https://mmecoa.qpic.cn/mmecoa_jpg/cwZrH6rzqRNYSLrU1IYicvwSGzbEJGvXEiag6y4zckRuVKMZWFyDG89enmPicDGf5YnsDbib91nmuGRiaZcmicF9fmyw/640?from=appmsg&wx_fmt=jpeg)
+
+**根据美国劳伦斯伯克利国家实验室(LBNL)报告指出：**传统交流(480V AC）系统典型的整体效率(从市电到芯片）约为85-88%，而HVDC（380V/800V DC）系统可将效率提升至 94\-97%，能效提升幅度在6~12%之间，若考虑减少制冷能耗，总体节能效果可达15%或更高。
+
+固态变压器(SST）从本质上解决了传统供电系统在应对 AI 算力高功率、高密度、高可靠性与高效节能需求时的结构性矛盾，被视为下一代 AI 算力中心供电方案的核心技术路径。
+
+![SST开发加速器_02.jpg](https://mmecoa.qpic.cn/mmecoa_jpg/cwZrH6rzqRNYSLrU1IYicvwSGzbEJGvXEAlTybicOmw2WLlunmVkScy3uUDic8NVOYUzWNfxeyOBBWia0BCOP3cEPw/640?from=appmsg&wx_fmt=jpeg)
+
+固态变压器（SST）作为一个完全可控的电力电子变换器，其核心优势在于主动控制。它能够实时监测并精确调节输出电压的幅值和波形，有效抑制电网侧传来的谐波干扰，并在毫秒级内补偿电压暂降，为 AI 硬件提供一个近乎纯净稳定的电源环境 。此外，其固态化设计减少了机械磨损部件，寿命和可靠性远高于传统方案。  
+
+**相比于传统的变压器，固态变压器（SST）具有以下优点：**
+
+![SST开发加速器_03.jpg](https://mmecoa.qpic.cn/mmecoa_jpg/cwZrH6rzqRNYSLrU1IYicvwSGzbEJGvXEHNDFxJjrwO6Mv1O1uib0nG0A4n0Qqe1zwUX7YQPQfSf4ZyWCCibbs0ibg/640?from=appmsg&wx_fmt=jpeg)
+
+**▌****模块化与可扩展性：**增减子模块即可调节功率，像搭积木一样简单，轻松适配标准化设计与功率升级需求。
+
+**▌****高可靠性：**模块化架构自带冗余能力，单模块故障时系统可降额运行，满足 AI 服务器数据中心严苛的供电可靠性要求。
+
+**▌****优异的性能：**采用多中低压器件并联方案，开关频率更高、损耗更低，大幅提升整机效率与功率密度。
+
+**固态变压器（SST）**
+
+  
+
+**工作原理**
+
+  
+
+  
+
+  
+
+  
+
+固态变压器（SST）往往是通过 AC/DC、DC/DC、DC/AC 三级电力电子变换实现能量转换，在 AI 数据中心供电领域等部分场景下会只保留 AC/DC、DC/DC 两级变换。
+
+![SST开发加速器_04.jpg](https://mmecoa.qpic.cn/mmecoa_jpg/cwZrH6rzqRNYSLrU1IYicvwSGzbEJGvXEYxq6GricsPaBibnnsWkKOyPwuNlrLCTVr4vsia5b8j6qynNWh39AJr6qg/640?from=appmsg&wx_fmt=jpeg)
+
+**▌****AC/DC(输入整流级)：**将工频交流电整流为直流电，同时进行功率因数校正。
+
+**▌****DC/DC(隔离级)：**在高频(10kHz-100kHz)下完成直流电压匹配和电气隔离，采用高频变压器替代传统铁芯。
+
+**▌****DC/AC(输出级)：**将直流电逆变为所需参数的交流电。
+
+其中DC/DC（隔离级）采用高频技术完成电压匹配，是固态变压器（SST）实现电气隔离和电压调节的核心环节，承担着能量双向流动控制、功率解耦和故障隔离等关键功能。该级电路通过高频开关技术替代传统工频变压器，实现功率密度提升5-10倍的突破性进展。
+
+**硬件架构**
+
+  
+
+  
+
+  
+
+  
+
+在不同的应用场景下，固态变压器（SST）的端口电压形式以及电气隔离的方式也不相同，以下为固态变压器（SST）的3种经典架构。
+
+![](https://mmecoa.qpic.cn/mmecoa_jpg/cwZrH6rzqRNYSLrU1IYicvwSGzbEJGvXEdMuPavylN2GjABqnedyd5sqX0DeTsoehicBk62A6K2vibzwYbGhEMdrQ/640?from=appmsg&wx_fmt=jpeg)
+
+  
+
+  
+
+  
+
+  
+
+**基于ISOP架构的SST**
+
+  
+
+▷ISOP架构的核心在于化整为零，协同工作，通过将多个SST子模块的输入端串联以分担高输入电压，并将输出端并联以共同承担大电流。
+
+▷该结构模块化程度高、具备天然冗余可靠性，显著降低了对单个功率器件的耐压要求，特别适合中压输入、低压大电流输出的应用场景，但需精确控制输入均压与输出均流。
+
+  
+
+**基于MMC架构的SST**
+
+  
+
+▷MMC架构是一种面向中高压、大功率交流应用的解决方案，其核心是通过大量结构相同的子模块级联来合成高质量的多电平交流波形。
+
+▷这种架构能直接应对超高电压，输出波形谐波含量极低，电能质量卓越，并具备强大的故障穿越能力。它非常适用于柔性交流输电、高压直流输电等场景，但系统复杂度和控制难度较高。
+
+  
+
+**基于MMC DC/DC架构的SST**
+
+  
+
+▷MMC DC/DC 架构本质上是将 MMC 的模块化思想应用于高压直流到低压直流的变换，可视为 ISOP 架构的直流升级版。它使用隔离型 DC/DC 变换器作为基本子模块，在输入侧串联分压，输出侧并联汇流，每个子模块自带高频电气隔离。
+
+▷这种架构是构建未来直流电网的核心装备，在直流变换效率方面具备绝对优势，主要服务于高压直流输电、新能源直流汇集等前沿领域。
+
+**半实物仿真方案**
+
+  
+
+半实物仿真平台通过构建“SST控制器实物+实时仿真模型”的闭环测试环境，采用硬件在环技术，能够实现对控制算法有效性、系统稳定性及故障工况的精准验证，显著降低研发风险并缩短调试周期，为固态变压器（SST）在量产前完成全工况测试赋能，确保从设计到应用的可靠性跨越。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Xagc18SHKQia4Ofm4TEBRonMib3DDYLZNuWb0rEW78ByFF6oicfUTQkyd6wtGNcFU4aQq5MGOiaGOY2TaTY7w5edtg/640?wx_fmt=jpeg&from=appmsg)
+
+这里使用我司的EGBox Pro半实物仿真设备对基于 ISOP 架构的固态变压器（SST）进行实时仿真验证，验证其在稳定工况下输出电压的效果。
+
+**离线仿真**
+
+  
+
+  
+
+  
+
+  
+
+基于 ISOP 架构的固态变压器（SST）由N个相同的功率变换单元在交流侧输入串联、直流侧输出并联的方式构成。其每个功率变换单元由前级 AC/DC 电路和后级双向 LLC 电路构成，前级电路主要实现功率双向控制值和输出电压控制，后级作为高频变压器起到电气隔离的作用。
+
+![SST开发加速器_07.jpg](https://mmecoa.qpic.cn/mmecoa_jpg/cwZrH6rzqRNYSLrU1IYicvwSGzbEJGvXEA9NJbFK94RQxMxJT45RvFjVt3PbTBgNlhes5sHyYu9ak8txtGOJXng/640?from=appmsg&wx_fmt=jpeg)
+
+给定该拓扑的电压为10kV AC输入，800V DC输出，输出功率为 1MW，串联模块数为10个，对其进行基于 Matlab Simulink 离线模型搭建如图。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Xagc18SHKQia4Ofm4TEBRonMib3DDYLZNuqVnYtkJAuyGPYcy6G5JsO3icxOYHWCl0A77sFbBPkw1UNq9Gk3C9mRQ/640?wx_fmt=jpeg&from=appmsg)
+
+前级控制采用移相载波控制策略，将每一个模块的载波移相90°，后级采用电压外环，电流环内环的双闭环移相控制策略。
+
+**设置负载输出1MW，波形图如下所示：**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Xagc18SHKQia4Ofm4TEBRonMib3DDYLZNuRE6wQyfNRKPm6p1qHiaMEJ1UF8284cab6ZACegX4vnDCmtkFCibWialQw/640?wx_fmt=jpeg&from=appmsg)
+
+**EasyGo半实物仿真**
+
+  
+
+  
+
+  
+
+  
+
+这里使用**4个SST子模块级联为例**（以0.4MW的ISOP架构SST拓扑搭建仿真模型），搭建实时模型如图。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Xagc18SHKQia4Ofm4TEBRonMib3DDYLZNuiahTpUVvAZf2JOoSz7gaicCtLXBs1ulSzJTHMMV87AC4pT4m46OXJlZw/640?wx_fmt=jpeg&from=appmsg)
+
+载入 EasyGo DeskSim 仿真软件，软件自动解析模型信息，如图可以看到该模型消耗了123个关键元件数，最小仿真步长为1.0125μs。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Xagc18SHKQia4Ofm4TEBRonMib3DDYLZNuNIcSKmVzic0qM2F3cRrSgBEvQTEb73ACrc2AXiaaYlb53YXXNb0CkcWA/640?wx_fmt=jpeg&from=appmsg)
+
+设定实时仿真电压输出为 800V，启动脉冲控制后，输出电流为 500A，输出功率为 0.4MW。随后将负载输出电压设定为 850V，可以看到实际输出也随之正确变化。  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Xagc18SHKQia4Ofm4TEBRonMib3DDYLZNu1duboeyDlf5VP2cwxUnP8AwGgPjBnAb9iaiaydtKd1iauC5RVbuYs2NiaQ/640?wx_fmt=jpeg&from=appmsg)
+
+使用示波器连接仿真设备的 IO 接口，观察 800V 输出工况下，负载电压的实际输出值，如下所示（由于仿真器将该值缩小了100倍，因此示波器测量的理论值为8.0V）。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Xagc18SHKQia4Ofm4TEBRonMib3DDYLZNuGmnDicJ9icKDxhuoqYoaPMnMcMcicbV7hgLO6iaWCWKGzctRzoyGjF47Og/640?wx_fmt=jpeg&from=appmsg)
+
+_**实际案例分享**_
+
+  
+
+通过EasyGo半实物仿真平台的高效开发和验证，我司研制出了基于 ISOP 架构的大功率电源产品，并已成功应用于深海场景。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Xagc18SHKQia4Ofm4TEBRonMib3DDYLZNuHWRHicEcrGndKjNs523NWibbXeDUC6CAaIjNicSfp1vRP9Xwt6AOYywuQ/640?wx_fmt=jpeg&from=appmsg)
+
+**300kW 电源主电路框图如下。10 个 30kW 模块输入串联输出并联，协同工作对最大 300kW 电能进行变换。输入总电压直流额定 4kV，输出总电流最大 2kA（交流幅值，直流平均值）。**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Xagc18SHKQia4Ofm4TEBRonMib3DDYLZNuMbSb7Ggybu6lU8nGtT2jJXBfHS4IIRic2HIbwUC41xvx5aKn54H97EQ/640?wx_fmt=jpeg&from=appmsg)
+
+▷单模块采用2级电能变换。第1级采用移相全桥电路将 DC400V 变换成 DC150V ，并保持稳定输出；第2级采用 DC/AC 逆变电路输出指定的电流波形。
+
+**▷单模块的移相全桥电路独立运行。**始终输出 DC200V 的电压，为各自模块的后级逆变电路提供稳定的电压输入。移相全桥输入电容两端接硬件均压电路，自动根据输入电容电压高低均衡输入电压。
+
+**▷10个模块的逆变电路由主控板控制协同运行。**主控板对10个模块的输入电压均压并产生各模块输出电流的指令，各模块逆变器控制输出电流跟踪指令，最终通过控制模块输出电流实现模块输入电压的均衡控制。
+
+  
+
+  
+
+  
+
+  
+
+  
+
+EasyGo 半实物仿真全链路解决方案通过构建闭环测试环境，为 SST 等复杂电力电子系统提供了从实验室走向量产的关键验证桥梁。该方案能大幅压缩开发周期、降低实机调试风险，确保产品在量产前达到极高的可靠性标准。未来，随着技术的进一步发展，半实物仿真有望在更多复杂场景中发挥关键作用，为AI数据中心的高效、可靠供电提供坚实保障。
+
+注明：  
+
+【版权声明】：本公众号平台注明来源或转载的文章，版权归原作者及原出处所有，仅供大家学习参考之用，若来源标注错误或侵犯到您的权利，烦请告知，我们将立即改正或删除。
+
+【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8wbBGNW9vg5ncupmqcdxVoibYIMmTQEkzhCGnibmcTazicZtN7wUpfx4kg/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8hQH668ibmyHIuKaFH5x8ZrvqojdibAct1LeUGnQ9riadcArZlMPFt6vicA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8iaKev16ITTM6WYd3HDzNJoQG2YtMa8oJTjL5m78k5DSND7f5D0IFTZQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsniaiaokz2jT7MjAyicbBnfzl8pKNlmfpqMGwHXia1oHFqVvBZxhLII94sVhdibFHWVib9c9u5sBYBP6wXw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)

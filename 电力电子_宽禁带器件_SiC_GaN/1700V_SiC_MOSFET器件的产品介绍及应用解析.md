@@ -1,0 +1,268 @@
+# 1700V SiC MOSFET器件的产品介绍及应用解析
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/utOgFhZ6AJ9XUea9A2FEGA](https://mp.weixin.qq.com/s/utOgFhZ6AJ9XUea9A2FEGA)
+
+碳化硅器件的高频特性、耐高压和耐高温性能，能够显著提高效率和功率密度，降低应用端的成本、体积和重量。随着碳化硅技术在电力电子领域的快速发展，1700V SiC MOSFET器件为中压大功率转换领域提供了强有力的技术支持。凭借其高功率密度、高可靠性和多样化选择，该系列产品在射频器件-新能源汽车-光伏发电-智能电网-轨道交通...等多个行业中发挥重要作用，助力我国新能源和电力电子产业的持续升级。
+
+一、1700V SiC MOSFET 的发展需求
+
+1700V SiC MOSFET 的需求并非凭空产生，而是由系统级应用的发展趋势和技术本身的进步共同驱动的。
+
+**1.系统电压等级提升的需求：**
+
+**光伏/储能：** 为了降低传输损耗和系统成本，光伏逆变器和储能变流器的直流母线电压正在从传统的1000V-1100V提升至1500V。这要求功率器件必须拥有更高的耐压等级（通常为直流母线电压的1.2-1.3倍以上），1700V成为理想选择。
+
+**轨道交通：** 地铁、轻轨等车辆的辅助变流器、牵引变流器通常工作在DC 1500V或AC 1150V的电网下，同样需要1700V甚至更高耐压的器件。
+
+**工业驱动：** 在大型工业电机驱动、中压变频器中，为了直接驱动更高电压的电机或减少变压器使用，对1700V-3300V的中压功率器件需求日益增长。
+
+**2.对更高效率和功率密度的不懈追求：**
+
+与传统的1700V硅基IGBT相比，SiC MOSFET具有更低的开关损耗和导通损耗。这使得系统可以在更高的开关频率下工作，从而显著减小无源元件（如电感、电容、变压器）的体积和重量，最终实现**更高的系统效率、功率密度和更低的系统总成本**。
+
+**3.对系统可靠性的更高要求：**
+
+SiC材料具有更高的热导率和临界击穿电场，使得1700V SiC MOSFET能够在更高的结温下工作（通常可达175°C甚至更高），并拥有更强的短路耐受能力和更稳健的开关特性，这对于要求长寿命、高可靠性的工业、能源和交通应用至关重要。
+
+### **二、1700V SiC MOSFET 的应用领域及应用优势**
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tIS3QvoBPFmsWZdLgTN53y457BZfLARl1yDtddGHTlsJIkqQb6MpkkA/640?wx_fmt=png&from=appmsg)
+
+### **
+
+### **三、1700V SiC MOSFET 的产品介绍**
+
+### **
+
+### **1700V的SiCMOSFET分插件式和贴片式两种封装。**
+
+**
+
+**
+
+**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tuCA53JJs9Pwtcux5wofOW5kqILW6F3SqQzvyYTib0amLyTlV2Aiciav7A/640?wx_fmt=png&from=appmsg)**
+
+1\.  1700V1A的产品：采用TO220F封装，驱动电压12V.
+
+**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4t6GlGZuGgs2Nr0dKawW6Aw8icF3kHM4DLuAlWMSXcxoShwqX7dhCGHVw/640?wx_fmt=png&from=appmsg)**
+
+**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tQQJwbzOT4ZPUeSVvO4TL933EF1pzK56NjDELjsKRBNL3ElrWgNicFMA/640?wx_fmt=png&from=appmsg)**
+
+### ****1700V1A(内阻10000毫欧）的产品封装与参数表****
+
+### ****
+
+### **
+
+2\.  1700V5A的产品：采用TO247-3和TO263-7封装，驱动电压12V.
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tV9EZIW6iaWLxmcdj1mqbq0XG1N5cHl2iaVnzM8XibLb00micMNDib3QkSZg/640?wx_fmt=png&from=appmsg)
+
+  
+
+
+**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tlK1UDayo0UgxTjFE5JKCQIreHyyU1fp0LbpuwkopQhpB2m3WOELzCg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4t42ibps9WfCJjsEQct31MEDu2smmhhmyVsfN3v8OgNWF2SnC0zJuMH2w/640?wx_fmt=png&from=appmsg)
+
+### **
+
+### **1700V5A(内阻750毫欧）的产品封装与参数表**
+
+**
+
+### **
+
+### ****
+
+3\.  1700V40A的产品：采用TO247-3封装，驱动电压18V.
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4ticlia25Jld7FQReYINyicbWkOqqFnibjziapFaIibjq3SXrC683j4ACTKicbg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tU4L8vpI7mLXsFpXJaYb7HVeUgib92moO4s0xN1pvniazxqGicDgWMalVw/640?wx_fmt=png&from=appmsg)
+
+**
+
+### **
+
+**
+
+### 1700V40A(内阻72毫欧）的产品封装与参数表
+
+**
+
+**
+
+**
+
+### **
+
+### ****
+
+4\.  1700V100A的产品：采用TO247-3、TO247-4L和TO247-4i（内绝缘）封装，驱动电压18V.
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tX007ic28U4VT92B3N5R8nricEhZxYCQibJJhIlmpPaSTKkE0H6k1CqvPg/640?wx_fmt=png&from=appmsg)
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tXSXCsiauQsKNc3d7N1xZqq0TB889eHlKKESa6RmMTiagLq7RpXaFPXIQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tyXmjiaulP5xugJATgv3OAY57ribLMiablxnFvfoN6nQkCxZWRcVMghWdA/640?wx_fmt=png&from=appmsg)
+
+**
+
+### **
+
+**
+
+### 1700V100A(内阻25毫欧）的产品封装与参数表
+
+**
+
+**
+
+**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tn8VNuLw8a3aSBcnefsKr5jmCYZWvw61393QXoJXlpJ8EcyhO6an4dQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4txckFvq80pdZ1ZdkYbztDLZW1SuNibogHendmVlCE09gLBkoMASONscA/640?wx_fmt=png&from=appmsg)
+
+###         **###         **1700V100A(内绝缘）的产品封装****
+
+
+
+****
+
+**
+
+
+
+****
+
+**
+
+
+
+
+
+****
+
+### ****
+
+### **
+
+### 
+
+### ******
+
+5\.  1700V120A的产品：采用TO247-4L封装，驱动电压15V兼容18V.
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4tZnKZC1UDL2KRZJGnxyiaQpNoXPhY2hnSrrbk6CPWjzDca95Z8N2nqNA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn3nnG2iazjFStIQHA0D9Q4t4X6WWIL3iaOG5zoK3oicwYtQOPpmoJbKhqibkGpANkR0f3qCLvWicDq1lw/640?wx_fmt=png&from=appmsg)
+
+**
+
+### **
+
+**1700V120A(内阻14毫欧）的产品封装与参数表**
+
+**
+
+********
+
+
+
+
+
+**
+
+**四、市场中应用1700V SiC MOSFET 的应用案例介绍**
+
+目前，1700V SiC MOSFET已从技术验证阶段逐步进入规模化商用阶段。
+
+**1.光伏逆变器领域（最典型的案例）**
+
+-   **头部逆变器厂商：** 如**阳光电源、华为、上能电气、特变电工**等，都已在其1500V光伏逆变器产品中导入或正在测试1700V SiC MOSFET方案。例如，阳光电源在其某些型号的组串式逆变器中采用SiC技术，实现了高达99%以上的转换效率和更小的体积。
+    
+-   **技术路径：** 主要用于逆变器的DC-DC升压电路和DC-AC逆变桥。相比硅IGBT方案，开关频率可以从约20kHz提升至50kHz甚至更高，电感体积和损耗大幅降低。  
+    
+
+2.轨道交通领域
+
+-   **国际巨头：** **ABB、阿尔斯通、西门子**等公司已在下一代轨道交通牵引系统中积极布局SiC技术。例如，ABB已推出采用SiC器件的牵引变流器，宣称可节能20%并减重60%。
+    
+-   **国内进展：** 中车集团等国内厂商也在积极研发基于1700V及更高电压SiC MOSFET的牵引系统，并在部分地铁线路上进行试验和示范运行。
+    
+
+3.电动汽车超充桩
+
+-   **充电模块：** **特斯拉V3/V4超充桩、华为HiCharger、以及众多第三方充电桩厂商**的480kW及更大功率的充电模块，其核心功率器件就是1700V SiC MOSFET。它使得单个充电模块的功率密度得以大幅提升，从而在有限的柜体空间内实现更大的输出功率。
+    
+
+4.工业电源
+
+-   **高端UPS：** 如**维谛技术、伊顿、施耐德**等在其大功率模块化UPS中，采用1700V SiC MOSFET来提升整机效率和功率密度，降低对机房的散热要求。
+    
+
+### **五、SiC MOSFET 的发展趋势总结**
+
+**1.电压等级向上与向下双向延伸：**
+
+-   **向上（高压化）：** 在1700V基础上，**3300V， 6500V乃至10kV以上**的SiC MOSFET正在快速发展，将全面进军轨道交通、智能电网、重型工业等超高压领域。
+    
+-   **向下（优化与普及）：** 1200V和650V器件将通过技术迭代（如沟槽栅结构）进一步**降低成本、提升性能和可靠性**，巩固在新能源车主驱、车载充电机、服务器电源等市场的优势。  
+    
+
+2.技术持续迭代：沟槽结构成为主流
+
+-   早期的平面栅SiC MOSFET正在被性能更优的**沟槽栅结构** 所取代。沟槽结构能有效减小元胞尺寸，降低导通电阻和栅极电荷，实现更低的FOM，是未来技术竞争的焦点。  
+    
+
+3.成本下降与产业链成熟：
+
+-   随着**衬底尺寸从6英寸向8英寸过渡**，以及外延、制造、封装各环节的良率提升和规模化效应，SiC器件的成本将持续下降，性价比优势愈发明显，渗透率将加速提升。  
+    
+
+4.模块化与集成化：
+
+-   为了满足大功率应用需求，将1700V SiC MOSFET芯片封装成**半桥、全桥、PIM等模块**是必然趋势。同时，将驱动、保护、传感等功能与芯片集成的**智能功率模块** 也将是发展方向。  
+    
+
+5.应用场景持续拓宽：
+
+-   从光伏、电动汽车，到数据中心、5G基站电源、医疗设备、航空航天等，几乎所有对效率、功率密度和温度有要求的领域，都将成为SiC MOSFET的用武之地。
+    
+
+总结与建议
+
+1700V SiC MOSFET正成为高压高功率场景的核心器件，其应用从新能源扩展至工业与交通领域。选型需兼顾电压裕量、动态性能及可靠性认证，设计需优化驱动与散热方案。未来3-5年，随着国产技术突破与成本下降，1700V SiC MOSFET将加速替代传统硅基方案。
+
+SiC MOSFET的封装大全
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnxIO3F1c8KRpLBdrRTWm6JBRRzI0GUujE9clCxktgOwy46nDby8baG4l9q1ic9PhAr4koF2U6yGRA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+
+SiC功率模块的封装大全
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxIO3F1c8KRpLBdrRTWm6JAWan7DrHtQLs3SkyC4lqFo4XjVzS3AT4uaBEibvAmQxe2492nLJWj5Q/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+
+SiC器件的应用领域
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxIO3F1c8KRpLBdrRTWm6Jw9PcFBosViaR2G0ydXia6BpFiboBxFhMKEpcEHK6mVcmDYxlqickROx3YA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)
+
+  
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnxIO3F1c8KRpLBdrRTWm6J14jkAHcY1dKhibWHBU7IenSycj6WVlM7QfZ9ILVbMTKMRCrPFUVAI0g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxIO3F1c8KRpLBdrRTWm6JLWzXIZutcJeUeOibsLfOyJBpHZ7qjwia2klcJ0hqPKZnIZpUKoEAic5fw/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=17)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnxIO3F1c8KRpLBdrRTWm6J7aJJ6OZhJicF03pZ6IRmh73FjUYLzBSnksKNyF6k27UkstZlbmKuFRQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=18)

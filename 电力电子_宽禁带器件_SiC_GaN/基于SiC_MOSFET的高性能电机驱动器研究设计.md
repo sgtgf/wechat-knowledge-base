@@ -1,0 +1,115 @@
+# 基于SiC MOSFET的高性能电机驱动器研究设计
+
+原创 鲁 鹏,王永国,等 SiC碳化硅MOS管及功率模块的应用 2024-11-02 00:04 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/lbn0Kf5tnPmldEfh8Tjw4A](https://mp.weixin.qq.com/s/lbn0Kf5tnPmldEfh8Tjw4A)
+
+**文章来源：**山西电子技术
+
+**作者：**鲁 鹏， 王永国ꎬ，王瑜嘉，闫 稳(航空工业西安航空计算技术研究所，陕西 西安 710065)
+
+**摘 要:**为了降低高空飞艇电推进系统的重量，提高其续航能力，高效率、高功率密度电机驱动器的研究具有重要意义。从器件选型、电路设计、PCB设计、箱体结构设计等方面进行分析，研究设计了基于宽禁带功率器件的高效率、高功率密度的10KW电机驱动器样机，并通过实验进行了验证。
+
+**关键词:**高空飞艇，SiC MOSFET, 高性能, 电机驱动器
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiazeluXwnQIephib1iblSquqibNstjsIQ8sGMvoTxVss3gMM7BibCPicuH4gA/640?wx_fmt=jpeg&from=appmsg)
+
+**０.  引言**
+
+临近空间作为传统的航空和航天的中间领域,有着巨大的战略价值。 目前临近空间飞行器主要集中在高空飞艇，其依靠螺旋桨电推进系统实现悬停和移动。电推进系统通过采用太阳能/ 储能电池经过 DC/AC 逆变器给电机供电，电机经传动机构或直接驱动螺旋桨运行。电机驱动器在高空飞艇的应用背景下，使其需要具有高效、轻质运行等特性。电机驱动器的效率、重量主要取决于功率开关管， 与传统Si器件相比ꎬ以碳化硅(简称 SiC)和氮化镓(简称 GaN)为代表的新一代宽禁带半导体功率器件具有更高的开关速度、更低的导通电阻、更大的导热率以及更高的结温下运行能力等优势。 以 SiC 材料制成的 MOSFET 在高效率、高温、高频等方面具有巨大的应用潜力，因此，基于 SiC 功率器件的电机驱动器将具有高效率、高功率密度等优势。
+
+目前，SiC 功率器件的应用多集中在较小功率的电源和功率因数校正适配器等领域。近十年一些学者和公司才陆续研制了一批基于 SiC 功率器件的电机驱动器原理样机。其中，美国北卡罗来纳州立大学电力电子中心研制了基于 SiC MOSFET 的 60KW 电机驱动器，并对 SiC MOSFET 和 Si IGBT 两者进行了全面比较，SiC 驱动效率达到 99.1％ ，比 Si IGBT 电机驱动器提高了 ２ 个百分点。日本丰田公司研制的基于 SiC 器件的驱动器与 Si 驱动器相比，体积减小 80％。可见，采用 SiC 功率器件取代电机驱动器中的 Si 功率器件能有效提高驱动器效率和功率密度。
+
+**１.  基于SiC MOSFET的电机驱动器选型**
+
+**１. １ SiC MOSFET功率器件选型**
+
+电推进系统电机采用的永磁同步电机,其工作转速范围为 300-400rpm。 母线电压为 400V，对于额定功率 10KW 的电机驱动器，每个单元的最大连续输出相电流有效值≥25Ａ。
+
+考虑到电流波动引起的过电压以及功率管关断时的过电压， 取高于２倍的电压裕量， 因此 SiC MOSFET 的实际电压等级计算如下:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPia7emzNGZBqibLfJRywibtEm0qWFIjYteHbIBw05ARYzqHb4WMZjT9PZKQ/640?wx_fmt=png&from=appmsg)
+
+SiC MOSFET 的电流等级计算如下:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaFNm83gZO9ZiaU4WlYLjcNQibHddAu5nHazsryjOwlOkQaXyCeQOTbAxA/640?wx_fmt=png&from=appmsg)
+
+其中，Io为输出相电流有效值，Ki为过载能力，选为1.2。
+
+根据以上条件ꎬ选择了 CREE 公司碳化硅功率器件C2M0025120D，C2M0025120D 的相关参数信息如表 １ 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaOcO7tTtnGj6uia9aDC7ibKHGXgX1oHVic5lmPu74BYhbxunUOLu5m0gTA/640?wx_fmt=png&from=appmsg)
+
+**１. ２ 母线电容选择**
+
+在直流母线侧需并联支撑电容，其作用为:
+
+１) 作为能量缓冲，防止在突加负载时直流母线电压出现大幅跌落而导致系统崩溃。
+
+２) 防止来自于母线电容的电压过冲和瞬时过电压对逆变器的影响，抑制直流侧谐波，提高供电电能质量。
+
+母线电容一般选择电解电容或者薄膜电容。相近电压和容值等级的电解电容和薄膜电容相比，薄膜电容的尺寸和重量都比电解电容大。对于高空飞艇，可靠性和安全性是首先需要考虑的，因此选择薄膜电容。下面从薄膜电容的电压和容值选择两方面来阐述。
+
+１) 电压选择:电容的额定电压选择根据驱动电路直流侧母线电压值决定。电解电容自身承受的正向电压不超过其额定电压的1.2 倍，薄膜电容可以较长时间承受1.5 倍的额定电压。因此，在实际应用中，薄膜电容不需要和电解电容一样留有2倍的量，只需要略大于母线电压即可。
+
+２) 容值计算:容值的确定根据下式所得:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaic6xhLznyqMv6PCQUjSR1JbGlNX1wKPSrgzTeMSAqibHK4VvzzGfvv2g/640?wx_fmt=png&from=appmsg)
+
+其中，Pmax 为驱动器输出的最大功率，η 为逆变器的效率，为载波频率，fs为母线电压，U为母线电容的纹波电压。
+
+３)纹波电流: 纹波电流选择计算见文献，这里不再阐述。
+
+综 上 所 述， 选 择 了 TDK 公 司 的 母 线 电 容 B32778H5506K000，其耐压为 ５500V，容值为 50μＦ，采用两个并联，实现 100μＦ，满足使用要求。
+
+**１. ３ 吸收电容的选择**
+
+吸收电容可以吸收由于杂散电感引起的尖峰电压，避免功率管的损坏。选择 Cornell Dubilier 公司的薄膜电容 930C6P22J-F，规格 630V/0.22 μＦ。其放置在离功率器件管脚尽可能近的位置，提高吸收高频电压的作用。
+
+**１. ４ 驱动芯片**
+
+驱动电路负责 SiC 功率管的驱动和保护。 驱动芯片选择 infineon 公司的 1ED020112-F2。芯片自带保护电路，满足设计要求。芯片供电电压为 5V，功率管开通电压 20V， 关断 \-5V。
+
+**１. ５ DC-DC 隔离电源**
+
+DC-DC 隔离转换器将 15V 输入电压转换成20V 和 \-5V，用于驱动芯片输出端供电使用，选择muRata 公司的 MGJ2D152005SC。
+
+**１. ６ 电流传感器**
+
+电流传感器负责 Ｕ、Ｖ 相电流检测。 选用 LEM 的电流传感器 CKSR25-NP(PCB 板上安装)，最大电流测量范围是 ±85Ａ， ＋5Ｖ 供电，带宽 300ｋＨｚ。
+
+**２. 基于SiC MOSFET的电机驱动器设计**
+
+为了满足驱动器的高效率运行,采用了功率器件并联方式,这样可以近一步降低功率器件的导通损耗。三相逆变桥的连接方式如图 １ 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPia5JY74LfWlkW6w78vjHvBRwXSlada0yYm7aY4xibaquwuBKjvYMSPhww/640?wx_fmt=png&from=appmsg)
+
+基于 SiC MOSFET 的电机驱动器 PCB 设计分为驱动板和功率板。驱动板设计过程中，信号侧和功率侧走线和敷铜间不可避免地存在耦合电容，因此在进行 PCB 设计时，应该避免两侧在 PCB 不同层之间存在重叠。驱动芯片下方不宜走线，进行开槽处理，保持两侧具有较大的隔离范围，进一步降低耦合电容。驱动芯片输出侧的回路面积尽可能小，减小共源极寄生电感。功率板设计过程中，吸收电容尽可能靠近功率器件引脚，达到吸收电压过冲尖峰的最佳效果。由于此驱动器用于高压，因此在设计布线过程中，需要考虑爬电距离， 焊接功率器件时，将功率器件引脚尽可能剪短，减小封装寄生电感。
+
+为了提高驱动器的功率密度，驱动器的箱体(除散热器)采用碳纤维材料制成。
+
+**３. 实验验证**
+
+驱动器测试实验平台如图 ２ 所示。额定工况下的相电流波形如图 ３ 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaZrolLYaIR748N6oRf2KAPV6bPzqpibWpjoJWrRndBpTRVgLdwibMACFQ/640?wx_fmt=png&from=appmsg)
+
+额定工况下的功率分析仪实验参数如图 ４ 所示，驱动器的输出功率为 10.82ｋＷ，此时母线电压为 399.9Ｖ，母线电流为 27.3Ａ，因此驱动器效率达99.1％ 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPia5zkncD7y83ibJj3iagf8enj8oRA0shWDFf4llibnhuDpJiauic4jtToljKA/640?wx_fmt=png&from=appmsg)
+
+SiC MOSFET 的电机驱动器重量为 1.76kg，驱动器的功率密度达 5.68ｋＷ/ ｋｇ。
+
+**４.  总结**
+
+为了降低高空飞艇电推进系统重量、满足其高效运行，本文从器件选型、原理设计、PCB 设计、箱体设计等方面进行分析。阐述了基于 SiC MOSFET 的高效率、高功率密度的 10KW 电机驱动器样机设计，最后通过实验进行了验证，为以后在高空飞艇电推进系统的应用奠定了基础。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

@@ -1,0 +1,194 @@
+# 用于 SiC MOSFET 短路保护的平面型差分罗氏线圈建模与设计方法
+
+原创 李 腾，辛 振 SiC碳化硅MOS管及功率模块的应用 2025-05-12 18:17 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/TuH\_ZpwVhk5eztk1ZCa9xQ](https://mp.weixin.qq.com/s/TuH_ZpwVhk5eztk1ZCa9xQ)
+
+文章来源：电源学报
+
+作者：李 腾，辛 振( 中国电源学会高级会员 )，石亚飞( 中国电源学会学生会员 )，薛 聚( 中国电源学会学生会员 )( 河北工业大学省部共建电工装备可靠性与智能化国家重点实验室，天津 300130 )
+
+摘要：随着宽禁带器件的发展，SiC MOSFET 得到广泛应用，对其短路保护的研究成为保障电力电子设备可靠性的重要课题。针对 SiC MOSFET 短路耐受时间短、短路故障难保护的问题，提出 1 种基于平面型差分罗氏线圈的 SiC MOSFET 短路检测方法。该方法通过测量电路的漏源极电流实现对短路故障的快速识别，具有响应速度快、抗干扰能力强、与主电路完全隔离等优点。首先介绍基于平面型罗氏线圈的 SiC MOSFET 短路检测方法的工作过程，着重研究平面型罗氏线圈的部分元等效电路 PEEC( partial element equivalent circuit )建模方法，得到能反映线圈高频特性的等效模型。同时分析平面型罗氏线圈几何结构对线圈性能的影响，提出兼顾高增益及高带宽的优化设计方案，并针对罗氏线圈在强电磁干扰环境中测量准确度较低的问题，提出使用差分线圈方案提高抗扰性能。最后通过实验验证了所设计平面型差分罗氏线圈的抗干扰性能及基于该线圈的短路保护方法的可靠性。  
+
+关键词：SiC MOSFET；短路保护；平面型罗氏线圈；部分元等效电路建模；线圈设计  
+
+与传统 Si IGBT 相比，SiC MOSFET 具有禁带宽度大、临界击穿场强高和工作温度高等优点。目前，中等电压等级的 SiC MOSFET 已实现量产，但是市场化应用尚不成熟，除成本高之外，可靠性低是制约其应用的主要因素之一。由于 SiCMOSFET 栅氧层可靠性较低，与同等级的 Si IGBT相比，短路故障对 SiC MOSFET 的威胁更大。
+
+退饱和检测法是当前 SiC MOSFET 应用最多的短路保护方案，该方案利用器件漏源极电压 VDS与漏极电流 ID 之间的关系间接识别短路故障，但是受 SiC MOSFET 开关特性、输出特性和短路耐受力的限制，退饱和检测在实际应用中存在响应慢和精度低的问题。栅极电压检测和源级寄生电感电流变化率检测也是常用于 SiC MOSFET 的短路保护方案，但也分别存在精度低及电气隔离差等缺点，无法被广泛应用。
+
+文献\[7\]使用 PCB 罗氏线圈测量电路的漏源极电流，实现对 SiC MOSFET 短路故障的直接识别，具有速度快、精度高、与主电路电气隔离等优点，但是仍存在 2 个重要问题影响其在短路保护中的应用：①应用于短路保护的罗氏线圈需具备体积小、工作频率高的特性，然而线圈走线产生的寄生参数对线圈的高频特性影响显著，传统建模方法多使用集总参数模型，不能准确反映高频环境下走线对线圈特性的影响，无法指导平面型罗氏线圈的结构和参数设计；②应用于 SiC MOSFET 短路保护的线圈需要具有较高的带宽，但高带宽设计要求线圈减少绕组匝数并减小绕组面积，这会导致线圈的输出增益减小，抗扰性能降低，因此需要在线圈设计中协调高带宽、高抗扰和高增益之间存在的矛盾。
+
+本文提出了 1 种基于平面型差分罗氏线圈的SiC MOSFET 短路保护方法。相比于绕线型罗氏线圈，平面型线圈可以更紧密地贴近被测导线，使得线圈在微型、少匝数的情况下获得高增益，有利于同时实现高带宽与高增益，并且线圈使用的差分结构可以极大地提高线圈的抗干扰能力。同时，本文采了用部分元等效电路PEEC( partial elementequivalent circuit )建模方法对线圈进行高频建模，得到线圈的高频等效模型，并在该等效模型的基础上分析了线圈结构与性能的关系，用于指导线圈设计。
+
+1\. 基于罗氏线圈的SiC MOSFET短路保护电路设计
+
+本文使用的短路保护电路如图 1( a )所示，包括SiC MOSFET 驱动电路、短路保护模块和平面型罗氏线圈电流传感器。SiC MOSFET 驱动电路施加栅极驱动信号控制 SiC MOSFET 的开通和关断。罗氏线圈与积分电路共同构成罗氏线圈电流传感器，通过电磁感应原理将漏源极电流 i1( t )转换为同波形、成比例的电压信号 Vout( t )，并将电压信号输入到短路保护模块中。根据罗氏线圈电流传感器的电压、电流比例，在短路保护模块中设置与短路阈值电流Iref对应的阈值电压 Vref。短路保护模块将输入的电压信号与阈值电压 Vref进行比较，判断短路发生后立即控制 SiC MOSFET 关断。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxepib4ULKfwQicLE8tyhMDWZBs6YsKJanicQ0dOjFq6y7k3UbEoaC3SbBqA/640?wx_fmt=png&from=appmsg)
+
+短路保护电路工作过程如图 1( b )所示。t1时刻前器件处于关断状态，t1时刻后器件开通，经开通延迟后器件电流迅速上升，罗氏线圈电流传感器开始出现输出，但是输出值未达到阈值电压 Vref，不触发短路保护。t2时刻开始，器件处于负载电流上升过程，输出仍未到达参考阈值。t3时刻，主电路收到短路发生信号，发生短路故障，器件电流迅速上升，电流传感器的输出也迅速增高。t4时刻，电流传感器的输出达到故障电压阈值 Vref，短路保护模块识别发生了短路故障，输出信号将驱动电路中的栅源极电压 vGS降为负值，t5时刻器件开始关断。t6时刻，器件完全关断，短路故障被切除。  
+
+2.平面型罗氏线圈 PEEC 建模方法及应用
+
+平面型罗氏线圈体积小、匝数少的特点使得传统的集总参数等效模型无法准确模拟高频环境中线圈的对外特性，因此需要使用更为精确的参数提取方法，建立能表征平面型罗氏线圈高频特性的模型。PEEC 是 1 种结合了电路和电磁场理论的电磁建模方法，将基于积分方程的麦克斯韦方程的解转换成对应的等效电路，将电磁场问题转化为电路求解，从而获得线圈的寄生参数及高频等效模型。
+
+2.1 PEEC 建模方法
+
+图 2 为 PEEC 建模步骤。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxee7e8kfyg0qSPE7bJauazNs5vibQUiauJz5iaqSibjXy0J59bm3iayGiaK1QQ/640?wx_fmt=png&from=appmsg)
+
+首先，在平面型罗氏线圈上，根据建模需要划分出足够多的等电位节点，再根据节点位置进行 2 种网格划分：①模拟电流分布的 2 个节点之间的体积单元划分；②模拟电荷分布的以节点为中心的表面单元划分。  
+
+然后，在每个单元上通过离散化电场混合势积分方程 MPIE( mixed potential integral equation )推导并获得 PEEC 单元等效模型。无限薄导体的准静态 MPIE 可以表示为  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxeL6Sq5RP69FSuiaPk7FhsI2I91Ra37SSFswte6I7f43AKB8C7ULJFHyA/640?wx_fmt=png&from=appmsg)
+
+式中：Ei 为外部入射场强；J 为电流密度；r 为场点位置矢量；σ 为电导率；A 为磁势矢量；Φ为电势标量。
+
+在每个单元上对MPIE进行体积积分，将MPIE中的电磁场参数表示为 PEEC 单元的等效电路参数。根据基尔霍夫定律，式( 1 )还可表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxezsPGTJOzSf71Yu9ZJW8UwvWF6icoeBvWycMsanlDYM72kiavWOTicYKEA/640?wx_fmt=png&from=appmsg)
+
+式中：Rγ为所有单元的部分电阻之和；I 为流过每个单元上的电流；ω 为角频率； Lpij 为电感单元 i、j 之间的部分互感；Ij为流过电感单元 j 的电流；Pi和 Pj分别为电容单元 i 和 j 的电位系数；Qj为电容单元 j 上的总电荷。  
+
+图3( a )为1个导体单元的等效电路模型，其中：Ri为节点 i 的等效电阻； Lpii 为节点 i 的等效自感；VL为受控电压源，用于模拟磁场耦合；Cii和 Cjj分别为节点 i 和节点 j 的对地电容；φi和 φj分别为节点 i 和节点 j 的电势；isi和 isj为受控电流源，表示线圈中其余节点对节点 i 和节点 j 的电场耦合。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxe9QR7ZGaLjCq3STibAgIuTbOXY3zdeoqUUyJ43JenMKwHLzsUznGYKuw/640?wx_fmt=png&from=appmsg)
+
+接着，将所有单元的等效电路根据 MPIE 方程连接在一起，可以得到平面型罗氏线圈完整的等效电路模型，如图 3( b )所示。通过将基尔霍夫电压定律和基尔霍夫电流定律分别应用于电路模型的支路回路和节点，再根据等效电路模型列写出改进节点 MNA ( modified nodal analysis )电压方程，进而求出模型的对外输出特性。PEEC 模型的 MNA 方程的一般形式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxeZ77H7E6zvBRwH3e5PlWz2fO1dzHSys8Nxs5CZjsZK7zOPaJ8NQia0mw/640?wx_fmt=png&from=appmsg)
+
+为中：AL 为电感支路节点关联矩阵；C、L、R 分别为电容、电感、电阻参数矩阵；s 为拉普拉斯变量，s=jω；Vn为节点电压；IL为电感支路电流；IS为节点输入电流。由式( 3 )可以得出 PEEC 电路网络的节点导纳矩阵 Yn。
+
+最后，进行平面型罗氏线圈 PEEC 建模的降阶。因为完整的等效电路模型通常过于复杂，无法直观地观察线圈等效电路与输出特性间的关系，利用广义特征值理论，在保留原模型物理意义的基础上将复杂的线圈模型降阶。
+
+假设 PEEC 等效电路模型为无损模型，其 G 和R 矩阵均为零矩阵，Yn可以由式( 3 )推导为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxev0OQVMKW2Fa14LLbVEbTl3q7hhnyEN7gzaxlIVhUv6poXzLwicSBOMg/640?wx_fmt=png&from=appmsg)
+
+式中：AC为电容支路关联矩阵；Cb为支路电容矩阵。
+
+通过对比可得，jωYn=0与求取广义特征值的公式( \[A-λB\]x=0 )相同，因此PEEC等效电路模型可以使用广义特征值理论求解并完成降阶。首先计算jωYn=0 特征频率和特征向量；然后在线圈使用的频率范围内适当选择降阶模型的节点数量，如有 k个谐振点低于线圈测量的最高频率( n 为网络划分的节点数，k 一般远小于 n )，那么降阶后的 PEEC电路模型至少应含有 k+1 个节点( 含有 1 个参考节点 )；最后根据所选的降阶节点选择对应的特征值和特征向量，利用降阶后的电感矩阵 Lr、电容矩阵Cbr 与降阶节点对应的特征频率和特征向量之间的关系求取 Lr和 Cbr，即
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxeWPqCiau18aOjmJicATKjAnib422Rwmdia2iaUrrNUp2LdhWU3AFXmjFTaiag/640?wx_fmt=png&from=appmsg)
+
+式中：ALr为降阶后的电感支路关联矩阵； ACr为降阶后的电容支路关联矩阵；Xr为由降阶节点的特征向量组成的矩阵，Xr=( v1, v2,…… ,vk )；Ʌr为由特征值组成的对角矩阵，Ʌr=diag( ω1², ω2²,……,ωk²)，其中 ωi为线圈的第 i 个谐振点角频率。
+
+至此可得降阶模型的电感和电容参数，根据电路连接关系构建降阶后的等效电路模型，降阶模型的端口阻抗 Zportr可以推导为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxeJTyXicg5qwWpHP8Snn7c4RicoV9zdIdkA2NlhFyEWIIKGS6fhGWBx4bg/640?wx_fmt=png&from=appmsg)
+
+式中：Ar为降阶后的电流支路关联矩阵。  
+
+2.2 平面型罗氏线圈 PEEC 建模
+
+设计平面型罗氏线圈的结构并通过图 2 的建模步骤对其进行 PEEC 建模，得到该线圈的高频等效电路及阻抗特性曲线，并与使用阻抗分析仪Keysight E4990A 测量得到的曲线进行对比，以验证 PEEC 等效电路模型的精确度。
+
+用于建模的平面型罗氏线圈如图 4 所示，分为上、下 2 层。其中：导体材料为铜；介质材料为FR-4，其相对介电常数为 4.2；每个线圈匝数均为8 匝，线圈外部长度 a=23 mm，宽度 b=17 mm，内部长度 c=9 mm，两线圈间距 d=3 mm；线圈走线的宽度为 0.6 mm，厚度为 0.035 mm，绕组间距为0.4 mm；电路板的厚度 h=1.6 mm。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxerQgwFElUntQmbiae94R7F8XCyXtuE1I80LNGE4rzCoAjRCiaibQAGpBrA/640?wx_fmt=png&from=appmsg)
+
+建模的第 1 步是进行网格划分，平面型罗氏线圈网格划分的基本原则是每最短波长 λmin( 对应于测量过程中的最高频率 )使用固定数量的单元，以确保建模参数的准确性。本文线圈测量的频率范围为 50 MHz 以内，取其最短波长为 60 cm，一般要求每 λmin 最少分为 20 个单元，即每个单元最多为3 cm。此外，单元的尺寸还应考虑以下条件：①单元的形状，在使用数值积分方程时，过大的长宽比会导致部分元计算出现误差；②对于重叠、平行或垂直的导体段，为保证计算的准确性，导体之间的离散化必须是对称的；③受计算成本的限制，过度离散化模型的计算时间和求解时间会急剧增加。综合上述要求，为保证建模精度及计算量均在合理的范围内，将导体单元划分为 1.8 mm×0.6 mm 的矩形单元。同时，由于走线的厚度较薄，因此可以忽略高度上的剖分。最后，线圈被分成 486 个节点，包括 485 个电感单元及 486 个电容单元，节点导纳矩阵的阶数为 486，如图 4( c )所示。
+
+第 2 步，将网络划分得到的各节点坐标代入参数公式中，算出平面型罗氏线圈的部分参数矩阵。假定 PEEC 模型为无损模型，然后求解无损 PEEC模型的矩阵 jωYn 的广义特征值，计算出线圈的特征频率为 30、52、212 MHz 等。
+
+第 3 步，根据计算所得的谐振频率，分别计算两节点等效模型和三节点等效模型。以两节点模型为例，选择第 1 个特征频率作为降阶模型中的特征频率，降阶模型仅需保留 2 个节点，分别选为 2 个端口节点，利用式( 5 )得到降阶模型的电感和电容参数矩阵，使用经验公式得到降阶模型的寄生电阻。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxeaukPibUbsYib8GKdKd3icxiaPeGY5RlZRC0dvJv6MO5c3QulDR3teWLUUw/640?wx_fmt=png&from=appmsg)
+
+平面型罗氏线圈降价模型如图 5 所示。图 5( a )为两节点电路模型，寄生电阻 R0=1.24 Ω，寄生电感L0=11.13μH，寄生电容 C0=2.51pF。图 5( b )给出了两节点降阶模型及三节点降阶模型的输入阻抗曲线和使用 Keysight E4990A 测量得到的输入阻抗曲线。由测量得到线圈的谐振点频率分别为31 和43 MHz，使用 PEEC 计算得出的谐振频率为 30 和52 MHz。可以看出，在降阶时选择的频率范围内，使用PEEC模型预测的输入阻抗与测量阻抗非常匹配，说明可以使用 PEEC 方法对平面型罗氏线圈进行精确建模。
+
+3\. 平面型罗氏线圈优化设计方法
+
+应用于短路保护的罗氏线圈需要同时满足高带宽和高增益的要求，而平面型罗氏线圈为实现这一要求提供了条件。罗氏线圈的线圈面积、线宽、线间距等几何参数在设计中具有较大的自由度，可直接决定线圈互感系数、寄生参数等参数，进而影响线圈传递特性、带宽及灵敏度等性能。
+
+3.1 线圈输出性能与几何结构的关系
+
+图 1( a )包含了通过 PEEC 建模得到的平面型罗氏线圈高频简化模型，其中 L0、C0、R0 分别为由PEEC 建模求出的线圈寄生电感、电容和电阻，RD为外接阻尼电阻。由等效电路可求出罗氏线圈的二阶传递函数 G( s )为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxehUwqnTyGjj4OjSicmibgCSkMbK2aJUrqmDibdxLClMFvP53VAUOxJsMoQ/640?wx_fmt=png&from=appmsg)
+
+式中：Vcoil为罗氏线圈感应电压；i 为被测电流；M为罗氏线圈的总互感，影响线圈的增益大小；ω0为固有频率，影响线圈的带宽；ξ 为阻尼系数，影响线圈的传递特性。
+
+固有频率 ω0及谐振频率 f0的计算公式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxedXicjiaglO0GJOFdCtx0ly5WOsH3Vgib6hPCxoJVXBaiar44rZN3XYwDjA/640?wx_fmt=png&from=appmsg)
+
+由式( 8 )可知，f0( 即带宽 )由寄生电容和寄生电感决定。  
+
+阻尼系数 ξ 的取值影响 f0附近的传递特性：当0 < ξ < 1 时，产生过冲现象；当 ξ > 1 时，引起线圈谐振频率及带宽降低；仅当 ξ = 1 时能获得最佳传递特性。ξ 由罗氏线圈的寄生参数和阻尼电阻 RD决定，在实际操作中可以通过调整 RD的取值使 ξ =1，RD可表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxebRjGZLUrDaZWqASCa4k7HXybRcxhUiczUfIhwOszIYe34c5TfwRCTfw/640?wx_fmt=png&from=appmsg)
+
+平面线圈总互感 M 为各绕组互感之和，线圈的增益( 即灵敏度 SR )与 M 成正比，M 越大，线圈的输出电压越大，其中单个绕组互感 MN为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxeSOLFB3FFNwjU9MdibPgaQanoFicLzEk6y5O5DiaZfTDs6v6tiaoZUOBQAw/640?wx_fmt=png&from=appmsg)
+
+式中：μ0为真空磁导率；lcoil,N和 wcoil,N分别为第 N匝线圈的长度和宽度；dcoil 为线圈与被测导线之间的距离；wwind为线宽。
+
+由式( 10 )可知，互感 M 取决于每个绕组的面积和线圈绕组匝数。为了获得更大的 M，线宽及线间距应尽可能小，以便获得绕组的最大匝数和最大面积。一般来说，线圈面积越大，M 越大。
+
+综上所述，罗氏线圈的传递特性、灵敏度及带宽受线圈的互感系数和寄生参数影响，而互感系数与寄生参数又由线圈的几何结构决定，因此可以通过对几何结构进行优化设计提高线圈性能。
+
+3.2 平面型罗氏线圈设计方案
+
+线圈输出特性与几何结构的关系如图 6 所示。图 6( a )为 1 MHz 频率下灵敏度 SR 的变化，可见，随着绕组匝数 N 的增加，互感 M 逐渐增加，并在匝数达到一定值时 SR达到最大值。图 6( b )为 ξ = 1时罗氏线圈的带宽变化曲线，可见，随着 N 的增加，罗氏线圈的谐振频率降低。此外，根据图 6 可得，减小绕组宽度可以同时提高线圈的带宽和灵敏度。
+
+综上可得：线圈面积越大，灵敏度越高；减小绕组宽度有利于提高线圈灵敏度 SR 和带宽；减小绕组的间距可以提高灵敏度 SR。因此在设计中，罗氏线圈的线宽和绕组间距应取按照制作工艺可达到的最小值，本文均取 0.125 mm，线圈尺寸设定为3 mm×5 mm，至此所有几何参数均已给出。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxe7YHmCghDC8uJjtxo4vLI3driaibOq9ial5amGa8QBF8JphMQlCUCnUJTw/640?wx_fmt=png&from=appmsg)
+
+图 7 中分别给出阻尼系数 ξ=1 时灵敏度和谐振频率 f0( 此处带宽等于 f0 )随线圈匝数变化的曲线。用于短路保护的平面型罗氏线圈的目标带宽为50~100 MHz，为确保线圈在测量时带宽有足够的裕量，应将罗氏线圈的最大带宽取为目标带宽的 5~7倍，本文取 500 MHz。由图 7 曲线可见，当 N=5时，线圈的谐振频率 f0=470 MHz，满足短路保护中平面型罗氏线圈的带宽需求，同时 SR 仅比最大值-31 dB 减少了 1 dB，因此认为 N=5 的线圈结构为满足需求的最佳设计。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxevQOicqcn34r0A7RU03Q4J1ppwU9lW8wIoPKA9b2ib0F8TkckibwqedBkA/640?wx_fmt=png&from=appmsg)
+
+3.3 平面型罗氏线圈抗扰设计
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxeGicwqNdytvR8BFbRW7oiaZrOG1Kyufo0VnMQBqk2giaxzansEGu9EyJPw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxefxJMGqq53537tiaIpOxgiaWPVleu1KlAVl0wj05UicFnCZrz3HrY34lQA/640?wx_fmt=png&from=appmsg)
+
+平面型罗氏线圈差分抗扰设方案如图 8 所示。罗氏线圈与被测器件距离较近，将在器件与线圈的2个输出端子间引入较大的耦合电容CPA和 CPB，如图8( a )所示，测量时外部的大电压梯度变化 uext( t )通过耦合电容引入耦合电流 icouple( t )，电容耦合电流在流经线圈的寄生电感、电阻时会产生耦合电压ucouple( t )，ucouple( t )会叠加到线圈感应电压e( t )上，从而使线圈的输出电压波形出现较大电压偏差。因此本文采用差分设计，在被测导线另一侧增加1个对称的线圈，并将第1个线圈的一端和第 2 个线圈的另一端接地，等效电路如图 8( b )所示，模型如图 8( c )所示，2 个线圈的等效电路相同，由此引入的电压波动极性与大小均相同，从而形成共模信号，可以通过线圈后续的差分电路相互抵消，消除由于耦合电容产生的干扰。
+
+最终设计的平面型差分罗氏线圈的几何参数：绕组匝数 N=5，走线宽度 w=0.125 mm，绕组间隙s=0.125 mm，线圈面积 S=3 mm×5 mm=15 mm²，介质厚度 h=1.6 mm，两对称线圈的间距 d=2 mm。通过 PEEC 建模得出该线圈的性能参数：寄生电阻R0= 0.241 Ω，寄生电感 L0=96.24 nH，寄生电容 C0=1.329 pF，阻尼电阻 RD=260.88 Ω，带宽为 445 MHz，1 MHz 时的线圈增益为-33.62 dB，改进后的差分线圈与单侧线圈相比虽然牺牲了一部分带宽和增益，但是提高了线圈的抗干扰能力，保证了测量的精确度。
+
+4\. 短路保护电路实验验证
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxehlhQ06uDPKgX59elibQ5UKF0ZnKkGJCqSQHiaVic5iaQEnRqQHibfqNen7A/640?wx_fmt=png&from=appmsg)
+
+平面型差分罗氏线圈短路保护平台如图 9( a )所示，基于 CREE 公司的 1200 V 30 A SiC MOSFET模块 C3M0075120K 进行实验。平台的上管为短路触发电路，用于控制平台发生短路；平台的下管与罗氏线圈电流传感器共同组成漏源极电流采样电路。实验中通过控制下管的开断产生双脉冲电流波形，然后使用平面型差分罗氏线圈电流传感器在线检测短路平台的漏源极电流，并将测得的信号传送至短路保护模块中。短路保护模块将测得的电流信号与阈值电压 Vref进行比较，如果该信号超过阈值电压，则立即触发短路保护，控制下管关断。图 9( b )为短路保护平台的等效电路，具体参数见表 1。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxeg97m6hUxg6FB3zzYyX9gFAMX64fWXsOpxEdxDFF7EMHG2DMUgibNuRA/640?wx_fmt=png&from=appmsg)
+
+4.1 差分电路抗扰性能实验
+
+将平面型罗氏线圈和积分器串联，测量基于 SiCMOSFET 产生的双脉冲电流波形。图 10( a )比较了商用电流传感器的电流波形和未加差分的平面型罗氏线圈电流传感器的电流波形，可以看出，罗氏线圈得到的电流波形存在振荡，这是由于器件外部的大电压梯度变化通过寄生耦合电容 CP向线圈注入耦合电流造成的。本文使用了差分线圈结构，在被测导线两侧首尾相连的位置放置 2 个对称线圈，使得由耦合电容产生的电压波形极性相同从而相互抵消，测量结果如图 10( b )所示，可见，差分结构大大降低了外部干扰，使得电流波形得到了较好再现。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxep3EG8wqmoqnbf7kTViavsSJsUOnC4K7XAoPFhTvT8WS1QQ9wNwAtK9w/640?wx_fmt=png&from=appmsg)
+
+4.2 短路保护模块性能试验
+
+SiC MOSFET 的短路故障主要分为 2 种情况：硬开关短路故障 HSF( hard switching fault )和负载短路故障 FUL( fault under load )。HSF 是指器件在导通之前已处于短路回路中，即器件一导通就会发生短路故障；FUL 是指器件在正常工作状态下，负载发生短路引起的故障。为了测试所设计保护电路的实际效果，进行 2 组实验，分别模拟 SiC MOSFET发生硬开关短路故障和负载短路故障。SiC MOSFET短路承受时间仅为 2 μs 左右，并且随着母线电压和温度的升高，其短路承受时间进一步降低，为了减少短路保护的动作时间，一般将短路阈值电流设置为 SiC MOSFET 最大工作电流的 2~3 倍。此外，由于平面型差分罗氏线圈的抗扰性较强，因此可以忽略因外部干扰造成的误动作，将短路保护的电流阈值设置的较低。综合考虑短路保护对快速性、可靠性的要求，本文中将短路阈值电流 Iref设置为 SiCMOSFET 最大工作电流的约 1.5 倍，即 44 A。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkkmuKibKCwoTsOmNljuOxejiaJ4hWQQ629bgd5KEWdjFhT3WoibwpmmjQfNcHaichOvicRJypu76ud5A/640?wx_fmt=png&from=appmsg)
+
+实验结果如图 11 所示，可见：当发生负载短路故障时，漏源极电流 IROG升高，在 60 ns 时达到阈值电流，此时短路保护模块动作，通过降低栅源极电压VGS控制器件关断，最终在 180 ns 后器件完全关断，此时漏源极电压 VDS达到稳定状态；发生硬开关短路故障时，在 SiC MOSFET 驱动电路的驱动信号控制下器件开通，在经过 80 ns 后电流达到阈值，短路保护动作并输出信号，最终在 180 ns 内控制器件关断。 
+
+5.结语
+
+本文提出了 1 种基于平面型罗氏线圈的 SiCMOSFET 短路保护方法，通过直接检测器件电流状态进行短路诊断，可以实现快速、准确、可靠的短路保护，且响应时间几乎不受短路故障类型的影响。针对微型线圈建模难、设计难的问题，本文使用PEEC 建模方法得到了计及走线的高频等效模型，通过将模型的输入阻抗特性曲线与使用阻抗分析仪得到的曲线进行对比，验证了该建模方法的准确性。利用 PEEC 建模得到的线圈模型辅助分析平面型罗氏线圈的输出性能与几何结构的关系，通过分析结果指导线圈设计，得到了在 3 mm×5 mm 尺寸下兼具高带宽和高增益的线圈结构。同时还引入了差分抗扰方案，将由于电场耦合引入的干扰电压大幅降低，提高了线圈测量结果的精确度。最后通过实验验证了本文设计的平面型罗氏线圈满足 SiC MOSFET 器件短路保护对快速性、准确性和抗扰性的要求。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1)

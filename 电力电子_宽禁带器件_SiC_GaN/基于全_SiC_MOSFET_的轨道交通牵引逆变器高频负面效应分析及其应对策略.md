@@ -1,0 +1,186 @@
+# 基于全 SiC MOSFET 的轨道交通牵引逆变器高频负面效应分析及其应对策略
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/7GKEjyuxo9LFb-\_xMVdkqA](https://mp.weixin.qq.com/s/7GKEjyuxo9LFb-_xMVdkqA)
+
+文章来源：机车电传动
+
+作者：支永健 1，杨德勇 1，朱柄全 1，袁科亮 1，高子凡 1，李鹏飞 2（1. 中车株洲所电气技术与材料工程研究院，湖南 株洲 412001；2. 许昌电气职业学院，河南 许昌 461000）
+
+摘要：分析了轨道交通用牵引变流器采用 SiC 器件后，功率开关器件的高开关速度和高开关频率会给牵引系统设计带来负面问题。结合理论分析和实测结果，对采用全 SiC MOSFET 与传统 Si 基 IGBT 器件在牵引逆变系统电磁干扰、电机端的电压变化率 du/dt 和过电压、电机轴承电压等方面进行对比分析；针对 SiC MOSFET带来的负面效应提出相应的抑制策略，满足既有牵引系统应用要求。
+
+关键词：轨道交通；SiC MOSFET；牵引逆变器；电磁干扰；电机侧过电压；轴承电压；仿真
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzWlDvqmb1rmUMyqA72N54rRgFGVqV9KSODYbFBb1ibRYv2Zn09cKfUWQ/640?wx_fmt=jpeg&from=appmsg)
+
+0.引言
+
+碳化硅（Silicon Carbon，SiC）器件作为第 3 代半导体器件，具有功率密度大、开关损耗小和工作温度高等优点。随着大功率 SiC MOSFET 器件市场化应用，以 SiC 器件为核心的下一代牵引变流系统，在功率密度和系统效率等方面具有明显优势，必将引领未来技术发展方向 。相对于传统以 Si 基 IGBT 器件为核心的变流器，SiC 变流器在开关频率和开关速度上提升明显，但高电压变化率也必将带来诸多问题。本文对采用SiC器件后电机驱动系统在电磁干扰、电机侧过电压、轴承电压等方面进行理论分析，并与 IGBT 系统进行仿真和实测对比；最后针对高频负面效应提出相应的解决方案，并进行分析和有效性验证。
+
+1.高频负面效应分析
+
+1.1 电磁干扰分析
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzBjQjmV1j6x1nRc8ic18190z9MQH3VHGaASswwIw8m571RfuGIibFbAzA/640?wx_fmt=png&from=appmsg)
+
+图 1 为典型的城轨牵引逆变系统电磁干扰电流流通路径，其共模干扰简化等效电路如图 2 所示 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzpHKRwUMP1ukfElUHISguKM4lsghW0mmQ4M93ZBFZs0GRaiceXsEYjqw/640?wx_fmt=png&from=appmsg)
+
+由欧姆定律得出：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzpryXcRv34hdJkHNibbZ8jsibVKoNVrtpRHHkWT7LnS00Vo9ewP6iagEiaQ/640?wx_fmt=png&from=appmsg)
+
+式中：Vcm 为共模电压；Ic in 为直流输入侧共模干扰电流；Ic out 为逆变器输出侧共模干扰电流；Z1 为直流输入外部回路共模阻抗；Z2 为逆变器输出外部回路共模阻抗；Z3 为逆变器内部直流输入共模阻抗；Z4 为逆变器内部交流输出共模阻抗。
+
+进一步分析可知，逆变器对外产生的共模干扰电流与共模电压 Vcm 成正比，与端口外部回路共模阻抗负相关，与内部并联回路共模阻抗正相关。
+
+不改变现有系统其他配置，采用 SiC 逆变器后系统典型差异主要体现在共模电压方面。逆变器产生的共模电压为典型阶梯式的跃变电压，幅值与直流母线电压相关，并随着开关器件导通状态的不同而在 0、1/3 倍、2/3 倍和 1 倍直流母线电压间不断跳变，其频谱特性与梯形脉冲电压类似 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzUUeteCeYhYwEKiaYXWicb40rLHS5vqtms0bw4dOzhEfaYrhhqbo7kLibA/640?wx_fmt=png&from=appmsg)
+
+图 3 为典型梯形脉冲电压波形，图 4 为该梯形脉冲电压的频谱边界。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzWtaUAicYYEAm2seMpXfcriaiaYNLibbzs0A5eVIRl5x1dxWTic2FlKicMh3A/640?wx_fmt=png&from=appmsg)
+
+在图 3 和图 4 中，部分物理量计算公式如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzG9rYsS52xmQbJ8oOIKzc41oY4mvY3nnav2A908iasrIjEVnmwFlGZTw/640?wx_fmt=png&from=appmsg)
+
+式中：A 为脉冲电压幅值；T 为脉冲周期；D 为占空比；tr 为脉冲上升时间；tf 为脉冲下降时间。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzibiciclYgPib1zK6LUDKHPpQpib9wqCprofibzep4icL2y2iaw97C689ffxFxw/640?wx_fmt=png&from=appmsg)
+
+图 5 所示为当梯形波相关参数取不同值时的频谱边界。由图 5 可以看出，梯形脉冲电压频谱主要与脉冲电压幅值、开关频率、脉冲上升时间（或下降时间）、占空比相关。其中，占空比影响低次谐波幅值，脉冲上升时间（或下降时间）影响高频分量；开关频率影响全频段频谱幅值。当牵引逆变系统采用 SiC 器件后，由于开关频率和开关速度的提升，造成共模电压频谱边界提升明显，尤其是高频谱分量。SiC 变流器与IGBT 变流器共模电压频谱对比趋势如图 5(d) 所示，其中蓝线和红线分别类似于 IGBT 和 SiC 共模电压频谱边界，若 SiC 牵引逆变器开关频率为20 kHz，开关时间为0.1 μs，IGBT 变流器开关频率为2 kHz，开关时间为0.5~1 μs，则由图 5(d) 可知 SiC 变流器在 1 MHz 以上频段干扰将比 IGBT 变流器增大 30~40 dB，SiC 牵引逆变系统产生的强电磁干扰会通过传导和辐射对变流器内部或其他车载敏感设备产生严重影响。
+
+1.2 电压变化率 du/dt 及过电压分析
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzGSkNmaua6ibib9258lgRGhrAIRqP0V0TmDKibzzq5qUeloWyFBxvicb8sg/640?wx_fmt=png&from=appmsg)
+
+牵引变流器采用脉宽调制控制方式，输出为一系列的脉冲方波电压，具有很大的电压变化率。由传输线理论可知，当电压脉冲上升时间与脉冲波在线缆中传输时间相当时，会在电机端产生过电压。高电压变化率和尖峰电压会严重影响电机绝缘寿命；据统计，在 PWM 变频调速领域定子绕组绝缘失效和轴承损坏占了电机损坏的较大比重。当牵引变流器采用SiC器件后，由于 SiC 器件更快的开关速度，使得电机端会产生更大的电压变化率和过电压，上述问题因此更加凸显，甚至影响列车的安全可靠运行。图 6 为采用 PWM 调制方式的牵引电机逆变驱动系统简化模型，当逆变器的脉冲电压经过较长的线缆到达电机侧后会产生反射，由于入射波和反射波叠加，从而在电机侧产生过电压，单个脉冲电压在电机侧形成的过电压等效波形如图 7所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzfpZgzlGhiaDuMY4oqHzjrkzBeerBKVuAgBerMw2ljDjBwEoplvnqbAg/640?wx_fmt=png&from=appmsg)
+
+脉冲电压传到电机侧产生的过电压计算公式如下所示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzDJCnaPJMrlat4LKMkMZLCOY8057WP9DcLVnhTMiaj8Ir34vtHPmr94A/640?wx_fmt=png&from=appmsg)
+
+式中：Vpeak 为电机侧电压；lC 为线缆长度；K 为电机端电压反射系数；v 为脉冲波在电缆中的传输速度；tt 为脉冲波在电缆中的传播时间；Vdc 为中间直流电压；LC为线缆单位长度电感；CC 为电缆单位长度电容；ZL 为电机阻抗；Z0 为电缆的特征阻抗。
+
+由式 (7)~ 式 (11) 可知，脉冲电压通过线缆后在电机端产生的电压与脉冲上升时间、线缆长度、线缆分布参数、电机反射系数相关；在其他参数不变的情况下，脉冲上升时间越短、线缆长度越长，电机端电压越大；通常轨道交通用电机电压反射系数约为 0.9。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzGNg69tGu4kKia42DGfPZKWU9X2a2ykvyFp0HECDiafF9icDg8wJLdNUhg/640?wx_fmt=png&from=appmsg)
+
+当牵引电机动力电缆单位长度电感为 0.5 μH/m 和单位长度电容为 47 pF/m 时，在不同脉冲上升时间和线缆长度情况下，电机端产生的过电压理论计算值如图8所示。
+
+由图 8 可知，基于 IGBT 的电机驱动系统，由于功率开关器件开关时间相对较长，只有在变流器与电机之间需要长线缆连接的系统中才会出现电机过电压问题。轨道交通牵引系统中的变流器与电机通常安装在同一车厢内，动力电缆通常较短，长度在10~20 m 左右，因此电机端过电压问题并不突出。然而，采用 SiC器件后，由于功率开关器件开关速度的提升，使得牵引变流器与牵引电机采用较短线缆连接时也会出现很大的过电压。
+
+1.3 牵引电机轴承电压分析
+
+电机端过大的电压变化率 du/dt 一方面对电机绕组间绝缘设计带来挑战，另一方面可能使得电机轴承对机壳电压过高，从而出现轴承电腐蚀问题，影响轴承寿命。图 9 为典型的城轨牵引电机轴电压高频等效模型 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzl7CUtTTW7ZcLFaWjSPFX6jO1sEzsrI21KxMLWE42wbeW8Q6IdewMqA/640?wx_fmt=png&from=appmsg)
+
+图 9 中 涉及的 Cb 和Ct 是由油膜形成后产生的电容，其大小与电机转速、载荷变化、油脂状态相关，两者是随工况变化的动态参数。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzIsHExXqVFicZaiajvfQvunBzJxDk4Ln92odV9vtK2tXE60PAVHuPsiatw/640?wx_fmt=png&from=appmsg)
+
+搭建图 9 所示的轴电压高频仿真模型，等效分析采用 IGBT 和 SiC 器件时车载牵引电机轴承电压；仿真建模时逆变器采用 SPWM 控 制。 其 中，IGBT 器件的开关时间为 1μs，开关频率为 500 Hz；SiC 器件的开关时间 0.2 μs，开关频率为 2 kHz，模型中分布参数通过阻抗测试估算获得，高频参数如表 1 所示，仿真结果如图 10 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzdIYmUcO5TWVSNu6LmIzQfsIcH55VMuRPyAuBibvK3aaic7j16w8HDVzQ/640?wx_fmt=png&from=appmsg)
+
+由图 10 可知，基于 SiC 器件的变流器相较于基于IGBT 器件的变流器，由于开关频率和开关速度的提升，牵引电机轴电压峰值和尖峰频率都会显著增大。
+
+2\. 试验验证
+
+以某城轨变流器模组作为具体的承载平台，搭建基于Si基IGBT 器件（FZ800R33KF2C）和全 SiC MOSFET（FMF750DC66A）的试验系统，进行电压和电流对比测试，试验条件如表 2 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzHzGBbnwLRH39Y98hhxDz7Ktic7WribdUdFYA28YeDFEzsabqBEoE8dsw/640?wx_fmt=png&from=appmsg)
+
+采用高精度示波器、高频高压差分探头和共模电流探头，对模组的输出电压和共模电流进行测试。电压测试结果如图 11~ 图 14 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzuxrYbw5DD7nAZQSXZ6TPDwiadR15x6wAIyzWusjkfPxWm4UksOzRBjQ/640?wx_fmt=png&from=appmsg)
+
+其中，图 11 为 IGBT模组输出的电压波形；图 12 为 SiC 模组输出的电压波形；图 13 为 IGBT 模组输出的电压波形上升沿和下降沿的波形；图 14 为 SiC 逆变器模组输出的电压波形上升沿和下降沿的波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRz5G2TQLKMiaeyFJtFMibLQFnO0JZvRRqnvxX9LRuCWsoEFtcktFAzzIUA/640?wx_fmt=png&from=appmsg)
+
+由于功率开关器件开通时间或关断时间会随输出电流的大小而变化，因此实际系统输出电压的上升时间和下降时间也是时变的，为此使用 MATLAB 软件对 1 个周期内模组输出电压的上升时间和下降时间进行概率统计，并计算对应的电压变化率 du/dt 分布，计算结果如图 15 所示。由图 15 可知，IGBT 器件受二极管反向恢复的影响，其模组输出电压的上升时间分布范围为 0.3~0.4 μs，下降时间分布范围为0.9~1 μs，而 SiC 模组的上升时间 / 下降时间则集中分布在 0.1~0.3 μs，故 IGBT 模组输出电压的电压变化率 du/dt 分布在 1~4 kV/μs，而 SiC 模组输出电压的电压变化率 du/dt 分布范围为 5~8 kV/μs。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRziabxdZhUa9UXURgicd97icJxYwTYpnibprejMOwibgm5LBoYoylg5Zby0dA/640?wx_fmt=png&from=appmsg)
+
+图 16 为基于不同功率开关器件的模组输出共模干扰电流波形对比图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzl0XFltGn0Q9m2VyxSianOA2ibTXNDicKFam9gm3vFYzqOFDpSLg5B1GYw/640?wx_fmt=png&from=appmsg)
+
+由图16可以看出，由于 SiC 器件比 IGBT 器件在开关频率和开关速度上有较大提升，使得其产生的电磁干扰（特别是 1 MHz 以上的高频干扰）显著增大，部分频段干扰电流可增大 30 dB，与理论分析相符。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzZI6icibvt0YA9gXhyIe1cmlmQbibMOtJfibYibsiaEf8dwlWZFODj5Ysrm6g/640?wx_fmt=png&from=appmsg)
+
+图 17 为 SiC 逆变器输出端和电机端之间线电压实测波形，图 18 为电机端线电压开关时间和电压变化率du/dt 统计数据。由图 17 和图 18 可知，采用 SiC 器件后电机端电压振荡较为严重，振荡频率为1.5 MHz，峰值电压可达 2.75 kV，与理论分析一致。电压的高频振荡一方面会产生较强的电磁干扰，另一方面也会增大电压变化率，此时电机侧的电压变化率du/dt 增大至7~10 kV/μs。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzHGpMMFiagzWoN8oCqKss7Aw8DGSQlh7TROvhzjHeXqKuEREeAPE5RUg/640?wx_fmt=png&from=appmsg)
+
+图 19 为基于地面试验平台测得由不同牵引变流器驱动的牵引电机对应的轴电压波形。由图 19 可知，采用 SiC 变流器驱动的牵引电机对应的轴电压峰值比采用 IGBT 变流器驱动的牵引电机对应的轴电压峰值增大1倍左右。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzyWkrMMxrl9YYYCicdx67lPdv1icam3jQRXhNJ3qDM6TKjBYmHtzPAWQw/640?wx_fmt=png&from=appmsg)
+
+3\. 高频负面效应抑制对策
+
+3.1 电磁干扰抑制
+
+针对强电磁干扰问题，必须从主电路干扰抑制和控制电路抗扰度提升等方面入手。
+
+① SiC 变流模组可采用“低感母排设计+关断吸收电路”相结合的设计方法，可有效降低直流电压高频纹波。
+
+②根据上述的理论分析，SiC 变流模组可通过增大外部回路阻抗或减小内部并联阻抗的方法抑制共模干扰。因此，在主电路直流输入端和交流输出端可采用并联共模电容和串联共模电感的方法实现共模干扰抑制。根据 SiC 高频干扰特性，进行滤波参数优化，相对于 IGBT 变流器主电路滤波设计，SiC 变流器主电路滤波的频率范围应往高频偏移10 倍，滤波重点关注频段为100 kHz~10 MHz；图 20 为 SiC 变流器主电路滤波前后共模干扰电流对比。由图 20 可以看出，通过合适的抑制手段，系统干扰得到明显降低。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzua13SXleWmZMz1JZHnHB8PicribhxUvAhCxJCa9IZjK0Tz3gre3OYEyw/640?wx_fmt=png&from=appmsg)
+
+③逆变器输出端到电机的动力电缆可采用屏蔽线，并且采用双端接地，同时建议采用屏蔽电缆夹实现屏蔽层 360 °环接接地，从而有效降低牵引逆变回路产生的低频磁场和高频电场干扰。
+
+④充分利用金属壳体的屏蔽作用，将强弱电进行隔离，优化控制电路电磁环境。
+
+⑤在保证控制保护基本功能基础上，增加软件对电压、电流和速度等电磁敏感信号进行 μs 级高频滤波，提升系统抗干扰能力。
+
+3.2 电压变化率 du/dt 及过电压抑制
+
+针对电压变化率 du/dt 和过电压抑制的问题，可以采取以下方法：
+
+①优化驱动参数，增大脉冲上升时间 / 下降时间，减小模组输出端的电压变化率，但这会增大器件开关损耗，影响系统效率，并且电压变化率 du/dt 抑制效果有限。
+
+②加强电机绝缘，满足 SiC 器件高电压变化率du/dt 和过电压要求，这需要对电机绕组匝间绝缘和对地绝缘进行全新设计，会增加电机成本和体积重量。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzyyFObSpBbJdD8IsSxNHmemEzs34AVdY5K950OFUDEiaFcbrPVHC8KWw/640?wx_fmt=png&from=appmsg)
+
+③在逆变输出端增加du/dt滤波器（见图 21），该方法可显著降低电机侧的电压变化率 du/dt 和过电压，从而保护电机绝缘性能。图 22 和图 23 分别为 SiC牵引逆变系统增设du/dt滤波器（Lf=60 μH, Cf=0.22μF, Rf=30 Ω）前后实测电压波形对比图和电压变化率 du/dt 统计数据对比图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzrib5GewPmxlrcvV75Y3pVun9x6d5gA7UBTOceaGoS3CbU29gNIQnvfg/640?wx_fmt=png&from=appmsg)
+
+由图 22 和图 23 可知，增加 du/dt 滤波器后电机侧电压变化率由增加前的 7~10kV/μs 降低至 1~2 kV/μs，过电压由 2.75 kV 降低至 1.75kV，抑制效果明显，电压变化率及过电压与 IGBT 器件相当；但增设的滤波装置存在体积重量大，损耗较高，影响系统效率的问题。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskxtq8xNvicWPuBZ1N2TicoRzmbuhKiaiaibibGY4RMBxCuUxC0l661vjDzjgqNuS5WzgSiaxsiaXcfG25b6Q/640?wx_fmt=png&from=appmsg)
+
+3.3 轴电压抑制
+
+针对轴电压抑制的问题，可以采取以下方法：
+
+①结合电机端电压变化率 du/dt 和过电压抑制的方法，从源头端降低牵引电机轴电压。
+
+②改善整车接地系统，降低整车保护接地电感。
+
+③采用接地环，直接将转子与电机外壳短接。
+
+4\. 结语
+
+本文研究了 SiC MOSFET 器件运用于轨道交通牵引系统所面临的挑战。结合理论和试验分析了由于 SiC器件高开关频率和高开关速度带来的电磁干扰、电机侧电压变化率 du/dt、过电压和牵引电机轴承电压的风险，并与传统硅器件进行了横向对比；同时，针对高频负面效应提出了对应的抑制方案，并进行了有效性验证。上述研究可为促进 SiC MOSFET 在轨道交通领域的应用和相关问题的解决提供参考借鉴。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)

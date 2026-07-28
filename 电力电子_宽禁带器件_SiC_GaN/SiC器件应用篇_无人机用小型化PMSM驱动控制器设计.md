@@ -1,0 +1,188 @@
+# SiC器件应用篇：无人机用小型化PMSM驱动控制器设计
+
+原创 傅鑫博， 石景坡 SiC碳化硅MOS管及功率模块的应用 2025-08-28 18:08 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/EIco-faE85oMmFrC4D2XSQ](https://mp.weixin.qq.com/s/EIco-faE85oMmFrC4D2XSQ)
+
+文章来源：国外电子测量技术
+
+作者：傅鑫博，石景坡（北京航空航天大学自动化科学与电气工程学院 北京 100191）
+
+摘要：随着无人机行业的飞速发展，无人机系统的高性能和小型化需求也愈加紧迫。为了实现无人机用永磁同步电机的驱动控制，提高无人机系统的动态性能和小型化程度，基于高性能DSP控制器F28335和低损耗SiC MOSFET，设计了电机驱动控制器的硬件部分。并基于双闭环矢量控制，设计了电机控制软件。最后，基于MATLAB/SIMULINK软件，对电机控制系统进行仿真。仿真结果表明，该控制系统具有快速的动态响应，较高的稳态精度，以及较强的抗扰动能力。
+
+关键词：无人机系统；永磁同步电机；驱动控制；小型化
+
+０引言
+
+电机系统是支撑国民经济发展和国防建设的重要能源动力装备。随着我国建设步伐的不断加快，装备制造业面临的技术需求日益提高，给电机系统的发展注入了新的动力，同时也对电机系统及其控制技术提出了更高要求。永磁同步电机（PMSM）具有高转矩惯性比、高能量密度和高效率等优点，近年来在航空航天领域获得了越来越广泛的应用。
+
+与此同时，随着无人机行业的蓬勃发展，设计与无人机相适应的电机驱动控制系统，满足无人机设备的小型化需求，是当前相关领域研究人员关注的重点。
+
+目前，机载控制系统多以 STM32、AVR等单片机作为主控芯片，这种芯片的性能有限，功能单一，很容易造成程序阻塞，并在多轴无人机应用上造成一定程度的延迟，因而难以满足电机驱动控制的应用需求。有设计者采用FPGA作为无人机用电机的主控芯片。FPGA性能强大，应用灵活，但与之对应的硬件规模较大，软件设计复杂，开发成本高，周期长，使其应用在小型化无人机系统的难度不小。此外，在电机驱动设计中，大部分仍采用基于传统Si材料的MOSFET或IGBT作为逆变器主开关管。
+
+Si器件选择多，成本低，与之对应的驱动电路应用成熟，但受到Si材料自身特性限制，其功率损耗大，温度适应性差，造成驱动器效率低，稳定性差，直接影响到电机系统的性能。
+
+本文根据以上所提出的问题，在已有技术的基础上，采用三相PMSM控制最为适合的DSP芯片F28335作为主控芯片，搭配低功率损耗的SiC MOSFET，提出了一套小型化永磁同步驱动控制器的设计方案，并基于PMSM矢量控制原理开发出一套电机控制软件，最后搭建仿真模型验证控制系统的可行性。
+
+１系统总体结构设计
+
+本文从工程应用的角度出发，根据无人机用永磁同步 电机的具体需求，设计了电机驱动控制系统的总体架构，如图１所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P98iclAkc8RBQ2Ikmsyic9yllciakTEgGibMYv2icgntua1xDXxFVzWOibD1BPA/640?wx_fmt=png&from=appmsg)
+
+其中，主电路基于三相全桥逆变器，直流母线供电经逆变后输出三相交流电 压，给永磁同步电机三相绕组供电。控制电路基于DSP控制器PWM控制信 号，完成对开关管栅极驱动信号的控制，进而完成对逆变器输出波形的调制。信号采样部分，采用霍尔电流传感器对电机三相电流采样反馈，采用旋转变压器对电机转子位置、转速信号采样反馈，反馈信号经信号调理电路后与DSP控制器进行信息交互。此外，系统还包含CAN总线通信电路，以完成DSP控制器与上位机的通信功能。
+
+２主电路设计
+
+2.1主电路功率MOSFET
+
+本文所研究的永磁同步电机三相逆变主电路中，最大直流母线电压为VDD（ｍmax）＝220V，最大相电流有效值为Id（max）＝20Ａ。根据工程设计经验，对于开关器件的选型应留有合适的安全裕度，所以功率MOSFET的容量选定范围最终设定为：最大漏源电压VDS（max）≥600V，最大连续漏极电流ID（max）≥30Ａ。本着对电机驱动器高效率、低损耗的需求，本文在选取功率MOSFET时，着重考量了与开关管功率损耗关系密切的核心参数。由功率MOSFET的工作特性可知，其功率损耗主要分为通态损耗与开关损耗。开关管通态损耗的计算公式为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P98PEVgicDZJ7NJpDicNwUpwSNplujTicjvCFjhm2KZ6icBaISXa9jWZk2sAA/640?wx_fmt=png&from=appmsg)
+
+式中：Ｄ为占空比；IDS为漏源导通电流；RDS（on） 为漏源通态电阻。分析公式可知，在占空比一定、漏源导通电流不变的情况下，漏源通态电阻越小的开关管，通态损耗越小。
+
+对于功率MOSFET，Etot指在一个开关周期内，开关管开通消耗的能量与关断消耗能量的总和。因此，开关损耗PD（sw）与Etot有如下关系式：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P98fI90Qlx1JV4DeMjHCsEByvqVC7ZZrn17yOJ3tFibSeiaeBjvl77FIibww/640?wx_fmt=png&from=appmsg)
+
+式中：fsw为开关频率。由此可知，在开关频率一定时，开关损耗PD（sw）与Etot成正比。
+
+综上所述，本文在电压、电流容量合适的范围内，分析、筛选出功率MOSFET中漏源通态电阻、开通关断能量较小的产品，利用新型半导体材料SiC低损耗、开关频率高等优良特性，最终确定出USiC公司生产的SiC MOSFET器件UJC06505K作为主电路的开关器件使用。其主要参数如表１所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P98S3FRDnUJujnvLbpwROPibknuqGhcH9aKncfj7rPBpfVNKdX9TsAB1nw/640?wx_fmt=png&from=appmsg)
+
+2.2 驱动电路
+
+驱动电路的主要作用是对DSP控制器产生的PWM信号进行调制并放大，控制功率MOSFET的导通与关断，进而实现对电机运行状态快速有效的控制。
+
+本文以TI公司的UCC21520双通道栅极驱动模块为基础设计驱动电路。该模块采用双电源设计，可将输入侧控制信号经隔离处理后送到输出侧，后经放大调理后输出，为上下桥臂的两个功率MOSFET提供隔离且独立的栅极驱动信号，且具备死区设置和关断驱动功能。基于UCC21520设计的上下桥臂两个功率晶体管的驱动电路，如图２所示。对于三相PMSM来说，需要６个功率晶体管驱动，因此驱动器需要３个这样的驱动电路来实现。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P98IRdDiadscZoCmSfCVNOq0bFQ56M0uuxqZickPpjOtrEtWVRK1Rib7wRUA/640?wx_fmt=png&from=appmsg)
+
+2.3 辅助电源电路
+
+驱动电路和控制电路中各种芯片、模块所需的供电电压不尽相同，为了满足多种供电的需要，必须设计辅助电源电路，将18～36Ｖ的输入供电转换成各芯片 能够使用的电压。本文选用TI公司的LM5005直流稳压模块，将输入供电转换为5V和20V的设备可用电源。
+
+３控制电路设计
+
+控制电路基于TI公司的TMS320F28335 DSP控制器，设计包括基于DSP的最小系统、通信模块电路及信号采样电路。
+
+3.1 DSP最小系统设计
+
+DSP最小系统指满足DSP正常运行及调试的最基本的硬件设计，包括电源电 路、时钟电路、复位电路、JTAG调试接口电路等。
+
+１）DSP电源电路
+
+DSP控制器工作时要求的电压包括两部分：内核供电电压为1.8V，I/O口供电电压为3.3Ｖ，且工作时对电源点电压精度要求很高。本文以TI公司的IPS767D301双路输出稳压器为基础设计电源电路，该芯片可将5V的输入电压转化为DSP芯片所需的供电电压。
+
+２）时钟电路
+
+在DSP的X1/X2引脚之间外接30ＭHZ外部晶体，产生的时钟信 号经过DSP内部锁相环电路进行5倍倍频，设定150ＭＨZ作为DSP工作时钟频率。
+
+３）复位电路
+
+DSP控制器在上电的瞬间可能出现供电不足，由此会造成工作不稳定。因此，为了防止DSP发出错误指令、执行错误操作，采用复位电路可保证DSP在上电过程中时钟保持复位状态。
+
+４）JTAG接口电路
+
+DSP控制器通过JTAG调试接口实现与上位机开发软件Code Composre Studio (CCS）的通信，目的是实现在线调试及程序烧写。
+
+3.2 CAN总线通信电路
+
+设计CAN总线通信电路，需利用DSP控制器中的eCAN模块相关接口。本文采用PCA82C250T作为CAN总线芯片，CAN总线是用正负电压来表示逻辑状态，与DSP输入输出信号以高低电平表示逻辑状态的规定不同，因此必须在CAN与DSP电路之间进行电平的变换。CAN通信电路如图３所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P98ceuNK8yvKqic9yfJ3XPp7OedVFFUTNe4Joys0IP8ZVYmeTzDLvAZRCg/640?wx_fmt=png&from=appmsg)
+
+3.3 信号采样电路设计
+
+本文所设计的信号采样电路包括：电流采样电路、位置、转速采样电路、温度采样电路。
+
+１）电流采样电路 
+
+电流采样电路主要完成驱动控制系统电流闭环控制中的相电流反馈信号的采集与调理功能。本文所设计的电流检测电路由电流传感器、信号调理电路、A/D转换电路３部分组成，其工作原理是电流传感器将电机相绕组的电流信号转换为电压信号，经过信号调理电路的低通滤波处理、电平信号转换后，利用A/D转换电路将调理后的电压信号换成数字信号返送回DSP控制器。电流采样电路 如图４所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P98q8yhROh2zvneAWGWY8aualaDVcW3EsT83RibPE8OO67LSUxcQ1Z36Lg/640?wx_fmt=png&from=appmsg)
+
+电流传感器采用LEM公司的霍尔电流传 感 器HLSR20-P，其标称电流测量范围为-５０～+５０A，输出电压范围为0.5～4.5Ｖ，灵敏度为40ｍＶ/Ａ，相 对误差仅为±0.5％，频率响应范围为0～400KHZ，供 电电压为5Ｖ。
+
+２）位置、转速采样电路 
+
+电机的转子位置和转速检测是实现驱动控制系统闭环控制的基础，其精度直接决定整个驱动控制系统的控制精度。本文所设计的转子位置、转速检测电路主要由旋转变压器、信号调理电路和轴角变换器３部分组成。其工作原理是安装在电机轴上的旋转变压器将电机的转子位置和转速信号变换成高频调制的迷你电压信号，经过信号调理电路的电平信号转换，将包含转子位置和转速信号的电压信号变换成曼度轴角变换器输入电压范围的电压信号，然后通过轴角变换器的解调和转换，将电机的转子位置和转速信号变换成数字信号返送给DSP控制器。本文采用的旋转变压器为TAMAGAWA公司的正余弦旋转变压器TS2620N21E11，其激磁信号交流电压的有效值为7V，频率为10KHZ，其误差范围为±10′，转速测量范围为０～1000rpm。图５为旋转变压器激磁信号的调理电路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P98tzic4BOrHBjzV1cFLQpdCyfRxpRtlTKkja0APDXh9LfalybLibGBenSw/640?wx_fmt=png&from=appmsg)
+
+3）温度采样电路 
+
+无人机系统经常会处于苛刻的温度环境中，这对其设备工作的可靠性提出了挑战。因此，在控制系统中配置温度采样电路，使得驱动控制器在极端高低温时能及时采取有效的保护措施，是很有必要的。本文以PT100热敏电阻为基础搭建温度采样电路，以采集到的电压量作为代表温度的模拟量，将其最终返送回DSP控制器的A/D模块进行处理，从而实现对驱动控制器几个关键部分温度信息的实时掌控。
+
+４系统软件设计
+
+软件设计是驱动控制器设计中的一项重要任务，高性能的嵌入式软件设计是系统实现各种控制功能的重要保证。嵌入式软件要充分考虑与硬件的配合，以实时性为要求，根据功能划分，进行模块化设计。
+
+4.1主程序及中断程序
+
+根据PMSM驱动控制系统中DSP所需完成的功能,DSP中程序主要包括主程序和中断程序两部分。其中，主程序的功能有：调用上电自检程序对系统各部分进行故障检查；初始化DSP、外围硬件电路和控制变量；启动定时器，进入中断循环体等待中断，当定时器中断时，执行中断程序。DSP主程序流程如图６所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P980z2d2f82tmvTicNOGVvMgFwrkpCRkwWWbDAegdpseasW9vGE2Jd9Sjw/640?wx_fmt=png&from=appmsg)
+
+中断程序则首先完 成电流、转速及位置的检测，再计算电流环、转速环控制 率，最终输出三相PWM波控制信号，并退出中断返回主程序。中断程序流程如图７所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P98Us8vwZJWibUAj1dScZS2yicySqNAu8MVpg3MJHMPcoZGK7RQjAKJFfgw/640?wx_fmt=png&from=appmsg)
+
+4.2 PWM控制信号生成模块
+
+DSP中PWM控制信号生成的原理是：通过改变时基周期寄存器的值 （TBPRD）和时基计数器的计数模图７中断程序流程式（TBCTRL）来控制PWM波的频率，通过改变比较寄存器的值与定时器最大值的比例来改变占空比。由于功率MOSFET的导通与关断都需要一定的时间，为了避免上下桥臂的同时导通造成的短路，需要在PWM中加入死区控制。死区控制的原理是将PWM控制信号通过一个延时模块，在发出一个桥臂关断信号的一段时间后，再发出控制其互补桥臂导通的信号到输出引脚，进而可避免互补桥臂的同时导通。
+
+4.3 ADC采样控制模块
+
+本文采用AD7606作为外部ADC完成对电压、电流采样信号的模数转换，并采用DSP内部集成的ADC模块完成对温度的采样信号的接收处理。在每个采样周期内，控制器通过向ADC发送启动转换信号来启动模块的转换功能，然后延时等待ADC完成采样，依次将转换结果送回控制器，并产生采样结束标志信号。ADC采样控制模块程序流程如图８所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P98VY8SrvzicLS0Z9Sxuvib50OdhFPdbLtlRq4eL6k1z76N52VSfGammMWQ/640?wx_fmt=png&from=appmsg)
+
+4.4电流环计算模块
+
+本文所设计的电流环计算模块采用经典的数字PI控制策略，在每个电流环的计算周期，电流环计算模块根据控制算法，计算得到的电流指令和A/D采样模块得到的电流反馈值作差，得到当前电流与期望电流的偏差值，然后对偏差值进行比例积分计算，得到PWM生成模块中比较寄存器与定时器最大值的比例，从而改变PWM波的占空比，使电流向期望值的方向变化。本课题拟定采用的数字PI控制算法为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P98S1K6EYX1Md85KI2Eapann4ibzMxqKgAnBxbnsce9An61ctjH73qibFhw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P98r9nD9ibPtoMd8vBFCnOvlS5yQlaHHJibtljmEJZU1Tfbibv8qSrBEvwJA/640?wx_fmt=png&from=appmsg)
+
+4.5轴角变换器控制模块
+
+DSP控制器要使轴角变换器一方面产生旋转变压器 激磁电路所需的激磁电压信号，另一方面将旋转变压器产 生的正余弦信号进行解调，得到电机转子位置和转速信 号。根据AD2S1210芯片的并行读取时序完成对RDC控制模块的设计，其程序流程如图9所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P98EibqfujCwwqHEneohEbfoEDc6b6oxaiaCia4ZQHGyX7hmw5DsFuULvpEg/640?wx_fmt=png&from=appmsg)
+
+５控制系统仿真
+
+某型3相PMSM为例，在MATLAB/Simulink下对所设计的电机控制系统做仿真分析。表２为电机及逆 变器具体参数，图10为电机控制系统仿真模型。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P98wQ1iaYnibOlpCJ3t3pwHsNDEuMBgW1cULYMeS1ZPVgQT7OcBR1JOUwRA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P9862yV5ufA5n4duvQt5x4Q8Fa6SXh2ib3BeiadRDEthnz6SWgFUlum4ShQ/640?wx_fmt=png&from=appmsg)
+
+根据以上模型，得到控制系统仿真结果。图11为电机转速变化曲线，图12为电磁转矩变化曲线，图13为d-q轴电流变化曲 线。从仿真结果可以看出，当电 机从零速上升到参考转速1000r/min时，动态响应速度很快，超调量很小，稳态精度高；当在t＝0.6ｓ时突加负载转矩TL＝５Ｎ·ｍ，电磁转速和转矩也能很快跟随到参考值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P98GtTKjjwq0qtic5U2kmHcskEr4BI6BicR0xtZ3nPZxvGFA2mft7ISRw3A/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmZDOCz7tEvwcNibb4nQ1P983MFJKERyFemeLccB6rADlwpboicx3N29kZBjRRic5Tn6BARo2ENia5EoQ/640?wx_fmt=png&from=appmsg)
+
+电枢电流iq与电磁转矩Te呈线性关系，实现了矢量控制励磁电流id=０的控制 策略。综上，仿真结果说明所设计的控制系统具有较好的 动静态特性和抗扰动能力。
+
+６结论
+
+本文从某型无人机用永磁电机驱动控制的系统设计出发，研究设计了永磁同步电机驱动控制器的硬件部分，阐释了驱动控制器主电路、控制电路各部分的原理与设计细节。并开发出一套永磁同步电机控制软件，阐明了系统各模块程序的运行原理和流程。最后对电机控制系统进行仿真，分析并验证了系统的动静态性能指标。结果表明，所设计电机驱动控制系统具有超调量小、稳态精度高、抗扰动能力强等优良特性。硬件设计方案使得驱动控制器整体重量控制在1kg以下，大小控制在（８×８×６)cm³范围内，满足某型无人机电机系统的小型化需求。
+
+注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbg7mbSTRq6xxdalQFicZl9juNGuSbwttzgj2bcTVWEcMMGArafeOy2Sw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbMr2gmicAdQbfntmnNrC0DIkQWRRoRHwXp0x3DrkgrvrfvqSxbiby4YGg/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbRLfWib8MjibZPVbIpQcgibL1jsyV1JC3sJNzzQbsfuSWXh7BR4Egbs0Cw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)

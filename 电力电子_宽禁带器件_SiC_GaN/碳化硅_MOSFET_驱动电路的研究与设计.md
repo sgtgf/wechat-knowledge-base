@@ -1,0 +1,123 @@
+# 碳化硅 MOSFET 驱动电路的研究与设计
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/\_oKOyA8yZ5XSLnMYYMexgw](https://mp.weixin.qq.com/s/_oKOyA8yZ5XSLnMYYMexgw)
+
+文章来源：智慧轨道交通
+
+作者：杜太磊（中车青岛四方车辆研究所有限公司，山东 青岛266031）
+
+摘 要：随着碳化硅功率器件技术的不断发展，碳化硅功率器件发展优势明显，将逐步成为未来主流功率半导体器件。多家公司推出了多款碳化硅MOSFET，但是对于高压应用的碳化硅MOSFET驱动产品还处于半空白状态。文章针对 Ａ 公司FF11MR12W1M1B11型碳化硅模块的驱动进行了研究与设计，在满足碳化硅驱动电流的基础上，增加了有源钳位保护、退饱和保护、故障信号反馈功能。有源钳位保护电路中具有动态有源钳位设计，在MOSFET关断时，降低嵌位电压来快速保护MOSFET，静态时抬高嵌位电压防止误动作。退饱和保护电路检测到故障后可迅速关闭驱动，并将故障信号进行反馈。通过双脉冲测试，验证了文中设计 的驱动板功能，对FF11MR12W1M1B11型碳化硅模块在后续项目中的应用具有重要意义。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRdZUQ6Va5RZsgX6s3icxVFUzrJaWFzvqX7jyvc9X4F2YibaDFIN2r6CHg/640?wx_fmt=png&from=appmsg)
+
+关键词：碳化硅；驱动电路；有源钳位保护；退饱和保护；双脉冲测试
+
+１ 背景
+
+在电力电子行业的发展过程中，半导体技术起到了决定性作用。传统的功率半导体器件主要以硅基功率半导体器件为主，目前由于其本身物理特性的限制，已经开始不适用于一些高压、高温、高效率及高功率密度的应用场合。 近年来，以碳化硅材料为代表的第三代宽禁带功率半导体技术快速发展，特别是碳化硅材料 的MOSFET，与硅基功率器件相比，具有较高的热导率以及禁带宽度，具有更高的电流密度，击穿场强与工作温度特性。
+
+随着近年来国内外碳化硅功率器件技术的不断发展，碳化硅功率器件将成为未 来主流功率半导体器件的趋势已经非常明显。 目前市场上 ，多家公司推出了 多款碳化硅MOSFET，例如Ａ公司的FF11MR12W1M1B11型碳化硅模块，但是对于高压应用的碳化硅MOSFET 的驱动产品还处于半空白状态。而Ａ公司推出以1EDI60H12AH型驱动芯片为核心的驱动板只能用来测试 FF11MR12W1M1B11型碳化硅模块的性能参数 ，不适合实际应用 。因此本 文对 FF11MR12W1M1B11型碳化硅模块的驱动进行了研究与设计，推出一 种符合实际应用需求的驱动电路设计。
+
+２ 碳化硅驱动研究与设计
+
+碳化硅MOSFET与传统的硅MOSFET在特性上有较大差别，相比于硅MOSFET，碳化硅MOSFET的寄生电容更小，对驱动电路的寄生参数更敏感。高压及超快的开关速度带来的超高di/dt、dv/dt，会通过系统的杂散电感、电容形成干扰，为了避免高速开关带来的串扰，需要在碳化硅MOSFET驱动上做 一些必要的设计。
+
+对于FF11MR12W1M1B11型碳化硅模块驱动电路的设计应满足以下条件：
+
+（１）满足碳化硅MOSFET高速开关的要求，使用驱动能力较强的驱动芯片；
+
+（２）尽量减小驱动电路寄生电感的影响，在PCB布局时应注意器件摆放；
+
+（３）为防止碳化硅受干扰导致的误开通，应采用负压关断；
+
+（４）为保证碳化硅MOSFET的可靠关断，避免噪声干扰可能导致的误导通，应采用负压关断；
+
+（５）驱动电路带有源钳位保护、退饱和保护、故障信号反馈等功能。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkR1X9ddj6L8Mslvj74keZ0JDF0VWf8Jw06wUzPbgLktbetaQrDjf6B2A/640?wx_fmt=png&from=appmsg)
+
+FF11MR12W1M1B11型碳化硅模块驱动电路组成如图１所示。本设计由驱动 供电电路设计、驱动电路设计、有源钳位保护电路设计、退饱和保护电路设计四部分构成。
+
+2.1 驱动供电电路设计
+
+FF11MR12W1M1B11型碳化硅模块手册中栅源峰值电压UGSS为-10V/20Ｖ，Ａ 公司提供的测试板采用的驱动电压为-8Ｖ／15Ｖ，考虑碳化硅寿命和可靠性的影响，本设计选用驱动电压-5Ｖ／15Ｖ。
+
+驱动功率可以从门极电荷量QGate、开关频率fin以及驱动器实际输出电压摆 幅 ΔUGate计算得出，本设计的fin为30KHZ，QGate为0.25μＣ，ΔUGate为20Ｖ，驱动器平均输出电流Ｉ为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRMSFbicZeF9zD8ZT1HXicfBruudhw9LicDZpB3RJpRdndicF2QMvgpwsdJA/640?wx_fmt=png&from=appmsg)
+
+驱动功率Ｐ为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRP2DlfvFyezXej3e45Nic9fbHcmBSdmDOibeAChic16ml5wd4gicA5NEL0w/640?wx_fmt=png&from=appmsg)
+
+经计算，Ｐ 为0.15Ｗ。
+
+本设计供电芯片选 择 Ｂ 公司的碳化硅MOSFET驱动器专用DC/DC电源，该电源模块输入电压15Ｖ，输出电压15Ｖ、-5Ｖ，驱动功率２Ｗ，符合本设计驱动供电需求。驱动供电电路如图２所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRYYOpmgM1G9elnoH7KN5KvqiaL8Vrwv1UoIfeU1PtZZo62NbOC0JRQNQ/640?wx_fmt=png&from=appmsg)
+
+2.2 驱动电路设计
+
+FF11MR12W1M1B11型碳化硅模块手册中的参考驱动电阻为3.9Ω，内部栅极电阻1.1Ω，驱动电压－5Ｖ／15Ｖ，Ａ 公司测试板采用1EDI60H12AH型驱动芯片，此芯片可提供10Ａ 的峰值驱动电流，但是 驱动板没有有源钳位保护、退饱和保护、故障反馈功能。因此本设计采用Ａ公司1ED020I12-B2型驱动芯 片，此芯片驱动电流为±２Ａ，带有退饱和保护、故障反馈、故障自锁功能。为满足碳化硅驱动电流的要求，需要使用外部放大器，本设计采用分立NPN/PNP放大晶体管组成互补输出电路。选用ZXTN2010Z型、ZX-TP2012Z型晶体管，组成的互补输出电路持续驱动电流可达4.3Ａ，尖峰电流脉冲15Ａ，满足本次设计碳化硅驱动电流需求。驱动电路如图３所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRKQ8giblVwv9QzHaiaQDItuiaWuUlMbbgULmBcSSicS4OibM0S2jDao4OfOA/640?wx_fmt=png&from=appmsg)
+
+2.3 退饱和保护电路设计
+
+1ED020I12-B2型驱动芯片带有退饱和保护功能，如图３所示，芯片U3引脚DESAT与电阻R99、二 极管D11和D42、MOSFET的集电极－发射极形成回路，DESAT监测回路电压。
+
+驱动芯片正向导通信号拉高时，DESAT启动监测功能，当回路电压超过9Ｖ（驱动芯片内比较器设置为9Ｖ）时，驱动芯片会启动退饱和保护，关闭 MOSFET，同时把故障信号拉低并反馈给主控，需要将驱动芯片重新复位后才能进行下一次驱动。
+
+2.4 有源钳位保护电路设计
+
+当碳化硅MOSFET关断时，由于母线 ｄｉ／ｄｔ 很高且换流回路中存在杂散 电感，会导致母线出现电压尖峰，这可能会超 过MOSFET 的击穿电压并损坏MOSFET。通常利用有源钳位来限制该电压尖峰。FF11MR12W1M1B11型碳化硅模块的漏源击穿电压为1200Ｖ，本设计选用 SMCJ220A型TVS管、SMC160CA型TVS管和SMCJ160A型TVS管串联组合，有源钳位保护电路如图 ３所示。TVS管钳位电压1026６～1135Ｖ，D33、电 阻Z4和电容C31组成动态有源钳位，可以快速地开通MOSFET 进行保护，动态有源钳位钳位电压848～938Ｖ。
+
+MOSFET关断时，当母线电压高于TVS管有源钳位电压后，钳位电流流经D36、D35、C31、D31、D26、Z5后分为两路，一路经过D21，一 部分电 流流向MOSFET栅极电容充电，一部分电流流向三极管T4。另一路经过D10，一 部分电流流向芯片U3，一 部分通过推挽上管放大后给MOSFET栅极电容充 电，从而大大减缓MOSFET关断过程，直到MOSFET集电极电压低于有源钳位电压才截止。
+
+整个碳化硅驱动板设计如图４所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRcQc1LsQmMW2vURx8xb9u2rsKx1YWKyIXOTUC5qEWBJ6WrRbgwhgsjg/640?wx_fmt=png&from=appmsg)
+
+３ 碳化硅驱动板测试
+
+对于设计的碳化硅驱动板，需要进行双脉冲测试来评估驱动板功能和性能。 双脉冲测试如图５所示，用电感Ｌ将碳化硅上管短路，上管驱动加-5Ｖ关断，下管为测试对象，驱动板驱动下管进行测试。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRvQGjmDynAlfLpucXbmBd9H2SPhj4lrNpOcTLTQ2q48icA8YicLs9vREA/640?wx_fmt=png&from=appmsg)
+
+3.1 驱动测试
+
+测试条件：母线电压610Ｖ、电 感66.4ｎＨ、ＰＷＭ单脉冲宽度５μｓ、脉冲频率30KHZ。驱动测试结果如图６所示，黄线为碳化硅门级驱动信号，绿线为母线电压，红线为电流。单脉冲宽度５μｓ，电流96Ａ，与理论值92Ａ接近。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRGiafiakC9fZ7JiaZ59FogeqS5WmngIdjRUsN6ZGAib9bvkmae7bwZ1J1Dg/640?wx_fmt=png&from=appmsg)
+
+3.2 有源钳位保护测试
+
+将有源钳位电路中TVS管 改成SMCJ160A型TVS管与SMCJ400CA型TVS 管串联，理论触发有源钳位电压范围为625～694Ｖ。
+
+测试条件：母线 电 压610Ｖ、电 感66μＨ、ＰＷＭ单脉冲宽度５μｓ。有源钳位保护测试结果如图７ 所示，黄线为碳化硅门级驱动信号，绿线为母线电压，电压尖峰630Ｖ，门级驱动信号下降变缓，触发了有源钳位。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRbjluVscwrUpoicHHjsxYIiazsXB6HWPP4c6KoNuUuIZwiaApe3Q1OGvSQ/640?wx_fmt=png&from=appmsg)
+
+3.3 退饱和保护测试
+
+测试条件：将图５中上管直接用导线短路，母线电压528Ｖ、ＰＷＭ 单脉冲宽度３μｓ。测试结果如图８所示，黄线为DESAT电压、绿线为碳化硅门级驱动 信号，红线为母线电流。 短路电流值320Ａ，短路保护时间2.53μｓ，短路保护动作有效。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskeZak1y54eIDJfL2zfEjkRCgPk6g5ibaJGpialUGZERvdzEpxQkaLBRIxWxQ0UicoI5AcWhm8JibAILA/640?wx_fmt=png&from=appmsg)
+
+４ 结束语
+
+本文根据实际需要对 Ａ 公司FF11MR12W1M1B11型碳化硅模块驱动进行了 研究与设计，设计的碳化硅驱动板在满足驱动电流能力的情况下，具有有源钳 位保护、退饱和保护、故障信号反馈功能。并经过双脉冲测试验证了上述功能，同时测试了碳化硅模块的开通延时时间、上升时间、关断延时时间、下降时间、开通损耗、关断损耗等参数，对此模块在实际应用中有重要意义。本文设计的驱动板已在碳化硅DC/DC项目中应用，目前此系统在测试中，已经能满足其设计需求。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrU84ibicicicsicj2J9Fs51HDFMP2FRe5yEEyUsvZ3WeewjvrompQoiavAcng/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrEx2bhlT70XicQQY90UlP2VkLtQ8jzeiaXRwgn9hW19P2GrRHvJrfAgWw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEDUUXSIS4jAN9jQQ9BLgrJDuYEwRky5LsqXfllSXfyxjZUPJ8tk3ibjAFEfyBfd9C87tFQyH8pXQ/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)

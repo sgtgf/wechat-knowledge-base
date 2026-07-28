@@ -1,0 +1,222 @@
+# 34mm封装碳化硅MOSFET半桥模块，助力工业电源（焊机逆变、感应加热设备、高频逆变器、不间断电源）的高效化和小型化
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/5LanRA7\_evsxNVPrJJmnpg](https://mp.weixin.qq.com/s/5LanRA7_evsxNVPrJJmnpg)
+
+碳化硅MOSFET模块在工业电源中的应用前景非常广阔，主要得益于其卓越的高频、高压和高效特性‌。碳化硅MOSFET模块在工业电源中的应用可以显著提升电源系统的性能和效率，降低损耗和成本。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibjbGBrqUTlAJ50zoibhvMXnrexUB7OA18dEkfPHmQKdL6eOcSYADvNug/640?wx_fmt=jpeg&from=appmsg)
+
+34mm封装模块介绍
+
+      34mm工业标准封装产品，具有更多灵活性和可靠性，主要应用于工业焊机、电机传动、UPS电源、高频开关、大功率变流器等工业领域。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318YbehjyFFe7IEUzkVlrE9PQHdzGazIz2eQFhvFsNWTkxHicX3WrAAa2g/640?wx_fmt=png&from=appmsg)
+
+34mm封装模块外框图
+
+34mm封装碳化硅模块具有高过载和高耐温循环能力，采用了全焊片工艺以及自建不同熔点焊片体系，保证了焊料层的稳定性及可控性，提高了器件的耐温度循环能力和可靠性。
+
+**该产品搭载爱仕特新一代SiC MOSFET芯片，较低的开关损耗和导通损耗，可以最大限度地减少冷却器件尺寸。**在高开关频率下运行时，可使用更小的磁性元件。**其对称模块设计，能够实现对称的上下桥臂开关行为，使得产品具有更低寄生参数及开关特性。**
+
+**34mm模块特点**
+
+**1\. 采用全焊片工艺，Cu底板+低热值AlN绝缘陶瓷；**
+
+**2\. 高功率密度，低寄生电感，低开关损耗；**
+
+**3\. 适用高温、高频应用；**
+
+**4\. 参数表现：**
+
+                **VDS：650~1700V**
+
+                   **ID：30~300A**
+
+         **RDS(on) ：4~80mΩ**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318kayNkt0q7kHHPvrWyQZVrnM96sQDXo0GJaY0S9dHehGVWkRkrJlINA/640?wx_fmt=png&from=appmsg)
+
+34mm模块参数表
+
+     34mm封装碳化硅模块**采用成熟的34mm器件半桥拓扑设计，具有高功率密度，允许使用相同的结构尺寸来增加逆变器输出功率**，延长了器件使用寿命，提高了系统可靠性，为终端客户提高了产品竞争力。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318plVYriaeoMgoHLtychqbVkE1Ok0tw9dqveVglIOreRPsMUzWuIrCp6A/640?wx_fmt=png&from=appmsg)
+
+1200V300A模块参数
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318HcnEw3JnpcPibbianmyOfSjYv02uib0yxwBncGFUIsIWUODpc5FWJVlEA/640?wx_fmt=png&from=appmsg)
+
+模块拓扑图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318enGpdjicd9CMwzPmaVch0VY3sfuUbK8K3M2PQM0rwmibMRYnbQPOoJgg/640?wx_fmt=png&from=appmsg)
+
+模块尺寸图
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaw9QB003iad1Voz55If318Ig6RhvESDiahu5uk9UgzqC9LdakpwFsCzvvPCsNUm0a4L8E9EQtqqwQ/640?wx_fmt=jpeg&from=appmsg)
+
+62mm封装和34mm封装实物图
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaw9QB003iad1Voz55If318VnibiaZ9icOrL7bToO31xs6FR9eWNcod74UXwlMmqqphK90uUYfMAC0Ag/640?wx_fmt=jpeg&from=appmsg)
+
+模块驱动电路参考图
+
+工业电源系统通常要求：
+
+高效率、高可靠性、严苛环境适应性，且对功率密度与寿命周期成本（LCC）敏感。  
+
+传统痛点：  
+
+\- 硅基器件（IGBT/MOSFET）开关损耗高，限制频率提升；  
+
+\- 散热压力大，高温环境下可靠性下降；  
+
+\- 大功率场景体积笨重，运维成本高。  
+
+SiC模块的破局方向：  
+
+通过高频化、低损耗、高温稳定性，重构工业电源的能效与体积边界。
+
+SiC模块在工业电源的典型应用场景
+
+1\. 服务器电源（48V DC/DC）
+
+需求：超高功率密度（>100W/in³）、效率>96%、支持动态负载切换。  
+
+SiC方案优势：  
+
+高频LLC拓扑：开关频率提升至500kHz~1MHz（传统Si方案<200kHz），磁性元件体积减少50%。  
+
+ 效率提升：全负载范围效率提高2%~3%（如从95%提升至97%）。  
+
+典型设计：  
+
+ 模块选型：1200V-180A。  
+
+  拓扑：双相交错LLC，输出48V/1000A。  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaw9QB003iad1Voz55If3186UxgtTkpwzZ2Ef7A8wicTVM62IIyCbHLyeEsrbhoBnmMpBUy5N18GmQ/640?wx_fmt=jpeg&from=appmsg)
+
+  
+
+2\. 激光电源
+
+需求：快速动态响应（μs级）、高重复脉冲稳定性、低电磁干扰。  
+
+SiC方案优势：  
+
+纳秒级开关速度：减少电流过冲，提升焊接精度（如激光切割机脉宽控制误差<1%）。  
+
+EMI抑制：通过软开关技术（如ZVS）降低高频噪声30dB。  
+
+典型设计：  
+
+模块选型：1200V/60A-300A 。
+
+拓扑：全桥谐振逆变器，开关频率200kHz。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaw9QB003iad1Voz55If318wuD94SC42bqCbicFTFlVwbc5miagblmnTyre01du1gGqibWP6ZldC50RQ/640?wx_fmt=jpeg&from=appmsg)
+
+3\. 不间断电源（UPS）  
+
+需求：高效率（>98% ECO模式）、低待机损耗、长寿命（>10年）。  
+
+SiC方案优势：  
+
+双向拓扑支持：SiC模块反向恢复电荷（Qrr）趋近于零，适合储能双向变流。  
+
+轻载效率提升：在20%负载下效率仍>95%（传统IGBT方案约92%）。  
+
+典型设计：  
+
+模块选型：1200V/200A-600A  。
+
+拓扑：三电平T型逆变器，支持并网/离网无缝切换。  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaw9QB003iad1Voz55If3188Gqx1ib5UTKOjxm9aJgfDamrtpGzd3u9DamaJ6tFqhKz8BsGFalDUug/640?wx_fmt=jpeg)
+
+4\. 工业电机驱动（变频器)  
+
+工业电机驱动用于工业电机的变频调速系统，能够实现更高效的电机控制，提高电机的功率因数和运行效率。适用于高功率密度的工业电机，减少电机的体积和重量，同时提高其性能。
+
+需求：低谐波失真（THD<3%）、宽调速范围（1:1000）、抗震动设计。  
+
+SiC方案优势：  
+
+高频PWM调制：载波频率提升至50kHz（传统IGBT通常<10kHz），降低电机啸叫。  
+
+系统体积缩减：散热器体积减少40%，适合紧凑型变频柜。  
+
+典型设计：  
+
+模块选型：1200V/300A。
+
+拓扑：两电平逆变器，输出功率150kW。  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaw9QB003iad1Voz55If318djjqv38ibXZGPdJnhic6QEoL1YOpnDK8TYxHUVmjaHcBfiavuf7wWc3DA/640?wx_fmt=jpeg&from=appmsg)
+
+5.焊机电源 、感应加热设备  
+
+SiC MOSFET器件在电焊机应用中的优势主要体现在提高效率、降低成本、增强便携性、提高可靠性和耐压高等方面。‌
+
+SiC MOSFET在电焊机中的应用不仅提升了焊接效率与稳定性，还通过其独特的技术优势，如高工作频率、低导通阻抗、高耐压等，为电焊机行业带来了革命性的变化，成为现代工业智能制造中的最优选择‌。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaw9QB003iad1Voz55If318ibjnlV4G8cmgRjWYN7P5Yt4K6XYetgzar0M05BZF8Z5DtKj0sVaI1gg/640?wx_fmt=jpeg&from=appmsg)
+
+SiC MOSFET(1200V60A,8颗）
+
+现代工业智能制造，需要高端高性能焊机和机器人组成自动焊接生产系统，对焊接工艺过程进行精细控制，传统基于IGBT设计的工业三相逆变焊机，开关频率停留在10-30kHz，已经不能满足设计需要，SiC MOS因其在高效能、高频率和高温性能方面的独特优势，可提高开关频率到100kHz以上，SiC MOS器件是目前最优的选择。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsliaw9QB003iad1Voz55If318WEqEGLXxvBlTb1PXf3zXhwyKGjFOHpcK0a2M8RtFVxUWUQD1ibmibzBw/640?wx_fmt=jpeg&from=appmsg)
+
+SiC MOSFET模块（34mm模块，2块）
+
+采用SiC MOS功率器件设计的逆变焊机，动态性能更好，效率更高，更小巧轻便。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318m9BwtGdBXHDJ9ERZ2ib1xecY8laVGasC20cqMZNFyGzjYq0sXvpPURQ/640?wx_fmt=png&from=appmsg)
+
+新型功率开关器件 SiC MOSFET模块设计的感应加热电源，由于SiC MOSFET功率器件的性能优势，无需外部再反并联续流二极管，简化了电源整体结构。所设计的驱动电路实用性强，能够满足功率器件稳定高速开关的要求。采用带延时补偿调整的定角锁相控制策略，实现了频率快速自动跟踪的目的，使逆变器始终工作于低损耗的小感性状态。  
+
+SiC模块在工业电源中的核心优势
+
+1\. 高频化能力
+
+开关频率提升：支持50kHz~1MHz（传统Si IGBT上限约20kHz），显著减小无源器件体积。  
+
+磁性元件优化：高频下变压器/电感体积缩小至1/3（如1MHz LLC变压器仅手掌大小）。  
+
+2\. 效率与能耗优化 
+
+场景1:服务器电源（48V）, SiC模块效率提升+2.5%，节能收益（以100kW系统为例）--年节电≈1.5万度（电费$1500）。
+
+场景2: 工业变频器  , SiC模块效率提升+3%~5% ，节能收益（以100kW系统为例）--年节电≈3万度（电费$3000） 。 
+
+3\. 高温与可靠性优势
+
+工作温度：Tj可达175°C（Si MOSFET通常限125°C），减少散热系统复杂度。  
+
+寿命延长：在相同结温下，SiC模块的功率循环寿命比Si IGBT高5倍（测试条件ΔTj=80°C）。  
+
+4\. 系统级成本优化
+
+初期成本：SiC模块价格约为Si IGBT的2~3倍，但通过减少散热/电容/电感成本，系统总成本可降低10%~20%。  
+
+运维成本：效率提升带来的电费节省，通常在1~3年内收回器件溢价。  
+
+总结
+
+随着34mm、62mm工业封装碳化硅模块产品阵容的不断扩大，也可为客户提供应用的更多灵活性和最大可靠性，不仅可应用于工业领域还可应用于风力、光伏、充电桩、电动汽车等新能源领域。
+
+  
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

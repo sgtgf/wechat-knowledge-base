@@ -1,0 +1,93 @@
+# 西安交通大学：SiC MOSFET特性分析及应用
+
+原创 韩 芬，张艳肖 SiC碳化硅MOS管及功率模块的应用 2025-01-28 12:00 河南
+
+> 原文地址: [https://mp.weixin.qq.com/s/lOzZcOSgn44C5b7ZFK\_Mig](https://mp.weixin.qq.com/s/lOzZcOSgn44C5b7ZFK_Mig)
+
+文章来源：电子设计工程
+
+作者：韩 芬，张艳肖，石 浩（西安交通大学城市学院 电气与信息工程系，陕西 西安 710018）
+
+摘要：碳化硅 MOSFET 因其材料的特殊性，适合高压、高频和高功率密度场合。该文设计一种碳化硅 MOSFET 的驱动电路，通过软件 PSpice 对碳化硅 MOSFET 以及碳化硅肖特基二极管的开关特性进行仿真研究，并设计 RC 缓冲电路解决开关的尖峰震荡问题。搭建硬件实验电路，在 Buck电路中针对碳化硅 MOSFET 和 Si IGBT 在不同负载和占空比下进行电路效率分析。实验结果表明碳化硅MOSFET 开关速度快、开关损耗小以及驱动电阻小。碳化硅肖特基二极管无反向恢复特性，适合高频下工作。RC 缓冲电路能有效抑制开关产生的尖峰和震荡，在 Buck 电路中碳化硅 MOSFET 比 Si IGBT在不同负载和占空比下效率要高。
+
+关键词：SiC MOSFET；驱动电路；RC缓冲电路；开关特性
+
+0\. 引言 
+
+碳化硅 SiC（Silicon Carbide）MOSFET 作为第三代宽禁带半导体材料的代表，工作结温高达600 ℃，工作频率高达兆赫兹级，最高反向击穿电压为200 kV。因其具有击穿电场高、载流子饱和漂移速度快、热稳定性好、热导率高、能提高电力变换器的性能等优良特性，已成为高温、高压、高频、大功率场合的理想器件，因此国内外研究学者对其特性及应用展开研究。文献\[4\]研究了 SiC MOSFET 的开关特性以及在Buck 电路中的应用。文献\[5\]分析了驱动电阻对 SiC开关器件开关时间和开关损耗的影响。文献\[6\]对比SiC MOSFET 与 Si IGBT 的特性。该文研究设计了SiC MOSFET 的驱动电路，通过 PSpice 软件仿真分析SiC MOSFET 的开关特性，以及 SiC 肖特基二极管的特性，利用 RC 缓冲电路吸收开关过程中电流和电压产生的尖峰震荡 。 通 过 搭 建 硬 件 实 验 电 路 研 究Buck电路的效率。
+
+1. 驱动电路的设计
+
+SiC MOSFET选取ROHM公司的SCT2080KE，该器件的参数：额定电压VDS\=1.2 kV，额定电流 ID\=40 A，通态等效电阻 RDS（on）=80 mΩ，最高结温 175 ℃，栅源极电压\-6~22 V，开启电压 2.8 V，电压高达18~20 V 时开关才能完全导通。为了防止栅极振荡增强抗扰能力，使开关快速关断，栅极必须提供\-2~6 V 关断电压，因此选择+18 V 和\-4 V 的驱动电压。图1为驱动电路设计图，通过光耦 6N137 实现电气隔离，IXDD609SI 对 驱 动 信 号 进 行 功 率 放 大 ，控 制 SiC MOSFET开通和关断。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxwCWzTPKpFPMhTgheqyP7AnvuHVsiaHgp7J5U6ibAfaicJFo6ZcKqh4icKQ/640?wx_fmt=png&from=appmsg)
+
+为了给芯片供电，设计如图2所示的辅助电源，市电经过变压器 BK100VA 转换成 24 V 和 6.3 V 的交流电，24 V经过二极管半波整流，通过 7818和滤波电容得到+18 V直流电。6.3 V二极管半波整流，通过7905得到\-5 V直流电，利用LM337调整为\-4 V的直流电。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxBeXncJ7nNsuibPicSEEeTrsKFDcu0a6ibFJPNV3OYBXmEhibzySjuTQKVQ/640?wx_fmt=png&from=appmsg)
+
+光耦 6N137 的外围电路如图 3 所示，引脚 2 输入控制信号，R3与 R4分别为输入和输出信号的限流电阻，控制信号从引脚 6输出。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxXV3JuyNrJicYiauy80rO5tWO2pSo09S3ib4fes7vJc0QQxKPl4prVPKug/640?wx_fmt=png&from=appmsg)
+
+驱动芯片 IXDD609SI的外围电路如图 4 所示，引脚 1 和 8 VCC接 18 V 电源，驱动信号 PWM1 通过限流电阻 R5从引脚 2 输入，引脚 4和 5 接 地 ，引 脚 6 和 7 通 过 驱 动 电 阻 Rg 输 出 SiCMOSFET 栅极驱动的 PWM 波。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxhHmlwu0eYkkFibuu0giaMia7M5Fn2icatLiaAV3iaVslQqfUDxthe7M1BovA/640?wx_fmt=png&from=appmsg)
+
+2\.  SiC MOSFET开关特性
+
+利用双脉冲电路测试SiC MOSFET开关特性，续 流 二 极 管 选 取 SiC 肖 特 基 二 极 管 SCS210KE2，电 感取 0.5 mH，Rg为驱动电阻。双脉冲驱动波形如图 5（a）所示，T1区间开关导通 9 μs，漏极电流线性上升。T2区间通过碳化硅肖特基二极管续流 2 μs。T3区间开关再次导通 1 μs。漏极电流的仿真结果如图 5（b）所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxBBHZPneCxBcObsVfSHEibQl63ZPcr7FpNvwpzjpCtIeuA7TAibBXVIxw/640?wx_fmt=png&from=appmsg)
+
+门极驱动电阻 Rg的大小影响开关速度及开关损耗，因此门极驱动电阻的选取非常重要。表1和表2分别为不同的驱动电阻仿真得到的 SiC MOSFET 的导通和关断时间。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxxsibcm13KJxibmz2SbMeHlhwmBouW29qW7la26HNqGia7J23F5cYQiaTCA/640?wx_fmt=png&from=appmsg)
+
+从结果可知驱动电阻越大，开关时间越长，开关损耗越大。因此 5 Ω的门极驱动电阻，既保证了开关速度又保证了系统的稳定性。图 6为电阻为 5 Ω时 SCT2080KE的开关特性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxB7oibPvv5eun9riaLLfiarerw36R5hxUA2UvTV86WI7Laib3IX6Uv8BKQg/640?wx_fmt=png&from=appmsg)
+
+3\. SiC肖特基二极管特性
+
+硅二极管一般应用于小于 250 V 的场合，有反向恢复时间。而 SiC 肖特基二极管耐压高达 1.2 kV，不仅开关频率高，而且没有反向恢复特性，能降低开关损耗。图 7（a）为二极管电流波形，图 7（b）为反向截止时电流局部放大图，从图中可以看出反向恢复电流小于 0.8 A。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxlBMFMoeBxyrjbuKR22iaiaTAoQ4FSicmL1zyASmSZKFstBSTOJZZOOjVg/640?wx_fmt=png&from=appmsg)
+
+4\. RC缓冲电路
+
+SiC MOSFET 在高频下工作，开关过程中电流电压震荡严重，为了解决这一问题，在 SiC MOSFET的漏源极两端并联 RC 缓冲电路。C 取 0.375 nF，R取 8 Ω/5 W。图 8（a）为添加了 RC 缓冲电路的 Buck电路图，图 8（b）为未添加 RC 缓冲电路 SiC MOSFET漏极电流波形，可以看出波形震荡严重。图 8（c）为添加了 RC 缓冲电路 SiC MOSFET 漏极电流波形，电流的峰值从 9 A 左右减少到了 6 A 左右，RC 缓冲电路吸收了部分电流谐波，使得系统的运行更加稳定可靠。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxs7Hbn17jQSyJWbyGFYrVAX3zhjhnrWZa73ufwKu78c9asoS1dCNDdw/640?wx_fmt=png&from=appmsg)
+
+5. 实验结果
+
+5.1 Buck电路实验结果
+
+根据PSpice的仿真结果搭建了实验电路，在Buck电路中,驱动电路的控制信号由单片机STM32F407ZG产生幅值为 3.3 V，占空比为 0.5 的 PWM 波，输入电压 100 V，电感取 4 mH，电容取 200 V/30 uF，负载为100 Ω，频 率 100 kHz。 用 Tek 示 波 器 显 示 实 验 结果。图 9（a）为未添加 RC 缓冲电路的驱动电压波形，可以看出尖峰震荡较大。图 9（b）为添加了 RC 缓冲电路的驱动波形，有效地抑制了尖峰震荡。图 9（c）为开关开通时局部放大图，图 9（d）为开关关断时局部放大图，从图中可知开关都在 350 ns内波形稳定。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxQAhKnIwtR3M2ibyCg6glHEjfpjZ0l3EUzSNYzY1r2eiafnYqdVha9iaFA/640?wx_fmt=png&from=appmsg)
+
+5.2 电路的效率
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVx590edmHpztnS7uXq7w5baWbJp8xQkicZtIl6AfziaBQE7K4D8NJu8G3Q/640?wx_fmt=png&from=appmsg)
+
+电路的效率为输出功率与输入功率的比值。表3为不同占空比SiC MOSFET 和 Si IGBT 在 Buck 电路中的效率。从结果可知占空比在 0.5 左右时效率最高，占空比越大或者越小效率降低，SiC MOSFET比 Si IGBT在电路中的效率较高。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8QsVSIyT4yoXzhxgIicCVxNuoaMjyDjhy5hp0VDliaTSWrqiadAWZf99RC9OdUiaeQXaZBoiacb4qXNg/640?wx_fmt=png&from=appmsg)
+
+当频率为 100 kHz时，占空比为 0.5，负载分别取10 Ω、20 Ω、50 Ω、100 Ω、200 Ω、500 Ω时电路的效率如表 4所示，负载越小，效率越高，满载时效率最高。
+
+6 . 结 论
+
+该文针对SCT2080KE设计了驱动电路，利用双脉冲电路分析了SiC MOSFET 的开关特性，以及 SiC肖特基二极管的反向恢复特性。通过设计RC缓冲电路，减少 SiC MOSFET 在开关过程中的大量谐波。最后搭建了实验电路，在 Buck电路中对比SiC MOSFET和Si IGBT在不同占空比和不同负载条件下电路的效率。结果表明 SiC开关特性好，在实际应用中效率高，为工程实践奠定了基础。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

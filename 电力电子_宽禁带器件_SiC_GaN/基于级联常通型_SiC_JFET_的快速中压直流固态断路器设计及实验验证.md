@@ -1,0 +1,218 @@
+# 基于级联常通型 SiC JFET 的快速中压直流固态断路器设计及实验验证
+
+原创 何 东，徐星冬 SiC碳化硅MOS管及功率模块的应用 2025-03-31 19:01 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/vQWU\_b0g370Qy8pZQIVCMg](https://mp.weixin.qq.com/s/vQWU_b0g370Qy8pZQIVCMg)
+
+文章来源：电力系统保护与控制
+
+作者：何 东1，徐星冬1，兰 征1，王 伟2(1.湖南工业大学电气与信息工程学院，湖南 株洲 412007；2.湖南大学电气与信息工程学院，湖南 长沙 410082)
+
+摘要：固态断路器(solid state circuit breaker, SSCB)是直流配电网中实现快速、无弧隔离直流故障的关键保护装置。首先提出了一种基于级联常通型碳化硅(silicon carbide, SiC)结型场效应晶体管(junction field effect transistor, JFET)的新型中压直流 SSCB 拓扑，直流故障发生时利用金属氧化物压敏电阻(metal oxide varistor, MOV)向 SSCB 主开关级联常通型 SiC JFET 器件的栅源极提供驱动电压，可快速实现直流故障保护。其次详细分析了 SSCB 关断和开通过程的运行特性，并提出了 SSCB 驱动电路关键参数设计方法。最后研制了基于3个级联常通型 SiC JFET 器件的1.5 kV/63 A 中压 SSCB 样机，通过短路故障、故障恢复实验验证了设计方法的有效性。结果表明该 SSCB 关断 250A短路电流的响应时间约为 20μs，故障恢复导通响应时间约为12μs,为中压直流 SSCB 的拓扑优化设计和级联常通型 SiC JFET 器件的动静态电压均衡性能提升提供了支撑。
+
+关键词：直流配电网；固态断路器；碳化硅结型场效应晶体管；金属氧化物压敏电阻；短路故障
+
+0  引言
+
+相比传统交流配电网，直流配电网传输效率高、线路损耗小，且易于分布式能源的集成，在数据中心、地铁牵引系统、船舶配用电系统等领域具有良好的应用前景。然而，直流配电网具有低阻抗特性，当发生直流母线短路故障时其故障电流变化速率快、幅值高、无自然过零点。传统交流断路器和保护方法难以直接应用于直流故障保护。因此，研究具有快速动作性能的直流断路器对直流配电网的安全稳定运行具有重要意义。
+
+基于功率半导体器件的直流固态断路器(solid state circuit breaker, SSCB)因其故障响应速度快、控制灵活、无关断电弧等优点，在直流故障保护方面前景广阔。近年来，随着半导体材料及功率器件技术的快速发展，以碳化硅(silicon carbide, SiC)金属氧化物半导体场效应晶体管(metal oxide semiconductor field effect transistor, MOSFET)、SiC 静态感应晶体管(static induction transistor, SIT)、SiC 结型场效应晶体管(junction field effect transistor, JFET)等为代表的第三代宽禁带半导体器件，因其通态损耗低、开关速度快、安全工作区宽、热稳定性好等特点已成为 SSCB 主开关应用的理想选择之一。文献\[11\]提出了基于 SiC MOSFET 器件的双向直流 SSCB。文献\[12\]研究了一种基于 SiC SIT 器件的低压 400V直流 SSCB，实现了 SSCB 关断过程中的瞬时过电压抑制。目前主流的商业化 SiC JFET 器件可分为常通型和常开型两类，其中常通型 SiC JFET 器件导通时栅源极电压为零，通态损耗极低，雪崩耐量和短路应力强，在具备快速动作性能的直流 SSCB 主开关中应用前景良好。文献\[15-16\]利用常通型 SiCJFET 器件设计了一种高速自供电型直流 SSCB，实现了低压直流配电系统的快速短路故障保护。
+
+随着 SSCB 向中压直流应用等级发展，通常需要将 SSCB 主开关 SiC 器件级联运行以提高其电压容量。然而，级联运行的 SiC 器件因自身参数差异、驱动信号延迟等因素导致的电压分布不均衡问题是 SiC 器件级联应用的主要技术难点之一。文献\[18\]针对 SiC MOSFET 级联运行时的动静态电压均衡问题提出了一种主动栅极驱动控制电压平衡方法。该方法通过控制级联器件的关断速度来实现级联 SiC MOSFET 器件的动态电压平衡。在此基础上，为了降低级联 SiC 器件运行时驱动电路的复杂度，有学者提出了一种单栅极驱动电路控制方法\[19-22\]，即利用一个标准栅极驱动电路可控制所有级联器件的通断。文献\[19\]提出了一种适用于 SiC MOSFET 级联运行的单栅极驱动电路，改善了级联器件间的电压均衡效果。但该电路需要外部辅助电源协同控制级联器件的通断，增加了驱动电路的体积和功耗。在级联常通型 SiC JFET 器件运行方面，文献\[20\]研究了一种应用于级联常通型 SiC JFET 器件的主动栅极箝位控制电路，该方法通过动态调整级联常通型SiC JFET 的开断时间解决了其动静态电压均衡问题。
+
+然而，随着级联能型 SiC JFET 器件数量的增加，驱动电路中无源器件的数量和损耗也随之增加。文献\[21\]提出了一种基于齐纳二极管和 RC 混合电路的SSCB 拓扑，实现了 SSCB 关断过程中主开关级联常通型 SiC JFET 器件的电压均衡。但当主开关 SiCJFET 器件增多时齐纳二极管也成比例增加，显著增加了电路损耗。在前期的研究成果中，利用电容耦合原理提出了一种基于级联常通型 SiC JFET 器件的 SSCB 拓扑及单栅极驱动电路。该方法利用耦合电容电荷的变化来控制 SSCB 主开关级联 SiC JFET 器件的通断，以实现动静态电压平衡，但级联SiC JFET 器件的电压分布易受耦合电容容值大小的影响。
+
+基于此，本文提出了一种基于级联常通型 SiC JFET 的新型中压直流 SSCB 拓扑及单栅极驱动电路。直流故障发生时，利用金属氧化物压敏电阻(metal oxide varistor, MOV)箝位吸收 SSCB 关断过程中级联 SiC JFET 器件的漏源极电压和能量，向级联 SiC JFET 器件的栅源极提供驱动电压。该 SSCB仅需要少量无源器件即可实现级联 SiC JFET 器件的动静态电压均衡，有效降低了驱动电路的复杂度。
+
+1 基于级联常通型 SiC JFET 的中压直流SSCB 拓扑
+
+由于常通型 SiC JFET 器件导通时栅源极电压为零，且通态损耗低、开关速度快。基于此，本文提出了一种基于 3 个级联常通型 SiC JFET 器件的1.5 kV/63 A 中压直流 SSCB，拓扑结构如图 1 所示。该 SSCB 拓扑主要由 SSCB 栅极驱动电路模块、级联常通型 SiC JFET 模块以及故障检测电路模块 3部分构成。其中，SSCB 主开关由 3 个 SiC JFET 器件级联运行以提高 SSCB 电压等级，且每个 SiC JFET 器件均配置了相应的缓冲电路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCgzLELCom7bzLS4nFZhJibNiaYaJQUmoj96nXTMwx5dNmI1lNUhuD5sxg/640?wx_fmt=png&from=appmsg)
+
+假设当图 1 中 P 点发生直流短路故障时，SSCB快速响应短路故障，此时栅极驱动电路只需向主开关级联 SiC JFET 中最底部器件 Q1 发送关断电压信号Vcc (-15 V) ，即可实现所有级联器件( Q1 、Q2 和Q3)的关断动作，从而使 SSCB 切断故障电流。其中，在 SSCB 关断过程中，稳压二极管 D2 和 D3 维持器件 Q2 和 Q3 的栅源极电压稳定。此外，分别并联在器件 Q1 、 Q2 和 Q3 漏源极的 RC 缓冲电路可抑制 SSCB 关断初期的电压尖峰，有利于实现级联 SiC JFET 器件的动态电压均衡。在 SSCB 关断过程中，当 SiC JFET 的漏源极电压高于 MOV 的阈值电压时，MOV 由截止状态迅速变为导通状态，并吸收关断过程中所产生的能量，同时将级联 SiC JFET 器件的漏源极电压箝位在一个安全范围内。下面将详细分析 SSCB 关断和导通过程的运行特性。
+
+2 基于级联常通型 SiC JFET 的中压直流SSCB 开关过程分析
+
+2.1 基于级联常通型 SiC JFET 的中压直流 SSCB 关断过程分析
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCgc2EUQWD2ApUicEO8V1fyTPGrdib39fibp1PsxicouAHmKrLshfyvovPRA/640?wx_fmt=png&from=appmsg)
+
+直流配电网正常运行时，SSCB 在额定电流范围内稳定运行。若直流系统发生短路故障，SSCB故障检测电路检测到短路电流，SSCB 驱动电路将向级联常通型 SiC JFET 器件栅极发送一个稳定的−15 V 偏置电压信号，驱使其关断，从而隔离短路故障。级联常通型 SiC JFET 器件关断时理想化电压电流波形如图 2 所示，主要电流路径如图 3 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCFB6xhARfF5DZxt54BjE7ZnHXhVoHtHSLRCvmYLv0nfZibKZxHnTOSNQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCFRcPp91bPs37TTicUpmT8YMMcibQeB51rDjibFLebuic2XSAkNndQ9CSng/640?wx_fmt=png&from=appmsg)
+
+  
+此时，假设系统的初始状态为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCFKIicrqSmCDxZHgyEl2ChoibwS76j5uzqcjsCltSTyvsG9yiax4FGGrtg/640?wx_fmt=png&from=appmsg)
+
+式中：Vgs1 、Vgs2 、Vgs3 、Vds1 、Vds2 、Vds3 分别为 SiC JFET 器件 Q1 、 Q2 和 Q3 的栅源极电压和漏源极电压； iQ1 、 iQ2 和 iQ3 分别为流过 Q1 、Q2 和 Q3 的漏极电流；Io 为电路稳态时负荷电流；RDS,on 为 SiC JFET器件通态电阻。
+
+第一阶段\[ t0 — t1 \]：直流系统发生短路故障后，SSCB 驱动电路向器件 Q1 栅源极发送偏置电压Vcc (-15 V)驱使 Q1 关闭。此时电压Vcc 加在 Q1 栅极电阻 Rg1 和栅源电容 Cgs1 两端，电流 igs1 通过电阻 Rg1给电容 Cgs1 充电，电压Vgs1 从零开始反向增大。t1 时刻Vgs1 等于米勒平台电压Vgs(mp) ，此过程中电流 iQ2 、iQ3 和电压Vds2 、Vds3 无变化，电压Vgs1(t) 的表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCyZONk52gibasbAjd9v3Pk00XHiajjCic1NshZ5Q5hsRmCMO78xL14ma6g/640?wx_fmt=png&from=appmsg)
+
+式中，Cgs1 为器件 Q1 栅源极电容。将Vgs1(t1)=Vgs(mp)代入式(2)和式(3)，可得到关断延时时间 Δt1 为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCicvqGgkR4kI456tYLL5Jic8I9ccc4NvuuHy6n4YPolI5NgwbFgWcq6aA/640?wx_fmt=png&from=appmsg)
+
+第二阶段\[ t1 — t2 \]： t1 时刻电压Vgs1 跌落至米勒平台电压Vgs(mp) ， Q1 的漏源极等效电阻逐渐增大，漏极电流 iQ1 从 Io 开始下降。此时流经 Q1 的电流开始向 RC 缓冲电路充电，漏源极电压Vds1 逐渐增大。此阶段故障电流 iDS 在串联电路的作用下逐渐减小，电流 igs1 、 iQ1 、 iDS 和 iRC1 的流通路径如图 3(a)所示。
+
+第三阶段\[ t2 — t3 \]：t2 时刻电压Vgs1 等于栅极阈值电压Vgs(th) ，此时 Q1 处于截止状态，漏极电流 iQ1 下降为 0，其 RC 缓冲电路中电流 iRC1 上升至峰值电流Ipeak 。受换流回路中寄生电感的影响，换流结束后器件 Q1 漏源极电压Vds1 会产生一个较小电压尖峰。电流 iDS 的路径图如图 3(b)所示。
+
+第四阶段\[ t3 — t4 \]：t3 时刻当 RC 缓冲电路两端电压由电流 iRC1 充电达到 MOV1 阈值电压 Vref 时，MOV1 阻值快速下降，阈值电压Vref 满足式(5)。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCiajrY3C2R2zpbLvKZ2tnic5XfFyCmJ2wmuLzqSm8FDErG3d246EiaeH3Q/640?wx_fmt=png&from=appmsg)
+
+式中，RDS1 、CDS1 分别为器件 Q1 的缓冲电阻和缓冲电容。此时，主电路电流将流过稳压二极管 D2 和MOV1 支路，且电压Vgs2 从零开始逐渐反向增大。此阶段电流 iDS 、iRC1 和 iMOV1 的流通路径如图 3(c)所示。
+
+第五阶段\[ t4 — t5 \]： t4 时刻器件 Q2 栅源极电压反向增大至Vgs(mp) ，Q2 进入饱和区，Q2 的漏源极等效电阻逐渐增大，漏极电流 iQ2 在原有基础上快速减小。同时，流经 Q2 的电流开始向 RC 缓冲电路充电，漏源极电压Vds2 逐渐增大。此阶段电流 iDS 、iRC2 、iQ2和 iMOV1 的流通路径如图 3(d)所示。
+
+第六阶段\[ t5 — t6 \]： t5 时刻器件 Q2 栅源极电压Vgs2 跌落至Vgs(th) ，漏极电流 iQ2 将逐渐下降至 0。此时，流过 Q2 的电流全部换流到 RC 缓冲电路支路。在缓冲电容 CDS2 快速充电的作用下， Q2 漏源极电压Vds2 会进一步增大。此阶段电流 iDS 的流通路径如图 3(e)所示。
+
+第七阶段\[ t6 — t7 \]： t6 时刻电压 Vds2 将增大至MOV2 的阈值电压 Vref 。同理， MOV2 的等效电阻会迅速下降，电流将通过稳压二极管D3 流入 MOV2支路，电压 Vgs3 逐渐从零开始反向增大。此时，电流 iDS 、iRC2 、iMOV1和 iMOV2的流通路径如图 3(f)所示。一旦Vgs3 反向增大至Vgs(mp)时，Q3 进入饱和区，漏极电流 iQ3 将在原有基础上快速减小并换流至 RC 缓冲电路，漏源极电压 Vds3 从零开始逐渐升高。此阶段对应的电流 iDS 、 iRC3 、 iMOV1、 iMOV2和 iQ3 流通路径如图 3(g)所示。
+
+第八阶段\[ t7 — t8 \]：当电容 CDS3 两端电压充电至MOV3 的阈值电压 Vref 时，MOV3 等效电阻快速减小。同理，电流将由 RC 缓冲电路逐渐流入MOV3 支路，最终完全换流至MOV3 支路。此阶段，Vgs3 会逐渐反向增大至偏置电压Vcc (-15 V)，此时所有器件都处于截止状态，所有级联器件完全关断。且 t8 时刻 3 个级联 SiC JFET 器件的漏源极电压均维持在VDC /3 ，电流 iDS 、 iMOV1 、 iMOV2 和 iMOV3 的流通路径如图 3(h)所示。
+
+2.2 基于级联常通型 SiC JFET 的中压直流 SSCB 开通过程分析
+
+当直流短路故障完全清除后，SSCB 驱动电路无须向 Q1 栅极提供反向偏置电压， Q1 栅源极电压从−15 V 恢复为 0，SSCB 由关断状态转换为导通状态。SSCB 主开关级联常通型 SiC JFET 器件导通过程理想化，电压电流波形如图 2 所示，主要电流路径如图 4 所示。此时，系统的初始状态为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCzI85DTT3yAMHGicf6fQke4NZzphUrXWHn0KB6yxJ7iaiaewx31VdpLj0Q/640?wx_fmt=png&from=appmsg)
+
+式中，VDC 为直流母线电压。
+
+第九阶段\[ t9 — t10 \]：直流短路故障清除完毕后，Q1 栅源极电压Vgs1 从−15 V 上升至 0，驱使 Q1 导通。Q1 栅源极电容 Cgs1 电压 Vcc 通过栅极电阻 Rg1 反向放电，此时 Vgs1 从−15 V 开始增大。当 Vgs1 上升至Vgs(th) 之前，所有级联器件仍位于截止区。此过程中级联器件漏源极无电流，电流 iQ1 、 iQ2 、 iQ3 维持初始状态不变，且电压Vds1 、Vds2 、Vds3 也保持不变。此阶段，电压Vgs1(t) 可表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCEIEpaFTsYF8GPcwrJ5m4UfAHJIrRbGyyA362tFfniaqAPGcnbuaOdjQ/640?wx_fmt=png&from=appmsg)
+
+将 Vgs1(t10)=Vgs（th）( 代入式(7)可得到开通延时时间 Δt2 为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCg4ve7TibnwfqNicvbZ3uTRS4kg7J08qrROw9FuzAysv6OyMhsPQnl7eA/640?wx_fmt=png&from=appmsg)
+
+第十阶段\[ t10 — t11 \]： t10 时刻， Vgs1=Vgs(th ) ，随后 Q1 逐渐导通，漏极电流 iQ1 随着电压Vgs1 线性增加(增益为 gm )，电流 iQ1 为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCWrAsnHcn6v1rJWFTyIGjicepRVF9EkSpib8uPuzibHMIVqLPMXjB2yXPA/640?wx_fmt=png&from=appmsg)
+
+在 SSCB 主开关中，由于器件Q2 、Q3 尚未导通，此时电流 iQ2 、 iQ3 均保持不变。当 Q1 逐渐导通时，流经稳压二极管D2 的电流逐渐减少，Q2 栅源极电压Vgs2 逐渐增大，此过程中电流 iQ1 、iMOV1和 igs1流通路径图如图 4(a)所示。
+
+第十一阶段\[ t11 — t12 \]： t11 时刻，Vgs2=Vgs（th），随后Q2 逐渐导通，Q2 的漏极电流 iQ2 逐渐增加。同理当 Q2 逐渐导通时，流过稳压二极管 D3 的电流逐渐减少，Q3 栅源极电压Vgs3 逐渐增大。Q2 漏极电流iQ2 如图 4(b)所示。在此过程中，电压Vgs1 已达到米勒平台电压Vgs(mp)，但由于器件 Q3 仍未导通，器件Q1 漏源极电压Vds1 不会下降。
+
+第十二阶段\[ t12 — t13 \]：t12 时刻，当器件 Q3 栅源极电压Vgs3=Vgs(th) 时，器件 Q3 开始导通，流过器件Q3 漏极电流 iQ3 开始逐渐增大。此时，由于Vgs1 已达到米勒平台电压Vgs(mp) ，电压Vds1 将逐渐下降，且电容 CDS1 开始放电，放电电流 iRC1 如图 4(c)所示。在Vgs2达到米勒平台电压前，随着漏源极电压 Vds1 快速下降Vds2 会逐渐上升，且当Vgs2=Vgs(mp)时，电压Vds2 达到最大值。此阶段，当Vgs2 大于Vgs(mp)时，器件 Q2 漏源极电压 Vds2 将从最大值开始快速跌落。此时电容CDS2 开始放电，放电电流 iRC2 如图 4(d)所示。同理，当器件Q3 栅源极电压 Vgs3=Vgs(mp) 时，漏源极电压Vds3 也达到最大值，随后Vds3 快速下降。电容 CDS3 的放电电流 iRC3 如图 4(e)所示。
+
+第十三阶段\[ t13 — t13 \]： t13 时刻电压 Vds1 下降至MOV1 的阈值电压Vref ，此时 MOV1 阻值迅速增大，流经 MOV1 的电流快速衰减至零。此阶段电流 iQ1 路径图如图 4(f)所示。同理，随着电压 Vds2 跌落至MOV2 的阈值电压 Vref ， MOV2 的阻值迅速增大，此时流经 MOV2 的电流快速衰减至零。电流 iQ1 、iQ2的流通路径图如图 4(g)所示。
+
+第十四阶段\[ t14 — t15 \]：t14 时刻 Q3 的漏源极电压Vds3=Vref，同理 MOV3 的阻值快速上升，流过 MOV3支路的电流衰减为零，此时流经所有级联器件的电流为负荷电流 Io 。此阶段，器件 Q1 、 Q2 和 Q3 的漏源极电压在栅源极电压作用下进一步下降至零。t15时刻所有级联器件完全导通，SSCB 恢复运行，电流 iDS 如图 4(h)所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCy39ictvmoViaiajXRNrpJet3UVTrL01uQ0Xv1u6yxfnEHLdR1s9fTJtKQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCKE9zdWE4miaOMmticduDcdzzjDm5WicInftEGZyuTvDuXG9tdvCIVXuFA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCIibfxpbtzTAfib12NEE3iaT73BujcLKV9T1F0twDnjXDfUqvI6QJ35yRw/640?wx_fmt=png&from=appmsg)
+
+3 基于级联常通型 SiC JFET 的中压直流SSCB 驱动电路关键参数设计
+
+3.1 缓冲电容 CDS1 、 CDS2 、 CDS3 参数的选择
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCvQkeKWhfVLXpkicXS0JFTNbGcS338HDhsTYchI4ENS16LiaEr3cHWtXQ/640?wx_fmt=png&from=appmsg)
+
+RC 缓冲电路中电容 C 是关键的吸能器件，在SSCB 关断初期，缓冲电容 C 可以有效减缓电压上升速率 d/dvt ，并降低 SiC JFET 器件漏源极电压峰值。图 3(b)为级联器件 Q1 关断过程中电流流经缓冲电路时的暂态电流流通路径图。由于开关管 Q2 、Q3此时还未关断，且通态电阻非常小，因此在近似计算时可忽略，简化后的电流等效电路如图 5 所示。图中线路电感 Lm 、RC 缓冲电路和故障电阻 Rl 形成RLC 谐振电路，此时直流母线电压VDC 可表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCfQicjm8CGEphsXPibMr824FicG3kGuCr7iccHlNXZhibBKksKsbBImrAYFg/640?wx_fmt=png&from=appmsg)
+
+式中，Vds 为电容 CDS1 两端电压。
+
+假设电容 CDS1 的初始电压为 0，初始电流为 Idc ，则由式(10)可得电容两端电压Vds 为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSC6iaHG2v9y8dUNAsf6VYXo8SGImPuo19z9qLPMfIl4M6vn3KR1G5CTtA/640?wx_fmt=png&from=appmsg)
+
+假设电容电压 Vds 经过 t1 时间段由零上升至最大值，其峰值电压由 MOV 箝位电压VC 决定，该过程可以表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCy9CUibkdRhkLjNx4g9qxjuWicn7B6iadUtibnrVicsZ0xZ2vUoT7k9EaIBg/640?wx_fmt=png&from=appmsg)
+
+考虑到时间 t1 是微秒级，VC 、Idc 、t1 和 CDS1 之间的关系可近似表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCwNCYOU5oIBDe3db8fB4K8icSYaSSJL6reptvUWQoPCoMeSh5t1bGYeQ/640?wx_fmt=png&from=appmsg)
+
+将式(14)代入式(13)，可简化为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSC0CMeMrjxLnibpzUOFUTMfuHtlE5Sviaib9Lt82HNSf02ANQlMW2bYoWBw/640?wx_fmt=png&from=appmsg)
+
+式(15)可为缓冲电容的选择提供理论依据，其值与 SSCB 关闭前的最大电流 Idc 、MOV 箝位电压VC 及电压响应时间 t1 相关。
+
+3.2 缓冲电阻 RDS1 、 RDS2 、 RDS3 参数的选择
+
+为了防止 SSCB 主开关级联常通型 SiC JFET 器件关断后发生电压振荡现象，需要选择合适的缓冲电阻使主电路工作在过阻尼或临界阻尼状态。因此，缓冲电阻应符合式(16)。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCodclYQDEIibUZkxtP62fibrBgy7Tpmap3qtHabmuZgbqicFfy2aX7POpw/640?wx_fmt=png&from=appmsg)
+
+此外，为了确保 SSCB 导通时的瞬态电流小于SiC JFET 器件的额定脉冲电流 ID(pulse) ，避免过大的脉冲电流导致器件损坏，缓冲电阻 RDS1 还需要满足式(17)。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCrFlHyPJUDib0Q9UvyD2Dm0SocURkOiaH7alWAciaNK3DNQLlolQQUxmoA/640?wx_fmt=png&from=appmsg)
+
+在实际应用中， RDS1 取值过大时会导致 SSCB关断初期 SiC JFET 器件漏源极电压尖峰过高，关断损耗也会增大，严重时可导致器件损坏。因此缓冲电阻 RDS1 应结合式(16)和式(17)合理选择。
+
+3.3 金属氧化物压敏电阻 MOV1 、MOV2 、MOV3 参数的选择
+
+为了抑制 SSCB 隔离故障时所产生的过电压，需要将 MOV 与级联常通型 SiC JFET 器件并联连接。其中，MOV 的非线性 V-I 特性使其成为消耗关断瞬态能量和提供过电压保护的良好解决方案。因此选择合适的 MOV 可以有效保护 SSCB 主开关器件免受过电压冲击。MOV 的选择通常符合式(18)。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCgFzlqP61jCoLsc9SM0L9b5vcqYbicbwrQW6m4L4Dsypw7khhAOzSf3Q/640?wx_fmt=png&from=appmsg)
+
+式中：VClamp为故障电流下 MOV 的最大箝位电压；VN 为 SiC JFET 器件的额定电压。
+
+此外，为了避免 SSCB 正常运行时 MOV 误导通，压敏电阻 MOV 还需要满足式(19)所示条件。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCY2SqesUMSvGpc5fFOJmoalE4GjAlye5wNoRa5weCt2jVEibGLAJvGWg/640?wx_fmt=png&from=appmsg)
+
+式中，VM(DC)为 MOV 的最大连续工作电压。
+
+关于 MOV 的暂态特性，需要确保 SSCB 关断期间 MOV 吸收的脉冲能量低于其额定能量，浪涌电流也要低于 MOV 的额定浪涌电流。
+
+4 实验验证
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCZbyZNz0jRudOedNbrwa1TAAAsMOJuRnoiciaVibQHggdUc8D4Xt7NeGgQ/640?wx_fmt=png&from=appmsg)
+
+为了验证本文所提基于级联常通型 SiC JFET的中压直流 SSCB 拓扑及驱动电路设计方法的可行性，搭建了基于 3 个级联常通型 SiC JFET 器件的1.5 kV/63 A SSCB 实验样机和实验平台，如图 6 所示。由于实验室条件限制，此次在直流母线电压最大值为 750 V 条件下进行实验，测试结果不会影响级联器件电压均衡实验的验证。SSCB 的短路故障保护方法已在文献\[23\]中详细介绍，此处不再详述。SSCB 实验样机的主要电路参数如表 1 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCjY92eIibvo5wR8vSTyTFiayXdYwC0Fw6zfUwrt8uUdCDmJZiaDcIVQe5g/640?wx_fmt=png&from=appmsg)
+
+4.1 短路故障实验结果
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCEr8kbOdUiaIgiaKibrZJ0LalCXspe5hn5eA50s38FM1YHpDGAiaUrp6Gqw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCEIBInrWKkxbWYSn7UAEibvzuMrope90qCFpsSc4hEKY87bFLJnHnqSg/640?wx_fmt=png&from=appmsg)
+
+直流系统发生短路故障时 SSCB 的故障响应波形如图 7 所示，其中 iDS 和VDS 分别为故障电流和 3个级联器件的漏源极电压总和。图 6(b)中直流母线电压VDC 设置为 750 V，故障电阻 Rfault 为 3 Ω。由图7(a)可知，当发生直流短路故障时，流过 SSCB 主开关级联 SiC JFET 的故障电流 iDS 从零开始快速上升至 250 A(约 4 倍 SiC JFET 器件额定电流)。此时SSCB 快速响应短路故障，其栅极驱动电路向级联器件 Q1 栅源极发送偏置电压−15 V。随后级联 SiC JFET 器件 Q1 、 Q2 和 Q3 的栅源极电压Vgs1 、Vgs2 和Vgs3 先后从 0 降至−15 V(如图 7(c)中级联器件的栅源极电压波形)。受栅源极驱动电压信号的影响，所有级联 SiC JFET 器件依次关断，SSCB 关断响应时间约为 20 μs(从直流短路故障发生到故障完全隔离的时间)。受压敏电阻电压箝位作用的影响，电压Vds1 、Vds2 和 Vds3 经过一个较小的电压尖峰后被快速箝位在 250 V(如图 7(b)中级联器件的漏源极电压波形)，最终实现了级联 SiC JFET 器件的电压均衡分布。
+
+4.2 故障恢复实验结果
+
+当直流配电系统中的短路故障完全清除后，SSCB 开始导通，直流配电系统恢复至正常运行状态。直流系统恢复正常运行时 SSCB 实验波形如图8 所示。此过程中直流母线电压VDC 和负载电阻 Rfault分别设置为 750 V 和 30 Ω。由图 8(a)可知，当清除直流短路故障后，SSCB 恢复正常运行，SSCB 驱动电路向级联器件 Q1 栅源极发送一个 0 V 的开通电压。随后级联 SiC JFET 器件 Q1 、 Q2 和 Q3 的栅源极电压Vgs1 、Vgs2 和Vgs3 先后从−15 V 增大至 0 V(如图 8(c)中级联器件的栅源极电压波形)。受栅源极开通驱动电压信号的影响，所有级联 SiC JFET 器件的漏源极电压Vds1 、Vds2 、Vds3 依次从 250 V 降至 0 V(如图 8(b)中级联器件的栅源极电压波形)。同时，电流iDS 也从 0 A 快速上升至负荷电流 25 A。在 SSCB 导通过程中，级联 SiC JFET 器件的漏源极电压Vds1 、Vds2 、Vds3 未出现明显的电压尖峰。最终 SSCB 恢复正常运行，其导通响应时间约为 12 μs。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCPT6BpaNCO04std7Th0TFbURtrO6zt5AHywbr6431m9PicOBeBWuprAw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoj79CUjO6iaKaEcKWU6ibSCzpHgn0LmeZOKjX848kCBvrqhFKEpUr7ictW2TedMK2WPuz0V2ZE7quw/640?wx_fmt=png&from=appmsg)
+
+5 结论
+
+本文提出了一种基于级联常通型 SiC JFET 的中压直流固态断路器拓扑。分析了其工作原理及关断和导通过程的运行特性，并提出 SSCB 驱动电路关键参数设计的理论依据。最后利用 1.5 kV/63 A 中压直流 SSCB 样机验证了设计方法的有效性。通过理论分析和实验结果可得以下结论。
+
+1) 提出的中压直流 SSCB 新型拓扑及栅极驱动控制电路仅利用少量无源器件即可实现 SSCB 主开关级联常通型 SiC JFET 器件的动静态电压均衡，减小了 SSCB 的体积及成本。
+
+2) 分析了 SSCB 驱动电路关键参数的选取原则，设计的 MOV 可箝位并吸收 SSCB 关断过程中级联 SiC JFET 器件漏源极电压和能量，同时向级联SiC JFET 器件栅源极提供驱动电压。有效提高了SSCB 开关速度，并改善了级联器件的电压均衡效果。
+
+3) 开展了直流短路故障和故障恢复实验研究，验证了设计的 SSCB 可有效隔离短路故障、快速从故障中恢复。在短路电流为 250 A 的情况下，关断响应时间约为 20 μs，故障恢复情况下导通响应时间约为 12 μs，对中压直流配电网的安全稳定运行具有重要意义。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

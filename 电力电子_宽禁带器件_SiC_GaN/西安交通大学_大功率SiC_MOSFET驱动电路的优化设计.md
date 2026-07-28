@@ -1,0 +1,229 @@
+# 西安交通大学：大功率SiC MOSFET驱动电路的优化设计
+
+原创 王乃增， 杨旭 SiC碳化硅MOS管及功率模块的应用 2024-12-11 12:21 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/F7MaAdOlH49gDf5GeEunmQ](https://mp.weixin.qq.com/s/F7MaAdOlH49gDf5GeEunmQ)
+
+文章来源：百度
+
+作者：王乃增，杨旭（西安交通大学电气工程学院）
+
+摘要：功率半导体器件的发展对电力电子技术的发展起着至关重要的作用。目前，随着硅器件制造技术和加工工艺的日渐成熟，其性能已经接近理论极限和工程极限，依靠硅器件来提高电力电子设备的性能和可靠性已经十分困难。近年来，碳化硅（SiC）器件发展迅猛，具有工作温度高、阻断电压高、工作频率高和通态损耗小的优点，被广泛应用于高压、高温、高效率及高功率密度的场合。在基于SiC MOSFET的双有源桥（Dual Active Bridge，DAB）电路中，碳化硅器件的高开关速度使得同一桥臂上下管之间的串扰严重，导致SiC MOSFET栅极电压波动较大，振荡尖峰很有可能会使器件失效，整个系统可靠性受到了严峻的挑战。本文主要研究DAB中SiC MOSFET的栅极负压问题，设计了一种能够有效减小SiC MOSFET栅极负压的驱动电路，对其原理进行了分析，并通过SIMetrix仿真软件搭建仿真模型对理论分析进行验证。最后，搭建试验样机进行测试，栅极负压尖峰减小了11%，极大地提高了系统的可靠性。
+
+关键词：SiC MOSFET，驱动电路，DAB，栅极负压，SIMetrix
+
+1．引言
+
+目前，随着硅器件制造技术和加工工艺的日渐成熟，其性能已经接近理论极限和工程极限，已进入瓶颈期而难有较大的突破，依靠硅器件来提高电力电子设备的性能和可靠性已经十分困难。二十一世纪以来，英飞凌（Infineon）、科锐（CREE）和罗姆（ROHM）等公司相继推出了碳化硅功率半导体器件，各项性能指标均远远超出传统的硅基器件，在一些重要领域正逐渐取代硅基半导体器件。SiC器件的优点可概括为以下几点：
+
+(1)工作温度高
+
+SiC的热导率是Si的3-4倍，因此SiC器件可以在600摄氏度的高温下稳定工作。良好的导热性能使SiC器件的冷却系统大为简化，有利于提高系统的集成密度。
+
+(2)阻断电压高
+
+SiC的禁带宽度和击穿场强都是Si若干倍，因此阻断电压很高，可达几千伏。CREE生产的商用SiC MOSFET电压等级最高可达1700V，商用SiC肖特基二极管的电压等级最高也可达到1700V。
+
+(3)工作频率高
+
+SiC的击穿场强是Si的4倍左右，因此SiC器件的导通损耗大约是Si的四分之一，因此SiC器件可以工作在很高频率下。并且，SiC器件的寄生电容小，开关速度快，因此高频特性十分良好。
+
+(4)通态损耗小
+
+SiC器件的导通电阻很小，且受温度的影响不大，导通电阻不会随着温度的上升而大幅增加，因此通态损耗比较小。
+
+由于SiC与Si的物理特性大不相同，因此不能简单地将Si MOSFET的驱动电路应用于SiC MOSFET。SiC MOSFET的驱动电路的设计难点主要有以下两个：
+
+（1）SiC MOSFET的寄生电容比较小，实际工作时很容易受到线路中寄生电感的影响。以CREE生产的SiC MOSFET C2M0025120D为例， 输入电容Ciss为2788pF。而IXYS生产的同电压等级的Si MOSFET IXFX26N120P，输入电容Ciss为22.5nF，大约是前者的8倍。因此，驱动回路中的寄生电感更容易对SiC MOSFET产生影响。
+
+（2）SiC MOSFET的驱动电压范围与Si MOSFET不同。同样以C2M0025120D为例，栅源电压的绝对最大值为\-10V/+25V，推荐工作值为\-5V/+20V；而传统的Si MOSFET的 栅 源 电 压 的 绝 对 最 大 值 为-30V/+30V，推荐工作值为0/15V；因此，比起Si MOSFET，SiC MOSFET驱动电压的安全阈值更小，驱动电压的一个尖峰很可能会击穿栅极与源极之间的氧化层，使其失效。
+
+因此，设计一种安全可靠的SiC MOSFET驱动电路势在必行。
+
+2．SiC MOSFET的串扰问题分析
+
+固态变压器（Solid State Transformer，SST）的中间级是DAB变换器，能自然实现零电压开通（ZeroVoltage Switch, ZVS）软开关，效率高，应用十分广泛。
+
+碳化硅器件在高压下仍能保持较高的开关频率,所以基于SiC MOSFET的DAB在体积上会有所减小，性能、效率等方面也会有所提升。但是由于碳化硅器件的寄生电容很小，因此其串扰问题也十分严重。
+
+2.1 串扰问题的定性分析
+
+在SiC MOSFET组成过的桥臂结构中，一个开关器件在开关瞬态过大的dv/dt将会影响互补器件的工作特性。两个开关器件之间的相互影响叫做串扰\[5\]。本文的重点是研究一个开关器件关断瞬间对互补器件驱动电压的影响，将DAB的一个桥臂单独拿出来分析，原理如图1所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1qwInwiaGt3a0752JicBI01WyiaibVGEvh8b2hekCtyoX08twlnpkFX8qkg/640?wx_fmt=png&from=appmsg)
+
+理想的桥臂结构的电路中，上下两个开关管180度互补导通。但是在实际应用过程中，由于开关管的栅极电压不可能跳变，其开通过程和关断过程都有一定的时间。一般来说，关断时间要长于开通时间。因此，如果上下管180度互补导通，那么上管还未关断，下管可能就已经导通了，这样就会出现电路故障。因此上下管开通和关断之间必须有一个延时的时间，称为死区。
+
+由于死区的存在，上管关断瞬间，下管还未开通。电感电流会维持原有的状态不变，如图1所示。下管的电容Cgs、Cgd和Cds开始放电，并且下管的驱动电路也提供一部分电流，以维持主回路电感电流不变。由于Cgs放电，使得其两端电压比关断时的驱动电压更低。
+
+2.2 串扰问题的定量分析与仿真
+
+图2为优化前的驱动电路原理图，对串扰问题进行分析，首先要对驱动电路进行简化。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv15ag2yR5uWr3YajFl0K8pPBqib5RkrdGdrN5ibF0Jb1Sv2gF8Qor3oWcA/640?wx_fmt=png&from=appmsg)
+
+R6阻值很大，可以看做开路。D2和D3是稳压管，不在分析范畴，可以忽略。上管突然关断下管栅极产生负压尖峰时，驱动芯片输出为低电平\-4V。因此等效电路如图3所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1xN9UQwj9BN7kZwmsqNybVSiaib2XJB4RldNKj79xhwsRZYKWkiaichd1rA/640?wx_fmt=png&from=appmsg)
+
+C4容值很大，因此可以把C4看成一个稳压源。因此电流流过的路径有三条：
+
+(1) D1和R5的串联支路；
+
+(2) R4支路；
+
+(3) D4支路；
+
+这三条支路相当于并联。当Cgs两端的电压Ugs大于\-4V时，Cgs放电将能量流回电源。电流的流通路径只有一条，如i1所示，此时D1和D4均不导通。当Cgs两端的电压Ugs小于\-4V时，电流可能的流通路径有以上三条，但是只有D4这条路径的电阻最小，看以等效为短路，因此可以视为所有电流均流过D4对Ugs充电，如图3中i2所示。可以发现，在栅极负压尖峰之后的振荡过程中，D1和R5这条路径始终没有电流流过，因此可以视为开路。将线路中的寄生电感加入，等效后的电路如图4所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1icA1B4h3tianpUw9kcdY8nZRp0oFFyEicUUudoTUa0e5AiaicUSItU38ic3Q/640?wx_fmt=png&from=appmsg)
+
+首先分析i\>0的情况，即对Cgs充电。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1LsUETA3gpqOYVTS3nKHWugec5eeycYCVkopfyRqYfF8EnpzL6hRZVQ/640?wx_fmt=png&from=appmsg)
+
+式中：UL\----电感两端电压；
+
+            L\----电感值；
+
+           i\----充放电电流；
+
+          C\----栅源电容；
+
+      Uc----栅源电容两端电压。
+
+因此，可以得到
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1cPQvMSrBrRKpqGjCLylhxtdPgQiaBKgPVYf9OI01O3fOKbWyc7L02wQ/640?wx_fmt=png&from=appmsg)
+
+根据基尔霍夫电压定律（KVL），
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1yQ3Z5cqfabuZNhUTeOCgOOq9Xia2Qf69v7ksActP5DicUfkFSluHseBw/640?wx_fmt=png&from=appmsg)
+
+利用变量代换，简化分析，
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1c0jtlibst0X3NP1ZEX8Dshj5CoibCDt7oN33qo4PI36lhP95QoKhQsXA/640?wx_fmt=png&from=appmsg)
+
+可以得到，
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1GY01sMSGyuVhGIqZJfUcBUibicfNUZ4MMFicMDib0ATreLFmDnVHxPxRzQ/640?wx_fmt=png&from=appmsg)
+
+初始条件为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1ZTjaptRAqW5R06E804Zeg1w21ENdDGianswcgouSF5UoWu82I9GKurg/640?wx_fmt=png&from=appmsg)
+
+因此，求解微分方程得
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1gFiaZviaa79ZC9Hk0ZyZbLlweibLvHd0qw0p7VZbvo5m0fVsWde5TB6kw/640?wx_fmt=png&from=appmsg)
+
+于是
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv14TqNGibzLzp26T7D9FUUCY1hyGNCPqQTJtLWpop15Hmv4OS35brg4Bw/640?wx_fmt=png&from=appmsg)
+
+假定U0=-2.5V，所以栅极电压达到最低点\-6.5V时，电压开始增大，其电压变化轨迹遵循式(9)。
+
+接下来分析i<0的情况，此过程Cgs放电Ugs下降。根据基尔霍夫电压定律，
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1CQGumr4uw4AWfUtXHz8wP5iaJXz4HF3vjFQqibSwiaqpWXEnJia8ficJEgg/640?wx_fmt=png&from=appmsg)
+
+进行变量代换，简化分析
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1nqmXNnPPBxZicnUR5RxwV7pf4sbMnv7iaKibCFHJqKlwCRpdo3ibRkLzDQ/640?wx_fmt=png&from=appmsg)
+
+可得
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1wealn1mDFh7NuYGtQFeWSwTic2BzbtzqLE9jaZoODicnFJ9MQwNOhQ2g/640?wx_fmt=png&from=appmsg)
+
+初始条件如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1aHQC68MibEvVGicy3XUia6QiaMujQibqRwBbiaQ0gdUmvgfzN4WAc01gldnA/640?wx_fmt=png&from=appmsg)
+
+求解微分方程，可得
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1uHMWMTDlCkXgFiaIhLxoKPQZ99TvJZJxtcFnydIbpLpF4jicDjcMJyFg/640?wx_fmt=png&from=appmsg)
+
+式中：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1HAgzUYRG9Pdr6NEQhuVu8k1YibG96uB8nxMuDBkNianibooazIW82ryrw/640?wx_fmt=png&from=appmsg)
+
+因此，在栅极电压达到第一个波峰的时候，其下降的轨迹遵循式(15)。
+
+式中：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1VxbpK1e65eyVbSlic0ECy3ibQaGhYDJ2SQogyV4ib9iaUdqQ7kVM9Sj11w/640?wx_fmt=png&from=appmsg)
+
+因此这是一个非振荡放电过程。
+
+从栅极电压最小值点到第一个波峰所需要的时间为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1ZwQ21KoLj2yr2N2FEe52b4LNG4pnbVmKNibgyTWFPMRCEJKaCLz4MVw/640?wx_fmt=png&from=appmsg)
+
+以上是对栅极负压尖峰及之后振荡的理论分析。通过SIMetrix对该过程进行仿真，如图5所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1MO3mibgQGsloWrCLNpvISXt70ACUCVBCT6WJPGxqhnZxSu91K1PvzWw/640?wx_fmt=png&from=appmsg)
+
+3．SiC MOSFET驱动电路的优化设计
+
+3.1 驱动电路的优化方案
+
+串扰抑制可分为无源抑制和有源抑制，无源抑制是采用电容、电阻等无源元件进行抑制，有源抑制是采用三极管、MOSFET等有源元件进行抑制。为避免桥臂电路中SiC MOSFET栅极负压过大，国内外已有一些研究。文献\[6\]设计了一种光耦隔离的驱动电路，为抑制栅极电压振荡幅度过大，在栅源极之间并联了一个电容。此方法虽然能减小栅极电压振荡，但是开关速度会明显变慢，而且开关损耗也会相应增加；文献\[3\]提出了另一种改进方案，在驱动回路中加了一个三极管。不管驱动为高电平还是低电平，三极管均不导通，只有当栅源电压振荡时，振荡电压使三极管导通，从而使振荡能量迅速泄放，避免了振荡引起的SiC MOSFET误导通。但是此方案没有解决栅极负压过大的问题；文献\[7\]类似，栅极通过一个三极管连接到负电源，当MOSFET关断时，就可以利用三极管的钳位作用来减小栅极电压的振荡，但对于减小栅极负向电压尖峰却没有任何帮助。文献\[8\]提出的方法虽然起到了比较好的效果，但是与三极管串联的电容只有放电过程，没有充电过程。文献\[5\]提出了两种改进方案，利用辅助MOSFET来控制辅助电容并入的时机，从而在不改变开关速度的前提下有效抑制串扰，但是辅助MOSFET需要额外的驱动电路，这样使得整个电路十分复杂。
+
+本文设计的驱动电路如图6所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1icXtnTHpRvoYXe19beItkLiaBjYYQOeFzQrlEDibaFBdlwsjfibbfstLgA/640?wx_fmt=png&from=appmsg)
+
+光耦隔离芯片ACPL\_W347的VCC与VEE之间应该并一个1μF的电容C1，驱动芯片IXDN609的VCC和GND之间加了电容C2和C3。这三个电容是去耦电容，作用是稳定电源电压，降低元件耦合到电源的噪声，电流突变时也可提供瞬时电流。
+
+R3在光耦隔离芯片和驱动芯片之间，R6在驱动芯片和MOSFET之间，R3、R6阻值很大，有放电抗干扰的作用。
+
+MOSFET开通时，D1导通，驱动电阻是R4、R5并联等效电阻；MOSFET关断时，D1关断，驱动电阻是R4。开通和关断时相比，开通时驱动电阻更小，驱动电流更大。这样设计的好处在于增强了开通时驱动能力，加快了开通速度。
+
+GATE与SOURCE之间并联了两个稳压二极管D2、D3，起到稳定栅极电压的作用。
+
+C4和D4构成负压钳位。原理如图3-2所示，C4是一个容值很大的电容（本文取30μF），可以有效稳定栅极电压。
+
+T1、R7、R8、C5、C6构成缓冲电路。
+
+3.2 缓冲电路的原理
+
+如图7所示，当另一管关断时，Cgs和C6都会放电以维持主回路电感电流不变，此时电流流经R8产生下正上负的电压，使三极管T1的发射结正偏。因为三极管的集电结处于反偏状态，因此，三极管工作在放大状态，电流的流向如图7所示，大电容C5迅速对Cgs充电，使负压尖峰不至于过大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1LbSpibGgicQFxznibIXA9cqVCBMOH0zEW5xx3fmNagFliclNugpydic6nLA/640?wx_fmt=png&from=appmsg)
+
+当MOSFET开通时，原理如图8所示。驱动电压上跳沿到来时，C5两端电压高于\-4V，C6两端电压等于\-4V，三极管的集电结反偏。电流流过R8产生上负下正的电压，发射结反偏。因此，三级管工作在截止状态。Cgs迅速充电，由于电阻R8和C6串联，因此C6充电速度明显比Cgs慢。随着C6的充电，当其电压高于C5两端电压时，集电结变成正偏状态，此时发射结仍然处于反偏状态，因此三极管工作在倒置状态，电流流向如图8中所示，相比于放大状态，倒置状态的电流增益β很小。因此开通时虽然对C5缓慢充电，但是对开关速度的影响很小。C6并在Cgs两端，在开通过程中一直充电，但由于容值很小，对开关速度的影响很小。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1vvOzMXplebyN4wdssp3at5nGAStbOyFqHPnLtRXxI79unGaO7EV0MA/640?wx_fmt=png&from=appmsg)
+
+当MOSFET关断时，原理如图9所示。此时，工作状态和负向电压尖峰出现时类似，三极管工作在放大状态，C5、C6和Cgs同时放电。当C6的放电电流越来越小，R8两端电压越来越小，当低于0.7V时，三极管变为截止状态，C5将不再放电。最后C6和Cgs的电压都是\-4V，而C5的电压会稳定在高于\-4V的某个值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1ibibetL5LelhHOn9VcGdRmcRvkS5Kc9yUBYVOqlWTQHaPo57omZquERA/640?wx_fmt=png&from=appmsg)
+
+3.3 仿真分析与实验验证
+
+搭建SIMetrix仿真模型，SiC MOSFET栅极负压波形如图10所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv13xp4mXdSq4egiaR8icM6ib06fYQOyDoeZpgjk9Giad4c0Qk3qeib8e66eHw/640?wx_fmt=png&from=appmsg)
+
+搭建DAB实验平台，包括高压板、低压板、控制板、变压器和电源模块，如图11所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1x6ibibbhybYDRk1URc62SFibHXFCXmMxzlksJiblWVuic1jOZEibBxLvwnibQ/640?wx_fmt=png&from=appmsg)
+
+低压侧和高压侧短接，因此能量只在内部环流。测试电压400V，开关频率20kHz，死区时间800ns。优化前后的波形如图12和图13所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1nsiaOFuVFPYib6iclCqU21byACTCSocWibcG9yHBr8HARCaVPoZwgHsxcQ/640?wx_fmt=png&from=appmsg)
+
+比较发现，优化前最小栅极电压\-6.52V，优化后最小栅极电压\-6.3V，电压尖峰减小了0.22V。与实测关断电压\-4.5V相比，电压尖峰减小了11%。优化前开通时间（驱动电压从\-4V上升到16V）为144ns，优化后开通时间为154ns，变化不大。优化前关断时间（驱动电压从20V下降到2.5V）为116ns，优化后关断时间为142ns，关断时间有所降低，关断时较低的dv/dt将更有利于负压尖峰的减小。
+
+4．全文总结
+
+本文主要对DAB变换器中的SiC MOSFET驱动电路进行了优化设计。首先对桥臂串扰问题进行了分析，在此基础上，提出了一种适用于DAB变换器的SiC MOSFET驱动电路，通过仿真对理论分析进行验证。最后，搭建DAB实验平台进行测试，栅极负压尖峰减小了11%，极大地提高了DAB变换器的可靠性。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+   专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+ 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

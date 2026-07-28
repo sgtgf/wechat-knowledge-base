@@ -1,0 +1,207 @@
+# SiC MOSFET米勒比对半桥变换器寄生导通的影响
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/S45Yj9e9c433jcManSaqOQ](https://mp.weixin.qq.com/s/S45Yj9e9c433jcManSaqOQ)
+
+文章来源：APEC2024(ST)
+
+作者:Antonia Lanzafame,Luciano Salvo, Mario Pulvirenti,Angelo G. Sciacca, Massimo Nania
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicYqUeaJ1T0GbnEapSCoEbjdyCOLBpz261o26bUG5w4ibzl94lglSP0oA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic70EZEKAWWxQZwMnU7l3EbpiakNDKnYQhkw0oStMAFibw3vVSvKaIqbiaw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicBjxDpN5BjVA7e1wXht3EDD6vWiabcD8yZ55N1KaxqwWnBHSJSqxBC2A/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicT2A8rgj6q1Boe9QgUuGgVgJCzO3hj0g2oq8BNyjpClXUNQzc25Ysdg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicAZJsTVJxOWs8QVxgbH8qzeR9gMo5Nyltreyo5ABOBTQkxNDlzYsdvA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicLeQiao6BmRse0pwLPHxxAWJCTvf0AjNQYmHGWXSI7rhbJJQ2hmHwIZQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicCYI8weuAtyarML7uX6EyicT7G5AYCNzcd7j8IAibrJhj5I0nCib0LPgiaQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicGRHVSEXeAtdUtzA7ibQFEhsDRL1CpBrZoynlo6V4ia3KXicJslCTy17rA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicaibibmrNIicEuaaSSSRDfnP0YDMNrcdqcSmADb579OnCR35AoPDVufmzA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicyWjoIpL29V4o6Lq8eKrnHUdfb1NjZMTfzXOjHbh65fKxc53eBZa7UQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicLYIUZBG8qT3PmsPJB61qM7tyJkEicO3w7tBdZ8vFljsGnhbJ2GlsQ1w/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicXW1lWXMsVeiaGhL3gQqQ9JPZVbWs9WTptoHMTyicX3ncyjbpIdIQHWww/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic7JibiahAxfUibyUvMDgz74Gfnt7Zr1icqlOxuv2V2cJ3VAWUmwGU9iaZzBA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopic3ibhgQRjcvibvOibHtYib4e480icdYj25bA7EZmAwS7q7guSQYeAu38IjXA/640?wx_fmt=jpeg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicmuGHcKlHbIjiamDqgckicAs2SoibO7rZKiciaEQ7Y5rcBl8icQ6u5aAly0Cw/640?wx_fmt=jpeg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopicn2rq0wJibwEj4bib00kb4azyqWM9micVZPxCKWPibE4I11r17nXucEV20w/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnia7vMibwOicK2Oo5RVveAopiceZ89qGh4dM8ibL7HxNRKc3yLo873ovKVGezwEMcVHSUQTW8LetvDXaA/640?wx_fmt=png&from=appmsg)
+
+  
+
+注：图片报告与文字无关
+
+  
+
+SiC MOSFET的米勒效应对半桥结构中的寄生导通（或称误导通）影响极为显著，是高频、高密度电源设计中的核心挑战之一。
+
+下面我将详细阐述其机理、影响因素及抑制措施。
+
+### **一、 核心机理：米勒电容“打通”半桥桥臂**
+
+#### **1\. 关键角色：米勒电容 `Cgd`**
+
+-   SiC MOSFET的寄生电容中，栅漏电容 `Cgd`（即米勒电容）是导致寄生导通的“元凶”。
+    
+-   在开关过程中，`Cgd` 会作为反馈路径，将漏极电压的变化耦合到栅极。
+    
+
+#### **2\. 半桥电路的“危险时刻”**
+
+考虑一个由上下管（Q1, Q2）构成的半桥电路：
+
+-   **当上管 Q1 关断，下管 Q2 开通** 时，半桥中点（开关节点）的电压 `Vsw` 从高电平（如母线电压 `Vdc`）快速下降到0V。
+    
+-   这个急剧的电压变化（高 `dv/dt`）会通过**下管 Q2 的 `Cgd`** 产生一个位移电流 `i_miller`。
+    
+
+**位移电流公式：**  
+`i_miller = Cgd * dv/dt`
+
+-   这个 `i_miller` 的流动路径是：从开关节点 → 通过 `Cgd` → 流入栅极驱动回路。
+    
+
+#### **3\. 寄生导通的产生**
+
+-   **电流在路径上遇到阻抗**：`i_miller` 流经的路径上存在栅极电阻 `Rg` 和栅极驱动器的内阻。
+    
+-   **产生电压尖峰**：根据欧姆定律，这个电流会在栅极电阻上产生一个电压尖峰：`V_gs_spike = i_miller * Rg`。
+    
+-   **触发导通**：如果这个 `V_gs_spike` 叠加在关断状态的栅源电压 `Vgs(off)`（通常为0V或负压）上，使得总电压超过了SiC MOSFET的阈值电压 `Vth`，器件就会**被瞬间误导通**。
+    
+
+**这个过程可以直观地理解为：下管Q2的漏极电压变化，通过其自身的米勒电容 `Cgd`， “自己把自己给打开了”。**
+
+### **二、 寄生导通的严重后果**
+
+**1.桥臂直通**：上下管同时导通，形成从母线正极到负极的低阻抗路径，产生极大的瞬时短路电流。
+
+**2.效率急剧下降**：直通电流不流向负载，直接转化为热量，导致系统效率降低。
+
+**3.器件过应力与损坏**：巨大的直通电流和由此产生的热应力可能直接导致SiC MOSFET烧毁。
+
+**4.电磁干扰**：直通事件伴随着极高的 `di/dt`，会产生严重的电磁干扰。
+
+### **三、 影响因素分析**
+
+**1.开关速度 `dv/dt`**：
+
+SiC MOSFET的本征开关速度极快，`dv/dt` 可达 **几十甚至上百 V/ns**。
+
+dv/dt **越高**，产生的 `i_miller` 越大，寄生导通风险急剧增加。这是SiC比硅基IGBT面临更严重米勒问题的根本原因。
+
+**2.米勒电容 `Cgd`**：
+
+器件本身的特性。`Cgd` 越大，耦合的位移电流越大。
+
+**3.栅极回路阻抗 `Rg`**：
+
+包括外置栅极电阻和驱动器内阻。**`Rg` 越大**，相同的 `i_miller` 产生的栅极电压尖峰 `V_gs_spike` 就越高。
+
+**4.栅极关断电压 `Vgs(off)`**：
+
+如果关断电压为0V，那么一个很小的电压尖峰就可能超过 `Vth`。使用**负压关断**（如-3V到-5V）可以提供一个安全的裕量。
+
+5.阈值电压 **`Vth`**：
+
+SiC MOSFET的 `Vth` 通常较低（2-4V），且具有负温度系数（温度升高，`Vth` 下降）。这使得它在高温工作时更容易发生寄生导通。
+
+### **四、 抑制措施与解决方案**
+
+#### **1\. 优化栅极驱动设计（最有效、最常用的方法）**
+
+-   **采用负压关断**：
+    
+
+-   将关断电压设置为负值（如 `Vgs(off) = -3V to -5V`）。这为米勒电流产生的正电压尖峰提供了充足的裕量，是抑制寄生导通的首选方案。
+    
+
+-   **降低栅极回路阻抗**：
+    
+
+-   **减小关断路径的栅极电阻 `Rg_off`**。一个更低的 `Rg_off` 可以为 `i_miller` 提供一条低阻抗的泄放路径，使其更快地回流到驱动芯片，而不是在栅极电阻上 buildup 电压。
+    
+-   使用强大的、低内阻的栅极驱动芯片。
+    
+
+-   **使用有源米勒钳位**：
+    
+
+-   许多先进的栅极驱动IC集成了此功能。
+    
+-   **原理**：当检测到栅极电压超过一个设定的钳位阈值（如2V）时，驱动芯片内部会开启一个强大的MOSFET，将栅极迅速下拉到地或负压，从而“吸走”米勒电流。
+    
+-   这是一种非常快速和有效的硬件解决方案。
+    
+
+#### **2\. 优化PCB布局与结构**
+
+-   **最小化栅极回路寄生电感 `Lg`**：
+    
+
+-   驱动回路（驱动芯片输出 → `Rg` → 栅极 → 源极 → 驱动地）必须做到**极短且环路面积最小**。
+    
+-   寄生电感 `Lg` 会与栅极电阻和电容产生谐振，加剧栅极振荡，可能使电压尖峰更高。使用紧密的布局、多层板和有地平面的设计。
+    
+
+-   **采用开尔文连接源极**：
+    
+
+-   使用独立的、低感抗的源极引脚（功率源极和驱动源极分离）作为驱动信号的返回路径。这可以将功率回路中大电流产生的噪声与敏感的栅极驱动回路隔离开，防止地线噪声抬升参考地电位。
+    
+
+#### **3\. 器件选型与系统调整**
+
+-   **选择 `Vth` 更高或 `Cgd` 更小的器件**：在项目初期选型时，可以优先考虑这些对米勒效应不敏感的型号。
+    
+-   **适当增加死区时间**：虽然不能阻止寄生导通本身，但可以确保在发生寄生导通时，另一只管子已经完全关断，避免直通，作为一种系统级的保护。
+    
+-   **在栅源间并联电容 `Cgs`**：
+    
+
+-   这是一种“以慢制快”的无奈之举。并联一个较小的电容（如100pF~1nF）可以降低栅极阻抗，分担部分米勒电流，从而减小电压尖峰。
+    
+-   **代价**：这会显著增加开关损耗和驱动损耗，仅在不得已时使用。
+    
+
+### **总结**
+
+**SiC MOSFET的米勒效应通过在高 `dv/dt` 下产生位移电流，在栅极电阻上形成电压尖峰，从而在半桥电路中引发危险的寄生导通。**
+
+解决此问题的核心思路是 **“疏”和“堵”**：
+
+-   **“疏”**：降低栅极回路阻抗（减小 `Rg_off`），为米勒电流提供低阻抗泄放路径。
+    
+-   **“堵”**：使用负压关断和有源米勒钳位，提高栅极电压的耐受门槛。
+    
+
+最终，一个成功的设计必须将**优化的栅极驱动设计**与**极致的PCB布局**相结合，才能充分发挥SiC MOSFET的高频高性能优势，同时确保其工作的安全与可靠。
+
+  
+
+注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7aJ1MUTicI0GuiauhfoebWumUgU1Qu9ic5Xniaicbkyl3gyFlO0cbmDfmBLiaQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7a8crJ2L7M4OX17Szb34FK5JlibMciajPSibAJ2KVAIic8moa4vRiacc5rbCw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluzK6LANKo7Y05Y2MLOW7a48flZW0nqjIpO5FVkvY9NUDp0sHzB0BgvVskic0uVzn30TaNKvXUsVw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)

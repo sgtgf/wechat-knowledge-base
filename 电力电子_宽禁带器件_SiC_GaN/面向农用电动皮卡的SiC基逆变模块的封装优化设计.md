@@ -1,0 +1,99 @@
+# 面向农用电动皮卡的SiC基逆变模块的封装优化设计
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/8QPNSxMPt5RxinLiIRsteQ](https://mp.weixin.qq.com/s/8QPNSxMPt5RxinLiIRsteQ)
+
+文章来源：邵阳学院学报（自然科学版）
+
+作者：闫志豪１，鲍婕２，周云艳２（１．安徽科技学院 智能制造学院，安徽 滁州，233100；２．黄山学院 机电工程学院，安徽 黄山，245041）
+
+摘 要：农用电动皮卡的高扭矩、高功率的应用需求给电驱动系统带来了极大挑战，其中的核心部件逆变功率模块的性能至关重要。 为解决功率模块发热量过大等问题，仿真分析了硅（Si） 基逆变模块的封装结构，提出了多种碳化硅（ SiC） 基逆变模块的芯片布局方案，对比分析了不同布局结构下逆变模块的热、电性能。 仿真结果表明，芯片总功率不变时，芯片数量增加和布局优化能使模块的最高温度降低约 12 ℃ ，寄生电感也大幅降低。 该研究为未来农用电动皮卡中的SiC基逆变模块封装提供了参考。
+
+关键词：农用皮卡；SiC逆变模块；散热；寄生电感；仿真
+
+随着全球对环境保护和可持续发展的日益重视，新能源汽车作为减少碳排放、促进能源结构转型的关键领域，正以前所未有的速度发展，其中，农用皮卡由于兼顾乘用车和农业运输功能，在我国广大农村具有较大市场发展潜力。 农用电动皮卡作为新能源汽车在农业领域的重要应用，不仅展现了其独特的环保优势，还极大地提高了农业作业的效率和灵活性。 相较于传统燃油农用车，农用电动皮卡具有零排放、低噪音、运行成本低以及维护简便等诸多优良特点，这些优势使得其在现代农业机械化、智能化进程中扮演着越来越重要的角色。
+
+然而，随着农用电动皮卡应用范围的扩大和作业强度的提升，特别是在复杂多变的农业环境中执行诸如加速爬坡、重载运输等极端运行工况时，车辆的性能稳定性和可靠性面临严峻挑战。 在这些高负荷工况下，车辆的动力系统，尤其是逆变器作为电能转换与分配的核心部件，其工作温度和散热性能成为制约车辆整体性能的关键因素 。 碳化硅（ SiC）基逆变模块，以其高效能、高开关频率及良好的热稳定性，成为提升电动车辆动力性能和热管理效率的理想选择 。 如何在极端运行条件下确保SiC基逆变功率模块的有效散热，防止过热导致的性能下降甚至损坏，同时严格限制寄生电感的提高，成为当前SiC基逆变模块封装设计亟待解决的技术难题。
+
+本文深入分析农用电动皮卡里的逆变模块在特定工况下的热负荷特性，结合目前SiC基模块的封装结构，设计并优化SiC基逆变模块的芯片布局，提出一种高效、可靠的封装方案，以提升农用电动皮卡在极端运行条件下的性能稳定性和耐久性，进而推动新能源汽车技术在农业领域的广泛应用与深入发展。 这不仅是对当前新能源汽车热管理技术的一次有益探索，也是促进农业绿色化、智能化转型的重要实践。
+
+１. 农用电动皮卡的Si基逆变模块分析
+
+１.1 逆变模块的功率负荷
+
+农用皮卡是介于家用汽车和货车之间的实用多功能工具车，能够同时实现载人与农产品运输 。 其动力性能主要从最高车速、爬坡能力和加速能力来评估，而这些参数的高低主要依赖电动皮卡中电机的性能。 农用电动皮卡的电机性能要求体现在高扭矩、高功率输出上，参照国标《 电动汽车用驱动电机系统（ ＧＢ／Ｔ18488—2024） 》 给出的功率等级划分，本文将 200KＷ 作为电动农用车的最大功率参考值。 逆变模块的作用是把直流电转换为交流电从而驱动电机工作，其输出功率应满足电机的工作需求，考虑到逆变器在工作过程中的开关损耗和导通损耗，无论电动皮卡处在平稳行驶还是加速爬坡等工况，逆变器的输出功率应略大于电机的功率需求，功率因数选取 0.95 。 因此，对于选取最大输出功率参考值为 200KＷ 的电机，逆变器最大输出功率要求达到 211KＷ 以上。
+
+１.2  Si基逆变模块的仿真分析
+
+农用电动皮卡通常采用 ３ 组单相半桥模块并联组成三相逆变电路结构，半桥模块由上下两个功率单元组成，在三相逆变电路中共有 ３ 个上桥臂功率单元和 ３ 个下桥臂功率单元。由于并联的各半桥模块结构相同，本文中简化处理，只对一个半桥模块进行建模，图 １ 是采用多物理场耦合软件 COMSOL建立的模型图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWkouR9gUhepiaAwkCZlibgPDAvXL4wtVJHxrww0JbchwbR2ibD0SicPodDIWsZzHzRm4n7fAdwbwN7g/640?wx_fmt=png&from=appmsg)
+
+模型纵向结构从上到下依次由功率芯片、直接覆铜基板（DBC） 、散热器组成。 其中，为了功率密度，每个桥臂的功率单元包括并联的两个绝缘栅双极型晶体管（IGBT） 芯片和一个续流二极管芯片。 在芯片和DBC、DBC和散热器之间用焊料层互连，表 １ 为仿真模型中各层结构的材料和尺寸参数。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWkouR9gUhepiaAwkCZlibgPm3dI3gZlIBQrGja3GkN6HCUsL2hPpg5VjA3ld9jkjwyqJ7fAOPlK0g/640?wx_fmt=png&from=appmsg)
+
+在功率半导体封装中，热阻越大，热量越难传导，器件的结温就越高。 而热阻是由封装各部分材料的热导率和结构尺寸来计算的，如式（ １） 所示。 利用热阻模型来计算模块的最高温度是一种常见的研究方法，如式（２） 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWkouR9gUhepiaAwkCZlibgPM5iaVemWPdS1ZuFtMTs8yACRZEym9icw17qrBhmll0xojFticNYOXRVIw/640?wx_fmt=png&from=appmsg)
+
+式中：Ｒ 为材料热阻，℃ ／Ｗ；Ｌ 为材料厚度，ｍｍ；Ａ 为材料的横截面积，ｍｍ² ；Ｋ 为材料的热导率，Ｗ／（ ｍ·Ｋ） 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWkouR9gUhepiaAwkCZlibgPhvyl3GFjU7QYm1ibpkicVqSg9gJGRJbYeqT4oicu1Hgps5ibOJj8yxunBQ/640?wx_fmt=png&from=appmsg)
+
+式中：Ｐ 为器件功耗 ｋＷ；Ｔx为参考点温度，℃ ；Ｔｊ 为最终温度，℃ 。
+
+当三相逆变模块最大输出功率达到211KＷ 时，根据三相模块功率为单相的 ３ 倍，可计算出单相半桥模块的输出功率约为122KＷ，根据文献［ ７］ ，Si 基模块此时的总功率损耗约为3.9KＷ。 考虑到模型仅为半桥模块，因此，本文将模型中每个IGBT芯片的功率损耗峰值设置为275Ｗ，续流二极管芯片的功率损耗峰值设置为100Ｗ。 结合功率模块的开关工作状态，热源设置为周期变化。 散热器设置为强制对流，介质为水，流速为1ｍ/ｓ，初始温度设置为50.０ ℃ 。 通过仿真计算，得到Si基模块的整体温度分布如图 ２ 所示，此时模块最高温度为80.6℃ ，位于IGBT芯片上。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWkouR9gUhepiaAwkCZlibgPFLexC3t8icaagF8ibYbHoyXE5ff4yoynGMIHBYzRABNfA10LFsoic3DFQ/640?wx_fmt=png&from=appmsg)
+
+２. SiC基逆变模块分析与优化
+
+２.1 SiC基逆变模块的热分析
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWkouR9gUhepiaAwkCZlibgP6Jk0DhaFeZlcMJia4UJA6URD4M0ZzqGpbpTusQJpA99rTayib7ib1yzdQ/640?wx_fmt=png&from=appmsg)
+
+SiC由于自身的材料优势，导通损耗和开关损耗相比Si基器件都较低 。 根据文献［７］ ，输出功率为122KＷ 时，SiC基模块的总功率损耗约为1KＷ，由于 SiC MOSFET的体寄生二极管特性，不需要外接续流二极管，因此，本文在模型中将每个SiC MOSFET芯片的功率损耗峰值设置为250Ｗ。 在Si基半桥模块结构的基础上，将每个桥臂的功率芯片改为两个SiC MOSFET并联，由于相同功率等级下SiC芯片面积比Si芯片要小，且没有续流二极管，DBC在原有尺寸的情况下空余空间较多，本文对芯片布局设计了 ３ 种不同方案，模型如图 ３ 所示。 同样将热源设置为周期变化，强制水冷的散热条件设置与Si基单元模块相同，仿真结果如图 ４ 所示，ａ、ｂ、ｃ 型SiC基模块的最高温度分别为 73.8℃ 、73.4 ℃ 和 72.6 ℃ ，与Si基模块相比，SiC基模块的最高温度降低了7℃ 左右。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWkouR9gUhepiaAwkCZlibgPyIQkYZvZpR8Ef4svicdQVMSOjC7IObzs5FaA3YiaicFuxFz2KW2JuP5NQ/640?wx_fmt=png&from=appmsg)
+
+2.2 SiC基逆变模块的寄生电感分析
+
+寄生电感对SiC基逆变模块的性能有着不可忽视的影响，它主要受模块内部的引线键合结构、封装材料以及布局设计等因素影响，是高速开关过程中电压应力、开关损耗以及系统稳定性的重要决定因素。 在SiC器件高速开关时，寄生电感会导致电压过冲，增加开关损耗，甚至可能引发误开关和振荡，从而严重影响SiC基逆变模块的性能和可靠性 。 因此，对SiC基逆变模块的寄生电感进行准确测量与分析，成为连接理论模型与实际应用、验证模型有效性、指导后续优化设计的关键步骤。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWkouR9gUhepiaAwkCZlibgPjP4Us6kicM81jkibcibwibrSTDTq0PsvYPBia4q9IONXnLENEzCDMRPbZIQ/640?wx_fmt=png&from=appmsg)
+
+本文中半桥单元的电路结构如图 ５ 所示，上下桥臂各由两组功率器件并联组成， 与2.1节中所述的 ａ、ｂ、ｃ 型芯片布局不同，器件之间以及电路输入输出端导电路径不同，如图 ６所示。 由于电路中寄生电感的大小取决于导体的长度、形状、材料和导体之间的距离，其寄生电感大小如式（３） 所示，其中的 l、ａ、ｔ 分别为导体的长、宽、高，μ０ 为真空磁导率，μ０＝４π×１０－7Ｈ／ｍ。 经过计算，３ 种结构下SiC基模块的寄生电感差别不大，但相比SiC 基模块略有增加，具体数值如表 ２ 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWkouR9gUhepiaAwkCZlibgP51XbIZvCuxFUL3U081GB17ZkUDVN2GhbL9UMXJKHIEufQRqI8jiaE4w/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWkouR9gUhepiaAwkCZlibgPH1iaXBcOwOk3sCm8p8BKrlZ7PWQdPDk4E95PAne1uW2yS4cicxVNe2IQ/640?wx_fmt=png&from=appmsg)
+
+2.3  SiC基逆变模块的优化设计
+
+为满足SiC功率器件对低寄生电感的需求，需要对现有的SiC封装结构进行优化设计，以减小封装结构的寄生电感 。 参考 Ｃhiplet 封装技术，将 2.1节所述的布局结构进一步优化设计，将每个桥臂的 ２ 个SiC MOSFET 芯片分为 ４ 个面积更小的芯粒，芯片布局仍然按照 ａ、ｂ、ｃ- ３ 种类型设计。 由于总功耗不变，模型中将每个芯片上的功耗设置为原来的一半，其余设置条件不变，按照上述方法分别对各个模块进行温度分布和寄生电感的仿真计算。
+
+如图 ７ 所示，优化后的SiC模块的最高温度相比之前降低12 ℃ 左右，同时模块单元的直流寄生电感和交流寄生电感都有明显下降。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWkouR9gUhepiaAwkCZlibgPfVLILwFFaEbiaeRw4ExaXm1pT2oz7iccic3c5SzON07C7Z9Iyc8SYqoZg/640?wx_fmt=png&from=appmsg)
+
+表 ２ 汇总了Si基、SiC基模块的最高温度和寄生电感参数，分析发现，优化后的SiC基模块的效果更好，其中，ｂ 型布局的芯粒封装结构从热性能和电性能两方面都表现出相对较好的效果，考虑到该模块为一个完整的半桥模块，而整车的一个逆变器至少有３个半桥模块，因此，当 ｂ 型布局模块应用在农用皮卡上时，车辆逆变模块的整体温度和寄生电感大小会更低。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslWkouR9gUhepiaAwkCZlibgPOkWgaKbichrqdeWbkjRLQtBJCiaQY1aHhfIeCXlcnuR5RPUgpA5Ydzjg/640?wx_fmt=png&from=appmsg)
+
+３. 结论
+
+本文深入分析了农用电动皮卡中逆变模块的封装结构，通过对比Si基与SiC基逆变模块的热、电性能，提出了３种 SiC 基单元模块的芯片布局方案，并通过进一步的优化设计，显著降低了单元模块的最高温度和寄生电感。 研究表明，优化芯片布局结构的SiC基逆变模块，有望进一步提升农用电动皮卡性能的稳定性和耐久性，为新能源汽车技术在农业领域的广泛应用提供了一些参考。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGbhtiaRmYHTp4bDWkMosreWEkStrP0Cg41Vm84LnHXyNzX5oT80mzweicA/640?wx_fmt=jpeg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGboharT27juBiadHBOIA4TcgxwHsqNQeRHbBSFaTsnT8DZEsFVB7Mh71A/640?wx_fmt=jpeg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk7Rz2X0VrXA8xZqwdOrdGby1ADIqA7dRFfffghDzG9l5QkG9EE78A5k4JxgWOoSER53hFAhCOpNw/640?wx_fmt=png&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)

@@ -1,0 +1,248 @@
+# 应用于模块化高压纳秒脉冲源的 SiC 与射频 Si 基MOSFET 瞬态开关特性对比研究
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/jzDadN3vAsx4sZ-iD9xo2Q](https://mp.weixin.qq.com/s/jzDadN3vAsx4sZ-iD9xo2Q)
+
+文章来源：中国电机工程学报
+
+作者：马剑豪，何映江，余亮\*，董守龙，姚陈果(输配电装备及系统安全与新技术国家重点实验室(重庆大学)，重庆市 沙坪坝区 400044)
+
+摘要：碳化硅(silicon carbide，SiC)金属氧化物半导体场效应晶体管(metal-oxide-semiconductor field-effect transistor ，MOSFET)比Si MOSFET 具有更低的导通电阻、更高的通流能力和热稳定性。但射频硅(radio frequency silicon，RF-Si)基 MOSFET 凭借其优异的开关动态特性，在高压纳秒脉冲发生器中的使用比SiC MOSFET 更为普及。为了拓展SiC MOSFET 的应用范围，通过RF-Si 和SiC MOSFET 在多脉冲参数条件下瞬态开关特性(动态特性、瞬态开关损耗、时间抖动)的对比研究，该文揭示2 种半导体器件在瞬态高压和强流下的开关特性差异。实验结果表明：相对于RF-Si基MOSFET，SiC MOSFET 的优势体现在开通、关断时间。但由于寄生参数的影响，SiC MOSFET 呈现出更大的振荡和过冲，而在瞬态开关损耗、时间抖动方面没有明显的优势。因此，通过改进SiC MOSFET 的封装从而减小寄生参数，将推动SiC MOSFET 在高压纳秒脉冲发生器中的应用。
+
+关键词：SiC；MOSFET；射频；纳秒短脉冲；脉冲功率源；高电压
+
+0. 引言
+
+热核聚变研究和国防科研需求是推动脉冲功率技术发展的主要动力。近年来，随着脉冲功率技术应用领域的不断拓展，对脉冲功率源的要求有了一些新的变化。特别是在一些民用领域，例如：粒子加速器、材料表面处理、静电除尘、脉冲电场消融肿瘤、食品低温灭菌消毒、气体放电与大气压低温等离子科学研究装置等其他领域，装置不再单纯追求单次高功率输出和高脉冲能量，而是在适当的功率等级下更加突出输出参数的灵活性、关键部件的长寿命和高可靠性、系统的轻量化和小型化要求。然而，由于电极烧蚀、稳定性差以及难以控制的问题，以气体火花开关为代表的传统脉冲功率源难以满足以上要求。
+
+碳化硅(silicon carbide，SiC)金属氧化物半导体场效应晶体管(metal-oxide-semiconductor field-effect transistor，MOSFET)是一种典型的宽禁带半导体器件，其材料具有击穿场强高、载流子饱和漂移速度快、热稳定性好及热导率高等优势。经过几十年的快速发展，碳化硅器件在电力系统、开关电 源、电动汽车等领域都发挥了重要的作用。
+
+近年来，研究人员对SiC MOSET 开关过程进行了深入分析，并建立了大量的电路模型及开关行为模型，为SiC MOSET 器件的应用提供了有益的设计指导。文献\[26-27\]对比了Si IGBT 和SiC MOSET 的动态特性，并从逆变器与电动汽车驱动器效率提升的角度验证了SiC MOSET的优异特性。文献\[28\]对比了SiC MOSET、Si MOSFET 和IGBT在双主动桥中的开关波形、开关时间、开关损耗、du/dt、di/dt 等特性，并基于以上开关分别开展了样机实验，实验结果表明SiC MOSET 在高压、高频功率变化领域的应用具有独特的优势。
+
+在模块化高功率纳秒源领域，例如固态Marx发生器、直线型变压器驱动源，由于美国 IXYS Colorado 公司生产的DE 系列RF-Si 基 MOSFET 优异的开通、关断时间以及通流能力，一直是模块化高功率纳秒源的主开关的首选。仅有部分微秒、亚微秒高功率脉冲源使用SiC MOSFET。就常见的应用环境而言，在基本参数接近时，由于SiC材料的优异性能，SiC MOSFET 的大部分性能总是优于Si MOSFET。但不同于MOSFET 在高频变流器以及开关电源等常见应用环境，模块化高功率纳秒脉冲源中的MOSFET 常工作在瞬态极限电压和大电流状态，以满足脉冲源小型化、轻量化的发展趋势及要求。而此时MOSFET 的动作特性、瞬态开关损耗、时间抖动以及由于脉冲参数改变而引起的开关特性变化，直接关系到脉冲源的输出性能。因此，研究和对比RF-Si 基MOSFET 和SiC MOSFET 在以上条件下的瞬态特性，能够促进SiC MOSFET 应用于高功率纳秒脉冲源以及拓展SiC MOSFET的应用领域。同时，单级脉冲功率源模块在最大极限耐受容量和极限条件下的开关动作规律是极其重要的，也有助于拓展高重复频率脉冲功率技术的应用领域。然而，这部分研究在国内外鲜见报导。
+
+为了研究RF-Si 基MOSFET 与SiC MOSFET在纳秒脉冲发生器中的瞬态开关特性。本文选择较常用且参数性能相近的 2 种MOSFET(RF-Si 基MOSFET与SiC MOSFET)，对其开通、关断过程及瞬态损耗开展理论建模。设计驱动电路，研究二者在瞬态高压、强流条件下的行为规律，对其瞬态开关特性进行对比分析。之后，研究充电电压、脉冲宽度、流经脉冲电流等不同脉冲参数对2 种MOSFET瞬态开关特性的影响规律。最后，总结SiC MOSFET和RF-Si 基MOSFET 在高压纳秒脉冲源应用中的动态特性、瞬态开关损耗、时间抖动等参数的差异及其形成原因，为SiC MOSFET 应用于高功率纳秒脉冲源提供参考。
+
+1. 高压瞬态强流条件下开关行为模型
+
+高压纳秒脉冲发生器的输出参数受开关耐受能力限制，通过功率叠加、开关串并联方式可实现较高的电压输出，但级数叠加会增加系统复杂程度和不稳定性。为了尽可能利用单级开关能力，往往将器件应用于极限参数或接近极限参数。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJotic1nn9n1NxiaKnwxWia6jNBwX2jxgFuCtKDwQ1WQfyw9AD65ReAFjnkg/640?wx_fmt=png&from=appmsg)
+
+以典型单级电容储能结构的脉冲形成电路作为测试电路，并以其为例进行分析(参见图1)。图1中：Udc为直流供电电压；Rcharge为大阻值充电电阻；LLine 为导线寄生电感；Ld、Ls 为漏极和源极线路寄生电感；初级储能部分为脉冲形成单元提供能量，Csave为储能电容，脉冲负载为低电感厚膜电阻Rload，但由于纳秒脉冲丰富的高频分量，在纳秒脉冲作用下仍将表现出较大的寄生电感 Lload。驱动部分用于给被测器件(device under test，DUT)提供驱动能量，Ug.on、Ug.off分别为驱动正压和驱动负压；Rg.ext为栅极驱动电阻；Doff 为关断二极管；Cgd、Cgs、Cds 分别为 DUT 的栅–漏、栅–源、漏–源电容；Lg.int、Ld.int、Ls.int 分别表示 DUT 内部由封装引起的栅极、源极、漏极电感；Rg.int 为内部栅极电阻。
+
+由文献\[22-24\] 可知，RF-Si 基MOSFET DE475-102N21A 常作为纳秒脉冲源的主开关。本文选取的漏源极峰值电压与DE475-102N21A 相同，选择1000V 且动态参数相近的CREE C3 系列 SiC MOSFET C3M0065100J 为对比对象。具体参数如表1 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoBTqmx0b3K5K1QicvjQXbpD8mTfMnlzWexMwxsnHBTI6G2bXZPEvvTqA/640?wx_fmt=png&from=appmsg)
+
+1.1 开通过程
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoIvUn96TZHZl1jYblV9fhHz93iceTEcr62DvxJ2gKk4vfqEs1pjLhbBQ/640?wx_fmt=png&from=appmsg)
+
+1）阶段1(t0—t1)。
+
+栅极电源Ugs给DUT 栅级充电，如图2 所示，Ugs 未超过门限电压Uth 时，MOSFET 始终处于截止状态，可得Ugs 的表达式：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoAe2ls5O2oUD8WfpY4P2COgtHQrKj0Pme8xCicGAzLiavoxBBSRHmuqPw/640?wx_fmt=png&from=appmsg)
+
+其中：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoX8LJbfNibUUJNEB1qtkeUvARSBEVu3uibiar7kQKMtCoKZkpZElkFDbSw/640?wx_fmt=png&from=appmsg)
+
+式中：Rg.ext、Rg.int 分别为栅极外部和内部电阻；Cgs为栅源电容；Cgd 为米勒电容。
+
+t1 时刻，Ugs 达到门限电压Uth，因此开通延迟时间td.on 为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoSVWAxckTWgya6vbyx5WG60icafLHKqNEbZlrXPwhCZht9SAdk9M7ia8Q/640?wx_fmt=png&from=appmsg)
+
+考虑寄生参数作用，此过程会发生振荡，其振荡角频率由Lg.int、Ls.int、Ls、Cgs、Cgd和 Rg.ext、Rg.int决定，如式(4)所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoxoHUVYI3zTsNtdXTBibpYNYC40k75bMkB2h3KibCZnicvT1uel7ua9YvA/640?wx_fmt=png&from=appmsg)
+
+其中
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoxn2GDYZrgtnyKt3zdWNlQ0npefP5SSyDGZ8dnibh1EHrEuM2Arbmq5Q/640?wx_fmt=png&from=appmsg)
+
+2）阶段2(t1—t2)。
+
+Ugs 达到Uth后，流经MOSFET 电流逐渐增大。
+
+此时，漏极电流iD为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJo03Xooia98lHckPjAPica1wzuO7anr9LbkXgjANTvJdNIxKl8dZljxx9Q/640?wx_fmt=png&from=appmsg)
+
+式中n.channel、Wchannel、Lchannel、Cox 分别为沟道漂移率、沟道宽度、沟道长度及氧化物单位面积的电容，以上均为器件制造参数。
+
+此时，开关漏极电流剧烈变化，由于系统元器件寄生电感和主回路杂散电感之和L 的存在(其中L LLoad  LLine  Ld  Ls  Ld.int  Ls.int)，导致漏–源电压Uds 存在一定的跌落：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJo1MSvSLcGrUInbhxHkB9uzr1GuPWKqSttf3dHwibOp5aaqYC1uSHG3Rg/640?wx_fmt=png&from=appmsg)
+
+由于本文所提2 种MOSFET 在器件封装上不同于传统封装，寄生电感值比传统封装减小很多，因此主要由电流变化率起主导作用。
+
+最后，在t2 时刻，Ugs 达到米勒平台电压。由于存在电压与电流共存状态，此时将产生能量损耗，结合式(5)、(6)，能量损耗为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoWO9r60uic0A6JjvUMDkicX1joicHMFyHcKk3N4Mwzag2XUhstI6hR4dyw/640?wx_fmt=png&from=appmsg)
+
+式中UDC为漏源两极直流电压。
+
+3）阶段3(t2—t3)。
+
+此时，电流达到iLoad，栅–源电流全部用于米勒电容充电，且Ugs 维持在米勒平台电压，具体为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoiavpoEicQX6fYoibmr1qJ9VGV4qOoN9icwwSESeYrbiajEV6zicGBsNiavXEQ/640?wx_fmt=png&from=appmsg)
+
+t3 时刻以后，MOSFET 完全导通，开关上升时间tr为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoFUqe98ibJeaX0Dc2an4aVHgycI3MaNLTQPDKibB2gIaKxxia0AwNwP01Q/640?wx_fmt=png&from=appmsg)
+
+此时，由于米勒平台存在，开通损耗为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJob2AAfxwUXu78tejhlIu6UAxxGZZfeZiamibhA92ias4IC5OXSia9aPwfBQ/640?wx_fmt=png&from=appmsg)
+
+t3 时刻，漏–源电压达到导通压降，由于回路寄生电感以及开关输出电容Coss 作用，依然会存在一定的振荡，且此时振荡频率由L 与Coss 决定，同时振荡阻尼取决于负载电阻RLoad 与导通电阻Rds.on。可见，SiC MOSFET 由于其极低的导通电阻而具有更低的阻尼，因此在振荡幅值上SiC MOSFET 显著高于RF-Si 基MOSFET。
+
+4）阶段4(t3—t4)。
+
+在t3 时刻，Uds 下降到MOSFET 不再饱和的水平，即现在必须加大 Ugs以维持电流iLoad。在t4 时刻，栅源电压Ugs 达到开通电压，MOSFET 完成开通过程。
+
+1.2 关断过程
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJomB4iaKyWDxspy5ckdwyYlXPibE8RxITHrUMLA5zrYiaDkwspw4icmichRBA/640?wx_fmt=png&from=appmsg)
+
+1）阶段1(t5—t6)。
+
+与开通过程类似，但电容充电变换为电容放电。此时，栅源电容放电，UDoff为关断二极管正向导通压降，外部驱动电阻Rg.ext 不影响该过程，电压Ugs 随时间变化为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJodh07KB87ZcWMAPiaJ968hxS7S6HOI3SQh3WScTaCic6p93XHib3jopG3A/640?wx_fmt=png&from=appmsg)
+
+虽然式(2)、(15)形式相同，但由于Cgd 的电压依赖性，关断时刻不同于开通时刻，其两端电压为很小的导通压降Uds.on，导致Cgd 的值很大。此过程表现为Ugs 的缓慢下降。而且，阶段1 为关断延时过程。
+
+2）阶段2(t6—t7)。
+
+t6时刻，MOSFET 进入线性状态，即ids(sat)  iLoad。如图3 所示，Uds 未达到UDC 前，漏极电流将一直维持在iLoad，在此过程中，Ugs 将保持恒定值Ugs.iLoad。此时，漏–源两端电压 Uds的增长速度为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoLGhLO2fc57shqrNufSDha0W5QOXkTYOGFpx0Ru8Pl2RoGtCH3l5uUw/640?wx_fmt=png&from=appmsg)
+
+式中Cgd 随着电压的增长而下降。
+
+阶段3 的关断损耗为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoA58p70tE5fU2sHd2T7hfuAibHsiaxLJI9rsdlVlBxkkMx6mlFN3XCjqg/640?wx_fmt=png&from=appmsg)
+
+3）阶段3(t7—t8)。
+
+t7 时刻，栅极平台结束，Uds 达到UDC。由于Ugs 下降，漏极电流也在t7 时刻开始下降，此过程Ugs 为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJovbIfMPicrN0lXV1zXMibgnmDg6X0LqhhhQHWNzxV5rM5ibicx7cwBb0ygA/640?wx_fmt=png&from=appmsg)
+
+由于此时UdsUDC，因此时间常数 3 1。由于系统杂散电感存在，电流出现反向过冲，使得Uds在关断时刻存在过电压，过电压峰值出现在 diD/dt最高时刻，具体为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJo6UaZBoaia0XXCpibEYLMk2Hqzco5s2xKvMOvLuYmh2TUdnRWPmPLFFng/640?wx_fmt=png&from=appmsg)
+
+同理，式(18)也可变换为关断过程高速 di/dt 在寄生电感上引起的压降，即：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJo8hBvUwxAlicvmvFBct8qia9iaJibBGZbnzuktyEibdGJo3s3SQicfZ2R5rNQ/640?wx_fmt=png&from=appmsg)
+
+同时，由于脉冲形成电路的特殊性，系统寄生电感直接存在于放电回路，导通过程电感充电，开关断开后LC 振荡以及开关寄生电容间耦合作用，会引起Ugs、Uds、iD 在关断时刻剧烈振荡，振荡频率如式(22)所示，并且将表现出较大的负向关断损耗。此时关断损耗为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJo0PDcR8vACTicZz0rQEoSmibSPGfY6lLkSEx1ZbkmWshlPFiaCkJmRiarPA/640?wx_fmt=png&from=appmsg)
+
+4）阶段4(t8—t9)。
+
+t8 时刻，Ugs电压下降到门限电压Uth以下，漏极电流下降为0。
+
+2. 高压瞬态强流下开关特性对比
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoJXj0Qz9F6ZxlwicMwEgvPGxUiboNKR2bia27pgNyTWNibuCfDCA1lhGWZA/640?wx_fmt=png&from=appmsg)
+
+实验电路如图4 所示，被测器件为IXYS 公司的RF-Si 基MOSFET DE475-102N21A 和CREE 公司的SiC MOSFET C3M0065100J，电流探头为Pearson公司的6600，带宽120MHz。低压部分测量探头为Lecroy PP026 400V，带宽500MHz。高压部分测量探头为Lecroy PPE6kV，带宽400MHz。控制信号发生装置为美国Stanford ResearchSystems 超低抖动数字延时触发器DG645。波形记录示波器为Lecroy WavePro 760Zi-A，带宽6GHz。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoLOVgLM4aJriaNRptrH4vLYlVpSZBCVDjpqjcoXvXIiaFhBuYiaZm5Db9g/640?wx_fmt=png&from=appmsg)
+
+实验参数及驱动参数如表2 所示。由于高压脉冲幅值达到1kV，实验过程专门设计信号光纤隔离电路和隔离电源转换电路以隔离高压脉冲，从而避免对实验设备的干扰和损坏。
+
+由表1 可知，2 种MOSFET 的直流通流能力分别为24 A 和35A，由于器件手册给出脉冲电流极限值受到漏–源电压以及脉冲宽度限制，为控制扰动变量，本文以200ns 脉冲宽度为实验脉宽。同时，使用漏–源电压1000V、负载电流100A、脉冲宽度200ns，重复频率1Hz 的瞬态高压强场强流条件以对比2 种MOSFET 的开关特性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoW2he6HRlF8aFfbdwibfns9QeiblVK3NTkPWC4gKA2X81fPxuE6fhEJBw/640?wx_fmt=png&from=appmsg)
+
+图5 给出2 种开关在未施加漏源电压时的Ugs电压波形。由表 1 可知，RF-Si 基MOSFET 的Ciss值远大于 SiC MOSFET，因此RF-Si 基MOSFET的米勒平台持续时间比 SiC MOSFET 更久。同时，由于SiC MOSFET 具有更小的输入电容和米勒电容，因此SiC MOSFET 具有更快的Ugs上升和下降时间。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoiaxHTfyGQEJrHtgbXM51HWjhul5NGEES2VhSXTib32doD0OeIGYSiaVFQ/640?wx_fmt=png&from=appmsg)
+
+随着直流充电电压的上升，图6 给出2 种MOSFET 在瞬态高压强流条件下的动作波形，可见流经漏–源两极的电流iD 上升率基本保持一致，但SiC MOSFET略快于RF-Si 基MOSFET。而由于SiC器件导通电阻远小于 RF-Si 器件，且负载电阻阻值仅为10，导致两者导通状态下电流存在差异。
+
+由表1 可知，控制负载、外部电路条件相同时，SiC MOSFET的寄生电感值较RF-Si 基MOSFET 大4、5 倍。图6 表明在瞬态极限条件下，SiC MOSFET栅极电压在开通和关断时刻振荡更加剧烈；此外，由振荡衰减过程可以发现，SiC MOSFET 阻尼系数也小于RF-Si 基MOSFET 的相应值。但是不同于手册提及参数，SiC MOSFET 在瞬态极限条件下的开通时间tr为4.555ns，而RF-Si 基MOSFET 的tr为12.186ns，同样前者tf 为3.793ns，而后者tf 为6.308ns。可见，在瞬态极限条件下SiC MOSFET具有优于表 1 的开通和关断时间，且SiC MOSFET也具有更快的电流变化率，这对于脉冲应用具有极大优势。但在开通和关断瞬间，SiC MOSFET 的瞬态开关损耗峰值均高于RF-Si基MOSFET，这与SiCMOSFET 由于寄生电感而引起的振荡是密不可分的。同时，这表明纳秒脉冲发生器应用中瞬态开关特性有别于常规应用，参数性能也与器件手册存在很大区别，因此对其瞬态条件下特性研究尤为重要。
+
+3. 脉冲参数对开关动态特性影响的实验研究
+
+MOSFET 是当前纳秒脉冲发生器的主流开关，本节使用表2 中的器件参数，控制除DUT 外的电路连接以及驱动参数相同。通过改变脉冲宽度、Uds两端电压、流经电流 iD，探究RF-Si 与SiC MOSFET的瞬态开关特性差异以及其对脉冲参数变化的响应规律，并从器件寄生参数等固有特性，分析差异形成原因，进而为 SiC MOSFET 在纳秒脉冲发生器的应用提供参考。
+
+3.1 充电电压
+
+控制触发信号维持200ns 脉宽，通过改变负载阻值实现100~1000V 漏–源电压下恒定脉冲电流10A，并控制其余参数相同。图7、8 展示不同充电电压对2 种瞬态开关特性的影响。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJosKicN2kmhQbjbotqvUJOuBnEo0943QkUiaCbibYRYFWxaF3asibKQK9xag/640?wx_fmt=png&from=appmsg)
+
+如图7 所示，开关开通过程的Uds变化与2 节分析结果一致，SiC 开通时间优于RF-Si 基MOSFET，并且SiC MOSFET 导通时间随电压升高呈下降趋势，而RF-Si基MOSFET则呈现上升趋势。但由于SiC MOSFET 存在较大的寄生电感，使其在导通后引起的振荡幅值也增大。从电流iD的变化情况可知，在100V 充电电压时，RF-Si 基MOSFET的电流上升时间明显比 SiC MOSFET 短。而随着充电电压上升，达到1000V 充电电压时，SiC MOSFET的电流上升时间显著短于 RF-Si 基MOSFET。Ugs在较高充电电压下相较于RF-Si基MOSFET存在更大的振荡幅值，由于Ugs 尖峰大，使得可靠驱动存在隐患。此外，Uds 在较高充电电压下相较于RF-Si基 MOSFET 存在更大的过冲。通过将漏–源极电压、电流时域相乘得到的瞬时功率变化发现，由于开关开通过程Uds 存在负向振荡电压过冲，此时会引起不同于开通损耗的负向瞬时功率。也正是Uds 的振荡过冲导致SiC 器件的瞬态开通损耗在瞬态高压下大于RF-Si 基MOSFET。这也要求SiC 器件在纳秒脉冲发生器中应用时，需要进一步设计驱动电路抑制过冲。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJotDXXbCLeIjiaicpFWrx4FXNv9yqZCwjhnsOHZXH42aulgDotBMkiazibKg/640?wx_fmt=png&from=appmsg)
+
+从图8 所示，SiC MOSFET 随着充电电压上升，Ugs 在开关关断后的振荡和过冲异常严重，部分振荡过冲已经超过了开关的门限电压，这对于纳秒脉冲发生器的动作会产生极为严重的后果，而RF-Si基 MOSFET 由于其较小的寄生电感以及较大的Ciss，虽然在关断速度方面逊色于SiC MOSFET，但由于振荡和过冲引起的系统弹地较小，关断失败的几率也极大降低。此外，关断过程最高振荡电压如式(20)，此时振荡频率由回路寄生电感以及续流回路寄生电容决定，振荡幅值由电流变化率决定，由于SiC MOSFET 关断比RF-Si 基MOSFET 快，且寄生电感大，导致了更高的电流变化率，也增加了振荡和过冲。
+
+对于关断损耗，虽然SiC MOSFET 震荡和过冲引起额外的损耗，但由于其关断时间快，尤其在较高充电电压条件下，关断损耗明显小于RF-Si 基MOSFET。但充电电压较低时，以振荡引起的关断损耗为主，此时其关断损耗比RF-Si 基MOSFET 大。
+
+3.2 流经漏–源电流
+
+纳秒脉冲发生器由于应用场所不同，其脉冲电流也跟随负载条件改变而变化\[5-12\]。因此本文控制充电电压恒定1000V，脉冲宽度200ns，探究10~90A电流条件下的开关动态特性变化规律。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJof3slKRz9RNN4slvWzYuoupdHRghc7ofT9FkuCaFibF5icUWCRYUam8Eg/640?wx_fmt=png&from=appmsg)
+
+由图9 可知，2 种开关在较低电流时，均保持良好的开通性能。随着漏–源电流的增加，RF-Si 基MOSFET表现出开通时间变缓、导通压降明显上升的特点。然而，SiC MOSFET 随着电流增大依然在开通时间和导通压降上显示出优势。但由于其寄生电感始终大于RF-Si 基MOSFET，SiC MOSFET 引起的关断振荡依旧较为明显。
+
+开通损耗方面，漏–源电流较小(额定通流能力内)时，由于RF-Si 基MOSFET 封装上的特殊设计使得其开通损耗略低于SiC MOSFET。漏–源电流增大后，由于RF-Si 基MOSFET 在导通压降以及开通特性等方面变差，其开通损耗剧烈上升，而SiC MOSFET 在其90A 极限值附近依旧保持良好的开通损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJovkryibaYax320ibuSuiaiaS0bMpT6pxRwb0Aus2aIWpiaIwLEDN6YXl2VYw/640?wx_fmt=png&from=appmsg)
+
+图10 所示的关断过程表明，漏–源电流增加改善了开关关断时间，此时SiC MOSFET 的低导通电阻优势也得到体现。但较大的电流变化率引起了更加剧烈的关断振荡，这也导致脉冲输出波形存在一定的拖尾，影响脉冲输出。此外，由于较大的电压、电流变化率，Ugs 也呈现剧烈的振荡；且由于脉冲形成电路与负载电阻同一回路，导致其振荡阻尼小，这也加剧了SiC MOSFET 关断失败的风险。而且SiC MOSFET 在瞬态强流条件下，其关断损耗峰值明显大于RF-Si 基MOSFET，因此RF-Si 基MOSFET虽然在关断时间上有所上升，但它的关断失败风险以及关断损耗一直小于SiC MOSFET。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJoSCx08uYiaOCrVhpAgp3kXM4aupFtGrSduO8DBFU31KH8ktgyVqDm3xA/640?wx_fmt=png&from=appmsg)
+
+综上所述，图11 对2 种MOSFET 的完整动作行为进行了对比。由于RF-Si 基MOSFET 在大电流时刻，导通压降增大，进而引起开通损耗升高。因此，在较低负载电阻条件下，会引起脉冲形成电路内阻增大，不利于脉冲输出，同时也导致脉冲发生器效率降低。此外，在漏–源电流大于额定值数倍时，2种MOSFET均发生不同程度的导通压降变化，进而使电压、电流波形在大电流时刻发生突变。另外，大电流也加剧开关关断过程振荡，使得开关关断过程的第3 阶段延迟。由式(21)可知，尾部抬起引起的关断时间延长，将直接引起关断损耗增加。
+
+3.3 脉冲宽度
+
+相较于传统纳秒脉冲发生器，基于MOSFET的纳秒脉冲源在多模式脉宽调制以及宽范围脉宽输出方面极具优势。因此，研究脉冲宽度变化引起的开关特性变化是研究2 种开关在纳秒脉冲发生器应用中不可或缺的成分。
+
+同时，由2 节可知，漏–源电流变化对脉冲电路中开关器件的影响尤为剧烈。为了避免电流过大而导致误差增大。结合上文实验数据结论，恒定控制漏–源电流为20A，并且控制充电电压为1000V，重复频率1Hz，通过调整信号发生器实现70~1000ns的脉冲宽度变化。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJos0eDF1jbJdayA7IsHDD6g9eEeNuRGD6UUG24NBKGIfoU7XRYHVek0Q/640?wx_fmt=png&from=appmsg)
+
+图12 为不同脉冲宽度条件下漏–源电压Uds、栅–源电压Ugs，以及开通与关断损耗的波形。随着脉冲宽度的增加，RF-Si 基MOSFET 与SiC MOSFET 均呈现良好的一致性。可见，脉冲宽度变化对开关开通过程与关断过程并没有明显影响。同时，由栅–压Ugs 变化波形可以发现，在较低电流时SiC MOSFET 关断时间以及寄生参数振荡引起的关断过冲均小于RF-Si 基MOSFET。上述现象表明，开关关断时刻的振荡幅值主要是电压电流变化率起主要作用。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskdku2NTNLm1u5zbW2TCmJobib29nMeeQ6kickdf7r6qmtReFjAMasPFRGcX3b0jYWdreQ1mxH3mBfg/640?wx_fmt=png&from=appmsg)
+
+通过以上分析可知，漏–源电流较低时，2 种开关在动态性能上均表现出较好的一致性，基本不受脉冲宽度影响。图13 对比了在脉冲上升阶段，50%脉冲幅值(500V)时刻，不同脉宽条件下的Uds 波形。通过对比几种波形在 500V 对应时刻的最大时间差异，来对比2 种MOSFET 在导通阶段的时间抖动。结果表明：Uds 达到500V 时刻，RF-Si 基MOSFET的最大时间抖动仅为140ps，但SiC MOSFET 的最大时间抖动达到380ps。因此，虽然SiC MOSFET具有较优异的开通特性，但其开通时间抖动相较于RF-Si 基MOSFET 略显不足。通过式(6)可知，在开关导通阶段，由于电流变化以及寄生电感引起的SiC MOSFET 振荡会直接影响输出波形的时间抖动。
+
+4. 结论
+
+脉冲功率技术在民用领域的应用极大促进了全固态纳秒脉冲源的发展。未来，纳秒脉冲源将向更短脉冲、更高重频、更高电压、更大电流及更加紧凑等方向发展。而SiC 器件以其良好的热稳定性和更高的功率密度等特性优势在未来的纳秒脉冲发生器中有着巨大的应用潜力。本文基于当前RF-Si基MOSFET 大量应用于纳秒脉冲源的研制背景，选择与其基本参数相近的SiC MOSFET 进行瞬态特性对比研究。通过搭建典型单级纳秒脉冲形成电路，从瞬态极限电压、极限电流等条件出发，对比不同脉冲参数条件下2 种开关的瞬态开关特性(动态特性、瞬态开关损耗、时间抖动)。揭示2 种开关的动作差异以及振荡和过冲形成规律，并结合实验结果就其差异形成原因进行分析讨论。最终得到以下结论：
+
+1）纳秒脉冲形成电路中MOSFET 直接作用于放电回路，过高的di/dt 和du/dt 使得寄生参数Ls.int、Ld.int、Lg.int 对Ugs、Uds 的影响更加明显，并且它们引起的振荡和过冲将直接影响纳秒脉冲源的输出特性。结果表明：SiC MOSFET 的Ls.int、Ld.int、Lg.int相较于 RF-Si 基MOSFET 大4~5 倍。SiC MOSFET表现出更大的振荡和过冲，因此在纳秒脉冲源应用中，如何抑制 SiC MOSFET 的振荡和过冲是首先要面临的问题；
+
+2）2 种MOSFET 在极限电压1000V 时，其耐受脉冲电流远大于手册推荐值。瞬态高压条件下，SiC MOSFET表现出更快的电压开通时间和关断时间，但由于其寄生电感的劣势，其电流建立和释放时间仅在较低电流条件下才较RF-Si 基MOSFET更具优势；
+
+3）由于SiC MOSFET 的Ciss、Crss 远小于RF-Si基 MOSFET。随着充电电压增加，SiC MOSFET 在电压开通和关断时间上优于RF-Si 基MOSFET，而SiC MOSFET更为剧烈的振荡和过冲，其在较高电压下的开通损耗反而略大于RF-Si 基MOSFET。但由于SiC MOSFET 在电流截至时间上的优势，瞬态高压下其关断损耗明显低于RF-Si 基MOSFET；
+
+4）相较于充电电压，脉冲电流变化引起的差异更加剧烈。不同于SiC MOSFET，RF-Si 基MOSFET在大电流条件下暴露出导通压降剧烈上升的不足。实验结果表明，在表1 提及脉冲电流峰值90A 时，SiC MOSFET 依旧表现出远优于RF-Si基 MOSFET 的开关特性。与较低电流条件下充电电压变化规律不同，SiC MOSFET 由于自身较大的寄生电感，栅–源电压在开关关断后依旧剧烈振荡。因此，SiC MOSFET的关断损耗峰值逐渐超过RF-Si基 MOSFET。同时，这在很大程度上增加了开关关断失败的风险，也间接导致了SiC MOSFET 的时间抖动大于RF-Si 基MOSFET。
+
+综上所述，在纳秒高压大电流的应用中，一方面，SiC MOSFET 的动态特性特别是开通、关断速度上优于RF-Si 基MOSFET；另一方面，SiCMOSFET 的输出波形在开通和关断时呈现较大振荡和过冲，并且在瞬态开关损耗和时间抖动上没有展现出较RF-Si 基MOSFET 的明显优势，而较大的封装寄生参数是造成这种现象的主要原因。因此，未来研究低寄生参数的SiC MOSFET 器件封装技术不仅具有重要的学术意义，而且对拓展SiC MOSFET 在纳秒级脉冲功率电源中的应用有实际工程价值。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)

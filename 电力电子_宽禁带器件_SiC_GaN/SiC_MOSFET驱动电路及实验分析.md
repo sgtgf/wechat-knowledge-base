@@ -1,0 +1,145 @@
+# SiC MOSFET驱动电路及实验分析
+
+原创 张旭 陈敏 徐德鸿 SiC碳化硅MOS管及功率模块的应用 2025-02-09 09:09 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/H5a5CcVkjUYBxrrLV98ihQ](https://mp.weixin.qq.com/s/H5a5CcVkjUYBxrrLV98ihQ)
+
+文章来源：电源学报
+
+作者：张 旭，陈 敏，徐德鸿（浙江大学，浙江 杭州 310027）
+
+摘要：根据 SiC MOSFET 开关特性，设计了一种 SiC MOSFET 的驱动电路，在此基础上采用双脉冲测试方法，对SiC MOSFET 的开关时间、开关损耗等进行了实验测量，分析了不同驱动电阻对SiC MOSFET 开关时间、开关损耗等的影响。
+
+关键词：SiC MOSFET；驱动电路；开关时间；开关损耗
+
+0\. 引言
+
+SiC 器件具有禁带宽度高、饱和电子漂移速度高、临界电场击穿强度高、介电常数低和热导率高等特性，因此基于 SiC 的电力电子器件阻断电压高、工作频率高且耐高温能力强，同时又具有通态电阻低和开关损耗小的优势。 采用 SiC 电力电子器件可以进一步提升电力电子装置的功率密度及效率。
+
+SiC MOSFET 与一般的 MOSFET 驱动电路有着相似点，但是在使用中也要注意其特殊要求。 文献\[2\]采用了光耦隔离的驱动电路，为了抑制栅极电压振荡，在栅源极上并联了一个电容。 文献\[3\]采用的一种驱动电路，在 MOSFET 的关断瞬间，把驱动的栅极通过一个晶体管连接到负电源来抑制栅极电压的振荡。 在文献\[4\]提出的驱动电路中，为了增大驱动能力，在驱动输出端加了推挽电路。 采用光耦驱动功率器件可能导致驱动能力不够，而增加推挽电路则增加了电路的复杂性。 本文在此基础上，探讨了 SiC MOSFET 的驱动电路， 并设计了双脉冲实验，对 SiC MOSFET 的开关时间、开关损耗等动态性能进行了测量， 分析了不同驱动电阻对 SiC MOSFET 开关特性的影响。
+
+1\. SiC MOSFET开关过程及对驱动要求
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dXn5ib8HHEibNTFOB5wE0AOvzGBUn71DMFBCcsw1OtAejLurTHibIbBMNQ/640?wx_fmt=png&from=appmsg)
+
+SiC MOSFET具有MOSFET的一般特性， 属于电压控制型器件。 由于存在寄生电容，在其开通和关断的过程中，驱动电路必须对寄生电容进行快速的充放电。 图 1 给出了 SiC MOSFET 开关过程的波形。 根据对 SiC MOSFET 开关特性的分析，可以得到其对驱动主要有以下几个方面的要求：
+
+（1）触发脉冲有比较快的上升速度和下降速度袁脉冲边沿要陡。
+
+（2）驱动回路的阻抗不能太大， 开通时快速对栅极电容充电，关断时栅极电容能够快速放电。
+
+（3） 驱动电路要能提供足够大的驱动电流。
+
+（4） 要有足够高的驱动电压， 这样可以减小MOSFET 的导通损耗。
+
+（5） 最好在关断的时候给驱动提供负压， 防止误导通，增强其抗干扰能力。
+
+（6） 驱动回路寄生电感要小， 要使其尽可能靠近功率管。
+
+SiC MOSFET 对驱动要求较高， 主要体现在驱动电压及驱动快速性上。一般 Si 功率器件的驱动高电平为 12 V 或者 15 V，低电平为 0 V。一款 Cree 公司耐压 1200 V 的 SiC MOSFET 推荐的开通电压为+20 V，关断电压为\-2~-5 V。 虽然它的开启电压只有 2.5 V，但是只有当驱动电压到 16 V 时，其才能完全开通。 所以常规的驱动硅功率器件的驱动电路不能直接用来驱动 SiC MOSFET， 需要对其专门设计。另外，由于 SiC MOSFET 与一般的 Si MOSFET相比，门极充电电荷比较小，因此所需要的驱动功率也比较小。
+
+2\. 驱动电路设计
+
+驱动电压是设计驱动电路首要需要考虑的，为了安全考虑，可以考虑选择开通电压为 18 V，关断电压为\-3 V。 驱动电源既可以通过电源模块获得也可以通过稳压芯片、电压调整芯片等获得，电源模块价格较高并且规格有限，所以考虑采用稳压芯片获得所需驱动电源。 18 V 可以通过方波电源经过整流、稳压芯片 7818 获得，如图所示。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dDUXNnD1ZiavQeaqeK6dU3atlSCtb566I7BRjHebF9yVeWZ0Bzx8cfdw/640?wx_fmt=png&from=appmsg)
+
+\-3 V 电源可以通过整流、稳压芯片 7905、电压调整芯片 LM337 获得，电路如图 3 所示。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dRibLKTQia3Y9FxN0iaSSwcsswPjXItE5icsibDFaRLgbG3ErpGrR5H8pP4A/640?wx_fmt=png&from=appmsg)
+
+7905 输出电压为\-5 V，经过LM337 可以调整为\-3 V。 LM337 是一款负电压调整芯片，输出电流可以达到 1.5 A，输出电压范围为\-1.2~-37 V。 其输出电压根据式（1）设计，合理选择R1、R2 即可得到所需电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dS6sQl2ma2xYevGJ0BTicc4fWq0V7RmtrTW3Z9HXBsAvARXk8O8Pn9Lw/640?wx_fmt=png&from=appmsg)
+
+驱动芯片采用 IXDD609， 其电压范围比较宽，从 4.5 V 到 35 V，驱动能力比较强，峰值驱动电流可以达到 9 A，输出电阻约为 0.6Ω 。
+
+为了实现控制信号与主功率回路的隔离，需要采取隔离措施，这里采用常用的光耦芯片6N137，如图4所示。 为了实现 MOSFET的快速关断，电路中加入了一个二极管D4。 在桥式电路中，R4 和 C13 还可以组成驱动死区产生电路，防止上下桥臂直通。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dSmasHNHXgeIHt04UqMfQtlniaFhrEvInJHnwzYeBFUIiaWnT3oZsINIQ/640?wx_fmt=png&from=appmsg)
+
+根据以上分析设计得到的驱动原理图如图 5所示。 为了防止驱动电压过高或者过低给 MOSFET栅源极造成损坏， 输出端加了两个限幅二极管 D5、D6。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dXuNcLKF62Isgk8zyxgBsOdwIic8xiceXTMm6nOWwV1cXtmRTMYTsju7Q/640?wx_fmt=png&from=appmsg)
+
+图6给出了驱动电压以及驱动电流波形图。其中驱动电压为18V，驱动电阻为5 Ω。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dW01J2ayRYdWlV1m77BY242LXwECUPWqv7s4R1YUzIYMNvibpvVuibtdQ/640?wx_fmt=png&from=appmsg)
+
+3\. 双脉冲测试电路设计
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6deetIxo5TooUzicxwoW4rBBycrnspZicvJqpObGV11jlFhJvO5gJwHlXQ/640?wx_fmt=png&from=appmsg)
+
+双脉冲测试电路是常用的测试功率器件特性的电路，由直流电压 Vdc、二极管 S1、SiC MOSFET S2以及电感 L 组成，测试电路如图 7 所示，测试条件见表 1。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dXUAUw2h02B3nHytHK7DeuMJ08dYlsWxT9AfDD5EBFucjmENorTIwPg/640?wx_fmt=png&from=appmsg)
+
+  
+驱动波形由两次高电平组成，如图 8 所示。在第一个驱动信号高电平期间，SiC MOSFET S2 开通，直流电压给电感充磁，在两个脉冲的间隙，电感通过二极管 S1 放磁， 第二个驱动信号高电平期间，再次给电感充磁，S2 再次开通， 高电平结束，S2 关断。 在 S2 开通的时候，二极管 S1 关断，经历反向恢复过程，为了减小对 SiC MOSFET S2 特性测试的影响，S1 采用 SiC 二极管。 为了保证测试的准确性，在测量之前需要对电压探头及电流探头的延迟进行校正。
+
+在直流电压一定的情况下，流过功率管的电流与功率管的导通时间成正比例，根据需要的电流值可以得到驱动高电平的时间，第一个高电平的时间一般要大于第二个高电平时间。 试验中，第一个高电平取为 9 us，第二个高电平为 1 us，中间间隔为2 us。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dLz4xMRhNq4vSbHoicGQTLibl7WsOyJPjQM0K1MQVk81R26PON2JBhoGw/640?wx_fmt=png&from=appmsg)
+
+4\. 驱动实验及分析
+
+减小驱动电阻可以缩短 SiC MOSFET 的开关时间，从而减小开关损耗，但是如果驱动电阻过小，开关速度过快，在开关过程中，不仅会造成驱动回路驱动电压的振荡，也会造成主回路电压、电流的振荡，给器件的使用带来不利影响，因此要合理的选择 SiC MOSFET 的驱动电阻。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dvzOXMxzaUibnicichu0t7UrsvyW6fyk7V6JOYXHHEdQDouXIalz1TbazQ/640?wx_fmt=png&from=appmsg)
+
+试验中选择五种驱动电阻，最大驱动电阻Rg 取为50Ω， 再分别取10%Rg，20%Rg，50%Rg，80%Rg，分别为 5Ω，10 Ω，25Ω ，40 Ω。
+
+（1） 驱动电阻变化对开通特性的影响
+
+图 9 到图 14 分别给出了在开通过程取不同驱动电阻时驱动电压Vgs及 SiC MOSFET的管压Vds、电流 Id 的波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dj1d2WO45JN9NSLwR7OtxM2CMHQUIKb84vnT9Cibbm0byhic5EhhicHMVA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dHnMiczUZ5qeia1ibSb4iaG6FEO8T2QKv47H9jkawR28rw0ofJwysib2rAdQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dzDAEu4yYsjM5YHMYtQvMNZ5lic6oS3fibM9br1DMw5BoUggicIQZUX7Mw/640?wx_fmt=png&from=appmsg)
+
+从开通过程电压电流的波形可以看到，随着驱动电阻的增大，开通时间变长，电流的振荡也逐渐消失， 图 15 给出了开通时间随驱动电阻变化的曲线，图 16 给出了开通损耗随驱动电阻变化的曲线，可以看到，开通时间、开通损耗都随驱动电阻的增大而增大 。 在这里 ， 根据一款SiC MOSFET CMF20120D 的 Datasheet,开通时间由开通延迟时间及上升时间组成，开通延迟时间定义为驱动电压上升到 10%的时刻到电流上升到稳态电流 10%的时刻，上升时间定义为电流上升到稳态电流 10%的时刻到电流上升到稳态电流 90%的时刻。
+
+（2） 驱动电阻变化对关断特性的影响
+
+图 17 到图 22 分别给出了在关断过程取不同驱动电阻时驱动电压Vgs及SiC MOSFET 的管压Vds、电流 Id 的波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6doXRLGw0aOIc5QJuKJXxATB8fFtGDsvda57eH10oZ5t9rpPf46FIRicA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dZX3v81QE5xFGL4vicEZ1QkYM7DEWUQG2cDedxAEOZbpnib7icrEd5MhEw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6d4gdcx7d5R51TmIsjQbRln6njlicAEyXgop5LRqibu7tnIManQ5EOesCw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dKYFiboJib1QA5FTLvGGg6SJ1kiavvApsLjFiaDfrBMeqx6hdjFjfh0oENA/640?wx_fmt=png&from=appmsg)
+
+从关断过程电压电流的波形可以看到，随着驱动电阻的增大，关断时间变长，关断过程电压、电流的冲击、振荡也逐渐减小，图 23 给出了关断过冲电压随驱动电阻变化的曲线，可以看到随着驱动电阻的增大，关断时的过程电压减小。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6d9gBPN8OU5bldXp0K9mbRr8j8WBNBoQwkBbC0CZqOEkRF3W1Ss3q7dg/640?wx_fmt=png&from=appmsg)
+
+图 24 给出了关断时间随驱动电阻变化的曲线。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dy2VYe0EgTV4C0rExSebZCdCBicEHoFo0jnxFiaxXFVfYmnWMHxjN8ljg/640?wx_fmt=png&from=appmsg)
+
+  
+图 25 给出了关断损耗随驱动电阻变化的曲线。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmLB1gocicIicSSlgPHaUhI6dTZpoOAnjP6VSUibDp383MUA4a1u5uPeUVKVYSNlydKqssaPEyrG2M4A/640?wx_fmt=png&from=appmsg)
+
+可以看到，关断时间、关断损耗都随着驱动电阻的增大而增加。 在这里，根据 Datasheet，关断时间由关断延迟时间及下降时间组成，关断延迟时间定义为从驱动电压下降到 90%的时刻到电流下降到稳态值 90%的时刻，下降时间定义为从电流下降到稳态值 90%的时刻到电流下降到稳态值 10%的时刻。
+
+通过对不同驱动电阻下，SiC MOSFET 开关时间、开关损耗的分析可以看到，较小的驱动电阻可以增大开关速度，减少开关损耗，这对器件的高频化使用及电力电子装置效率的提高都是有益的，但是减小驱动电阻带来的电压、电流振荡有可能会损坏功率器件， 在选择驱动电阻的时候要折中考虑。在保证器件安全工作的条件下，尽可能选择比较小的驱动电阻，可以看到5Ω的驱动电阻比较合适。
+
+5\. 结论
+
+本文设计了一种适用于 SiC MOSFET 的驱动电路，并采用双脉冲测试电路进行实验，分析了不同驱动电阻对 SiC MOSFET 开关时间及开关损耗的影响， 为合理选择 SiC MOSFET 的驱动电阻提供了依据。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)

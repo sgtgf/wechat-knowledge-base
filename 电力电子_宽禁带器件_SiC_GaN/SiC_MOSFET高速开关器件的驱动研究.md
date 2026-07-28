@@ -1,0 +1,832 @@
+# SiC MOSFET高速开关器件的驱动研究
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/UQFNqXUIWf6l\_2zKMwoyMQ](https://mp.weixin.qq.com/s/UQFNqXUIWf6l_2zKMwoyMQ)
+
+文章来源：西安电子科技大学
+
+作者：许耀（学位论文）
+
+摘要 ：由于硅材料的禁带宽度较窄，导致其在阻断电压、能耗、工作温度和开关频率等方面已难以满足新一代功率系统的要求，成为了电力电子系统发展的瓶颈。而第三代宽禁带半导体材料碳化硅（SiC）是最有希望替代硅（Si）成为制备新一代功率半导体器件的首选材料，其禁带宽度为Si的3倍、击穿场强能够达到Si的10倍、热导率为Si的3.3倍、饱和电子漂移速率是Si的2.5倍。基于碳化硅材料的商用功率MOSFET也相继进入市场，它具有阻断电压高，开关速度快，导通损耗小，耐高温等优点。  
+
+SiC MOSFET器件研究的已相对成熟，基于SiC MOSFET器件的电力电子应用 也发展迅速，然而SiC MOSFET驱动与保护方面研究还处于起步阶段。由于SiC  MOSFET驱动及保护模块直接控制SiC功率器件的开关，其性能将直接影响功率器件的工作性能和效率。然而在实际应用中，SiC MOSFET高速开关驱动还存在许多问题，尤其是开关速度（损耗）与EMI是相互制约的。此外，SiC MOSFET高速并联开关应用中，SiC功率器件的可靠性也是一大挑战。因此，针对SiC MOSFET器件特性， 设计一款功能完善的高速驱动保护模块兼顾高速开关，高效过流保护以及动态均流， 使得 SiC功率器件能够更加快捷稳定的应用于电力电子系统，对于推广SiC功率器件有着重要的意义。 
+
+本文在SiC MOSFET已有驱动保护研究的基础上，针对SiC MOSFET超高速应 用驱动（100kHz-1MHz）进行了设计优化，并针对SiC MOSFET高速开关下的DESAT 检测及过流保护进行了改善，将过流保护结合栅极过欠压保护，对故障状态进行锁存和计数，提升高速开关中故障检测的抗干扰能力。此外，针对并联SiC MOSFET高速开关应用驱动设计了新型的动态均流结构，该结构可调节并联器件在开关瞬态的分流不均，以提高并联应用中SiC MOSFET器件的可靠性。研究的主要内容如下：（1）分 析了碳化硅材料及器件的发展现状和应用前景，并对SiC MOSFET驱动保护的研究 现状进行了综述。（2）分析了SiC MOSFET器件的开关动态特性、并联均流特性，并进行了理论研究和仿真研究，得出影响SiC MOSFET高速开关驱动以及并联驱动的关键因素为驱动电阻和阈值电压。（3）基于理论研究的基础，对供电电源选择(驱动电压，峰值电流等)、隔离方式选择、驱动结构设计、控制保护电路设计和测试电路选择等方面进行了充分的考量与分析，最终确定合理可行的SiC MOSFET高速驱动保护 方案，并在Cadence PSpice平台上进行了仿真，验证可以高速稳定工作在500kHz， 并且具备过流保护、过欠压保护、动态均流和错误状态锁存等重要功能。（4）基于 Cadence PSpice仿真结果，在Altium Designer下绘制了SiC MOSFET高速驱动保护模块的PCB原理图及版图，并制作样机实测来验证上述设计，经验证该高速驱动保护模块可工作在1MHz（200W），在1.25kW功率级别时仍可工作在500kHz以上，所设计的过流保护，过欠压保护以及动态均流功能均与仿真一致。此外，通过实验验证了驱动电阻和阈值电压会导致动态电流失衡，而且动态电流失衡对于静态均流也会产生严重影响。在高频开关时，器件动态电流失衡导致的温差并不能通过其导通电阻的 正温度系数平衡，因此也验证了动态均流结构对于SiC MOSFET并联应用的必要性。 
+
+关 键 词：碳化硅，SiC MOSFET，高速驱动，过流保护，动态均流 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKZbicp2fgib3iaPicSvnqeRaM1pABZriaS3kqPOXiczRmdobaq9OW1Ff5wxZQ/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKbehCwGJebaRxv1HeDQVYoISheJMn8hyFDKficBluibcYaiaDDpAEQHZVQ/640?wx_fmt=png)
+
+第一章 绪论 
+
+1.1 研究背景及其意义 
+
+进入21世纪以来，随着经济全球化的急速扩张，化石能源诸如石油，煤，天然 气的持续性生产和消耗导致了严重的环境污染、气候恶化以及资源枯竭问题，对人类社会的长远发展构成严重威胁。因此绿色清洁能源的开发与利用迫在眉睫，据估计地球上可利用水能资源超过50亿千瓦，陆地风能资源超过1万亿千瓦，太阳能资源超过100万亿千瓦。我们只需要开发其中万分之五就可以满足未来人类社会全部能源需求。随着全球能源互联网的构建，在不久的将来，绿色清洁能源如风能，太阳能， 水能发电将大规模接入电网，因此电力转换装置也将得到迅速发展。功率开关器件作为电力电子应用中的核心元器件，其性能将对功率变换器整机性能和稳定性有着重要影响。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjK6qjJ9DwRmC0R3gImpXMdlDCAndamII4ZnveXWZU4O5W99sGGal6FKQ/640?wx_fmt=png)
+
+目前来说，电力电子器件主要还是以硅基器件为主。然而，由于硅材料的禁带宽度较窄（1.1eV），导致其在阻断电压、能耗、工作温度和开关频率等方面已难以满足新一代功率系统的要求，成为了电力电子系统发展的瓶颈。为了解决这一矛盾，第三代半导体材料的研究发展迅速，其中碳化硅（SiC）材料是最有希望替代硅（Si）成为制备新一代的功率半导体器件的首选材料 。表1.1总结了主要半导体材料的物理特 性，从中可见碳化硅材料（SiC）是一种性能优异的宽禁带半导体，其禁带宽度为Si 的3倍、热导率为Si 的3.3 倍、击穿场强能够达到Si 的10 倍、饱和电子漂移速 率是Si 的2.5 倍，带来的主要优势概括如下： 
+
+（1）阻断电压高 
+
+SiC材料较大的临界击穿场强使得SiC功率器件的阻断电压非常高，因此在高铁， 电动车等高压大功率电力系统应用中，SiC功率器件很有可能替代传统硅功率器件。 
+
+（2）导通损耗小 
+
+与传统的硅（Si）基功率器件相比，在同等耐压的外延片厚度下碳化硅基功率器件的导通电阻仅为硅器件的1/100，可极大地降低导通损耗，提升应用系统的效率。 
+
+（3）开关速度快 
+
+SiC材料的饱和电子漂移速度更高，因此SiC器件的开关速度也更快。一方面， 开关频率的提高有助于减小电感和电容等无源器件的体积，提升系统功率密度。另一 方面开关更快也能降低开关损耗，有利于提升系统效率。 
+
+（4）耐高温、极强的抗辐照能力、机械强度大 
+
+较高的热导率使得碳化硅器件能够承受非常高的温度，目前美国宇航局NASA报 道其基于SiC器件的电路可在500摄氏度下稳定工作，结合其极强的抗辐照能力和机 械强度，未来可应用于探索金星，火星的探测器。 
+
+SiC材料其优良的物理化学性能，以及其在功率半导体器件和军事上的巨大潜力使碳化硅成为大功率半导体器件的研究热点，以碳化硅（SiC）为代表的宽禁带半导体大功率电力电子器件是目前在电力电子领域发展最快的功率半导体器件之一。 因此国内外都相继投入了巨额资金对SiC 材料和功率器件进行研究， 并开展了若干个推动SiC电力电子器件发展的科研计划。2014 年美国前总统奥巴马亲自发起成立美国碳化硅半导体产业联盟，并且设立专项资金支持全产业链快速突破发展，计划资助 1.4 亿美元来提升美国在该新兴产业的国际竞争力。日本政府估算未来日本全国50% 以上的节能将由碳化硅实现，因此将发展碳化硅半导体技术列入“首相计划”。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKhUTSn3qUazNrefP4RtKoEgXkAvRLWibAbYOzFPDkQyP3pxVdX87ueBQ/640?wx_fmt=png)
+
+图1.1为硅和碳化硅功率器件基于阻断电压的应用分布，可见SiC MOSFET作为 单极功率器件，在阻断电压300到4500V 范围内，因其低导通电阻、高输入阻抗、 高开关速度等优势将成为理想的高压功率开关器件，非常有可能替代Si IGBT器件，并可提高系统的整机效率以及开关频率。因此对于单极可控功率器件的研究也主要集中在MOSFET 上面。 近年来SiC功率器件的设计制造已经大规模开展，很多公司也推出了SiC MOSFET的商用器件，并尝试应用到电力电子系统中。美国Cree公司在SiC DMOSFET（ Double-implanted MOSFET）和全SiC功率模块进行了 很多研究，近年来我国也通过国家科技重大专项等相关科技计划支持了SiC材料器件研发和产业化项目，如中电集团13 所、 55 所以及中科院等科研院所都相继开发出SiC的整流器件；本人所在的课题组也在国内首次报道了 4H-SiC 的BJT和 UMOSFET。日本三菱电机公司也推出了应用于铁道车辆推进上的3.3kV/1500A 的全SiC模块（SiC-MOSFET+SiC -SBD），主要针对于新干线高铁等高速铁道的应 用，并进行了车辆搭载实验，实验结果显示全SiC 功率模块使得机车的电力损失降 低 55%，体积和重量降低 65%。此外日本Rohm 公司、三菱电机以及美国Cree等 公司也都实现了全碳化硅 MOSFET功率模块的商业化量产，整个SiC功率器件的研 究都呈现出一片欣欣向荣的局面。 
+
+1.2 SiC MOSFET高速驱动及保护研究综述 
+
+然而，相比于碳化硅器件研究的繁荣现状，基于碳化硅器件的电路应用并没有大规模普及，为了能够最大限度的发挥SiC功率器件的潜力和性能，需根据SiC 功率器件的特性，对其应用电路设计进行改造和完善。其中，最直接也是最重要的一个部分就是SiC MOSFET 驱动及保护模块的设计方法，SiC MOSFET驱动及保护模块直接控制SiC功率器件的开启和关断，并直接影响功率器件的工作性能和效率。 因此， 针对 SiC MOSFET 的驱动及保护进行研究并加以完善，使得 SiC功率器件能够更加 快捷稳定的应用于电力电子系统，对于推广SiC功率器件有着重要的意义。 
+
+在国际上，美国田纳西大学的Leon M. Tolbert 等人针对高速电力转换电路中的 SiC MOSFET 驱动进行了设计，使得开关速度提高10%的条件下，开关损耗降低了19.4% 。日本安川电机的 T. Kume 等人采用谐振电路针对SiC MOSFET的驱动进行了重新设计，使得SiC MOSFET的开启延时减少了62%，关断延时减少了33%。 P.Anthony等人提出一种谐振栅极驱动结构来吸收驱动回路寄生电感的能量，使得开关损耗降低了20%。法国巴黎第十二大学的F. Costa等人针对SiC MOSFET高速驱动的电磁串扰问题进行了研究并进行了设计。伊利诺伊大学的团队提出了一种闭环动态控制结构，使得SiC MOSFET在大功率高频应用中能取得开关损耗和EMI的良好平衡。丹麦奥尔堡大学的团队分别通过仿真和实验研究了SiC MOSFET主电路和驱动电路以及器件参数差别对SiC MOSFET并联应用的性能影响，并对功率电路PCB版图设计给出了建议。Cree公司的团队对SiC MOSFET高速并联应用中影响并联MOSFET静态和动态特性的因素进行了研究，得出采用小驱动电阻有利于减小动态分流不均。瑞典皇家理工学院团队也对SiC MOSFET均流特性研究并发现在高频工作下，并联器件开关损耗差异对器件之间的热失衡有很大影响。美国田纳西大学的Fred Wang等人提出了一种通过来控制辅助MOSFET，使其作为一个动态电阻来调节并联SiC MOSFET动态分流不均的方法，改善了并联应用中器件的分流不均。此外，各SiC MOSFET器件和驱动芯片厂商也针对SiC MOSFET 驱动保护电路方案给出了许多建议。 
+
+然而，国内对于SiC 应用的研究尚不发达，南京航空航天大学的秦海鸿等人针 对SiC MOSFET 驱动进行了一些评估分析，得出了在高速开关中改善驱动的方法。 国内北航团队针对SiC MOSFET并联应用中开启阶段的动态分流不均现象提出一种 通过对阈值电压小的MOSFET的充电回路添加附加驱动电阻的方法来增加驱动回路中栅极信号的延迟从而减小动态分流不均。浙江大学盛况团队对 SiC JFET的驱动电路做了一些研究，但针对MOSFET，则主要在电路应用中进行了研究。 
+
+由此可见，国内外有关SiC MOSFET 驱动技术的研究都还处于起步阶段。相比 于 Si 基功率器件，SiC MOSFET不但开关速度快，开关损耗小，导通电阻也更小， 因此经常用于大功率高速开关应用，一些对效率比较苛刻的场合还需要将SiC  MOSFET并联使用。然而在实际应用中，SiC MOSFET开关应用还存在许多问题。特别是开关速度及损耗与EMI是相互制约的因素，高速开关对于并联应用中SiC  MOSFET的器件稳定性也是一大挑战。目前国内外相关领域，并没有一个完整的SiC  MOSFET高速开关驱动保护方案能够兼顾高速开关，高效过流保护以及动态均流。因 此，针对SiC MOSFET高速开关应用设计一款功能完善的驱动保护模块，使得SiC  MOSFET更加安全稳定的应用于电力电子系统，对于SiC功率器件的普及具有非常重要的意义。 
+
+1.3 论文主要研究内容 
+
+本文在SiC MOSFET已有驱动保护研究的基础上，针对SiC MOSFET超高速应 用驱动（100kHz-1MHz）进行了设计优化，并针对SiC MOSFET高速开关下的DESAT 检测及过流保护做了改善，将过流保护结合栅极过欠压保护，对故障状态进行锁存和计数，提高高速开关中故障检测的抗干扰能力。此外，针对并联SiC MOSFET高速开关应用驱动设计了一种动态均流结构，该结构可调节并联器件在开关瞬态的分流不均，以提高高速并联应用中SiC MOSFET器件的可靠性。 
+
+本文的主要研究安排如下：  
+
+（1）研究背景及意义 
+
+第一章介绍了碳化硅材料及其器件的发展现状和应用前景，并对SiC MOSFET驱动保护的研究现状进行了综述，为本文研究内容做铺垫。 
+
+（2）SiC MOSFET驱动保护理论研究 
+
+第二章对SiC MOSFET器件的开关动态特性，并联均流特性进行了理论研究和 仿真分析，得出影响SiC MOSFET高速开关驱动以及并联驱动的关键因素。 
+
+（3）SiC MOSFET驱动保护模块设计和仿真 
+
+第三章基于理论研究的基础，对供电电源选择(驱动电压，峰值电流等)，隔离方式选择，驱动结构设计，控制及保护电路设计，测试电路选择等方面进行了充分的考量与分析，最终确定合理可行的SiC MOSFET高速驱动保护方案，并在Cadence PSpice平台上进行了仿真，验证可以高速稳定工作在500kHz，并且具备过流保护、过欠压保护、动态均流和错误状态锁存等重要功能。 
+
+（4）SiC MOSFET驱动保护模块样机制作与测试 
+
+基于Cadence PSpice仿真，在Altium Designer下绘制了驱动保护模块的PCB原理图及版图，并制作样机测试以验证上述设计。并且通过分析测试过程出现的问题， 对上述设计中存在的不足之处加以总结和完善。
+
+第二章 SiC MOSFET高速开关理论研究 
+
+本章将分析理想开关和半导体开关器件的差异，并对SiC MOSFET的开关特性， 均流特性进行理论分析和仿真研究，为后续SiC MOSFET高速驱动保护电路设计做理论铺垫。 
+
+2.1 SiC MOSFET开关动态特性分析 
+
+SiC MOSFET能否完成高速开关和其开关动态特性有着密切关系，下面将对比理想开关和半导体开关的差异，并对SiC MOSFET开关器件的动态特性进行定性和定量分析。 
+
+2.1.1 理想开关和实际开关对比 
+
+我们总希望功率开关能够像理想开关一般工作。从开关器件特性角度而言，若半导体器件作为理想开关应当具备以下特点： 
+
+（1） 导通状态下，开关器件能够承受无穷大的正向电流和反向电流。  
+
+（2） 关断状态下，开关器件能够承受无穷大的正向和反向耐压。  
+
+（3） 导通状态下，导通压降为零。 
+
+（4） 关断状态下，开关器件的电阻无穷大，漏电流为零。  
+
+（5） 开关频率没有上限，上升下降时间为零。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKYHpNHfA2Mm81fyaBjaZiaha7ZJicSBmYWx1XBMPnmSnB3ia0Q6gGcibiaMg/640?wx_fmt=png)
+
+从图2.1中可见，理想开关器件无论是在开关状态还是导通状态，损耗都为零， 效率为100%，波形的边沿无延迟，因此开关频率可达无穷大。简而言之，理想开关器件的开关频率，功率等级与效率都是无限制的。 
+
+然而，实际上以半导体器件为基础的开关器件并不是理想的，其特性与理想开关器件有差异，其特点可概括如下： 
+
+（1）有限的功率处理能力（导通状态下有限的电流传导能力；关断时有限的反向耐压） 
+
+（2）由于存在开启和关断时间，因此开关器件会受最大工作频率约束。  
+
+（3）导通时，开关器件存在导通电阻，因此会有正向压降。关断时导通电阻不是无穷大，因此关断时器件存在漏电流。 
+
+（4）由于特点（2）和（3）的缘故，半导体开关器件在开关过程中存在开关损耗，导通过程中存在导通损耗。图2.2所示为半导体开关器件的典型开关波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKVyWsD17JPrVa06QBj2Er5VMicdfo7ibxEK4K1cP8pCTPQPM5pX0dbwfw/640?wx_fmt=png)
+
+为了简化后续理论计算，将半导体开关的波形进行线性近似，如图2.3所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKicTCAHFJp7MSy7QO535HrTzDficBuX6re6uG8gPefJibdCkialroNAqJ9g/640?wx_fmt=png)
+
+以常用的半导体开关器件SiC MOSFET为例，假设SiC MOSFET的开启时间和 关断时间分别为ton和toff，导通电压为VON，漏电流为IOFF。那么单个开关周期内， 流过SiC MOSFET的瞬时电流和SiC MOSFET两端的瞬时电压分别由公式（2-1）和 公式（2-2）给出。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKWsIicDn2jJxaNMSicwJkuE8NS4dicsqJD2EPwLUhyFoDkFJWrpZGWbfSw/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKyOF0CBXIibjo3mCtPd7bcKKssZXInwQiaGO2CCtTPSJQG2wyQZdqibyAg/640?wx_fmt=png)
+
+对式（2-4）积分可求得式（2-5），其中第一项表示单周期内SiC MOSFET的开关损耗，第二项表示其导通损耗。从中可以得出，当开关频率增加时，SiC MOSFET开关器件消耗的平均功率Pave呈线性上升。另一方面，功耗也随着通过SiC MOSFET的电流和SiC MOSFET反向耐压的增加而线性增加。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKvRMibJiaE9Cuvl3IZt8Wf2PCuVDRPP3gJicdna2rLUrxOOgIYUYNUV3jw/640?wx_fmt=png)
+
+分别对开启和关断过程的瞬时功率p(t)求一阶导，并令其一阶导数等于零，可求得开启和关断的最大功率点tmax。其表达式由式（2-7）给出。此时对应的最大瞬时功率Pmax由式（2-8）给出。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKsC57cXChxXbeliaCcl5NDw7DhNbdwMeFdNyo95rpQ2cNiadEPScp5EdQ/640?wx_fmt=png)
+
+通过上述分析可见，SiC MOSFET工作过程中功耗主要源于开启和关断过程中 （ton和 toff时间段）的电压和电流的交叠，而峰值功率也出现在开关瞬态之中。为了研究如何降低SiC MOSFET在高速开关应用中的开关损耗，下面将对SiC MOSFET 的动态特性进行分析，并研究影响SiC MOSFET开关速度和开关损耗的关键因素。  
+
+2.1.2 MOSFET开关过程定性分析 
+
+MOSFET动态特性对其高速开关驱动及保护电路的设计至关重要，为了更好地了解MOSFET的开关特性，我们将采用常见电感钳位电路来具体分析MOSFET开关过程。
+
+（1） 开启过程 
+
+MOSFET的开启过程如图2.4所示，图中给出了各个参数在四个阶段中的变化 曲线。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKbRHqBcKIlXHzRObk9iaUs2zXDltOIh3hHlwa9ibsx9ia0TviaycxAkczkw/640?wx_fmt=png)
+
+初始时刻t0：栅源电压VGS，漏极电流ID，栅极驱动电流IG都为零，漏源电压VDS等于高电平VDD。  
+
+第1阶段\[t0−t1\]：栅源电压VGS达到阈值电压VGS(th)之前，栅极驱动电流给输入电容Ciss充电，该阶段栅极绝大部分电流流过电容CGS，但也有少量电流流过电容CGD。 该阶段漏极电流ID和漏源电压VDS保持不变，所以被称为开启延迟阶段。  
+
+第2阶段 \[t1-t2\]：当栅源电压VGS从MOSFET阈值电压VGS( th) 继续上升至米勒平台电压VMP之前，栅极驱动电流IG依旧给CGD和CGS充电。在t1时刻，漏极电流开始流过MOSFET，由于MOSFET工作在线性区，漏极电流的大小由栅源电压VGS电压和漏源电压VDS共同控制，而漏源电压VDS仍维持在高电平VDD。  
+
+第3阶段 \[t2−t3\]：当栅源电压VGS上升到米勒平台电压VMP之后，漏极电流ID处于饱和状态或者足够使MOSFET通过负载电流，因此该阶段MOSFET工作在饱和区，栅极驱动电流IG几乎没有流过电容CGS，全部用于给栅漏寄生电容CGD放电，因此 栅源电压VGS维持在米勒平台，漏源电压VDS迅速下降。  
+
+第4阶段 \[t3-t4\]：栅源电压VGS继续上升至外加驱动电压VGG，此阶段栅极驱动电流IG继续给栅源寄生电容CGS和栅漏寄生电容CGD充电，随着栅源电压VGS持续升高， MOSFET的导电沟道逐渐展宽，导通电阻RDS(on)略有减小，而VDS=ID.RDS(on），因此 漏源电压VDS缓慢下降至稳定值，漏极电流ID仍保持不变。该阶段后MOSFET完全导通，完成开启过程。 
+
+（2） 关断过程 
+
+MOSFET的关断过程基本与开通过程相反，图2.5中给出了MOSFET关断过程 中各关键参数在四个阶段中的变化曲线。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKNz0uCk04jOIgDWdM1LzjbCK7yeTrZXZo3TBA9nt0MMR1g0cN3fqXIw/640?wx_fmt=png)
+
+初始时刻t0：栅源电压VGS等于外加驱动电压VGG，漏极电流ID就是最大负载电流， 栅极放电电流IG等于零，漏源电压VDS很小近似零。
+
+第1阶段\[ t0-t1\]： 此阶段为关断延时阶段，输入电容Ciss从初始电压VGG放电到米勒平台电压VMP 。在这个过程中，输入电容Ciss提供栅极放电电流流经电容CGS和CGD。 由于栅源电压VGS下降导致驱动MOSFET的电压减小，因此MOSFET导通电阻RDS(on)有所增加，漏源电压VDS略微上升，而漏极电流ID仍保持不变。   
+
+第2阶段\[ t1-t2\]：栅源电压VGS维持在米勒平台电压，栅极放电电流给电容CGD充电，漏源电压VDS逐渐上升至外部输入电压VDD，漏极电流ID保持不变。 
+
+第3阶段\[t2-t3\]：栅源电压VGS从米勒平台电压下降至MOSFET阈值电压VGS( th ) 。 由于电容CGD已充电完毕，因此栅极放电电流来自于电容 CGS。该阶段，MOSFET进入 线性区，随着栅源电压VGS的减小,漏极电流逐渐减小至零。而漏源电压VDS由于反偏二极管的作用，仍维持在外部输入电压VDD。 
+
+第3阶段\[t3-t4\]：该阶段MOSFET输入电容Ciss通过电阻完全放电，栅源电压 VGS完全下降至零。栅极放电电流主要由电容Ciss提供，而漏极电流ID和漏源电压VDS保持不变。 
+
+2.1.3 MOSFET开关过程定量分析 
+
+为了研究影响MOSFET开关速度的关键因素,为后文驱动保护模块设计提供理论 依据，下面将对MOSFET开关过程做详细的定量分析。 
+
+（1）开通过程分析：  
+
+初始状态t0：t0时刻，MOSFET器件处于关断状态，负载电流IO流经二极管D如图2.6(a)所示。此时VGG=0，VDS=VDD，iG= iD。在t=t0时刻，外加驱动电压VGG被施加于MOSFET栅源两端。VGS电容两端电压通过驱动电阻RG进行充电，栅源电压VGS控制着漏极电流ID。  
+
+第1阶段\[t0-t1\]：假设t0≤t< t1 , VGS< VTH，即MOSFET处于截止区，此时无论VDS为何值，漏极电流ID=0，栅极驱动电流iG给输入电容Ciss充电，该阶段栅极绝大部分电流流过电容CGS，但也有少量电流流过电容CGD，时间间隔 ∆t10代表了CGS从零变化至阈值电压VTH 所需的开通延迟时间。开通延迟时间∆t10=t1−t0可从以下推导过程中得出： 
+
+栅极电流计算公式可由式（2-9）表达 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslgngmf096SqI3Voh3gibFjKvBwc2rVRRRDVmWbksHOeF7JGQMu1MP9PibIQq8pE5KoKoYSINjDNlwg/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHha2IicwIv6r1fJT9FfL36S7ttmiaXFBvOlbwfg01jkunpyAtQ4phPquh1w/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHha7XRU3IS2XKEwZ8lRwjGkwFaibrmTuNttPkzHIRPw76h2fTxgoTd5YxA/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaeb8Rzden62elj8uEbpyDwicBMZTcJL5RqtOaOI9iaseAkqwDBQrgUJLw/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhalzQ4ErzLkao5252J3taR4nqvYwzA0OttlalpsNjGQz1soxHeg718Ow/640?wx_fmt=png)
+
+当VGS继续指数级减小，从CGD吸取电流使得iDS=iO保持不变。最终下降到米勒平台电压，米勒平台区的结束点在MOSFET线性区，通过MOSFET输入的转移特性 可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaR3YI4fhYRKxyCbZmXj3bY1bibv3a2lq5ICb9KINHRs0kxUNpRlMntjA/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhah0KLodjEHls0amGCeScLSZBFsNWiciafsv5XluHBnQcndaMltNbuaekQ/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaTgsYEc6731dYcu3eOkWzUbsxh6WSibM3Ua6qqB6MibDmy41lvYVEjiaQA/640?wx_fmt=png)
+
+无论是开通还是关断过程，MOSFET均在在∆t21和∆t32时间段内承受高电压和大电流，因此产生很大的开关损耗，因此如何降低∆t21和∆t32的时间，使得MOSFET能 够快速开启和关断，对于提升MOSFET工作频率以及降低开关损耗至关重要。通过上述理论分析可知，阈值电压、寄生电容、跨导、驱动电压和驱动电阻均对∆21和∆32产生影响。其中阈值电压，寄生电容，跨导等参数是SiC MOSFET固有参数，选定器件后便不能改变。因此从驱动电路方面考虑，我们可以选用较小电阻和较大驱动电压来加快开关速度，降低开关损耗。 
+
+2.2 SiC MOSFET并联均流特性分析 
+
+理想情况下的SiC MOSFET在并联使用时能够达到一致的均流效果。然而，在 实际应用中，无法选择完全一致的器件以及完美对称的驱动电路，因此实际应用中器件的均流效果与理想情况存在差异。本节将对影响SiC MOSFET并联均流特性的关键因素进行理论研究。  
+
+2.2.1 电流失衡概述 
+
+SiC MOSFET在实际电力电子应用中，经常会碰到要求的总功率和总电流大于单个SiC MSOFET可承受的电流和功率的情况；另一方面，某些应用中对系统效率要求严苛。此时我们可以将多个SiC MOSFET并联使用，等效于降低导通电阻RDS( ON )从而降低导通损耗，也增大了总体的过流能力。由于各SiC MOSFET 器件参数总有差异，在并联应用时，电流失衡的情况不可避免。电流失衡主要分为静态电流失衡和动态电流失衡。 
+
+静态电流失衡是指各功率器件在完全导通的状态产生的电流分布失衡，这是各管 的导通电阻RDS( ON )差异所造成的。鉴于SiC MOSFET的导通电阻RDS( ON )具有正温度系数，多管并联使用时，某个MOSFET承受较大电流时，积累的热量使其温度升高， 因此导通电阻RDS( ON )增大。由于各管并联时两端电压相等，导通电阻大的管子承受电流减小，因此器件温度下降。这种负反馈机制使得SiC MOSFET并联使用时可以自动均流和均温。由于SiC MOSFET的导通电阻RDS( ON )的温度系数并不是很大，因此 如果并联器件导通电阻RDS( ON )差异过大时，均流和均温效果就不太理想。因此，我们在选择SiC MOSFET器件时，应当对其导通电阻测量，选择差异较小的管子用于并联。此外，将各功率管就近放置并固定在散热片上有利于器件之间的热耦合，加快并 联器件之间的热量交换，提升并联使用时的均流和均温效果。 
+
+动态电流失衡是指各功率器件在开关过程中产生的电流失衡，这是由于各个功率器件的阈值电压、跨导以及驱动回路时常数等因素引起的。MOSFET的阈值电压的不同导致了漏极电流上升的时间不同，MOSFET跨导的不同使得漏极电流上升的速率也存在差异。另一方面，外部驱动回路不可能完全对称，驱动阻抗的不同使得MOSFET 开启和关断的速度存在差异。因此，通过选择参数相近的MOSFET，在PCB版图方面要尽量做到对称可以减小动态电流失衡。静态和动态电流失衡都会导致各并联管的温升和电磁干扰的差异，使得SiC MOSFET器件和应用系统稳定性降低。
+
+2.2.2 动态电流失衡原理分析
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaDP8icwKJ7XfslTxmXxkjyMRM7VUP99icc2ftWWALHL6nzH9ctYGjicmgw/640?wx_fmt=png)
+
+ SiC MOSFET并联应用时的静态电流失衡和动态电流失衡造成器件之间不同的温升和电磁干扰。长期来看，这种电流失衡会给SiC MOSFET器件的性能带来负面影响，甚至导致器件热失效，最终给应用电路带来巨大的风险。由于SiC MOSFET的导通电阻RDS( ON )具有正温度系数，可以自动平衡静态电流失衡。因此静态电流失衡的影响较小。另一方面， SiC MOSFET因其优异的高频特性常常应用在高频领域，开 关损耗占据总损耗比重很大，开关频率很高时，并联器件之间的动态电流失衡将严重影响器件可靠性。下面我们将具体分析动态电流失衡的影响因素。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHha9ZGetn8fI6qTZx5Jl4T5Z7fYDreicr9ItdCBe3wcic6BOQrCyiceOTEIA/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaM4qcLZicPblWEnVAJ2cUqicuq3uMJ4RhXgBFXhxOleAJx6QuLV4Ycaww/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaibnfMYvsk1DHQkic3c9AmhxtLLgFNfRwLhtBA6I3RbwkeCwVr3odjvHA/640?wx_fmt=png)
+
+假设并联SiC MOSFET的驱动回路对称，即驱动电阻相等，那么在开关过程中， 如果温度升高，SiC MOSFET驱动回路的电抗和电阻都会增大（RC时常数增大），导致开启过程变慢，但是相比于阈值电压的减小，此项可以忽略不计。因此，初始时刻开启更快的SiC MOSFET温度更高，导致其阈值电压减小，开启变得更快，器件之间电流失衡的状况继续恶化，这种正反馈效应可能会摧毁器件和电路系统。 
+
+MOSFET关断过程的分析与开启过程类似。阈值电压小或者驱动回路时常数大的SiC MOSFET慢关断，因此通过电流更大，时间更长，温度更高，导致下一周期阈值电压更小，关断更慢，器件之间电流失衡的状况继续恶化。 
+
+另一方面，假设并联SiC MOSFET器件本身性质差异不大，那么驱动阻抗将对并联均流特性产生关键影响。其中最悲观的情况就是某一个SiC MOSFET的开启时的充电电阻较小而关断时的放电电阻较大，因此该器件将会先开启后关断，因此在过程中分摊电流更大，温升较高，导致阈值电压降低，最后进入正反馈的循环。 
+
+可见，动态电流失衡对于SiC MOSFET并联应用的可靠性会产生负面影响。因 此，在电路设计和PCB设计中都应考虑这一因素。除了在选择参数相近的器件用于并联外，PCB版图中SiC MOSFET各驱动回路应做到尽量对称。此外，本文中所提出的驱动保护模块在驱动结构上做了针对性设计，用于改善这种动态电流失衡。具体电路设计将在第三章中详细介绍。 
+
+2.3 SiC MOSFET高速开关驱动的仿真研究 
+
+前面通过理论分析得出了影响SiC MOSFET开关速度、开关损耗以及并联均流 特性的关键因素，如驱动电阻RG，驱动电压VGG，寄生电容Ciss以及阈值电压VTH。下面将通过PSpice对比仿真来验证理论分析。我们将采用电感钳位电路来测试SiC MOSFET SCT2080KE的开关特性。  
+
+2.3.1 影响因素-驱动电阻  
+
+首先将验证驱动电阻对SiC MOSFET开关速度以开关损耗的影响。驱动电阻的对比实验参数如表2.1所示。在保持其他因素不变的情况下，对驱动电阻进行参数扫描仿真，驱动电阻分别取值为5Ω/15Ω/30 Ω/50 Ω。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaviajm1L1JRcISBsHf2VlSLAAp3T1MwxlicBeZqgMQBA9MKUX1rBPnRcg/640?wx_fmt=png)
+
+图2.11为驱动电阻为变量的参数扫描仿真结果图。图中列出了SiC MOSFET开 关过程中的关键参数波形，包括栅源电压VGS、驱动电流IG、漏源电压VDS、漏极电流ID以及开关损耗功率PSW 。以开启过程为例，通过对比可见，驱动电阻越小时，VGS上升越最快，平均驱动电流IG越大，VDS和ID变化率也越快，因此VDS和ID的交叠时间越小，导致开启期间的平均损耗也越小。但是驱动电阻越小，VDS波形在关断时的电压过冲也越大，这是因为驱动电阻越小，漏电流变化率di ⁄dt越大，由杂散电感感应出的电压过冲∆v=Ls(di ⁄dt)也越大，带来了EMI方面的隐患。因此，在功耗和速度满足功率应用设计要求的前提下适当调大驱动电阻来降低MOSFET开关过程中的过冲电压。通过仿真可见，驱动电阻RG对SiC MOSFET开关速度有着重要影响。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHha1BShMdsLku4szEib1OMouIO71XfWcJhshsKTHGQbBuyGMIXHb987Cog/640?wx_fmt=png)
+
+2.3.2 影响因素-驱动电压 
+
+实验参数如下表所示。在保持其他因素不变的情况下，对驱动电压VGG进行参数扫描仿真，驱动电压分别取值为16V/18V/20V/22V。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaogP3urbt0aiauiaSFicHX62T68S0QzuZTnk8b5ezv8JnFiaoZHuia0Ym1icw/640?wx_fmt=png)
+
+ 图2.12为驱动电阻为变量的参数扫描仿真结果图。图中列出了SiC MOSFET开 关过程中的关键参数波形，包括栅源电压VGS、驱动电流IG、漏源电压VDS  、漏极电流ID以及开关损耗功率PWS。通过对比发现驱动电压和器件开启速度也是正相关的。器件开启时，驱动电压越大，漏源电压VDS和漏极电流ID的变化率更大，因此电压电流交叠时间更短，开关损耗更小。但是在器件关断时，驱动电压对漏源电压VDS和漏极电流ID的变化率几乎没有影响，因此电压和电流交叠差异不大，关断时的损耗功率几乎一致，这可以通过式（2-36）（\[ t1−t2 \]:  VDS表达式）和（2-37）（\[ t2−t3\]漏极电流ID表达式）来解释，它们和驱动电压VGG无关。另一方面，由于器件关断时放电电阻相等，当栅源电压VGS下降到不足以支撑漏级电流ID时，漏级电流ID开始下降。因此驱动电压 VGG越小，关断时VGS更快下降到该节点，这也解释了驱动电压VGG越小，完成关断的时间越早。相比于驱动电阻RG，驱动电压VGG仅在开启阶段对开关速度和开关损耗产生影响。但是驱动电压VGG仍然非常重要，因为过小的驱动电压会使得SiC  MOSFET导通时工作在饱和区，导致器件过热损坏。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaW8mD9Gj5s1mxqBmzicC3aGdawprGbCTTDEHibmSBmDzsylvNoWuQj59Q/640?wx_fmt=png)
+
+2.3.3 影响因素-寄生电容 
+
+SiC MOSFET开关速度和损耗不仅与外部驱动电压和驱动电阻有关，还与器件的寄生电容有关。其中最重要的寄生电容为栅源寄生电容CGS和栅漏寄生电容CGD。  
+
+2.3.3.1 寄生电容CGS     
+
+寄生电容CGS对比实验参数如表2.3所示。在保持其他因素不变的情况下，对 SCT2080KE的栅源寄生电容CGS进行参数扫描仿真CGS取值为3nF/5nF/6nF/11nF。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhahYfsOJgG0M2dicHBs21G5h91Hrzbf3ibOSLeOiaw716lnjk7hQKp2H9tQ/640?wx_fmt=png)
+
+图2.13为CGS为变量的参数扫描仿真结果图。图中列出了SiC MOSFET开关过程中的关键参数波形，包括栅源电压VGS、驱动电流IG、漏源电压VDS 、漏极电流ID以及开关损耗功率PSW。通过对比发现寄生电容CGS越大，开关速度越快，开关损耗越小， 符合理论分析。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHha0u23FucYDNWVFGt7uqPkrmicYDH1ItC5m1mKFAjULrcN2hRJiaUr4q3A/640?wx_fmt=png)
+
+2.3.3.2 寄生电容CGD     
+
+寄生电容CGD的对比实验参数如下表所示。在保持其他因素不变的情况下，对 SCT2080KE的寄生电容CGD进行参数扫描仿真CGD取值为10pF/50pF/100pF/200pF。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaCkOPXCgOUDqDv7SdAFyRJibEQv9aYlMCicQfyApmNGiccXZvGhQxQrYjA/640?wx_fmt=png)
+
+图2.14为CGD为变量的参数扫描仿真结果图。图中列出了SiC MOSFET开关过程中的关键参数波形，包括栅源电压VGS、驱动电流IG、漏源电压VDS、漏极电流ID以及 开关损耗功率PSW。但是由于电容CGD一般在pF数量级，相比于电容CGS小很多，因此CGD对开关速度影响有限，通过仿真可以看到开关过程中各参数在不同CGD的条件下对开关速度影响差距细微，但是放大局部波形后，仍然可以看到当电容VGD较大时，VDS和ID的变化率较小，开关损耗更大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaMVcoaNVy83hM07LdttvanqoZFSAhF3gasmuWygRtI5UuR9kdwuc4pw/640?wx_fmt=png)
+
+2.3.4 影响因素-温度T和阈值电压 
+
+在均流特性中分析了温度和阈值电压对于SiC MOSFET开关特性以及均流特性 的影响。阈值电压越小，SiC MOSFET的漏电流上升时间也越早，因此开启更快。同理可知阈值电压越小，器件关断更慢。又因为SiC MOSFET的阈值电压具有负温度系数，因此对于并联SiC MOSFET，如果没有负反馈电路调节，情况会继续恶化，下面通过温度扫描实验来验证上述分析。 
+
+温度T的对比实验参数如表2.5所示。在保持其他因素不变的情况下，对SCT2080KE的温度T进行参数扫描仿真，温度取值为-50℃/25℃/100℃/300℃。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaicmmAuEbQP5Wk3qmJkPtAEkrHVLfdGuZEDw4IGdoK0NYTFnnf53rwmQ/640?wx_fmt=png)
+
+图2.15为温度T为变量的参数扫描仿真结果图。图中列出了SiC MOSFET开关 过程中的关键参数波形，包括栅源电压VGS 、漏源电压VDS 、漏极电流 ID以及开关损耗功率PSW。当温度较低时，漏电流开始上升时间更晚，开始下降的时间更早，因此开关速度更快。开关功耗波形显示温度较高时，开关损耗也更大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaVNCCZYPqTaLtfUJuK86KpmjKprGOOgIzjIG55EhWdibrGz9oshUAPTA/640?wx_fmt=png)
+
+我们将图2.15中关断时的VGS波形和ID波形在特定区域内放大得到图2.16，从中可以得出阈值电压与的温度的变化关系。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaTbGJUJODI1saKkJLGjLnAYurp4Dof0jHFN1svYtkUotkW97j8MoFeQ/640?wx_fmt=png)
+
+我们将5mA设为关断标准，温度为-50℃/25℃ /100℃/300℃时对应的VGS电压，2.5V/1.8V/1.5V/1V就是其阈值电压。可见随着温度的升高，SiC MOSFET阈值电压逐渐下降，这才是导致开关速度和损耗增加的原因，这也验证了2.1节中的理论分析。图2.17所示为-50℃至300℃温度区间内，SCT2080KE的阈值电压变化情况，仿真结果也验证了SiC MOSFET的阈值电压具有负温度系数。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaCS5tPKAWdFwKQ22iaIbkQXRfOs1z7SsfJw4YwThnwk13wWcMNqrVD3g/640?wx_fmt=png)
+
+  2.4 本章小结 
+
+本章首先比较了理想开关和半导体开关器件的差异，然后定性分析了MOSFET 开关过程，并理论推导了MOSFET开关过程中各关键参数的表达式，分析了影响开关速度和损耗的关键因素，紧接着分析了SiC MOSFET高速并联应用中影响动态电流不均的因素。最后在PSpice下进行了参数扫描仿真，验证了理论分析中影响SiC  MOSFET高速开关驱动以及并联驱动中的关键因素。其中在驱动层面上，驱动电阻和驱动电压是影响开关速度，开关损耗以及电压过冲的关键因素。在器件层面，SiC  MOSFET的阈值电压和寄生电容CGS和CGD为影响开关速度和损耗的关键因素。由于SiC MOSFET阈值电压具有负温度系数，所以并联应用中，由于器件本身参数和驱动回路的不对称引起的的电流失衡会通过正反馈机制加速恶化，因此需要针对并联应用设计相应的动态均流结构改善电流失衡。
+
+第三章 SiC MOSFET高速开关驱动保护模块设计和仿真  
+
+第二章通过对SiC MOSFET开关过程及均流理论的分析结合PSpice仿真，深入 研究了SiC MOSFET的开关动态特性及并联均流特性，了解这些内容有助于SiC  MOSFET 的驱动保护电路设计。而驱动保护电路的可靠性将直接影响到SiC  MOSFET 在电路系统中的工作性能以及整个系统的可靠性。 
+
+3.1 SiC MOSFET高速开关驱动保护要点分析 
+
+本节对SiC MOSFET和Si 功率器件的参数进行了对比，并分析了两者在驱动保 护设计上的异同点。 
+
+3.1.1 SiC MOSFET与Si功率器件参数对比 
+
+SiC MOSFET和Si IGBT、MOSFET都属于压控型开关器件，因此在驱动保护方 面有许多共同点，但是SiC与Si功率器件特性的差异也会对驱动及保护设计产生影响。下面通过SiC MOSFET和Si功率器件参数对比来分析SiC MOSFET驱动保护设计需要注意的要点。表3.1是SiC MOSFET和Si 功率器件的参数对比，选取的器件具有相近等级的耐压和耐流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaCdAgf41Mp1mSd5ybRT9Tc3r8BuV8LFIUS8ZxEo4hhgfp9lu82Hp2VQ/640?wx_fmt=png)
+
+从表中可以看到，SiC MOSFET相比Si功率器件具有更快的开关速度，因此开 关损耗也更小。然而，另一方面，它的栅极电荷QG也更小，意味着栅源电压 VGS也更容易出现振荡。此外，Si功率器件的开关损耗随着结温的升高而升高，而SiC MOSFET器件则相反，它在高温下特性下降并不严重，因此SiC器件也更适合于高频应用。 
+
+另一个关键参数就是功率器件的短路承受时间，由上图可以得出SiC MOSFET短路承受时间要比Si功率器件要低，这也意味着可供SiC MOSFET驱动保护电路检测及中断短路情况的反应时间也更短。因此，对于过流保护电路的要求也更加高。然而，SiC器件的反向电流恢复时间要比Si短很多，因此Blankging time（消隐时间）设置的可以更小，对于电路设计有帮助。  
+
+3.1.2 设计要点分析 
+
+（1）栅极电压和栅极电流 
+
+Si功率器件栅极驱动电压一般为-8V到+15V，而SiC MOSFET栅极电压的推荐 范围为-5V到+22V。栅极采用更大的驱动电压有助于减小开关损耗、导通损耗以及提升浪涌电流指标，但另一方面加重了栅氧化层的压力，不利于栅极的稳定性。通常来说，对于SiC MOSFET器件，栅极正压取为+18到20V，负压取为-3V左右。 
+
+（2）栅极回路寄生现象 
+
+在高频应用中，寄生电感将影响SiC MSOFET驱动电路的有效性。所以在设计 中，驱动电路应尽可能靠近SiC MOSFET。采用飞线连接驱动模块和功率模块的方式将降低驱动保护模块的稳定性。MOSFET作为少子器件相比于IGBT在关断时并没有明显的拖尾电流，这也是MOSFET比IGBT关断快的原因。然而另一方面，IGBT关 断时的拖尾电流也提供了自然的缓冲，降低了振铃现象MOSFET关断时没有拖尾电 流使得MOSFET比IGBT的振铃现象更严重。SiC MOSFET的低阈值电压配合关断时的高振铃使得SiC MOSFET在关断时容易误导通，导致关断变慢，损耗增加甚至导致危险情况。因此根据实际应用，在关断时采用栅极负电压关断和选择合适的驱动电阻非常重要。 
+
+（3）驱动RG的作用 
+
+通过第二章MOSFET开关理论分析可知，对于驱动电路设计，选择合适的驱 动电阻RG非常重要。对于SiC MOSFET高速开关应用，若采用小阻值驱动电阻可以最大程度减小开关损耗。但同时会导致更大电流变化率di⁄dt，电压变化率 dv ⁄dt以及EMI问题。因此设计中需要对开关速度（损耗）和可靠性两方面做折中。如果多个 MOSFET并联应用情况下，RG的选择也将影响多个管子的动态均流特性,适当降低RG值有利于消除各管间开关损耗差异。  
+
+（4）短路保护（DESAT） 
+
+在大功率应用中，SiC MOSFET会遇到短路或者过流的情形。在这些情况下，驱动保护电路需要快速检测到错误状况，然后在器件和电路损坏之前安全关闭SiC  MOSFET。通常，在Si IGBT应用中会采用去饱和电路来检测VCE。从图3.1中可见， 当器件从饱和区过渡到线性区。Si IGBT的检测阈值在7V左右。与IGBT相比， MOSFET线性区和有源区之间并没有非常明显的过渡。然而，DESET方法仍可以有效地运用在SiC MOSFET驱动电路中。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaVbIWnZ8NrjA4rLSSGHKP6iaRWIgHicQgurYV1gRIO0MGwbWV9w2614Ag/640?wx_fmt=png)
+
+在SiC MOSFET过流保护电路中，我们需要检测漏源电压VDS。相比于IGBT， 由于SiC MSOFT的脉冲电流值和短路承受时间更小。降低消隐时间（Blanking time）和参考电压的阈值是很有必要的。VDS将与临界工作条件下的检测阈值作比较。如果漏极电流增大会导致VDS增大，当其值超过检测阈值时，将反馈短路或者过流故障。  
+
+（5）两级关断 
+
+当短路和过流故障发生时，di ⁄dt的高变化率结合功率电路路径中的杂散电感将引发VDS的过冲。而SiC MOSFET极快的开关速度使得情况更加恶化。因此在关断阶段，采用两级分阶段关断的方法可以降低过冲电压。当短路或者过流发生时。检测的VDS值大于正常工作时设置的参考电压时，降低栅极电压到一个中间值。由于跨导的缘故，流过器件的电流也会降低。当栅极维持中间电平一段时间后，源极电压缓慢降为零转而完全关断SiC MOSFET。这种栅极钳位结合软关断的方法可以降低di⁄dt以及潜在的电压过冲，也增加了SiC MOSFET短路承受时间，因为平均电流的减小导致能量积累的减少。当发生短路或者或过流时，降低栅极电压可以降低流过MOSFET电流，提升了短路承受时间，也给控制电路留下更宽裕的反应时间来安全关断MOSFET。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHha0SdleTSFLYudpMiczXKnJYzEYoILBjZmYgyPfn2OEbIV9a6RqP9z4gQ/640?wx_fmt=png)
+
+由于电感值随负载成正比，随频率成反比，而本文设计的驱动保护模块在测试中并不是工作在同一频率，假设工作频率范围为100kHz-1MHz。那么电感取值需按照频率最低时计算，若占空比D取为50%，负载为10欧姆，那么计算可得电感取值最低为6.25μ。 
+
+此外，RC网络的电流供给是不连续的，因此采用一个较大的滤波电容来限制纹 波电压是很重要的。滤波电容的作用是在二极管关断时给负载提供电流，其计算公式 如（3-4）所示。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaLraXiaI2f85B7NibMCzE6Osg682FLOlosGTXj5KpgydQT0rTHkzNRp2w/640?wx_fmt=png)
+
+假设D=50%，Vr⁄vo=1%，R=10Ω，f=100KHZ，输出电容最小值为50μF。  以上元器件参数为根据测试条件选取的估算值，实际取值需根据仿真和实验进行验证，在此基础上进行调整。总体来说，选取较大的电感和电容有利于驱动保护模块测试的普适性和便捷性，但是带来的问题就是体积太大，因此需要折中考虑。 
+
+3.3 驱动模块设计 
+
+驱动模块主要包括供电电源设计、隔离方式选择、缓冲器设计以及栅极驱动网络设计，下面将逐一介绍每个子单元的设计。  
+
+3.3.1 供电电源设计 
+
+3.3.1.1 驱动电压选择 
+
+驱动保护模块采用的供电电源分为驱动和控制两部分。驱动部分采用直流电压源直接供电，便于调节所需的驱动SiC MOSFET正压VCC及负压VEE。本文选取RHOM 公司的SiC MOSFET SCT2080KE作为开关器件，器件手册中给出栅源电压VGS允许的范围为-6/22V。图3.3(a)所示为SiC MOSFET SCT2080KE在不同温度下的转移特性曲线，在常温25℃下其阈值电压的典型值为3V，而阈值电压具有负温度系数，在150℃ 时阈值电压仅为2V。由于SiC MOSFET的阈值电压较小，为了避免SiC MOSFET快速关断时杂散电感引起的电压振荡耦合到CGS两端导致器件误导通，因此驱动电路可根据实际清况采用负电压关断。SCT2080KE在25℃时的输出特性如图3.3(b)所示。 当VGS电压为10V时，器件即可导通并正常工作，以通过漏电流10A为基准，其通态压降大于5V；当VGS  电压为20V时，其通态电压仅为0.8V。对比可知，采用大电压 驱动，可以降低MOSFET导通电阻和通态压降，从而减小MOSFET导通损耗，避免 MOSFET过热导致热失效。但是栅极驱动电压并不是越大越好，栅极驱动电压过大会使得栅氧化层可靠性降低甚至导致击穿。因此驱动栅极的正压在保证栅极可靠性的情 况下尽量取较大值，本文采用+18V。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaDGu1YRww5Czqn76l7ARib11ambFX2Rw0196vqM0RpZ8Ez2yCAic4S56Q/640?wx_fmt=png)
+
+3.3.1.2 峰值驱动电流计算 
+
+峰值驱动电流对于SiC MOSFET开关速度和开关损耗至关重要，由于MOSFET 开关延迟时间主要由电容的充放电延迟决定，其计算公式如式（3-5）所示： 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaJd91zqv9ia7SJaGKJg7uZNCILsIJ9TFlRiaicSQ46UCqfmahxhegXooOQ/640?wx_fmt=png)
+
+式中，IG表示驱动电路提供的驱动电流，Ciss表示MOSFET栅极输入电容，UG表示所施加的栅极电压，td( on )表示SiC MOSFET 的开关延迟时间，tr为 SiC MOSFET的上升时间，QG为MOSFET栅极电荷量。其中栅极电荷量QG，上升时间tr，开通延迟时间td( on )可在器件的datasheet中查阅。 
+
+表3.2为 SCT2080KE数据手册中关于上升和下降延时的信息，其测试条件中RG=0Ω，VGS=18V，VDD=400V，RL=40Ω。栅极电阻为零时，MOSFET开关频率非常快，该条件下所需的驱动电流是最严苛的。表中给出的开启总延迟为71ns，关断 总延迟为98ns。开关时间总和不到200ns，因此SCT2080KE可以胜任1MHz开关频 率下的应用。我们以这些数据为依据计算得出，SCT2080KE在1MHz开关频率下所 需的开启平均驱动电流为1.5A，关断平均驱动电流1.1A。由于设计中采用了两个SiC  MOSFET并联应用，因此驱动能力需要翻倍，开启平均驱动电流为3A，关断平均驱 动电流2.2A。推挽驱动结构中需以此为依据选择合适的PMOS和NMOS器件使之能 够承受足够大的电流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaicdH0OBO5Fhiatm1oa5vTxqmULS8ibhcdxQQBs0K1TdYzph3fLFZQHF1Q/640?wx_fmt=png)
+
+3.3.1.3 控制模块电源设计 
+
+控制模块中运用了精密运放，数字逻辑芯片以及缓冲器芯片等，其电源电压要求各不相同。其中运放OPA37分别采用双电源供电，分别选用正负15V以及正负20V 两种不同方案用以不同用途。本文采用了金升阳WRA2415S电源模块来产生正负15V电源，采用金升阳URA2424zP电源模块产生正负24V电源并结合串联二极管来产生 正负20V电源给运放OPA37供电。数字部分芯片采用线性稳压器LM317来产生5V电源。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaWoD8Nj6wFicOvFf6HyPR1FKqFTQI0J7KN5f94Kj1XaTqZTXXoQj4opQ/640?wx_fmt=png)
+
+由于电路设计中还采用了一些特定电压值。例如，多种数值的基准电压、均流驱动结构中的Vast的参考电压、控制模块中的比较器的基准电压2.5V和DESAT过流保 护中的检测阈值的Vdesat(th)等。此外，给两个缓冲器供电的电源电压Vpump和Vassit分别为12V和4.5V。这些特定电压值需要结合电路实际测试进行调试。其中2.5V基准 电压由LM336基准电压芯片提供，其余所需电压值均由德州仪器的LM317配合外围电路来产生，具体电路连接关系如图3.4所示，其中输出电压可由公式（3-6）确定。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaLia9jWiclIyEYj6PSsHxo3f3xicFjiabSeeuBwJepdzibLaFcuTfDic3EjcA/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhayWL8WKcpbXic8ibhiaPia0icibb7oe9zDuDTTv5kABkzG5Xw60Z64mQfj1Gg/640?wx_fmt=png)
+
+LM317的输入范围为很广泛，只需满足输入电压与输出电压差值满足Vi  −Vo=3V−40V ，输出范围可为1.2V−37V 中，根据电路实测对外接电阻进行调节可得到所需输出电压。  
+
+3.3.2 隔离方式选择 
+
+为了降低功率电路对控制模块产生噪声干扰，在强电侧和弱点侧应采用电气隔离。 其中，最常用的两种隔离方式为光耦隔离和脉冲变压器隔离。光电耦合器以光为媒介传输电信号，实现输入与输出的电气隔离，而脉冲变压器以磁场为载体传输电信号， 实现输入与输出的电气隔离。通常来说，脉冲变压器的信号传递频率相比光电耦合器 要低，一般为1kHz-1MHz，而光耦的信号传递频率一般可达10MHz以上；另一方面脉冲变压适合传输较窄脉冲信号，而光电耦合器的对信号脉宽没有特殊要求。此外， 从体积上考量，光耦也要比脉冲变压器更占优势。 
+
+光电耦合器主要有以下特点： 
+
+（1）光耦元件的光接收器只能单向接收光信号而不能发射光信号，因此信号在传输过程中不会出现反馈现象，提高了信号的抗干扰能力。 
+
+（2）光耦的输入端和输出端绝缘电阻非常大，可达10000MΩ以上，因此带来的优势就是耐压极高，一些先进光耦器件耐压能够达到10kV以上。 
+
+（3）光耦中的发光器件一般采用砷化镓红外二极管，它是一种阻抗电流驱动型器件，而噪音是一种高内阻微电流微电压信号。因此，光耦极大的共模抑制比使其能够很好地抑制和消除噪声污染。通常在PCB板内长距离的信号传输中，使用光耦作为终端隔离元件可以大大提高信噪比。 
+
+（4）由于光耦的抗干扰性和隔离性能比晶体管好，因此由光耦构成的逻辑电路更加可靠。
+
+( 5）高速，工作稳定，体积小，耐冲击，使用寿命长。 
+
+本文采用6N137高速光耦来作为控制模块和驱动模块的传输纽带，其响应速度非常快，典型值为50ns左右，因此非常适合高速SiC MOSFET驱动应用。  
+
+3.3.3 缓冲器设计 
+
+由于本文设计中采用两管并联SiC MOSFET，在实际电路运行中，隔离输出和电平抬升后的输出能力可能仍难以满足驱动电流的要求，因此在SiC MOSFET栅极前加一级缓冲器电路，通过功率放大来提高驱动能力。本文采用由两个MOSFET组成的反相器推挽结构，如图3.5所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaAAXwTfF8OHh5veB0oEryH86DBbXgofqvAjJKibTlOEb4GPGNEQjkkmw/640?wx_fmt=png)
+
+PMOS和NMOS呈共漏极连接输出侧的驱动电阻，两个MOSFET的栅极连接PWM控制信号，PMOS的源极连接驱动正压VCC，NMOS的源极接地GND或驱动负压VEE。这种推挽驱动结构与传统的BJT图腾柱类似，主要的区别在于MOSFET型的推挽结构的输出信号与输入信号相反，相当于一个反相器。而且MOSFET和BJT相 比，导通损耗更小，因此所需控制功率更小。此外，MOSFET作为压控型器件，其输出侧漏极电流不受输入侧栅极电流控制，因此可以产生较大的驱动电流。 
+
+由于实际电路中，PMOS和NMOS栅极信号的上升和下降的斜率不是理想的无 穷大，因此开关过程中两个MOSFET 会有同时导通的时间段，使得VCC和GND在短期内会出现一条直流通路。因此在实际设计中需要对PWM控制信号加上死区时间产生电路来防止穿通现象，具体设计将在控制模块部分给出。
+
+3.3.4 栅极驱动网络设计 
+
+本文所提出驱动保护模块包含过流保护，过欠压保护，动态均流功能，因此驱动结构较通常的驱动电路复杂，下面将具体分析该驱动保护结构的设计思想和过程。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhalibicDS3FibYmV73icGy40xdpEibprYUvx6icjlSNdPSXWxP2icorTRmTiaYsw/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaylicyb5iaWiasNNQicgefD4qZHBok4OWiacBJUL3TrP3Bdr9ktKTHPN8W1w/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaibf9YiaPated99U3gsdSeIj66QiaKic6T2jpNoL96J6ichxuHl1ic43fqGkQ/640?wx_fmt=png)
+
+3.4 控制模块设计 
+
+栅极驱动网络需要正确的控制信号才能完成所设计的驱动保护功能，本节介绍控制模块的设计，其中包括动态均流控制、过欠压检测、过流检测以及开关切换控制。 
+
+3.4.1 动态均流控制 
+
+带有动态均流功能的驱动结构已在上一小节中被提出，但还需配合电流失衡检测电路以及动态均流控制模块才能完成动态均流功能。由于SiC MOSFET常应用于高频电路，因此对电流检测的带宽要求较高。若采用模块式霍尔电流传感器，一方面体积很大，精度一般；另一方市面上的商用霍尔电流传感器带宽上限在200kHz左右， 因此对大于200kHz以上的应用的电流检测无能为力。因此动态均流模块采用检测电阻加运放的方式来检测。它的优势是精度较高，体积小；劣势是精密电阻选择较难， 温漂大。为了解决以上矛盾，本文采用的阻值为10毫欧的Omhite高精密检流电阻， 其datasheet如图3.7所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaPngLcyXVzlB9F9XD85HRSH2GJibNTeuh0AHviah67FdeDHU6ZaCtsHOQ/640?wx_fmt=png)
+
+可见，Omhite检流电阻的阻值误差在1%左右，因此精度非常高。其电阻温度系数为60ppm/℃,以温度变化100℃为例，电阻值只改变千分之六，因此温漂非常小， 因此这种检流方案将适用于测量高速开关中动态电流不均。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhakvBOyzp9U2ia2CjFMahu15a4ibWcetj9A3aITGYM9lqvJEJfOndxU44w/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaMvn3gflHzcqKB46bpBtXa2kLibF8icWHf2qksRxblaIiaNToqNTBypIKw/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHha3iaZNIcIjukM5p739tmP32oapCUGkQvnYSxrKo8WWT0k7XeuMrwoSUA/640?wx_fmt=png)
+
+3.4.2 过欠压检测 
+
+功率MOSFET共有三个工作状态，截止区（cut-off），线性区（Linear）以及饱和区（Saturation）。饱和区指的是输出特性曲线中电流达到饱和的区域，当VGS一定时， 此时的漏电流几乎与漏源压无关，对应图3.11中蓝色阴影区域。而与之相对的是线 性区（欧姆区），对应图3.11中紫色阴影区域。此阶段中，VDS和ID满足欧姆定律。而功率MOSFET作为开关应用时，应避免MOSFET长时间进入饱和区，因为此时MOSFET功耗非常大，在高速开关下不利于器件稳定性，所以需要对MOSFET栅极 施加合适的栅压才能保证器件稳定高速地工作在开关状态。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaL0epkfBfkia2Jw002obra5ByNX16DvTHuiaWibowEHbn5CdECB2ib5Wia7g/640?wx_fmt=png)
+
+先我们需要确定栅极允许的工作电压范围，然后进行栅极过压及欠压的检测和保护。通过研究SCT2080KE的器件手册可知栅极的最大工作范围为-5V至22V，超 过此范围易导致器件栅氧化层击穿并失效。因此我们可以以此为依据设置栅极正压的阈值上限为22V，负压的阈值下限为-5V。此外我们还需确定MOSFET正压的阈值下限。由SCT2080KE在不同栅压下的输出特性曲线可知，假设保持10A负载电流不变时，栅压低于15V时，MOSFET的导通压降迅速增加，器件进入饱和区，器件在导通状态下损耗增加，温度升高，导致器件稳定性大大降低。因此为了确保充分发挥SiC  MOSFET在大电流和高温应用下的稳定性，我们将栅极正压的下限设置为15V。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaqGp41AKricaAB3ia1wplAHXC0053t9Sylszkml0exUfrTdQDu9OaDUvg/640?wx_fmt=png)
+
+本文过欠压检测由三个比较器COMP1，COMP2，COMP3，一个运放OPA6（做 反比例放大器用）以及一个三输入与门AND1组成。由于本文的推挽驱动结构中，当PMOS栅极为高电平，NMOS栅极为低电平，电源电压VCC近似栅极正电压。同理， 当PMOS栅极为低电平，NMOS栅极为高电平时，电源电压VEE近似栅极负电压。因 此可以通过检测电源电压VCC和VEE来做栅极过欠压保护。然而，又因为数字模块中比 较器均采用单电源5V供电，因此需要对三个比较器的采样电压以及保护阈值进行分压后连接到各比较器输入端，具体的计算公式如（3-9）所示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhamrLE3c0BiaD9MYXr1P1gSIL2ibzlfoGPEibKjz34RbaBe9GOu3QZ4kqXA/640?wx_fmt=png)
+
+其中，负压的过压检测中，负压信号需通过运放LM258反向后再连接到比较器 OPA6同向端。分压的原则是使得等效采样电压和等效栅极保护阈值落在比较器单电源5V工作时的线性工作区内。三个比较器的输出连接三输入与门AND1。当栅极所加电压不在给定的安全工作范围内时，至少一个比较器输出为低电平，因此三输入与门AND1的输出为高电平，此信号作为栅极过欠压得检测信号输入给开关切换模块来实现过欠压保护。  
+
+3.4.3 过流检测 
+
+3.4.3.1 DESAT检测原理 
+
+在SiC MOSFET电路应用中，电路焊接过程中的导线误连，线材损坏或者过载的情况下，流过功率器件的电流会急剧增大，导致巨大的损耗和热量，最终损坏功率器件和应用电路，因此对于功率器件的过流检测和保护十分重要。基于双极型器件的功率电路通常会使用“去饱和检测（DESAT）”来保护器件免受电路短路或者过流造成的损坏。然而对于MOSFET单极器件，去饱和检测能否使用还需考虑以下几个因素。 
+
+通常来说，由于高压MOSFET的输出特性曲线的线性区与IGBT相似，因此去饱和检测是可以通用的。然而，一些低压MOSFET的在最大脉冲电流标称值下的VDS值很小。在VDS上升到保护阈值前，漏电流在很大的范围内会导致器件损坏。由于保护的区域远离最大标称脉冲电流对应的VDS值，因此器件会在保护电路触发工作前因为过流而损坏。本文选用的ROHM的SCT2080KE为1200V 30A的SiC MOSFET， 符合要求。 
+
+另一方面，由于SiC MOSFET的短沟道效应，与Si MOSFET相比，其输出特性曲线中线性区至饱和区的过渡不是很清晰，在很宽的电流范围内才能过渡完成。而在Si IGBT 的去饱和检测中，过流参考电压的选择比较清晰，为线性区和饱和区的拐点处，而SiC MOSFET的过流参考电压选取没有那么直接，需要结合datasheet中允许 通过最大电流以及所对应的VDS值来确定。为了保证电路系统的安全，过流基准电压的选择需要保守估计，留出一些裕量。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaD7bI88OG6A72TWPFbsz9A6H1VkxUGjJssJMFzra6cg2hVoQYIesZRg/640?wx_fmt=png)
+
+3.4.3.2 Blanking time设置  
+
+SiC MOSFET在开启后，其漏源两端电压VDS可能发生振荡不能立刻落到稳定值，导致过流保护的误触发。因此其检测电路在SiC MOSFET在开启后需保持一段关闭
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHha7DcbogMpnZp4ld8QVCO9ibAg8jic1XHwdzBibDUSO8icy95hmNJxCjcr8g/640?wx_fmt=png)
+
+VF为DESAT二极管的正向压降，VZ为齐纳二极管击穿电压。因此可根据不同场合的保护要求以及不同器件来选择合适的DESAT保护阈值。
+
+3.4.3.4 锁存和计数 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaNuygkia8iaVYeJ8CNbfgaCnwA7OBDZicIdplT1DgIjEahmlXRnEtU12eg/640?wx_fmt=png)
+
+当DESAT检流单元检测到过流时，需要通过锁存单元来锁存故障信号。为了进 一步防止DESAT过流检测的误触发，本文采用了两级RS锁存器结合计数器对错误状态计数，直至累计到设定值后，最终锁存故障信号。其电路结构如图3.14所示，由多个JK触发器，RS锁存器以及若干逻辑门组成。其中计数器是通过4个JK触发器 结合四输入与非门组成，通过调节与门输入端来设置清零端。通过改变两组锁存器输入端的电平可以有三种保护模式，分别为单次锁存，计数锁存，周期性复位。各种不同模式下的锁存器输入的信号如下表所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHha5bDPCpibjsovzcaWIMAuJpv9uaVWMicfe1YZhWeOBHfhcszOAcQxv7IQ/640?wx_fmt=png)
+
+计数锁存模式下锁存器RS1的R端接高电平，S端接计数器清零端，或门输入端1接PWM信号，输入端2接锁存器RS1的输出，而锁存器RS2的S端和R端分别接比较器输出和高电平1，输出接JK触发器组的时钟信号。当发生过流时，比较 器输出为低电平，锁存器RS2输出置1，触发栅极网络中的软关断和钳位保护，并让计数器计数一次。SiC MOSFET关断后，R端为零，锁存器RS2复位，下一周期重新计数，直至故障数达到计数数器清零值后，JK触发器组清零端为低电平，锁存器RS1置高电平，或门输出固定在高电平。因此下一周期检测到故障时，不再复位。 
+
+单次锁存模式只需使用一个RS锁存器，锁存器的S端接DESAT检测比较器 COMP4输出，锁存器RS2的R端接高电平，当检测到过流时，COMP4输出变低， 锁存器RS2输出置位到高电平，并产生故障信号Falut。 
+
+周期复位模式也只需一个SR锁存器，锁存器RS2的S端同样接DESAT检测的比较器COMP4的输出，锁存器RS2的R端接或门OR1，而或门OR1的输入端1连接PWM信号，输入端2接地。SiC MOSFET开启时，PWM必然为高电平，因此锁存器RS2的R端为高电平1，当检测到过流时，COMP4输出变低，锁存器RS2的输出置高电平，并产生故障信号。当PWM为低电平时，SiC MOSFET关后，没有电流通过，因此COMP4输出恢复高电平，锁存器RS2输出为低电平，撤消故障信号。在实际应用中，可针对电路保护的不同需求选择不同的保护模式。 
+
+此外，为了便于预警危险情况，故障信号Fault还连接了报警器电路。发生故障时，Fault信号使得NMOS S9和S10下拉导通，发光LED和蜂鸣器电路同时导通， 可以警示SiC MOSFET发生故障。  
+
+3.4.4 开关切换控制 
+
+开关切换控制单元用于接收过欠压检测单元、过流检测单元的输出逻辑信号，产生控制SiC MOSFET的开关信号，主要由死区时间产生电路、开关切换电路、光耦以及电平抬升电路构成。 
+
+3.4.4.1 死区时间产生 
+
+驱动结构中PMOS和NMOS组成的推挽结构在开关过程中容易出现PMOS和NMOS同时导通的情况，引发非常大的穿通电流。因此对PMOS和NMOS的栅极信号需预留死区时间，开启时保证让PMOS完全关断后才让NMOS导通；关断时NMOS完全关断时才让PMOS导通。死区时间产生电路如图3.15所示。我们将外部PWM控制信号先通过多个反相器组进行延时，得到PWM\_D。将PWM和PWM\_D通过与门和或门可得到PWM\_AND和PWM\_OR。通过3.15可见，PWM\_OR信号的高电平可将PWM\_AND信号全包，因此可以防止MOSFET推挽结构在开关过程中的电流穿通。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhauQSWBSeRdghbNHe6GMjYVj45JGEPd2OF39EAwjZLN3nN92eiap26Acg/640?wx_fmt=png)
+
+3.4.4.2 开关切换控制 
+
+开关切换控制电路结构主要由三输入与非门NAND1，与门AND3，反相器， NMOS器件S1，光耦6N137以及电平抬升芯片MIC4124组成，具体连接关系如图 3.16所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnkNywkonXibhDaibUH54EHhaVSdawnJhmHh5RyPicdfVL3l35fW3wamBqiaDCWjvm7MgicwXhD9VzDZWQ/640?wx_fmt=png)
+
+与非门NAND1的输入端分别连接PWM\_OR信号，过欠压检测模块的输出以及 S1的漏极。与门AND2的输入端分别与S1的漏极和PWM\_AND信号相连。其中PWM\_OR信号和PWM\_AND信号为PWM信号经过死区时间产生模块后的控制信号。最后将NAND1和AND2的输出连接MIC4124的输入端进行信号隔离和电平抬升。 
+
+当PWM为高电平且电路处于正常工作状态， S1关断，与门NAND1三个输入端都为高，因此输出为低电平，同理AND2的输出为低电平。因此推挽结构中PMOS 和NMOS栅极都为低电平，VCC通过PMOS器件SP给SiC MOSFET栅极充电。SiC  MOSFET关断时，同理可知其栅极通过NMOS器件SN放电至地。 
+
+当PWM为高电平且电路处于故障状态时，S1栅极为高电平，与非门NAND1输出抬高，AND2输出拉低，经电平抬升后，PMOS栅极电平为高，NMOS栅极电平为低，PMOS和NMOS切断SiC MOSFET充放电，电路停止工作。 
+
+3.4.5 工作过程分析 
+
+前面几节对控制模块的各个子单元做了简单介绍，本节将各单元结合起来，详细描述正常工作状态和故障状态时电路工作原理。 
+
+3.4.5.1 正常运行过程 
+
+下面以SiC MOSFET M1为研究对象，对电路正常工作时，SiC MOSFET开关过程的工作原理作详细描述。 
+
+PWM输入信号通过死区时间产生电路产生PWM-OR和PWM-AND信号用于开关控制。 
+
+SiC MOSFET开启过程：输入信号PWM-OR为高电平1，因此与非门NAND1的输入端1为高电平1。输入信号PWM-AND高电平1通过反相器后变为低电平0，因此与门AND2的输入端2为低电平0。电路正常工作时，过欠压检测单元中与门AND3 的三个输入端均为高电平1，与门AND3的输出端为高电平1，因此与非门NAND1 的输入端2为高电平1。电路正常工作时，锁存器RS2的R端为高电平1，由于过流检测单元中比较器COMP4输出为高电平1，因此锁存器RS2的S端也为高电平1， 锁存器RS2的输出Q维持之前的低电平0。因此NMOS S1关断，与非门NAND1的 输入端3和与门AND2的输入端2由电阻Rph上拉到高电平1。综上：该阶段与非门 NAND1的三个输入端都是高电平，因此与非门NAND1输出为低电平，与门AND2 的输入端1为高电平1，输入端2为低电平0，因此与门AND2的输出也为低电平0。 经过电平转换电路转换后，0VTTL电平保持0V，3.5V TTL电平抬升至20V。因此， 推挽驱动结构中PMOS器件SP和NMOS器件SN的栅极都为低电平0，所以PMOS 开启，NMOS关断。电源VCC通过栅极驱动回路给SiC MOSFET栅极充电，使其完成导通过程。 
+
+SiC MOSFET关断过程：PWM-OR输入信号为低电平0，经反相器后变为高电平 1，所以与非门NAND1的输入端1为低电平0，与门AND2的输入端2为高电平1。 电路正常工作时，过欠压检测单元中与门AND1的三个输入端均为高电平1，可知与门AND1的输出端为高电平1，因此与非门NAND1的输入端2为高电平1。电路正常工作时，锁存器RS2的R端为高电平1，又因为过流检测单元中比较器COMP4输出为高电平1，所以锁存器RS2的S端为高电平1，锁存器RS2的输出Q保持之前 的低电平（R:1,S:1,Q:Q’）。因此S1关断，与非门NAND1的输入端3和与门AND2 的输入端2由电阻R5 抬到高电平1。该阶段与非门NAND1的中有一输入端为低电平，因此与非门NAND1输出为高电平，与门AND2的两个输入端都为高电平1，因此与门AND2的输出为高电平1。经过电平转换电路转换后，3.5V TTL高电平变为20V高电平。因此，推挽驱动结构中PMOS器件SP和NMOS器件SN的栅极都为高 电平1，所以驱PMOS关断，NMOS开启。SiC MOSFET的栅极电容通过栅极驱动回路向VEE放电，SiC MOSFET完成关断过程。 
+
+3.4.5.2 过欠压保护过程 
+
+下面对SiC MOSFET栅极发生过欠压故障时，SiC MOSFET开关过程的电路工作原理作详细描述。 
+
+SiC MOSFET开启过程：由于发生过欠压故障，电压比较器COMP1，COMP2， COMP4的输出至少有一个为低电平0，因此与门AND1输出为低电平0，与非门 NAND1输出为1。此时PMOS SP的栅极为高电平，因此PMOS关断，VCC不再给SiC  MOSFET栅极充电，SiC MOSFET处于关断状态。若正常开启，SiC MOSFET导通， 其两端导通压降很小，缓冲器Vbuf给电压比较器COMP4反向输入端连接的电容Cblk充电，不会超过电压比较器COMP4同向输入端的基准电压Vdesat( th) 。发生故障时， SiC MOSFET关断，此时其两端电压等于外部测试电路的母线电压VDC，该电压非 常大，此时缓冲器Vbuf迅速给电容Cblk充电，电压比较器COMP4反向输入端的电压 迅速增大。当电容Cblk上的电压大于比较器同向输入端的基准电压Vdesat(th) ，电压比较器COMP4输出端变为低电平。电压比较器COMP4反向向输入端的电压不会一直升高，最终稳定到缓冲器Vbuf 的输出电压。此时锁存器RS2的S端为低电平0，R 端为高电平1，输出端Q置为高电平1（R:1,S:0,Q:0）。此时JK触发器JK1的时钟输入端接收到高电平，因此错误状态数累计1次。 
+
+SiC MOSFET关断过程：PWM输入信号为低电平时，经反相器后得到高电平1， 过流检测单元中NMOS S6开启。电容Cblk通过S6迅速放电。电压比较器COMP4的反向输入端DESAT迅速下降，低于比较器COMP4同向输入端的基准电压Vdesat( th) ，电压比较器COMP4的输出端变为高电平1，因此锁存器RS2的S端变为高电平1。 锁存器RS2的R端连接或门OR1的输出端，或门OR1的输入端连接PWM输入信 号和锁存器RS1的输出端。由于锁存器RS1的R端置高电平1，S端连接JK触发器 组的清零端（低电平有效）。当JK触发器组构成的计数器的错误状态数未达到预设值时，JK触发器组的清零端为高电平，锁存器RS1的S端也为高电平。所以锁存器RS1 的输出端在错误状态数未记满时将维持之前的低电平，因此或门OR1的输出仅和 PWM输入信号有关。关断时，PWM输入信号为低电平，因此锁存器RS2的R端为低电平0，因此锁存器RS2的输出端Q置零（R:0,S:1,Q:0），锁存器复位。若下一周 期，SiC MOSFET的栅极仍然处于过欠压的状态，则重复上述过程；若下一周期故障被排除，则电路恢复正常工作。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4JANicF3CCvaPNpxrvcgpHzhMZKjXdNNs5pCgNVTJFqrK7pl79KswqjQ/640?wx_fmt=png)
+
+3.4.5.3 过流保护过程 
+
+下面对SiC MOSFET发生过流故障时，SiC MOSFET开启过程关断过程的电路工作原理作详细描述。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4eo5IRFqaR7ky4oIU6mMxYNP7Qt5cvZL2CpF3FO0EXoXwJzsBakpnzw/640?wx_fmt=png)
+
+ 外漏源电压变化率过大会耦合到SiC MOSFET栅极，导致SiC MOSFET在关断时误 导通，使得关断过程减缓，增加额外开关损耗。在半桥应用中甚至会引发上下桥臂直 通，导致直流电源短路，损坏桥臂功率器件。因此软关断对于大电流变化率下的功率 管关断至关重要。 
+
+3.5 PSpice仿真分析 
+
+前面几节对驱动保护模块的原理进行了介绍，本节将对电路功能进行完整的仿真验证，为后续样机实测做准备。  
+
+3.5.1 动态均流仿真 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg49L3wiaZs5QsPrCQkoiajMibHMXBDIZWGkWk1HoWWibyymDf61HxVibzAoRw/640?wx_fmt=png)
+
+节差分运放的放大倍数，以及积分器的RC值可调节电流失衡的消除时间。 
+
+图3.19为图3.18中并联SiC MOSFE漏电流在三个时间段放大波形后的对比图， 三个时间段中SiC MOSFET的漏电流有些许差别，这是由于Boost启动阶段的振荡引起的，但是不影响动态均流电路的功能。通过图3.19的对比可验证电流失衡的消除过程，当10ms仿真结束时，电流失衡完全消除，也验证所设计的动态均流结构和检测反馈方案能够正确采样和消除电流失衡。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4gQQcXw9mg2osYGaR5NdS44Bd8IotX1NaRA1hFVJsFTrnzARuMXGjZA/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg45jPcEic71Tic3SlQP2rMnmT9YAgLX1TzlaO4IatNxX3tIR7E7fKyj78A/640?wx_fmt=png)
+
+图3.20所示为特定积分时刻电路的仿真结果，可见经过特定逻辑后产生的NMOS  S6和S7的栅极控制信号分别只在开启和关断的一小段时间内为低电平。在这段时间内，积分器完成对差分运放OPA3输出电压的积分。从积分器OPA4和OPA5的积分 电容的电流波形也可以验证，积分器仅采集开关过程中的电流失衡，而其余时间段内的误差信号不会被采集，这样也提高了检测的准确性。  
+
+3.5.2 驱动保护仿真 
+
+在动态均流仿真中，我们采用了Boost电路作为测试电路，然而。一方面，当Boost电路参数确定后，流过MOSFET的电流是固定的，不利于验证过流保护功能。而且由于控制电路比较复杂，Boost电路的仿真时间特别长，经常遇到不收敛的情况。由 于Boost电路和电感钳位电路中SiC MOSFET都处于低端位置，因此采用电感钳位 电路来替代Boost电路是同样可以验证功能的。电感钳位电路常用于MOSFET和 IGBT双脉冲测试，我们在仿真中将电路运行时间加长，由于电感钳位电路中没有外界负载，能量只会在续流二极管中损耗，因此流过电感和MOSFET的电流是逐渐上升的，使得过流保护功能验证更为直观和便捷。驱动保护仿真的PSpice原理图收录在附录之中。我们将开关频率设置为500kHz，输入电压设置为300V，主电感为100μH， 另外在回路中串联了一个20nH的小电感模拟杂散电感。 
+
+3.5.2.1 死区时间仿真
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4Ig5prtobWVjQ9VpNH21DpbmCZQcTvZVlWibCJ7SRmdngwMICmAibfeGw/640?wx_fmt=png)
+
+图3.21所示为推挽驱动中PMOS和NMOS栅极信号在49u至50.6μ内的波形,可见PMOS的栅极信号将NMOS的栅极信号包围。无论是在SiC MOSFET开启还是关断瞬间，推挽结构中的PMOS和NMOS都没有同时导通。通过观察流过PMOS和NMOS的电流可见，开关过程中没有出现电流穿通，因此SiC MOSFET开关过程是稳定安全的。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4AeeznibicOf8OZdLricxraYEkHTpqCmicoS3L1hyOFCHPMib6BxK1dovwZA/640?wx_fmt=png)
+
+3.5.2.2 过欠压保护仿真  仿真过程中通过使用PSpice软件中的VPWL源来在特定时间段内模拟过压和欠压信号，来检测所设计电路的过欠压保护功能。VCC的阈值上限设置为24V，下限设置为16V。从图3.22可见，在5μs时刻左右供电发生了欠压状况，而在15μs时刻左右供电发生了过压情况。在发生过欠压故障时，推挽结构中PMOS栅极信号迅速上拉 到高电平，切断充电回路。由SiC MOSFET的VDS，VGS和ID波形可见SiC MOSFET在 过欠压时迅速关断，经验证过欠压保护正常工作。 
+
+3.5.2.3 DESAT检测和过流保护  
+
+（1）过流情况 
+
+过流保护仿真中DESAT检测阈值Vdesat(th)设为4V，由于SiC 二极管的压降约 为1V，因此器件触发过流保护时VDS为3V，SCT2080KE的导通电阻为80毫欧，因此设计的过流保护的电流大小约为30A。 
+
+图3.23为过流保护功能仿真中VDS，VGS和ID波形。图3.24为过流保护功能仿真中的DESAT检测电压、比较器COMP4输出、锁存器RS2输出以及CMOS推挽结构中PMOS和NMOS栅极波形。当SiC MOSFET漏电流（稳定值）大于30A时，VDS( ON )加上二极管的压降大于比较器同向端基准电压Vdesat       (th)，因此比较器COMP4输出拉低，导致锁存器RS2输出Fault信号拉高，触发过流保护功能。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4HhGchRrWUEpFI1oDmrJyWNqR5hHTicIicquTqINlQv5YIbKSXFdZIgeQ/640?wx_fmt=png)
+
+此时PMOS关断充电回路，SiC MOSFET栅极从20V钳位到10V。漏极电流从30A下降到20A左右，再慢慢关断，可见发生过流后的钳位和软关断结构正常工作。 在发生过流保护前SiC MOSFET的过冲电压值达到40%。第一次启动过流保护后， 过冲电压降为20%。然而，由于锁存器RS2周期性复位的原因，下一周期SiC MOSFET 重新开启，软关断过程并不完整，过冲仍然存在。当故障累计到计数器清零时，启动最后一次过流保护，电路不再工作，软关断过程比较长，因此几乎没有电压过冲。从ID和VGS的波形中也可以看到周期性复位时的软关断过程比较短，最终停止工作时， 软关断过程更加平缓。此外，SiC MOSFET漏电流开启瞬间的电流尖峰时间很短，约为50ns，本文设计的blanking time足以过滤这一瞬态，不影响检测的准确性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4BeB9UulfjWyMl2lGLl8NxHzS6dwiaQ6PaUFnBsnicMtYGVUo0ibg2mLCw/640?wx_fmt=png)
+
+2）短路情况 
+
+SiC MOSFET应用电路中除了过流故障之外，更危险的情况是发生短路故障，此时过流保护检测的及时性非常重要。发生短路时，流经SiC MOSFET的电流急剧增大，必须及时关断器件。本文在PSpice仿真中通过在电感和续流二极管两端并联一个理想的可控开关来模拟短路情况，所设定的短路开启时间为30μs。 
+
+ 图3.25为短路保护功能仿真中VGS，ID以及VDS波形。图3.26为过流保护功能仿真中的DESAT检测电压、比较器COMP4输出、锁存器RS2输出以及CMOS推挽结构中PMOS和NMOS栅极波形。当电路发生短路故障时，SiC MOSFET漏极电流急剧增大至100A， VDS(ON)也迅速增大，导致电容Cblk电压超过比较器阈值Vdesat(th)，因 此比较器输出拉低，导致锁存器RS2输出Falut信号拉高，触发过流保护功能。此时PMOS关断，充电回路断开，SiC MOSFET栅极从20V钳位到10V。漏极电流从100A下降到20A左右，再慢慢关断。器件过流到关断的处理时间约为200ns，远小于SiC  MOSFET的短路承受时间的典型值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4rwwGzwLdMiaqFB4c8no0jIaI0icpLwAwicSLs93IOJTtAib4icWDCMOvpMQ/640?wx_fmt=png)
+
+3.5.2.4 计数和锁存 
+
+最后，我们将过欠压故障和过流故障结合起来进行联合仿真，并验证计数和锁存功能。计数器的模设置为4。图3.27所示为联合仿真中计数器清零信号（即RS1锁存器R端信号），锁存器RS1输出、或门OR1输出的波形。图3.28为联合仿真中的DESAT检测电压、比较器COMP4输出（即RS2锁存器R端信号）、锁存器RS2输出Falut信号以及SiC MOSFET栅极波形。 
+
+当发生过欠压故障时，推挽结构中PMOS栅极变为高电平，切断充电回路。由于此时VDS为母线电压，缓冲器持续向电容Cblk充电至缓冲器输出电压，触发DESAT检测，比较器输出高电平，锁存器RS2输出信号Falut变高，使得计数器计数。锁存器RS1因为计数器未累积至清零，所以锁存器RS1输出维持初始低电平。又由于锁存器RS2的S端连接或门OR1输出，而或门OR1两输入端连接锁存器RS1输出和PWM信号。PWM是周期信号，因此或门OR1输出为周期性方波，锁存器RS2在清零和置1中切换。下一周期电路仍然正常运行。 
+
+68μs后，SiC MOSFET漏电流超过30A，触发过流保护，计数器累积故障数，同理下一周期重新开始检测。69μs时再一次发生过流故障，计数器累积至4，清零端清零，锁存器RS1置1，因此锁存器RS1的S端恒为1。当下一周期发生过流后，比较器COMP4输出置0，因此锁存器RS2输出置高，使得推挽结构中PMOS彻底关断， SiC MOSFET不再开启。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4hbacOiafsjNTVaeDW2jEWib4ECLoCMDfXolfUUSfuUAxBPpCsrUZFdPg/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4Oic9YISmpRaS1EULw0viaUF865ylkvY1Z7C1iaOPyaIokia9JJ7MaCn8VA/640?wx_fmt=png)
+
+  3.6 本章小结 
+
+本章首先将商用SiC MOSFET和Si功率开关器件参数进行了对比，分析了SiC  MOSFET和Si功率开关器件驱动的异同点，并总结了SiC MOSFET驱动保护的设计要点。在此基础上，对供电电源选择(驱动电压，峰值电流等)，隔离方式选择，驱动 结构设计，控制及保护电路设计，测试电路选择等方面进行了充分的考量与分析，最终确定合理可行的SiC MOSFET高速驱动保护方案。驱动电压采用正压18V，负压- 3V的方案；隔离方式采用高速，抗干扰能的光耦隔离；缓冲器设计部分采用PMOS 和NMOS组成反相器式推挽结构；栅极驱动网络中结合了动态均流结构以及钳位软 关断结构。控制模块中DESAT过流检测与保护中采用了两级锁存和计数器结合实现了三种不同的故障保护模式。动态均流控制中通过高精密检流电阻结合差分运放与积分器的方案实现了电流失衡的采集与反馈。此外，还设计了LED和蜂鸣器报警电路来反馈电路故障。并且在Cadence PSpice平台上，将所设计驱动保护模块在Boost电路和电感钳位电路中进行仿真，经验证可高速稳定工作于500kHz，并且具备过流保护，过欠压保护，动态均流，错误状态锁存等重要功能。
+
+第四章 SiC MOSFET驱动保护模块样机制作与测试 
+
+本文第三章对 SiC MOSFET驱动保护模块进行了设计和PSpice仿真，PSpice仿真结果也验证了该驱动保护模块能够高速可靠地工作于SiC MOSFET高速开关应用以及SiC MOSFET并联应用。本章以驱动保护模块的PSpice仿真结果为基础，绘制PCB板、制作样机并通过电路实测进行功能验证。 
+
+4.1 样机制作 
+
+本章主要针对上文所设计的SiC MOSFET高速开关驱动保护模块进行PCB设计， 主要完成了基于电路功能分析后的PCB功能区域划分，以及对元器件布局进行了合理规划以缩短传输路径延时。对于一些关键路径和关键信号，如并联SiC MOSFET驱动路径以及驱动控制信号的布线，进行了优化设计，使得SiC MOSFET驱动保护模块样机实测能够符合理论分析和PSpice仿真，最后完成PCB的绘制，打样以及元器件焊接。 
+
+由于本文的功率主电路承受电压和电流较大，功率在千瓦级别，因此对PCB制 版要求较高。而控制模块作为小信号电路对于信号精度要求较高，功率电路在高速开关过程中，电流和电压的高变化率会对控制电路产生干扰，一种有效地方法是将控制电路和功率电路分离，但是两块PCB板的连接中引入的导线将对开关速度和驱动保护信号的质量产生负面影响。因此本文将驱动保护模块和功率模块做在一张板上，因此驱动保护信号能够高速传输，并且在PCB上划分出三个区域，Power模块，Digital模块以及Analog模块。其中Power模块为Boost电路，Digital模块负责检测和产生过欠压保护、过流保护、动态均流及开关控制信号。而Analog模块负责驱动保护以及电源供给。三个区域分别采用功率地，数字地以及模拟地，并以零欧姆电阻相连。 这种方式既保持了驱动信号传输的高速稳定也减小了各模块间的信号干扰，有利于电路工作的稳定性。 
+
+另一方面，SiC MOSFET导通电阻的正温度系数有利于其在大功率应用中的并联使用，但是通过前文研究可知影响并联SiC MOSFET开启和关断瞬间的电流失衡主要由器件本身的阈值电压以及驱动路径阻抗的差别导致的，为了保证SiC MOSFET并联应用中的稳定，首先在PCB设计中做到并联SiC MOSFET的驱动路径严格对称， 然后通过动态均流控制来消除并联SiC MOSFET阈值电压差异带来的负面影响。驱动保护控制电路中的元器件以贴片元器件为主，有利于减小驱动模块的体积，增加SiC MOSFET应用电路的功率密度，图4.1和图4.2分别为SiC MOSFET驱动保护模块以及功率主电路的原理图和PCB版图。图 4.3 所示为SiC MOSFET驱动保护模 块以及功率主电路样机。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4OPvpclCXRicfpC55rYmCRy1RuiaTO246oia782Eh2JZpY6SNSU6libqJiag/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4Qvm07WCqGibW5icFViadc3SCarxDQsib0jOUl3e26Pp5N2xLtFO2qz8Tog/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg42l4xctHV4eWL6bKoyGjmoofPxywsMEiaQSbpdRnq5D7YLeal0z0Bic8w/640?wx_fmt=png)
+
+4.2 控制功能测试 
+
+首先，我们将对驱动保护模块的控制部分进行完整测试，为后续大功率主电路的驱动保护测试做铺垫。控制功能测试内容主要包括死区时间产生、栅极过欠压保护控制、过流检测与保护控制以及动态均流控制。 
+
+ 4.2.1 死区时间测试
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4ib6Hey5MRbFgSzCTmdNkWibr3ZKPH7JykDJd2dJOm1ia9AnXZgzIDdbRQ/640?wx_fmt=png)
+
+图 4.4(a)所示为1MHz工作频率下驱动控制信号的死区时间测试波形。其中，信号2为控制模块输出的驱动信号High side，High side信号经过电平抬升后用于驱动推挽结构中的PMOS。信号3为控制模块输出的驱动信号Low side，Low side信号经过电平抬升后用于驱动推挽结构中的NMOS。图4.4(b)为High side和Low Side信号经过电平抬升器MIC4124后的波形。可见，推挽结构中PMOS栅极驱动信号的高电平完全包含了NMOS栅极信号，因此可以验证死区时间产生电路的正确运行。  
+
+4.2.2 栅极过欠压保护控制测试 
+
+图4.5所示为栅极过欠压保护测试的波形图，图4.5(b)为图4.5(a)局部放大之后的波形图。其中，信号1为三输入与门AND1的输出波形，信号3为控制模块输出的驱动信号Low side，信号4为控制模块输出的驱动信号High side。测试中分别模拟了栅极驱动正压的过压以及欠压，由于三输入与门AND1的输出信号与三输入与非门 NAND1输入相连，而三输入与非门NAND1的输出就是信号3，当栅极发生过欠压时，信号1的高电平迅速拉低使得信号4电平抬高，因此PMOS关断，充电回路断开。当栅极驱动电压恢复正常值时，High side信号恢复周期性变化，SiC MOSFET恢复正常开关状态。因此，可以验证栅极过欠压检测与保护工作正常。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4C5G3FPVMicnLo2LKlRwzrnF2xH0SDYNqHBo1F9bliaSTzO1Syzl3uU4w/640?wx_fmt=png)
+
+4.2.3 过流检测控制测试 
+
+图4.6所示为周期性复位模式下过流检测中的关键波形（100kHz）。图4.6(a)中， 信号1为DESAT检测中比较器COMP4的输出信号，信号2为电容Cblk的电压VDESAT， 信号3为NMOS的栅极控制信号Low side，信号4为PMOS栅极控制信号High Side。 图4.6(b)中，信号1为锁存器RS2的输出信号Fault（作为故障信号，高电平有效）， 其余三个信号与图4.6(a)中一致。当电容Cblk的电压超过比较器COMP4同相端的基 准电压2.5V时，比较器COMP4输出拉低，锁存器RS2的输出信号Fault拉高。此 时，PMOS栅极信号迅速拉高，导致PMOS关断，因此SiC MOSFET栅极的充电回路被切断，同时Falut信号使得钳位和软关断支路打开，起到保护作用。由于或门OR1 的输出随PWM周期性变化，因此锁存器RS2的输出在SiC MOSFET关断初刻被清 零，下一周期重复上述过程。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg43Euicia2XKRwRfabmqpdWoACkAicHcKrQg9e1ibx2Dwr4BLsyrs7yjHHibw/640?wx_fmt=png)
+
+图4.7(a)和(b)分别为工作频率为500kHz和1MHz时，计数锁存模式下过流检测的控制波形。其中，信号1为或门OR1的输出信号（同为锁存器RS2的R端），信号2为计数器组的清零信号Clear（同为锁存器RS1的S端），信号3为锁存器RS1的输出，信号4为锁存器RS2的输出Fault（作为故障信号，高电平有效）。在计数器计数未达到清零值时，其工作过程与周期性复位模式类似。锁存器RS2周期性复位， 过流保护在每个周期重复触发。当计数器计数达到清零值时，计数器清零信号Clear拉低（在图4.7中可见清零信号低电平非常窄，大约在50ns左右），锁存器RS1输出被置1并不再复位，因此下一周期发生故障时，锁存器RS2输出信号Falut也被置1，
+
+该信号可用于控制开关切换单元，在发生故障时切断SiC MOSFET工作，并触发驱动回路中的钳位软关断支路来保护SiC MOSFET。 
+
+ 4.2.4 动态均流控制测试 
+
+图4.8所示为小信号输入条件下，动态均流控制中差分运放及积分器单元的检测 波形，开关频率设定为100kHz。在实际测试中，采用信号发生仪来模拟检流电阻两端的差分信号，第一级运放OPA1和OPA2的差分输入信号为30mV，通过调节OPA1 和OPA2差分输入信号的相位与脉冲宽度使得OPA1对OPA2的差分输入信号在高电平阶段形成全包，来模拟阈值电压或驱动阻抗不一致时，并联SiC MOSFET的动态电流失衡。此外，第一级和第二级运放的闭环增益G均设定为30倍。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg429LKWUCeM5sqI2icQfrKrGK3pQ69F2g2FbicxdYjmcRgr5G2W7qicqdTw/640?wx_fmt=png)
+
+图4.8(a)中，信号1为运放OPA1的输出信号，信号3运放OPA2的输出信号， 信号2为第二级差分运放OPA3的输出信号。图4.8(b)中，信号1，信号2和信号3 与图4.8(a)一致，信号4为积分器OPA4的输出。从图4.8(a)中可见运放OPA3在开启和关断的瞬态采集并放大到了差分输入信号的压差，而图4.8(b)中积分器OPA6的输出逐渐升高，也验证运放和积分器单元能够正确采集和累积OPA1和OPA2差分输入 信号的微小差值。 
+
+此外，实际测试中100kHz频率下，积分器输出从零抬升到最大电压的时间间隔为毫秒级。鉴于本文设计中对积分器输出的抬升速度要求并不高，为了能够使得运放单元能够工作在更高的频率下，可以将第一级和第二级差分运放的闭环增益G适当 调低。 
+
+4.3 主电路测试 
+
+通过对控制模块功能的完整测试，已验证驱动保护模块的控制部分具备过流检测反馈，栅极过欠压检测反馈及电流失衡检测反馈的功能。下面将结合Boost主电路验证SiC MOSFET驱动保护模块的性能。  
+
+4.3.1 Boost变换器功能测试 
+
+4.3.1.1 SiC MOSFET高频应用测试 
+
+本次实验的主要测试内容为SiC MOSFET在高频开关下的性能,因此将SiC  MOSFET的开启和关断的驱动电阻统一设为5.1欧姆，选择较小的驱动电阻可以提高SiC MOSFET开关频率。负载设置为25欧姆，输入电压设置为25V，占空比调整为50%，用以完成25V-50V的升压变换，设计功率为200W。然后，分别测试500kHz和1MHz工作频率下，驱动模块及Boost主电路是否能正常工作。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4pdsLN2qqcBDbuHPkjB3evH6uQ7MmoAXXDaBhc4NBO5koNZQCichE5Wg/640?wx_fmt=png)
+
+图4.9(a)和图4.9(b)分别为样机工作在500kHz和1MHz下的测试波形，其中信号 1为SiC MOSFET的栅源电压VGS，信号3为漏极电流ID，信号4为漏源电压 VDS波形图。可见，所设计驱动电路可使Boost电路正常工作在500kHz和1MHz的频率下， 并完成25V-50V升压变换。但是在高速开关的情况下，还是产生了EMI问题，波形振荡比较严重，后文将分析可能的解决方案。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4ncTgxWria9xiciaGMbNBYXt0zrMEOxbItrqKHAB47YfwvPmVC8Lx19oxQ/640?wx_fmt=png)
+
+4.3.1.2 SiC MOSFET大功率应用测试  
+
+本次实验的主要测试内容为SiC MOSFET在大功率应用下的性能。SiC MOSFET开启和关断的驱动电阻统一设为10欧姆，选择较大的驱动电阻是考虑到测试功率提升后，会引发更大EMI问题，因此通过调大驱动电阻来降低波形振荡。此外，电子负载设置为8欧姆，输入电压设置为50V，Boost电路占空比设置为50%，用以完成50V-100V的升压变换，设计功率为1.25kW。由于当驱动电阻为10Ω时，SiC MOSFET在500kHz以上频率工作时，损耗较大。因此，为了降低风险，本次实验将测试250kHz和500kHz的工作频率下，驱动模块及Boost主电路是否能正常工作。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4a0BgSmDhCxXF0Xsc7hVNWodovyYxWJs9licO3O3reeDkLJUDYsd3fyw/640?wx_fmt=png)
+
+图4.10(a)和图4.10(b)分别为样机工作在250kHz和500kHz下的测试波形，其中信号2为SiC MOSFET的栅源电压VGS，信号3为漏极电流ID，信号4为漏源电压VDS波形图。可见在1.25kW功率下，基于SiC MOSFET的Boost变换器仍可以在250kHz 和500kHz的高频下工作，并完成50V-100V升压变换。由于驱动中采用了负压关断， SiC MOSFET在关断时漏电流振荡较小，振荡时间较短，并没有产生误导通的现象， 使得SiC MOSFET在高频大功率应用中的可靠性得以加强。但测试波形也显示了SiC  MOSFET栅极波形的振荡依然比较严重，下面将分析栅极波形振荡的来源和可能的解决方案。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg455hoiaM9Cj9szK7Ph9tdmicX114KL69bLfg4KtnRgpHV2aJCgVfqqjow/640?wx_fmt=png)
+
+4.3.1.3 实验分析  
+
+SiC MOSFET高频及大功率实验波形中VGS波形的振荡导致了ID以及VDS波形的振荡，对高频开关时电路系统的可靠性产生负面影响。而SiC MOSFET的  VGS波形振荡 根源来自数字模块输出的驱动控制信号High side和Low side的振荡，由于这两个信号为低电压开关信号，易受各种干扰，下面将分析控制信号振荡的来源以及可能的解决方案。 
+
+（1） 供电电源 
+
+本文给逻辑电路部分提供的5V电源由DC-DC模块产生，尽管DC-DC转换效率 比LDO高，但是这类电源芯片的输出脉动和开关噪音比较大。本文由于电路功能需要，DC-DC模块采用非隔离接法，加上高频应用DC-DC易产生噪声，导致逻辑模块的供电电压污染严重，因此导致控制波形失真。后续设计中可采用LDO线性稳压器， 以牺牲效率来保证供电电源的纯净。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4IQuwqowCJ4Zicm1FVlEibPBI8jKJeZ20194jOvA6dHg9yOzhFpWg6njQ/640?wx_fmt=png)
+
+（2） 信号连接线 
+
+第一版测试中信号发生源输出的PWM控制信号采用的是BNC转双鱼夹接杜邦 线的方式连接到PCB板。其中双鱼夹和杜邦线在大电流和高频开关时会耦合噪声信号。后续PCB将采用BNC转SMA直接接入PCB，来降低信号传输过程中的耦合。 
+
+（3） PCB布线 
+
+控制部分输出的驱动控制信号到达驱动模块有一段信号传输距离，第一版由于 PCB布局较紧凑，High side 和 Low side驱动控制信号靠近功率模块中走大电流的地线，会对信号产生一定的干扰。后续PCB设计中将改善这一布局，将两个关键信号 与功率部分隔开。
+
+4.3.2 钳位软关断测试 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4obXtA0picLAc0lMx5MiaxUgXicApG1H2yrg0c8frXKdC5OZKL67ibQB5IQ/640?wx_fmt=png)
+
+表4.3所示为钳位软关断测试的实验参数，本次实验将工作频率设为100kHz， 负载设置为5欧姆，输入电压设置为100V，Boost占空比设置为50%，可完成100V- 200V电压变换，保护模式选为周期性复位。鉴于电流测试探头Keysight 1147b的最大检测电流为15A，保险起见，过流保护上限电流设为10A，测试过流情况下，栅极驱动网络中钳位软关断功能。图4.12为过流保护测试图，其中信号1为SiC MOSFET 漏极电流波形，信号2为Falut信号用于控制各种辅助NMOS开关管，信号3为SiC  MOSFET栅源电压VGS波形，信号4为SiC MOSFET漏源电压VDS波形。通过图4.12 可见，当电流接近10A时，触发过流保护，Falut信号拉高，栅极电压被钳位并完成 软关断。信号2的周期性变化验证了电路工作在周期性复位模式。与仿真有差异的地方是，电流波形VGS钳位到10V后并没有迅速下降，这是因为10V栅压能够使得SCT2080KE通过10A左右电流。此外，在实际测试中Boost输出既不等于零也不等 于2倍输入电压，这是由于周期性复位加上钳位软关断的原因，等效占空比实为25% 左右，因此输出电压为140V左右。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg47oTrhCu3VLW2ahkeHq3t0Sl12AuzZ797wffYYubN0j5j8hTNYenwbg/640?wx_fmt=png)
+
+4.3.3 并联SiC MOSFET均流测试 
+
+4.3.3.1 驱动阻抗对并联均流的影响 
+
+从第二章分析中可知驱动电阻对于SiC MOSFET并联均流特性有着重要影响， 本次实验通过分开设置M1和M2的驱动电阻来验证驱动电阻对并联均流特性的影响，具体实验参数如表4.4所示。为了对最差情况进行实验分析，将M1开启电阻设置得比M2小，M1关断电阻比M2大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4ahgGkoxfzWa0FBpJtVuialRvGDD1Vwe9GibjappnrEicgR4Iicfuj7zFMQ/640?wx_fmt=png)
+
+ 图4.13(a)为并联SiC MOSFET在Boost电路运行0.5s后的均流波形。由于驱动 回路的不对称，使得SiC MOSFET M1开启更快，关断更慢，因此M1在开启和关断瞬间承受更大的电流，开关损耗也更大，积累的热量也更多。图4.13(b)为并联SiC  MOSFET在Boost电路运行10s后的均流波形。在完全导通阶段，流过M1的电流在逐渐下降，而流过M2的电流逐渐上升。这是因为M1在开关过程中损耗比M2严重， 因此温升更高，导通电阻增大。然而，经过长时间测试发现一个新的现象，电流失衡逐渐累积，呈现两极分化的情况。在开关瞬态，M1流过更大的电流，而在完全导通后，M2均得电流更多，而且并联SiC MOSFET导通后并不能由导通电阻的正温度系数来恢复静态电流失衡。这种现象的解释是因为M1相比M2在开关瞬态产生的多余热量远大于导通时的M2相比M1产生的多余热量，因此M1的热量累计是持续增加的。从理论上来讲，当M2在导通状态下比M1多产生的热量等于开关状态下M1比 M2多产生的热量时，M1和M2会达到平衡，静态的均流不会继续恶化。实际测试中也观察到了，随着开机时间的增加，静态均流的两级分化速度减缓。 开机不同时间下的温差数据 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4qSExUbG7T6WiasE9SvhOo2tVWI11ujQOhD0C1aScxK6338QYYTjm62A/640?wx_fmt=png)
+
+图4.14为并联SiC MOSFET在开始工作不同时间后的温度对比，可以明显看到 左边的SiC MOSFET M1的温升较M2要大，而且随着时间的推移，两者的温差逐渐增大，具体的温度数据由表4.5给出。由于阈值电压具有负温度系数，随着温差的加大，M1的阈值电压是低于M2的，因此M1将开启得更快，关断得更慢，动态电流失衡将更严重，温差持续增加，因此阈值电压差距也持续增大，这种正反馈也是SiC  MOSFET导通电阻正温度系数无法平衡M1和M2两者温差的一种解释。可见，如果并联SiC MOSFET的驱动阻抗以及阈值电压存在一些差异，导致并联器件产生温差， 那么阈值电压的负温度系数就会加重这一情况，最终导致器件损坏。 
+
+因此若不切断这种正反馈，两个并联SiC MOSFET都将可能损坏。M1会因为热量的积累导致热击穿，而M2会因为在完全导通时间段内承受的电流过大而损坏器件。可见，动态电流失衡与静态电流失衡是紧密联系的，因此消除动态电流失衡对于静态电流失衡至关重要。 
+
+4.3.3.2 阈值电压负温度系数的实验验证 
+
+为了验证阈值电压的负温度系数，实验中没有采用负压关断，具体实验参数如表4.6所示。为了加快SiC MOSFET温度积累，该实验在1.25kW大功率下进行。图4.15 所示分别为开机10s和开机30后的SiC MOSFET漏极电流波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4bA2eBNZiauDiciaeXGj1NSgfS5ZlzqeKFPgIMibb39eHacAsOar5PicCEVA/640?wx_fmt=png)
+
+图4.16所示为开机10s和开机30后器件的热成像示意图。结合两者可见，在开 机10s时，器件温度约为80度，开机30秒后约为165度。随着开机时间增长，器件温度逐渐升高，SiC MOSFET关断时漏电流波形振荡加剧。这是因为随着温度的升高， SiC MOSFET的阈值电压降低，导致栅极电压的轻微振荡就会引发漏极电流的振荡。一方面，验证了阈值电压的负温度系数，另一方面也警示了负压关断对于SiC  MOSFET高速驱动保护模块的重要性。 
+
+4.3.3.3 阈值电压对并联均流的影响 
+
+从第二章理论分析中可知阈值电压对于SiC MOSFET并联均流特性也有着重要 影响，本次实验挑选了阈值电压差值为0.35V的两个SCT2080KE，具体实验参数如表4.7所示。由于当VGS较大时，ID在开启瞬间有较大振荡，不利于观察阈值电压对并联SiC MOSFET对源漏电流ID的影响。因此将驱动电压设置为10V，由于本实验的功率等级并不高，因此10V的驱动电压足够驱动SiC MOSFET。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg42ncRaeMIB6tiavgnNb6W4vVVaOqUPyEV6FvCRVJvf4ffAYlSe54Txxw/640?wx_fmt=png)
+
+图4.17(a)和图4.17(b)所示，分别为并联SiC MOSFET的在开启和关断时的波 形，通过观察可见阈值电压较低的M1先开启后关断，符合预期。图4.18为并联SiC  MOSFET工作5s和20s后的热成像示意图，两个管子的温升差距不大。观察PCB的 温度分布还是可以看到M1的温升要比M2高。因此也验证了阈值电压对并联SiC  MOSFET均流特性的影响。由于选用的SiC MOSFET是ROHM公司同一批次的器件，一致性较好。因此，相比于驱动电阻，阈值电压对于并联均流的影响要小。而另 一方面，由于功率等级较低，并联器件的温差并不大，阈值电压负温度系数的影响也 较小，后面将使用Cree公司的器件在大功率大电流应用下对阈值电压的影响进行验证。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4PshUQgvUia3kxC3aMW8CJNAfydgFcmz0ickHqtR6FcH1K9kWpgBafdOQ/640?wx_fmt=png)
+
+图4.19(a)和图4.19(b)所示，分别为并联SiC MOSFET的  在开启和关断时的波 形，通过观察可见阈值电压较低的M1先开启后关断，符合预期。图4.20为并联SiC  MOSFET工作5s和20s后的热成像示意图，两个管子的温升差距较大。因此也验证了阈值电压对并联SiC MOSFET均流特性的影响。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4yAhcicgBLV1jTcPiaVp4XHr1ShTwBqSm5TG8JHia1IKgxWtibWG2WbiaM2A/640?wx_fmt=png)
+
+4.3.3.4 动态均流实验  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4qt182sUDjcOjGicbERlafBsooeu5AvO5Q4eTOMuxeALqVLmn7ludQ7w/640?wx_fmt=png)
+
+最后将对动态均流功能进行验证，试验参数如表4.8所示。实验思路是先关闭动态均流结构，测试并联SiC MSOFET漏极电流波形，然后在中途将动态均流结构打开，再次测试并联SiC MSOFET漏极电流波形。图4.21(a)和图4.21(b)所示，分别为并联SiC MOSFET的漏极电流  在动态均流开启前后的波形。图4.22为并联SiC  MOSFET动态均流测试热成像示意图。结合两者可见，在动态均流开启前并联器件的温差较大，若不改善将很快损坏器件，随着动态均流结构的开启，温差逐渐缩小，并稳定在一个温度范围，上升较慢，因此可以验证动态均流结构有助于提高 SiC  MOSFET并联应用中器件的可靠性 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4pz7Kgt7P3UiaRwp1W8HLQ1LmTEB01vAdPyjK0g4Kf6mWO84CTRxtoZw/640?wx_fmt=png)
+
+4.4 本章小结 
+
+本章首先对SiC MOSFET驱动保护模块的控制部分进行了测试，分别验证了死 区时间产生电路，栅极过欠压检测反馈电路，过流检测反馈电路以及动态均流控制电路的正确性。然后，将驱动保护模块应用于Boost主电路进行测试，通过实测验证本文设计的驱动模块可以使得Boost电路稳定运行在1MHz（200W）和500kHz（1.25kW）。 此外，本文还对过流保护时的钳位软关断功能（10A保护阈值）进行了测试，当发生过流时，能够迅速将栅极钳位并软关断SiC MOSFET。在动态均流的测试中，首先验证了SiC MOSFET阈值电压的负温度系数，然后验证了SiC MOSFET驱动电阻、阈值电压、阈值电压负温度系数对并联MOSFET均流特性及器件可靠性的影响，最后 测试了经过动态均流后的并联SiC MOSFET均流特性。
+
+第五章 总结与展望 
+
+5.1 工作总结 
+
+本文第一章概述了能源互联网和电网智能化的重要意义，介绍了碳化硅功率器件的发展现状和应用前景，并对SiC MOSFET驱动保护的研究现状进行了综述，并提出了本文所设计SiC MOSFET高速开关驱动保护模块所具备的功能及其意义。 
+
+本文第二章详细分析了SiC MOSFET器件的开关动态特性，并联均流特性。并 通过在PSpice下建模和仿真，得出影响SiC MOSFET高速开关驱动以及并联驱动的关键因素，如驱动电阻、驱动电压、温度和阈值电压，其中驱动电阻和阈值电压为最为关键的影响因素，驱动电阻越小时，开关速度越高，损耗越小，但是EMI问题最 严重，需要根据实际情况折中选择。另一方面，阈值电压越小，MOSFET开启更快， 关断更慢，在并联应用中，阈值电压小的管子开关损耗大，温升高，结合阈值电压的 负温度系数特性，会引发正反馈，导致器件热失效。 
+
+本文第三章首先将商用SiC MOSFET和Si功率开关器件参数进行了对比，分析 了SiC MOSFET和Si功率开关器件驱动的异同点，并总结了SiC MOSFET驱动保护 的设计要点。本文第三章基于理论研究的基础，对供电电源选择(驱动电压，峰值电流 等)、隔离方式选择、驱动结构设计、控制保护电路设计以及测试电路选择等方面进行了充分的考量与分析，最终确定合理可行的SiC MOSFET高速驱动保护方案。驱动电压采用正压18V，负压-2V的方案；隔离方式采用高速，抗干扰能力强的光耦隔离； 缓冲器设计部分采用PMOS和NMOS组成的反相器式推挽结构；栅极驱动网络中结 合了动态均流结构以及钳位软关断结构。控制模块中DESAT过流检测与保护中采用 了两级锁存结合计数器计数，实现了三种不同的故障保护模式。动态均流控制中通过 高精密检流电阻结合差分运放与积分器的方案实现了电流失衡的采集与反馈。此外， 本文还设计了LED和蜂鸣器报警电路来反馈电路故障。并且在Cadence PSpice平台 上，将所设计驱动保护模块在Boost电路和电感钳位电路中仿真，验证能够高速稳定工作（500kHz），并且具备过流保护、过欠压保护、动态均流和错误状态锁存等重要功能。 
+
+本文第四章基于Cadence PSpice仿真结果，在Altium Designer下绘制了驱动保护模块的PCB原理图及版图，并制作样机测试，已验证所设计驱动模块能够使得Boost 电路稳定运行在1MHz（200W）和500kHz（1.25kW）。通过分析测试结果，发现高速开关下（500kHz-1MHz），SiC MOSFET的VGS， VDS和ID波形振荡比较严重，通过对上 述设计中存在的不足之处已加以总结和完善，为后续PCB设计做准备。此外，本文设计的保护功能如死区时间产生，过欠压保护，过流保护，故障计数锁存等均已被验证，动态均流测试控制部分经验证功能正确。此外，通过并联SiC MOSFET均流测试，首先通过实验验证了SiC MOSFET阈值电压的负温度系数对高速开关的影响， 然后验证了驱动电阻，阈值电压以及阈值电压负温度系数对并联MOSFET均流特性 及器件可靠性的影响。在高频开关情况下，驱动阻抗以及阈值电压不对称所引发的动态电流失衡比较严重，而且对静态电流失衡有影响，使得并联SiC MOSFET中M1在 开关过程的头尾两端承受电流更大，M2在开关中间过程承受电流更大的两级分化情况，对并联SiC MOSFET应用产生负面影响，也从侧面验证了动态均流结构对于并联SiC MOSFET应用的重要性。最后测试了动态均流后的并联SiC MOSFET的漏极电流波形，验证了动态均流结构的正确性 
+
+5.2 工作展望 
+
+受作者研究时间和能力所限，本文目前尚有几点需要进一步研究：  
+
+（1）进一步研究如何有效降低高频大功率应用中功率板强电部分对控制板弱电 信号的耦合，使得高频大功率应用中SiC MOSFET的关键波形VGS， VDS和ID的质量得 到改善。  
+
+（2）研究如何降低检流电阻采集到的电压振荡，使得运放模块能够精确采集电 流失衡并反馈到驱动回路，来动态调节驱动电阻。 
+
+（3）深入研究当并联SiC MOSFET在驱动阻抗不匹配时，动态电流失衡与静态电流失衡互相影响的内在机理，以及在器件毁坏前，两个器件是否会存在的热平衡点。 
+
+（4）做进一步做对比实验，来验证高频开关时，阈值电压的负温度系数对并联均流的影响程度，是否会导致正反馈，最终损坏器件。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4EPEcImnTPfxiaXUP34jaLopqzfxKtps0W1mnNwraN1icq7fNjKMnCUnA/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsllOqqUW6TyuQRZHP0GJWg4ib0HBvjOXNQNNCibwp8yQSibibtnQ9v0Z5eHZUoQSNKoAUTIr6m0YHIjBg/640?wx_fmt=png)
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)

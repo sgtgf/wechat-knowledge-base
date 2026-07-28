@@ -1,0 +1,637 @@
+# SiC 功率器件动态参数测试平台的设计和实现
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/NfaAiz-UUu\_uzxOq9Sr6tg](https://mp.weixin.qq.com/s/NfaAiz-UUu_uzxOq9Sr6tg)
+
+作者：周浩（硕士学位论文）-北方工业大学
+
+摘要
+
+第三代半导体兴起于上世纪90 年代，其中碳化硅（Silicon Carbide，SiC）由于具有高击穿电场强度、高导热系数、高载流子饱和漂移速度等物理特性，已成为制备高温、高压大功率器件的理想半导体材料。随着SiC 功率器件的涌现，其测试验证方法及平台也愈加受到重视。SiC 功率器件的特性使其对测试条件要求更苛刻，对测试系统的寄生参数及带宽变化更敏感。目前国内专用于SiC 功率器件的动态参数测试平台尚在起步阶段。针对SiC MOSFET 和SiC Diode 动态参数测试需求，设计开发覆盖多项测试参数的低寄生参数测试平台，具有良好的工程和实际应用价值。
+
+本文基于北京华峰测控技术股份有限公司的STS8200 ATE 测试平台，以半桥双脉冲测试电路为基础，开展对SiC 功率器件动态参数测试原理、测试方法的研究，设计开发动态参数测试软硬件平台，主要的研究内容及成果如下：
+
+1.对SiC 功率器件的材料特性和应用优势进行了详细的分析，讨论了针对功率器件进行动态参数测试的意义。基于已发布的相关测试标准和主流器件规格，对MOSFET 和Diode 的动态参数测试原理、测试方法进行研究，给出了测试平台的性能设计指标和数据处理方案；
+
+2.以双脉冲测试电路为核心进行测试平台的整体硬件设计。针对1200V 和1700V规格的单管器件，对母线电容组和负载电感进行了设计和选型，支持短路测试条件下的瞬时高压、大电流需求。设计栅极电阻可程控切换、驱动电压可调的通用驱动电路板，并在此基础上完成了栅电荷测试电路开发，创新性地采用耗尽性NMOS 实现器件栅极恒流充电，测试结果误差小于 5%。将多参数测试电路进行整合，辅助使用 LTspice 软件进行波形仿真，分析整体寄生参数影响和后续改进方向。增加主回路保护开关，设计IGBT 并联模块，实现过流保护功能和短路电流1kA 设计指标；
+
+3.基于AccoTEST STS8200 软件平台对测试过程中使用的ATE 资源和源表实现编程控制，参考AccoTEST 软件编程手册，完成动态测试参数计算和测试结果输出。
+
+自采购SiC MOSFET 和SiC 二极管样片进行多项动态参数测试，验证平台功能指标；通过示波器波形，验证平台性能指标。验证结果显示，器件开关参数测试结果和短路测试结果的最大误差小于10%，栅电荷参数测试结果最大误差小于5%，符合设计指标要求。
+
+关键词：SiC，功率器件，MOSFET，二极管，动态参数，测试平台
+
+第一章绪论
+
+为全球应对气候变化、实现低碳发展，党中央提出了“碳达峰”和“碳中和”两个重要战略目标。我国承诺于2030 年前实现“碳达峰”，并争取在2060 年前实现“碳中和”。这意味着需要在较短时间内完成能源结构和产业结构的深刻转变，加快发展绿色低碳技术和产业，推动绿色低碳生活方式，实现从高碳发展向低碳发展的根本转变。实现“碳达峰”和“碳中和”的过程中，能源效率的提升是至关重要的。功率器件在能源转换和控制中发挥着关键作用，通过采用高效能的功率器件，如SiC（碳化硅）功率器件等，可以显著提高功率变换器的性能，降低能量转换过程中的损耗，从而达到减少碳排放。宽禁带功率半导体器件已成功应用于清洁能源交通、智能电网建设、消费类电子等领域，实现对电能的高效管理。在碳化硅金属氧化物半场效应晶体管（SiC MOSFET）的生产过程中，出厂前最后的封装测试是至关重要的一环。准确且高效的完成多项电参数测试有助于封测厂缩短出货周期，降低测试成本，形成利润竞争优势。
+
+1.1 研究背景
+
+1.1.1 功率半导体器件发展
+
+功率变换器是电能利用的重要装置，其中使用的电力电子器件，也就是功率半导体器件，是电力电子技术的核心，很大程度上决定了设备的整体性能。功率半导体器件主要用于电力设备的电能变换和控制，已经覆盖额定电流从数十至数千安培，额定电压从几伏几千伏的应用场景。1950年代初出现了晶体二极管，用于整流和开关应用；1957年：美国物理学家戴维·赫尔发明了可控硅（Silicon  Controlled Rectifier，SCR），也称为晶闸管，可控制电流流过的时间，之后SCR开始广泛用于直流和交流电路的功率控制，例如用于电力调节和变频器。经过研究人员数十年的努力，电力电子器件已逐渐由传统的不可控、自锁型器件向金属氧化物半导体场效应晶体管（MOSFET）和绝缘栅双极型晶体管（IGBT）、高压大功率模块方向发展。
+
+硅基功率半导体器件的发展和成熟，推动了电力电子变换器在能源和发电领域的广泛应用，并在电力变换输运和工业生产生活等方面都发挥着至关重要的作用。随着轨道交通、不间断电源系统、智能电网和光伏等领域的不断发展，对具有高频开关特性、高能效比、大功率、低损耗特性的宽禁带半导体器件的需求逐渐增加。我国提出的“碳达峰”和“碳中和”的“双碳战略”，以及硅基半导体材料器件理论性能已接近极限的现状，使得研发新型高效率功率器件成为亟待解决的问题。为了突破当前的功率变换器发展瓶颈，主要有两大技术发展方向：研发新的器件结构；采用新型半导体材料。第三代半导体材料于上世纪90年代初兴起，其中以氮化镓（GaN）和碳化硅（SiC）等带隙明显大于硅（Si）的宽禁带（Wide  Bandgap Semiconductor，WBG）材料为代表。相对于传统硅基材料的功率器件，宽禁带电力电子器件拥有更出色的电能转换性能，具有更高的开关速度、能够工作在更高的结温下、可以同时实现高电压和大电流、抗辐射等优势。尤其是SiC功率半导体器件，在高频和大功率条件下性能优于Si IGBT 单管和GaN 器件，使电力电子变换装置具备更高的功率密度和电能转换效率，受到了广泛关注。近些年来SiC 开关器件应用逐渐成熟，SiC MOSFET 的应用已经从实验室研发阶段步入到商业化阶段，目前商业化SiC MOSFET 模块多用于电动汽车及其充电桩，单管器件的电压等级大多为1.2kV 和1.7kV。
+
+近几十年来，国际上多家大型厂商对碳化硅器件的研究投入了大量的人力物力，完成了多项关键技术的攻关，开发出了一系列性能优良、质量可控的碳化硅商用产品。当前SiC 功率器件的主要生产厂商都推出了相关的产品并进行了迭代升级，Wolfspeed 公司各代产品和部分厂商的早期产品都是采用平面沟道SiC  VDMOS；ROHM 公司目前采用的是Double Trench MOSFET 结构，该结构基于传统的单沟槽器件结构设计，抑制了栅氧化层的峰值电场，改善了可靠性问题；Infineon公司目前采用的是CoolSiC Trench MOSFET 结构，沟道迁移率要大于平面沟道器。平面栅SiC MOSFET 技术相对成熟，已获得广泛应用，优点在于可靠性高、技术成熟，缺点是沟道迁移率低、导通电阻较大。沟槽型SiC MOSFET存在一定的设计和工艺难度，该技术通过在外延层刻蚀形成沟槽，有效减小寄生电容，提高开关速度。
+
+与国际先进企业相比，国内的SiC MOSFET 器件生产厂商基本还都采用平面栅MOSFET 结构，这也是由于目前国内SiC MOSFET 市场以功率电子应用为主，对器件的可靠性、成本和性能稳定性有较高的要求。因此，基于技术成熟度和成本考虑，国内厂商更倾向于选择平面栅MOSFET 结构来满足市场需求。国内SiC MOSFET 器件也存在着研发进度相对落后、缺乏先进的工艺设备、工艺技术暂不成熟以及器件可靠性缺乏验证等问题。
+
+1.1.2 SiC 材料的物理特性优势
+
+碳化硅（SiC）是一种具有独特物理和化学性能的IV-IV 化合物材料。Si 和C原子之间强烈的化学键使这种材料具有很高的物理和化学性能：低密度（3.1g·cm−³）、高硬度（2800kg·mm−²）、高热导率（120W·m−¹·K−¹）、低热膨胀系数（4.0×10−⁶℃−¹）、宽禁带（2.4-3.4eV）、抗氧化、耐腐蚀、抗辐照和良好的物理化学稳定性。SiC 存在各种多型体（结晶多系）：3C-SiC、4H-SiC 和6H-SiC。这三种多型体当中，3C-SiC 的稳定性很差，而6H-SiC 的电子迁移率远低于4H-SiC，而且4H-SiC 的禁带宽度比6H-SiC 大，因此4H-SiC 是目前被应用和研究最多的一种多型体，4inch-6inch 的单晶晶圆已实现量产。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLGSRP4S9p7MdiafAp0AGEXtCducmPROprpsaVEvQDLGJ0ibMhB9mJj8nA/640?wx_fmt=png&from=appmsg)
+
+表1-1 列出了SiC 和Si 在室温下的主要物理性能数据。观察数据可知，SiC的临界场强（Critical Electric Field）是Si 的10 倍，因此与相同尺寸规格的Si 器件相比，可以采用更高掺杂浓度和更薄的漂移层制作出600V 至数千V 的高压功率器件。高压功率器件的电阻成分主要由该漂移层的电阻组成，因此SiC 器件单位面积导通电阻非常低，理论上当耐压相等时，SiC 单位面积下的漂移层电阻可以降低到Si 的1/300；SiC 材料的热导率和禁带宽度（Band Gap）约是Si 的3 倍，因此能够实现在高温下稳定工作，有助于减少使用在硅基材料功率转换器中经常需要的笨重的冷却装置。所以SiC 被认为是一种超越Si 极限的用于制造功率器件的材料，有望用于高开关频率、高工作电压、高温、抗辐射等应用场景，且有利于电力变换系统的效率和功率密度的提升。
+
+与其它宽禁带半导体材料相比，SiC 器件在制作工艺上也有独特的优势，它可以通过热氧化形成SiO2，因此在SiC 材料上制作金属氧化物半导体（MOS）结构并不复杂。并且SiC 工艺与传统的Si 工艺基本兼容，这大大节省了工艺成本。
+
+1.2 SiC 功率器件的优势与应用
+
+自本世纪初德国Infineon 公司首次推出商用SiC 二极管以来，SiC 器件的研发逐渐从学术界向企业界转移，并且在多种器件领域都有所发展。SiC MOSFET属于单极型器件，其开关速度快，主要适用于600V-10kV 的范围，其作用主要分为功率转换、功率放大、功率开关、线路保护和整流等。
+
+1.2.1 SiC MOSFET
+
+碳化硅金属氧化物半导体场效应晶体管（SiC MOSFET）是一种由电压驱动的单极型功率器件。SiC MOSFET单管是将SiC MOSFET 芯片封装在一个独立的外壳中，如典型的TO-263、TO-247 封装。SiC MOSFET 单管通常有三个引脚，分别对应输出端Drain（漏极）、输入端Source（源极）和控制端Gate（栅极）。
+
+随着开关频率的进一步提高，众多厂商已推出了TO-247-4L 封装，将源极分成了Driver Source和Power Source，相比于TO-247-3L，四引脚TO-247-4L 封装采用Kelvin连接的信号源端子进行栅极驱动，可以降低封装内电源线电感的影响，从而进一步提高MOSFET 芯片的高速开关性能，有助于提高开关电源的效率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvL0xBibsk3OLLyqgknkldgajfU6ia7eKVL66lkPAmK2RWl87AsPEib0KvvQ/640?wx_fmt=png&from=appmsg)
+
+在1700V 及以下，SiC 功率器件具有多种电压规格，不同电压规格的SiC 功率器件面向不同的应用场合，因此可替代不同的开关器件。650-1000V SiC  MOSFET 主要面向Si MOSFET 和Si IGBT，1200V、1700V SiC MOSFET 主要面向Si IGBT。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLISTZ0uGs9AwqiccmUXp0Nas23FxcWoGiamSBaVXTREkm4BtEHxhiattjg/640?wx_fmt=png&from=appmsg)
+
+如图1-2 所示，SiC MOSFET 器件的主要应用领域包括小功率的通信电源、服务器PC 等消费电子领；中高功率的逆变器、新能源汽车、UPS 和光伏发电领域；大功率的轨道交通、智能电网领域。针对高压大功率的电力系统应用，需要更高电压等级、更大功率等级的SiC MOSFET 模块，以进一步提高系统电能转换效率。
+
+由于SiC MOSFET 具有快速的开关速度，其开关频率可达MHz 级别。因此，可以提高功率变换器的功率密度，减小装置中电容和电感的体积。与此同时，SiC MOSFET在关断过程中没有电导调制效应，使得它没有拖尾电流现象，能够以具有快速器件结构的MOSFET 实现高耐压和低导通电阻，从而减小了器件的开关损耗。随着栅氧工艺逐渐完善，650V 到1700V 电压等级的器件已经推向消费市场，在电动汽车、光伏逆变器和风力发电中得到了广泛应用。
+
+作为一种新型的功率半导体器件，碳化硅（SiC）MOSFET 相比传统的晶体管具有多种优势，这些优势涉及到输出特性、开关特性和驱动特性：
+
+输出特性：SiC MOSFET 和Si IGBT 输出特性曲线具有明显的差异。SiC  MOSFET 不存在像IGBT 那样的开启电压，其IDS\-VDS 曲线从零点开始，而IGBT由其内部 BJT 负责导通，故在小电流下SiC MOSFET 能实现较低的导通损耗。另外，Si MOSFET 的导通电阻受温度影响较大，在150℃时会上升为室温时的2倍以上，但是由于SiC 材料的导热率高，器件结温上升率相对较低，因此热设计更加容易、高温下也能够实现较低的导通电阻；
+
+栅极驱动：对于SiC MOSFET，当VGE 超过阈值电压后，电流上升速度比SJ MOSFET缓慢的多，这说明SiC MOSFET 的跨导gm 较小。当VGS<11V时呈正温度系数,VGS\>11V 时呈负温度系数，这就要求器件的开通驱动电压要足够高，使SiC MOSFET 工作在负温度系数区域。同时SiC MOSFET 具有显著的漏致势垒降低效应（Drain Induced Barrier Lowering，DIBL)，器件的阈值电压会随着栅\-源电压的上升而降低。由于以上种种特性，在进行SiC MOSFET 驱动时，要施加更高的电压（VGS\=18～20V）；
+
+开通特性：与Si IGBT 和Si MOSFET 相比，SiC MOSFET 的开通速度优势不大，均为十几纳秒。由于SiC MOSFET 的栅电荷显著小于Si IGBT，所以驱动所需要的能量更小，器件可以运行在更高的开关频率下，同时SiC MOSFET 的栅\-源电压曲线可以看到明显的米勒斜坡，而Si IGBT 是时间更长的米勒平台；
+
+关断特性：与IGBT 器件结构不同，MOSFET 是单极型器件，在原理上不会产生拖尾电流，其关断损耗（Eoff）可以减少约90%，Si IGBT 的关断延时时间会随着器件结温的升高而明显增大，拖尾电流时间延长，因此使用SiC MOSFET 有利于降低开关损耗，简化器件散热设计；
+
+短路特性：在单管器件短路实验中，SiC MOSFET 和Si IGBT 的短路电压和短路电流比较接近，但是Si IGBT 的栅\-源电压在开通时会存在很高的尖峰；
+
+二极管的反向恢复特性：二极管从正向电流转变为反向电流时，恢复到正常导通状态所需的时间越短，说明二极管的反向恢复特性越好。SiC MOSFET 的体二极管，少数载流子寿命较短，与Si MOSFET 的体二极管相比，反向恢复损耗可以减少到几分之一到几十分之一。
+
+1.2.2 SiC SBD
+
+通过将现在主流使用的快速恢复二极管（FRD）替换为 SiC SBD，能够大幅减小反向恢复损耗，有助于实现电源的高效化，降低噪声水平。以功率因数校正电路和二次侧整流电路为中心，目前广泛应用于电动汽车充电器、功率调节器、太阳能逆变器、工业电源等多个领域。
+
+SiC SBD 的多方面优势：
+
+正向特性：SiC SBD 的温度升高时，随着工作电阻的增加，导通电压VF 值会变大，不易发生热失控，可以进行并联使用；
+
+反向恢复特性：Si FRD 在从正向偏置切换到反向偏置的瞬间，由于漂移层内积聚了少数载流子，正向电流越大或温度越高，反向恢复电流越大，时间越长，在此器件会产生很大的损耗。SiC SBD 为单极性器件，原理上不会发生少数载流子积聚现象，反向恢复时只会流过较小电流，可以大幅度减小损耗，此外该瞬态电流几乎不受温度和正向电流的影响。
+
+1.3 SiC 功率器件参数测试意义
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLibm9gprMsiaIo2p9OKMecxDqwnoBict4QibItwDIK8PSKhxW41SqtWPm5Q/640?wx_fmt=png&from=appmsg)
+
+SiC MOSFET 参数测试有助于评估器件的性能、稳定性和可靠性，测试内容主要分为两个方面，一方面是与器件本身材料及生产工艺相关的静态参数，测试波形如图1-3 所示；另一方面是与器件工作状态和工作环境相关的动态参数，典型的双脉冲测试波形如图1-4 所示。器件的静态参数是器件本身固有的参数，不随测试条件的改变而改变，被测项通常包括器件的漏极\-源极的击穿电压（breakdown voltage, drain to source，V(BR)DS）、阈值电压（Threshold Voltage，VTH）、漏极泄漏电流（drain leakage current，IDS）等参数。动态参数是指器件处于动态开关工作过程中，收到温度、电压、电流等工作条件的变化而变化的一些参数，如栅极电荷（gate charges，Qg）、开关时间（switching times, td(on)，tr，td(off)，tf）、开通能量（turn-on energy，Eon）、短路电流（Short Currcent，ISC）等。由于SiC MOSFET 通常应用于高速开关的工作状态，器件工作条件不断变化，容易造成器件失效和线路损坏。综上所述，静态参数和动态参数测试是为了全面评估功率器件的性能、稳定性和可靠性，以确保其在实际应用中能够正常工作并满足设计要求，是生产过程中不可缺少的一环。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLKg1PcfqUibbhjicg2nC3AvaGrmxBxXHHMthqgEQF1lwANHssziaQgyxlw/640?wx_fmt=png&from=appmsg)
+
+对于动态测试而言，常见的动态性能测量参数主要包括：栅极电荷Qg；开通时间（td(on)，tr，ton）；关断时间（td(off)，tf，toff）；开通能量Eon 与关断能量Eoff；反向恢复电流Irr等。目前国内外还没有发布针对碳化硅器件测试的专用标准，因此对于SiC MOSFET 而言，其特性参数的定义和测试方法仍沿用之前的硅基标准，可参考的标准有：国家标准GB/T 4586-1994 半导体器件分立器件第8 部分：场效应晶体管（IDTIEC 747-8:1984）、国家标准GB/T 29332-2012 半导体器件分立器件第9 部分：绝缘栅双极晶体管（IGBT）（IDTIEC 60747-9:2007）、国军标GJB128A-1997 半导体分立器件试验方法3400 系列等。
+
+SiC 器件的开关速度dv/dt 可达50V/ns 以上，高速开关动作使SiC 器件对外围测试系统的寄生参数及测量设备的带宽要求更严苛；新型的高压器件（VDS\>1000V）与更高的开关频率相结合的新趋势，对测试系统设计带来挑战。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvL1TFwY6X2YyaHwIViczqhubEWXakXicNp2x1y3QYtqwvMqc6R7CZYKITA/640?wx_fmt=png&from=appmsg)
+
+  
+
+1.4 SiC 功率器件测试平台发展及现状
+
+自动测试系统已经广泛应用于工业生产，贯穿在其中的每个环节。自动控制系统在保证获取准确测试结果的基础上，减少人工干预，提高了整体的运行效率和操作人员的安全。同样，在半导体制造行业中，器件的制造工艺永远无法达到100%的良率，为验证器件功能的正常与完整，需要在多个环节中进行测试，剔除不良品以降低成本的损失，自动测试系统目前也已广泛应用在高校的实验室中。
+
+目前SiC MOSFET 的测试主要是针对封装后的分立器件或者模块的测试。功率器件静态测试系统发展较为成熟，目前国外研制功率器件静态测试系统的厂商主要有是德科技Keysight 和泰克Tektronix。其中，泰克公司发行于2001年的Tektronix 371A晶体管测试仪是全球著名的高分辨率特性曲线图示仪，该装置具有1nA 的测量分辨率、3000V 的测试电压上限，可实现半导体器件静态参数高精度宽范围的测试，被各器件厂商广泛采用。泰克科技生产的Keithley PCT 参数波形记录仪支持所有的设备类型和测试参数。Keithley 参数波形记录提供高功率同步电流电压曲线测试（IV 曲线测试）、电容电压曲线测试（CV 曲线测试）和高功率脉冲 IV 曲线测量。
+
+国内开发功率器件静态参数测试系统的厂商主要有山东阅芯、长川科技、华科智源等企业。目前山东阅芯生产的AVATAR-S 系列测试能力最高可达10kV/8kA，并且可以扩展Rg/Cg 测试功能；华科智源IGBT 电参数测试仪，可用于多种封装形式的IGBT 的测试，还可以测量大功率二极管、IGBT 模块、大功率IGBT、大功率双极型晶体管等器件的VI 特性测试，最大脉冲电流1200A，电压5kV，脉冲宽度50us~300us；长川科技CTT3280F 测试机是以量产测试功率器件为目标的高性能测试机，适用于功率器件的CP 测试，测试规格为1000V/20A；联动科技QT-4100 综合测试系统测试对象覆盖率高，电压/电流规格可选。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLeNWLKJOJfOVmTkYGJbRscgAVOjjvUAVrqHgVrztTeiaicicaNE7cl75Gw/640?wx_fmt=png&from=appmsg)
+
+动态参数测试基本上是基于双脉冲测试电路进行。由于测试时功率器件在开关瞬态测试系统中同时存在高电压和大电流，测试电路和测量回路中的寄生参数会对测试结果准确性产生影响，因此掌握低寄生参数动态测试技术对于动态测试系统的开发十分重要。
+
+国外研制功率器件动态测试系统的厂商主要有Wolfspeed 公司，是德科技Keysight和泰克Tektronix 等，以双脉冲测试为基础，覆盖多种使用场景。各国际公司根据应用要求有自行开发不同的夹具板。是德科技针对第三代功率半导体SiC和GaN 开发了一体化测试平台\-双脉冲动态参数测试系统，作为现成的测量解决方案，PD1500A 可以对宽带隙半导体进行可靠且可重复的测量。该平台不仅可以确保用户的安全性，还能够保护系统的测量硬件。依托于是德科技先进的专业测量技术，配合定制专利夹具可实现小于5nH 的杂散电感，测试结果偏差低于5%；DPT1000A 功率器件动态参数测试系统由泰克科技领衔开发,专门用于针对三代半导体功率器件的动态特性分析测试，低回路电感设计(小于50nH 寄生电感)，选用12bits 垂直分辨率MSO58B 示波器产品，获取特性参数的准确结果。可进行开关参数/动态栅极电荷/动态导通电阻/短路/雪崩测试，单次测试即可完成开关特性和反向恢复特性测试。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLIUPvSKvVYWsYCGzgHy7XicVPPL3fib3jTPfQt47FOaCiaOBIib5KMBUWJg/640?wx_fmt=png&from=appmsg)
+
+目前国内研制功率器件动态测试装置的厂商主要有北京华峰测控、山东阅芯、忱芯科技等企业。北京华峰测控推出的STS8203 中大功率分立器件测试系统，可针对各类MOSFET，IGBT，肖特基二极管进行测试，DC 测试达2000V，200A，支持雪崩，热阻，Cg/Rg，动态测试Switching，Trr，Irr测试选件，在“CROSS”机柜下可扩展成模拟IC 测试机；山东阅芯开发的AVATAR-D 系列产品,可以完成DPT/RBSOA/SCSOA/UIS试验，最高5000V/25000A（DPT/RBSOA）/30000A（SCSOA）测试能力可实现动态参数、短路安全工作区（SCSOA）和反偏安全工作区（RBSOA）测试，回路寄生电感极低，双脉冲最小可低于15nH；忱芯科技开发了针对碳化硅器件的Edison 系列，覆盖了实验室和生产线应用场景，可实现双脉冲、单脉冲和SCSOA 测试，电流源精度pA 级，电压源精度mV 级，电阻测量精度μΩ 级，电容测量精度pF 级，大电流输出1500A，一站式动态测试系统，全面覆盖IGBT 和SiC MOSFET；联动科技的QT-3108SW 产品适用于IGBT、SiC MOSFET 双脉冲或者单脉冲开关参数测试，测试范围为2000V/600A，ISC 短路电流1000A，带宽500MHz，采样5GHz。
+
+综上所述，SiC 功率分立器件在宽广的功率和频率范围内都有应用，其优异的特性使其成为高性能、高效能的解决方案，目前国内外关于SiC 功率器件动态参数的研究还处于起步发展阶段，专用于碳化硅功率器件动态参数测试的设备较少，主要表现在整体测试系统价格较高，新技术研发周期较长，测试参数覆盖少。因此设计一个针对SiC 功率器件，覆盖多项基本动态参数的自动测试平台，有助于深入了解和优化SiC 功率器件的性能，有效提高对碳化硅功率器件可靠性研究效率，同时为工程应用提供一个解决方向。
+
+1.5 课题研究内容和章节安排
+
+本课题主要研究SiC 功率器件动态参数测试平台的硬件电路设计和控制、源表的控制和参数测试方案。测试平台的硬件电路设计部分，首先根据设计性能指标选择合适的储能器件类型和规格，其次根据被测参数设计对应的硬件回路，测试项包括开关时间与能量、栅电荷量、二极管反向恢复时间和反向恢复电荷量以及短路电流值，在误差允许范围内，完成对器件规格书中相应参数的测试工作。
+
+测试平台的软件设计部分主要是对使用的电源和仪表进行软件程序控制，在确认被测参数设定后，使设备能够在无人值守或远程控制的情况下，完成对选定项目自动进行资源输出和结果测量，减少人工数据采集工作。平台软件设计部分主要分四块，首先介绍针对不同参数选择的测量设备，其次针对不同仪器完成通信连接并驱动整个测量系统正常工作，最后实现数据处理和输出，完成测试。测试平台设计的性能指标如表1-2 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLtNeic6Ou4W4oLEq356d9l6H7wTbRmVII7OhbmdjouTU6sMG9NOSzDqw/640?wx_fmt=png&from=appmsg)
+
+考虑到器件批次差异和由于示波器、探头等本身存在测量精度误差等客观因素的存在，最终的测试结果会在一定范围内波动，因此本方案将测试判据范围设定在±10%。
+
+本课题论文的主要安排如下，共分为五个章节：
+
+第一章：绪论。将SiC 材料与传统硅基材料的物理特性进行对比，表明SiC器件在新工况下表现更优异，产品也已得到广泛认可和应用。对国内外正在销售的功率器件测试设备和近些年来 SiC 功率器件测试的研究进展进行调研。针对SiC功率器件动态测试需求，提出了本课题研究内容与设计目标。
+
+第二章：测试平台硬件电路设计。介绍了测试平台的整体构成，根据设计标准选择储能元件规格，完成主功率回路搭建。对通用栅极驱动电路、双脉冲测试电路、二极管反向恢复测试电路和短路测试电路进行设计，提出了一种基于栅极限流的栅电荷测试方案。使用LTspice 软件，对回路中寄生参数的影响进行了仿真，完成对测试电路的整合和布局。
+
+第三章：基于STS8200 资源对SiC 功率器件动态参数测试平台的软件部分进行设计。介绍了测量设备的性能和选择依据，对在测试过程中使用到的源表、ATE资源板卡以及示波器等进行程序设计实现自动控制，完成参数测试并输出测试结果。
+
+第四章：通过实际样片测试波形和软件仿真对SiC 功率器件动态参数测试平台进行功能指标验证。基于实测波形和数据验证测试平台的性能指标，将被测器件测量值对规格书典型值做比较，使用LTspice 软件仿真测试波形，对数据测量误差和波形产生震荡的原因进行分析。
+
+第五章：总结与展望。对前四章的工作内容进行总结，对目前测试平台存在的设计问题和不足进行了分析，最后对还需进一步改善的方向进行了展望。
+
+第二章 SiC 功率器件动态参数测试平台硬件设计
+
+本章主要介绍SiC 功率器件动态参数测试平台的硬件电路部分的设计。参考现行的Si MOSFET 和Si 二极管的测试标准和示例电路进行各部分硬件设计。根据设计规格对电容和电感进行选型，计算参数范围。为了保证测试平台的整体性和测试结果的精度，本章最后一节通过仿真，在测试电路板中不同位置设置寄生参数，观察波形变化。为减小硬件回路寄生参数、优化测试波形和PCB 布局布线等给出改进方向，最终完成测试平台硬件电路部分的设计。
+
+2.1硬件测试平台整体设计
+
+测试平台整体硬件组成如图2-1 所示。主功率回路设计内容包括储能电容选型、负载电感选型、PCB 板布局、栅极驱动板设计和IGBT 并联模块设计。
+
+主功率回路以双脉冲测试电路为基础，整合多项动态参数测试电路后完成单板PCB 器件布局，实现多参数一站测试；基于通用栅极驱动板开发栅电荷测量电路，实现感性负载条件下的栅电荷测量功能；将多颗IGBT 并联以提升短路电流能力，同时增加过流保护功能，保护被测样片和测试平台的安全。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvL7rbtIIbBKR4AiaJhNQicjdVo3bdgeIOoV41MMCv5xEXY68HcQ8wib9Osw/640?wx_fmt=png&from=appmsg)
+
+2.2通用栅极驱动板设计
+
+SiC 功率器件开关速度快、导通损耗小，在电力电子变换装置中逐渐被大量应用，近些年来在驱动及保护方面的研究也逐渐增多，目的就是为了与器件的应用速度相匹配。其栅极耐压能力比Si IGBT 要差，较高的驱动电压尖峰和关断负压容易将器件的栅极氧化层击穿，导致器件损坏短路。因此，在实际测试中不能直接使用Si IGBT 的驱动板，需要设计相应的驱动电路，避免驱动损坏和高频开关下的串扰。
+
+SiC MOSFET 的驱动电路根据控制信号输出高低电平。对于SiC MOSFET，规格书中栅\-源电压高电平一般为18V 或20V，低电平为0V。如果使用一般Si  IGBT 或Si MOSFET 的驱动电压（VGS\=±20V，VGE\=±15V）不能正常驱动SiC 器件。SiC MOSFET 栅\-源之间存在寄生电容，这使得它的栅极驱动回路呈容性。因此，对SiC MOSFET 控制需要驱动能够提供较高的瞬态电流。增大栅极驱动器的电流输出能力可以加快栅源电容的充电速度，实现SiC MOSFET 的高速开关。综上所述，本文设计的通用栅极驱动板的固定电压输出范围为\-10V～+20V，最大栅极驱动电流为10A。
+
+在设计SiC 器件通用栅极驱动板时，需要考虑驱动芯片和电源芯片必须具备较高的电压隔离能力。这可以通过选用隔离式栅极驱动器和隔离电源来实现，在数字部分可以使用光耦隔离。考虑到在测试时，在器件开关瞬间会产生电磁干扰现象，因此电源还需要一定的抗共模干扰能力。
+
+栅极驱动器靠近主功率回路，上下桥臂之间的串扰，可能会导致误导通和短路，所以栅极驱动器需要考虑过流保护和电压击穿。检测传统IGBT 器件电流的常规方法是测量器件导通电压，根据器件的输出特性集电极电流，检测到过高的VCE，器件就会关闭，此种保护被称为退饱和保护。本方案选择使用带有退保和功能的驱动芯片来实现。在选择栅极驱动芯片时，考虑到芯片的输出性能、输入要求和功能的全面性，包括输出功率、最大输出电流、输出电压范围、输入电平范围、退饱和保护、有源钳位的过流保护等。最后，为了减小驱动板的寄生参数，驱动回路面积尽可能小，做好数模隔离，走线避开电源等，减少引入的干扰。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLs1KsW7DaZ50t6E02DXysRPDPW9ic88Wel1ibcxFzKRLIhVuZOEzkZictA/640?wx_fmt=png&from=appmsg)
+
+驱动板固定输出电平供电由Recom Power 公司生产的DC/DC 电源提供，输入电压最大值和最小值为5.5V和4.5V，隔离电压可达3kV，2个输出端口，形成20V 和\-5V 的开通和关断电压，输出功率2W。驱动信号通过逻辑控制器后判断输出电平，输出芯片选Texas Instruments 公司的容性耦合栅极隔离驱动器，电流输出能力最大达到10A，输出供电区间13.2V-33V，上升/下降时间10ns。同时为了适应不同规格样片的测试需求，栅极驱动电压要求在一定范围内可调，在DC/DC输出端增加选择电路，高低电平通过STS8200 机柜内的FOVI（8 通道浮动VI 源）提供，实现\-10V～+20V 的电压输出范围。
+
+在测试SiC MOSFET 时，栅极驱动电阻的选择会对测试结果产生一定的影响，一般在规格书测试条件中会进行标注，仿真波形如图2-3 所示，影响主要包括以下几个方面：
+
+开关速度：栅极驱动电阻的大小会影响MOSFET 栅极的充放电速度。增大电阻后波形变化趋势减缓，充放电过程变慢，延长电流导通时间。这可能会导致器件过热、开关损耗增加、波形失真等。
+
+驱动回路功耗：栅极驱动电阻会消耗一部分功率。驱动电阻阻值较大，栅极驱动芯片输出会受到影响。
+
+测量波形失真：栅极驱动电阻阻值过大，可能会使MOSFET 的开关速度不稳定，导致MOSFET 进入不良的工作状态。
+
+稳定性：栅极驱动电阻的阻值变化较大，可能会导致栅极驱动信号的幅值和波形出现不稳定。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLpOrWziasdhWQRpYpmA5HgUSUFbXhibFpJmrpmuGJ3YiaTaibDVl6FdKcLw/640?wx_fmt=png&from=appmsg)
+
+一般栅极电阻位置会放置在靠近器件管脚端，也就是在应用板上，在更换阻值时会需要电烙铁等工具。这种人工操作方式优点在于可以进行简单的飞线处理，较为灵活，缺点在于效率较低，且在操作过程中存在安全隐患（测试机未下电或烙铁烫伤）。对此，本方案采用栅极电阻切换板实现可编程电阻阵列，通过继电器控制位（C-Bit）调整栅极电阻阻值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLDiaVOu0mtTlb49Npjf5zcv6QNVIn5WpPxoqOmX1GWvHxSDjLKn7mSiaw/640?wx_fmt=png&from=appmsg)
+
+栅极电阻切换矩阵单元如图2-4 所示，采用多个单位电阻串并联的方式实现阻值切换，电阻阻值成等比数列，同时在输入输出管脚处增加静电防护二极管。PCB布局如图2-5 所示，电气连接采用金手指方式。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLnDfiah7qnsF8w9YASfLgzNABZH2BaEN1PgHEbJTQESp6jB3ciawEePrA/640?wx_fmt=png&from=appmsg)
+
+2.3栅电荷测试方案及硬件设计
+
+栅电荷是SiC MOSFET 开关性能的重要参数，开通（关断）过程中积累（释放）的栅电荷（Qg）对MOSFET 的开关速度、功率损耗等参数有重要影响，栅电荷测试可以帮助评估MOSFET 的动态性能，对器件的设计、制造和性能优化都具有重要意义。
+
+在FET 或MOSFET 的栅电荷测试中，测试信号通常以脉冲的形式施加在器件的栅极上，对栅极电容进行充放电，从而引起栅\-源电压的变化。通过测量栅\-源电压的变化量，即可以计算出栅电荷。
+
+栅电荷测试是测量SiC MOSFET 在不同应力条件下的性能和可靠性的一种方法。栅电荷特性反映了MOSFET 内部结构和工作状态之间的关系，对于分析器件的开关速度、开关损耗、自激振荡等方面有重要意义。在集成电路中，栅电荷参数是衡量工艺质量和制造一致性的指标之一，通过测量栅电荷参数，可以评估制造过程的稳定性和一致性，以便进行质量控制和改进。通过栅电荷曲线可以推导出开关时间参数，与单独使用静态电容参数相比，测量栅电荷的方法更加精确。因此准确测量和分析SiC MOSFET 的栅电荷特性对于驱动电路设计具有重要参考价值。
+
+对于栅极恒流充电的实现方式，相关文献中较多采用栅极驱动电流由开集输出门电路构成的恒流源提供；通过控制三极管源极电位实现脉冲电流源；使用电压\-电流转换芯片输出栅极电流脉冲。由于单次大功率测试对设备平台要求较高，也有采用在多次低功率条件下测量栅电荷曲线，拟合得到单次高功率条件下的测试曲线的方案。
+
+针对栅极充电速度快、栅极充电电流小的特点，本方案提出了采用栅极限流方案的测量电路和测量方法，基于感性负载电路在大功率条件下实现对Si IGBT和 SiC MOSFET 的栅电荷参数测量、波形记录和数据处理。
+
+2.3.1 栅电荷标准与计算方法
+
+沟槽栅MOSFET 结构如图2-20（a）所示。对SiC MOSFET 进行开关控制需要驱动电路对器件输入电容Ciss（包括米勒电容Crss 和栅\-源电容CGS）充放电，充放电的电荷量即为栅电荷Qg。
+
+器件极间寄生电容位置如图2-6（b）所示。CGS 和Crss 都是非线性电容，电容值随外加电压的变化而变化，其中米勒电容受电压影响最大。Ciss 影响栅\-源的充电速度；Crss 影响栅\-漏的放电速度，形成米勒平台；Coss 影响关断时漏\-源电压的上升速度。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLhoo6AETvanepdRmbRBWwEKpy8bbQFGcmQBgckIrOzXVBFZiboa2s5Zg/640?wx_fmt=png&from=appmsg)
+
+器件开通波形示意图如图2-7 所示，图中QGS 为平台栅极电荷，QGD 为栅\-漏电荷，开通过程共分为四个阶段。
+
+①t0~t1 阶段。栅极驱动芯片对Ciss 恒流充电，栅\-源电压VGS 上升，此阶段VGS<阈值电压 Vth，被测器件一直处于截止状态，没有漏极电流流过，因此漏\-源电压VDS 不变，漏\-源电流IDS 为0，Ciss 保持恒定，VGS 由0V 线性上升至Vth；
+
+②t1~t2阶段。栅极驱动电流 IG 持续给CGS 充电，使得VGS＞Vth，栅极界面处形成反型层，产生IDS，器件开始逐步导通，工作在放大区。该阶段IDS 由0增大，VDS 下降，Ciss 保持不变，VGS保持线性上升，继续线性增加至米勒电压。
+
+③t2~t3 阶段。进入米勒效应阶段。当Crss 增大的速率大于电容的充电速率时，CGS 几乎没有电荷注入，IG全部用于Crss 充电，VGS 基本不变而保持平台。对于SiC MOSFET，由于漏致势垒降低效应，SiC MOSFET 会进入米勒斜坡，VGS 缓慢上升，在此阶段IG不仅对CGS 充电，还同时对Crss 充电。
+
+④t3~t4 阶段。SiC MOSFET 处于开通状态，此阶段Crss 不再变化，VGS 上升至驱动高电平电压VGS,ON，IG持续给CGS和 Crss 充电。由于器件在开通过程中Crss 随着VGS 升高而显著增加，所以使得时间常数τ=RCiss（R 为栅极等效输入电阻）较大，则VGS 上升的速率较t0~t1 阶段平缓许多。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLAGnTPtojyeZojV5FVKRHMJIXl6htMxu5y9k3EMhemXbw7e5oiavYxBw/640?wx_fmt=png&from=appmsg)
+
+为了提高测试精度，简化积分计算，通常使用恒流源对被测管进行驱动。如果IG 保持恒定，那么栅电荷是IG 和t 的乘积。Qg 曲线可以通过对VGS 随时间t的采样得到。如果栅极电流被精确地控制和监测，那么就可以通过式（2-8）进行Qg 积分计算，即
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLOXGl5v5aTkN2ZyWla2854bzsffXXxRMQAdKrhLTmFQDnjGjqRnXpYg/640?wx_fmt=png&from=appmsg)
+
+2.3.2 栅极限流电路设计
+
+栅电荷值反映了存储在端子间电容上的电荷，因为MOSFET 的输入特性类似于驱动容抗网络，随着漏极电压和漏极电流的变化，MOSFET 的输入特性也随之变化，即在开关的时刻电容上的电荷会随之变化。所以设计栅极驱动电路时经常要考虑栅电荷的影响。
+
+SiC 器件开关动作速度快，一般时间在纳秒级，对示波器分辨率要求较高且难以精确测量；开通时栅极瞬时电流时间短，难以采点进行积分运算。本方案基于MIL-STD-750D、IEC60747-8、IEC60747-9的栅电荷测试标准和原理，提出了一种新型栅极驱动电路，采用耗尽型MOSFET 的限流电路，将器件开通时间延长至微秒级，抑制栅极电流尖峰实现恒流充电，延长充电时间后进行积分计算。栅极驱动电路原理图如图2-8 所示，图中VGS,OFF 为驱动低电平电压，Rg,off为栅极关断回路电阻，DIO 为数字输入/输出信号。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLDeaBuuj16EPA6VQ94wSXBqa5gzs75mc8eOLTxhibKxQRqBMLXlvBRaQ/640?wx_fmt=png&from=appmsg)
+
+驱动电路选择使用高压栅极隔离驱动芯片，双脉冲测试电路一般为半桥结构，在对双脉冲测试电路中的上桥臂器件进行测量时，驱动回路需要浮在一定电压上工作，SiC MOSFET 的母线电压测试条件能达到将近1kV，所以要求驱动芯片具备较高的电压隔离能力，同时使用隔离芯片可以降低共模干扰。对于驱动输出侧要求有较高的电压、电流输出能力，保证对被测器件的正常驱动。本方案选用的栅极隔离驱动器如图2-23 所示，支持最高33V 驱动电源电压，最大输出电流10A，器件封装选用D（4 mm 爬电）形式，隔离电压有效值为3 kV，高输入阻抗，工作温度覆盖–40~+125 ℃。使用脉宽调制（PWM）信号控制输出脉冲宽度，在输出端口并联瞬态电压抑制（TVS）二极管，抑制瞬间过电压，保护电路元件。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLlcNNLyFqIBzKPhyr28AEmXDHvIK9MAhicNm6qh2hyIBjePLTsyiaBo6Q/640?wx_fmt=png&from=appmsg)
+
+限流电路组成如图2-10 所示，针对器件开通时栅极瞬时电流尖峰时间短的特点，利用MOS管饱和区特性实现电流调节功能，设置MOS管漏\-源电压15~25V，通过改变反馈电阻Rf 的阻值调节栅\-源电压从而方便地改变电流值。相关计算公式为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLWLic0OZSRa88wVpcNtPGhtXxbb2M1cqsLL51AHzkfiaeC7aQTGo60Nng/640?wx_fmt=png&from=appmsg)
+
+式中：μn 为电子迁移率；Cox 为单位面积栅氧化层电容；W 和L 为沟道宽度和沟道长度；VT 为阈值电压；gm 为MOS 管的跨导。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLXicy9Ky9kCwDRRtianL6ib5ffQz9OPcaFXzQ1Dzj8bX1PYeiaWEaImW0OA/640?wx_fmt=png&from=appmsg)
+
+对于某一给定型号的MOS 管，规格书中会标有跨导和截止电压的典型值或范围，根据式（2-4）可以计算出Rf 的大致范围。利用八通道浮动电压电流源模块（支持全四象限输出，最高测量精度±1μA）进行电流自校准，程控调整反馈电阻值，实现IG 的精确调节。将示波器探头连接到电阻R 两端测量电压波形，因为电阻为线性元件，所以栅极电流与该电压波形相同，由此进行积分计算可得
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLJKSDibwForqAnRobyx8EDqrekEkiaGXoNCicDv5sibgt82v3kwfRhORvnQ/640?wx_fmt=png&from=appmsg)
+
+式中：VR 为Rf 上的电压；Δt 为充电时间。
+
+与基于镜像电流源和电压\-电流转换芯片的测试方案相比，该限流电路结构简单，过程连续且测试线路改造成本低，同时电流精度满足测试需求。
+
+在开通回路增加限流电路后，波形变化如图2-11 所示。器件开通阶段，VGS上升时间明显变长，米勒平台更加明显，IG 稳定在栅极限流Ilimit 恒流充电。VGS在上升超过米勒平台后，IG会呈指数下降。关断回路未作处理，因此前后现象保持一致。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLogrsyfic2EkpAHjib4KBH3DlLaLE0sIVKSQoqSkKCBNK6CNBstNCyrLg/640?wx_fmt=png&from=appmsg)
+
+2.3.3 测试结果与分析
+
+在25℃环境温度下进行样片测试，样片选型如表2-1 所示。Si IGBT 限流电路阻值选择200 Ω，IG\=10.8 mA；SiC MOSFET 限流电路阻值选择820 Ω，IG\=2.78  mA。选取器件第二次开通时刻测量Qg,on；参照样片规格书设置VDS、第二次脉冲开启时刻的漏\-源电流IDS(sat)和VGS。测试Qg 时，观察波形变化，进行数据存储和计算，最后对被测项上下限进行判定并输出结果。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLMYtX8TT5nRyd6hibJ4vDDfN9ATD7hIKdbPSPszz8RnDW20wUs1bul3Q/640?wx_fmt=png&from=appmsg)
+
+首先选取Infineon IKW40T120T2 型Si IGBT 进行测试，该样片具有相对较低的栅电荷值，性能稳定，将其用于验证电路功能并观察实验结果进而确定是否进行多种类样片测试和测试条件取值。验证电路功能后，选取2 个不同厂的3 个SiC MOSFET样片进行测试。
+
+图2-12 为IKW40T120T2 测试波形。如图所示，在开通回路增加限流电路结构后，黄色IG曲线变化明显，器件开通时刻电流被稳定在Ilimit。在被测器件关断时产生的正向电流，是由在驱动芯片输出引脚处的2 个TVS 二极管造成的，其寄生电容在百纳法级别。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvL5o8YciaU6IyzsB1K3EkJOzfN0IqReafzx86cicvm0w14YC3VSHeibKic3A/640?wx_fmt=png&from=appmsg)
+
+设定高压源电压值和负载电流值，选择500μH/1mH 电感接入测试回路。确保被测管和陪测管无异常，开尔文检测引脚接触良好后，启动工控机调试窗口进行测试。积分时间设定为VGS 从0V 上升到VGS,ON 所用时间。调用math 函数对IG进行积分并显示波形，如图中橙色曲线所示，图 2-12 中VCE 为集电极\-发射极电压，ICE 为集电极\-发射极电流，VGE 为栅极\-发射极电压。记录单个样片连续测试20次的栅电荷测试数据（图2-13），取平均值后与规格书中参考值进行对比，如图2-14 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvL1s6iaex6IlEiaibCtxFMV2A8MiasbteOpZibTUobQmzFjY7ehS67ywaYjBg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLdh2S3laiaKprDcEYyXquv0ibbXYUNfqHwCmJBGTjibwMPibrgLc9icpOvyA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLYITAaGKJK7q4FEibVNdNK9TqKBa3SU0XFKONPRcUTlXGQBnXOPDia1RQ/640?wx_fmt=png&from=appmsg)
+
+IKW40T120T2的栅电荷测试平均值为203.68nC，误差0.33%；NVH4L040N120SC1的栅电荷测试平均值为102.85nC，误差2.99%；IMW65R107M1H的栅电荷测试平均值为15.648nC，误差4.32%；IMW120R220M1H 的栅电荷测试平均值为8.764nC，误差3.11%。
+
+根据器件规格书中的栅电荷变化曲线，修改应力条件继续进行测试，将测量值与典型值曲线进行对比，结果如图2-15 所示：测试结果变化符合规格书曲线变化规律，在测试设备误差允许范围（±5%）内，因此基于该测量方案能够较为准确地测得Qg。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLzVTVVUVjFjF9h5AiaIggFSiaPLf8844ayo6Mjn7czLOT9D9pSFQDkwKQ/640?wx_fmt=png&from=appmsg)
+
+2.4动态参数测量电路设计
+
+2.4.1 开关特性测试方法及硬件设计
+
+开关特性测试是功率器件测试的关键环节，其测试结果为器件应用关键指标，目前国际通用测试标准中通常采用双脉冲测试法。首先，开关损耗是功率半导体器件动态性能的重要指标，采用低开关损耗通常可以提升变流器开关频率，提升功率密度及效率，因此对器件的开关特性进行测试是很有必要的。SiC  MOSFET 双脉冲测试曲线示意图如图2-16 所示，橙色为母线电容两端的电压，在双脉冲测试开始前，母线电容组会进行预充电，电压设定值为规定需要的测试电压值，绿色为被测器件栅极驱动电平，蓝色为被测器件的漏\-源电压，红色为被测器件的漏\-源电流：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLTKbZlyTDxyMMVzmTBFiaXTkGMxsRzq52XTzYZVOKMZTG87Dlx93BuYw/640?wx_fmt=png&from=appmsg)
+
+双脉冲测试电路原理图如图2-17 所示，整体为一个半桥结构，一般上管为陪测管，下管为被测器件。双脉冲测试的特点在于上管栅极给定负压关断，被测器件施加两个脉冲驱动信号。第一个脉冲开启期间，构成电容正\-电感\-被测器件-电容负的回路，对负载电感进行储能，在第一个脉冲关断时刻使流过被测器件的电流达到规格书中的测试条件。同时在第一个脉冲结束时刻可以测得器件在规定漏\-源电压和漏\-源电流下的关断时间并计算关断能量；在第二个脉冲开启时刻，器件默认已处于规定的测试条件下，此时进行开通时间和关断能量等参数的测量。在两次脉冲的间隔时间内，构成负载电感\-续流二极管的回路，由于导线的线阻及续流二极管导通压降的存在，必然会有一定的能量损耗，具体表现为在二极管续流结束后电流值会有一定的减小，因此两个脉冲的间隔一般设置为几个微秒，避免导致电流值下降过多、续流二极管过热损坏。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLLJwaojQEw8Mc114mWq3jhCcNKrTWlsTibSzFJB6moX2juytg2pzMFgQ/640?wx_fmt=png&from=appmsg)
+
+在被测器件开通期间，电感两端电压可以认为等于电容两端电压，这样我们就可以通过负载电感值来表达脉冲开启时长，两次脉冲开通时间表达式为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLSnrwSSCIy9lzxzUULy9oXoALiaSbJ8lQ3flUBdzkCO5tuudUbtB1L2A/640?wx_fmt=png&from=appmsg)
+
+2.4.2 二极管反向恢复特性测试电路设计
+
+在SiC MOSFET 的源极和漏极之间存在PN 结，等效为寄生体二极管。施加负向电压时，体二极管会具有反向恢复特性。当MOSFET 从导通状态切换到截止状态时，体二极管会导致反向电流的流动，从而出现反向恢复现象。
+
+二极管电流反向恢复曲线如图2-18 所示。图中横坐标为时间轴，纵坐标为二极管电流值IF。在MOSFET 体二极管测试过程中，在第一个开启脉冲结束时刻，二极管产生导通正向电流；第二个脉冲到来时，二极管正负极电压发生反转，二极管电流开始反向恢复，电流值下降到0 并产生反向电流尖峰Irm，根据电流反向恢复时间可以计算出反向恢复能量。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLdwqg7zHvYSicMVF4QAAs9J3gHStTH38ICe7Ua1HnoRG6Mp9icl2nNlYA/640?wx_fmt=png&from=appmsg)
+
+二极管反向恢复测试电路原理图如图2-19 所示。陪测管的栅极改为正常驱动板，并联在一颗快速恢复二极管；被测器件位置不变（SiC MOSFET 体二极管测试时栅极接低电平关断，SiC SBD 测试时不需要连接驱动板），电感负载改为与被测器件并联。在第一个脉冲信号时打开陪测管，对负载电感进行充能，当电流上升至设定值时，陪测管关断，电流在电感和被测器件构成的环路中续流；在第二个脉冲到开始时，陪测管开启，电流重新经过电感回到电容负极，被测器件两端电压反向，产生反向恢复电流，此时进行测量即可得到波形与参数值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLaFODaS9LjaSNTxSQOQvaSWPQ2wsAeGGgibvxtx4CcV5bLsu9EA2R7EA/640?wx_fmt=png&from=appmsg)
+
+2.4.3 短路特性测试方法及硬件设计
+
+在SiC MOSFET 的应用场景中，如电机驱动、逆变器、变频器等快速开关状态，由于控制电压不稳、负载发生变化、工作条件发生突变时会出现短路工况。当SiC MOSFET 连接的负载发生短路时，电源电压会瞬间加载在器件的漏极，在栅\-源电压的共同作用下，器件将处于高压大电流状态，流过器件的瞬时功率非常高，由此产生的瞬时高热会将器件烧毁，造成系统失效，因此需要对器件的短路特性进行测试。由于SiC MOSFET 开关速度快，开关损耗远小于传统的硅基器件，同时由于SiC MOSFET 更小的芯片面积和更高的电流密度，与硅基器件相比，其短路承受的瞬时功率更大，器件更可能发生失效和退化。为了保证电力电子系统安全可靠的运行，功率开关器件需要具有一定时间的抗短路能力，即在一定时间内承受短路电流且不损坏。因此，器件的短路可靠性测试对器件的应用具有十分重要的意义。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLmkvsQwO1MxsqGrWRDOmkHCIoeUNwjbUyKfX5R5hzwoKACncs2FvlibQ/640?wx_fmt=png&from=appmsg)
+
+本设计方案是针对Ⅰ类短路，即器件在负载已经短路的情况下突然开启时发生的短路。在短路测试过程中应注意脉宽间隔设置并注意器件散热，避免结温过高造成器件损坏。图2-20 和2-21 是短路测试的电路原理图和波形示意图，与前两个参数测试电路不同，在短路测试回路中没有感性负载，被测芯片直接并联在电容一侧，在图中可以看出，漏源电压会在器件开关时刻产生尖峰，这是整体回路中寄生电感造成的，在实际测试中，电流会出现先上升到最高值，再略微下降保持不变，这是器件升温造成的。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLxsPXOLicuJFWACRNFoHr8bnIGzNpaKXicf4iaaE939GAicdq4iaSVFmOtlQ/640?wx_fmt=png&from=appmsg)
+
+2.4.4 回路寄生参数的影响分析及改进
+
+测试平台的硬件包括测试仪表、ATE 和测试电路板。其中测试仪表为外接测试，测试点较为固定；而测试电路板是根据测试功能而自主设计的。如果多个测试电路独立设计，那么在进行多参数测试时就需要人工操作更换对应的电路板、重新调整仪表探头，过程中增加了人工干预的不确定性，也降低了测试效率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLOqlM9MiaGmxH1UflrciaMt1PjvxhqpHs7fDCO0TrAqXVd1q8ww7D3ibLQ/640?wx_fmt=png&from=appmsg)
+
+在多个功能板切换的过程中，主要还是对信号接入点进行更换，即更换控制信号处接线、仪表探头测试点、更换驱动信号和驱动电源接线。其中，测试点的改变最容易对测试结果造成影响，可能出现重复性较差的测试数据。由以上几个部分的电路设计图可以看出，每项测试的主体电路结构相似，因此可以采用选通继电器的方式，改变测试回路来实现电路板的整合，整合后测试电路原理图如图2-22所示，PCB 布局如图2-23 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLlPcia3zu199t9hX149PZgtbib7DTwBtPZTB0Z9zjSeJUhAuBIDLx6fYg/640?wx_fmt=png&from=appmsg)
+
+在LTspice 软件中进行仿真，器件的栅极前放置电感，使用step 函数实现感值线性递增，仿真波形如图2-24 所示。随着栅极的寄生电感增加，栅极关断时刻的负向过冲会变得更加明显，同时器件的关断时间延长；器件的漏极电压和电流也存在延时现象。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLsiaGDBTIlibGnX5xXeJiawvwXYyGzM5s5KhiaWoU2aw0ibPxOb7pzFKUD1A/640?wx_fmt=png&from=appmsg)
+
+在器件的漏极放置电感{Ls}，使用step 函数实现感值递增。进行双脉冲测试，仿真波形如图2-25 所示。随着器件漏极处电感{Ls}增大，与原始图像对比，栅\-源电压VGS 曲线在第一次脉冲关断和第二次脉冲开关时刻产生震荡；漏\-源电压VDS 在两次脉冲的关断时刻均产生严重震荡；漏\-源电流IDS 在两次脉冲开启及关断都震动严重。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLGqQ8pL0GH58SoGaGnIc5puaHp4yibI0NjUmEWAQU6Qo2sFcJ6sjUooA/640?wx_fmt=png&from=appmsg)
+
+在器件的源极放置电感参数{Ls}，使用step 函数实现感值递增，仿真如图2-26 所示。随着器件源极电感值增加，器件栅极波形在两次脉冲的开启时刻会产生严重的毛刺。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLa4xicibcnJcMOoWDI4vka4Kr1aoeibnmQQaSBqsicic6FibnmRGpvTZC7ibUw/640?wx_fmt=png&from=appmsg)
+
+利用对以上仿真波形的分析可以出，驱动和测试回路中的寄生电感参数会对测试波形产生怎样的影响。为了降低寄生参数、改善波形，可以采用叠层走线、减小走线距离、增大线宽、PCB 走线减少过孔等方法改善。
+
+2.5储能元件选型及回路开关保护设计
+
+2.5.1 母线电容、电感选型
+
+在主功率回路中，高压源负责外部能量输入，电容组为测试回路提供直流电压。母线电容的耐压等级和容量等参数直接影响了测试平台的电压、电流测试能力。
+
+在器件短路测试过程中，被测器件会同时处于高压、大电流条件下，此时电容中储存的全部能量会直接加载到被测器件两端，为了避免在测试过程中，SiC  MOSFET 受到电压波动和过高电压尖峰的影响，母线电容需要持续提供较为稳定的直流电压并且具有较强的瞬时电流能力即输出能力稳定，不产生瞬时过高电压尖峰。参考多篇相关研究论文后确定，对多颗电容进行并联并进行PCB 叠层处理来实现以上性能要求。
+
+在电容选型上，一般使用薄膜电容或电解电容。电解电容单位体积容量大，额定容量可以做到几万μF，同时其价格与其他类型电容相比具有压倒性优势，生产规模大、成本相对较低。薄膜电容的优势在于没有正负极之分，安装时无需考虑方向；低漏电流，对于需要长时间保持电荷的应用有一定优势；能够提供较好的高频性能（频率响应范围宽）；电性能稳定，不容易受到温湿度和电压波动的影响。其中聚酰亚胺薄膜电容（Polyimide Film Capacitor）、PTFE 薄膜电容（Polytetrafluoroethylene Film Capacitor）和聚丙烯薄膜电容（Polypropylene Film  Capacitor）具有更高的精度和稳定性。
+
+对于电源稳定性的要求，选择采用聚丙烯薄膜电容，聚丙烯薄膜电容具有更低的损耗因子和漏电流，提供更高的精度和稳定性，能够承受相对较高的尖峰电压及尖峰电流。
+
+将电容接入感性负载的测试线路，在第一次脉冲时间内，负载电感L 建立初始电流，母线电容组CBUS 放电，电容两端电压VDC 会有一定跌落，在第二次测试脉冲开始前需要进行补偿，保证在第二次脉冲开启时刻器件两端的漏\-源电压为测试电压。为了保证测试数据稳定，要求电压下跌幅度不超过5%，对所需容值进行计算：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLkYsrMaPtLzlYoic59GVfqyACAZ3Xf2lns2KQXicl7u7mmUyBSeFxzImg/640?wx_fmt=png&from=appmsg)
+
+为了保证测试过程不会对器件造成损坏，需要保证在最高测试电压条件和最大测试电流条件下，母线电压峰值小于被测MOSFET 自身的最高耐压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLZTWiaHRC0p59yqYLtD5a76rQk73ibzq5oDicwDic1JCARQNqdJ0g9mQxRw/640?wx_fmt=png&from=appmsg)
+
+直流母线电容取值需满足上式，确定电容下限。母线电容值越大，电压跌落越小，但是充电时间会增加，成本也会增加。
+
+算例①：取Vrat\=1200V，Imax\=1000A，Vmax\=800V，L=100μH，计算得Cmin\>125μF；
+
+算例②：取Vrat\=1200V，Imax\=1000A，Vmax\=800V，L=300μH，计算得Cmin\>375μF；
+
+算例③：取Vrat\=1500V，Imax\=1000A，Vmax\=1300V，L=200μH，计算得Cmin\>357μF；
+
+综上，母线电容取值范围为Cmin\>375μF，工作最高电压1200V。选用12 个40μF/1300V薄膜电容进行并联，实现1300V 耐压值及480μF 的电容能力。
+
+负载电感足够大，使得在开关过程中续流电流基本不变，换流的高频电流基本上完全通过主功率回路换流，续流回路如图2-27 中红色部分所示。母线电容电压跌落值与负载电感大小有关。负载电感增大，会使得充电时间增加，电压跌落值增大；负载电感过小，双脉冲测试的第二次开启电流将小于测量所需电流值，充电时间也将缩短，使得测试电流点误差增大。
+
+由以上分析可知，负载电感大小受母线电容电压和电感续流大小的限制，在T2时间段内，器件关断，电感与二极管构成回路进行续流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLeuibLHJyZic84iboMD5OXBRcRBicPFoL4P3JZKvZgicdaR2A8646Jsod9mw/640?wx_fmt=png&from=appmsg)
+
+在本项目中，双脉冲测试的最大电流设置为800A，取CBUS\=480μF，Vrat\=1500V，Vmax\=1300V，根据公式计算得L<420μH。为了避免在短路大电流测试时，负载电感发生磁饱和现象，本方案选择使用空心绕制的电感盒。如果要进一步增大多脉冲电流测试能力，可以适当增加电容容量。
+
+2.5.2 PCB 叠层结构设计
+
+换流回路的杂散电感影响SiC MOSFET 的开关特性。在功率回路的总杂散电感中，直流母排的杂散电感占主要部分。
+
+尽管在电容器件选型时已选择了寄生电感较小的封装形式，但是仍需要通过并联方式继续减小寄生。在被测器件开关时刻，快速通路的形成会导致线路中出现很高的电流、电压变化率（di/dt 和dv/dt），在寄生电感和寄生电容的作用下，会出现电压、电流尖峰和关断时刻的震荡现象，测试波形会产生毛刺或失真，严重情况下，过冲电压尖峰过高会超出测量仪表量程，电流过高可能会造成PCB 铜皮薄弱部分烧断，这些都会对测试平台造成不可逆的损坏。SiC MOSFET 的关断电压过冲与杂散电感有关，表达式为（2-12）：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLywHhlicZedEib8dE21GK6TenZxVIP3rM3J54voeWANDXMfCkjc51q4BA/640?wx_fmt=png&from=appmsg)
+
+由以上分析可知，减小整体回路杂散电感Ltotal，有利于减小电压过冲，从而测试平台和被测器件。较多相关文献中采用薄铜排叠层结构达到降低寄生参数的目的，该叠层母线结构通过将电流传输路径叠层布线，增加了传输路径上的磁场重叠面积，达到降低回路特征阻抗和降低回路等效电感的目的。与普通的铜排寄生相比，通过叠层母排方案，使方向相反的电流产生的空间磁场互相抵消，寄生电感参数可减小为原来的1/2。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLsprKxjpichywicYWuX1wG4FRGnjdV2E52Ria3OMaqWSqUWpIcz4tIMyyQ/640?wx_fmt=png&from=appmsg)
+
+本方案将12 个电容分为2 组进行排布，每组6 个，叠层顺序如下图所示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLkiblgyxlRwz6zF5yzoCLRF1RBHZ2WanpsLWWcnsHu0K064bfFSI4koA/640?wx_fmt=png&from=appmsg)
+
+较多文献中采用的叠层母排设计，优势在于可以大幅降低寄生电感，获得更大的电流测量能力，适用于功率模块的测量；缺点在于设计较为复杂，整体成本较高。考虑到本方案中被测器件的封装和功率规格，采用PCB 叠层即可满足设计规格要求，并且在后续电路整合，器件安装和成本上有一定的优势。
+
+2.5.3 IGBT 并联模块设计
+
+在主回路电容输出端设置开关，用做过流保护。当被测器件损坏或线路损坏时，主回路中的电流可能迅速上升，为了防止测试平台发生严重损坏，使用该模块进行保护。市面上一般使用IGBT 模块，价格较贵且多为国外供应商，因此本方案采用多颗国产IGBT 单管并联的方式实现较大的过流能力。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLPUtRHeZEgZeYyPz7NFKKESvSEndTJvN1lic6Md1yYWMxXVo7Hqzj27A/640?wx_fmt=png&from=appmsg)
+
+IGBT 并联模块整体布局如图2-30 所示，驱动电压为固定电压，由DC/DC提供，因为器件并联数目较多，选择使用两路同时驱动，PCB 走等长线；多颗器件并联会出现分流不均现象，本方案在每颗器件的栅极开通和关断回路均设置电阻位，通过微调开通速度，实现多颗IGBT 均流。在驱动一侧增加过流保护接口，当测试回路电流超过设定安全值时，触发过流保护，将驱动电平拉低，实现IGBT模块关断。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLXn8ApibKA46yDEOa3LLbMibr7UbISZ31K0fn4qzElr77JFm7dbkng8MA/640?wx_fmt=png&from=appmsg)
+
+将该驱动板设置为被测器件进行短路测试，波形如图2-31 所示，在900V 漏源电压下，短路电流能力达到1000A，关断保护时间771ns，符合设计指标。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLPEWib7SYU0RPFoDRRbnUHO1FfWicxiatMR160xW5C2YqXrv4QHcjysphQ/640?wx_fmt=png&from=appmsg)
+
+2.6本章小结
+
+本章从碳化硅功率器件动态参数的测试出发，分别介绍了碳化硅器件的栅电荷特性、开关特性、二极管反向恢复特性、短路特性的测试方法，单个参数测试电路硬件实现方案，辅助使用仿真软件分析电路寄生参数对测试结果的影响，帮助优化电路板的走线和器件布局。本章为后续软件平台设计打下了硬件基础，完成了各项被测参数功能测试的指标。
+
+第三章 SiC 功率器件动态参数测试平台软件设计
+
+基于STS8200 控制平台，对ATE 设备中的DIO、FOVI、CBIT 等资源板卡进行编程控制，完成资源和信号输出；通过编程实现波形数据的采集、数据处理和测试结果输出，完成测试流程。程序设计的过程按照从部分到整体的原则，首先确认不同仪器的通信连接形式，下载相应的驱动软件实现控制；之后参考ATE资源板卡硬件手册和软件编程指导手册，熟悉板卡功能和输出性能，设计相应的控制程序，实现板卡资源调用；最后仪器数据采点处理，完成参数的计算、判据和输出。
+
+3.1软件设计平台
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvL0zOXk0iccyicsPqhSDcvy3v92z6iatxprBpwlS9kjx2MxXvBGWE0cGZWA/640?wx_fmt=png&from=appmsg)
+
+STS8200 满足大模小数类芯片测试需求而设计的测试系统，系统由PC 机、系统总线接口卡、工控机等构成。系统的主要特点如下:
+
+工控机与测试主机通过 PCI 总线接口卡连接；
+
+主机系统支持Windows11 操作系统，测试程序使用C/C++语言编程，人性化交互界面设计；
+
+测试主机最多支持插入26 个硬件模块，最多支持16 工位同步并行测试，支持输出±1000V，±10A。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvL1THenic5uVic7BFLKCcAIT2M3liaS2ZgBfpicFXbJZ9pr1MdqbQBiaaYaYw/640?wx_fmt=png&from=appmsg)
+
+3.2源表控制
+
+3.2.1 高压源控制
+
+双脉冲测试平台中，高压源通常用于为电容组提供所需的高电压。在使用过程中，高压源能够提供可调节的电压输出，以满足不同测试需求。这些高电压信号可以用于模拟各种工作条件下的电压应力，以评估被测器件的性能、稳定性和可靠性。
+
+开关电源是一种电源系统，其工作原理基于开关器件（如晶体管、MOSFET、IGBT 等）的开关操作。与传统的线性电源相比，开关电源具有更高的效率和更小的体积，因此在许多应用中被广泛采用。开关电源的基本工作原理是通过将输入电压交替连接和断开，以产生高频的脉冲电流，然后通过变压器和整流电路将其转换为所需的输出电压和电流。开关电源的工作频率通常在几十kHz到几MHz之间，远高于电源中传统变压器的工作频率。开关电源的主要优点包括：
+
+高效率：由于开关电源以高频率开关动作，因此可以更有效地转换电能，减少能量损失。
+
+小体积和轻量化：相比于传统的线性电源，开关电源的体积更小、重量更轻，适用于对体积和重量有限制的应用场景，如便携式设备、电子产品等。
+
+可调性：开关电源的输出电压和电流可以通过调节开关器件的工作周期和占空比来实现精确控制，从而满足不同应用的需求。
+
+可靠性：开关电源采用先进的电子元件和控制技术，具有较高的稳定性和可靠性，同时也能够提供更多的保护功能，如过载保护、过压保护等。开关电源广泛应用于各种电子设备和系统中，包括计算机、通信设备、工业控制系统、医疗设备、汽车电子等领域。
+
+本方案选用ITECH（艾德克斯）公司的IT-6700 系列高压源，该电源额定值（0~40℃）优异，电压支持0-1200V，电流0-5A，功率3000W；支持多种通讯方式，具备RS232 接口、USB 接口和 RS485 接口。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvL6rTAj2ytclH0C2hzJxice2Had2poj6kKsz0AG2BlticqKgggSVWrKtug/640?wx_fmt=png&from=appmsg)
+
+高压源上电后，首先需要确认通信连接是否正常，此时高压源会自动执行初始化程序，包括确定所需的输出电压范围、电流范围、保护设置等；之后设定电压值，判断设定值范围及外部开尔文连接正常后进行使能输出，对母线电容充电。在程序中设置足够长的延时使电容电压达到预定电压，延时结束后开始对器件进行测试；结束测试后，将高压源输出关闭，输出参数恢复到默认值，并将高压源与被测设备或测试台断开连接，单次测试结束。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvL8qYrmKa7MkB7qIehe4bNEiauyT2Pn1cFZErb7sWkCOfUNkKjb8xHibzA/640?wx_fmt=png&from=appmsg)
+
+3.2.2 脉冲信号和充放电控制
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLE9dGz9LlFOAN1foph0BXHRl1egOiaCy2c8SzXpruzAt0nbFcZM8LUYQ/640?wx_fmt=png&from=appmsg)
+
+脉冲信号主要用于控制栅极驱动板和继电器。信号资源来自STS8200 机柜中的CBIT128（用户板控制模块）板卡和DIO（数字通道模块）板卡。
+
+CBIT128 板卡是STS8200 系统中的标准模块，模块提供128 个控制位（C-Bit），可用于控制用户板（DUT Board）上的继电器，每一位可独立编程，最大驱动能力100mA，提供+5V、+12V 继电器电源，提供±15V 模拟电源，提供C-Bit 回读功能。控制位C-Bit 的动作上升时间约为10ns，下降时间约为100ns。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLqDrM29sDUjHKebhwy3GvdEibBkKJ0HwuZLYxjRuDefB41icOF5KNjtNA/640?wx_fmt=png&from=appmsg)
+
+DIO 板卡是STS8200 系统中的标准模块，模块提供8 通道数字输入/输出，可用于高速数字传输、数字模式波形发生、错误捕捉及逻辑分析等应用。本方案在使用时默认驱动格式设置为NRZ（不归零）格式，如下图3-7 所示，PEL 为初始波形，T0 为主时钟，T1 为驱动前沿。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLjZWuDytYoWQJMsA7uDOHE7kINjsa4w7uHKrHIKR5KvAZBxFX3iaTw6Q/640?wx_fmt=png&from=appmsg)
+
+主要特点如下:8 通道(-2V~7V)数字输入/输出；最大传输率5MHz，板载向量存储器；支持Per Pin 时间参数设置(驱动前沿T1、驱动后沿T2 和比较时刻T3)；支持Per Pin 驱动格式设置；支持Per Pin 驱动高低电平、比较高低电平设置；专用高性能引脚驱动/比较电路；错误捕捉功能；支持与STS 8200 系统内FOVI100、FPVI和QVM 模块同步校准数据。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLicDTVEw1ouP9NM9sOddkqa40Dk1kdogadC6MsK4dL4ZmSvsv1ibaFrlQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLFqsicOUYcRbEiawibDicsk1Au3X5P2T2pVrxibiaiahRRpVXlwdkdw6r3DTxg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLYrmTYYBTicPIEicgushAUDsfxp9n2431M0CEHCLn77IU0CeAZ31SHuPw/640?wx_fmt=png&from=appmsg)
+
+3.2.3 示波器设置
+
+示波器选用泰克5 系示波器，支持8 通道输入，带宽最高为2GHz，采样率6.25GS/s，在所有模拟/数字通道上最高为500M 样点，支持触屏操作和USB 存储。在本文设计中主要用于外接探头进行测试波形取点。主要设置包括：触发阈值、输入阻抗、衰减比、电压/电流输入等。程序编写参考STS8200 编程手册中的样例程序，按语句编写。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLAVrwaw5yscKria5p3oFJicHic6ibKQaK9IHkPR2oibBgAiblpf2NkTF8ASmw/640?wx_fmt=png&from=appmsg)
+
+本方案采用的示波器最多支持8 个信道，每个信号使用不同的颜色做区分，使用蓝色代表漏\-源电压，绿色代表栅极电压，红色代表漏\-源电流。在进行完参数设置之后，即可开始测试。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLT1wjqLzw9LdS82AicIJBUXOJuZGMhH0tEiakXP8rQPdfrytoDVU32z7A/640?wx_fmt=png&from=appmsg)
+
+3.3数据处理及结果输出
+
+3.3.1 动态参数计算规则
+
+开通时间（td(on)，tr，ton）：在测试规格书指定电压、电流条件下对器件进行双脉冲测试，在器件第二次开通时刻进行测量和记录。
+
+开通延时td(on)：栅极电压上升至幅值10%时刻起，到漏极电流上升至10%时刻止；
+
+上升时间tr：漏\-源电流值10%上升至 90%所用时间；
+
+开通时间ton\=td(on)+tr；
+
+关断时间（td(off)，tf，toff）：在测试规格书指定电压、电流条件下对器件进行双脉冲测试，在器件第一次关断时刻进行测量和记录；
+
+关断延时td(off)：栅极电压下降到幅值的90%时刻起，到漏\-源电流下降到90%时刻止；
+
+下降时间tf：漏\-源电流值的90%下降到10%所用时间；
+
+关断时间toff\=td(off)+tf。
+
+开通能量Eon 与关断能量Eoff：
+
+开通能量：双脉冲第二次开通过程中，栅极电压的10%至漏\-源电压2%时间段内，漏\-源电压与漏\-源电流的积分值；
+
+关断能量：双脉冲第一次关断过程中，栅极电压的90%至漏\-源电流2%时间段内，漏\-源电压与漏\-源电流的积分值。
+
+二极管反向恢复时间：二极管电流下降至零时刻开始到第二次到达反向电流尖峰幅值10％所需的时间；
+
+二极管反向恢复电荷：反向恢复时间与二极管电流的积分值。
+
+3.3.2 测试结果输出
+
+在程序中设置被测参数名称和对应的函数名，编写测量函数和回读语句。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLYXvd766pE0m11ougHxzbyVA66DNQLytATovYA8HvtE6n832Eq0PFag/640?wx_fmt=png&from=appmsg)
+
+通过STS8200 测试平台操作界面输出，如下图3-14 所示，左侧为被测参数名称、单位和上下限判据，右侧为测量值。测试完成后，“工位1”位置会显示测试是否通过，绿色代表PASS，红色代表FAIL。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvL2Uc73GGS5vSdribdJ5iavlkba9mhGgPliaEUJcy5vicjrWfOvr0yIMzk0Q/640?wx_fmt=png&from=appmsg)
+
+测试工作完成后需进行设备下电操作，点击左上角程序卸载图标即可，若发生程序错误导致操作失败，回弹出警告对话框，样例程序如下图3-15 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLpH0HIo0zeia5tRuRv0g43Mkc4AoViaYxg9sxlsBBQJjYrMGmuEtXOwAQ/640?wx_fmt=png&from=appmsg)
+
+3.4本章小结
+
+本章主要介绍了测试平台的软件设计方案。基于STS8200 软件平台进行设计，首先实现各仪器仪表的通信连接，实现单个控制；其次对ATE 板卡进行软件编程，将触发信号、浮动电源等资源引入测试平台；最后完善测试数据的计算处理和判据输出，完善对多个参数项的覆盖，生成应用程序。
+
+第四章 SiC 功率器件动态参数测试平台实验分析与仿真
+
+本章主要介绍实际测试结果和仿真平台，以及整体指标和精度验证情况。进行多个电路整合后，基于STS8200 测试平台进行验证。根据第一章的设计指标和预期覆盖的测试参数展开，选用已商用的器件在测试平台上进行实测，测试结果与器件规格书进行比对，完成对测试平台整体功能指标和性能指标的验证。
+
+4.1功能及性能指标验证
+
+本测试系统中，共有两个电压信号，一个电流信号，均允许外接探头到引脚端进行测试。漏\-源电压信号设计的最高规格为1200V，考虑到电压过冲，我们选择使用TESEC 公司的TT SI9110 高压差分探头，该探头测量能力达到±1400V（DC+peak AC）or 1000Vrms，带宽为DC to 100MHz（\-3dB），精度±2%，上升时间3,5ns；栅极驱动电压范围为\-5V-+20V，可以选择无源探头，本方案选用RIGOL PVP2350无源高阻探头，设置探头衰减比为1：1，带宽为35MHz。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLDSy25DYyI5HFFJhHibno7v8ichvyLM8uHA0PNBx7XAGM0TFO61Dnketg/640?wx_fmt=png&from=appmsg)
+
+漏\-源电流的测量选用深圳知用公司的柔性电流探头，柔性电流探头（罗氏线圈）是一种用于测量电流的设备，它基于法拉第电磁感应原理。该探头由一个或多个绕组组成，每个绕组都包裹在一个磁性的环形芯上。当被测电流通过绕组时，根据法拉第电磁感应定律，会在线圈上产生一个与电流大小成正比的磁场。相比传统的电流测量方法（如电阻式电流测量），由于霍尔电流探头不需要直接插入电路中，因此其插入损耗很低。这意味着在测量过程中不会对被测电路的性能产生影响，特别是对于高频、高精度的电路来说尤为重要。同时，霍尔电流探头没有移动部件，结构简单、耐用，具有较长的使用寿命。与磁芯式电流传感器相比，霍尔电流探头具有快速的响应速度，覆盖电流范围更广且不会出现磁饱和现象。目前，柔性电流探头（罗氏线圈）电流探头广泛应用于电力系统、电子设备和实验室等领域中对电流进行测量和监测的场合。它具有非接触式测量、高精度、大量程和快速响应等优点，因此在许多应用中被认为是一种可靠和方便的电流测量解决方案。
+
+选择线径典型值较小的感应环，便于在狭小空间中穿梭，适用MOSFET，IGBT器件管脚电流测量（TO-220,TO-247 封装），耐压值选择2kVpk 规格，电流峰值1200A，高频带宽30MHz。
+
+4.1.1 实测波形及数据
+
+选用安森美NVH4L040N120SC1 SiC MOSFET 进行动态参数测试，测试结果如图所示。与器件规格书典型值对比，可以看到测试结果与手册典型值接近，误差为，低于10%，达到预期设计性能指标。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLT6nOQZNHbXWiafmzZtDbmeG6LCAEFze1zbfiaIeudV7OMonQ4FVOqZdQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLDOVFrkwvCficQxshHCycaKEu8HuVWYTnnCIf7gedTzghico4JSxicXYnA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLs7MnibPRibtTQCiaxAOE5tpeVmviaDzDpRzSuJBDIoJ3l6VGd95EGwMyJQ/640?wx_fmt=png&from=appmsg)
+
+对测试平台其他性能指标进行验证，结果如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLsicSiaxgWWlQfKFC636T3kX8Y7CZyY3t3kQNHZHyUwDG2ZzIh3qEXHLw/640?wx_fmt=png&from=appmsg)
+
+4.1.2 LTspice 仿真
+
+LTspice 是一款由ADI 免费提供的LTspice XVII 是一款基于SPICE 的高性能仿真器、原理图采集和波形观测器，为改善模拟电路的仿真提供增强功能和模型。其原理图捕获图形界面能够探测原理图并生成仿真结果，这些结果可以通过内置波形查看器进一步观察分析。除了拥有电路、符号编辑器和波形查看器之外，LTspice还拥有丰富的无源元件库和大约2000 种ADI 产品的宏模型，包括稳态检测、启动传输分析和阶跃响应分析。同时，它能够进行效率计算和功率计算等模拟。
+
+从器件供应商官网可以下载仿真模型，导入原理图后连接完整电路，在该软件内可以对各项物理量进行修改或函数描述。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslp5War1ia2eUhJuH6eiaCvvLCa2iapIoharHzOqDfhP46UOknm8Levh1pYPVLTSL6XjNQicFjkIoKBEg/640?wx_fmt=png&from=appmsg)
+
+4.2测试结果分析及优化方法
+
+根据前面的实测波形和仿真数据可以得出，SiC 功率器件动态参数测试平台在进行硬件设计时都会或多或少的引入一定的寄生参数，从而导致测量误差。对数据进行分析后，可以误差产生的主要原因归纳为以下几个方面：
+
+1.仪器和探头引入的误差：根据被测样片的电流规格，需要更换不同大小的负载电感，主功率回路中的电感使用的是外接电感盒，与电路的接口为6mm 香蕉插头，配合电路板上的香蕉插座实现负载接入电路板。即使是使用镀金的香蕉插头，在连接处也会在一定的寄生电感，最终会对测试结果产生影响，后期优化可以改用可编程电感箱，固定输入接口。无源探头的接地线长度和探头测试回路面积也会引入寄生电感，会使栅\-源电压VGE 波形震荡，影响分析和判断，在使用时可以绕制短接地线进行优化。高压差分探头的共模耐压会随着衰减比的变化而变化，在进行半桥上管栅\-源电压的测试时可能会带来很大的问题，其次如果差分电缆过长，可能导致精度下降，在条件允许的情况下可以更换隔离探头。罗氏线圈电流传感器在使用时应使电流尽量穿过环形中心；
+
+2.测试夹具和继电器引入的误差：本方案中的被测器件封装类型为TO-247封装，使用的连接座与器件引脚处会引入一定量的寄生参数，后期改版可以改为直插式或短线焊接。在进行短路测试时会通过大功率继电器切换测试回路，栅极电阻切换板上也设置有多个继电器，最终也会对测试结果产生影响；
+
+3.元器件封装和PCB 布线引入的误差：实际情况下电路的元器件并非理想器件，并且大多器件需要进行焊接，元器件势必会带来意料之外的寄生参数，这部分只能选择更优封装设计的元器件，同时缩短引脚接线长度进行优化；由于PCB Layout经验不足，在进行布线过程中可能使一些信号线受到干扰，布局位置不合理引入了过多的过孔，之后还需要进行改版优化。
+
+4.3本章小结
+
+本章首先对实际测试使用的探头传感器进行了介绍，之后对被测样片进行双脉冲测试和短路测试，完成测试波形记录和结果比对，最后进行测试平台主要性能指标的验证工作。介绍仿真软件LTspice 的基本功能，将仿真波形与实际波形相结合，分析测试结果误差来源及后续改进方向。
+
+第五章总结与展望
+
+5.1主要结论
+
+随着新能源汽车的普及和各类高频电源的应用，SiC 器件商业化应用越来越多。为了更加真实地模拟器件的工作状态，动态参数测试是在出厂前必不可少的一道工序。目前还存在成熟厂商的测试平台价格相对较高，高校自主研发的测试平台存在测试功能较为单一，操作自动化程度低等问题。
+
+在AccoTEST 技术支持下，完成了测试平台的搭建、验证工作。本测试平台，实现了多个动态参数测试项的覆盖，提高了程序控制比例，降低人工时间的消耗，可以为SiC 功率器件动态测试参数研究，提供较为精确的数据支持。
+
+本文主要进行了如下的工作：
+
+1.介绍了SiC 功率器件动态参数测试的必要性，对SiC 材料和SiC 功率器件的发展和应用进行了详细的描述，调研了国内外针对SiC 功率器件测试标准和测试设备的发展现状。
+
+2.针对SiC 单管功率器件，设计了一套动态参数测试平台，最大测试电流1000A，最大测试电压1200V。测试平台同时覆盖多项测试功能，包括开关特性、栅电荷特性、二极管反向恢复特性和短路特性，能够对输出结果做出判据。针对测试平台的设计指标和现有国际标准的参考测试电路设计单个测试项的电路原理图，辅助使用LTspice 进行仿真实验，与实际测试波形图进行对比和理论分析，指导硬件寄生参数优化。采用继电器/IGBT 切换不同测试回路方式将多个测试电路模块进行整合，实现多项动态参数一站式自动测量。设计使用IGBT并联模块，实现1kA 短路电流能力和快速过流保护功能，减小了开关寄生。在测试平台的软件设计部分，根据被测参数的特性选择合适规格的测量仪表，搭配STS8200 软件平台进行编程和通信，实现自动测试。
+
+3.分析了SiC 功率器件动态参数的计算方法、各部分的设计重点和寄生参数影响，对整体测试回路进行优化。依托于STS8200 人机交互界面，快速完成测试参数条件设置。完成测试平台的搭建和验证工作，选择已商用的SiC 功率器件进行测试，验证测试结果精度指标；对测试平台进行高压和大电流短路测试，验证测试平台极限能力设计指标，结果表现良好。
+
+5.2研究展望
+
+本文针对SiC 功率器件进行了动态参数测试平台的调研分析和电路设计工作，限于作者自身专业知识储备和课题工作时间的限制，本文的研究还存在许多后续的工作可以开展：
+
+本文设计的动态参数测试平台仅面向单管封装器件，对于新型的D2Park 封装和 H2PARK 封装并未研究设计外围测试电路；
+
+本文设计的测试平台还存在着一些需要手动调整的部分，比如外部测试引脚的更换和电感盒的更换。后续可以选择采用增加测试点，更换可编程电感箱的方式，提高整体自动化程度；
+
+针对SiC 功率器件，为了得到更完美的测试波形，需要不断降低测试平台的寄生参数。在本方案设计中，由于引入了过多的继电器、铜柱等连接件，PCB 布局走线经验不足，整体的寄生参数还需要继续优化。
+
+注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsngicTCM1aozIMqNJaDGDYsVBZ76ofSNtiaOYVOOJJBndtA8N9p5n6Ogt76aNeaQo8aC5Yap5VkUrJw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=1umdp7l6&tp=webp#imgIndex=6)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsngicTCM1aozIMqNJaDGDYsVTq9TURj8xJKwX4nmXrAQuFzpELWY4YCiaOPuWnu8ic8mOc8pLtzHjSbg/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=56ak8fax&tp=webp#imgIndex=7)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsngicTCM1aozIMqNJaDGDYsViaicTuLrqzD5TJC9gT1c8oJ4ib9Mj3mxoKPuMfOFCv7ZfMAYyDMzb8lqQ/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&randomid=a0lpe1mu&tp=webp#imgIndex=8)

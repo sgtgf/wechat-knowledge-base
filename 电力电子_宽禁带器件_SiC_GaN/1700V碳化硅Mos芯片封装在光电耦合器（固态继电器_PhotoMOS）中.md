@@ -1,0 +1,100 @@
+# 1700V碳化硅Mos芯片封装在光电耦合器（固态继电器-PhotoMOS）中
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/ts3GUkj2\_oOpJtEclJaJ2w](https://mp.weixin.qq.com/s/ts3GUkj2_oOpJtEclJaJ2w)
+
+**一.光电耦合器知识点**
+
+****1-1.固态继电器****
+
+光电耦合器又称光电隔离器或光电耦合器，基本原理是以光作为媒介来传输电信号，把发光二极管和光敏(三极)管封装在一起，输入的电信号驱动发光二极管，使之宣布必定波长的光，被光探测器接纳而产生光电流，再经过进一步扩大后输出，完成“电→光→电”的转化，从而起到输入、输出、阻隔的效果。
+
+产品分九大类，消费级、工控级、车规级、航天级四个等级 400多个光耦品种，在通讯、电力、家电、 汽车、新能源等各个行业中应用。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmnY0snp6xiaCicPHktA3yrWbFIUV0pZhbgxGv8GLicYVdPDKWcw2v4yc78Q21moGPJtPDPY8EHRicdsA/640?wx_fmt=png&from=appmsg)
+
+固态继电器（SSR) 是一种全部由固态电子元件组成的新型无触点开关器件，它利用电子元件的开关特性，可达到无触点无火花地接通和断开电路的目的，因此又被称为 “无触电开关”。既有放大驱动作用，又有隔离作用，很适合驱动大功率开关式执行机构，较之电磁继电器可靠性更高，且无触点、寿命长、速度快，对外界的干扰也小，已经广泛应用于家电产品及工业自动化产品上面。  
+
+**1-2.MOS输出（Photo Mos）继电器**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOjY7wnmdmdE2oKBpAIibM4eACaeWdlCoD2biaHby5IVnBjwZVqZoYV9BKV4qOBWwGrzlbSPNdg1CA/640?wx_fmt=png&from=appmsg)
+
+PhotoMOS是一款由MOSFET光耦合LED组成的固态光耦继电器，固态光耦继电器它具有体积小、寿命长、稳定性好，抗干扰能力强等优点，在电路中起到了重要作用。目前已经广泛应用于各大领域，比如新能源电池BMS、测量测试仪器、工业控制设备、安全设备、医疗设备等。
+
+PhotoMOS继电器的结构如上图所示。输入引脚连接到发光二极管（LED）。LED安装在继电器上部，距离光电池至少0.4毫米。LED和探测器模制在半透明树脂中，允许光线通过，但在输入和输出之间提供了一个介电屏障。双MOSFET集成在输出侧，用作负载电路的开关。
+
+与机电式或其他固态继电器相比，使用PhotoMOS继电器有许多优点。
+
+这些优势包括：　
+
+        低功耗
+
+       低泄漏电流
+
+       在使用寿命内保持稳定的导通电阻
+
+　　高可靠性和超长的使用寿命
+
+　　小尺寸
+
+　　快速切换速度
+
+　　高振动和抗冲击性
+
+　　无触点弹跳，无开关噪音
+
+　　操作原则：PhotoMOS继电器的输入端由发光二极管组成。如果电流流过LED，它就会发光。光通过半透明的硅树脂，由一系列光电传感器检测。这导致光电传感器两端的电压降，用于驱动MOSFET切换负载电路。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOjY7wnmdmdE2oKBpAIibM4ZF3ic4XJ2s3VaiciatTgeAJGZKaV6ONLEzibFcfXu3hoCrdQgEtPupsCsQ/640?wx_fmt=png&from=appmsg)
+
+以新能源汽车动力电电池为例，随着新能源汽车行业的不断发展，为了缓解续航里程.充电焦虑等问题，动力电池的电压不断升高，从最初的200-400V平台，提高到700-800V平台，部分产品需要高压900-1500V平台。在60V以上的高电压下，如果漏电，就很有可能危害人生安全，因此在BMS系统绝缘检测电路的设计中，需要用到一种高压隔离开关，用来确认高低压之间的完好隔离。高压隔离开关只有用Photo Mos固态继电器这一种选择。  
+
+**二.碳化硅MOS芯片资料**  
+
+与硅芯片相比，SiC芯片在相同额定电压和导通电阻条件下，尺寸可以缩小多达十倍。此外，与硅器件相比，SiC器件的开关速度至少快100 倍，并且它可以在高达两倍以上的峰值温度下工作。同时，SiC具有出色的导热性能，因此在高电流水平下具有更好的稳健性。
+
+两种高压碳化硅MOS芯片资料：1700V5A（内阻1欧）和1700V1A（内阻15欧)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOjY7wnmdmdE2oKBpAIibM4TZibib6jGH6ClzicuZ6S82vUiblknrvibkJm2kTJicoQpteUEqLoGQhJdUtA/640?wx_fmt=png&from=appmsg)  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOjY7wnmdmdE2oKBpAIibM4M9icxUBoM0SHBjoH3RYot9EYqpLxhL77hW9TS3cgmEPMsOJLfia1cg2A/640?wx_fmt=png&from=appmsg)**1700V5A碳化硅MOS芯片资料**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOjY7wnmdmdE2oKBpAIibM4LIgjKjLFV8q57UicCn9ibeGfgQLUt9BMc5Ria3KKjHlibUEYNAuFIjsNNQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOjY7wnmdmdE2oKBpAIibM4zYKrFOjiaYqJpibKsYUDiaB7GooqicHymVrHB9QQ9obUq2ucUHmibVxgtyA/640?wx_fmt=png&from=appmsg)**1700V1A碳化硅MOS芯片资料**
+
+**三.国产PhotoMOS继电器产品**
+
+**3-1.产品外框**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOjY7wnmdmdE2oKBpAIibM47FYFlb5wWEtKmuQEQQKDaQyQRNawrgfQIHibkDJ1D2mdmkQ7zfsMEVQ/640?wx_fmt=png&from=appmsg)
+
+**3-2.产品特性**  
+
+常开信号极点信号投射继电器 
+
+低工作电流 
+
+1500V 负载电压 
+
+低导通电阻 
+
+\-40°C 至 110°C 的宽工作温度范围 
+
+可提供 5000V 的高 I/O 隔离电压
+
+符合 RoHS、REACH 标准 MSL I 级  
+
+  
+
+**3-3.产品应用领域**
+
+1.医疗系统，2.高速检测机，3.安全系统，4.交流设备，  5.温度控制，6.工业控制
+
+7.测量设备，8.家用电器，9.新能源电源
+
+  
+
+   **总结**  
+
+随着新能源电动汽车的日益普及，光伏和储能市场对SiC器件的需求将持续增长，因此这种宽禁带技术的成本竞争力会日益增强，并且其对固态继电器方案的吸引力也会不断增加。基于SiC 器件的固态继电器具备开关速度快、高耐压和小尺寸等优势，因此成为市场广泛采用的主流选择。

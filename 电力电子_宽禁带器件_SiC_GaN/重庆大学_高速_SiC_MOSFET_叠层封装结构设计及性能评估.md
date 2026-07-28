@@ -1,0 +1,98 @@
+# 重庆大学：高速 SiC MOSFET 叠层封装结构设计及性能评估
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/IrB98F0wPSGFFrsKEKGpLQ](https://mp.weixin.qq.com/s/IrB98F0wPSGFFrsKEKGpLQ)
+
+**文章来源：**强激光与粒子束
+
+**作者：**马久欣，   马剑豪，   任吕衡，   余　亮，   姚陈果，   董守龙
+
+（重庆大学 输变电装备技术全国重点实验室，重庆 400044）
+
+**摘    要 ：** 作为脉冲系统的核心部件，开关承担着脉冲成形、功率调制等重要作用，开关通断速度往往决定脉冲上升时间，高速开关是纳秒短脉冲形成的关键。提出一种高速 SiC-MOSFET 叠层封装结构，整体布局无引线、无外接，具有极低寄生电感。开展了电磁场仿真研究，揭示了脉冲形成过程中封装多介质界面电磁场分布规律，明确了封装结构电磁薄弱环节，为进一步绝缘优化提供指导。搭建双脉冲测试平台，对研制的 SiC-MOSFET叠层封装开关与同芯片商用 TO-263-7 封装开关的动态性能进行测试。结果表明，大电流工况下，所提封装电流开通速度提升 48%，关断速度提升 50%，开通损耗降低 54.6%，关断损耗降低 62.8%，实验结果验证了所提叠层封装结构对开关动态性能的改善。
+
+**关键词：**脉冲功率开关；SiC-MOSFET；开关封装结构；双脉冲测试；开关动态性能
+
+随着脉冲功率技术应用不断向大气压低温等离子体、生物医疗以及超宽带雷达等多个前沿技术领域拓展，对脉冲发生器提出了快前沿、短脉宽、参数灵活可调等需求。脉冲发生器中的固态开关的动态性能往往决定着脉冲输出的波形效果，产生快前沿短脉冲需要固态开关的动作速度在相应的量级。特种半导体开关如：DSRD、SOS、FID、雪崩三极管等，一直是产生短脉冲的主要固态开关器件，但难以实现脉冲宽度灵活调制和较高波形质量，固态全控型开关器件是实现脉冲发生器多脉冲参数灵活调控的首选。脉冲工况下，固态开关封装中的杂散电感不仅引起开关电压应力、动态损耗的增加，也会产生严重的电磁干扰问题，更低寄生电感的 SiCMOSFET 封装结构对瞬态电压电流应力下开关动态特性的改善具有重要意义。
+
+通过三维空间上的多层介质叠加实现电路极低寄生电感连接，同时直接用倒装焊盘替代引脚端子进一步降低功率回路的寄生电感是一种有效的封装思路，基于该思路，文章提出了一种极低寄生电感叠层封装结构（PoP）。本文详细地介绍了叠层封装的内部结构及各部件组成，建立了 PoP 封装的三维电磁场仿真模型，揭示了封装结构的电磁场时空分布规律，明确了封装结构的电磁薄弱环节，为进一步绝缘优化提供指导。最后搭建了双脉冲测试平台对叠层封装的 MOSFET 及同芯片晶圆的商用 TO-263-7 封装开关进行测试，分别对比了额定电流及极限电流条件下的开关速度、动态损耗等动态参数，实验结果验证了所提叠层封装结构对开关动态性能具有较大的改善作用。
+
+**1    叠层封装结构设计**
+
+本文所提的叠层封装结构及其内部示意图如图 1 所示，叠层封装结构主要由 4 部分组成：顶部散热基板（包含漏极电路）、开关芯片晶圆、中间层、底部焊盘基板。开关整体为倒装焊盘结构，其中，中间层作用是支撑顶板和底板之间由于芯片厚度引起的空隙以及漏极导通作用，焊盘基板中包含了栅极、源极、两个对称漏极的对外输出引脚。图 1 中红色箭头为开关开通时的功率电流流动方向，在开关导通动作后功率电流流通路径为顶部敷铜面\-支撑 PCB 结构\-焊盘基板，根据 AnsysQ3D 仿真结果该功率回路寄生电感仅为 0.8 nH。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPias3Rg9HtDSYDDZwrEU2LQX3os5NLicDRQcTXxKddZibAVAZtZribTL0qdQ/640?wx_fmt=png&from=appmsg)
+
+由于开关芯片晶圆的源极和栅极为金属化铝面，难以直接通过锡料与铜连接，本文使用直径为 28～38 μm 的金球在铝面上布置金球阵列，利用金球实现开关裸片与底部焊盘基板铜表面连接。而漏极为金属化镍、银表面，故漏极可直接用锡料焊接或银烧结，封装中的其余各个部件均通过焊锡连接。
+
+在各层上、下面导通方式上采用铜过孔阵列。过孔的使用会带来寄生电感这一不利因素，本文通过以下方式尽可能降低过孔对寄生电感的影响：（1）减小过孔尺寸，使每个过孔的直径小于 0.6 mm；（2）尽可能设计薄的 PCB以降低寄生电感和寄生电容，所用 PCB 厚度为 0.4 mm；（3）过孔中间采用包埋工艺。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaqf55fR0lFZGuwpQaicFfNe5DNKZ7Ogu40LUfKCp7pib3v4cxd8p4BIVQ/640?wx_fmt=png&from=appmsg)
+
+图 2 是所提叠层封装整体概图，图 2（a）为封装结构整体装配图，芯片内嵌在叠层封装结构中，器件整体为垂直结构分布，整体布局中无引线、无外接。图 2（b）和图 2（c）分别为叠层封装的底部和顶部概图，封装底部为对外输出引脚，包含四个引脚，两个对称的漏极引脚和中间的源极引脚以及顶部的栅极引脚，此外底板还兼具热传导功能，PoP 封装开关尺寸为 10 mm×10 mm，整体厚度为 0.8 mm。
+
+**2    多介质界面电磁场分布仿真**
+
+研究团队开展了 PoP 封装的电磁场仿真研究，在 Solid Works 中的构建叠层封装的三维模型，并导入 Maxwell 3D 得到与实际封装一致的电磁场仿真模型，为了更真实地反映脉冲形成过程中叠层封装结构的电磁场变化情况，在激励设置上利用 ANSYS Electronics 的波形定义功能，设置了脉冲宽度为 100 ns，脉冲上升、下降时间均为 3 ns（10%～90%）的脉冲电流作为激励，其中脉冲电流幅值为 90 A（极限脉冲电流为 90 A）。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPial2ooBicCFu4NBb7vyrTKZ5e0nAaa25IAHsnplXQqtsnpmC0NVuxlSnQ/640?wx_fmt=png&from=appmsg)
+
+图 3 是激励脉冲施加的过程在叠层封装上的磁场标量分布状态。可以看到，所提封装中磁场分布是不均匀但对称的，脉冲上升和下降时间与磁场的建立和消退一致。从 0 ns 到 5 ns 可以看到磁场强度在空间上不断扩散，作用强度不断增大。在 50 ns 的脉冲平顶阶段，可以看到封装输出引脚区域及其垂直往下区域是磁场强度的集中区域，在晶圆布置区域呈最强分布。因此在功率回路和驱动回路设计中要避开该磁场集中区域以避免突变磁场对低电压电路的空间干扰。而且在晶圆边沿需要额外增加绝缘措施以避免由于极不均匀场畸变引起的绝缘失效。从95 ns 到 100 ns 是脉冲下降阶段，磁场强度逐渐降低。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaE9HHic29bXk7k5ljn8KT8908QVDHUuBUF7YglKBAYibHm0z8WgfgE1jA/640?wx_fmt=png&from=appmsg)
+
+图 4 是脉冲平顶阶段的磁密矢量分布。就整体来看，图 4（a）晶圆区域的矢量方向为同心圆分布，左右两侧分别呈逆时针和顺时针反向布置。但所提封装安装在实际电路中时，主回路的走线设计可以直接通过焊盘底层实现功率回路输出。并且两侧磁场强度远小于中间侧，主要强度仅在 SiCMOSFET 晶圆部位集中，因此可以通过焊盘所在 top 层引出漏极走线，源极通过 PCB 过孔连接 bottom 层与漏极母线上下层对称输出，最终降低布线难度和为功率寄生电感降低提供便利。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaS5lnRiaV2vO9GQ2Rr9LxjZqg3AlfqSfUJwwCUstb7EU2DYIWTIBq7rA/640?wx_fmt=png&from=appmsg)
+
+图 5 分别从叠层封装的引脚输出面和顶部进行了电流密度分布展示，可以发现所提封装的电流密度主要分布在高功率回路的引脚区域，而栅极信号分布的低功率区域分布很小。电流密度分布也对外围电路设计存在直接影响，当高功率回路的电流集中区域靠近驱动回路时，不可避免地会对低功率回路的信号传递产生致命影响。
+
+**3   实验评估**
+
+**3.1    实验平台的搭建**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiawbgWy4fZrCxA0CzpHaUtz4lq1FMncosYd3gKzia0iajQWnIHxbPH0oGA/640?wx_fmt=png&from=appmsg)
+
+为了验证所提叠层封装结构对开关动态特性的改善，搭建了双脉冲测试平台来测试叠层封装开关的动态参数 。 图 6 是测试电路的拓扑原理图 ， 在测试电路中 ，DUT 为被测开关，M1 为常断开关，其体二极管提供续流回路，Lsave 为储能电感，用于储存充电后的电流保持以实现第二个脉冲来临时 DUT 在一定电流应力下开通，Csave 为储能电容，用于充电电源稳压，Rg.current 为驱动电流采样电阻，所用电阻为 OHMITE 公司生产的低寄生电感高精密采样电阻 LVK12R020DER。Ug.sta-off 为恒定负压以确保 M1始终处于断开状态，Ug.on 和 Ug.off 分别为栅极驱动的驱动正压和驱动负压，Udc 为母线电压。
+
+双脉冲电路工作原理如下：长时间的脉冲信号触发DUT 导通，储能电感开始充电，随着 id 逐渐增大，Lsave 中积累的电流达到一定值，此时 DUT 关断，由于 Lsave 中电流不突变，借助 M1 体二极管形成的续流回路维持关断时刻的电流值。间隔约 200 ns 后 DUT 在母线电压 Udc 和回路电流 id 两者应力下导通和关断。开关特性测试实验电路如图 7 所示，其中图 7（a）是测试电路 PCB，图 7（b）为测量探头布置图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaQMBkMd06KrHdfFdclYiarUlb8GDktcSEsvfSyHzDwvqRcSibP45iamE7Q/640?wx_fmt=png&from=appmsg)
+
+实验中主要对以下参数进行测量：DUT 的漏\-源电压 Uds，栅\-源电压 Ugs，回路电流 id，驱动电流 ig。其中，电压测量均设置在 PCB 板上，低压部分的测量探头为 PP026 （LeCroy，400 V，500 MHz），高压部分为 PPE5kV（LeCroy，5 kV，400 MHz），使用 Pearson 线圈测量电流，实验设置参数如表 1 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaszTHaVnibDPVkgnATD935ibo3AdRJDKutBbERyzk1HQzTJp9MMzYS01w/640?wx_fmt=png&from=appmsg)
+
+**3.2    开关动态特性评估**
+
+通过搭建双脉冲测试平台，分别在额定电流条件和极限电流条件下，对所提叠层封装开关和相同晶圆商用TO-263 封装开关进行对比测试，以评估叠层封装对开关动态性能的改善。为了控制电流相同，本文通过固定充电时间调节充电电压实现恒定电流比较。重点关注栅极\-源极电压 Ugs，漏极\-源极电压 Uds，回路电流 id 以及开关开通关断损耗 Ploss 的对比分析来综合评估所提 PoP 封装的动态优势。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaQwSnt1ccXNrzlxUnnCia9PhUa5G12pp7Z9aVicZia9l6FziaGYygSicLJqw/640?wx_fmt=png&from=appmsg)
+
+图 8 为额定电流时 TO-263 封装开关和 PoP 封装开关的动态参数对比，为了能够直观地表明开关动态特性，将测试波形时间轴聚焦于开关在一定电流负载下动作的测试波形。图 8（a）的驱动电压波形表明，PoP 可以改善驱动电压的上升时间，并且在下降阶段具有更小的正向振荡。当然，由于本节使用负压驱动电路两者关断后的驱动电压的振荡均没有超过开关阈值电压。图 8（d）的开关损耗波形可以看出，PoP 开关在开通损耗峰值功率上没有明显优势，而在关断损耗功率峰值上则明显降低，仅为 TO-263 的 50%。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiakIolIysCAOXU7BrI0KHMYyFvD3WSGGlvSkwAKUcc1huKjORgmvuicJA/640?wx_fmt=png&from=appmsg)
+
+对比评估结果如表 2 所示，可以看到两种封装的开关在电压开通、关断时间少量改善，PoP 封装在电压开通和关断时间上仅略优于 TO-263 封装，这是由于实验中使用的超快栅极驱动 GaN\_E-Driver 强驱动能力已经将所提开关的开关速度接近于极限。但在回路电流改善方面，得益于 PoP 极低的回路寄生电感，PoP 在电流上升速度上提升了 32.7%，电流下降速度上提升了 71.4%。这个优势在开关损耗上得到了直接体现，PoP 的开通损耗是降低了13.5%，关断损耗降低了 33.7%。同时此时母线电压已经达到 950 V，已经接近开关极限电压 1 kV，此开关特性对追求高功率密度的脉冲发生器设计具有重要意义。
+
+脉冲功率技术对开关在大电流条件下的动态特性提出更高要求，极低寄生电感的叠层封装结构在大电流条件应当具有更为突出的优势。图 9 是 PoP 封装开关和 TO-263 封装开关在极限电流 90 A 条件下的动态特性测试对比结果。首先在图 9（a）的驱动电压上，PoP 封装由于集成解耦源极连接以及栅极回路特殊寄生电感设计，在极限电流条件下不仅表现出更快的 Ugs 上升时间和更短开关米勒平台持续时间，而且在开关关断后没有表现出严重的电压振荡。在图 9（c）回路电流 id 对比图中 PoP 表现出更快的上升和下降时间，当然由于寄生电感的减小也使得其振荡阻尼减小，也表现出来较为严重的过冲。图 9（d）开关损耗 Ploss 对比中也可以发现，在关断过程的开关损耗功率峰值上 PoP 具有更小的峰值，但在开通过程基本与 TO-263 持平。相比于额定电流条件下的开关损耗，更大电流时PoP 具有负方向的功率，这是由于功率回路中的 LC 网络以及 PoP 对 di/dt 的改善，形成了能量转换过程的负向功率。本文在计算开关损耗时将负向功率取绝对值进行累加。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPia5fHjgg46ayME78Bv5tnmTOFjKPib4G3HUbrBFrGdEj7W4s7FuFHrPvw/640?wx_fmt=png&from=appmsg)
+
+表 3 详细对比极限脉冲电流条件下 TO-263 和 PoP 的动态特性对比评估结果。此时，PoP 依旧能够维持较快的电压开通、关断速度并且始终略优于 TO-263。在回路电流速度方面，PoP 提升了 48% 的电流开通速度以及提升了50% 的电流关断速度，可以说在极限电流条件下 PoP 相比于 TO-263 具有更为优异的动态特性，可以在脉冲功率等高功率密度需求应用场所中发挥更大作用。而且，PoP 优异的动态特性进一步降低了开关损耗，开通损耗从 285.8 μJ降低到 129.5 μJ，降低了 54.6%。关断损耗是开关损耗的主要来源，PoP 相较于传统封装可以有效改善关断速度降低关断损耗，实验结果表明 PoP 相比于 TO-263 降低 62.8% 的关断损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskNibib3r7K2zWRiaFhn16jJPiaq7GwEVCGlRSuLmryWH2IpibiaNiawZemLEoQicXxxFrPG1OfQYOzYrw8IQ/640?wx_fmt=png&from=appmsg)
+
+**4    结　论**
+
+本文提出并设计了一种 SiC MOSFET 极低寄生电感叠层封装结构。应用电磁场仿真探究了脉冲下 PoP 封装的电磁场分布规律，封装输出引脚区域及其垂直往下区域是磁场强度的集中区域，在晶圆布置区域呈最强分布，这也是需要加强绝缘设计的电磁薄弱环节。双脉冲测试实验结果表明，大电流工况下，所提封装提升了上升速度提升 48%，关断速度提升 50%，开通损耗降低 54.6%，关断损耗降低 62.8%，实验结果证明了所提叠层封装结构对开关动态性能具有提升作用。叠层封装 SiC MOSFET 应用于脉冲功率技术中，对于快前沿短脉冲的产生具有重要意义及良好的应用前景。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

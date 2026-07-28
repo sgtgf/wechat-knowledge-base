@@ -1,0 +1,70 @@
+# 浙江大学：开关频率 500kHz的软开关 SiC单相逆变器
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/ZzUfPkIbtErco2LK3YkV9Q](https://mp.weixin.qq.com/s/ZzUfPkIbtErco2LK3YkV9Q)
+
+**文章来源**：电力电子技术
+
+**作者：**浙江 大 学（李 雅 文 ，何 宁 ，陈烨 楠 ，徐 德 鸿）  
+
+**摘 要** ：高频化是提升并网逆变器功率密度的有效途径 。SiC MOSFET适用于高频 化的应用场合，同时采用软开关技术可维持高转换效率。设计了一台 500kHz零电压开关(ZVS)SiC单相并网逆变器。重点介绍了谐振参数的选取、谐振电感与滤波电感的设计。并在1.5kW 实验模型上进行了验证。实验证明在开关频率为500kHz时 ．依 靠 SiC MOSFET自身的结电容可完成谐振 ，实现ZVS开通 。500kHz下的滤波电感 比100kHz下的滤波电感体积减小约4／5。满载效率为97．9％。
+
+**关键词：**逆变器 ；软开关 ；效率
+
+**1\. 引 言**
+
+高频化和小型化是并网逆变器的发展趋势 。SiCMOSFET具有良好的开关特性 。适用于高频化的应用场合 。在输出功率为8kW时 。40kHz  SiC MOSFET逆变器比 Si IGBT逆变器的滤波电感感值减小50％，体积减小25％，成本降低30%。但 SiC MOSFET以硬开关状态直接工作在高开关频率 (可达数百千赫兹)时 ，开关损耗随开关频率的提高而正比增加。引入软开关技术可减小开关损 耗 ，提高变换效率。基于 SiC MOSFET的优良开关特性 ．将 SiC MOSFET和 ZVS技术应用于并网逆变器 。在维持高转换效率的同时可进一步将工作频率推向更高 ，提高功率密度 。在满载 1．6kW下开关频率100kHz SiC软开关逆变器 效率与20kHz SiC硬开关效率同为98．5％．但滤波器感量为后者的22％，体积为后者的77％。
+
+这里对500kHz SiC MOSFETZVS单相逆变器进行研究 ．设计了合适的谐振参数、谐振电感和滤波电感。在搭建的1.5kW平台上进行了实验。
+
+**2\. ZVS单相逆变器**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMsba2njJmupb0UEffzDKkVSBar1l3kBNTLgibprrEXsp2yC4GvtWvB3A/640?wx_fmt=png&from=appmsg)
+
+图1示出ZVS单相逆变器的拓扑 。包括全桥结构与辅助支路 。其中辅助支路由谐振 电感辅助开关管V及其谐振电容 、箝位电容组成 。并联在V两端 ，而主开关管 V。～V 的谐振电容cr～ 并联在对应主管两端 。
+
+所研究的ZVS单相逆变器采用倍频正弦脉宽调制 (SPWM)。当MOSFET体二极管向同桥臂另一个 MOSFET换流 时 ，V 关 断 ，厶， 与主管谐振电容产生谐振过程 ，将开关侧直流母线电压降为零 。为主管创造ZVS开通条件 。图 2为实现一次 ZVS开通的相关波形变化过程。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMyyfoficZnichMzicW6GlXIaekUVNl82FiaY5icIDCVYLRAo78jkPABXZoog/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMtwibnloVqzvxRAadAIOxqicLMwCX90bpuyFKicFEExkqr8SxNYr0N05MQ/640?wx_fmt=png&from=appmsg)
+
+**3\. 谐振参数选取及电感设计**
+
+所研究的ZVS单相逆变器额定功率为 1．5kW，Ubus\=360V，输出电压为220V。实际开关频率![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMyXm4Lhp5ohjxpiafewfXFznNtWm02IIaoDnTFAaIN0Zog6rJGM86RFw/640?wx_fmt=png&from=appmsg) =250kHz．故输出电流纹波频率为500kHz。
+
+**3.1 谐振参数选取**
+
+谐振参数选取需遵循一定约束条件 ，尤其在高![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMyXm4Lhp5ohjxpiafewfXFznNtWm02IIaoDnTFAaIN0Zog6rJGM86RFw/640?wx_fmt=png&from=appmsg)的条件下 ，以保证ZVS工作过程顺利进行。采用 C2M0080120D型 SiC MOSFET，设计谐振参数时须考虑其相关特性。考虑到等效f,=5ookHz，Lr，Cr都必须尽量小，以保证谐振周期T不会过长 ，从而不会影响正常的倍频SPWM工作过程 。然而 ，SiCMOSFET自身具有一定的结电容 。故参与谐振的电容值有下限 。根据 Datasheet估算该款SiC MOSFET的![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZM4DrIob96UNPyjdYRXMgt3JzfkMSKWFHd5hFeVN08icOupJ0ibW2juzWQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMEcK3Dd6Imjm2eRv1f3wgVPdWWxkFibEXsNEWzZsicc414KEO6fWeXehQ/640?wx_fmt=png&from=appmsg)
+
+由式(8)，(9)知![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMJQcXiaphA4u6OQh5plLNTnicj5TzL3H1sibbianZduURJSxRZzMgRg1zcA/640?wx_fmt=png&from=appmsg)。由于C2M0080120D的电流容量为24A(@100℃)，考虑到安全裕度及损耗 ，设![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMIyfPH6iaNrzHOmibPLToy0Y7ZVtbTWibSc6mvOxMweh3P4ndxrEK2bq0w/640?wx_fmt=png&from=appmsg)。
+
+除以上约束条件外 ，还存在电压应力问题，因C2M0080120D最低耐压为1200V，且对 Da的限制使得箝位电容电压不会太高 ，因此可不予考虑。
+
+综合上述条件 ，可得出谐振电感与谐振电容数值选取的可行区域 ，如图3所示的阴影区域 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMQxnjTmcooYo878ibGonuQsyB4hiaE76ZGzqFDVTvwR1g1H46Lwl8bMWg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMc49bwJibpic1KZWmPbMiaWibkAh87XofTS2zs2WfPFHIHK8RbwkeOqeGrQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMeqFNjDNOzzBL55ukBtTccKEjXUcyxxQaHc766rbjW5ReUiaiaric0UgrQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMg3umNdIPbvlZ2PkVZleOg4rSmhBD8ANrjMRxUyopRL4q77pgIJxQmA/640?wx_fmt=png&from=appmsg)
+
+图4a为输出电压Uo与电流Io波形，可见 ，该ZVS单相逆变器运行正常。图 4b～d为 V2与Va的ZVS实现波形 ，其中图4b为V2工频正半周内波形，图4c为V2工频负半周 内波形，图4d为Va管压 、驱动及![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMEwLfM9LJ7hJeeKZiaBhLB7CrHAaKjCsXITugfY5icIEm90Q2ed5Uus7g/640?wx_fmt=png&from=appmsg)波形 。可见在驱动波形上升为高电平前 ，管压已谐振至零，完成ZVS开通。这说明在开关频率高达500kHz时 ．依靠 SiCMOSFET自身的结电容即可完成谐振 。实现ZVS开通。
+
+在此实验平台上测试输出效率,并与相同电气参数下的SiC MOSFET硬开关全桥逆变器效率进行对比。如图 5所示 ，在满载1.5kW时ZVS软开关逆变器效率达到97．9％，比硬开关高出约1％，最高效率达 98％，效率显著提升。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmL7HQicdp4XyE4CSZ4NnDZMxZwJ1e537GLN8cFCWYZHzRsv2wR2UHuvswyJDSFqrtoZnia451NEeUA/640?wx_fmt=png&from=appmsg)
+
+**5 结 论**
+
+对500kHz ZVS SiC单相逆变器进行研究 ．根据有关条件设计了电路参数 ．绕制谐振电感与滤波电感,并在实验模型上进行了验证 。实验证明在500kHz下 ．依靠 SiCMOSFET自身结电容 即可完成谐振 ，实现ZVS开通。实验样机的滤波电感与100kHz单相逆变器的滤波电感相比，体积减小了4／5，最高效率达 98％。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqb8Po3qdBDOEjHEmo3DibcFdSeQxPepq4CgmLpeSttlMicicb3ru8mu738A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)

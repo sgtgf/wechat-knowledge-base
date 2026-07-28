@@ -1,0 +1,134 @@
+# 河北科技大学：基于SiC MOSFET的星型三相CLLLC谐振变换器研究
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/zYzpL8GLI0qhPGLMQPWUaw](https://mp.weixin.qq.com/s/zYzpL8GLI0qhPGLMQPWUaw)
+
+**文章来源：电力电子技术**
+
+**作者：**颜 鹤 天 1， 程 旭 峰 ２，汪 殿 龙 1， 张 逾 良３（１ ． 河 北 科 技 大 学 ， 材 料 科 学 与 工 程 学 院 ， 河 北 石 家 庄 ０５ ００ １ ８ ；２ ． 河 北 科 技 大 学 ， 机 械 工 程 学 院 ， 河 北 石 家 庄 ０ ５ ００ １ ８ ；３ ． 石 家 庄 通 合 电 子 科 技 股 份 有 限 公 司 ， 河 北 石 家 庄 ０ ５ ００３ ５ ）
+
+**摘 要 ：** 电 动 汽 车 V2G 需 要 充 电 机 具 备 双 向 功 率 的 传 输 能 力 ， 但 目 前 充 电 机 中 常 用 的 LLC 谐 振 变 换 器 只 能 实 现 单 方 向 的 功 率 传 输 。为 了 解 决 该 问 题 ， 在 此 采 用 星 型 三 相 CLLLC 谐 振 变 换 器 作 为 充 电 机 的 DC/DC 变 换 器 主 拓 扑 ， 并 对 其 运 行 原 理 和 相 关 特 性 进 行 了 分 析 。为 进 一步 提 高 DC/DC 变 换 器 的 效 率 ， 采 用 SiC MOSFET 作 为 主 开 关 器 件 ， 并 设 计 了一种 专 门 的 驱 动 电 路 。最 后 搭 建 了一台 3KW 的 三 相 CLLLC 谐 振 变 换 器 实 验 样 机 ， 实 验 结 果 表 明 所 研 制 的 样 机 可 以 实 现 功 率 的 双 向 流 动 ， 峰 值 效 率 达 到 97.6％ 。
+
+**关 键 词 ：** 谐 振 变 换 器 ；电 动 汽 车 ；星 型 三 相
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLPURficDvR5YYIrwJhsfow29yl4NwZozU8sIQV8nawovM0RtmdqgzpLg/640?wx_fmt=jpeg&from=appmsg)
+
+**ｌ. 引 言**
+
+随 着 电 动 汽 车 的 普 及 ， 大 量 电 动 汽 车 的 无 序 充 电 问 题 成 为 人 们 关 心 的 热 点 。解 决 该 问 题 的 方 法 是 对 电 动 汽 车 的 充 电 和 放 电 进 行 有 序 的 规 划 ，这 就 需 要 充 电 机 既 具 备 给 电 动 汽 车 充 电 的 能 力 ，又 能 将 电 动 汽 车 的 电 能 回 馈 给 电 网 。双 向 DC/DC 变 换 器 是 电 动 汽 车 的 双 向 充 电 机 的 关 键 组 成 部 分 。最 常 见 的 隔 离 式 DC/DC 变 换 器 拓 扑 是 双 向 正 激 电 路 、 双 向 反 激 电 路 、 双 向 推 挽 电 路 ， 但 都 因 为 较 大 的 电 压 尖 峰 和 磁 芯 利 用 率 较 低 等 原 因 ， 更适 用 于 低 电 压 等 级 、 小 功 率 等 场 合 。而 谐 振 型 双 向 DC/DC 变 换 器 能 实 现 功 率 双 向 流 动 ，且 变 换 器 损耗 低 ， 效 率 高 。但 普 通 单 相 LLC 谐 振 变 换 器 传 输 功 率 较 低 ， 多 个 LLC 变 换 器 简 单 并 联 又 面 临 严 重 的 均 流 问 题 。星 型 连 接 的 三相 LLC 谐 振 变 换 器 釆 用 三 相 交 错 并 联 的 控 制 技 术 ＇ 可 实 现 大 功 率 输 出 ， 具 有 良 好 的 均 流 特 性 ， 缺 点 是 不 能 实 现 双 向 软 开 关 三 相 星 型 CLLLC 谐 振 变 换 器 拓 扑 在 实 现 大 功 率 的 同 时 ， 在 正 反 向 工 作 时 都 能 实 现 软 开 关 。
+
+第 三 代 宽 禁 带 半 导 体 器 件 SiC 器 件 有 效 地 解决 了 Si 基 功 率 器 件 开 关 损 耗 大 、 转 换 效 率 低 、 整 机 笨 重 等 问 题 。文 献 研 宄 表 明 SiC 器 件 相 比 Si 基 器 件 在 谐 振 变 换 器 中 应 用 时 ， 损 耗 降 低 了 三 分之 一， 效 率 达 到 了 98 ％ 。在 充 电 粧 领 域 ， 英 国 曼 彻 斯 特 大 学 利 用 SiC 研 制 了 60 ｋＷ 的 双 向 DC/DC 变 换 器 ， 大 大 提 高 了 变 换器 的 效 率 和 功 率 密 度 。美 国 科 罗 拉 多 大 学 采 用 SiC 设 计 了 30ｋ Ｗ 的 变 换 器 ， 效 率 高 达99.5％ ， 功 率 密 度 高 达 15ｋＷ／Ｌ ， 对 比 IGBT 逆 变 器 ， 效 率 和 功 率 密 度 有 了 很 大 的 提 升 。文 献 将 SiC 器 件 用 于 LLC 谐 振 变 换 器 中 ，开 关 管 实 现 了 ZVS ，减 小 了 电 路 损 耗 ， 效 率 最 高 为 93.67 ％ ，但 输 入 电 压 和 功 率 还 不 够 大 ，且 采 用 三 相 CLLLC 谐 振变 换 器 可 进 一步 提 升 效 率 。
+
+此 处 将 SiC 器 件 应 用 于 星 型 三 相 CLLLC 谐 振 变 换 器 ， 设 计 更 为 简 单 的 隔 离 型 驱 动 电 路 。采 用 基 波 分 析 法 ， 建 立 数 学 模 型 ， 确 定 主 电 路 参 数 。搭 建 一 台 3KW 样 机 ， 验 证 变 换 器 的 正 向 和 反 向 传 输 特 性 。分 别 对 三 相 CLLLC 谐 振 变 换 器 工 作 在 准 谐 振 、 欠 谐 振 和 过 谐 振 ３ 个 区 域 进 行 分 析 ，证 明 该 拓 扑 结 构 的 可 行 性 。
+
+**２. 主 电 路 设 计**
+
+**2.1  主 电 路**
+
+三 相 星 型 CLLLC 谐 振 变 换 器 拓 扑 见 图 １， 是由 逆 变 网 络 、 谐 振 网 络 、 变 压 器 和 整 流 桥 ４ 部 分 组成 。三 相 星 型 CLLLC 谐 振 变 换 器 逆 变 部 分 采 用三 相 全 桥 逆 变 器 ， 变 压 器 初 、 次 级 都 采 用 星 型 连 接方 式 ，整 流 电 路 将 二 极 管 替 换 为 可 控 的 半 导 体 功率 器 件 。采 用 该 星 型 连 接 的 方 式 可 使 系 统 自 动 均流 。该 拓 扑 能 够 实 现 变 换 器 能 量 的 双 向 传 输 ， 变 压器 初 、 次 级 的 谐 振 腔 关 于 变 压 器 对 称 ， 因 此 变 换 器在 正 反 向 工 作 时 都 具 备 软 开 关 特 性 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0HZibALNOeoVgU9f8QzCLt6W0Zw9j4eEok5MnHnpVOVpdBfY2UDnM5vW0JlYMWaGXGpDlhUa1icmA/640?wx_fmt=png&from=appmsg)
+
+**2.2 模 态 分 析**
+
+星 型 三 相 CLLLC 谐 振 变 换 器 可 以 按 照 中 性点 解 耦 成 ３ 个 独 立 的 相 ， 各 相 工 作 过 程 都 与 单 相相 同 。根 据 工 作 的 频 率 也 可 划 分 为 fr1 ＜／f8,fr1＝fs ， fr2＜fs＜fr1 ３ 种 工 作 区 域 。其 中 ， fr1 为 变 压 器 次 级 二 极 管 导 通 时 ， 两 元 件 谐 振 的 谐 振 频 率 ；fr2 为 变 压 器 次 级 二 极 管 都 关 断 时 ，三 元 件 谐 振 的 谐 振 频 率 ；fs 为 开 关 频 率 。当 三 相 LLC 谐 振 变 换 器 工 作 在 fr2＜fs＜fr1  时 ， 能 同 时 实 现 初 级 开 关 管 的 零 电 压 开 通 和 次 级整 流 电 路 的 零 电 流 关 断 ， 该 区 间 工 作 过 程 最 为 复杂 ，此 时 变 换 器 主 要 波 形 见 图 ２ 。t0 之 前 ， Ｖ1 两 端电 压 被 箝 位 在 零 ， 为 Ｖ1 的 零 电 压 开 通 做 好 准 备 ；ｔ0-t1 时 ， 变 压 器 初 级 开 关 管 Ｖ1零 电 压 开 通 ，三 相 同 时 向 次 级 传 递 能 量 ；在 t1 时 刻 ， 第 三 相 励 磁 电 感 两 端 电 压 被 箝 位 为 零 ， 不 再 向 次 级 提 供 能 量 ；t2-t3 时 ， Ｖ６ 的 体 二 极 管 导 通 ， 起 续 流 作 用 ， 其 两 端 电 压 被 箝 位 在 零 ， 为 后 续 零 电 压 开 通 做 好 准 备 。此 时 第 一 相 和 第 二 相 同 时 向 次 级 提 供 能 量 ；在 t3 时 刻 ， Ｖ６ 零 电 压 开 通 ，三 相 均 向 次 级 提 供 能 量 ；在 t4  时 刻 ，系 统 由 第 一 相 和 第 三 相 为 变 压 器 次 级 提 供 能 量 ；在 t5  时 刻 ， V４ 关 断 ， V3 的 体 二 极 管 导 通 ， 起 续 流 作用 。其 两 端 电 压 被 箝 位 在 零 ， 为 后 续 的 零 电 压 开 通做 好 准 备 ；在 t6 时 刻 ， V3 零 电 压 开 通 ，三 相 均 向 次 级 提 供 能 量 ；在 t7 时 刻 ， 系 统 由 第 二 相 和 第 三 相 两 相 为 变 压 器 次 级 提 供 能 量 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0HZibALNOeoVgU9f8QzCLtATuYG4k6icvrnXicz7pxiaQB4kIWib4iayGBf2WjtQu36dNUw40b5sXGn5Q/640?wx_fmt=png&from=appmsg)
+
+**2.3 谐 振 变 换 器 的 基 波 等 效 模 型**
+
+三 相 星 型 交 错 并 联 的 CLLLC 谐 振 变 换 器 的 变 压 器 采 用 星 型 接 法 ， 所 以 就 存 在一 个 中 性 点 ， 假设 三 相 的 初 级 谐 振 电 感 、 谐 振 电 容 和 励 磁 电 感 都 相 等 ， 由 此 可 得 到 三 相 谐 振 电 路 的 输 入 电 压 波 形 。根 据 基 波 分 析 法 得 三 相 CLLLC  等 效 模 型 如 图 ３ 所示 。其 中 ，R 为 输 出 实 际 负 载 ；Req 为 负 载 等 效 到 初 级 交 流 负 载 ， 谐 振 元 件 折 算 到 变 压 器 初 级 对 应 的电 感![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0HZibALNOeoVgU9f8QzCLth4EhNBUOFScuhoG8rJp0CRvZSXQM3GgEkIBt3nicMMVOUtavuW91jpg/640?wx_fmt=png&from=appmsg)， 电 容 折 合 到 变 压 器 初 级![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0HZibALNOeoVgU9f8QzCLtUviccd70CFicy6F4B314Fzia3BKuLXrjj2StrsblnkvOuebMRQk7j5U0A/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0HZibALNOeoVgU9f8QzCLtoqmQOJpTrnB7jHScDdLnA1bgyUwVuiaibsuJicB9ibWcacr1frDYJY1dfg/640?wx_fmt=png&from=appmsg),N为 变 压 器 初 、 次 级 变 比 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0HZibALNOeoVgU9f8QzCLtpwJaLMliarPCusHgJ2n8RhLZxXojAha16sP2KIFprRDibDhVb5pU6ftQ/640?wx_fmt=png&from=appmsg)
+
+将 单 相 电 压 分 解 为 两 个 电 压 波 形 ， 然 后 对 两 个 电 压 波 形 分 别 进 行 傅 里 叶 变 换 再 进 行 叠 加 。求 得 等 效 交 流 阻 抗 ：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0HZibALNOeoVgU9f8QzCLtZdXtFAa3O4HogUwSM38FTWevBW1ia9yoiapGBTBuvNRljKicQu4iaG5ZGg/640?wx_fmt=png&from=appmsg)
+
+**2.4 电 压 增 益 特 性 分 析**
+
+在 上 述 星 型 连 接 交 错 并 联 CLLLC 拓 扑 中 ， 默 认 以 V1-V6 作 为 逆 变 网 络 时 ， 变 换 器 为 正 向 运 行 ，以 V7-V12 作 为 逆 变 网 络 时 ， 变 换 器 为 反 向 运 行 。
+
+励 磁 电 感 与 谐 振 电 感 的 比 值 为 ：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0HZibALNOeoVgU9f8QzCLtZwGF0TD3eo7h4ATKncm0X291xUibxR99dNjf2PlrkmUfwgBCal5j9fg/640?wx_fmt=png&from=appmsg)
+
+假 定 K＝ ５ ， Q 从 0.1-1 取 值 ， 分 析 Q 对 电 压 增 益 的 影 响 。随 着  Q 值 逐 渐 增 大 ， 变 换 器 的 最 大 增 益 在 逐 渐 减 小 。Q 值 超 过 0.4 后 ， 电 压 增 益 会 有一个 先 下 降 后 上 升 的 过 程 ，直 流 电 压 增 益 会 产生 一个波 谷 ， 在 此 处 工 作 容 易 造 成 系 统 的 控 制 不 稳 定 性 。假 设Q=0.3 ， 分 析 不 同 K 值 对 电 压 增 益 的影 响 。在 Q 值 保 持 不 变 的 情 况 下 ， 随 着 Ｋ 值 的 逐 渐 增 大 ， 最 大 电 压 增 益 逐 渐 减 小 。
+
+**３. 样 机 搭 建 及 实 验 分 析**
+
+**3.1  SiC MOSFET 驱 动 电 路 设 计**
+
+**3.1.1  SiC 器 件 选 型**
+
+正 向 运 行 时 ，三 相 星 型 CLLLC 谐 振 变 换 器 的 最 大 输 出 功 率 为 3KW ， 每 一相 谐 振 电 路 承 担 总 功 率 的 三 分 之 一， 即 每 相 最 大 功 率 为 1KW。谐 振 腔 的 输 入 电 压 有 效 值 为![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0HZibALNOeoVgU9f8QzCLtr1HnqIGibAyXcbdE21GFqDvhFSal7tTCqFo3pxFsiaQq2mDpRD34aiaLg/640?wx_fmt=png&from=appmsg), 正 向 运 行 时 的 最大 效 率 为 96 ％ ， 由 此 可 以 求 得 谐 振 腔 内 的 谐 振 电流 有 效 值 为 7.7Ａ 。
+
+反 向 工 作 时 ， CLLLC 谐 振 变 换 器 的 最 大 输 出功 率 为 2.5KW ， 即 每 相 最 大 功 率 为 0.9KW ， 功 率 小 于 正 向 运 行 。谐 振 腔 内 谐 振 电 流 有 效 值 小 于 变 换 器 正 向 运 行 时 的 值 ， 但 是 相 差 不 大 ， 因 此 开 关 管 选 型 满 足 正 向 运 行 条 件 即 可 。
+
+由 于 输 入 电 压 为 300V ， 输 出 电 压 的 最 大 值 达到 了 340V ， 故 开 关 管 在 选 型 时 耐 压 值 必 须 大 于340Ｖ 。最 终 选 择 SiC MOSFET -SCT3060AL ， 其 额 定 耐 压 值 为 650Ｖ ， 额 定 电 流 为39Ａ 。  
+
+**3.1.2  驱 动 电 路**
+
+SiC 器 件 和 Si 基 器 件 特 性 存 在 差 异 ， SiC 器 件所 需 要 的 驱 动 电 压 更 高 ， 因 此 选 用 的 驱 动 电 压 为 0-18Ｖ 。为 使 开 关 管 MOSFET 能 够 正 常 工 作 ， 解 决 输 出 的 驱 动 信 号 电 压 过 低 ， 驱 动 电 流 过 小 的 问 题 ，需 要 添 加 驱 动 电 路 。驱 动 电 路 中 主 要 采 用 的 驱 动 芯 片 是 SI8271AB-IS，这 款 芯 片 采 用 硅 隔 离 技 术 ，使 控 制 电 路 与 主 电 路 之 间 形 成 隔 离 ， 具 有 2.5KV 的 耐 压 值 。根 据 驱 动 芯 片 设 计 的 驱 动 电 路 及 电 源电 路 如 图 ４ 所 示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk0HZibALNOeoVgU9f8QzCLtHKQocKpZD4TkN0X8nNWd1viaSicesm4yicictxpMGeGSNukDTRNeLvrWyQ/640?wx_fmt=png&from=appmsg)
+
+驱 动 信 号 经 过 VI 引 脚 传 输 到 驱 动 芯 片 内 ， 采用 WRA2409SD-3WR2 的 电 源 模 块 为 功 率 管 提 供 18V 驱 动 电 压 ，该 电 源 模 块 的 输 入 电 压 为 24V ，输 出 电 压 为 ±9Ｖ ， 额 定 功 率 为 ３Ｗ 。将 电 源 模 块 的输 出 以 18V 电 压 输 出 ， 驱 动 电 路 的 Ｇ 端 和 Ｄ 端连 接 到 MOSFET 的 Ｇ 极 和 Ｄ 极 。
+
+**3.2  谐 振 变 换 器 的 参 数 设 计**
+
+谐 振 变 换 器 参 数 如 表 １ 所 示 。正 向 输 入 额 定电 压 300Ｖ ， 输 出 侧 电 压 范 围 250-330Ｖ ；反 向 工 作 时 ， 额 定 输 入 电 压 200Ｖ ， 输 出 电 压 300Ｖ 。变 换器 的 功 率 3KW。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLvmgLw508wVTibFNibTHbgs6kJQicRIugnFjmuSfvVDjGwGaia9t7iaSv9oA/640?wx_fmt=png&from=appmsg)
+
+**3.2.1  变 压 器 设 计**
+
+变 压 器 是 星 型 三 相 CLLLC 谐 振 变 换 器 的 核 心 部 件 之 一。在 此 以 最 低 频 率 40KHZ 进 行 磁 芯 选 型 。为 了 降 低 变 压 器 的 铁 损 ， 选 取 铁 氧 体 作 为 磁 芯 材 料 ，磁 芯 类 型 为 PＱ 型 。根 据 AP 法 设 计 变 压 器 磁 芯 尺 寸：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLpWfDn3MaqiaHAm3suiczdVibhnIEZNGwNia6b3KSuwpjjB9nqDjortH9yQ/640?wx_fmt=png&from=appmsg)
+
+式 中 ：Aw 为 磁 芯 窗 口 面 积 ；Ae 为 磁 芯 有 效 截 面 积 ；P1 为 三 相CLLLC 谐 振 变 换 器 每 相 承 担 的 功 率 ，P1＝1KW ;![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXL7OYt4g2npcbZatelnnhZaMtjDkKeia7X0Hz64AEOBrWSnom0hKmlVkA/640?wx_fmt=png&from=appmsg) 为 整 机 设 计 效 率 ，![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXL7OYt4g2npcbZatelnnhZaMtjDkKeia7X0Hz64AEOBrWSnom0hKmlVkA/640?wx_fmt=png&from=appmsg)＝ 96％ ；Kw 为 窗 口 利 用 系 数 ， 取 值 范 围 在 0.3-0.4 之 间 ， 在 此 取 值 为 0.35 ；Bm 为 最 大 磁 感 应 强 度 ， 取 值 范 围在 0.3-0.5Ｔ之 间 ， 在 此 取 0.3Ｔ ；J 为 电 流 密 度 ，此 处 J＝500Ａ /ｃｍ２；Kf 为 波 形 系 数 ，此 处 kf ＝ 1.1 。
+
+将 数 据 代 入 后 可 得 出 AP＝2.21cｍ４，选 取 铁 氧 体 磁 芯 PQ32/30，其Aｅ＝ 161ｍｍ２， Aｗ＝ 149.6 ｍｍ２，AP＝ 2.41ｃｍ４， 最 小 开 关 频 率fsmin\=40KHZ 。根 据 法 拉 第 电 磁 感 应 定 律 计 算 出 变 压 器 初 级 匝 数 为 14， 变 压 器 次 级 匝 数 与 初 级 相 同 ，采 用 多 股 绕 线 的 方 式 进 行 绕 制 。设 计 J=500A/cｍ２， 以 变 压 器 初 级 最 大电 流 15Ａ 计 算 ， 得 导 线 截 面 积 为 3ｍｍ２。
+
+**3.2.2  谐 振 参 数 设 计**
+
+变 换 器 正 反 向 工 作 时 的 电 压 增 益 见 表 ２ 。根 据 表 ２ 可 得 ， 最 大 电 压 增 益 Mmsx 和 最 小 电 压 增 益 Mmin 分 别 为 1.56 和 0.64 ， 再 根 据 需 求 选 取 满 足 电 压 增 益 的 K＝ ４ 与 Q＝ 0.3 。三 相 CLLLC 谐 振 变 换 器 的 每 一 相 分 担 总 功 率 的 三 分 之 一， 即一相 功 率 为１ｋ Ｗ ， 根 据 输 出 电 压 300Ｖ ，可 算 出 每一相 平 均 分 配 的 负 载 电 阻 大 小 为 9 欧 ；根 据 等 效 模 型 可 以 将 负 载 等 效 到 变 压 器 的 初 级 ， 求 得 等 效 电 阻 为 23 欧 ；最 后 由Q 值 与 K 值 可 得 到 谐 振 电 容 容 量 0.32uＦ ，谐 振 电 感 的 电 感 值 为 31.663uＨ 。为 设 计 方 便 ， 将 次 级 电 感 与 电 容 折 算 到 变 压 器 初 级 后 ， 其 值 与 初 级 谐 振 电 感 和 谐 振 电 容 值 相 等 ， 即 谐 振 电 容 为 0.64uF， 谐 振 电 感 为 15.8uＨ ， 计 算 出 励 磁 电 感 的电 感 值 为 60u Ｈ。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLz4kG56pTn09w73gAzjRicQcZDN5kzvg9aIQ361Zwb2IA7iaS1sI1yFMA/640?wx_fmt=png&from=appmsg)
+
+在 此 选 取 谐 振 电 容 容 量 为 0.47uＦ ， 谐 振 电 感 的 电 感 值 为 16uＨ ， 励 磁 电 感 的 电 感 值 为 60uＨ 。变 压 器 的 励 磁 电 感 较 小 ， 达 不 到 63uH ， 因 此 变 压 器 制 作 过 程 中 ， 需 要 在 磁 芯 之 间 添 加 气 隙 ， 以 满 足设 计 的 需 要 。
+
+**3.3  实 验**
+
+三 相 星 型 连 接 交 错 并 联 CLLLC 谐 振 变 换 器 实 验 平 台 中 直 流 电 源 采 用 JP50010D ， 输 入 与 输 出 端 分 别 采 用 TH3331 数 字 功 率 计 来 准 确 检 测 输 出 功 率 以 及 输 入 功 率 。
+
+在 满 载 情 况 下 ， 分 别 测 量 V1,V3  和 V5上 的 栅 源 电 压 ， 测 得 波 形 如 图 ５ 所 示 ， 图 中 明 显 看 出 驱 动 电 压 对 应 所 设 计 18Ｖ ，三 相 的 开 关 管 也 确 实 导 通 相 差 １ ２ ０°。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLWX11CL97WHnxx3KYQDW0as3nYA8SvNI15Rib8TZvM5E8EQ4OqJHibeiaw/640?wx_fmt=png&from=appmsg)
+
+为 了 防 止 直 通 现 象 的 发 生 ， 对 互 补 的 两 对 开关 管 之 间 添 加 了 死 区 。为 验 证 是 否 添 加 死 区 ，对 第 一 相 的 上 下 两 管 的 驱 动 波 形 进 行 采 集 ， 结 果 如图 ６ 所 示 。由 图 中 明 显 看 出 ， 在 Ｖ1 的 驱 动 波 形 下 降 到 零 以 后 ，过 一段 时 间 后 ，V2 的 驱 动 波 形 才 开 始 上 升 ，符 合 设 计 要 求 。由 上 述 驱 动 波 形 可 见 SiC 器 件 较 于 Si 基 器 件 的 优 势 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLuicQHpwa7pVe5sia6gKC2TbZ6ZPra9gQMe9FcKmCuInB2OKMyTiazSbGw/640?wx_fmt=png&from=appmsg)
+
+在 正 向 过 谐 振 测 试 中 ，选 取 频 率 点 为 100KHZ，输 入 电 压 为 300Ｖ ，此 频 率 下 的 主 要 波 形 如 图 ７ 所示 ，此 时 效 率 为 97.6％ 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLib4MoCX5pcRtU0OPzGFlY9pl0Y8sRfLRWFH2yUicX4QdksqzYibeHIvGg/640?wx_fmt=png&from=appmsg)
+
+在 反 向 过 谐 振 运 行 时 ，选 取 输 入 电 压 200Ｖ ，选 取 的 频 率 与 正 向 工 作 时 频 率 相 同 ， 为 100KHZ ，其 主 要 工 作 波 形 如 图 ８ 所 示 。此 时 输 出 功 率 为1.12ｋ Ｗ ， 效 率 为 96.8％ 。通 过 对 CLLLC 谐 振 变 换 器 正 向 运 行 和 反 向 运 行 时 的 几 个 工 作 点 进 行 测 试 ， 对 其 效 率 进 行 统 计 ， 如 表 ３ 所 示 。可 见 ， 变 换 器 正 向 工 作 时 最 大 效 率 为 97.6 ％ ，反 向 工 作 时 的 最大 效 率 为 96.8 ％ 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRfAjY67ouhmvRG0R1ntXLye7vdQYmgM3tKOHicGJmvClolZ1icgIbRr4uiaqpFHyeCjCMwx8icKBvXg/640?wx_fmt=png&from=appmsg)
+
+**４ .  结 论**
+
+针 对 电 动 汽 车 V2G 充 电 机 的 应 用 需 求 ， 提 出 釆 用 星 型 三 相 CLLLC 谐 振 变 换 器 作 为 DC/DC 变 换 器 主 拓 扑 ， 采 用 SiC MOSFET 作 为 主 开 关 器 件 。进 行 了 相 关 的 分 析 和 设 计 ，研 制 了 一 台 3KW 的 实 验 样 机 。结 果 表 明 基 于 SiC MOSFET 三 相 CLLLC 谐 振 变 换 器 可 实 现 功 率 的 双 向 流 动 ， 并 可 获 得 最 大 效 率 97.6 ％ 。证 明 所 提 三 相 CLLLC 谐 振 变 换 器 适 合 于 电 动 汽 车 V2G 的 应 用。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

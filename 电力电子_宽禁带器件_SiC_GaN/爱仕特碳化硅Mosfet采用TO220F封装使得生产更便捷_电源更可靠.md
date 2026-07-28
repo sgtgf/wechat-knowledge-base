@@ -1,0 +1,24 @@
+# 爱仕特碳化硅Mosfet采用TO220F封装使得生产更便捷，电源更可靠
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/PSIAQtkWJi9dRW3eTojAmw](https://mp.weixin.qq.com/s/PSIAQtkWJi9dRW3eTojAmw)
+
+      碳化硅MOSFET产品，常规封装为TO247,封装体积大，散热面积大，一般需要配合散热器紧密贴合。主要应用大功率新能源领域。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnfBwiapJV79g0Cibl9r97soeKDU9XfiauApZnZw03Lkg4NU8MGPwy8Rnfce4n1Dp4nhcfoof3FUTHrg/640?wx_fmt=jpeg)
+
+      TO-220F封装是电子元器件常采用的一种直插式的小型封装形式。产品全塑封，可以实现散热片和外部的电器绝缘。封装体积较小，无需散热器。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfmTcR11jMovuCVZOyvI1zq9AdNXg39TT7yE9um9CBYGTghxOvJnpcoyx1B3JA9XLHbxoXOiczdQQ/640?wx_fmt=png)
+
+      爱仕特科技新推出TO-220F封装的SiC MOSFET MF3产品，具有极大降低开关损耗和杜绝散漏电可能性等优点，可用于高频电源、风力发动机、列车牵引系统等领域。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfmTcR11jMovuCVZOyvI1zoty6OEooOic8icgKjpeFkpvIvNTkSTr76xgCjCqzJo1K17yDIJNQsGQw/640?wx_fmt=png)
+
+       MF3产品采用全塑封装，在通风条件良好、对绝缘要求较高的应用时，能够杜绝散热片处的电气连接造成漏电的可能性，让电路整体保持良好的绝缘性。MF3产品是具有耐高温特点的单极型器件，可以极大降低开关的损耗，很好的提高整体的效率并减少能量的浪费，同时大大减少产品的体积，这让其在一些高功率密度和空间受限的条件下具有很大的优势。
+
+       随着下游行业对半导体功率器件轻量化、高转换效率、低导通损耗需求的持续增加，爱仕特科技从性能、成本等多维度协调发展，在系统向碳化硅转型时，不断研发新技术新产品，满足功率器件更高功率和更低损耗的发展需求，实现系统的更高可靠性、更长使用寿命，助推碳化硅功率器件在“3060双碳”战略重大背景下的规模应用和实践。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnfmTcR11jMovuCVZOyvI1zYxzUuJN1E8Qy3icVVZ6jwRU45rYCKlYrLHQ4sgKLZjV97CuH4dMxQGg/640?wx_fmt=png)
+
+爱仕特科技MF3产品阵容，新产品持续更新

@@ -1,0 +1,149 @@
+# SiC MOSFET模块在飞行器电控系统中的应用
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/bUFGKabp2GAJZWmbjZT-7g](https://mp.weixin.qq.com/s/bUFGKabp2GAJZWmbjZT-7g)
+
+**低空经济产业：政策大力支持，产业稳定加速发展。**
+
+**2024 年 3 月，政府工作报告提** 出，要积极打造低空经济等新增长引擎。随后，多地发布支持低空经济的相关政策，低空经济进入发展快车道。电动垂直起降飞行器（eVTOL）为低空领域主要产品形态，其 驱动方式和能源形式发生变化。
+
+  
+
+低空飞行器，顾名思义，就是那些在城市或其他低空环境中飞行的载具。它们的动力系统可以看作是其“心脏”，负责提供飞行所需要的能量。
+
+  
+
+**低空飞行器主要包括以下四种类型：**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1aI1DL4IbUEibY5W1e4XD3sW4G5gK0Xj2fzAmhVjGvsZbwbfZgn7uclg/640?wx_fmt=jpeg)
+
+**1.  eVTOL（电动垂直起降飞行器）：这种飞行器可以垂直起降，适用于城市空中交通和短途运输。**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1aaPHlWjbkO0OHF7HVoQ81ZEa5SmEGb8pUYI1QoXggK6D7WUFWXalAQ/640?wx_fmt=jpeg)
+
+**2.  无人机：无人机在低空飞行中应用广泛，可以用于航拍、物流配送、环境监测等领域。**
+
+**![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1xgQQMIdTibxxztMkHMwLgg1icKWOrlEIrUuge9WTl269XUdX2yvpiaicQQ/640?wx_fmt=jpeg)****3.  直升机：直升机以其灵活性和垂直起降能力，在军事、救援、运输等领域发挥重要作用。**
+
+**![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1Lmzg6iaRo5VRoBQNza4Z7tuKfvyRSdQukIqB9OzP0iaBwC0vWs9xwT3Q/640?wx_fmt=jpeg)**
+
+**4.  轻型固定翼飞机：这种飞机适合短途飞行，常用于个人飞行、旅游和商务飞行。**
+
+**当前主流的低空飞行器动力主要有四种，即燃油、纯电、混动，以及氢能。**  
+
+**这四种方案各有优势，比如燃油方案载重大、续航时间长；纯电方案可适配智能化、噪音低；混动拥有纯电的优势，同时弥补了续航短的短板；氢能在发展早期，有望在大机型上率先使用。**  
+
+ **这几种方案中，除了燃油方案需要的是燃油发动机，其他三种方案采用的都是电动机，也就是说电机与电控是低空飞行器的核心动力单元，也是其动力系统的重要组成部分。**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv12KH00F5icUNHnUJU9m0JFomk3FXZhvMwMD2A3ySzNQ6GjunZUFzkVOQ/640?wx_fmt=jpeg)
+
+**目前的低空飞行器主要以无人机和eVTOL为主，拿eVTOL来说。 一般来说，eVTOL会采用多电机方案，通常采用6~12个电机，停用1~2个电机的情况下仍具有飞行能力。 其垂直推理系统主要有垂起电机、电调、REU、电机冷却系统，以及螺旋桨组成，相比电动汽车，电机的数量更多，冗余度也更高，因为多冗余度的动力架构设计可以提升电动飞行器动力架构的安全性。**
+
+**飞行器电机电控的挑战**
+
+当前电机面临着功率密度与运行效率方面的挑战。对eVTOL使用的电机来说，电机需要具备高功率的持续输出能力，特别是在起飞和降落阶段，需要短时间内提供较大的功率，目前面临的主要挑战包括：
+
+  
+首先是**轻量化与小型化：**低空飞行器所使用的电机需要保持一定的轻量化，同时实现更大的输出功率，这就需要研发更轻、更小的电机，同时保持动力性能的优越性，以减轻整机重量，提高升力和载重质量。
+
+  
+二是**功率密度的提升：**目前电动汽车用的电机输出功率密度约为2Kw/kg，通过改进高磁场材料和绕组方式，未来有望将这一数值提升至5Kw/kg，甚至是10Kw/kg，实现显著的功率密度提升。
+
+  
+三是**散热与可靠性：**由于电机工况条件严苛，其更换频率可能更高，约每1至2年更换一次，具有耗材特性。因此，电机设计需要兼顾散热性能和可靠性，确保在高温、高负荷条件下稳定运行。
+
+### _**SiC MOSFET器件成为低空飞行器市场研究和应用的热点**_  
+
+电控方面，由于目前电机大都采用的是400V电压平台，功率在60kW左右，推力电机功率可达80至100kW，峰值功率可达105至110kW，远超电动汽车的电机功率。业内人士表示，因为充电功率的提升和电机重要减轻的要求，未来还将逐渐过渡到800V电压平台，因此，电控核心元件，比如硅基IGBT等功率器件，将转向SiC器件，SiC功率器因其优异的性能和特性，正逐渐成为研究和应用的热点。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1rdSLCxC6I4EpCmgEv9ic2sLI8TUhx70B63mKZw0qwGkhPgWzDYKCReA/640?wx_fmt=png)
+
+SiC MOSFET器件是一种新型的半导体器件，具有更高的开关频率、更低的导通电阻和开关损耗，以及更高的工作温度和电压承受能力。这些特性使得SIC MOSFET在航空航天领域具有广泛的应用前景。   
+
+首先，SiC MOSFET器件可以用于飞行器的电力系统，如变频器、逆变器、直流-直流转换器等。这些应用可以提高电力系统的效率和可靠性。
+
+由于SiC MOSFET器件具有更高的开关频率、更低的导通电阻和开关损耗，以及更高的工作温度和电压承受能力，因此可以显著减少电力转换器的体积和重量，降低能量损失和热损失，增强电力系统的稳定性和可靠性。
+
+其次，SiC MOSFET器件还可以用于航空航天领域中的电池管理系统、电动机驱动系统、电源管理系统等。这些应用可以进一步提高系统的性能和可靠性，满足航空航天领域对高温、高压、高功率等特殊环境的要求。
+
+SiC MOSFET器件具有较高的开关速度和较低的开关损耗，可以减少电磁干扰（EMI）噪声的产生，提高电力系统的电磁兼容性。
+
+SiC MOSFET器件的产品介绍
+
+SiC（碳化硅）MOSFET模块相较于传统硅基MOSFET和IGBT模块，具有多项显著优势，使其在现代电子和电力系统中越来越受欢迎。
+
+  
+
+  ![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1JyfcGBqaAERIibFsAWFGSibVbSUkhpI1Jicv53wQ51DNiaTf2hgdhh9sPw/640?wx_fmt=jpeg)
+
+以下是SiC MOSFET模块的主要优势：
+
+1\. 低损耗特性
+
+SiC MOSFET模块的低损耗特性是其最突出的优势之一。与IGBT模块相比，SiC MOSFET模块能够显著降低总损耗（包括开关损耗和导通损耗）。总损耗可降低约80%，这不仅提高了系统的效率，还减少了发热，从而降低了对散热解决方案的需求。
+
+2\. 高速开关能力
+
+SiC MOSFET模块具备高速开关能力，这使得它们在高开关频率应用中表现出色。高速开关能力有助于减小滤波器、变压器和散热器的尺寸，从而实现更紧凑、轻便的系统设计。这种特性特别适用于需要高开关频率的电源转换器和电机驱动器。
+
+3\. 高温性能
+
+SiC MOSFET模块能够在更高温度下稳定工作，其最大工作温度可达600°C，远高于硅基器件的200°C。这一特性使得SiC MOSFET模块非常适合在恶劣工况下工作的应用，如混合动力电动汽车（HEV）中的集成电机驱动器、海底和井下应用、空间应用等。
+
+4\. 减小系统尺寸和重量
+
+由于SiC MOSFET模块的低损耗和高速开关能力，它们可以显著减小滤波器、变压器和散热器的尺寸，从而实现更紧凑、轻便的系统设计。这不仅降低了逆变器系统的材料成本，还提高了系统的可靠性和降低了维护成本。
+
+5\. 提高系统效率
+
+SiC MOSFET模块的低导通电阻和低开关损耗特性，使得它们在各种电力电子应用中能够提高系统的整体效率。例如，在相同的功率水平下，SiC MOSFET模块可以减小系统整体尺寸，同时提高效率并降低温升。
+
+6\. 适用于高开关频率应用
+
+SiC MOSFET模块的开关频率可以达到甚至超过400kHz，这使得它们非常适合高开关频率应用，如高频电源转换器和电机驱动器。高开关频率的应用通常要求功率器件具有快速的开关速度和低开关损耗，而SiC MOSFET模块正好满足这些要求。
+
+MEK6是一款1200V400A的三相全桥模块，采用平底板封装，总重量约300克、以下是模块参数图。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1u4UQMb5wGLT6a358QzwpfC5YANITHpWDXib8p7liaEGYW8N3XZXeoyYA/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv10ThLljT2TEvia2by47cT7tFXKgsNFoRRJ5pfPly6RiahjHMHTgrOqWeQ/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv18I5xzaPImKB4o7RDkfrmVwbpeicdmKiat0BEwtXLVLeicXUM8nL2WCVQg/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1iauQl1b4Em7n4DIMbnrmWN5fU52SlwLPPFunH7eSLYEuawvbFULEe6w/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1TxrQzJYLvv6YnKXJJuQ7rpBELCK7icrryQB8xJk1MWmFgsHAUuLNYxQ/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1vTLn4cnZqbZgsiaxhLC0HjaWibbFTCMZr07MiaibQGYcQBetzr5fPN3fSw/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1mADj6m85j6x8EHsaZ7ibUsI8Ln77P6VdQiaUO1IE89kVIo2JdUmd8XBg/640?wx_fmt=png)
+
+综上所述，SiC MOSFET模块凭借其低损耗、高速开关能力、高温性能、减小系统尺寸和重量、提高系统效率以及适用于高开关频率应用等优势，正在逐渐取代传统的硅基MOSFET和IGBT模块，在现代电力电子领域发挥着越来越重要的作用。
+
+  
+
+结论
+
+ 低空飞行器动力系统是推动低空经济快速发展的重要引擎。随着技术的不断创新和市场需求的变化，未来的动力系统将更加高效、智能和环保。在这场科技革命中，谁能率先突破技术瓶颈，谁就能在低空经济的大潮中脱颖而出。未来，我们期待看到更多创新的低空飞行器动力解决方案，为城市交通带来全新的飞行体验。
+
+SiC MOSFET器件在航空航天领域具有广泛的应用前景，可以提高系统的性能和可靠性，同时也可以满足航空航天领域对高温、高压、高功率等特殊环境的要求。随着技术的不断发展，SiC MOSFET器件将会在航空航天领域中发挥越来越重要的作用。
+
+  
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+
+   专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+ 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+
+  
+
+#

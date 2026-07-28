@@ -1,0 +1,130 @@
+# 基于碳化硅 MOSFET 应用设计研究
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/m83c2uyMGjFoAoG\_y9qrhA](https://mp.weixin.qq.com/s/m83c2uyMGjFoAoG_y9qrhA)
+
+文章来源：船电技术
+
+作者：杜立天，张之宇（武汉船用电力推进装置研究所）
+
+摘 要：针对碳化硅MOSFET 功率器件在高开关速度下出现的关断过压及震荡、串扰问题，本文通过分析其开关特性，解释了关断过压及振荡、串扰形成机理，了解到通过降低开关速度、调节栅极驱动电阻及减小主回路杂散电感可抑制关断过压及振荡，通过优化驱动电路如设计解耦电路、米勒嵌位电路、调节驱动电压可抑制串扰，在应用实例中为平衡关断过压及振荡、串扰问题与低开关损耗、高整机功率密度要求，指出在适当范围内调节栅极驱动电阻、驱动关断电压可有效抑制问题，通过双脉冲测试验证了方法的正确性、有效性。
+
+关键词：碳化硅 MOSFET；开关特性；关断过压及震荡；串扰
+
+0. 引言
+
+碳化硅作为一种新型的宽禁带半导体材料， 因其出色的物理及电特性，越来越受到广泛关注。 碳化硅材料相比硅材料具有更优越的特性：SiC有较高的击穿电场和较低的本征载流子浓度，使得器件在高电压、高温下工作，击穿电场强度2~4 MV/cm，最高结温可达600℃；由于较高的饱和迁移速度和较低的介电系数，使得SiC MOSFET功率器件有好的高频特性，开关速度可以达到100 kHz。开关速度高可以减小主电路中电感、电容无源储能器件参数，提升功率密度。 
+
+由于电路中存在寄生参数，在功率器件关断时会出现关断过电压及震荡现象；主动管开通过程中，处于截止状态的被动管漏源极电压发生变化，部分栅漏极结电容的位移电流流过栅源极结电容，使被动管栅源极电压发生变化，出现正向尖峰，形成串扰。文献\[2-3\]指出降低开关速度、 调节栅极驱动电阻及减小主回路杂散电感可达到抑制关断过压振荡效果；文献\[3\]提出一种低栅极关断阻抗驱动电路来抑制串扰。文献\[4-5\]指出在功率器件两端加缓冲吸收电路，在驱动电路中设计解耦电路、米勒嵌位电路来抑制串扰。
+
+增大栅极电阻、降低开关速度会造成开关延时，导致开关损耗增加及电感电容参数优化效果低，不能充分发挥 SiC 器件高频低损耗优势，且 优化驱动电路相关设计复杂。故需在应用实例中 平衡关断过压振荡、串扰问题与开关损耗、整机 功率密度问题。通过对 SiC MOSFET 开关特性分 析，明确可以通过调整栅极电阻及驱动电压的方 式来抑制以上问题，并通过双脉冲测试验证了以 上方法的有效性。
+
+1\. SiC MOSFET 电路模型
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIbdJaZA4XNMsfE85g2ibu0zSy3zLJU5dnzBNuB2LK2rxL7HLmg1vq2GA/640?wx_fmt=png&from=appmsg)
+
+采用双脉冲测试电路建立模型来分析SiC MOSFET 功率器件的开通和关断过程。如图1 所示, 图中虚线框内参数代表存在于封装内部，红色虚线框表示SiC 功率器件V2，封装内部有栅源极结电容Ｃgs、栅漏极结电容Ｃgd、漏源极结电容Ｃds、栅极寄生电感Lg、漏极寄生电感Ld、源极 寄生电感Ls以及栅极内部电阻Rg; 蓝色虚线框表示续流二极管D1 封装内部的寄生参数为：结电容Cf、阴极寄生电感LC 极寄生电感LA 及其通态电阻Rf；R 为主动开关管驱动电路中栅极电阻。其中，V1 与D2 模型分别依次对照V2 与D1，双脉冲测试中V1 与D2 理想情况下应处于截止状态下。 实际电路中的寄生电感采用有限元 仿真软件ANSYS Q3D提取，结电容在器件数据手册查询。
+
+在双脉冲试验中V1 为被动管，该开关管驱动信号为低电平；V2 为主动管，该开关管驱动信号为双脉冲信号；D1为续流二极管，D2 未工作。
+
+2\. SiC MOSFET 开关特性原理分析
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDI3icICCPF4JCDdr2aNjBbxOacAw3TSp2ShFftlxPhqwuN5UHzhfFEnqg/640?wx_fmt=png&from=appmsg)
+
+如图2，t1 为开关管截止状态，SiC MOSFET栅源极驱动电压 vp 为VS，栅源极电压vgs 为VS。t5 为开关管处于导通状态，SiC MOSFET 栅源极驱动电压vp 为VG，栅源极电压ugs 为VG。开通过程为t1 至t5，关断过程为t5 至t9。 
+
+（1）V2 开通过程（t1至t5）
+
+如图2，t1 为开关管截止状态，SiC MOSFET栅源极驱动电压 vp 为VS，栅源极电压vgs 为VS。t5 为开关管处于导通状态，SiC MOSFET 栅源极驱动电压vp 为VG，栅源极电压ugs 为VG。开通过程为t1至t5，关断过程为t5 至t9。
+
+t1\-t2 阶段为开通延迟过程，此时驱动板驱动电压对栅源极结电容Cgs 充电，V2 栅源极电压uGS上升， uGS 在t2 时刻依然未超过V2 开通电压值Vth。其过程数学方程式表示为如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIKUodibdVP41q0nkgThKlibcYuqKoRKPhlYriaNQHMT9DP4uMAic3QdE0zQ/640?wx_fmt=png&from=appmsg)
+
+t2\-t4 阶段为漏极电流iD 上升过程，此时iD 极速上升，漏源极电压uDS 开始下降，续流二极管D1 电流iF 及V2 漏极电流iD 之和为输出侧电感电流io，故电流iF 急剧下降至0，漏极电流iD 上升至Io。其过程数学方程式表示为如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDI51qP2cemRSJFuFRmYJv0CgOoxIibkNFw5puaqNkK4FpIeozTA85rgOg/640?wx_fmt=png&from=appmsg)
+
+gs 为SiC MOSFET 的跨导，RF 二极管导通电阻，VF 二极管导通压降。 
+
+漏极电流iＤ需要承担负载电流io以及续流二极管结电容的充电电流。由于功率回路寄生电感和续流二极管结电容相互作用，漏极电流iＤ会出现振荡现象。此阶段处于截止状态的被动管V1漏源极电压会发生变化，部分栅漏极结电容的位 移电流流过栅源极结电容，使被动管栅源极电压发生变化，出现正向尖峰，形成串扰。栅源极电压正向尖峰可能引起不完全导通，使功率器件流过较大电流，增加开关损耗，严重时造成桥臂短路，器件损坏。故增加被动管关断驱动电压负压， 被动管栅源极电压正向尖峰将有效降低，可抑制串扰，降低功率器件流过电流，降低开关损耗。
+
+t4\-t5 阶段栅源极驱动电压uGS 上升至VG，漏源极电压uDS 下降至SiC 器件的导通压降电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIiaIGdTlIVBJ964tJNDxLoXNGq3IycFDEya8bQrzQDghE47EddicKwqWg/640?wx_fmt=png&from=appmsg)
+
+在t2\-t4 时间段SiC 器件有开关开通损耗，为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIJJ73dnZL4hLdcwXsWgibuwXWybYYnficoLHrdl9ZjRc2iczIY2huut7PA/640?wx_fmt=png&from=appmsg)
+
+（2）V2 关断过程（t5至t9）
+
+t5\-t6 阶段为关断延迟过程，此时驱动板驱动电压变为0 或负值，栅源极结电容Cgs 放电，V2栅源极电压uGS 下降，uGS 在t2 时刻到达V2 米勒电压Vmil。其过程数学方程式表示为式如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIA7ibYcQads3vEmzXLficsGvlq7yXm4hGUj5f4YM8kbX6IoW0HibrjxbWg/640?wx_fmt=png&from=appmsg)
+
+t6\-t8 阶段为漏极电流iD 下降过程，此时iD 极速下降，漏源极电压uDS 开始上升。双脉冲试验中可以近似认为io 为恒定连续电流Io，故续流二极管D1电流iF 及V2 漏极电流iD 之和为输出侧电感电流io，故电流iF 急剧上升至Io，漏极电流iD下降至 0。其过程数学方程式表示为如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIXnMxK2L3Hzgia88icMxicGEBJXIic20R2aBbcDO1qSdO8mugjovfaFHxJw/640?wx_fmt=png&from=appmsg)
+
+t8\-t9 阶段栅源极驱电压uGS 下降至VS。栅源极结电容CGS 放电，SiC MOSFET 器件的沟道电流为0，此时SiC 功率器件的电压/电流可能会存在振荡现象，其由主电路中电感与器件结电容之间谐振引起的。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDINAibDP5uXDBZ0VRzFJPJQwXgqbf52K8hZRWsf0iasYbEAviacOOhib9Yjw/640?wx_fmt=png&from=appmsg)
+
+其中Rloop 为主电路回路中的阻抗。
+
+SiC MOSFET 功率器件数据手册提供了输入电容Ciss、输出电容Coss 以及转移电容Crss 参数曲线，这三个电容与结电容的关系为：   
+
+Ciss\=Cgs ＋Cgd，Coss\=Cgd＋Cds 以及Crss\=Cgd。由以上可得uDS 及id,推断出关断过电压及震荡程度与电路中的阻尼、功率器件的开关速度相关，且阻尼越小、 开关速度越高，过电压及震荡越严重，故在开关频率满足整机电感电容参数优化条件下，适当增加驱动电阻阻值，可有效抑制过电压及震荡现象。 
+
+在t6\-t8 时间段SiC 器件有开关关断损耗，为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIe9EWte5e1BM2DXwR0VeEcf0CMSGxdQvxWANXsfUJ9IzyVvSicpo3sbg/640?wx_fmt=png&from=appmsg)
+
+3. 双脉冲试验测试分析
+
+试验采用双脉冲测试电路，如图3 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDItgHwjPEbyDicdCuqicKicKfPafNKxZSwEbibpaWEUxnB8gHdDDgfy6O2zw/640?wx_fmt=png&from=appmsg)
+
+双脉冲电路中，SiC MOSFET 功率器件采用BSM600D12P3G001，ROHM。母线电压Udc 设置为DC630V，负载电感L 为80 uH，主动管V2 驱动双脉冲宽度为10 us/10 us/5 us（开通10 us，关闭10 us，再开通5 us），被动管V1 驱动一直保持低电平，最终输出负载电感电流约70 A。 
+
+在设置驱动电路中栅极驱动电阻2 Ω，驱动电压+18/0 V 情况下，测试波形如图4、图5。 
+
+图中通道1 为主动管V2 漏源极电压，通道2为被动管 V1 栅源极驱动电压，通道3 为主动管V2源极电流，通道4为主动管V2栅源极驱动电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIDt29k5xAChZ1KpzvG7rgMM0Xecgmdc6iafjicRkhU6bM9FYeyicx7V1qQ/640?wx_fmt=png&from=appmsg)
+
+为满足整机电感电容参数优化条件，保证高开关频率，故对栅极驱动电阻在2 Ω以下调整。 设置栅极驱动电阻为1/0.5Ω进行测试，有表1。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDI4EadVpu9D9p0yPXD7Tvy2qgibR6YlqueN8kx4uv857ibPhHVv5SR55aw/640?wx_fmt=jpeg)
+
+由表1 可知，减小驱动电阻，开关损耗会明显下降，开通过程中：被动管V1 栅源极驱动电压峰值缓慢升高，主动管V2 源极电流尖峰电流增加， 串扰问题变重；关断过程中：被动管V1 电压震荡峰峰值显著升高，被动管V1 电流波动震荡峰峰值显著增加，关断过压及震荡现象变严重。故在确保高开关频率及低开关损耗状态下为抑制关断过压及震荡、串扰现象，驱动电阻应尽量选大。 
+
+为保证驱动关断电压不损坏SiC MOSFET 功率器件，对栅极驱动关断电压在0 至\-4 V 调整。 设置驱动关断电压\-2 V/-4 V 进行测试，有表2。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIxbjDiaYCyicMIic35Lp8j0GkeHYXsdVdC1DjjjiaLC3XKRFKeouO34yBlg/640?wx_fmt=png&from=appmsg)
+
+表2 可知，加大驱动关断电压负压，开关损耗会明显下降，开通过程中：被动管V1 栅源极驱动电压峰值降低，主动管V2 源极电流尖峰电流显著降低，串扰问题明显改善；关断过程中：被动管V1 电压震荡峰峰值降低，被动管V1电流波动震荡峰峰值降低，关断过压及震荡现象减轻。故在确保功率器件不损坏情况下，减小驱动关断电压可明显减小关断过压及震荡、串扰现象。
+
+4. 结论
+
+本文分析了SiC MOSFET 功率器件开关特性， 并通过对典型功率器件进行双脉冲测试，明确在一定范围内增大栅极驱动电阻以及选择合适的较低驱动关断负压来关断SiC MOSFET 功率器件，可有效抑制关断过压及震荡、串扰问题。在实际应用中为考虑到平衡关断过压及振荡程度、串扰问题与开关损耗、整机功率密度问题，除在主回路中降低阻抗、增加缓冲吸收电路，在驱动电路中设计解耦电路、米勒嵌位电路等方法外，需重点设计合适的栅极驱动电阻及驱动关断电压。
+
+注明：  
+
+【版权声明】：本公众号平台注明来源或转载的文章，版权归原作者及原出处所有，仅供大家学习参考之用，若来源标注错误或侵犯到您的权利，烦请告知，我们将立即改正或删除。
+
+【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsktnmk8MN8XJa8NHeXjkz8ILnqiaiabsaGgdiaUxSazXzMI3qcrW6Wy7U4cZ7ibKDkiccZ1fvUicDz2N9RQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIvDuHqMqw4NzkBLww55AokZ79ddHOF2VV3K8L19g4mVAcYVyBqNrYJg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIeJibUoHo0j34QnibONuR7PBvtN4bQKpbxC3Qz8GwYpdtMF3AU6zibghcA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsdJ1LI4oLFsEpmskhICDIPb5XNpOqLdKiaHtibOic2VBC3WV34acRiaVe8Je0EnHroDlNh0cEC9EM7g/640?wx_fmt=png&from=appmsg)

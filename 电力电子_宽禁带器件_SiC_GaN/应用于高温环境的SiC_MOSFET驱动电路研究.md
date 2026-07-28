@@ -1,0 +1,979 @@
+# 应用于高温环境的SiC MOSFET驱动电路研究
+
+原创 徐 帅 SiC碳化硅MOS管及功率模块的应用 2025-03-30 11:39 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/DWgKQbcQdqfCZO-1n48ytw](https://mp.weixin.qq.com/s/DWgKQbcQdqfCZO-1n48ytw)
+
+文章来源：西安电子科技大学
+
+作者：徐 帅（硕士学位论文）
+
+摘要：本文采用硅基耐高温器件设计了一种应用于高温环境的SiC MOSFET驱动电路及其保护电路。其中主驱动电路的作用是将输入的控制信号幅值抬升至SiC MOSFET驱动电压的水平。并且采用变压器隔离的方式将控制电路与功率电路隔离，防止功率电路在高速开关过程中，电流和电压的高变化率对控制电路产生干扰。通过将传统电平移位电路中的集电极电阻用 PNP 型BJT 取代。该结构解决了传统电平移位电路中BJT开关速度与集电极电阻发热之间的矛盾,大大减小输出驱动电压的上升时间和下降时间。从而可为SiC MOSFET 在高温环境中工作提供更高频率的驱动电压，使SiC MOSFET 高速开关的性能得以挖掘。
+
+设计的驱动保护电路中包括欠压检测电路，过流检测电路以及故障信号执行电路。在欠压检测电路通过稳压管来设置参考电压值，检测驱动电路的电源电压是否小于该参考电压，如果是则产生欠压信号，并将欠压信号传送至保护执行电路。欠压检测电路结构简单，采用的元器件数量较少，不光减少了电路的制造成本，而且提高了欠压检测功能的可靠性，尤其是较高温度的特殊使用环境中简单的电路结构可有效减少电路故障发生的可能性。为了防止SiC MOSFET 过流损坏，设计了一种新型的过流检测电路。依据SiC MOSFET 发生过流时导通压降随电流升高的原理在过流检测电路中采用稳压管设置参考电压，通过将检测到的漏极电压与参考电压值相比较，来判断SiC MOSFET是否发生过流故障。该过流检测电路同样具有电路结构简单的特点，仅使用单个PNP 型双极结型晶体管来实现过流检测功能，并且在电路中设置了延时电路用于对过流故障的判断，降低了检测电路误动作的几率。使得电路的抗干扰性能得到提高。
+
+同时设计了保护执行电路，该电路的主要功能是处理检测到的故障信号，包括欠压故障和过流故障。该保护执行电路设置有初始化电路模块、锁存过流故障模块以及VGS 防跳变电路。其中初始化电路的作用是在驱动电路上电瞬间将欠压故障信号和过流故障信号清零。过流故障锁存电路的作用是将检测到的过流故障信号锁存，只要判断为过流故障就将SiC MOSFET 关断，等待检修重启。VGS 防跳变电路的作用是在发生故障时SiC MOSFET 两步关断后抑制栅源驱动电压跳变。其中在实现这些功能的基础上，使用的元器件数量相较同类型电路减少。综上整个驱动保护电路在实现基本的保护功能的基础上驱动保护电路结构大大简化，成本降低，电路可靠性提高。
+
+最后对设计的驱动电路进行制板实测。与同类型驱动电路的输出性能相比，该驱动电路输出电压的上升时间和下降时间均减小。随着温度的升高，驱动电压的上升时间略微减小，下降时间增大，但是增加量很小。温度对电路输出性能的影响属于可接受的范围。
+
+关键词：高温，SiC MOSFET， 栅极驱动电路， 驱动保护
+
+第一章 绪论
+
+1.1 研究背景及意义
+
+在一些极端的高温应用环境中，如混合动力汽车，石油钻井平台，航空航天，地热能开采等领域广泛地应用到功率变换器。例如，对于混合动力电动汽车(HEV)，其中的功率变换器和其他电子电路被放置在发动机罩下。发动机罩下的环境温度通常超过150 ℃，这就要求功率变换器在这种极端环境下能够正常工作并拥有相应的寿命。而功率开关器件是组成功率变换器的基本元件，所以要求这些开关器件同样具备耐高温特性。由于碳化硅材料具有的宽带隙高热导率以及优良的热稳定性使其可以在200 ℃到250 ℃的结温下工作。所以采用碳化硅材料制作的开关器件更适合在高温下应用。
+
+与硅基开关器件相比较，碳化硅器件性能优势有一下几个方面：
+
+(1)耐高压
+
+SiC 材料的击穿场强能够达到硅材料的10 倍左右，因为其具有很高的临界击穿场强，所以SiC 功率器件耐压值很高。因此高压应用场合中碳化硅功率器件具有很大的性能优势。
+
+(2)导通损耗小
+
+碳化硅基功率器件的导通电阻很低，其导通电阻约为硅基开关对器件的1/100，可使功率管的导通损耗大幅降低。
+
+(3)开关速度快
+
+SiC 材料的饱和电子漂移速度很高，所以其具有更高的开关速度。在功率因数补偿电路中，使用碳化硅开关器件搭建电路，可使电路的工作频率可达到300 kHz以上，效率基本保持不变。随着工作频率的提高，可使电路中变压器的体积大大减小，提升了系统的功率密度。
+
+(4)耐高温
+
+碳化硅材料的热导率约为硅材料的3 倍。较高的热导率使得碳化硅器件能够承受很高的温度，碳化硅芯片可在250 ℃下工作，而一般的硅器件最高工作温度仅为150 ℃。因为碳化硅材料具有诸多性能优势，使其在许多极端场合具有很大的应用空间。本文所述内容围绕碳化硅器件的高速开关以及耐高温的特性来展开研究工作。在耐压值为300~4500V的应用场合中，SiC MOSFET 其导通电阻较低、输入阻抗很高(109Ω~1015Ω)、开关速度快。并可提高电路的工作频率以及系统效率。又因为其可在大于150 ℃的环境下工作，使其在高温环境下的应用被作为首选器件。使用在高温环境下的SiC MOSFET 必须有与之相匹配的驱动电路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoicAMQmbhDv3MLDhiaMpcKMKOcr223N6iaEcajjg72jfm01P0Idl5WAib5A/640?wx_fmt=png&from=appmsg)
+
+目前已有可在高温环境下应用的栅极驱动电路以及驱动保护电路。表1.2 列出了不同厂商的驱动芯片的最高工作温度。XREL 半导体和CISSOID 高温栅极驱动芯片的最高工作温度分别为230 ℃和225 ℃。这些栅极驱动集成电路采用的是用绝缘体上的硅(SOI)技术制造的。虽然SOI 技术可用于开发应用于高温环境的栅极驱动集成电路，但复杂的制造工艺增加了制造成本。所以就导致基于SOI 技术的驱动芯片单颗价格异常昂贵。文献\[26-28\]阐述了使用SiC 制造工艺的工作温度高达400 ℃的栅极驱动集成电路。但是SiC 集成电路的制造技术尚不成熟，且不能商业化。所以需要提出一种新型电路来平衡驱动电路平衡价格和驱动性能。
+
+由安森美提供的金属封装的BJT 可在温度为200 ℃的高温环境下工作。虽然该BJT 为硅基有源器件，但是因为其特殊结构和金属封装，可使其工作在大于150 摄氏度的应用环境。安森美另外可提供的肖特基二极管和齐纳二极管的额定最高结温达200 ℃。基于此可设想通过使用分立器件来搭建一种应用于高温环境的栅极驱动电路作为高成本SOI IC 和SiC 制造技术的驱动芯片的替代品。
+
+1.2 高温驱动及其保护电路研究现状
+
+接下来将介绍采用分立器件搭建的高温驱动的电路的发展现状。
+
+来自美国俄亥俄州立大学的科研人员提出了一种针对高温环境下SiC MOSFET驱动电路的设计方法。在其提出的驱动电路中采用了变压器隔离，输入信号经过变压器隔离之后发生畸变，通过在变压器副边接入互锁电路将畸变后的输入信号还原，之后通过电平移位电路将信号幅值抬升至能够驱动SiC MOSFET 的水平，最后经过图腾柱电路增强电路的驱动能力。但是该驱动电路仍存在的不足之处是：1)电路的传输延时较长；2)输出的驱动电压的上升时间和下降时间还有进一步减小的空间。除主驱动电路之外，该论文还提出驱动保护电路，包括欠压检测电路，过流检测电路和保护执行电路。但是其所提出的检测电路结构较复杂。同时该过流检测电路抗干扰能力较差。在其之后发表的论文中以上的问题仍然存在。
+
+来自休斯顿大学的一篇论文中提出一种应用在高温环境的SiC MOSFET 驱动电路。其设计的驱动电路在其输入端也是采用变压器隔离，输入信号经过变压器隔离后发生畸变，必须还原，其电路也是采用互锁电路进行还原，电路输出结构采用的是上拉电阻式电平移位结构，即BJT 与集电极电阻串联的结构，这种结构决定了该电路的输出电压上升沿和下降沿较长。尤其在高温环境下BJT 的开关速度受其集电极电阻功耗的制约。除主驱动电路之外，还提出了过流检测电路和欠压保护电路。其设计的过流保护电路相较于论文提出的电路设置了死区时间，设置死区时间目的是为了防止在开关器件开通的初期误触发过流保护电路。从直观上其欠压检测电路、过流保护电路结构过于复杂，所用BJT 数量较多，增加了电路成本。尤其是应用在高温这样的特殊环境降低了电路的可靠性。所以该驱动电路有进一步优化改进的空间。
+
+国内对SiC MOSFET 驱动电路的研究并不多，哈尔滨工业大学的金淼鑫等人提出一种新型高温栅极驱动拓扑。该驱动电路同样采用BJT 来搭建电路。采用加速电容开帮助BJT 更快的开通，避免了高温下硅基MOSFET 关断能力弱化而引起的驱动电路失效。并基于高温下的元件参数的温漂提出了温度补偿的方法。但是其未提出相应的驱动保护措施。
+
+1.3 本文主要研究内容
+
+本文所述主驱动电路及其保护电路是针对上述电路存在的问题和不足进行改进，解决了电平移位电路中BJT 开关速度与集电极电阻功耗之间的矛盾，使得该驱动电路能够输出高频驱动信号。对驱动保护电路中的欠压检测电路，过流检测电路进行简化改进。同时介于功率变换器应用在高温环境且需要实现高速开关的特点，首先组成功率变换器的开关器件必须耐高温，传统的硅基开关器件一般工作在低于150 ℃的环境下，在高于150 ℃的环境下无法工作。相较于硅基开关器件，碳化硅开关器件可以工作在更高温度的环境下并且具有更快的开关速度。所以对于需要在高温环境下工作的驱动电路必须具有耐高温的特点并且要求其能够输出高频驱动信号，这就要求驱动信号的上升沿和下降沿持续时间尽量短。同时为了防止SiC MOSFET 在稳定导通时发生过流设计了过流检测电路。当输出的驱动电压较小时，SiC MOSFET 不能充分导通，其导通电阻很大，功率管损耗急剧增加，甚至可能导致功率管发热损坏，所以必须对电源电压进行欠压检测。
+
+所以对于应用于高温环境的SiC MOSFET 驱动电路的设计主要关注四个方面：(1)输出驱动电压的上升时间和下降时间；(2)欠压检测；(3)过流检测；(4)高温对元器件性能以及电路的输出性能的影响。
+
+第二章 基于分立器件的SiC MOSFET驱动电路理论研究
+
+2.1 SiC MOSFET开关特性分析
+
+本文的主旨是设计一种应用于高温环境的驱动电路，辅助SiC MOSFET 正常导通与关断。要设计这种高温驱动电路就必须先对被驱动对象的开关特性做充分的了解。对于SiC MOSFET 有如下重要特性：
+
+1)要将MOSFET 置于导通状态需要栅极电压高于阈值电压，且没有静态电流消耗，功率增益是无限大的。但是由于栅极是呈容性的，因此要求驱动电路提供瞬间大电流才能保证其导通和关断。
+
+2)高速开关电路需要大电流的驱动电路，大电流可使栅源间的等效电容快速充放电，实现MOSFET 的高速开关；
+
+3)只要MOSFET 处于导通状态，漏源电流既可以从源极流向漏极，也可以从漏极流向源极。这对功率电路拓扑设计具有很大的影响，既有好的方面，也有不利的方面。
+
+功率MOSFET 是多个状态的转换过程，通过借助图2.1 的开关波形来描述，这是分析MOSFET 开关过程比较直观的方法。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEo9D8oCSWpVgyIO1PTozHIjX60D7WPJ1R2icbqHNPjgECfSe2ZtBTrkQg/640?wx_fmt=png&from=appmsg)
+
+图2.1 为栅极驱动器和MOSFET 导通的等效电路。该测试电路假定驱动电路中的恒流源(向栅源间电容充电后)被钳位到一个固定电位，该模型可以模拟大多数开关电源的应用。MOSFET 的原理图包括等效的极间电容，他们是决定开关动作的主导因素。然而，这些电容通常在元件规格书中找不到确切的值，行业中通过其他方法定义。行业中人为定义了CISS，CRSS 和COSS。因此有必要计算真正的极间电容：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEojulyOaPib5TkYuOJH311eFUW3QBgMSOMSVoYmI7TA6TTw9n0l4NIEUQ/640?wx_fmt=png&from=appmsg)
+
+实际上CGD 是将变化的漏极电压耦合到栅极作为负反馈，从而抑制了快速开关，由于其值与所加的电压成反比，其作用进一步变得复杂化。
+
+图2.1 绘制了四个位置的波形：栅极电压VGS，栅极电流IG，漏极\-源极电压VDS,以及整个过程中的漏极电流波形 ID。整个过程具体分析如下：
+
+区间一：自这个时期开始，栅极驱动器导通。栅极电流开始对栅极电容充电，同时栅极电压开始上升。由于电流来自于一个低压源，受到串联阻抗的限制，所以栅极电流随着栅极电压的升高而下降。在此期间除此之外没有其他事情发生。
+
+区间二：当栅极电压达到导通阈值，开始有电流流过漏极到达源极。在此期间，漏极电流将增加，直到MOSFET 流过所有的测试电流之后漏极电压才开始下降。在这段时间内漏极电压几乎没有发生变化，栅极特性也没有改变。
+
+区间三：随着漏极电压的降低，CGD电容的存在，栅极电流发生转移，并在漏极电压下降的时间内防止栅极电压进一步升高。
+
+区间四：一旦漏极电压完成转换，电容CGD不再有电流流过，栅极电压可以上升到任何电压大小（这取决于栅极驱动电路提供的电压）。这个上升的驱动电压进一步增强了MOSFET 的导通，使其达到最低的RDS(ON)值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoLLozF3pTvX2FIAJE4Raf6oVXibb2iamc2Vlgh62ZoTzU7ibdgHXibGyeHw/640?wx_fmt=png&from=appmsg)
+
+同样，类似的要描述MOSFET 的关断过程，我们可以按照图2.2 的等效原理图和波形进行分析。再次可以看到在关断过程中也有类似的四个明显不同的区间，但是他们都在很大程度上受到栅极驱动电路特性的影响。在通常的应用中，栅极驱动电压相对于栅极阈值会提高到较高的水平，以便让MOSFET 充分导通得到最低的RDS(ON)。这个高驱动电压提供了一个相对较大的驱动电流，其导通时大小由(VDRV\-VTH)/RG 决定。然而，在关断时，驱动器输出端口变成低电平，这意味着栅极驱动电流变为(-VTH)/RG，这通常导致栅极驱动器关断缓慢。与开通相比，这些步骤仍然相同，但顺序相反；
+
+区间一：CGS 通过外部驱动电路放电，内部栅极电压回落到阈值电压水平，漏极没有任何改变。
+
+区间二：栅极电压开始关断器件，CGD电容可以通过上升的漏极电压和栅极驱动允许的电流进行充电。同样，在此期间，栅极电压和电流都保持恒定，流经CGD的电流因受到RGATE+RLO阻抗的影响，会减缓整个关断过程。当恒定的测试电流ID开始转移到钳位电路并远离MOSFET 时，该区间结束。
+
+区间三：当漏极电压达到测试电路的钳位电压时，CGD上的电流停止流动，栅极电压继续线性下降到阈值电压，器件开始关断。
+
+区间四：当栅极电压低于阈值时，MOSFET 完全关断，栅源间电容完全放电完成时，此过程结束。
+
+需要注意的时，在测试电路中，不管是导通过程还是关断过程，漏极电压变化时漏极电流都是一直在流动。这导致每次转换时都产生功率尖峰，这就要求驱动电路提供的驱动电压频率足够高，MOSFET 的漏源电压和漏极电流交叠时间缩短，可减小开关损耗。这是一个折中的过程，因为要功率器件的转换损耗减小，则需要更高的驱动电流，这增加了驱动电路的损耗。由于这些开关损耗在每个周期都产生，所以驱动器件和功率开关中的总损耗随着开关频率线性增加。
+
+2.2 SiC MOSFET高速驱动影响因素
+
+2.2.1 驱动电阻
+
+栅极驱动电阻对SiC MOSFET 的驱动能力有重要的影响。栅极电阻可实现以下功能：
+
+1)抑制栅极振荡。绝缘栅器件的栅极\-射极(或栅极\-源极)之间呈容性，且栅极回路一定存在寄生电感，且无法避免。如果没有栅极电阻，那么栅极回路在驱动脉冲的作用下会产生振荡现象，因此需要通过串联电阻对振荡现象加以抑制。
+
+2)转移驱动器的功率损耗。而通常情况下驱动电路使得输出都是图腾柱结构。如果没有栅极电阻，寄生电感与寄生电容的驱动功耗将绝大部分消耗在驱动器输出级的输出管上，使其温度上升很多。
+
+3)控制开关速度。实际的驱动回路可等效为RLC 网络，电阻越小，栅源电压振荡地越剧烈。这是因为SiC MOSFET 的栅源之间存在寄生电容的缘故。较大的EMI，有可能导致功率模块无法工作，因此在选取栅极电阻值的时候既不能使MOSFET 开关损耗太大，也不能一味追求高速开关而导致电路产生严重的电磁干扰，必须统筹兼顾。
+
+2.2.2 驱动电压
+
+驱动电压是影响功率MOSFET 导通速度的重要因素。当MOS 管导通过程中，驱动电压越大，MOSFET 导通速度越快，驱动电压VDRV仅在开启阶段对开关速度和开关损耗产生影响。但是驱动电压VDRV不能太小，不然会导致SiC MOSFET 导通不充分，工作在饱和区，此时其导通电阻RDS(ON)远大于正常导通的等效电阻，在大的漏极电流作用下，会导致器件发热损坏。当然驱动电压值也不能过高，过高的话会将SiC MOSFET 栅氧化层被击穿而损坏器件。通常来说，对于SiC MOSFET 器件，栅极正取为+18 到20 V，负压取为\-3 V 左右。
+
+2.2.3 寄生电容
+
+SiC MOSFET 开关速度还受到栅源寄生电容CGS 和栅漏寄生电容CGD 的影响。且极间电容较大,其等效电路如图2.3 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoXtqAa511gWda6IcyjapDQccNG1VtmV4H7SCrmI4icNjqASMFvWuamvw/640?wx_fmt=png&from=appmsg)
+
+图2.4 为栅极驱动电路的等效模型，当开关S1 闭合，S2 断开时，驱动电压VDRV通过开启电阻 RON 为MOSFET 的输入电容CISS 充电，实现功率管的开启过程；当开关S1 断开，S2 闭合时，MOSFET 的输入电容CISS 通过关断电阻ROFF 放电，并完成功率管的关断过程；由此等效电路图可知，CISS 越小，充放电速度越快，栅源电压VGS建立和消散的速度越快，越有利于实现高速开关。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoXVfORooiaNzDRABoiaMdslQvULRaJJcmj914Eqm7CiaIItBIVcdpVtbjg/640?wx_fmt=png&from=appmsg)
+
+图2.3 中CGD 实际上是将变化的漏极电压耦合到栅极作为负反馈，从而抑制了快速开关，由于其值与所加的电压成反比，其作用进一步变得复杂化。功率管在导通与关断状态之间切换时，CGD上的电压变化远大于CGS 上的电压变化，所以该寄生电容上会产生较大的充、放电电荷量QGD。QGD越大，米勒平台持续时间就越长，开关速度越慢。所以要实现高速开关，必须设法减小QGD。但是在很多情况下，减小QGD和减小RDS(ON)是相互矛盾的，所以就要借助RDS(ON)与QGD 的乘积作为衡量器件性能的指标。RDS(ON)与QGD的乘积越小越好。
+
+2.2.4 温度 T
+
+温度对SiC MOSFET 开关速度的影响主要是因为其阈值电压值受温度影响，如图2.5 所示随着温度的升高，SiC MOSFET 阈值电压逐渐下降，阈值电压越小，SiC MOSFET 的漏极电流产生的时刻越早，导通得越快。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoQBI0XicByvo3tLbdQSdhNBhafKSNCKk2Pk3nmIXx9EbshC1iaaGcODKg/640?wx_fmt=png&from=appmsg)
+
+在功率管关断过程中阈值电压越小，器件关断越慢。所以在其他条件不变的情况下，温度升高将导致SiC MOSFET 的导通时间减小，关断时间增加。从而使其导通损耗较小，关断损耗增加。同时温度还通过影响SiC MOSFET 的驱动电压的上升时间和下降时间来影响其开关速度。驱动电路的温度特性将在第三章做详细描述。
+
+2.3 BJT 开关特性的分析
+
+在电子电路设计制作中，双极结型晶体管(BJT)是用的比较多的有源器件。BJT 作放大应用时，基本要求是工作点必须处在放大状态范围内，并且工作点要具有足够的稳定性，以保证BJT 能够放大信号，而且不会产生信号失真。根据电路的设计要求，BJT在本论文的设计电路中仅作为开关器件，放大状态仅作为其开关应用时的过渡状态，将在下一节中着重讲解。所以这里仅讨论BJT 作为开关器件时的特性和应用，也就是主要研究BJT 的饱和状态与截止状态。接下来将讨论BJT 在作开关应用时的基本要求以及如何满足这些要求。
+
+(1)BJT 作为开关器件的的基本要求
+
+对开关 BJT 的基本要求应该有四个方面：
+
+1)BJT 在关断状态时漏电流很小、集电极与发射极之间的等效电阻很大。理想情况应该是漏电流为零，电阻接近无穷大。
+
+2)BJT 在导通状态时导通压降VCE 小、集电极与发射极之间的等效电阻很小。理想情况应该是导通电阻为零，导通压降为零。
+
+3)BJT 能够实现开关功能。作为三端器件的BJT，应该能够使用输入电压或电流来控制输出的导通与截止，否则BJT 就不能用于逻辑电路。
+
+4)BJT 的开关速度高。BJT 开关速度的高低虽然不是开关工作的必要条件，但是开关速度越高，开关电路的动态功耗将越小（因为关断状态和导通状态的电流\-电压之积都很小，则开关晶体管的静态功耗往往可以忽略，所以晶体管开关工作的功耗主要是动态功耗），因此，BJT 作为良好的开关应用时，应该具有很高的开关速度。
+
+(2)BJT 实现开关功能的必要条件
+
+对于BJT 饱和逻辑电路而言，导通状态就是BJT 处于过饱和状态，集电极电流很大、导通电阻很小，关断状态就是BJT 处于截止状态，从集电极流过发射极的电流很小、集电极与发射极之间的等效电阻很大。BJT 的基本开关电路是发射极接地组态，如图2.6 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEof8E8YKONCuvsB06OicicIW3lwB1BfViaSAAOtGiau3xj35TwK77RUoHsaQ/640?wx_fmt=png&from=appmsg)
+
+因为BJT 是电流控制的器件，所以问题就是如何利用基极电流来控制晶体管的导通与关断。图2.7 是共射极BJT 的输出伏安特性曲线。可见为了使BJT 能够导通和关断，要求基极电流能够驱动BJT 在饱和状态与截止状态之间进行转变。因为不管是由饱和状态向截止状态转变还是由截止状态向饱和状态转变都需要经过放大区，所以作开关应用的BJT 也需要偏置在放大状态。这样就可以通过改变基极电流来移动工作点，使得晶体管在截止状态与饱和状态之间进行转换。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoh3zXPto0GibichT54icOD03kGPTw4e9BVzlgXwYOzES2Licjn0kia3b9BNw/640?wx_fmt=png&from=appmsg)
+
+图2.7 BJT 的输出特性曲线
+
+因为只要将晶体管的发射结反偏，即可去掉基极电流，就可以实现截止状态。而晶体管要进入导通状态，仅仅使发射结正偏，还不足以使其导通。因为如果输入的基极电流尚不足以在基区和集电区中产生一定的超量存储电荷而驱使晶体管进入饱和状态（集电极也正偏）的话，那么就不能实现饱和导通状态。因此，相对晶体管的关断，BJT 的开启要更难一些。也就是BJT 开关工作的控制难点主要是开启过程。
+
+从BJT 的基极注入电流IB，并逐渐增大，晶体管的工作状态会由放大状态进入到饱和状态，那么当BJT 恰好处于临界饱和时，集电极电流IC 可表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEo2zVB1PHakBPtM6oC8naTuczRZicLp4eYF1e3M8SZZH5TUGMErLh8jeA/640?wx_fmt=png&from=appmsg)
+
+继续增大基极电流，BJT 将进入饱和状态，此时集电极电流基本恒定（主要取决于偏压VCC 和集电极电阻RL），该输出电流为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEo939eOIVHOphibP1zF3xUrEMeejATOmzQwpDfurHo22zOkWWtiaia33wUA/640?wx_fmt=png&from=appmsg)
+
+于是，晶体管的临界饱和驱动电流IBS 为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoaud9gmr6AZFc6rnbojH6z4nVicRia2XWtY9VJHYia9DxGBjLzUKJGp40Q/640?wx_fmt=png&from=appmsg)
+
+因此BJT 开启的必要条件是：基极电流IB 必须大于临界饱和驱动电流IBS，即：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoMajSuOAic5xuT7QvzSz68ibWBMLuSvotnzzYtQO0nnDEZiagU9rpSRGRg/640?wx_fmt=png&from=appmsg)
+
+根据上式关系可知：只要基极电流IB 大于临界饱和驱动电流时，BJT 就进入饱和状态。这也是BJT 是否处于饱和状态的判据。虽然BJT 的饱和导通状态是导通压降很小、导通电流较大的一种状态，但是由于饱和电流的大小与集电极电阻RL 成反比关系，所以在负载电阻较大时，BJT 的饱和电流比较小。此时即使基极电流很小，也有可能驱动BJT 进入饱和状态。
+
+BJT 的饱和深度(饱和程度)与基极驱动电流大小有关：基极电流比临界饱和驱动电流大得不多时，晶体管基区中的超量存储电荷较少，则称为浅饱和；反之，基极电流比临界饱和驱动电流大得越多，晶体管基区中的超量存储电荷就越多，则晶体管的饱和程度就越深，称为深饱和。BJT 的饱和程度用饱和度来表征，s 定义：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEorX8e9Tgc0fibbKk7QG3XuR002nc93o7SdjiaibKxKFF3licNUFohBCmMow/640?wx_fmt=png&from=appmsg)
+
+显然，饱和度s 越大，集电结的正向电压降就越大，于是BJT 的饱和压降也就越低(对于Si-BJT，一般饱和压降约为0.3 V，深饱和时约为0.1 V)。但是，在s 很大时，基区和集电区中的超量存储电荷就会很多，则BJT 的关断时间(主要是存储时间)也会较长。因此，在BJT 的开关应用中，要适当选取s 值；通常在饱和(深饱和)逻辑工作中选取s≈4。
+
+BJT 的开关速度主要决定于关断过程的时间(特别是存储时间——超量存储电荷消失的时间)，开启时间的影响往往较小；但是BJT 能否开关工作，则主要决定于开启过程可否进行，而关断过程往往比较容易实现。
+
+(3)对 BJT 开关工作的讨论
+
+由上述基极驱动电流的条件和饱和状态的判据，可以得出：
+
+1)BJT 的β 值不同，在饱和逻辑电路中所需要的驱动电流也不同：如果实际工况下β 值较大，那么BJT 进入饱和状态需要的基极驱动电流较小，则容易进入开关状态；相反，β 值较小，需要的驱动电流较大，则较难进入饱和开关工作。因此，对于开关晶体管，虽然不像放大工作那样对放大性能的要求很严格，但是仍然需要具有一定的放大性能。在一定范围内，电流放大系数越大越好。
+
+2)若增大基极驱动电流，则可以减小负载电阻，来增强开关电路的带负载能力；也就是说要想使BJT 开关电路能够输出更大的负载电流，就应该为BJT 提供更大的基极驱动电流，以满足BJT 处于饱和状态(开启状态)的必要条件。为了提高逻辑电路的负载能力可通过以下三种措施：a)增大基极驱动电流IB；b)增大BJT 的β 值；c)降低VCC。
+
+3)在基极驱动电流IB 一定时，若加重负载(即减小RL)，则就有可能使得BJT 不再满足基极驱动电流条件，于是BJT 就将退出饱和工作状态。这就是说，当负载很重时，BJT 就不能开关工作；这时，必须要增大基极驱动电流之后，才能正常开关。
+
+4)为了让BJT 具有较高的β，除了改善BJT 本身的设计制造技术以外，在开关电路应用中，往往采用BJT 发射极接地的组态，因为这种组态具有较大的电流放大系数，所以BJT 的开关应用多采用如图2.6 所示的电路结构。
+
+2.4 各元器件的温度特性
+
+因为本文所述驱动电路均由分立器件搭建而成，所以分析其温度特性就变得很有必要。通过分析其高温特性有助于元器件的合理选取以及电路结构的设计。
+
+2.4.1 电阻的温度特性
+
+温度的升高会导致电阻值发生改变。电阻值发生漂移会对电路的正常工作造成一定影响，但是并不会导致电路无法工作。因为电阻本身就是发热元件且在高温下工作，所以在考虑阻值漂移对电路性能影响的同时也要考虑电阻的散热能力。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoQkfgibygLtMpZRkMRibAffS35Q3Gf8fCFuByum6xBBUWK5Ncsgiaz7BpQ/640?wx_fmt=png&from=appmsg)
+
+表2.1 为威世的PATT 系列高温电阻在不同的电阻值范围下对应的电阻温度系数和电阻公差。可以得出在10Ω~1MΩ的阻值范围中电阻的温度系数最小可达25 ppm/℃，因为在主驱动电路中有些电阻是用于电路的温度补偿，要求其具有一定温度系数。那么在除主驱动电路中用于温度补偿的电阻之外，尽量选取温度系数较小的电阻值。由于驱动电路工作环境的温度不超过200 ℃，所以即使选用具有最大温度系数的电阻时，当电阻处在200 摄氏度的环境下电阻值的温漂很小，对电路的性能影响几乎可以忽略。所以在高温电阻的选取要根据电路的实际要求。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLDTHCspfibEhwaTibx3hcZ7oF4aN1nd8k7ddZQcglhG1HTrcRo0pW3sxQ/640?wx_fmt=png&from=appmsg)
+
+表2.2 为威世的PATT 系列高温电阻不同封装下对应的额定功耗和阻值范围，从上表可以得出随着电阻封装越大，其额定功耗也越大。也就是电阻封装越大，越有利于散热，所以对于相同阻值不同封装的电阻，封装越大，散热能力越强，越适合在高温环境下使用。同时从表中可以看出1206 封装对应着非常宽泛的阻值选取范围。所以在本电路的电阻选取中，均选用1206 封装的高温电阻。
+
+随着温度的升高，电阻的允许最大功耗将减小。所以在阻值选取方面必须使电阻在高温下的实际功耗小于电阻在该温度下对应的降额功耗。如图2.8 所示，当温度小于155 ℃时，该型电阻的最大允许功耗近似等于额定功耗；当温度高于155 ℃时，电阻的最大允许功耗急剧下降，当温度升高至200 ℃时，允许的最大功耗仅为额定功耗的一半，当温度达到250 摄氏度时，理论上该电阻不允许产生功耗。但在实际测试的情况下即使环境温度超过额定最高温度电阻不会立即损坏。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoBPlHMlG3f1wEeMDxqpwvricY6KOUh0WeGXDh2vOdOdlFygDCJY4j61A/640?wx_fmt=png&from=appmsg)
+
+2.4.2 电容的温度特性
+
+环境温度升高对电容器的参数和性能影响主要体现在这几个方面：电容值、绝缘电阻、耐压值及使用寿命。但对于不同结构、不同材料的电容来说，温度对以上几个参数的影响程度有很大不同。
+
+1)温度对电容寿命的影响。通常情况下，工作温度的越高，电容的寿命缩短，最明显的是电解电容。在高于150 摄氏度的应用环境中电解电容、薄膜电容是不可用的，所以排除了选用电解电容和薄膜电容的可能性。而对于陶瓷电容来说温度升高会对其使用寿命产生一定的影响，但是相比于电解电容和薄膜电容，温度对其寿命产生更小的影响。
+
+2)温度对绝缘电阻的影响。在相同的耐压下绝缘介质的等效电阻减小会使电容的漏电流增大，为了满足电容可靠工作的要求就必须降低实际电路中电容器的耐压值。
+
+3)温度影响电容容值。电容的容值随温度的变化而变化，在对电容值的漂移严格要求的应用场合应该充分考虑到温度对电容容量的影响。所以在选取高温电容时，在满足耐压条件和耐高温的前提下应该尽量选取温度系数比较小的电容器。
+
+陶瓷电容的工作温度比其他材料的电容更高，但是其电容值很小。在本文所述电路中采用容值均小于10 μF 的贴片陶瓷电容。Kemet 高温陶瓷电容其最高工作温度可达200 ℃。专用于满足恶劣工业环境的应用需求，如井下石油勘探、汽车、航空电子发动机室电路。同时该型高温C0G 电容器具有温度补偿功能，非常适合需要电容特性稳定性的应用。图2.9为C1206H104J3GACTU电容器的容值随温度变化的曲线。从图中可以看出随着环境温度的变化，电容值几乎不发生变化。该电容在−55 °C~+200 °C 范围内温度系数被限制在±30 ppm/℃。此外，这些电容器在高达200 °C 的高温下表现出高绝缘电阻和低损耗因数。它们在高频下也表现出低ESR。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoy2YHwx12XkSJ41qibEMlWgCxJuLRJOtcKiaSUutRTgQK7J31ib3dY5hcw/640?wx_fmt=png&from=appmsg)
+
+2.4.3 电感的温度特性
+
+本文中用到的电感元件是用作隔离的信号变压器。对于变压器而言，需要从两方面进行考虑:第一是在高温下绕线的绝缘问题，第二是磁芯的温度特性。漆包线的耐温主要是以绝缘漆的自身性能（即绝缘漆内的化学成份决定的）来决定的。本文采用聚酯亚胺复合酰胺型漆包圆铜线，该漆包线可在220 ℃的环境下连续工作，较易满足要求。
+
+在选择磁芯的过程中首先考虑的是磁芯的居里温度。因为驱动电路要使用在接近200摄氏度的高温环境，所以磁芯的居里温度必须高于200 摄氏度，如果无法达到，那么在实际应用中，当工作温度超过居里温度时磁芯将变成顺磁体逐渐失磁。失去了隔离变压器的作用。其次磁芯的选取还要考虑涂层材料的耐温性，诸如铁粉芯，铁氧体，以及铁硅铝材料的磁芯的高温应用都会受到涂层材料的最高耐温的制约。同时温升将影响磁芯功率损耗，对于大多数材料来说当温度在100 ℃时，磁芯损耗最小，效率最高。本文选用铁硅铝磁环，通过绕线制作电路中用于电气隔离的信号变压器，由于该磁芯是一种低损耗和相对高的饱和磁感应强度(10500 G)的磁性材料，铁硅铝磁芯在制造过程中不用有机粘合剂，因此没有热老化的问题，可长期使用在200 ℃的工作环境。
+
+2.4.4 有源器件的温度特性
+
+接下来将具体介绍温度对BJT 和二极管参数的影响。
+
+(1)温度对BJT 参数的影响本文中BJT 均被用作开关器件，也就是说BJT 主要工作在饱和状态和截止状态，但在其在两种状态之间转换的过程中必须经过放大区，BJT 的放大区恰好对应输出驱动电压的上升过程和下降过程。所以要使驱动电路能够输出高频的驱动信号，就必须减小驱动电压的上升时间和下降时间，换句话说就是让BJT 在饱和状态和截止状态之间快速转换，尽可能快速渡过放大状态。所以不仅要研究饱和状态和截止状态时BJT的工作要求，同时也要着重研究BJT 处于放大状态时的温度特性。
+
+1)温度对ICBO的影响
+
+BJT 的ICBO是集电极反偏时，少子漂移形成的反向饱和电流。少子的漂移运动对温度非常敏感。接下来将以其Q2N2222A(NPN)为例分析ICBO的增加对BJT 的开启与关断的影响：
+
+开通过程中，BJT 由截止状态开始，经过放大状态，最终过渡到饱和状态，在这个过渡过程中BJT 始终处在放大状态，随着温度的升高，由基区向发射区扩散多子空穴而形成的空穴扩散电流IEP 将增大，同时反向饱和电流ICBO 也增大。而IEP 作为发射极电流IE 的一部分，ICBO 作为集电极电流IC 的一部分。就是说温度的升高有利于IC 和IE 的快速建立。对BJT 的开启具有辅助作用，加快了BJT 的开通过程。关断过程中，BJT 由饱和状态开始，经过放大状态，最终过渡到截止状态，在这个关断过程中 BJT 同样始终处在放大区，随着温度的升高IEP 将增大，ICBO也增大。就是说温度的升高阻碍了IC 和IE 的快速消散。对BJT 的关断具有阻碍作用，延缓了BJT的关断过程。
+
+2)温度对的β影响
+
+温度升高，BJT 内载流子的扩散能力增强，使基区内载流子的复合的机会降低，那么共基极直流放大系数α增大，所以共射极直流电流放大系数β将随温度的升高而增大。温度每升高 1 摄氏度，β值大约增加 0.5%~1%。由 BJT 开启的必要条件可知，β值越大，临界饱和电流 IBS 越小。在其他条件不变的情况下，温度的升高将导致 BJT 的饱和深度增加，基区和集电区中的超量存储电荷就会很多，BJT 的关断时间（主要是存储时间）也就会增加。
+
+对如图2.6 所示的基本开关电路进行温度特性仿真分析。BJT选用Q2N2222A。
+
+如图2.10 所示，对于BJT 的开启过程中，因为温度升高导致临界饱和电流越小，这样基极电流更快达到临界饱和电流，处在放大区的时间更短，BJT 的开通时间减小。依VCE下降至10%为准，200 ℃对应的开通时间相比于25 ℃的开通时间减小了34 ns，同时由图2.11 可以看出关断时刻逐渐后延，关断时间逐渐增加。200 ℃对应的关断时间相比于25 ℃对应的关断时间增加了140 ns。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEode808WibLiaHfauLbpTPhicVPnqwj3T4CQjKQdyEaLMuUHD3ad4icHMoLw/640?wx_fmt=png&from=appmsg)
+
+3)温度对阈值电压的影响
+
+BJT 的阈值电压VT 是指输出电流IC 等于某一定值（如1 mA）时的发射结电压值。VT对于温度很敏感，将随着温度的升高而降低。如图2.12 所示，BJT 的基极\-发射极之间的电压随温度变化的规律与二极管正向导通压降的温度特性相似，温升将导致BJT 的阈值电压逐下降。在本文设计的驱动电路中选用了Q2N2222A、Q2N2907A、Q2N2219A和Q2N2905A 四种型号作为开关器件来实现驱动功能。虽然BJT 阈值电压随温度升高而降低，但高温环境下的工作性能可以接受。VT 的变化对电路的工作性能影响将在第三章中进行讨论。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEovdtiaCyoY11NPPpGHXDlB581XCCb9lSFicX9QeOIrfwNfO9zThljCzHw/640?wx_fmt=png&from=appmsg)
+
+4)温度对V(BR)CBO,V(BR)CEO 的影响
+
+由于BJT 集电结的反向击穿电压一般均为雪崩击穿。雪崩击穿电压具有正温度系数，所以温升会使集电极\-基极间的反向击穿电压V(BR)CBO 和集电极\-发射极间的反向击穿电压V(BR)CEO 都增大，使得BJT 更加不容易被击穿，这将有利于BJT 的安全工作。
+
+(2)二极管的温度特性
+
+本文中在欠压检测电路和过流保护电路中都用到了稳压管，利用其稳压值作为参考电压与被检测信号作比较，然后做出相应的保护响应。其稳压值的温度特性将直接影响故障检测的动作时刻。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEonLgr0vPekVvibmPsbZfd59MVPgfHhia2UxtFhsVCAFSic1Vw6akDbVpMw/640?wx_fmt=png&from=appmsg)
+
+如图2.13 为稳压管1N5337B 稳压值随温度的变化曲线。从图中可以看出，随着温度的升高，稳压值逐渐增加。在150 ℃~200 ℃的温度范围内，其稳压值的变化范围在4.98 V~5.08 V 之间，变化幅度不超过0.1 V。这说明该稳压管稳压值会随着温度的变化而变化，但是在150 ℃~200 ℃环境温度下，稳压值温漂很小，更加适合高温应用。同时本文中还选用了与1N5337B 属同一批号的稳压管1N5333B、1N5343B 和1N5355B。其温度特性与1N5337B 相似。另外对于选用的FDLL485B，其温度特性对电路的影响较小，可以不予考虑。
+
+2.4.5 本章小结
+
+本章首先介绍了针对SiC MOSFET 的开关特性，总结出SiC MOSFET 对驱动电路的要求。然后分析了影响其高速开关的因素。因为本文所设计的电路是采用常见的分立器件搭建电路结构，且电路工作在高温环境，所以分析各元器件的高温特性尤为必要。所以在最后的小节中着重分析了有源器件的BJT 的开关特性以及温度对其参数和开关性能的影响。同时介绍了各无源器件的参数，性能随温度变化的情况，从而对元器件的选型提供了理论依据。
+
+第三章 高温环境下的SiC MOSFET驱动电路设计及仿真
+
+在对目前所提出的高温驱动结构进行分析之后，总结了各种拓扑所存在的优缺点。针对其不足之处加以改进，进而提出一种新型高温驱动拓扑及其保护电路。图3.1 为该高温驱动电路的系统框图。主要分为两部分，一部分是主驱动电路；另一部分是驱动保护电路。本章将详细介绍两部分电路的结构以及工作过程。并且分析了各部分电路在高温下的电气特性，并采用PSPICE 对电路进行仿真分析。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEo6XiccfIalVk52RHJxj07gU5cNvyzDjVfkmej5ibVthR2R6uKB76uZPwA/640?wx_fmt=png&from=appmsg)
+
+3.1 主驱动电路设计
+
+3.1.1 主驱动电路功能介绍
+
+(1)电路结构介绍
+
+主驱动电路包括变压器隔离，驱动辅助电路，电平移位电路，图腾柱电路。首先控制信号通过变压器进行电气隔离，然后与驱动辅助电路进行配合将控制信号传送至电平移位电路，通过电平移位电路将控制信号的幅值抬升至驱动电压的幅值水平。然后再通过图腾柱电路增大电路的驱动能力。以下将对主驱动电路的电路结构，工作过程以及温度特性做进一步分析。
+
+下面结合图 3.2 对主驱动电路的工作过程作详细描述。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEo3eJeUNKKiaZepe26ibQqibdExPrkVpI3UKRWVL59Scicib9dics0icNGpkMBA/640?wx_fmt=png&from=appmsg)
+
+虚线框①中的电路为双电容变压器隔离电路；虚线框②中的电路为驱动辅助电路；虚线框③中的电路为电平移位电路；虚线框④中的电路为图腾柱电路。
+
+1)变压器隔离电路：因为控制信号电压较低，且带负载能力较弱，所以在电源输入端首先通过图腾柱电路将输入电压抬高至5 V。然后又因为驱动电路的输入信号来源与控制电路，而控制电路易受功率电路干扰，所以采用脉冲变压器将控制电路与功率电路隔离。
+
+2)驱动辅助电路：本设计中驱动辅助电路的功能是：①保证在无输入信号时输出的栅极信号始终为低电平，使被驱动的MOSFET 处在关断状态。如图3.2 所示，当无输入信号时，Q8 截止，V1 通过R2 为Q7 提供基极电流，Q7 导通，将Vg拉低，所以此时输出的栅极电压为低电平；②当有输入信号时，在输入为高电平时，Q8 为Q7 的基极提供放电回路，使其快速关断；当输入为低电平时，Q8 关断，由V1 辅助变压器隔离电路为Q7 提供基极电流，使Q7 快速导通；同时Q8 的基极与电平移位电路中的Q6的基极相连，控制 Q6的导通与关断。
+
+3)电平移位电路：该部分电路的主要功能是将接受到的控制信号幅值抬升至SiC MOSFET 的栅源驱动电压的水平。当输入为高电平时，变压器副边绕组L3 通过R5 为Q6 提供基极电流，Q6导通，那么Q1 的基极电压被拉低至0，Q1 基极电流迅速减小至0。Q1 关断，那么Q1 的发射极电压被拉低，这样会产生Q2 的基极电流的流通回路，Q2 的基极电流通过R3 和R7 流入地，Q2 导通。而此时因为Q8 的导通而为Q7 的发射结提供放电回路，Q7 截止，所以Vg为高（幅值接近V2）。
+
+当输入为低电平时，变压器副边绕组L3 上端对地电位为负电压，此时Q8 的发射结通过R5 放电，Q8 关闭，V1 通过R4 为Q7 提供基极电流，Q7 导通，将 Vg拉低至0。同时Q6 的发射结也通过R5 和副边绕组L3 放电，Q6 关断，那么V2 通过R1 为Q1 提供基极电流，Q1 导通，此时Q1 的发射极电压就等于V2，Q2 的发射结电压VBE 近似等于零。Q2 的基极电流为0，Q2 关断，为了防止V2 直接接地以及实现故障后的两步关断，在V2 与Q2 的发射极之间接一个电阻R35，那么此时就不会因为Vg 被拉低而Q2未及时关断而导致电源电压 V2 直通的现象，同时在发生故障的时候R35 与保护执行电路中的R19 相互配合进行电阻分压，产生两步关断中的中间电平Vmiddle。
+
+4)图腾柱电路：其作用是当Vg 为高的时候，将Q3、Q4、Q5 打开在导通瞬间为MOS管栅极提供驱动电路。可通过实际需求增加图腾柱电路的组数以达到相应的驱动能力。
+
+(2)电路工作过程
+
+当VIN 为高电平时，变压器原边上正下负，副边L2 上负下正，通过D1 给C2 充电；副边L3 上正下负，Q8 和Q6 导通，Q8 导通为Q7 提供低阻抗的放电回路；Q6 导通使得Q1 关断，Q2 导通；从而使得V2 通过Q2将Vg拉高。
+
+当VIN为低电平时，变压器原边上负下正，副边L2 上正下负，L2、C2 通过R4、C3 为Q7 提供基极电流，将Q7 导通；副边L3 上负下正，Q8 和Q6 截止，Q8 截止为Q7的导通创造条件；Q6 截止使得Q1 导通，Q2 截止；Vg被Q7 拉低。在Q7 导通时无电流流过Q7，这样可以去掉Q7 的集电极电阻，即不存在集电极电阻的发热问题，同时还降低了Q7 的功耗并提升Q7 的开关速度。之后Vg 经过图腾柱电路增强驱动能力之后提供给SiC MOSFET。
+
+3.1.2 实现高速驱动的理论分析
+
+本设计中主要关注的是Q2 和Q7 的开关性能以及功耗问题。Q7 快速关断，Q2 快速开通，这样 Vg 才会有很陡的上升沿；Q7 快速导通，Q2 快速关断，这样Vg 才会有很陡的下降沿。由Q1、Q6、Q8 组成的外围电路的主要功能是为Q2 和Q7 提供互补的驱动电流信号。那么如何提供较大的驱动电流以及如何为Q2 和Q7 提供快速放电回路是主驱动电路的设计关键。
+
+(1)Q7 实现高速开关分析
+
+Q7 要快速开通，那么必须有较大的驱动电流，Q7 的基极电流由V1,R2 提供。V1固定不变，只有减小 R2 才能增大Q7 的驱动电流，加快Q7 的开通过程。但是如果Q8没有及时的关断，将导致 Q7 的开通速度降低，也就造成Vg的下降时间增加。所以说Q8 的关断速度将决定Vg信号的下降时间。
+
+Q7 要快速关断，首先要求BJT 处于浅饱和状态，同样条件下基区存储电荷越少，电荷消散得越快；然后要有快速放电回路，要求放电回路中的等效电阻尽可能小。本设计中Q7 的基区电荷主要通过Q8 放电，Q8 导通后集电极发射极之间的等效电阻很小，可实现Q7 基区电荷的快速泄放；另外同时通过电阻R8 放电，该电路作为辅助放电回路。因为三极管截止时，基极\-发射极之间反偏电压越大，转向正偏时间越长。R8的作用是在 Q8 关断后对VL3 电阻分压，使得Q8 的基极与发射极之间承受的反偏电压小一些，使Q8 不过分截止。否则会拖慢Q8 的开启速度。所以Q8 的开启速度决定了Q7 的关断速度，也就决定Vg信号的上升时间。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEo93ib2YoI4IprUlKc0Oxs3AQAQMnWLcLibGp1ykXXpTMyAn7NicVXj5zow/640?wx_fmt=png&from=appmsg)
+
+图3.3 为Q7 关断时的基极电流和Q8 的集电极电压的波形。从波形图可知Q7 的反向驱散电流很大，近似60 mA，Q7 在基区放电的过程中依然处于导通状态，从波形图看出在此期间Vg保持低电平，幅值略有上升。当基区放电完成后Q7 迅速由饱和区过渡到截止区，Q7 的集电极电压Vg迅速抬升。
+
+(2)Q2 实现高速开关的分析
+
+Q2 要快速开通，Q1 必须快速关断，Q1 的关断速度取决于Q6 的开启速度。Q6 的正向驱动电流，应该遵循先大后小的原则。导通初期的大电流目的是让Q6 快速开启，当Q6 开启之后的稳定驱动电流应小一些，只需要保证Q6 处于浅饱和状态即可，这将有利于减小Q6 的关断时间。
+
+Q2 要快速关断，Q1 必须快速导通，使得Q1的发射极电位迅速抬升，将大电流快速灌入Q2 的基极，这样才能将Q2 快速关断。Q2 快速关断取决于Q6 的关断速度。Q6的反向驱散电流同样应该遵循先大后小的原则。关断初期的大电流目的是让 Q6 基区快速放电，当Q6 关断之后反向驱散电流应该小一些，使得BJT 不过分截止。有利于减小BJT 的下次开启的时间。
+
+因为Q2 所处位置使其有可能持续导通，所以接下来将对Q2 是否处于持续导通状态进行论证。当输入控制信号为高电平，Q6 导通，Q1 关闭，Q2 正常导通；当输入控制信号为低电平，Q6 截止，Q1 导通，Q1 的发射极电位VE(Q1)被钳位为V2\-VBE(Q1)，此时我们假设Q2 导通，那么Q2 的发射极电阻R35 和基极电阻R3 上必定流过电流，那么由KVL 法则可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoDeDClbQgwKNNqNcIxn6NZepyzRhiatJDiaujIf3P5X7wmvRwekrYLicDA/640?wx_fmt=png&from=appmsg)
+
+因VBE(Q1)≈VBE(Q2)且电阻 R1 两端的压降 VR1 很小（<0.1 V），近似可以忽略，所以有：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoJfAX5OnTEg8uzC5lxfia1HKwK7BcpyAoLJ7Mu5xAWt0zpRb9HNMqFUQ/640?wx_fmt=png&from=appmsg)
+
+显然上式不成立。说明假设错误，即在Q1 导通的时候Q2 时截止的。根据仿真结果，Q2 在关断的瞬间会有大电流从发射极流向集电极，但持续时间小于200 ns。之后处于截止状态。
+
+(3)主驱动电路中元件参数的选取
+
+综合Q2、Q7 实现高速开关的理论分析可得，Q7 的开关速度取决于 Q8 的开关速度，Q2 的开关速度取决于Q6 的开关速度。而Q6 和Q8 的开关速度由C3、R5、R6、VL3以及各自的集电极电阻 R1，R2 决定。
+
+对Q6、Q8 的正向驱动电流都是遵循先大后小的原则，同时其反向驱散电流也应该遵循先大后小的原则。可以利用电容C 上的电压不能突变的特性，近似实现。通过采用加速电容C3 加快Q6、Q8 的开关速度。相关参数的选取原则：①实现 Q6，Q8 高速开关；②使Q6，Q8 在开启后处于浅饱和状态；③关断后使其发射结反向偏压尽可能小；依据以上原则对电路进行定量分析。
+
+在Q8 和Q6 的驱动回路中，在VL3 的上升过程中，Q8 的基极电压来不及建立，同时C3 的电压不能突变，电流流向如下图3.4 所示。此时两管的正向驱动电流为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoKiaNabI1kribDibErGiajRibV9JQvy6x9Qvqbicv34HstuSZHS51jW9a7L6w/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEobaVgwO5tNtWyiaOEHKoI2YSSW6HwR8ys1UpwqtJ8OiawS4XJyjXQAadw/640?wx_fmt=png&from=appmsg)
+
+由(3-3)可知，Q6、Q8 导通初期的瞬间驱动电流取决于加速电容C3 的容值和副边电压的变化率。C3 越大，副边电压爬升率越陡，瞬间驱动电流越大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoT2R6wiblXAhhe1TbX3jqIibh6bjdu0Z5pD1YF6Jfqte18RhGOZ3nKPHg/640?wx_fmt=png&from=appmsg)
+
+当BJT 稳定导通后，电流流向如图3.5 所示，由KCL 可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoS8uhicN3rgNmU8PK4hmrQAwoxyjHEfrIk1AOsickGGTzUVjCichfuJXjQ/640?wx_fmt=png&from=appmsg)
+
+由 BJT 处于饱和状态的必要条件可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEozCNf8AtsQLG2iaKNKZHalTMeWN2ibrOgZnYoYjeic7cC8bYONIFxbTR1w/640?wx_fmt=png&from=appmsg)
+
+β6 为Q6 的共射极直流放大系数，β8 为Q8 的共射极直流放大系数，将式(3-4)与式(3-5)联立：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoLVV20JBdaDnrH22PShpF7cGog845IJvYoJKr2hJfRMRqncSvtpn8tw/640?wx_fmt=png&from=appmsg)
+
+在Q8 和Q6 的驱动回路中，在VL3 的下降过程中，Q8 的基极电压以及C3 的电压不能突变，电流流向如图3.6 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoHEYKQhjXEic1gpTV1YqM5hbk85xnuDxL2I0CcjKZiaUER589NH3USlYQ/640?wx_fmt=png&from=appmsg)
+
+此时两管的反向驱散电流为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoSEzNF3C3I3micKgG6xcicxN1xcI6FJRd7vrjFQlYfQEFVRSs9PFowt9A/640?wx_fmt=png&from=appmsg)
+
+因为VL3 随时间逐渐下降，所以反向驱散电流为负值。同样可通过调整电容C3 和电压变化率来改变反向驱散电流的大小。
+
+稳定关断后Q6、Q8 的基极电流趋于零。R6 两端电压就是加在发射结上的反偏电压。其幅值为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEo0PSiab1GSDyEYUoZnSSBtg9s9cX1Raq2QNLo7HqP4Ml3Xsy8hL5URvg/640?wx_fmt=png&from=appmsg)
+
+R6 的选取的原则为：因为要求使Q6，Q8 在开启后处于浅饱和状态；关断后使其发射结反向偏压尽可能小；综合式(3-6)与式(3-8)可知，R6 越小，式(3-6)左边值越小，即驱动电流越接近临界饱和电流。Q6，Q8 越趋于浅饱和状态。同时R6 越小，Q6、Q8关断后发射结反向偏压越小。所以在满足式(3-6)的前提下，R6 尽量选小一些。
+
+R5 的选取的原则为：当R5 越大，式(3-6)左边值越小，BJT 越趋于临界饱和状态。同时 R5 越大，Q6、Q8关断后发射结反向偏压越小。所以在满足式(3-6)的前提下，R5尽量选大一些。
+
+如果R5 和R6 都具有正温度系数，R6 的增大将导致BJT 的饱和深度增大，而R5的增大会导致 BJT 饱和深度的减小。所以此处的R5 的作用，不仅可以调节Q6、Q8 的驱动电流，而且会对因R6 的温漂导致BJT 饱和深度的增大做温度补偿。
+
+R1 的选取的原则为：需要考虑的因素有两个方面：①Q1 与Q6 的开关速度。R1减小，可加快 Q6 的关断速度，同时可为Q1 提供较大的基极电流加快Q1 的导通速度；
+
+② 功率损耗。因为R1 与V2 相接，当Q6 打开时，会有很大的电流流过R1，所以R1的取值不能太小，必须满足其高温下的降额功耗 Pderating1，即有:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoo0bNIibWGaxEzX0ovIurakickT0z623p5pSOicqo17iaa9icgvqicvOy1EoQ/640?wx_fmt=png&from=appmsg)
+
+将(3-2)、(3-3)、(3-7)联立，得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEofF4nBmAPa03BCyE34JKuELOia5xw7ftQ6UNcryfwerTZqxSw2icnibXrQ/640?wx_fmt=png&from=appmsg)
+
+温度升高，使β6 增大，VBE(Q8)减小，从而使R1 选值范围更大。
+
+R2 的选取的原则为：在Q8 的集电极未与Q7 的基极相接时，Q8 导通时流过的管子的电流为iR2，当Q8 的集电极与Q7 的基极连接后，Q8 导通时流过的管子的电流为iR2 和Q7 的发射结的放电电流。当R2 选值较小时，将导致Q7 基区积累过量电荷，关断时的放电时间增加，延缓了Q7 的关断过程，增大了Vg 上升时间。所以在保证V1通过 R2 为Q7 提供的基极电流大于临界饱和电流的前提下,由式(3-3)可得，R2 太大，Q8 临界饱和电流减小，增加了BJT 的饱和深度，减缓了Q8 的关断速度，即减缓了Q7的开通过程，进而影响 Vg的下降时间。同时也要考虑高温条件下的功耗降额的情况。综合上述情况 R2 的取值应折中选取；
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEo52icuH9atjRDATR7XvgTGtXib9ucMsmTAMrVYQu5942eemUtBqafohgQ/640?wx_fmt=png&from=appmsg)
+
+将式(3-4)、(3-5)、(3-11)联立，得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoeOh2sdibeCVO77QsAtDC6wXSlMic6wuH1Ug7ML3zH2Mq4vkYdZLyy4Ag/640?wx_fmt=png&from=appmsg)
+
+同样因为温度升高，使β8 增大，VBE(Q8)减小，从而使R2 选值范围更大。
+
+R7 的选取的原则为：首先考虑功耗问题。实际功耗不超过高温下的降额功耗，可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEokLrMMkqP2iac2NuhmXQurTP2dHaian1IDiaOibyOC9k9LT3oQYAJRp1SAw/640?wx_fmt=png&from=appmsg)
+
+同时R7 选值必须使Q1 处于开关状态，首先假定Q1 导通时发射极电流近似等于其集电极电流所以有：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoUj1HsCFU7x1DJCkElpU0p4BJbFRGWarLdicTorm9JbAUFZAIhIpmfLw/640?wx_fmt=png&from=appmsg)
+
+联立式(3-13)、(3-14)、(3-15)、(3-16)可得
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoPIuXPl3s5kEax2pianQy9nJdKrsniaicHfmagtCkiaTohvCE4jHy4MdZbg/640?wx_fmt=png&from=appmsg)
+
+当R1 选定之后，R7 的选值范围即可确定，且因为R7 太大会影响Q1 的开关速度，所以R7 的阻值尽量选小一些。
+
+R35 的选取的原则为：Q2 稳定导通时，SiC MOSFET 稳定导通，其栅极电流iG很小，近似等于零，所以需要Q2 为图腾柱提供的驱动电流很小，只有微安级。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEodYONeYCfhKPIcFyia2U01gib4FPdD3WrYc1G9KbuYZicibNeTtKp3KVraQ/640?wx_fmt=png&from=appmsg)
+
+如图3.7 所示Q2 的发射极电流IE(Q2)几乎全部流向基极。此时Q2 处于深饱和状态。由此可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEocpnvGaug9mHlBia3iatDPTPWaCNxaHOO5GP4qQ4pY5fdLSQ2Kgwx98Nw/640?wx_fmt=png&from=appmsg)
+
+对于Q2 的驱动回路，由KVL 可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEofM7TEZJH6OiboWictUkGp7xtF8Rcic12uictFUNqVIntabOOkYynCkadcw/640?wx_fmt=png&from=appmsg)
+
+此时的Vg 幅值为:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoQgUttfyAyzvsQabPBoMYUIFXrZStSEXYSwL5gZjUiaPNQRPCJD4Vupw/640?wx_fmt=png&from=appmsg)
+
+联立式(3-18)、(3-19)、(3-20)可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoiaRibdOJ93DmeyCHb0ia21YQzAmVj8H2pdU8BV9MvByuFmfTDnw05fPOA/640?wx_fmt=png&from=appmsg)
+
+由式(3-21)可知，R35 越小，在R35 上损失的电压降越小，Vg 越接近V2。当然在Q2、Q7 开关状态切换的过程中会有较大的电流流过R35，所以R35 不是越小越好，而应该是在满足高温下的降额功耗的前提下选小一些。因为在此之前R7 与R35都已选定，所以在R3 的选值越大，R35 上损失的电压降越小。所以R3 的选大一些但不能影响Q2 的开关状态。
+
+3.1.3 主驱动电路的温度特性
+
+根据第二章的分析可知,电阻的温漂很小，所以对电路的输出驱动信号的性能参数影响不大，对电路输出性能影响较大的主要是有源器件的温度特性。由上一节分析可知Q2 和Q7 的开关性能以及功耗问题是影响电路输出性能的关键。同时Q1、Q6、Q8 的开关性能将直接影响Q2、Q7 的开关性能。所以本小节主要从温度对BJT 的参数影响的角度来分析整个电路的温度特性。
+
+(1)温度对Q7 工作过程的影响
+
+温度升高Q7 的放电时间增加，Q7 集电极电压的上升延迟增大；下面将对温度升高导致Q7 的放电时间增加的原因进行分析。由第二章中图2.12 阈值电压随温度的变化曲线可知，温度升高，Q7 的发射结电压VBE下降，导致Q7 导通的时候基极电流增大，Q7 饱和深度增加，基区存储的电荷增多，导致放电时间增加；另一个原因是温度升高Q7 的阈值电压下降，导致BJT 要达到截止状态要泄放的电荷增多，同时放电电流减小，所以Q7 放电时间增加。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEol89KP8uCic0pThYiamhlN3yjZmSbEW3OkDBOkWeVibQ6ibPibaY4trn1x6A/640?wx_fmt=png&from=appmsg)
+
+接下来将通过电路仿真来验证以上分析。首先对主驱动电路进行温度仿真，温度设置为25 ℃/75 ℃/125 ℃/175 ℃/200 ℃，如图3.8 中的波形为不同温度下Q7 的正向驱动电流，由图可知，随着温度升高，正向驱动电流逐渐增大。从而验证了温度升高导致BJT 饱和深度增大的分析。图3.9 为不同温度下Q8 的集电极电流与基极电流波形，在电容C3 的作用下，Q8 快速导通，Q7通过Q8 放电产生数十微安的放电电流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEo0CL2UETsibJeDzOXqGicODlRIlhj7vU6NSDAZSvLmcmI5ibYZCNHpfb7g/640?wx_fmt=png&from=appmsg)
+
+要使BJT 截止发射结电压必须小于阈值电压，随着温度升高，Q7 的阈值电压下降，而处在开关状态下的BJT 其基极\-发射极等效电容的温度系数很小，令BJT 要处于截止状态所需要释放的电荷量为ΔQ，放电电流idischarge，那么Q7的放电时间Δt：
+
+因为温度升高，BJT 要进入截止状态所需要释放的电荷量ΔQ 增大，而随着温度的升高，放电电流idischarge 逐渐减小。由式(3-22)可知Δt 增加。由此可知Q7 放电时间的增加是由于BJT 阈值电压和放电电流随温度的升高而减小导致的。图3.10 为Q7(Q2N2222A)和Q2(Q2N2907A)电流放大系数的温度特性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoC8NzS6eWeTEyuWkNl2MP6vCz9ibb9zIowNTVYZF3ibRdWPnIwojcCibsw/640?wx_fmt=png&from=appmsg)
+
+根据BJT 开关应用的必要条件，当Q7 稳定导通时有：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoGwDyg0m1wNia9GC9tPOIzICKB3ZltwnjnO1tiajvA0ibibcZicqFkRy9TUg/640?wx_fmt=png&from=appmsg)
+
+由图3.10 可知，随着温度升高，β7 增大。同时BJT 的发射结电压VBE(Q7)减小，由式(3-23)可知温度升高加深了BJT 的饱和深度。为了补偿温度对BJT 饱和深度的影响，电阻R2 应具有正温度系数，R8 采用具有负温度系数的高温电阻。理由是温升R2阻值增大，R8 阻值减小，不等式(3-23)左边幅值将减小，以补偿β7 的增大和VBE(Q7)减小带来的影响。
+
+因为Q7 的饱和压降影响输出电压低电平的幅值，所以在此对Q7 的饱和压降的温度特性做出阐述。根据仿真结果温度升高，Q7的饱和压降VCE(SAT)略微增加，增大幅值小于2 mV，所以温度的升高对Vg信号的低电平影响不大。
+
+(2)温度升高对Q2 开关过程的影响
+
+由图3.11 左图为不同温度下Q2 及基极电流IB(Q2)的温度特性，Q2 在关断之前，基极电流IB(Q2)从基极流出，当Q1 打开时Q1 的发射极电压VE(Q1)迅速上升，从Q2 的基极电流逐渐减小。只要基极电流换向，即开始从Q2 的基极流入时，Q2 就开始逐渐关断，Vg开始下降。之后从Q2 基极灌入大电流加速Q2 的关断。随着温度的升高，Q2的基极电流的换向时刻逐渐后延。通过联立式(3-18)和(3-19)可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoocydDc2lKNFlZbwAUDQ0uhI9K6x6gceauhmkBia79eqIXCqPYfozLicA/640?wx_fmt=png&from=appmsg)
+
+温度升高，VBE(Q2)减小，IB(Q2)增大，BJT 的饱和深度增加，基区积累的电荷增多，增大了放电时间；另外因为VBE(Q2)减小，使得Q2 的基极电位抬升，致使Q1 的发射极电位VE(Q1)必须抬升至更高的电位才能使Q1的基极电流过零。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoLjVs84Xky2fRHhOYb9AoGe8Rfp9YiaCiaJomiagWLydNVeOcn9svlIWxQ/640?wx_fmt=png&from=appmsg)
+
+由Q2 做为开关应用的必要条件可知：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEomibTjleFL3icJZCyoBfY4J2iayiayZGVQoxE8pZurnkw3XZtuZBCZFRQyA/640?wx_fmt=png&from=appmsg)
+
+由图3.10 可知Q2 的电流放大系数β2 同样随温度升高而增大。温度升高，导致Q2的发射结电压 VBE(Q2)下降，且Q2 在导通后IC(Q2)很小，综合这些因素由式(3-24)可知Q2 导通时基极电流远远大于饱和临界电流，Q2 将处于深度饱和状态。此时R3、R7、R35 可采用具有适当的正温度系数的电阻用以补偿温升导致的Q2 的饱和深度的增加。因为随着温度升高，VR35 增大，Vg幅值会减小，R35 应采用温度系数较小的电阻，而R3 和R7 可采用正温度系数较大的电阻。
+
+3.2 驱动保护电路的设计
+
+驱动保护电路包括欠压检测电路，过流检测电路，保护执行电路。其中欠压检测电路和过流检测电路检测到欠压与过流两种故障信号。将故障信号传送至保护执行电路是接收检测到的故障信号并作出响应。然后作用于主驱动电路,从而防止功率管损坏。以下降对电流的结构和功能进行详细介绍。
+
+3.2.1 欠压检测电路设计
+
+(1)欠压检测电路的功能介绍
+
+欠压检测的目的是防止V1 和V2 发生欠压。V1 为保护执行电路供电，同时驱动辅助电路的电源以及承担为SiC MOSFET 提供负的关断电压。当V1发生欠压时，保护执行电路无法工作，当检测电路产生故障信号时V1 无法为Q19 提供足够的基极电流，而导致SiC MOSFET 在发生故障的情况下依旧导通。同时因为V1 的欠压将会导致被驱动的SiC MOSFET 在关断承受的负压减小，增大了误导通的概率。所以必须要对V1 电压进行欠压检测；如果V2 发生欠压，将会导致输出的驱动电压的高电平幅值降低，这将导致SiC MOSFET 无法完全导通，此时MOS 管的导通电阻增大，而导通电流变化不大，这将导致SiC MOSFET 功耗增大，发热严重，甚至烧毁。为了能够可靠地驱动SiC MOSFET，使其正常工作，必须要对V2 进行欠压检测。
+
+电路由稳压管D3、D10，双极结型晶体管Q21、Q15,二极管D4、D12 以及电阻R16、R11、R25、R21、R32、R29 组成。由D10、R25、R32、Q21、R16、D12 构成检测V1 是否欠压的检测电路；由D3、R21、R29、Q15、R11、D4 构成检测V2 是否欠压的检测电路。
+
+下面结合图3.12 对欠压检测电路的工作过程作详细介绍：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoMPoic0HUNs4mPTIicQW5GJojZ0uEflZy5Oes3D3gXzxnlh2RGqgBh2rA/640?wx_fmt=png&from=appmsg)
+
+电路正常工作时V1 大于D10 的稳压值时，D10 导通，Q21 基极有电流注入，所以Q21 导通，Q21 的集电极电压被拉低，Fault1 不会被拉高；当V1 低于D10 的稳压值时，D10 截止，Q21 基极无电流注入，所以Q21 截止，V2 通过R16 和D12 使得 Fault1 抬升有效，产生欠压信号。检测V2 是否欠压的工作过程与检测 V1 相似。电路正常工作时V2大于 D3 的稳压值时，D3 导通，Q15 基极有电流注入，所以Q15 导通，Q15 的集电极电压被拉低，Fault1 不会被拉高；当V2 低于D3 的稳压值时，D3 截止，Q15 基极无电流注入，所以Q15 截止，V2 通过R11 和D4 使得Fault1 抬升有效，产生压信号。
+
+V2 的欠压检测原理V1的欠压检测过程相同，此处不再赘述。
+
+(2)欠压检测电路的温度特性
+
+如图3.13 所示位于上方的曲线为VA1 随温度变化的曲线，下方的曲线为VB1 随温度变化的曲线。由图可知，随着温度的升高，VA1 与VB1 均近似呈下降趋势。这是因为温度升高，D10 的稳压值增大，所以VA1 呈下降趋势。VB1 为Q21 的发射结电压,具有负温度系数，所以 VB1 也呈下降趋势。由图可得两条线的差值随着温度的升高逐渐增加，即R25 两端的电压逐渐增加，也就是说Q21 的基极电流随温度的升高逐渐增大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoQFQuibTTfNHsarekNymp7aIPNqIiav0rmovXiaeOTuqxXSqAMNnSOJ6Tw/640?wx_fmt=png&from=appmsg)
+
+在电路正常工作的情况下，环境温度越高，Q21 饱和深度越大，导通得越充分，欠压检测电路越不可能误动作。当驱动电路发生欠压故障时，必须将Q21 关断才能产生报错信号。温度升高，稳压管的稳压值增大，使得电路相较于常温时提前开始 BJT的关断过程。但是因为温升导致 BJT 饱和程度的增大，从而导致BJT 关断速度减慢。即使BJT 相对常温下提前开始关断，但是饱和深度的增大对BJT 关断过程的影响更大，致使欠压故障信号产生的及时性因温度的升高而变差。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoEibRFhClVx9Jsb1pPWZwpln9IxXqbXS5nLceVwZLEPFicKYPbwMcFYIw/640?wx_fmt=png&from=appmsg)
+
+对图3.14 所示电路进行PSPICE 仿真,电路中所用稳压管为1N4337B，其稳压值为4.7 V。如图3.4 所示，当自定义信号电压VSIM 小于4.7 V 时，经过一段延时产生欠压信号，随着温度的升高，产生故障信号的时刻逐渐后延。按分析可知温度越高，稳压值越高，越早产生故障信号。但是由图可知，实际情况并非如此。原因是虽然温度越高，BJT 的基极电流开始减小的时刻越早，但是在该温度下的基极电流很大，导致放电时间的增加量大于开始放电的时刻的提前量。从图3.14 中可以看出稳压值的增大对故障信号产生的及时性影响很小，检测电路的灵敏度主要由BJT 的关断速度决定。
+
+3.2.2 过流检测电路设计
+
+(1)过流检测电路功能介绍
+
+该电路由稳压管D17，PNP 型双极结型晶体管Q18,二极管D5、D15、D19,电阻R12、R20、R27 以及电容C7组成。因为当SiC MOSFET 发生过流时，因为在充分导通的情况下导通电阻略微减小，几乎不变。所以其导通压降会随之增加。而在本设计中SiC MOSFET 的源极恒定不变，所以通过检测导通状态下的SiC MOSFET 的漏极电压来判断漏极电流是否过流。下面结合图3.15 对过流检测电路的工作过程作详细描述。
+
+当Vg为低电平(0 V)时，Fault2 被钳制为零电位。这是因为在 MOSFET 关断期间，漏极电压VD很高，D5将截止，Q18 打开，会给 C7 充电，设置 D15 的目的就是在此期间将C7两端电压钳制为0.7 V左右，防止Fault2在此期间被拉高。也就是说在MOSFET关断的时候过流检测电路无效。
+
+当Vg为高电平时，D15截止，二极管D15 失去了对Fault2 的钳制作用。也就是说当MOSFET导通的时候才有可能时Fault2有效。此时如果在此期间不发生过流故障，D5的阳极电位被漏极电压钳位，无法使D17 开通，那么Q18 基极电流没有导通路径，Q18 处于截止状态；也就不会对C7 充电，Fault2 无效；如果此时发生过流故障，VD增加，当VD高于参考电压值时D17 导通，Q18 的基极电流的通过稳压管D17 流向地，Q18导通，通过电阻 R27 为C7 充电，当VC7 抬升至1.4 V 时，Fault2 抬升至0.7 V，并被保护逻辑电路中的锁存电路锁定。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsntcftV77fZgWTu6KhyJdEoLrGuqPTzlgqpibVwKLwIicXVfpTAiawb6ibhOdDFkfDricbx9FAX7eGjyPw/640?wx_fmt=png&from=appmsg)
+
+故障延时的设置为了防止因为功率电路中的电流毛刺导致过流检测电路被误触发，在该电路中设置了故障延时电路，核心元件就是电容C7 和电阻R27。当检测到漏极过压信号后先进行判断该信号是否为故障信号，然后再进一步动作。一般情况下，电流毛刺持续时间为纳秒级，而SiC MOSFET 耐受过流的时间不超过5 μs。所以可以通过设置C7 由0 V 充到1.4 V 的充电时间Tcharge 来判断SiC MOSFET 到底是否发生过流故障。当漏极过压信号持续时间超过Tcharge，Fault2 就有效并被锁定。当漏极过压信号持续时间小于Tcharge，就认为漏极过压信号仅为电流毛刺引起的，不予考虑。
+
+假设在充电过程中虽然Q18 的集电极电流iC发生变化，但是Q18 始终处于饱和状态。那么我们就可以通过Tcharge来确定C7 和R27 的值。具体计算过程如下：因为在整个充电过程中Q18 始终处于饱和状态，所以BJT 的集电极—发射极之间的电压近似不变，始终等于饱和导通压降。那么二极管D19的阳极电压为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLELBtdcta88BbbojbGet2VmpFJdg8ESxYWuJjaBNIW3LPmh2ibNFyC9w/640?wx_fmt=png&from=appmsg)
+
+那么时间常数τ:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLoTKYbUjbWG7GsibldzpcJE5ibURslbg2FSlV9iaTSNMg5KYVQMiaib0VwSQ/640?wx_fmt=png&from=appmsg)
+
+发生过流故障后C 点电位被钳位,该点电位等于Q18 的发射结电压与稳压管D17
+
+的稳压值之和。即
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLvUuIdeG0KOV4JrMU2UK6JOCH0glY0MrqWKIsz1NkCOTWHjrXibDOHbA/640?wx_fmt=png&from=appmsg)
+
+当t\=Tcharge 时，VA\=1.4 V。将(Tcharge，1.4)和式(3-28)代入式(3-27)中可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLgyy2xWCmnZb99R4X2nR5yTe8Q5ZUnYLJRGA4zvrib9he03B5sSrQcWA/640?wx_fmt=png&from=appmsg)
+
+由式(3-29)可以得到R27 与C7 的乘积。以上公式成立的基础是充电过程中Q18 始终处于饱和状态。因为在充电过程中Q18 的集电极电流iC 并非恒定不变，而iC 的变化会影响Q18 的工作状态，那么接下来将讨论充电过程中Q18 始终处于饱和状态所需要的条件。只有当Q18一直处于饱和状态时RC 延时电路的充电电压可基本保持在恒定。以上各式才能成立。
+
+要想使得在充电过程中Q18 始终处于饱和状态，必须满足
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxL4L37XcBeibykb4CeSOPFbZLKDOKUNNMGps5NOicu8mH7Mf4mqRBFJr2g/640?wx_fmt=png&from=appmsg)
+
+而C7 的充电电流iC 为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxL4aSG0rL1NfVTuHuX65O7eL5ia92dyKr9icCGNOTH1bUxxMd2CVRYcExw/640?wx_fmt=png&from=appmsg)
+
+由式(3-6)可知t\=0 时,
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLgDvUInD49ZdIRv8m4Z1rLq1l8IICaxNW1QhbRibvQVzoiarIKib4V3vJg/640?wx_fmt=png&from=appmsg)
+
+随着时间的增加，充电电流逐渐减小。由式(3-30)可知只要保证iC（0）小于 Q18 基极电流的β倍的话，那么 BJT 将在整个放电过程中处于饱和状态。即有：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLcwTALh4ps7EPq0qvicBrNsqGeqGDBeIH2G0o74iayTkjZ1kibyDEm6ODg/640?wx_fmt=png&from=appmsg)
+
+双极结型晶体管 Q18 的基极电流为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxL2SEm0tOP2zr9yZ0zWLlyrVYlWReicqkjcJMWVLFUP1fibjZyTa951CjA/640?wx_fmt=png&from=appmsg)
+
+iZ 为流过稳压管的电流、iR20 为流过R20 的电流、VZ 为D17 两端电压、VZ0 为过Q点(测试工作点)的切线与横轴的交点。RZ为稳压管的动态阻抗。
+
+将式(3-34)代入(3-33)可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLPcHCZELyiaKFACibpvQQnrSovEOAM5tsvibkE4oCaLu92tkz3uh4PtJLg/640?wx_fmt=png&from=appmsg)
+
+由上式可知R20 越大，R27 可选的最小阻值越小。同时共射极直流电流放大系数将随温度的升高而增大。所以当R27 阻值选定之后，在高温下越容易满足式(3-35)所述条件。综上可得在选取 R27和C7的参数值时，首先要使两者的乘积满足式(3-34)，然后在选择R27 的容值时，尽量选大一些。
+
+表3.1 列出了1N5343B 的具体参数，由此可计算得VZ0 为7.24 V,由 Q2N2222A的数据表可知，在 IC 为150 mA 的情况下，VCE(SAT)为0.3 V，VEB(SAT)为1.2 V，此时的β 值为100。将这些数据代入式(3-35)，可计算出R27 的最小值为0.48 Ω。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLa8bJCZzmE95Sfs7PAOH9umgE27ZSVFIIYGfP5MR4mcNzurqenfcLaA/640?wx_fmt=png&from=appmsg)
+
+将数据代入(3-29)可得
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLlvLkgaxUH9OTGiaO5tC5F6qo4JAPBx0AlY0oibyyLQ8owhdpricibJgFLA/640?wx_fmt=png&from=appmsg)
+
+当Tcharge 与R27 选定之后，由(3-36)可计算出C7 的值。
+
+(2)过流检测电路的温度特性
+
+该电路是将稳压管的稳压值作为参考电压与SiC MOSFET 的漏极电压作比较，稳压管的稳压值依赖于SiC MOSFET 允许的最大导通压降。例如对于SCH2080KE 来说，在25 ℃下所允许的最大持续导通电流为35 A,导通电阻RDS(ON)为80 mΩ,那么导通电压VDS(ON)为2.8 V,因为在该电路中SiC MOSFET 的源极电位VS 恒为4.7 V，所以只要漏极电压VD大于7.5 V(VDS(ON)+VS)，所以稳压管的稳压值应根据SiC MOSFET导通压降与源极电压之和来选取。
+
+因为源极电压 VS 为常量，所以稳压管的稳压值主要由VDS(ON)决定。那么研究VDS(ON)随温度的变化规律变得尤为关键。在不同漏极电流的条件下对SiC MOSFET 的导通压降VDS(ON)的温度特性进行仿真，实验电路中使SiC MOSFET 始终处于导通状态，通过改变漏极电阻来改变漏极电流得到如图如图3.6 所示的仿真波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLrI08fVTzGgGMlWY9d3kjVBsBHmD0mcpSIkeibAtKQCxjI6lk4o5kUGg/640?wx_fmt=png&from=appmsg)
+
+由图3.16 可知不同漏极电流下，随着温度的升高，SiC MOSFET 的导通压降VDS(ON)逐渐增大。随着漏极电流的减小，VDS(ON)的温度特性曲线逐渐变硬。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLwg8gZCVFsic0F2z6y8V4icSmEWibtaviaVfHFibtDWxMt4p9woCTGPKrA4Q/640?wx_fmt=png&from=appmsg)
+
+因为该电路一般应用于150~200 ℃的高温场合，对图3.16 所示的仿真结果进行整理，提取数据，得到温度在150~200 ℃范围内变化时不同漏极电流下SiC MOSFET的导通压降 VDS(ON)的变化幅度，如表3.3 所示。由表可知，当电流为35 A 时VDS(ON)变化幅度是电流为 15 A 时的4 倍多。随着温度的升高VDS(ON)的变化幅度逐渐减小。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLhcDkbuTicic17Ou7H1rYSaOic7gMYESdlVGzfniaIxQqQoFbvxoiaSL5oOw/640?wx_fmt=png&from=appmsg)
+
+在具体的应用环境下，其环境温度的变化范围可能会更小。这样的话，VDS(ON)变化幅度将更小。这将非常有利于稳压管D17 的稳压值的选取。VDS(ON)变化幅度受不同的漏极电流和不同的温度变化范围的影响。
+
+该过流检测电路中选用1N5343B 来设置参考电压。由图3.17 所示1N5343B 的稳压值具有负温度系数，导致漏极电位只需爬升至一个更低的电位水平就能触发过流检测电路动作。理论上温度升高会增加过流检测被误触发的风险。从图中可以看出，当温度从0 摄氏度上升至200 摄氏度时，稳压值减小17 mV；当温度在150~200 ℃变化时，稳压值变化幅值仅为4.1 mV，由此可得虽然温度会对稳压管的稳压值产生影响，但影响程度微乎其微。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLMNVv7UJONibQuG53ABNvPkAibsj5gIjeOjOJxChibRhHUJcZibPUvibMFicw/640?wx_fmt=png&from=appmsg)
+
+3.2.3 保护执行电路设计
+
+(1)保护执行电路功能介绍
+
+1)电路结构介绍
+
+下面结合图3.18 对保护执行电路的工作过程作详细描述。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLDmkNsl5zyGx6F1ZXUywhbpYrKib55OrELJnib9NWYDkmnMR8IkQTdz5A/640?wx_fmt=png&from=appmsg)
+
+保护执行电路主要分为四部分。
+
+由C5、R33、R26、Q16、Q22 构成的故障信号初始化电路。这部分电路的功能为在驱动电路上电瞬间对Fault1、Fault2 清零，防止因为偶然因素导致电路产生故障信号将Vg信号拉低。
+
+由Q14、Q17、R10、R13、R18、R14、C6 构成 Fault2 锁存电路。该部分电路的功能是将 Fault2 信号锁存,使Fault2 一直有效。直至电路断电重启才将Fault2 清除。因为Fault2 拉高之后存在锁不住的风险，所以通过R14,C6 构成的电路来防止过流故障锁存失败的发生。
+
+由D6、D7、R30、Q19、R19 构成故障信号执行电路。该电路的功能是无论发生欠压故障还是过流故障，都会将Q19 开通，拉低Vg 至V1,之后主驱动电路中Q7 导通，将Vg拉低至0，实现了两步关断。
+
+由R15、R31、R36、R28、Q13、Q20、Q23 构成Vg 信号防跳变电路。用于在发生故障MOSFET 两步关断之后用于防止VGS 发生跳变。
+
+2)电路工作过程
+
+故障信号初始化电路：
+
+在给V1 上电的瞬间，C5 电压无法突变，此时V1 电压全部加在R33 两端，通过R26为 Q16、Q22 提供基极电流，Q16、Q22 打开，将Fault1，Fault2 清零。之后C5 电压逐渐增加，直至V1 全部加在C5 两端，Q16、Q22 基极电流逐渐减小，直至其基极电流不足以维持其导通之后，Q16、Q22 关断。之后该部分电路进入静默状态，不消耗能量，此时的电容C5 作为稳压电容对V1 起到稳压作用。
+
+由Q2N2222A 的数据表可知，在集电极电流IC 为150 mA，基极电流IB 为15 mA的情况下，BJT 的饱和压降VCE(SAT)的最大值为0.3 V，且随着IB 的增大，饱和压降VCE(SAT)会比0.3 V 更小。在该电路中在给V1 通电的瞬间，应该通过适当的参数设置使BJT 的基极电流大于15 毫安的一个电流值，这样对故障信号的初始化效果会更好。因为流过R26 的电流要为两个BJT 提供基极电流，所以有
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLWxJrsNZxdxOOYib0qqrIdLnsWFTDHMBOBTeTmXNR9ckJ5J7vNyPO0pA/640?wx_fmt=png&from=appmsg)
+
+将数据代入(3-37)可得:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLgicZeppEYzvthbH7CeHS8cWX44oB9Gib4ricWfWnjT9QnPaaH80dNogLQ/640?wx_fmt=png&from=appmsg)
+
+由式(3-38)可知当R26小于143 Ω 时，在V1 上电瞬间可为Q16，Q22 提供充足的基极电流，使其充分导通。
+
+Fault2 锁存电路：
+
+在功率主电路正常工作时，不会产生过流故障信号，此时的Fault2 幅值为低电平。当因为某种原因使得SiC MOSFET 的漏极电流过流，此时过流故障被过流检测电路检测到之后，过流故障信号Fault2 跳高（有效）。此时V2 通过R12、Q18、R27、D19 为 Q14 提供基极电流，Q14 打开，此时Q17也打开，V1 通过 Q17、D6、R17 为Q19 提供基极电流。同时V1 通过Q17、R18 持续为Q14 提供基极电流，使得Q14 持续导通，Q14 的持续导通使得Q17 无基极电流，始终保持关断状态。于此同时V1 通过Q17、R14为 C6 充电。当过流故障锁存失败时，在很短时间内将导致Q14 和Q17 关断，此时C6将通过 R14、R18 为Q14提供基极电流，使其快速导通，恢复故障时的锁存状态（Q14、Q17 均开启）。
+
+该电路存在的优点是在驱动电路正常工作时，该部分电路的所有元件都没有电流流过，处于静默待机状态，更电路功耗更小。同时在电路中设置了R14,C6 构成的充电电路，用在发生故障后用于保障过流故障的可靠锁定。提高了电路的可靠性。
+
+故障信号执行电路：
+
+在发生欠压故障或者过流故障时，该部分电路负责将Vg 信号幅值拉低。当发生以上所述任何一种故障时，Q19 将获得基极电流，Q19 被打开，电阻R19 与主驱动电路中的电阻 R35 配合进行电阻分压，首先将Vg拉低至一个中间电平:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLodHrVMNytrxhibjjQgt01A8sr0ibjQUrWmeppQmnhdHThFq4nXWwHscg/640?wx_fmt=png&from=appmsg)
+
+然后随着主电路中的双极晶体管Q17 打开，Vg 被拉低至零，从而实现两步关断。两步关断的目的是减小SiC MOSFET 的电流变化率，进而减小因寄生电感导致的漏源之间的电压尖峰。
+
+Vg信号防跳变电路：
+
+发生故障后，Vg 首先进行两步关断，当两步关断完成之后，由于此时输入控制信号VIN 仍然持续输入主驱动电路，所以主驱动电路中的双极晶体管Q7 不能持续地保持导通状态，而是以一定频率在导通与关断这两种状态之间不断交替，这将使Vg 信号在0 V 和5 V 两种电平之间不断交替，从而使得输出的栅源电压在\-5 V 和0 V 之间交替变化。无法在SiC MOSFET 关断期间使其栅源之间持续承受负压。而设计该部分电路的目的就是使得SiC MOSFET 关断期间使其栅源之间持续承受负压。也就是说首先要保证MOSFET 完成两步关断，在Vg 处在中间电平期间不能将Vg 拉低；然后在完成两步关断之后，即使控制信号VIN 持续输入主驱动电路，主驱动电路中的双极晶体管Q7 也能保证持续导通。
+
+该部分电路具体工作过程如下：
+
+当发生故障后Q19 导通，首先将Vg信号拉低至5 V，同时Q20 也导通，那么Q20的集电极电压由 5 V 降低至VCE(SAT)，Q23 发射结累积的电荷通过Q20，R28 消散，随之Q23 关断。VZERO有了被拉高的可能。因为此时的Vg处于中间电平(5 V),所以Q13 的发射极\-基极之间的电压为零，Q13 无法导通，VZERO等待被拉高。
+
+当Vg从5 V 跳变至0 V 时，产生了Q13 基极电流的流通路径，Q13导通，V1 通过R31 为主驱动电路中的Q12 提供基极电流，Q12 导通，使得Q8 始终处在关断状态，由V1 通过R4 持续为 Q7 提供基极电流，使得Q7 始终处在导通状态，Vg 电位始终为0，从而防止Vg电位在0 V 和5 V 之间跳变。同时驱动电路提供的栅源电压一直被锁定为\-5 V。保证在发生故障后SiC MOSFET 能够可靠关断。
+
+(2)保护执行电路的温度特性
+
+1)温度对初始化电路的影响
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLHxVD66nDJRFnGBIgMYYvKUjd3hbQyekqSQtl4W3HClprvEv9hKDpjA/640?wx_fmt=png&from=appmsg)
+
+图3.19 所示波形为不同温度下不同温度下双极结型晶体管Q16 基极电流的变化曲线的仿真波形。仿真条件如下：电容C5 取值10 μF、电阻R33 为1 kΩ、电阻R26 取值100 Ω，电源电压V1 为5 V。从图中可以看出，常温下，在V1 上电瞬间Q16 的基极电流迅速爬升值21.5 mA 左右，与理论计算值相符。然后该基极电流逐渐下降，下降速度取决于C5 与R33的乘积。
+
+随着温度的升高，电阻R26 的阻值增大，BJT 的发射结电压VBE 下降，因为电阻的正温度系数很小，且VBE 下降比较明显，所以最终导致BJT 的基极电流增大。从图中可以看出温度越高，基极电流越大。同样可以看到25 ℃对应得电流曲线与200 ℃的电流曲线近乎重合，就是说温度对基极电流影响不大，但温度的升高将有利于电路更可靠地实现初始化功能。
+
+2)温度对锁存电路和故障信号执行电路的影响
+
+采用PSPICE 对该部分电路做温度仿真。自定义过流信号Fault2，幅值为0.7 V，然后检测Q19 的基极电流；以下将对电路的温度特性做出阐述。
+
+随着温度的升高，Q14的饱和压降VCE(SAT)降低（降低幅度不大），这将有利于Q14的开启，使其开启速度更快。使得 Q14 的集电极电位下降地更快，因为Q17 的发射结电压也具有负温度系数，所以在两方面的作用下，Q17 导通速度加快。
+
+Q17 的饱和压降 VCE(SAT)略微降低，近似不变。二极管D6 的导通压降减小幅度较大，大约在0.3 V 左右，这将导致D6 的阴极电位因温度升高而抬升，而双极结型晶体管的发射结电压随着温度升高而下降，从而导致基极电阻两端压降进一步增大，进而Q19 的基极电流将随着温度的升高而增大，Q19 的导通时间随着温度的升高逐渐减小。从图3.20 可以看出随着温度的升高，Q19 的基极电流逐渐增大，增加幅度接近3 mA，同时随之温度的升高基极电流的变化率增大，加快了Q19 的开启过程。随着温度的升高从Fault2 开始有效的时刻开始到Q19 完全开启的延迟时间逐渐减小。也就是说较高的环境温度将有利于Q19 的开启，使电路在处理过流故障的时候延时更小。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLnEo4N8dAUqP62D0nOK0s5wTiakUYX2wvQI645ppZHHp6VfzCjKsaI5A/640?wx_fmt=png&from=appmsg)
+
+3)温度对Vg信号防跳变电路的影响
+
+在无故障状态下，Q20的阈值电压会下降，导致其更容易导通，锁存电路中Q14 也存在相同的问题。所以在必须要求Fault2 的低电平必须是平滑稳定的电压信号。且要必须小于BJT 的阈值电压。同时温度升高使Q23 的饱和深度增大，这将有利于Q23 集电极电位的清除。主电路中的Q12 越不可能导通。符合电路设计要求。
+
+在故障产生后，Vg 首先被拉低至中间电平Vmiddle，在此期间Q20 导通，Q23 的基极存储电荷通过R28 放电，因为在无故障时，因为高温的作用使得Q23 的基极积累了更多的电荷，且电阻R28 的会增加，综合这些因素 Q23 的关断速度相较于常温环境更慢。但Q23 关断速度的快慢，对故障后的两步关断动作基本没有影响，因为Q23 总是先于Q13 导通。即使因为某种原因Q13 先导通，因为有R31 的存在，也不会导通电源电压V1 直通接地。
+
+因为该部分电路中的主要作用是防止故障发生后Vg 信号发生跳变，温度对该部分电路的影响主要集中在Q13和Q23 的导通速度上。而在Vg信号完成两步关断之后，有数微秒的时间提供给该部分电路做出响应，以工作频率为200 kHz 为例，Vg信号完成两步关断之后，因为此时主电路中的Q7 导通，所以即使Vzero 没有被拉高，Vg信号在Q7 的作用下也可持续2.5 μs 的低电平时间，这段时间足够Q23 的关断和Q13 的开启。所以温度对该部分电路功能影响可以不予考虑。
+
+3.3 电路功能仿真
+
+经过对驱动电路系统的各部分电路的拓扑设计之后，本节将采用在PSPICE 仿真软件来搭建主驱动电路和驱动保护电路，并对电路功能进行仿真验证。通过仿真验证来发现问题，优化电路结构和元件参数。
+
+3.3.1 主驱动电路仿真验证
+
+在保持其他参数不变的情况下，设置不同的温度25 ℃/75 ℃/125 ℃/175 ℃/200 ℃，对主驱动电路进行仿真验证。功率部分采用双脉冲测试电路结构。具体的仿真条件如下：栅极开通电阻RON为2 Ω，关断电阻ROFF 为2 Ω，输入信号为方波，高电平5 V、低电平为0 V、占空比50%、频率500 kHz。以SCH2080KE 作为被驱动功率管。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLDc9GLQv3BBzn2YxnMMfyCfqdZtkyT5BBM4ric2vWgcpR7HEiaauC1Ynw/640?wx_fmt=png&from=appmsg)
+
+用于评估驱动电路输出电压的电气性能，有必要对输出波形的具体参数定义做出阐述：输出电压从10%VGS 上升至90%VGS 所需要的时间为上升时间Tr；输出电压从90%VGS 下降至10%VGS 所需要的时间为下降时间Tf；输入电压信号上升至50%到输出电压上升至50%所需的时间为上升沿延迟Tdr；输入电压信号下降至幅值的50%至输出电压下降至幅值的50%所需的时间为下降沿延迟Tdf。开通时间TON 为栅极电压从低电平上升至驱动电压所持续的时间。关断时间TOFF 为栅极电压开始下降至器件完全关断所持续的时间。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLC9AGoxIbBnZHMS276CP5oax4Z2NKIWEf4V6FqMOl65YRVgPmthTc3A/640?wx_fmt=png&from=appmsg)
+
+图3.21 为不同温度下对于的输出电压的上升沿与下降沿波形。根据输出电压的仿真波形对其性能参数进行总结，得到如图3.22 和图3.23 所示的输出电压性能参数随温度的变化曲线：
+
+图3.22 为不同温度下VGS 上升时间和下降时间的温度特性曲线。随着温度的升高，上升时间小范围波动，几乎没有变化。下降时间略微减小。但是开通延时逐渐增加；图3.23 为上升沿延迟和下降沿延迟随温度的变化曲线。随着温度的升高，上升沿延迟和下降沿延迟均增大。温度从25 ℃升高至200 ℃的过程中，上升沿延迟由27.54 ns 增加至74.67 ns。关断延时增加从25 ℃升高至200 ℃的过程中，下降沿延迟由34.43 ns 增加至84.01 ns。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLF3faicAfPR0iaubpF2ThplqFZuTJZFgiaF3BpMKHGjbmTPAvLS0Zrd5Ng/640?wx_fmt=png&from=appmsg)
+
+图3.24 为导通时间TON 和关断时间TOFF 随温度的变化曲线。随着温度的升高，导通时间逐渐减小，关断时间逐渐增大。温度从25 ℃升高至200 ℃的过程中，导通时间由39.31 ns 减小至34.17 ns。关断时间由146.81 ns 增加至155.42 ns。
+
+SiC MOSFET 开通时间TON 主要包括漏极电流上升时间和漏源电压的下降时间。驱动电路提供的瞬态驱动电流决定ID 的上升时间，VDS 下降时间取决于MOSFET 的沟道电阻和寄生电容。由于SiC MOSFET 的寄生电容较小，VDS 下降时间很短，开通时间TON 主要取决于ID 上升时间。在ID 的上升期间，MOSFET 处于线性区，SiC MOSFET 的跨导随着温度升高而增大，漏极电流不变的前提下对应的米勒平台电压Vmiller 降低，那么从VTH 爬升至Vmiller 所需的时间更短，而这段时间对应ID 的上升时间，从而开通时间随温度升高而缩短。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLjEVa1zRiavbYM4Uq8e43evGqSzHARHd8nvrOIibYQcyj0QZXibLsSl6Qg/640?wx_fmt=png&from=appmsg)
+
+由图2.2 所示，应为关断过程的第四阶段时间很短，所以SiC MOSFET 的关断时间TOFF 主要由前三个阶段所持续的时间决定。因为温度升高米勒电压幅值降低，那么栅源电压从峰值到Vmllier 的下降时间增加，同时由式(3-40)可知，温度升高SiC MOSFET 的跨导gm增大，所以随温度升高关断过程的第一阶段时间Δt10 增加。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLk7FYMHqUMXiciaMs6ceKLdicxWbic0CeaxMhNQWj6GIlGGEic7E2S6ZzNww/640?wx_fmt=png&from=appmsg)
+
+通过对关断过程进行定量分析可知，米勒平台持续时间Δt21 和漏极电流下降时间Δt32 分别可由式(3-41)(3-42)表示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLpscpIKux7gMLDcJ5qF7xAkNd2jguIadFESmcl6picXr0Kv1bGVpZuxw/640?wx_fmt=png&from=appmsg)
+
+由式(3-41)和(3-42)可知随着温度升高，SiC MOSFET 的跨导gm 增大，米勒平台持续时间Δt21 和漏极电流下降时间Δt32 均减小。但是由于在(t0\-t1)阶段漏源电压较低，CGD 较大，对应的米勒电容放电电荷增加量较大，而在(t1\-t2)和(t2\-t3)阶段漏源电压较高，尤其是(t2\-t3)阶段，漏源电压等于功率电路母线电压（较高），所以CGD较小，对应的米勒电容放电电荷减少量较小。因此在(t0\-t1)阶段持续时间的增加量要大于(t1\-t2)和(t2\-t3)阶段持续时间的减小量，所以总的效果是关断时间随温度升高而增加。
+
+3.3.2 欠压检测电路仿真验证  
+
+本小结使用PSPICE 仿真软件对该部分电路功能进行验证。首先自定义欠压信号UV1，初始值为10 V，斜率\-1 V/ μs。自定义欠压信号VUV2，初始值为40 V，斜率为-1.5 V/μs。采用稳压值为3.3 V 的稳压管设置用于检测V1 的参考电压，采用稳压值为22 V 的稳压管设置用于检测V2 的参考电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLvXRGt1uz3Vmv9jFQYUoSkAKmIAuwGSIk5ic8VQuyFoAaymtmFn4QO9Q/640?wx_fmt=png&from=appmsg)
+
+如图3.25 所示，模拟V1 的欠压信号从起始值开始下降，初始阶段欠压信号幅值大于参考电压(3.3 V)，所以Vg正常输出；当欠压信号幅值下降至3.3 V 左右，D10 截止，Q21 截止，Fault1 电压迅速被拉高。Vg 首先被拉低至5 V，持续一段时间后被拉低至0。实现两步关断。欠压检测电路仿真结果与理论分析结果相吻合，实现了欠压检测功能。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLKRGbowTd1BAo0EbfPfX9BPrbKTqdB7R8THibEibdlj7Y84ibU0w1LNeFQ/640?wx_fmt=png&from=appmsg)
+
+如图3.26 所示，模拟V2 的欠压信号从起始值开始下降，初始阶段欠压信号幅值大于参考电压(22 V)，所以Vg正常输出；当欠压信号幅值下降至22 V 左右，D3 截止，Q15 截止，Fault1 电压迅速被拉高至1.5 V。同样Vg首先被拉低至5 V，持续一段时间后被拉低至0。实现两步关断。由此可得V2欠压检测电路与理论分析结果相吻合。
+
+在不同温度下对欠压驱动电路进行仿真，图3.27 为不同温度下欠压信号Fault1和 Vg随时间的变化曲线。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxL5zYX5LBuUbmN6Y9h09WsNFmr3YjJr5ICRPH0JTVLZHjznF8cBTGiaaQ/640?wx_fmt=png&from=appmsg)
+
+从图中可以才看出，随着温度的升高，Fault1 的发生跳变的时刻产生延迟，且温度越高延迟越大。原因是温度升高BJT 的饱和深度增加，致使其在故障到来的时候集电极电位上升变慢，从而导致Fault1 的发生跳变的时刻产生延迟。导致随着温度的升高，Fault1 的幅值降低，这是因为Fault1 后接BJT，Q19 的发射结电压随着温度的升高降低，所以导致Fault1 的幅值降低。
+
+由图3.27 可知，因为温升导致欠压信号发生延时，所以Vg信号两步关断的第一步跳变时刻相应产生延时。温度从25 ℃升高至200 ℃的过程中，第一步跳变时刻后延了400 ns 左右。
+
+3.3.3 过流检测电路仿真验证
+
+本小结使用PSPICE 仿真软件对该部分电路功能进行验证。首先自定义漏极电压信号初始值为10 V，斜率2/3 V/ μs。采用稳压管1N5343B 来设置参考电压，稳压值为7.5 V。R27 选值为11 kΩ，电容C7 选值为100 pF。由式(3-36)可得充电时间为200ns。由图3.28 可知在200 摄氏度的情况下，VFault2 从0 V 爬升至Q14的阈值电压所用时间为接近200 ns，这与理论计算值基本吻合。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLSoKZvBtHQx41BibUohHzx3p46dddibuHkyHQPmnJhhMtXXXHYKxUcVug/640?wx_fmt=png&from=appmsg)
+
+从图3.28 中可以看到，当模拟SiC MOSFET 的漏极电位超过参考电压值7.5 V时，Q18 打开，Q18 的集电极电压被拉高至8 V，同时被钳位。然后通过电阻R27 为电容C7 充电，经过延时之后Fault2 被锁定，幅值为0.81 V 左右。随着温度的升高VFault2幅值降低，原因是保护执行电路中 Q14 的反射结电压随温度的升高而下降。
+
+同时可以看到Fault2 的上升沿前移。这是因为温度升高导致Q18 的阈值电压下降，导致VD在还未上升至参考电压值的时候Q18 就开始导通。导致电容C7 开始充电的时刻提前。如图3.29 所示，相应的Vg信号两步关断的第一次跳变时刻相应地发生前移。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLIsasA3MWjkbgoaGnXmRicNibb9XU7NOGp3AUpWw6DvibAdyndHU2ngFzg/640?wx_fmt=png&from=appmsg)
+
+温度从25 ℃升高至200 ℃的过程中，Vg的两步关断动作提前了106 ns。综上电流过流检测电路中各点电压波形与理论分析结果吻合，能够正确地产生过流故障信号。
+
+3.3.4 保护执行电路仿真验证
+
+在之间的欠压检测功能验证和过流检测功能验证的过程中以间接地验证了保护执行电路的功能。首先通过自定义欠压信号接于D3 的阴极一端，然后将D3 的阴极一端于V2 断开，当模拟欠压信号电压值低于D3 的稳压值时Fault1 跳高（有效），通过D13 为Q19 提供基极电流，Q19 打开，将Vg 拉低至5 V，然后经过两步关断电路的将Vg 锁定至0 V，以防止Vg 在发生故障后持续跳变。根据欠压检测电路功能仿真波形中可以看出Vg 在实现两步关断之后，Vg 未发生持续跳变，这说明Vg 清零电路功能正常，可在两步关断之后将Vg信号锁定为零。同样通过自定义V1 的欠压故障信号首先通过自定义欠压信号接于D10 的阴极一端，然后将D3 的阴极一端于V1 断开，当模拟欠压信号电压值低于D10 的稳压值时Fault1 跳高（有效），V2 通过R16、D12、D13 为Q19 提供基极电流，Q19打开，将Vg拉低至5 V，然后经过两步关断电路的将Vg锁定至0 V，以防止Vg在发生故障后持续跳变。
+
+之后通过自定义VD模拟漏极电压，当VD信号幅值上升至D17 的稳压值时，Fault2跳高（有效），Q14 打开，Q17 关闭，V1 通过R4、D6 为 Q19 提供基极电流，Q19 打开，经过两步关断之后，Vg 未发生持续跳变，这说明Vg清零电路功能正常。根据过流检测电路验证波形图3.29 可验证以上电路描述。
+
+3.4 本章小结
+
+首先针对目前同类型驱动电路存在的无法输出高频（大于100 kHz）驱动信号的问题，在本章的第一节提出一种新型的基于分立器件的驱动电路结构。并对其电路结构及其工作过程进行详细的介绍。同时分析了该驱动电路输出高频信号的机理。并对电路进行了理论推导，确定元件参数的选值原则和范围。又因为电路应用于高温环境，所以必须对其温度特性进行分析，主要分析温升对主要开关器件的参数和开关性能的影响。然后对保护驱动电路的各部分电路进行介绍。包括电路的结构介绍和功能介绍。最后通过PSPICE 软件对电路进行仿真，验证驱动电路的其输出性能是否满足设计要求，验证驱动保护电路的检测功能和执行功能。并且对保护电路中的各部分电路进行了温度仿真，分析了温度对各部分电路的影响。以及提出了温度补偿的对策。
+
+第四章 高温环境的SiC MOSFET 驱动电路样机制作与测试
+
+4.1 PCB 和测试电路板制作
+
+在仿真验证成功的基础上对驱动电路以及驱动保护电路进行PCB 版图设计，针对电路功能进行PCB 功能区域划分，在电路板的上半部分区域从左到右分别排布电源模块，欠压检测电路，保护执行电路以及过流检测电路。把保护电路放在电源模块旁边的目的是因为欠压检测电路的检测对象就是电源电压V1 和V2。这样布局将最大程度地减小线路引线长度。同时将过流检测电路放在双脉冲测试电路左边的目的同样也是为了减小采集漏极信号的引线长度。通过使用Altium designer 完成PCB 的绘制，之后进行制板和元器件的焊接。如图4.1 所示双脉冲测试模块与驱动电路模块整合在一块电路板上，这样布局可最大程度地避免电路分板布局连接时引入的寄生参数。同时有利于信号的高速传输。并且通过分块布局以及对导向线宽的设置最大化地避免了功率电路模块对驱动电路的干扰。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxL5SwfYUkWKM6Km46yIjkeUouP5icRKGr7wrJSY004586l7ssPW7JY4Dg/640?wx_fmt=png&from=appmsg)
+
+如图4.1 为本文所述应用于高温环境的驱动电路的PCB 版图。在PCB 上划分出四个区域，分别为电源模块、主驱动电路模块，驱动保护电路模块以及功率电路模块。电源模块②为驱动电路提供电能供给；主驱动电路模块①为整个电路的核心模块，负责将控制信号抬升至SiC MOSFET 驱动电压水平；驱动保护电路模块包括欠压检测模块③、过流检测模块④以及保护执行模块⑤。该模块负责检测欠压故障、过流故障、并对产生的故障信号进行处理。为了减小功率模块⑥与控制电路的互相干扰，采用零欧姆电阻将功率地与控制地相连。有利于电路工作的稳定性。SiC MOSFET 驱动电路以及功率主电路样机如图4.2 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLrf8skDpYNKib60PcB0hnwSUg2wXib5jiaMXGksRkdgw2Ky9yeIs4e3RMQ/640?wx_fmt=png&from=appmsg)
+
+4.2 主驱动电路测试
+
+对主驱动电路的测试主要分为常温测试和高温测试。本节将通过双脉冲测试电路来评估该驱动电路的驱动性能。双脉冲测试电路主要作用是测试SiC MOSFET 驱动性能，获取SiC MOSFET 稳态和暂态过程中的主要参数，可以通过测试进行优化栅极电阻RON和ROFF以及开关频率设置等。
+
+双脉冲测试电路的原理图如图4.3 所示。一般情况下输入的双脉冲信号的第一个高电平的时间一般要大于第二个高电平时间。原因是一般要利用第一个脉冲的下降沿来验证器件的关断特性，所以需要让第一个脉冲持续较长的时间来使得电流达到一定幅值（实际使用环境下的电流值），模拟实际电路中开关器件的关断过程。第一个脉冲持续时间要根据要模拟的实际情况下的电流大小来确定。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLJhibu53SbPTHrp10dHGbZX3NViawtOGVV1lu9CVNosFvtMcsgQuOb0GQ/640?wx_fmt=png&from=appmsg)
+
+VDC 为功率电路的直流输入电压。当VDC 和功率电感值L 值确定，第一个脉冲持续的时间与实验所需的电流爬升量成正比。两个脉冲之间一般间隔 2 μs,第二个脉冲到来，与第一个脉冲时不同的是，此时电路中电流已经达到一定幅值，因此可以有效测试器件带负载开通的能力，观察与二极管的换流情况，这对研究在变流器等设备中的应用至关重要。所以第二个脉冲不需要持续那么长的时间，一般选值2 μs。
+
+采用双脉冲测试时，SiC MOSFET 的开通特性可以由第二次开通时的实验结果来反映，包括开通时间、开通损耗、电流电压尖峰等；而对于关断特性，第一次关断与第二次关断时的实验结果均能有效体现，只是两次关断的负载电流值不同。关断特性主要由关断时间，关断损耗。而在本论文中主要关注开关器件的上升时间，导通时间，下降时间，关断时间以及驱动电压的上升沿延迟和下降沿延迟等驱动性能参数。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLk8TbXaR11H0GMz90HanV2K8WrhlY6AJKEAh4JC5k7SibvxhyOpMZmbA/640?wx_fmt=png&from=appmsg)
+
+4.2.2 常温测试
+
+本测试中使用型号为SCT2080KE 的SiC MOSFET 作为被驱动功率管。选用SCS240KE2作为续流二极管。将驱动电路的输出接于该管的栅源两端，然后搭建双脉冲测试电路。具体的电路参数如表4.1 所示。首先在双脉冲测试电路中直流电压VDC为零情况下，测试驱动电路的输出性能。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLV9bwbS98xk2489Lic9NZZc0U53PoW81Dp42nSibb6hJqOBb5hAR16eIg/640?wx_fmt=png&from=appmsg)
+
+经过实测可得驱动电压的上升沿波形，如图 4.4 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLjWbrZIwVtzsHyrlBcUwxfj4McbsXy7nmqvESdsoIHRY5amDRwJTxBg/640?wx_fmt=png&from=appmsg)
+
+驱动电压的上升时间Tr 为51.6 ns，导通时间TON为72.7 ns，上升沿延迟Tdr 为121.8 ns。图4.5 为驱动电压的下降沿波形。由图可知驱动电压的下降时间Tf 为79.7 ns，关断时间TOFF 为112.5 ns，下降沿延迟Tdf 为268.7 ns。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxL1JntfM2dUX3zbzDVibjnicKEJZBhngXlIu9iackIgvsByIh6ysJPC4gyw/640?wx_fmt=png&from=appmsg)
+
+与仿真结果相比，实测结果偏大。在PSPICE 仿真环境下，电路中的变压器为理想元件，控制信号经过变压器之后仍然具有与输入信号相同斜率（较陡）的上升沿和下降沿，而在实际电路中所选变压器是非理想器件。所以在实测中当信号经过变压器后其上升沿和下降沿的斜率下降，这将导致变压器副边回路中的Q6、Q8 的开关速度变慢，从而导致Q2，Q7 的开关速度变慢，所以可以看出实测中输出电压的上升时间和下降时间均变长。
+
+在双脉冲测试电路中直流电压VDC 为100 V 的情况下，测试电路驱动电路的输出性能。图4.6 和图4.7 分别为驱动电压的上升沿波形的下降沿波形。图中黄色线为SiC MOSFET的栅源电压VGS 的波形，蓝色线为其漏源电压VDS 的波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLZ8wvpffuwhickMn1rhDvg4QFr88IBFekG9yWdVaic0MZfT8toEQWuqvg/640?wx_fmt=png&from=appmsg)
+
+由图4.7 可知开通时间为62.12 ns，下降时间为139 ns。VGS 在下降过程结束时发生振荡，这是因为漏源电压在此期间发生振荡并通过米勒电容耦合到栅极，所以导致VGS 发生振荡，从波形中可以看出VGS 的振荡过程发生在零伏以下，故对的关断影响不大。其关断时间TOFF 为141 ns，下降沿延迟为256 ns，而VDS 在爬升至直流母线电压VDC 的幅值后发生了振荡。其振荡尖峰可达175 V。VDS 的振荡尖峰主要是因为功率管关断速度快，使得漏极电流的下降沿很陡，很大的电流变化率将线路中的寄生电感对漏源电压的影响放大。寄生电感两端产生的振荡电压叠加在直流母线上形成了漏源电压VDS 的震荡尖峰。减小振荡尖峰的方法主要由两种：一种是减小线路中的寄生电感；在电路元件的布局过程中，将导线设计为扁平宽状，同时尽可能的缩小回路面积，缩短导线的长度。在安装SiC MOSFET 和碳化硅二极管的时候将引脚全部插入封装孔中，让元件的引脚根部直接与电路板连接，消除由引脚引入的寄生电感。另一种方法是减小电流的变化率。可通过调整VGS 的下降时间来减缓MOS 管的关断过程。但是这种方法会影响开关器件的高频应用。所以需要在开关器件的电压应力与工作频率之间做出折中选择。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxL4RVkN5akcmO4grNucia7wcjDoSHyFzibpGPQy7A8GoGpdldLWklMDcpA/640?wx_fmt=png&from=appmsg)
+
+表4.2 中列出目前同类型电路输出电压的性能参数，通过对比可知，所设计的驱动电路上升时间与同类型驱动电路相比减小，下降时间与TPE 2017几乎相差不多。也就是该电路拥有输出更高频率驱动信号的可能性。上升延时和下降延时与同类型驱动电路相比有所减小。即当控制信号通过该驱动电路时可以更加及时地控制SiC  MOSFET 的通断状态。
+
+4.2.3 高温测试
+
+在常温下对电路的功能验证之后，对整个驱动电路进行高温测试。采用耐高温信号线作为输入信号和驱动电压的引出线。如图4.8 所示的三根较粗黄线是作为SiC MOSFET 的栅极，源极以及漏极的引出线。
+
+如图4.8 左图所示实验设备主要由信号发生仪，稳压电源，示波器以及高温箱。通过信号发生仪编程产生双脉冲信号，产生的双脉冲信号通过耐高温信号线与电路输入端相接；稳压电源为驱动电路提供能量，输出恒定的24 V 电压；然后通过高性能示波器探头检测电路的输入输出波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLdvfZ10rXvsnqdWSuRzpNgckAeQFHHcAAdlmGc1qUlSQhGgDjECjicRQ/640?wx_fmt=png&from=appmsg)
+
+通过截取不同温度下对应的输出电压的波形数据，采用Origin 绘图软件绘制不同温度下的双脉冲输出波形，对各温度下的双脉冲输出电压进行对比，如图4.9 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxL1p7pGibtafc3O5nUm5KwTEGticR8ick3xlzNzLH6EBWD0MXUPrJVqum7Q/640?wx_fmt=png&from=appmsg)
+
+将图4.9 进行局部放大可得实测的上升沿波形和下降沿波形，如图4.10 和图4.11所示。由图 4.10 可知，随着温度的升高，驱动电压的高电平抬升，这是因为温升导致BJT的基极\-发射极电压降低，从而导致电源电压幅值损失减小，所以驱动电路输出电压增大。
+
+同时可以看出温度从25 ℃升高至140 ℃的过程中输出电压的上升时间略微减小，上升沿延迟增加了200 ns 左右。从图4.10 可以得出随着温度的升高，输出电压下降时间略微增大，但下降沿延迟逐渐减小。温度从25 ℃升高至140 ℃的过程中，下降沿延迟减小了接近375 ns。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLcnB6yvcCbJbNMK8yaibWOSH12KkWSHPtuHJ6g5oH8N6hibBVTDZwTN8Q/640?wx_fmt=png&from=appmsg)
+
+图4.12(a)为驱动电压上升沿延迟的温度特性。从图中可以看出，上升传播延迟从25℃逐渐增加到150℃，从150℃减小到220℃，上升传播延迟的最大变化范围约为45ns。当电路在 150℃以上的环境中工作时，上升传播延迟减小，从而提高了SiC 功率器件的开关及时性。图4.12(b)为驱动电压下降沿的温度特性。从波形中可以看出，随着温度的升高，下降沿的斜率不发生显著变化。在25℃时，输出电压下降时间约为100ns，当温度从25℃上升到220℃时，下降时间在很小的范围内波动，不会发生太大的变化。尽管温度升高会导致电路的元器件参数发生温漂，对电路性能产生一定影响，导致输出电压的延迟增大，但是在上升延迟增大的同时下降延迟也增大，对输出电压的脉冲宽度影响不大，属于可接受的范围。温升导致驱动电压抬升，从18.3 V 抬升至19 V，增大幅度小于1 V。不会超过SiC MOSFET 的最大可承受的栅源电压值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLhN0vUq21iaZznnITeeb23ib9FZ1wSWV960Qa7ljUqPyVVPe7BZC7kPWw/640?wx_fmt=png&from=appmsg)
+
+在安全驱动的前提下栅源电压的增大可使功率管导通地更加充分，降低功率管的导通损耗。同时从4.10 和图4.11 可以看出温升对电路输出电压的上升时间和下降时间影响很小。综上可以得出该驱动电路基本达到设计要求。
+
+4.3 驱动保护电路测试
+
+4.3.1 欠压保护电路测试
+
+(1)常温测试(25 ℃)
+
+通过采用信号发生器编程产生模拟欠压信号VUV1 波形，如图4.12 所示。该模拟欠压信号高电平为5 V，低电平为0 V。将D10 的阴极与电源电压V1断开，然后将模拟欠压信号接于稳压管D10 的阴极。图中的黄色线为驱动电路输出的栅源电压VGS 波形，绿色线为模拟V1欠压的信号VUV1,蓝色线为欠压故障信号Fault1。当电压低于参考电压3.3 V 时，Q21 迅速关断，欠压信号Fault1 由低跳高。当电压重新开始爬升至3.3 V时，Q21 迅速关断，欠压信号Fault1 由高跳低。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLXn8osEK9Xib0biczy2fLicXT0sibD9HjLJSp7FX0jhJUofuzxFGQ194Ihg/640?wx_fmt=png&from=appmsg)
+
+从图中可以看出当VSIM 的幅值为正常值5 V 的时候，Q21 导通，欠压信号Fault1为低电平（无效），驱动电路可以正常输出驱动电压，高电平 19.3 V，低电平\-5 V；当VSIM 开始下降但其幅值仍大于3.3 V 时，驱动电路仍然正常工作。当VSIM 小于参考电压3.3 V 时，Q21 关断，欠压信号Fault1 迅速由低跳高，产生欠压故障信号。随后栅源电压发生两步跳变，关断SiC MOSFET。
+
+(2)高温测试
+
+本节主要对欠压检测电路的温度特性进行实测分析。图4.13 为不同温度下欠压检测电路的实测验证波形。实测结果与这与第三章中对欠压检测电路的仿真结果相吻合。如图4.14 为不同温度下故障产生时刻相对25 ℃下故障产生时刻的延迟时间。从图中可以看出随着温度的升高，欠压故障信号产生的时刻发生延迟，温度越高延迟越大。当温度从25 ℃升高至200 ℃的过程中，故障信号延迟了1.6 μs。当温度在175 ℃~200 ℃的范围变化时，故障信号的最大延迟了350 ns。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLxpCqojoJkx7XhRNTiaYcUCltcnIszgVD2lsj7ECozMtvsGs9FEq2s1A/640?wx_fmt=png&from=appmsg)
+
+二极管D10 选取型号为 1N5333B 的稳压管，其稳压值为3.3 V。当V1从4.7 V 降至3.3 V 时，主驱动电路输出电压副值将有19.3 V 升高至20.7 V。一般情况下SiC MOSFET 栅源电压的最大值不超过22 V，当因为V1 欠压而导致栅源电压大于20.7 V时就被驱动管关断。所以在大于 175 ℃实际应用环境中，温度对欠压检测电路的影响主要是故障产生的时刻发生推迟，使得检测电路的响应时间增加。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLMvU3y49PvnsyyyQ0lCE6FkWSMRRDdkEGjXZ8K04bK8FHhY6icgpqgzg/640?wx_fmt=png&from=appmsg)
+
+另外随着温度的变化，欠压故障信号的幅值VFault1 也相应发生变化，如图4.15 所示。当温度从25 ℃升高至200 ℃时，VFault1 幅值从1.5 V 降至1.21 V。这是因为保护执行电路中二极管D7 和Q19 的发射结电压均具有负温度系数，所以VFault1 幅值随温度的升高而减小。但是温度对 VFault1 幅值的影响并不会导致欠压检测电路误动作。这是因为能够导致欠压检测电路误动作的是Q21 和Q15 能否正常关断。如果Q21 和Q15能够正常关断，在 V2 的激励下就可以产生欠压故障信号。所以温度对欠压检测电路的影响可归结为对Q21和Q15 关断过程的影响。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLt5icBgiaeR3NlgWQpJ9HicicFRJNZJzaH5tnCs7qmniaO3wanfNW7cYxLBA/640?wx_fmt=png&from=appmsg)
+
+根据前述分析，在大于175 ℃的高温环境下，检测电路可正常工作，只是检测电路的响应速度会随着温升而变慢，但实际性能属于可接受的范围。并且在实际测试过程中在大于200 ℃的高温环境下对欠压检测电路进行功能测试，电路仍可正常工作，但是电路中元器件的寿命会相应缩短，可靠性也会下降。
+
+4.3.2 过流保护电路测试
+
+(1)常温测试
+
+首先通过自动定义电压信号VSD 用于模拟SiC MOSFET 发生过流后的漏极电压的上升情况。稳压管D17 的稳压值选为7.5 V。如图4.16 所示，图中绿色线为自定义电压信号VSD 波形；黄色线为栅源电压VGS 波形；蓝色线为过流信号Fault2 的波形。从图4.16 中可以看出VSD不断爬升，爬升初期小于参考电压7.5 V 时，过流信号Fault2始终为低（无效），栅源电压正常输出。当 VSD高于参考电压时，Q18 的集电极电压迅速抬升，之后电容C7开始充电，两端电压逐渐抬升，直至抬升至1.4 V 左右，电压不再上升，VFault2 被钳位在0.7 V 左右，如图蓝色线所示。然后栅源电压经过两步跳变，拉低至\-5 V，如图黄色线所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxL1sQUGrIR5gUPQDLOZHHaek8zXa7ib2Q9y3ibSKzuWBI7MNoCERWKZ7icw/640?wx_fmt=png&from=appmsg)
+
+然后对驱动电路，驱动保护电路以及功率电路进行整合测试。过流检测电路采集实际的漏极电压，而不是通过VSD 模拟。给电路输入一个脉宽为25 μs，幅值为5 V的控制信号，然后从图 4.17 可以看出在漏极电流爬升的初期，电流值较小，SiC MOSFET 的导通电压较小，不会触发过流检测电路，所以VGS 一直维持在高电平(19.3V)。当漏极电流爬升至16 A 时，SiC MOSFET 的导通电压升高至过流检测电路的参考电压值，触发电路产生过流故障信号Fault2，之后栅源电压发生了两步跳变。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLHsP6sRg6O2bLiclF8xh2herL2MedHXqDDTbZnHM1ibkpdCPpsTUSRmNg/640?wx_fmt=png&from=appmsg)
+
+因为电路可以顺利地完成两步关断，由此可以说明保护执行电路中的过流故障锁存电路工作正常，故障执行电路工作正常。在完成两步关断之后电路的VGS 未发生持续跳变，始终保持负电平。这说明保护执行电路中的抑制栅源电压跳变模块可正常工作。这样就同时验证了过流检测电路，保护执行电路以及主驱动电路的基本功能。
+
+因为SiC MOSFET 的源极电位为5 V，所以漏极电位VD为源极电位和导通压降VDS 之和。图4.18 为SiC MOSFET 导通时其漏极电流与漏极电压的对应关系。从图4.18 中可以看出随着漏极电流的增大，漏极电压时增时减，但是整体上呈现上升趋势，如图中红色线所示。在实际应用中可根据漏极电流与漏极电压的对应关系来选取过流检测电路中参考电压值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLKFsh6KqWl66Rr67sGElo95jvrNJOP6m9ME6SxbR7FSElb9yBdZ58zg/640?wx_fmt=png&from=appmsg)
+
+经过在常温下对过流检测电路功能的验证之后，将该部分电路放置于高温箱内对其不同温度下的性能进行测试。通过引出线对过流检测电路中Q18 的集电极电压VC(Q17)和VFault2 进行测量，得到如图4.19 所示的测试波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLsCI6yF34zOuVYBfRgynj7QhCvpAaia7uvPXqKJgnAbCLXibKQMVSXdkw/640?wx_fmt=png&from=appmsg)
+
+从图4.19 (a)中可以看出当漏极电压VSD上升至D17 的稳压值与Q18 的发射结电压之和时（接近8V），Q17 的集电极电压迅速拉高，表示Q17 导通，随即VFault2 被拉高，产生过流故障信号。为了更好地的阐述温度对该部分电路的影响，图4.19 (b)显示了在不同温度下对应的VC(Q17)和VFault2 波形。
+
+为了更加清楚地分析温度对VC(Q17)和VFault2 的影响，对图4.19(b)进行局部放大，得到图4.20 所示波形。图4.20 (a)为不同温度下VC(Q17)的波形；图4.20 (b)为不同温度下VFault2 的波形。图4.20 (a)中横向箭头所指方向为温升方向，从曲线变化的整体趋势上讲可以看出随着温度的升高，VC(Q17)的上升沿相对于常温时产生的延迟越大，也就是说温度越高，Q18 的导通延迟越大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmUhibBmz1SFCwVibNiaAluaxLqWxGvGGgPtsfibMcpKnDNZQiaUxKiaz6291gSxYFG7FSu2wyXkeSXpGXg/640?wx_fmt=png&from=appmsg)
+
+220℃下对应的Q18 的导通时刻相对于25℃时延迟了接近300 ns。Q18 的导通之所以发生延迟是因为D17 的稳压值具有正温度系数。虽然Q18 的发射结电压具有负温度系数，对保持Q18 发射极电压的稳定不变有一定的补偿作用，但是其无法完全补偿，VE(Q18)会随着温度升高而增大。所以就导致温度越高VSD 必须上升至越高的电压值才能触发Q18 导通。这就是导致Q18 导通时刻发生延迟的原因。尽管在高温下FAULT2产生时刻发生延迟，但并不会导致SiC MOSFET 过流时间延长而损坏。所以过六队检测电路的影响可以忽略。因为Q18 的导通时刻随着温度的升高发生延迟，所以Fault2 产生的时刻相继发生延迟，如图4.20(b)所示，图中箭头方向表示温升方向。从图中可以看出VFault2 的幅值随温度的升高逐渐减小，这是因为Fault2 端子与Q14 相接，Q14 的发射结具有负温度系数，所以会出现VFault2 的幅值随温度的升高逐渐减小的情况。
+
+4.4 本章小结
+
+本节在仿真验证通过的基础上，对所涉及的电路进行制板实测。根据可能产生的不利影响，对各部分电路进行合理布局，尽量避免各部分电路之间的互相干扰。然后经过数版PCB 的制作，对电路结构进行优化，使得电路可靠性大大提升。最后采用最终的电路版图来测试电路的驱动性能。首先分别在常温和高温环境下测试了主驱动电路的输出性能，随着温度的升高电路的的上升时间，下降时间都发生了改变，但是改变幅度不大，同时输出电压的上升沿延迟和下降沿延迟增大。实测所得到的结果与理论值相比偏大，但是相对于同类型电路，该电路的输出性能得到了提升。电路拥有在更高的频率下工作的潜力。
+
+第五章 总结与展望
+
+5.1 总结
+
+本文基于目前采用分立器件搭建的高温驱动电路的不足之处，设计了一种新型高温驱动电路结构。并对现有的驱动保护电路进行了结构与功能的优化，使得欠压检测电路结构更加简单。同时对过流检测电路进行了改进，增加了过流故障判断功能，增强了电路的抗干扰能力。根据提出的设计方法设计了主驱动电路和驱动保护电路，仿真结果与预期相符，且本文提出的电路结构所使用的元器件较少，具有制造成本低，抗干扰能力强以及在高温环境下的可靠性高的优点。
+
+首先在第一章中通过不同材料的比较阐述了SiC MOSFET 的优良的物理特性和电气特性。并且对目前市场上SiC MOSFET 的驱动芯片的耐温性能做出简要地说明。对采用分立器件搭建驱动电路的原因进行了阐述。之后对目前有关基于分立器件的SiC MOSFET 驱动电路的发展现状进行了介绍，分析其中的优点以及不足之处，并进行了总结。最后针对目前同类型电路存在的不足之处制定了本文的主要研究内容。
+
+然后在第二章中介绍了SiC MOSFET 的开关特性以及影响SiC MOSFET 开关过程的影响因素。并且根据SiC MOSFET 的开关特性总结了其对驱动电路性能的要求。因为本文设计的电路中最主要的开关器件就是双极结型晶体管，所以针对该型三端器件作为开关应用的必要条件做了理论推导。因为电路应用于高温环境，对电路中所使用的元器件的温度特性的分析成为了至关重要的研究内容。从而对元器件的选型和参数确定提供理论依据。
+
+基于前两章中SiC MOSFET 对驱动电路的要求和提出的电路设计目标，第三章中的主要内容为主驱动电路和驱动保护电路的介绍。包括结构介绍，功能介绍，高速驱动理论分析。之后在ORCAD PSPICE 计算机仿真环境下对电路进行功能验证和温度特性验证。通过功能验证的结果对电路参数进行优化。温度特性的仿真结果有助于分析了各部分电路性能随温度的变化的原因，并提出了温度补偿的方案。
+
+第四章基于ORCAD PSPICE 仿真结果，使用Altium Designer 绘制了主驱动电路和驱动保护电路的PCB 原理图及版图，并制作样机测试。分别进行了常温和高温环境下的初步实验，测试环境温度达220 ℃。实验测试表明，尽管元器件参数随温度变化产生漂移并对输出电压产生影响，但是栅极驱动电路仍可提供可接受的高温工作性能。从而验证了该电路的的可行性。
+
+5.2 展望
+
+(1)虽然相比于同类型电路的拓扑结构，欠压检测电路结构简单，且功耗较低。但是在主驱动电路正常工作的情况下，欠压检测电路中的稳压管一直有电流流过，这将会导致驱动保护电路在待机的状态下一直产生功耗。所以需要对该电路结构进行修改，使得欠压检测电路在待机的状态下功耗最小化。
+
+(2)对于保护执行电路来说，在该部分电路中虽然使用了八个双极结型晶体管，但是在驱动电路正常工作的情况下，只有两个是会处于导通状态。并且其仅在驱动信号为低的时候产生功耗。其优点是待机功耗很低。相对于其他同类型电路，虽然其结构进行了简化，功耗也降低，但是在该部分电路中使用了较多的双极结型晶体管，所以电路结构仍具有进一步优化的空间。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

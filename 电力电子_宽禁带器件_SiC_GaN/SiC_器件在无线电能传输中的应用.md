@@ -1,0 +1,84 @@
+# SiC 器件在无线电能传输中的应用
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/ovBn\_pZ8Nu510qHWe0zs8Q](https://mp.weixin.qq.com/s/ovBn_pZ8Nu510qHWe0zs8Q)
+
+**摘要：**SiC器件在无线电能传输中的应用主要体现在电动汽车无线充电系统领域。‌
+
+在电动汽车无线充电系统中，‌SiC器件的应用显著提升了功率密度和系统效率，‌同时降低了系统损耗以及接收设备的体积和重量。‌这一应用的优势得益于SiC材料的物理特性，‌包括高热导率、‌大的禁带宽度、‌高的临界击穿场强以及高的电子饱和漂移速度，‌这些特性使得SiC材料适合于高温、‌高频、‌低损耗、‌大功率的工作条件。‌具体到无线充电系统的功率变换电路方面，‌SiC器件的应用包括高频逆变电路、‌高频整流电路和PFC整流电路，‌其中输出电压达到800V。‌这种应用不仅提高了系统的可靠性和效率，‌还为电动汽车无线充电技术的发展和应用提供了重要的技术支持。‌  
+
+此外，‌研究还探索了一种基于碳化硅（‌SiC）‌器件的单管LC谐振逆变无线电能传输系统，‌通过实验比较了采用SiC器件和采用传统Si器件在驱动特性、‌输出特性、‌负载特性和效率特性上的不同，‌验证了将SiC器件应用于单管逆变无线电能传输电路的可行性。‌  
+
+综上所述，‌SiC器件在无线电能传输中的应用，‌特别是在电动汽车无线充电系统中，‌通过其优异的物理特性和技术优势，‌显著提升了系统的效率、‌可靠性和性能，‌为无线电能传输技术的发展和应用开辟了新的道路。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmS09bQL0pGEodeibWZPTFWGndDumfPEjWpEAXt6kFOT4CeuepsIqVNZBU1gFMjria2AgaOTXhZkgAQ/640?wx_fmt=jpeg&from=appmsg)
+
+无线电能传输（Wireless Power Transfer, WPT）技术是一种新兴的充电技术，通过电磁感应原理将电能从发射侧装置传输到接收侧装置中，再通过功率变换电路给负载进行充电，从而实现非接触式充电。无线电能传输技术消除了传统有线传输的局限性，并表现出显著的灵活性和安全性，在小功率无线充电领域已广泛商用，如手机、智能穿戴等。近年来，随着新能源汽车向智能化、网联化方向发展，电动汽车无线充电技术备受关注，并逐步走向商业化应用。本文将重点探讨碳化硅器件在电动汽车无线充电的应用及技术优势。
+
+**电动汽车无线充电技术概述**
+
+  
+
+电动汽车无线充电技术是基于磁耦合无线电能传输理论实现动力电池充电，是当前最主流的技术路线。如图1所示为电动汽车无线充电系统的结构组成示意图，发射侧和接收侧之间无电缆连接，其中发射侧包括无线充电电源、发射线圈，接收侧包括接收线圈和车载变换器。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/rVOfnQWA9wP4c5xOfvefKxqLCKCBJOnPf2tKv0AmYOoEecWdliaP39MzlhmstskuXkic0UFdSqtGPDfMMmT0uFDQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+电动汽车无线充电结构组成
+
+  
+
+**碳化硅在电动汽车无线充电领域中的技术优势及应用**
+
+  
+
+电动汽车无线充电系统的首要任务是实现高效的电能传输，因此高效、安全的功率变换是电动汽车无线充电系统的核心。相比于硅（Si）材料，SiC具有更高的热导率、更大的禁带宽度、更高的临界击穿场强以及更高的电子饱和漂移速度，SiC 材料的物理特性使其更适合应用于高温、高频、低损耗、大功率的工作条件，将其应用于电动汽车无线充电领域，不仅可以有效提升功率密度和系统效率，还能降低系统损耗以及接收设备的体积和重量。
+
+电动汽车无线充电系统的功率变换电路方面主要存在高频逆变电路、高频整流电路和PFC整流电路，图2为一个典型应用的电动汽车无线充电系统拓扑原理图，输出电压为800V。在无线充电系统的发射侧，由Q1-Q4组成高频逆变电路，为发射线圈提供用于功率传输的高频交流电；在无线充电的接收侧由D1-D4组成接收侧的高频同步整流电路，将接收线圈接收到的高频交流电转换为充电所需的直流电。作为系统核心转换环节的逆变电路和同步整流电路共选用了6颗（Q1-Q4、D3、D4）1200V的SiC MOSFET器件。因SiC MOSFET的优异性能，在实际使用中，无线充电系统从交流电源输入到车载电池普遍可以获得90%~93%的交直流转换效率。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/rVOfnQWA9wP4c5xOfvefKxqLCKCBJOnP8Ux6Hck8iaKICU0eWaicnL2zj3lJA2KO1hD8oJRKg7jEOIqOlJGic2kkQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+电动汽车无线充电系统电路拓扑图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/rVOfnQWA9wP4c5xOfvefKxqLCKCBJOnPe9N2Xg1mzOicDhxPEGM4iaIpDsKI3A09Cdwia4vOYiaJpUoiaxbqAR1WyWA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+碳化硅在电动汽车无线充电系统的应用
+
+  
+
+除SiC MOSFET外，碳化硅肖特基二极管（SiC SBD）因其低正向压降和快速开关特性，可显著减少整流损耗，而且SiC SBD优异的温度特性使其在高温环境下仍能保持高效率，因此SiC SBD成为无线充电系统理想的整流器件。除在高频整流电路中可使用SiC SBD外，高频逆变电路前级的PFC整流电路包括整流桥和Boost 电路，一般也会采用SiC SBD器件。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/rVOfnQWA9wP4c5xOfvefKxqLCKCBJOnPf3Fqib6QTIvjU8sR0VrhPdsY7RfBuODuaGNFUHDCZSf9eNC2fO1GlDg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+全球首款800V高压平台电动汽车无线充电系统
+
+  
+
+近年来，伴随着新能源汽车技术和市场的快速发展，国内外在电动汽车无线充电产业化进程已全面开启，无线充电已被各大汽车厂商在不同车型上配置。2021年，北汽发布的极狐阿尔法S华为HI版设计搭载7.5kW无线充电系统，是全球首款支持800V高压充电的产品；2022年，上汽和一汽也分别投产了搭载11kW无线充电系统的车型，并面向市场销售。2023年，一汽集团在长春科技创新基地建设了国内首条百米级别的电动汽车动态无线充电示范道路，搭载了20kW 以上功率等级的无线电能传输系统。SiC作为一种先进的半导体材料，具有许多优异的特性，在功率转换环节全面采用碳化硅功率器件已成为上述无线充电系统主流的选择方案。
+
+  
+
+  
+
+  
+
+**总结和后语**
+
+  
+
+  
+
+  
+
+电动汽车充电基础设备是新能源汽车产业的重要组成部分，其中电力电子材料和器件是产业的基础技术。碳化硅器件作为一种先进的半导体材料，具有优越的物理特性，在包括电动汽车无线充电在内的无线电能传输领域中推广应用将显著提升其性能和用户体验。随着无线电能传输技术的进步和创新，碳化硅器件将继续发挥关键的作用，推动无线电能传输技术向更高效、更小型、更可靠的方向发展。
+
+文章来源：宽禁带半导体技术创新联盟
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

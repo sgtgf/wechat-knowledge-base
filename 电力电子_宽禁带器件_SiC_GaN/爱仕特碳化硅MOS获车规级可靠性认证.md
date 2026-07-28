@@ -1,0 +1,44 @@
+# 爱仕特碳化硅MOS获车规级可靠性认证
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/cORIzy0UBLjZwrIfRUYxOg](https://mp.weixin.qq.com/s/cORIzy0UBLjZwrIfRUYxOg)
+
+  **历时四个月，深圳爱仕特科技自主研发的1200V碳化硅功率器件的 AEC-Q101试验报告终于出炉。**该项报告由权威第三方检测机构——广电计量出具，以汽车电子委员会发布的 AEC-Q101标准进行试验，结果显示爱仕特1200V碳化硅功率器件均能达到要求。
+
+**爱仕特成为国内首批通过AEC-Q101认证的碳化硅器件及应用方案供应商。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmaMnzjxtWflfKPzQ3Bu9ccM10ANFLu0KnooqPyRDTeiab5cxCBfVeDBUee8vdm8qicswUJ9y1XM01Q/640?wx_fmt=png)
+
+  
+
+**“**
+
+**AEC-Q101认证**
+
+  
+
+**在车规级芯片及元器件AEC-Q认证方面，AEC-Q作为国际通用的车规级电子元器件测试规范，目前已成为车用元器件质量与可靠性的标志。**AEC-Q101的试验项目包含如高温反偏、温度循环、高压蒸煮、**在车规在车规级芯片及元器件AEC-Q认证方面，AEC-Q作为国际通用的车规级电子元器件测试规范，目前已成为车用元器件质量与可靠性的标志。**AEC-Q101的试验项目包含如高温反偏、温度循环、高压蒸煮、高加速应力、高温高湿反偏、间歇工作寿命、ESD性能等18项测试，每项都是针对车用分立器件可能遭遇的环境来设计，用于验证电子元器件能否满足各种严苛的应用条件、能否经受住长期的高能量冲击和高频率开关。应力、高温高湿反偏、间歇工作寿命、ESD性能等18项测试，每项都是针对车用分立器件可能遭遇的环境来设计，用于验证电子元器件能否满足各种严苛的应用条件、能否经受住长期的高能量冲击和高频率开关。  
+
+  
+
+**AEC-Q101试验不仅是对元器件可靠性的国际通用报告，更是打开车载供应链的敲门砖。**要进入车辆领域，打入Tier1供应链，必须取得两张门票。一张是汽车行业质量体系标准IATF 16949，针对汽车整车厂和其直接的零备件制造商的质量管理体系；另一张则是汽车电子委员会所提出的AEC-Q车规可靠性验证标准，其中功率器件适用于AEC-Q101规范。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmaMnzjxtWflfKPzQ3Bu9cc4z1kGutC231IRWhmkqkJmySZpbicAjGBQX8icsxIPYJT2PbSWFlapTdg/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmaMnzjxtWflfKPzQ3Bu9ccvC3hlLB5vv3UfAIIsYmDxuxkGVnzfoMCsfTAwzwAUz6NDz4qOSf7Sw/640?wx_fmt=png)
+
+**爱仕特已于2021年获得IATF 16949：2016认证，随着这次AEC-Q101的试验通过，将为拓展车用市场铺平道路。**
+
+**深圳爱仕特科技以第三代半导体碳化硅材料为核心，研制大功率电力电子功率器件设计与产品多样应用，拥有完整的产品技术授权与品牌独立运营管理，是行业内唯一从事SiC MOS芯片设计、模块生产、系统开发的的国家高新技术企业，获得武岳峰资本及国内多家知名投资机构的数亿元投资。**
+
+**核心团队由中国科学院及清华大学博士领衔，数十位半导体行业资深人士共同组建，在SiC工艺及器件设计、SiC MOSFET芯片设计、电力电子系统应用、市场推广、产品运营等方面具有丰富经验。**
+
+**公司建立的车规级SiC MOS模块工厂，是国内唯一一条SiC模块专用产线，已实现全SiC MOS功率模块的批量生产，而且通过IATF16949汽车质量体系认证，产品已出口到欧洲和美国**。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmaMnzjxtWflfKPzQ3Bu9ccEyEbbFwKQuWCkJgNlTHZdZb4Z6picGW7iaCTiaTDG3HmS7s9aUbnjSA7A/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmaMnzjxtWflfKPzQ3Bu9cciaJjwVvWk9D5dCicXic4cz0m3RWMFFW0viaMF7dqibaiaj4ydhwkZiaYc2iaOA/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmaMnzjxtWflfKPzQ3Bu9cc30rxr6hbH2xOHKIf66yuM1fiaia9qiadlibuyYMmS1sQa15dtQZGpnPEkQ/640?wx_fmt=jpeg)
+
+**爱仕特科技产品线：碳化硅裸芯片（6寸晶圆）-碳化硅MOSFET-全碳化硅模块（半桥模块和三相全桥模块）-电机控制器-一体化动力总成，一条完整的产品线。**

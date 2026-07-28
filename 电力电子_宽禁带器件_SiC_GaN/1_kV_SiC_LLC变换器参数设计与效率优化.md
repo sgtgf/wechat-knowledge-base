@@ -1,0 +1,166 @@
+# 1 kV SiC LLC变换器参数设计与效率优化
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/Tdzgoh66Q-Wu5ND8f90I8w](https://mp.weixin.qq.com/s/Tdzgoh66Q-Wu5ND8f90I8w)
+
+文章来源：电力电子技术
+
+作者：顾占彪1，唐家承 I, 高哲思 2, 张之梁 2 (1.中国电子科技集团公司第十三研究所，河北石家庄050051； 2.航空电源航空科技重点实验室，南京航空航天大学，江苏南京211106)
+
+摘要：系留无人机因其续航时间长、有效载荷大而得到广泛应用。LLC变换器因其易于实现软开关，十分适合系留无人机机载电源这一高输入电压(>1 kV),中大功率应用场合。而传统设计方法仅考虑增益要求，高压输入、中大功率场合下，变压器激磁电感稍有偏小，就会使谐振腔电流增加，导致初级开关器件导通损耗及磁件铜损增加，严重降低变换器效率，增加系统温升，降低可靠性。在此分析效率与谐振参数间定量关系，提出一种LLC拓扑谐振参数优化方法。搭建了一台1 kV.6.6 kW的碳化硅(SiC)LLC原理样机，釆用所提设计方法完成参数优化，验证效率提升效果。满载下效率提升约0.3%,对应损耗减少19.94 W；烤机30 min,变压器绕组温度降低17.32%,谐振电感绕组温度降低6.83%,验证了所提设计方法的有效性。
+
+关键词：变换器；参数设计；效率优化
+
+1\. 引言
+
+采用特种电缆供电的系留无人机，可将飞行续航时间延长至24 h以上，同时携带较大载荷， 逐渐得到研究人员的关注。为了减小电缆线损和电缆自重，系留无人机母线电压有向千伏级发展的趋势；为了减小供电系统复杂度，机载电源单模块容量有向数千瓦级发展的趋势。LLC拓扑易于实现零电压开通(ZVS)和零电流关断(ZCS),适用于系留无人机机载电源这一高输入电压，中大功率的应用场合。传统设计方法得到的激磁电感通常偏小，使得谐振腔电流增大、初级开关器件导通损耗及磁性元件铜损偏大。在千伏级电压、几千瓦级功率场合下，损耗增加更甚。此外，无人机运行所处高空环境还对变换器提出如下挑战：①环境温度变化范围宽，可能使变换器效率与可靠性进一步降低;②电源模块需完全密封，只能通过外置风扇散热，故额外的热效应将直接带来散热器体积重量的增加，影响模块功率密度和功率重量比。综上，选取合适的谐振参数，使LLC拓扑工作在最优效率点，在高输入电压，中大功率应用场合至关重要。
+
+分析了 LLC拓扑谐振参数与效率之间定量关系，并推导得出效率约束条件；提出一种谐振参数设计方法，通过调整激磁电感取值，使拓扑工作在更高效率点。搭建了一台1 kV,6.6 kW,250 kHz SiC LLC样机。对比谐振参数优化前后的样机，在各负载点下样机效率均有提升(满载下效率提升约0.3%，损耗减少19.94 W)；且烤机30 min,元件温度明显降低：变压器绕组温度从62.3度降低至53.1度(降低17.32%),谐振电感绕组温度从82.8度降低至77.5度(降低6.83%),验证了所提设计方法的有效性。
+
+2\.  分离谐振腔式LLC拓扑
+
+为了应对高压、中大功率下的一系列挑战，采取图1所示分离谐振腔式LLC拓扑。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicahqL20b15c5HibhiboJOORiaZsRcSJbKNpWszT53kuou5NSYcLicXXZNsw/640?wx_fmt=png&from=appmsg)
+
+该电路的主要优势包括：①初级开关器件采用耐压高、开关速度快的SiC器件，便于高频化， 实现高功率密度;②采用矩阵变压器结构，多个子变压器通过初级串联实现均流，通过次级并联实现均压，简化了绕组间绝缘与散热设计，也降低了电源模块整体高度；③采用分离谐振腔式结构， 将谐振电感与谐振电容一分为二，抑制高频下变压器匝间电容上位移电流引起的谐振电流畸变。
+
+3\. 所提参数优化方法
+
+3.1 传统参数设计方法
+
+传统参数设计方法主要考虑增益要求，即设计拓扑使其在输入电压范围内，满足输出电压对最大增益Gdcmax和最小增益Gdcmin的要求。借助基波分析法，可推导LLC拓扑直流增益公式:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicU5uHmyDRLcGojs67CGxccFERupMsJLQcTtdHWEGu59NOgYcVCicjDIA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicdLsR12sjyZFd2u1qiakPwwPSwE5gyPw21C8suMmcB8veFOSjwD22h0Q/640?wx_fmt=png&from=appmsg)
+
+式中：Gdc为变换器的直流增益；λ为电感比；Q为品质因数，fn为归一化频率;fs为开关频率;fr为谐振频率；Lr为谐振电感感值；Cr为谐振电容容值；Lm为激磁电感的感值；Rac为折合负载阻抗；n为变压器初次级变比。 
+
+分析可知，确定A和Q,即可由式(3),(4),(6)确定谐振参数；故谐振参数和拓扑增益的关系求解实际可转化为λ,Q与Gdcmax,Gdcmin的关系求解。可通过间接方法求解Gdc,Gdcmin可通过对增益函数进行极值逼近得到。如图2所示，在增益曲线峰值点右侧，增益随fn增大而减小，当fn取得无穷大时，直流增益取得最小值。其中，Gdcpeak为峰值增益 ；Udcmin , Udcmax 为最小、最大输入电压。将负载按变压器匝比折合到初级，可得图3所示等效电路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicrDAkHicIwDTJjhINVgxsq0a6hXNVwW3fSbwA7TG6y5Bziaf31vZmOZIA/640?wx_fmt=png&from=appmsg)
+
+当fn为无穷大时，fs取无穷大，可认为激磁电感与谐振电感的阻抗无穷大，因此谐振电流ilx和激磁电流ilm可近似为零，此时输出可视为开路
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicb9TvPHF5GRbnONwcLGFTSDqFG19OgqZTSqyCSF0FZxPHDxXS3ELZjA/640?wx_fmt=png&from=appmsg)
+
+式中：Zlm为激磁电感阻抗；Zcx为谐振电容阻抗；zlx为谐振电感阻抗。
+
+ 应用洛必达法则化简：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicJ0ptbKABsCPFaQS9bnUfWpgjGhU7dxY50kKD4KwRnycpkdSyNj21fw/640?wx_fmt=png&from=appmsg)
+
+进一步可直接反推λ与Gdcmin的关系式为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicCfZbOQnNpsYQoTGF4mz6Oiaj0o11AasE9SRmGS23HGEJqm7YeLEwt4w/640?wx_fmt=png&from=appmsg)
+
+Gdcmax可通过曲线拟合近似求解。文献⑸通过电路模型仿真迭代，求解了半桥电路λ，Q,Gdcmax三者之间的函数曲线。此处通过类似过程，将参数代入全桥LLC拓扑求解增益，得到如图4所示曲线。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicdZGbI0mGvoQWos4pyQ83wlTLROaDvT411icWSiciaDBxdE34JkrGnq4Mg/640?wx_fmt=png&from=appmsg)
+
+借助Matlab软件的Curve Fitting功能，可直接由曲线近似拟合出Gdcmax与λ，Q的函数关系式：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicjJib0fMBiaERicsHqSia69thOyoygP5ktkJEuclgaXnNPr3iceExrAjj8zQ/640?wx_fmt=png&from=appmsg)
+
+使用传统的方法设计时，根据输入、输出电压确定Gdcmax和Gdcmin，λ取值小于等于式(9)计算值， Q取值小于式(10)的计算值，LLC拓扑的直流增益就能够满足增益要求。进一步即可由式(3),(4),(6)确定 Lt,Cr,Lm。
+
+3.2所提拓扑参数、效率关系建模
+
+为了设计LLC拓扑使其工作在最高效率点， 首先应分析拓扑参数与各主导损耗的关系。
+
+LLC拓扑的主导损耗有：次级整流管损耗、磁性元件损耗以及初级开关管损耗。若次级使用肖特基二极管整流，则其损耗主要为导通损耗，与输出电流平均值正相关；磁性元件损耗主要为铜损和铁损，铁损与谐振频率的选取和磁芯的选择相关，铜损与电流有效值正相关；初级开关管损耗主要为开关损耗及导通损耗，开关损耗与谐振频率的选取相关，导通损耗与输入电流有效值相关。综合以上分析，LLC拓扑主导损耗主要受初、次级电流的有效值和次级电流平均值影响。据此，求解拓扑参数与效率之间关系，可转化为求解这几个电流值与谐振参数关系。 
+
+出于对效率的考量，LLC拓扑通常设定在谐振频率点附近工作，其电流波形如图5所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicfLtPs1u0jkpsaTtPp82MEniaTDz9lI2N4UPcDKllIgCIKiazEKyPRic2w/640?wx_fmt=png&from=appmsg)
+
+列写谐振电流的时域表达式为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicA0IoxzeVBNAHHI1SibzvC0FpcicHju3QnOlJyrFLxRUjhon5cmbOeRiaA/640?wx_fmt=png&from=appmsg)
+
+式中：Imsp为初级谐振电流有效值；θ为谐振电流初相角。 
+
+根据基尔霍夫定律，变压器初级电流可由谐振电流减激磁电流得到，将该电流乘匝比即可得到次级电流。求解次级电流平均值Io为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicZUb5jWj9FTHrFgfibB9pjTtL6l28KFBQSpdCQNDoAYoOqA3qBHKP0SA/640?wx_fmt=png&from=appmsg)
+
+式中：ilm(t)为激磁电流的时域表达式；Ts为开关周期。
+
+激磁电流关于横坐标轴对称，因而其在半个周期内的积分为零，将式(11)代入上式化简得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicoCx8OF2KtDf68OQxl6z0hPjSrXRAQ2ic1PkfvpicetHYDaqvT0CA5S2g/640?wx_fmt=png&from=appmsg)
+
+故次级电流平均值与初级电流有效值正相关。
+
+ 在t=TS/2时，ilx应等于激磁电流的峰值，故有：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicWQ6pYvWGrzKdN17KsiaJrlHc9PMRPicIljZia8HxNswFbmaTvwfAOFS0A/640?wx_fmt=png&from=appmsg)
+
+联立式(11),(13),(14),得初级电流有效值:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic1QBEccZqv0eNuFsJNsYF8kuUZmWRmQR4Oyyfsf9dwQvkA5Addaoo6Q/640?wx_fmt=png&from=appmsg)
+
+类似地，可以得到次级电流有效值为:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicF58CRfKb4lCbgWOpIqAWSqdQxq5k2c8s2DLVeQfbQE7iapqDJsDZrgA/640?wx_fmt=png&from=appmsg)
+
+根据式(13),(15),(16),初级电流有效值、次级电流有效值和次级电流平均值均与变压器激磁电感负相关，Lm取值越大，效率越高。结合式(4),当电感比取得最大值，即式(9)中计算值时，LLC拓扑可实现效率最大化。
+
+3.3软开关实现条件校验
+
+LLC拓扑主要靠心在开关管开通前将沟道内的电荷抽走，实现ZVS。根据上节，为了提高效率，在传统设计方法基础上放大了Lm取值，设计完成后，应对ZVS条件进行校验。软开关可由能量条件校验。在驱动信号的死区时间如tdead内，若激磁电感上的能量远大于开关管结电容上的能量，ZVS就可实现。对全桥拓扑有：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicKQ6Y1aTXqZUauGAW8y9mdziaq1PfyUqpDyGSb7QqTRTJ1xu77hPeefw/640?wx_fmt=png&from=appmsg)
+
+式中：Coss为初级MOSFET的输出电容。
+
+ 确定初级开关器件选型后，即可对ZVS条件进行校验，若条件不满足，则减小Lm至条件满足。
+
+3.4所提设计方法
+
+据上述分析，可提出以效率最大化为目标的LLC拓扑谐振参数设计方法，总结其流程图见图6。首先根据需求分析确定Gdcmax,Gdcmin,据此得到最大λ和最大Q。根据效率约束条件，λ取最大值，并根据λ和Q推算谐振元件的参数。之后校验初级开关管的ZVS条件。如果不满足，应减小λ计算谐振元件的参数，直到谐振参数取值满足ZVS条件。最后，通过仿真对整机增益、效率进行评估。若不满足设计指标，则调整λ，Q继续迭代计算。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzicyWT7sEbka9O0WOqv5jBS0BrzUZCr9naWuM2GkHlW8QzDfDk4aGhIuA/640?wx_fmt=png&from=appmsg)
+
+ 分别应用传统设计方法和所提设计方法，设计0.9~1 kV输入，48 V/6.6 kW输出的LLC变换器谐振元件参数。列出由两种方法得到谐振参数及工作频率范围：优化前后样机输入电压Uin均为0.9-1 kV,输出电压Uo均为48 V, 输出功率Po均为 6.6 kW,/fr均为 210 kHz,fs均为 180-210 kHz,Lr均为36 uHx2,Gr均为8 nF,n均为5：1；优化前Lm=59uHx4,优化后Lm=75 uH。可得，优化过程前后，除了Lm,样机其他谐振参数基本不变。
+
+4\. 实验验证
+
+为验证所提优化设计方法的有效性，搭建一台1 kV,6.6kW,250kHz SiC LLC 原理样机。样机包含主功率部分、辅助电源部分、驱动板部分、控制板部分。主功率部分主要由输出部分、变压器部分、 谐振腔部分和SiC器件组成的全桥电路构成；辅助电源部分为一反激变换器，将输入高电压转换为低压，为控制及驱动电路提供稳定电源；控制板釆用DSP控制，完成各类采样及电路的闭环控制;驱动板根据控制板计算得到的频率输出驱动信号。 
+
+功率部分主要器件选型如下：输入电容Gin选用 2220Y1K50154KXTWS2,1.5 kV,0.15uFx6；谐振电感 Lr1,Lr2 磁芯选用 B32024A3224M000,1.5 kV,0.22 uFx3 ；谐振电容 Cr1, Cr2 选用 PQ 32/25, DMR95 ；输出电容 Co选用 C1812C102JGGACTU, 2 kV, 1nFx16；变压器Tr1-Tr4磁芯选用KCM55WR72A226MH-01L,100V,22uFx30；初级开关管V1-V4选用 GCM-32DC72A475ME02L, 100V,4.7uFxl6；次级整流管VD1~VD8选用PQI 35/23,DMR96。釆用分离谐振腔结构，谐振电感及电容均一分为二。出于电容耐流值以及等效串联电阻的考虑，谐振电容采用两组1nF电容并联，每组16个。采取矩阵变压器结构，共4个变压器。由于输出主要为电机负载，对电压波形质量要求不高，出于可靠性考虑，输出滤波可采用陶瓷电容。
+
+ 为对比参数优化前后的样机效率变化,分别将第3.4节优化前后谐振参数代入样机进行测试。
+
+对参数优化后的样机进行闭环测试，其波形如图7所示。波形说明样机可正常工作。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic5CQnkVLUAiacjoUiaeBNcWmia5WRMxvZXcA0K3SXI2rCicg1mNSmsrbZ1Q/640?wx_fmt=png&from=appmsg)
+
+在Uin=1KV条件下，测试样机在各负载点下的效率η,对比参数优化前后的效率，得到如图8所示曲线。可知，通过优化，样机在各负载点下的效率均有提升；且在Po=6.6kW条件下，效率由95.34%提升至95.64%,对应损耗减小19.94 W。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic1NTHOdCJDylBORDmfdibbH4PNdbY666apYmyXsx4BOdvCJ6JfElszow/640?wx_fmt=png&from=appmsg)
+
+分析效率优化前后样机各主要损耗情况，给出损耗分布图如图9所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskYib0QG5Z63E4UATCpzWVzic7yQbBZvnYRpheehK4OReY6iaTibeeYSsKRSRibaLCCWvicEmmV3wFka1yA/640?wx_fmt=png&from=appmsg)
+
+考虑样机在高空环境工作，模块需完全密封,除釆用215 mmx215 mmx10 mm金属底座对样机进行接触式传导散热外，还针对磁性元件、驱动板定制了金属结构件，采用君策-1184导热胶灌封，以帮助散热。 
+
+在Uin=l kV,Po=6.6 kW条件下，对样机进行30 min的烤机实验，对比参数优化前后的热成像,可知：在室温26.5度条件下，参数优化前，变压器绕组温度达到62.3度，谐振电感绕组温度达到82.8 度，在参数优化后，变压器绕组温度达到53.1度（温度降低9.2度， 降低17.32%）,谐振电感绕组温度达到77.5 度（温度降低5.3度，降低6.83%）。绕组温度的降低,将大大减小磁性元件周围各元器件的工作温度，增加模块工作的可靠性。
+
+ 综合上述实验结果，所提参数优化设计方法能够有效提升LLC拓扑的工作效率。
+
+5\. 结论
+
+针对如何设计LLC拓扑使其工作在最高效率点的问题，提出了一种谐振参数优化方法。对比传统设计方法，该方法根据效率约束条件，调整激磁电感取值,使得各元器件导通损耗最小，有效提升LLC拓扑的工作效率。搭建了一台1 kV,6.6kW,250 kHz SiC LLC原理样机，将优化前后的谐振参数代入样机，测得样机各负载点下效率均有提升。 在输入电压为1kV,输出功率为6.6 kW条件下， 效率由95.34%升至95.64%,损耗减小19.94 W；相同散热条件下，烤机30 min,变压器绕组温度从62.3度降低至53.1度(降低17.32%),谐振电感绕组温度从82.8 度降低至77.5度( 降低6.83%)。实验结果验证了所提方法的有效性。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

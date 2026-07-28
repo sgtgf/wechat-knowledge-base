@@ -1,0 +1,855 @@
+# SiC MOSFET 并联均流及串扰抑制驱动电路的研究
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/Qle3WJ8cJpLit6Z7oVRsrg](https://mp.weixin.qq.com/s/Qle3WJ8cJpLit6Z7oVRsrg)
+
+文章来源：江苏科技大学  
+
+作者：孙晖（硕士学位论文）
+
+摘 要：第三代半导体器件 SiC MOSFET 依靠开关速度快、工作频率高、耐高温、导通损耗低等优点，在新能源汽车、光伏逆变器、电机驱动等场合逐步替代传统的硅功率器件。由于开关速度的提高，器件对电路中的寄生参数更加敏感，这对 SiC MOSFET在并联应用中的安全性和稳定性提出了挑战，当 SiC MOSFET 应用在桥式电路时，高速开关动作引发的串扰问题严重影响了系统的可靠性。为了使 SiC MOSFET 在电路系统中稳定运行，本文主要针对并联均流和串扰抑制问题展开研究。
+
+第一 部分首先对 SiC MOSFET 电气特性和开关过程进行分析 ， 介绍了 SiC MOSFET 的物理结构和工作原理，根据数据手册对 SiC MOSFET 和 Si IGBT 的传递特性、输出特性进行对比。其次构建了双脉冲测试电路模型对 SiC MOSFET 的开关过程进行了理论分析。最后从开关时间、电压电流变化速率、电压电流应力、开关损耗入手，通过仿真分析验证了寄生电容、寄生电感、驱动电阻对 SiC MOSFET 开关特性的影响。
+
+第二部分针对 SiC MOSFET 并联应用中的均流问题进行研究，首先从动态和稳态过程两方面分析了电流不均衡产生的原因，通过理论推导出电流不均衡的关键影响因素并进行仿真分析，仿真结果与理论分析一致。其次采用了一种阻抗补偿联合栅源共模扼流圈的均流方案 ，利用等效电路模型分析了其均流原理 。 最后搭建 SiC MOSFET 双管并联电路仿真模型，通过与无均流措施、阻抗补偿方案的对比验证了该均流方案的可行性。
+
+第三部分对 SiC MOSFET 串扰抑制驱动电路进行研究，首先对串扰问题产生机理进行分析，建立了串扰电压模型。其次，通过对典型串扰抑制驱动电路的研究，提出了两种串扰抑制电路，一种是基于可变栅源电压策略的新型驱动电路，与电容型驱动电路、RCD 型驱动电路进行对比，仿真验证了该驱动电路有效地降低了串扰电压的同时减少了器件开关损耗。第二种是基于栅极回路阻抗控制策略的新型米勒钳位驱动电路，利用三极管及无源器件改变驱动回路的阻抗有效地抑制了串扰，最后进行驱动电路硬件设计并搭建了实验平台，对该驱动电路的串扰抑制能力进行了验证。
+
+本文通过理论分析、仿真与实验验证的方式，研究了 SiC MOSFET 应用中的并联均流问题和串扰抑制问题，这对于实际应用中更大程度上发挥 SiC MOSFET 的工作效能具有重要的意义。
+
+关键词： SiC MOSFET ；寄生参数 ；并联均流 ；串扰抑制 ； 驱动电路
+
+第 1 章 绪论
+
+1.1 研究背景及意义
+
+轨道交通、医疗器械、新能源汽车和电力传输是我国十分重要的战略产业，在这些产业当中电力电子技术有着举足轻重的地位。功率半导体器件作为电力电子技术的核心与基础，其在功率变换器的应用是电力电子技术发展的驱动力。传统的功率半导体器件大多基于硅（Si）材料，历经将近60年的发展后，国内外专家和研究人员对于硅材料性能的研究已接近极限，通过器件原理的革新、结构的改进及工艺的进步已难以大幅度提升其整体性能，这已成为电力电子技术发展的瓶颈问题之一。因此为了获得具有更加优异性能的器件，21世纪以来，以碳化硅（SiC）、氮化镓（GaN）为代表的第三代宽禁带半导体材料的发展得到了越来越多的关注，技术领先国家和大型跨国公司纷纷投入到SiC和GaN的研发和产业化中，产业链涵盖材料、器件、模块和应用等环节。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8hVU3GfjsArG4gSJicOTS5URXLKJxjt0v8rgoX8ic5zhOxv4MGoVs3H31dMsrVh9eor3FtwL4UaoQ/640?wx_fmt=png)
+
+表 1.1 提供了 Si 和 SiC 两种材料的性能参数，与 Si 材料相比，第三代宽禁带功率半导体 SiC 材料具备以下特性优势：
+
+1）SiC 禁带宽度为 Si 的三倍，这使得碳化硅器件与硅器件相比耐高温能力更强；
+
+2）SiC 拥有近 10 倍于 Si 的击穿电场强度，因此与硅器件相比，碳化硅器件拥有更低的导通电阻，使得器件导通损耗进一步降低；
+
+3）SiC 的载流子饱和漂移速度是 Si 的两倍，这决定了 SiC 器件可以实现更高的工作频率和开关速度；
+
+4）SiC 的热导率是 Si 的四倍，这意味着与硅器件相比碳化硅器件的散热能力更强，有助于电力电子装置集成度的进一步提高。
+
+当前，第三代宽禁带功率半导体器件已经在众多工业场合得到应用，并显示出良好的发展势头。国际优秀企业已经着手市场布局，全球工业现代化的一个新阶段已经开始，正在逐步进入第三代半导体时代。SiC MOSFET 作为第三代宽禁带半导体碳化硅器件之中最具代表性的器件，也是近十年来功率半导体器件领域的研究热点之一，因其开关速度快、导通电阻小、开关损耗低等优势，逐渐在高频、高压场合中替代传统 Si MOSFET。
+
+在一些像新能源汽车、光伏逆变器等大容量系统应用中，常采用多个 SiC MOSFET 并联运行的方式工作，SiC MOSFET 开关速度快，再加上器件自身参数分散性及电路布局的影响，并联器件之间的寄生参数难保持均匀分布，这就使得并联开关管之间漏源电流出现不均衡现象，不均流会使器件产生不对等损耗，近而影响其热分布，最终导致器件寿命不均衡，对器件安全性和并联系统的稳定运行产生影响，因此需要对 SiC MOSFET 的并联均流问题进行研究。
+
+此外 SiC MOSFET 也存在诸如阈值电压低和栅极负压耐受能力弱的缺点，随着开关速度及工作频率的提高，当 SiC MOSFET 应用在桥式拓扑电路中时，器件在高速开关过程中会引发开关串扰问题，这对 SiC MOSFET 的可靠运行带来了影响。开关串扰指的是桥式结构中同一桥臂上某一开关管进行开通或者关断动作时，会使其对管造成较大的漏源极电压变化率 dv/dt，进而在栅漏极寄生电容上产生串扰电流流入驱动回路，在原本处于关断状态下的对管的栅源极间形成串扰电压。相比于 Si MOSFET，SiC MOSFET 的阈值电压较小，栅源极间形成的正向尖峰电压极有可能会触发器件误开通，造成桥臂直通。负向尖峰电压若大于器件负压耐受值，电路长期工作会造成器件性能退化甚至击穿损坏。开关串扰现象是目前 SiC MOSFET 在高速应用中所面临的重要挑战，在减少电路控制复杂度和降低成本的基础上，设计出有效的串扰抑制驱动电路，这是目前 SiC MOSFET 在应用方面亟待解决的问题。
+
+为了确保 SiC MOSFET 在实际运行中的安全可靠，需要针对不同场合下 SiC MOSFET 所存在的关键问题进行研究，这对最大程度上发挥碳化硅器件的性能优势及推动宽禁带半导体器件的发展具有重要的学术意义。
+
+1.2 国内外研究现状
+
+1.2.1 SiC MOSFET 并联均流的研究现状
+
+针对SiC MOSFET并联应用中存在的电流不均衡现象，目前的研究主要从以下两方面入手：一是并联电流不均衡的影响因素，二是并联电流不均衡的抑制方案。文献\[16\]指出并联电路中各支路出现阻抗不对称时就会产生电流不均衡现象，提出了在SiC MOSFET漏极串入电阻以抑制电流不均衡的方案，该电阻阻值需远远大于导通电阻以平衡各个并联支路阻抗，该方案对于寄生电感差异引起的稳态电流不均衡具有抑制效果。文献\[17\]指出由电路布局产生的源极寄生电感差异是引起并联电流不均衡的主要因素，提出采用具有开尔文源极的 SiC MOSFET 分立器件进行并联，将栅极回路与功率回路进行解耦，从而减小动态电流的不均衡，另外还指出漏极电感差异是器件之间损耗不均匀的重要因素。文献\[18\]针对电流不均衡问题，提出一种有源电流平衡方案，该方案系统架构由三个模块组成，第一个模块是差分电流互感器用于检测不均衡电流，第二个模块为电流均衡控制器将不均衡电流信号经过计算产生调整控制信号输出给驱动控制单元，第三个模块为主动驱动控制部分，通过改变器件的栅极延迟时间来最大限度地消除参数不一致导致的电流不平衡，实验结果表明该方案对动态电流和稳态电流不均衡均有很好的抑制效果。文献\[19\]针对并联 SiC MOSFET 动态电流不均衡提出了一种传递曲线筛选法，在选择若干 SiC MOSFET 后绘制所有器件的传递特性曲线，筛选出哪些器件曲线更接近以便并联使用，实验结果表明与传统筛选方法相比该方法考虑了阈值电压和跨导的影响，动态电流的不均衡度从 26%有效降低至 3.5%，然而该方法也存在筛选过程耗时的弊端，同时也忽略了并联支路中寄生电感差异的影响，因此对抑制稳态电流不均衡没有起到较好的效果。文献\[20\]研究指出动态电流不均衡不仅受到器件参数和电路布局的影响，与栅极驱动电阻值也有关系，通过改变驱动电阻值从而可以减小动态电流不平衡。文献\[21\]提出了支路阻抗补偿方法来缓解 SiC MOSFET 并联电流不均衡，对功率源极侧支路阻抗进行补偿，可以减小寄生参数失配导致的动态不均衡电流。三个器件并联时，对并联器件的功率源极侧支路阻抗进行补偿后，最大动态电流不均衡度从 89.46%通过降至 10.68%。通过对漏极侧和功率源极侧支路阻抗进行补偿，可以减小并联器件间的静态不均衡电流，支路阻抗补偿后第二次脉冲结束时最大静态电流不均衡度从 21.73%降至 6.23%。文献\[22\]采用了一种串联并立绕组耦合电感的均流方法，该方法克服了分立绕组耦合电感所引发的漏源电压过冲和振荡等负面效应，实验结果验证了并立绕组方式具有良好的均流效果。文献\[23\]提出了一种新型布局方案来缓解四个SiC MOSFET 芯片并联时的电流不均衡，该方案降低了电路寄生参数差异和电流耦合效应，与传统的布局方式相比有效地缓解了SiC MOSFET 的动态电流不均衡。文献\[24\]在文献\[22\]的基础上进行改进，在并联支路中又加入了 RCD 缓冲电路，实验结果表明该方案具有良好均流效果的同时可以减小漏源关断电压振荡和过冲。
+
+然而上述均流方案往往仅能解决通态阻抗、寄生电感、栅极驱动信号、温度等因素中单因素差异造成的不均流，因此难以广泛应用。所以本文针对 SiC MOSFET 并联均流问题，尤其是动态均流问题展开相关研究。
+
+1.2.2 SiC MOSFET 串扰抑制驱动电路的研究现状
+
+SiC MOSFET 与 Si MOSFET 一样，属于电压控制型器件，开关状态由栅源电压Vgs 决定，但是碳化硅器件与硅器件相比，在材料、结构、参数特性方面存在差异，加之 SiC MOSFET 在桥式拓扑中的串扰现象尤为突出，因此不能将传统 Si MOSFET的驱动电路应用在 SiC MOSFET 上。目前对于串扰问题的研究，主要集中在串扰电压建模以及串扰抑制驱动电路设计两大方面。
+
+文献\[26\]的串扰电压模型考虑了SiC MOSFET 栅源寄生电容、栅漏寄生电容以及三端寄生电感的影响，实验结果表明栅漏寄生电容和源极寄生电感是影响串扰电压的关键因素。文献\[27\]在考虑源极寄生电感的基础上建立了串扰电压模型，并表明串扰电压是栅漏寄生电容产生的位移电流和源极寄生电感引入的感应电压共同作用的结果，通过仿真分析了栅源寄生电容和驱动电阻对串扰电压尖峰的影响。文献\[28\]分析了负载电流对串扰电压的影响，研究表明在驱动电阻不变的情况下，随着负载电流的增加会产生更高的 di/dt，从而在源极电感上产生更大的压降抬高串扰电压。文献\[29\]提出了一种改进串扰分析模型，研究包含了寄生电容的非线性、体二极管的反向恢复特性以及寄生电感，与现有的串扰模型相比不仅能详细准确地预测串扰电压幅值，而且更接近工程实际应用。文献\[30\]在考虑栅漏寄生电容、源极电感、体二极管反向恢复速度等因素的情况下，提出了一种分段线性化串扰电压模型，该模型表明串扰电压受到源极电感、栅漏寄生电容与驱动回路阻抗这三种因素的影响。文献\[31\]分析了关断瞬态串扰电压的三种来源：dv/dt、di/dt 和功率回路振荡，两种干扰导电路径：漏源寄生电容和源极电感，建立了它们的等效模型，实验结果验证了所提模型的正确性。文献\[32\]提出了一种串扰电压峰值预测方法，在考虑寄生电感的基础上建立了预测峰值方法的数学模型，实验结果表明此方法符合串扰电压实际的变化过程，增加了串扰电压预测的精确度。文献\[33\]研究了 SiC MOSFET 极间寄生电容的非线性对于串扰电压的影响，通过实验对比考虑寄生电容的非线性前后得到的串扰电压值，对驱动电路的设计提供了参考和借鉴。综上，串扰电压的建模需要考虑诸多因素：dv/dt 和 di/dt、栅极电阻、源极电感、体二极管反向恢复和寄生电容等，应根据研究目的对串扰电压模型适当的简化，在考虑必要因素的基础上保证模型准确性。
+
+目前，国内外学者对于 SiC MOSFET 串扰抑制驱动电路的研究主要围绕主动式抑制与被动式抑制方法两个方面展开。第一类主动抑制方法，这类方法经过合理设计可以获得较为优秀的串扰抑制效果，但同时也增加了电路控制复杂度与硬件成本。文献\[34\]提出了一种基于 dv/dt 检测的低电平箝位有源栅极驱动电路，通过检测 SiC MOSFET 的栅源电压和漏源电压的 dv/dt，将栅源电压低电平始终箝位到负偏置电压，从而避免器件误导通，但整体电路设计较为复杂，引入的 MOS 管与比较器也增加了硬件成本。文献\[35\]提出了一种智能多电平栅极驱动电路，采用具有 RC 电位延迟的栅源电压作为辅助支路的触发信号，同时添加了关断负电压，无需添加额外的控制信号，有效避免了高 dv/dt 引起的误导通和栅极负过压问题。文献\[36\]采用了一种由两个辅助 MOS 管和二极管组成的驱动电路，在开关瞬态主动控制桥臂上下管的栅源电压和驱动回路阻抗，虽起到了串扰抑制的效果，但由于驱动辅助 MOS 管需加入额外的 PWM 输入信号，提高了电路复杂性。文献\[37\]提出了一种含有两个辅助晶体管和电阻的驱动电路，在不增加负压和额外控制信号的情况下，通过降低驱动回路阻抗来减小串扰电压，该方法虽有一定的串扰抑制效果，但是也增加了器件开通和关断的时长。文献\[38\]在文献\[35\]的基础上进行改进，在辅助支路中加入了电压比较器，不需要添加额外的负压源减少了成本，可以抑制正负向串扰电压，但由于加入了过多的无源器件，一定程度上会影响驱动回路的稳定性。文献\[39\]提出了一种 MOS 管串联二极管的驱动电路，使用负栅极电压抑制正向串扰，零栅极电压抑制负向串扰，对于附加 PWM 信号延迟的设计要求较高，加大了设计繁琐性。
+
+第二种是采用被动抑制方法，该方法与主动抑制方法相比控制复杂度和成本均较低，具有良好的串扰抑制效果。文献\[40-44\]提出在 SiC MOSFET 栅源间并联电容的方式，减小开关过程中的串扰，该方法使得器件栅源间等效电容增大，存在开关损耗增大与开关时间延长问题。文献\[45-47\]提出 RCD（电阻电容二极管）电平转换器驱动电路，通过产生负压来抑制串扰，一定程度上增加了负向串扰对于器件的影响。文献\[48\]提出一种利用稳压二极管和电容产生负压，并在栅源极间并联两个串联稳压二极管的驱动电路，利用稳压二极管代替电阻进行分压，避免了传统 RCD 电平转换器稳定电平建立速度缓慢的问题。文献\[49\]提出了一种负压关断的基础上，通过在驱动回路中加入三极管串联电容辅助支路的驱动电路，利用三极管的开通来降低驱动回路阻抗进而缓解串扰现象，虽能起到串扰抑制的效果，但由于加入了过多的无源器件，该方案会增加器件的开关损耗。文献\[50\]在 RCD 型驱动电路的基础上提出了一种谐振辅助驱动电路，能够抑制正向串扰同时保护 SiC MOSFET 栅极不会超过负压耐受值。文献\[51\]提出了一种通过注入抵消电流来抑制由高 dv/dt 和米勒电容引起的串扰电压的方法，该方法不会影响器件的开关速度，适用于集成在 SiC 功率模块中。
+
+1.3 本文主要研究内容
+
+本文以 SiC MOSFET 为研究对象，从并联均流和串扰抑制两方面展开研究。在探究了并联电流不均衡影响因素的基础上，针对性的采用了一种阻抗补偿联合栅源共模扼流圈的均流方案，进行了理论分析与仿真验证。接着对桥式拓扑中 SiC MOSFET串扰的产生机理进行分析，提出了两种新型串扰抑制驱动电路，分别通过搭建仿真与实验平台进行了串扰抑制有效性的验证。论文结构与主要内容安排如下：
+
+第 1 章为绪论部分，介绍了半导体材料的发展历程以及碳化硅材料的特性优势，阐述了 SiC MOSFET 现阶段应用中所存在的问题和应用前景，总结了并联均流和串扰抑制驱动电路的研究现状。
+
+第 2 章为 SiC MOSFET 的器件特性及开关过程建模分析。首先介绍了 SiC MOSFET 的两种物理结构及其原理。其次基于数据手册对其电气特性进行了详细分析。最后搭建双脉冲测试电路模型，将开通和关断过程各分为四个阶段进行分析并建立了各个阶段内电压电流的数学模型。
+
+第 3 章研究了寄生参数对 SiC MOSFET 开关特性的影响。基于 LTspice 仿真平台搭建双脉冲测试仿真电路，分别从寄生电容、寄生电感、驱动电阻三方面分析其对器件开关过程中漏源电压和漏源电流的影响，包括开关时间、开关损耗、电压电流上升下降速率、电压电流应力。
+
+第 4 章为 SiC MOSFET 并联均流的研究。首先通过严格的理论推导对动态和稳态两个过程电流不均衡的产生机理进行了分析。其次搭建双管并联仿真电路探究了SiC MOSFET 并联电流不均衡的关键因素。最后采用了一种阻抗补偿联合栅源共模扼流圈的均流方案，通过建立等效分析电路图阐述了其均流原理，通过仿真验证了该均流方案的有效性。
+
+第 5 章为 SiC MOSFET 串扰抑制驱动电路的研究。首先分析了 SiC MOSFET 串扰问题产生机理，接着对串扰电压进行建模，对影响串扰电压幅值的关键参数进行仿真。其次通过对传统串扰抑制驱动电路的研究，提出了一种基于可变栅源电压策略的新型串扰抑制驱动电路，通过仿真验证了该驱动电路的有效性。此外基于栅极回路阻抗控制策略，提出了一种新型米勒钳位串扰抑制驱动电路，分析了其串扰抑制工作原理，对关键元件参数进行设计并进行串扰抑制效果仿真验证，最后通过对驱动电路各个模块进行硬件设计，搭建实验平台完成了验证。
+
+第 6 章为总结与展望。对本文的研究结果进行总结，指出本文工作中存在的不足之处，对未来的研究重点进行了展望。
+
+第 2 章 SiC MOSFET 器件特性及开关过程建模分析
+
+2.1 引言
+
+SiC MOSFET 因其优秀的材料特性逐渐成为市场上备受瞩目的功率开关器件，其与传统的 Si MOSFET 相比具有更高的耐压等级、更快的开关速度以及更低的导通电阻等优势，与 Si IGBT 相比开关损耗小且随着结温升高其开关损耗不会明显增加，关断时没有拖尾电流的现象。本章首先阐述了SiC MOSFET 的器件结构及原理，然后基于器件数据手册对 SiC MOSFET 的电气特性进行分析，并与 Si IGBT 的特性曲线进行对比研究，总结了 SiC MOSFET 在应用方面需要注意的点。最后搭建了双脉冲测试电路模型，对 SiC MOSFET 的开通以及关断过程进行了分析。本章内容为 SiC MOSFET 并联均流的研究以及串扰抑制驱动电路的设计提供了理论基础。
+
+2.2 SiC MOSFET 的基本结构及原理
+
+目前 SiC MOSFET 按照 MOSFET 芯片内部导通沟道方向区分，主要分为平面沟道以及垂直沟道两大类，平面沟道结构为目前市面上大多数生产厂商 SiC MOSFET产品中所采用的主流结构。两种结构的截面示意图如图 2.1 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WALP5q6YaGEicBNfnibw0Z1rGA78f9mgFZOz1VPWfev3XHDI0c3PnQib1QA/640?wx_fmt=png)
+
+采用如图 2.1（a）平面沟道的器件，当其沟道打开后，电流首先经过 P 基区之间构成的 JFET 区接着再流向 N﹣漂移区，产生的 JFET 效应使得电流通路变窄从而带来JFET 电阻，一定程度上增大了器件的导通电阻。采用如图 2.1（b）垂直沟道的器件，其沟道开启后电流不需要流经 JFET 区就能到达 N﹣漂移区，因此其电流通路更宽，导通电阻相对前者较小。垂直沟道结构对于 SiC MOSFET 来说，不仅导通特性要优于平面沟道结构，在提升器件的集成度、减小芯片面积方面也具备一定优势，将会是下一代 SiC MOSFET 的主流结构。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAAsRxQbQ2AjJ10JTJ0QyZ9jjngabzs2gryTbgJqNHP7oicacUSjXG55w/640?wx_fmt=png)
+
+SiC MOSFET 两种应用最广泛的实物封装如图 2.2 所示，其中 TO-247-3 为传统三管脚封装，其管脚由栅极 G、漏极 D、源极 S 构成。TO-247-4 也称之为开尔文封装，在传统三管脚封装的基础上增加了开尔文管脚 KS，将驱动回路与功率回路进行解耦，有利于降低器件损耗。
+
+2.3 SiC MOSFET 的电气特性
+
+SiC MOSFET具有多种电压规格，不同电压规格的SiC MOSFET面向不同的应用场合，因此可以代替不同的开关器件。650V~1000V SiC MOSFET主要面对Si MOSFET和Si IGBT，1200V、1700V SiC MOSFET 主要面对 Si IGBT。本章所研究的SiC MOSFET为cree公司型号为C3M0016120D的分立器件 ， 额定电压电流为1200V/115A，通态阻抗16mΩ。本小节将基于器件数据手册对其电气特性进行详细分析，另外还选取了与其额定电压电流相近的型号为IKQ75N120CT2的Si IGBT进行对比分析。
+
+2.3.1 传递特性
+
+SiC MOSFET 的传递特性表示为当漏源电压 Vds 为固定值时，栅源电压 Vgs 对器件能够输出的最大漏源电流 Ids 的影响。如图 2.3 所示为 SiC MOSFET 与 Si IGBT 的传递特性曲线 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAmNlU3N0GXsMEpNGEojicHFl4OWNbEvGck8cicDYZ06bSESQAMz5TM8Lw/640?wx_fmt=png)
+
+其中 Si IGBT 的集电极 C 对应 SiC MOSFET 的漏极 D，发射极 E 对应 SiC MOSFET 的源极 S。图 2.3 中传递特性曲线与横坐标轴的交点为阈值电压，当 SiC MOSFET 栅源电压 Vgs 的值大于阈值电压 Vgs（th）时，才会有漏源电流 Ids 输出。曲线上任意工作点的斜率定义为跨导，其所反应的是漏源电流 Ids 对栅源电压 Vgs 的变化率，从图 2.3（a）可以看出，在漏源电压 Vds 固定的情况下，漏源电流 Ids 随着栅源电压Vgs 的增加而增加，这是因为 Vgs 越高，SiC MOSFET 的沟道开通的越充分，电子更容易通过。
+
+此外，由图 2.3 可以发现在相同的工作温度下，SiC MOSFET 的阈值电压（数据手册为 3.6V）要明显低于 Si IGBT（数据手册为 6.5V），而且 SiC MOSFET 的阈值电压随着工作温度的上升会进一步减小，在桥式电路中阈值电压过低容易造成器件误导通，导致桥臂短路，进行驱动电路设计时必须增加有效保护措施。当多个 SiC MOSFET 并联使用时，不同器件的阈值电压受温度影响的变化程度也不相同，阈值电压较小的器件在开通时会承受更大的电流，因此阈值电压的失配会导致并联 SiC MOSFET 之间电流不均衡。
+
+2.3.2 输出特性
+
+SiC MOSFET 的输出特性表示为当栅源电压 Vgs 为固定值时，漏源电压 Vds 对器件能够输出的最大漏源电流 Ids 的影响。如图 2.4 所示为 SiC MOSFET 与 Si IGBT 的输出特性曲线 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAfKDia4fzYkus7gHiaITHRPmeoUjiaQlicV4fkfHtMibJFWxzp86UdiaicSJYg/640?wx_fmt=png)
+
+由图 2.4（a）可以发现，SiC MOSFET 的输出特性曲线从零点开始，这是由于其导通时呈现电阻的特性；而 Si IGBT 是在 VCE 大于饱和压降 VCE（sat）后才有电流输出，这是因为 IGBT 内部由寄生 BJT 负责导通。所以在小电流下，由于 VCE（sat）的影响，Si IGBT 的通态压降较大，SiC MOSFET 通态损耗更小。而在大电流下，Si IGBT 可以在较小的通态压降下流通更大的电流，这是因为 Si IGBT 是双极性器件，跨导更大。
+
+Si IGBT 的输出特性曲线在栅射电压为 11V 以下时，呈现出分明的线性区和饱和区，相比之下 SiC MOSFET 的输出特性曲线没有鲜明的线性区和饱和区的分界。此外，在同一栅源电压 Vgs 下，通态阻抗 Rds（on）随着漏源电压 Vds 的增加而减小，在漏源电压 Vds 相同时，通态阻抗 Rds（on）会随着栅源电压 Vgs 的增大而减小，因此在设计SiC MOSFET 驱动电路时，驱动开通电压需要设置足够高（一般为 15V 及以上），以确保器件在充分导通的同时能够降低导通损耗。
+
+2.4 SiC MOSFET 开关过程的建模与分析
+
+双脉冲测试以半桥电路为基础，其作用是获取功率器件开关过程中的动态性能，因此本节将其作为示例来分析 SiC MOSFET 的开关过程。图 2.5 所示为包含寄生参数的双脉冲测试电路模型，下面基于此模型对 SiC MOSFET 的开通和关断过程进行理论分析。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAcCFUy0T7LuNXKTy2VCbw4CVQ7J1AHELo3lgy3Z1Bt0qnpLYctgX8YA/640?wx_fmt=png)
+
+图 2.5 中，SiC MOSFET 与续流二极管VD 共同组成半桥结构的双脉冲测试电路，其中 SiC MOSFET 为待测器件，Ld、Lg 和 Ls 分别为 SiC MOSFET 的漏极寄生电感、栅极寄生电感和源极寄生电感，Cgs、Cgd 和 Cds 分别为 SiC MOSFET 的栅源寄生电容、栅漏寄生电容和漏源寄生电容，LLOOP 为功率回路寄生电感，Vd（on）和 Vd（off）分别为驱动开通和关断电压，其作用是控制 SiC MOSFET 的开通与关断，L 为负载电感，VDC为直流母线电压，CDC 为直流侧母线电容。在下述分析中将内部寄生电阻 Rg（in）和外部驱动电阻 Rg（ex）合并为驱动回路电阻 Rg 来考虑。
+
+2.4.1 SiC MOSFET 的开通过程分析
+
+SiC MOSFET 开通过程的理论波形如图 2.6 所示，其中 Vd 为驱动电压，Vgs 为栅源电压，Ids 为漏源电流，Vds 为漏源电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAC5HGLyBlibFcibMXZNrycjND0jicfwBBGgMc6BUVQfNBX1yetucGfqhPQ/640?wx_fmt=png)
+
+下面将 SiC MOSFET 的开通过程分为四个阶段进行分析，第一个阶段为开通延时阶段（t0，t1），SiC MOSFET 的栅源电压未达到阈值电压；第二个阶段为漏源电流上升阶段（t1，t2），SiC MOSFET 的漏源电流上升至负载电感电流；第三个阶段为漏源电 压 下 降 阶 段 （t2，t3），漏 源 电 压 的 下 降 使 得 栅 漏 寄 生 电 容 Cgd 增大 ，SiC MOSFET 进入米勒平台；第四个阶段为栅源电压上升阶段（t3，t4），SiC MOSFET 栅源电压上升至驱动开通电压，器件进入完全导通状态，图 2.7 所示为每个阶段的等效分析电路图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAr2H8yX87C5ZmYXaWnwcISDBAJNBvY3pXKoD3hswYrkkwuf4SoBjTDA/640?wx_fmt=png)
+
+（t0，t1）：器件开通延时阶段。t0 时刻，驱动电压 Vd 从 Vd（off）转换至 Vd（on），SiC MOSFET 的栅源电压 Vgs 从负压开始逐步上升，与此同时，驱动电压 Vd 通过驱动电阻Rg 给 SiC MOSFET 的栅源寄生电容 Cgs 和栅漏寄生电容 Cgd 充电，t1 时刻达到阈值电压 Vgs(th)。此阶段中栅极电流的表达式如式（2.1）所示，该阶段维持的时间为 SiC MOSFET 的开通延时时间 td（on）。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAoTe4tSeJBXIbtJbXkoE71j7PuibgNibLolswicTyzdhjyLmrShXo0dFXg/640?wx_fmt=png)
+
+（t1，t2）：漏源电流 Ids 上升阶段。t1 时刻，SiC MOSFET 已经导通，栅源电压Vgs 达到阈值电压 Vgs（th）后继续上升。在 SiC MOSFET 开通之前，上一状态中电感电流通过二极管 VD 续流，续流过程还未结束，电感上的电流基本不变，t1 时刻二极管VD 电流开始下降，SiC MOSFET 和二极管换流，漏源电流 Ids 迅速上升至负载电感电流，快速变化的漏源电流 Ids 使得漏极寄生电感 Ld、源极寄生电感 Ls、功率回路寄生电感 LLOOP 上产生压降，从而造成漏源电压 Vds 下降，压降大小可以用式（2.2）表示。
+
+在此阶段中，对图 2.7（b）等效电路进行分析，漏源电流 Ids 和栅源电压 Vgs 的时域表达式分别如式（2.3）和式（2.4）所示，其中 gm 为跨导。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WA2TlDkOwtd3jB5lCwziaIMnULmLx9W3cy0yYChVEzSDW4TH8SwJWH5Bw/640?wx_fmt=png)
+
+（t2，t3）：漏源电压下降阶段。t3 时刻，上一阶段中负载电流 IL 从二极管 VD 全部切换到 SiC MOSFET，漏源电流 Ids 从尖峰电流 Ipeak 下降至负载电流 IL，漏源电压 Vds开始大幅下降，随着漏源电压 Vds 的急速下降，栅漏寄生电容（也称为米勒电容）Cgd逐渐增大，SiC MOSFET 产生了米勒效应，米勒效应使得栅源电压 Vgs 在这一阶段中保持米勒电压 Vm 不变。
+
+在此阶段中，对图 2.7（c）等效电路进行分析，漏源电压 Vds 的下降速率表达式如式（2.5）所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAIiczew2d2nPGYCyzicJvLF9AWODT9YIxjjCtMwjNQm13LViajibx2ibiaicwg/640?wx_fmt=png)
+
+（t3，t4）：栅源电压 Vgs 继续上升阶段。t3 时刻，SiC MOSFET 漏源电压 Vds 下降至通态压降 Vds（on），漏源电流 Ids 保持负载电流 IL 不变，栅源电压 Vgs 继续上升至 t4 时刻到达驱动开通电压，SiC MOSFET 进入饱和导通状态，整个开通过程完成。
+
+2.4.2 SiC MOSFET 的关断过程分析
+
+SiC MOSFET 关断过程的理论波形如图 2.8 所示，整个关断过程同样划分成四个阶段进行分析，第一个阶段为关断延迟阶段（t5，t6），此时 SiC MOSFET 栅源电压下降至米勒电压，关断过程仍未开始；第二个阶段为漏源电压上升阶段（t6，t7），SiC MOSFET 漏源电压增大至母线电压；第三个阶段为漏源电流下降阶段(t7，t8)；第四个阶段为栅源电压下降阶段（t8，t9），SiC MOSFET 栅源电压下降至驱动关断电压时，器件关断过程结束，图 2.9 所示为每个阶段的等效分析电路图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WA2ohLk3FJ82dSEcehMgA6Bwzl7r7trgMyibuE9wSfGvX8lUHIOZThSYw/640?wx_fmt=png)
+
+（t5，t6）：器件关断延迟阶段。在 t5 时刻之前，器件处于完全导通状态，负载电流完全流过 SiC MOSFET。t5 时刻，驱动电压 Vd 从 Vd（on）转换至 Vd（off），驱动电路通过驱动电流 ig 对寄生电容 Cgs 和 Cgd 放电，栅源电压 Vgs 开始降低，到 t6 时刻降至为米勒电压 Vm，此阶段中漏源电压 Vds 为通态压降 Vds（on），漏源电流 Ids 保持负载电流 IL不变，SiC MOSFET 仍处于导通状态。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAId2TSlLMGGwenJg3xW5RTscJpZ1yHgz84b7d2Bia9gyYfQOc3OMbaQQ/640?wx_fmt=png)
+
+（t6，t7）：漏源电压 Vds 上升阶段。t6 时刻，SiC MOSFET 产生米勒效应，因此此阶段栅源电压 Vgs 保持米勒电压 Vm 不变。漏源电压 Vds 迅速上升，电压上升速率的表达式如式（2.6）所示。同时漏源电流 Ids 有所下降，这是由于二极管 VD 内部结电容放电，会从负载电感分走一些电流。当 t7 时刻漏源电压 Vds 达到直流母线电压 VDC 时，此阶段结束。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAQ240dvCO3a8zK7qnYk2NhvKiaejCp29xmVx7hH3ErxgPxRL3oPicjJdg/640?wx_fmt=png)
+
+（t7，t8）：漏源电流 Ids 下降阶段。t7 时刻，栅源电压 Vgs 开始下降至 t8 时刻达到阈值电压 Vgs(th)，与此同时续流二极管 VD 开通，与 SiC MOSFET 发生换流，因此漏源电流 Ids 会迅速下降，漏源电流 Ids 的快速变化会使得功率回路寄生电感上产生压降，进而导致 SiC MOSFET 的漏源电压 Vds 出现关断电压过冲，过冲电压表达式如式（2.7）所示，当漏源电流 Ids 到 t8 时刻降至为零时，此阶段结束。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAYBiapVkvkVB562xoVwsW5XE9OF7xPmUFEubCZM7ZgD8AVQTqsUwJmwA/640?wx_fmt=png)
+
+（t8，t9）：栅源电压 Vgs 继续下降阶段。t8 时刻，栅源电压 Vgs 由阈值电压 Vgs（th）继续下降，直至 t9 时刻降至为驱动关断电压 Vd（off），SiC MOSFET 完全关断。
+
+根据上述对 SiC MOSFET 开关过程的分析，可以看出漏源电流 Ids 的变化过程大致分为两个阶段，第一个阶段是栅源电压 Vgs 位于阈值电压与米勒电压之间，此阶段中 Ids 处于动态上升过程；第二个阶段是栅源电压 Vgs 大于米勒电压，此阶段中 Ids 处于稳态过程，则漏源电流 Ids 的大小可以表示为式（2.8）。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAcroJOKSdibNZIn1lftBcMn7GNH2AMBZsFEAdicazrh9agDOAbRUTSjlw/640?wx_fmt=png)
+
+2.5 本章小结
+
+本章首先介绍了 SiC MOSFET 平面沟道和垂直沟道两种物理结构及其原理，结合数据手册分析了其传递特性和输出特性，指出与 Si IGBT 相比在应用方面需要注意的点。通过建立双脉冲测试电路模型，将开通和关断过程各分成四个阶段，分别对每个阶段的等效电路进行分析并建立电压电流的数学模型，得到 SiC MOSFET 在开关过程中不同时刻器件的工作特性，为后续 SiC MOSFET 并联均流的研究和串扰抑制驱动电路的设计做好铺垫。
+
+第 3 章 寄生参数对 SiC MOSFET 开关特性的影响
+
+3.1 引言
+
+相较于 Si 基器件，SiC MOSFET 能够实现更快的开关速度、更高的工作频率以及更低的功率损耗，但是高速的暂态过程使得 SiC MOSFET 的开关特性更容易受到电路中寄生参数的影响。表 3.1 列出了不同器件之间的寄生电容值比较，从表 3.1 列出的数据可知 SiC MOSFET的寄生电容值与 Si MOSFET、Si IGBT 相比差异较大，寄生电容对器件的影响主要体现在开关速度和开关损耗方面。此外，电路中寄生电感的存在也会对 SiC MOSFET 的应用造成许多不利影响，例如开关过程中的电压电流振荡与过冲、并联电流不均衡和桥式电路串扰问题等等，因此研究 SiC MOSFET 开关特性受寄生参数影响的规律，为后续并联均流的研究及串扰抑制驱动电路的设计提供了理论基础。本章将通过仿真与理论分析研究寄生参数对 SiC MOSFET 开关特性的影响，主要研究对象包含：寄生电容 Cgs、Cgd 和 Cds，寄生电感 Lg、Ld 和 Ls 以及驱动电阻 Rg。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAhJicPsCt0kRNOkSnk1ITbmLKEjoLPDYOTYcnpmcyic49tvBiaiavDFyCTw/640?wx_fmt=png)
+
+3.2 双脉冲测试仿真电路
+
+本章通过 LTspice 仿真平台搭建双脉冲测试仿真电路，从开关速度、开关损耗、电压电流尖峰等方面具体研究不同寄生参数对 SiC MOSFET 开通关断性能的影响。如图 3.1 所示为 SiC MOSFET 双脉冲测试仿真电路原理图，由 SiC MOSFET、续流二极管、负载电感等组成，其拓扑结构为半桥电路，采用的是 MOS-二极管形式的功率变换器换流模式，SiC MOSFET 器件模型选用 cree 公司型号为 C3M0016120D 的 spice仿真模型。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAwalRUVKk4n4Ju5PjdwseIiaqOv8GwQE0BsZ54qmWpruxMO8O7PIO1mQ/640?wx_fmt=png)
+
+图 3.1 双脉冲测试电路的原理为：由 SiC MOSFET 驱动电路的测试信号 V1 生成两个 PWM 脉冲信号，驱动 SiC MOSFET 完成两次开通和关断，第一个为长脉冲信号其目的是为负载电感充电，随着 SiC MOSFET 导通时间的增加，负载电感电流线性上升至期望工作电流，此时可以观测器件的关断特性，当第二个短脉冲信号到来时，SiC MOSFET 再次开通，此时可以观测器件的开通特性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAzJrycepaAvHopEd3Q9SVCjXAXT1ojc7cGkWNpqQJDTOf9DWS93Licicg/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAp0LwmGhBBXFbXE8wibl51eRBSO4RmcQdZjM59uUMaLHe1ugiakrTLibhw/640?wx_fmt=png)
+
+驱动脉冲信号波形如图 3.2（a）所示，第一个长脉冲设置为10μs，第二个短脉冲设置为 1μs，中间间隔 3μs。通过仿真可以得到双脉冲测试电路的波形如图 3.2（b）所示 ， 长 脉 冲 结 束 时 的 关 断 过 程 和 短 脉 冲 开 始 时 的 开 通 过 程 就 是 所 测 试 的 SiC MOSFET 的开关特性，对应于图中虚线框所标注的关断与开通，其中绿色代表栅源电压，蓝色曲线代表漏源电压，受寄生参数影响关断时出现过冲，红色曲线代表漏源电流，受寄生参数影响开通时产生振荡。本文在研究寄生参数对 SiC MOSFET 开关过程的影响时，寄生电容 Cgs、Cgd 和 Cds 分别选取 0.2nF、20pF 和 100pF 作为基准，寄生电感 Lg、Ld 和 Ls 分别选取 1nH、5nH、5nH 作为基准，驱动电阻 Rg 选取 5Ω 作为基准。
+
+3.3 寄生电容对 SiC MOSFET 开关特性的影响
+
+对于 SiC MOSFET 来说，在相同电压电流等级下，不同厂商生产的各个型号之间由于芯片内部制造工艺的不同，其内部寄生电容通常存在差异，寄生电容的差异一定程度上会影响 SiC MOSFET 开通和关断过程中漏源电压 Vds、漏源电流 Ids 的变化速率以及开关时间和开关损耗。
+
+3.3.1 栅源寄生电容 Cgs
+
+图 3.3 和图 3.4 分别为不同栅源寄生电容 Cgs 下 SiC MOSFET 漏源电压 Vds 和漏源电流 Ids 的开通及关断仿真波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAv1HzQaIWTOpuJBRpEicsBMx1jZj09g6iaicxYjM3Dn7ZezRQE1ItyfXbA/640?wx_fmt=png)
+
+仿真中通过在 SiC MOSFET 栅源极间并联电容来改变器件栅源寄生电容的大小。观察图 3.3 和图 3.4 可以看出，当 Cgs 从 0.2nF 提高到 1.1nF 时，SiC MOSFET 开通和关断的时间均出现延迟，这是由于 Cgs 的增大拉长了驱动电流充放电的时间。其次，随着 Cgs 的增大，漏源电流 Ids 的上升速率减缓，由于 Cgs 会与栅极寄生电感 Lg 作用，因此会引起关断时漏源电压 Vds 和漏源电流 Ids 的振荡。
+
+3.3.2 栅漏寄生电容 Cgd
+
+图 3.5 和图 3.6 分别为不同栅漏寄生电容 Cgd 下 SiC MOSFET 的漏源电压 Vds 和漏源电流 Ids 的开通及关断仿真波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WA5Sxv4YrjKJ3b1VDpzGTB7AIEuomrXONibR2L5licxibbuiapgBJKzoyybQ/640?wx_fmt=png)
+
+仿真中通过在 SiC MOSFET 栅漏极间并联电容来改变器件栅漏寄生电容的大小。从图 3.5 和图 3.6 可以看出，随着 Cgd 从 20pF 增大到 80pF，在开通过程中，漏源电压Vds 下降速率出现明显降低，漏源电流 Ids 的上升速率几乎不受影响，在关断过程中，Cgd 的增长会使 SiC MOSFET 米勒平台的时间出现延长，也会造成关断速度下降，因此漏源电压 Vds 上升速率呈现明显的降低，由于电压上升到母线电压时漏源电流才开始下降，因此漏源电流 Ids 的下降也有延迟。
+
+3.3.3 漏源寄生电容 Cds
+
+图 3.7 和图 3.8 分别为不同漏源寄生电容 Cds 下 SiC MOSFET 的漏源电压 Vds 和漏源电流 Ids 的开通及关断波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAkAX7FBDDp3Ydia66xx5ZQXiaicU7slKQ4BRvK4UYecmIiaEmhATc5ciaKrw/640?wx_fmt=png)
+
+仿真中通过在 SiC MOSFET 漏源极间并联电容来改变器件漏源寄生电容的大小。由图 3.7 和图 3.8 可以看出，在开通过程中，随着 Cds 从 100pF 增加至 700pF，漏源电压 Vds 的下降速率和漏源电流 Ids 的上升速率几乎没有变化，漏源电流 Ids 在开通过程中由于 Cds 的增加尖峰电流呈现出明显上升。在关断过程中，漏源电压 Vds 的上升速率和漏源电流 Ids 的下降速率基本无变化，两者振荡幅度随着 Cds 的增大随着逐渐增加，关断尖峰电压随之上升。
+
+利用 LTspice 软件提取寄生电容在不同仿真参数下器件的开关损耗并绘制成图，图 3.9 所示为不同寄生电容下 SiC MOSFET 的开关损耗图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WA5zDSyTIG1wVjWBciaRyQACrib6liawfOzLarRfu6iaicicfU8NeQX6oOib05w/640?wx_fmt=png)
+
+由图 3.9 可以看出：随着栅源寄生电容 Cgs 的增大，SiC MOSFET 的开通损耗变化很小，关断损耗增加了近 20%，这是因为 Cgs 的增大使得关断时间变长，因此关断损耗受影响比较大。随着栅漏寄生电容 Cgd 的增大，开通和关断损耗均出现明显增长，而且关断损耗受影响更大，Cgd 从 20pF 增加到 80pF 过程中，开通损耗增长了 30%，关断损耗增长了 46%，这是因为 Cgd 的增大造成米勒平台时间延长，器件关断速度下降。随着漏源寄生电容 Cds 的增大，开通损耗也随之增长，关断损耗逐渐下降，Cds 从100pF 增大至 700pF 的过程中，开通损耗增长了 34%，关断损耗下降了 30%。
+
+3.4 寄生电感对 SiC MOSFET 开关特性的影响
+
+随着开关频率的增大，电路布局中的寄生电感对 SiC MOSFET 开关特性的影响程度也越来越大，在本节中，将 SiC MOSFET 开关电路中的寄生电感分为三部分：栅极寄生电感 Lg、漏极寄生电感 Ld 和源极寄生电感 Ls，从开关时间、电流振荡、电压尖峰等方面入手，分别研究其对 SiC MOSFET 开关特性的影响。
+
+3.4.1 栅极寄生电感 Lg
+
+不同栅极寄生电感 Lg 下 SiC MOSFET 的漏源电压 Vds 和漏源电流 Ids 的开通及关断波形分别如图 3.10 和图 3.11 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WATsMJKBicRvc87kJT68PIdNcOtBTYlDicGuBpEtpic9p0C8dGGdp8IFjMg/640?wx_fmt=png)
+
+由图 3.10 和图 3.11 可以看出，在开通过程中，随着 Lg 从 1nH 增大至 75nH，漏源电压 Vds 和漏源电流 Ids 的波形几乎没有受到影响，在关断过程中，漏源电压 Vds 尖峰电压随着 Lg 的增大略微上升，漏源电流 Ids 也没有明显变化。总体来说，栅极寄生电感 Lg 的变化对于 SiC MOSFET 开关特性的影响不大，因此在实际应用中，可以通过驱动电路合理布局来减小 Lg 的值。
+
+3.4.2 漏极寄生电感 Ld
+
+不同漏极寄生电感 Ld 下 SiC MOSFET 的漏源电压 Vds 和漏源电流 Ids 的开通及关断波形分别如图 3.12 和图 3.13 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAQUYax9AEFZLpfXgjVGkIAKmrHuTXjp6jX5iaWdkjiaDfrj3b8gtmjUog/640?wx_fmt=png)
+
+由图 3.12 和图 3.13 可以看出，在开通过程中，随着 Ld 从 5nH 增大至 100nH，漏源电压 Vds 出现一定的延迟，并且漏源电流的振荡幅度也会随之增加，由于漏源电流变化率 dIds /dt 较大，因此漏极寄生电感 Ld 上会产生感应电动势。同时，漏源电压也会随着 Ld 的增加而降低。在关断过程中，漏源电压 Vds 的尖峰电压随着 Ld 的增大而上升，漏源电流 Ids 基本不受影响。
+
+3.4.3 源极寄生电感 Ls
+
+不同源极寄生电感 Ls 下 SiC MOSFET 的漏源电压 Vds 和漏源电流 Ids 的开通及关断波形分别如图 3.14 和图 3.15 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAzRptUbYaoFxPVRJDKOicUA5oDxTAUYn6koScRMIhJyibevTudTaqzRyg/640?wx_fmt=png)
+
+由图 3.14 和图 3.15 可以看出，在开通过程中，随着源极寄生电感 Ls 从 1nH 增大至 15nH，SiC MOSFET 出现明显的开通延时，漏源电压 Vds 的变化速率几乎不受影响，漏源电流 Ids 上升速率出现显著降低，漏源电流 Ids 的尖峰电流也有一定减小。在关断过程中，SiC MOSFET 同样出现明显的关断延时，随着源极寄生电感 Ls 的增大，漏源电压 Vds 的振荡幅度和尖峰电压减小，漏源电流 Ids 的下降变化速率显著降低。总体来说，源极寄生电感 Ls 的增大虽然可以抑制关断电压振荡和开通电流尖峰，但同时增加了器件的开通和关断时长，降低了开关速度，不利于 SiC MOSFET 高开关速度这一特性优势的应用。
+
+利用 LTspice 软件提取寄生电感在不同仿真参数下的器件损耗，图 3.16 所示为SiC MOSFET 在不同寄生电感下的开关损耗图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WATnrYQQkYfNTXJu67nlD4a0ibFw0ek0k5hdNfznnhmPnw5BKwXAKS9Xw/640?wx_fmt=png)
+
+由图 3.16 可以看出：（1）随着栅极寄生电感 Lg 的增大，开通损耗变化幅度很小，而关断损耗下降了近 10%。（2）随着漏极寄生电感 Ld 的增大，开通损耗下降了 6%，关断损耗上升了 5%，总体变化幅度很小。（3）源极寄生电感 Ls 的增大对开通和关断损耗均有很大的影响，从 1nF 增长至 15nF 的过程中，开通损耗增长了近 85%，关断损耗增长了 81%，这是由于 Ls 的增大减小了 SiC MOSFET 开关速度，并且使得开关时间明显变长。
+
+3.5 驱动电阻 Rg 对 SiC MOSFET 开关特性的影响
+
+不同驱动电阻 Rg 下 SiC MOSFET 的漏源电压 Vds 和漏源电流 Ids 的开通及关断波形如图 3.17 和图 3.18 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WANjNCG9y3jOvKDwZTGqC1t4za6Ily0Ol9YUKGOmE471s50Hb4WQ4ZDA/640?wx_fmt=png)
+
+从图 3.17 和图 3.18 可以发现，在开关过程中，在驱动电阻 Rg 从 5Ω 增大到 20Ω的过程中，SiC MOSFET 的开关时间呈现明显的增加，漏源电压和漏源电流的上升及下降速率几乎无变化，关断时刻尖峰电压随着驱动电阻值的增大有所降低。在 SiC MOSFET 的实际应用中，驱动电阻的大小直接影响到器件的开关速度，选择合适的驱动电阻对器件的开关特性尤为重要。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAOrIK9ZEuXwBpHiczesu7TAAWCCfjTmPWwm7j8bKV2UV0Wm9ZuibJpbDQ/640?wx_fmt=png)
+
+图 3.19 为不同驱动电阻下 SiC MOSFET 的开关损耗图。从图 3.19 可以看出，随着驱动电阻值的增大，开通及关断损耗均大幅增加，在 Rg 从 5Ω 增加到 20Ω 的过程中，开通损耗增长了 64%，关断损耗增长了近 97%，可以看出驱动电阻对器件开关损耗的影响十分显著。
+
+3.6 本章小结
+
+本章系统地研究了寄生电容、寄生电感、驱动电阻对 SiC MOSFET 开关特性的影响，综合以上仿真结果并结合理论分析，总结如下：
+
+（1）栅源寄生电容 Cgs 是影响 SiC MOSFET 的开通时间与漏极电流 Ids 变化速率的主要因素，Cgs 越大，开通时间越长，漏极电流 Ids 上升速率越慢；栅漏寄生电容Cgd 主要影响开关时间和漏源电压 Vds 变化速率，Cgd 越大，开关时间越长，漏源电压Vds 上升和下降速率越慢；漏源寄生电容 Cds 主要影响关断过程电压尖峰和开通过程电流尖峰，Cds 越大，电压电流尖峰越高。
+
+（2）在正常范围内，栅极寄生电感 Lg 对 SiC MOSFET 开关时间和电压电流影响甚微，通过合理设计驱动电路可以将 Lg 保持在合理范围内；漏极寄生电感 Ld 是影响关断过程电压尖峰和开通过程电流振荡的主要因素，Ld 越大，电流振荡幅度越大，电压尖峰越高，关断损耗要大于开通损耗，总的开关损耗变化很小；与漏极寄生电感Ld 的作用相反，源极寄生电感 Ls 对波形振荡和电压电流尖峰具有抑制作用，Ls 越大，电流振荡幅度越小，电压尖峰越低，然而 Ls 的增大会显著增加开关时间和开关损耗。
+
+在三种寄生电感中，源极寄生电感 Ls 对开关特性的影响最大，因为它同时存在于功率回路和栅极驱动回路中，对栅极驱动电压产生了一个负反馈的效果。在进行电路设计时，应合理优化布局，减小 Ld 和 Ls 的值。
+
+（3）驱动电阻 Rg 主要影响 SiC MOSFET 的开关时间和开关损耗，随着 Rg 的增大，开关时间越长，开关损耗也会显著提升，此外，Rg 的增大可以减小关断漏源电压尖峰。
+
+第 4 章 SiC MOSFET 并联均流方案研究
+
+4.1 引言
+
+SiC MOSFET 固然具有优越的特性，但其制造工艺与硅基器件相比还不够成熟，晶圆的产量较低、器件的热机械应力较高这些问题限制了 SiC MOSFET 的芯片尺寸，因为上述问题的存在，目前市面上 SiC MOSFET 分立器件的额定工作电流较低。当单个 SiC MOSFET 的电流额定值无法满足大功率系统的应用需求时，通过并联多个SiC MOSFET 的方式是一种经济高效的应对措施，这就不可避免地会带来并联器件之间的电流分配不均衡问题。
+
+一方面，并联 SiC MOSFET 自身参数的分散性导致电流分配不均衡；另一方面，当 SiC MOSFET 并联运行时，线路布局的不对称导致的回路中寄生参数差异同样会造成电流分配不均衡，电流不均衡将导致并联器件产生不平等的开关损耗，进而影响器件热分布，最终导致器件寿命不均衡\[9\]。因此研究 SiC MOSFET 并联工作中电流不均衡的关键因素，并采取有效措施来抑制电流的不均衡对于提高 SiC MOSFET 在并联应用中的稳定性十分重要。
+
+4.2 SiC MOSFET 并联电流不均衡产生机理分析
+
+根据第二章中对 SiC MOSFET 开关过程的分析并结合式（2.8），本文探究 SiC MOSFET 并联电流不均衡的产生机理将分为两个过程进行分析，第一个过程为栅源电压 Vgs 上升或下降至阈值电压 Vgs(th)，漏源电流 Ids 处于上升或下降状态，此过程为SiC MOSFET 并联电流动态过程；第二个过程为栅源电压 Vgs 大于米勒电压 Vm 后，漏源电流 Ids 已经达到稳定状态，此过程为 SiC MOSFET 并联电流稳态过程。
+
+4.2.1 并联 SiC MOSFET 动态电流不均衡
+
+由式（2.8）可知，在 SiC MOSFET 并联电流动态过程中，影响并联电流不均衡的因素包括跨导 gm、阈值电压 Vgs(th)和栅源电压 Vgs，其中跨导 gm 和阈值电压 Vgs(th)为SiC MOSFET 固有的特性参数，主要受到工艺与工作结温的影响。而栅源电压 Vgs 会受到电路中寄生参数的影响发生变化，所以需要建立数学模型进行分析。在图 2.5 的基础上构成的包含寄生参数的 SiC MOSFET 并联双脉冲测试电路如图 4.1 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAXCBNXU4YCicAz4pZDbWgicex9CQWvLxibGuc0pzvsmUbh9ibvVfRHFOK8w/640?wx_fmt=png)
+
+为了便于分析，图 4.1 中右侧 SiC MOSFET 的寄生参数未画出。根据第三章分析可知，栅极寄生电感 Lg 在合理范围内对器件开关特性的影响较低，因此在下面的分析中将其忽略。基于图 4.1 所示的并联电路，由基尔霍夫电压定律（KVL），可以得到栅极电流 ig 的方程：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAqv7rPoeNj1fDFK7D4z1GFuNbicEpe4MsLqVhiaibfziatvSGaibIntskP0Q/640?wx_fmt=png)
+
+在此过程中，栅极电流 ig 主要为栅漏寄生电容 Cgd 和栅源寄生电容 Cgs 充电，因此栅极电流 ig 又可表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAMjgdBGyl2ibPx6UibKsNDEKicXwzxzfpc1WS0NWFoN9cibo1FExJbVrkkA/640?wx_fmt=png)
+
+式（4.2）中，igd 和 igs 分别为 SiC MOSFET 的栅漏电流和栅源电流，Vgd 为栅漏电压。根据电位与电压的关系，栅漏电压 Vgd 可以表示为栅源电压与漏源电压的差，即Vgd=Vgs-Vds，则式（4.2）又可表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAxwRgpGRCbDHr9Zqjut2FQyDz3XrXQKIyzcjhqyVHY4iaqlXTIDeD2Zw/640?wx_fmt=png)
+
+在漏源电流 Ids 从零开始上升的这一过程中，由式（2.2）漏源电压所下降的压降表达式可以得到此过程中漏源电压 Vds 为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAXdT1arJpEDiaC5o2ic7AKw8KH8Ut2qTaG0hsA7gVwrnkCQpOOmdpbjHA/640?wx_fmt=png)
+
+对式（2.8）求导可以得到漏源电流 Ids 与栅源电压 Vgs 的关系为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAWf0jOoJpORC1VskAU58y32iadQrjwEN03zs5I3HcEPHVGzyLok9HWIQ/640?wx_fmt=png)
+
+将式（4.3）、式（4.4）和式（4.5）带入式（4.1）中，整理可以得到关于栅源电压 Vgs 的微分方程：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAoyCnoF4aiaMAcJj12vK5LqTUpnZR49eHe2rvsibibMCKhjmbDvTL8Wibow/640?wx_fmt=png)
+
+式（4.6）中 λ1、λ2 和 λ3 分别为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAm9hicf9wNcFZyFSicL81wsic0wxZILicMZ3I6A3B1INiaUUOg6kSf3n4zDQ/640?wx_fmt=png)
+
+由式（4.7）可以看出，栅源电压三阶导函数的系数 λ1 为跨导 gm、栅漏寄生电容Cgd 和寄生电感LLOOP+Ld+Ls的乘积，经查阅 SiC MOSFET 的数据手册，栅漏寄生电
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAiaHhvGWPSHkUXaoQEJnicUVYOTEA2nHaSVraMLzTRibdRWYPON1oP5UdQ/640?wx_fmt=png)
+
+综合上述分析可知，SiC MOSFET 并联电流动态过程不均衡主要与栅源电压 Vgs有关，而栅源电压 Vgs 受到栅漏寄生电容 Cgd、栅源寄生电容 Cgs、驱动电阻 Rg 以及电路中寄生电感 Ld、Ls 的影响。
+
+4.2.2 并联 SiC MOSFET 稳态电流不均衡
+
+由式（2.8）可知，当栅源电压 Vgs 达到米勒电压 Vm 时，漏源电流 Ids 已经达到稳定值，当并联器件进入该过程时，电流会保持动态过程结束时的电流差，漏极寄生电感 Ld 和源极寄生电感 Ls 为稳态过程中电流不均衡的关键因素。
+
+在稳态过程中，SiC MOSFET 处于完全导通状态，因此将其等效为导通电阻 Rds，SiC MOSFET 并联电流稳态过程等效分析电路如图 4.2 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAy5Ky3Gnia9rhrsh2LpYbwic7A33YnC1cNpEsq6LmbmMic4hawXItmwkAQ/640?wx_fmt=png)
+
+根据图 4.2 所示等效电路，具体分析寄生电感对稳态过程中 SiC MOSFET 并联电流均衡情况的影响，由基尔霍夫电压及电流定律，回路中电压电流关系可以表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAyAutlibOt8ViaAwxdbnNlLHY8yXNKoIbJsNQfSUCj9HUx9ZnzCC8eghQ/640?wx_fmt=png)
+
+因为源极寄生电感 Ls 和漏极寄生电感 Ld 的作用相同，可以将两者结合起来分析，设两条支路间寄生电感之差为∆L，则两条支路间寄生电感关系为 Ld1+Ls1= Ld2+Ls2+∆L，类似的，设两条支路电流之差为∆Ids，则两条支路之间电流关系为 Ids1= Ids2+∆Ids，假设两并联 SiC MOSFET 通态阻抗相等，Rds1=Rds2=Rds ，则式（4.9）可以表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAZXXvPOdRCFwtooItmmTXzzibJHpVoM9aTG2qn789e83w21bpxeEjowg/640?wx_fmt=png)
+
+SiC MOSFET 处于饱和导通状态时，可以看作阻值为几十 mΩ 的电阻，因此其通态压降与母线电压相比非常小，直流侧电压几乎完全施加在负载电感 L 上，所以直流母线电压可以近似表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAYHoVwSict9lwpxo01KKfP3mucQqYYJM7wicPr6hkzsQWvwm1lRKic8khA/640?wx_fmt=png)
+
+将两条支路之间电流关系式 Ids1= Ids2+∆Ids 代入式（4.11），可以得到：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAqGFgI4NN7SGBYrebWXtF9K0giaQMT3FagNgsjlLcf1G5g74omROBZKg/640?wx_fmt=png)
+
+将式（4.12）代入式（4.10），可以得到两条支路间电流差∆Ids 的微分方程：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAHJH7ic3rETCFtlrIx6okDCF1ibV9gHTFhzhZ5XFLt8auNM5JfbD5eVHg/640?wx_fmt=png)
+
+代入微分方程的初始条ΔIds(0)= ΔIds(td)，其中ΔIds(td)为并联SiC MOSFET 动态过程结束时不均衡电流差异值， td为动态过程中漏源电流的上升时间，可以得到稳态过程中电流差异ΔIds(t)与寄生电感差异ΔL关系的时域表达式如式（4.14）所示，其中时间常τ =（Ld2+Ls2+3ΔL/2)Rds。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAVCzCXU9KvIXO1eVicibnzatFElXamBXSj4SsD7V89kMEMnhploJ28HRw/640?wx_fmt=png)
+
+从式（4.14）稳态过程中电流差异 ΔIds()t 与寄生电感差异 ΔL 关系的时域表达式中可以看出， SiC MOSFET 并联稳态过程中电流差异是一个随着时间增长趋于稳定的形势，且动态过程电流差异项也是随着时间的增长逐渐衰减，观察时间常数 τ 可以发现，分子Ld2+Ls2+3ΔL/ 2 在 nH 级别，分母 Rds 为 mΩ 级，因此时间常数 τ 非常小，所以衰减过程会非常迅速，衰减过程完成后， ΔIds(t)仅包含稳态部分电流差异。
+
+综合以上分析，要抑制 SiC MOSFET 并联应用中的电流不均衡现象，首先要保证并联器件自身参数的一致性，还要确保并联支路布局的对称性，减少寄生参数之间的差异，这样才能最大限度地实现 SiC MOSFET 并联应用中动态以及稳态过程中的电流均衡。
+
+4.3 SiC MOSFET 并联电流不均衡关键因素
+
+由上一小节分析可知，SiC MOSFET 并联应用中电流不均衡与多种参数差异有关。本小节基于 LTspice 仿真平台，搭建了图 4.3 所示的 SiC MOSFET 双管并联的双脉冲测试仿真电路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAYxBxYG8W2bsnZOP59LtZjvNmytrX5zzPhDicDHURQqGecgiat5icQX98Q/640?wx_fmt=png)
+
+通过图 4.3 验证器件自身寄生参数差异、并联支路寄生电感差异以及驱动电阻差异对 SiC MOSFET 并联动态过程和稳态过程中电流的影响。主要仿真参数设置：母线电压 600V，母线电容 470μF，功率回路寄生电感 40nH，负载电感 140μH。
+
+4.3.1 Cgs 差异对并联电流均衡的影响
+
+在 SiC MOSFET Q1 与 Q2 的栅源极间并联电容，设置仿真参数 Cgs1=0.2nF，Cgs2=0.5nF，漏源电流仿真波形如图 4.4 所示，其中绿色波形代表 Q1，蓝色波形代表Q2。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAHXYiaSL8WAtYK8cGdTtqick5AhpmjsFrfv7GicvbCsiaFkncHC4Jz8c8FQ/640?wx_fmt=png)
+
+从图 4.4 中开通以及关断过程可以看出，在开通时刻，Q1 与 Q2 的漏源电流出现不均衡现象，动态电流峰值差在 2.5A 左右，开通时刻结束后器件进入稳态过程，随着时间增长，稳态电流差异趋近于零。在关断时刻，栅源寄生电容值小的 Q1 首先关断，因此 Q2 会承担多一点的负载电流从而产生电流尖峰。总体来说，栅源寄生电容Cgs 差异主要对开通时刻的 SiC MOSFET 并联动态电流不均衡影响较大。
+
+4.3.2 Cgd 差异对并联电流均衡的影响
+
+在 SiC MOSFET Q1 与 Q2 的栅 漏 极 间 并 联 电 容 ， 设 置 仿 真 参 数 Cgd1=5pF，Cgd2=15pF，漏源电流仿真波形如图 4.5 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAJNSfk2FEBCpOoP4iaSRFJKYQ36nUCSL2HNZdX4pKvt3icfAQOEMzmjeQ/640?wx_fmt=png)
+
+从图 4.5 中开通以及关断过程可以看出，与栅源寄生电容 Cgs 差异的影响一样，在开通时刻，Q1 与 Q2 的漏源电流出现不均衡现象，动态电流峰值差在 3A 左右，开通过程结束后器件进入稳态过程，随着时间增长，电流差异也逐渐减小。栅漏寄生电容 Cgd 大的 Q2 在关断时刻会出现电流尖峰。因此栅漏寄生电容 Cgd 差异的影响主要体现在开通过程的动态电流不均衡和关断过程中的电流尖峰。
+
+4.3.3 Ld 差异对并联电流均衡的影响
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAyuhZL2pvehiclFg9wzIXzHCg3iawI0qHtU6AwD4jLjW0T7EHALLst1Rg/640?wx_fmt=png)
+
+在 SiC MOSFET Q1与Q2的漏极添加电感，设置仿真参数 Ld1=5nH，Ld2=15nH，漏源电流仿真波形如图 4.6 所示。从图 4.6 可以看出，在开通过程中，Q1 与 Q2 的漏源电流上升速率基本一致，漏极寄生电感较小的 Q1 承受更大的电流，并且电流振荡幅度也更大，开通时刻结束后器件进入稳态过程，稳态电流出现不均衡现象，随着时间增长，稳态电流差异维持在稳定值 0.5A 左右，关断时刻漏源电流下降速率几乎不受影响。
+
+4.3.4 Ls 差异对并联电流均衡的影响
+
+在 SiC MOSFET Q1 与 Q2 的源极添加电感，设置仿真参数 Ls1=1nH，Ls2=5nH，漏源电流仿真波形如图 4.7 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAD52AUY53GXqmtCjrouB7exyHoj3qxvQx7Z2NhT2NyjUmyicjQaErTow/640?wx_fmt=png)
+
+从图 4.7 可以看出，在开通过程中，源极寄生电感值较大的 Q2 承受较小的电流且上升速率较慢，源极寄生电感值较小的 Q1 漏源电流承受更大的电流同时上升速率更快，开通时刻动态电流不均衡现象较为严重，峰值电流差异值在 7A 左右。在稳态过程中，稳态电流差异值随着时间的增大维持在 1.5A 左右。源极寄生电感差异对关断时刻漏源电流影响很小。综上，源极寄生电感 Ls 差异主要影响开通时刻动态均流和稳态均流。
+
+4.3.5 Rg 差异对并联电流均衡的影响
+
+调整 SiC MOSFET Q1 与 Q2 的驱动电阻，设置仿真参数 Rg1=10Ω，Rg2=15Ω，漏源电流仿真波形如图 4.8 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WA6enSYqFOE8S71rIc8lXUhQT7ic32uLavPEDkvJ7QhFkkl8J6STuFLgA/640?wx_fmt=png)
+
+从图 4.8 可以看出，在开通过程中，驱动电阻值较小的 Q1 漏源电流上升速率更快，开通时刻承受更大的电流，驱动电阻值较大的 Q2 漏源电流上升速率较慢，开通时刻承受较小的电流，从而形成了开通时刻 Q1 与 Q2 动态电流的不均衡，进入稳态过程后，漏源电流差异值随着时间的增大维持在 1A 左右。在关断过程中，驱动电阻值较小的 Q1 首先关断，与此同时驱动电阻值较大的 Q2 开始分担更多的负载电流，导致漏源电流出现尖峰。因此驱动电阻差异对并联 SiC MOSFET 动态均流和稳态均流均会产生影响。
+
+4.4 SiC MOSFET 并联均流方案设计
+
+由前两小节分析可知，器件自身参数差异与电路寄生参数差异都会对并联 SiC MOSFET 电流分配产生影响，对于并联器件自身参数（阈值电压、跨导）差异引起的不均流，可以通过选取同一厂商相同型号和批次的器件来尽可能减小影响，本文不作重点分析。然而由于器件 PCB 布局不可能做到完全对称，并联各支路中的寄生参数稍有差异就会不可避免地产生电流不均衡现象，此时就需要采用电流降额法、阻抗补偿法或有源门极驱动的方式来保证电流均衡。本文在阻抗补偿的基础上，采用了一种阻抗补偿联合栅源共模扼流圈的方案，以实现 SiC MOSFET 并联应用中动态及稳态过程中的电流均衡。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAGPibfTItx71GLXSCNmysdLibTRvZKiczUDD875xicz7Nib24sbYfG6DP4GA/640?wx_fmt=png)
+
+如图 4.9 所示为阻抗补偿法的电路原理图，由并联电路中各支路分流的原理可知，当各支路阻抗不对称时就会产生电流不均衡现象，因此采用阻抗补偿的方式，通过在SiC MOSFET 漏极支路上串联电阻，从而实现器件在稳态过程中的均流。
+
+并联支路在稳态过程中的漏源电流之比可以看作为导通电阻之比 α，α 可以表示为式（4.15）：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAcOMs0HawKl4Gx8hCwLah8KedqjjZLdynuc8NJPrXM87wKruF6zLzWw/640?wx_fmt=png)
+
+当均流电阻Rc1，Rc2数值远远大于器件导通电阻Rds1，Rds2时，两并联SiC MOSFET 的电流差异能得到有效抑制，但是 Rc1，Rc2 数值越大，引起的损耗 Pc 就越高，Pc 的表达式如式（4.16）所示。工程应用中 Rc1，Rc2 通常选择 1~10 欧姆阻值的电阻，该方法虽能够起到抑制 SiC MOSFET 稳态电流不均衡的效果，但对于开通关断时刻的动态电流不均衡没有很好的均流效果。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WA2ibzEXicyhHlBrqFo805lk25nwjdUllibQG8UUSITFEtW805bTiclj3bCQ/640?wx_fmt=png)
+
+本文为了解决 SiC MOSFET 传统阻抗补偿均流方案在均流效果方面的不足，针对寄生参数差异引起的电流不均衡现象，并在阻抗补偿法的基础上，提出了一种阻抗补偿联合栅源共模扼流圈的主动均流方案。图 4.10 为共模扼流圈的等效电路模型。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAvMGuhpe0I0CRpSrzyIz7EAOsO2I6NwGbibV8u3b8AjOK9XTTQ5Ot2LQ/640?wx_fmt=png)
+
+图 4.10 中 Lm 为共模扼流圈的互感，Ldm 为漏感，Lm（纳亨级）要远远大于 Ldm（微亨级）。共模扼流圈也称为共模电感，内部由一对方向相反、匝数相同的线圈构成，当电流流入线圈时，两个线圈在磁环内产生的磁通互相加强，从而呈现出较高的阻抗以抑制共模噪声。图 4.11 为含有共模扼流圈的 SiC MOSFET 双管并联电路原理图，接下来将结合该电路分析其均流原理。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAPXJ2QrwjO1eeia1AkesnxZhmrZluvCFJJWQOK8hMoamaU9ichVSr1e1w/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAiaH7pJ7ztTBxOwd3R4J0ZKmSTvjuhoI4icIeGw5iapicFTFwOt5DzdDcNQ/640?wx_fmt=png)
+
+含有共模扼流圈的 SiC MOSFET 双管并联等效分析电路如图 4.12 所示，并联SiC MOSFET 在开关瞬态可以等效为电流源 Ids1 和 Ids2 来进行分析，因为漏极电感 Ld1和 Ld2 与电流源串联，所以将其忽略分析。
+
+根据戴维南定理和诺顿定理，可以将图 4.12（a）等效为图 4.12（b），其中电流源 Ic 可以表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAna3tqyhrnhmd5tqjFjgmZBE6ibMJXPkzXc8ZwnaS1mXicN2PwCoQl9vg/640?wx_fmt=png)
+
+  
+为了简化推导过程，定义两条支路间源极寄生电感以及漏源电流关系的表达式：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAT74AEaOSGWaXenh9N2Yib5bZrMpFK3hb8eXAmW9oS8YaCTw6T4nJicew/640?wx_fmt=png)
+
+将式（4.18）和式（4.19）代入式（4.17），则电流源 Ic 可以表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAbabtgIOYYWmFVMic8kxJhOPgSk1NI4WkztBYiauBLuiap1hmW4hNGuqvQ/640?wx_fmt=png)
+
+根据星三角变换公式将图 4.12（b）等效变换为图 4.12（c），其中 L1，L2，L3 表示为式（4.21），其中 Y=2（Ldm+ Ls+ Lm）。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WATaSQId4pkKEsX4diavhl1fQ3NkYlAoFxtYreBMRto56mwichibHCUHFuQ/640?wx_fmt=png)
+
+根据基尔霍夫电压和电流定律，图 4.12（c）中回路 1 和回路 2 的 s 域表达式如式（4.22）和式（4.23）所示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAfRA5yfBTMstCyLm474T5C2roDKyU6LHYE7DIdOLqmT6Hd1haQSsTnQ/640?wx_fmt=png)
+
+令 (ig1-ig2) /2= Δig ， (Vgs1-Vgs2) /2= ΔVgs ，将式（4.22）与式（4.23）相减，并将式（4.21）中 L2 和 L3 的表达式代入，可以得到：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAoT6Pw3CvG3Lvv9qAoHSeutKfYySHJA3yKj1ibk7p5v2rDLDOAObpluw/640?wx_fmt=png)
+
+根据第二章中式（2.8），并联 SiC MOSFET 的不平衡漏源电流∆Ids 可以表示为：将式（4.20）、式（4.25）代入式（4.24），则不平衡漏源电流 ΔIds 可以表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAqXUyT5XcRDMhBClVLh3NtJ5S0BMXMx5U6k0ocibaLBPzibeUh8Biaqeicg/640?wx_fmt=png)
+
+将式（4.20）、式（4.25）代入式（4.24），则不平衡漏源电流 ΔIds 可以表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAbgWsbRbXwnRdoH9rxc3Ml67Rl5ZMEIvjQwxO2q4C554Y7HkbMr9Wvw/640?wx_fmt=png)
+
+知道，栅极电流 ig1 ， ig2 要比漏源电流 Ids 小得多，在共模扼流圈的互感与漏感为固定参数的情况下，那么不平衡漏源电流 ΔIds 主要取决于支路间源极电感差异 ΔLs ，当dΔLs/dt为零时，可以得到不平衡漏源电流 ΔIds 的最大值为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WA8ORdghqLGcdb4xEfQz5GC3lBhU5I0icLxfTaqaa81m65OgRzLADpajw/640?wx_fmt=png)
+
+式（4.27）进一步表明不平衡漏源电流∆Ids 主要是由于电路中源极寄生电感差异∆Ls 所引起，随着共模扼流圈互感 Lm 的增大，漏感 Ldm 的减小，∆Ids（max）越小，这意味着并联 SiC MOSFET 之间的漏源电流会更加均衡。通过上述推导以及理论分析可以看出，通过在 SiC MOSFET 栅源极之间加入共模扼流圈有利于实现器件并联均流。
+
+4.5 仿真验证与分析
+
+4.5.1 SiC MOSFET 双管并联电路 LTspice 模型搭建
+
+为了验证本文所提出的均流方案，使用 LTspice 电路仿真软件对阻抗补偿联合栅源共模扼流圈的均流效果进行验证。首先搭建了 SiC MOSFET 双管并联的双脉冲测试仿真电路，仿真设置：器件模型选用cree 公司官网型号为 C3M0016120D 的 spice模型。选用Wruth Elektronik公司的 744235601作为共模扼流圈仿真模型，其互感约为 1uH，漏感为 8nH。仿真电路主要参数设置如表 4.1 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAVbHzc4d68ibZAia9HRAPScH3oygRrbRRibBzGqoCxPyGhjKF2VjoR4wBA/640?wx_fmt=png)
+
+仿真中由于选取了相同型号的SiC MOSFET，因此默认器件之间自身参数具有一致性，为了获得布局不匹配对SiC MOSFET 并联均流的影响，将栅极寄生电感设置为1nH 和5nH，漏极寄生电感设置为 5nH 和15nH，源极寄生电感设置为 1nH 和 5nH，两管的工作结温分别设置为 25℃、50℃。电路仿真原理图如图 4.13 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAsE47pN2Jl2tBhngBbzzUO93A0X29xElcELmXHtk4fPib5ic2xxMEvacw/640?wx_fmt=png)
+
+4.5.2 仿真结果分析
+
+针对无均流措施、阻抗补偿法、阻抗补偿联合栅源共模扼流圈三种不同的方案，图 4.14 给出了并联 SiC MOSFET 的开通过程波形，其中 Ids1、Ids2 分别代表器件 Q1 和Q2 的漏源电流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WACG3s5ReHP0LzasxysqL9OJJszkAB7g6ic8BqzBb2mTrl3mFYeiaLLsrQ/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAxIz64fV1uiaWq7nF7XZG8mZVDTZMEWpkIKqv3PxPhQ7eLthoChns5ng/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAib8YANqcAYzWGfiaNTjyIpsLSYibxbD2Zr6PQ2GxbNGX4nPPDZREGsXIg/640?wx_fmt=png)
+
+开通过程仿真结果主要参数的对比如表 4.2 所示，其中 tr 为漏源电流上升时间，Idsm 为电流峰值，Eon 为开通损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAWYslJaric1oQ4qDsopfkpkLvH9mnRVxnmHicviaoB7sKH8WYaYGUFBCZg/640?wx_fmt=png)
+
+对于无均流措施，在开通时刻器件 Q1 与 Q2 的峰值电流分别为 27.2A 和 19.6A，差异值为 7.6A，最大电流应力存在较大差距，采用阻抗补偿方案后，对动态电流的均衡没有起到很好的效果，峰值电流差异仍保持在 7A 以上，当采用阻抗补偿联合栅源共模扼流圈方案后，峰值电流分别为 23.9A 和 22.8A，电流差异值控制在 1A 以内，动态电流得到有效均衡，并且开通损耗从无均流措施时的 351.2μJ 和 258.7μJ，阻抗补偿法的 327.2μJ 和 249.6μJ，降至为 248μJ 和 240.2μJ，可以看到采用阻抗补偿联合栅源共模扼流圈方案后器件之间开通损耗均有所降低且更加均衡。
+
+此外 Q1 与 Q2 的漏源电流上升时间，分别从无均流措施时的 43ns 和 42ns，阻抗补偿时的 42ns 和 44ns，降至为 37ns 和 39ns，可见阻抗补偿联合栅源共模扼流圈的方案不仅起到了均衡动态和稳态电流的效果，也能起到提升器件电流上升性能的作用。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAH9mMEHxRSdWmMINS5JMmjQVv44BKibBBFp00j4J1KMGdMZeeXgXDPqw/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAISOHoRYKhR5y4s5yB9wKfGFWuQ7EFmmp6m3z0sSMr6CEZNUcSl95bA/640?wx_fmt=png)
+
+由图 4.15 可以看出，除无均流措施外，另外两种方法对稳态电流都有很好的均衡效果。仿真结果主要参数的对比如表 4.3 所示，其中 tf 为漏源电流下降时间，Vdsm为电压峰值，Eoff为关断损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WArpLhMSSzMWiadnoXtKrbZKWSKuGKKUsdFOG0C8vtopozJMJB1XPKJ5g/640?wx_fmt=png)
+
+在无均流措施时，Q1 与 Q2 的关断损耗分别为 315.9μJ 和 369.4μJ；采用阻抗补偿法时关断损耗分别为 295.8μJ 和 363.3μJ，加入栅源共模扼流圈后关断损耗分别增加至320.3μJ 和 382.4μJ，这是由于共模扼流圈的加入提升了器件关断时漏源电压尖峰（从无均流措施的 705V 增加至 743V），若进一步降低共模扼流圈的漏感，进而降低漏源电压尖峰，有望使并联 SiC MOSFET 的关断损耗得到减少。
+
+综上所述，本文所提出的均流方案与无均流措施、阻抗补偿方案相比，漏源电流的上升时间分别降低了 10%、12%，漏源电流的下降时间分别降低了 9%、21%；意味着器件开通关断速度更快。开通过程电流峰值差异减小了 6.5A、5.1A，总的开通损耗分别降低了 20%、15%；故本文所提出的均流方案在略微牺牲关断损耗的基础上，与无均流措施、阻抗补偿法相比均有较好的均流效果。
+
+4.6 本章小结
+
+本章首先从 SiC MOSFET 动态过程和稳态过程两方面出发，详细分析了 SiC MOSFET 并联电流不均衡的产生机理。然后通过仿真对 SiC MOSFET 并联电流不均衡的关键因素进行分析，研究了寄生电容 Cgd、Cgs，寄生电感 Ld、Ls，和驱动电阻 Rg差异对电流不均衡的影响程度。提出了一种阻抗补偿联合栅源极共模扼流圈的均流方案，通过电路理论推导分析了其均流原理。最后搭建 SiC MOSFET 双管并联仿真电路进行不同均流方案的对比，仿真结果验证了本文所提均流方案的有效性。
+
+第 5 章 SiC MOSFET 串扰抑制驱动电路的设计
+
+5.1 引言
+
+在第二章中详细分析了 SiC MOSFET 的开关过程，通过第三章仿真得出器件和电路中的寄生参数会对开关过程中的电压电流稳定性产生影响。在电力电子变换器中，半桥、全桥、三电平等桥式拓扑电路受到广泛应用，随着开关速度及工作频率的提高，再加上寄生参数的影响，SiC MOSFET 在桥式电路中的高速开关过程会引发开关串扰问题，串扰电压的存在给器件的可靠运行带来了很大隐患，因此需要合理设计驱动电路以确保串扰电压控制在可靠范围内，保障电路工作稳定性。
+
+5.2 开关串扰问题原理分析
+
+本文以半桥电路为基础，针对 SiC MOSFET 在桥式拓扑中所存在的开关串扰问题进行研究。图 5.1 为基于传统驱动电路的半桥电路原理图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WApokEKmIGNMNGGpVux5nz31oWmRMfb5H2Q8AQickBoZZOKdddDibhftpQ/640?wx_fmt=png)
+
+图 5.1 中 QH、QL 分别为上下桥臂的 SiC MOSFET，无其它特殊说明外，以下尾标“H”、“L”分别代表了上下管的相关参数，在接下来的分析当中，以下管 QL 始终保持关断状态为例，上管 QH 进行开通关断动作。
+
+QH 开通瞬态半桥电路的工作原理如图 5.1 所示，在上管 QH 的栅源电压开始上升之前，电路中由 QL 的体二极管进行续流。当 QH 的栅源电压从零上升至阈值电压时刻时，器件开通，QL 的漏源电压 VdsL 快速上升至母线电压 VDC，快速变化的漏源极电压 VdsL 会使电容 CgdL 上产生串扰电流进而流入驱动回路，该电流在栅源寄生电容 CgsL上会形成一个方向如图 5.1 中所标注的正向串扰电压 VgsL+，从而对 QL 的栅源电压形成正向串扰，当 QL 正向串扰电压 VgsL+超过器件阈值电压值时，将会引起器件误导通，轻则增加不必要的功率损耗，严重情况下会导致桥臂短路。
+
+QH 关断瞬态半桥电路的工作原理如图 5.2 所示。QH 开通动作完成之后器件导通，其栅源电压维持一段时间后开始下降，QH 进入关断过程，QL 体二极管电流开始缓慢上升，漏源电压 VdsL 也由母线电压 VDC 迅速下降至零。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WASD2gibPK3XhC9vu9kqKcvkm0oqNfdFkQI6KmxRgIj229Y6ibgyGtwrSQ/640?wx_fmt=png)
+
+与开通过程类似，由于 QL 栅漏电容 CgdL 的存在，快速变化的漏源电压 VdsL 会使得电容 CgdL 上产生串扰电流，在 QL 的栅源寄生电容 CgsL 上形成一个方向如图 5.2 所标注的负向串扰电压 VgsL-。若负向串扰电压值超过器件可承受的最大负压值时，长期运行会影响器件寿命，降低电路工作可靠性。
+
+以上开关瞬态过程针对上管而言，类似的，下管的瞬态过程同样会使得上管出现开关串扰问题。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WApH6LQoUQppm5Qf8Xs40iaiaRMTY5jLP9kAIwfGjK1chCLUG1ZsJZia3sQ/640?wx_fmt=png)
+
+为了分析在上管 QH 的开关过程中，下管 QL 受到影响所产生的串扰电压，将下管 QL 的驱动电路等效为图 5.3 所示的 RC 电路，可由此分析出影响串扰电压幅值的关键参数。根据基尔霍夫电压、电流定律，列写回路方程：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WArSRCSjtCG7xpPCAjmxq1qVQevsnG5NolSOBhsZ6GR6SP18MuWs0Hpg/640?wx_fmt=png)
+
+其中，VgsL、VdsL、VgdL分别为下管QL的栅源电压、漏源电压以及栅漏电压，将漏源电压的表达式代入式（5.2），可以得到：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAnvaHbsPJUFx56dib4l4VzgCP1dchkAUhLcq2ic2nEeIiaT7r9BIkdAwTA/640?wx_fmt=png)
+
+假设 QL 漏源电压 VdsL 的上升速率为 Sr ，则 VdsL 可以表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAEcPs9lkWvicBhe1tKPKW5mSqekryLmK8Ku4s9abyt2maNTaSXSvJY8w/640?wx_fmt=png)
+
+将式（5.4）代入式（5.3），则在上管 QH 开通瞬态，QL 栅源极正向串扰电压可以表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAFkThbOicrlyaQLyzEuRQ7aa8dGpYRLicZ3SwJTibDUOkZTfx3z9y3A1rw/640?wx_fmt=png)
+
+当漏源极电压 VdsL 的上升速率 Sr 趋近于无穷大时，正向串扰尖峰电压值取到最大值VdsL /(1+CgsL/ CgdL)，其中漏源电压 VdsL 的上升速率 Sr 主要取决于驱动回路的阻抗，阻抗大小很大程度上由驱动电阻决定，漏源电压 VdsL 的大小由母线电压 VDC 决定，栅源寄生电容 CgsL 和栅漏寄生 CgdL 为器件本身固有寄生参数，在选取 SiC MOSFET 时应考虑其寄生电容值，确保串扰电压控制在器件安全范围内。
+
+关于 QL 栅源极负向串扰电压的分析与上述分析方法相似，不同的是 QL 漏源电压VdsL 的下降速率为 -Sr ，此处不再赘述。为了验证上述关于串扰电压建模的正确性，通过 LTspice 软件搭建如图 5.1 所示的串扰仿真电路，其中驱动回路未添加任何抑制措施，测得下管 QL 的串扰电压 VgsL 波形如图 5.4 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WA4PO8FibibOmjk3Y741ib59rCIxibPpwoIBs0XeI1r8zWHM3Brle4nUttBA/640?wx_fmt=png)
+
+如图 5.4 仿真波形所示，在上管 QH 关断瞬态，测得下管的负向串扰电压为-10V左右；上管 QH 开通瞬态，下管 QL 的正向串扰电压为 2.4V 左右，仿真中器件C3M0016120D 的阈值电压和负压耐受值分别为 3.6V 和-8V，可以看出在没有串扰抑制措施的情况下，正向串扰电压接近阈值电压，而负向串扰电压已经超过了负压耐受值，存在器件误导通和损坏的风险。
+
+接着探究母线电压对于串扰电压的影响，在不同母线电压下测得下管 QL 的串扰电压 VgsL 波形如图 5.5 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WANyDSMSib9yzok1k4J417ykXGGcG8CM0a4JXkicfMwblNgLCz0LTwtPcA/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WA6t6Ae1W61nH5mWibib8KXNHgoiclzHA5A0BpxttdQtM2NN4GJVT8GnxMQ/640?wx_fmt=png)
+
+如图 5.5 所示，在母线电压分别为 600V，800V，1000V 的条件下，正向串扰电压值随着母线电压的增大而增大，负向串扰电压值同样随着母线电压的增大而逐渐增大，在 1000V 时达到了-10V 左右，若不采取相应串扰抑制措施，很容易超过器件负压耐受值，降低器件工作可靠性。
+
+最后探究驱动电阻对于串扰电压的影响，在不同驱动电阻下测得下管 QL 的串扰电压 VgsL 波形如图 5.6 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAX5fq2TsQBqR1icMiaPU3EzyhOTIW5b73UicAr4GrYEOWMFgO7giaO3YaVw/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAjKPQ65ckfSS17qhqsUPxbpicJedJq7MbYaglnXKAIuXhDWyCIOrWafA/640?wx_fmt=png)
+
+图 5.6 为不同驱动电阻下的串扰电压波形，可以看出随着驱动电阻值的增加，正向串扰电压和负向串扰电压值均随之增大，串扰现象变得更加严重，这是因为驱动电阻的增加一定程度上使得驱动回路阻抗变大，因此要缓解串扰现象，一方面可以从控制驱动回路阻抗入手。
+
+5.3 SiC MOSFET 串扰抑制驱动电路研究
+
+5.3.1 典型的串扰抑制策略
+
+本小节介绍了两种典型策略的 SiC MOSFET 抑制开关串扰问题的驱动电路：降低 dv/dt、可变栅源电压。由 5.2 小节分析可知，SiC MOSFET 较快的开关速度会导致漏源电压变化率 dv/dt 过大，进而加剧桥式电路中的串扰现象，传统串扰抑制策略采用最多的是如图 5.7 所示的电容型串扰抑制驱动电路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WArHuWy0RlvibIyqcC3SaSkfkqT6TK3pMTA2alog7mBgvpZW7LsibkIwfw/640?wx_fmt=png)
+
+如图 5.7 所示，通过在驱动回路间并联电容来降低 SiC MOSFET 的开关速度，进而降低 dv/dt 以缓解串扰现象，该方法能够起到降低串扰电压幅值的作用，但是由于开关速度降低，SiC MOSFET 的开通时间和关断时间变长，进而增加了开关损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAmIylPkXpA9aDq0h68ZFZGqZIR1GGzx8ib76fzgp3YvANG5iaHNbibdUdg/640?wx_fmt=png)
+
+如图 5.8 所示，基于可变栅源电压策略，采用一种 RCD（电阻电容二极管）型电平转换电路的驱动电路，该驱动电路通过产生负的栅源电压使得正向串扰电压的幅值控制在阈值电压之下，从而有效避免 SiC MOSFET 的误导通，优点在于电路结构简单，无需添加额外的控制信号，但是由于整个关断期间内驱动电压始终处于负压状态，增加了负向串扰现象对于器件的影响，并不能全面解决开关串扰问题。
+
+5.3.2 基于可变栅源电压策略的新型串扰抑制驱动电路
+
+本小节基于可变栅源电压策略，提出了一种新型串扰抑制驱动电路。在 RCD 电平转换电路的基础上进行改进，加入 MOS 管串联电容组成的辅助支路进行串扰抑制。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAJbG46CiaqTqK7K9CLgNqlah96OCgRZtiaaJstODy9f6bWpRSsTm8xTJQ/640?wx_fmt=png)
+
+图 5.9 为其具体电路原理图，其中 V1、V2 为驱动开通与关断电压，稳压二极管DZ，肖特基二极管 D1 与分压电容 C1、C2 及电阻 R1 构成电平转换电路，在器件关断时提供负压。低压 N 沟道 MOS 管 Q1 与电容 C3、电阻 R2 构成串扰吸收支路，接下来利用半桥电路具体分析其工作原理。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAK3LJIXoZ8swomvAichSKslUlI5MEqa5wKBAzao3vGiaseBxwyxdpnib9A/640?wx_fmt=png)
+
+图 5.10 为上管 QH 开通时的串扰抑制原理图，上管 QH 开通，下管 QL 处于关断稳态，由于前端 RCD 电平转换电路的存在，QL 在关断稳态内栅源电压为负压，QL 的栅极电势低于源极电势，此电势差高于 NMOS 管 Q1L 的阈值电压时，Q1L 自动导通，串扰吸收支路开始工作，更多的串扰电流流入吸收支路从而抑制了正向串扰电压。
+
+图 5.11 为上管 QH 关断时的串扰抑制原理图，与开通过程类似，当上管 QH 关断时，NMOS 管 Q1L 自动导通，串扰电流流经寄生电容 CgdL 从驱动回路中抽取更多电荷，可以有效抑制串扰电流引起的负向串扰电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAAAeyTuKPDRibJZQbPBIMl89GFaiacMeHS7xJS6pgFb11V8dsKunTSsSA/640?wx_fmt=png)
+
+该驱动电路优势在于：NMOS 管 Q1L 只在器件栅源电压为负压且处于关断状态下达到阈值电压时被动导通，不需要添加额外的 PWM 控制信号，降低了驱动控制的复杂度，与图 5.8 传统 RCD 电平转换电路相比，加入了串扰吸收支路，缓解了器件处于关断状态下负向串扰严重的现象。
+
+5.3.3 三种驱动电路的仿真对比分析
+
+为了验证所提图 5.9 所示新型串扰抑制驱动电路的有效性，本小节将基于 LTspice平台搭建半桥电路仿真模型，分别对图 5.7、图 5.8 以及图 5.9 驱动电路进行仿真，对比三种不同驱动电路的串扰抑制效果并进行分析。上管 QH 开关瞬态下管 QL 的串扰电压 VgsL 仿真波形结果如图 5.12 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAk7YiaKgawBBvbl2nhWW9Qib6wCZiatHeQoDUJyhQSB16GiaxmaQ7lhQ7rQ/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAic824aXzNkcW3hx6CgNlPVfBZyRCjvydN1O4sz1MwO00rIpWgM78arA/640?wx_fmt=png)
+
+如图 5.12（a）所示为电容型串扰抑制驱动电路的串扰电压波形，正向串扰电压约为 1.85V，负向串扰电压约为-2V，该方法通过在栅源极间并联容值为 1 至 10nF（仿真中设置为 10nF）的电容，相当于增加 SiC MOSFET 的等效 Cgs 值进而降低了串扰电压的幅值。图 5.12（b）所示为 RCD 电平转换电路的串扰电压波形，正向串扰电压约为 1.75V，负向串扰电压约为-6.9V，可见该方法加大了负向串扰的影响，与前述理论分析一致。图 5.12（c）所示为本文所提新型串扰抑制驱动电路，在加入了串扰吸收支路后，正向串扰电压约为 1.52V，负向串扰电压约为-3V，可以看出所提新型驱动电路无论在抑制正向串扰或是负向串扰方面均有很好的效果。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WACw3YwsM8VoU1RVr7az8a4L8ALIZWKkPUHsCKWPTCjAwCP8KhJ2tblw/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAe7yeCRcic7NhjY1NIRiaN5OndjEe39Rnhx3SMMvBXr2llBx6DcZX5VEw/640?wx_fmt=png)
+
+此外，为了进一步分析三种不同驱动电路对器件的影响程度，需评估三种驱动电路下 SiC MOSFET的开通和关断损耗，SiC MOSFET 的开关损耗为开关过程中逐渐下降（上升）的漏源电压与逐渐上升（下降）的漏源电流交叉重叠部分造成的能量损耗。在半桥电路母线电压为600V，负载电感为 200uF 的条件下提取了三种驱动下 SiC MOSFET 的漏源电压和漏源电流仿真波形，分别如图 5.13 和图 5.14 所示。
+
+由图 5.13 可以看出，三种驱动电路均在 10μs 处开始导通，观察漏源电压的下降沿可知电容型驱动其在 10.22μs 时刻处完全开通，RCD 型驱动和新型驱动分别在10.15μs、10.16μs 时刻处完全开通，与电容型驱动相比，RCD 型驱动和新型驱动的导通时间分别减少了 70ns 和 60ns。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAOIjJUUQnLV1IwPnggMgopt2dibvLKiaxy7DtUIlKTyBd0CNlqKKtacBw/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WABzBjyNpJ3bz7Qfvrljq3OUH1NxEOPEyBKEHE2MlqHIXNrvoygNOUlA/640?wx_fmt=png)
+
+根据图 5.14 关断过程波形可以看出，在 8μs 时刻处三种驱动同时关断，观察漏源电压的上升沿可知电容型驱动在 8.34μs 时刻处完全关断，RCD 型驱动和新型驱动分别在 8.06μs、8.11μs 时刻处完全关断，与电容型驱动相比，RCD 型驱动和新型驱动的关断时间分别减少了 280ns 和 230ns，此外由图 5.14（a）可以看出采用电容型驱动其关断损耗要明显大于 RCD 型驱动和新型驱动电路。
+
+为了直观地反映三种不同驱动电路的仿真结果，通过 LTspice 计算出三种驱动电路下的开关损耗，并结合串扰电压测试结果，得到仿真数据如表 5.1 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAvBAnr41KX9PgOZiajenVkvMCsq4kyLFMeFlHtTfdLZDManEHtJVWH6Q/640?wx_fmt=png)
+
+由表 5.1 可知，本文所提出的新型驱动电路与电容型驱动电路相比，开通损耗减小了 14%，关断损耗减小了 59%；与 RCD 型驱动电路相比，正向串扰电压减小了13%，负向串扰电压减小了 56%，总体来说，本文所提出的新型驱动电路相比传统电容型驱动电路与 RCD 型驱动电路，有效地降低了串扰电压的同时减少了器件的开关损耗。
+
+5.4 新型米勒钳位串扰抑制驱动电路
+
+本节基于栅极回路阻抗控制策略，提出了一种新型米勒钳位串扰抑制驱动电路，克服传统串扰抑制方式增加电路控制复杂性的同时实现低成本。首先详细分析了所提新型米勒钳位串扰抑制驱动电路的工作原理，然后对驱动电路关键参数进行设计，最后通过仿真与图 5.7 电容型串扰抑制驱动电路的串扰抑制效果进行了对比研究。
+
+5.4.1 工作原理分析
+
+本节设计了一种带有新型米勒钳位辅助支路的串扰抑制驱动电路，该驱动电路的基本思路是通过辅助三极管与钳位二极管以及简单无源器件在器件处于关断状态时自动实现对开关串扰的抑制。图 5.15 为其具体电路原理图，其中 RgH、RgL 为栅极驱动电阻，T1H、T1L 为 PNP 型辅助三极管，在器件处于关断时被动触发，D1H、D1L 为辅助肖特基二极管，其作用是在器件处于关断状态时将栅源电压钳位在设计负压值。C1H、C1L 和 R1H、R1L 分别为辅助电容和辅助电阻，D2H、D2L 为快恢复二极管，其作用是提升器件关断速度，Von、Voff 分别驱动开通（高）和关断（低）电平，VDC 为直流母线电压，L 为功率侧负载电感。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAJSXpqPMScVFSVB6MQibfh74anaCy6ooCAX7LMHn3q3PrHOCTVxOPqLQ/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAxv6vdZQrbEhdP3RgFQk0VmbnK2RMPB22hAgibcMOg7IZoiaQPjFLSZDw/640?wx_fmt=png)
+
+图 5.16（a）为上管 QH 开通瞬态下管 QL 驱动电路的正向串扰抑制原理图。在上管 QH 开通瞬态，QH 由低电平 VoffH 转换为高电平 VonH，下管 QL 的漏源极电压 VdsL 迅速上升，所产生的串扰电流经过寄生电容 CgdL 流入驱动回路，在驱动电阻 RgL 上产生一个方向如图 5.16 中所标注的左负右正的压降，使得辅助 PNP 三极管 T1L 能够导通，即发射极电位高于基极电位且大于 0.7V，此时一部分串扰电流被分流进而流向由辅助三极管 T1L 与辅助电容 C1L 两者串联所构成的支路，该支路的引入有效地降低了驱动回路间的阻抗，从而减小正向串扰尖峰电压幅值，降低器件误导通的风险。
+
+图 5.16（b）为上管 QH 关断瞬态下管 QL 驱动电路的负向串扰抑制原理图。在上管 QH 关断瞬态，QH 由高电平 VonH 转换为低电平 VoffH，下管 QL 的漏源极电压 VdsL 快速下降，同时 QL 的寄生电容 CgdL 开始放电，所产生的串扰电流一部分流向由辅助电容 C1L 与二极管 D2L 两者串联所构成的支路，该支路的存在减小了驱动回路之间的阻抗，一定程度上起到了抑制负向串扰尖峰电压的作用，辅助电阻 R1L 用以吸收辅助电容 C1L 中所存储的电荷从而减少辅助支路对器件开关速度的影响。
+
+综合上述分析可知，在没有外加控制信号的基础上，通过合理设计驱动电路关键参数，新型米勒钳位辅助支路的引入可以有效地抑制串扰问题。
+
+5.4.2 新型串扰抑制驱动电路参数设计
+
+上一小节以下管 QL 保持关断状态，上管 QH 进行开通与关断为例详细分析了新型米勒钳位串扰抑制驱动电路的工作原理，本小节将结合工作原理对驱动电路进行等效建模，并对关键元件参数进行设计。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAH8hMbHZOGeHhyNybdFneo4QWCM7WArKxIJNCv5wy8r29SyAB7HXsicg/640?wx_fmt=png)
+
+图 5.17 为辅助支路未工作时驱动电路的等效分析模型，其中 RZ 为驱动芯片的输出阻抗，LgL 为驱动电路与器件栅极之间走线上的杂散电感，根据基尔霍夫电压定律有：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAsXlAJib2cjdibJjnWibFO6POSv536SaLiblY5MEc0uDGtNTv5Sabjvh9cQ/640?wx_fmt=png)
+
+  
+整合式（5.6）和式（5.7），可以得到：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WATYf6VQtFNy4FiaW5m1dW72eyg68depDdUia6j7Mt1eL7TDkWsMpdclLw/640?wx_fmt=png)
+
+  
+根据基尔霍夫电流定律（KCL）有：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAYmQ2jwgyLQLrhAucbdv4klRmF9QMB6calKIVXWaDEjFXN55Y8ySsbA/640?wx_fmt=png)
+
+将式（5.9）代入式（5.8）中，可以得到如式（5.10）所示的微分方程：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAotveqb0JVOabYhkFZAx1W8oDKyKoibzDl2Ejx01zia2m0rHiaZvxmLmlQ/640?wx_fmt=png)
+
+由图 5.17 可以看出，驱动电路等效为由电阻、电感、电容构成的 RLC 电路，要使得 SiC MOSFET 栅源极间的串扰电压能够快速释放完，RLC 电路需要工作在过阻尼状态，则微分方程需满足以下条件：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WACCPFy9IrQe9xXftr8CrtUB5PqRrjmy5SrZfyWMibH3zBk7wCTFA5wyA/640?wx_fmt=png)
+
+  
+了降低驱动回路的振荡，驱动电阻 RgL 还需满足：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WARy5RvrH61Eg5Sq0GHXKFIK1DNN9AQRMoUZ7qUrAicVALbn21bUpxVHA/640?wx_fmt=png)
+
+根据 5.5 小节可知，本文所采用的驱动芯片型号为 NSi6602，其输出阻抗 RZ 在低电平时约为 1Ω，因此可以将式（5.11）进一步简化为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAhdYia5MerpEibWj6wLbibIibg7EuXSBdjA0nQA3w1MdcSKA8iaR0bVYE8OQ/640?wx_fmt=png)
+
+其中 Q=gL /C1L，根据抛物线的性质可知，式（5.13）若要大于零则有1-4 Q＞0 ，所以在过阻尼状态下，杂散电感 LgL 与辅助电容 C1L 之间的关系为 C1L＞4LgL。
+
+在实际工程应用中，一般用 PCB 布线长度来估算电路杂散电感值，当印制板采用普通 1.66mm 厚的 FR-4 材料时，每厘米（cm）长的布线引入杂散电感量约为 10nH左右，本文 PCB 上的驱动电路与 SiC MOSFET 的距离约为 5cm，加上后续实验中所用到的型号为 C3M0016120D 的 SiC MOSFET 其内部等效电感约为 30nH，则总的杂散电感 LgL 约为 80nH，据此估算辅助电容 C1L 的值需要大于 320nF，为了保留一定的设计裕量，辅助电容 C1 的值最终设定为 470nF。此外，查阅 C3M0016120D 的数据手册可知，其内部栅源寄生电容 CgsL 约为 6nF，代入式（5.12）可得驱动电阻需大于7.3V，由第三章仿真结果可知，驱动电阻值越大，开关时间和损耗也会显著增加，综合以上因素最终驱动电阻值选取 10Ω。
+
+由 5.5 小节可知新型米勒钳位串扰抑制驱动电路其驱动关断电压设计为-3V，当器件处于关断稳态下，驱动电路的等效电路图 5.18 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAmHHaQxc4C7WC8h43meaBeSG0V5AzMt0uZDPsht5RIpPWXl3xulf3zA/640?wx_fmt=png)
+
+由图 5.18 可以得到关断稳态下栅源电压 Vgs 的表达式：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAXiarTCQGPiaUV8YMUsMGCJwx9Biao2J3hDrz8oZJHkQicTxPibf2DkYMBfw/640?wx_fmt=png)
+
+根据式（5.13）可以看出，辅助电阻 R1L 的取值与驱动关断电压、输出阻抗 RZ 和关断稳态下栅源电压值有关，在前两个参数值已经确定的情况下，将关断稳态栅源电压的振荡控制到可以忽略的程度，SiC MOSFET 可在安全范围内工作，本文将关断稳态栅源电压 Vgs 的值设定为-2.2V，将其代入式（5.14），辅助电阻 R1L 的值选定为 3Ω。
+
+5.4.3 驱动电路仿真验证与分析
+
+为了验证所提新型米勒钳位串扰抑制驱动电路的有效性，本小节基于 LTspice 分别搭建由图 5.7 传统驱动电路与新型米勒钳位串扰抑制驱动电路构成的半桥电路仿真模型，测试其串扰抑制效果，电路仿真参数如表 5.2 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAkWDYC4eiafuoIZGhaLc0gSCmH8lHCxmnQspMjBXJXopzmsp7skFJEZQ/640?wx_fmt=png)
+
+分别提取两种驱动电路中下管 QL 的串扰电压波形，上管 QH 开通瞬态的仿真波形如图 5.19 所示，采用传统驱动电路时下管 QL 的正向串扰电压尖峰值为 2V（仿真中所用器件阈值电压为 3.6V），采用新型驱动电路后串扰电压尖峰值下降至-0.7V，可以看出新型米勒钳位驱动电路与阈值电压之间留有的安全裕量远远大于传统驱动电路，降低了桥臂直通的风险。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAwftMkY1Z6m2YQGtFSYEqcEwXMjq0EMhOyYVtJ484vwQwcIE7eoUc3Q/640?wx_fmt=png)
+
+上管 QH 关断瞬态的仿真波形如图 5.20 所示，采用传统驱动电路时下管 QL 的负向串扰尖峰电压值为-8.8V，与器件负压耐受值（仿真中所用器件为-8V）十分接近，给器件的可靠运行带来了风险，采用新型驱动电路后串扰电压尖峰值下降至-6.3V，从仿真结果可以看出新型米勒钳位串扰抑制驱动电路无论在抑制正向还是负向串扰方面均有很好的抑制效果。
+
+5.5 驱动电路硬件设计与实验验证
+
+基于上一节对所提新型米勒钳位串扰抑制驱动电路工作原理的分析与仿真验证，本节进行了驱动电路各模块的硬件设计，并搭建串扰测试实验平台，针对传统驱动电路以及新型米勒钳位串扰抑制驱动电路的串扰抑制效果进行了实验对比验证。图 5.21为串扰测试平台结构图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAmLY3Fh1hRrCENXzqW8401m0HszCWibAzHzcNq8DPBkBREtuREbFawkA/640?wx_fmt=png)
+
+5.5.1 驱动电路硬件设计
+
+SiC MOSFET 驱动电路的硬件设计主要从以下四个方面入手：驱动电压的选取、驱动电阻、驱动电源模块设计、信号隔离传输方式、驱动芯片及其外围电路设计。
+
+（1）驱动电压选取
+
+本文实验所选取的器件为 cree 公司生产型号为 C3M0016120D 的 SiC MOSFET，通过其数据手册和第二章中输出特性的分析可知，其栅极开通电压在 15V 左右时，器件趋近于饱和，考虑到通态压降会随着驱动电压的升高而降低，且栅极最高耐压为19V，高速开关过程中栅极回路伴有振荡应留有裕量，因此本文选择驱动开通电压为+15V。C3M0016120D的阈 值 电 压 为3.6V，其 负压耐受量为-8V，考 虑 到SiC MOSFET负压耐受能力较低，另一方面与 Si MOSFET 相比，SiC MOSFET 存在栅氧层稳定性问题，关断负压越低，阈值电压会随着开关次数的累积会逐渐上升，导通电阻也随之上升，考虑到此因素本文选择驱动关断负压为-3V。综上，实验中驱动输出电压设计为-3V/+15V。
+
+（2）驱动电源模块设计
+
+驱动电源模块的作用为驱动芯片原边提供输入电压，为副边提供所需驱动电压及功率，因此要求电源模块有足够的输出功率，能够满足驱动电路所需的驱动功率，SiC MOSFET 栅极驱动功率 Pdrive 的公式如式（5.15）所示，其中 ΔVd 为驱动开通与关断电压之差， QG为器件栅极电荷量， fs为开关频率，根据C3M0016120D的数据手册可知其栅极电荷总量为70nC，驱动电压差为18V，则在100kHz开关频率下可知驱动SiC MOSFET单管所需驱动功率为 0.126W。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAzGhlDMWMygicHV53kYkbwHCCDQh6K75ictsea6aPic6TBHtul0oNgYuIw/640?wx_fmt=png)
+
+基于上述分析，本文选择金升阳公司型号为 QA121C2 的隔离式 DC-DC 模块电源，最大输出功率为 2W，该模块电源满足所需驱动功率需求。另外还选取了 K7805-1000R3 芯片，实现+12V 转+5V 电源的作用为驱动芯片原边提供输入电压，其中+12V 电压由型号为 LRS-100-12 的开关电源提供，图 5.24 为驱动电源模块的设计原理图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WArHw5QO7ezlEuIw5HZZDyfs9BaZCcdt5C4ceN30aoVMzZmzeMic1ibKsQ/640?wx_fmt=png)
+
+（3）信号隔离传输
+
+在 SiC MOSFET 驱动电路的设计当中，为了实现低压控制电路与高压功率电路进行隔离，在驱动电路与控制电路之间需要采取信号隔离传输措施，目前应用在驱动电路上的隔离技术有以下几种：光纤型隔离、脉冲变压器隔离、电容隔离、光耦隔离。光纤型隔离通过光纤内部光束来实现信号的传输，以此来实现输入级与输出级之间的电气隔离，通常应用于控制电路与驱动电路之间的远距离传输，能有效抑制电磁干扰，然而也存在着成本高、传输延时大等缺点。脉冲变压器隔离技术通过调制脉冲信号的上升沿与下降沿将其转换为两个同相或反相的窄脉冲信号在通过脉冲变压器耦合到次级，在通过次级解调还原脉冲信号，该方式拥有较高的隔离电压耐量，传输延迟小，对共模信号的抑制能力强，成本低且可靠性高适用于高频场合。光耦隔离相比于光纤和脉冲变压器，结构简单并且体积更小易于集成，是传统驱动电路中常用的隔离技术。电容隔离技术在芯片中采用电容传递信号，其核心材料是二氧化硅，对于温度和湿度的变化影响非常小，可以保证系统稳定可靠运行。
+
+（4）驱动芯片及外围电路设计
+
+综合上述关于信号隔离传输方式的分析 ， 本文选用厂商纳芯微电子型号 为NSi6602 的隔离半桥驱动芯片来实现驱动信号的传输，其采用 CMOS（电容隔离）技术，该方式与传统光耦隔离方案相比传输延迟低且具有高共模瞬变抗扰度(100Kv/us)的优点。图 5.23 为驱动芯片及外围电路设计原理图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAnjwqBnZelF9688zSdWbHQ8qC5JzyuUUgI32z5k8O55GQauYFjoCsvA/640?wx_fmt=png)
+
+5.5.2 驱动电路实验验证
+
+为了验证所设计新型米勒钳位驱动电路的串扰抑制性能，根据图5.21所示结构框图，搭建了如图5.24所示的实验平台。整个实验平台包含直流源、示波器、开关电源、DSP控制板、驱动板、负载、电压电流探头。实验中示波器采用RIGOLDS1074Z Plus，带宽100MHz。使用直流电源IT6012C-800-50提供直流电压，电压电流功率为800V/50A/12KW。使用型号为DP-100 的高压差分探头和型号为CP8050A的电流探头测量电压电流。使用型号为LRS-100-12的开关电源给控制板和驱动板进行供电，DSP控制板由芯片TMS320F280025 发出脉冲信号。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAPYmYicMWg2WkeFkerRZqFxfc9h8bdMkufUEbOdLakVZwAyLB0jtpF8g/640?wx_fmt=png)
+
+在进行串扰测试时，下管始终保持负压关断状态，通过 DSP 控制板给上管提供PWM 脉冲信号来控制 SiC MOSFET 的开通与关断，观察下管的状态。图 5.25 为直流母线电压 600V，负载电流 24A，驱动电阻 10Ω 的测试条件下，传统驱动电路的串扰测试实验波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAwEuzlicfnuYtfw7zxiazDtbia7zNkXGFwt9EibY2ypKibJzfHxDicnbM1mpg/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAwibhm1odZHkWQxMayK43WM8hAIaVSCc0SsZnVNU0cUdRR6UPZ2QDMAw/640?wx_fmt=png)
+
+图 5.25 中 VdsH、VgsH、VgsL、id 分别为上管的漏源电压、上管的栅源电压、下管的串扰电压、负载电流。从图 5.25 可以看出，采用传统驱动电路后，当上管 QH 开通时，下管 QL 的正向串扰电压值为+1.2V 左右（实验器件阈值电压为 3.6V），当上管QH 关断时，下管 QL 的负向串扰电压值为-8V 左右，与本文所选用 C3M0016120D 的负压耐受值十分接近，若不加以抑制会给器件的长期运行带来潜在的可靠性问题。
+
+图 5.26 所示为直流母线电压 600V，负载电流 24A，驱动电阻 10Ω 的测试条件下新型米勒钳位驱动电路的串扰测试实验波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WArDvkv8WLiaewCBaud4HK8HFkXGBKBkFZvQfwRHSicArEdFaHE1zpYdfA/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjolL2g6YZIBXib8icRVC2WAIiagpmicrbXVdeDsVGFTzEOLican4b3DBmrNsiab4s5ibM60LqccnoCVKeg/640?wx_fmt=png)
+
+从图 5.26 中可以看出，当上管 QH 开通时，下管 QL 的正向串扰电压值为-1.5V 左右，当上管 QH 关断时，下管 QL 的负向串扰电压值为-5.8V 左右，由于采用负压关断，并结合辅助三极管与电容支路实现了低阻抗通路，将正向串扰电压值降低至 0V 以下大大降低了器件误导通的风险。
+
+此外，加入新型米勒钳位辅助支路后，负向串扰电压从-8V 减小到-5.8V，负向串扰波动较小是由于驱动电路中辅助肖特基二极管的钳位作用，在上管关断的过程中将下管电压钳位在-3V，使下管处于稳定关断状态，负向串扰问题同样得到了解决，由实验结果可以看出，新型串扰抑制驱动电路相比于传统驱动电路，对正负向串扰电压的抑制效果更为显著。
+
+5.6 本章小结
+
+本章首先对 SiC MOSFET 串扰问题产生原理进行了分析，并建立了串扰电压的数学模型，分别探究了母线电压和驱动电阻对串扰电压幅值的影响。其次对串扰抑制驱动电路进行研究，分析了两种传统串扰抑制策略下的驱动电路，在 RCD 电平转换驱动电路的基础上提出了一种新型串扰抑制驱动电路，通过仿真对比验证了该驱动电路的有效性和优越性。基于栅极回路阻抗控制策略，提出了一种新型米勒钳位串扰抑制驱动电路，分析了其工作原理，对元件参数进行设计并通过了仿真验证。最后对驱动电路各模块进行硬件设计，搭建平台进行实验验证，实验结果表明该驱动电路的串扰抑制能力与传统串扰抑制驱动电路相比更为优异。
+
+第 6 章 总结与展望
+
+6.1 总结
+
+本文以宽禁带半导体器件 SiC MOSFET 为研究对象，针对其在应用方面中存在的并联均流问题和串扰抑制问题展开研究。本文的工作内容总结如下：
+
+（1）首先介绍了 SiC MOSFET 的器件结构和工作原理，其次在输出特性与传递特性方面与 Si IGBT 进行了对比分析，着重强调了阈值电压低现象在 SiC MOSFET 应用中需引起重视，最后搭建了包含寄生参数的双脉冲测试电路，通过建立开通和关断过程中各个阶段内电压电流的数学模型，详细分析了 SiC MOSFET 的开关过程。
+
+（2）通过建立双脉冲测试仿真电路分析了寄生参数对 SiC MOSFET 开关特性的影响，包括寄生电容、寄生电感和驱动电阻三大部分。首先寄生电容中，栅源寄生电容和栅漏寄生电容主要决定器件的开关时间，漏源寄生电容主要影响电流电压尖峰。其次寄生电感中，栅极寄生电感在正常范围内的改变对开关特性影响非常小，漏极寄生电感对电流振荡和电压尖峰的影响较大，源极寄生电感对波形振荡与电压尖峰具有抑制作用但会显著增加开关时间，对 SiC MOSFET 开关特性影响较大。最后分析了驱动电阻，其大小决定了 SiC MOSFET 的充放电速度进而直接影响开关时间和开关损耗，驱动电阻越大，开关时间和开关损耗就越大。
+
+（3）SiC MOSFET 并联均流方案的研究。首先从动态过程和稳态过程两方面分析了 SiC MOSFET 并联电流不均衡的产生机理，除了跨导和阈值电压外，栅源电压是影响器件动态过程电流均衡的主要因素，支路寄生电感差异会同时影响器件动态和稳态过程中电流均衡。通过仿真对影响电流不均衡的关键因素进行了研究，主要包括栅源和栅漏寄生电容、漏极和源极寄生电感以及驱动电阻。采用一种阻抗补偿联合栅源共模扼流圈的均流方案，通过等效电路分析了其均流原理，分析结果表明，随着互感值的增大，漏感的减小，均流效果越好。最后仿真验证了该方案能够有效改善 SiC MOSFET 动态和稳态过程中的不均流现象。
+
+（4）SiC MOSFET 串扰抑制驱动电路的设计。首先在分析了串扰问题形成的基础上建立了串扰电压的数学模型，探究了驱动电路在无抑制措施下母线电压和驱动电阻对于串扰电压的影响。其次通过分析传统串扰抑制驱动电路，在 RCD 电平转换电路的基础上提出了一种基于可变栅源电压策略的新型串扰抑制驱动电路，仿真结果表明该电路有效地降低了串扰电压的同时减少了器件的开关损耗。基于栅极回路阻抗控制策略，提出了一种新型米勒钳位串扰抑制驱动电路，该电路利用三极管和无源器件在 SiC MOSFET 处于关断状态时改变驱动回路的阻抗，对驱动参数进行合理地设计并通过了仿真验证。最后进行驱动电路硬件设计并搭建了实验平台，实验结果验证了新型米勒钳位驱动电路的有效性。
+
+6.2 展望
+
+由于研究时间和研究水平的限制，本文的研究仍存在不足之处，对于后续工作有以下方面需要完善：
+
+（1）工作结温对于 SiC MOSFET 开关过程同样也存在影响，本文缺少对 SiC MOSFET 在高温条件工作下开关特性的研究，这部分内容还有待完善。
+
+（2）本文在研究 SiC MOSFET 并联均流问题时，没有在具体实验环境下探究多管并联条件时的电流均衡情况、电流电压应力和开关损耗等问题。
+
+（3）本文在研究串扰抑制驱动电路时只在半桥电路中得到了验证，后续可以将其应用在如全桥逆变、三电平变换器中，分析不同串扰抑制驱动电路对器件损耗以及变换器功耗的影响。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&tp=webp)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&tp=webp)

@@ -1,0 +1,113 @@
+# 轨道交通混合 SiC IGBT 器件与 Si IGBT 器件应用对比研究
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/MOgRxSUEyaPOQUZVF8BZ4g](https://mp.weixin.qq.com/s/MOgRxSUEyaPOQUZVF8BZ4g)
+
+**文章来源：**机车电传动
+
+**作者：**田伟，谢舜蒙，陈燕平，张荣，朱武，刘杰，谭一帆（中车株洲所电气技术与材料工程研究院）
+
+**摘 要 ：**混合SiC IGBT采用SiC肖特基二极管替换传统IGBT器件中的反并联二极管，可以减少二极管反向恢复损耗和IGBT开通损耗，相对于传统的Si IGBT器件，其性能大幅提升，相比于高压大功率全SiC器件，混合SiC IGBT在成本和技术成熟度方面具有较大优势。文章根据混合SiC IGBT器件特性开发了符合混合SiC IGBT器件应用需求的低换流回路杂散电感的变流器模块，研究了换流回路杂散电感对混合SiC IGBT开关特性的影响。试验结果表明：变流模块杂散电感对混合SiC IGBT开通振荡电压幅值与持续时间具有较大的影响；使用混合SiC IGBT器件比使用Si IGBT器件可以降低约25%的系统损耗。 
+
+**关键词：**轨道交通；混合SiC IGBT；Si IGBT；杂散电感；损耗；仿真 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDx5vjHzMnjRz3WYqYZnNCYIr1TSJX08WsGm94wykC0JgibtzkyWCTpjTQ/640?wx_fmt=png&from=appmsg)
+
+**引言**
+
+SiC器件具有高开关频率和低损耗的优点\[1\]，目前高压全SiC器件还未全面商业应用，但SiC二极管技术已开始商业化应用，混合SiC IGBT相对于全SiC器件具有较大的成本优势\[2\]，同时在损耗方面较传统Si器件也具有较大优势。但混合SiC IGBT内部反并联的SiC二极管在反向恢复时端电压存在强烈的振荡，所以，为保证端电压振荡在安全范围以内，分析混合SiC IGBT的电气特性对下一代变流模块的开发具有重要意义\[3\]。
+
+  
+本文通过双脉冲试验，在具有不同杂散电感值的变流模块上测试了3300 V/1800 A混合SiC IGBT的电气特性，对试验结果进行了分析，并且根据实测损耗数据针对机车、动车、城轨车辆进行了仿真分析，最后根据机车变流模块实测损耗，证明了混合SiC器件的损耗优势。
+
+**1 混合 SiCIGBT 振荡分析与解决**
+
+如图1所示，混合SiC IGBT开通振荡发生在IGBT开 通时（输出电流从路径1转移到路径2），当负载电流完全从二极管转移到上管IGBT后，二极管不再导通且结电容充电阻断电压开始上升，上管IGBT结电容放电端电压下降，由于换流回路中杂散电感的存在，该过程中流过器件的电流和两端电压表现为LC振荡，如图2所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDx18rHObNfesWTnWyes2iajUSJhUvpIX4kglho4cKmWMlLgz5tuQu7tAA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxFtc9IO0ibkD2iaG0yBwbgicI5CyDEM1fdVv9aPP1bXSMNo9ERuWL1qdGQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxyhBrBiaVEM7PRw3UHu3P0el7CQJhozAzcL8fS59MqZe0OQdItSO8Saw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxhrGB1hMoQSJvczde3J47P6Ntm9icCESfqibvBefV2TaHYM2qERg99JbA/640?wx_fmt=png&from=appmsg)
+
+散电感存储更少的能量可使得IGBT端电压振幅减小。为了满足混合SiC器件应用要求，开发了低杂散电感的换流母排，如图4所示。原变流模块主电路换流回路杂散电感为120 nH，而使用图4(b)新设计母排配合优选的低感直流支撑电容实测的新模块换流回路杂散电感为64 nH。对2种具有不同回路杂散电感的变流器模块主电路进行双脉冲试验，波形如图5和图6所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDx0lTcJedQ1qQHOdGWHjRxHiaAtjbPnEZeOib9mvn8xdzibf7F3vpV9mibXg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxQ5BGsARATL1luiaRicFJvj4yIyxcgMz9pgibq10ReO9Xp6H0NB3QJC4eQ/640?wx_fmt=png&from=appmsg)
+
+5和图6可见，采用新设计的低杂散电感母排的变流器模块，IGBT开通振荡振幅和振荡时间均得到明显抑制，同时二极管反向恢复振荡振幅和振荡时间也得到明显抑制，IGBT关断过电压与过压时间也有明显降低，提取试验波形参数，如表1所示。优化换流回路杂散电感的变流器模块主电路符合混合SiC IGBT器件高速开关应用的需求。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxiaPiaX54SWjADJf5ODGfgLbSQwiaBUl9qWyMRwIvdsHD6f4W3XNh7WDvQ/640?wx_fmt=png&from=appmsg)
+
+**2 电气特性对比分析**
+
+**2.1 静态特性**
+
+IGBT的栅极开通电压阈值与饱和导通压降主要由IGBT芯片决定，因此混合SiC IGBT与Si IGBT基本一致。如表2所示，由于采用肖特基结构，常温条件下混合SiC IGBT器件的漏电流是Si IGBT器件的30倍；然而由于SiC材料具有宽带隙特性，高温条件下的混合SiC IGBT器件的漏电流略高于Si IGBT器件，共差异可忽略不计。混合SiC IGBT和Si IGBT器件最大的不同在于采用了SiC SBD替代Si FRD，由于肖特基二极管相对于PN二极管具有更低的势垒，因此在小电流范围内，SiC二极管相对Si FRD具有更低的导通压降。如图7所示，因为无电导调制效应，在大电流下SiC二极管具有较高的导通压降，此外，SiC SBD具有明显的正温度系数，随着温度升高导通压降大幅上升，尽管SiC材料具有更高的本征温度，实际应用时，考虑到导通损耗，应避免SiC器件长时间高温运行。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxnCiaSpDV2vKfYGAOfgbTFmJibo94zXpOzxCMXib38mianGVK3gHbVrlukg/640?wx_fmt=png&from=appmsg)
+
+**2.2 动态特性**
+
+混合SiC IGBT采用SiC SBD替换Si FRD，由于SiC SBD几乎无二极管反向恢复电流，因此可以大幅降低IGBT的开通损耗和二极管反向恢复损耗。采用与Si IGBT相同的芯片，关断损耗基本一致，但是因为从SiC SBD导通时正向恢复电压远低于Si FRD，因此混合SiC IGBT具有更低的关断过电压。图8所示为典型的混合SiC IGBT与Si IGBT开关过程对比。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDx3VKaicq0iaBM0w4Kv7E4djGACeExQUy9FRyykfjbe7QCZwnibxiadianrGg/640?wx_fmt=png&from=appmsg)
+
+为了更加全面地反映混合SiC与Si IGBT实际应用的动态性能，进行全电流范围的双脉冲试验，计算开通损耗、关断损耗和二极管反向恢复损耗，并与IGBT关断过电压进行对比分析，如图9所示。从图9可以看出，在相同的主电路结构、相同的驱动参数与工作条件下，混合SiC器件相对于Si IGBT可降低50%的总开关损耗和25%的关断过电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxv38ID6Iv5CBPNXvjZMxdXM2Veb5dmsIpx9wTnsLUHpKsyzKoa76Y9Q/640?wx_fmt=png&from=appmsg)
+
+**3 应用对比分析**
+
+为了验证采用混合SiC器件带来的系统损耗优势，根据实测的混合SiC和Si IGBT损耗特性曲线，针对7 200 kW机车四象限变流模块进行系统损耗仿真，结果如图10所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxnlJicGFsz49seO0iaeylzib3V9xNh8QdcgJ0arEdLXe94Fe9FuWFoiayLA/640?wx_fmt=png&from=appmsg)
+
+由图10可见，对于机车四象限变流模块牵引工况，在电流为695 A时，混合SiC IGBT比Si IGBT的损耗下降20.9%；随着电流增大，牵引工况的损耗优势会减小，这是因为混合SiC IGBT器件的SiC二极管导通损耗占比会越来越高。采用混合SiC IGBT器件能大幅降低IGBT的开通损耗，二极管反向恢复损耗几乎可以忽略不计，牵引工况二极管导通损耗占比相对较多，混合SiC IGBT优势稍小；但制动工况混合SiC IGBT优势明显，损耗下降25.3%。如图11所示，对于机车逆变模块，在电流为589 A时 ，混合SiC IGBT损耗比Si IGBT损耗下降28.9%；当电流更大后，制动工况下混和SiC IGBT的损耗优势会减小；牵引工况二极管导通时间少，混合SiC IGBT优势更大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxc7eKJIcHGXh1RX9MY1c60zphQY25ZASVw18gLglFeXvPvibic6AOZpkg/640?wx_fmt=png&from=appmsg)
+
+如图12所示，对于250 km/h标准动车组四象限变流模块，在电流为483 A时，混合SiC IGBT损耗比Si IGBT损 耗下降31.5%；随着电流增大，牵引工况下混和SiC IGBT的损耗优势会减小。无论是牵引工况还是制动工况，混合SiC IGBT器件均具有较大的损耗优势，这是由于相对于机车变流模块，标准动车组模块的额定电流较小，混合SiC IGBT器件的二极管导通损耗占比相对较低。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDx4icFO9I8JcqQzM94iaMdDWmU4Na34DfKZxk5BCW0hFm0aibrHrVdWt32g/640?wx_fmt=png&from=appmsg)
+
+如图13所示，对于标准动车组逆变模块，在电流为349 A时，混合SiC IGBT损耗下降37.8%，当电流更大后，制动工况下的损耗优势会减小。由额定电流点损耗分布可知，混合SiC IGBT器件损耗优势较为明显。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDx7y9HUVXYIHtXvJTUUR7NHOl0JCdtGbhugkpZalPTyuCBYoe7xunICw/640?wx_fmt=png&from=appmsg)
+
+城轨变流系统中没有四象限变流模块，逆变模块的仿真结果如图14所示。由于混合SiC IGBT开通损耗和二极管反向恢复损耗低，在电流为640 A时混合SiC IGBT器件损耗比Si IGBT的损耗低24.9%左右。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxRqWs7bFjRs4QwRP7T8od62pBUibaYfr6IAlnLaOePgzowVmZCIegwEw/640?wx_fmt=png&from=appmsg)
+
+从系统损耗仿真结果来看，将混合SiC IGBT器件应用于轨道交通，对于7 200 kW机车、250 km/h标准动车组和城轨列车，无论是逆变模块还是四象限变流模块，无论是牵引工况还是制动工况，混合SiC IGBT均具有一定的优势，如表3所示，损耗下降幅值为21%~31%，有利于提高系统的整体效率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxxKasP7201ZNqLN1L6j1zWTOicPFqiawjEGqbBtTDicbCcKrwZiaMVo0x2w/640?wx_fmt=png&from=appmsg)
+
+**4 试验验证**
+
+为了验证变流模块采用混合SiC器件带来的系统损耗优势，对混合SiC IGBT的变流器装置和Si IGBT的变流器装置进行相同工况下功率考核测试，试验波形和系统损耗计算对比如图15和图16所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxCiaibwPl3VGGpov66bajStKkUBDrvUdfYYoPchVOmFtB5WjY1A5ssv3A/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1aO5rxqxVKjrfbS96bJDxkNiaOqPAI3qHbjPbeBGe5qFgkUShe9S6xFnjJtd6TBdG6A9ibhgBZ2fg/640?wx_fmt=png&from=appmsg)
+
+从图16可以看出，混合SiC IGBT相对于Si IGBT同等工况下总损耗可以降低约25%。
+
+**5 结论**
+
+本文分析了采用混合SiC IGBT对器件应用带来的新挑战，开发了一种满足混合SiC IGBT器件应用需求的低换流回路杂散电感的变流器模块。从器件动态和静态特性方面对混合SiC IGBT与Si IGBT进行了全面的对比分析。并采用新开发的变流器模块进行了实际运行的损耗分析，得到如下结论：
+
+①混合SiC IGBT应用须降低换流回路的杂散电感，抑制IGBT开通过程振荡现象，确保混合SiC IGBT可靠工作。
+
+②混合SiC IGBT相对于Si IGBT在静态特性方面IGBT部分基本一致，二极管小电流具有更小的导通压降，但是具有正温度系数，不宜长时间高温运行；在动态特性方面，SiC IGBT开关总损耗下降了约50%，关断过电压下降了约25%。
+
+③通过变流器模块实际工况测试与损耗分析表明，混合SiC IGBT器件总损耗可以下降约25%，有利于降低总损耗，提升系统效率。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

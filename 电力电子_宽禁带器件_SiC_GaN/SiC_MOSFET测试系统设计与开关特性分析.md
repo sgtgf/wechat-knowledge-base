@@ -1,0 +1,124 @@
+# SiC MOSFET测试系统设计与开关特性分析
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/fKT724bdwNYzyhWq5K-Qbw](https://mp.weixin.qq.com/s/fKT724bdwNYzyhWq5K-Qbw)
+
+**文章来源：**电力电子技术
+
+**作者：**伍娟1，崔昊杨，杨易程1，文 阳2（1.上海电力大学，电子与信息工程学院，上海 201306;2.西安理工大学，自动化与信息工程学院，陕西西安 710048)
+
+**摘要：**以碳化硅金属-氧化物半导体场效应晶体管（SiCMOSFET）为代表的第3代半导体功率器件因其优异的开关特性，在新能源等领域被广泛应用，但面对高速开关耦合寄生参数所产生的负面效应，使得测试系统难以快速、准确评估其开关瞬态等相关参数。首先，根据改进的双脉冲模型设计了一种高精度测试系统，硬件主要包括功率测试板、集成脉冲发生器的控制板及驱动板，软件主要利用Keil编写控制板程序，LabVIEW进行用户界面设计。其次，还探讨了电压和电流测量技术、连接技术和测量数据的处理，并且结合器件数据手册及仿真结果分析实测结果，表明该系统测量误差小，量程大，抗干扰能力强，可信度高，能为优化第3代半导体器件和驱动电路的设计和应用提供有益支持。
+
+**关键词：**晶体管；碳化硅；测试系统；开关特性
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0TDGRLZuwO2Rpcuo5Z2UnquqohF7I4VNjWibHgiceQbwuiaBZLDQaRa1pg/640?wx_fmt=jpeg)
+
+**1\. 引 言**
+
+SiCMOSFET功率转换器因其具有阻断电压高、温度性能好和导通电阻低等优点，被广泛应用于电动汽车和新能源变流等领域，且转换器堆的设计和原始堆上的半导体器件表征的准确性有助于复杂工况下的器件述选。但传统硅(Si)基测试系统用模拟电路和传统的测量方法难以满足SiC MOSFET等第3代半导体功率器件纳秒级快速开关瞬变的测试要求，且寄生参数会带来电压电流过冲及持续高频振荡严重影响测试结果,因此，如何同时提升开关器件性能测试系统的准确性和效率至关重要。
+
+为解决上述问题，此处基于改进的双脉冲测试模型结合数字信号处理技术和高速采样技术，对宽带隙功率器件以及驱动电路的动态特性进行测试，并通过案例探讨了电压和电流测量技术、连接技术和测量数据的处理，以及外围设备的选择，最终选取了一个典型器件sch2080ke进行开关特性的分析与对比，从而验证了该测试系统的可行性及可信度。
+
+**2\. 系统总体设计**
+
+**2.1 设计原理**
+
+此处在传统双脉冲测试模型基础上将主要的寄生参数考虑在内，改进后模型如图1所示。在SiCMOSFET的双脉冲测试中，需要特别考虑漏极电感和电容等非线性特性的影响，漏电感会导致测试信号的衰减和畸变，电容则会影响测试信号的传输和反馈，进而影响测试结果精度和准确性。考虑该影响后，将待测器件上管续流二极管用低感电阻替换，从而可以对主电路寄生电感值进行换算，进而在实验结果中进行合理的校准和补偿。在硬件设计中，通过分离并独立测试电压和电流引线，从而消除杂散电感、电阻、电容等因素对测试的影响，能更准确地测量被测器件开关特性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0ibN6v0QJT9YennKnFvrlZ4C8CZubXgMmfrpAkcRUtXkDu9Kyhwne3iaA/640?wx_fmt=png&from=appmsg)
+
+图1中，Udc，Ucc，UEE分别为直流母线等效的理想电压源、驱动正压及驱动负压；IL,lD分别为负载电流及漏极电流；L为等效负荷电感；Cdc，CL，CJ，CGS，CGD，CDS 分别为直流母线电容、负荷电感等效寄生电容、续流二极管SiC SBD等效电容、栅源电容、栅漏电容及漏源电容;Rg,RG,Roff,Rloop分别为栅极内阻，外接导通、关断电阻及杂散电阻；Ls，Lg,Ld(int),Ls(int),Ld(ext),Ls(ext)分别为直流母线正极与漏极之间线路的等效寄生电感、栅极回路寄生电感、漏间线路寄生电感、源-地间线路寄生电感、外部封装引入的漏极寄生电感及源极寄生电感。为了便于实验结果的验证，此处给出关断过程的相关参数表达式。
+
+关断延迟阶段
+
+栅源电荷通过栅极电阻RG，Roff放电，Ucs从Ucc开始降低，由于SiC MOSFET仍处于饱和状态，lD，UDS保持不变：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0fxfZHBX6gVvM5h9nVhcq4fSym6qTRt7WDuBseiag4sUAAgRq9DicLkZA/640?wx_fmt=png&from=appmsg)
+
+关断电压上升阶段 
+
+由于米勒效应,UGS保持在由IL决定的米勒电压Umller不变，UDS开始升高，但漏极电压还不足以使上管的续流二极管导通，因此ID不变。
+
+该阶段米勒电流满足以下方程：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0Zrxv8nENuk7swjBnDcOdBR6dqyhkAX2BvHcRHNzbK2E6EFKl7qmU6w/640?wx_fmt=png&from=appmsg)
+
+关断电流下降阶段 
+
+UGS从Umilr下降至Uh,ID也随之减小，电压过冲UOS由主电路寄生电感上较大的电流变化率dID/dt造成，电压振荡由续流二极管的电流振荡导致：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0g6RTPPqCmMKtvJSLoia5BxtL9amHHO0oibqu6WygzuLHMr4A9ce9uhbA/640?wx_fmt=png&from=appmsg)
+
+负压稳态阶段 
+
+UGS持续下降直至达到其负压稳态值UEE。  
+
+**2.2 系统设计与构成**
+
+该测试系统硬件设计主要包括功率测试板、控制板以及驱动板。功率测试板采用SGM48000系列的双通道低端驱动器，控制板通过基于ARMCortex-M处理器的微控制器STM32F103控制和管理整个双脉冲测试系统，驱动板则采用型号为G1212S-2W的隔离型栅极驱动器和ACPL-W346的光耦隔离型栅极驱动器。该测试系统软件部分主要利用Keil编写控制板程序，控制脉冲发生器的输出并采集反馈信号，并使用LabVIEW进行用户界面的设计。
+
+在测试系统的电气互联中，需要被测器件与负载电感并联,Agilent Technologies（4GHz）示波器用于捕获电压和电流波形，并配合不同类型的探头来测量不同位置的信号。
+
+具体来说，使用SSDN14(0.02V/A）分流器及1200A（0.005V/A）的高频罗氏线圈来测量被测器件（DUT）的ID，使用PMK BumbleBee 400M带宽的电压差分探头来测量DUT的UDS，同时使用HDP1520 200M带宽高压差分探头来测量UGS。还可使用控制板产生测试脉冲给驱动板（驱动板与测试板配套且可进行拔插），并通过调节相关参数来改变驱动条件。
+
+图2给出了此处测试系统构成，其可以模拟待测功率器件的实际工况，同时方便控制和观测各种参数。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0yD5eJUYia7Iib3evhFYFowTuv7lszHsv04R0v2b0q6BsMZJ5cvyoxU0w/640?wx_fmt=png&from=appmsg)
+
+**3\. 测量误差与结果分析**
+
+SiCMOSFET高额定电流、纳秒级上升时间tr和下降时间tf需要具有高带宽的测量设备。此处为了实现3%的测量精度，测量设备所需的最小带宽fBW近似为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0HdpOCZqeBc7zAJY2Jicp08FSkvHgiaF2nPX4ZoKMKmDYLDDTXrlQ28Rg/640?wx_fmt=png&from=appmsg)
+
+式中：fknee为上升或下降瞬态的拐点频率。
+
+以SiC MOSFET sch2080ke为例，其上升与下降时间分别为33ns和28ns。因此，测量设备的最小所需带宽为17.8MHz。
+
+**3.1 电压测量**
+
+图3给出了在关断瞬态期间SiC MOSFET的UDS的测量结果。两种不同型号、不同带宽的高压差分探头的电压振荡测量振幅相同（两者差异低于3%），延迟相差约8.85ns，对于高达1.2kV阻断电压的SiC MOSFET的双脉冲测试，若使用型号为PMK BumbleBee 400M带宽的高压差分探头，其电压上升时间延迟较小。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0DxgsjQSo7fiaibusQ1O0zkMC859ic21WoWdpB6KXDjFteibTicU8UCZVgNQ/640?wx_fmt=png&from=appmsg)
+
+**3.2 电流测量**
+
+3种不同的电流测量技术适用于基于SiC器件及模块的双脉冲测试，如下所示：HF同轴分流器规格为0.1M(0.02004Ω),HF Rogowski规格为1200A（0.005V/A），皮尔逊（Pearson）电流传感器规格为200~500MHz(1V/A)。
+
+Pearson电流传感器提供隔离的高带宽电流测量，然而，由于大的机械尺寸，Pearson电流传感器不能直接安装在半导体模块和DC链路之间，其需要两级测量电路，还需要附加的电流互感器，因此大约可以引入10nH的附加杂散电感，该附加杂散电感在电流互感器有额外空间的情况下，在关断电流为300A瞬间可导致256V电压过冲，在无额外空间的情况下可导致224V电压过冲。因此，该测量设置可以导致关断损耗计算偏差大约为10%，因此不作为对比测量方法之一。另外两种电流测量技术的比较结果如图4所示。与HF同轴分流器相比，HF Rogowski具有较高的电流阻尼，其在开关损耗最终计算时的影响是最小的,因此建议采用HF Rogowski线圈对SiC器件来进行双脉冲测量。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0IibmREx67Tnop7nkLCyovrXqicbcYeWQRq7BrqVyOIKEkEwzcc1ib1SFA/640?wx_fmt=png&from=appmsg)
+
+**3.3 差分探头的低电感连接**
+
+由于SiC器件的高开关速度，测量电路的低电感连接尤其重要，测试结果如图5所示。栅源电压由差分探头测量，连接采用标准相交连接和低电感连接。测量结果表明，使用标准相交连接，测量电路会引入额外的高频振荡。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0ibBUnxibiaws5kbibTnx3eYhL1zeQR2dR3yI0EdicI1tS8pxh0mMUs92kHw/640?wx_fmt=png&from=appmsg)
+
+**4.  仿真与实验结果分析**
+
+此处选取典型的SiC MOSFET器件sch2080ke为实验对象，设置测试条件如下：Udc=400V；Cdc=1100μF;L=1mH;RG为5~47欧; Roff为5~47欧; Ucc为10~20V;UEE为-10~0V;CG=1nF,以变驱动关断电阻为例给出实验结果。图6，7分别为仿真与实测波形在不同Roff下漏源电压、漏极电流以及栅源电压的比较，开关损耗等相关指标计算方法取自文献。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0nYAgG7ePlax4diaCicdoR7ic1cKag9IXOibL2wMvAFSbfrHGtKhhFDGl1Q/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0NRu5x2mxEJIsEg8oa0nvic323I5T5UNBXV2uA4mAetYdxZHDsB3cvPg/640?wx_fmt=png&from=appmsg)
+
+可见，随着驱动关断电阻Roff的增大，关断过程的阻尼增加，系统振荡减小，因此电压过冲Uos减小。但这也导致tf增加，ID与UDS的交叠面积增加，因此关断损耗Eoff增加。驱动关断电阻对开通过程没有影响，因此ID，tr与开通损耗Eon几乎保持不变。这与式(1)，(2)，（5)表现一致，且实测与仿真指标对比相差8.7%，与器件数据手册对比则相差11.7%。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslQ2OWHAg0EYicDkB6ntEMY0adlsboK9t79s9fzNFM8zfSvLuvXbEWs1ELwV5Uicicd0VQBsh1AMoOKQ/640?wx_fmt=png&from=appmsg)
+
+图8为相关参数波形。
+
+**5.  结论**
+
+此处基于改进的双脉冲电路模型实现了SiC MOSFET测试系统的设计，详述了功率测试板、控制板以及驱动板芯片的选型，并对开关器件的电特性参数进行精确测量，如开通时间、关断时间、开通损耗和关断损耗等。实验结果表明，测试系统误差对比仿真结果相差8.7%，对比器件数据手册相差11.7%，满足了第3代半导体器件纳秒级开关的测试要求，实现了高达30ns的测试时间分辨率。此外，该测试系统还可与栅极电压偏置和功率循环测试系统相结合，可用于不同类型的SiC功率器件以及模块的表征和比较。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

@@ -1,0 +1,109 @@
+# 一种基于开尔文封装的 SiC MOSFET 器件键合线状态监测方法
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/kP26qhuFDrlbIiGzcX1-jQ](https://mp.weixin.qq.com/s/kP26qhuFDrlbIiGzcX1-jQ)
+
+文章来源：现代电子技术
+
+作者：薛炳君，郭世龙，严焱津（三峡大学 电气与新能源学院，湖北 宜昌 443000）
+
+摘 要：随着 SiC MOSFET 器件的广泛应用，其可靠性问题备受关注。键合线失效是 SiC MOSFET 器件故障的主要原因，因此需要对其进行状态监测以保证器件的正常运行。文中提出一种基于开尔文封装的 SiC MOSFET 器件键合线状态监测方法。当键合线失效时，其等效阻抗会发生变化，故在开尔文源极和功率源极之间注入恒定的高频脉动电流，将阻抗的变化转换为开尔文源极和功率源极两端电压的变化，通过该电压对键合线健康状态进行监测。实验结果表明，所提方法监测参量的变化可以直观地反映失效键合线的数目。该方法通过外加高频脉动电流源实现对键合线的监测，只需测量对应电压，参数提取简单，特征参量与键合线失效关系明显，无需复杂的数据处理和计算；此外，还不受源极电流等功率回路参数和驱动回路的影响，电路结构精简可靠，具有在线监测的潜力。
+
+关键词： SiC MOSFET 器件；键合线状态监测；开尔文封装；键合线失效；监测电路；高频脉动电流
+
+0\. 引 言
+
+SiC MOSFET 器件具有高击穿场强、高饱和电子漂移速率、高热导率等优点，在高频、高温应用领域有较好的应用前景。 但是 复 杂 恶 劣 的 工 作 条 件 使 得 SiC MOSFET 更容易发生老化，由此引起的故障可能会造成巨大损失。因此，监测器件的失效进程，提前更换老化严重 的 SiC MOSFET 器件 ，以有 效 保 证 系 统 的 可 靠 运行是 十 分 重 要 的。 在 SiC MOSFET 的各 种 故 障 情 况中，由不同材料之间的热膨胀系数不匹配引起的键合线断裂是其中一种常见的原因。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318aXXKUapianAkMjI56g8UXh7xD0M6jAxzUyHFkibzAarw0JcRib6h3A36g/640?wx_fmt=png&from=appmsg)
+
+在封装类型方面，SiC MOSFET 有开尔文封装和非开尔文封装两种。与非开尔文封装相比，开尔文封装中源极键合线位于开尔文源极和功率源极之间，如图 1所示。开尔文源极和栅极所在的控制回路与功率源极所在的功率回路相互解耦，使得栅极驱动电压不受键合线上寄生电感产生的电压降的影响，从而降低了损耗并改善了开关性能。开尔文封装所具有的特殊性也使得直接通过开尔文源极和功率源极对键合线的健康状态进行监测成为一种可能。
+
+针对键合线状态监测的研究，国内外学者已提出多种方法。文献\[8\]提出在 SiC MOSFET 开通过程中，使用开尔文源极与功率源极之间的电压振荡峰值和电路寄生电 感 的 电 压 振 荡 峰 值 之 比 的 变 化 ，来表 征 SiC MOSFET 键合线健康状态，但在采集瞬态高频信号时易受环 境 中 的 电 磁 或 噪 声 干 扰 。 文献 \[9 ⁃ 10\] 用 SiC MOSFET 开尔文源极和功率源极之间的电压降来监测SiC MOSFET 键合线健康状态，但是需要保证每次测量电压时的负载电流均相等，对采集时序的控制有着很严格的要求。非开尔文封装中与功率回路相关的特征参量 ，如导 通 电 阻和体 二 极 管 压 降，也可 用 于 开 尔 文封装的器件，但是会受到结温和其他老化类型的影响，同时上述特征参量在键合线失效时的变化不够明显，不利于辨识。
+
+鉴于 上 述 问 题 ，基于 带 有 开 尔 文 源 极 的 SiC MOSFET 封装结构的特点，本文采用了一种外加高频脉动电流源的监测方法，通过监测开尔文源极和功率源极两端 的 电 压 来 评 估 SiC MOSFET 的键 合 线 健 康 状 态 。该方法无需测量电流或者与栅极驱动器配合，且不受功率回路参量（如源极电流）的影响；同时，该监测电路的结构简单、可靠性高，监测方法易于实施。
+
+1\. 键合线老化监测原理
+
+1.1 键合线失效机理
+
+SiC MOSFET 键合线连接内部芯片和外部端子，起着载流作用。为了防止单根键合线上电流过大，同时避免单 根 键 合 线 脱 落 导 致 整 个 SiC MOSFET 失效 ，在 SiC MOSFET 制造时将键合线多根并联引出。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318jUPx4ia1p1xjXjo8GDccphJ0G39obRgnUn2R4V8XLYU42o2KmsZE3rw/640?wx_fmt=png&from=appmsg)
+
+组成 SiC MOSFET 的材料热膨胀系数（CTE）不匹配是造成键合线断裂的主要原因。SiC MOSFET 封装模型和热膨胀系数分布如图 2 所示。
+
+当器件的温度变化时，铝键合线、焊料、铜层等材料所具有的不同的热膨胀系数会造成不同的形变，产生机械应力。在长期工作的过程中，随着温度不断变化，机械应力也发生变化，最终导致键合线断裂失效。当部分键合线失效后，其他键合线上的电流增大，加快了未老化键合线的失效进程，造成了器件的不稳定性。虽然键合线的脱落过程不能直接观测，但是可通过电气参数的变化对其进行监测。
+
+1.2 键合线状态监测原理
+
+带有开尔文源极的 SiC MOSFET 内部结构如图 3 所示。从图 3 中可以看出，该器件包括 1 根栅极键合线、1 根开尔文源极键合线和 4 根功率源极键合线。功率源极键合线承受的机械应力最大，比其他端子的键合线更容易出现故障，因此通常对功率源极键合线进行监测。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318UmXFomRmjmmX1vB6DC7122niacico5iaX2pKCibjAM0BwCbvicCD1mhiaLZA/640?wx_fmt=png&from=appmsg)
+
+SiC MOSFET 的键 合 线 部 分 可 等 效 为 电 阻 和 电 感的组 合 ，SiC MOSFET 等效 电 路 如 图 4 所示 。 图中 ：电阻为 mΩ 级；电感为 nH 级。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318uhXMvF6UuHcNicYic0Zic9JvuHVicpkhQJ8iblw6IsicpWfpDnhmupce48rw/640?wx_fmt=png&from=appmsg)
+
+为了对键合线的断裂进行监测，需要对注入电流的大小和频率进行选择。若电流过大可能导致 KS 端的键合线无法承受，且可能对器件的正常运行造成影响；而较小的直流或频率较低的电流又难以体现出键合线断裂后阻抗的细微变化，故监测时需采用高频脉动电流。在开尔文源极 KS 和功率源极 S 两端连接高频电流源，对键合线上施加高频恒流时，产生与之对应的高频电压vKS\_S。 当 SiC MOSFET 键合 线 发 生 断 裂 或 脱 落 后 ，键合线的等效阻抗 ZKS\_S 发生变化，在高频电流 iinj不变的情况下，对应的高频电压 vKS\_S 随之发生变化。断裂或脱落的键合线根数增多导致键合线等效阻抗 ZKS\_S 增大，使得高频电压值 vKS\_S也增大。
+
+2\. 监测电路及方法
+
+本文使用的监测电路总体原理图如图 5 所示，主要由 STM32、DDS 芯片 ADI AD9851、滤波电路、高频脉动恒流源和被测器件组成。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318wwldD5LvK2OOxzba9279ibzjAWULttT6O79XYVicpX1wfOEfUbuz6PQA/640?wx_fmt=png&from=appmsg)
+
+  
+高频脉动恒流源监测电路原理图如图 6 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318blTNqiayZRvaPTtj3ofa9uJjqH23mB5blCg0JNIRuqlIqrWYSotkK9w/640?wx_fmt=png&from=appmsg)
+
+高频 脉 动 电 压 信 号 vcnt 由微 处 理 器 驱 动 DDS 芯片ADI AD9851 产生，经过低通滤波电路后输出给比例放大电路，对其进行比例放大后，通过压流转换电路转化为幅值周期恒定的高频脉动恒定电流。输出电流 iinj为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318M64WxNUjNSx07hAYcHp8VUFCZvrI6Zkd6H0ylejoqNDIWOffiau602Q/640?wx_fmt=png&from=appmsg)
+
+式中：v1 为经过比例放大后的高频脉动电压信号；R2 为比例放大电路的反馈电阻；R3 为比例放大电路的比例电阻；iinj 为高频脉动恒流源监测电路所给定的输出电流；VAUX 为直流电压；R1 为调节输出电流的可变电阻；β 为三极管电流增益。
+
+SiC MOSFET 的开尔文源极和功率源极两端电压计算公式如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318Z9icaFpBoW0ubygq7B71oDhgM2nHC7EBTpDWqKffYbTTfIjADzzYmqg/640?wx_fmt=png&from=appmsg)
+
+式中 ：vKS\_S 为 SiC MOSFET 器件 开 尔 文 源 极 和 功 率 源 极两端电压；ZKS\_S 为开尔文源极和功率源极之间的键合线等效阻抗。
+
+3\. 仿真验证
+
+根据上述键合线失效情况监测方法，选择合适的电路参数进行仿真。基于 Tina⁃TI 仿真软件建立了仿真模型，将单根键合线的阻抗等效为电阻和电感的串联，电阻设置为 1.1 mΩ，电感设置为 7.54 nH，AD9851 产生的高频 脉 动 电 压 信 号 由 电 压 源 模 拟 生 成 ，仿真 结 果 如图 7 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If3182NmeosibL94HYqeOdia8aQDbhvv1kwiaJGh58750J99CwhrAGl6R8tYpA/640?wx_fmt=png&from=appmsg)
+
+从图 7 仿真结果中可以看出，所提电路可提供所述高频脉动恒定电流，且电压 vKS\_S 的变化趋势和键合线老化趋势是保持一致的。在键合线未发生老化即断裂根数 i=0 时，电压 vKS\_S 在恒定电流的作用下保持不变。当键合线发生失效后，电压 vKS\_S 的峰峰值明显增大，且随着键 合 线 断 裂 根 数 的 增 加 ，电压 vKS\_S 的峰 峰 值 持 续 增大。说明通过监测开尔文源极和功率源极两端的电压vKS\_S 的峰峰值，可判断键合线是否发生失效。通过电压vKS\_S的峰峰值变化程度，可反映键合线断裂的根数。
+
+4\. 实验验证
+
+基于 仿 真 结 果 设 计 制 作 电 路 ，选取 TokmasCI60N120SM4 为监测对象进行实验验证。为了快速获取键 合 线 老 化 后 的 SiC MOSFET 器件 ，通过 破 坏 SiC MOSFET 器件封装，逐根剪断键合线的方式来模拟实际工况中键合线的失效情况。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318I0djQ3F5gt3Cq6YSwHwvaiaGqyaLjiarMXXwgZ6zHjBUa6NSLzTicUmxA/640?wx_fmt=png&from=appmsg)
+
+注入开尔文源极的高频脉动恒定电流 iinj，其频率为50 MHz，直流偏置为 475 mA 左右，峰峰值为 206 mA 左右，拟合后的实验波形如图 8a）所示。
+
+SiC MOSFET 器件 vKS\_S 的实 验 波 形 拟 合 图 如 图 8b）所示 。 实验 结 果 总 体 趋 势 和 仿 真 结 果 基 本 保 持 一 致 。由于键合线电阻和电感过小，难以精确测量，仿真中使用的 阻 抗 为 某 一 典 型 值 ，并不 代 表 所 使 用 器 件 的 阻 抗值；且在高频情况下，键合线受集肤效应和邻近效应的影响，其等效阻抗会产生较大变化，其中感抗受到的影响更加严重，所以仿真波形和实验波形的峰峰值和相位存在一定差异。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaw9QB003iad1Voz55If318uDjknyDod4MG9tPJYjxoRxOeo79SKylTO2bqHibiasEJDZcSynuXWN2g/640?wx_fmt=png&from=appmsg)
+
+电压 vKS\_S 峰峰值变化趋势如图 9 所示。从器件运行的安全性考虑，当少量键合线失效时，可将器件作为亚健康状态，器件仍可继续运行。但键合线的断裂会造成剩余键合线上流过的电流增大，其承受的机械应力随之增大，从而使老化进程加快，距离器件完全损坏的时间进一 步 缩 短 。 为了 使 器 件 所 在 系 统 能 够 安 全 稳 定 运行，可将键合线断裂 2 根或 3 根作为器件失效的依据进行器 件更 换 。 在这 两 种 情 况 下 ，电压 vKS\_S 峰峰 值 达 到498.7 mV 或 522.9 mV。
+
+5\. 结 论
+
+本文 提 出 了 一 种 基 于 开 尔 文 封 装 的 SiC MOSFET器件键合线失效监测方法，通过键合线等效阻抗的变化反映键合线的失效情况，并设计了一种监测电路，通过开尔文源极注入高频脉动恒定电流，对开尔文源极和功率源 极 两 端 电 压 进 行 监 测 。 实验 结 果 表 明 ，SiC MOSFET 器件开尔文源极和功率源极两端电压的变化趋势和键合线失效的变化趋势是保持一致的，且电压的变化可反映键合线失效数目。
+
+所提方法通过外加电流源进行监测，只需测量对应电压，不需要测量源极电流等其他参数，也不受源极电流的影响。该方法具有在线监测的潜力，且电路结构简单，可靠性高，监测方法易于实施。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)

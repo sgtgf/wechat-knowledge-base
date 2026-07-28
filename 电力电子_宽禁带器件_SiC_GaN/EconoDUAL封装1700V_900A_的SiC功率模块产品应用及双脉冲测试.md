@@ -1,0 +1,278 @@
+# EconoDUAL封装1700V 900A 的SiC功率模块产品应用及双脉冲测试
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/CwfN9mt5nJNE52Gd-OVurQ](https://mp.weixin.qq.com/s/CwfN9mt5nJNE52Gd-OVurQ)
+
+### EconoDUAL封装的半桥碳化硅模块是当前大功率应用领域的热点，其出色的性能和可靠性受到了广泛关注。
+
+###   
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNaEIUjZyYUEDotmW8kmsJehiaf0vGiarNG87u7iab3DJBu9UelMJsCaQuicCQ55CsdicC6Bsia6c8oY89JUubJKQW0cIn2mThpXmaAU/640?wx_fmt=png&from=appmsg)
+
+### EconoDUAL 封装的碳化硅（SiC）模块，核心优势是**高频高效、高功率密度、耐高温、低寄生电感**，适配工业、新能源、电动车等大功率场景；开发设计需重点把控**驱动、布局、热管理、保护、EMI**五大关键点。
+
+###   
+
+### 一、EconoDUAL 封装 SiC 模块性能优势
+
+EconoDUAL 是英飞凌经典大功率模块封装，适配电压650V~1200V~1700V、电流200A~1000A，SiC模块以SiC MOSFE芯片为核心，相比同封装 IGBT 模块优势显著：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNFib1QoLicKWsL7EjmIssdAnp19A2icj4INbAic2DhuXY8JBqRW6YH6f4GAz1nT36EDqcNXydsUoJnpGCeKh7rQvDiaZicuVHWrIMU4/640?wx_fmt=png&from=appmsg)
+
+1.极致高效，损耗大幅降低
+
+开关损耗极低：SiC MOSFET 开关速度快、无少子复合，开关损耗较 IGBT 降低70%–90%，支持 20kHz–100kHz+ 高频工作。
+
+导通损耗更低：相比1700V的产品，1200V SiC MOSFET 的 RDS (on) 更小，高温下导通电阻上升更平缓，整机效率可提升2%–5%，典型达99%+。
+
+零反向恢复电荷：体二极管反向恢复损耗几乎为零，显著降低续流 / 逆变工况损耗。
+
+2.超高功率密度，系统小型化
+
+高频化：可大幅减小电感、电容等无源元件体积，整机体积可缩小30%–50%、重量减轻40%+。
+
+封装集成度高：支持紧凑布局，适配高功率密度需求。
+
+3.耐高温，热可靠性更强
+
+耐高温：芯片结温高达175℃，封装热阻更低，可在更严苛环境稳定运行，简化散热设计。
+
+热循环能力更强：适配频繁启停、负载波动场景。
+
+4.封装与电气特性优异
+
+低寄生电感：优化内部布局与叠层母排，功率回路寄生电感 <15nH，降低开关过压与振荡。
+
+开尔文源极：减少驱动回路寄生电感，提升开关稳定性。
+
+集成化设计：可选集成分流电阻、NTC，简化外围、降低成本。
+
+5.高电压 / 高频率适配
+
+高压应用：电压覆盖650V/1200V/1700V，适配 800V 高压平台，支持更高母线电压与功率等级。
+
+二、典型应用场景
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpN4vHb6bImzl6kXUnwqvwRs1iaFQC42PQROYht2sRNXcXxNhaNHUaFicJN3VqngrqBk5MY6yXK1ZHPh3E4YhoNabNMfgqUUQO4X8/640?wx_fmt=jpeg&from=appmsg)  
+
+1.新能源发电
+
+光伏逆变器：1500V 组串式 / 集中式，效率99%+，功率密度提升2–2.5 倍，50kW 硅基方案可升级至125kW SiC 方案。
+
+风电变流器：全功率 / 半功率拓扑，提升效率、减小机舱体积、降低运维成本。
+
+储能变流器（PCS）：高频、双向、高效，适配锂电 / 液流储能，提升循环效率。
+
+2.新能源汽车
+
+800V 高压主驱逆变器：开关损耗降低70%，功率密度提升25%，支持10 分钟充电续航400km，适配电动商用车、乘用车。
+
+车载 OBC/DC-DC：高频化、小型化，提升充电效率与功率密度。
+
+3.工业传动与电源
+
+伺服 / 变频器：高频、低谐波、高动态响应，适配高精度伺服、高速电机驱动。
+
+工业 UPS / 开关电源：高效率、高功率密度、宽温稳定，适配数据中心、工业设备。
+
+4.其他
+
+轨道交通牵引、船舶推进、动态无线充电、高压电源等大功率、高效率场景。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNceIhwibwXQfUIt9RvbAmnJxzNLKEu2DlwXKJcsIPPAfBQq9l6F5DVg5ETIsBtOOqd0l3HVjFNIk9gDdqYVw39dKqDvL7K5jl8/640?wx_fmt=jpeg&from=appmsg)
+
+三、EconoDUAL 封装 SiC 模块产品介绍
+
+1\. 采用真空回流焊工艺，Cu底板+低热值AlN绝缘陶瓷，最高工作结温175℃；
+
+2\. 功率密度高,适用高温、高频应用，超低损耗；
+
+3\. 常关功率模块，零拖尾电流，寄生电感小于15nH，开关损耗低；
+
+4. 参数范围：
+
+           **V****DS****：650V~1700V**
+
+             **I****D****：210A~1000A**
+
+     **R****DS(on)** **：1.3**mΩ**~8.7mΩ**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMpw8kKwkGYoB11DATuhcPQmJ8ju25uccibRljvTWFqS9pnkoicS2qS5OicanZDg0OUywoE9beUWIEsECmX1YZAGz6ZHJUibZFiaWGw/640?wx_fmt=png&from=appmsg)
+
+EconoDUAL 封装 SiC 模块的拓扑图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMB7KKEI6zMpXF3x0nJXuRkYzIPWDUBOwcBSCob9CQibFW2sJejtrOI8vWwUwdiaTuJA4N5LfuiaVQOiaQsQ8bS3nzbmxI4ibM5GrnE/640?wx_fmt=png&from=appmsg)
+
+650V800A的关键参数表
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPrSBQxSfSQaxsGkaibgYOUNZicpe1giamqTJMvfUN3k4a5gdT5cVRuzejUQe8TiaF4g5ypOQbvSeDNpsHWgkGojbT6M4YkzaltVUk/640?wx_fmt=png&from=appmsg)
+
+1200V900A的关键参数表
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNaZBBxXBIqic9Ee3DwMZDj4Ap0ovsibFkiaRzlFo6YVuqW8Z0cRToxM3lmqJtWrkoZKV9DwV0XgLL6tnSvUeqSj0yStic02eSzaVA/640?wx_fmt=png&from=appmsg)
+
+1700V900A的关键参数表
+
+采用第四代SiC MOSFET技术平台的产品线
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpN3xibJeibCCA1qqo7DMhwLliclYULdPiceT4kGdyrTaXPsVibCZVMmdkDYBTqQOw5rqicUNGdZyHcTA1O5W6eXZhus13doerVBButqY/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPFbqT3lrYVYJS0B7boT7eLSIBibrddnAqGJibsIZz7MIP9FmDCibI1hTdiaT4xsnMljX9icnQMCfwbC5T1AtkibGdicHZHrWLdM5hew8/640?wx_fmt=png&from=appmsg)
+
+1200V1000A的关键参数表
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNBxFjPsrNJWl0QZtLweWtllTfeibhrQG2jv8Or38mEy8dxmp2OicSr9bvKiafOPoxwyL23xCcB164vO6lG98PUYKVtRTBAKYYyUM/640?wx_fmt=png&from=appmsg)
+
+1700V1000A的关键参数表
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpPA3WLMGDEfiblC5pAj4za7UxYdb6aYhicSbzDgozlEsMsVia5HUHeMwLh8wYO01OxlpmT4vXGQbTYVz4fbD19a7b02ElK0ZRX08E/640?wx_fmt=jpeg&from=appmsg)
+
+EconoDUAL 封装 SiC 模块的实物图
+
+### 四、SiC 模块应用设计核心注意事项
+
+###   
+
+SiC 开关速度远快于 IGBT，设计需重点解决**驱动、布局、热、保护、EMI**五大问题：
+
+#### 1\. 栅极驱动设计（最关键）
+
+####   
+
+#### 驱动电压：采用 +18V/–5V，关断负压抑制米勒导通；VGS≥13V以降低高温 RDS (on)，避免 >20V 过压损伤栅氧。
+
+####   
+
+#### 驱动回路：最小化面积，开尔文源极连接，寄生电感 <5nH；栅极串10–100Ω电阻抑制振荡，匹配并联模块均流。
+
+####   
+
+#### 驱动芯片：选 SiC 专用隔离驱动，支持 >4A峰值电流、<100ns传播延迟、CMTI>100kV/μs。
+
+####   
+
+#### 保护：栅极并联 TVS钳位过压；配置米勒钳位抑制误导通。
+
+####   
+
+#### 2\. 功率回路布局（低寄生电感）
+
+####   
+
+#### 最小化回路面积：DC-Link 电容紧贴模块，采用叠层母排 / 低感 PCB，功率回路电感 <20nH，降低开关过压与振荡。
+
+####   
+
+#### 母线设计：正负母线紧密平行、宽铜皮，减少寄生参数；避免长走线、过孔，必要时分区铺地。
+
+####   
+
+#### 并联均流：多模块并联时，保证布局对称、驱动一致、栅极电阻匹配；均流误差控制在 <5%。
+
+####   
+
+#### 3\. 热管理设计
+
+####   
+
+#### 结温控制：Tj≤150℃（长期），瞬态≤175℃；按损耗与热阻计算散热，留 20%+余量。
+
+####   
+
+#### 热界面：选用低热阻 TIM（如 0.1mm 导热凝胶），保证均匀接触；模块底面清洁、无异物。
+
+####   
+
+#### 散热方案：大功率用液冷 / 风冷 + 均热板；集成 NTC 实现过温保护与降额控制。
+
+####   
+
+#### 4\. 保护电路设计
+
+####   
+
+**短路保护：SiC 短路耐受时间 <5μs，需 <1μs快速保护；采用专用检测（如分流 / 集电极电压）+ 硬件关断。**
+
+过压保护：功率回路并联 SiC SBD 或 RC 吸收，抑制关断过压；母线配压敏电阻 / TVS。
+
+欠压 / 过温：驱动与功率回路设欠压锁定（UVLO）；NTC 触发过温保护 / 降额。
+
+5\. EMI 与系统稳定性
+
+EMI 抑制：高频开关易产生10MHz+干扰，优化布局、加磁珠 / 共模电感、屏蔽、良好接地。
+
+振荡抑制：合理选栅极电阻、优化功率回路、必要时加 RC 缓冲，避免 LC 谐振导致器件应力超标。
+
+电压应力：关断过压不超器件额定80%，降额设计提升可靠性。
+
+6\. 其他要点
+
+并联设计：保证模块参数一致性、布局对称、驱动同步，均流由硬件 + 软件协同控制。
+
+体二极管应用：SiC MOSFET 体二极管反向恢复差，频繁反向导通场景建议并联 SiC SBD 降低损耗。
+
+测试验证：双脉冲测试验证开关特性、损耗、过压 / 振荡；长期老化与工况测试验证可靠性。
+
+四、1700V900A模块双脉冲测试报告
+
+试验信息
+
+试验设备：直流稳压电源IT6726G，示波器TEK\_MDO3024，电流探头CWT1200AS，高压隔离探头TEK\_DP6280。
+
+试验目的：准确匹配驱动板门极驱动电阻，以保证SiC MOS可靠地开通或关断，保证动态过程中由寄生参数引起的电气应力不致损坏。
+
+1、试验条件:门极开通电阻 R(on)=5Ω，门极关断电阻R(off)=5Ω ，高压母线Vdc=900V，Cbus= 450uF/1000V，负载电感L=33uH。
+
+2、报告中所有图片的测量通道皆满足：
+
+通道1 负载电流采样点 I；
+
+通道2 被测管门极驱动电压 Vgs ；
+
+通道3 被测管漏极源极之间电压 Vds。
+
+3、脉冲测试拓扑如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMX9Ll7bQK2A1icXGV1BJkicExgZuBdIEALzb87ag0e2FU0IOfp3JxEM9vVibM31VqwsjLfzwW7MascfibaobsVDzAJ35fD3mtJdoA/640?wx_fmt=png&from=appmsg)
+
+双脉冲测试数据
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO7fPSPhfuaweiaxO4okYzQwK8J5kiaY1B4ia6fS9ibWDEMpEZ1IrnziaRDS88WQtwIdjU71pVuMICUhaNRBN9hgkWJgGn3fFao7ENE/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO5HCRG0ickwz7pteZwu6h7fBjDPvSLSl2icODM7noTXSRjQbWejXyVpAb7x5Eb8h3MArzLCvm4oM1ibeIylgibbMiascZ41TmyvS5E/640?wx_fmt=png&from=appmsg)
+
+ID=900A测试波形
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNbNrxDnDVhEKWtTeFK8NmkNQXsbxUgCEpl4RWSYNiaprUCdLduAcNzMDEOl1zULN0ODQlZnFH06gVGbDuklMBb9oibdG8IXWcuw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNlQia8R8DGjNJ2tA6gt8YryviazmDFXN91QBMraeTnHt3KCg79eDfosq5BXvn7T4NR9mheSUtGNO5Eo8Cg8MWdb4FtbkAovMrPU/640?wx_fmt=png&from=appmsg)
+
+ID=1000A测试波形
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpP9avET0Ayn0CXFrYnr8tYE3EmFgYJmX9O5VtQWOX3j1W1DcWZiaL6zYfic5LUcnTqRqAjdl4ksUBuv9RF2iaFXmGb7asP3d355nM/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpONxMRtQLYcJVLIPeBiaZK1nZic46a3CBjBzspNE2VHed8ibHOUrHdWhJdDv9iaic3VzPXIR778yYtvtJFic1ibE1Isyf5nJGyncJFiby0/640?wx_fmt=png&from=appmsg)
+
+总结
+
+EconoDUAL封装的半桥SiC模块，是以SiC MOSFET芯片为核心的功率模块，与IGBT模块的外框端子一致，产品支持650V、1200V和1700V的电压等级，以及从200A到1000A的电流范围。该产品系列以其高可靠性、高性价比著称，广泛应用于通用电机驱动、电动和混合动力汽车、风能、太阳能、牵引、CAV、UPS以及输配电等领域‌。这些应用领域主要得益于SiC模块在提高系统效率、降低损耗和增强系统可靠性方面的优势。
+
+### 
+
+注明：  
+
+【版权声明】：本公众号平台注明来源或转载的文章，版权归原作者及原出处所有，仅供大家学习参考之用，若来源标注错误或侵犯到您的权利，烦请告知，我们将立即改正或删除。
+
+【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNJAVkUgiaia51SEkGloRqicY5u9QLl3kB5icWH1JvD3r2OTYxJibugah17GXNF3dclN3iccGrqyG7tJCIjZoYrb0MgrsA0njuVOSk40/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMKh1UFhxJ317486liap1JDt0cRptKHLFohz27r8G1jmC9sd5K5YvOiaU0lnnhrddnxnPdeUlD5nmHxxzXRxMNOKDg2CUibZibCiaZY/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOaZQv43oAicP77QiaD8xRU4Dt15NS5CnibAHq5hmbfj8qhc7S7ASpzIstOoVgtcglSI7UhUY08ajnibxTicdoiayibYsazW2v52A9F3A/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNSbfSfzjQMsvodg8IOw4oQOoPRBicz2SKwCKNrJUQ2U6vBkibR4w4YEICdGFvh6Y72myqbd3qsqOKicy0PR8TLAGaWEPgbAhaibiaQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)

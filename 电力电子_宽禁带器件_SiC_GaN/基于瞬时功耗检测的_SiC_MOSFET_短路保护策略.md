@@ -1,0 +1,144 @@
+# 基于瞬时功耗检测的 SiC MOSFET 短路保护策略
+
+原创 刘平 刘叶春 SiC碳化硅MOS管及功率模块的应用 2025-05-09 20:13 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/A8jbuTD9xlPnZmN4QNWmEA](https://mp.weixin.qq.com/s/A8jbuTD9xlPnZmN4QNWmEA)
+
+文章来源：固体电子学研究与进展
+
+作者：刘平1，2刘叶春2 苗轶如2（1 江苏省输配电装备技术重点实验室，江苏，常州，213022） （2 湖南大学，电气与信息工程学院，长沙，410082）
+
+摘要 ：针对 SiC MOSFET 对短路电流的耐受能力较弱的问题 ，设计了一种短路检测策略以提高其运行可靠性。基于 SiC MOSFET 在正常运行及短路故障状态下的瞬时功耗差异可形成短路判据，设计了瞬时功耗检测的SiC MOSFET 短路检测方案和电路。仿真测试了其针对两种不同短路故障工况的监测性能，验证了提出的短路检测的有效性。结果表明提出的短路保护方法响应时间短，短路峰值电流小。
+
+关键词：碳化硅；功率器件；短路保护；瞬时功耗；仿真验证
+
+引 言
+
+SiC 作为新兴的半导体材料在近 20 年间蓬勃发展 ，为功率器件向高频 、高压发展提供了新的思路。 在众多SiC 器件中 ，SiC MOSFET 具有高耐压 、高运行温度 、高开关频率 、低导通损耗等优点 ，相比于硅基功率器件 ，在功率密度 、工作温度等方面都有重大突破，能够在多种场合得到应用。
+
+然而，SiC MOSFET 体积较小，电流密度大，能够承受短路电流的时间较短。 相比于硅基器件 ，SiC MOSFET 需要更高性能 的故障检测与保护 。因此，设计快速可靠的SiC MOSFET 短路检测电路对推动 SiC MOSFET 的实际应用具有重要意义。
+
+SiC MOSFET 的短路故障主要包括两种：硬开关短 路（Hard switching fault，HSF）和负 载 短 路（Fault under load，FUL），主要 区 别 是 回 路 中 的 电感量 ，HSF 回路电感 较小 ，而 FUL 的回路电感较大。 对 SiC MOSFET 进行 短 路 故 障检测常用的方法有退饱和检测法 、di/dt 检测 法 、栅极电压检 测法、分流器检测法及罗氏线圈检测法等。
+
+退饱 和 检 测 法 利 用 发 生 短 路 故 障 时 漏 源 电 压VDS 快速上升至母线电压的原理，通过检测 VDS 来判断器 件 是 否 发 生 故 障。 但是 在 SiC MOSFET 的开通 过 程 中 ，VDS 从一 开 始 的 母 线 电 压 下 降 到 正 常运行 时 的 导 通 压 降 需 要 一 段 时 间 ，在这 段 时 间 内 ，退饱 和 检 测 电 路 无 法 动 作 ，称为 检 测 盲 区 ，影响 短路检测速率 。 电流 变 化 率 检 测 是 利 用 短 路 时 漏 极电流 快 速 上 升 的 原 理 ，通过 检 测 电 流 变 化 率 来 检 测故障 。 这种 方 法 检 测 速 度 快 ，易于 实 现 ，但是 回 路中的 电 感 较 大 时 ，短路 时 的 电 流 变 化 率 di/dt 较小 ，无法 同 正 常 运 行 进 行 区 分 ，所以 di/dt 检测 无 法 对FUL 进行 高 性 能 检 测。 栅极 电 压 检 测 法 利 用 栅源电压 VGS 的波形在发生短路故障时出现的差异来对 SiC MOSFET 运行状态进行判断，具体方法有两种 ：一是 检 测 栅 极 电 荷 是 否 跟 随 栅 极 电 压 达 到 参 考值的 方 法 ，但这 种 方 法 只 能 用 于 HSF，无法 检 测FUL；二是分别利用米勒平台和门级电压尖峰对HSF 和 FUL 进行 检 测 ，这种 方 法 虽 然 能 够 检 测 两种短 路 故 障 ，但是 很 容 易 受 到 寄 生 参 数 的 干 扰 而 误动作 ，可靠 性 不 高 。 文阳 博 士 曾 提 出 一 种 瞬 时 功 率检测 方 法 ，但其 电 路 中 所 采 用 的 元 器 件 价 格 较 高 ，不利 于 批 量 生 产 应 用 ，且未 在 相 同 环 境 下 通 过 仿 真或实 验 波 形 同 其 它 短 路 检 测 方 法 进 行 对 比 分 析。分流 器 检 测 法 需 要 在 回 路 中 串 联 电 阻 ，通过 测 量 电阻两 端 的 电 压 来 测 量 回 路 中 的 电 流 ，这种 方 法 检 测精度 较 高 ，但会 产 生 较 大 损 耗。 此外 还 有 直 接 检测电 流 的 故 障 检 测 方 法 ，罗氏 线 圈 是 一 种 电 流 传 感器 ，原理 较 简 单 ，应用 较 方 便 ，但其 带 宽 较 低 、输出信号 易 受 到 外 界 磁 场 的 影 响 ，并且 这 种 方 法 额 外 设置的罗氏线圈会增大模块的体积，不利于集成。
+
+为解 决 上 述 方 法 的 缺 陷 ，本文 提 出 基 于 瞬 时 功耗检 测 的 SiC MOSFET 短路 保 护 方 法 。 通过 分 别检测漏源电压 VDS 和漏极电流 Id，并将二者相乘得到SiC MOSFET 的瞬时功耗，再将该数值和事先设定好的 阈 值 相 比 较 ，从而 判 断 是 否 短 路 。 本文 所 提 方法响 应 速 度 快 ，能够 避 免 误 触 发 ，可实 现 对 SiC MOSFET 硬开关短路和负载短路的高性能检测。
+
+1\. SiC MOSFET 瞬时功耗分析
+
+1.1 仿真建模
+
+以 CREE CSA300M12BM2（1200 V/300 A）半桥模块为例 ，其上下桥臂 各 有 6 个 SiC MOSFET分别和 6 个 SiC SBD 二极管并联。首先通过模块的导通 电 阻 和 漏 极 持 续 电 流 来 推 断 SiC MOSFET 和SiC SBD 的型 号 ，再根 据 半 桥 模 块 的 结 构 ，利用CREE 公布 的 SiC MOSFET 和 SiC SBD 裸片 模 型来搭 建 CAS300M12BM2 半桥 模 块 的 仿 真 模 型 ，如图 1 所示 。 查阅 数 据 手 册 可 知 ，CAS300M12BM2模块的导通电阻典型值为 4.2 mΩ，漏极持续电流为423 A。而 CPM2‐1200‐0025B 裸片的导通电阻典型值为25 mΩ，可以 算 得 6 个 CPM2‐1200‐0025B 芯片并联时的导通电阻为4.17 mΩ，与 CAS300M12BM2的导通电阻典型值相符；同时 CPM2‐1200‐0025B 的漏极 持 续 电 流 为 98 A，按照 CREE SiC 器件 并 联 的电流 退 额 曲 线 ，6 个芯 片 并 联 后 的 漏 极 持 续 电 流 为423.4 A，与 CAS300M12BM2 的漏 极 持 续 电 流 值 相符，综上所述，可以推断 CAS300M12BM2 模块采用的 SiC MOSFET 芯片 为 CPM2‐1200‐0025B。 用相同方法可 以 得 出 本 文 所 研 究 模 块 中 的 二 极 管 型 号为 CPW5‐1200‐Z050B。
+
+在 SiC MOSFET 半桥模块的工作过程中，封装引入 的 寄 生 电 感 也 会 造 成 影 响 ，因此 在 SiC MOSFET 仿真 建 模 中 ，需要提取 模 块 各 部 分 的 寄 生 电感 。 模块 的 寄 生 电 感 主 要 分 布 在 导 线 、端子 和 键 合线上 ，采用 ANSYS Q3DExtractor 对这 些 部 位 的 寄生电 感 进 行 了 提 取 ，设置 提 取 频 率 为 25 MHz。 先单独 提 取 了 端 子 到 衬 底 连 接 点 的 寄 生 电 感 ，然后 提取键 合 线 组 的 寄 生 电 感 ，其中直接焊接芯片 和 衬 底的部 分 寄 生 电 感 较 小 ，可以忽略 不 计 。 值得 一 提 的是 ，由于 在 空 间 分 布 上 ，下桥 臂 距 离 驱 动 引 脚 较 远 ，需要 使 用 铜 导 线 进 行 连 接 ，这使 得 下 桥 臂 的 寄 生 电感相比于上桥臂会略大一些（模型见图 1）。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxF3zPTXk8jtCKwUuRibjkzdiaGqZMWBodOHPZGuc8g1iauIGs2YnG7AGHw/640?wx_fmt=png)
+
+1.2 基于瞬时功耗检测的 SiC MOSFET 短路检测方法原理分析
+
+提出 的 短 路 故 障 检 测 方 法 基 本 依 据 为 SiC  MOSFET 短路 故 障 时 的 瞬 时 功 耗 远 大 于 正 常 值 ，而把 瞬 时 功 耗 作 为 判 据 来 进 行 故 障 诊 断 时 需 要 设置一 个 阈 值 作 为 判 断 SiC MOSFET 短路 与 否 的 分界点 。 为确 定 此 阈 值 ，利用 1.1 节搭 建 的 SiC MOSFET 半桥模块模型，将器件的不同运行工况分为三组对模块的瞬时功耗进行仿真对比分析：1）正常工作下 的 重 负 载 工 况 ；2）器件 发 生 硬 开 关 短 路 工 况 ；3）器件 发 生 负 载 短 路 工 况 。 仿真 结 果 如 图 2 所示 ，其中器件都于 1 μs 时开通。
+
+图 2（a）为正 常 工 作 时 的 瞬 时 功 耗 波 形 ，VDC=800 V，IL=400 A，开关 过 程 中 的 最 大 瞬 时 功 耗Pdloss\_max 是 192 kW，开关过程结束之后开始正常导通阶段，此时的瞬时功耗很小，可以忽略不计；图 2（b）为硬 开 关 短 路 时 的 瞬 时 功 耗 波 形 ，VDC=600 V，LSC=40 nH，如图所示，瞬时功耗在短时间内即上升到较高的数值，峰值功耗已经超过了 1 MW，远在正常瞬时功耗范围之上；图 2（c）是功率器件在负载短路状 况 下 开 通 的 瞬 时 功 耗 波 形 。 参考 到 文 献［12］中的 实 验 数 据 ，取此 时 的 电 感 量 为 2 μH，则开 通 后5.4 μs 瞬时 功 耗 就 已 经 超 过 400 kW，超过 正 常 情 况下的瞬时功耗一倍多。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxJ7UjQ5HjQ9U3MJQcwFnfpV6WZBJkynp8OIicqrqmDMQnLXk1txKbLuA/640?wx_fmt=png)
+
+不同工况条件下器件的瞬时功耗结果如表 1 所示。SiC MOSFET 在正常工作及短路故障时，器件的瞬 时 功 耗 存 在 明 显 差 异 ，故其 正 常 或 故 障 状 态 可通过 阈 值 加 以 区 分 ，实现 SiC MOSFET 的短 路检测。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxdv3xczZZwt9LYPz3gMe8EgmtF3AAw0CByX4LRr5icXtbJ8XBgcrf88Q/640?wx_fmt=png)
+
+2\. 基于瞬时功耗检测的SiC MOSFET 短路检测方法
+
+提出的基于瞬时功耗检测的 SiC MOSFET 短路检测方法原理如图 3 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbx6DNgKf7v4tmkkw7eDNYpU2IHaicLBFVsoOduneVYLzLm0ibxvAcqn6ew/640?wx_fmt=png)
+
+由上文分析可知，实现 SiC MOSFET 的瞬时功耗检测需四个模块 ，分别用于 测量VDS、测量 ID、将VDS 和 ID 相乘、将瞬时功耗检测值和阈值相比较。具体实现方案如图 4 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxf4f7QJEhNfB2Uv7h8ic0TJEm9kZpWdopPNLehc99ibeDrPEzr8ZCzwBg/640?wx_fmt=png)
+
+（1）VDS 检测模块（图 4 中模块①）
+
+由于短路时 VDS 将上升至较高的母线电压 ，不便检测，因此在 SiC MOSFET 的源极和漏极之间加入两电阻 R1、R2 进行分压。同时为了增加短路检测的准确性与可靠性，防止高频分量影响输出，在 R1、R2 两端分别并联电 容器 C1、C2 用于滤除高频的干扰 ，分压之 后得到的电压信号即可输入至乘法器 。测量值表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxlhSgypobBSzOFTpnHZgGoM4sDw6l6X8lBvgXXNdlMLpUJRqljqlOCQ/640?wx_fmt=png)
+
+式中 kv=R2/（R1+R2）。
+
+（2）ID 检测模块（图 4 中模块②）
+
+要测量 ID 的大小，可以先测量 SiC MOSFET 开尔文 源 极 和 主 功 率 源 极 之 间 的 寄 生 电 感 LsS 上的 感应电压。计算可得该电压值为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbx1NAIAqlHZGy0zYhSrZKoAYRkttvhxfvGzLO760mZrvibwABAgjbO3GA/640?wx_fmt=png)
+
+由于短路时该电压值较大 ，故需要串联两电阻来进行分压。经过分压后的 A 点电压为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxSNyqGAoxW88yFpCdPcTic9ScYN2xnIMfOT48XRP7US3ooFVjn4bz0oA/640?wx_fmt=png)
+
+式中 kil=LsSR4/（R3+R4）。 要由 A 点电压得出漏极电流 ，则需对电 压进行积分 ，通过一个由高速运放构成的积分电路之后 ，就可以得到漏极电流的检测值
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxpjaLicicApEictG4p5EyQyAYgcVG8olS2BqicUxnl7EgIw3UNwZUXwhovg/640?wx_fmt=png)
+
+式中 ki2=1/R5C3，ki=ki1+ki2。
+
+（3）乘法器模块（图 4 中模块③）
+
+采用高速乘法器计算 SiC MOSFET 的瞬时功耗 。 乘法器的两输入端口分别接入漏‐源电压的检测值和漏极电流的检测值 ，根据数字函数输出两数值的计算结果，高速乘法器的数字函数为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxsIeDgYhBt1nN3YB5Fk0ib0qs79ECm711uozgQ17ejydTgaAPzP4cuWQ/640?wx_fmt=png)
+
+式中 X、Y 为输入值 ，Z 为初始偏置电压 ，输出的结果即为瞬时功耗的检测值 VPloss。
+
+（4）比较与触发保持模块（图 4 中模块④）
+
+将高速乘法器输出的瞬时功耗 的 检 测 值 VPloss输入比较器，同设定的瞬时功耗阈值 VPref进行比较。若该信号超出设定的阈值 ，高速比较器输出低电平信号并配合 PWM 驱动信号经触发器输出短路故障信号，用于控制器件关断。
+
+当 SiC MOSFET 处于正常工作情况时，瞬时功耗较低 。 为避免误动作 ，在设置阈值时应保证其大于正常值 ，并留有一定的裕量 ，则正常工作下的瞬时功耗波动不会导致保护误动作。
+
+发生 硬 开 关 短 路 时 ，SiC MOSFET 开通 时 ，由于回 路 电 感 较 小 ，导致 漏 极 电 流 迅 速 上 升 ，产生 感应电 动 势 ，使漏‐源电 压 发 生 一 定 的 电 压 降 落 ，但器件的 工 作 区 由 截 止 区 转 移 至 饱 和 区 ，漏源 电 压 很 快就回升至母线电压。在此过程中，漏‐源电压上升使传递 至 乘 法 器 的 电 压 检 测 值 上 升 ；同时 漏 极 电 流 快速增 大 ，信号 传 递 至 积 分 电 路 ，使漏 极 电 流 检 测 值增大 。 这两 个 检 测 值 同 时 输 入 至 高 速 乘 法 器 ，经乘法器 的 数 字 函 数 计 算 得 到 的 输 出 量 即 瞬 时 功 耗 的检测值增大并超过设定的阈值，触发保护动作。
+
+发生 负 载 短 路 时 的 情 况 与 硬 开 关 短 路 时 类 似 ，由于 此 时 的 回 路 电 感 相 比 于 硬 开 关 短 路 时 较 大 ，因此漏 极 电 流 上 升 的 速 度 略 慢 于 硬 开 关 短 路 ，但电 流还是 远 远 超 出 正 常 情 况 ，输入 高 速 乘 法 器 的 检 测 值也超出正常值。随着电流的上升，SiC MOSFET 退出饱 和 工 作 状 态 ，漏‐源电 压 上 升 至 母 线 电 压 ，输出的瞬时功耗检测值增大并超过阈值，保护动作。
+
+3\. 仿真分析
+
+3.1 瞬时功耗检测方案
+
+为验 证 本 文 提 出 的 故 障 诊 断 策 略 ，在 2.1 节所搭建 仿 真 模 型 的 基 础 上 进 行 仿 真 验 证 ，根据 不 同 工况下的瞬时功耗情况，设置仿真参数如表 2。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxe8OTvGXHenYsGA0xXGL0MFmPJgzhyx42UUKibbiagPPQyfuiaQImfiaM2Q/640?wx_fmt=png)
+
+图 5 为硬 开 关 短 路 的 仿 真 结 果 。 可知 ，1 μs 时器件开通，SiC MOSFET 漏极电流快速上升并超出正常 值 ，漏‐源电 压 上 升 至 母 线 电 压 ，导致 瞬 时 功 耗值也 迅 速 上 升 。 当瞬 时 功 耗 超 过 200 kW 时 ，瞬时功耗 的 检 测 值 Vploss 超过 预 先 设 定 的 阈 值 ，比较 器 输出高 电 平 信 号 ，SR 触发 器 输 出 故 障 信 号 。 可以 看出 ，该方 法 从 发 生 故 障 到 检 测 出 故 障 之 间 的 时 间 间隔为 151 ns，电流 峰 值 为 340 A，最大 瞬 时 功 率 为250 kW，均满 足 设 计 指 标 。 结果 表 明 ，提出 的 基 于瞬时 功 耗 检 测 的 SiC MOSFET 短路 检 测 方 法 对 硬开关 短 路 的 响 应 速 度 快 ，可靠 性 较 强 ，能够 将 短 路电流控制在较低的水平。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxObunjZL42aE1A8kpAyvOpia6gGan8BL4pUoqibGlwwWmLOehDPQ6FXcA/640?wx_fmt=png)
+
+图 6 为负 载 短 路 的 仿 真 情 况 。 可知 ，1 μs 时器件开通，SiC MOSFET 漏极电流上升。但是负载短路时 回 路 电 感 相 对 硬 开 关 短 路 而 言 较 大 ，因此 漏 极电流 上 升 较 慢 ，瞬时 功 耗 的 上 升 速 度 也 随 之 减 缓 ，当其 超 过 200 kW 的阈 值 后 ，触发 器 输 出 关 断 信 号 ，响应时间为 3.175 μs。由于仿真时的初始电流为 0，而实 际 应 用 中 的 初 始 电 流 必 然 不 可 能 为 0，所以 响应时 间 的 仿 真 结 果 相 比 实 际 情 况 更 长 ，实际 应 用 中的响 应 时 间 将 会 更 短 ，通过 调 整 瞬 时 功 耗 阈 值 还 可以进一步缩短响应时间。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbxolvz9s94ZtibEwDLEicBFCHHyQibCXzORAibyTHzmnb1QzGNLP5JuNjxtQ/640?wx_fmt=png)
+
+3.2 其他常见检测方案比较
+
+由上 文 仿 真 可 以 看 出 ，瞬时 功 耗 检 测 法 对 硬 开关短 路 有 较 好 的 检 测 性 能 。 为评 估 该 方 法 在 硬 开关短 路 故 障 下 的 性 能 ，选取 目 前 工 程 应 用 中 较 为 典型的 退 饱 和 检 测 法 和 电 流 变 化 率 检 测 法 ，在相 同 条件下进行硬开关短路的仿真分析。图 7 为上述两种方法在硬开关短路情况下的仿真波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmHWLTrskQU7IWPRjLmxbx1Ldn2Jtcfs8omic9gPjbEvEKpooPVtlMiaqzbyNA3WYu0BdxSpW8q7mw/640?wx_fmt=png)
+
+电流 变 化 率 检 测 法 是 当 前 常 用短 路 检 测 方 法中对 硬 开 关 短 路 检 测 性 能 较 好 的 一 种 。 由波 形 可知 ，1 μs 时器 件 开 通 ，经过 201 ns 输出 故 障 信 号 ，大于瞬时功耗检测法的 151 ns。并且电流变化率检测法在 输 出 故 障 信 号 时 的 电 流 值 为 900 A 左右 ，远大于瞬时功耗检测的 340 A。
+
+而退 饱 和 检 测 法 为 防 止 器 件 开 通 过 程 中 的 短路保 护 误 动 作 ，需要 一 定 量 的 盲 区 时 间 ，而这 个 时间往 往 已 经 超 过 了 400 ns，这使 得 其 对 硬 开 关 短 路的检 测 效 果 较 差 。 但是 退 饱 和 检 测 法 的 优 势 在 于其对 负 载 短 路 有 较 好 的 检 测 效 果 ，因此 可 以 考 虑 将二者 结 合 ，从而 弥 补 瞬 时 功 耗 检 测 法 在 检 测 负 载 短路时的缺陷。
+
+在工 程 应 用 方 面 ，瞬时 功 耗 检 测 法 相 比 于 传 统检测 方 法 ，额外 需 要 一 个 高 速 运 放 用 于 构 成 积 分 电路 、一个 高 速 乘 法 器 用 于 获 取 瞬 时 功 耗 值 ，成本 及复杂 度 略 有 增 加 ，但是 其 检 测 性 能 也 有 较 为 明 显 的提升 。 故在 实 际 应 用 时 ，需要 在 成 本 及 检 测 性 能 二者之 间 进 行 取 舍 。 因此 瞬 时 功 耗 检 测 法 更 适 合 于对硬开关短路检测性能要求较高的场合。
+
+4\. 结 论
+
+通过 对 SiC MOEFET 在不 同 工 况 下 的 瞬 时 功耗进 行 研 究 ，发现 其 在 正 常 工 作 时 和 短 路 故 障 时 的瞬时 功 耗 有 较 大 差 异 ，据此 提 出 了 基 于 瞬 时 功 耗 检测的 SiC MOSFET 短路 检 测 方 法 。 仿真 分 析 结 果表明 ，本文 提 出 的 方 法 检 测 速 度 快 ，检测 准 确 性 高 ，能够 在 保 证 负 载 短 路 检 测 性 能 的 基 础 上 ，大大 提 高硬开 关 短 路 的 检 测 性 能 ，能够 在 各 种 场 合 得 到应用。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)

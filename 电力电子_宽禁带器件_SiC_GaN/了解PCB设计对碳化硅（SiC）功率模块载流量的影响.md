@@ -1,0 +1,182 @@
+# 了解PCB设计对碳化硅（SiC）功率模块载流量的影响
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/TD5VPwcSgQb8lDjRGjpRPg](https://mp.weixin.qq.com/s/TD5VPwcSgQb8lDjRGjpRPg)
+
+文章来源：APEC2024-(Wolfspeed)
+
+作者：Dereje Woldegiorgis, PhD
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFIWA5SDAGVmY3ficVZ6xShQKEUcZLnKx9RA5tS4ExOgGJrlj2Ngbe01g/640?wx_fmt=jpeg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFlicDae4DRyfse2v4ecjxHo8X5icickPves02jOWyibA8DZfnaG32XF922w/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZF8FKhTFvALZTyeEnKNBh0ypjjoPtrJpBccGzjQ0oKrCODicQViaCgqKkw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFN0bF0GzqcJ5gxjKiaQNmj1GGPH6VniaGUo15H1Qfnh7Lm37M96P1m2Gw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZF5gdQHbIxg4myiay3FSibBzPU6UBytVrVNskwwtrER9aW3sh3zBtDiauag/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFbW9oMem8cTSr4D8P8hIialqzRPg1AYLP28rqb4oLib1C9YjkK8ibVvR2Q/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFdhx6labNT1Mzq1PPyT2slRaZVS9PicUWQBMGRPYUJjnsqRmyK12r3mQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFkM15yMZyk9cciak7nmiceb3z3yo8bM1uRSlgica2SzFN8v1p1UW7JlYvw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFEkDZfnv4PXDiaLVlDWeSENSET1caKuYdMokiaTIJfXr5El8WmjG6IM4w/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZF7iaBaK41enaJx3Dk4Osw6c0XaAWDjwjx6U3HicJgiaYGJ6eQpDiaQibtJEw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFAX1JF0eRUPY3SEk9hrakcZSRDcTrekTX0vghn5mjf1uhsB6bMIWGicQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFstzqVflPdgmsjRm0Z76k1iaZqlYibrtZjCArMLZJLKUticZeZYSfic8SwA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFeribN3E8YiakyUNPXriaCMV9jc8tLXWnh17pgNMjvNMY8nSrfbbCXRmIg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFW4h4ebdCFwcs2tJlIf0kK3MibPiaUh1xicvj2tYKcBvSk65DbkdexMQAg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFCic2SBPFfCdVuMiaqx4ywCF9ZmW3RfLZ4uzCm562NBT8HGmkQwic3ibtAQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFnNyPlYO1ia5lIkjXKSQOSezovico4NPnBichwWD9ykdQ3RWRB1HjVfJWg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZF9l8X9SglkbAgupKR0ic6sicTmdPuxeGrcaianWdZgvXAsph9fwVHne2Cg/640?wx_fmt=png&from=appmsg)
+
+注：图片报告与文字无关
+
+PCB设计对碳化硅功率模块的载流量有着**至关重要甚至决定性**的影响。碳化硅器件本身具有高功率密度、高开关频率和高工作温度的优点，但如果PCB设计不当，这些优势不仅无法发挥，还会导致系统失效。
+
+简单来说，**糟糕的PCB设计会成为整个功率回路的瓶颈**，限制载流量，引发过热、电压过冲、电磁干扰等一系列问题。
+
+以下是PCB设计影响载流量的几个关键方面：
+
+### 1\. 导通载流能力
+
+这是最直接的影响，主要取决于PCB走线的**横截面积**和**温升**。
+
+**走线宽度和厚度**：
+
+原理：根据电流公式 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskcYFPGJ4KODoibVhnyvJIZFDVsuZwBBn5wlaIvyOU4stMRLibNuCUuQJYsgNb1lDXoJVlV1iandKYtw/640?wx_fmt=png&from=appmsg)
+
+（其中I为电流，ΔT为温升，A为横截面积），载流量与走线横截面积直接相关。
+
+**设计要点**：
+
+**足够的宽度**：功率回路（特别是主电流路径）的走线必须足够宽。需要使用PCB载流能力计算工具（如IPC-2152标准）来确定最小线宽。
+
+  
+
+**增加铜厚**：使用更厚的铜箔（如2oz/70μm，甚至3oz/105μm）可以显著提高载流量，而无需过度增加板面积。这是高电流应用的常见做法。
+
+  
+
+**去除阻焊层**：在需要过大电流的走线上开窗（去除阻焊层），并镀上厚厚的锡，可以进一步增加有效截面积和散热能力。  
+
+  
+
+过孔的处理：
+
+**问题**：电流需要换层时，过孔是瓶颈。单个过孔的载流能力有限（通常为1A-3A，取决于尺寸和电镀工艺）。
+
+  
+
+**设计要点**：
+
+**多个过孔并联**：对于高电流路径，必须使用**过孔阵列**（多个过孔并联）来分担电流。一个经验法则是，每安培电流至少使用1-2个标准过孔。
+
+  
+
+**增大过孔尺寸**：直径更大的过孔具有更低的电阻和更高的载流能力。
+
+  
+
+**填充导电环氧树脂**：对于极端电流应用，可以采用填充过孔工艺，进一步降低电阻和改善散热
+
+**2\. 热管理能力**
+
+**载流量本质上是受温度限制的**。PCB是功率模块散热的主要路径之一。不良的热设计会导致局部过热，即使走线理论上能承受该电流，模块也会因高温而降额或损坏。
+
+**散热过孔**：
+
+**作用**：在功率器件（如SiC MOSFET）的散热焊盘正下方，放置密集的散热过孔阵列。这些过孔将热量从顶层迅速传导到内层或底层的铜平面，从而扩大散热面积。
+
+**设计要点**：过孔应尽可能小、尽可能多，并填充导热环氧树脂以获得最佳效果。
+
+**内部铜平面**：
+
+**作用**：使用完整的内电层（电源层或地层）作为散热层。这些大面积的铜层是极好的热扩散器，能将热点热量均匀分布到整个PCB，或传导至外部散热器。
+
+**外部散热路径**：
+
+作用：将PCB上的高发热区域（如功率模块位置）通过导热垫与金属外壳或外部散热器紧密接触。PCB布局需要为散热器安装留出空间和螺丝孔。
+
+### 3\. 寄生参数的影响（高频开关下的“有效”载流能力）
+
+这是碳化硅应用中的**独特且关键**的挑战。SiC的开关速度极快（ns级），使得PCB布局引入的**寄生电感** 变得极其有害。
+
+**寄生电感的危害**：
+
+电压过冲和振铃：环路寄生电感 Lloop会与开关管的高速 di/dt相互作用，产生巨大的电压过冲 Vovershoot=Lloop⋅di/dt。这可能会超过SiC器件的额定电压，导致损坏。
+
+**开关损耗增加**：寄生电感会延长开关时间，增加开关损耗，导致器件结温升高。**这相当于在相同的平均电流下，实际的热应力更大，从而限制了“有效”的载流量**。
+
+**电磁干扰**：严重的电压振铃会产生强烈的电磁干扰。
+
+**优化布局以最小化寄生电感**：
+
+**紧凑化布局**：核心功率环路（如：DC+ → 退耦电容 → SiC模块 → DC-）的物理面积必须**最小化**。这意味着相关元器件要紧靠在一起。
+
+**实现“叠层”结构**：最理想的方式是使用多层板，将功率环路的正负路径分别布置在相邻的两个层上，并紧密重叠。这种平行板结构可以形成天然的场抵消，极大程度地减小环路电感。
+
+**使用低ESL电容**：退耦电容应选用专为高频设计的类型（如陶瓷电容），并直接贴在功率模块的引脚附近，引脚尽量短而宽。
+
+### 总结：优秀PCB设计的关键原则
+
+为了最大化SiC功率模块的载流量和可靠性，PCB设计应遵循以下原则：
+
+设计目标
+
+具体措施
+
+**降低直流电阻**
+
+1. **加宽**功率走线。  
+2. **增加**铜箔厚度。  
+3. **使用过孔阵列**进行电流换层。  
+4\. 大电流走线**开窗镀锡**。
+
+**优化散热**
+
+1\. 在器件下方设计**散热过孔阵列**。  
+2\. 使用**内部大铜皮**作为散热层。  
+3\. 规划好到**外部散热器**的路径。
+
+**最小化寄生电感**
+
+1. **极度紧凑**的功率环路布局。  
+2\. 采用**叠层**母线设计（相邻层正负重叠）。  
+3. **高频退耦电容**紧靠器件引脚放置。
+
+**保证机械可靠性**
+
+避免在功率走线上出现尖锐的**直角和尖角**，应使用**圆弧或45°角**，以减少电流聚集效应（类似天线效应）和热应力集中。
+
+**结论**：
+
+在碳化硅功率模块应用中，PCB不再仅仅是一个简单的电气连接载体，它本身就是一个**关键的功率和热管理部件**。一个经过精心优化的PCB设计，能够确保SiC器件的巨大潜力得以安全、高效地释放，从而实现更高的功率密度、更高的效率和更小的系统体积。反之，一个糟糕的PCB设计会成为一个无法逾越的瓶颈，导致系统性能下降甚至失败。
+
+  
+
+注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxR1ZGBlBxtdgECnMTD8ol31ibFmssPznAkKdVkeR21tShuYqDrM7Wz73g/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRZ3szUe31R9A6C3o4fBIENxzhz8ribeBVpQF1VCoQCp4VPdqrD5qoWFw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRDq2eEAB4b86loaxw0I9FJaRJKn9QByDdahLicCVWX7Iy4659ujaxkWw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)

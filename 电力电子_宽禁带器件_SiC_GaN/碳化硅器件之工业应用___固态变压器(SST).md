@@ -1,0 +1,68 @@
+# 碳化硅器件之工业应用-- 固态变压器(SST)
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/W8VcZd7QWvus6rJPcTMCcw](https://mp.weixin.qq.com/s/W8VcZd7QWvus6rJPcTMCcw)
+
+       固态变压器(SST)是一种集高频变压器、电力电子转换器和控制电路为一体的新兴技术。它的目标是用“智能”解决方案取代传统的线频率分布变压器。SST技术可能会影响许多领域的发展，比如：智能电网、牵引系统、可再生能源系统(RESs)等等。虽然SST的结构比传统变压器复杂得多，但它可以消除一些缺点，并增加一个目前还没有的全新功能，例如:
+
+• DC-link允许直接连接直流电网以及额外的储能组件，无需使用额外的电力转换器；  
+
+• SST在运行中遇到电压不平衡、电压下降和其他干扰时，不会从变压器一侧转移到另一侧；
+
+• SST可以完全控制能量的大小和方向，可以独立对两侧无功功率进行补偿；
+
+• SST可以动态控制低压侧电压，补偿非线性负载扰动引起的扰动；
+
+• SST可以相互通讯，也可以与电网的其他单元通讯，形成所谓的智能电网(SG)。SSTs相互交换数据，还可以控制能量流及其参数，在发生故障时重新配置电网，使其适应新的工作条件，减少对最终用户的负面影响。
+
+       SST的工业实现需要使用标准组件，以及设计上的灵活性。使用电力电子模块(PEBB)方法可以满足这些目标。由于受现有功率开关器件的额定电压限制，本文仅关注1200V SiC MOSFET和中压(MV)应用。对于配电系统，中压MV主要指线路间2kV ~ 35kV的电压范围。
+
+       SST用于取代传统的配电变压器，这些变压器可以在几百KVA到几MVA的功率水平下将中压交流电转换为低压交流电和低压直流电。具有三级转换的典型架构如图1所示。SST可进行非隔离的MV AC /DC、隔离的DC/DC和非隔离的DC/LV AC交流功率转换。三级转换的智能电网架构如图2所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm40ibtzKicwggnECuWB7icrSppbja213TMhUHR5HT8LDsNB1CzVYZLdVW0CRJ3ll7lSFp7s2T3G9RPg/640?wx_fmt=png)
+
+        图 1.    SST三级转换架构  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm40ibtzKicwggnECuWB7icrSp6c4cIt19Gv2IxUxZfnYg0p3hZARlrJ4bia5YcgeibHbEWLaicElDffhew/640?wx_fmt=png)
+
+                                                
+
+  图 2. SST在智能电网的典型应用
+
+针对中压和高压的应用，常用一种特定的转换器——基于单相半桥转换器和全桥三电平转换器。模块化多电平转换器(MMC)如图3所示。更多电平的转换器由于其复杂性而不常用。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm40ibtzKicwggnECuWB7icrSpcJoicvdOpMqibErvvhVNiczZIxBbII0t6w22RGRucx8lhZzKKrFibv6XvQ/640?wx_fmt=png)
+
+    图3a  2级单极半桥  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm40ibtzKicwggnECuWB7icrSptysvY2FvF4qEY8iaRcLpun2bibic5VVgVI46Rz7BTICTfPicMHlcFs2DwQ/640?wx_fmt=png)
+
+                                                       
+
+                  图3b  三电平双极全桥                  
+
+半桥提供+Vdc和0V输出，而全桥提供三电平输出:+Vdc、-Vdc、0V。它们的MOSFET的额定电压为Vdc。其他电容分压的拓扑，如半桥和三电平NPC半桥，都存在均压困难的共同问题，也不常用。二电平单极半桥和三电平双极全桥是最可靠的模块拓扑，也将在所有后续讨论中使用。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm40ibtzKicwggnECuWB7icrSpyK10nATib9QF5f0JOyCFzDmkHRBTjQ4SIJVULH1PoRA8pjU8FcjM5WA/640?wx_fmt=png)
+
+  
+
+图4  隔离双向MV-to-LV半桥AC/DC变换器。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm40ibtzKicwggnECuWB7icrSpaiahjAoOY4mkeKGq97edBLicQAcuJVTTnXlicojLULbEN9G5Sl5tdviaVA/640?wx_fmt=png)
+
+                   
+
+图5  隔离双向MV-to-LV全桥AC/DC变换器
+
+图4和图5为模块化的中压AC到低压直流变换器。半桥变换器使用的开关模块(SM) 少二个功率管，但系统使用的模块数量翻倍。图5a和图5b使用三电平双极全桥SMs，是一种更紧凑的解决方案。对于超过10kV的交流输入，单个 10kV以上的高频电感器是很难设计，需要一些特殊而昂贵的处理。图5b的SMs有自己的内置电感器，它只需要与SiC器件同等的额定电压。图5b所示的AC/DC变换器是SST中压交流转低压直流级最实用的解决方案之一。
+
+       低压直流到交流输出级通常采用T型或I型(如图6所示)三电平三相逆变器拓扑。根据输出电压等级和电源设备的额定电压，选择T型或I型来使用。由于不同负载和电网电压条件下，三相输出电压或电流会不平衡，因此可能需要附加电压平衡电路，使三电平电路的电容电压保持平衡。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm40ibtzKicwggnECuWB7icrSp6DdwbBwicVwXH0icwzqzS8ibcerjFbWLTib46GlNeha5EsnHUnAE4ZAVaA/640?wx_fmt=png)
+
+          图6. 带电容电压平衡电路的I-型三相逆变器
+
+        高压SiC MOSFET的出现为固态变压器开辟了一个全新的领域。固态变压器是智能电网、储能、直流数据中心、可再生能源系统和电动汽车大功率充电站的关键部件。随着直流电力系统越来越普及，SiC MOSFET和SST技术都在以前所未有的快速步伐向前发展。在可预见的未来，它们将在工业应用中发挥重要作用。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm40ibtzKicwggnECuWB7icrSpcdPOy3rFxiaUuSWbMc43ib0HQm46kokUdr1gEJ148gm9WE7cyhviafehQ/640?wx_fmt=jpeg)

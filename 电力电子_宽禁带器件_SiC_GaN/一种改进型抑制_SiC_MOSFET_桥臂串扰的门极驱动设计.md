@@ -1,0 +1,130 @@
+# 一种改进型抑制 SiC MOSFET 桥臂串扰的门极驱动设计
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/zaXtZlW-l98YylhjrbWpNw](https://mp.weixin.qq.com/s/zaXtZlW-l98YylhjrbWpNw)
+
+**文章来源：**电源学报
+
+**作者：**李庆辉，潘三博（上海电机学院电气学院，上海 201306）
+
+**摘要：**针对传统驱动中 SiC MOSFET 在高开关频率下其寄生参数造成的桥臂串扰更加严重，而现有抑制串扰驱动电路多以增加开关损耗.增长开关延时和增加控制复杂度为代价的问题，根据降低串扰产生过程中驱动回路阻抗的思路，提出 1 种在栅源极间增加 PNP 三极管串联二极管和电容的新型有源米勒钳位门极驱动设计，分析其工作原理，并对改进驱动电路并联电容参数进行计算设计；搭建直流母线电压为 300 V 的同步 Buck 变换器双脉冲测试实验平台，分别与传统串扰抑制电路，典型串扰抑制电路的正负向串扰电压尖峰抑制效果和开通关断速度进行对比分析。 实验结果表明，所提串扰抑制驱动电路正负向电压尖峰分别比传统和典型串扰抑制电路降低了 80%和 40%，同时减少了 32%的器件开关延时。
+
+**关键词：**SiC MOSFET；串扰抑制；桥式电路；栅极驱动电路
+
+近年来，随着功率半导体器件在工业上大规模的应用，其性能要求也在日益提高，再加上所面临的工作环境更加恶劣， 以 SiC.GaN 材料为代表的第三代半导体开关器件引起了国内外学者的关注。
+
+为了使功率变换器迎合当今高效率和高性能的发展需求，SiC MOSFET 应充分发挥其相对于传统 Si MOSFET 所拥有的高击穿电压. 高工作频率和较高的可靠工作温度等特性，采用提高功率器件开关频率来达到减小开关损耗的目的是最为有效的方式。 但在直流母线电压较高的情况下，提高开关频率会使得 dv/dt 增大，而桥式电路结构受器件寄生参数的影响更为严重，会导致更加严重的串扰问题。因此，若想在变换器安全可靠运行的基础上充分发挥 SiC MOSFET 的性能优势， 桥臂上下开关管之间产生的串扰问题是需要重点解决的问题之一。
+
+桥臂串扰产生的根本原因是桥式电路中上开关管的开通或关断影响处于关断状态的下开关管，导致处于关断状态的下管栅源极之间产生正向或负向的电压尖峰。正向电压尖峰可能会引起开关管部分误导通，严重时可能造成桥臂短路；当负向电压尖峰超过器件允许的最小栅极电压时，容易造成开关管的损坏。因此，探究桥臂串扰问题产生的原因和机理， 分析和研究抑制桥臂串扰的方式和方法，设计出能够充分发挥 SiC MOSFET 高频开关特性优势的串扰抑制驱动电路，对未来高效率和高功率密度变换器的发展具有重要的意义和价值。
+
+理论上， 串扰抑制的基本思路是控制栅极阻抗，因此抑制串扰的方法大致可以分为无源抑制方法和有源抑制方法。
+
+无源抑制方法包括增大驱动电阻或在 SiC MOSFET 栅源极间并联电容等。 如文献通过在SiC MOSFET 栅源极并联电容， 使驱动回路阻抗降低，从而达到抑制串扰的目的。 但是并联电容相当于增加栅源极间的等效电容，会增加电容的充放电时间，从而降低器件的开关速度，产生更多的开关损耗，这与 SiC MOSFET 高频特性和变换器高效率要求相违背。 文献采用串联电容的无源三极管和与三极管发射极反向连接的二极管方式抑制电路，虽然此方式本身能够产生负的关断电压，抑制正向串扰电压尖峰，但是会降低其开关管的开关速度。 文献提出 1 种栅源极间并联 1 个高频二极管的抑制串扰电路，虽然不影响开关管的开通和关断速度， 但是其正向串扰电压尖峰抑制效果较差。文献提出 1 种通过主动降低等效栅极电阻和增加等效栅极源电容的方法来降低串扰电压的驱动电路，虽然可以达到抑制串扰正.负向电压尖峰的目的， 但是增加等效栅源极间电容会降低开关速度。 文献提出 1 种具有电平移位功能的高速负压驱动器，虽然能够提供负压关断电压，能够较好地抑制串扰问题袁， 但是电路工作较为复杂，影响开关器件的开通和关断速度。 文献提出1 种在器件开通或关断过程中通过增大驱动电阻的方式来抑制米勒平台期的电压变化率，从而达到抑制串扰的目的。该方法虽然能够缩短开关延时时间，但是由于增大了驱动电阻，开关损耗问题变得严重，同时也存在是否能够准确监测开关状态的问题。 上述这些方法虽然简单有效，但是会增加开关损耗，效果并不理想。
+
+另一种串扰抑制的思路是有源抑制方法，如文献提出一类额外增加 1 路控制信号来控制MOSFET 管的开通关断或通过三极管的导通关断使其串联电容在串扰产生时并联在栅源极之间的辅助支路，这种将电容并联在栅源极两端的方法相当于减小了驱动回路阻抗，既不增加开关延时和开关损耗，又能达到抑制串扰的目的。 但是该方法需要额外增加 1 路开关驱动信号，使得控制程度复杂和成本增加。 文献提出了 1 种通过在开关瞬态过程中改变栅源极电压和电容的多步有源栅极驱动器来抑制串扰的方法，虽然也能达到抑制串扰的目的，但是也会增加控制的复杂程度，使成本增加。
+
+基于此， 本文首先阐述了串扰问题的产生机理， 然后提出 1 种改进型有源米勒钳位抑制 SiC MOSFET 桥臂串扰的门极驱动设计，对其工作原理进行详细分析， 并计算和设计并联电容的参数，最后搭建了同步 Buck 变换器双脉冲测试电路实验平台，对提出的改进型有源米勒钳位抑制桥臂串扰的驱动电路进行实验验证，旨在不增加电路复杂程度和降低开关速度的前提下，能够较好地解决桥臂串扰问题。
+
+**1 .  SiC MOSFET 桥臂串扰产生的机理**
+
+为了简便和直观地分析串扰问题， 以等效简化的. 不含寄生参数的同步 Buck 变换器电路为例，如图1 所示，其中 V1H.V1L 分别为上.下开关管Q1和 Q2的驱动电压，下开关管 Q2一直保持关断状态， 通过控制上开关管 Q1的导通和关断来分析串扰现象。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7PPiahPRKndFnsW2g1sm2VeMFWAws4Czx9s43nR9ckP0eFRicWm4HXmag/640?wx_fmt=png&from=appmsg)
+
+如图 2 所示，当 Q1开始导通时，Q1沟道开始有电流流过，与下桥臂的续流二极管换流。 随着 Q1的导通，漏源极电压迅速降低，相对的开关管 Q2的漏源极电压迅速上升， 如图 2 中的虚线箭头所示，电流给开关管 Q2的米勒电容充电。 此电流流经栅极电阻 Rin\_L 形成左低右高的电压降， 抬升了 Q2栅源极电压 Vgs\_L。 由于 SiC MOSFET 阈值电压 Vth 较低，可能导致 Vgs\_L 超过阈值电压 Vth，造成 Q2的误导通，进而发生桥臂短路，危及系统可靠性及安全工作。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7iagicVKOofhtCsaQCsGcg8qKnS043oo1qic5YbxA4pAde3J3siaXCzAqMw/640?wx_fmt=png&from=appmsg)
+
+同理，如图 3 所示，当 Q1关断时，Q1沟道电流减小并与下桥臂的续流二极管换流。 伴随着 Q1漏源极间电压的上升， 相对的开关管 Q2的漏源极电压迅速下降， 如图 3 中的虚线箭头表示的是 Q2的米勒电容的放电方向。一部分电感电流流经栅极电阻 Rin\_L 形成左高右低的电压降， 反向抬升了 Q2栅源极电压 Vgs\_L，由于 SiC MOSFET 栅极耐负压能力较弱，可能导致 V 超过安全电压，造成 Q2的损坏，对系统可靠性造成影响。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7AK4xCkmU0eylDaia8aVJmK2x9NJyEKjvOwK0wy5A1YQdD6jHgAiaESCg/640?wx_fmt=png&from=appmsg)
+
+**2.  串扰抑制驱动电路设计原理分析**
+
+现有的 SiC MOSFET 串扰抑制方法有很多种变式，但是大多数方法均有缺陷，比如降低开关频率从而增大了开关损耗，使高效性不能充分发挥，或者是增加了有源器件使电路控制复杂程度提高袁增加了系统的整体成本袁降低了可靠性。 因此，在传统典型抑制方法的基础上， 本文提出 1 种改进型有源米勒钳位驱动电路的设计方法， 如图 4所示。以 PNP 型三极管和 RCD 网络相结合的方式设计该驱动电路， 由于辅助支路是用 PNP 三极管的开通关断来使电容并联在栅源极间， 因此仅需提供使发射结正偏的 0.7 V 电压即可， 不需要额外增加驱动信号和电路复杂度即能达到抑制串扰的目的。 电路主要的组成元件：SiC MOSFET.PNP三极管.驱动电阻.PNP 三极管限流电阻.吸收电容和二极管。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7pf2HAukeMaGs0TYoVzf9ColM3d0iaxegbSCDKZpgxeDqRWYfJbvFgPg/640?wx_fmt=png&from=appmsg)
+
+改进型有源米勒钳位驱动电路上尧.下开关管的驱动波形和下开关管的漏源极电压及栅源极电压波形如图 5 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7stiavbC1icPDVtIqxPeTgXO0N4jqBtkBlIsgecrzTmUOSms3LmIXEpfw/640?wx_fmt=png&from=appmsg)
+
+结合改进型有源米勒钳位串扰抑制驱动电路的相关波形，考虑到桥臂的死区，对改进型有源米勒钳位驱动电路在单个周期内的工作原理进行分析，如图 6 所示。
+
+开关模态 1\[t0，t1\]：上开关管 Q1处于完全导通状态，下开关管 Q2处于完全关断状态，电感电流经过上开关管 Q1沟道，驱动回路中无电流经过，因此驱动电路中 R1H.R2H.R1L.R2L 上的电压均为 0，4 个PNP 三极管发射结电压均为 0， 均处于截止状态，因此驱动电路的辅助支路不工作。
+
+开关模态 2\[t1，t2\]：上开关管 Q1开始关断，S2H闭合，Q1的栅源极寄生电容 Cgs\_H 放电， 由于二极管 D1.D2的单向导电性， 使得电流流经驱动电阻R1H 和二极管 D2回路，由于电流流过二极管 D2使得三极管 T2H的发射极电压小于基极电压，三极管不导通，电容 C1 不能并联在栅源极两端，因此在关断过程中不会影响开关管的关断速度。 与此同时，Q1沟道与 Q2开关管的续流二极管换流， 导致Vds1 迅速上升，Vds2 迅速下降， 下开关管 Q2的米勒电容 Cgd\_L 开始放电， 一部分电感电流流经电阻R2L，产生使 PNP 三极管 T2L发射结正偏的电压，T2L的导通使得电容 C2 并联到 Q2的栅源极间寄生电容 Cgs\_L 上，又由于 C2 的容值远大于 SIC MOSFET 的寄生电容 Cgs\_L， 给电感电流在下开关管提供了 1 个低阻抗的回路，使 Q2开关管栅源极间的负向电压尖峰得到有效的抑制。
+
+开关模态 3\[t2，t3\]：换流过程结束后，电感电流通过下开关管的续流二极管续流，此时桥臂电路处于死区区间，上.下开关管 Q1.Q2均关断，辅助支路中由于无电流流过，因此也不工作。
+
+开关模态 4\[t3，t4\]：下开关管 Q2开始导通，Q2开关管的续流二极管和 Q2沟道换流， 此时下开关管的驱动电压 V1L 经二极管 D3和驱动电阻 R2L 回路给下开关管 Q2的栅源极电容 Cgs\_L 充电， 驱动电流在电阻 R2L 上产生正向电压， 使得 PNP 三极管T2L发射结正偏导通， 电容 C2 并联在栅源极间， 但是V1L 产生的驱动电流却因为二极管 D6的单向导电性无法给电容 C2充电， 因此该驱动电路不会影响开关管的导通速度。
+
+开关模态 5\[t4，t5\]：换流结束后，由于 Q2处于完全导通状态，负载电流全部流过 Q2沟道，辅助支路中由于无电流流过，因此也不工作。
+
+开关模态 6\[t5，t6\]：Q2开始关断，Q2沟道和 Q2开关管的续流二极管换流，此时 Q2的 Cgs\_L 开始放电。参考模态 2 分析可知，C2 对 Q2关断性能的影响可以忽略。
+
+开关模态 7\[t6，t7\]：工作模式与模态 3 相同。
+
+开关模态 8\[t7，t8\]：上开关管 Q1开始导通，驱动电压 V1H 给栅源极间电容 Cgs\_H 充电。 同理，根据模态4 的分析可知， 由于二极管 D5的单相导电性同样无法给电容 C1 充电， 因此也不会影响上开关管Q1的开通速度。 与此同时，Q1沟道与 Q2开关管的续流二极管换流，Vds1 迅速下降，Vds2 迅速上升，下开关管 Q2的米勒电容 Cgd\_L 开始充电，电流流经电阻R1L 和二极管 D4回路， 电流在 Q2的栅极阻抗 R1L 电阻上产生左负右正的电压， 使 T1H发射结正偏导通，电流通过 PNP 三极管钳位在零电压处，从而抑制了Q2栅源极的正向电压尖峰。换流过程结束后，工作模式又转换为开关模态1，分析过程与上述相同。
+
+由上述分析可知，本文所提有源米勒钳位串扰抑制驱动电路可以满足在不影响器件开关速度的前提下，达到了有效抑制串扰的目的。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib75I1F6yaqGln0L0CibbmVZiarSTxbXU6B8ShCXkhKEnOwWpFHdnYlvwhQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7VtQGIhDgOq4mDGUM0sHlfS7uLeyjDko2cPvSIAzZ6EicRwaK3Wk20Gw/640?wx_fmt=png&from=appmsg)
+
+**3 .  串扰抑制驱动电路电容参数设计**
+
+为避免设计的抑制桥臂串扰驱动电路对系统可靠性的影响， 要求上开关管的开通瞬间在下开关管的栅源极间产生的正向电压尖峰要小于阈值电压 Vth， 关断瞬间在下开关管的栅源极间产生的负向电压尖峰小于开关管所能承受的最大负压。图 7 为上开关管关断瞬间下开关管的等效电路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7SRLGBIaWjY3iaG4e2iaJIiaUeclTID3HiaAGl2kMrjLTkUXwpKAWjW5ibFA/640?wx_fmt=png&from=appmsg)
+
+由电路的基尔霍夫定律可得，G 点的节点电压方程为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7lnFJTxWibDVxobPWJMaona9nhyyaFlQ0v4eL9HUIRN3Cj4ItHeG8I7Q/640?wx_fmt=png&from=appmsg)
+
+将式（（1）化简为二阶微分方程标准形式
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib71LZegdsNvuFyBESgia22LmnWNjhHampia742AtvMtUt6pkH0yZBlVf9g/640?wx_fmt=png&from=appmsg)
+
+通过求解式（2）的电路微分方程，可得到下开关管栅极串扰电压 Vgs\_L 的表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib75oddnmJDAPx0lNa9KZwdcruBLpNDn5CGVdqTefCiasMrh3UHaawgEpQ/640?wx_fmt=png&from=appmsg)
+
+式中，A 为辅助电容 C2 和输入电容 Ciss 的和。
+
+图 8 为上开关管关断时下开关管的串扰负向电压尖峰与辅助电容 C2 的关系曲线，要求串扰负向电压尖峰应小于开关管所能承受的负向电压。可知：为满足串扰负向电压尖峰小于负向安全电压， 电容取值应大于 0.1 nF； 当辅助电容大于 10 nF 的条件下串扰电压幅值会趋于不变，考虑到一定的裕量，辅助电容容值选择 0.1 uF。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7tZ9Rv6hn0NNzwSicOYXKSM2muqynfAf7OQV4ww28HKpwMd7GUeeaSvg/640?wx_fmt=png&from=appmsg)
+
+**4.   实验验证与分析**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7qL5k8YThWNPO7IVg9WAAE7lhmm13l42Er35Loacib5NBYnzo9836NYg/640?wx_fmt=png&from=appmsg)
+
+为了验证所提改进型有源米勒钳位串扰抑制驱动电路的正确性. 优越性及实用性, 实验选用力特(Littelfuse)公司生产的型号为 LSIC1MO120E0080的SiC MOSFET 器件, 具体参数如表 1 所示。搭建的双脉冲测试实验原理如图 9 所示， 由控制系统DSP. 抑制串扰栅极驱动电路和同步 Buck 变换电路组成。 通过双脉冲测试试验平台，对传统串扰抑制电路.典型串扰抑制电路\]和本文所提改进型有源米勒钳位串扰抑制驱动电路进行对比。本文所提抑制串扰的栅极驱动电路如图 4 所示，其电路元器件主要参数为V1H=18 V，V1L=18 V，C1=0.1 uF,RH.RL.R1.R2.R3.R4=10 欧。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib78M5icCqSaXpWpe9XrqRXoibCuPTpZ4ia49MqjYxuhWpml8NViafArctwxQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7rQ8B13FLXic0MDO7vOBnzRHLcCWScLRUSxLyLfHVmDqcGOQlSNHu8Xg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7kUDZGtkEb8ZjPPIKErjsGVdmicSLicsTH7KOpCZP1llhl97bYGjial2Aw/640?wx_fmt=png&from=appmsg)
+
+图 10-图 12 分别给出了传统串扰抑制驱动电路， 典型串扰抑制驱动电路和本文所提改进型有源米勒钳位串扰抑制驱动的实验波形。 分析和总结图 10-图 12 可以得到 3 种串扰抑制驱动电路的实验结果对比，如表 2 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmKZ8I3TcEDJy8S6UDtQTib7QSueH8hTGjLgPwDKWf1NBCKEBBnulLpQicUkxFxSlgdxYqI3hibMSrlw/640?wx_fmt=png&from=appmsg)
+
+由表 2 可知：传统串扰抑制驱动电路在发生桥臂串扰时所产生的正向电压尖峰为 4.60 V， 超过了开关管的阈值电压 Vth， 会引起下开关管误导通，发生桥臂直通情况，负向电压尖峰为\-7.00 V，大于开关管负向安全电压，严重时将会导致器件的损坏以及影响变换器安全稳定工作；典型串扰抑制驱动电路在发生桥臂串扰时所产生的正向电压尖峰为 1.60 V，负向电压尖峰为\-1.36 V，对比传统驱动电路， 虽然其正向电压尖峰未超过阈值电压，但较接近 Vth，因此依然存在桥臂误导通的隐患，而负向电压尖峰在开关管的安全负压范围内，因此较为有效地解决了开关器件损坏的问题； 本文所提改进型有源米勒钳位串扰抑制驱动电路在发生串扰时的正向电压尖峰为 0.96 V， 负向电压尖峰为\-1.40 V，分别比传统驱动电路降低了 79.1%和 80%， 正向电压尖峰比典型驱动电路降低了 40%， 负向电压尖峰基本一致， 其 SiC MOSFET 开关器件开通和关断延时也有一定的降低。 不仅解决了开关器件误导通的问题，其负压尖峰也在开关管的安全负压范围内，因此使得 SiC MOSFET 的安全稳定运行得到了保障。
+
+**5 . 结语**
+
+本文所提改进型有源米勒钳位抑制 SiC MOSFET 桥臂串扰的门极驱动电路，结合了无源抑制电路与有源抑制电路的优点， 在正向电压尖峰产生时， 通过 PNP 三极管将正向电压尖峰钳位在零关断电压，在负向电压尖峰产生时，通过 PNP 三极管将电容并联到栅源极间，从而提供给米勒电容 1 个低阻抗回路的方法，达到了抑制串扰的目的；同时，利用二极管的单向导电性，使得开关管在开通和关断过程中的辅助电容不会并联在栅源极两端，既能保障开关管的高开通速度和高关断速度，又能保证开关管损耗不增加，提高系统效率，达到较好抑制串扰的目的。实验结果充分说明本文所提该方法在抑制串扰和发挥 SiC MOSFET 的高效性和稳定性等方面更具优势。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

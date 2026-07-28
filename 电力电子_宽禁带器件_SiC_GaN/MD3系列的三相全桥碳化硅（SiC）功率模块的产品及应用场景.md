@@ -1,0 +1,289 @@
+# MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/vsuzKWaSExbGWdnGQwxlCA](https://mp.weixin.qq.com/s/vsuzKWaSExbGWdnGQwxlCA)
+
+前言
+
+电力电子行业的发展主要由能源效率提升、设备小型化以及应用场景严苛化三大引擎驱动，这对核心的功率半导体提出了明确要求：
+
+极致高效化：全球能源转型背景下，任何一点效率提升都意义重大。例如，在光伏逆变器或工业电源中，功率器件1%的效率提升，可能意味着长期运营中节省巨额的电力成本。
+
+高频化与小型化：设备越来越紧凑，要求功率半导体能在更高频率下工作。高开关频率可以显著减小系统中的电感、变压器等无源元件的体积和重量，从而实现更高的功率密度。
+
+耐高压与耐高温：新能源汽车的800V平台是典型代表，直接要求功率器件具备更高的耐压能力。同时，高功率密度带来的散热挑战，要求器件本身能在更高结温下稳定工作。
+
+高可靠性与成本控制：在汽车、工业、能源等关键领域，可靠性是底线要求。同时，性能的提升必须与系统总成本的优化相平衡，这要求器件在初始成本和因其高效、简化散热等带来的系统成本节约间找到最佳平衡点。
+
+碳化硅（SiC）器件凭借耐高压、高频、高效的物理特性，悄然走进千家万户——从电动汽车的快速充电，到光伏储能的高效转换，再到工业电机的精密控制。过去，它因成本高、工艺难，多应用于在高端领域；如今，随着技术不断成熟与规模化生产加速，碳化硅（SiC）器件正从“特定应用”走向“普惠性”底层技术，推动整个电子电力系统向更高效、更小型、更可靠迈进。
+
+碳化硅功率模块简介
+
+碳化硅功率模块可以理解为一个 **“性能增强版的集成电源管理单元”** 。它通过把多个碳化硅芯片（主要是MOSFET芯片和二极管芯片）以及其他元件高密度地封装在一起，来实现电能的高效转换与控制。其核心优势根植于碳化硅这种第三代半导体材料**宽禁带**的物理特性，并解决分立器件在更高功率等级下遇到的瓶颈。。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYSwPibnH2Hgl3B7ibpwU0T6daU3vOJ6WrKEvZLCZ6cnher7EicxQKYgd0w/640?wx_fmt=png)
+
+碳化硅功率模块的优势非常明显，目前已经被广泛应用于电力电子、新能源汽车、医疗设备和工业自动化等领域。在新能源汽车领域，碳化硅功率模块可替代传统的硅基IGBT功率模块，实现电机驱动效率的提高和轻量化设计的要求。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYUNT8faOxB7Tnz8obUJZX2uMVSCOAY5pqlMpFXEFcdialvjMB15E1IjA/640?wx_fmt=jpeg)
+
+MD3系统碳化硅功率模块产品  
+
+MD3系列是三相全桥碳化硅MOSFET模块，是基于客户的要求定制开发的一款款碳化硅功率模块，有风冷散热和水冷散热两种封装，可广泛用于重卡及各种大功率新能源车的电机驱动。作为主逆变器的应用带来了更高的逆变器效率、更小的系统尺寸、更低的系统成本和更长的行驶里程。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYpZJgz9n2YISPpfH6tEibgt7SnzensO8AMxL3P4A5Bb4RuU9aSUnMSYg/640?wx_fmt=png)
+
+  
+MD3模块的特点
+
+1\. 采用真空回流焊工艺，AlSiC底板+低热值AlN绝缘陶瓷，最高工作结温175℃；
+
+2\. 适用高温、高频应用，超低损耗；
+
+  
+
+3. 参数范围：
+
+                  **V****DS****：650~1700V**
+
+                     **I****D****：300~800A**
+
+          **R****DS(on)** **：1.5~8.3mΩ**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dY87g38fcDTp1PlXcINNbibzibE8provK5shu5sFW3HJlQDFMnZCkBLLMQ/640?wx_fmt=jpeg)
+
+MD3模块产品图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYWY7JBWkgSFYl16kvErpfv32mPZibnfFagcLa89dumomyYh4UzMySUtQ/640?wx_fmt=png)
+
+MD3模块拓扑图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYC8dvsiaiaDd3icSUZMaziawxWpYCKA5YLown1AiaDr5Bbhs23P6rCzTH9eQ/640?wx_fmt=png)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslByy3kXib2QU5FRk8JBbPOfvNftUKVAPUbiaticQlQvb1KibSrvY2j2KYgloOB9Z1WhQuBgAZlTA0cPw/640?wx_fmt=jpeg)
+
+MD3模块风冷式外框尺寸与实物图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYxzW4R9Ts8aQicrxjWqou75yg4G08AffqNWszvicq4BYUIeaHsVKibwOMA/640?wx_fmt=png)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslByy3kXib2QU5FRk8JBbPOf1scRPOtBEJcVtP9icoSBmhHprib8Z8Vw6BOfCbBvrm1YMQTEaWZmoK9g/640?wx_fmt=jpeg)
+
+MD3模块水冷式外框尺寸图与实物图
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslByy3kXib2QU5FRk8JBbPOfvLGDRTUvKOD9Pd24P6qC6kNttPaux8hPE428SM7kOYhfqFHcTRZ2Yw/640?wx_fmt=jpeg)MD3模块+驱动板实物图  
+
+碳化硅功率模块核心优势：
+
+与传统的硅基IGBT模块和硅基MOSFET模块相比，SiC模块的优势是颠覆性的，这主要源于碳化硅材料**宽禁带**的特性。
+
+特性维度
+
+优势解读
+
+对系统设计的价值
+
+**1\. 高频开关能力**
+
+开关损耗极低，仅有硅IGBT的1/5~1/10。允许在**几十kHz至数百kHz**频率下高效运行。
+
+**减小无源元件体积**
+
+：可显著减小滤波器、变压器的体积和重量，提升功率密度。
+
+**2\. 高耐温能力**
+
+最高结温可达**175°C ~ 200°C+**，远高于硅器件的150°C。
+
+**降低散热需求**
+
+：在相同功率下，散热器可以更小；或在相同散热条件下，输出功率更高。
+
+**3\. 低导通损耗**
+
+在高压条件下，SiC MOSFET的比导通电阻远低于硅IGBT，且没有IGBT的尾电流。
+
+**提升系统效率**
+
+：尤其在部分负载条件下，效率提升非常明显，减少能源浪费。
+
+**4\. 优异的反向恢复**
+
+SiC SBD是多数载流子器件，**几乎无反向恢复**。
+
+**降低开关应力与EMI**
+
+：在桥式电路中，消除了二极管反向恢复带来的损耗和电压过冲，简化吸收电路设计。
+
+**5\. 模块封装优化**
+
+为SiC高频特性专门优化，采用**低寄生电感设计**，如叠层母排、开尔文连接等。
+
+**发挥SiC极限性能**
+
+：抑制因高di/dt和dv/dt引起的电压过冲和振荡，使系统工作更稳定、可靠。
+
+**总结为三个关键词：高效率、高功率密度、高可靠性。**
+
+### 碳化硅功率模块关键应用场景
+
+### 
+
+碳化硅功率模块的封装和结构多样化，在设计方面需要考虑材料的特性和应用场景的要求，选择最优的结构和参数。同时，还需通过设计优化减少能量损失和热效应，优化器件的电热特性和稳定性、成本等进行综合考虑，合适的就是最好的。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYexyoAgcicKYJQmIE946zHAiba2lOwEM47ibcicbibUW1LPXd0JAhQ4r8cXQ/640?wx_fmt=jpeg)
+
+基于高频开关能力、高耐温能力、低导通损耗、优异的反向恢复、模块封装优化等优势，SiC功率模块正在以下核心领域快速替代传统硅基IGBT方案。
+
+#### 1\. 新能源汽车 - 主战场
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYGRk9mweibUKGJzKVdF2PEQNmv8TdkuEjEUy9DBH0jsrOZwDfBR31xoA/640?wx_fmt=png)
+
+-   **主驱逆变器**：这是价值最高、性能提升最显著的应用。
+    
+
+-   **优势**：提升整车效率，延长续航里程（约5-10%）；允许使用更高转速的电机；高耐温性简化冷却系统。
+    
+-   **现状**：已成为高端电动车的标配，并正向主流车型渗透。
+    
+      
+    
+    ![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYgnrSRuvLFzC4Cu5OCIb4Q5DCIKicvdr4p3L4kVqoEssnNCrJRzj1zMA/640?wx_fmt=jpeg)
+    
+      
+    
+
+-   **车载充电机**：
+    
+
+-   **优势**：实现高频化，使OBC做得更小、更轻、功率更高；支持双向充电功能。
+    
+      
+    
+    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dY9BDWVYPAhAkSzsLsNTbDyhabvrNyUAKe3rP9Gn8fl1u7AcZ15xwIQw/640?wx_fmt=png)
+    
+      
+    
+
+-   **DC-DC变换器**：
+    
+
+-   **优势**：提升转换效率，减小体积。
+    
+
+#### 2\. 可再生能源与储能
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYwo31gpxiaJNBDPQeIXB8uPU6lWFN7K0aibErZTn8tMAYec8JQsrh2DFQ/640?wx_fmt=png)
+
+-   **光伏逆变器**：
+    
+
+-   **优势**：提升转换效率至99%以上，直接增加发电收益；高频率允许使用更小的电感、电容，降低系统成本和体积。
+    
+-   **场景**：尤其在组串式逆变器中优势明显。
+    
+
+-   **储能变流器**：
+    
+
+-   **优势**：与光伏逆变器类似，高效、高功率密度，支持双向高效能量流动。
+    
+
+#### 3\. 工业驱动与电源
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYzibLC0hjyqHu3knQ4dZo87tHhV2xe2mmoK3quyZqdIicoW6p0Nha7Xibw/640?wx_fmt=png)
+
+-   **伺服驱动器与变频器**：
+    
+
+-   **优势**：更高的开关频率带来更快的动态响应和更精确的控制；低损耗减少电柜体积和冷却需求。
+    
+
+-   **不间断电源**：
+    
+
+-   **优势**：提升整机效率（尤其在高负载时），减小体积和重量，对数据中心等应用极具吸引力。
+    
+    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYlE39udmRa1oibEHC8zPjRWUNWCnD1sH3FiaVmnum86NicKEr8iaFt1f6dA/640?wx_fmt=png)
+    
+
+-   **工业电源**：
+    
+
+-   **优势**：如焊接机、感应加热电源等，高频化带来设备小型化。
+    
+
+#### 4\. 充电桩
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZjHEMEFpQzu3D3OomW6dYFUf0cTKSibUuPj2TSgBdRYJTrtweVTgGQEfKBgrDBJqEBiaib3tn4cN9Q/640?wx_fmt=png)
+
+-   **直流快充桩**：
+    
+
+-   **优势**：SiC模块是实现小体积、高功率充电桩的核心。它能将充电模块做得更紧凑，功率等级更高，以满足未来超充需求。
+    
+
+#### 5\. 轨道交通与船电
+
+-   **牵引变流器**：
+    
+
+-   **优势**：极高的可靠性和效率，减轻系统重量，符合轨道交通对节能和空间利用的极致要求。
+    
+
+### 给开发者的设计考量
+
+采用SiC模块并非简单替换，需要系统级的重新设计：
+
+**1.门极驱动设计**：
+
+-   需要提供合适的门极电压（如+18V/-3V至+15V/-5V）。
+    
+-   要求驱动回路电感极低，以提供足够大的峰值电流并抑制振荡。
+    
+-   推荐使用专用的SiC驱动芯片，它们集成了保护功能。
+    
+
+2.PCB与母排布局：
+
+-   **核心是降低功率回路寄生电感**。必须使用**叠层母排**和紧凑对称的布局，以抑制开关过程中的电压过冲。
+    
+
+3.散热管理：
+
+-   虽然SiC耐高温，但为了发挥其高可靠性，仍需优化的散热设计。
+    
+-   对于高性能模块，双面冷却技术正在成为趋势。
+    
+
+4.电磁兼容：
+
+-   高dv/dt和di/dt会带来EMI挑战。需在源头（通过门极电阻调节开关速度）、传播路径（滤波、屏蔽）上进行综合设计。
+    
+
+### 总结
+
+对于电力电子开发人员而言，**碳化硅功率模块不再是未来的技术，而是当下提升产品竞争力的关键手段**。它通过**高频、高效、耐高温**的特性，赋能电力电子系统实现**功率密度和效率的跃升**。理解其优势，并掌握与之配套的驱动、布局和散热设计，是成功将这一先进技术应用于实践的关键。
+
+SiC MOSFET的封装大全
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRlvQS4ppoiaQk74m20pGgnaYhUzhcnDtroLkAibLk2yiakfb285yiczHcHg/640?wx_fmt=jpeg)
+
+SiC功率模块的封装大全
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRYkK8tjgRfnroIut1KCicTuZEdE6wUK3KHfQorQGSAgq1wib1g6FuGy0w/640?wx_fmt=png)
+
+SiC器件的应用领域
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxR4spJ6vG9PJMH0wPeIEMKH6MrkWiaet11N3OCux6ibgOclaZ3HXdORibRA/640?wx_fmt=png)
+
+  
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRxP32XZKwPpITicjzLG2zcBibZlFFZfJ0I2icQIglRjkqaz4bq3AibhusBw/640?wx_fmt=jpeg)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRDm7hI6Z58XaOib9IJ1yCdCPC0CwMZMXWBLOqLOXPRIl125ic73IeyIkg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn9J1vWt7UpbwdJhHwibTjxRRg5ic3h2onLMdazZecH5jsT9LuK9rwWlkfeXmjS0VUCiaibRQaeasaEYg/640?wx_fmt=png)

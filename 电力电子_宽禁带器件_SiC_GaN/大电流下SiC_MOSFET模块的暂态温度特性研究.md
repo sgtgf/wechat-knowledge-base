@@ -1,0 +1,134 @@
+# 大电流下SiC MOSFET模块的暂态温度特性研究
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/V-vhuKMF1EbbAGnJZQZi\_w](https://mp.weixin.qq.com/s/V-vhuKMF1EbbAGnJZQZi_w)
+
+文章来源：电气传动
+
+作者：李占涛，陆海峰（清华大学 电机系，北京100084）
+
+摘要：由于碳化硅（SiC）的材料特性，在极端温度下，碳化硅金属氧化物半导体场效应晶体管（SiC MOSFET）相对传统硅基器件有突出优势。目前对SiC MOSFET暂态温度特性的研究，主要以单管小电流实验为主，大电流下暂态温度特性的研究还不充分。为分析和验证大电流下暂态温度这一特性，在理论分析的基础上，以CREE 1200V/300A半桥SiC MOSFET模块为研究对象，通过双脉冲测试平台研究SiC MOSFET模块及其驱动电路在不同温度环境下的暂态性能。对比分析了不同温度下开关时间、开关损耗、电应力及电流、电压过冲的差异，实验结果对SiC MOSFET模块在大电流下的选型和驱动设计具有一定的参考意义。
+
+关键词：碳化硅（SiC）；金属氧化物半导体场效应晶体管（SiC MOSFET）；温度特性；模块；大电流
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3Fib3AkGPExhicicMBZChWpk0FJibUfWRu3ArMhtWQxNIKPkRMwk9jq87lw/640?wx_fmt=jpeg)
+
+0\. 引言
+
+随着宽禁带器件研究的逐步发展，基于SiC尤其是SiC MOSFET的电力电子器件，正在得到越来越广泛的应用。由于SiC材料本身具有更高的禁带宽度，击穿场强和热导系数，SiC基器件相对Si基器件在通态损耗、开关速度、工作温度等方面表现出明显的优势，可以满足更广泛的应用需求。其中，在极端温度下的应用已成为SiC MOSFET的重要研究方向，而对SiC MOSFET温度特性的研究就显得尤为重要。
+
+近些年来，国内外诸多学者都对SiC MOSFET的温度特性进行了研究。国内主要有文献针 对1 200 V/36 A单 管SiC MOSFET在25~150 ℃温度条件下对开关延时、开关损耗进行了测定。文献\[4\]对1 200 V/40 A单管SiC MOSFET的阈值电压、跨导、通态电阻等静态参数进行了测定，测试温度条件为25~150 ℃。国外文献中的研究相对更加完备。文献\[5\]对动态和静态参数进行了综合测量，测试温度达到200 ℃。文献\[6-7\]则对低温下的参数也进行了测试，测试温度条件为\-100~200 ℃，并对结果进行了分析。文献\[8-9\]在改变温度的同时，对门极电阻、负载电流都进行了不同工况下的动、静态参数对比，并在实际的DC-DC变换器中也进行了测试。
+
+已有的工作对高低温环境下的动、静态参数都有了完备的测试结果，但之前的工作大多采用单管进行测试，负载电流都没有超过50 A。但实际中，大功率模块的电流远不止50 A，以CREE的CAS300M12BM2半桥模块为例，其标准为1200V/300A。而在模块大电流的工况下，温度特性尤其是暂态特性的相关工作做的还不够。除此之外，先前实验中，以高温为例，多采用热盘对SiC MOSFET加热的方式，只有SiC MOSFET的壳体与热盘接触时，测试环境才相对开放。而实际的控制器中，驱动板等外围电路与功率器件共同存在于密闭壳体中，这样的测试和实际工况有一定的差距。
+
+针对以上两点问题，本文选用CREE公司的1200V/300A半桥模块CAS300M12BM进行测试，将整个双脉冲实验平台，包括驱动板，置于密闭温箱内，在不同温度下进行了电流等级较高的双脉冲测试，记录不同温度下暂态特性。
+
+1. 理论分析与测试方法
+
+1.1暂态温度特性的理论分析
+
+在进行实验测试前，对SiC MOSFET暂态过程中的主要参数随温度变化的特性在理论上给出分析。首先，温度变化直接影响的是载流子的本征激发，具体来讲，随温度增加，本征载流子的浓度会逐渐增大，而本征载流子影响阈值电压的变化。阈值电压Vth的表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3Nj6E71rZqichcTAhIyT09hpbMUyelocIHTpkibicIosqrrVACPONUZMIQ/640?wx_fmt=png&from=appmsg)
+
+式中：εs为相对介电常数；k为玻尔兹曼常数；T为温度；NA为掺杂浓度；ni为本征载流子浓度；Cox为氧化层电容；q为单位电荷量。
+
+由式（1）可知，随着温度升高和本征载流子浓度的增大，SiC MOSFET的阈值电压会随之降低。这一结论在文献\[6\]中给出实验证明。
+
+温度的变化除了影响本征载流子浓度之外，还对电子迁移率有影响。文献\[10\]中指出，在600 K以下，温度升高，界面态散射迁移率增加，反型沟道电子迁移率μni增加。SiC MOSFET中，跨导Gm代表栅极电压对漏极电流的控制能力，与反型沟道电子迁移率有关，其表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia35R27R31LQ9EWPnrjpFSpbicFwguPDrEh9J25proesRzLmbOfqIbwNxw/640?wx_fmt=png&from=appmsg)
+
+式中：Z为沟道宽度；μni为反型沟道电子迁移率；LCH为沟道长度；VGS为栅极电压。
+
+由式（2）可知，随温度升高，反型沟道电子迁移率增大，跨导随之增大。跨导对于暂态特性的影响，直接体现在米勒电压上，表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3VyZroibLRuZV7nPQphX5YnwK1GicXYUrhFz61n9xRZSvgqfkImtY3SHQ/640?wx_fmt=png&from=appmsg)
+
+式中：Vplate为米勒平台电压；IL为负载电流，感性负载下可视为不变。
+
+综合式（1）~式（3）的理论分析，温度升高，阈值电压降低，米勒平台电压降低。这两个参数直接影响开通和关断速度。以开通过程电压下降时间tvf和关断过程电压上升时间tvr为例，表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3Uo9Fmd9tLicG0iaH4IKf2OKcvwrWXXIK1YL1iadDEB8ZfmkrbS12y42Ig/640?wx_fmt=png&from=appmsg)
+
+式中：Qgd为开通过程中对米勒电容的充电电荷；Rg为门极电阻；Vdriveon为正向驱动电压，对SiC MOSFET一般为20 V；Vdriveoff为负向驱动电压，一般为\-5 V；Ciss为输入电容。
+
+由式（4）可知，温度升高，Vplate降低，开通过程中电压下降时间减小，而Vth也降低，故关断过程中电压上升时间的变化难以给出定性分析。
+
+1.2 平台搭建与测试方法
+
+对半桥模块通过双脉冲实验来测定其在不同温度下的动态参数特性。双脉冲实验原理图如图1所示。半桥模块的上桥臂始终保持负压关断，等效为反并联二极管，下桥臂加双脉冲信号。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3iaHgVCgRw3BPPib9aOKibf0HBc3U7w5f01DqQpmHKpuia69WyNF3uiakl9w/640?wx_fmt=png&from=appmsg)
+
+基于图1中的双脉冲原理图搭建实验测试平台，包括功率回路、驱动回路和测试环节3部分。功率回路半桥模块选型为1200V/300 A模块CAS300M12BM2；负载电感为150 μH空心电感，以防止大电流下引起饱和；直流母线电压为400V，并联4 700 μF电解电容提供瞬时电流，紧邻模块并联100 μF薄膜电容滤波稳压。驱动回路选用Si8285作为隔离芯片，选用ZXGD3006作为栅极驱动器，通过DSP产生双脉冲信号。测试部分示波器型号为MDO3024，带宽200 MHz；电压探头型号为TektronixP5205，带宽100 MHz；电流测量采用罗氏线圈CWT/UM/1/B，带宽30 MHz，量程300 A。双脉冲测试平台实验电路图如图2所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3CSbM1JdjukUodxJKGGpMTKWIR8vUMECm7vHPqzyWxAqujBsN9GH7cA/640?wx_fmt=png&from=appmsg)
+
+为尽可能达到接近实际工况下的测试效果，将功率模块、驱动板、负载电感、母线电容均置于温箱内部；DSP以及示波器等置于温箱外。测试条件为：母线电压400 V，考虑模块通流能力和罗氏线圈量程，负载电流为50~150 A，整个实验平台环境温度为\-20~60 ℃。
+
+实验过程保持母线电压为400 V不变，调整双脉冲第1个脉冲的宽度来控制负载电流，实验中电流取值分别为50 A，100 A，150 A，对应脉宽分别为18 μs，36 μs，54 μs。第二脉宽设为4 μs，两脉宽之间间隔为4 μs，以保证开通关断过程电流基本不变。
+
+2. 实验结果与分析
+
+在\-20 ℃，0 ℃，20 ℃，40 ℃，60 ℃的环境温度下依次进行50~150 A 3个电流等级的双脉冲测试。给出测试波形，并对其中的开关时间、开关损耗以及电流电压过冲、电应力等主要的暂态参数在不同温度下进行对比分析。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3rpcicketYaUkRglPMLM2aaQV8tlgcUbe6HoKh7POlz2F9Uyiafict6fFg/640?wx_fmt=png&from=appmsg)
+
+首先，图3、图4以150 A电流等级为例，给出了\-20 ℃，20 ℃，60 ℃ 3个温度测试点下所得的开关波形。对图3、图4进行定性分析，得出如下结论：在150 A电流等级下，随着温度的升高，开通过程加快，而关断过程变慢，并且在50 A和100 A电流等级下有相同结论。为给出更具体的定量分析结果，从开关时间、开关损耗，以及电压、电流变化率3个角度给出具体的参数变化。
+
+2.1开关时间的温度特性
+
+首先对不同温度下开关过程的时间进行测定，以IEC60747-8中给出的标准测定时间tdon，tdoff，tr，tf为例，不同温度下的开关时间测试结果如表1所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3ZlV5Hk7nfeTxlfW8ZTNSqUg3FJt8iaOZ9FCr4MhHmpDnozibEn7QkGiaQ/640?wx_fmt=png&from=appmsg)
+
+表1中将延迟时间和上升、下降时间分别测算。随温度升高，开通延迟时间tdon和上升时间tr呈下降趋势。关断延迟时间tdoff呈迅速上升趋势，下降时间tf则基本保持不变。这与1.1节中对上升和下降时间给出的理论分析结果相吻合。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3yvFAdLhEDrWQQ60LcHFFW2aH1KZO9CgRlomWghKj33kRaMBp7dpZAQ/640?wx_fmt=png&from=appmsg)
+
+为给出更直观的分析结果，将开通、关断总时间ton，toff实验结果进行汇总如图5所示，其中，ton\=tdon+tr，toff\=tdoff+tf。从图5中可见，随温度升高，关断总时间从550 ns上升到617 ns。开通总时间从258 ns下降到223 ns。从变化绝对值的角度来看，关断时间相对开通时间有更高的温度敏感性，并且这一敏感性主要体现在关断延迟时间上。
+
+2.2开关损耗的温度特性
+
+开关损耗作为直接影响效率的关键因素，其温度特性具有重要意义。以150 A负载电流为例进行损耗测算，如图6所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3EyPFcA476F6Hzyb3ib4LEc2Ptu4skXYpkA0GHGs5VvLGEt0siaGNuibZQ/640?wx_fmt=png&from=appmsg)
+
+由图6可知，在150 A负载电流等级下，温度从\-20 ℃上升到60 ℃，开通损耗从3.15 mJ下降至2.49 mJ，呈明显下降趋势；关断损耗从4.04 mJ上升至4.22 mJ，呈缓慢上升趋势；由于开通损耗的降低幅度更大，总损耗从7.19 mJ下降到6.71 mJ，呈略微下降趋势。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3VAHJbmuB7W2GVKcl9hThAZk86Avx8tMhUqFqdib6oiayD3pX74e8GPXg/640?wx_fmt=png&from=appmsg)
+
+为表现不同电流等级下的温度特性变化，绘制50 A和100 A下的开关损耗如图7、图8所示。表现出的特性类似，温度升高，开通损耗减小、关断损耗增加，但增加幅度较小，总损耗略有减小。随着负载电流的增大，损耗增加，特别的，关断损耗对电流等级的敏感性大于开通损耗。因此50 A下开通损耗较大，150 A下关断损耗较大。
+
+2.3 电应力和电压、电流过冲的温度特性
+
+除去最直观的开关速度和损耗之外，开关过程中的电压变化率dv/dt、电流变化率di/dt以及其导致的电压、电流尖峰也是影响驱动性能的重要参数。考虑到测量精度，以150 A负载下的实验结果为例进行测量，以开关过程中的平均电应力作为测量标准，di/dt和dv/dt数据处理所得结果如图9所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3zV8UlzWpZJzD7RwpiaibYI2AIXDXBlFicwicM2oQtjLLq4Z6ibYlwFDqhHQ/640?wx_fmt=png&from=appmsg)
+
+由图9可知，在150 A电流等级下，随着温度从\-20 ℃上升至60 ℃，开通过程中电流变化率从1.93 kA/μs上升至2.37 kA/μs，电压变化率从4.08kV/μs上升至6.25 kV/μs；关断过程电流变化率从2.27 kA/μs下降至2.13 kA/μs，电压变化率从3.22kV/μs下降至3.02 kV/μs。随着温度升高，开通过程电应力迅速增大，关断过程电应力有所下降。这与上文中温度升高，开通过程迅速加快，关断过程略有减缓的结论相对应。
+
+在电应力测定的基础上，对150 A开通、关断过程电压、电流尖峰在不同温度下进行对比，如表2所示。结果以比例形式呈现，基准值为负载电流150 A，母线电压400 V。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnEuB3ctPKI0VXg39bDZwia3LabxbC0H4GDuElODcVlB9icSS3uac4AXUnvvxJNrLxXG0AdTSAoFLeQ/640?wx_fmt=png&from=appmsg)
+
+从表2中可见，温度升高，电压过冲略有减小，电流过冲则呈现明显的增大趋势。通过电应力分析可知，开通过程的电应力随温度升高快速增大，关断过程的电应力随温度升高逐渐减小。对应的，随温度升高，开通过程中的电流过冲呈现明显增大的趋势，而关断过程中的电压过冲则略有减小。由于电流过冲较大，实验负载电流设定值仅增大到150 A。
+
+3. 结论
+
+本文系统研究了SiC MOSFET功率模块在50~150 A电流、\-20 ~60 ℃温度下的暂态温度特性。在理论分析的基础上通过双脉冲实验测定开关波形，对开关过程中的时间、损耗、电应力、及电压、电流过冲等参数进行定量分析，得出大电流下暂态参数的温度特性规律：1）温度升高，开通延迟时间和上升时间呈下降趋势；关断延迟时间呈迅速上升趋势，下降时间基本保持不变。2）温度升高，开通损耗下降，关断损耗略有上升，总体损耗呈略微下降趋势。3）温度升高，开通过程电压、电流变化率迅速增加，关断过程中的电应力略有下降。对应的，电流过冲迅速增大，电压过冲略有减小。
+
+以上是对大电流等级下暂态参数的温度特性分析，对特殊温度下SiC MOSFET的应用选型和驱动设计有重要的实际意义和参考价值。例如，实验结果表明，在高温环境下，关断速度会降低。则可考虑采用负温度系数的门极电阻等方案，加速高温环境下的驱动过程，以保证驱动性能的稳定的温度特性。
+
+另外，驱动板整体置于温箱内，使得实验的温度范围还不够宽泛，后续工作将围绕高温驱动板的设计和更宽范围的温度测试展开。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

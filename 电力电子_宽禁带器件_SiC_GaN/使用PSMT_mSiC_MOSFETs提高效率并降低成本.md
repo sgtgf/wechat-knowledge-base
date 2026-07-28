@@ -1,0 +1,145 @@
+# 使用PSMT mSiC MOSFETs提高效率并降低成本
+
+原创 Ehab Tarmoom SiC碳化硅MOS管及功率模块的应用 2025-07-27 10:27 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/FTIMjkizLMOME0l1qgriYw](https://mp.weixin.qq.com/s/FTIMjkizLMOME0l1qgriYw)
+
+文章来源：APEC2025(Microchip)
+
+作者：Ehab Tarmoom
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvsg91F2DYaUEUDDjgOdQJZZ0flw6Z2NkBEwptacOrvOsRnPyDqc6CyAA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsGNu3vUJvOCKGzSmI9SOICHkC2kGbAsN9jI08Vqxsd2kAyLlicE2Reqw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvswkDkRe3DTGef3fKqwPjGctOcNFVkhex2yAiajROQlL19EZ076DwtHoQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsaMgxuUiauicVYK964GYhVChEO7NjiaVV9OZxnnVRydSBxyOm45JolPFdA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvssRmuicllvGeAkpkTRiaE14ADlBZ8aajspyMNUk67j8KwMEevHfjuoxYg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvskNOyLQnicWvXjymbF5GbjcpqRNiaIcMV7zy4ymLocBiaKycAucGQaKnDQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsRkQUQibNYtHZafncHM2FNy2HrQjn7T5YCPBWSJPSGonhiaEsaLFT5HUw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvseBbmfXc0Z4vAdibR6yrYFeNicn1UeibIHR16b69TMLzcbe8ZdUmQ7PWsg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvsb3hdIic2AadqDyu2EJzXXvyxDqpM0rulhDf8xdAvppzS0SHpL2QNEkA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvsicaic3ARIkdqIJFIBUSaF6tDibrzqzpcB3vpic9MzK6Sp7QlWfxrGnDWdA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvszicsRLVzW9qRA1F6TkFs72ojhb8Mg2kRZ7cjPQJHfZ8gxULW314jqfA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsHf26XNwW2vPibR3kYnrq3MbmlFzrpso5nroLNq0icXnianRXOUCD3XZiag/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsZo6RXvTgU0rYG8ia2RF65mooxD4m1fZKVUd57GAsSftU0ru5KBT4WOA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsIH7ul3POgibJkiaJicwP9oic7dGBBYrZ2Vx0uw7w2IsTK0xYgusxlJA4ZA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvs9iczibS4ibeic987pWA8CLmibDib8vicsSTzO0uProKsZVg9EtiaG4oFeTeDAQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsMjkR3d7MtJjBghGBs3NGrS5ibvSCyAiaFiaQmiaVAgbh0k15TqojaLjPKA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsFJ3RGoYbqLe3w3xcXckmH2JTibAfTJQu2jmZb1xJ0drKico8bQHseMtA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvswFcGf2uRjK6H6icRdbtdM8C3dap4CWlyiaNUYBicQKhrCULjLbU155H8w/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsFO8L3yNKTUYJXEqb5m1lBkhjQMCBEb65wuydJTwOxbTThfJ4R2Gulg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsdcMffBoNiaO26EiaAz858wESfDTicxq4WxMgXk2e1yiaPMkdyMcrvuGjWA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsibNaTKmuDKG6oFbSVPTeyDzWGib30qdyH486jls1rHnubAfFibnRygibGQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvszwPVaPsVPmknFq6vaIRCCe1jcDewmUOR78O3iaCs8EqtoLSYtYfTSlQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvs32cABWicFqQLrQUibMARjgsoBAbyvQUujYyFd2BSOicvezMG27QLFQK8w/640?wx_fmt=png&from=appmsg)
+
+  
+
+注：文字与报告无关
+
+采用 PSMT（Power System-in-Package with mSiC™ Technology）封装的碳化硅（SiC）MOSFETs 在提升系统效率和降低成本方面具有显著优势，其核心价值体现在材料特性、封装设计与系统级优化的深度结合。以下是具体分析及实现路径：
+
+### 一、材料与器件特性驱动效率跃升
+
+###   
+
+### 低损耗与高频化突破  
+SiC 材料的禁带宽度是硅的 3 倍，击穿场强高10倍，使得mSiC MOSFET 的导通电阻（RDS (on)）较硅基器件降低至 1/10 以下，且无 IGBT 的 “尾电流” 现象。例如，在工商业储能变流器中，SiC MOSFET的开关频率可达数百 kHz（IGBT 通常限制在20kHz 以下），开关损耗降低70%-80%，同时将系统效率提升至99% 以上。这种特性直接减少电能损耗，尤其适合高频高功率场景如数据中心电源和电动汽车 OBC（车载充电机）。
+
+###   
+
+高温稳定性与散热优化  
+SiC的热导率是硅的3倍，结温可承受200℃以上，在高温环境下RDS (on) 仅增加10%。PSMT封装通过氮化铝（AlN）基板和直接键合铜（DBC）技术，将热阻降低30%以上，显著减少散热器体积和风扇功率需求。例如，在光储一体化系统中，SiC-PCS的维护周期可延长至10年以上，运营成本降低50%。
+
+### 二、PSMT 封装技术的成本重构逻辑
+
+###   
+
+**集成化设计减少外围元件**  
+PSMT通过板级封装（PLP）技术将 SiC MOSFET、栅极驱动器、去耦电容及 EMI滤波元件集成于一体，减少PCB面积达70%。例如，采用 MagPack™封装的电源模块可省去铜底板设计，同时氮化铝基板的应用降低了散热成本，使 1500VDC应用的总系统成本下降15%。在充电桩模块中，高频化设计可将电感体积缩小50%，进一步摊薄材料成本。
+
+**规模化生产与工艺优化**  
+2025年国产SiC器件单价已与进口IGBT器件持平甚至更低，8英寸晶圆量产使单位芯片成本再降30%。PSMT封装通过增大面板尺寸（如 600mm×600mm）和提高材料利用率（较晶圆级封装提升 66%），实现规模效应下的成本优势。
+
+长期收益覆盖初期投入  
+尽管SiC器件初期成本较高，但系统级优化可抵消差异。例如，工商业储能变流器采用SiC模块后，整体成本降低20%-30%，电费节省和故障率下降使回本周期缩短至1-2年。在新能源汽车领域，SiC电驱系统的效率提升可增加续航里程10%-15%，同时减少电池容量需求，形成 “性能 - 成本” 正向循环。
+
+三、应用场景与技术适配策略
+
+###   
+
+**高频高压领域的全面替代**  
+在650V-1200V电压区间，PSMT mSiC MOSFET的耐压、效率和高温性能全面碾压超结MOSFET和高压GaN。例如，光伏逆变器采用SiC模块后效率提升至98.5%以上，系统寿命延长至25年。在数据中心电源中，图腾柱PFC拓扑结合SiC MOSFET可满足80+钛金效率要求，同时减少被动元件数量30%。
+
+车规级可靠性与动态响应  
+PSMT封装通过AEC-Q101认证，支持毫秒级充放电切换，动态响应速度较 IGBT提升3 倍。例如，安森美EliteSiC系列产品已用于宝马、现代等车企的电驱系统，其SiC MOSFET在800V平台下的开关损耗仅为硅基器件的1/4，助力电动车续航提升20%。
+
+新兴市场的降维竞争  
+在10元价格带（含税），40mΩ SiC MOSFET通过材料性能优势和工艺优化，直接击穿超结MOSFET的生存底线。例如，在30-40kW充电桩模块中，SiC方案的体积较硅基缩小40%，且动态Ron退化<5%。这种成本优势正推动SiC从高端市场向消费电子电源等中低端领域渗透。
+
+  
+
+### 四、实施路径与风险对冲
+
+###   
+
+**设计协同与仿真验证**  
+需采用SiC专用设计工具（如 PSpice 模型）对栅极驱动参数（如 Vgs=18V）和寄生电感进行优化，避免因内部栅极电阻（Rg）较高导致的开关速度下降。例如，TI 的 UCC21750隔离栅极驱动器可将SiC的开关损耗再降低10%。
+
+供应链多元化与地缘风险  
+中国SiC衬底产能占全球 35%，2025 年国产芯片价格较全球均价低30%，可通过双源采购规避国际供应链波动。同时，PSMT封装的模块化设计允许快速切换不同厂商的SiC裸芯片，增强产线灵活性。
+
+技术迭代与专利布局
+
+  
+关注深沟槽栅结构（如英飞凌 CoolSiC™）和背面金属化工艺的进展，这些技术可进一步提升沟道迁移率和抗短路能力。企业需在SiC外延生长、封装材料等核心环节加强专利储备，避免陷入技术依赖。
+
+五、行业趋势与竞争格局
+
+###   
+
+**价格拐点加速替代进程**  
+2025 年SiC MOSFET价格首次低于IGBT，标志着第三代半导体进入大众化应用阶段。PSMT封装产品在100-300W快充市场的渗透率预计从2024年的 15%跃升至2027年的40%，直接挤压硅基器件份额。
+
+技术路线分化与生态构建  
+GaN聚焦MHz 级超高频市场（如 5G 基站），而SiC统治100kHz-1MHz功率领域。PSMT需与SiP(系统级封装）和AI算法结合，例如通过机器学习动态调整开关频率，在能效比与成本间实现最优平衡。
+
+  
+
+**结论**：
+
+PSMT mSiC MOSFETs 通过材料革新、封装集成和系统优化，重构了功率半导体的效率-成本曲线。在新能源革命和碳中和政策驱动下，其在工业、汽车、能源等领域的规模化应用将重塑全球电力电子产业格局。企业需以技术协同为核心，以供应链安全为保障，在这场效率革命中抢占先机。
+
+注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcIL9s9icLpA7sMkZl1yeAoJ70pnzOEicPx72xfic8DAlykF9ISV9UaWFibgtA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=t77ao96h&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILvxnibEN9LH8II05JCjJuHZ0eJDvLRlLLPec3gpN4R5gy7IAvkRDiatdw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=mh06mxt7&tp=webp)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILQftGrb0sLqYcs0hr4mZSf1WbuCoQjtIcgLmencF3V61K3BE4h5A4Sw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&randomid=zcsymlzn&tp=webp)

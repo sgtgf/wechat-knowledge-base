@@ -1,0 +1,62 @@
+# 爱仕特碳化硅模块荣获“OFweek 2023 新能源汽车核心技术突出贡献奖”
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/3gPNYOXRxDbfvZnMnAntbA](https://mp.weixin.qq.com/s/3gPNYOXRxDbfvZnMnAntbA)
+
+“维科杯·OFweek2023中国汽车行业年度评选”由中国高科技行业门户OFweek维科网主办，OFweek电子工程网、OFweek激光网、OFweek智能汽车网、OFweek新能源汽车网共同承办。本次活动将联合多个权威官方平台共同举办，并以其公正、客观的评选流程倍受业界广泛关注，将成为高科技领域最具专业性、影响力和代表性的行业评选之一！
+
+本次活动聚集汽车行业中制造、零部件、电子产品、物联网、新能源核心技术、5g通信等应用领域，旨在表彰中国汽车行业中具有突出贡献的优秀产品、技术、应用案例及企业，借此鼓励更多企业投入产品、技术创新。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmG54Ij2473zSt5BHcKot5E35hq9XfBb5qbRAF5KDM16qwUibWy1gKqNMb1ibR0VPf3xGdTO7ib347ibg/640?wx_fmt=jpeg)
+
+本次评选活动8月29日在中国·深圳举行盛大的颁奖典礼。今年评选共设立4大奖项，本着“公平、公正、公开”的原则，主办方投入了大量的时间和精力，最终，深圳爱仕特科技有限公司凭借其碳化硅功率模块DCS12，一举斩获“维科杯·OFweek 2023 新能源汽车核心技术突出贡献奖”。  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmG54Ij2473zSt5BHcKot5EH6mibY34HSZ5EiaPQia1z5rQuW5YhHyO3vxGJ3Fic0Nia6My2juZUoMZ89A/640?wx_fmt=jpeg)
+
+**企业简介**
+
+      深圳爱仕特科技有限公司，主要从事第三代半导体碳化硅大功率电力电子芯片设计，研发生产Sic Mos单管和模块，以及相关系统方案的开发。爱仕特拥有40余项核心技术知识产权，涵盖了工艺、设计等方面，成功应用于自主开发的各类产品中，先后获得武岳峰资本、中芯聚源、深创投及国内多家知名投资机构的数亿元投资。  
+
+**参赛技术、产品／项目名称：**碳化硅功率模块DCS12
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/G82XNUOiaHrc7Xx0mNBzwFfeCmh0GmvstI5SQVZlviafPsQo9T4Iz1jW1GICIib73ySU3ZWQrCZIibRmicIJaAj0gew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+爱仕特全碳化硅功率DCS12模块产品图
+
+**开发背景：**
+
+作为国内最早投入SiC功率器件企业，爱仕特科技专注于从事SiC MOS芯片研发及功率模块生产，其产品应用布局新能源汽车领域也日益深入。为缩小半导体器件使用尺寸，提高逆变器功率密度、可靠性、耐用性以及寿命周期，给高速发展的新能源汽车注入动力，爱仕特科技研制出车规级碳化硅功率模块DCS12。
+
+**产品、技术成绩扼要说明／关键点：**
+
+采用银烧结工艺，并联水冷结构设计
+
+**其设计应用或创新的关键点：**
+
+芯片采用银烧结，AMB板局部镀银工艺，提高产品性能同时降低成本；散热器采用PINFIN及并联水冷结构，提高产品散热效果及应用中产品的一致性。
+
+**参选述说／理由：**
+
+DCS12模块是基于一系列银烧结工艺、并联水道设计、半桥灵活结构、高耐用封装等技术结合的车规级碳化硅功率模块，可实现更高的结温温度以及更佳的极限结温循环。这也使得提升功率密度以及针对新能源汽车市场的更高功率输出和更快充电能力的需求得以实现。
+
+从系统层面看，DCS12可兼容硅（Si）和碳化硅的芯片封装，实现逆变器的更高效率。这样的自由度可以允许客户采用多个半导体方案，在保证效率最大化、成本效益最优化以及供应安全化的同时提升模块性能。
+
+**爱仕特产品线：**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmG54Ij2473zSt5BHcKot5EWSM8h4KWWOq6wrIBCqrc90eXLkjjf5U8nI5QOyE8dw7X6MNlPHqwow/640?wx_fmt=jpeg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmG54Ij2473zSt5BHcKot5Eo9eUBTyxLCQzqnpEBKrwACZNK3xfakLh4ibLibOkPJh0X6zSo35bPIBQ/640?wx_fmt=jpeg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmG54Ij2473zSt5BHcKot5Exic8KFMmT5ws6YfOT6v8swTV7Viasybh5oC8bQoeU1nLv61TzrrdbIwA/640?wx_fmt=jpeg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmG54Ij2473zSt5BHcKot5EiabruIau3ncty54AWGIDiaxuSiaqKENj0KAZmPpCFUD8zj6Oxic9FL6hBw/640?wx_fmt=jpeg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmG54Ij2473zSt5BHcKot5EtR1TXPsASftQgLaibB2HNxC7IKJibsiauicWPLotYtR7eag67prQRSJ4NA/640?wx_fmt=png)
+
+      爱仕特科技始终致力于碳化硅核心技术，不断研制技术领先的产品与解决方案，以满足新能源车用市场日益增长的需求。未来，爱仕特科技将继续发挥技术优势和品牌优势，携手产业链上下游共同进步，推动新能源汽车产业和光伏新能源等多领域的发展。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVLL6QPUmBrg5H6rzH5O9KUriagkmbMT7sJibtJyu9O6A0WRdGlEvAWrcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
+
+                    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)

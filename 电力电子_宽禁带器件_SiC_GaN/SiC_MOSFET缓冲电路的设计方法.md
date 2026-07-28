@@ -1,0 +1,154 @@
+# SiC MOSFET缓冲电路的设计方法
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/bcMLNEDUOO6vSs4ZT70VwQ](https://mp.weixin.qq.com/s/bcMLNEDUOO6vSs4ZT70VwQ)
+
+文章来源：罗姆（ROHM）半导体
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskoywLFymwF6icic20C717zlxnkpich5d4icFDq2ULIKn2hoIJmSaGgK7fgKgCIyAkDkqa4q4Mxd7vibzA/640?wx_fmt=jpeg&from=appmsg)
+
+**摘要：近几年，SiC MOSFET 作为各种各样的电源应用和电源线的开关元件，其应用范围在迅速地扩大中。其中一个主要原因是与以前的功率半导体相比，SiC MOSFET 使得高速开关动作成为可能。不过，由于开关的时候电压和电流的急剧变化，元件自身的封装电感和周边电路的布线电感影响变得无法忽视，导致漏极源极之间会有很大的电压尖峰。这个尖峰不可超过使用的 MOSFET 的最大规格，对此有各种各样的抑制方法。在本应用笔记本中，将对漏极源极尖峰抑制方法之一的缓冲电路的设计方法进行说明。**
+
+**漏极源极之间的电压尖峰**
+
+**漏极源极之间的电压尖峰是由于在 Turn ON 时流过的电流的能量储存在线路和基板布线的寄生电感中，并与开关元件的寄生电容共振所产生的。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMNP1rqa6owDtILDjnoSyQktmkcAC8hvsZLcXBFQKtW2Dm8EXmwVqppg/640?wx_fmt=png&from=appmsg)
+
+**Figure 1.说明尖峰产生时的振铃电流路线。该图显示了由 High 侧（HS）和 Low 侧（LS）的开关元件组成的桥梁结构中，当 LS 元件 Turn ON 时，开关电流 IMAIN流动的情况。这个 IMAIN通常从 VSW 流入再通过配线电感 LMAIN。**
+
+**接着，当 LS 元件 Turn OFF 时，在 LMAIN 流动的 IMAIN 通常会通过接在输入电源 HVdc-PGND 之间的 Bulk 电容 CDCLINK，经由 HS 元件和 LS 元件的寄生电容如图中虚线所示流动。此时，在 LS 侧漏极源极之间 LMAIN 和 MOSFET 的寄生电容 COSS（CDS+CDG）之间发生谐振现象，在漏极源极之间产生尖峰。**
+
+**该尖峰的最大值 VDS\_SURGE 如下式所示(\*1)，其中 VHVDC 表示HVdc 端的电压，ROFF 表示 MOSFET Turn OFF 时的电阻。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMnWibIs39IduoIdQSibPDUt5ibU9iaApH9VggRaK7aoAQ2AOPglfTA9guMw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMbfApYibibw0aMVkoCh1m0icRE6KDLSnCNa0ibEGmnEo5ibkRSnELmrUQwXA/640?wx_fmt=png&from=appmsg)
+
+Figure 2.为使用 ROHM 的 SiC MOSFET (SCT2080KE) 在Turn OFF 时的电压尖峰波形。HVdc 电压为 800V 时，VDS\_SURGE为 961V，振铃频率约为 33MHz。使用方程式（1）根据该波形计算出 LMAIN 约 110nH。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMH2kAPcKFQbMiaI7549lOuTnmVOOvXzu8D7w3iaeAg3omFmiaEnbS6k1icg/640?wx_fmt=png&from=appmsg)
+
+接下来，在电路中添加 Figure 3.所示的缓冲电路 CSNB，事实上 LMAIN 被去除掉的 Turn OFF 电压尖峰波形即为 Figure 4 所示波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMmCDr2XySxAYBlQZ34HVuAsjgiczLfJXJuYibiaLtmPmcFiae1QqDCN7ILA/640?wx_fmt=png&from=appmsg)
+
+这个时候电压尖峰降低了 50V 以上(约 901V)，振铃频率也变大为 44.6MHz，可知包含 CSNB 在内的电路网中的 LMAIN 变小了。同样，使用式（1）可算出 LMAIN 约为 71nH。
+
+本来，希望将线路布局设计为配线电感最小化,但通常优先考虑的是元件的散热设计，因此布线设计不一定理想。因此通过尽可能在开关装置附近布置缓冲电路，以形成旁路电路，将电压尖峰产生的源头——布线电感最小化，还可以吸收积蓄在布线电感中的能量。这样就可以将开关元件的电压钳位住，缩小 Turn OFF 电压尖峰。
+
+缓冲电路的种类与选定
+
+缓冲电路分为由电阻、线圈和电容器等被动部件组合的电路，和包含半导体元器件的主动电路。(\*1）本应用笔记将对无需控制、成本优良的电路方式进行说明。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoM9frCRDk5AsuJZGfJHUVTd6L7wN4kAVsmwQriaeZJY2Aia1xTgfRj43kg/640?wx_fmt=png&from=appmsg)
+
+Figure 5.为缓冲电路示例。MOSFET 桥式结构的上下部连接了电容 CSNB 的 C 缓冲电路(a)，在各开关元件的漏极源极之间连接电阻 RSNB 和电容 CSNB 的 RC 缓冲电路(b)，在 RC 缓冲电路中追加二极管的放电型 RCD 缓冲电路(c)， 将放电型 RCD缓冲电路的放电路径变更而成的非放电型 RCD 缓冲电路(d)。
+
+为了更好地发挥其的效果，必须将这些缓冲电路尽可能布局在在开关元件的附近。
+
+(a)零件数目少,但必须连接到桥式结构的上部和下部之间，因此缺点是线路会变得较长，因此通常不是用分立元器件，而是多用 2 in 1 的分立元器件模块。
+
+(b)可在各开关元件附近能布局缓冲电路，不过，必须确保每次元件 Turn ON 时 CSNB 中积存的全部能量均由 RSNB消耗掉。因此，当开关频率变高时，RSNB 所消耗的电力可能会变为数 W，而 CSNB 很难很大，所以抑制尖峰的效果也会变得有限。此外，RSNB 的尖峰吸收能力有限，因此抑制效果也会受限。
+
+（c）的 RSNB 消耗的电力与(b)相同,但因为只经由二极管吸收尖峰，比起(b)的吸收效果高、更实用。但是，需要注意使用的二极管的恢复特性，因为吸收尖峰时的电流变化大，需要极力减少缓冲电路的配线电感。另外，如果将 RSNB 与 CSNB 并联，在动作上也是相同的。
+
+（d）的 RSNB 只消耗 CSNB 所吸收的电压尖峰能量，CSNB 所积蓄的能量不会每次开关都充分释放出来。因此，即使开关频率加快，RSNB 的消耗功率也不会变得很大，可以将 CSNB 增大，大幅提高电路的抑制效果。但样线路布局变得复杂，如果不是4 层以上的基板，布线会极为困难。
+
+如上所述，这里介绍的缓冲电路各有长短，需要根据电源电路结构和转换功率容量选择最佳的缓冲电路。
+
+下面说明一下各个缓冲电路的设计方法。
+
+Ｃ缓冲电路的设计
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMk8kCAJECCQRUh6epoj6pK8quEMGfibGQwU1Aak6pkERW9vZP285hh1w/640?wx_fmt=png&from=appmsg)
+
+Figure 6.所示的 C 缓冲电路是通过 CSNB 吸收 LMAIN 积蓄的能量。因此，在缓冲电路中形成的 LSNB 必须比 LMAIN 小。由于 CSNB中积蓄的能量基本不放电，静电容量越大电压尖峰抑制效果变好,但使用的电容器的等价串联电感(ESL)也必须考虑到LSNB中。一般来说，电容器的尺寸越大 ESL 越大，在选择静电容量时要注意。
+
+为了将 LMAIN 中积蓄的能量全部用 CSNB 吸收， 需以算式(2)所示静电电容为依据选定电容。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoM9IayLiciaj7Z8P3Cg1cNch8oLrTndiagQwBjb5pXhnXLdUxUtmmYEDX1A/640?wx_fmt=png&from=appmsg)
+
+RC 缓冲电路的设计
+
+Figure 7.所示为 RC 缓冲电路动作时的电流路径。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMTUhpm551fYkIZEjqBc3Mmg6C2H2v9EQYlxF6TlnibxrneVMEUoaTZVA/640?wx_fmt=png&from=appmsg)
+
+与 C 缓冲电路一样，CSNB 的数值由算式(2)决定，而 RSNB 的参考値根据算式(3)求得。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMXP0CIbGJ3ltIwbQ6dSpZPVAg3vDiccI6pZSmmjnx48y8G9C1tFjgWeA/640?wx_fmt=png&from=appmsg)
+
+fSW:开关频率 
+
+VSNB:放电缓冲电圧（VDS\_SURGE的 0.9 倍）
+
+决定 RSNB 之后，以算式(4)计算出 RSNB 的消耗功率，选定功率满足要求的电阻。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMLswfsoqBsn8GUzEeC1XERK152uKZf9QJ4GPiaBX0jfYF4HXVZE3VXlg/640?wx_fmt=png&from=appmsg)
+
+对于 RC 缓冲电路，算式(4)追加了第二项，因为 fSW 或 VHVDC越高 RSNB 所消耗的电力越大，PSNB 太大导致电阻选定困难时，必须降低 CSNB 的静电容量值重新计算。另外，为了 RC 缓冲电路充分吸收电压尖峰，RSNB 和 CSNB 的谐振频率ωSNB 必须比电压尖峰的谐振频率ωSURGE 低很多，需要结合算式(5)所示的 RC 缓冲电路的谐振频率ωSNB 来确认。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMcUDcXKibXAOy1CuOT12qBZvfZticm37hetEyN1PWfEbNvSjwdUCfrVaw/640?wx_fmt=png&from=appmsg)
+
+放电型 RCD 
+
+缓冲电路的设计放电型 RCD 缓冲电路的设计基本上与 RC 缓冲电路相同。只是由于是通过二极管吸收的尖峰，所以不需要通过算式(5)确认谐振频率。
+
+并且，二极管必须选定为恢复电流小的型号。
+
+非放电型 RCD 
+
+缓冲电路的设计非放电型 RCD 缓冲电路与放电型 RCD 缓冲电路不同，RSNB消耗的电力仅限于电压尖峰的能量，用于抑制容许损失的 RSNB的选择范围很广。因此可以增大 CSNB 的静电容量，提高钳位的效果。
+
+CSNB 由算式(2)决定，RSNB 由算式(3)决定,而 RSNB 的消耗功率由算式(6)决定，没有算式(4)中包含 CSNB 及 fsw 的第二项。因此，由 CSNB 或 fsw 产生的消耗功率增加基本没有，能选择大的静电容量的 CSNB，不仅仅缓冲电路的钳位效果更好，还能对应fsw 的高频化。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMPFRBSl8I7eHYNI22jh5s95GcDqdUictBIuhod1JjrxJk8hMvS5Tc8gQ/640?wx_fmt=png&from=appmsg)
+
+Figure 8.所示为非放电型 RCD 缓冲电路动作时的放电路径。因为上臂的尖峰朝向 PGND、下臂的尖峰朝向 HVdc，放电流经由 RSNB 流动，不那么受线路电感影响。另一方面，连接到MOSFET 的漏极源极之间的布线电感 LSNB 因为电流变化大，电感值需要尽量小。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMoJO7KAVaDv63l5g9Co05G9KPTCdUwiaaAfxoOUMZUS4TZqv5x0vpzWg/640?wx_fmt=png&from=appmsg)
+
+Figure 9 是对非放电 RCD 缓冲电路使用 ROHM 评估基板（P02SCT3040KR-EVK-001）进行效果验证的测试电路(a)和波形(b)，该评估基板使用了 ROHM 的 SiC MOSFET（SCT3080KR）。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMywukwCTsSZGnJKkz8VQZlI9r2LSiakAWkCYPkgpPiaIpxF9cmwpwVIfA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMwHBW1038GF9swOS0oTjyq9fBDSPoF1DmDmNjIR5JyhVuMzujmzyHEw/640?wx_fmt=png&from=appmsg)
+
+RG\_EXT 为 3.3Ω, HVdc 为 800V，漏极电流 ID 为约 70A 时的Turn OFF 波形。
+
+当不连接缓冲电路时，电压尖峰高达 1210V，添加缓冲电路后降低为 1069V，减少了约 12%。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMEjKiaAFVyQwibwtCiamTt4mhrSXkWic8PFMgWdIiaT5rJwqiaMhb4icf4Uib7Q/640?wx_fmt=png&from=appmsg)
+
+Figure 10.是对比 Buck Converter 的变换效率的图表。表示输入电压 400V，输出电压 200V，RG\_EXT 6.8Ω，振荡频率100kHz 这一条件下的效率。
+
+当负载功率在 1kW～4.8kW 之间变化时，约 4kW 以下无缓冲电路的情况下的效率提高了最大 0.4%；另一方面，在 4kW以上有缓冲电路情况下则效率提高了 0.15%。这是因为负载功率变大的话电压尖峰造成的功率损失变大，于是缓冲电路的尖峰抑制造成的开关损失就减少了。
+
+封装不同而造成的电压尖峰差异
+
+最后说明的是，Turn OFF 尖峰根据封装的不同而有差异。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMjPibVOM5SUCfibpunbhDvialHx3icP6SshxbncWZ9Ht4DABFwRwceRKrCw/640?wx_fmt=png&from=appmsg)
+
+Figure 11.是 ROHM 的 SiC MOSFET 的代表性封装,(a)是被广泛采用的 TO-247N(3L)，(b)是近几年渐渐扩大采用的用于驱动电路的源极端子(即所谓的开尔文接法)的 TO-247-4L。
+
+4L 型与 3L 型相比，改变了驱动电路路径，使开关速度加快。由于这个原因，Turn ON 电压尖峰和 Turn OFF 电压尖峰变得更大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGC22wbN19Wn1Dw93ibnXoMbLs8rVXcKJQzGrtAfgg48xabYGlNz35LhqibhmxQSiaTDP2l2lW9AXcg/640?wx_fmt=png&from=appmsg)
+
+Figure 12.为 3L 类型和 4L 类型的 Turn OFF 电压尖峰的对比波形。VDS＝800V、RG\_EXT＝3.3Ω、ID＝65A 时的 Turn OFF波形，漏极源极间电压尖峰 3L 类型为 957V，而 4L 类型则为1210V。
+
+如 Figure 7.和 Figure 8.所示，由于该尖峰产生的 VDS振铃不仅流过 CDS，也流过 CDG 和 CGS，使 MOSFET 的栅源电压 VGS产生预期之外的电压尖峰，并有可能超越 VGS 的规格。关于 VGS的电压尖峰抑制方法这里由另外的应用笔记(\*2)说明。当该笔记所记录的方法抑制效果不足时，在漏极源极之间附加缓冲电路也是抑制 VGS 尖峰的有效手段。
+
+如上所述，桥式电路中的 MOSFET 的栅极信号在 MOSFET之间相互关联、动作，并在栅极源极之间产生预料之外的电压尖峰，其抑制方法需要考虑基板的线路布线，根据情况不同采取不同的对应。期待这份笔记能作为有用的资料得到灵活运用。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+   专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+ 加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

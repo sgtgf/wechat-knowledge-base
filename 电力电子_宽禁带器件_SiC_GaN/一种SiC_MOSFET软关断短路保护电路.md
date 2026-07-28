@@ -1,0 +1,92 @@
+# 一种SiC MOSFET软关断短路保护电路
+
+原创 周 琦，张宸宇 SiC碳化硅MOS管及功率模块的应用 2025-11-03 12:11 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/PgutQDLMi2rVn5Kwd3IXUw](https://mp.weixin.qq.com/s/PgutQDLMi2rVn5Kwd3IXUw)
+
+文章来源：电力电子技术
+
+作者：周 琦，张宸宇，刘瑞煌，喻建瑜（国网江苏省电力有限公司电力科学研究院，江苏南京 211103）
+
+摘要：随着宽禁带半导体技术的迅速发展，碳化硅金属\-氧化物半导体场效应晶体管（SiC MOSFET）被广泛应用于电动汽车、光伏发电和航空航天等领域，其短路保护电路也受到了越来越多的关注。目前常见的SiC  MOSFET 短路保护电路在检测到器件故障后，会直接关断器件，这会引起较大的漏源极电压尖峰和电压变化率，可能会影响器件的寿命甚至导致器件损坏。针对上述问题，本文提出了一种SiC MOSFET 短路保护电路，利用去饱和检测法和寄生电感检测法检测器件短路故障，能够实现两种检测方法优缺点的互补，当器件发生短路故障时，提出的短路保护电路首先将器件的栅极驱动电压下降至较小值，使器件不完全关断，在减小器件漏极电流的同时，降低器件关断时的漏源极电压过冲和电压变化率，一段时间后再完全关断器件，进一步提高器件的可靠性。
+
+关键词：碳化硅金属\-氧化物半导体场效应晶体管；短路保护；软关断
+
+1　引 言
+
+SiC MOSFET 是一种先进的功率半导体器件，相较于传统的 Si MOSFET，SiC MOSFET 具有更低的导通和开关损耗，使其在高频率开关应用中效率更高，且具有更高的击穿电压和电子迁移速度，使其在高温环境下表现更稳定，此外，SiC  MOSFET还具有更高的功率密度和更小的尺寸，有助于减小系统体积。因此，SiC MOSFET 在高功率、高频率和高温环境下表现出色，在电动汽车、太阳能逆变器和工业驱动器中都具有广阔的应用前景。 然而，与Si 基同类产品 相比 ，SiC  MOSFET的芯片面积更小，短路电流更大，导致短路耐受时间更短，在重复性短路故障下性能下降更快，因此，SiC MOSFET 对短路保护电路提出了更高要求。
+
+目前已有许多学者对SiC MOSFET 的短路保护电路进行了研究。文献\[13\]提出了一种基于隧道磁阻的SiC MOSFET 短路和过流故障检测方法，其将隧道磁阻传感器集成至SiC MOSFET中，以非侵入式测量流经器件的电流，将测量得到的电流与阈值进行对比，以判断是否发生短路和过流故障，对于半桥功率模块，所提方法仅需要一个隧道磁阻传感器即可检测短路和过流故障。文献\[14\]提出了一种应用于SiC MOSFET的短路保护方法，利用SiC MOSFET 正常导通和短路之间的差异，由源极寄生电感的电压振荡检测SiC MOSFET 是否发生故障，实验结果表明，提出的方法最快响应延迟为75 ns。文献\[15\]提出了一种应用于中压SiC MOSFET 的新型短路保护方法，利用SiC MOSFET 在预定间隔内的导通电压变化率du/dt 来监测器件是否发生短路故障，与传统监测方法不同，提出的导通du/dt 监测和保护时序能够实现非常快的故障响应时间，同时能够提高监测方法的抗干扰能力。
+
+上述方法在检测到SiC MOSFET 发生短路故障时，均是直接关断SiC MOSFET，这会导致较大的电流变化率di/dt 和du/dt，严重时可能会导致开关管损坏，因此需要对开关管进行软关断。本文提出了一种应用于SiC MOSFT 的短路保护电路，通过检测器件的漏源极电压和源极漏感电压，判断器件是否发生短路故障，当器件发生短路故障时，首先将器件栅极驱动电压下降至较小值，减小流过器件的漏极电流，再完全关断器件，从而减小器件关断时的di/dt 和du/dt，进一步提高器件的可靠性。
+
+2 提出的短路保护电路
+
+2.1 拓扑结构及工作原理
+
+图1 为本文提出的SiC MOSFET 短路保护电路，其主要由驱动电路、去饱和检测电路、寄生电感检测电路和控制电路组成。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbuKSWY7HicicJwWiclBzgf6ICpvq5uPSviaJ7BibmFg5GofcTibdZZWrYK1KjyVNUS373hkccRrxfhFfQ/640?wx_fmt=png&from=appmsg)
+
+驱动电路由图腾柱电路、驱动电阻Ron1、Ron2和开关管 T3组成，相较于传统驱动电路，增加了Ron2和T3，其主要作用是改变SiC MOSFET 的栅极驱动电压。若T3 关断，则SiC MOSFET 的驱动电压由图腾柱电路控制，与传统驱动电路工作原理相同，若T3导通 ，则图腾柱电路提供给SiC  MOSFET 的驱动电压会经过Ron1和Ron2分压后再为SiC MOSFET供电，T3的通断状态由控制电路的输出信号决定。
+
+去饱和检测电路由二极管VD1、电阻R1、R2、电容 C1、稳压二极管VD11、开关管T4 和电压比较器 com1组成，并联于SiC MOSFET 的漏源极两端。由于 SiC MOSFET 发生硬开关故障（HSF）时，其漏源极两端电压近似等于母线电压，因此去饱和检测电路中开关管T4的导通逻辑与 SiC MOSFET 相反，以保证SiC MOSFET关断时，T4导通，使com1的输出保持为低电平，而当SiC MOSFET导通时，T4关断，此时去饱和检测电路能够正常工作。若SiC MOSFET发生HSF，其漏源极电压近似等于母线电压，此时VD1被箝位，电压Ucc经电阻R1、R2分压后为C1充电，当C1端电压超过电压比较器的预设参考电压Uref1时，电压比较器输出高电平至控制电路，使其保护动作。
+
+寄生电感检测电路由 VD2、电阻R3、电容C2、稳压二极管 VD22和电压比较器 com2组成，并联于SiC MOSFET源极寄生电感两端。当SiC MOSFET发生短路故障时，流过器件的电流会迅速上升，电流快速变化导致的高 di/dt 会在器件源极寄生电感两端产生高电压压降，该电压压降会为寄生电感检测电路中的C2 充电，当C2 的端电压超过com2的预设参考电压Uref2时，电压比较器输出高电平至控制电路，使其保护动作。
+
+控制电路由逻辑与门N1 和N2、逻辑或门N3和D型触发器Q1 组成。若SiC MOSFET 未发生短路故障，去饱和检测电路和寄生电感检测电路中电压比较器的输出均为低电平，此时逻辑或门N3的输出恒为低电平，驱动电路中T3关 断 ，SiC  MOSFET 的通断仅由图腾柱电路控制，N1的输出始终为低电平，使得Q1 的输出恒为高电平，因此N2的输出仅受PWM 驱动信号的控制，且输出信号与PWM 驱动信号相同。当SiC MOSFET发生短路故障时，去饱和检测电路和寄生电感检测电路中电压比较器的输出均为高电平，此时N3 的输出为高电平，T3 导通，Ucc 经Ron1和Ron2 分压后为SiC MOSFET供电，可减小SiC MOSFET 的驱动电压，使其缓慢关断。同时N1 的输出电平由低电平转化为高电平，使得Q1 的输出由高电平转化为低电平且恒定不变，此时N2 的输出恒为低电平，使SiC MOSFET 关断，保证器件的安全运行。
+
+2.2 软关断的实现途径
+
+根据发生短路故障时 SiC MOSFET 的工作状态，其短路故障类型主要分为两类：HSF 和负载短路故障（FUL）。
+
+HSF 是指SiC MOSFET 在导通之前就已经处于短路回路中，器件一旦导通，立刻发生短路故障。负载短路故障则是指SiC MOSFET 在正常工作状态下，外部电路发生短路故障，导致器件的漏极电流迅速上升。硬开关短路故障状态下SiC  MOSFET 的损耗更大，且硬开关短路故障的短路保护时间一般小于负载短路故障，因此本文主要研究硬开关短路故障。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbuKSWY7HicicJwWiclBzgf6IW3Mkus60THzAN00uI4nomEKmBkaKyxiaaiblYAhYzYyPcrHhaXHrqx3g/640?wx_fmt=png&from=appmsg)
+
+通常，采用图2 所示的双脉冲测试电路对SiC MOSFET 的短路特性及短路保护电路进行测试。其中，Uin为直流电压源，Cin为母线电容，L 为负载电感，通过控制上、下开关管的通断即可模拟短路故障。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbuKSWY7HicicJwWiclBzgf6IufoC7F1eox3QDYjfBx9qBlO24EdP9sN4O7D0TVvMlkv4Bz8PibtgWtw/640?wx_fmt=png&from=appmsg)
+
+图3 为SiC MOSFET 发生HSF情况时，电压、电流、去饱和检测电路和寄生电感检测电路输出信号波形，其中为了便于分析，时间间隔均进行了延长。
+
+从图3 可以看出，t0 时刻，控制电路给出SiC  MOSFET上升，并于的开启信号t1时刻达到器件导通的阈值电压，器件的栅源极电压Ugs逐渐Uth，由于器件发生HSF，其漏源极电压Uds近似等于母线电压，漏极电流迅速上升，为了防止去饱和检测电路在SiC MOSFET 未完全导通时误触发，电容C1取值较大，因此去饱和检测电路中电压比较器输出信号out1保持为低电平，而漏极电流id的迅速变化导致的高di/dt 会在器件源极寄生电感两端产生高电压压降，使寄生电感检测电路中电压比较器输出out2 于t2 时刻由低电平转为高电平。因此控制电路中，N3 的输出由低电平转为高电平，T3导通，而N1 的输出仍为低电平，Q1 的输出仍保持为高电平，由于PWM信号为高电平，因此逻辑与门N2 的输出为高电平，T1 导通，为SiC  MOSFET 提供Ucc，由于T3 已导通，因此Ucc 经Ron1和 Ron2分压后再为SiC MOSFET 供电，由于驱动电压下降，尽管SiC MOSFET 仍处于导通状态，但其id会降低到一定数值，同时去饱和检测电路中C1的端电压于t3 时刻超过com1 的 Uref1，电压比较器输出信号out1由低电平转为高电平，此时N1 的输出由低电平转为高电平，使得Q1 和N2 的输出转为低电平，T2 导通，使SiC MOSFET 完全关断，避免了SiC MOSFET 直接关断导致的高di/dt 和du/dt可能对器件造成的损坏，进一步保证了器件的安全运行。
+
+通过上述分析可见，本文提出的SiC MOSFET短路保护电路能够在器件发生短路故障时，首先降低SiC MOSFET 的栅极驱动电压，使器件的短路电流下降至较低的数值后再完全关断器件，避免了SiC MOSFET 直接关断导致的高di/dt 和du/dt可能对器件造成的损坏，进一步保证了器件的安全运行。
+
+3　实验验证
+
+为了验证提出的SiC MOSFET 短路保护电路的有效性，本文搭建了实验平台进行验证，其中T1~T3型号选用IRLRU2703，SiC MOSFET型号选用C2M0040180D，驱动电阻Ron1\=20Ω，Ron2\=5Ω，电感L为4.7 μH，母线电压为100V。
+
+图4 为提出的SiC MOSFET 短路保护电路中SiC MOSFET和T3的栅源极电压波形，图4 中，t1时刻，SiC MOSFET 开始导通，t1~t2阶段内，T3保持关断状态，因此SiC MOSFET的栅源极电压逐渐上升至20V 并保持不变，t2时刻，T3导通，Ron2对驱动电压进行分压，SiC MOSFET 的栅源极电压下降至3V，t3 时刻，SiC MOSFET关断，栅源极电压下降至0 V 并完全关断，从图4 可以看出，提出的SiC  MOSFET 短路保护电路能够实现器件的软关断。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbuKSWY7HicicJwWiclBzgf6IGQaaL1ImEpibLuEAmplZJQUp2GZBz4SXL1xTBoMVuSJLkCoGSSAoRnw/640?wx_fmt=png&from=appmsg)
+
+图5 为HSF 情况下，传统SiC MOSFET 短路保护电路动作时的SiC MOSFET栅源极电压、漏源极电压和漏极电流波形，从图5 可以看出，当SiC  MOSFET 发生硬开关短路故障时，保护电路能够快速检测出故障并进行动作，直接将器件的驱动电压降至0 V，关断器件，导致器件关断时漏源极电压会发生较大的过冲且有较大的du/dt，这可能会导致器件损坏，其中漏源极电压过冲最大值约为960 V。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbuKSWY7HicicJwWiclBzgf6I1kEtKBDXfsgfYHPr0rGPpNBtcic6ppAJT7lWepkArsS13k3icmJruXhA/640?wx_fmt=png&from=appmsg)
+
+图6 为硬开关短路故障情况下，提出的SiC  MOSFET 短路保护电路的SiC MOSFET 栅源极电压、漏源极电压和漏极电流波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnbuKSWY7HicicJwWiclBzgf6Ixymic0cOefVBx8xg9bS8xxjdDKiavibGJHcDuMl1CXzPQoAgcZRicUbOWQ/640?wx_fmt=png&from=appmsg)
+
+从图6 可以看出，当SiC MOSFET发生硬开关短路故障时，提出的SiC MOSFET 短路保护电路会直接先将器件的驱动电压降至较小值，未完全关断器件，使流过器件的漏极电流逐渐下降，并能够有效降低器件关断时的漏源极电压过冲以及电压变化率，一段时间后，再完全关断器件，从图6 可以看出，当提出的SiC MOSFET 短路保护电路动作时，器件的漏源极电压过冲最大值约为760V，相较于传统短路保护电路下降了约21%。
+
+从图5 和图6可以看出，相较于传统SiC  MOSFET短路保护电路，提出的SiC MOSFET 短路保护电路能够在器件发生短路故障时，快速检测出短路故障，并进行保护动作，首先降低器件的栅极驱动电压，使器件不完全关断，降低流过器件的漏极电流，同时也能够降低器件关断时的漏源极电压过冲和电压变化率，一段时间后，再完全关断器件，能够保证器件的安全运行。
+
+4　结 论
+
+针对SiC MOSFET 短路故障，本文提出了一种短路保护电路，通过去饱和检测电路和寄生电感检测电路，能够检测出SiC MOSFET 的短路故障并进行保护动作，通过引入驱动电压分压电路，能够在器件发生短路故障时，首先降低器件的栅极驱动电压至较小值，使器件不完全关断，可以在减小流过器件漏极电流的同时，减小器件关断时的漏源极电压过冲和电压变化率，一段时间后再完全关断器件，进一步提高了器件的可靠性。
+
+注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmJK7ia1DDhibnf0YRmRfknj4wmcF65iaIztiaRiaahv2icPVEawdvHayJQcFMNvgF9euGOyhuVwbD7I85w/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=79)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmJK7ia1DDhibnf0YRmRfknj4bzEfrMgmJfYg4L5uyrzncPBxtxEMI7kJmXXGKDwiblib03lB7b6fuQYA/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=80)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmJK7ia1DDhibnf0YRmRfknj4UlKGNnldjSkVJu1xpoq9fZYF6XT2qa1zQ7z4CEJp65iamOOPh1GJ6kQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=81)

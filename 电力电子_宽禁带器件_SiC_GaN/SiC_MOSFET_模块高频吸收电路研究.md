@@ -1,0 +1,212 @@
+# SiC MOSFET 模块高频吸收电路研究
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/iTs2mA-OhzocccvMUBhG6Q](https://mp.weixin.qq.com/s/iTs2mA-OhzocccvMUBhG6Q)
+
+文章来源：大功率变流技术
+
+作者：罗剑波，范伟，彭凯（中车株洲所电气技术与材料工程研究院，湖南 株洲 412001）
+
+摘　要：在高频开关工况下，SiC器件分布参数（电感、电容）间耦合振荡带来的过电压易造成元器件的击穿损坏、引发的电磁噪声会干扰变流器其他部件的正常运行。文章对 SiC MOSFET 的开关过电压进行了机理分析，特别是杂散电感对其开关特性的影响，对其吸收回路进行了研究，利用开关系统大信号模型等效出脉冲开关系统小信号模型，并依此分析了吸收电容对关断过电压的影响，提出了 SiC MOSFET 高频吸收电路的选型方案。仿真和实验结果验证了分析结论的正确性及所提方案的有效性和可行性。
+
+关键词：SiC MOSFET；高频开关；吸收电路；谐振；小信号模型
+
+0\. 引言
+
+受材料特性影响，目前 Si 材料半导体器件的开关频率一般在 50 kHz 以下，且无法承受 6500V 以上的高压及 2000 A 以上的大电流。随着技术的不断发展，市场上对功率半导体器件的性能要求在逐步提高，高端的功率器件要在高温（大于 125 ℃）、高压（大于 6.5 kV）的环境中保持良好的电学特性，而 Si 半导体器件受自身阈值电压及开关能力的限制，发展空间在逐步缩小。
+
+变流器单位能量的传输能力和经济性是变流器发展至关重要的目标，其功率密度的提升主要依赖于开关频率的提升。变流器中同等电流和电压能力的主电路元件如电容、电感、变压器或 EMI 设备，其体积和重量在开关频率提高后都将会大大减小 。
+
+SiC 器件耐高温、高压，同时由于具有更高的开关频率，因而可提高变流器的功率密度，但变流器的分布参数（电感、电容）成为影响 SiC 器件提升开关速度的瓶颈。由于分布参数引发的振荡会产生过电压以及电磁噪声，使变流器在高开关频率使用时容易造成元器件的击破或干扰变流器其他部件的运行。
+
+文献 \[7\] 和文献 \[8\] 对吸收回路原理和作用进行了研究，但未涉及元器件的开关机理；文献 \[9\] 在时域条件下通过计算、仿真和 EMI 试验研究了元器件和杂散参数之间的耦合作用，但模型复杂，不适用于如分析直流侧吸收电容抑制高频振荡等更加复杂的情况。本文通过研究 SiC MOSFET 的开关特性，提出一种 SiC MOSFET 的开关小信号模型，并在频域条件下研究了杂散参数对器件高频应用的影响、评估了吸收电容对过电压的抑制效果，最后归纳出高频吸收参数的选用法则。
+
+1\. SiC MOSFET的开关过电压机理分析
+
+SiC MOSFET 开关过程中产生过电压的原因是由于线路的电感电流下降速率 di/dt 大，感应电压叠加在直流电压两端，致使 MOSFET 承受过电压。当器件在较高工作频率下关断时，正向电流迅速减小，存在电流突变现象。因此，分析SiC MOSFET 典型等效模型中杂散参数对于元器件开关特性的影响十分重要。
+
+1.1 SiC MOSFET的典型等效开关模型
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibhGo9M9QARTmC0j12xZOaj9ibljvtN2TX58ukqBhFNynslQfsq1UcMew/640?wx_fmt=png&from=appmsg)
+
+SiC MOSFET 系统模型比较复杂（图 1），包含 3个结电容（其容值是非线性的）和 3 个端子杂散电感。为了研究回路杂散参数对 SiC MOSFET 开关过程的影响，利用 OrCAD PISPICE 软件搭建了典型等效开关模型（图 1)。其中，CGD 为栅漏极等效电容，CGS 为栅源极等效电容，CDS 为源漏极等效电容；LGS 为门极回路电感，LDS 为主开关回路电感，LSS 表示两个回路之间的互感；RG 为栅极电阻。CGD 和 CGS 与 SiC MOSFET 器件结构有关，CDS 与 PN 结的特性相关。SiC MOSFET 采用 Cree 公司 C2M0080120D 型产品，其最大可关断电压 VDSS=1200 V，最大关断电流为 40 A。由于目前 Cree公司无该器件的 PISPICE 模块，因此本文采用参数与之类似的 APT20N60BCFG 型 Si MOSFET 进行代替。SiC 二极管模型采用Cree 公司的 C3D16060D 型 SiC 二极管的，该器件最大关断电压为600 V，正向导通电流为 16 A。仿真模型的基本参数设置为：VGS 开通值为 20 V、关断值为-5 V，脉冲电压开通脉宽为 0.5 μs，负载电感 Lload=20 μH，直流电压 VDC=400 V，RG=5 Ω，LGS= LDS = LSS =10 nH，CGD= CGS =500 pF，CDS =100 pF，关断电流 IDS =10 A。
+
+1.2 LGS 对开关特性的影响
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibTeIeFTic5aSsx7Dxtho63iaSITqdHqZGcef5HVgpQQqSsQgZSw8c9Lgw/640?wx_fmt=png&from=appmsg)
+
+LGS 与 回 路 中 的 输 入 电 容CISS（CISS=CGD+CGS）耦合产生共振，引起 VGS 电压振荡。将LGS 分别设置为10 nH，40nH 和70nH，图 2 和图 3 分别示出 SiC MOSFET 开通和关断过程中 VDS，VGS 和 IDS 的仿真波形。从关断波形（图 2（b）、图 3（b））中可知，VGS 振荡仅在 MOSFET 开通瞬间对 VDS 和 IDS 有轻微影响，而一旦处于导通状态，VDS 和 IDS 几乎不改变。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvib3DjYL4GvMeAXNDrDPuWFMZAs74FG7xkGTurTEhIosl3veBpFECVwgA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvibet1cZXQIolpDxfuQkibmn8CeUMDbGzzOVoyWbROeFyYKTemZOV0KKyg/640?wx_fmt=png&from=appmsg)
+
+1.3 LDS 对开关特性的影响
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibB8c8o6cpvpP08vAwV1Z7yW4Cy6JcQ9s6gNIPBN5Hv95Lbq7zAjY3PQ/640?wx_fmt=png&from=appmsg)
+
+LDS 被分别设定为 10 nH，40 nH 和 70 nH，其他电路参数不变，对 SiC MOSFET 器件脉冲模型进行仿真。图 4 和图 5 示出 SiC MOSFET 开通和关断过程中 VDS，VGS 和 IDS 仿真波形。可以看出，LDS 增大后，VDS，VGS和 IDS 波形在关断过程中振荡加剧，这是因为 LDS 在开关瞬间与器件结电容耦合，且振荡通过 CGD 影响栅极回路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibGlE4Q10ktZENjX2M4hF8sjtibaricPRU0NBw8ZqS3TUJ63icEw1pakkicQ/640?wx_fmt=png&from=appmsg)
+
+1.4 LSS 对开关特性的影响
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvib9EDByL32XfIsN99tX5yzh00tkTMVHC7wcqhlJ0icsTzdibV6IdibprHuA/640?wx_fmt=png&from=appmsg)
+
+LDS 被分别设定为 10 nH，40 nH 和 70 nH，其他电路参数不变，对 SiC MOSFET 器件脉冲模型进行仿真。图 6 为 SiC MOSFET 开通和关断过程中 VDS 仿真波形，图 7 为 SiC MOSFET 开通和关断过程中 VGS 及 IDS 仿真波形。由图 6 和图 7 可知，在栅极回路至开关回路间LSS 起负反馈作用。在 IDS 的上升和下降过程中，LSS 电压的下降减小了 VGS 变化量从而减缓 IDS 的波动，LSS 增大对 VDS 振荡无影响，但由于其缓冲作用，LSS 增大将增加 SiC MOSFET 开通和关断损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibAEOPJwicJOWHVwaEQWhAnQpWH3XUZHEeXOQaBFLWkp93aibaBk5tWvWg/640?wx_fmt=png&from=appmsg)
+
+2\. SiC MOSFET 开关系统模型
+
+综上所述，LDS 的存在会加剧 VGS 和 IDS 振荡并产生 VDS 过电压。在实际变流器系统内，由于器件封装和母排连接闭环回路中的杂散电感不可避免，加之 SiC MOSFET 开关速度较快，因此在设计过程中应注意防范杂散参数导致的关断瞬间过电压高于元件击穿耐压的情况。为此，本文通过研究开关系统大信号模型来研究关断电压波动的形成机理，并通过器件的小信号模型对其关断波动的实质进行研究。
+
+2.1 SiC MOSFET 开关系统大信号模型
+
+图 1 所示等效电路适用于在时域范围内对 SiC MOSFET 关断瞬间的电压、电流进行分析，具有一定的特殊性。为便于分析，本文构建 SiC MOSFET 开关系统大信号模型前，对电路进行了简化处理：
+
+（1）由于 MOSFET 理想开关为硬开关，开关瞬间负载电感电流不发生变化，因此可认为负载电感是一个恒流源。
+
+（2）VDS 振荡仅发生在 IDS 通过电压源（VDC）后，而后 SiC 二极管正向偏置导通产生电流，开关回路将产生 di/dt，此时任何与反并联二极管并联的电容包括其结电容在小信号模型中不起作用。因此，二极管可以等效为一个电压源（VFDW）与反并联二极管电阻（RFDW）相串联。
+
+（3）SiC MOSFET 一旦关断进入饱和区，此时其沟道可以等效为具有一定 di/dt 的电流源，电流源的大小由开关速度决定。
+
+（4）SiC MOSFET 输出电容 COSS 容易饱和，与 VDS偏置电压关联不大，因此 COSS 在关断时受 VDS 的线性偏置影响。
+
+基于以上分析、处理，SiC MOSFET 开关系统大信号等效模型如图 8 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibEhotnWm42GeUDZic4bS2VQhpjkMyTYEnricCIHseFVH0nUpZRdy8bg8w/640?wx_fmt=png&from=appmsg)
+
+在 PISPICE 软件中搭建开关系统典型模型并等效成开关系统大信号模型，仿真波形如图 9 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibgelhicO3C0R0yianRibwLxA3a5DJtRiaUI7icMlc6GO6b9XAhnX9l9QFyhg/640?wx_fmt=png&from=appmsg)
+
+利用 PSPICE 软件对图 9 所示模型进行仿真来验证模型等效的结果。仿真的基本参数为 LDS=23 nH，COSS=400 pF，设置由系统连接母排带来的分布电感分别为 Lstray1=10 nH，Lstray2=10 nH，Lstray3=30 nH 及 Lstray4=100 nH，分布电容 Cdis = 1 μF，直流母线电容 Cbulk = 750 μF。图 10 示出利用开关系统典型模型及其大信号系统模型对 VDS 进行仿真得到的波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibyrS26sPk5VUsR4yryAEtorbN2cU4cC1xZN6GQqxc4hdDg1diaHTnoTQ/640?wx_fmt=png&from=appmsg)
+
+可以看出，图 10（a）和图 10（b）中 VDS 的幅值近似，图 10（a）中的振荡频率为 50.6 MHz，图 10（b）中的振荡频率为 50.5 MHz。这验证了大信号等效模型模拟关断过程的准确性，并证实了开关速度的变化会影响振荡幅度，但不会影响振荡频率。
+
+在构建开关系统大信号模型时，需关注以下方面：
+
+（1）相对于开关系统典型模型，虽然大信号模型里假设了反向并联二极管，但仅适用于 dv/dt 与 di/dt 形成过程之后，且该模型仅适用于关断瞬间的振荡部分，并不适用于整个器件的仿真模型；（2）振荡幅值衰减是由于二极管的等效串联电阻引起，而在实际电路中，影响高频振荡频率的因素还有线路连接阻抗，这些阻抗可以归纳到 RFWD 中。
+
+当开关系统为高阶次系统时，采用大信号系统仿真模型具有一定的局限性，为此我们构建了 SiC MOSFET开关系统小信号等效模型。
+
+2.2 SiC MOSFET 电压脉冲小信号模型
+
+根据直流电流源开路以及电压源短路的法则，利用图9构建的开关系统小信号模型等效电路如图11所示，其为 RLC 并联振荡网络。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibayxaWgsiaVoZa6X0ibtjRibOpD3BiaibtsQ1eVZx9ZHC3B71jphibn4CadsQ/640?wx_fmt=png&from=appmsg)
+
+由图 11 可知，VDS 波形振荡是在电流源 ICH 的激励下 RLC 网络的响应结果。图 12 为开关系统等效模型阻抗分析波特图，并联振荡由 LDS 及 COSS 引起。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvib8GnkypgKxib4kCxf1U2OEkGAUuJU0YCbcnMdSoqX6uwdBIrW8t23uJA/640?wx_fmt=png&from=appmsg)
+
+谐振响应频率 ωPR 为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibMXz3hQIdYJEDlOROUk2KInCKac8bnqrD8gECGtJIbolpynx6hbr3Dg/640?wx_fmt=png&from=appmsg)
+
+振荡响应产生时，必须满足以下条件：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibabicFYBhuFjzvtvM16lgiarnuNRdBYuBDp7RaFnmow3ibBEFky8tFyYOA/640?wx_fmt=png&from=appmsg)
+
+同时可求出 RFDW 需要满足的条件：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibFlNCDZpSRyMxWvSVUbuyibopxmSJNJOZIwAicIbFwXr1leQpWmvKD33A/640?wx_fmt=png&from=appmsg)
+
+为实现变流器的高效运行，其阻抗损耗通常较低，因此式（2）所示的要求很容易得到满足。实际应用时，
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibO985W3lX4cic2ibrh97nmyBaXqmibfNdWEw1otJtZNsOymBkR00jzCiaxg/640?wx_fmt=png&from=appmsg)
+
+将 LDS=23 nH，COSS=400 pF 代入式（4）中，计算得到ωPR=52.4 MHz，计算值与图12中的仿真值（52.6 MHz）近似。若对复杂一些的开关系统典型模型（如图 9（a））进行频域阻抗分析，结果如图 13 所示。可以看出，当频率为18.06 kHz, 1.0576 MHz，50.279 MHz 和 85.223 MHz 时，有并联谐振产生。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvib4Z4jNqs4d2sVibKVUg8MhYBibCMxtSCicYxYgGa8Y4iaPoD3ajJZctqv2A/640?wx_fmt=png&from=appmsg)
+
+3\. 吸收电容器的作用及影响分析
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvibj6ibSml7yAeSBxj63JTywdx7XssHR0aZdqOZQ42W77MrSrY41gUntBQ/640?wx_fmt=png&from=appmsg)
+
+虽然开关管或模块直流回路的吸收电容器能抑制因器件或直流母排回路的杂散电感引发的尖峰电压，但会减缓设备开关速度，同时也会对高频模块的运行效率产生影响。通过公式可以推导出开关回路加吸收电容器后开关电压的幅值，同时也可以通过测量 EMI 噪声推导出开关电压的振荡频率，这些分析都可以证明开关过电压及 EMI 噪声与设备及其开关速度有很大关系 。当开关回路无吸收电容器或不考虑低感母线分布电容时，通过式（１）~ 式（５）可以解析出其简单的 LRC 二阶型式电路；当开关系统为高阶次系统时，采用时域分析的办法变得复杂且不适用。因此，本文将在频域下利用 SiC MOSFET 的小信号模型来研究吸收电容器对器件关断过电压的抑制作用，并推导出吸收电容器的选用方法。加入吸收电容器后的开关系统小信号模型如图 14所示。图中，CDec 为吸收电容器，假设 LDS 表示器件与电流通过 CDec 最短的路径点间的最小电感，同时，L1为电压源及低感母排带来的附加电感。
+
+3.1 吸收电容器的作用
+
+为了简化分析，不考虑 DC 电压源的分布电容，下面就 CDec 对过电压的吸收程度进行研究。
+
+3.1.1 无吸收情况
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibRQezY4fPDL0icV4aiapYJuChibd2kK9OD58mpic0BDz221yiau9vYmQSGjg/640?wx_fmt=png&from=appmsg)
+
+设置 CDec=0，由式（4）和式（5）可知，此时系统谐振频率会降低，但阻抗明显增加。利用 PISPICE 对图 14 所示的加入吸收电容器后开关系统的小信号模型进行仿真，同时进行频域阻抗和 VDS 分析。仿真时，设置 LDS=23 nH，CDec=0，其他仿真条件如图 9 所示，仿真波形分别如图 15 和图 16 所示。可以看出，当 L1 增大时，VDS 振荡频率减小而开关过压幅值增加，为防止器件的损毁，此时显然需要阻止过高的器件开关电压的产生。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibTySHobhBJfBeh4vu8XvCIWiaKEibodeu9d3O4lmdU8eGibA6bM5kfDmRw/640?wx_fmt=png&from=appmsg)
+
+3.1.2 未完全吸收情况
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibECso1880I4j7yJsSiap6yvgylUeCjbNIRGLN3EODGbN3yhApyTV4TUQ/640?wx_fmt=png&from=appmsg)
+
+在其他仿真条件不变的前提下，分别对 CDec =0 和CDec =500 pF 时的开关小系统模型进行仿真，比较系统处在无吸收和未完全吸收状态下开关系统的阻抗及 VDS（图 17 和图 18）。可以看出，当 CDec 值增加到 500 pF 时，电容器 CDec 基本处于未完全吸收过电压的状态，VDS 过电压降幅很小。同时，由图 17 可以看出，当 CDec 值增加到 500 pF 时，系统引入了新的谐振点。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CviblvSLL5SM2GrPUtD4vLqDqibGLOt12P1pvlL29ElibgwAaCZFSW4msVTA/640?wx_fmt=png&from=appmsg)
+
+3.1.3 完全吸收情况
+
+其他仿真条件不变，分别对 CDec 为 0，30 nF 及 60 nF时的开关小系统模型进行仿真，对不同过电压吸收情况下的开关系统阻抗及 VDS（图 19 和图 20）进行比较。由图 20 可以看出，当 CDec=0 时，VDS 峰值达到 509 V；当 C Dec=30 nF 时，V DS 峰 值 为 460 V， 较 C Dec=0 时存在 45 V 的衰减；当 C Dec=60 nF 时，V DS 的峰值较CDec=30 nF 时仅衰减 2 V。由图 19 可知，吸收电容增大时，振荡频率降低，C Dec=30 nF 时系统已达到能完全吸收 L1 带来的过电压状态；C Dec 若继续增大，V DS的峰值基本无衰减，同时 C Dec 的增加不影响开关系统的高频阻抗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvib5BSdWhbrtVH89vtRibibTBDgMunQNweI7O6QdMHVwbhtfRKO6dJC8H4w/640?wx_fmt=png&from=appmsg)
+
+3.2 吸收电容器的选择
+
+综上所述可知，过电压被完全吸收时，L1 与 CDec 的谐振阻抗远小于与 COSS 相关的谐振频率 ωPR 下的 LDS 阻抗，故在吸收电容器参数选型过程中可忽略 L1 与 CDec的谐振阻抗的影响。假设 L1=nLDS 且 CDec=mCOSS，其中m 和 n 都为正整数，可推导出
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibuYdD7eEgGKky9OAJia0eRo3xrbOcKf1icNHqsv19JqAluakGQFNcVbrA/640?wx_fmt=png&from=appmsg)
+
+由于 n》1，从工程角度而言，至少选择 CDec 为COSS 的 20 倍。另外，当选用合适的 CDec 后，由于不同系统的 L1 值不一样，需要评估因 L1 不一致对开关系统阻抗及其 VDS 电压的影响。设定 CDec=30 nF，L1 分别为10 nH，50 nH 及 90 nH 时开关系统阻抗及 VDS 电压的仿真波形如图 21 和图 22 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvib4qqUM2aSJXNw5ibzn1Y7cVAicRT9FV2bT83q8vC2cRgdGEMzw1IibyiaeQ/640?wx_fmt=png&from=appmsg)
+
+分析图 21 和图 22 可知，吸收电容为 30 nF 时已经满足完全吸收 VDS 过电压的要求，即使 L1 不断增大，但其对52.4 MHz频率点的振荡不产生影响，更为重要的是，L1 增加时将会有更低的谐振频率和更高的谐振峰值。
+
+综上分析可知，一般而言，吸收电容器 CDec 需尽可能安放在功率单元附近以减小LDS带来的过电压影响。CDec 是 COSS 的 50 到 100 倍时，VDS 过电压可以被完全吸收； CDec 值进一步增大后对由 LDS 与 COSS 所造成的振荡电压优化效果不大。当 CDec 取值能满足充分吸收过电压时，L1 对高频振荡的影响效果不大；与此同时，CDec增加会引入频率为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibHic0wFO4HpD8dEwzPuObj8p69zDicfAw6CK1NDTQvtJNFHe0GILI9FLg/640?wx_fmt=png&from=appmsg)
+
+的低频振荡，VDS 的关断波形将出现无益的低频高幅值振荡。因此，在高频应用时，减小 L1 以及增加合适的吸收电路来保证开关元件和系统在高频下能安全有效运行。
+
+4\. 双脉冲试验验证
+
+为了验证高频吸收电路的效果，按照图 4（a）所示电路搭建 SiC MOSFET 双脉冲测试平台（图23），开关管采用 C2M008010D 型 SiC MOSFET。开关脉冲的开通时间 Ton =2 μs，关断时间 Toff =1 μs。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvibndqfu6qz5bmmCwt8aIfzCTbTRXogIdXt6YaYDvzibLBHvCpN06icCmGg/640?wx_fmt=png&from=appmsg)
+
+图 23 中，绿色波形代表 VDS，黄色波形代表 IDS，紫色波形为双脉冲测试波形。器件关断时 V DS 波形的高频振荡频率和低频振荡频率测试波形如图 24 所示。
+
+试验条件及相关参数如下：
+
+直流电压 UDC/ V ---600
+
+负载电流 IDS/ A ---40
+
+支撑电容 Cbulk/μF ---470
+
+输出电容 COSS/pF 80吸收电容CDec / nF ---10
+
+感性负载 Lload /μH ---40
+
+通过分析图 24 中 VDS 波形可知，该系统加入吸收电容 CDec 后，VDS 高频振荡频率和低频振荡频率分别为56 MHz 和 11 MHZ，同时低频振荡幅值不大，试验结果证明所选用的 CDec 吸收效果良好。
+
+5\. 结语
+
+本文基于 SiC MOSFET 的开关特性研究了杂散电感对器件开关特性的影响，发现主开关回路电感 LDS 是影响其开关过电压的关键因素，继而从 SiC MOSFET 脉冲开关系统的典型系统模型、开关系统大信号模型等效出小信号模型；利用 PSIPCE 软件仿真分析了吸收电容器对消除过电压、提升系统的 EMI 特性的影响，在频域范围内结合 SiC MOSFET 自身的特性提出了吸收回路参数选型方案，并通过实验验证了所提方案的正确性。
+
+由于吸收电路的种类众多，本文所提方案也可为其他类型开关元器件吸收回路的选型提供参考，但在具体工程应用时，需多维度综合考虑电压、电流、频率及功耗等因素影响，实现最优设计。  
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

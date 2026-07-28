@@ -1,0 +1,203 @@
+# 碳化硅 (SiC) MOSFET 驱动电路的设计指南
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/NzKtFmATAbPHQYpVlyLtIw](https://mp.weixin.qq.com/s/NzKtFmATAbPHQYpVlyLtIw)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslNHvHo75DPTpCBcG1KGdZmDm6MlOuVppmibeojib8ibJw4keErPLjaLglERJpoAOKJwgBHiaZyRiajPKQ/640?wx_fmt=png&from=appmsg)
+
+本文重点介绍碳化硅 (SiC) MOSFET 驱动电路的设计注意事项。
+
+涵盖SiC MOSFET驱动的隔离要求、SiC MOSFET驱动电流和驱动损耗的计算、SiC MOSFET驱动电流PCB布局的基本原则、SiC MOSFET并行设计的注意事项、寄生导通效应和改进措施等主题对于SiC MOSFET，SiC MOSFET中的短路保护考虑因素以及SiC功率器件的封装考虑因素。
+
+**一、SiC MOSFET 驱动的隔离要求**
+
+碳化硅 MOSFET 通常用于需要在电源的初级侧和次级侧之间进行隔离的高压和大功率应用。在这些系统中，能量通过变压器从一侧转移到另一侧，控制器通常放置在一侧，例如次级侧。当驱动初级侧的 SiC MOSFET 时，需要使用隔离将驱动信号从次级侧控制器传输到初级侧。
+
+通过采用隔离，原边高压电路的地和副边控制器的地可以独立设计，避免高压电路损坏低压控制电路。另外，不需要的交流或直流信号不会从高压侧传输到低压侧，提高了驱动电路的可靠性。这是 SiC 驱动电路的典型要求。
+
+传统的隔离方法是光耦合器，它具有良好的瞬态和噪声抑制能力，但增益会随着时间的推移而变化。另一种常见的隔离方法是磁隔离，但它在磁场环境中存在局限性。电容隔离也常用，在对高电压和外部磁场的敏感度方面具有显着的优势。它还支持以最小延迟进行快速切换操作。我们可以在后续讨论中更详细地讨论不同的隔离方法。
+
+  
+**二. SiC MOSFET 的驱动电流和驱动损耗的计算**
+
+在高压和大功率应用中，需要更高的驱动能力以降低开关损耗。因此，需要提前评估驾驶员的驾驶能力。一般来说，对于给定的 SiC MOSFET 开关频率 (freq) 和栅极电荷 (Qg)，所需的驱动电流为 freq × Qg。利用这个原理可以初步选择驱动芯片的驱动能力。
+
+此外，假设 N 个 SiC MOSFET 并联，每个栅极电荷为 Qg，栅极驱动电压为 VGS，则总驱动功率为 freq × N × VGS × Qg。基于此，可以估计驱动器损耗。
+
+在高压、大功率应用中，SiC MOSFET的漏源电压DV/DT可能很大，可达150V/ns。因此，对于驱动器来说，希望以更高的频率驱动以最小化导通电阻。此外，在高电压下工作时，选择具有较大共模瞬态抗扰度（CMTI）的产品也很重要。在特殊情况下，可能需要对驱动器的输出电阻进行一定的优化，我们将在后面讨论。
+
+**三．SiC MOSFET驱动电流PCB布局的基本原则**
+
+在设计SiC MOSFET驱动电路时，应遵循与普通功率器件类似的布局原则。让我们简要回顾一下它们。从寄生电感的角度来看，一般建议将SiC MOSFET器件及其驱动电路尽可能靠近放置，以减少栅极驱动环路中的寄生电感。此外，最大限度地减少电源电路走线的寄生电感有助于避免 MOSFET 关断期间的电压尖峰和噪声。
+
+从寄生电容的角度来看，开关节点与地之间较大的寄生电容或布局上的固定水平会增加开关损耗。因此，建议在 PCB 布局时尽量减少层间耦合电容。另外，尽量减少开关节点与信号线或电压总线的重叠，避免PCB层间电容耦合对信号线的影响。
+
+从电磁干扰的角度来看，电源电流回路会产生高频磁场干扰，磁性元件也会产生高频磁场干扰。一般建议避免磁场与敏感信号线重叠或靠近，以确保信号线不受影响。在处理驱动电路时应考虑这个问题，例如电源开关环路和驱动信号线之间的相互作用。
+
+**四．SiC MOSFET 并行设计的注意事项**
+
+在大功率应用中，通常采用MOSFET并联来增加功率容量。这在硅MOSFET时代已经是既定的惯例，无论是模块电源中的低压MOSFET，还是高压大功率电源中的650V及以上高压MOSFET。对于 SiC MOSFET，有一些具体的设计考虑因素需要解决，我们将详细讨论。
+
+并联 SiC MOSFET 时的主要问题是实现良好的均流。只有良好的均流才能平衡损耗和热量，防止它们超过峰值电流或热保护限制。这种平衡包括稳态和瞬态条件。涉及的因素包括各个器件的 Rdson（导通电阻）和 VGS-th（开启阈值电压）变化、器件驱动电压的不平衡以及 PCB 布局的不对称。
+
+造成不平衡的因素之一是并联 SiC MOSFET 的导通电阻 (Rdson) 变化导致的电流共享不同。这直接导致流经每个器件的电流不同，Rdson 较低的 MOSFET 承载的电流较多，并且具有不同的传导损耗。如果 Rdson 变化 20%，则导通阻抗较低的 MOSFET 所承载的电流将是导通阻抗较高的 MOSFET 的 1.5 倍，从而导致显着的电流差异。除了导通损耗差异外，由于稳态电流差异，开关时的关断损耗也会存在差异。图 1 所示为两个并联 1200V 50A SiC MOSFET 关断损耗的归一化数据示例。两款器件的Vds规格和VGS-th规格基本相同，但Rdson相差20%。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYqwMmzmgvibR5TJJJibvcZ8zTAohbs3PQHcvxicRibXy3zznFmoz0fLXWhA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图1 高压碳化硅关断损耗不均衡测试\-Rdson不同
+
+与硅MOSFET的导通电阻正温度系数类似，碳化硅MOSFET也是如此。因此，温度越高，导通电阻越大，承载的电流越小。这一特性阻碍了不平衡。原本因Rdson不平衡而承受较多电流的器件，会因温度升高而增大阻抗，从而减少其承受的电流，所以这是一个好的方面。
+
+造成电流不平衡的第二个因素是碳化硅MOSFET的导通阈值电压VGS-th。如果并联的两个器件的导通阈值不同，则对于同一驱动信号，导通阈值较小的器件会先导通。，并且当关闭时，该设备稍后关闭，这会导致并联的不同设备上的损耗或能量不平衡。
+
+事实上，VGS-th 参数具有负温度系数，因为它随温度变化。也就是说，温度越高，导通阈值越低。因此，其中一个设备由于 VGS-th 不同而过热。随着时间的推移，在运行过程中，该热器件相应的 VGS-th 会更低，因此切换时间会更长，并且会变得更热，这对不平衡是一个负面影响。因此，如果在轻负载或以开关损耗为主的应用中VGS-th差异较大，则特别容易发生热失控。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYqwMmzmgvibR5TJJJibvcZ8zTAohbs3PQHcvxicRibXy3zznFmoz0fLXWhA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图2 高压碳化硅关断损耗不均衡测试\-VGS-th不同
+
+从上图2可以看出，两个1200V、50A的高压碳化硅并联，会因一定的VGS-th差（700mV）而产生较大的关断损耗。VGS-th差异引起的导通损耗差异影响较小。由于Rds-on本身的正温度系数因素，这部分损耗差异可以得到一定程度的补偿。  
+
+造成不平衡的第三个方面主要是驱动电路因素。通常，为了降低开关损耗，希望以最快的速度开关器件，但也必须考虑门级振荡问题。栅极级驱动电阻Rg和线路的驱动方式对于这些问题非常重要。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYpfEMz25ibzFI3ia4hk7xXWKMibFQQgHic5lLjx2smH7ft69P5X3lKVvdUw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图3 并联开关器件的不同门级驱动方式
+
+门级驱动电路一般有以上推荐的方法，【敏感词】共享门级电阻的方法，不考虑其他不均匀电流平衡因素（如Rds-on、VGS-th等），驱动信号同时到达，因此均流容易，但共享驱动电阻产生的RLC谐振容易产生门级振荡。第二种方法，由于采用了单独的栅级驱动电阻，不太可能出现栅级振荡，但由于电阻差异，很可能出现电流不平衡的情况。因此，更推荐的方法是使用第三种方法，该方法既有共享的栅极电阻又有单独的驱动电阻。将【敏感词】和第二种方法结合起来，可以达到更好的效果。
+
+第四个影响并联平衡的因素主要是布局引起的源漏寄生电感不平衡。如图4所示，Ld和Ls分别是器件漏极和源极的寄生电感。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsY7z8XceiaWhLOeJByketLzNLfcPOlzFXAamZC1Eq3CdRbh0P8jMHTHXQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图4 并联器件的寄生电感
+
+其中，Ls寄生电感，即不平衡源极寄生电感，是造成并联器件电流不平衡的主要因素，而漏极电感对漏极电压应力影响比较大，不在范围之内。我们这次的讨论。因此，一般建议源极走线设计尽可能对称，使源极寄生电感对称，或者减少其失配，避免电流不平衡。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYE15RjWkUO9StibCXyY0YJgtZhyx8MWL7buZzMaicLGkicemZaRF1IkSOA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图5 并联器件a)无单独源极连接b)有单独源极连接
+
+当器件开关时，源极寄生电感Ls上较大的di/dt产生的电压将反馈到栅极驱动电路。因此，当不使用如图5，b所示的单独源极连接时，会出现源极电压不平衡的情况，会产生额外的开关损耗，同时也会导致一定的栅极电平振荡电压。当采用如图5b所示的单独源极连接时，无需考虑Ls反馈电压的影响，驱动信号不会添加到源极寄生电感中。  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYEicIprUkgpxgk7wwaWic44fAicOPtfu8TrAUprPzAzgqviaKib7YkwSoIFg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图6 开关损耗主导时的并联时器件关断损耗
+
+从图6所示的图表中，我们可以看到，当开关损耗占主导地位时，单个非并联器件的关断损耗之和小于两个并联器件的总关断损耗。从这个意义上说，当开关损耗占主导地位时，并联对于降低损耗意义不大，但可以有效平均热量分布。通过以上分析可知，当开关损耗占主导地位时，由于没有Rds-on正温度系数的平衡作用，如果出现电流不平衡，很容易出现热失控。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYvKzuiaLnEaNpuGmBfwSBadd0SZn7tNczNxQsdgOxySplOkPWnAk5S7g/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图7 减小并联器件的门级震荡电压及均流电路
+
+如果条件允许，如果没有单独的源极驱动器连接，可以在并联器件的源极处添加1欧姆的串联电阻，实现动态均流，可以降低大漏极电流和栅极级的di/dt。电阻RGoff可以改善源极寄生电感不平衡引起的寄生振荡。
+
+**五、碳化硅MOSFET的寄生开通效应及改进措施**
+
+在上一篇文章中，我们也简单分析了半桥结构碳化硅MOSFET门级驱动波形的一般要求。我们将考虑使用负电压进行可靠关断，以避免较小的栅极电平导通阈值的影响。一些意外的门级耦合峰值电压会导致错误导通。但碳化硅MOSFET的负压耐压规格没有硅MOSFET那么大，因此需要严格遵循规格并考虑一定的余量。对于具体的正/负电压驱动的实现，有很多方法可以实现，比如多路隔离DC/DC电源，或者隔离DC/DC的隔离驱动IC等。
+
+事实上，在大功率电路中使用的典型桥式电路拓扑中，半桥结构是基本的拓扑单元，如图8所示。当上管导通时，即下管导通时关闭时，开关节点会产生相对大量的能量。大的dV/dT，因此该电压将通过碳化硅寄生电容CGD耦合到栅极电平的电压脉冲。一旦这个电压脉冲超过MOSFET的栅极导通阈值VGS-th，就会发生假导通，我们知道VGS-th是负温度系数变化。温度越高，阈值越低，因此在高温下这种情况会恶化。一旦误开启下管，必然会发生上下管短路，导致损耗增大。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYfCDKMrVqMPCfWc9eibw2j2TOLkgePwsPuIbbKqYkr6OEsiclc2OGsPHA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图8 快速的漏极dV/dT导致的米勒开通效应
+
+门级峰值电压有两种情况。当上管开启，下管关闭时，下管会有一个由低到高的快速dV/dT。因此，如图9所示，节点电压通过CGD电容器。产生米勒充电电流，该电流依次流过驱动器的输出电阻，在栅极电平产生正瞬态电压，如图 9 所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYR9JI7Rcnfsn1H8Dd5DTyUA4VeibT3GHhIS3MqYLxqcIDtGmRm4ppsjA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图9 正的dV/dT电压产生正的门级尖峰
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYqLoxgQ3ibcf14lV1iah31bhaA3Nd1mzicggZXSq0fUDnnAAgx93cY7vAw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图10 负的dV/dT产生反向门级尖峰
+
+栅级尖峰的另一种情况是当上管关断、下管导通时，开关节点产生由高到低的dV/dT，从而产生反向米勒充电电流，然后流经驱动器输出。该电阻器在栅极电平产生负电压尖峰。此时，需要注意负电压尖峰是否超过负电压耐压规格。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYkfRm4A4EHPGuLf5DSU8bQpqnzwHGkHZDklSOJhz4Ieib71eASng7kGQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图11 器件寄生电容导致的正负门级尖峰电压
+
+从图11我们知道，低边驱动信号开启前的栅极电平振荡主要是负电压。这部分电压主要考虑门级负电压规格的限制，而低边驱动信号关闭后门级振荡主要是正电压。这部分电压主要会引起半桥短路问题，因此需要考虑。
+
+我们已经清楚地解释了寄生效应开启的原因，那么抑制这种效应的方法有哪些呢？一般来说，寄生导通效应是由漏极的dV/dT过大引起的，因此限制dV/dT的变化率是抑制寄生导通效应的一种方法，但这与降低寄生导通效应的目的相冲突。开关损耗。
+
+另外，考虑到外部因素，选择上拉电阻较低的驱动器，并设置较低的关断电阻RGoff，可以让米勒电流通过较低阻抗的路径，减小感应电压的幅值。当然，如前文所述，如果采用负电压门级关断电压，也能有效防止下管意外导通。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYnkzUv8zs1AFUrJvN3hrZWfkNRkibpQKd3WrjxQHe4e75jKthceXQ9jw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图12 低阻抗关断回路电阻
+
+在器件本身上做文章，比如选择CGS电容远大于CGD电容的碳化硅MOSFET。这样，通过米勒电容给门级电容充电的电流就变弱了，如图13所示。当然，你也可以人为地在门级并联一个小电容，以减少对门级电容的充电效应。米勒电容是门级电容，如图14所示，但它也会带来更多的开关和驱动损耗。公开数据显示，在高压应用下，CGS与CGD的比例会比低压应用下更大，因此更有利于高压应用。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYoyWxwoQBxJVCXBIsN0IFlbQZQoWIwUhITUsyaaHBnsg2CuW7Wetbzw/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图13MOSFET寄生电容示意图
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsY3OGxNsHmjzM1T1GMotgKUwRQL50fLgwichBPbXt76vAAumWIbtRX5bw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图14 增加门级电容避免寄生开通
+
+另一种有效的方法是使用米勒钳位电路。当检测到栅极电压关断尖峰时，米勒钳位电路开启，将栅极电压钳位至GND，从而使米勒电流不会通过驱动器输出。该电阻升高栅极电压，使得碳化硅MOSFET可以使用0V电压关断，而不需要使用负电压关断。如图15所示，是VCLAMP电路。一般情况下，这部分电路可以集成到驱动芯片中。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYVJ0erS1HlgGicgpbCoBeeVIKibiaf5Z46mQac9hSXibKic263O2icNRhXIwg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图15 米勒钳位电路
+
+**六．碳化硅 MOSFET 短路保护的注意事项**
+
+碳化硅MOSFET的一个重要参数是短路耐受时间（SCWT）。由于该参数涉及设备安全，需要注意。由于碳化硅MOSFET的电流密度较高，其芯片占用面积较小，因此其短路耐受时间比硅MOSFET短，因此需要及时保护。
+
+对于1200V耐压TO247封装的碳化硅MOSFET，在700V条件和18V VGS驱动电压下，其短路承受时间约为8-10uS。在如此短的时间内关断碳化硅MOSFET将导致漏极处产生非常大的dI/dT，从而导致很大的漏极电压尖峰。为了减少电压尖峰，一般建议在发生短路、大电流时缓慢关断碳化硅MOSFET。切断VGS电压。
+
+具体实现上，一般通过电流采样电阻进行采样，对短路的碳化硅MOSFET进行去饱和动作。但这样做的缺点是会造成额外的损耗，而且采样电路会增加PCB空间，因此仅用于低功率应用如图16所示。在高功率应用中，一般采用Vds电压作为采样电压来触发过流保护并使器件去饱和。但这种方法的精度不是很高，因为Rdson采样电流得到的Vds有一定的变化范围，如图17所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYFmMPHyIPuCKO5TsiclfVbnibyuc11guTrK3mNgeibYWcIaocmP4aF46Pg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图16 采用Shunt电阻采样的过流保护电路
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYsj01Rziaddocq3eAicqZbSlzVltZ2JCSw7tV8snWnMibibnVxuwiaQOGxIg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+图17 采样Vds电压采样的过流保护电路
+
+利用Vds采样来设计过流保护电路是一件非常特殊的事情，因为既要考虑到触发保护的及时性，又要考虑到避免误触发。对于前者，需要考虑Rdson最坏情况以及温度等因素。
+
+电路开启后检测到信号时典型的检测去饱和时间一般在250n-500nS左右，关闭保护大约需要400n-1500nS左右。事实上，需要在尚未发生饱和（或电流尚未达到）时进行检测。峰值之前），需要能够检测到电流信号，不能等到饱和才检测电流信号。
+
+**七．碳化硅MOSFET功率器件封装的思考**
+
+在高压、大功率应用中，会采用TO220或TO247等插件封装。因此，在使用过程中，应尽可能缩短引脚长度，以减少器件封装带来的寄生电感。
+
+正如前面在碳化硅 MOSFET 并行设计中所讨论的，将 MOSFET 源极单独连接到驱动电路将显着降低开关损耗。原因是源极寄生电感会减慢导通过程或关断过程并增加开关损耗。因此，一般来说，TO247-4封装的开关损耗会比TO247封装少30%。  
+
+为了具体分析这个过程，我们以半桥的上管为例，如图18所示（此处移图8）。当开关导通时，电流从上到下流动并逐渐增大，则源极感应电压上侧为正，下侧为负。该电压将降低栅极驱动电压，从而减慢开启过程。同样，当上晶体管截止时，电流从上到下流动并逐渐减小，因此源极感应电压在下面为正，在上面为负。这将增加源极驱动电压，从而减慢关断过程。这两种状态都会增加开关损耗，因此如果开关损耗占主导地位或很大，请考虑使用 TO247-4 封装。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYfCDKMrVqMPCfWc9eibw2j2TOLkgePwsPuIbbKqYkr6OEsiclc2OGsPHA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图18 源极寄生电感对开关损耗的影响
+
+从封装图来看，如图19所示，TO247-4封装有独立的源极连接pin3，与Gate引脚相邻，方便驱动信号的应用，漏极pin1和源极pin2之间的距离为很小。大，需要承受Vds高电压。TO247的引脚排列比较简单，依次为G栅极、D漏极、S源极。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYMSiauZQDNRiaqR8scFlWkouhRYSrajkZ0GmmLo3ophUyvIar3ia42IH5A/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图19 TO247-4的碳化硅MOSFET封装
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/wnjQAeOj9Mibe1NicickvCsmYhibznhV9FsYmsicY48mrzqhOrU36PgmSLvDyIbY98p7GQH1NskZ6BSqleJjzoapCmA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图20 TO-247的碳化硅MOSFET封装
+
+在不同封装的碳化硅MOSFET模块中，合理设计获得更小的寄生电感对于限制电压过冲非常有帮助，同时也会尽可能的提高产品的工作开关频率。
+
+通过以上七个部分的讨论，从隔离驱动的基本要求，到驱动损耗的计算，从单管的寄生导通效应，到多管并联的实现，以及相应的布局原则上，最后从包装上提醒了几个注意事项。希望大家能够对碳化硅MOSFET驱动电路有更透彻的了解，以便能够落实到实际的解决方案中，充分发挥碳化硅MOSFET的性能。
+
+来源：宽禁带半导体技术创新联盟
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

@@ -1,0 +1,271 @@
+# 电力电子变换器装置及部件参数 AI 辅助设计方法
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/hSQWKnlJuS68Bagq6RVd\_w](https://mp.weixin.qq.com/s/hSQWKnlJuS68Bagq6RVd_w)
+
+文章来源：电力电子技术
+
+作者:高郅宬 1，王佳宁 1\*，任天一 2，汪志远 2，张 兴 1（1.合肥工业大学，电气与自动化工程学院，安徽合肥230009；2.阳光电源，中央研究院，安徽合肥230088）
+
+摘要：随着电力电子应用需求的持续增长和技术迭代节奏的不断加快，电力电子变换器设计正面临开发周期持续压缩、性能指标不断提升以及成本约束日益严苛等多重要求。传统依赖经验和分步迭代的设计方法，在设计效率、全局优化能力以及复杂约束处理等方面已难以满足上述需求。人工智能（artificial intelligence,AI） 技术的发展为电力电子设计方法变革提供了新的技术路径。本文以电力电子变换器设计流程为主线，从变换器装置到核心部件，系统介绍了AI在各环节中的研究进展与技术路线，并结合作者团队在变换器电路参数设计、调制参数设计、控制参数设计以及功率器件封装参数设计4个方向上的典型研究案例，分析了AI方法在实际设计任务中的实现形式与应用价值，为电力电子变换器装置及部件参数AI辅助设计的研究与应用提供参考。  
+
+关键词：人工智能辅助设计；电力电子变换器；参数设计；深度强化学习；神经网络
+
+1.引言  
+
+随着电力电子技术迭代节奏不断加快，变换器设计正面临性能指标持续提升、开发周期不断压缩以及成本约束日益严苛等多重挑战。传统设计方法在设计效率和全局优化能力方面的局限性日益凸显，AI正逐步成为重塑变换器设计方法变革的关键技术力量。  
+
+近年来，AI技术的快速发展为电力电子变换器设计带来了方法论层面的深刻变革：数据驱动代理建模、元启发式智能优化、深度强化学习、迁移学习乃至大语言模型等技术，正系统性地渗透到变换器设计的各个环节，推动设计模式由传统的人工主导、分步迭代，逐步向智能辅助、自动协同演进。  
+
+一般而言，电力电子变换器的完整设计流程通常涵盖拓扑方案选择、调制及控制策略选择、变换器建模及开环电路参数设计、核心元器件选型及优化设计、调制及控制参数设计、电路板及结构设计，以及实验测试等步骤。本节以该设计流程为主线，系统梳理各环节中AI方法的研究进展、关键技术路线及其层次化演进。  
+
+明确电力电子变换器设计需求后，首先需要进行拓扑方案选择。该环节在很大程度上仍依赖设计经验，通常从长期积累的典型拓扑中进行筛选。近年来，拓扑推演研究不断深入，为设计者提供了更多的候选方案。传统拓扑推演方法主要基于设计经验和既定规则，通过人工分析或程序枚举实现拓扑构造与筛选，但在拓扑复杂度提升时存在设计过程繁琐、搜索效率下降等问题。近年来，强化学习被引入拓扑推演任务。在该框架下，拓扑推演被表述为马尔可夫决策过程，通过结合拓扑可行性与性能指标构造奖励函数，使智能体能够逐步连接元件或功能模块，实现拓扑自动生成。在此基础上，文献\[3\]引入图神经网络，增强了对复杂拓扑结构的表征能力；文献\[4\]结合生成模型，提升了满足约束条件的候选拓扑生成效率，文献\[5\]将功率变换器设计表述为符号优化问题，进一步提升了拓扑生成的灵活性。拓扑方案确定后，需进一步选择匹配的调制和控制策略，并随之进入电路参数设计环节。早在2010年，Kolar教授团队首次提出面向电力电子系统的多目标优化设计框架，实现了电、磁、热及电磁干扰的协同优化。变换器电路参数设计可以分为两个步骤，首先建立用于表征待设计电 路参数与性能指标之间关系的变换器模型，并在此基础上求解满足设计要求的最优参数组合。  
+
+建立高精度变换器模型是实现参数设计的重要基础。传统解析模型具有明确的物理意义，在机理分析和初步设计中具有重要作用；但在复杂调制、多工作模态以及寄生参数耦合时，建模难度会明显增加，难以兼顾模型精度与建模成本。围绕这一问题，现有AI建模方法的研究主要形成了数据驱动建模和机理融合建模两条路线。数据驱动建模方面，文献\[7\-9\]采用反向传播神经网络、自注意力网络和轻量级梯度提升机等方法，建立变换器参数与损耗、效率、电流应力等性能指标之间的映射关系，以替代高耗时仿真和复杂解析推导。机理融合建模方面，文献\[10\-11\]将电路物理规律显式嵌入网络结构，形成兼具数据驱动能力与物理约束能力的灰箱模型，提升了模型的可解释性和跨拓扑泛化能力。此外，文献\[12\]将图神经网络引入变换器性能建模，增强模型对 不同运行工况和调制策略的泛化能力；文献\[13\]结合时序神经网络与物理约束开展动态建模，用于描述复杂动态过程。  
+
+完成变换器建模后，需进一步开展最优电路参数的求解。围绕这一任务，现有AI方法主要形成了启发式智能优化算法和深度强化学习（deep reinforcement learning,DRL）算法两条技术路线。启发式智能优化算法如遗传算法（genetic algorithm,GA）、粒子群优化算法（particle swarm optimization,PSO）等，通过种群搜索、迭代更新和适应度筛选实现参数寻优，现已广泛应用于Buck、LLC、CLLC、双有源桥（dual active bridge,DAB）等典型拓扑。文献\[15\]针对CLLC变换器提出GA+PSO两阶段设计方法，同时完成总损耗优化与磁元件参数设计；文献\[18\-19\]针对DAB变换器采用GA对电感等关键参数进行设计，以改善高频运行下的软开关范围和损耗表现；文献\[21\]将AI方法进一步扩展到变换器拓扑方案与核心元器件的协同优化。RDL则是通过智能体与系统模型之间的持续交互，依据奖励反馈不断更新策略，并逐步学习得到满足设计目标的最优变量组合，现有研究已将深度确定性策略梯度（deep deterministic policy gradient,DDPG）、近端策略优化（proximal policy optimization,PPO）等算法应用于电路参数设计。其中，文献\[23\]采用PPO实现了Buck和Boost变换器参数设计；文献\[26\]采用DDPG实现了三电平有源中点箝位型（active neutral point clamped,ANPC）逆变器的效率优化；在此基础上，文献\[28\]将ANPC逆变器的设计需求显式纳入强化学习框架，训练后的模型能够在设计要求变化时快速输出新的最优设计变量，使得强化学习智能体具备面向新设计规格快速响应的能力。
+
+电路参数设计与关键元器件选型之间存在较强耦合，功率半导体器件、磁元件等关键元器件的选型与优化既受电路参数制约，也会反过来影响系统性能。对于常规设计需求，通常可基于标准型号进行筛选；但在追求更高效率、更高功 率密度等目标时，需进一步开展定制设计。此类设计往往涉及电、热、力等多物理场耦合，传统方法多依赖经验分析、有限元仿真和反复迭代，存在设计周期较长、优化效果有限等问题。为提高设计效率并提升优化效果，现有研究已将AI方法引入功率半导体器件及磁元件设计。对于功率器件封装设计，文献\[29\]利用人工神经网络（artificial neural network,ANN）建立了碳化硅（silicon carbide,SiC）功率模块寄生电感与结温的快速预测模型；文献\[30\]结合ANN与GA，对高温SiC功率模块的热应力与结温进行协同优化；文献\[31\-32\]结合ANN与DRL，实现了以寄生电感、结温、温差和功率密度为目标的多目标自动优化。对于磁元件设计，文献\[33\]系统总结了AI在高频电感与变压器设计中的应用进展；文献\[34\]提出了结合ANN与三维有限元的电感快速建模与帕累托优化方法；文献\[35\]面向DAB高频变压器，构建了同时考虑电磁与热特性的两阶段ANN优化设计方法。  
+
+当硬件方案基本确定后，设计重点进一步转向调制与控制参数设计，这两个环节对变换器的运行性能具有直接影响。  
+
+在调制参数设计环节，核心任务是在不同运行工况下合理配置调制自由度，以实现效率提升、电流应力抑制等目标。围绕这一问题，现有研究形成了两种典型的数据驱动方法。第一类方法通常建立运行工况、调制参数与变换器性能指标之间的数据驱动模型，并借助智能优化算法完成最优调制参数的求解，已广泛应用于DAB变换器的扩展移相（extended phase shift,EPS）、三重移相（triple phase shift,TPS）及混合移相调制设计中，实现混合移相调制下的最小电流应力设计、全范围零电压开通（zero voltage switching,ZVS）与效率优化，以及TPS调制下的最小电流应力设计和最小功率损耗设计。另一类方法将调制优化直接表述为策略学习问题，通过强化学习算法直接学习运行工况到最优调制变量的映射关系。文献\[40\-41\]基于Q学习实现了DAB在TPS调制下的效率优化和最小电流应力控制；文献\[42\-43\]采用DDPG分别完成了DAB效率优化和最小无功功率控制；文献\[44\]利用双延迟深度确定性策略梯度（twin delayed deep deterministic policy gradient,TD3）实现了变频TPS调制下的效率优化与ZVS约束协同设计。对于更高自由度调制，文献\[45\-46\]将深度强化学习引入三电平DAB及3L\-NPC\-DAB的五自由度移相控制，文献\[47\]将DDPG用于模块化多电平换流器的改进型选择性谐波消除调制中最优开关角的求解。然而，现有调制参数设计方法多数仍建立在理论分析、仿真模型基础之上。受建模精度、器件公差与寄生参数等因素影响，理论最优调制参数往往难以直接适用于真实装置。针对这一问题，文献\[48\]通过融合仿真与实验数据对调制模型进行实验增强，文献\[49\-50\]则利用少量实验数据，采用迁移学习方法实现模型从仿真到实验的迁移；进一步地，文献\[51\-52\]通过物理信息嵌入建模，提升了调制优化模型的可解释性和跨场景泛化能力。  
+
+在控制参数设计环节，控制参数的选取直接影响变换器的稳态性能和动态响应。传统依赖人工试凑的整定方式效率较低，且难以兼顾多性能指标。针对这一问题，现有研究在传统控制框架下引入数据驱动方法辅助控制参数设计。文 献\[53\]在仿真中使用差分进化（differential evolution,DE）算法自动搜索图腾柱功率因数校正（power factor correction,PFC）变换器最优控制参数，并借助神经网络实现宽工况运行下控制参数的自适应选取；文献\[54\]在DAB储能系统的设计中利用神经网络建立控制参数与性能指标之间的映射，实现控制参数的快速整定。在此基础上，AI方法还进一步拓展到控制策略替代与近似，其核心思路是利用数据驱动模型对控制闭环中的关键环节进行替代，从而降低复杂控制策略对精确模型和在线算力的依赖。文献\[55\]利用神经网络替代飞跨电容电压传感器，实现了多电平Boost变换器的无传感器模型预测控制（model predictive control,MPC）；文献\[56\]提出了面向多种电力电子变换器的ANN\-MPC一般方法，用神经网络近似MPC的预测与优化过程；文献\[57\]进一 步利用一维卷积神经网络构建长时域有限控制集MPC决策器，并结合FPGA实现快速部署。此外，端到端强化学习控制将控制目标与决策过程统一纳入策略学习框架，直接建立系统状态到控制动作的映射关系。文献\[58\]通过迁移强化学习实现了并网型变换器的多目标控制器设计；文献\[59\]采用TD3实现了多输入多输出直流变换器控制；文献\[60\]将DDPG用于TAB变换器的功率流控制。  
+
+在完成拓扑、调制、控制等方面的理论设计后，变换器装置将进入电路板与结构设计阶段。在此环节中，研究者将强化学习、深度神经网络与图表示方法用于模拟电路尺寸优化、版图优化、PCB地过孔布置以及BGA封装引脚分配优化等问题，并通过代理模型加速仿真评估，在复杂组合空间中搜索更优方案。  
+
+除了上述面向具体设计环节的AI方法外，大语言模型（large language model,LLM）作为近年来兴起的新型技术手段，也开始进入电力电子设计领域，并展现出跨环节协同与全流程智能化设计的潜力。文献\[68\]系统综述了LLM在概念设计、建模、仿真、优化等阶段的应用前景与挑战。文献\[69\]提出PE\-GPT范式，通过检索增强生成结合领域知识库降低LLM幻觉，并让智能体调用优化算法、代理模型和仿真工具完成设计与验证工作，突破了纯文本LLM难以处理专业数据的瓶颈。文献\[70\]展示了GPT\-4在物料清单生成、开关损耗优化和电容均方根电流估算等具体任务中的能力。  
+
+综上，人工智能技术已广泛渗透到电力电子变换器设计的多个关键环节，并呈现出由单点辅助优化向多环节协同智能设计演进的发展趋势。从拓扑推演、变换器建模到电路参数、调制参数、控制参数及核心部件设计，AI方法正在逐步突破传统经验设计和分步迭代模式在设计效率、全局优化能力和复杂约束处理方面的局限性。  
+
+2.电路参数设计案例  
+
+引言部分围绕电力电子变换器设计流程，系统梳理了各环节中AI方法的研究进展、关键技术路线及其层次化演进。基于此，本文将电力电子变换器的典型设计流程归纳如图1所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNgH4hFWB3Q9WmXctXXDCCsUpvvw1CfL35HT4JgtN3JnffUU6bLL28yqaHKyzmBOMOHakwSkTh4GRBJu15icOgLyKCuqkiaMcnb8/640?wx_fmt=png&from=appmsg)
+
+  
+为进一步说明AI方法在具体设计任务中的应用形式与实施效果，本文自本节起将选取变换器电路参数设计、调制参数设计、控制参数设计和功率器件封装参数设计4个典型环节开展案例分析，重点展示相关方法在实际问题中的建模思路、实现过程及应用价值。
+
+本节以双桥串联谐振变换器（dual bridge series resonant converter,DBSRC）为案例对象，介绍AI方法在电路参数设计环节中的具体应用。  
+
+2.1 设计任务与优化目标  
+
+DBSRC结构如图2所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN7mfwmpS5LReCQtQVxr41NyliaH95TFP48ZibTw5SMApDBewpEicBAx8EjSyhQhATRPRY1t3NdgoXuibGJ8uumBk1G5WCPK0Bicib9g/640?wx_fmt=png&from=appmsg)
+
+输入侧和输出侧均采用全桥结构，中间通过串联谐振腔与高频变压器连接。高频变压器实现了初、次级之间的电气隔离与能量传输，其变比为n∶1。uAB与uCD分别为初级全桥和次级全桥的交流电压，ir为流经串联谐振电感Lr、谐振电容Cr及变压器初级的谐振电流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOUKFyc2RoFkicgcQgMaatTnnCnnOGhhoq2WA5Kwic3icBpaU6AW4HLXTU8vb6RTKibqlzESPn4bcSpxGt6ZibibCY23KRP2j7B4Ns38/640?wx_fmt=png&from=appmsg)
+
+EPS调制方案如图3所示，包含两个自由度：内移相D1和外移相D2。电压转换比定义为K\=nUo/Uin。为实现电压匹配，当K≤1时，D1作用于初级全桥，当K\>1时，D1作用于次级全桥。为了实现更宽工作范围内的灵活调节，进一步引入开关频率fsw自由度，即EPS\-PFM。
+
+本文以阳光电源6.6kW车载充电机（on board charger,OBC）产品为基础装置，针对其后级DBSRC变换器开展参数优化设计。面向OBC宽电压、功率范围的应用需求，设定输入电压Uin为390V，输出电压Uo范围为300~500V，满载功率为6.6kW。以提升变换器效率并改善宽工况下的效率分布为目标，对谐振腔及高频变压器相关参数进行优化。考虑到产品样机磁元件采用磁集成方案，在保持原有结构不变的前提下，主要调整变压器漏感和变比，因此选取谐振电感Lr、谐振电容Cr以及变压器变比n作为设计变量。  
+
+2.2 DBSRC系统建模  
+
+对于宽范围变换器的设计，需要综合评估DBSRC在各运行工况下的整体效率表现。为此，将电压范围和功率范围等间隔划分，分别选取m个电压参考点和n个功率参考点，并为每个工况点ci，j设置相应的权重wi，j。由于变换器在各工况下的效率与调制参数的选取密切相关，需首先确定该工况点下的最优调制参数组合（D1，D2，fsw）\*，并将其对应的最大效率记为该工况点的效率结果。因此，DBSRC在宽范围运行条件下的加权效率可以表示为
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOkrmVVAGLChGVodY4eH51QAD050qKwLLEuWKYVwTiaF4yibGlO46G40Riam9sPVdOOoUBZTytrTZof5SXv4JaQeeQFrHWwRalg7s/640?wx_fmt=png&from=appmsg)
+
+式中：x\=（Lr，Cr，n）表示待优化的电路参数，η\*（x，ci，j）表示在该工况下经调制优化后获得的最大效率。  
+
+为简化效率建模，只考虑功率器件和磁元件损耗，忽略其他部分损耗。磁元件损耗可以表示为式（2）。其中，磁芯损耗采用基于Steinmetz的经验模型进行估算。对于绕组损耗，考虑到高频条件下集肤效应和邻近效应会引入附加交流损耗，因此引入交流系数kac进行修正。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOSf6yCPQ1qOkERScpsl0xeTfS3ibKtHm3iboEqeuNRoaKlspLxRbVuYW4ibMt3TXPnhZia3fpYhhzJqsyTZW8iaEB9tCib0DSkKrffE/640?wx_fmt=png&from=appmsg)
+
+式中：α、β、kc为Steinmetz系数；fsw为开关频率；Bm为最大磁通密度；Ve为有效磁芯体积；Irms为绕组有效电流值；Rdc为直流电阻。  
+
+DBSRC产品平台选用IGBT功率器件的型号为SGTQ50V65UFCR3S7，其损耗可表示为式（3），主要由IGBT导通损耗、开关损耗及反并联二极管导通损耗和反向恢复损耗构成。相关参数均由器件数据手册获得，并结合实际工作电流、电压及开关频率进行计算。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpORibZmM1UNtkh8bTM61j2QnAHp6T2DNSXicfqsXlibLQ69l79X3stibshfiaRzS9Nicwq6R8IOqSA16y8eZtLFcOWkibGLUve75B2KLw/640?wx_fmt=png&from=appmsg)
+
+变换器的总损耗和运行效率分别如式（4）和 式（5）所示。结合式（1）可完成不同电路参数组合在宽工况范围内的性能评估。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPv1IGaDzkgew0Sia18bIKKxO4JGxGfHsrEfVw0E3YhSIfbdUZJWpzDvibZMPicUPYrXXVO2iarmeIuFnjzNQsy2cHVb10IjjjicZJo/640?wx_fmt=png&from=appmsg)
+
+2.3　基于DRL\-DE的参数优化方法  
+
+针对宽范围DBSRC参数中电路参数、调制参数、效率指标强耦合的特点，本文提出如图4所示的DRL\-DE混合优化框架。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMLjaO1fdZOTuUepCQB132TUy0cS2gBdsLhgCA5lR5lHwH1UHpqHCRMeV8VwCnrOo8BhPTpOD7kX2ibDdWEldjH3UNM980XShec/640?wx_fmt=png&from=appmsg)
+
+  
+在该框架中，外层DRL是电路参数优化的核心，选取PPO算法作为优化器。智能体通过与系统模型进行交互，在给定状态S下输出对应动作A，系统模型执行该动作后返回相应奖励R，智能体再根据奖励反馈不断更新策略网络参数，从而实现优化策略的迭代改进。在本案例中，状态由各工况权重系数组成，用于表征对不同工况下变换器运行效率的侧重；动作定义为待优化的电路参数，即Lr、Cr、n；奖励则定义为归一化后的宽工况加权效率。  
+
+差分进化算法嵌入在DBSRC系统模型中，用于在给定电路参数和目标工况下搜索最优调制参数组合（D1，D2，fsw）\*。具体而言，DRL智能体首先输出一组候选电路参数，随后在每个离散工况点下调用DE求解对应的最优调制参数及该工况下的最大效率。进一步结合各工况权重对效率结果进行加权汇总，得到当前参数组合对应的奖励值，并反馈给DRL智能体，实现电路参数与调制参数的分层联合优化。  
+
+2.4 设计结果与实验验证  
+
+在本文中动作空间设置为：0.6<n<1.8，10μH<Lr<40μH，100nF<Cr<300nF。为了便于调整工况权重，状态空间定义为s\=\[sv，sp\]，用于表征重点工况在电压和功率维度上的位置，随后以该位置为中心构造二维高斯分布，并据此生成对应的权重矩阵。PPO的策略网络和评价网络采用相同的 结构，均包含两层隐藏层，神经元数分别为256和128，激活函数选用SiLU。  
+
+训练总步数设置为40000步，其奖励曲线如图5所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMLss8OvC1j3uKHX7qicZAulk6dLPpUAxnKVbMibsQmwnQxWL1m6yhF86Xj9koqSOslzeUfhwW9fuV9dyLVCuK5ib8aicNAGvTwxXM/640?wx_fmt=png&from=appmsg)
+
+  
+奖励值在训练初期迅速上升，随后逐步趋于稳定，收敛情况良好。由于每次训练的状态均随机生成，奖励存在轻微波动。  
+
+训练完成后，设定300V、6.6kW为重点工况，并将其对应的状态输入智能体，获得设计变量如表1所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNicicsicKzpzs6M3ANaosBfJj6lFUseyCicvn4qFzlBk6kYlmD8XYyqtrFiahAvxL9a82Xnh2nMaF99CF9ucT8K68xTicCOCCQyzujU/640?wx_fmt=png&from=appmsg)
+
+基于阳光电源6.6kWOBC产品平台，重新设计并打样了变压器及谐振电容小板，实验样机如图6所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpORWxXHUQZgGkiabrEyolG8YnNB6YCn3YibAFybTdiawOfbrtMCrFrBljwULw1MQBB9spia7ae9IhgBeLib1TEPwHuChcBiaI294yZm8/640?wx_fmt=png&from=appmsg)
+
+在300~500V、6.6kW满载工况范围内，对产品平台参数与AI设计参数下DBSRC的效率进行了对比测试，测试结果如图7所示，低压段效率提升明显，重点工况（300V、6.6kW）下效率提升最大为0.437%，宽范围加权效率提升0.261%。与产品平台参数相比，AI针对目标宽范围工况偏好优化得到的参数表现出更优的效率水平。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMnadw6yTOPibkc7TGclqADahjy04PjmeicxLuw5AwYwHib2IUzcCAbyANsicFaSicn79TIvAOWfa1Row9V36eW2yczDx5ZUhQ5ia2kQ/640?wx_fmt=png&from=appmsg)
+
+3.调制参数设计案例  
+
+在完成电路参数设计的基础上，本节进一步介绍AI方法在DBSRC调制参数设计环节中的具体应用。  
+
+3.1 调制参数设计问题描述  
+
+变换器在宽工况范围内的运行效率与调制参数的选取密切相关。调制参数不仅直接决定初、次级桥臂电压及谐振电流的波形特征，还会影响ZVS实现边界与开关时刻的电流水平，进而改变损耗分布，对变换器的整体效率产生影响。在第2节DBSRC电路参数设计中，已基于DE算法快速求解得到当前损耗模型下各工况对应的理论最优调制参数。然而，受损耗模型精度限制及器件生产公差等因素影响，理论最优调制参数与实际装置的最优调制参数存在一定偏差。当前阶段，工程中最常用的方法仍然是依赖工程师通过实验反复试凑确定最优参数，过程繁琐、耗时较长，且对经验依赖较强。  
+
+3.2 调制参数优化方案
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP57DfiazAdTKtvzm5RSIyuQWQVXYLgeuIuqHiaYiaauIv2HFaJuvUicRLvbcHiaiahW8Hd0RGMOI5ERA1MtiaCEVy1qYz8dZpxWoACY4/640?wx_fmt=png&from=appmsg)
+
+本文提出的调制参数设计方法如图8所示，主要包括两个环节：一是实验最优调制参数的搜索，二是神经网络模型的训练与微调。在参数搜索方面，针对DBSRC效率随调制参数变化呈单峰分布的特点，本文以理论最优调制参数为初始搜索点，依托自动化实验平台并结合差分进化算法，对各实际工况下的最优调制参数进行快速搜索，并构建实验最优调制参数数据集。该平台由上位机、直流电源、电子负载、功率分析仪和数字信号处理器（digital signal processor,DSP）等部分组成，能够实现实验工况自动设置、调制参数在线更新以及效率数据自动采集。  
+
+在模型构建方面，首先利用理论最优调制参数对神经网络进行预训练，建立调制参数D1、D2、fsw与运行工况Uin、Uo、Pout之间的映射关系；随后，进一步利用典型工况下搜索得到的实验最优调制参数样本，通过迁移学习对神经网络进行微调，以提高模型对实际装置运行特性的适应能力。相较于直接基于实验最优调制参数样本训练神经网络，该方法能够在保证模型精度的同时有效减少实验数量。综合考虑拟合精度与模型复杂度，本文将神经网络设置为单隐藏层结构，隐藏层包含32个神经元，激活函数采用ReLU，输入层与输出层神经元数均为3。  
+
+3.3 实验验证  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPUcIMYnOaskeF0iccZlYvLz1wV27Ot512zBVHKAERUvJA2QlxHxr3s3pro65fn5mABbTUTKjt7b1l6SHR9qpiaL4BUjcUjDDpvM/640?wx_fmt=png&from=appmsg)
+
+自动化实验平台如图9所示，DBSRC实验样机主要参数如下：变压器匝比为1（12/12），谐振电感为25μH，谐振电容为140nF，开关器件选用C3M0040120K。  
+
+设置差分进化算法的种群规模为15，迭代次数为12，并基于自动化实验平台开展参数搜索。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO2ia4Ddy5rTGv449SQOozURuibk8JOL3n6CUOkS2OtnOdnE5PVianUfAoDOzcVAzjz9bGFJeehd0ZiagyAgbW9dlUYGqDfsk5qNqs/640?wx_fmt=png&from=appmsg)
+
+图10给出了输入电压390V、输出电压范围320~480V、6.6kW满载工况下的实验结果，对比了理论与实验最优调制参数及其对应的实测效率。其中，图中仅展示内移相和开关频率，外移相由闭环控制实时调节，故未单独列出。在输出电压384V工况下，理论最优参数未能实现ZVS，导致效率明显下降。实验结果表明，该自动化实验平台能够在无需人工干预的情况下完成调制参数的全自动搜索，有效提升变换器的运行效率并改善ZVS实现情况。  
+
+本文选取390V额定输入电压、6.6kW满载这一典型工况，利用搜索得到的实验最优调制参数对原神经网络进行迁移学习微调，验证所提方法的可行性。在保留预训练模型隐藏层参数不变的基础上，输入端引入轻量仿射校正，并联合调整输出层参数。微调后，模型对D1和fsw的决定系数R2分别达到了0.98639和0.97334。与微调前相比，基于留一交叉验证结果，D1和fsw的预测误差分别下降了75.3%和71.1%，表明该方法能够在有限的实验样本的条件下，显著提升模型对实验最优调制参数的预测精度。  
+
+4.控制参数设计案例  
+
+本节以作者团队已发表的图腾柱PFC变换器研究工作为案例，介绍AI方法在控制参数设计环节中的具体应用。  
+
+4.1 PFC变换器及双闭环控制器架构
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPOjZt4DShkPtbs4ct6ksD6F3Y4pKVK9I01EghUTfFW3stSClLQntVicYE7GF3yaYlOzzqFXOYqad2zrQUjLRYiaPXqiaoEzL7beM/640?wx_fmt=png&from=appmsg)
+
+OBC前级图腾柱PFC拓扑结构如图11（a）所示，包括一组高频开关桥臂与一组工频导通桥臂。图11（b）为其双闭环控制器的结构，其中电压外环采用PI控制器实现母线电压调节，电流内环采用QPR控制器实现网侧电流的无静差正弦跟踪，并抑制低次谐波。  
+
+传统控制参数设计多依赖小信号建模或人工试凑，前者难以直接确定最优参数，后者高度依赖工程师经验，设计周期长且成本较高。对于宽工况范围运行的变换器，固定控制参数难以兼顾各工况下的稳态与动态性能，引起控制效果劣化。为此，本文提出“离线多目标优化、在线自适应调度”的控制参数设计方法。  
+
+4.2 控制参数离线多目标优化方法  
+
+本文通过PLECS仿真获取不同控制参数对图腾柱PFC性能的影响，选取功率因数（power factor,PF）、输入电流THD、母线电压纹波Uripple、稳态误差ΔUdc，以及负载突变过程中的电压过充Uover和恢复时间ts2%作为评价指标，构建综合性能评价函数。各指标经归一化后按权重加权求和，用于综合表征系统的稳态与动态性能。  
+
+控制参数优化框架如图12所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPZUucHSibJNgIu0ibX6xjZoG84keKbH26fKpoqic8RfUFGf4bbNeibcwUAdUyj3Ug1Po7iag0wywSSCoAibsf7LvU55k4q39UboDiaxg/640?wx_fmt=png&from=appmsg)
+
+“构建自动化仿真平台，打通PLECS仿真软件与Python程序的通信链路，由Python自动修改仿真参数、启动仿真运行并收集仿真结果；同时引入差分进化算法，对给定工况下的控制参数进行快速寻优，获取“运行工况\-最优控制参数”数据集。  
+
+4.3 控制参数调度模型训练及在线部署  
+
+考虑到QPR谐振增益在较大范围变化时对系统性能影响相对有限，最终选取对性能最敏感的3个参数作为调度对象，即电压外环的比例、积分增益Kp,v、Ki,v以及电流内环的比例增益Kp,i，其余控制参数固定。基于离线优化结果构建训练样本，建立轻量化单输入三输出神经网络，以母线电压Udc为输入，输出对应的控制参数，实现控制参数随工作点变化的自适应平滑映射。训练完成后，将网络权重与偏置部署至DSP（TMS320F28379D），单次前向推理时间小于10μs。神经网络结构如图13所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMqV1F2T76lsHt9dGltjiaib2FXBz31ZaeH1NbIO9A4sPoSNbg5XsABIscXaamgb25FqX31T395SAsBXWeJuY7MrLricIEEb9kDTc/640?wx_fmt=png&from=appmsg)
+
+4.4 实验验证  
+
+图腾柱PFC实验样机如图14所示，其输入交流电压为110V，输出直流电压范围为170~220V，输出功率为800W。本文所提方法不依赖于特定电压等级和功率等级，可由缩比实验结果有效推广至额定工况。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPvrMMfGIa3vdULGic2qeOs23RndKyG5rrj9l3xbuoWxGNOBAXUo23CK0OiaKvez37yFwWHVuKfNI3ngFMmVHiaw6pU773wcXq3GE/640?wx_fmt=png&from=appmsg)
+
+稳态条件下，输入电流基本保持正弦形状，且与输入电压同相。负载切换时直流母线电压波形如图15所示，与基于小信号建模得到的控制参数相比，本文所提方法对应的电压过冲更小、恢复时间更短。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOgPdLiciaLcL3ymrUMxRS5tPaeywjRvPicVDnp6icpQrvC4qCTJYe8t46hCaNSCJ1NLeahRRV2dLiawBvueFlRzRwKicbTU4lgeAgNU/640?wx_fmt=png&from=appmsg)
+
+  
+图16进一步给出了不同输出电压条件下负载切换恢复时间的对比结果。可以看出，基于小信号建模得到的控制参数在工况偏离设计点后，其动态性能劣化，恢复时间增加；相比之下，本文所提方法在各输出电压条件下均能将恢复时间稳定控制在约30ms。以上实验结果表明所提方法在宽工况范围内均能保持较优的稳态控制精度和动态响应性能。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOSco7Xy6HFpHX7naNLZXDFGQHy6Fz0MRnE26MbGBTbT0Pc372etsrMwYSKYnAVjZcz20xQNEYZnl90ib7D3rErn9l1nzEf3ZVo/640?wx_fmt=png&from=appmsg)
+
+5.功率器件封装参数设计案例  
+
+第2~4节介绍了AI在电路级设计中的应用案例，本节以作者团队已发表的半桥式双面水冷（double\-sided cooling,DSC）模块研究工作为案例，介绍AI方法在功率器件封装参数设计环节中的具体应用。  
+
+5.1 功率器件封装自动化设计流程  
+
+传统功率模块封装设计方法高度依赖人工经验，现有基于元启发式优化算法的设计方法在采用数值仿真评估时，往往存在迭代周期较长的问题。为此，本文提出一种结合人工神经网络与深度强化学习的多目标自动化设计方法，整体框 架如图17所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNQibCgUKJGsaooaWwa5nyyJwfr9sj0zNQSzwCfKHdwsicVJOdQrJdlpbrOElNdoZIG6DsCVxcTl2EFg16kOn9Kiaickr0YuoCa1DI/640?wx_fmt=png&from=appmsg)
+
+  
+其中，深度强化学习部分采用DDPG算法。半桥式双面水冷模块结构如图18所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMAyy3FMujxbhsOtyOXVQppXfm7pg0efqq8iaiateqTeG5NzzkASkUEUeSbibtcRnBmNNhgFJYckUrHkAibza5uwvwQKQVGeo72e8Y/640?wx_fmt=png&from=appmsg)
+
+本文选取芯片布局尺寸 d1、d2、d3、d4，基板陶瓷层厚度h1，铜层厚度h2，垫片厚度h3作为设计变量，寄生电感L、芯片结温T、芯片结温差∆T和功率密度ρ作为设计目标，电流I作为设计需求，开展多目标自动化设计。  
+
+5.2 基于ANN的功率模块系统建模  
+
+根据DSC模块的结构特点确定设计变量和设计需求的取值范围及步长，可得到约30万组设计组合。若采用仿真\-遍历（simulation\-brute search,SM\-BS）方法对全部组合逐一评估，计算代价较高，难以满足优化设计需求。为提高建模与优化效率，本文采用人工神经网络方法，仅选取少量代表性变量组合，对寄生电感L、芯片结温T及结温差∆T进行仿真提取，并以此作为训练样本，建立设计变量与设计目标之间的映射关系。在此基础上，ANN模型与功率密度的解析模型共同构成DRL的环境模型。  
+
+5.3 基于DDPG算法的自动设计  
+
+在DDPG算法中，将设计需求和设计变量分别定义为状态变量S和动作变量A，奖励函数如式（6）所示，各设计目标的权重系数设置为1:1:1:1，可根据不同应用场景进行调整。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM6xSdlgJmtPnJbzhc49eDebvKunHsgkyzM1thrLm9wiaGZfQ3eAbpof7tqMfqibZf8Hwv6mSfveybhpdrrwb1grhC5DvbFl0kNM/640?wx_fmt=png&from=appmsg)
+
+式中：Lnorm、Tjnorm、∆Tjnorm和ρnorm分别表示归一化后的寄生电感、结温、结温差和功率密度；w1、w2、w3和w4为相应的权重系数。  
+
+训练过程中，智能体与环境模型持续交互，并在状态变量S的变化范围内，根据当前动作变量A获得奖励反馈R。通过反复迭代，智能体依据奖励反馈不断更新策略，从而调整动作变量，实现多个设计目标的协同优化，如图17所示。经过充分训练后，对于任意给定的新设计需求I，策略网络无需重复执行搜索过程，即可快速提供最优设计变量d1、d2、d3、d4、h1、h2和h3，从而实现寄生电感、结温、结温差和功率密度的多目标优化设计。  
+
+5.4 设计结果及数值验证  
+
+为全面评估所提ANN\-DDPG方法的性能，本文从计算效率和优化效果两个方面，将其与其他5种建模\-优化组合进行对比分析，即SM\-BS、SMGA、SM\-DDPG、ANN\-BS和ANN\-GA。  
+
+在计算效率方面，ANN建模方法相较于SM具有明显的速度优势；并且，随着设计需求数量Nreq增加，BS与GA的运行时间均呈线性增长，而DDPG因对新需求的响应时间几乎可以忽略不计，耗时基本保持不变。因此，当Nreq较大时，所提ANN\-DDPG方法在计算效率上显著优于基于GA的组合。  
+
+6种方法的运行时间随Nreq的变化关系如图19所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNicwWAb0Cjd5yhSficTcDZ6qCwOds1pQBWYjdl5WmOBibcPpJedibA8hex4KHQX2Trkds2AM6C184Rp7hKtR311af5wd2R65qWXyk/640?wx_fmt=png&from=appmsg)
+
+  
+在优化效果方面，本文以ANN\-BS方法获得的优化结果作为基准，与ANN\-DDPG方法的优化结果进行比较，以评估所提方法的准确性。表2给出了设计需求I\=300A时，两种优化方法对应的设计变量。可以看出，ANN\-DDPG与ANN\-BS所得到的优化结果几乎完全一致。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOL8iac9Le5tfsAmBAibAmHiaMCIDdyDRCrAAMRju4UMjJYhWbmtuMkAjhNGjrjjqBCTfjgYFI8RDyKTI81HibNxFfeAOTAvUPTWQc/640?wx_fmt=png&from=appmsg)
+
+5.5 实验验证  
+
+根据优化设计结果完成功率模块样机装配，并进一步对其电气和热学性能进行实验验证，双脉冲测试平台如图20所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMHckfIZ7iaf5pVS6Q4HsKJZtiatDrUiaJ5T8BVRawpTbCNzf3KmvtDHWpsCkbyz9cfIRN39rh2ruont9AqQOVdD9iaZ7SBZ9630Bs/640?wx_fmt=png&from=appmsg)
+
+对模块回路寄生电感进行测试，寄生电感的实测值为6.5nH，而相同结构尺寸下的仿真值为5.7nH，二者整体较为接近。进行热特性测试时，采用FLIRT650sc红外热成像仪对模块内部温度分布进行测量，测试结果如图21所示，芯片温差小于1.5℃，模块具有良好的热均匀性。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOLalLMKnnVCJXouX2PtJ7nCvx0gBIialBuKPjLtApkyTmnhzbCepzh7h9ybicPaJnETTQEwNpoeQO7iaHqq95rShgluIVN46dEdk/640?wx_fmt=png&from=appmsg)
+
+  
+6.结 论  
+
+人工智能正逐步成为推动电力电子变换器装置及部件参数设计方法变革的重要技术路径。本文所梳理的研究进展以及作者团队在电路参数设计、调制参数设计、控制参数设计和功率器件封装参数设计等方面的典型案例表明，AI方法已能够在建模、优化、参数整定和实验验证等关键环节发挥重要作用，并在提升设计效率、改善优化结果以及增强复杂约束条件下的设计能力等方面展现出较大潜力。随着相关研究不断深入，电力电子设计方法将进一步由单一机理主导 走向机理与数据融合驱动，设计工具也将由高度依赖反复迭代的有限元仿真和人工实验逐步转向基于小样本混合数据驱动的多变量、多目标、多约束对象的快速设计。未来，还需进一步加强机理模型与数据驱动方法的融合，构建面向全流程的自动化设计框架与开放平台，不断提升相关方法的工程落地能力。
+
+注明：  
+
+【版权声明】：本公众号平台注明来源或转载的文章，版权归原作者及原出处所有，仅供大家学习参考之用，若来源标注错误或侵犯到您的权利，烦请告知，我们将立即改正或删除。
+
+【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOacSVgUNia1ia8kNMoyS6M77UTdX9L750qtl17aK1Xycic07D0ibj1HFytY8YGrTxcTPjEQ0y9S0JMaB6hKic5GUCLIMTnW9dyfz64/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMCUzkwVSKCaUFDmkPlH88IWBn6Cvd3RiaHKZudHyKM9NaAXHpBrV0AKicJd67QF98picyo2IEIQpNWQ9Rrare1rmkVw08cm7TCcI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMPgSEQmIsQHmrwzCynUuBHIUAfEOBFNkB6pia1bMpG45eAyoDa6ICW6EGH9RJfj61uLMWM4kNYvcSGJYicMQy5tXg8bKH3M1r4g/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNBGrx2MfeicCmib2tFXYPQBxObtPXHu2LToOdT3SmAfNLzL4n9UwTZQhY53b1lYkn9OibJuqavO16tZ84YliaVpx6Y8JsQl2S8ss4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)

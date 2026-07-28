@@ -1,0 +1,260 @@
+# 一种并联SiC MOSFETs的静态均流方法
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/mmUMyi45DzKswwKv1Q1AMg](https://mp.weixin.qq.com/s/mmUMyi45DzKswwKv1Q1AMg)
+
+文章来源：太阳能学报
+
+作者：刘兴瑜1，杜明星1，尹金良1，欧阳紫威2（1. 天津市复杂系统控制理论及应用重点实验室（天津理工大学），天津 300384；2. 丹麦技术大学电气工程系，灵比 2800 Kgs）
+
+摘 要：在光伏发电或风力发电等大电流应用场合，由于并联SiC MOSFETs功率源极寄生电感和漏极寄生电感的不匹配会导致静态电流的不平衡，该文提出一种用于并联SiC MOSFETs静态均流的方法。该文首先分析并解决因阈值电压不匹配造成的动态不平衡电流问题，然后在其基础上解决源极寄生电感不匹配造成的动态不平衡电流问题，最后在无阈值电压不匹配和源极寄生电感不匹配造成的动态不平衡电流的基础上解决漏极寄生电感不匹配造成的静态不平衡电流问题。最终，通过实验验证了该文所提出的静态均流方法的有效性。
+
+关键词：碳化硅；静态分析；动态分析；寄生电感；均流
+
+0. 引 言
+
+碳化硅金属\-氧化物半导体场效应晶体管（silicon carbide metal\-oxide\-semiconductor field\-effect transistor，SiC MOSFET）由于其开关损耗低、开关频率高的优点，已成为航天、电动汽车等领域不可缺少的组成部分。通常，在光伏发电或风力发电等大电流应用场合，需将多个SiC MOSFET并联以满足应用要求。然而，很多因素都会导致并联 SiC MOSFET 中存在不平衡电流，而且不平衡电流会进一步产生不相等的开关损耗，这对并联器件的稳定性和安全性都是一个挑战。
+
+并联SiC MOSFETs的电流不平衡问题一直是科研人员关注的热点。文献［7］研究结果表明不匹配的漏极电感会导致不平衡的静态电流，且源极电感的不匹配会导致动态与静态电流不平衡，因此在抑制静态不平衡电流的同时还要考虑到对动态电流的影响；文献［8\-9］利用带有差分电流传感器和模拟延时控制器的有源栅极驱动处理不平衡电流。然而，差动电流传感器难以制作且模拟反馈控制的设计比较复杂。因此，为了抑制不平衡电流，需进一步研究基于无源元件的简单方法。基于电感的无源平衡可重塑环路阻抗，限制不平衡电流。
+
+综上，本文提出一种用于并联SiC MOSFETs静态均流（即对静态不平衡电流进行均衡）的方法。此方法首先解决动态电流不平衡问题以实现源极寄生电感的平衡，在此基础上解决漏极寄生电感不匹配造成的静态不平衡电流问题，最后通过实验验证了该方法的有效性。
+
+1. 不平衡电流原理分析
+
+1.1 静态电路模型
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdculMYk4ppaDmvccEbRfp3HYaib6BesbZaW25ibh3Ij9CjZNibmGk782TXGw/640?wx_fmt=png&from=appmsg)
+
+并联SiC MOSFETs的静态电路模型如图1a所示，基于△ \- Y 变换可进一步简化为图1b。图1中：Vdc 为电源电压；RLoad 为负载电阻；Ld1为支路1漏极寄生电感；Ld2为支路2漏极寄生电感；Ids1为支路1静态漏源电流；Ids2 为支路2静态漏源电流；Rds1为支路1通态电阻；Rds2为支路2通态电阻；Lk1为支路1开尔文源极寄生电感；Lk2为支路2开尔文源极寄生电感；Ls1 为支路1源极寄生电感；Ls2为支路2源极寄生电感；LYS1、LYS2、LYS3 为Δ \- Y变换后的等效源极寄生电感。
+
+静态电路经△ \- Y 变换后的计算公式为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuc7Ric7DXxCOPzweocgSqicyqsqniaBaM9icNKM96vKxufBKhfiam2ZkoNOA/640?wx_fmt=png&from=appmsg)
+
+1.2 不平衡静态电流的数学分析
+
+图1b中 的 分 支1和2满 足 基 尔 霍 夫 电 压 定 律（Kirchhoff voltage laws，KVL），可表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuTdVq7lHG65U54zDHF0Oia0BTmCfVIqJXPOaSQrgoN3GEqicWsHliaLLfg/640?wx_fmt=png&from=appmsg)
+
+基于式（2），不平衡静态电流可表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuhBexBibnsicCOc2C063qqYTRx11btTiaBjV1RPo0UWN6GhoX4FXicZaP8Q/640?wx_fmt=png&from=appmsg)
+
+其中，
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuyEeBUxV2SuicqxLnRianbCia7wNK7GxLWjue2Ky9DzIccASqDRwsxVkmw/640?wx_fmt=png&from=appmsg)
+
+式中：s ——拉普拉斯算子。
+
+将式（3）简写为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcu8kicXJ9GiabbFqbzvPRKS4HK1DRgrztMxsU6AZmmOqLZBy4mCX42PZVw/640?wx_fmt=png&from=appmsg)
+
+式中：ΔIds ——两支路漏源电流差值；ΔLs ——两支路源极电感差值；ΔLd ——两支路漏极电感差值；ΔRds ——两支路通态电阻差值；G1 ——（Ls1 \- Ls2）前式子；G2 ——（Ld1 \- Ld2）前式子；G3 ——（Rds1 \- Rds2）前式子。
+
+从式（5）可看出，不平衡静态电流只与并联器件的源极、漏极寄生电感差值和通态电阻差值有关。但通态电阻值处于毫欧水平，受温度影响较小。
+
+因此，式（5）可简化为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuc4iaxpuq9ypIkxJpqiaE0R1W1Zibhxn4UibFrABJY8uSmdkfhd3FBXCgwg/640?wx_fmt=png&from=appmsg)
+
+表明 ΔLd 造成的静态不平衡电流比 ΔLs 造成的更大。
+
+综上，功率源极和漏极寄生电感的不匹配会导致静态电流不平衡。为解决静态电流不平衡问题需同时对不同支路的功率源极寄生电感和漏极寄生电感进行平衡。
+
+1.3 动态电路模型
+
+动态电流不平衡现象主要发生在SiC MOSFET工作时的饱和区域，此时并联的SiC MOSFETs可等效为受栅源电压控制的电流源。在此阶段，SiC MOSFET的漏源寄生电容Cds可忽略且栅源寄生电容Cgs和栅漏寄生电容Cgd处于并联状态。因此建立动态电路模型，简化后电路如图 2所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuQ0PC0UwwUx6ibLZA81R96s7GIIx3ns6ZvVbItzjqepPSqZRquNlpibew/640?wx_fmt=png&from=appmsg)
+
+图2中：ids1为支路1动态漏源电流；ids2为支路2动态漏源电流；Ciss 为输入电容；Rg 为驱动回路电阻；Lg1为支路1栅极寄生电感；Lg2为支路2栅极寄生电感；ig1为支路 1 驱动回路电流；ig2为支路2驱动回路电流；Vdrv为驱动电压；Vgs1、Vgs2为输入电容电压。
+
+其中输入电容 Ciss 可表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcu1gHlpt3UkQkvnmhIFLsCqunichT7rtuKGxyTAibRyOryRVfWCOV1tUUg/640?wx_fmt=png&from=appmsg)
+
+由此可见，漏极寄生电感（Ld1 和 Ld2）与电流源串联。因此，由于电流源的阻抗无穷大，Ld1和Ld2可忽略。图2中的电路可进一步简化，如图3a所示。根据SiC MOSFET的电路饱和模型，流过两个电流源的电流可表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuzz1WVyoseQEXVAEmOjuAoQW3YRZGTF9yiaLLMaLm9PgU5KcrLJZicN9Q/640?wx_fmt=png&from=appmsg)
+
+通过戴维宁定理，图3a中电路变换后如图3b所示，电压源的值为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuykL5OfhJUqz4tVPUJagECd64BxaNGXaXNtYxlZ5mBPFl4bZuZ1ympw/640?wx_fmt=png&from=appmsg)
+
+另外，基于诺顿定理，图3b中的动态电路模型等效为如图3c所示，其中流过电流源的电流可写为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuMpr9QBvHroJZ27WvlrIYXPSqbwrVClb1yibDg06czk8SuRTQtshKicHA/640?wx_fmt=png&from=appmsg)
+
+对图3c中网络进行Δ \- Y 变换，变换后的电路如图3d 所示。
+
+图3中：V 为戴维宁变换后的等效电压；i 为诺顿变换后的等效电流；L1、L2、L3 为△ \- Y 变换后的等效电感。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuqE7zAt2tAWuhr6CzWBJYRIJ7g2mRpnV6SmEQOkvzypJClctd8bFicHQ/640?wx_fmt=png&from=appmsg)
+
+1.4 不平衡动态电流的数学分析
+
+图 3d 中的电路模型满足 KVL，可表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuu35PNGESY2hjdIBOdn0RQPZ5iasDCTC8dqLicKwKkib6CLOibwDMzXosyQ/640?wx_fmt=png&from=appmsg)
+
+式（13）减去式（12）得到：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuWfznfKfJmn9u3mkHhpaYmCBkoq1LO7vYM8xYkCaSSm3wfCQXobUibIg/640?wx_fmt=png&from=appmsg)
+
+由式（9），不平衡漏源极电流可表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuVd9Ye6iaepiadicKkWSeSia6cMAoC8iccPY6s9iaiad0KMzCbo6bDd8oJE7dQ/640?wx_fmt=png&from=appmsg)
+
+根据式（15），不平衡栅源电压可写为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcugDHNQDHnwqQ0MUee7LwGVDHBNOvOicDhCBEGlrynwicqCBsc8sJxynhA/640?wx_fmt=png&from=appmsg)
+
+基于电容特性，不平衡栅极电流为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuybGeZJ3f7SRiay5ZceelBS4FyZF4q8Sxmibj5s3yh999GXW8BUxOPQuw/640?wx_fmt=png&from=appmsg)
+
+将式（18）代入式（20），不平衡栅极电流重新写为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcu5tPIndNTz2mBcsibQq47MPRLWJM4DrSJhcWnGeDEFbYpYAT6Tk9V6gQ/640?wx_fmt=png&from=appmsg)
+
+将式（11）、式（16）和式（18）代入式（14），推导出不平衡漏源极电流为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuRFT7EZBXvnIuW8QrTSgUw7ibyF4ichQd2uOHJMKYzFPI1rkPyXC8g8Sw/640?wx_fmt=png&from=appmsg)
+
+其中，
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuEnYucg6cXsfGIE2Ul6uo1No6OpzeNHeZ6rsJLOticQjoygbNHiaDtYgQ/640?wx_fmt=png&from=appmsg)
+
+将式（19）简写为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcu9CDFZlYwB1sgWSXdykW3CCZ5QECy6mXDL53jicXvBW9MYhebKsIlbKw/640?wx_fmt=png&from=appmsg)
+
+通过式（21）可看出 ΔLg 、ΔLk 和 ΔLs 可导致动态电流不平衡。
+
+基于式（21）有：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuCNcFRwIib2KLWvOUYtmpHvML4hwNrHf3d0cLMkzrCHhtdqXYjMrePzg/640?wx_fmt=png&from=appmsg)
+
+式（22）表明与 ΔLs 相比，ΔLg 和 ΔLk 对动态电流的影响可忽略。式（21）可简化为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuOl1mgTWtNCibEuqdbj8tKTpwYDe2ILdohYibq4rOEdRsicaeMBI3iaetKQ/640?wx_fmt=png&from=appmsg)
+
+由式（23）可看出动态不平衡电流只受不匹配的源极寄生电感和阈值电压影响。由式（5）和式（21）可知，ΔLs 同时影响静态和动态电流不平衡，故为实现源极寄生电感的平衡，在解决动态电流不平衡问题时，首先要解决因阈值电压不匹配造成的不平衡电流。
+
+由式（9）可知，Δids 可写为另一种形式：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuiaiaagMZcDENF5yE4B49ibR4m2X5tYlKDtswAcT5U22JBrphDictibic8cFA/640?wx_fmt=png&from=appmsg)
+
+式 中 ：Vth1(T) 、Vth2(T) ——M1、M2 阈 值 电 压 ，V；μ1(T) 、μ2(T) ——M1、M2的载流子迁移率，cm2（/ V·s）；Cox ——单位面积的栅氧电容，C；Z ——沟道的宽度，μm；L ——沟道的长度。
+
+其中，Vth 和 μ 均与结温（Tj）呈负相关，ΔVth 会导致动态电流不平衡，而 ΔVth 与 ΔTj 呈正相关。如图4所示，当M1温度升高时，Vth1(T) 和 μ1(T) 均减小，二者对电流差值分别起到增加和减小的作用，然而阈值电压较低的 MOSFET 在开关过程中承载更多的电流，说明阈值电压不同造成的不平衡电流比载流子迁移率不同造成的更加明显，故可定性分析为在无不匹配的源极寄生电感前提下不平衡动态电流只与 ΔVth有关且呈正相关，即与 ΔTj 呈正相关。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuydsRqq6nKBf23Z2XhFbzd0icH4bZwjexmPUaanc3mdGT0icbtnzGD6PQ/640?wx_fmt=png&from=appmsg)
+
+根据上述分析，式（24）可简化为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuic3AFr6RI6yAPQ00BNacdeaKNqvwKF1f1TmYqf9wdDe5ibCAhlM7c4rA/640?wx_fmt=png&from=appmsg)
+
+文献［10］研究了功率源极电感 Ls 对动态均流（即对动态不平衡电流进行均衡）的影响。假设不存在不匹配的源极电感，从图 4 中得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuG20EABj1jMRQRmQf2fLw1MicPSHxbhbVyicGSVrRtoRde1WdBTbYOxXA/640?wx_fmt=png&from=appmsg)
+
+为简化分析，当 ids 上升时，流过 Cgs 和 Cds 的电流近似为零，因此有：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcu72rWXtBgEqMkjIxcKTJNOGypEdpvVEzSwI0O0jww7Jia58J7ElSPG2w/640?wx_fmt=png&from=appmsg)
+
+把式（27）代入式（28）可推导出如式（29）所示结果：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuDBXPibMvUM25cObxyn7LvTohorff9H5t7j3SlL6jUg1SnrHFDFSI1Ag/640?wx_fmt=png&from=appmsg)
+
+当 dΔvgs(t)/dt 为零时，Δvgs(t) 达到最大值，此时：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuWagJbT6ev7NRo4XfYkRPYbNYfjvribEgh6ZmEb6sRKAoyDEwgbRgnvg/640?wx_fmt=png&from=appmsg)
+
+式中：m \= dvgs(t)/dt 。
+
+由式（30）可看出Ls越大，则 (2βmLs)-1 越接近零，即 Δvgs越接近 ΔVth ，故由式（30）知不平衡电流越接近零。图5给出了并联 SiC MOSFET 未外串电感时不同工作条件下（只改变DUT（device under test）M1的温度）的动态漏源极电流波形，从图5中曲线可看出器件本身的源极寄生电感不足以起到均流的作用。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuBdkuQ2ZiczfvSC40bhT22T4kuaASX62ia3KPNp7tJTnBV6jNPD0TnMPA/640?wx_fmt=png&from=appmsg)
+
+由于 ΔTj 增加使得 ΔVth 明显增加时，如果要达到与 ΔVth增加前相同的电流平衡效果，就需串接更大的Ls，但是盲目串接大电感无疑影响经济性和增加设备体积，更会影响电路正常工作，因此为避免上述问题，有必要准确地计算出均流电感用以解决阈值电压不匹配造成的动态电流不平衡问题。
+
+根据电路理论，不平衡电流与 IL 呈正相关，这会间接影响均流电感的计算精度。另外，动态电流差同时也会受到负载电流的影响。开关频率只改变电流波形的周期而不改变电流的幅值。 ΔTj、IL、ΔVth 和 Ls 的关系如图6所示。由于单独考虑结温差 ΔTj 或漏源极电流差 Δids 会存在准确度不足的问题，因此将 ΔTj 和 IL 综合考虑，最终得到 ΔTj、IL 和 Ls 的关系，在考虑温度影响下准确计算均流电感。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuMic1SP7K7g0gGwic40H8VSeCEeFWxB3XxvsPZNaAktMDBsQOwKuGSLVg/640?wx_fmt=png&from=appmsg)
+
+综上，为解决静态电流不平衡问题，需要同时解决不平衡源极和漏极寄生电感问题。而解决动态电流不平衡问题是前提。在平衡动态电流时，由于不确定是否存在 ΔLs ，所以要先解决不匹配的阈值电压造成的不平衡电流，之后若仍存在动态不平衡电流，再实现源极寄生电感的平衡，最后对漏极寄生电感实现平衡达到静态均流的目的。流程图如图 7 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuryibOgEjicb0wLeLia9OPG4fx949ak2GPBibY0iaicgANvYphGwTticw9VBwQ/640?wx_fmt=png&from=appmsg)
+
+2. 实验验证
+
+本次实验分为 3 部分：首先，研究 Ls 与 IL 和 ΔTj 的关系以解决阈值电压不匹配导致的动态不平衡电流问题；其次，在确保并联 SiC MOSFETs 温度相等且阈值电压匹配的前提下研究 ΔLs 与 Δi′dsmax 的关系以解决不匹配的源极寄生电感导致的动态不平衡电流问题；最后，在上述基础上研究 ΔLd 与静态电流均值差 ΔIds 的关系以解决漏极寄生电感不匹配导致的静态不平衡电流问题。
+
+2.1 实验平台
+
+为 了 验 证 Ls 与 IL 和 ΔTj 的 关 系 并 在 确 保 并 联 SiC MOSFETs 温度相等且阈值电压匹配的前提下研究 ΔLs 与Δi′dsmax 的关系，构建一个双脉冲测试平台，实验电路如图 8 所示。一个高功率直流电源用于提供直流电压。1200 V/30A SiC MOSFET 芯片来自 ROHM 半导体。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuCibymRvqN6wSHPvJOvOVzRdTrrtvMmua2Ce58TZbNW5EZLlXgmzIcsQ/640?wx_fmt=png&from=appmsg)
+
+在研究 Ls 与 IL 和 ΔTj 的关系时，经过测试选择两个完全相同的待测器件并使用相同类型且长度相等的导线以避免设备参数的不匹配和不对称布局设计影响实验结果，如图 9所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuakkpUFsBvA7ic8iaZv0ulHDibhiccjA3ibBicnKXNRan9Q6f9ItlXeJVGzzw/640?wx_fmt=png&from=appmsg)
+
+一个 SEMIKRON SKKD 100/16 二极管被用做续流二极管。在直流电源两端并联一个Cp \= 490 μF 的电容器以提高直流电源的供电质量。RIGOL DS6062 数字示波器用来显示电流波形。用电热板加热 M1来模拟 M1工作温度的变化。在研究 ΔLs 与 Δi′dsmax 的关系时，确保并联 SiC MOSFETs 温度相等且阈值电压匹配以避免对电流产生影响进而确保实验准确性。两个 Agilent N2781B 电流探头分别用来捕获两个器件的 i′ds 。GWINSTEK 直流电压源用来向 SiC MOSFET 驱动板供电。Aglient 33500B 信号发生器给驱动板提供 PWM 信号。利用精密阻抗分析仪测量相应的器件参数（如源极电感、漏极电感等）。
+
+在前两部分实验基础上可研究 ΔLd 与 ΔIds 的关系，为了更方便的观察静态电流波形，搭建另一试验平台，实验电路如图 10 所示。其中 RL 为 IT8812C 可编程电子负载，其余的器件和设备与上述实验相同。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuuBrAzMVZ6HcIU7xZMT351OBQC4hshRiazwQZAeeK7CichTYvzPpDSJFg/640?wx_fmt=png&from=appmsg)
+
+2.2 实验结果
+
+在验证 Ls 与 IL 和 ΔTj 的关系时，设定 M1 的工作温度为40、50、60 和 70 ℃，当温度稳定在设定温度6min 后，采集不同负载电流下的Ls ，该负载电流以4A 的增量从4A 变化到20A。温度维持 6min，以确保热量完全传导至整个芯片。当芯片温度保持设定温度6min 后，用示波器观察波形，并记录数据。通过功率源极串接电感，电流不平衡现象得到了明显的改善。图 11 为 40 ℃，IL \= 4A下串接电感前后的电流波形。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuGhcF7L1t6k01zcO8Vojl8st6NyNLnWk8iaLGDTSWeUeUCnHcBajmnDw/640?wx_fmt=png&from=appmsg)
+
+图12展示了 Ls 、IL 和 ΔTj 的关系，可看出当负载电流恒定时，结温差越大，所需的均流电感越大。将3个变量关系进行拟合，拟合精度为 99.14%。最后的拟合结果如式（31）所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcuGDhvnQRJZlNPyy01ZR7EVgqBUvNGYl62ruu5LE1TxZQm4Rpu31PQdQ/640?wx_fmt=png&from=appmsg)
+
+式（31）考虑了温度对阈值电压的影响，避免了因 Δids 直接计算出的 Ls 准确度不足导致的计算误差，使得计算得到的均流电感更加准确且具有实际意义。
+
+应该强调的是此处并未给出提取结温的方法。许多文章给出了精确提取结温的方法。可通过实时测量 IL 和ΔTj 得到并联均流所需的 Ls 。
+
+在确保并联SiC MOSFETs温度相等且阈值电压匹配的前提下研究 ΔLs 与 Δi′dsmax 的关系时，选择上述实验的两个完全相同的待测器件并使用相同类型且长度相等的导线以避免设备参数的不匹配和不对称布局设计影响实验结果。改变 M1所在支路的源极电感，采集 M1和 M2在不同负载电流下的i′dsmax ，用示波器观察波形，并记录数据。图 13 展示了ΔLs与 Δi′dsmax 和 IL 的关系。将3个变量进行拟合，拟合精度为98.6%。最终拟合结果如式（32）所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcul1VEOlDfuX9pkmych8DSZkRGN27iaPHk8zDTsA5CpmJGSJOz5IUNCpQ/640?wx_fmt=png&from=appmsg)
+
+通过式（32）计算得到的 ΔLs 为两支路源极电感的差值，故需将与计算值相等的电感接入电流较大支路的源极以解决不匹配的源极寄生电感造成的不平衡电流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcutsynYDrYDxrVGDjmiaA1pEicad3uXAG2dyXn7dLl6uC3llcu5cI75X0g/640?wx_fmt=png&from=appmsg)
+
+在上述实验基础上研究 ΔLd 与 ΔIds 的关系时，选择上述实验的两个完全相同的待测器件并使用相同类型且长度相等的导线以避免设备参数的不匹配和不对称布局设计影响实验。通过上述实验结果，消除了 ΔLs 对静态电流的影响，改变 M1所在支路的漏极电感，采集 M1和 M2在不同负载电流下的 Ids ，用示波器观察波形，并记录数据。图 14 展示了 ΔLd 与ΔIds 和 IL 的关系。3 个变量进行拟合，拟合精度为 98.37%。最终拟合结果如式（33）。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcurduYZNzco6eT0Vn9ZyGVxMzBQTQKh6Sl3iaU57LekboqbDP7I5qFrjw/640?wx_fmt=png&from=appmsg)
+
+通过式（33）计算得到的 ΔLd 为两支路漏极电感的差值，故需将与计算值相等的电感接入电流较大支路的漏极解决不匹配的漏极寄生电感造成的不平衡电流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcursWLiciaElFSR69eWyhgImVcwjemIk1C9Q8WufiaobNMjhqe0QvJsZpibw/640?wx_fmt=png&from=appmsg)
+
+因此，由式（31）~式（33）联立可得等式组如式（34）所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskuqQdsSLOFWKFBe6uhwdcumD2S6tOoIQHbyJazyjeenfGUjEzFuRp13ftiaqSa41QL3gNtXqwq1Uw/640?wx_fmt=png&from=appmsg)
+
+式（34）可用作一个进行静态均流的模型，该模型通过实时测量 Δi′dsmax 、ΔTj 、IL 和 ΔIds ，进而计算出用于平衡动态电流的 Ls以及平衡静态电流的 ΔLs 和 ΔLd ，并将其接入电感值较小的支路，最终实现静态均流。
+
+3. 结 论
+
+本文提出一种用于并联 SiC MOSFETs 静态均流的方法。源极和漏极寄生电感的不匹配会导致静态电流不平衡，而不匹配的源极寄生电感会同时还会影响动态电流的平衡。所以本文首先解决动态不平衡电流问题，为解决静态电流不平衡问题奠定计算基础从而实现静态均流。本文通过实验得到了均流电感与结温差和负载电流的关系、源极电感的差异与负载电流和导通过程漏源极电流峰值差的关系以及漏极寄生电感的差异与负载电流和静态电流均值差的关系，将其综合考虑实现静态均流的目的。最终通过实验验证了静态均流方法的有效性。
+
+**说明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)

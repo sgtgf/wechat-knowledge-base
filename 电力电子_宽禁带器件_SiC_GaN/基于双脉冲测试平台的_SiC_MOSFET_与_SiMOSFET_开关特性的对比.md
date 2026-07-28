@@ -1,0 +1,108 @@
+# 基于双脉冲测试平台的 SiC MOSFET 与 SiMOSFET 开关特性的对比
+
+原创 李新秀 郝瑞祥 SiC碳化硅MOS管及功率模块的应用 2025-05-26 18:45 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/KiO-vz7GU1Yusbtsbd7upw](https://mp.weixin.qq.com/s/KiO-vz7GU1Yusbtsbd7upw)
+
+文章来源：万方数据
+
+作者：李新秀 郝瑞祥 郭希铮（北京交通大学 电气工程学院 北京  100044）
+
+摘要： SiC 器件与传统的 Si 器件相比，具有更宽的禁带宽度、更高的击穿电场、更大的介电常数以及更高的热导率。因此，SiC 器件也越来越受到人们的重视。本文简要分析了 SiC MOSFET 与 Si MOSFET的物理特性及静态特性，从而得到了 SiC MOSFET 具有更小的功率损耗和更适合应用在高压高频场合等优点。并针对其动态特性如开关速度、损耗等，通过双脉冲测试平台进行对比试验，试验结果表明：SiC MOSFET 与 Si MOSFET 相比，具有开关延迟时间短，开关速度快，开关损耗小等优点。
+
+关键词： SiC MOSFET 双脉冲测试平台 开关特性 开关损耗
+
+1\. 引言
+
+随着科技的发展，航天、通讯、核能等各个领域，迫切的需要一种在高温、高频等环境下仍然能够正常工作的功率电子器件。在过去的 50 年里，基于硅材料的功率电子器件已经在电子工业领域得到了广泛的应用 ， 但是在高温大功率 电子领域，硅功率器件已经接近其理论物理极限。所以必须寻找一种更具优势的材料来研制满足高温、高频等极端应用环境的高功率电子器件。在众多的半导体材料之中，SiC 以其优良的物理和电学性能引起了人们的重视，已经成为继第一代元素半导体Si和第二代化合物半导体 GaAs、GaP等之后发展起来的第三代半导体材料，在高温、高频、抗辐照、短波长发光以及光电器件制造方面具有独特的优势。在目前的市场中，碳化硅的主要器件包括 MOSFET和 JFET。
+
+本文选择 MOSFET 进行研究，主要从物理特性， 静态特性以及开通关断特性 等方面 ， 将 SiC MOSFET 与 Si MOSFET 进行对比。通过对两种器件物理特性的对比，以及在双脉冲测试平台中测得的数据，可以得到 SiC MOSFET 比 Si MOSFET 具有更短的开关延迟时间，更快的开关速度，因此 SiC MOSFET 比 Si MOSFET 的开关损耗更小，更适合应用在高温，高频等场合。
+
+2\.  SiC MOSFET 与 Si MOSFET 物理特性对比
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnicLjxmfBowWibs3Yic4iacKcAgXfG2gC5t2dQtrdTqibabepcf1MePviafeiaaqRS07aCZs7u8GUF7y0Q/640?wx_fmt=png&from=appmsg)
+
+表 1 给出了 SiC 材料与 Si 材料的物理参数，并分别从禁带宽度、临界击穿电场强度、介电常数以及热导率等方面对其进行对比。可以看到与 Si 相比，SiC 在制造高功率电子器件方面具有以下优势：
+
+（1）三倍于 Si 的禁带宽度，泄漏电流比硅器件减少了几个数量级，从而可以减少高功率器件的功率损耗；
+
+（2）三倍于 Si 的热导率，有助于器件的散热，从而减少了电路系统对散热设备的依赖，可以提高 SiC 集成电路的集成度；
+
+（3）两倍于 Si 的电子饱和速度，使得 SiC 高功率器件具有较低的导通电阻，从而降低了功率器件的导通损耗，并且具有良好的高频特性；
+
+（4）十倍于 Si 的临界击穿电场，使 SiC 器件具有更高的耐压能力和更大的电流密度，可以很好的应用在高功率器件制造领域。
+
+由于 SiC 材料的这些优良的特性，在同等的耐压条件下，SiC 功率 MOSFET 相比于 Si功率 MOSFET 具有更高的开关速度，更小的导通电阻以及更小的开关损耗和传导损耗。因此，SiC 材料在物理特性上的优势，使其更适合应用在高温、高频以及大功率器件等场合。
+
+3\.  SiC MOSFET 与 Si MOSFET 静态参数的对比
+
+MOSFET的静态特性主要包括通态电阻，寄生电容和门极阈值电压。为了更好地研究Si MOSFET与SiC MOSFET的特性，本文选用 IXTH52N65的Si MOSFET和型号为 C2M0080120D的SiC MOSFET来进行实验，分别对两种型号 MOSFET 的静态参数和动态特性对比。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnicLjxmfBowWibs3Yic4iacKchNXe0fTpect8gTs9mLcLr09xia3gZstpN8KmAAHMJN3dAyHN6iaxibCXg/640?wx_fmt=png&from=appmsg)
+
+如图 1，为 SiC MOSFET 的开通波形，图 2，为 Si MOSFET 的开通波形。图中蓝色的波形为栅源极电压，绿色的波形为漏极电流。我们根据门极阈值电压的定义，可以分别估算出 SiC MOSFET 的门极阈值电压约为 4V，Si MOSFET 的门极阈值电压约为 7V。因此 SiC MOSFET 的门极阈值电压要更小一些，故其比 Si MOSFET 更容易开通。因此在驱动 SiC MOSFET 关断时，要采用负压关断，以便使其可靠关断，防止误导通。
+
+功率 MOSFET 器件的寄生电容主要有：栅源极电容 Cgs、栅漏极电容 Cgd 和漏源极电容 Cds。Cgs是栅端与源端重合处的 MOS 电容，其主要由重合面积和栅极氧化层的厚度来决定，比较稳定，而且不会随电压和温度的变化而变化；Cgd 是漏极和栅极重合处的电容，与 Cgs 一样，其大小主要由重合面积大小和氧化层的厚度来决定，比较稳定。Cgs 和Cgd 一起决定了功率 MOSFET 器件的输入电容。Cds是 P-base 区与 N-外延漂移层重合处的 PN 结电容，其大小取决于重合面积的大小和反偏 PN 结耗尽区的宽度，因此与偏压有关。Cds 和 Cgd 一起组成了功率 MOSFET 器件的输出电容。功率 MOSFET 的这些电 容 限 制 了 器 件 的 开 关 速 度 和 器 件 所 能 工 作 的最高频率，并决定了器件的开关损耗。由两种器件的 datasheet 中寄生电容的波形，我们可以得到在同等漏源电压和栅源电压条件下其寄生电容如表 2 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnicLjxmfBowWibs3Yic4iacKceGhH10iaykNjbxGpw9M6tuXLAB35hvFicsf5c2MY30osqhGSMJ6wH4MQ/640?wx_fmt=png&from=appmsg)
+
+通过表 2 我们可以看到，SiC MOSFET 的各项寄生电容参数均小于 Si MOSFET，Cgs，Cgd 和 Cds一起决定了功率 MOSFET 器件的开关特性 。MOSFET 输入电容越小，其开通时间越短。因此由其寄生电容参数 ， 我们可以初步推断出SiC MOSFET 的开关速度要更快一些。
+
+4\.  SiC MOSFET 与 Si MOSFET 动态参数的对比
+
+4.1 双脉冲测试电路
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnicLjxmfBowWibs3Yic4iacKcOyUOpfDIEleULoibZiaic3HwS1a9N5ib1NHVVDdibvibgR8b2LS8Agpibue2w/640?wx_fmt=png&from=appmsg)
+
+双脉冲测试电路是目前常用的测试功率器件 动态特性的电路，电路拓扑如图 3 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnicLjxmfBowWibs3Yic4iacKcchZ6VwUUWNPQcE253RfUpwkeI9a8fBz0Jqk6Ptm3icOTMgic2yMqibHNQ/640?wx_fmt=png&from=appmsg)
+
+双脉冲测试电路是指采用一宽一窄两个脉冲对器件的动态特性进行测试 ， 并可以通过双脉冲测试平台来得到器件的最佳门极电阻以及测试器件的驱动电路。图3中可以得出双脉冲测试电路主要由直流电源 ， 支撑电容， MOS 管，二极管和电感组成。电感 L 的主要作用为储存能量 ， 平衡二极管的反向恢复电流。其实物图如图 5 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnicLjxmfBowWibs3Yic4iacKcfPpgSeibzh1RQ8qRXRaGfA4x4hXzkBtIJ0mPxJue9EzPvkAQBW8cA5w/640?wx_fmt=png&from=appmsg)
+
+驱动脉冲如图 4 所示。在第一个驱动信号高电平期间，MOS 开通，直流电压给电感充磁，在两个脉冲的间隙，电感通过二极管 D1 续流。在第二个驱动信号高电平期间，再次给电感充磁，MOS 再次开通，高电平结束，MOS 关断。在 MOS 开通的时候，二极管 D1 关断，此时二极管经历反向恢复过程，为了减小对 MOS 性能测试的影响，D1 采用 SiC二极管。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnicLjxmfBowWibs3Yic4iacKcGRtd826W6eBIFiabicdIwwibTmLNtZjo3BSq3o1JfwLevu3OzZ5HDxIkw/640?wx_fmt=png&from=appmsg)
+
+在直流电压一定的情况下 ， 流过功率管的 电流与功率管的导通时间成正比例 。 根据 需要的电流值可以得到驱动高电平的时间 ， 并且第一个高电平的时间一般要大于第二个 高电平时间 。 在本次实验中本文所设计的 双脉冲测试平台的直流电压为400V，欲使其最终达到电流为 10A，因此将第一个高电平设为 9us，第二个高电平设为 1us，中间间隔为 2us。实验参数如表 3 所示。
+
+4.2 实验结果分析
+
+在实验中，为了防止 SiC MOSFET 的误导通，我们设定驱动波形的开通电压为 20V，关断采用负压关断，关断负压为-3V。分别对 Si MOSFET 和SiC MOSFET 进行双脉冲实验，实验用驱动波形如图 4 所示。图 6 为 SiC MOSFET 与 Si MOSFET 开通与关断波形的比较。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnicLjxmfBowWibs3Yic4iacKcYmvqSyx3378b5aJibD9fSlLrBPr0EdmA3Jv03ulYOr7dU1QxlB7zicgQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnicLjxmfBowWibs3Yic4iacKcBc3fQiaBwZXUMAG8u2UzuadbyNN5a6T1oQGo7SSNRYia0WMXr7BCewMg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnicLjxmfBowWibs3Yic4iacKcGdBPyhOaBoiaGO2YSIrqBnwrjwUxlZfUiaZzq9C5E11meCBHadGqUIjQ/640?wx_fmt=png&from=appmsg)
+
+由于在 MOSFET 中，开通时间由开通延迟时间及上升时间组成。开通延迟时间定义为电压下降到稳态电压 90％的时刻到电流上升到稳态电流 10％的时刻，上升时间定义为电压下降到稳态电压 10％的时刻到电流上升到稳态电流 90％的时刻。关断时间由关断延迟时间及下降时间组成。关断延迟时间定义为电压上升到稳态电压 10％的时刻到电流下降到稳态值 90％的时刻。下降时间定义为从电流下降到稳态值 10％的时刻到电压上升到稳态值 90％的时刻。根据图 6，可以分别估算出两种 MOSFET的开通和关断时间，如表 4 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnicLjxmfBowWibs3Yic4iacKcicb40R5Ceiaud6mj8fcsYsVmOnjywQrLEV4rriciaZibMD6b0EXYKc2DGoA/640?wx_fmt=png&from=appmsg)
+
+从表 4 中，可以很直观得看出，无论是开通时间还是关断时间，SiC MOSFET 均比 Si MOSFET要短一些。由于在关断过程中， SiC MOSFET 内寄生二极管的反向恢复时间较短，因此受其影响 SiC MOSFET 的反向恢复时间也很短，其关断时间也会缩短。正因为 SiC MOSFET 具有更快的开关速度，可以将其更加广泛地应用与高频场合。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnicLjxmfBowWibs3Yic4iacKcyJeToWRZr8fGNO9jyABd3OuibM0RwEgsqRibebibBIK9rXL5nS9M02iajg/640?wx_fmt=png&from=appmsg)
+
+由 SiC MOSFET 和 Si MOSFET 的开通和关断波形 ， 通过计算可以得到 SiC MOSFET 和 Si MOSFET 的开通损耗如图 7 所示 ， 以及 SiC MOSFET 和 Si MOSFET 的关断损耗图 8 所示。在图中我们可以很直观的看出 SiC MOSFET 的开关损耗要比 Si MOSFET 的更小。  
+
+对于开通动作来说，SiC MOSFET 和 Si MOSFET寄生二极管十分相似，并且开关损耗也十分相似。但是对于关断动作来说 ，  Si MOSFET 与 SiC MOSFET 相比具有更长的反向恢复时间，其反向恢复时间是 SiC MOSFET 的十倍之多。虽然 MOSFET的一次关断损耗较小，但是若将 MOSFET 应用于频繁的开通与关断条件下，其开通与关断损耗也是很大的，因此与 Si MOSFET 相比在能量损耗方面更能突显 出 SiC MOSFET 的优势 。 研究表明 ， SiC MOSFET 的导通电阻率 Ron 至少要比相应的 Si 器件小两个数量级，这说明，在降低功耗，提高最大允许导通电流密度和工作温度方面 ， 将会有 改善。在较高的击穿电压下，SiC MOSFET 在电流处理能力方面的改善很显著地超过 Si MOSFET。将具有高频开关能力的功率器件 使用于高频电力电子电路中 ， 高频工作能 够减小无源元件的尺寸 ，从而，实现更小型化和更有效的系统设计。
+
+5\. 结论
+
+本文简单分析了SiC MOSFET与 Si MOSFET的物理特性及静态特性，从而得到了SiC MOSFET具有更小的功率损耗和更适合应用 在高压高频场合等优点 ， 并在双脉冲测试 平台上分别测试Si MOSFET和 SiC MOSFET 的开关特性，通过对两种MOSFET 开关波形的分析，得出 SiC MOSFET 的开通与关断时间比 Si MOSFET 的开通关断时间更短，并且 SiC MOSFET 的开关损耗更小， 因此 ， SiC MOSFET 更适合应用于高频高压大功率等场合。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&tp=webp)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&tp=webp)

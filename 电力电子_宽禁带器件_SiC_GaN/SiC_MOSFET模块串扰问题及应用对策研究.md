@@ -1,0 +1,112 @@
+# SiC MOSFET模块串扰问题及应用对策研究
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/en3v8H1MokbUR8\_IoXXszw](https://mp.weixin.qq.com/s/en3v8H1MokbUR8_IoXXszw)
+
+**文章来源：**机车电传动
+
+**作者：**刘敏安1,2，罗海辉1,2，卢圣文1,2，王 旭1,2，李 诚1,2（1.株洲中车时代半导体有限公司；2.功率半导体与集成技术全国重点实验室）
+
+**摘 要：**针对SiC MOSFET模块应用过程中出现的串扰问题，文章首先对3种测量差分探头的参数和测量波形进行对比，有效减小测量误差；然后详细分析串扰引起模块栅源极出现电压正向抬升和负向峰值过大的原因，并提出3种有效应用对策：减小栅极阻抗、采用有源米勒箝位和三级关断串扰抑制电路。其中，减小栅极阻抗可减小感应压降，抑制栅源极过压；有源米勒箝位技术使栅源极电压串扰波形幅值限制在箝位电压范围；利用三级关断串扰抑制电路技术，显著抑制了栅源极电压的正向抬升和负向峰值，最后通过试验仿真验证了3种方法的有效性。
+
+**关键词：**串扰问题；栅源极电压；栅极阻抗；有源米勒箝位；三级关断电平驱动技术
+
+**0　引言**
+
+Si （Silicon） 基IGBT （Insulated Gate Bipolar Tran‐ sistor） 是由双极型三极管 （Bipolar Junction Transistor， BJT） 和绝缘栅型场效应管 （Metal Oxide Semiconduc‐ tor，MOS） 组成的复合全控型器件，综合了两种器件 的优点，并采用电压控制器件开关，驱动功率小且饱和压降低，适用于轨道交通、电网、汽车和新能源等变流领域。相比较于Si材料，SiC（Silicon Carbide）具 有更大的禁带宽度、更高的临界击穿场强和电子饱和漂移速度等诸多优点，应用在单极型模块SiC MOSFET （Metal-Oxide-Semiconductor Field-Effect Transistor） 中可使其开关损耗更低，在高温、大功率和高频率的严 苛条件下也能正常工作\[1\] 。
+
+SiC MOSFET模块目前广泛运用于新能源汽车逆变器、车载充电、光伏、风电、智能电网等领域\[2-9\] ，展示了新技术的优良特性。但 SiC MOSFET 模块的高频化和高开关速度，引发了新的应用问题，即串扰问题， 对SiC MOSFET模块应用造成影响，严重时会导致SiC MOSFET模块无法正常工作。
+
+串扰问题是指在半桥电路中，SiC MOSFET模块开 关动作引起另一个 SiC MOSFET 模块开关的栅源极电 压波动的问题，分为正向串扰和负向串扰。以1200 V/ 600A SiC MOSFET为例，栅极开通控制电压为+15 V， 栅极关断电压为-5 V。当半桥电路发生正向串扰时， 上桥臂SiC MOSFET（以下简称“上管”）的栅极电压 由-5 V升高至+15 V，上管开通过程会引起下桥臂SiC MOSFET （以下简称“下管”） 的栅极电压从-5 V向 0 V方向升高，即正向抬升，若正向抬升超过下管栅极 阈值将导致误开通，造成上下管短路。当发生负向串 扰时，上管栅极由+15 V降低为-5 V，上管关断过程则 引起下管栅极电压从-5 V向更低负压方向变化，即负 向增大，若负向增大超过下管栅极负压耐受极限将会 导致栅极击穿，从而造成器件失效。
+
+目前国内外学者对串扰问题的研究非常广泛且深 入。文献\[10\]分析了 SiC MOSFET在无线充电系统中的 串扰，发现在该系统中仅存在负向串扰，无正向串扰。文献\[11\]研究了SiC MOSFET栅源回路参数对串扰问题 的影响，发现串扰扰动随桥臂自身驱动电阻和杂散电 感的增大而增大，随着栅极电容的增大而减少，分析得出影响串扰的因素主要是栅源回路参数。文献\[12\]针 对抑制串扰策略，开展了基于驱动IC芯片的栅极有源 嵌位技术研究，取得较好效果。文献\[13\]提出在栅极谐 振辅助电路增加三级驱动技术，既能抑制正向串扰和负向串扰，又能降低开关损耗。
+
+综上所述，现有学者对 SiC MOSFET 模块的串扰 问题已做了大量研究。串扰的发生与应用电路、驱动 技术和 SiC MOSFET 型号等都有关联，对应不同的应 用场景和SiC MOSFET型号，会出现不同程度的串扰。本文选取 1200 V/600A SiC MOSFET 为研究对象，针对串扰问题提出3种应对策略：串扰影响程度较轻时， 通过减少栅极阻抗的方式抑制串扰，该方法简单且成本低；当串扰影响程度较严重时，如减少栅极阻抗未 能有效抑制串扰问题，可采用有源米勒箝位 （AMC） 技术，限制栅源极电压串扰波形幅值；在串扰特别严重工况下，上述两种方法有可能失效，则可增加栅源电压模拟检测电路，结合三级关断驱动技术应对串扰问题。
+
+**1　原理分析**
+
+**1.1　测量探头对比分析串扰**
+
+现象客观存在，而测量误差会对串扰问题研究造成严重的干扰影响。为保证测量电路参数波形的准确性，本文对测量使用的差分探头进行分析，通过对比实测数据，有效减小测量误差。
+
+半桥电路中SiC MOSFET模块的漏源极电压Vds和栅源极电压Vgs均采用高压差分探头\[14\]测量，被测信号经过差分信号端电感、衰减器、缓冲器、差分放大器和无损传输线等环节，连接到示波器，如图 1 所示。SiC MOSFET模块在高频高压下工作时，测试电压探头需考虑带宽、共模抑制比等参数。探头带宽是指探头测量输出波形幅值下降到被测波形正弦波幅值 70.7%（-3 dB=20 lg 0.707） 的频率，即当被测正弦波的频率等于示波器带宽时，幅值测量误差大约为 30%。对于漏源极电压Vds和栅源极电压Vgs，30%测量误差过大无法准确分析串扰问题。因此，探头带宽需远大于被测波形的频率，带宽越大，则能测到更宽的高频谐波，越接近真实波形。同时差分探头线选择较短的双绞线、使线路等效电感L1 +和L1 -尽量小。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAOqJibv6dPaas05EIDesQ8theKS3RKlTGYmXf9sLiccZ2BSuoanQCRxvYqUibMVMbR3R7V5OyPa7hQ/640?wx_fmt=png&from=appmsg)
+
+共模抑制比Kcmrr是指差分探头在测量中抑制两个测试点共模信号的能力。共模信号即对地干扰信号，因此探头的差分放大电路抑制共模信号的能力越强，测量波形越接近真实值，其公式为 Kcmrr = | Ad Ac |，其中Ad为差分信号的电压增益，Ac为共模信号的电压增益。Ad值越大说明差分信号增益越大，共模信号相对越小，测量值越接近真实波形。
+
+数字示波器组成如图 2 所示，进入示波器\[15\]的信号，经过信号调理电路、采集控制电路和信号处理等环节，最后显示为波形。测试高频高压下的信号，需考虑示波器的带宽、采样率、存储深度等参数影响。与差分探头一样，示波器带宽不够，也无法捕获准确的电压波形。示波器将采集到的波形存储到内存区进行计算和处理，内存区容量即存储深度为固定值。示波器每帧波形的时间长度是人为调节设定的，当时间长度设定后，采样率为存储深度与时间长度的比值。测量 SiC MOSFET 模块瞬态高频高压信号时，采样率尽可能高才能确保测试准确，因此，每帧波形的时间长度不能设定太大，存储深度过小都会导致采样率降低，引起较大测量误差。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAOqJibv6dPaas05EIDesQ89042PtDTFibeEQn8oK9zKibs4Dq2qn2STqXnmlR2U2gKRTkpJquPBHHw/640?wx_fmt=png&from=appmsg)
+
+常用的3种探头有：高压差分探头P5200A，高压差分探头BUMBLEBEE-PS02和光隔探头，对3种探头的参数进行对比分析，如表1所示。由表1可知，光隔探头 TIVP1 的带宽和共模抑制比参数性能远大于高压差分探头P5200A和BUMBLEBEE-PS02。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAOqJibv6dPaas05EIDesQ8HsC1BHqWtJt4fzSdVRvJOC1f25Bf6ued0brGaNxJNg2aG5oheBsiczQ/640?wx_fmt=png&from=appmsg)
+
+为了对比 3 种探头的测试效果，搭配 Tek MSO58示波器测试 SiC MOSFET 模块串扰波形。Tek MSO58示波器的带宽为2 GHz，存储深度为125 M，采样率为6.25 GS/s，每帧波形的时间长度为20 ms。3种探头测量 SiC MOSFET 模块的栅源极电压 Vgs波形对比如图3所示。图3(a)为串扰开通过程，模块内测试管的漏源极电压 Vds 从 800 V 下降至 0 V，测试管漏源极电流 Ids 从0 A逐渐上升到最大值；图3(b)为串扰关断过程。由图3可知，采用光隔探头TIVP1测量的栅源极电压Vgs波形抗干扰性强，采样精度高，远优于其他两种探头。因此精准测量 SiC MOSFET 模块串扰波形推荐光隔探头TIVP1。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAOqJibv6dPaas05EIDesQ866zf44ptKBic23tn8wXy9uqoG7WmXt9u62nNfbwJLQ99sJqmKYvNZTQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAOqJibv6dPaas05EIDesQ8VE6w0ic5GG1ibJM0ofqBy1Ns5hB9N8nx6oJCXXxx0FXaSVibibicr4V8g2w/640?wx_fmt=png&from=appmsg)
+
+**1.2　串扰产生机制**
+
+典型逆变电路如图4所示，它有3组半桥电路，每个半桥电路由上桥臂和下桥臂组成。上、下桥臂的SiCMOSFET模块不能同时开通，必须为互补的高速开关切换状态，每秒钟将完成上万次或更高次开关动作，这会造成模块的漏极和源极之间产生较大 dVds dt，将导致模块栅极和源极间的电压具有较大的尖峰。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAOqJibv6dPaas05EIDesQ8NRgfic4HibPW0Bmqdxm3iafmGAao39zibux3IZ8acMALq66A3yvJ6yS9Og/640?wx_fmt=png&from=appmsg)
+
+SiC MOSFET模块的开通过程如图5所示，对其栅源极电压的正向抬升进行分析。当上桥臂模块开通时，推挽开关Q1L断开，推挽开关Q2L闭合，下桥臂模块的二极管进行反向恢复动作，漏源间电压Vds逐步开始增加，dVds dt大于0。反向传输电容 （也称米勒电容）Cgd上的位移电流Ig从漏极经栅极注入到门极电路。Lg为栅极引线杂感，位移电流Ig流过Lg后，由楞次定律可知，产生左负右正的感应电动势VLg，此时栅源间电压为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAOqJibv6dPaas05EIDesQ8tpbO2t1ZgQJ9zprb0AfNnXn7SRdOaXsEQdL2RHkHa3iax5icAXRlYD2w/640?wx_fmt=png&from=appmsg)
+
+SiC MOSFET模块的关断过程如图6所示，同样对其栅源极电压的负向增大现象进行分析。当上桥臂模块关断时，Q1L 断开，Q2L 闭合，下桥臂模块的二极管进行正向续流动作，漏源间电压 Vds 开始下降，dVds dt小于0。反向传输电容Cgd上的位移电流则从栅极到漏极。位移电流 Ig 流过 Lg后，由楞次定律可知，产生左正右负的感应电动势VLg，此时栅源间电压Vgs =-V2 -(VLg + VR2 )。因此，当上桥臂模块关断时，下桥臂模块的栅源极电压会在 -V2 的基础上负向叠加增大VLg + VR2。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAOqJibv6dPaas05EIDesQ8PKbKjD8j8rYAURjcJ4d68ia4VFaoibCUcFGU9dAoICOdVyxzCHoNafGg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAOqJibv6dPaas05EIDesQ8uKUicOKNNXeHiaDT1ANLIwJ8ReDyIyrhghFUkcicicMUBpWYoIE5ASnX2g/640?wx_fmt=png&from=appmsg)
+
+由于 SiC MOSFET 模块栅源极之间的正向阈值电压较低，正向电压抬升易造成功率模块误导通，从而使得上下桥臂直通，而直通电流将造成模块短路损坏。另外，过大的电压负向峰值使 SiC MOSFET 功率模块的门极栅氧层承受较大的电压应力，加速其退化，甚至损坏。
+
+**2　应对策略**
+
+**2.1　减小栅极阻抗**
+
+从串扰产生机制可知，栅极引线阻抗和位移电流是造成栅源极电压正向抬升和负向增大的直接因素，减小栅极引线阻抗和位移电流，则能抑制串扰引起的栅源极电压变化幅值。栅极引线阻抗包含驱动输出电路阻抗和 SiC MOSFET 模块内部栅极引线端子阻抗。由于减小 SiC MOSFET 模块内的栅极阻抗可能会引起模块开关速度变化，对模块器件的开关动态损耗和过电压值有一定影响，通过调整栅极电容，可有效折中电参数。因此重点在驱动电路的设计中考虑减小输出电路阻抗。本文对比分析了两种MOSFET内阻的驱动集成电路 （Integrated Circuit，IC ） 串扰测试数据，如图8所示。第一种MOSFET内阻为500 mΩ，对应的驱动集成电路型号是NXP GD3100，图中 Vgs3100表示其栅源极电压；第二种 MOSFET 内阻为 15 mΩ，对应的驱动集成电路型号是ROHM BM6104FV，图中Vgs6104表示其栅源极电压。由图 8 可知，驱动集成电路ROHM BM6104FV对应的内阻更小，相较于驱动电路NXP GD3100受到的串扰影响也降低。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAOqJibv6dPaas05EIDesQ8bLvFy2rZVRgJvKcxtI6f4wDyLP953TaZjgdVNYXpV0ibOYsjVeEDgqA/640?wx_fmt=png&from=appmsg)
+
+**2.2　采用有源米勒箝位AMC（active miller clamp）**
+
+在逆变半桥电路中，由于米勒电容 Cgd 的存在，串扰会引起栅源极电压 Vgs 波动，而有源米勒箝位AMC 技术\[16-17\]可抑制栅源极电压 Vgs 波动，有效防止SiC MOSFET模块桥臂直通。图9为BM6104FV-C米勒箝位功能示意图，引脚VCC2为正电源，引脚OUT1H为 驱 动 电 源 ， 引 脚 PROOUT 为 Vgs 检 测 脚 ， 引 脚VREG 为米勒箝位电源，引脚 VEE2 为负电源，引脚OUT2 控制外部 MOS 开关。在 SiC MOSFET 模块关断期间，此时驱动电源 OUT1H 为低电平，通过 PRO‐OUT 端实时监测栅源极电压 Vgs，如 Vgs 小于保护阈值2 V，则OUT2端输出高电平，外部MOS开关将导通，栅极电位箝位至 VEE2，栅源极形成低阻抗回路，米勒电流通过 VEE2 被完全吸收，不会流经栅极电阻形成米勒电流泄放回路。在SiC MOSFET模块导通期间，此时驱动电源 OUT1H 为高电平，监测到 Vgs 大于保护阈值时，则外部MOS开关将断开，避免电源短路。引脚 VREG 和 VEE2 之间连接电容，能有效抑制栅源极电压波动。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAOqJibv6dPaas05EIDesQ8u2p5VMD1aWviaTPRCCzpOuw8IvqEMgRwn3k6Azgpu0A5nQOszbicVBeg/640?wx_fmt=png&from=appmsg)
+
+有源米勒AMC箝位波形如图10所示，下管开通期间串扰引起的上管栅源极电压峰值 Vgs\_peak=-2.2 V，远远小于0 V；下管关断期间串扰引起的上管栅源极电压峰值 Vgs\_peak=-5.2 V，此时未出现大的负向峰值电压。因此在开通和关断情况下都起到了较好箝位效果。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAOqJibv6dPaas05EIDesQ8ibFN9wIibmTx6zEDd4K325cQtoHd85CriaUg3D65MPCr07xcFlKibIZUGg/640?wx_fmt=png&from=appmsg)
+
+**2.3　采用三级关断串扰抑制电路**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAOqJibv6dPaas05EIDesQ8VjMHzheQe16iabaYOLMYClZzet3lhIalFr1A4hv1yjqHiaNdmiarplAmw/640?wx_fmt=png&from=appmsg)
+
+模块门极关断期间栅源极电压Vgs为-4 V，串扰发生时会引起Vgs抬升，若采用三级关断串扰抑制电路检测栅源极电压，当Vgs超过设定阈值，抑制电路可将Vgs直接拉低到-4 V，抑制其正向抬升；当串扰引起过大的电压负向峰值时，三级关断串扰抑制电路可将Vgs拉升到0 V，抑制栅源极出现较大的电压负向峰值，从而保护栅极。图11为抑制串扰驱动电路的上下桥臂Vds和Vgs工作波形。Vgs （上桥臂） 包含3种电平，+15 V，0 V和-4 V。当Vgs（上桥臂）为+15 V时，SiC MOSFET模块为开通状态；当 Vgs （上桥臂） 为 0 V 和-4 V 时，SiCMOSFET模块为关断状态。为验证上述方法的有效性，搭建了三级关断串扰抑制电路的PSPICE半桥斩波电路模型，如图12所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAOqJibv6dPaas05EIDesQ8Azt9YUBFQh5V9IWrcZ1Coc0eM0UKCbUwaJHyoH1xvthanmtuqvVOGg/640?wx_fmt=png&from=appmsg)
+
+图13为下桥臂SiC MOSFET Vgs和Vds的仿真波形。图 13(a)为未增加串扰抑制电路时的相关波形，此时SiC MOSFET栅源极电压Vgs在关断期间抬升约为+2 V，可能会误触发 SiC MOSFET 开通造成短路，而最大电压负向峰值约为-12 V，易损伤SiC MOSFET栅源极造成器件失效。图13(b)为模块驱动电路增加了串扰抑制措施时的相关波形，此时SiC MOSFET栅源极电压Vgs在关断期间抬升电压最大约为-4 V，基本没有抬升，电压最大负向峰值约为-8 V。可见，增加串扰抑制电路后，栅源极电压的负向电压和正向抬升都明显改善。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAOqJibv6dPaas05EIDesQ8aWFLegnTsun18X4HmevhVxdj2UNwWeXNCkId4NdJNAoFqUs66Az74g/640?wx_fmt=png&from=appmsg)
+
+**3　结语**
+
+针对 SiC MOSFET 模块应用中出现的串扰问题，本文对测量使用的差分探头进行了详细对比，由结果可知采用高带宽和高采样率的示波器和差分探头可测量得到准确的信号波形。同时分析了串扰问题的产生机制，正dVds dt在反向传输电容上产生流向驱动侧的位移电流，在栅极阻抗引起正向感应电压，叠加在栅源极上会引起栅源极电压抬升；而负dVds dt在反向传输电容上产生流向模块侧的位移电流，在栅极阻抗引起负向感应电压，造成栅源极出现过大的电压负向峰值。为解决串扰问题，本文提出了3种有效应用对策：①减小栅极引线阻抗，从而减小阻抗上的感应压降，抑制栅源极过压；②采用有源米勒箝位技术，泄放位移电流，有效保护 SiC MOSFET 模块；③通过三级关断串扰抑制技术改善栅极驱动波形，有效抑制过大的电压正向抬升和负向电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAOqJibv6dPaas05EIDesQ8c5BNVaRWZmeEpibH2Bic0jz4LFX0eUkwBEL4JLdcOzFQbrqmhwl3bicpg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqb8Po3qdBDOEjHEmo3DibcFdSeQxPepq4CgmLpeSttlMicicb3ru8mu738A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)

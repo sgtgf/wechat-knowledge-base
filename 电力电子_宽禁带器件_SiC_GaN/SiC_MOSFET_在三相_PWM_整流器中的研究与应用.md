@@ -1,0 +1,149 @@
+# SiC MOSFET 在三相 PWM 整流器中的研究与应用
+
+原创 米保全 , 李许军 SiC碳化硅MOS管及功率模块的应用 2025-02-16 10:51 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/u9EyBtGpghAUlQtiAHiO3A](https://mp.weixin.qq.com/s/u9EyBtGpghAUlQtiAHiO3A)
+
+文章来源：工业仪表与自动化装置
+
+作者：米保全1,李许军1,王春霞2(1. 甘肃机电职业技术学院,甘肃 天水 741001;2. 兰州理工大学 计算机与通信学院,甘肃 兰州 730050)
+
+摘要:新一代宽禁带半导体SiC器件相比传统Si器件在耐压、高频、高温等性能方面有很大优势。 该文基SiC MOSFET三相PWM 整流器设计了SiC MOSFET的驱动电路;SiC MOSFET在三相PWM整流器的高频化设计,可以使交流侧的输入电感量进一步减小,这有利于提高电源的功率密度,但也容易导致整流器启动时刻出现过流问题。 针对这一问题,提出了启动时刻通过合理设计电压电流双环控制中电压环的输出值作为限幅值的方法来抑制启动过流,并通过实验验证了该驱动电路满足设计要求和启动过流抑制方法的有效性。
+
+关键词:SiC MOSFET;三相 PWM 整流器;高频;过流
+
+0. 引言
+
+SiC MOSFET作为典型的第三代半导体器件,与同功率等级Si MOSFET相比,SiC MOSFET导通电阻和导通损耗大幅降低,开关频率更高,更适用于高频的各类功率变换器;由于SiC MOSFET的耐高温工作特性, 大大提升了高温稳定性。 SiC MOSFET在各类功率变换器中的应用研究重点也主要体现在高频化、高效等方面。
+
+由于SiC MOSFET在三相整流器应用中的高频化设计原则,使得整流器交流侧的输入电感量可以做的较小,其好处是可以进一步降低整流器的损耗,减小体积,提高整流器的功率密度。 但是输入的电感量减小容易导致三相PWM整流器启动时刻出现过流现象,使得SiC MOSFET承受较大的电流应力,过流严重可能影响电源系统的可靠性。 三相PWM整流器启动时刻产生过流的实质原因是输入电压与整流器交流侧等效电压差值过大,一般的处理方法是在电压电流双环控制中调节启动时刻电压环的输出值作为限幅值。
+
+该文以CREE公司SiC MOSFET模块CCS050M12CM2为 例, 设 计了SiC MOSFET三相PWM整流器的驱动电路,并针对整流器启动时刻易出现过流的问题,提出了在电压电流双环控制中合理设计电压环的输出值作为限幅值的方法来抑制启动过流,最后对所设计的样机进行了验证。
+
+1\. SiC MOSFET 驱动电路设计
+
+SiC MOSFET驱动电路模块CCS050M12CM2的基本参数和开关特性参数见表 1。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cibHczXPYbax8cE2OfgGLPvyX5DqN58bA7sY7xeqCXF8nORgTibshwAjicA/640?wx_fmt=png)
+
+根据表 1 中的相关参数,为了减小设计难度,在设计 SiC MOSFET 驱动电路时,重点要考虑门极驱动电压范围、跨导与输入寄生电容的影响以及同一桥臂上下开关管的串扰干扰问题。
+
+1\. 1 驱动电压
+
+SiC MOSFET 的驱动功率损耗随着驱动电压升高而增大,在满足SiC MOSFET 可靠开通的情况下,降低驱动电压有利于降低 SiC MOSFET 功率损耗,但SiC MOSFET的导通特性会变差。 由表1可知,CCS050M12CM2的驱动电压为 +25V/ -10V,当栅源极导通电压 VGS上升到 14V 时就可以导通,但导通特性很差,当驱动电压达到 18V 以上时可以获得较好的损耗特性。 在电路中驱动电压需要一定裕量,这里取开通电压为 +20V,关断电压为\- 4V。为了减少电路设计难度,提高电源供电可靠性,选用SiC 专用的驱动电源芯片QA01C,该电源芯片将+15V电压转换为 +20V/-4V 电压,供 CCS050M12CM2 直接使用,如图 1 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cibsth2UE2Q0oIGicb7wun6nQQCMvPGwQFpQnkBOe5FAkkclWfLia2KxFDw/640?wx_fmt=png)
+
+1\. 2 驱动电流
+
+SiC MSOFET的高频特性实质反映了MOSFET开通和关断的快慢。 SiC MSOFET开关速度取决于栅源极电压上升和下降时间,要缩短栅源极电压上升和下降时间就需要足够的门极驱动电流。 在实际电路设计中,CCS050M12CM2的导通或关断时间最大为150~200ns,QG\=180 nC,设计开关频率为50kHz,可以估算获得 CCS050M12CM2的峰值驱动电流为 1\. 2A,考虑留有一定裕量,设计持续驱动电流为2A。 采用驱动芯片 IXD\_609,它具有9A的峰值电流驱动能力,2A的连续电流驱动能力,输出阻抗只有0\. 6Ω。 驱动电流电路如图2所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cibIntWo4NzXZsSew2CxzUeeM3cviaLAAnd2EbELOuJXRPkuDnF6dyub2Q/640?wx_fmt=png)
+
+1\. 3 隔离方式
+
+为增强电路的安全性和信号抗干扰能力,控制信号和主功率电路的信号采用光耦隔离,选用的ACPL484 隔离光耦芯片具有电路结构简单、抗干扰能力强、成本低特点。 信号光耦隔离电路如图 3所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cibUt21ic7FS0AMcXI07MG1DH6q9DeRJ70RicATA3Z6C7ARiagWoqYeMOjBQ/640?wx_fmt=png)
+
+2. 启动过流的抑制方法
+
+由于SiC MOSFET在三相 PWM 整流器中应用的高频化设计,整流器的开关频率可以做到很高,使得交流侧输入滤波电感值可以进一步减小,在一定程度上降低整流器的损耗,减小系统的体积,但这导致了整流器启动时刻容易出现过流的现象。
+
+2\. 1 三相 PWM 整流器建模
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cibROVLGCzMiaXf1kA1HI767sQSsdicHkLfO03onAYx7WJvMnq8ia2mn0tvA/640?wx_fmt=png)
+
+图4为三相PWM整流器的主电路拓扑。 图中Usa ,Usb,Usc分别为三相交流电网电压;ia ,ib,ic分别为三相输入电流;Udc为整流器直流输出电压;L 为交流侧输入滤波电感;C 为整流器直流侧滤波电容;RL为直流侧负载。
+
+三相 PWM 整流器在 d \- q 同步旋转坐标系下的数学模型为:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cibI4Vat2Vr794BDIFE7Uo7xd7IzDwYhXtDGnCrq0zjpxT1DIvyKzX6iaQ/640?wx_fmt=png)
+
+其中:r 为线路等效电阻;Usd ,Usq和 id ,iq分别为整流器在 d \- q 旋转坐标系下的电压矢量和电流矢量;Ud ,Uq和 sd ,sq分别为整流器在d \- q旋转坐标系下输入电压矢量和开关函数。
+
+2\. 2 启动过流抑制方法
+
+三相 PWM 整流器采用电压电流双环 PI 反馈控制。 在d \- q旋转坐标系下,d 轴和q 轴分量相互耦合,无法独立控制,需要引入电网电压Usd和Usq与状态反馈量(ωLid和ωLiq)作为前馈。 令
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cib3JaIGNLmHiaNbQqu2M5UJ2slhFUniasaO4c1dibsLEEB95IsNZupNbveg/640?wx_fmt=png)
+
+在电压电流双环 PI 反馈控制中,电流控制环中的电流的输入指令值是通过电压环输出获得的,电流指令值与实测电流值的差值作为 PI 控制器的输入信号。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cibdthYlmJjibkiaPUQC6zgr8TRGst2ZK9eB1ZEDh3HkGvFk3tS1ysknwSQ/640?wx_fmt=png)
+
+由式(4)可以看出,引入 Usd ,Usq与状态反馈量(ωLid和 ωLiq ) 后,通过解耦后实现了对三相PWM整流器的有功、无功分量独立控制。
+
+图5为三相PWM整流器电压电流双环PI反馈控制框图。 图中电压环电压输入指令值Udc∗ 与直流侧检测电压值Udc的差值经 PI 控制器处理后作为电流环的电流指令值id∗ 。 id∗再与实际检测电流值id的误差经 PI 控制器处理后,通过dp \- abc 坐标变换得到系统的调制信号。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cibZXib4EzaFCVNtJxSDeK1AuJx2xgPmAibsIZS852l1Kcg8SMrrNVDMDmg/640?wx_fmt=png)
+
+在忽略系统采样延时的情况下,电流环的指令值可简化为:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cibmEocq7S3ia14xhBrEclFOp0q1xblQRA6iaj4bV7M5oCJhvpKjnpa9LJQ/640?wx_fmt=png)
+
+在忽略系统线路等效电阻 r 情况下,将 id∗d视为常数,由式(4)可得到微分方程的解为:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cib63JyjHwPfdLjWT7iaTnI9ILiaAIwI5A6cTtuJC0R8nveqQ0yG1BNxCOQ/640?wx_fmt=png)
+
+式(6)说明了输入电流在d \- q旋转坐标系下的有功和无功分量与电流指令值、交流侧滤波电感量 L 以及内环PI参数有关。 要想降低启动时刻的启动电流,就要减小启动时刻的id值,就等于减小id∗ ;要限定id∗ 的值可以通过控制启动时刻的电压环的输出值作为限幅值。 为了保证整流器处于整流状态,id∗\> 0。 通过控制 id∗的值可以限定启动电流,但过小的 id∗的值降低了直流侧滤波电容的充电速度,导致整流器的响应速度降低。 因此 id∗值既要限制启动电流,也要保证整流器的响应速度。
+
+根据式(1)有:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cibJLWuGibwyKGBzK4xxuHFd0ss0emYo6qMItrpLa5aFibownLia2aXEG39A/640?wx_fmt=png)
+
+将式(6)带入式(7)得:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cibBdYibESpGuw4KxsA5mbHjksocvePcLwDfGs9HqRotBhE7TeJcUsO86A/640?wx_fmt=png)
+
+这里设定整流器的直流侧电压上升时间不小于t1 ,那么可以得到:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cibPcFLeeqcYc1SheBOS5r1NX5AqD3nKLvd9h0fe95Uor5vj4QRWyicmag/640?wx_fmt=png)
+
+启动上升时间 t1 在程序中可以设定,通过式(11)可以计算得到空载启动过程的最小 id∗的值,由此可计算出启动时刻电压环中的最小输出限幅值。即可以通过控制电压环输出限幅值的方法来抑制整流器启动时刻过流的问题。
+
+3. 实验结果与分析
+
+为了验证该驱动电路满足CCS050M12CM2驱动要求以及启动过流抑制方法的有效性,搭建了三相PWM整流器样机。 具体参数为:输入电压380V三相三线制;输入滤波电感为1.1mH@0A(静态电感值),510μH@15A;输出滤波电容为1000μF;开关管为 CCS050M12CM2 (1200 V,59 A);输出直流电压为660V。
+
+3\. 1 SiC MOSFETS 驱动电路实验验证
+
+图6为占空比d\=0. 5时一桥臂单管的驱动电路驱动信号波形。 图中SiC MSOFET的驱动信号波形周期为20 μs,开关频率为50kHz,幅值分别为+20V和\-4V。 其中小图为驱动信号上升沿放大波形,上升时间大约为150ns。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cibkhszEiaF9HIp71GhEml5KCyreN3ysD3dTt5bvicKS8TdRtmtKg0Eib7Ww/640?wx_fmt=png)
+
+图7为占空比d\=0. 5时同一桥臂上下两开关管的驱动电路驱动信号波形。 同一桥臂上下两开关管的驱动信号之间存在死区时间,其死区波形如图中小图所示,驱动死区时间大约为400ns,而在驱动程序中设定的死区时间为450ns。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8ciblrvib9NWHlHIDB66DSX8gQDRv6sD4xTjnBEBDdBEA74H9bj9yOwOKEA/640?wx_fmt=png)
+
+从图6、图7中测试的波形来看,驱动信号的幅值、上升沿时间、驱动死区时间的设定以及波形平稳性均达到了设计要求。
+
+3\. 2 启动过流抑制方法实验验证
+
+为了验证三相PWM 整流器存在启动过流的问题,设定600V和650V两个启动电压指令,在空载条件下分别做启动实验。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cibmvlh6LeBbswYWGqTy9W4WpzgXvATgGu1lGaicntnGdZPJxpuk3aaohg/640?wx_fmt=png)
+
+当电压环输入指令值Udc∗\=600V 时启动整流器,产生的Udc与ia波形如图8所示,启动时刻峰值电流为20A,整流器启动成功。
+
+当电压环输入指令值Udc∗\=650V 时启动整流器,产生的Udc与ia波形如图9所示,启动时刻峰值电流达到了35A,控制器产生保护,整流器启动失败。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cibKgNq3OL5oOo3KJerGj9ukyM5Xd1Qks8GicSVCAiaLQL74t2l7D8nZe5g/640?wx_fmt=png)
+
+图9中当Udc∗\=650V时启动整流器,产生了较大的电流冲击,整流器启动失败。 在PI控制器中加入过流抑制方法,同样在空载条件下,以Udc∗\=650V为电压环输入指令值启动整流器,产生的Udc与ia波形如图10 所示,启动时刻峰值电流被限制到了18A,整流器启动成功。 说明PI控制器中加入该文提出的过流抑制方法是有效的。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskAqib4yq2jpsuFXoAstJ8cib1CqiaLLnwS5dMjUJUuHr8FQr05nbKsaVwdicdJL87VUPibX4jYhJMumLQ/640?wx_fmt=png)
+
+4. 结语
+
+在分析了基于SiC MOSFET三相PWM整流器的驱动电路设计要求和整流器在启动时刻易出现过流问题的基础上,该文设计了三相PWM整流器在高频化应用下的SiC MOSFET驱动电路,提出了一种通过控制电压环输出限幅值的方法来抑制整流器启动时刻出现过流的问题。 实验验证了所设计的驱动电路满足设计要求,所提出的抑制启动过流的控制方法是有效的。
+
+**说明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)

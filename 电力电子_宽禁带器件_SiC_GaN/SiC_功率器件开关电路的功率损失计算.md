@@ -1,0 +1,68 @@
+# SiC 功率器件开关电路的功率损失计算
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/oXQEqeY6NksvZ9B0sS4Ehg](https://mp.weixin.qq.com/s/oXQEqeY6NksvZ9B0sS4Ehg)
+
+**文章来源：**罗姆（ROHM）半导体
+
+**摘要：**SiC MOSFET 可作为开关器件用于各种开关电源中，确认电源电路的设计没有超过各设备所容许的损失是很重要的。怠慢这个的话器件可能会导致热破坏。该应用笔记中记载了使用SiC MOSFET 的开关电路中开关动作时 SiC MOSFET 产生的功率损失的计算方法。
+
+**损耗測定电路**
+
+作为测量功率器件开关参数的标准方法，有双脉冲测试。测量电路如 Figure 1 所示。双脉冲测试通过感应负载和电源进行。开关元件的负载大多使用电感器，为了与此条件相同，测试电路也使用电感器。电源用于向电感器供给电压。信号发生器（G）用于输出驱动 SiC MOSFET（Q1）栅极的脉冲。散装电容器（C1）用于陡峭的供给瞬间大电流。这是为了补充电源的响应性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9fJEEk16uujSNXL6hhvR7OBYHJs4lqT06lqeJRBPUj4suKcZ0N4eUn5g/640?wx_fmt=png&from=appmsg)
+
+Figure 2 显示具有代表性的双脉冲测试波形。最上面的波形是栅极驱动脉冲，在最初的脉冲下降边缘测量截止参数，在第 2个脉冲的上升边缘测量导通参数。Figure 3 中显示了关断部分的详细内容。从 VGS 下降到 90%开始，到 VDD 下降 10%为止，定义为关断时间 toff。并且，在这其中，将 VDS 下降到 VDD 的 90%为止的延迟时间 td（off）、VDS从 90%到 10%的变化定义为下降时间 tf。（注：VDS 的 10%和90%的表达与 IEC 60747-8 相反。）
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9fNl465lBSd8cQGbRdcQfQOlLyg9ZAVRsbFjvf3OCyQoO90EIBTZnngQ/640?wx_fmt=png&from=appmsg)
+
+Figure 4 中表示导通部分的详细内容。从 VGS 上升 10%到 VDD下降 90%的地方定义为导通时间 ton。并且，在这其中，VDS 从VDD 的 10%下降到延迟时间 td（on），VDS 从 10%到 90%变化的地方定义为上升时间 tr。（注：VDS 的 10%和 90%的表达与IEC 60747-8 相反。）
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9f0a4icGCicC3UwjdwMeo8RIfTxzjSMaELRRFMXCxPzxvzmrYaK8jagr2A/640?wx_fmt=png&from=appmsg)
+
+接下来，参照 Figure 5 说明双脉冲测试各步骤的电流流动。
+
+步骤①：第一步是第一次开启区间。低边 SiC MOSFET Q1 接通后，电源将向电感器供电。这时流向电感器的电流产生磁场，将电能转换成磁能，并储存在电感器中。由于电感器电流与时间成比例地增加，为了达到所需测试电流（ID），调整该区间的脉冲宽度。
+
+步骤②：第二步是第一次的关断区间。Q1 关断后，电感器中累积的磁能量会作为电流释放出来。电流通过续流二极管再次回流到电感器。这种情况下的续流二极管是高边 SiC MOSFET Q2的体二极管。该区间的脉冲宽度尽量缩短，使负载电流尽可能接近一定。此外，还需要确保 Q1 的关机时间，因此设置满足两个条件的时间。
+
+步骤③：第 3 步是第 2 次导通区间。Q1 导通后，在 ID 波形中观察到过冲，这是直到前不久，在 Q2 的体二极管中顺向电流导通的电流切换为反阻挡状态时，短时间反向导通的逆恢复电流。这是通过高边 SiC MOSFET 的 ID（Q2）测量的。Q1 接通后，电源再次向电感器供电。然后 ID从步骤②回流的电流值再次开始增加。脉冲宽度要比第一脉冲短，以免设备因过电流和热量而损坏。此外，因为 Q1 必须确保一定的导通时间，所以设定满足两个条件的时间。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9fkibfUy6wicLSOkJaOic7TqhWwGaMfWYEzycAIaiciaecNQYlMCVMS9ps48g/640?wx_fmt=png&from=appmsg)**損失計算**
+
+在 Figure1 的测试电路中，低侧 SiC MOSFET 产生的损失有开关损失和导通损失。理想的开关波形中，如 Figure 5 所示，VDS(Q1)和 ID(Q1)不会延迟，电压和电流会垂直变化。这种状态下不会产生多余的电压和电流，所以不会发生损失。实际上由于寄生电阻和寄生容量的影响会产生延迟，电压和电流波形会像Figure 6 那样以 ton、toff 的倾斜变化。这个倾斜部分的电压和电流重叠的部分是开关损失。
+
+在实际电路中，导通和关断时的过渡期电压和电流会呈指数变化，但是观测到的波形很难用指数函数表示，所以用直线近似来计算。
+
+根据 Figure 6 的波形，计算每个区间用 Q1 消耗的电力量。首先，在导通 ton 及关断 toff 时间（开关时间）中消耗的电力量 WSW可以近似于式（1）。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9fPS5eyle7IEN9owe6n2aqGtfjbenicmvOVyicsP7rf8bTPHB0a8yRkrFw/640?wx_fmt=png&from=appmsg)
+
+接着计算导通时消耗的功率。因为 Figure 6 在 TON 的区间 Q1导通，所以 VDS 成为 Q1 的导通电阻和 ID 的积。导通电阻的值参照数据表。功率 WON可通过式（2）近似。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9f0uaiamKn4hhSgq7gypulncSMgl0thAv9BFuwd4QNbH2m3bkXWk70E2g/640?wx_fmt=png&from=appmsg)
+
+接下来是 Q1 关断时的功率。Figure 6 是 TOFF 的区间，Q1 OFF时 ID变为零，功率 WOFF变为零（式 3）。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9f1VRL2brgMUsVGIONUSvtTMcLkgO3BlQvULS2Dhl1RKXMBQynBMNknQ/640?wx_fmt=png&from=appmsg)
+
+Q1 的全部功率可以通过式（4）求出，成为式（1）到（3）的总和。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9f1fsgeVeviaTpvCorR3GztYRK4lsIWWB2Z50brZiaVbSLWhgXyer1AP7A/640?wx_fmt=png&from=appmsg)
+
+另外，Q1 的功率损失可以用公式（5）计算。
+
+其中，T：切换周期\[s\]
+
+         f：开关频率\[Hz\]
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskQCjFjJOg97Op8a6Wyicx9fRLchtgibcMleOQBLbdkKlh4WibQGlTqpP6w9P9TJWAsdE8xBWIVbupHw/640?wx_fmt=png&from=appmsg)
+
+如上所述，损失是通过对电压和电流重叠的部分进行积分近似来计算的，但其他资料中也有不同的公式。例如，这个重叠的部分有时会用更简化的公式来计算三角形和梯形的面积。在这些例子中，即使简化了计算结果误差也很小的情况下使用。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

@@ -1,0 +1,148 @@
+# 小米汽车:SU7@YU7的三电系统
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/vBYrRMP0Rixfw0hf5qSElw](https://mp.weixin.qq.com/s/vBYrRMP0Rixfw0hf5qSElw)
+
+6月26号，小米YU7开启下定，雷军公布了三款车的发售价格：小米YU7定价25.35万元，小米YU7 Pro定价27.99万元，小米YU7 Max定价32.99万元。价格一经公布，小米YU7的预定量便急速狂飙：仅用3分钟大定突破20万台，1小时大定突破28.9万台。截至目前，锁单数量已经超过24万辆。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhgvemYlZkKbyCQyn9YNktZa3BlA9J055urgjdbRMssTQfYp64gomPew/640?wx_fmt=png&from=appmsg)
+
+搭载小米超级电机V6s Plus，零百加速3.23秒，配合豪华底盘系统，兼顾操控与舒适。全系采用800V碳化硅高压平台，最高续航达835km，实现更长续航与更快充电。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhibo36V8LOsqUZCHQQ9Orxic2br2aAMXapmasbNXzDQuDGKMOP7BDC6SA/640?wx_fmt=jpeg&from=appmsg)
+
+新能源汽车“三电”系统，即电池、电机和电控系统，是新能源汽车的核心组成部分。它们共同构成了新能源汽车的驱动系统，为车辆提供动力，实现高效、环保的行驶。  
+
+小米SU7与YU7的电机电控系统及800V碳化硅平台技术，体现了小米在电驱领域的深度布局和创新突破。以下从核心参数、供应商体系、800V碳化硅性能优势三方面展开分析：
+
+⚙️ 一、电机电控核心参数对比  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhwJcSyW1ozGAWXBWrgDibrjmrU1jpnX2DCEeib4OaFn8GFsdoeSUuTNVg/640?wx_fmt=png&from=appmsg)
+
+1\. 小米SU7（轿车） 
+
+电机配置：  
+
+标准版/Pro版：搭载V6超级电机（联合汽车电子/汇川技术），转速21,000rpm，单电机后驱，最大功率220kW（299马力），扭矩400N·m，零百加速5.28秒。  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhqo3V4YqQuFEQL99FRWd5s5Z6WqsFCBhguSBqd5QG9RoLc73dke9BsA/640?wx_fmt=jpeg&from=appmsg)
+
+Max版：搭载V6s超级电机（汇川技术），双电机四驱，系统总功率495kW（673马力），扭矩838N·m，零百加速2.78秒，支持Boost模式（20秒超频）。
+
+  ![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMh3tAUDJqdZtVyfR6kSJLfD72ypPGK8zHic7PmXzLs1KGjLRtZS82aK5Q/640?wx_fmt=jpeg&from=appmsg)
+
+电控系统：自研碳化硅（SiC）模块，转换效率99.85%，支持871V高压平台。  
+
+电池与续航：  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhINIVMBGhyBviabKgQ1mM0EiaiaFmERNYRsxHXARsMkSMvYhavynPW70Pg/640?wx_fmt=jpeg&from=appmsg)
+
+标准版：73.6kWh磷酸铁锂（弗迪），CLTC续航668km；  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhsAU7Fq59LZBkgcJAY9CYO5cEM3XrTENkfmk4KGulN0Bnribhlz9ZPnw/640?wx_fmt=jpeg&from=appmsg)
+
+Max版：101kWh三元锂（宁德时代），CLTC续航800km，支持800V超充（15分钟补能510km）。  
+
+  
+
+2\. 小米YU7（SUV）
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhhicR22bOeFdVZzZicszxicNDicicL6f8hNLu8ia9HrwzgfWaxibQpAM1uI5aQ/640?wx_fmt=png&from=appmsg)
+
+电机配置：  
+
+标准版：单电机后驱，功率235kW，扭矩528N·m，零百加速5.88秒；  
+
+Pro版：双电机四驱，总功率365kW，扭矩690N·m，零百加速4.27秒；  
+
+Max版：双电机四驱，总功率508kW，扭矩866N·m，零百加速3.23秒，搭载V6s Plus电机（转速22,000rpm）。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhzWslXuZ2EQ1bibxNEcJWWkFhQbgGs1fftpNzRmic0Gs9v4ibIEEHDBuuA/640?wx_fmt=png&from=appmsg)
+
+电控系统：全系标配800V碳化硅平台，Max版支持5.2C超充（15分钟补能620km）。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhLOycRPGHOicwzRURYe75qKhaNBZjKSAfmibicJibxSv3iaDs079CWFEnibtA/640?wx_fmt=png&from=appmsg)
+
+电池与续航：  
+
+标准版/Pro版：96.3kWh磷酸铁锂（弗迪），续航835km/770km；  
+
+Max版：101.7kWh三元锂（宁德时代），续航760km。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhianJF0vASb4jibWKPibZ9zcME3Hs3RQjRWStNk262ttjkDBOvAWkwnkDQ/640?wx_fmt=png&from=appmsg)
+
+  
+
+参数简表：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMh5zlU6AxYlHcYe6P2q5v4uB9qiaJfvH7sGxLoJR26UyAB2qCaL5bSrxw/640?wx_fmt=png&from=appmsg)
+
+  
+
+🔌 二、电机电控供应商体
+
+1\. 电机供应商 
+
+汇川技术：核心合作伙伴，为SU7 Max和YU7全系提供V6s/V6s Plus电机，采用Hairpin绕组技术，功率密度达5.2–6.78kW/kg（高于行业平均4.8kW/kg），并配套开发碳化硅电控模块。  
+
+联合汽车电子：供应SU7标准版V6电机。  
+
+2\. 电控与碳化硅供应链 
+
+小米汽车强调旗下车型均采用全系碳化硅高压平台，包括电驱、OBC等：
+
+电驱：供应商为汇川联合动力、联合汽车电子；主驱SiC MOSFET芯片主要来自英飞凌、意法半导体、安森美和博世。
+
+OBC：供应商为富特科技，其SiC MOSFET芯片供应商为Wolfspeed。
+
+空调压缩机控制器：供应商为致瞻科技，其与意法半导体达成了SiC MOSFET合作。
+
+其他关键供应商：  
+
+电池：宁德时代（三元锂）、比亚迪弗迪（磷酸铁锂）双轨供应，保障产能。
+
+⚡️ 三、800V碳化硅平台的性能优势  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhd4LEc2EAEYS4E0DxmDQqPLgMzuiaHa333ZOxt4a4552VZgVR82gjqwA/640?wx_fmt=png&from=appmsg)
+
+1\. 充电效率革命  
+
+超充能力：SU7充电15分钟补能510km，YU7 Max版进一步缩短至15分钟620km，远超传统400V平台（同时间仅补能200km）。 
+
+ 技术支撑：碳化硅器件导通损耗比硅基IGBT低80%，耐高压特性匹配800V平台，允许350kW以上超充功率。  
+
+2\. 能效与续航提升
+
+系统效率优化：碳化硅模块减少开关损耗，电机驱动效率提升5%–8%，SU7 Max电耗14.7kWh/100km，YU7标准版低至13.3kWh/100km（同级最优）。  
+
+轻量化设计：碳化硅器件体积缩小40%，助力SU7/YU7实现更低整备质量（如SU7车重2.2吨，Model S Plaid为2.3吨）。  
+
+3\. 动态性能与可靠性
+
+高转速电机支持：碳化硅电控的高频特性适配21,000–22,000rpm电机（如V6s），避免硅基IGBT在高转速下的过热问题。  
+
+热管理简化：碳化硅耐高温（工作温度＞200℃），降低冷却系统复杂度，SU7采用双大面冷却设计（7.8m²面积），YU7标配双枪空气悬架+CDC阻尼。  
+
+4\. 成本与产业链意义 
+
+降本路径：尽管碳化硅模块成本是IGBT的3倍，但通过系统优化（如线束减重、电池容量缩减）实现整车成本可控。小米目标是将碳化硅普及至25万级车型。  
+
+国产化替代：中国衬底产能占全球30%（天岳先进/天科合达），小米推动本土供应链（如宁德时代、弗迪电池）降低依赖。  
+
+  
+
+💎 四、总结：技术壁垒与市场差异化  
+
+小米SU7/YU7通过 “超高转速电机+自研碳化硅电控+800V全域高压” 技术三角，实现了三大突破：  
+
+1\. 性能越级：SU7 Max 2.78秒、YU7 Max 3.23秒的加速能力，超越同级燃油车；  
+
+2\. 能效标杆：13.3kWh/100km的电耗刷新中大型纯电车纪录；  
+
+3\. 补能革命：15分钟620km超充缓解里程焦虑，推动行业向高压快充演进。  
+
+未来随着V8s电机（2025年上车，27,200rpm）和碳化硅成本下降，小米有望进一步巩固电驱技术领先地位。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskyFjCCIicAwCDsGGHiaapDMhKUTICaZbqMp6xTiaNiaA9LLkHSsR1aDsUOxp0TpqPNIPRlnzVdO7bUwA/640?wx_fmt=png&from=appmsg)
+
+注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。

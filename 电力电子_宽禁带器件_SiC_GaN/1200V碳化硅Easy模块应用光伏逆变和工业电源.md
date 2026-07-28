@@ -1,0 +1,122 @@
+# 1200V碳化硅Easy模块应用光伏逆变和工业电源
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/X\_e-6lLH0ajTjwgbMSSfBA](https://mp.weixin.qq.com/s/X_e-6lLH0ajTjwgbMSSfBA)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVedzEjdegXVhtBrre3lI3CtDU7GqicNichl5WarZ4XLqcX5Cf3uMruX9g/640?wx_fmt=jpeg)
+
+  
+
+     随着太阳能电池板的尺寸和功率密度逐步增加，传统的硅基器件已不能满足光伏逆变器MPPT(最大功率点跟踪)电路在效率和发热方面的需求，各方面性能更优越的碳化硅功率器件上场应用成为必然趋势。“相对硅器件而言，碳化硅功率器件能为光伏逆变器带来更高的转换效率、更低的能量损耗，从而有效缩小系统体积、增加功率密度、延长器件使用寿命、降低生产成本。”
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVC7rECksa0M4wq85FrtD4wD9MtcqsBZiarNsweqibYib2ib7HefBOfV2VJg/640?wx_fmt=png)    面向光伏逆变器功率更大、效率更高、体积更小、成本更低，以及组串式逆变器配置灵活、易于安装的发展方向，碳化硅器件开发商从多个技术指标入手，持续提升器件性能。
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVwIOJuUEicJB3v0w858zZ1b6fn0UZQfdh8zf8zP6K0BQzlqUltuZgh6w/640?wx_fmt=png)
+
+**1200V100A  **EasyPIM模块****
+
+  
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVVmHYMnibRvOnBTzHXlSXk77USnMe3ouiaqOzj7P4fWQU27iby4EOlPpLQ/640?wx_fmt=jpeg)
+
+  
+
+                     ****1200V300A  EasyPACK模块****
+
+ ****EasyPIM模块和**EasyPACK模块特点**
+
+1\. 采用先进的真空回流焊工艺，Al2O3绝缘陶瓷，最高工作结温150℃；
+
+2\. 高功率密度，低寄生电感，低开关损耗；
+
+3\. 适用高温、高频应用；
+
+4\. 集成NTC温度传感器，易于系统集成。
+
+典型的光伏逆变器应用场景如下：
+
+l1-10 kW用于生活应用
+
+l100 W至 300 kW用于商业应用
+
+l10-500 kW（未来将达到2 MW~20 MW） 用于公用工程系统
+
+建议100KW以下用碳化硅MOS单管有优势，100KW以上用碳化硅模块，可定制模块规格参数。
+
+碳化硅功率模块的优点
+
+  
+
+1.更高工作频率
+
+2.更高功率密度
+
+3.最高效率减少冷却工作
+
+4.降低系统和运营成本
+
+5.与硅相比，开关损耗降低80%
+
+6.出色的栅极氧化层可靠性
+
+7.体二极管，具有低反向恢复电荷
+
+8.最高阈值电压Vth > 4V
+
+       模块换向电感降低可以实现SiC MOSFET的全速开关。更高的开关速度可以转换成更高的开关频率，从而得到更小的磁性过滤器元件。同时可以降低开关损耗，提高系统效率。精密的材料和封装技术可以将芯片与散热片之间的热阻减至更小，从而实现更高的功率密度。
+
+  
+
+碳化硅功率模块的应用 
+
+1.新能源汽车
+
+2.太阳能逆变器：升压电路和逆变器应用
+
+3.储能系统：大效率和低噪声
+
+4.UPS：高效双转换系统
+
+5.电机驱动器
+
+6.电源：牵引应用、感应加热等的助电源
+
+7.电池化成设备
+
+8.大功率充电桩模块，充电堆设备
+
+  
+
+碳化硅功率模块产品范围
+
+1.产品涵盖10kW至350kW功率范围，电压级别为1200V和1700V（需定制），封装可提供七种不同封装，规格参数可定制。
+
+2.半桥模块：DCS12（丹弗斯封装）-EasyPACK-EasyPIM-Econodual。
+
+3.三相全桥模块：HPD-DWC3-HP1
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVScHI0p5O0vWJDL7yMydRZ125WRrZ1x1SibvtcCIALN0FPp9gyMQ3O8g/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVeSU08bjrGD8tfqRgeXySqvkQ9qYPX6JBZ6uog6gV2hpczM9iayo0icsA/640?wx_fmt=png)
+
+  
+
+       爱仕特SiC MOS具有更快速开关响应、更低损耗的特性，完全满足光伏逆变器对高效率、高功率密度、高可靠性的要求，有利于加快光伏产业发展，助力双碳目标的实现。随着新能源替代加速，逆变器向高效率、高功率密度、高可靠性等方向发展，具备高功率、耐高压、 耐高温、高频和低能耗等优点的SiC功率器件将迎来发展新机遇 。
+
+      爱仕特作为国内优秀供应商，依托技术驱动，推出了650V-1200V-1700V-3300V的 SiC MOSFET及1200V的EasyPACK、EasyPIM模块产品，已通过相关电性能测试评估及可靠性考核，综合特性达到国际先进水平。
+
+      爱仕特在自建晶圆厂，将推出更多优质产品和服务，携手上下游产业，加速能源结构转型和碳中和进程。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVLL6QPUmBrg5H6rzH5O9KUriagkmbMT7sJibtJyu9O6A0WRdGlEvAWrcA/640?wx_fmt=png)
+
+声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
+
+                    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)

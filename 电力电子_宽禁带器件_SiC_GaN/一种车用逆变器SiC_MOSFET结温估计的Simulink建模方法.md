@@ -1,0 +1,124 @@
+# 一种车用逆变器SiC MOSFET结温估计的Simulink建模方法
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/edOQO2ahEzysQNf5iudwRQ](https://mp.weixin.qq.com/s/edOQO2ahEzysQNf5iudwRQ)
+
+文章来源：汽车电器
+
+作者：彭琛，郑晓琦，闰国辉(华通力盛(北京)智能检测集团有限公司，山东济宁 272000)
+
+【摘要】目前，电动汽车高压平台已成为趋势，电机控制器功率器件由IGBT向SiC MOSFET转换，而针对SiC MOSFET结温的相关研究，很多学者曾提供了具体的理论公式，但是复杂的理论计算公式并不能很好地运用在实际开发过程中。文章基于以上现状，选择合适的SiC MOSFET热阻网络模型，将三阶RC网络通过基尔霍夫第一定律转化为时域的离散方程，进而建立Simulink模型，通过仿真及台架测试，测试结果显示能够满足预期目标。
+
+【关键词】SiC MOSFET；结温估计；热阻网络；电机控制；Simulink建模
+
+1\. 引言
+
+随着电动汽车的普及，消费者对车辆的续航里程提出了更高的要求，而增加车辆续航里程主要有提升带电容量和提升补能效率两种方法，其中，提升补能效率主要有换电、超级快充两种方式。由于提升锂电池容量使得整车成本增加，换电方案极度依赖于车厂自身体系，推广难度较大，因此超级快充方案成为行业首选。目前，提升车辆充电功率主要有两种方式：提升充电电流和充电电压。因提升充电电流会增大核心部件的铜损，造成核心部件老化、损坏，所以提升充电电压是一种更实际的方式(如800V平台)。现有自主品牌如比亚迪全新e平台3.0、吉利SEA浩瀚架构等均支持800V快充，而海外品牌如奔驰MMA架构、奥迪PPE平台均支持800V超快充。众所周知，经济性、动力性、安全性及舒适性是评价整车的4个标准。当整车电压平台从400V切换至800V时，整车安全性受到极大的挑战，首当其冲是主驱电机控制器。当母线电压等级提高到800V后，需要电机控制器的功率器件耐压值至少在1200V以上，此时IGBT已不再适用。相比IGBT，SiC MOSFET因具有导通电阻低、耐压高、开关频率快等优点，目前已广泛应用在800V平台电机控制器中。
+
+电机控制器作为一个核心控制单元，其80％的故障原因是由功率单元失效产生的，功率单元失效主要是由于结温过高导致的，所以对功率单元结温进行实时监控是非常有必要的。而针对SiC MOSFET结温的相关研究，有学者通过测量SiC的导通电压进行结温估算；这种方法主要是通过测量SiC MOSFET的导通漏源电压和导通电流，进而计算出当前的导通内阻，由于导通内阻和结温Ti有一定的数学关系，通过数学公式可以反算出当前结温Ti。但是这种测量方法只适用于稳态情况下，车用主驱电机控制器是时变系统，不同转速下的扭矩输出其三相PWM输出占空比是不同的。在低速小扭矩和特定的电角度下，通态电压和电流采样存在非观测区，同时由于需要测量通态电压和通态电流，其硬件成本及设计难度随之增加。文献\[7\]对碳化硅热阻网络模型进行公式推导，但是其并未给出应用于实际场景下的数学模型。本文将选取合适的热阻网络模型，根据RC电路工作原理，通过基尔霍夫第一定律将热阻数学模型转化为时域的离散方程，进而建立Simulink模型。
+
+2\. SiC MOSFET热阻网络模型
+
+2.1 SiC MOSFET静态物理模型
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWatsC5V7rmic7MwF36h2rEJpFh0Ij8twEib2LN9cwgBexeKsqgiaKrHnlCg/640?wx_fmt=png&from=appmsg)
+
+如图1所示，SiC MOSFET模块由多层材料结构构成，不同材料的热膨胀系数存在差异，在长期的热循环冲击作用下材料问会发生疲劳与老化，随着温度冲击次数的增加，最终器件会因芯片间邦线断裂、材料间热阻增大导致芯片中心温度无法传导散热而失效。多层材料的热阻抗和膨胀系数直接影响到功率器件的结温，因此选择合适的热阻模型尤其重要。
+
+SiC MOSFErll模块至上而下分别由芯片层、上焊料层、上铜层、陶瓷层(DBC)、下铜层、下焊料层、基板组成。模块中各晶圆通过键合线连接，陶瓷层保证SiC MOSFET模块中电流导通部分与外界散热器等设备的绝缘能力。SiC MOSFET的每一层结构都有自己的热阻热容Ri、Ci，在实际应用中，为了减小单片机的运算量，需要简化物理模型。对于通用的SiC MOSFE结构而言，其主要材料构成为Si、Cu和Al，文献13给出了碳化硅模块各层结构到达稳态的时间分布，为了减小单片机的运算量同时保证结温估计的精度，通常将七阶的热阻网络模型简化成三阶的热阻网络模型。
+
+2.2 等效RC热阻网络模型
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWawzmho0tX8g8lkjdd5EbyeroeBO2Dapgtcp08zydwr9uEJQUyHpqNjQ/640?wx_fmt=png&from=appmsg)
+
+常用的热网络模型包括连续网络热路模型(Cauer模型)与局部网络热路模型(Foster模型)。如图2b所示，Cauer模型的结构可以反映出真实的热阻热容物理结构，如节点、热阻、热容，都有实际的物理意义。Cauer模型的参数决定于每一层结构的材料属性，可以比较精确地估算出功率器件的温度。对于Cauer模型而言，阶数越高，其估算精度越高。如图2a所示，Foster模型是将热流传输路径上的所有热阻热容等效成一个一阶的传递函数，模型中的Rc部分不再与各材料层一一对应，且各网络节点也没有任何物理意义。虽然Foster模型的RC参数不再与各材料层相对应，网络节点也没有任何物理意义，但是该模型中的RC参数可以从实际测量得到的瞬态热阻抗Zth曲线上拟合提取出来，因此该模型常用于各阶层的RC参数辨识，一般厂商的数据手册会给出相应的Foster模型热阻、热容参数。Cauer模型内的每一层(芯片、芯片的焊接层、绝缘衬底、衬底焊接层、底板)结构都有一对RC参数来对应，由于Foster模型币llCauer模型的RC参数是可以相互转换的，在确定其三阶的RC参数后，可使用Cauer模型进行SiC MOSFET结温估计。
+
+通过文献13知道功率模块各层结构达到稳态时间的分布情况，由于热量通过上焊料层、上铜层的时间相对DBC陶瓷层较短，可将上焊料层热容Csolder1、上铜层Ccopper1视为无穷大，即断路状态；热量通过下铜层、下焊料层的时间相对基板层较短，可将下铜层Gcopper2和下焊料层Csolder2视为无穷大，即断路状态。因此，SiC MOSFET模块的七阶Cauer热网络模型可以简化为三阶热网络模型，如图2c所示。
+
+3\. SiC MOSFET功率损耗计算
+
+作为热阻网络的输入量，准确计算出SiC MOSFET的动态损耗至关重要。和IGBT功率模块类似，SiC MOSFET功率模块损耗包括SiC MOSFET导通损耗、SiC MOSFET开关损耗和SiC SBD续流阶段的导通损耗。同时，由于SiC MOSFET具有双向导通性，即当栅源极电压大于开启电压时，此时漏源极电压Vds不论是正值或负值，沟道均可以导通，导致其损耗特性不同于IGBT，此处需要做精细化处理。
+
+3.1  SiC MOSFET开关损耗
+
+SiC MOSFET开关损耗包括开通损耗Eon和关断损耗Eoff之和。由于栅一漏极、栅一源极和漏一源极有寄生电容和寄生电感的存在，同时MOSFET在开通和关断的过程中栅极电流的流动路径不同，造成SiC MOSFET在开通和关断的过程中Vds，Id的波形不同，SiC MOSFET开通和断开的仿真波形如图3所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaiaKlRvHy5mca7cHdk8Yia32GM0vHsOyzOznWcpWB5XfvwCicJLauqkicpQ/640?wx_fmt=png&from=appmsg)
+
+实际开发过程中，在确定SiC MOSFET型号和栅极电阻后，可通过示波器观察并记录Vds、Id波形。由于寄生电容和寄生电感的存在，可对MOSFET的开通、关断过程进行分阶段建模，并通过积分方式计算各个阶段的损耗，将各个阶段的损耗相加即为MOSFET一个开关周期的开关损耗，其计算公式如公式(1)、公式(2)所示。其中，Eon2、Eon3、Eon4为MOSFET开通的时间分段，Vdc为直流母线电压，Ld为栅、漏、源极的寄生电感，Io为MOSFET导通时的等效电流源，Rg为栅极电阻(包括外部和内部电阻)，Vcc为栅极驱动脉冲，Cgs、Cgd、Cds分别为MOS管栅源极、栅漏极和漏源极寄生电容。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaibmuib3F0y59hib6PqvrsXCic7Qd3XENNJN0cW8PMxmvbVITDjO5eGQayQ/640?wx_fmt=png&from=appmsg)
+
+3.2  SiC MOSFET导通损耗和SiC SBD导通损耗
+
+SiC MOSFET存在开关损耗和导通损耗，而SiC SBD不存在开关损耗和反向恢复损耗，只存在导通损耗。由于SiC MOSFET功率模块具有双向导通性，当SiC MOSFET处于导通状态时，此时只存在SiC MOSFET通损耗，这点和IGBT功率模块相同；当SiC MOSFET处于续流状态时，续流初期相电流全部从SiC MOSFET中流过，当续流电流流经SiC MOSFET所产生的导通压降达到SiC SBD的开通阈值电压Vth-vd后，MOSFET与SBD以并联的形式共同续流，流经的续流电流由其各自导通电阻决定，这点与IGBT功率模块不同。
+
+根据文献\[16\]，可知流经SiC MOSFET和SiC SBD的电流如公式(3)、公式(4)所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaOAMh5whptxGUYvzGicF7F50Hl0FZIj8ibNQWO0rjE0Ca4RXicQdvAZWcg/640?wx_fmt=png&from=appmsg)
+
+式中：Ia--逆变器A相相电流；Ix=-Vth-vd/Rs1；Rvd1(Tj,Ivd1)、Rs1(Tj,Ivd1)--SiC SBD与SiC MOSFET的导通电阻，阻值与芯片自身的结温及流过芯片的电流相关；Vth-vd(Tj)--SiC SBD的开通阈值电压。
+
+为了节省CPU的在线算力，可将损耗的计算周期设置为和PWM载波频率相等，单个开关周期的SiC MOSFET的导通损耗计算公式如公式(5)所示。同理，得到SiC SBD的导通损耗计算表达式，如公式(6)所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaI0UicjJnz5zzDZ1PqiaPklCvUbTlbZR0mYtwFZXmEOYvz7eBgP9s8FCA/640?wx_fmt=png&from=appmsg)
+
+式中：Is1(t)、Is1(t+Nts)--首、尾周期采样的流经SiC MOSFET的电流；Ts--PWM开关周期；D1、Dn--第一个和最后一个开关周期的占空比；Rs1(Tj，Is1)可由SiC器件数据手册插值计算得到。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaRrmib9faPdVB7eBtQHJQjvnEDzxLDIx7Nl2rLcK5uL0ialwBIAdzqF8g/640?wx_fmt=png&from=appmsg)
+
+式中：Rvd1(Tj,Ivd1)可由数据手册中的反并联二极管特性曲线构建的二维数组线性查表计算得到；Vth-vd可认为是一个固定值。
+
+4\. 热阻网络的Simulink模型搭建
+
+4.1 三阶RC网络数学模型
+
+可将三阶RC热阻网络等效为三阶的RC滤波电路，三阶RC等效电路如图4所示。根据基尔霍夫第一定律，可得热阻的数学模型，如公式(7)所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWajlbGSlA33IDCdggg3QmzFYZ9iaoawVu86fWJbfCGTuyEedaM81nnYAA/640?wx_fmt=png&from=appmsg)
+
+式中，Tc在实际应用中为已知量，在N时刻，对该模型进行时间离散可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaf7H87MgdibKKNNBfRHskbf6VsvYXW8W5PRNUSI3OdWVuMXcYPKGMRHg/640?wx_fmt=png&from=appmsg)
+
+  
+继续对方程进行推导，可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaMicEx1ZDicFWF9ib1nsUUhhicatWxmicpl1zIicEwiaC3ECjfqm8QpQhFqgTA/640?wx_fmt=png&from=appmsg)
+
+4.2 热阻网络Simulink模型搭建
+
+通过数学离散方程公式(10)进行迭代运算，可由基板温度Tc得到结温温度Tj，然后进行Simulink模型搭建，模型中，Ri1、Ri2、Ri3为三阶热阻网络的热阻参数，Ci1、Ci2、Ci3为三阶热阻网络的热容参数，tiPerd为PWM中断周期时间，lossMS为MOSFET的总损耗，PT1\_x模型为一阶滤波器，MSTc为SiC MOSFET模块的基板温度采样实际值，MSTj为SiC MOSFET功率模块的结温估计值。三阶热阻网络Simulink模型如图5所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaR6w6WtW4Rt8eZEY1AxU5f4eDNICVB0frbBibNv6hftRSP9MR5G7y3Xw/640?wx_fmt=png&from=appmsg)
+
+5.试验测试
+
+为了测试热阻网络模型设计的合理性，需搭建一个测试试验台，该试验台由800V／200AH的稳压电源、145kW对拖台架、75kW混合动力用内置式永磁同步电机和电机控制器组成，如图6所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaefTSN3hqiaYBw9lnePxDKHgjVhCQRnevic7w5umwKL1sJuOGJBVQveEg/640?wx_fmt=png&from=appmsg)
+
+电机控制器内使用厂家定制的SiC MOSFET功率器件，可实时测量芯片的实际温度。首先利用Foster热阻模型测量出SiC MOSFET功率器件的三阶热阻热容参数，然后通过数学方程转换成Cauer热阻模型参数，其参数如表1所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaRB8ZAZ8Jd5tkFVAnOfPob6zLq6uYdsbKUkdIZFS9smI176Y2qWBtGw/640?wx_fmt=png&from=appmsg)
+
+将SiC MOSFET功率器件直接采样的结温温度和电机控制器通过Simulink热阻网络模型估算的结温温度同步传输至上位机进行观察，从图7可以看出，SiC MOSFET实际结温与模型估算的结温基本吻合，满足精度要求。其中，相电流瞬变时误差最大，最大误差占最高结温的5.25％。随着功率器件温度的变化，其各层材料的Ri、Ci参数也随之变化，在结温到达稳态之前，其温度在上升或下降过程中会产生一定的延时误差。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslpnic9qYjDr0EAanQjt5FWaH8uKDjdvlLMiaia2zOKMA5pJeNh1jiaYicGnAjrFcLOdKriaW4BrkeQedMw/640?wx_fmt=png&from=appmsg)
+
+6.结论
+
+本文通过基尔霍夫定律建立三阶RC热阻网络的数学模型并进行离散化，同时搭建相应的Sinmlink模型，其有效降低TSiC MOSFET结温估计算法的计算复杂度。通过台架试验证明，该方法效果明显，其误差精度符合预期目标，本结温估计方法也可适用于其它功率器件的结温估计，为其它精确温度估计算法的实现提供一定的参考。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&tp=webp)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&tp=webp)

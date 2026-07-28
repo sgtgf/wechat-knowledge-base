@@ -1,0 +1,292 @@
+# 基于SiC的60kW LLC变换器采用新型变压器设计
+
+原创 Chen Wei SiC碳化硅MOS管及功率模块的应用 2025-09-21 06:25 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/Byaa-6ECC\_3yzaGl220Fgw](https://mp.weixin.qq.com/s/Byaa-6ECC_3yzaGl220Fgw)
+
+文章来源：APEC2024-(Wolfspeed)
+
+作者：Chen Wei, Jianlong Chen,Zongzeng Hu,and Fulin Zhan
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWXDIo5aAHicTwxft4aODyTxUZtfS8AwVEuTq2twbfeP08JEicM4mrL1wQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjW4hcfcmWTL086GjdzibGvc0ZzeYmDic6Vw10a3jgbwQn40zaTzdHJneQg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWSY7gzqLNl7MB3ybbzn6OnB5WEdmwIA7R9eQFxyNHUfbicFR250JFqWg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWl2cWVGAXjkVETPzv7EBE54wukvPNCvYylG0vttkvCO1863XNPnjGAQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWsQYU72AyPViaatibavps4tMW73442Hftm97OqUaCQCnzmGiaIG4ERsROg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjW6E5z3YTz1EibFHeoHZqSdpoOQKxnIMfJa9tSdUjeUj5sWf5CvMrJ2qA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWclZJ8kv0HjKia0iaoBw9AEZ6QiaLibYgUBfxUjuiba0MxVuGgu4y8LgczFw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWQfLt59WsvV6sibfJhQCumxBQvrUwnXPIzmVRWNbIVVNiauay2oS18jbQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWnHNRBDj2eyoXU0VOh7BAokxcUSC88zPPiaMVgqTyyVsibRcnyXOwkO5A/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWPTytxI7QEoLiccsdtC00Dq5vres4mhVgibibYibHI8ZtXaSnyEPteodbPA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWZRRba4wRQIx7OBbMseZ78db5XCFtIkpCo6Vvwr3zho5MTKMV8lia9Fg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWJgq8AtkOvTN0Gq2lzsiaRzq0sS292dhpibWWNRMyL3a3UyA6hR6qsXZQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWv3JcqrvglB6uO4AzcicmD2Ca3wYqBF35yls58IKCsIJVCiaBELz5piaUA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjW1TwYRj16nDUrQzItx3r0gV9Id2WrsQw65Np9Az1QYFCaoUV8a37kgA/640?wx_fmt=jpeg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskjxQblyuWS7cXNpwDpSVjWyN163GX8c0CmqOQSbJEribULic5FS3h6Rfox3rcmgW4I7Dj9bH7ylOWg/640?wx_fmt=png&from=appmsg)
+
+注：图片报告与文字无关
+
+基于碳化硅（SiC）器件的 LLC 谐振变换器，是利用 SiC 材料的**高频、低损耗、耐高温**特性与 LLC 拓扑的**软开关优势**相结合的高效电力变换方案，已成为新能源、工业电源、电动汽车等领域的核心技术之一。以下从基础原理、核心优势、设计要点、典型应用及挑战五个维度展开解析。
+
+### 一、基础认知：LLC 谐振变换器与 SiC 器件的适配性
+
+###   
+
+#### 1\. LLC 谐振变换器的核心原理
+
+####   
+
+LLC 是一种**串联 - 并联谐振型 DC-DC 变换器**，其拓扑核心由 “开关管（高频桥臂）+ 谐振腔（Lr谐振电感、Cr谐振电容）+ 励磁电感Lm（变压器原边）” 构成，通过**调频控制（PFM）** 调节输出电压，本质是利用谐振腔的阻抗特性实现开关管的**零电压开通（ZVS）** 和整流管的**零电流关断（ZCS）** ，从根源上降低开关损耗。
+
+  
+
+传统 LLC 多采用硅（Si）器件（如 MOSFET、快恢复二极管 FRD），但 Si 器件的**开关速度慢、反向恢复电荷（Qrr）大、导通电阻（Rds(on)）随温度升高而增大**等缺陷，限制了变换器的**高频化、高效率和功率密度提升**。
+
+#### 2\. SiC 器件与 LLC 拓扑的天然适配性
+
+####   
+
+SiC 器件（主要为**SiC MOSFET**和**SiC SBD（肖特基势垒二极管）** ）的材料特性完美契合 LLC 的高频软开关需求：
+
+  
+
+**SiC MOSFET：开关速度比 Si MOSFET 快 5~10 倍，**Qrr趋近于零，Rds(on)的温度系数平缓（高温下损耗增幅小）；
+
+**SiC SBD：无反向恢复特性，导通压降低，耐高温（最高结温**Tj可达 200℃以上）。
+
+  
+
+两者结合时，SiC 器件的低损耗特性可放大 LLC 的软开关优势，同时 LLC 的软开关环境又能避免 SiC 器件高频硬开关带来的寄生振荡问题，形成 “1+1>2” 的性能协同。
+
+### 二、核心优势：SiC-LLC 相比硅基 LLC 的性能跃升
+
+###   
+
+相比传统 Si 基 LLC 变换器，SiC-LLC 在**效率、功率密度、高频化、温升控制**等关键指标上实现质的突破，具体优势如下：
+
+  
+
+性能维度
+
+硅基 LLC 变换器
+
+SiC-LLC 变换器
+
+提升原理
+
+**转换效率**
+
+中大功率下通常为 94%~96%
+
+可稳定达到 97%~99%（甚至更高）
+
+SiC MOSFET 低Rds(on)+ 零Qrr，SiC SBD 无反向恢复损耗，开关损耗降低 50% 以上
+
+**功率密度**
+
+受限于低频（通常 < 100kHz）和散热体积
+
+可提升至 2~3 倍（如从 3kW/L 升至 8kW/L）
+
+高频化（谐振频率可达 200kHz~1MHz）减小变压器、电感等磁性元件体积，SiC 耐高温特性简化散热
+
+**高频能力**
+
+谐振频率多低于 100kHz（高频下损耗剧增）
+
+谐振频率可达200kHz~1MHz
+
+SiC 器件开关速度快，高频下开关损耗占比仍极低，适配 LLC 的调频控制特性
+
+**温升与可靠性**
+
+器件损耗大，结温易接近 Si 的极限（150℃）
+
+结温可控制在更低水平，或容忍更高环境温
+
+SiC 器件Tj上限高（200~250℃），损耗低导致温升平缓，延长系统寿命
+
+**宽工况适应性**
+
+轻载下软开关失效风险高，效率下降明显
+
+轻载至满载均能稳定实现软开关
+
+SiC 器件开关特性更优，谐振腔参数设计更灵活，适配宽输入电压 / 负载范围
+
+###   
+
+### 三、关键设计要点：SiC-LLC 的工程实现核心
+
+###   
+
+SiC 器件的特性要求 LLC 变换器在**拓扑选型、器件选型、参数设计、驱动与布局**等环节进行针对性优化，避免 “照搬硅基设计” 导致性能浪费或失效。
+
+#### 1\. 拓扑选型：适配功率与电压等级
+
+####   
+
+根据应用场景的功率（kW 级）和输入电压（高压 / 低压），SiC-LLC 常见拓扑分为两类：
+
+  
+
+**半桥 LLC：适用于中小功率（<10kW）、低压输入（如 400V 直流）场景（如车载 DC-DC），结构简单、成本较低；**
+
+**全桥 LLC：适用于中大功率（>10kW）、高压输入（如 800V/1500V 直流）场景（如工业电源、光伏逆变器），功率等级更高，均流性能好。**
+
+  
+
+**特殊优化**：部分高功率场景会引入 “SiC MOSFET 同步整流”，替代传统二极管整流，进一步降低整流侧损耗（尤其是低压大电流输出时）。
+
+#### 2\. SiC 器件选型：MOSFET 与 SBD 的匹配
+
+####   
+
+器件选型需聚焦**电压、电流、开关速度**三大核心参数，同时兼顾成本：
+
+  
+
+**SiC MOSFET 选型：**
+
+电压等级：根据输入母线电压选择，如 400V 系统选 650V SiC MOSFET，800V 系统选 1200V SiC MOSFET；
+
+电流等级：按 “最大工作电流 ×1.2~1.5 安全裕量” 选择，优先选Rds(on)低的型号（降低导通损耗）；
+
+封装：中小功率选 TO-247，大功率选模块封装（如 34MM、Easy、62MM），提升散热与可靠性。
+
+**SiC SBD 选型：**
+
+用于整流侧，电压等级与 MOSFET 匹配，电流等级略高于输出电流，优先选导通压降（VF）低的型号。
+
+#### 3\. 谐振腔参数设计：高频下的软开关匹配
+
+####   
+
+谐振腔（Lr、Cr、Lm）是 SiC-LLC 的核心，参数设计需围绕 “**全工况软开关 + 低谐振损耗**” 目标，结合 SiC 的高频特性优化：
+
+  
+
+**谐振频率（fr）：传统硅基 LLC 的fr多为50~100kHz，SiC-LLC可提升至 200kHz~500kHz（甚至1MHz），需平衡 “磁性元件体积” 与 “器件开关损耗”（频率过高会导致谐振损耗上升）；**
+
+**励磁电感比（k = Lm/Lr)：**k越小，软开关范围越宽，但谐振电流峰值越大（增加导通损耗）；SiC 器件低导通损耗的特性可允许更小的k值（如 0.1~0.3），拓宽软开关区间；
+
+**谐振电容（Cr）：优先选高频特性好的薄膜电容，避免电解电容的高频损耗与寿命问题。**
+
+#### 4\. 驱动与保护电路设计：适配 SiC 的开关特性
+
+####   
+
+SiC MOSFET 的驱动需求与 Si MOSFET 差异显著，若驱动不当会导致开关损耗增加、器件损坏：
+
+  
+
+**驱动电压：栅极开启电压（**Vgs(on)）通常为 18~20V（低于 15V 可能导致Rds(on)增大，高于20V易击穿栅极），关断电压需加-5V负压（抑制米勒电容导致的误开通）；
+
+**驱动芯片：需选用 SiC 专用驱动芯片，具备高速隔离、负压关断、过流保护功能；**
+
+**保护策略：增加****短路保护（SCP）** 和**过温保护（OTP）** ：SiC MOSFET 短路耐受时间短（通常 < 1μs），需快速检测（如通过源极电阻采样电流）并关断；结合热敏电阻监测结温，避免超温失效。
+
+#### 5\. 布局与热设计：抑制寄生参数与强化散热
+
+####   
+
+**PCB 布局优化：SiC 高频开关会放大寄生电感（**Lg、Ls）的影响，导致电压尖峰和振荡。需采用 “**紧凑布局**”：缩短功率回路（开关管 - 谐振腔 - 变压器）的布线长度，功率地与信号地分离，驱动回路独立屏蔽；
+
+**热设计：虽 SiC 耐高温，但高频下损耗仍需高效散热。中小功率可采用散热片 + 风扇，大功率需采用液冷系统，确保结温**Tj< 200℃（建议留 50℃裕量）。
+
+### 四、典型应用场景：SiC-LLC 的核心落地领域
+
+###   
+
+SiC-LLC 的 “高效率、高功率密度” 特性，使其在需要严苛能效与体积要求的场景中成为首选：
+
+#### 1\. 新能源汽车
+
+#### 车载充电机（OBC）：800V 高压平台车型中，SiC-LLC 作为 DC-DC 变换核心，可将 OBC 效率提升至 98% 以上，功率密度从 2kW/L 提升至 5kW/L，缩短充电时间；
+
+**动力电池充电器：工业快充站中，SiC-LLC 支持大功率（60kW 以上）变换，适配宽电压电池组，同时降低散热系统成本。**
+
+#### 2\. 工业电源
+
+**服务器电源：数据中心对电源效率（要求 80 PLUS Titanium 认证，效率 > 96%）和体积要求极高，SiC-LLC可满足 1U/2U 超薄电源设计；**
+
+**激光电源、电镀电源：需高频、高精度输出，SiC-LLC 的调频控制特性可实现稳定输出，同时降低设备体积。**
+
+#### 3\. 可再生能源
+
+**光伏逆变器（DC-DC 级）：光伏组串电压高（1500V），SiC-LLC 可适配高压输入，将光伏直流电高效变换至逆变器母线，提升整机发电效率；**
+
+**储能变流器（PCS）：储能系统中，SiC-LLC 实现电池侧与电网侧的高效能量双向流动，适配宽SOC（荷电状态）下的电压波动。**
+
+### 五、挑战与应对策略
+
+###   
+
+尽管 SiC-LLC 优势显著，但工程应用中仍面临以下挑战，需针对性解决：
+
+  
+
+核心挑战
+
+具体表现
+
+应对策略
+
+**器件成本较高**
+
+SiC 器件价格是 Si 器件的 2~3 倍，推高系统成本
+
+1\. 规模化应用降低器件成本；2. 高频化减小磁性元件体积，抵消器件成本增幅；3. 选用国产 SiC 器件
+
+**寄生参数敏感**
+
+高频下寄生电感导致电压尖峰，击穿器件
+
+1\. 优化 PCB 布局（缩短功率回路）；2. 串联 RC 吸收电路抑制尖峰；3. 选用低寄生参数的 SiC 模块
+
+**驱动与保护复杂度高**
+
+栅极电压要求严格，短路耐受时间短
+
+1\. 采用 SiC 专用驱动芯片；2. 设计快速响应的短路检测电路（如基于磁集成电流传感器）；3. 通过仿真预演极端工况
+
+**可靠性验证难度大**
+
+高频、高温下长期可靠性数据不足
+
+1\. 选用车规 / 工业级 SiC 器件；2. 进行加速老化试验（HALT/HASS）验证
+
+###   
+
+### 六、总结
+
+###   
+
+基于SiC器件的LLC变换器，是电力电子领域 “高频化、高效化、小型化” 发展趋势的核心载体。其本质是通过SiC的材料特性释放LLC拓扑的软开关潜力，实现 “损耗 - 体积 - 效率” 的最优平衡。随着SiC器件成本下降、驱动与保护技术成熟，SiC-LLC将在更多高压、大功率场景中替代硅基方案，成为下一代电力变换的主流技术。
+
+注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMstnaQiaTkoib9V2GelkRkIK8IPc1LGl8C8Niay8F44iatJouvzUArEyMvA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=13)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMt2TgmZia18AqibiagQmVic5qpsfB5icelOViarfK2bjticOsAbb9qTXib8xMqQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=14)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskVK7Bp5PFY03daImzpEsicMmcGwwzZmGKuxOauG2AHP5c4WnsEBSuibbJEaZibyXzc1HfrfqicxXRWKg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=15)

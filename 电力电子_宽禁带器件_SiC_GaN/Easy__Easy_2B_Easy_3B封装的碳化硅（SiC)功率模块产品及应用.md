@@ -1,0 +1,521 @@
+# Easy /Easy 2B/Easy 3B封装的碳化硅（SiC)功率模块产品及应用
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/6bOKXpo8cWaNcX6dv8pqfw](https://mp.weixin.qq.com/s/6bOKXpo8cWaNcX6dv8pqfw)
+
+在电动汽车快充、工业电源及可再生能源等高电压电源领域，高效、紧凑、可靠的功率模块始终是技术突破的核心。结合**Easy 1B/Easy 2B/Easy 3B**系列封装定位、SiC/IGBT 器件特性与工程落地经验，下面为三款模块逐一梳理**核心特性、应用优势、典型领域、关键设计要点**，并补充三者选型对比，适配电力电子方案开发场景。
+
+# 一、Easy 1B 模块（入门小功率封装）
+
+##   
+
+## 1\. 基础特性
+
+##   
+
+## 封装形态：无基板 12mm 标准高度，最小尺寸 Easy 家族封装；
+
+##   
+
+## 主流规格：650V/1200V，电流 30A ~ 200A，以半桥为主；
+
+##   
+
+## 工艺：DBC 覆铜基板、PressFIT 压接引脚、内置 NTC 温度传感器；
+
+##   
+
+## 2.产品介绍
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMdQ6T5UYbBIeNGe9lnI0ibB1JmxbytLBU0svn32EPgVgcrkHRasYXGysndd9u1wyZmia4AZCMibpzg1rxFaCRWViaqhRcZMl1PxCk/640?wx_fmt=png&from=appmsg)
+
+Easy 1B模块半桥拓扑图
+
+  
+
+采用先进的真空回流焊工艺，Al2O3绝缘陶瓷，最高工作结温150℃；
+
+高功率密度，低寄生电感，低开关损耗；
+
+适用高温、高频应用；
+
+参数范围：
+
+                 **V****DS****：650~1200V**
+
+                    **I****D****：30~200A**
+
+             **R****DS(on)** **：6~80mΩ**
+
+##   
+
+## 3\. 应用优势
+
+##   
+
+## 体积最小、成本最低:面向小功率场景，PCB 布局紧凑，BOM 与结构成本优势明显，适合大批量量产。
+
+##   
+
+## 低杂散电感:原生低感布局，SiC 版本可支持中高频开关，降低电压尖峰与 EMI 压力。
+
+##   
+
+## 装配便捷、可靠性高:全系列标配 PressFIT 压接引脚，免焊接、适配自动化产线，接触电阻低、抗震性强。
+
+##   
+
+## 平台兼容性强:同家族 12mm 统一高度，可与 2B/3B 共用结构、散热器，平台化迭代方便。
+
+##   
+
+## 4\. 典型应用领域
+
+##   
+
+主打**小功率、低成本、空间受限**场景：
+
+小型伺服驱动器、步进电机驱动；
+
+家用 / 轻型商用空调、风机、水泵变频；
+
+小功率车载辅助电源、车载 DC-DC（≤10kW）；
+
+小型户用光伏微逆、微型储能变流器；
+
+工业小型开关电源、充电桩辅助电源。
+
+## 5\. 核心设计要点
+
+##   
+
+## 散热设计:无基板结构热阻偏高，优先选用平板风冷；小功率自然散热即可，需严格核算 NTC 测温与芯片结温偏差。
+
+##   
+
+## 栅极驱动适配:SiC 版本必须配置负压关断（-5V ~ -8V），抑制高速开关误导通；合理选取栅阻，兼顾 dv/dt 与开关损耗。
+
+##   
+
+## PCB 布局与杂散电感:功率回路尽量短、环路面积最小化；压接引脚区域做补强，避免长期振动松脱。
+
+##   
+
+## 功率裕量:持续电流建议降额 20%~30%；母线电压预留 20% 耐压裕量，应对开关尖峰。
+
+##   
+
+## 保护逻辑:配置微秒级短路保护（SiC 短路耐受时间短），配合硬件过流 + 软件限流双重防护。
+
+#   
+
+# 二、Easy 2B 模块（中功率主力封装，SiC 主流载体）
+
+#   
+
+# 1\. 基础特性
+
+#   
+
+# 封装形态：无基板 12mm 高度，DCB 面积约为 1B 的 2 倍，功率等级显著提升；
+
+#   
+
+# 主流规格：650V/1200V/1700V，电流 30A ~ 300A，半桥 / H桥 / 三相全桥/三电平拓扑齐全；
+
+#   
+
+# 关键参数：SiC 版本杂散电感低至 5~8nH，热阻（结 - 壳）≈0.13℃/W，支持 48kHz 以上高频；
+
+#   
+
+# 工艺：AlN/Si₃N₄ 陶瓷基板、镀镍 DBC、PressFIT 引脚、内置 NTC。
+
+##   
+
+## 2\. 产品介绍
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN7uQPbcEESCxdq8R6nuTw23Kmh6392NyhdfPj5ibd7YT9HnkicXDzVGzEdIUQZPj6I7qtAk0EyTVntUXMmvQz5BapotOJgftQeg/640?wx_fmt=png&from=appmsg)Easy 2B模块半桥拓扑图
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMtTQzBC0Mdn34TAmWHOaGIXPSZM5bxicT3ZFfmFtbl2BgDmic1n5BicLnnLGicyewPxR9JFUQU4lz5f0GoLWsic0lueqQBVacYxoFg/640?wx_fmt=png&from=appmsg)Easy 2B模块H桥拓扑图
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNkZicHyK5HkBnnWZ4xhQGTIa833Q5LAUxmRicLNMsKtR17amr6ZCbFpVNgLDmNaORZ4mPhsjrxic7zXfAaMyfSuSicpy6R5zQahtI/640?wx_fmt=png&from=appmsg)Easy 2B模块三相全桥拓扑图
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM2V6QvvGJhDwG2cExpK3wbJQVoybyPQIJLnCHPxMqiatIsgFYibklSoSjmCEstF5SYiaicAgian1r9xfgl3SJQyibljDGSEL6PtTxIA/640?wx_fmt=png&from=appmsg)Easy 2B模块三电平拓扑图
+
+##   
+
+高功率密度，低寄生电感，低开关损耗；
+
+适用高温、高频应用；
+
+集成NTC温度传感器，易于系统集成；
+
+参数范围：
+
+              **V****DS****：650~1700V**
+
+                 **I****D****：30~300A**
+
+          **R****DS(on)** **：3.3~80mΩ**
+
+##   
+
+##   
+
+## 3.应用优势
+
+##   
+
+**功率密度均衡，性价比最高：覆盖中功率主力区间，是 Easy 家族****用量最大、生态最成熟**的封装；SiC 版本可全面替代同封装硅 IGBT，实现效率与频率升级。
+
+超低杂散电感，深度适配 SiC：内部对称布局，寄生电感远低于传统模块，大幅抑制 SiC 高速开关带来的 Vds 尖峰、振铃与 EMI，降低吸收电路成本。
+
+拓扑灵活，支持三电平：除两电平半桥 / 三相桥外，原生支持 ANPC 三电平，兼顾谐波、dv/dt 与器件应力，适配并网类场景。
+
+散热能力强：更大 DCB 面积 + 高导热陶瓷基板，散热性能优于 1B，可长期满负荷运行，适配工业连续工况。
+
+Pin-to-Pin 兼容，升级零改板：同封装硅 IGBT 与 SiC MOSFET 可直接替换，老产品快速迭代高频、高效方案。
+
+##   
+
+## 4\. 典型应用领域
+
+##   
+
+**中功率主流场景（10kW ~ 100kW）**，也是 SiC 模块落地核心封装：
+
+组串式光伏逆变器、工商业储能 PCS；
+
+直流充电桩模块、换电站电源单元；
+
+中大功率工业变频器、空压机、起重机驱动；
+
+储能双向变流器、电能质量装置（APF/SVG 小功率机型）；
+
+轨道交通辅助逆变、船舶中小型电力变换；
+
+三电平 ANPC 拓扑并网设备（降 dv/dt、优化谐波）。
+
+##   
+
+## 5\. 核心设计要点（SiC 重点强化）
+
+##   
+
+## 寄生电感与尖峰抑制：虽模块自身感抗低，但母线电容布局、叠层母排仍需极致紧凑；高频工况下可搭配极小容量 RC 吸收，不建议大功率硬开关。
+
+##   
+
+## dv/dt 与 EMC 设计：SiC 版本 dv/dt 可达数十 V/ns：分档设计开通 / 关断独立栅阻；输入端加强共模电感、Y 电容与屏蔽；电机驱动场景必须考虑轴电压与绕组绝缘。
+
+##   
+
+## 散热与热循环：优先采用水冷 / 微通道散热；界面材料选用高导热垫片 / 硅脂；针对频繁启停工况，校核 DBC 与焊料热循环可靠性。
+
+##   
+
+## 三电平（ANPC）专项设计：采用 2B 做三电平时，重点做中点电位平衡闭环控制；各桥臂器件参数一致性严格筛选，避免分压不均。
+
+##   
+
+## 驱动与隔离：多路驱动信号严格同步；高低压侧强化隔离（≥2500Vrms）；驱动电源独立分区，杜绝地串扰。
+
+##   
+
+## 并联扩容：多模块并联时，布局完全对称、驱动等长、回路阻抗一致，配合均流算法。
+
+#   
+
+# 三、Easy 3B 模块（大功率扩展封装，高压大电流首选）
+
+  
+1\. 基础特性  
+封装形态：延续 12mm 统一高度，DCB 面积为 2B 的 2 倍，相当于集成 2 片 2B 基板，功率上限大幅提升；  
+主流规格：1200V/2000V，电流 100A ~ 400A，六单元 / 半桥 / 三电平 / 双 Boost 拓扑为主；  
+关键参数：SiC 版本杂散电感约 14nH，支持 100kHz 高频；部分高压型号（2000V）适配 1500V 直流母线；  
+工艺：高端 AMB 氮化硅陶瓷、金属底板强化散热、大电流 PressFIT 引脚、多 NTC 分区测温。
+
+##   
+
+## 2\. 产品介绍
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMb3sXWSzgwoNKicPSZhYGicqfb4exzEBz8LAsmKgPqbnDeeJYHNcJeRNaWHpJw4GkbVpgjcQTY6nuiafecRPRSz7NlrTJKKiaBicf0/640?wx_fmt=png&from=appmsg)Easy 3B模块I型三电平拓扑图（1200V380A)
+
+  
+
+自研1200V SiC MOSFET芯片，I 型三电平拓扑，低至4mΩ超低导通电阻。
+
+  
+
+低寄生电感结构，抑制过冲与EMI，系统更稳定。
+
+  
+
+支持高温高频运行，散热压力更小、整机更紧凑。
+
+  
+
+工业标准封装，兼容现有设计，升级不改板、周期更短。
+
+  
+
+车规级工艺+可靠焊接，长期运行更稳定。
+
+##   
+
+## 3.应用优势
+
+##   
+
+## 大功率承载能力：单模块电流突破400A，轻松覆盖 100kW ~ 400kW功率区间，减少模块并联数量，简化系统结构、提升可靠性。
+
+##   
+
+## 高压适配能力突出：推出 2000V 耐压 SiC 版本，完美适配1500V 光伏直流母线、高压储能、高压充电桩集群，器件耐压裕量充足。
+
+##   
+
+## 平台化延续性强：12mm 高度与 1B/2B 完全一致，结构、散热器、机箱可共用，功率升级仅需更换模块与局部走线，平台复用率高。
+
+##   
+
+## 多拓扑集成，简化整机：原生集成双Boost、三电平、多路 MPPT 等复合拓扑，减少外围分立器件，提升整机功率密度。
+
+##   
+
+## 散热与可靠性升级：AMB 基板 + 可选金属底板，热阻更低，抗热冲击、抗功率循环能力更强，适配电站、户外等严苛工况。
+
+##   
+
+## 4\. 典型应用领域
+
+**大功率、高压、并网型场景（100kW 以上）**：
+
+1500V 集中式光伏逆变器、大型地面电站变流器；
+
+电网级大型储能 PCS、工商业大容量储能系统；
+
+高压直流充电站、充电桩集群总电源；
+
+大功率风电变流器、轨道交通主牵引变流器；
+
+大型工业传动（破碎机、磨机、大型风机水泵）；
+
+多路 MPPT 光伏整机、复合拓扑大功率电源。
+
+## 4\. 核心设计要点
+
+##   
+
+## 大电流回路布局:单模块电流大，功率回路必须对称、等长、宽铜皮；优先定制 3B 专用叠层母排，严控回路杂散电感与局部过热。
+
+##   
+
+## 高压绝缘与爬电:2000V 等级模块严格按照高压规范设计爬电距离、电气间隙；PCB 与壳体加强绝缘，避免高压爬电、闪络。
+
+##   
+
+## 分区散热与多点测温:模块内部多芯片分区发热，利用多路 NTC 做分区温度监控；散热器流道针对大发热区域做优化，杜绝热点。
+
+##   
+
+## 三电平 / 复合拓扑控制:3B 多用于大功率三电平、双 Boost 拓扑：重点优化中点电位、均压、环流抑制；调制算法兼顾损耗、谐波与动态响应。
+
+器件均压 / 均流:串联器件（高压三电平）严格筛选 Vth、结电容等参数；并联模块保证驱动同步、阻抗一致，必要时增加有源均流。
+
+保护系统升级:过流、过压、过热、中点异常、单管开路 / 短路等故障类型增多，需搭建分层分级保护体系，硬件快保护 + 软件逻辑保护结合。
+
+#   
+
+# 四、Easy 1B / 2B / 3B 选型总对比
+
+#   
+
+对比维度
+
+Easy 1B
+
+Easy 2B
+
+Easy 3B
+
+**功率区间**
+
+＜10kW（小功率）
+
+10~100kW（中功率主力）
+
+100~400kW（大功率）
+
+**额定电流**
+
+6A ~ 30A
+
+30A ~ 100A
+
+100A ~ 200A
+
+**母线电压**
+
+650V/1200V
+
+650V/1200V/1700V（SiC 主力）
+
+1200V/2000V（高压场景）
+
+**杂散电感**
+
+低
+
+极低（5~8nH，SiC 最优）
+
+低（大电流兼顾）
+
+**拓扑适配**
+
+两电平为主
+
+两电平 + ANPC 三电平
+
+三电平 / 双 Boost / 多路复合拓扑
+
+**开发难度**
+
+低
+
+中等（SiC + 三电平需优化）
+
+高（大功率 + 高压 + 复杂拓扑）
+
+**EMC 压力**
+
+中等
+
+较大（SiC 高频 dv/dt）
+
+中等（电压跳变幅值被拓扑抑制）
+
+**典型场景**
+
+小型变频、辅助电源、微型光伏
+
+组串光伏、储能 PCS、充电桩模块、中功率传动
+
+1500V 光伏、大型储能、高压充电、主牵引
+
+#   
+
+五、方案开发通用选型建议
+
+小功率、低成本、量产:优先选 Easy 1B；
+
+中功率、追求高频 / 高效 / 功率密度:SiC 升级首选 Easy 2B；
+
+大功率、1500V 高压母线、并网 / 电站级设备:选 Easy 3B；
+
+同平台功率迭代：利用 12mm 统一高度，1B→2B→3B 可无缝升级结构与散热，大幅缩短新品周期；
+
+SiC 器件通用原则：三款模块用 SiC 时，栅极驱动、dv/dt、杂散电感、短路保护都要针对性强化，其中 2B 是 SiC 综合体验最佳封装。
+
+碳化硅器件（SBD+MOSFET+模块）产品介绍文章链接
+
+  
+
+1.SiC SBD产品介绍
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNjYicVic4zS7jm5rmFJIg5UsZiaoic4k6JkiaP5FFbJsVQoWpQdUiayerdMRVPDYob9hmTTppQ0VOibgia5ia81NaQWL2IU1icY7JQNhFe4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)
+
+[1200V 20A-100A的SiC SBD的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513753&idx=1&sn=00ba00e4f43c48a5a4b0cb55aa8f5d7d&scene=21#wechat_redirect)
+
+  
+
+2.SiC MOSFET产品介绍
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN7m8CcgCiamsibATW0mbC738QvcToL0KyRh8drziajS9KaQmaDEuLb998KZBAzWLq1iansRoc2QjbQO1Qia6ffamJBy9PJcAicaptZU/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=8)
+
+[8种封装的国产碳化硅(SiC)MOSFET产品选型及设计应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247506596&idx=1&sn=c317d83220c0fd6f936ac79de4b611b3&scene=21#wechat_redirect)
+
+  
+
+[TOLL封装的SiC MOSFET](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247508515&idx=1&sn=82d82ca04e03b63cc702cb27350ae7e1&scene=21#wechat_redirect)
+
+  
+
+[采用TO263-7封装650V～1700V的SiC MOSFET](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247514170&idx=1&sn=4f00ad9088d9ae52f83680f6f0d4d6d2&scene=21#wechat_redirect)
+
+  
+
+[TOLT封装的SiC MOSFE产品及应用介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247539705&idx=1&sn=db2369c1e63b225addf08cc23cc0ebd2&scene=21#wechat_redirect)
+
+  
+
+[TOLL和TOLT封装的SiC MOSFTE应用对比](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247539428&idx=1&sn=6bdc5cb8a49590ef8d291338747a79b6&scene=21#wechat_redirect)
+
+  
+
+3.SiC 功率模块产品介绍
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNvZwTwhlo0eNKJHSkViaD38aS0MaUxzJ7xBgUcC0JiboT0PFkrz27XVhcJqiaetxxmteeB0Vp8eVfQgEIhBEnEXicsLZiba6zAAY7w/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=9)
+
+[10种封装的碳化硅MOSFET和11种封装的SiC功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247533514&idx=1&sn=5a094030fb5da795f6e432cf3bcc332c&scene=21#wechat_redirect)
+
+  
+
+[HPD封装的SiC功率模块的产品介绍](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247517124&idx=1&sn=35085cc392a067787930bf863a134590&scene=21#wechat_redirect)
+
+  
+
+[MD3系列的三相全桥碳化硅（SiC）功率模块的产品及应用场景](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247519655&idx=1&sn=079d26a795b2ff807b28e5736e8b06d9&scene=21#wechat_redirect)
+
+  
+
+[MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247517193&idx=1&sn=684c24f1755b073b770c1c7ab9cc50ad&scene=21#wechat_redirect)
+
+  
+
+[62mm封装的SiC功率模块的产品及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247515543&idx=1&sn=9b90b76843b8453c434ffd9ada6cbd7f&scene=21#wechat_redirect)
+
+  
+
+[DCM封装的碳化硅（SiC）功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247517694&idx=1&sn=1679554149297473be8c46272265d3a0&scene=21#wechat_redirect)
+
+  
+
+[Econodual封装1200V1000A的SiC功率模块产品介绍及仿真测试](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247513868&idx=1&sn=0dc0d8b427d47c622018c5d97ffc080a&scene=21#wechat_redirect)
+
+  
+
+[34mm封装碳化硅MOSFET半桥模块，助力工业电源（焊机逆变、感应加热设备、高频逆变器、不间断电源）的高效化和小型化](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247507568&idx=1&sn=19b012f5ecd5e3f9bbcc07551f73f03e&scene=21#wechat_redirect)
+
+  
+
+[Easy封装的碳化硅（SiC）功率模块的产品介绍及应用](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247517622&idx=1&sn=d7ae98ac554700ccdf005e03e189705e&scene=21#wechat_redirect)
+
+  
+
+[SM8贴片塑封SiC半桥模块，具有顶部散热层，集成了NTC温度传感器，适合紧凑、轻便、高效率的应用场景](https://mp.weixin.qq.com/s?__biz=MzkxMDI0NzgzMg==&mid=2247517087&idx=1&sn=2aa39b989036cb20954d564dd5ad19a8&scene=21#wechat_redirect)
+
+  
+
+注明：  
+
+【版权声明】：本公众号平台注明来源或转载的文章，版权归原作者及原出处所有，仅供大家学习参考之用，若来源标注错误或侵犯到您的权利，烦请告知，我们将立即改正或删除。
+
+【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpOcpIszBmPPmK4MZecglrN9iawZWxVvd77X3QJZhvau6XOG5c9XJqR9zZo5JtFEoC6tsvUBaJBTGlibXnsF2icRlaibyqdaY4r02hU/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNG33x5vzM44yhSSLiaibKja9diaia7OYw6EKc8tbbeHFD56ea4fJsEkPoF5721f9N6OSXu2jzJ3H6ibloeNejkXOuSuXwxYoJZuyMI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=31)
+
+###   
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPlk37jIhmiaqmhVDcbaE0CiaCQyzKicWOVnPlpgicwqMnMD3Jhibh0F3lfld9zaEgfAQuYqDntxFCdaXOibc2nibwEsPuzMsTvoCgDy0/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=61)

@@ -1,0 +1,108 @@
+# 基于SiC的高电压平台电机控制器设计及研究
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/Bsj1YZ3CuLPrDWRG0Lejjg](https://mp.weixin.qq.com/s/Bsj1YZ3CuLPrDWRG0Lejjg)
+
+**文章来源：**新能源
+
+**作者：**夏正鹏，赵岩，郑易，郑富辉（无锡星驱动力科技有限公司，江苏无锡）
+
+【摘要】为解决纯电动车续航里程不足、充电时间长的痛点，开发一款基于SiC功率模块的800V电压平台电机控制器。文章首先对电机控制器高低压电路架构原理进行阐述，其次对主要高压元器件进行选型和设计，最后对控制器进行传感器标定，并进行台架测试验证。结果表明，所设计的电机控制器具有较高的电流电压采样精度、输出扭矩、功率、工作效率和系统效率，满足设计目标要求。
+
+【关键词】纯电动汽车；800V平台电机控制器；SiC功率模块
+
+**0.  前言**
+
+随着全球范围内石油能源的日渐枯竭，环境日渐恶化，使得人们对低碳经济的发展需求显得日益迫切。因此，纯电动汽车作为兼顾节能与环保的主要手段，逐步取代传统内燃车，成为人们重要的代步工具。目前纯电动车的痛点主要集中在续航里程不足、充电时间长等方面，也成为制约纯电动车普及的瓶颈之一。目前，市场上大多数纯电动车都是搭载400V电压平台的驱动系统。在同等条件下，800V高电压平台相对400V电压平台，具有电储能多、充电快、降低功率损耗等优点，也成为电动汽车发展的技术趋势之一。本文根据市场的需求，开发了一款800V高电压平台的电机控制器，与电机、变速器组成驱动系统，搭载到某款纯电动车型上，能有效解决续航短、充电慢的问题。同时，该控制器还具有高输出扭矩、功率、工作效率的特点。
+
+**1.  系统架构设计**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhkIgKtMIV93rc6ic5NgXv5Bia2PTGL7MPEqMlgvPLY8TEEpKGv3zfymfw/640?wx_fmt=png&from=appmsg)
+
+电机控制器高压电路架构图如图1所示，高压电池将直流高压通过高压连接器输人到滤波器。直流母线电压信号通过滤波器滤除噪声和干扰信号后，输出到直流母线电容。直流母线电容将滤波的直流母线电压信号进行平滑和稳压处理后，输人给SiC功率模块使用。SiC功率模块将直流电压经过逆变后，转变成三相交流电，输入给电机的三相铜排，驱动电机旋转。为防止低压电中断，影响控制板工作，在整个高压回路中设计有备份电源。备份电源将滤波后的直流母线高压经过降压后，输人给主控板的供电电路使用。
+
+**2.  元器件选型**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhsmVqkqmEQ37OoSmFdUMHFib5xtUVic6bIhr9zQ1mzm4xiatA06e9UyQkQ/640?wx_fmt=png&from=appmsg)
+
+控制器组成元器件如图2所示。在控制器内部，高压元器件主要包括滤波器、直流母线电容、SiC模块、三相铜排及磁环组件和三相电流传感器；低压元器件主要包括控制板、低压接插件和壳体温度传感器；辅助元器件包括进出水管、观察窗盖、透气阀和各种密封圈等。这些元器件通过螺栓固定在控制器的主壳体上。控制器主要设计指标见表1。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhBmpeu0tKQ05tzTa6KNkG6sPFGwOo3ue9Oo21YOiahWM7ZUzBibAPPDSw/640?wx_fmt=png&from=appmsg)
+
+**2.1  功率模块选型**
+
+碳化硅（SiC）作为第3代半导体材料，具有耐高温、耐高压的特点，同时开关损耗小，是800V电压平台下功率器件的首选。根据表中的整车设计输人，本文的碳化硅功率模块选择基本半导体的BMF800R12FC4。SiC模块外观如图3所示，具有高电流密度，专为纯电动车主驱逆变器应用设计，采用先进的有压型银烧结工艺和高性能铜线键合技术，使用氮化硅陶瓷基板，以及直接水冷的Pin-Fin结构。该功率模块击穿电压为1200V；在工作结温25℃下，最大连续漏极电流为800A，导通电阻为1.3毫欧；通过DCM激光焊接后，在额定电压700V可以输出620A的电流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKh8pm1DvHcSKJueu1UqP3KKOdvndaH0kWy6icicj2l2Q2aEtYE8MRiczfvw/640?wx_fmt=png&from=appmsg)
+
+**2.2  直流母线电容计算**
+
+电机控制器大扭矩工作时，从电池包得到峰值很高脉冲电流的同时，随之产生很高的脉冲电压。母线电容可以吸收高脉冲电流，防止逆变器受到DC-Link端的电压过冲和瞬时过压而出现损坏。母线电容的计算模型及流程如图4、图5所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhxADE18ibRKv0sfjE36Mqt8ugAhWFqE64CJwVobCUsdxYbzIDicLoEvmA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhX2rUJR0iaL2hewaiaKEjDP5lN1NuGynzx0nV0fcCeVeCWu3GFFfvkCng/640?wx_fmt=png&from=appmsg)
+
+母线电容的纹波电流、容值设计最小值计算公式如式：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhwuHHNG43iaJe2hvrEicjoK0FlrLvQJjokfh7NKbfjfr7qz570l623Zkg/640?wx_fmt=png&from=appmsg)
+
+式中：Ir—纹波电流；Io一控制器额定输出电流；M—调制比；cosg—功率因素；Cmin—母线电容的容值设计最小值；P—控制器额定功率；Un—控制器额定电压；Upp一纹波电压。
+
+调制比M取0.9，功率因素取1，同时将表1中对应的参数代人式（1）、式（2）后，计算出电容的纹波电流为144A，母线电容值最小为536μuF，考虑到设计余量，最终电容容量确定为550uF。
+
+**2.3滤波器设计**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhw1GLdlD4FfTtLp69OiabWZ0E9K7OtUJxMVbaBOQZYyibwP7QpG5te3Pg/640?wx_fmt=png&from=appmsg)
+
+滤波器的设计输人参数见表2，滤波器的原理图和外观图如图6、图7所示。输入电感L1和输出电感L2采用纳米晶材料，磁导率为30000~50000，居里温度为570℃，其中L1电感值大于20μH，L2电感值大于40μH；安规电容Cx1为47nF，Cx2为0.47μF，Cy1为22nF，Cy2为150nF，Cy3为1nF。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhyib323Hwhtuy85OneIFCgxviagGJt0LSSEK06xDRZIXvoSumaOFoeHWA/640?wx_fmt=png&from=appmsg)
+
+**3.  台架试验验证**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhZ9dleVIgic1hrupeUO2AZ1Y308QN2ukvibotiaXibKDL5KOjqNNrjwOVqQ/640?wx_fmt=png&from=appmsg)
+
+搭载永磁同步电机和系统测试台架示意如图8、图9所示。与控制器搭配台架的电机采用永磁同步电机，借助于测试台架，对控制器进行系统性能测试及系统效率测试。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhepWezUMzQfvMq476FhWibZ5ibT36EEPsRjQUpNCaaTHumPYmaYuXicD7w/640?wx_fmt=png&from=appmsg)
+
+**3.1 电流&电压标定**
+
+在进行系统性能及效率测试之前，首先对三相电流传感器和母线电压传感器进行标定和测试。对传感器标定完成后，通过功率分析仪对三相电流及母线电压进行实际测量，并记录相关数据。
+
+将三相电流的实测值与指令值进行比较（表3）可见，在旋转频率为20Hz时，三相电流的采样精度控制在1%以内；在旋转频率为40Hz时，三相电流的采样精度控制在2%以内。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhTXxy8zH21bkFlenTVtCxIBEwQFFFcxZXBkujyc6yt9j6mbraBqKYow/640?wx_fmt=png&from=appmsg)
+
+将直流母线电压的实测值与指令值进行比较（表4），发现直流母线电压的采样精度可控制在0.2%以内。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKh8w8EpP2Xcibt89BEa5Hbdd9CnkLpGia6y8v99okCPrwgdVEkQb6BCWhg/640?wx_fmt=png&from=appmsg)
+
+**3.2系统性能测试**
+
+在700V额定电压平台下，对电机控制器进行系统外特性测试。如图10、图11所示，在电动工况下，能够稳定输出411N·m的峰值扭矩和342kW的峰值功率；在发电工况下，能够稳定输出412N·m的峰值扭矩和260kW的峰值功率。在电动工况下，将700V电压平台下的仿真与实测值进行对比。从图11可以看出，系统峰值扭矩和峰值功率的实测值均高于仿真值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhgkRt5zeRPB9eOXbUhFcadtVxPQqe24ed36kQUyBab3a4JxfpdbCQPA/640?wx_fmt=png&from=appmsg)
+
+**3.3 控制器效率测试**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhOOdktBibySAnwOyvmZSMzgB3VwrA3KY0q3LTjrGnVvOOibguRhibAXy4g/640?wx_fmt=png&from=appmsg)
+
+在700V额定电压平台下，对高性能电机控制器、二合一系统进行效率测试。400V控制器效率Map图如图12所示，400V系统效率Map图如图13所示。控制器单体的最高效率为99.3%，系统最高效率为95.98%。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXgVFx5wDJ8nrTic6n6RSKhCujgUH8mKotO1SBjZZhGbaxZcPFbVWIAVxHJgK0Uw7Y5rbY0gUuT4Q/640?wx_fmt=png&from=appmsg)
+
+**4.  结语**
+
+本文设计了一款基于SiC功率的车用高电压平台电机控制器，能够有效解决纯电动车续航里程短、充电时间长的问题。基于整车设计目标，对主要高压元器件进行合理选型和设计。通过传感器标定和台架测试验证，所设计的电机控制器具有较高电流和电压采样精度，较高的输出扭矩和功率，以及较高的工作效率和系统效率，达到设计目标要求。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

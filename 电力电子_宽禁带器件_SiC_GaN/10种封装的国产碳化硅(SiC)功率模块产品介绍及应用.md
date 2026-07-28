@@ -1,0 +1,434 @@
+# 10种封装的国产碳化硅(SiC)功率模块产品介绍及应用
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/0Wo-6L4u8OnKISjr8O3XkQ](https://mp.weixin.qq.com/s/0Wo-6L4u8OnKISjr8O3XkQ)
+
+1.  在新基建和“双碳”战略目标指引下，第三代半导体技术（以SiC和GaN为主）的应用正在提速，并有望成为绿色经济的中流砥柱，引领新一轮产业革命。
+    
+    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7B8vzHFZk9ibKEtPd7aJcTLbjOk9RmvLOeyfibUxOFEwl8xRwKXoK0UGQ/640?wx_fmt=png&from=appmsg)
+    
+    在新能源领域需要各种节能和高效的产品和应用方案。凭借高耐压、高节温特性，SiC器件，特别是功率模块在新能源汽车、电网输配电、工业变频、轨道牵引、可再生能源等领域为实现高效、节能、轻量小型的电力转换设备做出贡献。
+    
+    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj79lCOp1EO0ZqQSoP6QOUPRVxet7CRDG94P3GLfWAbhdcu16R8XjYEBg/640?wx_fmt=png&from=appmsg)
+    
+
+1.    
+    
+2.  碳化硅模块在大功率电源中应用有一定的性能优势，相比传统硅基IGBT功率模块具有更高功率密度、更高可靠性、更高工作结温、更低寄生电感、更低热阻等特性。在需要提升系统功率密度、使用更高主开关频率的尖端电力电子设备的性能升级过程中，现有硅基IGBT配合硅基FRD（快恢复二极管）的性能已无法完全满足要求，需要高性能与性价比兼具的主开关器件。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmrNyG799Na04mXYHubmbj70ChrSibVg1ibXY1FaiasmzstLWWhSQnrWLOd8RPLalTWMibnLBXiaLR7DBA/640?wx_fmt=jpeg&from=appmsg)
+
+与基于 IGBT的功率模块相比，SiC模块具有以下几个优势： 
+
+  
+
+1.开关速度更快：开关损耗更低，对无源元件的需求更少，从而减少了系统面积
+
+  
+
+2.适用于高开关频率的应用
+
+  
+
+3.高阻断电压
+
+  
+
+4.结温更高
+
+  
+
+5.高电流密度
+
+  
+
+6.SiC模块可降低开关损耗，实现最高效率
+
+  
+
+7.高功率密度：高开关频率、最小化损耗和最大化效率相结合，可实现卓越的输出功率和功率密度；
+
+  
+  
+
+8.降低整体系统成本：开关频率的增加，可以减少无源滤波器元件的数量。同时，也降低了功率损耗，从而减少了散热器的面积，减少了整体的冷却需求。这两个优势大幅降低了总体系统成本。
+
+1.    
+    
+2.  碳化硅MOSFET功率模块介绍
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNqAia1zjCHNDo6LAPf6hMf30nL6bOY1lEXQvcbSyvyV0RdOeOGSqmEhrBHEph2gtUhms1X3zWeZA/640?wx_fmt=png&from=appmsg)
+
+1.  SiC MOSFET模块拥有丰富的拓扑结构，包括半桥、三相桥、三电平以及boost升压电路等封装形式。根据外围器件的集成情况,还有 PIM、IPM 和逆变砖等封装形式。 从散热方式来看, SiC模块可以分为单面冷却和双面冷却。根据封装外壳类型,可以分为转模塑封结构和HPD框架结构。随着客户端需求的多样化，定制化模块也逐渐流行起来。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7EDCY2MfW9dxrUiaIuwp5MgfN6jBicQAM775p7VtgzFSB6sTYmCE1AG4w/640?wx_fmt=png&from=appmsg)
+
+爱仕特专注SiC功率模块的自主研发和生产，有自建模块工厂。SiC模块电压等级从650V到1700V全系量产，封装齐全，满足车规级和工业级要求，电流30A-1000A，产品性能与国外主流品牌性能相当。
+
+**一. 车规级HPD封装模块（三相全桥模块）**
+
+HPD封装碳化硅模块，采用HybridPACKDrive封装。
+
+碳化硅HPD模块是一种专为混合动力和电动汽车设计的功率模块，它采用了先进的碳化硅材料和特定的封装技术，旨在提升电驱系统的效率和可靠性。HPD模块主要由功率碳化硅模块、半导体器件和控制器组成，是汽车中使用的电驱模块。‌
+
+HPD模块特点 
+
+1\. AlN+AlSiC散热，最高工作结温175℃；
+
+ 2. 第三代模块寄生电感低于10nH，比现有模块小50%以上，降低开关损耗； 
+
+3\. 参数表现： 
+
+                   - VDS：650~1700V  
+
+                   - ID：400~800A 
+
+                   - RDS(on) ：1.5~6.5mΩ
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj773YYbGHVicLUlZiaEf4UsBicfMb7yF5B2D4SpobZ3dPU0BwV8m6RoN9nA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7xNmCo5hUm7Pn2slJNlicmQ1fzK1kX5t8IWkGcvlpAUUU9PROCvGRStw/640?wx_fmt=png&from=appmsg)
+
+产品与拓扑图
+
+二. MEK6封装模块（三相全桥模块）
+
+MEK6是一款1200V400A的三相全桥模块，采用平底板封装，总重量约300克、以下是模块参数图。
+
+MEK6模块特点
+
+1.最高工作结温175℃；
+
+ 2. 高功率密度，低开关损耗； 
+
+3\. 适用高温、高频应用； 
+
+4\.  参数表现： 
+
+                      - VDS：650~1700V 
+
+                      - ID：100~300A 
+
+                      - RDS(on) ：3~25mΩ  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1u4UQMb5wGLT6a358QzwpfC5YANITHpWDXib8p7liaEGYW8N3XZXeoyYA/640?wx_fmt=png)
+
+产品与拓扑图
+
+**三. DWC3封装模块（MD3三相全桥模块）**
+
+DWC3封装三相全桥碳化硅MOSFET模块，是基于客户的要求定制开发的一款款碳化硅MOSFET模块，有风冷散热和水冷散热两种封装。风冷款电流600A，水冷款电流700A，耐压超过1200V，可广泛用于重卡及各种大功率新能源车的电机驱动。
+
+MD3模块特点 
+
+1\. 采用真空回流焊工艺，AlSiC底板+低热值AlN绝缘陶瓷，最高工作结温175℃；
+
+2\. 第三代模块寄生电感低于10nH，比现有模块小50%以上，降低开关损耗；
+
+3\. 适用高温、高频应用，超低损耗；
+
+4\. 集成NTC温度传感器，易于系统集成； 
+
+5\. 参数表现： 
+
+                  - VDS：650~1700V 
+
+                  - ID：300~700A 
+
+                  - RDS(on) ：1.7~8.3mΩ
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7QZL0av7S9IswzThVzcew6OvhYla1Dp4unayjP7VMiasauPWKmPZqXFA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7QR3bXfAaw7UUkm58NCx5EDU45EePRk325nLGnhPoTricSiaic5PoLZrLg/640?wx_fmt=png&from=appmsg)
+
+**产品与拓扑图**
+
+**四. D21封装三相全桥模块**
+
+**爱仕特推出了创新力作D21系列模块：1200V三相全桥碳化硅模块。这款模块采用紧凑型顶部散热塑封结构，以其高效能、高功率密度和优秀的散热性能，展现了碳化硅材料在高压、高频、低损耗方面的优势，为电动汽车空调压缩机、车载充电机及工业驱动系统等提供了创新解决方案，推动行业向更高效、更环保的方向迈进。**
+
+D21模块特点
+
+1\. 系统体积小，成本降低
+
+2\. 高功率密度，低寄生电感，低开关损耗；
+
+3\. 散热能力强。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNqAia1zjCHNDo6LAPf6hMfSb9V98lKpGJRT1iaiaLT1bdicKa02m2zEwAeiaXfGLbeO6IezWrTuwGDDA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnNqAia1zjCHNDo6LAPf6hMfMjaZK8M748Gf1ibJmiaUJS8wich3glRSZ41YFaXJ5RicHPWIrKibdxVezOQ/640?wx_fmt=png&from=appmsg)
+
+**产品与拓扑图**
+
+五.   DCM封装半桥模块（DCS12半桥模块）
+
+爱仕特推出了为新一代车规级SiC模块—DCS12系列，该产品采用半桥式结构，工作额定电压范围为650V-1700V，工作电流范围为400A-1000A，契合大多数新能源汽车的使用场景，给即将到来的高压高功率时代注入新动力。
+
+DCS12模块特点
+
+ 1. 采用单面水冷+模封工艺，最高工作结温175℃； 
+
+2\. 功率密度高，适用高温、高频应用，超低损耗； 
+
+3\. 集成NTC温度传感器，易于系统集成； 
+
+4\. 参数表现：                   
+
+                    - VDS：650~1700V                   
+
+                    - ID：400~800A                 
+
+                    - RDS(on) ：1.5~6.2mΩ
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7OBpJBM8phAUn79wRU1Jq6jibdCLLEURGr9xSVGfJbDdJ34LJv3RtpVw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj71XeBRyOTd2faicmazmibtanezXmpdKRJ892PjvqicknoFBZ9MH60sAFiag/640?wx_fmt=png&from=appmsg)
+
+产品与拓扑图  
+
+在工艺设计上，爱仕特DCS12模块系列具有以下优势：  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_gif/aJG5QWxqLskibxsh2ghyttzsibFPKIm53KBVEAL4icWoGiciaNkfI8jTfwg1GvLVC21Cfszzy0cL0bbctNnlmwUwmCw/640?wx_fmt=gif&from=appmsg)
+
+●散热架构优越，整体可靠性强：DCS12模块一方面优化水道结构设计，通过分区散热和对水流的精准控制，避免了整体温差梯度过大的问题，实现直接水冷以降低系统热阻，最高工作结温175℃；另一方面，这种并联的水道设计使得芯片均匀冷却无温差，利于并联的芯片中电流均匀分布，模块可靠性进一步提升。 
+
+●密封性良好，杂散电感低：DCS12模块的封装是一次铸造成型，其密封保护可以确保逆变器在机械冲击和潮湿环境下仍然可实现稳定可靠的性能，允许极限温度循环以及更高的结温来提升功率密度；此外，模块结构紧凑，利于降低模块的杂散电感，进而降低系统杂散电感，并充分利用SiC器件的高速开关特性，以降低电压过冲的影响。  
+
+●功率密度高，适用高温、高频应用，超低损耗：DCS12模块采用银烧结与铜绑定技术的结合，解决了普通绑定工艺可靠性问题，在不降低电流的情况下实现更高结温下运行，功率循环能力得到大幅度提升。  
+
+**六.   Easy-EP封装半桥模块**
+
+为适用于储能系统（ESS）这样的快速开关应用，有助于提高太阳能系统的额定功率和能效，并满足对1500V DC-link太阳能系统与日俱增的需求，爱仕特开发的Easy-EP和Easy-MEP封装模块。
+
+EP模块特点 
+
+1\. 采用先进的真空回流焊工艺，Al2O3绝缘陶瓷，最高工作结温150℃； 
+
+2\. 高功率密度，低寄生电感，低开关损耗； 
+
+3\. 适用高温、高频应用； 
+
+4\. 集成NTC温度传感器，易于系统集成； 
+
+5\. 参数表现： 
+
+                  - VDS：650~1200V 
+
+                  - ID：30~200A 
+
+                  - RDS(on) ：6~80mΩ
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7icnMGpVbicSwtrHtFKl7w5icUWclHpbTPicGLAhR3R678GAC9mmMVV3IVw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7q5avYKama0Czw4Tbkgg8Nsase45Y3NwALXKtdM2ZYZbWaHnulpicWOg/640?wx_fmt=png&from=appmsg)
+
+产品与拓扑图
+
+七.   Easy-MEP封装模块（半桥-H桥-三电平等多种拓扑）
+
+MEP模块特点 
+
+1\. 采用先进的真空回流焊工艺，Al2O3绝缘陶瓷，最高工作结温150℃； 
+
+2\. 高功率密度，低寄生电感，低开关损耗； 
+
+3\. 适用高温、高频应用； 
+
+4\. 集成NTC温度传感器，易于系统集成； 
+
+5\. 参数表现：                   
+
+                   - VDS：650~1700V                   
+
+                   - ID：30~300A                   
+
+                   - RDS(on) ：4~80mΩ
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7nMy8TWnak0ILQHKeFdJDKF66SI85JSVJ8t5dicbWib8oC2AZ2DzN9ibuQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7pNOzlVpLicJsaqvRSt5jDVbEhicKCtb0UnNzsnUDfAP6QiaOFMGtiaetWw/640?wx_fmt=png&from=appmsg)
+
+产品与拓扑图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7mIjibkvHt8B42qOQmUFYhuObsEwGicmSwiaaphKKVnBiaX2o0V6fp3F3Tg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7lETgx3Nk8XicecqPWsfATa5LE2g4Mlj6zQIrAvcgXx3iaQu1bfm9CMZA/640?wx_fmt=png&from=appmsg)
+
+产品与H桥拓扑图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj72dy2p9DyFkmXiae2WNLZWyVkiaDfvtHtL6OUxqYMLlFmEQ2k4WXdgbjw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7rKSSkuuVyfib4zJmic712E5vnB8nicDzG4pEtBmE3QHoRk6S8hHdcHogQ/640?wx_fmt=png&from=appmsg)
+
+产品与三电平拓扑图
+
+八.   Econodual（MED）封装半桥模块
+
+Econodual半桥封装的设计使其特别适用于商用车的高功率需求。其高电压和大电流规格可以满足商用车在复杂和严苛的工作环境下对电力转换和控制的高要求。此外，Econodual半桥封装还具备其他优点，如高可靠性、高效率、良好的热管理性能等。这些优点使得Econodual半桥封装在商用车市场上得到广泛应用。
+
+MED模块特点
+
+1\. 采用真空回流焊工艺，Cu底板+低热值AlN绝缘陶瓷，最高工作结温175℃；
+
+2\. 功率密度高,适用高温、高频应用，超低损耗；
+
+3\. 集成NTC温度传感器，易于系统集成；
+
+4\. 常关功率模块，零拖尾电流，寄生电感小于15nH，开关损耗低；
+
+5\. 参数表现：
+
+                  **- VDS：650~1700V**
+
+                  **- ID：270~800A**
+
+                  **- R****DS(on)** **：1.5~8.7mΩ**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7J20mnW552Yib2WcGJ8azPsZEfCEQ8FCxBUt8n9Ho4PyWfkaTQXukicNg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7QwLiblTGX5QAzgp81XFlEib2tvjuKkYWxmUpkAKEng1y231PW5PNviblA/640?wx_fmt=png&from=appmsg)
+
+产品与拓扑图
+
+**九.  62mm封装半桥模块**
+
+**全碳化硅62mm封装模块。该产品突破了硅IGBT技术在62mm封装功率密度极限，为碳化硅打开了250kW 以上中等功率应用的大门，扩展到太阳能、服务器、储能、电动汽车充电桩、牵引以及商用感应电磁炉和功率转换系统等。该模块采用成熟的 62mm 器件半桥拓扑设计，同时采用了全焊片工艺以及自建不同熔点焊片体系，保证了焊料层稳定性及可控性，提高了器件的耐温度循环能力。**
+
+**62mm模块特点**
+
+1\. 采用全焊片工艺，Cu底板+低热值AlN绝缘陶瓷；  
+2\. 高功率密度，低寄生电感，低开关损耗；  
+3\. 适用高温、高频应用；
+
+4\. 参数表现：
+
+ **- VDS：650~1700V**
+
+ **- ID：30~600A**
+
+ **- RDS(on) ：2~80mΩ**
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/qo7HKGYbxCjAia7DxZNWtTbLXzMKqfLfLsqzW6s5GDNkM3UmuIGsvJmW8kPdS8j70JROVp7YRXRaT3rkiaYlzrug/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7B6JhPe6sotqTFQEadIawm4QggG7tI5cEOb0NETJiaG6bUibibKse5u9ug/640?wx_fmt=png&from=appmsg)
+
+产品与拓扑图
+
+  
+
+**十.   34mm封装半桥模块**
+
+**34mm工业标准封装产品，具有更多灵活性和可靠性，主要应用于工业焊机、电机传动、UPS电源、高频开关、大功率变流器等工业领域。**
+
+  
+
+爱仕特34mm封装碳化硅模块具有高过载和高耐温循环能力，采用了全焊片工艺以及自建不同熔点焊片体系，保证了焊料层的稳定性及可控性，提高了器件的耐温度循环能力和可靠性。该产品搭载爱仕特新一代SiC MOSFET芯片，较低的开关损耗和导通损耗，可以最大限度地减少冷却器件尺寸。在高开关频率下运行时，可使用更小的磁性元件。其对称模块设计，能够实现对称的上下桥臂开关行为，使得产品具有更低寄生参数及开关特性。  
+
+爱仕特34mm封装碳化硅模块采用成熟的34mm器件半桥拓扑设计，具有高功率密度，允许使用相同的结构尺寸来增加逆变器输出功率，延长了器件使用寿命，提高了系统可靠性，为终端客户提高了产品竞争力。
+
+34mm模块特点
+
+1\. 采用全焊片工艺，Cu底板+低热值AlN绝缘陶瓷；  
+2\. 高功率密度，低寄生电感，低开关损耗；  
+3\. 适用高温、高频应用；
+
+4\. 参数表现：
+
+                 **-VDS：650~1700V**
+
+                 **-ID：30~300A**
+
+                **-RDS(on) ：4~80mΩ**
+
+**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7hFIcic1rvUiaHOKFKpmv6y9aKam39rljDaczKhzrGLmibIpIgfh67pTlA/640?wx_fmt=png&from=appmsg)**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmrNyG799Na04mXYHubmbj7cEADNaptL4AFIQb99va7tQYdllMSIBOyNibzfHkgvLJxVOM1WM1SuNQ/640?wx_fmt=png&from=appmsg)
+
+产品与拓扑图
+
+SiC模块的发展方向
+
+SiC模块在电力电子系统中的核心作用。SiC模块被誉为“电力电子系统的心脏“，是实现电能高效变换与控制的关键组件。与传统硅基功率器件相比，SiC模块具有更高的效率、更小的体积和重量，能够满足高能效、小型化、轻量化的需求。特别是在空间电源系统中，SiC模块能够显著提升系统的整体性能和可靠性，满足航天器对高能效和轻量化的要求。
+
+其次，SiC模块在市场和技术领域的竞争格局。随着硅基功率器件性能逼近极限，以碳化硅（SiC）为代表的第三代半导体材料凭借其独特优势，成为电力电子领域的重要突破口。全球多个国家和企业都在加大对SiC芯片的投资，以应对气候变化和保障芯片供应的需求。
+
+最后，SiC模块在不同领域的应用前景。SiC模块在电动汽车、太阳能转换器、电力电子设备等领域有着广泛的应用。其高效能、高可靠性的特点使得SiC模块在这些领域中具有显著的优势，能够显著提升系统的性能和效率，降低运行成本。特别是在电动汽车领域，SiC模块的应用将推动电动汽车的续航能力和充电效率的提升，满足市场对高性能电动汽车的需求。
+
+SiC模块的应用
+
+SiC模块是一种基于碳化硅（SiC）材料的功率半导体模块，具有高效率、高开关频率、低导通损耗和优异的热性能等特点。以下是其应用方法及应用领域：
+
+应用方法
+
+1. 选择合适的封装和拓扑结构：SiC模块有多种封装形式和拓扑结构，如半桥、三相全桥。根据具体的应用需求，可以选择合适的模块配置来实现最佳的性能和效率。
+
+2. 优化驱动电路设计：SiC MOSFET的开关速度极快，需要匹配合适的驱动电路。例如，采用隔离式驱动IC可以更好地控制开关过程，减少寄生效应。
+
+3. 热管理设计：SiC模块在高功率应用中会产生大量热量，因此需要有效的热管理措施。例如，采用双面冷却、针翅设计等先进散热技术，以确保模块在高温下稳定运行。
+
+4. 系统集成与优化：在设计中充分利用SiC MOSFET的高频特性，减少无源元件的尺寸和数量，从而实现更高的功率密度和系统效率。
+
+应用领域
+
+1. 电动汽车（EV）：
+
+• 主逆变器：SiC模块可显著提高电动汽车的续航里程和动力性能。例如，在800V电池系统中，SiC主逆变器相比传统硅基IGBT可提高5%~10%的续航里程。
+
+• 车载充电器（OBC）和DC-DC转换器：SiC MOSFET模块可提高OBC的效率，减少散热需求，支持800V快充系统。
+
+2. 可再生能源：
+
+• 太阳能逆变器：SiC MOSFET模块可将光伏逆变器的功率密度提高2.5倍，效率可达99%以上。在1500V光伏系统中，SiC模块可显著提升系统效率。
+
+• 储能系统：SiC MOSFET模块可提高储能系统的能量转换效率，减少电池损耗。
+
+3. 工业自动化与机器人：
+
+• SiC MOSFET模块能够满足工业机械的高功率需求，提供更高的功率密度和热管理性能。
+
+4. 航空航天与国防：
+
+• 在航空航天领域，SiC MOSFET模块的高可靠性、高功率密度和优异的热性能使其成为理想的电子系统解决方案。
+
+5. 数据中心与服务器电源：
+
+• SiC MOSFET模块可提高服务器电源的效率，满足80 Plus Titanium等高能效标准。
+
+6. 其他领域：
+
+• 燃料电池电动汽车（FCEV）：SiC MOSFET模块可用于燃料电池的空气压缩机和DC-DC升压转换器。
+
+• 高频DC-DC转换器：在软开关应用中，SiC MOSFET模块可降低导通损耗，提高系统效率。
+
+随着技术的不断进步和成本的降低，SiC MOSFET模块的应用范围将进一步扩大。
+
+总结
+
+SiC器件在不断发展，其优缺点也在不断被认知，随着产品应用更加多样化，下一步的重点将是大幅度降低成本，实现更多商业应用，同时努力提高电力电子设备中其他元器件的协调性和一致性，从而最大限度地发挥SiC器件的优势，尤其是在系统可靠性方面。SiC基半导体器件的发展和应用，将有效促地进现代军事电子系统实现高效能、高机动、轻小化、全天候的应用目标并使得集雷达、电子战、通信、导航系统等为一体的高密度电子系统得到飞跃的发展。它也可广泛的应用于民用电力电子设备、太阳能发电、高铁牵引设备、高压直流输电、混合动力等领域，可以显著地降低能源损耗，真正的实现高转换效率低能耗的“绿色能源革命”
+
+  
+
+**说明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)
+
+  
+
+  
+
+-   
+    
+
+  
+
+-     
+    
+
+-

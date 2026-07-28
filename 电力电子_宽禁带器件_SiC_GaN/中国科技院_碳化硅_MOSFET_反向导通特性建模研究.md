@@ -1,0 +1,122 @@
+# 中国科技院：碳化硅 MOSFET 反向导通特性建模研究
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/C\_3Kv6NBAzvIeKVbHeXrlw](https://mp.weixin.qq.com/s/C_3Kv6NBAzvIeKVbHeXrlw)
+
+**文章来源：**电 工 电 能 新 技 术
+
+**作者：**周志达1,2, 葛琼璇1, 赵 鲁1, 杨 博1,2(1. 中国科学院电力电子与电气驱动重点实验室, 中国科学院电工研究所;2. 中国科学院大学,)
+
+**摘要:** 碳化硅宽禁带半导体器件因其损耗小、开关时间短以及温度特性稳定等诸多优点在中小功率变换器得到广泛关注。对比 Si IGBT,SiC MOSFET 的反向导通(第三象限运行)压降更低、损耗更小、载流能力更高,在电机驱动、移相 DC / DC 变换器以及同步整流器中应用更有优势。首先研究了 SiC MOSFET 反向导通机理及其外特性随温度变化规律,提出了一种适用于不同封装、不同型号的反向导通建模方法,实现仅需数据手册即可快速建立包含不同结温特性的行为模型,仿真结果验证了提出的建模方法对分立元件和功率模块的准确性和有效性。
+
+**关键词:** 碳化硅 MOSFET; 反向导通; 通用行为模型
+
+**1 引言**
+
+电力电子开关器件的电气性能通常用额定功率容量和最大工作频率的乘积表征\[1\],自硅基半导体器件得到规模应用的五十多年来,目前器件电气性能在109~1010W·Hz 之间,已经接近材料极限\[1, 2\]。与硅基材料相比,化合物半导体碳化硅材料制成的宽禁带开关器件具有耐压等级高、导通电阻小、高频损耗低和温度特性稳定等诸多优点。在器件商业化初期主要应用于小功率开关电源、模块化光伏发电等领域,替代了 Si MOSFET 分立元件,系统效率得到提升,功率器件数目进一步减少\[3\]。随着 1700V/ 300A 和1200V/ 300A 功率模块量产,SiC MOSFET 逐渐替代 SiIGBT 应用于轨道交通\[4-6\]、电动汽车\[7\]、数据中心供电系统\[8-10\]等大功率场合,系统功率密度、运行效率以及器件损耗均有不同程度的改善。
+
+MOSFET 作为单极型器件,其沟道本身可正反向导通电流,加上其内部寄生二极管,可实现反向稳态导通、死区时间换流以及 PWM 调制变换的需求;而双极型 IGBT 器件必须反并联二极管才可实现反向导通,导通压降和损耗较高,载流能力较低。另一方面,MOSFET 反向导通机理对比 IGBT 的反并联二极管导通复杂,随着沟道反型层的不同状态以及寄生二极管两端施加电压大小,可能存在二极管独立导通、沟道独立导通以及沟道和二极管并联导通 3种情况。
+
+SiC MOSFET 作为新型化合物半导体器件,其沟道导通电阻、 器 件 阈 值 电 压 的 温 度 特 性 与 SiMOSFET 有很大差别\[11\],内部寄生二极管由于 MOS界面缺陷导致阈值电压高,导通电阻大,目前应用中普遍反并联 SiC 肖特基势垒二极管(Schottky Barrier Diode, SBD)\[12\]以旁路性能较差的寄生二极管,但这种全 SiC 组合器件不仅提升了系统成本,反向导通过程也变得更加复杂。
+
+目前 SiC 器件成本仍然较高,器件迭代速度较快,研究器件反向导通机理能更好地评估反并联SBD 的必要性,对反向导通特性的建模可用于预测系统性能、体积以及效率等关键指标。文献\[13\]提出的经典的 SiC MOSFET 行为建模方法,采用 Pspice Level 1 模型\[14\] 做沟道内核,在大电流正向导通特性精度较差且无法对反向导通特性独立建模。文献\[15\] 基于经典 EKV( Enz Krummenacher Vittoz) 模型,采用统一的沟道电流表达式描述沟道在弱、中、强三种不同反型层的特性。但沟道正反向导通模型采用完全相同的参数。文献\[16\]采用多个 MOSFET和 SBD 晶圆并联的形式对功率模块进行物理建模,然而沟道反向导通特性仍然没有独立模型。
+
+在 SiC MOSFET 数据手册中,给出了不同驱动电压 Vgs下源漏极电压 Vsd和源极电流 Is 的输出特性曲线,同时也给出了体二极管特性和正压驱动时反向导通特性,也称为第三象限特性曲线,倘若简单地将 MOSFET 输出特性与寄生 PiN 二极管伏安特性插值相加,再与反向导通伏安特性对比,结果可能出现较大的差异,结温为 25℃时分立元件 C2M0025120D特性曲线的对比结果如图 1 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHNEYUsyH1FofBoG4ABS7nJWJleoGbJ81VLbtmqcecVWx9pErwb5iaoMQ/640?wx_fmt=png&from=appmsg)
+
+综上,目前碳化硅器件的建模研究仍集中于正向导通特性,大多将沟道正反向导通视为完全相同的过程,缺乏对反向导通机理研究,现有模型不能准确反映 SiC 功率 MOSFET 器件工作在第三象限时的动静态特性。
+
+本文首先研究了 SiC MOSFET 反向导通特性以及结温的影响,针对碳化硅 1200V/ 90A 分立元件C2M0025120D 以 及 1200V/ 300A 功 率 模 块CAS300M12BM2,提出一种仅需要数据手册的通用型建模方法,沟道模型采用改进的 EKV 模型,模型参数均加入了结温自由度,可快速建立包含不同结温的行为模型。文章第 3 节给出了详细的建模方法,通过 LTspice 的仿真结果验证了提出的建模方法的准确性和通用性。
+
+**2 SiC MOSFET 反向导通特性**
+
+**2\. 1 分立元件反向导通**
+
+**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHf8dZvCDV0BQQ3zpVI2s8vTjkX7U3dgcAkjeGkIrSVh3lnL3Wg7kXSg/640?wx_fmt=png&from=appmsg)**
+
+图 2 为目前商业化 SiC MOSFET 常用双植入垂直型(Vertical Double Implanted MOSFET, VDIMOSFET)元胞结构的两种反向导通形式:当器件采用负压关断时,沟道被完全夹断,反向导通电流全部流经寄生 PiN 二极管;当驱动电压为正,沟道形成反型层,等效为沟道电阻与寄生二极管并联导通。由于SiC MOSFET 的界面缺陷,其寄生二极管的开启电压V、正向压降和导通电阻较大,因此根据源漏极电压sd大小有两种通流回路:当 Vsd小于二极管开启电压时,反向电流 Is 只流过沟道电阻;当 Vsd略大于二极管开启电压,沟道和 PiN 二极管并联导通;随着反向导通电流的增大,沟道导通电阻由于短沟道效应\[11\]不断增大,并联导通分流逐渐变小,最后反向电流全部流入寄生二极管。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHwf2rhXODYOv8DhpLdmUeia9AHAIiabZ966Xkm72LUYkBUXIwGqtqhQSQ/640?wx_fmt=png&from=appmsg)
+
+分立元件 25℃驱动负压下二极管导通特性如图3 所示。从图 3 中寄生二极管伏安曲线可以看出不同的关断负压特性曲线不同, -5V 关断比 0V 关断时器件开启电压更低,当关断电压继续降低,特性趋于稳定,受驱动负压的影响越来越小。该现象符合文献\[17\]所述:在 0 关断时,沟道体区效应明显,因此二极管阈值电压 Vth下降使得器件更容易导通,拥有更好的特性曲线。文献\[17\]提出的体二极管物理模型考虑了驱动负压对体区效应、沟道载流子寿命以及迁移速率的影响,在 Saber 软件中可重现不同驱动电压下体二极管特性。然而这种建模方法需要大量的器件工艺参数,在系统行为仿真中存在迭代次数多、方程矩阵阶次高的缺点。因此,在对反向导通特性建模时,为了简化模型收敛性,将 - 5V 关断下的伏安特性曲线视为体二极管真实导通特性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwH5xVJx8LTp3ricXYuQYv2YdTia4Dpyv4rsSLmWD6e4ZibibnUKUCUO2jCBA/640?wx_fmt=png&from=appmsg)
+
+当驱动电压为正时,随着电压增加,SiC MOSFET 沟道逐渐形成的弱、中、强反型层,由于 MOS 沟道为单极型半导体结构,不存在 PN 结空间电荷区,可用导通电阻 Ron等效。因此,在体二极管仍未导通时,沟道形成导电支路提前导通,由图 4 可以看出在 Vgs = 20V 时,反向导通曲线线性程度高,沟道电阻分得绝大部分电流。在反向导通额定电流 90A时,二极管仍未达到开启电压。
+
+**2\. 2 功率模块反向导通**
+
+SiC MOSFET 功率模块商业化以来,以 Cree 的1200V/ 300A 以及 1700V/ 300A 为典型,基本满足100kVA/ 40kHz 的中频大功率电力电子设备应用。标称 1200V/ 300A 的半桥模块 CAS300M12BM2,内部采用 12 片第二代 SiC MOSFET 晶圆并联,单片晶圆耐压 1200V 额定电流 90A;采用 12 片第二代 SiCJBS 晶圆作为反并联二极管,单片二极管晶圆面积36mm2。由于反并联二极管的存在,额定导通压降为 3. 1V 的 SiC 寄生 PiN 二极管在常温下被额定导通压降仅为 1. 7V 的 SiC JBS 二极管有效旁路。因此,与分立元件不同,功率模块在不同驱动负压关断下,反向导通特性相差较小,如图 5 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHf8UTY0hkPKFsic4DdZxp0z7UyeLbErHT4l0KLjeicIMwGb4j0pT45D7A/640?wx_fmt=png&from=appmsg)
+
+加入反并联二极管后,反向电流在器件 0V 或负压关断时主要流经性能更好的 SiC JBS 二极管,仅在导通电流高达 500A 的区间,寄生 PiN 二极管和 MOS 沟道有部分分流,可以看出,对功率模块的二极管特性建模,仍以反并联 JBS 特性为主。JBS作为混合型二极管,兼有 SBD 的快速开关与 PiN 的导通损耗低的优点,可以独立建模。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwH86akBRyoPJva36Xo2nuGt24TMbjjp0qwNlZZZd7ibfbUdNJ5zpfX12w/640?wx_fmt=png&from=appmsg)
+
+当驱动电压为正时,反向导通特性呈现明显的道电阻和二极管分级导通的特点,如图 6 所示。
+
+正压下反向导通特性存在拐点,当二极管仍未导通时,绝大部分反向电流流经沟道;二极管开启后与沟道电阻并联导通,由于 JBS 二极管导通电阻更小因此分流效果明显。然而,如图 1 所示,在两者并联导通时,沟道反向导通特性与正向导通不同,需要独立建模。
+
+**2\. 3 结温对反向导通特性影响**
+
+2\. 1 节和 2. 2 节对分立元件和功率模块的特性研究均在常温下进行,然而 SiC MOSFET 中导通电阻和寄生 PiN 二极管导通电阻有相反的结温系数。MOSFET 器件导通总电阻 R 可看作是沟道电阻 Rch 、漂移区电阻 Rdrift和体区电阻 Rbody三者之和。当器件结温升高,MOS 沟道阈值电压下降,沟道电阻 Rch随之下降但漂移区电阻 Rdrift和体区电阻 Rbody随温度上升而增加电阻的主。导在 - 40 ~ 30℃ 结温范围,沟道电阻占总,电阻结温系数为负;在 30 ~ 150℃ ,沟道电阻进一步减小漂移区电阻和体区电阻比重增大,总电阻结温系数为正\[11\]。另一方面,寄生 PiN二极管随着结温升高,开启电压、导通压降和导通电阻均有所下降。因此,分立元件在高结温反向导通时,寄生二极管能分得更多的反向电流,反向导通特性中拐点更加明显。并且不同关断负压对大电流导通影响变小,如图 7 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwH3c7soO75R9iblHrwqnakHxPLNHyWftNRiadSUtSrt9uXvzDEZaGHB79g/640?wx_fmt=png&from=appmsg)
+
+功率模块中反并联 SiC JBS 随着结温上升开启电压下降,但导通压降和导通电阻变大,导致在高结温反向导通时反并联二极管对比体二极管性能优势变小,分流占比有所下降,因此不同负压关断时曲线出现较大差异,如图 8 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHJ6Aqia8GSw7OPtb3sjic2hspjMq2MKHHvbeJ75gbQUPiaQdyBKOHzQ7UQ/640?wx_fmt=png&from=appmsg)
+
+综上,由于 SiC 器件不同结构对结温有完全不同的特性,在反向并联导通时 MOS 沟道、寄生二极管、反并联二极管的分流占比与常温下不同。现有模型在常温下沟道反向导通特性采用正向导通模型直接建模,无法准确重现数据手册特性曲线。另一方面,对高结温下反向导通特性没有考虑上述差异,仿真模型无法在系统应用中预测器件反向导通的动静态特性。因此在不同结温下建立 SiC 分立元件以及功率模块反向导通过程的通用仿真行为模型对系统设计和性能评估具有重要意义。
+
+**3 反向导通特性建模**
+
+**3\. 1 等效电路与数学模型**
+
+基于第 2 节所述的 SiC 功率器件反向导通分流情况,本文提出的通用行为仿真模型原理图如图 9所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHWPK8f8sjRlAibDmSwXgicG1GDNc1mRRRwaFkficjyVricuhSjzXogagMNw/640?wx_fmt=png&from=appmsg)
+
+虚线框内为 MOSFET 内部结构,Ls、Ld 和 Lg 为模型三端口寄生电感,不同的封装形式有不同电感值。Rg、Cgd和 Cgs分别为内部驱动电阻、米勒电容以及栅源极间电容。Tj 为器件结温端口,可定义为外部输入或根据器件发热与壳温 Tc 通过热阻 RC 网络进行计算。图 9 中体二极管可作为分立元件体二极管或功率模块的等效反并联二极管进行建模。压控电流源 G1 、G2 受到驱动电压 Vgs和源漏极电压 Vsd的控制,通过温控参数分别描述正向和反向导通特性。针对该模型的正向导通建模在文献\[18\] 中已有详细说明,不再赘述。本文主要讨论决定反向导通的电流源 G2 的建模过程,其导通电流 IS 表达式如式(1)所示。式(1)基于经典 EKV MOS 模型\[19\]并将其应用在高压电力 MOSFET 中,通常,EKV 模型只能表达沟道中漏极和源极流入电流的差值,漂移区电阻需要额外的进行校正,但在文献\[18\]中对各个系数进行了整合和修正,使得漂移区修正电阻得以舍去并且所有沟道电流的参数具有更多的温度自由度。与常用的 Pspice MOSFET 行为模型\[14\] 不同,式(1)可同时描述弱、中、强反型区特性,对不同结温下 MOSFET 沟道的转移特性、输出特性均能独立建模。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwH065n6UU97WAEG4dKOAYRicur8GJ1TAkyWkhfXHV3uOo3PbI9ur3rI4w/640?wx_fmt=png&from=appmsg)
+
+式中,p1 ~ p7 均为模型参数。式(1) 将低温、常温、高温下沟道特性视为独立过程分别建模,因此 p1 ~p7 可表示为结温 Tj 的二次多项式。
+
+至此,沟道反向导通特性建模转化为沟道表达式(1)的参数提取过程。在数据手册中,第三象限运行特性可表示为不同驱动电压 Vgs(5V,10V,15V,20V)下漏源极电压 Vsd和反向导通电流 Ist的关系,其中 Ist为沟道导通电流 Is 和反并联二极管导通电流 Ip 之和。如前所述,Ip 以器件 - 5V 关断时的曲线为准。因此,沟道反向导通电流 Is 可以通过 Ist和Ip 的插值相减得到。式(1) 的参数提取需要构建Is、Vgs和 Vsd的原数据矩阵使得对应的列向量包含数据手册的所有反向导通特性曲线值。例如当 Vgs矩阵某一列为 5V,Vsd矩阵同一列为对应的反向导通漏源极压降,Is 矩阵的对应列则是插值相减后的沟道导通电流 Is。利用 Matlab 拟合工具箱 CFTool,根据数据手册中沟道反向导通电流 Is 与 Vgs、Vsd的特性曲线构造二维函数原数据矩阵,拟合得到 p1 ~ p7参数值。以功率模块 CAS300M12BM2 为例,其拟合结果见表 1。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwH0eth06SXFWx48t7qtg7yC67diaOvzkhia0Ap8SD3v8l4yEAxMfPhhe9A/640?wx_fmt=png&from=appmsg)
+
+**3\. 2 模型验证**
+
+为验证提出的通用模型对 SiC MOSFET 器件反向导通特性建模的正确性,分别对标定 1200V/ 90A的分立元件 C2M0025120D 及标定 1200V/ 300A 的功率模块 CAS300M12BM2 建立行为仿真模型,在LTSpice 软件中进行反向导通特性实验,将仿真结果与器件数据手册提供曲线对比,如图 10 ~ 图 14 所示,其中虚线为仿真特性曲线,实线为数据手册特性曲线。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwH8hgCQMHo88Qv8d90pqqLFfYJqV4lXv9Cx05hqulE25Ey608U3objGg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHTzBPOcbVeJqwMZzkfjO9bcjp2Igt2M9Gib0YsLCNicpjK7GJMchUt2TA/640?wx_fmt=png&from=appmsg)
+
+由图 10 和图 11 分立元件拟合结果可以看出,在不同结温下,提出的通用模型可以较好地拟合体二极管和沟道电阻共同导通的情况,不同的驱动电压对应的反向导通特性曲线精度较高。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHmav7rPRzqDibeVR8Y1WEBkeXKAM9ibC4qELj3OUQQN6rbfJGuS3ShYDg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwH2EkHC1JLmBk49C5mKP8icWeDibNveLoKYriaCGDju1MeZ1W48Hfqx9R2w/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmRg0VkaMKRRG4H4EmLkcwHD8jrDSoZB8BpkFwbiatwvHF4avuJGN03iceBpbuA6AgyTa4IM4e3cI6A/640?wx_fmt=png&from=appmsg)
+
+由图 12 ~ 图 14 功率模块拟合结果可以看出,度同结温、不同驱动电压下与数据手册的曲线重合较高。当结温较低时( - 40℃和 25℃ ),由于体二极管被有效旁路,器件反向导通特性可视为反并联JBS 和沟道电阻的并联导通;当器件结温较高时(150℃ ),体二极管和反并联 JBS 的导通电阻和阈值电压相差较小,器件反向导通机理变为体二极管、反并联 JBS 和沟道电阻三者同时导通,沟道电阻的分流进一步降低,因此驱动电压对反向导通特性的影响变小。拟合结果显示,提出的通用模型对功率模块的两种反向导通机理能够有效地进行建模。
+
+**4 结论**
+
+SiC MOSFET 器件的反向导通特性使其能够在同步整流器、移相脉宽调制和电机驱动领域发挥独有的优势,可实现运行效率更高、器件数更少的系统设计。本文首先研究了碳化硅 MOSFET 分立元件和功率模块在不同结温下的反向导通机理,发现分立元件反向导通过程可视为体二极管与沟道电阻并联导通而功率模块在高结温工况下的反向导通元件则有体二极管、反并联 JBS 以及沟道电阻三个。
+
+基于不同的导通机理本文给出了统一的通用建模方法,用一个新的压控电流源表达式对反向导通过程中沟道电阻分流进行描述。该表达式中的所有参数具有结温自由度,可对不同结温下的导通特性独立建模并给出了详细的参数提取方法。
+
+为验证提出的通用建模方法的准确性和有效性,本文分别建立了分立元件和功率模块的反向导通行为模型,仿真结果与器件手册曲线在不同结温、不同导通压降下均能达到较高的拟合精度。除此之外,功率模块在高结温下不同驱动电压的反向导通特性曲线几乎重叠的现象也能通过本文模型再现,该建模方法基本满足反向导通物理规律。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

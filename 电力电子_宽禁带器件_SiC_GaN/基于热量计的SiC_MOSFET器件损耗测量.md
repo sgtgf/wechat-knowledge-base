@@ -1,0 +1,114 @@
+# 基于热量计的SiC MOSFET器件损耗测量
+
+原创 伍群芳 王亚强 SiC碳化硅MOS管及功率模块的应用 2025-08-14 12:19 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/KOkE49mbw3wA-kdzcMagzA](https://mp.weixin.qq.com/s/KOkE49mbw3wA-kdzcMagzA)
+
+文章来源：电气电子教学学报
+
+作者：伍群芳 王亚强 王 勤 邱施瑜（南京航空航天大学 自动化学院，南京 211106）  
+
+摘要：新一代宽禁带半导体器件SiC MOSFET具有导通电阻低、开关速度快、耐高温高压等特性，广泛应用于新能源发电、电动汽车及航空航天等重要领域。SiC器件的损耗分析与测量对于其高效应用具有重要作用。基于热学法，提出了一种基于热量计的SiC MOSFET器件损耗测量方法，相较于传统电学法，所提方法产生误差为固定比例误差，且通过定功率校正可显著减小测量误差，从而实现精确且低成本的 SiC MOSFET器件损耗测量。该方法有助于学生从不同角度对功率器件损耗问题的理解，更好地掌握相关专业知识。
+
+关键词：热量计；器件损耗；碳化硅MOSFET
+
+针对 SiC MOSFET 的损耗分析，目前主流方式是电学法，其原理是利用开关、导通过程中的电压、电流数据，在开关周期内对电压和电流的乘积进行积分运算，从而获得器件所产生的损耗。该方法虽然直观，并且简单，方便操作，但是存在一些明显的缺陷：
+
+①由于SiC MOSFET一般具有较高的开关频率，一方面对示波器、电压探头、电流探头的带宽要求更高，且归因于电压、电流测试方式的不同，随之延时导致的测量误差问题也凸显了出来；另一方面对寄生参数更为敏感，由测量夹具引入的测量误差也不可忽视。针对上述问题，研究人员提出一些解决方法，比如利用功率测量偏移校准工具，即使用相同脉冲的电压和电流信号在示波器上手动校准偏移，但由于校准工具的限制，校准效果有限，并且须固定通道、固定探头，另外由寄生参数带来的振荡问题无法改善。
+
+②对于 SiC MOSFET 功率器件，漏极电流包含两部分：沟道电流和输出电容充放电电流。其中，沟道电流是实际流过器件产生损耗的电流，但在实际测量中，无法对沟道电流进行测量。若采用漏极电流作为开关损耗积分的对象，在一个开关周期内，输出电容充放电电流平均值为零，即视为整体开关损耗的总和与采取沟道电流积分计算的损耗相等。在实际中，开通和关断过程电压波形往往不对称，该部分差值仍不能忽略。因此，所得到的开通损耗会比实际开通损耗小，所得到的关断损耗会比实际关断损耗大。
+
+为了降低测量成本和测量误差，便于学生准确地理解 SiC MOSFET 的损耗机制，本文提出了一种基于热量计的 SiC 器件损耗测量方法，相较于传统电学法，所提方法产生误差为固定比例误差，且通过定功率校正可显著减小测量误差，从而实现精确且低成本的SiC MOSFET器件损耗测量。
+
+1 热学法测量原理
+
+SiC MOSFET在开关、导通过程中，所产生的损耗均以热量的形式进行耗散。热学法测量损耗是基于能量守恒原理，通过对所耗散的热量进行测量，从而获得SiC MOSFET产生的功率损耗。
+
+图 1所示为 SiC MOSFET 基于 Cauer 模型的热网络模型。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZCa06nkNCMN2Hr8JpEk1Q9iaada68IibaxwnhEYZ2tThPlsnrDSebAicTA/640?wx_fmt=png&from=appmsg)
+
+考虑到热网络模型中的热容只影响热量传递的动态特性，因此在热量传递平衡时，即各节点温度保持稳定后，可以对图 1 所示的热网络模型进行简化，简化模型如图2所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZIJbCCjomFG7JuQQorsBOZtiaAehVe3e8xg7onwrcrXUCsjFBZz0vZQA/640?wx_fmt=png&from=appmsg)
+
+图 2 只存在唯一一条热量传递路径，因此可以对其路径内任一位置进行测量，均可得到该稳定条件下系统所传递的热量。
+
+目前现有测量热量的方法主要有两类：文献［2］中采取的方法是将功率器件背面贴在长方体铜块上，通过分析铜块的温度梯度，从而计算出器件所产生热量。另外一类是将待测器件或是待测系统置入封闭或恒功率散热的空间内，通过测量出一定体积介质在特定时间内的温升来计算内部所产生热量，Kosonen 等目前已开发出满足 300W、2kW 以及30kW三个功率等级下的热量测量装置。
+
+由于热学法是对损耗所产生的热量进行直接测量，建立足够精确的热网络模型以及获取足够精确的温度变化，即可实现对损耗的精确测量。由于温度是慢惯性变量，相比于传统电学法可操作性更强。
+
+2 热量计的设计
+
+基于上节所述测量原理，设计了一款简易热量计，可用于测量单个SiC MOSFET的器件损耗，其原理示意如图3所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZgl7D9jHK7bF2R3rffTOJIbEEu9liaputQ7DSTQMw9Tib0bujhmqvB7wA/640?wx_fmt=png&from=appmsg)
+
+图 3 中，利用隔热材料将待测（Device UnderTest， DUT）SiC MOSFET 封闭起来，在一定时间t内，器件所产生的损耗将以热量的形式向该封闭空间释放，空间内的介质—空气吸收释放的热量后，空气温度将上升，同时热量也经过隔热材料向环境释放，待达到动态平衡后，热量计内部空气温度保持不变，用热电偶测量出热量计内外温度。根据式（1）可精确计算出器件损耗 P。式（1）中热阻R 热量计-环境为未知量，此处采取等效方式，在封闭空间中插入电阻 R，在其两端施加直流电压 V后，电阻以恒功率向热量计散热。考虑线缆电阻的存在，电阻的耗散功率按照式（2）进行计算，同时利用热电偶测量动态平衡后热量计内外温差 ΔT，可以根据式（3）得到热量计—环境的热阻R 热量计-环境，进而可以根据式（1）得到器件损耗。利用此类等效方式，可起到热量计“置0”的作用。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZiakEvmOAbibkMJWsWKuk3ZJOibVicsJDDo0ZcSdrcOzgCvemmcpay6lOzw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZUiaQ9Nkgzl9o4sdCeIrY4diaGsowGvxKkjcjJAUKXXdknC6qIfm2ibByw/640?wx_fmt=png&from=appmsg)
+
+图 4 和图 5 所示，分别为所设计热量计的正剖面图和俯剖面图，其尺寸参数在图中给出。其中，隔热材料采用5mm 厚的硅酸铝纤维板，电阻采用10Ω/3W 的高精度无感低温漂电阻器，并接入两只K 型热电偶进行温度测量，隔热板利用 502 快干胶水粘接，最终用绝缘固化胶水浇缝，以达到封闭空间的目的。
+
+基于此，可建立该系统稳态简化热网络模型，如图 6 所示。通过给定电阻恒定功率，结合稳态下热电偶和环境的温度，可获得热量计—环境的热阻R热量计-环境。据此，可测量一定条件下功率器件所产生的热量，即器件损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZbfF7UMl06nDI3svaDse5grbSOkZ6F4xUOhSLz8Ymsg0u9pUO7CW7oQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZ0p0CSibqDtpA1f6tabianTfialoJ8mjH6lr9VAJ4peZr2Z1AzXpO9rh3g/640?wx_fmt=png&from=appmsg)
+
+3 实验验证
+
+选取Wolfspeed公司型号为C3M0075120K的SiC MOSFET 作为验证对象，具体实验平台搭设如图7所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZIJEV4T9PnS49814vf4iaYyGTAdxlqGKZRTBqOiaHMAUricrAJaAaWWVibg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZYgAF6PwibnFxLE3dTpibaaCYqwkcTiaZOwoJGuLVInmAYIkIktgJSunUg/640?wx_fmt=png&from=appmsg)
+
+所设计的电路等效模型如图 8 所示，实验参数如表1所示。在等效电路模型的基础上建立了基于Matlab的SiC MOSFET开关瞬态模型，通过表1的实验参数，利用“trapz”函数对 SiC MOSFET 工作过程中漏―源电压和沟道电流数据求积分，可得到C3M0075120K的器件损耗，约为0.24W。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZ1fCic7Jq3ekKcYyLes0dx2yMP3wjBVwslvwhINvX0jynjxNxTNF4R6w/640?wx_fmt=png&from=appmsg)
+
+实验中对热量计电阻分别施加 2V、3V、4V和5V的直流电压，在室温为13.3℃的条件下每隔30s记录一下两只热电偶的温度读数并持续 25min，最终得到热量计在四个电压等级下的温度曲线，如图 9 所示。提取稳定后两只热电偶的温度，取平均值后对相关参数进行计算，可以得到热量计的等效热阻，如表2所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZlibB6Wox228QIHVpLGtpDFgfJgJFM8fQnvKCvGBPV00Z7S8ARiajuPsw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZCNHq9exJS1l5u8lv4tnLaNaibWxuE8jNFSedib5q9avhH7VXyVd47G3g/640?wx_fmt=png&from=appmsg)
+
+对不同功率下的等效热阻取平均值，可得热量计的等效热阻，为45.805 ℃/W。在此基础上根据表 1 所述的实验条件对器件损耗进行测量，重复5次实验最终测得数据如表3所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZWyWZw3OFHgZfHvPVBrPcORdtueGgPFE5rGa5ialJlhmLQJgRj1yVIkg/640?wx_fmt=png&from=appmsg)
+
+对以上5次实验所测得的器件损耗取平均值可以得到C3M0075120K 在该实验条件下的器件损耗，约为0.2048W。对比可知，热量计测量损耗低于模型所得损耗。究其原因，主要是由于实验中SiC MOSFET 封装为TO247-4，其与 PCB 安装方式为插脚式，在实验过程中部分热量直接通过结—管脚向环境传导，并未完全通过热量计耗散，导致电阻产生热量的耗散路径无法完全等同于器件产生热量的耗散路径，最终造成热量计所测的损耗值较低。在图6的基础上建立引入误差的系统稳态热网络模型，如图10所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZW6vbxVicuGxeI8aVK5ic811Ceob5zYuby4jicdsMubu0IqGiaxtZCIoTdA/640?wx_fmt=png&from=appmsg)
+
+通过分析可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZIH4ukKZNRjNcwJwVj1xPibHHIJaPltqlzu2tWAg2tDJPvpO4YvTgeQQ/640?wx_fmt=png&from=appmsg)
+
+其中：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZCt2YpSbzlHNpA7GWEod9cjE6EQpAWOWjun5rYhL2wOLRkrMPib1CUWA/640?wx_fmt=png&from=appmsg)
+
+由式（4）可知，在系统结构一定的情况下，热量计测量所产生的误差是一定的。将模型所得损耗作为标准值后，计算热量计测量误差为14.67%，在此基础上对 5 次实验结果进行补偿后，所得损耗值及其误差如表4所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm8X2RhkSqk0VS1uevuomMZZCLFg8VlyYo2icNArNhScnc9H2iarlgStrsib4jWsuWjpxjMazibzqAmxA/640?wx_fmt=png&from=appmsg)
+
+4 结语
+
+基于热学法设计了一款热量计，可用于SiC MOSFET器件损耗的测量。相较于传统电学法，可实现在较低成本的基础上获得比较精确的SiC MOSFET器件损耗。有关内容有助于学生从不同角度理解功率器件损耗问题，更好地掌握相关专业知识。
+
+注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslt4Im3zet9ZmN2ba9gfquJHBTCdADHv18QiahAiaFlHTRlibob4tEaAibUuMT523iaOA0gUE9Ie19LHww/640?wx_fmt=jpeg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslt4Im3zet9ZmN2ba9gfquJ58q3XFGUX82hld8uW530iacQXKNpBeEjcDyqyAJ68ibgibv0xjnicdqSqg/640?wx_fmt=jpeg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslt4Im3zet9ZmN2ba9gfquJpYcXLicHZJX7Cqx7QH3IXZUrWCTAUdmbCKxDJIFcNufSXy7WutebaIA/640?wx_fmt=png&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)

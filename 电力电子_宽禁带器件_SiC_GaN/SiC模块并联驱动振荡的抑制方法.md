@@ -1,0 +1,104 @@
+# SiC模块并联驱动振荡的抑制方法
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/wGHAktTSSgT6g4\_zdbT1WA](https://mp.weixin.qq.com/s/wGHAktTSSgT6g4_zdbT1WA)
+
+文章来源：罗姆（ROHM）半导体
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskoywLFymwF6icic20C717zlxnkpich5d4icFDq2ULIKn2hoIJmSaGgK7fgKgCIyAkDkqa4q4Mxd7vibzA/640?wx_fmt=jpeg&from=appmsg)
+
+**摘要：**SiC MOSFET 与传统 Si 器件相比，具有高电压、大电流、高速驱动、低损耗、高温稳定等诸多优点，是新一代器件。 近年来，利用这些优异特性，作为向大功率发展的电动汽车 (EV) 的牵引逆变器电路，并联连接多个 SiC MOSFET 元件的功率模块被使用的情况越来越多。
+
+另一方面，由于并联使用这样的高速元件，有时会发生元件间的并联驱动振荡 (以下简称振荡)。发生振荡的话元件有破坏的危险，因此抑制对策是市场的重要课题之一。
+
+本应用笔记将介绍有效抑制功率模块振荡的方法。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlx8ukoaTYHywM9cFlqUIQlpJic4QCBPialfzrFOrn8lLqFfwAULggjqLPw/640?wx_fmt=png&from=appmsg)
+
+**1.基础理论**
+
+**1-1. 振荡发生的机制**  
+
+并联开关设备的稳定性分析可以使用 Fig.1 所示的等效电路进行评估。这里，Ldd, Lgg, Lss是含有互电感的寄生电感成分。另外，Rds成为开关瞬态时的微分电阻。关于这个，使用 PLECS®查询 Vgs\_i到 Vgs\_o的开环特性的话，可以得到 Fig.2 那样的 Bode 曲线图。从 Fig.2 可以看出，ωp2和ωz相距较远，因此两者之间的相位小于-180o。根据奈奎斯特的稳定判别法，Gain 在 0dB 的时候相位在-180°以下的话有可能会发生振荡，这成为并联模块的振荡风险。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxbLvMFg5HjHFhfJQk0A4DYKNg4LuhxX0gkjdtfRnDDxhSYNKZppsvjQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxXlVkblDTQgTfXDqVQzHcuDDEAfHgNibH7WQ3jw4ibkPhRBuIBkPwXzdQ/640?wx_fmt=png&from=appmsg)
+
+Fig.2 中的 Bode 图可以根据 、ωp1, ωp2, ωz 的各个极点和零点，从低频侧依次划分为一阶提前区、二阶延迟区、二阶延迟区和二阶提前区。 因此，这个系统中的一轮传递函数 G(s) 可以用以下的公式来表达。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxEKtznYL0jRvptGKCjU2BQt7SMtXBWTREtr2yzyibTD63ibliaQuibzau2A/640?wx_fmt=png&from=appmsg)**1-2. 振荡抑制的想法（改善相位差）**
+
+为了抑制振荡，“增加相位余度，降低增益”就可以了。但是在并联模块的情况下，由于降低增益非常困难，作为根本对策“增加相位余量度”是最有效的。
+
+Fig.3 解释了难以降低增益的原因：在二阶延迟系统中，当 ζp2 的值小于![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxQdicUp8196CxWFpcrX6FL8CQI4FsvUcVtNaMf9npJCdI7cb1cfNuhfQ/640?wx_fmt=png&from=appmsg)时，会出现增益峰值，其大小由 ζp2 的值决定（ζp2 越小，增益峰值越陡、越大）。 此外，如 1-1 所述，ζp2 中包含的 Rds 是开关瞬态期间的差分电阻，因此具有数 kΩ 的较大值。由于 Rds 较大，ζp2 与![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxQdicUp8196CxWFpcrX6FL8CQI4FsvUcVtNaMf9npJCdI7cb1cfNuhfQ/640?wx_fmt=png&from=appmsg)相比非常小，因此增益峰值非常大。 如上所述，由于增益峰值较大，很难降低增益，因此 "增大相位裕量 "是抑制振荡的有效方法。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxoDdlMyg0c0bTic2zmHlg4PoJ2f1REDWCG0z8LVUX6uC4xTuribkJAAjw/640?wx_fmt=png&from=appmsg)
+
+那么，怎样才能增加相位裕量呢? 正如 1-1 所说明的，ωp2 和 ωz 的距离分开的话相位会低于-180°。换句话说，如果把ωp2 和ωz 靠近的话，可以使相位裕量变大。一般的并列模块 ωp2<ωz 且 ωp2/ωz<1，因此“使ωp2 和 ωz 接近，以增大相位裕量”也就是“使ωp2/ωz比增大，以接近 1”。
+
+Fig.4 显示根据 ωp2/ωz比的变化，相位特性变化的情况。如 Fig.4 所示，ωp2/ωz比越大，相位裕量就越大，振荡抑制就变得可能。另外，ωp2/ωz≧1 时，理论上不会产生振荡。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxpzYTY01AVuWJfdUJM2x9AUN6icV3OCBEEyeDdcXVOibhtF9CfLw1zO9A/640?wx_fmt=png&from=appmsg)
+
+**1-3. 影响相位裕量的实际参数**
+
+在 1-2 中，ωp2和ωz的偏离程度 (ωp2/ωz比) 对相位余量度有很大影响。那么，为了改变ωp2/ωz比，具体应该改变哪个参数呢?本章将详细解说影响ωp2/ωz比的实际参数。
+
+正如 1-1 所说明的，ωp2 和 ωz分别可以用以下的公式来表达。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxlat4okUwYPyHUoXuysvYXrLGhLoRW2opmqibpWoziaav5fg1mH1wPyog/640?wx_fmt=png&from=appmsg)
+
+根据这些计算 ωp2/ωz比，可以得到以下关系式。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxftwORFYYdqV2trDCYvxGnyOFP0IURDmIuIZicictM20tbicOlWicZrLdIQ/640?wx_fmt=png&from=appmsg)
+
+根据前页ωp2/ωz 比的关系式可知，为了增大ωp2/ωz 比以增加相位裕量，只要将各参数设置为 Fig.5 所示的“Cgd 和 Lgg 大，Cds とLss和 Ldd小”即可。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxaochINkMPeVGm4FJFMQzYcuDsuCicVKaqW3Dj7yfMpQKgaMCk49oFAQ/640?wx_fmt=png&from=appmsg)
+
+但是，在实际的模块中 Ldd的 ωp2/ωz比的影响和其他参数相比是非常小的。因此，为了增加相位裕量，调整 Ldd以外的参数的方法是有效的。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxqVwtwRrO3ajPSfJA2PRnppr2MRMKeAlBnsvRFjH8CXdNlj2up5WywQ/640?wx_fmt=png&from=appmsg)
+
+另外，Cgd 和 Cds 是寄生在 MOSFET 元件上的容量成分，所以现实上很难改变。因此，抑制振荡对策中最重要的是 Lgg 和 Lss 的设计，也就是“模块布局设计。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxxibbmP50wvYibt9uLlmHiclzxQmqs3fTucZ9vPKoxcxia1dsalOY0jVicpQ/640?wx_fmt=png&from=appmsg)
+
+另外，从相位裕量增加的观点来看，Cgd越大越好，不过，Cgd越大，作为其互斥事件，开关损耗的增大和 Self Turn-on 的风险也变大，所以平衡好的设计变得困难了。
+
+**2\. 模块的寄生电感 Ldd, Lgg, Lss**
+
+**2-1. Ldd, Lgg, Lss 的定义**
+
+在 Fig.6 中，表示模块中影响相位裕量 (ωp2/ωz比) 的各寄生电感 (Ldd, Lgg, Lss) 的定义。用一句话来概述，Ldd, Lgg, Lss 是并联连接的元件的各端子之间存在的寄生电感。另外，Fig.1 是从中点看时的一侧，所以 Fig.1 中的 Ldd, Lgg, Lss 各值是 Fig.6 的一半。使用 Fig.1进行稳定性分析时，请注意这一点。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxeQDfXVCGkekRTWsrezCzDaDlRQRiaWBXvZ7baicbu2pSEF6pZvmoqcRg/640?wx_fmt=png&from=appmsg)
+
+**2-2. 模块布局中的 Ldd, Lgg, Lss**
+
+本节以 Fig.7 的模块布局为例，说明布局的哪个部分相当于上述 Fig.6 的 Ldd, Lgg, Lss 。这里以高边为例进行说明，低边的方式也是一样的。图中连接各元件的黑线表示接合线。另外，为了简单易懂的说明，省略了栅极驱动布线的负侧 (以后的布局图也一样)。Fig.7 右侧的图中，Lgg用红色表示，Lss用蓝色表示，Ldd用绿色表示的部分，相当于各寄生电感。Lgg几乎和导线的寄生电感相等。Lss是连接元件的各导线，以及连接它们的铜箔部的合成电感，Ldd是绕过栅极引脚的上旋和下旋两路合成电感。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxhDz33ou8Y9CaxNicxRqIyVQNLI7qBdv81OcIF7DzSvOsfPngkauxXVw/640?wx_fmt=png&from=appmsg)
+
+SiC MOSFET 元件中，一般的各电极 (Gate, Drain, Source) 的配置如 Fig.8 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskoywLFymwF6icic20C717zlxvAXcvM4Vbc20TQ7rq3mwxEIGbo1ico0ZU03WVRJ603RdvUpIyOjIbJg/640?wx_fmt=png&from=appmsg)
+
+**3\. 总结** 
+
+@・为了抑制振荡，只要“增加相位裕量，降低增益”就可以了。但是，作为根本对策，“增加相位裕量”是最有效的 (因为ωp2会产生2 次延迟的增益峰值，很难降低增益)。
+
+@・衡量“相位裕量”的指标是“ωp2/ωz比”。ωp2/ωz比越大，相位裕量越大，越稳定。 ・为了增加 ωp2/ωz比来提高相位裕量，“Cgd和 Lgg大，Cds和 Lss相反小”就可以了。
+
+@・Cgd 和 Cds是元件的寄生电容，所以很难从后面进行调整。因此，为了增加相位裕量，适当地设计模块的各寄生电感 (即布局)是重要的。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

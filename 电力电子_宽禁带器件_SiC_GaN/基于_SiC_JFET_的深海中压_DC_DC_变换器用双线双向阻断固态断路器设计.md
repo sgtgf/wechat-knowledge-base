@@ -1,0 +1,134 @@
+# 基于 SiC JFET 的深海中压 DC/DC 变换器用双线双向阻断固态断路器设计
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/E\_xzefvsdKA8NttvUcUjUA](https://mp.weixin.qq.com/s/E_xzefvsdKA8NttvUcUjUA)
+
+文章来源：控制与信息技术
+
+作者：陈修林，刘可安，唐智锋（株洲中车时代电气股份有限公司，湖南 株洲 412001）
+
+摘要：固态断路器具备快速切断故障电流的能力。在深海中压 DC/DC 变换器应用场景下，为了实现DC/DC 的黑启动以及配合水下电缆的漏电检测功能，文章提出一种双线双向阻断固态断路器设计方案，其仅采用串联 SiC JFET 作为主开关，通过电流检测短路故障，实现快速故障切除。文章研究了串联均压电路的参数设计方法，并搭建了样机实验平台。实验结果表明，该直流固态断路器具备双线双向的阻断能力，关断时间为 4.5 μs，实现了较好的主开关器件静、动态均压效果，具有现实可行性。
+
+关键词：固态断路器；超级共源共栅级联结构；串联均压；SiC JFET；双线双向阻断；深海中压 DC/DC变换器
+
+0　引言
+
+深海作业级遥控潜水器（remotely operated vehicle，ROV）因其作业深度大、作业时间长，能够抵抗相对恶劣的海洋环境，被广泛应用于海洋考察、海洋工程等领域。与传统液压驱动 ROV 相比，电驱动 ROV（EROV）具有体积小、重量轻、更灵活、环境适应性更好等优势，已成为ROV发展重要方向之一。工作级电驱水下机器人Quantum/EV 搭载了新型长距离直流输电解决方案以及本地化管理的直流电力系统，其作业性能至少提升20%，可极大地提高我国在深海油气、海底科考、海上打捞等方面的作业能力。DC/DC 变换器是 Quantum/EV 直流输电系统的关键部件，为EROV的各个子系统供电。
+
+固态断路器（solid-state circuit breaker，SSCB）以功率半导体器件作为主开关器件，配合快速的浪涌吸收器件，其断开时间可做到微秒级，故障响应速度已经足够；同时，信息反馈以及接受控制指令也相对容易实现，但中压等级的常导通、双线双向阻断特性要求实现困难。JFET 在门极不施加电压时是导通的，DC/DC 上电时利用JFET的导通特性达到黑启动目的。常用功率半导体器件单管阻断电压有限，不能满足 EROV 的中压应用，一些高耐压器件（10 kV 等级）可以满足 EROV 的中压应用，但或价格昂贵，或处于实验室验证阶段。为了使SSCB 应用于更高电压的场合，通常将其主开关功率半导体器件进行串联扩容，提高其整体耐压能力。针对功率半导体器件串联扩容技术的各串联器件动、静态不均压问题，国内外学者进行了深入的研究。Juergen Biela 提出了一种单外部驱动超级共源共栅级联结构（super cascode），其通过串联N个JFET和一个低压MOSFET实现，阻断电压是单个 JFET 阻断电压的N倍，该电路通过辅助元件来实现共源共栅中的静态和动态平衡电压分布。Xijun Ni 使用 SiC JFET 和 MOSFET 展示了一种6 kV SiC 混合功率开关拓扑结构，针对串联器件结构中的参数偏差问题，引入了一种优化的电压控制方法保证静态和动态状态下均压效果，实现在没有雪崩二极管的情况下显著降低关断开关损耗。Gao Bo 论证了已有的均压电路缺乏雪崩能量处理能力，提出了一种保护雪崩二极管和底部 JFET 栅极的解决方案。Song Xiaoqing提出一种 15 kV/40 A SiC 三端电源开关，与同等级 SiC MOSFET 相比，在成本和导热性方面其具有明显优势。Utkarsh Mehrotra 提出了一种双向固态断路器（BSSCB），深入探讨了功率级的热性能和半导体器件中的温升限制。上述文献均在 super cascode 结构中串入了MOSFET进行控制，仅相当于对一个MOSFET的简单控制，对于深海 DC/DC 变换器的 SSCB 的常导通需求无法满足，同时双线双向阻断的需求也要重新设计。本文提出一种双线双向阻断固态断路器（dual-wire bidirectional blocking SSCB，DWBB SSCB）设计方案来应对这些特殊需求，并同时满足中压SSCB的快速关断要求。
+
+1 DWBB SSCB 简介
+
+DWBB SSCB 是 DC/DC 的子 部 件 ，其作用是在DC/DC 内部故障或者系统控制所需时断开与中压直流输入的连接。根据功率需求，EROV 配置有不同数量的DC/DC，以并联方式为系统供电，因此在单个 DC/DC 故障时，要求其内的 DWBB SSCB 能快速断开，并能有效地抑制因线路能量带来的浪涌，以免影响其余的DC/DC运行。DWBB SSCB应及时地反馈其故障信息给系统，也能根据系统指令在DC/DC没有故障时断开，这个要求是因为水下设备要遵守的漏电检测要求。当长距离线缆因为破损及其他原因导致漏电而被系统配置的漏电检测装置检测到时，需要接受系统指令进行双线断开，用以查找或切断漏电可能；同时，由于漏电检测采用较高的交流电压进行，DWBB SSCB 须能双向阻断来保证漏电检测的正常运行。深海线缆价格高昂，DC/DC 如果能从中压直流线上直接取电进行控制，实现黑启动，将大大减小线缆成本。Quantum/EV 的额定中压直流电压为 4 500 V 或6 000 V，从其上直接取电给控制系统比较困难。根据输入串联输出并联的主功率拓扑结构，本文创新地构建了一个易实现的辅助供电子系统，其利用输入串联分压后获取辅助供电，再并联给 DC/DC 的控制系统供电，但前提是 DWBB SSCB 在上电之初是导通的。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluBib5hOaK9tBPPMcDfkoP01vuTUUAOqibZKIxNUxOpDGSaKQ6QH0nU9GuSm1cYzb596xib0euJ60icg/640?wx_fmt=png&from=appmsg)
+
+DWBB SSCB 的功能框图如图 1 所示，控制电源部分未体现。其包括串联在中压正负线上的串联开关及浪涌吸收电路、电流检测及比较电路、隔离驱动及状态反馈电路。浪涌吸收电路由多个串联的压敏电阻组成，与串联开关并联，在串联开关关断时吸收线路上的浪涌能量。电流检测及比较电路采用低阻值采样电阻检测电流，通过隔离放大电路将低幅值电流信号放大，然后经比较电路得到实时过流故障信号。隔离驱动电路接收到过流故障信号后从串联开关的 G 端驱动其关断，同时将故障信号ERR发送到控制器。控制器也可在没有故障信号情况下控制串联开关的关断，通过 CON 信号下发指令。正/负线输入端连接于串联开关的D端，DC/DC功率变换部分则连接到串联开关的S端。
+
+2 DWBB SSCB 设计方案
+
+本文主要叙述主功率电路部分（包括串联开关硬件，静、动态电路及雪崩能量处理电路）的分析设计，电流检测、信号处理、驱动及电源等电路不再赘述。
+
+2.1　串联开关设计
+
+为了满足 6 000 V 中压应用需求，串联开关由８个1 200 V 的 SiC JFET 器件（Q1～Q8）串联而成，如图 2 所示，包含均压电路，形成一个三端开关，只需要一个驱动信号同步控制位于 S 端的两个 SiC JFET 的关断就能实现整条支路的关断，相对于多驱动的拓扑结构大大降低了驱动电路的复杂程度，同时两组级联对称的设计可以适用于输入方向可变的工况，满足多样化的应用场景。每个 SiC JFET 器件并联一个高压电容（C1～C8）用于动态均压；均压电阻（R1～R8）用来实现串联器件的静态均压；雪崩二极管（D1～D7）用于电压钳位；压敏电阻（MOV1～MOV5）用于吸收关断后功率器件漏源极的过电压。JFET 栅极上串联的小电阻（Rg1～Rg8）用于防止 SiC JFET 的栅极击穿［4］；同时为了提高雪崩能量处理能力，雪崩二极管串联了一个功率电阻（RD1～RD7），用于降低其关断开关损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluBib5hOaK9tBPPMcDfkoP02h0tPNMicHplfWsSHtdmLVC9XbRrgc9m0HECcxicAHWwXSMFN4HE97tQ/640?wx_fmt=png&from=appmsg)
+
+本文对串联开关关断过程进行分析如下：当发生短路故障时，驱动电路接收到故障信号后，将-12 V的驱动电平加在G、S两端，也就是Q1的栅源极上；当Q1的栅源极电压下降至夹断电压，Q1关断，其断态电阻迅速增大，漏源极电压持续上升，Q1的漏极电流分流，经Q2的G极至Q1的均压电路；当Q2的负偏电压达到其夹断电压时，Q2关断；同理，随着Q1～Q8依次完成关断，最终实现串联开关的关断过程。在此过程中，Q1～Q7的电压由于雪崩二极管D1～D7的存在，电位被钳位；至于Q8，其电压由浪涌吸收电路和浪涌能量确定，当浪涌能量大时，压敏电阻上的电压更高，可能最终导致Q8的电压超高。因此，要对整个系统的浪涌能量进行评估。好在多个 DC/DC 并联使用时，单个 DWBBSSCB的保护动作时，线路上的浪涌能量会被没有保护的输入电容吸收，大大减小了DWBB SSCB故障保护的浪涌压力。这个串联开关不能在关断且其两端存在高压的情况下打开，因为均压电容里的能量会击穿JFET的门极，从而损坏整个串联开关。因此，一旦发生故障保护，会保持故障信号，直至断电重启才能恢复。
+
+2.2　静态均压电路设计
+
+影响串联开关静态均压的因素有器件本身特性差异、栅极驱动电路参数设计差异以及均压电路参数差异。整体表现为串联开关的各个器件的自身断态阻抗不同，而阻断状态下流过器件的漏电流是相同的，从而导致各开关器件的静态分压不均。
+
+查阅器件数据手册可知，SiC JFET 器件在关断状态下断态电阻极大，在同一门极电压下，漏极电压越高，漏电流越大。根据不同温度下的漏极漏电流曲线可推得，等效断态电阻与漏极电压成反比，与节温也成反比。举例来说，常温下，本文选取的 JFET 器件在 800 V漏极电压下的断态电阻最小值为 120 MΩ 左右，最大值为 660 MΩ 左右。在 SiC JFET 的栅极并联远小于器件断态电阻且阻值相同的静态均压电阻 R1~R8，以改善静态均压效果。该静态均压电阻取值越小，均压效果越好，但是流过均压电阻的电流也会越大，使得电阻功率损耗越大。因此均压电阻的取值应该综合考虑均压效果和功率损耗。
+
+假设任意两个 SiC JFET 的静态均压值不平衡率小于 10%，即
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluBib5hOaK9tBPPMcDfkoP08ueNAB4kn37Iz3MXibhxWImOS8NciaELmLUD8W6rsXicFx8bDVs7o72kQ/640?wx_fmt=png&from=appmsg)
+
+式中：Vds\_min——串联开关在阻断状态下 SiC JFET 静态均压最小值；Vds\_max——串联开关在阻断状态下 SiC JFET 静态均压最大值。
+
+阻断状态下流过器件的漏电流是相同的，则有
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluBib5hOaK9tBPPMcDfkoP0Wqgx5GwZxskN45q1OZnOMBUYsB1FFkLTtMe5wtCg0dHSVxVfTxRbdw/640?wx_fmt=png&from=appmsg)
+
+式中 ：Rs——串 联开 关 的 静 态 均 压 电 阻 ；Roff\_min——JFET 断态电阻最小值；Roff\_max——JFET 断态电阻最大值。
+
+根据式（2）有
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluBib5hOaK9tBPPMcDfkoP05o0U8hIrtPTiayGlCxxh04oomD2LZn4iahPjauUlmGBALgictPQtNpN6g/640?wx_fmt=png&from=appmsg)
+
+2.3　动态均压电路设计
+
+SiC JFET 的开通关断时间在纳秒级别，动态过程中的均压问题是串联开关应用的难点。实现动态均压的原理主要通过外接缓冲电路来减小器件参数差异对动态分压的影响，有以下几种思路：1）通过调整栅极驱动网络来控制 JFET 的关断速度；2）增加无源器件提高电路的稳定性；3）同步串联器件的驱动信号；4）使用控制方法引入反馈以减小分压差异。
+
+本文使用无源动态均压方法，通过在 JFET 漏极和源极之间添加吸收电路，并通过优化参数设计改善SiC JFET 的动态均压或对 SiC JFET 漏源极过压进行抑制，以实现串联动态均压和过流关断的功能。串联开关通过类似链式反应的方式逐个关断 8 个串联的 SiC JFET。理想情况下，C8吸收 Q8栅极的所有电荷；C7吸收Q7栅极的所有电荷并加上来自 C8向下流动的电荷：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluBib5hOaK9tBPPMcDfkoP0CqiaD8pX3Ewjxh5RrRpTyqn66E7uMjm2mhAkwh9nV935a7zoOuvmiatA/640?wx_fmt=png&from=appmsg)
+
+以此类推，关断过程中的所有电荷通过级联传播到 Q1。假设 SSCB 关断时刻实现串联动态均压，则每个JFET 在关断时刻的电荷量计算如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluBib5hOaK9tBPPMcDfkoP0p6uibH7J7ZAxCKyPoppTVicsVvxwic71At8aMlOGsxTC2xxQXRbPg0iaNA/640?wx_fmt=png&from=appmsg)
+
+其中，由 SiC JFET 参数可知△qds 大约为 260 nC，Vds，Qi 设计 值 为 800 V，假设 C8 为 325 pF，那么 C7 为650 pF，以此类推可得到 8 个 JFET 动态均压电容值。
+
+理论上电容的取值越大，漏电流通过越快，关断速度越快，越能有效压低并联 JFET 的漏源极电压峰值；但同时越会引起其他 JFET 的动态电压峰值的改变。因此该电容值需要谨慎选取以达到动态过程中的均压。
+
+2.4　雪崩处理
+
+串联开关关断过程中，如果线路上的能量较大，会使得雪崩二极管达到钳位电压；当能量更大时，由于雪崩二极管体积较小，处理浪涌能量有限，可能导致串联开关的损坏。相对来说，JFET 体积比雪崩二极管大很多，可以处理更多浪涌能量，因此，可以在雪崩二极管上串联电阻，以减小雪崩二极管的压力，将其转移至JFET，以降低雪崩二极管损坏可能性，从而也避免了JFET 器件的损坏。这样做虽然会带来一定程度的动态均压性能降低，但总体在可控范围内。
+
+雪崩二极管雪崩电压 VD 为 800 V，击穿状态下的内阻 RD约为 40 Ω，SiC JFET 击穿电压为 1 200 V。假设雪崩击穿持续时间 τ 为 200 ns，如果雪崩二极管没有串联电阻，则 400 V 电压直接加在内阻上并产生电流 ID，每个雪崩二极管在一个开关周期内消耗的能量 WD为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluBib5hOaK9tBPPMcDfkoP0Cy7yr5aXusgv4r9nMibGhbQNcYGvfXqEKxnQMnqlmJns5TF48ibfKhKw/640?wx_fmt=png&from=appmsg)
+
+在没有串联电阻情况下，雪崩二极管在一个开关周期内消耗的能量高达 1.6 mJ。考虑给雪崩二极管串联阻值为 10 kΩ 的电阻 RDi，此时每个雪崩二极管在一个开关周期内消耗的能量仅为 6.4 μJ。
+
+不难发现，雪崩二极管串联电阻RDi可以有效降低其在关断时的开关损耗。同时，由于静态工作期间，雪崩二极管未在击穿工作状态，其内阻很大，流过的电流很小，因此电阻RDi对于静态均压效果的影响可以忽略不计。
+
+3　样机验证
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluBib5hOaK9tBPPMcDfkoP0VYkbRHONtVx9dLCq5HKf1emwH1lyKSc9FYxAbdWBGfQmNvhky0U0vA/640?wx_fmt=png&from=appmsg)
+
+为了验证 DWBB SSCB 原理及均压特性，我们设计研制了 DWBB SSCB 样机，并通过设计动态均压和静态均压试验电路，对其基本功能和动静态均压性能进行了实验验证，以观察其静、动态串联均压效果并分析样机对直流故障电流的关断性能。DWBB SSCB 的主要元器件参数如表 1 所示。样机实物如图 3 所示，JFET 分布于板子长边两侧，压在过渡散热器上，管脚以最短连线方式焊接，均压电路靠近 JFET 放置，减小线路寄生参数对性能的影响。压敏电阻和其他元件置于板子中间位置。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluBib5hOaK9tBPPMcDfkoP0HdvxSgQE7pWv4WDG2OC9y6UhpKNg949hRQuud098qCyWLEbymhl1nQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluBib5hOaK9tBPPMcDfkoP01hYPMKEGVQMLicyjhc3OmRv6FWGicUFEK1xsFY5lwChrUo2XU6hiaQHIA/640?wx_fmt=png&from=appmsg)
+
+通过脉冲测试电路对 DWBB SSCB 的动态均压性能进行测试（图 4），其中电感 L 为 6.4 mH，电阻 R 为200 Ω，测试场景如图 5 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluBib5hOaK9tBPPMcDfkoP0tYSOhgJloKpC1fLSLxBSibib1OplibLNd1mnHNzl9Xk3jxVa6BocwbC8g/640?wx_fmt=png&from=appmsg)
+
+测试时，直流电源电压施加到 SSCB 并逐渐加大，除去串联开关和电感等效串联电阻的压降，直流电压都加在电阻 R 上，串联开关的电流 线 性 上 升 。然后 通 过 DC/DC 控制 器 给 DWBBSSCB 关断信号，串联开关关断，存储在电感 L 中的能量转移至串联开关的并联电容。当串联开关的浪涌电压超过串联压敏电阻的动作门槛值后，部分能量会被压敏电阻吸收。在此期间，测试正负线上串联开关关断时每个 SiC JFET 上电压的同步性和动态均压特性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluBib5hOaK9tBPPMcDfkoP0Mib9d0udxxIEFkImv2d1BFpoKmcOhEWkAiaUSOPMS6UHgjCnicibA5ZicHw/640?wx_fmt=png&from=appmsg)
+
+如图 6~图 7 所示（负线支路的串联 SiC JFET 器件定义为Q9~Q16），DWBB SSCB 关断瞬间示波器通过同一型号高压探头采集到的单支路 8 个 JFET 在关断瞬间的漏源极电压峰值。在检测到过流信号或关断驱动信号后，到检测到所有 JFET 上电压峰值时刻，用时 4.5 μs 实现了关断；且各个 JFET 具备一致的动态电压峰值，未出现瞬时过压，说明样机具备较好的动态特性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluBib5hOaK9tBPPMcDfkoP0QTiaB8biaS8QrEOBCqsR3knThO3oTSEYVyfKtWrzdnvklVPT1iatKzqJQ/640?wx_fmt=png&from=appmsg)
+
+静态均压测试电路与动态均压测试电路类似，采用高电压小电流的形式，取消了串联电感，通过外部输入关断信号，使 DWBB SSCB 处于关断常闭状态，通过一台 4 kV/500 mA 的直流电源分别给正、负线两个支路提供高压电，测试其静态均压特性。静态均压实验结果如图 8 所示，串联开关两端持续施加 4 kV 直流电压，8个支路的漏源极电压稳定，且各支路之间的电压峰值差值小于 25 V，排除各支路器件和采样设备的差异，以及采样误差的影响，样机的各支路静态均压一致性良好，满足设计安全范围要求。同时，通过改变直流母线输出电压，得到表 2 不同电压下的静态均压值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluBib5hOaK9tBPPMcDfkoP0qySacfEdia9JAUQibPDGN1micl5pKpUHgJL9cSdI6uDIZ37wFHGPkNibjA/640?wx_fmt=png&from=appmsg)
+
+从表 2 可以看出，在 DWBB SSCB 关断状态，样机在任意输入电压下均能实现一致的静态均压效果，漏电流 IR 与直流母线电压 VDC 成正相关关系。样机实验结果表明，依照本文提出的双线双向串联拓扑结构研制的样机能够实现双线双向故障电流快速切断，串联开关具备良好的均压能力；同时，不串联 MOSFET 的新结构具有常导通能力，是 DC/DC 实现黑启动的前提条件。而 SSCB 具备的接收系统指令主动关闭能力也为控制系统对水下电缆进线漏电检测提供了可能。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsluBib5hOaK9tBPPMcDfkoP0fPeFWUKibjov7G5QGaOY0nNMaEg7vOXAsiaxbWbiaISb9e3Om5dLqMHBQ/640?wx_fmt=png&from=appmsg)
+
+4　结束语
+
+本文针对深海 DC/DC 的特殊应用提出了一种基于常通型 SIC JFET 的双线双向阻断直流固态断路器结构，分析了 JFET 串联均压的主要影响因素与参数设计方法；并基于该设计方法研制了一台 DWBB SSCB样机，对生产的样机进行了相关的过压保护、静态均压、动态均压等试验。试验结果表明，所研制的 DWBBSSCB 样机具备了双线双向的快速阻断能力，串联的JFET 表现出良好的关断同步性、动态均压性，以及关断后的静态均压特性。区别于 SSCB ，DWBB SSCB 基于 JFET 的常导通特性可帮助 DC/DC 实现黑启动功能，也能配合系统实现水下电缆的漏电检测功能。由于试验设备的局限，本文没有在深海 DC/DC 的各种可能电应力环境下对 DWBB SSCB 进行全面验证，也没在深海水压情况下验证其功能。接下来将在应用现场解决这些问题，实现工程化应用。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

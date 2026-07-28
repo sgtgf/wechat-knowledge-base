@@ -1,0 +1,172 @@
+# SiC MOSFET 开关模块 RC 缓冲吸收电路的参数优化设计
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/F8C8rwYyXPeBoZgNbwwaWw](https://mp.weixin.qq.com/s/F8C8rwYyXPeBoZgNbwwaWw)
+
+文章来源：控制与信息技术
+
+作者：施洪亮，罗德伟，王佳佳，谭渺，杨奎，周帅，饶沛南（株洲中车时代电气股份有限公司，湖南 株洲 412001）
+
+摘　要：针对 SiC-MOSFET 开关模块开关速度快、开关电压尖峰高、缓冲吸收电路参数难以确定的问题，文章提出一种 RC 缓冲吸收电路参数快速优化设计方法。该方法基于包含寄生参数的电路分析模型并利用双脉冲电路，通过不同的缓冲吸收电路参数曲线来确定电路参数的优化区间并选取最优的缓冲吸收电路参数。仿真和实验结果表明，采用该方法能够针对 SiC-MOSFET 开关模块关断尖峰电压和缓冲吸收电路总损耗快速设计出满足要求的电路参数，使关断尖峰电压和缓冲吸收电路损耗处于系统优化的最佳区间。
+
+关键词：SiC；RC 缓冲吸收；双脉冲；寄生参数；电压尖峰；优化设计
+
+0  引言
+
+SiC-MOSFET 开关模块（简称“SiC 模块”）由于其高开关速度、高耐压、低损耗的特点特别适合于高频、大功率的应用场合。相比 Si-IGBT, SiC-MOSFET 开关速度更快（高一个数量级），在开关模块关断瞬间，由母排寄生电感和开关模块寄生电容引起的关断尖峰电压更高。关断过电压不仅给开关模块带来更大的电压应力，缩短模块工作寿命，而且会给系统带来更大的损耗以及更严重的电磁干扰问题，因此，需要增加缓冲吸收电路来抑制 SiC 模块关断过程中因振荡带来的尖峰电压过高的问题 。
+
+文献 \[7-11\] 通过对双脉冲电路进行仿真和实验研究，给出了缓冲吸收电路参数的优化设计方法，但都是以关断尖峰电压和系统 EMC 的抑制为目标。实际应用中，选择缓冲吸收电路参数时，为防止 SiC-MOSFET开关在开通瞬间由于吸收电容器上能量过多、需通过自身放电进而影响模块使用寿命，需要对 RC 缓冲吸收电路（简称“RC 电路”）的功率加以限制。关断尖峰电压越高，SiC 器件电压应力越大，器件寿命则越短，因此在满足关断尖峰电压尽可能低的前提下使 RC 电路的功率最小，这样可以延长价格昂贵的 SiC 模块寿命，提高系统的经济性。文献 \[12\] 针对 IGBT 开关模块的缓冲吸收电路进行了参数设计和研究，该电路比较复杂，文中没有给出参数选取的优化区间。由于 SiC-MOSFET开关速度更快，基于 Si-IGBT 设计的缓冲吸收电路参数并不适用于 SiC-MOSFET 的应用场合。
+
+为了使本研究不失一般性，本文从基于半桥结构的 SiC-MOSFET 电路出发，推导出关断尖峰电压和系统寄生参数以及缓冲吸收电路参数之间的关系，并求解出缓冲吸收电路参数的优化区间，最后通过仿真和实验验证该方法的正确性。
+
+1.  SiC-MOSFET 半桥主电路拓扑及其等效电路
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwzv35CGWwI3vtndibG9HXvWoI55vNOe4WfDSFQNxyCDRsoDhOQp4M1ic8w/640?wx_fmt=png&from=appmsg)
+
+双脉冲电路主电路拓扑结构（图 1）包含了主要的电路寄生参数以及 RC 电路。图中，Vds 为 SiC-MOSFET 模块关断电压；Vdc 为双脉冲实验电源电压；Lds 为 SiC-MOSFET 模块内部寄生电感；L 表示负载电感器；Lbus 为母排寄生电感；Lsnb 为 RC 电路寄生电感；Lo 为电源寄生电感；Rsnb 为 RC 电路电阻；Resr为支撑电容器的寄生电阻；C 表示支撑电容器；Csnb为缓冲吸收电容。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwzFoLiaiaK0pY6AHIwSnQOkYmTTuYwsd24ok5QfIOicOJnGNRjYXGeT8Deg/640?wx_fmt=png&from=appmsg)
+
+图 2 示出半桥主电路桥臂下管关断时刻图 1 的等效电路。为了推导 Vds 与缓冲吸收电路参数及主电路寄生参数之间的关系，在下管关断瞬间，电路有如下几个假设条件成立：
+
+（1）下管关断瞬间，上管的二极管管压降可以忽略不计；
+
+（2）直流母线支撑电容器 C 在下管关断瞬间相当于短路，因为其高频阻抗（1/ωC）远小于支撑电容器 C 的等效串联电阻 Resr；
+
+（3）电源 Vdc 在桥臂下管开通瞬间可以被视为开路，因为电源与 SiC 模块间的距离远大于缓冲吸收电路与 SiC 模块间的距离，故线路电感 Lo 的高频阻抗（ωLo）远大于 Resr。  
+
+由图 2 可列写电路方程：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwzvJhTYciaW59ofaCrQiap8MW8DU8Xg1l6Iz3dNzRl8cYI5cQjpDO6NxMA/640?wx_fmt=png&from=appmsg)
+
+式中：ip(t)—— 直 流 支 撑 电 容 器 C 中的 电 流；id(t)——SiC 模块寄生电容中的电流；isnb(t)——缓冲吸收电容中的电流；Cs——SiC 模块结电容。
+
+对式 (1) 进行拉普拉斯变换，可求解出
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwz2c8RSFBogZ4SD74a8uJMpfbcvXbx6k5Nd9iaYz4JdsaJyhJAcvxuDEw/640?wx_fmt=png&from=appmsg)
+
+2.  RC 电路参数优化设计
+
+由式 (2) 可知，当双脉冲电路的主电路寄生参数已知时，不同的 RC 电路参数会导致不同的开关电压Vds(t)，并且 RC 电路的引入会带来系统损耗的增加，因此需要对 RC 电路参数加以优化。
+
+2.1  Vds 波形分析及 RC 电路初始值设计
+
+2.1.1 Vds 波形分析
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwzXFp6IwpibgOXzHD2owP4A112FZF0jTdLdyGL7G8azblE5a35NuBl0rQ/640?wx_fmt=png&from=appmsg)
+
+图 3 示出下管关断时其关断电压 Vds 的波形。从图 3(a) 中可以看出，未增加 RC 电路的模块其 Vds 峰值为 1021 V，且电压衰减速度很慢，这是因为电路的阻尼仅由 Resr 和线路寄生电阻构成，约为 10 mΩ数量级。增加了 RC 电路之后，从图 3（b）可以看出，Vds 关断电压波形振荡频率fosc 从 16.12 MHz 升高到21.67 MHz，Vds 幅值衰减速度加快。
+
+因 Vds 波形是一个衰减振荡正弦波，为了求解缓冲吸收电路中 RC 的参数值，可将图 2 等效为图 4。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwz3hyBu861UHcwISVxyvp57j37pD2j2MaYzHmBdN79R6zWquNhwFPIlw/640?wx_fmt=png&from=appmsg)
+
+2.1.2 Rdamp 初始值设计
+
+由图 3 可以看出，Vds 波形可视为在直流电源电压 Vdc 上叠加一个正弦激励而产生的响应曲线。由于寄生参数的存在，该正弦激励在电路中会产生 LC 谐振，其谐振频率可通过实验或者仿真方法测量得到：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwz4sFo25pfl1XKHvbgdiakJaljPHCiaDXDbYO7ppEc0vAnBzVqHAQAMQPg/640?wx_fmt=png&from=appmsg)
+
+式中：Leff——电路谐振的等效电感。
+
+图 2 所示的双脉冲电路具有一个衰减振荡的工作过程。根据经典二阶系统的响应计算公式，系统的阻尼系数为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwzETEOzepRic3hTroGUwyljMB8ZAzRClswbUClj5c0ibMhIKMGTq957aBQ/640?wx_fmt=png&from=appmsg)
+
+式中：Rdamp——经典二阶电路阻尼电阻。
+
+因不同的缓冲吸收电阻 Rsnb 会改变电路的等效阻尼电阻 Rdamp，由式 (4) 可知，电路的阻尼系数也会因此而不同。调整 RC 电路参数的初始值，可使电路处于临界阻尼状态，即 ζ=1，因此可求得谐振电路临界阻尼电阻：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwzgaaegHxot12iaUp86YCdq90KcO0x0VImibd9icRQzPGNdDUqMBdOYOyMw/640?wx_fmt=png&from=appmsg)
+
+图 2 中的 L bus 一般 在 50~90 n H 之间，R esr 在10 mΩ 以内。当振荡频率fosc=21.2 MHz 时，RC 电路在此频率下的阻抗远大于由 Lbus 和 Resr 组成的支路的，因此可得到
+
+Rsnb ≈ Rdamp                                                              (6)
+
+2.1.3 Csnb 初始值设计
+
+增加了 R C 电路之后， 为了有效抑制电路振荡， 根据式 (6) 可求得谐振电路参数需满足如下关系：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwzl3YKWWpRhSA80rPl0OWqzlC12Fibib5ViaLHXLmqsbWkOsTX3DSubweDg/640?wx_fmt=png&from=appmsg)
+
+式中：Ceff——谐振电路等效电容。
+
+根据式 (5) 和式 (6)，计算得到 Rsnb；将其代入式 (7)，可计算得到 Ceff，然后可求得
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwzz4gEeJf8bAFUXNlEDLGJMQ0GGvNpTicqLFFic9k4U3FdaQvZWhgJT87A/640?wx_fmt=png&from=appmsg)
+
+2.2  RC 电路参数与关断电压 Vds(t) 之间的关系
+
+由 2.1 节分析可知，通过合理选择 RC 电路参数可有效抑制 Vds 振荡，原因具体如下：
+
+（1）Csnb 和 Cs 共同决定了 Vds 的高频振荡周期以及峰值大小，Csnb 越大，Vds 振荡周期越大，峰值越小；
+
+（2）Rsnb 决定了谐振电路的阻尼，Rsnb 从 0 开始增加，可使得电路分别处于欠阻尼、临界阻尼和过阻尼状态。
+
+为了快速给出 RC 电路参数的定量范围，参数 R和 C 可用 Rdamp 和 Cs 的倍数进行定量标定；一旦 SiC-MOSFET 模块规格型号确定，Rdamp 可由式 (3)~ 式 (5)确定。下面研究不同的 RC 参数和 Vds 之间的关系。首先固定 Csnb 容值，采用不同的 Rsnb 来绘制曲线。选择 0.1Rdamp ≤ Rsnb ≤ 1000Rdamp，0.1Cs ≤ Csnb ≤ 100Cs，其中 Rsnb 的选取原则是使得电路可分别处于欠阻尼、临界阻尼和过阻尼状态。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwzfYQOx38lqzFlA25cmzjicNZmkzlgksOAwkOeiaEA6XhGLl0ov2n3fdpA/640?wx_fmt=png&from=appmsg)
+
+图 5 示出 Vds 与 Rsnb 之间的关系。对于同一 Csnb 值、不同 Rsnb 情况，当 Rdamp ≤ Rsnb ≤ 3Rdamp 时，Vds 关断尖峰存在一个局部最小值区间，且随着 Rsnb 继续增大，Vds 处于单调增加状态直至稳定到最大值。在同一Rsnb 值时，Csnb 越大，Vds 最大值越小，抑制效果越好，该趋势和 2.1 节理论分析结果相一致。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwzJYk2ElAVFfyYicicU7eNJ9tyOqVZ4aEp0QyyLT4w0icO7wa4jSaaLaibDA/640?wx_fmt=png&from=appmsg)
+
+图 6 示出缓冲吸收电容损耗和负载电流之间的关系曲线。可以看出，随着缓冲吸收参数寄生电感的增加，缓冲吸收电容器的损耗也随之增加；随着负载电流的增加，缓冲吸收电容中的损耗快速增加。为了确保吸收电路损耗最低，需要尽可能地减小缓冲吸收电路中的寄生电感，设计时可使 RC 电路尽可能地靠近 SiC 模块以缩短二者间物理距离，从而减小寄生电感。
+
+2.3  RC 电路参数与其损耗之间的关系
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwzVyBzaVzJ8hRBMtRCZLc5RKxkP7mGesWR6eIYRUJeibjADlsEeO7PuwA/640?wx_fmt=png&from=appmsg)
+
+通过仿真可以得到不同 Rsnb 时 Csnb 和 Rsnb 的损耗曲线。图 7 示出 Rsnb 和 Vds 以及 Rsnb 和缓冲吸收电容损耗 Ecs 之间的关系曲线。其中：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwz0fR5icuprYTEYAgEyoibmw4VxAt2Id5rFbuBrLXksQ4QkMysGZ0RibWJQ/640?wx_fmt=png&from=appmsg)
+
+式中：Vds0——未增加缓冲吸收电路时的模块关断尖峰电压；Vds1——增加了缓冲吸收电路后模块关断尖峰电压。
+
+缓冲吸收电阻的损耗为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwzCb182W0PzK3xcFhGvV0QSSicWrphWEhyM2ZC3ibvbfJ6SfnB43DsBlcQ/640?wx_fmt=png&from=appmsg)
+
+式中：Ids ——SiC 模块中的电流；tf ——模块关断时下降时间。
+
+图 7 中绿色区间即为 RC 优化区间。可以看出，在绿色虚线框内，Vds 开始缓慢上升，缓冲吸收电阻损耗 Esnb 接近最大值。因此，选取缓冲吸收参数优化 区间的原则是： 要选取使得缓冲吸收电阻损耗处于最大的区域（ 此时吸收效 果最好） 且此时Vds 处于较小值的区间。结合图 4 可知，RC 缓冲吸收参数电阻选取原则为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwz9kVMeq0fl6cLuWXCzM1P6OIh9icNdqgtRyeZBVDic8Syv45jjibcukLNg/640?wx_fmt=png&from=appmsg)
+
+根据式 (11) 选择 RC 缓冲吸收参数，可使得关断尖峰电压和缓冲吸收电路吸收电阻损耗曲线位于图 7绿色框内。
+
+2.4  RC 电路参数优化设计方法
+
+综上，针对半桥结构 SiC-MOSFET 开关模块的RC 电路参数可按照图 8 所示流程进行选型设计。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwzV7VyYIOyQk6cVfp6ju5ukN8WECu1ziay1DkDkNGEoG5kXVYlt1rYNcg/640?wx_fmt=png&from=appmsg)
+
+3.  仿真与实验验证
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwzsClZwic9Ch80OJ6RqwpTia95k0hibErCrFMr98aBmHibFPDHcRkeFNlaYQ/640?wx_fmt=png&from=appmsg)
+
+为了验证仿真模型的准确性以及 RC 缓冲吸收电路参数对 Vdc 尖峰吸收的影响效果，利用仿真软件搭 建 基 于 罗 姆 公 司 BSM600D12P3G001 型 SiC-MOSFET 模块的双脉冲仿真模型进行仿真与实验研究对比，实验电路和仿真模型采用与表 1 相同的参数，其中 RC 电路参数选取原则是根据式 (11) 选择Rsnb=2Rdamp，Csnb=3.3Cs。仿真电路模型如图 9 所示，仿真参数如表 1 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwzF8TgrYKictmcFNtHrnYwa8xicGXCviakXwTJp7gkFNWrYNZvnjTgDIlDw/640?wx_fmt=png&from=appmsg)
+
+图 10 示出双脉冲实验的仿真与实验结果对比。可以看出，仿真波形与实验结果基本一致，二者 Vds最大值仅相差 10 V，误差为 3.2%。实验和仿真波形的不一致主要体现在高频振荡部分，其原因是仿真所采用的系统寄生电路参数和双脉冲实验中的实际杂散参数存在细微的差别，但该差别不影响对缓冲吸收参数和最大关断尖峰电压 Vds 的研究。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsknoCd5lUpsT4lyicYpgJCwzYBTQLHLyJmGibcXXErabmVNp8MlzvD2rK2e3S970LCqgaTdPL0hDCTw/640?wx_fmt=png&from=appmsg)
+
+4.  结语
+
+本文针对基于 SiC 模块的变流器 RC 缓冲吸收电路参数进行优化设计，基于双脉冲电路分析模型推导出了 SiC 模块的关断电压方程，通过绘制缓冲吸收电阻和关断尖峰电压以及缓冲吸收电路功率损耗之间的关系曲线，确定缓冲吸收电路参数的优化区间，依此来选择最优 RC 缓冲吸收电路参数，并通过仿真和实验验证了该方法的正确性。
+
+本文在实验和仿真过程中未考虑 SiC 模块结电容随温度和输出电压的变化。后续研究可建立开关模块电容非线性模型，同时将门极驱动电阻作为另一个变量参数，并结合 RC 缓冲吸收电路，对门极驱动电压和 SiC 模块关断电压以及关断尖峰电压进行优化设计，从而提高系统效率和可靠性。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)

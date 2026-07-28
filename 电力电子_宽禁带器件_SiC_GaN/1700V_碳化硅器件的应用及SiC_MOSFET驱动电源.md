@@ -1,0 +1,82 @@
+# 1700V 碳化硅器件的应用及SiC MOSFET驱动电源
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/2kTZOAvs6wvYm2\_5SNPSfw](https://mp.weixin.qq.com/s/2kTZOAvs6wvYm2_5SNPSfw)
+
+**摘要：**随着新能源技术的发展，电力电子技术已经深入到社会发展和国民经济建设的各个环节，发挥了极其重要的作用。现有电力电子器件大多采用硅器件作为功率器件。目前对硅器件的性能的研究几乎接近其理论极限，很难取得进一步的性能提升。碳化硅电力电子器件具有高效、高压、高温和高频特性，使其在家用电器、电机节能、电动汽车、智能电网、航天航空、石油勘探、自动化、雷达与通信等领域有很大应用潜力。更高电压、更高效率、更高功率密度代表了电力电子器件技术的发展方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm4fhSZSnEMQbQSJt2ZTV2uoKoopfWpQcrj2UNVaySMLpPia5RdSJzbn5qy53NG82icaYzNVU3qxRBg/640?wx_fmt=png&from=appmsg)
+
+当前，新型电力系统所采用的碳化硅器件分成两阶段，一种是中低压的SiC MOSFET器件，电压范围为650V-1700V，这类碳化硅器件主要用在配电网，比如分布能源的光伏逆变器、储能PCS等。另一种是中高压的SiC MOSFET器件，电压范围为2000V-6500V。需求放量是在未来配网实现有源化之后，交流和直流的连接必须采用柔性的电力电子变换设备，而3300V中高压的国产碳化硅器件，也将进入批量化的应用。未来，电网输电环节的大容量变换设备中万伏千安级碳化硅器件对硅器件的替代空间也非常值得想象。
+
+**1700V碳化硅MOSFET的优点**
+
+1700V MOSFET将碳化硅在电压转换方面的优势扩展到电气化商用和重型车辆，以及有轨电车的牵引和辅助驱动器。这些器件适用于当前和未来车辆的动力总成，并正在逐步取代旧的硅MOSFET和IGBT。它们满足一些世界上最大的CO2排放国的高电力和电压要求，包括公共汽车、轨道车辆、中型和重型卡车以及充电基础设施。它们还提供比硅MOSFET和IGBT更高的系统效率和可靠性，使设计人员能够缩小辅助单元（APU）和其它关键车辆系统。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmvLqicicNx9nmggrLu4VL5qt9GABcOtTzfZhiavje8bn15sPL0lD7Bno5maJEMEup8KJYaNg1SGw6Gg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+1700V SiC 器件将开关损耗降低到硅IGBT的一小部分。这使得设计人员能够提高开关频率并减小电压转换器的尺寸。与IGBT不同，SiC MOSFET没有转折电压，因此对于运输中的APU等系统，导通损耗也较低，这些系统通常仅在部分负载范围内工作，例如：打开和关闭大多数时间关闭的火车门。由于绝大多数应用在其整个使用寿命期间都在低负载下运行，因此SiC MOSFET的低开关和导通损耗可用于避免或至少最小化散热器等热管理措施。
+
+用于更高电压的SiC MOSFET的简化电路设计和更少数量的器件也提高了可靠性并降低了成本。其1700V的额定电压使得用复杂程度低得多的两电平电路取代三电平拓扑成为可能。这将使组件数量减半或更多，同时可以优化控制。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmEMBwBIpbKZA30gic677cdynx54CCdPAg9CZvKbMvvyhbw8dpYV8JpRwbEtmwKrRN1OwsaTEUVJhg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+**SiC MOSFET的注意事项**
+
+在为重型车辆和其它兆瓦级应用，在选择SiC MOSFET时，有几个因素需要考虑。其中一个因素是是否应该使用基于模块的解决方案，通常是电力电子模块或子模块。过去，1200V至1700V IGBT被用作这些单元中的功率半导体。与低功耗应用类似，在这些模块或子模块中使用1700V SiC MOSFET可扩展其功耗和电气性能。如前所述，1700V SiC MOSFET的开关损耗要低得多，增加了开关频率并显著降低了每个子模块的损耗。此外，1700V的高耐压减少了相同直流链路电压所需的模块数量，从而提高了系统可靠性并降低了成本。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm4fhSZSnEMQbQSJt2ZTV2uPFnibaeyq4LibdskUDXJ0X5iaP646h0ZdRyACjPs4Y5P1FogjxQ4mQX0w/640?wx_fmt=jpeg&from=appmsg)
+
+开发人员还应评估集成在SiC MOSFET中体二极管的鲁棒性。在负载前后的导通状态下，在漏源电阻（RDS（on））测试期间，组件不应显示任何可察觉的电压位移。这对于确保它们在经过数小时的恒定正向电流负载后不会恶化至关重要，因为它们在开关周期后传导返回电流并转换剩余能量。必须仔细检查SiC MOSFET的测试结果，因为不同供应商的组件之间存在显著差异。许多至少有一定程度的恶化，而另一些甚至可能变得不稳定。选择不会变化的SiC MOSFET无需外部反并联二极管，从而节省了功率模块的成本和空间。
+
+**碳化硅MOSFET的驱动电路**
+
+SiC MOSFET 对驱动电路的基本要求主要有:①驱动电流要足够大，以缩短米勒平台的持续时间使驱动脉冲前后沿足够陡峭，尤其在多管并联的工况下; ②驱动回路的驱动电阻要小，导通时能够快速对栅极电容充电，关断时栅极电容能够快速放电，以加快 SiC MOSFET 的开关响应速度; ③为了保证 SiC MOSFET 可靠触发导通，栅极驱动电压应高于器件的开启电压; ④驱动电路采用负压关断，防止误导通，增强其抗干扰能力; ⑤需具有小的寄生电感，减小系统的振荡; ⑥为了保证控制电路的正常运行，驱动电路和功率电路之间要有隔离; ⑦需具有必要的驱动保护电路。
+
+                **![](https://mmbiz.qpic.cn/sz_mmbiz_png/qo7HKGYbxChYuqtqxMicZshwmAWphpB76Cgknyr67G8U9afmN3fNTRX4nQLt3mGz5mUROyOeAxWKpCkU6lBTmSw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)**图1 负压关断驱动电路（方案一）
+
+图1为基于单电源驱动芯片的驱动电路方案一。VDD1电源通过电阻R1//R2给电容C8//C9充电，电容两端电压快速上升到D4反向击穿电压以后，D4的两端电压稳定，负压VDD2随之建立。VDD1对地PGND-HS的电压幅值大小等于正向驱动电压幅值和关断负压绝对值之和。驱动芯片6脚输出PWM驱动信号。R6为开通电阻，R6//R8为关断电阻。SiC MOSFET的栅极通过驱动芯片内部集成上拉开关管接到芯片电源（VDD1）或者下拉开关管接到芯片地（PGND-HS）。
+
+              ![](https://mmbiz.qpic.cn/sz_mmbiz_png/qo7HKGYbxChYuqtqxMicZshwmAWphpB76GxxvgINAk4hHdtBxeGQrXvKwqBGTFeGxV6AeukribibzV5ibudPUTmqng/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)  图2  负压关断驱动电路（方案二）
+
+图2的驱动电路方案二是利用电容C1实现负压关断。C1比SiC MOSFET输入电容要大很多，以确保最长的关断时间内，C1在放电的情况下仍旧可以提供足够的负压。只有在PWM驱动信号使能条件下，VDD1通过驱动芯片内部上拉管子给C1充电。由于C1两端电压建立需要若干个开关周期。因此，SiC MOSFET在最初始的若干个PMM周期关断负压不足。开关频率越高，C1充电到稳定负压的时间越长，负压关断不足的PWM周期数越多，驱动串扰隐患加剧。C1电容两端负压建立时间和电压纹波受开关频率和占空比的影响。C1电容增加，电容两端电压纹波减小，可是负压建立时间延长。因此，根据具体开关频率和占空比变化范围，可以优化电容C1和电阻R3，调节充放电时间常数，以平衡负压建立时间和电压纹波两个性能指标。
+
+**金升阳SiC MOSFET驱动电源**
+
+随着新能源汽车和光伏行业不断发展，半导体器件的应用不断扩宽，IGBT/SiC MOSFET作为充电桩设备、光伏SVG系统中的关键半导体器件组成部分，市场对其应用条件和性能提出了更高的要求，随之也带来了对驱动方案的高要求。  
+
+金升阳基于自主电路平台、IC平台、工艺平台，升级开发IGBT/SiC MOSFET专用第三代驱动电源QA-R3/QA\_C-R3系列产品。同时为满足更加严苛的应用需求，打造了全新的爬电距离满足1700V系统电源应用的驱动电源QA\_H-R3/QA\_HC-R3系列产品，以期为客户提供更优质的电源解决方案
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/ZP82FibyQoSKsKEjr5eb8LHZj7UMzaLKk619AGUCF1z99RuNvtEj3vDOy47VWUc4uMq1KCLOMYSWf0PHz6QgXTQ/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm4fhSZSnEMQbQSJt2ZTV2uDTXGMozz9wW37LmN5xzpL76cvAhGxf62KvIbkAx1ZIZxIbydsBicchA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm4fhSZSnEMQbQSJt2ZTV2uiarDmLxm684YzyrEsyWbBpOcfxKwiapASbLrBD6lS2AbSCFSgAHHticyA/640?wx_fmt=png&from=appmsg)
+
+资料来源：金升阳  
+
+**SiC MOSFET器件的应用领域**
+
+SiC MOSFET器件的应用非常广泛，‌涵盖了电力电子设备的多个关键领域，‌包括电源开关、‌电机驱动、‌逆变器、‌频率变换器、‌太阳能逆变器以及新能源汽车等领域。‌  
+
+@电源开关和电机驱动：‌SiC MOSFET在电源系统中作为开关元件，‌提供高效率、‌高速度的电源开关操作，‌能够承受高电压和大电流，‌因此适用于交流电机驱动器和直流电机驱动器等电机驱动电路中，‌提供稳定可靠的电机驱动能力。‌  
+
+@逆变器和频率变换器：‌SIC MOSFET在逆变器电路中的应用，‌能够高效地将直流电转换为交流电，‌提供更高的开关频率和更低的开关损耗，‌从而提高逆变器的效率和响应速度。‌在频率变换器中，‌通过频率变换的方式实现信号的调整和变换，‌提供更高的调整范围和更低的信号失真。‌  
+
+@太阳能逆变器：‌SiC MOSFET在太阳能逆变器中被广泛使用，‌因其能够承受高电压和大电流，‌并具有高效和高速的开关特性，‌提高太阳能逆变器的转换效率和运行稳定性。‌  
+
+@新能源汽车：‌随着800V平台在新能源汽车上的兴起，‌SiC MOSFET凭借其高压高效、‌贴片封装体积小等优势，‌成为市场首选，‌广泛应用于新能源汽车空调压缩机控制器方案中。‌  
+
+@大功率OBC和工业电源：‌在大功率OBC电路中，‌SiC MOSFET应用更高的开关频率，‌可以减小磁性元器件体积和重量，‌提高效率和功率密度。‌工业电源领域，‌如医疗电源、‌激光电源等，‌需要高压、‌高频、‌高效率的应用场景，‌SiC MOSFET也发挥了重要作用。‌  
+
+综上所述，‌SiC MOSFET器件以其优越的电气性能，‌在电力电子设备中扮演着关键角色，‌不仅提高了系统的效率和可靠性，‌还推动了相关领域的技术进步和应用发展。
+
+**总结**
+
+在从数瓦到数兆瓦的众多功率变换应用中，SiC MOSFET正在推动设计人员超越硅解决方案的各种限制，从而推动功率变换系统开发领域的创新。在应用到功率转换器和功率系统时，它们能够提高可靠性和效率，同时降低成本、减小尺寸并减轻重量。了解碳化硅器件的特性，学习碳化硅器件的电路设计，让设计人员能够轻松、快速且自信地选用SiC器件，用好SiC器件。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

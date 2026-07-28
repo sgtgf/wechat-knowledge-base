@@ -1,0 +1,122 @@
+# 优化SiC MOSFET的栅极驱动
+
+原创 Didier Balocco SiC碳化硅MOS管及功率模块的应用 2025-07-10 14:46 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/AJ68ETJBYCx6aYHbv9qEqw](https://mp.weixin.qq.com/s/AJ68ETJBYCx6aYHbv9qEqw)
+
+文章来源：电子产品世界
+
+作者：Didier Balocco（ 安森美业务拓展工程师）
+
+在高压开关电源应用中，相较传统的硅 MOSFET和 IGBT，碳化硅（以下简称“SiC”）MOSFET 有明显的优势。使用硅 MOSFET 可以实现高频（数百千赫兹）开关，但它们不能用于非常高的电压（>1 000 V）。而 IGBT 虽然可以在高压下使用，但其 “拖尾电流 “和缓慢的关断使其仅限于低频开关应用。SiC MOSFET则两全其美，可实现在高压下的高频开关。然而，SiC MOSFET 的独特器件特性意味着它们对栅极驱动电路有特殊的要求。了解这些特性后，设计人员就可以选择能够提高器件可靠性和整体开关性能的栅极驱动器。在这篇文章中，我们讨论了 SiC MOSFET 器件的特点以及它们对栅极驱动电路的要求，然后介绍了一种能够解决这些问题和其他系统级考虑因素的 IC 方案。
+
+SiC MOSFET特性
+
+与硅器件相比，SiC MOSFET 的跨导（增益）更低，内部栅极电阻更高，其栅极导通阈值可能低于 2 V。因此，在关断状态下，必须向 SiC MOSFET 施加负栅源电压（通常为 -5 V）。SiC 器件的栅源电压通常要求在18 V ~ 20 V，以降低导通状态下的导通电阻（RDS）。
+
+SiC MOSFET 工作在低 VGS 下可能会导致热应力或由于高 RDS 而可能导致故障。与低增益相关的其他影响会直接影响几个重要的动态开关特性，在设计适当的栅极驱动电路时必须考虑这些影响，包括导通电阻、栅极电荷（米勒平台）和过电流（DESAT）保护。
+
+导通电阻
+
+在低 VGS 时，一些 SiC 器件的导通电阻与结温特性之间的关系曲线看起来是抛物线 \*（由于内部器件特性的组合）。(\* 这适用于安森美 M1 和 M2 SiC MOSFET。) 当 VGS = 14 V 时，RDS 似乎具有负温度系数 (NTC)特性，即电阻随温度升高而降低。SiC MOSFET 的这一独特特征直接归因于其低增益，这意味着如果两个或更多的 SiC MOSFET 并联工作在低 VGS(负温度系数 ) 下，可能会导致灾难性损坏。因此，只有当 VGS 足以确保可靠的正温度系数工作时（即 VGS > 18 V），才建议将SiC MOSFET 并联工作。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsYkqk0jrVWh3DjKqlZz8TMKh8gdmzHCnxu2FqrfyWmBoP4vPWzE7onw/640?wx_fmt=png&from=appmsg)
+
+新一代 M3 SiC 在所有 VGS 和所有温度范围都显示正温度系数
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsVop9wNpk0ebVBVDUGsunGWtyicTbaB8L7xZoNHgA3iaRkibvckaicakxUw/640?wx_fmt=png&from=appmsg)
+
+栅极电荷
+
+向 SiC MOSFET 施加栅源电压 (VGS)  时，电荷被传输以尽快使 VGS 从 VGS (MIN) (VEE)和 VGS (MAX) (VDD)升高。由于器件的内部电容是非线性的，因此可以使用 VGS 与栅极电荷（QG）的关系曲线来确定在给定的 VGS 下必须传输多少电荷。SiC MOSFET 的这种 “米勒平台“发生在较高的 VGS 上，而且不像硅MOSFET 那样平坦。不平坦的米勒平台意味着在相应的电荷范围内，VGS 不是不变的，这也是由于器件低增益导致的。同样值得注意的是，QG = 0 nC（关断 SiC MOSFET 所需的电荷量）不会发生在 VGS = 0 V 时，因此 VGS 必须为负（本例中为 -5 V），以使栅极完全放电。
+
+由于我们想测量导通或关断 SiC MOSFET 所需的电荷量，我们的曲线只绘制了 Qg 的增量（或 Qg 的累积或 Qg 的变化）。这个数值也叫 Qg。这可能会引起混淆。我们需要将这张图解读为需要的能量，而不纯粹是存储在栅源电容器中的能量。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsZ3NXibUG9Ty2H810T8wCOoMJfs8LicFpqf3cSjuL1icSdAt2E0s2Ona4g/640?wx_fmt=png&from=appmsg)
+
+使用负栅极驱动阻断电压主要是为了减少关断状态下的漏电流。这也是由于跨导增益低造成的。使用负的阻断电压还可以减少开关损耗，主要是在关断期间的开关损耗。
+
+因此，几乎对于所有的 SiC MOSFET，都建议在关断状态下使用的最小 VGS 为-5 V < VGS (MIN) < -2 V，有些制造商规定电压低至 -10 V。
+
+欠压保护 (DESAT)
+
+DESAT 保护是一种过电流检测，起源于 IGBT 的驱动电路。在导通时，如果 IGBT 不能再保持饱和状态（“去饱和”），集电极 - 发射极电压就会上升，同时全集电极电流流过。显然，这对效率有不利影响，在最坏的情况下，可能导致 IGBT 的灾难性故障。所谓的“DESAT“功能监测 IGBT 的集电极 - 发射极电压，并检测何时出现潜在的破坏性条件。虽然 SiC MOSFET 中的故障机制有些不同，但会有类似的情况，在最大 ID 流过时VDS 可能上升。如果导通期间的最大 VGS 太低，栅极驱动导通沿太慢，或者存在短路或过载情况，就会出现这种不理想的条件。在满载 ID 的情况下，RDS 会增加，导致 VDS 意外上升。当 SiC MOSFET 发生欠饱和事件时，VDS 的反应非常迅速，而最大漏极电流继续流过不断增加的导通电阻。当 VDS 达到预定的阈值时，就可以激活保护。应特别注意避免感测 VDS 的延迟，因为延迟会掩盖这种现象。因此，DESAT 是栅极驱动电路的一个重要的辅助性保护。
+
+动态开关
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGslicXVaY1EC1vLDCWWicLfkBRY7tpsOY6zh3AxJcKDMBfGYtAeusr364Q/640?wx_fmt=png&from=appmsg)
+
+SiC MOSFET 的导通和关断状态有 4 个不同的阶段。所示的动态开关波形呈现的是理想工作条件的情况。然而，在实践中，封装寄生物，如引线和邦定线电感、寄生电容和 PCB 布局会极大地影响实际波形。合适的器件选择、最佳的 PCB 布局，以及对设计好的栅极驱动电路的重视，对于优化开关电源应用中使用的 SiC MOSFET 的性能都是至关重要的。
+
+栅极驱动电路的设计要求
+
+为了补偿器件低增益，同时实现高效、高速的开关，对 SiC 栅极驱动电路有以下关键要求。
+
+●  对于大多数 SiC MOSFET，驱动电压在 -5 V > VGS > 20 V 之间时性能最佳。栅极驱动电路应能承受VDD = 25 V 和 VEE = -10 V，以适用于最广泛的可用器件。
+
+●  VGS 必须有快速的上升沿和下降沿 ( 在几 ns 范围内 )。
+
+●  在整个米勒平台区域内，有能力提供高的峰值栅极灌电流和拉电流（数 A）。
+
+●  当 VGS 下降到米勒平台以下时，需要提供一个非常低的阻抗保持或 “钳位”，以实现高的灌电流能力。灌电流的额定值应超过仅对 SiC MOSFET 的输入电容放电所需的电流。10 A 左右的峰值灌电流最小额定值应适用于高性能、半桥电源拓扑结构。
+
+●  VDD 欠压锁定（UVLO）水平，与开关开始前VGS > ~16 V 的要求相匹配。
+
+●  VEE UVLO 监测能力确保负电压轨在可接受的范围内。
+
+●  能够检测、报告故障和提供保护的去饱和功能，使 SiC MOSFET 长期可靠运行。
+
+●  支持高速开关的低寄生电感。
+
+● 小尺寸驱动器封装，布局尽可能靠近 SiC MOSFET。
+
+栅极驱动器方案
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsI2ibw55m9dAOT1q7He90DlWeAx1mbdElCGPV9R0qrts7tBG6Gup1GXg/640?wx_fmt=png&from=appmsg)
+
+安森美的 NCP51705 是一款 SiC 栅极驱动器 IC，提供高的设计灵活度和集成度，几乎与任何 SiC MOSFET兼容。NCP51705 集成许多通用栅极驱动器 IC 所共有的功能，包括：
+
+●  VDD 正电源电压最高 28 V；
+
+●  高峰值输出电流——6 A 拉电流和 10 A 灌电流；
+
+●  内置 5 V 基准可用于偏置 5 V、20 mA 以下的低功耗负载（数字隔离器、光耦合器、微控制器等）；
+
+●  单独的信号和电源接地连接；
+
+●  单独的源和灌输出引脚；
+
+●  内置热关断保护；
+
+●  单独的非反相和反相 TTL、PWM 输入。
+
+然而，该 IC 集成几个独特的功能，能够以最少的外部元器件设计出可靠的 SiC MOSFET 栅极驱动电路。
+
+这些功能包括：
+
+●  欠压保护（DESAT）；
+
+●  电荷泵（用于设置负电压轨）；
+
+●  可编程的欠压锁定（UVLO）；
+
+●  数字同步和故障报告；
+
+●  24 引脚，4 mm×4 mm，热 增 强 型 MLP 封装，便于板级集成。
+
+总结
+
+在选择合适的栅极驱动器 IC 时，SiC MOSFET 的低增益给设计人员带来了难题。通用的低边栅极驱动器不能高效和可靠地驱动 SiC MOSFET。NCP51705 集成一系列功能，为设计人员提供了一个简单、高性能、高速的解决方案，高效、可靠地驱动 SiC MOSFET。
+
+注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsygNw8Sm1iasicdib6ehOKWgpV9ic8c8PE8HvZaVXGnyRYOvCy1ichy4jxrw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsqtYBIE39RAf1MlC6RZUmzsibfialllfHfWlc8Ox1sUmDj1z99PmPic16A/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsl90h8MyNTNiaUtibwf8zusGsR4Vd6K3FBRfTV0p7fUpfghN4ialScfUyRJteTyZaMu9hFZuA5cX4QAA/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)

@@ -1,0 +1,80 @@
+# 并联SiC MOSFET的均温设计
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/dBaLil0zA-Pn4R7bA-gMmQ](https://mp.weixin.qq.com/s/dBaLil0zA-Pn4R7bA-gMmQ)
+
+文章来源：电机技术
+
+作者：刘双华.吴慧玲.陈志雪.(中车株洲电机有限公司-412000)
+
+摘要：为了解决SiC MOSFET并联产生的不均流问题，降低并联器件的温度差异性对均流的影响，通过采用均温板的方案，减小了并联器件的温度差异性。当采用0.5mm的均温板后，通过试验得到的并联器件之间的最大温差仅为1.83K，验证了该均温方案的有效性。
+
+关键词：SiC MOSFET. 并联. 均流. 均温
+
+0\.  引言
+
+由于SiC MOSFET具有导通电阻小、开关损耗低的特点，且随着分立式SiC MOSFET的成本越来越低，其在高频、高功率密度和高效率的新能源汽车等行业得到了越来越多的应用。但单个分立式SiC MOSFET的通流能力有限，无法满足较大功率的驱动系统，故一般情况下会采用对SiC MOSFET并联的方式进行扩容，以满足这些场合的应用。而电力电子设备中，只要出现器件并联，就必然会存在流过各个器件电流不均衡的问题。这种电流的不均衡将会导致并联的SiC MOSFET存在损耗、电流应力和电压应力等的差异性，进而可能会导致单个器件因长时间处于损耗、应力过大的状态而损坏，从而危及整个系统。
+
+并联SiC MOSFET工作时，电流不均衡的原因主要是静态电流不均衡和动态电流不均衡。从文献\[4-6\]对影响均流的静态因素和动态因素的分析可知，温度特性对静态电流和动态电流的均衡均有影响，且温度差异性又会影响器件的寄生参数,可见温度特性对均流影响较大。由此，本文对采用分立式SiC MOSFET双管并联的电机驱动器进行均温设计，以期降低并联器件的温度差异性对均流的影响。
+
+1\.  均温方案设计
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskJxnG6mFl5xOGAhep5diapOlqib7uBg2s8e1tZq1dqTxH0480R1qNJshg2vxw5UdAWT1OzuRH1laDA/640?wx_fmt=png&from=appmsg)
+
+采用SiC MOSFET双管并联的电机驱动器主回路原理图，如图1所示。采用的是典型的两电平三相逆变桥的拓扑，每一相桥臂的上管和下管均采用2个TO247封装的分立式SiC MOSFET并联，其散热面和SiC MOSFET的漏极高压是等电位的，因此SiC MOSFET与散热器之间须做好绝缘处理。本文采用在SiC MOSFET和散热器之间加陶瓷基片进行绝缘处理。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskJxnG6mFl5xOGAhep5diapO2yf9WyPyeicmd0C2hiaYUhQdYt15G08oHpQgOq3BYWq2ibPUonCH3RdUA/640?wx_fmt=png&from=appmsg)
+
+常规的均温散热方案是将SiC MOSFET安装在陶瓷基板上，或者安装在导热系数较高的绝缘材料上，一般这种材料的价格非常高，会导致产品市场竞争力不足。而本文采取的散热方案如图2所示，主要由水冷散热器、氧化铝陶瓷基板、均温板和SiC MOSFET组成，其中SiC MOSFET均匀布置在散热器的两侧，且2个并联的SiC MOSFET共用1块均温板。通过采取增加均温板的方案，来减小并联SiC MOSFET的温差，其中均温板的材质为T2Y2紫铜。
+
+2\.  仿真分析
+
+在其它条件不变的情况下，仅通过改变均温板的厚度来研究并联SiC MOSFET的温差情况。共采取了五种方案进行对比，均温方案内容及对应的方案编号，如表1所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskJxnG6mFl5xOGAhep5diapO1ZSe4dUDGZ7dhxQk5riaqo9MNicD6MxOJA7FQjQhLaFCn3majF3W2CZA/640?wx_fmt=png&from=appmsg)
+
+根据控制器实际工况，对各均温方案进行散热仿真，其中环境温度为10℃，入水口温度为20℃,冷却液流量为9L/min，单个SiC MOSFET的功耗为37.52W。对各方案进行仿真，其中方案C的仿真温度云图，如图3所示，其热源最高温度为44.24℃。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskJxnG6mFl5xOGAhep5diapOQyw2k0tTKECHu00jumDTmC1TXTEMzrRExVNBTFZofKrcwbxkVd6SgA/640?wx_fmt=png&from=appmsg)
+
+不同均温方案的SiC MOSFET最高温度，如图4所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskJxnG6mFl5xOGAhep5diapOSFxUHp6ia55icm0kAG1oaibmypVy6kDicDQ2nJ2EJBNvsGdg5Qoc547zibA/640?wx_fmt=png&from=appmsg)
+
+由图4可知，采用均温板时，随着均温板厚度的增加，SiC MOSFET的最高温度也在增加，但是增加的幅度很小。均温方案B相较均温方案E，最高温度仅增加了0.98℃，其原因是随着均温板厚度的增加，SiC MOSFET到散热器之间的热阻逐渐增大，但因均温板自身的导热率很高，热阻变化也很小,所以温差较小。热阻计算公式为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskJxnG6mFl5xOGAhep5diapOxIy2y126J4jbibkNa5fDWskibYFS62DcstkdpbvLJnuU2pdYRUz204jQ/640?wx_fmt=png&from=appmsg)
+
+其中：Rt一热阻；
+
+          L一导热路径的长度；
+
+          S一导热面积；
+
+          λ 一物体的导热率。
+
+相比无均温板，有均温板的最高温度增加了约4.9℃，其原因也是导热路径的热阻增大；而导致热阻增大的主要原因是加在均温板和氧化铝陶瓷基板间的导热硅脂的导热率较低。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskJxnG6mFl5xOGAhep5diapOI3SlZj7E2lFv10YkPcNNp9V259t6wYazksmxhXAFCaMlX1aic1ztq4A/640?wx_fmt=png&from=appmsg)
+
+采用不同均温方案时，仿真得出的驱动器不同桥臂并联SiC MOSFET的最大温差，如图5所示。由图5可知，加入均温板后，并联SiC MOSFET的温差在逐步减小，均温板厚度为2mm时，温差减小了约2K。其原因是均温板的导热率是陶瓷基板的15倍左右，即在图2中X和Y方向的热阻会更小，故增加均温板后，并联器件的温差会更小；且随着均温板厚度的增大，X和Y方向的均温板热阻将进一步减小，所以随着均温板厚度的增加，并联器件的温差也会逐步减小。
+
+3．样机试验
+
+根据仿真结果，同时考虑工艺和成本等因素，样机选择方案C。在环境温度为10℃、入水口温度为20℃、流量为9L/min的情况下,对样机进行温升试验，最高温度为42.79℃。其中，并联SiC MOSFET的温差试验结果，如表2所示，最大温差1.83K，均与仿真结果相近，满足要求。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskJxnG6mFl5xOGAhep5diapOSsR0ylC8TOicAf8crITaiaia7dUkibH76vq6lQgUdE7ffhicRMBLNfFCrzw/640?wx_fmt=png&from=appmsg)
+
+4．结语
+
+当SiC MOSFET并联的驱动器采用增加均温板方案后，仿真分析结果表明，此时器件最高温度随着均温板厚度的增加而上升，但是并联器件的温差是逐步减小的，较无均温板的方案，并联器件的温差降低1℃以上，提高了系统的可靠性。同时，通过样机试验得出，采用0.5mm均 温板后并联器件的温差不超过2℃，效果较好；此外，因均温板的材质为T2Y2紫铜，加工工艺简单，成本较低，有利于批量生产。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)

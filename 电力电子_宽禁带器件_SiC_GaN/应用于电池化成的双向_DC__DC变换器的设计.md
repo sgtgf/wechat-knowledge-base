@@ -1,0 +1,150 @@
+# 应用于电池化成的双向 DC /DC变换器的设计
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/Z45c4Bb3UKrui7EKdw4iPg](https://mp.weixin.qq.com/s/Z45c4Bb3UKrui7EKdw4iPg)
+
+文章来源：电器与能效管理技术
+
+作者：吴存鑫， 王海欣， 黄海宏 ( 合肥工业大学 电气与自动化工程学院，安徽 合肥 230009)  
+
+摘 要: 传统锂动力电池化成时普遍存在功率因数低、谐波污染严重、能源浪费严重等缺点。针对以上缺点，提出高功率因数能量回馈电池化成系统，重点设计了其中的双向DC/DC变换器。双向DC/DC变换器以单相全桥为主电路，实现了能量的双向的流动和宽范围的电压输出，并与前级双向AC/DC变流器联合调试，实现了蓄电池与电网能量的双向流动。
+
+关键词: 电池化成; 双向 DC/DC 变换器; 能量双向流动; 控制策略
+
+0. 引 言
+
+纯电动汽车主要采用蓄电池作为动力源，锂动力电池因具有能量密度高、放电电压稳定、重量轻、循环次数多、无记忆效应等优点，成为各国 电动汽车生产厂家的首选动力源，正不断取代传统的铅酸、镍基、钠硫、空气电池等蓄电池 类型。锂动力电池也将应用于人造卫星、航空航天和储能方面等，因此市场空间巨大。
+
+锂动力电池生产过程中一个重要的环节就是电池的化成--通过一系列的充放电工艺使电池的容量等参数达到最佳，其方法是在出厂前以一定电流、电压对电池进行多次充放电过程。
+
+目前，国内一般采用相控式有源逆变放电装置和电阻放电装置，对电池化成放电能量进行处理。前者具有体积和噪声大、交流输出功率因数低、对电网谐波污染严重等缺点，应用受到限制。后者虽然结构简单、成本低，但会造成极大的能源浪费，尤其对大容量动力电池，能量浪费更加严重。降低放电能量的耗费，并对其再利用成为电池生产企业迫切需要解决的问题。针对这一现状，本文提出了一种带能量回馈能力的、且实现网侧高功率因数的蓄电池化成系统设计方案。
+
+该系统主要由AC /DC双向变流器、双向DC /DC变换器和监控模块组成。系统工作时，直流母线电压决定前级双向AC /DC变流器的工作状态，双向DC /DC变换器的工作状态由上位机监控发出控制指令，再根据电池当前状态进行自动 判断是恒流充电、恒压充电和恒压浮充，完成蓄电池的智能充电。放电时双向DC /DC变换器采用恒流放电模式，通过AC /DC双向变流器将能量回馈到电网。
+
+1. 蓄电池化成系统结构
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xuQ3Cgv7ywtBtHmTjP6wd3vHO8QUYWQKGLm2rich0OWptfEE9ZfJ77fw/640?wx_fmt=png&from=appmsg)
+
+蓄电池化成系统结构如图1所示。系统由监控、AC /DC双向变流器和双向DC /DC变换器组成。
+
+1.1 双向 H 桥DC /DC变换器的结构
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xw2vJ9pmKssmuLJDRpJw3o3fXVVT8LBt5icqu8eiaQuVQwjHdWTenqwYg/640?wx_fmt=png&from=appmsg)
+
+双向全桥 DC /DC 变换器原理如图 2 所示。
+
+图 2 中，Ui为直流侧输入电压，Uo为蓄电池电压值，VT1～ VT4是功率主开关管MOSFET，Ug1～Ug4分别为各功率管的驱动信号，VD1～ VD4分别为主开关管 VT1～ VT4内部寄生反并联二极管，C为输入滤波电容，L1、C1及 L2、C2构成 LC 滤波器;VT1、VT4 同时导通和关断，VT2、VT3 同时导通和关断。输出电压 Uo1 与 Uo2 之差即为蓄电池两端 的电压值。
+
+设 VTi导通占空比为 Di，VT1、VT4同时导通，VT2、VT3 同时导通，两对桥臂驱动波形彼此互补且带一定死区，则输出电压表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xCJ53frAwI6UAic15As5bZY67wNescib3z2bORCtVkSGjG6lFhdeiaEjcQ/640?wx_fmt=png&from=appmsg)
+
+对于 D3、D4又有关系:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xL9qJhwOU2KI5ZX76WgtRt64ZjZ7ffDFNs1aZzXsuYvKqUg85LOXoeg/640?wx_fmt=png&from=appmsg)
+
+得输出电压与输入电压之间的关系式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xgeVUicNPtr4vmibV6kCIWj8PjbX5G2KyW8cJXmebhD84ogTKS575WZwQ/640?wx_fmt=png&from=appmsg)
+
+由式( 6) 可见，改变D1、D3 ( 即两对桥臂的占空比之差) ，可实现宽范围电压输出。当对蓄电池充电时，可实现48V电压输入，3.8 ～ 4.7 V电压的输出; 当蓄电池放电时，控制 D1、D3导通 占空比之差，使蓄电池向直流侧放电。至少要进行 3 次充电和 2次放电过程，即可完成电池的化成。
+
+设控制电路 PWM 周期为 Ts，VD1、VD4 的导通占空比为 D，输入电压 Ui，输出电压 Uo，根据伏秒平衡原则可知:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xSRnzDkoBnIsusunC6p7SOnnQ3yVMCwndptTiaKiak5pk0o3ErW8mbF4Q/640?wx_fmt=png&from=appmsg)
+
+经简化得到:
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xQ3UriagqClvbtku2w2sGCfKoyBibjmCV3btvtHicJ0cVic72NzTFtmvTYA/640?wx_fmt=png&from=appmsg)
+
+由式( 8) 可知，DC /DC 输入、输出电压变比取决于同一桥臂互补导通的功率管PWM占空比的差值，可以满足变换器两端电压变比的要求。
+
+1.2 双向 DC /DC 变换器的控制策略
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xIRwrXnZVsv5ohoqNnkHHMDwvVicmYjzfmDgyhcN3eQ6ibCqcg9y3brGQ/640?wx_fmt=png&from=appmsg)
+
+设计的双向DC /DC变换器的控制系统，将模拟电路和数字电路控制相结合，控制系统结构如图 3 所示。控制系统主要包含采样处理、实时监控、功率驱动和保护控制等部分电路，控制器的设计采用经典的 PI 控制器。
+
+1.3 PWM 整流器
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xqt0GnhXHfNNQvXtT1yBSmop5jxYSNQhY0ugKicpLSLjriaqLcPfoZ9FQ/640?wx_fmt=png&from=appmsg)
+
+PWM 整流器采用电压、电流双闭环控制结构，控制框图如图 4 所示。电压外环控制直流侧电压稳定，而电流内环按电压外环输出的电流指令进行电流控制，实现能量双向流动。直流母线给定电压值 U\* dc 设定为 48 V，与控制器采样得到的直流母线实际电压值Udc 进行比较，差值经过PI 调节器输出得到电流内环的给定值，其物理意义是相电流峰值，并与网侧各相电压相位的正弦值相乘得到三相电流给定值 i\* a 、i\* b 、i\* c ，然后再与 每相对应时刻的电流采样值 ia、ib、ic比较进行 PI调节，加上电网的前馈并与直流侧电压Udc相除后得到调制信号，与载波比较后生成 6 路 PWM波。该部分的作用为实现电池充放电过程中直流 母线和交流电网间的能量双向传递，并实现网侧单位功率因数。
+
+2. 仿真模块搭建和波形分析
+
+2.1 仿真模块搭建
+
+通过 MATLAB 仿真软件的图形仿真环境Simulink，搭建了双向DC /DC变换器对蓄电池充/放电的仿真模型。蓄电池充/放电仿真模型如图5 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xcXEXg5RF5nbKlFnp6yQOEscZ53MLXHXNR9SwAMKsMMicevfsxy2bm8w/640?wx_fmt=png&from=appmsg)
+
+仿真模型直流侧电压值为 48V，低压侧蓄电池参数为4.0V/100Ah，开关频率100 kHz，全桥主电路采用4只N沟道型带寄生二极管的MOSFET 搭建而成，其寄生参数选择默认值，LC滤波器参数分别为 0.225mH、220μF。系统采用PI 控制算法，蓄电池充电时检测输出电感电流值或蓄电池两端电压值，放电时则检测电感电流值， 对采样值处理得到比较差值经 PI 控制器算出反馈值，调节 PWM 驱动波形占空比，实现系统的闭环控制。
+
+2.2 仿真波形分析
+
+2.2.1 充电仿真
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xt8aRibquZ1MWf2h9DfTqOsfLnyHibFJ9z8kxw9MYVKOed8glyzPm1j3A/640?wx_fmt=png&from=appmsg)
+
+放电时驱动、输出电流、输出电压仿真波形如图 6 所示，从上到下依次为驱动、输出电流、输出电压波形，设置PI控制器的参数P\=20、I\=5，恒流充电电流设定值为10A，根据仿真图得出输出电流纹波为±5%，输出电压稳定在 4.335V。
+
+2.2.2 放电仿真
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xyXPKv5RIW56QjZUxuMw6m6QtzA9l4KGLuDv6H0UgKzrVJRjpwBic84A/640?wx_fmt=png&from=appmsg)
+
+放电时驱动、输出电流、输出电压仿真波形如图 7 所示，从上到下依次为驱动、输出电流、输出电压波形，设置 PI 控制器的参数 P\= 30、I\= 10，恒流放电电流设定值为－10 A，根据仿真图得出输出电流纹波为 ± 4.9% ，电池电压稳定在4.314V， 直流侧电压值为 48V。
+
+通过仿真结果知，只要合理控制驱动占空比D1、D3大小，电路可以工作在升压或者降压模式， 调节驱动占空比 D1、D3之差，可以实现输出电压大变比、宽范围的要求。
+
+3. 试验波形分析
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xC5OtyeaNYs5leuZalaPILagibibOnhkiafSRf1BXQh7e4aTqXIbpw2zPQ/640?wx_fmt=png&from=appmsg)
+
+制作双向 DC /DC 变换器的试验样机，并将样机与前级AC /DC双向变流器结合进行测试。
+
+控制器发出的驱动波形如图 8 所示，控制器发出的频率约为100kHz的驱动波，该驱动波通过后面反向电路、死区电路、驱动电路构成两路互补带死区的 PWM 波。
+
+VT1、VT3 驱动波形如图 9 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xPOCPz39hOxdt3aMGKMSwc7Exye94ibGaQF7sJ3qzn9zrpIsibo7mgjlA/640?wx_fmt=png&from=appmsg)
+
+功率管 VT1、VT3 驱动波形死区时间放大图如图 10 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xaxW4bCPYKaJ3PeN4v5Nvea42JNVJiaibriadJTEFBjZdFrT8SsmrRKPqA/640?wx_fmt=png&from=appmsg)
+
+从图 9、图 10 可看出，两路PWM互补带一定死区时间，示波器横轴上为 1μs·div-¹，故死区 时间约为 800ns。根据功率管的参数知，MOSFET功率管可靠关断和导通，不会出现上、下桥臂直通 的现象。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xiaXXef0QLicqK01LUPicCm5zHIC8CuF9yfEQ78BEsH4AxwsFYWVbwD5Hw/640?wx_fmt=png&from=appmsg)
+
+驱动和功率 MOS 管电压波形如图 11 所示， 示波器通道 1 为 VT1 管驱动波形，通道 2 为 VT1管DS两端的电压波形。电路在功率管 DS 两端加了ＲC缓冲电路，对关断和开通过程产生的电压尖峰得到有效抑制。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9x93icwYYjC1k1syenZLKEqJGI7lIxkpFZ7NNaujmqwDNvFFllqAVr6Ug/640?wx_fmt=png&from=appmsg)
+
+AC/DC 双向变流器双向变流器工作在整流状态时的试验波形如图 12 所示，其中通道1为相电压波形，通道2为相电流波形。此时为电池的充电状态，从图 12可知网侧电流与电压波形相位重合。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskA11zBcdicke0lzCM2fbS9xhVckctW3l2lvfqLH2RCkunwkGqoM3bPDzZFDwAdXnUmjmcGpNB1gXA/640?wx_fmt=png&from=appmsg)
+
+AC /DC 工作在逆变状态时的试验波形如图 13所示，其中通道1为相电压波形，通道2为相电流波形。此时为电池的放电状态，由图13可知网侧电流与电压波形相位相差近 180°。
+
+4. 结 语
+
+本文设计了电池化成系统的双向DC/DC变换器。通过试验调试，实现了能量的双向流动、充放电状态自动切换等相关技术要求，并和前级双向AC /DC变流器成功联调，达到了预期目标，验证了理论分析的合理性、可行性。
+
+注明：  
+
+【版权声明】：本公众号平台注明来源或转载的文章，版权归原作者及原出处所有，仅供大家学习参考之用，若来源标注错误或侵犯到您的权利，烦请告知，我们将立即改正或删除。
+
+【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7y6takB9fSysibKQHosicr8oxe78kybBtoHNEIe9m37GrhWmgzRKTXB5g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7IdKzsVAfsonk8XrEsLYcotJErMx7GsGpRTzbWqgcNA1hyxohsEXI4Q/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G79QVc4mUv0mUB6iaCbnIkLunouMLTPpicMiaLYV3hbye0xa68FuUM0IJow/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7ffbgpzt2NMsDcGiarMO5cibQGbgFyjCmOfBoeIn7JRUdsgXFHY7Fyialw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)

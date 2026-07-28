@@ -1,0 +1,103 @@
+# 中压配电网用10KVac-750Vdc/1MVA 电力电子变压器功率密度影响因素研究
+
+原创 李子欣 ,高范强 SiC碳化硅MOS管及功率模块的应用 2026-06-23 07:03 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/fwaC9YKS5i-jg42oO\_YyBw](https://mp.weixin.qq.com/s/fwaC9YKS5i-jg42oO_YyBw)
+
+文章来源：电工电能新技术
+
+作者:李子欣，高范强，徐飞，楚遵方，马逊，孙湛冬，罗永捷，王平，李耀华（中国科学院电力电子与电气驱动重点实验室，中国科学院电工研究所，北京 100190）  
+
+摘要：对面向10kV配电网的电力电子变压器（PET/SST）来说，其主要功能是在完成高低压侧电气隔离的前提下实现对电能/电功率的双向流动控制。为了提高功率密度，目前10KV配电网用PET/SST主要通过高频电力电子变换器 ＋高频变压器的方案实现。本文结合研制的10KVac-750Vdc/1MVA电力电子变压器样机实测数据，详细分析了影响中压配电网PET/SST功率密度的多种因素，指出了影响PET/SST功率密度提高的关键瓶颈问题--功率模块数量多是限制PET/SST功率密度提高的主要因素。而通过提高高频变压器工作频率的方法难以显著提高10KV配电网用PET/SST的功率密度。  
+
+关键词：能源互联网；智能电网；电能路由器；功率密度；电力电子变压器  
+
+１.引言  
+
+自从美国国家科学基金项目启动“未来可再生 电能传输与管理系统”（Future Renewable Electric Energy Delivery and Management System,FREEDM  
+）以及美国学者Jeremy Rifkin在其著作《第三次工业革命》中提出了能源互联网（energy internet）的概念之后，能源互联网及其相关技术得到了工业和学术界诸多关注和讨论。能源互联网是为解决化石燃料的逐渐枯竭及其造成的环境污染问题，以新能源技术和信息技术深入结合为特征的一种新的能源利用体系。一般说来，能源互联网是以电力网为基础，利用电力电子技术、信息技术和智能控制技术将电力网、石油网、天然气网、可再生能源网、分布式储能网、电气化交通网等产生或消耗能源的多种网络融合一体而形成的能源高效利用、能量双向流动的能量交换与共享网络。因此，电力网是能源互联网实现能量交换与共享的重要载体和关键枢纽。  
+
+对于电力网来说，要实现不同网络节点、支路或网络分区之间电能的双向主动控制、有功或无功潮流的实时调节与分配，传统的电力变压器、电抗器、电容器等无源设备已经无法承担。在此背景下，基于电力电子技术的电力电子变压器（Smart Electric Energy Router SEER）逐渐开始得到较多的关注和研究。所谓电力电子变压器是指可以连接两个或以上交流或直流电力网络节点，且能对所连接的不同电网节点之间的电能进行实时调节、分配与主动控制的新型智 能化电气设备，是电能实现“路 由（route）”的执行机构。SEER的功能性示意图如图１所示。对于中压配电网，例如10KV／400V配电网中的应用，SEER除去对电能的“路由”功能，一般还需要实现高低压节点之间电压等级变换和电气隔离功能，以保证设备和操作人员的用电安全。因此，在配电网中，SEER的功能与电力电子变压器（Power Electronic Transformer ,PET），或称固态变压器（Solid-State Transformer,SST）功基本相同。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpM9NdU0icN67rGYhOzqQK6U4gjV3N7mA94feF4Pic8xMLZztVZLIsPa2vWIv2nym1CEic1y3TPpLVJLwruIDCxcG7TLBXjRnLTiaOk/640?wx_fmt=jpeg)
+
+对应用于中压，如10KV配电网的PET/SST来说，为了在电能“路由”、电压变换和电气隔离的同时减小装置的体积，即提高功率密度，一般采用高频电力电子变换器＋高频变压器的方案实现，而不采用工频变压器，如图２所示。图２所示的中压配电网PET/SST至少包括高压侧AC/DC变换器和 隔离型的DC/DC变换器两个环节。高压侧AC/DC变换器主要实现电能的交直流变换（功率双向流动，既可整流也可逆变），隔离型的DC/DC变换器主要实现电压等级变换和电气隔离，而PET/SST的低压直流侧既可以接光伏、储能电池电能直流设备，也可以接逆变器／整流器以提供低压交流连接端口。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMnTCkZESbRr4KVd4FGZxucmJWXGp2HLYGa8CkQVFqfz0RsD1qD21EoKj7cib5nQAxvGRKshCV834Nic12A57y9RicCxutlVBlBno/640?wx_fmt=png&from=appmsg)
+
+关于中压配电网PET/SST的具体电路拓扑，现有文献中的方案在隔离型DC/DC变换器环节大多采用输入串联、输出并联（Input SEERies Output Parallel,ISOP）型的隔离型DC/D变换器；而高压侧AC/DC变换器的拓扑一般可以分为两种：  
+
+（１）拓扑 １：高压AC/DC变换器采用级联 Ｈ桥变流器（CHB）的PET/SST电路拓扑。  
+
+（２）拓扑 ２：高压 AC/DC变换器采用模块化多电平变流器（ＭＭＣ）的PET/SST电路拓扑。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNjKLmb77j0ANRMS7kIKdj0LlcFeWPUObIZP5SztFXS4cjpr4xYcCEf03l2pMrS3udnMq4nqOAV6fmfJ3lvSubKf25fTGZ3sibY/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOPUQvicicvsFUSKdljMh2EbFwIqickicDhUv3WYoVdlVXVBLjyeaw0Zh797QAaW14SzMdSKgibj5sdv3bgR62WG0EXC2hqX9vs6hMk/640?wx_fmt=png&from=appmsg)
+
+上述两种拓扑的电路原理图如图 ３所示，其中HB代表半桥型电压源变流器，FB代表单相全桥型电压源变流器。对于中压配电网三相PET/SST来说，在同样的功率等级、同样的电力电子开关器件（如IGBT）耐压水平下，拓扑２比拓扑１需要更少的开关器件和高频变压器，具有更好的功率密度优势。上述两种类型的PET/SST在接入中压电网时，主要采用变流器级联的结构来承受高电压，因此 其开关器件为规模化商用产品，耐压一般不高于4.5KV。但是此时，PET/SST所需开关器件数量较多。也有案例中的PET/SST采用10KV或更高耐压的宽禁带半导体开关器件，如碳化硅（SiC）器件，此时用三电平电路拓扑即可实现PET/SST的高压侧AC/DC变换器，可以显著减少开关器件数量。但是，目前10KV以上的SiC等宽禁带半导体开关器件仍处于实验室研究阶段且价格高昂，离规模化应用尚有一定距离。
+
+关于中压配电网用PET/SST的功率密度，相关文献开展了一定研究。文献［9,10］对比分析了1MVA／10KV-400V PET/SST与传统低频配电变压 器的体积、重量和造价，其结论认为PET/SST的体积比传统低频配电变压器更小。但这一分析并未考虑实际PET/SST装置中的断路器、充电电阻等辅助设备以及安装、绝缘等实际问题。实际上，相对于400V的低压电力电子装置，10KV中压装置的电压等级高，电气部件的空气间隙、爬电距离等都较大，导致元器件的体积之和与整个PET/SST装置的实际体积有较大差距，所以不能以各元器件体积之和代替整机体积。本文结合基于拓扑2的10KVac-750Vdc/1MVA电力电子变压器样机具体实现方案和实测结果，详细分析了影响PET/SST功率密度的多种因素，指出了影响PET/SST功率密度提高的关键瓶颈问题。  
+
+２. 10KVac-750Vdc/1MVA电力电子变压器具体电路实现方案  
+
+为了分析PET/SST的体积／功率密度，根据图３所示的拓扑２，本文所研制的10KVac-750Vdc/1MVA电力电子变压器样机具体实现中还需要考虑10KV交流电网连接用三相断路器（K1）、充电电阻（Rch）、10KV充电电阻旁路开关（K2）、控制保护柜、低压直流柜等元件或设备，该样机的具体电路实现方案如图4所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNxtKNCX1sdic1Wz1BY5FficfTDbuZKjAbIjH7B8E9oQKcL5IOJ5CV7HHzX2EJakPvd3EFwwpkwicicdjbf1FAd7OUZLpaicIKDdg4Y/640?wx_fmt=png&from=appmsg)
+
+  
+由于所研制PET/SST的10KV侧电压等级高，上述开关、电阻、电感等元件的绝缘空间要求较高（考虑各个元件的空气放电间隙和爬电距离 等），因此其本身体积都较大，对系统功率密度的影响均需分析。  
+
+另外，为了保证PET/SST样机的安全运行，减少外围环境中尘埃污染以及对外围设备的电磁干扰，所研制的PET/SST样机采用了金属外壳对整个设备进行防护。总体上，该PET/SST样机分为10KV开关柜、MMC柜、DC/DC柜、控制保护及低压直流柜4个部分，散热采用强迫风冷，散热风机集成在各个机柜外壳当中。所研制10KVac-750Vdc/1MVA PET/SST样机的整体布局图如图 ５所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNG4MN6e7tV8fEscp3F117D360KcRQf7sia6ibsurK7Zbq0bVDylOrU5h1qTibL7k5rH7y1wd0WHtFuMUxtoS2w0mdETqVPElmU8g/640?wx_fmt=png&from=appmsg)
+
+３.10KVac-750Vdc/1MVA电力电子变压器功率密度影响因素分析  
+
+本文所研制的10KVac-750Vdc/1MVA电力电子变压器样机的实物照片如图６所示。由于篇幅限制，关于该PET/SST样机内的电路元器件，如桥臂电抗器、MMC和DC/DC变换器中的IGBT、电容器等元件的电气参数以及相关的控制保护策略介绍请参考文献［4-6］，本文不再赘述。  
+
+本文所研制的10KVac-750Vdc/1MVA电力电子变压器样机的总体尺寸为：7000ｍｍ×2300ｍｍ×1800ｍｍ（长 ×高 ×深），即总体积为 28.98ｍ³。
+
+根据对各个部件的实际测量结果，其中对PET/SST样机系统功率密度有显著影响的部件的名称、相应的数量、尺寸及相应体积等实测参数如表１所示。其他体积很小的部件，例如交直流的电流传感器、交直流电压分压器、接线端子、连接电缆等大多位于样机主要部件之间的空气间隙内，对PET/SST功率密度的影响很小，本文的分析中未予考虑。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOf1fgsllInzCOia52dsntuxIhsNLc8AocMibJhmVp5r6S3EFlk4tm7gRcCOYGphAsmNxZ2z0u75CXtAlOpv1aQK04q6OVbLcQtQ/640?wx_fmt=png&from=appmsg)
+
+经过对比分析表 １中各个部件或机柜的实测体积及其对PET/SST样机功率密度的影响，可以得到以下结论：  
+
+（１）第1~8项元件或设备已经涵盖了PET/SST的所有部分，其体积之和为12.099ｍ³，小于样机总体积28.98ｍ³，这是因为，这些元件很多与交流10KV电网或直流16KV电压（见图４）电气连接。当将其安装在机柜内时，相互之间以及元件与机柜的外壳（即大地）之间必须保持足够的空气间隙和爬电距离，以满足10KV电压等级的绝缘要求，因此会 有较多的空间内无法安装元件。这一问题在400V电网所连接的低压电力电子变流器中一般不突出。  
+
+（２）第1~8所有部件中，MMC和DC/DC变换器功率模块的体积之和为7.508m³，占第1~8项所有部件体积之和（12.099ｍ³）的约62％。可见，变 流器功率模块体积在所有部件体积重占比最大，也是影响PET/SST功率密度最显著的部件。  
+
+（３）总体而言，４个机柜中，MMC机柜所占体积最大，在整个样机体积中的比重超过50％，这主要是由于 MMC中的功率模块数量多所导致。  
+
+（４）16台额定工作频率为8.3khz的高频变压器总体积只有0.291ｍ³，约为桥臂电抗器体积的38％、DC/DC变换器功率模块总体积的16％、MMC功率模块总体积的5％，小于所有功率模块（MMC＋DC/DC）总体积的4％。可见，高频变压器对PET/SST功率密度的影响十分有限。需要注意的是，这里的高频变压器工作频率为8.3khz，而在很多关于PET/SST的文献中，高频变压器的工作频率可以高达20khz，在电压和功率不变的情况下，频率更高的变压器体积一般更小。但是，从上述分析结果可见，通过提高高频变压器工作频率来减小PET/SST的体积的方法其作用十分有限，况且这还会增加变压 器本身和外围电力电子器件的涡流或开关损耗，也给散热系统带来困难。  
+
+（５）整个PET/SST样机的功率密度约为1MVA/28.98ｍ³＝34.507KW／ｍ³。这一数值较低，主要原因是MMC需要承受10KV交流电压和16KV的直流电压，而DC/DC变换器需要承受16KV直流电压，这导致MMC和DC/DC变换器中的级联连接的功率模块数量多，增加了系统的体积。
+
+在交流电压为10KV的情况下，1MVA的PET/SST功率密度难以提高。换言之，在高压交流电压和直流电压仍然保持10KVac和16KVdc的条件下，若提高PET/SST的额定功率，则可以显著提高其功率密度，例如，将其额定功率提高为2MVA，则功率密度几乎可以提高一倍。因为在现有的商用电力电子器件，特别是IGBT的发展水平下，即便所研究的PET/SST功率提高一倍，MMC和DC/DC变换器功率模块的数量可以保持不变，即PET/SST的体积几乎无显著增加。  
+
+４.结论  
+
+基于电力电子技术的电力电子变压器是未来电网和能源互联网中实现电能“路由”的核心设备。现有的文献中，应用于10KV中压配电网的PET/SST电路拓扑中主要采用高频电力电子变流器＋高频变压器的方案实现。本文结合所研制的10KVac-750Vdc/1MVA电力电子变压器样机，详细分析了现有技术方案下中压配电网PET/SST中各个电气元件对系统功率密度的影响及其原因，并得到以下结论：  
+
+（１）高压变流器由于开关器件和功率模块数量多，占用空间大，其对PET/SST的功率密度影响十分显著，已经成为制约PET/SST功率密度提高的最 主要障碍。  
+
+（２）相对于高压变流器，高频变压器的体积很小（本文所分析案例小于高压变流器总体积的４％），通过提高高频变压器工作频率来提高PET/SST功率密度的方法效果将十分有限。
+
+注明：  
+
+【版权声明】：本公众号平台注明来源或转载的文章，版权归原作者及原出处所有，仅供大家学习参考之用，若来源标注错误或侵犯到您的权利，烦请告知，我们将立即改正或删除。
+
+【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpO6LL2ibRcmyDTxkibHKWRwuZeRJ6cSwia1SZ1KTmKwLunNNyFeDbaNw17TibyagtM0wSAAaYQA7M5RUUVa5m0iaVXtbz3duV2jVDM8/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPDdPqex8ra8VbYQOzhJ8us9s1r71fu0gnCgPqib3EOyAAysmG9LbEbcELSHCuwK62p0OiaR73balwDnwOSATnnheBtxogUYJxJo/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPKDXRYyGgatyIFrEia17SZH3YSelp67OJUuwW9S34tibs8DqRmiam0hFVNib0CKSedqZ7rZdpxNGLf5njfSWy5ia7xaN73RhdZpWQ4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOZsfHPKxeDRar9kW20EBic0ulRBiaqF0PMUbISRrgibGG4TV6Obe0f0VdmOoMxJ0M1vVHuK2zGXd5TJK2YiaVWmfFFqRKeO0HicgNA/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)

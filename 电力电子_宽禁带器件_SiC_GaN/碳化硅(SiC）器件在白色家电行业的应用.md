@@ -1,0 +1,57 @@
+# 碳化硅(SiC）器件在白色家电行业的应用
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/I\_nYqC\_iZ3DnEECD7dNR1Q](https://mp.weixin.qq.com/s/I_nYqC_iZ3DnEECD7dNR1Q)
+
+       **白色家电是对家电的一种分类的具体类别名称。白色家电指可以替代人们家务劳动的****电器****产品，主要包括****洗衣机****、部分****厨房电器****和改善生活环境提高物质生活水平（如****空调****、****电冰箱****等）。**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm6S4lngLoFnf2ibX0kCZehGHrUfI9aS1MzhYdmocIMHsZTTzDEjMXmhYbBv2H4QJV8nn4EDuPrnkg/640?wx_fmt=jpeg)
+
+**碳化硅作为第三代半导体的代表材料，是制作高温、高频、大功率、高压器件的理想材料之一，其解决方案能使系统效率更高，质量更轻，结构更紧凑。目前已广泛用于汽车电驱、光伏逆变、OBC、充电桩等领域。除此之外，白色家电领域也是碳化硅的机会，特别是空调上的应用优势。  
+**
+
+**目前家电行业用到的碳化硅功率器件主要有两类，一类是碳化硅肖特基二极管，一类是碳化硅MOSFET。碳化硅肖特基二极管主要用于功率因数校正电路 PFC，碳化硅MOSFET则是用于电机驱动等。**
+
+**![](https://mmbiz.qpic.cn/mmbiz_png/Szy06iayVUAw7bBEAWb7Of3sFRFu96qEQNzRlOKkulrkWTKwHva0zoiaBE67In1f7VibvHAOSdeHMEcvcbfUr9icLQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)**
+
+**国家将第三代半导体写入了十四五规划，越来越多的半导体企业都加码第三代半导体，可以预见碳化硅器件的价格趋势会越来越平民化，使碳化硅器件可以在家电应用上一展所长。**
+
+**2020年7月1日正式实施，新能效标准（如下CC≤4500的对比）的实施，势必将加快空调节能技术的提升。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm6S4lngLoFnf2ibX0kCZehGMBfrAjJ2ibJojdrIfbMr7UMdv5vaDklkEqaLU02cfaMDSHwW7T1s4xg/640?wx_fmt=png)
+
+     **为了进一步减小电抗体积，优化整体结构，提高系统的效率，变频空调PFC频率已由目前主流的40kHZ，往70kHZ、80kHZ甚至更高的频率设计，这对IGBT和FRD的高频要求就越来越高，要求IGBT开关时间更快，快恢复二极管反向恢复时间更短，由于普通的肖特基二极管电压最高250V，满足不了空调的高压要求，碳化硅肖特基二极管是最佳的选择。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm6S4lngLoFnf2ibX0kCZehGJ0QZ1HbWtOqRibVMyUNB5P6LhJ2wszMic9lSiaNUibibiblBjyicorncnWHzw/640?wx_fmt=png)
+
+      **无桥图腾柱PFC因其良好的高效率，电路简单，EMI特性好，受到业界的追捧，碳化硅器件，由于开关速度快，导通损耗小，耐压高，无反向恢复时间和高稳定性的特点，可以将图腾柱PFC电路的优势最大的发挥出来。**
+
+        **通过应用碳化硅肖特基二极管提升输电效率，进而提升空调产品能效，如果驱动电机应用碳化硅MOSFET，空调的能效水平则可进一步提高。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm6S4lngLoFnf2ibX0kCZehGSGfcTaTf55JBEKJ0jUATry4W2IicxbNQjWOqrDl0FCsAKO7spTpoYHw/640?wx_fmt=png)
+
+                                                    **采用Sic Mos**主拓扑图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm6S4lngLoFnf2ibX0kCZehG2nOnz2SGWcJmTugV2mSZSApxmTZSznVUxfGBn6mBQpVut2q4WCGrZw/640?wx_fmt=png)
+
+**参数表**
+
+方案特点
+
+**· SiC分立器件代替IGBT模块设计，显著提升系统性能;**
+
+**· 无传感器FOC算法，简化系统设计;**
+
+**· SiC开关损耗小、同时实现同步整流，提高了整机效率，尤其是轻载、待机效率;**
+
+**· 开关频率16KHz.相对于传统IGBT,开关频率提升2倍，死区时间减小一半，控制效果更优，THD小，系统噪声小;**
+
+      ****碳化硅技术更高的效率，可以减少空调散热器的尺寸和热管理的成本；更高的开关频率，可以降低磁性元件的成本和尺寸，实现更高的功率密度；低电磁干扰则可以降低电磁干扰滤波器的成本和解决电磁干扰的研发成本。碳化硅的这些优势，最终帮助客户实现更低的系统成本和更优的系统性能****。****
+
+     **碳化硅器件在其他家电上的机会也会随着空调的应用而普及。理论上，只要是PFC或者升压电路、以及高压或者高功率电源场合都会有碳化硅的应用机会，比如TV（商用显示器或者特殊功能显示器）、商用滚筒洗衣机、高端微波炉、高端电饭煲等，及其他大于500W的PFC拓扑结构电路。那些功率越大，电压越高的场合，用碳化硅的优势越明显，能够提高系统效率，减小板子尺寸，优化系统结构，从而帮助工程师们设计出性能更优，可靠性更高的产品。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVLL6QPUmBrg5H6rzH5O9KUriagkmbMT7sJibtJyu9O6A0WRdGlEvAWrcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
+
+                    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)

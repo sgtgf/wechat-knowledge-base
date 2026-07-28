@@ -1,0 +1,162 @@
+# SiC MOSFET器件在电焊机中的应用及优势
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/DKCmU8nwMeNzYQVqglGzCg](https://mp.weixin.qq.com/s/DKCmU8nwMeNzYQVqglGzCg)
+
+电焊机是利用正负两极在瞬间短路时产生的高温电弧来熔化电焊条上的焊料和被焊材料，使被接触物相结合的目的。其结构十分简单，就是一个大功率的变压器。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskaxz7XWiadHQnXWpE0zG6ofBVy6nDvpAjFqsIQrGOHiblAInUu293ib9WLPPoyubQq9WAfpDz4X2Flw/640?wx_fmt=jpeg&from=appmsg)
+
+电焊机一般按输出电源种类可分为两种，一种是交流电源、一种是直流电。他们利用电感的原理，电感量在接通和断开时会产生巨大的电压变化，利用正负两极在瞬间短路时产生的高压电弧来熔化电焊条上的焊料，来使它们达到原子结合的目的。
+
+**特点**
+
+一，电焊机优点：电焊机使用电能源，将电能瞬间转换为热能，电很普遍，电焊机适合在干燥的环境下工作，不需要太多要求，因体积小巧，操作简单，使用方便，速度较快，焊接后焊缝结实等优点广泛用于各个领域，特别对要求强度很高的制件特实用，可以瞬间将同种金属材料（也可将异种金属连接，只是焊接方法不同）永久性的连接，焊缝经热处理后，与母材同等强度，密封很好，这给储存气体和液体容器的制造解决了密封和强度的问题。如图1所示。
+
+二，电焊机缺点：电焊机在使用的过程中焊机的周围会产生一定的磁场，电弧燃烧时会向周围产生辐射，弧光中有红外线，紫外线等光种，还有金属蒸汽和烟尘等有害物质，所以操作时必须要做足够的防护措施。焊接不适合于高碳钢的焊接，由于焊接焊缝金属结晶和偏析及氧化等过程，对于高碳钢来说焊接性能不良，焊后容易开裂，产生热裂纹和冷裂纹。低碳钢有良好的焊接性能，但过程中也要操作得当，除锈清洁方面较为烦琐，有时焊缝会出现夹渣裂纹气孔咬边等缺陷，但操作得当会降低缺陷的产生。
+
+**原理**
+
+是利用正负两极在瞬间短路时产生的高温电弧来熔化电焊条上的焊料和被焊材料，来达到使它们结合的目的。电焊机的结构十分简单，说白了就是一个大功率的变压器，将220/380V交流电变为低电压，大电流的电源，可以是直流的也可以是交流的。电焊变压器有自身的特点，就是具有电压急剧下降的特性。在焊条引燃后电压下降，在电焊机的工作电压的调节，除了一次的220/380V电压变换，二次线圈也有抽头变换电压，同时还有用铁芯来调节的，可调铁芯电焊机一般是一个大功率的变压器，系利用电感的原理做成的，电感量在接通和断开时会产生巨大的电压变化，利用正负两极在瞬间短路时产生的高压电弧来熔化电焊条上的焊料.来达到使它们结合的目的。在焊条和工件之间施加电压，通过划檫或接触引燃电弧，用电弧的能量熔化焊条和加热母材。  
+
+**分类**
+
+1、工矿企业主要用的焊机有：交流弧焊机、直流电焊机、氩弧焊机、二氧化碳保护焊机、对焊机、点焊机、埋弧焊机、高频焊缝机、闪光对焊机、压焊机、碰焊机 激光焊机。
+
+交流焊机和直流焊机应用领域的区别主要是交流焊机一般都用在钢结构制造单位或一般通用机械或农业机械制造单位。直流主要用在制造压力容器锅炉，管道，或重要结构制造单位的焊接用焊机。
+
+⑴逆变焊机的主要应用领域一样，只不过焊机更节能，轻便。
+
+⑵埋弧焊机的主要应用领域大型钢结构制造单位，压力容器锅炉制造单位。
+
+⑶气体保护焊机的主要应用领域大型钢结构制造单位或通用机械 农用机械，汽车制造厂，防盗门加工厂，制造压力容器锅炉的单位现也广泛的应用了气体保护焊机。
+
+⑷氩弧焊机主要用在管道，压力容器锅炉，不锈钢加工企业。
+
+⑸交流氩弧焊机主要用铝焊接制造单位，铝制容器制造单位。铝制暖气片焊接。
+
+2、直流焊机有二种：一种是交流电机的基础下加装整流元件，还有一种是直流发电机。直流焊机主要焊有色金属、生铁为主。交流焊机主要焊钢板为主。
+
+3、氩弧焊机、二氧化碳保护焊机、高频逢焊机、闪光对焊机。氩弧焊机、二氧化碳气体保护焊机主要可焊2MM以下的薄板及有色金层。闪光对焊机主要对接铜铝接头等物体，高频逢焊机主要制管厂焊钢管。
+
+4、埋弧焊主要焊钢结构件、桥梁H钢、工字房大梁等厚的钢结构材料。
+
+5、气体保护焊机：氩弧焊、二氧化碳保护焊，在气体的保护下焊机时不会氧化、溶焊牢固、可焊有色金层、可焊薄材料。
+
+6、激光焊机：可焊晶体管内部的引线。
+
+7、对焊机：索链厂主要焊锚上的铁索等物体。可对接元钢等。
+
+**应用**
+
+‌电焊机的应用领域非常广泛，几乎涵盖了所有需要焊接的工业领域。‌  
+
+电焊机的应用领域主要包括：
+
+ ‌航空航天‌：电焊机在航空航天领域的应用极为重要，用于连接和加固各种金属部件，确保飞行器的结构和安全。
+
+ ‌船舶制造‌：船舶的建造和维护需要大量的焊接工作，电焊机在此领域中扮演着关键角色。
+
+ ‌汽车制造‌：汽车的生产过程中，电焊机用于连接车身的各种部件，确保车辆的结构强度和安全性。
+
+ ‌容器制造‌：在制造储罐、管道等压力容器时，电焊机用于连接和密封各种金属部件。
+
+ ‌桥梁建设‌：在桥梁的建设中，电焊机用于连接和加固钢结构和混凝土之间的连接件。
+
+ ‌电力电站‌：电力电站的建设和维护也需要大量的焊接工作，电焊机在此领域中发挥着重要作用。
+
+ ‌车辆维修‌：汽车的维修和保养过程中，电焊机用于修复损坏的部件，延长车辆的使用寿命。
+
+ ‌机械制造‌：在机械设备的制造过程中，电焊机用于连接各种金属部件，确保设备的性能和安全性。
+
+ ‌建筑装饰‌：建筑装饰行业中，电焊机用于连接和加固各种金属构件，提升建筑的美观性和结构强度。
+
+ ‌五金、家电‌：五金制品和家电的生产中，电焊机用于连接各种金属部件，确保产品的质量和耐用性。
+
+**电焊机的趋势-高频小型化**  
+
+提高逆变频率将减小整个焊机的质量、体积和噪声，同时动态响应速度将加快、输出电流波形的控制将更加准确。目前已经比较成熟的商用逆变式电弧焊机普遍采用20~30kHz左右的逆变频率；第三代宽禁带半导体器件SiCMOSFET的性能较传统Si基功率器件更加优异的性能，基于SiCMOSFET的电弧焊机在硬开关条件下的逆变频率已可达到200kHz，不过其研究和商用还处于初级阶段。未来，随着对第三代宽禁带功率器件的研究发展以及器件价格的快速降低，必将推动更高逆变频率的商业化逆变电弧焊机的更新换代进程。
+
+逆变电焊机是主流焊机的一种，其工作过程为：工频交流－直流－高频交流－变压－直流，是将三相或单相50Hz工频交流电整流、滤波后得到一个较平滑的直流电，由IGBT或场效应管组成的逆变电路将该直流电变为15～100kHz 的交流电，经中频主变压器降压后，再次整流滤波获得平稳的直流输出焊接电流（或再次逆变输出所需频率的交流电）。逆变焊割设备的控制电路由给定电路和驱动电路等组成，通过对电压、电流信号的回馈进行处理，实现整机循环控制，采用脉宽调制PWM 为核心的控制技术，从而获得快速脉宽调制的恒流特性和优异的焊割工艺效果。
+
+**应用拓扑图**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/U4oePgxEv4Bw0Xljk6vXIUgHV3tOlVkQovjV5QNX7nkR0d9VYYnEERgL3EaiaAUMWhK3eDka2TDzVySnpGqwtYw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)拓扑1 双管正激
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/U4oePgxEv4Bw0Xljk6vXIUgHV3tOlVkQONWFehFDmBxPjW5JkrgAYlLBN75fjia4oD4Kw9SBJRv9mZhC9ITibMUw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)拓扑2 全桥
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/U4oePgxEv4Bw0Xljk6vXIUgHV3tOlVkQPa153pR3kUN6M1519d9icXLQHKOKqJXXVvQhqVtdKc4nct2FQwIvzVw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)拓扑3 半桥
+
+**应用电路图**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/mFPgVw5IaI9SBhcEpup09Armd7vaKJQnAicjxt4o7C2kZaaVg1W3zIAL0s3icFLPUB45lRpN4VqALcuz4fAAGlmw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)**单相逆变线电路**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/mFPgVw5IaI9SBhcEpup09Armd7vaKJQncrTzG3z1C4ST3DWNZB055eS6JzCG83g0yRKIxj7bDo2ImMbcWyP1Jg/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)**三相逆变线电路**
+
+**SiC MOSFET器件在电焊机中的应用及优势**
+
+‌SiC MOSFET器件在电焊机应用中的优势主要体现在提高效率、降低成本、增强便携性、提高可靠性和耐压高等方面。‌具体优势包括：
+
+提高开关频率：
+
+SiC MOSFET的开关速度远超传统的IGBT，这使得逆变焊机可以采用更高的工作频率，从而缩小磁性元件和无源器件的尺寸，简化逆变器设计。例如，英飞凌CoolSiC™ MOSFET可以将开关频率从传统的10-30kHz提高到100kHz以上，甚至200kHz以上，极大地提高了焊机的动态性能和电流控制响应速度。
+
+提升效率和性能：
+
+由于SiC MOSFET的低开关损耗和高开关频率，逆变焊机可以实现更高的能效和更低的运行成本。例如，采用SiC MOSFET的焊机系统效率可以达到93%以上，远高于传统IGBT系统的85%-90%。
+
+小型化和轻便化：
+
+高频率的工作减少了电路中的电感和电容，使得焊机可以设计得更小巧轻便，便于集成到自动焊接系统中。
+
+@ ‌低导通阻抗‌：SiC MOSFET的单管最小内阻可以达到几个毫欧，轻松达到能效要求，减少散热片的使用，进一步降低电源体积和重量，同时保持电源温度较低，提高可靠性‌。  
+
+@ ‌耐压高‌：SiC MOSFET的耐压能力远高于传统硅基器件，这意味着在实现高耐压的同时，可以保持较低的导通阻抗，从而提高了器件的性能和可靠性‌。
+
+@ ‌减少开关损耗‌：由于SiC MOSFET原理上不产生尾电流，因此在高频条件下工作时，可以明显减少开关损耗，实现散热部件的小型化，有利于电路的节能和散热设备的简化、小型化‌。
+
+更好的热管理：
+
+SiC MOSFET的设计允许更精细的热管理，例如，通过使用未与散热片隔离的单个器件，可以直接将器件贴装在散热片上，这样不仅提高了热传递效率，还简化了散热系统设计。
+
+符合现代工业需求：
+
+随着现代工业对高效、节能和精确控制的需求增加，SiC MOSFET的应用使得逆变焊机能够更好地满足这些需求，特别是在核电能源、航空航天、轨道交通、船舶等高端设备制造领域。
+
+综上所述，SiC MOSFET在电焊机中的应用不仅提升了焊接效率与稳定性，还通过其独特的技术优势，如高工作频率、低导通阻抗、高耐压等，为电焊机行业带来了革命性的变化，成为现代工业智能制造中的最优选择‌。
+
+**SiC  MOSFET器件焊机实物图及器件**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskaxz7XWiadHQnXWpE0zG6ofwPicLWqV4uOjOfTxGMAvLdJmb6HrVrTJd71qF9fw2y5oY3sEw8Do1mg/640?wx_fmt=jpeg&from=appmsg)
+
+         SiC MOSFET(1200V60A,8颗）
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVN4EeqeQmjmNZ9owlibpVcIGmNG4PZ7ibBAfczdcyaFZDcpfgzHeHDDvqDGl00jhfOmQFaSJ6whvQ/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskaxz7XWiadHQnXWpE0zG6of24iaYN5FshneE4iaWJAjLOicTicOsxlPNSiaMRc1T4gUvZ7t0EttUib2NzIA/640?wx_fmt=jpeg&from=appmsg)
+
+SiC MOSFET模块（34mm模块，2块）
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskaxz7XWiadHQnXWpE0zG6ofqD939ic2t9JnxTtfW1dESibuM8czOcgCrLnkDEEialORYmt4iaJLyJc8Lg/640?wx_fmt=jpeg&from=appmsg)
+
+34mm和62mm模块
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVN4EeqeQmjmNZ9owlibpVcfjd21rpGI1zia55xj7Dw9wRox5ib7yBl3xPdDeXHmJLs0HYotWbj0w5Q/640?wx_fmt=jpeg)
+
+现代工业智能制造，需要高端高性能焊机和机器人组成自动焊接生产系统，对焊接工艺过程进行精细控制，传统基于IGBT设计的工业三相逆变焊机，开关频率停留在10-30kHz，已经不能满足设计需要，SiC MOS因其在高效能、高频率和高温性能方面的独特优势，可提高开关频率到100kHz以上，SiC MOS器件是目前最优的选择。
+
+采用SiC MOS功率器件设计的逆变焊机，动态性能更好，效率更高，更小巧轻便。
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

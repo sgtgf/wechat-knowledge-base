@@ -1,0 +1,328 @@
+# 为 IGBT 和 SiC 电源模块选择适当的保护方法
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/ODkbqo2G5xPpkZeqw0q71Q](https://mp.weixin.qq.com/s/ODkbqo2G5xPpkZeqw0q71Q)
+
+**文章来源：**德州仪器（TI）
+
+摘要：在 HEV-EV 牵引逆变器和 EV 充电及光伏逆变器系统等大功率系统中，识别和防护短路 (SC) 与过流 (OC) 情况至关重要。根据功率级别和开关频率，大功率系统中通常使用 SiC FET 或 IGBT。本应用手册讨论了基于 SiC FET和 IGBT 实现正确保护电路的主要注意事项和设计方法。它介绍了从检测 SC/OC 事件到安全关断所涉及的时序、电路实现标准以及 IGBT 和 SiC FET 的实验数据。本文基于 TI 已发布的隔离式栅极驱动器，总结了适用于 IGBT和 SiC 的正确保护驱动器。
+
+1\. 引言
+
+隔离式栅极驱动器通常用于汽车和工业大功率系统，例如 HEV/EV 牵引逆变器、光伏逆变器和电机驱动器。在这些应用中，碳化硅 (SiC) MOSFET 和 Si IGBT 通常是理想的选择；这类器件能够处理高压和高电流，这对于数百kW 级别的大功率系统非常有利。所有大功率应用都采用具有更高电压和电流能力的电源模块。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcANknPJ5lsoic1vOXPd7fz6jfUbCvzmXjz9PHBvlUg7mibcB8TcbsM6pDQ/640?wx_fmt=png&from=appmsg)
+
+本应用手册讨论了 SiC 和 IGBT 电源开关的一些常见失效模式、特性，基于电源模块类型的最佳保护方法以及保护电路元件设计的相关方面。
+
+2\. SiC 和 IGBT 特性
+
+尽管 IGBT 和 SiC FET 都用于高压、大功率系统，但它们在电压/电流特性本质上有所不同，从而导致它们在过压和短路保护时序以及关断能量上存在差异。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAUo3kVOrib3Xiaicj3AAVjgicrEKKXAkvN5IvdlE0PZkiaazeZzw2ibicpKfCw/640?wx_fmt=png&from=appmsg)
+
+图 2-1 展示了 Si IGBT 和 SiC FET 的工作区域。对于 IGBT，在较低的集电极-发射极电压 (VCE) 下，器件处于其线性区域，集电极电流 (IC) 随着 VCE 的增加而增加。IGBT 具有饱和 VCE 电压，在超过 VCE 饱和点后，它会在活动区域中运行，这意味着随着 VCE 增加，电流保持相对平稳。该饱和 VCE 电压通常用于确定短路保护何时开始启用，而对应的 IC 为短路阈值电流(ISC)。由于 IGBT 短路期间只有 VCE 增加而 Ic 保持稳定，功率耗散增加相对缓慢，因此 IGBT 通常可以承受更长时间的短路事件（约 10μs）。
+
+另一方面，SiC 通常在线性区域工作。当发生短路事件时，漏源电压 (VDS) 和漏极电流 (ID) 会同时增加，导致功率耗散更快地上升。由于这种工作模式，时序控制显得更加关键。SiC 通常只能承受短暂的短路事件（通常为 2μs至 3μs），随后电源开关开始击穿。
+
+因此，选择正确的短路保护机制以及合适的保护电压 (VCE/VDS) 和负载电流 (IC/ID) 阈值至关重要，这样才能在发生短路事件时安全高效地关断器件。
+
+3\. 失效模式
+
+对于 IGBT 和 SiC 电源模块，常见的故障原因包括：
+
+• 电介质击穿故障
+
+– IGBT 和 SiC 都在栅极引脚和漏极/集电极引脚上分别具有相对于源极/发射极的电压限制。如果施加到电源模块的电压超过支持的最大电压，则会导致电源模块发生故障。因此，必须控制施加的电压和系统噪声，以确保电压不超过电源模块支持的最大栅极和漏极/集电极电压。
+
+• 热失控故障
+
+– 电源模块的另一个常见故障原因是热失控。在高电流运行期间，由于电源模块的内部电阻，电源模块温度会升高。如果电源模块处于极端温度环境中或持续超过其最大电流限值，则可能会发生热失控故障。因此，需要通过有效的冷却机制来控制电源模块温度，并且需要控制工作电流，以确保其不超过额定工作电流。
+
+• 过流/短路故障 (SC)
+
+– 过流和短路故障都是电源模块故障的常见原因。在多相系统中，可能存在不同类型的短路故障，并且可能由于表 3-1 中提供的原因而发生短路故障。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAvH4hns3m0mFrorKJJyVsRIibp2KtuFYM1xYmW4MIWdoqZeVxB4hb4AQ/640?wx_fmt=png&from=appmsg)
+
+在栅极驱动器保护方法的范围内，主要关注以下电源模块故障可能出现的故障以及栅极驱动器如何有效地保护电源模块。
+
+• 短路/过流故障：由于噪声/控制器故障
+
+• 电介质过压故障：在高 di/dt 条件下开关期间（主要是在 SC 事件后）
+
+4\. 短路保护方法
+
+在检测短路 (SC) 和过流 (OC) 事件方面，有两种主要的保护方法可供选择。
+
+1\. 基于电流阈值 (ISC) 的保护
+
+2\. 基于电压阈值 (VSC) 的保护
+
+• 基于电流阈值 (ISC) 的保护
+
+– 在 SC 和 OC 事件期间，电流至少增加 10 倍或更多，因此准确检测增大的 ICE/ID 是检测 OC/SC 事件的方法之一。检测逻辑需要定义为，检测电流阈值至少比最大工作电流高 1.5 到 2 倍。提供足够的裕度有助于避免在最大工作电流期间发生误检。
+
+• 基于电压阈值 (VSC) 的保护
+
+– 根据 IGBT 和 SiC 电源模块 IV 特性，另一种检测 OC/SC 事件的方法是有效测量电源模块两端的电压来检测故障情况。在 OC/SC 事件期间，电源模块两端的电压（VCE 和 VDS）会增加到比正常运行条件高得多的值。IGBT 的电流饱和特性给出了一个非常清晰的 VCE 电压，此时可以判断 IGBT 正在离开饱和区，或者进入“去饱和”状态。对于 SiC，建议将 OC/SC 检测阈值定义为正常工作电压的 2 倍。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAgicO0vCQ5uia6icKe0Jx6BAukG0ty5NJCPSfNXa0BEiaicxtdVBUlzZvicZg/640?wx_fmt=png&from=appmsg)
+
+4.1 基于短路电流的保护实现方案
+
+电流检测方法有两种实现选项：
+
+• 基于分流电阻器的方法
+
+• 基于 R-sense 电阻器的方法
+
+选项 1：基于分流电阻器的方法
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcA4KhsHbG05gsZYPgJ33b79TgUXqVpVaTPH7KYPdOyIvicKoxC9hd5JEQ/640?wx_fmt=png&from=appmsg)
+
+图 4-2 中显示了使用 Rshunt 电阻器的电流检测实现方法。Rshunt 添加在高电流路径中，该电阻器两端的电压使用RC 滤波器通过 OC 检测引脚进行测量。当该电阻器上的电压高于 OC 检测阈值时，栅极驱动器会触发故障事件并关闭栅极驱动器输出以保护系统。
+
+这种实现方法非常简单快捷。然而，由于该电阻器位于高电流路径中，该方法会导致高功率损耗。因此，为了尽可能减少功率损耗，不建议将此方法用于具有高工作电流的系统。
+
+选项 2：基于 Rsense 电阻器的方法：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAEiaIdR2tZ8IswscaiaReCho0WmiczTqLRbhlKDB4ZNqw2Hl8nGLBDqW5w/640?wx_fmt=png&from=appmsg)
+
+这种方法与基于 Rshunt 的方法类似。但是，在基于 Rshunt 的方法中，检测电阻添加在检测路径中，而不是高电流路径上。一些电源模块除了高电流路径外，还有一个单独的端子，该端子具有电流比高电流路径低约 5000 倍的电流检测路径。检测电阻添加在电流较低的电流检测路径中，因此功率损耗非常小。这种方法更快，并且功率损耗也更低。然而，它只能通过具有检测选项的电源模块来实现。
+
+4.2 基于短路电压的保护实现方案
+
+基于短路电压的保护方案通常使用栅极驱动器中的 DESAT 功能来实现。OC 检测方法有时也用于基于电压的保护方案。因此，有以下两种选择：
+
+• 使用 DESAT 引脚检测 FET 上的 VSC 电压
+
+• 使用 OC 引脚检测 FET 上的 VSC 电压
+
+选项 1：使用 DESAT 引脚检测 FET 上的 VSC 电压：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAxPibxLMojVibibGKmyW7mDwS5KfzLRtT8KM5U4vICBe5Nn4LqibMxtWTDQ/640?wx_fmt=png&from=appmsg)
+
+电源模块中的典型电压检测方法是使用 DESAT 节点，如图 4-4 所示。高压漏极节点通过 1 个或 2 个高压二极管和一个限流电阻器 (RLIM) 连接到 DESAT 引脚。DESAT 引脚上还连接了一个消隐电容器 (CBLK )。DESAT 节点具有一个内部电流源，该电流源在内部连接到 VDD BIAS（次级隔离式偏置）。当 INP 为高电平时，内部电流源将通过 DESAT 引脚提供 (ICHG) 电流。当 INP 为低电平时，电流源路径处于不活动状态。
+
+在正常运行期间，电源模块上的电压较低，因此高压二极管 (DHV 1, 2) 正向偏置，电流流过二极管和电源模块。但是，在短路事件期间，电源模块上的电压较高，这会导致 DHV1, 2 反向偏置；因此，DESAT 电流路径断开。因此，ICHG 为 CBLK 电容器充电。当 DESAT 引脚上的电压超过检测阈值时，会触发 DESAT 故障并关闭栅极驱动器输出，以保护系统。关闭操作将在单独一节中讨论，因为 SC/OC 事件期间涉及高 di/dt，因此关闭操作需要特别考虑。
+
+栅极驱动器的内部电流源通常约为 500μA 至 2mA。为了实现更快的保护，可通过使用一个电阻器将 DESAT 节点连接到 VDD/OUTH 来规划外部电流源路径。这一概念也可用于 OC 引脚。
+
+选项 2：使用 OC 引脚检测 FET 上的 VSC 电压
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcA9SxdbJER2ibXh6lqCibyIC6q7TqlHBWgsUQRbSKFtFB16LgQibyElI9sw/640?wx_fmt=png&from=appmsg)
+
+OC 引脚通常用于检测电流，如“基于电流的保护方法”部分所述。但是，OC 引脚也可通过从 VDD/OUT 提供电流源来实现基于 VSC 的电压检测，如图 4-5 所示。与 DESAT 概念类似，在正常运行期间，VDD/OUT 充电电流路径通过电源模块，而在 OC/SC 事件期间，电流路径通过 CFLT 电容器并会触发 OC 事件。
+
+这里使用 DESAT 或 OC 引脚说明了基于 VSC 和 ISC 的保护方法。基于 ISC 的保护方法更快，但如果使用 Rshunt，则会导致功率损耗增加，或者需要使用具有检测引脚的电源模块来实现 Rsense 方法。由于这些原因，SiC 和 IGBT模块中都常常使用基于 DESAT 的方法。在本应用手册中，数据是基于 DESAT 和 OC 引脚的 VSC 方法收集的。
+
+5\. DESAT 电路设计
+
+5.1 DESAT 电路元件选型
+
+为了实现正确的短路和过流检测，为 DESAT 电路选择合适的元件至关重要。DESAT 电路通常包括一个消隐电容器 (CBLK)、一个限流电阻器 (RLIM) 和一个高压二极管 (DHV(1,2..))。根据系统条件，通常还会使用保护二极管（DD1、DD2）和 DESAT 路径中的齐纳二极管 (DZ)。
+
+在电源开关正常运行期间，VDS 或 VCE 低于所需的 VDS/VCE 阈值。在这种情况下，高压二极管正向偏置，DESAT引脚内部充电电流 (ICHG) 通过高压二极管流入电源开关的集电极或漏极。因此，DESAT 引脚上的电压低于DESAT 检测阈值，并且 DESAT 不会触发。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAwYe9ibjkoqLhjLOLMlmLvRwcPSBQTsHGVKqSdUC5hicRHQSbWmibeb0EQ/640?wx_fmt=png&from=appmsg)
+
+在短路或过流事件期间，VDS 或 VCE 高于所需的 VDS/VCE 阈值。在这种情况下，高压二极管会反向偏置，DESAT引脚内部充电电流无法流过二极管。因此，ICHG 开始为消隐电容器充电，导致 DESAT 引脚上的电压快速上升至DESAT 检测阈值以上。在抗尖峰脉冲周期之后，这种情况下会触发 DESAT。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcA088XwqRHOEsBh1f7cWpYefISia0U703IS93NcZXHGNicJUQwL9Xlu3Ag/640?wx_fmt=png&from=appmsg)
+
+要正确选择外部电路值，首先需要确定系统判定为短路或过流的 VDS/VCE 阈值。然后，根据方程式 1 计外部电路值：
+
+正常运行期间：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAcNpLvsyMrHwfYDsar6DHfeVv6AS94z7VvetGic2f5rKAYiccIUNgxpBw/640?wx_fmt=png&from=appmsg)
+
+在短路或过流运行期间：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAubKGurcmPRs3NOzYfPm59wRP8x9wAzCj78N9TUBPLiamKUD9nqEl6Vw/640?wx_fmt=png&from=appmsg)
+
+除了电压检测阈值外，还需要注意消隐电容充电时间 tBLK)，因为它会影响 DESAT 检测和关断的总时间。tBLK 可以使用方程式 3 来估算：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcADA8xDe5zJ0eHXYIXI5E4uxHx5XDynibS5iatzDQOqpKngA7F6qNcF5NQ/640?wx_fmt=png&from=appmsg)
+
+其中，Cblk 是消隐电容的容值，Vdesat 是 DESAT 检测阈值，而 CHG 是 DESAT 充电电流。
+
+将所有元素考虑在内后，可以使用方程式 4 来计算 DESAT 检测总时间：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcA0TbjpI49AJnAJoyXPPfKRBx200Fic4jFMsdRPqoPeKTAVLSNnXhYokg/640?wx_fmt=png&from=appmsg)
+
+其中，tDESATLEB 是前沿消隐时间，tBLK 是消隐电容充电时间，而 tDESATFIL 是 DESAT 滤波时间。
+
+5.2 寄生元件的影响
+
+除了 DESAT 外部电路的参数值（电容、电阻、正向压降等）外，还必须注意外部电路引入的寄生效应及其影响。这里讨论了可能影响 DESAT 检测时间的两个寄生元件：高压二极管的结电容和 DESAT 节点上的寄生电容。
+
+高压二极管的结电容会影响 DESAT 检测时间，因为它会从漏极/集电极耦合 dV/dt，从而导致电流流动。当漏极/集电极上存在负 dV/dt 时，会从 DESAT 引脚拉出电流；当漏极/集电极上存在正 dV/dt 时，则电流会注入 DESAT引脚。这种电流电话可能增加或减少 DESAT 检测时间。图 5-3 展示了较大的高压二极管结电容如何导致 DESAT引脚电压骤降更明显，从而延长消隐电容器的充电时间。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAmibIm21Ybp3MeXYCniaFnK4ico4gx2MXIhuK5BXIiaVV6WVUTbsIMSMHyA/640?wx_fmt=png&from=appmsg)
+
+DESAT 节点上的额外寄生电容也会影响 DESAT 检测时间。这些寄生电容可能来自 DESAT 上的钳位二极管（肖特基二极管和/或齐纳二极管）或 PCB 布线电容。钳位二极管的结电容通常约为 5pF，而 PCB 布线寄生电容因系统而异，通常在 5pF 至 20pF 范围内。计算 DESAT 消隐电容器充电时间时，请考虑额外的电容值。
+
+5.3 Rlim 对 DESAT 噪声的影响
+
+DESAT 电路中的限流电阻器有两个用途：它可以帮助调整 DESAT 检测阈值，同时也可以限制当漏极/集电极的dV/dt 引起电流流动时注入 DESAT 节点或从 DESAT 节点汲取的电流。图 5-4 展示了较小的限流电阻值如何导致较大的 DESAT 引脚电压骤降，从而使消隐电容器的充电时间更长。TI 建议选择 1kΩ 或更大的限流电阻器以提高DESAT 检测的稳健性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcA3ibhzhAjGs3W6revj8kgyCqdOMYhFiak1uVSUCHRXtVeiaib9x9ffjQwTQ/640?wx_fmt=png&from=appmsg)
+
+6\. 安全关断
+
+6.1 安全关断机制
+
+使用基于电压或基于电流的检测方法检测到短路或过流事件后，需要安全高效地关断电源开关，以防止电源开关损坏和系统故障。
+
+如果开关以较高的灌电流（几安培或几十安培）快速关断，则开关中将出现非常大的负 di/dt。这个 di/dt 与电源环路中的寄生电感耦合，会导致开关上的电压升高。该 VCE/VDS 过冲可能达到数百伏，可能会引发电源开关过压并导致电源开关故障。
+
+因此，在检测到短路或过流后，最好使用软关断 (STO) 或两级关断 (2LTO) 来关断电源开关。在软关断期间（如图 6-1 所示），使用较小且恒定的灌电流来关断器件。关断时间会增加，关断速度会降低，而栅极会缓慢放电。在两级关断期间（如图 6-2 所示），栅极被首先下拉至中压电平并保持固定的时长。固定时间结束后，驱动器继续以较小的恒定灌电流拉低栅极电压。这两种方法都能降低关断速度，减小 di/dt 并降低 VCE/VDS 过冲，以保护器件。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAnG7ExDtTdZO5hAKlwdT3aZ7LUliavbwFNSFQ0mx3LB0W9rNxnQNibeMg/640?wx_fmt=png&from=appmsg)
+
+6.2 安全关断注意事项
+
+在实现安全关断时，电源环路的寄生电感对 VCE/VDS 过冲曲线和关断时间有很大影响。当电源开关的 di/dt 相同时，较大的电源环路寄生电感会增加 VCE/VDS 过冲，因此这种情况下更适合使用 STO/2LTO。此外，如果电源环路中的寄生电感减小，则可以缩短关断时间。这包括电源模块的杂散电感。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAxiaAic8Zl1Eoib9Fp29WaU2K6Gs1QDvfJDPB2GwXnvGUDL8PkibVDtxb4Q/640?wx_fmt=png&from=appmsg)
+
+7\. 短路测试设置和数据
+
+7.1 短路工作台测量设置
+
+为了模拟短路事件，我们使用了半桥栅极驱动器板 UCC21710QDWEVM-054。该半桥板能够进行双脉冲或 SC 测试。在 SC 测试中，高侧驱动器输入永久设置为高电平，同时低侧栅极驱动器将在高侧开关导通时开启。
+
+高压电源和大容量电容用作 HV 电源。图 7-1 显示了 SC 测试的原理图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAzTnOxpUEadFWicicd7ScspL1KBPz3FBcpzPYbsGHVM7yX8YxLzxcOj2w/640?wx_fmt=png&from=appmsg)
+
+IGBT (FF800R12KE7) 和 SiC (CAB450M12XM3) 电源模块用于收集 SC 事件的数据。基于 VSC 的保护方法用于为支持 DESAT 和 OC 的栅极驱动器捕获 SC 事件。
+
+表 7-1 展示了电源开关的关键参数。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAE4DuTJDcFGQqhPJEYCpibVpNWQjibLkueKDDcLjqyLEyDBD7EuHwnCLw/640?wx_fmt=png&from=appmsg)
+
+7.2 用于数据收集的 SC 板设置
+
+以下实验设置用于为 IGBT 和 SiC 电源模块基于 DESAT 和 OC 的实现收集数据，如图 7-2 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAb3xNs0pqnRA5QAYlodiceXpTG6OZ1LS4FL23o5kLHa5YTSOmMhOjKlg/640?wx_fmt=png&from=appmsg)
+
+如图 7-2 所示，HVP054 EVM 直接插入 Wolfspeed® 的 XM3® 评估板，用于测试 SiC 电源模块的 SC 事件。
+
+BM3® 评估板用于测试 IGBT 电源模块的 SC 事件。由于栅极驱动器板与电源模块评估板不兼容，因此使用接口板将 EVM 转换为与 62mm 电源模块连接兼容，如图 7-3 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAyxfsLH9eLE2HKibKZ5qtOLs4peOqicg9liaCGGKTpfialqCBr1dvP8ou4w/640?wx_fmt=png&from=appmsg)
+
+7.3 用于 SC 测试的不同电路配置
+
+两种不同的 DESAT 电路实现和“OC 作为 DESAT”电路实现与两种不同的关断方法搭配使用，以比较 IGBT 和SiC 电源模块的 SC 性能。
+
+• 无外部充电方式的 DESAT 电路实现：
+
+– 充电电流：0.5mA（典型值）
+
+– DESAT 检测阈值：9V
+
+– 将电容器更新为 50pF
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAV9cjsF9Z2LEDIcuE5uRwibc9kbOskK2Bs2cecM8vZpQ1Qyc7PXnqiaQg/640?wx_fmt=png&from=appmsg)
+
+• 通过 OUTH 进行外部充电的 DESAT 电路实现：
+
+– 充电电流：0.5mA +10mA（典型值）
+
+– DESAT 检测阈值：9V
+
+– 将电容器更新为 50pF
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAYxHibENXZQx8ClZRH3Wmdgib8GjpeES25QxewpVj7rbyaibMMEpbiaFoHA/640?wx_fmt=png&from=appmsg)
+
+• 通过 OUTH 进行外部充电的“OC 作为 DESAT”电路实现：
+
+– 充电电流：典型值小于 10mA
+
+– OC 检测阈值：0.7V
+
+– 将电容器更新为 50pF
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAVfoOWG6T4LKNVPPUqqwAkVANibhMQakFBRIsoHMQLxpDP1yMhU0W5Ag/640?wx_fmt=png&from=appmsg)
+
+7.4 工作台测量结果
+
+这里使用不同的检测方法执行了四种不同的 SC 测试。9V DESAT 阈值栅极驱动器 UCC21750-Q1 用于在没有外部充电电流和有外部充电电流的情况下捕获 SC 数据。此外，0.7V OC 阈值栅极驱动器 UCC21710-Q1 和UCC21732-Q1 用于捕获 STO 和 2LTO 两种不同关断方式下的 SC 数据。• 案例 1：9V DESAT，无外部充电电流且采用 STO
+
+• 案例 2：9V DESAT，具有外部充电电流并采用 STO
+
+• 案例 3：0.7V OC 阈值，采用 STO
+
+• 案例 4：0.7V OC 阈值，采用 2LTO
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcAU66NqxLk19NwShUhVSTG8wMt0vPic9v9ToV1qn4035aguJYWFwsDZAA/640?wx_fmt=png&from=appmsg)
+
+如图 7-7 所示，在默认充电电流为 0.5mA 的情况下，与外部充电电路相比，检测时间、峰值 SC 电流、关断能量和关断时间都很大，以实现更快的检测。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcA9pAVbAibewfF7WiaEeAVtYKrGiaztRTVkHq8rpXJaxzrt9a3vQfew3jwA/640?wx_fmt=png&from=appmsg)
+
+如图 7-8 所示，“OC 作为 DESAT”峰值电流和检测时间（案例 3 和 4）与具有外部充电电流的“DESAT”检测时间（案例 2）相当。
+
+在关断能量方面，案例 3 400mA STO 性能与案例 2 相匹配，但案例 4 的 2LTO 性能表现出更高的关断能量和更长的关断时间，因为栅极电压会在 9V 附近保持约 1μs，并且峰值电流没有降低，保持不变。这是因为 9V 阈值的栅极保持电压会使 SiC 模块保持导通，并且峰值电流没有降低。如果电源模块的“导通阈值”略低于 9V，则会降低 SC 电流，并且 2LTO 仅在这种情况下有效。
+
+上述四种情况也适用于 IGBT 电源模块。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcA0HuKZO73KhU8kIMo7CDFyianOq0jlgwhJPuBz01U6FMKxLm92zclGrQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcA0vsqdGAcY60ghFick7s5ueXNV4toMMaiaBF7iaspiaTcVAJmR0NbiaTianRQ/640?wx_fmt=png&from=appmsg)
+
+就 DESAT/OC 电路行为而言，IGBT 的性能与 SiC 电源模块相当。
+
+但是，与 SiC 相比，在 IGBT 模块中观察到的总峰值电流要低得多。因此，IGBT 模块的关断能量和关断时间都要低得多。
+
+7.5 SiC 与 IGBT 电源模块短路观察的总体摘要
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcA59aIujz1Nou1T4blAo27RbnHRicrLD3W9KhqUjOmFHRv3s3iceamKDNw/640?wx_fmt=png&from=appmsg)
+
+8\. 设计 SC 保护电路的关键注意事项
+
+• 降低峰值短路电流
+
+– 峰值电流取决于多种因素：检测 SC 事件的时间、模块类型和系统电压。由于模块类型和系统电压是固定的，唯一的优化方法是实施更快的检测电路，从而更快地识别故障事件。
+
+以下是一些加快故障检测的关键注意事项：
+
+• 约 30pF 至 100pF 的较小优化消隐电容（在避免错误触发和确保正确保护之间实现平衡）
+
+• 较高的消隐电容器充电电流(0.5mA - 2mA)
+
+• 基于电源模块的较低优化 VSC 检测阈值
+
+• 减少关断时间和能耗
+
+– 减少关断能量依赖于 SC 事件期间的峰值电流和关断 di/dt。前文已经介绍了降低峰值电流的方法，唯一需要调整的其他参数是关断 di/dt。虽然加快关断速度有助于缩短关断时间，但不建议这样做，因为 SC 事件期间的 di/dt 非常高，可能会导致电源模块过冲。因此，最好平衡特定于电源模块的关断 di/dt 和过冲。
+
+• 关断速度更快（过冲更高，但关断能量更少），关断速度更慢（过冲更低，但关断能量更高）
+
+• 需要在过冲与关断能量之间保持平衡
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnZL3KZ4f5QrarvLlrJTvcA4ia2m9c7hIQ7eXoNw5XJUicSDBkRCrricCSEFRMYmT36xUiaPtwh0o5f5w/640?wx_fmt=png&from=appmsg)
+
+9\. 总结
+
+本应用手册讨论了以下主题：不同的 OC/SC 保护方法、保护电路工作原理、设计保护电路的关键注意事项、工作台测量设置、SC 数据以及 IGBT 和 SiC 电源模块的栅极驱动器选型指南。
+
+10\. 参考资料
+
+“Failure modes and mechanism analysis of SiC MOSFET under short-circuit conditions” by Xi Jiang, JunWang, Jiwu Lu, Jianjun Chen, Xin Yang, Zongjian Li, Chunming Tu, Z. John Shen
+
+“IGBT Failure mechanism and boundary analysis under large current and high temperature turn-off” by XiaoMa, Yongle Huang and Yifei Luo
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)

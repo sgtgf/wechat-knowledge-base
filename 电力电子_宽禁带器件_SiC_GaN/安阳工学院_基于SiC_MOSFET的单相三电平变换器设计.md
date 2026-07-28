@@ -1,0 +1,188 @@
+# 安阳工学院：基于SiC MOSFET的单相三电平变换器设计
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/wwngtmFRjssgEv0EEyFLvg](https://mp.weixin.qq.com/s/wwngtmFRjssgEv0EEyFLvg)
+
+**文章来源：**电源学报
+
+**作者：**陈晓，赵亚东，张 瑜（安阳工学院机械工程学院）
+
+**摘要：**围绕高开关频率小功率单相交直交变换器效率提升问题，设计了一种基于 SiC MOSFET 的高效率单相三电平三桥臂变换器。该变换器主要包括分别用于整流器和逆变器 2 个 T 型三电平桥臂和一个公共桥臂，其多电平拓扑可优化谐波性能，减少开关损耗。分析了变换器运行方式，并设计了包含直流电压控制的级联电压电流控制器。同时， 因 T 型三电平桥臂的外开关承担了整个直流侧电压，采用 SiC MOSFET 器件可大大降低开关损耗。基于导通损耗和开关损耗分析，对比了不同开关频率下的损耗，优选了变换器的开关频率。搭建了 3 kW 单相三电平三桥臂变换器样机并进行了实验测试，实验结果验证了新型变换器在保证较好的输出电能质量的同时，其效率可达到 99%。
+
+**关键词：**单相三电平变换器；碳化硅器件；效率；开关损耗
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pej3GHjprAn3GFvuagicJ96pRaNxP4C9IPnrhDlgrmibVVnpQOibPTsPesA/640?wx_fmt=png&from=appmsg)
+
+**0 引言** 
+
+交直交变换器可广泛应用于各种工业电力产品设计，如电能质量调节器、潮流控制器、电力电子变压器和电 动汽车充电桩等\[1\-5\]。单相交直交变换器可实现交流电能质量调节，以保护敏感负载如计算机、牵引电气设备、通信设备和充电设备等免受干扰的影响。
+
+文献\[6\-8\]中提出了三桥臂单相交直交变换器，整流器和逆变器共享一个公共桥臂， 相对于文献\[9\-11\]所描述的四桥臂单相交直交变换器，可显著减少开关器件数量和提高装置功率密度，文献\[8\]基于 H∞ 控制理论， 建立了系统 的周期平均模型，并设计了最优 H∞ 输出动态反馈控制器，但控制算法复杂度高，且只有仿真分析，无实验验证。文献\[12\]指出，三桥臂交直交变换器中公共桥臂为负载谐波提供了一条额外的电 流路径， 故可提高功率因数。同时，互异向电 流在公共桥臂中相互抵消，使得电流幅值最小，从而优化导通损耗，但整流和逆变桥臂仍会产生与四桥臂变换器相同的损耗。近年来，三电 平电 路拓扑得到了广泛研究，与两电 平拓扑相比 ，其开关器件只是承担了一半的电 压应力，优化了开关损耗，降低了谐波 。为此，文献\[13\-15\]将单相三桥臂交直交变换器拓扑中整流器和逆变器桥臂升级为中点箝位型三电 平电 路以减少开关损耗，而文献\[15\]还利用冗余矢量实现了均压的一维空 间矢量脉宽调制算法，但算法并未考虑损耗问题，由于桥臂电 流必须流过 2 个开关器件\[16\]，故此拓扑结构存在更高的导通损耗，且内外开关器件的损耗也存在分布不均的问题。
+
+基于前述研究， 本文设计了一种新型基于SiC MOSFET 的高效率单相三电平三桥臂变换器， 其 T型三电平桥臂较之中点箝位型三电平桥臂，可有效减小功率开关器件的使用，具有减小导通损耗的优势\[17\-18\]。随着电力电子技术的发展，基于功率开关器件的电力电子装置在能量传输效率、功率密度和价格成本等方面的要求越来越高， 与 Si MOSFET 相比 ，SiC MOSFET 击穿电压强度高、损耗低和热导率高，可用在高电压、高开关频率和高功率密度场景，市场前景广阔，随着量产增速，性价比趋于更合理，使用率更高\[19\]。为此，本文将 T 型桥臂中的外开关使用 SiC MOSFET 代替 Si MOSFET， 降低开关损耗，新型变换器可实现高效率，同时还可以工作在更高的开关频率下，谐波性能更好。
+
+**1 变换器的运行和控制**
+
+图 1 为本文所提的新型变换器拓扑，变换器包含有 2 个 T 型三电 平桥臂和一个公共桥臂， 其中：公共桥臂包含开关管 S1 和 S2，同步其输入电 压以降低开关损耗；整流桥臂由开关管 S1a、S2a、S3a 和 S4a 组成；右侧 T 型三电 平桥臂包含开关管 S1b、S2b、S3b 和S4b、 其逆变输出保持与输入电 压同相；vg 和 ig 分别为电 网电 压和电 流，Lg 为输入电 感，C1 和 C2 为直流侧电 容 ，Vd 为直流电 压，Lo 为输出电 感，Co 为输出电 容 ，vo 和 io 分别为输出电 压和输出电 流， 点 a、b间的电 压为 vab，流过 S1a 的电 流为 iS1a，流过 S2a 和 S4a的电 流为 iS24a，流过 S3a 的电 流为 iS3a。S1a、S2a、S3a 和 S4a为 SiC MOSFET，其余开关管为 Si MOSFET。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe8sc68D02PR8M0T3Y719ibibeRDialk68qrDpLceR0lSSSicOBib72JDiceCg/640?wx_fmt=png&from=appmsg)
+
+考虑到所提变换器中整流器和逆变器具有完全对称的结构，故在电路工作模态分析时，只以整流器为例详细分析，逆变器类似，不再赘述。图 2 给出了整流器的 6 个工作模式。
+
+由图 2 可见，公共桥臂的上下开关管由输入电压的极性进行控制， 即在输入电 压正半周期，S2 导通，S1 断开， 而另外半个周期，S1 导通，S2 断开。因此，开关 S1 的占 空 比 D1 为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peQerfllswfA68eialcD38ia3HcCO4GGIYa4v8z3DiaNeoI5bdiaEfQNxAHQ/640?wx_fmt=png&from=appmsg)
+
+开关管 S1a 和 S2a 与开关管 S3a 和 S4a 的开关状态互补， 故仅需确定 2 个开关管的占 空 比 即可控制整流器。定义 S1a 的稳态占 空 比 为 Dn1a，S4a 的稳态占 空比 为 Dn4a。图 2（a）～（f）分别对应 6 组有效开关状态组合，其中：vab 为五电 平电 压，即 Vd、Vd /2、0、\-Vd /2 和\-Vd；vg 由五电 平分为 4 部分， 也即整流器的模式 1（Vd /2<vg<Vd）、模式 2（0<vg<Vd /2）、模式 3（\-Vd /2<vg<0）和模式4（\-Vd<vg<-Vd /2）的 4 种工作模式，如图 3 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe5IvFqylW8zYVsml6tstHhgWIJf39vEC4JVmVkK3zYNISmjy0CFBxZQ/640?wx_fmt=png&from=appmsg)
+
+模式 1 的电 路对应图 2（a）和图 2（b）。S1a 导通和关断状态对应的电感电压vL 为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pef4ibSMfySkae7e6fUWghfm513gbph7QHuZ3pRKsGLME0mRjXHlImNiaA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peF940AcWnvZ6yef32R881Ue5OU6Q7f4XgS3AncmG0tKchv99ibYKp0Rg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peLmOvJZpkOID0VRPj0rnnDG4OTwjnyt3ibibIm55l0Xiappw9atZrImM5Q/640?wx_fmt=png&from=appmsg)
+
+进一步，必须将控制占 空 比 ΔD 添加到稳态占空比中，以控制并网电流 ig。以对模式 1 详细讨论为例， 其他模式中 ΔD 的计算方式是完全相同的。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peU9sUia24tfyoiaQb8axggkPEVSePPGKiaf4Svnutn3w9dZ1iaiaNX9FSBtw/640?wx_fmt=png&from=appmsg)  
+
+由式（2）可得出一个开关周期内 Ls 的平衡式为图 4为变换器的控制器框图。图 4 中直流电压平衡通过调节参考并网电 流 i\*g实现， 也即将计算得
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe0icurWKK1eEWzWWRtLtoxWMoDb73ys3aKaKrJtFkY2icIVIIHibM8BZUQ/640?wx_fmt=png&from=appmsg)
+
+图 4 为变换器的控制器框图。图 4 中直流电 压平衡通过调节参考并网电 流 i\*g实现， 也即将计算得到的直流电 容 C1 和 C2 间的电 压差乘以控制系 数kpbal 后加到并网电 流参考 i\*g上。ΔD 直接用于并网电流控制，使其跟踪电 网电 流参考 i\*g。Dn 被用作前馈电 压补偿器，其使整流器的输入 ΔD 与输出|is|间的关系成为易于控制的一阶线性动态系统 ，如式（12）所示。换言之，稳态占 空 比 Dn 的增加使得控制性能通过预设工作点得到改善， 并优化了输入电 流波形。逆变桥臂的控制框图在图 4 中下半部分，其中输出电 压 vo 通过 PI 控制器进行调节， 逆变器的占空 比 Di 为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peQ1S0iadAmM39RMyg1KQYLJoJlHGdXKtyg5XlXch2QYg1UZIcYgGzH7Q/640?wx_fmt=png&from=appmsg)
+
+式中：m 为电 压控制器的输出；|sin（ωt）|是正弦参考值。电 流限幅器可限制输出电流幅值，以防止接入连接脉冲负载（如电 容 性整流器）时逆变器输出过大的负载电流。
+
+**2 变换器损耗分析**  
+
+新型变换器的效率是设计的核心关键点。基于数据手册和测量得到的数据对变换器的损耗进行详细分析，并与其他拓扑变换器进行对比 。功率计算基于如下假设：①整流器和逆变器的功率因数近似为 1，因此流经公共桥臂的电 流幅值微小，故公共桥臂上开关的导通损耗可近似认为 0；②公共桥臂上的开关损耗可忽略不计，因为公共桥臂上开关以工频运行，并在输入电 压的过零点开关；③整流器和逆变器桥臂具有相同的损耗，因为两者的电 路结构和运行模式相同。
+
+**2.1 导通损耗分析**
+
+如前所述，T 型三电 平桥臂在不同工作模式下使用不同的开关管，每个开关管上的电 流波 形如图3 所示。则单位功率因数下 vg 和 ig 可分别表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peAle7ics8qHcTKf3gFqpzR95GVzzefM9m5hhVDQyo35doldYUE7QDoEQ/640?wx_fmt=png&from=appmsg)
+
+式中：Vg 和 Ig 分别为电 网电 压和电 网电 流的峰值；fg为电 网额定频率。则 S1a 上的电 流有效值为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peVb3WlwCRL9DGUCaZ4yIcAS1KlUyTswykSCEzZbjNZ4G3o7MkNoibSicQ/640?wx_fmt=png&from=appmsg)
+
+其式中：iS1ar 为开关 S1a 上的电 流有效值；Tg 为工频周期。假设一个工频周期内包含有 m 个开关周期，将式（17）中的积分项扩展为若干开关周期积分项之和，即
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pelCccrQj11BO59kSiavvvc7M2ojV9ZRwC8ia8u3RKUWpKEficFDvBPVtAg/640?wx_fmt=png&from=appmsg)
+
+**2.2 开关损耗分析**
+
+图 5 为模式 1 下 Ts 内 S1a 和 S2a 上的电 压和电流波 形。图中，第 k 个开关周期内 S1a 开通和关断时峰值电 流 Ipon 和 Ipoff 分别为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peEN9Ut4UAkCRjk57yrXdCebrPdJxFuqLRcXicdjwFmJBl9tPsFrxe3Zg/640?wx_fmt=png&from=appmsg)
+
+式中：tonS1a 和 toffS1a 分别为开关 S1a 的开通时间和关断时间；Coss 为寄生电 容 ，其数值可通过开关器件手册查阅。因此， 开关 S1a 的开通损耗 PonS1a 和关断损耗PoffS1a 可计算为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peRc2onCmju6Oibx2QMXSbAeccvQO6ekSBUmkGYDU5lVyoOruEXt7LyqA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pe6bibK2Om8fBTe3tepLHN3uLKQOZdRt8nJAaxYCCbffe7dcEiaRKD6CWg/640?wx_fmt=png&from=appmsg)
+
+**2.3 损耗对比**
+
+分别计算传统 两电 平三桥臂变换器和中点箝位型三电 平三桥臂变换器的损耗，并与新型变换器进行对比 。图 6 所示为不同电 路拓扑在开关频率fs=20 kHz 和 fs=30 kHz 时的损耗计算结果。由计算结果可见：两电 平拓扑电 压应力高，开关损耗较大；多电 平拓扑电 压应力小，故开关损耗最低，但导通损耗高；使用 Si MOSFET 后可显著降低导通损耗，但 由 于 使 用 了 高 额 定 电 压 的 MOSFET， 基 于 Si MOSFET 的 T 型三电 平三桥臂变换器的开关损耗更大，如图 6（b）所示，当开关频率升高时，这个差值将变得更大；使用 SiC MOSFET 代替 Si MOSFET可显著缓解该问题，即显著降低开关损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peGLoWOndvxPwHXeapiaEWCYQkFrCCliaX0Ajtia5LR70ylhvY0C2FmBn8Q/640?wx_fmt=png&from=appmsg)
+
+值得一提的是，将单相三电 平三桥臂变换器中
+
+在实验室搭建了额定功率为 3 kW 的单相三电平三桥臂变换器原理样机，如图 7 所示，并进行了测试。控制算 法 基于 微 芯公 司 的 DSP 芯 片 DSPIC33EP256MU810 实现，MOSFET 的驱动电 路为 HCPL\-316J，控制电 路板上所有开关的电 源都通过变压器隔离。实验参数和器件型号见表 1和表2。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peQJfeEiav9EuZBQ5A1swq8Neia3LMcliaPF2X2pibbezXNdoa6Niajnr55TA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peQVrezla6Yk46SfNnpBD9aMPCKLf1DJW4SeH7dGDVgEMzHWTo8XFdVQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peNESV9H4x15NflUic9PnBqyiaMaTLy1clkXIyW4jwzkKvNYsuaz1JbKww/640?wx_fmt=png&from=appmsg)
+
+值得一提的是，将单相三电平三桥臂变换器中的T型桥臂外开关采用SiC MOSFET 代 替 Si MOSFET 以降低开关损耗的同时，将显著提高开关频率至 20 kHz（实验中最高达到 30 kHz），而常规单相三电 平三桥臂变换器的开关频率通常在 5~10kHz\[11\-12\]。考虑到输出谐波 将主要为开关频率倍频处边带谐波 ，故优化输出 LC 滤 波 器参数 Lo 和 Co 分别为 1 mH 和 6.8 μF， 则截止频率为 1/（2π姨LoCo ）\=19.3 kHz。对比 常规单相三电 平三桥臂变换器，输出滤波器的无源元件体积和重量将显著降低， 而网侧滤波电感与负载侧一致，即 Ls=Lo=1 mH。对于直流支撑电 容 ， 参数计算方法和常规单相三电 平三桥臂变换器类似，可参见文献\[11\-12\]，本文中选取为 C1=C2=680 μF。
+
+对于驱动电 路的设计， 可遵循以下设计原则：
+
+①Si MOSFET 开通所需门极电 荷较小，总体驱动功率设计值无需太高；
+
+②Si MOSFET 的开通电 压高于Si MOSFET 器件，故设计门极驱动电 压 Vgs 为 18 V～20 V（虽然开启电 压小，但驱动电 压只有达到 18 V～20 V 时才能使 Si MOSFET 完全开通）；
+
+③考虑到误触发耐性稍差，驱动器需设置负压，防止其误触发。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pefdKUSAWvby2tdDxYnrmVDct5UlHqb8pPkRgMyF4KhPiclyGjTbNcKyQ/640?wx_fmt=png&from=appmsg)
+
+图 8 为稳态运行实验波 形，其中：图 8（a）中 vab为五电 平电 压，而 vg 和 ig 同相，保持了单位功率因数，且 ig 正弦度好；图 8（b）中，满载条件下直流电压 Vd 保持了恒定，而输出电 压 vo 与电 网电 压 vg 接近同相。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0pefQOMuazjT0dRq9elIgLy5xwXUX4NZEJMxXIr3uDfMsxibyKfRzqa5OQ/640?wx_fmt=png&from=appmsg)
+
+图 9 为电 网电 压和负载扰动下 Vd、vo、ig 和 vg的实验结果。其中，图 9（a）中 vg 从 220 V 阶跃至240 V，图 9（b）中 vg 从 240 V 阶跃至 220 V，图 9（c）中负载从 1.5 kW 阶跃至 3.0 kW，图 9（d）中负载从 3.0 kW 阶跃至 1.5 kW。动态实验结果验证了控制器对扰动的鲁棒性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmjWrIDjKjibxmq83cIcF0peP5n0Ul3EaSLyBWV0X2GU2PGiaOFhicicDN0ibkPeRQz5sxKobibaC8Nytww/640?wx_fmt=png&from=appmsg)
+
+图 10 所示为不同负载率下开关频率为 20 kHz和 30 kHz 时的效率测试结果。从结果可看出，开关频率 20 kHz 和 30 kHz 下新型变换器的最大效率分别为 99%和 98.7%，在额定功率时效率分别为 98.6%和 98.4%，这说明了变换器的低损耗性能。从实验结果进一步看变换器电 路寄生参数（如引线电 感等）对变换器输出影响较小，是因为变换器电 流小，可忽略寄生参数的影响，但工程实际时，功率提升则需考虑系统集成以降低寄生参数。
+
+**4 结论**
+
+围绕小功率单相交直交变换器的效率优化，设计了一种基于 SiC MOSFET 的高效率单相三电平三桥臂变换器。通过电路设计、控制器设计、损耗分析和实验验证，可得结论如下。
+
+（1）新型变换器采用了2个 T型三电平桥臂，且外开关使用 SiC MOSFET，可显著降低损耗，提高变换器效率。
+
+（2）新型变换器中保留了传统公共桥臂，其以工频运行，不增加额外损耗，而整流器和逆变器采用三电平拓扑可提高谐波性能。
+
+（3）与其他 2 种拓扑变换器的损耗计算结果对比显示，基于 SiC MOSFET 的新型变换器的运行效率最高。
+
+（4）额定功率3 kW的变换器原理样机的测试结果表明， 在 20 kHz 开关频率下， 最大效率可达99%，额定负载下效率可达 98.6%。
+
+（5）后续研究的方向将是针对变换器负载侧带非线性负载时的谐波优化设计。
+
+参考文献：
+
+\[1\] 刘涛, 王慧慧, 葛磊蛟, 等. 基于FCS鄄MPC 的电能质量综合调节器补偿策略研究\[J\]. 电网技术, 2019, 43（9）: 3376\-3383.
+
+\[2\] 常非, 赵丽平, 冯金博. 五电 平交直交变换器在贯通同相供电中的应用\[J\]. 电 力系统及其自动化学报, 2015, 27（1）:26\-31.
+
+\[3\] 李祥生, 齐凌成, 刘佩, 等. 交直交型三相电 力电子变压器在配电网中的应用\[J\]. 智慧电 力, 2018, 46（8）: 84\-88.
+
+\[4\] 王世恩, 郑泽东, 李永东. 应用于船舶中压直流系统的电力电子配电变压器\[J\]. 电源学报, 2017, 15（2）: 31\-39.
+
+\[5\] 杨雁勇, 戴慧纯, 张方禹, 等. 电 动汽车单相双向电容改善型全桥变换器研究\[J\]. 电 力电 子技术, 2018, 52（10）: 109\-111.
+
+\[6\] Wu JC, Jou H L, Wu K D, et al. Three\-arm AC automatic voltage regulator \[J\]. IEEE Transactions on Industrial Electronics, 2011, 58（2）: 567\-575.
+
+\[7\] Kim K T, Kwon B H, Kwon J M. Instant voltage compensator based on a three\-leg converter \[J\]. IET Power Electronics, 2013, 6（8）: 1618\-1625.
+
+\[8\] 姜素霞, 金楠, 崔光照, 等. 单相统一电能质量调节器的H∞ 控制策略研究\[J\]. 自动化仪表, 2014, 35（6）: 4\-7.
+
+\[9\] 戎袁杰, 罗旭杰, 李春文, 等. 两种比例控制在单相 UPQC中应用的仿真研究\[J\]. 电力电子技术, 2011, 45（1）: 51\-53.
+
+\[10\] 邱大强, 李群湛, 余俊祥. 混合式电 铁电能质量调节器补偿原理及容量分析\[J\]. 电 力自动化设备, 2012, 32（10）: 59\-64.
+
+\[11\] De Freitas I S, Jacobina C B, dos Santo Jr E C. Single\-phase to single\-phase full\-bridge converter operating with reduced AC power in the DC\-link capacitor \[J\]. IEEE Transactions on Power Electronics, 2010, 25（2）: 272\-279.
+
+\[12\] De Freitas I S, Jacobina C B, Da Silva E R C, et al. Single\-phase AC\-DC\-AC three\-level three\-leg converter \[J\]. IEEE Transactions on Industrial Electronics, 2010, 57（12）: 4075\-4084.
+
+\[13\] Schweizer M, Friedli T, Kolar J W. Comparative evaluation of advanced three\-phase three\-level inverter/converter top\-ologies against two\-level systems \[J\]. IEEE Transactions on Industrial Electronics, 2013, 60（12）: 5515\-5527.
+
+\[14\] Lin B R, Chen D J. Implementation of a single\-phase three\-leg AC/AC converter with neutral\-point diode\-clamped sch\-eme \[J\]. IEE Proceedings\-Electric Power Applications, 2002,149（6）: 423\-432.
+
+\[15\] 柳明, 陈亚军, 林宏健, 等. 单相三电平H桥两模块级联变换器的一维均压 SVPWM 算法\[J\]. 电力自动化设备, 2018,38（3）: 109\-115.
+
+\[16\] Bruckner T, Bernet S, Guldner H. The active NPC con\-verter and its loss\-balancing control \[J\]. IEEE Transactions on Industrial Electronics, 2005, 52（3）: 855\-868.  
+
+\[17\] 张先勇, 张绪红, 李丽, 等. 一种三电 平在线互动式不间断电 源研制\[J\]. 电力电子技术, 2017, 51（12）: 87\-90.
+
+\[18\] 金宏, 张友军, 王诗颂, 等. 采用辅助变压器的全占空比调节三电 平 AC/AC 变换器\[J\]. 电 力自动化设备, 2019, 39（6）: 75\-80.  
+
+\[19\] 盛况, 董泽政, 吴新科. 碳化硅功率器件封装关键技术综述及展望\[J\]. 中国电机工程学报, 2019, 39（19）: 5576\-5584.
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

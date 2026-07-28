@@ -1,0 +1,102 @@
+# SIC 碳化硅MOS管应用于车载充电机（OBC）和DC/DC转换器（电动汽车,混合动力电动汽车和燃料电池电动汽车）
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/kzrcCvEzn3BvYQw9LGOIvA](https://mp.weixin.qq.com/s/kzrcCvEzn3BvYQw9LGOIvA)
+
+###         由于技术的改进、低碳排放趋势和政府的政策激励，电动汽车(EV)是汽车行业一个快速增长的部分。根据市场与市场报告，预计到2030年，电动汽车市场将达到2690万辆，复合年增长率为21.1%。预计亚太市场增长最快，其次是欧洲和北美。不同国家或地区的汽车工业发展倾向于不同的电动汽车。日本更注重混合动力和燃料电池电动汽车的发展，而其他国家则更倾向于纯电动汽车。最受欢迎的电动汽车是纯电池电动汽车（EVs）、插电式混合动力汽车(PHEVs)和燃料电池电动汽车(FCEVs)。它们的功能块如下图所示。  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnh6GHXtXQJxXOsoDicr45OgFTlmeWqWAzhYaTUDWQ233MXGApSVRmSVuPib6gcq1jumSokzYCgTB7w/640?wx_fmt=jpeg)
+
+  
+
+  
+
+图1 纯电动汽车电源框图
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnh6GHXtXQJxXOsoDicr45Ogw6NjbQ9ZehK7QfKM2K1145N1p9CgeOxSFujlzC58YpSHKu3KNME14A/640?wx_fmt=jpeg)  
+
+  
+
+图2插电式混合动力汽车电源框图
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnh6GHXtXQJxXOsoDicr45OgajTrAjjcCGw9cqusSAjxygFnnTicVFZpGgwlBmGRoXZTKtGXqZlh9zg/640?wx_fmt=jpeg)
+
+图3 燃料电池电动汽车动力框图
+
+  
+
+这些类型的电动汽车是为满足某些需求而开发的。纯电池电动车非常适合短到中程的常规交通。里程限制、充电站可用性和充电时间仍是制约其出行半径的因素。插电式混合动力汽车在提高燃油效率和减少二氧化碳排放的同时不受里程限制，但由于其油电双动力结构，使得PHEV结构一般比较复杂，制造成本也较高。在低成本高能量密度电池问世和充电站像今天的加油站一样普及之前，混合动力汽车是一种中间解决方案。对于重型车辆，如公共汽车和卡车，燃料电池电动车显示出其高能量密度和轻重量的优势。
+
+  
+
+为了提高电动汽车的功率转换效率，减少充电时间，新型电动汽车的设计正在将母线电压从500V升级到800V。先进的宽禁带半导体SiC在新一轮电动汽车发展中发挥着重要作用。SiC MOSFETs的开关速度比IGBTs快10倍，在175°C结温下工作时性能不会下降，开关损耗减少60%以上。除了提高功率转换效率和减小变换器的物理尺寸，SIC技术还通过采用双向功率转换拓扑实现了电动汽车的车到网(V2G)功能。在夜间储存未使用的电力，并在用电高峰时段向电网放电，为车主增加价值，有利于电网稳定。
+
+  
+
+**车载充电机（OBC）**
+
+  
+
+车载充电机(OBC)是安装在汽车内部的AC/DC变换器，可以方便地从家里的电源插座进行低功率充电。功率范围从3kW到20kW以上。由于家庭电源插座的功率限制，普通电动汽车OBC的功率通常低于6kW，但一些高端汽车，如特斯拉Model-3，为拥有三相电源插座的客户提供了更高的OBC充电电源选项。商用巴士通常有更大的电池容量，需要超过10千瓦的充电功率。以下是已知的OBC设计中使用的拓扑。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnh6GHXtXQJxXOsoDicr45OgmKxjnLUPjxbJhq4HMmYgDebS4pn8o5Kb4qF9WaaNuwxm5GCvxXPiaGA/640?wx_fmt=jpeg)
+
+  
+
+  
+
+图4 双向OBC电路图(≤6kW)
+
+  
+
+双向OBC采用交错图腾柱PFC和CLLC拓扑。采用SiC MOSFETs的图腾柱PFC是一种双向AC/DC和DC/AC变换器，使用SiC MOSFETs进行二次侧整流的CLLC也是一种双向变换器。双向OBC能够为电池组充电，并将电池的能量提供给交流电网。如果不需要双向功能，PFC的Si MOSFETs和CLLC的二次侧SiC MOSFETs可以用二极管代替。
+
+  
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnh6GHXtXQJxXOsoDicr45OgPbHJlvsBSPSAt2uIVY49Plz9v077oe7bbl5ZyqhZJiaViatOG4ibMjmmg/640?wx_fmt=jpeg)
+
+  
+
+图5 具有线-线输入和三相输入选项的大功率OBC
+
+  
+
+  
+
+**DC/DC转换器**
+
+  
+
+所有车辆都有12V电池(一些重型车辆使用24V电池)。12V电池为所有娱乐设备、椅子、窗户、雨刷电机和除霜加热器等提供动力。电动汽车和混合动力汽车已经没有充电发电机了。12V电池依靠电动汽车的高压母线进行充电。移相全桥和LLC拓扑是DC/DC变换器设计中常用的拓扑结构。功率等级在1到3千瓦之间。由于副边输出是12V，同步MOSFET整流可以达到99%的效率。这使得整个设计很可能能装在一个小铝盒内，而无需使用任何强制冷却。对于800V总线，SiC MOSFETs是当前最合适的高频器件。值得注意的是，在电动汽车内部，电池组和牵引逆变器输入电容组之间通常有一个安全继电器连接。当车辆处于关闭状态时，继电器处于打开状态。为了启动车辆，在继电器闭合之前，电容器组需要充电到与电池组相同的电压，以避免冲击电流。为了达到这个目的，DC/DC变换器有时以双向模式工作。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnh6GHXtXQJxXOsoDicr45OgmGIx3r7NUx0iaKZPWibVQaSHUpCqSst9o3aIutZsC6kZViceKsM22Tt6Q/640?wx_fmt=jpeg)
+
+  
+
+图6 用于12V电池充电LLC DC/DC变换器
+
+  
+
+为了降低成本和尺寸，一些设计将DC/DC变换器与OBC电路结合，如下图所示。在OBC模式下，开关K将大功率DC/DC输出的同步MOSFET整流电路连接到主变压器。在12V电池充电模式下，开关K将整流电路的四个同步MOSFETs连接到12V电池充电器电路，这四个MOSFETs作为LLC主开关，将高压电池组的电源转换到12V电池。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnh6GHXtXQJxXOsoDicr45OgZ6iaYFItWibIYLibibCULVS9iaPFgc7r1ffgXVpv0HeDCYfmniaybXuelbsw/640?wx_fmt=jpeg)
+
+  
+
+图7  OBC -DC/DC组合电路图

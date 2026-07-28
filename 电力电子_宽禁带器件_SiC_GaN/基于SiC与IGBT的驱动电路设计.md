@@ -1,0 +1,145 @@
+# 基于SiC与IGBT的驱动电路设计
+
+原创 姜北 张全柱 SiC碳化硅MOS管及功率模块的应用 2025-03-12 09:59 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/YeaJtb2pk-Hunc-NbEwgjA](https://mp.weixin.qq.com/s/YeaJtb2pk-Hunc-NbEwgjA)
+
+文章来源：电子产品世界
+
+作者：姜北  张全柱  李晓鹏  李昕禹  李清林（华北科技学院信息与控制技术研究所，河北  廊坊  065201）
+
+摘要：功率半导体器件是电力电子系统中的关键器件。目前市面上主流的功率半导体器件有绝缘栅双极 型 晶 体 管（insulate-gate bipolar transistor，IGBT）、 金 属 氧 化 物 半 导 体 场 效 应 晶 体 管（metal-oxidesemiconductor field-effect transistor， MOSFET）、碳化硅（silicon carbide，SiC）等，并且其设计逐渐向大功率、高电压发展，此时设计一种稳定可靠的驱动电路就显得尤为重要。分析了 1ED34x1Mc12M 驱动芯片的各项参数，并以该芯片为核心设计了驱动及保护电路。该电路可用于驱动及保护 IGBT 和 SiC。实验结果表明，该驱动电路输出功率大、稳定性好，可以满足 IGBT 和 SiC 驱动的实际需求。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbLmPs6o3Z1WicKFZegItpfGzzbnaACMwWdRE6EDe0uj5f51j0mYZqIDpA/640?wx_fmt=jpeg&from=appmsg)
+
+关键词：1ED34x1Mc12M 芯片；驱动电路；绝缘栅双极型晶体管（IGBT）；碳化硅（SiC）
+
+0. 引言
+
+绝 缘 栅 双 极 型 晶 体 管（insulate-gate bipolar transistor，IGBT）和碳化硅（silicon carbide，SiC）具有开关频率高、稳定性强等优点，被广泛应用于高功率、大电流相关领域。高功率、大电流导致工作环境电热应力高、磁场环境恶劣，对于驱动的负面影响较大，容易对驱动造成损害。据不完全统计，驱动和隔离引起的功率器件损毁在 30% 以上 ，所以有效可靠的驱动及电路保护设计对功率器件的正常稳定运行至关重要。
+
+肖标等提出一种面向开关时序与驱动电压自主协同调控的混合开关（hybrid switch，HyS）驱动电路软硬件架构设计方法，所设计的驱动电路不仅能为 HyS 提供由不同开关时序与驱动电压组成的 3 种开关模式，而且能根据负载电流水平实现开关时序与驱动电压的自主协同调控。邢鑫怡等提出一种适用于 600 V 高压下的三相全桥 IGBT 驱动电路，解决多个输入信号同时输入导致的高低压电位之间的串扰等问题，提高了驱动电路可靠性。蒋佳琛等设计了一款基于有源钳位脉冲宽度调制（pulse width modulation，PWM）控制器 LM5025的单端有源钳位反激式高压大功率 IGBT 的驱动电源。吴士涛等基于 ACPL-332J 芯片设计了变频器全控型功率元件 IGBT 驱动及其故障保护电路，并成功应用于 3300 V 矿用变频器中。于浪浪等根据换流回路以及电路工作原理，设计了中点钳位（neutral point clamped，NPC）三电平功率模块的驱动电路，并给出了增强驱动电流、防直通以及死区时间可调整的驱动方案。赵柯等通过给驱动电路引入中间电平的方式，将被控器件关断动态过程与关断稳态后的栅极电压进行区分，以降低 SiC MOSFET 的阈值电压漂移量，同时还保留了负栅极关断电压的优势。
+
+上述文献所设计的驱动电路大多只适用于单一类型的功率器件，市面上很少有适用于多种类型功率器件的通用型驱动。本文提出了一种可同时适用于 SiC 和 IGBT 的驱动电路，针对不同的功率器件只需通过参考其数据手册更换合适的模块电源、驱动集成电路（integrated circuit，IC）输入端电阻以及门极电阻，即可用于驱动对应的功率器件。
+
+1. 电路系统组成与设计要点
+
+1.1 电路系统组成
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbLLl15cXkwWMBk4FrDkq4K5OcKibcVkIXZrZ52yL0cKYV6sCZFveRmaZg/640?wx_fmt=png&from=appmsg)
+
+驱动电路原理框图如图1所示，由 1ED34x1Mc-12M 驱 动 芯 片、 数 字 信 号 处 理 器（digital signal processor，DSP）控制板和半导体功率器件组成。
+
+1.2 设计要点
+
+根据 SiC 和 IGBT 的工作特性，对于驱动电路主要有以下要求。
+
+（1）所提供峰值电流足够大，能够提高开关速度，减小米勒平台时间。
+
+（2）驱动电路需具有退饱和保护（desaturation，DESAT）、有源钳位保护、故障反馈等功能。
+
+（3）在故障信号返回时系统要快速响应，启动故障保护，保护功率器件。
+
+（4）可以同时适用于驱动 SiC 和 IGBT。
+
+2. 原理分析与驱动电路设计
+
+2.1 驱动芯片选择
+
+1ED34x1Mc12M 驱动芯片具备 5.7 kV 的 电压等级和 9 A 的电流能力，能够支持驱动 650 V、1200 V、1700 V、2300 V 的 IGBT、SiC 和MOSFET 等功率开关器件，绝对最大输出电源电压为 40 V，且具有多种保护措施，集成了输入、输出两个欠压锁定（under voltage lock out，UVLO）模块、退饱和保护控制和检测模块、有源钳位控制和检测模块以及输出控制模块。
+
+1ED34x1Mc12M 系列驱动芯片由隔离的单通道栅极驱动器 IC 组成，通过两个简单的电阻即可调整各种参数，如去饱和检测的滤波时间、前沿空白时间和软关断电流水平等，这些参数可以从低压输入侧进行调整。所有逻辑输入 / 输出（input/output，I/O）引脚都与 3.3 V 或 5 V 供电电压相关，与互补金属氧化物半导体（complementary metal-oxidesemiconductor，CMOS）兼容，并且可以直接连接微控制器。1ED34x1Mc12M 芯片功能框图如图 2 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbLJGJNdX0bgrgjk40wZv6C2grLsgQgp0Lt7zZzDicCPyx6a91LMHibhZ3g/640?wx_fmt=png&from=appmsg)
+
+2.2 驱动电源设计
+
+为了正常启动栅极驱动 IC，输入和输出侧都需要供电。1ED34x1Mc12M 系列驱动芯片可以适应多种输入和输出侧的供电配置。输出侧可以采用单极性供电或双极性供电方式。在供电方面一般有如下要求。
+
+（1）可以有效隔离一次侧设备带来的共模干扰对系统的影响，使负载能够稳定工作。
+
+（2）母线电压在传输过程中会存在损耗，故输送到印制电路板（printed circuit board，PCB）的电压可能会较低，而负载需要稳定的电压，因此需要宽压输入、稳压输出。
+
+（3）在异常情况下，电源可以通过及时停止供电来保护系统的负载和本身不受破坏。
+
+在供电方面采用直流—直流转换器隔离模块电源，采用隔离式设计可以对电源系统实现降低噪声、电压转换、稳压和保护等功能，满足对驱动芯片的供电需求。
+
+电源开关期间栅极电阻存在功率损耗，此时栅极驱动器 IC 内部的功率损耗也较大。每个封装都可以在不超过最高结温时，在一定的工作条件下达到最大功耗。栅极驱动器 IC 的内部功率损耗 POUT计算公式：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbLz3bNt5BNK8iaMYcSd92X10dlqiciax2NeibJXRQ2eWAoxQw0BCzRXUvu3A/640?wx_fmt=png&from=appmsg)
+
+式中，PQ 为驱动器输出级的工作功率损耗，Psource为导通损耗，Psink 为关断损耗。
+
+可以通过 VCC2 与 VEE2 引脚之间的工作电源电流 IQ2 和电源电压 VCC2 计算 PQ：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbLVrdTO9hcUqZ4yg5n7kBOxJRCqTwZGayOoF6GFL666jib4r7zmJM6W4Q/640?wx_fmt=png&from=appmsg)
+
+可以使用内部栅极驱动器电阻 RDS 和外部栅极电阻器电阻 RG 之间的电阻分压器以及总栅极电荷QG 和开关频率 fsw 来计算 Psource 和 Psink：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbLb7hMxCrMDsYIZXeSLHYqJlNn3UgKetibcIMeNcyfXfGWFDrw8E05HRQ/640?wx_fmt=png&from=appmsg)
+
+式中，ON、OFF 分别为开通和关断，source、sink分别为开通和关断状态下的功率。
+
+由于 IGBT 和 SiC 型号不同，所需要的驱动电压也不同，功率的损耗也不同，需根据所选半导体功率器件的型号，参考其技术指标选取合适的模块电源。供电电路在输入端启示位置设有稳压二极管保证供电质量，然后再通过 LC 滤波器去除尖峰与毛刺，输出侧通过大量电容充放电进行电能储能和滤波，保证电路的稳定性。
+
+2.3 驱动电路输入端设计
+
+2.3.1  故障检测与清除机制
+
+故障输入和故障输出（FLT\_N）状态输出报告显示逆变器系统中的故障。开漏输出（open-drainoutput）向微控制器报告设备运行相关的故障，故障输出为低电平有效。故障关断输入通过故障关断功能将栅极驱动器输出切换为关断，输入为低电平有效。FLT\_N 引脚连接到 3.3 V I/O 的微控制器，并使用一个外部上拉电阻连接 VCC1，FLT\_N 信号以 GND1 为参考。逆变器中所有栅极驱动器 IC 的FLT\_N 引脚输出电压信号后经过两级与门形成单线SO 故障信号。SO 信号为低有效，SO 信号为低电平时表示系统故障，启动保护。
+
+就绪状态输出（RDYC）引脚设计考虑了逻辑输入和漏极开路输出，具有 3 种不同的功能：① RDYC作为所有就绪源极的就绪状态输出；② RDYC 作为故障断开输入；③ RDYC 作为故障清除输入。所有栅极驱动器 IC 的 RDYC 引脚输出后经过两级与门形成单线 RDYC 信号。PWM 输入为高电平时，将所有 RDYC 信号置为高电平，即故障清除。
+
+RDYC 状态输出表示栅极驱动 IC 正确运行。开漏输出为高电平有效时，表明设备运行准备就绪。故障清除输入端和故障关断输入端可清除栅极驱动器故障。RDYC 引脚连接到 3.3 V I/O 的微控制器，并使用一个外部上拉电阻连接到 VCC1，RDYC 信号以 GND1 为参考。RDYC 信号为高有效，当 RDYC 信号为高电平时，表明系统准备就绪。
+
+2.3.2  IN 输入端电路设计
+
+IN 输入控制门极驱动 IC 的输出，当 IN 置于高电平时，功率器件会被打开。它需要连接到微控制器的 PWM 输出，该输出为 5 V 或 3.3 V。若 IN未连接，内部的下拉电阻将确保功率器件处于断开状态。此外，将最小的脉冲宽度设定为 103 ns，以确保门驱动 IC 对 IN 端口的毛刺具有抗干扰能力。
+
+IN 输入电路设计图如图 3 所 示， 当 RDYC为 高 电 平、SO 信 号 为 低 电 平 时， 系 统 准 备 就绪 可 正 常 启 动， 输 入 的 PWM 信号首先经过SN74LVC1G14DCKR 芯片，该芯片是一款具有施密特触发功能的“非门”集成电路，可实现数理逻辑运算。其采用先进的 CMOS 工艺设计，该设计具有低功耗和高输出驱动能力，它可以将边沿变化缓慢的周期性信号变换为边沿较陡的矩形脉冲信号。当输入电压由低向高增加到一定阈值时，输出电压会发生突变。施密特触发器可以对波形整形，消除波形畸变、振荡现象和噪声，增强系统的稳定性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbLiaSzD2pdib6o7W6eTeOPerVBagSpkp4KVLgpISjF3QhLwZp0ODQtZh8g/640?wx_fmt=png&from=appmsg)
+
+2.4 驱动电路输出端设计
+
+2.4.1  输出电源电容选择
+
+驱动器输出电源电容位置的设计规则是尽可能接近 IC 的电源引脚 VCC2 和 VEE2。电容值需要足够大，以限制电源开关导通期间的电压降。电容 C的计算公式：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbLryhkzW0BczgKdAPDyxVjC0oNP6JHAic1PZ7pZsv02ufkE2slCrlGnLA/640?wx_fmt=png&from=appmsg)
+
+式中，IQ 为门极驱动器的供电电流，tp 为开关频率的周期，∆Vcc 为电压变化最大允许值。20% 的附加裕度涵盖了电容和门极电荷参数的典型公差。
+
+输出端需要并联足够大且合适的电容，并在电路后端设有钳位二极管，当出现过电压时，钳位二极管能够迅速导通，把电压钳制在安全范围内，保护敏感器件不受损害。
+
+2.4.2  IC 输出电路设计
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbL8Sa6Yb8mVWQgichDSjIWzk4IhhwvciaXrtCXF6FrI3gHWHwzePFqAkDw/640?wx_fmt=png&from=appmsg)
+
+IC 输出电路设计图如图 4 所示。其中，门极驱动电阻的大小影响功率模块的开关损耗以及开关时间、短路安全工作区、反向偏压安全工作区等，在驱动电路设计中，门极驱动电阻的选择非常重要。门极驱动电阻 RG 的计算公式：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnhEbAzjwlu09mfAy91tlbL2M8YNM4sia8Q6lmpvK7QVSM0doyzvyyBETS3GvEXOhBBFUTonVpHjtQ/640?wx_fmt=png&from=appmsg)
+
+式中，VG（on）为正偏电源电压，VG（off）为负偏电源电压，IGM 为门极峰值电流，RG（int）为模块内部电阻。
+
+根据所选功率模块的不同，通过计算可得到相应的电阻值，采用适当的电阻可以减小开关的损耗以及驱动信号上升与下降的时间，从而提高系统的整体效率。另外，本设计在功率模块的栅极和发射极并联瞬态抑制二极管和平衡电阻来防止门极电压超过阈值，保证系统的安全性与可靠性。
+
+2.5 电路保护机制
+
+为确保安全操作，栅极驱动 IC 配备了输入和输出侧的 UVLO 电路。UVLO 电路针对 IGBT 进行了优化。去饱和检测电路在短路情况下可以保护外部功率器件免受破坏。栅极驱动 IC 对 DESAT 故障做出反应，使用可调的软关断方法将功率器件关闭，软关断功能在过电流条件下以软控制方式关闭外部功率器件，以保护功率器件免受集电极—发射极过电压的损害。主动米勒钳位功能保护功率器件免受快速开关应用中的寄生导通。
+
+3. 结论
+
+针对不同型号的 IGBT 和 SiC，选用合适的模块电源、驱动 IC 输入端电阻以及门极电阻。中央处理器（central processing unit，CPU）可输出 15 kHz、50 kHz、100 kHz 等不同频率的 PWM 波，再经驱动电路放大后，可用于 IGBT 和高频 SiC 的驱动。
+
+本文以 1ED34x1Mc12M 芯片为核心，设计了一种适用于 IGBT 和 SiC 的驱动电路，针对不同类型的半导体功率器件，根据其技术手册选取合适的模块电源、驱动 IC 输入端电阻以及门极电阻即可进行高效的驱动。通过对不同类型的半导体功率器件进行脉冲测试，验证了其正常驱动波形整体性能良好，且具有退饱和保护、有源钳位保护、故障信号反馈等多种保护功能，保证了系统运行的稳定性与可靠性。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)

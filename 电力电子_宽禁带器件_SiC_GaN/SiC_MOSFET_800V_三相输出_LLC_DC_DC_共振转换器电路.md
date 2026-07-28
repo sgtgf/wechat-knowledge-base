@@ -1,0 +1,172 @@
+# SiC MOSFET：800V 三相输出 LLC DC/DC 共振转换器电路
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/RTzL2gVNkKbaEXAVAK5NbQ](https://mp.weixin.qq.com/s/RTzL2gVNkKbaEXAVAK5NbQ)
+
+对采用碳化硅（SiC）MOSFET 作为开关元件，且使用绝缘变压器的三相输出的 5kW LLC 谐振类型 DC/DC 转换器进行介绍。依靠 SiC MOSFET 所具有的 1200V 的耐压特性，输入电压可以提高到 800V，晶体管的开关频率为 600V 时，约为 200kHz，800V 时，为 160kHz，可以大大降低绝缘变压器和输入输出电容的大小。另一方面，为了改善像硅基（Si）MOSFET 那样不太小的因导 通电阻 RDS(on)产生的导通损耗，通过采用三相电路拓扑可降低各相电流，而最大输出功率可提高到 5kW。而且采用了具有三相间 电流平衡功能的变压器，有效地抑制了各相间产生的最大峰值电流的差异，并加入了使输入输出电容的静电容量最小化的技术。对通过这些技术，从而达到 5kW 时 97.6%转换效率的崭新的 LLC 转换器案例进行介绍。
+
+另外，这种崭新的逆变器电路是与功率辅助技术株式会社 https://www.power-assist-tech.co.jp/）共同开发的。
+
+**LLC谐振转换器的特征和三相输出电路拓扑**
+
+LLC谐振DC/DC转换器（以后LLC dc/dc）是利用零电压开关（后称ZVS）脉冲宽度调制（后称PWM）技术，为了避免开关 电源特有的开关损耗问题的魅力候选电路设计。搭载了ZVS的LLC dc/dc利用了电感器和电容器串联连接产生的自发谐 振，通过谐振产生的伪正弦波形的电流可以防止意外的电压尖峰。也就是说，具备ZVS和零电流开关（ZCS）的LLC dc/dc不需要 附加电路，因此可以解决ZVS PWM转换器\[8\]中存在的整流二极管的逆恢复电流引起的电压尖峰等问题，简化电路设计。
+
+ 但是，自然产生的电流谐振限制了开关器件的动作范围。LLC dc/dc的晶体管，根据高频的开关动作，能产生高谐振频率，扩 大\[9\]输出电压的可适应范围，更加能小型化被动零件。因此，诸如SiC MOSFET、GaN器件和Si MOSFET等高频开关器件可以说 是适合LLC dc/dc的。 
+
+另外，为了达到高性能的LLC dc/dc，需要尽可能的实现高功率转换效率。低电压且高电流的功率转换一般因焦耳热损失而降 低转换效率。因此，输出电路并联化，采用高输入电压，使大电流分散，从而减少了焦耳热损失。根据这次采用的三相输出电路布 局，单相电路的电流减少到总电流的1/3。因此，输入和输出的电流纹波可以通过电容器来吸收，ZVS PWM则需要能降低电流纹 波的LC过滤器。
+
+另一方面，对于高输入电压，Si MOSFET或GaN装置不适合作为开关器件。虽然开关特性比IGBT优秀，但电压容许范围比 IGBT低。量产化的Si MOSFET和GaN装置的击穿电压（BV）一般不到650V，拥有超过650V BV的这些器件通常具有超过数百毫 欧的RDS(on)。而且，为了电源系统的安全动作，电源的电压容许范围必须大于输入电压。因此，超过600V的输入电压不 满足Si MOSFET或GaN器件的一般电压容许范围。因此，为了在这些设备中实现高输入电压，需要选择多电平转换器，但是需要 很多开关器件，复杂的控制系统和制造成本会剧增。 
+
+但是，SiC MOSFET可以满足高开关速度和高BV的要求。SiC MOSFET的这些优点的器件特性，由于高开关速度和高BV 实现的高输入电压的应用，结果是通过使用更小功率变压器，可以实现高转换效率的功率LLC dc/dc的小型化。在本应用笔记中，将说明构成（Figure 1）具备绝缘变压器的三相输出电路LLC dc/dc，且采用具有1200V BV的SiC MOSFET的优点。根据最大超过200kHz的开关频率，一般占电源大容量的绝缘变压器的尺寸被大幅度小型化，高BV可以实现 600V～800V的高输入电压，三相输出电路构成可以减少电路的最大电流，改善功率转换效率。而且，变压器还增加了平衡三相 电路电流的技术，抑制电路的最大峰值电流。通过这个使输入输出电容器小型化。从下一章开始介绍电路动作的详细说明和实机验 证结果。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyq7r9JhOn5ITLcyLExz7icsj1Se89zicU9k9qKxQdAiboJO5ayO6WUf7hng/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyq4ic0mm9DW2jrObdcjxK3GpXDTmicBMTZu3kh2Chs0NekiaqIVQDYMZ44Q/640?wx_fmt=png&from=appmsg)
+
+**动作原理与电路结构**
+
+ 图2(a)所示为LLC dc/dc的基本电路。LLC电路基本上由拥有两个开关Q1和Q2的半桥构成。这些开关是谐振电感Lr、绝缘变压器 的励磁电感Lm以及谐振电容器Cr串联连接的，这些无源部件作为谐振池构成的交错型电路构成图。
+
+Q1和Q2以约50%的占空比交替切换，Q1和Q2双方的关断时的死区时间是为了避免Q1和Q2的短路而设置的，在该死区时间期 间进行软开关动作。
+
+在Figure 3中示出了LLC dc/dc的Q1、Q2中的电压和电流波形。表示QK（k=1，2）中的栅极源电压Vgk、漏极源极电压VQk、漏 极电流IQk、以及二次侧二极管Dok的正向电流IDoK。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqx8BbpaYg0R8PUBWu0uu0b7Klt8Mg02uQgW6wsHWcGxXcUJV7F1tDbw/640?wx_fmt=png&from=appmsg)
+
+以下说明电路的动作方法。 
+
+Term1（t0-t1）：Q2 OFF后开始的期间。VQ2随着（Lm+Lr）和Cr的谐振而增加，直到VQ1达到0为止。
+
+Term2（t1-t2）：当VQ1达到0时，该期间开始。逆电流开始流向Q1的体二极管Do1。ZVS是通过在这个逆电流流动的期间，Q1 变为ON来实现的。（Lm+Lr）和Cr的共振是为了使Do1按顺方向施加电压而在Lm产生电压。
+
+Term3（t2-t3）：IDo1在Lr和Cr之间象谐振一样地开始流动。这个共振增加IDo1，供给电力。 
+
+Term4（t3-t4）：期间4是IQ1从负值变为正值时开始。在此期间，IDo1由于L-Cr共振而自动减少，一直持续到IDo1为0。
+
+Term5（t4-t5）：在此期间，谐振在（Lm+Lr）和Cr之间持续，直到Q1变为OFF为止。 
+
+Term6（t6-t10）：Q1和Q2改变电路内的作用，期间从1开始重复5次。
+
+为了提高效率，采用图2(b)所示的三相LLC结构，各相分别以120度的相位差进行开关。该三相LLC dc/dc，Qj、Doj、Lmj （j＝1-6）以及Lri、Cri（i＝1-3）与图2（a）相同动作。
+
+因为具有完全相同特性的变压器实际上是不可能制造出来的，不平衡的变压器引起的各个相的电流，结果变得不均衡，输出电 容器的电流波动变大。减轻这个不平衡问题的方法，例如在\[21\]和\[22\]中表示，但是需要追加零件。因此，为了避免追加零件，如图 2（b）所示，使Lmbi与并联连接的变压器邻接。这些追加了的变压器，以下称为电流平衡变压器，不过，这个电流平衡变压器起到 使各相的电流均等化的作用，为输入输出电容器Cink，Cok的小型化做出贡献。另外，峰值电流的抑制提供了避免输出电容器可靠性 劣化的方法。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqs0zHpoyH1SApSAQOzP8kYcok0VFicQRwmgR4uw3iaonA7Ub6PPaJPdkA/640?wx_fmt=png&from=appmsg)
+
+各相120度的相移表示如图4所示总电流为零，因此Lmbi无法产生有效的磁通量。因此，Lmbi不影响Lmj、Lri和Cri如何共鸣。
+
+图2所示的二极管Dr将输出功率返回输入侧，输入电源只供给相当于系统的功率损失的功率，与功率转换效率的正确测量相关 。 
+
+在这次的设计事例中，输出电压Vo和输入电压Vin基本相同，因此Vo/Vin定义的增益约为1。增益=1时，可根据考虑到二次泄漏 电感和电阻成分的LLC dc/dc增益方程式，通过开关频率（fsw）进行调整，以获得期望的输出功率，因此可调整Qj的fsw并设置输 出电压。
+
+**变压器的设计**
+
+为了尽可能设计小的变压器，需要注意以下几点。
+
+・在饱和磁通量密度以下动作 
+
+・为了将芯损耗Pcore控制在最小限度，尽量降低动作时的最大磁通量密度 
+
+・为了使电源单元小型化，将一次侧卷数Np和二次侧卷数Ns和有效核心面积Ae缩小
+
+由于在工作中磁通量密度直接连接到磁芯损耗Pcore，因此为了进行合适的变压器设计，必须缩小磁通量。占空50%的最大磁通 量密度Bm一般用公式（1）表示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqQ8TnGkrLJWjXZA7ibUtAxahV4vgXlibuN8iax0Cic7aQh3WicuFUcJse7mg/640?wx_fmt=png&from=appmsg)
+
+从该式（1）可知，为了在一定的Vin下减少Bm，必须至少放大fsw、Np、Ae中的一个。但是，把Np或Ae放大的话，会导致变压器 的尺寸变大，所以不能说是为了缩小电源的适当选择。也就是说，通过增加fsw，变压器的尺寸不会变大，Bm会变小，SiC MOSFET 可以满足这个要求。 
+
+这次，将Si IGBT未能实现的约200kHz的fsw设定为600V时，而800V时设定为160kHz。并且，作为变压器的核心材料，选择了 适合电阻率高、涡流损失小的高频fsw的功率铁氧体PC40（TDK制）。该PC40核心材料的饱和磁通密度Bs为100°C时为380mT，在 200kHz动作时降低Pcore，为了不到达Bs，将Bm设定为150mT。结果，选择的核心部件PC40EER28L-Z（TDK制）的有效体积Ve 为6.15cm3。
+
+具体说明600V时的变压器设计。设计所需的参数如下。
+
+1) Vin = 600 V
+
+2) Vo = 600 V 
+
+3）最大Bm=150mT 
+
+4) fsw = 200 kHz 
+
+5) Ae = 0.814 cm2 
+
+根据这些参数一览,从式（1）得出，Np求得30.71回合。为了分散芯材的发热，将2个变压器串联连接，将各个Np设为16个回 合。Ns/Np等于Vo/Vin（＝1），Ns和NP一样是16个回合。Cri值小于100nF以保持电容器的尺寸。因此，如果将fsw设定为约200kHz，则Lri值为6μH以上就足够了。变压器作成后，测量Lr值约12μH。因此，Cr所需的值被计算为约60nF，以创建200kHz的谐振fsw。定义为Lr/Lm的S设定为0.1。因此，串联连接的两个Lmj值设定为120μH。 
+
+表示Si IGBT最多以50kHz动作。在50kHz的fsw中，如果使用之前讨论过的核心材料（PC40EEE57/47-Z），变压器的Ae 和Ve分别为3.44cm2和35.1cm3，在200kHz的开关频率下可以将Ve缩小82%。
+
+ 表1总结了600V和800V时的LLC dc/dc的设计规格一览。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqcw7urYJP3SiaGTarOdgrGqmbv9bUXp7zsmI1UJvSM9670G9GwjlHGzA/640?wx_fmt=png&from=appmsg)
+
+效率与损耗
+
+ 图5为600V设计时的LLC dc/dc的各输出功率的功率转换效率。功率转换效率是根据输入电源在运转中供给的能量的量的使用来 计算的，但是这次提案的电路方式是将输出功率直接向输入侧再生（经由图2所示的二极管Dr），所以Vo等于Vin，其供给的能量的量 可以视为LLC dc/dc的功率损失。
+
+ 电力转换效率的最大值是达到5kW时97.6%。开关频率fsw由于SiC MOSFET的高速开关特性，达到182kHz-217kHz。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqzaQzpPnfEtEicOHTLbP46zBqPsTRlibDTcRJgp77BHInDvk9EBicl1xyw/640?wx_fmt=png&from=appmsg)
+
+图6(a)和(b)是800V的电路设计在Vin变化时，输出功率与功率损耗(Ploss)或功率转换效率ηp的关系。如图6(a)所示，高Vin时Ploss 的增加率会变缓，Ploss值在Vin=600V时不能超过3kW以上、Vin=700V时不能超过4kW以上，否则无法供应功率。 
+
+如图6(b)所示，转换效率也在600V时难以达到97%，因为最大只能达到3kW；而800V时可达到5kW输出，此时转换效率达到 98.1%，这均是现实中的功率损耗。
+
+只不过这里所示的600V时的转换效率所使用的是设计电压800V的变圧器，如果是设计电压600V的变圧器，功率转换效率可达 到5kW 97.6%。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqo9g32oF3H48k0Ca7j1yeMfibgsaw4u6tGVHa2xHbRj9wiaXpAEk7FNSA/640?wx_fmt=png&from=appmsg)
+
+**各部分的开关波形** 
+
+图7所示是SiC MOSFET Q1的漏-源间电圧VDS和漏极电流ID的测定波形。图(a)为设计电压600V， (b)为设计电压800V。开关频 率方面，(a)是约200kHz、(b)是约160kHz。此外，VDS在ID负侧流动的非常短的时间内变化完成，不管是哪个波形都可以较容易地 理解ZVS动作情况。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqCicOCUmcjg70sc9Mqfs3Zl5KV5JLc0DQ31qet8HAytUUw6uPwW4eBwQ/640?wx_fmt=png&from=appmsg)图8和图9所示的是有无电流平衡电路两种情况下输出二极管电流的差别，图8是设计电压600V时，(a)､(b)是各相二次侧二极管 电流，其中(a)无电流平衡电路，(b)有电流平衡电路。图(c),(d)是各相二极管合计的总电流，即输出电容Co1、Co2中流过的纹波电流。图9是设计电压800V的波形，内容与图8相同。 
+
+不管是哪种情况，只要没有电流平衡电路，每一相电流或小或大，电流都是不均衡供应的。另一方面，加上电流平衡电路后， 各相电流会变得近似均等。纹波电流的peak-to-peak值ΔIripple在不均衡的情况为图8(c)的最大6.45Ap-p，和图9(c)的最大6.46Ap-p， 加上电流平衡电路后则为图8(d)的4.31Ap-p，和图9(d)的3.75Ap-p，均降低到３分之2以下。
+
+如式(2)所示，Cm是指输入静电容量Cin或输出静电容量Co的最小值。由此式可知，ΔIripple越小，Cin或Co会跟着变小，从结果上来 看，这与产品小型化相关联。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqGF9qvUg9VB5HSkef8eicE7pIic3FibCLjblibLJrKbL6QRicnnRtCF029NA/640?wx_fmt=png&from=appmsg)
+
+式(2)中ΔVripple表示电容电圧peak-to-peak值的最大值，Ton表示Qi的启动时间。将ΔVripple的数值设定为与通常印加电圧成一定比 率，比如0.1%，即设计电压600V时纹波电压0.6V，或设计电压800V时纹波电压0.8V，再根据前面的ΔIripple值来计算Cm，可得电流 不均衡的情况下600V时为29.5μF、800V时为25.5μF，电流均衡的情况下600V时为19.7μF、800V时为14.8μF，各电圧情况下电流 均衡后输出电容的静电容量均减半。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyq4AmcW9IibsubCsMbXcbwuxmof195xrkibh8jt011IDWtSemj2qpKCHzA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqeVozPExWdSbMYF0nhg14z2q4aYFrJM9NKQeP0hX2qbM4w5ic8voHtiaA/640?wx_fmt=png&from=appmsg)
+
+损耗分析
+
+ 图10所示的是5kW输出功率时使用了SiC MOSFET的LLC dc/dc的损耗详情。图(a)是600V、图(b)是800V时的情况。
+
+首先是晶体管的导通损耗（ID 2 \*RDS(ON)），所用的SiC MOSFET的导通电阻RDS(ON)随结温Tj而变化。这次评价中MOSFET安装了 散热片并使用冷却风扇来增强散热，Tj上升到50℃左右就停止上升了。于是，Tj=50℃时RDS(ON)约90mΩ，Vin=600V情况下SiC MOSFET的漏极电流ID为4.5A、Vin=800V时的ID为3.75A，那么用晶体管的导通损耗（ID 2 \*RDS(ON)）乘以使用数量(6個)，就可求得所 用SiC MOSFET总损耗，结果为600V时10.9W、800V时7.59W。然后是二次侧二极管的导通损耗，平均电流在600V时为2.94A，顺 方向电圧为1.1V、而800V时电流为2.62A、电压为1.05V，再乘以使用数量(6個)可求得总损耗，结果为600Ｖ时19.4W、800V时16.5W。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqkAg6ce3Gh2UW0AvcaViauwbHiahSHd0owqPSibdLWlNCQwiarBrbraGXIA/640?wx_fmt=png&from=appmsg)
+
+接下来是所用变圧器的导通损耗（铜损），卷线铜的总电阻有着频率特性，600V且开关频率183kHz时电阻为1.66Ω、800V且 160kHz时电阻为1.21Ω。变圧器所流过电流的有效值是600V时6.08Arms、800V时4.83Arms，变圧器的铜损为600V时61.4W、800V 时28.2W。800V时铜损大幅度减少，这是因为相同输出功率的情况下，输出电圧为较高的800V时，输出电流会变小所致。
+
+ 此外，变圧器方面还有另一个较大的损耗，即core损耗是按照下面的方式来计算的。首先，600V时，式(1)Ae=0.814cm3、Np=16 次、fsw=182.9kHz、以及串联的变圧器的各自输入电圧300V，可算得Bm为157mT。由这个Bm值，和TDK制PC40EER28L-Z的数据 表所记载的Bm-Core损耗特性可求得损耗值为22.2W。同样，在800V条件下计算，Bm值为181mT，Core损耗为29.5W。
+
+以上损耗值与实测总损耗依然存在差别，差值为600V时3.2W、800V时12.2W，这些损耗主要包含SiC MOSFET开关损耗，以及 电流平衡变圧器的core损耗、输入输出电容的ESR损耗等。
+
+最后是600V时与800V时的损耗结构比，如图11所示。由于使用了SiC MOSFET，导通损耗仅占全体的10%左右，变圧器的总损 耗（铜损＋Core损耗）在600V时占全体的约58%、800V时占约83%，于是如何降低变圧器的损耗就成为了今后的课题。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqRcewtE2SMnmBicoh29CxzhyNJd1t8dYrNqwM4ib8KcprRGOqiaO8Kg46Q/640?wx_fmt=png&from=appmsg)
+
+**总结** 
+
+使用了SiC MOSFET的三相5kW LLC dc/dc转换器，其开关频率在600V时可达约200kHz，于是可以实现绝缘变压器体积的大幅 削减，这是Si IGBT所无法实现的。而且SiC MOSFET的BV较高，可应对800V的高电压Vin。
+
+另一方面，三相结构的每１相的电流会有所减少，LLC dc/dc可维持较高的功率转换效率，避免高频下开关损耗增加。而且，由 于为了维持各相间的相电流平衡而追加了电流平衡变圧器，这也可以抑制电路峰值电流，从而抑制电流纹波、这有助于实现Cin和Co 最小化的电路方式。
+
+请在电路设计中灵活参考这些电路事例。
+
+**■电路图(Schematics)**![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqqAUSV8CoFeGVicMBic3kTSMiapTmicgmUbtfJ1fPQqfnySAOP6LLOyLYUQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqia9BWtO4KxvajNlZfqkBe28osb0t2e4DmVdNT1ez8fv0hf1Zficr9lUQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskN1iaqVCOCgRqmav2sCNXyqufK6dS75fBtSChDDian3U1D6uiamwp05E5v9vxJuMABdBkKUMU0gtUibQ/640?wx_fmt=png&from=appmsg)
+
+文章来源：罗姆半导体（ROHM)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

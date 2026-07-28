@@ -1,0 +1,143 @@
+# 基于 SiC MOSFET 逆变器电动汽车永磁同步电机新型串扰抑制研究
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/4wf6S5Sq6lzb9C3nUC8Ssg](https://mp.weixin.qq.com/s/4wf6S5Sq6lzb9C3nUC8Ssg)
+
+文章来源：萍乡学院学报
+
+作者:马桂芳，张铭，蔡小伟（龙岩学院 物理与机电工程学院，福建 龙岩 364012）
+
+摘 要：随着电动汽车的发展，SiC MOSFET 逆变器在永磁同步电机控制系统中的应用愈发广泛，但桥臂串扰问题严重影响了该系统的性能与可靠性。课题组深入剖析了串扰产生机制，推导出了串扰电压峰值计算的闭合解，分析了现有多种主流串扰抑制方案的技术缺陷，设计了一种具有新型架构特征的干扰抑制电路。经仿真与实验测试双重验证，该方案可减小10% ~ 61.2%的串扰电压，有效提升了系统的稳定性，可为电动汽车动力系统优化提供关键技术支持。  
+  
+
+关键词：SiC MOSFET；串扰抑制；新型串扰抑制电路
+
+0. 引言  
+
+近年来，以碳化硅（Silicon Carbide，SiC）MOSFET 作为宽禁带半导体器件的典型代表，因其具备高频开关特性、快速响应能力以及优异的热传导性能，在开发高频、高温、高功率密度电力电子转换装置时已成为关键选择。值得注意的是，随着SiC MOSFET 开关速率的持续提高，桥式电路结构中寄生参数带来的负面影响日益显著，由此产生的串扰问题变得尤为突出。这类器件本身具有正向阈值电压偏低、负向耐受电压范围较窄的固有特点，使得串扰引起的正负向电压脉冲容易导致开关管异常导通或栅源极绝缘击穿，不仅会增加系统的能量损耗，极端情况下还可能造成器件不可逆的损坏。 
+
+在新能源汽车动力总成技术中，永磁同步电机（Permanent Magnet Synchronous Motor，PMSM）因其卓越的能效表现和紧凑的结构设计，被广泛作为主要驱动单元。在该类型电机的控制方法中，空间矢量脉宽调制（Space Vector Pulse Width Modulation，SVPWM）技术作为变流器控制的关键技术备受关注。其基本原理在于利用变流器输出端空间电压矢量的动态组合与切换，形成近似圆形的旋转磁场，进而在开关频率相对较低的运行条件下，促使电机定子绕组产生三相相位差为120°电角度、波形畸变较小的正弦电流。但需要指出的是，采用SVPWM调制方案的电机驱动系统在运行期间不可避免地会出现共模电压的高频分量，由此引发的共模电流不仅会对电机本体造成损害，还会经由系统寄生参数（包括分布电容和杂散电感）构成耦合通道，与电机外壳或接地系统形成闭合回路，最终导致高频泄漏电流的产生。这类高频泄漏电流所导致的传导干扰是PMSM 控制系统电磁干扰（Electromagnetic Interference，EMI）的主导诱因之一。SiC MOSFET逆变器因其出色的电气特性，不仅能显著提升电机控制系统性能，还能满足电动汽车对高功率密度和高效率的需求。然而，在20 kHz及以上高频工作条件下，采用SiC MOSFET 构建的电机控制系统，其产生的电磁干扰强度明显超过使用传统硅基功率器件的同类系统。SiC MOSFET 的高速开关特性致使桥臂串扰问题凸显，严重时可导致桥臂直通、器件损坏，极大地威胁系统的可靠性与稳定性。因此，研究有效抑制串扰对推动电动汽车发展至关重要。 
+
+为了解决SiC MOSFET 在高压高频工作条件下的桥臂串扰问题，课题组提出了一种创新性的桥臂串扰抑制方案。通过仿真与实物实验相结合的方式，将新方案与传统抑制方法进行系统对比，实验数据充分证明了该设计的优越性能。  
+
+1\. SiC MOSFET 桥臂串扰原理  
+
+1.1 串扰产生的原因  
+
+SiC MOSFET 的桥臂串扰源于其高速开关过程中寄生参数的影响。由于桥臂中的开关管在导通或关断过程中，其米勒电容的充放电效应引发了电压波动，进而通过寄生电感耦合到另一桥臂的开关管，导致误触发或信号干扰，甚至可能导致串扰电压超过安全电压，损坏器件。当处于开通阶段时，漏极电流迅速上升，续流二极管电流下降，二极管反向恢复电流在共源电感上产生正向压降，同时栅漏极寄生电容和漏源极寄生电容快速充电，部分充电电流经驱动回路和栅源极寄生电容，引发栅源极正向电压尖峰和振荡。在器件关断过程中，漏极与源极之间的电势差急剧变化会引发栅漏电容的耦合效应，从而产生干扰电流。这种干扰电流通过栅源极之间的寄生电容作用，最终会形成负向的瞬态电压脉冲。 
+
+在SiC MOSFET 逆变器的驱动电路中，以桥臂上管动作、下管保持关断为例，来研究桥臂串扰的原理。如图1 所示，令桥臂上管、下管分别为Qh、Ql，上、下桥臂的栅源极电压ugsh、ugsl，上、下桥臂的漏源极电压udsh、udsl，米勒电容Cgdh、Cgdl，寄生二极管Dh、Dl，上、下桥臂的漏源极电流idh、idl，负载电流iL，上、下桥臂的驱动电阻Rgh、Rgl。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpONaVR2o51NHbPL0YQ7uGDMib1QIWwBt0aPB0HYc0LemEOfdbQI1ibqOxbqzcJ7pwg8mGq3uic7nTPkLczntziapoqz5mHWUvuvG0s/640?wx_fmt=png&from=appmsg)
+
+开通过程中上管Qh开通可分为四个阶段，具体阶段如下： 
+
+（1）在上管Qh开通前，其驱动电源信号V1由负偏压变成正偏压。Qh 的栅源极电压ugsh 从关断阈值电压开始逐渐上升，在达到开通阈值电压Uth前，两功率管Qh、Ql 处于关断状态，udsh和idh均保持不变，电流通过下管Ql的寄生二极管Dl续流，未对下管Ql产生串扰。 
+
+（2）当上管Qh的栅源极电压升至开通阈值电压Uth 以上时，上管Qh 进入导通状态。自此刻起，idh开始逐渐上升，续流电流idl 则逐渐下降。由于开关管Qh、Ql内部寄生参数的影响，Qh的漏源极电压udsh开始降低。 
+
+（3）上管Qh导通，电流流向下管，上管的漏源极电压udsh快速下降，并对下管Ql的寄生电容Cgdl、Cdsl进行充电。Ql的漏源极电压udsl升高，寄生电容Cgdl、Cdsl的极间电压增加。电压ugsl逐渐上升，产生正向串扰。一旦ugsl 超过导通电压的阈值Uth，将会导致下管Ql误导通。 
+
+（4）上管的漏源极电压udsh下降到导通电压，由于线路寄生参数的存在，下管漏极与源极之间的电势差会产生波动和超调现象，而栅极与源极之间的干扰电压则呈现递减趋势。而当Qh饱和导通时，栅源极电压最终降低到关闭电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOeLDBGAZmKSeLx8uKtnxibZnplPbyjDWFSnYibXMvfqJ8ib1zbz8HyuwnhsawB0srfFnm5lgbG0lmsQicwmS3EhaKSicUaMKSoSL1s/640?wx_fmt=png&from=appmsg)
+
+如图2 所示，Qh 关断过程中，一个桥臂的开启与关闭会产生相反的影响，这个过程也可以分为四 个阶段：  
+
+（1）当上管Qh关断时，Qh的驱动信号V1从正转变为负，栅源极电压ugsh随之减少，但仍低于SiC MOSFET 的阈值电压，因此Qh仍保持开启状态。 
+
+（2）当栅源极电压ugsh 达到可导通的极限时，Qh漏源极电压udsh及其相应的电流idsh会迅速增加。这时，Cdsh和Cgdh会被激活，从而使其进行充电。而当Ql 栅源极电压开始减少时，漏源极电压udsl 也会随之减少。这时，Cdsl和Cgdl会被放电，从而形成反向的idl，随后idl也会迅速增加。 
+
+（3）当下管的漏源极电压降低到寄生体二极管的正向导通电压时，两者之间的电流交换加快，加速寄生电容Cdsl 和Cgdl 的放电过程，导致Ql 栅源极电压ugsl 的升高。如果栅源极电压ugsl 高于SiC MOSFET 栅源极的耐压值，Ql将会受到严重损坏，甚至可能会被击穿。 
+
+（4）当栅源极电压ugsl升高时，Ql漏源极电容Cdsl 会因电压变化产生电荷转移，当ugsl 的电压升高到一定的阈值时，Dl就会开始向上输出电能。当ugsh的电压回落到SiC MOSFET 管导通电压的极限时，Qh就会被完全切断。
+
+1.2 串扰电压的计算 
+
+依据上述分析，串扰电压与寄生电容、电感、电阻以及电压变化率紧密相关。以上桥臂器件的开通与关断对下桥臂器件产生的串扰效应为例进行分析。图1 显示，当高侧上管Qh导通时，会在低侧下管Ql上产生正向干扰：在上桥臂PWM（Pulse Width Modulation ）信号的正向脉冲到来时，上桥臂MOSFET 的驱动电压超过开启阈值，Qh开始导通， 此时低侧二极管与Qh进行电流转换，idh逐渐增加到与负载电流iL 相等，完成换流过程。在此过程中， 高侧漏源极电压udsh呈线性下降趋势，而下桥臂器件Ql 的漏源极电压udsl 则呈现线性上升特性。由于udsl的快速变化，寄生电容Cgdl会产生igdl\=Cgdldugdl/dt 的位移电流，该电流分别流向驱动电阻Rgl和低侧栅源电容Cgsl，造成栅源电压ugsl 被拉高，当udsl 超过开启阈值时，就会导致Ql出现意外导通现象。电流为：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOOaqK8Tp68fDlAGict2oFKBibZhdNyw5I6nTNWr8MKR6ic5vIicrXY2E6ia42XiaiaMDGsChhhfRUNa2zk7Q8hgc0hRVQMyhRFibY9icqU/640?wx_fmt=png&from=appmsg)
+
+联立式(1)和式(2)得式(3)。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNj9m0jmf5KO6j2jZ4QM5T7rZvTVJ8clrlNgMvGTHia6YCzcXZN8ickk7mj9OqxibggIJ0n5XKPZQKaOxnlwUnexibIcDIxGt31UqE/640?wx_fmt=png&from=appmsg)
+
+由式(3)可知，串扰电压与漏源极电压的波动速率存在直接关联，在功率器件开启和关闭的过渡阶段，漏源极电压呈现近似线性的变化趋势。基于这一特性，可以引入电压变化速率参数k\=dugdl/dt进行量化分析。当漏源极电压完成线性变化阶段，幅值上升至直流母线电压Udc时，串扰电压将达到峰值状态。此时对应的时间参数可通过t\=Udc/k公式计算得出。若k值趋向于无限增大，则最大正向串扰电压的表达式可简化为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNRqduwoiazZcVJKWiaxdQwYf4kaKKEemeh4nFhdMnicNmhoKxibibWXiaNtSiblGP2hjuzKHiaAluSGOT6jy28X01wTCic82XicdAUYf8Yo/640?wx_fmt=png&from=appmsg)
+
+通过基尔霍夫电流定律（KCL）和基尔霍夫电压定律（KVL）推导得出：串扰电压与漏源极电压变化率成正比，且在漏源极电压变化时间结束时达到最大值；负向串扰电压的计算原理与之类似，其最大值与正向串扰电压大小相等、方向相反。
+
+2. 新型串扰抑制电路设计  
+
+2.1 电路结构 
+
+串扰抑制技术可划分为被动式抑制与主动式抑制两种类型。在被动式抑制方案中，通常采用提高驱动电阻值或在栅源极间附加电容的方法，然而这类技术可能引起开关损耗上升或开关速率下降。主动式抑制又可细分为两种实现途径：第一种方案利用附加电路预先设定特定电压值来抑制串扰，但该方案面临电路设计复杂、开关过程中串扰极性判断困难等挑战。以文献\[9\]为例，其研发的高速负压驱动装置结合电平转换功能，通过负压调节与米勒效应钳位的协同作用实现串扰抑制。第二种方案则是在桥臂串扰产生的关键时段，通过增设辅助电路在栅源极间接入大容量电容来抑制桥臂串扰，但此方法往往需要增加额外的控制信号，导致驱动控制系统的设计复杂度显著提高。
+
+新型串扰抑制电路在传统电路基础上创新，使用了一种高效的辅助MOSFET 来降低串扰。如图3所示，当上桥臂的SiC MOSFET 被启动时，下桥臂的辅助MOS 管被激活。根据桥臂串扰原理，当Qh被激活时，Ql 的栅极之间就会出现正向的串扰，而这时，辅助MOS 管M2 的作用就变成了降低SiC MOSFET 的栅源极电压，避免下管Ql 误导通。当Qh 被关断时，Ql 栅源电容Cgsl会放电，而此时，辅助MOS 管仍然在导通，从而使栅源之间的电流被抑制，形成一个较为稳定的电流回路，从而有效地抑制栅源之间的电流，且栅极电位保持在一个安全的电位水平，从而避免出现负向串扰。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM8wprmfrWJE2bxV96XhCuBF6tJ8RrmgaesLzPKiaNaCIsiao2WSTX2lJteKbdCb7bTtLdhvv7pGiaa8ot2CEqlJ7D2kyGu3Ivk0E/640?wx_fmt=png&from=appmsg)
+
+2.2 工作原理 
+
+在应对正向串扰问题时，当上桥臂功率管开启时，下桥臂器件Ql的漏源极间电势差呈现线性增长趋势。这一过程中，寄生电流会流经栅源极间电容，导致栅极电位被抬高。一旦栅源极间电压超过0.7 V阈值，PNP 型三极管便会导通，此时辅助电容被接入电路，与栅源极电容形成并联网络。通过提升栅源极等效电容值的方式，有效抑制了正向串扰产生的电压尖峰。
+
+对于负向串扰的抑制机制，当上桥臂器件关闭时，下桥臂Ql的漏源极电压呈现线性下降特性。此时寄生电流方向发生反转，导致栅极电位降低。当栅源极间电压降至–0.7 V 以下时，PNP 三极管进入截止状态，辅助电容通过二极管形成续流通路，将栅极电位稳定在特定水平，防止其持续下降，从而实现对负向串扰的可靠抑制。  
+
+3. 仿真实验验证  
+
+3.1 仿真分析 
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpM5ZR9ia9sicPYqibSNoica0PyThQf7GaDOJ1m7lOk74fnOF8fmJZM8Z3YumJBNOPqXAwQXfghGezqkCXbODFdsMx3kv2EK6EQU3vI/640?wx_fmt=png&from=appmsg)
+
+利用LTspice 仿真软件对新型串扰抑制电路进行仿真。仿真模型中SiC MOSFET 器件采用Cree 公司网站所提供的C3M0065090D 模型，设置直流电压为100 V/600 V，电流为5~30A，驱动电压为–4 V/+20 V。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMKseGMaV3ffKY0tlOTibrWSQcYXzFmq0G87jfycWq5IloJpsMVds1U6hGtwE4v3NiaNMUEZVcA5xTibG5aEPbdcFGaXI0xYjASF4/640?wx_fmt=png&from=appmsg)
+
+如图4 至图6 仿真结果表明，该创新性串扰抑制方案能够在多种直流工作电压条件下运行，既能有效维持开关器件的动态响应特性，又可将正向串扰和负向串扰的峰值电压严格限制在预设的安全范围之内。相比无源抑制电路和有源抑制电路，新型电路的抑制效果更为显著，验证了其理论设计的有效性。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNbia2I6RBmkpn4MN0azGpFGpPzbrkgKKdIyJ0icdVesNxSxKpcddjj5icxoCbhicYh38vynCsJ2Vv3XE1HTTqGgL8iaibjgmAmZchAI/640?wx_fmt=png&from=appmsg)
+
+ 根据图4 至图6 的仿真结果整理出表1 的数据。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMOaty6U4gCcpecDiaiaMqbRcfp42cr1Wpnao2ic7Rzzrr0FsN5A6ZVskJEde6D06CHHK7123hqsJor71RKGHCxqvOST9P1z7biboQ/640?wx_fmt=png&from=appmsg)
+
+根据表1 可以发现，无源抑制电路对正向串扰电压的抑制较大，而对负向串扰电压的抑制效果不太明显，但是无源抑制会导致电路的开关频率降低，从而增加开关损耗。相反，有源抑制电路对负向串扰抑制效果较好，而对正向串扰不太好。新型抑制电路，虽然增加了辅助的MOS 管，但抑制正负向串扰的效果都非常明显。
+
+3.2 实验验证 
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpN5eYd7XBlDibfRSd8kLaCNCXFSYJHIdTOdLVohYUylkDyGJxpJBqqg0agQ2g8wWq7ym5BTo4KM8JAYyia4gOJhTeF5ia6ktTiaZQM/640?wx_fmt=png&from=appmsg)
+
+为了验证改进抑制串扰驱动电路的有效性，本文搭建基于GDsicsemi 公司SiC MOSFET 器件C3M0032120K 的桥式电路实验平台，对SiC MOSFET 在两电平变换器样机上进行双脉冲试验，平台见图7。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPEiafnibrHsfNfeQHJsYpRdA1cWTGRaYAZuAvE1cocHdBOBIFkWhZ1tRf5MweibmqRWRXDib6G3iaUtPLcDpBm55icpdS6EiaU06dSb4/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMzJMMuDgd1mRibOkCbXhRXJ1Z0sVnjIZribpnzrouibsQlZsPqb4teYfWiciclrQJ13kIV41Ydh7jCSc6Afoe7MIZW63ambUayn4ro/640?wx_fmt=png&from=appmsg)
+
+实验选取直流母线电压值200 V 及开关频率值20 kHz 这一典型的运行工况下，将常规负压关断型串扰抑制系统、并联电容型串扰抑制系统及本文提出的串扰抑制系统进行对比，在相同条件下对各系统串扰抑制效果进行测试记录，测试结果如图8 至图10 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpML1OIJj8C8QDxAQJN1OTAlkc7uB46DsyzCib40RNeqz5IQbibXNr1baMwPMyGUEBHMaDDqhCfxuzfDESqMAqsFBR6p4icu7tpGiaQ/640?wx_fmt=png&from=appmsg)
+
+从表2 实验数据比较可以看出：新型抑制电路可以在不增加开关损耗的同时，呈现出良好的串扰抑制效果。相比传统抑制串扰驱动设计，新型串扰抑制电路可减小10%~61.2%的串扰电压，有效降低了开关延时与损耗，且随着驱动电阻、输入电压、负载电流增大，降低SiC MOSFET 开关损耗的效果更明显，进一步说明所提方法在抑制串扰和提高开关特性方面更具优势。
+
+4. 结论  
+
+SiC MOSFET 逆变器在电动汽车永磁同步电机控制系统中具有广阔应用前景，而新型串扰抑制电路通过独特的结构设计，在理论分析、仿真及实验验证中均表现出对正负向串扰的良好抑制效果，且不增加开关损耗，有效提升了系统的可靠性和稳定性。随着电动汽车技术的不断发展，我们将对串扰抑制技术的研究持续深入，进一步优化电路设计，提升电动汽车动力系统性能。
+
+注明：  
+
+【版权声明】：本公众号平台注明来源或转载的文章，版权归原作者及原出处所有，仅供大家学习参考之用，若来源标注错误或侵犯到您的权利，烦请告知，我们将立即改正或删除。
+
+【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpNLib13MQibOzrbjwyGK0q1spGlKibPeyLZxE0sqo4ku1bOISbFrysgBMyoNwCL1Yic0FxCpk6maiakJflJxeQdsbtqymHKaiax7SvZg/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOSQDpCdBm0PI4icrR77QJTG0WZSdaziajTpjYiaia7icOtK138seuyPkbc4icT4ibEfTo43QGjOGgBeMTpiba64C8lCPoQ4kCcUicpIO5U/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPnO5Yd0flwhBRLjZKLc9oY6mqohltvEYo4DDveibEx1AYNjkLiciazPicYkicAlcZlrWzoYCLhIp31lOOKKkHibYHjKCDlx1DFrxTzk/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP1Kl5KbJkibiangUN1W1niaGtylmkxvw0CVibeFh8JDjdNMnxxknFIJQJT7cRUI6kWfsYGXZeFCOEKrevjNXgxS1k8Dlef1WHVOmM/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)

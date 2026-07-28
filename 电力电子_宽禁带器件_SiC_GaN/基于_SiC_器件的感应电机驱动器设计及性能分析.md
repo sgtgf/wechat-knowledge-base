@@ -1,0 +1,147 @@
+# 基于 SiC 器件的感应电机驱动器设计及性能分析
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/mI0iEByBEJIr1ekBNERosQ](https://mp.weixin.qq.com/s/mI0iEByBEJIr1ekBNERosQ)
+
+文章来源：电气传动
+
+作者：何泽宇，刘鑫，刘洋，赵金（华中科技大学 人工智能与自动化学院，湖北 武汉 430074）
+
+摘要：对于感应电机系统而言，功率器件的开关频率是制约其电流环带宽的重要因素之一。传统硅基器件受开关损耗等因素的限制，开关频率已经接近瓶颈。碳化硅（SiC）器件作为第三代半导体器件，具有低损耗、高耐温、高开关速度等优良特性，可以大幅提高功率变换器的开关频率。针对 SiC 器件电机驱动器进行了设计与研究，首先分析了 PWM 延时对于电机控制系统电流环带宽的影响，之后对 SiC 电机驱动器的控制结构、驱动电路等进行了设计与验证，最后通过实验验证了 SiC 驱动器的性能。随着开关频率的提高，电机控制系统的电流环控制性能不断提升，从而为控制系统提供了较大的电流环带宽裕度。
+
+关键词：碳化硅；高频；感应电机；电流环带宽；高速
+
+电力电子功率半导体器件是电机驱动系统的重要组成部分，是决定其性能和可靠性的关键因素之一。目前电机驱动器所普遍采用的传统硅器件，其开关速度、开关损耗等性能已经接近其材料允许的极限。近年来，以碳化硅（siliconcarbide，SiC）为代表的第三代半导体器件得到了迅速发展。相比于传统硅器件，SiC 器件具有高耐温、高耐压、高开关频率等特点，拥有巨大的应用前景。但在具体应用中，仍然在驱动、保护和控制方面存在一些问题，是目前的研究热点。
+
+SiC 器件应用于电机控制系统，可以实现高开关频率，间接提高了系统的控制频率，由此可以提高电流环的控制性能。SiC 器件与 IGBT 等器件的开关特性、驱动以及性能测试方面存在较大不同。文献\[3-4\]对 SiC 器件的建模进行研究 ，建立了考虑寄生参数因素的SiC 器件暂态模型；文献\[5-6\]对 SiC 的双脉冲测试进行研究，从寄生参数、测量仪器和测量方法等方面总结了 SiC 器件双脉冲 测试的特点与方法 ；文献 \[7-8\]对 SiC 器件的驱动电路进行研究，分析和验证了不同驱动回路参数对 SiC 器件开关过程的影响；文献\[9\]对 SiC 器件的短路特性进行研究，分析了 SiC 器件的短路故障机理，确定了 SiC 器件的短 路安全工作区。虽然已有大量文献对 SiC器件应用进行了研究，但对于实际电机驱动系统中 SiC 对电机电流环性能提升缺乏定量分析和比较。
+
+电流环控制性能在感应电机矢量控制系统中占有非常重要的地位，电流环控制性能的提高可以提高转矩响应，降低转矩脉动，从而提升电机系统的控制精度。电流环带宽制约因素主要包括逆变器的开关频率以及 A/D 采样延时、计算处理延时和 PWM 更新延时在内的数字延时。文献\[11\]通过改进电流采样与 PWM 更新时序，在1 个载波周期内实现 2 次电流采样和 PWM 占空比更新，缩短了电流环控制周期，提高了电流环动态响应能力。文献\[12\]利用 FPGA 的逻辑运算与数字计算能力，缩短了采样运算的数字延时并实现了采样运算后 PWM 占空比的即时更新，使系统延时接近理论最小，实现了电流环带宽扩展。但是以上文献均是在不改变开关频率的前提下对电流环带宽进行扩展。
+
+本文首先从理论上分析了系统延时对电机电流环控制性能的影响，指出了 PWM 频率提升对系统性能的改善。 进一步，采用 CREE 公司CCS050M12CM2 型号SiC 器件作为核心功率器件，以 TMS320F28M35 作为主控制器，设计和研制了基于 SiC MOSFET 的感应电机驱动系统，可以将开关频率由传统硅器件的 10 kHz 提升至 60kHz 以上。最后，在不同开关频率下对系统电流环控制性能进行了实验验证，对实验结果进行了对比与分析，得出了实验结论。
+
+1 电流环带宽特性分析  
+
+对于电压型逆变器控制的感应电机，有：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKLsuHQbklqj0kR0picNx6YP03micbZ3u7Gv6j8XXSjjrYickFLRBicI4Kpvw/640?wx_fmt=png&from=appmsg)
+
+式中：Rs 为定子电阻；Ls 为定子电感；σ 为漏感系数；ωs为同步旋转坐标系角速度；isd，isq为 d，q 轴定子电流；usd，usq为 d，q 轴定子电压；Ψrd，Ψrq为 d，q 轴转子磁通。
+
+在转子磁场定向的矢量控制系统中，Ψrq 为 0，若把式（1）中的 d，q 轴交叉耦合部分看作扰动，在低速下电流环控制对象方程可简化为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKLwnrV4WjzbvrKtZlM2qd3ibl6TZQAEP3dyKCScup4yYR4biaq24xB874Q/640?wx_fmt=png&from=appmsg)
+
+由此 ，感应电机可以近似地等效为三相阻感网络。将 PWM 延时环节以惯性环节近似，得到如 图 1 所示 感 应 电 机 电 流 环 控 制 结 构 。 其中，kp 为 PI 调节器的比例系数；Ti 为 PI 调节器的积分 时 间 常 数 ；i\*dq 为 d，q 轴设 定 电 流 ；idq 为 d，q轴采样电流；Td 为控制环路总延时。在单次采样单次更新模式下，有 Td = 1.5Tp，Tp为 PWM 周期。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKLVwJBIBYoK11ImnCChbkicCjrRnVPOLySfian4qwWQcc8Aib7VdBCHbibyw/640?wx_fmt=png&from=appmsg)
+
+为了消除大惯性环节对系统的延时影响，提高电流环的响应能力，取 T = Ls /Rs，T 为电机电枢回路时间常数；K = 1 /Rs，K为电机电枢回路的增益系数，工程上一般取阻尼系数为 0.707，整定后有：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKLM2GIIxVmQIwdia77iautYhb9icLhsU7NtkoGKkdia06HUugyH4YiajibcUog/640?wx_fmt=png&from=appmsg)
+
+由此系统闭环传递函数为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKLoHwprNEZJGfDpX4Ec4yfOOmhe2ibsHTjmA6GZlg0ETCiaiaunkekl006g/640?wx_fmt=png&from=appmsg)
+
+将系统幅频特性下降到 -3 dB 时所 对 应 的频率与相频特性滞后 45°时所对应的频率相比，其中较低的为系统的截止频率，即电流环的带宽。利用 Matlab 求解式（4）传递函数在不同 Tp 参数下的幅频特性曲线和相频特性曲线，并由此求得如图 2 所示幅值衰减 -3 dB 以及相位滞后45°时的截止频率变化曲线。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKL3kyjSLGv9JZz89WXITPEqGFibsdIqicicI3iaLjv6OEP5eFvwiaMGv5IyBQ/640?wx_fmt=png&from=appmsg)
+
+根据图 2 可知，相位滞后 45°的截止频率和幅值衰减-3 dB 的截止频率均与 Tp 成近似反比，并且本系统的带宽 ωcb应取较低的相位滞后 45°对应的截止频率。由此，增大开关频率会提高系统截止频率，从而实现更好的电流动态调节。
+
+对于转子磁链定向的感应电机控制系统，当转速提高、电流频率增加时，d，q 轴耦合加深，从而导致 d，q 轴电流环控制性能下降。通过提高电机驱动器的开关频率，可以显著提高电流环的带宽，从而增加电机电流环控制的带宽裕度，满足电机在高速下的电流环控制性能。
+
+2 控制系统设计
+
+2.1 电机控制算法
+
+目前感应电机高性能控制领域较为成熟的控制方法主要包括基于动态模型的矢量控制以及直接转矩控制，在两种基本的电机动态模型控制方法的基础上，采用解耦后的线性控制、非线性控制以及智能控制等方法可以构成高性能的控制系统。
+
+本文主要针对 SiC 器件对交流电机驱动器的性能影响进行研究，为了突出 SiC 功率器件高开关频率的特点，忽略复杂控制算法本身的变化因素对性能的影响，采用成熟的基于转子磁链定向的矢量控制算法作为控制方案，这也是目前主流感应电机驱动产品的控制方案，其控制结构如图3 所示。本文着重研究电机控制系统中电流环的控制性能。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKLsnUlaRzwcVf8v7RSDiaGta9Hf6icDmHe6gmpdeMSxxXGPhDAc6pHz6dA/640?wx_fmt=png&from=appmsg)
+
+2.2 控制系统硬件设计
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKLMQiaib6CVibBDtBqd5icFicTNX7e9BY5Nup8gz0iacx5URRicXmma1d4B0jRg/640?wx_fmt=png&from=appmsg)
+
+基于 SiC 器件的感应电机驱动系统的总体结构如图 4 所示，主要包括控制电路、驱动电路、功率电路以及传感器。
+
+系统器件选型如表 1 所示。主控制器采用 TI公司 TMS320F28M35 双核控制 器 ，包含 Cortex-M3 以及 C28 内核。其中，M3 内核包含丰富的通信外设 接口 ，用于 PC 端调 试 、通信以及人机交互；C28 内核包含浮点数运算单元等运算引擎以及电机控制所需的 ADC，QEP，PWM 等接口，用于电机的高性能闭环控制。主控器件 DSP 内核运行速度高达 150 MHz，A/D 采样速率最快可达 3.5Msps，可以在 15 μs 内实现采样与闭环控制，从而满足最高达 60 kHz 的控制与开关频率要求。驱动芯片采用 AVAGO 公司的三代半导体器件专用驱动芯片 ACPL-352J，该芯片具备光耦隔离和器件驱动的功能，驱动电流高达 5 A，传输延时低于150 ns，同时具备短路故障输出和保护的功能。功率 器 件 采 用 CREE 公司 的 CCS050M12CM2 三相全桥模块，该模块为全 SiC 功率器件，额定电压1200 V，额定电流 50 A。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKL5Ym5nwO7zFCkBhHYGAib4uTndcTVZwurtg5Z4IsOE10h9y0ialcpDq5Q/640?wx_fmt=png&from=appmsg)
+
+3 SiC MOSFET 驱动设计与测试
+
+3.1 驱动电路设计
+
+驱动电路是功率变换器的重要组成部分，直接决定了功率变换器的性能。以 ACPL-352J 为核心的驱动电路拓扑结构如图 5 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKLp7VPCH5VvWFVVmsrDribXEX2MoibXgmnZfQ1NQ3GqtPgPuJILqS5ZGaw/640?wx_fmt=png&from=appmsg)
+
+隔离驱动芯片外围电路如图 6 所示。其中VOUTP 与 VOUTN 管脚分别用于提供开通和关断时的驱动电流，OC 管脚用于过流/短路保护，SS 管脚用于短路保护软关断。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKLEWwcW6icNaXaCOcusfR1cUibUwMnashIdRtiaO4Lte6NCUaxzBACrGlDQ/640?wx_fmt=png&from=appmsg)
+
+3.2 双脉冲测试
+
+为了测试 SiC 器件以及相应驱动电路的工作性能和相关指标，搭建如图 7 所示双脉冲测试电路。通过双脉冲实验对 SiC 器件的开通、关断过程进行分析，并以此确定开通与关断电阻的阻值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKLgUPxmOT4pCQAReP0VLezI7EicQDINhiaoHMwjKibdRDxmuVyl3slOoibNg/640?wx_fmt=png&from=appmsg)
+
+在双脉冲测试中，上管关断，下管进行 2 次脉冲开关过程，为负载电感 L 充电。测试中，母线电压设置为 400 V，目标电流为 50 A，2 次脉冲总宽度设置为 30 μs，计算得负载电感 L 约为 250μH。母线电容设计为 840 μF，满足电容容值要求，保证母线电压波动小于 1%。双脉冲实验波形如图 8 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKLbQzxpBLOMPzuqfkJefEDsB1PkIDxeOso9UMmt81gOU9eK47gN1Gd5w/640?wx_fmt=png&from=appmsg)
+
+为了在实际工况下选择合适的开通与关断电阻，选取不同开通与关断电阻进行双脉冲测试 ，开通 、关断过程的各项参数如图 9 和图10 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKLvrWc2nWHEyE8R1e6zIjicjvGeAgQRwfN7Cy2cawicTAXdEHtlmlWculA/640?wx_fmt=png&from=appmsg)
+
+根据上述实验，SiC MOSFET 的开关速度与开关过程的过冲存在矛盾。在开通过程中，随着开通电阻的减小，开通速度逐渐增大，但是电流以及电压过冲增大较为明显；在关断过程中，随着关断电阻的减小，关断速度逐渐增大，但是电压过冲增大明显。结合实际控制系统，选取开通电阻为 43 Ω，关断电阻为 20 Ω。
+
+4 物理实验
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKLcyUUQcnD4n7lO8CySJ7uzwvr5xFjHE22607HP8JQlR8TMM8X7SKlmA/640?wx_fmt=png&from=appmsg)
+
+为了验证本文所述电机驱动器的工作性能，搭建如图 11 所示电机控制系统实验平台，并着重对电流环控制性能进行了测试。实验平台中，母线电压设为 530 V，感应电机额定电压 280 V，额定功率 2.2 kW，额定转速 3000 r/min。
+
+为了测试驱动器在不同工作条件下的电流环控 制 性 能 ，分别在开关频率 10 kHz，13 kHz，20 kHz，40 kHz（对应 Tp 为 100 μs，75 μs，50 μs，25 μs）以及转速 0 r/min，3 000 r/min 下对装置进行电流环跟随测试。本文主要针对 q 轴电流进行测试与分析。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKLtqY7FicwbbddTJDFmcBJglmfeaPRuF6ickSvW6qvFJK0L5SIU9xFpyDw/640?wx_fmt=png&from=appmsg)
+
+图 12 所示为不同条件下的电流环跟随效果。其中给定参考信号为频率 500 Hz、幅值 2 A 的正弦信号。由实验结果可知，在不同速度下，开关频率的增大降低了 q 轴电流的跟随延时，提高了电流环控制效果。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKLVN086LoLP94CTryczEsvU23DMFSSuUOg2DRPS7Ip9fngkSwOsGMnsQ/640?wx_fmt=png&from=appmsg)
+
+为了在一定程度上定量比较不同开关频率下电流环的控制性能，通过不同跟随频率的正弦跟随实验得到控制系统的电流环带宽。取闭环幅频响应增益衰减-3 dB 所对应角频率以及相移-45°所对应的角频率最小值作为系统的截止频率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKLInhibHkibt1sKBtv8Wic4EcibTOTaMYf97dM3bQwJ9MPuDhs6mYZuGic4iag/640?wx_fmt=png&from=appmsg)
+
+图 13 和图 14 所示为控制系统在不同工作条件下达到截止频率时的正弦跟随波形；系统截止频率与工作条件的关系如图 15 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn062VbdLaKFsw7VZp4pWKLUj2YVdgUIFDmg75uPslGSFceRXImsROichyu6cqZq5Sja9YiaglChyicA/640?wx_fmt=png&from=appmsg)
+
+由实验数据对比可得，开关频率由 10 kHz 提升至40 kHz时，电流环带宽有较大的提升，在0 r/min与 3000 r/min 转速下，电流环带宽分别由 500 Hz，400 Hz 提升至 1000 Hz，750 Hz，同时，电流波形也有所改善。并且，实验结果也验证了电机转速的提升导致的 d，q 轴耦合加深对电流环控制性能的负面影响。将图 15 中实验数据同图 2 中理论推导数据进行对比可知，实验测得的带宽明显低于理论推导，主要有以下原因：理论推导中为了运算和表达简便，部分环节采用了近似化处理；实际系统与理论系统有所区别，对于实际系统信号采集存在延时、信号转换存在误区、器件开关波形并非方波、开关过程需要死区延时等因素，在理论系统中没有考虑。
+
+根据上述分析及实验，对于电机控制系统，转速提高后，电流环带宽随之下降。由此，在一定范围内，较高的开关频率可以为电机控制系统提供足够的电流环带宽裕度，一定程度上补偿了电机在高速下电流环控制性能下降的问题。以本文图15实验结果为例，电机控制系统在10khz频率下0转速的q轴电流环带宽为500hz,转速上升至额定转速3000r/min时，电流环带宽降至400hz，相同转速下当频率提升至20khz时，电流环带宽则达到了600hz，通过频率的提高，有效弥补了速度增大对电流环控制性能 所带来的影响。
+
+5 结论 
+
+本文分析了PWM延时对于感应电机控制系统电流环带宽的影响，并通过搭建的基于SiC器件的电机驱动系统，对理论分析结果进行了物理试验验证和定量分析。
+
+通过针对实际感应电机控制系统的实验验证及分析，本文所设计的电机驱动器开关频率和控制频率可以提升至40khz以上，电机控制系统电流环的带宽和响应速度得到了有效的提升，从而为电机控制系统提供了较大的电流环带宽裕度，保证了电机在较高速度下的控制性能。通过对上述实验结果的分析可以预见，具有高开关频率性能的SiC驱动器在高速电机领域具有较大的研究价值和应用前景。
+
+但是，电机驱动器的高频化在提高电流环性能的同时，也带来了一定的技术挑战，例如，开关频率的提高使电机的死区效应更加明显，增大了电机驱动器的EMI等等，下一步拟对以上问题进行进一步的研究，更好的发挥宽禁带半导体器件在电机驱动领域的优势和价值。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEkzM4nJZfIC5QgFfribRYKyjbkqtsIt2eIPXkibANybG66UoupfWrOwVw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqEsBrKtVqic7bg0L03u2LcaOD95aUegJVoYxOwib1bEuX4eESgvK7RMrMA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskHjBDlpCGJ8vakgP5fQdqECTcGj3ia0RmTNR8afGnIARTia9BmzdfiadGhabibhxVeBEaUFZX5aHdCew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&watermark=1&tp=webp)

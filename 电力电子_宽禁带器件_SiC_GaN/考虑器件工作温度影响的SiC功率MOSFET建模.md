@@ -1,0 +1,243 @@
+# 考虑器件工作温度影响的SiC功率MOSFET建模
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/FVeIy1xemlR5JvUqm1ZuuQ](https://mp.weixin.qq.com/s/FVeIy1xemlR5JvUqm1ZuuQ)
+
+文章来源：中国电机工程学报
+
+作者：滕咏哮，高强\*，张乾，徐殿国(哈尔滨工业大学电气工程系，黑龙江省哈尔滨市 150001)  
+
+摘要：提出一种基于MATLAB/Simulink的SiC功率MOSFET全工作区变温度参数建模方法。在Si 基横向双扩散MOSFET 模型的基础上，采用与温度相关的电流源和电压源补偿器件漏极电流和阈值电压的变化。通过补充实验拓展SiC功率MOSFET 的饱和区工作特性曲线，并根据SiC功率 MOSFET 的工作特性，采用数学拟合的方法来提取模型参数。在保留各个参数物理意义的同时，摆脱建模过程对物理参数的依赖。在不同电压、电流及温度(25~200℃)的情况下对器件的输出特性、转移特性、阈值电压、导通电阻及开关损耗进行测试，将测试结果与MATLAB/Simulink 模型仿真结果进行性比较。模型仿真结果与实际测试结果一致，开关损耗误差在7%之内，验证了模型的准确性及有效性，为实际应用SiC功率MOSFET时系统性能及损耗分析提供参考依据。
+
+关键词：SiC功率MOSFET；全工作区域；变温度参数模型；MATLAB/Simulink模型
+
+0 引言
+
+碳化硅(silicon carbide，SiC)功率器件因其具有宽禁带、高击穿电场、高热导率和高载流子饱和速率等优点，已成为第三代功率半导体材料的典型代表，特别是SiC功率MOSFET以其高频、耐高温、低导通电阻等优点成为研究的热点。
+
+与硅(silicon，Si)基半导体器件相比，SiC功率MOSFET的通态电阻更低、反向恢复特性更佳，功率器件的开关损耗大幅降低，适用于更高的开关频率。同时，由于SiC功率器件特有的耐高温特性， 使得变换器在高温条件下的稳定性与可靠性大幅提升、功率变换器的结构设计和散热系统设计更加简单，进而为提高变换器的功率密度创造了条件。但由于Si与SiC 材料特性的差异，现有的Si基功率MOSFET模型及建模方法已无法准确表征SiC功率MOSFET的特性。同时，传统的建模方法基本没有考虑器件寄生参数随温度的变化，使之更加难以准确刻画SiC功率MOSFET在高温工作条件下的外部特性。
+
+随着SiC 功率MOSFET大规模商业化，国内外学者在其器件建模方面做了较为深入的研究，并取得了较大进展。文献\[3\]建立了考虑SiC/SiO2 界面陷阱对沟道电子迁移率和沟道电子密度影响的SiC功率MOSFET模型，对低栅极电压下沟道电子迁移率的温度特性做出了解释。文献\[4\]通过仿真描述了SiC/SiO2界面陷阱对器件开通延迟时间以及损耗的影响。文献\[5\]在不同Vgs和Vds的条件下，将漏极电流分为高电流和低电流分量，采用分段函数来模拟器件漏极电流在线性区和饱和区的特性。文献\[6\]通过米勒平台阶段的波形提取米勒电容随Vgd电压变化的规律，同时调节沟道载流子迁移率来实现沟道、漂移区等区域电压之和与Vds相匹配。文献\[7\]采用经验公式提取SiC功率MOSFET的静态 参数，减小了模型对器件物理参数的依赖。文献\[8\]同时考虑了SiC/SiO2 界面陷阱和寄生电阻的影响，建立了宽温度范围SiC功率MOSFET模型，对器件在线性区和饱和区的热稳定性进行描述，解释了不同温度时SiC/SiO2界面陷阱和寄生电阻对器件特性的影响。文献\[9\]由数据手册中提取模型静态参数建立SiC功率MOSFET的行为模型，采用考虑负栅极电压对栅极电容影响的经验方程来描述SiC功率MOSFET寄生电容的非线性。文献\[10\]将SiC功率MOSFET的漏极电流分为常温情况下漏极电流和与温度相关的漏极电流2 部分，以栅极电压为自变量采用分段线性拟合的方式得到饱和区漏极电流和线性区漏源极电压的表达式，进而得到常温情况下的漏极电流；在常温情况下漏极电流的基础上考虑温度对SiC 功率MOSFET 漏极电流的影响， 采用数学表达式进行拟合得到与温度相关的漏极电流，完成SiC功率MOSFET 的建模。文献\[11\]由数据手册中提取器件静态参数，采用数学表达式对器件寄生电容的非线性进行描述，进而建立SiC功率MOSFET 的行为模型。文献\[12\]考虑了寄生参数对SiC功率MOSFET开关特性的影响，采用分段拟合的方式描述器件寄生电容的非线性特性，然后采用微分方程来描述SiC 功率MOSFET 开关过程中各个阶段的电压和电流变化。文献\[13-14\]以-25℃时的测试结果为依据，建立了考虑低温对SiC功率 MOSFET 影响的PSpice 模型，考虑了温度对栅极内部电阻的影响以及负栅极电压对栅源极电容的影响。文献\[15-16\]建立了SiC功率MOSFET的PSpice 等效电路模型，简化了导通电阻和反并联二极管的设计，扩展了模型的适用温度范围。文献\[17\]根据数据手册提供的器件参数，结合有限元仿真提取的寄生参数，建立了SiC 功率MOSFET的开关损耗模型 。文 献 \[18\] 分析了SiC 功率MOSFET的反向导通机理，建立了反向导通模型， 反映了器件在第3 象限工作时的特性。
+
+以上SiC 功率MOSFET 的模型主要分为通过求解物理方程来模拟功率器件特性的物理模型和采用数学拟合的行为模型。物理模型精度较高，每个参数都具有相应的物理意义，但是模型复杂，且模型所需的一些参数很难获得。行为模型忽略了器件的物理机理，结构简单，但模型中参数都没有相应的物理意义，当器件工作条件超过模型拟合条件时，模型精度较低。目前SiC功MOSFET模型大多是基于PSpice仿真软件建立的，虽然PSpice软件的电路仿真精度很高，但不适用于控制算法类的仿真。由于MATLAB/ Simulink仿真软件在控制设计和算法实现等方面的广泛应用，本文将基于MATLAB/Simulink建立SiC功率MOSFET的仿真模型。
+
+本文基于MATLAB/Simulink提出一种SiC 功率MOSFET 的全工作区变温度参数的建模方法。 模型核心单元的建立基于硅基横向双扩散MOSFET 的输出特性分段函数，对于分段函数中的未知参数可采用三维拟合方式获得。针对Si 基横向双扩散MOSFET 与SiC 垂直双扩散MOSFET 在材料和结构上的差异引起的漏极电流差异，采用与温度的相关补偿电流源对其漏极电流进行补偿。为保证模型在宽温度范围内的精度，采用与温度相关的补偿电压源来模拟SiC 功率MOSFET 阈值电压的温度特性。针对模型在全温度范围内精度不够的问题，通过补充实验拓展SiC 功率MOSFET 饱和区工作特性曲线，提高模型在全温度范围内的精度。 该模型属于半物理半行为模型，既保留了参数的物理意义，同时通过曲线拟合的方式摆脱了建模过程对物理参数的依赖。
+
+1 SiC 功率MOSFET模型建立方法
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOjic1ibz2eQm7iaD8TkO8FAzD7Atf7fFRpaPwXmSSW7HZDXC7p5Sl1k4WQ/640?wx_fmt=png&from=appmsg)
+
+本文建模对象为意法半导体公司生产的型号为SCT20N120的SiC功率MOSFET。静态特性测试方案如图1所示，将SiC功率MOSFET放置于加热板上，采用PT100 测得加热板温度作为SiC 功率MOSFET的测试环境温度，通过Agilent B1505A 功率器件测试仪测量不同温度下SiC功率MOSFET的输出特性和转移特性，并从中提取SiC功率MOSFET的通态电阻Ron和阈值电压Vth的温度特性。测试平台如图2 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOWexJp8vxoK531J7QTPfch9XpjMDlzdPHbkP2R3hzsUxeWZEAFhA5Xw/640?wx_fmt=png&from=appmsg)
+
+但Agilent B1505A功率器件测试仪只能够测试SiC功率MOSFET输出特性曲线的线性区部分，无法获得SiC 功率MOSFET饱和区的特性曲线。而SiC功率MOSFET 的开关过程中必然要经过饱和区，而器件处于饱和区时损耗较大。因此，为使SiC功率MOSFET模型更加准确，需要进行补充测试来获得SiC功率MOSFET在饱和区的输出特性和转移特性曲线。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicO24Odo5OYxqnA7xnIPpaiavELGYZGPwILTpmVvoODLFeCpC3U1d8hnEQ/640?wx_fmt=png&from=appmsg)
+
+补充测试方案的原理图如图3 所示。DSP 控制板产生驱动信号，经驱动电路放大后控制SiC功率MOSFET的通断，通过加热台调节SiC功率MOSFET的测试环境温度，测量获得SiC 功率MOSFET 在饱和区内的输出特性曲线和转移特性曲线。
+
+SCT20N120饱和区的漏极电流Id可达近百安培，漏源电压Vds也较高，此时器件损耗很大。因此采用单窄脉冲进行测试来确保器件的安全。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOny3NLEY0fI6BxibMViaYTltjdGfOicpCnrEAK14gqvKvFy73kafpdoibiaw/640?wx_fmt=png&from=appmsg)
+
+补充测试电路主电路如图4 所示。220V交流电经调压器后，经不可控整流电路整流成直流电。采用1500μF/450V 电解电容组作为直流侧电压支撑，提高电路输出的瞬时电流。整流电路的输出端还并联一个10kΩ的电阻，在测试结束后释放电容 存储的能量。
+
+2 SiC 功率MOSFET 模型静态参数提取
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicONoicE3dFDicpQuHmiax3pazZ24QpxhttM8NJ9EXWs8byXXciaEHvrHic2Uw/640?wx_fmt=png&from=appmsg)
+
+SiC 功率MOSFET 的静态模型如图5 所示。
+
+MOS核心单元为Si基横向双扩散MOSFET。采用补偿电流源来弥补Si 基横向双扩散MOSFET 与SiC垂直双扩散MOSFET在材料和结构上的差异引起的漏极电流差异，采用补偿电压源来模拟SiC 功率MOSFET 阈值电压的温度特性。
+
+2.1 MOSFET核心单元参数提取
+
+忽略温度的影响，Si 基横向双扩散MOSFET的静态特性如式(1)—(3)所示。
+
+当Vgs<Vth 时：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOqOCRPJicnT3tvdcg1CYLSeLKjiaoHgumLuz6Yz6QK7KztZyQz0oXMKcA/640?wx_fmt=png&from=appmsg)
+
+式中：W 为导电沟道宽度；L 为导电沟道长度；Kp为器件本征跨导参数；ɑ为耗尽层体电荷对Vds\_sat的影响系数；λ为沟道长度调制系数；Vds\_sat 饱和漏源电压，是线性区与饱和区的分界点。Vds\_sat 的表 达式如式(4)所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOuD6k3ush8Pp1ersUGCVUwLj2ZRe4KPCPB7ic3MZDibSjiayYN7te53YOA/640?wx_fmt=png&from=appmsg)
+
+式(1)—(3)中的一些参数并不能够直接得到，因此在应用式(1)—(3)时，要先确定Kp、ɑ和λ。
+
+根据式(4)可知，要确定的ɑ值，需要先确定饱和漏源电压Vds\_sat，栅源电压Vgs和阈值电压Vth。 其中Vgs 由驱动电路决定，与温度无关。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOHBskejWpnOvX6OBucI7j43nSLLxsVEMnTQm9wHlwvBhl6hqElEECow/640?wx_fmt=png&from=appmsg)
+
+由静态特性测试可以得到阈值电压Vth 随温度变化的曲线如图6 所示，采用多项式拟合的方法可以得到Vth 与温度T 的关系。  
+
+阈值电压Vth与温度T 的关系为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicO5yKVS5jYYUgrV9JXAs4Gy9iaiakGtatQzuAVSRt8RHy5a03XAMJcwiaNg/640?wx_fmt=png&from=appmsg)
+
+饱和漏源电压Vds\_sat 与温度T和栅源电压Vgs有关，可由如图 7 和8 中提取出来。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOaLgicZzdvFtuicAVlYSVfnuQWeXgiauKmvvIFCHyibfNroJJYiafpyv9Pvw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOgeP8ZG1jc297czJYaFDcJRG4eqCYWpvZqE8TA2CnO1eX8QMHFibBccw/640?wx_fmt=png&from=appmsg)
+
+将图7 和8 中的饱和漏源电压Vds\_sat提取出来并进行拟合，可得饱和漏源电压Vds\_sat 关于温度T和栅源电压Vgs的函数，如式(6)所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicODFfH9QdYfVLjFkVJWFmoiaUyVBZduzMFcu4bpiaH39ZCEPBicozaE9FVQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicO8PiaGxeWTjCn5sP3fcBFzibgXjApy69qjILYvHUUU4KSCmknrTFQIxow/640?wx_fmt=png&from=appmsg)
+
+拟合结果如图9 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicO2kO4LVfUmSwapTe8DDOYG6xia9gxPXUOXoUibNOiaficickWuMyxR66fUrg/640?wx_fmt=png&from=appmsg)
+
+最终求得耗尽层体电荷对饱和电压的影响因 数ɑ：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOe2vZyjaQVbv34GL3jo1IgL6tIRXU971icID9NeWCX97kN1oM0DhbQew/640?wx_fmt=png&from=appmsg)
+
+然后确定参数Kp 的表达式。在式(2)和(3)中，W和L可以看做Kp的系数，且W 和L为常量，因此引入参数K，使得
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOJ3yLp6tvvbUX7yyYib4cOoqpW2AY3YbvVB66oKYBajxsc0Cmu7Vepicg/640?wx_fmt=png&from=appmsg)
+
+饱和工作点(Id\_sat,T, Vds\_sat,T)是线性区和饱和区的分界点，将其代入式(2)中可得
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOXgP64deDAMuf519cUfrghaZIZhpZNl8Fz1S1z7Iqib5VSbspCslOpRQ/640?wx_fmt=png&from=appmsg)
+
+式中其它参数已经求得，仅需得到饱和工作点处电流Id\_sat,T即可得到K。
+
+由图7和8可提取饱和工作点处电流Id\_sat,T与温度T和栅源电压Vgs的关系。Id\_sat,T 拟合结果如图10 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOo5kRSmqJ90cfOEAbJvCNwJPHA3xDASEyPMiaLepcqQfWmDwjoXZC8Ag/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOZvI9P5HrRpDiaZ1fMaj3iaS9Wz8LwHuC9y2gd9doART68ibEsqmjdBxLQ/640?wx_fmt=png&from=appmsg)
+
+可得K的表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicONLOicoGkibt9QPica52qbLTCFyoc1mibo8MHqr7R6JnW8k7ib7QeoRxiaYNw/640?wx_fmt=png&from=appmsg)
+
+沟道长度调制系数λ可以根据其物理意义和几何定义，通过作图求出。
+
+定义饱和区输出跨导GDS，如式(12)所示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOiaiaqCLibza9KOLbXVibGKtic6umRFolGykv1W9f2gJavIrT7hEZNBAwa0Q/640?wx_fmt=png&from=appmsg)
+
+在饱和区，漏极电流Id,T为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOSSWFJJje9M0rQ9depWBwRjKlPgmtwKWrYD61BQDTHJssbcic9W86P1A/640?wx_fmt=png&from=appmsg)
+
+饱和工作点处电流Id\_sat,T的表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOXQUia3YpNkZL4xNicBPNm4UImTqEoTqLtYgWNJcKoT1lgzL4bT2LAY9Q/640?wx_fmt=png&from=appmsg)
+
+根据式(12)—(14)可得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOibzXRQkegrEQNfHk74agkUZz0ibpBQX2AHicJgLbicQBHUhNO7pf2bFSGg/640?wx_fmt=png&from=appmsg)
+
+图11 为SiC功率MOSFET的输出特性曲线， 由图可得GDS与λ的几何示意图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOH3Ngr3TK5nMV07gDcckdHx4fTCPurIAa4ibAEicOmsWH0qt4c60qYZVA/640?wx_fmt=png&from=appmsg)
+
+由图11可知：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicORfg7B6WsA5ib1Hm7cziaMswU8uFNQhXsFmn4gWymZfVlksNvsZtE8s2A/640?wx_fmt=png&from=appmsg)
+
+2.2 补偿电源参数提取
+
+补偿电压源的表达式可由25℃下的阈值电压Vth\_25℃和阈值电压随温度变化Vth\_T之差得到。 
+
+Si 基横向双扩散MOSFET 与SiC 垂直双扩散MOSFET在材料和结构上的差异引起的漏极电流差异很难通过精确的解析函数补偿。但MOSFET导电沟道载流子的迁移率与T、栅源电压Vgs 和漏源电压Vds 有关，因此可以采用如式(18)的函数对SiC功率MOSFET的漏极电流进行Id补偿：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOm0GhL8ukajicly9icLlibibGby5QyCgv5oQnU0S7qcicbgusGaJ29CHvsOw/640?wx_fmt=png&from=appmsg)
+
+式中：I’d 为补偿后的漏极电流；Id 为补偿前的漏极电流；f(Vgs)和g(Vgs)为修正函数，可分别从SiC 功率MOSFET 的转移特性曲线和输出特性曲线中提取出来。
+
+3 SiC 功率MOSFET模型动态参数提取
+
+SiC 功率MOSFET 的栅极等效电路如图12所示，图中：Vgs为栅源电压；Rg\_out 为栅极驱动电阻；Rg\_in为栅极寄生电阻；Ig 为驱动电流；Vd 为漏极电势；Cgd和Cgs 分别为栅漏极寄生电容和栅源极寄生电容；Igd 和Igs 分别为流过Cgd 和Cgs的电流；VC\_gs为电容 Cgs 两端电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOBG5upy5AzhibaucicDtTcqnSKpVuDasE1EOHxztKe8eVBDrib73ibeBm3A/640?wx_fmt=png&from=appmsg)
+
+驱动信号Vgs 为窄脉冲信号，可以将其等效为阶跃信号。此时，电容Cgs两端电压VC\_gs可表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOaXMwVicQyh0gASLSc8Px4uoYcubf0Lwiaf4vWsEw0ibKkwDjibib6khx1Hg/640?wx_fmt=png&from=appmsg)
+
+式中τ为时间常数。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOGhj6AuIdIwZcampqFq6TLNawHibDN5fgfDrkKZm0skSQkS3cwmVWicQA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOL1NEIESNSnKR7oh7Z8MhlrRREnNOfSbEvH1kMoaQLjVL4McywTrh8w/640?wx_fmt=png&from=appmsg)
+
+感性负载下SiC 功率MOSFET 的开通过程如图13 所示。t=0时，器件处于关断状态。接收到开通信号后，Cgs 开始充电，经t1秒后电容Cgs 两端电 压VC\_gs 上升到阈值电压Vth，将VC\_gsVth 代入到式(20)中可得
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOC6LyCMNbnibZIXRyiahpfeJHyGtciajfEgYRR0pDicvl1T5MQGoJdBpqZA/640?wx_fmt=png&from=appmsg)
+
+t1后，器件开始开通，漏极电流Id上升。t2后漏极电流Id 停止上升，VC\_gs上升到Vgs\_miller，代入式(20)中可得
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOdEaK2wP8l7QBe7KwxiayjvMw0gp1xNjy0EkFulfqlSbiaTq7HQiaAicoFA/640?wx_fmt=png&from=appmsg)
+
+式中Vgs\_miller为米勒平台电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOAu8Hj4VkIEMX29Xt9Vsfcrl1e8EnSdysonibGRbBv7fMwQUfjCgYTOw/640?wx_fmt=png&from=appmsg)
+
+此时，Vds 开始下降，t3秒后下降到Von，可利用电容Cgd 的放电电荷量和放电电流得到米勒平台维持时间。但Cgd 会随着Vds 的下降而增大。因此，为提高计算精度，可以采用数据手册中的参数Qgd来计算米勒平台维持时间：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicO1ThopJEicCbXicqqsCqN5EJujLgXibJQhicW4uYcLVGT2ibwFQywE8jIXzg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOmDOFIny0a31iaRGHRJMMiblSwCJrLcdpkAuc8ME6z5TcEpksm45btFZg/640?wx_fmt=png&from=appmsg)
+
+感性负载下SiC 功率MOSFET 的关断过程如图14所示。其关断过程的分析方法与开通过程的分析方法相似。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOLscQbKlrzbPcLWB90waXqyww4ibklBXH9qH71l0KcNyTppDMvkEawgA/640?wx_fmt=png&from=appmsg)
+
+4 仿真与实验分析
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOLeOaf9W9Jlf5WibmRHwFBpXEyLD0GSVYpPaUhum6pkrmKlJ6Z6uNfXQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOgDawj4Cndgol9mXsQyNXVJ3mmHweH0OCLu9O14MX14ibXA9iaiaRZ2tLg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOmEouXpPBheV8h5iajF1yTVibtEsClgTUSzuusib4VcOj46icjFlDfmPsibA/640?wx_fmt=png&from=appmsg)
+
+图15\-17分别为25℃、100℃和200℃下，SiC功率 MOSFET 输出特性的仿真与实测结果对比。 由图可知，本文所建SiC 功率MOSFET 仿真模型的输出特性与实际测量结果一致，说明仿真模型能够很好地模拟SiC功率MOSFET的输出特性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOYwaQRL19SmZBpV2Ie0G8jE1DVjkw8G1KkExoicW4bVsl1Sbeic0cJr6w/640?wx_fmt=png&from=appmsg)
+
+图18为漏源电压Vds=12V，栅源电压Vgs=0~16V，温度为25℃、100℃和200℃时的SiC 功率MOSFET输出转移特性仿真与实测结果对比。模型的转移特性与实际结果一致，能够很好地模拟器件的转移特性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOTnIicsmQoMNR2qGmv6E7N63s62of4gCFKLnjR8np2aibZ6gAvKbXlSfg/640?wx_fmt=png&from=appmsg)
+
+图19 为SiC 功率MOSFET 阈值电压Vth随温 度变化的仿真与实测结果对比。随着温度升高，自由电子增加，沟道界面陷阱电荷浓度减小，电流更容易建立，阈值电压Vth减小。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOTVian94htvHjicibQJIPmRFSFHZdwtn3VQDTbAWgK9pLd3kauToLQibxoQ/640?wx_fmt=png&from=appmsg)
+
+图20 为SiC 功率MOSFET通态电阻Ron随温度变化的仿真与实测结果对比。导电沟道完全开启后，SiC 功率MOSFET通态电阻Ron主要为漂移区电阻，随着温度的升高，漂移区载流子迁移率降低， 通态电阻Ron增大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOibLDicDDGQ9ZVmbdtA7xajSU1FlSIibvH4rBKJZU7cZyyvD8FvHbbCSFA/640?wx_fmt=png&from=appmsg)
+
+图21 为25℃、100℃和 200℃时，SiC 功率MOSFET开关损耗的仿真与实验结果对比。在温度相同时，SiC 功率MOSFET仿真模型的开关损耗与实际结果的误差随着漏极电流Id的增大而增大；在漏极电流Id相同时，仿真模型的开关损耗与实际结果的误差随着温度的升高而增大。在温度为200℃、Id=20A时，开通损耗的误差为6.8%，关断损耗的误差为5.9%。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOYkVIcaRe3u6rQY8ldVkiavL8gLBM1Dq2q0eMkpH5053Slr81miaPm2yw/640?wx_fmt=png&from=appmsg)
+
+图22和23分别为漏源电压Vds=200V、漏极电流Id=10A、Rg\_out=5Ω、T=25℃条件下，SiC 功率MOSFET开通过程和关断过程的仿真与实验波形结果。由图可知，本文所建的仿真模型能较好的描述SiC功率MOSFET开关过程中Vgs、Ig、Vds、和Id的变化趋势。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslZNHyvaJqLmrYuZpOyQPicOsUEYsc7K0icI1icN24BoKfYz8813N0yov0fCe1ARJwvelTBOCiazmpPQA/640?wx_fmt=png&from=appmsg)
+
+本文所建的SiC 功率MOSFET模型基本可以模拟器件的真实开关过程。但由于驱动电路中寄生参数的影响，器件的实际开通速度比仿真结果略慢；同时驱动电路中使用了PNP 加速电路，使得器件的实际关断速度比仿真结果快。
+
+5 结论
+
+本文提出了一种基于MATLAB/Simulink 的SiC功率MOSFET 的全工作区变温度参数建模方法。通过补充实验拓展了SiC 功率MOSFET 的饱和区工作特性曲线，提高模型在全温度范围内的精度。模型的核心单元采用Si 基横向双扩散MOSFET模型，采用与温度相关的电源来补偿因材料和结构引起的漏极电流差异及温度变化引起的阈值电压变化。模型参数通过测试SiC功率MOSFET的工 作特性，进行数学拟合的方法得到。该模型属于半物理半行为模型，既保留了各个参数的物理意义，同时通过数学拟合的方式摆脱了建模过程对物理参数的依赖。
+
+对比了不同温度下，SiC 功率MOSFET 的转移特性、输出特性、导通电阻和阈值电压的变化，本文模型的仿真结果与实际结果一致。对比了200℃时，SiC功率MOSFET开关损耗的仿真与实验结果对比，仿真模型的开关损耗与实际结果的误差随着漏极电流的增大而增大，在Id=20A时，开通损耗的误差为6.8%，关断损耗的误差为5.9%。对比了Vds\=200V，Id=10A，Rg\_out=5Ω，T=25℃时，SiC功率MOSFET开关波形的仿真与实验结果对比，由于驱动电路中寄生参数及加速电路的影响，模型的开通速度比实际略快，关断速度比实际略慢。
+
+注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kfcJrmcb2716g3x3ApLFKvEaFCadf8yxp2Qp7P8xwPviaQToWzMPNNhw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kELUCcUWDecF1MWkd0iaPYZGicRawwkSdBpC9NICKWmnlFgIl0GlfjeAA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2koYF23N8tPa3ICcc9mtWqYI49sXCwNnkm4icoJtQgUQ432ZJbw9kgBeg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)

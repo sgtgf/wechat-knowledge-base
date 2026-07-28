@@ -1,0 +1,129 @@
+# 英飞凌:MOSFET栅极驱动器的PCB布局
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/EVcjs0eUzQLkafpJ6uKiKg](https://mp.weixin.qq.com/s/EVcjs0eUzQLkafpJ6uKiKg)
+
+文章来源：英飞凌（infineon)  
+  
+
+范围和目的  
+
+PCB布局对于实现MOSFET栅极驱动器的最佳功能至关重要。另外，对于高电流、快速开关设备（尤其是MOSFET栅极驱动器），确保系统的可靠、稳健运行也至关重要。由于2EDN/1EDNEiceDRIVER™系列的栅极驱动器具有强大的输出级，能够在功率MOSFET的栅极处提供很短的上升和下降时间来帮助实现极快的电压转换，因此设计PCB时必须遵循一些准则。  
+
+目标受众  
+
+本文档面向MOSFET栅极驱动器相关电路的PCB板设计人员和用户。
+
+1.简介  
+
+PCB布局准则的示例应用为800W Platinum®服务器电源\[1\]。MOSFET栅极驱动器将应用于功率因数校正(PFC)、初级侧LLC谐振转换器、同步整流器(SR)和Oring，如图1中所示。 
+
+非隔离式栅极驱动器EiceDRIVER™2EDN7524F将应用于驱动PFC、初级侧LLC谐振转换器的低边及SR,而EiceDRIVER™电气隔离式栅极驱动器1EDI20N12AF将应用于驱动初级侧LLC谐振转换器和Oring的高边。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNrvtSjibiaWibeTEhDAichdKPmVexbSAdR4bh7LMox9TDiaqWyrCJ5JkyNFQSm797ukmGlZgW8TboNRHsqlXMvib7kxn18xbZWNMadU/640?wx_fmt=png&from=appmsg)
+
+图1-800W服务器电源框图
+
+电路板底部显示了所有使用栅极驱动器的位置、SR和O型环的位置，以及使用准谐振反激式控制器的辅助电源的位置，如图2中所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPw7VlRpY6Y5VsxfK83hOCiabR34ib6CvhkHpD9O9kTWzJ7Jzh1nYA1MOPvtdNp6wtvNiaEIKInZCcmdic7y7oN8k6UBoxxF2tW7Js/640?wx_fmt=png&from=appmsg)
+
+图2-800W服务器电源主板的底视图  
+
+图3显示了主板中间部分的原理图，其中EiceDRIVER™2EDN7524F(IC2)栅极驱动器用于驱动LLC谐振转换器初级侧上的TO\-220 600V CoolMOS™P7 SJ MOSFET(Q8)以及PFC升压转换器中的TO\-2473引脚600V CoolMOS™P7 SJ MOSFET(Q9)。
+
+黄线显示了LLC谐振转换器的初级侧和次级侧之间的隔离。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMtBezlvc9JCf3pEFHbTZXbDrNib5LIXX4rjNONpiajr4xicyvgYxiaLU97qRTH2V3FQ2WApVhoz18SXIAx6187kIQT1ULQBglHWicA/640?wx_fmt=png&from=appmsg)
+
+图3-驱动PFC中MOSFET和LLC初级侧中低边MOSFET的2EDN7524F的原理图  
+
+在图4中，可以发现围绕EiceDRIVER™2EDN7524F(IC2)的相应PCB电路中有低边MOSFET(Q8)和PFC MOSFET(Q9)。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNkr7QycomjSiaX7ImYj2oGgVFqY0dBFKCFfrXNdLoekp7cILM8EDyM6UHx8nK9xlq4s3W3DiaOG2r0bBqbVlM9spnjGSPWKzsyM/640?wx_fmt=png&from=appmsg)
+
+图4-驱动PFC和LLC初级侧中低边MOSFET的2EDN7524F的PCB
+
+2.创建接地层  
+接地始终是PCB设计中的一项重要主题，并且接地层用于提供噪声屏蔽。如果走线用于发送接地信号，则其电阻会产生压降，这些压降将在PCB中产生不同的“接地”。为了避免出现此问题，需要使用较大的覆铜面积，甚至是保留整层来创建接地层。除了噪声屏蔽之外，接地层可以用作散热器并辅助散热。可以完全使用铜来填充接地层，如图5中的棕色所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOU2JElUS6mdlafxKHowXibBtTqicxjIFljIqBoDpFOMMgcwiaRxErz8UDwCQtFzFcjmD7wna0e48BWg2ZEDjk0MmjJn2qddV8EaM/640?wx_fmt=png&from=appmsg)
+
+图5-用于噪声屏蔽的接地层（棕色）
+
+3.栅极驱动器的旁路电容器  
+旁路电容器用于过滤来自恒定电源的交流信号，并为栅极驱动器提供稳定的电流。VDD旁路电容器应位于尽可能接近栅极驱动器的位置，以提高交流噪声过滤性能并降低引线电感，如图6中的黄色所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPvP8etQ1XAPTs3zzZKY95oSpiaB6AU4foYIlRnHXLKrajIF2Wl9Plp8gibDGtaALY5j33OcMLmibpoSzXwkfiby2YR3yiciaTGnnvGs/640?wx_fmt=png&from=appmsg)
+
+图6-2EDN7524F低边驱动器中的旁路电容器Cbypass  
+
+旁路电容器将放置在栅极驱动器封装的末端（且在尽头），如图7中所示。VDD的走线（紫色）和接地 （黑色）应在封装下通过，并且彼此非常接近。这种接近度将帮助消除两条走线之间的磁场。  
+
+注意:VDD旁路电容器应位于尽可能接近栅极驱动器的位置！
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPdRsLbgrfofsVJTwnsZTTTeHhJFrUWqBtZXGeLny8XNuR1C9JnYnhLuQ1S9anxEYf4zBvZUHOAtWGr7ibfOcdCreiaIkRamYiaaY/640?wx_fmt=png&from=appmsg)
+
+图7-栅极驱动器的旁路电容布局  
+
+此电容器用于在开关期间存储能量。通过驱动器在MOSFET栅极处切换大的电流通常会导致电流路径中的寄生电感产生不必要的振荡。低电容值不足以应对电源电压的尖峰或纹波。根据经验，如果要求VDD上的纹波为5%，则旁路电容器的值必须比通道上负载电容值大20倍，通常认为后者为MOSFET的输入电容Ciss（Ciss\=CGS+CGD，当CDS短路时），如图8中所示。如果在负载电容为10nF的情况下使用10nF的旁路电容器，则VDD会在6V到15.5V之间波动。 
+
+例如，在负载为10nF的情况下，为了确保电路的可靠性，应使用至少200nF的隔直流电容器。强烈建议使用SMD元器件来维持低电感。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMKibicjW4D7bS5Y8861TFRib7qjibzw2JrEO49icUbiaPRUCbU0UESkVx0clOOwaaITUZfpN4Nf3ibWwiaNnia9mKia5sGfHrKbpF0JbX40/640?wx_fmt=png&from=appmsg)
+
+图8-不同旁路电容值的驱动器电源电压仿真
+
+4.更多注意事项  
+
+4.1 缩短栅极与驱动器输出之间的走线  
+
+如图9中所示，驱动器应尽可能地位于接近MOSFET的位置，以最大限度地缩短驱动器输出引脚与MOSFET（绿色显示）的栅极之间任何高电流走线，以及缩短低边MOSFET的栅极和PFC MOSFET的栅极的走线长度。这将降低电感，并且宽度应该尽可能地大，以降低阻抗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNlsUvQUh86oJjfIQjwcxghvJL8T3Jl0icffWOYE6w6CFbs159TW5DwFY9XNTQ6fjnkKloWkicxv4TWiaibZoStlPZ63a8ric7ALWuQ/640?wx_fmt=png&from=appmsg)
+
+图9-缩短栅极与驱动器输出之间的走线
+
+4.2 输入RC滤波器  
+
+通常，输入RC网络对于EiceDRIVER™ 2EDN/1EDN不是必需的。 有时，子板中产生的PWM信号以及控制器输出与驱动器输入之间的走线难免较长。如果信号线未进行良好的接地屏蔽，那么还建议增加一个输入RC网络（如图10中所示），以便通过截止频率提高抗噪性能， 如下所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNN0vI450Iwh1TibhicPTialyGMgYUD1nt15mTzSjo5fF3oxXRMrXqxHxgzVQ9FQib1v8CVaFt5BmEsroNFicY1MyP8smeqg05GX0Ys/640?wx_fmt=png&from=appmsg)
+
+如果设计了RC网络，则它应该位于尽可能接近栅极驱动器输入引脚的位置，因为输入电路是噪声敏感部件，如图11中所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOPxd56eA6RlBf5GvdicTLfeXm22pwUibffvdmJK5G78zVficL9jthoA5r6CVyViagic6ibJmhqxMebTHSdRNbCTIm52KwnJRV9Gy2pg/640?wx_fmt=png&from=appmsg)
+
+图10-输入RC滤波器原理图\-以绿色显示
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNXhRibBFpiajKsDYNQJDIC6gBC1KV8wTNsCiaxFh1lZTpetrCRCVG5wU6egHXOD5YTUdicxmQ4h1koiaNfXT8we7ptcd4Qdf8TrSOs/640?wx_fmt=png&from=appmsg)
+
+图11-输入RC滤波器布局\-以绿色显示  
+
+4.3 VCC处的电阻  
+
+另一方面，栅极驱动器级是产生噪声的元件。为了避免从VCC引脚到VCC供电引脚的噪声或峰值电流，可以在栅极驱动器的VCC引脚与VCC供电引脚之间放置一个阻值介于4Ω 到10Ω 之间的电阻。 
+
+另外，还建议在栅极驱动器的VCC引脚与VCC供电引脚之间放置一个在100MHz下电阻接近1kΩ 的SMD铁氧体磁珠以抑制噪声。
+
+5.参考资料  
+
+\[1\]AN\_201710\_PL52\_002 800W Platinum®服务器电源–使用600V CoolMOS™P7并通过XMC™实现数字控制.
+
+注明：  
+
+【版权声明】：本公众号平台注明来源或转载的文章，版权归原作者及原出处所有，仅供大家学习参考之用，若来源标注错误或侵犯到您的权利，烦请告知，我们将立即改正或删除。
+
+【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/w7mE225tvpMUDnDPXEStdicllhKSJ6QkqJmfYneI1BeBViccpGO2oNuwosrMa9pfGxn2QgxibKsgsuwibZY5BwR8A6ibZlCoXI9K1tkudO1GLZfo/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpM1GicmCRyialOqNQo1t8hsBCTkMkEkiaAA7NPjNGic1Vq9g9Rc5LibRAX13tF8foKhgnu9ia61qy5eo13cfcrDxKLswN1eJV2qVWVt8/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMkNlmWELs9Iyuf7XLgVEicYVqoS65KaZicqxq3eQbe658BsMuHjxDw0rgbssoA02GMswJRAPFh4jMNyTQhPaicjoHWic0J6A8icdRg/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOmEaE7ekcPs6Uo88sItogawicUYO0uKQOuH9iaicquPgmz9PCC184Q1ibPg2iaicboYr9SEdzotrRmhiaN7lF3qvD3XK8zf44RF4JYTc/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)

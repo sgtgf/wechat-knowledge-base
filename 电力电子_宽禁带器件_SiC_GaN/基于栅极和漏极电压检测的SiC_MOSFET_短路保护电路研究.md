@@ -1,0 +1,281 @@
+# 基于栅极和漏极电压检测的SiC MOSFET 短路保护电路研究
+
+原创 宛新春 陈其工 SiC碳化硅MOS管及功率模块的应用 2025-03-24 17:05 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/9GwmkPluUeFtr77nEF5R9A](https://mp.weixin.qq.com/s/9GwmkPluUeFtr77nEF5R9A)
+
+文章来源：电工技术学报
+
+作者：宛新春 1,2 陈其工 1,2 杨锦涛 1,2 武逸飞 1,2（1. 安徽工程大学高端装备先进感知与智能控制教育部重点实验室 芜湖  241000；2. 安徽工程大学电气工程学院 芜湖  241000）
+
+摘要： SiC MOSFET 广泛应用于电力电子变换设备中，快速、准确且可靠的短路保护电路已成为推广其应用的关键技术之一。该文对 SiC MOSFET 的各类短路过程进行分析，利用器件短路时漏源极电压迅速增加的特点，设计短路保护电路的拓扑结构和功能，检测 SiC MOSFET 栅极和漏极电压，并将该信号进行分析、锁存、隔离、滤波处理，若器件发生短路，则输出短路信号给栅极驱动芯片。在此基础上，采用基本逻辑器件和高速器件设计保护电路，理论上分析计算该电路在不同短路类型下的响应时间。计入所有影响保护速度的因素，该电路能在 600 ns 内实现 SiC MOSFET 短路保护，尤其是在发生负载短路故障时能将短路保护时间缩短至 200 ns 以内，其响应速度受不同母线电压影响较小。搭建实验平台，测试了该电路在不同母线电压、短路类型、驱动能力等情况下的短路保护性能，实验结果与理论分析和设计要求相符合。
+
+关键词：SiC MOSFET 、短路保护 、栅极电压检测 、漏极电压检测
+
+0\. 引言
+
+随着第三代宽禁带半导体的发展，以碳化硅金属氧 化 物 半 导 体 场 效 应 晶 体管 （SiC MOSFET）为代表的功率器件具有开关和导通损耗小、工作频率高、热导率高、击穿场强高等优势。相较于常规高压大功率硅基功率器件，SiC MOSFET 更加适应于高压、高温、高频和高可靠性等应用领域。然而与同量级硅基器件相比，SiC MOSFET 的芯片面积更小、电流密度更大，导致其在短路状态下承受更强的电热应力，并且随着工作温度、驱动电压和母线电压的升高，其短路耐受时间也会越短，目前商业用 SiC MOSFET 的短路耐受时间约为 2 μs，如果进一步考虑重复短路对器件寿命的影响，该时间会更短。因此在 SiC MOSFET短路发生时，需要保护电路快速检测和动作，同时还要求该电路具有对原电路影响小、精度高、损耗低、避免过保护和欠保护等特点。
+
+目前，SiC MOSFET 的短路保护方法主要是在绝缘栅双极型晶体管 （ IGBT）短 路 保 护 的 基 础 上 ， 针 对 SiC MOSFET 短路时表现出的外在特性进行的改进，具体包含五种方案：退饱和检测（DESAT）、寄生电感电压检测、PCB 罗氏线圈检测、分流器检测和栅极电荷检测。
+
+DESAT是最典型的短路保护电路，其原理简单、成本低，被广泛应用于 IGBT 短路保护中。其主要缺点是，为了避免误保护，需要在器件开通时添加一段消隐时间屏蔽短路检测，这使得保护速度延缓。若将 IGBT 的 DESAT 电路直接应用于 SiC MOSFET，还会导致器件因动作时间过长而损坏，以及因判断不准确而使器件误关断等问题。
+
+寄生电感电压检测使用 SiC MOSFET 器件的功率源极和辅助源极之间的寄生电感，短路发生时通过器件的电流迅速增加，较大的 di/dt 会在寄生电感上产生压降，经处理后可得到器件漏源极电流大小，进而判断其是否发生短路。该方案成本低、无盲区，易于集成于驱动芯片内。但当短路回路中的电感值较大时，di/dt 减小，会导致测量精度下降，且器件开通时也会产生较大 di/dt，造成保护电路误触发，此外该方案还对寄生电感上的噪声特别敏感。
+
+PCB 罗氏线圈检测方案 ， 直接检测通过SiC MOSFET 的漏源极电流，判断器件是否短路。该方案的测量元件与主电路相隔离，安全性高，且测量迅速，但 PCB 罗氏线圈的设计和短路信号处理较为复杂且难以实现，检测易受干扰。
+
+分流器检测通过测量串接在主电路中的采样电阻两端压降，利用欧姆定律求得回路电流来判断器件是否发生短路。该方案结构简单、检测速度快、测量精度高。但由于采样电阻的存在，会导致成本增加、发热量大以及额外的功率损耗等问题。
+
+电力电子器件在正常开通时，其栅极电荷值大于发生硬开关短路时的电荷值，通过对栅极电荷检测可快 速 判 断 其 是 否 发 生 硬 开 关 故 障 ， 但 SiC MOSFET 的米勒电容较小，正常开通时米勒效应不明显，易造成保护误触发，且该方案无法实现负载短路故障的检测及保护。
+
+上述五种对 SiC MOSFET 的短路保护方法各有优劣，表 1 对各个方法的优缺点进行总结与对比。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2Msia6SsftvMWEtfDOhOPG3egDxvicQc3eshwLMnVkkdvJLx0DiaErNtZA/640?wx_fmt=png&from=appmsg)
+
+综上所述，尽管后四种方法的短路保护速度较快，但由于它们各自存在一些缺点，因此并未得到广泛应用。相比之下，DESAT 方案具有电路简单、低成本和易于集成等优势，在实际应用中使用场景更为普遍，但其还存在以下问题：①检测过程存在盲区 ， 且 短 路 保 护 速 度 较 慢 ， 通 常 保 护 时 间 大 于1 μs；②DESAT 只能设定一个固定的消隐时间，无法适应多种使用工况。本文提出一种基于栅极和漏极电压检测的短路保护方案，继承了 DESAT 的优点，并克服其保护速度慢、适应性较差等缺点，从而实现了快速、准确且可靠的短路保护。
+
+1\.  SiC MOSFET 短路过程分析
+
+SiC MOSFET 发生短路故障时器件的开关状态按类型可分为两类：硬开关故障（Hard SwitchingFault, HSF ）、负 载 短 路 故 障 （ Fault Under Load,FUL）。
+
+HSF 指的是 SiC MOSFET 在开通前，其漏源极电压较高且回路阻抗较小，当器件开通时立即发生短路，类似的情况如串扰引起的 SiC MOSFET 误开通或器件损坏导致的桥臂直通；FUL 指 SiC MOSFET在正常工作且完全开通后，由于外部电路发生故障，导致 SiC MOSFET 漏源极电流迅速增加而达到短路状态，类似的状况有相间短路、对地短路等。
+
+为分析 SiC MOSFET 短路特性，通常利用双脉冲测试电路进行实验，其电路拓扑如图 1 所示。双脉冲测试根据需要可设定多种实验工况，被广泛运用于电力电子器件的各种性能测试中。图 1 中，Q1、Q2 为 SiC MOSFET，VDC 为直流电压源，CDC 为母线支撑电容，Lload 为负载，Lsc 为短路时拓扑等效电感。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2y5dibXhpO0l8CODOZoGsibe7dKrzeWDuPFW88GwZ3ibXhmoN1dWhcOd3w/640?wx_fmt=png&from=appmsg)
+
+测试前需保持栅极驱动 1、2 输出低电平。用短粗铜棒代替负载电感 Lload，此时测试对象 Q2 漏源极电压 Vds 约等于母线电压 VDC，当栅极驱动 2 输出高电平时，由于主回路阻抗较小，Q2 即发生 HSF；用合适的阻性负载代替 Lload，使 Q2 处于开通状态，当栅极驱动 1 输出高电平，就可让 Q2 实现 FUL。
+
+1.1 硬开关故障
+
+当 SiC MOSFET 发生 HSF 时，其短路阻抗较小，回路的电感值通常只有零点几微亨，所以短路时电流变化率较大，其漏源极电流能迅速超过器件的额定值，造成严重的短路。SiC MOSFET 发生 HSF 过程可分为五个阶段，其电压电流波形如图 2 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2rPQAP7F1Uepu0falMMiaQnUELIjAic6ibFQib5eDfMqStWwciaxBoGNJ5icw/640?wx_fmt=png&from=appmsg)
+
+第一阶段 t0～t1：在栅极电压 Vgs 未到达开通阈值 Vth 之前，器件处于截止状态，漏源极电压 Vds 约等于母线电压 VDC，漏极电流 Id≈0。
+
+第二阶段 t1～t2：t1 时刻，Vgs 达到阈值电压 Vth，短路发生。随后 Id 加速上升，过大的 Id 使得其结温不断升高，由于 SiC MOSFET 导通电阻与结温呈正相关，因此也将不断增加，所以 di/dt 在 t2 时刻达到一个最大值后降低。同时，过大的 di/dt 在短路等效电感 Lsc 上产生电压，导致 SiC MOSFET 的 Vds 下降。
+
+第三阶段 t2～t3：随着 di/dt 的不断降低，Id 增长速度逐渐减慢，在 t3 时刻达到电流最大值。此过程中还伴随着 Vds 上升至 VDC 附近。
+
+第四阶段 t3～t4：加载在 SiC MOSFET 上的 Vds和 Id 产生较大的功率，以热能损耗的形式使得器件结温迅速升高，导致沟道载流子迁移率降低，di/dt变为负数，Id 下降。
+
+第五阶段 t4 之后：若短路保护及时动作，驱动SiC MOSFET 关断，则 Id 会迅速下降，同时伴随着因 di/dt 作用在 Lsc 上引起的 Vds 电压上升，直至 SiC MOSFET 完全关断。
+
+1.2 负载短路故障
+
+SiC MOSFET 发生 FUL 时的电压电流波形如图3 所示，其过程也分为五个阶段。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2gZQNm39t96MN6sl9tMbOm1M5kIeibDyGI0mwjics01g4HzB2XknxacBQ/640?wx_fmt=png&from=appmsg)
+
+第一阶段 t0～t1：SiC MOSFET 正常工作且处于完全导通状态，Vgs 为高电平，Vds 为器件的正向导通压降，Id 为正常的负载电流。
+
+第二阶段 t1～t2：t1 时刻发生短路，Id 迅速上升至饱和电流，Vds 也迅速上升至 VDC 附近，由于 di/dt作用在 Lsc 上，使得 Vds 比 VDC 小，同时较大的漏源极电压变化率 du/dt 会产生位移电流对米勒电容进行充电，造成 Vgs 出现电压尖峰。
+
+第三、四、五阶段 t2 之后：同 HSF，不再赘述。
+
+1.3 短路分析
+
+通过对 SiC MOSFET 发生 HSF 和 FUL 时的波形进行分析，发现在短路过程中都有着共同的特征：①栅极电压 Vgs 大于阈值电压 Vth，且 Vgs 上升时无米勒效应；②漏源极电压 Vds 快速上升至母线电压附近；③漏极电流 Id 迅速超过器件额定电流并增长到某一值后略微下降。现有的五种主流 SiC MOSFET的短路检测方案都是基于上述三种短路特性中某一特性所设计，虽能实现短路检测，但在准确性、快速性及可靠性上都各有局限。
+
+本文提出一种短路保护电路，将栅极电压检测和漏源极电压检测相结合，通过检测栅极电压判断器件是否完全开通，检测漏源极电压判断器件电压是否超过设定值，当两个条件都满足时，则触发短路保护。该电路优点如下：①短路检测及保护响应速度快；②针对 HSF，可通过改变栅极驱动能力来调节短路保护时间的长短；③保护速度受母线电压影响较小；④该电路结构简单，成本低且易集成于芯片内。
+
+2\. 保护电路拓扑及工作原理
+
+2.1  DEAST 保护电路拓扑及工作原理
+
+目前 SiC MOSFET 及 IGBT 的短路保护通常使用 DESAT 方案，故选取最为经典的电压源型 DESAT具体分析其拓扑及工作原理，其电路如图 4 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2UUPFuZuYCibJnblicwpkxo8GVzz06IzkE6SWGdpDhyXosMcSp3iaib8KAw/640?wx_fmt=png&from=appmsg)
+
+开关管 S1 的驱动信号与 SiC MOSFET 相反，若SiC MOSFET 处于关断状态，其漏源极电压 Vds 接近母线电压 VDC，快恢复二极管 VD1、VD2 反向截止（为减小二极管的寄生电容对电路影响，通常会使用两个及以上二极管串联），高压隔离，此时开关管S1 处于开通状态，迅速给消隐电容 Cbl 放电，将比较器 U1 正输入端电压拉低，屏蔽检测。
+
+当 SiC MOSFET 开通时，结合图 5 所示器件正常开关的波形进行分析：t1 时刻栅极驱动输出高电平，开关管 S1 关断，此时器件未完全开通，Vds 仍处于较高水平，VD1、VD2 反向截止，电压源 VDD通过电阻 R1、R2 和 R3 给 Cbl 充电，使 U1 正输入端电压逐渐升高。这个过程会持续到 t4 时刻，当 Vds降至较低水平时，VD1、VD2 变为正偏，此时 VD2阳极电压 Vtest 为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2q0dcPicmFWvzC6fMlasntuwaCialRU9XgDo4mvPBEzBxXOIjqicbtTb4Q/640?wx_fmt=png&from=appmsg)
+
+式中，Vf1、Vf2 分别为二极管 VD1、VD2 正向导通压降。Vtest 再经 R2、R3 分压输出到 U1 正输入端。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2XfE6ibn9hCjiaUButCiaMibNONiaia89R3946Q8lzuTibYYUu5DxNGG3qnZeg/640?wx_fmt=png&from=appmsg)
+
+倘若器件发生短路，Vds 迅速升高，VD1、VD2再次反向截止，Cbl 开始充电，直至其电压超过所设置的参考电压 Vref，触发短路保护，使 SiC MOSFET关断。
+
+消隐电容 Cbl 在 t1～t4 时间段内通过减缓比较器输入端电压的上升速度，屏蔽 SiC MOSFET 开通过程中的短路保护防止保护误动作，提高了该电路的实用性。但通常 DESAT 只能通过调节消隐电容大小来设置一个固定的消隐时间，故消隐时间通常设置为器件开通时间的 1.2～2 倍。
+
+然而，较长的消隐时间会减缓短路检测及保护的响应速度，且单一的消隐时间无法满足器件在各种工况运行时的要求。此外，开关管 S1 为了实现给Cbl 快速放电的功能，通常设置的回路阻抗较小，导致流过 S1 瞬时电流较大，加上长期处于高频开关状态，易损坏造成电路失效。
+
+2.2 基于栅极和漏极电压检测的短路保护电路
+
+本文提出一种基于栅极和漏极电压检测的快速短路保护电路，取消了 DESAT 电路中的消隐电容Cbl 和开关管 S1，改用检测 SiC MOSFET 栅极和漏源极电压来判断器件是否发生短路，来实现快速准确且可靠的短路检测及保护。
+
+2.2.1 电路拓扑及原理
+
+本文所提出的基于栅极和漏极电压检测的快速短路保护电路拓扑如图 6 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2lh9SkUmWukyRf1SCbG7FX3Emp9M9jhia3f0sTBianlvZRlTjs1uSUBTg/640?wx_fmt=png&from=appmsg)
+
+该电路按功能还可分为四部分：驱动电路、漏源极电压检测电路、栅极电压检测电路和逻辑处理电路。
+
+驱动 电 路 通 过 外 部 的 栅 极 驱 动 器 输 出 驱 动 信号，经电阻 Rg 传递到 SiC MOSFET 的栅极，来控制器件的开通和关断，通过改变 Rg 阻值可以调节器件开关速度。
+
+漏源极电压检测电路主要由电阻 R1，高压二极管 VD1、VD2 及 SiC MOSFET 串联组成，VD1、VD2可以隔离漏源极高压，防止损坏检测电路，检测点A 的电压 VA 可表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2BsSNj9u1ZOAcj9Cay6EDsqqTlG9BLfq5KUfqjPXWGZQou6LHudCT7w/640?wx_fmt=png&from=appmsg)
+
+式中，VCC 为供电电压；Vds 与 Id 的对应关系可通过查询 SiC MOSFET 手册中输出特性曲线得知。
+
+栅极电压检测电路由肖特基二极管 VD3 及电阻R2、R3 串联组成，VD3 起隔离栅极负压作用，防止电压超出比较器处理范围，检测点 B 的电压 VB 可表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2kX3SlEybIfVRSps39qA8ibOHn2u94ibCzhTcW9Oj8Rl7aeX2ibz6PEDag/640?wx_fmt=png&from=appmsg)
+
+式中，Vf3 为二极管 VD3 正向导通压降。含寄生参数的 SiC MOSFET 等效电路如图 7 所示。器件开通时，Vgs 在栅极驱动器输出的低电平 VEE 和高电平 VDD 之间切换。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2PNLOp1BTOl4bib8FGWTZvJRhM2se50rsicm5QoHYS8HBqTvhUwDbmJCA/640?wx_fmt=png&from=appmsg)
+
+结合图 6、图 7，以器件开通过程为例，将这个过程简化为：栅极驱动器输出的电压 VG 通过栅极驱动电阻 Rg（包含外接驱动电阻以及栅极内部电阻Rg(in)）和栅极、源极杂散电感 Lg、Ls 给 SiC MOSFET的栅源极电容 Cgs 和栅漏极电容 Cgd 充电，得到
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2HlGFGYQlvt8XW5cRWIg0OAVtMDRLC2RgDd9hljGQMCH6f06dP8tTXQ/640?wx_fmt=png&from=appmsg)
+
+式中，Ig 为栅极驱动器输出的电流，联合式（3）～式（5）即可解出检测点 B 电压 VB 的准确值。
+
+逻辑处理电路通过比较器 U1、U2 分别将检测到的电压与预先设定的参考电压 Vref1 和 Vref2 比较，输出比较信号到与门 U3，当检测到短路故障时，U3输出高电平到 SR 锁存器（由或非门 U4、U5 组成）防止信号消失，再经数字隔离 U6 将该信号输出到施密特触发器 U7，经其处理后输出短路信号到 SiC MOSFET 驱动控制侧，由栅极驱动器驱动器件关断，其中 U7 用于减少噪声及瞬态脉冲对电路的影响，按键 S1 为故障信号复位按键。
+
+为进一步提高该短路保护电路的可靠性，还可在电路中增加滤波电路，并根据不同的使用场景进行相 应 调 整 ， 滤 波 造 成 的 信 号 延 时 通 常 在 10 ～30 ns。此外，还需在比较器前增加电压限幅电路防止比较器损坏。
+
+2.2.2 电路参数设计
+
+为实现快速的 SiC MOSFET 短路检测，防止器件损坏，需根据使用环境下的器件导通时正常工作最大的电流所对应的正向导通压降 VONMAX 选取合适的漏源极电压比较值，即
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2mtdqZvAD4ov4ib2licBdb1WPPjPSRudDgtsvrkrAFw29ZrficXbS9wP0A/640?wx_fmt=png&from=appmsg)
+
+考虑到 SiC MOSFET 开关时的栅极和漏源极电压会有一个变化过程，如图 5 所示，在 t3～t4、t7～t8 阶段时 Vds 迅速变化造成 Vgs 出现米勒平台，为增加此方案的可靠性，将栅极比较值设置得大于米勒平台电压，可避免短路保护在 SiC MOSFET 正常开关期间保护误触发。本文选取的实际栅极电压比较值约为栅极驱动电压高电平 VDD 的 3/4，即
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2FarXz8483p9gT062oNUs4bNZkdCUwVdZhpGibApYmVdpStE6tSULbRg/640?wx_fmt=png&from=appmsg)
+
+Vref1 和 Vref2 通过在 0～VCC 之间串联电阻进行分压得到。
+
+2.2.3 保护过程分析
+
+该电路检测点 A 和 B 分别在发生不同短路类型时的电压波形如图 8 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2kOKeztk5fialj3fJwGPnzfKLsbCeYmV1sT5zmJP0ZnP8icarlBSKZTgA/640?wx_fmt=png&from=appmsg)
+
+若 SiC MOSFET 发生 HSF，在 t1 时刻栅极电压上升至阈值电压，器件短路，此时 VA＞Vref1，VB＜Vref2，经逻辑处理电路后，向外输出低电平。随着栅极电压的不断上升，VB 也会跟着快速升高，在 t2时刻 VB＞Vref2，经处理后输出高电平的短路信号驱动芯片，关闭 SiC MOSFET。
+
+若 SiC MOSFET 发生 FUL，在 t5 时刻短路，此时由于 VA＜Vref1，VB＞Vref2，不会触发保护，但随着 SiC MOSFET 退出饱和区，Vds 迅速增大，导致VA 电压上升，在 t2 时刻 VA＞Vref1 触发短路保护。
+
+SiC MOSFET 正常开通时，Vds 快速下降导致Vgs 波形中出现米勒平台，当 Vds 趋于稳定后 Vgs 才会继续上升。利用这一条件，将 Vref2 值设为略小于栅极驱动电压值，可以防止 SiC MOSFET 开通时保护误动作。如图 8b 所示，在 t3～t4 阶段，VA、VB均小于所设参考电压，可提供一段死区时间，防止两个比较器同时输出高电平，SiC MOSFET 正常关断时亦如此。此方法可代替传统 DESAT 中消隐电容的作用，无需提前设计消隐时间，且能适应器件不同的开通时间。
+
+经分析，影响该保护电路速度的因素主要有四点：①HSF 检测时间受短路时 SiC MOSFET 栅极电压上升速度影响，而栅极电压上升速度主要由栅极驱动能力大小决定；②FUL 检测时间受短路时 SiC MOSFET 漏源极电压上升的速度影响，漏源极电压上升速度主要由器件栅极电压及漏源极电流大小决定；③所设定的电压参考值 Vref1、Vref2 影响短路检测的速度；④短路保护时间受电路中各种元器件的响应速度影响。
+
+2.2.4  HSF 保护响应速度分析
+
+由于 HSF 发生前后 SiC MOSFET 漏源极电压Vds 变化小，不考虑此电压变化给电路带来的影响，并忽略栅极驱动能力和杂散电感的影响，可将 SiC MOSFET 的 HSF 发生过程等效为栅极驱动电压 VDD经电阻 Rg 向栅源极电容 Cgs 充电的过程，即
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2eiabMIj3D2E5p8dekGQu6PcfSfmmLDicYj9Cp36bd5grCqJ94jjKHNVA/640?wx_fmt=png&from=appmsg)
+
+当 Vth≤Vgs(t)≤ Vref 2′ （见图 8 中 t1～t2 阶段）时，器件短路，但保护未触发。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2AfZtG9qPtYhRBZa1z5WBwOyPjcjic9UicQ3LcnGBTcElDNJia7Wlaowkw/640?wx_fmt=png&from=appmsg)
+
+式中，tdelay 为 HSF 检测延时；Vref 2′ 为所设定的参考电压所对应的器件栅极电压实际电压。
+
+此外还需考虑所设置滤波延时 tfilter、逻辑处理电路的处理时间 tproc 以及驱动芯片传播延时 tpd。当该电路检测到短路，并向外输出隔离的短路信号时，可通过拉低栅极驱动的输入电平或使能信号以及直接禁用驱动芯片等方法，使 SiC MOSFET 关断进而保护整个电路。除去 SiC MOSFET 关断时间外，完整的 HSF 短路检测及保护动作时间为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2HA60KwkTOoLuQ6xeGQMB9PR2yC4icWjG6icDrB34uu7nYSGZibN2QJ70w/640?wx_fmt=png&from=appmsg)
+
+由于 SiC MOSFET 的 Cgs 为 nF 级，栅极驱动电阻小于 20 Ω，这就导致 Vgs 变化的时间常数较小，正常情况下tdelay≤400 ns；因脉冲和噪声信号维持时间短，tfilter＜30 ns，逻辑处理电路使用高速器件和基 本 逻 辑 器 件 ， 响 应 速 度 快 ， tproc≤ 20 ns。 SiC MOSFET的驱动芯片传播延时，通常 tpd＜150 ns，该电路在发生 HSF 故障下，可在 600 ns 内实现短路检测和保护动作。若选用 tpd 较小的驱动芯片，还可实现 500 ns 内的短路保护。
+
+2.2.5  FUL 保护响应速度分析
+
+针对 FUL，由于设置的退饱和动作值一般只有几伏，器件短路即发生退饱和，几乎无检测延时，所以 FUL 短路保护时间为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2LZJuSiaGEGY92RXDaDuAdddibYBLicy2NEZN5KaPibYylF6BXRTYKncsHg/640?wx_fmt=png&from=appmsg)
+
+故该电路可在 200 ns 内实现 FUL 短路保护。该电路在 SiC MOSFET 发生不同类型短路故障的保护时间均低于行业所设定的 2 μs，提高了短路保护速度，减少器件的性能退化，防止设备损坏。
+
+3\. 短路保护实验验证
+
+为了验证所提出的电路对 SiC MOSFET 短路保护性能，以及测试该电路在不同短路故障、母线电压及栅极驱动能力等因素下所受的影响，将所设计的电路接入图 1 所示的双脉冲测试电路，完成测试平台的搭建，如图 9 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2KuWHbcZIvKAFhqhwtbzYibNH6G97szqGnhl4ZWOt9ibamFCNBvfqWlPA/640?wx_fmt=png&from=appmsg)
+
+利用 DSP 产生 PWM信号，经栅极驱动电路控制双脉冲测试电路的上下桥臂SiC MOSFET开通和关断 。 按 第 1 节所 述 短 路 实 现 方 案 分 别 使SiC MOSFET发生 HSF 和 FUL。
+
+用于短路测试的SiC MOSFET为 Wolfspeed 公司的 C3M0040120K（1 200 V, 66 A）。实验采用的主要设备及型号见表 2。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2dQUQBhyJdStQsHJiawWcmNgP6DQF8pFjvoeTBcKPDZJdGUQGRUicPArQ/640?wx_fmt=png&from=appmsg)
+
+3.1 传统 DESAT 电路测试
+
+传统 DESAT 保护电路响应速度快慢主要取决于所设消隐时间。为了提高短路保护可靠性，通常会将消隐时间设计得较大，为测试传统 DESAT 的性能 ， 选 用 TI 公司 集 成 此 功 能 的 栅 极 驱 动 芯 片UCC21750，并设计其外围电路。该电路在母线电压为 200 V 时，SiC MOSFET 发生 HSF 及 FUL 的波形如图 10 所示。图中，Vbl 为消隐电容电压；VDESAT为短路保护参考电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2Zcc0JDafibxdKGWfibjnaI7PslTY9cVDlDBxgia8icNjRKkUyoJ0ADDKeQ/640?wx_fmt=png&from=appmsg)
+
+从实验结果可以看出，在母线电压为 200 V 时，传统 DESAT 保护电路在 SiC MOSFET 发生不同类型的短路时，需 1～2 μs 的时间才检测出短路故障，并将 SiC MOSFET 关断，其消隐时间较大地限制了保护响应速度。
+
+3.2 所提出的电路在不同母线电压下的响应速度
+
+3.2.1 硬开关故障
+
+为测试所提出的短路保护电路针对 SiC MOSFET在不同母线电压下发生 HSF 的响应情况，采用和传统 DESAT 一致 的 实 验 方 案 ， 并 将 栅 极 驱 动 芯 片UCC21750 的 DESAT 功能禁用，此外用短粗铜棒短接双脉冲测试平台上桥臂 SiC MOSFET 的漏源极，将母线电压 Vdc 分别设置为 200、300 和 400 V 进行实验，同时利用 DSP 发出 PWM 信号控制下桥臂开通制造 HSF，其实验波形如图 11 所示。Vgs 所采用的栅极驱动电压为+18 V 和−2 V，栅极驱动电阻为6 Ω；Vsc 为检测到的短路信号； Vref1′ 为所设定的参考电压所对应的器件漏源极实际电压，本实验设定Vref1=Vref2=3.3 V，对应的 Vref1′ =2.5 V， Vref2′ =13.2 V。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2oNr9BpANH7AvfNWkRibwcRFO9svb9J0vYP2n8nd8rznplQYLhUqkYAQ/640?wx_fmt=png&from=appmsg)
+
+短路保护响应时间可分为短路检测时间和保护动作时间两部分，短路检测时间包含短路检测延时、滤波延时以及逻辑处理电路的处理时间，保护动作时间为驱动芯片传播延时。在 SiC MOSFET 发生HSF 时相应的短路检测时间见表 3。保护动作时间大约为 150 ns。
+
+由图 11 和表 3 可看出，所提出的短路保护方案受母线电压影响较小，且在该环境下短路保护时间均小于 300 ns。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2eSoZ1sO4cicUpiaZWXiaz9Jr2uJFGVX6iaPWES3HkjQHUwRsPuyJkjXFMg/640?wx_fmt=png&from=appmsg)
+
+3.2.2 负载短路故障
+
+通过使能栅极驱动芯片的控制引脚，将双脉冲测试平台的下桥臂 SiC MOSFET 保持开通状态，利用 DSP 和栅极驱动芯片控制上桥臂器件开通，使被测 SiC MOSFET 发生 FUL。并设置不同母线电压进行实验。实验波形如图 12 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC21fqeL5qZFLIpzBQYZUl4Bqo9Dw1Kc4bdYPragoKAyQeCibbH5vShbmg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2hI8L86BbYSQViaDxjllJXKia6Q3bf4AVp51GnKLNT2NKnb0PBgg7bujw/640?wx_fmt=png&from=appmsg)
+
+在 SiC MOSFET 发生 FUL 时相应的短路检测时间见表 4。其保护动作时间同 HSF 实验。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2wb8kUZlP9lDiaQU5NUBthze4R1ZvlcYODibYJrax3WMBylSrEka7gQeg/640?wx_fmt=png&from=appmsg)
+
+因为 HSF 发生前，被测 SiC MOSFET 已经完全开通，也就意味着其栅极电压处于高电平状态，发生短路时，只要发生退饱和现象就会迅速检测到短路故障，比起 HSF 实验去掉了栅极电压上升时间所带来的延时，实现极快的 FUL 检测及保护速度。实验表明，所提出的短路保护可在 FUL 发生 200 ns内实现短路检测和保护动作，且受母线电压影响小。
+
+3.3 在不同栅极驱动能力及驱动器下的响应速度
+
+部分传统 DESAT 保护在设计时会考虑到栅极驱动能力对 SiC MOSFET 开通时间带来的影响，根据实际工况优化其消隐时间，但在实际应用中还会通过调节栅极驱动电阻的大小来控制 SiC MOSFET开关速度，进而调节器件开关损耗或抑制器件上的关断过电压等。针对实际情况调节 DESAT 的消隐时间工作量大、费时费力。因此大部分 DESAT 保护的消隐时间往往设置的较大以满足各种工况，但其又与 SiC MOSFET 较短的短路耐受时间相互矛盾。
+
+所提出的短路保护电路通过检测栅极电压来判断 SiC MOSFET 是否开通，完美地解决了因器件的开通时间所导致保护误动作的问题。因 SiC MOSFET开通时间受栅极驱动能力影响，所以分别用 1、6及 10 Ω 的栅极驱动电阻来限制 SiC MOSFET 开通速度进行实验，并观察器件正常开通时两个比较器输入端的电压波形，实验波形如图 13 所示。VOB 为比较器 U2 输出电压 VOA 为比较器 U1 输出电压；Vref1、Vref2 为所设定的参考电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC247Ma9uWSjTydm0OK3mfibrFnNgzMCHTGFgzy56M2x0icserpZvyflwAA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2WW3G0kVp7COGL97PX3d1YsNDqzySMZWib2NtVLIia28h3IAvXTe51I2Q/640?wx_fmt=png&from=appmsg)
+
+由实验结果可以看出，SiC MOSFET 在正常的开通过程中两个比较器不会同时输出高电平，有效地防止了器件在正常工作时短路保护误动作。随着栅极驱动电阻的增大，SiC MOSFET 的开通速度也会减慢，相应的 HSF 短路保护检测时间也会增加。
+
+在 SiC MOSFET 短路保护过程中，保护动作时间同样影响着保护的响应速度，本文所提出电路的保护动作时间主要取决于栅极驱动芯片的性能，故采用 TI 公司生产的不同级别的驱动芯片对该电路进行测试，所采用的芯片型号分别为 UCC21750、UCC5350、UCC21520。不同栅极驱动芯片的保护实验波形如图 14 所示，Vsc 为短路信号，Vg1、Vg2、Vg3 分别为三种栅极驱动芯片输出的栅极电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskf07BRnoLFwjQ5yYDw3mC2BL3p8KggZY6TbjOoShDVPPd57MlHI1DUTly4jic60FosAf7Y2v3vkRQ/640?wx_fmt=png&from=appmsg)
+
+从实验结果可以看出，以上三种驱动芯片的保护动作时间差异较大，保护动作时间在 40～150 ns内。栅极驱动芯片在技术方面和器件参数存在一定差异，UCC21520 相较于 UCC21750 功能较少，其电路结构简单且滤波器较少，故其保护动作时间较短，经实验测试仅为 43 ns。由于所设计的保护电路已包含施密特触发器和外部滤波电路，故可通过选用延时较小的栅极驱动芯片来提升所设计电路的响应速度。
+
+为了测试所设计的短路保护电路的可靠性，分别对不同母线电压下的 HSF 及 FUL 短路保护进行测试，实验结果显示，该保护电路均能实现快速短路保护。此外还分别测试了 SiC MOSFET 在 10、50及 100 kHz 的开关频率下，正常的空载和带载实验，实验中该短路保护电路均正常工作。
+
+4\. 结论
+
+本文针对 SiC MOSFET 的短路过程及短路保护电路展开研究，分析了 SiC MOSFET 短路特性和DESAT 电路的工作原理及不足，并提出了一种基于栅极和漏极电压检测的短路保护电路，计算了该电路在不同短路类型下的响应时间，对该电路的快速性、准确性、可靠性进行实物测试分析，并与 DESAT进行对比实验。实验结果与理论分析和设计要求相符合，结果表示：
+
+1）所设计的短路保护电路在 SiC MOSFET 发生不同类型短路故障的保护时间均低于器件短路耐受时间：对于硬开关故障，可以在 600 ns 内实现快速、准确且可靠的短路保护，如果选用延时更小的栅极驱动芯片，还可将短路保护时间缩短至 500 ns内；在发生负载短路故障时能将 SiC MOSFET 短路保护时间缩短至 200 ns 以内。
+
+2）所设计短路保护电路的保护速度受母线电压影响较小，具有结构简单、成本低、速度快、精度高、可靠性高等特点，为 SiC MOSFET 在不同使用工况下的短路故障提供一种可行的解决方案。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)

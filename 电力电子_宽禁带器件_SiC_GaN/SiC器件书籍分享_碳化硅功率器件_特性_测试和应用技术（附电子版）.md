@@ -1,0 +1,62 @@
+# SiC器件书籍分享：碳化硅功率器件：特性、测试和应用技术（附电子版）
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/SnwcWZy3OoxNVHEpfNU2HQ](https://mp.weixin.qq.com/s/SnwcWZy3OoxNVHEpfNU2HQ)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEgJK9FA7uKcL6eR9Z0NNb3WFhjlpYeJpXjm8x4s4HY3DIjrWPeWjfuJA/640?wx_fmt=jpeg&from=appmsg)  
+
+《碳化硅功率器件：特性、测试和应用技术》是2021年机械工业出版社出版的图书。本书介绍了碳化硅功率器件的基本原理、特性、测试方法及应用技术，概括了近年学术界和工业界的\*新研究成果。
+
+本书共分为9章：功率半导体器件基础，SiC MOSFET参数的解读、测试及应用，双脉冲测试技术，SiC器件与Si器件特性对比，高di/dt的影响与应对——关断电压过冲，高dv/dt的影响与应对——crosstalk，高dv/dt的影响与应对——共模电流，共源极电感的影响与应对，以及驱动电路设计。
+
+ 第1章为功率半导体器件基础，首先介绍了Si功率器件的发展过程、特性及不足，再以半导体材料特性为基础介绍SiC功率器件相比Si功率器件的优势，还介绍了商用SiC功率器件和封装的发展现状。
+
+ 第2章为SiC MOSFET参数的解读、测试及应用，首先详细介绍了SiC MOSFET的最大值、静态参数、动态参数三大类参数的定义，并深入器件原理解释相关特性，给出了各项参数的测量方法。另外，还详细介绍了器件参数的实际应用，包括FOM值、建模与仿真、器件损耗计算。
+
+ 第3章为双脉冲测试技术，首先以典型功率变换拓扑的换流过程为例说明采用双脉冲测试评估器件开关特性的合理性，接着详细介绍了双脉冲测试的基本原理、参数设定、测试平台、测量仪器和测量挑战。
+
+第4章为SiC器件与Si器件特性对比，包含SiC MOSFET与Si SJ-MOSFET的对比，SiC MOSFET与Si IGBT的对比，SiC SBD、SiC MOSFET体二极管、Si FRD、Si SJ-MOSFET体二极管的对比。
+
+第5章为关断电压尖峰的影响与应对，详细介绍了关断电压尖峰的影响因素及三种应对措施，包括回路电感控制、去耦电容和降低关断速度。
+
+第6章为crosstalk的影响与应对，详细介绍了crosstalk基本原理和关键影响因素及两种应对措施，包括米勒钳位和回路电感控制。
+
+第7章为共模电流的影响与应对，详细介绍了信号通路共模电流的基本原理和特性以及三种应对措施，包括高CMTI驱动芯片、高共模阻抗和共模电流疏导，此外还介绍了差模干扰测量技术。
+
+第8章为共源极电感的影响与应对，详细介绍了共源极电感对器件开关特性和crosstalk的影响及开尔文源极封装的优势，并提出了创新的测试评估方法。
+
+ 第9章为驱动电路设计，为读者搭建了驱动电路架构，详细介绍了驱动电阻取值、驱动电压、驱动级特性的影响、信号隔离传输和短路保护关键技术。
+
+本书面向电力电子-新能源技术和功率半导体器件等领域的广大工程技术人员和科研工作者，可满足人事器件设计-封装-测试-应用专业人员的知识和技术需求。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEgA1gl2cGh5ygjibS6mWI8icFUvWga7Cbb6oLI35PRttFzomr5LKC9AsJg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEgGVC1OAde6vj3X0hL7iaYmO4icd0ribXGk8kVlOgQMl8L49wicTZKTbWiaEA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEgYKiaiaZYiauC2SAibRFYaw505BTj7PbYFHwgWDRLX0RF3PjZvo4YkNwrmw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEgznnrtK13WzBEclZDTqJXOvokxOR8zaIhjQFUjlh6NdOKHxfxhrX14A/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEg7YybATjXNOXicQEO6XelHoLVficeDfYkg1TK7icLtqd1bEvjeNDqmUpJg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEgSwlk4aL27Uu68bwmITWo8RkuPeaHYfT0axrMuMyBfmLQFZnyzF8qdg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEgpsVGKzUrGX8RibpoKpjCCUxImm8icyuDWdXlfm4iblBXw9bOTNhZDHZ0Q/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEgo62g5k1FjRtQqXZnntGbpMTkHCZS29UQY4B1DCyvyrIEssN7m5Tw4Q/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnibfq5fKiaUE5iaX2YKo8qzEg1BApGiaY4xVJqd10cEQ34LqibXj0xsCPj9bv8HVc5VXXZKjW4tG2LyibA/640?wx_fmt=png&from=appmsg)
+
+功率变换器是电能利用的重要装置，在生产和生活中发挥着重要的作用。功率变换器的核心是功率半导体器件，很大程度上决定了功率变换器的性能。经过近几十年的发展，功率半导体器件已经形成了覆盖几伏到几千伏、几安到几千安的庞大家族，常用的功率半导体器件类型包括MOSFET、IGBT、二极管、晶闸管、GTO晶闸管等。
+
+  大部分功率器件是基于Si半导体材料的，其特性已接近理论极限，成为功率变换器发展的瓶颈。为了获得具有更加优异特性的器件，第三代半导体材料SiC、GaN受到了越来越多的关注。与Si功率器件相比，SiC功率器件具有更高的开关速度、能够工作在更高的结温下、可以同时实现高电压和大电流。这些特性能够显著提升功率变换器的性能，获得更高的电能转换效率、实现更高的功率密度、降低系统成本。SiC功率器件适合应用于汽车牵引逆变器、电动汽车车载充电机、电动汽车充电桩、光伏、不间断电源系统、能源储存以及工业电源等领域。目前，国内外SiC产业链逐渐成熟，主流功率半导体器件厂商都已经推出了SiC功率器件产品，成本也不断下降，SiC功率器件的应用正处于爆发式增长中。
+
+  作者致力于功率半导体器件测试、评估与应用技术的研究和推广工作，特别对SiC功率器件有深入研究和深刻认知，精通器件测试设备和测量方法。在多年的研究工作中，作者深深地体会到掌握功率器件原理、测量原理与设备、相关应用技术对更好地开展相关研究和提升变换器特性具有重要意义，同时还了解到广大科研人员和工程师对了解和掌握SiC器件相关知识和技术的迫切需求，本书正是在这种背景下编写的，旨在帮助读者深入了解SiC器件的特性和测试方法，明确可能存在的应用技术挑战并掌握应对措施。这样既可以帮助科研工作者快速掌握本领域的最新重要成果，为科研工作提供坚实的基础，还能够帮助广大工程师更好地应用SiC器件，推进行业的发展。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsliaAWSXFuaSXvia8PjQ4udicW16iam0v4kcOic7u4fWpxTjEPwjXovUs1FfWJpnBPeaEvSrPIib71iafKQQ/640?wx_fmt=png&from=appmsg)高远，现任泰科天润应用测试中心总监。中国电工技术学会电力电子专业委员会高级会员及青年工程师工作组委员，第三代半导体产业技术创新战略联盟产业导师，泰克科技电源功率器件领域外部专家。2008年保送进入西安交通大学钱学森实验班，2012年和2015年于西安交通大学分别获得电气工程专业学士和硕士学位。毕业后加入台达电子从事未来先进电源技术研发工作。主要从事功率半导体器件的特性测试、评估及应用的关键技术研究工作，致力于推进功率半导体器件教育在高等学校普及和推广先进功率器件在工业界应用。发表学术论文8篇，授权专利4项，出版专著《碳化硅功率器件：特性、测试和应用技术》，收录于机械工业出版社“电力电子新技术系列图书”和“半导体与集成电路关键技术丛书”，并列入“十四五”国家重点出版物。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+-   **声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+    
+-   ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

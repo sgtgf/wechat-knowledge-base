@@ -1,0 +1,318 @@
+# 基于 ZVS 变频控制的 Si/SiC 混合 ANPC 逆变器损耗评估
+
+原创 蔡志成 ，苏建徽 SiC碳化硅MOS管及功率模块的应用 2025-06-24 19:56 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/RJVMjoGoxqfCF1agZ2ICpg](https://mp.weixin.qq.com/s/RJVMjoGoxqfCF1agZ2ICpg)
+
+文章来源：中国电机工程学报
+
+作者：蔡志成 1，苏建徽 2，杜燕 1\*，杨向真 2，施永 2(1．合肥工业大学电气与自动化工程学院，安徽省 合肥市 230009；2．教育部光伏系统工程研究中心，安徽省 合肥市 230009)
+
+摘要：零电压开通变频控制(variable frequency controlled zero-voltage-switching，VF-ZVS)可在无辅助电路条件下实现零电压开通(zero-voltage-switching，ZVS)，进一步提升碳化硅 MOSFET 逆变器的功率密度。但在三相有源中点钳位逆变器(active-neural-point-converter，ANPC)中，全功率器件 ZVS 会大幅增加输出电感电流纹波，改变 ANPC 逆变器的电流续流路径，影响 SiC 器件损耗分布特征。论文建立电流纹波关于矢量作用时间的分段数学表达式，提出计及电流纹波的 SiC 器件损耗建模方法，表征 VF-ZVS 控制下电流纹波对开关管损耗特性的影响规律。进一步，分析 VF-ZVS控制下 2SiC、4SiC I 和 4SiC II 3 种典型混合 ANPC 拓扑的新增工作模态特性；利用所提出的损耗模型，评估在不同调制度、全功率等级下上述 3 种混合拓扑的开关损耗、通态损耗和损耗分布均衡度，并通过 6kW SiC 实验平台，在不同功率等级下实验验证了 SiC 器件损耗模型和 3 种混合拓扑损耗评估结果的正确性。
+
+关键词：有源中点钳位逆变器；碳化硅；零电压开关；损耗；效率
+
+0 引言
+
+全SiC有源中点钳位变换器 (active-neural-point-converter，ANPC)具有高效率、高功率密度的优势，但是其中 SiC MOSFTET 单管价格通常是同等电流 Si MOSFET 或 IGBT 的 4 倍以上，成本过高。因此，Si/SiC 混合 ANPC 变换器以其低成本、高效率的优势受到业内广泛关注。
+
+文献\[3-4\]分别提出了一种由 2SiC MOSFET、4Si IGBT 组成的 2SiC 混合 ANPC 逆变器和 4SiCMOSFET、2Si IGBT 组成的 4SiC 混合 ANPC 逆变器 I，文献\[5\]提出了 4SiC 混合 ANPC 逆变器 II。文献\[6-8\]根据逆变器输出基波电流建立了 SiC 器件开关损耗模型与通态损耗模型，并以此分析了混合ANPC 逆变器的效率和损耗分布特征。结果表明，在硬开关定频控制中(constant frequency controlled hard-switching，CF-HS)，2SiC 混合 ANPC 逆变器开关损耗主要分布于 SiC 器件中，损耗分布极不均衡。4SiC 混合 ANPC 逆变器 II 效率和损耗分布均衡度均最高。
+
+为了进一步提高功率密度，SiC 器件的软开关技术成为了业内研究热点。相比于谐振网络软开关技术，零电压开通变频控制(variable frequency controlled zero-voltage-switching，VF-ZVS)无需添加辅助电路，效率和功率密度更高。
+
+VF-ZVS 控制通过增加电感电流纹波，使其在单位开关周期内改变电流方向，实现 SiC 器件 ZVS开通。在单相逆变器中，基于控制策略的软开关技术可根据电流纹波包络线的形式分为以下几类：边界电流模式、恒滞后电流模式和变滞后电流模式。但是在三相逆变器中，上述单相逆变器软开关控制策略难以同时实现三相 ZVS。文献\[17-18\]将滤波电容中点与直流侧电容中点连接起来，使三相电感电流可以像单相逆变器一样独立进行控制，但是这种控制方式会使频率变化范围过大 ； 文献\[19-20\]基于三相逆变器提出了一种可以实现全范围 ZVS 的变频控制，这种控制方式不需要额外的传感器，仅通过网侧电压和电流即可计算出所需的开关频率；文献\[21\]基于双机并联系统通过变频控制实现了三相全范围 ZVS。
+
+在文献\[19-21\]中，实现三相全范围 ZVS 均会大幅增加输出电感电流纹波，使电流纹波超过三相电流包络线两倍以上，电流纹波对 SiC 器件损耗的影响不可忽略。因此，本文分析 VF-ZVS 控制下电流纹波对开关管损耗的影响规律，建立电流纹波关于矢量作用时间的分段数学表达式，提出计及电流纹波的 SiC 器件损耗模型。同时，电流纹波大幅增加改变了 ANPC 逆变器的电流续流路径，影响了 SiC器件损耗分布特征。
+
+对此，本文分析在 VF-ZVS 控制下 2SiC、4SiC I和 4SiC II 3 种典型混合 ANPC 拓扑的新增工作模态；利用所提出的损耗模型，评估在不同调制度、不同功率等级下，上述 3 种混合拓扑的开关损耗、通态损耗和损耗分布均衡度。结果可为后续 SiC/Si混合逆变器拓扑选择和优化控制提供一定参考。
+
+1  VF-ZVS 控制策略
+
+VF-ZVS 控制是通过改变开关频率，增加电感电流纹波，使其在开关周期内改变电流方向，实现ZVS 开通。对于 ANPC 三相逆变器，每相实现 ZVS所需的最小电感电流纹波△Ix\_zvs 需满足以下约束条件：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaX8ghV3q9EJOAlPeMoQpIYs81j6lG6utZXicXiarwQTxX6vUeaI3lvQkEQ/640?wx_fmt=png)
+
+式中：Im 为负载电流幅值；θx 为负载电流相位；Ibias为 MOSFET 寄生电容在死区时间内完成充放电所需的最小偏置电流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXNM5Fo5k4nBDw4GAib5BnDKZNvwbeN3JAhtF7tAPBreq3QfNibKKJ1E8A/640?wx_fmt=png)
+
+根据图 1 所示 SiC/Si 混合 ANPC 逆变器拓扑，可以获得如图 2 所示三相 ANPC 拓扑等效电路，对所示等效电路应用 KVL 定理，可得电感 L1 的电压VL1x 为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXOfrB0TZtgUCZ3mhaics2tiaic2icxoghs6rEaTyszicC0FZSnMTicagoia1Yg/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXS9vV42yFMAs1auSDfe3JcHEw5PQmLmib2ibbMTRoaM92HXrjMeibwvJJA/640?wx_fmt=png)
+
+式中：Vx 为电容电压；Vxo 为每相桥臂中点电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXv7icEWUXB8VczZqoXuzJUVsFrwLI6W0gnm5mTGVQRicsCbkTtLpANA5Q/640?wx_fmt=png)
+
+对图 2 所示等效电路应用叠加定理，可获得中点 G 与 O 之间的电压 VGO：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXG235MAibXpup39OY9qBs3F8k5KyrgBoPk8NBWLajLtjhRAuuFks5KZg/640?wx_fmt=png)
+
+综合式(2)—(4)可获得电感 L1 中的电流纹波△Ix 为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXbqYe9r0Zsjg0LOMoZ5JJgzUQZGnPX5yecicoJD2VBMzHSjhHr1XP2VA/640?wx_fmt=png)
+
+式中：dx 为占空比；fsw 为逆变器实际开关频率。
+
+由式(5)可知，通过降低开关频率可提高 L1 的电流纹波，使其满足式(1)所示约束条件实现 ZVS。因此，将式(1)代入式(5)中即可获得每相实现 ZVS所需的开关频率 fSA、fSB、fSC。文献\[19-21\]为了使三相均能实现 ZVS，选择 fSA、fSB、fSC 中最低的频率作为逆变器实际开关频率：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXFmuaSGiaqc3Lib5ltVWyQDGicyaCVongE5ZONOYINBG5icB8TggBzvyQYg/640?wx_fmt=png)
+
+根据此控制方式，在应用 SVPWM 调制的条件下，电感电流纹波与开关频率变化趋势如图 3 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXxLB3hME0DC8SNmfIhM3lM7Fiaq7PygqJao1NyDnN4G9X8BPicIGsibnPA/640?wx_fmt=png)
+
+图 3(a)中波形分为基波电流与电感纹波电流，由图 3 可知，ANPC 逆变器虽然可以实现 ZVS 开通，但是纹波电流大幅增加至基波电流的 2 倍以上，因此纹波电流对器件损耗的影响不可忽略。
+
+2  VF-ZVS 控制 SiC 器件损耗建模
+
+在 VF-ZVS 控制中，SiC 器件损耗主要来源为关断损耗与通态损耗。因此本节根据 VF-ZVS 控制下电流纹波对开关损耗特性的影响规律和电流纹波分段数学表达式，提出了计及电流纹波的 SiC 关断损耗模型与通态损耗模型。Si IGBT 损耗计算参考文献\[22\]。
+
+在 ANPC 逆变器七段式 SVPWM 调制过程中，所有扇区在每个开关周期内，输出电流均由一组空间矢量合成，由此产生三相占空比分别为 dA、dB、dC。因此在七段式的每段区域内，都有一组三相电压组合加在电感 L1 上，使得这个区域内电感电流线性变化，最终纹波电流在 7 段区域中会出现 6 段线性变化电流，如图 4 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaX6n8BD5hsE5uSLTwrOMWfia1SI9alRefCLRNuQQZbHOgCvHeoElnTtYg/640?wx_fmt=png)
+
+因此可以根据 6 段电流变化规律，建立关断损耗模型与通态损耗模型。
+
+2.1 关断损耗模型
+
+由图 4 可知，在 VF-ZVS 控制中，单位开关周期内分别在 T1 和 T4 阶段产生一次关断损耗。根据其电感电流方向可定义为正向关断损耗与负向关断损耗。由图 4 可知，正向关断电流为 Ioff=IA+△IA/2，负向关断电流为 Ion=IA-△IA/2。其中，△IA为 A 相实际电感电流纹波，可由式(7)获得：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXiansyVYoicBYXsWapNCsX4fGUPSFCXCN3493TcsTAvTgxbF0Bj60STUg/640?wx_fmt=png)
+
+SiC MOSFET 关断损耗与关断时刻的电压电流值、功率回路寄生参数、驱动电路参数相关。功率回路寄生参数可通过 PCB 布局将其影响减小到最低，驱动电路参数可根据数据手册提供的典型应用电路设计，且驱动电路参数固定后不会改变。因此本文主要根据关断时刻的电压和电流对关断损耗进行修正，关断一次产生的能量可根据 SiC 器件数据手册拟合获得，结果如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXtyGuV66eicVt1PLR6nAibhOUIGfBpvNyf2CSSXiay68ZMiaTV5pDPibMjPA/640?wx_fmt=png)
+
+式中：Esw(Ids)为在给定关断电压 Vbase 条件下关断一次产生的总能量；Vds 为实际关断电压；k1 为关断电压修正系数。
+
+根据图 5 所示不同电压、电流等级下关断一次产生的能量对比结果，可以验证式(7)所提关断能量修正模型的正确性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXYZ2mMrAMia99icKAicTt79J3R9kCZ4hzchZOTd3gB9yOkyEQACTwT7hHw/640?wx_fmt=png)
+
+综合式(7)和(8)，可以获得在 VF-ZVS 控制中，正向关断损耗为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaX9zm6GyAFjoEzeAnDXyJa3Kqj1ZCyttArUQPdXZhngbJicUrcvqMOiaLQ/640?wx_fmt=png)
+
+负向关断损耗为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXSia6DWrqVNnUoRBVgWzibrC1C5MUKs0GpnmldnDsMKKQXDu2ibMfYiaOaw/640?wx_fmt=png)
+
+2.2 通态损耗模型
+
+在每个扇区内电感电流纹波均为 6 段线性变化电流，因此可以分别分析每一段电流的通态损耗进行叠加。
+
+在三电平 SVPWM 调制中，整个工频周期可分为 6 个大扇区，同时每个大扇区分成了 6 个小扇区。在本文中，记第 N 大扇区、第 M 小扇区为(N,M)，则由图 4 可知，在(1,3)扇区内每段电流作用时间为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXwCdWvFOqo3RmznqNZL73oibcuY9Va7TRdZNUcnyicXUwriambgxNjkiaOQ/640?wx_fmt=png)
+
+对其余 36 个扇区内每段电流的作用时间进行分析比较后，可以将 36 个扇区划分为 6 个区域，每个区域中每段电流作用时间表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXfE2J9kstdR10rUymqLPAFG4b3iaVLZA51hL9VR8pfUGPtQdXtE9C6Bg/640?wx_fmt=png)
+
+各个区域的fi(dA,dB,dC)见附录 A。
+
+每段电流变化表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXZgTeXCZhvba2scibkXhTOwJBSQGAsq2iaPYfm7vIyPict5BSQjibqiaGqkw/640?wx_fmt=png)
+
+结合图 4 和式(5)、(13)可得在(1,3)扇区中，每段电流变化表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXYteu32YGCgMIlrZHdLt3m6bkIX3bArcKSu1q21VOgutqEFp4ewleBQ/640?wx_fmt=png)
+
+因此，每段电流的 SiC MOSFET 通态损耗为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXspibPstCtyleB1hYs7dl2U3S0l46Km4XuZOzhdvG3WzxOghCr3E0nMQ/640?wx_fmt=png)
+
+式中 Rds 为漏源极间等效导通电阻。
+
+在三相 VF-ZVS 控制中，考虑不同的优化条件，可能会选择 fSA、fSB、fSC 中不同的频率作为开关频率，对此，上述 SiC 器件损耗模型在任何开关频率条件下均能适用。
+
+3  VF-ZVS 控制中不同 SiC/Si 混合方案模态损耗分析
+
+3.1 不同 SiC/Si 混合方案工作模态
+
+在单位功率因素条件下，对 3 种 SiC/Si 混合方案正半周期工作模态进行分析。在 VF-ZVS 控制中，3 种 SiC/Si 混合方案可以分为 4 种模态，其中负向续流模态和负向导通模态为 VF-ZVS 控制新增工作模态。
+
+1）正向导通模态。
+
+如图 6 电流路径所示，3 种混合方案电感电流经均经 Q1 与 Q3 正向流动，线性增加。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXgwMHcpibiczbYtdzn8j8Vd2eIu3h5cFWFK2mD50FsHcmVquVrticwibNibw/640?wx_fmt=png)
+
+2）正向续流模态。
+
+如图 7 所示，当电感电流增加至正向峰值 Ioff处时，对于 2SiC 混合方案，Q3 正向硬关断，在死区时间内，电感电流经 Q4 反并联二极管和 Q6 续流。死区结束时，Q4 两端电压已被钳位至 0，此时 Q4ZVS 开通。电感电流经 Q6 和 Q4 续流，线性下降，如图 7(a)电流路径所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXftn5UqWfROu9fVusIM5onoXLQRC3y7Wqog7vWxEI3jib8RNLTBdz1uw/640?wx_fmt=png)
+
+对于 4SiC 混合 I 方案，Q1 正向硬关断，在死区时间内，电流经 Q4 反并联二极管、Q6 和 Q2 反并联二极管、Q3 双路径续流。死区结束时，Q2 实现ZVS 开通，电感电流经 Q4 反并联二极管、Q6 和 Q2、Q3 双路径续流，呈线性下降趋势，如图 7(b)电流路径所示。
+
+对于 4SiC 混合 II 方案，Q3 正向硬关断，在死区时间内，电流经 Q4 反并联二极管、Q6 续流。死区结束时，Q1 无电流流过，因此 Q1 实现零电流关断(ZCS)，Q2 反并联二极管、Q3 和 Q4 实现 ZVS 开通。如图 7(c)电流路径所示，电感电流经 Q6、Q4和 Q2 反并联二极管、Q3 双路径续流，呈线性下降趋势。
+
+3）负向续流模态。
+
+当电感电流持续下降至 0 后负向流动，如图 8电流路径所示，对于 2SiC 混合方案和 4SiC 混合 II方案，电感电流经 Q6 反并联二极管和 Q4 反向续流，此时 Q6 反并联二极管实现 ZCS 开通。对于 4SiC 混合 I 方案，电感电流经 Q3 反并联二极管和 Q2 反向续流，此时 Q3 反并联二极管实现 ZCS 开通。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXTA5sWmBGokQkV5tusmH9f5ncqWY6GJjlIjBbN35bINILLSptDSExhQ/640?wx_fmt=png)
+
+当电感电流负向增加至负向峰值 Ion 时，对于2SiC 混合方案，Q4 负向硬关断，在死区时间内，电流经 Q3 和 Q1 反并联二极管续流，如图 8(a)电流路径所示。
+
+对于 4SiC 混合 I 方案，Q2 负向硬关断，在死区时间内，电流经 Q1 和 Q3 反并联二极管续流，如图 8(b)电流路径所示。
+
+对于 4SiC 混合 II 方案，Q4 负向硬关断，在死区时间内，电流经 Q1 反并联二极管和 Q3 续流，如图 8(c)电流路径所示。
+
+4）负向导通模态。
+
+如图 9 电流路径所示，电感电流负向流动，3种混 SiC/Si 混合方案中 SiC MOSFET 两端电压均被钳位至 0，此时 SiC MOSFET 均为 ZVS 开通。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXpsK7eXDx0B55qPUqfcvWUwiaibjyPbk1xia18lbZwLMRr3rlazJqjt0Kw/640?wx_fmt=png)
+
+3.2 不同 SiC/Si 混合方案损耗分布特征
+
+综合上述模态分析，在 VF-ZVS 控制中，3 种SiC/Si 混合方案在正半周期内各开关管损耗分布如表 1—3 所示，其中 SiC 器件体二极管损耗很低，可忽略不计，负半周的损耗分布情况与之类似，仅作简要说明，不再单独列表分析。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXNtvdtemUY9eKWgsa5KiaibTm6xxJhu3ZDib1pN53LWBxnkIUPYWCr7Q4Q/640?wx_fmt=png)
+
+对表 1—3 应用第 2 节所提 SiC 器件损耗模型可得 3 种 SiC/Si 混合方案中 SiC 器件损耗表达式。以下以(1,3)扇区为例说明，正半周其余扇区内损耗分布特征基本相同。
+
+1）2SiC 方案损耗分布。
+
+2SiC 方案正半周开关管损耗分布如表 1 所示，在正半周期内，电流未经过 Q2 和 Q5，故未对其进行损耗分析。由于只有 Q3 和 Q4 为 SiC 器件，故对其应用所提损耗模型，可得其损耗表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXnxghibk8Jxf4UicE8IrMSYzkbgYeKbV7vicW9cR56kjXEymbESlqZLwsA/640?wx_fmt=png)
+
+式中 P2SiC\_Q3 和 P2SiC\_Q4 分别为 2SiC 方案中 Q3 和Q4 的损耗。
+
+由式 16 和表 1 可知，在 2SiC 方案中，正半周内 Q3 承担正向关断损耗，Q4 承担负向关断损耗。但是由于只有 Q3、Q4 两个 SiC 器件进行开关动作，故其在负半周仍由 Q3 承担负向关断损耗而 Q4 承担正向关断损耗。因此在整个工频周期内 Q3 和 Q4 均承担全部关断损耗，通态损耗集中于 Q1 和 Q6。
+
+2）4SiC 方案 I 损耗分布。
+
+4SiC 方案 I 在正半周各开关管损耗分布如表 2所示。在正半周期内，电流未经过 Q5，故未对其进行损耗分析。其中 Q1、Q2 和 Q6 为 SiC 器件，对其应用所提损耗模型可得其损耗表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXOWfoK2RxDfQYaSkBDZ7jL3FEj5S8yCLvm4hiam7854Y1ll9tVAavmDQ/640?wx_fmt=png)
+
+式中 P4SiC I\_Q1、P4SiC I\_Q2 和 P4SiC I\_Q6 分别为 4SiC I方案中 Q1、Q2 和 Q6 的损耗。
+
+由表 2 和式(17)可知，4SiC 混合 I 方案中，在正半周内，将正向关断损耗和负向关断损耗分别由Q1、Q2 承担，通态损耗由 Q3 和 Q4 承担。负半周内损耗分布情况与之类似，区别仅为正向关断损耗和负向关断损耗分别由 Q6 和 Q5 承担，因此损耗分布更加均衡。
+
+3）4SiC 方案 II 损耗分布。
+
+4SiC 方案 II 在正半周各开关管损耗分布如表 3所示。在正半周内，电流未经过 Q5，故未对其进行损耗分析。其中 Q1，Q3，Q4 为 SiC 器件，对其应用所提损耗模型可得其损耗表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXzv4js9M1yFIww7mn3JsFw16ejfnyzgyrNWjbsY73SVh1Q93GqVKZFg/640?wx_fmt=png)
+
+式中 P4SiC II\_Q1、P4SiC II\_Q3 和 P4SiC II\_Q4 分别为 4SiC II 方案中 Q1、Q3 和 Q4 的损耗。
+
+由式(18)和表 3 可知，在正半周内 Q1 仅承担部分作用时间内的通态损耗，损耗很低。而 Q3 不仅承担全部作用时间内的通态损耗，还承担关断损耗，因此 SiC MOSFET Q1 与 Q3 之间损耗分布极不均衡。负半周损耗分布情况与之类似，Q5 与 Q4 之间损耗分布极不均衡。
+
+4  VF-ZVS 控制不同 SiC/Si 方案损耗对比
+
+应用 3 节所述损耗分布模型，对 CF-HS 控制的4SiC 混合 II 方案与采用 VF-ZVS 控制的 3 种 SiC/Si混合方案在开关损耗、通态损耗、损耗均衡度指标下进行定量对比分析。仿真参数如表 4 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXFXDbzdEg7IUR4mQfpME63Mia8a5nz5Tyv0bds0MYmCWe5E6djOU14mQ/640?wx_fmt=png)
+
+1）开关损耗对比。
+
+由表 5、6 可知，在开关损耗方面，相比于 CF-HS控制的 4SiC II 方案，采用 VF-ZVS 控制的 SiC/Si混合方案均实现了 ZVS 开通，开通损耗大幅降低，总开关损耗均降低了 4W 左右。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXChS0SJKpnf5rzUw6J02Kzzx9YY64aAMzl2Jh0QMJdsR9YTibBLicnraw/640?wx_fmt=png)
+
+2）通态损耗对比。
+
+在通态损耗方面，由于 VF-ZVS 控制增加了电流纹波幅值，通态损耗增加。其中采用 VF-ZVS 控制的 2SiC 混合方案通态损耗最高。采用 VF-ZVS控制的 4SiC I 和 II 方案均能采用双续流路径降低通态损耗，其中 4SiC II 方案的通态损耗比 4SiC I 方案减少了 1.52W。
+
+值得一提的是，在 CF-HS 控制中 4SiC I 方案由于存在大换流路径，采用双续流路径会使 Q4 反并联二极管产生较大反向恢复损耗，而 VF-ZVS控制由于换流路径改变，规避了这种现象发生。即使采用 CF-HS 控制的 4SiC II 方案通态损耗最低，但是总损耗仍然最高，效率最低，而采用VF-ZVS 控制的 4SiC II 方案总损耗最低，效率最高。
+
+3）损耗均衡度对比。
+
+为了更加直观的体现出损耗分布均衡度，将混合 ANPC 逆变器上部的开关器件损耗绝对差值记为△P，当△P 越小，损耗均衡度越好。
+
+根据式(1)和(5)，在 VF-ZVS 控制中，实现软开关的开关频率和电流纹波受到电感电压、占空比和负载电流的影响，因此本节根据式(1)—(5)和式(19)将最低开关频率、最大纹波电流和 3 种混合方案的损耗差值△P 在不同功率等级和调制度下进行了对比，如图 10、11 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaX0OocsOWrH04IBoPsfT8ibSbMQalESJOlHpmoGQ5ug9Ul7C8j6mJBt9Q/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXNLIK5z1qjp3op02Q5vILHHrHO6OLuyc5wZBicLurvEOvtuTIWwH5a9Q/640?wx_fmt=png)
+
+由图 10 可知，VF-ZVS 控制在不同调制度下开关频率与电流纹波相差不大，因此 3 种混合方案的损耗差值△P 也基本不变，如图 11 所示。轻载时，由于开关频率很高，电流纹波很低，损耗基本均为关断损耗，因此 2SiC 方案和 4SiC II 方案在轻载时△P 基本一致。而 4SiC I 方案由于将关断损耗由 Q1与 Q3 共同分担，因此在轻载时，其△P 很低，在1kW 时，损耗差值仅为 0.1W。
+
+随着功率等级逐渐增加，开关频率迅速降低，电流纹波逐渐增加，导致关断损耗降低而通态损耗增加，2SiC 方案和 4SiC II 方案的△P 逐渐降低。其中 2SiC 方案的 Q1 为 Si IGBT，较高的通态损耗弥补了关断损耗上的差值，因此 2SiC 方案损耗均衡度均优于 4SiC 混合 II 方案。而在 4SiC II 方案中，由式 18 可知，其 SiC MOSFET Q1 与 Q3 的损耗差值为 Q3 的关断损耗和部分通态损耗之和，所以当电流纹波较大、通态损耗过高时，其损耗差值反而逐渐增加，如图 11 所示，在 5kW 时，其△P 最低，为 3.59W。
+
+对于 4SiC I 方案，随着电流纹波增加，通态损耗逐渐增大，其△P 呈上升趋势，但仍远小于另外两种混合方案，损耗均衡度最优，在 10kW 时，△P仅为 3.6W。
+
+5 实验结果与分析
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaX3nfSZuWsznHomJkRKbY9TpDgmGwl2TGeWt0yaib2OBUhNJ3vtpA8gmg/640?wx_fmt=png)
+
+为验证本文所提效率与损耗分布情况，搭建了如图 12 所示三相 SiC/Si 混合 ANPC 实验平台，实验平台基本参数如表 7 所示。控制芯片采用 DSPTMS32028335 和 CPLD EPM1270T144I5。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXGY2MgLZZHZyFYEySh196Qx9KUr8Ww1QKAjlgvqtL5hO3OMb3Vkzicmw/640?wx_fmt=png)
+
+5.1 不同 SiC/Si 混合方案工作模态验证
+
+1）2SiC 混合 ANPC 逆变器。
+
+2SiC 混合 ANPC 逆变器的稳态输出波形如图 13(a)所示，其中：Vgs1、Vgs3 为 Q1 和 Q3 的驱动电压；VAO 为逆变侧 A 点与 O 点输出电压；Iout 为逆变器输出电流。与 3 节模态分析过程一致，在 2SiC混合 ANPC 逆变器中，Q3、Q4 在全周期内均处于高频开关状态，Q1 处于工频开关状态，SiC 器件承担所有开关损耗，输出电压为三电平，+0.5Vdc、0、-0.5Vdc。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXB4AeibFMUbsoUg3JtClcvia7WZTgD9hSsm4F42Nezlk4y1bM16h8nXQA/640?wx_fmt=png)
+
+图 13(b)、(c)分别为 SiC 器件 Q3、Q4 在正半周期内的瞬态波形，Vds3、Vds4 分别为 Q3、Q4 漏源极电压，IL1 为电感 L1 中的电流。实验波形与上述理论分析一致，在单位开关周期内，电流 IL1 可分为 6段线性变化的电流，当 IL1 降为 0 并反向增加至纹波峰值 Ion 时，Q3 实现 ZVS 开通，Q4 硬关断；当 IL1正向增加至纹波峰值 Ioff时，Q3 硬关断，而 Q4 实现ZVS 开通。此外，SiC MOSFET Q3 和 Q4 的关断尖峰很小，也进一步验证了 SiC 器件体二极管的开关损耗很低。
+
+2）4SiC 混合 ANPC 逆变器 I。
+
+4SiC 混合 ANPC 逆变器 I 的稳态输出波形如图 14(a)所示，与 3 节模态分析过程一致，Q1 在正半周期内处于高频开关状态，负半周期内不工作；IGBT Q3 处于工频开关状态，因此 SiC 器件承担所有开关损耗。相比于 2SiC 混合 ANPC 逆变器，输出电流 THD 基本一致。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXETtkX6MXewzDHxNe6CAQrsMfZ72D1XZmssSwd0bXicCobDtaS5pSibYA/640?wx_fmt=png)
+
+图 14(b)、(c)分别为 SiC 器件 Q1、Q2 在正半周期内的瞬态波形，Vds1、Vds2 分别为 Q1、Q2 漏源极电压，Vgs6 为 Q6 驱动电压。与上述理论分析一致，在单位开关周期内，当 IL1 反向流动并增加至纹波峰值 Ion 时，Q1 实现 ZVS 开通，Q2 硬关断；当 IL1正向增加至纹波峰值 Ioff时，Q1 硬关断，Q2 实现 ZVS开通。
+
+此外，由图 14(b)可知，当 Q2 导通时，IGBT Q6一直处于导通状态，因此在此阶段内实现了双续流路径，降低了通态损耗，且相比于 CF-HS 控制，优化了换流路径，Q2 关断尖峰很低。
+
+3）4SiC 混合 ANPC 逆变器 II。
+
+4SiC 混合 ANPC 逆变器 II 的稳态输出波形如图 15(a)所示，与 3 节模态分析过程一致，Q3 在全周期内均处于高频开关状态，而 Q1 仅在正半周期内进行开关，且由图 14(c)可知，Q1 为 ZVS 开通和关断，输出电流 THD 基本一致。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXxcavKrqQP6SBpNa3dM8ZcgSFnYtndnxZNm6x6ZTq0y4D5SwtCCFtAA/640?wx_fmt=png)
+
+图 15(b)、(c)分别为正半周期内 Q4、Q1 和 Q3的瞬态波形。实验波形与上述理论分析一致，在单位开关周期内，当电感电流 IL1 正向增加至纹波峰值 Ioff 时，Q4 ZVS 开通，同时 Q3 硬关断，经短暂时间后，Q1 ZVS 关断，且其关断前后无电流流过，也属于 ZCS 关断；当 Q4 完全开通时，Q3 实现 ZVS开通；当电感电流 IL1 反向流动并增加至纹波峰值Ion 时，Q4 硬关断，而 Q1 实现 ZVS 开通。
+
+此外，由图 15(b)可知，当 Q4 完全导通时，Q3开通，因此在 Q4 导通阶段内实现了双电流路径续流，降低了通态损耗。
+
+5.2 效率和损耗均衡度对比实验
+
+图 16 是直流电压在 800V，调制比为 0.86 时采用 VF-ZVS 控制的 2SiC、4SiC I 型、4SiC II 型三相ANPC 逆变器与采用硬开关定频控制的 4SiC II 型三相 ANPC 逆变器之间实测效率对比曲线，采用硬开关定频控制时，开关频率为 80kHz。由于磁性元件及电容、电阻等无源器件的损耗影响，实测效率略低于理论计算。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXBRSS7q3z1TGdYl7H3jJu8YAjEPpVwdq8rjcfdnfmtk1LwxFl7whnng/640?wx_fmt=png)
+
+从图 16 可知，与理论分析一致，采用 VF-ZVS变频控制时，由于消除了开通损耗，3 种混合 ANPC逆变器的效率均得到了提高，在全负载范围内均高于采用硬开关定频控制的 4SiC II 混合方案。当采用 VF-ZVS 控制时，与理论分析一致，4SiC混合方案效率较高。其中 4SiC II 混合方案的效率最高，其次为 4SiC I 混合方案，2SiC 混合方案的效率最低。在额定功率时，相比于 2SiC 混合方案，4SiC I 混合方案效率提高了 0.1%，4SiC II 混合方案效率提高了 0.13%。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaX0mAnLlaT9dSJrslrKmgrbVGPibibt5MLjNZMc3CuhtB8Y0o691XCD1Zw/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnOJQfvoUcpBibqW0OqnkNaXYLyHsdrglVrcbt0PnR0n1BnGPC8lF2gHsDu4r1Edmne6SkzzmGXtVA/640?wx_fmt=png)
+
+图 17 为采用 VF-ZVS 控制时，3 种 SiC 混合方案的开关管热成像图。实验结果与理论分析一致，在额定功率时，2SiC 混合方案中 SiC 器件 Q3 比 SiIGBT Q1 高出 5.7℃。而 4SiC 混合方案 I 中，损耗分布最均衡，SiC 器件 Q1 和 Q2 之间最高温差仅为2.3℃。4SiC 混合方案 II 损耗均衡度最差，SiC 器件 Q1 与 Q3 之间最大温差接近 8.4℃。
+
+6 结论
+
+本文基于 VF-ZVS 控制提出了计及纹波电流的SiC 器件损耗模型，进一步分析了 VF-ZVS 控制下2SiC、4SiC I 和 4SiC II 3 种典型混合 ANPC 拓扑的新增工作模态特性，并应用所提损耗模型在不同调制度、全功率等级下评估了上述 3 种混合拓扑的开关损耗、通态损耗和损耗分布均衡度，实验结果表明：
+
+1）相比于硬开关定频控制，VF-ZVS 控制消除了开通损耗，3 种混合方案的效率在全负载范围内均得到了提高。
+
+2）在 VF-ZVS 控制中，2SiC 混合方案效率最低。4SiC 混合方案由于存在双续流路径，通态损耗降低，效率提高。其中 4Si 混合方案 II 的效率最高，相比于 2SiC 混合方案提高了 0.13%，其次为 4SiC混合方案 I，效率提高了 0.1%。
+
+3）在 VF-ZVS 控制中，损耗分布均衡度不同于硬开关定频控制，4SiC 混合方案 II 的损耗分布均衡度最差，其次为 2SiC 混合方案，4SiC 混合 I方案的损耗分布均衡度最优。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)

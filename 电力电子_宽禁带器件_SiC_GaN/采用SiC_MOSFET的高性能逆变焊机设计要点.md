@@ -1,0 +1,172 @@
+# 采用SiC MOSFET的高性能逆变焊机设计要点
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/g3mQuYC9MjKkU0x3vRRf0A](https://mp.weixin.qq.com/s/g3mQuYC9MjKkU0x3vRRf0A)
+
+**摘要：**采用SiC MOSFET的高性能逆变焊机设计要点主要包括超高开关速度、‌适当的散热片和空气流设计、‌以及电源逆变器的高效测试条件。‌
+
+ 超高开关速度：‌SiC MOSFET的超高开关速度能够显著提高典型工作开关频率，‌相比于在10kHz至20kHz开关频率下工作的中等功率焊机所用的典型IGBT模块解决方案，‌SiC MOSFET的高开关速度有助于缩小磁性元件和无源器件的尺寸，‌从而缩小逆变器尺寸。‌这为逆变焊机的设计提供了更大的灵活性，‌允许使用更小的滤波电抗和更紧凑的电路布局。‌
+
+ 适当的散热片和空气流设计：‌为了满足高性能逆变焊机的散热需求，‌选择了适当的散热片和空气流，‌以提供适当的热时间常数。‌所有散热片均在大约5分钟后达到热稳态条件，‌冷却系统设计亦随之达到热稳态条件。‌在最大运行要求的60%焊接占空比内，‌SiC MOSFET器件即已达到热稳态条件，‌确保了焊机在高负载下的稳定运行。‌
+
+ 电源逆变器的高效测试条件：‌电源逆变器测试条件包括输出功率408A、‌47.7V、‌~19.5kW，‌目标输出功率为20kW、‌500A、‌40V，‌暂载率为60%，‌6分钟开、‌4分钟关。‌逆变器DC母线电压为530 VDC，‌开关频率达到50kHz。‌这些测试条件反映了采用SiC MOSFET的逆变焊机在实际应用中的高效能和稳定性。‌
+
+综上所述，‌采用SiC MOSFET的高性能逆变焊机设计通过其超高开关速度、‌适当的散热和空气流设计，‌以及高效的测试条件，‌实现了焊机的高效能、‌高频率和高稳定性，‌满足了现代工业智能制造对高端高性能焊机的需求。‌
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmS09bQL0pGEodeibWZPTFWGdIdfa3QZTUGfTYemHxpwHmG27Fz7ALEOaDwx3jTmDUvZtuPgDIFznQ/640?wx_fmt=jpeg&from=appmsg)
+
+**引言：**近年来，为了更好地实现自然资源可持续利用，需要更多节能产品，因此，关于焊机能效的强制性规定应运而生。经改进的碳化硅CoolSiC™ MOSFET 1200V采用基于.XT扩散焊技术的TO-247封装，其非常规封装和热设计方法通过改良设计提高了能效和功率密度。  
+
+逆变焊机通常是通过IGBT功率模块解决方案设计来实现更高输出功率，从而帮助降低节能焊机的成本、重量和尺寸。
+
+  
+
+在焊机行业，诸如提高效率、降低成本和增强便携性（即，缩小尺寸并减轻重量）等趋势一直是促进持续发展的推动力。譬如，多个标准法规已经或即将强制规定焊机的电源效率达到特定水平。其中一个例子是，2023年1月1日生效的针对焊接设备的欧盟（EU）最新法规。因此，对于使用功率模块作为典型解决方案的10kW至40kW中等功率焊机，顺应这些趋势现在已变得非常困难。
+
+  
+
+英飞凌CoolSiC™ MOSFET 1200V采用基于.XT扩散焊技术的TO-247封装，大大提升了器件的热性能和可靠性。结合特定的冷却设计（“为了增加散热，将器件单管直接贴装在散热片上，而未进行任何电气隔离”），它提供了更出色的器件单管解决方案（图1）。它可实现更高输出功率，提高效率和功率密度，并降低中功率焊机的成本。
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/hfkKuBiaLGGicicmCmxow7PV1mxszHhHzkLTEhZ70lglaSGGVibZvpApibibib7iaFqdf5I9mXHKbmK4dqKsyzvldgyjsQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+_图1：采用未与散热片隔离的1200V CoolSiC™ MOSFET单管的焊机电源_
+
+  
+
+“
+
+**采用.XT扩散焊技术的**
+
+**CoolSiC™ MOSFET单管**
+
+  
+
+增强型CoolSiC™ MOSFET 1200V充分利用了基于英飞凌.XT扩散焊技术的改良型TO-247封装。这项技术采用先进的扩散焊工艺。论文中所作详细讨论，这种封装技术的主要优点是大幅减小焊接层的厚度（图2），其中，特定的金属合金结合可显著提高导热率。这一特性降低了器件的结-壳热阻（Rthj-case）和热阻抗（Zthj-case）。  
+
+  
+
+这种焊接工艺可避免芯片偏斜和焊料溢出，并实现几乎无空隙的焊接界面，从而提高器件的可靠性。此外，它提高了器件在热-机械应力下的性能，这意味着器件在主动和被动热循环测试条件下具有更出色的性能。总的来说，采用基于.XT扩散焊技术的TO-247封装的CoolSiC™ MOSFET 1200V，可使焊机电源设计实现更好的热性能和可靠性。
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/hfkKuBiaLGGicicmCmxow7PV1mxszHhHzkLyia44wPXy9RwVdVJVQdOfILVJW3FR7AzwkUAWgmBp0CyD1AcVUXvqTw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+_图2：英飞凌.XT扩散焊技术较之于常规软焊工艺_
+
+  
+
+“
+
+**采用CoolSiC™ MOSFET器件单管的**
+
+**500A逆变焊机功率变换器设计**  
+
+  
+
+一家大型制造商的焊机，其独特的500A功率变换器设计展示基于.XT扩散焊技术TO-247封装的CoolSiC™ MOSFET 1200V，用于中等功率焊机的改良型解决方案。它使用了前文探讨的冷却概念，如图1所示，器件贴装在散热片上而不进行电气隔离。此外，为了证实其具备更好的性能，在相同的测试条件下，将其与主要竞争对手的SiC MOSFET进行了对比。
+
+  
+
+焊机电源由一个三相输入，全桥拓扑逆变器构成，使用了英飞凌提供的4颗TO-247 4引脚封装的基于.XT互连技术（IMZA120R020M1H）的20mΩ 1200V CoolSiC™ MOSFET。表1列出了逆变焊接的基本技术规格：
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/hfkKuBiaLGGicicmCmxow7PV1mxszHhHzkLd95R0zoLrnAwyeMVAo7ic8UcwSJibLdx0vNUAicLpVp2gFrG1nsbf0gyA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+_表1：焊机电源逆变器基本技术规格_
+
+  
+
+请注意，相比于在10kHz至20kHz开关频率下工作的中等功率焊机所用的典型IGBT模块解决方案，SiC MOSFET的超高开关速度能够显著提高典型工作开关频率。这有助于缩小磁性元件和无源器件的尺寸，从而缩小逆变器尺寸。
+
+  
+
+此外，为了满足表1所列要求，选择了适当的散热片和空气流，以提供适当的热时间常数。所有散热片均在大约5分钟后达到热稳态条件，冷却系统设计亦随之达到热稳态条件（图3）。这样一来，在最大运行要求的60%焊接占空比内，SiC MOSFET器件即已达到热稳态条件。
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/hfkKuBiaLGGicicmCmxow7PV1mxszHhHzkLcYdNB3gicss9G6UQZTBCepp6U5B16c0tqwkHN8YAKY8fMRjNicqY2bbA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+_图3：散热器的热稳态条件和散热能力_
+
+  
+
+**电源逆变器测试条件如下：**
+
+输出功率：408A、47.7V、~19.5kW。目标输出功率：20kW、500A、40V
+
+暂载率：60%，6分钟开、4分钟关
+
+逆变器DC母线电压：530 VDC
+
+开关频率：50kHz
+
+VGS（20mΩ CoolSiC™ MOSFET）：18/-3V
+
+VGS（竞品20mΩ SiC MOSFET）：20/-4V
+
+上桥臂散热片Rth：~0.36K/W
+
+下桥臂散热片Rth：~0.22K/W
+
+导热膏导热率：6.0W/mK
+
+贴装夹持力：60N（13.5磅）
+
+环境温度：室温
+
+强制空气冷却
+
+RCL负载
+
+  
+
+正如预期的那样，由于适当的栅极驱动器、RC缓冲器和PCB布局设计，英飞凌CoolSiC™ MOSFET与竞品SiC MOSFET之间没有显著差异，二者都表现出相似的波形性能（图4）。  
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/hfkKuBiaLGGicicmCmxow7PV1mxszHhHzkL8RSUMj1J06k9DktgelgQocwHpOWgrX2xz3oWHL4j3SgIX9FqkwG4fQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+_图4：焊机电源逆变器工作期间的典型SiC MOSFET波形_
+
+  
+
+然而，散热和功率损耗测试结果则表明，CoolSiC™ MOSFET的性能更加出色。温度曲线图（图5）显示，20mΩ IMZA120R020M1H CoolSiC™ MOSFET的性能明显优于竞品器件。平均而言，相比于竞品器件，CoolSiC™ MOSFET的散热片温度降低了约6%，估算的功率损耗降低了17%，壳温降低了14%。
+
+  
+
+此外，CoolSiC™ MOSFET在运行5钟后即达到热稳态条件，符合基于冷却设计数据的预计。另一方面，竞品SiC MOSFET一直未达到热稳态条件，这意味着其功率损耗在系统运行6分钟后仍在增加。
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/hfkKuBiaLGGicicmCmxow7PV1mxszHhHzkLerRzIA8Db5fQYTZdaXJam0crEiciabJdgqzBibFzg6ztApOP9596I9CEw/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+_图5：20mΩ 1200V SiC MOSFET在60%暂载率工作状态下的散热和功率损耗——英飞凌CoolSiC™ MOSFET IMZA120R020M1H较之于主要竞争对手的器件_  
+
+  
+
+最后，哪怕考虑到最高40°C环境温度，这种SiC MOSFET单管解决方案亦可轻松满足最高80°C散热片温度要求。
+
+  
+
+总而言之，测试结果证实并证明，CoolSiC™ MOSFET单管解决方案通过采用直接将器件贴装在散热片上而不进行电气隔离的冷却概念，可助力实现通常选用功率模块解决方案的20kW及以上中功率焊机的逆变器设计。
+
+  
+
+“
+
+ **结语** 
+
+测试证实，采用基于.XT扩散焊技术的TO-247封装的CoolSiC™ MOSFET 1200V，结合知名非常规冷却设计，实现更出色的焊机电源。这种设计大大提高了散热性能，实现比功率模块解决方案更高输出功率水平。英飞凌.XT互连技术的优点，有助于提高散热性能，从而提高逆变器的可靠性和使用寿命。文中提出的单管解决方案能够实现更高效率和功率密度，帮助满足对更高能效焊机的需求，同时顺应焊机行业发展趋势，如降低成本、重量和尺寸。
+
+  
+
+文章来源：英飞凌工业半导体
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

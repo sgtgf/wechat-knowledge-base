@@ -1,0 +1,215 @@
+# MEK6封装三相全桥碳化硅模块在载人小型飞机电调系统的突破性应用
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/RE3MIpcgoqG1xh8bo72gkQ](https://mp.weixin.qq.com/s/RE3MIpcgoqG1xh8bo72gkQ)
+
+🛫前言
+
+在2025第五届全球xEV驱动系统技术暨产业大会上，**爱仕特MEK6碳化硅模块（型号：ASC400N1200MEK6B）****凭借在载人小型飞机电调系统的突破性应用，荣获“新市场开拓先锋奖”**。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskCNlWONiazGoLKiao211JsetR1abD3IJdibK9UUqnscqPA5oHZ99gmibFHq2U1k7GiauRDAv7BjrvQ2JA/640?wx_fmt=png&from=appmsg)
+
+该奖项旨在表彰在新兴应用领域实现实质性客户进展与产品应用落地的优秀企业与产品，标志着爱仕特在航空领域的技术实力与商业化能力获得行业高度认可。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/G82XNUOiaHreRLkI9KJsF3jHMnasicrb1OsAw6rVLpLEa1uAQcZicxnO3ZZania0Sm0kibUFmI7xhPAN3aBpZvn6wAw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+
+本届评选以“新应用场景实质性突破”为核心标准，覆盖飞行汽车动力系统、具身智能执行机构等前沿领域。爱仕特ASC400N1200MEK6B作为载人小型飞机电调系统的核心部件，通过三大技术优势满足航空级严苛要求，实现了从实验室技术到实际飞行场景的跨越。
+
+🚀载人小型飞机电调系统概述
+
+电调系统（Electronic Speed Controller, ESC）是电动飞行器动力系统的“指挥中枢”，其核心任务是根据飞控指令，精确调节供给电机的电流大小和方向，从而控制电机的转速和扭矩，最终实现飞行姿态的稳定控制。
+
+对于载人小型飞机（包括eVTOL、电动固定翼、小型直升机等），其电调系统与传统无人机电调在原理上相似，但在性能、可靠性和安全性方面的要求极为苛刻，属于航空级标准。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1aI1DL4IbUEibY5W1e4XD3sW4G5gK0Xj2fzAmhVjGvsZbwbfZgn7uclg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+
+**eVTOL（电动垂直起降飞行器）：这种飞行器可以垂直起降，适用于城市空中交通和短途运输。**
+
+**![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1xgQQMIdTibxxztMkHMwLgg1icKWOrlEIrUuge9WTl269XUdX2yvpiaicQQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)**
+
+**小型直升机：直升机以其灵活性和垂直起降能力，在军事、救援、运输等领域发挥重要作用。**
+
+**![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv1Lmzg6iaRo5VRoBQNza4Z7tuKfvyRSdQukIqB9OzP0iaBwC0vWs9xwT3Q/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)**
+
+**轻型固定翼飞机：这种飞机适合短途飞行，常用于个人飞行、旅游和商务飞行。**
+
+**当前主流的低空飞行器动力主要有四种，即燃油、纯电、混动，以及氢能。**  
+
+**这四种方案各有优势，比如燃油方案载重大、续航时间长；纯电方案可适配智能化、噪音低；混动拥有纯电的优势，同时弥补了续航短的短板；氢能在发展早期，有望在大机型上率先使用。**  
+
+**这几种方案中，除了燃油方案需要的是燃油发动机，其他三种方案采用的都是电动机，也就是说电机与电控是低空飞行器的核心动力单元，也是其动力系统的重要组成部分。**
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnqgDUmnicLb6pO9uaW6gUv12KH00F5icUNHnUJU9m0JFomk3FXZhvMwMD2A3ySzNQ6GjunZUFzkVOQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+
+**目前的载人小型飞机主要以eVTOL和直升机为主。 一般来说，eVTOL会采用多电机方案，通常采用6~12个电机，停用1~2个电机的情况下仍具有飞行能力。 其垂直推理系统主要有垂起电机、电调、REU、电机冷却系统，以及螺旋桨组成，相比电动汽车，电机的数量更多，冗余度也更高，因为多冗余度的动力架构设计可以提升电动飞行器动力架构的安全性。**
+
+核心参数要求
+
+高功率与高功率密度：载人飞机动力系统功率通常在几十kW到几百kW级别。电调需能处理数百伏高压和数百安培大电流，同时必须在有限的体积和重量内实现，即追求极高的功率密度（目前先进水平趋向于≥10 kW/kg）。
+
+极高可靠性：载人飞行器对安全性的要求是最高等级的。电调系统必须遵循DO-254/DO-160G等航空电子标准，具备冗余设计、故障容错能力（如单电机失效后仍能维持安全飞行）和超长寿命（通常要求数万小时）。
+
+卓越的效率：高效率直接关乎续航里程和热管理压力。整个电驱系统（含电调）的效率需达到98%+，以最大限度利用宝贵的电池能量。
+
+严格的安全性与电磁兼容性（EMC）：系统需集成多重硬件保护（如过流、过压、过温、堵转保护），并且其电磁干扰（EMI） 必须严格控制，以防对飞控等敏感系统造成影响。
+
+宽工作温度范围与高效热管理：需在-40℃至+65℃甚至更宽的环境温度下稳定工作，并能高效散热，防止功率器件因过热失效。
+
+🚁碳化硅功率模块的应用优势
+
+碳化硅（SiC）材料因其宽禁带、高临界击穿场强、高热导率和高饱和电子漂移速率的特性，完美应对了上述挑战。
+
+提升动力系统效率与续航能力：
+
+低损耗特性：SiC MOSFET的开关损耗和导通损耗远低于传统硅基IGBT。这使得电调逆变器效率可提升至98%以上，从而延长续航里程10%-15%。
+
+高频运行能力：SiC允许开关频率大幅提升（可达100kHz以上），这不仅减小了无源元件（电感、电容）的体积，还有利于优化电机电流波形，降低电机损耗。
+
+支持高压平台与实现轻量化：
+
+ 适配高压架构：SiC器件天然适合800V及以上高压电气平台。更高电压意味着在相同功率下电流更小，从而减少线缆截面积，降低线束重量（可达30%）。
+
+功率密度革命：SiC器件的高温耐受性（结温可达200°C以上）允许简化散热系统，结合高频带来的无源元件小型化，使整个电驱系统重量降低20%-30%，功率密度显著提升。
+
+增强系统可靠性与寿命：
+
+高温稳定性与热管理：SiC材料的高热导率（约3.7 W/cm·K，是Si的3倍）使得热量更容易导出，器件结温可控性更高，在复杂气候条件下（如高海拔、强紫外线）性能更稳定。
+
+长寿命：SiC MOSFET的栅氧可靠性更高，结合银烧结等先进封装工艺，模块寿命可达传统IGBT的5倍以上，大幅降低维护成本和故障风险。
+
+改善电磁兼容性（EMI）：
+
+虽然SiC的高dV/dt可能带来EMI挑战，但其几乎无反向恢复的特性消除了二极管反向恢复带来的EMI峰值。通过优化驱动电路（如主动门极控制）和封装设计（如集成开尔文源极引脚），可以将dV/dt抑制在可控范围内（如50V/ns），降低对飞控系统的干扰风险。
+
+🛫MEK6碳化硅模块的产品介绍及优势
+
+MEK6封装的碳化硅模块，是三相全桥架构，采用平底板封装，总重量约300克。
+
+1\. 最高工作结温175℃；
+
+2\. 高功率密度，低开关损耗；
+
+3\. 适用高温、高频应用；
+
+4. 参数范围：
+
+             **V****DS****：650~1700V**
+
+               **I****D****：100~400A**
+
+       **R****DS(on)** **：2.5~25mΩ**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskCNlWONiazGoLKiao211JsetduG2TWWW9gYmWOK2U58nSwVhiaFwVBaYjX0DVzzDTYyxgPQ6oxHRh0Q/640?wx_fmt=jpeg)
+
+MEK6封装系列的模块产品选型
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskCNlWONiazGoLKiao211JsetgJ9unQu2LmLSBWx9m0Jia079pSoqscrH6uFtlUE5SSx0WsOwWJBI8Sg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskCNlWONiazGoLKiao211JsetD9JfyM0lV7Rzo4WFHEjFBVzQz2ah8XZYlFYfsr7PWdwgHicVia5oV6gw/640?wx_fmt=png&from=appmsg)
+
+ASC400N1200MEK6B（1200V400A）产品拓扑图和参数
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskCNlWONiazGoLKiao211Jsetdg0828ArmH7pMvBuBlw6TV0kOl8ShyeMXyEv2KztibU5lSTSEdWZh8Q/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskCNlWONiazGoLKiao211JsetyjGGibUE2qHFEjo4xwzyBwFYGoSgTBEhuq264IlTbs3Au0dwHic9RplQ/640?wx_fmt=png&from=appmsg)
+
+  
+
+ASC200N1700MEK6F（1700V200A外并二极管）产品拓扑图和参数
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskCNlWONiazGoLKiao211JsetfyqsbkyL7of6RFtMOFfksw6lLUFD0r1s0RJrIxkLVv7zLuGtia7S0aA/640?wx_fmt=png&from=appmsg)
+
+MEK6系列模块的尺寸图
+
+  
+
+**高压高频架构适配空中动力需求**
+
+**•**支持1200V耐压等级，开关频率较硅基器件显著提升，可大幅减小电调系统中磁性元件体积，满足飞机对轻量化、小型化的严苛设计需求。
+
+  
+
+**低损耗设计攻克续航瓶颈**
+
+**•**采用全焊片工艺及对称环流设计，显著降低寄生参数，导通损耗和开关损耗较硅基器件大幅降低；配合175℃高温工作能力，有效减轻冷却系统负荷，对提升飞机续航能力具有直接促进作用。
+
+  
+
+**高可靠性封装通过极端环境验证**
+
+**•**可适应高空环境的温度波动与振动冲击，确保在严苛工况下实现长久稳定运行，满足航空级可靠性标准。
+
+  
+
+**批量交付验证技术成熟度**
+
+**•****实现按月批量交付：**MEK6系列SiC模块已顺利进入量产阶段，可每月按时、按量为客户稳定供货，充分验证了其供应链的成熟度与可靠性。
+
+  
+
+**•****获得客户积极反馈：**目前已收获客户端的验证反馈，显示MEK6系列SiC模块显著提升了电调系统的整体效能，获得了实际应用场景的有效认可。
+
+  
+
+**场景化解决方案持续拓展**
+
+**•****电调系统功率转换：**作为电机控制器的核心部件，MEK6系列SiC模块能够高效将电池直流电转换为驱动电机所需的三相交流电，适配小型飞机电动推进系统对高功率密度（如150kW级别）的需求。
+
+  
+
+**•****能源管理与储能集成：**MEK6系列SiC模块还可用于飞机辅助能源系统的能量回收与分配环节，进一步优化能源利用效率，实现更高程度的电动化与节能目标。
+
+  
+
+🛬 碳化硅器件在载人小型飞机中的发展趋势
+
+1.从“可选”到“刚需”，渗透率持续提升：
+
+SiC模块正逐渐成为高压、高性能eVTOL和电动飞机的标准配置。预计到2025年，其在eVTOL中的渗透率将达30%，未来还将更高。
+
+2\. 技术迭代：更高集成、更智能、更大晶圆：
+
+智能功率模块（IPM）：未来会将SiC MOSFET、驱动器、电流/温度传感器甚至控制器高度集成，形成智能功率模块，进一步简化设计、提升可靠性。
+
+8吋及12英寸衬底过渡：虽然目前主流是6英寸，但向8英寸和12英寸SiC衬底的过渡是必然趋势，这将显著降低成本，提升产能。
+
+3\. 成本下降与产业链成熟：
+
+随着国内厂商如天科合达、天岳先进、烁科晶体等在衬底材料上不断突破，以及规模化效应的显现，SiC模块的成本将持续下降，加速其在航空领域的普及。
+
+4\. 标准完善与认证突破：
+
+随着应用的深入，针对eVTOL和电动航空的SiC功率模块测试标准、认证体系将逐步建立和完善。国内企业正与民航局合作制定本土化测试体系，为大规模商用扫清障碍。
+
+5\. 与系统深度协同优化：
+
+未来的设计将不再是简单替换器件，而是从飞机总体层面，对电驱系统、热管理系统、电源管理系统进行协同优化，最大化挖掘SiC带来的潜力。
+
+SiC功率模块的封装大全
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbcHG5xq4HHP5PuezMwHCpSW0pibQ8h3kzZNPkexnE8SWpoa2K7SeW87g/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+
+SiC功率模块的应用领域
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbbnzia3cqNVicMY7UL9R6WQGdGIStCgibllBicZoyIVs5vOibp3kSVFufOsg/640?wx_fmt=png&from=appmsg&watermark=1&tp=webp&wxfrom=5&wx_lazy=1)
+
+✈总结
+
+电调系统是推动载人小型飞机快速发展的重要引擎。随着技术的不断创新和市场需求的变化，未来的动力系统将更加高效、智能和环保。在这场科技革命中，谁能率先突破技术瓶颈，谁就能在低空经济的大潮中脱颖而出。未来，我们期待看到更多创新的低空飞行器动力解决方案，为城市交通带来全新的飞行体验。
+
+SiC MOSFET器件在航空航天领域具有广泛的应用前景，可以提高系统的性能和可靠性，同时也可以满足航空航天领域对高温、高压、高功率等特殊环境的要求。随着技术的不断发展，SiC MOSFET器件将会在航空航天领域中发挥越来越重要的作用。
+
+  
+
+注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbg7mbSTRq6xxdalQFicZl9juNGuSbwttzgj2bcTVWEcMMGArafeOy2Sw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk95PQibOL2vIfm7D2dwfRBbMr2gmicAdQbfntmnNrC0DIkQWRRoRHwXp0x3DrkgrvrfvqSxbiby4YGg/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)

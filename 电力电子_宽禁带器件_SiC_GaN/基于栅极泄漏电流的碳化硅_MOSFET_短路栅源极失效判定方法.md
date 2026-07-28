@@ -1,0 +1,175 @@
+# 基于栅极泄漏电流的碳化硅 MOSFET 短路栅源极失效判定方法
+
+原创 彭娇阳，孙 鹏 SiC碳化硅MOS管及功率模块的应用 2024-12-22 12:27 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/uY74afOC6dhyViSIiwYEkA](https://mp.weixin.qq.com/s/uY74afOC6dhyViSIiwYEkA)
+
+文章来源：高电压技术
+
+作者：彭娇阳，孙鹏，张浩然，蔡雨萌，赵志斌（华北电力大学新能源电力系统国家重点实验室，北京102206）
+
+摘 要：碳化硅金属氧化物半导体场效应晶体管(metal-oxide-semiconductor field-effect transistor, MOSFET)的短路坚固性是影响器件在高压高频功率变换领域应用的关键问题。在传统的碳化硅MOSFET栅源极短路研究中，依据器件关断后的波形中栅源极电压uGS的上升判定是否发生短路失效。首先分析了这种传统的栅源极短路判定方法，指出其存在的uGS上升不明显问题将导致判定结果不准确。进而通过对碳化硅MOSFET栅源极短路的失效机理进行分析，提出了基于碳化硅MOSFET的静态参数——栅极泄漏电流IGSS的栅源极失效判定方法。然后搭建了碳化硅MOSFET短路实验平台，通过测量短路过程中IGSS的变化情况验证了所提出的判定方法的有效性及可行性。最后对比了2种判定方法的参数灵敏度、短路耐受时间和临界短路能量。结果表明，相比于传统判定方法，所提出的栅源极失效判定方法灵敏度提高了7倍以上，能够更准确地识别碳化硅MOSFET是否发生栅源极失效。上述分析有利于在实际应用中准确识别短路故障后器件的损坏状态，进而提高碳化硅MOSFET在高压应用中的可靠性和经济性。
+
+关键词：碳化硅MOSFET；栅极泄漏电流；栅源极失效；栅源极短路；判定方法
+
+0. 引言
+
+功率半导体器件在电力电子技术领域一直占据着重要地位。相比传统的硅基器件，碳化硅金属氧化物半导体场效应晶体管(metal-oxide-semicon-ductor field-effect transistor, MOSFET)具有可耐受的温度和电压等级更高、导通损耗更低和开关速度更快等一系列的优点，已经在可再生能源发电、轨道交通、电动汽车等诸多工业领域具有广泛应用。目前已研制出电压等级高达15 kV的碳化硅MOSFET器件样本，凭借高击穿电压和低导通损耗的优势未来将在高压领域中具有良好的应用前景。
+
+由于工业应用环境十分复杂，半导体功率器件常常面临着发生短路故障的风险，短路发生的原因可能是桥臂器件故障、驱动电路故障或由外界干扰引起误动作等。为保证实际应用中的安全性和可靠性，众多学者已对碳化硅MOSFET的短路进行了深入研究。尽管碳化硅器件的材料特性优势突出，但由于芯片面积更小、栅极氧化层厚度更薄、短路电流密度更大，导致其相比同量级的硅器件承受更强的电热应力，短路坚固性更差。主要表现为在同等实验条件下的短路耐受时间更短。高压下功率器件的短路耐受时间进一步缩短，并且实际应用中受限于采样电路、控制电路的延迟，器件的短路保护动作时间通常在几微秒以上，导致短路失效可能发生在保护动作之前，因此有必要对碳化硅MOSFET的短路失效进行深入研究。
+
+碳化硅MOSFET具有2类典型的短路失效现象，栅源极短路(G-S短路)失效和漏源极短路(D-S短路)失效。其中D-S短路失效是一种不可控的失效现象，由于器件内部温升与电流增大之间的正反馈，最终导致了破坏性的结果。而G-S短路失效不会造成短路电流急剧增加，并且能够保证器件及时关断，属于一种相对安全的失效现象。2021年电子科技大学、2019年西安交通大学和2016年日本筑波大学的团队在研究碳化硅MOSFET的G-S短路时，均依据实验波形定义器件关断数微秒后栅源极电压uGS上升时刻为G-S短路的发生时刻。这种基于实验波形的传统判定方法(voltage waveform determination method，VWDM)，由于在不同实验条件下发生G-S短路时uGS上升的程度不同，导致仅依据波形难以准确判断碳化硅MOSFET在短路后的损坏情况。
+
+栅极泄漏电流(gate-source leakage current，IGSS)的大小可有效反映碳化硅MOSFET的栅源极间绝缘性能。文献指出随着功率循环次数的增加，IGSS明显增大，由于具有变化显著且易于测量的优势，栅极泄漏电流可作为碳化硅MOSFET老化的前兆参数。此外，在高温栅偏研究中，测试结果表明器件的泄漏电流在栅氧退化后会出现剧增现象。而在碳化硅MOSFET的短路失效相关研究中没有关注栅极泄漏电流的变化情况，均依据关断后uGS的上升判定G-S短路的发生。
+
+针对上述问题，本文提出了基于碳化硅MOSFET的静态参数--栅极泄漏电流IGSS判定器件是否发生栅源极失效的方法(leakage current determination method，LCDM)。利用LCDM中IGSS测量具有准确性和可靠性高的优势，实现了碳化硅MOSFET栅源极失效的准确识别。本文首先分析了碳化硅MOSFET的G-S短路失效机理，得出当器件的栅极结构损坏时静态测试中IGSS会剧增。然后搭建了短路实验平台，在不同漏源极电压下进行破坏性实验。最后通过实验结果验证了LCDM的准确有效性。研究结果表明：相较传统G-S短路研究中以uGS的波形作为判定依据，本文提出的方法可准确判定碳化硅MOSFET的栅源极失效，具有更高的参数灵敏度，可用于判断短路故障后碳化硅MOSFET的损坏程度，对提高其在实际应用中的坚固性和经济性具有重要意义。
+
+1. 碳化硅MOSFET栅源极失效的判定方法
+
+1.1基于uGS的传统栅源极短路判定方法
+
+碳化硅MOSFET的G-S短路是目前短路研究中最常见的失效情况。在漏源极电压为600 V的情况下，G-S短路占全部失效的比例高达62%。对已损坏的碳化硅MOSFET进行去封装处理，随后使用超声波或电子显微镜等技术手段观察其元胞结构，进行栅源极短路的失效机理分析，见图1。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsko6fVH1bWKK09ZIP4iap7eibtt4myNSZLsFYpSfscQibOHP0HGZayhX09aLURnJ9og3Zu2FLpkWfkKQ/640?wx_fmt=png&from=appmsg)
+
+在图1中观察到碳化硅MOSFET的栅极上方电介质夹层处出现裂纹。这是因为器件的栅极多晶硅、电介质夹层和源极铝金属的材料之间存在热膨胀系数差异，在短路过程中由于高压大电流在短时间内产生大量热量，造成碳化硅MOSFET的结温快速上升，最终高温带来的热机械应力导致了器件的栅极电介质夹层形变，并产生裂纹。在关断后碳化硅MOSFET的结温仍然维持在较高温度范围内。一定时间内器件源极融化的金属铝填补栅极电介质夹层处的裂缝，最终造成G-S短路。短路出现在碳化硅MOSFET关断后几微秒的时刻，称为“延迟失效”，如图2所示。其中t为实验时间，uGS为器件栅源极两端电压，iG为驱动回路电流，UDC为器件栅漏极两端电压，RG为驱动回路电阻，TC为实验环境温度。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsko6fVH1bWKK09ZIP4iap7eib3LpCibqSbBExDI4R99zYSByygcqI0N9VQvbBIG9b1ajjGXhlhPfxibWQ/640?wx_fmt=png&from=appmsg)
+
+图2中碳化硅MOSFET在关断后4 s时刻，uGS从–5 V上升至–1.5 V。其本质是短路冲击强度导致器件的栅源极间绝缘性降低，G-S短路时栅极电流iG的绝对值由0增大至100 mA，此电流经过栅极驱动电阻RG会产生一定的反向压降，进而导致uGS上升。如式(1)所示，其中UGS为碳化硅MOSFET的栅极驱动源电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsko6fVH1bWKK09ZIP4iap7eibx0ic2bMJiczEfiaqibfxjWrLsr8obvnuiby4UK0I6KiaSjIS1X0jhOk6tIDg/640?wx_fmt=png&from=appmsg)
+
+文献\[29\]中碳化硅MOSFET关断后发生G-S短路之前的延迟时间高达12 s。若完全依据实验中的uGS波形判定G-S短路，则在波形记录时间范围较窄的情况下易出现误判。此外，当碳化硅MOSFET承受的短路冲击强度并未导致栅源极完全击穿时，波形中关断后uGS的上升程度不明显，难以进行准确判定。因此需要一个全新的判定方法，用于准确判断短路故障后碳化硅MOSFET的损坏情况。
+
+1.2 基于IGSS的栅源极失效判定方法
+
+在短路实验过程中，碳化硅MOSFET的栅极电流iG随短路脉宽的变化而变化。2019年法国图卢兹大学的研究团队通过理论分析和实验验证，将iG产生的主要原因归结为Fowler-Nordheim隧穿效应及热电子发射原理。并通过建立碳化硅MOSFET短路过程中的iG模型，仿真拟合器件发生G-S短路前iG的增大趋势，如图3所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsko6fVH1bWKK09ZIP4iap7eibnPDvVIbFH411BNlicnPbCGJiagrr1sqdZpdm9icZaIW1Y2Ls9Dq3H0gcw/640?wx_fmt=png&from=appmsg)
+
+但上述关于iG的研究不能明确界定碳化硅MOSFET栅源极短路发生的临界值及临界条件，并且仅在短路实验过程中才能够测得iG。当器件的栅源极间结构损坏但并未完全击穿时(即发生栅源极失效)，受测量量程与测试噪音的影响无法准确观测到栅极电流iG的微小变化。而器件的栅极泄漏电流IGSS是在短路实验后使用功率器件分析仪离线测量，与iG测试的区别主要在于采用离线测量的方法可避免在线测量过程中动态电流对稳态电流测量的影响，大大提高了电流测量结果的准确性，因此考虑研究IGSS在器件短路失效过程中的变化情况。
+
+在规定的栅极电压UGS范围内，碳化硅MOSFET的IGSS很小，仅为纳安级别。在传统的MOSFET中采用二氧化硅薄膜材料，其栅极传导电流密度JFN可用式(2)的经典Fowler-Nordheim公式表示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsko6fVH1bWKK09ZIP4iap7eibUJibp1f3E5g02jYv43FQtPThF8sONX5eEpiaxZV6IqYBusvljD3Xtm6g/640?wx_fmt=png&from=appmsg)
+
+式中：JFN为栅极传导电流密度；E为电场强度；q为电子电荷；me和mox分别为自由空间和氧化物中的电子有效质量；h为普朗克常数；φ0为势垒高度。
+
+在实验过程中，若短路冲击强度导致碳化硅MOSFET的栅极电介质层变形或产生裂缝，则器件的栅极绝缘性能下降、载流子迁移率增大、电子有效质量减小。最终导致静态测试中碳化硅MOSFET的IGSS参数增大，认为此时器件发生了栅源极失效。若短路实验的冲击强度较大，则会导致碳化硅MOSFET的栅极电介质层被完全击穿，同时由于高温导致源极融化的铝金属填补裂缝。最终的实验结果表现为关断后碳化硅MOSFET的栅源极电压uGS波形上升，认为此时发生了栅源极短路。
+
+基于上述原理，本文提出依据碳化硅MOSFET的IGSS变化情况判定是否发生栅源极失效。下文将通过对短路脉宽递增实验进行具体分析，验证LCDM的有效性。
+
+2. 碳化硅MOSFET短路实验
+
+2.1短路实验原理
+
+目前碳化硅MOSFET的短路研究主要围绕3种短路故障类型展开。第1类短路又称作硬开关短路(hard switching fault，HSF)，指的是在功率半导体器件导通之前外部电路已经发生短路。第2类短路又称作带负载短路(fault under load，FUL)，指的是在功率半导体器件完全导通之后发生短路。第3类短路故障指的是开关器件在其反并联的二极管正向续流时导通并发生短路。由于第1类短路故障即硬开关短路下，碳化硅MOSFET短路瞬间积累的能量相对较大，短路冲击强度对器件造成的损坏明显。因此本文选择此类短路故障进行实验研究，短路实验原理如图4所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsko6fVH1bWKK09ZIP4iap7eibBT75AMRDMWp82Mc6oyJFYOWB5WOM64vRsrF5oaHjeKGUQJklANGw7A/640?wx_fmt=png&from=appmsg)
+
+图4中DUT表示待测的碳化硅MOSFET器件，Lstray和Rstray分别为漏源极间功率回路的寄生电感和寄生电阻；CDC为直流母排电容；R为放电电阻；U为高压直流电源；S1和S2为直流母排电容充放电回路的控制开关；uDS、uGS和iD分别为测量的器件漏源极电压、栅源极电压和短路电流。S1闭合，高压直流电源开始向直流母排电容充电，当母排电压即碳化硅MOSFET漏源极两端的电压达到预设值时，驱动回路输出开通脉冲信号。碳化硅MOSFET功率回路的短路状态结束后闭合S2，直流母排电容通过放电电阻R完成放电。本文在不同漏源极电压下逐次递增脉宽重复进行短路实验，直至器件失效。
+
+2.2短路实验平台
+
+为保证碳化硅MOSFET最终发生栅源极短路，以0.2μs的梯度逐次递增短路脉宽进行破坏性实验，本文的短路实验平台如图5所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsko6fVH1bWKK09ZIP4iap7eibh4kk1PcpEKmiaooZ4iam7nBA4FQNrXgUDvOy4gjqXwD7oYaAL9kM0yjw/640?wx_fmt=png&from=appmsg)
+
+实验所用的测试器件为1.2 kV/36 A碳化硅MOSFET。为保证短路实验前后器件的漏源极电压即母排电压下降≤5%，选择2个500 μH/1 100 V的薄膜电容并联后作为直流母排电容。短路前使用高压直流电源向母排电容充电，短路后电容通过2 kΩ的放电电阻完成放电，实验过程中电容的充放电操作由10 kV/400 A的隔离开关控制完成。选用带宽500 MHz的示波器记录实验波形，选用配套的无源探头测量碳化硅MOSFET的漏源极电压uDS和栅源极电压uGS。选用带宽150 MHz的差分探头测量栅极回路驱动电阻RG上的电压uG，以计算得到碳化硅MOSFET短路过程中的栅极电流iG。选用带宽30 MHz量程600 A的罗氏线圈测量功率回路的短路电流iD。
+
+2.3 短路实验设置
+
+依据数据手册设置碳化硅MOSFET的栅源极驱动电压UGS为−5/+20 V，栅极驱动电阻RG=37.5Ω，实验温度固定为TC=25℃，在不同的漏源极电压下逐次递增短路脉宽进行实验。每单次短路后使用功率器件分析仪测量碳化硅MOSFET的栅极泄漏电流IGSS参数，直至器件损坏。
+
+数据手册中规定碳化硅MOSFET的IGSS参数在UGS=20 V、UDS=0 V的测试条件下≤250 nA。当碳化硅MOSFET的栅极结构损坏后，在同一测试条件下IGSS将明显增大。为防止IGSS的静态测试对碳化硅MOSFET造成二次伤害，实验过程中对功率器件分析仪的测量通道设置电流限制，记录IGSS达到极限值250 nA时对应的栅源极电压UGSS@IGSS=250nA(以下简记为UGSS)。若其小于数据手册中的栅极驱动电压额定值，即UGSS<20 V时认为碳化硅MOSFET已发生栅源极失效。每单次短路实验后，碳化硅MOSFET的状态判断示意图如图6所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsko6fVH1bWKK09ZIP4iap7eibibplEnq9SHqWteABiaULrVlqfwELwIiaScBmE0dwPZlVZBcLylPvxhIpg/640?wx_fmt=png&from=appmsg)
+
+3. 碳化硅MOSFET短路实验结果分析
+
+3.1栅极泄漏电流与实验结果分析
+
+碳化硅MOSFET的短路耐受时间随母排电压的增大而减小，在UDC=400 V的条件下，对4个器件(A1—A4)进行了破坏性短路测试，短路耐受时间约为16μs左右。在UDC=500 V的条件下对2个器件(B1、B2)进行测试，短路耐受时间约为10 μs。
+
+A2号器件在UDC=400 V短路实验过程中的IGSS变化和不同脉宽的实验波形如图7所示。
+
+图7(b)中短路时间tSC=16.1 μs时碳化硅MOSFET关断后的uGS并没有上升，但图7(a)中对应短路脉宽的实验后测得UGSS=2.94 V<20 V，表明此次实验后A2号器件的栅源极已失效但尚未短路。继续增加脉宽，tSC=16.5 μs时，A2号器件在关断后2.6 μs时刻uGS上升了0.2 V。tSC=16.5 μs实验后测得器件栅源极间电阻由初始的无穷大降低至800Ω，说明器件的栅极结构损坏程度加剧，但栅源极间尚未完全短路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsko6fVH1bWKK09ZIP4iap7eibL8cyEcQaibdvDAW7QapG97T4EiaNibAl7icwiby8qONibic3snsicZuEBPhuuQ/640?wx_fmt=png&from=appmsg)
+
+如图7(b)所示，tSC=16.5 μs实验过程中的iG相比其他脉宽明显增大，增大值最大为15 mA。这是由于前一次实验tSC=16.3 μs后A2号器件的栅极结构已损坏，表现为关断后16 μs时刻iG降低了3.5 mA。iG的变化通过驱动电阻RG产生压降，导致同一时刻的uGS上升，但由于其上升幅度太小，因此在图7(b)中难以观察到。
+
+B2号器件在UDC=500 V短路实验过程中的IGSS变化和不同脉宽的实验波形如图8所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsko6fVH1bWKK09ZIP4iap7eibAFqlNb3drx1eJWAd6SX0vvribABlHPlPVltM4jSU3P0iarHN1SbDSEsA/640?wx_fmt=png&from=appmsg)
+
+与A2号器件的实验结果类似，B2号器件在tSC=10.6 μs的实验后IGSS增大，表明已发生栅源极失效。而关断后uGS上升的现象在tSC=10.8 μs实验中才出现，其中uGS从碳化硅MOSFET关断后3.8 μs时刻开始分阶段持续上升，最终在示波器的记录范围内uGS上升了0.6 V。
+
+由于图8(b)中uGS逐渐上升的趋势可能一直持续至示波器的记录范围之外，这将导致难以获得关断后uGS的准确变化值。因此仅依据实验过程中的uGS波形变化情况难以准确判定碳化硅MOSFET的栅源极短路情况，而通过对比tSC=10.6μs实验前后IGSS的变化，则可以明确地判定器件已发生栅源极失效。
+
+在逐次增加短路冲击强度的实验过程中，当碳化硅MOSFET发生栅源极失效后，IGSS将明显增大。若冲击强度继续加剧，在短路实验波形中出现关断后uGS上升的现象，代表碳化硅MOSFET发生G-S短路。当栅源极完全击穿时，在实验波形中表现为关断后uGS从栅源极反偏电压值(例如−5 V)上升至0 V。
+
+单次短路实验的冲击强度受多种外界条件的影响，例如漏源极电压UDC、驱动源电压UGS、短路脉宽tSC、环境温度TC等，因此难以精确计算冲击强度的大小。若短路故障后碳化硅MOSFET的栅源极已失效，但冲击强度并未达到造成栅源极短路、关断后uGS上升的程度，或者uGS的上升程度非常微弱以致难以观察到(如图7中tSC=16.3 μs的实验结果)，则无法依据uGS实验波形判定碳化硅MOSFET的栅极结构是否损坏。此时可通过静态特性测试测量器件的IGSS参数，依据UGSS<20 V判定碳化硅MOSFET是否发生栅源极失效。
+
+3.2 2种判定方法下的参数灵敏度分析
+
+短路实验后碳化硅MOSFET关断后uGS的上升幅度可能较小，且uGS可能表现为分阶段持续变化。这会导致仅依据实验波形难以明确碳化硅MOSFET是否发生栅源极短路，因此本文提出基于IGSS判定栅源极失效的判定方法。本节围绕碳化硅MOSFET的短路相关参数和指标对比分析VWDM和LCDM 2种判定方法。
+
+在本文提出的LCDM下，观测量为每次短路实验后测得的UGSS，依据UGSS<20 V判定碳化硅MOSFET是否发生栅源极失效。统计所有器件发生栅源极失效前最后一次实验的UGSS数据，如表1所示，其中UGSS.AFT为碳化硅MOSFET发生栅源极失效后在静态参数测量中测得的UGSS参数，UGSS.BEF为器件尚未经过任何短路实验冲击前测得的UGSS参数，ΔUGSS和ΔUGSS.PCT分别为UGSS的变化程度和变化百分比。统计所有器件发生栅源极失效时的短路实验波形，如图9所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsko6fVH1bWKK09ZIP4iap7eibBibFvjgsAbTibUOhNzXpoYXnrh7p7Xtt3r0DILAvVtMgq7K1TqfABzmg/640?wx_fmt=png&from=appmsg)
+
+以表1中的B2号器件为例，当发生栅源极失效时，器件的UGSS从35.92 V降低至0.43 V，变化程度高达98%。发生栅源极失效后，全部测试器件在静态测试中的IGSS均急剧增大，而对应的短路实验中器件关断后的uGS均无明显变化(如图9所示)。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsko6fVH1bWKK09ZIP4iap7eibMwRCTsajQaqmDkAdT9eXwQYB6IkO4iafeRZhRjML1zMzMdM6MBE85Rw/640?wx_fmt=png&from=appmsg)
+
+这是由于此时短路实验的冲击强度造成碳化硅MOSFET的栅极电介质层形变或者产生裂缝，但栅源极并未击穿。碳化硅MOSFET的栅极结构损坏后，静态测试中的IGSS将增大、UGSS将减小。但由于栅源极间尚未完全短路，此时碳化硅MOSFET仍具备承受下一次短路冲击强度的能力，因此实验波形中不会出现关断后uGS上升的现象。
+
+在传统的碳化硅MOSFET栅源极短路判定方法下，观测量为短路实验过程中的uGS波形。统计所有碳化硅MOSFET开始出现关断后uGS上升现象时，即发生栅源极短路时的实验结果，如图10所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsko6fVH1bWKK09ZIP4iap7eibSpJYJgwNqmg0p4ib3Gm4qoz9uCI4D4JP9LKjkVm8Mic4wmpsFVva6Kfw/640?wx_fmt=png&from=appmsg)
+
+在图10的实验结果中，所有碳化硅MOSFET在不同脉宽的短路中，关断后uGS均出现了不同程度的上升，统计所有器件的uGS和UGSS变化情况，如表2和表3所示。对比相同器件在同一脉宽实验中的uGS和UGSS变化程度，如表4所示。其中uGS.BEF为碳化硅MOSFET关断后的初始栅源极电压；uGS.AFT为发生G-S短路后的栅源极电压；ΔuGS和ΔuGS.PCT分别为uGS的变化程度和变化百分比。UGSS.AFT、UGSS.BEF、ΔUGSS、ΔUGSS.PCT的含义与前述一致。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsko6fVH1bWKK09ZIP4iap7eibSSicl2g3pW5Pf8S8Guvsl6s78maa9Rz13PHAGTYRVJlJYxoGO4paic8g/640?wx_fmt=png&from=appmsg)
+
+在短路脉宽递增的过程中，碳化硅MOSFET先发生栅源极失效(即IGSS增大UGSS减小)。随着短路冲击强度的增加，碳化硅MOSFET的栅极结构损坏程度逐渐加剧，直至发生G-S短路。以图10中关断后uGS上升程度最大(0.65 V)的A1号器件为例，由表2可得A1号器件的uGS在关断后从−4.65 V上升至−4.00 V，变化程度ΔuGS.PCT=13.98%。由表3可得对应脉宽的实验后，A1号器件的UGSS从35.84 V减小至0.5 mV，变化程度ΔUGSS.PCT=−99.998%，由表4可得A1号器件的UGSS变化程度高达uGS的7倍。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsko6fVH1bWKK09ZIP4iap7eibVZtCqbK2MU1RV8CJ0UgSJ4NibfFmNlX9iaZsq6pgtxYLCPfnGmYInicjQ/640?wx_fmt=png&from=appmsg)
+
+由表4中的数据可知，在同一脉宽的短路实验后UGSS的变化程度远高于uGS。表明在相应的短路冲击强度下，碳化硅MOSFET已发生栅源极失效，而uGS上升程度的不明显表明栅源极短路的程度微弱。
+
+相比传统的G-S短路判定方法，本文提出的基于栅极泄漏电流的判定方法具有更高的参数灵敏度，能够更准确地判定碳化硅MOSFET是否发生栅源极失效，在实际应用中更易实现。
+
+3.3 2种判定方法下的短路耐受指标分析
+
+对碳化硅MOSFET而言，短路耐受时间tSC和临界短路能量ESC是2项非常重要的短路耐受指标。即使是同一批次的碳化硅MOSFET，也可能因为制造工艺的差异导致短路耐受指标存在分散性。在传统的栅源极短路判定方法下，定义临界短路能量为短路后导致被测碳化硅MOSFET失效的最小耗散能量，记作Esc1。在本文提出的判定方法下，定义短路临界能量为碳化硅MOSFET发生栅源极失效前最后一次实验的短路能量值，记作Esc2。同理，定义VWDM和LCDM 2种判定方法下的短路耐受时间分别为tSC1和tSC2。
+
+统计所有碳化硅MOSFET在2种判定方法下的短路耐受时间和临界短路能量，如图11所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsko6fVH1bWKK09ZIP4iap7eibz2yFth7m8wozJiaOib6yhxZKQfIDiaibN56mSlzLkQ26BRAqDN8E54jOibA/640?wx_fmt=png&from=appmsg)
+
+在传统方法下，实验获得的临界短路能量值为ESC1@Vds=400V=0.84 J，ESC1@Vds=500V= 0.77 J。在本文提出的依据IGSS判定栅源极失效的方法下，实验获得的平均临界短路能量为ESC2@Vds=400V=0.78 J，ESC2@Vds=500V=0.70 J。从图11可以看出在同一漏源极电压等级下，相比VWDM，碳化硅MOSFET在本文提出的判定方法下具有更小的短路耐受时间和临界短路能量。
+
+这是因为本文提出的判定方法针对器件的栅源极失效情况。当短路冲击强度导致碳化硅MOSFET的栅极结构损坏但栅源极间尚未完全短路时，实验波形中不会出现关断后uGS上升的现象。此时若依据传统判定方法将误判认为器件状态良好，可继续使用。而应用本文提出的基于IGSS的栅源极失效判定方法能够及早地识别到栅极电介质的损坏，保证在实际应用中及时更换器件。
+
+4. 结论
+
+在碳化硅MOSFET的栅源极短路研究中，传统方法依据关断后的uGS波形判定是否发生栅源极短路，这种完全依据实验波形的判定方法存在误判的问题。本文提出一种基于栅极泄漏电流IGSS的碳化硅MOSFET栅源极失效判定方法，通过对器件的失效机理和短路实验结果进行分析，验证了此判定方法的有效性。本文的主要工作如下：
+
+1）提出了基于IGSS的栅源极失效判定方法。通过对比碳化硅MOSFET在静态测试中IGSS达到限定值时的栅极电压UGSS与驱动电压UGS之间的大小关系，判定器件是否发生栅源极失效。即若UGSS<UGS则认为碳化硅MOSFET的栅极结构已损坏，若UGSS>UGS则认为器件状态良好，可继续使用。
+
+2）通过对比2种判定方法下的参数灵敏度，得出结论：在传统的判定方法下，uGS的变化程度为9.86%，而在本文提出的判定方法下UGSS的变化程度高达99.98%，LCDM的参数灵敏度相较VWDM提高了7倍以上。
+
+3）通过对比2种判定方法下的短路耐受指标可知，利用本文所提判定方法得到的器件短路耐受时间tSC和临界短路能量ESC比利用VWDM得到的结果更小。表明本文提出的判定方法更灵敏、更严格，能够更准确地识别已损坏的碳化硅MOSFET，有助于在实际应用中判定短路故障后半导体功率器件的损坏状态。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

@@ -1,0 +1,106 @@
+# SiC MOSFET器件在工业电源图腾柱PFC中的应用
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/F2AsALOp8P-lO2kDN85xvQ](https://mp.weixin.qq.com/s/F2AsALOp8P-lO2kDN85xvQ)
+
+文章来源：罗姆半导体
+
+作者：Christian Felgemacher和Aly Mashaly
+
+一些特定领域，比如数据中心，对能源具有较高需求，尤其需要高效率的电源。计算基础设施对功率的需求越来越大，为了降低设施成本和生态足迹，高效的能量转换系统势在必行。本文讨论的基于SiC的图腾柱PFC就可以应对这一挑战。
+
+**前言**  
+
+电网采用交流输电方式将发电机的能量输送给负载。但是，许多现代电子负载（比如计算机处理器）都需要直流电（DC）。因此，大多数现代电子负载输入处的电源单元（PSU）需要将AC转换为DC。另外，这种PSU还得将电压转换为所在系统所需的电平，以驱动最终负载。在许多情况下，DC-DC转换部分还扮演着电流隔离的角色，对系统起保护作用。如果系统所需的功率较低（通常不超过3.6kW）的话，一般输入系统为单相AC输入，电压在85V至265V之间，频率为50 Hz或60Hz（取决于国家和地区）。单相电源单元的一般结构如图1所示。  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/USBUbCbc7rcMIA5viaEz03hImSicwH9iczGk3xlLB7icRqTkQsDreyY19eeWrfRB6JOEiaTJKT72ibZryL8CTJSOH2Fw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+_图1  单相电源单元的一般高层结构_
+
+为了获得最高效率等级认证——80 Plus钛金认证，冗余电源需要在输入电压为230V、负载为标称负载的50%时至少达到96%的效率。此外，还必须满足负载为10%、20%和100%时的效率目标以及输入电压为115V时的效率目标。如果PSU的DC-DC部分的效率为98%（软开关转换器可以实现此效率），那么负载为50%时，AC-DC部分的效率必须至少要达到98%，才能满足80 Plus钛金认证总体效率为96%的目标。   
+
+**具有功率因数校正功能的AC-DC转换拓扑**  
+
+本文主要讲述具有功率因数校正功能的AC-DC电路。这部分电路存在多种电路拓扑，一些常见结构请参见图2。单相PFC部分的经典拓扑结构是Boost PFC，该结构也可能是实现该功能的最简单的拓扑结构。该拓扑由低频二极管整流器与标准升压转换器（通常由一个SJ MOSFET和一个SiC SBD组成）构成。系统控制SJ MOSFET的栅极驱动，从而从交流电源汲取正弦电流。对于更大功率（比如3.6kW），升压转换器一般通过由两个电感、两个SiC SBD和两个SJ MOSFET组成的交错式结构实现。此结构可以实现高效率以及适当的输出功率。但是，这种拓扑存在一个局限性，那就是低频整流桥的传导损耗。这限制了经典升压PFC可以实现的最大效率。  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/USBUbCbc7rcMIA5viaEz03hImSicwH9iczGK1j6t3GwwiaC53aHy1ZKt8yREibVFSQKS973dlmZao2jUiclujqPOaR3A/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+_图2  单相PFC的常见拓扑结构_
+
+其他拓扑，比如两相无桥PFC和图腾柱PFC，就无需低频输入整流器，因此可以获得更高的效率。尽管两相无桥PFC拓扑可以实现良好的性能，但是，其主要缺点是任一桥臂只在一半电网周期内运行，而在另外一半周期内处于空闲状态。这导致循环负载较高，且部件的利用率差。  
+
+随着诸如SiC MOSFET之类的宽禁带器件的出现，图2所示的两种图腾柱PFC变体结构越来越受欢迎。尽管人们在文献中已经对该拓扑进行了广泛讨论，但是其实际应用仅限于低功耗情况，这是因为该结构采用的SJ MOSFET的体二极管性能使得系统无法工作在连续电流模式（CCM）下。为了避免SJ MOSFET中高损耗体二极管的硬换向，电路需要工作在不连续电流模式（DCM）下，这会导致较大的纹波电流。   
+
+如今，现代宽禁带功率半导体器件（比如SiC MOSFET和GaN HEMT）能够让图腾柱PFC在CCM模式下工作，而且纹波电流很小。这是可能的，因为SiC MOSFET的体二极管适用于硬换向，且反向恢复损耗低。  
+
+**图腾柱PFC的详细工作原理**  
+
+为了工作在连续电流模式（CCM）下，图腾柱PFC需要两个具有高性能体二极管的高频功率半导体开关，即图3中的Q1和Q2。Q1和Q2可以采用SiC MOSFET，非常有效。对于以电网频率工作的两个开关（图3中的Q3和Q4），不需要高性能体二极管，因此可以使用Si SJ MOSFET。对于某些性能要求稍低、需要节约成本的设计，可以采用二极管替代Q3和Q4。  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/USBUbCbc7rcMIA5viaEz03hImSicwH9iczG1hDQ4UtNdvRv2j3PzTkpFYfPla5HqKx6aolTyUUDS5Vok9hKeheWZA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+_图3  图腾柱PFC中的电流路径_  
+
+_红色：充电电感的电流路径，绿色：续流路径_
+
+在这种拓扑中，Si SJ MOSFET的开关频率为电网频率。如图3 a)所示，在正半波中，Q4常开。初级升压开关Q2导通后，输入电感器Lin中的电流增大。在此阶段，负载电流由直流连接电容提供。Q2关断后，电流通过Q1的体二极管续流。短暂的死区时间后，Q1的栅极导通，SiC MOSFET的沟道接管电流（同步整流）。正向半波期间Q1和Q2的理想电流以及栅极信号如图4所示。  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/USBUbCbc7rcMIA5viaEz03hImSicwH9iczGiaxUI5CX9z5ciad7joBpnqnC7hC7Hfve4uExb3GdDyptFUfr8y9gTCTQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+_图4   Q1和Q2的理想电流和栅极信号_
+
+在输入电压的负半波中，开关Q1和Q2作为主开关和同步整流器功能互换。此外，在该半波周期中，电流流过Q3，而Q4保持关断状态。负半波周期的电流路径如图3 b)所示。  
+
+通过分析可以看出，SiC MOSFET的体二极管是在进行硬换向。但是，这对于SiC MOSFET来说不是问题，因为其体二极管的反向恢复损耗非常低。  
+
+**3.6kW图腾柱PFC的验证模型**  
+
+为了说明基于SiC MOSFET的图腾柱PFC的性能，我们设计了一个验证模型，其技术规格如下所示：  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/USBUbCbc7rcMIA5viaEz03hImSicwH9iczGpO9XibsKS8d6ia68OxjNC1DzAiaSEf5OXrnDqiaIxpNTeJFRKnR4LCbcLg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+验证模型的照片如图5所示。尺寸和紧凑性不是本次设计的主要目标，因为我们的主要目的是能够轻松访问转换器的各个关键部件，以便进行测试。在测试系统中，高频开关（图3中的Q1/Q2）采用650V 60mΩ 沟槽结构SiC MOSFET（SCT3060AR），其封装为TO-247-4L；运行在电网频率上的支路则采用600V 60mΩ Si SJ MOSFET(R6047ENZ4)。对于所选开关频率和最大输出功率，60mΩ SiC MOSFET可以在开关损耗和导通损耗之间实现良好的平衡。如果想进一步提高效率，我们可以用具有更低RDS(on)的MOSFET来替代工作在电网频率下的SJ MOSFET，因为这些组件的开关损耗无关紧要。  
+
+**对于SiC MOSFET的栅极驱动，高压侧和低压侧都采用隔离栅极驱动器**  
+
+BM61S41RFV，以充分利用TO-247-4L的驱动检测引脚。为了驱动Si SJ MOSFET，我们采用了一个双通道栅极驱动IC（BM60212FV-C），实现高压侧自举升压电源。  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/USBUbCbc7rcMIA5viaEz03hImSicwH9iczGrrPEI7jM6ygghg8wkSbnJnbWkiadwiabDb6uWBKJWvaxNoibGN5rxIyvA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+_图5  3.6 kW图腾柱PFC的验证模型_  
+
+**基于SiC的图腾柱PFC的实验结果**  
+
+使用上述验证模型，我们可以在输出功率为3.6kW的条件下进行测试。在整个输出功率范围内，低压输入（Vin = 110V）和高压输入（Vin = 230V）的实测效率如图6所示。高压输入时，系统的峰值效率为98.5％；在500W和满载之间，整体效率保持在98％以上。  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/USBUbCbc7rcMIA5viaEz03hImSicwH9iczGeTic9ibkcIeunbjzTBqeW5E8N6TXUer7jicg3wyoYKiads4iaOoadv3nTUA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+_图6   图腾柱PFC验证模型的实测效率(Vout = 400 V, fSW = 100 kHz, SCT3060AR, R6047ENZ4)_
+
+在测试过程中，我们用红外热成像仪测量功率器件的外壳温度。从图7的测量结果可以看出，器件在最大输出功率时外壳温度约为100°C（环境温度为25°C）。即便环境温度升高，损耗减少措施和冷却系统的改善也有助于确保器件的热稳定性。  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/USBUbCbc7rcMIA5viaEz03hImSicwH9iczGSs08xcEJz5h3Rwe8Xxib8YnatEr2unW5TheUUaVcxvShkoI1Qpm93icg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+_图7  半导体器件外壳的温度测量值(Vin\=230V, Vout\=400V, fSW\=100 kHz)_
+
+测量结果显示，使用SiC MOSFET和Si SJ MOSFET的图腾柱PFC可以成为电源单元3.6kW AC-DC部分的高性能解决方案。即使在100 kHz开关频率下，效率也足够高，如果所用DC-DC部分的效率大于98%，那么就可以获得80 Plus钛金认证。  
+
+**总结**  
+
+对于很多电源来说，高效率是至关重要的参数。特别是对于计算机系统的电源，需要满足许多明确的要求才能获得某些能效认证。传统AC-DC转换拓扑的短板在于输入处的二极管桥式整流器。这些二极管中的传导损耗会限制电源的总体效率。本文描述的图腾柱PFC则可以克服这一问题，是一种非常有前景的拓扑结构。实验结果表明，使用罗姆半导体公司在售的SiC MOSFET和Si SJ MOSFET，电源系统可以获得高于98%的效率。
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

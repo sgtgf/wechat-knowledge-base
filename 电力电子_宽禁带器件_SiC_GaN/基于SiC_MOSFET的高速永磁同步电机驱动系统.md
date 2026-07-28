@@ -1,0 +1,128 @@
+# 基于SiC MOSFET的高速永磁同步电机驱动系统
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/UGpPyTOWsKOb1pGzDeSceQ](https://mp.weixin.qq.com/s/UGpPyTOWsKOb1pGzDeSceQ)
+
+文章来源：微电机
+
+作者:周力１，周龙１，王欣１，谢成龙２，安群涛２（１．中国航发贵州红林航空动力控制科技有限公司， 贵阳 550009；２ 哈尔滨工业大学 电气工程及自动化学院， 哈尔滨 1500１）
+
+摘要： 碳化硅（SiC）材料新一代宽禁带（WBG）功率器件具有阻断电压高、通态电阻低、开关损耗小、耐高温等优异的性能， 在电机驱动系统中具有广泛的应用潜力。 本文将SiC MOSFET应用于燃油泵高速永磁同步电机系统中，降低系统散热体积，提高功率密度。为提高电流环动态响应，通过优化电流采样时刻对电流环进行了改进，实验结果表明系统获得了良好的性能，并扩宽了电流环带宽。
+
+关键词：永磁同步电机；电流环；带宽；宽禁带功率器件； SiC MOSFET
+
+０. 引言
+
+永磁同步电机（ PMSM） 具有效率高、 控制性能好、 功率密度大等优点已广泛应用于工业、 航空航天等领域。 随着功率半导体技术的发展， 以碳化硅（SiC）为材料的第三代宽禁带（WBG） 半导体功率器件已在汽车电驱动、 充电电源、 感应加热电源等系统中逐步得到应用。SiC MOSFET具有阻断电压高、 通态电阻低、 开关速度快、 耐高温等优异性能，可以降低散热器体积， 提升系统功率密度， 也可以通过提高开关频率来提升系统性能。 目前， Cree、Rohm、英飞凌、三菱等半导体厂商相继推出了电流达数百安培的SiC MOSFET模块，能够满足数十千瓦电机驱动系统的需求。近年来，对于SiC MOSFET应用中的栅极驱动、 干扰抑制、 系统性能提升策略等方面的研究得到了学者的关注。
+
+高速永磁同步电机可以进一步提升功率密度，但由于绕组电感量小、基波频率高， 存在电流谐波大的问题，通过采用宽禁带器件提高开关频率是减小电流谐波的有效方案。为提升高速电机的电流环响应， 文献［13-14］针对控制系统时延提出相位补偿的方案， 其效果取决于补偿相位的准确性。 文献［15-16］通过减小电流采样延时来扩展电流环控制带宽， 增加了高速PMSM系统的稳定性。
+
+本文针对高速永磁同步电机驱动系统应用需求，采用SiC MOSFET模块作为功率开关器件， 设计了其栅极驱动电路，通过提高开关频率、 优化电流采样时刻和计算时序来减小电流环中的延时，提升电流动态响应， 实验结果验证了方案的有效性。
+
+１.PMSM的控制策略
+
+1.1 PMSM的矢量控制
+
+表贴式永磁同步电机在dq坐标系下的电压方程和转矩方程分别为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6ZKARnzoCuQ1Okc9DbHuUtAM0ltCJLAIYVv1Zk4BFwSib0KSiatenUqSA/640?wx_fmt=png&from=appmsg)
+
+式中，ud 、 uq分别为电机的ｄ 轴和ｑ 轴电压；id 、 iq分别为ｄ轴和ｑ轴电流； Rs、Ls分别为绕组电阻和电感；ｐ＝ｄ／dt为微分算子； ωｅ为转子的电角速度；ψｆ为转子永磁磁链； ｎｐ为电机的极对数。
+
+采用转子磁场定向id＝0控制， 表贴式永磁同步电机可以实现电机的最大转矩电流比运行， 矢量控制系统框图如图 １ 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w60coBNIicPFzvYY19TvdymCM85CWTDl6nwh0BJyEYo0ajwIHfPr70iaqg/640?wx_fmt=png&from=appmsg)
+
+1.2 电流环模型与参数设计
+
+以ｑ轴电流环为例， 建立其传递函数模型如图 ２所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w622FYYVWcvv0uQRpiaw3W2nyMWKvbIhNAKicbR9ykJALIBH7hHaGJb0tg/640?wx_fmt=png&from=appmsg)
+
+图中，kp和 ki分别为电流PI调节器的比例和积分系数；Tc为电流采样到更新PWM之间的计算延时； 逆变器传递函数可等效为时间常数为TPWM 、增益为１的一阶惯性环节， 这里TPWM为PWM周期。
+
+记τe为电气时间常数，τe＝Ls／Rs， 且有τe ＞＞Ｔe,
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6JFTSajH8Eu8xyu3xSDliaDRD9SR10hOCqMrBH9EschhZ6CnTj953PGw/640?wx_fmt=png&from=appmsg)
+
+式中，TPI为调节器时间常数， 且有TPI＝kp/ki。  
+
+可知电流环的开环传递函数为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6yWIVJgyl7AT9JUSLS21epT2KcrqZAicW7ddodeicnpCiauhuIP78JkCdQ/640?wx_fmt=png&from=appmsg)
+
+由于τe＞＞Tｃ， τｅ ＞＞TPWM， 两个小时间常数的惯性环节可以近似合并为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6weNKzIiaCuFtdzahSPDvV4xwiaKv2Zf7KzuIBRt2Kmia4NrC4S4J51HcQ/640?wx_fmt=png&from=appmsg)
+
+其中， Ｔ∑ｉ ＝TPWM＋Tｃ。 可得到简化后的电流环开环传递函数为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6icNeLeGLDzrMV4r9TuWhVibImheAJhicFzyopGC0wkVwMPQbsFBuggXFg/640?wx_fmt=png&from=appmsg)
+
+考虑到电机的电磁时间常数远大于电流环总延时， 即τｅ ＞＞Ｔ∑ｉ， 按照典型Ｉ型系统设计电流环， 用PI调节器的零点对消掉极点， 可得到电流环闭环传递函数：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6yTW0nO73WuNSGqsh7oHibr3Fvmb1uya9lxpiaec0Jn6Uatyx4wqCD0HA/640?wx_fmt=png&from=appmsg)
+
+按照典型二阶系统进行分析， 可得到系统阻尼 比 ξ、 开环截止频率ωｃ以及闭环带宽ωｂ， 其中闭环带宽取闭环增益减少到 -3dB处的角频率和相频特性在 -45°处的角频率较低者。 可以得到：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6nLQLfApRHoMa8ZfeSo5qsFtnhcn2C9CYJdFHj7ZxJcNiaTzg8BPbQ3g/640?wx_fmt=png&from=appmsg)
+
+可见， 电流环延时时间常数ＴΣｉ直接影响电流环带宽， 进而影响系统的动态响应能力， 减小ＴΣｉ就可以拓展电流环带宽， 提高电机电流的响应。
+
+２. 电流环的改进
+
+根据上面的分析， 提高开关频率和减小计算延迟均提高电流环带宽， 本文在采用SiC MOSFET器件来提高开关频率的基础上， 对电流采样时刻进行优化设计， 减小计算延迟。
+
+为了避免电流谐波对采样电流造成影响， 一般在PWM开始或中点时刻进行电流采样。 采用DSP的系统中通常在PWM周期开始时刻进行电流采样，这样留给处理器的计算时间为一个PWM周期， 更新 后的占空比在下一个PWM周期输出， 这样从电流采样到计算产生PWM输出延时了一个PWM周期。 本系统采用FPGA 计算电流环， 计算时间可以大大缩短， 因而选择在PWM周期中点进行采样， 从而可以拓宽电流环带宽， 电流采样与计算时序如图 ３ 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6Aj5V7H1GyudPYcM8ibhFLaFsCxwX4gt7N4E6gJxqCPA8p5ic6AWzQdhg/640?wx_fmt=png&from=appmsg)
+
+３.PMSM驱动系统设计
+
+3.1 系统的硬件结构
+
+永磁同步电机驱动系统的硬件结构如图 ４ 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6OlicxHTSJtrSrKuORS1NreVnsGicibkQxGw0WVZoia2JYHfrYlDOxSIaAg/640?wx_fmt=png&from=appmsg)
+
+逆变器选用Rohm公司的1200Ｖ,180Ａ SiC MOSFET半桥模块BSM180D12P2E002构建； 主控芯片采用DSP（ TMS320F28335 ）和 FPGA（ EP4CE22E22I7N）。其中，FPGA用于实现电流环调节，DSP用于转速闭环控制及其他辅助功能。 系统采用旋转变压器作为角度和速度测量元件， 由 AD2S1210解调后将角度和速度值送入FPGA中。
+
+3.2 SiC MOSFET驱动电路设计
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w60CfQoFjYxLLoThwz7GibYib9ibuPiatiakJwZHx2U85szXhcykNAkuUDQibg/640?wx_fmt=png&from=appmsg)
+
+SiC MOSFET的驱动电路采用英飞凌隔离型栅极驱动芯片1ED020I12-F2， 电路结构如图5,实物图如图６所示。 1ED020I12-F2是单通道隔离IGBT/MOSFET驱动器， 可用于600Ｖ/1200Ｖ 等级功率管，最大驱动电流位 ±2Ａ， 具有去饱和过流检测和米勒钳位功能。 每个SiC MOSFET器件需要一 片1ED020I12-F2芯片，芯片的前端与控制电路相连，后端由＋15Ｖ转+18Ｖ 和 -4Ｖ的隔离DC/DC电源供电。 过流保护功能通过饱和压降检测的方式实现，器件导通期间芯片内部0.5ｍＡ 恒流源通过DESAT引脚给外部消隐电容充电， 若功率器件电流过大导致导通压降升高， 使得电容上的电压超过9V阈值，立即产生过流保护信号并使输出拉低。不像IGBT能够允许10μs的短路时间，SiC MOSFET的短路时间一般不超过3μｓ,短路保护时间通过选择消隐电容 值来设定。CLAMP为米勒钳位功能引脚,当关断期间检测到栅极信号高于２Ｖ时， 该引脚自动拉至负电源， 以防止信号串扰造成误导通。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6BmjCheW0D2v3J2jY23om7yqqNbiaBQAZJibAjehgcz20Ho00gtEhFiaxg/640?wx_fmt=png&from=appmsg)
+
+４.实验结果
+
+对SiC MOSFET驱动电路进行了双脉冲测试和过流保护功能测试， 测试结果分别如图7和图８所 示。 在双脉冲的触发下，SiC MOSFET实现了大电流的开通与关断； 当发生过流后，去饱和引脚DESAT电压在３μｓ左右上升至阈值， 驱动芯片将输出信号自动拉低。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6P8urP62PsCica9cClRAVIaMopp0UEs06a5SOX0MvicoRRoR5aKpdqibicw/640?wx_fmt=png&from=appmsg)
+
+本系统供电电压为500VDC,电机额定功率32KW， 额定转速13000r/min， 开关频率20khz。6000r/min稳态下的三相绕组电流波形如图９所示， 电流有效值为46Ａ。 为考核电流环响应， 将电机堵转并给定ｑ轴电流为250hz正弦量， 电流环采样与更新时刻改进前后的测试结果如图10所示， 改进后电流动态响应加快。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w69icubRrfiaCl9bhcfWvDs1g0wgmXAC203MO9ermY0Ihp7wVGzZnpW3tg/640?wx_fmt=png&from=appmsg)
+
+５.结论
+
+本文针对高速永磁同步电机设计了采用SiC MOSFET功率模块的驱动系统， 通过提升开关频率和优化电流采样时刻扩展了电流环控制带宽， 设计了具有去饱和过流检测和米勒钳位功能的栅极驱动电路， 并进行了双脉冲和过流测试。 实验结果表明，采用SiC MOSFET器件的电机驱动系统获得了良好的系统性能， 提升了电机电流的动态响应。
+
+注明：  
+
+【版权声明】：本公众号平台注明来源或转载的文章，版权归原作者及原出处所有，仅供大家学习参考之用，若来源标注错误或侵犯到您的权利，烦请告知，我们将立即改正或删除。
+
+【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7y6takB9fSysibKQHosicr8oxe78kybBtoHNEIe9m37GrhWmgzRKTXB5g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7IdKzsVAfsonk8XrEsLYcotJErMx7GsGpRTzbWqgcNA1hyxohsEXI4Q/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G79QVc4mUv0mUB6iaCbnIkLunouMLTPpicMiaLYV3hbye0xa68FuUM0IJow/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7ffbgpzt2NMsDcGiarMO5cibQGbgFyjCmOfBoeIn7JRUdsgXFHY7Fyialw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)

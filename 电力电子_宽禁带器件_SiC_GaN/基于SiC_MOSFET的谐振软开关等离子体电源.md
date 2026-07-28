@@ -1,0 +1,132 @@
+# 基于SiC MOSFET的谐振软开关等离子体电源
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/6cnJ4VV1vwtRe536cuZMPA](https://mp.weixin.qq.com/s/6cnJ4VV1vwtRe536cuZMPA)
+
+文章来源：华南理工大学学报（自然科学版）
+
+作者：王振民1，吴健文1，范文艳1，叶春显2(1.华南理工大学 机械与汽车工程学院，广东 广州 510640; 2.深圳市鹏源电子有限公司，广东 深圳 518000)
+
+摘要: 利用 SiC MOSFET 能简化电路拓扑、提高电源的功率密度和效率． 为推动大功率等离子体电源的升级换代，提出了一种采用新型 SiC 功率器件的全桥谐振变换器． 该谐振变换器的主电路采用 LLC Zero Voltage Switching( ZVS) 拓扑结构，可将谐振换流频率范围增大至 260～310 kHz． 设计的高频高压全桥 LLC ZVS 谐振变换器样机的额定输出功率为8kW，输出电压为270 V． 对所研制的8kW 级 SiC MOSFET 全桥 LLC ZVS 谐振变换器样机的驱动性能、换流过程、温升以及效率进行了测试，结果表明，研制的谐振软开关等离子体电源性能优良，工作稳定可靠，效率和功率密度均优于使用传统 Si MOSFET 的 LLC 谐振变换器．
+
+关键词: 等离子体电源; 谐振变换器; SiC MOSFET; 功率密度; 效率
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNWmA2hBDhppt64eSzOPfXPibo8lLkqv0YxOToxeCBHXKEQMur8lwt7tSA/640?wx_fmt=png)
+
+0.前言
+
+等离子体具有能流密度高、化学活性高、可控性好等特点，部分工业发达国家已采用等离子体技术代替传统的工艺技术进行火电站锅炉点火与助燃、金属冶炼、固体垃圾以及危险废物的资源化处理、煤的清洁化、海水净化、船舶燃气轮机点火、机械加工等． 等离子体电源为等离子体系统提供能量，要实现等离子体技术的多种应用和全面推广，可靠性好、效率高、控制性能好的大功率等离子体电源至关重要． 目前，大功率等离子体电源的研制已成为国内等离子体系统应用开发的关键． 随着人们节能意识的提高，功率密度和效率已成为衡量等离子体电源综合性能的重要指标，采用软开关技术是一个行之有 效 的 提 高 功 率 密 度 和 效 率 的 途 径． 其中，移相全桥 PWM ZVS DC-DC 变换拓扑已经得到了较广泛的应用，但是移相全桥 PWM ZVS DC-DC 变换器原边开关管实现 ZVS 工作的负载范围仍不够宽，并且次级快速整流二极管还存在较严重的反向恢复效应，难以适用于高输入电压的等离子体电源．LLC 串联谐振 DC-DC 变换器对输入电压范围有较宽的适应性，其原边开关管在全负载范围内均可实现 ZVS 开通，因此比较适合大功率等离子体电源的能量变换特性． 然而，目前的等离子体电源广泛采 用 Si 基半导体器件 ( 包括 MOFET、IGBT、SBD、FＲD 等) ，这些 Si 基功率器件的开关性能已随其结构设计和制造工艺的完善而接近由其材料特性决定的理论极限，依靠 Si 基功率器件继续完善和提高 LLC 谐振型等离子体电源性能的潜力已十分有限，难以有效解决所面临的电流密度高、开关损耗大、转换效率低等难题，限制了等离子体电源总体性能的进一步提升． 目前，国内外在 SiC 功率器件领域的研究取得了令人瞩目的成就，所研究的 SiC 功率器件在主要性能指标方面均已远超传统 Si 基功率器件． 对大功率电源而言，利用 SiC MOSFET 可以进一步提高开关频率，达到降低系统成本、减少损耗以及简化拓扑电路的目的．
+
+为此，本研究将采用 SiC MOSFET 作为 LLC 串联谐振变换器的功率器件，简化电路拓扑，以显著降低 LLC 谐振等离子体电源的温升，提高谐振频率和功率密度，减小电源体积，从而推动大功率等离子体电源往高效化、轻量化方向发展．
+
+1.SiC 功率器件特点及性能优势
+
+已有研究和实践均表明，SiC、GaN 等宽禁带半导体材料 比 Si 更适 合 作 为 制 造 功 率 开 关 管 的 材料．SiC 与 Si 相比，其物理特性具有很大优势，更符合现代设备的要求，具体表现在以下几个方面．
+
+(1) 耐高温
+
+SiC 材料的禁带宽度达到了 3.2eV，而 Si 材料的禁带宽度则为 1.1 eV，SiC 材料的禁带宽度几乎是Si 材料的 3 倍． 这是因为 SiC 材料拥有高度稳定的晶体结构． 禁带宽度大可以认为是高温价带电子难以吸收大于半导体能带的热辐射能量而跳变到导带，可以在高温下继续发挥半导体作用，因此 SiC MOSFET 能承受的温度变得更高．
+
+(2) 高工作频率
+
+材料的饱和电子漂移速度决定了 MOSFET 功率器件能否在高频下正常工作． 材料的饱和电子漂移速度越大，其功率器件的工作频率也越高．SiC 材
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNWU7qC6aiarlOfYe310B9dc4MZnuicgvNno1Y7xYxPydohIoExZX26nelw/640?wx_fmt=png)
+
+(3) 低导通损耗
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNW3oNjqlCeMLC8lYkKrjXjNUfRNMw4sSibpe55sF83XKaiaz1Y28qkYDHA/640?wx_fmt=png)
+
+较低的电子迁移率说明 SiC 材料的漂移层阻抗较低． 因此 SiC MOSFET 的导通损耗比 Si MOSFET 的低．
+
+(4) 导热性强
+
+SiC 材料的导热系数为 3.3 W / ( cm·K) ，约是 Si材料(1.5W / ( cm·K) ) 的两倍． 因此使用 SiC MOSFET 时采用的散热片面积和尺寸可以减小，降低了系统成本．
+
+(5) 高额定电压
+
+SiC 材料的击穿电场强度为 2.4MV / cm，而 Si材料的击穿电场强度仅为 SiC 材料的十分之一． 因此 SiC MOSFET 由于其高击穿电场强度而具有高击穿电压．
+
+综上所述，与 Si 材料相比，SiC 材料较高的热导率决定了其高电流密度的特性，较高的禁带宽度又决定了 SiC 器件的高击穿场强和高工作温度． 以SiC 为代表的宽禁带器件具有宽带隙、耐高温、抗辐射以及高饱和电子漂移速率等优点，对新一代工业级电源而言，利用 SiC 功率器件能提高工作频率，有利于电源的高效化和轻量化．
+
+2.SiC MOSFET 谐振等离子体电源设计
+
+利用 SiC MOSFET 在实验室设计构建一台 8kW全桥 LLC ZVS 谐振变换器样机． 变换器输入电压为650～800 Vdc，输出电压为 270 Vdc，工作频率为 260～310 kHz．
+
+2.1  LLC 谐振等离子体电源的总体结构
+
+LLC 谐振等离子体电源主要由以 SiC MOSFET为逆变功率器件的主电路、SiC 门极驱动电路和控制电路组成． 电源主电路实现能量的转换与传输，在焊接过程中将电网能量传递到电弧负载． 控制系统主要实现 SiC MOSFET PWM 驱动信号的发生、采样电压信号的反馈控制调节、主电路的相关保护等功能，负责整个 LLC 谐振等离子体电源的流程控制与故障诊断保护．
+
+2.2  LLC 谐振拓扑结构及其优化
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNWvicRYvksgZbUd7Q91G4APfxhIlL68iaiaNgj0prfn4MFXt1EkDVkSGy6w/640?wx_fmt=png)
+
+LLC 谐振变换器的工作状态比传统的逆变器更加复杂，一个工作循环主要分成6 种状态． 工作状态4、5、6 与工作状态 1、2、3 相似，因此文中主要分析半个周期的工作状态( 即工作状态 1、2、3) ．LLC 逆变电路在工作状态 1、2、3 下的拓扑结构如图 1 所示，图中实线表示电流流经路径，上下桥臂开关均用两个SiC MOSFET( C2M0160120D)并联，输出端使用两个 SiC( C3D16060D)肖特基二极管进行整流．
+
+在工作状态 1 中，所有的 SiC MOSFET 处于关断状态，谐振变换器利用谐振槽电流对电容 C2 、C3充电，对电容 C1 、C4 放电; 在电容 C1 、C4 放电完全后，二极管 D1 、D4 就会导通，SiC MOSFET Q1 、Q4 的漏源极电压就会钳位为零电压． 因此 SiC MOSFETQ1 、Q4 就能实现零电压开通．
+
+在工作状态 2 中，SiC MOSFET Q1 、Q4 开通，谐振槽电流反向，励磁电感 Lm 电流线性增加，副边整流二极管 VD1 导通，当励磁电感电流与谐振槽电流相等时，变压器副边电流变为零，二极管实现零电压导通．
+
+在工作状态 3 中，谐振槽电流和励磁电感电流相等，变压器副边电流为零，此时 Lm、Lr、Cr参与谐振，并且由于励磁电感 Lm是谐振电感 Lr的 6 倍，谐振槽电流大小可以认为近似一个常数．
+
+为满足高压应用要求，普遍采用多电平拓扑结构． 例如，三电平全桥电路中主开关承受的电压为直流侧电压一半，两电平全桥电路则为全部母线电压．因此，三电平拓扑主要功率器件的电压应力为两电平拓扑的一半，但三电平拓扑会增加功率器件的数量，并且由于电流流过的串联功率器件数目较多，导通损耗较高． 功率器件数目较多的三电平逆变拓扑结构的提出是为了通过使用传统耐压值较低的功率器件达到高压应用的要求，而使用耐压值高的 SiC功率器件采用两电平逆变拓扑即可满足高压应用的要求，且所用的功率器件数目较少． 因此，相对于三电平电路，使用 SiC MOSFET 的两电平方案所需功率器件较少，可以简化拓扑设计，易于减小设备体积．SiC LLC 谐振变换器与传统方案使用的主要元器件的对比情况如表 1 所示．
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNWQ5APshfoYxPNoHh5V26DkiauFia0IV73BkbNmmNqib5Vdg8yQM7Wl7MQw/640?wx_fmt=png)
+
+由表 1 可知，基于 SiC MOSFET 的 LLC 谐振变换器谐振电路简单，元器件数量大幅减少，更有利于降低等离子体电源的尺寸、提高功率密度．通过计算，变压器匝比为 2.58，电感比为 7，电路品质因数为 0.47，励磁电感为 100 μH，谐振电感为 15 μH，谐振电容为 25 nF． 该 8kW 变换器样机的尺寸为 20 cm × 32 cm × 9 cm ，主变压器使用 PQ65-005，谐振电感采用 两 个 PQ35-112 串联．SiC MOSFET LLC 谐振变换器与 Si 基 DC-DC 变换器功率和尺寸的对比如表 2 所示． 由表 2 可得出 SiC MOSFET LLC 谐振变换器功率密度为 1.38W / cm³ ，而 Si基 DC-DC 变换器功率密度约为 0.36W / cm³ ，由此可知 SiC MOSFET LLC 谐振变换器具有更高的功率密度．
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNW0mFlkWK0Ow66sbM0A6J5KqpicAkTXxon3faLiad1qhUibFsujmnaK4OgA/640?wx_fmt=png)
+
+2.3   SiC MOSFET 驱动电路设计
+
+MOS 管的驱 动 对 其 工 作 效 果 起 着 决 定 作 用．SiC MOSFET 的驱动特性和 Si MOSFET 同样属于电压型驱动． 但是由于 SiC MOSFET 的实际工作频率要远远高于 Si MOSFET，因此容易受到干扰． 所以设计 SiC MOSFET 的驱动电路要对主电路和控制电路进行隔离，避免主电路对 SiC MOSFET 的驱动电路的控制信号产生干扰．
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNWia4t5G5pYkib08If4Rmc4daCFKIRCw2ZapgQhYglPJTicZaT6PSBmGrwQ/640?wx_fmt=png)
+
+文中采用电磁隔离驱动，利用高频变压器实现电路的电磁隔离． 图 2 所示是所述控制电路的 SiC MOSFET 高频逆变驱动电路，为高频脉冲变压器隔离型驱动电路，两路推挽输出电路主要由 P 沟道功率场效应管 M1、M3 和 N 沟道功率场效应管 M2、M4构成，上拉二极管和下拉二极管 D1 、D2 、D3 、D4 用于防止推挽输出电路的功率场效应管 M1、M2、M3、M4出现误导通使推挽输出电流激增烧坏 SiC MOSFET．SiC MOSFET 的“慢开快关”网络 1 主要由电阻 Ｒ7 、Ｒ9 ，二极管 D11 、电阻 Ｒ11 、电容 C3 组成; SiC MOSFET的“慢开快关”网络 2 主要由电阻 Ｒ8 、Ｒ10 ，二极管D11 、电阻 Ｒ12 、电容 C5 组成．“慢开快关”网络能够有效地降低 SiC MOSFET 开关损耗．SiC MOSFET 的负压关断 网 络 1 则由 MOSFET Q1 、二 极管 D7 、电 容C2 、稳压二极管 ZD1 、二极管 D9 、电阻 Ｒ5 组成，SiC MOSFET 的负压关断网络 2 则由 MOSFET Q2 、二极管 D8 、电容 C4 、稳压二极管 ZD2 、二极管 D10 、电阻Ｒ6 组成． 当二极管 D7 ( D8 ) 导通的时候，Q1 ( Q2 ) 关断，C2 ( C4 ) 通 过回 路 充 电，充至 稳 压 二 极 管 ZD1( ZD2 ) 的稳压值( －5． 1 V) ; 当二极管 D7 ( D8 ) 关断的时候，Q1 ( Q2 ) 导通，C2 ( C4 ) 通过新的回路放电，给SiC MOSFET 栅 极提 供 负 压，可以 有 效 防 止 SiC MOSFET 在关断的情况下被误导通．
+
+3\. 试验结果及分析
+
+3.1  驱动波形
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNWKePwsFhU5aTMnmaWo48nzXic7bwDmeOMG9RBxGwnpUQVm0icV3IFjic2Q/640?wx_fmt=png)
+
+控制电路的 SiC MOSFET 高频逆变驱动电路的输出波形如图 3 所示．MOSFET 栅极电压迅速上升至所需值，MOSFET 迅速导通且不存在上升沿的高频震荡．MOSFET 关断期间驱动电路提供一个 5V的负压以保证 MOSFET 快速关断并避免受到干扰导致误导通．
+
+3.2  谐振换流波形
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNWeqPDvtnaDZWshMzjmaMZ0ib828icXMnvwV9eWo4Zn41aNy6evJLicusaA/640?wx_fmt=png)
+
+8kW 全桥 LLC ZVS 谐振变换器样机的实测波形如图 4 所示． 图 4( a) 为 SiC MOSFET 的谐振槽电流 Ir波形; 图 4( b) 为 SiC MOSFET 开通时的 Vgs波形和 Vds波形． 图 4( a) 中 Ir 周期为 3.75 μs，可计算得知谐振频率约为 260 kHz; 从图 4( b) 可知，SiC MOSFET 电压 Vds 在开通前降到零，谐振变换器工作在ZVS 状态．
+
+3.3  整机工作的热性能
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNWEzdXxeDAvhPtIK77o5zpTcjMTA71VQ53nYmORE65elaTXI5hlhrlTA/640?wx_fmt=png)
+
+LLC ZVS 谐振变换器在输入电压为 650 V、输出电压为 270V、输出电流为 30 A、功率 8kW 条件下运行 1h 的热成像实测数据如图 5 所示． 该 LLC 谐振变换器使用了 1 个 10 W 的风扇对 8 个 SiC MOSFET和散热片进行散热． 由图 5( a) 可见，整个 LLC 谐振变换器温度最高的元件是变压器与电感，但其温度能控制在 100 ℃ 左右; 由图 5 ( b) 和图 5 ( c) 可见，LLC 谐振变换器的上下桥臂 SiC MOSFET 温度都在40 ℃ 以内; 这说明该 LLC 谐振变换器风道和变压器设计 合 理． 该 LLC 谐振 变 换 器 工 作 频 率 为 260 ～310 kHz，高频工作会增加带磁元件的损耗，因此采用了分布气隙技术来降低变压器高频损耗．
+
+3.4  整机的工作效率
+
+该变换器工作在不同功率下的效率曲线如图 6所示． 由图 6 可见，LLC 谐振等离子体电源工作在6～8 kW 范围内时具有较高的效率，并且在输出功率为 6kW 时 LLC ZVS 谐振变换器工作在谐振 状态，效率最高达到 98.2% ． 说明此时开关工作频率和谐振频率相等，变换器工作在完全谐振状态． 采用Si MOSFET 作为主要功率器件的闭环控制 LLC 谐振变换器，工作在 3kW 以上时变换器效率在 95% ～96% 之间． 这说明相比于使用传统 Si MOSFET 的LLC 谐振变换器，采用 SiC MOSFET 作为 LLC 谐振变换器的主要功率器件，变换器的效率得到提高．
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskmlOPqD7b6sdPicLUzmtWNW3clopa5DicTHq0yag1tX2ySpSZIFEEpgZhgYBtzkC2U8lCJAtLo0Iaw/640?wx_fmt=png)
+
+4 .结论
+
+(1) 采用 SiC MOSFET 研制了 LLC 谐振软开关型等离子体电源，SiC MOSFET 工作于软开关状态，谐振频率为260～310 kHz，额定功率为 8kW．
+
+(2) 研制的该8kW级SiC MOSFET全桥 LLCZVS 谐振变换器能效高达 98.2% ，功率 密 度 达 到1.38 W / cm³，并且该变换器散热系统设计合理，整体变换器温升控制在合理水平．
+
+(3) 采用 SiC MOSFET 功率器件可以进一步提升等离子电 源 的 能 效 和 功 率 密 度，有良 好 的 发 展前景．
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLskBqiaC6MLw7IKTiajQPPjmIdbibZmicWxiblBeIlaoGYUE1J9yOJ2iberzqnQravvU5qZuqJ2vqvlLYCeQ/640?wx_fmt=jpeg)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png)

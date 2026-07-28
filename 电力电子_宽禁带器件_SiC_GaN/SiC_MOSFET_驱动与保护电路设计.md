@@ -1,0 +1,132 @@
+# SiC MOSFET 驱动与保护电路设计
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/2OXJJPjge\_qjuRqdyJhqlg](https://mp.weixin.qq.com/s/2OXJJPjge_qjuRqdyJhqlg)
+
+文章来源：半导体技术
+
+作者：，胡冰，邵春伟，赵栋，赵振华，闫青亮( 中车青岛四方车辆研究所有限公司，山东 青岛 266031)
+
+摘要: 介绍了 SiC MOSFET 驱动电路的设计要求，基于ACPL－355JC光耦驱动模块设计了SiC MOSFET 驱动和保护电路。该电路具有驱动能力强、响应迅速和多种保护等优势。另外，针对SiC MOSFET 开关过程中存在的瞬态电压尖峰和振荡问题，分析了SiC MOSFET 开关过程中产生过电压和振荡的机理，并在此基础上提出一种ＲC吸收电路参数的计算方法。实验结果表明利用该方法设计的RC吸收电路能够有效解决SiC MOSFET 在开关过程中的过电压和振荡问题﹐从硬件电路上有效降低开关噪声，从而保护功率器件。
+
+关键词: SiC MOSFET; 驱动电路; 保护电路; 尖峰; 振荡; 吸收电路
+
+0\. 引言
+
+SiC MOSFET具有输 入 阻 抗 高、高频 性 能 好、单个驱 动 功 率 小 和 无 需 并 联 均流 控 制 等 显 著 优势。随着SiC MOSFET的发展和成熟，变流产品向着高频、高功率密度、高可靠性的方向快速发展。在DC-DC变流器研发过程中，研究人员也对SiC MOSFET 的应用进行了积极探索。目前国内外SiC MOSFET 的驱动电路多设计为简单的隔离驱动电路，该电路只是驱动 SiC MOSFET 开关，但在异常工作情况下不能有效保护 SiC MOSFET，容易导致其损坏，而且由于单个 SiC MOSFET 散热面积较小，且相同电压等级的 SiC MOSFET 电流越大，成本要高得多，为了提高 SiC MOSFET 驱动电路的可靠性及驱动能力，本文研究了基于ACPL－355JC光耦驱动模块的并联SiC MOSFET 驱动 和 保 护 电路，该设计方案不仅使驱动系统的可靠性大大提高，而且增加了多种驱动保护电路来提高产品的稳定性。
+
+SiC MOSFET 固有的输出寄生电容以及电路中寄生电 感 和 寄 生 电 阻 等 参 数 的 存 在，会引 起 SiC MOSFET 在高速开关过程中产生过电压和振荡等问题，针对该问题本文还提出了一种 ＲC 吸收电路的计算设计方法。
+
+1\. DC-DC 变流器电气拓扑
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtQad0VdjibTK9HicnGOq88qQPIMcTc8eU1KXe7ibz03lRl8aDBG3akBxWQ/640?wx_fmt=png&from=appmsg)
+
+基于交错升压电路的 DC-DC 变流器如图 1 所示。交错升压 DC-DC 电路采用相位差 180°的两路脉冲宽度调制 ( PWM) 信号控制 SiC MOSFET 的通断。为了增大每一路功率器件的散热面积，每一路 DC-DC 采用并联的两个小电流 SiC MOSFET 代替单个大电流的 SiC MOSFET，SiC MOSFET 的型号为 C3M0075120J。
+
+2\. SiC MOSFET 驱动电路设计
+
+2\. 1 驱动电路设计基本要求
+
+SiC MOSFET 对驱动电路的基本要求主要有:
+
+①驱动电流要足够大，以缩短米勒平台的持续时间使驱动脉冲前后沿足够陡峭，尤其在多管并联的工况下; 
+
+②驱动回路的驱动电阻要小，导通时能够快速对栅极电容充电，关断时栅极电容能够快速放电，以加快SiC MOSFET 的开关响应速度; 
+
+③为了保证 SiC MOSFET 可靠触发导通，栅极驱动电压应高于器件的开启电压; 
+
+④ 驱动电路采用负压关断，防止误导通，增强其抗干扰能力;
+
+ ⑤需具有小的寄生电感，减小系统的振荡; 
+
+⑥为了保证控制电路的正常运行，驱动电路和功率电路之间要有隔离;
+
+ ⑦需具有必要的驱动保护电路。
+
+2\. 2 驱动电路原理
+
+本文基于ACPL－355JC光耦驱动模块设计了SiC MOSFET 驱动和保护电路，该电路由输入驱动信号调理电路、驱动保护电路和故障反馈电路等三部分构成。输入驱动信号调理电路对脉冲使能信号等进行缓冲、整形处理，来提高输入驱动信号的质量; 驱动保护电路对输入驱动信号进行放大，来驱动SiC MOSFET 的导通与关断以及在SiC MOSFET发生短路过流、驱动电源欠压等故障时起保护作用; 故障反馈电路将驱动保护电路的故障结果反馈给控制电路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtXcaKzIQfMFWNyvvtxFEzXLlTicX6BL3jLes8mIrd1J11oXfB5XG2MgA/640?wx_fmt=png&from=appmsg)
+
+驱动电路原理如图 2 所示。ACPL-355JC为光耦隔离驱动模块，具有最大2262 V 的工作绝缘电压，能完美实现功率电路和驱动电路的电气隔离功能; 最高开关频率可达1 MHz，最大传输延迟时间只有150ns，能够满足 SiC MOSFET高频通断的要求。ACPL-355JC 有两个故障报告机制，即正输出电源电压 ( VDD2) 的欠压保护 ( UVLO) 和过流保护 ( FAULT)，UVLO故障优先级最高，FAULT故障次之。在过电流故障条件下，通过 SS 引脚软关断，关断速率可以通过电阻 R51调整。最大10A的驱动峰值电流足以同时驱动两个并联的 SiC MOSFET。
+
+2\. 3 驱动电阻 ( ＲG) 设计
+
+ＲG的大 小 对 SiC MOSFET 开关 速 度、电压尖峰、开关过程的振荡以及系统效率都有较大的影响，合适的ＲG 对于系统整体性能具有至关重要的影响。实验前需要通过理论计算选择一个较合适的ＲG值。
+
+首先，SiC MOSFET 和ＲG可以认为是一个简单的ＲC电路， 电压 由 ACPL-355JC 提供。 根据ACPL-355JC的正、负输出电源电压 ( VDD2 和 VSS2 )以及最大驱动峰值电流 ( IO，PEAK = 10A) 来计算ＲG最小值 ( ＲG，MIN)，即
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtLibgq3m4jpJnyzOtZgPmDsU9unWX7EKkiaT6tYcn0uLXa6DN98EqbUXw/640?wx_fmt=png&from=appmsg)
+
+式中ＲOUT，MIN 为 ACPL-355JC 内部的最小栅极输出电阻。根据式 ( 1) 可以求得 ＲG，MIN = 1. 6 Ω。
+
+ＲG 和ＲOUT，MIN将确保输出电流不会超过 ACPL-355JC 的绝 对 最 大 额 定 值10 A。 其次， 根据ACPL-355JC 的最大输出驱动功率 ( PO，MAX ) 来计算ＲG。ACPL-355JC 实际输出驱动功率 ( PO ) 计算公式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtuVlC2Q26iazicjulqNuia4yiafDxvgbqQPHLoAvCh6EtqF8GMCj3hxGhDg/640?wx_fmt=png&from=appmsg)
+
+式中: PO，BIAS 为输 出 保 持 功 率; PO，SWITCHING 为驱 动开关功率; PHS和 PLS 分别为驱动导通和关断功率;IDD2 为 ACPL -355JC 的工 作 电 流; QG 为 SiC MOSFET 的栅 极 电 荷; f 为驱 动 开 关 频 率;ＲOUTN，MAX和ＲOUTP，MAX分别为 ACPL-355JC 的最大栅极关断和导通输出电阻。由式( 2)～( 4) 可以求得PO≈170 mW。
+
+因为两个并联SiC MOSFET的输出驱动功率为2PO≈340mW，小于 PO，MAX=600 mW，所以选择ＲG=2. 5 Ω，此时 ACPL- 355JC 能够驱动两个并联的SiC MOSFET。
+
+2\. 4 输出短路保护设计
+
+SiC MOSFET 的晶圆面积小于IGBT 的晶圆面积，其散热能力比IGBT 差，一般SiC MOSFET 发生短 路 故 障 后 要 求 2 μs 内关 断 脉 冲 信 号。ACPL-355JC 通过 检 测 SiC MOSFET的导 通 压 降( VDS) 是否超过内部设置的比较器阈值电压进行短路保护，其工作原理如图 3 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtMavnacJQJTM70o2zaCubyHCelgEgwSR6JWhe4v4eicxK8paZELZeYog/640?wx_fmt=png&from=appmsg)
+
+ACPL-355JC 内部 设 置 的 比 较 器 阈 值 电 压 为9V。当 SiC MOSFET 发生 短 路 故 障 时，VDS 大于9 V时，消隐 电 容 充 电 电 流 ( ICHG ) 给消 隐 电 容( CBLANK) 充电，当 ACPL-355JC OC引脚的电压( VOC ) 大于 9 V 时，触发 ACPL-355JC 的保护动作。通过 设 置 CBLANK 的值 来 设 定 消 隐 时 间( tBLANK)，即
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtHnpqAzZGaGlehf4kc3CLA8mteibbaSRj7S9qaI6vbafdgKoqA9WpljA/640?wx_fmt=png&from=appmsg)
+
+式中: tOC，BLANKING 为内部消隐时间; VOC，INITIAL 为 SiC MOSFET 正常导通时 ACPL-355JC 驱动模块OC引脚的电压值; ICHG = 1mA。
+
+当 SiC MOSFET 正常导通时，恒流源 ICHG 通过电阻 ( ＲBLOCK ) 、二极管 ( DBLOCK ) 和SiC MOSFET进行释 放。其中，DBLOCK选择 高 压 快 恢 复 二 极 管( US1M)，其反向耐压为1000V，导通压降 ( VF )为1.7V。根据SiC MOSFET ( C3M0075120J) 的手册，正常工作时SiC MOSFET 的导通压降为1V。在保证SiC MOSFET 正常导通时 VOC 远低于比较器阈值电压 9V 的前提下，ＲBLOCK 选择为1 kΩ，则正常导通时 VOC，INITIAL为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtq7ppY4kspT06uqHicicKt8MxKpqVlJg6NLn28Q5Sibick7xdJ3T7P55RnQ/640?wx_fmt=png&from=appmsg)
+
+由式 ( 6) 可以求得 VOC，INITIAL = 3. 7 V。
+
+当图 1 中升压电感发生退饱和等故障导致电感值突减时，SiC MOSFET 会发生短路故障，导致流过SiC MOSFET 的电流迅速增加，此时应该保证 2 μs内触发 ACPL－ 355JC 的保护功能以关断脉冲信号。CBLANK用于设置 tBLANK，tOC，BLANKING = 0. 4μs。根据式(5) 计算 出 CBLANK ＜ 302 pF。实际 选 择 CBLANK =220pF，发生短路故障时理论保护时间为 1. 566 μs。
+
+2\. 5 ＲC 吸收电路设计
+
+本文提出了一种 SiC MOSFET 的漏源极之间充放电型 ＲC 吸收电路参数的计算方法。首先根据波形的振荡频率来计算电路中总的寄生电容值 ( C)和寄生电感值 ( L)，然后再计算出 ＲC 吸收电路的电阻值 ( ＲSN ) 和电容值 ( CSN )，ＲC 吸收电路原理如图 4 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtzOJ5EcicyibQDCKSEEO0NwMc5PRHtPsp9EwYtr5JmibVJ2OqRicw3XYniag/640?wx_fmt=png&from=appmsg)
+
+ＲSN和 CSN 的具体计算过程如下。① 首先根据SiC MOSFET 的 DS 引脚之间的电压 ( UDS ) 波形振荡周期计算出谐振频率 (f0 )，如图 5 所示。②在图 4 中 SiC MOSFET 的漏源极之间接一个外接电容( Ctest )，由此再测算出一个谐振频率 (f1 ) 。③ 计算出 C 和 L，即
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtZYP3icDfaEvzBtxRumLYas0QlJMntKGFVW61gx1UIarwTetsHdliboSw/640?wx_fmt=png&from=appmsg)
+
+④根据 C 和 L 计算出阻尼因数，且选择阻尼因数取 1 时为最佳来计算 ＲSN，即
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemt7WVW6JCwRAj1yu2sWrZ2JNibFjyjZsvVorSynW0zD8zyBkv5U4T7yhg/640?wx_fmt=png&from=appmsg)
+
+⑤根据经验一般选取 CSN = 3C。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtnKbbeSvibv5OP4m82lvHZdm9kzqlnibJm56RTQiaLpRKGfIyfdiaMCwrcw/640?wx_fmt=png&from=appmsg)
+
+3\. 实验验证
+
+本文基于以上设计搭建一台 SiC MOSFET 双并联交错升压 DC-DC 变流器的样机，主电路如图 1所示，样机如图 6 所示。样机基于 TMS320F28335DSP 芯片设计的控制系统; 主电路由直流支撑电容、储能电感和 SiC MOSFET 等构成，样机输入电压为 DC 72 V，母线电压为 DC 570 V，额定输出功率为3 kW，母线电压支撑电容为 560 μF，储能电感为75 μH，开关频率为 80 kHz。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtPBEUTWt9DBI1P6CC2u4w95jO5NVX4tKT6ogXn9lEpAAnq5xILRSkBw/640?wx_fmt=png&from=appmsg)
+
+采用上述实验平台对 ＲC 吸收电路计算方法的有效性进行验证，增加 ＲC 吸收电路前后 SiC MOSFET 的 DS 引脚之间电压和母线电压 ( UDC ) 的实验波形如图 7 所示。图 7 表明，增加 ＲC 吸收电路后，电压过冲由1 080 V 下降至 740 V，降低了约31%; 没有 ＲC 吸收电路时 SiC MOSFET 的 UDS单个波形 振 荡 周 期 为 51 ns， 经过 10 个振 荡 周 期( 510 ns) 后波形振荡基本消失，增加 ＲC 吸收电路后无明 显 振 荡 周 期，且213 ns 后波 形 振 荡 基 本 消失。实验验证了增加 ＲC 吸收电路后不仅有效降低了电压过冲和振荡，而且减小了 SiC MOSFET 开关过程中母线电压的波动。过程中母线电压的波动。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsn1YXQQhgcGFCvl7ududemtyfZxkJbFo7sEhJnic0bNFT49q8KJGTh4jxmm1qV4uibWQNVTKicT14Qvw/640?wx_fmt=png&from=appmsg)
+
+4\. 结论
+
+本文对基于 ACPL-355JC 的 SiC MOSFET 驱动电路的 设 计 进 行 了 详 细分 析，提出 了 一 种 ＲC吸收电路参数的计算方法，并通过实验验证了该ＲC 吸收电 路 的 有 效 性，也间 接 验 证 了 该 驱 动 电路的可行性。所设 计 的 驱 动 保 护 电 路 和 ＲC 吸收电路已经应用于铁路上的应急通风逆变器，而且通过了实际运行考核。后续将在降低吸收电路功率损耗和提高驱动保护电路稳定性等方面进行更加深入的研究。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)

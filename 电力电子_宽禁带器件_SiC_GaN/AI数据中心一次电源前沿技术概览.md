@@ -1,0 +1,291 @@
+# AI数据中心一次电源前沿技术概览
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/Q6OBsGUtXz2SKaDBrjgnWA](https://mp.weixin.qq.com/s/Q6OBsGUtXz2SKaDBrjgnWA)
+
+文章来源：电力电子实验室
+
+作者：王浩宇（上海科技大学）
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHKnvfu1H1rcx2x4OJLUWGicEMKPVMOQ1WSkgTOZ6pd7iaLLR6JaDdHZPw/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&tp=wxpic#imgIndex=0)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH2yiaNnqm4CrzicPJ06nRWxfnxHbGlPLtHaibdIdKGmz1ukNvxHyt7u8xA/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic#imgIndex=1)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHc5VsLE6eX2yGaC3BiaJw3xc3dSibr6ByCpoPWtAQvKQZshcuTsVibvW4A/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic#imgIndex=2)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHYBtfhkIet9nWfTdcaNn8enN4ck8sCegHkIjKdlMiawXwdrWMnIYazsw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=3)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHhMSw3vkwUOhVM1rbI8Z5SOD10Jnf5GKNIN4bX4KTlWSsRNFqle2EVQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=4)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHj0RRWicnyJzxuDKx9ib0VkMcHPMJ1BW8xzYvlje8Udibiawu9iaiausLicHtg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=5)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH27EZap5h8ywcGD80blPkNo8mjLK2wCe9ld1yaw42PcDml1ZZP2DNQw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=6)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHfSS9dmTkNzInCicYsWtg2icAKYN9hTd7qapkD0fMfqWXt2pSdChcu5Kw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=7)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHIqorf3F63BkA2ZqqUrsXrlVFNK0SoYORbgFpo0zPf6tVR5rlLNwFaQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=8)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH7ObKj9IFg4WrDKv4l0LsUy57icFFJVXaFI0hxxYRaXLA6VWCgK6L60w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=9)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHShicXicq08saASVdVIW9rbjGK5J5weWYEytDgtMzhhEmC3bd2sJdGE5w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=10)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHLhToR19tscEMNKOviaBFJjgbiczt5CKUs6rudicH4X1TibrsVvgcDOxurA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=11)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH6RicOqy9ibmn5ZHfcEibxvmibib0rJTIz6ibeY9CY5ghy4q9eGaNbJ3ickqEg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=12)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHMXjtSk0MRgCxfPRoTZqtGmde6sibjib3caejE1uJgNmzibACV4icQiaywHQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=13)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH20iba3WaFDicf1eUr2ibmAKKEoSPvWUvBEAjiaCFhIxpb0cqQHyweabyhw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=14)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHCscrRSQItoBGzBPBm0ZfsycAgMaRakaDrk7EqdleFfYSP8EpQBRibsQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=15)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHVXFpY89YumqLH9sgDlC55G5fCOGgCvONcuAZbhltVJJWRqE5X420AA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=16)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHibDiatcEd1KZ2bIibW17CRNyAz4FoHzWPya51VOC8QibfQaCtSuMLO4ibNg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=17)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHpRYSBx4TFqH75hSztMwsH11Pys4VCCpX7Zo7MpT5wtMB1Lm5RichSNg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=18)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHoib0lO96Qd798MHoeQlzg3xf5qpvLU8aJpuPoDfqJsC2K243pIkAKdQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=19)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHD9T3NXxic2UCIB0o7hmx5atxCy0d7x3Y4515RLnMYxia8Y1BcqgFutkA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=20)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHwZHmb5mWl8lOg017ic3FHIAZFTj7ictD218oI9zt6Jk3IQUCjYDDtt6w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=21)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHAA94KicDvjuoSic1hY2pia4UJwTyb1LyvgaoKZu5ImtA6NIcHtkejkxyA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=22)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHwbAJWwicA6mbWr1YsMZQT4AqI61cpDGcuLwXCUZXC4pegLCFk1nbxzA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=23)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHiclTUzCPtkMicS12SG2RfOg9Q9ke5IlAO2xHMa7YVmwiahV9xG9PPJCvQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=24)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHncgEDFMOJ7axTWwe6SBfJAagiciazYic26K8VYj5bvWWwOsnZibiaLKBkTQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=25)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHPiaqrCa4oiaiaicNF3wcIUwTciadMxUZrJq8oYesqrfiboKZTZvFHYLfZnRQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=26)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHkKXlVxNGwdITwOcm8PMa3JGJibf5TYx7BN7bqdOK03A7BF9PQic7OqBg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=27)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHjDF1LaDPRvlrBdNopCpmX2oqtS0Rl2sg1IhU7FibIfR5vw4qaVNa5qQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=28)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHt7RZm4OOIY590FBuLmyHxgTrN0LDMaxN8ZROibgoUZ9BawxwX82P52w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=29)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHOGpMNd6aLAH13w75nVI9pNze4oSOpbbicjYHPx8hpxFtrO08asiapNYA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=30)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHcWrfvGyvN4lXeGtQ6x2ATVkia6m6pdfFPytQRPoHuicLyoiaspM8cshrQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=31)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHF3tF5GIjFlxiadsFwhlUFiaeHpN42Xz8A6qzZJwR6t2kz9setYl5w3rg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=32)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH44rnmvMEhMEZaupaiaPXMgqKc5G9uZlibsKXXI6iaAbjLzq8k5C006MMw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=33)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHgplz4REW050rKxuFeqC0zvjQP5YpEeW7Yukc14f6aAEzia6Erzh7y2g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=34)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHLGURnDqDOAF2MLhbhb1IXpuWMwcssSXrLlRHSCIiaE8G4pZ4icPOibkjQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=35)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHVw2MxTV2n8iczPrQY1QenicUN7XPHC9qsrVXnogKykPZJ0icfjPcl4yDQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=36)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHvGLYUgLelvUwOAm8yhplF48dwBeMxnuic7bznYxggHiczLH0DNkzRaQQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=37)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHTcBlUs39Gsp2toKJCaXP1j1LMdKhkBftXRNdkHPLJRVib2VkkblVE8w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=38)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHkH9xe2s3xMv4oWJAiaCp54CibmbLc1MxhClkytbbJzhvoiaobjc665onA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=39)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHbGL0nGribxvHEZPHf7vGlvuYa5bMYicevs2XFyAZqZLF7fWNA2tqTCXQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=40)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHucgf6icC7M84FCALXZbzicqauS1jXatY7sa72zrZ6oPIceIOqwtZwWog/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=41)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHqiaVHqFzSyrwj4jww7zicKp1s7YCvRWNydhMwEM3ocnaX2PjWLPicudNw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=42)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHKMI8WlyxKvcjdOXZnvupsGudX5cSqfqqd5MS9vOkhZYq22TMOV5AIA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=43)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHEVw4G4wRJZCMzZFxCibVSIIHLtkEOPibw56OaGNVVmZvnib8Es7lVicvNw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=44)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH0QwB4AT51DstcA49ib8b6Tt1ncswApvKVeLpk2bTC82txiacnUmBXyQA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=45)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHKKy9Vpsia2Tgian15LODkcva91ZlawiaGH1EGyFooYTmat2RbGyNqhpFQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=46)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH4pqkqkR0ASft8lBzyzsibaprqhEbeEMg0vOXB9ueILrE5fHDfWAOduQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=47)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHKuwTCsHqFMq9t34G4y92eb8cYIHPQFZ1EWiaQaopDD5AoWPsksczvicA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=48)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHsNpicviaFMvHhCyODBGECxVmyaYN5E1kjWXPzzMsuibia1IjZrj2UW83UQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=49)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHw1kzFnZBqqmjrRrhicf0EoQic2vlvPyxdEib0ZQwgLPvG3dPkmGYZAVRA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=50)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFHfTo5DyibcQffg256ukw6QFjibHdqkASj8ic7c7pcNzZdXbKPJ7Vj54Lgw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=51)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/8a2n6DYT8Y7WtG7LBaic1R8Lf6S9J5vFH2s7b6jmB8WpULrfx52xjBUaMCXvjCytibWrvstyGAleBhPPtRWstIJQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=52)
+
+注：文字与图片报告无关
+
+  
+
+AI数据中心对电力需求呈现**超高功率、超高密度、极致效率**的爆炸性增长，这直接驱动了一次电源技术的革命性演进。
+
+以下是对AI数据中心一次电源前沿技术的概览，从挑战、核心技术和未来趋势三个方面进行阐述。
+
+### **一、 AI数据中心带来的核心挑战（为什么需要前沿技术？）**
+
+**1.功率密度剧增**：单机柜功率从传统的5-10kW飙升至**30kW、50kW甚至100kW以上**（如NVIDIA DGX A100/H100系统）。传统电源架构和散热方式已无法承受。
+
+**2.能耗成本与效率为王**：AI训练集群耗电量堪比小型城镇，PUE（电源使用效率）的每一点提升都意味着数百万美元的运营成本节约。目标效率从传统的“钛金级”（96%）向 **“99%+”** 迈进。
+
+**3.供电链路的“最后一厘米”挑战**：如何将电能高效、低损耗、高稳定地输送给功耗高达700W甚至1000W的单个GPU芯片，是前所未有的挑战。
+
+**4.动态负载与智能化**：AI工作负载波动剧烈，电源系统需要更快的动态响应和智能的预测、协调能力。
+
+### **二、 一次电源前沿核心技术概览**
+
+这里的“一次电源”通常指从中压电网（如10kV AC）到服务器机柜直流母线的整个供电链路。前沿技术主要围绕 **“高效”、“高密”、“智能”和“直接化”** 展开。
+
+#### **1\. 架构级革新：从交流到直流，电压等级提升**
+
+-   **高压直流（HVDC）架构的复兴与升级**：
+    
+
+-   **传统HVDC**：采用240V/336V DC母线，减少AC-DC转换环节，已在许多数据中心应用。
+    
+-   **前沿趋势**：研究并试点 **±190V/380V DC** 甚至 **575V DC** 母线。更高电压意味着相同功率下电流更小，线路损耗（与电流平方成正比）大幅降低，线缆和铜排成本与体积也得以优化，尤其适合高功率机柜。
+    
+
+-   **48V直流机柜架构的回归**：
+    
+
+-   **驱动力**：为应对GPU等加速卡极高的瞬时功耗和动态电流，产业联盟（如OCP）正推动在机柜内采用**48V直流母线**。
+    
+-   **优势**：相比传统的12V，48V可将配电电流减少至1/4，极大降低了从机架电源（RPP）到主板的配电损耗和成本。**谷歌、微软等巨头已在其AI集群中规模部署**。
+    
+
+-   **混合架构**：可能出现“HVDC（如380V）入楼，48V入柜，1V以下入芯片”的多级高效直流配电体系。
+    
+
+#### **2\. 器件与拓扑级革新：宽禁带半导体与先进拓扑**
+
+-   **全链路SiC/GaN化**：
+    
+
+-   **一次侧AC-DC（UPS/PDR）**：采用**基于SiC MOSFET的图腾柱无桥PFC**，取代传统硅基整流，效率可达99%以上。隔离DC-DC部分采用**高频LLC或DAB拓扑**，开关频率提升至数百kHz，大幅缩小变压器体积。
+    
+-   **二次侧（机架/服务器电源）**：采用**GaN HEMT**，因其在100kHz-1MHz频率范围内的卓越性能，可实现极其紧凑的48V/12V/1.8V等多路输出电源（称为“巴拿马电源”或“直流变压器”）。
+    
+
+-   **功率集成与封装**：
+    
+
+-   **模块化与标准化**：如OCP提倡的**开放式机架电源模块**，实现热插拔和维护。
+    
+-   **三维封装与集成**：将高频磁性元件、电容和半导体器件通过先进封装技术（如嵌入式封装、晶圆级封装）集成，追求极限功率密度（>100W/in³）。
+    
+
+#### **3\. 供电链末端革新：板级与芯片级供电**
+
+这是应对GPU供电挑战最前沿的领域。
+
+-   **负载点（PoL）电源的演进**：
+    
+
+-   **从多相Buck VRM到** **“48V直转”**：绕过传统的12V中间母线，直接从48V母线降压至GPU核心电压（<1V）。这要求DC-DC变换器承受极高的降压比（>40:1）和极大的电流（数百安培）。
+    
+-   **拓扑创新**：采用**两级变换**（如先由48V转至12V中间总线，再转至1V）或**串联电容降压（SCB）**、**电感-电感-电容（LLC）谐振**等新型拓扑，以提升效率和功率密度。
+    
+
+-   **集成电压调节器（IVR）与片上供电**：
+    
+
+-   **最前沿方向**：将微型DC-DC转换器直接封装在GPU芯片旁（**2.5D/3D封装**）甚至集成在硅片内。通过极短的互连距离，提供极快的动态响应（应对ns级的电流变化），降低寄生参数，并允许使用更高效的开关频率。
+    
+
+#### **4\. 智能化与数字化管理**
+
+-   **数字电源管理（Digital Power Management）**：
+    
+
+-   基于高速数字控制器（如DSP），实现电源的**实时监控、参数调整、故障预测和能效优化**。
+    
+
+-   **与AI负载协同的智能电源管理**：
+    
+
+-   电源管理系统与集群调度软件、AI作业调度器联动，根据工作负载预测动态调整供电策略（如DVFS的动态范围），实现跨层的能效优化。
+    
+
+#### **5\. 散热与基础设施协同**
+
+-   **液冷普及对电源的影响**：
+    
+
+-   随着GPU机柜全面转向**冷板液冷**甚至**浸没式液冷**，电源系统也必须适应新的热环境。
+    
+-   **前沿方案**：将一次电源模块（如48V PSU）也集成到液冷回路中，实现**全链路液冷**，彻底消除风扇，可靠性极大提升，并允许电源在更高环境温度下工作。
+    
+
+-   **与建筑电网的互动**：
+    
+
+-   研究利用数据中心电源系统作为**电网的柔性负载或虚拟储能**，参与需求侧响应。
+    
+
+### **三、 未来趋势总结**
+
+趋势方向
+
+具体体现
+
+目标收益
+
+**电压等级提升**
+
+380V/575V HVDC入楼 + 48V直流入柜
+
+降低配电损耗，节省铜材，支持高功率密度
+
+**全链路宽禁带化**
+
+SiC用于高压侧，GaN用于中低压侧
+
+实现系统效率 > 99%，功率密度翻倍
+
+**供电“直接化”**
+
+48V直转GPU核心电压，IVR片上供电
+
+解决“最后一厘米”挑战，提升动态响应，节省主板空间
+
+**全面智能化**
+
+数字电源管理与AI调度协同
+
+实现预测性能源管理，提升整体能效（TCO）
+
+**深度液冷集成**
+
+电源模块与计算设备共液冷回路
+
+适应超高密度散热需求，提升可靠性与效率
+
+**对方案设计人员的建议**：
+
+**1.关注行业标准**：紧密跟踪**OCP（开放计算项目）** 和**ODCC（开放数据中心委员会）** 在电源架构（如48V、HVDC）、模块规范（如Open Rack）方面的最新进展。
+
+**2.系统级思维**：电源设计不再是独立的子系统，必须与**芯片热设计（TDP）、散热方案（液冷）、机柜结构、软件调度**进行协同设计。
+
+**3.评估技术成熟度**：对于前沿技术（如48V直转、IVR），需评估其供应链成熟度、成本与可靠性，在激进创新与稳健部署间取得平衡。
+
+**4.聚焦全链路TCO**：终极目标不是单一部件的效率峰值，而是从市电入口到晶体管水平的**总拥有成本（TCO）最低**，包含电费、基础设施投资、维护和可靠性成本。
+
+AI数据中心是电源技术创新的最大试验场和驱动力。把握这些前沿趋势，将帮助您设计出满足下一代AI算力需求的、极具竞争力的电源解决方案。
+
+注明：  
+
+【版权声明】：本公众号平台注明来源或转载的文章，版权归原作者及原出处所有，仅供大家学习参考之用，若来源标注错误或侵犯到您的权利，烦请告知，我们将立即改正或删除。
+
+【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm1OtiaWHIDHkyks2tyB7YXiahHY93hS9sVhQbJicB3yu1p2EzqNhSicic9KUP5bWDFuEs5HrgBq6GpncQ/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1OtiaWHIDHkyks2tyB7YXiadr1zvTneRoaXvksADMzkObY7DGndXehDddqmkZQmHSTCniaQHZicibE8A/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1OtiaWHIDHkyks2tyB7YXiaeOqRtFcDArvPtSZx1wmqXjSQPvsD3ltVdA4KhKv12zXHlXklkw8ibqw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1OtiaWHIDHkyks2tyB7YXiajVfvepZuwVjmCc2woBhbQhiapibic1aE4gULukk0XDXBXfwrDwGeLichKQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)

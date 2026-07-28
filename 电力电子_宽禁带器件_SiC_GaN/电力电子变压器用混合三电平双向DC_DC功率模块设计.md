@@ -1,0 +1,42 @@
+# 电力电子变压器用混合三电平双向DC/DC功率模块设计
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/bOFEwN7J4vyogHcYky9dMw](https://mp.weixin.qq.com/s/bOFEwN7J4vyogHcYky9dMw)
+
+**文章来源：**山东电力技术
+
+**作者：**张茂强，骆仁松，汪涛，文继锋(南京南瑞继保电气有限公司)
+
+**摘要：**高压隔离双向DC/DC变换器模块是电力电子变压器电压隔离和变换中的主要环节。为提升模块高压侧直流工作电压，减少模块级联数量，降低功率变换部分的占地尺寸和控制复杂度，采用混合三电平拓扑设计电力电子变压器功率模块。分析混合三电平双向DC/DC变换器的工作原理，对电路中的主要参数进行设计,并基于SiC功率器件完成了样机的设计，最后对样机进行了试验验证。试验结果表明，混合三电平双向DC/DC变换器工作特性与传统全桥双向DC/DC变换器一致,效率最高达到98.7%。三电平双向DC/DC变换器以较低成本和控制复杂度，提高了子模块高压侧直流工作电压，使电力电子变压器系统功率模块数量减半，有效降低了电力电子变压器的尺寸。
+
+**关键词:**电力电子变压器；混合三电平；双向DC/DC变换器;碳化硅MOSFET
+
+**0 引言**
+
+在高压柔性直流输电、无功补偿等需要电力电子变压器接入中、高电压应用的领域 ，由功率半导体器件的耐压、通流能力、开关频率等存在限制，系统大多采用模块化级联多电平结构。系统级联模块数量多，控制系统和阀结构复杂，系统运行可靠性相对不高。
+
+在电力电子变压器应用中， 功率传输效率是重要的参数指标之一。因此， 当前示范应用的工程项目中大多引入SiC MOSFET的器件。相对于Si IGBT器件,SiC MOSFET的开关速度更快，开关损耗和通态损耗更低,运行结温更高。采用SiC MOSFET的电力电子变压器效率接近传统变压器。
+
+但目前商用SiC MOSFET的耐压等级多在1200V平台，电力电子变压器系统中的模块工作电压更低， 模块数量较多 ， 与传统变压器相比，尺寸和功率密度不占优势，性价比不高。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTVP81URmkXyqt3sMkia4zC21Pb0Cdrtcksu4xtQSZkT6GsUEicQWp0pk7IY7werHrNqNFAo0p137Q/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTVP81URmkXyqt3sMkia4zCdxc2acd1Y0807bcbg8XPGnPhDkD9rjZNrd2ibAWFZsImwqubdWnHhQQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTVP81URmkXyqt3sMkia4zCe381omT0lQFsRYwR7cOdNeN0tWYicib9fxe1zlC5VPEwOwnTibK98C8fA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTVP81URmkXyqt3sMkia4zClhMrIU65FTNzrR3qicNKoJPYEejtmBHGibpZdddPCOZZ2apyGrMOJUow/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTVP81URmkXyqt3sMkia4zCIktuZwcLWowXEFsPqvnbiabvicejdKX2kB7Zy7W6L4LStJEWOcyCHuicQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTVP81URmkXyqt3sMkia4zCgJ68yplLkoUI6BPJziauDqVRGPmC9BrHvAmX6RgskXDRrTDnB20v3hA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslTVP81URmkXyqt3sMkia4zCbDZmiabuNS1Mqccb2W9o2uf1oicTuWuwCwSxDUR7iatsyrAsnfNydeiaQQ/640?wx_fmt=png&from=appmsg)
+
+                      1200V混合三电平模块模块产品（SIC MOS+IGBT）
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

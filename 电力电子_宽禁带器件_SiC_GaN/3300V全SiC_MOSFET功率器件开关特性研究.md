@@ -1,0 +1,122 @@
+# 3300V全SiC MOSFET功率器件开关特性研究
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/m5I9zGW\_3vqksFwNPKluQQ](https://mp.weixin.qq.com/s/m5I9zGW_3vqksFwNPKluQQ)
+
+**文章来源：**机车电传动
+
+**作者：**孙康康，陈燕平，忻兰苑，王晓年，余开庆，胡长风（中车株洲所电气技术与材料工程研究院）
+
+**摘 要 ：**为更好地发挥全SiC器件的开关速度快、损耗低等优势，研究了某款3300 V 全SiC MOSFET 器件的开关特性。首先，通过理论分析阐述了开关变化过程，并给出了可量化的计算方法；其次，从驱动电阻、结温、回路杂散电感等方面探寻了开关特性变化的规律；最后，在样机上进行了验证。结果表明，文章中所述优化开关特性的方法对全 SiC 逆变器的工程应用有一定的指导意义。
+
+**关键词：**3300V全SiC MOSFET；开关特性；驱动电阻；结温；杂散电感
+
+**0 引言**
+
+半导体材料经历了以Ge/Si为代表的第一代半导体材料，以GaAs/InSb等化合物为代表的第二代半导体材料，以耐高温化合物SiC/GaN为代表的宽禁带第三代半导体材料的发展历程。与第一代、第二代半导体材料相比，第三代半导体材料具有更宽的禁带宽度、更高的击穿电场、更优的热导率、更高的电子饱和速率以及更强的抗辐射能力，更适于制作高压、高温、高频、抗辐射及大功率器件。目前在高压大功率器件领域，SiC材料最被广泛看好。随着轨道交通技术的发展，人们对车辆的节能、噪声及轻量化等技术指标提出了更高要求。高压全SiC MOSFET器件技术的日趋成熟恰好能满足轨道交通发展应用需求。本文主要研究某款3300 V全SiC MOSFET功率器件开关特性，深入分析影响其开关特性的主要因素，通过试验数据阐明开关行为变化对其应用的影响，并进行优化设计。
+
+**1 开关过程基本特性**
+
+**1.1 结构模型**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRz7Byw7th2bJGqvIvTy1t8WW0U2dOukFSu05Gou7ibeUTUG3OLkRMBGww/640?wx_fmt=png&from=appmsg)
+
+SiC MOSFET芯片结构沿袭了Si基MOSFET特点，均为单极型的电压控制开关器件，芯片工艺正在从平面栅型向沟槽栅型发展。文中测试器件SiC MOSFET芯片采用平面栅型，图1(a)为芯片剖面示意图，图中漂移区掺杂浓度及厚度直接关系到导通电阻与耐压功率半导体技术等级，P阱区表面及体内掺杂浓度是决定栅极阈值电压大小的关键因素，优化JFET区宽度及掺杂浓度可以实现栅氧化层高可靠性和低导通电阻的折中。  
+
+器件采用新型开源半桥标准封装，有效降低了器件封装内部杂散电感并且提高了并联芯片之间的均流度。由于寄生二极管导通压降高，目前仍然使用外置SiC 肖特基二极管作为续流管。图1(b)为器件内部电路等效模型，包含电极（栅极、漏极和源极）、SiC MOSFET芯片、SiC SBD芯片、寄生电容（CGS, CGD和CDS）、杂散电感（LG, LD和LS）和内部电阻Rgint。
+
+**1.2 开关过程**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzzPKDUhOCBD1WarEjvYo2q8q92ehPlKB0InLFP5pDyR3WfGjkfp24Dw/640?wx_fmt=png&from=appmsg)
+
+开关过程历经时间虽短暂，但对器件的工作影响很大，值得深入探讨。开关过程是一个瞬态过程，本质上是栅极通过RC电路充放电使其达到开关的目的，其各参数可以通过微分方程求出。图2（a）为测试半桥电路模型。  
+
+**1）开通过程及其参数**
+
+开通过程可分为4个阶段进行说明，如图2（b）所示，假定初始条件为uGS=0，iD=0，uDS=UDC。
+
+阶段1：阶跃电压UGS加在驱动电阻RG上，由于驱动电压远大于开启电压UTH，寄生电容CGS和CGD经RG充电，在t1时刻，栅极电压等于开启电压。这一区间的电压uGS(t)表达式及0~t1时间差为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzv6NgF5icp3ksqXwlTXgSXN0hpft1Vac52tGGbmQgku70V7saGXF8NhQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzVsn03j3tGNjHufJUicLOtOJLkz8Zbm5ckIqPfqvxdicOX34n3GSkvDoA/640?wx_fmt=png&from=appmsg)
+
+在开通过程中需要特别关注2个参数：①开通时间，其值越大，开通损耗及二极管反向恢复损耗将会越大；②电流上升耐量di/dt，其值越大，越容易引发器件应用风险。
+
+**2）关断过程及其参数**
+
+图2（c）为关断过程波形，其与开通过程类似，时间顺序相反，不再赘述。在关断过程中需要特别关注3个参数：①关断时间，其值越大，关断损耗越大；②关断过电压，若其超过器件额定电压，会导致器件过电压击穿；③关断应力dv/dt，若其值过大不仅容易引起器件对管误导通，而且还会使器件或者外接电机等出现疲劳损坏。
+
+**2 影响开关特性的主要因素**
+
+为了准确展示其换流过程以及测试SiC MOSFET器件开关特性参数，基于图2（a）所示半桥电路模型搭建双脉冲试验平台。本节从工程应用出发，着重分析驱动电阻、结温及杂散电感3个因素对开关特性的影响。
+
+**2.1 驱动电阻的影响**
+
+驱动电阻对于驱动电路的设计非常重要，其阻值大小影响着开通/关断过程的各个阶段，很大程度上决定SiC MOSFET及对应续流二极管的开关状态。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzPjsTBpXFsC1IJ6dFTXSzKwcrdTleABOQjic1JhwIcQnC4KGLEianHYBw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzvfTQCQmWaHexcicOniaAhiauXBAhQHTlZ93iap8XfBibWIJ36h1YDBvgcNg/640?wx_fmt=png&from=appmsg)
+
+图3为器件开通/关断时驱动电压VGS、漏极电压VDS、漏极电流ID及对应续流二极管电流IF随驱动电阻变化的波形。图4为器件开通损耗Eon、关断损耗Eoff、对应续流二极管反向恢复损耗Erec、开通时漏极电流变化率diD/dt、开通时二极管电流变化率diF/dt及关断时漏极电压变化率dv/dt随驱动电阻变化趋势。测试条件均为直流电压VDC=1800V，额定电流ID=750A，工作结温Tj=25 °C，总杂散电感Ltotal≈ 97 nH，VGS为+15 V/-5 V，开通电阻Ron变化范围为1.3~2 Ω，关断电阻Roff变化范围为0.9~3.9 Ω，其中Ron和Roff不包括内部采用的集成栅极电阻。
+
+根据式（2）和式（3）可知，开通时随着Ron变大，开通延时增大，上升时间增大，diD/dt及diF/dt减小；根据式（5）可知，电压下降时间增大，dv/dt减小。Ron变大的影响贯穿了阶段1~4，最终使Eon和Erec增大。从图3（a）及图4可以看出，其开通特性参数变化趋势与分析结果一致，同时体现了SiC MOSFET器件在开通时栅极轻微振荡、diD/dt小、diF/dt小、二极管反向恢复电流/反向恢复损耗极小等特征。
+
+同理，关断时随着Roff变大，关断时间和Eoff增大，diD/dt和dv/dt减小。从图3（b）及图4可以看出，其关断特性参数变化趋势与分析结果相同，另外也充分体现了SiC MOSFET器件在关断时dv/dt高、电压/电流发生振荡、关断损耗低等特点。
+
+由以上分析可知，选取驱动电阻时需要同时考虑开关损耗、电应力、振荡及安全工作区等因素的折中关系。
+
+**2.2 结温的影响**
+
+在SiC MOSFET器件实际应用时，由于开关损耗、通态损耗及外部环境的变化，其结温处于不断变化中，而结温对载流子浓度及其寿命等有着直接的影响。图5为此款器件技术手册中转移特性曲线。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzHVicIeQ6eicYDVYG1BwE6XUQnyfmYZFs18ibSvRPHnNQlqPkDARiaSMjUg/640?wx_fmt=png&from=appmsg)
+
+从图5可以看出，随着结温的升高，开启阈值电压UTH呈现降低趋势，跨导gfs温漂很小。假设gfs为常数，依据式（3）可知阶段2的时间减少，使得diD/dt和diF/dt增大；依据式（5）可知阶段3时间变长，使得dv/dt减小；在关断时，依据上述分析同样可以得出相似的结论。高温时开启阈值电压较小导致器件更容易受栅极电压振荡及开通dv/dt过高影响而误导通，因此在应用时应该采取有效措施防止误导通发生。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzM0PrnW7rxyD491kcHicGJfKvIpHTJwefVfPCgQBDqNz5PRNhKwSe32w/640?wx_fmt=png&from=appmsg)
+
+图6为不同结温Tj下SiC MOSFET器件开关特性参数试验数据，参数定义与图4中相同；测试条件均为VDC=1800 V，ID=750A，Ltotal≈ 97 nH，VGS为+15 V/-5 V；Ron=1.3 Ω，Roff=3.9 Ω；测试结果与理论分析相吻合。特别值得关注的是，随着结温的升高，Eon减小，Erec和Eoff增大，且Eon减小的幅度大于Erec和Eoff增大的幅度，使得总的开关损耗略微降低，此现象与热效应构成负反馈，此特性会使得SiC MOSFET器件整体工作热稳定性更好。
+
+**2.3 杂散电感的影响**  
+
+杂散电感存在于换流电路及栅极电路中，其对SiC MOSFET器件的开关特性存在明显的影响。栅极电路杂散电感的影响在一些文献中已经进行了详细的探讨，本节将对换流电路杂散电感的影响进行详细分析。
+
+图7(a)为双脉冲测试时含有寄生参数的换流电路模型，其中LC和RESR分别为支撑电容器寄生电感、等效电阻，LBUS和RBUS分别为低感母排寄生电感、等效电阻，LD1, LS1, LD2和LS2为器件内部寄生电感，CJ1和CJ2为器件内部等效寄生电容；图7(b)为图7(a)的简化模型，本质上可等效为LCR电路，其中：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzr4VMC4ZLyWh6kNr0mwKv9nVEAE1HqoyzibTJqAIJPf6hoLL3bKdiaSLw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzjFoROYTSga1cspbMEDKrl881W920c7rPXicJtT1d1w4FscgEaflZOOw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzxJ2A5s9oav7zD0OibjH8ekABfIhrX0ZicCUQz07XyAnNXBZicMCCYlTmw/640?wx_fmt=png&from=appmsg)
+
+在工程应用中为了抑制振荡，常常采用以下2种方法：一是增大驱动电阻，减缓开关速度，但是会增加总开关损耗；二是减小主电路杂散电感，包括LC及LBUS，不会增加总开关损耗，为最佳方案。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzBnMvfzS5FukM2d0LRbI7wXXdzxaiad7iagUxnPclUQDXGVsOjNE85XzA/640?wx_fmt=png&from=appmsg)
+
+图8为主电路总杂散电感LS不同时开通/关断过程波形，表1为此时开关特性参数，其中∆Vmax为关断过电压值，∆V为关断电压振荡第1个周期的峰峰值，T为第1个周期的时间。测试条件为VDC=1800 V，ID=750A，Tj=25 °C，VGS为+15 V/-5 V，Ron=1.3 Ω，Roff=3.9 Ω。
+
+依据以上分析及测试数据可知，开通时，随着LS增大，漏极与源极间的电压跌落越大，diD/dt略微减小，Eon减小；关断时，随着LS增大，关断电压振荡越大，dv/dt略微减小，Eoff增大，振荡频率减小但持续时间变长。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzMWnuIdDsKEZicuuwYJ8NDaSQoxIOhVAfLrw1A0GibRRz5UQALTZzD0PQ/640?wx_fmt=png&from=appmsg)
+
+**3 样机验证**
+
+在使用此3300V全SiC MOSFET功率器件的三相逆变器样机中，按照上文对驱动电阻、结温及杂散电感等因素的分析方法对其优化，取得了开关损耗、电应力及振荡等较优的结果。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmPrpDreeiaEWkEFbvpTFgRzPScdfiaJpNNmLK9JkiasHbADAxhiagFmzzk5PRqq4BWKbPDbH28ialxxug/640?wx_fmt=png&from=appmsg)
+
+优化后的双脉冲测试波形见图8（LS≈ 41 nH），详细开关特性参数见表1（LS≈ 41 nH）。对比图3及图8中LS≈ 97 nH时波形，振荡有了明显的改善且仍然保持了较快的开关速度。图9为优化后逆变器功率考核试验中某个半桥器件上管的电压/电流波形，组件运行良好。试验条件为VDC=1800V，VGS为+15V/-5 V，Ron=1.3 Ω，Roff=3.9 Ω，开关频率3 kHz，电流有效值375 A。
+
+**4 结语**
+
+本文从SiC MOSFET开关特性出发，从理论上详细分析了其开通及关断过程，并基于3300V全SiC MOSFET功率模块深入讨论、验证了驱动电阻、结温及杂散电感对开关特性的影响，探寻了其变化规律，指出了优化开关特性参数的方向，取得了器件应用时开关损耗、电应力及振荡之间较优的结果，为后续器件研究及应用提供技术参考依据。文章只对正常开关过程进行了分析，然而在实际应用中，非正常工况偶尔也会出现，所以在应用时需要同时考虑过流、短路、窄脉冲及小电流等极端工况。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqb8Po3qdBDOEjHEmo3DibcFdSeQxPepq4CgmLpeSttlMicicb3ru8mu738A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)

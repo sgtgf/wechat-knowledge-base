@@ -1,0 +1,56 @@
+# 禾望电气：做SiC逆变器很苦，但成功了很酷
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/D1rlfUbIG8yMhv8KY7IkSQ](https://mp.weixin.qq.com/s/D1rlfUbIG8yMhv8KY7IkSQ)
+
+**文章来源：**禾望电气、  
+
+**4月份，小米SU7开启交付，作为小米的第一款汽车，SU7取得了非常亮眼的成绩，多个话题冲上热搜。**其中一个热点话题：小米SU7全域搭载碳化硅（SiC）。**实际上，这项技术革新在光伏发电领域也引起了不小的轰动。碳化硅作为一种新型的宽禁带半导体材料，凭借其高耐压、低损耗、高导热率等优异性能，可有效实现电力电子系统的高效率、小型化和轻量化。**目前，****禾望电气已率先将第三代宽禁带半导体-碳化硅材料应用于光伏逆变器。****
+
+  
+
+  
+
+**利用优势，推动技术革新**
+
+**近年来，中国光伏产业欣欣向荣，产业链各环节技术不断推陈出新。凭借技术与应用优势，禾望电气积极参与了**深圳市技术攻关重点项目之《基于光伏逆变器应用的高结温SiC MOSFET封装关键技术研发》**，针对光伏行业进一步发展过程中对高结温SiC MOSFET的迫切需求，**协助解决高结温SiC MOSFET在光伏逆变器中的实际应用难题**，促进光伏逆变器在进一步小型化、功率密度提升等方面的发展，促进光伏发电效率的提高，降低光伏发电成本。**
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/nR2rZNusDibDVTXpXMvicwGSIDpshahAS8CN11gTte89zLhYFhib5LqCusiaym8NxErT1KLq2twPkAoQ1ndBBic3f0Q/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+
+  
+
+**本项目成功执行，将有助于促进深圳市光伏产业链的深度合作，发挥龙头企业和科研院所的独特优势，在光伏、功率半导体、高性能芯片封装新材料等多个赛道上实现突破，以实现巨大的社会经济价值。而基于在SiC MOSFET光伏逆变器领域的创新研究成果，**禾望电气于2023年申请了2项SiC MOSFET光伏逆变器相关专利**。**
+
+  
+
+  
+
+**直面挑战，蓄力产品突破**
+
+**正如小米造车一样，将革新的技术应用于优化产品的性能，是一件很苦但是很酷的事情。SiC材料具有更好的高温、高压、高频耐受能力，可提高系统功率密度、减少损耗与成本。这些优良特性足以支撑SiC在光伏逆变器系统中取代供不应求的IGBT，助力实现光伏平价发电。**禾望电气积极探索SiC 在光伏领域的创新应用，也是一件很苦但是很酷的事情。****
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/nR2rZNusDibDVTXpXMvicwGSIDpshahAS8zhPZxFsWReOqe5qtlkuuvmCgFuh5tdichyicVNkeAPb7TmMMXkqFXSTA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+**禾望电气在新能源领域深耕十多年，现已形成完整的风电变流器、光伏逆变器、储能变流器、SVG等新能源产品开发平台，为全球能源转型与发展持续贡献力量。**
+
+**目前，禾望电气已实现3kW~385kW组串式逆变器全系列搭载第三代宽禁带半导体-碳化硅应用，最大单路MPPT电流高达65A，可在更高环温和严苛工况下高效稳定运行，减少发电量损失，降低系统运行成本。同时在双碳目标引领新能源大规模开发，市场对光伏发电需求激增的时期，禾望电气可更快地交付基于碳化硅器件的组串式光伏逆变器。**
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/nR2rZNusDibDVTXpXMvicwGSIDpshahAS8kUZ8HIkeYibMnrdwMFIPcdLFopw16r9p4VT9YsTibBH9J5icD2rQMungQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+技术引领，产品为王。多年来，禾望电气作为一家**全球化的新能源解决方案提供商**，持续在风光储氢多个领域攻坚突破，用新兴的技术打造领先的产品，为客户降本增效赋能。未来，禾望电气将继续**研究和探索新型材料的应用**，为新能源行业的高效发展做出贡献。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

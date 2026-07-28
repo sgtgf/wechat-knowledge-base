@@ -1,0 +1,131 @@
+# 光伏逆变器中并联SiC器件电流失衡的监测技术研究
+
+原创 宋玮琼 ， 郭帅 SiC碳化硅MOS管及功率模块的应用 2025-04-16 05:21 上海
+
+> 原文地址: [https://mp.weixin.qq.com/s/QZbHv74YxXJaKXkK8FV4ZA](https://mp.weixin.qq.com/s/QZbHv74YxXJaKXkK8FV4ZA)
+
+文章来源：电气传动
+
+作者：宋玮琼1，郭帅1，韩柳1，徐超群2，宋威1，吕凤鸣1（1.国网北京市电力公司电力科学研究院，北京，100000；2.东南大学 电气工程学院，江苏 南京，210000）
+
+摘要：为了监测光伏逆变器中并联SiC器件的电流分布状态，提出一种基于各向异性磁阻传感器的非接触式监测方案。根据 SiC器件在 PCB板上的实际位置，利用多物理场仿真工具 COMSOL进行 SiC器件周围磁场分布情况分析，并找出磁阻传感器的最佳放置位置。构建包括磁阻传感器、信号调理电路和数据通信接口在内的电流监测单元。基于一台功率为1.5 kW的光伏逆变器实验样机进行测试。实验结果表明，该非接触式电流失衡监测方案具有频带宽、灵敏度高、线性度好及电路结构较为简单的特点。
+
+关键词：光伏；电流失衡监测；并联SiC；磁传感器；非接触式
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibBq2M2cJzTTRIflwiajoHT0fVfHsGiaYeHibdabh0Fu6quVDykj72AHUOA/640?wx_fmt=png&from=appmsg)
+
+0\. 引言
+
+近年来，分布式光伏发电在电网中的渗透率越来越高，对电网运行的安全性、稳定性和经济性都带来挑战。同时，随着光伏市场的逐渐成熟，相当一部分国家开始退出产业政策的支持。这使得光伏资产运营商开始将目光投向光伏发电系统的运维优化上来。通过系统监测技术，助力发电量最大化、故障的预判和诊断，实现整个光伏发电系统可观、可测和可控的宏观目标。
+
+第三代半导体技术的飞速发展使得碳化硅（silicon carbide，SiC）器件在光伏逆变器中的应用日益增加。在实际设计中，通常需要并联 SiC器件以提升功率处理能力。SiC 并联使用时，单体之间电流失衡的主要原因有驱动信号不同步、SiC器件自身参数容差以及布板不对称。当SiC单体之间电流失衡时，会导致通流较大的单体发热严重，从而影响其寿命以及光伏逆变器的可靠性。为了提升可靠性，监测并联SiC器件中的电流分布状态十分必要。一种较为直接的方案是在每个 SiC 单体的通流路径中放置电流传感器，对比每路采样结果，从而达到电流失衡状况监测的目标。这种接触式监测方案会在高频开关回路中引入额外的寄生电感，对光伏逆变器的电气性能和可靠性有一定程度的影响。另外，所需的电流传感器数目较多，且每个传感器的额定电流都要匹配流过 SiC 单体的最大电流。因此，这种监测方案的成本较高。随着磁传感器技术的不断演进，具有高带宽和非接触式特点的磁阻传感器在电力电子设备中的应用越来越多。基于非接触式的磁阻传感器来监测各个SiC器件的电流并进行比对，能够避免在电路中引入额外的寄生电感。但是这种方案仍然需要用到较多的传感器，并且需要在实际设计过程中考虑磁阻传感器在印制电路板（printed circuit board，PCB）上的具体摆放位置。可以看出，基于传感器直接监测每个 SiC 单体电流状态的方法具有传感器数目多、传感器额定电流要求高和成本较高的缺点。
+
+本文提出一种基于各向异性磁阻（anisotropic magnetoresistive，AMR）传感器的非接触式间接监测方案。根据PCB板上SiC器件的实际摆放位置，利用 COMSOL 软件分析确定 AMR 传感器的最佳位置。通过AMR传感器对并联SiC器件单体通流时在 z 轴方向上所产生磁场分布差异的量测，间接评估单体之间电流失衡的幅度。通过后级信号调理和采样单元将 AMR 传感器的输出实时发送到光伏发电系统后台监控平台，实现对光伏逆变器内部并联SiC器件电流失衡状态的实时感知。
+
+1\. AMR传感器及其摆放位置
+
+1.1 基于AMR传感器的电流量测
+
+AMR 传感器是基于半导体或合金材料的新型磁场感应器件，具有带宽高、灵敏度高、线性度好和非接触式量测的特点。在直接量测的场景下，AMR传感器通常放置在被测对象所在平面的正交方向上。图 1 分别展示了 AMR 传感器量测PCB导线电流时的放置方式和量测TO263-7封装的 SiC 金属氧化物半导体场效应晶体管（metal oxide semiconductor field effect transistor，MOSFET）漏源电流时的放置方式。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibXNPpooNGFjic7bfdvXonaSHdMYmVAib9do322XUrEYs0UryYh3Qic2xyA/640?wx_fmt=png&from=appmsg)
+
+由于 SiC MOSFET 内部存在反并联体二极管，因此可以双向通流，在建模时可以等效为PCB 导线。光伏逆变器中的SiC MOSFET工作在高频开关状态，所等效的PCB导线中流过高频脉动电流。考虑到PCB导线的集肤效应，高频状态下电流会集中到导线两侧，从而使得导线周围的磁场分布情况与低频状态下不同，如图2所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvib7WlKXybvDjZYBcsT5XtPyA0B0Gg5ibxLow3d5dIetkGKFia6EOg0Wmnw/640?wx_fmt=png&from=appmsg)
+
+AMR 传感器的输出电压与被测对象的电流成比例关系，跨阻增益GA (s) 如下式所示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CviblYRTYfCtv9pLYelZ20ULrnsfmFKBWa89Qib2VIQibyjGDTwKTiarpib1tw/640?wx_fmt=png&from=appmsg)
+
+式中：VO(AMR) 为 AMR 传感器的输出电压；II(AMR) 为流过 AMR传感器的电流；kA为灵敏度系数；FA为传感器频率特性中的截止频率。
+
+1.2 AMR传感器的摆放位置设计
+
+通过量测并联 PCB 导线周围磁场分布的差异来间接监测电流失衡状态是一种极具性价比的方案，AMR传感器的量程无需匹配导线中的最大电流值。图3以PCB导线中流过低频电流为例展示这种方案。对于高频电流场合，这种方案同样适用。两个磁场在 z 轴上的差异经过 AMR 传感器处理后，输出相应的电压信号来反映电流失衡状态。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibDspVQYIMG2hcjAOlaspShPup8xO6OEQiabfSeMneDtBicSc6oz8Nm1Vw/640?wx_fmt=png&from=appmsg)
+
+为 了 精 确 量 测 电 流 失 衡 的 幅 度 ，需 要 为AMR 传感器在 PCB 上找到合适的摆放位置。当两个被测对象流过相同的电流时，AMR 传感器摆放在该位置时输出电压为零，即零点参考基准。在光伏逆变器的实际设计中，并联 SiC 器件的对称布局是必须保证的。基于这点考虑，本文利用电磁仿真软件 COMSOL 来辅助设计 AMR传感器的摆放位置。图 4 为模拟两段并联 PCB导线分别流过相同幅值的1 Hz频率电流和10 kHz频率电流时的磁场分布情况。从仿真结果可以看出，在间距为 D 的两段导线中间位置，磁通密度最接近为 0，因此本文选择该位置放置 AMR传感器。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibtHVO2SvicB45quXEKK4hu0RCdDlaZDzXoGnibbzPMqkbYVI8d3ySSCgA/640?wx_fmt=png&from=appmsg)
+
+2. 监测系统设计
+
+AMR 传感器的响应频带范围很宽，通常在0~5 MHz，完全可以覆盖目前光伏逆变器中SiC器件的电流频率。图 5 给出基于 AMR 传感器的并联 SiC 器件电流失衡监测系统示意框图。但是，AMR 传感器的输出电压幅值相对较低，一般在100 mV以下。因此，需要后级信号放大电路配合进行电压幅值的放大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibAYKqm5Ig2hmOn9qq8zHas5TKicyG8Ys37aibgOQ4J57xPXaGJ6FveibibQ/640?wx_fmt=png&from=appmsg)
+
+2.1 系统电源
+
+电流失衡监测系统的输入电源来自光伏逆变器辅助电源的±5 V 输出。LDO 为低压差稳压器，LDO1将5 V输入转换为3.3 V给微控制器单元（microcontroller unit，MCU）供电。作为高速数字器件，MCU 对电源纹波要求不高，因此选择普通性能的 LDO 即可。AMR 传感器内部的精密电桥对电源纹波比较敏感，另外传感器的输出电压幅值本身较低，因此LDO2应具备优越的纹波特性和输入扰动抑制能力（power supply rejection ratio，PSRR）。另一方面，信号调理电路中的高速运放主要用来放大 AMR 传感器微小的输出电压，因此对 LDO2同样有较高的纹波特性和输入扰动抑制能力（PSRR）要求。
+
+2.2 信号调理
+
+图 6 展示了信号调理电路的主要构成。其中，RY为普通电阻，RX为数字电位器，主要用来调节信号调理电路的放大增益。高速运放应具备高带宽和高压摆率的特性，以适配高频电流失衡信号的低失真传输需求。VAMR + 和 VAMR - 分别为AMR 传感器的正输出端和负输出端。考虑到AMR传感器的输出电压的双极性，信号调理电路采用伪差分设计，以 2.5 V电平为中值，叠加传感器输出信号。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibMd9WWALEI2mWico09p05kkfecYb7pURwJluwhJENKQ0OnI09LA6Z4XA/640?wx_fmt=png&from=appmsg)
+
+根据运放电路的叠加原理，可以得到信号调理电路的放大增益GOA如下式所示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibNeamIZsj1X0SwGT0FrVDJaKpXiboqOFxhrIibCslD14f9xRvic1eTAraw/640?wx_fmt=png&from=appmsg)
+
+式中：RX，RY为比例放大电阻。
+
+2.3 MCU外设资源
+
+对 MCU 的外设资源需求主要是模数转换器（analog\-digital converter，ADC）模块和对外通信接口，如图 7所示。ADC 模块应具备较高的采样率和数据吞吐率。为了采样电路的可靠性，ADC输入端应添加防过压保护电路，主要使用上拉到3.3 V和下拉到地的钳位肖特基二极管进行防护。由于电流失衡监测系统需要对接光伏发电系统后台控制中心，因此MCU需要具备丰富的嵌入式通信接口和对外通信接口以适配不同的通信要求，比如以太网、RS⁃485等直接对外传输的接口。对于通用异步收发器（universal asynchronous receive/transmit，UART）、串行外设接口（serial peripheralinterface，SPI）、内部集成电路总线（interintegrated circuit，I2C）等嵌入式接口而言，可以配合无线保真（WiFi）、蓝牙或长期演进（long term evolution，LTE）通信模块实现数据透传。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvibh85gPCpicdia0XXXP9UJ2dzSkHicIIhnqCM6Qh4eG8XxpMeA6Ksd7mAvw/640?wx_fmt=png&from=appmsg)
+
+3. 实验与测试
+
+3.1 器件选型
+
+AMR 传感器的性能对于光伏逆变器中并联SiC器件电流失衡状态的量测至关重要。在选型时主要考虑带宽、偏置电压、灵敏度和量程范围等因素。考虑到光伏逆变器中半导体功率器件的高频开关动作，AMR传感器的带宽与开关频率相比应留有足够的裕量，比如10倍以上。过低的带宽会导致量测信号的畸变和失真，对监测系统的性能有较大影响。对于偏置电压而言，通常希望越小越好。较大的偏置电压会导致 AMR 传感器输出信号存在较大直流漂移，需要设计专门的校正电路来消除。灵敏度参数的设计需要综合考虑动态响应和抗干扰能力。较低的灵敏度导致输出信号动态响应较慢。但是当灵敏度较高时，输出信号也容易受到外界干扰的影响。由于本文设计的监测系统中，AMR传感器只需量测并联 SiC 器件电流的差异，因此对量程范围要求不高。本文选择 Honeywell 公司的 z 轴 AMR 传感器HMC1041Z，相关主要参数如表1所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibXcWCVFuMCCGpEudy7KZNo1YOtUTXbOM66ibFezDIVpFv8K7DjiaIwt6g/640?wx_fmt=png&from=appmsg)
+
+LDO1选择TI公司的TPS7A90，具有较好的噪声指标和输入扰动抑制能力以及 500 mA 输出电流。LDO2选择TI公司的TPS7A94，噪声有效值仅为 0.46 µVrms，额定输出电流为 1 A。当噪声指标较差时，可能会影响系统中其它部件的稳定工作，导致输出信号局部失真。输入扰动抑制能力也是一个十分关键的指标，较差的抑制能力会影响系统电源轨的稳定性，导致整个系统具有脆弱的电源暂态耐受性。
+
+信号调理电路中的运放同样是十分关键的器件。选型时主要关注输入失调电压、增益带宽积和压摆率等指标。失调电压越小，输出信号的直流漂移越小，输出越精准。较大的增益带宽积增加了信号放大需求和动态响应需求之间的设计自由度。假设增益带宽积较小，则在一定的信号放大功能设计下，会影响系统的动态性能。运放的压摆率在高频检测应用中尤为重要。较低的压摆率会拖延输出信号边沿变化的真实需求，使得输出信号发生畸变。本文选择 ADI 公司的精密运放ADA4099-1，其输入失调电压最大值仅为 30 µV，典型压摆率为 4 V/µs。该运放增益带宽积为 8 MHz，考虑到目前主流光伏逆变器的开关频率通常小于 100 kHz，这个带宽指标足以覆盖。
+
+MCU 的选择主要考虑 ADC 模块的性能和对外 通 信 接 口 的 丰 富 性 。 本 文 选 择 ST 公 司 的STM32F407IE，168 MHz 的主频足够覆盖信号采集处理和对外通信的并行任务。该 MCU 具有 3组独立的 12 位 ADC 内核，采样速率为 2.4 MSPS。同时，具备以太网、UART，SPI 和 I2C 等丰富的通信接口。
+
+3.2 系统测试
+
+基于前文的监测系统和器件选型设计，在一台功率为1.5 kW、逆变级开关频率为50 kHz的光伏逆变器硬件样机上进行测试。SiC MOSFET 选择 Cree 公司的第三代碳化硅器件 C3M0120065J，常温下通态电阻为 120 mΩ，门极电荷仅为 26nC，适合高压高频功率变换应用场合。其余器件的选型和设计与前文所述相同。
+
+图 8 为两颗并联 SiC MOSFET 流过相同电流时抓取的相关波形，自上而下依次是 MOSFET 电流 ISiC、监测系统输出电压 Vmon和 MOSFET 门级驱动 Vgs（SiC）。考虑到 SiC MOSFET 布板时严格的对称设计，可以看出此时两颗并联 SiC MOSFET 的电流平衡度很好，几乎没有失衡现象。同时验证了 AMR 传感器摆放位置的正确性，并没有为监测系统的输出电压引进显著的偏置。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibGPwZlct625d4rMS3Tib9QradEPnRvb7MicfLRsAZicIO8oHerQDpQ6iaOw/640?wx_fmt=png&from=appmsg)
+
+图9为其中一颗SiC MOSFET被完全关闭，另一颗 SiC MOSFET独立承担所有负载电流时所抓取的相关波形，两颗 SiC MOSFET 的电流失衡度即为负载电流值。波形自上而下依次是监测系统输出电压Vmon、SiC MOSFET电流ISiC和SiC MOSFET门级驱动Vgs（SiC）。可以看出，电流失衡监测系统能够快速跟踪和监测两颗 SiC MOSFET之间电流失衡的状况，具有很高的灵敏度。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6CvibF4xbup7ctBibgoab6wwE31ASyUcxibEZfk3UOwhKpYRke0FprHQI9hicg/640?wx_fmt=png&from=appmsg)
+
+光伏逆变器工作在不同负载时，量测两颗并联 SiC MOSFET 电流失衡度 Imis，所得到的信号调理电路输出电压值 Vopa如图 10 所示。可以看出，在 AMR 传感器输出为零时，系统的线性度有所降低，主要原因在于 AMR 传感器和运放的输出失调电压。除此之外，整个监测系统具有较好的线性度。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvib8mXuZrnIjvr22HMGMlvz161FXRZ7ibMMicrsb9uYh7u9s99LHZHp6HxA/640?wx_fmt=png&from=appmsg)
+
+在光伏逆变器本地监测系统和光伏发电系统后台控制中心之间的数据交互方式上，本文选择百兆以太网通信方式。图 11 为后台控制中心对光伏逆变器中并联 SiC MOSFET 电流失衡Imis绝对值的监测结果。在一天中的工作时段，每隔 1 h 做一次电流失衡实验并采集相关实验数据。可以看出，后台控制中心能够准确和及时地掌握光伏逆变器中并联 SiC MOSFET 的电流失衡情况。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvibcxj3hRzEiaThunOzLqKAiatS2KRvM1PQZbyZmvuic38nBAMBdUQrMcXhA/640?wx_fmt=png&from=appmsg)
+
+为了对比本文所提电流失衡监测系统和传统监测系统的性能，分别采用两路霍耳电流传感器采集两颗 SiC 器件的电流，并获得相应的失衡电流值。与前文的实验设计相同，在一天中的工作时段，每隔 1 h 做一次电流失衡实验并采集相关实验数据。图 12 给出了两种电流失衡监测方案所得结果的相对误差Er。从图12中可以看出，基于 AMR 传感器的间接式监测与传统方案所得监测结果准确度相当，两者的相对误差低于 1%。但是，基于AMR传感器的间接式监测方案却具有电路简单、器件数量少和系统成本低等众多优势。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm9Vh6gbJ8MaibjkHTGU6Cvibs0ynFr5n4fCia2gDYNnHtzMCToJoPE6jocMiaITZicJFVIrvicudFiabd3A/640?wx_fmt=png&from=appmsg)
+
+4. 结论
+
+本文提出一种基于 AMR 传感器的光伏逆变器中并联SiC器件电流失衡状态监测技术。根据SiC 器件的实际在板布局，利用多物理场仿真软件 COMSOL 辅助确定 AMR 传感器的摆放位置。分析和讨论了电流失衡监测系统的整体构成和具体器件选择时应考虑的因素。通过对硬件实验样机进行详细测试，证明了该监测系统具有响应频带宽、灵敏度高、线性度好和电路结构较为简单的特点。同时，监测系统能通过以太网接口直接于光伏发电系统后台控制中心进行实时数据交互，助力控制中心实时感知光伏逆变器的运行状态。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

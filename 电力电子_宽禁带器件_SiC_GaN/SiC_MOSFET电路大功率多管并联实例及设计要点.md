@@ -1,0 +1,45 @@
+# SiC MOSFET电路大功率多管并联实例及设计要点
+
+原创 KIA MOS管 SiC碳化硅MOS管及功率模块的应用 2024-08-18 15:47 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/b8LusHmPp9JKTuEfefEraA](https://mp.weixin.qq.com/s/b8LusHmPp9JKTuEfefEraA)
+
+随着新能源技术的快速发展，对大功率半导体器件的需求日益增加。特别是在可再生能源领域，需要能够承载巨大电流的功率器件。然而，由于生产成本、技术难度以及市场需求等因素的限制，单一的大功率半导体器件往往难以满足这些应用的需求。因此，大功率IGBT和SiC MOSFET的并联设计成为了一种有效的解决方案。  
+
+SiC 功率电子器件的主要优点是开关频率高、导通损耗低、效率更高且热管理系统更简单。与硅基转换器相比，由于 SiC 功率系统具有这些优势，因此能够在要求高功率密度的应用（如太阳能逆变器、储能系统(ESS)、不间断电源 (UPS) 和电动汽车）中优化性能。
+
+但是，由于高电压转换速率 (dv/dt) 和电流转换速率 (di/dt) 是 SiC 功率器件的固有特性，使其与硅基电路相比，这些电路对串扰、误导通、寄生谐振和电磁干扰 (EMI) 更为敏感。将功率 MOSFET 并联时，设计人员必须更密切地注意如何最大限度降低这些影响，因为器件之间的电流分配不均会影响性能。
+
+例如，在开关瞬变过程中，在并联中增加一个器件会使 di/dt 倍增，从而可能导致更大的电压过冲。此外，任何寄生电感都可能产生与反馈机制耦合的谐振，从而只会使电流不平衡的情况变得更糟。在这种情况下，PCB 设计人员必须特别注意要降低寄生电感。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPuztxT4om0oYcWKW3bCClkkduq36adSiaBia6NvCicykvQ2iaCh6XLCaVVIQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnKDkziaSmP4b2jPEyfaLMPu0UE5eMrWeoibzsGzgcV7Wr1wwzhtxiaicWUPKu5PCzDG1I3iaibay1c8z7Q/640?wx_fmt=png&from=appmsg)
+
+SiC MOSFET第三代半导体材料，是一种宽禁带半导体（禁带宽度＞2eV，而SI禁带宽度仅为1.12eV），因其具有宽带隙、高临界击穿电场、高热导率、高载流子饱和漂移速度等特点，适用于高温、高频、大功率等应用场合。
+
+1、要求驱动器具有更高的门极峰值输出电流、更高的dv/dt耐受能力。
+
+2、要求驱动器的传播延迟很低且抖动量很小，以便有效传递高开关频率下的非常短的脉冲。  
+
+3、要求驱动器具有双路输出端口。  
+
+4、支持高开关频率（开关频率至少支持400KHz）  
+
+5、支持高安全隔离电压  
+
+6、3-5V的负压关断，开启要18V-20V。
+
+碳化硅N沟道功率MOSFET与硅MOSFET和硅IGBT解决方案相比，提高了性能，同时降低了高压应用的总成本。SiC MOSFET具有高效率，可实现更轻、更紧凑的系统，并具有更高散热能力和更低开关损耗。
+
+文章来源：KIA MOS管
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)

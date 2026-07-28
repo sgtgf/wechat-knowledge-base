@@ -1,0 +1,192 @@
+# 爱仕特SiC MOSFET功率器件：AEC-Q101+AQG324车规级产品介绍
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/lHsEo7\_R9CU-3dBh6C6waw](https://mp.weixin.qq.com/s/lHsEo7_R9CU-3dBh6C6waw)
+
+在新能源汽车中，碳化硅（SiC）功率器件凭借其**高频率、高效率和耐高温**的优异特性，正逐步成为提升车辆续航里程和降低系统体积的关键。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rmU5G5XqQyfiauXStvCZap3UicY7udJ1q8lFrNQ9CTgBgIFbtYSK2u0YQ/640?wx_fmt=png&from=appmsg)
+
+要想在新能源汽车上可靠地使用，这些器件必须通过严苛的车规级认证。为你详细解析 **AEC-Q101** 和 **AQG324** 这两项核心的车规认证。
+
+首先，通过一个表格来快速了解这两项认证的核心信息：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1r14oXjrO2HV0tUwCaH7GSqKKMoibCiadib9CjPLdIlKcyevR8I79qh6tZQ/640?wx_fmt=png&from=appmsg)
+
+### 🔋 AEC-Q101：分立器件的入门凭证
+
+AEC-Q101是针对**二极管、晶体管、MOSFET（包括SiC MOSFET）** 等分立半导体器件的基准认证。它主要考核器件在加速应力下的可靠性，确保其能在汽车环境的极端温度、湿度和振动条件下稳定工作。
+
+**核心测试要求**：测试围绕**环境应力**、**寿命模拟**和**工艺质量**展开。例如：
+
+**高温反偏(HTRB)**：在高温下对器件施加反向偏压，检验其长期耐压能力和封装完整性。
+
+  
+
+**温度循环(TC)**：在极端高低温间反复切换，考验不同材料热膨胀系数不匹配带来的应力。
+
+  
+
+**高压蒸煮(PCT)**和**高温高湿反偏(H3TRB)**：评估器件在高温高湿环境下的抗腐蚀和绝缘性能。
+
+  
+
+**静电放电(ESD)**：确保器件具备一定的抗静电能力。
+
+  
+
+**SiC器件的特殊考量**：SiC器件通常工作在更高的温度和开关频率下，因此对其测试数据的审查往往更为严格。
+
+### 🚗 AQG324：功率模块的高级通行证
+
+AQG324则专门针对**用于电机驱动等关键系统的功率模块**。它可以理解为对一整套完整的“功率系统”的认证，测试更为全面和严酷，尤其关注模块在持续功率冲击下的寿命。
+
+**核心测试要求**：AQG324的测试主要分为模块测试、特性测试、环境测试和寿命测试四大类。
+
+**功率循环测试**：这是**最核心、最具挑战性**的测试。它模拟真实工作中芯片因电流通断导致的温度剧烈变化，主要考核模块内部**键合线**和**芯片焊接层**的可靠性。测试会持续数千甚至数万次，直到模块性能衰退至失效标准。AQG324并不规定具体的通过次数，而是要求厂商建立寿命模型来预测其在实际应用中的寿命。
+
+  
+
+**环境测试**：包括**热冲击**和**机械振动/冲击**，验证模块对汽车运行环境中温度骤变和机械振动的耐受能力。
+
+  
+
+**动态栅极应力测试**：针对SiC MOSFET，此项测试尤为重要。它在开关过程中测试栅极可靠性，可以发现高dv/dt（电压变化率）导致的栅极退化或误导通等问题。
+
+  
+
+### 爱仕特简介
+
+爱仕特科技，是一家专注于第三代半导体碳化硅（SiC）MOSFET芯片研发及功率模块生产的国家高新技术企业、专精特新小巨人企业。爱仕特掌握国内领先的碳化硅（SiC）核心技术，累计申请自主知识产权超100项，覆盖芯片设计、封装测试、驱动应用等关键环节。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rV9FzujueLQuayJSm3zEeS2ib7oI9xEZqwS5zCFlzwibRG6tJL74aic1iaw/640?wx_fmt=png&from=appmsg)
+
+### 在深圳坪山建成占地2000㎡的车规级碳化硅（SiC）功率模块生产基地，先后通过了IATF16949汽车行业质量管理体系、ISO9001/45001/14001三体系和AEC-Q101+AQG324产品可靠性认证。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1r6ljlWalOykIqGTIicVVzSrEkRDUqibjx3bGleFc2couKb54QG2sNWvAA/640?wx_fmt=png&from=appmsg)
+
+AEC-Q101认证系列
+
+1.ASC30N1200MT4单管
+
+这是一款1200V32A,内阻80毫欧，TO247-4封装的单管。采用爱仕特自主研发的第三代碳化硅MOSFET芯片，主要应用车载充电机（OBC）等领域。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1r0ajkNQeicROorSVKANvaa23myvWTRgV5bJw2iaIicqHWW6bgt1ibIWVRFA/640?wx_fmt=png&from=appmsg)
+
+  广州广电计量检测报告：ASC30N1200MT4 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rrNDg4DHRBEwQVfZXPEwwiaicImZqmKAjl63QNJBaiaicia3BTfmFicPNDFvw/640?wx_fmt=png&from=appmsg)
+
+ASC30N1200MT4产品封装图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rPVY6VelIJc4GjH9HwtDeEr2NWUgLnll2IkJIB29ENxqrNRia321icNmA/640?wx_fmt=png&from=appmsg)
+
+ASC30N1200MT4产品参数表
+
+  
+
+2\. ASC60N1200MT4单管
+
+这是一款1200V60A,内阻45毫欧，TO247-4封装的单管。采用爱仕特自主研发的第三代碳化硅MOSFET芯片，主要应用直流变换器（DC-DC）和快速充电桩等领域。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1ribnkAo7Furr1U6CRZNUrdoXiamqdxBicEnuuXDezwtzIyQicuGiauY3a0QQ/640?wx_fmt=png&from=appmsg)
+
+广州广电计量检测报告：ASC60N1200MT4 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rwRVOcaaF1oicjaTicniak10MPYHNtZnVtDVQ8zicpvkic86oThdSM2KGN9Q/640?wx_fmt=png&from=appmsg)
+
+ASC60N1200MT4产品封装图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1ribRXd2ADSKfu5KOBhib6ibqqYAiaITHMl7AQBZ8Nicw5UxFj0dHyyDrDMGQ/640?wx_fmt=png&from=appmsg)
+
+ASC60N1200MT4产品参数表
+
+  
+
+3\. ASC30N1500MT4单管
+
+这是一款1500V36A,内阻60毫欧，TO247-4封装的单管。采用爱仕特自主研发的第三代碳化硅MOSFET芯片，满足800V以上平台，主要应用车载充电机（OBC）、可再生能源等领域。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rRiatJvJeOOEUfmVfdpy2Is1YWuoia85RB04E21dGYUUqofs3Ux4G5XIg/640?wx_fmt=jpeg&from=appmsg)
+
+西安众力为半导体检测报告：ASC30N1500MT4
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1ricPnXkoRRyI3cpKQ6H1It9IZvuicykLGJgHnH96fHJJbGTKy9XBYZm9Q/640?wx_fmt=png&from=appmsg)
+
+ASC30N1500MT4产品封装图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rvp4fibP0NpMxr0XvCYftbj08BFVx54g85aLhAPThTavBBhxO5SNFCZQ/640?wx_fmt=png&from=appmsg)
+
+ASC30N1500MT4产品参数表
+
+AQG-324认证系列
+
+ASC800N1200HPD模块
+
+这是一款1200V800A，内阻2毫欧的三相全桥碳化硅模块。该模块采用爱仕特自主研发的第三代碳化硅MOSFET芯片，1200V/800A的规格完美适配800V主驱平台对大功率的需求，实现了从芯片设计到模块封装的全程自主可控。这种深度整合带来显著技术优势：芯片与模块团队的协同设计，能够从底层针对车载应用的严苛要求，对产品特性进行精准优化。
+
+### ![图片](https://mmecoa.qpic.cn/sz_mmecoa_jpg/gofYQbF8T7lcWyYEvK9ic53U9Kr3rbZWGLcdZWosu4UH0muZWb6Q8wibd7dFibJH6lFq1GT9492QdzkNNS3oauQ2Q/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=1)
+
+西安众力为半导体检测报告：ASC800N1200HPD
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1r0eRcpxcZYyWH7eRHCxNHxN4pnMtotNkorbTtVyNrBRZhhP42QAfXUA/640?wx_fmt=png&from=appmsg)
+
+ASC800N1200HPD模块封装及拓扑图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rT3VKsibPlQDGQPTDwLEoJBqqhuKWJt9HwmS6ICOjxJnKAo9NG8hLLOQ/640?wx_fmt=png&from=appmsg)
+
+ASC800N1200HPD模块参数表
+
+### 在研发过程中，工程团队针对车规级应用的特殊要求，对模块的**结构设计、材料选型和工艺制程**进行了全方位攻关，确保产品在高温、高湿、振动等恶劣工况下依然能保持卓越的可靠性。
+
+### 关于**广电计量检测集团**：
+
+### 广电计量在SiC第三代半导体器件的AEC-Q认证上具有丰富的实战经验，为您提供专业可靠的AEC-Q101认证服务，同时，我们也开展了间歇工作寿命（IOL）、HAST、H3TRB、HTRB、HTGB、高压蒸煮（Autoclave）试验服务，设备能力完全覆盖以SiC为第三代半导体器件的可靠性试验能力。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rF2EYwC5bqcNG2luqibRxiaRokSDDlqoxTLBsKLS2mUZhRfZfbyJetwfA/640?wx_fmt=png&from=appmsg)
+
+### 广电计量出具具有权威性和公信力的AEC-Q检测验证报告，是国内唯一一家已完成AEC-Q100、AEC-Q101、AEC-Q102、AEC-Q104、AECQ200完整验证报告的第三方检测机构。
+
+### 
+
+关于西安众力为半导体：
+
+  
+
+西安众力为半导体技术有限公司 ‘宽禁带功率器件研究实验室’是一家专注于第三代半导体功率器件电、热性能检测，可靠性评估，车规认证等服务的第三方试验平台。
+
+目前，公司已成功开发出SiC功率器件动态参数测试系统、GaN HEMT动态参数测试系统，并建立了新型功率器件研究实验室，服务干新型器件(SiC，GaN等)材料分析、元器件检测、可靠性评测、系统功能验证等。
+
+### 💎 总结与选择建议
+
+总的来说，AEC-Q101和AQG324共同构成了保障汽车功率电子系统可靠运行的基石。这标志着爱仕特SiC MOSFET功率器件具备优异的品质和较高的可靠性将应用于新能源汽车主驱逆变器、车载充电机（OBC）、直流转换器（DC/DC）、快速充电桩等汽车电子领域。也代表着国产SiC MOSFET功率器件在汽车电子领域的产品可靠性已与国际同轨。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmca8s4JpwKwC8S35qRjm1rmiaxtcSEtR4Wyd2HxcZeROyk7fBdIVFia5NibDnic7olhpfHuQzsibibpyRA/640?wx_fmt=jpeg)
+
+爱仕特凭借在碳化硅功率器件领域的技术积累，已建立起覆盖芯片设计、模块制造、测试验证的完整技术体系。公司拥有车规级功率模块生产基地和完善的质量管理体系，为产品的批量生产和一致性质控提供有力保障。
+
+未来，爱仕特将继续深化在碳化硅功率器件的技术创新与产业化，致力于为新能源汽车、工业控制、新能源发电等领域提供更优质、更可靠的产品与服务。  
+
+SiC MOSFET的封装大全
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmmwZwEyafquaKOzsHZ0txMdxKZ5vn0LBF0EVX0icERU2d3oeP2yshic4sYt1wicHM8GZqiazID5qzg4Q/640?wx_fmt=other&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=13)
+
+SiC功率模块的封装大全
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmmwZwEyafquaKOzsHZ0txMbXr4YhKzgXazH2sFJkib6xEbtp0HSiav8icmN0ibyOXzDQ9gaTudCKmSpQ/640?wx_fmt=other&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=14)
+
+SiC器件的应用领域
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmmwZwEyafquaKOzsHZ0txMM6kakf48trBrQIXE9G4vR2wWw9zwibXqMqZEdXk1znXu4iblU9UicBhuw/640?wx_fmt=other&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=15)
+
+  
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmmwZwEyafquaKOzsHZ0txMfPbC1qfpCMabhb2yZgVEIjIx89OBMnARibvvSOJgtibCy0MJd3OecKQA/640?wx_fmt=other&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmmwZwEyafquaKOzsHZ0txMl5StKODT3RUsgnw3k4gRHru3iarhJOEdlkN7D7L706hcLEPicuSFGicVg/640?wx_fmt=other&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=17)![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmmwZwEyafquaKOzsHZ0txMicETJPsia0RItVSSxKkJxGVM9uNll2MMJTficE01RlF6cKHywic2J5DTVw/640?wx_fmt=other&watermark=1&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=18)

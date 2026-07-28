@@ -1,0 +1,193 @@
+# 最新CAD（TCAD）技术在针对充电、电机驱动和数据中心应用的转换器优化的Si、SiC和GaN功率晶体管虚拟设计中的应用
+
+原创 Ricardo Borges SiC碳化硅MOS管及功率模块的应用 2025-07-25 12:39 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/2z6aCfb46y1ozN-jhE93JA](https://mp.weixin.qq.com/s/2z6aCfb46y1ozN-jhE93JA)
+
+文章来源：APEC2025(Synopsys Inc.)
+
+作者：Nelson de Almeida Braga, Vinay Kumar Dasarapu, Detlef Conrad,
+
+Michael Schenkel, Keunsam Lee, Ricardo Borges
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsZuV9ZC0iab7QLnWup42lXXsUm6xVfF6oBGLyX6YByZJfJblRS7k8Ofg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsmZ6uajwdJzVbIyfkxOzbzsES5ic4w9gFFANzjOsZfTiapR0KmeV6iaPiaQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvs3LSOKeSzuCED0knNKK8SIlonFOkZibJzG0ZfVP3JeI4xUeo9RbOHaVw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsuDfAQXc5HOPS5S63NBIe1vianJcO8r4s03GWODMEiazhFcfk6gPtEvEA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsFcjB5bm1Co0tD1qfPkwNtqAibpVAfeuHAaKHibvHIgBibEFWQanicVEDzg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsYcic2lzib0vYia5930077Nel54UdYyUJiankV4ooEG3iaT6P2OcO2c9pXcg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsKpSZKIKrI0spskgJB9zjAib49rjRHu0P4Q7eHvaUfLQ8NAby2fpjhyg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsKlnm3HaBU5owSpUgKlbEt7VTVnic9BkzZoib5NoGrSbM2WfABB0fRh4Q/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvskh3d7ibgVlyEkpM068iaKNMeO1L2SdhgCFFy7kXMfTDVVmDqfg4t0uSw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsBAl7DQMw6Sc4WqKWEhgcsibTtOibZSZvyTp5KUvnUo5ZTJKGwIzpzDcw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsPrS4cRAVIOFh0sAre378UqCOHsx73EZAftaKM4dYZX51IvHDGssianA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsekpVhpG3rtPFOUqJsOD6Us8eiaGoSnWpT04a2uRiaA2FMT2bfE4nibYgQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvsq19sU7zTH1NhxIaxOvtVBdcZicVUWMAn3HmHaAQynghzf8A2aHefQBg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsHA8YVI0PLkTpia4PticeiauPOb4Yz90s5DPqR9Ef4SFTznB6bAw4hZrkA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvs0AFmV5RMWga8dHq3OKbzR7MNicCUq0icJqI48683XVBGyjz8amM5vq9w/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsaIhJkVqNH0Ko5cHSFfJicR64ECYBVcg5MiaVqqUyZfJBKAzyHFhDepRw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvsy8feF2ymvMa4oL9ibKDKiab8Yn2PRSmibAxz7YLe6YDyCZLu8KD0XH4bw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsibJQmeaHXBegibQZPRicndobSKaRoM0Fibwczuybfnzgm99Ijw9YZ40tww/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsW5fFmppelh1D6tJG8Jp2s43O0LibeOVumExnricM95eseSXNvjFjAT7g/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvscXVeT38rWYgSq1ABnicEevIEyLHljB6tdBBkgnQgSia0saZT2nU8UXQw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvseSyzuA4O2fXv5PRJndwMXHATXk0Va2efW00CxtCn7sHjf6NrPsvuDw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvs4yhmz87y3o6E5DuMKCzP3TQ36X8duwdjD7fkurziaXiaglSZR63LxyKQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsuBkmWm3d593Tkx9uZw2DnmjqdR9jUiaPrwicSN1fh23qIfg8ky4b2UoQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9Qcvs6nhqAxXEWIkBZ9dP7ln9nbu4q9yDRRTyCOw0VXIAia1kJ1kWOpwCiahA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLskXYqgNeibzvxB2Tsfia9QcvsKJgz6MCYtVq3V5hYFIPCRQmQYrkLGqhumicgIbFXyWNkDwNRmpORUxg/640?wx_fmt=png&from=appmsg)
+
+  
+
+注：文字与报告无关
+
+TCAD（Technology Computer-Aided Design，技术计算机辅助设计）是半导体行业中连接理论、工艺与器件性能的核心工具，通过数值仿真模拟半导体器件的物理机制、工艺过程及性能表现。随着半导体器件向微纳尺度（如 3nm 及以下制程）、三维结构（如 FinFET、GAAFET）和新材料体系（如 GaN、SiC）发展，TCAD 的作用愈发关键。以下从**应用场景**和**核心优势**两方面详细说明：
+
+### 一、TCAD 技术在半导体器件中的核心应用
+
+###   
+
+#### 1\. 器件结构设计与优化
+
+####   
+
+TCAD 可对器件的几何结构（如沟道长度、栅极厚度、鳍片高度）、材料参数（如禁带宽度、载流子迁移率）和物理效应（如量子隧穿、短沟道效应）进行精准模拟，支撑新型器件的设计迭代。
+
+-   **传统硅基器件**
+    
+    ：例如在 MOSFET 设计中，TCAD 可模拟栅氧化层厚度、掺杂浓度对阈值电压（Vth）、亚阈值斜率（SS）和漏致势垒降低（DIBL）的影响，快速筛选最优结构参数。
+    
+-   **先进三维器件**
+    
+    ：针对 FinFET（鳍式场效应管）、GAAFET（全环绕栅极场效应管）等结构，TCAD 可模拟多鳍片布局、栅极包裹程度对电流驱动能力、寄生电容的影响，解决三维结构中复杂的应力分布和载流子输运问题。
+    
+-   **宽禁带半导体器件**
+    
+    ：在 GaN（氮化镓）、SiC（碳化硅）等功率器件中，TCAD 可模拟异质结界面（如 AlGaN/GaN）的极化电荷、高电场下的击穿机制，优化器件耐压能力和导通电阻。
+    
+      
+    
+
+#### 2\. 工艺过程模拟
+
+####   
+
+半导体制造涉及数十步复杂工艺（如离子注入、扩散、氧化、刻蚀、薄膜沉积等），TCAD 可通过物理模型还原工艺参数对器件内部状态的影响，实现 “虚拟制造”。
+
+-   **离子注入模拟**
+    
+    ：通过求解载流子输运方程，模拟注入能量、剂量、角度对杂质（如 B、P、As）在半导体中的分布（如射程、 straggle 效应）的影响，避免实验中反复调整参数的成本。
+    
+-   **热扩散与激活**
+    
+    ：模拟退火温度、时间对注入杂质的激活率、结深的影响，预测 PN 结的电学特性（如反向漏电流）。
+    
+-   **薄膜沉积与应力模拟**
+    
+    ：在 ALD（原子层沉积）或 CVD（化学气相沉积）工艺中，模拟薄膜厚度均匀性、界面应力（如 SiN 层对 FinFET 沟道的应力调控），优化器件载流子迁移率。
+    
+      
+    
+
+#### 3\. 器件性能与可靠性分析
+
+####   
+
+TCAD 可直接模拟器件的电学、光学、热学性能，并预测长期工作中的可靠性问题（如老化、失效），为器件量产和应用提供依据。
+
+-   **电学性能模拟**
+    
+    ：通过求解泊松方程、漂移 - 扩散方程或量子输运模型，计算器件的电流 - 电压（I-V）特性、阈值电压（Vth）、跨导（gm）、漏电流（Ioff）等核心参数，支撑低功耗、高频器件设计。
+    
+-   **热学与光学性能**
+    
+    ：在功率器件（如 SiC MOSFET）中，模拟电流集中导致的焦耳热分布，优化散热结构；在光电器件（如 LED、光电探测器）中，模拟载流子复合效率、光吸收特性，提升发光或探测性能。
+    
+-   **可靠性预测**
+    
+    ：模拟 NBTI（负偏压温度不稳定性）、HCI（热载流子注入）等老化机制对器件参数（如 Vth 漂移）的影响，预测器件寿命，指导电路设计中的冗余策略。
+    
+      
+    
+
+#### 4\. 工艺 - 器件 - 电路协同优化
+
+####   
+
+TCAD 可与电路仿真工具（如 SPICE）对接，将器件级仿真结果转化为电路模型（如 BSIM 模型），实现 “工艺参数→器件性能→电路行为” 的全链条优化。例如：在 5G 射频器件设计中，通过 TCAD 模拟工艺波动（如栅长偏差）对器件高频特性（如 fT、fMAX）的影响，再反馈到电路设计中，提升系统稳定性。
+
+### 二、TCAD 在半导体器件领域的核心优势
+
+###   
+
+#### 1\. 大幅降低研发成本，缩短周期
+
+####   
+
+传统半导体器件研发依赖 “实验 - 试错” 模式：从设计到流片需反复制作样品，单次流片成本可达数百万美元（先进制程甚至超千万），周期长达数月。TCAD 通过仿真替代部分实验，可在设计阶段快速验证数千种参数组合（如栅长、掺杂浓度、氧化层厚度），筛选最优方案，将研发周期缩短 30%-50%，成本降低 40% 以上。
+
+#### 2\. 支撑复杂结构与新机理的探索
+
+####   
+
+随着器件进入纳米尺度，量子效应（如隧穿、尺寸量子化）、界面效应（如栅氧界面态）和三维应力效应愈发显著，传统实验难以解析其物理机理。TCAD 可通过多物理场耦合模型（如量子漂移 - 扩散模型、蒙特卡洛粒子输运模型），直观呈现微观物理过程（如载流子在 FinFET 鳍片中的输运路径），为 GAAFET、叉片晶体管（Forksheet FET）等新型结构的设计提供理论支撑。
+
+#### 3\. 突破实验技术限制
+
+####   
+
+对于极端条件（如高温、高电压）或难以观测的物理量（如器件内部的电场分布、杂质浓度梯度），实验测量存在技术瓶颈（如探针干扰、分辨率不足）。TCAD 可通过仿真直接输出全域物理量（如沟道中的电场峰值、漏极附近的热分布），为工艺优化和失效分析提供 “不可观测” 的数据支持。
+
+#### 4\. 提升工艺稳定性与量产良率
+
+####   
+
+半导体量产中，工艺参数（如离子注入剂量、薄膜厚度）的微小波动会导致器件性能偏差。TCAD 可模拟工艺波动对器件参数的影响（如 3σ 范围内的阈值电压分布），预测良率瓶颈，进而指导工艺窗口优化（如放宽某参数的控制精度），提升量产良率 10%-20%。
+
+#### 5\. 加速新材料与新器件的产业化
+
+####   
+
+在宽禁带半导体（GaN、SiC）、二维材料（如 MoS₂）等新兴领域，材料特性和工艺兼容性尚未成熟，实验积累有限。TCAD 可基于基础物理参数（如迁移率、禁带宽度）构建模型，快速评估新材料在器件中的潜力（如 GaN 器件的耐压能力），缩短从实验室到产业化的距离。
+
+### 总结
+
+###   
+
+TCAD 是半导体器件从 “经验驱动” 向 “机理驱动” 研发转型的核心工具，其价值随器件复杂度提升而愈发凸显。在 3nm 及以下制程、三维结构和新材料体系的竞争中，TCAD 已成为企业降低成本、加速创新、保持技术领先的 “刚需”，是连接理论突破、工艺优化与器件性能的 “数字桥梁”。
+
+注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcIL9s9icLpA7sMkZl1yeAoJ70pnzOEicPx72xfic8DAlykF9ISV9UaWFibgtA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=t77ao96h&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILvxnibEN9LH8II05JCjJuHZ0eJDvLRlLLPec3gpN4R5gy7IAvkRDiatdw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=mh06mxt7&tp=webp)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk8iay30Rkdxgr9lHMDHFcILQftGrb0sLqYcs0hr4mZSf1WbuCoQjtIcgLmencF3V61K3BE4h5A4Sw/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&randomid=zcsymlzn&tp=webp)

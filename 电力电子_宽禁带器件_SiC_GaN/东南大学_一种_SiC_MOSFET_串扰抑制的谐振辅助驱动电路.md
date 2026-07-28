@@ -1,0 +1,242 @@
+# 东南大学：一种 SiC MOSFET 串扰抑制的谐振辅助驱动电路
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/AJ39mE5w3yDJsY8GZOz0DA](https://mp.weixin.qq.com/s/AJ39mE5w3yDJsY8GZOz0DA)
+
+**文章来源：**电工技术学报
+
+**作者：**黄勇胜张建忠王宁（东南大学电气工程学院）
+
+**摘要**：****随着 SiC MOSFET 开关频率的不断增加，逆变器桥臂串扰现象越发严重并易造成桥臂直通短路，这限制了 SiC MOSFET 开关频率的进一步提高。该文提出一种 SiC MOSFET 串扰抑制的谐振辅助驱动电路，通过在栅源之间添加电容电感辅助谐振电路，能够在 SiC MOSFET 关断期间完成负压到零压的变化，同时不需要使用有源器件。当 SiC MOSFET 开通时，辅助电路让栅极电压从 0.7V 上升而非负压上升，相较于传统驱动电路，开关速度更快、开关损耗更低；而且同时具备抑制正向串扰和反向串扰的优点。该文分析电路的参数设置，并通过仿真和实验验证了该电路相对于传统驱动电路的优势。
+
+**关键词：**串扰抑制 SiC MOSFET 谐振辅助驱动电路无源电路
+
+**0 引言**
+
+随着逆变器工作频率的不断增加，宽禁带半导体材料 SiC、GaN 以其更低的导通电阻、更低的结温、更好的稳定性以及更高的开关频率，成为能替代 Si 材料的一种极具前景的半导体材料。由于SiC的这些关键优势，使用 SiC MOSFET 在各种功率变换器的应用场景中可以有效地打破开关频率的瓶颈，降低开关功耗和体积，同时能够提高功率逆变器的功率密度和效率\[1-4\]。
+
+然而，在实际的桥式电路中，随着开关频率的不断提高，在低频影响不明显的杂散参数会因较高的 dv/dt 和 di/dt 产生能够损害系统运行的电压电流振荡、尖峰\[5\]。相对于传统的 Si MOSFET，SiC MOSFET 具有更低的开通电压阈值、较低的最大栅源极允许负压，因此在桥式电路中，同一桥臂互补器件之间的相互作用会变得更加严重。同一桥臂，上管开通瞬间引起的正向杂散脉冲可能更容易导致下桥臂栅源极电压超过阈值触发误导通，引发严重的桥臂短路。同理，关断瞬间引起的负杂散脉冲很容易突破 SiC MOSFET 栅源间最低容许电压，从而击穿 SiC MOSFET\[6-7\]。因此串扰问题成为制约 SiC 走向更高频率的一个重要障碍。为了保证 SiC MOSFET设备运行的可靠性，串扰的抑制是急需解决的问题。
+
+在以往的串扰抑制研究中，大多数学者针对串扰的解决办法可分为以下几类：
+
+（1）栅源极并联电容。通过增加栅源极等效电容来遏制串扰引起的尖峰大小\[8-10\]。这种方法设计简单、串扰抑制效果好；但是另一方面会影响 SiC MOSFET 的开关速度，不利于 SiC MOSFET 的高速开通，同时也会增大开通和关断损耗。
+
+（2）采用主动门极驱动。文献\[11-12\]通过主动打开辅助晶体管，使额外的辅助电容器并联在栅源极之间，从而在串扰发生时主动抑制，不影响开关速度。文献\[13\]通过主动向源极注入与串扰电流相反的米勒电流从而抵消串扰的影响，相对于传统的主动门极驱动，其电路更简单。文献\[14\]采用四电平的方式能抑制串扰优化 SiC MOSFET 开关管的开关速度。由于控制的复杂性，大多数主动门极电路较为复杂，设计难度高。
+
+（3）负压关断和多电平驱动。利用负压关断可以有效地提升关断速度，同时能够抑制正向开通串扰，但是与之而来的一个问题，在桥臂另一开关管关断时刻会引起更大的负压尖峰，严重时可能会击穿 SiC MOSFET。文献\[15\]提出了一种智能的栅极驱动器，通过辅助晶体管和二极管进行主动控制以产生多电平来抑制正负串扰尖峰，并取得了很好的效果。文献\[16\]提出了一种控制三极管开断实现栅极电压多电平来抑制串扰。但是有源器件的加入不仅引入了额外的控制信号，还增加了隔离器件等各种辅助器件，使得电路变得复杂。文献\[17\]对此做出改进，使用 RC 辅助回路延迟开通 SiC MOSFET 器件来产生多电平信号，但是依然引入有源器件，需要增加至少一路 PWM 信号，使得软件设计复杂性增加。
+
+SiC 器件的栅极驱动设计非常重要，它能够影响器件的工作性能\[18\]。SiC MOSFET 的栅极驱动需要有抑制串扰能力，否则必须牺牲 SiC MOSFET 的开关速度换取更稳定的运行。文献\[19\]提出了一种RCD 电平移位电路，通过两个电容的分压实现了只需要一个正压电压源便可以实现负压关断的门极电路，但是它也存在一定的局限性。由于关断驱动电平只有负压关断，虽然有效地遏制了正向开启串扰的影响，与此同时加剧了负压串扰，在互补开关管关断时，负压串扰能很轻松地低于栅极最低承受电压，针对上述 SiC MOSFET 串扰抑制方法存在的局限性，本文提出了一种谐振驱动电路，该谐振辅助驱动电路通过对 R、L、C 等无源器件的参数整定和电路设置，能够在仅增加无源器件的条件下提供抑制负压串扰和正压串扰抑制的能力，同时不影响SiC MOSFET 的开关速度。
+
+**1 电路设计**
+
+本文在 RCD 电路的基础上提出了一种能够有效抑制桥臂串扰的谐振多电平电路。其设计思路和参数选择如下。
+
+**1.1谐振辅助驱动电路基本思路**
+
+谐振辅助驱动电路如图 1 所示，图中，SiCMOSFET 的等效模型由栅漏极结电容 Cgd、栅源极结电容 Cgs、漏源极结电容 Cds 组成，Rg 为栅极驱动电阻，RCD 回路由电容 Cq、Cp 和电阻 Rq、Rp 组成，通过 Rq 和 Rp 的比值可以实现电容 Cq 和 Cp 的分压，从而实现电源模块仅提供正电压便可进行负压关断和正压开启。同时增加了辅助电路以实现在负压串扰时能有足够的裕度，防止负压损坏栅极。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMdtqC7BMichicg3nFX1C8U0gxhD3VQaEBhiaiaxoPQzvG7mfeS0nbia0POSw/640?wx_fmt=png&from=appmsg)
+
+在驱动开启电压来临时，电源模块提供电压VGG 会给 Cq 充电使其能够在关断时提供足够的负压，从而在快速关断 SiC 器件的同时抑制正向串扰电压尖峰。其中 Rq 和 Rp 为两个大电阻，为 Cq、Cp提供预想的分压。在驱动电压关断时，电容 Cq 已经积攒足够的电荷，从而给门极提供负压关断，与此同时由 Cq、Lr、VD2 形成的回路工作，使电容 Cq上的能量转移至电感 Lr，由于电感电流不能突变，所以只要设计好 Cq、Lr 的时间常数，便可在死区时间之后、互补开关管开通时，仍然保持足够的负压来抑制即将到来的正向串扰。在死区时间之后，电容的能量逐渐衰减并转移至电感 Lr 上，当 Cq 电压衰减至一个二极管的开通电压时，Cq 电压被 VD1钳制。回路电感电流通过回路 VD1−VD2−Lr 近似保持不变，从而在下一个开启时刻来临时加快门极的充电速度并回馈能量给电源。总的来说，该电路能够在栅极正尖峰时提供足够的负电平以抵冲尖峰，并在栅极负尖峰来临之前将栅极电压拉高到微高于零电平，从而能够抵御到来的负压尖峰。本文提出的电路全部使用无源器件实现了类似于多电平串扰抑制驱动电路的操作，相对于传统的多电平移位电路，该电路不需要额外的 PWM 脉冲，且能够有效地抑制正向尖峰的同时保证不会有过低的负压串扰尖峰。本文提出的辅助电路分为以下几个阶段。
+
+**1）预备充电阶段**
+
+首先通过持续供给开通信号给 RCD 回路充电，使电容 Cp、Cq 达到初始电压，其中分压值由电阻比决定。驱动芯片提供的电源电压为 24V，导通二极管 VD2 压降被近似为 0。稳定后电容分压分别为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMLRicLZMEOTD5cyOlhibtJ0DFxfMHTVmlh0nB6BY8u9UibNxaOtju4Fticw/640?wx_fmt=png&from=appmsg)
+
+式中，VCp、VCq 分别为电容 Cp、Cq 上的电压。预备充电阶段等效电路如图 2 所示，ig 为充电电流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMI4kvDicTibIsGem8NnFYRibxAuzqsSnV3r2Q4ZRa4D8p9IiaMJg6V1CTAQ/640?wx_fmt=png&from=appmsg)
+
+充电时间由 Cq、Cp、Rq、Rp 共同决定，当预备阶段导通时等效电路如图 2 所示，其预备充电过程为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMZKOD92AZR9OO3SVziauAqOubjmickbiayEmyiaswwbJbxATuOdTRcbrcDw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMzicvpQjtafUh4fGUADJaj7a7wvibYAfarkuVZTPCmgYuuGsxzlP0N05w/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM2mJ5BwScnCUiaQaiczs2L6JNiaO65HxrzJKnxmRQ0NuWic6nibKs9rVpBSQ/640?wx_fmt=png&from=appmsg)
+
+**2）正常工作阶段**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMEKpn56pMGfibqhNeQ0NAicqMbbMLVhtOyOhnrOicIxqrKycULkLuG0QPw/640?wx_fmt=png&from=appmsg)
+
+不同模态导通情况如图 4 所示。\[0, t0 ) 阶段，Vgs\_L 电压平稳处于开路状态，其电压值为 VCp+Vd，辅助电路被 VD3 隔断。\[t0, t4 ) 阶段，在忽略串扰的情况下，在关断信号来临时，驱动电路电压降为 0V，此时辅助电路导通情况如图 4a 所示，二极管 VD2 由电容 Cp 反压关断，因电容 Cp 远大于门极电容 Cgs，则其在关断过程中电容电压近似不变。此时电容 Cq 为栅极提供负压，使其快速关断。同时 Cq−Lr−VD3 回路导通，电容 Cq 的能量向电感 Lr 转移，使其负压逐渐至零。通过对其能量转移时间的整定，可以实现在正向串扰来临时能够提供负压削弱其尖峰值。\[t4, t7 ) 阶段，如图 4b 所示，随着电容能量 Cq向着电感 Lr 不断转移，电容电压不断下降至 0V，随后在二极管 VD1 的钳位下，电容电压保持为一个二极管的正向导通压降 Vd。在电容 Cq 电压反向达到一个二极管管压降后，VD1 导通，电感通过二极管 VD1、VD3 续流，能量缓慢流失。与此同时，门极电压被电容 Cq 并联，通过设计电容 Cq 远大于 SiC MOSFET 寄生电容 Cgs，可以钳制门极电压不至于误导通，即 Cq≫Cgs。在负压串扰来临时，电容 Cq给栅极提供一个二极管导通压降的正压，能够很好地抑制负压尖峰的峰值，保护栅极不被击穿。
+
+\[t7, t8\] 阶段，如图 4c 所示，在导通瞬间，二极管 VD2 打开，下桥臂 SiC MOSFET 栅源极电压由隔离驱动电源（IC）进行充电，同时电容 Cp、钳位二极管同时钳制栅极电压至 VCp+Vd。使门极电压能快速上升至 VCp+Vd，同时电容 Cq由回路 VGG−Cq−VD2−VDz进行充电，为下一次关断做准备，由于钳位二极管VDz 钳制，VCq 充电完成电压为 VGG−Vz−Vd。所以只要对稳压二极管 VDz 选取合适的值即完成关断负压的设计。
+
+**1.2 RCD 谐振电路参数设计**
+
+**1）开通阶段**
+
+在开通时刻，开启状态等效电路如图 5 所示，此时 Cq 通过稳压二极管 VDz 进行快速充电，充电电压为 VGG−Vz−Vd，Vz 为稳压二极管的导通压降。为了在稳压二极管上升时间内对电容 Cp 充电时对VCp 的影响较小，电容 Cp 值需尽量大于电容 Cq，即Cp≫Cq，本文选取 Cp=100Cq。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMapbQS4Wu3NwZ4XkicaNCbA9pXLibLGcRpFCzPxJkIoDKDQu4B8mib5b9A/640?wx_fmt=png&from=appmsg)
+
+**2）关断阶段一**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMoviahoYyzFkaCRPjlV6bAvyDTT55m2Etplvtq6kMhNMUkibIwL0NYNsQ/640?wx_fmt=png&from=appmsg)
+
+关断时，电路可分为两个阶段：电容电感谐振阶段和电感能量维持阶段。电容电感谐振阶段拉式变换后频域电路可等效为如图 6 所示的关断状态一简化电路。图中，VCq 为负压关断阶段电容 Cq 的初始电压，求得栅极电压 Vgs 为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM97W5Fxyic0iabk5lHpnibj7q3hvnIwj0jkCViatzP0RW8DwuyNQQvLic0BQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMYYm1Vicg4yMNBN7kPLOWI1OycI12wCmxywQUDptDYK9eUibT2XCyCib7g/640?wx_fmt=png&from=appmsg)
+
+调整电容和电感的值可改变栅极电压到 0 时刻，从而能够在正向串扰来临前将电压调回足够的裕度以抵御负压串扰。为了得到更好的负串扰抑制效果，需要栅极电压在正向串扰来临时维持较高的电压，tk 为栅极电压到零时间。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMkuMtfhwUJOZxTksjgvMIlFlY0LseYaSqYCjoFRLvg1PkaPW2Vfl3hQ/640?wx_fmt=png&from=appmsg)
+
+谐振阶段随关断时间变化，栅极电压相对于初始负压百分比见表 1。由表 1 可知，当时间 t＜0.28tk时，栅极电压能够保持超过 90%的初始负压，在正向串扰来临时有很好的串扰抑制效果。所以设计在
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMQ3yMWEjgzZE6efibp1NEywfhLSpO4RPRd8aAOgAqos1ibaLvWRGeFO9Q/640?wx_fmt=png&from=appmsg)
+
+式中，tonmin 为在桥臂电路变占空比的应用中开关管最小的导通时间。如果应用处于固定占空比电路，则tk 的设计要更加简单，只需小于开通时间即可。在SVPWM的应用中，有最小脉冲和最大脉冲限制，一般来说，实际占空比限制在 0.1～0.9 之间。所以根据式（10）、式（11）可以确定谐振时间常数。但是由于该辅助电路在提前开通的情况下仅仅损失一小部分的正压串扰抑制能力，并不会对电路稳定性造成影响，由表 1 可知，在 0.9tk 时，栅极电压已经降为 15.64%VCq，实际的负压已经很轻微。所以在设计过程中可以适当放开谐振周期tk 设计，以获得更好的正压串扰抑制效果。
+
+**3）关断阶段二**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUML3ePB1f9h5Iicvb1G6AetoulV7GCoyDPDKyveqSf4icflmvQwEHpmiczw/640?wx_fmt=png&from=appmsg)
+
+关断的第二个阶段简化电路如图 7 所示，该阶段电容 Cq 能量完全转移至电感 Lr 上时，其电压被二极管 VD1 钳位，电感 Lr 在 VD1 和 VD3 回路续流。其中二极管 VD1 应当选用导通压降较小、导通速度快的肖特基二极管，防止电容 Cq 过充，在该阶段，电容 Cq 给栅极维持着一个二极管导通压降的正电压，能够在互补开关管关断，负压串扰来临时提供比零电平更好的串扰抑制效果，也能在下桥臂 SiC MOSFET 开通时更快开通。如果选用的二极管 VD1、VD2 压降较小，电感 Lr 能量未完全消耗，则其能在下个开启时刻来临时加速下桥臂开通，同时向电源回馈能量。
+
+驱动电路参数完成设计之后，由于电感 Lr 和电容 Cq 的谐振时间常数固定，该驱动电路的关断时间在大于谐振时间时才能获得最佳的串扰抑制效果，所以在脉宽调制的应用中需要按照最小关断时间对电感 Lr 由电容 Cq 进行选择。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMTJJpJ6ejNBzvrgMwV7AanD4FzK5QgHI9OfzDkxicdiaLsQGpWqdFO3Gw/640?wx_fmt=png&from=appmsg)
+
+当按照某一开关频率 fi 进行驱动电路设计，死区时间保持不变时，降低开关频率不会降低辅助电路的串扰抑制效果。开关频率上升至 fk 时，频率增加互补开关管关断时刻分布如图 8 所示，其中，S1为开关频率 fi 下互补桥臂关断时刻分布集合，S2 为开关频率 fk 下互补桥臂关断时刻分布集合，互补开关管在死区时间后开启依然会有等额的正向串扰抑制效果，但是由于频率的上升，互补开关管关断时刻分布变窄，造成一部分互补开关管关断时刻在栅极电压到零之前，使得负压串扰抑制效果相对于正常情况下有所减低，但是相对于负压关断驱动电路依然具备优势。同时在整定好参数后增大开关频率造成的开通时刻提前对驱动电路正常驱动 SiC MOSFET 几乎没有影响。
+
+综上所述，通过整定电容 Cq 和电感 Lr 的值可以确定驱动关断期间电压到零的时间，从而实现所需开关频率下的串扰抑制能力。相对于传统驱动，该辅助电路能够以负压迅速关断 SiC MOSFET，具有良好的驱动特性，同时能够兼备正向串扰抑制和负压串扰抑制的能力，不需要额外的驱动 PWM 信号。
+
+1.3损耗计算
+
+辅助电路的加入不可避免的会带来损耗，该辅助电路的主要损耗在于电容 Cq 和电感 Lr 之间谐振经过二极管 VD1 和 VD2 的损耗，以及在充电情况下二极管 VD3 的损耗（次要损耗）。所以电容的损耗成为电路设计的一个重要方面。
+
+开启阶段，电源加在 Rp 和 Rq 的两端，T 为开关周期，产生损耗为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMKIyeF7sacbAjj4aMKyKcnLHgwHtib9njRobaB0J1V3AIOHtU0LicySPA/640?wx_fmt=png&from=appmsg)
+
+在设计中可以增大 Rq 和 Rp 的电阻值以降低该部分损耗。
+
+在关断阶段一，设 Rk 为谐振回路电感 Lr 直流内阻、二极管 VD3 等效电阻之和，ik 为谐振回路电流，则关断阶段一损耗能量为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMWjubc6MeTrcUJLNnZMBUVENUicRd9RuyfPMGlNU6iclkHw2fea3Mzu3w/640?wx_fmt=png&from=appmsg)
+
+在 Cq=100nF 的条件下，当频率发生变化时，只需要改变电感 Lr 的值即可改变谐振时间长度。不同频率下辅助电路最大损耗见表 2。同时，为了降低辅助电路损耗，可以适当降低 Cq 容值，但会损失一定的钳位能力。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMTIfLbCI8saPmEWIoP2qj4xmAxfnYoZ5oVz59FIDUjEEZ2JCibkfASSg/640?wx_fmt=png&from=appmsg)
+
+**2 仿真和实验**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM4cmmELZy9LO6eNRv2cibogwmGr2ic4lpQic0yibJQoohq3ONmPI0gNib52w/640?wx_fmt=png&from=appmsg)
+
+本文采用 Cadence旗下的 Pispice 进行仿真，搭建了同步 Buck 电路和双脉冲测试平台进行模拟，仿真电路如图 9 所示。驱动电路参数见表 3，同步Buck 实验参数见表 4，SiC MOSFET 选择罗姆公司的 SCT3080KL，其开启阈值 Vth=2.7V，栅极最大负压 Vmax=−6.5V。仿真结果如图 10、图 11 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM8BH2lC0hZtlHKdwuzIkUAIsTbXkSKsJKMC7LV3qzgPLXK1PC4loGTQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM6FaricKMLnKZlOUN7LcdRqwW6LR5iavnwsyMPicPVommLRUWRiaBSr8aHA/640?wx_fmt=png&from=appmsg)
+
+**2.1仿真结果**
+
+**2.1.1 同步 Buck 仿真结果**
+
+同步 Buck 测试仿真结果如图 10 所示。图 10a中，传统的零电压关断驱动在正向串扰来临时，其正压尖峰 4.8V 已经大大超过 SiC MOSFET 的开启阈值电压，容易引起误导通，增加桥臂直通的风险，同时增大 SiC MOSFET 的导通损耗。图 10b 为利用负压关断抑制正向串扰的情况，其正压尖峰在负压关断的条件下，削减为 0.2V，但是在互补开关管关断时，引起的负压尖峰已经达到−7.8V，严重影响栅极性能。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMVTU5aEU8ic9UmMGwicwEWicxsgyCvC8Ghr46shNibbtWZ3LeUibKufK5dPw/640?wx_fmt=png&from=appmsg)
+
+针对以上现象提出的谐振辅助驱动电路吸收两种传统电路的优势，同时能够弥补两种电路的劣势。能够将正压尖峰降低至 1.2V 的同时，将负压尖峰减弱至−2.8V，这将极大地提升驱动电路的稳定性。由图 10c 可知，该电路相对于传统电路在抑制串扰方面有很大的优势。
+
+**2.1.2 双脉冲测试仿真结果**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM2DHYTKR1aw982l6kcYAwUr1StZWFm9ibjhlYK25csouicqOOfasOyOlw/640?wx_fmt=png&from=appmsg)
+
+双脉冲测试仿真结果如图 11 所示，相对于零电压关断驱动电路，其正向串扰从 5.1V 降低至 1.1V，低于 SiC MOSFET 的开启阈值，减少了误开通风险，另外相对于负压关断驱动电路，反向串扰电压值降低至−5.9V，缓解了过低负压带来的栅极击穿问题。
+
+**2.2实验结果**
+
+**2.2.1 同步实验结果**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMz0IRlDznPZNqdk2qr8fibibiaQA9xCibn0bduUB8YfQ4TfyEp4EMuOm7Mg/640?wx_fmt=png&from=appmsg)
+
+本节搭建了谐振辅助驱动电路的硬件平台，驱动电路如图 12 所示，包括隔离电源模块、光耦隔离模块和增加的辅助电路。同时搭建了同步 Buck 变换器和双脉冲测试硬件平台，测试平台如图 13 所示，电路参数与仿真保持一致。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMaVmAAib8iciakq8NO3PkV6vDrxzsVRfXMYOTANs3lmlich4qqN0ezFfUkw/640?wx_fmt=png&from=appmsg)
+
+图 14 为本文提出的谐振辅助驱动电路波形，从图中可以看出，导通时驱动电压为 18V，关断电压为−5.1V，并逐渐上升至 0.7V。由于关断期间电容由二极管钳位，二极管的导通压降导致了其关断后电压不是绝对的 0V，而为 0.7V 左右。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMbp65zDibxgCcJEUcbdavKQ7fqLia7Licicd9Rfib75GGdW1lDK8YskibNDhg/640?wx_fmt=png&from=appmsg)
+
+图 15 显示了在 Buck 测试电路下零电压关断时串扰情况，从图中可以看出，上管开通时引起的正压串扰值为 4.1V，超过了 SCT 3080KL 的开启阈值，容易引起误开通。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMhq1tJeLMRH0YTAdQFiaoSGCWwJ0lcnLqHmWnkjpZHW9SmF8iamCBObDA/640?wx_fmt=png&from=appmsg)
+
+图 16 显示了 Buck 测试电路下负压关断情况下的串扰情况，虽然负压关断能够抑制正压串扰至 1.8V，但是其会将反向串扰加剧至−6.1V。Buck 电路谐振辅助驱动串扰实验结果如图17 所示，采用谐振辅助驱动电路的情况下，正压串扰降低至 0.6V，反向尖峰降低至−1.2V。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMiaQcecPADWZjIiauweXoZxNOWdXF4ggXtK8y6XmvUGBBReDlJlAWJsuQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM6fbMcbsBicsNeCf0nKTAgeibDzrXBhOzVHKoLicQPogtDCnaicT9IWvuUA/640?wx_fmt=png&from=appmsg)
+
+**2.2.2双脉冲实验结果**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUM5BgV1XARiazXGyuicC4Q8prHibGOLU9MKN0hKUVXLibVAicmMDSOWxFHIicg/640?wx_fmt=png&from=appmsg)
+
+在同步 Buck 测试平台中，误开通会引起电流急剧增大，容易烧毁测试平台，进一步测试串扰抑制性能会导致同等电压、电流等级下的对照实验串扰过大，引起短路和栅极击穿的情况出现，严重会烧毁电路。为了进一步测试高电流情况下的串扰抑制情况，搭建了双脉冲测试平台进行实验，在双脉冲测试实验中，电压等级为 200V，测试电流为 37A。零电压关断驱动串扰双脉冲实验结果如图 18所示，在零电压关断的传统驱动电路中，在互补开关管开通时，正向串扰达到 5.6V，大大超过了SCT3080KL 的开启阈值，容易引起误开通现象的发生，互补开关管关断引起的反向串扰则在正常范围为−4.2V。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMvQH4QJpiaqbXic04JOy064ib85BIVA0Zl0mjFSiczeMxVyH3Afxm3DeHdQ/640?wx_fmt=png&from=appmsg)
+
+负压关断驱动串扰双脉冲实验结果如图19 所示，负压关断的驱动电路中，互补开关管关断引起反向串扰尖峰达−7.9V，低于 SCT3080KL 允许的最低的栅极电压值，容易击穿栅极。本文采用的谐振辅助驱动电路中，其驱动串扰双脉冲实验结果如图 20 所示，
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMKcSj5pzIarJkhtsK6AcA0rkU5eRClhpOBLmOJRkKPkajicouVdIFygQ/640?wx_fmt=png&from=appmsg)
+
+互补开关管开通引起的正压串扰尖峰为 1.8V，互补开关管关断引起的反向负压尖峰为−3.6V，均处于正常工作范围内。不同驱动在不同测试环境下的串扰大小见表 5。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMIm2XJNgSnePzSqyRVW904woxQb0yqupSVBV5paFt5I3acqLAUJ29TA/640?wx_fmt=png&from=appmsg)
+
+**3 结论**
+
+本文针对基于 SiC MOSFET 的桥臂电路在互补开关管高频开关时容易产生正压尖峰和负压尖峰的问题，提出了一种 SiC MOSFET 串扰抑制的谐振辅助驱动电路，能够在有效抑制正向串扰电压尖峰的同时保护栅极不被负压尖峰击穿。采用该电路的SiC MOSFET 驱动电路结合了传统的零压关断驱动电路和负压关断驱动电路在抑制上的优势，在双脉冲测试中将正向串扰降低为 1.8V，同时将反向串扰尖峰抑制在−3.6V，有效抑制桥臂串扰现象。同时该电路由无源器件组成，无需多余的 PWM 信号输入，抗干扰能力强且易于实现。由于增加了无源器件，该辅助驱动电路会不可避免地带来额外损耗，在后续的工作中可以增加能量回收回路以减少损耗。
+
+参考文献
+
+\[1\] Josifović I, Popović-Gerber J, Ferreira J A. Improving SiC JFET switching behavior under influence of  circuit parasitics\[J\]. IEEE Transactions on Power Electronics, 2012, 27(8): 3843-3854.
+
+\[2\] 吴海富, 张建忠, 赵进, 等. SiC MOSFET 短路检测与保护研究综述\[J\]. 电工技术学报, 2019, 34(21):4519-4528.
+
+\[3\] 王莉娜, 马浩博, 袁恺, 等. SiC MOSFET 半桥电路开关瞬态过电流、过电压建模与影响因素分析\[J\].电工技术学报, 2020, 35(17): 3652-3665.
+
+\[4\] 何杰, 刘钰山, 毕大强, 等. 电压探头对宽禁带器件高频暂态电压精确测量的影响\[J\]. 电工技术学报,2021, 36(2): 362-372.
+
+\[5\] Zhao Jun, Wu Liang, Li Zhenyu, et al. Analysis and suppression for crosstalk in SiC MOSFET turn-off transient\[C\]//2020 IEEE 9th International Power Electronics and Motion Control Conference, Asia,2020: 1145-1150.
+
+\[6\] Li Hong, Jiang Yanfeng, Qiu Zhidong, et al. A predictive algorithm for crosstalk peaks of SiC MOSFET by considering the nonlinearity of gate drain capacitance\[J\]. IEEE Transactions on Power Electronics, 2021, 36(3): 2823-2834.
+
+\[7\] Zhang Zheyu, Zhang Weimin, Wang F, et al. Analysis of the switching speed limitation of wide band-gap devices in a phase-leg configuration\[C\]//2012 IEEE Energy Conversion Congress and Exposition (ECCE), Raleigh, 2012: 3950-3955.
+
+\[8\] 刘帆, 朱德文, 吴钫, 等. SiC MOSFET 建模及驱动电路设计\[J\]. 电力电子技术, 2018, 52(12): 133-136.
+
+\[9\] 秦海鸿, 朱梓悦, 王丹, 等. 一种适用于 SiC 基变换器的桥臂串扰抑制方法\[J\]. 南京航空航天大学学报,2017, 49(6): 872-882.
+
+\[10\] Lu Zhebie, Li Chengmin, Wu Han, et al. Design of active SiC MOSFET gate driver for crosstalk supperssion considering impedance coordination between gate loop and power loop\[C\]//2019 IEEE Applied Power Electronics Conference and Exposition (APEC),Anaheim, 2019: 986-990.
+
+\[11\] Wang Panbao, Zhang Linzhi, Lu Xiaonan, et al. An improved active crosstalk suppression method for high-speed SiC MOSFETs\[J\]. IEEE Transactions on Industry Applications, 2019, 55(6): 7736-7744.
+
+\[12\] 李辉, 黄樟坚, 廖兴林, 等. 一种抑制 SiC MOSFET桥臂串扰的改进门极驱动设计\[J\]. 电工技术学报,2019, 34(2): 275-285.
+
+\[13\] Zhang Boyi, Wan Shuo. A crosstalk suppression technique for SiC MOSFETs in the bridge-leg con figuration\[C\]//2020 IEEE Applied Power Electronics Conference and Exposition (APEC), New Orleans, 2020: 1513-1520,
+
+\[14\] Zhang Binfeng, Xie Shaojun, Xu Jinming, et al. A magnetic coupling based gate driver for crosstalk suppression of SiC MOSFETs\[J\]. IEEE Transactions on Industrial Electronics, 2019, 64(11): 9052-9063.
+
+\[15\] Zhang Zheyu, Dix J, Wang F F, et al. Intelligent gate drive for fast switching and crosstalk suppression of SiC devices\[J\]. IEEE Transactions on Power Electronics, 2017, 32(12): 9319-9332.
+
+\[16\] Li Chengmin, Lu Zhebie, Chen Ying, et al. High off-state impedance gate driver of SiC MOSFETs for crosstalk voltage elimination considering commonsource inductance\[J\]. IEEE Transactions on Power Electronics, 2020, 35(3): 2999-3011.
+
+\[17\] Liu Chunhui, Zhang Zhengda, Liu Yifu, et al. Smart self-driving multilevel gate driver for fast switching and crosstalk suppression of SiC MOSFETs\[J\]. IEEE Journal of Emerging and Selected Topics in Power Electronics, 2020, 8(1): 442-453.
+
+\[18\] 张建忠, 吴海富, 张雅倩, 等. 一种 SiC MOSFET谐振门极驱动电路\[J\]. 电工技术学报, 2020, 35(16):3453-3459.
+
+\[19\] Wang Jianjing, Chung H S. A novel RCD level shifter for elimination of spurious turn-on in the bridge-leg configuration\[J\]. IEEE Transactions on Power Electronics, 2015, 30(2): 976-984.
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=jpeg&from=appmsg)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

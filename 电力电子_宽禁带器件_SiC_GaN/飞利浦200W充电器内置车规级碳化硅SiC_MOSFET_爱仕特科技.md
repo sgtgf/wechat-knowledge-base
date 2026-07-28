@@ -1,0 +1,146 @@
+# 飞利浦200W充电器内置车规级碳化硅SiC MOSFET-爱仕特科技
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/E\_fkaoooV6x97MJ\_h72BIA](https://mp.weixin.qq.com/s/E_fkaoooV6x97MJ_h72BIA)
+
+### 
+
+**资料来源：充电头网**
+
+### 
+
+**前言：**
+
+充电头网拿到了飞利浦最新推出的200W碳化硅SiC快充充电器，由东莞市润众电子设计制造。充电头网了解到，这可能是全球第一个在PFC升压电路使用碳化硅SiC的USB充电器。此碳化硅SiC材料一般应用于新能源汽车等大功率充电使用，如小米最近的SU7汽车充电器就使用了碳化硅SiC技术以确保其快充的安全性。
+
+飞利浦这次推出的200W碳化硅SiC快充充电器将车规级标准及技术应用在其产品上，更高规格器件使用意味着更可靠的质量以及更优秀的性能表现。同时也意味着飞利浦有可能在未来USB标准往上兼容大功率产品预先做足准备。
+
+充电器具备欧标固定插头，支持100-240Vac输入，总输出功率为200W，具备3C1A接口。其中USB-C1接口支持140W输出功率，USB-C2接口支持100W输出功率，C1和C2同时使用时支持100+100W功率分配。 
+
+USB-C3支持30W快充，USB-A口支持22.5W快充，使用USB-C1和C3接口时，C1接口支持140W输出。三个USB-C接口共同使用时，支持100+70+30W功率分配，满足三台设备的同时快充需求。
+
+随着手机、平板或是笔记本对快充的需求和技术的进步，充电器也相对的快速发展。从早期的以电流为标准的充电速度（如1A，2.1A，2.4A等）到QC、PD或是之后的UFCS（Universal Fast Charging Specification）快充协议的发展后以功率（18W，20W，45W，65W，120W）来做为快充速度标准，消费者对快充的需求快速增加，但市面上琳琅满目的充电器，很多标榜100W或是更高的充电器，其实同时对两个或是更多的装置充电时，并没法达到预期的快充效果。基本原因是其设计将两个或是多个USB头共享一个电源管理芯片，或是另外一个重要原因是因为大功率充电时产生的热让充电器的保护机制激活，所以将输出功率降低，所以无法达到预期的快充效果。
+
+飞利浦这样的设计对大部份消费者的使用情境都将满足快速充电的期望。如以140W功率单充Macbook，以96W功率双充两台Macbook或是100W双充华为、联想等品牌的笔记本或是平板。或是同时以140W充Macbook和30W充iPhone。甚至再加上一台笔记本或是平板，都能满足快充的需求 (也许个别产品没法达到最快的速度, 但不会差异太多)。这也许就是这个老牌电子巨头飞利浦将车规级碳化硅材料导入这个200W充电器的原因。笔者预期，未来充电器将一分为二，大功率 (>160W或是更高) 的充电器也会跟随着飞利浦的脚步导入碳化硅SiC，而氮化镓GaN因为其成本的优势，较高的热导率和较低的电阻率继续主宰20W-160W的充电器。
+
+**飞利浦产品介绍:**
+
+包装盒正面印有PHILIPS品牌、产品外观、名称以及卖点，并且特别标注了这是一款碳化硅充电器。而充电头网拆解了解到，充电器是在PFC升压管上使用车规级碳化硅MOS替代了主流的氮化镓MOS，为产品带来更好的充电表现。
+
+需要科普的是，氮化镓和碳化硅虽同为第三代宽禁带半导体，但特性上有所区别。氮化镓具有较高的热导率和较低的电阻率，而碳化硅则具有较高的耐高温性能和硬度。 正因碳化硅高热导性、高击穿电场强度及高电流密度的特性，基于碳化硅材料的半导体器件可应用于汽车、充电设备、便携式电源、通信设备、机械臂、飞行器等多个工业领域。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKbrskTHxXKVo73bMVxBx7ib0oZTAzDEnBkqDqib9DBzFnTpu2Q2qyeRHIg/640?wx_fmt=jpeg&from=appmsg)    机身正面中心印有PHILIPS品牌，右下角则印有SiC和200W标识。
+
+**充电器参数特写**
+
+型号：DLP2687C/12
+
+输入：100-240V~50/60Hz 2.5A
+
+输出：
+
+Type-C1：5V3A、9V3A、12V3A、15V3A、20V3.5A、20V5A、28V5A（140W Max）
+
+Type-C2：5V3A、9V3A、12V3A、15V3A、20V5A（100W Max）
+
+Type-C3：5V3A、9V3A、12V2.5A、15V2A、20V1.5A（30W Max）
+
+USB-A：5V3A、9V2A、12V1.5A、10V2.25A（22.5W Max）
+
+Type-C1+Type-C2：100W+100W（200W）
+
+Type-C1+Type-C3：140W+30W（170W）
+
+Type-C1+USB-A：140W+22.5W（162.5W）
+
+Type-C2+Type-C3：100W+30W （130W）
+
+Type-C2+USB-A：100W+22.5W（122.5W）
+
+Type-C3+USB-A：5V=3A（15W）
+
+Type-C1+Type-C2+Type-C3：100W+70W+30W（200W）
+
+Type-C1+Type-C2+USB-A：100W+70W+22.5W（192.5W）
+
+Type-C2+(Type-C3+USB-A) ：100W+15W（115W）
+
+Type-C1+Type-C2+(Type-C3+USB-A)：100W+70W+15W（185W）
+
+总输出：200W Max
+
+充电器通过了CE认证，以及VI级能效认证。
+
+                        ![](https://mmbiz.qpic.cn/mmbiz_jpg/4OkJrd17yhTzF7HoWj1m3TdQKQTDcYsmnu0jhGeBDCibW1BkKCPGIdzQG20WDHtkun2Mj0caOEDcDibIhb5qABVQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  输出端配置3C1A四个USB输出接口。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/4OkJrd17yhTzF7HoWj1m3TdQKQTDcYsmeY84OApfEAy8SDnNpyDKvJe73C5LGZmsl7XpU4rX8Kmz0YWmJU1ogQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/4OkJrd17yhTzF7HoWj1m3TdQKQTDcYsmib24THcObF4onOQubezoicD7tvuusxacl4Dw7jN7GnGPPjPnqg3w6WXw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+通过对这款充电器PCBA模块的观察发现，飞利浦200W快充充电器采用PFC+AHB非对称半桥架构，固定电压输出。输出采用三路独立的降压电路，由协议芯片实现各个接口的独立快充输出以及功率自动分配。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/4OkJrd17yhTzF7HoWj1m3TdQKQTDcYsmR0rDosbxw0WjibSfXpia4oIhBeZuBNM1a5vmC0y0YtpbaPIYI5NsvMnA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)PFC开关管采用碳化硅MOS管，来自爱仕特科技，型号ASR80N1200MD02，耐压1200V，导阻80mΩ，具备快速开关能力，高阻断电压能力，具备低电容和低导阻，采用TOLL封装。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKbbrVFib9KbibzphiaFfSMjtVnYdPgxIvtibWWe8CP3icwZspkpD4xmxvLicjA/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKboajG1TVkKUIwbxNPUIficXiaWNIxQle5fra67dg9icy9BTjficrQNWibNGQ/640?wx_fmt=png&from=appmsg)爱仕特 ASR80N1200MD02 资料信息。
+
+**全部拆解一览，来张全家福**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKb3GwcJyJSjJfFicZuxtMzXcHp5Ej1HiaGYZDFtY9zgV0koOQehicjATHHw/640?wx_fmt=jpeg&from=appmsg)
+
+**充电头网拆解总结**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4OkJrd17yhTzF7HoWj1m3TdQKQTDcYsmlHs6xf4CywZ1bNSjht9thlClQRt7TicxUL69eHiaSaxWWx2P2S5FCw8w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+最后附上飞利浦200W快充充电器核心元器件清单，方便大家查阅。
+
+飞利浦200W快充充电器采用黑色外壳，配有欧标固定插脚。充电器支持100-240Vac宽电压输入，输出端配有3C1A接口，其中USB-C1接口支持140W输出功率，USB-C2接口支持100W输出功率，C1和C2同时使用时支持100+100W功率自动分配，满足两台笔记本电脑的快充充电使用。
+
+充电头网通过拆解了解到，飞利浦200W快充充电器采用PFC+AHB电源设计，同步整流。电源方案使用杰华特JW1572 PFC控制器+JW1556 AHB控制器+JW7726H同步整流控制器，搭配使用纳芯微NSD1624D半桥驱动器。其中PFC开关管采用爱仕特碳化硅MOS管，AHB开关管采用英诺赛科氮化镓开关管。
+
+  
+
+**爱仕特产品介绍：**
+
+深圳爱仕特科技有限公司，专注第三代半导体碳化硅器件的芯片设计，研发和生产碳化硅MOSFET和碳化硅功率模块，以及相关系统方案的开发。爱仕特拥有40余项核心技术知识产权，涵盖了工艺、设计等方面，成功应用于自主开发的各类产品中，先后获得武岳峰资本、中芯聚源、深创投及国内多家知名投资机构的数亿元投资。
+
+自2017年成立以来，公司建立的车规级SiC MOS模块专用工厂，已实现全SiC MOS功率模块的批量生产。爱仕特不断提升技术研发实力和产品创新能力，于2021年获得国家高新技术企业认定；2021年惠州分公司通过IATF16949体系认证；2022年通过AEC-Q101产品可靠性测试。  
+
+**1\. 芯片**
+
+自主设计碳化硅MOS芯片，采用6吋芯片研发和生产碳化硅MOS单管和模块，耐压650V-1200V-1700V-3300V,电流：1A-150A,自建晶圆厂。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKbQ4aB3tSURpZYKBYrD2NLmx7THfvWxH21zrckrxCcalL7cqCiayiaiaqow/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKb1cPgFUAEwQh3baJTwnnR9QSX5qtjZoCE2ShxclkgDl5SEKBSo2z0jQ/640?wx_fmt=jpeg&from=appmsg)
+
+**2\. SiC MOSFTE**
+
+采用自主碳化硅MOS芯片，研发和生产碳化硅MOS单管，耐压650V-1200V-1700V-3300V,电流：1A-150A。产品封装全，可定制产品规格。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKbzSNaChoo9ehnzOibTKejdnP5ib7aJ3CR9mcM9FW39DX3PQhR3zQIIWjA/640?wx_fmt=png&from=appmsg)
+
+**3.碳化硅功率模块**
+
+采用自主碳化硅MOS芯片，研发和生产碳化硅功率模块，耐压650V-1200V-1700V-,电流：30A-800A。产品封装全，可定制产品规格。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKbm1fyRpUvYck2aSRs95CoGibVLbTyat8VgFDvcRibia807wcUHic4tzuWMw/640?wx_fmt=png&from=appmsg)
+
+**4.碳化硅器件在PD快充中的应用**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKbwGUhgRgVMp7PU9yKPsYRQ6kxiavZEExTicF7ljZgsyXAialibL0QHdGItg/640?wx_fmt=png&from=appmsg)
+
+**5.产品与优势**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKbvkibh4tQVhebyZXHPDjib0C68Hebicj0kjEavL20PSVDmsZZnHnFPpicjQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnGTmuCjPYUOPCrVNjPfdKb2QEfNKibGicJJ9UHrSPlqj5iaOa4Mw2wBVWrq9SHcBJR798pibjickyGaOg/640?wx_fmt=jpeg&from=appmsg)
+
+**碳化硅器件因其出色的耐高温、低损耗和高效率特性，被视为新一代功率器件的理想选择。随着快充、新能源以及电动汽车等领域的蓬勃发展，对高性能、高可靠性功率器件的需求不断增加。传统的硅基器件难以满足需求，因此对碳化硅的需求进一步增长。特别是在高功率应用场景中，碳化硅器件的渗透率正在逐步提高，早在2022年国内碳化硅市场规模便达到数亿美元，为此文中提到的多家功率器件企业紧抓市场需求，相继推出各种高性能、高可靠性碳化硅解决方案，助力厂商推出更多高效、高功率密度的快充产品。**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

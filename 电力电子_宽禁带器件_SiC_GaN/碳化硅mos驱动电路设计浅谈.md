@@ -1,0 +1,67 @@
+# 碳化硅mos驱动电路设计浅谈
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/M-ubDXRMhWm6pBZ-OMOBew](https://mp.weixin.qq.com/s/M-ubDXRMhWm6pBZ-OMOBew)
+
+碳化硅（SiC）MOS管作为一种新型功率器件---宽带隙（WBG）技术，在开发与应用中，相同功率等级的Si MOSFET与SiC MOSFET相比，SiC mosfet导通电阻，开关损耗低，工作频率更高，更适用高温工作，高温稳定性好。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsm1NBicEdrYMW1ymSpleC6wvlicibUEoztGHASqqZFaj63za3k81NWfJbwVhuSBGLhnIL5mtYL7cFvRg/640?wx_fmt=jpeg)  
+
+　　碳化硅MOSFET越来越多用于千瓦级功率水平应用，涵盖如通信电源，和服务器电源，和快速增长的电动汽车电池充电器市场等领域。碳化硅MOSFET之所以有如此的大吸引力，在于与它们具有比硅器件更出众的可靠性，在持续使用内部体二极管的连续导通模式（CCM）功率因数校正（PFC）设计，例如图腾功率因数校正器的硬开关拓扑中，碳化硅MOSFET可以得到充分利用。此外，碳化硅MOSFET也可应用更高的开关频率，因而可以实现体积更小，更加紧凑的电源转换器设计。
+
+一．常见的Vgs与Vgs(th)，以及对SiC MOSFET应用的影响  
+  
+驱动电压Vgs和栅极电压阈值Vgs(th)关系到SiC MOSFET在应用过程中的可靠性，功率损耗(导通电阻)，以及驱动电路的兼容性等。这是SiC MOSFET非常关键的参数，在设计过程中需要重点考虑。在不同的设计中，设置不同的驱动电压会有更高的性价比。下图1 列出几个常见厂家部分SiC MOSFET的Vgs与Vgs(th)值作对比。  
+  
+图1：  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsm1NBicEdrYMW1ymSpleC6wvjK9joOKia7iaNoLTSIrwnA8xAhtpwQqGWjAg0luiacpNrLZibaFCAbcbBQ/640?wx_fmt=png)  
+
+二. SiC MOSFET驱动电压设置探讨  
+  
+如图所示，SiC MOSFET 驱动电压正向最大值在22V~25V左右，推荐的工作电压主要有+20V,+18V两种规格，具体应用需要参考不同SiC MOSFET型号的DATASHEET。Vgs超过15V时，无论是导通内阻还是导通电流逐渐趋于平缓 (各家SiC MOSFET的DATASHEET给出的参考标准不同，有的是Rds(on)与Vgs的曲线，有的是Id与Vgs的曲线)。当然驱动电压Vgs越高，对应的Rds(on)会越小，损耗也就越小。  
+  
+设计小建议：Vgs设定Vgs时不能超过DATASHEET给定的最大值，否则可能会造成SiC MOSFET永久损坏。  
+  
+设计小建议：SiC MOSFET建议使用+18V驱动电压。对降低驱动损耗以及减少Vgs过冲损坏更加有益。  
+  
+考虑到与15V驱动的Si IGBT 兼容，各家设计公司都在开发+15V驱动电压的器件。
+
+负压关断电压：建议-3V~-5V。
+
+  
+**三.碳化硅mosfet优势**  
+
+**1.低损耗  
+半导体元器件导通损耗与它的击穿场强是反比，导通损耗小，并不会因温度变化而变化。** **2.开关速度更快**
+
+**SiC热导系数=2.5\*Si   SiC饱和电子漂移率= 2\*Si    SiC工作频率高**
+
+**3.高阻断电压**
+
+**SiC击穿场强=10\*Si (或是更多)  SiC阻断电压 > Si阻断电压**
+
+ **4.在高温下可工作**
+
+**SiC有着高度稳定晶体结构，宽度2.2eV—3.3eV （等于2\*Si 或更多）  
+SiC最大高温度200 ºC以上**
+
+五. **碳化硅mosfet驱动电路**
+
+**SiC MOSFET 与Si MOSFET比较**
+
+**1.SiC MOSFET寄生电容更小，对驱动电路寄生参数更敏感。**
+
+**2.SiC MOSFET驱动电压\-5V~ +25V（建议电压-3V/+18V），Si MOSFET驱动电压\-30V~+30V（建议电压0/+15V）**
+
+**3.SiC MOSFET安全阈值小；**
+
+**4.SiC MOSFET有专用驱动芯片**
+
+ 六.
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslIxvqgWQKCZkRqGVz64ficVLL6QPUmBrg5H6rzH5O9KUriagkmbMT7sJibtJyu9O6A0WRdGlEvAWrcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+声明：此文来源网络，是出于传递更多信息之目的。若有来源标注错误或侵犯了您的合法权益，请与我们联系，我们将及时更正、删除，谢谢。
+
+                    ![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmV54c2lq2hbhZtUN0dmE0LibFiaMgJETn8KwGPQOhHEnhH3XubpQC4DtguickGdD5DNYcR9t1yljb0A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)

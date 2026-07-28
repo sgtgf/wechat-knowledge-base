@@ -1,0 +1,98 @@
+# 1700V 100A内绝缘型SiC MOSFET产品优势及应用
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/gUSvuMal5gk-c7uWuFFGJA](https://mp.weixin.qq.com/s/gUSvuMal5gk-c7uWuFFGJA)
+
+**摘要：**
+
+碳化硅是第三代半导体产业发展的重要基础材料，碳化硅功率器件以其优异的耐高压、耐高温、低损耗等性能，能够有效满足电力电子系统的高效率、小型化和轻量化要求。
+
+碳化硅MOSFET具有高频高效，高耐压，高可靠性。可以实现节能降耗，小体积，低重量，高功率密度等特性，在新能源汽车、光伏发电、轨道交通、智能电网等领域具有明显优势。  
+
+  
+
+**一.碳化硅MOSFET知识点**
+
+  
+
+碳化硅MOSFET是一种基于碳化硅半导体材料的场效应晶体管。它的工作原理类似于传统的金属氧化物半导体场效应晶体管（MOSFET）。主要由以下三个部分组成：
+
+栅极（Gate）：栅极是用于控制MOSFET导通的部分。当施加正电压时，栅极与通道之间形成电场，控制通道的导电性。
+
+源极（Source）和漏极（Drain）：源极和漏极分别是MOSFET的输入和输出端。通过控制栅极电压，调节源极和漏极之间的电流流动。
+
+通道（Channel）：通道是源极和漏极之间的导电路径。在碳化硅MOSFET中，通道由碳化硅材料构成，具有较高的载流子迁移率和耐压能力。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTwIKsx363mDoxnpXpGqWpnbE0A3CaHEFYQ2wibnmslgf3JUoYbsJPxc4UKsw3rNKD9q25SbuR8Aw/640?wx_fmt=png&from=appmsg)
+
+1700V100A外绝缘产品图     
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTwIKsx363mDoxnpXpGqWpyKJoexZWkFaxKH8I9YLuwFpibdy3sIlBWF460hWo7y1TvkYbTaGhyug/640?wx_fmt=png&from=appmsg)
+
+      1700V100A内绝缘产品图
+
+碳化硅MOSFET的工作原理可以简述如下：当栅极施加正电压时，形成电场，使得通道中的载流子（电子或空穴）移动，导致源极和漏极之间形成导电路径。通过调节栅极电压，可以控制通道中的载流子浓度，从而控制MOSFET的导通程度。
+
+**二.内绝缘MOS管的优点**
+
+内绝缘就是使用特殊的封装工艺将承载芯片的框架与MOS管背部散热片相互隔离的一种新型封装，最终目的是将MOS管的漏极与其背部散热片之间达到电气隔离。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTwIKsx363mDoxnpXpGqWp8rod4NYKRaCoKvMRWdoQHBd4DTnwEicFkAibTBEA92LyOwUH77f4lHag/640?wx_fmt=png&from=appmsg)
+
+图片来源：海飞乐技术有限公司
+
+内绝缘MOS的优点主要包括制造结构简单、‌隔离方便、‌电路尺寸小、‌功耗低、‌适于高密度集成、‌设计灵活性高、‌具有动态工作独特的能力、‌温度特性好。‌  
+
+制造结构简单，‌隔离方便：‌内绝缘MOS的制造结构相对简单，‌便于隔离，‌这对于集成电路的设计和制造是非常重要的。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTwIKsx363mDoxnpXpGqWp4pKbVanJfv3hvx7FzcQNfmAARfelHcAPiclKgbqbHJzwt2pfxt1tMdg/640?wx_fmt=png&from=appmsg)图片来源：海飞乐技术有限公司
+
+‌外绝缘MOS产品的总体热阻＝芯片热阻+芯片下焊料的热阻+铜支架的热阻+导热硅脂的热阻+绝缘垫的热阻+散热器的热阻。
+
+采用陶瓷基板进行电气隔离下的总体热阻=芯片热阻+芯片下焊料的热阻+铜支架的热阻+导热硅脂的热阻+散热器的热阻。相对比，内绝缘不用绝缘垫了，还减少了热阻，直接贴在散热片上了，更容易散热了，有效的提高了MOS的电流通过能力。‌
+
+此外，‌内绝缘MOS还具有比结型场效应管更高的输入阻抗，‌制造工艺比较简单，‌使用灵活方便，‌非常有利于高度集成化。内绝缘的另一个优点：提高产品在应用端的安全性，普通封装产品散热片直接和MOS管的漏极相连，在客户应用时，很有可能造成电气短路和人身安全。
+
+总结一下就是：减少了绝缘垫，降低了热阻，增加了电流，保证了安全。‌这些特点使得内绝缘MOS在电力电子、‌通信、‌计算机等多个领域得到广泛应用。
+
+三‌.**内绝缘SiC MOS管的优点**
+
+ASC100N1700MT4i为内绝缘碳化硅MOSFET，产品耐压大于1700V,内阻28毫欧（电流100A），产品驱动电压建议+18V/-3V左右。应用参数如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTwIKsx363mDoxnpXpGqWpqZBwLSJYkmRu5essrbdQicUiaYccWH9EQjrJ448ia3p9rKfaic40E3aib4w/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnTwIKsx363mDoxnpXpGqWpQ70nC7fttz0M3PFC3ScJXJaPLNh5cqlib0eIIIVAicgJIwic7oXyP9g5Q/640?wx_fmt=png&from=appmsg)
+
+ASC100N1700MT4i内绝缘优势：
+
+1、 从MOSFET内部解决了MOSFET共用一个散热片的绝缘问题。
+
+2、 降低成本 ：不再需要MOSFET和散热片之间增加的绝缘片 ， 不再需要在固定螺丝上加的绝缘粒 ， 节约了材料成本，物料管理成本和生产成本 。
+
+3、 生产装配简单 ：减少了装配工时，取消了绝缘测试的工作流程 ，提高了生产效率。
+
+4、 提高可靠性 ： 避免因为绝缘粒因为高温或破裂而产生的可靠性问题 。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnTwIKsx363mDoxnpXpGqWpulIHgTicePcadfXZ8XbDozOo6QrhKHJTLS4p0lgju01JNf7jNs6ImZw/640?wx_fmt=jpeg)
+
+**四.SiC MOSFET器件的应用**
+
+SiC MOSFET器件的应用非常广泛，‌涵盖了电力电子设备的多个关键领域，‌包括电源开关、‌电机驱动、‌逆变器、‌频率变换器、‌太阳能逆变器以及新能源汽车等领域。‌  
+
+@电源开关和电机驱动：‌SiC MOSFET在电源系统中作为开关元件，‌提供高效率、‌高速度的电源开关操作，‌能够承受高电压和大电流，‌因此适用于交流电机驱动器和直流电机驱动器等电机驱动电路中，‌提供稳定可靠的电机驱动能力。‌  
+
+@逆变器和频率变换器：‌SIC MOSFET在逆变器电路中的应用，‌能够高效地将直流电转换为交流电，‌提供更高的开关频率和更低的开关损耗，‌从而提高逆变器的效率和响应速度。‌在频率变换器中，‌通过频率变换的方式实现信号的调整和变换，‌提供更高的调整范围和更低的信号失真。‌  
+
+@太阳能逆变器：‌SiC MOSFET在太阳能逆变器中被广泛使用，‌因其能够承受高电压和大电流，‌并具有高效和高速的开关特性，‌提高太阳能逆变器的转换效率和运行稳定性。‌  
+
+@新能源汽车：‌随着800V平台在新能源汽车上的兴起，‌SiC MOSFET凭借其高压高效、‌贴片封装体积小等优势，‌成为市场首选，‌广泛应用于新能源汽车空调压缩机控制器方案中。‌  
+
+@大功率OBC和工业电源：‌在大功率OBC电路中，‌SiC MOSFET应用更高的开关频率，‌可以减小磁性元器件体积和重量，‌提高效率和功率密度。‌工业电源领域，‌如医疗电源、‌激光电源等，‌需要高压、‌高频、‌高效率的应用场景，‌SiC MOSFET也发挥了重要作用。‌  
+
+综上所述，‌SiC MOSFET器件以其优越的电气性能，‌在电力电子设备中扮演着关键角色，‌不仅提高了系统的效率和可靠性，‌还推动了相关领域的技术进步和应用发展。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

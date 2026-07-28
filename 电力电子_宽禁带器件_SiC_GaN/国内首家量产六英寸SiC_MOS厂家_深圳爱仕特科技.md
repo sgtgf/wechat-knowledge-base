@@ -1,0 +1,56 @@
+# 国内首家量产六英寸SiC MOS厂家-深圳爱仕特科技
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/1cVXGX0KCK1-P6AFoE9Xgw](https://mp.weixin.qq.com/s/1cVXGX0KCK1-P6AFoE9Xgw)
+
+     与传统的硅器件相比，碳化硅（SiC）器件可以承受更高的击穿电压，有更低的电阻率，工作温度更高。
+
+      爱仕特专注于第三代半导体碳化硅（SiC）MOS芯片设计、功率模块的生产制造及其基于SiC器件在新能源领域的应用系统开发方案，由武岳峰资本及国内多家知名投资机构投资数亿元，中国科学院及清华大学博士领军，数十位半导体行业资深人士共同组建的高科技技术创新性企业。公司拥有全自主知识产权，已申请25项专利技术，采用6英寸技术已量产20余款650V~3300V全系列SiC MOSFET产品，并建立起车规级的SiC MOS模块工厂，可为客户提供整套应用解决方案。产品已大量出口欧洲和美国客户。
+
+      爱仕特是国内首家量产六英寸SiC MOS的厂家，晶圆流片良率高达91%。其SiC MOS芯片最高耐压3300V，单芯片最大电流可达120A，最低内阻15毫欧，高雪崩耐量，100% UIS测试，并按照AEC-Q101标准测试，满足车规级要求。SiC MOS模块的结温高达175℃，正温度系数，采用氮化铝绝缘基板，有较高的导热性和绝缘性，集成负温度系数传感器，绝缘电压达2.5KV，其中的第三代模块寄生电感低于10nH，比现有模块小50%以上，降低开关损耗。
+
+**主要产品及亮点**
+
+**SiC MOS芯片**
+
+● 全系列采用6英寸晶圆量产
+
+● 最高耐压3300V
+
+● 最低内阻15毫欧
+
+● 高雪崩耐量，100% UIS测试
+
+● 满足车规级要求：按照AEC-Q101标准测试
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAmKiaKdqDKRT6xZJE4CnSjwTicTFTpAZkyVMqQfvFfg8IT6icp1OS6wmavQX8iaUibloVfZZBEBeknicQ/640?wx_fmt=png)
+
+  
+
+**SiC MOS模块**
+
+● 最高结温175℃
+
+● 正温度系数
+
+● 氮化铝绝缘基板
+
+● 直接水冷散热
+
+● 集成负温度系数传感器
+
+● 2.5KV绝缘电压
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAmKiaKdqDKRT6xZJE4CnSj6WYKhJ8ZgChdWMBnnutPhdGsO5XyicsMjOZZIuUt34ngUV09Lf8vYRA/640?wx_fmt=png)
+
+  
+
+**主要应用**
+
+消费电子，手机快充，家用电器，医疗设备，环保节能，国防军工，新能源发电，新能源汽车，轨道交通，5G通信，智能电网，OBC充电桩等
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAmKiaKdqDKRT6xZJE4CnSj6DWz9oB9oicze6dF5LvM8NrAKFelwicax0CuibdHuTibVcQD0ZGnvcHk6w/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAmKiaKdqDKRT6xZJE4CnSjUZDrZoacVv9ib9yhbicgpxOiceEXQMA3LK4MlibC5PwYvw2licTruGY115Q/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmAmKiaKdqDKRT6xZJE4CnSjBib3AlNqzh7c6NIlicwD7Z7fKiby5Hibrty7UQFnHicbna1DicoGmkuic4Y9Q/640?wx_fmt=png)

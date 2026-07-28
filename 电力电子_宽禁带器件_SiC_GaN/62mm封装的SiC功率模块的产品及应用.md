@@ -1,0 +1,178 @@
+# 62mm封装的SiC功率模块的产品及应用
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/vWIUAg40YqMFRvtQDevC9w](https://mp.weixin.qq.com/s/vWIUAg40YqMFRvtQDevC9w)
+
+碳化硅（SiC）功率模块的封装技术是影响其性能发挥的核心环节，62mm 封装作为行业内一种标准化程度较高的中大功率封装形式（常见于模块长度或宽度为 62mm 的规格），凭借对 SiC 器件高频、低损耗、耐高温特性的适配优化，在多个高功率领域展现出独特优势。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmMhjl647GdnKR6wq6N87uiclzUxpr3S2qVgpClfJB2GvibPmCSHEocYo5vw1Wswf93DPDXInOoQQwQ/640?wx_fmt=png&from=appmsg)
+
+### ****一、62mm封装SiC功率模块的产品介绍****
+
+### 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmMhjl647GdnKR6wq6N87uicFlaEupJ1micNZOephMwDbuvWLYSSn4dE18MHVFquSz4jez2BGdQpJCQ/640?wx_fmt=png&from=appmsg)
+
+### ********1\. 采用全焊片工艺，Cu底板+低热值AlN绝缘陶瓷；********
+
+  
+2\. 高功率密度，低寄生电感，低开关损耗；
+
+  
+3\. 适用高温、高频应用；
+
+4. 参数范围：
+
+            **V****DS****：650~1700V**
+
+              **I****D****：30~600A**
+
+       **R****DS(on)** **：2~80mΩ**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmMhjl647GdnKR6wq6N87uic19icvFr2ZIboVV1Q5Ixr0A90NkfVknP7hicYdtHHjxqkzlJzJBvjWGSA/640?wx_fmt=png&from=appmsg)
+
+常规产品拓扑图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmMhjl647GdnKR6wq6N87uicqtWlJ67JfkxHy9Xp1t0mBiaMMvRQTNcybMre3yg6jZE26BuGzwktoYg/640?wx_fmt=png&from=appmsg)
+
+外并二极管产品拓扑图
+
+### 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmMhjl647GdnKR6wq6N87uic8Jz23gZ8icPx1ianGibV3wHu9stIWlmlNwSzIevKia6FGIGFvYoR1hCqCg/640?wx_fmt=png&from=appmsg)
+
+### ****产品尺寸图****
+
+### 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmMhjl647GdnKR6wq6N87uic6ACX30Q6WuHTmJKZWkKuFRuIgQZLB8qbhPA42TOjESns8Qw43uVD3w/640?wx_fmt=png&from=appmsg)
+
+### ****  
+
+产品选型表
+
+  
+
+
+****
+
+### **二、62mm 封装 SiC 功率模块的核心性能优势**
+
+### 
+
+62mm 封装的设计逻辑是**平衡功率密度、散热能力、电气性能与机械可靠性**，尤其针对 SiC 器件的高频开关特性和高功率需求进行了优化，具体优势如下：
+
+#### **1\. 高功率密度与大电流承载能力**
+
+**芯片集成度优化：62mm 封装尺寸可容纳更多 SiC MOSFET 芯片（或更大面积芯片），支持更高的额定电流（通常覆盖 1200V/200A~1200V/600A，高压版本支持 **1700V/200A~1700V/600A** ），满足中大功率场景需求（如数百 kW级电机控制器、兆瓦级逆变器）。**
+
+**紧凑布局设计：相比更大尺寸封装（如Econodual封装），62mm 封装在保证功率输出的同时，显著缩小模块体积，提升系统功率密度（单位体积输出功率），适合空间受限的应用场景（如电动卡车电驱系统、工业设备集成）。**
+
+#### **2\. 低寄生参数，适配高频开关特性**
+
+#### 
+
+SiC 器件的核心优势之一是高频开关能力（开关频率可达Si器件的2-5倍），但高频下寄生电感（如模块内部引线、端子的杂散电感）会导致开关电压尖峰（dv/dt）和电磁干扰（EMI），限制性能发挥。
+
+62mm 封装的优化：通过短距离键合线设计、对称式芯片布局、低电感端子结构（如铜排直接连接），可将寄生电感控制在10nH 以下，远低于传统大尺寸封装。
+
+**直接收益：减少开关损耗（寄生电感引发的电压尖峰导致额外能量损耗），降低EMI 滤波成本，使SiC器件的高频优势（如提升电机效率、减小滤波元件体积）得以充分释放。**
+
+#### **3\. 优异的散热性能，适配 SiC 耐高温特性**
+
+#### 
+
+SiC 器件结温耐受可达200°C 以上，但其高效散热依赖封装的热传导路径设计：
+
+基板与散热路径优化：62mm 封装通常采用高导热率的直接覆铜（DBC）基板（AlN材质，热导率 170-260W/(m・K)），结合大面积铜底板设计，显著降低热阻（θ\_jc 通常低于 0.12°C/W）。
+
+**兼容多种冷却方式：尺寸适中的特性使其可适配水冷（冷板贴合）、油冷（浸没式）等高效散热方案，在高功率持续运行时（如工业电机满负荷工作），能快速将热量导出，避免结温过高导致性能衰减。**
+
+#### **4\. 高可靠性与标准化设计**
+
+#### 
+
+**机械强度优化：62mm 封装通过强化端子固定结构、采用耐振动的键合工艺（如铜线键合或银烧结），可满足工业级（IEC 60068）的振动（10-2000Hz）、冲击（50g）可靠性要求，适合复杂工况（如轨道交通、商用车）。**
+
+**标准化接口：部分62mm 封装采用统一的引脚定义和安装尺寸，便于客户快速替换不同厂商的模块（如英飞凌、安森美、比亚迪半导体的同规格产品），降低系统设计与迭代成本。**
+
+### **三、62mm 封装 SiC 功率模块的典型应用领域**
+
+### 
+
+基于上述性能优势，62mm 封装 SiC 模块主要适配**中高功率、高频开关、空间受限且对可靠性要求严苛**的场景，同时也存在一些局限性。以下是其优缺点综合分析：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmMhjl647GdnKR6wq6N87uicqzWUyib1mHWSRDEOHmcjXuibJTFj3reIef2MgxQCsQdcxZPBfjK9bsDA/640?wx_fmt=png&from=appmsg)
+
+### **1\. 工业变频与电机驱动**
+
+### 
+
+**适用场景：大功率工业电机（如数控机床主轴电机、风机 / 水泵驱动电机）的变频控制器，功率范围200-1000kW，需高频调速（提升控制精度）和高效率（降低能耗）。**
+
+**优势体现：62mm 封装的高频开关能力（支持20-50kHz开关频率）可减少电机电流谐波，降低电机铜损与噪声；高功率密度特性缩小控制柜体积，适合工厂紧凑布局。**
+
+2\. 储能系统逆变器
+
+大型储能电站（如光伏/风电配套储能）的DC/AC逆变器（功率等级500kW-2MW）对效率和可靠性要求极高：
+
+价值点：62mm 封装 SiC 模块的高转换效率（98.5% 以上）可减少储能系统的能量损耗；耐高温特性适配储能舱内高温环境（40-50°C），提升系统寿命（减少热老化）。
+
+**适配性：支持高压直流侧（800V-1500V）与交流侧（380V/690V）转换，满足大规模储能的功率需求。**
+
+3\. 轨道交通辅助系统
+
+地铁、轻轨的辅助变流器（提供空调、照明等负载电源）和牵引变流器（部分中功率段）：
+
+可靠性需求：轨道交通对振动、冲击、宽温（-40~70°C）的耐受要求严苛，62mm 封装的机械强度与散热设计可满足长期稳定运行。
+
+**效率提升：SiC 模块的低损耗特性降低变流器发热，减少列车空调系统的散热负荷，间接节能。**
+
+4\. 充电桩与高压电源
+
+**大功率充电桩：800V/1000V高压快充桩（功率150-480kW）的功率模块需高频开关（减少滤波元件）和高功率密度，62mm 封装的低寄生电感与紧凑设计适配其需求。**
+
+**工业高压电源：如激光电源、医疗设备电源（功率50-300kW），需稳定的高压输出和高效转换，模块的高可靠性可降低设备故障率。**
+
+优点‌：
+
+高效能：高速开关特性（如开关频率>50kHz）和极低的导通损耗（Rds(on)低至2.7mΩ@25°C），显著提升系统效率。
+
+对称设计‌：模块上下桥臂开关行为对称，优化了开关一致性。
+
+体积优势‌：高功率密度设计可减小逆变器体积和磁性元件尺寸。
+
+低损耗‌：导通损耗较IGBT降低40%以上，高温下性能稳定（Rds(on)仅升高72%@175°C）。
+
+高频能力：支持30-100kHz开关频率，减少无源器件体积50%。
+
+功率密度：电流密度达分立器件的3倍，安装面积减少52%。
+
+高温稳定性：175°C下开关损耗仅增加8%，远优于IGBT。
+
+模块化扩展‌：支持250kW以上中等功率应用，如制氢电源和牵引系统。
+
+缺点‌：
+
+技术门槛‌：对电路布局和驱动设计的要求较高。
+
+可靠性挑战：高频运行可能加剧电磁干扰（EMI）问题。
+
+初期投入‌：模块单价较高，需长期运行才能体现经济性。
+
+**四、总结**
+
+62mm封装SiC功率模块通过**高功率密度、低寄生参数、优异散热与高可靠性**的设计，完美适配了 SiC 器件的高频、低损耗、耐高温特性，成为中高功率领域（尤其是电镀电源、焊机电源、感应加热设备、工业驱动、储能）的核心选择。其标准化设计与性能平衡能力，既满足了大功率场景的严苛需求，又降低了客户的系统集成门槛，未来随着 SiC 器件成本下降和行业对高效节能需求的提升，62mm 封装将在更多领域实现规模化应用。
+
+注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQhtLPoUP42fyDEK6PTjcPp7CWUYpIKEh3vpJDcLeYT7glOtRRSTmcwg/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=1umdp7l6&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQfOzXibdQazmibj9D8erA2sBKBE0gTezdAXFag3gCZAy48CnBJVq07A7A/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&randomid=56ak8fax&tp=webp)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmsYUcJxn1XU2Yk0KKm4jPQpa34FicgvoWV1UW2djpxccjaDLb8pZRRCCQqSZGCy7K9wQeZia7PShhg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&randomid=a0lpe1mu&tp=webp)

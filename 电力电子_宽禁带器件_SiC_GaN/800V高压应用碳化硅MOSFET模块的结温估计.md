@@ -1,0 +1,52 @@
+# 800V高压应用碳化硅MOSFET模块的结温估计
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/7vuYu7Ik9adituwkyCj\_zg](https://mp.weixin.qq.com/s/7vuYu7Ik9adituwkyCj_zg)
+
+**文章来源：**苏大轨道交通学院研究生（沈毅阳）
+
+**摘要:**
+
+碳化硅功率器件在功率密度和能源效率方面具有显著的优势，并被广泛接受为未来具有高压快速充电系统的电动汽车（EV）的很有前途的解决方案。然而，仍存在一些值得注意的热问题有待解决。高效散热和结温管理是碳化硅器件成功应用的决定因素。由于多芯片的高集成水平和热耦合，对碳化硅功率模块特别需要一种实用的器件结温度估计方法。本文提出了一种结温度估计方法。首先，对碳化硅MOSFET在逆变器运行过程中的功率损耗进行了分析和建模。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk5qgN8v4zWtm2IpKvEuJU3eQBywnzrCgiaxOiaLzbRFUden1tB1Xuy16GERvxicGChdj9BpV8dZSVSA/640?wx_fmt=png&from=appmsg)
+
+其次，介绍了一个功率模块EAB450M12XM3的内部结构，并建立了一个有限元分析（FEA）模型。基于这些模型，研究了碳化硅器件的温度场和散热特性。在此基础上，提出了一种基于数字孪生（DT）和神经网络（NN）方法的创新的结温度估计方法。设计并实现了前馈神经网络和具有热敏电阻信号反馈的补偿机制。通过对所研究功率模块的原型电机控制器的基准测试，验证了基于NN网络的DT的准确性。利用32位双核微控制单元（MCU）研究了基于NN的DT的实时计算负担，验证了该方法的实用性。
+
+**主要工作与贡献**
+
+（1）功率损耗模型的建立并且采用有限元模型进行仿真分析其温度场分布于散热特性，并提出了一种就与数字孪生与神经网络的结温估计方法。
+
+（2）本文使用的温度估计的函数有4个输入及11个输出值，因此构建了一个具有三个分支结构的DNN来进行温度估计，三个分支分别为NTC热敏电阻、上桥芯片及下桥芯片。
+
+（3）实验验证了前文分析的可行性，应该是首次将数字孪生应用于结温预估且实现实验验证的文章，非常具有参考价值。
+
+**主要研究内容**
+
+图1所示为损耗估计与结温估计的深度神经网络过程示意图，并通过如图2所示设计的网络结构和参数，可以得到如图3所示的数据，验证了基于数字孪生的神经网络法的高精度性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsk5qgN8v4zWtm2IpKvEuJU3QjVTORBuSOMFNgfNqmxNfsh6rzwrYwoibVOs9IAn0a35dMRtw4REuZQ/640?wx_fmt=png&from=appmsg)图1 损耗与结温估计的深度神经网络过程
+
+![](https://mmbiz.qpic.cn/mmbiz_png/fRE3tCXSzepX2CeMqtlYCpWCTVCVV8W1ByM2y4LAJey0EDsOenl0DuSk5BLvjiaicibjldMgG48T9RzcfHbkNOBkQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)图2 深度神经网络的结构与参数
+
+![](https://mmbiz.qpic.cn/mmbiz_png/fRE3tCXSzepX2CeMqtlYCpWCTVCVV8W1xzbYzickCOD9Mt1iahHtR2KSzrtiagafMUsPMqLzXWFX6PGuwa6mkRAEA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)图3 仿真与基于数字孪生的预测模型的结温分析
+
+同时，通过实验平台对上述理论建模过程进行验证，实验示意图如图4所示，在温度测量时，采用NTC热敏电阻进行测温，得到的实验数据如图5所示，整体的误差均在误差允许范围之内。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/fRE3tCXSzepX2CeMqtlYCpWCTVCVV8W1SAedQxNp9xaIzCCyOg5EBTmd14dtH6eticmEUOiculiaCaatj4zM78E8w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)图4 实验示意图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/fRE3tCXSzepX2CeMqtlYCpWCTVCVV8W13bx7X8NicDiaXQ6HEAmn8p0Siaok9tfYVRCl04CrOUbW9qE0Mo64AJGEg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图5 实验验证数据
+
+**结论**
+
+针对高功率密度工况，提出了一种基于碳化硅MOSFET功率模块的数字双神经网络的结温度估计方法。对碳化硅MOSFETs在三相逆变器应用中的器件功率损耗进行了分析和建模。介绍了器件封装的内部结构，并在此基础上构建了功率模块的有限元模型。通过有限元分析仿真，研究了该模块的温度场和散热特性。基于有限元分析模拟产生的大量数据，可以通过基于神经网络的数字双元方法估计碳化硅功率模块中所有芯片的结温度。前馈神经网络可以通过数据训练来预测结的温度值。利用NTC热敏电阻信号反馈，可以在数字双极管中引入动态补偿，提高了其精度和鲁棒性。通过对所研究的碳化硅功率模块的原型电机控制器的台式测试，验证了基于前馈神经网络的数字双元的准确性。对基于神经网络的数字双片机的实时计算负荷研究表明，它可以在32位单片机中运行，证实了它的实用性。在仿真和实验研究的基础上，提出了具有高功率密度碳化硅器件的电机控制器的设计建议。
+
+在常规的对功率器件损耗进行建模分析并采用有限元仿真对器件的温度分布与传热特性进行研究后，提出了基于数字孪生的深度神经网络模型来搜集处理有限元仿真得到的及其复杂的数据，从而简化对结温进行分析的过程，通过深度神经网络的仿真证明了模型的可行性，并通过实验验证了模型的真实性与精度，对传统的损耗与结温监测手段注入了新的研究方向，具有非常大的参考价值。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslVkNiafwyia0fSaqpCwauMUMX0KISwgGGl2MDNhJKIBJg6lkQBfUGgSyLVxhtCj4CCzc5Q10y33C8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+**声明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

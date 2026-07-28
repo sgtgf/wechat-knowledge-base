@@ -1,0 +1,472 @@
+# 碳化硅 MOSFET 栅氧可靠性状态监测方法综述
+
+原创 李 壮，蔡雨萌 SiC碳化硅MOS管及功率模块的应用 2026-06-21 08:31 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/Pq81dgq2IiCoxf4R3gHmJQ](https://mp.weixin.qq.com/s/Pq81dgq2IiCoxf4R3gHmJQ)
+
+文章来源：电力电子技术
+
+作者：李 壮 1，蔡雨萌 1\*，孙 鹏 1，赵志斌 1，程 旭 2（1.华北电力大学，电气与电子工程学院，北京102206；2.广东电网有限责任公司珠海供电局，广东珠海519099）
+
+摘要：碳化硅（siliconcarbide,SiC）金属\-氧化物半导体场效应晶体管（metal\-oxidesemiconductorfieldeffecttran⁃sistor,MOSFET）凭借其高压、高温、高频及低损耗的优异特性，在新能源汽车、智能电网及航空航天等领域展现出广阔应用前景。然而，相较于成熟的硅（silicon,Si）基器件，SiCMOSFET中的SiC/二氧化硅（silicondiox⁃ide,SiO₂）栅氧界面处固有缺陷密度较高，导致器件在长期运行中面临阈值电压漂移、栅极漏电流增大等可靠 性问题，严重制约其规模化应用进程。本文针对SiC MOSFET栅氧退化机理及状态监测方法展开系统性研究，首先对SiC MOSFET中栅氧退化的影响进行了系统性分析。然后重点评述了近年来栅氧可靠性监测技术的研究进展，从监测参数线性度、温度依赖性、封装退化影响、在线监测可行性、实施难度及工程可行性6个维度进行对比分析。最后，针对当前研究存在的不足对SiC MOSFET可靠性状态监测方法进行展望。  
+
+关键词：碳化硅MOSFET；栅氧可靠性；状态监测；栅氧退化；阈值电压漂移
+
+1.引言
+
+近年来 Si基功率半导体器件应用迅速发展和成熟，但是受到其本身材料特性的限制，Si基器件性能已经逼近其理论极限。SiC作为一种新型的宽禁带半导体材料，因其出色的物理及电特性，正越来越受到产业界的广泛关注。与传统Si半导体功率器件相比，SiC有更高的能带间隙、更大的击穿电场强度、更好的导热系数。SiC功率器件在可再生能源发电、轨道交通、电动汽车、航空航天等领域的电力电子电路中有着广阔的应用前景。SiC MOSFET的广泛应用，让大家越来越关注其可靠性问题。
+
+SiC MOSFET的可靠性问题主要分为芯片可靠性和封装可靠性，其中芯片可靠性包括栅氧可靠性、体二极管双极退化等。SiC MOSFET高温、高压及高频的运行环境导致其栅极氧化层的可靠性面临严峻的考验，栅氧可靠性问题成为制约器件性能充分发挥的关键性因素之一。  
+
+相较于Si MOSFET而言，为了得到合适的阈值电压和跨导，SiC MOSFET的栅极氧化层更薄，这使得在相同栅极偏置条件下，SiC MOSFET的栅氧具有较高的电场。SiC与SiO2之间的能带偏移相较于Si器件要低得多，这种特性导致SiC/SiO2的隧穿势垒仅为2.70eV，从而使得电子或空穴能够更容易从SiC跃迁到栅极氧化物中，进而引发栅极氧化层的损伤，即认为栅极氧化层发生了退 化，长此以往，最终可能导致栅极氧化层的击穿。此外，由于SiC材料中引入碳原子，加之高温工艺需求，导致SiC MOSFET中的栅极\-氧化物陷阱密度较Si基器件高两个数量级。这使得在不同栅极电压应力，尤其在交流栅压作用下，陷阱电荷充放电过程尤为突出，使得SiC MOSFET栅极氧化物退化更加严重。因此，SiC MOSFET栅氧可靠性成为研究的一个热点，对SiC MOSFET的栅氧可靠性状态进行监测，可以了解栅氧层的退化程度，为器件的健康管理和维护提供依据，提高电力电子系统的可靠性。  
+
+许多学者都对栅氧可靠性状态监测技术进行研究，针对此领域已经涌现出众多监测方法。文献\[9\]使用高温栅偏实验对器件进行加速退化，并使用Tektronix371B型曲线示踪仪对第3象限特征进行离线测量，发现在低电流反向导通期间，使用体二极管的压降可以监测阈值电压偏移，因此评估器件的退化。文献\[10\]指出，栅极电容的值会随着器件的退化而发生变化，并且随温度变化 可忽略，因此被视为一个优异的退化表征参数。在此基础上，该文献提出一种在板载条件下对器件结电容的有效监测，该监测方法实现了在不拆解器件的条件下，对其相关参数进行直接测量。文献\[11\]提出一种基于提取漏极电流变化率di/dt电路，该监测电路的应用不会对工作电路的运行产生影响，可在正常工作时提取di/dt。这种监测方法可以实时监测器件的状态，能够及时发现并处理栅氧可靠性问题。虽然现在已有很多相关的研究成果，但是其也面临着更为严峻的挑战，如监测参数灵敏度低，快速开关瞬态的在线测量难度大，且退化受温度与封装退化影响等问题。  
+
+为了更好地把握SiC MOSFET栅氧可靠性状 态监测的研究现状及未来发展趋势，本文基于栅氧退化对SiC MOSFET造成的影响，将现有监测方法归纳为3大类，全面梳理了现有的监测方法，并系统阐述了各类监测方法的技术原理与应用特征。在此基础上，本文从多维度对这些方法进行了对比分析，为未来SiC MOSFET栅氧可靠性状态监测方法的发展提供参考。  
+
+2.SiC MOSFET栅氧退化影响分析  
+
+SiC MOSFET长期运行过程中出现的栅氧退化现象会引发其电参数的不稳定性，甚至引起栅极氧化层的击穿而导致失效。为深入理解栅氧退化的影响及其机制，首先需关注它对SiC MOSFET关键电学性能的直接影响，特别是阈值电压的变化、栅极漏电流的增大以及栅极电容的动态行为，这些因素均会影响器件长期可靠性。 
+
+2.1阈值电压的漂移  
+
+在SiC MOSFET中，SiC/SiO2界面质量较差限制了SiC MOSFET的性能，其陷阱电荷特性对于栅极氧化物的可靠性具有重要影响，其中最重要的是会导致阈值电压发生变化。阈值电压Uth是沟道表面刚发生强反型时的栅极电压
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP7YOA3r9IjlMhAAITXGnqspCyricODNnibiaNT2lmq9maEvRjQU3r7N5m89tUHc5v9tiaElXp1RKr1C0ThdbV1E42Buuk1ETMibD7o/640?wx_fmt=png&from=appmsg)
+
+式中：Uth0为SiC MOSFET理想阈值电压；εs为介电常数；k为玻尔兹曼常数；T为结温；NA为陷阱掺杂浓度；ni为本征载流子浓度；Cox为栅极氧化物 电容；q为电荷；Qox、Qit为氧化物、界面陷阱电荷。  
+
+由式（1）可见，陷阱电荷对Uth有直接影响。具体而言，Uth会随着氧化物陷阱电荷的增加而降低，随着界面陷阱电荷的增加而升高，Uth的变化对器件稳定性具有重要的意义。  
+
+Uth随SiC MOSFET工作时间的变化如图1所 示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOiaULkmazwAjZvLOaN7ntWZgj0Eg5MNwQNUxTBibbu6F38OlHESuyx1BFXXWVgiag86pSJ20GiaVk1UtG7LzPibwFlHMKTfAB2aZ4U/640?wx_fmt=png&from=appmsg)
+
+界面陷阱电荷的存在会导致 Uth的瞬态变化（即阈值迟滞现象）。需要注意的是，虽然阈值迟滞会受到陷阱电荷的影响，但由于其在一个开关周期内可以完全恢复，故对阈值迟滞相关的监测方法研究较少。此外，氧化物陷阱电荷能够捕获和释放进入栅氧层的空穴和电子，由俘获的电荷决定带正/负电，从而在高温高电场条件下导致阈值电压的永久性漂移。
+
+2.2栅极漏电流的增大  
+
+由于SiC和SiO2之间的能带偏移量远低于Si器件，SiC层的电子更容易从SiC进入栅极氧化物中。 在 高 电 场 和 高 温 条 件 下，福 勒 诺 德 海 姆（Fowler\-Nordheim,F\-N）隧穿电流会促使电子流经过氧化层，此过程中会逐渐破坏Si\-O键并催生缺陷，这种缺陷形成的导流路径如图2所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNjaumibHKJoY0czqiagXNfqfrCgCdvZ0JMHolxibDxibaOCDaocWq0p55P4FGHZYbBoicA3ZqyL7icwDQ1CYD2yps2w4PfLd8u80HME/640?wx_fmt=png&from=appmsg)
+
+F\-N隧穿电流IFN可以用以下公式表示
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpORg0TG9hmqYblSmj3gxxjGJ9LlEpZrZpic9fwcMyUbyeJibYT0hXuqOXFJDYORFIWtmZpoYXRh6lKgibkhPRN5QqaibEtth6Fh8E0/640?wx_fmt=png&from=appmsg)
+
+式中：A和B为与势垒相关的参数；Eox为栅极氧化层的电场强度；mox为SiO2中的有效电子质量；mSiC为SiC中的有效电子质量；h为普朗克常量；ΦB为SiC/SiO2界面的电子势垒高度。  
+
+在300~450kHz范围内，ΦB随着温度的升高而逐渐降低，由式（2）~（4）可见，IFN会随着温度升高而增加。此外，在持续承受高应力条件下，栅极氧化物与半导体界面区域所形成的界面态以及陷阱电荷的累积，会改变栅极电压对沟道电势的影响。随着时间的推移，这些缺陷有可能在栅极与源极之间构建起一条导电通道，从而导致栅极漏电流的大量增加，栅极漏电流的增加会导致器件的功耗增加，效率降低。当这种情况持续恶化时，最终可能会导致SiO2层完全击穿。  
+
+2.3栅极电容的变化  
+
+在上一节中提到，栅极氧化物退化直接影响阈值电压漂移以及栅极漏电流变化。近些年来有学者发现在 SiC MOSFET的物理结构中，栅极电容也会随着氧化物电荷的变化而变化。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMtyOTBIFiacCNIgC4ETgfNvAaqhvYJrSLxnXrtrxsC9MOKwkoFt8CQYQQtyicbJCr6JTQ4mxR6A2GhIkx66aPPQ5nz6QqXy0fLQ/640?wx_fmt=png&from=appmsg)
+
+  
+图3为SiC MOSFET单元结构的简化横截面示意图。  
+
+栅源电容Cgs和栅漏电容Cgd的表达式为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMYGic2Db1Ny2icUHNgXNgSjUODTPEulDwfkKgiaj9U1QcXvTMtRYXWoxbl1xibUUZ2dO38jJ6P5WpnoxYiaeVTGNCgic9bibZIszksng/640?wx_fmt=png&from=appmsg)
+
+式中：Cm为栅源极之间电容；Coxn为栅极与N+源区之间电容；Coxc为栅极与沟道区顶部之间电容；Cc为沟道区耗尽层电容；Coxd为栅极和 JFET区域顶部之间电容；Cgdj为JFET区耗尽层之间电容。在栅极电容组成中，Cm、Coxn、Coxc和Coxd由栅极氧化物结构决定，并且与电压和温度无关。Cc和Cgdj由以下等式给出：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOichTs1KOGc0fgn5qw7dic0sDIk2UmmET8facBcfOUPa6x0YCLBAKOsHqbW1VZR3iaOc2lah8p0fic79SKx1TwYhQUTEUgbC0CYDc/640?wx_fmt=png&from=appmsg)
+
+值得注意的是，尽管Cc与Cgdj均可通过式（6）进行描述，但两者所涉及的多数载流子N类型不同，所以它们在数值上也会展现出相应的区别。  
+
+在SiCMOSFET退化过程中，氧化物电荷 Qox改变，此时 Cc和 Cgdj会随之变化，最终导致 Cgs和Cgd的改变。SiCMOSFET的栅极电容在开关过程 中起到关键作用。当栅极电压变化时，电容需要 充放电，此过程的快慢直接影响器件开关速度。  
+
+3.SiCMOSFET栅氧可靠性状态监测方法  
+
+SiCMOSFET栅氧层的退化过程往往涉及多 种机制，如热应力、电应力\[19\]等，这些机制之间的 相互耦合使得栅氧层的退化行为变得复杂并且 难以预测。由于在器件退化过程中，器件的某些 参数会随着器件的退化而变化，为了获得 SiCMOSFET栅氧的可靠性状态，需要监测与栅氧退 化相关的电学参数。  
+
+SiCMOSFET在开通时的瞬态波形如图 4所 示。其中，Um为米勒平台电压；ugs为栅源电压；IL为负载电流；uds为漏源电压；t1为导通延迟时间；t2为电流上升时间；t3为电压下降时间；t4为栅压从 米勒平台上升至驱动正压时间；tm为米勒平台持 续时间；tm，start为米勒平台开启时刻。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMMZvakn23ViaK6TXN0y1vMXbOTa2ApKv7Kg8UhIZlq5uAFRv7khfMicAl2Db6w1XcD0NXRhCicOaooVKErntGJFghRQtUJtgxcHk/640?wx_fmt=png&from=appmsg)
+
+在 SiCMOSFET开通过程的图像中可以获得 许多参数，这些参数有可能用于表征栅氧退化。除了常被提及的阈值电压、栅极漏电流之外，还存在其他若干参数，诸如器件的封装退化，尤其 是键合线疲劳而导致导通电阻显著增加，在体二 极管导通时因电子\-空穴复合释放能量，扩展形 成三角形堆垛层错导致体二极管退化，以至于体 二极管压降增加，这些静态参数的改变，直接作 用于开关性能，如影响器件的 di/dt特性\[20\]。以上 提到的这些参数同样具备表征栅极氧化物退化 状态的能力。  
+
+根据上述描述，目前栅极氧化层退化现象的 表征参数可归纳为 3大类：第 1类是阈值电压相 关电参数；第 2类是栅极漏电流相关电参数；第 3类是栅极电容相关电参数，以下将依据这 3种分 类，系统性地阐述栅极氧化物可靠性监测方法。  
+
+3.1　基于阈值电压相关电参数的监测方法  
+
+3.1.1准阈值电压  
+
+Uth可应用于监测栅极氧化物相关缺陷\[21\]，其 在功率循环期间电压偏移如图 5所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNkrqRtyGdwpUyy6D66DyGSnicXeiadBjcLLbKqTTGWegu89RVIFDmULNlUusFXok9rqibDfovtFaVx1WAlWXkHMqDQW5Nz3SL2E4/640?wx_fmt=png&from=appmsg)
+
+传统的监测方法只能离线获取阈值电压，虽 然通过转移曲线有实现在线的可能，但因 SiCMOSFET开关速度较快，在线测量需要在导通瞬 态对栅源电压和漏极电流采用高速、高分辨率的 监测技术，且 Uth对结温非常敏感\[22\]。因此，对实 时退化监测而言，这不是优选的参数。  
+
+但文献\[23\]利用源极和辅助源极之间的寄生 电感 Lss'，Lss'两端的压降为 Uss'\=Lss'(did/dt)。在器件 开通时，漏极电流 id快速升高，从而使 Lss'感应产 生电压脉冲，对应时刻的栅源电压称为“准阈值 电压”，测量电路如图 6所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOjY3ItLIjyU6L2qKb8uxibxBDNUAvJUrselSLoJAXWFuNhdMbXYiaL3YqLBuS9p1eDzA01WCac9YoTvo7Cia3Kn2mcmibtctRRvIs/640?wx_fmt=png&from=appmsg)
+
+  
+通过在线提取的动态阈值电压与实际的阈 值电压大小并不相等，原因是当 MOSFET开通瞬态，栅极电流会对输入电容充电，寄生电感与电 阻上会产生电压降，这部分压降包含在动态阈值 电压回路中，因此获取的准阈值电压比实际阈值 电压要高。此时获取准阈值电压的精度十分依 赖参考电压 Uref的选取，并且其温度灵敏度会受 到栅极电阻与电感大小的影响。 
+
+3.1.2漏源电阻  
+
+以 SiCVD\-MOSFET为例，总导通电阻为各部 分导通电阻的和：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOslGfRia57z1PbwGLozCC5QB7lgjPJBmcIGoicn4HKvzyV2A5hrlP59E1GpX7JFLw4y6W5vVmR5p2VrqcV2qu6Qfv3rzGwsrKeI/640?wx_fmt=png&from=appmsg)
+
+式中：RCS为源极接触电阻；RN+为源区电阻；RCH为 沟道电阻；RA为积累区电阻；RJFET为 JFET区的电 阻；RD为漂移区的电阻；RSUB为 N+衬底的电阻；RCD为漏极接触电阻。  
+
+在导通状态电阻的不同部分中，只有 RCH和RA依赖于 Uth。具体地，RCH和 RA为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOyIhJUWJOUYic7icP1f5a7ZpHm4QNzgT4ENG3SojY8iahFbCH8K4EniaLU9T5cHKZOto61jOoGCTKXWBrP3kQJ0GFD5NjvLE5jHFU/640?wx_fmt=png&from=appmsg)
+
+式中：LCH为沟道长度；WCH为沟道宽度；μn为 SiC材 料中反型层沟道的电子迁移率；LA为累积区域长 度；WA为累积区域宽度；μnA为累积层电子迁移率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPdW1LEA2rjHnC4XgJfRtmjdtOAun0iapQO4b5hiaTFrtliaByXzCUFIRSIfz8REaohYLZg8am9LcMEl5xiaCHzpDHYvLtsEMczN8U/640?wx_fmt=png&from=appmsg)
+
+  
+如图 7所示，导通电阻随器件退化表现出与Uth相同趋势，但在一定程度后导通电阻会突然增 大，这是因为导通电阻也会受封装退化的影响。  
+
+为将栅氧退化从封装退化中解耦，文献\[24\]采用饱和区和欧姆区的漏源电阻分别表示与栅 氧和封装相关的退化。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOJXe6EjibJ0vwIz1iaBuNfGQUE938xT4u1owQVpbm2lQD27GzZWK1rPjl8W3Cqgam9n9cIUCpXQRiaxbK37n3jYyQUGOKL3TcSfg/640?wx_fmt=png&from=appmsg)
+
+如图 8所示，获得饱和区 漏源电阻的方法为器件 S1完全导通，器件 S2为保 证工作在饱和区，故在低栅压下导通。通过系统 电压传感器测量跨桥臂的电压，使用系统电流传 感器来测量通过支路的电流，即可获得饱和区漏 源电阻。器件的饱和区漏源电阻随退化的变化如图 9所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNHszKf3BicmPmoChIOiaRNDI2mkSNmIUBic242F2yZL0pfc8NlbiaTibARBGygSxibiawMF4aBEZ4vy6MPaoFy6vQYGFIRcQfaBPpV4M/640?wx_fmt=png&from=appmsg)
+
+可见，由于饱和区漏源电阻的值比封装电 阻（如引线电阻、键合线电阻、焊接电阻等）高几 个数量级，使用其作为退化监测参数，可以将栅 氧退化监测与封装电阻产生的退化区分。所提 出的监测电路具有微秒级精度，并且成本较低，具备较高的工程应用价值与广泛的推广前景。 
+
+3.1.3体二极管压降  
+
+体二极管是MOSFET的源极和漏极之间的PN结。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMBYtc7I4XcicyGWIFv3CklmmMmNfJeJFjNfR8yRcauic7DM0Xiciapnnb7e0CKMVsFZicIRpsexcttTXXflSVIzRr5ubJvUhxTbsT8/640?wx_fmt=png&from=appmsg)
+
+如图 10所示，由于体效应\[25\]的存在，SiC MOSFET的沟道在栅压为零时仍然开通，其在第 3象限的电压降 USD是与 MOSFET栅氧退化的一个 重要参数，并且体二极管压降也会受到温度的影 响\[26\]，体二极管压降 USD可以表示为
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNeMxpBbKLa4gia3HiavRjAB0CJhVQUQ8o2IquU26qPYuSAlVyqjHS9fRVETDarghwnSEBdwLdHHvrGzpkjHNl57jYwlC1WME1R0/640?wx_fmt=png&from=appmsg)
+
+式中：Rpn为 SiCMOSFET反并联二极管电阻；IT为 源极\-漏极的总电流密度；d为漂移区宽度的一 半；Da为扩散系数；F为依赖于 d和双极扩散长度La的复函数；ISD为源漏电流。  
+
+由式（8）与式（10）可见，栅极氧化层的退化 会导致 RCH增大，结果会使 ISD中更多的部分流经 体二极管，从而导致体二极管压降增大，即体二 极管压降与 Uth的增加之间呈现出正相关的关系。传统体二极管电压测量电路需要使器件工作在 第三象限下，难以实现在线监测。  
+
+栅压改变也会对监测结果产生影响，文献\[27\]提出当栅压达到−5V时，沟道关断，电流仅流过体二极管，体二极管压降的变化与栅氧退化无 关。当栅压偏置在−4~0V时，电流经过沟道，体 二极管压降的变化可表征栅氧退化。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNRrC3UibicLibBI2NdWu5lOdTH8xLibtIphopFN0zke5uL8nu25K7ZvRMfDBBjic2cO3WETwBX02Kw3EicZsibOH1Nju89NVxSIgRqJw/640?wx_fmt=png&from=appmsg)
+
+  
+如图 11所 示，文献\[27\]在传统测量体二极管压降的电路基 础上设计了一种栅极驱动电路，让体二极管压降 的在线监测成为可能，并且通过这种方法可以独 立准确地监测栅氧退化与封装退化，并且可集成 至栅极驱动中。
+
+3.1.4导通时间  
+
+在 MOSFET开关瞬态中，导通时间 ton包括导 通延迟时间 t1、电流上升时间 t2、电压下降时间 t3，即 ton\=t1+t2+t3。在导通的初始阶段，栅极驱动器电 压通过外部栅极电阻对输入电容 Ciss充电，直到 栅源电压达到 Uth。在此期间，t1可以表示为\[28\]
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP0lS5qBnDm6R9qfokWiciadu3cm1icwA7XPOJ332C6r5lLp9K1ImeSA6micm7ibBiaNkCYs9icp7aml8YHc2ocR8Yb0bYWOkbeqVd0tU/640?wx_fmt=png&from=appmsg)
+
+式中：Rg为驱动电阻；Ciss为输入电容；Ucc为驱动正压；Uee为驱动负压。  
+
+一旦栅源电压达到 Uth，器件导电沟道逐渐形 成，id开始增加。id上升时间 t2为\[28\]
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOUYL0fZRFzgicqxAibOy4vuZ2vDib1o8BgzRdMDvjq2t0eKlsTz7S7NIpQymvCcfibsBLxm66oMzVLghn7RuzKFU62L65Lbmr2QoE/640?wx_fmt=png&from=appmsg)
+
+式中：Um为米勒平台，Um\=IL/gm，gm为跨导。  
+
+当 Ugs达到米勒平台，Cgd开始放电，Uds开始下 降。通过此阶段，SiCMOSFET就可以完全导通。漏源电压下降时间 t3为\[28\]
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNfNY792YFAicffVDOhJSCoCJOleiasNrQgnd15OB3MyuAIxCR4n2xibVp5P89OicuExEeLlPJfiaDicDK2DCQiaqAZ4olZGSv1laMXnE/640?wx_fmt=png&from=appmsg)
+
+MOSFET的 ton与其 Uth的变动密切相关，因 此，ton可作为评估栅极氧化物退化程度的一个有 效参数。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPa20v4CyuIbZVXg1TFtyGeViaIMECoQmlcA6eWQwpCYq4UvP4rqgVCBDROWFia9iawtNMSggPQoY4GgQF68J1OhsbfNQYQNoALKk/640?wx_fmt=png&from=appmsg)
+
+  
+如图 12所示，文献\[29\]将器件的导通时 间用作退化前兆，并开发了具有皮秒分辨率的监 测电路，使用两个电压比较器监测栅压上升开始 时刻与漏源电压下降结束时刻来获取ton。文献\[29\]所提出的方法易于实现在线监测，并且具有微秒 级的精度，能满足工业场景下高可靠性、低延时 的在线监测需求。然而，ton受温度变化的影响，因此在实际应用中，应充分考虑对温度因素进行 补偿，以确保系统的准确性。
+
+3.1.5米勒平台电压及持续时间  
+
+在器件开通过程中，栅极电流对 Ciss充电至 Um时，Uds开始下降，栅极电流会继续对Cgs充电，直到Uds达到MOSFET导通电压时栅电压才会继续上升 至栅源电压\[30\]。在栅源电压达到Um时，有\[31\]
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPCaAGluicolSs1TuZzXY5APyrcdjMicPPzoKK7WAib9YwM6sn2tMLU7Mac3n2eK6PI22uQQY3RRibtTjLWtl3tWNUO1ZX5kcg221s/640?wx_fmt=png&from=appmsg)
+
+式中：Z为 MOSFET的沟道宽度。  
+
+由式（14）可见，米勒平台的漂移会受到 Uth漂移的影响，并且第二项对米勒平台电压的影响 几乎可以忽略\[32\]。此时 Uds降落的速率为\[30\]
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMEafNxN3HGiadaibyic1gmbG2TvR9iaVibqDLHqSj7bxdR6Y4WFVj5lgpWaGQAVXAQqVODFLxrRtgflFZLkXBYicibuLjTJ66qJA0iaibM/640?wx_fmt=png&from=appmsg)
+
+米勒平台持续时间为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMDwnuxn7ot6zqViaTKAicNoqFAkXzsLghibCBBgKyPAKibCrRPxpniaRgzsgxevOVHibEicAo1K2EOLV1qApZ2FyxGuPn5YZXwRtHkqI/640?wx_fmt=png&from=appmsg)
+
+米勒平台持续的时间与米勒平台电压随器 件退化有相同的变化趋势。米勒平台电压大小 与米勒平台持续时间都可表征器件的栅氧退化。传统观察米勒平台的方法为在工作电路中 使用示波器获取栅压开通瞬态波形，从而在波形 中读取米勒平台相关参数。文献\[33\]提出一种基 于米勒平台电压的退化在线监测电路，见图 13。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOcic2HURylict7AKaz2eSUiaJQyNThYblfB5P8SH89OniaeKs5SLw6rheiaALE2F1kwV08yDSjh96e3Ikva0FMogKV5D7CItdDjfnU/640?wx_fmt=png&from=appmsg)
+
+  
+该方法目的是提取出特定漏源电压时刻下的栅 源电压作为米勒平台电压的大小，这与图 6所提 出的电路结构相似，并同样具有微秒级的精度。近年来，智能驱动技术通过实时监测器件状 态并动态调整驱动参数，成为提升功率器件可靠 性和性能的重要手段。文献\[34\]提出了一种智能 栅极驱动器，这种驱动器有两个时钟信号产生互 补的波形，如图 14所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO0kFaSqB12gU4lEwORJAs3iahPdmsXlAuTWkM9vdicqpKzTZLibfQho7iaopyqQYFdRjNMbK6Qhubljt9ZaHUzXHicsa3OdCGXiaIYA/640?wx_fmt=png&from=appmsg)
+
+这种方式可以监控离散时间微分栅极电压 变化率 ΔUgs，进而识别开启期间米勒平稳阶段开 始的时间 tm，start，以测量米勒平台因临界电压偏移而产生的变更。集成智能栅极驱动器内的合成 数字中央控制单元根据退化引起的 tm，start变化来调整栅极驱动曲线和栅极驱动电压，通过反馈可 以控制 id的性能损失。但这种调控方法存在栅极 应力加剧的缺点。 
+
+3.1.6栅极滤波电压  
+
+和其他与 Uth相关参数不同，滤波电压不是SiCMOSFET工作时可直接测量获得的参数，而是 通过滤波处理后能获得。该参数通过傅里叶变换 后才可揭示与阈值电压等参数的联系。通过傅里 叶变换与等价无穷小替换\[35\]，得到栅极电压为
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMTiaapgxfwlriayibj1vUCoYoS0FlgIWrTTyZmklY9IBS64TibdnXXuEamPUNoiblmbokN9DUbiamxb1UfhPic0HHeRrCnS97HNjsNCo/640?wx_fmt=png&from=appmsg)
+
+其中，栅极电压到达驱动正压的时间 tt\=t1+t2+t3+t4，f1\=1/\[2π(t1+t2+t3)\]、f2\=1/(2πt4)和 f3\=1/(2πt2)是栅 极电压信号的 3个本征频率。  
+
+通过傅里叶变换能将函数从时域转换到频 域的方法，能够分解复杂的信号。式（17）、（18）使用傅里叶变换对栅极电压进行变换，在特定频 段内电压峰值会随着器件的退化单调变化。文 献\[35\]使用滤波电路提取该频段电压，并通过峰 值监测电路保持输出为滤波电压的最大值 Ucm。该监测电路拓扑图如图 15所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP9Z2icttEsebCuic4D5ia7a9BpGpSaJbavRu8ukStIFY2HQNMpAvXJZg2BylNaYwNuDwRnDmmhAhIsqnubicErp0xlrTv0JPN2bf0/640?wx_fmt=png&from=appmsg)
+
+与现有监测方案相比，该方法从频域角度对 参数进行分析，降低了电路的复杂性和采样频率要求。文献\[35\]所提出的监测方法是非侵入性 的，减少了对工作电路的干扰。
+
+3.2基于栅极漏电流相关电参数的监测方法  
+
+3.2.1栅极漏电流  
+
+在第 2.2节中指出，在文献\[36\]中发现栅极漏 电流 Igss在高漏极电流脉冲（40A）下随着器件退 化而增加，并且是在 SiCMOSFET中发现了 Igss的 突然增加。这是因为在短路或高漏极电流脉冲 应力的情况下，键合线下的局部温度升高会导致 栅极氧化层的劣化，这会导致泄漏电流增加，并 最终导致栅极失效。  
+
+在健康的 SiCMOSFET中，Igss非常低，在退化 前期，器件的漏电流大约在几纳安，在器件发生 一定程度的退化后，Igss的值会突然增加，大约在 几毫安。在测量中可使用 KeysightB1505A曲线 示踪仪等仪器进行 Igss的离线测量。但 Igss的突变 说明其只适合于故障报警，而不是整个生命周期 的健康监测。文献\[37\]提出了一种通过收集 Igss的 均方根值及斜率、阈值电压均方根值及斜率、导 通电阻和功耗数据，对 Igss的预测进行训练与测 试。文中提到的机器学习预测使用寿命曲线如 图 16所示，文中所提出的支持向量回归（supportvectorregression,SVR）模型，相较于线性回归以及 随机森林回归曲线，大大降低了均方根误差（rootmeansquareerror,RMSE），并且从图 16中可看到 当剩余使用寿命低于 10%时 SVR测量准确度相 对较高。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNCI5PCzJtGWPARyC8uSYsicADLibaFLywmEiakQtH6a6oVkJ3ohZzyXxKG7YdzYttHXXJKM5DZxd7I6fEiaV7XSwHdEp6xRP6NMDY/640?wx_fmt=png&from=appmsg)
+
+通过对离线监测的 Igss数据进行特征提取与 统计分析，可以得到电流特性与器件栅极氧化物 退化之间的潜在关联。基于此关联性，结合机器 学习算法对历史数据进行训练，能够构建剩余寿 命的预测模型，从而实现从传统检测向智能化预测的转化。 
+
+3.2.2栅极电荷  
+
+栅极电流获取方法主要是通过栅极电阻两 端的差分电压得到的。上一节提到，在 MOSFET开通时的栅极电流中，Igss占比较小，并且基于栅 极电流峰值监测的方法容易产生误动作信号\[36\]，所以在 MOSFET工作时监测十分困难。  
+
+文献\[38\]提出了一种测量栅极电荷而不是测 量栅极电流的方法，监测电路如图 17所示，该方 法对多个开关周期内的栅极电流进行积分，目的 是获得一段时间内进入 MOSFET栅极所泄露的总 电荷，参数提取电路将双极性信号转换为单极性 信号，该方法同样提取栅极电阻两端的差分电压 来间接估计 Igss。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO9K8ph1K9BYX3yn6b6SMXH9nEKzrwaBvtmBYDWQQl9KjIE2ShyVwgEP2bm5n3W1FT4CfFO0n0rTedHDJNBqTnRDd3BKnicjicaw/640?wx_fmt=png&from=appmsg)
+
+  
+为了防止测量受到期间工作占 空比的影响，同样需要跟踪栅极电压的大小，需 要通过对栅极电压积分消除这种影响，两电压的 比值 us/ur与 Igss的关系由式（19）给出：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNAsnaHx3P1HKyhb7zvapJeIT7RibEqN9ibCqZR2aCN5xOVL60x1djTA0OZ6ZKSdAFic3EW6ll5CKmIpBbNxWpYibuVc5fdqbcTibibg/640?wx_fmt=png&from=appmsg)
+
+式中：us为测量电路输出电压；ur为参考电路输出 电压；Gs为电阻 R2、R1的比值决定的整流器增益；Gr为由电阻器 R4、R3的比值确定的整流器增益。
+
+文献\[38\]所提出的方法成本较低，未来有望 将这种监测电路与栅极电路集成。除了 SiC器 件，这种方法还可用于 IGBT和 GaN器件。 
+
+3.2.3源极电压变化速率  
+
+在器件动作时，栅极电流包含 Igss以及栅极充 电或放电电流。这两种电流在 MOSFET中的流向不同，在一个完整开关状态下，流过的充放电电流 平均值为零；但 Igss通过氧化层缺陷流过 MOSFET，在一个完整开关周期内电流平均值一般不为零，这种情况可等效为在 MOSFET栅极和源极两端增 加一个等效电阻。  
+
+基于栅极电流各个分量的特点，文献\[39\]提出 利用栅极驱动电路在线估算 Igss的方法，栅极驱动 拓扑电路见图18。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOHYRxTQZqWBSaicl6JNGPvYMs8CibGsAyfZoP27icribgxMtJBO3gcv2wECIO2YYB8gOekDZcelI04B2eDaUnR4Y5govY8HXlvStE/640?wx_fmt=png&from=appmsg)
+
+当开关 S1闭合时，栅源两端电压为 20V，此 时 Igss对电容 C1和 C2充电；当开关 S2闭合时，栅源 两端电压为−5V，此时C1和C2放电，因为Igss在一个 完整的开关周期内电流平均值一般不为零，所以 源极电压会受到漏电流影响而变化，源极电压增 大或减小受到驱动电压与占空比的影响，源极电 压变化量 ΔUS由式（20）给出。需要注意的是，文 献\[36\]所使用的驱动条件在开关占空比为 0.2的 情况下，漏电流在开关周期内得到补偿，源极电 压稳定在 5V，此时不能实现 Igss的在线监测。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNBROTZKOzOg8Q2YWZ8Rwujiaiaq01okjBVZofCGtfJNA59oGHssowjP5Nx9V31t6KQxy2AUcELfRHT3Waac5wiaLEna2HXF3mmos/640?wx_fmt=png&from=appmsg)
+
+式中：T为 SiCMOSFET开关一个周期的时间；n为SiCMOSFET开关循环次数；α为占空比；igss+和 igss\-分别为导通和关断期间的栅极漏电流。  
+
+如图 19与图 20所示，若以附加电阻的减小 等效器件的退化，在特定的驱动电压和占空比条 件下，栅极漏电流随着器件的退化而增加，从而 源极电压变化速率也会增加，通过提取到达设置 参考电压的时间即可表征栅氧退化。这种方法 使用的电压比较器也十分容易集成到驱动电路 中。但是这种方法所获得的电流包含系统中的 其他电流，所以需要使用全新器件进行校准，但 是在校准测量时，系统的漏电流已经发生变化，因此通过该方法获得的漏电流值只能估计出真 实的栅极漏电流值，以监测寿命期间的演变。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPslsbSe0XnurA4R9dRMtakiagFzscibgDgqJcAB1PrzeTKYRtaW5ZMRaM800icX1MEV35joOMMSMbsHx6pia3sqOhDH0cjR2b4ZDE/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOhDDdibfBGq8iaRLpaqZgI7xFQldrjoiaPCGLTjf45ib3L45AFGiaLicK8rUKfOSemAl3hZJ3u2yJ2V8ZrG2xskW4LmdI9QTnnib0wf0/640?wx_fmt=png&from=appmsg)
+
+3.2.4栅极导通电压  
+
+在图 17中可以观察到，当栅极氧化层发生退 化时，处于微安级以上的 Igss跨越栅极电阻形成电 压降，这会使得 SiCMOSFET的栅极导通电压 Ug\-on降低，Ug\-on通过式（21）计算得到：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPOVUbvR9rryQVumaJiaTwQa0fgHVgSel7GmpEgrDa5heYhkFNKHqnqDbN1ZZW42kcEicx0VUIeia86kfl3whe8rsuqeSEiaUF7548/640?wx_fmt=png&from=appmsg)
+
+式中：Udriver为栅极驱动板的输出电压。  
+
+通过式（21）可见，Ug\-on的值可以侧面反映 Igss的大小，从而对 SiCMOSFET的栅氧可靠性进行监测。文献\[40\]提出了一种通过获取驱动电阻两 端电压来获得 Igss大小的监测方法，但这种方法会 受到实际工况的影响。  
+
+为了解决上述问题，文献\[41\]提出了一种可 以应用在半桥电路中的 Ug\-on监测方法，该系统的 电路图如图 21所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO8J8pFMrodJQcv98gpqbc5PU3libof83T6lGLQT5Ndt7CTubwiaYzco59FVPxPV9KJicic92PnicJb4A77SYfy745c0YOyCY0N8iaD8/640?wx_fmt=png&from=appmsg)
+
+  
+当 S1开通时，DSP对 Ug1\-on和 Ug2\-on同时采样，若 二者相差 10mV，证明其中一个器件发生退化；若 二者相差 10mV以内则关断 S1，开通 S2，S2下方的 稳压电路保证下桥器件的开通，由于健康器件的Igss较小，Ucc2等同于 Ug2\-on，再对 Ug1\-on和 Ucc2采样，若 相差 10mV以上，证明两个器件均发生退化；若相 差 10mV以内，则证明两个器件均未发生退化。  
+
+此方法保证了栅氧监测系统可在半桥电路中测量，并且对工作电路无侵入性，但由于上桥与 下桥器件在栅压大于16V时误差较大（约6mV），故在测量时可能会出现误动作。 
+
+3.2.5电流镜复制电流  
+
+电流镜是模拟集成电路中的核心模块，用于 精确复制或按比例缩放电流，该方法获得的电流 不会受到温度的影响，只受到两个 MOSFET长宽 比的影响\[42\]，在工作电路中使用电流镜可实现电 流信号的精确传递。基于电流镜的优点，文献\[43\]使用电流镜将 Igss复制到检测电阻上，消除差分测 量的需要。  
+
+所提出电路拓扑如图 22所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOoT8McHetaSGVgh1ib856VDa033cXBUP5JX0EDj0BkzmSsQOPh3OYzwNGS8XN5ryWKpvoAUmTqet0E0QZx4kzmEz6otRfTAmck/640?wx_fmt=png&from=appmsg)
+
+该监测方法 的 验 证 仍 然 使 用 栅 源 外 接 电 阻 方 法 来 模 拟MOSFET退化，由于 Q1与 Q2具有相同电特性，在SiCMOSFET器件导通期间有
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMibCkUwxLIT0pjJapiapct7vXrreHaSNUHZDyyKPXRUEWgKrr7NDmmNfDTIgibyxs9UbIzx7mD9OhJ0b56Ml1RBYibibyF4LXMC3Lc/640?wx_fmt=png&from=appmsg)
+
+式中：ic1为 Q1集电极电流；ic2为 Q2集电极电流；ig为流入 MOSFET栅极的电流。  
+
+需要注意的是，式（22）成立的前提为 Q1与 Q2适配，否则会降低信号测量精确度。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMia5cU2yltKxt4F73vnSyNNwR5LVQOOzicN35NXvfp5Ow61uHfgJeTiac0BL0j4q2MdibtJg8SraHfY7qBsWTmPnA0936LQ8DzoSo/640?wx_fmt=png&from=appmsg)
+
+  
+表 1为不同占空比下所测得的 Igss与 Rs两端 的电压 uS大小。可见，监测结果不会受到占空比 的影响。所提出的监测方法仅需两个匹配的开 关元件，易于进行栅极驱动集成。  
+
+3.3基于栅极电容相关电参数的监测方法  
+
+3.3.1特定输入电容下栅极电压  
+
+输入电容 Ciss包括栅源电容 Cgs和栅漏电容Cgd，Ciss的表达式为
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMRfgyuic9sicdneLsPz0tL9ZZVooOobAgA2aTLaxwmwFWVXLXwKiaTY8WFjFbo8wwKQlnLExlWk4GManvr8CpOicT9Nu6uwDmsFsE/640?wx_fmt=png&from=appmsg)
+
+文献\[17\]指出，Ciss的大小依赖于 Ugs的变化。Ciss随 Ugs变化的曲线如图 23所示，在图 1所展现 的 SiCMOSFET结构内部电容中，当 Ugs承受高负 电压时，在沟道区有空穴积累，在JFET区域有一个 空穴反型，在这种情况下，Cc消失，Coxc的有效区 域延伸到 Coxd区域。随着 Ugs的增加，JFET区域逐 渐从反型态转变为耗尽态，它减少了 Coxc的有效 面积。在 Ugs\>Uth后，沟道区转换为反转状态，同 时 JFET区域进入强积累状态，Coxd的有效面积延 伸到 Coxc区域。在第 2.3节中提到，SiCMOSFET的 栅氧退化会对 Cgs和 Cgd产生影响，进而导致 Ciss随Ugs变化的曲线向左或向右平移\[44\]。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN0KmzEPYZdMyOoFGOpC3uf6OiaMv8icJEQVMdm2ec4G2s9NoGNcd0O64Yx4ZF2QqOSxcA15Gf4zC9ygh9UfmtI6uAfzqa68yca4/640?wx_fmt=png&from=appmsg)
+
+文献\[45\]提出一种基于 Ciss退化特性的栅氧退 化在线监测方法，该系统电路拓扑如图 24所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpN51twmoxURD7CuYpPldB1wenhLRlKCWjRjwichJtlk2xWO6phfBhXotLZKVtkHEibfSpcrXzH6jrfUnQicSjpoicGByPBkISGOzII/640?wx_fmt=png&from=appmsg)
+
+在开关动作过程中，有
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMYqnIG58ANeDVQRSfV62pfMsXyfvy9k9crsyAJfghUhgdCJuG5tk20fpOuVGkgFcex6g86IPqjsibmibMAFVibpSCJZYbxWlfEP4/640?wx_fmt=png&from=appmsg)
+
+式中：ics为流过 S2的电流；Udif为微分器输出电压。  
+
+该方法是利用输入电容放电阶段 Ciss与参考 电压 Uref的关系，通过电压比较器获得指定输入 电容下栅压的值。该方法可以在不影响变换器 正常工作的前提下，提取退化特性参数，对工作 电路不具有侵入性。 
+
+3.3.2Ciss\-Ugs曲线  
+
+在实验中可使用阻抗分析仪和功率器件分 析仪等仪器离线测量 Ciss。测量原理是在加不同 栅压下测量 MOSFET的 Ciss值，最终得到 Ciss\-Ugs曲 线。基于这种原理，文献\[18\]提出了一种测量 CissUgs曲线的栅极驱动电路，电路拓扑如图25所示。传统的栅极驱动电路输出信号仅包含高电平与 低电平，但是为了达到栅极步进电压的目的，该 电路使用步进式电压源，使用 D/A转换器来生成 模拟信号。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOWNSW8kCE03lcduadgZj51NM3LiaruZibuxxUvzHE8UL82kfmofWYNvBmBS7fgzQN9l5h55FFXnbcwotghRBpxWsAwZfsTUgOx4/640?wx_fmt=png&from=appmsg)
+
+测量输入电容使用的电荷测量部分的输出 电压 uout在栅极驱动电压 ΔUG，时间 TS后值为
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOagEgq9Ziab6OKiccp4sFaDedScs7TMmibgalf07Q0s22d9T8UxYKQ3w4LOQR7YzyGRkp3MJMznwYnSWSrqwJeEHQJ6FPUgCgmEI/640?wx_fmt=png&from=appmsg)
+
+式中：CF为积分器电容；RF为积分器电阻；R1为差 分放大器与积分器间串联电阻。  
+
+通过式（26）可见，通过获取 uout的值，可以间 接获得此时输入电容大小。  
+
+该电路通过优化栅极驱动设计，实现了双重功能：即能够稳定输出标准方波电压保证器件正 常工作，又能在性能测量时，灵活地切换为阶跃 电压输出。但在进行监测的过程中，器件需要暂 时停止其正常的功能运作。这种监测功能电路 可集成于栅极驱动模块，使得对器件状态监测成 本显著降低。 
+
+3.3.3栅极充电时间  
+
+Ciss仅在漏源极电压小于 1V时对栅氧退化较 敏感\[46\]，在离线测量时，漏源电压为零，Ciss可灵敏 表征栅氧退化。但进行在线监测时，低漏源电压（导通状态）测量输入电容较为困难；高漏源电压（关断状态）表征栅氧退化灵敏度较低。  
+
+为了克服 Ciss在高漏源电压下灵敏度不足的 缺点，文献\[47\]提出了一种新的监测参数，为特定 栅压范围内栅充电时间。由式（11）所得导通延 迟时间可以知道，在器件开通时到达 Uref所需的 时间 tc为
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMaxutAIwibA9UWzEK3GHEOfoXVG1AEd1zdQicz9XN4DkQVbt2gQqmY71LaIhsVHZj2vwJ0hGSa7MaLoToZ73V3dy1TQ9okeKeY4/640?wx_fmt=png&from=appmsg)
+
+式中：Rg\-ext和 Rg\-int分别为 SiCMOSFET的外部栅极 电阻和内部栅极电阻。  
+
+在 MOSFET退化过程中输入电容发生平移，在特定区域如−12V<Ugs<−5V时，可看作 Ciss曲线 向上或向下平移，即 tc会随着器件的退化单调变 化，监测电路图如图 26所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPkEF7Z3ULK7urABaJSpYEewUbTzhyGs4A1uaQb59r5Q49mia9LCeWLD3wiahpwxhWCiaavNaibUwkqvTybQbic63IhgDWr8TX0Dyvg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpP5syHd5jpzLTIjA1LhEQ5nWPlZC8XibhEAQ5HhfxdSGYdZeIIN6X7iaZgInu4iaVrQsFPAWdicKX8BCuOdibWsNwiaO26hHdSxxXvfI/640?wx_fmt=png&from=appmsg)
+
+图 27为在不同温度下 tc随应力时间变化曲 线，在提出的电路中，所提出的 Ciss变化电压范围 小于 MOSFET驱动负压，所以监测电路不能完全 集成在工作电路中，在进行监测时需要切断正常 工作的栅极驱动，连接测量部分栅极驱动。这种 方法虽然实现了在线监测，但是对正常工作电路 具有侵入性，会增加电路产生故障的风险，引发 安全隐患。  
+
+3.4基于复合参数的监测方法  
+
+SiCMOSFET的退化监测参数大致可分为静 态参数监测和动态参数监测，动态参数可在器件 正常运行时借助监测电路提取，易于实现在线监 测\[48\]。在所提出的参数体系中，将这些参数系统 地归类为与阈值电压、栅极漏电流以及栅极电容 密切相关的 3类。但部分动态参数与其中的两个 乃至全部 3类别均存在关联性，这类参数被称为 复合参数，例如 di/dt与阈值电压的偏移以及输入 电容的改变有关：在退化过程中，栅氧层中的陷阱电荷增加，使得表面反型所需的栅极电压增 大。当阈值电压升高后，在相同的栅极驱动电压 下，沟道中的载流子浓度增加缓慢，从而导致漏 极电流上升速度变慢，即开通时期 di/dt降低。同 样，栅极氧化层可能发生局部击穿或电荷陷阱积 累，导致栅极电容偏移，驱动效率降低。栅极驱 动能力减弱会导致 MOSFET开启时间延长，直接 影响漏极电流的上升斜率。文献\[18\]基于定量公 式解析 di/dt与 Uth、Ciss之间的耦合关联机制，并提 出了一种基于 di/dt的栅氧退化监测方法。  
+
+在器件导通阶段漏极电流 id有
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNlib7jG5WXfVYP5DPeJheiaWfLSPy2icNmeNLA9OmkLA37JicAOlPKolkGJaWpvzclMce9GMpSriatvQic4swI23OOoBB0tqhic1DBI8/640?wx_fmt=png&from=appmsg)
+
+其中，经过时间 t之后栅极电压大小为
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPQr2F0SfJ9ib6CeEjsj8MQsSoEqfLgbcZcZYIYiceCurqvG2Em0Gibm3oqX5mgf0iaFm4rSHOLdTDJ5Zu4knYiausOIY35h8wxV1gM/640?wx_fmt=png&from=appmsg)
+
+基于式（28）和式（29）可以得到漏极电流变 化率的值为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNmf4oXQKffxk3OV3b2B7aHh1PT4uXs64icXMjfCmEIvGiahqnp1cakE94mDsW5agcCMjicq8gmyu4PoDovpUBibvWxmemmZsNTHHA/640?wx_fmt=png&from=appmsg)
+
+将 SiCMOSFET在 30V，150℃条件下对器件 进行加速退化处理，在式（30）中，随栅极氧化层 的退化而变化的参数有 Ciss与 Uth。其中含有 Ciss项对 Ciss的导数恒为负值。  
+
+随着 SiCMOSFET栅极氧化层的退化，沟道区 的电荷会被界面缺陷俘获，导致载流子迁移率降 低，Ciss增大；Uth也随着器件的退化而增加。综上 可得出 di/dt会随着退化而逐渐下降，通过监测 di/dt可实现栅氧可靠性监测。图 28为不同退化时 间下的 di/dt偏移。此方法与前文提到的提取准 阈值电压的方法相似\[23\]，所提出的提取电路同样 使用具有开尔文源极的 SiCMOSFET，用来提取Lss'两端的压降，从而间接得到 di/dt。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOOJzJib1lLnfkzrwlSicjzvdd4oibXGBycnsbgSdz9Pp8u6NibJkVuTYoVKFNSE6l2TWLDd5icVzW0VlKx1EKdaIb9I7891rYHEsc4/640?wx_fmt=png&from=appmsg)
+
+4.对比分析  
+
+基于对上述 SiCMOSFET栅氧可靠性监测方法的分析，本节从其线性度、温度依赖性、封装退 化影响、能否实现在线监测、在线监测难度以及 工程可行性 6个维度进行分析对比，各方法性能 评估结果如表 2所示。其中，线性度是指监测参 数与器件退化展现的线性关系的程度，较好的线 性关系可以使得监测参数准确性提高。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO6n2W3icK0JL8CPGn4LSiba8HCRbjIKAjYZk5dNBweabBHIFSyicVGgHrJ7thdrYsyHupsakiaYXwAS21N0tUz1WibIt4LLLDdcB88/640?wx_fmt=png&from=appmsg)
+
+图 5所展现出的阈值电压随栅氧退化的变化 关系大致可拟合为对数函数\[49\]，这种特性使得在 器件退化后期监测栅氧可靠性灵敏度较低；由于 栅极漏电流会在退化一定程度时发生突变，这种 线性度较差的特性使得栅极漏电流很难准确获 得栅氧可靠性状态。温度和封装退化均可能会 对监测栅氧退化的参数产生一定的影响，在进行 栅氧可靠性监测时，需要考虑监测参数与温度、封装退化是否有关。随着温度的逐渐升高，半导 体材料内部的价带电子会跃迁至导带，从而促进 电子\-空穴对的生成，并导致载流子浓度的显著 提升。此现象将引发阈值电压向负方向偏移，进 而对相关的电参数产生显著影响。但相较于栅 氧退化效应，温度对于发生退化之后栅极漏电流 相关参数以及栅极电容参数的影响相对较小。  
+
+在封装退化中，最常见的类型为键合线退 化，这是由于器件在受到热应力的情况下，封装 各部分之间热膨胀系数不匹配导致的，此现象会 促使栅极漏电流发生变化，甚至可能引起阈值电 压的漂移，对栅氧退化的相关电参数产生直接影 响，但与输入电容相关电参数不会受到封装退化 的影响。  
+
+实现在线监测对于 SiCMOSFET栅氧退化监 测具有重要意义\[50\]，原因是在实际应用中，如果 使用离线监测，不仅需要在停止工作后进行监 测，而且无法实时获取监测器件的运行状态，而 在线监测则不仅可以解决以上问题，还可以提高 维护效率\[35\]，在器件的开关操作期间，动态参数（例如导通时间）的在线监测是较为容易的，然而 由于静态参数的测量条件较为严苛，因此在工作 电路环境中实现其实时监测具有较大的挑战性。  
+
+工程可行性是评估监测技术能否适配实际 应用场景（如电动汽车逆变器和光伏系统）的重 要指标，其核心在于综合考量技术方案的结构复 杂度、实施成本、功耗效率及系统适配性。前文 提出的基于导通时间的监测方法展现出显著的 工程应用优势：仅需引入基础逻辑运算即可实现 监测功能，其硬件结构简单、成本可控且响应速 度优异，尤其适用于对实时性要求较高的电动汽 车逆变器场景；文献\[37\]提出的机器学习进行栅极漏电流监测方法虽然具备器件寿命预测的功 能，但其工程实施面临显著挑战，该方法不仅需 要构建复杂的数据采集系统，还需配置高性能计 算单元用于算法运行，导致硬件成本和功耗水平 大幅提升。这种技术经济性特征决定了机器学 习方案在实际工程应用中需审慎评估其投入产 出比，严格控制技术复杂度与实施预算。  
+
+5.挑战与展望  
+
+5.1面临的挑战  
+
+在未来，SiC功率器件会被应用得更加广泛，但相对于 Si功率器件其可靠性更低，更容易发生 栅氧退化\[51\]，研究 SiC器件栅极氧化层可靠性监 测方法更加有利于其广泛应用\[52\]。目前对于栅 氧可靠性，国内外学者已经提出多种状态监测方 法，但现在所提出的方法仍然存在一些不足。 
+
+5.1.1温度与封装退化耦合影响  
+
+当前提出的栅极氧化物退化监测参数大多 受到温度与封装退化的干扰。相比之下，Ciss不受 这两者影响，但对其研究尚不全面，且实现其非 侵入式在线监测技术面临较大挑战。因此，解耦 温度与封装退化之间的耦合影响，对于提升栅极 氧化物退化监测的准确性而言，显得尤为重要。温度的升高会使可移动电荷密度变大，并且在高 温下更容易提供漏电路径；进行含有外壳的 SiCMOSFET的参数监测时，所得到的参数应当为芯 片与封装之和，所以封装退化可能会影响监测静 态参数的准确性，进而会对动态参数的监测产生 一定影响。为保证栅氧可靠性监测的准确性，需 要综合考虑温度、封装材料等多种因素的影响。 
+
+5.1.2灵敏度不足  
+
+由于在材料上的优势，SiCMOSFET可以在更 高频的条件下工作，但更快的开关瞬态过程也对 栅氧可靠性状态监测提出了更高的要求。在提 出的退化参数中，部分参数的获取较为困难，如 栅极漏电流较容易受到电路中噪声的影响。鉴 于 SiCMOSFET展现出高频率工作及快速开关的 动态特性，传统的监测技术难以精准捕捉栅极氧 化物退化过程中的瞬时变化。 
+
+5.1.3实现在线监测困难  
+
+在 SiCMOSFET栅氧可靠性状态监测中，另 一个显著的挑战是如何实现在线监测。一些参 数的测量需要在特定的条件下进行，如体二极管 电压需要在 USD\>0时测量等，这些条件不会在 SiCMOSFET正常工作时出现，所以实现在线监测有 一定的困难，并且为了达到测量条件，会对工作 电路进行修改，这对正常工作电路具有侵入性。  
+
+5.2未来展望  
+
+5.2.1探索新的监测参数  
+
+为了克服某些参数难以监测的难题，未来的 研究可以探索监测与该参数相关的参数。例如 在前文中所提到的将阈值电压转换为监测准阈 值电压，将输入电容转换为监测特定栅压范围内 充电时间，所提出的新监测参数本质上是在间接 测量阈值电压、输入电容等。并且如第 2.4节所 述，未来可以探索与多种受栅氧退化表征参数有 关的动态参数。分析发现，在挑选反映栅氧退化 的参数时，不仅可以深入研究阈值电压、栅极漏 电流和输入电容这 3个方面，还可以考察开关瞬 态中的某些动态参数。具体而言，若某一动态参 数与上述提及的 3个核心参数中的至少一个参数 存在显著的相关性，则该动态参数同样具备成为 表征栅氧退化状态的有效表征参数。 
+
+5.2.2精确建模与多因素解耦  
+
+在 SiCMOSFET栅氧可靠性监测中，一个关键 的问题是如何将栅氧退化与其他影响因素（温 度、封装退化等）进行解耦。未来有望通过建立 更加精确的模型来实现，建立的模型应能够综合 考虑各种因素对栅氧退化的影响，对栅氧监测结 果进行修正补偿，这可能有助于更准确地评估栅 氧的可靠性状态。 
+
+5.2.3电路集成化及栅极驱动反馈调控  
+
+将监测电路集成至工作电路可显著简化系 统设计。相较于传统需独立监测电路的方法，集 成设计通过减少额外的元件与布线，降低硬件复 杂度和成本，同时有效抑制监测电路对主电路的 干扰，更适配 SiCMOSFET栅氧可靠性的实时在 线监测需求，并为驱动调控提供支持。针对 SiCMOSFET长期动态工况下的栅氧退化问题，未来 可发展基于驱动反馈的智能调控策略：通过实时 监测栅氧状态，动态调节栅极电压/电流等关键 参数，以减缓栅氧的退化速度。 
+
+5.2.4机器学习与人工智能的开发  
+
+将机器学习与人工智能引入栅氧可靠性监测，有望实现对栅氧退化的精确监测。通过对栅 氧退化历史数据的学习和分析，机器学习模型能 够建立栅氧退化规律的预测模型，从而为监测提 供理论基础。在此基础上，利用 AI辅助监测技 术，可以进一步实现对栅氧状态的实时动态监 测。此外，还可以考虑将智能算法应用于栅极驱 动调控中，以实现更加精准和高效的调控效果。  
+
+6.结 论  
+
+随着 SiC功率器件在多个关键领域的广泛应 用，其可靠性问题，尤其是栅氧可靠性，已成为制 约器件性能和使用寿命的关键因素。本文首先 从阈值电压，栅极氧化物，栅极电容 3个方面说明SiCMOSFET栅极氧化物退化所产生的影响。其 次，针对各个方面所相关的电参数，分类梳理栅 氧可靠性状态监测方法。然后，综合对比了栅氧 可靠性状态监测方法的优缺点。最后，对栅氧可 靠性状态监测方法研究进行了展望。 
+
+（1）在 SiCMOSFET中，阈值电压受陷阱电荷 影响发生漂移，影响开关特性和可靠性；栅极氧 化物在高电场高温下易击穿，导致栅极漏电流增 加；栅极电容随氧化物电荷变化而变化，影响开 关速度及系统稳定性和可靠性。 
+
+（2）阈值电压相关电参数的监测技术历经发 展，现已能显著提升在线监测栅氧退化的能力。栅极漏电流监测虽灵敏度有限，但未来转化监测 其他参数有望提高监测效果。栅极电容监测不 受温度影响，但测量条件复杂，并且监测电路可 能具有一定侵入性。 
+
+（3）目前 SiCMOSFET栅氧可靠性状态监测 方法仍存在许多挑战，未来可以从探索监测参 数、建立解耦模型修正多因素影响、推进监测电 路集成化，并探索栅极驱动反馈智能调控策略以 及机器学习等方面进行创新。
+
+注明：  
+
+【版权声明】：本公众号平台注明来源或转载的文章，版权归原作者及原出处所有，仅供大家学习参考之用，若来源标注错误或侵犯到您的权利，烦请告知，我们将立即改正或删除。
+
+【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPsg858tibXib82rJibcsXiaCicksobNZuDhkGNq5DVgMHN7kLRqt32vsTSHuLqQukbPDMg2ibjY3BV8X1eFftpBCcibkYjicW3kaqeHuU/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMpAmakQkbSgSnZlhMHhibibMnILtT4KtbADu1yib0NGrGYdhyibwvZAg6jxnrw86xbIlqyiaC7mF7ia6kd3Fg8lYElg7f41hPJxf3Hc/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOyEUgKGS2ZLECAcWGQZWO6EcnDPWwVYEsVykHicsW0fxjVdPDFEnZovf25gmEIOy9ibUlCdVedXu7UGVjYtoMR95KrE637cGzHI/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMb6k2nLBt1eemYOnsskiabmfnZgOWe7mgrJQwvvudjnrkxmeVEOjx4rAvGQibgeicsEdqV3seOzBbl0bYViaDsafuYWiaTibtahwuT4/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)

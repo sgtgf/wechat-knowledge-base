@@ -1,0 +1,222 @@
+# 基于准串联 SiC MOSFET 的高增益直流电力电子变压器
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/0I3H-hj12T28FJnuGwN9Mw](https://mp.weixin.qq.com/s/0I3H-hj12T28FJnuGwN9Mw)
+
+文章来源：中国电机工程学报
+
+作者:刘基业，郑泽东\*，李驰，王奎，李永东(电力系统及大型发电设备安全控制和仿真国家重点实验室(清华大学电机系)，北京市海淀区 100084) 
+
+摘要：直流配电技术相较于交流配电有诸多优势，其在深海设备供电应用中有广阔前景。该文提出一种基于准串联碳化硅(silicon carbide，SiC)金属–氧化物半导体场效应晶体管(metal-oxide-semiconductor field-effect transistor，MOSFET)的直流电力电子变压器(power electronic transformer，PET)， 能够在体积受限的条件下，实现几千伏中压直流到几百伏低压直流的高增益隔离电能变换。直流PET 通过多个隔离降压子模块在输入端串联–输出端并联实现高电压增益。为满足输入侧高电压的需求，同时降低直流PET体积，在输入侧采用准串联SiC MOSFET半桥结构，提高子模块输入电压等级，减少子模块数量。采用裸芯片对直流PET进行搭建，并采用绝缘冷却液浸泡的方式，实现直流PET的绝缘和散热，进一步减小绝缘、散热体积，满足深海场景体积受限的应用需求。搭建1台4.5kV/680V/30kW实验样机验证所提方案的可行性。  
+
+关键词：准串联；碳化硅金属–氧化物半导体场效应晶体管； 深海供电；直流电力电子变压器  
+
+0. 引言  
+
+随着高压直流输电技术的发展，光伏、风电等大规模可再生能源并网的需求，以及电动汽车、变频家电负载大量接入，直流配用电技术受到了越来越多的关注。相较于传统交流配用电系统，直流系统不存在无功功率，电能传输损耗小，效率高，无频率稳定性等问题，供电可靠性和供电质量高，分布式电源接入更加容易。基于上述优点，国内外已有多个研究机构对直流配电系统开展了研究，如美国弗吉尼亚理工大学提出的可持续建筑和纳米电网(sustainable building and nanogrids)系统，德国亚琛工业大学提出的城市中压直流配电系统，英国、瑞士及意大利等国参与的灵活通用能量管理系统(universal and flexible power management，UNIFLEX-PM)等。目前，直流配用电系统已在如数据中心等场合得到应用，并且在城市配用电系统开展多项示范性应用，如珠海唐家湾直流配用电示范工程等。此外，直流配电系统还在深海供电系统、未来全电飞机等领域有着广泛的应用前景， 以简化供电系统，降低线路损耗和线路压降，提高供电可靠性。  
+
+高增益直流电力电子变压器(power electronic  transformer，PET)实现直流配用电系统中不同电压等级的电能变换，是系统关键节点装备，其性能提升对直流配用电系统的发展与推广具有重要意义。 特别地，对于遥控无人潜水器等深海用电设备供电系统，直流PET 需要将来自于水面平台或舰艇的中压(几千伏)直流电能变换为低压(几百伏)直流电能，以供给潜水器动力、照明系统等，功率范围为几十到几百kW。为提高无人潜水器等移动设备的灵活性，直流PET体积受限，因此对电能变换装备的绝缘、散热等性能提出了更高的要求。  
+
+直流PET 有多种拓扑结构，采用多个直流–直流(DC-DC) 变换器子模块级联的组成的直流PET，通过多个模块在输入侧串联、输出侧并联的方式，满足中压需求，具有模块化程度高，工程制造简单，易于扩展容量等优点，因此受到了广泛关注，并且在多个城市直流配用电示范项目中得到应用。相较于常规应用，深海直流供电应用场景对体积的要求更高，需要在陆上常规直流PET 的基础上进行进一步的优化设计，使之满足应用需求。  
+
+针对深海供电直流需求，本文提出一种基于准串联碳化硅(silicon carbide，SiC)金属–氧化物半导体场效应晶体管(metal-oxide-semiconductor fieldeffect  transistor，MOSFET)的级联型高增益直流PET。新型宽禁带SiC MOSFET 器件具有开关损耗低的特点，其应用可提升开关频率，降低对于电感、 电容、变压器等无源器件的需求，减小无源器件体积。进一步地，限于现有商用SiC 器件的耐压等级不超过1.7kV，本文应用准串联半桥方案，以提升商用功率器件的等效耐压等级，提升级联直流PET中单个子模块的电压等级，满足输入电压等级要求的前提下减少模块数量以减小整机体积。此外，针对中压直流PET 的绝缘散热等问题，本文采用 SiC MOSFET 裸片搭建直流PET，并采用绝缘导热液体填充的方式，很大程度上降低绝缘、散热体积以满足要求。最后，设计研制一台4.5kV/30kW 的高增益深海供电直流PET 样机，并进行相关的实验验证。  
+
+1. 直流 PET 整体方案  
+
+1.1 准串联 SiC MOSFET 半桥
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMlf3ZTHwtcpMZwTdNqicAmycoIp7OgGJnVjoQTLicQMIrqXxYVDsScRh8BGEPiaXMZ0QocC1AiaNK6zVWl45iawribfUElg6GBPrHqM/640?wx_fmt=png&from=appmsg)
+
+为提高级联直流PET 的DC-DC 子模块的电压等级，本文采用准串联SiC MOSFET 半桥拓扑，如图1 所示，其可以看作为改进型的中点钳位型多电平拓扑，与之区别在于本文将其工作在准两电平调制下，且该拓扑不需要对中点电压进行控制，可进行电压自均衡。相较于器件直接串联，准串联可避免器件参数不一致引起的开关暂态电压不均衡，因此鲁棒性和可靠性更高。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPDP6H1pBVADktNyic5CQVZic0LMMibmf4ibpyhoKPzBjHicTLa2Fiapufkcexbxb7Vlv4JqLGpkSWLWjVZjpWDv9gVNBTknHVF95HJI/640?wx_fmt=png&from=appmsg)
+
+图1 所示4 个MOSFET 器件的准两电平调制方法如图2 所示，其中，延迟时间△T为几十ns 的固定值，可保证图中器件开关顺序不受器件参数不一致导致的开关时间延时差异、电压电流变化率差异等因素的影响，Tdead为死区时间。可以看出，当电容电压U1、U2、U3 保持平衡，等于半母线电压E时，可保证准串联拓扑中各个器件承受电压不超过半母线电压E。大多数时间拓扑为输出电压为正母 线或负母线电压的状态，如图3 所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpPlbvBv9QmENyLwk1LZB9ItdGUE361tH1ao9m8HOaCzoD6gPfjfGQmAIYVeoOQ4SsuqC73rvx5Leu87T4ZvGJlncibWhdpAHuAI/640?wx_fmt=png&from=appmsg)
+
+拓扑电压自平衡原理为：若电容电压U3 不大于U1或U2，则图中二极管D1、D2正向偏置，存在2 条路径iloop\_1和iloop\_2，分别有U1=U3和U2=U3。当输出电压在正负母线电压间切换，发出PWM 电压波形时，有U1=U2\=U3\=E。由文献\[16\]可知，图2 所示调制方法可保证拓扑中电容C3 在任意负载电流下的换流 过程中都不会被充电，保证电压U3不大于U1或U2，因此可实现U1=U2\=U3\=E。由于延迟时间△T的存在，该拓扑输出电压为图1 所示含几十ns 中间电平的准两电平形式。当延迟时间△T远小于开关周期时，该中间电平的影响很小，整个拓扑可等效为母线电压为2E的通用两电平半桥。因此，现有对两电平半桥在直流PET 中的研究成果，如器件发生故障时的冗余备份方法等同样适用于准串联半桥。  
+
+为减小准串联拓扑的体积，拓扑中MOSFET和二极管等器件均采用裸芯片，电容C1—C3 采用小体积陶瓷电容，整个拓扑可集成封装成为1 个通用的半桥结构，以提高其集成度，减小直流PET 整体的体积。  
+
+1.2 基于准串联半桥的深海直流 PET  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOqMtgKkRtB8iceZibTBW6tUqI9CCo46FrSEJicicJkFZkdm8CEiasNstllhBm2SnwqmPjy0HYwcVRzwxtwibeJGNSFBjyqLhHB78fuw/640?wx_fmt=png&from=appmsg)
+
+基于准串联半桥的直流PET 整机方案如图4所示，其包含3 个DC-DC 子模块，每个DC-DC 子模块包含2 部分，即双有源桥变换器(dual active  bridge，DAB)子模块外和升压(Boost)子模块。在运行过程中，Boost 子模块可以补偿输入侧中压直流电压UMV的波动，使DAB子模块都处在电压匹配的状态，即Uink=ULV﹒n，Uink为第k个DAB 子模块输入电压，k=1,2,3，n为变压器变比，ULV为低压输出侧电压，从而降低DAB 的高频电流应力，降低损耗，提高效率。此外，Boost 级避免中压侧电容Cink(k=1,2,3)的直接串联，当中压直流母线发生短路等故障时可快速切除母线与中压侧电容的连接，避免直流断路器等额外设备。并且当故障消失后，由于不需要再次对电容进行充电，直流PET也可快速投入运行。  
+
+整体方案中Boost 子模块和DAB 子模块的原边H 桥部分采用图1 所示准串联SiC MOSFET 半桥，以提高子模块的电压等级。由于副边输出电压较低，可采用商用MOSFET 芯片搭建两电平H 桥。DAB 子模块的高频变压器变比n＞1，实现第1 层级的电压变换。进一步地，3 个Boost+DAB 子模块在输入侧串联–输出侧并联，实现第2 层的电压变换。2 层电压变换共同作用，实现从输入端中压直流到低压直流的高增益电能变换。  
+
+2. 调制方法与特性分析  
+
+2.1 级联 Boost 子模块的调制方法与特性分析  
+
+直流PET 拓扑中每个Boost 子模块的调制方法与传统Boost 变换器相同，为降低中压输入侧电流纹波，减小Boost 变换器对于升压电感Lin 的需求，3 个Boost 子模块之间的控制信号互相交错1/3个开关周期。记Tboost 为开关周期，D为Boost 占空比，iin 为中压侧输入电流，级联Boost 级在D＜1/3时的电压电流波形如图5 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNic2xp5Sp2QCFQp51CfiaQ6TXeia3HYUict8JNhZTXPrXZgHXZNGUoruCZu3xc75iaqj8gQcPRoeOGvEibyg4jxwXXl8vjPmULUFkqE/640?wx_fmt=png&from=appmsg)
+
+在正常运行状态下，直流PET电容电压Uink(k=1，2，3)保持相同且为Uin。由于采用准两电平半桥拓扑，桥臂输出电压波形含有1 个短时间的中间电平，该中间电平时间等于图2 中的延迟时间△T，以保证准串联半桥拓扑的电压均衡。由于其仅有几十ns，远小于一般Boost变换器的开关周期，在分析时若将该时段持续时间忽略，则与两电平级联Boost 级的分析结果相同， 此时，电压、电流特性可表示为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNgxaIkCL7hiatibrs61UaCgXS5A7AO6PZgk1hEibocXyJ0FW02r86dXBDDZqQOcZKeu7Sbo6woR3e9ibWCFXjsXEdibiavMtzDkzJTs/640?wx_fmt=png&from=appmsg)
+
+式中：Deq={3﹒D}/3，{﹒}为取小数部分；△Iin\_max为输入电流纹波最大值；Lin=Lin1\=Lin2\=Lin3，为每 个Boost 子模块的输入侧电感值。  
+
+2.2 DAB 子模块的调制方法与特性分析  
+
+本节主要分析采用准串联半桥后DAB 子模块的功率传输特性以及软开关原理。  
+
+为降低输出电压纹波，同样可以将3 个DAB子模块互相交错1/3 个开关周期。得益于Boost 子模块对中压输入侧电压的调节作用，DAB 子模块可以运行在电压匹配的状态下，可直接采用最简单且高效的单移相调制方法，且每个DAB 子模块可分别独立运行。因此，本文仅对单个DAB 子模块的调制方法和功率特性进行分析，如图6 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOVibJia0FbdAE8STrFHBN8VQ1leoibzicvZTnSAGNpkK054ia0ccPiagNew7J6q9Dsln4AyLIwmSYFLIWr1PVKtYFQX7SbtS4CSj2HE/640?wx_fmt=png&from=appmsg)
+
+图6 中：TDAB为DAB 的开关周期；D0 为DAB的外移相比，其值为原副边H 桥发出方波电压uab和ucd 移相时间与TDAB/2 的比值。由于原边H 桥采用准两电平拓扑，故uab含有△T时间的零电平时间，相当于传统两电平DAB 变换器在原边含有内移相的情况。为分析采用准串联半桥DAB 的软开关范围，对△T零电平时间的影响进行分析，若记：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMonIarDy0eTJxicgJIhsHtYvYA80NVySvLu42gfHxL8AmVTvOwbomDxwguuqdFco8GmTvJWHd1u1BRkniaoI64tuU0DRf6CORU8/640?wx_fmt=png&from=appmsg)
+
+则移相电感中高频电流iL峰值可表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMahJ8wDjkRjk9ibevds50tBTgZXJNnSTrDHlKenVzrcEib6Hj5jyu6bwQia9RD6o6zRoLkG1vo3cr0qEaxWkSngkMjNlJAWa6BMk/640?wx_fmt=png&from=appmsg)
+
+DAB子模块的传输功率为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPLr2V2c5q3oDye2pQxGoKCpxibk8ARibmXOvIcD5iaz5j0Q8OsmeWTfibDVzI3KNVcF5eFzic9oiaRUjHecKGuvoYuJ4NLBmOQV6crk/640?wx_fmt=png&from=appmsg)
+
+式中：n为变压器变比；L为DAB 移相电感值；fDAB=1/TDAB为DAB变换器的开关频率。  
+
+在电容电压Uin 由Boost 子模块调节确定的条件下，可调节外移相比D0 以调节传输功率，以控制输出电压ULV。  
+
+为分析采用准串联半桥的软开关特性，放大图6 中阴影区域。忽略器件结电容的前提下，临界条件时，采用准串联方案的DAB 子模块软开关波 形如图7 所示，可以看出高频电压电流随准串联半桥器件开关动作的变化。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpObRAWGEyYa1Fezb8pMQe9hhbGicUAicIyusWg5DMTRgP1NWGVZvx2nR8UiaXb5WJIg8KE7rKia3NSZrrpUZ2bPMSTkKJWwiaoTQ8nI/640?wx_fmt=png&from=appmsg)
+
+软开关过程可分为4 个阶段，与之相对应的准串联半桥换流过程如图8 所示。 由1.1 节分析可知，准串联方案各个电容电压相差很小，因此认为图8 所示电容电压U1\=U2\=U3\=E。当S1 关断前，负载电流流经S1 和S2沟道，如图8(a)所示，S1 关断后iL 2 条路径如图8(b)所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO3eicqUolnIAsqfWJ51oIgCvYttC47mBmpR6j19kGHLoDPnlUYB1Kicv7EkTFgdtk3NE2icdx5xGzsP3wVEYHodWNic59OExZa3KE/640?wx_fmt=png&from=appmsg)
+
+S2 也关断后，流经S3 和S4的反并联二极管，进入死区时间，如图8(c)所示。若在S4 关断前iL均保持大于0， 则S3 和S4 开通时承受电压均为0，开通损耗为0，因此可实现软开关。当S4 开通后，iL恰好变为负值，流过S3 和S4 的沟道，如图8(d)所示。由上述分析可知，能够实现零电压开关(zero voltage switch，ZVS)的临界条件为S4开通时刻，高频电流iL会恰好变为0。此时，外移相比为(2Tdead+3△T)/(TDAB/2)。而对于普通两电平DAB 来说，临界条件外移相比为2Tdead/(TDAB/2)。因此，从软开关特性角度看，相比普通两电平，采用准串联半桥的DAB相当于等效死区时间为Tdead+3△T/2，因此，可通过调整死区时间使准串联DAB 等效为普通两电平DAB，在宽功率范围内实现软开关以提高运行效率。  
+
+3. 直流 PET 运行控制策略  
+
+3.1 闭环控制策略
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNV9oNTKeRd2h3vDaZ3kKknaOib6sm1xPCzIoq50dYChDvMWnbSJAUMjjdXm1jjKGXwu1cBGbMpJFzia0LQKG8k1XlUoHfmaVx2I/640?wx_fmt=png&from=appmsg)
+
+直流PET 在运行过程中闭环控制策略如图9所示。其中，第k(k\=1,2,…,N)个DAB 模块对Uink-nULV进行闭环控制，在稳态条件下，输入电压Uink与输出电压ULV 成固定的比例关系n。由于每个DAB 子模块的输出端并联，输出电压相等，因此，稳态条件下每个模块的输入电压Uink也相同，实现级联DC-DC 变换器子模块的电容电压平衡。此外，DAB 子模块的控制策略之间不存联系，简化整体控制算法。  
+
+由于 DAB 子模块可平衡各模块电容电压Uink，Boost 级可采用相同占空比的控制算法，如图9 所示，其包含电压外环和电流内环2 部分。电压外环对电容电压Uink的平均值进行闭环控制，电压参考值和电压平均值可表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO0zRJBNaDKs3A4rECc14J7HXpsOlXJfwT906QGA50OuttzJoXe5ic3YTvDSOHEVS17tZeb6p7cnAdoZPDwUNSaHAHVWl280M1Y/640?wx_fmt=png&from=appmsg)
+
+式中ULV\_ref为直流PET 输出电压的参考值。  
+
+电流内环对中压侧输入电流进行闭环，其参考值Iin\_ref为电压外环PI调节器的输出，参考值和实际值之差经过PI调节器后得到Boost子模块的公共占空比D。  
+
+在得到Boost 占空比和DAB 外移相比后，根据如图5、6 所示调制方法，经过交错后生成PWM信号驱动每个功率器件。  
+
+3.2 缓启动控制策略  
+
+为防止直流PET 启动时冲击电流过大，需要设计缓启动控制策略。由于深海环境的特殊性，为简化直流PET 供电系统，需要采用自取电形式为控制板、驱动电路、光纤等控制电路提供电能，如图10所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOZPSHsG7ZfuONh3HPjlGJnCskanSPTxK9J47udZLTPfeABB15rkpeBSZBWDetZZXTZ0md2GsxfZ2hib2Ktjuo4icp638zRgxpCM/640?wx_fmt=png&from=appmsg)
+
+需要注意的是，在直流PET 启动前，控制电路均处于失电状态。系统软启动的过程如图11 所示，启动前，如图4 所示预充电接触器Spre处于断开状态，缓启动策略如下。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOmQdia5KvZE8ibe3nx0Xs5bWwTgtNw2ururqUT94icrgQpjtVL2B8bKF8MqvbuHI7dTqjwOdD8d6vZA5oqoc8SHiapZjGS9JbOjgU/640?wx_fmt=png&from=appmsg)
+
+直流PET 刚接入中压母线后，直流PET 通过预充电电阻和Boost 电路的二极管对直流电容Cink (k\=1,2,…,N)充电，控制电路处于失电状态，直至各电容电压之和NUin\_ave=UMV后，进入步骤2。此后，预充电接触器Spre闭合，直流PET 原边准串联H 桥发出高频方波电压的占空比从0 开始不断增加，副边控制电路处于失电状态，副边MOSFET器件常闭，处于不控整流状态。当原边准串联H 桥发出的高频方波电压的占空比达到0.5 时，进入步 骤3。此状态下直流PET 副边可实现自取电，控制系统上电，根据输出电压的不同，DAB 子模块功率参考值如式(7)所示，初始开始不断增加，输出电压也不断增加，直到Uin\_ave大于nULV后，进入步骤4，DAB 子模块开始闭环。当经过一段时间达到稳态后，进入步骤5。此状态下Boost 子模块的占空比 从0 开始不断增加，直到电压Uin\_ave达到其参考值nULV\_ref后，Boost 子模块也开始闭环，缓启动过程完成。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNnMQCoib1WXtfe4SzopB7dj66edlYCRQPBdFEmItapJwqnhPS4rkldCgdRQQjtlptJdibibSJP1q4gCOLarNEZxwnxlbtomRUV5I/640?wx_fmt=png&from=appmsg)
+
+4. 直流 PET 样机研制与验证  
+
+4.1 直流 PET 样机研制
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPuMiaMYicvsw7XaLXT8micdIm4b5wmfPRUUeP15FXVO70UXn7oS9O8094tibf9Mb5Bx9iaU6W600tRia4FukZopDSZPvCfEZ5rrlm9M/640?wx_fmt=png&from=appmsg)
+
+为验证上述分析，设计研制1 台输入电压3.8~ 4.5kV、额定功率为30kW 的深海直流PET 实验样机，样机参数如表1 所示。利用式(1)可得Boost 级占空比D最大值为0.156＜1/3，与图5 所示相同。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPPv5u8xkD99vP6iceWLRxaWX4w2FbEacLy8ew6leSr1vjZMpTHVnpISGSkuibia7BnDg6hLexFiaVKZgxlhQj3iaqHBkCNyE8lVeb0/640?wx_fmt=png&from=appmsg)
+
+各主要元件参数如表2 所示，采用SiC MOSFET 和二极管裸片进行搭建，以提升减小体积。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNRtPedhvx2B5sfrxEBsdT5AMYEiaHStFCJ7Fl1wZptdgO6c8JoDficQasge0OZ7NnK8krAAyuy3ibrpwaD7TENicRUhU70JGdCIPw/640?wx_fmt=png&from=appmsg)
+
+原边准串联半桥和副边H 桥如图12 所示，准串联半桥中延迟时间△T为50ns。整个样机浸没于EnaSolv Fs-110型绝缘冷却液中，可对半导体芯片、变压器等提供绝缘，同时对半导体芯片、变压器等发射部件提供冷却作用，其发出的热量直接通过绝缘冷却液的传导作用，经直流PET 金属外壳传递到深海低温海水，很大程度上降低直流PET 的散热压力，进一步降低体积。直流PET 实物图如图13 所示，整个样机尺寸为70cm×40cm×12cm。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPCaxyxR5thw6VGr11JIpeBXRS4bWqhHIAeOYo58LfzYsCz08G4RR3kMp7OdGkjpkqEhjlUtBicxhQJj9op58ssvYlD5l4su6vU/640?wx_fmt=png&from=appmsg)
+
+利用有限元仿真手段，对变压器、电力半导体器件在不同散热条件下的温度分布进行仿真。变压器预估损耗为59W。半导体器件中副边侧H桥损耗最大，利用PLECS 仿真软件仿真得到每个MOSFET 器件损耗为24W，整个模块损耗为96W。对上述热源在风速为2.4m³/min 的强迫风冷散热和绝缘冷却液填充自然传导散热条件下，分别进行有限元仿真，对比结果如图14、15 所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpO7Y1brsUkZ2zWAAllcLHeiaZIDvpc9XJjq14CQtDmJOz0WbXvXibHxibGDbicALJIv3iayIjqcAJlE7ZMXN8ZoEI3HZjNKNic8ibblEQ/640?wx_fmt=png&from=appmsg)
+
+可以看出， 强迫风冷散热条件下变压器和副边H 桥模块的最高温度为140℃和116℃，在液体散热条件下为36℃和49℃。因此，方案很大程度上降低直流PET 的散热压力。  
+
+利用有限元仿真手段，对变压器在空气绝缘和液体绝缘条件下的电场分布进行仿真。仿真中变压器绕组电势差设为最大额定电压的2 倍，以留有足够裕量，磁芯与副边绕组等电位，仿真结果如图16所示。空气中最大场强为1.85×10⁷V/m，远大于空气的击穿场强3×10⁶V/m。利用液体进行绝缘时，液体介电常数为5.48，仿真最大场强为2.28×10⁶V/m，小于液体击穿场强1.57×10⁷V/m，满足绝缘要求。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNPxYjuiaD1Vax65qvzkCpyMUrO375PviaVlSLz20uZTZB3Bicc1cHhmK10FMtfPWYnTWrIkg48saqaGjLYu04RtVsJRXK6lu6tus/640?wx_fmt=png&from=appmsg)
+
+可以看出，利用液体绝缘散热进一步降低体积。  
+
+4.2 级联系统低电压实验  
+
+限于实验室条件，直流PET 级联系统在低电压条件下进行。3 个Boost 子模块交错波形如图17 所示，此时，输入电压为600V，每个Boost 模块输出电压为230V。DAB子模块交错后的电压电流波形如图18 所示，输入电压为230V，输出电压为105V。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOSxCrnJDFRLogusC9GhyLc3gjSysian6TOCwibiaodQ1GezrO2n17j2Vx19gLA3V32WEaTcUlQ0lgMpImYRCok0IP7NibGpO5hdCU/640?wx_fmt=png&from=appmsg)
+
+图17、18 所示各子模块互相错相，可降低输入电流、输出电压的纹波。  
+
+直流PET 在输出功率从1.2kW 增加到2.4kW而后再降低至1.2kW 的波形如图19 所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpO0y4bj4T8NNEuWZ4K21iatR3Og6q5EZ8KibDAcCmMDmia26D8guqwibx1vx1LmeQgNl3AibnFum4FZBahR3a1iaxDXpNXfD4hz3KnhE/640?wx_fmt=png&from=appmsg)
+
+可见， 系统在负载变化时输出电压稍有波动，随后再次达到稳态，动态过程在500ms内。系统缓启动的实验结果如图20 所示，可见缓启动过程中Boost子模块和DAB 子模块的电压、电流没有过冲，保证系统安全运行。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpOWVmvcwgEj6IyUO9urQkU3jX0ksj7PQJZa9WMUUu2Ng6glOdIW4U9NP6t81Rw71nPiciacqstOrN8bp3QOq4MmFMGXYT6XljLfI/640?wx_fmt=png&from=appmsg)
+
+4.3 单个子模块满功率实验  
+
+限于实验室条件，直流PET 满功率实验仅针对单个模块进行。其中，输入电压为1380V 情况下，Boost 子模块在10kW 满功率条件下电压电流波形如图21 所示，输入电流纹波值约为4A，输入平均值为7.3A，Boost 输出电压为1.5kV。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpOYpt8kloPMOLCpZDqJ0kgDadKTKvbml3ovKicyuCLCYRTthiange0zvOn6rfoBrkL8lqLZYVmqk9OI24FxdJB9icGWV5FTgp1Ubk/640?wx_fmt=png&from=appmsg)
+
+DAB 子模块的电压电流波形如图22 所示，输出电压为680V，高频电流峰值为8A，可以看出DAB 变换器的ZVS软开关过程。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPV1PaaAg7M0eVjoRKsJyIsCTR3jLH6QvZqyw4SN0QLNxoLZiciaDQqBpAG99Zq63QanLcAIehXCZpNgexnXesQVHvYPVndmH9ho/640?wx_fmt=png&from=appmsg)
+
+由于准串联半桥的延迟时间△T设定为50ns，时间很短，基本与开关暂态时间接近，因此，在图21、22 中准两电平波形不明显，工作电压1.5kV 大于单个器件耐压值1.2kV，说明准串联半桥可实现电压平衡，可以看出，准两电平半桥可作为电压等级更高的半桥使用。DAB 子模块从半载5kW 到满载10kW 加减载的过程如图23 所示，可见加减载动态过程迅速、平滑。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpPrsAjXdlia6qjvg0KPfS24yQJm3H4JpoKreknYVvQ6aDjicEiab0CCj9nDC7uf2u7NGN8nFD82BicMggbkiazFHEgkjVnibYQymwYKc/640?wx_fmt=png&from=appmsg)
+
+采用功率分析仪LMG670测量Boost+DAB子模块的效率测量结果如图24 所示，可以看出，测量单模块输入电压分别为1.5kV、1.4kV 和1.26kV， 分别对应整机输入最高电压4.5kV、额定电压4.2kV、最低输入电压3.8kV 时不同输出功率下的效率。在相同传输功率下，模块输入电压更高时，DAB 级始终处于匹配的条件下运行状况不变，但由于Boost 级电流纹波和电流有效值均减小，Boost级导通损耗和开关损耗更小，效率也更高，最高效率为96.3%。当输入电压降低时，效率也有所降低，输入电压为1.4kV 时，最高效率为96.0%，输入电压为1.26kV 时，最高效率为95.7%。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpNQECmCFSjUEAaecicib3ogbsQIZ2NzibwqPYB8G2zTCupyHwFHnSM2Y87v00nkbOsjA0cyC99X20s1ffXrYgr6Gia5VwQyapRZ0qc/640?wx_fmt=png&from=appmsg)
+
+5. 结论  
+
+针对深海直流供电应用中体积受限条件下实现高增益隔离直流电能变换的问题，本文提出基于Boost+DAB子模块级联组成的深海直流PET，并得到结论如下。 
+
+1）针对高增益问题，利用变压器变比和子模块输入串联、输出并联的2 种手段，实现中压电能到低压电能的变换。 
+
+2）为减小体积，采用准串联半桥搭建的Boost级和DAB 原边H 桥，提高子模块的电压等级至1.5kV，从而降低的直流PET的模块数量，减小直流PET 体积，满足深海应用需求。 
+
+3）采用裸芯片搭建直流PET，并采用绝缘冷却液体实现绝缘和散热，通过高导热液体材料将半导体、变压器等原件发出的热量传导至低温的海水，降低散热难度、散热体积和绝缘体积。  
+
+4）通过实验对样机额定运行能力、缓启动性能进行验证，结果表明其工作良好，满足设计要求。
+
+注明：  
+
+【版权声明】：本公众号平台注明来源或转载的文章，版权归原作者及原出处所有，仅供大家学习参考之用，若来源标注错误或侵犯到您的权利，烦请告知，我们将立即改正或删除。
+
+【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/w7mE225tvpPWYFpY9SoXACzkVkMhz0v52Z5rSB5tyE76PBfickTaTIllnTFHiayNDUCareKYTWSE0ehHHQogsCrekN7GVLZrCxGfq2Cs9Zjibo/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/w7mE225tvpMHgSI87rfueksfsqRxnOCEAMzh3NonvLpDYs8KpEYupia7pntM4U2YWVTk83OCbxJdBIqNtaIWbiaggrpkcYrLDtHe3ldialia6pQ/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpMJK9r5iclHBqPRxILLlBRJNqibfLQfnl24FOSyHUibzShYNxLCdiaoZico8msicTcFmLvIO1N8c0Lyqh8c79Gyn7oXibSLquHxibg0CRU/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/w7mE225tvpNQwuMUmlXQtc93FibDaFAUvWl1skiaD3NayJZ6oyZj2dBac1griakabH9gWRibaTknVLm4C3yqe1KBicEA0AVNov9pCR48el65YNbc/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)

@@ -1,0 +1,78 @@
+# 6.5kV高压全SiC功率MOSFET模块研制
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/LTGQd3f64khfnovndV0Elw](https://mp.weixin.qq.com/s/LTGQd3f64khfnovndV0Elw)
+
+文章来源：中国电机工程学报
+
+作者：金晓行 1，李士颜 1，田丽欣 2，陈允峰 1，郝凤斌 3，柏松 1，潘艳 2(1．宽禁带半导体电力电子国家重点实验室(南京电子器件研究所)，江苏省 南京市 210016；2．先进输电技术国家重点实验室(全球能源互联网研究院有限公司)，北京市 昌平区 102211；3．国扬电子有限公司，江苏省 扬州市 225100)
+
+摘要：该文报道6.5kV、25A 及100A 两款全碳化硅(silicon carbide，SiC)功率金属场效应晶体管(metal oxide field-effect transistor，MOSFET)模块制备及测试结果。两款模块所采用的6.5kV SiC MOSFET及SiC肖特基二极管芯片均采用自主研制的高压SiC芯片，充分显示了在SiC材料外延、器件制备及模块封装领域国产化方面的巨大进展。该文报道6.5kV、25A 和100A 两款模块动静态性能表征结果，并与国际研究报道水平做对比分析。室温下，两款模块导通能力分别大于25A和100A；栅源短接，在漏极电压6.5kV时，模块漏电流分别为2.0A 和8.77A。对6.5kV、25A模块动态参数、开关波形进行测试，以表征单管芯MOSFET 动态性能特性。在工作电压3.6kV、导通电流25A 下，对模块进行动态测试，结果表明，SiC MOSFET 具有快速的开关特性，其中开通时间(开通损耗)和关断时间(关断损耗)分别为140ns(12.3mJ)和84ns(1.31mJ)。测试结果表明，研制的全SiC模块具有优越的动静态性能，相对传统硅 6.5kV 绝缘栅双极晶体管芯片在开关速度及开关损耗方面具有巨大优势，该款6.5kV SiC功率模块在智能电网、电能转换及配电网络领域具有广阔的应用前景。
+
+关键词：碳化硅；碳化硅功率金属场效应晶体管模块；6.5kV；开关时间；开关损耗
+
+0. 引言
+
+功率金属场效应晶体管(metal oxide field-effect transistor，MOSFET)器件，由于其输入阻抗高，开关速率快，驱动简单，被认为是理想的开关器件。但是传统硅(silicon，Si)功率MOSFET 器件在高压领域的功率处理能力受到芯片内阻的限制，如何降低芯片导通电阻，提高芯片击穿电压，是下一代功率MOSFET 器件的研究重点。以碳化硅(silicon carbide，SiC)材料为代表的宽禁带半导体材料，以其优良的材料特性：宽的禁带宽度，高的临界击穿场强，高的饱和载流子迁移率，被认为是下一代高压功率器件的理想材料。相对于传统的Si 半导体材料，SiC 优异的材料特性，使得SiC 电力电子器件可以实现更高的工作温度，更低的导通电阻等器件优势。通过多年的技术优化研发，4H-SiC功率MOSFETs器件及SiC 功率肖特基二极管(Schottky barrier diode，SBD)二极管器件电压等级逐步提升，并实现了非常低的器件比导通电阻。相对于Si 绝缘栅双极晶体管(insulate gate bipolar translator，IGBT)器件，SiC MOSFET 作为单极器件，具有更快的开关速率，更低的开关损耗和更佳的温度稳定性。另外，SiC SBD 器件的反向恢复只是肖特基势垒电容的充放电，相比Si 二极管的PN 结的电荷存储效应，其反向恢复速度更快，电荷量更小，开关损耗也更小。因此采用SiC 功率MOSFET 及SiC SBD 二极管制备功率模块，与传统Si IGBT 功率模块相比，更适合应用于高频领域，可以有效减少模块的开关损耗，有助于实现装置的高效化，小型化和轻量化。
+
+高压SiC功率MOSFET 器件主要应用于功率逆变器和断路器等方面，其可以有效的减小系统的体积和提升系统功率效率。随着分布式发电系统和功率起伏电源在智能电网中的普及，SiC 功率MOSFET器件优异的器件特性，使其在该领域具有巨大的应用前景，并将大大推进智能电网的发展进程。在过去十几年的研究中，SiC 功率器件的性能得到了巨大的提升，特别是在导通性能和阻断电压方面。Cree 公司在高压SiC MOSFET 研究领域发表了多篇研究报道结果，器件电压等级覆盖6.5~15kV。国内方面，近期，本研究组分别报道了基于4H-SiC 材料的6.5kV 功率MOSFET 和6.5kVSBD 器件样品制备，其实现了器件击穿电压大于7kV，器件导通电流大于25A 的器件特性。基于以上自主SiC MOSFET 及SBD芯片，本研究组实现了6.5kV、25A 和100A 两款SiC 功率MOSFET模块制备，并对其动态静态性能开展测试评估。室温下，两款模块导通能力分别大于 25A 和100A；栅源短接，在漏极电压6.5kV 时，模块漏电流分别为2μA 和8.77μA。对6.5kV、25A 模块动态性能表征，其中开通时间(开通损耗)和关断时间(关断损耗)分别为 140ns(12.3mJ)和84ns(1.31mJ)。测试结果表明，该款模块的动静态性能与国际研究报道水平接近。全SiC 模块具有优越的动静态性能，相对传统硅6.5kV IGBT 芯片在开关速度及开关损耗方面具有巨大优势，该款6.5kV SiC 功率模块在智能能电网、电能转换及配电网络领域具有广阔的应用前景。本研究报道显示了近几年我们在高压SiC 电力电子领域国产化所取得的巨大进展，实现了65μmSiC 厚膜外延、高压SiC MOSFET 器件及6.5kV 高压SiC模块封装的自主研发。
+
+1\.  6.5kV 高压 SiC MOSFET 模块封装
+
+本文采用自主定制的高压封装模块结构，模块封装原理图如图1(a)所示。所用SiC MOSFET及SiCSBD芯片均采用本单位(南京电子器件研究所)自主研发的6500V 25A 高压SiC 芯片。25A 模块由1只6.5kV SiC MOSFET和1只6.5kV SiC肖特基二极管(SBD)封装组成。100A模块由4 只6.5kV SiCMOSFET 和4 只6.5kV SiC 肖特基二极管(SBD)封装组成。模块内部采用15mil 铝线进行电路连接(芯片与芯片间，芯片与覆铜陶瓷基板(direct bondingcopper，DBC)之间等)。芯片、DBC、铜板焊接回流完成后，安装到对应的塑胶壳体中，并注入具有保护和绝缘功能的硅凝胶，模块封装完成后，实物如图1(b)所示。针对未来直流用电社区对高压交 流–直流变换器小型化需求，通过DBC 设计，爬电距离设计，芯片布局设计，完成了该款6.5kV、100A高压SiC模块设计，芯片及电极布局如图1(a)所示，模块尺寸58mm\*48mm\*38mm，模块功率密度可以达到(9.3kVA/cm3)。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gmwCHWUibKIQfGWqvBtTb4dchZicXZLVyJaF4JuwUfttxgP73g1p6hOPg/640?wx_fmt=png&from=appmsg)
+
+2 . 6.5kV 高压 SiC MOSFET 模块静态性能表征
+
+对不同温度下，6.5kV 100A SiC 功率MOSFET模块正向导通特性进行测试，采用脉冲电流测试，脉冲宽度tp \= 50μs，脉冲间隔为160ms。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gOyryicaG3WkGgkNo0U8Su8AibyPFUT20TZvusfGBl3JQHRn2GZfGJicrg/640?wx_fmt=png&from=appmsg)
+
+图2 为室温下6.5kV 100A SiC 功率MOSFET 模块正向导通性能测试结果，该模块由4 个SiC MOSFET和4 个SiC SBD 并联组成。当栅极电压Vgs为20V，漏源极电压VDS为4V 时，器件正向导通电流大于100A，对应的模块导通电阻约为40mΩ。与25A 模块对比(VDS为4V 时，器件正向导通电流为25.3A)，可以看到，在4 个MOSFET 芯片并联的100A 模块中，芯片并联并未引入额外的导通电阻。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gLcRaZO0I7IthvN7FD79N1dkjVwXGVadicn5LiabRt1pEBdS7B2XHEojg/640?wx_fmt=png&from=appmsg)
+
+图3 为环境温度150℃下6.5kV 100A SiC 功 率 MOSFET 模块正向导通性能测试结果，当栅极电压Vgs为20V，漏源极电压VDS为7.6V 时，器件正向导通电流为80A，对应的模块导通电阻约为94.5mΩ。与室温下相比，模块导通电阻有明显增长，约为室温下的2.4 倍。与25A 模块高温导通特性对比(器件结温由25升高到150℃时，导通电阻由158mΩ􀀃增加到382mΩ)，可以看到，在150℃高温下，该6.5kV 100A 模块导通性能同样符合芯片并联预期。在制备高压SiC 大功率开关模块时，多芯片并联技术是必备的技术方案，多芯片并联均流技术是高压SiC 模块所必须解决的关键技术，研究结果表明，该6.5kV 100A 模块实现了较好的芯片通态均流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gXFN0F3tYicHUnM4D072wgW5vXUgow3iaW91vXDr4DF8UeLJiaZibhNakWA/640?wx_fmt=png&from=appmsg)
+
+图4 为6.5kV 100A SiC 功率MOSFET 模块导通电阻随器件结温变化关系，模块温度变化范围25~150℃。随温度增加，模块导通电阻由40mΩ(Tj \= 25℃)逐渐增长到94.5mΩ(Tj \= 150℃)。该模块导通电阻增加，主要由模块内部MOSFET 器件漂移层电阻增加导致。随温度升高，半导体内晶格震动加大，使得载流子声子散射加剧，从而降低SiC材料体迁移率降低，导致SiC MOSFET 器件漂移区电阻增大。在制备高功率模块和变流系统时，需要多芯片并联，此时器件导通电阻正的温度特性，更利于实现芯片间电流均流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gn9oYc8JlL3icJNhwanJ9zwAL4cNTcbyKJicZ8r6EFgic83LVn3mCkt6pQ/640?wx_fmt=png&from=appmsg)
+
+图5为6.5kV 100A SiC功率MOSFET模块阈值电压随器件结温变化关系，模块温度变化范围25~150℃。该模块阈值电压定义为漏源极电压VDS为10V时，漏源极电流IDS为20mA 时，栅极所施加的栅压。该模块阈值电压由3.53V(Tj \= 25℃)逐渐降低到2.55V(Tj \= 150℃)，对应温度变化斜率为-7.8mV/℃。SiC MOSFET 器件对于给定的栅介质厚度及栅氧介电常数，阈值电压随温度变化特性主要由SiC/SiO2界面处的界面电荷表面电势及界面态内俘获的反型层电子决定。器件阈值电压随器件结温变化速率与Cree 1200V 产品datasheet 中报道结果在同一水平(约为\-7mV/℃)，在结温150℃时，器件阈值电压大于2.5V，表明该款模块阈值电压满足高温大功率开关应用需求。
+
+6.5kV 100A SiC功率MOSFET模块中所选用的SiC MOSFET 和SiC SBD 芯片，均采用浮空场限环结构作为器件终端保护结构，通过有限元仿真软件SILVACO ATLAST CAD对器件终端结构进行阻断性能仿真优化。最终终端保护结构由85 根浮空场限环组成，终端总宽度为600μm。对25A 封装模块阻断性能测试，芯片阻断耐压大于7.8kV，在阻断电压6.5kV下，模块漏电流小于2μA。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gZfbwiaFjK22esXCw2T0x2o3XcoC2IYMTdc3MicQaugRfQT2YX7Wc3qicA/640?wx_fmt=png&from=appmsg)
+
+图6 显示了室温下6.5kV 100A SiC 功率MOSFET 模块阻断性能的测试结果。测试过程中，栅极和源极短接，在器件阻断电压6.5kV下，对应的器件漏电流为8.7μA(相当与4 个MOSFET 芯片和4 个SBD 芯片漏电流相加，与预期漏电流值一致)。与6.5kV Si IGBT 功率模块(ABB，5SMX12M6501)相比，该SiC模块的漏电流仅为Si IGBT模块的1/3。器件漏电流与温度强相关，从而成为限制Si 功率模块最高工作温度的重要因素之一，SiC 材料宽的禁带宽度确保了其在高温下依旧保持较小的漏电流，因此SiC功率模块可在更高的环境温度和更严苛的环境下工作。
+
+3\.   6.5kV 高压 SiC MOSFET 模块动态性能分析
+
+针对单管芯6.5kV/25A MOSFET 基本动态特性，本文通过6.5kV，25A 模块动态开关波形进行测试表征。由于测试电路驱动能力的限制及缺少测试匹配6.5kV/100A 二极管，本论文暂时未进行6.5kV/100A 模块动态性能测试，将在后续的研究中进一步表征分析。图7 为6.5kV 25A SiC 功率MOSFET模块关断波形，母线电压3.6kV，栅压VGS \= -5V/20V，导通电流25A。模块关断时间84ns(关断时间定义为90%导通电流到10%导通电流)，模块关断损耗1.31mJ(关断损耗定义为10%母线电压到2%导通电流之间模块的功耗)。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gFuibsqqL3USOlKicWJNduNiaLqgRdJEu62VhBjrB18D5cd6VL29IHepOA/640?wx_fmt=png&from=appmsg)
+
+图8为6.5kV 25A SiC功率MOSFET模块开通波形，母线电压3.6kV，栅压VGS \= —5V/20V，导通电流25A。模块开通时间140ns(开通时间定义为10%导通电流到90%导通电流)，模块开通损耗12.3mJ(开通损耗定义为10%导通电流到5%母线电压之间的模块功耗)。由开通波形可知，测试系统中所用二级管反向恢复时间约200ns，二极管较慢的恢复时间导致了6.5kV 25A功率MOSFET模块开通时间和开通损耗增大。本研究中6.5kV 25A SiCMOSFET 器件的动态开关性能，与Cree 公司报道的研究报道结果接近，均为100ns 量级。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723gbt6oEEjmTQiap9m1NKYianibBsXXTxOMUodT7hdNjc5ypAP6tlGOQo4kQ/640?wx_fmt=png&from=appmsg)
+
+最终，本文对自主6.5kV 25A SiC 功率MOSFET模块与Cree 6.5kV 25A SiC 功率MOSFET和ABB6.5kV IGBT 功率模块的开关损耗进行了对比。3 款模块具体的开关损耗在表1 中列出，由表可知，本研究团队研制的6.5kV SiC MOSFET 动态开关损耗与Cree 公司报道结果在同一水平。与ABB 公司6.5kV Si IGBT模块对比，该SiC 功率MOSFET模块的总的开关损耗是传统 Si-IGBT 模块的1/15。并且6.5kV SiC 功率模块相对于Si IGBT 模块可以实现更高的开关频率，可以在高达20kHz 频率下工作，并保持较低的开关损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLske4tic9Q6T7gckPb8OK723g5PrhKtMfjericwcWpzzrfkpZWWoIXWAibeX7B3b22hiahZibOpYkFQgS9g/640?wx_fmt=png&from=appmsg)
+
+4\.  结论
+
+本文报道了6.5kV，25A 及100A 两款全SiC功率MOSFET模块制备及测试结果。对比了6.5kV、25A及100A 两款模块导通性能及阻断性能，结果表明，在6.5kV 100A 模块中多芯片并联并未引入明显的附加电阻，模块漏电流也符合芯片并联预期。通过6.5kV、25A 模块动态开关波形进行测试，表征了单管芯MOSFET 动态性能特性。在工作电压3.6kV，导通电流25A 下，对模块进行动态测试，结果表明SiC MOSFET 具有快速的开关特性，其中开通时间(开通损耗)和关断时间(关断损耗)分别为140ns(12.3mJ)和84ns(1.31mJ)，基于此动态测试结果，表明6.5kV SiC 功率模块可以在高达20kHz 频率下工作，并保持较低的开关损耗。基于本文研究可知，6.5kV 全SiC模块具有优越的动静态性能，电能转换及配电网络领域具有巨大的应用前景。
+
+**注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。**  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsl3hte5TGNd1rkG4U8YHauAibeANDxXDLib2f0iamUlPVUa5HflhfheiaVMby4JxWyIyFnrv19DEiarQKw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmSS80kzCfTUHPJEKDjyzSCeXic4QdL4Pe8H0DAznZ4t7Vgicz6ibgp6rGzplvv9wvHpsLfWEz9Mz6eg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslRWJA1libIEbpaQ1mjeiaqqbxW3JSicMM8aLuYByKmCC8zZVJ4y1icVvFKhGLENr7XQO8zSvZZia6Q0Ew/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)

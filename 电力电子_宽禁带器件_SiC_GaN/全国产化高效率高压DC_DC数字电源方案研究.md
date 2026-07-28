@@ -1,0 +1,173 @@
+# 全国产化高效率高压DC-DC数字电源方案研究
+
+原创 王一丁，何 翔 SiC碳化硅MOS管及功率模块的应用 2026-01-22 12:05 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/GiH6HCftSfwLaEZC22DBaw](https://mp.weixin.qq.com/s/GiH6HCftSfwLaEZC22DBaw)
+
+文章来源：机电工程技术
+
+作者：王一丁，何 翔，林致雨，罗 润，陈根余（成都四威功率电子科技有限公司， 成都 610097）
+
+摘要：提出了一种全国产化高效率高压DC-DC数字电源设计方案。该电源高压输入为DC710V，采用第三代半导体碳化硅器件， 具备四路输出功能，经过产品样机实测，整机输出功率达到6.6 kW，转换效率高达96.38%，其尤为重要的是，该产品实现了全国产化设计。此外，创新性地采用了一种智能化动态负载响应方法，经实验验证，在动态负载情况下实现了输出电压过冲和跌落的显著改善，实测过冲量减小了17.10%，跌落量减小了23.86%。该方法相对于传统模拟控制通过牺牲其他性能指标的控制策略，或 者采用增加电路规模和成本来提升动态性能等手段，在保持现有电路硬件规模不改变的情况下，通过灵活的数字软件控制提升了电源动态响应能力，为相关领域的电源应用提供了新的技术思路与实践参考。
+
+关键词：高压供电；数字控制；高转换效率；全国产化
+
+0. 引言
+
+随着电源用电设备功率需求逐年增大，为减小系统供电电流、减小传输损耗和线缆体积质量，以及以 SiC 碳化硅和GaN 氮化镓为代表的第三代宽禁带半导体产品应用逐渐成熟，高压DC-DC 数字电源作为关键的能量转换装置，其需求场景也越来越多。比如，新能源电车充电平台，由传统的400V 电压平台向800 V 电压平台逐 渐升级；在工业自动化系统中，为各种复杂的工业设备提供稳定的电力供应，确保生产流程的连续性；而在智能电网方面，它是实现电能的高效传输和灵活分配的重要环节，对促进分布式能源的整合与优化起着至关重要的作用。如此广泛的应用需求进一步展现了高压 DCDC数字电源的重要性和发展潜力。 
+
+但是，国内在该领域的发展仍存在一些问题和难点。 一方面，在关键器件的技术掌握上，长期依赖进口器件的情况较为普遍，这不仅影响了产品的成本和供应稳定性，也在一定程度上制约了国内相关技术的创新发展。 例如，在高压功率器件方面，传统的硅基器件在高电压、 大电流条件下的性能瓶颈日益凸显，其导通电阻较大， 开关损耗高，限制了电源的转换效率和功率密度的进一 步提升。而且，在中美贸易战的不断升级背景下，美 国对进口器件的出口限制和关税不断提高，对中国采取技术封锁，而且随时有断供的风险，这使得依赖进口 器件的情况对国内产业的不利影响更加突出。尽管近年 来，随着中国产业升级的需要，政府大力出台相关政策 进行支持，企业不断加大投入，国产化器件的研发也如 火如荼地开展起来，高端器件的国产化产品也屡见报端，但实现全国产化产品仍然面临着诸多技术难题。并非如表面所见已经不存在技术门槛，仍需要在技术细节和工艺水平上进行深入的研究和突破。 
+
+另一方面，在电源的动态响应能力方面，虽然已有一些研究成果，但现有的方法在面对复杂多变的负载情况时，仍存在一定的局限性。多数电源在遇到快速负载突变时，输出电压和电流的调节速度和精度还不够理想， 导致系统的稳定性和可靠性受到影响。在传统模拟控制的情况下，可通过电压滞环控制和电流滞环控制提升 动态响应特性，但受到电压纹波和电磁兼容等性能恶化的限制，无法大幅提高动态响应能力；也可通过增加额外的电路来提升负载动态响应能力，但控制较为复杂，也增加了电源的体积和成本。在保持现有电路硬件规模不改变的情况下，通过简易控制来提升电源的动态响应能力成为亟待解决的问题。 
+
+在此背景下，研发高性能、高可靠性且具备自主知识产权的高压DC-DC 数字电源，对于提升我国在相关领域的技术水平与产业竞争力具有深远的重要意义。因此， 本文针对上述难题，在用户实际产品需求的基础上，研究输入为DC710V 的高压DC-DC数字电源设计方案， 采用第三代半导体碳化硅器件，实现全国产化设计，并通过创新的智能化动态负载响应方法，解决现有电源在动态响应方面的问题。
+
+1. 电源总体设计方案分析
+
+产品用户提出的DC-DC数字电源的设计要求为：输入电压为高压DC710 V±10%，主功率输出DC28V/225A， 辅助功率输出DC28V/1A，DC8V/12A和DC+6.5V/35A， 总输出功率为6.6kW，设计尺寸为350mm×190mm×24mm，使用RS422 接口和上位机通信，产品实现全国产化。 
+
+由于电源小型化要求很高，功率密度大，因而电源 必须采用高频的开关变换。但是对于传统的硬开关变换 控制，开关频率较高，开关管的开关损耗加大，电路变 得极为不可靠，不能满足要求。综合系统要求，在不增 加系统复杂性的基础上，必须采用谐振软开关技术降低 开关损耗，它在不增加任何辅助开关的基础上，充分利用了谐振电感、谐振电容以及开关管的输出分布电容在 开关死区期间实现谐振，从而达到开关管在开关转换期 间的零电压开通。这样可减低损耗，提高了变换频率和效率，同时也减小了开关管的开关应力，提高了电源的 可靠性。 
+
+电源的核心主功率部分采用全分立器件进行设计， 辅助功率部分采用成熟的商品化标准电源模块设计。因为电源输入范围较小，经过对比选择 LLC 拓扑进行实现。LLC 拓扑的优点是几乎全负载范围可实现开关管的零电压开通，使得电源的开关损耗大幅降低，电源的转换效率更高，体积更小；近似于正弦的谐振电流波形使其开关频率的高次谐波分量较小，而且谐振电路的PFM 调频控制方式属于抖频设计，能使 EMI相关频谱变得低而宽，从而造成对系统 EMI的干扰较小；由于拓扑采用固定占空比0.5设计，电源可以不用体积较大的输出电感进行储能滤波，节省了体积和成本，更加容易实现小型化设计；并且副边整流管电压的应力相应降低，器件耐压等级可以降低，有利于提升效率。LLC 拓扑的缺点是由于 LLC 电源采用调频控制模式，仅有开关频率的一小段区间适合调整其电压变比，其输入输出范围不能变化太大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6pjWLq9GQWRJpnjEKFR58BEW3HgrcbxYg2VoLEJecErZ3JFJ89tsGicA/640?wx_fmt=png&from=appmsg)
+
+本设计电源采用半桥LLC拓扑实现，如图 1 所示。 电路原边由半桥变换SiC开关管 Q1、Q2、谐振电感 L1、 谐振电容 C1、C2组成，直流电压 DC710V 通过谐振网络斩波为交流电压通过变压器T1电气隔离至副边输出；副边由自驱同步整流开关管 Q3、Q4 和输出电容 C3组成， 电源副边选择采用变压器中心抽头加全波同步整流方式提升效率，相较于全桥整流方式可减少整流管导通损耗， 变压器副边交流电压通过整流变换为DC28 V输出。
+
+数字控制方面，采用 DSP 作为电源的主控芯片，DSP 可以实现采集、运算、控制和复杂的逻辑数据处理等强大功能。输出电压通过差分采样、输出电流通过采 样电阻进行采样运算放大后，进入到DSP 的ADC单元进行运算。采样信号通过 DSP内部的 2P2Z PID控制器进行环路计算，计算结果通过 EPWM 端口转化成 PFM 信号， 通过数字隔离器和驱动器对原边开关管进行驱动。原边开关管通过死区配置避免直通的风险。副边采用自驱同步整流设计， DSP通过GPIO 采集温度传感器信息，并且通过422接口和上位机进行通信。
+
+2. 电源硬件设计
+
+2.1 DSP选型
+
+数字电源的控制 DSP 长期以来被 TI公司的 C2000 系列所垄断。近年来，随着湖南进芯、毂梁微电子等公司在国产 DSP 研发取得重大突破，曾经高端的 DSP 芯片壁垒也被攻克。本次电源选择 ADP32F035 DSP进行研发，该芯片具备双核设计：32位定点主DSP核、32位支持浮点 CLA 核，包含 11 个以上的12 位 ADC 通道，运算能力强大，支持单3.3V 电源供电方式，内部片载 LDO为内核电压供电，简化了外部供电电源的设计复杂性。 具备多种通信接口，灵活性高。
+
+2.2 主功率
+
+考虑热均匀分布和元器件的体积限制，DC-DC数字电源主功率 DC28 V/225 A 分为两组 DC28 V/112.5 A 输出来进行设计。 
+
+原副边开关管的选择需要同时考虑电压尖峰应力和降额裕量。原边输入电压为710V电压，选择瞻芯公司的IV1Q12030T4G 1200V SiC MOS 作为原边开关管使用。 副边输出电压为28V，平台电压应力为56V，选择平伟公司的PWDC025N10ES 100V MOS 作为副边开关管使用。 其性能参数如表1所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6H5v6YK4x1NiaoLuSicQDibGG9WktelDQFuRAnibJRDjc0WW6KhxFZyicKlA/640?wx_fmt=png&from=appmsg)
+
+综合考虑电源体积和开关损耗、效率的关系，选择开关频率范围为80~150 kHz， 最大负载点开关频率工作在80 kHz附近。 
+
+计算确定变压器匝比，如式 （1） 所示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w683icyGeL2E43UECtjUWNMx2S0TYJmlgqFSxmQ2Us0MKYDclqgVaXr4A/640?wx_fmt=png&from=appmsg)
+
+变压器匝比N取值为12，取Qe值为0.3，电感比Ln为6.66，计算交流等效阻抗Re值：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6CLzaQPiaiaebSLXn5jib1wJovI90BNaFhshw7ibVSAHHVricibgHaFZyl3EQ/640?wx_fmt=png&from=appmsg)
+
+计算谐振电容大小：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w61HZ1yEsibg8MicLruSicxB5bE4lHBsib3SjfNWsvMmohOLKVUoSUDTck1Q/640?wx_fmt=png&from=appmsg)
+
+谐振电容采用 1210-630V-33nF 陶瓷电容进行设计，考虑谐振电流大小和器件耐压降额的因素，采用32颗33nF电容，以8颗为一组进行串并联设计，最终的谐振电容的容量取值为264 nF。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6MBAibicUH3L58iasfJQZa8Q3E6ic4P5Z7efJL4jydl9H2AP0NuXaALDxLw/640?wx_fmt=png&from=appmsg)
+
+最终确定的谐振电感Lr，励磁电感Lm和谐振电容 Cr的取值分别为15μH、100μH和264nF。 
+
+为保证主功率回路中的谐振能量能够使原边开关管漏源电压谐振至零后再将驱动开通从而实现完全的软开关，同时不使开关管漏源电压谐振至零后产生次谐振震荡，通过硬件调试后确定的最终死区时间为350nS。
+
+2.3 辅助电源
+
+辅助电源为多路输出小功率DC/DC电源，辅助电源通过功率变换给原副边的控制、采样、运算、驱动等电路进行供电。经过需求分解，辅助电源的输出电压为原边12V，给辅助电源芯片和供电；原边20V，给原边SiC开关管供电；副边12V，给副边开关管供电；副边5V，给副边采样控制等芯片和通信芯片供电；副边3.3V， 给副边DSP芯片进行供电。 
+
+辅助电源采用常规反激拓扑实现，控制简单，体积小，能提供多路电压输出， 辅助电源的主要器件选择如表2所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6qnT6JFuW8ZEIROp1ZGQBguZjWuibvKEWdyV7cjjJePd2ARxicnENB1wA/640?wx_fmt=png&from=appmsg)
+
+2.4 隔离通信电路
+
+DC-DC数字电源的输入输出是完全隔离的，原边和副边控制芯片进行通信，必须通过数字隔离器进行实现。选用川土微CA-IS3720HS高速数字隔离器，其拥有两组 IN-OUT 功能，隔离电压高达3750V，传输速率150Mb/s，满足原副边通信传输要求。 
+
+电源内部通过高精度电压采样传感器、高精度采样电流传感器和温度传感器等多组传感器采集信号将输入 输出电压、输入输出电流、关键器件温度等实时数据并上报给 DSP进行汇总，同时可利用数字软件的优势通过无源器件进行采样运算，减少硬件成本。 
+
+两组主功率输出之间的通信采用 CAN 通信来实现， 采用芯力特专用CAN芯片SIT1051A进行通信。支持3.3V和5V MCU，支持 5 Mb/s 数据数率。DSP 采集和上位机通过RS422接口进行通信交互，选用国博 GB491 芯片作为 RS422收发器，GB491是可兼容 3.3V/5V MCU、全双工通信RS-485/RS-422收发器，可实现10Mb/s的无误码数据传输。
+
+3. 电源软件设计
+
+3.1 软件主架构
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6dYf9cvmpORsK6pIISB4ZVD0cqMEFGP5ohRPXhOtDKBZC8cYzr9ux1Q/640?wx_fmt=png&from=appmsg)
+
+DC-DC数字电源采用前后台型软件架构，包括一个主程序和两个中断程序。其程序流程如图2所示。 
+
+主程序用 C 语言实现，主要完成器件级、外围设备级和系统级的初始化以及后台任务的轮询。后台任务通过 3 个不同的定时器实现时间片的分配，分时执行各项任务，实现任务的调度。3 个定时器的中断时间分别为100ms、50ms和100 μs，分别用于实现输出电压软启动任务、通信任务以及保护任务。通信任务中实现DC-DC电源与上位机的通信功能。DC-DC电源的输入过欠压保护、输出过流保护、短路保护以及电源的过温保护等功能则是在保护任务中实现的。 
+
+两个中断程序用汇编语言实现。其中，ControlISR中断服务程序以固定的100kHz的频率执行，用于完成 AD采样信号的处理以及CNTL2P2Z 模块的参数计算；PW⁃ MISR中断服务程序以开关管的开关频率执行，用于完成ePWM模块参数的更新，即开关管驱动信号的更新。
+
+3.2 智能化动态负载响应策略
+
+由于传统模拟电源只能实现单环路控制，无法兼顾稳态和动态控制，从而实现动态负载响应的最优化。本文采用了一种智能化动态负载响应的策略，利用数字控制的控制灵活的优点，可设置多套反馈环路 PID 参数， 并且根据系统不同负载特性分段进行配置，并进行智能化自适应平滑快速切换，达到对负载动态突变快速响应的目的。智能化动态负载响应策略软件流程如图3所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6kcDDA2djLswvffwGuhEDiatiamQjGTQ5J15aUQ3KTbeibKlDDc63GjRicA/640?wx_fmt=png&from=appmsg)
+
+（1） 电源进入工作状态后，实时采样其输出电压， 设定输出电压基准与采样值减法运算得到输出电压误差 作为电压环输入量参与迭代方程运算，最终得到输入电 流幅值特征信号。  
+
+（2） 当检测到输出电压误差err大于设定门限，说明 系统中有较大的的负载变化，已经产生了电压超调，此时电压环的引入快速环路，增大比例系数 KP；当系统完成负载响应过程，趋于稳定状态，err小于设定门限，再逐渐减小比例系数KP，切换回稳态环路参数。 
+
+（3） 电压环路瞬时产生较大变化会导致控制系统不稳定，阶跃信号的产生会造成输入侧电流畸变，情况严重或造成电源保护，因此快慢环路需要做到平滑切换， 每进一次中断比例系数调整10%。 智能化动态负载响应通过设定不同负载段下两种稳态环路和负载快慢变化两种动态环路，由电源智能判断并进行选择最适合的工作参数，完成系统的快速响应。
+
+4. 设计方案验证
+
+电源主功率板采用 8 层印制板设计，两块相同主功率板各自输出DC28V/112.5 A，共DC28V/112.5 A；辅助功率板输出 DC28 V/1 A、DC8V/12 A、和 DC6.5V/35 A， 对设计方案进行实物设计和测试验证。
+
+4.1 DC-DC数字电源总体指标验证
+
+DC-DC数字电源的外形尺寸为350 mm×190mm×24mm，外形尺寸如图4所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6a8tDic8Bia4XhhjrSc2sMl6uibh4lsFPCscUV5fmaibWoDjx029Q8JXeKA/640?wx_fmt=png&from=appmsg)
+
+DC-DC数字电源PCB图和实物图如图5、6所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6qYocWgH0icFJ0QE5vmWRI4v8Oa3VjiaurReLxBJBzGFD9nQFLQgXEWwA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6cJCpkHSm3iartRlVkPJOxoZNWJYDLK8DBxfNIvafkon8CWFhAtOXuXw/640?wx_fmt=png&from=appmsg)
+
+4.2 DC-DC数字电源软开关实现情况验证
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6XZdYIoKq6oN8nQKdvQoTlVeGJLHjqXWDmCXq9UTGCo3Ttial0iapelvg/640?wx_fmt=png&from=appmsg)
+
+DC-DC 数字电源测试波形如图 7 所示，示波器 1 通道为原边开关管的栅极驱动波形，2 通道为原边开关管的漏源极电压波形，3通道为谐振腔电流波形。由测试波形可以看出，开关管的漏源极电压谐振至零后，栅极驱动才使开关管开通。实现了零电压开关ZVS，降低了开关损耗，提升了转换效率，转换效率测试结果如表3所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6p5NgzpoCAGCbJqHO0aicTPg2CicLFWyKpfV1uoYkHvulZb2tNSsp6QLA/640?wx_fmt=png&from=appmsg)
+
+4.3 智能化动态负载响应策略验证
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6OaNf4icibjzziarOjuq9N2fGsUNQS3njXrFUq6qzpS6UfGS1Cw9zkmELQ/640?wx_fmt=png&from=appmsg)
+
+对比采用智能化动态负载响应负载策略前后的动态负载测试波形，测试条件为25%~100%动态负载跳变， 频率200Hz，占空比10%。测试结果如图8所示， 从表 4 的负载动态响应测试结果对可以看出，采用智能化自适应动态负载策略后，脉冲负载条件下输出电压的过冲和跌落分别减小了17.10%和23.86%。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnrYJiazibQAxsFA2Hsaiag4w6ibSrDTW9v3VUbZ9OuR1jnUggxMB43IicS8Tbn5a5KQgFVicrUVgT6v3yA/640?wx_fmt=png&from=appmsg)
+
+5. 结束语
+
+本文深入研究了全国产化高压高效率DC-DC 数字电源的设计方案，旨在解决现有电源在性能和国产化方面的诸多问题，主要体现在以下几个方面。
+
+（1） 创新性地采用了智能化动态负载响应策略，通过精心的设计与优化，在不增加额外的电路情况下，通过数字控制的灵活算法，在动态负载情况下成功实现了输出电压过冲和跌落的显著改善 ，过冲量减小了17.10%，跌落量减小了23.86%，极大地提升了电源在动态负载条件下的性能表现。 
+
+（2） 产品样机成功实现了开关管软开关控制，通过对开关过程的优化，有效减小了开关损耗，进而提升了电源的转换效率。经过样机的实际测试，整机转换效率达到了96.38%。 
+
+综上所述，本文所提的DC710V 输入的高压DC-DC数字电源设计方案，在采用碳化硅器件、实现全国产化设计以及应用智能化动态负载响应方法等多方面展现出显著的优势。该电源不仅具备良好的输出性能，能稳定满足不同负载条件下的功率需求，还具有高转换效率和卓越的动态响应能力，为新能源汽车、工业自动化、智能电网等众多相关领域的电源应用提供了可靠且高效的解决方案。
+
+注明：  
+
+【版权声明】：本公众号平台注明来源或转载的文章，版权归原作者及原出处所有，仅供大家学习参考之用，若来源标注错误或侵犯到您的权利，烦请告知，我们将立即改正或删除。
+
+【免责声明】：本公众号平台对转载、分享的内容、陈述、观点判断保持中立，不对所包含内容的准确性、可靠性或完善性提供任何明示或暗示的保证，仅供读者参考。  
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7y6takB9fSysibKQHosicr8oxe78kybBtoHNEIe9m37GrhWmgzRKTXB5g/640?wx_fmt=other&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=16)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  加交流微信群，请加微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7IdKzsVAfsonk8XrEsLYcotJErMx7GsGpRTzbWqgcNA1hyxohsEXI4Q/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G79QVc4mUv0mUB6iaCbnIkLunouMLTPpicMiaLYV3hbye0xa68FuUM0IJow/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsnnLvhOnfm67FPIj4RLV0G7ffbgpzt2NMsDcGiarMO5cibQGbgFyjCmOfBoeIn7JRUdsgXFHY7Fyialw/640?wx_fmt=other&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)

@@ -1,0 +1,135 @@
+# 1200V碳化硅MOSFET与硅IGBT器件特性对比性研究
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/8vXvICeXemiJbEZa8SEWHw](https://mp.weixin.qq.com/s/8vXvICeXemiJbEZa8SEWHw)
+
+文章来源：电源学报
+
+作者：李 磊1.2.3，宁圃奇1.2.3，温旭辉1.2.3，张栋1,2,3(1．北京电动车辆协同创新中心，北京100081；2．中国科学院电工研究所，北京l00l90；3．中国科学院电力电子与电气驱动重点实验室(电工研究所)，北京100049)
+
+摘要：搭建了输出特性测试电路、漏电流测试电路、双脉冲测试电路和Buck电路．对l200V SiC MOSFET和SiIGBT的输出特性、漏电流、开关特性和器件损耗进行了时比研究，分析SiC MOSFET的主要优缺点。分析结果表明，SiC MOSFET在高温条件下依然拥有稳定的阻断能力；在同样的工作条件下，SiC MOSFET损耗更小，适合在高频率、大功率场合下使用；SiC MOSFET的跨导低，导通电阻大，所以门板驱动电压需要比较大的摆幅(-5V/+20V)；由于开关速度很快，SiC MOSFET对线路杂散参数更加敏感。
+
+关键词：碳化硅；输出特性；漏电流；双脉冲测试；Buck电路
+
+引言
+
+硅(si)电力电子器件的性能逐渐接近材料理论极限。目前．商业化的SiIGBT最高耐压为6.5kV。由于关断时的拖尾电流会造成比较大的损耗，采用SiIGBT的大功率电力电子变流器在硬开关的条件下。最高开关频率仅为几kHz。因此。在大多数的中等电压等级(6.5～10kV)应用中，变流器为了实现较高的开关频率，常常采用较低电压等级(1.7～3.3kV)的器件结合复杂的多电平控制策略。这使得大功率、高频率的电力电子变流器体积庞大、结构复杂。
+
+近年来，以碳化硅(SiC)为代表的第兰代半导体材料的出现．为器件性能的大幅度提高提供了可能。与Si芯片相比。SiC芯片损耗小、耐高温、并能高频运行。损耗小，使得SiC芯片单位面积负荷能力增强，同等功率的模块所需芯片面积大大减小，能有效减少功率模块的体积和重量嘲；现有Si芯片的常规运行温度是125℃。而SiC芯片能够稳定运行在200℃以上，所制造功率模块的耐热能力提高一倍，可以减小冷却系统的体积和重量引；受si芯片运行特性限制．采用Si芯片的变流器工作频率最高为10kHz．而采用SiC芯片的变流器最高运行频率可达100kHz．更高的开关频率可以减小变流器运行过程中所需要的能量存储，从而降低储能单元的体积和重量。SiC被认为是目前适合大功率和高温工程及高压器件应用的综合性能最好、商品化程度最高、最成熟的材料。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7MyFChniaH3oeeoHFsichffT0O7U2nUvKk8Ey9zLlgrEDRMDL5libuxlRgA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7MJPgAeAwia3YzzYVAgUFnECHrHXBibVvnnXIJictbh7esKa5jVL5SqViakQ/640?wx_fmt=png&from=appmsg)
+
+为全面分析SiC MOSFET相对于Si IGBT的优缺点，对1.2kV SiC MOSFET和Si IGBT IKW40N 120T2(IKW)进行研究。选取的研究对象为TO-247封装的Cree公司1.2kV/40ASiCMOSFET C2M0040120D(C2M)和Infineon公司1.2kV/40A SiIGBT IKW40N120T2(IKW)，如图1所示，器件的具体参数如表1所示。
+
+1. SiC MOSFET的输出特性
+
+图2所示为SiC MOSFET在双脉冲测试电路的基础上修改电路参数得到的输出特性测试电路，其电路参数如表2所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7MBxNVbcBic1BXp4V01eaCuXKGib2ljibVr3Ec86oXsj4wHZ9xVRqSmq4oA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7MljSibVjvVMZlH3pcibIcHMQHZhWCuvgOpcC3ZZbRJFFicGcBllJuVzjwQ/640?wx_fmt=png&from=appmsg)
+
+输出特性测试电路采用空心电感负载进行单脉冲测试，只需很短的时间就可得到某一门极电压下的输出特性。在测试之前，器件在加热台上加热lh，以保证器件的结温达到设定值。器件结温为75℃、125℃、150℃的输出特性曲线如图3所示。
+
+从图3可以看到，对于SiC MOSFET。其输出特性曲线可调电阻区和饱和区的界限并不明显，这是因为SiC MOSFET的跨导比较低，即使在饱和区，输出特性也不是一条平直的线；随着电流上升，SiC MOSFET的导通压降逐渐上升。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7MPfpW90BMrxncDGk1g1LfbsibJuqlJXFdFbKkrvrfTffzy5KhvnLY2BA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7MibMhibLVmEiax5icVyibtdefrykkwpnmianEDQDA1US8DXRupLsHmEl5ZNLA/640?wx_fmt=png&from=appmsg)
+
+随着结温升高，SiC MOSFET的导通压降逐渐上升，但电流在36A以下时，其导通压降依然小于Si IGBT的导通压降。这说明，在宽温度范围（150℃以下）、宽电流范围（36A以下）内，SiC MOSFET的导通压降小于Si IGBT的导通压降，亦即导通损耗更小。
+
+SiC MOSFET和SiIGBT在不同门极电压、不同结温下的导通电阻如图4所示。从图4可以看到，在相同结温、相同门极驱动电压下，SiC MOSFET的导通电阻大于SiIGBT的导通电阻，但随着门极驱动电压的升高，SiC MOSFET的导通电阻逐渐降低，结温为75℃、125℃和150℃时，SiC MOSFET在20V门极驱动电压时的导通电阻相比于12V时的导通电阻分别下降了8.5%、14.2%和22.4%。
+
+  
+
+SiC MOSFET的跨导低、导通电阻大，所以门极驱动电压需要较大的摆幅，一般为-5V/+20V。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7M6xbJsQ5eXsCgkbGQBfFgEkftX1pKflqicGxBSMk92kj5QbPiapLic2diaQ/640?wx_fmt=png&from=appmsg)
+
+2.SiC MOSFET的漏电流
+
+漏电流测试电路如图5所示，图中VDC为直流电源，电压为1200V，RG1、RG2分别为SiC MOSFET和SiIGBT的门极驱动电阻，阻值均为10Ω，RL1、RL2为电流采样电阻，阻值分别为1MΩ、1KΩ。
+
+图5实验过程中被测器件保持关断，不同结温下的测试结果如图6所示。测试结果表明：SiC MOSFET在结温为0～175℃时的漏电流均低于10uA，表现出了极为稳定的阻断能力；SiIGBT在结温125℃以下时，漏电流随结温变化很小，而在125℃以上时漏电流随结温上升而急剧上升。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7ME8jmxmEKC0pca9iakffMx0lRVm5ZUeibQVO2Jtutwvicr7N0uDXhbkE0w/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7McFfFXiaReM3pMrfOmFsgFOtic927icS7387SwibMBtuMmUWibP0DVOdv2xQ/640?wx_fmt=png&from=appmsg)
+
+IGBT的集电极漏电流包含产生电流和扩散电流两部分．集电极漏电流密度可表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7MtjBd5Vab2iaSBsariaAGNJGyDckDjs5I3YISTxd3XHiaTiat8OM1cFXwpg/640?wx_fmt=png&from=appmsg)
+
+式中：q为电子单位电荷量；ni为本征载流子浓度；Dp为空穴的扩散系数；Tp为空穴的寿命；ND为杂质浓度；Tsc为空间电荷区额外载流子的产生寿命；W为空间电荷区的宽度。式(1)边第l项表示扩散电流分量，第2项表示产生电流分量。ni与结温的关系可以表示为
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7MvJVuU9NvCVlmZddYdbvFmbjlNnmg8Wh2towArmeRC2ibEPmhaTwr3SQ/640?wx_fmt=png&from=appmsg)
+
+式中：Eg(0)为载流子在绝对零度时所具有的能量，Eg(0)=1.205eV，k为波尔兹曼常数。从式(2)可以看出，ni随结温升高而呈指数上升。将式(2)代入式(1)，当结温上升时，IGBT集电极漏电流密度的两个分量均急剧增大，扩散电流分量变化更为剧烈。结温比较低时,集电极漏电流主要取决于外加的阻断电压，即取决于W，集电极漏电流以产生电流为主；结温升高到一定程度时，扩散电流急剧上升，集电极漏电流开始以扩散电流为主：转折点结温约为125℃．这就是结温在125℃以上时IGBT漏电流随结温上升而急剧上升的原因。
+
+对于SiC MOSFET．由于SiC材料本身的宽禁带特性，在很高的结温范围内，其漏电流的主要分量均为产生电流。所以，随着结温升高，SiC MOSFET的漏电流变化很小。SiC MOSFET稳定的阻断能力使其更适合在高温条件下工作。
+
+3. SiC MOSFET的开关特性
+
+研究器件的开关特性对确定变流器的工作频率和死区时间。估算器件损耗和变流器效率具有至关重要的作用。开关特性主要通过双脉冲电路进行测试。双脉冲测试电路的原理图与输出特性测试电路相同，门极驱动电阻如表1所示，其他参数如表3所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7MhFsVA832ABA3bibRX1jVAH2DOA73zhBllSI7AlbSib272uoicUOQ8HsUw/640?wx_fmt=png&from=appmsg)
+
+  
+
+实验测试了不同结温下的开关特性，SiC MOSFET和SiIGBT在结温125℃的开关波形如图7所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7M9pRibozrJ53JX5Xd751FBst03iad6wdr3JCmHaaDZbdYbduL6tUqf0LA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7Ma0Vh3z0zNbvouMEtRuAoAkxG31HkdMO4qW8RIqOFP25ylSgWVvlAMA/640?wx_fmt=png&from=appmsg)
+
+由图可见，与SiIGBT的开关波形相比，SiC MOSFET的开通、关断时门极电压没有明显的米勒平台；关断时没有拖尾电流；波形振荡严重。开通、关断时门极电压没有明显的米勒平台是因为SiC MOSFET的跨导比较低，输出特性饱和区对应的源漏极电压比较大．且并不是一条平直的线．故随着漏源极电压和漏极电流的变化．门极电压也将发生变化；关断时没有拖尾电流则是因为MOSFET为多子导电的器件，没有电导调制效应；门极电压波形振荡是因为SiC MOSFET的开关速度很快。源漏极电压变化率很大．米勒电容快速地充放电并产生较大的充放电电流。当米勒电容充电时(关断过程)，门极和源极之间的电容吸收电流，门极电压上升：当米勒电容放电时(开通过程)，门极和源极之间的电容提供电流，门极电压下降：在米勒电容和驱动电压的双重作用下，门极电压产生较严重的振荡。为抑制门极电压振荡，可以在门极和源极之间放置一个小电容(1nF左右)，为米勒电容的充放电提供低阻抗的路径；在驱动回路上靠近门极的位置放置一个磁珠，抑制驱动回路中电流的变化。
+
+由于SiC MOSFET开关速度很快且关断时没有拖尾电流，源漏极电压变化率和漏极电流变化率较大，这使得SiC MOSFET的开关特性对电路的杂散电感非常敏感，源漏极电压和漏极电流的开关波形出现较为明显的振荡。
+
+电路板的布局会影响电路板杂散参数的大小．从而对SiC MOSFET的开关波形产生影响。图8所示为实验用双脉冲电路测试板。测试板上高低压部分分离布线，驱动板位于低压电路一侧．且靠近于被测器件。为抑制干扰，Vgs采用BNC接头进行测试；iD通过测量采样电阻两端的电压得到．采样电阻为5个0.5Ω电阻并联，总电阻0.1Ω(0.1V/A)，电阻两端的电压通过BNC接头测量；Vds采用高压差分探头测量，为尽量抑制杂散电感对测试结果的影响，在被测器件源极和漏极分别焊接一根排针．高压差分探头直接插在排针上。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7MMrJXViaknWljqyWsh3SPib0llmS4XiaKBD8Myk0dbqMJ72V7bdOqtAntw/640?wx_fmt=png&from=appmsg)
+
+图9所示为SiC MOSFET和SiIGBT开关损耗随结温的变化情况，图中，Eon为开通损耗，Eoff为关断损耗，Etotal为总损耗。在相同的结温下，SiC MOSFET的开关损耗仅为SiIGBT的1/3：随着结温升高。SiIGBT的开关损耗均逐渐增大，而SiC MOSFET的开通损耗增大,关断损耗降低，总的开关损耗在高温情况下变化不大。所以，在相同的工作条件(开关频率、占空比、散热功率等)下，SiC MOSFET相对于SiIGBT的损耗更低，结温更低；换言之。在相同的结温限制下，SiC MOSFET的开关频率可以更高。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7MgibUAtM9HScbru6RjAMPibjE3ss4PCnU79PT3Tk6CCO70g9d8sdY3VwA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7MEdvFrFxw5NoUoLPyKCxB4zCqFGdoGCvNB10NXbgErKKglOLvbQv8JQ/640?wx_fmt=png&from=appmsg)
+
+图10所示为SiC MOSFET和SiIGBT开关时间随结温的变化情况。在相同结温下，SiC MOSFET的开关时间约为SiIGBT的1/3。以结温125℃为例，SiC MOSFET的开通延迟时间(tdon)、上升时间(tr)、关断延迟时间(tdoff)、下降时间(tf)分别为32、52、47、58ns；SiIGBT的开通延迟时间(tdon)、上升时间(tr)、关断延迟时间(tdoff)、下降时间(tf)分别为90、130、452、176ns：所以SiC MOSFET的总开关时间为189ns，而SiIGBT的总开关时间为848ns。
+
+考虑采用2个开关器件构成的桥臂，假设死区时间为50ns。如果采用SiC MOSFET，最小周期为478ns，最高开关频率(不考虑其他因素，如散热、无源器件等)为2.09MHz；如果采用Si IGBT，最小周期为1796ns，最大开关频率为556kHz。因此SiC MOSFET更适合高频率场合下使用。
+
+4\. SiC MOSFET的工作性能
+
+为测试SiC MOSFET的工作性能．分别搭建了基于SiC MOSFET和SiIGBT的Buck电路。电路参数如表4所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7MNxnFwsJW9X81OQCc0EKg3dOObkYyPOuNw4kJhD6I1CHMHat5kgcHMg/640?wx_fmt=png&from=appmsg)
+
+实验分别测试了输入电压为70、100、140V、Buck电路工作10min之后开关器件的壳温．测试结果如表5所示。在相同的工作条件下，SiC MOSFET的壳温显著低于SiIGBT的壳温．这说明SiC MOSFET的损耗更小：在相同的散热条件下．SiC MOSFET的开关频率可以更高。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7MBibibW0tlVcSR7KgiaibAeQFGn0uBkj8H2QtJwcz3Nk2uUJB9Vzgm0X5Iw/640?wx_fmt=png&from=appmsg)
+
+图11所示为输入电压为140V时Buck电路的运行波形。SiC MOSFET工作过程中的振荡明显大于SiIGBT。这也再次证明，SiC MOSFET的开关特性对线路板杂散参数更加敏感。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLsmibl3TRwIAVlfWWws42Aia7MBBRamknX599TXGkxiawb46NzOgU9ia1iaxbyowLxrrqq8XvUGZ6fheiaeA/640?wx_fmt=png&from=appmsg)
+
+5\. 结语
+
+相对于SiIGBT，SiC MOSFET有以下优点：高温条件下依然拥有稳定的阻断能力；开关时间短、 开关损耗小．且随着结温升高其开关损耗不会明显增大。这些优点使其更适合在高频率、大功率的场合下使用。但其也存在以下缺点：导通压降较大。跨导较小，开关过程中门极电压、漏源极电压、漏极电流波形均有比较大的振荡。因此．为充分发挥SiC MOSFET的优势，在驱动SiC MOSFET时．需要注意以下几点：门极驱动电压的摆幅大．一般为-5V/+20V；在门极和源极之间放置一个小电容(1nF左右)为米勒电容的充放电提供低阻抗的路径：在驱动回路上靠近门极的位置放置一个磁珠．抑制门极驱动电压的振荡；合理设计电路板，尽量减小线路的杂散参数。
+
+注明：此文来源网络，是出于传递更多信息之目的，文中观点仅供分享交流，不代表本公众号立场。转载请注明出处，若有来源标注错误或如涉及版权等问题，请与我们联系，我们将及时更正、删除，谢谢。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kfcJrmcb2716g3x3ApLFKvEaFCadf8yxp2Qp7P8xwPviaQToWzMPNNhw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+
+    专注碳化硅器件的研发与应用。分享碳化硅器件的设计@研发@应用等行业资料。
+
+  
+加交流微信群，请添加个人微信：18126115420，并备注单位+姓名+研发方向。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2kELUCcUWDecF1MWkd0iaPYZGicRawwkSdBpC9NICKWmnlFgIl0GlfjeAA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslnEZsLZCv0tUfNhia70UU2koYF23N8tPa3ICcc9mtWqYI49sXCwNnkm4icoJtQgUQ432ZJbw9kgBeg/640?wx_fmt=png&watermark=1&wxfrom=5&wx_lazy=1&tp=webp)

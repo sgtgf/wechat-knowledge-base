@@ -1,0 +1,28 @@
+****Fault Diagnosis Method for Open-Circuit Faults in NPC Three-Level Inverter Based on WKCNN****
+Guozheng Zhang; Menghui Li; Xin Gu; Wei Chen 
+Tiangong University, Tianjin, China
+**■**[在线阅读](https://ieeexplore.ieee.org/document/11014611)   ****■****[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11014611)
+G. Zhang, M. Li, X. Gu and W. Chen, "Fault Diagnosis Method for Open-Circuit Faults in NPC Three-Level Inverter Based on WKCNN," in CES Transactions on Electrical Machines and Systems, vol. 9, no. 2, pp. 234-245, June 2025, doi: 10.30941/CESTEMS.2025.00012.
+**摘 要**
+随着电力电子系统对高可靠性和高可用性电力变换设备要求的日益提升，中性点钳位（NPC）三电平逆变器的故障诊断受到了广泛关注。为了应对故障特征提取的挑战，本文提出了一种基于小波核卷积神经网络（WKCNN）的端到端诊断方法，该方法能够从电流信号中提取多尺度特征，从而显著提高诊断准确性。该方法直接使用原始三相电流信号作为输入，应用小波核卷积自动捕捉频域故障特征，结合亚当算法优化的 Softmax 分类器，实现对 NPC 三电平逆变器的开路故障诊断。各种运行条件下的实验结果表明，该模型在多种故障工况下都具有较高的准确率，对比分析进一步证实了其在诊断效率和性能方面优于传统的机器学习和其他深度学习方法。 
+**Abstract**
+With the increasing demand for high reliability and availability in power conversion equipment within power electronics systems, the fault diagnosis of neutral-point-clamped (NPC) three-level inverters has garnered widespread attention. To address the challenges of fault feature extraction, this article proposes an end-to-end diagnostic approach based on a wavelet kernel convolutional neural network (WKCNN), capable of extracting multi-scale features from current signals to significantly enhance diagnostic accuracy. This method directly uses raw three-phase current signals as input, applying wavelet kernel convolution to automatically capture frequency-domain fault features, combined with a Softmax classifier optimized by the Adam algorithm to achieve fault diagnosis for NPC three-level inverters. Experimental results under various operating conditions demonstrate that this approach maintains robust diagnostic accuracy across multiple fault scenarios, with comparative analysis further confirming its advantages in diagnostic efficiency and performance over traditional machine learning and other deep learning methods.
+Structure of WKCNN.
+**作者信息**
+**张国政(Member, IEEE)**，1985年出生于中国大同。2008年在天津大学获得电气工程学士学位，2011年在天津科技大学获得电气工程硕士学位，2017年在天津大学获得电气工程博士学位。天津工业大学电气工程学院副教授，国家地方联合电气系统设计与制造工程研究中心的成员。研究方向包括电机、多电平逆变器及其控制系统。
+**李孟晖**，于2021 年在曲阜师范大学获得电气工程专业的学士学位，目前，正在天津工业大学电气工程学院攻读电气工程硕士学位。研究方向包括多电平逆变器的故障诊断和机器学习。
+**谷鑫(Member, IEEE)**，1980年出生于中国天津。分别于2003年、2006年和2010年获得天津大学电气工程学士学位、硕士学位和博士学位。目前是天津工业大学电气工程学院和国家电气系统设计与制造地方联合工程研究中心的教授，电机系统研究所副所长。主要研究方向为永磁同步电机、电力电子变换器及其控制系统。
+**陈炜(Member, IEEE)**，1977年生于中国山西。分别于2000年、2003年和2006年获得天津大学电气工程学士学位、硕士学位和博士学位。现任天津工业大学电气工程学院教授，中国电机系统设计与制造国家地方联合工程研究中心副主任。研究方向包括电机驱动，电力电子。
+★
+《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE 副主席 Don Tan 博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
+**中国电工技术学会**
+**新媒体平台**
+学会官方微信
+电工技术学报
+CES电气
+学会官方B站
+CES TEMS
+今日头条号
+学会科普微信
+新浪微博
+抖音号

@@ -1,6 +1,6 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75RHwD2bJR7ntlJdea9m3VVcC8FDPdUxq0JDJictABFRibMNlHIoh0cIUNd80ZmqSMtOgfmib1jSS3myQ/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QrHibLgalBZmeEtF7tYtwXS8EH0bG4lqjiardCo3Z4JdbmDyd2mwtj8jWHZd6DWib0Axqq5HRKelZ4g/640?wx_fmt=png&from=appmsg)](https://www.acces.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_gif/WRO0RgZZ75QJAkfmoBLHoWRP2TAwUaHB74ic6HGUYXvlbQ5WzKZ30UMqgXsQa5msvPbFjLU9GGpoT7QmriaTajPg/640?wx_fmt=gif&from=appmsg)](http://www.njyxdq.com/)
+[![](重庆大学张栩_颜伟等_基于QR_BiGRU神经网络与区间抗差增广状态估计的线路参数区间追踪估计_images/img_000_f36e8268ce01.png)](https://www.fafee.org.cn/)
+[![](重庆大学张栩_颜伟等_基于QR_BiGRU神经网络与区间抗差增广状态估计的线路参数区间追踪估计_images/img_001_8bdc8fbfbd45.png)](https://www.acces.org.cn/)
+[![](重庆大学张栩_颜伟等_基于QR_BiGRU神经网络与区间抗差增广状态估计的线路参数区间追踪估计_images/img_002_4cbe5da63430.gif)](http://www.njyxdq.com/)
 **阅读提示：本文约 2600 字** 
 > 准确的输电线路参数估计是电力系统数据孪生建模与分析、计算的基础。然而，现有的参数估计方法多为静态估计方法，往往依赖多个量测断面联立估计，不仅存在方程规模庞大、求解效率低等问题，还缺乏对线路参数跟踪维护的能力。另一方面，由于测量误差以及不良数据的概率分布特征难以知晓，致使参数估计结果并不可信。
 > 

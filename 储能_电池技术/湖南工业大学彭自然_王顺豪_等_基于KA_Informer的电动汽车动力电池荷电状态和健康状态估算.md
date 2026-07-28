@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75SdKIR1xqMR6J56gFoEPYxiatNVC2ByKCCTg8PCGQWJ2ibM9B8239htpk3o4JEfmrQcGuAhBRWOUhSQ/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
+[![](湖南工业大学彭自然_王顺豪_等_基于KA_Informer的电动汽车动力电池荷电状态和健康状态估算_images/img_000_65c4ce027f6c.png)](https://www.fafee.org.cn/)
 **阅读提示：本文约 2100 字** 
 **导语**
 电动汽车正成为绿色出行的主力军，而其“心脏”——动力电池的状态如何精准把控，仍是行业难题。一项基于KA Informer的创新方法，正在让电池的“健康体检”变得更准、更快、更智能。 

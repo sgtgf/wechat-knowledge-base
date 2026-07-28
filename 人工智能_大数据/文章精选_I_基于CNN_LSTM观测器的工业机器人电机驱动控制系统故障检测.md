@@ -1,4 +1,4 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75QDD0TaR9KOzgenibxGNFvFLYYOeHiaHDg8EoRu4xruJjKam4lw9ibo4rvY66IA8kUlWJh1WUj8djdibw/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
+[![](文章精选_I_基于CNN_LSTM观测器的工业机器人电机驱动控制系统故障检测_images/img_000_1dbd9583dbce.png)](https://www.fafee.org.cn/)
 ****Fault Detection for Motor Drive Control System of Industrial Robots Using CNN-LSTM-based Observers****
 Tao Wang1; Le Zhang1; Xuefei Wang1
 1. Wuxi Taihu University, Wuxi, China

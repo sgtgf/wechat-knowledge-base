@@ -1,8 +1,8 @@
 中国电工技术学会活动专区
 CES Conference
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/WRO0RgZZ75QkicHbchLvaiarg0OUJZy80OCfTtRT2zP1LC9qibKpsgFabxQyGcZEoyyKnFokxOCVQibjnA9IB1kG1g/640?wx_fmt=jpeg)](https://www.icwpt-conf.com/)
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/yKBG8OSjARUMDITkIMqSjE0yuUvmaoYO0wOyfoEOhvyavk1GYXia7iasuZZoJ6PExG1nXFfHG2bU6EicWuBSN6QTQ/640?wx_fmt=jpeg)](https://www.fafee.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/yKBG8OSjARXiaWa1HxewWvqUicTwAXYicNLswRvbjOUbK9tzSH4vKibTB0qTPapBOk47icNxuL4hx4icSyicB8zoyZQ4w/640?wx_fmt=jpeg)](https://www.eml-foru.com/)
+[![](中国电工技术学会团体标准解读__电力人工智能机器人流程自动化（RPA）通用组件功能及接口规范__images/img_000_d1ed02a7d54e.jpg)](https://www.icwpt-conf.com/)
+[![](中国电工技术学会团体标准解读__电力人工智能机器人流程自动化（RPA）通用组件功能及接口规范__images/img_001_5a0a670e60a9.jpg)](https://www.fafee.org.cn/)
+[![](中国电工技术学会团体标准解读__电力人工智能机器人流程自动化（RPA）通用组件功能及接口规范__images/img_002_e7e3814b5706.jpg)](https://www.eml-foru.com/)
 中国电工技术学会团体标准T/CES 130-2022《电力人工智能机器人流程自动化（RPA）通用组件功能及接口规范》由中国电工技术学会标准工作委员会智慧化工作组工作组归口，国网信息通信产业集团有限公司牵头编制完成。
 该标准规定了电力人工智能机器人流程自动化（RPA）通用组件的系统架构、功能模块、服务接口等内容，适用于电力行业人工智能RPA通用组件的建设。
 **1.标准起草单位及主要起草人**

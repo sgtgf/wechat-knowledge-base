@@ -1,5 +1,5 @@
-[![](https://mmbiz.qpic.cn/mmbiz_png/WRO0RgZZ75RHwD2bJR7ntlJdea9m3VVcC8FDPdUxq0JDJictABFRibMNlHIoh0cIUNd80ZmqSMtOgfmib1jSS3myQ/640?wx_fmt=png&from=appmsg)](https://www.fafee.org.cn/)
-[![](https://mmbiz.qpic.cn/mmbiz_gif/WRO0RgZZ75QJAkfmoBLHoWRP2TAwUaHB74ic6HGUYXvlbQ5WzKZ30UMqgXsQa5msvPbFjLU9GGpoT7QmriaTajPg/640?wx_fmt=gif&from=appmsg)](http://www.njyxdq.com/)
+[![](湖南大学钟吴君_李培强_等_基于EEMD_CBAM_BiLSTM的牵引负荷超短期预测_images/img_000_f36e8268ce01.png)](https://www.fafee.org.cn/)
+[![](湖南大学钟吴君_李培强_等_基于EEMD_CBAM_BiLSTM的牵引负荷超短期预测_images/img_001_4cbe5da63430.gif)](http://www.njyxdq.com/)
 **阅读提示：本文约 2400 字** 
 > 在电气化铁路供电系统中，牵引负荷具有波动大、突变性和动态特性强等特性，从而导致难以预测，这将给后续系统的能量管理带来巨大挑战。本文为您推荐湖南大学李培强教授团队科研成果。
 **研究背景**

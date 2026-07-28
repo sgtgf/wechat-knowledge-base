@@ -1,0 +1,26 @@
+# Ansys Maxwell二次开发-Matlab示例
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/G0c\_Yn2TEz7UQYe2IuY28Q](https://mp.weixin.qq.com/s/G0c_Yn2TEz7UQYe2IuY28Q)
+
+关于COM技术可以参考网上相关资料，这里不再赘述。
+
+下面将基于MATLAB实现Ansys Maxwell二次开发流程。本文案例十分简单，重点在于阐述方法，方便学习，掌握方法后，可以自己进行更多复杂的个性化开发。
+
+**需要说明的是COM技术与具体编程语言无关，预告一下，后期我将推出c++版本的示例代码**
+
+首先我们需要打开Maxwell的脚本录制功能，进行相关操作后将`.py`形式的脚本导出。具体操作可参考视频：
+
+https://www.bilibili.com/video/BV1afz2Y4EPW?spm\_id\_from=333.788.videopod.sections&vd\_source=9d7199fdb5ee18bd2536ce4f8edc24aa
+
+导出`.py`形式的代码后，可先将所有代码都复制到MATLAB，然后我告诉大家修改哪里，以匹配MATLAB格式。修改的方法可以参考视频：
+
+https://www.bilibili.com/video/BV132zSYAETC?spm\_id\_from=333.788.videopod.sections&vd\_source=9d7199fdb5ee18bd2536ce4f8edc24aa
+
+参考上述视频后，相信大家的程序可以顺利运行！如果报错，**并且是MATLAB程序开头报错，但是直接打开Maxwell又没有问题，建议大家重装软件，并且在重装时候关闭杀毒软件，因为软件安装最后，会在系统注册表中写入相关信息，这部分很可能被杀毒软件拦截！**
+
+最后，附上该例子完整的MATLAB代码（**想学习代码的可以将代码复制AI编程助手中学习**）：
+
+`close;   clc;   clear;   %%%%%%%%%%%%%   iMaxwell = actxserver('Ansoft.ElectronicsDesktop');   oDesktop = iMaxwell.GetAppDesktop();   oDesktop.RestoreWindow();   oProject = oDesktop.NewProject;   oProject.SaveAs('G:\\temp\\Prj_tmp\\maxwell_secondary_development\\tmp.aedt', true);   oProject.InsertDesign("Maxwell 2D", "Maxwell2DDesign1", "Electrostatic", "");   oDesign = oProject.SetActiveDesign("Maxwell2DDesign1");   oEditor = oDesign.SetActiveEditor("3D Modeler");   oEditor.CreateCircle(...    {     "NAME:CircleParameters",...     "IsCovered:="  , true,...     "XCenter:="  , "0mm",...     "YCenter:="  , "0mm",...     "ZCenter:="  , "0mm",...     "Radius:="  , "5mm",...     "WhichAxis:="  , "Z",...     "NumSegments:="  , "0"...    }, ...    {     "NAME:Attributes",...     "Name:="  , "Circle1",...     "Flags:="  , "",...     "Color:="  , "(143 175 143)",...     "Transparency:=" , 0,...     "PartCoordinateSystem:=", "Global",...     "UDMId:="  , "",...     "MaterialValue:=" , '"vacuum"',...     "SurfaceMaterialValue:=", '""',...     "SolveInside:="  , true,...     "ShellElement:=" , false,...     "ShellElementThickness:=", "0mm",...     "IsMaterialEditable:=" , true,...     "UseMaterialAppearance:=", false,...     "IsLightweight:=" , false    });   oEditor.CreateCircle(...    {     "NAME:CircleParameters",...     "IsCovered:="  , true,...     "XCenter:="  , "0mm",...     "YCenter:="  , "0mm",...     "ZCenter:="  , "0mm",...     "Radius:="  , "3mm",...     "WhichAxis:="  , "Z",...     "NumSegments:="  , "0"...    }, ...    {     "NAME:Attributes",...     "Name:="  , "Circle2",...     "Flags:="  , "",...     "Color:="  , "(143 175 143)",...     "Transparency:=" , 0,...     "PartCoordinateSystem:=", "Global",...     "UDMId:="  , "",...     "MaterialValue:=" , '"vacuum"',...     "SurfaceMaterialValue:=", '""',...     "SolveInside:="  , true,...     "ShellElement:=" , false,...     "ShellElementThickness:=", "0mm",...     "IsMaterialEditable:=" , true,...     "UseMaterialAppearance:=", false,...     "IsLightweight:=" , false    });   oModule = oDesign.GetModule("BoundarySetup");   oModule.AssignVoltage( ...    {     "NAME:Voltage1",...     "Edges:="  , {13},...     "Value:="  , "1V",...     "CoordinateSystem:=" , ""    });   oModule.AssignVoltage(...    {     "NAME:Voltage2",...     "Edges:="  , {7},...     "Value:="  , "0V",...     "CoordinateSystem:=" , ""...    });   oModule = oDesign.GetModule("AnalysisSetup");   oModule.InsertSetup("Electrostatic",...    {     "NAME:Setup1",...     "Enabled:="  , true,...     {      "NAME:MeshLink",...      "ImportMesh:="  , false     },...     "MaximumPasses:=" , 10,...     "MinimumPasses:=" , 2,...     "MinimumConvergedPasses:=", 1,...     "PercentRefinement:=" , 30,...     "SolveFieldOnly:=" , false,...     "PercentError:=" , 1,...     "SolveMatrixAtLast:=" , true,...     "UseNonLinearIterNum:=" , false,...     "NonLinearResidual:=" , 0.001    });   oDesign.AnalyzeAll();   oModule = oDesign.GetModule("FieldsReporter");   oModule.CreateFieldPlot(...    {     "NAME:Voltage1",...     "SolutionName:=" , "Setup1 : LastAdaptive",...     "UserSpecifyName:=" , 0,...     "UserSpecifyFolder:=" , 0,...     "QuantityName:=" , "Voltage",...     "PlotFolder:="  , "Voltage",...     "StreamlinePlot:=" , false,...     "AdjacentSidePlot:=" , false,...     "FullModelPlot:=" , false,...     "IntrinsicVar:=" , "",...     "PlotGeomInfo:=" , {1,"Surface","FacesList",2,"6","12"},...     "FilterBoxes:="  , {0},...     {      "NAME:PlotOnSurfaceSettings",...      "Filled:="  , false,...      "IsoValType:="  , "Tone",...      "AddGrid:="  , false,...      "MapTransparency:=" , true,...      "Refinement:="  , 0,...      "Transparency:=" , 0,...      "SmoothingLevel:=" , 0,...      "ShadingType:="  , 0,...      {       "NAME:Arrow3DSpacingSettings",...       "ArrowUniform:=" , true,...       "ArrowSpacing:=" , 0,...       "MinArrowSpacing:=" , 0,...       "MaxArrowSpacing:=" , 0      },...      "GridColor:="  , {255,255,255}     },...     "EnableGaussianSmoothing:=", false,...     "SurfaceOnly:="  , false    }, "Field");   oProject.Save();   delete(iMaxwell);` 
+
+作者|斗沙片刻

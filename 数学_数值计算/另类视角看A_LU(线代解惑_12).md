@@ -1,0 +1,16 @@
+# 另类视角看A=LU(线代解惑\_12)
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/UDnEZ527Wvl1UnWTgVTGUw](https://mp.weixin.qq.com/s/UDnEZ527Wvl1UnWTgVTGUw)
+
+下面通过1个3阶方阵的示例，展示A=LU分解的另一个视角，它本质与高斯消元是一样的，但形式上有区别。
+
+总体原则，它是分3步找出下三角矩阵L的列向量(L1,L2, L3)以及上三角矩阵U的行向量(U1,U2, U3). 并注意到L1U1,L2U2,L3U3都是“列乘行”构成的秩为1的矩阵。
+
+第1步：直接取A的第1行为U1，从而L1的第1个元素为1就可以直接保证A1=A-L1U1的第1行为0；通过合适选取L1的第2个元素，保证A1的第1列的第2个元素为0，通过合适选取L1的第3个元素，保证A1的第1列的第3个元素为0，从而保证A1的第1列为0；这样U1与L1就确定好了。
+
+第2步：直接取A1的第2行为U2，从而L2的第2个元素为1就可以直接保证A2=A-L1U1\-L2U2的第2行为0, L2的第1个元素固定为0；通过合适选取L2的第3个元素，保证A2的第2列的第3个元素为0，从而保证A2的第2列为0；这样U2与L2就确定好了。
+
+第3步：直接取A2的第3行为U3，从而L3的第3个元素为1就可以直接保证A3=A-L1U1\-L2U2\-L3U3的第3行为0, L3的第1、2个元素固定为0，同时A3的第3列也为0；这样U3与L3就确定好了。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG42t6ibpMicQX1oic9ptQu3b9EN7ibt1aDzEGsaibs7UREmViaOGI30e3G8teK1nh7VPm2sEsXNk6HXErtNg/640?wx_fmt=png&from=appmsg)

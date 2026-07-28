@@ -1,0 +1,240 @@
+# 低频电磁半月刊（第2期）：首届新思Converge大会即将召开
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/fvmbpvVmeNmsmI0EmsK\_Lw](https://mp.weixin.qq.com/s/fvmbpvVmeNmsmI0EmsK_Lw)
+
+# 低频电磁半月刊（第 2 期）：
+
+这里记录低频电磁方面仿真、算法、商软、开源库/软件值得分享的内容，同时也记录当前 AI 领域最新的发展，半月发布一期。
+
+本期刊开源，欢迎投稿。
+
+## 封面图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/cicZ6db39IjwcIILZRxsWGeicVdko49bIAPzwMh7axr3QAZ4q8F2wFZR6q20rmIpeicfsnZ3rVlXR43RlekUhz8DWfpnRLe79YZZSjkdm2lhew/640?wx_fmt=png&from=appmsg)
+
+首届新思Converge大会\[1\]（Synopsys Converge Conference）将于 3 月 11 日-12 日在美国加利福尼亚州圣克拉拉市举行，本次大会包含三个模块：
+
+-   Simulation World
+    
+-   Synopsys User Group (SNUG) Silicon Valley
+    
+-   Synopsys Executive Forum (invitation only)
+    
+
+**综合各方信息，Ansys 2026 R1 新版本将在此次大会上正式发布**，这也是 Ansys 被收购以后的发布的第一个版本。
+
+## AI
+
+##### Agent Trace
+
+随着 AI 生成代码比例增加，**需明确区分 AI 与人类贡献**，但 Git 根本不知道这一点。Agent Trace 由 Cursor 团队发起\[2\]，它是一个**“代码来源追踪标准”**，用来明确区分：哪些代码是人写的，哪些是 AI 生成的。
+
+传统 Git 只能告诉你：
+
+-   谁 commit 的
+    
+-   哪天提交的
+    
+-   哪个文件被改了
+    
+
+但它不知道：
+
+-   这段代码是人写的？
+    
+-   是 Copilot 生成的？
+    
+-   是 Claude / GPT 生成的？
+    
+-   是 AI 生成后又被人改过？
+    
+
+Agent Trace 的作用就是：给代码增加“来源标签”。
+
+对开发者的实际价值包括：
+
+-   代码透明度
+    
+-   质量与安全管理
+    
+-   合规与法律审计
+    
+-   工程分析与优化
+    
+-   多 Agent 协作可追踪
+    
+
+没有标准追踪的话，你根本不知道是谁生成的代码，无法复现生成过程，Agent Trace 是为**多 Agent 编程时代准备的基础设施**。
+
+##### 人工智能辅助如何影响编程技能的形成
+
+上一期的思维破壁机提到了 AI 时代中的“笨笨的坚持”，最近 Anthropic 发布了报告：AI 辅助如何影响编程技能的形成\[3\]\[4\]。研究表明：**AI 并非必然导致技能下降，主动提问求解释、概念探究等交互模式可实现效率与学习的平衡。**
+
+##### 字节、阿里、腾讯 AI 大战全记录
+
+临近春节，字节豆包、阿里千问、腾讯元宝开启了一轮 AI 大战！三大巨头围绕算力资源、技术人才、用户入口展开全面争夺，其激烈程度被比喻为决定未来格局的**“中途岛战役“**\[5\]。推文中有很多关于三大巨头资源禀赋、战略方向等方面的故事，很有意思。
+
+##### 国产大模型“御三家”
+
+大模型方面，OpenAI 与 Anthropic 首屈一指，是全球领先的大模型研发者，两家均属于成立较晚的 AI 创业公司（OpenAI 2015、Anthropic 2021），**并非传统老牌科技巨头，却凭借 GPT/Claude 系列引领行业技术与产品化应用**，这也说明真正推动时代进步的，往往不是传统大厂，而是新兴科技公司。
+
+国内方面，最近国产大模型“御三家”也展现出强劲的创新力与迭代速度：
+
+-   GLM-5\[6\] 在参数规模、编码能力、长程任务处理与 Agent 工程化表现上相比此前代有明显提升，被认为开源模型中名列前茅，编码与 Agent 能力对标国际竞品。
+    
+-   MiniMax M2.5 \[7\] 最新上线，作为面向编程与 Agent 场景的旗舰模型，在编码、工具调用与代理执行能力上直接对标国际顶尖模型（如 Claude Opus 4.6），同时保持较高性价比与推理效率。
+    
+-   Kimi K2.5\[8\] 发布后凭借原生多模态支持（文本 + 图像 + 视频）、更大上下文能力和增强的 Agent 架构，在动态任务与视觉编程等方向竞争力明显。
+    
+
+## 商业软件
+
+##### COMSOL Conference 2026
+
+COMSOL 2026 年大会将依次在四个地方举办\[9\]：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/cicZ6db39IjwBBic2UtMZhiaLHTBdWd13KTdDib9nWZyAR0gybibSU1EoJgt0UVXsWcWibUQqkIShLSHl6u0vlLIQehCrpwZWlrfq5mWqZ6s4PBbM/640?wx_fmt=png&from=appmsg)
+
+更多会议议程官网上并未公布。
+
+##### ANSYS Conference 2026
+
+首届新思Converge大会（Synopsys Converge Conference）完整议程：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/cicZ6db39IjxZQLw0lvUrFVqGR1onOE4tkIMO5MekgBMcSG4MoMaic820KJVO5qdksdLpqicQr3IZiaA726vsLaLrNmea2QlRs0FniaNFezctwXM/640?wx_fmt=png&from=appmsg)
+
+可关注演讲：
+
+仿真世界主题演讲：定义工程仿真的下一个时代
+
+![](https://mmbiz.qpic.cn/mmbiz_png/cicZ6db39IjzqCMNJMo4w2HjSrpwYpZgJEBXqPpoPxAoLDwEFWUEVYmw5CXZHPysHom3ngjM2eicib8lMrwmgLHDCJ6jav83YyCjpyQ7AblU0k/640?wx_fmt=png&from=appmsg)
+
+基于频域 A-Φ 公式的多芯片功率模块寄生参数提取
+
+![](https://mmbiz.qpic.cn/mmbiz_png/cicZ6db39IjweneFKPUhPEiaiaicNNOTMcE15gicNTS5Jb1N31Xu6A1HOmQU0ovicRWnIKqiczsvibm64u4rLHn6RVMTicRDObxyjwOa4uRib1GCWsJico/640?wx_fmt=png&from=appmsg)
+
+硅钢片测试仪与仿真在铁心损耗量化中的应用
+
+![](https://mmbiz.qpic.cn/mmbiz_png/cicZ6db39IjwOicLH7Via11rYPHEkecsfn6PJHaicLHfS4WOMWucgqrA2PyQT9DVoQs962aKdwNCUtzTZn9cLKtLvCbDJkBRddjOSd3JATIsibog/640?wx_fmt=png&from=appmsg)
+
+基于 Ansys Maxwell 与 Mechanical 的 AI 数据中心母线多物理场仿真流程
+
+![](https://mmbiz.qpic.cn/mmbiz_png/cicZ6db39Ijz0Iv9OQVk2ErL9SfbzyC0micibMSYvthhZicwiaYAcibHU6Xc7HLVjsBdZ0StPiabJicqPnliaj2cGp98K8ibaV5Uz6ic84O566N9SN24Vc/640?wx_fmt=png&from=appmsg)
+
+使用 Ansys 多物理场增强车内无线充电性能：一种热感知仿真方法
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/cicZ6db39IjztPRn1ibWzXAWUkXiapmJDlnL7bgkWiaJqdXUic5ia2PgFrzbYowGrNMaeFK3iapFxCoiaGSNXAEuT5EhtoXq6oMQJtrVicFgibh1wBd3Q/640?wx_fmt=png&from=appmsg)
+
+从真无线耳机到 AR/VR 设备 —— 面向无线充电系统效率优化的自动化 Web 应用
+
+![](https://mmbiz.qpic.cn/mmbiz_png/cicZ6db39IjwsbSHqdYCQ5DnwYZRCqdM5u4WJnicoDPriaHld3xkBHrggv202ErUyJU3d4E1Rpf6KTdkjpRibXTZrPJFw9JBFKbCXZ6MiaV7iaQhM/640?wx_fmt=png&from=appmsg)
+
+Ansys AEDT 工具套件 2026 完整版发布亮点（**应该涉及 Ansys AEDT 2026 R1 版本更新亮点**）
+
+![](https://mmbiz.qpic.cn/mmbiz_png/cicZ6db39IjwydjokkicYGvAPOubxABuvZia2OhPspPdr21wLHDNXhYetTXoJEibUTm6XoCES7ibKcncNvd2e2EjibjxBksiaCpT16EicKUl5am6IicA/640?wx_fmt=png&from=appmsg)
+
+更多演讲请移步官网\[10\]。这些演讲均为线下，有需求有条件的朋友可以前往，希望后续可以看到线上版本。
+
+## 开源软件/库
+
+最近将常用的部分开源软件/库进行了一番整理，考虑到很多开源库都有删库跑路的情况，同时部分网站国内访问速度过慢，因此我将其上传到了 gitee 上，也方便访问。汇总文档如下：
+
+腾讯文档
+
+目前包括：
+
+-   Gmsh（4.14.1）：开源的三维有限元网格生成器。
+    
+-   OCC（7.9.3）：开源的全功能三维几何库。
+    
+-   vtk（9.5.2）：用于处理和显示科学数据的开源软件。
+    
+-   Eigen（5.0.1）：线性代数的 C++模板库。
+    
+-   scc（3.6.0）：统计多种编程语言中的代码行数、空行数、注释行数以及源代码的物理行数。
+    
+-   fuck-u-code（1.0.0）：一款专门揭露屎山代码的质量分析工具。
+    
+
+上述开源库我将**持续追踪最新稳定版本**以及**分享使用体验**。后续我将陆续补充其它开源库，也欢迎各位朋友推荐，共同学习。
+
+## 思维破壁机
+
+##### 用户的需求是个性化的，未来一定属于更具有个性化的产品
+
+随着 AI agent 的不断发展，未来**操作软件的可以是用户，也可以是 agent**，当然，这其中也包括**用户通过自然语言将任务交给 agent**，然后 agent 再去与软件交互。
+
+软件只提供并长期维护**核心引擎、接口 API 以及提供给 agent 的 skills、MCP**，剩下的开放给用户和 agent，能开放的接口与能力**应开尽开**。用户可以通过自然语言与软件进行交互，当然也可以通过传统的方法与软件交互。
+
+未来用户的需求多种多样，有些具体需求**用完即弃，没必要维护**。因此，**没必要为了每种需求都去开发一款软件**，AI agent 的出现为我们实现用户多种多样需求提供了可能与便利。
+
+##### AI 发展的焦虑
+
+最近 AI 方面新技术和新方向层出不穷，搞得人眼花缭乱，但真正有价值的工具和技术，不会一夜之间消失。让子弹飞一会儿，经过一周甚至一个月还很火的，再去尝试也不迟\[11\]。
+
+##### AI 是杠杆，不是替代品
+
+AI 是杠杆，不是替代品。放大的是你原有的东西：系统思维、架构能力、对好产品的直觉。如果你没有这些，再多智能体并行跑 24 小时也只是在批量生产 slop\[12\]。
+
+工程师没有被替代，而是变得更“全栈”\[13\]。所以有些时候虽然个人效率提高了，但工作和项目对个人的要求更高了，总体来说个人并没有更轻松，反而更忙。
+
+当前，个人最值得投资的能力是系统设计能力、任务拆解能力、评估代码质量的眼光；团队需将 Agent 编程从“个人工具”转化为“组织能力”。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/cicZ6db39Ijx4wgiaUrCBu8As0fw8fqNSpUTfteibWLibBpTGsI3NWKOia9JdLfp3YLiaIYOVmae2h6INibJ6tibiaBW929ok7Dl3Mf240uibESjs9kE8/640?wx_fmt=jpeg&from=appmsg)
+
+参考资料
+
+\[1\] 
+
+Synopsys Converge Conference: _https://events.synopsys.com/event/converge2026/home_
+
+\[2\] 
+
+Agent Trace: _https://agent-trace.dev/_
+
+\[3\] 
+
+AI assistance coding skills: _https://www.anthropic.com/research/AI-assistance-coding-skills_
+
+\[4\] 
+
+How AI Impacts Skill Formation: _https://arxiv.org/abs/2601.20245_
+
+\[5\] 
+
+字节、阿里、腾讯 AI 大战全记录：一场影响命运的战争: _https://mp.weixin.qq.com/s/ZRC7lwXgt16gcLTZquNGoA_
+
+\[6\] 
+
+GLM-5 已上线，从代码到工程，让 AI 替你完成复杂任务: _https://mp.weixin.qq.com/s/RJPnu74OUuMCHAIoi9DAXw_
+
+\[7\] 
+
+MiniMax M2.5 发布：1美金/小时，真实世界工作王者: _https://mp.weixin.qq.com/s/M4LBGM3Jcy0syWvQ\_78ahw_
+
+\[8\] 
+
+Kimi 发布并开源 K2.5 模型，带来全新视觉理解、代码和 Agent 集群能力: _https://mp.weixin.qq.com/s/Bhn43P1GnGXsvsh5MnN47Q_
+
+\[9\] 
+
+COMSOL Conference 2026: _https://cn.comsol.com/conference/cambridge_
+
+\[10\] 
+
+Synopsys Converge Conference agenda: _https://events.synopsys.com/event/converge2026/agenda_
+
+\[11\] 
+
+每天都有 AI 产品“炸裂”，但我已经不焦虑了: _https://x.com/dotey/status/2019998489027977687_
+
+\[12\] 
+
+AI 是杠杆，不是替代品: _https://x.com/dotey/status/2018118669117935688_
+
+\[13\] 
+
+2026 编程巨变：Anthropic 报告揭示 Agent 编程八大趋势: _https://x.com/dotey/status/2021102914450673721_
+
+作者|斗沙片刻

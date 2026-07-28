@@ -1,0 +1,73 @@
+# MPC系列01---详细原理推导以及编程实现
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/P3hZBiZ0Q\_5Z0b-5i8RMjw](https://mp.weixin.qq.com/s/P3hZBiZ0Q_5Z0b-5i8RMjw)
+
+LQR与MPC作为最典型的2种最优控制算法，前者是基于贝尔曼最优理论的 ，后者更加直接、是基于数值优化的。前者的难点在于理解其背后的贝尔曼最优理论，后者的难点在于QP（Quadratic Programming，简称QP）数值优化，但QP是相对独立的算法，有现成开源的代码可复用，因此MPC的主要工作是保证最优控制问题的“描述"与QP算法接口一致，直接套用即可。
+
+MPC的核心思想其实非常科学，也很好理解。我们以看一本书为例，假设我们打算看完一套书，比如原版《资治通鉴》，该套书总共294卷，300多万字，且都是文言文，要完成这件事确实不容易(庆幸的是，作者花了很多时间，已经快完成第1遍了)。言归正传，这么难的一件事，且又不是全职看书，成年人还有其他各种各样的事来打扰，正常情况下一定会"计划赶不上变化"，计划大概率会停留于纸面上。但如果不做计划，那最终大概率也是完成不了的，那科学的做法是怎样的呢？  
+
+1.  基于自己当前的阅读能力与时间安排，做出5天的计划；
+    
+2.  但每次只执行计划的第1天，当第1天结束的时候，再执行第1步；
+    
+3.  如此循环，这样，肯定是可以完成目标的。
+    
+      
+    
+
+而MPC就是这样工作的。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbgsaNJGaS4KMNktQm4x2dPC3ZIO58aXGs60aOxt6g5SsZEoWttSs9cA/640?wx_fmt=jpeg&from=appmsg)
+
+****一、增量式方程****
+
+假设某系统的离散状态空间方程如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbRqic7nM6Px3EoF5HKal0TFRdt2nwKmjSxGaaJL58KSY2G6YicOU3ywZQ/640?wx_fmt=png&from=appmsg)
+
+注意：此处方程中输入u的下标与下个周期相同，与LQR状态方程描述中将输入u的下标写成与上个周期一致是不一样的，这样做的目的是为了后续更好地构建增量式方程。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbVBiahuiblfiaHwZkHJdXTEs7KeF3N5egpsbDcXzAEsLTSybL4eEtwgGfQ/640?wx_fmt=png&from=appmsg)
+
+**思考点：**这里通过改变状态向量，便实现了增量式的状态方程，有点类似于微积分中的“变量替换”。
+
+****二、预测的矩阵表达****
+
+将k+1、k+1...k+![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbybYVwR0FDuNib3hgwAicNBoCmeBiaYqmO9XpYTibNE9pRiaw1QX0fjZhgVA/640?wx_fmt=png&from=appmsg)时刻的输出![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbBIiaPt4sAJ4fiagwaOyh9KfwE2w8FiboKxaUOLt2ZTzUevNOib1kH2Ur4A/640?wx_fmt=png&from=appmsg)由k时刻的状态![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbddtrD475gOfUAXS9MYnOTAicex2ejJnm7aaAcbAVWfeg8hdepymEoyw/640?wx_fmt=png&from=appmsg)以及k+1、k+2...k+![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbzdxq8RMB0VmvJV5UQfBMGMwgDgEj4v27fygAZIZjibvrkXGBfzibxUPw/640?wx_fmt=png&from=appmsg)时刻的输入增量表示，如下所示，
+
+![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbC6boCYvrC8Rr4INP9QC5DLDeoCrMKLS6HGXww4poUukCLaicoa6xAUA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbapoJicOic0tIgKjMMcmeyib9FqBZHEJryRyVCc7hicTNAcRxMJD7mu0vhw/640?wx_fmt=png&from=appmsg)
+
+**即基于k-1的状态，最终可得k时刻的控制量，这就达到了控制的目的**。  
+
+上述等式，用矩阵相乘来表达，
+
+![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbic5tXCyHllKK6ySq35tXsFicZibclyduFiaGZqD3lCkAzSp3nYXRbZznJQ/640?wx_fmt=png&from=appmsg)
+
+上述的计算，是基于系统的当前状态以及![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbzdxq8RMB0VmvJV5UQfBMGMwgDgEj4v27fygAZIZjibvrkXGBfzibxUPw/640?wx_fmt=png&from=appmsg)个控制输入序列，计算从此刻开始的未来![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbybYVwR0FDuNib3hgwAicNBoCmeBiaYqmO9XpYTibNE9pRiaw1QX0fjZhgVA/640?wx_fmt=png&from=appmsg)个周期的系统状态，并用大矩阵相乘来描述其过程，**读者此处可仔细体会下矩阵表达的精简与优美。这个过程虽然看上去很复杂、头****大，但只要你看进去了，其实还是不难的。其实其他任何事也一样，“天下事有难易乎?为之,则难者亦易矣;不为,则易者亦难矣”。**
+
+****三、****QP代价函数********
+
+基于矩阵形式的预测表达式，可将代价函数化成QP的标准形式：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbm5HspuBdYXbAVYqhOu41RRbRnt33nLgDPNJzFzGE6Q8sxq04fqOl0g/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUb47HX0ex7Ficia1tNqUS49KzRIgYYeibaDyFceXUiacE8cFDE0WIBfmBbKw/640?wx_fmt=png&from=appmsg)
+
+********四、QP约束条件********  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUb5y4JhdaoAhyjP8o8uNsX3kUwNKJsQFkObCkkhWDPleIyBeRqE8GFhQ/640?wx_fmt=png&from=appmsg)
+
+确定了QP的代价函数和约束条件后，直接扔给QP算法，可得![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbzdxq8RMB0VmvJV5UQfBMGMwgDgEj4v27fygAZIZjibvrkXGBfzibxUPw/640?wx_fmt=png&from=appmsg)个
+
+周期的输入，但**只将第1个周期用于控制**。  
+
+****五、编程实现****
+
+MPC数学上去理解，看起来挺难的，但个人觉得，其实还好，它比LQR好理解，我当初也是先理解MPC，然后再去理解LQR的，对于非数学专业的人来说，理解好贝尔曼最优理论是比较费劲的。另外，LQR的执行逻辑其实是有一点点难的，MPC就不一样了，只要你从数学上过了关，编程实现反而会简单很多，当然我说的是基于开源QP库的，如果自己写QP算法应该也不容易，但我觉得，初学者直接用现成的QP库是可以的，读者朋友们可以自己去试试。MPC我没有写Matlab程序，是直接用C++实现的。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUbUEKDricASSWpd3NqjpyAnb3O1bEPt1RFVs3gcGF654ryuiapDQx6NyEA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/RGhGOXAMG40YliadedcQh5mGoPibjMFvUb6644UbmrQjPUFjLQxZ70thh47dpdlgIZIJaO03qJ52xs7WJrtR0LAg/640?wx_fmt=png&from=appmsg)

@@ -1,0 +1,74 @@
+# MaxViewer 0.0.2 beta.1 功能更新！
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/g2DSfN2Otkm5TP07okVgjw](https://mp.weixin.qq.com/s/g2DSfN2Otkm5TP07okVgjw)
+
+最近我对 MaxViewer 进行了一波更新，补充完善了各种视图，现在，您可以查看从任意视角查看云图；此外，读取文件以及云图渲染过程中的数据传递任务支持了多线程执行，并在状态栏添加了指示任务进度的进度条；修复了一些已知 bug；绘制了软件图标以及工具栏命令的图标。具体更新如下：
+
+### 新功能
+
+-   支持自适应视图
+    
+-   支持顺时针、逆时针 90° 旋转当前视图
+    
+-   支持以指定角度旋转当前视图
+    
+-   支持指定正视方向
+    
+-   支持旋转到当前视图的背部视图
+    
+
+### 优化
+
+-   导入、渲染等任务支持多线程执行
+    
+-   添加任务进度条，实时显示当前任务进度
+    
+-   程序优化
+    
+
+### bug 修复
+
+-   修复打开空工程文件时候会显示图例的问题
+    
+-   修复 jpeg 格式图片不支持透明背景的问题，默认为白背景
+    
+-   修复 svg 格式图片图例文字字体渲染的问题
+    
+
+### 其它
+
+-   绘制了软件图标
+    
+-   绘制了工具栏命令图标
+    
+-   关闭文件后消息窗口内容清除
+    
+-   打开项目后，消息窗口只显示新生成的消息
+    
+-   前视图改为 XZ 平面，其它视图照此修改
+    
+-   程序文件后缀改为.maxv
+    
+
+具体请看下面视频：
+
+  
+
+## 1开发体会
+
+下面讲一下最近开发的体会，我主要想谈的是有关用户提验的两个方面。
+
+### 多线程任务
+
+任务多线程执行对于软件本身功能没有任何影响，一般情况下软件在读取以及渲染的时候根据网格量需要花费一定的时间，虽然这过程中，很少有人会对程序进行其它相关操作，但如果这期间用户与软件进行任何交互，会造成软件卡死现象（程序执行完毕后会恢复正常），非常影响提验，因此，这又是一个影响用户体验，必须安排的功能。
+
+### 软件及工具栏命令图标
+
+既然是一个软件工具，那必须安排图标！软件图标以黑色作为背景，显示彩色的 M，线条优雅，右下角镂空显示 X，刚劲有力。欢迎大家提出宝贵意见。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DS5vbm4wbnhngFCgiaZ6YN6V2EcHxKYHjPOD1HAafP7Q9FuLB4dKbDniaOpiap0QmC24XDsH61vkewZA/640?wx_fmt=png&from=appmsg)
+
+此外，我也对工具栏的命令图标进行了绘制，图标直观显示了功能，希望大家喜欢，也欢迎大家提出宝贵意见。![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DS5vbm4wbnhngFCgiaZ6YN6Vm6ibtgMiaGnO4pqJJ46icNPWO30iceBTrTncIuu9aMsheYlO9exrFjWV8A/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/WH5LbrDn8DS5vbm4wbnhngFCgiaZ6YN6V58iaj1mJEgBt4NxcSHeAic2SmSlWLADT2BlOWRRgONdlzxCHflOH2wicw/640?wx_fmt=png&from=appmsg)更多功能敬请期待，希望大家多提宝贵意见！
+
+作者|斗沙片刻

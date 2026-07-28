@@ -1,0 +1,66 @@
+# 开关电源 MOS 炸管别只换管子！这 6 处元件必查
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/zfj\_XxCjGOcAs1DjEI84WQ](https://mp.weixin.qq.com/s/zfj_XxCjGOcAs1DjEI84WQ)
+
+# 开关电源 MOS 管炸管维修完整流程，只换管子必定二次烧毁
+
+维修开关电源最常见故障就是功率 MOS 管击穿炸管。很多新手直接更换 MOS 管通电，开机瞬间再次炸管，根源是周边配套元件同步损坏，隐患未清除。下面按检修顺序梳理全部必查点位，适配充电器、适配器、家电电源板维修。
+
+# 一、先确认 MOS 管彻底损坏，区分故障状态
+
+万用表二极管档测量 MOS 三极，若 G、D、S 两两直通，说明管子完全击穿短路。
+
+MOS 炸裂后短路大电流会连锁烧毁周边小元件，只更换 MOS 无法根除故障，必须逐项排查周边电路。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/EGUBSm6LuyzqgyiaFfgnSiazLXcIzj39m5MYpahr4v52TeGjB1D5T9TQCy3xfJLuia4pgYw09pIQaUPLYUL2JKYplUSvCs8kNn28WU2zYb2rAc/640?wx_fmt=jpeg&from=appmsg)
+
+MOS 管炸管主功率回路标注图
+
+# 二、前级输入回路：保险丝、整流桥优先检测
+
+MOS 击穿会造成输入短路，强大冲击电流极易熔断保险，击穿整流桥二极管。
+
+用万用表逐个测量整流桥四只二极管，正常应有 0.5V 左右正向压降，正反都导通代表桥堆损坏，需同步更换。
+
+# 三、源极电流检测电阻，炸管高发损坏件
+
+MOS 源极对地会串联小阻值采样电阻（常见 0.1Ω~0.33Ω），用于过流保护。
+
+短路瞬间超大电流会直接把电阻烧开路，电源芯片失去电流采样，上电持续失控，换新 MOS 依旧会烧毁。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/EGUBSm6Luyy2yW1zX6iaHtUU7DgkLia7UXvZh8Somw4FQeecG6SVwUramn95vianGIfwc1GL0mEE9Zvsg5AqEQzgmYwnbA28Ou3YiaqlSecaSzw/640?wx_fmt=jpeg&from=appmsg)
+
+周边易损元件识别图
+
+# 四、栅极周边：驱动电阻、GS 泄放电阻不能漏查
+
+驱动电阻串联在电源芯片与 MOS 栅极之间，炸管时极易烧断、炸飞；
+
+GS 泄放电阻并联在栅源两端，用于释放栅极残余电荷，阻值多为 10kΩ 左右，开路会导致开关波形畸变。
+
+# 五、RC 尖峰吸收电路，抑制高压尖峰保护 MOS
+
+吸收电路由电阻、电容、快恢复二极管组成，吸收关断产生的反向高压尖峰。
+
+若二极管击穿、电阻开路，尖峰电压会持续冲击 MOS，长期使用极易再次击穿，维修时必须全部复测。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/EGUBSm6LuyzPPdt8T42WJON08fse2SlTDNvmQo57swvyEZ3MccAyNKCdcmiae55zo30H3SJ6FB0exOqsGiaPUD4yZAST3P2JtunpFnwd9MjPQ/640?wx_fmt=jpeg&from=appmsg)
+
+RC 尖峰吸收电路原理图
+
+# 六、电源管理芯片与启动供电线路
+
+MOS 短路的大电流极易击穿 PWM 电源芯片，芯片内部驱动单元损坏后，输出异常驱动电压，持续误导通 MOS。
+
+同时大电流可能烧断 PCB 细铜箔，造成芯片启动供电断路，更换元件后还要检查线路通断，断线需飞线修复。
+
+# 七、维修后通电测试标准流程
+
+全部损坏元件更换、断线飞线完成后，不要直接接 220V 市电。
+
+可先用低压直流模拟输入供电，短接启动电阻触发电源，测量主输出、辅助供电电压，数值稳定无波动，再接入市电正常使用。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/EGUBSm6LuyzdWIO9YppnFDANyOcP6tWhH2VdsSFbKqwRbLM5E9t07F6wUtHdQchCtoSKmaZ1Pj1wh5D7q4woEb9NDJnTQAC7cD0vsJSjUxw/640?wx_fmt=jpeg&from=appmsg)
+
+维修后低压预测试流程图

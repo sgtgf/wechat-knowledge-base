@@ -1,0 +1,18 @@
+# LQR史上最完整推导
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/TRLoJ7widwdHk-jVRdyiUA](https://mp.weixin.qq.com/s/TRLoJ7widwdHk-jVRdyiUA)
+
+之前也写过这个专题，但逻辑、内容、符号都有瑕疵，不太满意，自己也在不断完善中，目前呈现的自己参考使用的工程级推导。这个推导是非常准确的，如果发现错误可以私信我或是留言。  
+  
+LQR的编码实现比较简单，主要就是迭代求P矩阵，要注意的是P的初值可以热启动，这样可以减少正常运行过程中的迭代次数，减少算力消耗。  
+  
+另外，就是现在很多机器人的控制器算力是非常强劲的，且未来会越来越强劲，跑个状态变量4个或以下的算法，大概率没什么问题的，且就算有，也有很多的工程策略可以用上，比如提前算初值等。
+
+![图1](https://mmbiz.qpic.cn/mmbiz_png/wEtL48Vqsa9jibOwjQeK0qvuTRNs0GhquWKa17ky250t0hH0HEjXBGd0ia8QWCcRY106xtFRGU7w3C4hkA07NyiaNnDg2lqYmNK1qib0CzfJZow/0?wx_fmt=png)
+
+图1
+
+![图2](https://mmbiz.qpic.cn/mmbiz_png/wEtL48Vqsa8QnJiaU5k2z0YpVZScdcrdeBRvib0PSSxEmt3ticVwvEPsargLQuUOXn8HNIicrUxOTlict4OcJ7tHyiaPKick6z6clSsMehauwzCys4/0?wx_fmt=png)
+
+图2

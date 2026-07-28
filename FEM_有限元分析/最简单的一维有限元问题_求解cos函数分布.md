@@ -1,7 +1,7 @@
 # 最简单的一维有限元问题：求解cos函数分布
 
 
-> 原文地址: [https://mp.weixin.qq.com/s/1iz9vCq8rgtYWTVOr5c3fg](https://mp.weixin.qq.com/s/1iz9vCq8rgtYWTVOr5c3fg)
+> 原文地址: [https://mp.weixin.qq.com/s/4312-GsikBlTAHd9c\_NAcQ](https://mp.weixin.qq.com/s/4312-GsikBlTAHd9c_NAcQ)
 
 **1.给出边值问题**
 

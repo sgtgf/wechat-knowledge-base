@@ -1,0 +1,124 @@
+# NMOS 高边自举驱动电路
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/9z7jNgSJdZJFAsN2PREw7Q](https://mp.weixin.qq.com/s/9z7jNgSJdZJFAsN2PREw7Q)
+
+基本的电路原理如下：
+
+![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6Luyx1a4Nrh7kBgwkm7ic3xDqWff0OTFRln4j6hTJvnqa67ssjyxb03C94kKPdBKR9n744lyWSWQLL4wMTSrMqHR2hS4UxbXtxvcVs/640?wx_fmt=png&from=appmsg)
+
+-   Q1 为高边开关管；
+    
+-   R2 是8Ω 负载；
+    
+-   单刀双掷开关S1 代表控制信号，向Q2 基极拉高或拉低；
+    
+-   探针GS 表示栅源电压，BS 表示电容对地电压，R 表示负载对地电压，LOAD 表示负载电流；
+    
+
+[![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/jwW4UHic87lcqGhYtCsiaTkYBAJibibHMHnNiaa0ibgkkvbvJYiauGqRS71uU4tX2unvVibpDicicCIsWlTdT76XdAia5vqyw/640?wx_fmt=png&from=appmsg&watermark=1&wxfrom=5&wx_lazy=1&randomid=93e09d49&tp=webp)](https://mp.weixin.qq.com/s?__biz=MzU3MDU1Mzg2OQ==&mid=2247537957&idx=2&sn=6074857c7c862f7626b6ab35f157c9ff&scene=21#wechat_redirect)**👆查看更多目录👆**
+
+NMOS 管Q2 在负载R2 的上游，所以叫“高边”。NMOS 驱动 需要把栅极拉高，具体而言，一般需要把栅极拉高到比源极更高3V 以上。但是当负载被启动时，负载电压应该接近电源电压，也就是源极电压接近电源电压。要让栅极电压比电源电压更高才能驱动NMOS 管，这就是自举电路的作用。对了，也可以用专门的BOOST 升压或者电荷泵驱动栅极，只是一般用自举驱动比较方便，而且电源电压较高时，升压电路做起来也比较麻烦。
+
+这个自举电路比较简单，也挺常见的，比如 开源 电烙铁。在考虑自举的原理之前，首先应该考虑没有自举的时候，其实高边NMOS 也不是完全导通不了。比如上面的仿真图，上电后初始状态负载上就有18V 电压、2A 电流。道理很简单，Q1 栅极是连接到电源正极的，没被Q2 拉低时，栅极被驱动到电源电压，就是差不多30V。
+
+刚上电时，如果Q1 没导通，那么R2 上没有电流，对地电压就是0，此时MOS 管栅源电压有30V，暂时不考虑击穿的问题，反正MOS 管肯定是要导通的。但是MOS 管导通后，负载电压上升，栅源电压就会持续下降，如果负载电压升高到接近电源电压，MOS 管就会截止了，然而截止以后又没有电流保持负载电压，负载电压应该又会归零……实际中应该不会振荡，而是卡在中间某个位置，栅源电压会下降，但是不会下降到让MOS 管截止。
+
+结果就是图里的效果，即使自举电路还没有发挥升压效果，负载上也有电流。这个状态的危害就是MOS 管不完全导通，30V 电压有18V 加在负载上，那剩下的12V 都在MOS 管上，叠加上2A 电流，MOS 管上会有24W 发热功率，瞬间就炸了。
+
+### 自举驱动
+
+从图中可以看出，电容C1 一端是电源电压30V，另一端是负载电压18V，那么C1 就会被充电到12V。如果用开关拉高Q2 的基极，使Q2 导通，就会拉低Q1 的栅极，使Q1 完全截止，此时负载电压是0V，电容C1 被充到30V。
+
+![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyxTTCkcdicD7FzicAVicDzFRoOzMjicclteQWNVJXicBPsLxDLIInzwzTS9JlicdhZTmCR4BrDKuYyLvrOUAX5UPfT3VaPrPaosAnOHE/640?wx_fmt=png&from=appmsg)
+
+然后如果再让Q2 截止，Q1 栅极很快上升到电源电压，Q1 逐渐导通，使负载电压逐渐上升，BS 点的电压是负载电压加上电容两端的压差，而电容之前已经被充到30V，所以BS 点会逐渐升高到超过电源电压。BS 电压升高让Q1 导通程度升高，使负载电压上升，又使BS 电压更高，这个正反馈让Q1 很快完全导通，30V电源电压大部分加在负载 电阻 R2 上，如下图。
+
+![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuyyNK1FmYibordFafPNl8mXfeth6pkrJEQicxYXeRtUbXj7dAmmntmGsDQtFPhjrBLgBQTiaK7pGRT1fDeo5rqJ0icAaxhS17pVHmAE/640?wx_fmt=png&from=appmsg)
+
+此时BS 电压大约是电源电压的两倍，二极管D1 用来阻止电容向电源倒灌，电容里充的电无处可去，在各种漏电流的作用下电压缓慢下降。要让电容充电、电压恢复，只能把开关拉低，Q2 导通后，Q1 截止。所以 控制 信号是低电平有效，在Q2 截止时，Q1 导通。并且控制信号应该周期性拉高，及时给电容充电，避免Q1 进入不完全导通的状态。
+
+所以自举驱动时，控制信号的占空比不能达到100%，必须留一点充电时间。这也是很多DC-DC 芯片占空比到不了100% 的原因。
+
+### 增加稳压管
+
+![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6Luyzf2tMBwQRiaYmp2UR4MehNzMQsT2e5NznukdHqG6fh8UZUR9k7FrmYjuxrrSpULwOya49vwuCdVicXtUOohNNOdzxUmISM2DyRo/640?wx_fmt=png&from=appmsg)
+
+现在给MOS 管栅源极上并一个稳压管，看看效果如何，顺便把R1 的阻值增加到10k，不然30V 压差普通0603 电阻扛不住。电容值也可以减少一些。
+
+R4 只是为了让仿真不报错，可以忽略。驱动信号换成了一个5V 的方波信号源V2，输出频率10Hz 的方波，模拟PWM 控制信号，占空比50%。探针DRIVE 用来显示驱动电压的波形。下面是仿真结果。
+
+![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuywBcSjPxQP6YTVkp5p1ibmnQVl6PjmJRYh2LnqLIa1fMHEqDkiaKYibE345sVaxEZhCyrAdZpPqRsmDmicDI1U97pSvGW6a1QrOG6k/640?wx_fmt=png&from=appmsg)
+
+栅源电压的蓝色波形基本是跟着驱动信号走的，且被稳压管限制在12V 左右。在驱动信号拉低的瞬间，BS 电压最高冲到50V，然后快速下降，因为稳压管开始给电容放电。虽然栅极上串联了10k 电阻，按理说GS 电压上升应该会变慢，但是驱动栅极的BS 电压最高有50V，电压足够高，经过了10k 电阻的栅极充电电流大概还是足够的。
+
+这个电路基本能用了，除了几个问题：
+
+-   二极管D1 能不能扛得住BS 的最大电压；
+    
+-   电容C1 耐压够不够；
+    
+-   电阻R1 发热量有多大；
+    
+
+常用的肖特基二极管1N5819 耐压是40V，BS 电压最高为两倍电源电压，那么加在二极管D1 上的反向电压就是一倍电源电压30V，应该问题不大。不过肖特基二极管反向漏电流相对比较大，可能导致BS 电压下降过快，应该看情况换成1N4007。
+
+虽然BS 电压最高能到60V，但是电容C1 上最大电压不会超过电源电压30V，那么普通的50V 耐压陶瓷电容基本就OK 了，可以试试100nF 50V 的0603 或0805 电容，仿真时按50nF 容量计算。
+
+当Q2 拉低时，电阻R1 两边电压30V，功耗90mW，而0603 电阻额定功耗100mW，有点极限了。所以把R1 再增大到15kΩ，这时功耗60mW。做这些修改后，仿真曲线如下图，可以看到因为C1 容量减少了，VGS 存在明显的倾斜，毕竟稳压管上也有漏电流，但是应该问题不大，实在不行就加容量，或者稍微增大稳压管的电压。
+
+![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuyytyO7o4ia224MxfDf3Sfibbb5AIdWmohqZBK8JToxJh42R8rLjjeLRhZzxfeiao9A4C0dRyCKyBb8z1GmZnwZnZVosVrbmkAsAjc/640?wx_fmt=png&from=appmsg)
+
+### 串联电容降压
+
+想到个办法可以去掉稳压管，就是把C1 分成两个电容串联，每个电容上电压最大15V，不超过MOS 管栅源耐压，然后把栅极接到两个电容中间，如下图。当然这样就和两个电阻分压的效果差不多，缺点是不能适应宽电压。
+
+![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuyyH9G26MDJuWcQx83yiagq4iaTicibNA05TKvGhX82ibqpuzJLG7S1SmjCG1hJJSmlLicLDabEe2LTPLx97CZJFJRcXcfE2qMvXn9CcM/640?wx_fmt=png&from=appmsg)
+
+15kΩ 的R4 用来给栅极提供一个恒定的驱动电压， 开启 自举驱动的正反馈，但是这个电阻并联在C1 上，会造成C1 和C2 不能等分电源电压。不过仿真的效果好像还不错，探针PC1 和PC2 表示C1 和C2 上电压，看上去均分的还行，如下图。而且关闭MOS 管时，GS 上出现一个-15V 电压尖峰，这个负压可以加速MOS 管关断，不太确定这是什么原理。
+
+![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6Luyyha9y9oOcicXt215ibpZIpOHqQgzx3p5icRRIn0GLzlcjRFXAob9RibXGztdmoFtibS756PySxmYSgdMRrz7WhwYylPOceEPNaM21A/640?wx_fmt=png&from=appmsg)
+
+### 增加推挽驱动
+
+还有一种用推挽电路加速MOS 管开启的设计，就是再加一个NPN 三极管和一个二极管，如下图。
+
+![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuywrGbrE0Jjv5iakKLYLcBGmMZaXxJlHKtL2acKvYEAMzyxqsV3FiaB8RS3dPD3f8F6fBVe1dkJqe9iaMBIm8VK7AP4m6weof2FYkM/640?wx_fmt=png&from=appmsg)
+
+![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6Luywe7QwbYchAS8vGFLQtNmb05icrWOuM8ibpEe83E4PMn9gyrgH4fe8yAeL9knX6CSYrxzicwz5ianAXjFOkl41nibjXpZFgRc7SDZwI/640?wx_fmt=png&from=appmsg)
+
+增加了Q3，对应推挽电路的上桥臂，用来快速把C1 里的电充进MOS 管栅极，不用再经过R1。D3 和Q2 构成下桥臂，Q2 导通后让Q3 截止，然后经过D3 给栅极快速放电。仿真可以看到MOS 管开启瞬间，BS 电压迅速下降到35V 左右，几乎没有之前电路从60V 下降的那个过程，这就是Q3 的作用。可以在栅极上串个小电阻，用来在导通瞬间缓冲一下，以免稳压管没反应过来，电容里30V 冲过来一下把栅极击穿。把稳压管换成TVS 可能效果更好，导通更快，漏电流更小。
+
+也可以把稳压管挪到Q3 基极，直接限制驱动电压。仿真发现BS 电压根本没有那个下降过程了，看起来很平滑。MOS 管开启非常快，关断稍微慢一点。
+
+![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6Luyzad94JSO1lXvFtSvf9UUHfPSib2mk0LRSpQqU5lac1QS16EzvyQmACibmk0uiavHKicAuEbVPV3dBUcicwsBtgWKu4V5HIz1pxk8pA/640?wx_fmt=png&from=appmsg)
+
+![在这里插入图片描述](https://mmbiz.qpic.cn/sz_mmbiz_png/EGUBSm6LuyzTeyqKUYVrY2HZg1ickCbicBEyCpRTE0bQmUtroWHe3ls5Rp6FlxRxj3Y3v9IiaJQzRJJz4VgIUicGfiaV6icfwmj1pMFLhd88mAH6I/640?wx_fmt=png&from=appmsg)
+
+![在这里插入图片描述](https://mmbiz.qpic.cn/mmbiz_png/EGUBSm6LuyxHibHxwgJXK2HZwicIgxMqLjcwmmutTgQnueIFmX0KfvRia9ontOorc8QONDBaJFDibxExnLmPviaiciaEAuTxe38HiaQ4Jl79T6n1UgQ/640?wx_fmt=png&from=appmsg)
+
+## **一点通推荐**
+
+[智能化行业趋势洞察与合作规划手册](https://mp.weixin.qq.com/s?__biz=MzU3MDU1Mzg2OQ==&mid=2247566768&idx=2&sn=9b56b2555afae3e08459f3627bbf7c8c&scene=21#wechat_redirect)
+
+[硬件研发总经理统筹团队核心技术突破手册](https://mp.weixin.qq.com/s?__biz=MzU3MDU1Mzg2OQ==&mid=2247566776&idx=2&sn=f0695fc2aa067e620b02521d7cc95d31&token=542927284&lang=zh_CN&scene=21#wechat_redirect)
+
+[汽车研发制造公司总经理统筹全产业链及生产基地营运](https://mp.weixin.qq.com/s?__biz=Mzk0MjY5ODk2Mw==&mid=2247536602&idx=2&sn=919a907a69086a7f26b3720e3e0d6484&scene=21#wechat_redirect)
+
+[新能源汽车维修主管工作统筹与管理手册](https://mp.weixin.qq.com/s?__biz=Mzk0MjY5ODk2Mw==&mid=2247536552&idx=2&sn=1e2fc3ea32314332f1ded7d500611f67&scene=21#wechat_redirect)
+
+[新能源汽车经理(中高层）商务谈判能力手册](https://mp.weixin.qq.com/s?__biz=Mzk0MjY5ODk2Mw==&mid=2247536571&idx=2&sn=9b94a03acec674bfd1e1c3f5d29ec01f&scene=21#wechat_redirect)
+
+[汽车销售总监服务运营与团队管理手册（含配套落地模板）](https://mp.weixin.qq.com/s?__biz=Mzk0MjY5ODk2Mw==&mid=2247536542&idx=2&sn=6fb9147a869497d775527733bb9facb2&scene=21#wechat_redirect)
+
+  
+
+免责声明：本文仅供学习参考，本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系（微信haizililiang）删除。
+
+  
+
+👆进大家庭⭕圈探讨回复: 交流 
+
+> 这里有深入浅出的电路知识讲解，从基础原理到复杂电路分析，还有趣味十足的电路实验分享，助你紧跟电子硬件领域发展步伐，轻松学电路，就来#电路一点通（7万+粉丝）。
+> 
+> 分享💬点赞👍在看❤️

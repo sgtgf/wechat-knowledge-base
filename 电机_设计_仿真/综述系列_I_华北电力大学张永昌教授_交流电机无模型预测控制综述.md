@@ -1,0 +1,173 @@
+# 综述系列 I 华北电力大学张永昌教授：交流电机无模型预测控制综述
+
+原创 CES TEMS编辑部 CES电机与系统学报 2025-04-10 07:00 北京
+
+> 原文地址: [https://mp.weixin.qq.com/s/iAsXU4tUcgiFn4E0GEKfKQ](https://mp.weixin.qq.com/s/iAsXU4tUcgiFn4E0GEKfKQ)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+
+**交流电机无模型预测控制综述**
+
+Chenhui Zhou1; Yongchang Zhang1; Haitao Yang2
+
+1. North China Electric Power University, Beijing , China
+
+2\. North China University of Technology, Beijing , China
+
+**■**[在线阅读](https://ieeexplore.ieee.org/document/10857834)    ****■****[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10857834)
+
+C. Zhou, Y. Zhang and H. Yang, "Model-Free Predictive Control of Motor Drives: A Review," in CES Transactions on Electrical Machines and Systems, vol. 9, no. 1, pp. 76-90, March 2025, doi: 10.30941/CESTEMS.2025.00002.
+
+**1**
+
+**内容**
+
+本文总结了交流电机的主要无模型预测控制（MFPC）策略，分为基于预测误差、电流差分、超局部模型和黑盒模型的四类无模型预测控制，并从控制原理、控制性能、主要挑战等方面对现有策略进行分析比较，最后对交流电机无模型预测控制的未来发展趋势进行了展望。
+
+**2**
+
+**亮点**
+
+  
+
+**2.1 基于预测误差的无模型预测控制**
+
+保留了理想系统模型的位置，同时增加了估计和补偿来处理估计误差和扰动误差，从而增强系统的参数鲁棒性。
+
+优点：算法简单；计算量小。
+
+不足：需要受控对象的标称参数；需选择合适的误差增益。
+
+措施：改进误差模型，修正预测方程；利用递归最小二乘法规避调优工作。
+
+**2.2 基于电流差分的无模型预测控制**
+
+基于采样数据建立电流差分查找表，从而根据存储的输入输出数据预测未来电流状态。
+
+优点：完全无模型；算法简单；计算量小；无需调节参数。
+
+不足：需要查找表，可能存在电流更新停滞的问题；电机高速运行时误差较大。
+
+措施：基于电压矢量与电流差分建立查找表全更新机制；增加离散转子位置信息构建二维查找表。
+
+**2.3 基于超局部模型的无模型预测控制**
+
+基于系统的输入和输出构建超局部模型，通过对模型中的不确定性项进行估计来实现对未来状态的准确预测。
+
+优点：实现模型降阶；结构简单。
+
+不足：需要输入比例因子的先验知识；算法较复杂；计算量较大。
+
+措施：通过定子电压和电流在线自适应更新系数，避免先验知识的输入与调优工作。
+
+**2.4 基于黑盒模型的无模型预测控制**
+
+利用有源自回归模型建立一个黑箱来捕捉物理模型中的变化信息，如负载扰动、模型参数失配等，从而协助实现未来状态的预测。
+
+优点：通用性好。
+
+不足：使用高阶模型；算法复杂；计算量大。
+
+措施：系统模型建立问题转化为一般数学模型参数识别问题，通过改进参数识别方法来降低计算量；结合人工智能算法改进有源自回归模型，从而提高模型构建的准确性。
+
+**3**
+
+**结论**
+
+目前，无模型预测控制由于其显著提升系统参数鲁棒性的优势，已受到广泛关注和研究。本文分析了近年来针对PMSM的无模型预测控制策略，从控制理论的角度将上述策略分为四类，并总结了每种无模型策略的优缺点。同时为了促进MFPC在大功率低开关频率系统下的实际应用，文章针对采样延迟、逆变器死区影响等问题进行了一定思考，并提出了开发低计算量的多矢量MFPC、集成优化调制的MFPC以及基于无传感器的MFPC等未来可行方案，为MFPC的进一步优化提供了有益探索。
+
+**4**
+
+**团队介绍**
+
+华北电力大学张永昌教授领衔的课题组主要从事交流电机系统控制与应用、新能源发电与并网等方向的研究。课题组现有教师3人，博士生9人，硕士生30人，主持承担国家重点研发计划课题1项、国家自然科学基金4项（已优秀结题2项）、北京-顺义联合基金重点专题/北京市自然科学基金/北京市科技专项等省部级项目10项、中国博士后科学基金2项、台达重点基金以及与汇川技术、英威腾电气等变频领域头部企业合作项目10余项。课题组近年来出版专著2部、译著3部，发表SCI论文100余篇（IEEE汇刊68篇），先后有11篇入选ESI高被引/热点论文，授权国家发明专利44 项，获得北京市自然科学奖2项，重庆市自然科学奖1项。张永昌教授入选IEEE/IET Fellow、国家级青年人才计划、国务院政府特殊津贴、中国高被引学者、全球前2%顶尖科学家，杨海涛副研究员入选北京市高层次留学人才、全球前2%顶尖科学家，张旭老师入选全国“博士后创新人才支持计划”。
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179WrHUzXgJkhkxNalicjNr6gicm5RJjlJ1j7ZoX4tvxQp8p7DS6EEBroXnReia9oThj8ibhVyV45sqt8w/640?wx_fmt=png&from=appmsg)
+
+**5**
+
+**作者介绍**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179WrHUzXgJkhkxNalicjNr6gr5GjqtWBK9NyznZMwb96xeVclxCo8M4lkCIUichNnjmzPKwTKYic6PnQ/640?wx_fmt=png&from=appmsg)
+
+**张永昌（1982）**，华北电力大学教授，IEEE Fellow。主要从事电力电子与电力传动、新能源发电与并网、规模化储能系统控制的研究工作。入选国家级青年人才计划、爱思唯尔中国高被引学者、北京市高创计划领军人才、北京市长城学者、北京市科技新星，享受国务院政府特殊津贴。担任中国电工技术学会理事、中国电源学会变频专委会副主任、北京电力电子学会理事和青工委主任、IEEE TEC/TIA/JESTPE等7本国际期刊的编委/副编辑。近年来出版专著2部、译著3部，发表第一/通讯作者SCI论文73篇（IEEE汇刊61篇），先后有11篇入选ESI论文，3篇入选ESI热点论文。主持国家重点研发计划课题1项、国家自然科学基金3项（已优秀结题2项）、北京市科技专项6项以及多项横向课题，作为第一完成人获得北京市科技奖、中国产学研合作创新奖、IET期刊最佳论文奖和多个国际会议最佳论文奖等奖励。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179WrHUzXgJkhkxNalicjNr6gRDsQIg0nicND78pQHalrrE753JNyH9gDvnPIDvm08Y6LDCEhoibKt6Fg/640?wx_fmt=png&from=appmsg)
+
+**杨海涛（1987）**，北方工业大学副研究员。2009年获合肥工业大学电气工程学士学位，2015年获北方工业大学电气工程硕士学位，2020年获悉尼科技大学机电工程博士学位。2020年加入北方工业大学，任副研究员。研究方向包括电机驱动控制和脉宽调制变换器控制。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ179WrHUzXgJkhkxNalicjNr6gVZObic1mH8amuSqiaXnAjcCpCrv7UEibSLejuVmKfdWAOnfCcBU4uGFNQ/640?wx_fmt=png&from=appmsg)
+
+**周陈辉（1998）**，博士生，分别于2020年和2023年获得南通大学电气工程专业学士学位和硕士学位。目前于华北电力大学攻读电气工程博士学位。主要研究方向为交流电机模型预测驱动控制。
+
+  
+
+  
+
+★
+
+《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+  
+
+**中国电工技术学会**
+
+**新媒体平台**
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+学会官方微信
+
+电工技术学报
+
+CES电气
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+学会官方B站
+
+CES TEMS
+
+今日头条号
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+学会科普微信
+
+新浪微博
+
+抖音号

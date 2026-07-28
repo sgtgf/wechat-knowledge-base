@@ -1,3 +1,8 @@
+# 畅销10余年，这部Python经典终于出实战手册了！
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/-cVd\_im3\_ewnaqScePJnsA](https://mp.weixin.qq.com/s/-cVd_im3_ewnaqScePJnsA)
+
 Python新版本迭代再提速！Python 3.15锁定全部新特性进入Beta测试，底层性能与原生语法持续优化；另一边AI Agent爆发式落地，Python凭借无可匹敌的生态优势坐稳智能体开发唯一主场，成为2026年技术人必备核心编程语言。
 
 很多人想学Python，首要诉求就是告别重复机械操作、用代码解放双手。不用啃晦涩理论，从实战入手效率最高。其中，**《Python编程快速上手——让烦琐工作自动化》**是公认的入门经典，畅销多年，出版至今已更新至第3版。
@@ -6,6 +11,9 @@ Python新版本迭代再提速！Python 3.15锁定全部新特性进入Beta测�
 
 原版热销75万册以上，中文版销量突破35万册，先后被译为日、韩、德、意等十余种语言，长期霸榜各大编程入门榜单，是无数程序员案头常备的Python实战教程。
 
+![图片](https://mmbiz.qpic.cn/mmbiz_png/jbK5xPfic2R22vlfpcz4Y7IWe1vSgbJiagomFN7mdmLNgmSHKzVtiaDSof5iaZkXRjXOqw5cicuQBBvTGz4UTB4Iia4sWpGTiatuRvFNYsWH5jWSa0/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=1)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/jbK5xPfic2R3TOxDpmiccmWcetHYSnLI2tk7udgJLERvu5UiaTSq0ia8QIrjxvp7YmmpWc9Fb4erWxCKZsibAgibicwowJkicnlGazaSJt9KsEg9c78/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=2)
 
   
 
@@ -15,6 +23,7 @@ Python新版本迭代再提速！Python 3.15锁定全部新特性进入Beta测�
 
 两本书均由阿尔·斯维加特（Al Sweigart）撰写，前者侧重知识点系统讲解，后者专注于动手实操，二者相辅相成，共同组成Python学习的最佳拍档。
 
+![图片](https://mmbiz.qpic.cn/mmbiz_png/jbK5xPfic2R3KuZTvJTwbjKiaRRlrzNcbbakibHia7SFfYRfcRBNKF0cvxFh2kLOf5EPUoaiboWXNY39ibbxiavDw77icWUTJbWvRyVUKjOiaWTSCwvY/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=3)
 
 ▼点击下方，即可购书
 
@@ -32,6 +41,7 @@ _**Part.1**_
 
 作者深知普通学习者与职场人的编程痛点，擅长摒弃复杂公式与晦涩底层原理，用通俗直白的语言拆解编程知识。
 
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/jbK5xPfic2R1wzjeJsBQPJQEgFQacPMrsRicALdzOrviaX5ssibyLicdPoqU4rwefGiaPaC9mWlTjApxia2AAqib9lu0KKyHSFz6m1QV2d6Cks3j6wk/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=4)
 
   
 
@@ -45,11 +55,19 @@ _**Part.1**_
 
 从第1版的理念奠基到第3版的全面迭代，该书始终同步Python生态的最新发展，贴合市场与职场需求，实用性在不断的版本演进中愈发强大。
 
+![图片](https://mmbiz.qpic.cn/mmbiz_png/jbK5xPfic2R3y1nxlKLox2icNZtCDKtDP8IZgNaNNLsBt1Vo96GnY1CYsodVibhStSCSejGX9fxubTWWbeZbhj9TY4gKgWMSMbWkAsS9S9lYls/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=5)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/jbK5xPfic2R0ETzuAeCjbeNuBAlA1CrXwbCddpLKKab82qXiaxCIjth4L2KtI4fnapNgQFgFDFoCianrnvCtC5TglsGibKfibBcTMQvUyrv24WWg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=6)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/jbK5xPfic2R22vlfpcz4Y7IWe1vSgbJiagomFN7mdmLNgmSHKzVtiaDSof5iaZkXRjXOqw5cicuQBBvTGz4UTB4Iia4sWpGTiatuRvFNYsWH5jWSa0/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=7)
 
   
 
 原版美亚评分4.7，被翻译为日语、韩语、意大利语、德语等多语种版本，广受全球读者欢迎。中文版引进国内后，迅速引爆零基础Python学习圈，累计销量超35万册，常年位居京东、当当等平台自动化编程类目热销榜，是国内读者认可度最高的Python实战入门书籍之一。
 
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/jbK5xPfic2R0e7ibce5OVKetkYGzpZarufAGmLWwQSRwkNib8ib4Gp9LJKH33BtQXuUlR2bC4auwQf1RJ0KfYvQr2IWuLAuXdPCRIzWo5618PC0/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=8)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/jbK5xPfic2R3wfPksVFcoIE3khOIK8nqsTD674Pk448V3xclIUbjySuzZ3bIBdWjvQsGibXVdUYmttItbmTZicibdibz3K8vyLBHC72j6HjH2WoQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=9)
 
 ▼点击下方，即可购书
 
@@ -77,6 +95,7 @@ _**Part.2**_
 
 而**全新推出的配套实战手册收录海量分层习题与完整实战项目**，既能帮助读者巩固课本所学、排查知识盲区，也能培养独立解决实际问题的能力，为后续自主开发项目、深耕编程领域筑牢基础。
 
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/jbK5xPfic2R0fw86PYR5WEDwNA0a0gtu7SQyrFNmnib3FKU3EvhdicbfQegSz7Fy4SlShamstQRfFibY9l24qLwOsHmGSeQUUn4XuhRUYkBvvq4/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=10)
 
   
 
@@ -94,6 +113,11 @@ _**Part.2**_
 
 内容从基础语法、流程控制、函数调试入门，逐步延伸至列表字典、文件处理、正则表达式等核心数据处理技能，同时覆盖网页抓取、电子表格与数据库运维、图像处理、GUI自动化、语音识别等高阶应用场景，囊括Python自动化办公、智能开发的主流使用场景。
 
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/jbK5xPfic2R0f4Icp0ANzHysdbHIdMmdzFNktDkdG8rV15NCx2YOMF0Yiaml9XggKSrnW7VYI188WKhUe0Br6mVp4BgKLUEBCtZ6pyiaDcQ45I/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=11)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/jbK5xPfic2R2kdic6jOqEEVNqxGavicxUM0W8ia3AKPibU102tqA8fkt1hmJZia3twkbGR0pdcUBlvONkugbsJXDh53Am7HYa2zUQOM1qy4OVgq2w/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=12)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/jbK5xPfic2R2G3nwj75lDPYcIuKN1stV36fOL4iaibKFHicicSKaUGl3cLW0IDRDichul7YAU2q4wSk0icva9zfvn5UcW4WibethMgN3zLuoLUkDrRs/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=13)
 
   
 
@@ -127,14 +151,21 @@ _**Part.2**_
 
 该实战手册依托《Python编程快速上手——让烦琐工作自动化（第3版）》章节结构，搭配梯度化习题与多元化实战项目，针对性帮助读者完成从读懂语法到上手解题、独立开发项目的能力进阶。
 
+![图片](https://mmbiz.qpic.cn/mmbiz_png/jbK5xPfic2R3EicFxYgLwYACxPg2TicXrLl97fB77CuvIYd6fTzD0ibib8rxnTF7N5w64aLFGf7fjdnZ7afibBZU0icJMLkfxtzzd110yUcxIGRb8o/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=14)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/jbK5xPfic2R2MUIuNITwn0fmsZYmwrOzgIFibRicUPsG07720pXibia57eliaYev0gK2MZOofYyzB7euzC1ian7m6pLYneRKhEPf5WMEmhmEYXhiaWg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=15)
 
 为进一步降低学习门槛、提升学习效率，书末汇总全部习题答案与详细解析，同时附赠所有实战项目可直接运行的完整源码方案。
 
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jbK5xPfic2R2Qn0BzFBicfafWNmOic93I6Azz3U2ZBkZRTCgEmgeRXBjC5CibYTEEXN72NZ6Z2Abs39OR5TE3MfEpwWjnDibSZQN2xvnFgTxxlC8/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=16)
 
   
 
 读者可前往异步社区下载配套项目源码，参考官方解题思路，举一反三优化代码、自主设计全新实操项目。所有习题与项目的难度贴合初学者能力边界，既能规避入门难度过高劝退读者的问题，又能帮助学习者清晰定位自身能力层级，稳步积累实战经验，为长期编程学习筑牢根基。
 
+![图片](https://mmbiz.qpic.cn/mmbiz_png/jbK5xPfic2R3o22aWyicxJpNPBQebIoxwibMWO7C0WRzrClutiaibzkicJOcnLLKSdAytLRkqDiavYgR0uaoNcWP2dibWSeAAAOZ4lU1F2Qcc6186mw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=17)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/jbK5xPfic2R3ErsOGEuDfnuZ2o1mNKnxQU4pbBAuLeCek5gDfITaPiaUrCe1rleib8BpEIgyPISt8y8LBvc3IyyniaNwdTia1fTBpCPryvDYric6M/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=18)
 
   
 
@@ -144,6 +175,7 @@ _**Part.2**_
 
 这本实战手册兼顾自学与课堂教学双重场景，是个人学习者与授课教师的优质资源。其中第1~第11章的习题覆盖Python基础语法、官方标准库全部核心内容，难度适中、题型丰富，可直接作为高校编程课程、线下培训班的配套练习材料。
 
+![图片](https://mmbiz.qpic.cn/mmbiz_png/jbK5xPfic2R0UCmTHqQ1bb2SlteIiayicALGLGayJMRh1LJyOx53jrw31O9TEGQniaUibLotTeMl8nWTOIpZHOV9YC1cyvgqLCpPYejsjsJMwVpM/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=19)
 
   
 
@@ -175,6 +207,7 @@ AI Agent爆发、Python生态加速迭代，编程能力已成为职场硬通货
 
 向上滑动阅览
 
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/jbK5xPfic2R2JLiapZWRA4l6mKWaicxRUgoBquwmA8fHurntJMO9hfkQFDyMV2O3PfeahzfJ9UGPyXGg2Swl7uLt7cH2xt4IRIormkiasU3RDhU/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=20)
 
   
 

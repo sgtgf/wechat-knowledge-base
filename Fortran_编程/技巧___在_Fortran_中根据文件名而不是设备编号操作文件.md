@@ -1,3 +1,12 @@
+# 技巧 | 在 Fortran 中根据文件名而不是设备编号操作文件
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/jRNil\_YcXoUN\_OD2SxPJxg](https://mp.weixin.qq.com/s/jRNil_YcXoUN_OD2SxPJxg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVD8PfRibLSshCSibRmWHepdFOD2qh33jViaNicEvGlctlicQnhLP5Jct7MkrVLDNLQrZjM55kq7iaLBeDA/640?wx_fmt=jpeg)
+
+  
+
 在Fortran编程领域，处理文件输入输出时，传统上依赖于为每个文件或I/O设备分配一个特定的设备编号。尽管这一机制沿袭了Fortran悠久的历史传统，但在现代编程实践中，直接通过文件名来操作文件显得更为直观和便捷。本文将探讨如何在Fortran中实现这一目标，避免显式地使用设备编号，转而利用文件名作为操作依据。
 
 ## Fortran中的文件操作背景
@@ -34,6 +43,7 @@ Fortran将所有文件和输入输出设备抽象为“装置”，并为每个�
 
   
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

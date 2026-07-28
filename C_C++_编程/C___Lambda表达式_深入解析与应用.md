@@ -1,8 +1,17 @@
+# C++ Lambda表达式：深入解析与应用
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/s53ea5UqKE7qxKQ4UsUNZg](https://mp.weixin.qq.com/s/s53ea5UqKE7qxKQ4UsUNZg)
+
 ### 
 
+![](https://mmbiz.qpic.cn/mmbiz_gif/kicB09lvgibnnRjv0AAqQxyBODIttZXnQqcTPoF4Pt8tJmnia4CHaYUS3zqicFfKZTWibXTAew2ibFHDjy5Pf8nDnVEQ/640?&random=0.5435628020271572&random=0.7333430426412921&random=0.11768190117034583&random=0.12018774317487124&random=0.31661911194151493&random=0.7635339231703804&random=0.9613365986074616&random=0.1923479600602538&random=0.5088725080122942)
 
 点击上方「蓝字」关注我们
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kLQoJJzjYaicxneNzbOg7ynx3TfnIwmNTpJQ7orkaUNrJIV4u7PNdSJ25Mtn6XdRQTamLDDicHnYfdic2bsiaNQjCw/640?&random=0.6153869521132325&random=0.3050959118824166&random=0.3425740390684655&random=0.5631073915395226&random=0.3811110885571365&random=0.7586035005343534&random=0.5766395221126888&random=0.5695725227414736&random=0.31459453309857777)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRETdLuoXm1hlcFzRLY8530oa5qlVg14icIZ9hDbNPOkYIRsOWmTDTTFiaxJvPWFTqGXm8cTKIO6bau1qSEqqBDA/640?wx_fmt=png&from=appmsg&random=0.14341926131468363)
 
 ## 引言
 
@@ -104,3 +113,15 @@ Lambda表达式是一种内联函数对象，它可以被定义为一个表达�
 ## 小结
 
 Lambda表达式是C++11以来引入的一项强大特性，它极大地增强了语言的功能性和灵活性。通过本文的介绍，相信读者已经掌握了Lambda表达式的使用方法及其背后的原理。无论是在日常开发工作中简化代码，还是探索更深层次的语言特性，Lambda表达式都将成为C++程序员手中的一把得力工具。随着C++标准的不断演进，未来版本还将带来更多关于Lambda的新特性和改进，值得我们持续关注。
+
+# 推荐阅读
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/eRETdLuoXm1hlcFzRLY8530oa5qlVg14Sp7ykiaiaeksse1OriavStBSZ3aOeSRibrictsMImSUmYpM8KlkR2oh16xA/640?wx_fmt=gif&from=appmsg)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRETdLuoXm0F1TJuz7SHvpW1zgzV6ZIF0r5H99lwcz5CHLoNtLjOXfQpElKKhKEE3Eiapa05EFDfBlOlExx8iaOw/640?wx_fmt=jpeg&from=appmsg&random=0.07403834435997281&random=0.9548404603232596&random=0.104285335892905&random=0.6465628742284186&random=0.7114643948388735&random=0.39825419144728924&random=0.5036513307316739&random=0.24264210905518024&random=0.8403119589921406&random=0.004225922898027479)

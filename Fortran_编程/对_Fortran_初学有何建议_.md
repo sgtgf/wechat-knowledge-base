@@ -1,3 +1,10 @@
+# 对 Fortran 初学有何建议?
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/ZZQgclQx5q2XIHpPqL00kA](https://mp.weixin.qq.com/s/ZZQgclQx5q2XIHpPqL00kA)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXPQffrhEvGC0lEib91JzuYnChjswqR1CNoBYXwwY4pWM46dMMjlEjVWG3SPrApxNHZD4WTCteDicIQ/640?wx_fmt=png&from=appmsg)
+
 Fortran（Formula Translation）是一种历史悠久且至今仍在科学计算领域广泛应用的编程语言，已历经多个版本的发展，从最初的 FORTRAN 66、77 到现代的 Fortran 90/95、2003/2008/2018 和最新的 Fortran 2023。作为初学者，建议从 Fortran 90 或之后的版本开始学习，因为这些版本引入了现代编程概念，如模块化、面向对象特性等，更易于理解和使用。
 
 ## 学习内容提纲：
@@ -115,6 +122,7 @@ Fortran 入门必看 —— 学习资源推荐和源程序编译演示
 
 建议按照以上提纲逐步学习，并结合实践不断巩固所学知识。同时，关注最新版本的Fortran标准以利用其最新的特性和优化功能。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

@@ -1,0 +1,102 @@
+# 【文献导读】NC：非衍射电磁超环脉冲
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/TlBmnLMoD\_igLMpSqMxZyQ](https://mp.weixin.qq.com/s/TlBmnLMoD_igLMpSqMxZyQ)
+
+导读
+
+* * *
+
+  
+
+最近有不少老师和同学关注电磁飞环在传播过程中是否扩散的问题。这里借此论文解答一下大家的疑问：一般电磁飞环在传播过程中是扩散的，而存在一些高阶的电磁飞环模式（例如本文介绍的电磁超环）具有非衍射传播特性。
+
+论文信息
+
+* * *
+
+  
+
+题目：
+
+Nondiffracting supertoroidal pulses and optical “Karman vortex streets”
+
+作者：
+
+Yijie Shen, Nikitas Papasimakis, Nikolay I. Zheludev
+
+单位：
+
+1 Centre for Disruptive Photonic Technologies, School of Physical and Mathematical Sciences & The Photonics Institute, Nanyang Technological University, Singapore 637378, Singapore. 
+
+2 School of Electrical and Electronic Engineering, Nanyang Technological University, Singapore 639798, Singapore.
+
+3 Optoelectronics Research Centre & Centre for Photonic Metamaterials, University of Southampton, Southampton SO17 1BJ, UK.
+
+出版信息：Nature Communications, 2024, 15:4863, DOI: 10.1038/s41467-024-48927-5 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUn5xZby2PAXic3aXIljXh5uFfd5d6cN1UTjQ510oqG0m4x3mficUyR8AVuCfSaW9KmibhplkajQy6uw/640?wx_fmt=png)
+
+论文摘要
+
+* * *
+
+  
+
+超环面脉冲作为一种时空不可分离的电磁波，展现出独特的拓扑性质，包括斯格明子构型、类分形奇点以及自由空间中的能量回流。然而，这些特性在传播过程中无法保持。本文提出了一种非衍射电磁超环，其斯格明子与涡旋场构型在传播过程中保持稳定，可在任意传播距离内保持不变。引人注目的是，非衍射电磁超环的场结构与冯·卡门涡街具有相似性——这是一种在流体与气体动力学中出现的交错涡旋模式，其涡旋能够稳定向前传播。非衍射电磁超环有望成为信息和能量传输应用中的定向通道。
+
+图文导读
+
+* * *
+
+  
+
+本文主要解决传统电磁飞环在传播过程中拓扑结构（如斯格明子、涡旋、能量回流等）无法保持稳定的问题，提出了一种具有非衍射传播特性的电磁超环脉冲。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUn5xZby2PAXic3aXIljXh5unG4IsW6MVyrhZicqZicxLjJOOZFGSV0Jcq7UoHCsldYFqGaIxUfZpJBw/640?wx_fmt=png)
+
+图 1 | 时空拓扑脉冲演化。(a) 基模电磁飞环与 (b) 非衍射电磁超环的传播演化：图中展示了在三个不同时刻下，脉冲的归一化横电模式电场在 x-z 平面上的分布。红色和蓝色的三维等值面分别表示电场振幅等于正0.15和负0.15（均归一化至相应最大值）的位置。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUn5xZby2PAXic3aXIljXh5uNDyr89ouvoxp1K6buCGsPrJsZZf4Pt1zU7IKhbjNibbEBMk5ia0OsPpA/640?wx_fmt=png)
+
+图 2 | 非衍射传播特性。(a) 一个横向发散电磁飞环脉冲的传播演化：展示了 q₃/q₁ = 20 的脉冲在三个不同时刻下，其归一化电场在 x-z 平面上的分布。红色和蓝色的三维等值面分别表示电场振幅等于正0.15和负0.15的位置（均归一化至相应最大值）。所示案例介于基模电磁飞环 \[q₃ → ∞；见图1a\] 和非衍射电磁超环 \[q₃ = q₁；见图1b\] 之间。 (b) 不同 q₃ 值的脉冲在传播过程中其横向宽度的演变，图中标记了数值计算的发散度。(c)–(f) 分别为具有不同 q₃/q₁ 值（50, 20, 5, 1）的脉冲的时空演化。在每个子图中，紫色虚线标示了相应脉冲的半高全宽位置。所有情况下 q₁ 均设为 1。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUn5xZby2PAXic3aXIljXh5u635Lusia5w5ibqJIia7SJkvycV2wsw6PliaFxNMpU2KzNehDWA82IIXqTw/640?wx_fmt=png)
+
+图 3 | 传播鲁棒的奇点。展示了 (a) 一个聚焦的电磁飞环 (q₃ = ∞, α = 50) 和 (b) 一个非衍射电磁超环 (q₃ = 1, α = 1) 的电场奇点随传播时间演化的对比：每个子图展示了在给定时刻，脉冲在 x-z 平面上电场对数模值的等值线图。奇点由粗黑线突出标示。长度单位：q₁。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUn5xZby2PAXic3aXIljXh5uGUGIz06kP7HIWfNxeHVJJGWIiasLoo5ZZwl4IATod6AadsbMWFicVd5A/640?wx_fmt=png)
+
+图 4 | 拓扑电磁与能流结构。展示了在 t = 0 时刻，一个参数为 q₂ = 100 且 q₃ = 1 的非衍射电磁超环的磁场分布和坡印廷矢量分布。等值线表示相应矢量模的对数值。(a1) 磁场的放大图：箭头图显示了矢量分布，黑点指示奇点，周围红色箭头标示了矢量奇点的类型，作为示意。(a2) 箭头图显示了在 z = 10 处横向平面上的磁场斯格明子结构，插图中突出了斯格明子纹理中场矢量反转区域的深亚波长特征。(b1) 坡印廷矢量场的放大图：箭头图对应矢量分布，实线和圆点标示了坡印廷矢量的零点，红色和蓝色箭头分别指示能量前向流动和反向流动的区域。长度单位：q₁。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUn5xZby2PAXic3aXIljXh5ulklJOvR1VJ6KxatFXyLuIlo6FETCTvqq6eicaEEiaaT2CAdkFN6vIxeQ/640?wx_fmt=png)
+
+图 5 | 卡门涡街。一幅艺术构想图，展示了与非衍射电磁超环磁场结构类似的涡街，其中右旋和左旋的涡环分别用蓝色和红色突出显示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaUn5xZby2PAXic3aXIljXh5u2SQAOkjueVIPH47sPHJgtqicUdlsOLhDGSRG0cyCP3V4gE0uvOMQXrQ/640?wx_fmt=png)
+
+图 6 | 频谱分析。(a1)基模电磁飞环与(b1)非衍射电磁超环的平面波谱，以及它们相应在 kz-ω/c 平面上的投影 (a2, b2)。光锥由 (a1, b1) 中的蓝色曲面和 (a2, b2) 中的蓝色线条表示。电磁飞环和非衍射电磁超环的参数分别与图 3a 和 图 3b 中的相同。
+
+论文启示
+
+* * *
+
+  
+
+本论文提出并理论验证了一类新型的非衍射电磁超环，其传播鲁棒的拓扑结构和光学卡门涡街类似，为电磁波控制、能量传输与信息编码提供了新范式。重要结论如下：
+
+(1) 传播稳定的拓扑结构：非衍射电磁超环在传播过程中保持斯格明子、分形奇点、涡环等拓扑特性。这些结构在传统脉冲中仅瞬时存在，而在非衍射电磁超环中可长距离稳定传播。
+
+(2) 光学卡门涡街：非衍射电磁超环呈现出交错排列的涡旋对，类似于流体中的卡门涡街。
+
+(3) 能量流向控制：能量在脉冲中呈现分层的前向流与反向流，涡旋充当能量源与汇，调控能量传输。
+
+(4) 潜在应用前景：可用于远距离信息传输（拓扑编码）、光谱学中环面激发探测、超分辨计量与成像等。
+
+* * *
+
+  
+
+【本文特别声明】
+
+本文中对文献的解读与评述仅为学术探讨，不代表原论文作者及其机构的观点。文中引用的论文插图/图表仅为评论、说明之目的，属于在学术交流中的“合理使用”，其版权均归属于原出版方及原作者所有。我们已尽最大努力标注原始出处。如果您是版权所有者且认为存在侵权，请与我们联系，我们将立即删除。我们强烈建议读者阅读原文以获取最完整准确的信息（可点击左下角“阅读原文”跳转）。\[原文DOI链接：https://doi.org/10.1038/s41467-024-48927-5 \]

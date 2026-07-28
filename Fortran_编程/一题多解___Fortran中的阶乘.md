@@ -1,3 +1,12 @@
+# 一题多解 | Fortran中的阶乘
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/L\_QCYRsfH9T037SM13\_e-A](https://mp.weixin.qq.com/s/L_QCYRsfH9T037SM13_e-A)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVUQCn96bP7hPmBV5GGjKib0wNzqs8XdcrZNjaE0M2HXKcduVw15D4bb5rhyQy2IrwCnADB5HhB1uGg/640?wx_fmt=jpeg&from=appmsg)
+
+  
+
 当我们谈论数值计算领域的编程语言时，Fortran常常被提及为一个历史悠久且功能强大的工具。然而，新手们可能会惊讶地发现，这样一个以数值计算见长的语言竟然没有内置计算阶乘的函数。本文将揭示这一现象背后的原因，并介绍几种实现阶乘计算的有效方法。
 
 ## 结论先行：`gamma` 函数
@@ -45,3 +54,13 @@ Fortran还提供了另一种优雅的解决方案，利用数组的`product`函�
 ## 小结
 
 Fortran未直接提供阶乘函数的原因，在于其拥有更为泛化的`gamma`函数。利用`gamma`函数，或者通过数组乘积、递归等方式，我们都能轻松实现阶乘计算。了解这些不同的实现策略，不仅能丰富我们的编程技能，还能让我们在面对数值计算挑战时更加游刃有余。
+
+## 推荐阅读
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+
+**FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
+
+有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。

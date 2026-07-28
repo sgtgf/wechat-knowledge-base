@@ -1,3 +1,10 @@
+# 详解C和C++中结构体(struct)的区别
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/neZcJaMg8rp7Kxd7BygIig](https://mp.weixin.qq.com/s/neZcJaMg8rp7Kxd7BygIig)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRETdLuoXm0tb44UfjgmvRS6P1M967JtDlLWQ9QowbhyiaYVxjh01c4PE9d35w8cxmmULV5hicic43me1uh6IdAyQ/640?wx_fmt=jpeg&from=appmsg)
+
 C 和 C++ 是两种广泛使用的编程语言，它们之间有着密切的关系，但也有着显著的区别。特别是在数据结构方面，如结构体（`struct`），这两种语言提供了不同的特性和功能。本文将详细介绍 C 和 C++ 中结构体的主要区别，并通过具体的代码示例来帮助读者更好地理解这些差异。
 
 ## C 和 C++ 结构体的基本概念
@@ -114,3 +121,11 @@ C 和 C++ 在结构体方面的差异主要体现在以下几个方面：
     
 
 这些差异使得 C++ 中的结构体更加灵活和强大，能够更好地支持面向对象编程的概念。希望本文能帮助读者更好地理解和掌握 C 和 C++ 中结构体的区别。
+
+# 推荐阅读
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/eRETdLuoXm1hlcFzRLY8530oa5qlVg14Sp7ykiaiaeksse1OriavStBSZ3aOeSRibrictsMImSUmYpM8KlkR2oh16xA/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRETdLuoXm0F1TJuz7SHvpW1zgzV6ZIF0r5H99lwcz5CHLoNtLjOXfQpElKKhKEE3Eiapa05EFDfBlOlExx8iaOw/640?wx_fmt=other&from=appmsg&random=0.07403834435997281&random=0.9548404603232596&random=0.104285335892905&random=0.6465628742284186&random=0.7114643948388735&random=0.39825419144728924&random=0.5036513307316739&random=0.24264210905518024&random=0.8403119589921406&random=0.004225922898027479&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)

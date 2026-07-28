@@ -1,3 +1,8 @@
+# Fortran有可能提供更高的计算精度吗？
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/5F\_N7a1lg2UBr9YId\_zPnw](https://mp.weixin.qq.com/s/5F_N7a1lg2UBr9YId_zPnw)
+
 ## 
 
 # 提问

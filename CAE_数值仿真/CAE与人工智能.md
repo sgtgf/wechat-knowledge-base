@@ -1,3 +1,8 @@
+# CAE与人工智能
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/yhEbOG2fQYjDXxQaDL28pg](https://mp.weixin.qq.com/s/yhEbOG2fQYjDXxQaDL28pg)
+
 CAE有哪些术语呢？虽然我们无法估算确切的时间，但是从某一个时刻开始在脑海中有关CAE这个词语的性质貌似发生了一些变化。之前提到CAE脑子里就会浮现出诸如有限元，多体动力学，疲劳分析，计算热流体分析，优化设计，自动化等词语。现在再提到CAE的话，出现的则是人工智能，机器学习，数据科学，物联网（loT），未来战士模型等词汇。  
 
 把这些词语联合在一起观察后我们可以发现它们还是有一些区别的。它们其中的一部分可以归为“CAE术语”而另一部分则可以归为“第四次工业革命的术语”中去。
@@ -24,7 +29,7 @@ CAE有哪些术语呢？虽然我们无法估算确切的时间，但是从某�
 
   
 
-[](https://cdn.functionbay.cn/public/images/2020/06/yJjklK/01-%E6%95%B0%E5%AD%97%E5%AD%AA%E7%94%9F%E7%9A%84%E5%AE%9E%E6%96%BD%E7%BA%A7%E5%88%AB.png)  
+[![](https://mmbiz.qpic.cn/mmbiz_png/bcq1RnfYQy8Nlj09RRLl7urDpMiaXNJ8ZSxPmp16arpxwUpfJVicicyQ8P9SxB9E9q50LAxR4iau7ia9J0BiasW0385g/640?wx_fmt=png)](https://cdn.functionbay.cn/public/images/2020/06/yJjklK/01-%E6%95%B0%E5%AD%97%E5%AD%AA%E7%94%9F%E7%9A%84%E5%AE%9E%E6%96%BD%E7%BA%A7%E5%88%AB.png)  
 
 ( [https://blog.lgcns.com/1864](https://blog.lgcns.com/1864) )  
 
@@ -79,7 +84,7 @@ CAE有哪些术语呢？虽然我们无法估算确切的时间，但是从某�
 
 深度学习是数十年来研究人员创造人工智能研究成果的结晶。在研究人工智能做出类似于人类决策时，我们发现使用现存数据预测未来情况的机器学习技术是非常有效的。在此，机器学习计算机中有几个算法，其中效果表现优秀的是深度学习。人工智能，机器学习和深度学习之间的关系，如下图所示。机器学习属于人工智能的一大类，深度学习又是其中的一部分。
 
-[](https://cdn.functionbay.cn/public/images/2020/06/aQE1w8/02-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB.png)  
+[![](https://mmbiz.qpic.cn/mmbiz_png/bcq1RnfYQy8Nlj09RRLl7urDpMiaXNJ8ZA8t1zXUrg09owBdx31rRicVppHDN1kfQpNAUicWoVJqe9C6rL0cSt28g/640?wx_fmt=png)](https://cdn.functionbay.cn/public/images/2020/06/aQE1w8/02-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB.png)  
 
        < 人工智能, 机器学习, 深度学习的关系 >
 
@@ -127,7 +132,7 @@ PHM技术师一种通过收集一些机器，设备，航空，发电厂等状�
 
 基于以上这9个术语的定义，我们总结了下面的图片和说明
 
-[](https://cdn.functionbay.cn/public/images/2020/06/TGilrv/03-CAE%E4%B8%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD.png)
+[![](https://mmbiz.qpic.cn/mmbiz_png/bcq1RnfYQy8Nlj09RRLl7urDpMiaXNJ8ZvkDqDngjQuiaOFicPF5vHTB9wicvRE1djGmk1NfcUu8kgUFchwTYm3Wiaw/640?wx_fmt=png)](https://cdn.functionbay.cn/public/images/2020/06/TGilrv/03-CAE%E4%B8%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD.png)
 
 < CAE与人工智能>
 
@@ -177,3 +182,7 @@ PHM技术师一种通过收集一些机器，设备，航空，发电厂等状�
   
 
 * * *
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/bcq1RnfYQyibiczXDWJmbzEsBnyby8zulv0LxfRxmcDTQvFicKUkkKT6ibliaszZr5HklyYibUFk0xk4s7BLHrBWmNZw/640?wx_fmt=png)

@@ -1,3 +1,12 @@
+# Fortran与OpenMP：释放多核处理器的潜能
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/8Bz3sC0gmZcJUs3v\_PHzyA](https://mp.weixin.qq.com/s/8Bz3sC0gmZcJUs3v_PHzyA)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVwaKXjCAYoWyqbZsK7d6NibsFY7wEXmIhwlicDPgv0qrdhVibIe7OuxEzZniblcyUYohw0DJTeTZdNEQ/640?wx_fmt=jpeg&from=appmsg)
+
+  
+
 在当今的科学计算和工程模拟中，Fortran语言以其高效的数值计算能力和对大型数组操作的支持而闻名。然而，随着多核处理器的普及，单线程的计算模式已经不能满足日益增长的性能需求。为此，引入并行编程成为了提升计算效率的关键。OpenMP（Open Multi-Processing）作为一个广泛支持的并行编程模型，与Fortran的结合使用，可以极大地提高程序的执行速度。本文将介绍如何在Fortran程序中应用OpenMP，以实现并行化加速。
 
 ## 并行编程的重要性
@@ -97,6 +106,7 @@ OpenMP与Fortran的结合为科学计算和工程模拟提供了强大的并行�
 
   
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

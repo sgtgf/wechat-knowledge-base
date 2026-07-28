@@ -1,7 +1,15 @@
+# Fortran中的行号：用？还是不用？
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/3Zkv3wEp3sFaZUT-CQHJ\_A](https://mp.weixin.qq.com/s/3Zkv3wEp3sFaZUT-CQHJ_A)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUq9ZhVjkrjtzCiaTT2IIsiajMufhMNnbwLyNC2y8x6SeGPnqbGflYNviaT8K6wDNtoiaibKQsHLFbiasjg/640?wx_fmt=png&from=appmsg)
+
 在编程语言的悠久历史中，Fortran作为一门起源于穿孔卡片时代的语言，承载着丰富的传统和实践。随着技术的发展，数以万行计的大型代码库在现代科学计算领域中被广泛运用，对可读性和维护性的需求日益凸显。因此，**淘汰那些降低代码清晰度和可维护性的旧式编码习惯，成为了当务之急。**
 
 Fortran语言中的行号便是其中一个历史悠久的特性，源自该语言早期使用穿孔卡片进行编程的时代。**行号在Fortran程序中主要用于标识代码行**，允许程序的某部分直接引用特定行，以执行跳转或指定格式化输入输出等操作。虽然Fortran编程中的行号使用已逐渐被淘汰，但在特定场景下，这一古老的机制依然有其存在的必要。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUq9ZhVjkrjtzCiaTT2IIsiaj8j8BJJ7dic0FmkicskBfk4Zlia2I7zjo8xich5X9M6SVh6avjz1xLKgwew/640?wx_fmt=png&from=appmsg)
 
   
 
@@ -11,6 +19,7 @@ Fortran语言中的行号便是其中一个历史悠久的特性，源自该语�
 
 在Fortran 77及其更早版本中，行号位于代码行的开始位置，占用第1到第5个字符。行号后紧跟续行指示符（如果有的话）、语句本身以及注释。早期的Fortran程序中，行号常与`GOTO`语句结合使用，实现程序流程的无条件跳转。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVUq9ZhVjkrjtzCiaTT2IIsiajPbFbzKNBodfhU9fw2FF2EpsTvsQBdTmiahtaRdrg9rGCfXYrJ3v8C6Q/640?wx_fmt=jpeg&from=appmsg)
 
   
 
@@ -66,6 +75,7 @@ Fortran语言中的行号便是其中一个历史悠久的特性，源自该语�
 
 综上所述，虽然Fortran编程中的行号使用已逐渐被淘汰，但在特定场景下，这一古老的机制依然有其存在的必要。为了最大程度地提升代码质量，开发者应当熟悉这些规则，并在可能的情况下，积极采用更加现代、清晰的编程实践。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

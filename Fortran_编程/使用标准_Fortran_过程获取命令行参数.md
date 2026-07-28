@@ -1,3 +1,10 @@
+# 使用标准 Fortran 过程获取命令行参数
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/Be3pJomCHHsJBmr9jqU2Tg](https://mp.weixin.qq.com/s/Be3pJomCHHsJBmr9jqU2Tg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVX9SCMdbpeicN0Vgv8DSEoE7Za2icpGZCmMBJq3jmvPEmictNP8OJs56EnKVMic4FyBIr3YiaHMqFZM5MQ/640?wx_fmt=jpeg&from=appmsg)
+
 在 Fortran 编程领域，有效地处理命令行参数是提升程序灵活性和用户交互性的重要环节。本文将基于 Fortran 2003 标准，详细介绍如何运用 Fortran 语言的标准过程来获取并处理命令行参数，确保代码的可移植性和标准化。
 
 ## 概览
@@ -40,3 +47,13 @@ Fortran 程序中获取命令行参数的关键在于使用 `get_command_argumen
 ## 小结
 
 使用Fortran标准过程来获取命令行参数是一种可靠且符合标准的方法。通过本文的示例，我们可以轻松地在Fortran程序中处理命令行参数。随着 Fortran 语言的不断演进，使得处理这类输入变得更加直观和用户友好。我们期待未来会更多便利的功能被引入Fortran。
+
+## 推荐阅读
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+
+**FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
+
+有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。

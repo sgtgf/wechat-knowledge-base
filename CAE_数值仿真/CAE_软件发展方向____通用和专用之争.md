@@ -1,3 +1,10 @@
+# CAE 软件发展方向 —— 通用和专用之争
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/6h1POU2feANzM0YXBIXm7g](https://mp.weixin.qq.com/s/6h1POU2feANzM0YXBIXm7g)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz/icVUVTFlBCVVqyHPRQibT7PbKfwXklYGB5d9mATg7bP3mTZ82aNL9IOO69UC2Vjic0f9072eovPq3PNJyXUc79owA/640?wx_fmt=other&from=appmsg)
+
 目前国内外的许多有限元软件，包括那些通用有限元程序系统，一般只适用于某些特定领域和特定类型的有限元问题，而且大多数是根据结构力学的需要而设计的，对其它领域的工作者，尤其对从事科研和教学的人来说，远远不能满足需要。为了吸引更多的用户，求解更多的有限元问题，不少有限元软件公司拼命增大他们的有限元程序系统，扩大求解领域，但其结果往往都是事倍而功半。其主要原因在于：
 
 1.  一个有限元程序，不管它多么庞大，通用性多强，也只能解决很少的一部分问题。因此，用户往往需要修改或加进一部分功能才能达到自己的目的。而这些工作，如果没有得到源程序开发者的参与，通常是十分困难甚至是无法实现的。
@@ -23,6 +30,7 @@
 
 由此推断，相对短小与简单，易理解、易使用、易修改的专用有限元软件，仍有弯道超车通用软件的机会。采用统一的文本格式、统一的程序框架，灵活地搭配专属算法，具体问题具体分析，实现成体系的批量化生产，专用软件同样会受到大量用户的欢迎，占有 CAE 广阔市场的一席之地。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

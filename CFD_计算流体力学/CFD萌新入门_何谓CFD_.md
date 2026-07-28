@@ -1,3 +1,8 @@
+# CFD萌新入门｜何谓CFD？
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/ZMgQvp2TmjTxBrqovuzdOg](https://mp.weixin.qq.com/s/ZMgQvp2TmjTxBrqovuzdOg)
+
 本文简要描述有关CFD的一些常识性的概念。
 
 * * *
@@ -10,6 +15,7 @@
 
 为了进行准确且成功的 CFD 分析，选择适当的运行条件、数值方法和物理因素十分重要。如果分析得当，就能迅速获得关于性能的洞察，并最终得到性能更优、效率更高的产品。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/AF2vGryRNyd0rnr5HPIqxMkWmjiafbSgT7a5eGVmDkyuibQsC5DRoicnhh0YHrkElNGBuI4qAcEriaz1Bzbvlgn6CQ/640?wx_fmt=png)
 
 图1 利用 N-S 方程获得的F1赛车周围气流流线图
 
@@ -42,6 +48,7 @@
 
 最初，1822年之前，Navier 对部分方程进行了研究。后来 1845 年Stokes 爵士对方程进行了调整，并最终确定了我们所熟知的纳维 - 斯托克斯方程。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/AF2vGryRNyd0rnr5HPIqxMkWmjiafbSgT0DRCCVkAOcKa712INf1lNMpOl83wjIVBXia7jbU12Ipp3beHedehVJg/640?wx_fmt=jpeg)
 
 图2 Navier(左)和Stokes(右)
 
@@ -103,6 +110,7 @@
 
 另外，数值解法的精度在很大程度上取决于离散化的质量。有许多常用的离散化方法，如有限差分法、有限体积法、有限元法、谱（元）法和边界元法。这些方法都可以用来提高数值解法的精度。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/AF2vGryRNyd0rnr5HPIqxMkWmjiafbSgTVnWt8EcHkvSOyxMsz0hIpPEjd2D0poS3TvfEFSPgDVEhy1n7DB6L5w/640?wx_fmt=jpeg)
 
 图3 精确的数值离散化有助于使PDE线性化并捕捉敏感变量梯度
 
@@ -112,6 +120,7 @@
 
 在进行 CFD 分析时，我们通常会将解域划分为多个子域，这些子域被称为单元。这些单元在计算结构中的组合被称为网格。通过将整个计算域划分为多个网格，我们可以更有效地分析和求解问题。这种方法有助于我们更好地理解流体流动、传热和其他物理现象在不同区域和条件下的表现。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/AF2vGryRNyd0rnr5HPIqxMkWmjiafbSgTAPYZMtiaUOPGSxd5LOpQWiaxLazhcQKmBkticib9IAMMMGAmS2Y1D8YBtw/640?wx_fmt=jpeg)
 
 图4 F1 赛车上不同的网格密度（细化程度）有助于捕捉与流动特性相关的变化
 
@@ -132,6 +141,7 @@
 
 通过这种方法，我们可以消除基于网格结构的误差，并获得最佳的元素数量，从而提高计算效率。下图显示了随着网格元素数量的增加，假想区域 X 的静压变化情况。如图所示，大约需要 100 万个网格才能进行可靠的研究。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/AF2vGryRNyd0rnr5HPIqxMkWmjiafbSgTFfysaSvj9uFR3IicpcHibiaNxeD4LUJPiaByickgLhknjc8Nuvcbs8kt7xA/640?wx_fmt=png)
 
 图5 这一网格收敛分析示例显示了选择最佳网格尺寸对节省计算费用的重要性
 
@@ -175,3 +185,5 @@
 * * *
 
 (完）
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/AF2vGryRNyfHicPSZIdHnJY25q6YEBmgWH0Aibm4MsrbfRyoL42h5E2cPWt8QRtr8q9PSLpSH11X1nVPvu5kJNTg/640?wx_fmt=gif)

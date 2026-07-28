@@ -1,3 +1,10 @@
+# 在Fortran中实现≈运算符
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/xGqcDOND2AhgW4SIhVPW7Q](https://mp.weixin.qq.com/s/xGqcDOND2AhgW4SIhVPW7Q)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWrn7o7smSdbpRDfYMwJPnEC8UW3Kx0LXkvibtz4Csq8xsDpRXPjK4O3n5zVWMoBLibptbR3oumk65A/640?wx_fmt=jpeg)
+
 在数值计算中，浮点数的等价性比较是一个常见需求。然而，由于浮点数的表示方式，直接使用等号（==）来判断两个数是否相等往往不是最佳选择。在Fortran中，我们可以通过自定义一个近似等价运算符（≈）来简化这一过程。本文将介绍如何在Fortran中实现这一功能，并展示其在实数标量和数组等价性比较中的应用。
 
 ## 实现 ≈ 运算符
@@ -43,3 +50,15 @@
 ## 小结
 
 虽然Fortran没有直接提供`≈`这样的近似比较运算符，但我们可以通过自定义函数，有效地实现对实数的近似比较逻辑。这不仅使得代码更为简洁，也提高了程序处理浮点数比较时的鲁棒性和准确性。
+
+  
+
+## 推荐阅读
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+
+**FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
+
+有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。

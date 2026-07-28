@@ -1,0 +1,118 @@
+# RF 术语与概念-6：损耗
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/253mtHoFaC0SHw1qD5BuDg](https://mp.weixin.qq.com/s/253mtHoFaC0SHw1qD5BuDg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMV9ydcObicBw5wnKpCttYicmPp3KCLWJ6rxaYZjVsWMdDJJ5vo0ONvqxQ/640?wx_fmt=png&from=appmsg)
+
+____**★★★**______TCS-6---Ioss______**★★★**____
+
+引言：在射频链路设计过程，有几个比较重要的计算参数，损耗就是其中之一，可量化的损耗对于链路预算和器件评估至关重要，本节主要介绍损耗的相关概念和定义。
+
+____€1.插损的定义和来源____
+
+插损是插入损耗（Insertion Loss）的简称，它是指在传输系统（如射频、微波电路、光纤通信等）中，由于插入一个器件（如滤波器、放大器、耦合器、开关等）而导致的信号功率的损耗，单位为dB。从数学角度来说，插入损耗的计算公式为：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMp51NxZia0jQ25IgmibZ8yv7sGR92skVaNIr6D2l99YoBjiarQH8O9ElIg/640?wx_fmt=png&from=appmsg)
+
+也可以用百分比来衡量：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQnpibkjHIjpicyMqq8QVB6iaYhDFWHEyD6GXj2IlxHuibLksGJpzwoPlNeTHZXpxdnbibMRSt5GcEvXtQ/640?wx_fmt=png&from=appmsg)
+
+当信号功率100%传输时，即插损为0dB，当信号功率只传输1%时，即插损为-20dB，所以一般插损范围在-20dB到0dB之间。其中Pin插入器件前的输入功率，Pout插入器件后的输出功率，插损的来源有以下几个点：
+
+1#：反射损耗，当信号在传输线和插入器件的接口处，由于阻抗不匹配会产生反射。在射频电路中，如果传输线的特性阻抗是50Ω，而插入的器件输入阻抗不是50Ω，就会有一部分信号被反射回去，不能全部进入器件进行传输，从而导致功率损耗。
+
+2#：吸收损耗，器件本身的材料特性可能会吸收信号的能量。以光纤为例，光纤中的杂质或者光纤材料对光信号的吸收，会使得光信号在传输过程中能量减弱。在微波器件中，如一些有损耗的介质材料制作的器件，会吸收微波信号的能量，导致插损。
+
+3#：散射损耗，信号在器件内部传输时，可能会因为介质的不均匀性或者结构的不规则性而发生散射。比如在光纤通信中，光纤制造过程中产生的微小气泡、密度不均匀等情况，会使光信号向各个方向散射，使得传输方向的光信号功率降低。
+
+____€2.插损的影响____
+
+1#：降低通信质量，在无线通信系统中，高的插损会导致信号强度减弱，从而影响接收端的信号质量。例如在移动基站和手机之间的信号传输，如果中间的射频器件插损过大，手机接收到的信号就会变弱，可能会出现通话中断、数据传输速率下降等情况。
+
+2#：限制通信距离，在光纤通信中，插损过大会使光信号在长距离传输后变得过于微弱，无法被正确接收，从而限制了通信的有效距离。为了补偿插损，需要在一定距离间隔设置光放大器，增加了系统的复杂性和成本。
+
+3#：在射频和微波测试中，测试仪器和被测设备之间连接的线缆、转接器等都会引入插损。如果不考虑这些插损，会导致测量结果出现偏差。例如，在测量一个低噪声放大器的增益时，如果连接线缆的插损较大，测量得到的增益会比实际增益偏低。
+
+使用阻抗匹配网络来确保传输线和插入器件之间的阻抗匹配，在射频电路中，常见的有使用变压器、电容电感组合等方式来实现阻抗匹配，从而减少反射损耗。在功率放大器的输出端和天线之间加入合适的匹配网络，使信号能够更有效地从放大器传输到天线。
+
+____€3.回损的定义和来源____
+
+回损即回波损耗（Return Loss），是指在传输系统中，由于阻抗不匹配，反射波功率与入射波功率之比，指的是信号输入到器件时反射的信号量，单位为dB。它也是衡量反射波大小的一个指标，其计算公式为：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMy5Q9775wiaDNnukVyibXs6lmP3naHkINBebExaVliaKSAnTGTn1wz727g/640?wx_fmt=png&from=appmsg)
+
+也可以用百分比来衡量：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWITfI5PPZK11E3pkcpFzabicibvibKdhoXvicx6m1vsricfVHTPQBKB3vuQaZ0RjzrXibmY8NHdPQllIA/640?wx_fmt=png&from=appmsg)
+
+其中Pr反射波功率，Pi入射波功率，当信号功率传输99.99%时，插损为40dB，当信号功率传输99.9%时，即插损为30dB，当信号功率传输99%时，即插损为20dB，当信号功率传输90%时，即插损为10dB，当信号功率传输20.6%时，即回损约为1dB，当信号功率传输0%时，Pr=Pi，回损为0dB。所以一般回损范围在0dB-20dB之间，回损的值越大，表示反射越小，匹配越好。
+
+如果Return Loss良好，则想要通过的信号被滤波器反射的量会较小，这意味着会有较多信号通过滤波器而不被反射。Return Loss是与IL相关的特性，如果IL良好，则Return Loss也会较好，回损的来源有以下几个点：
+
+1#：传输线与负载阻抗不匹配，在射频系统中，标准的传输线特性阻抗一般为50Ω或75Ω，如果连接的天线阻抗不是这个标准值，就会导致部分能量被反射回来。
+
+2#：连接件的不匹配，在复杂的传输系统中，会有各种连接器件，如连接器、转接器等。这些连接件如果与传输线或设备的阻抗不匹配，也会产生反射。在光纤通信中，光纤连接器的端面不平整或者光纤芯径与连接器不匹配，都会导致光信号反射。
+
+____€4.回损的影响____
+
+对于信号传输质量来说，高回损意味着反射波功率小，大部分能量能够有效地传输到目的地。在有线电视系统中，高回损可以保证射频信号能够高质量地从信号源传输到用户终端，减少图像雪花、重影等干扰现象。在移动通讯基站到手机的下行链路中，良好的回损性能可以使信号高效地传输，提高通话和数据传输的质量。
+
+对于系统的稳定性，回损不佳可能会导致反射波在传输系统中来回反射，形成驻波。驻波可能会引起信号幅度的变化，甚至可能会损坏设备。在高频微波电路中，驻波比（VSWR，和回损密切相关）过高会使电路元件承受过高的电压或电流，降低设备的可靠性和使用寿命。（[RF 术语与概念-4：驻波比VSWR](https://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247495198&idx=1&sn=4ffed69046c9113fdf52b198772d1446&scene=21#wechat_redirect)）
+
+阻抗匹配调整是改善回损最主要的方法，可以通过调整负载的阻抗或者在传输线和负载之间添加匹配网络来实现阻抗匹配。匹配网络可以是由电感、电容等元件组成的简单电路，例如L型、T型、π型匹配网络等。在光纤通信中，可以使用折射率匹配材料来改善光纤连接器的端面匹配，减少反射。
+
+____€5.插损（Insertion Loss）与S参数的关系____
+
+插损衡量的是信号从输入端口传输到输出端口过程中，由于器件的吸收、散射等各种因素导致的功率减少程度。对于一个双端口网络，插损可以通过S参数中的传输系数S21（或者S12）来计算（[RF 术语与概念-5：S参数](https://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247495228&idx=1&sn=cb6459b67c43cf0e62fbe1b963492eb7&scene=21#wechat_redirect)），插损：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGQ8bcyBSIm3czkRfxWO982ib7IGsgT8WNvW7MQIic39fcKO24laSUUYXGQ4ZgCK77giaENcX83hFyA/640?wx_fmt=png&from=appmsg)
+
+（假设信号从端口 1 输入，端口 2 输出）。例如，若S21=0.5，则插损：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGQ8bcyBSIm3czkRfxWO98n4ibGXiaiaJeLwUV02KUA2EPooicjAaLczCDKKsicLILdL9eDKzH2gPCdow/640?wx_fmt=png&from=appmsg)
+
+这意味着信号从端口1传输到端口2后，功率降低了约6dB。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGQ8bcyBSIm3czkRfxWO98u1Lypyg1fTPhnmicE5W9ricib9XZFPGibpHxZ7aMWTMOfkQrS1tNMgqGiaw/640?wx_fmt=png&from=appmsg)
+
+**_图6-1：天线S11_**
+
+____€6.回损（Return Loss）与S参数的关系____
+
+回损是指反射波功率相对于入射波功率的损耗，主要用于衡量端口的反射特性，即信号在端口处反射回去的程度。回损越大，说明端口对信号的反射越小，匹配性越好。回损通过S参数中的反射系数S11（或S22）来计算，回损：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGQ8bcyBSIm3czkRfxWO98j1NrxPNJcyCegUeCWw7PtabTWLicqAVOUBqttksIsAj251gQjN8Nb4Q/640?wx_fmt=png&from=appmsg)
+
+（对于单端口网络或考虑端口1的反射情况）。例如，当S11=0.1时，回损：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGQ8bcyBSIm3czkRfxWO98RgzA8QmkMCj0EiaRrwOydb1prAyQqBaLtZhmtRLFicPT9uuTUyaiahqnw/640?wx_fmt=png&from=appmsg)
+
+表示反射波功率仅为入射波功率的1/10，大部分信号都进入了网络而不是被反射回来。
+
+____€7.测量示意____
+
+滤波器的降噪效果由插损来表示，如**_图6-2_**所示，将滤波器插入连接50Ω信号源与负载的电路中，然后测量负载侧（B至C）的电压变化，测量值通常以dB表示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSMw6zDadChN2DYibJxHPxooRzcfa2jibAjwc8vQDq8icwVJwLWFgdPNhuD1GUXm9YZzGPxKzEaz5QWg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSMw6zDadChN2DYibJxHPxooR63dRtqm27uGGZtEj43KXRgAORIic0EwciccWktYzVyNP2q6ClrglDoA/640?wx_fmt=png&from=appmsg)
+
+**_图6-2：插损测量电路_**
+
+____€8.VSWR与回波损耗互转____
+
+VSWR/SWR（Voltage Standing Wave Ratio）驻波比全称为电压驻波比，指传输线波腹电压与波谷电压幅度之比，又称为驻波系数，驻波比。驻波比=1时，表示馈线和天线的阻抗完全匹配，此时高频能量全部被天线辐射出去，没有能量的反射损耗；驻波比为无穷大时，表示全反射，能量完全没有辐射出去，计算公式为：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMZ2X8wA5Fw9GwoPKSnvqufKhnJ50YoJKMcosACn9QXcRbZagYChWOuA/640?wx_fmt=png&from=appmsg)
+
+在理想情况下，天线与射频电路的阻抗完全匹配，完全没有反射功率，这时的回波损耗为无限大。但是在工程上阻抗不可能完全匹配，因此反射功率是一定存在的。最差的情况是输入功率完全被反射，此时回波损耗为0，计算公式为：  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMadI7wvhOicTqia7icA0Rml0410zajV7yUwFOYWX0SgCxpFPkcHmbqUI1w/640?wx_fmt=png&from=appmsg)
+
+____€9.小结____
+
+在射频电路和微波系统的设计与分析中，插损、回损和S参数是紧密相关的重要指标。在设计一个低损耗的滤波器时，需要通过调整滤波器的结构和参数来优S21，以减小插损，同时优化S11来增大回损，从而使滤波器能够有效地通过所需频率的信号，并且尽量减少反射。
+
+在传输线系统中，通过测量和分析回损（即S11）和插损（即S21），可以判断传输线的匹配情况和信号传输质量。如果回损较低（S11绝对值较大）且插损较高（S21绝对值较小），说明传输线可能存在阻抗不匹配的问题，导致大量信号被反射，并且传输过程中的损耗较大。此时需要采取措施，如添加匹配网络（如使用电感、电容等元件组成的匹配电路）来改善传输线的性能，使回损和插损都达到满足系统要求的指标。

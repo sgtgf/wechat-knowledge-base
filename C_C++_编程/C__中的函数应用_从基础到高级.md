@@ -1,3 +1,10 @@
+# C++中的函数应用：从基础到高级
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/m-iFHlzMRQF-CnWScmAx6g](https://mp.weixin.qq.com/s/m-iFHlzMRQF-CnWScmAx6g)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRETdLuoXm1K4R0JmUolO5y8WYxWvYRHydOCicXIiaX7eBdj6XQIBiaDL8kfGdj554Mk5XNqqdCwjy2KOD0cFHIDw/640?wx_fmt=jpeg&from=appmsg)
+
 C++是一种静态类型的、编译式的、通用的、大小写敏感的编程语言，支持过程化编程、面向对象编程和泛型编程。在C++中，函数是构建程序的基本单元之一，它能够执行一系列操作并返回结果。本文将从基础开始，逐步深入探讨C++函数的高级应用，包括函数指针、Lambda表达式、函数对象以及它们在STL中的使用等。
 
 ## 函数的基础
@@ -65,3 +72,11 @@ Lambda表达式特别适用于需要简短函数的情况，如在STL算法中�
 ## 小结
 
 本文从基础的函数定义开始，逐步介绍了函数指针、函数模板、Lambda表达式、函数对象已经高阶函数的应用。通过这些高级特性，我们可以编写更加灵活、高效且易于维护的C++代码。希望本文能够帮助读者更好地理解和应用C++中的函数技术。
+
+# 推荐阅读
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/eRETdLuoXm1hlcFzRLY8530oa5qlVg14Sp7ykiaiaeksse1OriavStBSZ3aOeSRibrictsMImSUmYpM8KlkR2oh16xA/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRETdLuoXm0F1TJuz7SHvpW1zgzV6ZIF0r5H99lwcz5CHLoNtLjOXfQpElKKhKEE3Eiapa05EFDfBlOlExx8iaOw/640?wx_fmt=other&from=appmsg&random=0.07403834435997281&random=0.9548404603232596&random=0.104285335892905&random=0.6465628742284186&random=0.7114643948388735&random=0.39825419144728924&random=0.5036513307316739&random=0.24264210905518024&random=0.8403119589921406&random=0.004225922898027479&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)

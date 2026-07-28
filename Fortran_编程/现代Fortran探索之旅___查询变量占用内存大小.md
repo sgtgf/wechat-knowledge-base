@@ -1,3 +1,12 @@
+# 现代Fortran探索之旅 | 查询变量占用内存大小
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/ReMCXbHlOrGRmU65\_7uTNQ](https://mp.weixin.qq.com/s/ReMCXbHlOrGRmU65_7uTNQ)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+
+  
+
 在计算机编程的世界里，了解数据结构的内存占用对于优化代码性能、避免溢出错误以及进行精确的系统资源管理至关重要。与C语言中通过`sizeof()`运算符轻松获取对象内存大小不同，Fortran语言虽然没有直接对应的运算符，但它提供了一系列标准库函数和编译器扩展来帮助程序员完成这一任务。本文将深入探讨Fortran中如何查询变量占用的内存大小，涵盖Fortran 2008标准引入的`STORAGE_SIZE`和`C_SIZEOF`函数，以及部分编译器特有的`SIZEOF`扩展。
 
 ## Fortran中的内存占用查询
@@ -50,6 +59,7 @@ Fortran语言通过`STORAGE_SIZE`、`C_SIZE_OF`以及部分编译器提供的`SI
 
   
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

@@ -1,0 +1,140 @@
+# 电驱动系统NVH问题的解决方案
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/n\_GLdpHoNubJNMg0lnjdAQ](https://mp.weixin.qq.com/s/n_GLdpHoNubJNMg0lnjdAQ)
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIXNZfbdj53bicxxicss8D5WANHd3de5SdpQ8pwibiaIsMAlsTsWgx7vorTs6e0kq35k0XWDurue9XsQAA/640?wx_fmt=gif)
+
+[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIXG0g3m6IKiaSROBlKNJexqrvhicBTpiaMue5DSSt0I4bKsgctYcObkjSfNibiam8zZ7rIUiboLsxjvTJzQ/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650650250&idx=1&sn=479794acb1f045cbde65ef16551613fc&chksm=88bc1d85bfcb949322f3bad04e35787d600ae4c43eec03c31d0257fdf88c46d1338bc9a55b30&scene=21#wechat_redirect)
+
+过去两年，作为西莫主办的电机设计“加强班”，电机NVH问题的机理和测试仿真研修班已经开启了全新升级，增加了电机动力总成以及复杂电驱动系统中的NVH问题的分析与声学解决方案的讲解，同时由周英杰、李彦昊两位专家共同编著的《电驱动系统的时域NVH分析与声音设计》作为培训教材，为更多的参加学习的电驱动系统NVH工程师提供了指导和帮助：
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIVfv4boqVeCLYu3et805O6fLZRuuFaQ4UkRhL2icnZicGuLs1iahUwWKr7ibRfUnnBBQQcPMtTtJ2ib6og/640?wx_fmt=jpeg)
+
+这本培训教材都讲了哪些内容呢？相信大家通过之前发布的培训大纲已经略知一二；在距离培训开始已经不到一个月的时间，这里小编将再次带大家回顾一下部分精彩的教学内容，希望能够给想要参加本次研修班还没确定参加的在电驱动系统NVH方面需要学习提高的朋友们更多帮助：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfv4boqVeCLYu3et805O6fYPNciaOMmjtsX0Q35icMErq2gxdhs4hZUc9qicRosGonV2wIT2Xuygrww/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfv4boqVeCLYu3et805O6fsg4Y3895zcCDAyVjG6eatN7YLagZSM8nibWVBMqN1603nso3losE3bA/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfv4boqVeCLYu3et805O6f2icbYFx3x8ONzMrWicMQptQf1ewvARvY005oseJ2ByPapPJXiax72icTKw/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfv4boqVeCLYu3et805O6fPQHV5vKf2Uqfp1ib1UNfbsNIicZZvibVJUiaK29bTjlewNQhd69vLicMafQ/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfv4boqVeCLYu3et805O6fibu7mN1jibJvpNltvzwohn4HvbTMajGh8ZwYpW8642XTzC6M3jgib4jTQ/640?wx_fmt=png)  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfv4boqVeCLYu3et805O6fAZWCAPSYh6rCXL66HQFBWQgHAsAOApxHD1LxicMXJgOMOGggyHvqzhQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfv4boqVeCLYu3et805O6fwGN1Y5GGNjmAoGu4trsuic6H6Xtz8MY5zQsNSd2xibjNNBZeF1QMsj6w/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVfv4boqVeCLYu3et805O6fktFnb2NKQDgzI4mib4NvykrXTxTd7lLj735ThXtpag9ibHHtUd0nKekw/640?wx_fmt=png)
+
+以上章节的更多详细内容均将收录在培训教材中，相信通过参加我们这次研修班学习的学员朋友都能在电机NVH高阶应用领域——电驱动系统仿真分析及复杂电机系统声音设计应用方面得到更多的提高和收获，欢迎大家扫码报名参加本次培训：
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9RCbW5V9GKuV0sb0A1tfuic3mfmBmtAPbxDpjGZ3qUaeHYC7vrgnjGr1Fia9MyZOjarJQ7UtErIXsDAhsXEmElWA/640?wx_fmt=jpeg&from=appmsg)
+
+关于本次培训的更多详细介绍，请看下文：
+
+  
+
+01
+
+课程概述
+
+  
+
+　　所谓NVH，就是噪声、振动与声振粗糙度（Noise、Vibration、Harshness）的英文缩写。这是汽车行业的一个专有名词，是衡量汽车乘坐舒适性的综合性指标。随着新能源电动汽车的飞速普及，作为电动汽车“心脏”的驱动电机的NVH问题也日益受到重视。电机是各行各业的驱动动力，其实不仅仅是汽车行业，随着技术的飞速发展，家电、军事、船舶、铁路、城市轨道交通、工业驱动…等等各行各业对电机的振动噪声问题也越来越被重视，要求越来越严格。然而有关NVH问题，涉及数学、物理、电磁、机械、振动、声学、材料等等多个学科，被誉为“天书”、“玄学”，极难入门，许多同学想钻研这方面的专业书籍，但大多都是刚刚看完绪论就被堵在了门外，无法深入看下去，多次自我放弃。为了解决电机NVH入门难的问题，我们专门打造了这门培训课程。课程力求从基本物理概念入手，以中学数学和物理知识为基础，对涉及的相关基础知识及时补充复习，逐步深入到电机振动噪声的基本原理、分析方法、振动噪声测试及设计、减振降噪措施等等，并结合工程实例和相关仿真软件，学习电机的有关NVH仿真建模和仿真计算。讲解通俗易懂，深入浅出，帮助想深入学习电机NVH的同学在不知不觉中跨过入门壁垒，进入NVH的殿堂。如果说NVH是“天书” 那么本课程就是通往这个“天书”的“天梯”！如果说NVH是“玄学”，那么本课程就是“化玄为俗”的“字典”！
+
+  
+
+02
+
+授课老师
+
+  
+
+　　**专家一**：在行业内从事电机设计、工艺、生产、教学、调试等工作近四十年，是某大型央企的正高级工程师，浙江大学求是工程岗兼职教授，太原理工大学兼职教授，享受国务院特殊津贴技术专家，在业界有极高的专业威望和学术造诣，理论基础扎实，实战经验丰富，先后主持完成过多项重大科研项目，荣获多次省部级科技技术奖，拥有多项专利，发表多篇论文。同时主讲“电机原理及设计通解”、“永磁电机的原理、设计及制造工艺”研修班课程，往期培训学员近千人，好评如潮。西莫首席技术专家。
+
+　　**专家二**：曾长期从事电机研发、设计等工作，对Ansys低频电磁产品有深入了解，在电机工程仿真领域经验丰富。2019年加入Ansys公司，负责低频电磁仿真软件Maxwell在电机行业的技术支持、工程咨询等工作，将在本次课程中全面系统地介绍Ansys电机振动噪声仿真分析流程及其实现过程。Ansys中国高级应用工程师。
+
+**专家三：**负责Ansys Motion多体动力学仿真软件、Mechanical结构有限元软件及Acoustic声学仿真模块售前技术推广，对齿轮传动系统NVH仿真有较为深入的研究。将在本次课程中将系统介绍Ansys Maxwell+Ansys Motion+Ansys Mechanical Acoustic电机齿轮箱系统时域NVH仿真流程。Ansys中国高级结构工程师。
+
+**专家四**：2014年毕业于同济大学车辆工程专业，并获得硕士学位。2019年加入Ansys中国，负责Ansys Sound软件在亚太地区的应用推广及技术支持。长期工作于汽车行业并从事动力总成NVH性能的研发工作，在汽车噪音测试及仿真方面拥有丰富的工程经验，能够为客户NVH开发工作提供可靠的帮助及建议，将在本次课程中系统地介绍基于多物理场联合仿真的电机声品质解决方案及整车等复杂电机系统的NVH表现评估。Ansys声学专家。
+
+　　本课程凝聚了各位老师多年丰富的工作经验和科研成果，相信通过本课程短期的培训，必将使您收获满满，飞跃长进。课程前四期培训参加学员已近350人，课后赢得大家的一致好评和口碑赞誉。
+
+  
+
+03
+
+培训目标
+
+  
+
+　　通过本课程的学习，使学员理解和掌握电机NVH问题的基本概念、基本知识和基本原理；在工程实践中具备基本的设计、测试和分析解决电机振动噪声问题的实际能力；具备深入研究和学习NVH专业知识和学术专著的能力。
+
+  
+
+04
+
+授课对象
+
+  
+
+　　本课程适应于专门从事电机NVH相关技术工作的工程师、电机设计工程师、工艺师、质检工程师、服务工程师、动力总成系统设计工程师、项目经理、新入职从事电机NVH的大学生、研究生以及所有对电机NVH感兴趣和致力于在电机NVH方面有所作为的相关技术人员。
+
+  
+
+05
+
+课程内容及课时安排
+
+  
+
+　　可能视报名学员所在领域和工作岗位不同授课内容有少许增减，以现场授课内容为准；也欢迎大家在预报名填表的时候提出您的需求和建议。每天课程结束之前安排互动交流环节，现场答疑和交流。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/D3daD2ElhIW6PpWW42kTYxP0GIodibpChHeg7BD1nVGATCDxLAbb9DEWB7U8GnQZvv1zqXHyTib1U1ED6BfibN9ibQ/640?wx_fmt=jpeg)
+
+  
+
+06
+
+增值服务
+
+  
+
+　　◆ 西莫会员报名享8折优惠，全日制在校学生凭学生证享5折优惠，培训后皆可领500积分用于论坛学习资料的下载。
+
+　　◆ 往期西莫任何研修班学员参加本次培训享72折的优惠。
+
+以上优惠均需提前付款方可参加，如要求开具增值税专用发票则不享受任何优惠。（优惠可面向开具增值税普通发票并提前付款的西莫会员）
+
+　　◆ 参训学员可以针对课程相关问题在课程结束后也能得到老师的解答与指导（微信、邮件、电话）；并建立培训后学习的专用微信群作为培训讲授的补充，供学员间开展后续交流讨论；对课堂上讲授过的内容可长期答疑，以帮助大家巩固课后学习效果。
+
+　　◆ 凡参加我单位组织电机电控培训的企业，均可免费帮助在西莫电机论坛及公众号上发布推送招聘信息，助力企业引进优秀技术人才。
+
+　　◆ 凡参加我单位组织电机电控培训的企业，均可免费帮助在西莫电机论坛及公众号上发布产品信息推广，助力企业宣传产品品牌建设。
+
+  
+
+07
+
+培训课程费用及报名
+
+　　◆ 标准费用：**4980**元/人，含专业培训教材、证书费。食宿可统一安排，费用自理。
+
+　　◆ 培训时间：**2024年6月15日-17日**（授课三天，可提前一天报到）
+
+　　◆ 培训地点：**江苏常州**（具体培训培训地点在开课前一个月内确定）
+
+　　◆ 报名方式：扫描下方二维码进行预报名，提交报名信息后可通过提示添加微信索取培训的正式邀请函以及报名回执
+
+![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUriadqTicbt6ITqt5yZVJY3Ud56Cy7e2rpW4CibmU5VQ7dahotlpKX8iaEC0UUUFwVas47PGW9Xicx7Uw/640?wx_fmt=png&from=appmsg)
+
+　　其他事宜咨询，请联系会务组负责人**张老师**，电话：**18516258619**欢迎大家踊跃报名！
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIU9juhwts62UsqmFbpLickVowW6Qx381PB7aMIPAFBEhSMOyMpfbkhCEF7PIDUbACJ6TVsfhiaXf31Q/640?wx_fmt=gif)  
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/D3daD2ElhIUE2A9cx6RwEpHeicccUnLeRiaV6GExMABU7T4JW6xZ8fuBgS6xUW4tBvCbRQbdgib2ShLrW4Gia4jT7g/640?wx_fmt=gif)
+
+[![](https://mmbiz.qpic.cn/mmbiz_png/9RCbW5V9GKuV0sb0A1tfuic3mfmBmtAPbkVUuY4qwcwvmz5QBD4AzJAfN4mJPYdZ9dkwwYblhsBS95YvHCnGLuA/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650650449&idx=1&sn=4cc6cd15157b794d298fd2dfc553b1d4&chksm=88bc1c5ebfcb9548af471e21b8ba71bd18459558d450149bce649ed4267b2d04bfd79c6d2e06&scene=21#wechat_redirect)
+
+[![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVgiaN1pqRWKWeqPN6hcBQhr4cic3WRJQbiboOnhlkkLF6NLliaDlvib6mNZxlicePWHYiac0F9un3I4DlMA/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzA5NjExNjMyMA==&mid=2650650757&idx=1&sn=29f9a5a26c849268d7d87298416bae47&chksm=88bc138abfcb9a9cdd89d8dd1307d5a88e93f1509a621ac6e00280c61549ff5397d3e0d3fc11&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIWEDKUS6uyXBHiboINPcBLKibHWbwAfibdzBE1M50oLib9VPYiaQXtgd8o9aH4byicFy5BfmQb84jMHlxBQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIUfOAjXn1AUTs3kViax3rSDvTWPnp1LrAXb97Bvkuzm8WZTu1zqnG0SuNQmBbLt8aibThApiafVVt8NA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/D3daD2ElhIVhiaShka2hzoZ3EwiaApgSc27MFwUVnGiaIe1wavPaQpAjeEJBqpZWthz1qY4bkVXDyJbfTPkicMx9FA/640?wx_fmt=png)点击**阅读原文**，直接报名参加本次培训！
+
+****觉得好看，请点这里****↓********↓****↓********↓************

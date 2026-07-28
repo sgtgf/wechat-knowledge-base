@@ -1,0 +1,82 @@
+# RF devices-8：Switch---天线调谐开关
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/yLj2B8lEqLsw6sx6ApxFzw](https://mp.weixin.qq.com/s/yLj2B8lEqLsw6sx6ApxFzw)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRocMQNXqg6iafWTe8qNXziaricKHVaC8kDzrswVtkt3exNT6boTPalV09drswRMmKZvOeZ2B0Ufhh2w/640?wx_fmt=png&from=appmsg)
+
+____**★★★**______SWITCH-3---天线调谐开关______**★★★**____
+
+引言：天线调谐开关也叫孔径调谐开关，关于什么是孔径调谐，会在后续其余章节讲到。随着消费场景的天线越做越小巧，天线尺寸缩小将导致天线效率降低，更容易受天线周围介质变化的影响，介质变化引起的瞬态响应会造成天线频率响应漂移。调谐开关配合调谐电容/电感或者调谐器来调整天线的到地参数，使天线能够在多个频段高效运行，提升天线的TX、RX性能。
+
+___€1.器件结构___
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRocMQNXqg6iafWTe8qNXziarmNRicKviag7YW4Nwgl7OrtrdOhduKBWtp8aEChKkzDrsF6n44FExkdeA/640?wx_fmt=png&from=appmsg)
+
+**_图8-1：天线调谐开关内部结构_**
+
+**_图8-1_**天线调谐开关包括一个由4个单极单投开关组成的阵列，可集成实现四个低导通电阻/低关断电容系列开关和四个分流至接地开关，实现按需开路反射或短路反射关断端口行为。该特性可缩短由于不必要的天线谐振而导致的天线工程师设计开发时间，并以较少的元器件调谐工作量来改善天线效率。
+
+天线调谐开关在导通ON状态下，每个RF端口的导通电阻RON低至1Ω级，在关断OFF状态下的超低关断电容 (COFF) 为毫pF级，接口可以单独控制反射开路或短路到接地，消除不必要的天线谐振。CLK和DATA是MIPI RFFE 2.1兼容控制接口，射频专用，并且外部USID \_ SEL引脚支持多个默认USID地址，支持多器件同时使用。
+
+___€2.器件使用方式___
+
+简单来说调谐开关是在天线和地之间连接一个开关，在开关和辐射元件之间添加不同的调谐组件（电容或电感），用来调节天线的谐振频率，匹配设备通信当前使用的频率，灵活支持不同的频段。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRocMQNXqg6iafWTe8qNXziar3P13eb7fdtCl9lrzZ7RbgsU2go6VO29AbBFoib1MbNCf37ozjbjiav4Q/640?wx_fmt=png&from=appmsg)
+
+**_图8-2：天线调谐开关内部结构_**
+
+天线调谐开关最基本的两种方式，如**_图8-2_**所示，开关断开为最原始状态，在经过计算的位置开关闭合，调整馈线长度，进而调整波长，改变天线的最佳工作频率。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRocMQNXqg6iafWTe8qNXziarYJqpIk9Fg49QFLdMEZibEWFY5pcoZRz9XMN8bdas9PicUMtelib0ECeLw/640?wx_fmt=png&from=appmsg)
+
+**_图8-3：天线调谐开关内部结构_**
+
+天线进阶调谐的两种方式如**_图8-3_**所示，通过在合适的位置并入小电感或小电容，主动调整天线的寄生参数，改变频响，将天线的偏移到最佳工作点。**_图8-2_**和**_图8-3_**中的每个组件都连接至一个简单的开关，但在一些应用中（例如手机主天线），可以使用更复杂的多掷开关来连接多个调谐组件，支持更宽的频段范围，如**_图8-4_**所示：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRocMQNXqg6iafWTe8qNXziarGruo60KuzcFqRQprmaOvGibvia8bgqv9e8roRU68GYdocic4VUMFMCt5Q/640?wx_fmt=png&from=appmsg)
+
+**_图8-4：单根天线的多调谐示意_**
+
+___€3.器件关键参数___
+
+如**_表8-1_**所示，天线调谐开关的参数，最重要的是COFF、RON，其次是隔离度、VPEAK。COFF是天线调谐开关处于打开状态时的寄生电容，降低COFF可增加天线调谐开关的Q值，从而影响到天线效率和有效调谐范围，COFF通常是以毫微微法拉（fF）为单位计量。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRYE525dojXxBLQCNfTM26ZibWJANUQxjcvWDWy4eRhz5WYiaJoibG1mKa6XBQr7G5bmruzBoxMLUYlg/640?wx_fmt=png&from=appmsg)
+
+**_图8-5：COFF和RON的定义_**
+
+RON为天线调谐器开关打开时的等效电阻，降低RON通常会提高天线效率，并改善总发射功率 (TRP-总发射功率是衡量天线传输功率大小的一个指标)和总全向灵敏度 (TIS-总全向灵敏度是天线系统接收灵敏度的一个指标)，RON的计量单位为Ω。
+
+VPEAK是天线调谐开关在实现可接受谐波性能的同时， 可支持的最大电压，在指定的天线调谐器VPEAK值下，谐波（2fo和3fo）将低于-36dBm，VPEAK以V为单位计量。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQiaibpXgGwibnlBlOBc6JAuMp2K6F11SIAJq1b3NaYE2Stc9dtSPgYcP8VkC3YR5ldEb7NDFyWwHD9w/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjjINxgpbiaMbkjkL1stbuoreApzicsq0bhaYt85TAO72bwiamZlaicyygf1ja0HcmfgicfkoLicFQJzMw/640?wx_fmt=png&from=appmsg)
+
+**_表8-1：天线调谐开关的参数_**
+
+RON和COFF会显著影响天线效率，其中COFF会影响谐振频率和效率，具体取决于它在天线上的位置和COFF的值。除了调谐开关的COFF之外，由于走线和焊盘引起的寄生电容也会使性能下降。对于PIFA应用来说，COFF的影响随着与馈电/接地的间距加大而增加，RF响应和开关损耗效率随着COFF远离调谐开关的位置而发生改变。
+
+降低RON可使电感调谐和电容调谐的效率提高几个dB，从而设备的整体RF性能产生较大的影响，降低COFF也同样重要。但是沿着天线的长度方向，RON和COFF影响存在差异，具体取决于电压分布：低电压时，低RON的影响更大；高电压时，COFF的影响更大，针对不同频率的调谐优化，可采用低RON开关或低COFF开关的选型和布局。
+
+___€4.器件的选用___
+
+1#：使用具有低RON和COFF的开关来最小化系统损耗，使用多模式开关以调整2G/3G/4G/5G标准频率范围。
+
+2#：使用高线性度调谐开关，避免对辐射杂散发射 (RSE) 和TIS产生影响，线性度（2fo、3fo谐波、IP2 和IP3、IMD），采用高线性开关可以防止总全向灵敏度TIS和总发射功率TRP降级，并保持载波聚合性能，线性度通常以dBm为单位测量。
+
+3#：开关应该能够处理宽带天线应用的高射频电压，VPEAK是天线调谐开关的一个关键参数，其的峰值电压通过场效应晶体管簇上的射频电压分压设置，自身VPEAK不足容易遭受损坏，线性度变差，并且还会大幅降低TRP和TIS的级别，产生大量谐波注入系统，RSE超标导致产品认证失败。
+
+孔径调谐的本质是一个将调谐元件置于发射结构的适当位置，且不直接连接到天线馈电的匹配电路，以此保证天线发射效率最大化，并防止在频谱内操作过程中馈电点阻抗发生变化。当调谐元件被置于最高电压配电位置时，孔径调谐功能最为有效，因此天线调谐开关所需的VPEAK由开关所在的位置以及它与天线短路销钉之间的接近程度决定，如**_图8-7_**所示：越接近天线的短路销钉，VPEAK越低；越远离短路销钉，VPEAK越高，由于这些因素，天线调谐开关上的最大电压要远高于天线馈电点上的电压。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRYE525dojXxBLQCNfTM26ZRUwDWnUNXrtZuWeJ3UKwt89NPibZWMiaD0dgZOYAh2hsbVZZaywd2COQ/640?wx_fmt=png&from=appmsg)
+
+**_图8-7：不同调谐位点的VPEAK_**
+
+___€5.小结___
+
+虽然RON、COFF和VPEAK均为天线调谐开关的关键参数，但调谐元件用于设置谐振频率，通常在电路中受到的电压或电流最高，选择合适天线调谐开关的第一步是确定VPEAK要求。测量和接触天线的做法会更改其射频特性，所以不能在天线上测量VPEAK，需要通过模拟来预测天线调谐开关上预期产生的最大VPEAK，一旦确定了所需的VPEAK，下一步是选择实现TRP目标所需的RON或COFF，而这又取决于特定的天线设计和调谐频带，在决定天线效率方面RON或COFF可能更占主导地位。
+
+仅依靠数据表中最大绝对额定值VPEAK还不够，谐波是真实VPEAK性能的一个最佳指标，对输入功率进行扫描， 对2fo和3fo谐波进行测量，使用谐波性能指定VPEAK，完善的数据表中的VPEAK将确认谐波超过-36dBm级别的点，选择-36dBm的谐波水平是为了遵守3GPP杂散发射要求。杂散发射是由发射机的有害影响造成，如谐波电流发射、寄生发射、互调干扰和频率转换，但不包括带外发射。最终比较和选择合适的天线调谐开关，满足RON、COFF和VPEAK标准并匹配天线设计。

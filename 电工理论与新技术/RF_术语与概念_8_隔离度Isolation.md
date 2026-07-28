@@ -1,0 +1,52 @@
+# RF 术语与概念-8：隔离度Isolation
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/MJ6E8cmG1AybRxleZMJkOA](https://mp.weixin.qq.com/s/MJ6E8cmG1AybRxleZMJkOA)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRM3MaibBumV9TCZgU7rEspfaH9nuF10zSR4v1sXaTgyxLUafoq8ey663A/640?wx_fmt=png&from=appmsg)
+
+____**★★★**______TCS-8---Isolation______**★★★**____
+
+引言：一部典型的支持毫米波mmWave和超宽带UWB频段5G手机，其RF路径数量是传统4G手机的两倍，需要六根或更多天线来使用主蜂窝和各种接收功能，这些路径彼此重叠，更容易发生干扰。每条RF路径都需要连接至天线，增加天线数量意味着它们必须彼此靠近，从而会降低天线之间的隔离度，导致耦合相关问题，使接收器的灵敏度降低。
+
+隔离度指标使用很广泛，有天线隔离度、复用器隔离度、多工器隔离度、屏蔽隔离度等等。**_图8-1_**显示了彼此连接非常紧密的多个频段，例如Wi-Fi 2.4GHz和GPS L5都落在低频段和中高蜂窝频段之间。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTfrZTP46ia7WGk00upJsH3wcwgeiaYXN4SwXk9ice6eyIpws8BVgCq59Xiaa1FdHwEExErN9cqSic2ULg/640?wx_fmt=png&from=appmsg)
+
+**_图8-1：智能手机设备中使用的多个频段_**
+
+____€1.隔离度定义____
+
+隔离度（Isolation）是指在一个多端口的器件或系统中，一个端口输入的信号在其他端口出现的衰减程度，通常用分贝（dB）来衡量。例如在一个双工器（[RF devices-10：Duplexer（双工器）](https://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247494958&idx=1&sn=8b5d5e76cc2459d46dd3d72314a3f95e&scene=21#wechat_redirect)）中，隔离度表示发射端口的信号在接收端口的衰减量，从数学公式角度，隔离度：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSuwKgRyvSozR5Yiarn6BSRMAJEJHxia9cFwhiacCkiayYzdvS4DbZsGTZLzWfWWnkl3Kxl4Tnrsj5TXA/640?wx_fmt=png&from=appmsg)
+
+其中P1某一端口输入的信号功率，P2是另一个端口接收到的来自该输入端口的信号功率，隔离度越高，表示端口之间的信号隔离效果越好。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT6Kv3TWYMkvkav33nWiaozOuPVdxUwpDXval7vGIDkXpjzYarp9mvib9ez1dj24JztQ3etQmIsr35g/640?wx_fmt=png&from=appmsg)
+
+**_**_图8-2：双工器_**DPX252501DT-5124A2隔离度曲线&数值_**
+
+以数值表中的17.1dB为例，则P1/P2≈51.3，即表示P2端口处测得P1泄露功率为P1功率的1/51.3；而最优隔离度29.1，则P1/P2≈812.8，即表示P2端口处测得P1泄露功率为P1的1/812.8。
+
+____€2.隔离度举例____
+
+在射频电路中，如在收发信机中，发射信号的功率通常较大，如果没有良好的隔离，发射信号会泄漏到接收电路中，干扰接收信号。这主要是由于电路布线、元件之间的电磁耦合等因素导致的。例如，当两个射频线路靠得比较近时，它们之间会通过电磁场相互作用，使得信号从一个线路耦合到另一个线路。在手机通信中，手机内部的射频前端模块有发射和接收通道。为了防止发射信号对接收信号造成干扰，需要高隔离度的器件。双工器、滤波器等器件就起到了这个作用，它们可以提供一定的隔离度，使得手机能够同时进行发射和接收操作而互不干扰。
+
+在光纤通信中，光信号在不同的光路或者光纤之间也可能出现串扰。例如，在波分复用（WDM）系统中，不同波长的光信号在同一根光纤中传输，当通过复用器、解复用器等器件时，如果隔离度不够，一个波长的光信号可能会泄漏到其他波长的通道中，造成信号干扰。在密集波分复用（DWDM）系统中，多个波长的光信号紧密排列，对隔离度的要求更高。隔离度良好的光器件可以保证各个波长的光信号能够准确地在各自的通道中传输，提高光通信系统的传输效率和信号质量。
+
+________€3.____测量方式____
+
+在射频系统中，常用矢量网络分析仪VNA来测量隔离度，将VNA的端口分别连接到被测器件的相关端口，通过VNA发送测试信号，测量在其他端口接收到的信号强度，从而计算出隔离度。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTn7Fic3TRic9ldSRcIRpK2p0EZgKEZx9Je0ZOph5TKa1vbSJIgDrmAKGJ8uR5zbZ3YpZ3dtPMam6jw/640?wx_fmt=png&from=appmsg)
+
+**_**_图8-3：双工器_**隔离度测试_**
+
+在光通信系统中，可以使用光功率计和光源来进行简单的隔离度测试，通过在一个端口输入光信号，然后在其他端口用功率计测量接收到的光信号功率，进而计算隔离度。
+
+________€4.__提高隔离度______
+
+1#：物理隔离和屏蔽：在射频电路中，对于高功率发射和低功率接收电路，可以采用物理隔离的方式，如增加它们之间的距离，或者使用金属屏蔽罩将发射电路或接收电路屏蔽起来，减少电磁耦合。例如在基站设备中，发射机和接收机可能会被放置在不同的机箱或者有屏蔽的区域内。
+
+2#：优化电路设计和元件选型：在设计射频电路时，合理安排布线，减少平行走线的长度，以降低信号之间的互感和电容耦合。同时，选择具有高隔离特性的元件，如高性能的双工器、隔离器等。在光通信中，选用隔离度高的光复用器、解复用器等器件，并且在器件的封装和安装过程中，注意减少光信号的泄漏路径。

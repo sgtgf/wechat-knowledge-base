@@ -1,3 +1,8 @@
+# 现代Fortran探索之旅 | GFortran与动态链接库
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/VuEgbIkS-Q-QNThsvpj-fQ](https://mp.weixin.qq.com/s/VuEgbIkS-Q-QNThsvpj-fQ)
+
 动态链接库（Dynamic Link Library，通常在Windows上为`.dll`文件，在Linux上为`.so`文件）是一种计算机程序设计中的概念，也称为共享库或动态库。它是包含可执行代码和相关资源的数据结构的集合，可以在多个应用程序之间共享，而非每个应用程序单独包含这些代码的副本。通过使用动态库，程序在运行时可以从存储在磁盘上的独立文件加载所需的函数或对象代码，从而节省存储空间并提高资源利用率。
 
 GFortran是GNU Fortran编译器，它可以用来编译Fortran源代码并创建各种类型的可执行文件，其中就包括动态链接库。本教程将一步步指导你如何在Windows和Linux环境下使用GFortran来创建和链接Fortran的动态链接库。
@@ -72,6 +77,7 @@ GFortran是GNU Fortran编译器，它可以用来编译Fortran源代码并创建
 
   
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于 Fortran 90 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

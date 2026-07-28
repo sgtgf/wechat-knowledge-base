@@ -1,3 +1,10 @@
+# 现代Fortran探索之旅 | 数组
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/j7lZFk2ndVPSoVt9evjVHA](https://mp.weixin.qq.com/s/j7lZFk2ndVPSoVt9evjVHA)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+
 Fortran 是一种专为数值计算设计的编程语言，在科学计算和工程领域有着广泛的应用。在Fortran中，数组是一个非常重要的数据结构，它允许我们存储和操作一组有序的数据。下面，我们将详细介绍Fortran数组的用法，力求通俗易懂。
 
 ### 1\. 数组的基本概念
@@ -125,6 +132,7 @@ Fortran数组是一种强大的数据结构，允许你存储和操作一组有�
 
 以上内容只是Fortran数组众多特性和应用的冰山一角，实际编程中还涉及到更深层次的数组理论和实践技巧，值得每一位Fortran程序员深入探究与实践。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于 Fortran 90 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

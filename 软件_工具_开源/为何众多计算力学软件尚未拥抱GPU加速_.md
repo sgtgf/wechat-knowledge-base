@@ -1,3 +1,8 @@
+# 为何众多计算力学软件尚未拥抱GPU加速？
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/4p8XtCELEDHO\_B9wF3qyWw](https://mp.weixin.qq.com/s/4p8XtCELEDHO_B9wF3qyWw)
+
 ## 
 
 # 提问
@@ -35,3 +40,9 @@
 **软件生态系统支持不足**：虽然一些现代计算力学软件（如Ansys、Abaqus等）开始支持GPU加速，但整个生态系统还未完全成熟。许多开发工具、调试工具和性能分析工具仍主要针对CPU优化，而对GPU的支持较为有限。
 
 **标准化问题**：计算力学领域的软件标准化程度不高，不同软件之间的数据格式、网格划分方法、物理模型等可能有很大差异，这进一步增加了在GPU上实现通用加速算法的难度。
+
+  
+
+  推荐阅读
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1&random=0.37045841736508&random=0.7879705548228597&random=0.9882141539371987&random=0.04896917259863631)

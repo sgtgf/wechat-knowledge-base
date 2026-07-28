@@ -1,0 +1,56 @@
+# RF devices-3：BAW
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/XVAff0V-oNzZ926GggCPPQ](https://mp.weixin.qq.com/s/XVAff0V-oNzZ926GggCPPQ)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TThT1LsOXrcnLYxmlHnkvgZruibMdjqOSUibd0Ln8zPQQyTMqibRPq2JxLEMUT6U3iboXFopibRibY2CIHw/640?wx_fmt=png&from=appmsg)
+
+____**★★★**______FILTER-3---BAW______**★★★**____
+
+引言：BAW（Bulk Acoustic Wave）滤波器是一种带谐振腔的体声波滤波器，在射频前端中起着关键作用，主要应用于5G、5.5G、6G及更高频通信互联场景，BAW滤波器相比SAW性能更优，BAW滤波器支持1.4至9GHz频率范围，BAW可用于替代SAW。除了结构之外，BAW和SAW的主要区别在于滤波器赖以使用的压电材料，BAW滤波器使用多晶氮化铝，具有更高的耦合系数和更高的波速。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTAuQ9wAiblpwV6GnG9UVlRerELct2aiaKtLSxmwlBKgfQaIHsUxU8JstibicJ0icbKSNJ8LsrSerU1V8g/640?wx_fmt=png&from=appmsg)
+
+**_图3-1：BAW的结构示意图_**  
+
+___€1.BAW的原理___
+
+BAW滤波器基于体声波（Bulk Acoustic Wave）技术，当电信号施加到滤波器的电极上时，会在压电材料中激发声波，这些声波在滤波器的谐振腔体内传播，并与特定频率的信号发生谐振，从而实现对不同频率信号的过滤功能。通过设计谐振腔体的结构和尺寸，就可以控制滤波器的中心频率、带宽和选择性等特性。
+
+___€2.BAW的物理结构___
+
+与SAW滤波器不同，BAW滤波器中的声波是垂直传播，如**_图3-2_**所示， 谐振器使用石英晶体作为基板，石英顶部和底部两侧的金属路径激发声波， 声波从顶部反弹到底部表面，形成驻波。平板的厚度和电极的质量决定了谐振发生的频率，在BAW滤波器有效的高频率下，压电层必须只有几微米厚，这就要求谐振器结构是以载波基板为底，利用薄膜淀积和精密加工构成。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ6ibUfezex8L6wicJI3pA70ojQwZEIibNnH8zzEqgRg052DuCGxGnwLHxSrSWibGDGo7xOxicIwuibKCA/640?wx_fmt=png&from=appmsg)
+
+**_图3-2：基本的BAW RF滤波器_**
+
+在这种类型的滤波器中，为了防止声波逃逸到基板中，会堆叠刚度和密度交替变化的薄层来创建布拉格声学反射器。构建出的器件被称为固载谐振器 (SMR) BAW，如**_图3-2_**所示。布拉格反射器由多层交替材料构成，这些材料的折射率各不相同。市面上主要有两种类型的BAW滤波器，如**_图3-3_**所示：固载谐振器(SMR)  BAW和多晶薄膜体声波谐振器 (FBAR)。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRQ6ibUfezex8L6wicJI3pA70bzGLKLgc4rlFlXVjicH69k5VKP7UbrFWGqzLMGkSxSajby1YUpdpLpg/640?wx_fmt=png&from=appmsg)
+
+**_图3-3：BAW滤波器技术的截面比较_**
+
+从技术角度来看，最大区别在于基板，以及基板和底层电极之间的空腔，根据**_表3-1_**，可以看出堆叠层BAW的温度补偿性能最佳。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRYjictCos0FnXRYta1QYEECkqMcRMriagUEOfoq0j36IE5QXV32q7huyESUFibxuMKOSSlIN8VEZ6mA/640?wx_fmt=png&from=appmsg)
+
+**_表3-1：BAW和FBAR比较_**
+
+有些公司会使用自己的品牌名称来指代FBAR或BAW技术，但它们都归属于BAW或FBAR这两类技术。例如，XBAW就是另一种FBAR，超BAW是另一种BAW。XBAR是一种剪波BAW技术，具有场横向耦合的特性，但是这项技术还处于研发阶段。
+
+___€3.BAW的特性和优势___
+
+高频率选择性：在高频段具有出色的频率选择性，能够精确地过滤特定频率范围的信号，有效抑制不需要的频率成分，提供清晰的通信信道。例如在5G通信中，可准确选择所需的频段，避免干扰 。
+
+低插入损耗：信号通过滤波器时的功率损耗较低，有助于保持信号的强度和质量，减少能量损失，提高系统的效率。
+
+高功率处理能力：能够承受较高的功率信号，适用于对功率要求较高的通信设备和基站等应用场景，保证在高功率信号传输下的稳定性和可靠性。
+
+___€4.BAW与SAW对比___
+
+尽管表面声波 (SAW) 滤波器非常适合约1.5GHz以下的应用，但BAW滤波器通常可在更高频率下提供出色的性能和较低的插入损耗。相比标准SAW滤波器，BAW滤波器本身对温度变化的敏感度较低，加之BAW滤波器进一步降低了温度敏感度，使之非常适合BAW频率范围内极具挑战性的应用。例如后面的多路复用器就是采用BAW技术的优势，如下**_图3-5_**所示，当频率向上增加时，BAW是多路复用器滤波器设计的理想选择，因为在较高频谱中SAW体辐射声能大于BAW，表现为插损更大。
+
+___€5.小结___
+
+BAW滤波器的声学能量密度非常高，且其结构能够很好地捕捉声波，因此能够实现极低的损耗。此外，相比在微波频率下使用的其他尺寸合适的滤波器类型，它们可实现的Q因数更高。如此可以实现出色的抑制和插入损耗性能，在关键的带通边沿也是如此。BAW滤波器提供更低的插入损耗，有助于延长智能手机应用中的电池使用寿命。BAW还适用于上行链路和下行链路之间分隔很短，以及在紧密排列的相邻频段中对衰减要求很高的应用。

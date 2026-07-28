@@ -1,5 +1,10 @@
 # C++跨平台开发最佳实践
 
+
+> 原文地址: [https://mp.weixin.qq.com/s/Qe2RV5iPTSPC1JjGkbe\_bQ](https://mp.weixin.qq.com/s/Qe2RV5iPTSPC1JjGkbe_bQ)
+
+# C++跨平台开发最佳实践
+
 在我十多年的C++开发生涯中，跨平台开发一直是个既有趣又充满挑战的话题。很多开发者都会遇到这样的需求：同一套代码需要在Windows、Linux、macOS等不同平台上运行。今天，我就来分享一些实用的跨平台开发技巧，帮助你写出真正可移植的C++代码。
 
 ## 编译工具链的选择

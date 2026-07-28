@@ -1,3 +1,12 @@
+# Fortran常用内置函数：all 与 any
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/mTSnKLddUkQKbvRPujLIvw](https://mp.weixin.qq.com/s/mTSnKLddUkQKbvRPujLIvw)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+
+  
+
 在Fortran编程中，`all`和`any`这两个函数是处理数组的强大工具。它们可以简化条件判断，使得代码更加简洁和高效。本文将详细介绍这两个函数的高级应用，包括数组等价性比较、形状检查、索引上下限检查以及如何检查数组中是否存在`NaN`值。
 
 ## Fortran的关系运算符
@@ -16,6 +25,7 @@
 
 `all`和`any`函数是Fortran中用于数组简化的两个非常重要的函数。它们可以对数组进行归约操作。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXXEiafA12CQgPOT1oL2xjib9zFdNIDfibXbtFZMlOMjXrtVvqFEKOO3w0Hc9V7zOKWglm0rF37MsPVA/640?wx_fmt=png&from=appmsg)
 
   
 
@@ -69,6 +79,7 @@ Fortran提供了`ieee_arithmetic`模块中的`ieee_is_nan`函数来检查一个�
 
 本文介绍了`all`和`any`函数在Fortran中的高级应用。这些函数在处理数组时非常有用，特别是在数值计算中。希望本文能帮助你更有效地使用`all`和`any`函数，提高Fortran编程的效率。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

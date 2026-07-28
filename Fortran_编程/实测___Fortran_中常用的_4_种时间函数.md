@@ -1,3 +1,10 @@
+# 实测 | Fortran 中常用的 4 种时间函数
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/wEjdz0WR0BmqxVkMjH9ABQ](https://mp.weixin.qq.com/s/wEjdz0WR0BmqxVkMjH9ABQ)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+
 在现代科学计算与工程应用领域中，Fortran 作为一种历史悠久且功能强大的编程语言，至今仍被广泛使用。为了帮助开发者更好地理解和控制程序的执行过程，Fortran 提供了一系列用于测量时间的功能。本文将详细介绍在 Fortran 中常用的 4 种时间函数：`seconds()`, `system_clock()`, `cpu_time()` 以及 `date_and_time()`，并提供相应的示例代码和解释。
 
 ## seconds
@@ -155,3 +162,13 @@
 ## 小结
 
 每种时间函数都有其特定的应用场景。在选择使用哪种时间函数时，最重要的是根据实际需求来决定。例如，如果程序需要运行几十秒钟，那么使用 `seconds()` 就足够了；如果需要更精确的计数器时间，则 `system_clock()` 更为合适；如果关注的是 CPU 使用情况，那么 `cpu_time()` 是最佳选择；最后，如果需要记录确切的日期和时间，则 `date_and_time()` 是必需的。希望本文能够帮助你更好地理解这些函数的工作原理，并在你的项目中发挥重要作用。
+
+# 推荐阅读
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+
+**FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
+
+有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV9ibz7dKOUdBCkXba3yW0tnJFuGOh8Jke9ME4CT0VZYEOZ3l1QtoO51n3LI2x62Ot4yYbhnJLUoMw/640?wx_fmt=jpeg&from=appmsg)

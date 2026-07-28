@@ -1,0 +1,94 @@
+# Power-6：外部电源开关同步升压控制器-3
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/8-SpjzcUxE\_QfwSHeoSqbw](https://mp.weixin.qq.com/s/8-SpjzcUxE_QfwSHeoSqbw)
+
+__![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTvnBIPibmduNQLhoTfaETtIO7K5Gzn2pR6r1AHgLyGagdCVqDnfHnaDyu7k54mAl29CiabKfiaMX39g/640?wx_fmt=png)__
+
+____**★★★**______Power-6---同步升压控制器______**★★★**____
+
+_撰稿：Timothy  校稿：Timothy_
+
+引言：控制器类型的电源系统因为负载电流大，所以对效率极其敏感，效率反过来又影响着散热性，此外相对于集成式DC-DC，外置电源开关类型Layout注意点也更多，本节主要简述这两部分内容，也适用于外部电源开关同步降压控制器。
+
+____€1.__效率考量__
+
+分立式DC-DC的效率百分比等于输出功率除以输入功率乘以100%，分析功率损失，以确定是什么限制了效率，哪些变化会产生最大的改进，效率百分比可以表示为：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQSNmzFL0vBrIP920BNF3cPRd1bsW1vbiaI8cbvbkm6GnGjfXDjYzS0ogzKYSP7NbXMcUHl2d10efw/640?wx_fmt=png)
+
+其中，L1、L2等为个体损失占输入功率的百分比，虽然电路中所有耗散元件都产生损耗，但控制器电路中主要损耗为：
+
+1#：IC VBIAS电流，VBIAS电流是数据表中给出的控制电路电流，其中不包括MOSFET驱动器和控制电流，VBIAS电流通常会导致一个很小的损失（<为0.1%）。
+
+2#：INTVCC电流，INTVCC电流是MOSFET驱动器和控制电流的总和。MOSFET驱动器电流源于功率MOSFET的栅极电容的切换，每当MOSFET栅极再次从低电平切换到高电平再切换到低电平时，电荷量dQ从INTVCC流动到GND，所以INTVCC输出的电流为：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQAmYlzBicnfE8osmZHvj9WtYAibCzsao16iaRymw5futp097q6Ay1TZpLe1HqPr4IjUrMf7UM2MXSUA/640?wx_fmt=png)
+
+其通常比控制电路电流大得多。在连续模式中，
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQAmYlzBicnfE8osmZHvj9WtxZcib5IFT0nbGQpOhyjmuw3twFVWeUSQIl1VTWXeGQribzJT0TcxUia6Q/640?wx_fmt=png)
+
+其中QT和QB是顶侧和底侧MOSFET的栅极电荷。
+
+3#：直流I²R损耗，这些都来自于MOSFET、检流电阻、电感和PCB走线的电阻，导致在高输出电流下的效率下降。
+
+4#：底部MOSFET过渡损耗，过渡损耗（Transition Loss）仅适用于底部的MOSFET，并且只有在低输入电压下工作时才变得明显，过渡损失可从：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSLl0hvIxv4xQzJRV6YB7nU2CJKeZfJMKLZpsMWerkhdFwCdLFcDmJKibC7Tmf9xo67wCFLQtLib1QQ/640?wx_fmt=png)
+
+5#：体二极管导通损耗在较高的开关频率下更显著，在死区时间内，顶部MOSFET的损耗为Iout×VDS，其中VDS约为0.7V。在较高的开关频率下，死区时间占开关周期的很大百分比，并导致效率下降。
+
+____€2.__瞬态响应__  
+
+可以通过查看负载电流瞬态响应来检查控制器的回路响应，开关稳压器需要几个周期来响应直流负载电流的阶跃。当出现负载阶跃时，Vout偏移量等于ΔILoad×ESR，其中ESR是Cout的有效串联电阻。ΔILoad也开始对Cout充电或放电，产生反馈误差信号，迫使调节器适应电流变化并将Vout返回到其稳态值。在该恢复时间期间，可以监测Vout是否过度过冲或振铃，过度过冲和振铃表明存在稳定性问题。
+
+可配置环路补偿允许在广泛的输出电容和ESR值范围内优化瞬态响应，ITH引脚的可用性不仅允许优化控制回路行为，而且还提供了直流耦合和交流滤波的闭环响应测试点，该测试点的直流步进、上升时间和下降真实地反映了闭环响应的优劣。假设主要是二阶系统，可以使用在该引脚处看到的过冲的百分比来估计相位裕度或阻尼因子，还可以通过检查引脚处的上升时间来估计带宽。
+
+ITH的RC-CC滤波器设置主极点零环补偿，一旦完成了最终的PCB布局并且确定了特定的输出电容器类型和值，就可以稍微修改这些值以优化瞬态响应。必须选择输出电容器，因为各种类型和值决定了环路增益和相位。上升时间为1us至10us的满载输出电流的20%至80%的电流脉冲将产生输出电压和ITH引脚波形，该波形将在不破坏反馈回路的情况下提供整体回路稳定性的监测。
+
+将功率MOSFET和负载电阻直接置于输出电容器两端，并用适当的信号发生器驱动栅极，是产生实际负载阶跃条件的一种实用方法。由输出电流的阶跃变化产生的初始输出电压阶跃可能不在反馈回路的带宽内，因此该信号不能用于确定相位裕度，这就是为什么最好查看反馈回路中的ITH引脚信号，该信号是滤波和补偿的控制回路响应。（传送门：[DC-DC-18：什么是前馈电容CF?](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247490894&idx=1&sn=d3ee3cd48c55f69fd8155adf66190f10&chksm=c33557d1f442dec761a2b1039c9ba4b29d85f2a86fb0b495ed86646b5ef129462b5b56a3e6a7&scene=21#wechat_redirect)）
+
+环路的增益将通过增加RC来增加，环路的带宽将通过减少CC来增加，如果RC增加的因子与CC减少的因子相同，则零频率将保持不变，从而在反馈环路的最关键频率范围内保持相移不变。输出电压稳定行为与闭环系统的稳定性有关，并将展示实际的整体电源性能。
+
+第二个更严重的瞬态是由具有大（>1uF）电源旁路电容器的负载的切换引起的，放电的旁路电容器有效地与Cout并联，导致Vout快速下降。如果负载开关电阻较低并且被快速驱动，则没有任何调节器能够足够快地改变其电流输送以防止输出电压的这种突然阶跃变化。如果CLoad与Cout之比大于1:50，则应控制开关上升时间，使负载上升时间限制在大约25×Cload，因此10uF电容器需要250us的上升时间，将充电电流限制在约200mA。
+
+____€3.__PCB layout检查__  
+
+在PCB layout时，应注意以下几点来确保电源的正常运行：
+
+1#：将底部N-MOSFET MBOT和顶部N-MOSFET MTOP1与Cout放在一个紧凑的区域中。
+
+2#：IC的信号接地引脚和接地回路Cintvcc必须返回的Cout–端，由底部N-MOSFET和电容器形成的路径应该具有较短走线长度，输出电容器–端应尽可能靠近底部MOSFET的源极端。
+
+3#：电阻分压器必须连接在Cout的+端子和信号接地之间，并靠近VFB引脚，反馈电阻器连接不应沿着来自输入电容器的高电流输入走线。
+
+4#：Sense+和Sense-之间的滤波电容器应尽可能靠近IC，确保在感测电阻处使用Kelvin连接进行精确的电流感测。（传送门：[Resistor-16：焊盘布局优化检流精度](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247488631&idx=1&sn=ba940fd13858fed0371479e489f12a8b&chksm=c3355ee8f442d7fe4eadb01148fdadb9b99c3e98535e26e8eb61b5b118ef2f2634badc02699c&scene=21#wechat_redirect)）
+
+5#：INTVCC去耦电容器承载MOSFET驱动器的电流峰值，在INTVCC和GND引脚旁边直接放置一个额外的1uF陶瓷电容器，可以大大提高抗噪声性能。
+
+6#：使开关节点（SW1、SW2）、顶栅节点（TG1、TG2）和升压节点（Boost1、Boost2）远离敏感的小信号节点，特别是远离相反通道的电压和电流感应反馈引脚。所有这些节点都有非常大且高速的信号，因此应该保持在控制器的输出侧，并使PCB面积最小。
+
+7#：使用改进的“星形接地”技术：在PCB板与输入和输出电容器同一侧的低阻抗、大铜面积中心接地点连接INTVCC去耦电容器底部、电压反馈电阻分压器底端和IC的GND。
+
+____€4.__特殊设计考量：__
+
+#1：超过电流感测引脚上的ABS最大额定值可能会导致控制器损坏，由于Sense−引脚直接连接到Vlow，因此建议使用具有适当额定电压的快速反应二极管来箝位这些引脚，以减少GND以下的电压尖峰。二极管应放置在控制器IC附近，阴极连接到Sense1-或Sense2-，阳极连接到地面。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQAmYlzBicnfE8osmZHvj9WtYNQyXTibjVT2TTzataO9ax8cOyuyHibTYibxiavkZqPVlIPsB3M9Gnrefg/640?wx_fmt=png)
+
+**_图6-1：二极管防护Sense引脚_**
+
+#2：从控制器IC到外部MOSFET的栅极的TG走线应保持尽可能短，以最小化寄生电感，这种电感会导致电压峰值，可能超过驱动器的ABS最大额定值并损坏它们。使用一个3Ω电阻和1nF电容可以用来过滤这些尖峰，如**_图6-2_**所示。如果TG走线大于25mm，则必须在TG1和TG2上同时使用该过滤器网络，1nF电容器应放置在尽可能靠近TG/SW引脚的位置。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQSNmzFL0vBrIP920BNF3cPM01zS1OZXLfbDNc1V9zhR0vxdmAfcqauGtEeQkhaTqcibsydAYTjsqA/640?wx_fmt=png)
+
+**_图6-2：TG走线长度大于25mm时使用滤波器_**  
+
+____€5.__Debugging__
+
+在测试电路时，使用DC-50MHz示波器电流探针来监测电感器中的电流。监测输出开关节点（SW引脚），使示波器与内部振荡器同步，并探测实际输出电压。检查在使用中预期的工作电压和电流范围内的性能是否满足要求。工作频率应保持在输入电压范围（输入电压范围下降到压降，直到输出负载下降到低电流操作阈值以下——通常是突发模式操作中最大设计电流电平的10%）内。
+
+在设计良好、低噪声的PCB实现中，应在每个周期之间保持较稳定的占空比。次谐波率下占空比的变化可能表明电流或电压感测输入处存在噪声耦合或环路补偿不足。如果不需要调节器带宽优化，则可以使用环路的补偿来优化较差的PCB布局带来的负面影响。只有在检查了每个控制器的单独性能后，才能同时打开两个控制器。当一个控制器通道接近其电流比较器的跳闸点，而另一个通道导通其底部MOSFET时，由于内部时钟的定相，这在任一通道上的50%占空比附近发生，并可能导致较小的占空比抖动，但是这种情况比较难发生。
+
+将VIN从其标称输入值开始降低，以验证高占空比和欠压锁定电路的工作情况，同时监测输出。需要检查在较高的输出电流或较高的输入电压下会不会问题，如果问题伴随高输入电压和低输出电流模式同时发生，可以检查BOOST、SW、TG（可能还有BG）连接和敏感的电压、电流引脚之间的电容耦合。放置在电流感测引脚两端的电容器需要直接放置在IC引脚附近，该电容器有助于最小化由于高频电容耦合引起的差分噪声注入的影响。

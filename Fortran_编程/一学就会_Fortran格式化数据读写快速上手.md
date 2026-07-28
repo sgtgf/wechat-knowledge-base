@@ -1,3 +1,10 @@
+# 一学就会！Fortran格式化数据读写快速上手
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/SKbQGeDia2-OnAQ176J6GQ](https://mp.weixin.qq.com/s/SKbQGeDia2-OnAQ176J6GQ)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUibBY0sKdqmJcug0MOkfjJFVfEibgkNO4ARIs8YsTiaaWwibCjibN9eWueRxfx7Ml8FAiaAibfRthrOV2dg/640?wx_fmt=png&from=appmsg)
+
 在科学计算领域，Fortran凭借其高效、直接的数值处理能力，至今仍占据一席之地。其中，格式化读写是Fortran编程中不可或缺的一部分，它允许程序员以精确控制的方式读取和输出数据。本文旨在通过简洁明了的语言和实例，带你掌握Fortran中`READ`与`WRITE`语句的格式化读写技巧。
 
 ## 1\. 格式化读写的概念
@@ -114,6 +121,7 @@ Fortran的格式化读写功能强大而灵活，是进行精确数据处理的�
 
   
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

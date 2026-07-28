@@ -1,0 +1,54 @@
+# 《电机与控制学报》正式加入OSID开放科学计划
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/Xj-9\_ywLlhbz40tYOxoJlQ](https://mp.weixin.qq.com/s/Xj-9_ywLlhbz40tYOxoJlQ)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHKIiaX2giaftiaWyrqOEicZY4ddS1czoao3ha5zQovia0iaDFXibVWM2LGrurTUH49G8dfiaHHvmrpnJIgmQA/640?wx_fmt=jpeg)
+
+《电机与控制学报》从2019年8月起正式加入OSID（Open Science Identity）开放科学计划。在文章上添加开放科学二维标识码（OSID码），可以立体化展示科学研究成果，突破纸刊载体的局限性，为读者和作者提供一个功能强大的科研成果展示及学术交流平台。
+
+  
+
+No.1
+
+OSID开放科学计划
+
+OSID开放科学计划，是国家新闻出版署出版融合发展（武汉）重点实验室发起的一项针对中国学术期刊的公益计划，旨在促进学术交流、扩大科研成果影响力、推动科研诚信、传播开放科学及融合出版理念。OSID平台支持上传语音、视频、数据等多种材料，全面展示作者的科研论文成果，让科研过程可追溯、可重复。同时，建立了读者与作者直接沟通的渠道，方便学者之间在线交流。
+
+  
+
+No.2
+
+**OSID码包含内容**
+
+1\. 语音介绍：作者用简短的话语，重点说明文章的实用性和创新性。
+
+包括但不限于以下内容：①本研究拟解决的问题是什么；②此问题的来源或问题的提出过程；③此问题的研究现状如何（包括是否已有同类研究、同类研究存在的不足或争论的焦点是什么）；④本次研究结果有何应用价值或意义；⑤其他还可以介绍研究过程中的逸闻趣事等。（最多可上传5段语音；建议时长不超过3分钟）。
+
+  
+
+2.开放科学内容（增强出版）：展示论文中可供证明科研诚信的佐证材料，以及可引导读者快速直观了解论文核心和难点的增强素材，方便读者更好理解论文的其他素材。展现形式可以为：视频、动画、PPT、Excel、Word、图片、源程序、脑图等。
+
+  
+
+3.在线问答：读者使用微信扫码后即可以在线向作者提问，或针对有探讨价值之处与作者进一步互动沟通，优秀的知识问答内容可公开展示供其他扫码者阅读。作者亦可以通过绑定的邮箱与读者交流互动，回答读者问题。
+
+  
+
+4.学术圈：所有扫码的读者都会自动加入期刊的学术圈。作者、读者都可以随时发布感兴趣的话题、最新的研究观点、问题征集、学术推荐等内容。
+
+《电机与控制学报》加入OSID计划，希望每篇录用论文的作者注册开通OSID作者账号并上传导读语音及开放科学内容。欢迎广大作者积极响应，为推动我国科技发展共同努力！
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/ntbAhyk4TH8rxwQeJR4ZNN58jwQybKAcRdKiaU52ArwOLlHIURgg5OibDow7uBqTIbbMHvwSSOLG8HaFXMUGbTAg/640?wx_fmt=gif)
+
+**电机与控制学报**
+
+EI Compendex收录期刊
+
+识别二维码
+
+关注我们
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHKIiaX2giaftiaWyrqOEicZY4ddKwpwlDmsYMr2IovO0SGiade0u27kqFf7Yn4m41lLzgAENPiaGDoda3fA/640?wx_fmt=jpeg)

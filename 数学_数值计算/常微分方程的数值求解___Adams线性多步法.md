@@ -1,5 +1,15 @@
+# 常微分方程的数值求解 | Adams线性多步法
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/9x4xu3Np5jI1TrUUBdhrJQ](https://mp.weixin.qq.com/s/9x4xu3Np5jI1TrUUBdhrJQ)
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/kicB09lvgibnnRjv0AAqQxyBODIttZXnQqcTPoF4Pt8tJmnia4CHaYUS3zqicFfKZTWibXTAew2ibFHDjy5Pf8nDnVEQ/640?)
+
 点击上方「蓝字」关注我们
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kLQoJJzjYaicxneNzbOg7ynx3TfnIwmNTpJQ7orkaUNrJIV4u7PNdSJ25Mtn6XdRQTamLDDicHnYfdic2bsiaNQjCw/640?)
 
 在自然科学的许多领域特别是科学与工程计算中，经常遇到常微分方程的求解问题。然而，只有非常少数且十分简单的微分方程可以用初等方法求得它们的解，多数情形只能利用近似方法求解，如幂级数解法、皮卡（Picard）逐步逼近法等。这些方法可以给出解的近似表达式，通常称为近似解析方法，主要是通过手算和符号计算软件如 Maple、Mathematica 实现。还有一类近似方法称为数值方法，这些方法可以给出解在一些离散点上的近似值，主要是利用计算机编写程序来处理。我们所要研究的正是这类方法。
 
@@ -24,6 +34,7 @@
 
 **Adams 方法**的基本思想是先用插值多项式逼近被积函数 ，再积分插值多项式以获得数值计算格式。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVU6OnxH0tUeOGcrVJ7fXhSuQu49g7mqaFlAYhp6pcj9sxXPBAItT6qR9Nu7t5tmNiaEu82j1D0uQCQ/640?wx_fmt=png&from=appmsg)
 
 对给定的非负整数 ，如果选取的插值节点集为 ，则被插值点 位于包含所有插值节点的最小区间 的外部，这样的 Adams 插值方法称为 **Adams 外插方法**。如果选取的插值节点集为 ，则被插值点 位于包含所有插值节点的最小区间 的内部，这样的 Adams 插值方法称为 **Adams 内插方法**。
 
@@ -103,6 +114,7 @@
 
 编译并运行，得到的计算结果文件`res.txt`的内容如下。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVU6OnxH0tUeOGcrVJ7fXhSuyPlR0EBgRcEuwpen1nJhb1ibah9ibT7BicUlw8By2LdvY3KrutPXrJKvg/640?wx_fmt=png&from=appmsg)
 
 观察发现，当以 0.1 为步长时，计算结果大概有 6~7 位的有效数字，可见四阶 Adams 多步法精度还是相当高的。
 
@@ -110,6 +122,7 @@
 
 为了更好地展示计算结果，我们使用 Gnuplot 来读取 Fortran 程序的输出文件并绘图。在 Fortran 程序同一目录下，创建并运行以下 `plt` 脚本文件，就可以轻松得到 png 格式的图片文件。运行结果和对应的脚本代码如下：
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVU6OnxH0tUeOGcrVJ7fXhSuOTb8tuJhkGQ1EW82wWmD37xUTGe3Zu8vYSqVrujGKWrOibesUr1Opdw/640?wx_fmt=png&from=appmsg)
 
 `set terminal png   set output "res.png"      set title "Adams Method"   set xlabel "x"   set ylabel "y"   set key center left spacing 2      plot "res.txt" using 1:2 title "Numerical", \   "res.txt" using 1:3 title "Analytical" \   with lines linewidth 2   `
 
@@ -126,11 +139,13 @@
 常微分方程的数值求解 | 龙格-库塔法
 
 
+
 ](http://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247487447&idx=1&sn=609a9e9cfe60e6a56ff02f0c1d3a2161&chksm=c3379badf44012bb0c2b6bc0f9db57e3fa7d2b2d7af1e8c444e656342449c79fe533ab48178b&scene=21#wechat_redirect)
 
 [
 
 常微分方程的数值求解 | 从欧拉方法启航
+
 
 
 ](http://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247487085&idx=1&sn=714634ff23492300eae3e9f9c9b39613&chksm=c3379a17f44013019e1416252603c5a23ee1323c163a8a79d420127c996e775f64face5385de&scene=21#wechat_redirect)
@@ -140,4 +155,25 @@
 Gnuplot：数据可视化的理想工具
 
 
+
 ](http://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247485849&idx=1&sn=7cbb836c98c9629ca08809b6b12a9e29&chksm=c3379de3f44014f55bb73cc2c1d17e5b58b50b0bee7b787ebe8e7e6d4c5e705b97a1866f1716&scene=21#wechat_redirect)
+
+  
+
+  
+
+## 推荐阅读
+
+  
+
+‍
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.2312854885901674)
+
+**FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
+
+有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。
+
+**喜欢****作者******，请点********赞********和在看******![](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6459285066781566&random=0.9039664113437702&random=0.10616299980642463&random=0.37943585876598473&random=0.7246305284075434&random=0.1820491079508062&random=0.3136645327514245&random=0.8290227030922905&tp=webp)**
+
+**![](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.90499299240585&random=0.7427014598159356&random=0.6203706698189717&random=0.17266143983420013&random=0.4502076552242009&random=0.3348111146987862&random=0.5857982594073723&random=0.5924137199896844&tp=webp)**

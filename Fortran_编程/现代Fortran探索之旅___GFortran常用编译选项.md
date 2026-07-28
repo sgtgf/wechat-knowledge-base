@@ -1,3 +1,8 @@
+# 现代Fortran探索之旅 | GFortran常用编译选项
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/-L\_ICwyUxx2F9vWXwT\_LRg](https://mp.weixin.qq.com/s/-L_ICwyUxx2F9vWXwT_LRg)
+
 GFortran是GNU Fortran编译器，它是GCC（GNU Compiler Collection）项目的一部分，用于编译Fortran源代码。GFortran支持多种Fortran标准，包括但不限于Fortran 77、Fortran 90/95、Fortran 2003、Fortran 2008和Fortran 2018。下面列举并简要介绍一些GFortran常用的编译选项，并提供一些具体实例。
 
 **gfortran安装请参考**：[Fortran开发环境极简配置教程](http://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247484359&idx=2&sn=f5e95d2ccaa5a2772913b688bb597ec3&chksm=c33797bdf4401eab947281eff9a587cee3e92ccedf773afe28e813c81c290ea468df17258461&scene=21#wechat_redirect)
@@ -117,6 +122,7 @@ GFortran提供了丰富的编译选项，使得开发者可以根据项目需求
 
   
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于 Fortran 90 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

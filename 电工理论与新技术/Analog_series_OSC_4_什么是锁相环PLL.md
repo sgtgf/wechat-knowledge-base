@@ -1,0 +1,48 @@
+# Analog series-OSC-4：什么是锁相环PLL
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/N-TebFCLRROWdosf0Ck62Q](https://mp.weixin.qq.com/s/N-TebFCLRROWdosf0Ck62Q)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQlAicbia9Z5QdfuDWwXeIbvVLjEv9mczddrVkchgVnXrEFOSXYutnprkImppdezicOvbIDAZ98ZbO2g/640?wx_fmt=png)
+
+____**★★★**______OSC-4---晶振和PLL______**★★★**____
+
+# 引言：有些通讯系统的基频和射频使用不同的晶振， 然后通过电子调整频率的方法保持同步，晶振通常与锁相环电路配合使用，以提供系统所需的时钟频率。
+
+# ______€1.____________锁相环PLL______
+
+例如移动通信5G在理论上传输速度每秒钟能够达到数十Gb，支撑如此高的数据传输速率需要同样超高频的时钟信号和基频载波信号。
+
+尽管LC振荡器可以工作到较高的频率，但是稳定度不高，而晶体振荡器有较高的稳定度和准确度，只是基频较低。为了有稳定可靠的高频时钟，可以使用锁相环PLL（Phase Locked Loop）将低频晶振进行倍频到1GHz以上的标称频率。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OYUWT8qV6DL50XSdkXmKN4CS45mvlLa4JQaGG4WySRDiaUtZbpeVsEvw/640?wx_fmt=png)
+
+**_图4-1：锁相环_**
+
+锁相环电路是闭环的反馈控制系统，PLL由以下几部分组成：
+
+1#：基准频率振荡器（Crystal Oscillator），即输入频率fin
+
+2#：鉴相器/相位比较器（Phase Comparator），对输入的基准信号和反馈回路的信号进行频率比较
+
+3#：Loop Filter回路滤波器，由分频器实现，将VCO的输出降低到和基准信号相同的级别频率
+
+4#：VCO压控振荡器（Voltage Controlled Oscillator），根据输入电压，输出对应频率的周期信号
+
+5#：Feedback Loop反馈回路
+
+工作过程：通过PLL把4MHz晶振的基准频率倍频到40MHz，假设VCO先产生一个大概35MHz的频率，经过10倍分频后得到3.5MHz。VCO的输出通过反馈回路输入到相位比较器，比较得知3.5MHz小于4MHz，相位比较器输出一个电压（误差电压），在经过滤波后，得到VCO的控制电压，锁相环提高到38MHz。经过对比后，依然不足4M(>3.8MHz)，再不断通过负反馈处理，最终得到稳定的精度的时钟频率。
+
+# ______€2.____________倍频和分频______
+
+分频 Divider：N分频就是把频率变为1/N，周期变为N倍，可以将高频率信号经过分频器frequency divider，转换为低频信号。
+
+倍频 Multiplier：N倍频就是把频率变为N倍，周期变为1/N倍，20MHz基频的晶片，经过五次泛音就可达到100MHz，因此几十MHz基频的晶片就可以产生上百MHz的稳定振荡频率。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TS8WCjwpYqLLl7vfoAaEvjMZRJLtvjomsEKSZH8MO5gLiaCPZv9tYu5C9Orb0pOtBZl8MHmAp7gpCQ/640?wx_fmt=png)
+
+**_图4-2：芯片内部倍频/分频路径示例_**
+
+用于内部时钟生成的参考时钟可以是外部40、20或4MHz晶体、陶瓷谐振器或外部时钟。OSC寄存器控制着振荡器，PLL可以使4MHz时钟乘以10，然后内部的40/20 MHz可以除以2产生SYSCLK供给内核使用，并且40/20MHz还可以被分割通过CLKO引脚给其它外部器件使用。
+
+如果同时需要50MHz和100MHz，系统时钟选择50M还是100M，采用100MHz晶振，因为分频的时钟比倍频的时钟质量好，稳定性高。分频的电路比较简单，相比之下，倍频电路比较复杂，需要相位比较器，回路滤波器，压控振荡器，分频器等。

@@ -1,0 +1,61 @@
+# MOS-2：一文告诉你如何驱动MOS管
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/Bu1kaHbabO7k9f5n7aC9zQ](https://mp.weixin.qq.com/s/Bu1kaHbabO7k9f5n7aC9zQ)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTRdL2e2OQggTvGZI9YuYQK4Pofpj62jC54oYZpayCK27cVict7FMomEhX6ua3xwaia8BiciaxqibicSIpA/640?wx_fmt=png)
+
+__**_★★★_**_____MOS-2---MOS管驱动电路_____**_★★★_**__
+
+引言：MOS管开关电路在分立设计里面应用非常广泛，包括逻辑控制，电源切换，负载开关等，在一些电路巧妙设计上具有非常大的创新性。以下电路均以使用增强型MOS为示例。MOS驱动电路的基本要求包括：对栅极施加足够高于Vth的电压的能力，以及对输入电容进行足够充电的驱动能力，本节介绍MOS的驱动电路示例。  
+
+__€1._NMOS/PMOS的基本驱动电路_
+
+如**_图2-1_**所示，左边为NMOS基本驱动电路，右边为PMOS基本驱动电路，对于NMOS来说，Ctrl In为低电平时，NMOS不导通，Ctrl In为高电平（高于Vth）时，NMOS导通。对于PMOS来说，Ctrl In为低电平（VDD-Ctrl In<Vth）时，PMOS导通，Ctrl In为高电平（VDD-Ctrl In＞Vth）时，PMOS关闭。两者的区别点在于NMOS的使能电压以GND为参照，而PMOS的使能电压以VDD为参照，这一点需要格外注意。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQW6bTIlNE4HjZgSUXQ987a2FyKolMjTWiaKKK3r9heribz0w3u76lqVibGnDsYn6CSaj8kiaJcZ8gP7w/640?wx_fmt=png)
+
+**_图2-1：NMOS/PMOS基本驱动电路_**
+
+**_图2-1_**中的R1并非是必要的电阻，当没有R1时，实际不影响MOS的导通与关闭，但是通常都会加上R1，作为一个偏置。对于NMOS，下拉R1到GND，当Ctrl In脚从高电平到低电平时，栅极能够被更快拉低，并且牢牢固定在GND，更可靠的关闭。对于PMOS，上拉R1到VDD，当Ctrl In脚从低电平到高电平时，栅极能够被更快拉高，并且牢牢固定在VDD，更可靠的关闭。
+
+栅极偏置电阻R1是在Ctrl In端低电平时将栅极固定在GND（NMOS），避免额外的干扰浮动，所以它的值取值比较自由，通常R1的选值在10K-100K，如果想提高输入阻抗，可以将R1取的比较大（1M），推荐阻值10K，47K，100K。另外静电效应容易从栅极击穿MOS，所以R1也有一定程度的静电吸收保护作用。实际上偏置电阻R1是非必须的，但为了电路的鲁棒性，要求都必须有。
+
+__€2._NMOS/PMOS基本驱动电路升级_
+
+我们知道MOSFET的栅极到源极充当电容器（回顾：[MOS-1：MOS的寄生模型](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247485989&idx=1&sn=d411ff715d230f638b41e002adfdc1cf&chksm=c33540baf442c9ac894b1740e0c54265de5a22c419ddc0b3668e801566b906a8dc415734b0dc&scene=21#wechat_redirect)）。电容器的工作原理是这样的：当电容器充电时，电流流过它，开始很多，后来越来越少，当电容器充满电时，没有电流流过它（参阅[Capacitor-2：电容的充放电](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247486349&idx=1&sn=aea138def18a342f551c1c60650c2901&chksm=c3354112f442c8048df792682360ef745b8f6320f5cd894f94b600443c7916c9d0e26dbe3709&scene=21#wechat_redirect)）。
+
+当你的MOS处于开启稳态时，其栅源电容器已充满电，所以没有电流流过栅极。但是当你的MOSFET处于被打开的动态过程中时，会有一个电流给这个栅源电容充电。因此在一小段时间内，栅极Gate可能会有大量电流流动。
+
+为了确保这个短暂的电流对于器件来说不会太高，如**_图2-2_**所示需要在输出引脚和MOSFET栅极之间串联一个电阻器Rg（栅极串联电阻）：通常1000Ω或者100Ω是一个足够大的值。但这取决于你的电路。可以使用欧姆定律计算从电阻器获得的最大电流：I=V/R，当使用的电阻越高，MOSFET开启/关闭的速度就越慢，如果你想快速打开和关闭输出，Rg取值就要考虑减小（3.3Ω-10Ω）甚至取消。
+
+_![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRiaY62hXusIcletfuTeA0icfYyb0LSGZ8YnUWjKibHwgVSPKENwuPUtbwrmTfLRKZymGbLVOhUv88bg/640?wx_fmt=png)_
+
+**_图2-2：带Rg的MOS驱动电路_**
+
+**_![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRiaY62hXusIcletfuTeA0icf7FXXqdg1lxic7emJNGTMhvicOLkSzia1W8wWFCwaibgjfwK8elDhZ7NLzQ/640?wx_fmt=png)_**
+
+**_图2-3：不正确的Rg放置方式  
+_**
+
+如**_图2-3_**所示，如果栅极电阻器Rg放置在下拉电阻器的左侧，则会得到一个分压器电路，该电路将降低栅极电压，如果你选择了一个至少比下拉电阻小100倍的栅极电阻，那么电压的降低很小，可以忽略不计。但是如果它们的值更接近一点，则栅极上的电压将低于Ctrl in电压，影响MOS的开启，所以最佳位置Rg放置在R1的左边。
+
+____€3.选驱动__MOS管的考虑项__  
+
+#1：使用MOS时和JFET不同，漏极电流不受IDSS的限制，所以不需要过于在意漏极电流的设定值。
+
+#2：作为电路中使用的MOS，应该选择漏极-源极间电压VDSS（最大额定值）大于VDD，栅-源电压VGSS（最大额定值）大于VDD。
+
+#3：导通条件则是外部施加的VGS大于1.5倍VGSTH（称为过驱动）。电路的直通电流小于MOS的漏极电流ID的最大额定值。耗尽型器件在VGS=0V时也有漏极电流流过，是正常导通器件，所以不太适合在开关电路中使用。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSeZChtVHPnDGN531h7iaNicjiczxN0cd0scXkUxPpdDJ8KPYID8S3p10LrNCTX5KsX3uDwd6hxyeLew/640?wx_fmt=png)
+
+**_图2-4：NMOS驱动等效_**
+
+如**_图2-4_**所示，建议负载R放在高侧，避免负载产生显著压降（开通时，S极电位接近VDD），影响GS的电平，导致NMOS开启关闭受影响，这在后面SCD系列里面会再次讲到。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TSeZChtVHPnDGN531h7iaNicjy6UCGiad6aicZOjqFMpQicg6UEpUZQRwoYS4lh39aMxicgHYEzIknibwlhw/640?wx_fmt=png)
+
+**_图2-5：PMOS驱动等效_**
+
+如**_图2-5_**所示，建议负载R放在低侧，避免开通时，S极电位接近于GND，那么G极就要施加负电压，导致PMOS开关出现问题，这在后面SCD系列里面会再次讲到。

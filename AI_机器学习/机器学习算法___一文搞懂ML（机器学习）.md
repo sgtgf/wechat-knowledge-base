@@ -1,10 +1,17 @@
+# 机器学习算法 - 一文搞懂ML（机器学习）
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/fJqemuqvpn7jFU3QMcjA4w](https://mp.weixin.qq.com/s/fJqemuqvpn7jFU3QMcjA4w)
+
 本文将从**_****_机器学习_**的本质、机器学习**_的原理、分类与算法_****_**三个方面，带您一文搞懂机器学习**Machine Learning | ML**。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/7TWRhh4xickmdnWRXZfcY0118ScZSIdnanTdf4Op3aCDNWbeIsBf9SwTgbTosmsM06cZz9eIQTickwpZicfv9iangA/640?wx_fmt=png&from=appmsg)
 
 **__**一、机器学习**__**_****_的本质_****_
 
 ****基本思路**：********无论使用什么样的算法和数据，机器学习的基本思路都可以归结为以下三个核心步骤。******
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/7TWRhh4xickmdnWRXZfcY0118ScZSIdna7p2PZ0yne504v1VpZagIZwIiauICEWwiaCo8AL4P45AWWlxib9cqmV2uA/640?wx_fmt=png&from=appmsg)
 
 -   问题抽象与数学建模：把现实生活中的问题抽象成数学模型，并且很清楚模型中不同参数的作用
     
@@ -15,6 +22,7 @@
 
 **AI、ML、DL三者的关系：********人工智能是最广泛的概念，机器学习是实现人工智能的一种方法，而深度学习则是机器学习中的一种特定技术。******
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/7TWRhh4xickmdnWRXZfcY0118ScZSIdnacZibAH718T4mzxUffrHeAnDrUc6FzeUHMv5RDkhosMxZ72GtiarfXC2g/640?wx_fmt=png&from=appmsg)
 
 -   人工智能（AI）：这是最广泛、最上层的概念。人工智能的目标是让计算机能够执行需要人类智能才能完成的复杂任务。
     
@@ -27,6 +35,7 @@ _**二、**__**机器学习**__**_**_**_**_****_的原理_****_**_**_**_**_
 
 **机器学习的原理：********机器学习是通过使用带有标签的训练集数据，识别和提取特征，建立预测模型，并将所学规律应用于新数据进行预测或分类的过程。******
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/7TWRhh4xickmdnWRXZfcY0118ScZSIdna3R2l2zicYEnYOibZtTlWPDSnSQYubQMN9Px6TaPCS3icn4nSh0ib8PwsSg/640?wx_fmt=png&from=appmsg)
 
 -   训练集：提供标签化的数据，用于训练模型。例如，识字卡片帮助小朋友了解汉字与特征的关系。
     
@@ -39,10 +48,11 @@ _**二、**__**机器学习**__**_**_**_**_****_的原理_****_**_**_**_**_
 
 **机器学习的步骤********：************收集数据、数据准备、选择模型、训练、评估、参数调整和预测。******
 
-************
+******![](https://mmbiz.qpic.cn/sz_mmbiz_png/7TWRhh4xickmdnWRXZfcY0118ScZSIdnaoZSX2jURMSZbZDm9cN9VmIkVoZu4UKZYS8mzib5ibpHBFTQdvibYwOWGw/640?wx_fmt=png&from=appmsg)******
 
 案例：机器学习通过酒精度和颜色来区分红酒和啤酒。  
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/7TWRhh4xickmdnWRXZfcY0118ScZSIdna61Nhg69IeZnhhaYSUxJiaC0AaoDYsNfP8eNibnqnibfAgDKs51oUgLXqg/640?wx_fmt=png&from=appmsg)
 
 -   步骤1：收集数据
     

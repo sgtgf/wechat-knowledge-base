@@ -1,0 +1,56 @@
+# BMS-4：电池开关单元--->BDU
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/H2eVBWI5PSCx6OkCcGMnMA](https://mp.weixin.qq.com/s/H2eVBWI5PSCx6OkCcGMnMA)
+
+____**____**____![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TScRicFDBt1vuxbMzrk0Msuo32gpwyD3WNNyvTAmG0icXJYiaJLceXiaVl80I5ibLU5gVaAmgAZtmSeusQ/640?wx_fmt=png&from=appmsg)★★★____**____**__________BMS-4---BDU__________**____**____★★★____**____**____
+
+______撰稿：Timothy  校稿：Timothy______
+
+引言：BDU直接接触的是高压大电流，核心功能是负责干路的通断，所以BDU也叫电池智能断连单元，在传统的断连导通的基础上，逐渐增加更多的监测和保护机制，提升安全系数，本节进入BMS的组成最后一部分---BDU。
+
+__________________€1.什么是BDU__________________
+
+BDU是现在新命名的叫法，也叫智能接线盒BJB，和传统的BJB相比，传统BJB仅包含机械部件，而智能BJB将有源器件引入BJB中，执行高压监测、电流检测和绝缘检测（传统上由BCU执行的功能）。智能BJB和传统BJB之间的区别在于对接触器（继电器）驱动器和爆炸熔丝的数字控制，用于在碰撞过程中断开电池包与电动汽车系统的连接。
+
+____________________________________€2.____________________________________传统与智能电池接线盒 (BJB) 的比较
+
+如**_图4-1_**所示，智能BJB架构具有几个明显的优势。它明确地区分了高压域和低压域，所有高压信号都直接在BJB中测量，从而使BCU完全成为一种低压设计。电池包监测器使用专有菊花链接口，支持分立式电容器隔离，因此无需使用昂贵的数字隔离器器件。菊花链通信还具有额外的优势，无需收发器（如CAN）等任何其他元件，也不需要额外的MCU来控制和驱动通信协议。将电池包监测器放置在BJB中或其周围可以立即访问高压信号，并且不再需要将多条长导线连接回BCU，测量电流并执行分流电流检测。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTpibPtponAWYLOfQsnmaia3t3OU25clPFzLsGh0FqZCy1pdVJZEIuxtqDtI4fVUvWjrYq82ydLEswg/640?wx_fmt=png&from=appmsg)
+
+**_图4-1：传统BMS架构与智能BJB架构比较_**
+
+1#：消除了BMU和BJB接口中的大量连接。
+
+2#：简化硬件和MCU软件开发。
+
+3#：同步电压和电流测量。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSXp7z1NGPRkId4srzoQuuibv8fJnSpe5yMOPRopAFjxNcXiavvYkMicC4aCEMC7ibIpUVHxkeTDTMPdA/640?wx_fmt=png&from=appmsg)
+
+**_图4-2：完整的BMS简图_**
+
+从**_图4-2_**和**_图4-3_**就可以看到BJB包含电流（过流保护）、温度、绝缘检测，高边低边继电器驱动器控制。  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSXp7z1NGPRkId4srzoQuuibiafW9AACRfAjtYy3YgLIr3cGXLRYm2IloJdibXhcyQDv1x9o127mlliag/640?wx_fmt=png&from=appmsg)
+
+**_图4-3：智能BJB部分简图_**
+
+____________________________________€3.____________________________________BDU的链路
+
+智能BJB通过电压、电流和绝缘电阻电池包监测器帮助直接测量电池中的高电压，典型的电池包监测器中提供多个电压和电流测量通道，可测量保险丝和接触器两端的电压，并检查BJB中的隔离电压，**_图4-4_**为简化版系统图。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSXp7z1NGPRkId4srzoQuuib7fun3Nia7eEYOXgCvThrBhpFr2DN08UH0hqibuHG0KFXwn6HlQuQ5pgQ/640?wx_fmt=png&from=appmsg)
+
+**_图4-4：简化版BJB系统方框图_**
+
+从图中可见，UIR主芯片作为BDU的核心器件，还替代SOC/SOH MCU完成了PACK检测、绝缘电阻检测、链路诊断（Link+/-）、充电控制/检测、霍尔传感器读取、VFUSE控制、继电器驱动器控制、干路电流检测等等功能。由于电池包监测器可以测量电池包电流，因此系统中采用了过流保护。
+
+以UIR芯片BQ79731-Q1等为例，一些电池包监测器还具备用于荷电状态计算的库仑计数功能，BQ79731-Q1中实现了电压和电流同步功能，可在CSU中测量电池电芯电压的同时测量电池包电流和电压，将通过任一菊花链式通信接口捕获的所有信息轮询到BCU。BQ79731-Q1具有串行外设接口 (SPI) 控制器通道，可控制接触器驱动器和爆炸熔丝，从而减少对BCU额外SPI资源的需求。
+
+电池包使用由电池包监测器控制的机械接触器来连接或断开整个车辆的子系统，务必要防止这些接触器发生任何潜在故障或接触高压连接，从而保护驾驶员免受危及生命的伤害，如果出现不受控制的浪涌电流，机械高压接触器可能会因电弧和点蚀而焊接或损坏。
+
+____________________________________€4.____________________________________小结
+
+因为BDU负责干路的缘故，它的设计通常需要在电池包级别精确检测电流，并且采用冗余性的先进架构，以便在更高安全级别部署系统。

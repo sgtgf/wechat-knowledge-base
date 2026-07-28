@@ -1,3 +1,10 @@
+# 浮点数精度：从Fortran 77到现代标准的历史演变
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/VCpqrLW2ogPuqCdBiXGYOQ](https://mp.weixin.qq.com/s/VCpqrLW2ogPuqCdBiXGYOQ)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXH3giaGibzmyB18HzF2z3KEZicWDvGVYIjmfrVlib9lBTibeO9E6Mvz5PgD7Zq8w5BiaIiblQYtH4Xqkv3g/640?wx_fmt=jpeg)
+
 在计算机科学的广阔天地中，浮点数扮演着举足轻重的角色，它们是实现科学计算、工程模拟以及各类复杂算法不可或缺的基础。Fortran，作为历史悠久的编程语言，自诞生以来就致力于提供高效、精确的浮点运算能力，历经半个多世纪的发展，其在处理浮点数上的精度和灵活性不断提升，深刻影响了科学计算的进程。本文将带你穿越时光隧道，从Fortran 77的标准化起点，到Fortran 90的革新，直至现代标准的全面进步，回顾Fortran浮点数精度的演变历程。
 
 ## Fortran 77：奠定基石
@@ -56,6 +63,7 @@ Fortran 2008标准进一步推进了浮点数处理的标准化，通过`ISO_For
 
   
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

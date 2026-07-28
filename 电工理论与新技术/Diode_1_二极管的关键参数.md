@@ -1,0 +1,84 @@
+# Diode-1：二极管的关键参数
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/UUKnu97m9S50mka8tDCDaQ](https://mp.weixin.qq.com/s/UUKnu97m9S50mka8tDCDaQ)
+
+_![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTSje8cnYyhZPR9hAAhT3k8myHvFVpcv8LLIvia5QV4ibicLLOO1yictO2H3076eZhfddbiaA5EotFhIhA/640?wx_fmt=png)_
+
+**_★★★_**_Diode-1---二极管的关键参数_**_★★★_**
+
+_€1.二极管的结构_
+
+二极管的物理结构有两种，一种是普通的P-N结，一种是金属半导体结（_**图1-1**_）。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTQSEVaxdn4Y1PiaFDXxYUJ8HnR4uVxOBxKGWzFOVtmAUic6qZWhHmeFVQeovN9PP29kCTExxDZIsVQ/640?wx_fmt=png)
+
+_**图1-1：PN结和金属-半导体结**_
+
+根据结的属性不同，形成的二极管按结构和用途可以分为如下_**表1-1**_所示：  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TT9aqqb6ibA4QvDetYibjZXicFJlrmoZc1xXUicYDribiaNXkolg8KsW69Xib33ib9Z1Pbo1tSZvRgLpdNXYQ/640?wx_fmt=png)
+
+_**表1-1：二极管分类**_  
+
+_€2.二极管典型电参数_
+
+无论是普通的PN结还是金属结，典型电参数都是一样的：
+
+1.IF(AV)：平均正向电流
+
+二极管的平均正向电流IF（average）规定了在特定波形下（**_图1-2_**）的电流能力，而不会因-过热而造成损坏。当比较多个IF（AV）额定值时，必须特别注意测量条件。占空比δ为50%的20kHz方波的IF（AV）。占空比定义δ为0.5，开关频率f为20kHz时，t2=1/20kHz=50us t1=t2∙δ=25us。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTQSEVaxdn4Y1PiaFDXxYUJ8nQicrqBZ2CgEOrPLXFibmibL4Czk3cOicrIgJyiaGrmUCYeydhC5y7b9hyg/640?wx_fmt=png)
+
+_**图1-2：平均正向电流定义波形**_  
+
+2.IF：正向电流
+
+与IF（AV）相比电流IF表示占空比操作允许的最大恒定电流，即在直流DC条件下。
+
+3.IFSM：非重复峰值正向电流
+
+与IF相反，非重复峰值正向电流IFSM规定了允许最大单电流脉冲。因此，IFSM是对激增的衡量二极管的电流容量。需要注意的是，IFSM对单个事件，如启动时或掉负荷情况下的涌入电流。测试用于表征这一特性的脉冲是一个单周期半正弦波，脉冲长度为tp8.3ms，对应于60Hz半正弦波。
+
+4.VR：反向阻断电压
+
+二极管在进入击穿操作之前能够承受的最大允许反向电压，这通常会导致零件损坏。反向阻断电压和平均电流是二极管命名惯例中使用的关键参数，正向和反向特性都表现出强烈的温度依赖性。  
+
+5.VF：正向压降
+
+二极管的正向压降VF决定了二极管正向偏置时的导通损耗。这在SMPS等高效应用中或在反极性保护中非常重要，VF应尽可能低。
+
+6.IR：反向电流IR
+
+反向电流IR，也称为泄漏电流。这是反向偏置时流过二极管的电流量，该电流越小表示反向阻断效应越好。当反向功率PR＝VR×IR时，泄漏电流IR定义了给定反向电压在反方向上产生的功率。
+
+7.trr：反向恢复时间
+
+当电压由正向变为反向时, 电流并不立刻变为0 , 而是在一段时间ts内, 反向电流始终很大, 二极管并不关断。经过ts后, 反向电流才逐渐变小, 再经过tf时间, 二极管的电流才成为0。ts称为储存时间,tf称为下降时间。trr=ts+tf称为反向恢复时间, 以上过程称为反向恢复过程。
+
+_€3.整流二极管_
+
+整流二极管，顾名思义就是用在各种电源整流电路中，将交流电转换为直流电，因此整流二极管需要有足够的耐压和过流值。整流器基于器件结构中的经典P-N结。在用作垂直器件阴极的N+衬底上外延生长N掺杂漂移层。二极管的阳极通过将P掺杂剂注入并扩散到外延层中来实现。P扩散步骤决定了P阱的轮廓，因此对二极管的击穿电压至关重要。恢复整流器的最大反向电压从大约200V开始，并增加到大约1700V。反向电压范围高端的二极管由P-I-N结而非P-N界面组成，因为P和N区之间的几乎未掺杂层允许在器件反向偏置时向耗尽层进一步扩展。顶部金属化层用于与二极管的阳极形成欧姆接触。
+
+整流二极管最需要关注的参数是IF(AV)和VR，通常取VR=1.5~2倍的交流峰值电压，在此基础上VF和IR尽量小。另外如**_图1-3_**所示整流二极管的正向特性随电流电平和温度的变化而变化，在低电流区，VF在高温时较低，而在大电流区的情况则相反。一般来说，使用二极管应该在Q点（上述两种情况的交叉点）以下有足够的温度裕量。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TT8iaUYiczGH1Oq76SXDuwNKicut5DX6xvmmJAozib3ay7CXicb2YibGqbORibL9r2uXOChMy2KjeKMTGV6Q/640?wx_fmt=png)
+
+_**图1-3：IF-VF特性**_
+
+-   以载流子迁移为主的蓝色区域：VF随着温度的升高而降低。由于载流子在受热时很容易移动，因此VF在高温时比低温时低。
+    
+-   以载流子碰撞为主的红色区域：VF随着温度的升高而升高。当大电流流动时，许多载流子会移动。在高温情况下，载流子之间的碰撞概率增加，VF比低温时高。
+    
+
+_€4.快速恢复二极管（FRD）_
+
+快速恢复二极管的结构和功能与整流二极管相同。整流二极管用于500Hz以下的低频应用，而FRD则用于从几kHz到100kHz的高频开关。因此，二极管具有反向恢复时间（trr）很短的特性，这对高速开关非常重要，根据trr值，FRD也称为S-FRD、HED等，_**图1-4**_表示了二极管开关操作中的损耗，Ploss=VF×IF，虚线部分为Ploss，不仅仅在导通期间有损耗，施加反向电压时有反向电流，同样一直存在损耗。  
+         一般整流二极管的trr为几微秒到几十微秒。另一方面，FRD的trr是几十毫微秒到几百毫微秒，约为整流二极管的1/100。它应用于开关电源、逆变器、DC/DC转换器等。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TT8iaUYiczGH1Oq76SXDuwNKicOhtqlOAyx3cSvxe4dicYYBJlvYMhr9eXAmMFFc9qgTHSRIiaUCzseoLQ/640?wx_fmt=png)
+
+_**图1-4：左-二极管开关波形和损耗实例 ，右-通用整流器与FRD的trr比较**_
+
+当频率较低时，由trr引起的损耗（反向恢复损耗）可以忽略不计，但这种损耗会随着频率的增加而增加，当频率变为几kHz或更高时，则损耗不能忽略。

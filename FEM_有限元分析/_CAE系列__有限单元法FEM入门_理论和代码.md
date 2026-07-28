@@ -1,3 +1,8 @@
+# \[CAE系列\] 有限单元法FEM入门：理论和代码
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/tUSEp\_V3FfWqbtDAItqLQA](https://mp.weixin.qq.com/s/tUSEp_V3FfWqbtDAItqLQA)
+
 ## 简介
 
 有限单元法（有限元方法，finite element method）是计算复杂偏微分方程近似解的一种数值方法，其基本思想为“离散逼近”，即用分片函数的组合来逼近复杂函数，进而将微分方程求解转化为线性方程组的求解。有限单元法凭借其灵活性与通用性，已经成为工程领域中使用最为广泛的偏微分方程数值解法。
@@ -18,6 +23,7 @@
 
 ### 2\. 计算单元刚度矩阵
 
+![](https://mmbiz.qpic.cn/mmbiz_png/Fo2HISySfpzBYcsjLxKdoa1w5twAiamEVxk9CMlkeFbAhbWiaS4AXO9ySwo6deVpag0nBIHzbwy4FH3fDxPsguKQ/640?wx_fmt=png)
 
 以工程中常用的四结点四面体单元为例，其单元刚度矩阵计算过程如下：
 
@@ -67,6 +73,7 @@
 
 整体刚度矩阵组装示意图如下：
 
+![](https://mmbiz.qpic.cn/mmbiz_png/Fo2HISySfpzBYcsjLxKdoa1w5twAiamEV0r3132G5s2YMGVL9ibILnLxibLoRZzic7opF58YRVELiakybCP6NzWublg/640?wx_fmt=png)
 
 由整体刚度矩阵表示的弹性体平衡方程为：
 
@@ -202,3 +209,8 @@ class System(object):    def __init__(self):        self.nodes =�
 -   ****[工具软件合辑 | 截图，PPT插件，Office软件管理，下载器，播放器](http://mp.weixin.qq.com/s?__biz=MzkwODM4NzAyOA==&mid=2247483969&idx=1&sn=cd96c504aedbbbe8833285d9e2b88eea&chksm=c0cbf5faf7bc7cec72aaba8f515b728d10c4c054fb7caee227fe44559b291c5e1da9022ba5f8&scene=21#wechat_redirect)****
     
 -   ****[误你青春，悔不当初](http://mp.weixin.qq.com/s?__biz=MzkwODM4NzAyOA==&mid=2247484281&idx=1&sn=67b8927429a380fe9369132786ecdd89&chksm=c0cbf4c2f7bc7dd4ab54bcdfaac2b66dd9128a191aceb6c48c80fe7265c5e4a2a2b3a0b84082&scene=21#wechat_redirect)****
+    
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/Fo2HISySfpyGpbxJDSoWq82CqbY9QMd7kOkich08ictVxEJj9yCBltibRwPiag96wzm096gy7Sw2yAmZdnMMXfAxxQ/640?wx_fmt=png)

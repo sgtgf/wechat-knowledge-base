@@ -1,3 +1,12 @@
+# Intel OneAPI：英特尔AI加速Python框架！
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/1WjiaoJPBM8rW4UHG130Mg](https://mp.weixin.qq.com/s/1WjiaoJPBM8rW4UHG130Mg)
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/bL2iaicTYdZn4WjxEos6UL2LJsTlwqC6diakLskeXxB6MokJXUgdxTEF82Jbf6nh08l7P0xwHpYvMy6zfnPthnuMg/640?wx_fmt=gif)
+
 大家好啊，我是Ania！
 
 今天我要给大家介绍一个超级厉害的AI加速神器 —— Intel OneAPI！
@@ -138,5 +147,6 @@ from intel_extension_for_pytorch import debug
 
   
 
+![](https://mmbiz.qpic.cn/mmbiz_gif/Ljib4So7yuWge7Mibiad1tV0iaF8zSD5gzicbYiaOtl6tmz4onkADe25mdeWcVhZlQ8Q0bH73nZAwICyJ4pPgJU3VrCg/640?wx_fmt=gif)
 
 **_再走吧_**

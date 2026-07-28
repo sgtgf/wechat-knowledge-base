@@ -1,0 +1,148 @@
+# Antenna-15：天线轴比
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/7UPHv1uHYRpgBRVjxewLBQ](https://mp.weixin.qq.com/s/7UPHv1uHYRpgBRVjxewLBQ)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TStpbLuIPs7OME2uWJDZhxiaKvlbfnHxVjHo1ds5ibHUkXbIvrMdDLWwTYlkoNR5iay8eaByHPOnr0zg/640?wx_fmt=png&from=appmsg)
+
+___**★★★**_____Antenna-15---AR_____**★★★**___
+
+引言：轴比（Axial Ratio，AR）是极化的衍生参数，用来衡量椭圆极化--->圆极化的程度，本节主要介绍轴比这一参数概念。  
+
+___€1.轴比定义___
+
+_定义：轴比也叫轴向比，是电场正交分量的比率，通常用于所需极化为圆形的天线，衡量极化椭圆的 “肥瘦程度”，_轴比是天线辐射电场矢量末端轨迹椭圆的长轴与短轴的幅度比值，是**衡量天线极化纯度的关键参数，主要用于描述圆极化或椭圆极化天线的性能。**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/JGbdHe4j0TQ3r5VHAB4Iic4EGfcTUViagAD1dtFSCxZQQHvpmujVdpNYAKueNfxiaLTDH4nedfuAtxGJNoZvoEVdg/640?wx_fmt=gif&from=appmsg)
+
+图15-1：电磁波空间极化形式动态图
+
+理想圆极化：由两个振幅相等（且相差90°）的正交电场分量组成，由于分量大小相等，长轴=短轴，轴比=1（或0dB），电场轨迹为完美圆，极化纯度最高，圆极化场的轴向比的理想值是0dB。此外，轴向比往往会从天线的主波束下降，因此轴向比可以在天线的规格表（数据表）中标明如下：“轴向比：距主波束±3°时为<3dB”，这表明在指定的角范围内，与圆极化的偏差小于3dB。
+
+椭圆极化：长轴≠短轴，轴比>1（>0dB），轨迹为椭圆，值越大，椭圆越 “扁”，极化纯度越低。
+
+线极化：纯线性极化的轴向比是无限的，因为场的正交分量为零，可视为椭圆短轴为0，理论轴比无穷大（因短轴→0），轨迹为直线（短轴幅度→0），无圆极化成分。  
+
+轴比反映天线极化偏离理想圆极化的程度，轴比越小（越接近1或0dB），圆极化纯度越高，抗多径干扰、极化失配的能力越强，在卫星通信中，低轴比（≤3dB）能减少信号衰减，提升稳定性。
+
+___€2.轴比的计算___
+
+理论计算（本质定义）
+
+轴比有**线性值**和**分贝值（dB）** 两种表达形式，分贝值是工程中最常用的形式。从椭圆极化的几何特征出发，轴比为电场**椭圆长轴长度（Emax）与短轴长度（Emin）的比值：**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ibLjKbsChWZPMfPefAK4RItBZLcAAg7q4HG84JLH30iczBMfHeIKtjsGA/640?wx_fmt=png&from=appmsg)
+
+将线性值转换为对数，即分贝dB形式，便于工程计算和指标标注：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ibmsAsywCaVWcGCD9BwTlv5cicuqaPnpOWEKayUA7DYxnDIp8RgDvZEJg/640?wx_fmt=png&from=appmsg)
+
+理想圆极化Emax=Emin，AR(dB)=0dB；线极化时短轴Emin=0，AR(dB)→∞；椭圆极化介于0dB~∞之间，工程中一般要求圆极化天线**轴比≤3dB**（部分高精度场景≤1dB）。
+
+电场分量计算（最常用，适配实测和仿真）
+
+从圆极化的电场正交分量出发，适用于已知**两个正交线极化分量的幅度、相位差**的场景（如通过矢量网络分析仪测得Ex、Ey），是天线设计、测试中最常用的计算方式。
+
+#### 前提条件：设天线在垂直于传播方向的平面内，两个正交电场分量为：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ib8swBicrlcp8SiasyRNekFjfVUvOhqZ7rvKBVqvKBBRcibsREvPZKGZt2Q/640?wx_fmt=png&from=appmsg)
+
+其中：Exm、Eym为两分量**幅度**，Δφ为**相位差**（Ey−Ex）
+
+轴比计算公式（线性值）
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ibnhMUnaYwhPC5SOrL3Jg0Bou8k4gMoZ9yQUyNQsIryfYquOv9mJEv7Q/640?wx_fmt=png&from=appmsg)
+
+#### 特殊情况（理想圆极化 / 线极化，简化公式）
+
+#### 理想圆极化：Exm=Eym=Em，Δφ=±90°（cosΔφ=0），代入得AR=1（0dB），符合定义；
+
+#### 理想线极化：Δφ=0°/±180°（cosΔφ=±1），代入得AR--->∞，符合定义；
+
+#### 等幅非正交相位：Exm=Eym，Δφ≠±90°，公式简化为：
+
+#### ![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ib1MPwVs2Ez3LfOozR196T5A2NN8qaXgHIkVVBkPpQ9KY6NuytObMG4g/640?wx_fmt=png&from=appmsg)
+
+#### 举例：Exm=Eym，Δφ=60°，则AR=（1+0.5）/（1-0.5）=3，对应AR：
+
+#### ![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ibUQiaYpIy8CJiaZ3lMXHteAcUlDMa6uLsVfXkJo5ZuaBSWr4W0SzY0zIA/640?wx_fmt=png&from=appmsg)
+
+#### 表明极化纯度较差。
+
+### 波阻抗/极化比计算（简化法，适配快速计算）
+
+工程中常定义**极化比r**（两正交分量的复振幅比），简化轴比计算，适用于仿真建模、快速评估场景。
+
+#### 1\. 极化比定义
+
+设复振幅形式：  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ibF9dSeGW80htvUvtBGTdQSibeccOicA4AaIx9uZUz3Ku0socqcw7rqwJw/640?wx_fmt=png&from=appmsg)
+
+则极化比：  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ibkI3mdM0X1Mkh0pImRLsq8icECMnrpnA3EJJxyXFEV4nuriaWaajKzymg/640?wx_fmt=png&from=appmsg)
+
+其中|r|=Eym/Exm为幅度比，Δφ为相位差。
+
+#### 2\. 轴比简化公式（线性值）
+
+#### ![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRBz5aBTk5Lxrl3ewoV4P8ibWSWHkC7LlgQDUrS4E7jIKI52uyCHK9nrMW0jL1pYwXg2nZ9Y8H61rg/640?wx_fmt=png&from=appmsg)  
+
+#### 当Δφ=±90°，即理想圆极化偏离仅为幅度差时：此公式为**幅度失配下的圆极化轴比简化公式**，仅适用于相位差严格为±90°、仅幅度不一致的场景，是工程中快速估算的常用形式（如天线加工导致的两正交支路增益不一致）。
+
+实际中，轴比需通过电磁仿真（如HFSS）或测试设备（微波暗室、矢量网络分析仪）获取，步骤包括建模、仿真/测试、提取电场分量、计算比值。
+
+1#：建立天线模型，设置材料、馈电和边界条件
+
+2#：仿真计算远场电场分布，提取正交分量（如Eθ和Eф）
+
+3#：拟合电场矢量的椭圆轨迹，计算长、短轴幅度比，得到轴比
+
+在实际测试（微波暗室）中，利用矢量网络分析仪+极化探头。
+
+1#：在微波暗室中，探头扫描天线辐射场
+
+2#：测量不同方向的电场正交分量，反推椭圆轨迹参数
+
+3#：计算轴比，评估天线在带宽内的极化纯度（如 “轴比≤3dB的频带” 称为圆极化带宽）
+
+___€3.影响轴比的因素___
+
+天线结构：几何尺寸（如螺旋天线的圈数、微带天线的贴片形状）影响电流分布，进而改变极化椭圆形状。
+
+馈电误差：如正交馈电的幅度不等、相位偏离90°，会显著恶化轴比（如幅度差10%，轴比可能从1dB升至5dB），（正交馈电的幅度/相位误差会恶化轴比）。
+
+工作频率：轴比通常随频率变化，需在带宽内优化（如圆极化带宽定义为轴比≤3dB的频带），如卫星通信天线要求“±30°波束内轴比≤3dB”。
+
+材料和工艺：材料损耗介质基板的损耗正切、加工精度（如介质基板厚度偏差，振子间距偏差）会影响极化纯度。
+
+___€4.轴比的考虑和评估___
+
+通信领域：卫星通信、GPS（左旋圆极化）要求轴比≤3dB，确保复杂环境下信号稳定，避免极化失配导致信号衰减（如GPS天线为左旋圆极化，轴比过大时定位精度下降）。
+
+雷达系统：低轴比圆极化天线可抑制雨雪杂波，提升目标探测精度，圆极化对杂波的散射衰减更强。
+
+天线设计：通过优化结构（如调整馈电点、增加极化修正结构）、仿真迭代（如HFSS参数化优化）降低轴比，扩展圆极化带宽。
+
+抗多径干扰：圆极化天线利用 “多径信号极化旋转” 特性，低轴比可增强抗干扰能力。
+
+对于轴比的优化，通常从以下三个方面进行：
+
+1#：结构调整，通过对称设计（如十字馈电、旋转极化器）补偿幅度/相位误差
+
+2#：仿真迭代，利用HFSS等工具参数化优化（如调整馈电点位置、增加寄生单元）
+
+3#：带宽扩展，采用宽带匹配网络或多层结构，拓宽 “轴比≤3dB” 的频带范围。
+
+___€5.轴比与极化效率___
+
+轴比描述单个天线的极化纯度，而极化效率描述收发天线的极化匹配度：
+
+若收发天线轴比均低（极化纯）且极化状态一致（如同旋向圆极化），则极化效率高；若收发极化正交（如左旋--->右旋），即使轴比低，极化效率仍会降至0.5（3dB损耗）。**因此，轴比是极化效率的前提条件（提升自身纯度），但需结合收发极化一致性才能最大化效率。**
+
+轴比的核心是“量化圆极化纯度” ，从理论计算到工程测试，从结构优化到场景应用，贯穿天线极化特性设计的全流程。低轴比（如≤3dB）是圆极化天线的核心指标，直接影响通信稳定性、抗干扰能力等性能。
+
+轴比和极化效率的关系：在收发极化匹配时，轴比越小（发射和接收天线都接近纯圆极化），极化匹配效率越高；但如果收发极化正交，即使轴比低，效率也低。所以轴比是 “自身极化纯度”，极化效率是 “收发匹配度”，前者是后者的基础之一。
+
+对于任何具有孔径面积的天线，当孔径旋转时，沿轴线方向的观测尺寸保持不变，而另一个观测尺寸在旋转90°时减小至零。天线的轴比会随着天线偏离轴线旋转而变差，因为轴向分量的场贡献基本保持不变，而另一个正交分量的场贡献会随着旋转而减小。

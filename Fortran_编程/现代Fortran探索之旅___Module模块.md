@@ -1,3 +1,10 @@
+# 现代Fortran探索之旅 | Module模块
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/TOB1zJIlQz45Qf2FVPCJoA](https://mp.weixin.qq.com/s/TOB1zJIlQz45Qf2FVPCJoA)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+
 Fortran语言中的Module（模块）是Fortran 90引入的一个重要特性，是一种非常有用的结构。它允许程序员将相关的变量、常量、类型定义、函数和子程序等组织在一起，以便在程序的其他部分使用。使用Module可以提高代码的可读性、可维护性和重用性。下面我将通过具体的例子，通俗易懂地介绍一下Module的用法。
 
 ### 1\. 什么是Module
@@ -155,6 +162,7 @@ Fortran语言中的Module（模块）是Fortran 90引入的一个重要特性，
 
 由于篇幅限制，这里只提供了一个关于Fortran模块的基本概念和使用方法的概述。在实际应用中，你可能需要根据项目的具体需求来创建更复杂的模块，并深入理解模块的高级特性，如模块文件的组织、模块的继承等。希望这篇入门教程能够帮助你开始使用Fortran模块，为你的Fortran编程之旅打下坚实的基础。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于 Fortran 90 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

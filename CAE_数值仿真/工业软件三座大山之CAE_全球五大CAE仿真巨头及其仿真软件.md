@@ -1,3 +1,8 @@
+# 工业软件三座大山之CAE：全球五大CAE仿真巨头及其仿真软件
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/S-hRtK9ssngzUD-jNcJGbA](https://mp.weixin.qq.com/s/S-hRtK9ssngzUD-jNcJGbA)
+
 自1963年第一个商业有限元软件公司MSC Software在美国加州诞生以来，经过大约60年的蓬勃发展，各软件公司通过不断的收购与合并，最终形成了少数几家巨头垄断的局面。目前，仿真分析行业基本被五大巨头所垄断：ANSYS、Dassault Systèmes、Altair、MSC Software以及Siemens Industry Software。这些公司不仅在技术上占据领先地位，而且通过不断的收购扩张，形成了涵盖结构、流体、多体动力学、电磁等多个领域的全面产品线。  
 
 #### **1\. 五大CAE软件巨头之ANSYS**
@@ -12,7 +17,7 @@ ANSYS 目前市值超过324亿美元，相当于约2100亿人民币，这是一�
     
 -   Maxwell：用于电磁场分析，尤其适合电机、传感器和其他电气设备的设计。
     
-    
+    ![](https://mmbiz.qpic.cn/mmbiz_jpg/jKz5qHYwIuhic4oSNmBU3eTU2481TbNYj22yp2krAEPicML8gEsVymsDt1y6jMQTSJcqTBvnX4ym9nEYs8nkzeIg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
     
 
 ####   
@@ -27,7 +32,7 @@ ANSYS 目前市值超过324亿美元，相当于约2100亿人民币，这是一�
     
 -   CST Studio Suite：用于电磁场仿真的软件，广泛应用于汽车、通信等行业。
     
-    
+    ![](https://mmbiz.qpic.cn/mmbiz_jpg/jKz5qHYwIuhic4oSNmBU3eTU2481TbNYjPRAt4CVOu7hd8dM8nNrvwibTMhjbtWqCEsDBbbiaaH2rdUZWhQKuE5wA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
     
       
     
@@ -44,7 +49,7 @@ Altair 成立于1985年的美国底特律，最初为汽车企业提供咨询服
     
 -   PBS：高性能计算管理平台，支持大规模计算任务的调度和监控。
     
-      
+    ![](https://mmbiz.qpic.cn/mmbiz_jpg/jKz5qHYwIuhic4oSNmBU3eTU2481TbNYjEicAakXDex5a3Fe5Iofz6sttBDRqZHHibiaUEaN0GMhFic1wbmOT254LrQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
     
 
 ####   
@@ -55,7 +60,7 @@ MSC Software 作为世界上第一个商业有限元软件公司，成立于1963
 
 -   MSC.Nastran：汽车、航空以及造船行业的标准仿真分析软件。
     
--   Adams：多体动力学分析软件，广泛应用于汽车、重工和航空航天等领域。
+-   Adams：多体动力学分析软件，广泛应用于汽车、重工和航空航天等领域。![](https://mmbiz.qpic.cn/mmbiz_jpg/jKz5qHYwIuhic4oSNmBU3eTU2481TbNYjvTwSR2nZfnErW5uvYvNVOt4W5OtwneVQZibhbwJfRITpnVdmNopmO5w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
     
 
 #### 
@@ -68,7 +73,7 @@ MSC Software 作为世界上第一个商业有限元软件公司，成立于1963
     
 -   Flotherm：专门用于电子产品热分析的软件，特别适用于PCB板的设计。
     
--   NX UG：一款强大的CAD软件，与仿真软件紧密集成，提供一体化解决方案。
+-   NX UG：一款强大的CAD软件，与仿真软件紧密集成，提供一体化解决方案。![](https://mmbiz.qpic.cn/mmbiz_jpg/jKz5qHYwIuhic4oSNmBU3eTU2481TbNYjsBfVjt0W1cHiaUkpcTicQj2WmhRlOIicicyVVIt7TrPCEViaNHqMlrBKdRg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_jpg/jKz5qHYwIuhic4oSNmBU3eTU2481TbNYjemociaF3Jc5F9bUWUsiac6icZHdsicZUblzFZS05l6FlGskBWGNWnwnqQQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
     
 
 ####   
@@ -89,6 +94,7 @@ MSC Software 作为世界上第一个商业有限元软件公司，成立于1963
 
 2024-08-09
 
+![](https://mmbiz.qpic.cn/mmbiz_jpg/Pz4A439BHcG4cd87Pvc5L60FqRl7FEms2JhpZy4Nq4qx47gV9ic4t3kYcV0n93cCN4bPKMDKYIXfRrT9PAGOtUQ/640?wx_fmt=jpeg)
 
 ](https://mp.weixin.qq.com/s?__biz=MzIwMjMxODAzNA==&mid=2247610557&idx=1&sn=7b364a318aa2866b5dc12eafa0af2905&chksm=96e3f900a1947016272d7c2621753a6f7bb7b6caecf3a01e8c81916bf1675e2e349509c9a07e&scene=21#wechat_redirect)
 
@@ -98,6 +104,7 @@ MSC Software 作为世界上第一个商业有限元软件公司，成立于1963
 
 2024-08-07
 
+![](https://mmbiz.qpic.cn/mmbiz_jpg/Pz4A439BHcGSXFI7vgnByib0arlUtFzySGj35HFWCkvNF9SMn9TfpaUwe0kTRRic31XFC40ECl9doVE4cjD18OHg/640?wx_fmt=jpeg)
 
 ](https://mp.weixin.qq.com/s?__biz=MzIwMjMxODAzNA==&mid=2247610546&idx=1&sn=26380e9ae7b546fcad98773ea1f8ede9&chksm=96e3f90fa1947019c094de0b9ee07ad0fb2882bb04ae6d18ddbcc235091149fd366423e416a4&scene=21#wechat_redirect)
 
@@ -107,6 +114,7 @@ MSC Software 作为世界上第一个商业有限元软件公司，成立于1963
 
 2024-08-05
 
+![](https://mmbiz.qpic.cn/mmbiz_jpg/Pz4A439BHcHX4lzMPGtHy1LX8pntUlY5hCpnPESnQ6HoCZC2ZNhiaYmnmwMCWGbVibZV21YoHwAgPBtA4sliab13A/640?wx_fmt=jpeg)
 
 ](https://mp.weixin.qq.com/s?__biz=MzIwMjMxODAzNA==&mid=2247610316&idx=1&sn=196f5bce4f8c2daeb50c23005bc6b117&chksm=96e3e671a1946f67a0caba9441185b9319fdf178c22ede62cd5419591fc975afd67e9f1a199d&scene=21#wechat_redirect)
 
@@ -116,6 +124,7 @@ MES行业，就是个大草台班子
 
 2024-08-04
 
+![](https://mmbiz.qpic.cn/mmbiz_jpg/Pz4A439BHcGS5oNGZCE3OeNn1eiaFRRznfp1eb9M7Xp7SXL9HqW8pVVgQzLp7HKTbgVPjjTndd8Wic5x6Upib2B0A/640?wx_fmt=jpeg)
 
 ](https://mp.weixin.qq.com/s?__biz=MzIwMjMxODAzNA==&mid=2247610266&idx=1&sn=1418b1e06df473e65ab80e5b383a8731&chksm=96e3e627a1946f3188690477737db6864ad4f0310b6c124c728689d8fa7c9a7add7b2e9bdc74&scene=21#wechat_redirect)
 
@@ -125,6 +134,7 @@ MES/MOM系统架构与功能解析
 
 2024-07-30
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/xlu2gB89N5ibAZdt0lWfq629lzM0656Ocghmu9qDUISIe2bjXMWX3u3fd8xiciaZJzQiao5ia8Z7KNPuzcuIjmElpjg/640?wx_fmt=jpeg)
 
 ](https://mp.weixin.qq.com/s?__biz=MzIwMjMxODAzNA==&mid=2247610181&idx=1&sn=1828d5fa4a7758cbd3cf30ea2effd6ba&chksm=96e3e6f8a1946feee4f533e08b4e9fa2ecfdf85edc933daf7ca8ab1551f2092578a7c5673bdf&scene=21#wechat_redirect)
 
@@ -134,6 +144,7 @@ PLC领域技术人才百万年薪之路
 
 2024-07-31
 
+![](https://mmbiz.qpic.cn/mmbiz_jpg/Pz4A439BHcEV9gQ4fAdTIX0JGxEIBCTvv7O1dCia1TbpJu874MfxA7udy6oAgy7hLtr6xCpKb92s1EXvW1BhPyw/640?wx_fmt=jpeg)
 
 ](https://mp.weixin.qq.com/s?__biz=MzIwMjMxODAzNA==&mid=2247610182&idx=1&sn=2c9df1c25e44d9414c4ec65343494cde&chksm=96e3e6fba1946fed47bddee32a7bc4d862160c8a8427761254e9d0e0771b4fa9470e81b9f340&scene=21#wechat_redirect)
 
@@ -143,6 +154,7 @@ PLC领域技术人才百万年薪之路
 
 2024-07-25
 
+![](https://mmbiz.qpic.cn/mmbiz_jpg/Pz4A439BHcGS5oNGZCE3OeNn1eiaFRRznguKKNGXIsXicwBTgH94KyxicKepDKloR554sM7mwGIhaUjk18h1ZUxIQ/640?wx_fmt=jpeg)
 
 ](https://mp.weixin.qq.com/s?__biz=MzIwMjMxODAzNA==&mid=2247610098&idx=1&sn=a4f6bc8ac86cbf8d13318873fc2d6a39&chksm=96e3e74fa1946e59322c3843dbf3c9f7b708f499ec9a81e21d73d468318debd75b8e7b59f282&scene=21#wechat_redirect)
 
@@ -152,6 +164,7 @@ PLC领域技术人才百万年薪之路
 
 2024-07-24
 
+![](https://mmbiz.qpic.cn/mmbiz_jpg/Pz4A439BHcEKBEOVZjaTtowUgg0s8JYDviaTCK9EZuvAKaBKDictpvoJUg5dtu8JpJ9Dx7otwx2M6Sc2o4PQxicJg/640?wx_fmt=jpeg)
 
 ](https://mp.weixin.qq.com/s?__biz=MzIwMjMxODAzNA==&mid=2247610065&idx=1&sn=d4e082ceafcefcf6d85b86c49c23b67f&chksm=96e3e76ca1946e7a738223419bf6872a765c49c751faa7cab238de71be199e7e3705fddb9746&scene=21#wechat_redirect)
 
@@ -161,6 +174,7 @@ PLC领域技术人才百万年薪之路
 
 2024-07-20
 
+![](https://mmbiz.qpic.cn/mmbiz_jpg/Pz4A439BHcHX0GphDts697R9vW2KkgfasncSAG7S6SK9EtB8X9nnNOtcmmWp63Yebx0fwA3ujzwWBfY221Q7tg/640?wx_fmt=jpeg)
 
 ](https://mp.weixin.qq.com/s?__biz=MzIwMjMxODAzNA==&mid=2247609941&idx=1&sn=462862e61b0f9fb9457d8f56f25cc587&chksm=96e3e7e8a1946efef010e70a493a9a7a8c232f163544a3b8d91179ed04469a2bd8aec6471f6a&scene=21#wechat_redirect)
 
@@ -170,5 +184,12 @@ PLC领域技术人才百万年薪之路
 
 2024-07-19
 
+![](https://mmbiz.qpic.cn/mmbiz_jpg/Pz4A439BHcFhnuLdq8XhicjNf6Gbrue9HMGBicgjWRu93mRbmKoJ0g1Zvew3PIEibjhvQTSeq4ibbFdBkUbygGu69g/640?wx_fmt=jpeg)
 
 ](https://mp.weixin.qq.com/s?__biz=MzIwMjMxODAzNA==&mid=2247609821&idx=2&sn=fb6c3a71494bddf8126599f56af52225&chksm=96e3e460a1946d76e645c96953aa1f30142a1e30af57af449b566cce2673a6f28904e42fdfb6&scene=21#wechat_redirect)
+
+[当PLC遇见IT：未来PLC该拥有的“五项绝技”](https://mp.weixin.qq.com/s?__biz=MzIwMjMxODAzNA==&mid=2247609722&idx=1&sn=8b635a92d03c4c047f71c50d435b8535&chksm=96e3e4c7a1946dd1265f1bbd93cd6a21aac3c0342495f9c71d80e32845cbf2e1034d418f9688&scene=21#wechat_redirect)
+
+[2024-07-17](https://mp.weixin.qq.com/s?__biz=MzIwMjMxODAzNA==&mid=2247609722&idx=1&sn=8b635a92d03c4c047f71c50d435b8535&chksm=96e3e4c7a1946dd1265f1bbd93cd6a21aac3c0342495f9c71d80e32845cbf2e1034d418f9688&scene=21#wechat_redirect)
+
+[![](https://mmbiz.qpic.cn/mmbiz_jpg/Pz4A439BHcFxxia6yicMm7POI3BXCZNBUicCRQZDQM69YHAZIpRaWbanb3NDGRIKqHoxwh54FEeaolZzlO9RnbzJg/640?wx_fmt=jpeg)](https://mp.weixin.qq.com/s?__biz=MzIwMjMxODAzNA==&mid=2247609722&idx=1&sn=8b635a92d03c4c047f71c50d435b8535&chksm=96e3e4c7a1946dd1265f1bbd93cd6a21aac3c0342495f9c71d80e32845cbf2e1034d418f9688&scene=21#wechat_redirect)

@@ -1,0 +1,102 @@
+# 【文献导读】LSA：电磁斯格明子的抗扰动拓扑保护特性
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/Es3pqYuZ0RhOP2GbBOw4wg](https://mp.weixin.qq.com/s/Es3pqYuZ0RhOP2GbBOw4wg)
+
+论文信息
+
+* * *
+
+  
+
+题目：
+
+Topological protection of optical skyrmions through complex media
+
+作者：
+
+An Aloysius Wang, Zimo Zhao, Yifei Ma, Yuxi Cai, Runchen Zhang, Xiaoyi Shang, Yunqi Zhang, Ji Qin, Zhi-Kai Pong, Tádé Marozsák, Binguo Chen, Honghui He, Lin Luo, Martin J. Booth, Steve J. Elston, Stephen M. Morris and Chao He
+
+单位：
+
+1 Department of Engineering Science, University of Oxford, Oxford, UK.
+
+2 Guangdong Research Center of Polarization Imaging and Measurement Engineering Technology, Institute of Biopharmaceutical and Health Engineering, Tsinghua Shenzhen International Graduate School, Tsinghua University, Shenzhen, China. 
+
+出版信息：Light: Science & Applications (2024) 13:314, DOI: 10.1038/s41377-024-01659-z 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUrdRSLZLOnvOy8oZgbjZIn93zGYn7clxZmU4M0mribcGqnmwvM1KMGIg/640?wx_fmt=png)
+
+论文摘要
+
+* * *
+
+  
+
+光学斯格明子具有许多重要特性，使其成为高密度数据应用的理想载体，包括能够通过离散的拓扑数承载数字信息，以及其空间变化的偏振态独立于其他维度（如振幅、相位、波长）。更重要的是，光学斯格明子的拓扑性质启发式地表明其对扰动具有很强的鲁棒性，这对于在噪声环境中可靠地传输信息至关重要。然而，关于光学斯格明子拓扑鲁棒性的研究仍处于起步阶段。在此，我们通过证明斯格明子的拓扑性质源于其边界结构，并通过对偶性，只要扰动尊重未扰动斯格明子的相关边界条件，其拓扑性质对于空间变化的扰动就具有韧性，从而精确地量化了这种鲁棒性。随后，我们提供了实验证据，在近轴斯格明子光束的背景下验证了其对于复杂偏振像差的鲁棒性。我们的工作为处理斯格明子场的各种扰动提供了一个框架，并在广义上提供了鲁棒性的保证。这进而对开发利用斯格明子拓扑特性的应用具有重要意义，特别是为光学斯格明子在通信和计算中的应用奠定了基础。
+
+图文导读
+
+* * *
+
+  
+
+电磁斯格明子因其具有整数拓扑数，被认为在信息传输中具有抗干扰能力强的潜力，但其拓扑鲁棒性尚未被系统研究。本文研究的关键问题为：在什么条件下，斯格明子的拓扑数能够保持不变？ 尤其是在存在偏振畸变、散射等复杂介质中。
+
+本文的研究方法和过程如下：
+
+1\. 提出“可紧化”概念：如果一个场的定义域可以通过某种对称性“紧化”成一个紧致流形（如球面、环面），则称其为可紧化场。只有可紧化的场才能保证其斯格明子数为整数，并具备拓扑不变性。
+
+2\. 建立拓扑保护的数学框架：使用de Rham上同调理论，证明可紧化场满足无穷多个积分方程，斯格明子数只是其中之一。提出一种同伦方法来判断扰动是否会影响拓扑数：如果扰动过程中场始终保持可紧化，则拓扑数不变。
+
+3\. 系统分析了以下偏振畸变对斯格明子的影响：空间变化的延迟器、二向色性器件、退偏振介质。证明只要介质参数也满足“可紧化”条件，斯格明子数就能保持不变。
+
+4\. 实验验证：合成了1到10阶的斯格明子光束，并让其通过包含多种偏振畸变的电磁系统。使用斯托克斯偏振测量法测量输出场，计算斯格明子数。结果显示，即使在强扰动下，斯格明子数误差极小（最大约0.1），验证了拓扑鲁棒性。
+
+本文的重要图片如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUgWLGHP9j1l3ApINwsepvGb1K1ksibbGAzqmiaVtEiaUicqEkQ1wGsCqJgA/640?wx_fmt=png)
+
+图 1 | 斯格明子的定义及其与各种偏振像差的相互作用。a. 场在其边界上允许紧化的各种对称性特性及对应的紧化流形。对称性特性通过多边形展示，箭头表示沿箭头方向对不同边进行成对识别。请注意，某些对称性允许场被铺砌，这为周期性结构场赋予了拓扑特性。如正文所述，由于紧化的拓扑性质，可以自由变形此多边形，并且在无界场的情况下，可以考虑无穷远处的边界。图中还展示了满足相关对称性的可能斯托克斯场。值得注意的是，在边界上为常数值的场同时满足所有对称性，然而，也存在在其边界上非均匀但仍可紧化的场，如图所示。b. 示意图描绘了复杂的空间变化介质对入射光学斯格明子场的影响。本文仔细研究了表现出空间变化的延迟、二向色性、退偏振以及上述组合的系统。请注意，入射场的边界及相应的像差对于保证拓扑保护至关重要。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qU3mSFryl6EEPoyAQ9HzR5N0UnicxNOo9J95y7VXnswCd3FfmabttQpAA/640?wx_fmt=png)
+
+图 2 | 实验装置和测量的斯托克斯场。a. 测试中使用的各种干扰元件及其所属的介质类别。b. 测试中使用的组件顺序和SLM相位图案。c. 不同实验配置和输入斯格明子数下测量的斯托克斯场。配置A的模拟斯托克斯场也一并显示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qU6cUib4SJB86v208dFh5QD95dapBePDVeUBfGia5M6FIxBqoaXOwhTmYA/640?wx_fmt=png)
+
+图 3 | 计算得到的斯格明子数及相关误差。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUaIcFeCch3KuenOBZZykiaQ2VaeW6hneCgQicvELNs75o5oDsib7tP5oDA/640?wx_fmt=png)
+
+图 4 | 斯格明子通过空间变化延迟器的情况。一个一阶奈尔型斯格明子通过具有空间变化轴和延迟量的延迟器后的输出斯托克斯场。Δ的分布由最内环的等高线图表示，轴分布由第二内环的椭圆表示。输出斯托克斯场显示在第二外环，输出误差显示在最外环。【电磁甜甜圈注：空间变化延迟器的核心功能是：引入一个与空间位置相关的相对相位延迟，改变光的偏振态（例如，将线偏振光变为椭圆或圆偏振光）。】
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUbb4CkJbMdruXHuuk2ebwFibeSYvmDK2xnpGdkR2K6T5QVDj7biccAaibg/640?wx_fmt=png)
+
+图 5 | 斯格明子通过空间变化二向色性器件的情况。具有空间变化偏振度的的一阶奈尔型斯格明子通过具有空间变化二向色性的水平线性二向色性器件后的输出斯托克斯场。空间变化参数P和κ的分布由两个最内环的等高线图表示。【电磁甜甜圈注：空间变化二向色性器件的核心功能是：对光的不同偏振分量进行与空间位置相关的选择性吸收。】
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUeicqLibiabjxUsL6AkQkq2ugDpYZfPia2wMRofJN8DGG1tCkaH2QY5DvQA/640?wx_fmt=png)
+
+图 6 | 斯格明子通过空间变化退偏振介质的情况。一个一阶奈尔型斯格明子通过具有空间变化参数d₁, d₂, d₃ 且 ε = 1 的I型退偏振介质后的输出斯托克斯场。输出斯托克斯场与入射偏振度无关。【电磁甜甜圈注：空间变化退偏振介质的核心功能是：降低光的偏振度，引入偏振随机性，是三种介质中破坏性最强的一种。】
+
+论文启示
+
+* * *
+
+  
+
+本论文通过引入“可紧化”概念和严格的数学框架，系统阐明了电磁斯格明子在复杂介质中的拓扑保护机制，并通过实验验证了其鲁棒性。这项工作为拓扑光子学在通信与计算中的应用奠定了重要基础，同时也指出了未来研究中需要克服的挑战。本文重要结论如下：
+
+(1) 拓扑保护的关键在于边界条件：只要场和介质的边界条件满足“可紧化”，斯格明子数在传播中保持不变。
+
+(2) 理论具有普适性：不仅适用于电磁斯格明子，也适用于磁性斯格明子、声学、流体等领域。
+
+(3) 电磁斯格明子可用于高密度数据传输，尤其在噪声环境中具有优势。
+
+* * *
+
+  
+
+【本文特别声明】
+
+本文中对文献的解读与评述仅为学术探讨，不代表原论文作者及其机构的观点。文中引用的论文插图/图表仅为评论、说明之目的，属于在学术交流中的“合理使用”，其版权均归属于原出版方及原作者所有。我们已尽最大努力标注原始出处。如果您是版权所有者且认为存在侵权，请与我们联系，我们将立即删除。我们强烈建议读者阅读原文以获取最完整准确的信息（可点击左下角“阅读原文”跳转）。\[原文DOI链接：https://doi.org/10.1038/s41377-024-01659-z\]

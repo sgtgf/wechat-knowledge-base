@@ -1,3 +1,8 @@
+# GCC、CMake、CMakelist、Make、Makefile、Ninja啥关系？一图讲透！
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/Oku6-xmRzy\_BrNEzZ-8jSw](https://mp.weixin.qq.com/s/Oku6-xmRzy_BrNEzZ-8jSw)
+
 **一、GCC的诞生！**
 
     1985年，一个伸手不见五指的黑夜，一位满脸胡须、五短身材、头发长乱的怪人开始编写一套C语言编译器。这个怪人后来被称作“最伟大的程序员”、“自由软件之父”，他就是 Richard Stallman。经过2年时间没日没夜的苦练，胡须更长、头发更乱的Richard Stallman完成了C语言编译器初版，称之为GNU C Complier，也就是现在大名鼎鼎GCC的来源。后来GCC快速发展，现在GCC除了能编译C语言，还能编译C++、Fortran、Pascal、Objective-C、Java以及Ada 等语言。上世纪80、90年代，个人计算机CPU频率、硬盘大小、内存大小都是以MB为单位，甚至KB为单位，需要编译的程序文件个数较少，用GCC命令也足以应对。
@@ -10,6 +15,7 @@
 
 **三、新的麻烦又出现了！（Cmake & CMakelist）**
 
+![](https://mmbiz.qpic.cn/mmbiz_png/q9QQ6Djib2Qsk9EcrIX4ec0EP1ia6sAYZGfsWGUpDq9qQrYJR56I08hGiaMec3iaV4jGQKt9bbWlGCVwydQvbcnSKA/640?wx_fmt=png)
 
     makefile在一些简单的工程下，完全可以人工手写，但是当工程非常大的时候，手写makefile也是非常麻烦。而且陆陆续续出现了各种不同平台的makefile，有GNU make、QT 的 qmake，微软的 MSnmake，BSD Make（pmake），Makepp等等。这些 Make 工具遵循着不同的规范和标准，所执行的 Makefile 格式也千差万别。这样就带来了一个严峻的问题：如果软件想跨平台，必须要保证能够在不同平台编译。而如果使用上面的 Make 工具，就得为每一种标准写一次 Makefile ，这将是一件让人抓狂的工作，如果换了个平台makefile又要重新修改。
 
@@ -25,5 +31,18 @@
 
     Cmake可以生成 .ninja 和.makefile 的工具。因为担心很多人不熟悉makefile文件和ninja文件的写法，所以cmake只需要用户通过对源码文件的简单描述（就是CMakeLists.txt文件），就能自动生成一个project的makefile文件或者ninja文件，然后就可以通过ninja或者make进行启动编译了。
 
+![](https://mmbiz.qpic.cn/mmbiz_png/q9QQ6Djib2Qsk9EcrIX4ec0EP1ia6sAYZGNuAFJhSRKx85hdLaCMN3YaP9zHQMP59rqUQM2yBDabjzKAzkjG10Vg/640?wx_fmt=png)
 
 **人类就是在解决一个又一个麻烦中进步的！**
+
+GCC、Make的作者Richard Stallman被称为最伟大的程序员、自由软件之父，推荐阅读如下文章。
+
+**[自由软件之“父”——Richard. M. Stallman](http://mp.weixin.qq.com/s?__biz=MzAxMDM1Mzg5NA==&mid=2247483931&idx=1&sn=10d7d8bb7a393bb59ff47854df0fb2bc&chksm=9b50ef92ac276684e1468c6e2bbef9366e02889f99d00df0ccea4a96eba1180390ddda969c07&scene=21#wechat_redirect)**
+
+* * *
+
+* * *
+
+**声明：**  
+
+本号原创、转载的文章、图片等版权归原作者所有，如有侵权，请联系删除。

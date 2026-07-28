@@ -1,0 +1,114 @@
+# LLM从入门到放弃：梯度下降法
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/fb3fR0BewQ\_QJUiab9JJUA](https://mp.weixin.qq.com/s/fb3fR0BewQ_QJUiab9JJUA)
+
+#### 1\. 问题定义
+
+深度学习和大语言模型的优化问题，本质上是**通过调整模型参数以最小化损失函数**的过程，其核心是数学优化理论与神经网络特性的结合。 设目标函数为  ，其中  为待优化参数。目标是找到  使得：
+
+#### 2\. 梯度下降法的思路
+
+以两个变量的目标函数为例，已知目标函数 ，怎样求使得函数取得最小值时的、 ，根据微积分知识，函数  取得最小值的必要条件是
+
+但在实际问题中，多个偏导数的联立方程式不容易求解，梯度下降法是一种具有代表性的替代方法，该方法不直接求解式  的方程，而是通过慢慢移动图像上的点进行摸索，从而找出函数的最小值。
+
+ 比较直观的解释是，我们把图像看作斜坡，在斜坡上的点 P 处放一个乒乓球，然后轻轻地松开手，球会沿着最陡的坡面 开始滚动，待球稍微前进一点后，把球止住，然后从止住的位置再次松 手，乒乓球会从这个点再次沿着最陡的坡面开始滚动。
+
+这个操作反复进行若干次后，乒乓球沿着最短的路径到达了图像的底部，也就是函数的最小值点。梯度下降法就模拟了这个球的移动过程。
+
+![image.png](https://mmbiz.qpic.cn/mmbiz_png/Oed3sd2oUsXQtgSTY1HuOjabSuvr1MXEnQib1Wol1ntmzXxtWKjWFRMYa2VbHlleW0f70PcnoztAkjwhrXQQPvmwCztkBw4evtkrKGZRoWYI/640?wx_fmt=png&from=appmsg)
+
+image.png
+
+在应用梯度下降法时，需要用到多变量的近似公式，下面是近似函数的推导过程。
+
+#### 3\. 函数的近似公式
+
+首先我们来看单变量函数求导公式：
+
+由于  无线趋近于 0，因此下式近似成立
+
+公式  变形为
+
+扩展到两个变量的函数，有以下近似公式
+
+我们定义
+
+公式  可变为
+
+于是我们得到了函数  的近似公式。
+
+#### 4\. 梯度下降法的数学表示
+
+按照前面的思路将梯度下降法用数学公式表述，在函数 中，当  改变 ， 改变 时， 的变化值为
+
+根据前面的近似公式 ，以下关系成立
+
+该式可以表示为两个向量的内积形式，这个内积关系，就是梯度下降法的出发点。
+
+#### 5\. 确定更新方向
+
+当两个向量方向相反时，向量内积  取最小值
+
+为正数
+
+可推出当满足以下关系式， 达到最小，即   减小得最快
+
+当有n个变量，用哈密顿算子可表示为
+
+其中  为学习率（步长）。
+
+#### 6\. 参数更新公式
+
+将更新方向代入，得到梯度下降法的迭代公式：
+
+-   直观解释 ：沿负梯度方向移动一步，步长由  控制。
+    
+
+#### 7\. 关键数学性质
+
+-   **梯度方向的最速下降性** ：负梯度方向是局部下降最快的方向。
+    
+-   **收敛性** ：在适当的学习率下，算法能收敛到局部最小值或鞍点。
+    
+-   **学习率的影响** ： 过大会导致震荡或发散； 过小会导致收敛缓慢。
+    
+
+除了上述方式，梯度下降法也可通过泰勒展开式进行数学推导。
+
+#### 8\. 代码示例
+
+下面用代码实现梯度下降，简单起见，我们选用目标函数  。
+
+```
+%matplotlib inlineimport numpy as npimport torchfrom d2l import torch as d2ldef f(x):  # 目标函数    return x ** 2def f_grad(x):  # 目标函数的梯度(导数)    return 2 * x
+```
+
+我们使用  作为初始值，假设  ，使用梯度下降法迭代10次， 的值最终将接近最优解
+
+```
+def gd(eta, f_grad):    x = 10.0    results = [x]    for i in range(10):        x -= eta * f_grad(x)        results.append(float(x))    print(f'epoch 10, x: {x:f}')    return resultsresults = gd(0.2, f_grad)
+```
+
+对  的优化过程可以绘制如下
+
+```
+def show_trace(results, f):    n = max(abs(min(results)), abs(max(results)))    f_line = torch.arange(-n, n, 0.01)    d2l.set_figsize()    d2l.plot([f_line, results], [[f(x) for x in f_line], [        f(x) for x in results]], 'x', 'f(x)', fmts=['-', '-o'])show_trace(results, f)
+```
+
+![image.png#pic_center](https://mmbiz.qpic.cn/mmbiz_png/Oed3sd2oUsVWKGt5uWjATJF90RIXCW5Hrvn2uCn4ZR6rsyAI9jooFqKIESrmvK2elbvhHgGcia1WPvmQrc4NdwFlK0CLcn8TDnzJNdNK6D9Q/640?wx_fmt=png&from=appmsg)
+
+image.png#pic\_center
+
+##### 参考文献
+
+李沐《动手学深度学习》 
+
+涌井良幸，涌井贞美《深度学习的数学》
+
+  
+
+* * *
+
+你有什么好的学习资源或者踩过的坑？欢迎留言分享。如果觉得这篇对你有帮助，记得点赞、关注、转发给同样想学 AI 的朋友。

@@ -1,3 +1,8 @@
+# 有限元编程调试 (debug) 技巧
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/mmdFi3715qhGtx3EErt1Sw](https://mp.weixin.qq.com/s/mmdFi3715qhGtx3EErt1Sw)
+
 开发 1 小时，调试 2 星期。可以说，**会不会 debug，懂不懂 debug 的技巧，是有没有入门编程的重要标志**。这里简单介绍一些使用 FEtch 系统开发有限元程序的调试技巧，希望能对刚开始学习有限元编程的朋友有所帮助。
 
 ## 善于使用编辑器
@@ -25,6 +30,7 @@
 
 此外，Notepad++ 还有大量的插件可供选择安装。有人评价说，几乎你能想到的处理文本的方法都可以用 Notepad++ 来实现。其他的更多的功能就需要靠大家自己来挖掘了。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWWrM1x0rBJv8IKeb5C67FJ18iaD4lK6rcXibwGzBpdA9aKG0MqZ0YoENL7vLqoVAHGuNHcaKKT0E5A/640?wx_fmt=jpeg&from=appmsg)
 
 ## 学会看报错信息
 
@@ -101,6 +107,7 @@ dat 文件具体内容主要包括以下 5 部分：
 
   
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 FEtch 系统是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

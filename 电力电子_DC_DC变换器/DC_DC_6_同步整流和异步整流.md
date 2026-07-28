@@ -1,0 +1,81 @@
+# DC-DC-6：同步整流和异步整流
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/mNS7tM6VqH9IlSzFwxMZxw](https://mp.weixin.qq.com/s/mNS7tM6VqH9IlSzFwxMZxw)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQ8yYUsbES302NNOVdVFLftCicGDPUiaWSjbGo2xpGXTwCVcZUYicWwibruPOfbhvPoAYPLZUbFLQdDoQ/640?wx_fmt=png)
+
+__**_★★★_**____**_DC-DC-6---同步整流和异步整流_**____**_★★★_**__
+
+_€1.同步和异步整流_
+
+同步：同步整流是采用导通电阻极低的专用功率MOS，来取代整流二极管以降低整流损耗。它能大大提高DC-DC变换器的效率并且不存在由肖特基势垒电压而造成的死区电压。功率MOS属于电压控制型器件，它在导通时的伏安特性呈线性关系。用功率MOS做整流器时，要求栅极电压必须与被整流电压的相位保持同步（本质是直流转“交流”，“交流”再平滑为直流）才能完成整流功能，故称之为同步整流。
+
+异步：只有一个MOS管（或者说开关管）续流元件是二极管这种类型就属于异步整流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQFvRpJnQUYmo6JbKgDGOWYJJmDUXc3ShzGj82RMasZicFPNmHls3t91JVDC7W1WbEcwpCzqWe8yibg/640?wx_fmt=png)
+
+**_图6-1：异步降压和同步降压_**
+
+在应用中上下管都是MOS管就是同步的，只有一个上管的开关的就是非同步的，在主功率那一级中的功率开关管是我们常见的晶体管，而续流二极管变成了开关管，那么这个开关管就叫同步场效应管。一个栅极半桥驱动控制器，外围加上上下两个DrMOS管，那么上管就是功率管，下管是同步的场效应管，如此就可以看出它是一个同步结构的Buck电路。
+
+_€2.同异步整流的区别_
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQFvRpJnQUYmo6JbKgDGOWYiaRWtwJ1dsGOQHNpMmcroTkbKpnSdFtFqrVWRtjq0Hv0l1sLjO5rgPw/640?wx_fmt=png)
+
+**_图5-2：同步和异步整流电流路径_**
+
+对于异步整流，当降压比高时，续流二极管的导通时间长，而如果Vout低，整体损耗比例会因为续流二极管的VF而变大。并且电流通过二极管只朝一个方向流动，成为不连续工作产生振铃。对于同步整流，轻负载时，电感电流有时会变为0A，电流可以通过MOS逆流，以维持并稳定连续工作。
+
+如下_**图5-3**_是异步降压型，当输入电压为5V，输出电压为1V，振荡频率为1MHZ，不连续工作时的波形图：电流通过二极管只朝一个方向流动，成为不连续工作产生振铃。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQ44Y1K3xia1r8JZhsd2oBpGkwLZzdV04QQ0nGdRnyY81PIXKQ5EE2uDEYBFnficfZXbmicDKy28sHVw/640?wx_fmt=png)
+
+**_图5-3：异步产生的振铃现象_**  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQFvRpJnQUYmo6JbKgDGOWYabAx8sV1vz8MVSprwxnY43EibcP2PmVLnYpm5FhkQCnylohTT4zic8ww/640?wx_fmt=png)
+
+**_图5-4：同异步电流Id_**  
+
+异步整流的损耗=VF×Iout×（1-ON Duty）  
+
+同步整流ON时的损耗=Iout²×Ron×（1-ON Duty）；Ron：下管SW的导通电阻
+
+假设Vin=5V，Vout=1V，Iout=2A，那么异步整流二极管的损耗为：P=0.5×2×（1-0.2）=0.8W，同步整流MOS的损耗为P=2×2×0.05×（1-0.2）=0.16W，可见电流越大，损耗差别越大。
+
+_€3.同异整流的死区_
+
+为避免同步整流时上管和下管同时打开，二者中间需要一段死区时间（安全区），死区时间越长，电源工作更加安全可靠，但会带来Vout和Iout的波动及降低输出效率，_**图5-5**_简单示意了一下死区的含义，集成DC-DC死区参数已经设计好，这里不仔细展开。真正的死区时间受到PWM的上升下降快慢，上下管的寄生电容、开启关闭时间等等的影响，这一点在栅极驱动系列里面会详细讲到。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQ44Y1K3xia1r8JZhsd2oBpGYtg1DrWJ4EPo6bVjQhLVuz2wgqEjZmNhS4ojic9Xm2MbIgrHt1Khw0Q/640?wx_fmt=png)
+
+**_图5-5：死区时间_**  
+
+MOS中有寄生体二极管，因此当MOS为OFF时，电流仍可通过体二极管流动，如果没有死区时间，上下MOS将同时导通产生贯通电流（_**图5-6**_），贯通电流超过MOS的Ismax，或者没有超过Ismax，但持续时间过长也会热损伤烧坏MOS。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQ44Y1K3xia1r8JZhsd2oBpGNHKzoCmcyFQtqRn6ib1FR174hHrDUhgiaGIawEIsL1YWuzlrCj5vwopQ/640?wx_fmt=png)
+
+**_图5-6：贯穿电流_**  
+
+_€4.小结：_
+
+异步的优缺点：
+
+-   在输出电流变化的情况下，二极管的电压降相当恒定，当续流二极管正向导通时，输出电流变化，二极管的正向压降是恒定不变的，锗管的压降为0.2-0.3V,硅管的压降为0.7V。
+    
+-   因为二极管的电压降恒定，所以当流过二极管的电流很大的时候，原本在二极管上很小的电压再乘以电流损耗就会比较大，输出的电压很低的时候，这时候的二极管的小电压降就占了很大的比重，所以在大电流的时候效率就会降低。
+    
+-   在输入电压比较高的时候使用可以，因为在输出电压高时，二极管的正向导通压降所占的比重很小，对效率的影响比较低，而且它的电路结构比较简单，不需要外加控制电路。
+    
+
+异步的优缺点：
+
+-   在MOS的参数中一个很重要的参数是MOS的导通电阻Rdson ，一般情况MOS的导通电阻Rdson非常小，一般为毫欧级别，所以MOS在导通之后的压降比较低。
+    
+-   在相同的条件下，一般的MOS管的导通电压降远远小于普通肖特基二极管的正向导通压降的，所以在电流不变的情况下，MOS管的损耗功率远远比二极管小，所以使用MOS管的效率会比使用二极管的效率高
+    
+-   MOS管需要驱动电路，同步整流需要为MOS管额外添加一个控制电路，使得上下两个MOS管能够同步，而非同步的二极管是自然整流的，不需要额外添加驱动控制电路，所以对于非同步，同步的电路会复杂一些。
+    
+-   MOS管不是理想的开关，它有开通时间和关断时间，如果上下两个管子的死区时间没有控制好，使上管的关断时间和下管的开通时间有重叠，造成直通现象，那么MOS管就会因电流过大而损坏，如果集成了上下管，这些就不需要担心的太多。

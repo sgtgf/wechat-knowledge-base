@@ -1,0 +1,197 @@
+# 综述系列 I 中国科学院电工研究所宁圃奇研究员：永磁同步电机定子温度监测的研究方法综述
+
+原创 CES TEMS编辑部 CES电机与系统学报 2026-02-02 07:00 北京
+
+> 原文地址: [https://mp.weixin.qq.com/s/yZLdKoXhwSgi\_vATkMwqkw](https://mp.weixin.qq.com/s/yZLdKoXhwSgi_vATkMwqkw)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+
+**永磁同步电机定子温度监测的研究方法综述**
+
+Songze Zhao; Puqi Ning\*; Tao Fan; Xiaoshuang Hui; Qibiao Shi  
+
+Chinese Academy of Sciences,  Beijing, China
+
+University of Chinese Academy of Sciences, Beijing, China
+
+**■**[在线阅读](https://ieeexplore.ieee.org/document/11322838)   ****■****[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11322838)
+
+S. Zhao, P. Ning, T. Fan, X. Hui and Q. Shi, "A Review of Research Methods for Stator Temperature Monitoring in PMSM," in CES Transactions on Electrical Machines and Systems, Vol. 9, No. 4, pp. 407-421, December 2025, DOI: 10.30941/CESTEMS.2025.00037.
+
+**1**
+
+**亮点**
+
+在分类逻辑方面，不仅涵盖了四种主流技术类别，且搭建了更具层次的技术框架，如进一步将基于热模型的方法中的集中参数热网络（LPTN）细分为白盒、灰盒和深灰盒模型。  
+
+在内容覆盖方面，强调了交叉整合，如数据驱动算法与 LPTN 参数识别的结合，有限元分析（FEA）与计算流体动力学（CFD）在热模拟中的耦合，并补充了诸如温度估计的数据驱动算法等领域最新的研究进展。
+
+**2**
+
+**内容**
+
+**2.1 基于传感器的监测方法**
+
+-   从接触式、非接触式两个角度，介绍了热电偶、热电阻、光纤光栅传感器，以及红外热成像与辐射传感器等器件的优缺点，分析适用场景与局限性。
+    
+
+**2.2** 基于热模型的估计方法
+
+-   基于FEA与CFD的热建模与仿真，分析其优势与计算瓶颈。
+    
+-   以LPTN为典型代表的温度估计，通过将LPTN归纳为白箱与灰箱模型，并进一步将灰箱模型划分为浅层和深层模型，深入分析了不同模型的特点与应用场景。
+    
+-   对比与LPTN的适用场景与局限性。
+    
+
+**2.3** 基于电模型的温度估计方法
+
+-   基于非侵入式观测器的方法。介绍了状态观测器、自适应观测器，分析模型不确定性与外部干扰对精度的影响。
+    
+-   基于信号注入的方法。介绍直流、高频注入等技术，分析其对电机运行的干扰。
+    
+
+**2.4 基于数据驱动算法的温度估计方法**
+
+-   介绍机器学习与深度学习在温度估计中的应用，分析各类算法的优缺点（如ET、RF、MLP、BP神经网络等），讨论了其在热参数辨识与电参数辨识中的应用。
+    
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178tUoUJ7W5S45SlKpySCSwwsXWEr3mDIsVhcMz111tZP465blIQNWLqkRu8iaLgvljjdm906UwqlrA/640?wx_fmt=png&from=appmsg)
+
+**3**
+
+**思考**
+
+当前研究的局限性
+
+-   基于传感器方法的设计成本、制造成本、抗扰与集成问题的解决。
+    
+-   热模型方法的实时反馈，及局部热点和整体温度捕捉。
+    
+-   电模型方法的模型精度与注入干扰。
+    
+-   平均温度监测导致的准确性欠佳。
+    
+-   数据驱动方法的泛化适用、模型“老化”与计算成本。
+    
+
+  
+
+未来展望
+
+-   高精度传感器及协作监测，高精度监测电路以及空间布局优化。
+    
+-   基于多节点配置与节点优化的2D 及3D热模型。
+    
+-   包含注入幅度、时机和间隔等的信号注入策略优化。
+    
+-   多方法协同与数据融合。
+    
+-   数据驱动算法中的模型在线更新与轻量化发展。
+    
+
+**4**
+
+**团队介绍**
+
+中国科学院电工研究所高功率密度电气驱动及电动汽车技术研究部成立于1997年，是中科院“电力电子与电气驱动重点实验室”的重要组成部分，主要研究方向为电力电子与电力传动，定位于高功率密度发电/驱动系统技术及其在电动汽车等电气化交通工具中的应用，涉及高功率密度发电、高功率密度电力电子集成、特种电机和功率模块封装技术。
+
+研究部承担并完成了数十项国家、地方的电动汽车相关重要科技攻关任务，在我国新能源汽车电机驱动研究领域处于领先地位，在国内外具有重要影响。自“九五”以来，在国内率先开展了车用高功率密度电机驱动的基础理论和关键技术开发，主持研发了我国第一台电动轿车用数字化交流电机驱动系统、第一套燃料电池轻型客车用电-电混合能源动力系统，所研发的高性能永磁电机和驱动系统关键技术应用于2008年北京奥运示范、2010年上海世博会示范、“十城千辆”示范和新能源汽车推广，产生了良好的社会和经济效益，累计发表文章400余篇、申请专利71项，获得2012年度中国电工技术学会科学技术一等奖和中国电源学会技术发明奖一等奖等奖励。
+
+研究部与新能源车行业同步成长，在电动汽车电驱动技术发展方面起到了引领作用。“十三五”期间，研究部带领国内一流大学、龙头企业等合作团队，获得国家重点研发计划支持，针对SiC器件及其在电动汽车的应用开展多学科联合攻关。代表性成果包括：建立了“高频场控功率器件及装置产品质量检验中心”，是目前国内首个可进行大功率半导体产品检测并获得CNAS认证的检测机构；成立了“电驱动系统大功率电力电子器件封装技术北京市工程实验室”，在2016年验收时获得“优秀”评价。经过十年努力研制出的飞轮发电机及控制器产品参加了国庆70周年庆祝活动。研发出国内功率密度最高的全SiC电机驱动控制器样机（37kW/L），在2019年世界新能源汽车大会上被评为全球新能源汽车十大前沿技术之一。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178tUoUJ7W5S45SlKpySCSwwLRDOdfxGA0bTlESZUz4x2kzCxOBABVX1jq1x0NJWDKFhQPQ0gzSsDA/640?wx_fmt=png&from=appmsg)
+
+**5**
+
+**作者介绍**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178tUoUJ7W5S45SlKpySCSwwHPQbBcRCTFFXZwNLVQQgTNsQvIeqqXpeI5lFPsa3jGjn1QcrW9QUPg/640?wx_fmt=gif&from=appmsg)
+
+**赵松泽**，于2022年获得燕山大学自动化专业学士学位。他目前正在中国科学院电气工程研究所攻读博士学位。他目前的研究兴趣包括高密度永磁同步电机定子和转子的温度监测和健康管理。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178tUoUJ7W5S45SlKpySCSww2B4fl2CghibbCqXpxpSSQ5WQ12eWLqOZiaf1QDQzaWKRHg48UVcpUrbQ/640?wx_fmt=gif&from=appmsg)
+
+**宁圃奇（Senior Member, IEEE）**，于2010年获得美国弗吉尼亚州布莱克斯堡弗吉尼亚理工学院和州立大学电气工程博士学位。他目前在中国科学院电气工程研究所担任正教授。他目前的研究兴趣包括高温封装和高密度转换器设计。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178tUoUJ7W5S45SlKpySCSwwNVWaHEKHPLrLw4NxPJmVdeOorWKLPmOOGLTed0lj8vTmzuiblvwPyMg/640?wx_fmt=gif&from=appmsg)
+
+**范涛（Senior Member, IEEE）**，于2004年获得清华大学电气工程学士学位，并于2006年和2009年分别获得中国科学院研究生院电气工程硕士和博士学位。2009年至2011年，他在中国科学院电气工程研究所担任助理教授，2011年成为副教授，2017年成为教授。他的研究兴趣包括特殊电机、大型发电和大功率电力推进系统的设计和分析。
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178tUoUJ7W5S45SlKpySCSww6G1jkS3qkz5Jquz6D9YRXo0Ib2ekG6ABYqVOVXmJteFyUp2q1rC6pw/640?wx_fmt=gif&from=appmsg)
+
+**回晓双**，于2021年获得中国民航大学电气工程学士学位。他目前正在中国科学院电气工程研究所攻读博士学位。他目前的研究兴趣包括功率模块的设计和测试以及高功率密度电机驱动系统的集成优化。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ178tUoUJ7W5S45SlKpySCSwwf5Cys0lPnEMPM8c2OictiahgmtTG3WsU4ZCPrNm4WWLzV9y9GlwGrKug/640?wx_fmt=gif&from=appmsg)
+
+**施其彪**，于2012年获得湘潭大学自动化学士学位，2015年获得中国科学院大学电气工程硕士学位。2015年至2021年，他在中国科学院电气工程研究所担任工程师，目前正在攻读电气工程博士学位。他的研究兴趣包括电机和电机驱动器的预测和健康管理系统。
+
+★
+
+《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+  
+
+**中国电工技术学会**
+
+**新媒体平台**
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+学会官方微信
+
+电工技术学报
+
+CES电气
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+学会官方B站
+
+CES TEMS
+
+今日头条号
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+学会科普微信
+
+新浪微博
+
+抖音号

@@ -1,5 +1,13 @@
+# 现代 Fortran 的推荐范式：从混乱走向规范
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/PXdha12ZvK3Jvb8r-lOMbA](https://mp.weixin.qq.com/s/PXdha12ZvK3Jvb8r-lOMbA)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVXkszTAU2XWHdU0FE9cibs9dt9GsJA7gZkOA8jojfUlONf2TTgU5VctDMoxjpdxwvicBCg02E4qIu6Q/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
 Fortran（Formula Translation）作为世界上最早出现的高级编程语言之一，自1957年诞生以来，已经走过了近七十年的历程。它曾是科学计算领域的绝对霸主，如今虽不再如当年那般显赫，但在高性能计算、量子化学、材料模拟、气候建模等核心科研领域，依然占据着不可替代的地位。然而，Fortran 的悠久历史也带来了一个显著的问题：**语言范式的割裂与混乱**。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVlsEsPAdyyibhrmKQUY1Rd90xt2Zhn3BskxkcZ7Ywr5khN3PpJz3pyknNX7lWTFKGB5wR7mojiaZMQ/640?wx_fmt=png&from=appmsg)
 
 在 Fortran 77 时代，代码以固定格式书写，大量使用 `GOTO`、`COMMON` 块和隐式类型声明，虽然高效且节省内存，但可读性极差，几乎无法进行现代意义上的软件工程管理。而 Fortran 90 标准的发布，则是一场革命性的变革，引入了模块（`module`）、自由格式、动态内存分配、数组操作等现代特性，使 Fortran 开始向结构化、模块化、面向对象（F2003 起）的方向演进。
 
@@ -149,11 +157,13 @@ Fortran 并非一门垂死的语言。恰恰相反，凭借其在数值计算领
 现代Fortran探索之旅 | Module模块
 
 
+
 ](https://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247484413&idx=1&sn=bc6a2c9ab33e140df5e10f3604588fc0&scene=21#wechat_redirect)
 
 [
 
 现代Fortran探索之旅 | Subroutine 和 Function
+
 
 
 ](https://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247484411&idx=1&sn=c53aebec720214dd71110dcf1bd331b7&scene=21#wechat_redirect)
@@ -163,6 +173,33 @@ Fortran 并非一门垂死的语言。恰恰相反，凭借其在数值计算领
 神奇的Namelist：在Fortran中轻松实现灵活的外部数据交互
 
 
+
 ](https://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247484797&idx=1&sn=15a251aac411e78b720163b6863a8288&scene=21#wechat_redirect)
 
-##
+##   
+
+## 推荐阅读
+
+  
+
+  
+
+  
+
+‍
+
+  
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.2312854885901674)
+
+**闲鱼小店已上新，欢迎新老粉丝关注和咨询![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/assets/Expression/Expression_64@2x.png)**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXGjL9AskORRpMqtYibGichN8pF8NLWtOVar1b39x9cI4dKNg7lISX1MibBa1HRECAY9bClZrLWuRLUA/640?wx_fmt=jpeg&from=appmsg)
+
+**喜欢****作者******，请点********赞********和在看******![](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6459285066781566&random=0.9039664113437702&random=0.10616299980642463&random=0.37943585876598473&random=0.7246305284075434&random=0.1820491079508062&random=0.3136645327514245&random=0.8290227030922905&tp=webp)**
+
+**![](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.90499299240585&random=0.7427014598159356&random=0.6203706698189717&random=0.17266143983420013&random=0.4502076552242009&random=0.3348111146987862&random=0.5857982594073723&random=0.5924137199896844&tp=webp)**

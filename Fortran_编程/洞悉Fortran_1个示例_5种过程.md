@@ -1,3 +1,8 @@
+# 洞悉Fortran：1个示例，5种过程
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/cs-P1ItCBTRYXuNIU1EU6A](https://mp.weixin.qq.com/s/cs-P1ItCBTRYXuNIU1EU6A)
+
 在编程的世界里，Fortran语言以其在科学计算和数值分析领域的卓越性能而闻名。了解Fortran中的不同过程类型对于编写高效、可读性强的代码至关重要。本文将深入探讨Fortran中的5种过程类型：外部过程、模块过程、内部过程、内置过程和虚拟过程，并通过一个综合性的示例程序来具体展示它们是如何工作的。
 
   
@@ -40,6 +45,7 @@ interface  [interface_body]end interface
 
 关于过程接口的具体阐述，可以参考下面的这篇博文：
 
+[深入浅出Fortran过程接口：确保代码安全与有效交互的关键](http://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247484605&idx=1&sn=121c23968804b120a463966aa5515aaf&chksm=c33790c7f44019d12a482c3df09dde9ab741dbb63fa546a1639fcb910d34ff5d020deedfb4d2&scene=21#wechat_redirect)
 
 ## 示例程序
 
@@ -93,6 +99,7 @@ interface  [interface_body]end interface
 
   
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

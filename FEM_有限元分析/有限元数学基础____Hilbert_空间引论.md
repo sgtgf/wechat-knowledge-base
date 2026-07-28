@@ -1,3 +1,8 @@
+# 有限元数学基础 —— Hilbert 空间引论
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/fZJXnUpffu-UEAL7PwQJkw](https://mp.weixin.qq.com/s/fZJXnUpffu-UEAL7PwQJkw)
+
 ## 几何学历史回溯unsetunset
 
 几何学有着光荣的历史。从尼罗河流域的土地测量和古埃及的纸草卷开始，在世界的几百种文明中，许多民族都有自己粗陋的几何，然而只有希腊人把它提高到了理论的高度。
@@ -16,6 +21,7 @@ Fermat 和 Descartes 创立了解析几何学，把代数和几何联系起来�
 
 无穷维空间是 Euclid 空间的推广，许多分析的结果都可以在无穷维空间中得到解释。下面我们用几何类比的方法将分析结果赋予几何意义：
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXiafCQMMpcOa5nUnsFRR69oMwOB5B8wbtKIFFr5BsTu09pbOE7nEurQTVOnBr36rwiciaiccFT1qXgrw/640?wx_fmt=png&from=appmsg)
 
 通过这种类比给函数定义长度、距离和内积，并把这样得到的带有长度和内积的在 上平方可积的函数的集合叫做 空间，记以 。
 
@@ -59,6 +65,7 @@ Fourier 级数仅仅是标准正交系 的特殊例子。 还可以取成 Bessel
 
 则有 ， 或者 。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXiafCQMMpcOa5nUnsFRR69oy1htE69v0xsmgbuwhmIlAMVRxt4WVpdFBaCpSPbwrS5X4iaHCV3icu7g/640?wx_fmt=png&from=appmsg)
 
 类似地，如果 是 中的标准正交系，那么   的线性组合构成 中的一个有限维子空间，记这个空间为 。假设 不是 中的函数，在 中求距 最近的点就相当于选择常数 使得  最小。，，亦即 恰是 的 Fourier 系数。
 
@@ -78,6 +85,7 @@ Fourier 级数仅仅是标准正交系 的特殊例子。 还可以取成 Bessel
 
 \[1\]张鸿庆,王鸣.有限元的数学理论\[M\].科学出版社,1991.
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 FEtch 系统是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

@@ -1,0 +1,68 @@
+# Antenna-10：天线效率
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/YLWKLpe8yS7BMXRlwe-pnw](https://mp.weixin.qq.com/s/YLWKLpe8yS7BMXRlwe-pnw)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT1rrC9JLAcibicwbxZGdFRNQ28ZKTgv3icvJTkuTqFOMgP7ibbCdDWqDyUWHzCXf6pKjhNvdiaNsO6bew/640?wx_fmt=png&from=appmsg)
+
+★★★__Antenna-10---天线效率____**★★★**__
+
+引言：天线效率是衡量天线性能的一个重要指标，它反映了天线将输入的电功率转换为辐射出去的电磁波功率的能力，本节将详细介绍天线效率的定义。
+
+___€1.天线效率的定义和计算___
+
+由于天线系统中存在导体损耗、介质损耗等，因此实际辐射到空间内的电磁波功率要比发射机输送到天线的功率小。天线效率就是表征天线将输人高频能量转换为无线电波能量的有效程度，定义为天线辐射功率和输人功率的比值。假设分别用Pin和Prad表示天线的输人功率和辐射功率，天线效率通常定义为天线辐射功率与输入到天线的总功率之比，用百分比或小数表示，其计算公式为：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQnpibkjHIjpicyMqq8QVB6iaY1hkvqhjWbCRiafYKm5kejz0KrxMvOZnGed77bUQPfuUoIECb8f7EwGw/640?wx_fmt=png&from=appmsg)  
+
+其中η为天线效率，Prad为天线辐射出去的功率，Pin为输入到天线的总功率。输入功率包括辐射功率和天线自身损耗的功率：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQnpibkjHIjpicyMqq8QVB6iaYSyT5MUXLNJySzsrqn65jiaOiafhiardz1Tx22dOgnaEWhW7iaIgS9H5kww/640?wx_fmt=png&from=appmsg)
+
+所以天线效率也可以表示为：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQnpibkjHIjpicyMqq8QVB6iaYSh5zOMc2XEgAfzpL7tHk5ekfjdwXBic4qXJhuiahR1JXgb5JvGX3BPTA/640?wx_fmt=png&from=appmsg)
+
+当效率引用dB作为单位时：（[RF 术语与概念-1：单位初识-1](https://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247495050&idx=1&sn=242bc93b7c0d2ea22f7b8014e3063e66&scene=21#wechat_redirect)）
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQnpibkjHIjpicyMqq8QVB6iaYUxOC94S2CSDf7ndrntmvPtUltZcjbpyBRTKpOP2xLMWVBL4WRBFicTg/640?wx_fmt=png&from=appmsg)
+
+所以天线效率dB单位和百分比η单位换算如下：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQnpibkjHIjpicyMqq8QVB6iaYhDFWHEyD6GXj2IlxHuibLksGJpzwoPlNeTHZXpxdnbibMRSt5GcEvXtQ/640?wx_fmt=png&from=appmsg)
+
+当天线效率为100%时，等效效率0dB，当天线效率为1%时，等效效率-20dB，也就是说天线效率用dB衡量时，是一个负数，越接近0dB，天线效率越高。如图10-1所示，天线本身是一个频率响应器件，所以在不同的频点（频段），其辐射效率也不同，甚至差异颇大。  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQnpibkjHIjpicyMqq8QVB6iaYFbpEmOwdMAMTXI0XS4bC7rpynDLgD15yKW8IJZslTI9X2jgXWzfbzw/640?wx_fmt=png&from=appmsg)
+
+**_图10-1：天线效率仿真图值_**  
+
+单体天线效率最差仿真结果约为-2.5dB@2.44GHz ，考虑到馈电网络（包含同轴线缆、连接器、焊接点、PCB走线）损耗约1dB ，则整个天线效率：
+
+1#：-3.5dB(44.6%)@2.44GHz
+
+2#：-1.3dB(74.1%)@5.2GHz
+
+3#：-2.1dB(61.7%)@5.8GHz
+
+### ______€2.___影响因素___
+
+1#：天线类型，不同类型的天线具有不同的结构和工作原理，这会直接影响其效率。例如一些简单的偶极子天线结构相对简单，效率可能在一定范围内；而一些复杂的阵列天线通过精心设计和优化，可以实现较高的效率。
+
+2#：材料特性，天线所使用的材料，如导体材料的电导率、介质材料的介电常数和损耗角正切等，对天线效率有重要影响。高电导率的导体材料可以减少电阻损耗，低损耗的介质材料可以降低介质损耗，从而提高天线效率。
+
+3#：工作频率，天线的效率通常会随工作频率而变化。在某些频率下，天线可能会发生谐振，此时辐射效率较高，而在其他频率上，可能会出现失配等情况，导致效率下降。
+
+4#：天线尺寸和形状，合理设计天线的尺寸和形状可以提高其效率。天线的长度、宽度、厚度等尺寸参数以及天线的外形结构（如是否为对称结构等）都会影响电流分布和电磁场分布，进而影响辐射效率。
+
+5#：周围环境，天线周围的环境，如是否有金属物体、介质物体等，也会对天线效率产生影响。这些物体可能会引起反射、散射等现象，改变天线的辐射方向图和阻抗特性，从而降低天线效率。
+
+### ______€3.___提高方法___
+
+1#：优化天线设计，通过精确的电磁仿真和理论分析，设计出符合特定应用需求的天线结构和尺寸，使其在工作频率上实现良好的阻抗匹配和辐射特性，从而提高效率。
+
+2#：选择合适材料，选用电导率高的金属材料作为天线导体，如铜、铝等；对于介质材料，选择介电常数合适且损耗低的材料，以减少损耗，提高效率。
+
+3#：减少损耗，在天线制造过程中，确保工艺精度，减少导体的表面粗糙度，降低电阻损耗，同时合理设计天线的馈电网络，减少馈电损耗。
+
+4#：调整工作环境，尽量避免天线周围存在对其性能有不良影响的物体，或者通过合理布局和使用吸波材料等方法，减少周围环境对天线的干扰，提高天线效率。

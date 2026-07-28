@@ -1,3 +1,10 @@
+# Fortran常用内置函数：数组属性查询
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/eG39eS3ouciyAF0DQ5u\_9g](https://mp.weixin.qq.com/s/eG39eS3ouciyAF0DQ5u_9g)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+
 在Fortran编程语言中，数组是处理数据集合的核心结构，而准确地获取和操作这些数组的属性对于高效编程至关重要。Fortran提供了一系列内置函数（intrinsics functions），帮助开发者查询和操作数组的各种属性，如分配状态、连续性、边界信息、维度数、形状以及大小等。本文将逐一介绍这些实用的数组查询函数，并通过简单示例演示它们的使用方法。
 
 ## 1\. ALLOCATED —— 检查数组的分配状态
@@ -100,6 +107,7 @@
 
   
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

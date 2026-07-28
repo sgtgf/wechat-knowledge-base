@@ -1,3 +1,8 @@
+# 偏微分方程(PDE)科学计算的一般步骤
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/nlb8VsOGQMXT2pYOE\_8Sfg](https://mp.weixin.qq.com/s/nlb8VsOGQMXT2pYOE_8Sfg)
+
 科学技术领域中系统数学模型往往采用偏微分方程（PDE）形式。这类 PDE 模型一般描述复杂的物理现象 ，其计算问题被称为科学计算 ( Scientific Computing ) 问题。现代工程技术领域中，各类物理系统仍然服从牛顿经典物理的基本规律，如流场、温度场和固体力学场模型核心仍然是质量守恒定律、动量守恒定律和能量守恒定律等。然而，科学计算涉及的物理系统中的研究对象通常结构复杂，不能简化为质点，而且承受着在二维或三维几何空间中的分布载荷（非集中载荷）。由于研究对象物质和载荷的分布性质，人们无法建立显式的初等函数模型，而只能采用 PDE 系统描述经典物理的守恒定律。
 
 一般来讲，PDE 系统无法采用分析数学方法求解其原函数，只能采用近似的数值计算方法。随着计算机硬件和软件技术的飞速发展，人们已经解决了工程技术领域的许多计算难题。但是，PDE 模型的高效求解仍然是一类非常有挑战性的任务。科学计算问题的核心是 PDE 模型近似计算方法的收敛性、稳定性和计算精度（或者误差）。因此，高效和高精度地计算流场、温度场、电磁场、结构应变应力场的 PDE 模型，是航空航天、船舶、重型机械、车辆和能源设备等复杂产品研制的关键技术，也是应用力学、机械、宇航和计算机技术等交叉领域的前沿研究方向。
@@ -10,6 +15,7 @@
 
 研究者首先将研究对象与环境分离，建立物理系统的基本概念，进一步确定其外延和内涵。然后，研究者需要确定系统变量，并且确定哪些系统变量为独立变量（自变量），哪些系统变量为非独立变量（因变量）。独立变量的选择非常重要，对系统模型的形式和求解方式等都有影响。例如，固体力学中一般采用位移为独立变量，而流体力学中则采用速度（位移对时间的导数）为独立变量。最后，研究者采用系统变量建立物理系统中质量守恒、动量守恒和能量守恒的 PDE。因为物理系统必须遵守这些守恒规律，所以 PDE 模型“管理”和“控制”这些物理系统的行为。因此，这些 PDE 被称为相关物理系统的控制方程 ( governing equations )。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3ibAdGeBopjHkMPuLVrxgx5QHzVD8haeMHJs8dfDI1bHlOqFuQUMibLHA/640?wx_fmt=jpeg&from=appmsg)
 
   
 
@@ -19,6 +25,7 @@
 
 因为在物理系统的全局定义域中直接求解 PDE 系统通常十分困难，所以研究者只能在“微小”的局部定义域上进行近似计算。这种计算方法的核心思想是将连续系统的定义域分解为若干个子定义域 ( subdomains ) , 然后采用插值函数构造近似函数，在子域上局部逼近连续的 PDE 系统的响应。将 PDE 系统的全局定义域分割为子域的过程称为域离散化 ( domain discretization ) 。域离散化将 PDE 模型的连续定义域（如二维或者三维几何空间）分割为“有限数量” ( finite  number ) 的离散子域（也称为单元）。每个子域（或者单元）的几何拓扑结构一般采用几何空间的单纯形，即二维空间的三角形和三维空间的四面体，或者采用其他的简单形状（如四边形和六面体）。连续系统定义域离散化是科学计算的基础。在工程技术领域，人们通常将离散化的几何定义域的一个子域单元称为网格 ( mesh ) , 并将域离散化过程称为网格划分或者网格生成 ( mesh generation ) 。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3U3YA0TQ7jicwebKQhpHCDW04Dia6ZfY4lUXBntj1jSzhGrmk1M8rZJ2g/640?wx_fmt=png&from=appmsg)
 
   
 
@@ -28,9 +35,11 @@
 
 定义域离散化（即网格生成）后，研究者在每个子域上定义一个近似模型（一般为多项式函数），将连续的全局系统 PDE 的真实解转化为一组定义在离散单元上的局部函数模型。最后，研究者将各单元的局部函数模型带入原来的 PDE 系统，通过变分和加权余量等方式将全部离散单元的局部函数模型转化为单元节点变量的线性代数方程，系统 PDE 模型离散化的目标就是以线性代数方程组的解逼近连续的 PDE 系统在网格节点的响应。有限差分法 ( finite difference method, FDM) 、有限体积法 ( finite volume method, FVM ) 或者控制容积法 ( control volume method, CVM)、有限元法 ( finite element method, FEM) 是广泛应用于工程技术领域的 PDE 系统模型离散化方法。有限元法在 PDE 弱解形式的基础上，采用单元节点的变量值构造初等插值函数，在子域上逼近 PDE 的数值解；然后，通过变分或者加权余量等方法将连续空间的 PDE 计算问题转化为离散空间的线性代数方程组计算问题。其他有影响的 PDE 模型离散化方法包括有限分析方法 ( finite analytic method, FAM) 和边界元方法 ( boundary element method, BEM)  等。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3ZhQzia3ibTWdClesbPBEaQsnHI0A058vSuJ3rcRWmLNAuffDNia1nzDYQ/640?wx_fmt=jpeg&from=appmsg)
 
   
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3OqRdVbibMjPxkMBYSt5Q1zJuzXYLzUruzcMpLiah2oowxneAR9I6tclA/640?wx_fmt=jpeg&from=appmsg)
 
 ### 
 
@@ -38,6 +47,7 @@
 
 在工程技术领域，PDE 系统离散化后得到的线性代数方程组可能包含数十万甚至数百万的变量，它们的系数矩阵可能是对称或非对称的大型稀疏矩阵。求解线性代数方程组一般采用直接法或者间接迭代法。直接法就是以某种方式直接计算线性方程组系数矩阵的逆矩阵，一次性地计算线性代数方程组的数值解。直接法稳定可靠，很少出现数值方面的问题，可以预估运算量，并可得问题的相对准确解。但是，实际计算过程中总存在舍入误差，因此直接法得到的结果并非绝对精确，存在计算过程的稳定性问题和计算机内存不足造成的失效问题。典型的直接法包括高斯消去法、直接三分解法和波前法等。间接迭代法不求解系数矩阵的逆矩阵，而是选定变量的初始值，通过循环迭代计算获得变量的最终解。间接迭代法的优点是简单，易于计算机编程；但是，存在迭代是否收敛和收敛快慢的问题。典型的间接迭代法包括高斯－赛德尔迭代法和牛顿－拉弗森法等。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo31hsQ6L7V0n7hva2BSKzUL5R5HnugR9uwE8ctFr7Jg59Ss5uOhZbtMg/640?wx_fmt=jpeg&from=appmsg)
 
 ### 
 
@@ -45,6 +55,9 @@
 
 求解线性代数方程组会得到大量（甚至海量）的数据，研究者只能借助计算机工具分析这些数据，判断 PDE 系统的物理响应。计算可视化技术首先对数据进行预处理，进一步将数据映射为几何元素，最后绘制为计算机图形和动画。在科学技术领域，计算可视化技术主要包括标量场、矢量场和张量场的绘制，还包括曲线（曲面）拟合及图形渲染等。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3JZrD6UrNiaMZibUCM5FzAtSfPfZ7jjMEFPAhK8TZ9c35x8Xg1ibuOuIng/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 FEtch 系统是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

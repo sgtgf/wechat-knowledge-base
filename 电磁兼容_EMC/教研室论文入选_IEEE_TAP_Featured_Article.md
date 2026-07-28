@@ -1,0 +1,72 @@
+# 教研室论文入选 IEEE TAP Featured Article
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/2h6Oj8iYkFrO9AlvMoKNVQ](https://mp.weixin.qq.com/s/2h6Oj8iYkFrO9AlvMoKNVQ)
+
+  
+
+超宽带 360° 方位连续扫描共享辐射体相控阵研究获 IEEE Transactions on Antennas and Propagation 官网重点推荐
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsAJ5xibLvGgYXibKwEBicBKK465kZymGTfOFknxGRKOQLb5dJJOicLh25V2tI0f0eCAakibNDObdDkwnasEmz4jzEZ1L28pWFicnP3KY/640?wx_fmt=png)
+
+图1  论文信息：发表于 IEEE Transactions on Antennas and Propagation, Vol. 74, No. 2, February 2026
+
+一、论文入选 IEEE TAP Featured Article
+
+近日，教研室在 IEEE Transactions on Antennas and Propagation（IEEE TAP）发表的论文 “Ultrawideband 360° Azimuthal Continuous Scanning Radiator-Sharing Phased Arrays” 被 IEEE TAP 选为 Featured Article，并将在 TAP 官网首页及相关社交媒体渠道进行重点展示与推广。
+
+IEEE TAP 是天线与传播领域国际权威期刊之一。论文入选 Featured Article，表明该研究在创新性、技术价值和领域影响力方面受到期刊编辑部关注，也将进一步提升研究工作的国际可见度。
+
+二、这项研究解决了什么问题？
+
+随着雷达探测、车载通信、应急救援、无线定位、认知无线电以及未来 5G/6G 系统的发展，能够在方位面实现 360° 连续扫描的天线阵列受到广泛关注。理想的系统既要“看得全”，又要“带宽宽、体积小、剖面低、增益稳定”。
+
+然而，传统 360° 扫描天线往往面临多重矛盾：方向图可重构天线通常扫描状态离散、工作带宽有限；传统圆形阵列若追求宽带性能，往往需要更大的尺寸和复杂馈电网络。如何在紧凑低剖面结构中同时实现超宽带和全方位连续扫描，是该领域的重要挑战。
+
+三、核心创新：共享辐射体与紧耦合协同设计
+
+本工作提出了一种基于“共享辐射体（radiator-sharing）”的新型相控阵设计思路。阵列采用锥形结构作为共享主辐射体，多个馈电端口沿圆周分布，通过多端口协同激励实现方位面波束连续扫描。
+
+与传统由多个相对独立辐射单元组成的阵列不同，该设计让多个馈电端口共同作用于同一主辐射体，并利用相邻端口之间的耦合关系改善宽带阻抗匹配。这一思路有效缓解了“超宽带”与“小型化、低剖面”之间的矛盾。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsAg5ribqHN3HWxvPyHhFA1sk8jicQYAYrHGtAibibXcusqNgD86hQbecnFFUvxOMiaUqthUUlbG2occXJwDVKOwyS9x7ncTDnPMLlib4/640?wx_fmt=png)
+
+图2  共享辐射体相控阵结构示意：锥形共享辐射体、环形多端口馈电与紧凑低剖面结构相结合（图片来源：论文原图）
+
+四、关键性能：宽带、紧凑、稳定扫描
+
+论文研制并测试了六端口原型样机。实验结果表明，该阵列在 1.8–7.5 GHz 范围内实现了 4.2:1 的阻抗带宽（VSWR ≤ 3），相对带宽达到 123%。在 3.0–6.0 GHz 范围内，H 面实测峰值增益为 7.9–9.5 dBi。
+
+更重要的是，在方位面扫描过程中，该阵列的增益波动小于 0.35 dB，体现出良好的扫描不变性；交叉极化鉴别水平优于 21.5 dB，旁瓣电平优于 −5 dB。对于需要宽频段、广覆盖和稳定波束性能的系统，该设计具有重要应用潜力。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsAh3icLy7VksSFnKGpjlv04biaTwb3TAftoqmhoNqXQbpjea7wzbvFhAfeYAKkAabNBXe296qV5ibMlLnczhUKqVyHrOLcyxic83lo/640?wx_fmt=png)
+
+图3  有源 VSWR 结果显示阵列在宽频段内保持良好匹配（图片来源：论文原图）
+
+![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCl2icBecEPOYT68hQtN7LBicic3Jcr0SQEO05CBQbuwYXuTN5xLria3r6eGqpT3nA9LVndLpwOlTYfsjb1zK3pKJCPCnj02fKotyk/640?wx_fmt=png)
+
+图4  效率/增益相关测试结果体现出较好的频带稳定性（图片来源：论文原图）
+
+五、样机验证：从仿真设计到实测验证
+
+研究团队加工了六端口原型阵列，并在微波暗室中开展了系统测试。测试结果与仿真结果吻合较好，验证了共享辐射体与紧耦合协同设计的有效性。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsBG7P5x6bicBPziarMyCcrVDeic5d2tOytal3PVWv3Da7eMP4SUhoB7yy4lAzSkaD3I0AWmzTUvHtJic8XwhjXlHss6wcWJDWDAUZg/640?wx_fmt=png)
+
+图5  六端口原型阵列近场测试场景（图片来源：论文原图）
+
+![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCdqeA591zXqG3yF1WLohw5aqOjddvHzsWViayaKVGxCreiaxA9vxsEDoCH1LBKKSqrtEC9yWt2OicpH3omAuaYx8Xpyj24M14Nfo/640?wx_fmt=png)
+
+图6  微波暗室测试环境（图片来源：论文原图）
+
+方位面方向图测试表明，阵列能够在 360° 范围内连续改变波束指向，并在不同频点保持较稳定的辐射特性。这为小型化、宽带化、多功能化射频前端提供了新的设计路径。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCibKFQcVrnicnnRdMM04P0APTGBeZ0rxYFWporshZJYugJ67bf9eibXX2YPW9yfDtkWo07TPlZxD51Wkgo6JR42Abu5RdFZ906bo/640?wx_fmt=png)
+
+图7  方位扫描三维方向图示意：阵列可在方位面实现连续波束覆盖（图片来源：论文原图）
+
+六、潜在应用与研究意义
+
+该超宽带 360° 方位连续扫描相控阵兼具低剖面、紧凑尺寸、宽带匹配和稳定扫描等特点，可服务于自动驾驶、高精度室内定位、宽带无线通信、应急通信、电子侦察与电子对抗等需要宽空间覆盖和宽频段工作的应用场景。
+
+从基础设计方法看，论文将共享辐射体与紧耦合阵列理论相结合，为解决宽带阵列小型化难题提供了可推广的新思路；从工程实现看，样机结构简洁、装配方便，也为后续面向实际系统的集成化设计奠定了基础。

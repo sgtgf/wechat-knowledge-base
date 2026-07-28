@@ -1,0 +1,46 @@
+# DC-DC-9：电流反馈控制模式
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/flpXyvbnCAElIdx\_SAaGCA](https://mp.weixin.qq.com/s/flpXyvbnCAElIdx_SAaGCA)
+
+_![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTQSEVaxdn4Y1PiaFDXxYUJ8g56xjVBSdR7tQuDp2BaOsVFDBtIlVDXOAOue7aw5tGUDMAfBKTn3iaQ/640?wx_fmt=png)_
+
+____**★★★**________**DC-DC-9---电流反馈控制模式**________**★★★**____
+
+_€1.电流模式CM_
+
+如**_图9-1_**，电流模式控制是对电压模式控制进行改进后的控制方式，这种方式是检测并使用流过电感的电流，而不是电压模式控制方式中使用的三角波（[DC-DC-8：电压反馈控制模式](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247486037&idx=1&sn=242e743f369ed7f6986242f341865157&chksm=c33540caf442c9dc14413081355f6f6d37adfc09d2ce715d5081e3efc1a99fb0a408d0156aed&scene=21#wechat_redirect)）。还有一种方法是使用晶体管电流或电流检测电阻器取代电感电流来检测电流。以检测电路电感电流的方式取代三角波，反馈环路的稳定性高，大幅度简化相位补偿电路设计，负载瞬态响应速度比电压模式快，但要注意电流检测反馈环路的噪声。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRJnaibbvK66gX5GJ9icsuZwTP4yUKCNLK1PtOENAufO5YtxyK1NJvsJ50ykaQvhQK9HdDDlxTH7UEA/640?wx_fmt=png)
+
+**_图9-1：电流反馈控制拓扑_**  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRJnaibbvK66gX5GJ9icsuZwT1aSdM7e23eku2XiaicYdKYGqzicUWmvLhicXAsibmDD5O8EhWauZfY0rjsw/640?wx_fmt=png)
+
+**_图9-2：电压反馈环路（蓝色线）和电流反馈环路（紫色线）_**
+
+**_图9-2_**反馈环路具有电压环路和电流环路两种环路，虽然控制变得相对复杂，但是可以大大简化相位补偿电路的设计。其他优点还包括反馈环路的稳定性更好，瞬态响应速度比电压模式更快等。缺点是对电流检测很敏感因而抗噪能力弱，但如果是IC，则这部分集成在内部，因此不用担心。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TRJnaibbvK66gX5GJ9icsuZwTG6H8dmPb7wRQNNfNd6sUSExtOicncrLpCwjuLBorQjbiax0vUoXtlSww/640?wx_fmt=png)
+
+**_图9-3：负载变动响应波形_**
+
+从**_图9-3_**可以明显看到高边驱动HG信号反应及时，不像电压反馈模式存在延时（[DC-DC-8：电压反馈控制模式](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247486037&idx=1&sn=242e743f369ed7f6986242f341865157&chksm=c33540caf442c9dc14413081355f6f6d37adfc09d2ce715d5081e3efc1a99fb0a408d0156aed&scene=21#wechat_redirect)）。CM的特征是通过使用R，C使误差放大器的输出稳定，来调整相位裕量，比较与电感L电流成正比的电压（ISEN）和FB，调整振荡OFF时间，因此相位补偿（COMP）通过R，C的值进行调整。稳定性、响应性能的平衡良好。
+
+__€2_.峰值电流模式_
+
+脉宽调制PWM（锁存输出）是通过比较电压误差信号（VE）和从输出电流导出的斜坡波形（VS）来实现的，斜坡由时钟信号启动。此模式提供对输出电流变化的快速响应。然而，由于前沿电流尖峰，它在低占空比下容易受到噪声敏感性的影响。使用II型补偿为外部补偿器件生成一个单极点功率状态。当需要固定的、可预测的开关频率，其部件数量低于外部补偿的双极点电压模式时，可以使用峰值电流模式。峰值电流模式使用单零点补偿器，这比电压模式的双零点补偿器更容易设计。
+
+**_![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TT0HqsBQkqqe9E1euZsTdl5F46FQamsyfPnicp98RThYaHiaT0eiaBMUU0ziadtXvxgZn9lqwDxuFJVAA/640?wx_fmt=png)_**
+
+**_图9-4：峰值电流模式比较波形_**
+
+__€3_.模拟电流模式（ECM）_
+
+类似于电流模式，但采用门控采样和保持电路来获取电流信息，该电流信息通过测量电感电压来估计斜坡电流。通过允许更小的占空比，消除了传统峰值电流模式的前沿尖峰问题。当在最小接通时间附近工作时，提供干净的电流波形。与传统电流模式相比，当需要低占空比时，无电流噪声敏感性时，可使用ECM模式。
+
+__€4_.内部补偿电流高级模式（ACM）_
+
+内部补偿模式ACM是一种基于纹波的峰值电流模式控制方案，使用内部生成的斜坡来表示电感器电流。该控制模式在非线性控制模式的快速瞬态响应（例如D-CAP™, COT等）和其它带外部补偿的固定频率控制模式（VM、CM）的宽电容稳定性之间达到了很好的平衡。内部补偿的ACM提供固定的、可预测的频率和简化的补偿选择，以减少外部组件。
+
+当需要固定频率或输出并联堆叠时，ACM模式具有良好的输出电容器容差和简化的补偿设计。

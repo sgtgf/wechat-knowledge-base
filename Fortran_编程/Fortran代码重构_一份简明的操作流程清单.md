@@ -1,3 +1,10 @@
+# Fortran代码重构：一份简明的操作流程清单
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/OpfshdSRHowKKSmCM-ToNQ](https://mp.weixin.qq.com/s/OpfshdSRHowKKSmCM-ToNQ)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVW6ZsibroHicNgmic8Rn786ZtJKjTfBmq1GrGjsNCTJ0Ol27c87wACP4ZxMib0I8bUEbjhBNOFMIztKxA/640?wx_fmt=png&from=appmsg)
+
 在科技飞速发展的今天，许多早期编写的Fortran程序依然在关键领域发挥着作用。然而，这些遗留代码往往采用过时的标准（如Fortran 77或更早版本），面临着维护困难、可读性差和扩展性不佳等问题。因此，对这些代码进行重构，使之符合现代编程标准和实践，成为了提高软件质量和延长其生命周期的重要步骤。本文将基于一份简明的Fortran重构操作流程清单，探讨如何系统地对遗留代码进行现代化改造。
 
 下面的步骤主要针对从Fortran 77或更早版本进行重构的情况，但同样适用于其他编程语言的调整。
@@ -38,6 +45,7 @@
 
 有些goto语句更具挑战性，需要思考如何重新组织。打印代码并做标注，如从跳转点画线到标签。分析这些跳转的目的地，是否存在大量跳转回到程序开头的情况？这可能意味着存在一个全局的循环，其中包含了一些类似continue的语句。程序是否需要添加一两个函数来改善逻辑，减少非结构化跳转？这些都需要你慎重地考虑。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVW6ZsibroHicNgmic8Rn786ZtJTGhCACJAgZAtJhPq7ALibcicsuuRTsrDiaU945dkHpxveeKmG2ar50dcA/640?wx_fmt=png&from=appmsg)
 
 ## 8\. 清理与优化
 
@@ -71,6 +79,7 @@
 
   
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

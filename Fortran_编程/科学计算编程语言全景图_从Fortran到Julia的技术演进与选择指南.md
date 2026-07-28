@@ -1,3 +1,12 @@
+# 科学计算编程语言全景图：从Fortran到Julia的技术演进与选择指南
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/l0Fh0P5UbnqA3Mifwe69tQ](https://mp.weixin.qq.com/s/l0Fh0P5UbnqA3Mifwe69tQ)
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/17qs5ibbu2Y5USOicZytt97ocKLRUS5pibmFHGibD3FcXyrjfNZqyDSephCaXwMjddlMHkhGW5Z71Am6wEticwrHrZQ/640?wx_fmt=gif&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/17qs5ibbu2Y5USOicZytt97ocKLRUS5pibmkRD0PdNl1QicAWvLRmps2Dib88cuOHQmG9rv0o9jc8MEYEJdx1mZJApQ/640?wx_fmt=jpeg&from=appmsg)
+
 在科学与工程领域，编程语言是连接理论模型与现实世界的桥梁。面对海量数据处理、复杂数值模拟和高性能计算需求，不同编程语言凭借其独特优势在历史长河中各领风骚。本文将带你纵览科学计算领域的六大核心语言，剖析它们的诞生背景、技术特性与适用场景。
 
 ## Fortran（1957年）：科学计算的活化石
@@ -6,6 +15,7 @@
 
 作为世界上首个高级编程语言，Fortran（Formula Translation）由IBM团队为物理学家设计，于1957年首次发布。它的出现标志着计算机编程从低级语言向高级语言的转变，极大地提高了编写复杂科学计算程序的效率。尽管经历了多次版本更新，包括最新的Fortran 2023标准，它仍然支撑着NASA气候模型和量子化学计算等关键领域。这不仅证明了Fortran的强大功能，也展示了它在现代科学计算中的持续重要性。
 
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVWE2dQ18csMAU8QbVCciaia28h7OmkPITnmovliahKHsHVpmibdDHhibHAJ3CbwdzjoWEBUmY4cRFv3gaQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 ### 优点
 
@@ -42,6 +52,7 @@
 
 作为系统级编程语言，C和C++被广泛用于操作系统、嵌入式系统以及各类高性能软件的开发。在科学计算领域，它们常用于实现核心算法和库，如OpenCV和TensorFlow，以确保最佳性能。
 
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWE2dQ18csMAU8QbVCciaia28J7ob2ZFUHuoGsOjjfggLN1jAToE13b2spxiaAOicJ0KkBqAmib0vhyJbA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 ### 优势
 
@@ -74,6 +85,7 @@
 
 MATLAB（Matrix Laboratory）由MathWorks推出，最初是一个交互式的矩阵计算环境，后来通过添加Simulink等功能扩展成为控制系统设计的行业标准。MATLAB以其强大的矩阵运算能力和丰富的工具箱而闻名，广泛应用于教育、科研和工业界。
 
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWE2dQ18csMAU8QbVCciaia28ZyNrP9mkpkGktn2vqV8ich8yyjEfzqluTIOmPpibVclBGZIHUsKsdfhg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 ### 优点
 
@@ -106,6 +118,7 @@ MATLAB（Matrix Laboratory）由MathWorks推出，最初是一个交互式的矩
 
 由Guido van Rossum创造的Python是一种通用编程语言，起初并未特别针对科学计算。然而，随着NumPy/SciPy生态系统的兴起，Python逐渐成为数据科学和机器学习领域的首选工具。CERN的大型强子对撞机数据分析项目就是一个很好的例子，展示了Python在处理大规模科学数据方面的强大能力。
 
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWE2dQ18csMAU8QbVCciaia28whUARAp5JicSnyFmFeJgbWNT8vbxxbeqolNMNsMGJUgT8CI1IwvCZ6A/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 ### 优点
 
@@ -138,6 +151,7 @@ MATLAB（Matrix Laboratory）由MathWorks推出，最初是一个交互式的矩
 
 R脱胎于贝尔实验室的S语言，旨在为生物统计和计量经济学提供一个灵活且强大的计算平台。如今，CRAN仓库托管了超过1.8万个专业程序包，涵盖了从基础统计学到高级机器学习的各种应用。
 
+![R语言学习7-逻辑运算 - 知乎](https://mmbiz.qpic.cn/mmbiz_jpg/17qs5ibbu2Y5USOicZytt97ocKLRUS5pibmawwa1SrbicZaxbxgcJMcX5WNrCVf1b39MowFNPjLcQ79rapsShYdQYg/640?wx_fmt=jpeg)
 
 ### 优点
 
@@ -170,6 +184,7 @@ R脱胎于贝尔实验室的S语言，旨在为生物统计和计量经济学提
 
 Julia是由麻省理工学院（MIT）的研究人员开发的一种多范式编程语言，目标是在保持高水平抽象的同时实现接近C语言的执行速度。通过即时编译（JIT），Julia能够在2021年跻身全球超级计算机TOP500官方工具集之列。
 
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWE2dQ18csMAU8QbVCciaia28pLSB4qhzPEbRQF0CxaP9rVE2Heud7vicMGAGicSpcZTkicQr6ho6BR3CA/640?wx_fmt=jpeg&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 ### 优点
 
@@ -198,6 +213,7 @@ Julia是由麻省理工学院（MIT）的研究人员开发的一种多范式编
 
 ## 语言选择决策矩阵
 
+![](https://mmbiz.qpic.cn/mmbiz_jpg/17qs5ibbu2Y5USOicZytt97ocKLRUS5pibmBvNgeaPMKrN6ND7FseHdJnN2TQnDrvicH5gLSXLoejtbHqtHjjB6kfA/640?wx_fmt=jpeg)
 
 ## 选择建议
 
@@ -217,3 +233,5 @@ Julia是由麻省理工学院（MIT）的研究人员开发的一种多范式编
     
 
 科学计算的语言版图仍在持续进化，新兴语言如Mojo正在尝试融合Python生态与LLVM性能。开发者应根据团队技术栈、项目周期和精度需求，构建多层次工具链——或许用Python快速验证idea，再用Julia重写性能瓶颈模块，才是这个时代的终极解法。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/17qs5ibbu2Y5USOicZytt97ocKLRUS5pibmDWvqGmNQOcJvtCvT08OrgaA57hUKiaQphKmwiaklwVM6gdTzgyG9iaocQ/640?wx_fmt=jpeg&from=appmsg)

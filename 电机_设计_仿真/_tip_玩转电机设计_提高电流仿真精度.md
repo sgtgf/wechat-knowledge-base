@@ -1,0 +1,55 @@
+# 【tip】玩转电机设计—提高电流仿真精度
+
+原创 Mr 晋 玩转电机设计 2022-07-18 08:18 浙江
+
+> 原文地址: [https://mp.weixin.qq.com/s/wZNXbcStm8WHfhWKLMJ6Rw](https://mp.weixin.qq.com/s/wZNXbcStm8WHfhWKLMJ6Rw)
+
+**提示**：点击上方"**玩转电机设计**"↑关注我吧
+
+  
+
+**你有没有遇到过电机实测电流比仿真电流偏大的问题？**
+
+今天给大家介绍一个容易被忽略的，但是又对仿真电流值有直接影响的小tip。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzo1mmDbw83zUHTtlm9CIrO5rEg4uNe3boYianIYQuyfUJb7xKNY0zF0J1O1icGgJ4X73KicPoTNQVFQ/640?wx_fmt=png)
+
+_图1 实际电机的功率流_
+
+电磁仿真软件EasiMotor(其他电磁仿真软件类似)中计算的功率平衡是输入功率=定子铜损+电磁功率，电磁功率=转子铜损+轴输出功率
+
+转子铜损：永磁电机就是磁钢铜损，异步电机就是笼条的铜损，如果铁芯考虑涡流也会算进去。
+
+轴输出功率：P=T\*N/9549 (kW)
+
+可见：
+
+软件仿真计算中没有把定、转子铁损、机械摩擦、杂散损耗计算到功率平衡中，如果仿真中的轴输出功率等于实际输出功率(实际转速和实际转矩)，那么实测电流将大于仿真电流。
+
+**为了让仿真电流更准确，需要把上图中虚线框内的损耗，变成负载加到“轴输出功率”。**
+
+如果是仿真**电流源****激励**，要保证仿真轴输出功率（9549\*Tem\*n）=实际需要的轴输出功率+上图中虚线框内的功率；
+
+如果是仿真**电压源****激励**，需要把上图中的虚线框内的功率转换为转矩+实际电机轴输出转矩一起变成负载转矩。
+
+* * *
+
+  
+
+  
+
+**欢迎留言讨论！**  
+
+欢迎推荐优秀文献、国内外电机最新资讯！
+
+欢迎投稿！
+
+  
+
+  
+
+长按图片，识别二维码，关注我哟
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzo1mmDbw83zUHTtlm9CIrOynvN72f8Zsn5sA8JVibjyXXSknqRnSneLVG7OcwzxczZMElJFg280NA/640?wx_fmt=png)

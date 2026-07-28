@@ -1,3 +1,8 @@
+# Fortran和C哪个计算能力更强？
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/O4ct9Wo4B4dNa6UXa3c-eQ](https://mp.weixin.qq.com/s/O4ct9Wo4B4dNa6UXa3c-eQ)
+
 # 提问
 
 据了解，Fortran在很多做工程的地方使用蛮普遍的，究其原因是多年来它都是计算性能好的语言，但是很多新兴的行业或计算软件都是用C写的，像MATLAB这样的数学神器就是C写的。那两者的计算能力比较的话哪个更强一些？

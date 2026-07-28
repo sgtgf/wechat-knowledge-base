@@ -1,3 +1,12 @@
+# 如何写出优雅的科学计算代码：从混沌到秩序的Python编程实践
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/Nlrs0TcJA09QOw0jpDe9Zg](https://mp.weixin.qq.com/s/Nlrs0TcJA09QOw0jpDe9Zg)
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/17qs5ibbu2Y5USOicZytt97ocKLRUS5pibmFHGibD3FcXyrjfNZqyDSephCaXwMjddlMHkhGW5Z71Am6wEticwrHrZQ/640?wx_fmt=gif&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/17qs5ibbu2Y4GADickFibaAia1icb0vqiclwRTGB7Pse994Ea9cHw2ibhf3BV8eSvdUK7tmT2cq3frHlzibRZulYFITsZQ/640?wx_fmt=jpeg)
+
 在科学研究与工程实践中，科学计算扮演着至关重要的角色。然而，在实际操作中，我们经常会遇到一个棘手的问题：即使研究者花费数周乃至数月时间推导出复杂的数学模型，一旦进入代码实现阶段，糟糕的编程实践可能会导致精度下降、效率低下，甚至出现严重的错误。因此，如何编写既具数学之美又兼备工程之美的科学计算代码成为了科研工作者必须面对的重要课题。
 
 面向Python科学计算，本文旨在从工业级软件开发的最佳实践中提炼出适用于科研场景的编程智慧，帮助读者打造兼具精确性和高效性的科学计算代码。无论是初入科研领域的研究生，还是经验丰富的科学家，都可以通过本文获得宝贵的编程技巧和理念，将复杂而抽象的数学模型转化为稳定可靠的计算机程序。让我们一起探索如何在代码中体现科学的魅力，实现从混沌到秩序的转变。
@@ -149,3 +158,17 @@ Jupyter Notebook已经成为科研人员日常工作中不可或缺的一部分�
 ## 结语：代码作为科研的第一性原理
 
 优秀的科学计算代码如同精密的实验仪器，每个部件都需经过精心校准、严格验证，并具备替换的可能性。当我们以严谨的数学思维架构代码，采用工程化的手段管理计算实验时，科研成果的可信度和可重复性必将得到显著提升。记住，我们书写的不仅是代码，更是数字时代的科学手稿。每一段精心编写的代码都是对未来探索者的宝贵遗产，承载着无限的知识与灵感。让我们携手共进，书写属于这个时代的精彩篇章。
+
+  
+
+## 推荐阅读
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/17qs5ibbu2Y4GADickFibaAia1icb0vqiclwRTZTytiaLGTLPkkL7m0qgDb21DbrXZpj8w7icwMcQ4ia5E5oTShWibCyW51A/640?wx_fmt=gif&from=appmsg)
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/17qs5ibbu2Y5USOicZytt97ocKLRUS5pibmDWvqGmNQOcJvtCvT08OrgaA57hUKiaQphKmwiaklwVM6gdTzgyG9iaocQ/640?wx_fmt=jpeg&from=appmsg)

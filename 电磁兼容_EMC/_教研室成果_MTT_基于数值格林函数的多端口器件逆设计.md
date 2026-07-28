@@ -1,0 +1,94 @@
+# 【教研室成果】MTT：基于数值格林函数的多端口器件逆设计
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/nVJhwinTjB5mbDYCu2Vzag](https://mp.weixin.qq.com/s/nVJhwinTjB5mbDYCu2Vzag)
+
+论文信息
+
+* * *
+
+  
+
+题目：
+
+Inverse Design Method of Metal Structures in Multiport Waveguide Based on Numerical Green’s Function
+
+作者：
+
+Jin-Pin Liu, Junjie Shao, Jinsong Fan, Chuan-Sheng Chen, Ren Wang, and Bing-Zhong Wang
+
+单位：
+
+1 Institute of Applied Physics, University of Electronic Science and Technology of China (UESTC), Chengdu 611731, China.
+
+2 Yangtze Delta Region Institute (Huzhou), UESTC, Huzhou 313001, China.
+
+出版信息：IEEE Transactions on Microwave Theory and Techniques, 73(4): 2272 - 2281, 2025; DOI: 10.1109/TMTT.2024.3470220 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnU302qCyF5bFYY8xAwAc8qv7v5cIibsFIUeeOz0pMJBjyuwPRXORCZvUA/640?wx_fmt=png)
+
+论文摘要
+
+* * *
+
+  
+
+本文提出了一种基于数值格林函数（NGF-IDM）的逆向设计方法，以实现波导器件的智能化高效设计。受金属逆向散射理论的启发，我们使用感应电流源模型来逆向设计波导中的金属结构。我们通过网格划分点来离散设计区域，并将设计的金属结构和感应电流分布参数化。通过数值方法，我们一次性提取多端口波导的数值格林函数。不同的结构将通过最小二乘法转化为放置在背景波导中的不同电流源。然后，在物理方程的约束下，我们实现了从设计目标到金属结构的逆向求解。案例1展示了一个逆向设计的1分3移相功分器，证明了该方法设计多功能电磁器件的能力。在保持背景波导结构不变的情况下，案例2实现了一个1分3分频器，说明了NGF-IDM的灵活性。实验结果表明，理论、仿真和测量结果高度一致，证明了我们方法的可行性和有效性。NGF-IDM能够在复杂环境中实现高效设计，而无需迭代的全波仿真，显著提高了设计效率。本文为电磁波导器件的集成化和高灵活性设计提供了新思路。
+
+图文导读
+
+* * *
+
+  
+
+传统方法（如伴随优化、数据驱动神经网络）依赖大量重复的全波仿真，计算成本高。逆向散射理论在逆向设计中存在信息不足（端口数量有限、模式截止）、解不唯一、材料参数受限于制造工艺等问题，复杂背景结构（如SIW）难以使用自由空间格林函数。本文的目标是提出一种不依赖全波仿真迭代、高效、可扩展的逆向设计方法，使其适用于复杂背景结构（如SIW）中的金属结构设计。
+
+该方法的基本思路为：
+
+（1）将设计区域离散化为网格点，每个点可放置金属圆柱；（2）使用感应电流源模型将金属结构等效为电流分布；（3）利用数值格林函数描述背景波导中的场与电流关系。
+
+该方法的关键步骤为：
+
+（1）提取数值格林函数：使用数值方法（如CST）提取背景波导的格林函数。将金属圆柱视为最小电流单元，提高计算效率。（2）建立物理约束模型：总电场在金属表面满足PEC边界条件（电场为零）。端口电场与目标S参数一致。（3）逆向设计建模：将目标S参数转化为端口电场约束。结合格林函数与电流分布，建立方程组。（4）优化求解：使用遗传算法求解混合整数优化问题。目标函数为S参数与目标值的差异。
+
+该论文的重要图片如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUicsOfqKP6smOdqke86zeibgFj2f5zXkHiaib1ibzpgPsUME9cBaib6cV0TXw/640?wx_fmt=png)
+
+逆向设计的背景模型示意图：N端口波导器件。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUyTH4cACzFPutZbWgv2n3FVbSZVfvYaupfJs1b52QEwZ226S8mlaqFg/640?wx_fmt=png)
+
+用于提取数值格林函数的金属圆柱表面电流源设置。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUhWz0kCia3wB6DEdK7iaI6Vc8N6CXvaAVrXpBqHdw6KVKzbpkrl3fmeicQ/640?wx_fmt=png)
+
+逆向设计的1分3移相功分器示意图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUujOFdcKnM4WFUhia06WNdzFDdOnQjeWfFmCzzJ9w7FiaEPiaePDL9CDeA/640?wx_fmt=png)
+
+逆向设计的1分3移相功分器的S参数计算结果（NGF-IDM与CST对比）。(a) 幅度和 (b) 相位。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUhsX3eJCrFVw4EhdicV3G2u6fagl9WYA01WnqNExK1VoJtSLI6LPRbkw/640?wx_fmt=png)
+
+逆向设计的1分3分频器示意图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUt4wFg541oxFebSZ3vibSfyqQGWNJYfiaKE1EAicgq0KC6q6rw8SOIiccqA/640?wx_fmt=png)
+
+逆向设计的1分3分频器的S参数幅度计算结果（NGF-IDM与CST对比）。
+
+论文总结
+
+* * *
+
+  
+
+该论文提出的 NGF-IDM 方法在波导器件逆向设计中具有显著优势：物理模型驱动，避免大量仿真；结构灵活，支持多功能集成；实验验证充分，具备工程适用性。未来可通过改进电流模型、引入非均匀网格、结合深度学习等方式进一步提升精度与效率。
+
+* * *
+
+  
+
+【本文特别声明】
+
+本文中对文献的解读与评述仅为学术探讨，不代表原论文作者及其机构的观点。文中引用的论文插图/图表仅为评论、说明之目的，属于在学术交流中的“合理使用”，其版权均归属于原出版方及原作者所有。我们已尽最大努力标注原始出处。如果您是版权所有者且认为存在侵权，请与我们联系，我们将立即删除。我们强烈建议读者阅读原文以获取最完整准确的信息（可点击左下角“阅读原文”跳转）。\[原文DOI链接：10.1109/TMTT.2024.3470220\]

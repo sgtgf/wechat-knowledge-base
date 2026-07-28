@@ -1,0 +1,146 @@
+# RF devices-10：Duplexer（双工器）
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/lEjzKsNLKOlaaqxYrZzFyA](https://mp.weixin.qq.com/s/lEjzKsNLKOlaaqxYrZzFyA)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRocMQNXqg6iafWTe8qNXziarOMQjHo7cTP7FlSo7NfqkACWdiac1kuCQ1cUO16Uia7fu3TITrnFeyk3g/640?wx_fmt=png&from=appmsg)
+
+____**★★★**______Duplexer-1---双工器______**★★★**____
+
+引言：双工器（duplexer）是能满足两种工作模式的射频器件，使单条传输线路同时传输两个方向的信号，允许两个不同的信号源在同一传输介质上传输，通常用于无线通信、雷达和卫星通信等领域中（注：三工器、多工器同双工器），提高通信效率。  
+
+___€1.什么是双工___
+
+双工实现了在单个通信信道上进行双向通信，它有两种基本的双工操作模式：
+
+1#：半双工，通信双方轮流进行发送和接收。 
+
+2#：全双工，通信双方可以同时发送和接收。
+
+全双工通过频分双工 (FDD) 实现，半双工通过时分双工 (TDD) 实现，如**_图10-1_**和**_图10-2_**所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSVG5bL7EEgjwmD4d5JG483bUaKicorcyuFmsRTPuT22gzibR7jAZBOicPoPSpJp84I7uv9NH5cduuxA/640?wx_fmt=png&from=appmsg)
+
+**_图10-1：TDD_**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSVG5bL7EEgjwmD4d5JG48325FJ0xwiaHEZ19mvgfpCv8jYYNTmOQ98NTglTr2zWjlzDQTUQFGcZjA/640?wx_fmt=png&from=appmsg)
+
+**_图10-2：FDD_**
+
+FDD使用两个单独的频段或信道来实现全双工通信，这两个频段的频率以物理方式分隔（称为双工带隙），以防止产生干扰。TDD通过半双工链路来模拟全双工通信，使用单个频段进行发送和接收。TDD分配快速交替的时隙来发送和接收通信设备的操作，虽然TDD传输是并发的而不是同时的，但由于TDD是高速发生的，通信方无法察觉到通信的间歇性质。双工器常用于FDD无线电应用，其中一个滤波器是发送 (Tx) 滤波器，另一个滤波器是接收 (Rx) 滤波器（同向则没有这个定义）。
+
+___€2.双工器材料___
+
+双工器是一种被动器件，无需电源和外部逻辑控制，其常用构成有两种：基于普通的电感L和电容C滤波器，称为LC收发双工器和基于电-声转换的SAW、BAW。
+
+LC滤波器是由电感L和电容C组合而成的元件，可以阻断不需要的频率信号或只让所需频率信号通过。LC滤波器兼容300MHz至40GHz的广泛频带的频率，采用温度系数小的LTCC（低温共烧陶瓷）和印刷铜线圈，构成多层结构的LC滤波器，通过将L和C制成多层结构，实现了小型化，更换线圈图案或电容器图案，可以改变滤波器的波形。
+
+LTCC是Low Temperature Co-fired Ceramics的首字母缩写，指的是低温共烧陶瓷。LTCC的特点是通过在通常在1500°C以上的高温下烧成的陶瓷材料中混合玻璃成分，可以将烧成温度降低至900°C左右，这使得能够在内置布线中使用导体电阻较低的铜和银。LTCC通过在内部电极中使用铜，阻止了离子迁移的发生，实现损耗低、电气特性出众，而SAW和BAW请回顾往期。（[RF devices-2：SAW](https://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247494594&idx=1&sn=1c8bc0c03b8ec25f9743008aa2994724&scene=21#wechat_redirect)；[RF devices-3：BAW](https://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247494665&idx=1&sn=a412beb8a80ef758d2d6e2493d2defa0&scene=21#wechat_redirect)）离子迁移：在湿度高的环境下施加电压时，位于布线图案阳极的金属发生离子化，移动到对面的阴极，并在阴极重新作为金属生成的现象，这可能会导致短路故障。
+
+______€3.双工器的分类______
+
+双工器的本质是滤波器的集合体，收发双工器是将无线电常用的两种不同频带的分支电路的组件，集成在一个封装里的天线共用器。在无线设备中，设备间的通信所使用的频率是固定的，双工器用于天线输入输出部，拥有在收发时分类或混合2种不同频率信号的功能（接收时可以使两个频率分频，发送时可以使两个频率混合），并且还用于CA(Carrier Aggregation)电路中。
+
+### _低通/高通收发双工器：Low Pass/High pass Diplexer_
+
+由低频（Low）侧端口的低通滤波器和高频（High）侧端口的高通滤波器组合而成的收发双工器，这是最常见的收发双工器。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZGjv13ft3nKTbsia6fzHG935dD54N4eic2iaUEAYiaV8xvNeXE8fp3SqLFQ/640?wx_fmt=png&from=appmsg)
+
+**_图10-3：低通+高通双工器_**
+
+### _低通/带通收发双工器：Low Pass/Band Pass Diplexer_
+
+由低频（Low）侧端口的低通滤波器和高频（High）侧端口的带通滤波器组合而成的收发双工器，这是Wi-Fi收发双工器中常见的构成。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZ4UlqU4qloZOiatLGBsicKaPg1BPveO7LJsttX6RAuNY9CV1b6Wxh8bIg/640?wx_fmt=png&from=appmsg)
+
+**_图10-4：低通+带通双工器_**
+
+### _带通/带通收发双工器：Band Pass/Band Pass Diplexer_
+
+由低频（Low）侧端口的带通滤波器和高频（High）侧端口的带通滤波器组合而成的收发双工器。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZ0hB7EX9p8qEEMyF6s0Kicc5vvk7bAUqDc42lWxTBPsTDRqZpkbvfrSg/640?wx_fmt=png&from=appmsg)
+
+**_图10-5：带通+带通双工器_**
+
+处理的功率不是很大时，常用小尺寸的双工器，比如LTCC、SAW、BAW、FBAR，而处理的功率相对较高时会有大块头双工器，它们则是直接基于PCB或腔体滤波器设计。
+
+____€4.双工器的路径混合____
+
+双工器的路径混合有如下三种方式：输入分离双频；输出混合双频；输入输出双工。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSMhjagKLBC8AmBmqMStKVFPU3OaRkcCg038YcELJicAy0SlOMiaXlpM6m7f8wnTX5NcdeIfB0x5c7Q/640?wx_fmt=png&from=appmsg)
+
+**_图10-6：输入分离双频_**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSMhjagKLBC8AmBmqMStKVFIsxiamQfgvC6PKibrfiaPP4EoHQMOesicgibPxPHz1bmFNJCC7icicUC9LZgg/640?wx_fmt=png&from=appmsg)
+
+**_图10-7：输出混合双频_**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSMhjagKLBC8AmBmqMStKVFiatdgLkz6qaCQuhpDkBCaPUQJvicjiayxC9ibaq9rZ6OWw66SAMqVpekOg/640?wx_fmt=png&from=appmsg)
+
+**_图10-8：输入输出双工_**
+
+### 以GPS为例，GPS系统由多个卫星组成，这些卫星不断向地面发送包含时间和位置信息的信号。地面上的GPS接收器接收到这些信号后，通过计算信号的传播时间来确定接收器的具体位置。由于整个过程是卫星向地面发送信号，地面设备接收信号并进行处理，因此GPS定位是单向的‌。此外，虽然存在双向通信的卫星导航系统，如北斗系统，但北斗系统的双向通信功能主要用于短报文通信，并不直接用于定位功能‌。**_图10-9_**就是一个典型的前端GPS接收链路，GPS信号在经过两级LNA放大之后通过双工器DPX251606DT，分离出L1和L5频段信号输入给GNSS芯片进行解析。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRocMQNXqg6iafWTe8qNXziareO8TcTG6sv101JwhzCm69pic9bV8O7khFic45CmFvmy5CveIpgBCHHFA/640?wx_fmt=png&from=appmsg)
+
+**_图10-9：双频GPS_**
+
+______€5.工作过程______
+
+双工器能够将TX路径和RX路径连接到一个共用天线，所以双工器又称天线共用器，是一个比较特殊的双向三端滤波器，双工器将微弱的信号耦合进来，又将较大的发射功率馈送到天线上，当发射机和接收机的频率不同时，可以认为是两个滤波器组合在一起，一个滤波器用于接收，另一个用于发射，如**_图10-10_**所示，有些双工器不标发射和接收端而只标LOW和HIGH。双工器通过使用滤波器来区分输入（接收）或输出（发送）信号的频率，隔离发射和接收讯号，从而保证两个不同的信号源之间不会相互干扰，保证接收和发射都能同时正常工作。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSMhjagKLBC8AmBmqMStKVFiatdgLkz6qaCQuhpDkBCaPUQJvicjiayxC9ibaq9rZ6OWw66SAMqVpekOg/640?wx_fmt=png&from=appmsg)
+
+**_图10-10：接收发射同时工作_**
+
+当发射机和接收机的频率相同时，滤波方法不起作用，在这种情况下，使用回环器（Circultor），只有一个方向可以通过信号，如**_图10-11_**所示：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZHFwpj0Hy4qLBwWGlS92oG6JjupDlUKuCbic6vn83tdbBOTyhSRg1MXQ/640?wx_fmt=png&from=appmsg)
+
+**_图10-11：回环器_**
+
+如**_图10-12_**所示，没有双工器，无线接收机和发射机都直接连接到公共(单)天线，发射时大部分信号会经过天线，但有一小部分信号会溢出到接收通道。在大多数无线通信中，接收路径的设计是为了响应非常低的信号强度（手机是uv级），即使溢出的信号量非常小，在LNA的放大下，对接收路径的干扰也会相当严重，在最坏的情况下甚至会损坏接收机里的LNA。接收信号时接收信号的一小部分可能溢出到发射器通路中，接收端的信号总量非常微弱，它不会损坏发射器路径上的器件，但是发射路径上通常设计来增强信号，所以溢出的信号被放大器放大，叠加到本身的发射功率，这种干扰会变得更加严重。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZXlEj1NdXPlibVuGUdb8QLoOD7ibNbT5dYCcDMJ7X36ngVmyFnM1kFT5w/640?wx_fmt=png&from=appmsg)
+
+**_图10-12：发送信号溢出_**
+
+双工器中从接收器路径溢出的能量不能进入发射器路径，双工器中从发射机溢出的信号不能进入接收机通道。
+
+___€6.性能评估___
+
+就结构而言，双工器只是两个滤波器的复合体，因此双工器的特性是基于滤波器的特性。在大多数移动通信中，传输频率和接收频率之间的差距并不大（FDD），所以双工器的关键要求之一，就是如何将接收器的频率和发射器的频率分开。理想的双工器要求是有非常尖锐的频率特性，没有任何重叠，但在现实中，避免不了一定程度的重叠，如**_图10-13_**所示的双工器在1400MHz左右就有一定宽度的重叠，对于这个区间的频率信号，双工器没有任何作用。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZtPMu3AxURjBg0lzFnhU5pVbMoYnyWCAibbicXj1jjUrsuliboKic8Pk9fQ/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TROgk840ibLqhkg5KzzoMaRZ1yibrC8hsZXDuXmZOKat73lB8RI3SVcMaFcNpBdtJfuuHGspmtLsCnQ/640?wx_fmt=png&from=appmsg)
+
+**_图10-13：DPX252501DT的Low Band和High Band存在交叉_**
+
+### 插入损耗：Insertion Loss，简称为IL。IL指的是想要通过频带的信号在通过器件时损耗的量，单位为dB。如果IL良好，则称为滤波器的损耗低或IL低，如果IL较差，则通过的信号会损耗，链路性能变差。
+
+### 衰减量：Attenuation，简称为ATT。衰减指的是想要衰减的频带的信号在通过器件时衰减的量，单位为dB，需要衰减时尽可能的衰减，不需要衰减时希望一点衰减都没有。如果衰减良好，则称为滤波器的衰减量高或衰减大，如果衰减较差，则不想通过的噪声等信号就会通过。当过分追求IL时，衰减特性会有劣化倾向，因此滤波器设计者会平衡IL和衰减特性。
+
+### 反射特性：Return Loss，也叫回波损耗，缩写为RL。Return Loss指的是信号输入到器件时反射的信号量，单位为dB。如果Return Loss良好，则想要通过的信号被滤波器反射的量会较小，这意味着会有较多信号通过滤波器而不被反射。Return Loss是与IL相关的特性，如果IL良好，则Return Loss也会较好。
+
+### 通带宽度：Band Width，简称带宽BW，通带宽度是允许信号通过的频带，单位为Hz。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQdTKESIFciavdyIDLGJBJFic3M1ia2TicLUMdEOMu9ScYkRDic6fsn9ickUP3jicQz9g18iaRnzKar5LOSTg/640?wx_fmt=png&from=appmsg)
+
+**_图10-14：参数视图_**
+
+隔离度：双工器的设计使得每个滤波器不会出现通带加载错误，测量从一个RF端口路径泄露至另一个RF端口路径的功率量来评估隔离程度。两个RF路径之间的隔离程度越高，泄漏越低，如果隔离程度很低，信号会彼此混入，导致干扰，或导致接收器减敏，必须对接收滤波器输出端的发送信号实施大幅衰减。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQdTKESIFciavdyIDLGJBJFic5FutsP4csk95iaG3wtvvJr1G0ySbowYyGQPfPiaia6yTDhrktMvPQzHCw/640?wx_fmt=png&from=appmsg)
+
+**_图10-15：不同频率的隔离度_**
+
+高水平的隔离以免信号过度驱动接收器的前端，这种隔离通常被称为发送-接收隔离，通常用于WCDMA和LTE的双工器隔离度为55dB或更高。在接收频率下，也必须采用高水平的发送-接收隔离。这是为了防止来自发送信号（即在接收频率下）宽偏置位置的噪声出现在接收器输入端，导致灵敏度降低，这两项隔离需求促使实现带内隔离。
+
+______€7.__小结____
+
+双工器的选型首先从产品定义端确定好工作的频段，然后按照整个射频系统接收架构，分配双工的频段，选择合适的双工器或多工器。

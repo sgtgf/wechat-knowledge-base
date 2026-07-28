@@ -1,9 +1,17 @@
+# 基于六面体单元热应力问题的Matlab有限元编程求解
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/raY51I-jyvj2\_3MrIyEN2A](https://mp.weixin.qq.com/s/raY51I-jyvj2_3MrIyEN2A)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/5vZeSpd7nNDohHMOhIEvSgIG7bha3oWU7GWic4Msf0jCtcQQRvTAN3phJ4JctXBlR6lYzX22oLmw05hM7zhfbGg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
 点击文尾阅读原文试看
 
 **作者 |** **SimPC博士**  仿真秀专栏作者
 
 **首发 |** 仿真秀App
 
+![](https://mmbiz.qpic.cn/mmbiz_gif/KY3BXJeOPhbbcy2pMyJUOM8RRM7PA0Oobw5wwTQLwUjIFkqY8sr52rjbpricODJ7RZibQ7ZOOmoibyBKnHNwAWdeg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
 
 **导读：**上一篇《[弹性地基梁matlab有限元编程，以双排桩支护结构计算为例](http://mp.weixin.qq.com/s?__biz=MzI4Mjk2NzQzMQ==&mid=2247528048&idx=2&sn=82f8a367be3b4e7612c89583598d0cf2&chksm=eb93c298dce44b8e5f2aed306427ede0fcbb3048e686ae64bf82c7e063a1f949b875fbe7ecaf&scene=21#wechat_redirect)》引起了Matlab有限元编程学习者的共鸣。今天我想和大家讨论一下热应力问题（六面体单元）matlab有限元编程问题。
 
@@ -13,47 +21,49 @@
 
 因此，本文首先重点讲解的温度作用产生的节点等效温度荷载有限元列式的推导，六面体单元刚度矩阵、雅各比矩阵、应变矩阵有限元列式的推导，温度应力应变的后处理有限元列式，此外还包括上述有限元列式对应的matlab代码实现过程。
 
+![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNCicknynicWaAPHImrp6SQk8WB7dWNYDTkbfTnqwAG8exnv2FKZSTlbCrCb5ch72cnvEOb1YkL4Xiarw/640?wx_fmt=png)
 
 **图1 两端固定约束的四棱柱受单位热应变作用下的应力**
 
-假定通过传热分析我们可以得到，相对于原来状态温度升高了，对于各向同性材料，温度升高会产生一个均匀的应变（通俗地讲，就是热胀冷缩原理，物体会发生膨胀），应变大小与材料的线膨胀系数有关，表示材料在单位温度升高所引起的长度的变化值，一般情况下，在一定范围内可以假定线膨胀系数为常数。若物体能够自由变形，则由温度变化引起的应变不会产生应力。温度应变一般被表示为初应变的形式
+假定通过传热分析我们可以得到，相对于原来状态温度升高了![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNCicknynicWaAPHImrp6SQk8WZ2q5HeXHcn93cIiaP7VV7odTopSQxkVFU7u67BwUoAquUM2Jxwcr5YQ/640?wx_fmt=png)，对于各向同性材料，温度升高![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNCicknynicWaAPHImrp6SQk8WL7xlG04htfkPsGOG2l5LGib7pwEUWdw1S70Ngp449uRwMb9FrIOdHDA/640?wx_fmt=png)会产生一个均匀的应变（通俗地讲，就是热胀冷缩原理，物体会发生膨胀），应变大小与材料的线膨胀系数![](https://mmbiz.qpic.cn/mmbiz_jpg/5vZeSpd7nNCicknynicWaAPHImrp6SQk8WYGdrgrtB35sJ2Gm4clNhwQ1RUwzfSkPI2VYNMf1PExsZOQzuBU6KVQ/640?wx_fmt=jpeg)有关，![](https://mmbiz.qpic.cn/mmbiz_jpg/5vZeSpd7nNCicknynicWaAPHImrp6SQk8WYGdrgrtB35sJ2Gm4clNhwQ1RUwzfSkPI2VYNMf1PExsZOQzuBU6KVQ/640?wx_fmt=jpeg)表示材料在单位温度升高所引起的长度的变化值，一般情况下，在一定范围内可以假定线膨胀系数为常数。若物体能够自由变形，则由温度变化引起的应变不会产生应力。温度应变一般被表示为初应变的形式
 
-    （1）
+![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNCicknynicWaAPHImrp6SQk8WXpnJ0xPywSEBMjxBWE7EWekrNsVMXwuib4pd1LiaCuDUnTfa5FuIKKjQ/640?wx_fmt=png)    （1）
 
 对应的应力-应变关系为
 
-        （2）
+![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNCicknynicWaAPHImrp6SQk8WymF8Vhv5gFxU9MKVIJk7iaFOztg8qGwBwvibTibCVTLse0eFhZZwAakwQ/640?wx_fmt=png)        （2）
 
 接下来将公式（2）的应力应变关系代入到有限元分析列式中，利用虚功原理进行推导。其中虚应力和虚应变场函数的有限元列式如下式
 
-           （3）
+![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNCicknynicWaAPHImrp6SQk8WaA4bvypaGb24EmKxicSHZOkHLez0iaGrPIrsyFdibI5tiauHd91KKEw1uQ/640?wx_fmt=png)           （3）
 
 将公式（2）利用虚功原理，可得到下述虚功方程
 
-      （4）
+![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNCicknynicWaAPHImrp6SQk8WhPib2MkccmFnGbmj7CMIfYQUptAVVrTB4xKLK5prAMrpOrjkez90zAg/640?wx_fmt=png)      （4）
 
 将公式（3）代入公式（4）所示的虚功方程中，并对其进行简化处理，可以得到
 
-    （5）
+![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNCicknynicWaAPHImrp6SQk8W59XL6en45AKhPiadmAibwwz1GWGUZVzicZ8e9G7BSMPjKIpp2Y4dpWFnA/640?wx_fmt=png)    （5）
 
 因为虚位移存在任意性，因此可以除掉公式（5）中的虚位移，进而得到
 
-     （6）
+![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNCicknynicWaAPHImrp6SQk8WFUxV5JEFmSBMk8bqHwIsMl4icCqErdf3Cn3SBia3ibkOSdKCqlNpuVUYw/640?wx_fmt=png)     （6）
 
 其中Ke为刚度矩阵，表达式为
 
-       （7）
+![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNCicknynicWaAPHImrp6SQk8W9y9bEOQATPLaZr2icnU1Tf4ne9oJGqE3o19lroXbqSORdFH4L0H5tRg/640?wx_fmt=png)       （7）
 
-为单元节点载荷，表达式为
+![](https://mmbiz.qpic.cn/mmbiz_jpg/5vZeSpd7nNCicknynicWaAPHImrp6SQk8Wo0JgWPjqKvRGkNia1nWzjDz8xjJek51Tia7E1PhL1Tm5HM8GlqKcA8ibw/640?wx_fmt=jpeg)为单元节点载荷，表达式为
 
-      （8）
+![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNCicknynicWaAPHImrp6SQk8WGLD1a5ubqibHZoVvZTt9qvyZXCgIZtT69wlW0FeR526RibzE4SD7gLvg/640?wx_fmt=png)      （8）
 
 为等效温度载荷，是由热应力引起的节点处等效温度载荷，表达式为
 
-        （9）
+![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNCicknynicWaAPHImrp6SQk8WHiatwMX3ibic01G4RkL7h3gjJEyf8Z544BDK7ATFZb5EmrxjuGWQlMveg/640?wx_fmt=png)        （9）
 
 因此，对于温度应力问题，核心就是求解等效温度载荷。因为公式中包含了B矩阵，即应变矩阵，对于六面体单元应变矩阵的推导过程如下图所示。
 
+![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNCicknynicWaAPHImrp6SQk8W9gCibf7hrZmn3ou5DS3pl6BOPMRxSksZ4hjT7aZKC2S2FibY3poFibRGw/640?wx_fmt=png)
 
 **图1 应变矩阵与刚度矩阵的推导公式**
 
@@ -77,11 +87,13 @@ InterpolationMatrix=zeros(8,8);%求解节点应力应变的插值矩阵
 
 上述便是热应力问题的整个求解过程，以一个两端固定约束的四棱柱为例，其在不同单位热应变的作用下的求解结果如下图所示
 
+![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNCicknynicWaAPHImrp6SQk8WqNrDbX4Mh2PSerSd1w6ibqHAib9My9e4Cg7c8vBs2Y5nC4pMTricd7GYQ/640?wx_fmt=png)
 
 **我的Matlab有限元编程精品课**
 
 推荐大家关注我的原创视频课程里面《[Matlab有元编程从入门到精通](http://mp.weixin.qq.com/s?__biz=MzI4Mjk2NzQzMQ==&mid=2247550237&idx=1&sn=c0d259918b2f780b2c8d9869444d2801&chksm=eb93a9f5dce420e3c84059579329caf3191c2931c7dc9b564dfc19d49b16f5a0bcdcd1a4fc0f&scene=21#wechat_redirect)》目前加餐到第35期。我还会持续更新，强烈推荐学习者订阅。
 
+![](https://mmbiz.qpic.cn/mmbiz_jpg/5vZeSpd7nNCic5zYadU7olH4wP2uN8DfEawgUczMl3WhB04hdOaNB5EqMSiacLF7gN6lDn5EibMOurCO7NOPicT3xg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
 
 **上新优惠价****（限1****0名）**
 
@@ -93,9 +105,12 @@ InterpolationMatrix=zeros(8,8);%求解节点应力应变的插值矩阵
 
 识别下方二维码，**立即试看**
 
+![](https://mmbiz.qpic.cn/mmbiz_gif/ibn9IvQV94yZJ7NFBDlldTiapoFTm9eX0gIxwvsLE2Cn3pkqAARJHFnjCgwxREUg3RWZxVhUDvo7jYOSiblTcC3Zg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXekAp9ichqaXu3Ro7TbCUZKPmicFiaYftMdBqxzfYqgfX8JhN3k6GuqyRMMibv7w9m6eO8vAhOibiaPrUQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 **本课程为matlab有限元编程专题课**，课程主要以**案例的形式进行讲解，**中间会穿插案例中所涉及到的**有限元基本理论**，案例不局限于力学问题的有限元求解，还会涉及**传热学、电学**等问题的有限元求解。
 
-**喜欢****作者******，请点********赞********和在看********
+**喜欢****作者******，请点********赞********和在看******![](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)**
 
-****
+**![](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)**

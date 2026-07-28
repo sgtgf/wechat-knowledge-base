@@ -1,3 +1,8 @@
+# 神奇的Namelist：在Fortran中轻松实现灵活的外部数据交互
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/NKi5VPd8mi5qJu8twNxxVQ](https://mp.weixin.qq.com/s/NKi5VPd8mi5qJu8twNxxVQ)
+
 在科学计算与工程领域，Fortran一直是数值模拟和大规模数据分析的首选语言之一。随着语言的发展，Fortran不断引入现代化的特性，以提升程序的开发效率与代码的可读性。其中，`Namelist`（名称列表组）便是现代Fortran提供的一种强大而灵活的数据输入输出（I/O）机制。它允许用户以结构化的方式读取或写入配置信息，极大地简化了程序与外部数据的交互过程。本文将深入探讨Fortran中`Namelist`的使用方法，并通过丰富的示例展示其对不同变量类型的处理能力。
 
 ## 1\. Namelist简介
@@ -63,6 +68,7 @@
 
   
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

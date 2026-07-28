@@ -1,0 +1,94 @@
+# Analog series-OSC-5：晶振可以输出哪些波形
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/\_GQ7h5yKGwaHvRYdWtw3Fg](https://mp.weixin.qq.com/s/_GQ7h5yKGwaHvRYdWtw3Fg)
+
+____**![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRjF4ay5p8vA9rEv8CnoLMBN3F8nIuUpsiczyX4iaZYWyiab0XeDjhibZCmWlm3LjqvpYMfEn7ercicAsg/640?wx_fmt=png)**____
+
+____**★★★**______OSC-5---晶振的输出波形______**★★★**____
+
+引言：在选谐振器/振荡器或者查看产品规格书时会出现“输出波形”这个参数，无源晶振的输出波形为正弦波，而有源晶振可以输出正弦波或者方波，我们无法从外观辨认有源晶振的波形，需要参照产品规格书。普遍的输出模式有CMOS、TTL、LVDS、HCSL、Sine Wave，本节简述有源/无源晶振输出的各种波形及其特性。（传送门：[Analog series-OSC-1：无源晶振的基础](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247491450&idx=1&sn=37f9f37ad7e1594179b285c63b5231bf&chksm=c33555e5f442dcf36ea23b4e4309917362e8c0b5cb58f586e267598894dd6493ff19c9f4c66a&scene=21#wechat_redirect)；[Analog series-OSC-3：有源晶振基础](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247491578&idx=1&sn=6c4865300aa3d99c4029502da6a13985&chksm=c3355565f442dc73563efd9e2b9a220792a619c38330e83229723987885fdeb0b41208a2585e&scene=21#wechat_redirect)）
+
+______€1.___方波Square Wave___
+
+方波有非差分和差分之分，差分输出波形有LVPECL、LVDS、HCSL。单端输出有CMOS、TTL。
+
+方波的输出功率大，驱动能力强，但是谐波分量丰富，方波的主要参数有输出电平，占空比，上升下降时间。主要应用在数字通信系统时钟上，用来驱动计数电路。**_表5-1_**列出了属于方波类别的波形：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRHg2HtjwOB3vgjWiajPBF0T2kVqyvLFcbibOS63Ht3LBmBaFibibDuvR3oQBHV4tZicCwA1b9w4B4IIiaQ/640?wx_fmt=png)
+
+**_表5-1：方波类型_**
+
+_非差分波 Non-Differential Wave:_
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRjF4ay5p8vA9rEv8CnoLMBqy9sAd4ub0sWWDibibN217RXcPXLiafeia0peSH2dn3mWPbicKHIVK65UiaA/640?wx_fmt=png)
+
+**_图5-1:：单端CMOS波形_**
+
+TTL/CMOS： 电压控制器件结构决定了TTL和CMOS是通用的逻辑电平，输出此类波形所需功耗低，传送时间慢。CMOS噪声容限比TTL大，输入阻抗比TTL大，CMOS输出器件适合走线较短的电路布局，适用于较低频率的时钟源(低于200MHz)，可使用低阻值串联电阻来减少反射并保持稳定的信号。CMOS比TTL有更低的成本，以及更好的抗噪性，**_图5-2_**演示了正弦波、TTL、CMOS三种波形的特征，CMOS波形幅度更高，更陡峭。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OHzqafvicFhyY438aianAbSMiaJrpiayF0pEDglziasUks70ic0I3oL8ONKqg/640?wx_fmt=png)
+
+**_图5-2：三类波形对比_**
+
+_差分波 Differential Wave:_
+
+ECL速度快，驱动能力强，噪声小，但是功耗大，使用中需要负电源。为了简化电源，出现了PECL和LVPECL的输出模式。
+
+PECL是经常用于高速领域内的一个非常重要的逻辑电路，电路速度快，噪声小，高频。高功耗是PECL输出的主要缺点，且不同电平不能驱动。如果使用低电压3.3V/2.5V，则被称为LVPECL，即Low Voltage PECL。(P)ECL是高速领域内一种十分重要的逻辑电路，它的优良特性使它广泛应用于高速计算机、高速计数器、数字通信系统、雷达、测量仪器和频率合成器等方面。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRjF4ay5p8vA9rEv8CnoLMBXkSvHibibgRkC3AAouuZ5H88eFHDrkjgG3pU8hpVicYWTLLTWmt42gBicQ/640?wx_fmt=png)
+
+**_图5-3：差分LVPECL_**
+
+LVDS为低电压差分信号，CMOS/TTL接口传送速率不高，距离较短，抗EMI电磁干扰能力较差。然而LVDS可以解决这些问题，速率高，噪声低，传输距离远且准确，LVDS输出频率最高可达到2.1GHz，供电电压在1.8~3.3V。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRjF4ay5p8vA9rEv8CnoLMBT2jluBOpzPR7duNTbVQhvBaP4026eJ3QzcNw1Dv3rbfo3QhOHexWyQ/640?wx_fmt=png)
+
+**_图5-4：差分LVDS_**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRHg2HtjwOB3vgjWiajPBF0TqmdtWSP31vwQ0UXVNRYTCujQkxic4TsRzsDO6ru2td7Z80nFzCZUDvg/640?wx_fmt=png)
+
+**_表:5-2：LVDS参数示例_**
+
+HCSL为高速电流驱动逻辑，HCSL是一种类似于LVPECL的新输出标准，其中一个优点是高阻抗输出，开关速度快，平均功耗介于LVDS和LVPECL之间。以7.0x5.0mm贴片为例，6引脚最高可达到250MHz，8脚最高可达到700MHz。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRjF4ay5p8vA9rEv8CnoLMBwoO0cqYc8l8gDANCPJ9mkcHfiaUkEDqbw0wQYF9ZiaqoguL2lAZ1foCw/640?wx_fmt=png)
+
+**_图5-5：差分HCSL_**
+
+_________€2.正弦___波Sine Wave______
+
+正弦波分为准正弦波和削峰正弦波（Sine/Clipped Sine），都是单端输出。
+
+_正弦波Sine Wave_
+
+正弦波的功率不如方波，但是其谐波分量小，振荡电路的自然输出信号是正弦波，仅包含一个基频，不存在谐波，正弦波输出非常适合低相噪的应用。
+
+_准正弦波True Sine Wave_
+
+准正弦波其负载阻抗50Ω，谐波分量小，应用于射频信号处理，频率源等。 
+
+_削峰正弦波Clipped Sine Wave_
+
+削峰正弦波谐波分布小，驱动能力比方波弱，负载10k//10PF时Vp-p为0.8Vmin 
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRq30eFhfGV2Jo12YrVkM1OF6Z0gXFJibYY3XIaXgga9QaTZuVQklVPNRaLdWAk1c033RuVscJgCJQ/640?wx_fmt=png)
+
+**_图5-6：准正弦波和削峰正弦波_**  
+
+常见信号波性能比较如**_表5-3_**：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRHg2HtjwOB3vgjWiajPBF0TAogibklCZagUj6uAaWI94SG7kH4747ZrckFh4rYQy1mYaZSMm4aDrAQ/640?wx_fmt=png)
+
+**_表5-3：各类信号波形性能比较_**
+
+__________________€3._________小结_________
+
+1#：无源SMD晶振输出波形为正弦波，有源晶振输出波形为正弦波或方波。有源晶振本身输出是正弦波，在其内部加了整形电路，所以输出是方波，正弦波一般用的很少，普遍用的都是方波输出。
+
+2#：方波主要用于数字通信系统时钟上，用来驱动时纯计数电路或门电路，对方波主要有输出电平、占空比、上升/下降时间、驱动能力等几个指标要求。
+
+3#：正弦波主要用于对EMI、频率干扰有特殊要求的电路，这种电路要求输出的高次谐波成分很小，后面有模拟电路选用正弦波也是比较好的选择。
+
+4#：方波输出功率大，驱动能力强，但谐波分量丰富，通常需要提供例如谐波、噪声和输出功率等指标。正弦波输出功率不如方波，但其谐波分量小很多，EMI特性更好。

@@ -1,3 +1,10 @@
+# Fortran 仍然在被使用的 5 个重要原因
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/LwQXzbuBjqRW0CtdyJ5QjA](https://mp.weixin.qq.com/s/LwQXzbuBjqRW0CtdyJ5QjA)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVV6GUal5MQQmOiaibBt0gFuzAna2vCrs1c8VR8ylO2fuzVYANnicsjkqjXycSLdHwxutxgjD5JbAJbVA/640?wx_fmt=png&from=appmsg)
+
 时不时地会被一些编程小白问到，Fortran这么古老的编程语言还有前途吗？
 
 作为 Fortran 的忠实老粉，自己自然很想给出一个肯定的答复，但毕竟不是编程语言专家，不敢妄下断言。好在自己平时读的资料比较多，依稀记得以前读过一篇博文，对 Fortran 现在仍然在被活跃使用的原因阐述得比较深入。为了解除大家的困惑，周末抽空把这篇博文重新翻找出来，简单翻译了一下，贴给大家参考。
@@ -102,6 +109,7 @@ MPI 作为一个标准化的网络层，已经成为了过去 25 年集群计算
 
 Fortran的学习之路永无止境，随着你不断地深入，你会发现更多的宝藏。无论是高性能计算、并行编程还是优化算法，Fortran都有着广泛的应用。在这个过程中，你不仅会学到编程技巧，还会培养出解决问题的能力，这将是你宝贵的财富。祝你在Fortran的世界中探索愉快！
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 FEtch 系统是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于 Fortran 90 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

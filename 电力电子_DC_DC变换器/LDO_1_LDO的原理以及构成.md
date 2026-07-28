@@ -1,0 +1,122 @@
+# LDO-1：LDO的原理以及构成
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/uZiQoQSCNQ5w06UaEJIP-g](https://mp.weixin.qq.com/s/uZiQoQSCNQ5w06UaEJIP-g)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTaOOwRKB5ImVXGmMTVIpMLOOH4fr9wX7PsefhibicomvwRcDNxW0CtgSD04CokhlmdwBYl5SmmcpmQ/640?wx_fmt=png)
+
+**_★★★_****_LDO-1-----LDO的原理以及构成_****_★★★_**
+
+引言：LDO作为使用最为广泛的模拟电源器件之一，因为其采用线性工作，特别适合用来滤除开关电源产生的电压纹波，在处理许多非常小的信号应用中，这种纹波可能会造成干扰，本文从不一样的角度来进一步了解其基本工作原理。
+
+_€1.什么是线性稳压器_
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQoXmmfDxaYZtmA0KGoZP90uGb3gkkGF1mzu8Y0fd4lH27iap2R1wS9tNqVJLibsAeQZEaPibQoZCwHA/640?wx_fmt=png)
+
+**_图1-1：LDO的内部结构_**
+
+如**_图1-1_**，LDO由误差放大器（误差检测用放大器）、基准电压源、输出晶体管三部分组成，与DCDC电路不同的是，输出晶体管的工作状态不是开关模式，而是线性工作模式，这一点许多人会进入认知误区，我们后面会再着重讲到。作为一个标准的负反馈回路，当输入或负载发生变动而输出电压开始波动时，误差放大器会连续比较来自输出电压的反馈电压和基准电压，并控制输出功率晶体管使它们的差为零，从而保持输出电压Vout恒定。这就是通过反馈环路控制实现电压稳定（稳压）。在反馈环路中，误差放大器的同相引脚电压始终试图与VREF 相同，故流经Rdown的电流是恒定的。流经Rup和Rdown的电流可以通过 VREF/Rdown求得，因此Vout是该电流乘以（Rup＋Rdown）所得的值。这是遵循了欧姆定律，公式如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TQoXmmfDxaYZtmA0KGoZP90Lb5Z1ta8TPib3HmLQMiaCZcm9xjnvxP52x7TEzePYQ57ZRd6MiaE4iaabg/640?wx_fmt=png)
+
+回到输出晶体管这部分，工作在线性区域的晶体管可以视为是一个压控电流源（MOS类型），控制电路连续监视（检测）输出电压，并调节电流源（根据负载的需求）以把输出电压保持在期望的数值。所以电流源的设计极限限定了稳压器在仍然保持电压调节作用的情况下所能供应的最大负载电流。输出电压采用一个反馈环路进行控制，其需要某种类型的补偿以确保环路稳定性。大多数线性稳压器都具有内置补偿功能电路，无需外部组件就能保持完全稳定。某些稳压器（比如低压降型）则确实需要在输出引脚和地之间连接一些外部电容以确保稳压器的稳定性。  
+
+_€2.LDO的模型与拓扑_
+
+1.NPN型的LDO
+
+NPN型的LDO分两大类：一种是用达林顿管做的LDO，因为当时的单个晶体管的放大倍数不是很大，所以要用达林顿管来构成更大的放大倍数。在这里不讨论达林顿管构成的LDO；另一种就是单个NPN 型晶体管构成的LDO。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TS3ibsJZdMmcrNzPdgm9ib0iafKFEYRSdncQY04UKpUwVicvyIVibaicicFWQSUYthBKF9XgENSleliaicphag/640?wx_fmt=png)
+
+**_图1-2：NPN型LDO_**
+
+**_图1-2_**是NPN型的LDO架构图，从图可知经过输出采样之后，通过一个小信号NPN三极管来控制一个PNP型的前级晶体管，这个前级的晶体管再通过集电极的电流来控制NPN晶体管。在上图中Q2集电极和发射极之间的电压VCE(Q2)一定会叠加在功率三极管Q1的集电极和基极之间的电压VCB(Q1)上面。这两个电压的叠加是我们能在控制一个稳定电压的情况下，决定输入电压最低是多少的两个成分。
+
+**_图1-3_**是描述的是 NPN“准LDO”在一个5mA和500mA的负载电流下需求的驱动电流。从下图可以看到，在不同的条件下，我们需要芯片本身的静态电流产生怎样的变化才能对这样负载的变化有一个比较好的调整。可见在NPN型的LDO中，芯片的静态电流是会随负载电流的增加而增加的，而且是成比例增加的。当然在NPN型的三极管当中这种电流的总体的绝对值也是比较小的，就像这里例子里面的就算它的负载电流达到500mA，它的静态电流也小于1mA 。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTibDSU8daG19XkrDFlTCqMn4LsRVAuFiaeFu35X3v6J3UKciaXYic3WoEicu3lOYaBe2Pg1wCgojFSuFQ/640?wx_fmt=png)
+
+**_图1-3：左边为5mA负载，右边为500mA负载_**
+
+小结1.0：NPN准LDO具有如下特性
+
+-   要求输入电压至少比输出电压高0.9V至1.5V
+    
+-   接地引脚电流大于NPN-达林顿管，但小于PNP-LDO稳压器
+    
+-   需要一个输出电容器，但一般不像PNP-LDO那样具有特殊的ESR要求
+    
+
+2.NPN型的LDO
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTibDSU8daG19XkrDFlTCqMnibEl89FNHnibybw3OxmHYcZ6dh78oF2By9icWxP1aGSgcAYSfRCOPTvOw/640?wx_fmt=png)
+
+**_图1-4：PNP型LDO_**
+
+一个PNP型的LDO它的压控恒流源是由一个功率型的PNP管(Q1)来构成（**_图1-4_**），同时在它的基极也会连接一个对地的NPN型的晶体管(Q2)，这就是一个典型的PNP型LDO的架构。在上图右边它一样是由两电阻来检测电压，然后把它放进误差放大器里面和一个基准作比较，放大之后对Q2进行控制。Q2集电极上的电流会控制Q1上基极的电流。由于功率晶体管(Q1)是PNP型的晶体管，它的集电集输出，因此由于它的这种结构它的输出阻抗是比较大的。在这种输出阻抗比较大的情况下，我们必须给输出增加输出电容器，也要控制这个电容器的ESR控制在一定范围之内，才能保证这种LDO的工作稳定。
+
+**_图1-5_**是描述的是PNP型LDO在一个5mA和500mA的负载电流下需求的静态电流。由于PNP型的静态电流，也就是它的功率晶体管(Q1)基极对地流出的电流，直接决定了它的集电极能够给负载提供的电流，而这个输出电流也决定于基极和发射极电流之间的β比。因此我们也可以看到NPN型LDO的静态电流是远远大于NPN型的LDO的。由下图我们可以看到当在5mA负载电流情况下它的静态电流已经远远大于1mA了。由下图我们也可以看到PNP型的LDO中和在NPN型的LDO中一样，芯片的静态电流也是会随负载电流的增加而增加的，而且是成比例的增加。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTibDSU8daG19XkrDFlTCqMn5Wiab4oBiaJsFrqOYg5lmYmrPAzazqT65C5ErO5SiakUbUOFYZ8wvSiayw/640?wx_fmt=png)
+
+**_图1-5：左边为5mA负载，右边为500mA负载_**
+
+小结2.0：NPN准LDO具有如下特性
+
+-   要求输入电压至少比输出电压高100mV至700mV
+    
+-   具有高于NPN型LDO的接地引脚电流  
+    
+-   需要谨慎地选择电容器数值和ESR额定值
+    
+
+3.NMOS型的LDO  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTibDSU8daG19XkrDFlTCqMnTLM7OnwK9GmCREMib1L2sEtPl3y7ibibu0o6l65LTG0NfbWLa0P5zoibJQ/640?wx_fmt=png)
+
+**_图1-6：NMOS型LDO_**
+
+**_图1-6_**从功率型晶体管变成了NMOS，结构没有变化，在整个线路里面对输入于输出的压差构成限制的不再是晶体管的基极与发射极之间的结压降，而是MOS管里面门级到漏极之间的最小压差。**_图1-7_**简单表示了经由NMOS传输元件流至负载的电流。这里所使用的栅极至源极电压(VGS)用于说明原理。NMOS LDO它同样是采用一对电阻来采样输出电压，把它送入误差放大器的输入端，接着和一个基准做比较，然后在误差放大器里面进行放大，最后产生一个电压信号来控制NMOS的门级。实际的栅极至源极电压将取决于所运用的制造工艺以及设计考虑因素。一个标准的NMOS传输晶体管实际上将由几千个并联的单独晶体管组成。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTibDSU8daG19XkrDFlTCqMnzgF8ohbxWaZr7bDWXoOR4WS6AKNca1WErdw0VHeRksoWCN5ErP3hmw/640?wx_fmt=png)
+
+**_图1-7：NMOS传输元件流至负载的电流流向_**
+
+与晶体管对于高负载和低负载所需要的驱动电流变化大不同，NMOS LDO在一个50mA和3A的负载电流下需求的静态电流差不多，虽然这种负载的变化是比较大的，但是在静态电流上几乎是没什么变化的，因为N型MOS我们只需要用电压信号来控制，这个电压信号不需要消耗误差放大器里面本身的电流。因此我们可以看出由NMOS构成的LDO相对于晶体管而言它的静态电流是它一个最大的优势。
+
+小结3.0：NMOS型LDO的特点
+
+-   要要偏置电压用来上拉NFET
+    
+-   NFET的导通电阻低于PFET；允许非常低的VIN和VOUT；较低的输出阻抗可减轻负载极点的影响  
+    
+-   可以在使用小容值外部电容时保持稳定；接地引脚电流可以保持很低；高DC增益和不错的带宽
+    
+-   要求输入电压高于输出电压（高出的值取决于传输MOS的VGS要求）
+    
+-   接地引脚电流不随输出负载电流变化；不需要任何的输出电容器（为了动态响应更优良建议还是使用）
+    
+
+4.PMOS型的LDO
+
+在上面的NMOS LDO中，NMOS由于它的源极和门级之间的导通门限，使简单构成的NMOS LDO它输入和输出之间的压差不可能很小，必须大于这个导通门限，如果我们引入一个单个的偏置电压对某些应用来说又是一个负担。因此我们可以引用另外一种方式，也就是PMOS构成的LDO来减少这一部分使能。由于PMOS它的输入端是接在它的源极上（如下**_图1-8）_**，而门级是需要低于源极才能使它导通，所以这个就是PMOS的LDO在驱动上天生的要比NMOS的LDO简单。同样的，驱动门限是不会随负载电流电流的变化而改变。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTibDSU8daG19XkrDFlTCqMniaUyeoN5Wv2r53lHRUvlCfoiaHsj6CNMP4K4D42QYwqIGOaQiaCnIicDcw/640?wx_fmt=png)
+
+**_图1-8：PMOS型LDO_**
+
+小结4.0：NMOS型LDO的特点
+
+-   要求输入高于输出电压（基于负载电流和传输元件的导通电阻：VIN＞RDS(ON)\*IOUT）
+    
+-   要求输出电压高于传输元件的VGS需求  
+    
+-   要求慎重的选择输出电容数值和ESR额定值  
+    
+-   为了实现相似的RDS（on）性能，PMOS晶体管所需的晶片面积将大于NMOS晶体
+    
+      
+    
+
+许多业界标准的线性稳压器采用单电压供电执行低压差工作，但大多数无法同时实现低输出噪声、极低电压转换、宽范围输入/输出以及广泛的保护功能。PMOSLDO可实现压降并在单电源下运行，但在低输入电压下受到传输晶体管VGS特性的限制，并且它们不具备高性能LDO所提供的许多保护功能。基于NMOS的器件可提供快速瞬态响应，但它们需要两个偏置电源为器件供电。NPNLDO可提供宽输入和输出电压范围，但它们需要两个电源电压或具有更高的压差。相比之下，通过适当的设计架构，PNPLDO可实现低压差、高输入电压、高PSRR以及极低的电压转换，具有多重保护功能，并且只需要单电源。

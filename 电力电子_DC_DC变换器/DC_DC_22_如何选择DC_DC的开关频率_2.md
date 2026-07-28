@@ -1,0 +1,48 @@
+# DC-DC-22：如何选择DC-DC的开关频率-2
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/wNKMbJo9gPFf46hv04ah-w](https://mp.weixin.qq.com/s/wNKMbJo9gPFf46hv04ah-w)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSjoRKCEakWucsHr3J1YibF7oQeTmFZ7mZcoAsibSU8Jj6mOgbfuA5Nd8l1MZC4dp8tDdDSvNPPVrfQ/640?wx_fmt=png)
+
+____**★★★**______DC-DC-22---开关频率的选择______**★★★**____
+
+引言：上节（传送门：[DC-DC-21：如何选择DC-DC的开关频率-1](http://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247491054&idx=1&sn=6665023034f60a41965e6fcec947293d&chksm=c3355771f442de671579aebacc00f26ac6b22d9f9027a2651585c6623975ce20dde570a294ba&scene=21#wechat_redirect)）简述了DC-DC的工作频率定义和基本的频率影响因素，本节简述开关频率的另一个选择考虑点--->频段。
+
+___€1.关于开关损耗___
+
+关于上节提到的开关损耗，可能有人不太理解为何开关次数越多，开关损耗越大，损耗不应该是开启时间越长大吗？（Q=I²×Rdson×t）
+
+还是以上节选择的500KHZ、1MHZ和2MHZ来进行分析，如**_图22-1_**所示，将同一款降压DC-DC，Vin=12V，Vout=6V，设定为三个工作频率，分别为f1=2MHZ，f2=1MHZ，f3=500KHZ。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTib9T3EPwTd2icLq7AxABib2dTJOuANE3ic2jicH8ZWA0N8xeOicPic2w9JeXx2nD2VcKnQZgK28Yj9dPrQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+**_图22-1：同一器件不同工作频率_**
+
+首先来看三种工作频率的热损耗值，根据Q=I²×Rdson×t，I和Rdso都相同，以f=500KHZ的一个周期为例，周期时间=2us，开启时间t=1us，而2us内f=1MHZ和2MHZ的累积开启时间t也等于1us，所以可见工作频率的不同不影响开关元件的导通热损耗值，都是相同的。  
+
+回顾MOS的开关切换过程，电压阈值从小到大，对应Rdson从大到小，此时切换过程的Rdson比完全导通时的要大，再加上G极充电，这时就存在比较大的开关损耗，随着开关次数增多。
+
+___€2.开关频率和频段的关系___
+
+常见的开关频率的选择会在300KHZ以下，300KHZ到530KHZ或是1. 8MHZ以上这三个频率区间。如**_图22-2_**，从车载EMI CLSPR25 Class3 CE的限制标准可见，频段线并不是连续的，其具有分段断续的特点，所以便可以将开关频率设定在这些区域内。
+
+_![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSZecfsXUcdONl3jb6uicdrIotCxXjs8qeibgHH6Pdibse7jtvtqRVDKoalL8LjpNNK21EsUMMxwcGdg/640?wx_fmt=png)_
+
+**_图22-2：关键频段_**
+
+蓝色线是CISPR25 Class 3 PK，紫色线是CISPR25 Class 3 AV，并且随着频率变大，峰值功率和平均功率要求也越严苛。可以看到300KHZ-500KHZ和1.8MHZ-2.2MHZ有效避开了这两个区间。
+
+对于300KHZ以下，辐射功率均值放宽到70dB，并且在小于150KHZ以下频率段时也没有了限制要求。所以我们在汽车电子应用中针对开关频率的选择，也要将EMI特性考虑在内。
+
+___€3.开关频率的选择建议___
+
+_#1：_外围器件尺寸因素，比如车载摄像头往往采用串行设计，POC供电，摄像头模组本身需要将POC供电转换为3.3V/1.8V/1.2V。而PCB板的尺寸往往都很小，因此外围器件尺寸大小自然是作为首要考虑，所以对于电源来说，通常是用2MHZ以上的开关频率。此外，摄像头的功耗不大，一般是2到3W左右，即便选择了较高的开关频率，也不用担心会给芯片带来较大的温升以及EMI的问题。
+
+_#2：_开关损耗和芯片温升。在车载USB充电的使用场景，并不会选择2MHZ的开关频率。因为考虑到每个充电口都支持PD快充，功率可以达到20W、30W，而双口总功率高达60W，在85度车载环温情况下，散热问题是很大的挑战，同时受到PCB尺寸限制，也不会选择150KHZ以下，所以在这个应用场景中，350-500KHZ选择的最多。
+
+_#3：_如果担心DC-DC触发过温保护，可以选择f＜300KHZ；如果兼容体积和EMI，可以选择最为常见的频率，300KHZ≤f≤530KHZ；如果受限于空间体积或者担心干扰特殊射频频段，可以选择f＞1.8MHZ。
+
+_#4：_冷机启动会导致电池电压跌到更低，所以在高开关频率时，需考虑到输入电压很高或很低的情况，即占空比很大或是很小时会触发到芯片在一个开关周期中及最小导通或者关断时间，导致工作频率降低（自动调整频率的可以降频避免触发，而不能自动调整的就会导致输出纹波电压变大）。
+
+_#5：_开关频率的选择是在效率和体积大小之间的平衡。低频工作通过减少MOSFET开关损耗来提高效率，但需要更大的电感和/或电容来保持低输出纹波电压。

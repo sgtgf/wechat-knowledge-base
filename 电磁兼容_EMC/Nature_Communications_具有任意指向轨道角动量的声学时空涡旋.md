@@ -1,0 +1,69 @@
+# Nature Communications：具有任意指向轨道角动量的声学时空涡旋
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/As5mRRpVYinumtVldPKLGg](https://mp.weixin.qq.com/s/As5mRRpVYinumtVldPKLGg)
+
+**![](https://mmbiz.qpic.cn/mmbiz_gif/ia1BibkItfQXTsgYvzRSHbDc9IWXAmvO3JS7B1bFiaXySQcbtbCWoyl6QOAudiciaxNL9NgOsR1PTZ9P7ibicGW5ye7kQ/640?wx_fmt=gif)**  
+
+**![](https://mmbiz.qpic.cn/mmbiz_jpg/ia1BibkItfQXT0icEfSDYCXbuibNCdFovHNEcR2eJAMnia7LYZmNo0kRjnj6UiaIiakc4rZNSfGib6amod4zVewzJakXNA/640?wx_fmt=jpeg)**
+
+欢迎课题组投递中文宣传稿，投稿方式见文末
+
+**导读**
+
+近日，南京大学陈延峰教授、卢明辉教授团队在声学时空涡旋研究方面取得重要进展。研究团队通过在三维空间中对声场时空结构进行精密调控，成功产生了具有任意指向轨道角动量的声学时空涡旋，为研究具有新颖时空结构的声场提供了新平台。该研究成果以“Generation of spatiotemporal acoustic vortices with arbitrarily oriented orbital angular momentum”为题发表于《Nature Communications》。论文共同第一作者为南京大学博士研究生刘帅和葛浩副研究员，通讯作者为南京大学葛浩副研究员、卢明辉教授和陈延峰教授。南京大学许相园博士、博士研究生孙远共同参与了研究。上海科技大学刘晓平研究员对该工作做出了重要贡献。该工作得到了国家重点研发计划、国家自然科学基金、江苏省自然科学基金等相关项目的支持。
+
+**研究背景**
+
+涡旋作为一种普遍存在的物理现象，在电磁波、声波等物理系统中得到了广泛而深入的研究。光涡旋和声涡旋通常呈现出环形的强度分布和螺旋形的相位分布，并能够携带与传播方向同向的纵向轨道角动量。近年来，时空涡旋作为新兴研究热点，突破了传统单频涡旋的局限。这种宽频波包展现出在时空域中的螺旋相位结构，使其能够携带垂直于传播方向的横向轨道角动量。这一重要特性为涡旋波束引入了新的自由度，在信息传输、模拟计算、粒子操纵等领域得到广泛应用。
+
+  
+在光学领域，时空涡旋的生成技术已取得显著进展。通过包含空间光调制器、透镜等元件的复杂光学系统或光子晶体板和共振衍射光栅等结构成功实现了时空涡旋的实验生成。在声学领域，声学时空涡旋这一新兴方向开始崭露头角，为声学轨道角动量的应用赋予了全新的维度。在课题组之前的工作中(Phys. Rev. Lett. 131, 014001 (2023))，利用一维声学相控阵在二维声波导中产生了声学时空涡旋波束，并研究了声学时空涡旋的横向扩散效应和不同拓扑荷涡旋态的正交性。然而，这些涡旋波束通常限制在准二维空间内传播并只能携带横向轨道角动量。如何实现三维空间中时空涡旋的精密调控与测量以及声学轨道角动量的任意精准指向调控，仍是尚未探索过的关键问题。
+
+**研究亮点**
+
+该工作考虑了两种调控声学轨道角动量指向的方式：第一种方法是在三维空间中直接旋转携带纵向或横向轨道角动量的时空波包，如图1(a)所示；第二种方法是在一个时空波包中结合携带不同方向轨道角动量的涡旋，如图1(b)所示。为了产生携带任意指向轨道角动量的时空波包，首先要给定对应时空波包的数学表达式，然后对其进行傅里叶变换得到其空间频率谱。在空间频率谱中采样出一系列具有对应频率和传播方向的平面波模式，并通过声学相控阵同时产生这些模式，这些平面波叠加后就产生了对应的时空波包。实验装置的示意图由图1(c),(d),(e)给出，由声卡控制的二维声学相控阵可以精密调控时空波包的结构，利用麦克风阵列可以在时空域中对时空波包的声压场进行精准测量。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/PDNYolnGcl6VzuDGIK3CaQZNSBEYcVIxareytTicoiag0LYHRuJwcIibTXgMMIf6RzgLTPlvSbA1t77TDwuiaiaKsQA/640?wx_fmt=png)
+
+图1：(a)通过旋转波包调控轨道角动量的方向；(b)通过结合两种涡旋调控轨道角动量的方向；(c)实验示意图；(d)声学相控阵的扬声器排布；(e)实验设备照片。
+
+首先产生的是携带纵向轨道角动量和横向轨道角动量的时空波包。时空波包的等值面由图2(a),(b)给出，所有波包都沿z轴方向传播，橙色箭头给出了波包携带的轨道角动量方向。由于相位奇点的存在，波包的等值面会出现对应的孔洞结构。携带纵向轨道角动量的时空波包的截面振幅和相位分布分别由图2(c),(e)给出，其中振幅表现出环形分布，相位表现出螺旋分布。携带横向轨道角动量的时空波包的截面振幅和相位分布分别由图2(d),(f)给出，其同样具有环形的振幅分布，而相位表现出时空涡旋特有的刃型相位位错。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/PDNYolnGcl6VzuDGIK3CaQZNSBEYcVIx7Hmd0j3LyMGGYL4eD4EzDicJ0WL7TibyM2hrbj0XCpUmbfmjeOUwGU1g/640?wx_fmt=png)
+
+图2：(a)携带纵向轨道角动量的时空波包等值面；(b) 携带横向轨道角动量的时空波包等值面；(c),(e)携带纵向轨道角动量的时空波包截面振幅和相位分布；(d),(f)携带横向轨道角动量的时空波包截面振幅和相位分布。
+
+为了改变轨道角动量的方向，第一种方法是对携带纵向或者横向轨道角动量的时空波包进行旋转，通过调整旋转的方向和角度对轨道角动量的方向进行调控。在该工作中，以将携带纵向轨道角动量的时空波包围绕x轴旋转45度为例，旋转后的波包等值面如图3(a),(b)所示，可以看到轨道角动量的方向也旋转了45度。图3(c),(d)和(e),(f)分别给出了波包不同截面的振幅和相位分布，可以看到在其中两个截面中分别具有螺旋和刃型相位位错的相位分布，分别对应于轨道角动量的纵向和横向分量。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/PDNYolnGcl6VzuDGIK3CaQZNSBEYcVIxDVOR0jbnx8Mh7B0UGvXQODicKu3anjXOLdUxRogViaeKQtY0jHU3pzvg/640?wx_fmt=png)
+
+图3：(a),(b)旋转后时空波包的等值面；(c),(d)三个方向截面的振幅分布；(e),(f)三个方向截面的相位分布。
+
+第二种调控声学轨道角动量指向的方法是在一个时空波包中结合两种携带不同方向轨道角动量的涡旋，通过调控两种涡旋的相位分布，可以改变对应的轨道角动量分量的大小，从而调控波包携带的轨道角动量方向。图4给出了结合两种涡旋的时空波包的等值面和截面声压场。由于存在两种涡旋，在波包的等值面上出现了两个孔洞。当两种涡旋围绕相位奇点一圈的相位增量均为2π时，此时轨道角动量的方向与y轴和z轴夹角均为45度，如图中橙色箭头所示。另外，如图5所示，还可以在一个波包中结合三种不同的涡旋，从而可以实现在三维空间中任意调控声学轨道角动量的方向。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/PDNYolnGcl6VzuDGIK3CaQZNSBEYcVIxj7c6WJDfsBIOLXOwhFVD3reK8QghicHpo2K7aPdHXPsaZuEtia61icDmA/640?wx_fmt=png)
+
+图4：(a),(b)结合两种涡旋的时空波包等值面；(c),(d)三个方向截面的声压场分布。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/PDNYolnGcl6VzuDGIK3CaQZNSBEYcVIxyvnlcCtgsEibUdOdPUQJSp7VrWXjzZ5Iic2RlXBTtqWAwpMxibZSpiaYicg/640?wx_fmt=png)
+
+图5：(a),(b)的结合三种涡旋的时空波包等值面；(c),(d)三个方向截面的声压场分布。
+
+**总结与展望**
+
+  
+
+该工作将声学时空涡旋的概念推广到了三维空间，通过旋转波包或结合多种涡旋的方式实现了具有任意指向轨道角动量的声学时空涡旋生成。通过将二维空间扫场与一维时域信号测量相结合，实现了时空域中三维波包的精确表征。轨道角动量的方向作为一种新的自由度，扩展了操纵声波的能力，在多个领域具有潜在应用。例如通过声学时空涡旋与粒子之间的相互作用，可以将任意方向的轨道角动量转移到粒子上，从而实现瞬态和任意方向的粒子操控。该工作为探索具有新颖时空结构的三维声场提供了一个新平台，这将有助于发现和研究更奇特的声波物理现象。  
+  
+论文链接：
+
+https://doi.org/10.1038/s41467-025-58154-1
+
+![](https://mmbiz.qpic.cn/mmbiz_png/PDNYolnGcl6VzuDGIK3CaQZNSBEYcVIxkL3gyZmJhkhicYRTcsEsRSHFibM6PRIicyx8oqkiba9uTEGMtvhPlkghdA/640?wx_fmt=png&from=appmsg)
+
+                 供稿：课题组![](https://mmbiz.qpic.cn/mmbiz_jpg/PDNYolnGcl7zYgSqgy27lQHBQ6ghFPqfSxU3fvPE0hKFZnK8sVZ2nE64Kk9ZUpCzPvCFpHXTX6aqhZe3GqPcGQ/640?wx_fmt=jpeg)
+
+免责声明：本文旨在传递更多科研资讯及分享，所有其他媒、网来源均注明出处，如涉及版权问题，请作者第一时间后台联系，我们将协调进行处理，所有来稿文责自负，两江仅作分享平台。转载请注明出处，如原创内容转载需授权，请联系下方微信号。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/PDNYolnGcl4PVqDwPeuuHCaDHXWDgUic8RyPbSicWIA2Eibrd2AfsQr4mREunHDicIDMribzGBviaCd5xJzDuMmeDstQ/640?wx_fmt=png)

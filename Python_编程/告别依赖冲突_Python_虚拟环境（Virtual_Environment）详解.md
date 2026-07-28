@@ -1,3 +1,12 @@
+# 告别依赖冲突：Python 虚拟环境（Virtual Environment）详解
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/-fMxkRbwdoy8TJdcK5DIkQ](https://mp.weixin.qq.com/s/-fMxkRbwdoy8TJdcK5DIkQ)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVXkszTAU2XWHdU0FE9cibs9dt9GsJA7gZkOA8jojfUlONf2TTgU5VctDMoxjpdxwvicBCg02E4qIu6Q/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWh0MiciboCT8a5lGdWXL7ZGqpfdQKYM9YsJZiaEgIjkUYz3oHylhw90eolJ1NeOhXqw24XGeqLFqbHQ/640?wx_fmt=jpeg)
+
 在现代 Python 开发中，项目依赖管理是每个开发者必须面对的问题。不同项目可能依赖不同版本的第三方库，甚至需要不同的 Python 解释器版本。如果将所有依赖都安装在全局环境中，很容易造成“依赖地狱”（dependency hell）——即多个项目之间因依赖冲突而无法正常运行。为了解决这一问题，Python 提供了**虚拟环境**（Virtual Environment）机制。本文将深入探讨 Python 虚拟环境的目的、创建方式及日常使用方法，帮助你高效管理 Python 项目。
 
 ## 一、什么是 Python 虚拟环境？
@@ -32,6 +41,7 @@ Python 虚拟环境是一个**独立的 Python 运行环境**，它允许你在�
 
 目前主流的虚拟环境工具有三种：
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVWh0MiciboCT8a5lGdWXL7ZGqXRY45v0WYhWUHkhJOOo6rnXefHg7Cal0bClYbDalkQlNPu2r0Lice6w/640?wx_fmt=png&from=appmsg)
 
 > **建议**：对于大多数 Python 3.3+ 的项目，优先使用内置的 `venv` 模块，无需额外依赖，简洁可靠。
 
@@ -211,11 +221,13 @@ Python 虚拟环境是现代 Python 开发的基石。它不仅解决了依赖�
 如何写出优雅的科学计算代码：从混沌到秩序的Python编程实践
 
 
+
 ](https://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247491372&idx=2&sn=8f339b98298892ae43cd17724fcbfc0f&scene=21#wechat_redirect)
 
 [
 
 Python环境与包管理的全面解析：Conda、Pip、Anaconda、Miniconda与Miniforge
+
 
 
 ](https://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247491440&idx=1&sn=8f133ae284a16205e3b6a35d90f61a45&scene=21#wechat_redirect)
@@ -225,4 +237,33 @@ Python环境与包管理的全面解析：Conda、Pip、Anaconda、Miniconda与M
 让你的Python代码更加Pythonic：优雅编程的10个技巧
 
 
+
 ](https://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247491432&idx=2&sn=1a63f3ed4784ff101b7f8173fdd84ec5&scene=21#wechat_redirect)
+
+  
+
+## 推荐阅读
+
+  
+
+  
+
+  
+
+‍
+
+  
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.2312854885901674)
+
+**闲鱼小店已上新，欢迎新老粉丝关注和咨询![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/assets/Expression/Expression_64@2x.png)**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVUE19b2lsz1ERESbpqbVoYLlDiarL8cCJent2rfMvsuPiboLTs8JH2qicuBaKrsXxyLzLkfibK0PavQtQ/640?wx_fmt=jpeg&from=appmsg)
+
+**喜欢****作者******，请点********赞********和在看******![](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6459285066781566&random=0.9039664113437702&random=0.10616299980642463&random=0.37943585876598473&random=0.7246305284075434&random=0.1820491079508062&random=0.3136645327514245&random=0.8290227030922905&tp=webp)**
+
+**![](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.90499299240585&random=0.7427014598159356&random=0.6203706698189717&random=0.17266143983420013&random=0.4502076552242009&random=0.3348111146987862&random=0.5857982594073723&random=0.5924137199896844&tp=webp)**

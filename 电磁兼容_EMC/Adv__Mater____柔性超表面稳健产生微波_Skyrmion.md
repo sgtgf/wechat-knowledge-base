@@ -1,0 +1,153 @@
+# Adv. Mater. | 柔性超表面稳健产生微波 Skyrmion
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/o39wGgHnlXq8w6qVzs9Ujg](https://mp.weixin.qq.com/s/o39wGgHnlXq8w6qVzs9Ujg)
+
+近日，我教研室与华中师范大学、新加坡南洋理工大学等单位合作，在国际顶级期刊Advanced Materials（IF 26.8）发表研究论文：
+
+Free-Form Flexible Metasurfaces Robustly Generating Microwave Skyrmions
+
+该工作首次实现自由形态柔性超表面在微波频段稳健产生自由空间 Skyrmion，并系统验证了其在强形变与结构缺陷条件下的拓扑数稳定性，为新一代鲁棒无线通信与可穿戴微波器件奠定了基础。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsBohZCpFoGqhBPDzR0CCTcmQxDGE849NLGL3ILGBQULPpJu3g30hcDe8c0Fw8GpyjZjia29qogorZ7nkwy9YfSHULbAPROredWE/640?wx_fmt=png)
+
+基于柔性超表面产生微波斯格明子示意图
+
+* * *
+
+一、什么是 Skyrmion？
+
+Skyrmion 是一种拓扑保护的矢量场结构，最初出现在磁性与凝聚态系统中，近年来扩展到电磁场领域。与传统平面波不同，Skyrmion 在偏振庞加莱球上形成完整包裹，其核心优势在于：
+
+·拓扑数对连续形变不敏感
+
+·对局部扰动具有天然鲁棒性
+
+·可用于多自由度信息编码
+
+·适合高容量、多信道通信
+
+然而，现有 Skyrmion 产生方案几乎全部依赖刚性平面结构或体积庞大的光学系统，严重限制了其工程应用。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsDoM73ppQBmKSMw21TD3ZYWnyVRICgavWy1QsdzNhsYGCvH2IRSdYFDOdaUEq19OQrEmJtwaia2xMIUapbZkcDqjdFhpYmOcr1Q/640?wx_fmt=png)
+
+超表面单元及产生的不同斯格明子![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsACJooMicLr5ickzeB1sKDVgB1UPQP5sp7ZIicgsknv5ffbPZ4hOnq7YoGHga4NCDwNukFuicjbX5vAaf0bBwho4p3UW5spoABCP3E/640?wx_fmt=png)
+
+* * *
+
+二、本工作的关键突破
+
+1️⃣ 首次实现“柔性”Skyrmion 发生器
+
+我们提出一种自由形态柔性自旋解耦超表面平台：
+
+·超薄 PTFE（F4B）基底实现机械柔性
+
+·五层结构设计保证 2π 相位覆盖
+
+·2-bit 编码单元实现精确相位调控
+
+·支持平面、圆柱、三角形等多种构型
+
+当结构从平面弯曲为圆柱或三角形时：
+
+·Skyrmion 纹理边界发生几何变形
+
+·但拓扑数保持不变
+
+这验证了拓扑保护与柔性形变之间的天然匹配关系。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsDRTmbatxqF3VnibIo5fIC6U6zXVhmZU6f8uUic6biamber147ZGJ5libDDeoicxI1N1cPZ7ocicj5kiaUFGaRLTHNwKYTfwAmt0IibsGc/640?wx_fmt=png)
+
+柔性形变下的斯格明子变化规律
+
+* * *
+
+2️⃣ 微波频段实验验证
+
+实验在微波暗室中完成，采用喇叭天线进行近场测量。结果表明：
+
+结构形式
+
+实验获得拓扑数
+
+平面结构
+
+1.8328
+
+弯曲结构（80°）
+
+1.8098
+
+即便在明显偏振畸变与相位分裂情况下，Skyrmion 数仍高度接近理论值。
+
+这构成了微波频段 Skyrmion 拓扑稳定性的首次系统实验验证。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsBUKTwZQ8h4FsT5ARxh5pX2ZJWeMUgStRcCJm0TvJjzL2SHibONX5TAQnCZxzuzvvWtTkCqoD3KwvlH3eLxbKHO4MiclZZDFMhNs/640?wx_fmt=png)
+
+实验场景及测试结果
+
+* * *
+
+3️⃣ 极端缺陷条件下的拓扑鲁棒性测试
+
+我们进一步进行了“破坏性测试”：
+
+·随机删除超表面单元
+
+·删除比例从 0% 增至 80%
+
+·每个比例统计 100 组随机分布
+
+结果显示：
+
+·删除 60% 单元后，Skyrmion 数仍 >1.8
+
+·删除 70% 后仍保持明显拓扑特征
+
+·超过 80% 后开始显著退化
+
+这意味着即使结构严重损坏，拓扑信息仍可保持。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsBtgsOT5aoOspncfcUGqtEG7aMQczcIo9sWL7mIqHx88UzP05qHzoaaVDicy29vn5Uq7ta261VXZDOTDtRDVfQHMkKW3YYAFqcE/640?wx_fmt=png)
+
+随机单元失效拓扑鲁棒性实验
+
+* * *
+
+三、对未来通信与智能系统的意义
+
+📡 1. 高容量无线通信
+
+·基于 Skyrmion 的矢量编码
+
+·支持极化 + 模式 + 拓扑多自由度复用
+
+·降低结构误差导致的误码率
+
+🎯 2. 鲁棒微波感知
+
+·偏振选择性增强
+
+·环境扰动下保持识别稳定性
+
+·适用于智能场识别与模式检测
+
+👕 3. 可穿戴与共形微波器件
+
+·可弯曲、可贴合
+
+·与人体或复杂曲面兼容
+
+·支持下一代柔性通信网络![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCPlBU4ichLPB6sReqL6b7yGVn2jJgOqa1EWJdL1AUYb4edw8yx18pxsIJtGTlSiaGs1L5bibUf9ibme1LhaJVR0tTRGRMF9cdsxpo/640?wx_fmt=png)
+
+* * *
+
+📄 论文信息            
+Yang Fu, Rensheng Xie, Nilo Mata-Cervera, XiXie, Ren Wang, Xiaofeng Zhou, Helin Yang, Yijie Shen, Free-Form Flexible Metasurfaces Robustly Generating Microwave Skyrmions, Advanced Materials, 2026;0:e18268.  
+
+* * *
+
+【本文特别声明】
+
+本文中对文献的解读与评述仅为学术探讨，不代表原论文作者及其机构的观点。文中引用的论文插图/图表仅为评论、说明之目的，属于在学术交流中的“合理使用”，其版权均归属于原出版方及原作者所有。我们已尽最大努力标注原始出处。如果您是版权所有者且认为存在侵权，请与我们联系，我们将立即删除。我们强烈建议读者阅读原文以获取最完整准确的信息（可点击左下角“阅读原文”跳转）。\[原文DOI链接：https://doi.org/10.1002/adma.202518268\]

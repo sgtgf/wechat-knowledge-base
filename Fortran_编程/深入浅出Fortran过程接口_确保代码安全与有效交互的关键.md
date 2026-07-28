@@ -1,3 +1,10 @@
+# 深入浅出Fortran过程接口：确保代码安全与有效交互的关键
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/u0V2hk3DaIfIb9eJuFHjEg](https://mp.weixin.qq.com/s/u0V2hk3DaIfIb9eJuFHjEg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+
 ## 引言
 
 在编程语言Fortran中，“过程”是一个关键的概念，它涵盖了函数(function)和子例程(subroutine)两种形式。函数如同C语言中的函数，可以在表达式中被调用来计算并返回值；而子例程则是通过CALL语句调用，执行特定任务但不返回值。
@@ -43,6 +50,7 @@ Fortran过程接口根据其定义的位置和调用方式分为显式（`explic
 
 总之，理解和合理运用Fortran过程接口对于编写高质量、无误的代码至关重要，它能够在编译阶段就避免很多潜在的运行时错误，提升代码的安全性和可靠性。通过清晰的过程接口设计，开发者可以更好地管理过程间的交互，确保数据准确无误地在各个过程中流转。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于 Fortran 90 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

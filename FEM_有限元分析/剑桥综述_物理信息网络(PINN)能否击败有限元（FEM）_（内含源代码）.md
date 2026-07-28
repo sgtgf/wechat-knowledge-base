@@ -1,5 +1,11 @@
+# 剑桥综述：物理信息网络(PINN)能否击败有限元（FEM）？（内含源代码）
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/rVGNmiIjeIr7kUuCNiK5gQ](https://mp.weixin.qq.com/s/rVGNmiIjeIr7kUuCNiK5gQ)
+
 **物理信息网络(PINN)能否击败传统有限元方法？**
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hplDlcHRvicibUd5sHCh6vQ1mjQrSBwY1oog1sicF68dLjEcxgWhsBMTUA/640?wx_fmt=png)
 
   
 
@@ -13,6 +19,7 @@
 
 **摘要**
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/MVPvEL7Qg0HJalXIBXGXSBFLMk2TZAqh23iaHwLpprUov8bNQ95dWDVMTq4qGicM3G6cmsZcCF6RsKyn9p8eQA3Q/640?wx_fmt=png)
 
 偏微分方程（PDEs）在物理、生物和其他科学领域的数学建模中具有基础性作用。传统上，有限元方法（FEM）是数值求解PDE的标准方法。近年来，深度神经网络在各类近似任务中的成功激发了其在PDE数值解中的应用，例如基于物理信息的神经网络（PINNs）及其变体已展现出对多种PDE的近似能力。然而，此前研究多孤立地探讨PINNs与FEM，缺乏系统性比较。本文通过系统性计算研究，对比了两种方法在求解多类线性和非线性PDE中的表现，包括：**1D、2D、3D泊松方程**，**1D Allen-Cahn方程**，以及**1D、2D半线性薛定谔方程**。研究从**计算成本**和**近似精度**两方面进行对比。结果表明，**在求解时间和精度上，PINNs未能超越FEM**；但在某些实验中，PINNs在求解后的评估速度更快。
 
@@ -109,6 +116,7 @@
 
     PINN的目标是通过深度神经网络近似求解偏微分方程（PDE）。其核心是利用自动微分工具，无需对时空域进行离散化，而是通过随机采样实现。经典的PINN方法使用一个全连接神经网络，包含  个隐藏层，每层有个神经元。网络的输入是独立变量 ，在域  内采样。神经网络作为PDE解的近似器  是训练中优化的网络权重。与有限元方法（FEM）基于有限维基函数空间不同，PINN在所谓的Barron空间中近似PDE。PDE作为软约束被嵌入优化过程，即通过最小化PDE残差、边界条件残差和初始条件残差构建损失函数: 
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hQPje3Eo53jaUEb45oYYZL5QaYQfFkRWiaJREo898KXfHXO5NGIaARGg/640?wx_fmt=png)
 
 此处，表示配置点的数量，用于计算PDE残差；边界条件和初始条件可以是实测数据，无需解析表达式。因此，PINN能融合数据驱动信息。本文统一使用2-范数计算损失，但可根据问题调整。, ,  的选择依赖问题域和复杂度，通常需启发式确定。我们采用拉丁超立方采样生成配置点，并在每个训练周期重新采样以提升覆盖性。微分算子  和边界条件中的导数通过自动微分计算，无需依赖网格离散化。这使得PINN在高维问题中更具扩展性。
 
@@ -138,6 +146,9 @@
 
 **4.1 1D**
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8h4FfkafKLhfOfPpRu30iaqkfrriau2jLtzEheDEAJvo45USdzg4GOC8Bw/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hibcAHbnq5Ricx88kCuTImYzmCW3u6aTRiaoxAgK29lJU9OB2FicIsJUUjw/640?wx_fmt=png)
 
   
 
@@ -145,6 +156,7 @@
 
   
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hPhqwEDa1hI7ia63MISIqYmyJ8AmJq6LDOpibL4kgPnuIiaaUAwaNrtfbg/640?wx_fmt=png)
 
     使用有限元法（FEM）和物理信息神经网络（PINNs）对一维泊松方程的解的近似结果与解析解在\[0, 1\] 区间内512个网格点上进行了比较。图1(a)展示了一维泊松方程的真实解及其近似解。同样，图1(b)展示了所有网格大小的FEM和PINNs架构的近似解与真实解之间的差异。在PINNs的近似解中，有一种架构的结果具有较大的相对误差：具有单个隐藏层和一个节点的PINN甚至无法以满足边界条件的方式学习解。然而，所有其他近似解与真实解之间的差异非常小。
 
@@ -154,9 +166,15 @@
 
 **4.2 2D**
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hVLMdUT3nVTqMjmScuSOe0p55ibACmMgfaYseocnKxgrL8CA0tgt2ickg/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hAicnUWuXX5kbERFUSDuPLibXibo5OKphYXPD3YVZXiasibicn1iaEdzJXOJtw/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hBfVPztW0jbxTqAChBoN91IibZAgH6LOC55a1VlGnxbT3pRLzHnTe5XQ/640?wx_fmt=png)
 
   
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hWycKzm1icl79OqllbL1MSEeVb7flFTKxLibsnV5ibR2u9vQMYaFicHZxicg/640?wx_fmt=png)
 
   
 
@@ -166,9 +184,13 @@
 
 **4.3 3D**
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hIPcbHzKHPubWwxOhvYcyUNelQNjXZ5jAM9IPbP0DpC3jic2f1rVUq6A/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hia9ibsMCoF3C2QXRLELy33GUM4hRgVox7pJ7h1IyOecCeiaygZ9Cibp9yA/640?wx_fmt=png)
 
   
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8h5XMTOPDT1dibTYBPdpBb8FbIt48gO8aVDAefKdha3X5w8gibcc7QBxTw/640?wx_fmt=png)
 
   
 
@@ -180,11 +202,15 @@
 
 **5\. 计算Allen–Cahn方程**
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hKBPx02owDSI1osubSaBplHFkZXYD0lmnUsicicichdlUXkodVoO4Tb4hA/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hIh6CqpGz2YvvwF09cUCicbNIBoOU4m754QP8BOMnQtmEJ5H3vaLH4mQ/640?wx_fmt=png)
 
     在真实解的网格上，使用FEM和PINNs对偏微分方程（PDE）进行了近似比较。网格跨越\[0, 1\]，包含7993个网格点，时间离散化为dt=1/3×10−4，直到时间 T=0.05。真实解的精细网格FEM近似是使用隐式欧拉法得出的。FEM和PINNs的近似结果与真实解的比较如图7所示，展示了不同网格大小和网络架构的结果。FEM能够在所有网格大小下恢复PDE的解，但在大小为32的网格上，扩散界面附近存在轻微误差。PINNs的近似能力取决于网络架构和需要确定的自由参数或权重的数量。具有20个节点的架构无法恢复解，而每层100个节点的网络能够训练出解。随着层数的增加，解的质量逐渐提高，每层500个节点的神经网络能够很好地近似解。
 
     图8展示了FEM和PINNs的求解和评估时间与精度的比较。在求解时间方面，FEM比PINNs快五到六个数量级，这主要是由于神经网络的规模较大。然而，一些PINN架构能够达到与FEM相似的相对误差，尤其是每层100或500个节点的网络。PINN的评估时间与FEM的评估时间和求解时间的比较如图8(b)所示。FEM的评估时间优势下降到大约一个数量级。尽管神经网络的评估速度比训练快得多，但FEM在求解和评估时间上仍然更快。
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hwkPgU51CFD4uv4R8eNd9efNiaXSlrA7rsjMpQt09r0Az6DGaFQARViaQ/640?wx_fmt=png)
 
     与其他PDE相比，Allen-Cahn方程需要一些修改，例如对损失函数进行加权和仅对部分损失函数进行预训练。这种修改的必要性在于网络在学习PDE解时遇到的困难。我们还尝试训练了一个PINN来处理 ϵ=0.001的Allen-Cahn方程，结果如图9所示。经过一段时间后，解变得接近二值化，导致解中存在非常大的梯度。我们尝试了不同的激活函数（如softplus或ReLU），但结果都不足以被视为近似解。这表明标准的PINNs可能不适合处理不连续解，这可能是因为PINNs求解的是强形式的PDE，而不是弱形式。虽然FEM能够近似 ϵ=0.001的Allen-Cahn方程，但需要使用更精细的网格来准确表示扩散界面。
 
@@ -196,9 +222,13 @@
 
 **6.1 1D**
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hUYYv4Hk5micPFZiaJRE5s0lRSK59yHn8xfDdrEfCup6MpibX7zbiaWGlKg/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8h6tanRV0mrNQicVXtibHuqt0tPiazVcbdPs0K8QfYCK2ichIVW90cuZaTYw/640?wx_fmt=png)
 
   
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hNH5HbGp8kydiaaS1bVEzCQTSjX4jtYvSGRNFC1ibrrXLeGicTYNDYqlzg/640?wx_fmt=png)
 
     FEM和PINNs的近似结果在真实解的网格上进行了比较，网格大小为7993个单元，时间离散化为dt=1/3×10−4。对于的近似结果如图10所示。可以看出，PINNs的近似在较大时间点上比FEM的近似稍微不准确。从定量角度来看，时间与精度关系图提供了每种方法性能的更广泛概览，如图11所示。专注于模量 ，FEM的求解时间比任何神经网络近似低两个数量级，并且相对误差也更低，如图11(c)所示。仅考虑两种方法的评估时间，FEM在时间和精度上仍然优于PINNs。然而，PINN的评估时间比FEM的求解时间更快。尽管如此，FEM在  的精度上仍然更高。
 
@@ -208,12 +238,15 @@
 
 **6.2 2D**
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hnnucNEUTvRTeQvgaVZBJOxbibSHSnOjmicWARqTBotMDXfb99hdc3njA/640?wx_fmt=png)
 
   
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8h7FrypFRoTVtR062lrkeP4lJz5pqic3x1pPu0JPY5Jh8qs0lic05zyO0w/640?wx_fmt=png)
 
   
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hXY8ricibjMHfXRQEIlWTapj2HecTIqiaHqQWazeRK0yXLsIVSDH04Fuzw/640?wx_fmt=png)
 
   
 
@@ -273,9 +306,28 @@
 
 https://doi.org/10.1093/imamat/hxae011
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kN3GHHXTAGwfSnvx7ibeicQUugIjmrOa8hJN2padib51Bth3YZnsrqVeTibWMNRHDqlfu4KHnSkMOicWJ4RoKxDKo5A/640?wx_fmt=png&from=appmsg)
 
   
 
   
 
 关注公众号了解更多资讯：
+
+  
+
+  
+
+查看PINN的往期精彩推送：
+
+1. [布朗大学 Em Karniadakis院士团队：比较DeepSeek与ChatGPT数值计算和机器学习任务](https://mp.weixin.qq.com/s?__biz=Mzg3MTczOTkxNg==&mid=2247484833&idx=1&sn=d9a29d840e5f4185731d7e74d49effa1&scene=21#wechat_redirect)
+
+2. [完美结合！【人工智能+物理模型】——PINN物理信息神经网络！！!](https://mp.weixin.qq.com/s?__biz=Mzg3MTczOTkxNg==&mid=2247484798&idx=1&sn=56aea6ca44228179978ca55b3eb3d69b&scene=21#wechat_redirect)
+
+3. [物理编码有限元网络快速解PINN非均质应力集中问题](https://mp.weixin.qq.com/s?__biz=Mzg3MTczOTkxNg==&mid=2247484794&idx=1&sn=ab42677704039501574f271963a63019&scene=21#wechat_redirect)
+
+4. [DeepSeek和GPT无需编程用PINN解瞬态问题](https://mp.weixin.qq.com/s?__biz=Mzg3MTczOTkxNg==&mid=2247484758&idx=1&sn=12282e0708a58a301ba0bfec9a59d661&scene=21#wechat_redirect)
+
+5. [求解正向/逆向偏微分方程的强大武器--PINN(含基础算例和代码复现)](https://mp.weixin.qq.com/s?__biz=Mzg3MTczOTkxNg==&mid=2247484726&idx=1&sn=eeb99d268124829cefc9a301d28c723b&scene=21#wechat_redirect)
+
+6. [Nature综述 | 物理信息神经网络 (PINN)【5千引用】](https://mp.weixin.qq.com/s?__biz=Mzg3MTczOTkxNg==&mid=2247484683&idx=1&sn=da9179cb6009e525da3d99695d9d20b9&scene=21#wechat_redirect)

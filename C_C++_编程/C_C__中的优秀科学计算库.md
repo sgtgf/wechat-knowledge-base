@@ -1,8 +1,17 @@
+# C/C++中的优秀科学计算库
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/m1KTaShNKsdqiJBBLDTGdg](https://mp.weixin.qq.com/s/m1KTaShNKsdqiJBBLDTGdg)
+
 ### 
 
+![](https://mmbiz.qpic.cn/mmbiz_gif/kicB09lvgibnnRjv0AAqQxyBODIttZXnQqcTPoF4Pt8tJmnia4CHaYUS3zqicFfKZTWibXTAew2ibFHDjy5Pf8nDnVEQ/640?&random=0.5435628020271572&random=0.7333430426412921&random=0.11768190117034583&random=0.12018774317487124&random=0.31661911194151493&random=0.7635339231703804&random=0.9613365986074616&random=0.1923479600602538)
 
 点击上方「蓝字」关注我们
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kLQoJJzjYaicxneNzbOg7ynx3TfnIwmNTpJQ7orkaUNrJIV4u7PNdSJ25Mtn6XdRQTamLDDicHnYfdic2bsiaNQjCw/640?&random=0.6153869521132325&random=0.3050959118824166&random=0.3425740390684655&random=0.5631073915395226&random=0.3811110885571365&random=0.7586035005343534&random=0.5766395221126888&random=0.5695725227414736)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRETdLuoXm0NFapoqYKBEuLC6KkxyBOjwR5pl1cKrjicX3ursbxOz064JWPVJGEm9YicI09WicibNxDwlq6qpiaXuAA/640?wx_fmt=jpeg)
 
 随着科学计算领域的不断发展，越来越多的研究者和工程师开始寻求高效的工具来加速他们的研究进程。C/C++是一种强大的编程语言，它提供了接近硬件级别的控制能力，因此非常适合需要高性能计算的场景。虽然C/C++的学习曲线较陡峭，且在开发过程中需要更多的手动管理资源，但一旦掌握，便能极大地提高程序的运行效率。接下来，我们将探讨几种流行的C/C++科学计算库，以及它们各自的特点和应用场景。
 
@@ -91,3 +100,7 @@
 ## 小结
 
 通过以上介绍可以看出，C/C++ 在科学计算领域拥有许多强大的工具。尽管这些库可能不如Python中的库那样易于使用，但它们在性能方面往往表现出色，尤其是在需要大量计算资源的应用场景下。开发者可以根据自己的具体需求选择合适的库，以实现高效的数据处理和分析。
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRETdLuoXm0F1TJuz7SHvpW1zgzV6ZIF0r5H99lwcz5CHLoNtLjOXfQpElKKhKEE3Eiapa05EFDfBlOlExx8iaOw/640?wx_fmt=jpeg&from=appmsg&random=0.07403834435997281&random=0.9548404603232596&random=0.104285335892905&random=0.6465628742284186&random=0.7114643948388735&random=0.39825419144728924&random=0.5036513307316739&random=0.24264210905518024&random=0.8403119589921406)

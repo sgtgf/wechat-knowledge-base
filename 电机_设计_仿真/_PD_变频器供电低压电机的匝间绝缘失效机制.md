@@ -1,0 +1,149 @@
+# 【PD】变频器供电低压电机的匝间绝缘失效机制
+
+原创 Mr 晋 玩转电机设计 2022-05-23 07:38 浙江
+
+> 原文地址: [https://mp.weixin.qq.com/s/BmOgsccLAM4uPmsgsmLt4Q](https://mp.weixin.qq.com/s/BmOgsccLAM4uPmsgsmLt4Q)
+
+**提示**：点击上方"**玩转电机设计**"↑关注我吧
+
+  
+
+* * *
+
+**PD**： partial discharge **局部放电**
+
+**PDIV**：partial discharge inception voltage**局部放电起始电压**
+
+* * *
+
+**先看结论：**
+
+**1.**由PWM供电的低压电机的匝间绝缘可能会由于相邻漆包线的填充空气间隙而失效。  
+
+**2.**PDIV随着温度的升高和绝缘厚度的减小而降低。为了提高电气耐久性能，绕组的浸渍应充分和持久地填充导线之间的间隙。另一种效率较低的方法是增加绝缘强度
+
+**3.**高频率、小的上升时间和快速振荡脉冲缩短了绝缘寿命时间，但如果没有PD发生，即使在相当高的电和热应力下，两年后，也不会发生击穿。
+
+**4.**只有避免绕组绝缘中的PD，才能达到变频供电低压电机的足够寿命。
+
+* * *
+
+**为什么变频器供电的绝缘问题需重新考虑？**
+
+PWM变频器供电电机，由于线路两端的波反射，电机的端子出现了振幅增大的振荡电压，影响了电机的主相绝缘。根据电压上升时间、沿线路的传播时间和开关瞬间的不同，其电压的振幅最高可达到中间电路直流电压的**三倍**。
+
+PWM变频器的输出脉冲方波在电动机绕组线圈上造成的电压与正弦电压条件下的情况有很大差异。与正弦电压相比，变频电机绕组线圈上的电应力有两个不同点:一是PWM供电下电压在每匝线圈上的分布不均匀。定子绕组的首端几匝上承担了约**80%的过电压幅值**，这样绕组首匝处承受的匝间电压超过平均匝间电压10倍以上。这也是变频电机通常发生绕组局部绝缘击穿，特别是绕组首匝附近的匝间绝缘的原因。二是电压的**形状、极性、电压幅值**在匝间绝缘上的性质也有很大的差异，因此产生了过早的老化或者破坏。特别是脉冲电压的上升时间。
+
+* * *
+
+**哪些因素对PWM供电的匝间绝缘有影响？**
+
+**看图说话，图1：**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwmGLvIPgUEYaoPEz6KvvfOSkZJMXR8YCOIqeib72gsKsxsVAWAADepRYdoxaIpOUS3TkB6MSW2fIw/640?wx_fmt=png)
+
+交替脉冲冲击在相同脉冲寿命次数和PD概率时，电压幅值为单极脉冲电压的一半。
+
+在电压范围1中，每个脉冲引起至少一个PD；
+
+电压范围2，而随PD概率下降，冲击寿命变长；
+
+电压范围3，PD的概率几乎为零，没有击穿。
+
+PD在接触的漆包线之间的空隙中启动，导致绝缘层表面异极空间电荷的积累。这降低了单极脉冲的电场强度，并增加了交替脉冲的电场强度。PD会侵蚀绝缘材料，并最终导致击穿。
+
+* * *
+
+**看图说话，图2：**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwmGLvIPgUEYaoPEz6KvvfOh9krUUUSTfICro0CEXibXQlsCIcLZostgQXMdDMGQIbrvse1mgOt3XA/640?wx_fmt=png)
+
+图2显示了在两根漆包线线之间形成的不同宽度的气隙中的电应力值。对不同的电压进行了计算，例如，在700V时，20μm宽度的气隙将击穿，导致PD。在较高的电压下，满足放电条件的漆包线表面面积越大，因此PD概率越高。电压低于700V不会导致任何PD。
+
+* * *
+
+**看图说话，图3：**  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwmGLvIPgUEYaoPEz6KvvfOROxDbMM64W1vxjW5XiaE7jJ9xCuHszlicfoOYedA4IwWqWBzYiacBPZPg/640?wx_fmt=png)
+
+绝缘层较厚的浸漆漆包线的PDIV较高。导体直径对PDIV没有任何直接影响
+
+* * *
+
+**看图说话，图4：**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwmGLvIPgUEYaoPEz6KvvfOiawqrSvRxdmjTndYqA7gleSQuDj2ibk7DyQGHmoWjoEKqD6VsTzAOyUw/640?wx_fmt=png)
+
+最薄绝缘层的匝间绝缘的PDIV最小
+
+* * *
+
+**看图说话，图5：**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwmGLvIPgUEYaoPEz6KvvfOas3LJnGLZtiakcmzCba6pSbbpWKmdcgWuFbsS3Rog94R0IWcNgcOrSw/640?wx_fmt=png)
+
+电机绝缘通常承受升高的温度，可以高达155°C(热稳定性F级)。与室温相比，温度的升高影响了试件的电容，并使PDIV电压降低了15%。
+
+这是由于聚酰亚胺(漆包线的绝缘层材料)的介电常数增加，导致空气间隙中更高的电场强度，以及更低的空气密度，空气的击穿强度降低。
+
+* * *
+
+**看图说话，图6：**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwmGLvIPgUEYaoPEz6KvvfOHxZLwKHEwyx3nIq4OK7RbhKq8c10ntAVcKX4wz6IwToY5Jy6u87jEA/640?wx_fmt=png)
+
+被击穿的脉冲数为n，并不依赖于重复率。因此，在给定的电压下，击穿的时间与重复率成反比。
+
+* * *
+
+**看图说话，图7：**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwmGLvIPgUEYaoPEz6KvvfOlTsRJ0e6XUlL0Wtib0CRNr1Lkx6cqt0KP4fF6A8xU9blKLRT0myrgXg/640?wx_fmt=png)
+
+通过施加振荡脉冲，被击穿的脉冲数随着振荡频率和振荡时间常数wτ的乘积的增加而减小。这是由于当wτ值增加时，在所施加的振荡电压的最大值和最小值处出现的PD数量增加。在最小值处的放电是由表面电荷的存在引起的  
+
+* * *
+
+**看图说话，图8：**  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwmGLvIPgUEYaoPEz6KvvfOvmIdmdE9qa7kt1xZdxrz42onYuCgkiavw13Yx7EicX2PKW1WcPgRzicDA/640?wx_fmt=png)
+
+在非振荡脉冲的情况下，脉冲的形状（上升和下降时间）也会影响PDIV和击穿时间。较短的上升时间和较长的下降时间会导致较低的PDIV和较短的击穿时间。更长的下降时间，提供更大的局部放电概率，因此更短的击穿时间和更小的PDIV。
+
+* * *
+
+**看图说话，图9：**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chwmGLvIPgUEYaoPEz6KvvfOick5lpGWJeGEZ8MkW50KricGHV8R1ttc57judhKL5D71m3FR7PpkP87w/640?wx_fmt=png)
+
+低上升时间不足以允许更费时地产生具有时间常数τ的表面电荷。这导致在电压上升过程中产生更大的电应力，降低PD初始电压和击穿时间。
+
+* * *
+
+**结论：**
+
+**1.**由PWM供电的低压电机的匝间绝缘可能会由于相邻漆包线的填充空气间隙而失效。  
+
+**2.**PDIV随着温度的升高和绝缘厚度的减小而降低。为了提高电气耐久性能，绕组的浸渍应充分和持久地填充导线之间的间隙。另一种效率较低的方法是增加绝缘强度
+
+**3.**高频率、小的上升时间和快速振荡脉冲缩短了绝缘寿命时间，但如果没有PD发生，即使在相当高的电和热应力下，两年后，也不会发生击穿。
+
+**4.**只有避免绕组绝缘中的PD，才能达到变频供电低压电机的足够寿命。
+
+* * *
+
+_参考文献：《__F__ailure Mechanism of the Interturn Insulation of Low Voltage Electric Machines Fed by Pulse Controlled Inverters__》——_**_M. Kaufhold_** _，Institute for National Measurement Standarh National Research Council Canada Ottawa, Ontario K1A OR6_
+
+这篇IEEE文章的引用量近300，GB/T 22720.1—2018也引用了这篇文章。
+
+* * *
+
+**欢迎留言讨论！**  
+
+欢迎推荐优秀文献、国内外电机最新资讯！
+
+  
+
+长按图片，识别二维码，关注我哟
+
+> ![](https://mmbiz.qpic.cn/mmbiz_png/Zlibib2pr1chzNcu6qMRl2WxjwggF06sYxn6hbRNY8he3vQqpBtASSjxRJiaibRibxuA9ga03FPBLBiaMo4jrbzPoOXg/640?wx_fmt=jpeg)

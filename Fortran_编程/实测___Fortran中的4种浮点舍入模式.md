@@ -1,3 +1,10 @@
+# 实测 | Fortran中的4种浮点舍入模式
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/ivwXzM-uwOeUDhJd0HN5lw](https://mp.weixin.qq.com/s/ivwXzM-uwOeUDhJd0HN5lw)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVD8PfRibLSshCSibRmWHepdFOD2qh33jViaNicEvGlctlicQnhLP5Jct7MkrVLDNLQrZjM55kq7iaLBeDA/640?wx_fmt=jpeg)
+
 在科学计算领域，浮点数的处理是不可或缺的一环，而其舍入模式的选择直接影响到计算的精确度和结果的一致性。Fortran作为高性能计算的常用语言，为用户提供了灵活的浮点数舍入控制机制，遵循IEEE 754标准，确保了数值运算的可预测性和跨平台的一致性，这对于科学计算和工程应用中的数值稳定性具有重要意义。本文将深入探讨Fortran中浮点数的舍入方式及其对计算的影响，并通过具体实例加以说明。
 
 ## 浮点舍入模式
@@ -38,6 +45,7 @@ Fortran使用IEEE 754标准来处理实数，该标准规定了浮点数的二�
 
 通过上述算例，我们可以看到不同的浮点舍入模式对计算结果有着显著的影响。在进行科学计算时，选择合适的舍入模式对于保证计算的准确性和稳定性至关重要。Fortran提供的灵活的舍入模式控制为我们在面对不同计算需求时提供了有力的工具。在实际应用中，我们应根据具体的计算需求和精度要求，合理选择和调整浮点舍入模式，以获得可靠和准确的计算结果。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

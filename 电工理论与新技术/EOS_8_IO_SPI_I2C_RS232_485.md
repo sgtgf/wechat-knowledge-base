@@ -1,0 +1,124 @@
+# EOS-8：IO/SPI/I2C/RS232-485
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/yCj8LQbJPpa5vx6WRFN5Vg](https://mp.weixin.qq.com/s/yCj8LQbJPpa5vx6WRFN5Vg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGO9DdJdXxUVJ1RucDpFGyHj7LUTgOIia3wXwEAhZU4BhRK0GDe2ANrqDDlauDrCyqiaLcpibKZuuyQ/640?wx_fmt=png&from=appmsg)
+
+____**★★★**______EOS-8---IO______**★★★**____
+
+_撰稿：Timothy  校稿：Timothy_
+
+引言：对于常规的各种接口，我们都有比较好的ESD防护意识，但是对于一些分立或者DIY电路，跨板级的使用常常也需要ESD防护，诸如GOIO，采集端口，或者跨板的SPI，I2C等等，本节就一些IO和跨板使用的通讯接口的ESD防护作一些介绍。
+
+________€1.____数字IO  
+____
+
+有许多方法可以保护通用数字I/O（GPIO），高频信号通常不适用于此类接口，因此无需针对低电容负载进行优化。要选择的三个关键元素是：
+
+1#：单向与双向
+
+2#：单通道与多通道
+
+3#：封装变体
+
+有许多标准器件可以满足上述这些不同的要求。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQk9G5SzyC2icyXV4aQMoNY2FE5cq6M73F74HKnbTMqFR75TpzgZYzExfKuhpYaAvEHkSdcYdKU2GA/640?wx_fmt=png&from=appmsg)
+
+**_图8-1：数字GPIO的ESD保护_**  
+
+对于数字IO，推荐**_表8-1_**：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGO9DdJdXxUVJ1RucDpFGyGwMhMzoVKPCPhDgJm3L7aXPxUtspPMAEN4EYT4wk3l7DniawOZz494w/640?wx_fmt=png&from=appmsg)
+
+**_表8-1：数字IO_****_的ESD/TVS diode选型参数参考_**
+
+________€2.____模拟IO____
+
+尽管模拟I/O的工作电压通常是有限的，但大多数设备可以在长时间内承受相对较高的电压，而不会受到损坏。对于ESD保护，这意味着所需的反向阻断电压（VRWM）必须足够高，以在更高的电压下不导通。低泄漏电流是许多模拟I/O系统的另一个要求，当需要实现相当精确的模拟输入时，建议限制加载模拟输入的任何外部感应泄漏，保护结构必须将泄漏电流降至最低。
+
+各家厂商提供了非常适合工业模拟I/O端口保护的设备，提供高于标准的VRWM、更低的泄漏电流和更小的PCB面积，以实现高密度模拟前端设计，例如PESD36VS1UL，如**_图8-2_**所示，可以搭建单向，叠加等多种组合。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSSFJ1zIicqb12piauoia1vaGC9Q6iccia4mFKsqKpypxkMGnI1KMAWIX3jIbp7LbKDEicLmh6v2hhzOtUQ/640?wx_fmt=png&from=appmsg)
+
+**_图8-2：模拟GPIO的ESD保护_**
+
+对于模拟IO，推荐**_表8-2_**：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGO9DdJdXxUVJ1RucDpFGy8xk9XRabsTCY30EwbeB7xnlfR73nbLXic2Dn5fVLG9VyvbqVicDQVKCA/640?wx_fmt=png&from=appmsg)
+
+**_表8-2：模拟IO的ESD/TVS diode选型参数参考_**
+
+________€3.____低压比较器____
+
+许多微控制器集成了诸如比较器之类的模拟功能，根据与比较器输入的连接，可能需要ESD保护，只要比较器不以非常高的速度操作，保护器件具有标准电容就可以满足。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSSFJ1zIicqb12piauoia1vaGCbNR52sodHtBfE7u5Qa8AZqu2c0Dd2JJw6G6bP0dib9vV314jdstqUqg/640?wx_fmt=png&from=appmsg)
+
+**_图8-3：为MCU内置比较器外置ESD保护_**
+
+对于低压比较器，推荐**_表8-3_**：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGO9DdJdXxUVJ1RucDpFGyD8Ppmt0j6U9RjeEDwejlzu23LBEm1o4tVAG7iazjubxehvEIiarEBB9Q/640?wx_fmt=png&from=appmsg)
+
+**_表8-3：低压比较器的ESD/TVS diode选型参数参考_**
+
+________€4.____I2C____
+
+I2C的速度范围从标准的100KHz到超快模式下的5MHz，**_图8-4_**代表两种类型的轨对轨保护配置，最大限度地减少电容线路负载，这往往为高速接口提供更好的性能，此处显示的解决方案更适用于运行速度为100KHz（标准）至400KHz（快速模式）的I2C解决方案。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSSFJ1zIicqb12piauoia1vaGC9JmVnVUE5a0GhZ8IS3RoLibfhkfzC7yBglpef5zaOZBgOaGrVm2Esiag/640?wx_fmt=png&from=appmsg)
+
+**_图8-4：I2C的ESD防护结构_**
+
+对于跨板I2C，推荐**_表8-4_**，例如IP4220CZ6、PRTR5V0U4Y、PRTR5V0U2F。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGO9DdJdXxUVJ1RucDpFGy5T05CmJdJKDbykVx8MJQwMqEVYPel96nQsh7jO6L4EnF1aoPHV97uw/640?wx_fmt=png&from=appmsg)
+
+**_表8-4：跨板I2C的ESD/TVS diode选型参数参考_**
+
+________€5.____SPI/SSI  
+____
+
+串行外围接口SPI，也称为同步串行接口SSI，是一种同步串行数据链路，使设备以主/从模式进行通信，通用时钟频率在100KHz到100MHz的范围内。如果连接脱离线路或通过连接器布线，则可能需要SPI保护。对于低频工作，基本的单端保护方案可能就足够，但考虑到总线频率的上限，轨至轨的实施方式更适合通用保护。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGO9DdJdXxUVJ1RucDpFGyoIibFib4ic5nAvOYpQJ1ynoYPMRTae38lokjnejibpiaAAniaX3XT7prkjeA/640?wx_fmt=png&from=appmsg)
+
+**_图8-5：SPI保护显示具有四线、轨对轨二极管的单个设备_**
+
+对于跨板SPI，推荐**_表8-5_**，例如IP4220CZ6、PRTR5V0U4Y、PRTR5V0U2F。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGO9DdJdXxUVJ1RucDpFGyHEC89Qia4w3QsY5I55oIpfrBCIf2qaEwpufru44BIZnEeAibOnTCSKLg/640?wx_fmt=png&from=appmsg)
+
+**_表8-5：跨板SPI的ESD/TVS diode选型参数参考_**
+
+________€6.____RS-232/RS-485____
+
+有许多非常适合保护RS-485或RS-232接口的器件，作为标准串行端口、RS-485或RS-232保护可以是单向或双向的。**_图8-6_**显示了PESD15VS2UT的单向保护和PESD12LV2BT的双向保护，可以使用附加的串联电阻器来进一步限制进入收发器的电流。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSSFJ1zIicqb12piauoia1vaGCopPoxN3md5BQ6zKrf2CjBWiaHJq58NAJVHYhvtOwia168W2gUUwx8rEA/640?wx_fmt=png&from=appmsg)
+
+**_图8-6：RS232/RS485的ESD防护结构_**
+
+对于RS232/485，推荐**_表8-6_**：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGO9DdJdXxUVJ1RucDpFGy69fdaU4IJxV9Rib3EwKdQicxu0U4km8IN6sOkywWs0GTLlricnER3o19A/640?wx_fmt=png&from=appmsg)
+
+**_**_表8-6：RS232/485的ESD/TVS diode选型参数参考_**_**
+
+____________€7.____4-20mA保护________
+
+4–20mA信号标准是工业应用中最流行的传感器信号传输接口之一，可编程逻辑控制器（PLC）将提供电压源为系统供电。现场变送器和传感器将使用该电源以4–20mA电流的形式传输从外部环境接收的数据，该电流由PLC中的接收器测量。此4–20mA回路具有传输数据的优点，几乎没有信号损失。但是由于4–20mA电缆可能很长，因此存在ESD（IEC 61000-4-2）和浪涌（IEC 61000-4.5）脉冲耦合到电缆上并损坏系统的风险。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSSFJ1zIicqb12piauoia1vaGCnqYEaqVEu0FSf3ZxJWm2dWJ3s2kf6FEP1eib36bLNT4bL2C7Ih00pNg/640?wx_fmt=png&from=appmsg)
+
+**_图8-7：4-20mA信号标准线ESD防护_**
+
+额定值为IEC 61000-4-2和IEC 61000-4-5的浪涌二极管必须放置在发射器、电源和接收器的前面，以防止浪涌或ESD冲击，这些冲击可能会耦合到4–20mA长电缆上。由于大多数4–20mA电压源为24V，工作电压稍高的二极管是合适的解决方案，并且由于PLC I/O模块和变送器可能受到空间限制，保护二极管越小越好。推荐器件：TVS3300YZF、TVS3300DRV、TVS3301DRB、TSM36A。
+
+对于4-20mA信号标准，推荐**_表8-7_**，如下这些参数的器件在满足浪涌保护的同时需要兼具ESD防护。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQGO9DdJdXxUVJ1RucDpFGyvicaRXIGsUzbLVAkxe0rMY2f4tmMXyIB5Zm9hrJw0DC1YdwYtmDHUdg/640?wx_fmt=png&from=appmsg)
+
+**_**_**_表8-7：4-20mA信号的ESD/TVS diode选型参数参考_**_**_**

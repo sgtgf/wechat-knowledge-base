@@ -1,0 +1,54 @@
+# Antenna-6：天线的基参
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/b9wSk3E9TvJxIfXOfZQvWQ](https://mp.weixin.qq.com/s/b9wSk3E9TvJxIfXOfZQvWQ)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQULfdZ7R11TgWJrYQ90cXzPrzLgswPVhyHRRMokhqE37hiaXG3DfzkK7biaVgkkRusfaEB83WahoVQ/640?wx_fmt=png&from=appmsg)
+
+____**★★★**______Antenna-6---天线的基参______**★★★**____
+
+引言：天线一般都是通过馈线和发射机相连的，天线和馈线的连接处称为天线的输人端，天线输人端呈现的阻抗值定义为天线的输人阻抗。
+
+___€1.天线的输入阻抗___
+
+天线作为发射机的负载，它把从发射机得到的功率辐射到空间，这就有一个天线与馈线阻抗匹配的问题，阻抗匹配的程度将直接影响功率传输的效率。在射频微波频段，馈线通常是使用50Ω标准阻抗，所以在设计天线时，需要尽可能地把天线的输人阻抗设计在50Ω，在工作频带内保证尽可能小的驻波比。
+
+天线的输入阻抗取决于天线的结构、工作频率和周围环境的影响，仅在极少数情况下可以用理论严格计算，工程中均采用近似计算或者用实验方法测量。天线输入端信号电压与信号电流之比，称为天线的输入阻抗Zin。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjUkyxI9omRkXYhYK5krXyhUuJgZrS9uLOGez2bIA7cvofwvf2aae1ZVo8XNOTDd0oKK5ThPVv2w/640?wx_fmt=png&from=appmsg)
+
+天线的实际阻抗含有电抗分量，输入阻抗具有电阻分量Rin和电抗分量Xin ，即：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjUkyxI9omRkXYhYK5krXyNEat5O0MoR0k6WJU63WicTFZ3gD2briaXHGlfqjeausrD7ltDsycvX7Q/640?wx_fmt=png&from=appmsg)
+
+电抗分量的存在会减少天线从馈线对信号功率的提取，因此，必须使电抗分量尽可能为零，也就是应尽可能使天线的输入阻抗为纯电阻。事实上，即使是设计、调试得很好的天线，其输入阻抗中总还含有一个小的电抗分量值。输入阻抗与天线的结构、尺寸以及工作波长有关，半波对称振子是最重要的基本天线，其输入阻抗为：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQjUkyxI9omRkXYhYK5krXyGiaRyjWVLobblJF0OjfV6CMwiaXicbzepUCHfUM5ft41sswMo3GokGELw/640?wx_fmt=png&from=appmsg)
+
+当把其长度缩短（3～５）％时，就可以消除其中的电抗分量，使天线的输入阻抗为纯电阻，此时的输入阻抗为Zin=73.1Ω,（标称75Ω） 。严格的说，纯电阻性的天线输入阻抗只是对点频而言的，半波折合振子的输入阻抗为半波对称振子的四倍，即Zin=280Ω，（标称300Ω）。对于任一天线，总可通过天线阻抗调试，在要求的工作频率范围内，使输入阻抗的虚部很小且实部相当接近50Ω，从而使得天线的输入阻抗为Zin=Rin=50Ω，这是天线能与馈线处于良好的阻抗匹配所必须的。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TT1rrC9JLAcibicwbxZGdFRNQkKeQHuGsCpCaTf9YIicoT99TSfR907tCia0ObdG2m7ibGZ5goQ6qrxzsg/640?wx_fmt=png&from=appmsg)
+
+图6-1：阻抗不匹配的损耗
+
+从能量传输的角度看，天线是馈线系统的终端负载，当馈线和天线匹配时，高频能量全部被负载吸收，馈线上只有入射波，没有反射波。馈线上传输的是行波，馈线上各处的电压幅度相等，馈线上任意一点的阻抗都等于它的特性阻抗。而当天线和馈线不匹配时，也就是天线阻抗不等于馈线特性阻抗时，负载就不能全部将馈线上传输的高频能量吸收，而只能吸收部分能量，入射波的一部分能量反射回来形成反射波。天线的方向特性，极化特性，阻抗特性及效率等参数都和频率有关。
+
+___€2.___天线的频带宽度
+
+频带宽度：无论是发射天线还是接收天线，它们总是在一定的频率范围（频带宽度）内工作，天线的频带宽度有两种不同的定义：通常，工作在中心频率时天线所能输送的功率最大，偏离中心频率时它所输送的功率都将减小，据此可定义天线的频率带宽。当天线的工作波长不是最佳时，天线性能会下降，在天线工作频带内，天线性能下降不多，仍然是可以接受的。
+
+方式1：在驻波比SWR≤1.5条件下，天线的工作频带宽度；
+
+方式2：天线增益下降3分贝范围内的频带宽度。
+
+在移动通信系统中，通常是按前一种来定义，具体的说，天线的频带宽度就是天线的驻波比SWR不超过1.5时，天线的工作频率范围。以半波举例，在820MHz，1/2波长为180mm，在890MHz，1/2波长为170mm，175mm对应的850MHz是最佳频点，该天线的频带宽度=890-820=70MHz
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TScu9CkMJxCJCxZ6tIXicvEkQcvsjmzghuQtUFhFGbc57xjtoFZhtPicwNU78PJiau8vu6dZ2DSpfhdA/640?wx_fmt=png&from=appmsg)
+
+图6-2：半波振子天线带宽示意
+
+分数带宽 （FBW）：天线的分数带宽是衡量天线宽带程度的指标，如果天线在低频f1和高频f2之间的中心频率fc下工作（其中fc=（f1+f2）/2），则分数带宽FBW由下式给出：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQl4mib6g9CicSJK66C8sia3jDIniax723fhMdEOofxtpZJv8m9OxXyv5kXur2s368MD6WIQ0fb7uR0IA/640?wx_fmt=png&from=appmsg)
+
+分数带宽在0到2之间变化，通常以百分比（0%到200%之间）表示，百分比越高，带宽越宽。宽带天线的分数带宽通常为20%或更高，而FBW大于50%的天线称为超宽带天线。

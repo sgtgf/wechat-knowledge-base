@@ -1,3 +1,8 @@
+# 为什么CFD中少有基于有限差分的商业软件或者开源代码？
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/abQX0r5hzlqbSA9x\_xpiAA](https://mp.weixin.qq.com/s/abQX0r5hzlqbSA9x_xpiAA)
+
 ## 
 
 # 提问
@@ -19,5 +24,14 @@
 
 因此，尽管有限差分方法在理论和特定应用中具有一定优势，但在网格处理的灵活性、数值稳定性、计算效率等方面，与他方法相比的仍然具有比较大的局限性，这可能是其在CFD商业软件和开源代码中不那么常见的原因。当然，随着算法和技术的不断进步，未来也许会看到更多基于FDM的高效工具和软件出现。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVWJFvuJe4IAc9pTxbRGeoSQMt2mQQpxuSkChYpG24DvrDVp9zDHQJdUANRhcTJEQxSq6b6r4DKJVQ/640?wx_fmt=png&from=appmsg)
 
-#
+#   
+
+  推荐阅读
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+**FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
+
+有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。

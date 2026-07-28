@@ -1,3 +1,8 @@
+# Armadillo，一个超牛的C++矩阵运算库
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/65eTdMN1mqAKeouAA843WQ](https://mp.weixin.qq.com/s/65eTdMN1mqAKeouAA843WQ)
+
 在C++编程中，矩阵运算是进行数据处理、科学计算、机器学习等任务时经常需要用到的工具。如果你正在寻找一个高效且易用的矩阵运算库，**Armadillo**可能是你的理想选择。它不仅提供了高效的运算能力，还具备简洁的语法，使得复杂的矩阵操作变得轻松。
 
 ###  什么是Armadillo？ 

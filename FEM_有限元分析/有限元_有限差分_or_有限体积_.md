@@ -1,7 +1,15 @@
+# 有限元、有限差分 or 有限体积？
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/Wre\_-my7jqLwPHL0k6VCQw](https://mp.weixin.qq.com/s/Wre_-my7jqLwPHL0k6VCQw)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3xUAPxNic0KObJaiaY3MEAYwPfwrakH9oCTDafCMEwicUbdvjYtHfiaaQug/640?wx_fmt=jpeg&from=appmsg)
+
 有限元法（FEM）与有限差分（FDM）和有限体积方法（FVM）一样，它们都是区域性的离散方法。其共性都是将连续区域上定义的微分方程求解问题，变成在有限个离散子区域或离散点上定义，把求解微分方程的问题变成求解离散节点上的代数方程问题。也就是说，它们都具有离散化、代数化的数值方法本质。且可通过选择不同的差分离散格式，或在积分控制体积内选择不同的插值函数型线，以得到不同形式和离散精度的代数方程。这意味着三种离散方法在构成离散方程时都有自己的灵活性。
 
 在加权余量法（MWR）的框架下，三种方法的联系与区别可以用下图来概括。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXKVPZFPyj3o9zB3Fu5tJRgC00bWRjxroN6bibL1ic9fHAYY6IetZy8z47qKAKK1u7rYvxsysOYtDVQ/640?wx_fmt=jpeg&from=appmsg)
 
   
 
@@ -13,6 +21,7 @@
 
 （3）有限差分法和有限体积法对于复杂的计算区域适应性差，处理边界条件常会遭遇一定的困难。虽然近年来发展的网格生成技术可以克服这一弱点，但是却带来编程的复杂性和计算工作量的极大增加。有限元法对于区域的剖分没有特别的限制，这对处理具有复杂边界的实际问题既方便，又灵活，还可依照实际问题的物理特点，合理安排单元网格的疏密。有限元法处理未知的自由边界和不同介质的交界面也比较容易。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXKVPZFPyj3o9zB3Fu5tJRgnTQfBSWESBRNn3Q5v7Y1VCLdJEJaOHVQlicA9WtnZPUVOfXqKFpianXg/640?wx_fmt=png&from=appmsg)
 
   
 
@@ -26,6 +35,7 @@
 
 \[1\]吴清松.计算热物理引论\[M\].中国科学技术大学出版社,2009.
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 FEtch 系统是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

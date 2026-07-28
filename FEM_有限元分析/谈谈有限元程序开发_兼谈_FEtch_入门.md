@@ -1,3 +1,8 @@
+# 谈谈有限元程序开发，兼谈 FEtch 入门
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/JyxHoiBGssPKnEnpBc0pHg](https://mp.weixin.qq.com/s/JyxHoiBGssPKnEnpBc0pHg)
+
 ## 学习基础
 
 经历过近几年研究生招生，我们发现喜欢做计算的学生明显要少于喜欢做实验的。就岩土工程专业来说，十个当中能有一个感兴趣就算相当不错了。思索良久，一个重要的原因应该是数值计算的入门门槛比较高，所需的基础知识范围比较广。要知道，数学基础、专业知识、编程技能，这三个方面的功力都要过硬，才有可能做出像样的原创性成果。
@@ -64,6 +69,9 @@ FEtch 是近四十年来不断发展和完善的有限元语言的全新生成�
 
 毫不夸张地说，**掌握了 FEtch，你可以在数天甚至数小时内完成通常需要一个月甚至数月才能完成的编程工作。**如果你正在编写有限元程序或者有志于开发属于自己的专用有限元程序，那么，非常欢迎你一起加入 FEtch 学习的大家庭！
 
+[![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVWibJfPDL65wO1QAS82bSHx5C6f9wKfd5KeOibY5WuHvXJwAZbZUGTzEK6IbEB0oJZLicb6gWdPGr27g/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247483747&idx=1&sn=4e71fd2527371b74127a09177e745692&chksm=c3379519f4401c0f06b1415fbbe5287b528e00f66284b4eea5d6215c49cc16b6a06ff74b6acb&scene=21#wechat_redirect)
+
+  
 
 ## 如何快速入门
 
@@ -115,5 +123,6 @@ FEtch 是近四十年来不断发展和完善的有限元语言的全新生成�
 
 欢迎使用 FEtch ，Gook Luck ！
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的免费试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。

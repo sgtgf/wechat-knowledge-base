@@ -1,3 +1,8 @@
+# PETSc：一个功能强大的C++库
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/zztRD1plcKo\_BDtNEEUHzA](https://mp.weixin.qq.com/s/zztRD1plcKo_BDtNEEUHzA)
+
 > ★
 > 
 > 在现代科学计算中，PETSc（可移植扩展工具和科学计算库）是一个广泛使用的开源库。它特别适用于求解大规模科学计算问题，如数值模拟、优化问题和偏微分方程（PDE）等。如果你是一个C++新手，可能刚接触到PETSc时会感到它的复杂性，但实际上，PETSc非常强大且灵活，能够帮助你高效地解决许多计算问题。本篇文章将带你一步步了解PETSc的基础，并通过一个实际案例展示如何使用PETSc。

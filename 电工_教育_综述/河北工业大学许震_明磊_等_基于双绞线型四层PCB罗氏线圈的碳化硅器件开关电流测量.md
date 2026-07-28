@@ -1,0 +1,154 @@
+# 河北工业大学许震、明磊 等：基于双绞线型四层PCB罗氏线圈的碳化硅器件开关电流测量
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/vD8dIF\_ehiRZqV7jDAyLqg](https://mp.weixin.qq.com/s/vD8dIF_ehiRZqV7jDAyLqg)
+
+ **引言** 
+
+功率器件的开关电流信息在开关特性评估、器件保护等场合必不可少。PCB罗氏线圈具有高带宽、低侵扰的特性，在开关电流测量中有极大潜力。但抗扰性能与带宽之间的矛盾问题是PCB罗氏线圈设计的主要难题，并且目前研究较少。本文针对PCB罗氏线圈测量精度受电磁干扰影响的问题，设计出一种双绞线型四层PCB罗氏线圈电流传感器，并通过仿真和实验验证了该传感器兼具强抗扰和高带宽特性，证明了该方案在碳化硅器件开关电流测量中的适用性。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/sW9eywJbic7Uq44gzCS6FYBBftZ8F9NuE4sDWfOicKaq5Llia4EibtbPs1JAaUavC3HLgUuaZBlHBxl0J2ibqdpibDibw/640?wx_fmt=gif)
+
+ **研究背景** 
+
+在电力电子系统中，功率器件的开关电流信息在开关特性评估、器件保护、结温提取、寿命预测以及系统状态监测等场合必不可少。与传统硅基器件相比，碳化硅器件具有更高的耐压、更快的开关速度和更低的损耗，可有效提升系统功率密度，因此被广泛应用于各种场合。然而，碳化硅器件更快的开关速度造成了较高的di/dt和dv/dt，使其对电路中寄生参数更加敏感。因此，电流传感器需同时具备高带宽、强抗扰、低侵扰和小体积等特性。
+
+罗氏线圈电流传感器采用空心线圈，具备天然的高带宽和低侵扰特性。此外，应用印刷电路板(PCB)工艺可实现小型化设计，因此，PCB罗氏线圈电流传感器在开关电流测量中有较大潜力。然而传统双层和四层PCB罗氏线圈难以同时抵御电、磁干扰，抗扰效果较差，六层PCB结构虽具有较强的抗扰性能，但测量带宽低且价格昂贵。因此，抗扰性能与带宽及成本之间的矛盾问题是PCB罗氏线圈设计的主要难题。
+
+  
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/sW9eywJbic7Uq44gzCS6FYBBftZ8F9NuE4sDWfOicKaq5Llia4EibtbPs1JAaUavC3HLgUuaZBlHBxl0J2ibqdpibDibw/640?wx_fmt=gif)
+
+ **论文所解决的****问题及意义** 
+
+针对PCB罗氏线圈抗扰性与带宽之间的矛盾问题，本文提出了将回线与线圈融合到一起形成“隐形回线”的线圈结构，该设计结构具备了抵抗磁场干扰的能力，同时回线与线圈间寄生参数减少提升了线圈的带宽；外部接地屏蔽层保护了PCB罗氏线圈免受高频电场干扰的影响，并且其未与线圈电气连接，引入的寄生参数不会影响线圈的高带宽特性。因此，双绞线型四层PCB线圈既满足了线圈抗扰特性的要求，又保证了线圈的带宽，有效地化解了抗扰性与带宽之间的矛盾问题。
+
+  
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/sW9eywJbic7Uq44gzCS6FYBBftZ8F9NuE4sDWfOicKaq5Llia4EibtbPs1JAaUavC3HLgUuaZBlHBxl0J2ibqdpibDibw/640?wx_fmt=gif)
+
+ **论文方法****及****创新点** 
+
+在设计PCB线圈时，从碳化硅功率器件的物理和电气特性出发，提出其开关电流测量对电流传感器的要求；通过分析PCB罗氏线圈的抗扰原理，阐明回线和屏蔽层抵御磁场和电场干扰的机制；最后，分析对比三种传统PCB线圈结构及其优缺点，进而提出双绞线型四层PCB线圈结构，如图1所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/fibdKZZaUxHLVPx2S0sWdrME2EANqlUic5GwBpveibnwnXKZSVqywIeCSuZnehu7cl2aABT7DSpm5AAAwaRP5cR7A/640?wx_fmt=png)
+
+(a) 三维图
+
+![](https://mmbiz.qpic.cn/mmbiz_png/fibdKZZaUxHLVPx2S0sWdrME2EANqlUic5gfySlwEAugxOJHXJicv3bLPeb3WLdmr2DD257diaCS2y5Umgr3AI6GSQ/640?wx_fmt=png)
+
+(b) 二维图
+
+  **图1** **双绞线型四层PCB罗氏线圈**
+
+当空间存在磁场干扰时，双绞线型PCB线圈的逆时针线圈和顺时针线圈会同时与干扰磁场交链，两者产生的干扰电压大小相等，方向相反，即净干扰电压为0。另外，电路中器件开关过程中所产生的dv/dt（电场干扰源）会通过器件与线圈间的耦合电容传导，线圈最外层覆盖屏蔽接地层可将干扰电场诱发的噪声电流传导至系统地，有效地抑制电场干扰对PCB线圈的影响。
+
+双绞线和屏蔽层的结构设计使得双绞线型四层PCB罗氏线圈具备了同时抵御电、磁干扰的能力，并且该结构未引入额外的寄生参数，也保证了PCB罗氏线圈的高带宽特性。
+
+  
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/sW9eywJbic7Uq44gzCS6FYBBftZ8F9NuE4sDWfOicKaq5Llia4EibtbPs1JAaUavC3HLgUuaZBlHBxl0J2ibqdpibDibw/640?wx_fmt=gif)
+
+ **结论** 
+
+针对四层PCB罗氏线圈用于碳化硅器件的开关电流测量时无法同时抵抗电场和磁场干扰的问题，本文提出了一种能同时抑制电、磁干扰的双绞线型四层PCB罗氏线圈。结合理论分析、COMSOL仿真和实验研究得到以下结论：
+
+(1)通过采用回线设计，PCB罗氏线圈可有效抵抗邻近载流体产生的与线圈平面正交的磁场干扰；通过采用接地屏蔽层，PCB罗氏线圈可有效抵抗邻近开关器件通过耦合电容产生的电场干扰；
+
+(2)本文提出的双绞线型四层PCB罗氏线圈由于采用双绞线设计，具有“隐形回线”属性，且最外层进行了屏蔽接地设计，因此能同时有效抑制磁场和电场干扰；
+
+(3)双绞线型四层PCB罗氏线圈兼具高带宽、强抗扰和小体积特性，适合用于碳化硅器件的开关电流测量。
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/sW9eywJbic7Uq44gzCS6FYBBftZ8F9NuE4sDWfOicKaq5Llia4EibtbPs1JAaUavC3HLgUuaZBlHBxl0J2ibqdpibDibw/640?wx_fmt=gif)
+
+ **引用本文** 
+
+许震, 明磊, 石亚飞, 等. 基于双绞线型四层PCB罗氏线圈的碳化硅器件开关电流测量\[J\]. 电机与控制学报, 2021, 25(12): 46-57.
+
+XU Zhen, MING Lei, SHI Yafei, et al. Switch current measurement of SiC device based on twisted-pair four-layer PCB Rogowski coil\[J\]. Electric Machines and Control, 2021, 25(12): 46-57.
+
+DOI:10.15938/j.emc.2021.12.006
+
+  
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/sW9eywJbic7Uq44gzCS6FYBBftZ8F9NuE4sDWfOicKaq5Llia4EibtbPs1JAaUavC3HLgUuaZBlHBxl0J2ibqdpibDibw/640?wx_fmt=gif)
+
+ **团队介绍** 
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHLVPx2S0sWdrME2EANqlUic5W3MqiaaJyOV7DuPfgKGiazFYIbhcibBaUOLSicVphNdQics1rRuXNKZwqvQ/640?wx_fmt=jpeg)
+
+**许震**
+
+  
+
+男，1992年生，硕士研究生，研究方向为罗氏线圈电流传感器的分析、建模及应用。
+
+**明磊**
+
+  
+
+男，1990年生，博士，校聘副教授，河北工业大学电气工程学院硕士生导师，研究方向为高频高功率密度电力电子变换器建模与控制、宽禁带功率半导体器件封装与应用以及电流传感技术。
+
+**石亚飞**
+
+  
+
+男，1996年生，博士研究生，研究方向为功率半导体器件的电压电流测量技术、结温提取技术及功率模块的封装集成。
+
+**辛振**
+
+  
+
+男，1988年生，博士，教授，河北工业大学电气工程学院博士生导师，研究方向为电力电子元器件失效机理与可靠性评估、功率器件健康状态监测与寿命预测。现任天津市电力设备可靠性与智能化国际联合研究中心副主任；兼任IEEE PES动力电池技术分委会常务理事、天津市电机工程学会理事、中国电工技术学会青工委委员；并入选中国科协第六届“青年人才托举工程”；获批河北省杰出青年科学基金、河北省教育厅“青年拔尖人才”等人才项目资助。
+
+**卢保聪**
+
+  
+
+男，1973年生，博士，教授，河北工业大学兼职教授，博士生导师，研究方向为功率变流器的拓扑、调制和控制，电力电子化电力系统的可靠性与稳定性分析。现为香港中文大学终身教授，国家能源局“国家能源主动配电网技术研发中心”首席科学家，丹麦电力电子可靠性研究中心 (CORPE) 核心成员，担任世界著名风电厂商Vestas集团研究顾问、IEEE Trans. on Power Electron.和IEEE Trans. on Ind. Appl.等电气顶级期刊副主编。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/sW9eywJbic7Uq44gzCS6FYBBftZ8F9NuE4sDWfOicKaq5Llia4EibtbPs1JAaUavC3HLgUuaZBlHBxl0J2ibqdpibDibw/640?wx_fmt=gif)
+
+联系我们  
+
+电话：0451-86396392
+
+        0451-86396387
+
+邮箱：djkz\_emc@188.com
+
+官网：http://emc.hrbust.edu.cn
+
+下载论文PDF版，点击阅读原文
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/fibdKZZaUxHLVPx2S0sWdrME2EANqlUic59cM3zHaZeQXJtVUmUHm2oFic0ibMjfBMLv1uo99ibSmRfzrSktViaeNq4Q/640?wx_fmt=jpeg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/aBfKZwhmpTUCN34YdD3CS1icGJjGbibmiby1fPicCLpjBcCibyFn1ClGwLicrHlpKSwEv7WX6Xxkkm9InTEP8XFgljdg/640?wx_fmt=png)
+
+点击图片 关注我们
+
+阅读原文

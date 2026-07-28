@@ -1,3 +1,8 @@
+# 如何读懂很长的Fortran代码？
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/kINV2i8-csbvt7U4pqECVQ](https://mp.weixin.qq.com/s/kINV2i8-csbvt7U4pqECVQ)
+
 ## 
 
 # 提问
@@ -45,8 +50,15 @@
 
 通过上述步骤，你可以更有条理地深入理解长篇的Fortran代码。记住，读懂复杂代码是一个逐步深入的过程，需要时间和耐心。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWK6vESWkuOvMuK4ynnA5RWHF4Zgs4dsFA6FxZxhQnjOE5hM3ziaofLGwB2ibMoO5vOibmlIysMVP3tg/640?wx_fmt=jpeg&from=appmsg)
 
 如果是历史遗留代码，自己在读懂之后还想做重构，可以参考以下文章
 
+[**如何处理历史遗留Fortran代码：简短指南**](http://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247484664&idx=1&sn=6e50851a65389a2373de378b4babd24c&chksm=c3379082f4401994d64f9070aba6b22690606a12d58c967fbd00cf548f08e4cef129c6f81e64&scene=21#wechat_redirect)  
 
+[**Fortran代码重构：一份简明的操作流程清单**](http://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247484741&idx=1&sn=c4763109e130a09e0d3f7302ed107a66&chksm=c337913ff44018295e04e3a2bdbc9791a4de149973834639c27c30b0a4f8c6251e02a9450339&scene=21#wechat_redirect)  
+
+  
+
+  
 好书推荐

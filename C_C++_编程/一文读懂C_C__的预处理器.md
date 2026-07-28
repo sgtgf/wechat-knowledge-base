@@ -1,8 +1,17 @@
+# 一文读懂C/C++的预处理器
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/vfSHMpi-F28QANzQ7MqecQ](https://mp.weixin.qq.com/s/vfSHMpi-F28QANzQ7MqecQ)
+
 ### 
 
+![](https://mmbiz.qpic.cn/mmbiz_gif/kicB09lvgibnnRjv0AAqQxyBODIttZXnQqcTPoF4Pt8tJmnia4CHaYUS3zqicFfKZTWibXTAew2ibFHDjy5Pf8nDnVEQ/640?&random=0.5435628020271572&random=0.7333430426412921&random=0.11768190117034583&random=0.12018774317487124&random=0.31661911194151493&random=0.7635339231703804&random=0.9613365986074616&random=0.1923479600602538&random=0.5088725080122942)
 
 点击上方「蓝字」关注我们
 
+![](https://mmbiz.qpic.cn/mmbiz_png/kLQoJJzjYaicxneNzbOg7ynx3TfnIwmNTpJQ7orkaUNrJIV4u7PNdSJ25Mtn6XdRQTamLDDicHnYfdic2bsiaNQjCw/640?&random=0.6153869521132325&random=0.3050959118824166&random=0.3425740390684655&random=0.5631073915395226&random=0.3811110885571365&random=0.7586035005343534&random=0.5766395221126888&random=0.5695725227414736&random=0.31459453309857777)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRETdLuoXm1hlcFzRLY8530oa5qlVg14icIZ9hDbNPOkYIRsOWmTDTTFiaxJvPWFTqGXm8cTKIO6bau1qSEqqBDA/640?wx_fmt=png&from=appmsg&random=0.14341926131468363)
 
 在编程领域，预处理器是一个非常重要的概念，尤其是在 C/C++ 这样的静态类型语言中。预处理器是一种特殊的程序，它在编译器开始编译之前对源代码进行初步处理。预处理器的指令以`#`号开头，用于指导编译器如何处理源代码。本文将详细介绍 C/C++ 中的预处理器指令，包括它们的基本用法、高级特性以及一些最佳实践。
 
@@ -113,3 +122,13 @@ C/C++ 提供了一些预定义的宏，这些宏在编译时会自动包含特�
 ## 小结
 
 C/C++ 预处理器是编写高效、灵活和可维护代码的重要工具。通过合理使用预处理器指令，我们可以简化代码管理、提高代码复用性和适应不同环境的能力。然而，预处理器也是一把双刃剑，不当的使用可能会引入难以调试的问题。因此，了解预处理器的工作原理和最佳实践是非常重要的。希望本文能帮助你更好地理解和使用 C/C++ 预处理器。
+
+  
+
+# 推荐阅读
+
+  
+
+  
+
+ ![](https://mmbiz.qpic.cn/sz_mmbiz_gif/eRETdLuoXm1hlcFzRLY8530oa5qlVg14Sp7ykiaiaeksse1OriavStBSZ3aOeSRibrictsMImSUmYpM8KlkR2oh16xA/640?wx_fmt=gif&from=appmsg)

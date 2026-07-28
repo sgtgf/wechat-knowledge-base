@@ -1,3 +1,12 @@
+# 现代Fortran探索之旅 | 获取变量的内存地址
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/2Kt5HVjRpljGT52QXVBXLQ](https://mp.weixin.qq.com/s/2Kt5HVjRpljGT52QXVBXLQ)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+
+  
+
 在现代计算环境中，了解并操作数据在内存中的确切位置有时是必要的，尤其是在进行底层优化或跨语言交互时。Fortran，作为一种历史悠久且持续演进的编程语言，提供了多种途径来实现这一目的。本文将深入探讨如何在Fortran中获取变量的内存地址，并通过实例展示其应用，同时比较非标准方法与Fortran 2003规范引入的标准方法。
 
 ## 什么是地址？
@@ -6,6 +15,7 @@
 
 在Fortran程序中，通常我们通过声明变量，让编译器自动管理这些变量在内存中的分配，无需直接操作地址。但在一些特殊场景下，比如与C语言的互操作，需要显式地传递变量地址，为此Fortran提供了相应的功能。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWnnI4iaic1mSYzOcyCmjw4TW91RSofeT3b9SiaeQFElQT8q4hGZsYRepa95H1LFJ9DTL5fngL4oWcnw/640?wx_fmt=jpeg&from=appmsg)
 
 ## 获取地址的函数
 
@@ -50,6 +60,7 @@
 -   堆变量通常需在运行时由程序员明确地指定在堆上分配和释放
     
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWnnI4iaic1mSYzOcyCmjw4TWgsv9XoymciaAHpiaemBt76ibNf9qeuVpBYWUX5x31LljLytdXo8fcu1yg/640?wx_fmt=jpeg)
 
 下面的示例通过Fortran中典型的全局变量、局部变量和动态变量，展示了这三种存储类型的地址差异。
 
@@ -65,6 +76,7 @@
 
 本文介绍了在Fortran中获取变量地址的两种主要方法：非标准的`loc()`函数和符合Fortran 2003标准的`c_loc()`函数，并通过实例展示了它们的使用。进一步地，通过探索变量地址与存储区域的关系，我们得以窥见Fortran程序在内存管理上的灵活性和复杂性。尽管标准的`c_loc()`在互操作场景下更为正式，但非标准的`loc()`在日常快速获取地址需求中依然显得便捷。理解这些工具及其应用场景，对于编写高效、兼容性强的Fortran代码至关重要。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

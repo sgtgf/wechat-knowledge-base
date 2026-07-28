@@ -1,3 +1,12 @@
+# Fortran调试技巧 | 借用C语言中的FILE和LINE宏
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/c5s\_BU5e8WfzlMNnn1aPPA](https://mp.weixin.qq.com/s/c5s_BU5e8WfzlMNnn1aPPA)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/zl6FCZ6ofibhJZqYaeJlSFvXRIcAOYic5cmQGs0Fwd8Vo5h8aLUIshlibuXCEG54NvGpZdLtJvrbviapTwAcSicZSrA/640?)
+
+  
+
 点击上方 蓝字 关注我们
 
 在编程过程中，调试是一项不可或缺的工作。良好的调试习惯不仅能够帮助开发者快速定位和解决问题，还能提高代码的质量和可维护性。对于 Fortran 这样的传统语言来说，尽管它的语法和特性可能不如现代语言那么丰富，但开发者仍然可以通过一些技巧来增强其调试能力。本文将介绍如何在Fortran中利用C语言的 `__FILE__` 和 `__LINE__` 宏来辅助调试，以期为 Fortran 开发者提供一种有效的方法来追踪错误发生的位置。
@@ -6,6 +15,7 @@
 
 在 C 语言中，预处理器提供了几个有用的内置宏（如下表所示），其中包括 `__FILE__` 和 `__LINE__`。`__FILE__` 宏会被预处理器替换为一个包含当前源文件名称的字符串，而 `__LINE__` 则会被替换为一个表示当前源文件行号的整数。这两个宏在编写错误报告或日志记录时非常有用，因为它们可以帮助开发者准确地定位到代码中的具体位置。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVEPEichoPSHCrQibXhCsCslhziaB6ibUHIZ6yoIXPCs6eUYKLTbFw8ljp0U9T29gl1icHIbT2Q4l7Y2jQ/640?wx_fmt=jpeg&from=appmsg&random=0.8178363173925032)
 
 例如，在 C 语言中，你可以这样使用它们：
 
@@ -120,11 +130,13 @@ Fortran 作为一种古老的编程语言，同样支持预处理器指令。这
 一个Fortran程序的诞生：逐步解析GFortran的编译过程
 
 
+
 ](http://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247486463&idx=1&sn=2ed123deba5303668aecabde533de114&chksm=c3379f85f4401693b667e0edc2aea236b7c5b7191438144c380e0b78ef745f85fbf8e420d0ba&scene=21#wechat_redirect)
 
 [
 
 现代Fortran探索之旅 | GFortran常用编译选项
+
 
 
 ](http://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247484528&idx=1&sn=d8c6a0482df80da2b525bba462c8c6c7&chksm=c337900af440191cb2d5a60ece0a13c99bfd55f1308ed2a1c13f85bc847a9e40cfd25774e4ca&scene=21#wechat_redirect)
@@ -134,4 +146,19 @@ Fortran 作为一种古老的编程语言，同样支持预处理器指令。这
 Fortran开发环境极简配置教程
 
 
+
 ](http://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247484359&idx=2&sn=f5e95d2ccaa5a2772913b688bb597ec3&chksm=c33797bdf4401eab947281eff9a587cee3e92ccedf773afe28e813c81c290ea468df17258461&scene=21#wechat_redirect)
+
+  
+
+# 推荐阅读
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=other&from=appmsg&random=0.9539727094076849&random=0.8226163506660595&random=0.6905061688803527&random=0.827054233979573&random=0.20298406733969632&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1&random=0.07188680535054659)
+
+**FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
+
+有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的免费试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXaMuIZZTPWuOVnrUIDWKGnVFANg0cibXic0dOIjjQnicYwJ3QsQFtmY2HkBtA57jFAHS89SlX9cSibvg/640?wx_fmt=png&from=appmsg&random=0.1848566241593428)

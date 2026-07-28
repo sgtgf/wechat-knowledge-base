@@ -1,3 +1,8 @@
+# 内存泄漏？不存在的！Fortran内存管理的智慧与艺术
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/h6G65gsy4d1ekDfyompUOA](https://mp.weixin.qq.com/s/h6G65gsy4d1ekDfyompUOA)
+
 在编程的世界里，内存管理是一个无法回避的主题，它直接关系到程序的性能与稳定性。对于初学者而言，不当的内存管理往往成为学习过程中的拦路虎，尤其是在C或C++这类语言中，手动分配与释放内存的操作稍有不慎就会导致内存泄漏或是段错误，这些错误不仅难以调试，还可能导致程序崩溃或资源耗尽。相比之下，Fortran通过其内置的机制，为开发者提供了一条相对平滑的内存管理之路。
 
 ## Fortran内存管理的优雅之处
@@ -54,6 +59,7 @@ Fortran 2003以后的版本更是引入了对「子程序中可分配数组参�
 
   
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

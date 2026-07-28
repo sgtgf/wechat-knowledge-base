@@ -1,0 +1,134 @@
+# IEEE TAP | 共享辐射体相控阵实现超宽带360°连续扫描
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/pRO\_iYkC5t8a\_gQG\_xcZAA](https://mp.weixin.qq.com/s/pRO_iYkC5t8a_gQG_xcZAA)
+
+近日，本教研室在 宽带相控阵天线技术 方面取得新进展。相关研究成果“Ultrawideband 360° Azimuthal Continuous Scanning Radiator-Sharing Phased Arrays”发表于天线与电磁领域国际权威期刊 IEEE Transactions on Antennas and Propagation。
+
+论文提出了一种 共享辐射体相控阵天线新架构，实现了360°方位连续扫描、超宽带工作、紧凑低剖面结构，为宽带扫描阵列设计提供了一种新的技术路线。
+
+  
+![](https://mmbiz.qpic.cn/mmbiz_gif/p5SKe5bvAsDNfaBTuTRXtmOB0iauPNr4aJAlh9vrXgetpgm1AjA8tJJ8G99IjIvuZicnkibkjGK121U8fH5RKp8faRHcicib56OgicJ4MleZH9RKE/640?wx_fmt=gif)
+
+共享辐射体相控阵天线360°扫描示意图
+
+* * *
+
+一、360°扫描天线为什么重要？
+
+在许多电磁系统中，天线需要实现 全方位覆盖能力。
+
+例如：
+
+·雷达环境探测
+
+·无线通信系统
+
+·车载定位系统
+
+·应急救援通信
+
+·电子侦察系统
+
+这些应用都要求天线能够在 360°方位范围内灵活扫描。
+
+  
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsAOAIm1I1Aqt1xqL1hU2VEicJYc72y32IIkk5MpjjoyGhARfZ2vVib9I70PtDAFH7A7AhJMOMHHW74jdboNUQpjZmSf7ibeMmTg0s/640?wx_fmt=png)
+
+应用场景示意（AI图片）
+
+然而，工程上同时实现以下三点并不容易：
+
+·超宽带
+
+·小型化
+
+·360°扫描
+
+这成为阵列天线设计中的一个重要挑战。
+
+* * *
+
+二、本工作的关键突破
+
+1️ 共享辐射体相控阵
+
+为解决这一问题，研究团队提出了一个新的设计理念：
+
+**共享辐射体相控阵（Radiator-Sharing Phased Array）**
+
+核心思想是：
+
+**多个馈电端口共享一个辐射体，通过阵列耦合实现宽带匹配。**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsDYcRNVbrz6Cr5icYfXB7HKpK7CzcKn71gXbNicnFtficNanucH3SU2rEIad1eiaHPCEBgicdTlMfKE9UgdAz16GnoykTice6OtJia5HA/640?wx_fmt=png)
+
+本文提出的共享辐射体相控阵
+
+在该设计中：
+
+·中央采用 **锥形辐射体**
+
+·周围布置 馈电端口
+
+·阵列形成 **紧耦合结构**
+
+这种结构具有几个显著优势：
+
+·**阵列结构更加紧凑**
+
+·**馈电网络更加简单**
+
+·**口径利用率更高**
+
+* * *
+
+2️ 实验验证
+
+为了验证设计，研究团队制作了 **六端口阵列样机** 并进行了实验测试。
+
+  
+![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsDORMIppH7cDHLq7V9ZNbaBauZQgZGialJBRqEe4CUmy0pc40owwgicR4nKaOvy4MAqD7SUSSvXaVojMPRBenKiccj49ibfkUZj1M4/640?wx_fmt=png)
+
+天线样机与测试场景 
+
+测试结果表明，该天线实现了：
+
+**360°连续方位扫描**
+
+并获得了优异性能：
+
+·工作频段：**1.8 – 7.5 GHz**
+
+·相对带宽：**123%**
+
+同时具有：
+
+·扫描增益波动 **< 0.35 dB**
+
+·峰值增益 **7.9 – 9.5 dBi**
+
+·交叉极化 **<** **−****25 dB**
+
+这些结果表明该阵列具有 **良好的扫描稳定性和宽带特性**。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCnsSFlqMdqUiaaz0sH9jqLAWXqiaalmu4WFuyMPJVLGogztAyqggFiaia1b9Aiauibt2IeHfDLZyKkJr8K3p0jktib8ticxCaIzn1Iv9Q/640?wx_fmt=png)
+
+一些360°扫描阵列比较
+
+* * *
+
+三、总结
+
+本研究的主要创新为共享辐射体阵列思路，通过多个端口共享同一辐射体，实现了结构小型化。该技术在多个领域具有潜在应用价值，例如宽带雷达系统、车载通信系统、无人系统感知、电子对抗系统、室内高精度定位等。同时，提出的共享辐射体阵列设计思想也为未来宽带阵列天线设计提供了新的研究方向。
+
+* * *
+
+📄 论文信息            
+Tanjian Yang, Jing-Cheng Liang, Ren Wang\*, Junjie Shao, Yinchen Wang, Chunlei Zhang, and Bing-Zhong Wang, Ultrawideband 360° Azimuthal Continuous Scanning Radiator-Sharing Phased Arrays, IEEE Transactions on Antennas and Propagation, 2026, 74(2): 1642-1652. 
+
+* * *
+
+ 【本文特别声明】
+
+本文中对文献的解读与评述仅为学术探讨，不代表原论文作者及其机构的观点。文中引用的论文插图/图表仅为评论、说明之目的，属于在学术交流中的“合理使用”，其版权均归属于原出版方及原作者所有。我们已尽最大努力标注原始出处。如果您是版权所有者且认为存在侵权，请与我们联系，我们将立即删除。我们强烈建议读者阅读原文以获取最完整准确的信息（可点击左下角“阅读原文”跳转）。\[原文DOI链接：10.1109/TAP.2025.3639351\]

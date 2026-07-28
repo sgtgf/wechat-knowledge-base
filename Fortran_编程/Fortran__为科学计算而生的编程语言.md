@@ -1,5 +1,11 @@
+# Fortran——为科学计算而生的编程语言
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/Jo-0Crog9M2Ysk2vMIK4vg](https://mp.weixin.qq.com/s/Jo-0Crog9M2Ysk2vMIK4vg)
+
 Fortran，全称为"Formula Translation"，是一种高级编程语言，由IBM的约翰·巴克斯（John Backus）在1957年发明。它最初被设计用于数学计算和科学应用，尤其是那些涉及大量数值计算的领域。1991年， Fortran 90 发布，这是Fortran语言的一次重大更新。Fortran 90 引入了许多现代编程语言的特性，这些特性极大地提高了语言的表现力和灵活性。在此基础上，Fortran语言不断更新，衍生出了更多版本的现代 Fortran。目前最新的标准版本是 Fortran 2023。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUfaURP4NGIM8edJr2hZLJFZwM0bqy1JJfSSdE4zm5HE6pXQwhVzrQbjQtqotHD5QOT6eRnOZvhUg/640?wx_fmt=png&from=appmsg)
 
 一直以来，Fortran语言因其简洁、高效和易于学习的特点而广受欢迎。下面，我将从几个关键点详细介绍为什么Fortran容易学习，并用例子加以说明。
 
@@ -141,6 +147,7 @@ Fortran提供了并行计算的支持，包括对MPI（Message Passing Interface
 
 Fortran语言的设计哲学注重简洁性、效率和可靠性，这使得它成为易于学习和使用的编程语言。通过上述例子，我们可以看到Fortran在语法简洁性、数组处理、类型安全、模块化编程、数值计算能力、性能优化和并行计算等方面的特点。这些特性不仅使得Fortran适合于数值计算和科学工程领域，也使得它成为教育和研究的理想工具。对于初学者来说，Fortran的这些特性大大降低了学习曲线，使得大家都能够快速上手并编写有效的程序。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

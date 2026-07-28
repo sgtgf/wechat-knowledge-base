@@ -1,3 +1,8 @@
+# mpipy，一个神奇的Python MPI库！
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/EpTQx9G-drC9LWuir4aJIA](https://mp.weixin.qq.com/s/EpTQx9G-drC9LWuir4aJIA)
+
 在科研与工程的前沿阵地，复杂的模拟运算无处不在。从气候模型预测全球气候变化，到量子化学领域计算分子轨道，计算量动辄超乎想象。传统串行计算，面对这些任务，就像小马拉大车，吃力不讨好。而 mpipy 库宛如一台超级算力引擎，让我们能驾驭多核、集群力量，风驰电掣般解决难题。
 
 开启 mpipy 探索之旅，导入库：`pip install mpipy`，简单一步，却开启无限可能。

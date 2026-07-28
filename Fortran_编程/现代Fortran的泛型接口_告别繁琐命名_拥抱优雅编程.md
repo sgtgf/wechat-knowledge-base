@@ -1,9 +1,17 @@
+# 现代Fortran的泛型接口：告别繁琐命名，拥抱优雅编程
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/C\_9-uteG0EVobyqey8cgAA](https://mp.weixin.qq.com/s/C_9-uteG0EVobyqey8cgAA)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVXkszTAU2XWHdU0FE9cibs9dt9GsJA7gZkOA8jojfUlONf2TTgU5VctDMoxjpdxwvicBCg02E4qIu6Q/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
 在编程语言的浩瀚星空中，Fortran 无疑是一颗璀璨的恒星。作为科学计算领域的“老前辈”，它见证了计算机科学的半个多世纪的风雨变迁。然而，提到 Fortran，很多人的第一印象可能还停留在满是 `GOTO` 语句、变量名只有六个字符、以及为了区分数据类型而不得不给函数加上冗长后缀的“古老”时代。
 
 如果你还抱着这样的旧印象，那你真的错过了一场静悄悄却波澜壮阔的革命。从 Fortran 2003 标准开始，这门语言引入了面向对象编程的核心特性，其中**泛型接口（Generic Interface）**无疑是提升代码抽象能力、可读性和复用性的“皇冠明珠”。
 
 今天，我们就来深入聊聊现代 Fortran 中的泛型接口，看看它如何让科学计算代码从繁琐的命名泥潭中解脱出来，焕发出类似 C++ 函数重载或 Python 多态的现代光彩。
 
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
 
 ## 一、痛点：当命名成为负担
 
@@ -121,11 +129,13 @@ Fortran 标准规定，同一个泛型接口下的所有具体过程必须是**�
 在Fortran中实现≈运算符
 
 
+
 ](https://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247485507&idx=1&sn=57739e0df86f2fc0542d40c9e1bada38&scene=21#wechat_redirect)
 
 [
 
 Fortran中的函数与回调：概念与实践
+
 
 
 ](https://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247486687&idx=1&sn=955c0d001654df70c2c51baf61ee0132&scene=21#wechat_redirect)
@@ -135,4 +145,33 @@ Fortran中的函数与回调：概念与实践
 深入浅出Fortran过程接口：确保代码安全与有效交互的关键
 
 
+
 ](https://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247484605&idx=1&sn=121c23968804b120a463966aa5515aaf&scene=21#wechat_redirect)
+
+  
+
+## 推荐阅读
+
+  
+
+  
+
+  
+
+‍
+
+  
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.2312854885901674)
+
+**闲鱼小店已上新，欢迎新老粉丝关注和咨询![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/assets/Expression/Expression_64@2x.png)**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXGjL9AskORRpMqtYibGichN8pF8NLWtOVar1b39x9cI4dKNg7lISX1MibBa1HRECAY9bClZrLWuRLUA/640?wx_fmt=jpeg&from=appmsg)
+
+**喜欢****作者******，请点********赞********和在看******![](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6459285066781566&random=0.9039664113437702&random=0.10616299980642463&random=0.37943585876598473&random=0.7246305284075434&random=0.1820491079508062&random=0.3136645327514245&random=0.8290227030922905&tp=webp)**
+
+**![](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.90499299240585&random=0.7427014598159356&random=0.6203706698189717&random=0.17266143983420013&random=0.4502076552242009&random=0.3348111146987862&random=0.5857982594073723&random=0.5924137199896844&tp=webp)**

@@ -1,3 +1,12 @@
+# NumPy入门指南：让Python数据处理速度起飞
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/CF1XkA0GXtvlmHNAa2mGnw](https://mp.weixin.qq.com/s/CF1XkA0GXtvlmHNAa2mGnw)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVXkszTAU2XWHdU0FE9cibs9dt9GsJA7gZkOA8jojfUlONf2TTgU5VctDMoxjpdxwvicBCg02E4qIu6Q/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![【Numpy核心编程攻略：Python数据处理、分析详解与科学计算】3.4用NumPy进行图像大小调整_numpy放大图片-CSDN博客](https://mmbiz.qpic.cn/sz_mmbiz_jpg/o7bJfzdLv3eZobY1MG6Jsn7PPlwEMvkRotAiabsoaWlQgg63R1Lk29pdDs2bJIDkpMRwVEPGRIMzBOzvPdObG12TfD1y3fgpqDkQYV0f64icY/640?wx_fmt=jpeg)
+
 作为 Python 生态系统中数值计算的基石，NumPy 不仅极大地提升了运算效率，更是 Pandas、Matplotlib、Scikit-learn 等知名库的底层依赖。可以说，不懂 NumPy，就无法真正深入理解现代数据科学。本文带你从零开始，揭开 NumPy 的神秘面纱，掌握高效数据处理的核心技巧。
 
 ## 为什么我们需要 NumPy？
@@ -32,6 +41,7 @@ import numpy as np
 -   **张量（Tensor）**：N 维数据，是标量、向量、矩阵的高维扩展。在深度学习中，我们处理的图像、视频数据本质上都是高维张量。
     
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/o7bJfzdLv3fb3NXiby3G86W3eWkRj5WCiaFAtBlu8uy8RIAuH0GSm5Lsy10BicFPvA7icRNjEQ52Fnbt32FfZvdvUXP2LN3IrUZKRticC6h0OoGQ/640?wx_fmt=jpeg&from=appmsg)
 
 在 NumPy 中，这一切都统一为 `ndarray` 对象。例如，创建一个一维数组和一个二维数组非常简单：
 
@@ -39,6 +49,7 @@ import numpy as np
 n1 = np.array([10, 100, 100.])  # 一维数组n2 = np.array([[1., 2., 3.], [4., 5., 6.]])  # 二维数组
 ```
 
+![](https://mmbiz.qpic.cn/mmbiz_jpg/o7bJfzdLv3fvynLJ5BuTM75PU6VmFL0WJacXHAEsYhU605F4bSSrPicsX1IeMzMVE4gKWEEzuTy49cpDEFftibJGZJSCXfooEo9mxfN4sALX4/640?wx_fmt=jpeg&from=appmsg)
 
 值得注意的是，NumPy 具有**同构性**。如果在创建数组时混合了整数和浮点数（如上面的 `n1`），NumPy 会自动将所有元素转换为精度更高的类型（这里是 `float64`)，以确保数据的一致性。你可以随时通过 `n1.dtype` 来查看数据类型。
 
@@ -97,6 +108,7 @@ n1 = np.array([10, 100, 100.])  # 一维数组n2 = np.array([[1., 2., 3.], 
 
 我们可以通过索引或是切片来获取 NumPy 中的元素。通过**索引**获取单个元素时，返回是一个**标量**；通过**切片**返回的将是**数组**（比如：对二维数组进行行或列切片时，返回一维数组，若行和列都切片则返回二维数组）。下图示例展示通过索引和切片获取元素：
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/o7bJfzdLv3fXRVlqb9eiaWlHGhAca7THDAFt7rEibSf9GOVJCTBaU7o5tP4gbr2b6ls0xibyoVm70AOMfnYyn2mTQ1MtfEibBRLkEHIsTC9DJw0/640?wx_fmt=jpeg&from=appmsg)
 
 以下是对应的实现代码
 
@@ -249,11 +261,12 @@ NumPy 是通往数据科学殿堂的第一把钥匙。它不仅仅是一个库�
 
 Happy Coding!
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.2312854885901674)
 
   
 
-**闲鱼小店已上新，欢迎新老粉丝关注和咨询**
+**闲鱼小店已上新，欢迎新老粉丝关注和咨询![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/assets/Expression/Expression_64@2x.png)**
 
-**喜欢****作者******，请点********赞********和在看********
+**喜欢****作者******，请点********赞********和在看******![](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6459285066781566&random=0.9039664113437702&random=0.10616299980642463&random=0.37943585876598473&random=0.7246305284075434&random=0.1820491079508062&random=0.3136645327514245&random=0.8290227030922905&tp=webp)**
 
-****
+**![](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.90499299240585&random=0.7427014598159356&random=0.6203706698189717&random=0.17266143983420013&random=0.4502076552242009&random=0.3348111146987862&random=0.5857982594073723&random=0.5924137199896844&tp=webp)**

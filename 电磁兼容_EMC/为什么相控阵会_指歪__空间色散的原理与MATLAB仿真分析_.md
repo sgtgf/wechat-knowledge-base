@@ -1,0 +1,68 @@
+# 为什么相控阵会“指歪”？空间色散的原理与MATLAB仿真分析！
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/oO7c01rFFNFq9M2MyOyVUw](https://mp.weixin.qq.com/s/oO7c01rFFNFq9M2MyOyVUw)
+
+在相控阵天线中，人们往往假设波束始终指向设定角度，但在宽带条件下，这一假设并不成立。由于频率变化引起的相位失配，阵列波束会发生明显偏移，这一现象被称为空间色散。本文将从物理机理出发，结合MATLAB仿真，直观分析空间色散的成因及其对阵列指向性能的影响。
+
+# 一、空间色散的基本原理
+
+在实际阵列工作环境中，阵列接收到的信号频率并不一定严格等于系统设计时的载波频率。设阵列设计载波频率为，阵元间距取为对应波长的一半，即
+
+对于一维均匀线阵，若入射信号为窄带平面波，其入射角为，根据相控阵的基本原理，在已知指向角的条件下，阵列加权向量可表示为
+
+其中第个阵元相对于参考阵元的时延为
+
+可以看出，该权向量仅由阵列结构参数和指向角决定，与信号的实际频率无关。
+
+然而，在真实场景中，入射信号的角频率往往为。假设阵列接收到的信号为窄带连续波，其角频率为，入射角为，忽略噪声影响，则阵列输出可表示为
+
+整理可得
+
+定义频率偏差为
+
+可以看出，当信号频率等于载波频率（即）时，各阵元加权后的相位完全一致，阵列在期望方向上实现理想相干叠加；而当时，各阵元之间将产生附加相位差，导致信号无法在原指向方向上完全相干叠加。
+
+从方向图角度来看，这种相位失配将引起主瓣偏移，表现为阵列的实际指向角偏离设计指向角。频率偏差越大，阵元间累积的相位误差越显著，主瓣偏移也越明显。这一由频率变化引起的波束指向偏移现象，即为**空间色散**。
+
+# 二、MATLAB仿真分析
+
+为验证上述理论，采用均匀线阵进行数值仿真。阵列参数设置如下：阵元数为10，载波频率为1GHz，阵元间距取对应波长的一半。相控阵权值按照载频设计。
+
+## （1）不同信号频率下的空间色散特性
+
+首先固定指向角为30°，分别令信号频率为0.9GHz、1GHz和1.2GHz，计算对应方向图，如图1所示。
+
+![图1 固定角度不同入射频率下的方向图](https://mmbiz.qpic.cn/sz_mmbiz_png/sztj3YzJ1Wic19KcU8cr492ibFv4elzeOVGh1hLEDCFnGQB3CyvfECLoxP2ich8jgGXibBib9Iic8ricibSQjsSmBzmalA/640?wx_fmt=png&from=appmsg)
+
+图1 固定角度不同入射频率下的方向图
+
+仿真结果表明：当信号频率等于载频（1GHz）时，主瓣准确指向40°；当信号频率低于载频（0.9GHz）时，主瓣向大角度方向偏移；当信号频率高于载频（1.2GHz）时，主瓣向小角度方向偏移。频率偏差越大，波束指向偏移越大。
+
+## （2）不同扫描角下的空间色散特性
+
+进一步固定信号频率为0.9GHz，分别设置相控阵期望指向角为20°、40°和60°，计算对应方向图，如图2所示。
+
+![图2 固定入射频率不同角度下的方向图](https://mmbiz.qpic.cn/sz_mmbiz_png/sztj3YzJ1Wic19KcU8cr492ibFv4elzeOVcj2Wcoy3dTgXVFcBwiaUuSqS84VS6GQM15zkjjWlGrWhyNqkVR9VicrA/640?wx_fmt=png&from=appmsg)
+
+图2 固定入射频率不同角度下的方向图
+
+仿真结果表明：当扫描角较小时，主瓣偏移相对较小；随着指向角增大，实际主瓣与期望方向的偏差迅速增大。这说明空间色散不仅与频率偏差有关，也与扫描角相关，扫描角越大，空间色散效应更加显著。
+
+# 三、MATLAB代码
+
+`clc; clear; close all;      % 基本参数   c = 3e8;   fc = 1e9;                % 设计载频   f_list = [0.9e9 1e9 1.2e9]; % 实际信号频率   N = 10;                    % 阵元数   d = c/(2*fc);              % 阵元间距   theta0 = 30*pi/180;        % 期望指向角（弧度）   theta = -90:0.1:90;   theta_rad = theta*pi/180;   figure; hold on; grid on;      for k = 1:length(f_list)       f = f_list(k);       k0 = 2*pi*f/c;       w = exp(1j*(0:N-1)'*2*pi*fc/c*d*sin(theta0)); % 相控阵固定相移（按 fc 设计）       AF = zeros(size(theta));     % 方向图计算       for n = 1:length(theta)           a = exp(1j*(0:N-1)'*k0*d*sin(theta_rad(n)));           AF(n) = abs(w' * a);       end       AF = AF / max(AF);       plot(theta, 20*log10(AF), 'LineWidth', 1.5);   end      legend('0.9GHz','1GHz','1.2GHz');   xlabel('\theta (deg)');ylabel('Normalized Pattern (dB)');   xlim([-90 90]);xticks(-90:30:90);ylim([-50 0]);   `
+
+`clc; clear; close all;      c = 3e8;   fc = 1e9;   f = 0.9e9;          % 实际信号频率   N = 10;   d = c/(2*fc);   theta_scan = [20 40 60];   % 期望指向角   theta = -90:0.1:90;   theta_rad = theta*pi/180;   figure; hold on; grid on;      for m = 1:length(theta_scan)       theta0 = theta_scan(m)*pi/180;       w = exp(1j*(0:N-1)'*2*pi*fc/c*d*sin(theta0));       k0 = 2*pi*f/c;       AF = zeros(size(theta));       for n = 1:length(theta)           a = exp(1j*(0:N-1)'*k0*d*sin(theta_rad(n)));           AF(n) = abs(w' * a);       end       AF = AF / max(AF);       plot(theta, 20*log10(AF), 'LineWidth', 1.5);   end      legend('\theta_0=20°','\theta_0=40°','\theta_0=60°');   xlabel('\theta (deg)');ylabel('Normalized Pattern (dB)');   xlim([-90 90]);ylim([-50 0]);   `
+
+  
+
+\-END-
+
+如果文章对你有帮助，请记得关注公众号，本公众号将持续更新FPGA和阵列信号处理相关的知识，谢谢！
+
+如果对你有帮助，请点亮文章底部的爱心**♡**，谢谢！
+
+大家如果有问题，欢迎在评论区留言！
+
+👉**笔者长期从事FPGA和阵列信号处理相关设计与开发，如您有相关项目需求，欢迎私信！**

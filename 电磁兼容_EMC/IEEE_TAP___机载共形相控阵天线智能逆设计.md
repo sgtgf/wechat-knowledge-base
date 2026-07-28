@@ -1,0 +1,184 @@
+# IEEE TAP | 机载共形相控阵天线智能逆设计
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/sSxynRNu1AQUinrZr8GwEA](https://mp.weixin.qq.com/s/sSxynRNu1AQUinrZr8GwEA)
+
+近日，教研室在共形天线逆向设计领域取得新进展。相关成果以“Computationally Efficient Inverse Design Method for Conformal Apertures Based on EAM-PINN”为题发表在 IEEE Transactions on Antennas and Propagation。该研究提出了一种基于嵌入解析模型的物理信息神经网络（EAM-PINN）的共形孔径逆向设计方法，实现了无需训练数据、计算效率高、适用范围广的电磁结构设计，为复杂曲面天线系统设计提供了一种新的解决思路。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/p5SKe5bvAsDsFIcRjpexvLbSRpSYRsoG5pI75vwatW9Cc9hBVKYuCuSNc5T4CkyflCrS2tyiaiam3eWlvvQhuSliatJtiaADs04wrx12PxBe2bc/640?wx_fmt=jpeg&from=appmsg)
+
+机载共形阵列示意图
+
+（Aerospace，2023, 10(6), 511）
+
+* * *
+
+一、复杂曲面天线设计面临的挑战
+
+在现代航空航天系统中，天线通常需要贴合飞机机身等复杂曲面结构，这种结构被称为共形天线（conformal antenna）。
+
+相比传统平面天线，共形天线具有气动性能好、隐身性能好、结构集成度高等优点，但同时也带来了设计难度的大幅提升。
+
+传统的设计方法主要是阵列综合（array synthesis）：先确定天线单元 → 在曲面上布阵 → 再优化幅度和相位。
+
+这种方法在复杂曲面情况下会遇到几个问题：
+
+-   设计变量数量随孔径尺寸快速增长
+    
+
+-   优化过程计算量巨大
+    
+
+-   结果依赖初始结构选择
+    
+
+因此，如何高效设计复杂曲面天线辐射特性成为电磁工程领域的重要问题。
+
+* * *
+
+二、从“正向设计”到“逆向设计”
+
+为解决上述问题，研究团队采用了一种新的思路：逆向设计（Inverse Design）
+
+传统设计流程是：
+
+目标辐射方向图 → 不断调整天线结构 → 得到结果
+
+而逆向设计则是：
+
+目标辐射方向图            
+⬇  
+直接求解所需的孔径场分布            
+⬇  
+再实现具体天线结构
+
+这种方法可以**直接从目标性能出发进行设计**，理论上效率更高。
+
+然而，在复杂曲面上进行逆向设计仍然存在：
+
+-   数学模型复杂
+    
+-   非线性问题严重
+    
+-   计算成本高
+    
+
+为此，团队引入了物理信息神经网络（PINN）思想。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsA2hY9m84rn1Y8KhmJV1rSyYnaJO2X1qiam4aXs8Q9hw0nyicJibjnRIvaxyQz2eMCTWMxo1gibssu6c9nvrUGfGhSZibyAL18nWOeY/640?wx_fmt=png)
+
+本文提出的共形阵列逆设计方法
+
+* * *
+
+三、EAM-PINN：将电磁物理嵌入神经网络
+
+研究团队提出了一种新的神经网络结构：
+
+EAM-PINN（Embedded Analytical Model Physics-Informed Neural Network）
+
+其核心思想是：
+
+将电磁辐射解析模型直接嵌入神经网络结构。
+
+与传统深度学习相比，这种方法具有三个重要特点：
+
+1 不需要训练数据
+
+传统AI方法需要大量仿真或实验数据。
+
+而EAM-PINN通过在网络中嵌入电磁物理规律，使训练过程始终满足麦克斯韦方程约束，因此无需训练数据集。
+
+2 网络结构极其简洁
+
+传统PINN通常需要多层神经网络。
+
+EAM-PINN则使用：
+
+基函数作为神经元
+
+通过少量参数即可表示连续孔径场，从而大幅降低计算复杂度。
+
+3 计算效率显著提高
+
+在典型设计案例中：
+
+-   传统方法：数百秒到上千秒
+    
+-   EAM-PINN：仅几十秒
+    
+
+计算效率提升两个数量级。 
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsDKoJvlA1RnRMNdKWlq4pzfr8xHpJ8Doo9Y3f7kqhjzaxLYlKqJ4Erwqq6cZGD4N25jdxqvRI9hO4uad5VGb4xsWq7WNdP6uCE/640?wx_fmt=png)
+
+共形天线阵逆设计案例 
+
+* * *
+
+四、实验验证：从理论到天线原型
+
+为了验证方法的有效性，研究团队设计并制作了**共形天线阵列原型**。
+
+研究流程包括：
+
+1️⃣ 通过EAM-PINN求解目标孔径场            
+2️⃣ 对连续孔径进行采样            
+3️⃣ 构建天线阵列实现
+
+实验样机为：贴片天线阵列
+
+实验验证了该方法的工程可行性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsBrib9fwbj52sa4Excq7wUZQoibzMpyLZ7kyLrzyZGfZppJicoCemHaNQ9WHbibhGQpm5IfdLYg1a5sSy7mvMKOibia7jmdFVXyS3NKY/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsDY1aRNSVlL5NEJusTgl9zUtbqRlPOeibBasUViawU9Vq7lAlSacbeIsiagshgDrnh0tibQAMiaA0Nic7XiarQciccLhm2Mg7martCbyXA/640?wx_fmt=png&from=appmsg)
+
+  
+
+两种典型的共形载体 
+
+* * *
+
+五、适用于多种复杂曲面结构
+
+除了圆柱曲面，研究还验证了：抛物面共形孔径
+
+并成功设计了：
+
+-   平顶波束
+    
+-   笔形波束（pencil beam）
+    
+
+  
+
+结果表明该方法具有强几何泛化能力、强频率泛化能力、支持多目标优化能力，适用于多种复杂天线系统设计。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsBxJ9McJYhfQ6wY0VA1tA24Qx182e1xI6Y74IQs7J1sTxe7Nnc70Ahia7V5W7xc4SlwdRfiaERmqwg3qg96ez6XViciaY0sJtSBoKA/640?wx_fmt=png)
+
+几种共形孔径设计方法比较
+
+* * *
+
+六、研究意义
+
+该研究提出的EAM-PINN方法：
+
+✔ 不依赖训练数据            
+✔ 计算效率高            
+✔ 适用于复杂曲面            
+✔ 可直接指导工程实现
+
+该方法有望成为大孔径共形天线设计的重要技术路线。
+
+* * *
+
+📄 论文信息            
+Yu-Hang Liu, Shi-Yu Meng, Jing-Cheng Liang, Yinchen Wang, Jinsong Fan, Bing-Zhong Wang, Ren Wang, Jin-Pin Liu, and Chuan-Sheng Chen, Computationally Efficient Inverse Design Method for Conformal Apertures Based on EAM-PINN, IEEE Transactions on Antennas and Propagation, 2026, DOI 10.1109/TAP.2025.3650140.  
+
+* * *
+
+【本文特别声明】
+
+本文中对文献的解读与评述仅为学术探讨，不代表原论文作者及其机构的观点。文中引用的论文插图/图表仅为评论、说明之目的，属于在学术交流中的“合理使用”，其版权均归属于原出版方及原作者所有。我们已尽最大努力标注原始出处。如果您是版权所有者且认为存在侵权，请与我们联系，我们将立即删除。我们强烈建议读者阅读原文以获取最完整准确的信息（可点击左下角“阅读原文”跳转）。\[原文DOI链接：10.1109/TAP.2025.3650140\]

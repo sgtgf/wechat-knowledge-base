@@ -1,3 +1,8 @@
+# CAE数值模拟仿真本质上是计算机图形学技术的延伸吗？
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/OUec03o9WoIcPvaK9p1QLw](https://mp.weixin.qq.com/s/OUec03o9WoIcPvaK9p1QLw)
+
 ## 
 
   
@@ -40,13 +45,16 @@ CAE数值模拟仿真（Computer Aided Engineering）和计算机图形学是两
 -   **计算机图形学**：计算机图形学的应用更为广泛，不仅在工程领域，还包括电影和游戏制作、虚拟现实、数据可视化、用户界面设计等多个领域。
     
 
- 
+ ![](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVWiceiaVLyLo24jAlvd0dmTZDysr9d9IStSDKnosfgCGicpULACe985Lq6pGAfT3BFrKibJXOb4fUZj8Q/640?wx_fmt=gif&from=appmsg)
 
 尽管CAE和计算机图形学在目标和方法上有所不同，但它们在实际应用中往往是**互补的**。例如，在产品设计过程中，CAE可以提供结构分析的结果，而计算机图形学则可以将这些结果以图形的形式展现出来，使得设计和分析过程更加直观和高效。同样，一些图形学软件也开始集成简单的CAE数值分析工具，制作某些特殊场景的视觉效果。
 
 一图抵千言，从数值仿真的角度出发，CAE和计算机图形学之间的关系大概是下面的样子，希望能对你有所启发。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWiceiaVLyLo24jAlvd0dmTZDPiavoRCgBKjozGQRhzcrfQrPbsa9F9ok1LOjJnaqcler2EqGrfu6eEw/640?wx_fmt=jpeg&from=appmsg&random=0.03310791764660603)
 
 说明：此图源自林群老师的《微分方程数值解法基础教程》，略加修改。
 
-#
+#   
+
+  推荐阅读

@@ -1,0 +1,94 @@
+# PRL:声学时空涡旋波束
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/-P98jXOy3KXyOH4kPdq-kA](https://mp.weixin.qq.com/s/-P98jXOy3KXyOH4kPdq-kA)
+
+**![](https://mmbiz.qpic.cn/mmbiz_gif/ia1BibkItfQXTsgYvzRSHbDc9IWXAmvO3JS7B1bFiaXySQcbtbCWoyl6QOAudiciaxNL9NgOsR1PTZ9P7ibicGW5ye7kQ/640?wx_fmt=gif)**  
+
+**![](https://mmbiz.qpic.cn/mmbiz_jpg/ia1BibkItfQXT0icEfSDYCXbuibNCdFovHNEcR2eJAMnia7LYZmNo0kRjnj6UiaIiakc4rZNSfGib6amod4zVewzJakXNA/640?wx_fmt=jpeg)**
+
+欢迎课题组投递中文宣传稿，投稿方式见文末
+
+撰稿|由课题组供稿
+
+导读。
+
+近日，南京大学陈延峰教授、卢明辉教授团队与上海科技大学刘晓平研究员团队合作，在声学时空涡旋波束研究方面取得重要进展。研究团队通过对声场时空结构的精密操纵，成功实现了声学贝塞尔型时空涡旋波束，展现了声学体系在探索和实现时空结构波束方面的潜力。该研究成果以“Spatiotemporal Acoustic Vortex Beams with Transverse Orbital Angular Momentum”为题发表于《Physical Review Letters》期刊，并被选为当期封面文章。论文共同第一作者为南京大学葛浩副研究员和硕士生刘帅，通讯作者为南京大学陈延峰教授、卢明辉教授和上海科技大学刘晓平研究员。南京大学许相园博士、田源博士和硕士生龙子威共同参与了研究。感谢香港大学张霜教授的深入讨论。该工作得到了国家重点研发计划、国家自然科学基金、江苏省自然科学基金等相关项目的支持。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/ia1BibkItfQXRWQag0qoZkxPBAXnpOM9gZE2eMiaEAjFdEPBJ7ibuMZheficcgEI7Gax7O76zsibt3fbYRDlibFplQibng/640?wx_fmt=png)
+
+**研究背景**
+
+对自旋角动量(SAM)和轨道角动量(OAM)的研究为波的操纵及波与物质的相互作用开辟了新的维度，在通信、计量、粒子操纵和纳米光子学等领域都具有重要的应用。通常来说，波携带的自旋和轨道角动量是纵向的，即沿着波的传播方向。最近，在光学领域发现了一种新奇的时空涡旋波束，这种时空涡旋波束携带有垂直于传播方向的横向轨道角动量，并且在涡旋波束向前传输的同时，能流围绕一个随波包移动的横向轴旋转。这种新型的光学漩涡模式近两年引起了研究人员的广泛关注，相关的新物理机制和应用也有待进一步的深入研究。
+
+  
+
+声学是研究前沿波动物理的一个重要平台，声学涡旋波束可以通过相控阵或声学超构表面来产生，并应用于粒子操纵、声通信等领域。传统的声学涡旋一般为携带纵向轨道角动量的单频波束，目前声学领域还缺少对宽频时空涡旋波束的研究。
+
+**研究亮点**
+
+该工作考虑了一种贝塞尔型时空涡旋波束（如图1(a)所示），该涡旋波束可以视为由若干波矢分布在空间频谱中圆上的平面波叠加而成（如图1(b)所示），构成了宽频的脉冲包络。这种时空调制产生的涡旋波束可以局域在二维xz面内，沿着z方向以声速传播，并携带沿着y方向的横向轨道角动量。时空涡旋波束的幅值和相位分布如图1(c)、(d)所示，其时空域幅值分布满足第一类贝塞尔函数，并具有时空涡旋相位。
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/ia1BibkItfQXRWQag0qoZkxPBAXnpOM9gZps82yibYP2Cwb6rr8ZYYo0BeichZZ1PibkugZ4WjXGeM25B6VrBtnIAoQ/640?wx_fmt=png)
+
+图1：(a)时空涡旋及其横向OAM示意图 (b)贝塞尔型时空涡旋的平面波角空间频率谱 (c)理论计算的幅值分布 (d)理论计算的相位分布。
+
+  
+
+实验装置如图2(a)所示，由一维声学相控阵在波导中产生一系列具有特定频率、相位和方向的平面波模式，最终叠加构成声学时空涡旋波束。利用声压麦克风可以在x-t时空域上采集波形信息，实验中分别测量了拓扑荷为1和2的两种时空涡旋，可以观测到时空涡旋波束声压场呈现出刃型相位位错（图2(b)）。时空涡旋波束携带的横向轨道角动量与其拓扑荷成正比，此外也与涡旋形状和介质的色散相关。
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/ia1BibkItfQXRWQag0qoZkxPBAXnpOM9gZPybK76tcrIrPicEUWiasxKGRgNqFC0VzXy2RvDuzB1zu4bg0W4dN2L0w/640?wx_fmt=png)
+
+  
+
+图2：(a)实验装置示意图 (b)贝塞尔型时空涡旋的声压场分布。
+
+  
+
+目前对于声涡旋模式的研究主要集中在标量声压场上，实际上声场也可以利用声质点振速矢量场来描述，在矢量场中能够呈现丰富的物理效应。实验中，声质点振速矢量场由一个二维MEMS声学矢量传感器进行测量，该矢量传感器可以同时得到x和z方向质点振速分量(如图3(b)、(c)所示)。z方向的速度分量场与声压场分布类似，对于x方向的速度分量场，在拓扑荷为1时，场中心的幅值不为零，这是自旋\-轨道相互作用的体现：由于时空涡旋波束是由不同方向的平面波叠加得到的，平面波干涉会产生非零的横向声自旋角动量，在涡旋波束携带的横向轨道角动量和自旋角动量之间会产生自旋\-轨道相互作用。
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/ia1BibkItfQXRWQag0qoZkxPBAXnpOM9gZQFRae1B3Ju6lDicavEicxqHfwiaL1j8J7Mf79dknSMOMggAuBibeicqCuOQ/640?wx_fmt=png)
+
+图3：(a)贝塞尔时空涡旋波束平面波谱，绿色箭头表示速度矢量； (b)&(c)贝塞尔型时空涡旋的声质点振速场分布。
+
+  
+
+声学时空涡旋波束的传播过程中，由于沿着x方向的横向空间扩散效应，波束会逐渐发生形变，并发生劈裂现象(图4(c))。为了减少这种变形的产生，对环形的频谱沿kx方向进行压缩，即对应于实空间中的涡旋波束在x方向进行拉伸，构造出椭圆形的涡旋波束。如图4 (d)所示，可以看出这种波形操作抑制了时空涡旋波束的横向空间扩散效应。
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/ia1BibkItfQXRWQag0qoZkxPBAXnpOM9gZjHHCw0QXs5QRQHjDmc4GvwbYPBYXfU1oVyiapBNqsTON4oez1xSryEQ/640?wx_fmt=png)
+
+图4：(a)压缩后的时空涡旋平面波谱；(b)正空间中波束沿x方向拉伸；(c)拉伸之前横向扩散效应较明显；(d)拉伸后横向扩散效应被抑制。
+
+  
+
+涡旋波束的一个重要应用是利用OAM模式复用实现高速通信，该工作也展示了不同拓扑荷的时空涡旋在时空域同样满足正交关系。在实验中，声压场的实部由麦克风测量直接得到，声压场的虚部由实部的希尔伯特变换得到（如图5(a)中所示）。对测量到的拓扑荷从\-2到+2的声压场两两作归一化内积可以得到时空涡旋的正交关系（如图5(b)所示）。
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/ia1BibkItfQXRWQag0qoZkxPBAXnpOM9gZJJcCT3NtmdF2p13qicwBrLSARiatiasuz5iagmjFsOPrCBic3yuC8LXib26Q/640?wx_fmt=png)
+
+图5：(a)拓扑荷为1和2的声压场实部与虚部； (b)不同拓扑荷时空涡旋的正交关系。
+
+总结与展望
+
+该工作将时空涡旋的概念推广到了声学领域，产生了携带横向轨道角动量的声学时空涡旋波束。声学时空涡旋所具有的横向轨道角动量为操控声波提供了新的自由度，可以应用在实现模式复用的高容量声通信以及面内瞬态声学操纵等方面。该工作也为探索波动物理提供了新的平台，将会激发对更多的新奇声学时空结构声场的探索研究。
+
+  
+
+论文链接：
+
+https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.014001
+
+‍
+
+免责声明：本文旨在传递更多科研资讯及分享，所有其他媒、网来源均注明出处，如涉及版权问题，请作者第一时间后台联系，我们将协调进行处理，所有来稿文责自负，两江仅作分享平台。转载请注明出处，如原创内容转载需授权，请联系下方微信号。  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/ia1BibkItfQXQicM9U54mSaXEk8VlqSjWzkibvGHPcyn0BchvfzWWAHocnPu2FHjibrpQjdILVjEUKmdmzu2t1Ricvow/640?wx_fmt=jpeg)

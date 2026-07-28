@@ -1,0 +1,35 @@
+# 一图读懂 FEtch 的工作流程
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/DNXUhor7lpxh3585MkJNZQ](https://mp.weixin.qq.com/s/DNXUhor7lpxh3585MkJNZQ)
+
+为了充分减少用户的开发时间，FEtch 系统借助第三方前后处理器 GiD，全面实现了有限元程序开发、前处理、计算和后处理的一体化。让我们在这里一图以蔽之。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVWibJfPDL65wO1QAS82bSHx5ovjaYesiataRwI84wcckSxPvgHeiayqDZjUqKoOALibKicXn2MVh8mUMYw/640?wx_fmt=png&from=appmsg)添加图片注释，不超过 140 字（可选）
+
+  
+
+可以发现，FEtch 的工作流程十分简单，主要分为以下 5 个步骤：
+
+1.  用户按照有限元语言的语法规则准备好脚本文件。
+    
+2.  上传脚本文件到服务器，生成并下载 GiD 前处理模板、有限元计算程序 .exe 和 材料参数文件 .mat 。
+    
+3.  开始 GiD 前处理，建模、施加初边界条件和材料参数、网格剖分。最后依据 GiD 前处理模板，导出网格剖分数据到模型数据文件 .dat 。
+    
+4.  准备好必要的数据输入文件，执行 .exe 程序，进行有限元计算，输出计算结果到 .res 文件。
+    
+5.  再次进入 GiD，开始对计算结果的后处理。
+    
+
+第一步脚本填写是整个流程的关键，一方面要求用户对所求解的微分方程的性质和具体算法有着深刻的理解，另一方面需要用户熟练掌握有限元语言的语法规则。
+
+从基本算例开始，循序渐进，try and error，你一定会对有限元方法有一种耳目一新的感受。
+
+携手 FEtch，实现有限元程序的私人定制。Good luck !
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+
+**FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
+
+有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的免费试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。

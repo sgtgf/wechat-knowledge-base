@@ -1,3 +1,8 @@
+# Fortran调用C语言：应用Gauss-Legendre积分计算圆周率
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/xWo7QvL-v9fFiUs4XFKfvg](https://mp.weixin.qq.com/s/xWo7QvL-v9fFiUs4XFKfvg)
+
 在科学计算领域，Fortran以其卓越的数值运算性能和丰富的数学库备受青睐，而C语言则以灵活高效、系统级编程能力著称。当项目既需要利用Fortran的数学优势，又需借助C的底层功能或现有库时，实现两者的混合编程便显得尤为重要。本文将通过一个实例，深入探讨如何从Fortran程序中调用C函数，重点阐述涉及**高精度实数类型**和**函数指针参数**的复杂情况。
 
   
@@ -49,3 +54,13 @@ gfortran -c integrate.f90 -o integrate.ogfortran integrate.o gauss_legendr
 ## 小结
 
 通过上述步骤，我们成功地实现了Fortran程序调用C库中的函数，展示了跨语言混合编程的魅力。此方法不仅扩展了Fortran应用的能力边界，也为复用现有C库资源开辟了新途径。在处理复杂的科学计算任务时，这种混合编程策略无疑为开发者提供了强大的工具组合。
+
+## 推荐阅读
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+
+**FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
+
+有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。

@@ -1,3 +1,8 @@
+# 一文了解，CFD求解的主流数值方法
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/F7MnsTalIss7liIN7TjHDw](https://mp.weixin.qq.com/s/F7MnsTalIss7liIN7TjHDw)
+
 几种目前CFD领域主流的数值方法：
 
 -   有限差分法 (Finite Difference Method, FDM)

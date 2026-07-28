@@ -1,0 +1,176 @@
+# MTT：从“调参数”到“直接智能设计”电磁器件
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/Phvp1-ZhuZ-kZHRWDP\_9tw](https://mp.weixin.qq.com/s/Phvp1-ZhuZ-kZHRWDP_9tw)
+
+在微波与电磁工程领域，一个长期存在的核心问题是——
+
+👉 设计一个器件，为什么这么慢、这么难？
+
+传统方法通常是：
+
+“先猜结构 → 再仿真 → 再改结构 → 再仿真……”
+
+不仅依赖经验，而且设计周期长、效率低。
+
+那么，有没有可能——
+
+直接从目标功能出发，让算法“反推”结构？
+
+近日，本教研室在 IEEE Transactions on Microwave Theory and Techniques 发表论文：FD-hPINNs-Based Inverse Design Method for Metallic Metastructure，提出了一种全新的电磁器件设计框架：
+
+👉 FD-hPINNs（有限差分-硬约束物理信息神经网络）
+
+核心思想可以概括为一句话：
+
+把“物理定律”直接写进神经网络，让AI按物理规律设计结构。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsBoML9TaIqz8YXXarRwgUGuHYR68SQic0jsL2BjJMhIFEbgdWhWbAQev9HM6MLsIuwhicmuJ6ZMrKB92H6xzurdWYdiaTWyfr1u78/640?wx_fmt=png)
+
+设计场景示意图 
+
+* * *
+
+  
+
+⚙️ 技术亮点：解决了PINNs的“老大难问题”
+
+近年来，PINNs（物理信息神经网络）很火，但在电磁设计中一直存在几个瓶颈：
+
+·❌ 高阶导数计算不稳定
+
+·❌ 计算复杂度随网络规模暴涨
+
+·❌ 金属结构难以建模（不连续问题）
+
+·❌ 训练容易发散
+
+本工作针对这些问题，提出三项关键突破：
+
+  
+
+1️⃣用“有限差分”替代自动微分（AD）
+
+传统PINNs依赖自动微分（AD），计算复杂、容易不稳定。
+
+👉 本文改用有限差分（FD）计算PDE：
+
+·✔ 计算成本显著降低
+
+·✔ 训练更稳定
+
+·✔ 更符合电磁数值方法体系
+
+  
+
+2️⃣ 引入“硬约束”：结构直接参与物理计算
+
+不同于传统“罚函数”方式，本方法：
+
+👉 将边界条件 + 金属结构直接嵌入方程
+
+带来三个好处：
+
+·✔ 不再需要复杂loss权重调参
+
+·✔ 结构与场强“强耦合”
+
+·✔ 更容易处理金属等不连续结构
+
+  
+
+3️⃣ 双网络协同：结构 + 场同时优化
+
+框架包含两个神经网络：
+
+·🧱 结构网络：生成金属分布
+
+·🌊 场网络：预测电磁场
+
+通过交替训练策略，实现：
+
+结构设计 ↔ 场分布演化 的闭环优化
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/p5SKe5bvAsD6FiaR7KBNGVa9EmAM46rbHUVk59SicUWWOjDibTia77wfl5VOrcfUq9ibyhB4PUv4um6EL4lH4bMYPCwQHT8MndK0qG74NNN3W4H0/640?wx_fmt=png)
+
+设计流程图 
+
+* * *
+
+  
+
+📊 性能有多强？（关键结果）
+
+论文通过“波束聚焦超构结构”设计进行了验证：
+
+🚀 效率提升
+
+·相比传统 AD-PINNs：            
+👉 训练时间从 13.1 小时 下降 到 2.31 小时
+
+🎯 精度表现
+
+·聚焦误差约：
+
+-   5.3%（轴向）
+    
+
+-   6.42%（偏轴）
+    
+      
+    
+
+🧪 工程验证
+
+·完成实物加工与测试
+
+·实测结果与仿真高度一致
+
+👉 说明该方法不仅“能算”，而且能落地 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsBxicrJjeSia4peibov9dicNeBjtLxRLU6YluciaMiabQViccSFVicscUGd63yCUonMYZL1VgKQibBNicN9YVzPQdelBT8LDZlN6Gzjc9X9w/640?wx_fmt=png)
+
+场聚焦设计案例
+
+![](https://mmbiz.qpic.cn/mmbiz_png/p5SKe5bvAsCzyOW1YksMXKzHJHI7YkqoicYcL3X0NPn3iblIFBZs5G52393ZcrCv16BJRiaEVI6nuyjIzfjrw1o33tyEPRPuzP68DQ4AhavRUs/640?wx_fmt=png&from=appmsg)
+
+实验结果
+
+* * *
+
+  
+
+ 🧩 与传统电磁方法“无缝融合”
+
+-   由于采用有限差分框架，该方法天然兼容：
+    
+
+·网格划分（mesh）
+
+·自适应加密
+
+·数值电磁算法体系
+
+-   后续可能的改进措施包括：
+    
+
+📐 从 2D 扩展到 3D复杂结构设计
+
+🎯 提高局部场精度（解决全局loss平均问题）
+
+⚙️ 引入自适应采样与加权机制
+
+* * *
+
+  
+
+📄 论文信息            
+Junjie Shao, Yin-Qing Pan, Jinsong Fan, Hongyuan Chang, Jin-Pin Liu, Ren Wang, and Bing-Zhong Wang. FD-hPINNs-Based Inverse Design Method for Metallic Metastructure, IEEE Transactions on Microwave Theory and Techniques, 2026, DOI 10.1109/TMTT.2026.3660736.  
+
+* * *
+
+  
+
+【本文特别声明】
+
+本文中对文献的解读与评述仅为学术探讨，不代表原论文作者及其机构的观点。文中引用的论文插图/图表仅为评论、说明之目的，属于在学术交流中的“合理使用”，其版权均归属于原出版方及原作者所有。我们已尽最大努力标注原始出处。如果您是版权所有者且认为存在侵权，请与我们联系，我们将立即删除。我们强烈建议读者阅读原文以获取最完整准确的信息（可点击左下角“阅读原文”跳转）。\[原文DOI链接：10.1109/TMTT.2026.3660736\]

@@ -1,0 +1,94 @@
+# 【教研室成果】AP：基于谱分析的共形天线阵逆设计方法
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/tgzSvogJWCwP7XE4\_Tkhsg](https://mp.weixin.qq.com/s/tgzSvogJWCwP7XE4_Tkhsg)
+
+论文信息
+
+* * *
+
+  
+
+题目：
+
+An Efficient and Versatile Conformal Aperture Inverse Design Framework Based on IDMBSA
+
+作者：
+
+Chuan-Sheng Chen, Jing-Cheng Liang, Jin-Pin Liu, Junjie Shao, Ren Wang, Bing-Zhong Wang
+
+单位：
+
+1 Institute of Applied Physics, University of Electronic Science and Technology of China, Chengdu 611731, China. 
+
+2 Yangtze Delta Region Institute (Huzhou), University of Electronic Science and Technology of China, Huzhou 313098, China. 
+
+出版信息：IEEE Transactions on Antennas and Propagation, 73(6): 3838 – 3848, 2025; DOI: 10.1109/TAP.2025.3543076 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUAJCnUUwrjs5FDOsK6U8ib3ZugDG6Cz6OkcX8rEiarOibreMXuCdh6XJoA/640?wx_fmt=png)
+
+论文摘要
+
+* * *
+
+  
+
+共形孔径逆向设计因其固有的曲面几何复杂性，在计算效率和适用性方面面临重大挑战。本文提出了一种高效且通用的共形孔径逆向设计框架，该框架通过等效原理将复杂的共形逆向设计问题转化为更易处理的平面孔径综合问题，从而显著降低了问题的维度和计算复杂度。该框架的创新之处在于其能够逆向设计曲面上的切向场分布以实现所需的辐射方向图，为共形孔径提供了前所未有的设计灵活性和广泛的实现可能性。任何在共形条件下能保持可接受性能的天线单元都可以集成到该框架中，并且它有可能扩展到其他实现方式，如超表面和透射阵列，为设计者在实际应用中提供了极大的灵活性。通过对一个原型共形稀疏阵列的理论分析、全波仿真和实验测量，深入验证了所提框架的可行性。结果证明了其在航空航天及其他需要共形天线设计的领域中的实际应用潜力。
+
+图文导读
+
+* * *
+
+  
+
+传统共形阵列综合方法由于曲面几何复杂、变量多，导致优化维度高、收敛慢。现有方法（如遗传算法、粒子群优化、机器学习等）在处理复杂曲面或大规模阵列时效率低或资源消耗大。缺乏一种通用、高效的框架，能够适应不同曲面形状和多种实现方式（如阵列、超表面等）。本论文提出一种基于谱分析逆向设计方法（IDMBSA）的共形孔径设计框架，核心思想是：
+
+（1）问题转换：将复杂的共形孔径逆向设计问题转化为平面孔径场综合问题。利用等效原理，将共形曲面上的场等效为平面孔径上的场。
+
+（2）结果外推：通过一次“简化”的全波仿真，将平面孔径场外推到共形曲面上。使用截断滤波函数提取有效辐射区域上的场分布。
+
+（3）模态扩展：IDMBSA 引入模态扩展，优化变量数量与端口数解耦，显著降低问题维度。
+
+（4）稀疏化设计：提出基于阈值的稀疏阵列设计方法，保留关键辐射单元，降低实现复杂度。
+
+该论文的重要图片如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUiaBCaeGPzZBYsdTs8jgIJasL0uGXaPdxfDAJrVCxpbvib3N7ysLWWl1Q/640?wx_fmt=png)
+
+共形孔径设计框架中的曲面与问题示意图。(a) 实际共形辐射孔径。(b) 表面上的等效源分布。(c) 平面辐射孔径场。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUyoGq5Pic5naubGT7Evrib6z4uTMjwxoUyxW36p9KYtCangOqPhYLsSiaw/640?wx_fmt=png)
+
+逆设计得到的部分等效源及采样点。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnUvHKiaTS8k94IfVbz6CSuTYAv0Ez86MuaJdOQ8Ce2WbQFYTNIW0eWd9Q/640?wx_fmt=png)
+
+逆设计的稀疏共形阵列及其测试环境。(a) 制造的稀疏共形阵列前视图。(b) 制造的稀疏共形阵列后视图。(c) 天线暗室中的稀疏共形阵列。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaXic1VpJS257NuPMjQD7dsnU5k7Or2a69HkJq0LjRP64ZSXh5LPPlzdPWgibeZSOxv3ZVLibiay88gNRg/640?wx_fmt=png)
+
+共形阵列和稀疏共形阵列的远场辐射方向图。(a) 和 (b) 完整三维数据的仿真方向图。(c) 二维切面，显示了来自 (a) 和 (b) 的仿真结果（虚线）以及制造的稀疏共形阵列的测量结果。
+
+论文总结
+
+* * *
+
+  
+
+该论文提出的 IDMBSA 共形孔径逆向设计框架在计算效率、设计灵活性和工程适用性方面具有显著优势，为解决复杂曲面天线设计问题提供了新思路。论文总结如下：
+
+（1）高效性：整个核心设计流程仅需约12分钟，显著优于传统优化方法。适用于大规模阵列和复杂曲面。
+
+（2）灵活性：输出为曲面上的切向场分布，可适用于多种实现方式（如天线阵列、超表面、透射阵等）。不依赖特定天线单元，具有良好的通用性。
+
+（3）验证有效性：通过理论分析、全波仿真和实物测试（包括稀疏共形阵列）验证了框架的可行性。仿真与实测结果吻合良好，证明了方法的可靠性。
+
+（4）工程适用性：适用于航空航天等对共形天线有高要求的领域。
+
+* * *
+
+  
+
+【本文特别声明】
+
+本文中对文献的解读与评述仅为学术探讨，不代表原论文作者及其机构的观点。文中引用的论文插图/图表仅为评论、说明之目的，属于在学术交流中的“合理使用”，其版权均归属于原出版方及原作者所有。我们已尽最大努力标注原始出处。如果您是版权所有者且认为存在侵权，请与我们联系，我们将立即删除。我们强烈建议读者阅读原文以获取最完整准确的信息（可点击左下角“阅读原文”跳转）。\[原文DOI链接：10.1109/TAP.2025.3543076\]

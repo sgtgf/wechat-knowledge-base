@@ -1,0 +1,150 @@
+# RF devices-17：PA
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/jnEFSt\_z1By1DFJqDS5bAw](https://mp.weixin.qq.com/s/jnEFSt_z1By1DFJqDS5bAw)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRplI9OrptvmUvGgoH22HYMeOHGsy5NvicPIKz907OaMNGds0diaIiaAvQenAgM4wicFKTLiap0h264ickw/640?wx_fmt=png&from=appmsg)
+
+____**★★★**______PA-17---功率放大器______**★★★**____
+
+引言：在发射机的前级电路中，调制振荡电路所产生的射频信号功率很小，考虑到无线传输的链路衰减，发射端需要辐射足够大的功率才能获得比较远的通信距离，经过一系列的放大（缓冲级、中间放大级、末级功率放大级）获得足够的射频功率以后，信号经匹配网络馈送到天线上辐射出去。因此，射频放大器主要负责将功率放大，是通信系统中的核心器件，也是最耗电的元件。
+
+___€1.PA工作原理___
+
+射频功率放大器的工作原理主要基于晶体管的放大作用，晶体管在偏置电压的作用下，对输入的射频信号进行放大，输出一个功率更大的射频信号。常见的晶体管类型包括硅双极型晶体管、砷化镓场效应管、氮化镓等，不同类型的晶体管适用于不同的频率范围和应用场景。
+
+如图17-1所示，当输入射频信号进入功率放大器时，它会通过输入匹配网络与晶体管的输入端口相连接。输入匹配网络的作用是将输入信号的阻抗与晶体管的输入阻抗进行匹配，以实现最大功率传输。晶体管对输入信号进行放大后，输出的射频信号通过输出匹配网络与天线或负载相连接。输出匹配网络的作用是将晶体管的输出阻抗与天线或负载的阻抗进行匹配，以实现最大功率传输和最小反射。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTfrZTP46ia7WGk00upJsH3wJzJmthMCHyknjxI5icmmVPXeia8gibEbwYt5LnlwRWMY0UnrZ363wKvAA/640?wx_fmt=png&from=appmsg)
+
+图17-1：基本PA框架
+
+如何提高输出功率和效率，是射频功率放大器设计目标的核心，通常在射频功率放大器中，可以用LC谐振回路选出基频或某次谐波，实现不失真放大。除此之外，输出中的谐波分量还应该尽可能地小，以避免对其它频道产生干扰
+
+PA通常用于实现发射通道的射频信号放大，一般将功率＞3W的放大器定义为功率放大器。
+
+___€2.PA的特性指标___
+
+_____饱和输出功率_____
+
+PA器件的主要特点之一是能够提供高功率的输出信号，在基站通信中，功率放大器需要提供几十瓦甚至上百瓦的功率输出，以覆盖较大的区域。当输入功率增加到某一值后，再加大输入功率，输出功率不再改变，此时的输出功率即为饱和输出功率。超过饱和输出功率的输入功率是浪费的，且长时间工作可能会烧毁器件。
+
+_____线性输出功率_____  
+
+当输入功率增加到一定程度后，输入和输出之间不再是线性关系，继续增加输入信号功率，输出功率的增加远低于输入功率的增加，即输出功率下降。
+
+功率增益Gain
+
+即输出功率与输入功率的比值，单位为dB：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSaYLQT1OhQ9okSBvJZ0Zfg4NdDg7AFgvNVl8AWYcEmib6oX3ZAPwicKoaQXNS13VqVpiaicmm3Rl5iaqA/640?wx_fmt=png&from=appmsg)
+
+PA的增益有两种，一种是小信号增益，属于线性区增益，用于衡量放大能力，而接近饱和区的增益（通常比小信号增益低1-3dB）叫饱和增益。
+
+频率响应平坦度
+
+也叫增益平坦度（Power gain flatness），PA在工作带宽内，增益随频率的波动范围（如±1dB），保证不同频率信号的放大一致性，避免信道失真。如果电路的增益在整个频率范围内变化较小，那么我们就称这个电路具有良好的增益平坦度。衡量射频器件在特定频率范围内增益波动程度的指标，其定义为：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQ1iaKMcyBQ9LW8AEicsWzUOU0mDkrALm8ibYicE8MwwkrBIl8fEtOWP53EENafyH9xZAnxh2j3xXz4QQ/640?wx_fmt=png&from=appmsg)  
+
+即在某个频率范围内，电路的增益变化与其平均增益之比的对数值，通常用分贝（dB）表示，波动幅度越小表示性能越稳定。其中，Max Gain是电路在某个频率范围内的最大增益值，Avg Gain是电路在该频率范围内的平均增益值。  
+
+在通信系统中，增益平坦度直接影响信号传输质量，若增益在频带内波动过大，可能导致接收端信号失真或信息丢失，影响系统性能。卫星链路测试中需重点关注此指标以确保信号稳定性。根据GB/T 44924-2024标准，射频器件的增益平坦度测试需在规定频率范围内测量最大增益与最小增益的差值，并计算与平均增益的比值。
+
+_____工作频带_____
+
+指放大器能够满足全部性能指标（设计增益、效率、线性度）的连续频率范围，硅双极型晶体管功率放大器的工作频率通常是从300MHz到4GHz，砷化镓场效应管功率放大器的工作频率可从1GHz到几十GHz，涵盖S、L、C、X、Ku、Ka等波段。比如用于窄带通信系统RFID的窄带PA，带宽＜1%中心频率，而多频段手机PA，则需要覆盖多个通信频段。
+
+_____谐波与杂散_____
+
+由于功放的非线性，当信号增加到一定程度时会产生一系列谐波（高频分量），导致放大后的信号失真。可通过尽量避免信号工作在非线性区，或在非线性区采用预失真（DPD）等技术手段来减少失真，对于大功率放大器系统中，一般需要用滤波器将谐波降到60dBc以下。（传送门：[RF术语与概念-10：谐波失真、交调失真和交调点](https://mp.weixin.qq.com/s?__biz=Mzk0MzQzMTY2NA==&mid=2247496656&idx=1&sn=0c3690342521d8d4830ef22f4a9864b5&scene=21#wechat_redirect)）
+
+_____功率附加效率_____
+
+常用功率附加效率（Power Added Efficiency，PAE）来衡量，计算公式为：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiazeFjUVIruVpHn5Tz1pM9mw4Eyjfia0gZWlk0YyG60NZg0icEwswpeAMYq382uzUHacoLMF1hKLjw/640?wx_fmt=png&from=appmsg)
+
+其中，Pout是输出功率，Pin是输入功率，PDC为耗散直流功耗，PDC的计算式为：  
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiazeFjUVIruVpHn5Tz1pM97nicAQKbvRwhMtl8icibkafRbEdGG8HzmrwmrAIUyCsXFunJnb8FRkrmA/640?wx_fmt=png&from=appmsg)
+
+效率越高，意味着在相同的输入功率下，能够获得更多的有用输出功率，同时也能减少能量的浪费和发热。而通过负载线Loadline R\_load计算，可以实现射频功率的最大化输出，计算式为：  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiazeFjUVIruVpHn5Tz1pM9icpvg7ic6Th1keBtng1qn2BwVyg5ZXGhbm1rwxYHr37lTPxQGVL3aX0A/640?wx_fmt=png&from=appmsg)
+
+其中，Pout是输出功率，VCC是供电电压。
+
+漏极效率
+
+漏极效率仅衡量直流功率到射频输出功率的转换效率（不考虑输入功率）,常用于描述饱和状态下的效率，如CW信号测试。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSaYLQT1OhQ9okSBvJZ0Zfglu2dO7YzkG0t6MvCM0Ouibkd4S48hpdGB97LsfBB3SCpoZYwPxwTiaMw/640?wx_fmt=png&from=appmsg)
+
+_____线性度  
+_____
+
+1#：1dB压缩点，当输出功率增加到使增益比线性区下降1dB时的输出功率，标志PA进入非线性区的起点。衡量PA的线性工作范围，P1dB越高，可处理的大信号能力越强（如基站PA需P1dB>40dBm），一般说放大器的功率容量，就是拿1dB压缩点来表示。IMD3反映PA对多载波信号的线性处理能力，IMD3越低，信号失真越小（如5G基站要求IMD3<-45dBc）。  
+
+2#：三阶交调失真（IMD3, Third-Order Intermodulation Distortion），
+
+通常用三阶交调点和1dB增益压缩点来衡量，线性度好的PA能够在放大信号时保持信号的保真度，减少信号的畸变和失真，三阶交调产物越低越好。
+
+3#：**相邻信道功率比（ACPR, Adjacent Channel Power Ratio），PA输出信号在相邻信道的功率与主信道功率的比值，用于衡量带外辐射，确保信号不干扰相邻信道（如LTE标准要求ACPR<-45dBc@5MHz偏移）。**
+
+**噪声系数**（NF, Noise Figure）****
+
+**PA引入的噪声对信噪比的恶化程度，公式为：**
+
+**![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSaYLQT1OhQ9okSBvJZ0ZfgtthUTwvNJiaZaHrHMSqCicfzsdoTgtibMXdY6tLQhN5T5ZX7icborj5cdg/640?wx_fmt=png&from=appmsg)**
+
+**接收前端的低噪声PA（LNA）对NF要求严格（NF<2dB），但功率PA因噪声影响较小，通常NF指标宽松。**
+
+输入/输出驻波比
+
+这也是非常重要的指标，表明功放和整个系统的匹配程度，输入/输出驻波比变坏会导致系统的增益起伏和群时延劣化。但是高驻波比的功放是比较难以设计的，一般的系统中，都会需要要求功放的输入驻波比低于2:1。
+
+___€3.PA的__设计类型_____
+
+从工作频带分类
+
+按工作频带分类，可以分为窄带射频功率放大器和宽带射频功率放大器。窄带射频功率放大器一般都采用选频网络作为负载回路，例如LC谐振回路。宽带射频功率放大器则不采用选频网络作为负载回路，而是以频率响应很宽的传输线作为负载。
+
+从匹配网络性质分类
+
+根据匹配网络的性质，可将功率放大器分为非谐振功率放大器和谐振功率放大器。非谐振功率放大器的匹配网络是非谐振系统，例如高频变压器、传输线变压器等非谐振系统，它的负载性质呈现纯电阻性质，而谐振功率放大器的匹配网络是谐振系统，它的负载性质呈现电抗性质。
+
+按电流导通角分类
+
+按照电流导通角，射频功率放大器可以分为A类、AB类、B类、C类、D类、E类等，C类工作状态的输出功率和效率是这几种工作状态中最高的，射频用的放大器大部分工作于C（丙）类。细分为传统功率放大器（如Class A、B、AB、C等）和开关功率放大器（如Class D、E、F等）。  
+
+1#：Class A：导通角=360°，在整个输入输出范围内，放大器均保持线性工作（线性区），且晶体管均保持导通，理论效率最高为50%，实际电路在30%左右，常用在小信号低功率放大。
+
+2#：Class B：导通角=180°，将偏置设置为输出器件只在一半周期内开启，通过两个晶体管交替工作，每个晶体管开启一半周期，可提高效率，实际电路基本不超过60%，属于线性放大器，但线性度低于A类，常用在大功率工作状态。
+
+3#：Class AB：180°＜导通角＜360°，兼具一定的线性度（线性度比B类好）和较高的效率（一般介于30%到60%之间）。小信号工作于A类，大信号工作于B类。
+
+4#：Class C：导通角小于180°，效率较高，实际基本达到60%左右，但线性度较差，属于非线性放大器，常用在大功率工作状态。
+
+5#：Class D：晶体管只工作在截止与完全导通（线性区）两种状态，即工作在开关模式，电流与电压波形没有重叠，晶体管理论上不消耗功耗（理想效率80%-90%，实际80%左右），但实际应用中存在开关损耗，线性度上适用于较低频率。
+
+6#：Class E：与Class D相比，具有一些特殊的设计特点，如当晶体管的漏源电压很大时，漏极电流很小；有电流流过晶体管时，漏源电压很小；导通和关断状态切换时间最小化等。理想效率100%，实际90%，属于完全非线性放大器。
+
+7#：Class F：通过控制电路中的高次谐波成分来改善开关两端的电压波形，使其更陡，降低晶体管对功率的损耗。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSibYlMwu8qXnMlanSHxazFBLldvcrcCyibtTAygItzegUpLhpkFrflNskwCCZTgUYMktyMT4ia0ic1icA/640?wx_fmt=png&from=appmsg)
+
+图17-2：PA基本电参数
+
+线性PA的定义：利用晶体管线性区特性，实现功率放大的放大类型，主要有A类，B类，AB类和C类等。
+
+A类：输出功率与耗散直流之比
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiazeFjUVIruVpHn5Tz1pM9IibWGCRbbeUW14vJRiby9OsU4oZHA78DBrDZsfw9NkeiatwOl5cpPb7qA/640?wx_fmt=png&from=appmsg)
+
+当A类PA最大效率在VRF与IRF达到最大摆幅，VDC与IDC时取得，为50%，其中PRF为射频信号功率，PDC为直流功率。  
+
+B类：输出功率与耗散直流之比
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSiazeFjUVIruVpHn5Tz1pM9Wxib0FgRTaeB7PMYnuZDpLbQgBv6EO6m8dfkxwdnA3YwNdTrmUIGRpw/640?wx_fmt=png&from=appmsg)
+
+AB类：导通角介于A类与B类之间，效率处于50%-78.5%之间。

@@ -1,3 +1,8 @@
+# 基于Python的简明数学建模
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/\_oaZK3anEVeOhkcAgda5ew](https://mp.weixin.qq.com/s/_oaZK3anEVeOhkcAgda5ew)
+
 数学建模课程教学已成为培养人才的主要途径之一，被引入了大学课堂. 虽然数学建模进入大学教学已有 30 余年的历史, 但是数学建模课程尚无公认的完整严密的教学体系, 也无成熟的标准, 而且不同的学校、不同的教师对课程指导思想的理解有很大的差异.   
 
   
@@ -14,6 +19,7 @@
 
   
 
+![](https://mmbiz.qpic.cn/mmbiz_jpg/GdFU1Q3Y77VfRyMKBmbqBstCuZbcMWfT7iabUr2GsqJZsUCMlP1nO6gdzBcMiaXuvbfwia8tsVt8ZUIPbKrEzRtjg/640?wx_fmt=jpeg&random=0.7061535587431131)
 
 **0****1**
 
@@ -57,6 +63,7 @@
 
 **编辑推荐**
 
+![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VfRyMKBmbqBstCuZbcMWfTFzfgE6qcp5WIUibvsxk37T7ocmwaHPwC9xfZk1ZibaIYBCjbfJGfz4yQ/640?wx_fmt=png&random=0.3880491529423764)
 
   
 
@@ -72,6 +79,13 @@
 
 **本书目录**
 
+![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiaxu9jl8W4XBwaWs2WxiaDQaLte2uMjLicbQ0f453JMbWSPuBkkdnmw7QWA/640?wx_fmt=png&random=0.7842635057434242)![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiaxo6G7E7QBKBDU7icLRsA7MgDx06PPkic1ZaM2ibymuzdwnjnYG4j6ms5Qw/640?wx_fmt=png&random=0.25520315594117604)![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiaxprrUhsXC84baib7SKp3G8A1NGaJdobcNFYdbicKFibr00cr8KwR4CxOcA/640?wx_fmt=png&random=0.35815665970201294)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiaxprrUhsXC84baib7SKp3G8A1NGaJdobcNFYdbicKFibr00cr8KwR4CxOcA/640?wx_fmt=png&random=0.7038216212703494)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiaxMdgkuaHWjiblVNrnLJZibyibgQI9UJzLYeUsc54f7icu73iceYEZ1QsDg1w/640?wx_fmt=png&random=0.24200186991608574)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiaxqB2oHjc0RDkBdHblibRGfEPlTPyu6v68zCKj3nOYUOodthMXEUJuk8w/640?wx_fmt=png&random=0.3425958000196774)
 
   
 
@@ -81,6 +95,9 @@
 
 **正文展示**
 
+![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiax3rLBHz5eVrNnmwdDGuGde4rHwTv9xt8wcibS4CwzF9CWkJmHScJWwWg/640?wx_fmt=png&random=0.12320986584367799)![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiaxNxwGxOKR6Noibglq3ERWItkKS3s3Z1wnFPJ6icGCdGnNmCZk8iaaib63PA/640?wx_fmt=png&random=0.260937132558561)![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiax2jYSj5ujssj5MU5GAZ3c0VYpiagw2nfibc4Aw6d39RJv0n9VibtRfcq8A/640?wx_fmt=png&random=0.8320885339153927)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiax6wNT5pEx6epyeLZnK2qasjQPBrLZRITv0t4XzmFHqFFEibn8psWr9nw/640?wx_fmt=png&random=0.9844435955368644)
 
   
 
@@ -95,3 +112,7 @@
   
 
 **购买链接**
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/DRPKCGMAPjKzncOsqKVQInBQ7RU7WTSXJdmD2OEMiciawJtrbZAicXnwK8cFHw5ddlCRcHWKu2ZxvHlpHmU8UN4Ew/640?wx_fmt=gif&random=0.6248864787615109)

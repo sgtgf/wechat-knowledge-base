@@ -1,0 +1,74 @@
+# SCD-21：三极管电平转换系统及其衍生运用
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/jDE78TDqSmut\_XgeLGaH-g](https://mp.weixin.qq.com/s/jDE78TDqSmut_XgeLGaH-g)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TTrXm2ZARR57P73sf3H94yA4VGvYutcQqxXZDSgQoWHwjibGKL6VaXkcwZ4kamdmoib4KSkbJWfOcow/640?wx_fmt=png)
+
+_____**★★★**______SCD-21---三极管电平转换______**★★★**_____
+
+______撰稿：Timothy  校稿：Timothy______
+
+引言：使用三极管的普遍场景是在已知电平值情况下，那么在只知道输入GPIO的高低却不知道具体的电平值时，如何将未知转换为已知呢？本节简述如何设计这一电路以及一些相关的使用场景。
+
+____€1.转换结构____
+
+因为不知道进来的电平具体值，使用电压控制型器件（MOS）来进行电平适配存在一定的风险（过压或者阈值不够），所以将未知电平转换为已知电平推荐使用三极管驱动三极管结构。如**_图21-1_**所示，当未知X输入为高时，Q1导通，则Q2关闭，输出output为VCC2；当未知X输入为低时，Q1关闭，Q2导通，输出output为GND。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWtvXlWJbyDrJBm6tZo63mWicGZeFhUR5aIxibibhP6he9CRjqWRLdTDRtp6pdt78MxNuDg4UC7Cp9w/640?wx_fmt=png&from=appmsg)
+
+**_图21-1：NPN-NPN结构图_**
+
+**_图21-2_**是NPN-PNP结构，其中R3是预置上拉电阻，类似于上拉，并且R3和R2可以将VCC1进行分压，配合X input，组成更复杂一些的逻辑控制。当X input为高电平或者高阻时，Q1导通，Q2的Vbe小于-0.7V，Q2导通，输出output为VCC2；当X input为低电平时，Q1关闭，Q2的Vbe=0，Q2关闭，输出output为GND。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TRWtvXlWJbyDrJBm6tZo63mRQg7b3tkGrw97mAWNa4fO9sB9ErPiazOGMIfIwEGia9uVBCVmrZ8NPFA/640?wx_fmt=png&from=appmsg)
+
+**_图21-2：NPN-PNP结构图_**
+
+____€2.实例使用____
+
+**_图21-3_**是外部IO启动泊车APA的控制实例，增加了VCC\_12V上拉。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JGbdHe4j0TTf4LHmvEcjv5RuFk8cWgQY5ghYH4CahibDK8nlpCStWeIr0ic2mXahEvBrQf7qV6zYVickibf6pMI7uA/640?wx_fmt=png)
+
+**_图21-3：实例一_**
+
+**_图21-4_**是HDMI接口常用的热插拔电平监测，HDMI(19Pin)/DVI（16 pin）的功能是热插拔检测（Hot Plug Detect，HPD），这个信号将作为主机系统是否对HDMI/DVI是否发送TMDS信号的依据。HPD是从显示器输出送往计算机主机的一个检测信号，HPD是检测接收端是否连上的一种方法，而不管接收端是否上电，SOC端IO一般是1.8V，所以需要将5V转为1.8V。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TQwqNaulQQ3MJNJH11KvCKPbA2cqSDglM0sZE6fMy0pYyctZxbUR7yiaTeBXbaialn46VBpYibpjiaibYg/640?wx_fmt=png)
+
+**_图21-4：实例二_**
+
+1、当计算机通过HDMI接口与显示器相连接时，主机通过HDMI的第18脚（PWR\_CON\_PIN18）将＋5V电压加到显示器的DDC存储器（EDID数据存储器）向DDC存储器供电，确保即使显示器不开机，计算机主机也能通过HDMI接口读取EDID数据。
+
+2、当显示器检测到稳定的5V电压信号后，会把HPD信号拉高（HPD也是由主机的18脚的5V信号产生的，也就是说在显示器断电的情况下HPD信号也会拉高)。
+
+3、主机（显卡控制器）检测到HPD为高电平时，判断显示器通过HDMI与主机连接，并通过HDMI接口的第15、16脚 DDC通道（I2C）读取显示器中的EDID数据，
+
+4、通过读取EDID,如果检测到显示器的工作模式范围与显卡相适应，则使主机显卡中的TMDS信号发送电路开始工作。
+
+5、计算机主机对HPD信号的要求 
+
+当计算机主机上的显卡检测到DVI接口HPD引脚电压大于2V时，判断为显示器通过DVI接口与主机连接：当检测到HPD引脚电压小于0.8V时，则判断为显示器与主机之间的DVI连接已经断开。
+
+6、如果EDID内容发生改变，HDMI规范要求接收设备/中继设备复位HPD信号至少100us，以便源设备重新读取EDID信息。(这在处理中要注意)
+
+____€3.仿真效果____
+
+**_图21-5_**是针对NPN-PNP结构的Spice仿真，**_图21-6_**至**_图21-8_**是仿真结果波形，切换V2的电平，输出高电平为V3。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSdHCLNNTcTU0noWzy9tiat22IBKgQTKG9ygOgb7bZmDO61E6YA3RtiaficqSZ2fjibibK0U3TJnHnmDSQ/640?wx_fmt=png)
+
+**_图21-5：仿真图例_**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSdHCLNNTcTU0noWzy9tiat2ibYwMibpp7FfUriaEQjXFoHlkG8NKxrA1hEBed5wpjI9rl0KsOJvPrCvw/640?wx_fmt=png)
+
+**_图21-7：V2=1.8V_**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSdHCLNNTcTU0noWzy9tiat23NkEOvLytEwtX1ibyibZbITwYEXrias5o8yphXhibZ1alWDaSuYOn4g7Yw/640?wx_fmt=png)
+
+**_图21-6：V2=3.3V_**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/JGbdHe4j0TSdHCLNNTcTU0noWzy9tiat2dmzf7Pa5smQfXbfqTRoW8trBPTRbCTegOQbEztianrkNsaSVaVA33zg/640?wx_fmt=png)
+
+**_图21-8：V2=10V_**

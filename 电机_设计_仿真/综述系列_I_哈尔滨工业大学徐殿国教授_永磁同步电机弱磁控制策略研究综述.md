@@ -1,0 +1,165 @@
+# 综述系列 I 哈尔滨工业大学徐殿国教授：永磁同步电机弱磁控制策略研究综述
+
+原创 CES TEMS编辑部 CES电机与系统学报 2024-10-14 07:00 北京
+
+> 原文地址: [https://mp.weixin.qq.com/s/0qysneyRryKt10BZFk8g-A](https://mp.weixin.qq.com/s/0qysneyRryKt10BZFk8g-A)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+
+**永磁同步电机弱磁控制策略研究综述**
+
+Runze Jing; Gaolin Wang; Guoqiang Zhang; Dianguo Xu
+
+Harbin Institute of Technology, Harbin, China
+
+  
+
+**■**[在线阅读](https://ieeexplore.ieee.org/document/10702450)    ****■****[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10702450)
+
+R. Jing, G. Wang, G. Zhang and D. Xu, "Review of Field Weakening Control Strategies of Permanent Magnet Synchronous Motors," in CES Transactions on Electrical Machines and Systems, vol. 8, no. 3, pp. 319-331, September 2024, doi: 10.30941/CESTEMS.2024.00043.
+
+**1**
+
+**内容**
+
+本文总结了永磁同步电机的主要弱磁（Field Weakening, FW）控制策略，分为数值计算控制方法、电压闭环控制方法和模型预测控制相关方法。从控制性能、鲁棒性、执行难度等方面对现有策略进行分析比较，便于FW控制的实现。
+
+**2**
+
+**亮点**
+
+  
+
+**2.1 基于数值计算的FW控制策略**
+
+基于数值计算的FW控制方法将目标转速和转矩代入电机电压方程，计算FW电流和电压参考值。
+
+首先介绍FW电流轨迹的计算方法，然后总结基于代数方程求解的离线计算方法和基于电机模型优化和模糊控制的在线计算方法。
+
+**2.2 电压闭环FW控制策略**
+
+电压闭环FW控制策略通过比较输出电压和弱磁限制电压来调节FW电流，不依赖于电机参数。这种方法结构简单，控制鲁棒性强，按控制结构可分为双调节器控制和单调节器控制。
+
+（1）双调节器方法
+
+双调节器控制可以在两种控制策略之间稳定切换。应用最广泛的方法是d轴电流调节法，通过PI控制器获得削弱永磁通的d轴电流。双调节器FW控制方法的研究可以概括为三个方向：过调制（Overmodulation, OVM）策略的应用、控制器参数设计和扰动抑制。为了使当前轨迹沿最大电流圆移动，电流相角调节是另一种FW控制方法。该方法保留了电压闭环控制鲁棒性高的优势，并通过PI控制调节电流角度来修正电流轨迹。
+
+（2）单调节器方法
+
+在FW区域，如果忽略电阻和电感压降，则电机的稳态工作点为电压限制圆与参考转矩曲线的交点，控制系统的自由度可降为1。根据FW控制输入（d轴或q轴电流）和输出(电压角、d轴或q轴电压)的组合，表1总结了6种基本的单调节器FW控制方法。这些方法利用FW区域输出电压幅值恒定的特点，直接将d-q轴电压解耦，而不是采用基于双调节器的电压抗饱和策略，这有助于解决电流环和电压环耦合和电流调节器输出饱和的问题。
+
+表1 基于单调节器的各种方法框图
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icICWvxnTicW7q28xfzl0wW4LyekN8GCicavFOZw9ic9gUcrX94nNMAMpAoSLQcibOBNVty6vsnKsCZOg/640?wx_fmt=png&from=appmsg)
+
+**2.3 模型预测控制（Model Predictive Control, MPC）相关方法**
+
+为了解决每个控制周期内复杂的非线性约束问题，MPC相关方法已被广泛研究。这些方法的核心思想是基于预测和约束构造一个成本函数，并计算使成本函数最小的输出变量。FW控制的代价函数通常包括速度、转矩、电流和磁通。根据输出电压矢量的特性，这些方法可分为有限控制集（Finite Control Set, FCS）和连续控制集（Continuous Control Set， CCS）。
+
+（1）FCS-MPC不包括调制环节，通过降低开关频率，减少开关损耗。
+
+（2）CCS-MPC采用固定载波频率的电压调制环节，电机电流谐波更小。
+
+**3**
+
+**结论**
+
+目前，永磁同步电机的FW控制策略得到了广泛的研究和应用，为高速电机驱动控制提供了理论基础和实现方法。考虑到控制器成本、运行条件、逆变器非理想特性、电机模型不确定性等因素，FW控制的高性能和高鲁棒性控制方法还需要进一步研究。本文分析了近年来针对PMSM的FW控制策略，从控制理论的角度将上述策略分为三种主要类型，并总结了每种FW策略的优缺点。最后，对这些FW控制策略的计算性能和控制性能进行了比较。
+
+其中，离线计算方法、在线计算方法和MPC相关方法都依赖于模型精度，但具有良好的电流响应速度。在线计算方法和MPC相关方法主要应用于计算能力较强的平台，而离线计算方法主要应用于低成本的工业产品。电压闭环控制方法不依赖于电机参数，控制结构相对简单，在计算难度和控制鲁棒性之间取得了平衡。未来FW控制的研究方向主要集中在简化模型计算法的求解过程和提高电压闭环控制算法的动态性能。
+
+**4**
+
+**团队介绍**
+
+哈尔滨工业大学电力电子与电力传动研究所，由IEEE Fellow、中国电工技术学会会士徐殿国教授担任负责人，包括20余名教师和100余名研究生，是国际先进电驱动技术创新引智基地（111计划）、电驱动与电推进技术教育部重点实验室重点研究团队，以及可持续能源变换与控制技术黑龙江省重点实验室、黑龙江省电气工程创新研究“头雁”计划重点建设团队，承担国家重大专项、国家自然科学基金重点项目和国际合作重点项目、国家重点研发计划等多项国家级项目，并与多家知名企业建立了长期合作关系。承办了ITEC Asia-Pacific、ECCE Asia、VPPC、ICEMS等国际学术会议。在电机驱动控制和新能源高效率电力电子变换器领域取得了诸多国际领先成果，交流电机及其驱动控制领域研究处于国际领先水平。
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icICWvxnTicW7q28xfzl0wW4PrG3aFrqk1rw7K4j5Y1asMaBiciaN0ct2q0picEXkNtZ4lNlQHoWU6pibA/640?wx_fmt=png&from=appmsg)
+
+**5**
+
+**作者介绍**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icICWvxnTicW7q28xfzl0wW4wkoDlhZoUNGkYRI2btpvNxK9aqJphrOwymfAQv5hIh8BI0YicialGiasQ/640?wx_fmt=png&from=appmsg)
+
+**徐殿国（1960）**，哈尔滨工业大学教授。IEEE Fellow，国际先进电驱动技术创新引智基地（111计划）负责人，黑龙江省电气工程创新研究“头雁”团队负责人，中国电工技术学会副理事长，担任IEEE TPEL Co-EIC、IEEE TIE、IEEE JESTPE、中国电机工程学报等期刊编委。曾获得2018 IEEE IAS Outstanding Achievement Award，成为该奖项自1969年设立以来中国大陆第一位获奖者。主持完成包括国家重大专项、国家自然科学基金重点项目和国际合作重点项目、国家863计划项目、国家科技支撑项目、国家重大产业开发项目、国家重点研发计划项目、黑龙江省科技攻关重点项目、企业合作项目等100余项，获得省部级以上科技奖励16项，指导博士毕业生80余名。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icICWvxnTicW7q28xfzl0wW4281YDdicncVrz0JApicxxDKnjekaiaQQQjzcAmtcB6JO3F3EDOboeSnsQ/640?wx_fmt=png&from=appmsg)
+
+**王高林（1978）**，哈尔滨工业大学教授，国家杰出青年科学基金获得者，电力电子与电力传动研究所所长，黑龙江省可持续能源变换与控制技术重点实验室主任，爱思唯尔“中国高被引学者”。长期从事电机驱动控制和电力电子变换器等方向研究工作，承担国家科技重大专项、国家重点研发计划、国家科技支撑计划、台达基金重大项目等科研项目，与多家知名企业建立校企联合研究中心。发表论文100余篇，出版专著3部，授权发明专利50余件。获省部级科技奖励一等奖2项，中国科协优秀科技论文奖，IEEE TTE优秀论文一等奖。担任中国电工技术学会电控系统与装置专业委员会副主任委员，中国电源学会学术工作委员会副主任委员、新能源电能变换技术专业委员会副主任委员、变频电源与电力传动专业委员会副主任委员，IEEE TIE客座编委，IEEE TTE、IET EPA等期刊编委。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icICWvxnTicW7q28xfzl0wW4V6EIs3ibicmpu93J3KZKLVGicaeGTLKfJk14RZHe59yTmO1VmGGvFXdOA/640?wx_fmt=png&from=appmsg)
+
+**张国强（1987）**，哈尔滨工业大学教授，黑龙江省可持续能源变换与控制技术重点实验室副主任，入选国家博新计划、黑龙江省优青，担任中国电源学会青工委副主任委员。围绕交流电机无传感器控制关键问题开展研究工作，主持国家自然科学基金2项、航空科学基金1项；主研国自然重大项目子课题，台达重大、重点项目等10余项。获省部级科技奖励一等奖2项、二等奖1项，首届中国电工技术学会青年科技奖，中国电源学会科技进步二等奖。出版英文专著3部，发表SCI/EI检索论文100余篇，授权国家专利30余件；获IEEE交通电气化会刊年度优秀论文一等奖、二等奖各1项，中国科协优秀科技论文，中国精品科技期刊顶尖学术论文等。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ17icICWvxnTicW7q28xfzl0wW4XFeDj70gQGy8EP2L1aRzN78wNiag8kpPwnPialiaGrIWFiaPsvlibgNCq3Q/640?wx_fmt=png&from=appmsg)
+
+**敬润泽（1997）**，博士生，分别于2019年和2021年获得哈尔滨工业大学电气工程专业本科和硕士学位。目前于哈尔滨工业大学电力电子与电力传动研究所攻读博士学位，研究方向为高速永磁同步电机驱动控制和过调制策略。
+
+★
+
+《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被ESCI、EI、Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+  
+
+**中国电工技术学会**
+
+**新媒体平台**
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+学会官方微信
+
+电工技术学报
+
+CES电气
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+学会官方B站
+
+CES TEMS
+
+今日头条号
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+学会科普微信
+
+新浪微博
+
+抖音号

@@ -1,3 +1,10 @@
+# 灵活高效的数组操作利器：Fortran中的Where与Forall结构
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/8z-zM09YuQVu3p5LZJwgDA](https://mp.weixin.qq.com/s/8z-zM09YuQVu3p5LZJwgDA)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXUibmbzvSnbTBlZn4d6KSHHia4QCUeRTbj4wJOiamXqskS5GyVS9CCPy7WPIjhnMwNVL1icSOZmV1Kog/640?wx_fmt=png&from=appmsg)
+
 在科学计算领域，Fortran作为一种历史悠久的编程语言，以其在数值计算、高性能计算方面的卓越表现，至今仍被广泛使用。随着语言的不断演进，Fortran引入了诸多现代特性，旨在提高代码的可读性、可维护性以及执行效率，其中`WHERE`和`FORALL`结构便是显著的例证。本文将深入探讨这两个结构的语法、特性和应用场景，展示它们如何成为现代Fortran编程中处理数组数据的强大工具。
 
 ## 引言
@@ -88,6 +95,7 @@ Fortran语法规范给出的说明是：DO循环中的语句必须严格按照�
 
   
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

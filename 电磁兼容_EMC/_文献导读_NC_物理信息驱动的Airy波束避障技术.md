@@ -1,0 +1,86 @@
+# 【文献导读】NC：物理信息驱动的Airy波束避障技术
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/BhUSUco-hU1Kw5GhaZZHgg](https://mp.weixin.qq.com/s/BhUSUco-hU1Kw5GhaZZHgg)
+
+论文信息
+
+* * *
+
+  
+
+题目：
+
+A physics-informed Airy beam learning framework for blockage avoidance in subterahertz wireless networks
+
+作者：
+
+Haoze Chen, Atsutse Kludze & Yasaman Ghasempour
+
+单位：
+
+Department of Electrical and Computer Engineering, Princeton University, Princeton, NJ, USA.
+
+出版信息：Nature Communications | ( 2025) 16:7387, DOI: 10.1038/s41467-025-62443-0 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUA8XV0KwWwcognNsCZNzxSbdqUqQHt3z4JzqveaUekibIFCIVS2F652A/640?wx_fmt=png)
+
+论文摘要
+
+* * *
+
+  
+
+视线阻塞是太赫兹无线网络中的主要挑战之一。有趣的是，太赫兹节点的扩展近场范围为近场波前整形提供了可行的解决途径。近年来，Airy波束因其独特的自加速特性和弯曲轨迹，成为一种有前景的绕开障碍物的解决方案。然而，要在实践中充分发挥弯曲波束的潜力，仍存在一个根本性挑战：如何找到最佳的波束轨迹？原则上，可以设计无限多种轨迹。为寻找最优轨迹，我们基于对近场电磁学、射线光学和波动光学的深入理解，开发了一种物理信息驱动的机器学习框架用于Airy波束整形。实验结果表明，在正确配置的情况下，Airy波束即使与近场波束聚焦相比，也能在高阻塞场景下显著提高链路预算，为扩展覆盖范围和减少盲区提供了新思路。
+
+图文导读
+
+* * *
+
+  
+
+本文关注和解决的问题为：太赫兹通信中因视线路径被阻塞会导致链路中断、功率急剧下降。传统方法（如反射面、非视线路径）不总能提供高数据速率路径；Airy波束虽能弯曲绕障，但轨迹优化空间无限大，难以实时计算最优路径。本文提出了一种物理信息驱动的神经网络框架，用于学习最优Airy波束参数（曲率系数 B、焦距 F、偏转角 θ）。结合射线光学、傅里叶光学、近场电磁学等物理知识，构建输入特征（如阻塞比例 bt、接收器与障碍物相对位置 Δx），提升学习效率。使用预训练神经网络，实现零样本推理，避免实时计算Rayleigh–Sommerfeld积分的高开销。
+
+本文的重要图片如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUl7kTVLEOEtZIQicbe3vVZVObeibj678QHY7XyCD8RWBpdN30cCbnEA1Q/640?wx_fmt=png)
+
+图1 | Airy波束的生成与特性。(a) 通过在发射孔径上施加由截断因子和缩放Airy函数描述的电场，可以生成具有自愈合特性的有限能量Airy波束。辐射模式是通过理论闭合形式的Airy波束传播方程（α = 0.05）计算得出的。此处，我们在120 GHz频率下设置 x₀ = 2.5 mm。(b) 使用傅里叶光学可以在指定的距离和方向上生成所需的任意Airy波束。在发射孔径上叠加立方相位和聚焦相位掩模，以在标记的平面处创建Airy轮廓，Airy波束从此平面开始传播。红色虚线表示Airy传播的起始位置。此处，我们在120 GHz频率下设置 B = 7, F = 0.1 m, θ = -20°。(c) 在发射器和接收器之间可以配置无限多条可行的Airy轨迹。此处我们展示了3个此类波束的示例。(d) 在有和无障碍物的情况下，3种示例波束配置的接收功率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qU3EAbicpCYuAafPZbaCCBqetdBY4Sia2bBexjl718bYmuEI2QRhQ9OWKw/640?wx_fmt=png)
+
+图2 | 用于最优Airy波束的物理信息学习框架示意图。(a) 通过学习最优的自加速波束，使其能够成功绕过LOS（视距）障碍并将最大功率传递给接收器。(b) 我们基于学习的波束成形框架示意图，其中仅当存在LOS阻塞（即阻塞参数超过预定义阈值）时，才激活基于神经网络的Airy优化。(c) 在400个不同模拟测试场景下，归一化接收功率的经验累积分布函数。学习得到的Airy波束实现了与通过暴力搜索方案找到的最优Airy波束相似的功率。此外，与偏转高斯波束和聚焦波束相比，接收功率有显著提升。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUfOXvPEqtrLqQnTB7JCBctWu5eRWRVOZeDgToicMPLktvdLjl7XWPACQ/640?wx_fmt=png)
+
+图3 | Airy波束的实验实现。(a, b) 我们将两个示例Airy波束的测量场与仿真结果进行比较。左右图的Airy参数分别为 (B = -10, F = 0.1 m, θ = 0°) 和 (B = 7, F = 0.08 m, θ = 0°)。所有图均归一化并以dB尺度显示。测量在120 GHz进行，结果表明与仿真模式吻合良好。(c) 测量的近场辐射模式在偏离中心频率（120 GHz）时变化不大，表明这些波束可以承载建立Gbps级数据速率所需的GHz级带宽。(d) 测量的弯曲轨迹在115 GHz至125 GHz的实验频率范围内保持相对一致。带宽通过3dB波束宽度、小接收器孔径尺寸和多项式拟合曲线进行量化，显示出在较短观测距离下尤其宽的带宽轨迹。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUib6iaQkD3Al4aGgGT6qCdCRes4kZKLh1NW4Io5rrYhDpqcA2v0ogvVhw/640?wx_fmt=png)
+
+图4 | 预测Airy配置在阻塞缓解中的性能。显示了AI优化波束和基线波束的测量近场辐射模式。接收功率通过对红色接收孔径积分计算，并在每个测量图中标出。测量的波传播与仿真结果一致。与常规高斯波束偏转和波束聚焦的比较表明，AI优化的Airy波束实现了功率增益。(a) 一个障碍物沿着黄色虚线所示的线性轨迹移动，阻塞LOS路径。如图所示，即使障碍物的轻微移动也可能导致完全不同的弯曲波束轨迹预测。(b) 一个接收器进入障碍物的阴影区域。所提出的AI框架调整Airy波束参数，以在每个设置下最大化接收器功率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JDrw08nzpiaVZFvfFY8g7upB0kMoFC4qUQ7bOzX4l6dxEickMJRpRysLyK2cZ6bnPTwzmEHyD7jPmO16Ko4c8fLQ/640?wx_fmt=png)
+
+图5 | 数据调制与误码率性能。(a) 数据传输实验的示意流程图。(b) 在一个示例阻塞场景下（124 GHz中心频率，700 MHz带宽），使用8-QAM和16-QAM调制的数据传输性能对比，包括：（i）波束聚焦向接收器 和 （ii）AI预测的Airy波束。直观可见，在LOS阻塞下，与传统的聚焦波束相比，Airy波束改善了星座图。(c) 我们在有和无LOS阻塞的情况下，对四种不同调制方案（BPSK, 4QAM, 8QAM, 16QAM）及几种通信带宽，比较了实验测量的Airy波束和聚焦波束的未编码误码率。虽然当LOS路径畅通时，聚焦波束的误码率明显更低（正如预期），但我们的结果表明，当LOS路径被阻塞时，近场自加速波束（经过优化后）的性能优于聚焦波束，且与所使用的调制方式或带宽无关。
+
+论文启示
+
+* * *
+
+  
+
+本文重要结论如下：
+
+(1) 性能提升：相比传统高斯波束和近场聚焦波束，优化后的Airy波束在阻塞场景下：平均接收功率提升 17.7 dB（对比高斯波束）和 3.4 dB（对比聚焦波束）；误码率可降低数个数量级（如BPSK下>3个数量级）。
+
+(2) 实验验证：在D波段（120 GHz）实验中成功生成可绕过障碍的弯曲波束，并验证其GHz级带宽能力。
+
+(3) 启示：近场波前整形 + AI优化是未来移动通信中对抗阻塞的有效途径。
+
+* * *
+
+  
+
+【本文特别声明】
+
+本文中对文献的解读与评述仅为学术探讨，不代表原论文作者及其机构的观点。文中引用的论文插图/图表仅为评论、说明之目的，属于在学术交流中的“合理使用”，其版权均归属于原出版方及原作者所有。我们已尽最大努力标注原始出处。如果您是版权所有者且认为存在侵权，请与我们联系，我们将立即删除。我们强烈建议读者阅读原文以获取最完整准确的信息（可点击左下角“阅读原文”跳转）。\[原文DOI链接：https://doi.org/10.1038/s41467-025-62443-0\]

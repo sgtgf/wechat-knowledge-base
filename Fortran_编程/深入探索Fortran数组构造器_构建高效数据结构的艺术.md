@@ -1,3 +1,12 @@
+# 深入探索Fortran数组构造器：构建高效数据结构的艺术
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/nMz3mx6NDtSKTT29aP\_6Mw](https://mp.weixin.qq.com/s/nMz3mx6NDtSKTT29aP_6Mw)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXUibmbzvSnbTBlZn4d6KSHHia4QCUeRTbj4wJOiamXqskS5GyVS9CCPy7WPIjhnMwNVL1icSOZmV1Kog/640?wx_fmt=png&from=appmsg)
+
+  
+
 在Fortran的世界里，数组是数据处理和数值计算的核心组件。随着Fortran语言的不断演进，数组构造器（Array Constructors）的引入，为开发者提供了一种强大而灵活的方式，用以初始化和组织数组数据。本文将深入探讨Fortran数组构造器的机制，通过一系列生动的示例，揭示其在现代Fortran编程中的应用与优势。
 
 ## 引言：数组构造器的诞生与演化
@@ -76,6 +85,7 @@ Fortran数组构造器以其强大的灵活性和可读性，成为了现代Fort
 
   
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

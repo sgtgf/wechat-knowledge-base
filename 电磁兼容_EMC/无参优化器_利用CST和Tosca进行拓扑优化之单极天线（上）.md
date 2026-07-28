@@ -1,0 +1,81 @@
+# 无参优化器：利用CST和Tosca进行拓扑优化之单极天线（上）
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/OLcCbU2FQXKIoK57DDpvrA](https://mp.weixin.qq.com/s/OLcCbU2FQXKIoK57DDpvrA)
+
+作者 | Ma Bin
+
+之前我们介绍过无参优化器，[无参优化器：利用CST和Tosca进行形状优化之波导](https://mp.weixin.qq.com/s?__biz=MzU2MDMxMzExMg==&mid=2247496515&idx=1&sn=7bd77e079ee004642f48acd2efdfd417&scene=21#wechat_redirect)。本文将以紧凑型单极天线为例，介绍无参优化器中的另一种优化方法——拓扑优化。
+
+-   Design Space
+    
+
+进行拓扑优化之前，需要指定一个Design Space，优化将在这个指定的区域内进行。对于拓扑优化，Design Space可以是二维的片状结构，也可以是三维的体积结构。如下图所示，Design Space内优化后的网格单元将由原始材料和指定的填充材料组成。Tosca会寻找到一种最优的材料拓扑组合使得整体结构的电磁响应满足用户的目标设置。需要说明的是：对于相同的目标设置，拓扑结构的解并不唯一。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroFrZx9TlGP1l1HzpxClfDzekPJjibuJIOEhMmFrcGHOMgmR64I5b8TzicYvnGic0w25G24NKl1MZTKtg/640?wx_fmt=png&from=appmsg)
+
+以一个单极天线的优化为例，其尺寸和材料如下。其中黄色部分结构为单极天线的寄生贴片，也是我们本例中拓扑优化的Design Space。我们以一个简单的矩形贴片作为起始结构，利用Tosca和CST帮我们找到一个合适的形状，使单极天线的电磁响应符合我们的要求。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroFrZx9TlGP1l1HzpxClfDze2dlKpjc5aiawgQ7hfPpLL01cKqzOEPc2DclhIfTFYunUjNcIGvWYibOg/640?wx_fmt=png&from=appmsg)
+
+-   仿真设置
+    
+
+边界条件正常设置，对于天线类仿真，建议将6个边界均设置为“open (add space)”。在本例中，因为天线结构具有明显的对称性，我们可以设置一个磁对称面。这样设置的好处有2点：
+
+1.能显著缩短每个cycle中电磁仿真的计算时间；
+
+2.对于Design Space，仅需优化一半结构即可，不仅节省Tosca优化的时间，还可以保证最终天线结构保持对称性。
+
+需要注意，边界条件中的“对称设置”其优先级高于Design Space的“对称约束”。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroFrZx9TlGP1l1HzpxClfDzeWc8ua6vEbvxnMPiaO8g1QIiblgPWnSSlhgvOR4ogOZVLNmS8mZEZXmtw/640?wx_fmt=png&from=appmsg)
+
+拓扑优化中的网格设置至关重要。如果Design Space中的网格过于密集，会增加每个拓扑优化cycle中的电磁仿真的计算时间；而如果网格过于稀疏，则会降低拓扑优化的自由度（可被优化的网格单元数量减少），并可能导致最终优化得到的结构边缘的棱边偏多，不够平滑。
+
+因此，Design Space的网格剖分需要适当。下图展示了本例中的局部网格设置，以及Mesh View中Design Space区域的放大视图。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroFrZx9TlGP1l1HzpxClfDzeRiaTGxAtfYTZJnmA9G73nlLOiba4MqqOyLAIvrwwsibMd46ZVIiazbFYBg/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroFrZx9TlGP1l1HzpxClfDzeM8MOycynlZMsx2zCbGngNKsJ95ZSYyoibaq3ucvYggwictSpLuWJhPYQ/640?wx_fmt=png&from=appmsg)
+
+对于求解器，需要选择F-solver，并将Method切换为“Fast reduced order model”，自适应网格加密可以勾选，也可以选择不勾选。此外，本例为了加速仿真，还在Specials中勾选了“Allow single precision”选项进一步提升优化效率。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroFrZx9TlGP1l1HzpxClfDzeKJABDqx6MBcjaibz6N2iaxMbDibxDeNUR1aPhZXJTpyjDHDjSfzzunM0w/640?wx_fmt=png&from=appmsg)
+
+可以先启动仿真，查看单极天线的初始性能。如下图所示，单极天线的初始性能很差，在2-2.8GHz频段内基本不谐振，所以对外的辐射效率也很低。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroFrZx9TlGP1l1HzpxClfDze1xWmyF0Sn7rCiblywlpSpg9QBWtVmLsek5wiadv5D8UOPnEPVFPIxA5Q/640?wx_fmt=png&from=appmsg)
+
+为了使单极天线谐振在2.4GHz，我们需要进行一些无参优化的设置。首先用Pick Face操作选中两个寄生贴片，然后在工程树中右键点击Design Space并选择“New Design Space for Topology Optimization...”，在弹出的对话框中选择OK即可。
+
+注意，在本例中我们选择的Fill material是默认的Vacuum，由于背景材料同样是Vacuum，所以拓扑优化的效果类似于对结构进行“镂空”处理。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroFrZx9TlGP1l1HzpxClfDzeLubBcPMuHoNOObVLh4ZyaHYNvnBPTO8N5dsvsLrtMhYOQRE8Psn7jw/640?wx_fmt=png&from=appmsg)
+
+-   无参优化器设置
+    
+
+下一步，需要设置无参数优化器。CST2025版本的无参优化器与CST2024版本略有不同。在点击“Non-Parametric Optimizer”后，无参优化器的设置界面不会马上弹出，需要再次点击Optimizer按钮才能弹出。在对话框内可以选择不同的“Type”并添加响应，即优化目标。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroFrZx9TlGP1l1HzpxClfDzeT5AmR6QY04ERwd2ERB14DbHqoibXzSc55ib0pr5ZpX4g2esSISg4M7kA/640?wx_fmt=png&from=appmsg)
+
+如果是第一次启动无参优化器，需要点击“Settings...”进行配置。主要是指定Tosca的安装路径，指向Tosca安装文件夹下的win\_b64文件夹即可。该对话框中还可以设置Tosca的最大迭代步数。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroFrZx9TlGP1l1HzpxClfDzelVYXytGODHgXHWjVUWRPSbzg1Q6SkrfBoAMIWt0H1nXpNPGck7gZcA/640?wx_fmt=png&from=appmsg)
+
+最后，需要设置无参优化器的优化目标和约束条件：
+
+·优化目标：使单极天线在2.4GHz下的Radiated Power最大化；
+
+·约束条件：保证单极天线在2.4GHz处的S11<–10dB，即实现良好的阻抗匹配。
+
+完成设置后，点击 “Start” 即可启动无参优化仿真。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/rAmUsuqnroFrZx9TlGP1l1HzpxClfDzexmAC6L3BB4SmlCWCk5Tia2CyUcAtCmyhM62dnd56HlibrwKqvO9Fx87w/640?wx_fmt=png&from=appmsg)
+
+下一篇文章我们将对无参优化的结果进行分析。
+
+  
+
+**感谢阅读，如果觉得本篇文章有用，请点赞、收藏、在看或赞赏，分享给更多朋友了解和关注我们。**

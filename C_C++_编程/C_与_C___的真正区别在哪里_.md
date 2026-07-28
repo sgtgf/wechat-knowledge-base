@@ -1,5 +1,11 @@
+# C 与 C++ 的真正区别在哪里？
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/UcedMjLFDOYzpzP90UTHGQ](https://mp.weixin.qq.com/s/UcedMjLFDOYzpzP90UTHGQ)
+
 在计算机科学的世界里，C 和 C++ 无疑是两门极其重要的编程语言。虽然 C++ 被认为是 C 的一种延伸和发展，但随着时间的推移，两者之间的差异已经变得越来越明显。本文旨在深入探讨这两种语言的本质区别，帮助读者有效地利用这两种强大而灵活的编程语言。
 
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRETdLuoXm3uJFHWO6IoyqqeXNLNAMFzkdPeGPnnC3QJp1Ta1EeVUibeCgUpEpnUiaUaOR9Mqt1eQIoJFVXk4j7Q/640?wx_fmt=png&from=appmsg)
 
 #### 历史背景
 
@@ -118,3 +124,7 @@
 虽然 C++ 作为 C 的后代语言继承了后者的优势，但它也引入了大量的新特性，使其成为一门截然不同的语言。选择使用 C 还是 C++，很大程度上取决于项目的需求和个人或团队的偏好。对于那些需要对硬件有精细控制的场景，C 可能是更好的选择；而对于希望利用面向对象编程和现代软件工程实践的项目，则 C++ 更具优势。
 
 无论是选择 C 还是 C++，理解它们之间的根本区别都是至关重要的，这有助于开发者做出明智的选择，并有效地利用这两种强大而灵活的编程语言。
+
+## 推荐阅读
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVXkszTAU2XWHdU0FE9cibs9dzIqBmVA2RZzxTSp9zPPIvrmawq4ZqRsxZgGxSiayFgXzkZ5xXluichFQ/640?wx_fmt=gif&from=appmsg)

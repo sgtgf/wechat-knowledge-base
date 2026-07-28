@@ -1,0 +1,135 @@
+# 文章精选 I ​开关磁阻电机分段PWM占空比分析方法
+
+原创 CES TEMS编辑部 CES电机与系统学报 2023-12-25 07:00 北京
+
+> 原文地址: [https://mp.weixin.qq.com/s/dqLD4uygUEN-2jm5kY1Ysg](https://mp.weixin.qq.com/s/dqLD4uygUEN-2jm5kY1Ysg)
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KaAz0RgR4TBX1Id1iaKqWHsMJzF2444y9b5pRVKuu6jv7BTZepFh83z2A/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+
+****An Analytic Method of Segmented PWM Duty Cycle for Switched Reluctance Motor****
+
+Chaozhi Huang; Yuliang Wu; Hongwei Yuan; 
+
+Wensheng Cao; Yongmin Geng
+
+Jiangxi University of Science and Technology, Ganzhou, China
+
+**■**[在线阅读](https://ieeexplore.ieee.org/document/10018853)    ****■****[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10018853)
+
+C. Huang, Y. Wu, H. Yuan, W. Cao and Y. Geng, "An Analytic Method of Segmented PWM Duty Cycle for Switched Reluctance Motor," in CES Transactions on Electrical Machines and Systems, vol. 7, no. 2, pp. 163-170, June 2023, doi: 10.30941/CESTEMS.2023.00008.
+
+**摘 要**
+
+  
+
+  
+
+针对开关磁阻电机实际斩波控制中存在较大的电流峰值和转矩脉动问题，本文提出了一种基于电流斩波控制的开关磁阻电机分段PWM占空比分析方法。该方法通过PWM占空比在一个周期内调节绕组两端的平均电压，实现对绕组电流的控制。同时，根据电感线性模型，将导通相位划分为小电感区和电感上升区，分别推导了两个区域PWM占空比的解析公式。最后，通过MATLAB/SIMULINK仿真和电机平台实验，将电流斩波控制与本文的分段PWM占空比分析方法进行了比较。仿真和实验结果表明，分段PWM占空比分析方法能有效降低电流峰值和转矩脉动，具有较高的实际应用价值。  
+
+  
+
+**Abstract**
+
+  
+
+  
+
+In view of the large current peak and torque ripple in the actual current chopping control of switched reluctance motor, a segmented PWM duty cycle analysis method of switched reluctance motor based on current chopping control is proposed in this paper. The method realizes the control of the winding current by adjusting the average voltage of the two ends of the winding in one cycle through the PWM duty cycle. At the same time, according to the inductance linear model, the conduction phase is divided into a small inductance region and an inductance rising region, and the analytical formulas of PWM duty cycle in the two regions are deduced respectively. Finally, through matlab/simulink simulation and motor platform experiment, the current chopping control is compared with the segmented PWM duty cycle analysis method in this paper. Simulation and experimental results show that the segmented PWM duty cycle analysis method can effectively reduce the current peak and torque ripple, and has high practical application value.
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17icrVBSFIpdmTTsvv0oFN2uAOoysNP1q1Ma1vPHcLFzZZJic6iclWDbQhgX8iaxLneKfxskCg4QaAiaEvw/640?wx_fmt=gif&from=appmsg)
+
+  
+
+**作者信息**
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17icrVBSFIpdmTTsvv0oFN2uAf0rpJANA9NqkMTBpfcew5dXrgtos7ek0ocLThJicGbHwxAicfiaz3rVcQ/640?wx_fmt=gif&from=appmsg)
+
+**Chaozhi Huang** was born in 1978 and received the B.S. degree in 2001. He received the M.S. degrees in detection technology and automation from Jiangxi University of Science and Technology, Ganzhou, China, in 2004. Later, he received the Ph.D degrees in Power System and Automation from Hohai University. Since 1998, he has been with Jiangxi University of Science and Technology, where he is currently a professor in the School of Electrical Engineering and Automation. His research interests include motor structure design and drive control, robot control technology.
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17icrVBSFIpdmTTsvv0oFN2uAOOmWHEN2HsHhcIG0CyCib45j6YEXdWY3WLUJO4zYmG4G1D30kG2mKog/640?wx_fmt=gif&from=appmsg)
+
+**Yuliang Wu** was born in Sichuan, China, in 1996. He received the B.S. degree in electrical engineering from Shanxi Agricultural University in 2019. He is currently working toward the M.S. degree in the electronic information from Jiangxi University of Science and Technology. His current research interests include motor drive and control.
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17icrVBSFIpdmTTsvv0oFN2uA8mnDh7DCO0u0hxd5jBSjadKwZBSOuxJ7FZ9jfqux4ia7QptzliciabO4w/640?wx_fmt=gif&from=appmsg)
+
+**Hongwei Yuan** was born in Xinzhou, China, in 1995. He received the B.S. degree in electrical engineering from Jiangxi University of Science and Technology in 2018. He is currently working toward the M.S. degree in the electrical engineering from Jiangxi University of Science and Technology. His current research interests include switched reluctance motors and optimization algorithms.
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17icrVBSFIpdmTTsvv0oFN2uAiaVsruqDa3mge2fXOTs1I2qQIfz8zicQKe8ryicUCxcmNvPdk4eav2Edg/640?wx_fmt=gif&from=appmsg)
+
+**Wensheng Cao** was born in Shanxi, China, in 1997. He received the B.S. degree in automation department from Taiyuan Industry College in 2020. He is currently working toward the M.S. degree in the electronic information from Jiangxi University of Science and Technology since 2020. His research interests include the drive and control of switched reluctance motor.
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_gif/jFLbUGmZ17icrVBSFIpdmTTsvv0oFN2uAZiaIzZrRiauOw8qMloQyvh4rSqukVUkeWTPk753KwCHKy5SCNBMLoXDQ/640?wx_fmt=gif&from=appmsg)
+
+**Yongmin Geng** was born in Henan, China, in 1997. He received the B.S. degree in electrical engineering from Henan Institute of Science and Technology in 2019. He is currently working toward the M.S. degree in electrical engineering from Jiangxi University of Science and Technology since 2020. His research interests include optimal design of electrical machine structures.
+
+  
+
+★
+
+《中国电工技术学会电机与系统学报（英文）》(CES TEMS)是中国电工技术学会和中国科学院电工研究所共同主办、IEEE PELS学会技术支持的英文学术期刊。期刊发表国内外有关高性能电机系统、电机驱动、电力电子、可再生能源系统、电气化交通等研发及应用领域中原创、前沿学术论文。中国工程院院士马伟明担任主编，IEEE的执委Don Tan博士为国际主编。目前已被Scopus、 Inspec、Google scholar、IEEE Xplore、中国科学引文数据库(CSCD) 核心版、DOAJ、CSTPCD、知网、万方、维普等数据库收录。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ179z3lvZnpbXAWIveZK2I2KalkDdQtbbTvQNT5Z89ibvTeUaI5nU6me4w5ualicmNwEGzsebDicBujmicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+  
+
+**中国电工技术学会**
+
+**新媒体平台**
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1k432BagqYBSpEricSKUWFXSlSfsmibVn6lrHGgF3bk2HNDKgMsmv0jzjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kFquwswRdMpgltNf0ofDboWBsO2VEWngicxMLCwAjKicUpA36bE18nqyQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kqvWm5WpOHLYBxwbAicSjcBbZ10gGc0OGXJry876QYUDbR6L4mnIeQTQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+学会官方微信
+
+电工技术学报
+
+CES电气
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kxqBhgTkxhRWEW0XjEyERqib5lURct6qfw0hu5MicCFTEE3fUuRuMGwYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kJUJKGasHWENobphbJ482N9gYfNsVC4r2IJslRgg6hDeDOaq7UjODicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kI0fa9LY4e2piaNeSjLI4ybUTWNhecEM1ZeRicz1zy8qPmiab5ia11BtCcw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+学会官方B站
+
+CES TEMS
+
+今日头条号
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kiaDDmDY7734hLauYWibPJQW5ThU9SLI35icS2kke05zNibsXXKjfIpFyRQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/jFLbUGmZ178JiaFc2oAchm3D534NzqA1kQBmbDzflDusd312Op55BibBmUtibVk1AjOfyWzWPwtLO0s5oz2EsSWVg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jFLbUGmZ178JiaFc2oAchm3D534NzqA1ks1BJP50Lux134cYxqiao7iaI6HBoQgw1oRNAaN2lHDCcY0RzFBibR76qA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+学会科普微信
+
+新浪微博
+
+抖音号

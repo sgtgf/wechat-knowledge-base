@@ -1,0 +1,24 @@
+# 从当红小生到瘫软在地：CEM带来的震撼
+
+
+> 原文地址: [https://mp.weixin.qq.com/s/NebQwMiFnhW9f-bHQz\_PJA](https://mp.weixin.qq.com/s/NebQwMiFnhW9f-bHQz_PJA)
+
+在混合像元分析与小目标检测方向取得一系列成果后，我逐渐成为了课题组里炙手可热的“当红小生”。伴随而来的是内心虚荣的极大满足，行为举止也逐渐变得不拘一格。比如，当着课题组老师的面肆意玩棋牌游戏、暴力摩托等，甚至特意跑到图书室借来一本雷达领域的书籍，摆放在工位最醒目的位置。这并非出于拓展知识面的渴望，而是试图表明：高光谱这个方向，我已经没什么可做的了。
+
+有一天，打完游戏，百无聊赖，脑海中突然冒出一个念头：国外在这些方向的发展究竟到了什么程度？我是不是也该与他们比一比？
+
+带着这样的想法，我很快找到了一个专用于高光谱图像目标检测的经典算法——**约束能量最小化**（Constrained Energy Minimization，CEM）。该方法只需提供感兴趣目标的光谱，便可在图像中检测出目标的空间分布。
+
+我迅速实现了该算法，并将[“高光谱图像小目标检测国内首个成功案例](https://mp.weixin.qq.com/s?__biz=Mzk4ODA1MDUyOQ==&mid=2247483980&idx=1&sn=fc9d63a7dbc085fceaffc084a26ca6d1&scene=21#wechat_redirect)[”](https://mp.weixin.qq.com/s?__biz=Mzk4ODA1MDUyOQ==&mid=2247483980&idx=1&sn=fc9d63a7dbc085fceaffc084a26ca6d1&scene=21#wechat_redirect)一文中提取的目标端元光谱作为输入，直接得到了图1所示的检测结果。看到这个结果，我直接呆若木鸡、瘫软在地！与图2中基于混合像元分析方法所得到的小目标检测结果相比，CEM对背景的抑制能力展现出压倒性的优势，几乎可以用“碾压”来形容。
+
+我百思不得其解：明明混合像元方法利用了包括目标和所有背景端元在内的更多信息，按理说应当更具优势；而CEM仅仅使用了目标端元的光谱，却在检测效果上更为突出，背景抑制能力甚至远远胜出。这一反常的结果让我一时间难以接受。
+
+于是，趁人没注意，我悄悄把那本才借几天的雷达书还回了图书室，转而全身心投入到CEM机理的研究之中。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/zgfThkqk9mAARuHOAVSP87picVkhdF0yC4tWSvOFeGiadbHzUthuzIM9BejUPptVkUsnoo8ZM5lwibIPHP9AQYNWg/640?wx_fmt=jpeg&from=appmsg)
+
+图1\. CEM小目标检测结果
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/zgfThkqk9mAARuHOAVSP87picVkhdF0yCdazU3mjXSMOMgMwEq05iba3FNLWib0uULS4odwSicLpgOzicHw0t0K42Pw/640?wx_fmt=jpeg&from=appmsg)
+
+图2. 混合像元分析小目标丰度图

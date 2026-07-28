@@ -76,19 +76,19 @@ Iteration 1
 Number of nodes: 200          Maximum error: 2.21e+00          Average error: 1.34e+00          Computation time:            
 Assembly: 0.014s          Solve: 0.000s          Error Estimate: 0.003s          Mesh Refinement: 0.103s    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrVWLuAZgnpQd5biaMOW8u1VlFlxMUljWZA478a6PxqESfLd31GsaXhl8fhAUS9E3SAicFTA73iavmog/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrVWLuAZgnpQd5biaMOW8u1VfnqBEJxrRGn6ufk3mKia9uiad7ZffSZseOWibZjb1gjfjP5cadp5MR67g/640?wx_fmt=png)
+![](AI_cusor实现二维泊松方程的自适应有限元_images/img_000_56f3afe6b119.png)![](AI_cusor实现二维泊松方程的自适应有限元_images/img_001_2304779bf65d.png)
 
 Final Solution and Mesh:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrVWLuAZgnpQd5biaMOW8u1VI1tO4SgJlE8dBGn2ria2SEEYYNBmrPH9ibuNaDDXdibLxEFw5QibohopIg/640?wx_fmt=png)
+![](AI_cusor实现二维泊松方程的自适应有限元_images/img_002_6c66fe4e93b9.png)
 
 Convergence History:    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrVWLuAZgnpQd5biaMOW8u1VXX1TY0TjbSByqG2icLK0ic0iaIIEvISarrGIGCuFYsysZtic4Q5D1mt1Lw/640?wx_fmt=png)
+![](AI_cusor实现二维泊松方程的自适应有限元_images/img_003_7b7630064a11.png)
 
 Computation Time Statistics:    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrVWLuAZgnpQd5biaMOW8u1VrvGvOjfNL22G06siaDxHdfZicHqbsREvVALacxj9dXuc3rR0dokdrzIQ/640?wx_fmt=png)
+![](AI_cusor实现二维泊松方程的自适应有限元_images/img_004_8e7fb6ba86e2.png)
 
 Total iterations: 5          Final number of nodes: 1376
 
@@ -177,7 +177,7 @@ Total
 
 2.对于简单的小程序而言，cursor非常快速，但是如果修改次数过多，会导致上下文较多，有时候会比较慢，比如我做了一个二维网格可视化的小工具，最后就直接不回答了。小工具的结果也秀一把吧（整个过程花了2个小时）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrVWLuAZgnpQd5biaMOW8u1VldOYibiccGpnibic4wu9Kl4axBJlfnh1ANq800dBxCS5bxBMy4odNqicsWA/640?wx_fmt=png&from=appmsg)
+![](AI_cusor实现二维泊松方程的自适应有限元_images/img_005_de5c9063f446.png)
 
 3.可以不会编程，但是必须得知道如何实现，比如实现泊松方程的过程非常容易，使用结构化的三角形网格实现，但是在自适应过程中，cursor在局部加密网格中始终错误，最终是一步一步给他说如何局部加密成有效网格，多次迭代后才得到如上的结果。
 

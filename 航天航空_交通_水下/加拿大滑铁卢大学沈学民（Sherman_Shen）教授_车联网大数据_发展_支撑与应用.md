@@ -1,0 +1,147 @@
+# 加拿大滑铁卢大学沈学民（Sherman Shen）教授：车联网大数据：发展、支撑与应用
+
+原创 自动化学报 2018-03-09 09:00 北京
+
+> 原文地址: [https://mp.weixin.qq.com/s/TjbLBpLUbh9rWtmCClAaNA](https://mp.weixin.qq.com/s/TjbLBpLUbh9rWtmCClAaNA)
+
+      随着智能交通向更安全、更高效、自动化、可娱乐的全方位发展，车载环境下的信息技术，包括卫星网络、高空平台、无人机、地面网络、车载社交网络以及车载传感器网络，近年来都得到发展，其平台数据的交互与应用也逐渐受到通信和控制领域学者们的关注。
+
+      加拿大滑铁卢大学沈学民 (Xuemin Sherman Shen) 教授等在IEEE/CAA Journal of Automatica Sinica发表的综述“Internet of Vehicles in Big Data Era”中，探索与分析了车联网与大数据之间的关系。
+
+      一方面，车联网可支持信息平台中的海量数据获取、传输、存储与计算；另一方面，基于车联网大数据的分析与挖掘，有助于进行更加高效智能的新一代车联网架构与设计。
+
+     此外，沈学民教授等还探索了无人驾驶环境下的大数据应用，同时 展望了未来车联网大数据的相关研究方向，包括如何有效设计车联网支持日益增长的数据量、如何利用海量的数据进行分析与发掘，设计更智能高效的通信协议以提高驾驶安全与驾驶体验。
+
+文章导读
+
+       车联网与大数据的关系为（图1）：首先，车联网需要支持大数据的获取、传输、存储与计算；同时，通过对大数据内在价值的有效利用，车联网的架构与设计可以进一步得到优化。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHcJtkbuBjC8RTNbKDFicz8ic81axOrIoYHdeGK0ofiafWO62HtVPicTWWMA/640?wx_fmt=jpeg)
+
+图1 车联网与大数据
+
+  
+
+     综述内容如图2 。在大数据支持部分，首先介绍了大数据的获取，分别包括车内与车外的数据来源。
+
+        车内数据源包括车载传感器监控的车辆状态信息，如速度、加速度、引擎及刹车状态等；乘客智能终端的GPS、加速度传感器、陀螺仪等感知的运动状态信息。车外数据源包括路侧基础设施、高空平台、无人机等监控的环境信息，如车流、红绿灯、天气等。
+
+      大数据传输部分介绍了应用感知的传输策略、媒体访问控制协议、路由协议以及空中扩展信息平台。大数据存储部分介绍了存储类型（车载存储、路边存储、网络存储）、相关存储机制等。大数据计算部分介绍了基于车车通信的在线计算以及车载云计算等。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHv5wyN86xO2Jb4g9RIsRicjt6ibp9gKXuWfjmP2YEkN5icwEklvibGoe2cA/640?wx_fmt=jpeg)
+
+图2 综述内容
+
+  
+
+     支持大数据传输的车联网框架（图3）包括：         1) 基于DSRC和LTE-V通信协议的地面通信，例如，车辆与车辆（V2V）通信、车辆与行人（V2P）通信、车辆与路侧基础设施（V2R）通信等；
+
+      2) 卫星、高空平台、无人机等空间平台与地面车辆的空间地面通信；
+
+      3) 卫星、高空平台、无人机之间的空间通信等。
+
+       在这些通信模式中，基于车载应用，作者综述了应用感知的传输策略、媒体访问控制协议、路由协议以及空间传输协议的设计。例如，在媒体访问控制层 (MAC)中，目前用于车联网的MAC层协议根据访问无线网络资源的方式不同主要有两类 ：
+
+      1) 基于竞争 (contention-based)的MAC,即当节点有数据要传输需要访问无线信道时，它首先会监听信道是否空闲，当信道空闲时立即发送数据，在发送数据的同时监听是否有冲突产生，若产生冲突则立即停止数据发送，等待一段随机时间，再重尝试发送； 
+
+      2) 非竞争 (contention-free) MAC,即信道按照某种预先规定的机制进行划分比如时分复用 (TDMA: Time Division Multiple Access)、空间复用 (SDMA: Space Division Multiple Access)、码分复用 (CDMA: Code Division Multiple Access),每个节点被分配唯一的无线资源以减少冲突。
+
+       作者对两类MAC协议设计的研究现状都进行了综述。此外，支持大数据存储介绍了存储类型（车载存储、路边存储、网络存储）、存储机制等。最后，支持大数据计算介绍了基于车车通信的在线计算以及车载云计算。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHkYTHthDdL6WTYWm1Nl0NSCYYBFWHrLHjMTf0WQZMYQSiankhrJ67PXA/640?wx_fmt=jpeg)
+
+图3 车联网支持大数据传输框架
+
+  
+
+       虽然不断增长的数据量给车联网带来挑战，但是通过分析与挖掘大数据，高效智能的新一代车联网架构与设计也会得到优化与发展。
+
+     主要从三方面介绍了车联网大数据的应用方向：
+
+      1) 基于大数据的网络特征刻画与验证
+
+       节点的高速移动造成车载网络连接的时变性，且变化难以预测。即使为所有节点动态分配好无线带宽资源，节点发送出去的消息也可能因为链路质量问题而不能被邻近节点成功接收。基于真实场景下的大量通信数据，结合车辆的状态和周围环境信息，可进行定量分析，即通信质量与运动速度、距离、高度、环境等因素之间的关系，分析结果将对不同应用需求的通信场景起到指导作用。
+
+       2) 情景感知的通信范式设计
+
+       由于节点移动速度和路线都在异态变化，导致局部网络拓扑可以发生十分剧烈的改变。此外，宏观车流、人流密度的变化，进一步加剧了网络拓扑的高动态性，基于运动状态，环境监测数据，可设计情景感知的通信协议，可最大化网络性能的同时最小化网络开销。
+
+      3) 大数据支撑的无人驾驶
+
+       无人驾驶场景下数据来源包括车传感器、GPS、摄像头、激光雷达、用户体验数据（游戏数据）、边缘数据、众包数据等，结合网络传输共享、本地及云平台的计算能力提供基于高精地图的安全应用、导航、无人驾驶、车载社交网络、娱乐休闲等应用。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHraB0YvwfJ8ib8p6aCQaloRY9M94dzqsyB68Ob94Q2CNrTnaX1Iibefsg/640?wx_fmt=jpeg)
+
+图4 大数据支撑的无人驾驶
+
+  
+
+文章信息
+
+W. C. Xu, H. B. Zhou, N. Cheng, F. Lyu, W. S. Shi, J. Y. Chen, X. M. Shen, “Internet of vehicles in big data era,” IEEE/CAA Journal of Automatica Sinica, vol. 5, no. 1, pp. 19-35, Jan. 2018.
+
+![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHcdjXDVj1nmcnUqeFmLzNrC85icsg4JOX3R4hFLquYkUDiaqTSNmz5FcQ/640?wx_fmt=png)
+
+长按识别以上二维码，或点击文末“原文链接”，可阅读全文
+
+作者简介
+
+![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHojcGmyQR8ENAI6TAjia1oXM6j9Xky6G9vxHkq24ZL3sGHmWibceIgVQw/640?wx_fmt=png)
+
+**沈学民 (Sherman Shen)**, 加拿大滑铁卢大学首席讲座教授，加拿大皇家科学院（RSC）院士，加拿大工程院（CAE）院士、加拿大工程院（EIC）院士以及IEEE院士。沈教授长期致力于无线通信网络中的无线资源与移动性管理、媒体介入控制以及网络安全与隐私保护等理论与技术研究，特别在车载通信网络与无线体域网络等研究领域做出了原创性与系统性的工作，令其本人及其研究团队在国际上享誉盛名。
+
+      沈教授自1989年起，共发表国际期刊论文536篇，会议论文及报告528篇，根据Google学术记录，其学术论文总引用次数达到41,000余次，H指数为88；沈教授担任过包括IEEE、ACM、Springer、Elsevier在内的10多个国际期刊的编辑，以及20多个期刊的客座编辑，现在担任国际顶级期刊IEEE Internet of Things Journal、国际著名期刊IET Communications以及Peer-to-Peer Networking and Applications的主编。沈教授担任过10余次国际会议主要演讲者，40余次包括ACM Mobihoc、IEEE Infocom等在内的国际顶级会议大会主席、筹划指导委员会主席、领域主席和技术委员会主席，以及50余次国际会议技术委员会成员；沈教授还担任过IEEE通信协会无线通信技术委员会副主席和主席等职位。
+
+       鉴于其杰出的学术成就，沈教授被授予滑铁卢大学电子与计算机工程系杰出表现奖（2002年）、加拿大安大略省“杰出科研贡献总理奖”（2003年）、IEEE通信协会杰出讲师奖（2009年-2010年）、IEEE车载技术协会杰出讲师奖（2011年-至今）。沈教授于2013年荣获IEEE通信协会自组织与传感网技术委员会所颁发的技术成就认可奖，该奖项代表该研究领域同行的最高认可，沈教授是第一位在美国之外荣获此殊荣的人。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHCBoFUjDpRsicgb8GIhqTgTAmJzepVQ8sPk4uQl2Hzo2JUaxNCZu8twQ/640?wx_fmt=png)
+
+**徐文超**，加拿大滑铁卢大学电子与计算机工程学院博士研究生，主要研究方向为无线通信包括资源分配、网络建模、无线数据分流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHDLQlrh8LxT7S6089jp7o9r4k7H9Zf95C6vYrtezlhCUNO1QOkohJjw/640?wx_fmt=png)
+
+**周海波**，南京大学电子科学与工程学院副教授，主要研究方向为认知无线网和车载网中的资源分配和协议设计。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHGCGChG5w4RtUwRIU9frTFn6P3BrXc6kGTwia4ZP9Lokfzp2979ehDBw/640?wx_fmt=png)
+
+**承楠**，加拿大多伦多大学-滑铁卢大学联合博士后，目前研究车联网大数据以及无人驾系统，主要研究方向为车载网络中性能分析、MAC设计、机会通信协议，以及数据卸载。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHicjuuUia62qDH7C5GnhPgSdqoCZmjDgvOZsbc5uT7ga0495qSjB1DjaQ/640?wx_fmt=png)
+
+**吕丰，**上海交通大学计算机科学与技术学院博士研究生，主要研究方向为车载网络和云计算。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHWib9cWgicia6CichGBA0RfMkOyOILQ9wmI6lict0QibWceZv0jwO4mNGcv2g/640?wx_fmt=png)
+
+**时伟森**，加拿大滑铁卢大学电子与计算机工程学院博士研究生， 主要研究方向为无人机通信、SDN 和车载网络。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHEvNpO4TeUUddmGiaEqUY40N50CB6v6hcDNJFsVEYc5XkNyRibQEnp8gw/640?wx_fmt=png)
+
+**陈佳音**，加拿大滑铁卢大学电子与计算机工程学院博士研究生，主要研究方向为车载网与机器学习，目前研究智能交通与大数据。
+
+欢迎扫描二维码、长按图片识别关注自动化学报英文版微信公众号！
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHQe1VQ43v7sXtyNDPlBU0foHqShKzibofdOkNIRkq9yWA8zCm2dIaUrw/640?wx_fmt=jpeg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHV1LaQXdnGC2jXiaMibeM6m7WEEKepYGXlrn03csA98aXyldGwckicePeA/640?wx_fmt=png)
+
+**网站**：
+
+http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570654
+
+www.ieee-jas.org  
+
+**微信**：JAS自动化学报英文版
+
+**Blog**: http://blog.sciencenet.cn/?3291369
+
+**Twitter**: IEEE/CAA Press
+
+**Facebook**: Ieee/Caa Press
+
+**投稿**：https://mc03.manuscriptcentral.com/ieee-jas
+
+**Email:** jas@ia.ac.cn
+
+**Tel:** 010-82544459, 010-82544746  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45q37HkEt5iax6K8mgoAYUFHbGGC7UpiaLRzylnePm2zm5I9kZIRnqamZEY1l6KQGHfflGBjTTGOGKQ/640?wx_fmt=png)

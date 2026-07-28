@@ -45,31 +45,31 @@
 
 6.自定义矩阵变换（图 7）：输入自定义矩阵元素（如 a=0.7、b=0.5、c=0.4、d=0.6），点击 “应用自定义矩阵”，左侧显示自定义变换后的图形，右侧同步展示输入矩阵。
 
- ![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm5sWBTvUjvjIjOKnjobia9DjHqFfVKqS0e0rficjb439faf6LL62EKOgbUavpyJZ1SnhWejMbib2gKVQ/640?wx_fmt=png)
+ ![](用AI生成矩阵变换教学演示软件_助力课堂教学直观化_images/img_000_44527fb0f55b.png)
 
 图1. 初始界面
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm5sWBTvUjvjIjOKnjobia9DjAmWXwpPg2YfDcYaEqCdgxXv8yVbCyW5dfeZIXtTknQJTdZLKcjUGmw/640?wx_fmt=png)
+![](用AI生成矩阵变换教学演示软件_助力课堂教学直观化_images/img_001_1fd15bd468db.png)
 
 图2. 旋转变换 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm5sWBTvUjvjIjOKnjobia9DjVTDDRsEYlTUyw1prt4QTkolx63Hpm00IibajPfib9Wa92dv5UIHT3icrw/640?wx_fmt=png)
+![](用AI生成矩阵变换教学演示软件_助力课堂教学直观化_images/img_002_08356884a41c.png)
 
 图3. 缩放变换
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm5sWBTvUjvjIjOKnjobia9Djd2xI8BniaeDs1V6CgkbpFB69S1PibLYQMopILNwA0XJ7NsiaWp8tyiaPYA/640?wx_fmt=png)
+![](用AI生成矩阵变换教学演示软件_助力课堂教学直观化_images/img_003_239ee5be59e1.png)
 
 图4. 剪切变换 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm5sWBTvUjvjIjOKnjobia9DjcicYrs9ibwJfn7KL1BWiasWKvJUWRN8tUha7Nln1XiavTfHsssqncD58hQ/640?wx_fmt=png)
+![](用AI生成矩阵变换教学演示软件_助力课堂教学直观化_images/img_004_2de08ac8c79e.png)
 
 图5. 反射变换 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm5sWBTvUjvjIjOKnjobia9DjUvcrgDshGFvtalzUDXXBCptKbDP57QGCGG0JhzaOqyRJbm6WnTnB8A/640?wx_fmt=png)
+![](用AI生成矩阵变换教学演示软件_助力课堂教学直观化_images/img_005_965838a5761a.png)
 
 图6. 投影变换
 
-![](https://mmbiz.qpic.cn/mmbiz_png/tbsNyKAwjm5sWBTvUjvjIjOKnjobia9DjTQhSuwjnp6oBkYNg3K3JuEYSvwONPz5tZwBEia378rjow0UicYEnzzJQ/640?wx_fmt=png)
+![](用AI生成矩阵变换教学演示软件_助力课堂教学直观化_images/img_006_3f851d113441.png)
 
 图7. 自定义变换 
 

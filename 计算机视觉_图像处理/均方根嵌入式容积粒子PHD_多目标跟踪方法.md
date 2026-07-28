@@ -1,0 +1,107 @@
+# 均方根嵌入式容积粒子PHD 多目标跟踪方法
+
+原创 自动化学报 2017-03-20 19:20 北京
+
+> 原文地址: [https://mp.weixin.qq.com/s/Uskr3qFtAWsT8Udc\_khcAg](https://mp.weixin.qq.com/s/Uskr3qFtAWsT8Udc_khcAg)
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47ZbaUcsdrFfmAjRDOibXHk8QyYkTOdXgqcxTNpMiapxlNogsSu2O9H10maslQItxxRL8hibRLYmjqcA/0?wx_fmt=jpeg)
+
+概率假设密度算法（Probability Hypothesis Density，PHD）是公认的多目标跟踪的有效手段，与其它的多目标跟踪算法相比，PHD在目标数目未知情况下性能更加优越，有很好的发展应用前景，因此是现在研究的热点。
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47ZbaUcsdrFfmAjRDOibXHk8OPTlfg3o72MpoRicamm0DPStTZIy5oZRoCZhGGYDoBS3SFOJs1xt4Ug/0?wx_fmt=jpeg)
+
+然而现有的PHD算法在进行非线性多目标跟踪时仍存在**精度低**、**实时性差**的问题。基于蒙特卡罗的粒子PHD算法（Monte Carlo Particle PHD，MCP-PHD）和基于拟蒙特卡罗的粒子PHD算法（Quasi-Monte Carlo Particle PHD，QMCP-PHD）需要大量的粒子，在提高估计精度的同时也**增加了时间成本**。高斯厄米特粒子PHD算法（Gauss Hermite Particle PHD，GHP-PHD）和容积粒子PHD算法Cubature Particle PHD，CP-PHD）在PHD预测阶段减少了粒子的开支，但是却**引入了各自不同的问题**：GHP-PHD高斯厄米特积分点数目随目标状态的维度增加呈指数增长，导致“**维数灾难**”；CP-PHD有效解决了“维数灾难”的问题，但是容积积分点偏差随着目标状态维度增加而增大，导致高维下粒子溢出有效积分区域，即“**粒子溢出**”。
+
+基于此，本文引入嵌入式容积准则求解积分点，得到均方根嵌入式容积粒子PHD算法（Square-Root Imbedded Cubature Particle PHD，SRICP-PHD），嵌入式容积准则可通过自由变量控制积分点的偏差，能有效防止“粒子溢出”，并且，在某些条件下，嵌入式容积积分近似精度高于容积准则。
+
+另外，引入高斯组合的手段实现非高斯噪声估计，改善滤波效果。具体做法是初始化采样得到粒子集，并将粒子视为子目标，估计其高斯噪声特性，继而混合得到目标非高斯噪声。该过程中，采样方法至关重要，它将决定粒子使用效率，影响算法精度和稳定性。传统的伪随机采样会出现“粒子贫化”、“滤波发散”的问题，可增加粒子数目，但同时会增加时间成本，降低算法的实用性，而且增加粒子数并不能解决本质问题，粒子数不可能无休止的增大。另一途径是寻找新的采样手段，如拟随机采样，然而拟随机采样改善的效果不明显。基于此，本文提出了等概率采样准则，将整体采样区域等概率划分，并按既定的规则从各个子区域选取粒子。该采样手段能保证区域之间无交集，区域内部粒子不会聚集在一起，因此能有效避免粒子“聚集”的现象。由于等概率区域以多维球面为边界，因此可以通过容积准则中的球规则获取对称分布的积分点，如此便得到改进的均方根嵌入式容积粒子PHD算法—ASRICP-PHD，解决了粒子“聚集”和积分点获取的问题，改善了算法的精度。
+
+  
+
+  
+
+CP-PHD多目标跟踪轨迹（δ=5；σ=0.3）
+
+  
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47ZbaUcsdrFfmAjRDOibXHk8jibnMl1oScibtD8kGWYCjzdIXIJpmdz7xtukhQUsrv8HNnfPzpHqV0QA/0?wx_fmt=png)
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47ZbaUcsdrFfmAjRDOibXHk82pMA0PrT26Tlw20nia0bBic0DBibndPL06kWX7WnU5a7th5LmiahAxj9eg/0?wx_fmt=png)
+
+  
+
+  
+
+ICP-PHD多目标跟踪轨迹（δ=5；σ=0.3）
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47ZbaUcsdrFfmAjRDOibXHk8RPoefrb9b527C40A6spPicCcC8xxLg3RFRhia1Oal2ia3aXrbRmnkK9wQ/0?wx_fmt=png)
+
+引用格式
+
+熊志刚, 黄树彩, 赵炜, 苑智玮, 徐晨洋. 均方根嵌入式容积粒子PHD多目标跟踪方法. 自动化学报, 2017, 43(2): 238-247
+
+作者简介
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47ZbaUcsdrFfmAjRDOibXHk88IrEMQia2pjdSpgMjmvCAEykRTmOeOPb2mgQDm0RuZoq0v02M1EEMxg/0?wx_fmt=jpeg)
+
+熊志刚 空军工程大学防空反导学院博士研究生. 2016 年获得空军工程大学硕士学位. 主要研究方向为空天协同目标跟踪. 本文通信作者.
+
+E-mail: xiongzgzm@163.com
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47ZbaUcsdrFfmAjRDOibXHk89vgItUP0PD2DCvyqeFM01wwWZxkSmPuiauicd1b3ibBzmR0JKXNhkI1sw/0?wx_fmt=jpeg)
+
+黄树彩 空军工程大学防空反导学院教授. 2005 年获得空军工程大学博士学位.主要研究方向为空天协同目标跟踪与拦截引导.
+
+E-mail: hsc67118@126.com
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47ZbaUcsdrFfmAjRDOibXHk8oIvqbvEYap3FAWCfFRuia9Be9icg4vval48ExezaPiavgHhuXQicHYYqBg/0?wx_fmt=jpeg)
+
+赵炜 空军工程大学防空反导学院博士研究生. 2014 年获得空军工程大学硕士学位. 主要研究方向为系统仿真, 目标跟踪与检测.
+
+E-mail: shnxshdny@163.com
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47ZbaUcsdrFfmAjRDOibXHk89BbORouK2hGqtQYUbSGgfic3L607iciaibTCgFnkG5171dbWrHLtC741Vw/0?wx_fmt=jpeg)
+
+苑智玮 空军工程大学防空反导学院硕士研究生. 2014 年获得长春理工大学学士学位. 主要研究方向为红外目标检测与跟踪, 系统辨识.
+
+E-mail: YuanzhiweiSachiel@163.com
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47ZbaUcsdrFfmAjRDOibXHk85ocHJN1XuKSZc8wVuSv8cFiciaGTEGgpULCfYXqekwXUibceMbdb9YNBg/0?wx_fmt=jpeg)
+
+徐晨洋 空军工程大学防空反导学院博士研究生. 2016 年获得空军工程大学硕士学位. 主要研究方向为拦截系统建模与仿真.
+
+E-mail: 15686057693@163.com
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47ZbaUcsdrFfmAjRDOibXHk8F1s9tojwGw48f25aIWbevUwLflbLEeWFsGaPzd6ibeics6vAMqRDIAZw/0?wx_fmt=png)
+
+微信服务号：自动化学报
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47ZbaUcsdrFfmAjRDOibXHk8F1s9tojwGw48f25aIWbevUwLflbLEeWFsGaPzd6ibeics6vAMqRDIAZw/0?wx_fmt=png)
+
+微信订阅号：aas1963
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47ZbaUcsdrFfmAjRDOibXHk8wvnKxg4DXB1mHjEpfHlszUfzkUo2M33Ouk0jLzdPtKvAMbnpePV7QA/0?wx_fmt=png)
+
+新浪微博：自动化学报
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47ZbaUcsdrFfmAjRDOibXHk8wvnKxg4DXB1mHjEpfHlszUfzkUo2M33Ouk0jLzdPtKvAMbnpePV7QA/0?wx_fmt=png)
+
+新浪博客：Automation\_2011
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47ZbaUcsdrFfmAjRDOibXHk8LRmgdmsXboUibo2DM99zAPyHFhYP5LJF7B4TwaLPBSjbg3PMwp2zl5Q/0?wx_fmt=png)
+
+联系我们：
+
+Tel:  010-82544653（日常咨询和稿件处理） 
+
+        010-82544677（录用后稿件处理）
+
+Fax: 010-82544497
+
+Email: aas@ia.ac.cn（日常咨询和稿件处理）
+
+          aas\_editor@ia.ac.cn（录用后稿件处理）
+
+http://www.aas.net.cn
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47ZbaUcsdrFfmAjRDOibXHk809ekfxtlFWibPUFjXwMV3ENMU6bvUey3FZZdXyt1gMzPSQFvqfA7wdw/0?wx_fmt=png)

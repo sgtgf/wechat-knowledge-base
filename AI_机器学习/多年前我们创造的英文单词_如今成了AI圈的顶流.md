@@ -21,7 +21,7 @@
 
 此时，自然想到需要将这个矩阵乘积结果再转化为三阶张量，但是当时，并没有张量化这个英语词汇，于是，我们就临时发明了“Tensorization”这个词。一个当时生僻、现在流行的单词就这样诞生了（见下图）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iagCqyDH0KskcOibI1znO9ub4Hq97IY4dGU6CnGdHI9Gcv0W7dddSwuFrcPWCUHImpOEGk5kkUDDoMvdxmsbsLcjibWFNuARKtbbOedbf4OJYI/640?wx_fmt=png&from=appmsg)
+![](多年前我们创造的英文单词_如今成了AI圈的顶流_images/img_000_121cb3c872ff.png)
 
 2014年，这篇题为_《Principal Skewness Analysis: Algorithm and Its Application for Multispectral/Hyperspectral Images Indexing》_的论文在_IEEE GRSL_正式发表。**“Tensorization” 作为我们主偏度分析体系的关键数学操作，被正式留在了人类的学术文献库里。**
 

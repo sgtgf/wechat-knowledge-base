@@ -15,27 +15,27 @@
 
 边值问题依然采用最常见的二维泊松方程。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVg2ibcWsJIXgTgYXZnOZqjuoXE8GmrxfTJA1bIRLZT6XNqf8V63KYKPkQ/640?wx_fmt=png)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_000_f4e88dad338c.png)
 
 边界条件可以根据需求，添加第一类边界条件进行约束。其有限元方法与直边有限元推导结果一致：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVgMgHp1fkTY6v6GZ9SKAHDCHLsYgmZFF7DPcvibLVE20R7loIU6dQQwicA/640?wx_fmt=png)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_001_fe90cd9914a2.png)
 
 当处理为第一类边界条件时，第三项可以不考虑。将连续空间离散到每个三角形网格中，可以得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVg4S0XYBAqwb6JA9N4X5IUkW7Juc3js3dDxwIg0kjBTmjrHv1ibMVSVcw/640?wx_fmt=png&from=appmsg)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_002_c2cc5bb2f5c6.png)
 
 2.gmesh生成曲边三角形网格
 
 对于曲边有限元，为了能表示其曲边性质，一般采取二阶三角形网格来描述，其本质是原本直边三角形中三个高阶点不再落在棱边上，而是根据原有几何模型，落在该棱边的实际几何模型上。    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVglPqnQKCzicxOclHXm7urkXyxicWm6GRFKdVkg0UXoruhaXl8icWV5pqTg/640?wx_fmt=png)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_003_302ab14b8178.png)
 
 如图生成的曲边有限元，三角形的高阶点在几何模型是曲边的地方并不落在三角形的直边上，而是契合几何模型的位置。
 
 因此，生成的网格每个单元需要有六个节点来描述，即：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVguQNmk1CHSzoddM93GINudW97Gxib31NpdabcJyv1TLFSAljX6HeIsuw/640?wx_fmt=png)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_004_2ee0e3d73123.png)
 
 3.曲边单元基函数
 
@@ -43,54 +43,54 @@
 
 因此，首先将曲边三角形映射到参考直角三角形中，通过雅可比坐标转化矩阵连接实际曲边三角形与参考直角三角形。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVgvBuvibOyWr93pe0TsHb0YuM03WmrX0VHOhvNVQC5Cpw9yvicLLd4QstA/640?wx_fmt=png)    此时，对于右边的参考标准三角形，其二阶形函数很容易获得，与直边三角形一致：
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_005_197cbdb05fa0.png)    此时，对于右边的参考标准三角形，其二阶形函数很容易获得，与直边三角形一致：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVgIJXOibWbpib7LMYqE2sLKQUV5oxziazIsFcajoDUibWVkLmOiar91hibVYew/640?wx_fmt=png)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_006_cd2b4b28afbd.png)
 
 其基函数，满足任意点落在节点位置时，对应形函数为1，其他形函数为零。对应的梯度也很容易获得:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVg0Em6lAEtBYMiacduaJrQibfrt1BZqtXFEoRvbbia9cbjuGNLgT8awvkgg/640?wx_fmt=png)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_007_fe9c335cdcf3.png)
 
 接下来是雅可比矩阵的推导，对于任意实际坐标系中的（x,y）,其均可通过形函数Ni和节点坐标（xi,yi）表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVgWKPeHzmzoESzosxwWmoiaBfF3ozUicecb2ibiaj2UzrbZAeaoGkoszqNicg/640?wx_fmt=png)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_008_52dfae62ed0c.png)
 
 其中形函数是关于参考坐标系的函数，因此（x,y）是参考坐标系  
 的函数，对x,y坐标系求导，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVgfuSIG3CsI2qm8vOXm2PmuCA4WV2YIeyz7qJPr8qdATMBmvHZ1icBqoA/640?wx_fmt=png)    
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_009_31f61422190d.png)    
 
 将x表示为插值形函数形式，带入：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVg7bwuCbZX4X0EodmEaE30G0wqnCoAK6l7EeoAVictEGNucnFL4AKHMcg/640?wx_fmt=png)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_010_91eced0bb1b9.png)
 
 因此，雅可比矩阵可以写成：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVgepptTqxQfaAo4E5OEU0mzdgMYkgq8cct1pwVBuKiaZXvPkbmnY4oO8Q/640?wx_fmt=png)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_011_2c6a4d992ea9.png)
 
 4.单元系数矩阵 
 
 已知的系数矩阵实在xy坐标系中，因此需要对参考形函数和实际形函数进行转化：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVgbBeU7K9HtMQrXYRy8R80wCJjv9d9Vl2ZmprHavuHwMc9z3z8AKUlVg/640?wx_fmt=png&from=appmsg)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_012_e27d2f07fd1d.png)
 
 对于微分子的映射，将雅可比矩阵的行列式看成三角形面积，如此就很容易得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVgVVYG4sZtF5hxQ2aiaODAdibkzaRFONK1LCJGy2WeHpb6cQGRMiaHXtNsQ/640?wx_fmt=png&from=appmsg)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_013_b868fef761ec.png)
 
 将上述推导带入到单元系数矩阵与右端项中，最终得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVgSPiakLTcGA5ibJiasaRZ78DcQUXSGpYlNAFcpeEFvnRnAl3J9zuaADbgg/640?wx_fmt=png)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_014_af029f711b68.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVghBke4OvA3BReDNT6HyJXsJuwUadGyJzE2N13NJU34y5MJibhAumDiaWg/640?wx_fmt=png)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_015_2472f1f3f387.png)
 
 观察可以发现，曲边三角形的信息完全存在了雅可比矩阵中，参考形函数仅仅需要使用直边坐标系的方式就可以获得获得形函数。并且参考直边三角形是一个标准三角形，可以通过高斯积分求解获得，从而也避免了对单元矩阵系数的直接推导。    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVg2ic3HGZmdTrNck8VHO6hJSYsfJwy6msgtEGCAjhFko8V5wxznkd0hzw/640?wx_fmt=png&from=appmsg)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_016_daa707eb4dfd.png)
 
 对于二阶三角形高斯积分的积分权重与积分点为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVgOiblNn5f3LywKOTwD9P5KnZWk6M0ufdxEbdIib5tarIiawUYuqZVzCqZw/640?wx_fmt=png)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_017_2b699863fb3f.png)
 
 至于组装与边界条件加载均和直边三角形有限元一致，将单元系数矩阵根据节点到全局节点的映射关系一一组装起来。
 
@@ -100,23 +100,23 @@
 
 测试模型内半径=1，外半径=2，剖分得到环状网格：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVgcCiaFpdFFTac4OZWn1Jibz3Hic1vnybn6nDicfAgYtA21R2AORjBRK38zg/640?wx_fmt=png)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_018_375bf3806ce9.png)
 
 Eg1.当具体边值问题为泊松方程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVgeEvuOcRqSwmOiceOInwuT9VYONjZf3ibX3cMG1QjeUdSNtpCkm3bKafw/640?wx_fmt=png)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_019_d7867db4a51f.png)
 
 Eg2.当具体边值问题为拉普拉斯方程
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVgLQTpK1XtBfiazn1vyp4r3d7mhjFJvtOKZeLDj7ibibABDJs36sibbuCjTA/640?wx_fmt=png)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_020_ee5923ce7fcb.png)
 
 对于拉普拉斯方程的通解，在r=1,u=1，r=2,u=0的边界条件下，其具有理论公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVgZv6be3uajekHl2jS2tlSVbw3iaKD6jRJRZ71iaKWyTbm8ic1tNm0ouh1w/640?wx_fmt=png)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_021_6468c36b745b.png)
 
 对比数值解，二者是完全一致的。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNp812kSdQnTNR6RQ2ePyZVg9N3qCJEbohyQGJrV3aw6z6z0Th4epKeHJaffRn8BmpXvgko1BfZZ9A/640?wx_fmt=png)
+![](AI学习_快速实现二维曲边有限元_Possion方程_images/img_022_e39bb1f59e49.png)
 
 从二者的图形结果来看，求解结果是正确的。
 

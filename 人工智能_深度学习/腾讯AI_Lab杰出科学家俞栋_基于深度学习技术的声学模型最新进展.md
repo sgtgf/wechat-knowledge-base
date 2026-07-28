@@ -1,0 +1,115 @@
+# 腾讯AI Lab杰出科学家俞栋：基于深度学习技术的声学模型最新进展
+
+原创 自动化学报 2017-08-30 15:46 北京
+
+> 原文地址: [https://mp.weixin.qq.com/s/faIy2X76CxtWNtigUCxOxg](https://mp.weixin.qq.com/s/faIy2X76CxtWNtigUCxOxg)
+
+本文回顾了最近三年基于深度学习技术的语音识别声学模型的主要进展。作者着重于这些技术的设计理念和本质：提出的动机、为什么这样设计，以及用于解决什么问题。
+
+文章导读
+
+        我们首先探讨两种近年来非常流行的深层神经网络：深层递归神经网络 （Recurrent neural networks, RNNs）和深层卷积神经网络（Convolutional neural networks, CNNs)）。由于RNN的优秀的对序列信号的建模能力，它被自然的应用于语音时间序列。标准的RNN有着梯度消失或爆炸的问题，导致RNN不能够很好的对较长的序列进行建模。Long short-term memory (LSTM) RNN通过在时间轴引入门来解决这个问题。在工业界，基于LSTM-RNN的声学模型已经成为一个主流。
+
+        我们探讨LSTM-RNN和它的一些变形。比如高速（highway-）LSTM和残差（Residual-）LSTM被用来解决层数非常多的LSTM还是很难训练的问题；二维LSTM（time-frequency LSTM和Grid LSTM）被用来对时间-频率的二维语音频谱进行建模，并在微软和Google的大规模任务上得到有效性的验证；延时可控的双向LSTM同时享有双向处理带来的比单向LSTM高的正确率和可控延时带来的比双向LSTM低的延时。
+
+       作为另一种主流深层模型，CNN在声学模型上的应用源于近些年来CNN在图像处理上压倒性的成功。最初应用于声学模型的CNN只有一层或者两层，用于特征的提取，在此之上再加上LSTM和标准的前向网络，代表的例子是CNN-LSTM-DNN (CLDNN)。由于最近极其深的CNN（诸如VGGnet和Resnet）在图像识别上的成功，这些模型也被引入到声学模型，IBM和微软的学者还在此之上提出了一系列其他变形。这些CNN模型在SwitchBoard这个标准语音识别任务上不断刷新最低错误率的记录。我们将深入分析这些CNN网络的特点。
+
+       类似于在机器学习领域的发展，研究人员也开始在声学模型乃至于整个语音识别模型中使用端到端的技术。声学模型端到端直接作用在语音波形上，通过深层网络来进行特征提取和声学模型的联合建模。随着基于深度学习的语音技术的发展，研究也渐渐地从近场的单通道语音识别转向更难的远场的多通道语音识别。
+
+       虽然主流的方法仍然是首先进行麦克风阵列处理来生成单路语音信号然后进行声学模型的建模，研究人员也开始尝试着用神经网络对多路语音信号进行处理，然后和特征提取以及声学模型进行联合建模，整个网络在同样一个准则下进行优化。
+
+       我们讨论了这个领域的代表性工作，比如最近成功应用在Google Home上的多通道声学模型优化。语音识别模型端到端（包含声学模型和语言模型）联合建模可以尽量减少对专家知识的依赖。代表性的工作有Connectionist temporal classification (CTC)和Attention模型。CTC模型可以将语音序列直接映射到词或者字符，省去对发音字典的依赖。通过直接选取最大概率的单元，CTC甚至可以省去对解码器的依赖。然而，CTC算法有一个非常强的帧间独立假设，是很多研究者不喜欢的。与之形成对比的Attention模型不需要这个假设。但是Attention模型需要很多技巧来得到最优的效果。本文讨论了CTC和Attention模型的优缺点、合作建模方式、以及对这两种技术未来的展望。
+
+        声学模型的鲁棒性一直是一个研究热点，其中研究最多的是模型自适应特别是说话人自适应方法。现在的前沿是使用非常少的说话人数据进行无监督自适应。由于只有少量的说话人数据，所以自适应模型不能偏离说话人无关模型太多。可以将这个约束放入训练准则，最具代表性的方法是用说话人模型与说话人无关模型的输出来限制自适应训练的方向。更多的研究着重于如何用少量的参数来对说话人建模，本文也主要探讨这个方向。流行的方法是使用低秩矩阵或者矢量等子空间来表征说话人。这些方法包括基于奇异值分解矩阵自适应、隐层单元调整、说话人子空间、聚类自适应调整和隐层分解等方法。
+
+        本文接着探讨一个比较难的课题：多说话人分离问题。由于对称性的原因，多说话人的分离存在着目标说话人标注歧义的问题。深层聚类网络、深层吸引点网络和置换无关训练是三种迄今最成功的技术，我们将讨论三种方法的优缺点。其中特别要提出的是，置换无关训练最近与分类准则结合，从而直接优化多说话人的语音识别正确率。
+
+         深度学习方法依赖于大量的比如上千小时语音的标注数据，但是当应用到新的领域时，一般我们是不可能很快收集到如此大量的新数据。我们探讨如何在这样一个场景下不依赖大量的标注新数据来训练出高品质的声学模型。除了传统的自适应算法，新兴的算法有对抗训练和师生训练方法。我们会探讨这两类方法的优缺点以及各自适合的应用场景。
+
+        最后，对于工业界来说，如何能够有效的上线大量参数的深层网络是一个重要的话题。我们介绍一些最近的减小深层网络运算量的方法。最流行的方法是使用低秩网络。其次，可以通过师生训练的方法使得小网络可以模拟大网络的分类能力。量化参数是一个重要的减少运算量的手段，而将量化过程反映到训练中会使得压缩更有效。另外，改变网络结构和利用语音帧间相关性也可以减少运算量。
+
+文章信息
+
+Dong Yu and Jinyu Li，Recent progresses in deep learning based acoustic models, IEEE/CAA Journal of Automatica Sinica, vol. 4, no. 3, pp. 396-409, Jul. 2017
+
+  
+
+长按图片识别二维码或通过“阅读原文”查看全文
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMrLFn3msfjm8SzDjn0ylRhJBFRnfr1ojs1y92ekql1SO1MUcsAHJHO1Q/0?wx_fmt=png)
+
+作者简介
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMrUROg0SzdzlXP0NvZia9lquCib7XlrWJic4xq3vZYqtaC7LFkdVicticMDMw/0?wx_fmt=png)
+
+俞栋博士于2017年加入腾讯，现任腾讯人工智能实验室杰出科学家和副总经理。加入腾讯前，他在微软公司工作了19年并任职微软研究院首席研究员。他是语音识别和深度学习方向的资深专家，出版了两本专著和160多篇论文，是深度学习开源软件CNTK的发起人和主要作者之一。他在基于深度学习的语音识别技术上的开创性工作，带来了语音识别研究方向的转变，极大的推动了语音识别领域的发展，并获得2013年和2016年IEEE 信号处理协会最佳论文奖。俞栋博士现担任IEEE语音语言处理专业委员会委员，IEEE西雅图分会副主席，及APSIPA杰出讲师，曾担任IEEE/ACM音频、语音及语言处理汇刊、和IEEE信号处理杂志等期刊的副编辑，以及多个国际会议的技术委员会和组织委员会成员。
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMrUROg0SzdzlXP0NvZia9lquCib7XlrWJic4xq3vZYqtaC7LFkdVicticMDMw/0?wx_fmt=png)
+
+李锦宇博士现任微软AI&Research部门Principal Applied Scientist。他于2000年加入英特尔中国研究中心任研究员，之后作为研究经理在讯飞创建语音识别组，在获得佐治亚理工博士学位后，加入微软工作至今。作为技术带头人，他的工作重点是提升微软语音产品的竞争力，主导了近年来微软语音识别产品的研究和开发工作，对诸如Cortana等一系列微软语音识别产品贡献了大量核心技术。他的研究方向涵盖语音识别声学模型的各个领域，特别是在深度学习和鲁棒性领域，出版了一本专著和发表了70多篇论文，现任IEEE/ACM语音及语言处理期刊的副编辑。
+
+作者的其他文章
+
+柯登峰, 俞栋, 贾珈. 语音图文信息处理中的深度学习方法进展专刊序言. 自动化学报, 2016, 42(6): 805-806
+
+http://www.aas.net.cn/CN/abstract/abstract18871.shtml
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMrklnQjYC2M09z3YB2YzThxUB2VtHhBAsNeg3t3bWXSKQhQz33R0Cy5Q/0?wx_fmt=png)
+
+**网站**：
+
+http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570654
+
+www.ieee-jas.org  
+
+**微信**：JAS自动化学报英文版
+
+**Blog**: http://blog.sciencenet.cn/?3291369
+
+**LinkedIn**: IEEE/CAA  Journal of Automatica Sinica
+
+**Twitter**: @JAutoSinica 
+
+**投稿**：https://mc03.manuscriptcentral.com/ieee-jas
+
+**Email:** jas@ia.ac.cn
+
+**Tel:** 010-82544459, 010-82544746  
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMrZwBEGXNzP2U3uMpJCmS4zJkIvhBWNDiaCmCCrsKibYa1CV2JUu0CLeVQ/0?wx_fmt=png)
+
+欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMru00vr9hGF5z0LAkqqXCzZSp6Q7qB8etZ2eTarY5smw9OsYQwLQKDNg/0?wx_fmt=png)
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMrNLw9sQZoaqTopEcJxKibXdniagag2khicvgaicMF3KkIXlldpAmPNFyLLQ/0?wx_fmt=jpeg)
+
+JAS《自动化学报》（英文版）
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMru00vr9hGF5z0LAkqqXCzZSp6Q7qB8etZ2eTarY5smw9OsYQwLQKDNg/0?wx_fmt=png)
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMrNicF9iaGHh9phYLMkle9ZQCoHzXuolh1iaiaSAAcOE5Uo2coa2ibiazvVx1w/0?wx_fmt=jpeg)
+
+自动化学报服务号
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMru00vr9hGF5z0LAkqqXCzZSp6Q7qB8etZ2eTarY5smw9OsYQwLQKDNg/0?wx_fmt=png)
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMrSjVwPfiaDUbV198PKPxUz2eciawEM6Z7yuBib7dRkVN6NvrTd8mIURCdw/0?wx_fmt=jpeg)
+
+自动化学报订阅号
+
+  
+
+联系我们
+
+Tel:  010-82544653（日常咨询和稿件处理） 
+
+        010-82544677（录用后稿件处理）
+
+Fax: 010-82544497
+
+Email: aas@ia.ac.cn（日常咨询和稿件处理）
+
+          aas\_editor@ia.ac.cn（录用后稿件处理）
+
+http://www.aas.net.cn

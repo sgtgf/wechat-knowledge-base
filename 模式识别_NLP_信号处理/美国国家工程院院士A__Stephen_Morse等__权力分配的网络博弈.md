@@ -1,0 +1,77 @@
+# 美国国家工程院院士A. Stephen Morse等: 权力分配的网络博弈
+
+原创 自动化学报 2018-06-20 09:00 北京
+
+> 原文地址: [https://mp.weixin.qq.com/s/Mxwzf\_j7icTzW713wUwECA](https://mp.weixin.qq.com/s/Mxwzf_j7icTzW713wUwECA)
+
+文章导读
+
+     美国国家工程院院士、耶鲁大学A. Stephen Morse教授和李彧可博士目前致力于将控制系统理论应用于理解及预测人类的行为，研究重点之一是对政治行为的分析预测。Morse教授等认为，政治的本质是行为者之间的博弈，而从古至今的国际关系向来是不同的主权国家在一个随时间变动的复杂的敌友关系网中的博弈过程。通过构建网络博弈论模型，研究者可以对国际关系中敌人与盟友之间互相支配政治军事权力的博弈过程进行详细的描述与分析，进而提供一个合理的理论与政策框架供决策者参考。
+
+  
+
+       作为构建理论与政策框架的第一步，他们提出了一个国家之间分配军事政治权力的网络博弈论模型，该模型为分布式资源分配博弈的静态模型。由于网络博弈论研究者一般用图表示博弈的行为者及策略，以一个静态的环境图(environment graph)代表一个具体时间点的国际环境，图中每个点代表环境中的每个国家，点之间的连线代表国家之间的敌友关系，点的权重代表每个国家的军事实力。下图描述了1914年间欧洲国家的敌友关系，这些国家在这一时期互相分配政治军事权力的博弈可以通过上述博弈模型加以研究。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45F2Fy3TEncJPPibibfu3BJI4M1fw3UDpAnVq1uJV1BLiaF4fT5w3VcMCnsZs3OZ565cct22eZ6po0Zg/640?wx_fmt=png)
+
+  
+
+        图中，红色的双线表示被连接的两个国家处于战争状态，绿色的双线表示被连接的两个国家处于结盟状态。分配图(allocation graph) 是基于环境图的扩展：在一个分配图中， 每个连线有一定的权重，代表每个国家对另外一个国家采取的博弈策略（以前者投入后者的政治军事实力为具体表现形式）。国家在每个时间点都必须投入自己的政治军事实力于自己以及自己的盟友与敌人，用于自己／盟友的实力可以视为对自己／盟友的支持，用于敌人的实力可以视为对敌人的威胁。一个国家能够得到的来自自己和盟友的总支持(total support) 不小于受到的所有敌人给它的总威胁(total threats)，则认为这个国家满足了生存的基本条件。
+
+  
+
+     Morse教授和李彧可博士在发表于IEEE/CAA Journal on Automatica Sinica的文章 “Game of Power Allocation on a Network: a Paradox”中，以上述网络博弈论模型为理论框架，研究了一个猜想：对于一个国家而言，是否拥有更多的盟友会更有利？按照传统的一般认识，答案是肯定的。然而通过研究，他们认为，这个猜想成立与否取决于该国家所属的特定国际环境。在特殊的国际环境下，甚至可以得出一个悖论：与传统认识恰恰相反的是，拥有更多的盟友会损害一个国家的利益。Morse教授等进一步得出了这一悖论成立的国际环境的特殊性质（充分或必要条件），并加以证明。研究者可以依据该悖论理解乃至建议一些国际关系的具体决策。
+
+文章信息
+
+Y. K. Li and A. S. Morse, “The power allocation game on a network: a paradox,” IEEE/CAA J. of Autom. Sinica, vol. 5, no. 4, pp. 771-776, July 2018.
+
+![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45F2Fy3TEncJPPibibfu3BJI4LPIwMRE48kibRUDibRKE5UeWVJSWtRE6wOKqtPn82fAJsDnbo2qt4alA/640?wx_fmt=png)
+
+长按识别以上二维码或点击文末“原文链接”，可阅读全文；如需PDF，可在JAS自动化学报英文版微信后台留下您的邮箱或后台回复P1
+
+作者简介
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45F2Fy3TEncJPPibibfu3BJI48c0JjRSR8uQiaiaGMT1tgnmp2YBMVxb2VicJQQhpgOdjkib1TxW6iaVnVfg/640?wx_fmt=jpeg)
+
+**Yuke Li(李彧可)**, 目前为耶鲁大学电子工程系博士后，耶鲁大学2018届政治系博士生，研究方向为网络博弈论、控制论及数据分析。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45F2Fy3TEncJPPibibfu3BJI4m6dFIOdn6p1mZgiaibqlMmicRvXCaictBGLV60PHSUJ2zKVwPhrbwF6zjw/640?wx_fmt=jpeg)
+
+**A. Stephen Morse**, 美国国家工程院院士。1967年于普渡大学获得电子工程博士学位，自1970年起在耶鲁大学任教，目前为达德利（Dudley）工程学教授。Morse教授获得了多项奖项，包括1999年IEEE 控制系统奖、American Automatic Control Councils 2013年Richard. E. Bellman控制奖等。
+
+     IEEE/CAA Journal of Automatica Sinica（JAS，《自动化学报》英文版），于2014年创刊，由中国自动化学会、中国科学院自动化研究所主办，与IEEE合作出版。JAS发表自动控制、人工智能、智能控制、模式识别、信息处理、机器人等自动化领域热点和前沿方向的研究进展。
+
+      创刊至今，JAS由业内优秀学者领衔组办专刊报导最新研究成果，已组织的专刊有：多智能体的协同控制、无人机自主控制、强化学习与自适应控制、物理信息系统、以人为中心的智能机器人、分数阶系统与控制、再生能源系统的控制与优化等。
+
+      根据2018年Elsevier发布的期刊影响力榜单，JAS的2017年CiteScore分值为3.18，在“控制与系统工程”学科类别的224个学术出版物中排名第40，位于前18%，在“信息系统”和“人工智能”学科排名位于前19%（48 /251，32/168）， JAS在其所属的三个学科中的排名均已进入Q1区。
+
+  
+
+      欢迎扫描二维码、长按图片识别关注自动化学报英文版微信公众号：报道自动化领域国内外最新研究成果，提供论文免费浏览下载，传递学术活动信息和期刊动态，即时出版咨询及稿件状态查询
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45F2Fy3TEncJPPibibfu3BJI4PUE6iaL0tQwmRFG67u0LqcoqMtcgAHy5TMVR8fcRucCq3jTAyp9ooIQ/640?wx_fmt=jpeg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45F2Fy3TEncJPPibibfu3BJI4YSYEe4EJ2qUc6HJGFQ66w0rTEkpibcicLXGhU5fDC6qCtH7siaf9EnyAg/640?wx_fmt=png)
+
+**网站**：
+
+http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570654
+
+www.ieee-jas.org  
+
+**微信**：JAS自动化学报英文版
+
+**Blog**: http://blog.sciencenet.cn/?3291369
+
+**Twitter**: IEEE/CAA Press
+
+**Facebook**: Ieee/Caa Press
+
+**投稿**：https://mc03.manuscriptcentral.com/ieee-jas
+
+**Email:** jas@ia.ac.cn
+
+**Tel:** 010-82544459, 010-82544746  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45F2Fy3TEncJPPibibfu3BJI4NYTUMU2o8CURN1YK65j46iaNuk03qMJuSbaGBkn68cV9NdXJCBGoCCw/640?wx_fmt=png)

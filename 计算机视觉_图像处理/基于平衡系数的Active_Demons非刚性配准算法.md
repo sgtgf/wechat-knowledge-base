@@ -1,0 +1,63 @@
+# 基于平衡系数的Active Demons非刚性配准算法
+
+原创 自动化学报 2016-10-09 18:48 北京
+
+> 原文地址: [https://mp.weixin.qq.com/s/B1YgzRV-RPF2femNvTHc4g](https://mp.weixin.qq.com/s/B1YgzRV-RPF2femNvTHc4g)
+
+在医学图像配准过程中，Active Demons算法是一种重要的非刚性配准方法，作为Demons算法的改进形式，Active Demons算法利用参考图像和浮动图像的梯度信息作为驱动力，并使用均化系数调节两种驱动力之间的强度。该算法克服了原始Demons算法的单一使用参考图像的梯度信息作为驱动力的缺点，但是Active Demons算法中的均化系数无法同时兼顾大形变和小形变区域的准确配准，还会导致配准的收敛速度和精确度相互制约的问题。
+
+为此，本文提出一种新的Active Demons非刚性配准算法。提出的算法在Active Demons扩散方程中引入一个称为平衡系数的新参数，与均化系数联合调整驱动力，不仅可以兼顾图像中同时具有的大形变和小形变区域的准确配准，而且在一定程度上缓和了收敛速度和精确度相互制约的问题。其中图1为Active demons算法中，均化系数α对算法的影响曲线；图2为在相同条件下，改进的Active demons算法引入平衡系数后，均方误差与迭代次数的关系；图3为两种算法的配准曲线对比图。
+
+文章中，为了进一步提高配准的收敛速度和精确度，避免陷入局部极值，在新的配准算法的实现中引入由粗到细的多分辨率策略。在Checkboard测试图像、自然图像和医学图像上的实验结果表明，提出的算法较经典的Active Demons算法收敛速度更快，配准精度平均提高了54.28%，接近最新的TV-L1光流场图像配准算法的配准精度，解决了Active Demons算法存在的问题。
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeWibAkWpVUibqCWJSIY3lO4qiapyV5rTkAXfsXicictSw7ZfxqXOGWlG3sLA/0?wx_fmt=jpeg)
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUedFBIwrzuicEiaurxFFVRCWPCHAe0xfk2oJDvgJBJnx0eMRN1PFh8icgOA/0?wx_fmt=jpeg)
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUebxpOj4Kv4libPC67xRH1D3DeAhEX8f9Fq86en4pcTjL12EHqMga4eicg/0?wx_fmt=jpeg)
+
+![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeg4X7mddP1WJXAybcib9V5yW55icE5WCGlJaB0c1kTmfuq0RE1Fha3YRA/0?wx_fmt=png)
+
+引用格式
+
+薛鹏, 杨佩, 曹祝楼, 贾大宇, 董恩清. 基于平衡系数的Active demons 非刚性配准算法. 自动化学报, 2016, 42(9):1389-1400
+
+作者简介
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeoLDdlrcdQibjF5aCY9ia5AIXn0DBNkAOzAxztguAvIxyrTXQib2NX8qWg/0?wx_fmt=jpeg)
+
+薛鹏 山东大学(威海) 硕士研究生.2015 年获得哈尔滨工程大学工学学士学位. 主要研究方向为医学图像处理.
+
+E-mail: xuepeng2016@126.com
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeE9ib6NibiaECgricMibyMIuSZT3icMjnl9Cc9HibJ0jRLvJXOIIrggibL9EkEA/0?wx_fmt=jpeg)
+
+杨佩 山东大学(威海) 硕士研究生.2008 年获得山东大学(威海) 学士学位.主要研究方向为医学图像处理.
+
+E-mail: yangpei301@163.com
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeFsUicc8rJy6icYN15w2J7qojeZA7cKelicljn3ZpELWY5z8VoPXtNNiaKw/0?wx_fmt=jpeg)
+
+曹祝楼 山东大学(威海) 数学与统计学院讲师. 2015 年获得山东大学(威海) 博士学位. 主要研究方向为图像处理.
+
+E-mail: zlouc@sdu.edu.cn
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUezDObibOmva6ZjT7YPN1J1PABEXPMoibqCW70qa00kjuAS2ST3VRgTGeA/0?wx_fmt=jpeg)
+
+贾大宇 山东大学(威海) 硕士研究生,2013 年获得哈尔滨工业大学学士学位.主要研究方向医学图像处理.
+
+E-mail: dayu\_jia1990@126.com
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeJsDphhe13qJic6lppPMlYe1zIcjVllrM7Y9o6ia0a3btKiaLUU32dC8Vw/0?wx_fmt=jpeg)
+
+董恩清 山东大学(威海) 教授. 2002 年于西安交通大学获得信息与通信工程专业博士学位. 主要研究方向包括无线通信技术, 无线传感器网络, 医学图像处理.本文通信作者.
+
+E-mail: enqdong@sdu.edu.cn
+
+欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUebSLGz1hpP6WibDPLMAd2MwpBdpUrjvRkOibPb8ZschhtG07FM3Jdqe6A/0?wx_fmt=jpeg)
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUenP4F0L8F21rwPWBmtJWpkLXXqoVibK77IPHa5KyvibeQTTic3wfR9MAFg/0?wx_fmt=jpeg)
+
+![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeiauOvP7NPYroWvlDiajVPfRt9jHSLNnVCa1HVgfTfZhkN3bxnxxEOqdA/0?wx_fmt=jpeg)

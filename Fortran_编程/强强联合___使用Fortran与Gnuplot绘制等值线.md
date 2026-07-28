@@ -17,7 +17,7 @@
 
 我们将从一个简单的例子开始，创建一个Fortran程序来计算二维空间中的函数值，并将结果保存到文件中以便供Gnuplot读取。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVp4MNU7e7gmsZBVzIG30lZyKaH1Oq9BkHzk9xQzq6qXoiaIGHhAsJ0hgwbgxIYloIyvJe84vL9ncA/640?wx_fmt=png&from=appmsg)
+![](强强联合___使用Fortran与Gnuplot绘制等值线_images/img_000_c3fee59cd8db.png)
 
   
 
@@ -31,7 +31,7 @@
 
 编译并运行程序，就会输出如下的网格点函数值文件`output.dat`。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVp4MNU7e7gmsZBVzIG30lZ2IPw9cRiaibJLL6zcpbZR4bG76khrqvTXc8iaAViagVBx819dhz10zFrrw/640?wx_fmt=png&from=appmsg)
+![](强强联合___使用Fortran与Gnuplot绘制等值线_images/img_001_0c7ee0ffe320.png)
 
   
 
@@ -45,7 +45,7 @@
 
 `set contour` 命令用于开启等值线绘图模式，`splot` 命令读取数据文件并绘制等值线。效果如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVp4MNU7e7gmsZBVzIG30lZ8l0oopux77kfhWgQzyibBPmNickeVVkiaOeIo3K4rcVoj7aDIJYSaWCWA/640?wx_fmt=png&from=appmsg)
+![](强强联合___使用Fortran与Gnuplot绘制等值线_images/img_002_a6c4ff769b62.png)
 
 因为我们所需要的只是在底部（x-y 平面）上绘制的等值线，不需要三维视图，所以让我们再次绘制它，输入如下命令：
 
@@ -53,7 +53,7 @@
 
 此时的效果如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVp4MNU7e7gmsZBVzIG30lZaA58HdvItRkkeZbjEvMHTnNUbMUfPz3YYYs1DQ6UJ9m8Wq8BOVP2eg/640?wx_fmt=png&from=appmsg)
+![](强强联合___使用Fortran与Gnuplot绘制等值线_images/img_003_ce8a1eb498a3.png)
 
 初见轮廓，我们还需要继续改进它。由于对很多数据每次都要输入Gnuplot命令很麻烦，所以准备一个命令脚本来执行会方便很多。我们创建一个名为`plot.lt`的文件，并输入以下内容：
 
@@ -71,7 +71,7 @@
 
 这样就得到了所需要的等值线图像文件 `contour.png` ，效果如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVp4MNU7e7gmsZBVzIG30lZsXQh7iaoNetPBhCH3icVZmUBcLltwVLhlV1oiccGZyug18WwnbAMzelOA/640?wx_fmt=jpeg)
+![](强强联合___使用Fortran与Gnuplot绘制等值线_images/img_004_50f6f98c8621.jpg)
 
   
 
@@ -85,7 +85,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](强强联合___使用Fortran与Gnuplot绘制等值线_images/img_005_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

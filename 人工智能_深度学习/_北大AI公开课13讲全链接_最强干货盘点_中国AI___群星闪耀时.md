@@ -7,7 +7,7 @@
   
 新智元
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/UicQ7HgWiaUb0jW7iczpx0MFJYxcibLusC9hjDMJRAUcQIVIsiaFVTicBIQia5yvf7Y9EydclSkSDMopVfe5bQYf3b0UA/640?wx_fmt=jpeg)
+![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_000_9a83f13a2cf9.jpg)
 
   
 
@@ -27,7 +27,7 @@
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz/UicQ7HgWiaUb1GNdLuPNMK8Mz5ukxeTwWExDbnS6Hr1JicPgZ9AlGJiagK9n98c23sHos09uyGV9zPDRROhA5hHbLg/0?wx_fmt=gif)
+![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_001_7019a1cf13c0.gif)
 
   
 
@@ -47,7 +47,7 @@
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/UicQ7HgWiaUb0VcPJjNyS4t0XvHQyvGNs08qMGicsOwttClognopZ8miajlEj3ibkL1HyOydXZM3WCsrgTpIO0vVCmg/0?)
+![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_002_6b48d8e58a55.png)
 
   
 
@@ -55,19 +55,19 @@
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_png/UicQ7HgWiaUb0jW7iczpx0MFJYxcibLusC9heboCopOia0CY6hIGAqSh1x7sX85K1zRzBibvMse7jakpOpjvCuqCtN9A/0?)
+![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_003_946a64aaf03d.png)
 
 **无论是在课堂上——**  
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_png/UicQ7HgWiaUb0jW7iczpx0MFJYxcibLusC9hicpshNvE7zObXaQGOV9MBPyLbZrbJIG16LOmTDhvicCER0sYSzM1WFRA/0?)
+![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_004_11ab6248b0e9.png)
 
 **还是线上——**
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_png/UicQ7HgWiaUb0jW7iczpx0MFJYxcibLusC9h6KCpaY82BYib57jf5ndTSPabMFrVa5sib2LC8D6yzDtBFqFtwReicaXtg/0?)
+![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_005_75c3c08ccaaf.png)
 
   
 
@@ -103,7 +103,7 @@
 
 **"如果我们进入到某种称为智能社会的社会，那么可能基于技能的重复性工作会被大量替代。创新有一定的失败率，但是投入其中的人越多，基数越大，社会发展就会越快。"**
 
-**![](http://mmbiz.qpic.cn/mmbiz_jpg/UicQ7HgWiaUb0jW7iczpx0MFJYxcibLusC9hsalQrBhKO3UiariapibN8h47BNB6H9dP6hcEzibT2c4lKQ69pG0nkyUPZg/0?)**
+**![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_006_dd2c7ea06d23.png)**
 
   
 
@@ -139,7 +139,7 @@
 
 **“（AI+ 现在涌现出的机会）相当于十几年前的互联网时代，几乎所有的行业都有崭新的需求。”**
 
-**![](http://mmbiz.qpic.cn/mmbiz_png/UicQ7HgWiaUb2qc3Cgg7ia3qcBrlIcyJbNYH9cS6P7srlb9pAbmr8j544p6FOw9flGNq86MW15ZNr2X7rGabwkkeA/0?)**
+**![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_007_7e622202146d.png)**
 
   
 
@@ -181,7 +181,7 @@
 
 **“我认为从现在开始，我们会看到从边缘开始的一种革命，正如从2012开始深度学习所引起的革命，一般来说，革命都是从边缘开始的。2012年4月我在西安一次会议上作了一个关于深度学习的讲座，那时深度学习还是一个处于边缘的课题，而如今已发展为风暴的中心。当今人工智能的计算大多数都在 BAT 的数据中心，在云上面，但我们会发现，有一个巨大的机会远离数据中心，在互联网的边缘。”**
 
-**![](http://mmbiz.qpic.cn/mmbiz_jpg/UicQ7HgWiaUb3dnyOUum6iaGIibbSD2Nns4DHX31tzMOZPsYqaRicwJUicQdVfXH55c7x5m9OMiabxYDx3hhu426iaoQ0g/0?)**
+**![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_008_f23277b196f0.png)**
 
   
 
@@ -217,7 +217,7 @@
 
 **“一个常识：做 AI 离不开场景。”**
 
-**![](http://mmbiz.qpic.cn/mmbiz_jpg/UicQ7HgWiaUb2rvEJd0oJH1sbb52fDamWHGls34icAXxS9ibjW7vriblEGza8e6crIsCjUa6ianHm4sFic7ibOVJulIJiaA/0?)**
+**![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_009_5de963aca396.png)**
 
   
 
@@ -249,7 +249,7 @@
 
 **“PC时代过后是移动时代，这两个时代都已经接近尾声，而人工智能时代大幕将启，芯片厂商们谁也不想失去未来。”**
 
-**![](http://mmbiz.qpic.cn/mmbiz_jpg/UicQ7HgWiaUb2MPLVibOcVeDpP1naqfVvyiakP8VD4T1a6Un28eAAI2hoeWkCxFUNC6nHBsOGTJUDfA3k5Ge4jyz0g/0?)**
+**![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_010_ef9ccd4c7254.png)**
 
   
 
@@ -291,7 +291,7 @@
 
 **“两年前IoT很火爆。当浪潮退去，很多IoT公司跟我们说， IoT是不是被吹出来的，不过只是一个个泡沫。我肯定是第一个不同意的......我们的产品全部都是2C的，所以只要产品做得好，用户的活跃度是相当高的。”**
 
-**![](http://mmbiz.qpic.cn/mmbiz_jpg/UicQ7HgWiaUb0VcPJjNyS4t0XvHQyvGNs0iaZ5XW4aiapHvNLkYSwbJMiaiamGn1vxVqQJek8ghSBiaSp5p6DHJE2q2tQ/0?)**
+**![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_011_794b5af44e5a.png)**
 
   
 
@@ -325,7 +325,7 @@
 
 **“生命本身是一个人工智能的学习程序。学习的核心是DNA。DNA程序蕴藏着所有的program和环境互动的结果，每一代都选择最优的程序往下迭代。所以，我们身体里的DNA可以追溯到生命的开始。DNA程序蕴藏过去的历史，也蕴藏着未来，因为未来环境还在变，这套程序已经是一个learning system。”**
 
-**![](http://mmbiz.qpic.cn/mmbiz_jpg/UicQ7HgWiaUb0ndHQm1Aoicc0lMnRoStGsiawnNeicSMRGXan1SAuHblPkjVY8IfhibshEQkmuhAo72ZeIzhowtN9rbw/0?)**
+**![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_012_3a58c8605e4a.png)**
 
   
 
@@ -367,7 +367,7 @@
 
 **“近些年，人工智能主要在特定领域内有很大的飞跃，包括语音识别、人脸识别。通用人工智能则有所不同，主要强调具备人一样的多重智能行为，包括感知、决策、推理与规划，以及交流和沟通。其中，我认为最重要的是学习能力。目前，很多人工智能的学习能力可能还不如两三岁的小孩。重要的学习能力主要包括：渐进学习、自主学习和交互式学习。渐进学习是指，在不断地学习新知识时，可以将老知识应用到新知识的学习中；自主学习是指，人从小所受的监督学习较少，更多的是与环境接触之后，不断自主学习；交互式学习是指，通过交流来学习。目前，这一些学习能力都是深度学习所欠缺的。”**
 
-**![](http://mmbiz.qpic.cn/mmbiz_jpg/UicQ7HgWiaUb0Q9icJf1OJj8ZDYu22K9otOTbbXuyibmziaLlsrABuOspfMLeDo9XEDrHgugoSO4YgfSHIcSf5SLjLw/0?)**
+**![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_013_6377baf2340a.png)**
 
   
 
@@ -403,7 +403,7 @@
 
 **“为什么自然语言理解很难？其本质原因是语言是一种复杂的现象。自然语言有5个重要特点，使得计算机实现自然语言处理很困难：（1）语言是不完全有规律的，规律是错综复杂的。有一定的规律，也有很多例外。因为语言是经过上万年的时间发明的，这一过程类似于建立维基百科。因此，一定会出现功能冗余、逻辑不一致等现象。但是语言依旧有一定的规律，若不遵循一定的规范，交流会比较困难；（2）语言是可以组合的。语言的重要特点是能够将词语组合起来形成句子，能够组成复杂的语言表达；（3）语言是一个开放的集合。我们可以任意地发明创造一些新的表达。比如，微信中“潜水”的表达就是一种比喻。一旦形成之后，大家都会使用，形成固定说法。语言本质的发明创造就是通过比喻扩展出来的；（4）语言需要联系到实践知识；（5）语言的使用要基于环境。在人与人之间的互动中被使用。如果在外语的语言环境里去学习外语，人们就会学习得非常快，理解得非常深。”**
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/UicQ7HgWiaUb0jW7iczpx0MFJYxcibLusC9hIm6IZ3TTjZ7iarGLd88Bt7WzAYIbbzrKkQS1zDENZ3l0yb9Xh8VTDag/0?)
+![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_014_3d57fd7ddbc1.png)
 
   
 
@@ -453,7 +453,7 @@
 
 **“1956年，美国达特茅斯会议提出“人工智能”的概念，自然宇宙中产生人类智能，数字宇宙中产生人工智能。这一会议有两个重要的遗产：提出AI这一名词，以及参加人工智能的那群人。后来，这一群人中，产生4个图灵奖得主，1个诺贝尔奖得主。这一群人在2016年之前，基本都已经去世。有意思的是，在60年后，也就是2016年，人工智能在产业上得到了真正的发展。”**
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/UicQ7HgWiaUb0hELpuZQRfBicaUDTUCdPnMt226UtKMEFuf2K4gqiaBvrEOtUDSYQliaQ598PHQmUo1j5ibc0LDqu2yA/0?)
+![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_015_96d70463c168.png)
 
   
 
@@ -492,7 +492,7 @@
 
 **“滴滴是12年成立的，先是有出租车，后来到14年有专车，然后15年之后有了快车顺风车公交等等。现在每天订单超过2000万单。所以你要是做人工智能做机器学习，那这个样本量就一天是2000万，这是特别大的数据。现在这个平台上有4亿用户。”**
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/UicQ7HgWiaUb2GjJoNsq5NSuRyEsicLibp76YwyDajP8yytK1NtTyKaiaaVMw6KI3NjC7cC80hPjZHz4ic8ow9rYm3LA/640?wx_fmt=jpeg)
+![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_016_f00b1c0d5ea9.jpg)
 
   
 
@@ -536,7 +536,7 @@
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/UicQ7HgWiaUb2psv3zWgTre6W9Sg5iasSH8feRXN3iaGEeYfRia9oGKoapd2hxPV0qwEtEzjXALdD54nQy9NJ5Hdz8A/0?)
+![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_017_67453528066b.png)
 
   
 
@@ -572,7 +572,7 @@ IBM谢国彤：认知医疗，个性化、循症的智慧医疗
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/UicQ7HgWiaUb0pKSVKfeQw9ArYHEibrJy0nLBsbVVuOUO8lIAGMjpfbW6NHgfsFGM3ib4NZTy5ia7jRRiaGYHImQx9tA/0?)
+![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_018_19daded32cf4.png)
 
   
 
@@ -632,7 +632,7 @@ IBM谢国彤：认知医疗，个性化、循症的智慧医疗
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/UicQ7HgWiaUb39jSHTTCz2qaibtNMucibKboFXWr81WHRTMbiaPCqOwt6buCTgu6FdsdvIl2GD4yuWDJbic6Ke6qyXbg/640?wx_fmt=jpeg)
+![](_北大AI公开课13讲全链接_最强干货盘点_中国AI___群星闪耀时_images/img_019_1782b24d4f5c.jpg)
 
   
 

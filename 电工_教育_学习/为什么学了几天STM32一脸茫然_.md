@@ -1,0 +1,101 @@
+# 为什么学了几天STM32一脸茫然？
+
+原创 硬件笔记本 2022-12-23 07:30 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/Bog19xO70-JWzuDairy7cQ](https://mp.weixin.qq.com/s/Bog19xO70-JWzuDairy7cQ)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+如果在之前没接触过任何单片机，那可能是以下两个原因：
+
+-   MCU的基础知识理解的缺失
+    
+-   不清楚STM32单片机的具体工作原理
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa88MfTNdwFvbZOCJNs1x4wDC1s6HZe9S2S9JF1CXWNR1vYj43NxbOhfw/640?wx_fmt=png)
+
+按照整个学习阶段先后顺序的说明，下文从三方面来说明问题。
+
+**1 单片机基础知识点**
+
+对于MCU来说，在没有接触具体的功能，仅专用名词就一堆，交叉编译，内核，加法器/除法器、协处理器、算法加速器、指令集、浮点运算、流水线、哈佛结构、寄存器(通用和外设)、时钟、中断和异常、FLASH、RAM、Cache(缓存)、SDRAM(刷新时间)、USART(波特率，停止位，奇偶检验)、CAN，SPI(片选)和I2C等。  
+
+对STM32 MCU理论知识的学习和理解很重要，以下是入门一款单片机的学习路线仅供参考。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhu0Do2acKv7PjCMDnlPxa8S7gR8aQqQ1jOFkDbuNicZswtyak4P2jdfHKYBBeicLD82JibDO3Gy54vg/640?wx_fmt=png)
+
+这里说我的学习方法：遇到听不懂的专业术语，去网络上查找理解，并找个本子或电脑通过文档的形式记录下，一段时间回顾一下，好记性不如烂笔头。
+
+  
+
+**2 STM32工作流程**
+
+专业术语并不会多难，记住基本不会忘，就算忘了回顾下也简单，在迈过这个坎后，下一步就是理解芯片执行流程和我们要做什么才能让芯片工作起来。
+
+  
+
+-   在上电后，芯片复位启动。
+    
+-   MCU从FLASH通过指令/数据总线分别读取指令和数据，配合解析执行，其中在通过RAM和通用寄存器(也就是R0~R12的内部寄存器)处理可变数据。
+    
+-   根据执行的指令，配置和操作外设的的寄存器，从而驱动对应外设实现具体的功能。
+    
+-   配合上层组合逻辑，结合外设功能，执行具体应用的全部需求。
+    
+
+  
+
+上述就是芯片工作的流程，而作为单片机开发者，实现的代码就是放在FLASH中的程序，由官方提供的SDK包和用户裁剪实现定义的外设驱动组成，按照上述流程就包含:
+
+-   芯片的启动过程中对堆栈的初始化
+    
+-   系统相关外设的处理(如时钟) => 这部分由厂商提供，我们把文件放入项目即可，以STM32为例就是启动文件startup\_xxx.s和系统初始化的SystemInit函数  
+    
+-   配置应用需要的外设模块，如果你看网上的教学视频，都是从这一步直接开始的，特别是STM32基于STM32CubeMx的实现，会告诉你这么写是满足要求的  
+    
+
+  
+
+如果你不是愿意深究的人倒也无所谓，当你深究这东西的时候，就会发现没有人告诉为什么要这么写，迷惑自然就来了，其实这部分就是嵌入式所谓的经验成分。
+
+如大部分外设模块都要进行时钟使能，GPIO就要配置引脚的上拉/下拉，推挽/开漏，USART配置模式，波特率，奇偶校验，停止位，数据位，还要考虑对应GPIO的端口复用，I2C就要考虑主从模式，根据需要的传输速率确定模块时钟，SDRAM除了考虑引脚复用，时序，还要计算刷新时间来保证数据的稳定，这些知识理论上都是长期在工作中积累出来的。
+
+在项目需求确定后，根据芯片和器件选型，就能够确定硬件PCB的绘图和布置，功能需求也能确定，如访问外部EPPROM，那么I2C就确定为主模式，并根据EPPROM的读写时序和芯片的性能，考虑到效率和稳定的平衡，就可以确定I2C的速率，考虑布局和其它需求，I2C对应的复用引脚也能确定。  
+
+事实上，对于真实项目，都是从需求=>项目计划书=>软硬件框架=>软件驱动
+
+  
+
+**3 上层应用逻辑实现**
+
+配合外设的应用逻辑实现其实才是项目中最复杂的部分，包含中断前后台系统的交互，可能存在RTOS应用和协议移植，GUI的管理操作，和其它模块如wifi模块，蓝牙模块的交互，不过这部分属于进阶内容，当你对外设模块有一定认知后，这部分应该也会有自己的学习方法，这里我就不在赘述。  
+
+这只是我对单片机问题关于自己理解的总结，单片机虽然并不需要创新研发未知的技术，但却涉及从芯片底层到软件接口的全部实现，包含对现代计算机技术中向微处理器方向的全部精华技术，也是需要不断学习才能不被时代抛弃。  
+
+先从STM32理论知识入手，拿实例代码在实验板验证，来加深对外设、协议等理论知识的理解。过程可能很慢，但是基础知识肯定会打的很扎实，相信对后面开发会有很大的帮助。
+
+## 
+
+**声明：**
+
+  
+
+声明：本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+  
+
+**推荐阅读▼**
+
+-   [硬件精选文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2531417028063166464#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

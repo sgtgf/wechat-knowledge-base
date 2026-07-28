@@ -3,13 +3,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/3bMbIAcuwvsnEyrAPBsFqA](https://mp.weixin.qq.com/s/3bMbIAcuwvsnEyrAPBsFqA)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/VIM0SmWQpWvsQIEAS5b228jQGB4FurcBibs2iaubicTaW5IkOa3r4XpLaPyzmen89DAcSJr1ObOucT9iceic0xehFcg/640?&random=0.7208003402280347&random=0.16634114621985852&random=0.8658017081419105&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](深入探讨C与C___编程世界的两大基石_images/img_000_4dad871496ad.png)
 
 点击上方「蓝字」关注我们
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2MhiaCtgicxW6hVicfNzL5yE9b4tViaWuriaVsWhgzqbAxD0eIYhziaLtLI1uwLENGob23fQJEVe1M77eMPRP8yNHrKQ/640?&random=0.5083455645781676&random=0.6902606942797083&random=0.5006165306553911&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](深入探讨C与C___编程世界的两大基石_images/img_001_005d062c5178.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/eRETdLuoXm3uJFHWO6IoyqqeXNLNAMFzkdPeGPnnC3QJp1Ta1EeVUibeCgUpEpnUiaUaOR9Mqt1eQIoJFVXk4j7Q/640?wx_fmt=png&from=appmsg)
+![图片](深入探讨C与C___编程世界的两大基石_images/img_002_44d4fb7b02e7.png)
 
 ## 引言
 

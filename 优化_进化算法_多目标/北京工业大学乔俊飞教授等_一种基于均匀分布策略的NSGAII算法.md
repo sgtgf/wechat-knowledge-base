@@ -18,25 +18,25 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45QpGvsOHl7ib6tCv5fbE7ibtI0l5fMQiaZ0Y0L8gQLIrnbU8ufpibZCv0pskB3viaGiaMYkPReeRF5bNJg/640?wx_fmt=png)
+![](北京工业大学乔俊飞教授等_一种基于均匀分布策略的NSGAII算法_images/img_000_8ed0c4e53dc6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45QpGvsOHl7ib6tCv5fbE7ibtXlsLZcKL4YPSOugTIgnTohaUmpb7N6ZeofTcW8NR5gwhUvI6Hz6RIQ/640?wx_fmt=png)
+![](北京工业大学乔俊飞教授等_一种基于均匀分布策略的NSGAII算法_images/img_001_d46a6f987d9a.png)
 
         ZDT2优化效果                   ZDT4优化效果
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45QpGvsOHl7ib6tCv5fbE7ibtSIwU3QP5eYxibiaXl6bZXibMwGjCU7vUiccxPy8EpPTyt8pD9oYTk8dSyA/640?wx_fmt=png)
+![](北京工业大学乔俊飞教授等_一种基于均匀分布策略的NSGAII算法_images/img_002_eeacc10bce2c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45QpGvsOHl7ib6tCv5fbE7ibtzLJV89OkWcY0HDhJcK6uL8hPicU4Yia5guUz1sLYQmA8EOorUbmDXXsw/640?wx_fmt=png)
+![](北京工业大学乔俊飞教授等_一种基于均匀分布策略的NSGAII算法_images/img_003_1ccbe0df984f.png)
 
          ZDT3优化效果图             ZDT6优化效果
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45QpGvsOHl7ib6tCv5fbE7ibtwFcuIwuBDkfgMDahMQibMicpZbVNfMCPbagFTjmPVOn0Bt750RGu66vw/640?wx_fmt=png)
+![](北京工业大学乔俊飞教授等_一种基于均匀分布策略的NSGAII算法_images/img_004_0f6044cf141c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45QpGvsOHl7ib6tCv5fbE7ibtHlXrJSUwClJ9n66s9LcSosciaFEmUpYI4wWwffVUkVRcgNebQFCicQicw/640?wx_fmt=png)
+![](北京工业大学乔俊飞教授等_一种基于均匀分布策略的NSGAII算法_images/img_005_71b70b303ad5.png)
 
      DTLZ7优化效果图              DTLZ2优化效果图
 
@@ -52,19 +52,19 @@
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45QpGvsOHl7ib6tCv5fbE7ibtY3eFJx5tk5tJy6UfKzd6icFLuvTHooiazcoqZtSypQPFdBAqzWDwdT6g/640?wx_fmt=png)
+![](北京工业大学乔俊飞教授等_一种基于均匀分布策略的NSGAII算法_images/img_006_9685d3c9292e.png)
 
 乔俊飞 北京工业大学教授, 主要研究方向为智能控制, 神经网络分析与设计。
 
 E-mail: junfeq@bjut.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45QpGvsOHl7ib6tCv5fbE7ibt4OyoHzMFCmiamiaaGjCLSWg86rS95hQGpAXU6iak2BGaKgeyzeZTM0SDg/640?wx_fmt=png)
+![](北京工业大学乔俊飞教授等_一种基于均匀分布策略的NSGAII算法_images/img_007_f5d53cd34fef.png)
 
 李霏 北京工业大学博士研究生, 主要研究方向为智能控制、多目标优化、神经网络结构设计和优化。
 
 E-mail: lfglw521@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45QpGvsOHl7ib6tCv5fbE7ibtRBQTlTJW7aVwNyWzfmBAXyiaAErkqlXtVGVl9Kyy2fkkGiaXib2ySb3Ng/640?wx_fmt=png)
+![](北京工业大学乔俊飞教授等_一种基于均匀分布策略的NSGAII算法_images/img_008_2ff623222add.png)
 
 杨翠丽 北京工业大学讲师. 主要研究方向为神经网络和智能优化算法。
 
@@ -162,21 +162,21 @@ Email: clyang5@bjut.edu.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45QpGvsOHl7ib6tCv5fbE7ibtXyiaMXPAJzj5gnOYXKscOsMMMDvamy1GzficyXibhMqO0bhCB7sX6OTsA/640?wx_fmt=png)
+![](北京工业大学乔俊飞教授等_一种基于均匀分布策略的NSGAII算法_images/img_009_0b79277b20e3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45QpGvsOHl7ib6tCv5fbE7ibt66Yia6liaaibBrgXOoPCGkaia42QYU5vPziceWJ0icVoCyyljicaOIFtlic0hg/640?wx_fmt=jpeg)
+![](北京工业大学乔俊飞教授等_一种基于均匀分布策略的NSGAII算法_images/img_010_ba319ef98d99.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45QpGvsOHl7ib6tCv5fbE7ibtXyiaMXPAJzj5gnOYXKscOsMMMDvamy1GzficyXibhMqO0bhCB7sX6OTsA/640?wx_fmt=png)
+![](北京工业大学乔俊飞教授等_一种基于均匀分布策略的NSGAII算法_images/img_011_0b79277b20e3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45QpGvsOHl7ib6tCv5fbE7ibtNo2bChc3yic3PGWAtEvMvXvggljet4VUqlvLeJL4Fxic7BFWLmfI7u8w/640?wx_fmt=jpeg)
+![](北京工业大学乔俊飞教授等_一种基于均匀分布策略的NSGAII算法_images/img_012_0cbb8c131343.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45QpGvsOHl7ib6tCv5fbE7ibtXyiaMXPAJzj5gnOYXKscOsMMMDvamy1GzficyXibhMqO0bhCB7sX6OTsA/640?wx_fmt=png)
+![](北京工业大学乔俊飞教授等_一种基于均匀分布策略的NSGAII算法_images/img_013_0b79277b20e3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45QpGvsOHl7ib6tCv5fbE7ibtwzCFIKjeibnGqeiaLUqbYEiaMjhXTTBYRy7VgAAdcZYZwKqE9h7icukOIQ/640?wx_fmt=jpeg)
+![](北京工业大学乔俊飞教授等_一种基于均匀分布策略的NSGAII算法_images/img_014_ca801ad8a939.jpg)
 
 自动化学报订阅号
 

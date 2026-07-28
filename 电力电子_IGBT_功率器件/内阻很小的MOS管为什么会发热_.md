@@ -1,0 +1,326 @@
+# 内阻很小的MOS管为什么会发热？
+
+原创 硬件笔记本 2024-04-27 11:38 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/MTvj6qIaO5khvjhzKiwY7Q](https://mp.weixin.qq.com/s/MTvj6qIaO5khvjhzKiwY7Q)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+Source、Drain、Gate分别对应场效应管的三极：源极S、漏极D、栅极G（里这不讲栅极GOX击穿，只针对漏极电压击穿）。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/iaLLibsB5S6FNvOMHh1nLfCpB5chrImnA4j7P0ELSAzxNfibrBt2vBrvkCg0mdWQ03K0cbhLoKLJaibKaTN0IhWnUw/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+
+  
+
+1
+
+**MOSFET的击穿有哪几种？**
+
+  
+
+先讲测试条件，都是源栅衬底都是接地，然后扫描漏极电压，直至Drain端电流达到1uA。所以从器件结构上看，**它的漏电通道有三条：Drain到source、Drain到Bulk、Drain到Gate。**
+
+  
+
+**1、 Drain-》Source穿通击穿**
+
+  
+
+**这个主要是Drain加反偏电压后，使得Drain/Bulk的PN结耗尽区延展，当耗尽区碰到Source的时候，那源漏之间就不需要开启就形成了 通路，所以叫做穿通（punch through）。**
+
+  
+
+那如何防止穿通呢？这就要回到二极管反偏特性了，耗尽区宽度除了与电压有关，还与两边的掺杂浓度有关，浓度越高可以抑制耗尽区宽度延展，所以flow里面有个防穿通注入（APT：AnTI Punch Through），记住它要打和well同type的specis。
+
+  
+
+当然实际遇到WAT的BV跑了而且确定是从Source端走了，可能还要看是否 PolyCD或者Spacer宽度，或者LDD\_IMP问题了。
+
+  
+
+那如何排除呢？这就要看你是否NMOS和PMOS都跑了？POLY CD可以通过Poly相关的WAT来验证。
+
+  
+
+**对于穿通击穿，有以下一些特征：**
+
+  
+
+**（1）穿通击穿的击穿点软，**击穿过程中，电流有逐步增大的特征，这是因为耗尽层扩展较宽，产生电流较大。
+
+  
+
+另一方面，耗尽层展宽大容易发生DIBL效应，使源衬底结正偏出现电流逐步增大的特征。
+
+  
+
+**（2）穿通击穿的软击穿点发生在源漏的耗尽层相接时，**此时源端的载流子注入到耗尽层中，被耗尽层中的电场加速达到漏端。
+
+  
+
+因此，穿通击穿的电流也有急剧增大点，这个电流的急剧增大和雪崩击穿时电流急剧增大不同，这时的电流相当于源衬底PN结正向导通时的电流，而雪崩击穿时的电流主要为PN结反向击穿时的雪崩电流，如不作限流，雪崩击穿的电流要大。
+
+  
+
+（**3）穿通击穿一般不会出现破坏性击穿。**因为穿通击穿场强没有达到雪崩击穿的场强，不会产生大量电子空穴对。
+
+  
+
+**（4）穿通击穿一般发生在沟道体内，**沟道表面不容易发生穿通，这主要是由于沟道注入使表面浓度比浓度大造成，所以，对NMOS管一般都有防穿通注入。
+
+  
+
+**（5）**一般的，鸟嘴边缘的浓度比沟道中间浓度大，**所以穿通击穿一般发生在沟道中间。**
+
+  
+
+**（6）多晶栅长度对穿通击穿是有影响的，**随着栅长度增加，击穿增大。而对雪崩击穿，严格来说也有影响，但是没有那么显著。
+
+  
+
+**2、 Drain-》Bulk雪崩击穿**
+
+  
+
+这就单纯是PN结雪崩击穿了（avalanche Breakdown），主要是漏极反偏电压下使得PN结耗尽区展宽，则反偏电场加在了PN结反偏上面，使得电子加速撞击晶格产生新的电子空穴对 （Electron-Hole pair），然后电子继续撞击，如此雪崩倍增下去导致击穿，**所以这种击穿的电流几乎快速增大，I-V curve几乎垂直上去，很容烧毁的。**（这点和源漏穿通击穿不一样）
+
+  
+
+那如何改善这个juncTIon BV呢？所以主要还是从PN结本身特性讲起，肯定要降低耗尽区电场，防止碰撞产生电子空穴对，降低电压肯定不行，那就只能增加耗尽区宽度了，所以要改变 doping profile了，这就是为什么突变结（Abrupt juncTIon）的击穿电压比缓变结（Graded JuncTIon）的低。
+
+  
+
+当然除了doping profile，还有就是doping浓度，浓度越大，耗尽区宽度越窄，**所以电场强度越强，那肯定就降低击穿电压了。**而且还有个规律是击穿电压通常是由低 浓度的那边浓度影响更大，因为那边的耗尽区宽度大。
+
+  
+
+公式是BV=K\*（1/Na+1/Nb），从公式里也可以看出Na和Nb浓度如果差10倍，几乎其中一 个就可以忽略了。
+
+  
+
+那实际的process如果发现BV变小，并且确认是从junction走的，那好好查查你的Source/Drain implant了。
+
+  
+
+**3、 Drain-》Gate击穿**
+
+  
+
+这个主要是Drain和Gate之间的Overlap导致的栅极氧化层击穿，这个有点类似GOX击穿了，当然它更像 Poly finger的GOX击穿了，所以他可能更care poly profile以及sidewall damage了。**当然这个Overlap还有个问题就是GIDL，这个也会贡献Leakage使得BV降低。**
+
+  
+
+上面讲的就是MOSFET的击穿的三个通道，通常BV的case以前两种居多。
+
+  
+
+上面讲的都是Off-state下的击穿，也就是Gate为0V的时候，但是有的时候Gate开启下Drain加电压过高也会导致击穿的，我们称之为 On-state击穿。
+
+  
+
+这种情况尤其喜欢发生在Gate较低电压时，或者管子刚刚开启时，而且几乎都是NMOS。**所以我们通常WAT也会测试BVON。**
+
+  
+
+2
+
+**如何处理mos管小电流发热严重情况？**
+
+mos管，做电源设计，或者做驱动方面的电路，难免要用到MOS管。MOS管有很多种类，也有很多作用。**做电源或者驱动的使用，当然就是用它的开关作用。**
+
+  
+
+**无论N型或者P型MOS管，其工作原理本质是一样的。**MOS管是由加在输入端栅极的电压来控制输出端漏极的电流。
+
+  
+
+MOS管是压控器件它通过加在栅极上的电压控制器件的特性，不会发生像三极管做开关时的因基极电流引起的电荷存储效应，因此在开关应用中，MOS管的开关速度应该比三极管快。
+
+  
+
+我们经常看MOS管的PDF参数，MOS管制造商采用RDS（ON）参数来定义导通阻抗，对开关应用来说，RDS（ON）也是最重要的器件特性。
+
+  
+
+数据手册定义RDS（ON）与栅极（或驱动）电压VGS以及流经开关的电流有关，但对于充分的栅极驱动，RDS（ON）是一个相对静态参数。一直处于导通的MOS管很容易发热。**另外，慢慢升高的结温也会导致RDS（ON）的增加。**
+
+  
+
+MOS管数据手册规定了热阻抗参数，其定义为MOS管封装的半导体结散热能力。RθJC的最简单的定义是结到管壳的热阻抗。
+
+  
+
+**1、mos管小电流发热的原因：**
+
+  
+
+**1）电路设计的问题：**就是让MOS管工作在线性的工作状态，而不是在开关状态，这也是导致MOS管发热的一个原因。
+
+  
+
+如果N-MOS做开关，G级电压要比电源高几V，才能完全导通，P-MOS则相反。没有完全打开而压降过大造成功率消耗，等效直流阻抗比较大，压降增大，所以U\*I也增大，损耗就意味着发热。**这是设计电路的最忌讳的错误。**
+
+  
+
+**2）频率太高：**主要是有时过分追求体积，导致频率提高，MOS管上的损耗增大了，所以发热也加大了。
+
+  
+
+**3）没有做好足够的散热设计：**电流太高，MOS管标称的电流值，一般需要良好的散热才能达到。所以ID小于最大电流，也可能发热严重，需要足够的辅助散热片。
+
+  
+
+**4）MOS管的选型有误：**对功率判断有误，MOS管内阻没有充分考虑，导致开关阻抗增大。
+
+  
+
+**2、mos管小电流发热严重怎么解决：**
+
+  
+
+-   0做好MOS管的散热设计，添加足够多的辅助散热片。
+    
+-   贴散热胶。
+    
+
+  
+
+3
+
+**MOS管为什么可以防止电源反接？**
+
+  
+
+**电源反接，会给电路造成损坏，不过，电源反接是不可避免的。**所以，我们就需要给电路中加入保护电路，达到即使接反电源，也不会损坏的目的。
+
+  
+
+一般可以使用在电源的正极串入一个二极管解决，**不过，由于二极管有压降，会给电路造成不必要的损耗，**尤其是电池供电场合，本来电池电压就3.7V，你就用二极管降了0.6V，使得电池使用时间大减。
+
+  
+
+**MOS管防反接，好处就是压降小，小到几乎可以忽略不计。**现在的MOS管可以做到几个毫欧的内阻，假设是6.5毫欧，通过的电流为1A（这个电流已经很大了），在他上面的压降只有6.5毫伏。
+
+由于MOS管越来越便宜，所以人们逐渐开始使用MOS管防电源反接了。
+
+  
+
+**1）NMOS管防止电源反接电路：**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhM6963JFZIIu50ibAVxqXic0MzTMmGRruicLc1JXysWKnDPaVicTV91dCcbJAgEvkb6ehY1qZz54kfcg/640?wx_fmt=jpeg)
+
+-   正确连接时：
+    
+    刚上电，MOS管的寄生二极管导通，所以S的电位大概就是0.6V，而G极的电位，是VBAT，VBAT-0.6V大于UGS的阀值开启电压，MOS管的DS就会导通，由于内阻很小，所以就把寄生二极管短路了，压降几乎为0。
+    
+
+  
+
+-   电源接反时：
+    
+    UGS=0，MOS管不会导通，和负载的回路就是断的，从而保证电路安全。
+    
+
+  
+
+**2）PMOS管防止电源反接电路：**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhM6963JFZIIu50ibAVxqXic0aKOs4ybYqcVCicKQsJEiaS8ibDicr2Viaw7EIWJ5fiaF8vwljibnYZ9V1JlOA/640?wx_fmt=jpeg)
+
+-   正确连接时：
+    
+    刚上电，MOS管的寄生二极管导通，电源与负载形成回路，所以S极电位就是VBAT-0.6V，而G极电位是0V，PMOS管导通，从D流向S的电流把二极管短路。
+    
+
+  
+
+-   电源接反时：
+    
+    G极是高电平，PMOS管不导通。保护电路安全。
+    
+
+  
+
+**连接技巧：**NMOS管DS串到负极，PMOS管DS串到正极，让寄生二极管方向朝向正确连接的电流方向。
+
+  
+
+**感觉DS流向是“反”的？**仔细的朋友会发现，防反接电路中，DS的电流流向，和我们平时使用的电流方向是反的。
+
+**为什么要接成反的****？**利用寄生二极管的导通作用，在刚上电时，使得UGS满足阀值要求。
+
+**为什么可以接成反的？**如果是三极管，NPN的电流方向只能是C到E，PNP的电流方向只能是E到C。不过，MOS管的D和S是可以互换的，这也是三极管和MOS管的区别之一。
+
+  
+
+4
+
+**MOS管功率损耗测量**
+
+MOSFET/IGBT的开关损耗测试是电源调试中非常关键的环节，但很多工程师对开关损耗的测量还停留在人工计算的感性认知上，PFC MOSFET的开关损耗更是只能依据口口相传的经验反复摸索，那么该如何量化评估呢?
+
+  
+
+**1、功率损耗的原理图和实测图**
+
+一般来说，开关管工作的功率损耗原理图如图 1所示，主要的能量损耗体现在“导通过程”和“关闭过程”，小部分能量体现在“导通状态”，而关闭状态的损耗很小几乎为0，可以忽略不计。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhM6963JFZIIu50ibAVxqXic0qfGX6lxPn4Liaku2CRtHQjOHwAbH2FgZvI4md75Z4zcDm6btCcXoDqw/640?wx_fmt=png)
+
+  
+
+实际的测量波形图一般如图 2所示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhM6963JFZIIu50ibAVxqXic0RaKN6MibFTRLbTEuDziar8JHxQ2fhKqNCU6RDrbJg8yPwFcZTN4WrspA/640?wx_fmt=png)
+
+  
+
+图2 开关管实际功率损耗测试
+
+  
+
+  
+
+  
+
+**2、MOSFET和PFC MOSFET的测试区别**
+
+对于普通MOS管来说，不同周期的电压和电流波形几乎完全相同，因此整体功率损耗只需要任意测量一个周期即可。  
+
+  
+
+**但对于PFC MOS管来说，不同周期的电压和电流波形都不相同**，因此功率损耗的准确评估依赖较长时间(一般大于10ms)，较高采样率(推荐1G采样率)的波形捕获，此时需要的存储深度推荐在10M以上，并且要求所有原始数据(不能抽样)都要参与功率损耗计算，实测截图如图 3所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhM6963JFZIIu50ibAVxqXic0rduvgmsY8KnXiatxcMcTlSt4ISRia3ic0w8TvopJ8qs8D7HYhR36JD9EQ/640?wx_fmt=jpeg)
+
+  
+
+现在搞懂完如何处理MOS管小电流发热问题了吧，希望今天的分享能帮助到大家~
+
+-   ## 
+    
+    **声明：**
+    
+      
+    
+    声明：文章来源EDA365。本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+    
+    ## 
+    
+    投稿/招聘/推广/宣传 请加微信：woniu26a
+    
+    **推荐阅读▼**
+    
+
+-   [电路设计-电路分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2811359150088683521#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+[后台回复“加群”，管理员拉你加入同行技术交流群](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)

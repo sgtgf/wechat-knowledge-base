@@ -50,7 +50,7 @@
 
 通过上述步骤，你可以更有条理地深入理解长篇的Fortran代码。记住，读懂复杂代码是一个逐步深入的过程，需要时间和耐心。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWK6vESWkuOvMuK4ynnA5RWHF4Zgs4dsFA6FxZxhQnjOE5hM3ziaofLGwB2ibMoO5vOibmlIysMVP3tg/640?wx_fmt=jpeg&from=appmsg)
+![](如何读懂很长的Fortran代码__images/img_000_0b728315370e.jpg)
 
 如果是历史遗留代码，自己在读懂之后还想做重构，可以参考以下文章
 

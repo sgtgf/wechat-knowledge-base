@@ -5,15 +5,15 @@
 
 **如何用Beamer写答辩报告**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/RyQtNConrQLuibdicLCeURTgukeJ4Ohqudl5OI0D0xeJFv28iaZfHyphr6zsib1MQp1lfgxE7EGXXiblaFem7IEONIw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_000_a1e7973c0358.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/RyQtNConrQLuibdicLCeURTgukeJ4OhqudicU9faJjzFvnzo6FjWugJRyO78ibYoPLp9QZEg9py8393QC0iaIMt1RLg/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_001_2bb8b2a838bd.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWBHLVdYeBeiazTpGxswRKONOa9zpSw522ZXdcnO3skIsOLoCzQYmQzDA/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_002_6ff9c28bec0a.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/RyQtNConrQLuibdicLCeURTgukeJ4Ohqudl5OI0D0xeJFv28iaZfHyphr6zsib1MQp1lfgxE7EGXXiblaFem7IEONIw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_003_a1e7973c0358.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/RyQtNConrQLuibdicLCeURTgukeJ4OhqudicU9faJjzFvnzo6FjWugJRyO78ibYoPLp9QZEg9py8393QC0iaIMt1RLg/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_004_2bb8b2a838bd.png)
 
 **目录**
 
@@ -25,7 +25,7 @@
 
 春
 
-![](https://mmbiz.qpic.cn/mmbiz_png/azPxYnp6TA2ibP8W318yUbdvxF0B1k6kcySEYpPwpvtXB73ibCicdUmuH0jhWsYun8JmuLw66t8dGlUWjmvOvFnBQ/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_005_3a3ac37c1194.png)
 
 全程概要
 
@@ -49,11 +49,11 @@
 
 要
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p4hYM0n6exxQC3FdbgZHDXOreCUibAb2133QLeboGgicb07KFew5f1fu1HbdS6yWcznvwk79mFT5HYQYuZN8Fosw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_006_c3110f83f505.png)
 
 **我们毕业啦**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/azPxYnp6TA2ibP8W318yUbdvxF0B1k6kcySEYpPwpvtXB73ibCicdUmuH0jhWsYun8JmuLw66t8dGlUWjmvOvFnBQ/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_007_3a3ac37c1194.png)
 
 不
 
@@ -65,7 +65,7 @@
 
 Latex中的beamer专门用于制作科研汇报幻灯片，许多学术汇报需要它，论文答辩也常见它的身影，以下是它与传统ppt文档的对比：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWPTTU7XibChdyf0YrKl8puMft4HNuvj4XJ2cqINsWUUjHkGJ7SxcnOWA/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_008_20b1a4965151.png)
 
 由此可见，虽然beamer需要掌握latex语言，需要编程来生成文档，上手比起不需要编程的传统ppt更为困难，但是熟练后无需担心格式，可以专注于内容写作，反之，传统ppt在写完内容后仍需调整格式，使写作更为麻烦。
 
@@ -95,13 +95,13 @@ Latex中的beamer专门用于制作科研汇报幻灯片，许多学术汇报需
 
 令
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p4hYM0n6exxQC3FdbgZHDXOreCUibAb2133QLeboGgicb07KFew5f1fu1HbdS6yWcznvwk79mFT5HYQYuZN8Fosw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_009_c3110f83f505.png)
 
 1
 
 **创建新章节**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p4hYM0n6exxQC3FdbgZHDXOreCUibAb2133QLeboGgicb07KFew5f1fu1HbdS6yWcznvwk79mFT5HYQYuZN8Fosw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_010_c3110f83f505.png)
 
 语句： \\section{}
 
@@ -127,15 +127,15 @@ Latex中的beamer专门用于制作科研汇报幻灯片，许多学术汇报需
 
 \\subsection{一方强势}
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/RyQtNConrQLuibdicLCeURTgukeJ4Ohqudl5OI0D0xeJFv28iaZfHyphr6zsib1MQp1lfgxE7EGXXiblaFem7IEONIw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_011_a1e7973c0358.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/RyQtNConrQLuibdicLCeURTgukeJ4OhqudicU9faJjzFvnzo6FjWugJRyO78ibYoPLp9QZEg9py8393QC0iaIMt1RLg/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_012_2bb8b2a838bd.png)
 
 2
 
 **创建新页**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p4hYM0n6exxQC3FdbgZHDXOreCUibAb2133QLeboGgicb07KFew5f1fu1HbdS6yWcznvwk79mFT5HYQYuZN8Fosw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_013_c3110f83f505.png)
 
 语句：  
 \\begin{frame}{}
@@ -158,15 +158,15 @@ Latex中的beamer专门用于制作科研汇报幻灯片，许多学术汇报需
 
 \\end{frame}
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/RyQtNConrQLuibdicLCeURTgukeJ4Ohqudl5OI0D0xeJFv28iaZfHyphr6zsib1MQp1lfgxE7EGXXiblaFem7IEONIw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_014_a1e7973c0358.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/RyQtNConrQLuibdicLCeURTgukeJ4OhqudicU9faJjzFvnzo6FjWugJRyO78ibYoPLp9QZEg9py8393QC0iaIMt1RLg/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_015_2bb8b2a838bd.png)
 
 3
 
 **创建编号**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p4hYM0n6exxQC3FdbgZHDXOreCUibAb2133QLeboGgicb07KFew5f1fu1HbdS6yWcznvwk79mFT5HYQYuZN8Fosw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_016_c3110f83f505.png)
 
 **语句：**
 
@@ -224,15 +224,15 @@ Latex中的beamer专门用于制作科研汇报幻灯片，许多学术汇报需
 
 作用：创建具体编号，一个item表示一个编号，用法和上面的语句是一模一样的。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/RyQtNConrQLuibdicLCeURTgukeJ4Ohqudl5OI0D0xeJFv28iaZfHyphr6zsib1MQp1lfgxE7EGXXiblaFem7IEONIw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_017_a1e7973c0358.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/RyQtNConrQLuibdicLCeURTgukeJ4OhqudicU9faJjzFvnzo6FjWugJRyO78ibYoPLp9QZEg9py8393QC0iaIMt1RLg/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_018_2bb8b2a838bd.png)
 
 4
 
 **新建公式**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p4hYM0n6exxQC3FdbgZHDXOreCUibAb2133QLeboGgicb07KFew5f1fu1HbdS6yWcznvwk79mFT5HYQYuZN8Fosw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_019_c3110f83f505.png)
 
 语句：
 
@@ -294,15 +294,15 @@ Latex中的beamer专门用于制作科研汇报幻灯片，许多学术汇报需
 
 作用：创建多行公式，在中间插入\\\\表示换行，插入&表示对齐。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/RyQtNConrQLuibdicLCeURTgukeJ4Ohqudl5OI0D0xeJFv28iaZfHyphr6zsib1MQp1lfgxE7EGXXiblaFem7IEONIw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_020_a1e7973c0358.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/RyQtNConrQLuibdicLCeURTgukeJ4OhqudicU9faJjzFvnzo6FjWugJRyO78ibYoPLp9QZEg9py8393QC0iaIMt1RLg/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_021_2bb8b2a838bd.png)
 
 5
 
 **插入说明框**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p4hYM0n6exxQC3FdbgZHDXOreCUibAb2133QLeboGgicb07KFew5f1fu1HbdS6yWcznvwk79mFT5HYQYuZN8Fosw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_022_c3110f83f505.png)
 
 语句：
 
@@ -316,9 +316,9 @@ Latex中的beamer专门用于制作科研汇报幻灯片，许多学术汇报需
 
 作用：该语句是 Beamer 文档类（用于制作演示文稿）中定义的一个环境，用于创建一个具有特定样式的信息块（通常带背景色、边框和标题）。该语句通常用来展示某个定理。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/RyQtNConrQLuibdicLCeURTgukeJ4Ohqudl5OI0D0xeJFv28iaZfHyphr6zsib1MQp1lfgxE7EGXXiblaFem7IEONIw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_023_a1e7973c0358.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/RyQtNConrQLuibdicLCeURTgukeJ4OhqudicU9faJjzFvnzo6FjWugJRyO78ibYoPLp9QZEg9py8393QC0iaIMt1RLg/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_024_2bb8b2a838bd.png)
 
 **No.3**
 
@@ -330,7 +330,7 @@ Latex中的beamer专门用于制作科研汇报幻灯片，许多学术汇报需
 
 板
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p4hYM0n6exxQC3FdbgZHDXOreCUibAb2133QLeboGgicb07KFew5f1fu1HbdS6yWcznvwk79mFT5HYQYuZN8Fosw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_025_c3110f83f505.png)
 
 **我们毕业啦**
 
@@ -352,45 +352,45 @@ Overleaf不仅支持使用者在上面运用latex，也提供了丰富的模板�
 
 单击“创建新项目”。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWlKjAQ0sdA6LiadrwEY7KEJw4ficc9gPZrJ1aJlJ2wibGIUx62R2OQCFdw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_026_5cad7b16ddd0.png)
 
 单击“预览所有”。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWE7kfx0brjpZrowJ9dmuryJUoO5guf0FgNBgMiaen0YZpyFEm6YnicCeg/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_027_d94f535644a1.png)
 
 输入“THU Beamer Theme"，进行搜索。（你所在高校说不定有好心人上传了对应模板，你可以搜索你所在高校的缩写，比如广工的学生可以搜索"GDUT"）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWlp3g1tSf3ctTNlbvlI9gYgk5HiaibKqkYGsiaO9lWqzmpD8hzlB3WS6og/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_028_6de235e568ba.png)
 
 找到搜索结果，单击进入，再单击"Open as template"（作为模板打开），将模板作为你的新项目。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWpNp67QCwQDOqnbwq5n6VQhh4uyEvicH6IoFzMibwuBfN2hJ5KiaIo1ZRQ/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_029_9b54bc8e5a55.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWadm0XM6ygYia6DYNbunSleFicnElT1DA8icpDm8vTPqYzPmw5g5hMR2Cg/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_030_4bc093e5f761.png)
 
 进入这个界面就说明模板导入成功，你可以使用这个模板了。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWGU0kKrvaZxUpdey4XjibWyNphKJicibONZOTM53EVPnUZVJ9h3BtVick0A/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_031_b60e2f4d420e.png)
 
 下面是调整出中文界面的具体步骤，单击左上角的房子，回到项目文件夹。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWfuiap84lWONsZun6ecUBuhe9GUyOc3MZXHgkNKcJvMW1VeAicmjJZ5tA/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_032_5b3fc134a43f.png)
 
 单击下方的"Click here to use Overleaf in Chinese"，切换界面语言至中文。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWa3UAQdcRzHZ57EEnJW0m4sogKx53ldHxPBsUmicMZZqNnyGZFRPY7KQ/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_033_a736b750863c.png)
 
 再重新打开新创建的项目。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWarkvpRuwYXVrrWENdviccyCcgCVlKEO4nILjN3sXqqedTYcvrnAF7sg/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_034_6c81fe48896f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWnARHWw8zz9nyPRFHh3cibr1T71qWNz2Rbic0MhpdOeKmNsJ367YkqwDw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_035_85945d4065f3.png)
 
 可以看到，整个界面都变成中文了。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/RyQtNConrQLuibdicLCeURTgukeJ4Ohqudl5OI0D0xeJFv28iaZfHyphr6zsib1MQp1lfgxE7EGXXiblaFem7IEONIw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_036_a1e7973c0358.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/RyQtNConrQLuibdicLCeURTgukeJ4OhqudicU9faJjzFvnzo6FjWugJRyO78ibYoPLp9QZEg9py8393QC0iaIMt1RLg/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_037_2bb8b2a838bd.png)
 
 **No.4**
 
@@ -402,11 +402,11 @@ Overleaf不仅支持使用者在上面运用latex，也提供了丰富的模板�
 
 板
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p4hYM0n6exxQC3FdbgZHDXOreCUibAb2133QLeboGgicb07KFew5f1fu1HbdS6yWcznvwk79mFT5HYQYuZN8Fosw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_038_c3110f83f505.png)
 
 **我们毕业啦**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/azPxYnp6TA2ibP8W318yUbdvxF0B1k6kcySEYpPwpvtXB73ibCicdUmuH0jhWsYun8JmuLw66t8dGlUWjmvOvFnBQ/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_039_3a3ac37c1194.png)
 
 不
 
@@ -434,7 +434,7 @@ Tsinghua.sty为模板配置文件，里面包含这个模板的配置，该文�
 
 该文件其他地方可以先不动。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWABpKVQA6ibbJkt74Q379IxjqFkicayiaGk89dVWe6VzicKpibh2ViaO3Oibiaw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_040_2d04ed13f63d.png)
 
 slide.tex为主文件，所有的内容都在这里编写。
 
@@ -442,7 +442,7 @@ slide.tex为主文件，所有的内容都在这里编写。
 
 打开这个文件，红线框内的语句对应右边的输出，这部分是文档信息，读者在里面自行修改即可。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWtMGJ5WhPVHSicYNOPIwTXpoOL1gsBjQD0u0cyT8VVQMm4fs9EYZOFPA/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_041_df3eda26fedb.png)
 
 图中的语句表示创建的是标题页，以下语句控制在标题页输出清华校徽：  
 
@@ -458,7 +458,7 @@ slide.tex为主文件，所有的内容都在这里编写。
 
 后续可以修改该语句，输出本校校徽。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWIefTowKQ5a4ibP4K1udYa0bXxEsmuVTNH9LO4wqBHdFDkNFErmv1ibeA/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_042_8cb0da156d0d.png)
 
 图中的语句对应的是最后一页中致谢内容的输出：
 
@@ -488,7 +488,7 @@ slide.tex为主文件，所有的内容都在这里编写。
 
 \\definecolor{tsinghua}{RGB}{181, 0, 5}  % 使用十进制RGB值
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWTIHeUwMYImVQQE1DHwdKfSyadxfJ5qU0sPiaUFlqx9BaXLCYOjsuIgA/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_043_6c885d4e22f1.png)
 
 修改后的语句使用的主题色模式为大写的RGB，它的取值范围为0-255，这样修改方便从ppt中的取色器获得所需颜色的RGB值后，能直接应用，不需要转换。
 
@@ -500,7 +500,7 @@ slide.tex为主文件，所有的内容都在这里编写。
 
 因此，该语句的作用是将主题色修改为广工红。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWQ2VibVKROBhu7yicmwK3xR534HCJz3I7UNtQrLRqY3OEZ1Lj1r9icFwYA/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_044_efe3c8fe9e34.png)
 
 修改后还要单击“重新编译”，网站会显示修改语句后的输出。以后的任何修改，修改完毕后都要单击“重新编译”来预览输出。
 
@@ -508,33 +508,33 @@ slide.tex为主文件，所有的内容都在这里编写。
 
 有时候点击“重新编译”，会出现“编译超时”的提示，这可能是内容过多或图片过大造成的，也可能是网络波动，可以再次点击“重新编译”来刷新，如果仍然不行，则需要减少内容或压缩图片。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWSvRCn2UVITiaXhGTcRpWxN517LhLj0f4b4AOlrEprHycxuqeobECzuw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_045_1bd5d078195c.png)
 
 接着，我们来修改文档信息。根据个人信息修改以下语句：
 
 修改前：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWNO5OWiajxt9XbdDyROmebWVPNPIww7MFOz5E1nZJokiaEaA4IbQCkKwA/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_046_c9583875cca4.png)
 
 修改后：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWGvicZqsmqlwiaibic8xvk1h6hib0CqeYz7o19BaZexV6tl0FbAWxstAicEbg/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_047_9f02d57b6eaf.png)
 
 修改后的输出如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWDoZTdAavzWD4jTicsBWcZ8q2VLPBvJdib7FOvgSJv6kZEFVOyvyHN3Sg/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_048_fe436753a39f.png)
 
 下面来修改校徽输出，先打开pic文件夹，再点击右边的三个点，上传本校校徽：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWaZQko9OPNwJDKR6KeFdy15C0iawbiaTuqE2rU12vVTVCTzSBpeN6EDyA/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_049_b1f00cb311f5.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWY6C4DTdXAiasW7ZyMpPAL4pqcjBTaY5SZrCSbsjsIeNZHzibUjkcgkYQ/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_050_8aa79d4d9262.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWCIjJDbFu8ibAvkf9icm1g1mVznvr4eV52zia6YH159HiamxZKqicqvV5cSg/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_051_0556b3a5a865.png)
 
 上传后还可以对文件进行重命名，注意不要上传过大的图片，否则编译会超时。（我上传的校徽文件大小为200kb左右成功编译，大小为3MB时编译超时）
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWs8ib9EUolh0icPPvoHRzeBqS7Sokek88cJO4MSxRQtfib7LM527mEgyJA/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_052_f12127d23774.png)
 
 上传图片后修改语句为：
 
@@ -542,35 +542,35 @@ slide.tex为主文件，所有的内容都在这里编写。
 
 修改前：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWGYAanFpLjg8NpBIYkIYmYzFOWRk58BO971chPOPfS4K4JqrQSAia2jw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_053_47e2bbbd9312.png)
 
 修改后：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWWw63736J8dgibmsgkPOcibRkIxFhPGPJ7sWr3kia20h5mzn1HbUocny7g/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_054_60383704ef46.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWg8A8uXapwyHSQyroJBE3gjmMZlQyW1ZVAavfbRmjl0ibY2z8szFttLg/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_055_1725b7d3bdca.png)
 
 最后点击重新编译，即可修改校徽。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWBHLVdYeBeiazTpGxswRKONOa9zpSw522ZXdcnO3skIsOLoCzQYmQzDA/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_056_6ff9c28bec0a.png)
 
 这里顺便放出广工校徽，便于有需要的同学保存使用：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWZ9qXkg1syEOLNBnPF5FkQO7kRQJOK0qQo6tFLXtWYRbUjoOxYYLu1w/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_057_6ac57952483d.png)
 
 最后来调整致谢，找到致谢页对应的代码，将它修改成你想要的：
 
 修改前：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWTjURhbx7icc3VF0T6zXFtia60ZbrEVNJ5aMbaJ1JxVZTsKOV8wavR4ng/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_058_2069c47ff2f9.png)
 
 修改后：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWPtaI8NhvYStteX6ianAWgC3E1Hw063CzDPnrw4xFicHtCvf9uazyBPXQ/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_059_0ce9968cee33.png)
 
 最终效果：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPW1SrwBmwiad7VlU236B7aassdNxmNJggEqPtrUpFfDoice7CrTsWPB1Rg/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_060_1de46e882260.png)
 
 到此为止，我们已经完成了模板的修改，接下来就可以进入具体语句的写作了，由于篇幅的关系，这里就不介绍具体语句的写法，各位读者完全可以根据我后面提供的作品进行观察学习。
 
@@ -588,11 +588,11 @@ slide.tex为主文件，所有的内容都在这里编写。
 
 映
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p4hYM0n6exxQC3FdbgZHDXOreCUibAb2133QLeboGgicb07KFew5f1fu1HbdS6yWcznvwk79mFT5HYQYuZN8Fosw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_061_c3110f83f505.png)
 
 **我们毕业啦**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/azPxYnp6TA2ibP8W318yUbdvxF0B1k6kcySEYpPwpvtXB73ibCicdUmuH0jhWsYun8JmuLw66t8dGlUWjmvOvFnBQ/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_062_3a3ac37c1194.png)
 
 不
 
@@ -608,7 +608,7 @@ slide.tex为主文件，所有的内容都在这里编写。
 
 单击下载按钮，即可下载pdf文件。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWsgO0EPPvNeBRHhvS4FQ8G6wiclfCrS38oc9up5zOatIGl5J7prPwUOA/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_063_cf5c463ea4d9.png)
 
 下载pdf文件后，用Adobe Acrobat打开（也可以用WPS PDF）。
 
@@ -616,7 +616,7 @@ slide.tex为主文件，所有的内容都在这里编写。
 
 使用全屏模式放映：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWTF98R6jvWT7VflZcMLpd62U7JNHvXlaT79lBwCqGpxYibaPJtd7ScoA/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_064_625fa424f9ab.png)
 
 放映时的操作就和ppt没什么两样了。
 
@@ -628,9 +628,9 @@ slide.tex为主文件，所有的内容都在这里编写。
 
 单击“房子”按钮返回所有项目界面，然后单击“下载Zip格式文件，即可将项目内所有文件打包下载。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPW4L6XvZt2uwKoES7bpVFvN4yh5KplqqzdpcPpaaPJ23yo2fNmxtnGIQ/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_065_611aef79324d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wH9k3DKRLucib3n5eRZytrmoGce64ztPWSicbSKJLFELjUmiaYRu24rrBHvYU3mH7iaU9vuySfeXXnubZDvRV4SaFg/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_066_38b41487ffd4.png)
 
 后面，如果要从本地上传项目的话，就必须把所有项目打包成zip压缩包上传。
 
@@ -650,11 +650,11 @@ slide.tex为主文件，所有的内容都在这里编写。
 
 品
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/p4hYM0n6exxQC3FdbgZHDXOreCUibAb2133QLeboGgicb07KFew5f1fu1HbdS6yWcznvwk79mFT5HYQYuZN8Fosw/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_067_c3110f83f505.png)
 
 **我们毕业啦**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/azPxYnp6TA2ibP8W318yUbdvxF0B1k6kcySEYpPwpvtXB73ibCicdUmuH0jhWsYun8JmuLw66t8dGlUWjmvOvFnBQ/640?wx_fmt=png)
+![](写作全程_如何用Beamer写答辩报告_images/img_068_3a3ac37c1194.png)
 
 不
 

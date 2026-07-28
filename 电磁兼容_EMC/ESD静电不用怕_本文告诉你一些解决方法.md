@@ -1,0 +1,348 @@
+# ESD静电不用怕，本文告诉你一些解决方法
+
+原创 硬件笔记本 2022-04-24 07:30 undefined
+
+> 原文地址: [https://mp.weixin.qq.com/s/eQ2QMomW2XMW4b3hIHtrYg](https://mp.weixin.qq.com/s/eQ2QMomW2XMW4b3hIHtrYg)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif "音符")
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/k0o6w5XyGEuEP83ric6UM3Mobtnkzq2Mib6gia162mRT0a8NpLzGf58tPnZfZW8WRefDNyryQuaZEQkIhmvJKIDcQ/640?wx_fmt=gif)
+
+  
+
+**一、  ESD静电基本问题**
+
+  
+
+现代半导体器件的规模越来越大，工作电压越来越低，导致了半导体器件对外界电磁骚扰敏感程度也大大提高。ESD对于电路引起的干扰、对元器件、CMOS电路及接口电路造成的破坏等问题越来越引起人们的重视。电子设备的ESD也开始作为电磁兼容性测试的一项重要内容写入国家标准和国际标准。
+
+  
+
+  
+
+  **1.1静电成因及其危害**  
+
+  
+
+  
+
+  
+
+静电是两种介电系数不同的物质磨擦时，正负极性的电荷分别积累在两个特体上而形成。当两个物体接触时，其中一个趋从于另一个吸引电子，因而二者会形成不同的充电电位。就人体而言，衣服与皮肤之间的磨擦发生的静电是人体带电的主要因之一。  
+      静电源与其它物体接触时，依据电荷中和的机理存在着电荷流动，传送足够的电量以抵消电压。在高速电量的传送过程中，将产生潜在的破坏电压、电流以及电磁场，严重时将其中物体击毁，这就是静电放电。
+
+  
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjRBn1qoR5RYDaibcA3ztqqibaOfBYCqTapQPpkXhUrYCKniaI0rLZhsbZQ/640?wx_fmt=png)
+
+  
+
+  
+
+****A.****
+
+  
+
+  
+
+**接触分离起电** 
+
+  
+
+任何两个不同物材质地物体接触后再分离即可产生静电，当两个不同物体相互接触时就会产使得一个物体失去一些电荷如电子转移到另一个物体使其带正电.而另一个物体得到一些剩余电子的物体而带负电.若在分离的过程中电荷难以中和，电荷就会积累使物体带上静电，所以物体与其它物体接触后分离就会带上静电。
+
+****B.****
+
+  
+
+  
+
+**摩擦起电** 
+
+  
+
+实质上摩擦起电是一种接触又分离的造成正负电荷不平衡的过程.摩擦是一个不断接触与分离的过程.因此摩擦起电实质上是接触分离起电，而产生静电的最普通方法，就是摩擦生电.材料的绝缘性越好，越容易是使用摩擦起电。  
+      摩擦起电是一个机械过程，依靠相对表面移动传送电量.传送的电量取决于接触的次数.表面粗糙度湿度，接触压力，摩擦特性以及相对运动速度.一个人或一辆车所能带来的电量的电压值大程度上由它们的电容决定。
+
+  
+
+****C.****
+
+  
+
+  
+
+**感应起电** 
+
+  
+
+针对导体材料而言，因电子能在它的表面自由流动，如将其置于一电场中，由于同性相斥，异性相吸，正负离子就会转移。
+
+  
+
+****D.****
+
+  
+
+  
+
+****传导起电****  
+
+  
+
+针对导电材料而言，因电子能在它的表面移动，如带电物体接触，将会发生电荷转移.   
+　　国家标准中定义：静电放电是具有不同静电电位的特体互相靠近或直接接触引起的电荷转移，一般用ESD表示。ESD会导致电子设备严重损坏或操作失常。  
+　　静电对器件造成的损坏有显性和隐性两种。隐性损坏在当时看不出来，但器件变得更脆弱，在过压、高温等条件下极易损坏。  
+　　ESD两种主要的破坏机制是：由ESD电流产生热量导致设备的热失效；由ESD感应出过高电压导致绝缘击穿。两种破坏可能在一个设备中同时发生，例如，绝缘击穿可能激发大的电流，这又进一步导致热失效。  
+　　除容易造成电路损害外，静电放电也极易对电子电路造成干扰。静电放电对电子电路的干扰有二种方式。一种是传导干扰，另一种是辐射干扰。
+
+  
+
+  
+
+  
+
+  
+
+ **1.2数码产品的构造及其ESD问题**  
+
+  
+
+  
+
+  
+
+现在各类数码产品的功能越来越强大，而电路板却越来越小，集成度越来越高。并都或多或少的装有部分接口用于人机交互，这样就存在着人体静电放电的ESD问题。一般数码产品中需要进行ESD防护的部位有：USB接口、HDMI接口、IEEE1394接口、天线接口、VGA接口、DVI接口、按键电路、SIM卡、耳机及其他各类数据传输接口.  
+     
+
+  
+
+  
+
+ESD可能会造成产品工作异常、死机，甚至损坏并引发其他的安全问题。所以在产品上市之前，国内或国外检测部门都要求进行ESD和其它浪涌冲击的测试。其中接触放电需要达到±8kV，空气放电需要达到±15kV，这就对ESD的设计提出了较高的要求。
+
+  
+
+  
+
+  
+
+  
+
+  
+
+ **1.3数码产品中ESD问题解决与防护** 
+
+  
+
+  
+
+**A.**
+
+  
+
+  
+
+ **产品的结构设计**
+
+  
+
+如果将释放的静电看成是洪水的话，那么主要的解决方法与治水类似，就是“堵”和“疏”。如果我们设计的产品有一个理想的壳体是密不透风的，静电也就无从而入，当然不会有静电问题了。但实际的壳体在合盖处常有缝隙，而且许多还有金属的装饰片，所以一定要加以注意。  
+　　其一，用“堵”的方法。尽量增加壳体的厚离，即增加外壳到电路板之间的距离，或者通过一些等效方法增加壳体气隙的距离，这样可以避免或者大大减少ESD的能量强度。  
+　　通过结构的改进，可以增大外壳到内部电路之间气隙的距离从而使ESD的能量大大减弱。根据经验，8kV的ESD在经过4mm的距离后能量一般衰减为零。  
+　　其二，用“疏”的方法，可以用EMI油漆喷涂在壳体的内侧。EMI油漆是导电的，可以看成是一个金属的屏蔽层，这样可以将静电导在壳体上；再将壳体与PCB（Printed Circuit Board）的地连接，将静电从地导走。这样处理的方法除了可以防止静电，还能有效抑制EMI的干扰。如果有足够的空间，还可以用一个金属屏蔽罩将其中的电路保护起来，金属屏蔽罩再连接PCB的GND。  
+　　总之，ESD设计壳体上需要注意很多地方，首先是尽量不让ESD进入壳体内部，最大限度地减弱其进入壳体的能量。对于进入壳体内部的ESD尽量将其从GND导走，不要让其危害电路的其它部分。壳体上的金属装饰物使用时一定要小心，因为很可能带来意想不到的结果，需要特别注意。
+
+**B.**
+
+  
+
+  
+
+**产品的PCB设计**
+
+就ESD问题而言，设计上需要注意的地方很多，尤其是关于GND布线的设计以及线距，很有讲究。有些产品中ESD存在很大的问题，一直找不到原因，通过反复研究与实验，发现是PCB设计中的出现的问题。为此，这里总结了PCB设计中应该注意的要点：   
+　　(1)PCB板边（包括通孔Via边界）与其它布线之间的距离应大于0.3mm；  
+　　(2)PCB的板边最好全部用GND走线包围；  
+　　(3)GND与其它布线之间的距离保持在0.2mm～0.3mm；  
+　　(4)Vbat与其它布线之间的距离保持在0.2mm～0.3mm;  
+　　(5)重要的线如Reset、Clock等与其它布线之间的距离应大于0.3mm;   
+　　(6)大功率的线与其它布线之间的距离保持在0.2mm～0.3mm；  
+　　(7)不同层的GND之间应有尽可能多的通孔（VIa）相连；  
+　　(8)在最后的铺地时应尽量避免尖角，有尖角应尽量使其平滑。
+
+  
+
+**C.**
+
+  
+
+  
+
+**产品的电路设计**
+
+  
+
+在壳体和PCB的设计中，对ESD问题加以注意之后，ESD还会不可避免地进入到产品的内部电路中，尤其是以下一些端口：USB接口、HDMI接口、IEEE1394接口、天线接口、VGA接口、DVI接口、按键电路、SIM卡、耳机及其他各类数据传输接口，这些端口很可能将人体的静电引入内部电路中。所以，需要在这些端口中使用ESD防护器件。  
+　　以往主要使用的静电防护器件是压敏电阻和TVS器件，但这些器件普遍的缺点是响应速度太慢，放电电压不够精确，极间电容大，寿命短，电性能会因多次使用而变差。所以目前行业中普遍使用专业的“静电抑制器”来取代以往的静电防护器件 。
+
+  
+
+“静电抑制器”是专业解决静电问题的产品，其内部构造和工作原理比其他产品更具科学性和专业性。它由Polymer高分子材料制成，内部菱形分子以规则离散状排列，当静电电压超过该器件的触发电压时，内部分子迅速产生尖端对尖端的放电，将静电在瞬间泄放到地。它最大特点是反应速度快（0.5ns～1ns）、非常低的极间电容（0.05pf～3pf），很小的漏电流（1μA），非常适合各种接口的防护。
+
+　　因为静电抑制器具有体积小、无极性、反应速度快等诸多优点，现在的设计中使用静电抑制器作为防护器件的比例越来越多，在使用时应注意以下几点：  
+　　1、将该器件尽量放置在需要保护的端口附近；  
+　　2、到GND的连线尽可能短;  
+　　3、所接GND的面积尽可能大。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/k0o6w5XyGEuEP83ric6UM3Mobtnkzq2Mib6gia162mRT0a8NpLzGf58tPnZfZW8WRefDNyryQuaZEQkIhmvJKIDcQ/640?wx_fmt=gif)
+
+  
+
+**二、 案例分析**
+
+##   
+
+  
+
+## **2.1某智能手表在侧键附近打ESD后出现反复开关机现象**
+
+根据反复重启的时间判断，类似于长按Power键。检查Power\_On信号，发现已经被持续拉低，Power\_On信号的原理图如下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjhxY4rn6zpYcYYluglgX02zrYTiao99ErGzE9rIePC2A1JvbeN3txGsg/640?wx_fmt=png)  
+为了降成本，位置1并没有贴TVS管，而是用一个电容代替，电容的耐压值是25V。失效的机器，这个电容已经短路，可以判断ESD进入壳体，直接打坏了位置1的电容。  
+如果把位置1的电容耐压提高到50V，能抗的ESD抢数量会增多，但最终还是会坏。  
+这个项目不是防水的，密封性做的很差，所以才有问题。
+
+解决方法
+
+把位置1的电容换成TVS管，或者位置1不要贴任何东西，在位置2放一个1nF的电容。靠1K电阻+1nF电容来吸收ESD能量。  
+另外，在侧键的FPC附近，增加了GND露铜区域，引导ESD先进入GND。  
+这也是一种低成本的解决方法，如果ESD能量足够大，实测几乎可以把1K电阻打坏。
+
+  
+
+ **2.2某智能手表在USB接口外壳打ESD造成黑屏死机问题** 
+
+充电口是Micro-B型USB接口，接触放电±10KV，会出现黑屏，死机，闪屏等现象。
+
+抓死机Log，没有发现什么端倪。  
+将USB信号逐个引出，VBUS，D+，D-都没有出现问题，打ID管脚，会出现类似现象。打GND，会很低概率出现类似现象。遂将问题定位到ID管脚，和GND上。
+
+仔细检查USB接口附件的Layout，问题如下：
+
+1、USB\_ID管脚是悬空的。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjAHuFlz0hhr8ibjARKpFzZGrqmXnDictxaonQbp9kUCcMLq1qLicF5gGfQ/640?wx_fmt=png)
+
+  
+
+2、在L3和L6层，靠近USB接口，有与屏相关的敏感信号。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjGPxSdZ1Uiaiasz5b2ajmOErc9Y2rCYwicXnOSWBkalSg7Y1KdRrUYEX1g/640?wx_fmt=png)
+
+  
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjKhj7aY3MNL6Tnia1l5kwkz3mqGtGg32icjLJlQLjFIicf3ysEFVUfib7BA/640?wx_fmt=png)
+
+  
+悬空的ID管脚是知名威胁，静电积累到一定程度，肯定会对周围放电，二次放电的威力更大。
+
+  
+USB周围的有敏感信号，在打ESD时，附近的GND电平瞬间局部抬高，尤其是看到USB接口的屏蔽壳跟表层相连，周围没有非常多的过孔打到内层GND，这更加重了GND局部电平的提高，这会干扰到这些敏感信号，导致死机，黑屏，闪屏问题。
+
+  
+
+### 解决方法
+
+USB的固定PIN以及GND PIN，只接主GND，不要每一层都接GND。  
+MIPI，LCD\_TE，LCD\_RST远离USB接口。
+
+  
+
+  
+
+**2.3某智能手表屏幕朝下，打后会黑屏** 
+
+这是一个SPI接口的显示屏，问题比较简单，一个偶然的机会发现是SPI信号中，CS线被软件强制拉低，且一直处于低的状态，这样是不行的。
+
+实测将CS线的行为改成符合SPI协议，只在传输数据时拉低，这个黑屏的问题解决了。
+
+  
+
+  
+
+**2.4某智能手表在USB的GND PIN注入接触-8KV静电，会概率关机**
+
+首先抓取了Log分析，没有发现什么线索。
+
+直接拆开整机，在主板的不同地方的GND，注入ESD，统计关机的次数，得出一个简单的规律，只有在靠近电池BTB的地方，才会大概率出现，初步判断是ESD干扰了电池周围的信号。
+
+电池BTB周围的信号有D+，D-，VBUS，MIPI，BAT\_ID，BAT\_THERM等，逐个在这些信号上，注入小两级的ESD，比如±2KV，有些信号会导致PMU损坏，有些会导致死机。只有BAT\_ID信号会出现关机的现象。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjuRKsErszBDD8YyiaLQchsQiavJmowl05QN3FdGTlE9Q68OqclsmVx3wA/640?wx_fmt=png)
+
+  
+关机有两种可能，一是内部软件流程关机，二是电池突然掉电。尤其是第二种，往往很容易忽略。因为某些情况下，ESD注入两枪，立即就出现了关机现象，这很像是电池掉电了。  
+电池掉电有两种可能，一是电池保护板保护机制生效，切断了供电。二是Vbat到PMU的通路被打断。排查了主板上的器件，Vbat的通路经过的都是一些模拟器件，可能性比较小。  
+我们直接从主板VBAT飞线，连接到程控电源上，再打ESD的时候，发现就不会关机了。这进一步说明，在注入ESD时，是电池本身没有输出了。
+
+  
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjicvwPibQiaZNjb8xvNRSolUvjXK0lo98wwDooF7UX4H5Pytwtb4rz7k8w/640?wx_fmt=png)
+
+  
+
+电池保护板的原理图如下：  
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjUy0stO4gZVVUgLZVTqY6Vr5e4zJ33ac2X4ceN2YfiaYUuk0dJzLyj4w/640?wx_fmt=png)  
+在图中GND上注入+8KV，没有问题，因为右边的TVS吸收了大部分能量，由于正向导通，钳位电压较低（小于4.4V），电池保护板没有触发保护机制。但是如果注入-8KV，TVS管开始反向钳位，瞬间的钳位电压较高（大于4.4V），超过电池起保护电压，电池触发保护机制，MOS管U2断开，导致关机。下图是TVS管的钳位特性，也能佐证这个结论。
+
+  
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjo4icfj2rHkEmpibAicVNy4trUclLsVUCYD1wy347CvEhNL2lAoHuQGdFQ/640?wx_fmt=png)  
+注意电池保护板的保护IC，是判断C1两端的电压，来决定是否起保护的。所以要解决这个问题，需要增大C1的容值。实测将C1增大到1uF，关机的概率明显降低了。  
+降低了，但没有彻底解决问题，肯定还有其他原因。  
+这个原因是先猜出来，然后试验验证的。  
+上文提到只有BAT\_ID信号会出现关机的现象。所以猜测静电耦合到了ID管脚，进入PMU导致关机。  
+下面是这次电池保护板的走线，ID的走线与GND有较长的耦合长度，GND上的瞬间能量能很快耦合到这根线上，最终直接进入到PMU。
+
+  
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNj6IsdSv5UlzB9ID6X2lhMyKibz4mMuRxhZmLdZOShFH6xCseKhPDOAibg/640?wx_fmt=png)  
+  
+
+虽然主板上ID走线也跟GND有很长的耦合距离，但是主板上的GND与Vbat之间有TVS钳位，GND的电压不至于跳变太厉害，也不会耦合很多能量到ID线上。反而是电池FPC上的GND电平跳动最大，ID先在FPC上耦合的能量更多。  
+FPC改版成如下样式，ID和GND基本没有重叠区域，能量也不会耦合到ID管脚上，再也没有出现过关机问题。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjxqhKXLBL5ObuzGYWsX1q3qKibbAh6LvwkkbGfoj3ljOAIQ0a04DXtEg/640?wx_fmt=png)
+
+  
+
+  
+
+  
+
+**2.5某智能手表屏幕朝下，ESD接触放电后壳，TP失效**
+
+经检查，确定是TP IC被打坏。
+
+没哟仔细分析IC损坏的原因，因为发现TP FPC背后的双面到点胶太弱，根本没有粘到GND上。TP没有很好的接地，导致了这个问题。  
+只要TP接地良好，就肯定该不会出现TO IC失效问题。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjTlP1aoiaINj3iaQEKs6SHe17aUJ5O8eDku6S28jjOkEtEbcBFibeH5Vww/640?wx_fmt=png)
+
+  
+
+参考文章：
+
+[ESD静电不用怕，终极大招来了！看完你还怕静电吗？(qq.com)](https://mp.weixin.qq.com/s?__biz=MzA3NzI2NzU5OA==&mid=2652729918&idx=1&sn=7e7c0365b3edd93a66896c4f30752f65&chksm=84bd45dfb3caccc95e5ebb780a7c2658b6c7db569c12d1fc4fabd3c43e44fabf2569a2fb8ab6&token=850220158&lang=zh_CN&scene=21#wechat_redirect)
+
+[](https://mp.weixin.qq.com/s?__biz=MzA3NzI2NzU5OA==&mid=2652729918&idx=1&sn=7e7c0365b3edd93a66896c4f30752f65&chksm=84bd45dfb3caccc95e5ebb780a7c2658b6c7db569c12d1fc4fabd3c43e44fabf2569a2fb8ab6&token=850220158&lang=zh_CN&scene=21#wechat_redirect)ESD静电问题集合\_qq\_37311509的博客-CSDN博客，作者Aircity007@sina.com 本文所有权归作者Aircity所有。

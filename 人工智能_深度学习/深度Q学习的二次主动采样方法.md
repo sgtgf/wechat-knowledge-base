@@ -6,7 +6,7 @@
 
 **深度Q学习**是指：将Q-learning方法和深度神经网络结合，同时引入经验回放和目标值网络等技术实现的方法。深度Q学习在很多领域都取得了成功，而且具有较强的泛化能力和通用性。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46nkx1RLRSLzt7zegv9LhLPUpNJv0osdINVldYwomrY0ejJUb9nVNlXs0lsAiciaf1b2hVF6avTMtAA/640?wx_fmt=png)
+![](深度Q学习的二次主动采样方法_images/img_000_82e58af166b2.png)
 
   
 
@@ -26,13 +26,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46nkx1RLRSLzt7zegv9LhLPPgRMDN5vZvKJOkLSFxGAAVREA2Gd7iaCmDf7AZpjkYaww5r1N3lGkdQ/640?wx_fmt=png)
+![](深度Q学习的二次主动采样方法_images/img_001_cfec36b931f8.png)
 
 Breakout.gif
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46nkx1RLRSLzt7zegv9LhLPF9XRCdWdS28fKfwodoWzs2fs3tmTwjULOoAJlbdEmlSKxGRnJBfU6A/640?wx_fmt=png)
+![](深度Q学习的二次主动采样方法_images/img_002_d545fc0cbe5c.png)
 
 Mario.gif
 
@@ -54,7 +54,7 @@ Mario.gif
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46nkx1RLRSLzt7zegv9LhLP9CF5z7V9OQ1KVRnd7QF4tw9cRg33ria0I93rXknvJOw9XpPemBHwTOA/640?wx_fmt=png)
+![](深度Q学习的二次主动采样方法_images/img_003_8032cccc06e6.png)
 
 实验环境
 
@@ -62,31 +62,31 @@ Mario.gif
 
 最终本文在Atari视频游戏上验证了我们的方法，实验结果表明，相比于其它方法，比如深度Q学习，深度双Q学习等，本文提出的二次主动采样方法能够实现更高的样本效率，同时能够取得更高的分数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46nkx1RLRSLzt7zegv9LhLPUpNJv0osdINVldYwomrY0ejJUb9nVNlXs0lsAiciaf1b2hVF6avTMtAA/640?wx_fmt=png)
+![](深度Q学习的二次主动采样方法_images/img_004_82e58af166b2.png)
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46nkx1RLRSLzt7zegv9LhLPUpNJv0osdINVldYwomrY0ejJUb9nVNlXs0lsAiciaf1b2hVF6avTMtAA/640?wx_fmt=png)
+![](深度Q学习的二次主动采样方法_images/img_005_82e58af166b2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46nkx1RLRSLzt7zegv9LhLPHNevSkzoIujGyKduHdPlsWqDb5ulMauzI4jV8FZ9ygBKyZYbMTmKfQ/640?wx_fmt=png)
+![](深度Q学习的二次主动采样方法_images/img_006_905f8c00de7d.png)
 
 赵英男, 哈尔滨工业大学计算机科学与技术学院博士研究生. 2017 年获得哈尔滨工业大学计算机科学与技术研究生学位. 主要研究方向为强化学习, 机器学习.
 
 E-mail: ynzhao rl@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46nkx1RLRSLzt7zegv9LhLP8WnLkhLhnHghDRPVeYFyyaWGK4Q2Sf0IJ5wExcfNbTiaNicgiawTWO9Uw/640?wx_fmt=png)
+![](深度Q学习的二次主动采样方法_images/img_007_59d874441375.png)
 
 刘鹏，哈尔滨工业大学计算机科学与技术学院副教授. 2007 年获得哈尔滨工业大学微电子与固体电子学博士学位. 主要研究方向为图像处理, 视频分析, 模式识别,超大规模集成电路设计.
 
 E-mail: pengliu@hit.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46nkx1RLRSLzt7zegv9LhLPxS4oWzW0jDHZFJC3Nr1kVhB1vWjfbZTJW9NP3WMr50gyRyshZBVO8A/640?wx_fmt=png)
+![](深度Q学习的二次主动采样方法_images/img_008_9ec3e53d9600.png)
 
 赵巍，哈尔滨工业大学计算机科学与技术学院副教授. 曾获黑龙江省科技进步一等奖. 主要研究方向为模式识别, 机器学习, 计算机视觉. 本文通信作者.
 
 E-mail: zhaowei@hit.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46nkx1RLRSLzt7zegv9LhLP2ZU9ibmGOgXLp4Ztex2cbOuxez300CZFM7msCqdF9r0DVUoLEdYkAvQ/640?wx_fmt=png)
+![](深度Q学习的二次主动采样方法_images/img_009_c6a9a32ddfe6.png)
 
 唐降龙，哈尔滨工业大学计算机科学与技术学院教授. 1995 年获得哈尔滨工业大学计算机应用技术博士学位. 主要研究方向为模式识别, 图像处理, 机器学习.
 
@@ -184,21 +184,21 @@ E-mail: tangxl@hit.edu.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46nkx1RLRSLzt7zegv9LhLPJWiaaCVYX2SMODvNWamqicwWeWDku4dAEgK1MhH09d3OcYOdbhgm9A6Q/640?wx_fmt=png)
+![](深度Q学习的二次主动采样方法_images/img_010_e36b585b3349.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46nkx1RLRSLzt7zegv9LhLP7pFNehoIqWFCzNjZibRbzP3v4M04ib279MkYkvpBEVnOVBCF8icWRMSpA/640?wx_fmt=jpeg)
+![](深度Q学习的二次主动采样方法_images/img_011_b2cc2f3dd8d2.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46nkx1RLRSLzt7zegv9LhLPJWiaaCVYX2SMODvNWamqicwWeWDku4dAEgK1MhH09d3OcYOdbhgm9A6Q/640?wx_fmt=png)
+![](深度Q学习的二次主动采样方法_images/img_012_e36b585b3349.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46nkx1RLRSLzt7zegv9LhLPRo57NOnSVafuetWjV1JhF9yCH0HCDEt4VgebRN4FDMKPr1N0yVHBmQ/640?wx_fmt=jpeg)
+![](深度Q学习的二次主动采样方法_images/img_013_7e4774e6ece9.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46nkx1RLRSLzt7zegv9LhLPJWiaaCVYX2SMODvNWamqicwWeWDku4dAEgK1MhH09d3OcYOdbhgm9A6Q/640?wx_fmt=png)
+![](深度Q学习的二次主动采样方法_images/img_014_e36b585b3349.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46nkx1RLRSLzt7zegv9LhLPCgd2MicfFyJe8hkhbeHIjibtYWEXEljlntPQFricVwD9kbF6XwhYWorLA/640?wx_fmt=jpeg)
+![](深度Q学习的二次主动采样方法_images/img_015_b8ae1b90c4c0.jpg)
 
 自动化学报订阅号
 

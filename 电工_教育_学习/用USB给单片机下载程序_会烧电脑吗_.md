@@ -1,0 +1,124 @@
+# 用USB给单片机下载程序，会烧电脑吗？
+
+原创 王工 硬件笔记本 2025-10-04 12:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/eaCEP23Bc6\_7QFYHKYrwuQ](https://mp.weixin.qq.com/s/eaCEP23Bc6_7QFYHKYrwuQ)
+
+![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&tp=wxpic#imgIndex=1 "音符")
+
+  
+
+国庆假期，各个景区人山人海，正是宅家捣鼓技术的好时候。翻出刚到的开发板，准备趁这几天清净再倒腾倒腾。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1L5qX3ydDJHicndD9ak3VpIODKnjCGZjSzKz5icxy1XbozPC009wKrDltA/640?wx_fmt=jpeg)
+
+刚拿起USB线，突然想起之前公司里测试同事遇到的一件小事——他用电脑给一块新板子下载程序，结果咔嚓一下，电脑的USB口直接冒烟烧了。
+
+这事儿听着就肉疼，毕竟电脑可比单片机开发板贵多了。今天咱们就从电路原理上唠唠，用USB给单片机下载程序，到底会不会把电脑给烧了？
+
+  
+
+011
+
+先说结论：在绝大多数正常情况下，不会烧电脑
+
+咱们一般说的“烧电脑”，多半指的是电脑的USB接口，尤其是供电部分出问题。其实，电脑的USB口在设计时就已经考虑到了咱们这些手残党可能会瞎折腾，所以自带了不少保护措施。
+
+你想想，USB设计出来就是为了让大家随便热插拔的，要是动不动就烧主板，那谁还敢用啊？  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LnQkPibIdzmX6pHYscgibicTKwxP1aBJ0XibopM4oaZbF2zacSY2ZSdhSrA/640?wx_fmt=png&from=appmsg)
+
+在电脑主板内部，USB口的电源路径上，通常串联着一颗专门的电源管理芯片，比如SY6280AAC。这颗芯片是个负载开关，你可以把它想象成一个智能电闸。
+
+它的核心工作就是管着USB电源的通和断。平时接上负载后正常通电，一旦负载接的设备（比如你的开发板）出幺蛾子，比如短路了，或者电流一下子太大了，这个“智能电闸”就会瞬间跳闸，切断供电，保护电脑主板不受牵连。如下图所示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LhCkzYhTQyLj5kKBlD85XvhpLZ6Qv2vxcwRFpVczic6iafr55xgibATwIQ/640?wx_fmt=png&from=appmsg)
+
+这颗芯片有个很重要的引脚叫**ISET**（限流设置引脚）。咱们通过给它配上一个特定阻值的电阻（叫做Rset）到地，就能预设一个电流保护值。计算公式是：Ilim（A）= 6800 / Rset（欧姆）。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LyqsrzibF44bMx2ty5CoOnavdNkfM9ZI2WfAThnpjVZCWNYDApxY0Vxg/640?wx_fmt=png&from=appmsg)
+
+举个例子，如果想将限流值设定在500mA（0.5A），根据公式就能算出需要的Rset电阻值：  
+Rset = 6800 / 0.5 = 13600欧姆，也就是13.6kΩ。
+
+通过这颗小电阻，主板厂商就能精确地设定每个USB口的最大输出电流。比如，USB 2.0口一般限流500mA，USB 3.0口限流900mA。当你外接的设备想抽取超过这个限值的电流时，这个保护芯片就会动作，让电流输出最大设定时甚至切断输出。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1Ln0kFWRriawiabSerBVkpPNWCVAsghRRYQbRPStlNiaZPfiacXwNSr8LeTg/640?wx_fmt=png&from=appmsg)
+
+咱们再看看手里的USB线。例如USB2.0，它里面有四根线，其中两根（VCC和GND）是专门负责供电的，另外两根（D+和D-）是专门负责传输数据的。
+
+在大多数情况下，当你用USB线连接电脑和单片机开发板时，电流方向是从电脑的USB口流向开发板，给开发板供电。而数据线则专心负责程序下载和串口通信。只要你的开发板电源设计合理，电压是不会沿着数据线倒灌回电脑的。
+
+所以，有了**主板上的电流保护芯片**和**USB线本身物理上的隔离**这两道防线，在正常情况下，你的电脑是很安全的。
+
+  
+
+021
+
+为什么同事把电脑烧了？
+
+俗话说，不怕一万就怕万一。在下面这些极端情况下，风险确实存在。
+
+**1、电压倒灌——这是最危险的情况！**
+
+我同事遇到的就是这种问题。当时我们新开发的主板支持12V外部电源和5V USB电源同时供电。结果板子在设计上有点瑕疵，导致接上12V外部电源时，这个高电压不知道怎么着就窜到了5V的USB线上，然后一股脑倒灌回了电脑。
+
+电脑USB口的设计最高也就承受个5V电压，突然来个12V的“高压”，里面的芯片根本扛不住，直接就被击穿烧毁了。表现就是电脑死机，再重启那个USB口已经识别不了任何设备了。
+
+**所以，如果你的开发板除了USB供电，还有另外的外部电源接口，一定要特别小心！** 一定要确保板子的电源路径设计合理，有防止电流倒灌的机制。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1L2UfzyUXZlbrEkYc55A9pAlEepNqGHn46xjOUdUIwsCAue7sYd4LY8Q/640?wx_fmt=jpeg&from=appmsg)
+
+  
+
+**2、电源短路**
+
+在你把自制板子接到电脑之前，如果板子上的USB电源接口（VCC和GND）因为焊接不当、元件烧毁或者线路破损直接短路了，那么在你插上线的瞬间，就等于用一根导线直接把电脑USB口的5V和地连在一起。
+
+这时，电脑主板上的那个负载开关芯片（比如SY6280）会迅速动作进行保护。但如果它的响应不够快，或者这个短路冲击太猛烈、太频繁，还是有可能损坏主板上的USB控制芯片或相关电路。
+
+  
+
+**3、ESD静电**
+
+这个风险相对小一些，但也不能完全忽视。尤其在干燥的冬天，人身上很容易带上几千伏的静电。如果直接用手去摸裸露的USB接口，然后插电脑，静电可能会瞬间击穿那些脆弱的接口芯片。
+
+不过好在，现在稍微正规点的电子产品，在USB接口附近都会焊接一个叫做**ESD静电保护二极管**的小元件，它能把瞬间的高压静电导入地线，从而保护后面的芯片。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LgR9X5M7hIEJfDtRvCHLsZZia24AgInzrPWwToWqp3yGeDeqGeHstFrg/640?wx_fmt=png&from=appmsg)
+
+  
+
+031
+
+怎么才能安全地玩转单片机开发板？
+
+知道了风险，咱们就能对症下药，把风险降到最低。
+
+1、外购开发板：大多数情况下，咱们都会直接外购开发板，正常情况下很少会遇到USB接口短路的情况，但是建议选择正规的，有品牌的开发板，产品质量更加可靠。
+
+2、自研开发板：一定要自查，确保焊接正常，元器件正常后才通电跟主机连接，可以先用万用表测一下通断或者在跟主机连接之前确认一下板子相关电压是否正常。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LbHXVh7Fra9Ck8HYz338WhGpKCnV7s61J2zz9IdxTE1ia7MQEOrlUC0w/640?wx_fmt=png&from=appmsg)
+
+3、**使用带独立供电的USB HUB：**串接一个质量好一点的、带独立电源的USB HUB，也是个不错的策略。即使你的板子出了问题，电流冲击也是先由HUB来承受，很大概率能保住你的电脑。不过要注意，有些特别便宜的HUB可能省掉了保护电路，效果会打折扣。
+
+4、外购USB隔离器：如果你经常调试各种“来路不明”或者接有高压外设的自制电路，强烈建议在淘宝上花一二十块钱买个**USB隔离器**。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1Ls8wuqQlhDeIZKToEaeXD850z6T1j4p4UDASB3DZiacTWmXpc1ezNErA/640?wx_fmt=jpeg&from=appmsg)
+
+这东西不贵，但它能通过内部的隔离芯片和变压器，在电脑和你的设备之间实现**电气隔离**。意思是，它能把数据信号传递过去，但两边的电源和地线是完全断开的。就算你的板子炸了，12V、24V的高压也绝对过不去，完美保护你的电脑。可以说是调试危险电路时的“保命神器”。
+
+今天的分享就到这里，咱们下期再见。
+
+推荐阅读（点击如下三个图片分别进入）
+
+[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LHVEEo0LdLZAehGLAribS59vIF9vC98zZP4rjnI472uqe5D1qwibkLmZA/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561938&idx=1&sn=27ed46e1cad1149ba29c97fe13b12f6a&scene=21#wechat_redirect)
+
+[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LeJ1ZibUobUU7PTzHJNrO0W8Z1JFFDgKC4v4EVDFdruXiaHEo2zHgzUUw/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561442&idx=1&sn=ff19b548362d805004ac46490f41c80e&scene=21#wechat_redirect)
+
+[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LpicdoGW1qCV1ZLOhsv5iajvuX1DhP3x3aZia9KUpQ8PxWOpJk1HAPyWicQ/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247560764&idx=1&sn=e4d6353365f11bb0b723e130ddc6c548&scene=21#wechat_redirect)
+
+加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjf4zfCYI7jyKIHkwMrqf1LR9DkbxicHy9uVCnPebv8oxgjo1M6t0FDYhpH4YMgU5piaO2YicKB0upUQ/640?wx_fmt=jpeg&from=appmsg)

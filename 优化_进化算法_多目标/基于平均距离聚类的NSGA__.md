@@ -22,7 +22,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c180540?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2KUrfmAuC2BicEScW6Bj9lCqvJHXqwTbDbWfqrhKS3ZtlmZJmQIovAibA/640?wx_fmt=jpeg)
+![](基于平均距离聚类的NSGA___images/img_000_2f99f326996d.jpg)
 
   
 
@@ -40,11 +40,11 @@ NSGA-II是Deb 等在2002 年提出的多目标优化算法, 其具有较低计�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2Q8F6sk5vlMYWCLAj3U7qm8RyUgX9lsog61eTovvLXkmNWF8hENP2RQ/640?wx_fmt=png)
+![](基于平均距离聚类的NSGA___images/img_001_fedb48995408.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2uea0DSl4ibVcfVxaxLHvHTNoxCAlxenqQloNaE4zOOyvyuG7v8gZAew/640?wx_fmt=png)
+![](基于平均距离聚类的NSGA___images/img_002_89069003ce26.png)
 
   
 
@@ -52,7 +52,7 @@ NSGA-II是Deb 等在2002 年提出的多目标优化算法, 其具有较低计�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2pBwE6EpJicKrpr8dFLPPkbficdbzv8c8rU1Nv1XC2SfJItOV37XibKq7w/640?wx_fmt=jpeg)
+![](基于平均距离聚类的NSGA___images/img_003_d591513ced71.jpg)
 
 **崔志华**
 
@@ -62,7 +62,7 @@ E-mail: zhihua.cui@hotmail.com
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2Ob3ictsO9zh3uLkiccTzA1iazv6IEHUuiaVav6Ylvg6e7icMnGmPVGcc6YA/640?wx_fmt=jpeg)
+![](基于平均距离聚类的NSGA___images/img_004_cd4aca9650f2.jpg)
 
 **张茂清**
 
@@ -72,7 +72,7 @@ E-mail: maoqing\_zhang@163.com
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2SiaX64EdUELfWNhEENuH5RdCYxKiaujH8xP44FQz2xqkoQ5z3MF3j4wA/640?wx_fmt=jpeg)
+![](基于平均距离聚类的NSGA___images/img_005_ba1bd69bc5e4.jpg)
 
 **常  宇**
 
@@ -82,7 +82,7 @@ E-mail: YuChang78dd@163.com
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2Cym0Cw9eqibka634qYibfIRjazqoXCIkZnc2bwjf0JOATcKEnsAxzZ6Q/640?wx_fmt=jpeg)
+![](基于平均距离聚类的NSGA___images/img_006_ff52f017e52c.jpg)
 
 **张江江**
 
@@ -92,7 +92,7 @@ E-mail: jiangofyouth@163.com
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2QCg4mVQC8kbNicv9mCdEypxZNiawKia9GACJptibDyajTbf18Rt9muBoIw/640?wx_fmt=jpeg)
+![](基于平均距离聚类的NSGA___images/img_007_4a5e99a5571b.jpg)
 
 **王  晖**
 
@@ -102,7 +102,7 @@ E-mail: huiwang@nit.edu.cn
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2ESAgU9MsfwZU05VbdHFzBTH09xhBbVDwp5rFuA076jcwmrTiaTcmRbg/640?wx_fmt=jpeg)
+![](基于平均距离聚类的NSGA___images/img_008_b6c714063f55.jpg)
 
 **张文生**
 
@@ -180,49 +180,49 @@ E-mail: wensheng.zhang@ia.ac.cn
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2cg4iajRRsgFEH2OFka0nIqks0ULKkaDSRC271X9ibqoqPjh0rD9NFtlA/640?wx_fmt=jpeg)
+![](基于平均距离聚类的NSGA___images/img_009_8f1300bb12f7.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2qicO4kampttWcnqV13C4xMLTY1JDibVX3jmXzOItgA0Hic8f8Uckg8O3A/640?wx_fmt=jpeg)
+![](基于平均距离聚类的NSGA___images/img_010_7eea3817d3ee.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2ibEFG3WhjgkHvdVe4iamx7tTEC5zdZiaMbUgboVtTLCoOibLAEx6kgPk7Q/640?wx_fmt=gif)
+![](基于平均距离聚类的NSGA___images/img_011_2eeb988cfa44.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2ibEFG3WhjgkHvdVe4iamx7tTEC5zdZiaMbUgboVtTLCoOibLAEx6kgPk7Q/640?wx_fmt=gif)
+![](基于平均距离聚类的NSGA___images/img_012_2eeb988cfa44.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy21DuWV2icqQpDQnhupQv2bQkUrianwwdcHoK10ItAbeUo9LpPQB3Pls0Q/640?wx_fmt=jpeg)
+![](基于平均距离聚类的NSGA___images/img_013_24aa1d2929d4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2ibEFG3WhjgkHvdVe4iamx7tTEC5zdZiaMbUgboVtTLCoOibLAEx6kgPk7Q/640?wx_fmt=gif)
+![](基于平均距离聚类的NSGA___images/img_014_2eeb988cfa44.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2ibEFG3WhjgkHvdVe4iamx7tTEC5zdZiaMbUgboVtTLCoOibLAEx6kgPk7Q/640?wx_fmt=gif)
+![](基于平均距离聚类的NSGA___images/img_015_2eeb988cfa44.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2ibEFG3WhjgkHvdVe4iamx7tTEC5zdZiaMbUgboVtTLCoOibLAEx6kgPk7Q/640?wx_fmt=gif)
+![](基于平均距离聚类的NSGA___images/img_016_2eeb988cfa44.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2ibEFG3WhjgkHvdVe4iamx7tTEC5zdZiaMbUgboVtTLCoOibLAEx6kgPk7Q/640?wx_fmt=gif)
+![](基于平均距离聚类的NSGA___images/img_017_2eeb988cfa44.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2dA7SteDCkqibbPLo4dVJ1ehZuW9ribalG7XFAvqgy8DiaibbxmBrAUiaTjg/640?wx_fmt=jpeg)
+![](基于平均距离聚类的NSGA___images/img_018_6e02244f1863.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2ibEFG3WhjgkHvdVe4iamx7tTEC5zdZiaMbUgboVtTLCoOibLAEx6kgPk7Q/640?wx_fmt=gif)
+![](基于平均距离聚类的NSGA___images/img_019_2eeb988cfa44.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2ibEFG3WhjgkHvdVe4iamx7tTEC5zdZiaMbUgboVtTLCoOibLAEx6kgPk7Q/640?wx_fmt=gif)
+![](基于平均距离聚类的NSGA___images/img_020_2eeb988cfa44.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2ibEFG3WhjgkHvdVe4iamx7tTEC5zdZiaMbUgboVtTLCoOibLAEx6kgPk7Q/640?wx_fmt=gif)
+![](基于平均距离聚类的NSGA___images/img_021_2eeb988cfa44.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2ibEFG3WhjgkHvdVe4iamx7tTEC5zdZiaMbUgboVtTLCoOibLAEx6kgPk7Q/640?wx_fmt=gif)
+![](基于平均距离聚类的NSGA___images/img_022_2eeb988cfa44.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2mTPvzywMWibMLTNOOmMz2m120IBY9oOPpJHPsbqFQzg377oIHchVeSw/640?wx_fmt=jpeg)
+![](基于平均距离聚类的NSGA___images/img_023_6c5ec1d56399.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2ibEFG3WhjgkHvdVe4iamx7tTEC5zdZiaMbUgboVtTLCoOibLAEx6kgPk7Q/640?wx_fmt=gif)
+![](基于平均距离聚类的NSGA___images/img_024_2eeb988cfa44.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH447sicpzgS8H7XGFcoEvOhy2ibEFG3WhjgkHvdVe4iamx7tTEC5zdZiaMbUgboVtTLCoOibLAEx6kgPk7Q/640?wx_fmt=gif)
+![](基于平均距离聚类的NSGA___images/img_025_2eeb988cfa44.gif)
 
 **长按二维码｜关注我们**
 

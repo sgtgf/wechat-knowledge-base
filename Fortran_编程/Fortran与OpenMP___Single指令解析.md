@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/LtiP33ZCebNSXvXuH4s2Fg](https://mp.weixin.qq.com/s/LtiP33ZCebNSXvXuH4s2Fg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWPaTI5ib9rlIAT9XLOVTG09RKyDJUtax4xHXicOuhhn3tc9GLibAH0xOVytfovJa6WhicCg8QyKibCqtQ/640?wx_fmt=jpeg&from=appmsg)
+![](Fortran与OpenMP___Single指令解析_images/img_000_b98bb3d66472.jpg)
 
 在并行计算领域，OpenMP 作为一种广泛使用的并行编程接口，为 Fortran 等高级语言提供了强大的支持。特别是在多核处理器普及的今天，如何有效地利用这些核心资源成为了提升程序性能的关键。本文将详细介绍 OpenMP 中的`single`指令，帮助 Fortran 程序员更好地理解和应用这一指令，从而优化并行程序的设计。
 
@@ -26,7 +26,7 @@
 -   「copyprivate(变量列表)」：这个子句用于将`single`结构中修改的私有变量的值复制到其他线程的相应变量中。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWkibFQNlqlw9vWAJiaWwAiak3yHbo4vGzrgE9W9xI9S5qIlQAjfZkibQWJ3lOVaMdt0zQyL3wcqlB4ZA/640?wx_fmt=jpeg&from=appmsg)
+![](Fortran与OpenMP___Single指令解析_images/img_001_7d224165fbe5.jpg)
 
 ## 注意事项
 
@@ -94,10 +94,10 @@ Fortran与OpenMP | 从"Hello World"启航
 
 # 推荐阅读
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.5525099211882534&random=0.9864757539671867&random=0.7575622890331561&random=0.6526959208642249&random=0.3992112753232937)
+![](Fortran与OpenMP___Single指令解析_images/img_002_a4233b93b256.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 
 有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWPaTI5ib9rlIAT9XLOVTG09BZRqrD4BaTJiaPIJeovJzsbDpxNxPQ3yj9KMlhFhic6oLWeHhC2ScGNQ/640?wx_fmt=jpeg&from=appmsg)
+![](Fortran与OpenMP___Single指令解析_images/img_003_47795bb5a0db.jpg)

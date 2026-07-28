@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/TnocuR4xaQomHjO7QA5WVw](https://mp.weixin.qq.com/s/TnocuR4xaQomHjO7QA5WVw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+![](现代Fortran探索之旅___指针_images/img_000_8bcddb233e93.jpg)
 
 Fortran中的指针是一种引用类型，允许程序引用存储位置，从而可以间接地访问该位置上的数据。虽然Fortran的指针与其他编程语言中的指针在某些方面有所不同，但它们的核心概念是相似的。下面将详细解释Fortran指针的用法，力求通俗易懂。
 
@@ -128,7 +128,7 @@ TYPE :: node  REAL :: value  TYPE(node), POINTER :: nextEND TYPE
 
 Fortran中的指针是一个强大的工具，它允许你以更灵活的方式访问和操作内存中的数据。通过掌握指针的基本概念和用法，你可以编写出更高效、更灵活的Fortran代码来处理各种复杂的数据结构和算法问题。然而，与所有强大的工具一样，使用指针时也需要谨慎行事以避免潜在的问题和风险。希望本文能为你提供一个良好的起点，助你在Fortran编程的道路上更进一步！
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](现代Fortran探索之旅___指针_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于 Fortran 90 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

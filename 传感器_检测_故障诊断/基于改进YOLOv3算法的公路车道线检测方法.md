@@ -60,19 +60,19 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190178?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44uxkMgWricgHymOkpicTyFk35LNU5z7wyQjvwon6P6iaB120Rq7Ly3XIdQkqte1eZm6tLHdIYoqbDxg/640?wx_fmt=jpeg)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_000_c441eb0cf77e.jpg)
 
 图 3  改进YOLOv3算法的网络结构
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44uxkMgWricgHymOkpicTyFk31qkPcQ7GIeE6MvibXpVMbu8nREEX2YBaRnxTJUlicvculceDloq6cGaw/640?wx_fmt=jpeg)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_001_0ee2434c417e.jpg)
 
 图 4  公路车道线检测框图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3DTuSryngmwxcctqicQ6j0QvwgVicOL6SxJIWYC4baK4OqVTROS3XDNvw/640?wx_fmt=jpeg)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_002_0b8cd189f572.jpg)
 
 图 8  车道线测试效果
 
@@ -84,7 +84,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190178?viewType=HTML
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3Y9u8iaIP0Uqq2Yr53721Njp2bgkuqTzCsOMNbbLsPBuw7NZwSKfysVg/640?wx_fmt=png)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_003_b017f13f1a91.png)
 
 **崔文靓**
 
@@ -92,7 +92,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190178?viewType=HTML
 
 E-mail: cuiwliang@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3FKdFfIfhz2prhNKcK0esC5nzDkhnZN9XMYicgqibNL7wGX4jaTsnJJSw/640?wx_fmt=png)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_004_6459d422732b.png)
 
 **王玉静**
 
@@ -100,7 +100,7 @@ E-mail: cuiwliang@163.com
 
 E-mail: mirrorwyj@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3ocTHuBUra5u4ibfMUxOtROr2GtX6ficfZ5P0HiaCok82eNkTV6JAynEVg/640?wx_fmt=png)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_005_38fd1e52f50e.png)
 
 **康守强**
 
@@ -108,7 +108,7 @@ E-mail: mirrorwyj@163.com
 
 E-mail: kangshouqiang@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3pZ2L4uddu6H6ZQUibzCjI1jJb5TH1NxAulcwSnGLJwHQP86mdibchYpg/640?wx_fmt=png)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_006_77b04489a14f.png)
 
 **谢金宝**
 
@@ -116,7 +116,7 @@ E-mail: kangshouqiang@163.com
 
 E-mail: xjbpost@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3y0j5frGNMXGcJa8BBiaBemFpaUOEup29Ey7sqibhzBTn1bf8fXA5H7JQ/640?wx_fmt=png)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_007_f76325e36584.png)
 
 **王庆岩**
 
@@ -124,7 +124,7 @@ E-mail: xjbpost@163.com
 
 E-mail: wangqy@hrbust.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44uxkMgWricgHymOkpicTyFk32c0ualW3IPxicFzEiaD7DfEcTKhic39Y9alMmTh53iaiaqRfRTSewBmp0cA/640?wx_fmt=png)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_008_40b2ab2fd6de.png)
 
 **MIKULOVICH Vladimir Ivanovich**
 
@@ -384,49 +384,49 @@ http://www.aas.net.cn/cn/article/id/14441?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3T8UsezPy6AicZyDSfquZ9CJQ1KLyrjdFkAMxvPHxtlwEW4jYWtvenBg/640?wx_fmt=png)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_009_a0055363c21f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3OwMpmiaO3RdcdXBlktMbWV8Gyr7cZkfZy0tXSnicx8xbehnPmVMw6evQ/640?wx_fmt=png)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_010_8a89c2a53665.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3j8x71LIdJAq0jbX0Oz1tYZRpGlQ81WXnNHacd55OLeI0GSkhc9kN5A/640?wx_fmt=gif)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_011_55a9b8a55d3f.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3j8x71LIdJAq0jbX0Oz1tYZRpGlQ81WXnNHacd55OLeI0GSkhc9kN5A/640?wx_fmt=gif)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_012_55a9b8a55d3f.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3d5Z6BbQQpuUMvKZ1M8gqo3cgCWzCZup5AoFNQ6LV3Btib5Wj2PcymRA/640?wx_fmt=jpeg)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_013_8a50d48af88a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3j8x71LIdJAq0jbX0Oz1tYZRpGlQ81WXnNHacd55OLeI0GSkhc9kN5A/640?wx_fmt=gif)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_014_55a9b8a55d3f.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3j8x71LIdJAq0jbX0Oz1tYZRpGlQ81WXnNHacd55OLeI0GSkhc9kN5A/640?wx_fmt=gif)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_015_55a9b8a55d3f.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3j8x71LIdJAq0jbX0Oz1tYZRpGlQ81WXnNHacd55OLeI0GSkhc9kN5A/640?wx_fmt=gif)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_016_55a9b8a55d3f.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3j8x71LIdJAq0jbX0Oz1tYZRpGlQ81WXnNHacd55OLeI0GSkhc9kN5A/640?wx_fmt=gif)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_017_55a9b8a55d3f.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3nl2G37Y2vZfaictcxAgbRZsODZibuHQEBrlPAEB3quekDowyMRJMxK3Q/640?wx_fmt=jpeg)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_018_de31c4d368b8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3j8x71LIdJAq0jbX0Oz1tYZRpGlQ81WXnNHacd55OLeI0GSkhc9kN5A/640?wx_fmt=gif)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_019_55a9b8a55d3f.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3j8x71LIdJAq0jbX0Oz1tYZRpGlQ81WXnNHacd55OLeI0GSkhc9kN5A/640?wx_fmt=gif)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_020_55a9b8a55d3f.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3j8x71LIdJAq0jbX0Oz1tYZRpGlQ81WXnNHacd55OLeI0GSkhc9kN5A/640?wx_fmt=gif)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_021_55a9b8a55d3f.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3j8x71LIdJAq0jbX0Oz1tYZRpGlQ81WXnNHacd55OLeI0GSkhc9kN5A/640?wx_fmt=gif)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_022_55a9b8a55d3f.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3SvqRaE6dmu0ict67Kg0ibQy0EkRJ1XoIIQtZl20BFQdUicrmP2LChYRYQ/640?wx_fmt=jpeg)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_023_52009de48b72.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3j8x71LIdJAq0jbX0Oz1tYZRpGlQ81WXnNHacd55OLeI0GSkhc9kN5A/640?wx_fmt=gif)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_024_55a9b8a55d3f.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44uxkMgWricgHymOkpicTyFk3j8x71LIdJAq0jbX0Oz1tYZRpGlQ81WXnNHacd55OLeI0GSkhc9kN5A/640?wx_fmt=gif)
+![](基于改进YOLOv3算法的公路车道线检测方法_images/img_025_55a9b8a55d3f.gif)
 
 **长按二维码｜关注我们**
 

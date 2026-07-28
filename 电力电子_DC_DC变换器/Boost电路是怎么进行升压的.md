@@ -1,0 +1,45 @@
+# Boost电路是怎么进行升压的
+
+原创 蜗牛 硬件笔记本 2020-12-30 18:45 undefined
+
+> 原文地址: [https://mp.weixin.qq.com/s/JAKU1PLkYgiqdWNLWksRzg](https://mp.weixin.qq.com/s/JAKU1PLkYgiqdWNLWksRzg)
+
+如图为Boost升压基本电路
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIHmgZWk4WS1k37YE79iacPMD5jfMbYrH2rAk2tRTbcU0uaqduAUmZ9WQcIzVVv95y7iamyHdkFyv1w/640?wx_fmt=jpeg)
+
+  
+
+Q1开通时，相当于电感将输入源Vin短路，电感电流就会以固定斜率增长，此时电感在储能。电感电压的方向为左正右负。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIHmgZWk4WS1k37YE79iacPMobP3kj86DsjebvMB78LXOIHeIiaQcgiczbiabn7iaFaibXvUnM2Fa91rKicw/640?wx_fmt=jpeg)
+
+此时，Vin=L\*（△i/△t通），
+
+化简为△i=（Ui\*T\*D）/L……①
+
+其中△t通为Q1开通时间，T为开关周期，D为占空比。
+
+  
+
+当Q1断开时，由于电感电流不能突变，电感电流继续沿着原来的方向，同时由于闭环路径中阻抗增加（路径中有了输出电容），电感电流势必减小。而电感要阻止其减小，会产生反向电动势VL。此时输出电压C1上的电压就等于电感上的反向电动势VL加Vin。
+
+  
+
+可以理解为原来一节电池，后来变成两节电池串联。因此输出电压也就比输入电压高，实现了升压。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIHmgZWk4WS1k37YE79iacPMuG9kWv7aibUP5iaC0P0dz0VibsicDbJPU1hickuvic2htpice4AtWreYRXviag/640?wx_fmt=jpeg)
+
+此时，L\*（△i/△t断）+ Vin = Vout
+
+化简为△i={（Vout-Vin）\*（T - T\*D）}/L……②
+
+△t断为Q1断开时间  
+
+  
+
+在Q1断开的那一瞬间由于电感电流不能突变，所以开通和关断那一刻的电流△i相等。
+
+根据①②可得Uo/Ui=1/（1-D），占空比D＜1，所以输出电压比输入电压高。

@@ -1,0 +1,348 @@
+# 如何画出完美的PCB板子？
+
+原创 硬件笔记本 2023-02-01 07:40 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/6vP3ewvs2YUSFEDraVIggw](https://mp.weixin.qq.com/s/6vP3ewvs2YUSFEDraVIggw)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+**一、布局**
+
+**元器件布局的10条规则：**
+
+1\. 遵照“先大后小，先难后易”的布置原则，即重要的单元电路、核心元器件应当优先布局．
+
+2\. 布局中应参考原理框图，根据单板的主信号流向规律安排主要元器件．
+
+3\. 元器件的排列要便于调试和维修，亦即小元件周围不能放置大元件、需调试的元、器件周围要有足够的空间。 
+
+4\. 相同结构电路部分，尽可能采用“对称式”标准布局；
+
+5\. 按照均匀分布、重心平衡、版面美观的标准优化布局； 
+
+6\. 同类型插装元器件在X或Y方向上应朝一个方向放置。同一种类型的有极性 分立元件也要力争在X或Y方向上保持一致，便于生产和检验。 
+
+7\. 发热元件要一般应均匀分布，以利于单板和整机的散热，除温度检测元件以外的温度敏感器件应远离发热量大的元器件。 
+
+8\. 布局应尽量满足以下要求:总的连线尽可能短，关键信号线最短；高电压、大电流信号与小电流，低电压的弱信号完全分开；模拟信号与数字信号分开；高频信号与低频信号分开；高频元器件的间隔要充分。
+
+9、去偶电容的布局要尽量靠近IC的电源管脚，并使之与电源和地之间形成的回路最短。 
+
+10、元件布局时,应适当考虑使用同一种电源的器件尽量放在一起, 以便于将来的电源分隔。 
+
+  
+
+**二、布线**
+
+**（1）布线优先次序**
+
+键信号线优先：摸拟小信号、高速信号、时钟信号和同步信号等关键信号优先布线 
+
+密度优先原则：从单板上连接关系最复杂的器件着手布线。从单板上连线 最密集的区域开始布线 
+
+注意点：
+
+a、尽量为时钟信号、高频信号、敏感信号等关键信号提供专门的布线层，并保证其最小的回路面积。必要时应采取手工优先布线、屏蔽和加大安全间距等方法。保证信号质量。 
+
+b、电源层和地层之间的EMC环境较差，应避免布置对干扰敏感的信号。
+
+c、有阻抗控制要求的网络应尽量按线长线宽要求布线。 
+
+  
+
+**（2）四种具体走线方式**
+
+**1 、时钟的布线：**
+
+时钟线是对EMC 影响最大的因素之一。在时钟线上应少打过孔，尽量避免和其它信号线并行走线，且应远离一般信号线，避免对信号线的干扰。同时应避开板上的电源部分，以防止电源和时钟互相干扰。
+
+如果板上有专门的时钟发生芯片，其下方不可走线，应在其下方铺铜，必要时还可以对其专门割地。对于很多芯片都有参考的晶体振荡器，这些晶振下方也不应走线，要铺铜隔离。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAIqazcnLt0CaXPk7QcGsEhHqTg76h4fwOWKXnX47uXPiaIy4hicNpTWmA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**2、直角走线:**
+
+直角走线一般是PCB布线中要求尽量避免的情况，也几乎成为衡量布线好坏的标准之一，那么直角走线究竟会对信号传输产生多大的影响呢？从原理上说，直角走线会使传输线的线宽发生变化，造成阻抗的不连续。其实不光是直角走线，顿角，锐角走线都可能会造成阻抗变化的情况。
+
+直角走线的对信号的影响就是主要体现在三个方面：
+
+一是拐角可以等效为传输线上的容性负载，减缓上升时间；
+
+二是阻抗不连续会造成信号的反射；
+
+三是直角尖端产生的EMI。
+
+  
+
+**3、差分走线:**
+
+参看：Altium Designer -- 差分布线和阻抗匹配
+
+差分信号（Differential Signal）在高速电路设计中的应用越来越广泛，电路中最关键的信号往往都要采用差分结构设计.定义:通俗地说，就是驱动端发送两个等值、反相的信号，接收端通过比较这两个电压的差值来判断逻辑状态“0”还是“1”。而承载差分信号的那一对走线就称为差分走线。
+
+差分信号和普通的单端信号走线相比，最明显的优势体现在以下三个方面：
+
+a.抗干扰能力强，因为两根差分走线之间的耦合很好，当外界存在噪声干扰时，几乎是同时被耦合到两条线上，而接收端关心的只是两信号的差值，所以外界的共模噪声可以被完全抵消。
+
+b.能有效抑制EMI，同样的道理，由于两根信号的极性相反，他们对外辐射的电磁场可以相互抵消，耦合的越紧密，泄放到外界的电磁能量越少。
+
+c.时序定位精确，由于差分信号的开关变化是位于两个信号的交点，而不像普通单端信号依靠高低两个阈值电压判断，因而受工艺，温度的影响小，能降低时序上的误差，同时也更适合于低幅度信号的电路。目前流行的LVDS（low voltage differential signaling）就是指这种小振幅差分信号技术。
+
+  
+
+**对于PCB工程师来说，最关注的还是如何确保在实际走线中能完全发挥差分走线的这些优势。也许只要是接触过Layout的人都会了解差分走线的一般要求，那就是“等长、等距”。**
+
+  
+
+等长是为了保证两个差分信号时刻保持相反极性，减少共模分量；等距则主要是为了保证两者差分阻抗一致，减少反射。“尽量靠近原则”有时候也是差分走线的要求之一。
+
+  
+
+**4、蛇形线:**
+
+蛇形线是Layout中经常使用的一类走线方式。其主要目的就是为了调节延时，满足系统时序设计要求。设计者首先要有这样的认识：蛇形线会破坏信号质量，改变传输延时，布线时要尽量避免使用。但实际设计中，为了保证信号有足够的保持时间，或者减小同组信号之间的时间偏移，往往不得不故意进行绕线。
+
+注意点:
+
+成对出现的差分信号线，一般平行走线，尽量少打过孔，必须打孔时，应两线一同打孔，以做到阻抗匹配。
+
+相同属性的一组总线，应尽量并排走线，做到尽量等长。从贴片焊盘引出的过孔尽量离焊盘远些。
+
+        ![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIACvfeNU0sTTFjZibibV5EEFFFQ2jnb4CEFTDXV8RZWPamtHcU1p4KV8Jw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+**（3）布线常用规则**
+
+**1、走线的方向控制规则：** 
+
+即相邻层的走线方向成正交结构。避免将不同的信号线在相邻层走成同一方向，以减少不必要的层间窜扰；当由于板结构限制（如某些背板）难以避免出现该情况，特别是信号速率较高时，应考虑用地平面隔离各布线层，用地信号线隔离各信号线。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIA8QUXbHHhdauaicNHUW9uEoDNUCPpcf89HFR1gERDkbJWKx3VdrzOuyA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**2、走线的开环检查规则：**
+
+一般不允许出现一端浮空的布线（Dangling Line), 主要是为了避免产生"天线效应"，减少不必要的干扰辐射和接受，否则可能带来不可预知的结果。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAvurgIWlia1NDr3MSOee26qt1VZ4IsPz9QDibZiatXMTzC3ice01icibiccBuQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**3、阻抗匹配检查规则：** 
+
+同一网络的布线宽度应保持一致，线宽的变化会造成线路特性阻抗的不均匀，当传输的速度较高时会产生反射，在设计中应该尽量避免这种情况。在某些条件下，如接插件引出线，BGA封装的引出线类似的结构时，可能无法避免线宽的变化，应该尽量减少中间不一致部分的有效长度。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIA88UPN3xaFYANVYSB4OSHxrIQ8q7HjqvQMJavDbOFcWI6OwltfGT2rA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**4、走线长度控制规则：** 
+
+即短线规则，在设计时应该尽量让布线长度尽量短，以减少由于走线过长带来的干扰问题，特别是一些重要信号线，如时钟线，务必将其振荡器放在离器件很近的地方。对驱动多个器件的情况，应根据具体情况决定采用何种网络拓扑结构。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAjzVsZKuTYaqSHg5H3l1jriaPM8OwsUuMXsd3S3kRs64jgUibtIhYfq1A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**5、倒角规则：** 
+
+PCB设计中应避免产生锐角和直角， 产生不必要的辐射，同时工艺性能也不好。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAK5HicsmSOhMERdLbiaBu0l7mWmpz0OQQclvlwziaibBezDcib6NiasQlicREA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**6、器件去耦规则：** 
+
+A. 在印制版上增加必要的去耦电容，滤除电源上的干扰信号，使电源信号稳定。在多层板中，对去耦电容的位置一般要求不太高，但对双层板，去耦电容的布局及电源的布线方式将直接影响到整个系统的稳定性，有时甚至关系到设计的成败。 
+
+B. 在双层板设计中，一般应该使电流先经过滤波电容滤波再供器件使用。 
+
+C. 在高速电路设计中，能否正确地使用去耦电容，关系到整个板的稳定性。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAuBxSYL5LKETHTgOojcyoxMgrGF6CbO100CND1sSibw75JHwNqFxrQsw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**7、器件布局分区/分层规则：** 
+
+A. 主要是为了防止不同工作频率的模块之间的互相干扰，同时尽量缩短高频部分的布线长度。
+
+B. 对混合电路，也有将模拟与数字电路分别布置在印制板的两面，分别使用不同的层布线，中间用地层隔离的方式。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAYGicrcIPOicZmuSLxIVpxYBJib89MEYgRqP6jqW88b1KFDERPD4z1RbDw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**8、地线回路规则：**
+
+环路最小规则，即信号线与其回路构成的环面积要尽可能小，环面积越小，对外的辐射越少，接收外界的干扰也越小。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIA23mppwpGYrNZowBqpSTUvjnCyO6gXmGsMSPTjWaoPibo9UaacmP7dPQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**9、电源与地线层的完整性规则：** 
+
+对于导通孔密集的区域，要注意避免孔在电源和地层的挖空区域相互连接，形成对平面层的分割，从而破坏平面层的完整性，并进而导致信号线在地层的回路面积增大。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAvDOlLOtfXibNVJKJJ8Ifzic76zxFibO57K2Nl74ZbodPtKOBYDwQrQXSQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**10、3W规则：** 
+
+为了减少线间串扰，应保证线间距足够大，当线中心间距不少于3倍线宽时，则可保持70%的电场不互相干扰，称为3W规则。如要达到98%的电场不互相干扰，可使用10W的间距。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIARrQA0W9hBYN1MiaU5pd2vlKn6YX3Gyhy9ahVT6Lod4ZGXv5YW2A1kYQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**11、屏蔽保护：**
+
+对应地线回路规则，实际上也是为了尽量减小信号的回路面积，多见于一些比较重要的信号，如时钟信号，同步信号；对一些特别重要，频率特别高的信号，应该考虑采用铜轴电缆屏蔽结构设计，即将所布的线上下左右用地线隔离，而且还要考虑好如何有效的让屏蔽地与实际地平面有效结合。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAGuOYoym1cQypgQtxRz6BtlAw9np4KNMVBudaDgBGoGP0JbpqwbZdmg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**12、走线终结网络规则：**
+
+在高速数字电路中， 当PCB布线的延迟时间大于信号上升时间（或下降时间） 的1/4时，该布线即可以看成传输线，为了保证信号的输入和输出阻抗与传输线的阻抗正确匹配，可以采用多种形式的匹配方法， 所选择的匹配方法与网络的连接方式和布线的拓朴结构有关。
+
+A. 对于点对点（一个输出对应一个输入） 连接， 可以选择始端串联匹配或终端并联匹配。前者结构简单，成本低，但延迟较大。后者匹配效果好，但结构复杂，成本较高。
+
+B. 对于点对多点（一个输出对应多个输出） 连接， 当网络的拓朴结构为菊花链时，应选择终端并联匹配。当网络为星型结构时，可以参考点对点结构。星形和菊花链为两种基本的拓扑结构, 其他结构可看成基本结构的变形, 可采取一些灵活措施进行匹配。在实际操作中要兼顾成本、 功耗和性能等因素， 一般不追求完全匹配，只要将失配引起的反射等干扰限制在可接受的范围即可。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIANQic1X1J7Y0X48qrULdx2AyUKG47LkS11A25krkA2OfL95vAFeavPUg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**13、走线闭环检查规则：**
+
+防止信号线在不同层间形成自环。在多层板设计中容易发生此类问题， 自环将引起辐射干扰。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAayVruHyM0fIvBJu5l3MUaxne09K4Ba0nNA1mnx5lpR0IK7nm3NEAOQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**14、走线的分枝长度控制规则：**
+
+尽量控制分枝的长度，一般的要求是Tdelay<=Trise/20。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAJ7iaia63DjbgR8IefJ0e4g5m2RNfaE8lvmsRgRiaPeWVyrlr8kpe4VntQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**15、走线的谐振规则：**
+
+主要针对高频信号设计而言， 即布线长度不得与其波长成整数倍关系， 以免产生谐振现象。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAzRMAIFWw8pmg3QjeicLibqibX7Nptc501oC3sKMZ0fAxqAxQXxsRLAlRA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**16、孤立铜区控制规则：**
+
+孤立铜区的出现， 将带来一些不可预知的问题， 因此将孤立铜区与别的信号相接， 有助于改善信号质量，通常是将孤立铜区接地或删除。在实际的制作中， PCB厂家将一些板的空置部分增加了一些铜箔，这主要是为了方便印制板加工，同时对防止印制板翘曲也有一定的作用。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIA8VqwRsEItXBvTO8jRbVF0qzg2lwCkoVydCLC6meRW6vHPXcIBNDYxQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**17、重叠电源与地线层规则：**
+
+不同电源层在空间上要避免重叠。主要是为了减少不同电源之间的干扰， 特别是一些电压相差很大的电源之间， 电源平面的重叠问题一定要设法避免， 难以避免时可考虑中间隔地层。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAzpDk5Nw1EUXZ4dYyHd174lsj4nBnTEXUqdhzdOP0p6zkl5hq5gH1NQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**18、20H规则：**
+
+由于电源层与地层之间的电场是变化的， 在板的边缘会向外辐射电磁干扰。称为边沿效应。
+
+解决的办法是将电源层内缩， 使得电场只在接地层的范围内传导。以一个H（电源和地之间的介质厚度）为单位，若内缩20H则可以将70%的电场限制在接地层边沿内；内缩100H则可以将98%的电场限制在内。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAIbvBBhsJ3tAtG3F9qpwrdH3OYlNx8vg2XmwKxOeACzzOoias06TZwRg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  
+
+**（4）其他**
+
+对于单双层板电源线应尽量粗而短。电源线和地线的宽度要求可以根据1mm的线宽最大对应1A 的电流来计算，电源和地构成的环路尽量小。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIA0VWwFlXM3OPM1p5fxNNpsKAAlCb2CMT48WY3aibR3pEDdcL87c1U7pg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+为了防止电源线较长时，电源线上的耦合杂讯直接进入负载器件，应在进入每个器件之前，先对电源去藕。且为了防止它们彼此间的相互干扰，对每个负载的电源独立去藕，并做到先滤波再进入负载。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAtBg5UPpG7bYeTe7kzRN9sSabsS8XCJMottu1JaaNvAhyN1iaUEgIy4Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+在布线中应保持接地良好。如下图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIA2sewsZ6VvcDHibQJaicbkWXYSJ5XPCOtKewia5sMmzQzdP4vDUMXzib97A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+**三、DDR 布线规则**
+
+**（1）首先了解下 DDR2 信号的组成：**
+
+我用的DDR2芯片型号为：MT47H64M16HG
+
+封装：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAqMa8zjJ77JZmw7GplvR13jtQicjcMjgMREypqp2byTiaJtic7tQ7KZmGw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+引脚定义：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAT4J1IcbmuDxIbwt8LXuLkwjjgnv1DBRzH5v2aOZuxzLgJ4D3fp8iaGg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAAUVJRARwhdep158HB4c4gtskzMJSic7PVd7cibSk1H1od3JW9P8iaLctQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+原理图：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/LjN0kIsMFYCZ0dTTgqmI01rMRPNGpWIAdvGtB6pFRbFXOpcGYk734mOgicGibeHpWiaruKUGds3qwvbjfXHVNEGsg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+  数据线和地址线：
+
+数据线：DQ\[0-15\]，DQS，DM，（时钟信号）CK/CK#
+
+地址线：A\[0-15\]，BA\[0-2\]，（控制信号）CS/WE/RAS/CAS，CKE、ODT
+
+**原文链接：**
+
+**https://blog.csdn.net/qq\_29350001/article/details/51781419**
+
+版权声明：文章转自CSDN。版权归原作者所有，如有侵权，请联系我们删除！
+
+## 
+
+**声明：**
+
+  
+
+声明：本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+  
+
+**推荐阅读▼**
+
+-   硬件精选文章
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

@@ -3,17 +3,17 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/S2o1DhqckT6qPbBAIo-ZXw](https://mp.weixin.qq.com/s/S2o1DhqckT6qPbBAIo-ZXw)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/VIM0SmWQpWvsQIEAS5b228jQGB4FurcBibs2iaubicTaW5IkOa3r4XpLaPyzmen89DAcSJr1ObOucT9iceic0xehFcg/640?)
+![](一个Fortran程序的诞生_逐步解析GFortran的编译过程_images/img_000_c86aef6f3bea.png)
 
 点击上方「蓝字」关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2MhiaCtgicxW6hVicfNzL5yE9b4tViaWuriaVsWhgzqbAxD0eIYhziaLtLI1uwLENGob23fQJEVe1M77eMPRP8yNHrKQ/640?)
+![](一个Fortran程序的诞生_逐步解析GFortran的编译过程_images/img_001_782af324a974.png)
 
 在科学计算和工程领域，Fortran语言因其卓越的性能和高效处理数值运算的能力而备受青睐。当谈及如何将一行行Fortran代码转化为可执行的程序时，编译器扮演了至关重要的角色。GFortran，作为GNU项目的一部分，是GNU Fortran编译器，它延续了GCC（GNU Compiler Collection）的传奇，专为Fortran语言设计，支持最新的Fortran标准，包括Fortran 2003、2008及后续版本。本文将揭示GFortran如何通过一系列精细的步骤，将Fortran程序从概念变为现实。
 
 ## 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/ZlqFTnJCYqyDBOqD1KIOwsEY8meFVQgj7ZbKw49XaibYeJ2yrAibbhicbiaSxGm9P8JFps5hkux716MOuEFpeyXbpg/640?&random=0.4168364763273089&random=0.5478140280497255&random=0.59045494124169)
+![](一个Fortran程序的诞生_逐步解析GFortran的编译过程_images/img_002_8b0ccd2ab337.png)
 
 GFortran是谁？
 
@@ -21,7 +21,7 @@ GFortran是谁？
 
 GFortran起源于对Fortran语言的热爱和对高性能计算的追求。Gfortran这个名字结合了“GNU”和“Fortran”，明确指出了它属于GNU项目并且专门服务于Fortran语言的编译需求。作为GNU编译器家族的一员，它不仅继承了GCC的强大功能，还针对Fortran语言特性进行了深度优化。GFortran不仅仅是一个编译器，它更是连接开发者思维与机器语言的桥梁。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVuZI1xY9Zfe3WmicUB21VaS6DkicruDbJSCQD6ibxMcubvDf3eBAaZFC0iayqxVZhelANTGmX5icQu41A/640?wx_fmt=png&from=appmsg)
+![](一个Fortran程序的诞生_逐步解析GFortran的编译过程_images/img_003_35218b133e6e.png)
 
 ### 功能特点
 
@@ -48,7 +48,7 @@ GFortran起源于对Fortran语言的热爱和对高性能计算的追求。Gfort
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/ZlqFTnJCYqyDBOqD1KIOwsEY8meFVQgj7ZbKw49XaibYeJ2yrAibbhicbiaSxGm9P8JFps5hkux716MOuEFpeyXbpg/640?&random=0.6187990138926003&random=0.14639696908907607)
+![](一个Fortran程序的诞生_逐步解析GFortran的编译过程_images/img_004_e6e8b3dd7e5b.png)
 
 Fortran程序的孕育过程
 
@@ -58,7 +58,7 @@ Fortran程序的孕育过程
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVuZI1xY9Zfe3WmicUB21VaSwSNmlicfW0tPY6XvbukTEGjQlvb4LaBD1n2rnfvOPBxufrqK5F8diaLA/640?wx_fmt=png&from=appmsg)
+![](一个Fortran程序的诞生_逐步解析GFortran的编译过程_images/img_005_1e69df6346ef.png)
 
 ### 第一阶段：预处理（Preprocessing）
 
@@ -78,7 +78,7 @@ Fortran程序的孕育过程
 
 ## 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/ZlqFTnJCYqyDBOqD1KIOwsEY8meFVQgj7ZbKw49XaibYeJ2yrAibbhicbiaSxGm9P8JFps5hkux716MOuEFpeyXbpg/640?&random=0.7136970363204531&random=0.4095623008559952&random=0.9875999085661833)
+![](一个Fortran程序的诞生_逐步解析GFortran的编译过程_images/img_006_ce6e81729903.png)
 
 实战演练
 
@@ -104,7 +104,7 @@ Fortran程序的孕育过程
 
 继续编译，生成了汇编代码文件（`sample.s`），包含以下内容：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVuZI1xY9Zfe3WmicUB21VaS99GFUPfnyW9iaJORXpl4z9mWa8SKazzd2lrTicMjSuJ3whbRMNsmvlIw/640?wx_fmt=png&from=appmsg)
+![](一个Fortran程序的诞生_逐步解析GFortran的编译过程_images/img_007_68e28a0e9ad3.png)
 
 ### 3\. 汇编：
 
@@ -112,7 +112,7 @@ Fortran程序的孕育过程
 
 进一步，将汇编代码编译为目标文件（`sample.o`），全部为二进制代码：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVuZI1xY9Zfe3WmicUB21VaSMhoCtibibrxpunRyIxFs84jBZmZgSUm8A6R0CI2chCUrByusca1iboPSA/640?wx_fmt=png&from=appmsg)
+![](一个Fortran程序的诞生_逐步解析GFortran的编译过程_images/img_008_ad27ebaa8166.png)
 
 ### 4\. 链接：
 
@@ -120,7 +120,7 @@ Fortran程序的孕育过程
 
 最后，通过以上命令完成链接，生成了可执行文件（`sample.exe`）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVuZI1xY9Zfe3WmicUB21VaSFvvZiaYcCibITpVABdjhMxoX9VaTOHOaWsBX7ehSbcqp9qYZQmOzImhQ/640?wx_fmt=png&from=appmsg)
+![](一个Fortran程序的诞生_逐步解析GFortran的编译过程_images/img_009_b2163ed355e1.png)
 
   
 
@@ -130,7 +130,7 @@ Fortran程序的孕育过程
 
 ## 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/ZlqFTnJCYqyDBOqD1KIOwsEY8meFVQgj7ZbKw49XaibYeJ2yrAibbhicbiaSxGm9P8JFps5hkux716MOuEFpeyXbpg/640?)
+![](一个Fortran程序的诞生_逐步解析GFortran的编译过程_images/img_010_edecc604a63a.png)
 
 小结
 
@@ -152,12 +152,12 @@ Fortran程序的孕育过程
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.9539727094076849&random=0.8226163506660595&random=0.6905061688803527&random=0.827054233979573&random=0.20298406733969632)
+![](一个Fortran程序的诞生_逐步解析GFortran的编译过程_images/img_011_5321db92a65c.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 
 有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的免费试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。
 
-**喜欢****作者******，请点********赞********和在看******![](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6459285066781566&tp=webp)**
+**喜欢****作者******，请点********赞********和在看******![](一个Fortran程序的诞生_逐步解析GFortran的编译过程_images/img_012_524209a69a4f.gif)**
 
-**![](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.90499299240585&tp=webp)**
+**![](一个Fortran程序的诞生_逐步解析GFortran的编译过程_images/img_013_f01f5ec3b46f.gif)**

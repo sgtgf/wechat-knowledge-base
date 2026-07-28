@@ -7,31 +7,31 @@
 
 满足cos函数的边值问题：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMu59b9dRkZMAM3ySKr14AIUSuOuex2kkeEJKuF7twjUDxXjibiah33iclQ/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_000_ad3b1a59246e.png)
 
 求解区域离散x=(0,2pi)
 
 该边值问题的解析解为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMg2CsK97MmlTkz1FDNdEJKgQQ1pXBKfPXsibVANHV91fqMPyqxAMspiaw/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_001_1fb7bfd22135.png)
 
 **2.有限元离散方程推导**
 
 首先对求解区域离散，例如x=(0,2pi)区域离散得到的网格：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMXqATSGdArHlzvvalWMKJJNOpiaHTibA5agxHcicIWFicOCHnlHxibSkxDFA/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_002_60193c22573b.png)
 
 这里展示离散成3个单元段，四个节点，对应编号关系如下：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMvxGXYkkOicM7rOa3WBSe1zeh4RqUmcgQWlCqLQ76JDXv9Yia07GSxicFg/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_003_43ba1f3b290a.png)
 
 针对离散网格，使用伽辽金推导方法对连续的边值问题进行离散，首先对微分方程乘以试探函数，并且再求解区域积分，得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMdbdIVRaJ3O5FkJV1EMTr6YoohS0gw911Tu2f1N2ks7zzYyzzlnn7gg/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_004_1b6c96d4a24c.png)
 
 对上述式子第一项进行分部积分处理后：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMP7Ylvqpx86XC0YGMNMVhbnTlUz6FEfdefUsuGh4Haxed2uYfT6E25Q/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_005_28a9a3d748e6.png)
 
 根据边界条件对上述的等号右端第一项分析：
 
@@ -41,23 +41,23 @@
 
 具体详细的公式，在后续给出，这里继续推导区域内的有限元方程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMWtSZY3eQ3zjhTU5XIsMmfRoyfTz9RfhvUnEWANqTlwUTOpROQibw65Q/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_006_b42f30e08131.png)
 
 对求解区域进行网格划分，引入每个单元的线性插值型函数，表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbM4nkxtpibicPsVdW4ofTcjbSPPBQuYYjibsmCeDZrWoEYqh4JDH0nr7YgQ/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_007_360701a2e08b.png)
 
 对上述方程进行离散，得到有限元离散方程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMMfdgwQL6d15VSZdibgSDmO3T9NP4MR3piaCUlia4Im5o71jJkdVuvia9uQ/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_008_24328512bd62.png)
 
 其中，试探函数不等于零，因此约去，简化用矩阵表示，得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMfGMFct7HSEFoWhu6gficia7NZeD7iagNbmDG8cQ1ufoh1UoodbBHnCzmQ/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_009_c08381804211.png)
 
 当加入边界条件后，变成：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMib0KtZxUDI1YThOXuLia5dibYbVp1tDhzoe3FOD1gL5C70CaXAr5hCIpA/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_010_46cd3a54ab69.png)
 
 上述就是有限元离散方程，K表示对应边值问题的有限元系数矩阵。
 
@@ -65,85 +65,85 @@
 
 在每个小单元内，通过端点解与形函数的组合可以获得单元内任意一点的求解结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbM3Hm6VFOAQiaUkhB7Pibks6tE23OygNlib04kjIvXhK1SHSjWNhbsc815A/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_011_1af3ab124cef.png)
 
 理解为在单元（一维线段）内u任意一点值有两个端点u1,u2通过插值函数N获得。因此不难理解，型函数N必须满足在端点1处插值的点为u1，在端点2处插值结果为u2。使用拉格朗日插值公式，可以直接获得满足上述要求的基本插值函数:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMLboicN5PCrvH2ZOURfPLniaTkRiarv0u36qicEicN97ibg2nRvN89QSkiaGRg/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_012_4802416035ba.png)
 
 其中，a等于线段的长度，当型函数为线性一阶基函数的时候，形函数就等于插值函数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMOPBiaIlcHnV6c3iar8Ct73fQ3QRicO0H8JWlHKdqL0ZaiadULMARPfibXZQ/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_013_e20b282f5345.png)
 
 可以简单验证，上述形函数满足：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMiaw98v0GQX9ru6L1w7owfajyLRCXs9CcmERNSXGnm2rKE5utdmEXrkA/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_014_94583d7c026d.png)
 
 **4.单元系数矩阵推导**
 
 在确定形函数后，根据有限元离散方程，发现还需要形函数的梯度，因此根据形函数与插值函数的关系，推导如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMylfvJIhGpKs29PpmLSvCn2neSibcMWZHVqxnIpVNWosUuHWAq1OEPcQ/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_015_ede4f035eba3.png)
 
 根据有限元离散方程的系数矩阵K,其中主要有两部分组成，梯度\*梯度与N\*N,因此，分开考虑两部分，带入形函数的梯度推导结果，得到：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMicGIMictFyRXg1CcfmMwdcAqftib3icAXHUhibN7pWtJMwFa2dpeQicsqLkA/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_016_e73061ea610a.png)
 
 其中第一项是常数积分，很容易获得；第二个公式可以查表获得，这里手动积分看看原理。对第二项的积分变量转化到§下，因为§的积分范围是一定的(0,1),因此：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMMpvCqdAFA3vXeKON7oLIlol2EKQx8r4fGx64cctRlec0iapBEZxPu6g/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_017_8f82738c75e1.png)
 
 所以，得到第二项的积分结果：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMTC5YKFODtlNHxQiaOP2ib126yQ4037TADQaEiaoCdTyJvA4HzhFmOK2Dw/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_018_a665c18a0386.png)
 
 一般的，通过带入公式计算得到系数或者查表得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMLERVEPic8rOugCODejM8HHfOD2zaurE81l410ZCXr9R2JvcmCwCPY3A/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_019_aa714aaa3028.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbM218kHdskcFCicb8l4RibUiczLFssjggW799iaufztlOsosxFicyBxzbKicXQ/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_020_daac8860c306.png)
 
 **5.组装全局系数矩阵**
 
 根据上述离散网格，离散成三个单元，因此，单元长度a等于2pi/3,因此第一个单元的系数矩阵：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMlVp7ObYQF7xxFA35tGSo6Yib8gOGRUeIo7bWaZ1h76EiaI2FQOvBPFog/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_021_8b7d85bf2b31.png)
 
 其他两个单元一次可以得到相同的系数矩阵，然后把三个系数矩阵根据单元节点列表将局部单元系数矩阵一一映射到全局节点中：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMlY4YHfsGmNkicMw8SDuusbTrwb2uyAFOe00POt0cibFqH6lyGkFuO6ug/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_022_dea9c54d7ff4.png)
 
 然后，对系数矩阵添加边界条件：在x=0处的第一类边界条件，使用乘以大数的方法，得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMVVWTT69lxbNpFz4rlvLWUoEHZ6lW69TPkP6S9a0fawDibewibpGHj8CA/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_023_d04217c3e475.png)
 
 在x=2pi位置处添加第二类边界条件，在终端边界点添加矩阵Kf:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMfubc59lwic06E366lxicv2N4QpGbwsr2z5xL4Akgj4LfUA81etfAU6hw/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_024_381b4e1cd548.png)
 
 最终得到的系数矩阵数据，线性方程组：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMd18bpFQ1npiaRtS99Ddnn8T9O9T6EMp31XUHIiaGFS5m25wibsBZNkYGQ/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_025_2352ab213b3b.png)
 
 **6.有限元计算结果**
 
 求解线性方程组有很多方法，大体分成迭代法和直接求解方法，这里采用matlab中自带的直接求解方法求解，求解结果为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMFC34z3KIQ1UuUGoS0RDSibs2QqB18PKPPBu9TF6szZOx8OhhXIYt5Ww/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_026_a9a9a56f21fb.png)
 
 用图像显示，数值结果与解析解的误差：  
 
 3个网格单元：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbM45pzXibyZSB9icyD8uB994rcujdXyfX1csw36gWmXYxGg4MAYt1QrI5g/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_027_a09fdd794440.png)
 
 10个网格单元：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMq8qsZwbaEgObmiaiaDliaUhpjeOwP3IpVQicd4HmUZk5w7hUD2UYkIkItg/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_028_fec6238beaac.png)
 
 50个网格单元：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrvGVzKRicTqtwicw1foCxSbMfIicgVlnQEPLiczSepKSzy29T7DQz90qMBW787Fia4zFmdyDtmW3feYNQ/640?wx_fmt=png)
+![](最简单的一维有限元问题_求解cos函数分布_images/img_029_4ea4d5035eee.png)
 
 可以直观感受，3个网格的最大计算误差在0.5左右，10个网格误差在0.1以下，而50个网格精度就达到了4e-3，基本上与理论解完全重合。  
 

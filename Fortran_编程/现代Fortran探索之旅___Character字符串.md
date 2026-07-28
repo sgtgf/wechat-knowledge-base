@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/GDJ08uIbjF5EMlCXd0uJVQ](https://mp.weixin.qq.com/s/GDJ08uIbjF5EMlCXd0uJVQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+![](现代Fortran探索之旅___Character字符串_images/img_000_8bcddb233e93.jpg)
 
 Fortran，作为一种历史悠久且广泛应用于科学计算的语言，其对字符串的支持可能不如Python、Java等现代语言那样直观和灵活，但在实际编程中，理解并掌握Fortran中的字符串处理技巧同样至关重要。本文将通过一系列实例，带您走进Fortran的世界，探讨如何有效地处理和操作字符串。
 
@@ -130,7 +130,7 @@ Fortran没有内置的转换大小写函数，但可以通过循环和ASCII码�
 
 以上仅为Fortran字符串处理的基础知识，更多详细内容和实战应用，期待您在实际编程实践中不断探索和积累！
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](现代Fortran探索之旅___Character字符串_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于 Fortran 90 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

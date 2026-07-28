@@ -100,7 +100,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c200745?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4424KzokdHHbdQbcMLljc4tSR0ftneUYSqVN6G4wgK526QDibCmjkibqAe6vg6fIvDTc1nKib5CHpLYg/640?wx_fmt=jpeg)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_000_d06d47ff9d43.jpg)
 
 基于EEG的癫痫自动检测流程
 
@@ -112,7 +112,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c200745?viewType=HTML
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4424KzokdHHbdQbcMLljc4trcVpjX5mnPvyds1VJom1pKQ0gicoQZTR9ib8Ps373zb4SXlc6eOKCGCQ/640?wx_fmt=png)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_001_5471042f856f.png)
 
 **彭睿旻**
 
@@ -120,7 +120,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c200745?viewType=HTML
 
 E-mail: rmpeng2019@hust.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4424KzokdHHbdQbcMLljc4tnZhuggu0JiaY3P0dcaicmyqSzMJGBW8JTl8r30icF9vsXibyMdS2sicGjsw/640?wx_fmt=png)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_002_02a0b38d41ac.png)
 
 **江　军**
 
@@ -128,7 +128,7 @@ E-mail: rmpeng2019@hust.edu.cn
 
 E-mail: jiangjunzm@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4424KzokdHHbdQbcMLljc4tDnVAJ7dGlFibZk9yzXABFbUibwCGy6fs8S5P8MiauQbSryeia4Gn40HxbQ/640?wx_fmt=png)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_003_cf7812c7a64f.png)
 
 **匡光涛**
 
@@ -136,7 +136,7 @@ E-mail: jiangjunzm@163.com
 
 E-mail: jacksondear@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4424KzokdHHbdQbcMLljc4touIrggbQ5KBg26Y17t2CtxRY3ORhz6zibNrWQ8qWibiaAEibFQYFXOsXVQ/640?wx_fmt=png)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_004_41f3875aa179.png)
 
 **杜　浩**
 
@@ -144,7 +144,7 @@ E-mail: jacksondear@163.com
 
 E-mail: duhaodt@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4424KzokdHHbdQbcMLljc4t6jibkBLc4mFpTr6coia1NxToXoRTibY6ztONrdicDOJlhdZy76FKn5567w/640?wx_fmt=jpeg)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_005_719bccaaeb74.jpg)
 
 **伍冬睿**
 
@@ -152,7 +152,7 @@ E-mail: duhaodt@163.com
 
 E-mail: drwu@hust.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4424KzokdHHbdQbcMLljc4tUv8wHhofJeeKHo7yDfVkNia9T95BXCmetRJhUUppibm1SZ5bU6lvic92w/640?wx_fmt=png)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_006_0a982e88edbf.png)
 
 **邵剑波**
 
@@ -334,49 +334,49 @@ http://www.aas.net.cn/cn/article/id/14808?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4424KzokdHHbdQbcMLljc4tprF9Qrccagk9dXuPLD4icWYVUVlFCMxEXn45XCDtXtgtpZtdo1SpXyA/640?wx_fmt=png)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_007_0b59c7d490aa.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4424KzokdHHbdQbcMLljc4tnEa6z3r6sff6ISUXUnuOib2ibPeicj9KGck31YFaIpOABonnIhFL7YTGg/640?wx_fmt=png)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_008_91c57c577bc4.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4424KzokdHHbdQbcMLljc4ty1SvVpf2vgCFtaHhNh4x0t9WC4mrCvFb18yum3ypm4cY3MPib9OREtw/640?wx_fmt=gif)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_009_4cca7ca77b00.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4424KzokdHHbdQbcMLljc4ty1SvVpf2vgCFtaHhNh4x0t9WC4mrCvFb18yum3ypm4cY3MPib9OREtw/640?wx_fmt=gif)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_010_4cca7ca77b00.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4424KzokdHHbdQbcMLljc4tlBjuuoE4B2FI3EDrfYv7hHHmuYtmPz6XaIiawYNS2EQbWjwrWKPbPbQ/640?wx_fmt=jpeg)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_011_783d699d762a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4424KzokdHHbdQbcMLljc4ty1SvVpf2vgCFtaHhNh4x0t9WC4mrCvFb18yum3ypm4cY3MPib9OREtw/640?wx_fmt=gif)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_012_4cca7ca77b00.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4424KzokdHHbdQbcMLljc4ty1SvVpf2vgCFtaHhNh4x0t9WC4mrCvFb18yum3ypm4cY3MPib9OREtw/640?wx_fmt=gif)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_013_4cca7ca77b00.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4424KzokdHHbdQbcMLljc4ty1SvVpf2vgCFtaHhNh4x0t9WC4mrCvFb18yum3ypm4cY3MPib9OREtw/640?wx_fmt=gif)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_014_4cca7ca77b00.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4424KzokdHHbdQbcMLljc4ty1SvVpf2vgCFtaHhNh4x0t9WC4mrCvFb18yum3ypm4cY3MPib9OREtw/640?wx_fmt=gif)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_015_4cca7ca77b00.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4424KzokdHHbdQbcMLljc4td1n9lfggQ9tT1EL5jJgkukcduViccZ9PPDt1bq2uY3w03NDhibVEj9nA/640?wx_fmt=jpeg)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_016_e63666c25de2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4424KzokdHHbdQbcMLljc4ty1SvVpf2vgCFtaHhNh4x0t9WC4mrCvFb18yum3ypm4cY3MPib9OREtw/640?wx_fmt=gif)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_017_4cca7ca77b00.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4424KzokdHHbdQbcMLljc4ty1SvVpf2vgCFtaHhNh4x0t9WC4mrCvFb18yum3ypm4cY3MPib9OREtw/640?wx_fmt=gif)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_018_4cca7ca77b00.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4424KzokdHHbdQbcMLljc4ty1SvVpf2vgCFtaHhNh4x0t9WC4mrCvFb18yum3ypm4cY3MPib9OREtw/640?wx_fmt=gif)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_019_4cca7ca77b00.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4424KzokdHHbdQbcMLljc4ty1SvVpf2vgCFtaHhNh4x0t9WC4mrCvFb18yum3ypm4cY3MPib9OREtw/640?wx_fmt=gif)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_020_4cca7ca77b00.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4424KzokdHHbdQbcMLljc4tZhFTtr8rgkicjHxhv3Do2qfDB1yGdbVNogGcyPuyhZxWnoWc1u8plMA/640?wx_fmt=jpeg)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_021_4ad93eea7338.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4424KzokdHHbdQbcMLljc4ty1SvVpf2vgCFtaHhNh4x0t9WC4mrCvFb18yum3ypm4cY3MPib9OREtw/640?wx_fmt=gif)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_022_4cca7ca77b00.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH4424KzokdHHbdQbcMLljc4ty1SvVpf2vgCFtaHhNh4x0t9WC4mrCvFb18yum3ypm4cY3MPib9OREtw/640?wx_fmt=gif)
+![](基于EEG的癫痫自动检测__综述与展望_images/img_023_4cca7ca77b00.gif)
 
 **长按二维码｜关注我们**
 

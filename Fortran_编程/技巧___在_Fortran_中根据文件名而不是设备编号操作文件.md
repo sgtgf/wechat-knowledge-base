@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/jRNil\_YcXoUN\_OD2SxPJxg](https://mp.weixin.qq.com/s/jRNil_YcXoUN_OD2SxPJxg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVD8PfRibLSshCSibRmWHepdFOD2qh33jViaNicEvGlctlicQnhLP5Jct7MkrVLDNLQrZjM55kq7iaLBeDA/640?wx_fmt=jpeg)
+![](技巧___在_Fortran_中根据文件名而不是设备编号操作文件_images/img_000_a8c013774ab0.jpg)
 
   
 
@@ -43,7 +43,7 @@ Fortran将所有文件和输入输出设备抽象为“装置”，并为每个�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](技巧___在_Fortran_中根据文件名而不是设备编号操作文件_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

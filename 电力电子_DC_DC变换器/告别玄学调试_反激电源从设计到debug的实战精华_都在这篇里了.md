@@ -1,0 +1,164 @@
+# 告别玄学调试！反激电源从设计到debug的实战精华，都在这篇里了
+
+原创 王工 硬件笔记本 2025-09-25 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/4iEMN9QBWmcy4-0wPezV3w](https://mp.weixin.qq.com/s/4iEMN9QBWmcy4-0wPezV3w)
+
+![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=frjerr2t&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=x41xcyk9&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+
+  
+
+今天给大家分享一份《仙童反激电源设计》学习资料，文末附35页完整版PDF文档获取方式。
+
+反激变换器（Flyback Converter）因其结构简单、成本低、能够实现隔离和宽范围电压输出，在中小功率开关电源中应用非常广泛。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGu7ShrC5tsCnRLqviaadDDmSGpibQ2ELiaKNUMRVefZqoLcdWyWcaExnLA/640?wx_fmt=png&from=appmsg)
+
+不过，在实际设计和调试过程中，咱们也常常会遇到各种问题，比如启动异常、电压不稳、噪声过大、温度过高等。本文将结合 Fairchild 半导体（现属**安森美**）的相关资料，梳理反激电源的基本原理、关键设计要点，帮助大家更好地理解和应用反激变换器。
+
+  
+
+011
+
+反激变换器基本结构
+
+反激变换器的核心是一个带有多组绕组的变压器（更准确地说是耦合电感），通过开关管（如MOS管）的导通和关断，实现能量的存储和传递。当开关管导通时，电能存储在变压器的初级绕组中；当开关管关断时，能量通过次级绕组释放到负载。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGOuC3icubSancxeAicWG5AkGZX1BbM4Q5kiadSMiap5MQKY2oibcYqstjkmg/640?wx_fmt=png&from=appmsg)
+
+典型的反激电路包括：
+
+-   输入整流滤波部分（桥式整流+大电容）
+    
+-   开关管（集成或外置）
+    
+-   变压器（初级、次级、辅助绕组）
+    
+-   输出整流滤波
+    
+-   反馈控制电路（光耦、稳压基准等）
+    
+
+  
+
+021
+
+关键元器件选型与设计要点
+
+### 1、变压器设计：注意防饱和
+
+变压器是反激电源的重要器件，设计不当很容易导致饱和，进而损坏开关管。如下这张图有一个例子，可以计算出变压器的饱和电流。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGVpyWUZZK6jWbkiaNTbSlGaKydsqChiaiazNT2r7LnJnGoDIAQp40qH1BQ/640?wx_fmt=png&from=appmsg)
+
+如果计算出的饱和电流低于IC的限流点，可以采取以下措施：
+
+-   增加初级匝数 
+    
+-   减小初级电感   
+    
+-   调整限流电阻（影响输出功率）
+    
+
+实际绕制时，应尽量保证每层绕满整数匝，层间加绝缘胶带，以减少寄生电容，提升EMI性能。
+
+### 2、Vcc绕组设计：要保证稳定
+
+Vcc是控制IC的供电，必须保证在空载到满载的所有情况下，Vcc电压都能稳定在要求电压范围内。设计时要注意：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGrn7qKKtcedDoSNfU7s2blXY4nK8uR2kgnTHLyIYico0B4c8zicq70x7g/640?wx_fmt=png&from=appmsg)
+
+-   选择合适的Vcc绕组匝数
+    
+-   选用快恢复或超快恢复二极管作为整流管
+    
+-   可串入小磁珠或限流电阻以抑制尖峰
+    
+-   必要时可加少量假负载（如几mA）以维持轻载时的电压稳定
+    
+
+### 3、吸收电路与Vds电压控制
+
+开关管关断时，由于变压器漏感的存在，会在Drain端产生尖峰电压。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGYiamT938T9NStfu2A1SKAXwkCSTx4jNccOd5ZPnW9xhUE2tsvnSt1eA/640?wx_fmt=png&from=appmsg)
+
+降低Vds的方法包括：
+
+-   减小初级与次级匝比
+    
+-   优化变压器绕制工艺，减小漏感
+    
+-   使用TVS、RCD等吸收电路
+    
+-   选择慢恢复二极管或串入阻尼电阻
+    
+
+### 4、空载/轻载，重载/容性负载启动困难时
+
+### 针对Vcc在启动与关断电压间跳动导致电源无法正常建立的现象，可通过增加Vcc绕组匝数、减小限流电阻或加假负载（如1~5mA）来解决轻载时供电不足的问题。
+
+### 为解决重载或容性负载下因Vcc过压保护、内部限流点过低或电流上升斜率过大导致的启动困难，可采取调整Vcc绕组/整流参数、提高限流点或增大初级电感等措施。
+
+### ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGSufwSMkrCXeDjjbd0vjs37uLXYCOiasZkGwhXELXWgzGzPyLzB5107A/640?wx_fmt=png&from=appmsg)
+
+### 5、短路功率过大时
+
+### 为解决短路时仅靠内部限流保护导致的开关动作持续、输入功率大增及Vds过高问题，可通过快速触发反馈脚OCP以迅速关闭输出、减小峰值电流及避免反馈脚电容过大的方式进行优化。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGiaJV8d8icULwq2PPENrEDfeAGoRyrA0ozVDfrh4t9Ap5L3j3eTnNgdeA/640?wx_fmt=png&from=appmsg)
+
+### 6、如何处理可闻噪声
+
+噪声主要源于变压器磁芯振动及陶瓷电容的压电效应，可通过变压器浸漆固定、钳位电容改用薄膜类型、增加斜率补偿电路以及调整Burst频率以避开人耳敏感频段（2kHz~4kHz）等措施进行降噪。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGkiaawMVulyicc3ja9ia5IicicFNXovmHZ1uVicYU588MPqz4AvhCCo4mnbGg/640?wx_fmt=png&from=appmsg)
+
+### 7、PCB布局注意事项
+
+-   大电流环路（输入、开关、输出）面积尽量小，走线宽
+    
+-   小信号地单独走线，集中一点接功率地
+    
+-   反馈路径远离开关节点，避免干扰
+    
+-   IC的GND引脚尽量大面积铺铜，帮助散热
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqG4VaVNXNVNxd0BGxGn2ypm8GqBcOqNEWPicw6Fy2g6DwMrvbZKm8eibGA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGagI3qCSFMpsBzJfXYAicyruqEQjPhKgeSlowdErKkFqaRUsm52oZZJg/640?wx_fmt=png&from=appmsg)
+
+### 8、阻容选型要点
+
+对于关键元器件选型：输入大电容需按1~3μF/W并具备低ESR，输出电容需低ESR，反馈补偿电容需X7R等低温漂材质，电流采样电阻需为无感类型。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqG4IsYI1RobQ5Kwvp2ibS4pbEc3w00zwEDaHTgIoJRZIZia3AEDEb2cq3Q/640?wx_fmt=png&from=appmsg)
+
+  
+
+031
+
+如何获取PDF完整版？
+
+反激变换器的性能源于对设计细节的严谨把控，多数故障可归结于Vcc、变压器饱和、吸收电路及反馈环路这四大关键点。
+
+如何下载《仙童反激电源设计》，更好的学习反激电源基础知识
+
+关注公众号：硬件笔记本，并在公众号里发送对应的下载关键字获取下载链接
+
+在公众号里给王工发消息:
+
+## 
+
+下载|仙童反激电源设计
+
+## 建议复制粘贴过去，就不容易码错字哟！
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqG2q4YoF9JicfpU2ehrL93ILOo2YFgY64oRdW5jHhUI52lcPo4TAwKPvA/640?wx_fmt=jpeg&from=appmsg)
+
+加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhPJiby819bYTtMxLwG0sUqGZcpibVblhMBIE5iaTovvBYBrazgE4Qt8T4J8vJUcicqkWrZR7egp7kgGA/640?wx_fmt=jpeg&from=appmsg)
+
+注：本资源仅供学习交流，请勿用于商业用途。

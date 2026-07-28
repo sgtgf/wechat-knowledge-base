@@ -1,0 +1,156 @@
+# ​PWM了解一下
+
+原创 硬件笔记本 2022-10-16 09:09 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/ym-NIhuhZyA3ln8FvmAiAw](https://mp.weixin.qq.com/s/ym-NIhuhZyA3ln8FvmAiAw)
+
+**![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")**
+
+**什么是PWM**  
+
+PWM（Pulse Width Modulation）简称脉宽调制，是利用微处理器的数字输出来对模拟电路进行控制的一种非常有效的技术，广泛应用在测量、通信、工控等方面。
+
+  
+
+**PWM的频率**
+
+是指在1秒钟内，信号从高电平到低电平再回到高电平的次数，也就是说一秒钟PWM有多少个周期，单位Hz。
+
+  
+
+**PWM的周期**
+
+T=1/f，T是周期，f是频率。
+
+如果频率为50Hz ，也就是说一个周期是20ms，那么一秒钟就有 50次PWM周期。
+
+  
+
+**占空比**
+
+是一个脉冲周期内，高电平的时间与整个周期时间的比例，单位是% (0%-100%)
+
+ 一个周期的长度，如下图所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjPHsXeSAuLW7Y1H22T6ia0iaYzib78avKOcAxu757N7lfLAaKxeMxwK8YCfLq6FBhLtF8GmJzwQE49w/640?wx_fmt=png) 
+
+其中，周期是一个脉冲信号的时间，1s内的周期T次数等于频率f，脉宽时间是指高电平时间。
+
+  
+
+上图中，脉宽时间占总周期时间的比例，就是占空比。
+
+  
+
+比方说，周期的时间是10ms，脉宽时间是8ms，那么占空比是8/10= 80%，这就是占空比为80%的脉冲信号。
+
+  
+
+PWM就是脉冲宽度调制，通过调节占空比就可以调节脉冲宽度。  
+
+  
+
+**PWM原理**
+
+以STM32单片机为例，其IO口只能输出高电平和低电平。
+
+  
+
+假设高电平为5V、低电平则为0V，那么要输出不同的模拟电压就要用到PWM。通过改变IO口输出的方波的占空比，从而获得使用数字信号模拟成的模拟电压信号。
+
+  
+
+电压是以一种脉冲序列被加到模拟负载上去的，接通时是高电平1，断开时是低电平0。接通时直流供电输出，断开时直流供电断开。通过对接通和断开时间的控制，理论上来讲，可以输出任意不大于最大电压值5V的模拟电压。
+
+  
+
+比方说，占空比为50%那就是高电平时间一半，低电平时间一半。在一定的频率下，就可以得到模拟的2.5V输出电压。那么75%的占空比，得到的电压就是3.75V，如下图所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjPHsXeSAuLW7Y1H22T6ia0iawnEKS6lQNzVHagVsfQt7GZxGmMHVG80LMTXJ0LFLvQDLiaLaprCHpbg/640?wx_fmt=png)
+
+  
+
+也就是说，在一定的频率下，通过不同的占空比即可得到不同大小的输出模拟电压，PWM就是通过这种原理实现数字模拟信号转换的。
+
+  
+
+**PWM应用**
+
+  
+
+**LED呼吸灯**
+
+以经常使用的呼吸灯举例。
+
+ 一般人眼睛对于80Hz以上刷新频率则完全没有闪烁感，那么我们平时见到的LED灯，当它的频率大于50Hz的时候，人眼就会产生视觉暂留效果，基本就看不到闪烁了，而是误以为是一个常亮的LED灯。
+
+  
+
+由于频率很高时看不到闪烁，占空比越大LED越亮，占空比越小LED越暗。所以，在频率一定时，可以用不同占空比改变LED灯的亮度，使其达到一个呼吸灯的效果。
+
+  
+
+**PWM对电机转速的控制**
+
+调节占空比可以实现不同电压的输出，实现对电机转速的调节。  
+
+  
+
+对于直流电机来讲，电机输出端引脚是高电平电机就可以转动，当输出端高电平时，电机会转动，但是是一点一点的提速，在高电平突然转向低电平时，电机由于电感有防止电流突变的作用是不会停止的，会保持这原有的转速，以此往复，电机的转速就是周期内输出的平均电压值，所以实质上我们调速是将电机处于一种，似停非停，似全速转动又非全速转动的状态，那么在一个周期的平均速度就是我们占空比调出来的速度了。  
+
+  
+
+在电机控制中，电压越大，电机转速越快，而通过PWM输出不同的模拟电压，便可以使电机达到不同的输出转速。  
+
+  
+
+当然，在电机控制中，不同的电机都有其适应的频率 频率太低会导致运动不稳定，如果频率刚好在人耳听觉范围，有时还会听到呼啸声。频率太高时，电机可能反应不过来，正常的电机频率在 6-16kHZ之间为好。
+
+  
+
+**PWM对舵机的控制**
+
+舵机的控制就是通过一个固定的频率，给其不同的占空比来控制舵机不同的转角。
+
+  
+
+舵机的频率一般为频率为50HZ，也就是一个20ms左右的时基脉冲，而脉冲的高电平部分一般为0.5ms-2.5ms范围，来控制舵机不同的转角。
+
+  
+
+500-2500us的PWM高电平部分对应控制180度舵机的0-180度。
+
+  
+
+以180度角度伺服为例，那么对应的控制关系是这样的：
+
+```
+0.5ms-------------0度；
+```
+
+下图演示占空比从1ms变化到2ms时，转角的变化。
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/K9mVOHgVt7yCyzO6FjkeldAnTaeDlAHO3tF9onyta4ZddGrHKWb7KxupqpCR0o1s33J63xtVtXKVM3X8OLgNsA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+
+## 
+
+**声明：**
+
+  
+
+声明：本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+  
+
+**推荐阅读▼**
+
+-   [硬件精选文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2531417028063166464#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

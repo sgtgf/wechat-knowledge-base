@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/wTuknx9JyalYbk5MdsuSFw](https://mp.weixin.qq.com/s/wTuknx9JyalYbk5MdsuSFw)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Ljib4So7yuWia9K1Fic8yYSzcF1c26MuyZTZ1RicIr2pxkFeQaEvzcgKMsgvUC2ZaEgMicHFfbg66tABrXj3LUQjQtw/640?wx_fmt=gif&from=appmsg)
+![](PyEFVL_有限体积超神的Python库__images/img_000_15844bd32746.gif)
 
 **点击蓝字 关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Ljib4So7yuWia9K1Fic8yYSzcF1c26MuyZTb1DvAKkGZLVVYl2VYfvm0elYatKKBAfXfbtm8hnAQPicJHIgPpcIOzQ/640?wx_fmt=gif&from=appmsg)
+![](PyEFVL_有限体积超神的Python库__images/img_001_8f48c6054264.gif)
 
   
 
@@ -23,7 +23,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaI8ynFFgiaytsgQAf5nCxBGu2SrF5cHnpvxmxLCztJq2uGBhZic8b3RhicLNVxKMLyqKAvQczUICHO1bbz4oj9STw/640?wx_fmt=jpeg&from=appmsg)
+![](PyEFVL_有限体积超神的Python库__images/img_002_c421fb58b379.jpg)
 
 有限体积法就是把计算区域分成一堆小网格（控制体积），算每个格子里的物理量变化。比如咱们算流体流动，就是算格子里的压力、速度这些。PyEFVL 用起来贼方便，几行代码就能搞定网格划分和求解。
 
@@ -35,7 +35,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaI8ynFFgiaytsgQAf5nCxBGu2SrF5cHnpvxmxLCztJq2uGBhZic8b3RhicLNVxKMLyqKAvQczUICHO1bbz4oj9STw/640?wx_fmt=jpeg&from=appmsg)
+![](PyEFVL_有限体积超神的Python库__images/img_003_c421fb58b379.jpg)
 
 pip install pyefvl
 
@@ -57,7 +57,7 @@ os.environ\['PYEFVL\_HOME'\] = 'C：/Program Files/PyEFVL'
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaI8ynFFgiaytsgQAf5nCxBGu2SrF5cHnpvxmxLCztJq2uGBhZic8b3RhicLNVxKMLyqKAvQczUICHO1bbz4oj9STw/640?wx_fmt=jpeg&from=appmsg)
+![](PyEFVL_有限体积超神的Python库__images/img_004_c421fb58b379.jpg)
 
 咱们用 PyEFVL 算个简单的热传导问题，就是热量在固体里扩散那种：
 
@@ -99,7 +99,7 @@ T = solver.solve()
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaI8ynFFgiaytsgQAf5nCxBGu2SrF5cHnpvxmxLCztJq2uGBhZic8b3RhicLNVxKMLyqKAvQczUICHO1bbz4oj9STw/640?wx_fmt=jpeg&from=appmsg)
+![](PyEFVL_有限体积超神的Python库__images/img_005_c421fb58b379.jpg)
 
 PyEFVL 还能处理非结构网格，啥意思？就是网格形状不规则，比如算个圆柱绕流：
 
@@ -141,7 +141,7 @@ u， v， p = solver.solve()
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaI8ynFFgiaytsgQAf5nCxBGu2SrF5cHnpvxmxLCztJq2uGBhZic8b3RhicLNVxKMLyqKAvQczUICHO1bbz4oj9STw/640?wx_fmt=jpeg&from=appmsg)
+![](PyEFVL_有限体积超神的Python库__images/img_006_c421fb58b379.jpg)
 
 算完了得看结果吧，PyEFVL 直接调用 matplotlib 就能出图：
 
@@ -169,8 +169,8 @@ PyEFVL 虽说比不上那些商业 CFD 软件，但对于快速验证想法、�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaI8ynFFgiaytsgQAf5nCxBGu2SrF5cHnp9YNZzIkmKyxT3bB4Py9IJpRToibKWPTMFQ9FrYXp5m2ia45DOm30fL7A/640?wx_fmt=png&from=appmsg)
+![](PyEFVL_有限体积超神的Python库__images/img_007_d7aa5326605e.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/iaI8ynFFgiaytsgQAf5nCxBGu2SrF5cHnp8Y6aUHQZnZR9ls9ymsR7eoIvfT83YzXsVZkQRvq4KMghyyDfCNTwIg/640?wx_fmt=gif&from=appmsg)
+![](PyEFVL_有限体积超神的Python库__images/img_008_3e063cab2f8e.gif)

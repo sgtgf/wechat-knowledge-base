@@ -1,0 +1,452 @@
+# 全球显示驱动IC主要厂商
+
+原创 硬件笔记本 2023-04-22 08:46 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/AC5V32sWtfi36ssIAP\_7zA](https://mp.weixin.qq.com/s/AC5V32sWtfi36ssIAP_7zA)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqTxnYZYwoibYI3M5YzNcnSaVTliaaC0V5qKdpOOpGbrqUnDBILzr0llNA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqvYv2gB3pxjYUqHexUa59BpspvT5rLd1hcZIKNE82HmiblbCIcAZu3dg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqoWm3a5vxAsx3MYqiazyftL8obkoXnfXC1pP0I3r8U6Rq61Culnod8YQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqWXO37bz1tfGhfkw9fKQJHVicRpbUjO4FWru5vuF3MMm0862ymp9o6uA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqgMMF5MyHwFPibYzL9uVs1SSQFRn07sNalDE3OiaHJe7gG3MIaORRrNWw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+**显示面板是手机、电视、平板电脑、笔记本电脑、安防监控设备、车载显示屏等设备必不可少的组成部件。****显示面板的发展大致可分为以下阶段：**
+
+  
+
+-   20世纪20年代CRT（CathodeRayTube,阴极射线管）技术作为第一代显示技术被正式商业化，代表产品：黑白及彩色CRT电视。
+    
+      
+    
+-   20世纪90年代，等离子技术、LCD（LiquidCrystalDisplay，液晶显示）技术并行。2000年后，等离子技术逐步退出市场，LCD（液晶技术）逐渐成为全球最主流的显示技术。
+    
+      
+    
+-   2010年左右，OLED商业化进程得到了实质性进展，之后AM-OLED逐渐成为中小尺寸平板显示的主流，但因寿命问题无法在大屏幕市场取代LCD，也无法在超大屏幕市场取代LED。
+    
+      
+    
+-   未来Mini/MicroLED有望成为下一代主流技术。
+    
+
+  
+
+**显示面板分类：**
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqAYZOMnX7iavs5s44kqnPaLjBdOVgibSK7IdUMjPOibp1Qgz4HnspWic4Gg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+-   **全球显示面板市场以LCD为主，新显示赛道快速增长。**LCD由于其技术的成熟性，以及在大屏幕显示领域如电视、笔记本电脑等的广泛应用，市场需求和占比较大。
+    
+      
+    
+-   **2020年，全球LCD面板出货量高达2.33亿平方米，**占全球显示面板96%市场份额。LCD面板保有量高，未来将继续稳定在高出货量水平，预计2025年将达到2.79亿平方米。OLED因其独特的柔性特质，能满足曲面和折叠屏的需求，被广泛应用于手机等小屏幕产品，同时也应用于一些新兴的电子产品如智能穿戴和VR设备等。
+    
+      
+    
+-   **2020年，全球OLED面板出货量仅为9.7百万平方米，**但从2021年起预计将以16.34%的年复合增长率增长，2025年有望达到25.1百万平方米。根据Omdia数据，面板各下游应用领域不断拓展与市场需求稳步增长，TV、移动设备作为最大应用类别保持平稳增长；商用、车载等新显示赛道快速增长。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqAicMUTADR7ScxaFyj7e45tkq6icBNRWdibZkQnWE2mwaGI7W2DBZAImicA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+LCD 已取得主导，OLED 投入加大。
+
+相较于韩国与中国台湾地区，中国大陆显示面板发展较晚。
+
+随着京东方等国产面板厂商的崛起，中国大陆显示面板以 20.23%的年复合增长率快速追赶，市场规模从 2016 年的 43.6 百万平方米增长至 2020 年的 91.1 百万平方米，预计 2025 年市场规模将达到 121.2 百万平方米。
+
+LCD 面板方面至 2025 年我国在全球市场的出货量占比将达到 45.28%；OLED 领域起步较晚，主要受制于行业较高的技术壁垒早期发展缓慢，但近年随着我国的投入不断加大，整体 OLED 产能快速增长。
+
+2020 年我国 OLED 面板产量占全球产量的比重12.37%，首次突破10%，预计2025 年将上升至24.3%。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqCeYGSmKhT6j3ch2Jhic37D3iaFtPx01vBFlKWzWIcChPzGAwTRbIqHcg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+DDIC，即面板显示驱动芯片，是显示面板的主要控制元件之一。
+
+LCD 驱动芯片为 LCD 显示屏中的灯珠提供稳定的电压或电流驱动信号，从而控制灯珠的光线强度和色彩，并在液晶片板上变化出不同深浅的颜色组合，进而保证显示画面的均匀性和稳定性。
+
+而 OLED 驱动芯片主要通过向 OLED 单元背后的薄膜晶体管发送指令的方式，实现对 OLED 发光单元的开关控制。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqYbcPfjs2P5f01l2Miaqnv9UGAzriatTNJPrv1c0Ab47uzaFtQgQPT2Zg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+显示驱动芯片市场规模增长速度略高于显示面板市场。
+
+受益于全球显示面板出货量的增长，显示驱动芯片市场规模也快速增长。根据 Frost&Sullivan 统计，全球显示驱动芯片出货量从 2016 年的 123.91 亿颗增长至 2020 年的 165.40 亿颗，年复合增长率为 7.49%。
+
+预计未来显示技术的升级与下游应用的拓展将推动显示驱动芯片市场的进一步增长，到 2025 年出货量增至 233.20 亿颗。
+
+和下游显示面板市场相对应，全球显示驱动芯片以 LCD 驱动芯片为主，预计未来将继续稳定在高出货量水平，OLED 驱动芯片随着 OLED 屏的高速增长份额逐渐提高。
+
+目前 LCD 驱动芯片已经实现稳定供应，且 TFT-LCD 已大量转向 TDDI，该市场已经进入成熟甚至过度竞争阶段。
+
+随着智能手机、电视等电子设备对液晶面板的需求不断增长，显示驱动芯片市场预计将在全球范围内实现快速增长，其主要增长引擎包括高分辨率、集成功能需求的增加以及平均售价的降低。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqOJxxFPqZiaJUcTmBHTZeNhc1RbmicxS2wxKzVRqo69YF0Hf49fcFfiapQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+在新兴应用领域强劲需求带动下，2021 年增速或达到周期性峰值。
+
+根据 CINNO Research 数据，2021 年全球显示驱动芯片市场规模预计增至 138 亿美元，增长率将达到 56.8%为近年来的最高峰，也为全球集成电路芯片市场中成长力度最大的细分产业之一。
+
+目前，由于晶圆代工与封测产能短缺导致短期晶圆与封测价格不断上涨；同时，全球显示面板市场的增长也带动了显示驱动芯片长期需求量的增加。
+
+2020 至 2021 年间，虽然市场需求量大幅增加，但是全球晶圆产能投资中 8 英寸产能增量有限，尤其是在 90~150nm 制程节点产能短缺更为明显。
+
+因此，价格上涨为全球显示驱动芯片市场规模上升的主要推动力（预计 2021 年价格带动营收规模增长约 53%，出货量带动营收增长约 2%）。
+
+随着面板制造产能持续向国内转移，大陆已经奠定了全球面板制造中心的地位，相应的大陆市场也成为全球驱动芯片主要市场。
+
+CINNO 预计 2021 年国内显示驱动芯片市场规模将同比大幅增长 68%至 57 亿美金，至 2025 年将持续增长至 80 亿美金，年均复合增长率 CAGR 将达 9%。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqKY8F59ZSRuGGb0RIrbIC40BOBuK6cZGuIaRDZib37ONm5zrXibYmD0icQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+TDDI 开辟新领域成长。
+
+显示驱动芯片的功能集成是当下主流的技术发展方向，面对智能手机更高屏占比的发展趋势，显示驱动芯片与触控芯片的整合能够有效减少显示面板外围芯片的尺寸，因此 TDDI 芯片的市场渗透率迅速提升，开辟了显示驱动芯片领域的新战场。
+
+未来，以车载电子为代表的其他电子设备也将广泛采用 TDDI 芯片，推动市场维持高速增长。根据 Frost&Sullivan 统计，自 2015 年 TDDI 芯片首次问世以来，其出货量由 0.4 亿颗迅速提升至 2019 年的 5.2 亿颗。
+
+未来，以车载电子为代表的其他电子设备也将广泛采用 TDDI 芯片，推动市场维持高速增长，至 2024 年全球出货量预计将达到 11.5 亿颗，自 2020 年至 2024 年的年均复合增长率达到 18.3%。
+
+1）目前为智能手机液晶面板的主流驱动方案。除苹果外，其他知名终端品牌的液晶面板机型高比例采用 TDDI。根据 Omdia 数据，2020 年用于智能手机的 TDDI 出货量达到 7.81 亿颗。
+
+2）后疫情时期，远程教育扩大化，平板电脑需求激增，TDDI 在平板电脑显示屏的渗透率迅速增长。随着尺寸和分辨率的提升，一块屏幕需要配备两颗芯片，目前正在成为主流方案趋势，根据 Omdia 数据，2020 年用于平板电脑显示屏的 TDDI 出货量达到 8400 万颗。
+
+3）车载显示器 TDDI 市场日趋成熟。目前面板厂商正在为车载显示器积极开发 in-cell 触控集成方案，芯片厂商在 2020 年起逐步开始量产 TDDI 解决方案。
+
+汽车电子化的趋势，推动车用电子零组件需求持续提升，其中车用触控面板的使用量，有望在 2022 年迎来更大规模的爆发，带动车用 TDDI 迎来首波拉货高峰，据 DIGITIMES 信息，包括显示驱动大厂 Synaptics 以及联咏、奇景光电、敦泰都已经对此领域重兵部署，并在 2022 年启动大量出货。根据 Omdia 数据，2020 年车载显示器的 TDDI 出货量达到 500 万颗。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqADxwPUU2JdfsWErE8ETfU0NHZqgfQyWzP9DiaAVuoedb17RTf4mfoVA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+# 2\. 大尺寸为切入口，中小领域伴随产业转移替代加速
+
+显示驱动 IC 的产业链大体由 IC 设计—晶圆代工—封测—面板厂构成，目前供给的瓶颈主要在于晶圆代工的产能。
+
+DDIC 的产业链较为简单，作为显示屏成像系统的重要部分，其所在电子产品中所占的成本约 10-15%，但因芯片嵌入数量较多，故在芯片设计行业中属于毛利较低产品。
+
+而在产能紧张的阶段，显示芯片因其低毛利等特点，往往被晶圆代工厂挤压产能。由于显示产品的多样性，显示类驱动 IC 的制程范围也比较广，其主要产品涵盖了 28nm-150nm 的工艺段。
+
+其中 NB 和 MNT 等 IT 产品和 TV 主要为 110-150nm；主要用于 LCD 手机和平板的集成类 TDDI（Touch DDIC）制程段在 55-90nm；用于 AMOLED 驱动 IC 的制程段相对先进为 28-40nm；其他规格较低的驱动芯片（穿戴、白电、小家电等分辨率较低应用）我们本章暂不做讨论。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zq4S7ZUbxdt5bRkzbsAUCVUfYaewRVuXypNibnticyDofdLricjXxGrfLqQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+2021 年各品类显示驱动 IC 的供给呈现不同程度的紧张，除了自身的需求增长外，同制程内其他品类IC 的晶圆消耗也会影响 DDIC 的供给。
+
+2021 年最为缺货的电源管理芯片，10M 以下的低端图像识别芯片以及指纹识别芯片等等的需求增加，会不同程度的挤压 TV 和 IT 驱动芯片的晶圆供给；车载 MCU 芯片工艺主要集中在在 28-40nm，使同样在此制程段同时非常紧缺的 AMOLED 的 DDIC 供应难以得到快速补充。
+
+DDIC占整体晶圆产能约3%，占晶圆代工厂产能约6%。
+
+根据 DISCEIN 数据，显示驱动 IC 消耗的晶圆产能约 250-270K/M，如参考2021年超过约 9500K/M 的晶圆产能，实际占比不到 3%；如排除约 5000K/M 的 IDM 产能（如三星和英特尔等），剩下的晶圆代工产能（如台积电、联电、中芯国际等）约 4500K/M，DDIC 占其中不到 6%的产能比重。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqQvx57EMsIrMcQkTJw3Kf5p4crAgw3eoaaT20O3zIGPRRAUqglhhm3Q/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+手机和 TV 消耗晶圆量较大。
+
+根据 Omdia 数据，大尺寸显示驱动芯片（包括 TV、MNT、 NB 和 9 寸以上 TPC）占总需求的 70%，其中液晶电视面板所用驱动芯片占大尺寸总需求的 40%以上, 因其每年约 2.7 亿（2020 年 AVC Revo 数据为 272.2M）的面板出货量和超过 50%的 UHD 占比，对显示驱动芯片的数量需求较大，其晶圆消耗占比也较高。
+
+在中小 型显示驱动芯片市场，智能手机的市场份额最大。
+
+2020 年，包含 LCD 面板驱动芯片和 AMOLED 面板驱动芯片在内，占驱动芯片总需求的 20%，但由于手机的驱动芯片往往集成了触控和 T-CON 的功能，单个晶粒面积是 TV 驱动芯片的三倍左右，导致消耗的晶圆量接近下游主流显示的一半。
+
+2021 年 IT 线产品增长仍然较强，同时由于更高分辨率在电视面板中的渗透率提升，根据 Omdia 测算，主流显示驱动芯片的总需求预计将在 2021 年增 长至 84 亿颗。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqeibWLVk1mLa3m5Y8JdhghPicW7LY5MI7hdyAlHnmZbiamSjVmMxVIso5Q/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+终端所需 DDIC 数量与面板尺寸、分辨率高低成正比，面板尺寸越大，分辨率越高、所需 DDIC 数量越多。
+
+未来随着大面板屏幕尺寸继续增加，各类屏幕分辨率、色域要求不断提升，每台终端产品所需的 DDIC 数量还将进一步增长。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqh5lAiadVarQEm5LAntUfL3YBDX32kv84EykblXnrtzAXzE4SNzRR6Nw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+台厂和韩厂占据了大部分显示驱动市场份额。
+
+根据 Omdia 数据，大尺寸显示驱动芯片市场中，台厂份额最大。联咏 2020 年份额为 24%排名第一，其次是奇景光电和瑞鼎、以及三星旗下 LSI 和和 LG 旗下 Silicon Works。在智能手机领域，台厂在 LCD 占主导地位，2020 年近 80%份额，联咏和和奕力排名包揽前二。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqqHkXBXlAww9ew9YamMRTTEmJlORs3M0pKJgvwcn5ee390jSDpmctXw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+AMOLED 领域韩厂因其技术优势份额占优。
+
+三星旗下 LSI 在 2020 年占据超一半 AMOLED 显示驱动市场份额，作为三星显示 SDC 的专属供应商，LSI 和美格纳（前身为 Hynix 半导体）尚未与中国大陆面板厂展开合作。
+
+联咏和瑞鼎是 2020 年中国大陆面板厂 的主要 AMOLED 驱动芯片供应商，市场份额在 2020 年分别为 7%和 6%。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqk25ujUM7vn3ibfP9mqGWY9vvQejbj7szjOGfcPlQbJib1gLLnrbhbShg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+随着中国大陆面板厂的份额提升，上游供应链的转移带动国内显示驱动芯片行业快速发展。
+
+大尺寸显示驱动芯片领域，集创北方和奕斯伟增长显著。奕斯伟在 2020 四季度为 BOE 最大的 TV 显示驱动芯片供应商；集创北方在 BOE、HKC 惠科等面板大厂份额持续提升。2020 年，集创北方和奕斯伟市场份额分别为 3.2%和 2%。
+
+手机显示驱动芯片领域，国内公司市场份额仍然较低，但呈现局部突围态势。
+
+豪威在 2020 年收购了新思的移动 TDDI 业务，积极结合其 CIS 产品优势在中国市场进行扩张；集 创北方在 2020 年底开始为品牌小米量产 TDDI；云英谷于 2020 年三季度开始量产 AMOLED 驱动芯片；华为海思自研的 OLED 驱动芯片在 2021 下半年已经试产完毕，计划 2022 年正式向供应商完成量产交付，该芯片样本在 2021 下半年已经送至京东方、华为、荣耀等厂商处进行测试；中颖电子后装 AMOLED 显示驱动芯片已在 2021 年量产出货，同时计划在 2022 年中推出前装品牌市场规格芯片。
+
+2.1 TV 显示驱动：为国内厂商切入显示驱动领域的最佳入口
+
+TV 面板显示驱动是消耗数量最多的显示品类。
+
+显示驱动 IC 通过电压驱动面板的 Source 线来控制几百万个像素的开关状态显示画面，在常规的 IC 设计下，对驱动 IC 用量影响最大的因素为分辨率。
+
+TV 面板的单颗驱动 IC 一般拥有 960-1366 个驱动通道，常规设计下一个 HD 分辨率的 OC 需要三颗驱动 IC，一般 FHD 需 6 颗，UHD 则需 12 颗。
+
+除了常规设计外，面板厂商也在开发 Dual gate（一个驱动通道驱动两列）或者 triple gate （一个驱动通道驱动三列）设计，入门级的 32 寸 HD 有 1 颗或者 2 颗的驱动 IC 设计，但 目前 UHD 占整体 TV 比重超 50%，这类方案在分辨率越来越高的情况实际难以实现。
+
+根据 DISCEIN 数据，TV 面板所需要的驱动 IC 数量对应 2.7 亿片 TV 面板出货量全年约 25 亿颗规模，是消耗数量最多的显示品类。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqiatsJ6DyoeeI7KBtRQxfHB527bqgZzEbzs24TNiasKtCpJaIeKBcuFcQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+TV 驱动 IC 率先成为大陆厂商切入的最佳入口。
+
+我们认为目前 TV 驱动 IC 为突破口主要因
+
+1）大尺寸 TV 面板产品的标准化程度最高，技术壁垒相对中小尺寸门槛低；
+
+2）TV 显示驱动每年需求量约 25 亿颗在主流显示里占比较大；
+
+3）在显示面板在几次产业转移后，在大尺寸 LCD TV 领域率先实现了以大陆为主导的产业格局，前三强竞争格局已经形成，加上 CHOT 等其他面板厂，使得 TV 驱动 IC 的需求由大陆厂商主导。
+
+但 TV 领域也是目前竞争最为激烈的领域，整体份额较为接近，其中中国大陆厂商集创北方和奕斯伟也占据了一定份额，根据 CINNO Research 数据，本土驱动芯片企业中，2021 上半年两者合计占据了电视、显示器和笔记本等中大尺寸应用 90%以上市场份额。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zq7FDZzs3XhMaqy6743UnIoASVOVSrtn3lPT9tPycahUEbsprRdJ2jyA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+2.2 MNT 显示驱动：应用场景多维，大陆厂商奋起直追
+
+MNT 显示驱动产品维度丰富。MNT 和 TV 整机的形态比较类似，但 TV 产品相对来说场景简单较为中规中矩，MNT 附带更多应用场景需求，如画面比、产品刷新率、平面和曲面、分辨率等产品维度比较丰富，应用于办公、娱乐、电竞等各个场景。
+
+因尺寸限制用量较小。
+
+从用量来说，受到尺寸普遍较小的限制，MNT 产品难以像 TV 产品一样简单采用 10 颗以上 960 通道的驱动 IC，而倾向采用数量更少的 1446 通道的驱 动 IC，结合 MNT 的整体规模以及倾向于用较多通道的驱动 IC，MNT 的 IC 需求量对应每 年 1.6 亿片 MNT 面板出货量约 9 亿颗规模，在几个主要应用里仅大于 TPC。
+
+相比于 TV 面板以大陆厂商为主导的产业格局，MNT 面板目前仍是多强局面。其中大陆厂商 BOE 出货量全球第一，其他排名靠前厂商中主要有韩国厂商乐金显示以及中国台湾地区的友达、群创，大陆厂商目前加大 MNT 投入持续追赶。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqEWEY6acIkBFeGK0zv7U7OQYg6CdibymeYUxU10lOaD8vv9P2WXibDDYg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+MNT 驱动 IC 目前仍然不是新晋厂商的第一选择，但随着产业转移份额快速增长。
+
+似然 MNT 驱动 IC 产品本身与 TV 的驱动 IC 规格差距不大，但因整体规模、产品多样性、定制化等原因不是新晋厂商进入市场的的第一选择，目前集中度较高主要为台厂主导。
+
+但目前国内面板产商奋起直追，大陆的集创北方、奕斯伟以及新相微等也随着 MNT 的面板产业转移至大陆份额快速增长。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqdLU4h1hO4x7iamWnr6Ut4PoeJmKribnMYuAomvUaFrgcqylyriccr1gMA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+2.3 NB 驱动 IC：后疫情时代承接新刚性需求，完全由台厂主导
+
+笔记本电脑后疫情时代下承接更多新刚性需求，用量约 TV 一半。
+
+疫情期间包括宅经济、在线办公、在线教育等各刚性需求，特别是教育笔电的集中采购，大幅增加了 NB 的新刚性需求，2022 年略有回落。
+
+根据 TrendForce 预计，2022 全年出货量将年减 3.3%为 2.38 亿台，其中 Chromebook 占比约 12.4%，出货动能略有放缓，宅经济效应所衍生的需求有所减退。
+
+NB 产品的分辨率结构目前以 HD 和 FHD 为主占比近 90%，故 IC 用量相对较少，NB 的 IC 需求量对应每年 2.3 亿片 NB 面板出货量约 12 亿颗规模，接近 TV 用量的一半。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqmib8bLF99pH4QUslmp3hyJgjHnneqQAHdqtF3uSztaJvg9R6XpFms9Q/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+NB 驱动 IC 基本完全由台厂主导，技术门槛较高。
+
+从供应商来看，中国大陆方面除京东方早期通过 G8.5 代线的开创性生产方案快速占领市场为全球第一外，2-4 位均为台厂和韩厂，目前在 NB 线中大陆厂商尚未掌握主导权。
+
+由于 NB 尤其注重功耗、画质及 COG 设计等特点提高了驱动 IC 的技术门槛，其供应完全由台厂主导，第一的联咏和第二的瑞鼎占据了超过 60%的份额，大陆厂商参与度相对 TV 和 MNT 更低。2021 年也因供给方的高寡占，导致驱动 IC 成为 NB 面板供应的掣肘，特别是因为技术门槛大陆厂商较难快速形成补充。
+
+除了技术门槛外，由于 NB 驱动 IC 的通道数、COG 设计以及功耗等因素考量，一片12 寸晶圆能生产约 5K 的 TV 驱动 IC 或 7K 以上 MNT 驱动 IC，但仅能生产 2-3K 的 NB 驱动 IC，预计 2022 年依然有缺芯扰动的情况下 NB 的驱动 IC 供需改善晚于 MNT 和 TV。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqZ7Cmr9evSe5SxJ2D2ssR7icjqRv25AyeVzlWCkYoRXicLfwiczo0JaPibQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+2.4 AMOLED 驱动 IC：渗透率提升带动高速成长
+
+AMOLED 渗透率持续提升，目前进入建设高峰期。AMOLED 目前还在高速成长期，大陆和韩国厂商还在投资建设新工厂增加产能，同时进行良率提升、技术优化和产品创新。
+
+根据TrendForce数据，2021 年手机用AMOLED 面板市场渗透率为42%，尽管因 AMOLED 显示面板 IC 持续缺货，手机品牌和 OEM 厂商在其新机型中扩大采用 AMOLED 面板的趋 势，将带动 AMOLED 市场渗透率成长，预计 2022 年渗透率提升至 46%。同时，OLED下游的应用逐渐从手机拓展到穿戴、平板、笔记本等领域，供应商从 SDC 垄断发展到一超多强的局面。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqIe3CDyCXWibZ2lWN0wjiaLvDR49X22pobHmt0cXBHJgrDxPKQic7CcytA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+AMOLED 驱动 IC 对制程要求较高，同制程内多种竞品盈利能力强。
+
+AMOLED 驱动芯片的制程区间处于成熟制程中产能最紧张的 28-55nm，这个区间内存在较多更具备盈利性优势的竞品如车载 MCU、高端 CIS，消费电子 SoC 等，使得 AMOLED 产能受到排挤，其需求优先级较低难以被满足。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zq7HGhHrsAm4y27UYiaaNrFc5iaIaxOarDJibEriaWekniaZeia4vJb9Ql6FUQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+大陆厂商还未具备大规模供货 AMOLED 驱动 IC 能力。
+
+和 AMOLED 面板厂商格局相似，AMOLED 的驱动 IC 前三位均为韩厂，包括三星电子旗下的 LSI 以及 LG 集团旗下的 Silicon Works，前三者的份额已经超过 80%，第二梯队主要是台系厂商联咏、瑞鼎等，大陆芯片厂商未具备大规模供货的能力，目前在缺芯缺产能的情况下，大陆面板厂处于相对被动地位。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqrEwVa1bUNiaQ8aVHdo45vsVFQAjR04W2na8sKpVdXn8UWv59z5QAvdQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+晶圆代工产业格局制约中国大陆 OLED 驱动芯片发展进程。
+
+韩国晶圆代工厂与韩国 OLED 驱动芯片设计厂商深度绑定，形成垂直整合模式，处于全球领先地位；中国台湾晶圆代工厂也与当地的 OLED 驱动芯片设计厂商深度合作，优先为当地芯片设计厂商代工；中国大陆晶圆厂主要代工液晶显示驱动芯片，OLED 驱动芯片代工经验较少，大陆 OLED 驱动芯片设计厂商大多不得不将订单交给台湾晶圆厂。
+
+# 3．供需逐步缓解，结构性供不应求仍持续
+
+2020 年四季度以来，由于代工厂晶圆成熟制程日趋紧缺，叠加产能分配优先级问题，驱动 IC 的供应掣肘逐步显现。
+
+根据群智咨询测算，DDIC 供需比从 2020 年一季度的 15.6%，跌至 2020 年四季度的-16.5%后，呈现逐渐收窄趋势，供需关系逐渐缓解，预计 2022 年上半年供需会逐步进入相对平衡状态，但随着供应链产能依旧较紧 2022 年下半年仍然有缺货风险。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqibWaYnmzaNuP2zYQLzM6A4tMUSH4h9TbMAdG5gMamHibwApQ3CRwZktg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+供需持续紧张的同时，驱动 IC 价格也呈逐季上涨趋势。
+
+2021 上半年持续的供需不平衡，叠加供应链挤兑效应， LCD 和 OLED DDIC，其价格连续数个季度环比大幅上涨；但随着终端库存增长，需求波动系数放大，需求端对于 DDIC 的涨价接受意愿将逐步减弱。
+
+根据群智咨询预测，展望 2022 年，随着包括晶合等新增产能持续释放以及疫情红利后终端 需求的稳步回归，驱动 IC 的价格大概率将呈现高位持平价格走势。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqWYe8dFySl8pXGHyOyYiaVT0fwA1RLkN48hAo0fiaED93us8ibiaU3WlXPA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+3.1 需求端：在 LCD 领域中国大陆厂商将拥有绝对话语权
+
+显示驱动 IC 需求取决于面板整体产能。面板厂的产能上限直接决定了驱动 IC 的需求上限，即使终端需求相对较弱，但面板厂依然有相当大的动力在不击穿现金成本的情况下维持满稼动，一方面可获得正向现金流，一方面即使亏损也可推动产业重组。
+
+从 2021 下半年面板行业稼动率来看，即使 LCD 面板价格从高点回调较大，但制造商依然维持约 90%的高稼动率。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqSMX3pTPS6qfm700ibmrHsmpeKPplmTOHBR5kWDT4IcSjJlEuBPqHd8A/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+未来中国大陆的面板制造厂商有较强的上游议价和对供应的影响力。
+
+韩国面板厂商的产能重构和停产，以及台厂商对于产能投资的谨慎，间接增加了中国大陆面板厂商在全球的产能份额。
+
+根据 Omdia 预测，国内前三大厂商在经过几次收购和产能扩张后，预计将在 2023 年达到全球产能份额的 52%，成为行业发展主阵地，对上游拥有较强的影响力。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zq9kUveySYOvNL1kZsqic2iaQ9mOIOnFNQEVR9okGlg7fNbbicxyTP2Owpg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqXExiaGM98sQd4oIDZHNNfb8kTPzTicZsuhGmLYAuIiaJKRPYJwttjmNaA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+随着国内面板厂陆续投产，对 OLED 显示驱动需求也在持续提升。
+
+根据 UBI Research 数据，在 AMOLED 市场，2020 年三星为市场份额为 68.2%，排全球第一；第二为 LG，市场份额为 21%左右，主要由大尺寸 OLED 面板（电视）贡献；京东方为第三，份额约 5.7%。
+
+但从需求来看，中国是最大买方市场，采购约占 50%。随着国内面板厂 6 代 OLED 线陆续 投产，对显示驱动芯片需求也在持续提升。
+
+3.2 供给端：上下游合作，逐步完善产业生态
+
+整体来看，随着国内显示面板行业规模跃居全球之首，与之配套的上游产业环节如制造和封测等都将逐步走向国产化。
+
+3.2.1 晶圆代工：绑定模式为目前发展方向
+
+中大尺寸面板显示驱动以成熟制程为主。从制程来看，由于大、中尺寸面板终端产品显示技术已较为成熟，对于集成度要求较手机屏幕要求更低，多用 90nm 及以上的成熟制程 DDIC 即可生产。
+
+且由于大、中尺寸面板所需芯片数量较多，因此其所使用的 90nm 及以上制程的 DDIC 仍占全球 DDIC 市场的主要部分，2020 年市占率达到约 80%；在芯片整体向更先进制程节点推进的趋势下，90nm 及以上制程的 DDIC 市占率将逐渐下降，但仍将占据大部分市场份额，根据 Frost&Sullivan 预测，在 2024 年 90nm 及以上制程的 DDIC 市占率仍将超 70%。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqP1YOfL5k9yjUVNyf3qUfsOiauU6T4TzrUvgqhFjlrwfRmQlwwh8YyoQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+显示芯片的晶圆代工产能主要集中在非大陆代工厂。
+
+根据 Frost&Sullivan 统计，2020 年，不考虑三星电子等同时具备设计能力和晶圆产能的 IDM 企业，仅考虑晶圆代工企业，全球晶圆代工企业在显示驱动芯片领域的年产量约 200 万片（折合 12 英寸晶圆），联华电子、世界先进、力积电、东部高科等晶圆代工企业在显示驱动芯片晶圆代工领域均有布局。
+
+在大尺寸领域，中芯国际和晶合集成的产能相对较小，在小尺寸方面，晶合和集创北方绑定后，快速把 90nm 的 TDDI 技术能够快速推广，实现了在小尺寸领域占比超过 30%；但在 OLED 显示驱动领域占比不到 1%，主要因为 OLED 驱动芯片基本采取 40nm/28nm 以及少量 55nm 制程，而国内目前在这段工艺方面还较弱，有代工能力的厂商不多，导致国内显示芯片代工供给结构性失衡。
+
+LCD 显示驱动领域随着韩国中游面板制造厂的份额收缩而逐渐转移其产能至其他领域，台厂依然占据大部分份额。
+
+LCD 的显示驱动 IC 制程主要是 110-150nm 以及少量 90nm。国内晶合集成是最大增长点，根据其招股书披露，Q4 相比 Q1 每月增加约 20K 的产能，其中约 90%用于驱动 IC；中芯国际在突破先进工艺同时也将部分产能转向成熟的驱动 IC 领域；联电战略为继续维持驱动 IC 领域的龙头代工厂地位，增加部分 28nm 产能至AMOLED 的 DDIC。韩厂方面随着，特别是三星为主的韩国晶圆厂随着本土面板厂的势微，逐步将显示驱动 IC 的产能转向其他领域。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqHgibCNicze1FmhITq4DA6DSmHqvpiadicXiaARZCpphoBH0QD5eLpicXMk3A/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+韩厂和台厂的崛起过程中均与上下游形成了绑定关系。
+
+DDIC 所在的制程分类为高压模 拟，虽然已有 40nm 选项, 但 2020 年前长期低迷的 ASP 市场，使得中大尺寸 TFT LCD 用 的 DDIC 无法承担 12 寸晶圆的高成本线。
+
+其应对方式是转往二、三甚至四线代工厂生产，以联合下游面板厂承包产能的商业模式维持对重要客户的供应。
+
+因显示驱动芯片行业的商业模式与普通的芯片行业较为不同，以及其出货量大对于代工产能的需求，掌握供应链或为突破方向。
+
+目前，驱动芯片厂商主要拥有两种模式，一种模式是韩国的全产业链整合模式，一个集团整合了芯片设计、芯片制造、封装制造、面板厂商和整机厂商；另一种模式是中国台湾地区的上下游绑定模式，驱动芯片设计厂商可以与晶圆代工厂绑定，形成 IDM 模式，保障工艺开发及产能。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqLlCohrlyRPbKxibI2qibm0AjcpicxqC4aT031ARuwhIyBkhdDLY7vNDOA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+能够提供 AMOLED 代工的晶圆厂更为有限，产能基本被韩台垄断。
+
+目前，根据 Omdia 资料，只有五家晶圆代工厂商能够为 HV 40nm 和 28nm 制程的 AMOLED 驱动芯片提供成熟的产能，包括三星、联电、台积电、格芯和中国大陆的中芯国际。其中，三星、台积电、联电三家晶圆厂提供 90％晶圆产能供应。
+
+三星：主要工厂为奥斯汀 S2，为高端 iPhone 和 Galaxy 机型供货，只向三星 LSI 提供 28nm 产能。
+
+联电：目前正在扩大 28nm 产能维持其驱动 IC 领域的龙头代工厂地位，预计 2022 年将增加到 15-16K/M。三星 LSI 为主要客户，剩余 5K/M 产能供应给 LX Semicon（前身为 Silicon Works）、联咏和其他中小厂商；联咏占据其 HV 40 纳米产能的主要份额；小公司较难从 UMC 获得产能。
+
+台积电：28nm 产能仍较难开出，将在 2022 年主要向 LX Semicon 提供 40nm 产能，约 10K/M，苹果为其最终客户；其他公司可获得的剩余产能或不足 5K/M，如奕力、新思和云英谷在 2022 年将继续主要依赖台积电，每家每月或不到 1K。
+
+格芯：主要向美格纳提供 28nm 产能；LX Semicon 和新思也将在 2022 年开始建立合作关系；集创北方计划导入其 40nm 制程，预计将在 2022 年下半年进行量产。
+
+中芯国际：产能持续增长，预计到 2022 年底达 7-8K/M。瑞鼎投片量正在增加，目前占据 40nm 产能约一半。集创北方、奕斯伟、华为海思和豪威等正在进行样品输出或验证，最快于 2022 年第二季度后才能进行量产，中芯国际开出的新产能为关键资源。
+
+晶合集成：计划开发 AMOLED 驱动芯片 40nm 产能，预计到 2023 年投产。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqEDezJ0ugoXy3MqZa7zgOfWw3ktOCJKeBClicRhgoic1DPNMYT4UxvaCw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqTib2iaZib3sogJNTbJcyyxv9YdyvGrr98NNPeonYzdGrf4ZD2xcoGvfCg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+3.2.2 封装测试：随着产业转移迈向第一梯队
+
+全球显示驱动芯片封测行业集中度较高，头部效应明显。
+
+除部分专门提供对内显示驱动封测服务的厂商集中在韩国外，行业龙头企业均集中在中国台湾及大陆地区。
+
+中国台湾和大陆的显示驱动芯片厂商都是采用委外代工的方式生产，由晶圆代工厂进行晶圆制造，再由封装厂为晶圆进行金凸块加工，随后由测试厂（委外测试厂或公司自有产能）进行晶圆良率测试，最后由专业封装厂进行切割、COG/COF 加工等封装工作。
+
+根据 Frost & Sullivan 数据统计，2020 年全球显示驱动芯片封测行业中，独立对外提供服务且市场份额占比较高的企业包括颀邦科技、南茂科技、汇成股份、颀中科技与通富微电。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqo9ISicAkqVqfZUzSX2Rwjb0evHREdypHGnGXGupO32YXAAf4SxmYVgg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+供应链同步转移，产业格局或生变。
+
+和显示面板行业格局相似，全球显示驱动芯片封测厂商主要集中在韩国，中国台湾和中国大陆。伴随着显示驱动芯片行业转移，封测供应链也正在从韩国、中国台湾，到中国大陆这样的顺序转移。
+
+韩国：以 Steco、LB-Lusem 为代表，分别系三星和 LG 与生态内的显示驱动芯片封测服务商，不对外部的显示驱动芯片设计公司提供服务。三星、LG 作为显示面板产业龙头企业，采用全产业链整合模式，集团内部整合了芯片设计、芯片制造、封装制造、面板厂商和整机厂商，具备较强的技术与规模优势。
+
+中国台湾：以颀邦、南茂为代表。由于中国台湾 LCD 产业发展较为完善，曾有包括矽品（被日月光收购）、悠立（被安靠收购）、飞信（与颀邦合并）、福葆等十余家封测厂商入局显示驱动芯片封测领域，导致该市场竞争较为激烈，并经过长时间的行业整合，中小型封测厂纷纷被大厂并购，目前仅剩颀邦科技、南茂科技两家显示驱动芯片封测厂商，形成双寡头垄断市场的格局。
+
+同上文晶圆代工所述，中国台湾显示面板产业上下游绑定模式发展成熟，显示驱动芯片设计厂商、晶圆代工厂、封测厂商以及显示面板产业均可形成资本与业务上的绑定，如联咏与联电绑定，联电与颀邦绑定，富士康旗下天钰、夏普、群创绑定，明基友达与瑞鼎绑定，形成全产业链模式，保障工艺开发、产能以及下游客户。
+
+中国大陆：由于整体封测厂起步较晚，在技术和规模两方面与韩厂和台厂存在一定差距，主要代表有厦门通富、颀中科技、汇成股份、纳沛斯等。目前随着显示驱动设计产业的快速成长和国内资本投入的提高，显示驱动芯片封测业务已逐渐开始转移至中国大陆。
+
+产能紧张带动显示封测市场规模上涨。
+
+2015 年起，由于京东方等国内领先面板厂商突破，面板实现大宗商品化，整体面板及其零部件处于一个价格下行时期，因此该阶段显示驱动芯片封测市场规模没有显著增长。
+
+2020 年，尽管疫情带来短期冲击，但居家隔离、远程办公等宅经济效应刺激了显示行业相关终端需求的爆发。同时，由于晶圆代工厂产能紧张，整体显示芯片价格不断上涨带动了显示封测市场的增长，根据 Frost&Sullivan 数据，全球显示驱动芯片封测市场规模于 2020 年达到 36 亿美元，较 2019 年增长 20%，预计 2021 年持续增长至 45 亿美元，同比增长 25%。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zqkFaYSkbK7FCAS1rn7gvW07puvTENRhrXH5JFjGB0VLtrhPk8NJR4Yg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+大陆显示封测厂商快速追赶，预计到 2025 年份额接近台厂。
+
+受益于领先的晶圆代工厂及成熟的芯片设计产业，2016 年中国台湾的显示驱动芯片封测市场规模为 57.3 亿元。
+
+随后通过并购整合，进一步增强了产业核心竞争力，2020 年市场规模达到了 88.9 亿元，年均复合增长率约为 11.61%。相比之下中国大陆相关厂商起步相对较晚，2016 年中国大陆的显示驱动芯片封测市场规模仅为 19.1 亿元。
+
+随着集成电路设计产业的快速成长和国内资本投入的提高，显示驱动芯片封测业务已逐渐开始转移至中国大陆。同时，受益于全球显示驱动芯片价格上涨，2020 年中国大陆显示驱动芯片封测市场规模达到 46.8 亿元，占比有所上升。
+
+未来随着国内芯片设计厂商的发展以及晶圆产能紧缺短期内难以改变的局面，中国显示驱动芯片封测行业的需求将快速增长。
+
+预计中国大陆整体显示驱动封测市场规模将从 2021 年的 67.3 亿元增长至 2025 年的 127.6 亿元，年均复合增长率约为 17.34%，2025 年中国大陆 中国台湾地区显示驱动封测市场占全球市场比重将提升至 77.01%。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cjYElGoKtypCia40NUHzq9zq7nhK0ibANTrAtiavLpbFrrTGTeNZ9n3yP71dibPQCibBEyYicDq1K8Xich2A/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+随着国内显示面板产业的崛起，显示驱动芯片将加速国产化，也将带动封测供应链同步转移。中国大陆起步相对较晚，且由于缺乏成熟的芯片设计厂商，市场需求不足，因此中国大陆地区的封测企业规模相对中国台湾地区的封测企业规模较小。
+
+随着中国大陆近年来对芯片设计企业的不断扶持和企业技术的不断成熟，急剧上升的显示驱动芯片封测需求将会推动现有显示驱动芯片封测厂商的持续扩产，并吸引更多领先的封测厂商进入行业。
+
+## 
+
+**声明：**
+
+  
+
+声明：文章来源：ittbank。本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+  
+
+**推荐阅读▼**
+
+-   [硬件精选文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2531417028063166464#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

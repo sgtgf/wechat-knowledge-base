@@ -1,0 +1,252 @@
+# 为什么外包项目的老板们都爱用ESP32？STM32不香了吗？
+
+原创 王工 硬件笔记本 2025-08-19 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/YtJTV691FIC0R6DXR4pgxA](https://mp.weixin.qq.com/s/YtJTV691FIC0R6DXR4pgxA)
+
+![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=frjerr2t&wxfrom=5&wx_lazy=1&tp=wxpic "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=x41xcyk9&wxfrom=5&wx_lazy=1&tp=wxpic "音符")
+
+  
+
+  
+
+最近遇到一些外包项目的老板，发现一个有趣的现象：大多数物联网项目需求里都明确要求使用ESP32。这让咱们这些STM32老玩家开始重新审视这两个平台的特点。经过一些项目实践和技术对比，我进行了一些简单的总结，希望对大家的技术选型有所帮助，同时免费赠送5本《从零开始学ESP32物联网应用开发》书籍。  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgoOMkZcubKvFyV8F8U6CllaJbpQicg4EQ4J7tbEBQibcWhnonAv0PialiaNYZpUI49sxOKZhHIUV8tPw/640?wx_fmt=jpeg&from=appmsg)
+
+清华大学出版社2025年3月出版   合计:303页  
+
+ 定价：89.8元
+
+  
+
+  
+
+011
+
+****ESP32**和****STM32的区别**
+
+**1.1、ESP32的优势很明显**
+
+-   控制逻辑相对简单，SDK封装得比较完善；
+    
+-   Arduino生态丰富，第三方库多到用不完；
+    
+-   联网开发特别方便，WiFi/MQTT/蓝牙都是现成的；
+    
+-   很多学生用ESP32做毕设，接几个传感器，连上阿里云，一个物联网项目就成型了。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgoOMkZcubKvFyV8F8U6CllTEwfvgOa9HhcXplNT0j8yJsPZkBdkMnXGI5gC5jcn4Acq8hoaCLdxw/640?wx_fmt=png&from=appmsg)
+
+  
+
+**1.2**、**STM32则更偏底层**
+
+-   需要自己配置时钟树、中断优先级；
+    
+-   网络开发要折腾LWIP协议栈；
+    
+-   对控制逻辑要求更高，适合做无人机、智能车这类控制类项目；
+    
+-   面试时经常被问到的知识点大多来自STM32。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgoOMkZcubKvFyV8F8U6CllM7f4YSCuYI5yOVx84Oib349xibibR0FBK9ZTUFkulV0ZBaSRMyygHDjrA/640?wx_fmt=jpeg&from=appmsg)
+
+  
+
+### **1.3**、****硬件架构差异
+
+ESP32则是基于Tensilica LX6架构：
+
+-   内置WiFi和蓝牙是最大卖点；
+    
+-   虽然也有丰富外设，但时序控制不如STM32精准。
+    
+-   RISC架构更开放，但稳定性还在完善中。
+    
+
+STM32采用ARM Cortex-M系列内核（M0/M3/M4等），特点是：
+
+-   外设资源丰富，GPIO、定时器、ADC等都很齐全；
+    
+-   中断响应快，适合实时控制；
+    
+-   部分型号带FPU，能做简单DSP运算。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjho0nf5fyk3jjHOkusV3AAVicWH43ibIBtLTBtic6cUQ1V27YQibpprk7ogpDnJo55m6o4SQGPIhY6BzQ/640?wx_fmt=png&from=appmsg)
+
+###   
+
+****1.4**、应用场景推荐****  
+**
+
+**推荐使用ESP32的场景**
+
+-   需要无线连接的物联网设备；
+    
+-   快速原型开发；
+    
+-   对成本敏感的量产项目；
+    
+-   学生练手或业余爱好项目。
+    
+
+  
+
+**推荐使用STM32的场景**
+
+-   工业控制设备；
+    
+-   需要高精度定时/采样的应用；
+    
+-   复杂外设控制（如电机驱动）；
+    
+-   对稳定性要求高的产品。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgoOMkZcubKvFyV8F8U6Cll5iaEABxQRNevF9vFVYPfoJ1DCxAnzJmQgLQQ7ibpmR7Szgk720ZZnSyA/640?wx_fmt=png&from=appmsg)
+
+  
+
+  
+
+给初学者的建议：
+
+1、学STM32可以深入理解底层，掌握GPIO、定时器、中断等核心概念，理解单片机工作原理。
+
+2、学ESP32，重点在于学习WiFi/蓝牙等物联网应用的开发。
+
+3、如果掌握两个平台，更具竞争优势。
+
+  
+
+  
+
+021
+
+**赠送5本ESP32新书**
+
+2.1、书籍亮点
+
+今年清华大学出版社出了一本书籍《从零开始学ESP32物联网应用开发》，安利给大家，它有三大核心亮点：
+
+**1、从芯片原理讲到项目实战**：50个典型案例+2个完整项目（基于WiFi技术的智能灯泡和基于蓝牙技术的指纹锁），项目可以直接参考。
+
+2、内容全面：涵盖ESP32的硬件特性、外设驱动控制、FreeRTOS实时操作系统、Wi-Fi编程与配网、蓝牙通信、网络传输与应用等核心知识。
+
+**3、配套资源超丰富**：100分钟视频教程+完整源码+开发工具包+教学PPT
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgoOMkZcubKvFyV8F8U6CllD2kU8libUbEqZUhs0bCfItlAQmHGsjMtibQumqROEk0h9HMiaiaY76SIiag/640?wx_fmt=jpeg&from=appmsg)
+
+###   
+
+### 2.2、目录结构
+
+本书共11章，分为4篇。
+
+-   **第1篇 基础知识**：ESP32硬件基础、ESP-IDF开发环境搭建、外设驱动、FreeRTOS实时操作系统等。
+    
+
+-   **第2篇 通信技术**：Wi-Fi编程、配网技术、蓝牙通信等。
+    
+
+-   **第3篇 网络编程**：网络传输、HTTP/HTTPS、MQTT、OTA应用等。
+    
+
+-   **第4篇 项目实战**：基于Wi-Fi技术的智能灯泡和基于蓝牙技术的指纹密码锁两个综合项目的实现。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgoOMkZcubKvFyV8F8U6CllKianuMcGXIdLtQb9EGyh0kl0H41ag1ziabyuD6998sXOAsVXowFZxT4g/640?wx_fmt=jpeg&from=appmsg)
+
+本书内容丰富，讲解循序渐进，操作步骤详细，源码解析透彻，适合ESP32物联网应用开发的入门与进阶读者阅读，也适合相关从业人员参考，还适合培训机构和高等院校的相关专业作为教材。
+
+  
+
+### 2.3、作者简介  
+
+康玮剑，某知名科技公司软件总监，CSDNt尊客专家。有10多年的软硬件开发经验。先后担任联发科技股份有限公司系统工程师、厦门斯坦道科学仪器股份有限公司嵌入式主管与物联网研究院副院长、厦门历思科技服务有限公司软件总监。长期从事嵌入式、物联网和云计算等领域的研发工作。
+
+  
+
+### 2.4、参与方式
+
+📌 【抽奖活动】
+
+奖品：《从零开始学ESP32物联网应用开发》纸质书籍一本
+
+  
+
+🕒 【**活动时间】**
+
+2025年８月19日8:00至2025年８月21日12:00
+
+  
+
+🎊 【**开奖时间】**
+
+**2025 年 ８月21日 12:00**
+
+📝 【**参与说明】**
+
+-   **每人仅限一次抽奖机会；**
+    
+-   **中奖者可免费获赠纸质图书一本；**
+    
+-   **中奖者需在开奖后 5 日内提供图书邮寄联系方式，过期未提供视为自愿放弃中奖资格；**
+    
+-   图书由清华大学出版社赞助并包邮，无需支付任何费用（限大陆地区）。
+    
+-   本次抽奖活动奖品总数：图书 5 本。
+    
+
+  
+
+  
+
+🔗 【**参与资格】**
+
+1、关注公众号：硬件笔记本【设为星标】
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjho0nf5fyk3jjHOkusV3AAVtdaRuRqe2p640pEn5FEvTlfgYFBlLiaHXM46JFoEbkicK0m7Vd2eoAvA/640?wx_fmt=png&from=appmsg)
+
+  
+
+2、在本文评论区留言，分享你对ESP32的看法。
+
+  
+
+  
+
+🔗 【**参与方式】**
+
+抽奖通过「抽奖助手」小程序进行
+
+在公众号的聊天界面里发消息：  
+
+我要ESP32书籍
+
+直接复制粘贴，不容易出错哦！
+
+系统后台会自动弹出抽奖链接
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjglicI6178cCTrDp0oTnXedEX19F8Lrr0yX0BvoEiabPicCjeUIn1Xap3oHsx9bEmA3NdQb6oSMVh54g/640?wx_fmt=jpeg&from=appmsg)
+
+  
+
+🙏【**特别鸣谢】**  
+感谢清华大学出版社提供的友情赞助！
+
+  
+
+为了避免中奖后失联，提前加我微信：woniu26a ，
+
+也欢迎关注我的视频号。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjho0nf5fyk3jjHOkusV3AAVs3zT3AaOtcGZDOZKjlrl8eI7DwlwmnzAwmhyKqEYwa12E4H551UtLg/640?wx_fmt=jpeg&from=appmsg)
+
+奖品有限，如果你喜欢这本书，但没有中奖，也可以通过下方链接购买哦

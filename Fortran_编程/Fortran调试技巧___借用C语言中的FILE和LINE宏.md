@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/c5s\_BU5e8WfzlMNnn1aPPA](https://mp.weixin.qq.com/s/c5s_BU5e8WfzlMNnn1aPPA)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/zl6FCZ6ofibhJZqYaeJlSFvXRIcAOYic5cmQGs0Fwd8Vo5h8aLUIshlibuXCEG54NvGpZdLtJvrbviapTwAcSicZSrA/640?)
+![](Fortran调试技巧___借用C语言中的FILE和LINE宏_images/img_000_e9993c67ecb4.png)
 
   
 
@@ -15,7 +15,7 @@
 
 在 C 语言中，预处理器提供了几个有用的内置宏（如下表所示），其中包括 `__FILE__` 和 `__LINE__`。`__FILE__` 宏会被预处理器替换为一个包含当前源文件名称的字符串，而 `__LINE__` 则会被替换为一个表示当前源文件行号的整数。这两个宏在编写错误报告或日志记录时非常有用，因为它们可以帮助开发者准确地定位到代码中的具体位置。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVEPEichoPSHCrQibXhCsCslhziaB6ibUHIZ6yoIXPCs6eUYKLTbFw8ljp0U9T29gl1icHIbT2Q4l7Y2jQ/640?wx_fmt=jpeg&from=appmsg&random=0.8178363173925032)
+![](Fortran调试技巧___借用C语言中的FILE和LINE宏_images/img_001_89456139f246.jpg)
 
 例如，在 C 语言中，你可以这样使用它们：
 
@@ -153,7 +153,7 @@ Fortran开发环境极简配置教程
 
 # 推荐阅读
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=other&from=appmsg&random=0.9539727094076849&random=0.8226163506660595&random=0.6905061688803527&random=0.827054233979573&random=0.20298406733969632&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1&random=0.07188680535054659)
+![](Fortran调试技巧___借用C语言中的FILE和LINE宏_images/img_002_4c000353cb8b.other)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 
@@ -161,4 +161,4 @@ Fortran开发环境极简配置教程
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXaMuIZZTPWuOVnrUIDWKGnVFANg0cibXic0dOIjjQnicYwJ3QsQFtmY2HkBtA57jFAHS89SlX9cSibvg/640?wx_fmt=png&from=appmsg&random=0.1848566241593428)
+![](Fortran调试技巧___借用C语言中的FILE和LINE宏_images/img_003_9b34da5135fd.png)

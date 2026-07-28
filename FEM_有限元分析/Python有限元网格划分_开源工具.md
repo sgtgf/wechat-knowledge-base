@@ -61,7 +61,7 @@ pip install pyvista
 import pyvista as pv# 读取inpgrid = pv.read_meshio('test.inp')# 显示网格信息for typeID,cell in grid.cells_dict.items():    print(f'Type:{typeID}, Number:{cell.shape[0]}')# Type:10, Number:8701# Type:12, Number:1900# Type:24, Number:8709# Type:25, Number:1900grid.plot(show_edges=True)# 保存inppv.save_meshio('out.inp', grid)
 ```
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Fo2HISySfpybzdv09Jviaw89XZVTBWtkcS6yN4UXb2gEzZ9vboF9bo0rEwXO1d2icBE6M6fW32iaHLqJydq9B4m8Q/640?wx_fmt=png&from=appmsg)
+![](Python有限元网格划分_开源工具_images/img_000_77b1df7ddb1f.png)
 
 (二阶单元的显示似乎存在一些问题，左右其实是二阶四面体单元和二阶六面体单元，看上去像是将二阶单元拆解为一阶单元显示的)
 
@@ -89,7 +89,7 @@ conda install -c conda-forge pygalmesh
 import pygalmeshimport pyvista as pvmesh = pygalmesh.generate_volume_mesh_from_surface_mesh(    "test.stl",    min_facet_angle=25.0,    max_radius_surface_delaunay_ball=1,    max_facet_distance=0.5,    max_circumradius_edge_ratio=1.3,    verbose=False,) # meshio对象mesh_pv = pv.wrap(mesh) # 使用wrap()函数封装为pyvista对象# 剖分可视化网格crinkled = mesh_pv.clip(normal=(1, 0, 0), crinkle=True) # 剖面p = pv.Plotter()p.add_mesh(crinkled, color='w', show_edges=True)stl_model = pv.read("test.stl") # 原始模型作为参照p.add_mesh(stl_model, color='w', opacity=0.2)p.add_mesh(stl_model.extract_feature_edges(), color='r')p.show()
 ```
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Fo2HISySfpybzdv09Jviaw89XZVTBWtkcKGn6NBBR86lrA501Iia1ic6hLRJ5mPHxrGNFIa0sB2I1B0r9Paxy7JVw/640?wx_fmt=png&from=appmsg)
+![](Python有限元网格划分_开源工具_images/img_001_b92257ff65f6.png)
 
 > Github 主页：https://github.com/meshpro/pygalmesh
 
@@ -125,7 +125,7 @@ pip install pygmsh
 import gmshfrom pygmsh.helpers import extract_to_meshioimport pyvista as pvdef generate_tetra(model, mesh_size, mesh_order=1, threads=2):    # 初始化    gmsh.initialize()    gmsh.option.setNumber("General.Terminal", 0) # 控制台信息输出 0:不输出 1:输出    gmsh.option.setNumber("General.NumThreads", threads) # 多线程 (加速效果不明显)    gmsh.clear()    if mesh_order == 1:        cell_type = pv.CellType.TETRA    elif mesh_order == 2:        cell_type = pv.CellType.QUADRATIC_TETRA    else:        raise ValueError('mesh_order must be 1 or 2')    # 加载STL模型    gmsh.merge(model)    # 识别面    gmsh.model.mesh.classifySurfaces(40 * 3.1415926 / 180.)    # 创建体    gmsh.model.mesh.createGeometry()    s = gmsh.model.getEntities(2)    l = gmsh.model.geo.addSurfaceLoop([e[1] for e in s])    gmsh.model.geo.addVolume([l])    gmsh.model.geo.synchronize()    # 利用背景网格的场数据指定全局网格尺寸    f = gmsh.model.mesh.field.add("MathEval")    gmsh.model.mesh.field.setString(f, "F", str(mesh_size))    gmsh.model.mesh.field.setAsBackgroundMesh(f)    # 指定网格阶次    gmsh.option.setNumber("Mesh.ElementOrder", mesh_order)    # 2D 网格划分算法 (1: MeshAdapt, 2: Automatic, 3: Initial mesh only, 5: Delaunay, 6: Frontal-Delaunay,     #               7: BAMG, 8: Frontal-Delaunay for Quads, 9: Packing of Parallelograms, 11: Quasi-structured Quad)    gmsh.option.setNumber("Mesh.Algorithm", 2)    # 3D 网格划分算法 (1: Delaunay, 2: New Delaunay, 3: Initial mesh only, 4: Frontal, 5: Frontal Delaunay,     #               6: Frontal Hex, 7: MMG3D, 9: R-tree, 10: HXT)  - 目前只有HXT支持并行    gmsh.option.setNumber("Mesh.Algorithm3D", 10)    # 划分网格    gmsh.model.mesh.generate(3)    # 转pyvista UnstructuredGrid    mesh = pv.wrap(extract_to_meshio())    gmsh.clear()    gmsh.finalize()    # 提取四面体 (完整的网格包含点、面、体单元)    mesh = mesh.extract_cells_by_type(cell_type)    # 二次四面体节点编号顺序修正    if cell_type == pv.CellType.QUADRATIC_TETRA:        mesh.cells = mesh.cells.reshape(-1, 11)[:, [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 9]].ravel()        mesh.cells_dict[24] = mesh.cells_dict[24][:, [0, 1, 2, 3, 4, 5, 6, 7, 9, 8]]    return meshmodel = 'test.stl'mesh = generate_tetra(model, mesh_size=2, mesh_order=1)# 剖分可视化网格crinkled = mesh.clip(normal=(1, 0, 0), crinkle=True) # 剖面p = pv.Plotter()p.add_mesh(crinkled, show_edges=True)stl_model = pv.read(model) # 原始模型作为参照p.add_mesh(stl_model, color='w', opacity=0.2)p.add_mesh(stl_model.extract_feature_edges(), color='r')p.remove_scalar_bar()p.show()
 ```
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Fo2HISySfpybzdv09Jviaw89XZVTBWtkce4F1lZUdAJpAiaWQzOrks4iccpuZ47NUAq9Lf2Hn1yn7XQhmUOLqwpgQ/640?wx_fmt=png&from=appmsg)
+![](Python有限元网格划分_开源工具_images/img_002_fbe3fd9e0a1a.png)
 
 > 参数控制说明：https://gmsh.info/doc/texinfo/gmsh.html
 > 
@@ -149,7 +149,7 @@ pip install tetgen
 import tetgenimport pyvista as pvsphere = pv.read('test.stl')tet = tetgen.TetGen(sphere)tet.tetrahedralize(order=1, mindihedral=20, minratio=1.2)grid = tet.grid# 剖分可视化网格crinkled = grid.clip(normal=(1, 0, 0), crinkle=True) # 剖面p = pv.Plotter()p.add_mesh(crinkled, show_edges=True)stl_model = pv.read('test.stl') # 原始模型作为参照p.add_mesh(stl_model, color='w', opacity=0.2)p.add_mesh(stl_model.extract_feature_edges(), color='r')p.remove_scalar_bar()p.show()
 ```
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Fo2HISySfpybzdv09Jviaw89XZVTBWtkcic1dur2U6ibR7KgncAicd4zu4UGOH701k4l4RNTUwnyVn8zVo8ex6Mqlg/640?wx_fmt=png&from=appmsg)
+![](Python有限元网格划分_开源工具_images/img_003_c999fb8dff39.png)
 
 > 官网：https://wias-berlin.de/software/index.jsp?id=TetGen&lang=1
 > 

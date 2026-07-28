@@ -4,11 +4,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/4maCvsrR9hLi4INPqdd94w](https://mp.weixin.qq.com/s/4maCvsrR9hLi4INPqdd94w)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vXMKfjwvxRhJicibmgaiaeuWC53rzVtmTuccORDqjTyaC7uOK1YSibUSodQ/640?wx_fmt=gif)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_000_b83f2844ae80.gif)
 
 **点击蓝字 关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vXMKfjwvxRhJicibmgaiaeuWC53rzVtmTuccORDqjTyaC7uOK1YSibUSodQ/640?wx_fmt=gif)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_001_b83f2844ae80.gif)
 
   
 
@@ -64,13 +64,13 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190357?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53veTKWLNAu5w1jRu2JWVmLKPonPPiamibzj8rd1x33k88sWI9gUShF1Zvg/640?wx_fmt=jpeg)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_002_fb491493ae41.jpg)
 
 图 5  RCNN-LSTM结构示意图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vQliaypwgG3Zm83RISib10nFBYWmtgE0uNyITVxtNqBACmh7DpN3RsJRw/640?wx_fmt=jpeg)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_003_50f39e45c2c2.jpg)
 
 图 6  GA-SVM的适应度曲线
 
@@ -82,7 +82,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190357?viewType=HTML
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53v7QGEwfHxYRhrBuhnUG3xgPpGwKlV72ia6uubOTibnZCRXlyiabxzggf1Q/640?wx_fmt=jpeg)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_004_09b2ab5f9ef0.jpg)
 
 **柳长源**
 
@@ -90,7 +90,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190357?viewType=HTML
 
 E-mail: liuchangyuan@hrbust.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vFvV8esibtfd6Sia5lroTC4mEhmFRSPlxRRB601icjsx7sg5rLswtzibtmA/640?wx_fmt=jpeg)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_005_3843283ff0b9.jpg)
 
 **李文强**
 
@@ -98,7 +98,7 @@ E-mail: liuchangyuan@hrbust.edu.cn
 
 E-mail: lwqpost@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53v3fLDicpVJfwiaIDPJVicLKA7C5nkwjynHy07cBjHgNOufDHd0IOjwQC6A/640?wx_fmt=jpeg)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_006_f4bfbfa9bf3c.jpg)
 
 **毕晓君**
 
@@ -308,49 +308,49 @@ http://www.aas.net.cn/cn/article/id/17205?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vPPEBG3JgRHicW9G0nCJsmWxIvXaORRKPEuPVhgbKM6Tfzz2Z0ORqibDw/640?wx_fmt=png)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_007_0b96ea566ced.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vlORn9OGniaetZdVMn1eMPZWopuxg6Libtdh9H0on3phfiaDdFuzuy2aCw/640?wx_fmt=png)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_008_5bc647b01ee1.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vmcKrqiajjGhLE9tFsibOMyRdvxicvScQAiakUWViaRkWbKiau4dAaOzcxT5w/640?wx_fmt=gif)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_009_9746168b6765.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vmcKrqiajjGhLE9tFsibOMyRdvxicvScQAiakUWViaRkWbKiau4dAaOzcxT5w/640?wx_fmt=gif)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_010_9746168b6765.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vV9p61alW1uomKJxUzafw8Gk1WrrfHfTM4v7fuKs8ekXpTmGmgRaj5A/640?wx_fmt=jpeg)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_011_12264cebd964.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vmcKrqiajjGhLE9tFsibOMyRdvxicvScQAiakUWViaRkWbKiau4dAaOzcxT5w/640?wx_fmt=gif)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_012_9746168b6765.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vmcKrqiajjGhLE9tFsibOMyRdvxicvScQAiakUWViaRkWbKiau4dAaOzcxT5w/640?wx_fmt=gif)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_013_9746168b6765.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vmcKrqiajjGhLE9tFsibOMyRdvxicvScQAiakUWViaRkWbKiau4dAaOzcxT5w/640?wx_fmt=gif)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_014_9746168b6765.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vmcKrqiajjGhLE9tFsibOMyRdvxicvScQAiakUWViaRkWbKiau4dAaOzcxT5w/640?wx_fmt=gif)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_015_9746168b6765.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53v5BnEI165L5HGpyF9yTAw1mH6TVu0XGmiaJ4Wo6XRxDIweZv7AP6w7vA/640?wx_fmt=jpeg)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_016_745975761bda.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vmcKrqiajjGhLE9tFsibOMyRdvxicvScQAiakUWViaRkWbKiau4dAaOzcxT5w/640?wx_fmt=gif)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_017_9746168b6765.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vmcKrqiajjGhLE9tFsibOMyRdvxicvScQAiakUWViaRkWbKiau4dAaOzcxT5w/640?wx_fmt=gif)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_018_9746168b6765.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vmcKrqiajjGhLE9tFsibOMyRdvxicvScQAiakUWViaRkWbKiau4dAaOzcxT5w/640?wx_fmt=gif)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_019_9746168b6765.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vmcKrqiajjGhLE9tFsibOMyRdvxicvScQAiakUWViaRkWbKiau4dAaOzcxT5w/640?wx_fmt=gif)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_020_9746168b6765.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vhTDx4pRhBbZ18PO4bUZBcsfuibpnOPRMOOTXYxewM5ICqTJvPhkkibqQ/640?wx_fmt=jpeg)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_021_fef00f46abf9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vmcKrqiajjGhLE9tFsibOMyRdvxicvScQAiakUWViaRkWbKiau4dAaOzcxT5w/640?wx_fmt=gif)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_022_9746168b6765.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47gvoh4cGBZaq4vIcO7x53vmcKrqiajjGhLE9tFsibOMyRdvxicvScQAiakUWViaRkWbKiau4dAaOzcxT5w/640?wx_fmt=gif)
+![](基于RCNN_LSTM的脑电情感识别研究_images/img_023_9746168b6765.gif)
 
 **长按二维码｜关注我们**
 

@@ -1,0 +1,144 @@
+# 搞电路仿真，LTspice这个免费神器你用了就回不去
+
+原创 王工 硬件笔记本 2025-10-30 08:10 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/j3-13i\_xvja\_8vbWICJwkg](https://mp.weixin.qq.com/s/j3-13i_xvja_8vbWICJwkg)
+
+![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif "音符")
+
+  
+
+大家好，今天跟大家聊聊一款仿真软件——**LTspice，并分享一些相关资料。**  
+
+文末附4份资料下载方式。包括：  
+
+-   LTspice安装包
+    
+-   LTspice IV入门指南（53页）  
+    
+-   活学活用LTSPICE电路设计（385页）  
+    
+-   LTSPICE电路设计常见问题解答（134页）
+    
+
+估计很多同行看到这个软件名字，都会会心一笑，因为它实在是咱们圈子里一个硬核仿真工具。对于正在读这篇文章，可能还不太了解它的小伙伴来说，今天这篇内容，可能会为你打开一扇新世界的大门。
+
+  
+
+01
+
+**LTspice简介**
+
+简单来说，**LTspice是一款完全免费、功能很强大的电子电路仿真软件。** ，提到仿真软件，你可能会想到Multisim、PSpice、Proteus这些名字。它们确实不错，图形化界面友好，对新手很友善。但LTspice不一样，一旦你用熟了，就再也回不去了。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9QBVF6MTJ4OXeRkmWYr0D2VanjhetiayH0WSNSyjibyMibiaaP6yYntXoNYr6PUiaXjOymUNDn9OhdDg/640?wx_fmt=png&from=appmsg)
+
+LTspice最初由**Linear Technology公司**开发，这家公司是模拟电路领域的巨头之一。后来，Linear被另一家更庞大的模拟芯片巨头**Analog Devices**收购了。所以，现在LTspice是ADI公司亲生的、并免费向全世界提供的工具。
+
+它的定位非常明确：**为仿真模拟电路而高度优化**。请注意“高度优化”这几个字，这可不是随便说说的。尤其是在**开关电源、放大器、滤波器**等模拟电路领域，LTspice的表现非常棒。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9QBVF6MTJ4OXeRkmWYr0DOZiaJwRXyU2VfPGJSh2ibmXo4rUaNsrMhNwmbJsL0quIEf7O4Lefic1ibw/640?wx_fmt=png&from=appmsg)
+
+LTspice解决的几个核心痛点：
+
+**第一，也是最重要的一点：它完全免费！正版免费！**
+
+这一点对于学生、爱好者以及创业初期的团队来说，简直是福音。再也不用纠结于破解、许可证过期或者版权风险了。Analog Devices作为芯片原厂，它开发LTspice的根本目的，是为了让你更好地使用他们家的芯片。你用它仿真好了，设计顺利了，自然就更愿意选用ADI的元器件。这是一个双赢的、非常聪明的策略。据说，国外很多大学的教学现在也直接用LTspice，就是因为这个免费正版的优势。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9QBVF6MTJ4OXeRkmWYr0DT2ZmYEANjryxvoYhZSEKPuRuxkC4jlGgGoMSr7o0cWf1W0WOZnghfw/640?wx_fmt=png&from=appmsg)
+
+**第二，它的模型极其精确，仿真结果高度可靠！**
+
+LTspice内置的器件模型，尤其是ADI自家产品的模型，是SPICE模型的升级版。这些模型直接来自于芯片设计团队，参数非常详尽和准确。
+
+**第三，仿真速度极快！**
+
+LTspice在算法上做了极致的优化。仿真一个复杂的开关电源电路，也很快就跑完了，这种流畅感，在你需要频繁修改参数、进行优化时，有很好的体验感。
+
+**第四，开关电源仿真是它的“看家本领”！**
+
+如果你从事电源设计，那么LTspice几乎是你的不二之选。ADI 公司在电源管理芯片这块技术领先，LTspice 里面直接集成了大量最新的电源芯片模型，用起来非常方便。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9QBVF6MTJ4OXeRkmWYr0DgrSfHYoIMiaX57ygTfxAjC3h3qhrdglrxVKibJAhk2YibpdaEeSmwl6bA/640?wx_fmt=png&from=appmsg)
+
+对于开关电源的环路稳定性分析，LTspice 自带 FRA 功能，可以直接画出波特图，这样工程师就能清楚地看到系统的频率响应，方便调整补偿网络，保证电源在不同负载和工作条件下都能稳定运行。
+
+另外，它还能处理非线性电路，精确模拟开关管导通和关断的瞬态过程，这样仿真出来的结果更贴近实际电路的表现。
+
+  
+
+02
+
+**LTspice资料简介**
+
+为了帮助大家顺利“上车”，我给大家准备了一份LTspice学习资料包，下面来详细介绍一下：
+
+**资料1：LTspice安装包**  
+
+这个不用多说了，解压即用。当然安装包大家也可以去ADI官网下载。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9QBVF6MTJ4OXeRkmWYr0D4sjq7bibLZm5vOwLfOe1UTQNOpxFKwdx12Py6WuMyu1ChKRYrIT90Bg/640?wx_fmt=png&from=appmsg)
+
+  
+
+**资料2：《LTspice IV入门指南》 (53页PDF)**  
+
+LTspice用起来主要就分三步：首先，你去官网把它免费下载下来，软件里自带了很多现成的芯片模型，可以直接拿来用；然后，用它画出你的电路图，或者直接打开现成的演示电路；最后，一键仿真，就能用它的波形查看器看到各种电压、电流的曲线了。这个软件不仅能做这些基础仿真，还能帮你自动检测电路状态、分析电源效率，功能很强大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9QBVF6MTJ4OXeRkmWYr0DCSzXak1fHcibuHFSRTfJ0ibLFgRDeGDsfYuE8ZmZh3A0ZsN1n7T91v3Q/640?wx_fmt=png&from=appmsg)
+
+  
+
+**资料3：《活学活用LTSPICE电路设计》 (385页PDF)**  
+
+这是一本由日本作者涉谷道雄编著、彭刚翻译的书籍，可以说是LTspice的进阶宝典。全书分为**基础篇**和**应用篇**两大块。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjj9QBVF6MTJ4OXeRkmWYr0D8LnE6WSpfNZUfY5bJhJpR3CD3ndKzHgprjfXahdXrzqZtt11WeMyEw/640?wx_fmt=jpeg&from=appmsg)
+
+-   **基础篇**：系统地讲解软件的安装、设置、绘图技巧和所有仿真命令的深度解析。比入门指南更深入，细节更多。
+    
+-   **应用篇**：通过大量**实际工程案例**，比如各种开关电源拓扑（Buck、Boost、反激等）、运算放大器电路、滤波器设计等，来展示LTspice如何解决真实世界中的设计问题。这本书能让你从会用软件升级到能用软件搞定设计。
+    
+
+**资料4：《LTSPICE电路设计常见问题解答》 (134页PDF)**  
+
+这份资料非常实用，它直接来源于**ADI的官方工程师**。他们把自己在支持客户时遇到的最常见、最典型的问题整理了出来，并以图文并茂的方式进行解答。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9QBVF6MTJ4OXeRkmWYr0DMXENfCwYwZdJf5WC9jg6899icOclfcvRRUhuhzQgziatOo2Ve2t2qAZg/640?wx_fmt=png&from=appmsg)
+
+它的讲解非常有条理，按照以下格式进行讲解：**问题简介 -> 设计规格 -> 设计技巧/注意事项 -> 设计步骤 -> 设计仿真 -> 测试结果 -> 参考资料**。跟着这个流程走，你能解决大多数遇到的问题。
+
+如果你想或者更多的这方面的学习资料，也可以充分利用网络资源：
+
+-   **B站大学堂**：B站上有大量关于LTspice的教学视频，从入门到精通，应有尽有。看视频学习往往更直观。
+    
+-   **Analog Devices官网**：直接去ADI的官网，搜索LTspice，你会发现官方提供了海量的**演示电路、技术文章和视频教程**，这些都是第一手的学习资源。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9QBVF6MTJ4OXeRkmWYr0DDLngPOKD9qmLAGVEgJ3mRiabzMUJrtJoS39fD6hQibuIkPhBticzlSawg/640?wx_fmt=png&from=appmsg)
+
+###   
+
+03
+
+资料获取
+
+如何下载《LTspice入门资料包》，更好的学习LTspice仿真软件
+
+关注公众号：硬件笔记本，并在公众号里发送对应的下载关键字获取下载链接
+
+在公众号里给王工发消息:
+
+## 
+
+下载|LTspice入门资料包
+
+## 建议复制粘贴过去，就不容易码错字哟！
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9QBVF6MTJ4OXeRkmWYr0DVnVOmiaGKydfrNCUNe5N3m1mazCZSibic6KjtpicaHsSImicDMfM7VuDmEA/640?wx_fmt=png&from=appmsg)
+
+加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjj9QBVF6MTJ4OXeRkmWYr0DmXwbGylAnFHI93gEGlp4H31OXgpvXKWYTSybUfofEfKO4hwOvPtUEg/640?wx_fmt=jpeg&from=appmsg)
+
+注：为支持知识产权，建议通过正规渠道购买正版书籍。此处提及的PDF仅用于个人学习交流，请勿用于商业用途。获取方式通常可通过技术社区、图书馆资源或在线学术平台查询。

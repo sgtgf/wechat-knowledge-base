@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/PU0QVXOdGcevclgA4t3xHA](https://mp.weixin.qq.com/s/PU0QVXOdGcevclgA4t3xHA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+![](细说Fortran中的__print__与__write__语句_images/img_000_8bcddb233e93.jpg)
 
 在 Fortran 编程时，很多人都会对 `print` 与 `write` 语句之间的差别心存疑问：都是用于控制台输出，我该选择哪一个？
 
@@ -25,7 +25,7 @@
 
 有趣的是，在汇编层面，`print *,'hi'`与`write(*,*) 'hi'`是完全相同的，这在多个主流编译器（如gfortran, ifort）中得到了验证。使用 gfortran 时，两种输出方法对应的汇编代码均为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVfeVKc4sWMyFPZIWH9HNwcBJampibDtsCHoOa4uQFNVTbBulPfAQX7nWV6p9mH8dDHbWXHFyXHMUQ/640?wx_fmt=png&from=appmsg)
+![](细说Fortran中的__print__与__write__语句_images/img_001_f5afb9912950.png)
 
 这意味着，从执行效率角度考虑，两者并无区别。这就为程序员提供了灵活性，可以根据个人喜好和项目需求选择使用 `print` 或 `write`。
 
@@ -56,10 +56,10 @@
 
 # 推荐阅读
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](细说Fortran中的__print__与__write__语句_images/img_002_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 
 有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV9ibz7dKOUdBCkXba3yW0tnJFuGOh8Jke9ME4CT0VZYEOZ3l1QtoO51n3LI2x62Ot4yYbhnJLUoMw/640?wx_fmt=jpeg&from=appmsg)
+![](细说Fortran中的__print__与__write__语句_images/img_003_dae872c29c08.jpg)

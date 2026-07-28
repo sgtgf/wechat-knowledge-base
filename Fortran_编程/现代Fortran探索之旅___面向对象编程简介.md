@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/cHKrjuC\_F7KWxMq3JWM19w](https://mp.weixin.qq.com/s/cHKrjuC_F7KWxMq3JWM19w)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg&random=0.0820070738268468&random=0.31282056215456144)
+![](现代Fortran探索之旅___面向对象编程简介_images/img_000_95288e77a873.jpg)
 
 随着计算科学的发展，Fortran 作为一门历史悠久且广泛应用的编程语言，不断进化以适应现代软件开发的需求。Fortran 2003 标准引入了一系列面向对象编程（Object-Oriented Programming, OOP）的功能，这使得 Fortran 程序员能够更加灵活地构建复杂的程序结构。本文将详细介绍 Fortran 中的面向对象编程概念，并通过具体示例展示如何在实际项目中应用这些特性。
 
@@ -70,10 +70,10 @@
 
 # 推荐阅读
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.7859774657664518&random=0.8259684789707029)
+![](现代Fortran探索之旅___面向对象编程简介_images/img_001_491883a93c20.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 
 有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV9ibz7dKOUdBCkXba3yW0tnJFuGOh8Jke9ME4CT0VZYEOZ3l1QtoO51n3LI2x62Ot4yYbhnJLUoMw/640?wx_fmt=jpeg&from=appmsg&random=0.5346201377881008&random=0.568730761369296)
+![](现代Fortran探索之旅___面向对象编程简介_images/img_002_bff20742ef8d.jpg)

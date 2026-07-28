@@ -5,7 +5,7 @@
 
 编译器是计算机科学领域中的一个核心概念，它为高级编程语言到机器代码的转换提供了关键的工具和技术。编译器技术的发展历程是计算机科学发展的一个重要组成部分，它经历了多个阶段的演变和进步。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7iaOhZHavGrxnOS6HRj7ibdr5z8gcDZ279oTbc5tyyvop7WQQibVWL7ZSlQicTPBxDVw2p8pF6KwL7OhfRd8ibe3szA/640?wx_fmt=png&from=appmsg)
+![](计算机编译器Compiler的发展历程_images/img_000_7e583f21084d.png)
 
 1.  早期编译器与解释器
     
@@ -59,7 +59,7 @@
 
 以下是几款在计算机科学领域中具有重要地位的编译器：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7iaOhZHavGrxnOS6HRj7ibdr5z8gcDZ2796yickvu25vLeJVRzjAR6uySPSYYqS7ujqd1JGUbfOj7uSS86zKJFU3A/640?wx_fmt=png&from=appmsg)
+![](计算机编译器Compiler的发展历程_images/img_001_d3f12261a133.png)
 
 GCC (GNU Compiler Collection)：GCC是一套由GNU开发的编译器集合，支持多种编程语言，包括C、C++、Objective-C、Fortran、Ada等。它是开源软件，广泛用于各种操作系统和平台，包括Linux、macOS、Windows等，被认为是业界最主要的编译器之一。GCC除了提供基本的编译功能外，还包括优化功能和调试工具，能够生成高效的机器代码。
 

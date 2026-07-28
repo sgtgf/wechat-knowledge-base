@@ -1,0 +1,109 @@
+# 关于USB布局走线的几个小建议，别等板子回来再拍大腿
+
+原创 王工 硬件笔记本 2026-06-15 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/3qmNrrRyvtt\_Q7dhJ56ohg](https://mp.weixin.qq.com/s/3qmNrrRyvtt_Q7dhJ56ohg)
+
+# ![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic "音符")
+
+关于USB Type-C这个主题，今天这是第5期了。小小的接口，知识点是真不少，而我分享的这些，毫不夸张地说，仅仅是九牛一毛。
+
+上一期大伙提意见说，想了解更多关于USB布局走线的细节，USB Type-C其实也就是USB接口。行，这篇文章咱就专门聊这个。  
+
+其实网上资料也不少，结合自己的经历，跟大伙简单唠一下。先说说我见过最离谱的两种情况：
+
+第一种，看这个图就明白了，最右边USB接口放反了，接口朝向板内。板子回来一插线，直接傻眼。这种事确实只有新手能干出来。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niadLS7aBWueZowHKxToqmI2WHE4mMBXzsR31y3EKn568HQsaIuQ4dg61S3Wx9mnpJbXEWw8hu0V0nPB3J68Y7yLZKoJR7cU0YrE/640?wx_fmt=png&from=appmsg)
+
+第二种，USB阻抗问题。这个坑相比第一个更隐蔽，踩的人也相对较多。
+
+下面咱们具体聊聊。
+
+01
+
+****先说**布局**
+
+**1、接口位置是第一步。**
+
+Type-C接口一定要靠近板边，方便插拔，同时按结构图定位摆放，别凭感觉画。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaeHQvaCZGp7lJaRcO6ibVc6EebkRc3pN9NlDib6mgeSPOAOjZhWRmGHBdCcgLObS1mRYyZMibxxTN0xA56RdZngNGibpRFDCefCdNc/640?wx_fmt=png&from=appmsg)
+
+**2、输入输出要分开** 
+
+USB输入接口和输出接口分开放置，别搅在一起。一个是便于分区管理，另一个是避免信号串扰。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacIOTPT3xmZouU5gvNTfyhibyS7B42FrBsqFmb020JJu4X8qiapeEnxUU4cjUf6L6ZNdWJQvbOianRpJlxH3PrW9JmIpzLaHAPiczg/640?wx_fmt=png&from=appmsg)
+
+**3、远离干扰源**  
+
+ USB接口要远离RF天线（如有）、晶振、DC-DC电感这些高电磁辐射的EMI源。你挨着它们放，信号质量很难救回来。距离上至少留出2-3mm，有条件就多给点。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacVbeu063cwYxa28e4yxo0ZbDgRMGQnMY1oBQicNm78j3q7m9yTl5ZaXKN5cicE7TEL4JPAgf6JTOGFd8BjkwsjSmb9w2XwISog8/640?wx_fmt=png&from=appmsg)
+
+02
+
+**再说说器件摆放顺序**
+
+**从接口进来，器件的摆放顺序是固定的：****ESD器件放最前面，接着是共模电感，最后是阻容**。这个顺序很多人不注意，但很重要。ESD必须先挡静电，共模电感再滤共模干扰，阻容最后做匹配。顺序反了，效果会大打折扣。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacql3rGdtMORFC4EpJeJX9ia8qqVtNdv481grdvtenAQujrccqq4gl83HicVTxHGOgj9UVvG8Dibya6bvH9VKaTbyS8I0LSQIibRPQ/640?wx_fmt=png&from=appmsg)
+
+**ESD和Type-C接口之间要留间距。** 别贴死，至少留出1-2mm。为啥？主要是考虑到焊接，贴太近烙铁下不去，维修工程师该骂人了。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niac2iaCuvF69jl5WvaZeAgBiaXLkHj7kWYe3FT4fTA8Yx0hAbJScG54iaeZqbBb03ZCrUHyibgEcSGNibEhE3yLu8QmXFBdibQZyZlj20/640?wx_fmt=png&from=appmsg)
+
+**ESD、共模电感、阻容这些器件，都要尽量靠近USB接口摆放。** 距离越远，走线引入的寄生参数越多，保护效果越差。
+
+关于TX和RX的耦合电容（还有其它高速信号的耦合电容，可以看我之前写的文章），这里要强调一下：
+
+第一，TX的电容靠近Type-C接口放，因为TX是设备往外发信号，电容放接口旁边能把高频噪声挡在外面。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niadD2Lb5GYY5cQkicQJT2DUwbKVbHibaLgMwW48w2ic2tukX52srPB1EuEctAKCiapXTvKsNvqvoBib926KjB6KJ7coJZ3ibBCjYwn34w/640?wx_fmt=png&from=appmsg)
+
+第二，电容容量选100nF左右，别乱换。USB 3.0规范要求Host和Device的TX端放75nF到200nF之间，最常用就是100nF。这个电容的作用是隔直流、抑制共模噪声。别看着1μF或者0.1μF差不多就往上怼，特性不一样，信号完整性会出问题。
+
+当然，最保险的还是打开你主控芯片的手册，看参考设计怎么画，芯片厂商提供的资料更靠谱。
+
+03
+
+**关于PCB走线**
+
+## Type-C一共五**对差分线**,，一根都不能漏。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niadLaJhXtdZSzAm0ttGJqiazIz9lWhTFb2jdEtbEQ7OGQaJSq7hMZvQVfOhia81Zg0Rryje5ibOdATbdiciaqAaqGmicgibwPku4Fr2p0E/640?wx_fmt=png&from=appmsg)
+
+## 包括：RX1+/RX1-，RX2+/RX2-，TX1+/TX1-，TX2+/TX2-，D+/D-。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niacbvbNmZOsTHQEMRLHa2fic7CmLibyOCAxbYQlASVLwkRoyw1pWOBjyu8ENsvqgGSh7pETIcmygI1AeuuEdbLeib9yia2g5N3xnVrY/640?wx_fmt=png&from=appmsg)
+
+还有一对CC线（虽然不是严格意义上的差分，但也要注意走线）别数漏了。很多人只记得RX/TX和D+/D-，容易忘记TX和RX还分正负。
+
+走线要求：
+
+1、差分信号线至少要紧邻一个地平面，两侧都紧邻最好，也就是做好参考平面。
+
+## 2、USB差分对要做等长处理，组内误差控制在**±5mil以内**。长度差多了，信号质量会变差，数据眼图变差，共模干扰上来，EMI就变差了。等长补偿要在靠近引脚的地方做，别在走线中间拐来拐去。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niad5yOSRfTDnnWuMMcN1taMiakmMQP4lkP9jm8bXzZYTJVe0nCeQpXVMicBokcUCvzA716sZsQW1QFQSqMJ78DckeloibfEGCzub2Y/640?wx_fmt=png&from=appmsg)
+
+3、USB差分走线阻抗控制在**90Ω，±10%的余量**。很多人只盯着阻抗值算，忽略了**连续性**。什么叫连续性？参考平面不能断，不能跨分割。走线宽度不能突变，拐角用圆弧或45度，别走直角。一旦跨分割或者参考平面不连续，阻抗跳变，信号反射就来了，高速信号最怕这个。
+
+**4、打孔换层要克制。** 过孔本身就会引起阻抗变化和信号反射。建议过孔数量**不超过2个**。实在避免不了换层，记得在打孔处**加一对回流地过孔**，形成信号的回流通路。
+
+## 5、USB差分线建议**包地处理**。地线尽量保持完整，每隔一段距离打一个回流地过孔。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niadAv9BAwD5XXJPGXNebb1GKxUbAL162uGDsL3WpkH2nnnglP5GjhwiaDyNcBAMIupDbe03VkvicQaTBPibMLrUuhwciaxwsPGUXBK0/640?wx_fmt=png&from=appmsg)
+
+## 6、远离干扰，给足距离。USB高速信号对串扰很敏感，距离不够就是给自己挖坑。远离电源网络、大电流信号、DDR、HDMI、时钟线等高速信号，至少50mil以上。如果条件允许，不同对差分线之间也要保持距离。同时，USB走线的优先级要高于其他器件和信号。先把这几对差分线走好，再去处理别的。很多人的板子回来USB不通，就是因为被别的线挤得七扭八歪的。
+
+04
+
+**小结**
+
+**大伙可以把上面这些要点做成Checklist。** 每次画板之前过一遍，出图之前再过一遍。别靠脑子记，写下来打勾。
+
+好了，这一期就到这里。以上这些细节，咱尽可能做到吧，具体还得根据实际项目情况来定，有时候也不一定非得卡得那么死。但知道了基本原则，至少心里有杆秤，什么最重要，什么是其次，然后根据项目实际情况做取舍，该抓的抓，该放的放。  
+
+大家还想聊什么，评论区告诉我。

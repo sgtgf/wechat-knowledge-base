@@ -1,0 +1,148 @@
+# RS485基本原理，电路、防雷、layout及设计要点
+
+原创 硬件笔记本 2024-08-10 11:32 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/TQVMXtlm2zf1FGdnaGRMdQ](https://mp.weixin.qq.com/s/TQVMXtlm2zf1FGdnaGRMdQ)
+
+# ![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic "音符")
+
+  
+
+**什么是S485？**
+
+  
+
+[RS485](http://mp.weixin.qq.com/s?__biz=MjM5OTQ3NjQ1MQ==&mid=2647663764&idx=2&sn=5243f78beb8873d0769e095e83ff9b94&chksm=bf1e69188869e00e2df0affc59a029289b826037397aba0aa1a0d63ff9df5a113ad46070c66f&scene=21#wechat_redirect)是半双工通信，**半双工通信**指的是通道在一个时刻只能处于接收或者是发送。RS485的特点是支持多节点传输、传输距离远、抗干扰能力强，RS485可以连接多个485设备，信号的速率可达到10Mbps。通过AB两线之间的压差来判断是逻辑电平1或者逻辑电平0，当AB间的电压差大于200mV时为高电平1，小于200mV时为逻辑电平0。一般会在首末两端接120Ω电阻，其作用是进行阻抗匹配，消除信号反射。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9QAiaqiadKIibMm8WKib43nlfO6KN2oKz2YIeZByrNfjAWrpvdCY0FticjibhdnBM1x9qibyd5prj0NWkw/640?wx_fmt=png&from=appmsg)
+
+  
+
+**RS485硬件电路设计**
+
+  
+
+RS485电路设计可以分为**隔离型**和**非隔离型**，下图是非隔离型电路，B端接到GND下拉，A端通过上拉电阻为高电平，是为了保证A和B之间的压差大于200mV。DE和RE引脚是发送和接收使能，RE为低时，为接收使能；DE为高时，是发送使能。应用中一般是两者连接在一起，通过IO口（RS485\_EN）控制，因为芯片要么是处于接收，要么处于发送，因此在发送数据前，给RS485\_EN信号为高电平，接收数据就给低电平。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9QAiaqiadKIibMm8WKib43nlfzxyCq8jNnlyKAN06zTh8hLwhw78sX4NkqTP2dJVK2yAgJVjXDGckng/640?wx_fmt=png&from=appmsg)
+
+**RS485自动收发电路硬件设计**
+
+  
+
+自动收发电路相比较普通的485电路，区别在于多一个晶体管控制485的使能引脚。R9限流电阻一般是4.7K，R8上拉电阻一般也是4.7K，使能引脚在晶体管没有导通时被上拉。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9QAiaqiadKIibMm8WKib43nlfuZAajzk8CicQTm7orfLU41MYbHNXKxic9Tn3OpEMptLC3e9uXC4QJYrA/640?wx_fmt=png&from=appmsg)
+
+  
+
+**接收数据时：**接收数据引脚是芯片的第一引脚也就是网络标签RS485\_RX，在接收数据过程中，RS485\_TX引脚保持高电平，VGS为高电平，NPN三极管Q1就导通，RE和DE相连的引脚通过晶体管下拉到GND，此时接收使能，处于接收状态。  
+
+  
+
+**发送数据时：**发送数据引脚是RS485\_TX，应该RS485\_TX发送1，晶体管导通，RE和DE的电平为低，RS485收发芯片没有打开，由于常态下485为高电平，此时数据就是高；当 RS485\_TX发送0时，晶体管不导通，此时485收发芯片的发送使能为高，DI由于一直被下拉到GND，所以发出去的数据为0。这样就实现了485的自动收发。
+
+  
+
+**发送具体解析：**
+
+RS485\_TX 发送1，VGS高电平，NPN三极管导通，使能引脚是低电平，发送失效，接收使能，处于接收状态。由于SP3485芯片的AB引脚是高阻状态，R4把A拉高，R5把B拉低，所以AB传输的是1。即RS485\_TX发送1时，AB引脚发送1。
+
+  
+
+**RS485接口防雷电路设计**
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9QAiaqiadKIibMm8WKib43nlfo4AlOVFltaEgWMKicz9Jat3CULCCNMtnUoiaMJgwe5icZ8Akr2gW4ueRw/640?wx_fmt=png&from=appmsg)
+
+接口防护电路  
+
+L1是共模电感，共模电感衰减共模噪声，增强抗干扰能力，一般选择120Ω/100MHz。C3电容的作用是为了隔开接口地和数字地，一般选择1000pF。为了达到EMC防护要求，差模信号2kV，共模信号6kV，在接口处会预留上气体放电管、热敏电阻、TVS管组成防护电路。
+
+  
+
+**RS485接口电路PCB的GND设计**
+
+  
+
+虚线处的防护器件要尽量靠近接口，摆放紧凑整齐，先放防护器件再放滤波器件。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9QAiaqiadKIibMm8WKib43nlf8NZhyJEkiaLyffCJMIOOYPagPsdcdDcNybSIHlRaibPVKZs0YK1AAibtQ/640?wx_fmt=png&from=appmsg)
+
+RS485接口电路设计通常涉及到几个关键要素，包括信号传输、电气隔离、噪声抑制、保护措施以及电源和控制逻辑设计等。  
+
+  
+
+**关键要素**  
+
+  
+
+**信号线选择与布线**
+
+• 使用一对双绞线作为差分信号线（A和B），通常选用屏蔽双绞线电缆以减少电磁干扰。
+
+• 保持A和B线长度尽可能相等，以减少信号延迟差异，保证信号的完整性。
+
+**共模电感和滤波**
+
+• 在信号线入口处加入共模电感L1，用于抑制共模干扰，推荐阻抗范围为120Ω/100MHz ~ 2200Ω/100MHz。
+
+• 可能还需要并联去耦电容和TVS管等元件，进一步提高抗干扰能力。
+
+**收发器芯片选择**
+
+• 常见的收发器芯片有SP3485、MAX485等，它们将TTL/CMOS逻辑电平转换为RS485差分信号。
+
+• 需要关注RE、DE以及RO等控制引脚的连接逻辑，通常RE和DE可以连接在一起通过单个控制信号控制发送/接收模式。
+
+**偏置和终端电阻**
+
+• A信号线可能需要上拉电阻（如10kΩ至4.7kΩ），以确保在空闲时的电压状态，B信号线可能需要下拉到GND。
+
+• 在总线的两端或适当位置放置120Ω终端电阻，以减少信号反射和改善信号质量。
+
+**防雷击和浪涌保护**
+
+• 可以在信号线上添加TVS管和/或自恢复保险丝，用于过压和浪涌保护，提高电路的鲁棒性。
+
+• 对于高风险环境，考虑加入6kV以上的防雷击保护电路设计。
+
+**EMC设计**
+
+• 保证良好的接地设计，特别是接口地的处理，有时单板地与外壳直接连接，通过1000pF电容耦合。
+
+• 电路板布局时注意电源和信号线的分离，减少交叉干扰，增加滤波和退耦电容。
+
+**控制逻辑**
+
+• 根据应用需求，设计控制逻辑电路或使用MCU控制发送使能信号，实现自动或手动切换。
+
+• 对于自动收发电路设计，可能需要更复杂的逻辑来自动管理发送和接收状态，以适应不同通信场景。
+
+  
+
+RS485接口设计不仅关注电气特性，还需要综合考虑EMC、可靠性、安全性等因素，确保在复杂工业环境中的稳定通信。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+
+## 
+
+**声明：**
+
+  
+
+声明：文章来源网络。本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+投稿/招聘/推广/宣传 请加微信：woniu26a
+
+**推荐阅读▼**
+
+-   [电路设计-电路分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2811359150088683521#wechat_redirect)  
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

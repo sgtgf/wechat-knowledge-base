@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/mg2ingL4hys8va3PlLhpYQ](https://mp.weixin.qq.com/s/mg2ingL4hys8va3PlLhpYQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVruhRvEcoiav20xXPnOkatCaZMib2It580Mibiav8X0RIOa1ibSAjKWDAIH1qiau0MvldzGd3UE91xJXgQ/640?wx_fmt=png&from=appmsg)
+![](Fortran中的逐元（Elemental）过程_架起并行与向量化计算的桥梁_images/img_000_1c006701dd56.png)
 
 在科学计算领域，Fortran作为一种历史悠久的编程语言，凭借着其对高性能计算的强大支持，至今仍保持着不可替代的地位。随着计算技术的发展，尤其是并行计算和向量化计算的兴起，Fortran也不断进化，引入了诸多现代特性以适应新的计算需求。其中，“逐元”（Elemental）过程便是Fortran现代特性之一，它极大地简化了向量、矩阵以及更高维度数组的操作，为编写高效、可读性强的并行代码提供了优雅的途径。
 
@@ -82,7 +82,7 @@ Fortran的逐元过程是通往高效、现代科学计算的一把钥匙。它�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](Fortran中的逐元（Elemental）过程_架起并行与向量化计算的桥梁_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

@@ -1,0 +1,105 @@
+# 实例讲解PCB布局，新手们都好好看看
+
+原创 硬件笔记本 2022-11-06 07:30 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/tPsHfb7DbzdjCO0KvQWG3w](https://mp.weixin.qq.com/s/tPsHfb7DbzdjCO0KvQWG3w)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+在电路设计过程中，工程师们往往会忽视PCB的布局。通常遇到的问题是，电路的原理图是正确的，但并不起作用，或仅以低性能运行……你也碰到过吗？在这篇文中，TI 应用工程师Timothy Claycomb 将向您介绍如何正确地布设运算放大器的电路板以确保其功能、性能和稳健性↓↓↓
+
+  
+
+我与一名实习生最近在利用增益为2V/V、负荷为10kΩ、电源电压为+/-15V的非反相配置OPA191运算放大器进行设计。图1所示为该设计的原理图。  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjXGlwkoExs9wxyK2AIomFMkGpuINzdL1HcicU70rGG7jUdyeib00ZN85L7MICx6SxAVeUlrsT4rfwA/640?wx_fmt=png)
+
+图1：采用非反相配置的OPA191原理图
+
+我指派实习生为该设计布设电路板，同时为他做了PCB布设方面的一般指导（即尽可能缩短电路板的走线路径，同时将组件保持紧密排布，以减小电路板空间），然后让他自行设计。设计过程到底有多难？其实就是几个电阻器和电容器罢了，不是吗？
+
+图2所示为他首次尝试设计的布局。红线为电路板顶层的路径，而蓝线为底层的路径。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjXGlwkoExs9wxyK2AIomFM5s9uIxaSXfYE7icn0U8Qtly4TkVf1h15etxfT2tkUicoNBtlDDa4lwVg/640?wx_fmt=png)
+
+图2：首次布局尝试方案 
+
+当时，我意识到电路板布局并不像我想象的那样直观；我应该为他做一些更详细的指导。他在设计时完全遵从了我们的建议，缩短了走线路径，并将各部件紧密地排布在一起。但这种布局还可以进一步改善，从而减小电路板寄生阻抗并优化其性能。
+
+  
+
+我们所做的首项改进是将电阻R1和R2移至OPA191的倒相引脚（引脚2）旁；这样有助于减小倒相引脚的杂散电容。运算放大器的倒相引脚是一个高阻抗节点，因此灵敏度较高。较长的走线路径可以作为电线，让高频噪音耦合进信号链。倒相引脚上的PCB电容会引发稳定性问题。因此，倒相引脚上的接点应该越小越好。
+
+  
+
+将R1和R2移至引脚2旁，可以让负荷电阻器R3旋转180度，从而使去耦电容器C1更贴近OPA191的正电源引脚（引脚7）。让去耦电容器尽可能贴近电源引脚，这一点极其重要。如果去耦电容器与电源引脚之间的走线路径较长，会增大电源引脚的电感，从而降低性能。
+
+  
+
+我们所做的另一项改进在于第二个去耦电容器C2。不应将VCC与C2的导孔连接放在电容器和电源引脚之间，而应布设在供电电压必须通过电容器进入器件电源引脚的位置。
+
+  
+
+ 图3显示了移动每个部件和导孔从而改善布局的方法。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjXGlwkoExs9wxyK2AIomFMQJzrU8PneJKUsiaQnPsAv9Kbjtq4JcxjMX0gW79VWibGcY0jUUvCZurg/640?wx_fmt=png)
+
+图3：改进布局的各部件位置 
+
+将各部件移至新位置后，仍可以做一些其他改进。您可以加宽走线路径，以减小电感，即相当于走线路径所连接的焊盘尺寸。还可以灌流电路板顶层和底层的接地层，从而为返回电流创造一个坚实的低阻抗路径。
+
+  
+
+图4所示为我们的最终布局。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjXGlwkoExs9wxyK2AIomFM2U1Iw6Tfb6ibeRAfCeZ8EZicSjlvRmP8yyjlUrWnibEgVBibcmKSPVY74g/640?wx_fmt=png)
+
+图4：最终布局
+
+**下一次当您布设印刷电路板时，务必遵循以下布设惯例：**
+
+-   尽量缩短倒相引脚的连接。
+    
+-   让去耦电容器尽量靠近电源引脚。
+    
+-   如果使用了多个去耦电容器，将最小的去耦电容器放在离电源引脚最近的位置。
+    
+-   不要将导孔置于去耦电容和电源引脚之间。
+    
+-   尽可能扩宽走线路径。
+    
+-   不要让走线路径上出现90度的角。
+    
+-   灌流至少一个坚实的接地层。
+    
+-   不要为了用丝印层来标示部件而舍弃良好的布局。
+    
+
+  
+
+## 
+
+**声明：**
+
+  
+
+声明：本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+  
+
+**推荐阅读▼**
+
+-   [硬件精选文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2531417028063166464#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

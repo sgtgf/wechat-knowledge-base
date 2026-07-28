@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/i8uIGyjMYFqkAVt7OuNSzg](https://mp.weixin.qq.com/s/i8uIGyjMYFqkAVt7OuNSzg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_gif/iaibvmyz4605MRSn33DicAM4Pcr7qPpr7sXjqZB59em00eaIz5ZAicXDEavOkGweubcRc5wUSONLIF9tyulJFbOGAA/640?wx_fmt=gif#imgIndex=0)
+![图片](全网第一本Gemini3与NanoBanana实战书重磅上市__images/img_000_70f8651bdc81.gif)
 
 _**Part.1**_
 
@@ -47,7 +47,7 @@ Gemini 3作为顶尖多模态大语言模型，搭载百万Token超长上下文�
 
 Gemini 3的原生多模态理解能力支持同时处理文本、图片、音频和视频，无须依赖第三方转换工具，只需上传一张草图或一段语音描述，就能精准理解你的开发意图。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605MRSn33DicAM4Pcr7qPpr7sXbEGepxMV4qzf4lmm5IicE8q9XJibSXs9pEjFNf3Sk2icaicCYoOPicdqaBg/640?wx_fmt=png#imgIndex=1)
+![图片](全网第一本Gemini3与NanoBanana实战书重磅上市__images/img_001_352fbee8ef58.png)
 
   
 
@@ -61,13 +61,13 @@ Nano Banana Pro解决了传统AI图像生成的痛点，多语言文字渲染错
 
 其专业级创意控制功能支持镜头与景深调整、光照与色彩优化、多分辨率输出及局部编辑，还能在多图融合时保持角色一致性，为视觉化开发提供强大支撑。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605MRSn33DicAM4Pcr7qPpr7sXyTT6hcx15WMJbPEbUN2hAC8ZtxDSD6XdhaZrSXaicVsoAHYbacXUuwQ/640?wx_fmt=png#imgIndex=2)
+![图片](全网第一本Gemini3与NanoBanana实战书重磅上市__images/img_002_b66388e72f4f.png)
 
   
 
 **《驾驭Gemini 3与Nano Banana：人人都是AI产品创客》是全网第一本为零基础学习者打造的Gemini 3与Nano Banana教程。**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605MRSn33DicAM4Pcr7qPpr7sXXJf2lvmZJtWkKOqzDa3KUDwoZIicZCciaXY35sco25poWrYR3LxkNE5A/640?wx_fmt=png#imgIndex=3)
+![图片](全网第一本Gemini3与NanoBanana实战书重磅上市__images/img_003_87b069683270.png)
 
 ▼点击下方，即可购书
 
@@ -75,7 +75,7 @@ Nano Banana Pro解决了传统AI图像生成的痛点，多语言文字渲染错
 
 这本书聚焦两大核心工具，从基础操作到产品上线，手把手教你打通AI编程全链路，让普通人也能轻松成为数字产品创造者。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605MRSn33DicAM4Pcr7qPpr7sXibeSMTTmccA3ktibiciajmU3yeIRWV1Px0YgBZwphtc5TqPLEicU6QfFaicw/640?wx_fmt=png#imgIndex=4)
+![图片](全网第一本Gemini3与NanoBanana实战书重磅上市__images/img_004_cfc831c9b189.png)
 
 ▲用Nano Banana生成的本书内容导读
 
@@ -97,7 +97,7 @@ Playground——Gemini 3与Nano Banana的核心试验场。它并非简单的聊
 
 在这里，你可以直接选择Gemini或Nano Banana模型，通过系统指令定制AI行为准则，支持文本输入、文件上传、音频录制、摄像头捕捉等多种交互方式。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605MRSn33DicAM4Pcr7qPpr7sX8OlncYv2icjddDgKiaX5atawXtEbGW0YxNiaIF4icEnAL6jTn4EGtMohuQ/640?wx_fmt=png#imgIndex=5)
+![图片](全网第一本Gemini3与NanoBanana实战书重磅上市__images/img_005_3d04d55eb003.png)
 
   
 
@@ -107,7 +107,7 @@ Playground——Gemini 3与Nano Banana的核心试验场。它并非简单的聊
 
 书中详细讲解了核心界面操作，包括AI建议功能、预览与代码模式切换、设备预览等实用功能。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605MRSn33DicAM4Pcr7qPpr7sX1XVm0NBz03FbZ833nPdy8VAAdjHCMKyee22W85Sk22dfAVEdlln5Gg/640?wx_fmt=png#imgIndex=6)
+![图片](全网第一本Gemini3与NanoBanana实战书重磅上市__images/img_006_451c5cddcb9d.png)
 
   
 
@@ -117,7 +117,7 @@ Playground——Gemini 3与Nano Banana的核心试验场。它并非简单的聊
 
 初学者可直接浏览筛选应用，既可直接使用，也可复制项目进行二次创作，从模仿中快速掌握两大工具的使用思路。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605MRSn33DicAM4Pcr7qPpr7sXNIiaJ4QbxwgibrzsW7dk0wWzgKhagOtQPhq63eQsJg39bmpg6fSw2VMQ/640?wx_fmt=png#imgIndex=7)
+![图片](全网第一本Gemini3与NanoBanana实战书重磅上市__images/img_007_c4dc4fa8b70b.png)
 
   
 
@@ -143,15 +143,15 @@ _**Part.3**_
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605MRSn33DicAM4Pcr7qPpr7sXY9nlSibeg7zbjKiaRa50Q8hOCQRNfarSJicEaqoesBibsCnTMLwaAHYaqA/640?wx_fmt=png#imgIndex=8)
+![图片](全网第一本Gemini3与NanoBanana实战书重磅上市__images/img_008_35f2b09d8ed5.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605MRSn33DicAM4Pcr7qPpr7sXTOLoHBggdPRYCibgPyGLrweSgwHU0AKql9myMaOhrWDtTaCs5AOc81Q/640?wx_fmt=png#imgIndex=9)
+![图片](全网第一本Gemini3与NanoBanana实战书重磅上市__images/img_009_446c7ae9124e.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605MRSn33DicAM4Pcr7qPpr7sXZrEoiciaU8EPnL33TvibwW1HJJfUGCwJ5tpM84diaKmcZwMaQOJ0PZHVOA/640?wx_fmt=png#imgIndex=10)
+![图片](全网第一本Gemini3与NanoBanana实战书重磅上市__images/img_010_200fa8501c1e.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605MRSn33DicAM4Pcr7qPpr7sXJ2ClpuOicqjvTia6LHQw133Kics1SGPScppojIV2ib4uKgmfmK8icntCBag/640?wx_fmt=png#imgIndex=11)
+![图片](全网第一本Gemini3与NanoBanana实战书重磅上市__images/img_011_4f664b546afc.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605MRSn33DicAM4Pcr7qPpr7sXG7h6VuVUAwYyrLa2RSiaAiaatQdia7vwhyubzPmG2YSqibalF7Bd9NAQjQ/640?wx_fmt=png#imgIndex=12)
+![图片](全网第一本Gemini3与NanoBanana实战书重磅上市__images/img_012_f22fd183db98.png)
 
   
 

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/nbtEZIaRntF2ecEDA\_yDWw](https://mp.weixin.qq.com/s/nbtEZIaRntF2ecEDA_yDWw)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_gif/iaibvmyz4605MRSn33DicAM4Pcr7qPpr7sXjqZB59em00eaIz5ZAicXDEavOkGweubcRc5wUSONLIF9tyulJFbOGAA/640?wx_fmt=gif#imgIndex=0)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_000_70f8651bdc81.gif)
 
 关注我们丨文末赠书
 
@@ -19,7 +19,7 @@ _**Part.1**_
 
 对于开发者来说，复制ClawdBot这样的成功案例其实是有章可循的。只要吃透一套AI Agent开发方法论，覆盖任务规划、工具编排、记忆管理、反馈闭环，再到流程搭建、提示词工程（Prompt Engineering）、接口整合等环节，就能从零搭建出与ClawdBot同级别甚至更强的AI Agent应用。 
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605NbIrCc0h2pIAAOGDicIIu9bmtFosCZVSu81ZXnHXFWNkQuibOSr89fhD6RibyNzRDic2GNzknQ25ibTZA/640?wx_fmt=png#imgIndex=1)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_001_a680e51e9fb2.png)
 
 ▲Clawbot 与“龙虾”共舞的时代！
 
@@ -27,7 +27,7 @@ _**Part.1**_
 
 现在，开发者的机会来了！**《Agent设计模式：图解可复用智能体架构》**一书跳出单纯的代码层面，从架构、机制与实践等多维度出发，拆解21个核心设计模式，为“如何在不确定的大模型上构建可靠系统”提供了可复用的解决方案与方法论。 
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605NbIrCc0h2pIAAOGDicIIu9boKkiaCVYAP7NbCWm5Nrb9kc20PODNDTPxkGqsbiaibdccsM0uC0shjoIQ/640?wx_fmt=png#imgIndex=2)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_002_bb411db3d357.png)
 
 ▼点击下方，即可购书
 
@@ -83,7 +83,7 @@ _**Part.2**_
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605NbIrCc0h2pIAAOGDicIIu9bulsJj3vF6bfmmTdTGLLThKDqEwvCvHkIMyAXD7wRXJbmhdDOYkicxJA/640?wx_fmt=png#imgIndex=3)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_003_bd3726147732.png)
 
 **黄佳**
 
@@ -117,7 +117,7 @@ _**Part.3**_
 
 书中首先追溯设计模式的世纪发展脉络，从 GoF 设计模式的诞生与繁荣，讲到传统设计模式在不确定性场景下的失效。阐明Agent的出现并非偶然，而是软件范式从“确定性结构”向“概率性智能”演进的必然结果。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605NbIrCc0h2pIAAOGDicIIu9bFfSR9CktKmlaCdozjqz4XuaXVibVcHedFQyF1SIxI1icptVjRCYZ2WOA/640?wx_fmt=png#imgIndex=4)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_004_b62bd2e38f0e.png)
 
   
 
@@ -127,7 +127,7 @@ _**Part.3**_
 
 同事阐述Agent“感知 - 推理 - 行动”的心智架构，以及多Agent协作的“语法”与人机协作的四大原则（互补而非替代、透明与可解释、人类保持主导权、共同学习与成长），为我们勾勒出Agent与世界、与人类的互动蓝图。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605NbIrCc0h2pIAAOGDicIIu9bjBfxZUfVUh2ICsy16JujJccF6xgTZsGMJRZR1PU703CFJDoE50D6iaQ/640?wx_fmt=png#imgIndex=5)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_005_146c74c4df0d.png)
 
   
 
@@ -143,7 +143,7 @@ _**Part.3**_
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605NbIrCc0h2pIAAOGDicIIu9bN7N9hibbFv7msUsoN1wgpTBKWTner3JRpWRREg9RgaIz4Mdib5McYU4Q/640?wx_fmt=png#imgIndex=6)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_006_ae0433614c2d.png)
 
   
 
@@ -165,7 +165,7 @@ _**Part.3**_
 
 分层记忆模式：突破LLM上下文窗口的物理限制，通过分层存储和动态换页，实现理论上无限的记忆容量；
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605NbIrCc0h2pIAAOGDicIIu9bptNDwxzcVVw4tIwWve4PkjhXibUqgSTzAjxicvvIygicb377ak4qx4Fbw/640?wx_fmt=png#imgIndex=7)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_007_21b7d2cdd803.png)
 
   
 
@@ -181,7 +181,7 @@ RAG模式：“检索与生成的交响”实现知识解耦，让Agent能灵活
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605NbIrCc0h2pIAAOGDicIIu9bhmkCDibK6j1adohn25vC8qtibPHQbg1BzBdh93k1GW0pxGObeYqw198A/640?wx_fmt=png#imgIndex=8)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_008_fd7789b53048.png)
 
   
 
@@ -219,7 +219,7 @@ ReAct模式：构建“思考－行动－观察”的动态微循环，有效解
 
 自适应策略模式：通过应用强化学习或多臂老虎机等机制，Agent在探索与利用之间动态寻求最优平衡。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605NbIrCc0h2pIAAOGDicIIu9bibiaYGYrGlBuWKltTUkP0nyDC8coPmhEzfiaGYYcTHTMOgYF1ZA0zVtqA/640?wx_fmt=png#imgIndex=9)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_009_79ec8b273367.png)
 
   
 
@@ -237,7 +237,7 @@ ReAct模式：构建“思考－行动－观察”的动态微循环，有效解
 
 元学习模式：通过收集大量执行轨迹，并借助优化器自动迭代这些参数，使系统从整体架构层面实现持续进化。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605NbIrCc0h2pIAAOGDicIIu9be7JBoTPiaibnv1RLxJZFOstErib499AOJM3ra43O3g9QJP3vo2DiaxzemA/640?wx_fmt=png#imgIndex=10)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_010_caa3ccb507bd.png)
 
   
 
@@ -245,7 +245,7 @@ ReAct模式：构建“思考－行动－观察”的动态微循环，有效解
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605NbIrCc0h2pIAAOGDicIIu9b9jvsSGsPWgtic38JibwbCmECN1GMcicqdX6g5MqrhcXEIOC04nGwkdJUQ/640?wx_fmt=png#imgIndex=11)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_011_365c167fc7af.png)
 
   
 
@@ -285,7 +285,7 @@ _**Part.4**_
 
 为便于读者学习，作者精心绘制了大量图示，清晰说明模式的架构与处理流程，同时采用通俗易懂的语言以及大量类比来解释复杂的概念，帮助读者轻松吃透核心原理，快速上手实践。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605NbIrCc0h2pIAAOGDicIIu9bbiaepM70FsyCtPS9Fsl9uiaZF8WicYljKL8K40ayZGkOJ8Q4ehsHCyfag/640?wx_fmt=png#imgIndex=12)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_012_5f3011fd2bca.png)
 
 ▲精彩书摘
 
@@ -293,7 +293,7 @@ _**Part.4**_
 
 对于开发者而言，本书极具实用性：每个设计模式均配套即插即用的Agent工程模块，结合丰富案例与工程实践细节，可直接指导Agent的企业级落地，避免重新构建决策、记忆、反思与协作机制，聚焦于创造独特价值。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605NbIrCc0h2pIAAOGDicIIu9bC1CovAecuBxTXBGXgv8fvqyWdibyf2zBawO6Iibic1ree83RGE8UpbWdA/640?wx_fmt=png#imgIndex=13)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_013_4f51abb790bf.png)
 
 ▲代码示例
 
@@ -311,7 +311,7 @@ _**Part.4**_
 
 **《大模型应用开发：动手做AI Agent》**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605NbIrCc0h2pIAAOGDicIIu9b0iawBw8zcicIlYc5LfOibm6ibKHH74uA7aALjibgZWMu21spF6yxy5SUs7w/640?wx_fmt=png#imgIndex=14)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_014_bf38aaa0959f.png)
 
 ▼点击下方，即可购书
 
@@ -331,7 +331,7 @@ _**Part.4**_
 
 **《大模型应用开发：RAG实战课》**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605PHCXpt7194mhFFRx0icXnEojiaSIuZ5ibdA6lhpnl8WaD6pCPcwjGk8tWREV5oMPn3EIZhrKicTPibL8g/640?wx_fmt=png&from=appmsg#imgIndex=15)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_015_e79e22207964.png)
 
 ▼点击下方，即可购书
 
@@ -355,7 +355,7 @@ _**Part.4**_
 
 **《GPT图解：大模型是怎样构建的》**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605NbIrCc0h2pIAAOGDicIIu9bchXOicoCyx9Dv9qEEeukLwuNnxmwkXMvKXs0xOwF192CzOS6iajficJ0g/640?wx_fmt=png#imgIndex=16)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_016_4bef4eca9449.png)
 
 ▼点击下方，即可购书
 
@@ -379,7 +379,7 @@ _**Part.4**_
 
 **《零基础学机器学习》**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaibvmyz4605NbIrCc0h2pIAAOGDicIIu9bibLOjKlMibwJqVcRCSWyKicYURCM2LE1xRe2DicQWlmQ59fcic8R9x5f27w/640?wx_fmt=png#imgIndex=17)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_017_b0a70ea3f837.png)
 
 ▼点击下方，即可购书
 
@@ -395,4 +395,4 @@ _**Part.4**_
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iaibvmyz4605PHCXpt7194mhFFRx0icXnEoNiaasIDJOicZE1TWQ5rxc9O5aw5rxM3ZasWVuYLclu1y2IHSnP8caibUg/640?wx_fmt=jpeg#imgIndex=18)
+![图片](第一本AIAgent设计模式图书上市啦__images/img_018_908822f29d7a.jpg)

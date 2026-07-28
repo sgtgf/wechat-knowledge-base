@@ -1,0 +1,200 @@
+# 都是MOS管，为什么NMOS比PMOS受欢迎?
+
+原创 王工 硬件笔记本 2025-11-04 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/-HMvCNLwtS5ILKCiSZLrhA](https://mp.weixin.qq.com/s/-HMvCNLwtS5ILKCiSZLrhA)
+
+![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&tp=wxpic&wx_lazy=1#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&tp=wxpic&wx_lazy=1#imgIndex=1 "音符")
+
+  
+
+如果你经常接触电路设计，可能会发现一个现象：NMOS管的使用频率远高于PMOS。接下来，咱们来看看几种常用NMOS电路的应用场景。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvALP9XUics4tqJWjXh6TtjymGoWAgPWtXEbXtp32kTvXgpBUr7oEO3SA/640?wx_fmt=png&from=appmsg)
+
+用NMOS搭建电平转换电路
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvOaxVoWNCjy6sG8E0PS57rvt9FYc4sQY3JPbEXsSKfWDQhUtKpa3pBA/640?wx_fmt=png&from=appmsg)
+
+用NMOS点亮一个灯
+
+### 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvIIBhyvEqGBCg5VYbBgHCz2H6wZU9YFVHhiazSmXkxn4R6lyp9TS5edQ/640?wx_fmt=png&from=appmsg)
+
+用NMOS驱动继电器
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvPUzI489ibicV2O3H0j1QzXI99fGEUOb9ugvj6kZyx4AO1mibIS7CecicVg/640?wx_fmt=png&from=appmsg)
+
+### 
+
+用NMOS控制HDMI差分信号的通断
+
+不管是电源开关、电机驱动，还是各类转换器，NMOS总是首选。难道PMOS不好用吗？其实并不是，而是NMOS在性能上具有天然的优势。
+
+所以，这篇文章目的有两个：
+
+1、从底层物理特性出发，聊聊为什么NMOS更受欢迎；
+
+2、给大家分享一份_英飞凌《使用功率MOSFET进行设计》__应用笔记_，介绍使用功率 MOSFET 时的一些最常见注意事项。
+
+  
+
+01
+
+从底层物理来进行理解NMOS为什么更受欢迎
+
+要说清楚NMOS为什么更受欢迎，我们得先回到半导体物理的基础——载流子迁移率。简单来说，迁移率代表了载流子在电场作用下的移动速度，它直接决定了MOS管的电流驱动能力和开关速度。
+
+咱们来百度一下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvmrDTAxSl807OVqFX8PTjzq5He949C2GialwzZ4RaVw4vhWqRBQxr4xQ/640?wx_fmt=png&from=appmsg)
+
+-   **NMOS** 依靠**电子**作为载流子，其迁移率约为 **1500 cm²/V·s；**
+    
+-   **PMOS** 依靠**空穴**作为载流子，其迁移率仅为 **500 cm²/V·s。**
+    
+
+大家一看就知道，电子的迁移率几乎是空穴的 **3 倍** 。这个差距，可不是工艺优化能轻易弥补的，它是硅材料本身的物理特性决定的。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvjTzDDsfb4JGrVkv4UI65Ps4BAy1ibTuEqXCR5iczU41PNyCfN0NmHBQQ/640?wx_fmt=png&from=appmsg)
+
+你可能会有疑问：同样是载流子，为什么电子和空穴的速度差这么多？
+
+其实，**电子是真实的粒子**，在电场中能够比较自由地移动；
+
+而**空穴本质上是价电子移动后留下的“空位”**，它的运动实际上是电子反向跳跃的等效结果。由于空穴运动受晶格束缚更强，其迁移率自然就低。
+
+咱们说人话，就好比在人群中穿梭：电子像是灵活的个人，可以直接穿行；而空穴像是等人让出的空位，移动起来更费劲、更慢。
+
+  
+
+02
+
+NMOS的优势
+
+正是因为电子迁移率远高于空穴，NMOS在三个方面表现出明显优势：
+
+#### 1、更高的驱动能力（电流更大）
+
+在相同的器件尺寸和栅极电压下，NMOS能提供更大的导通电流。这意味着在驱动同样负载时，NMOS可以做得更小，或者在相同尺寸下提供更强的输出。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvlTOXP5E2UjdHodaWcmzCvMdLUd9S82rohSkArquX9GKTlFNiaDlbDmA/640?wx_fmt=png&from=appmsg)
+
+  
+
+#### 2、更快的开关速度
+
+高迁移率意味着载流子响应电场的速度更快，这使得NMOS的开关延迟更小，更适合高频开关应用，比如开关电源、电机驱动等。
+
+  
+
+#### 3、更低的导通损耗
+
+由于导通电阻RDS(on)更小，NMOS在导通状态下的功耗更低，系统效率更高。这对电池供电设备、高密度电源模块来说尤为重要。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZv7OykY57QWNm36OqKWNiaY0MJhOtFOtqJBtZL1HNn56nJwsXFia3RicqHQ/640?wx_fmt=png&from=appmsg)
+
+了解了NMOS的优势后，在实际设计中我们还需要注意以下几点：
+
+-   **栅极驱动**：NMOS通常需要高于源极的栅极电压，在高侧驱动时需要自举电路或专用驱动IC；
+    
+-   **成本考量**：虽然NMOS性能更好，但在某些低压、小电流场合，PMOS可能因电路简化而更具成本优势。
+    
+-   **散热设计**：同样尺寸的NMOS能通过更大电流，但也需要相应的散热支持。
+    
+
+既然NMOS这么强，PMOS是不是就没用了？当然不是。PMOS在特定场合仍然很有价值，在某些防反接、软启动电路中，PMOS结构更简洁。
+
+不过，在大多数功率开关应用中，咱们工程师还是会优先选择NMOS。
+
+  
+
+03
+
+MOS管使用时需要注意哪些？
+
+### 分享一份英飞凌官网资料，介绍使用功率 MOSFET 时的一些最常见注意事项。
+
+### 1、静电防护
+
+### 当你拿到一片全新的MOS管时，第一件事不是急着往电路板上焊，而是**注意防静电，千万不用用手直接拿MOS管脚**。MOS管的栅极氧化层非常薄，静电轻轻一碰就可能击穿，导致器件当场失效或寿命大减。
+
+###   
+
+### 2、雪崩击穿
+
+### 雪崩击穿是MOS管最常见的损坏原因之一。当漏源电压超过额定值V(BR)DSS时，器件会进入雪崩状态，电流失控、温度飙升，最终导致热失效或闩锁效应。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZv796whhqBpcayAn3jBQtCl3Cnniakt0srZJV0NSZSTFrZ4SsTYWXibfVw/640?wx_fmt=png&from=appmsg)
+
+### 3、额定电流  
+
+### 很多人一看数据手册上写着IDMAX = 75A，就真以为能长期跑75A。其实这个值是在“理想散热条件”下测的——可能用的很大的散热器或通过人工冷却将管芯温度保持在较低水平，现实中根本达不到。
+
+### 所以，咱们一般都会进行降额使用。
+
+###   
+
+### 4、栅极电压瞬变  
+
+### 栅极是MOS管最脆弱的地方。即使漏极电压没超标，栅极也可能因为耦合到高dV/dt信号而产生电压尖峰，击穿氧化层。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvaBA2MwrmS8YNqnNjLuFtJYbQj0YwJDtRWHtKC1vTxOEIxT0cp7RrIA/640?wx_fmt=png&from=appmsg)
+
+### 这里也提到了一些**防护措施，大家可以自己下来看。**
+
+###   
+
+### 5、SOA安全工作区  
+
+### _SOA（Safe Operating Area）区指的是MOS管的安全工作区，_它划定了电压、电流、时间和温度的安全组合。一旦越界，器件很可能瞬间报废。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZveQCDc5VwW1n1C0FQjtXc1uMjp2F0WcgVQstsXzNw7AAhG4jtuysibYw/640?wx_fmt=png&from=appmsg)
+
+###   
+
+### 6、体二极管反向恢复  
+
+### _MOS管内部自带一个体二极管，在同步整流、电机驱动等场景中常会导通。但这个二极管有反向恢复过程，如果配对MOS管开关太快，可能引发巨大的反向恢复电流，损坏器件。_
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvMnMXGBRaqAia1YPyUWhLDO0SicxYaiav2L2eQaVNibX9MCyXAo7qJUj05A/640?wx_fmt=png&from=appmsg)
+
+### 针对这个问题，文档中提到了一些注意事项和应对办法。
+
+###   
+
+### 7、PCB布局  
+
+### _MOS管发热甚至炸机，有很大一部分原因是驱动问题：可能是驱动参数不合适，也可能是驱动PCB布局有问题。尤其是高频大电流回路，寄生电感会带来电压尖峰、EMI和效率下降。_
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvdpOR6SVUpeUaH0hqdBz77xcy5xYbrvaA2giaXTiaYHhPJJZ4osfutNEA/640?wx_fmt=png&from=appmsg)
+
+### 文中提到了一些PCB布局的原则，大家可以仔细读一读。
+
+###   
+
+### 8、MOS管并联  
+
+### _为了扩展电流能力，常需要并联MOS管。但并联后动态电流不均可能让某个管子坏掉。_如何平衡呢？这里讲的跟我之前写的一些内容差不多，这里就不赘述了。_  
+_
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvm3BbRb8W82qnhKxm9rrU6DZKkf9825uicfSFr9AFRm3bYMWmFHloqiaA/640?wx_fmt=png&from=appmsg)
+
+如何下载《使用功率MOSFET进行设计》，更好的学习MOS管基础相关知识
+
+关注公众号：硬件笔记本，并在公众号里发送对应的下载关键字获取下载链接
+
+在公众号里给王工发消息:
+
+## 
+
+下载|使用功率MOSFET进行设计
+
+## 建议复制粘贴过去，就不容易码错字哟！若名称输入有误，系统将无法通过校验，因而不会返回结果哦。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvLriaiazdicsvicZEp8EPv4DeOgZdMCV88CW9OFlmdib3wicpeQSmdSmzz9yQ/640?wx_fmt=png&from=appmsg)
+
+加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjgKoqOKLiaLrnYSQhgDLeZvKq0icahGTM4VSWAk5nhU1rtXlVlzj85lwn7uD6DNjm6QrgIAyU1aWmg/640?wx_fmt=jpeg&from=appmsg)

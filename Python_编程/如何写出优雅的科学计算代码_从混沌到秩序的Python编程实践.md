@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Nlrs0TcJA09QOw0jpDe9Zg](https://mp.weixin.qq.com/s/Nlrs0TcJA09QOw0jpDe9Zg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/17qs5ibbu2Y5USOicZytt97ocKLRUS5pibmFHGibD3FcXyrjfNZqyDSephCaXwMjddlMHkhGW5Z71Am6wEticwrHrZQ/640?wx_fmt=gif&from=appmsg)
+![](如何写出优雅的科学计算代码_从混沌到秩序的Python编程实践_images/img_000_d98427483b54.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/17qs5ibbu2Y4GADickFibaAia1icb0vqiclwRTGB7Pse994Ea9cHw2ibhf3BV8eSvdUK7tmT2cq3frHlzibRZulYFITsZQ/640?wx_fmt=jpeg)
+![](如何写出优雅的科学计算代码_从混沌到秩序的Python编程实践_images/img_001_fa0a33f01830.jpg)
 
 在科学研究与工程实践中，科学计算扮演着至关重要的角色。然而，在实际操作中，我们经常会遇到一个棘手的问题：即使研究者花费数周乃至数月时间推导出复杂的数学模型，一旦进入代码实现阶段，糟糕的编程实践可能会导致精度下降、效率低下，甚至出现严重的错误。因此，如何编写既具数学之美又兼备工程之美的科学计算代码成为了科研工作者必须面对的重要课题。
 
@@ -167,8 +167,8 @@ Jupyter Notebook已经成为科研人员日常工作中不可或缺的一部分�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/17qs5ibbu2Y4GADickFibaAia1icb0vqiclwRTZTytiaLGTLPkkL7m0qgDb21DbrXZpj8w7icwMcQ4ia5E5oTShWibCyW51A/640?wx_fmt=gif&from=appmsg)
+![](如何写出优雅的科学计算代码_从混沌到秩序的Python编程实践_images/img_002_1db8e611ea67.gif)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/17qs5ibbu2Y5USOicZytt97ocKLRUS5pibmDWvqGmNQOcJvtCvT08OrgaA57hUKiaQphKmwiaklwVM6gdTzgyG9iaocQ/640?wx_fmt=jpeg&from=appmsg)
+![](如何写出优雅的科学计算代码_从混沌到秩序的Python编程实践_images/img_003_8f2e954d1a98.jpg)

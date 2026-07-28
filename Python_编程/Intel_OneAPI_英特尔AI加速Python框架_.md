@@ -5,7 +5,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/bL2iaicTYdZn4WjxEos6UL2LJsTlwqC6diakLskeXxB6MokJXUgdxTEF82Jbf6nh08l7P0xwHpYvMy6zfnPthnuMg/640?wx_fmt=gif)
+![](Intel_OneAPI_英特尔AI加速Python框架__images/img_000_55d77052ec51.gif)
 
 大家好啊，我是Ania！
 
@@ -147,6 +147,6 @@ from intel_extension_for_pytorch import debug
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Ljib4So7yuWge7Mibiad1tV0iaF8zSD5gzicbYiaOtl6tmz4onkADe25mdeWcVhZlQ8Q0bH73nZAwICyJ4pPgJU3VrCg/640?wx_fmt=gif)
+![](Intel_OneAPI_英特尔AI加速Python框架__images/img_001_23ff7bf75f66.gif)
 
 **_再走吧_**

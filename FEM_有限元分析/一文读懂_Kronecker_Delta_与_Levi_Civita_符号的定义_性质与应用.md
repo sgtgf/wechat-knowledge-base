@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/5MGty4NQEDH25J\_Hpg0pig](https://mp.weixin.qq.com/s/5MGty4NQEDH25J_Hpg0pig)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVV7lhk5keKTH584d9LVl2Wct8aUZgIddlKBXKibUuIxM7zOljYuZvOibfMnHZzVicKY0a5icc3vsP83kA/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](一文读懂_Kronecker_Delta_与_Levi_Civita_符号的定义_性质与应用_images/img_000_0b14d0f04534.gif)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWTic7d4x8bB2xiaYWRFy1icpLDmDES2Z0xT2gnIn7DZiax0Co3geX1DIoc3mG80WvyQPJNpmcPD2vUxw/640?wx_fmt=jpeg&from=appmsg)
+![](一文读懂_Kronecker_Delta_与_Levi_Civita_符号的定义_性质与应用_images/img_001_c78c5f43ffa3.jpg)
 
 在数学和物理学的许多领域中，**Kronecker Delta**（克罗内克符号）和**Levi-Civita符号**（置换符号）是两个基础而重要的工具。它们不仅用于描述向量、张量和矩阵的运算，还在微分几何、量子力学、流体力学等领域中发挥着核心作用。本文将详细探讨这两个符号的定义、性质及其在实际问题中的应用，并通过具体示例说明它们的数学意义和物理意义。
 
@@ -73,7 +73,7 @@ Levi-Civita符号（记作 ）是一个三阶反对称张量，其定义如下�
 -   （重复指标）
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWTic7d4x8bB2xiaYWRFy1icpLwLJCzKLxnhSNhv3YOa86FOBr2Yra8PeJIXb3ib3vvWQFyp11L94hUSw/640?wx_fmt=jpeg&from=appmsg)
+![](一文读懂_Kronecker_Delta_与_Levi_Civita_符号的定义_性质与应用_images/img_002_d785f5c30d42.jpg)
 
 Levi-Civita符号的几何意义与三维空间中的**定向**相关。它能够描述向量叉积的符号和方向，因此在处理旋转、角动量等问题时至关重要。
 
@@ -227,12 +227,12 @@ Kronecker Delta 和 Levi-Civita 符号是数学和物理学中不可或缺的工
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.2312854885901674)
+![](一文读懂_Kronecker_Delta_与_Levi_Civita_符号的定义_性质与应用_images/img_003_d8aae6d6bc0e.png)
 
 **给我一组控制方程，还你一套专业软件。**我们长期从事多场耦合有限元算法和软件的研发工作，掌握全流程的 CAE 软件开发技能。如果您需要相关的技术服务，非常欢迎私信交流和扫码咨询。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUiaBXZVo6l0B8M1jCa328awtQ1MFgKXLbF5QKRRbE8zuZqwdfFsLeoRtrCuPhTSQY0t2zictECdFmA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](一文读懂_Kronecker_Delta_与_Levi_Civita_符号的定义_性质与应用_images/img_004_18b5c0701c85.png)
 
-**喜欢****作者******，请点********赞********和在看******![](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6459285066781566&random=0.9039664113437702&random=0.10616299980642463&random=0.37943585876598473&random=0.7246305284075434&random=0.1820491079508062&random=0.3136645327514245&random=0.8290227030922905&tp=webp)**
+**喜欢****作者******，请点********赞********和在看******![](一文读懂_Kronecker_Delta_与_Levi_Civita_符号的定义_性质与应用_images/img_005_2ab55b5e37e9.gif)**
 
-**![](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.90499299240585&random=0.7427014598159356&random=0.6203706698189717&random=0.17266143983420013&random=0.4502076552242009&random=0.3348111146987862&random=0.5857982594073723&random=0.5924137199896844&tp=webp)**
+**![](一文读懂_Kronecker_Delta_与_Levi_Civita_符号的定义_性质与应用_images/img_006_0dc7b9b79564.gif)**

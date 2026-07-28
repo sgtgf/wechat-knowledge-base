@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/aW0Xe4MqBhg6Q8OtYjkmMg](https://mp.weixin.qq.com/s/aW0Xe4MqBhg6Q8OtYjkmMg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usuWFv7bKpSfMaLX2BQJYkicaRXxcDiaKmEG5DVo6AT9bTwXIT25xyK3YA/640?wx_fmt=png)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_000_38a619bd7819.png)
 
 点击**蓝字**关注我们
 
@@ -32,15 +32,15 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c180081_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_001_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_002_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45gd6SLsUicjJic8khHO6l7uskibXY0ibOhtUBUEUmCPoqDEVdFvxBulAnyxA9aWj5eM6icqj9ooR8iboxg/640?wx_fmt=png)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_003_52b62a695283.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_004_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_005_6e457410d944.gif)
 
   
 
@@ -64,39 +64,39 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c180081_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_006_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_007_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45gd6SLsUicjJic8khHO6l7us7Zib7ccAll5Gt5jMIIyTBGoGqsicY5pvhPsQrFR5dfBpzM2w4SXp5OUg/640?wx_fmt=png)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_008_ca77a9799f76.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_009_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_010_6e457410d944.gif)
 
 _(a) 路段受损率较小，路网规模逐渐增加_
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_011_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_012_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45gd6SLsUicjJic8khHO6l7ushLwqGXicIPeo0kvsx4kxvYb5TGicdeFbkjADoJrarkVDOyxeyMarKdJQ/640?wx_fmt=png)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_013_7586790b7846.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_014_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_015_6e457410d944.gif)
 
 _(b)__路段受损率较大，路网规模逐渐增加_
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_016_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_017_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usR8aW7LF8OUZG0f4ILjb1RAyXCRq76yQKDwVGJKRZbQBGibKeUdfmfZQ/640?wx_fmt=png)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_018_473f3304a78c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_019_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_020_6e457410d944.gif)
 
 _(c) 路网规模和路段受损率均较大、最大可授受距离逐渐增加_
 
@@ -116,7 +116,7 @@ _(c) 路网规模和路段受损率均较大、最大可授受距离逐渐增加
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45gd6SLsUicjJic8khHO6l7uszGdg2QI3GxCwiaK8g9sUr8ushQaN6HA1VicQFJibb0LJmHAvO0nULgHzw/640?wx_fmt=jpeg)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_021_30633caec3de.jpg)
 
 **苏兆品**
 
@@ -125,7 +125,7 @@ _(c) 路网规模和路段受损率均较大、最大可授受距离逐渐增加
 
 E-mail: szp@hfut.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usPcMARY2TOBaLAKOyiamvso3SbIwk29ct5ScaAdxkiaLckibQvCvFKYJicw/640?wx_fmt=jpeg)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_022_3140e6c06414.jpg)
 
 **李沫晗**
 
@@ -134,7 +134,7 @@ E-mail: szp@hfut.edu.cn
 
 E-mail: limohan@mail.hfut.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usnkNhu0VNsKDDjOoOw4gdSULPjkCC0WwjkiaPpiaO4apJaV52Iq7zJtxg/640?wx_fmt=jpeg)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_023_6ef01b01ce80.jpg)
 
 **张国富**
 
@@ -142,7 +142,7 @@ E-mail: limohan@mail.hfut.edu.cn
 
 E-mail: zgf@hfut.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usnS140QnteBjkUOczTg0bCbFhPrkOnLhx6Fhl5qSdZicF4qeOBnU68AQ/640?wx_fmt=jpeg)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_024_d66a802ae86f.jpg)
 
 **刘  扬**
 
@@ -232,49 +232,49 @@ E-mail: lyy673@163.com
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usGQAf640vBkJ4XER236YBtia718Kqc7ic7DdC6JzZQQrKUZDOPOBR1Otw/640?wx_fmt=jpeg)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_025_94dcaa4f0be5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usOzO8EAjHUBe4lmduBIYB0ia3yn2HyHBws7d2icibN1PVPSvTicTcopZbBw/640?wx_fmt=jpeg)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_026_0706a4cf08fe.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_027_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_028_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45gd6SLsUicjJic8khHO6l7us0Q1BfpYSnAQRibe6GVpWsAiaPsibQYeDPvmicGXqAkVmu4kribplfnIqjXw/640?wx_fmt=jpeg)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_029_55ca80434545.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_030_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_031_6e457410d944.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_032_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_033_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usHOuPkXmwiarAOkRVMlR8WiaASk8TarOGpUEJJl5ugfAOAfY3eOM2Z30A/640?wx_fmt=jpeg)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_034_9107a39667e2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_035_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_036_6e457410d944.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_037_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_038_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45gd6SLsUicjJic8khHO6l7uskIvQUwFeiaRiaPx37OngFcSOf5VNc2Um5mIn03RQEpno4xr60s6W0Zdw/640?wx_fmt=jpeg)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_039_4541a2e7e429.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_040_6e457410d944.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45gd6SLsUicjJic8khHO6l7usaQHjAVTcibKvPTblLj3qR30WU2DtScKAK4DCEgDtbyHhpgneeOqUD0g/640?wx_fmt=gif)
+![](基于Q学习的受灾路网抢修队调度问题建模与求解_images/img_041_6e457410d944.gif)
 
 **长按二维码｜关注我们**
 

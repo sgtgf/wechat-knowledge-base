@@ -15,9 +15,9 @@
 
 gnuplot 和 matplotlib 都是强大的数据可视化工具，广泛应用于科学计算、数据分析和学术研究等领域。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVV75HfibvS6PSLMjcUJ0ibvVrzdoYfBV2qqsKrnJMRjvSZPqYEtYZrNUMBr1icaLcnx73rR0CWZLqhrg/640?wx_fmt=other&from=appmsg&random=0.759719132701923&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](同样作为画图工具__gnuplot和matplotlib有什么异同点__images/img_000_6f3fc8d27fcf.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUBMWld4lh8EV4zzvicqhs5klsrzmC8U4t9tqhUSJ4niaic5xYxxibiajaKc3VT7XOORU9NicGnu7dQwHFw/640?wx_fmt=png&from=appmsg)
+![](同样作为画图工具__gnuplot和matplotlib有什么异同点__images/img_001_596fbcf299b3.png)
 
 ## **相同点**
 
@@ -35,16 +35,16 @@ gnuplot 和 matplotlib 都是强大的数据可视化工具，广泛应用于科
 -   **gnuplot：** 是一个独立的程序，有自己的专用脚本语言，适合从命令行或脚本文件直接调用。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUBMWld4lh8EV4zzvicqhs5kFiaX1wmbVxlskbtXwsSL1oqvVLr9SZOyRWEYSIJO2j4FhDr1Jt5gPtQ/640?wx_fmt=png&from=appmsg)
+![](同样作为画图工具__gnuplot和matplotlib有什么异同点__images/img_002_4467d03ac0db.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUBMWld4lh8EV4zzvicqhs5kFiaX1wmbVxlskbtXwsSL1oqvVLr9SZOyRWEYSIJO2j4FhDr1Jt5gPtQ/640?wx_fmt=png&from=appmsg)
+![](同样作为画图工具__gnuplot和matplotlib有什么异同点__images/img_003_4467d03ac0db.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUBMWld4lh8EV4zzvicqhs5kFiaX1wmbVxlskbtXwsSL1oqvVLr9SZOyRWEYSIJO2j4FhDr1Jt5gPtQ/640?wx_fmt=png&from=appmsg)
+![](同样作为画图工具__gnuplot和matplotlib有什么异同点__images/img_004_4467d03ac0db.png)
 
 -   **matplotlib：** 是一个 Python 库，与 Python 紧密集成，意味着使用 matplotlib 需要具备 Python 编程知识。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVUBMWld4lh8EV4zzvicqhs5kibNVQhEHdFZVVVnnpQohq7TP2MUwMuvI50c7qUCu1zm8O73ePqcgqpQ/640?wx_fmt=jpeg&from=appmsg)
+![](同样作为画图工具__gnuplot和matplotlib有什么异同点__images/img_005_71a40b344be1.jpg)
 
 **易用性和学习曲线**
 

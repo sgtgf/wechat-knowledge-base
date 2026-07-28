@@ -1,0 +1,85 @@
+# 如果不考虑STM32，你会推荐哪些国产单片机？
+
+原创 王工 硬件笔记本 2026-03-04 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/n21PqSqkb5p7BIZUwr76uw](https://mp.weixin.qq.com/s/n21PqSqkb5p7BIZUwr76uw)
+
+![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+
+  
+
+前几年那场席卷全球的缺芯潮，现在回想起来还让人心有余悸。STM32的价格像坐了火箭，原本十几块的芯片飙到几百，现货市场还要靠抢。那段时间，咱们多少工程师被逼着连夜改方案，硬着头皮把目光投向以前不太敢用的国产芯片。  
+
+这一晃几年过去，国产MCU也算是彻底支棱起来了。虽然现在STM32依然是很多人的首选，但手里有几个备用方案，心里不慌。今天咱们就聊聊这些年冒出来的国产单片机厂家。（以下顺序不是排名哦）
+
+01
+
+兆易创新 GD32
+
+先说GD32，江湖人称最像STM32的国产芯片。为啥？因为早期它走的就是pin-to-pin兼容路线，硬件上直接替换，软件上改几行代码就能跑。这招太狠了，当年缺芯的时候，多少板子直接把STM32F103吹下来，换上GD32F103，焊上就能用。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niafXBqnm0IBomnicVCUQyiazEy8oGHtLSYQjCOkX245v84IM17dbLad8HRQ51UqStk9q20SK4ibqc36CLPbUUO4M0cSNcBOZVsUteY/640?wx_fmt=png&from=appmsg)
+
+这么多年下来，兆易创新的产品线是最全的，从M0到M3/M4，再到后来的RISC-V内核，你想用啥它都有。如果你刚接触国产MCU，从GD32入手是最稳妥的。
+
+02
+
+沁恒微电子 CH32
+
+说到CH32系列，不得不提沁恒这家公司。它是个老牌的接口芯片厂家，搞过USB转串口CH340的都知道，基本是咱们工程师人手一个的东西。所以沁恒做MCU，最大的优势就是各种接口芯片，特别是USB和网络，玩得特别溜。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaeyVotLtk2SUcG7IibiaP30EgtwZRbEf49SVxlXTibiaGrfvGVQhp1b4ETnezlWLTtlr5rUszWWfTsia7wia7MDTSXIl62dmrqqLrx8o/640?wx_fmt=png&from=appmsg)
+
+CH32V系列主打RISC-V内核，性能相当不错。如果你对开源指令集感兴趣，或者项目里需要折腾USB、以太网这些，沁恒的芯片值得一看，它的例程和库函数都是开源的，用起来很清爽。
+
+03
+
+华大半导体 HC32
+
+华大是央企背景，做事风格比较稳。HC32系列在工业控制、仪表、电力这些领域口碑很好，因为它抗干扰能力强，稳定性高。而且华大的供货能力一直比较稳，不太受市场波动影响。如果你做的是表计、工业设备这类对可靠性要求极高的产品，华大是首选之一。
+
+04
+
+灵动微电子 MM32
+
+灵动也算是最早一批做国产MCU的厂家之一。MM32系列早期对标STM32F0/F1系列，在工业控制和电机驱动这块积累了不少用户。它的特点是稳定性不错，而且一直在推陈出新。虽然前两年缺芯潮时也经历过产能波动，但现在恢复得挺好，是很多家电和工业设备厂家的稳定供货商。
+
+05
+
+雅特力 AT32
+
+雅特力的特点是啥？往死里超频。别的M4跑100多MHz，它直接干到200多甚至300MHz。它的思路很直接：你要算力，我给你算力。而且AT32的做工和稳定性确实不错，在一些需要跑复杂算法或者GUI的场合，它这个高主频的优势就出来了。价格方面也挺能打的。
+
+06
+
+其他值得关注的玩家
+
+**1、中微半导体 CMS32**：在家电、消费电子领域出货量巨大，性价比极高。
+
+**2、复旦微电子 FM33**：在智能电表、安全认证领域有深厚积累，老牌国企，技术扎实。
+
+**3、航顺芯片 HK32**：也是兼容STM32的路线，价格经常有惊喜，在一些小家电和简单控制领域用的人不少。
+
+**4、芯海科技 CS32**：芯海是做高精度ADC起家的，所以它的MCU在信号链处理上有优势，适合传感器类应用。
+
+**5、乐鑫科技 ESP32**：这个不用多介绍，Wi-Fi/蓝牙SoC的王者，做物联网产品的工程师没有不知道的，玩的人特别多。
+
+**6、普冉 PY32**：**2020年代初期逐步推出并持续完善**的32位微控制器产品线，主打小封装、低功耗、低成本，在一些小体积的产品里用起来很爽。
+
+**7、海思 HI3056**：海思虽然曾经被制裁，但它的MCU依然有很强的技术实力，特别是在视频监控和工业视觉领域。
+
+说了这么多，其实现在国产MCU的选择已经非常丰富了。每个厂家都有自己的特色和侧重点。
+
+设备逐渐国产化是大势所趋，但对我们工程师来说，多了解几家的产品，手里多几个备选方案，总是没错的。万一哪天又来一波涨价潮，咱也不慌了。
+
+推荐阅读（点击如下三个图片分别进入）
+
+[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh3yXKR2ic1fBiadYSda4l2c6kLdtgvf2SicrgBeqOym6LKSYl6t332ma4GxrMF0TThE5Ql7Licv7kKeA/640?wx_fmt=png&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=5)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247562096&idx=1&sn=93c9f5326168fe09bd8030c06b808212&scene=21#wechat_redirect)
+
+[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh3yXKR2ic1fBiadYSda4l2c6nr0GObNbaIl317HX0LxNicTohGdlbwaYUKW7VCJOKYf2iaaVkgIv2DHw/640?wx_fmt=png&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=6)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561938&idx=1&sn=27ed46e1cad1149ba29c97fe13b12f6a&scene=21#wechat_redirect)
+
+[![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjh3yXKR2ic1fBiadYSda4l2c6iaSk4WhTPYh0jDN6emK0cL2QJSaNRKewN67ubDNyklsfPdJiahX02ialA/640?wx_fmt=jpeg&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=7)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561879&idx=1&sn=c52935989030351a5dad4d9aa91d7504&scene=21#wechat_redirect)
+
+加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/0o3ohHN0niadA4cw0YxKQn5rs6BTl4KggeXWmUAsk7bU81mCEYh5KFgvlaterZbYKAiatWV6XtdoRTqGJJHt0piaer47GeibiaV6z5iaWPiahCMc7U/640?wx_fmt=jpeg&from=appmsg)

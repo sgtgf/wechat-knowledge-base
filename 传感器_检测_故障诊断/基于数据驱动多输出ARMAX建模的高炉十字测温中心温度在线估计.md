@@ -6,7 +6,7 @@
 
 高炉生产中，炉顶煤气在高炉内的分布直接反映了煤气热能和化学能的利用情况，因而影着高炉能耗水平和生产成本。然而，高炉是一大型密闭反应器，且内部生产条件过于严酷，如高温高压，固、液、气三相混合和多场耦合交错，使得高炉操作人员无法直接观测炉内煤气流的分布及其状态变化。近年来，图1所示十字测温装置在无钟布料高炉得到了广泛应用，它能连续准确地测出炉喉径向的煤气流温度分布。由于温度高的地方煤气流旺盛，因而十字测温装置可有效监测高炉炉顶煤气流的分布状况。十字测温装置位于高炉炉喉位置，并在炉喉圆周面上的东北、西北、西南、东南方向安装四个测温臂，每个测温壁分布有不等的温度传感器(如热电偶)，一般共有17~21个测温传感器。这些测温点能够提供实时温度数据，可比较全面地反映煤气流在炉喉圆周方向上的分布，使操作者直观地观察到煤气的变化，为及时准确地进行高炉布料制度调节和热风与喷煤调节提供了可靠依据，同时还避免因煤气取样分析滞后和不全面给高炉操作带来的影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46EaicuyKC03XDIygaBcK6PMC4Dn4aPOpe3dNg2gEkJWkria6RFBKiaH9jezDaryN4CdmdYIhm9E4hyw/640?wx_fmt=gif)
+![](基于数据驱动多输出ARMAX建模的高炉十字测温中心温度在线估计_images/img_000_bb2b16cc7f7a.gif)
 
 图1 高炉炼铁过程与十字测温装置
 
@@ -22,7 +22,7 @@
 
 我们针对问题1，提出将数据降维因子分析和稳健Pearson相关分析的Filter特征选择方法相集成，综合选取模型输入变量。首先，采用因子分析方法预处理输出变量，提取最大主因子，然后分析主因子与高炉关键过程变量的相关关系，进而选出模型输入变量；针对问题2，从高炉实际数据出发，基于时间序列建模思想，用样本均值消去法去除高炉数据趋势项提取其随机分量并对随机分量建模；针对问题3，提出算法结构简单的多输出ARMAX建模算法，并用赤池信息准则(AIC)结合拟合优度指标函数选取模型最优阶次，之后运用收敛速度快的在线RLS算法辨识模型参数，同时采用残差分析方法评价所建模型性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46EaicuyKC03XDIygaBcK6PMkCjHf7YKdrFfu36J0SaBcvESIXUDicStCI2iaEZ9OuajKzibQGbt7lcVg/640?wx_fmt=jpeg)
+![](基于数据驱动多输出ARMAX建模的高炉十字测温中心温度在线估计_images/img_001_bf1c957f08ec.jpg)
 
 图2 研制的十字测温中心温度估计软件系统
 
@@ -34,13 +34,13 @@
 
 作者简介
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46EaicuyKC03XDIygaBcK6PMG5XAOlric4sCKBF5jFsFe4Xc7QEDXwxFVjvXaib1am1qXbTAy3eNoAMQ/640?wx_fmt=jpeg)
+![](基于数据驱动多输出ARMAX建模的高炉十字测温中心温度在线估计_images/img_002_554e2842ef84.jpg)
 
 周平, 东北大学教授. 分别于2003 年、2006 年和2013 年获得东北大学学士、硕士和博士学位. 主要研究方向为工业过程运行反馈控制, 数据驱动建模与控制. 本文通信作者.
 
 E-mail: zhouping@mail.neu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46EaicuyKC03XDIygaBcK6PM2f6fzr8jAqaOrg7zr42HxonlL356ZETNvVKS8E3MrSjQJiassBzStZg/640?wx_fmt=jpeg)
+![](基于数据驱动多输出ARMAX建模的高炉十字测温中心温度在线估计_images/img_003_a47f8c569235.jpg)
 
 刘记平东北大学硕士研究生. 2015 年获得河南科技大学学士学位. 主要研究方向为数据驱动建模与控制, 机器学习算法. 
 
@@ -64,21 +64,21 @@ E-mail: m18842388402@163.com
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46EaicuyKC03XDIygaBcK6PMVMdcKjnCcfJQsewFnLeNSgOodjoqqNyibBcylZAZVMRHRRRibGHhCr5Q/640?wx_fmt=png)
+![](基于数据驱动多输出ARMAX建模的高炉十字测温中心温度在线估计_images/img_004_83ba11977698.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46EaicuyKC03XDIygaBcK6PMNiagpch37Qo377VnWboB8ib46vq34S9icLDWdFgVOpwWMABTvUPG2NSgg/640?wx_fmt=jpeg)
+![](基于数据驱动多输出ARMAX建模的高炉十字测温中心温度在线估计_images/img_005_4048f92d6d50.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46EaicuyKC03XDIygaBcK6PMVMdcKjnCcfJQsewFnLeNSgOodjoqqNyibBcylZAZVMRHRRRibGHhCr5Q/640?wx_fmt=png)
+![](基于数据驱动多输出ARMAX建模的高炉十字测温中心温度在线估计_images/img_006_83ba11977698.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46EaicuyKC03XDIygaBcK6PM9bibWbB3mVTkzB9uFiaHuqL3Lhc9FDZDcxRD22BJFG7lbpZlHBicvXzuA/640?wx_fmt=jpeg)
+![](基于数据驱动多输出ARMAX建模的高炉十字测温中心温度在线估计_images/img_007_24eaaf20f171.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46EaicuyKC03XDIygaBcK6PMVMdcKjnCcfJQsewFnLeNSgOodjoqqNyibBcylZAZVMRHRRRibGHhCr5Q/640?wx_fmt=png)
+![](基于数据驱动多输出ARMAX建模的高炉十字测温中心温度在线估计_images/img_008_83ba11977698.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46EaicuyKC03XDIygaBcK6PMFNwA2PYhTwsibiafCttlocAn0biaZHo72fCYqEeicQ1etNxrqNs7kjbXOw/640?wx_fmt=jpeg)
+![](基于数据驱动多输出ARMAX建模的高炉十字测温中心温度在线估计_images/img_009_68ac40dd0128.jpg)
 
 自动化学报订阅号
 

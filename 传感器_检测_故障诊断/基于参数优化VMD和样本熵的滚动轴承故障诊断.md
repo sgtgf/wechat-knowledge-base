@@ -4,11 +4,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/cUO0R4WD7zNvl3XflEqotw](https://mp.weixin.qq.com/s/cUO0R4WD7zNvl3XflEqotw)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1cYmTpMoyExst80DKaia3aRQ8zXb0icUFI8iaJfnibNdrPib2mDmfxAXBqEGg/640?wx_fmt=gif)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_000_ee6152d31d9f.gif)
 
 **点击蓝字 关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1cYmTpMoyExst80DKaia3aRQ8zXb0icUFI8iaJfnibNdrPib2mDmfxAXBqEGg/640?wx_fmt=gif)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_001_ee6152d31d9f.gif)
 
   
 
@@ -72,19 +72,19 @@ Liu 等利用经验模态分解 (Empirical mode decomposition, EMD) 和相应的
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1cIEOxdtvVKn7AAPJF4ibTxibWjtepFV3SebUkyB6ye4x4JGnLIleVhDJg/640?wx_fmt=jpeg)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_002_276f24e6549e.jpg)
 
 图 4  基于遗传变异粒子群算法的参数优化流程
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1cjwrMzEnuLWueW9jFOicYxoCdesws5jSCsI27jyRu5e32huOHTrv5SIA/640?wx_fmt=jpeg)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_003_a8589610d519.jpg)
 
 图 5  4种状态的振动信号
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1cenAQNm7W6djdLaJvzSfpHerJaD65bQ81GN6qoHQw2wib87WRGKDEu2A/640?wx_fmt=jpeg)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_004_5162d69d06ab.jpg)
 
 图 6  样本熵的变化曲线
 
@@ -96,7 +96,7 @@ Liu 等利用经验模态分解 (Empirical mode decomposition, EMD) 和相应的
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1cNClMVbdaLaBO0tgueq2lkDhuibCEibBDeCpnenXnVeiar9RQDYmOv3gicA/640?wx_fmt=jpeg)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_005_5b96b3e89886.jpg)
 
 **刘建昌**
 
@@ -104,7 +104,7 @@ Liu 等利用经验模态分解 (Empirical mode decomposition, EMD) 和相应的
 
 E-mail: liujianchang@ise.neu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1cfdK9EEObIo2LNiaoYCicSaCSiaL7SZsrOtyDIYxIuS14SCvVtmPdw3lrQ/640?wx_fmt=jpeg)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_006_f8b808eb7e86.jpg)
 
 **权   贺**
 
@@ -112,7 +112,7 @@ E-mail: liujianchang@ise.neu.edu.cn
 
 E-mail: quanhee@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1cL6dSWplIN1E3hcsrLeRqMpzx0Tyu1QVdjugyULJAlywVeEZRTkq4gg/640?wx_fmt=jpeg)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_007_c28f236b038c.jpg)
 
 **于   霞**
 
@@ -120,7 +120,7 @@ E-mail: quanhee@163.com
 
 E-mail: yuxia@ise.neu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1cosbjEpVRE96JHOcfgcFvBsHx55qeRqnc0URicAb3SgNapG9ic3M5SMibw/640?wx_fmt=jpeg)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_008_4535be15d38f.jpg)
 
 **何   侃**
 
@@ -128,7 +128,7 @@ E-mail: yuxia@ise.neu.edu.cn
 
 E-mail: hekan940112@gmail.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1c8fvWole0b1nbFEBse9QpeS756onic1MCmEcTib2XU2uJEIPamITns3Ng/640?wx_fmt=jpeg)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_009_1e4413ff3831.jpg)
 
 **李镇华**
 
@@ -346,49 +346,49 @@ http://www.aas.net.cn/cn/article/id/14266?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1cTEG7yrjajzdGV7dqf4OicbBWyQnW1RVeibk5x5L9U3pDkfhh14wXBbfA/640?wx_fmt=png)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_010_96f1e47f2e44.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1cvQUkIOCqCdv554BEyt6YiamOm9icdkHdjf46FSnyHfaM7loqlp8HL4XA/640?wx_fmt=png)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_011_607470e4e78b.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1ciazDXBTSSqUfSRh21kd2yplMoTCYaiaOLnwGTLDj4qgqbgMsH747ASZA/640?wx_fmt=gif)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_012_25d6bb4f2768.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1ciazDXBTSSqUfSRh21kd2yplMoTCYaiaOLnwGTLDj4qgqbgMsH747ASZA/640?wx_fmt=gif)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_013_25d6bb4f2768.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1cibkS8kWhto1icnIo486SRkO96AUyxydEL9F8SvX44ppmXS7eFZgWXpibQ/640?wx_fmt=jpeg)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_014_346de9238d82.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1ciazDXBTSSqUfSRh21kd2yplMoTCYaiaOLnwGTLDj4qgqbgMsH747ASZA/640?wx_fmt=gif)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_015_25d6bb4f2768.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1ciazDXBTSSqUfSRh21kd2yplMoTCYaiaOLnwGTLDj4qgqbgMsH747ASZA/640?wx_fmt=gif)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_016_25d6bb4f2768.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1ciazDXBTSSqUfSRh21kd2yplMoTCYaiaOLnwGTLDj4qgqbgMsH747ASZA/640?wx_fmt=gif)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_017_25d6bb4f2768.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1ciazDXBTSSqUfSRh21kd2yplMoTCYaiaOLnwGTLDj4qgqbgMsH747ASZA/640?wx_fmt=gif)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_018_25d6bb4f2768.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1cr7019UUW3s6wicK6XZFMapjmoqMFEx9Q1tq5yDMY6HtLe2EYnupWnxg/640?wx_fmt=jpeg)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_019_d9fc875f4120.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1ciazDXBTSSqUfSRh21kd2yplMoTCYaiaOLnwGTLDj4qgqbgMsH747ASZA/640?wx_fmt=gif)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_020_25d6bb4f2768.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1ciazDXBTSSqUfSRh21kd2yplMoTCYaiaOLnwGTLDj4qgqbgMsH747ASZA/640?wx_fmt=gif)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_021_25d6bb4f2768.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1ciazDXBTSSqUfSRh21kd2yplMoTCYaiaOLnwGTLDj4qgqbgMsH747ASZA/640?wx_fmt=gif)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_022_25d6bb4f2768.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1ciazDXBTSSqUfSRh21kd2yplMoTCYaiaOLnwGTLDj4qgqbgMsH747ASZA/640?wx_fmt=gif)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_023_25d6bb4f2768.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1cefQVtwzvGqORVGIx2dr63LHb0vyxzwDplrO9xQHjW07Pib7vkbnmzow/640?wx_fmt=jpeg)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_024_b231a5b89cb6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1ciazDXBTSSqUfSRh21kd2yplMoTCYaiaOLnwGTLDj4qgqbgMsH747ASZA/640?wx_fmt=gif)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_025_25d6bb4f2768.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH469icTUeAPUNVF6e1e5Tfd1ciazDXBTSSqUfSRh21kd2yplMoTCYaiaOLnwGTLDj4qgqbgMsH747ASZA/640?wx_fmt=gif)
+![](基于参数优化VMD和样本熵的滚动轴承故障诊断_images/img_026_25d6bb4f2768.gif)
 
 **长按二维码｜关注我们**
 

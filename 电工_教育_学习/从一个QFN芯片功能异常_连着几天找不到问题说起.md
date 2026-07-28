@@ -1,0 +1,77 @@
+# 从一个QFN芯片功能异常、连着几天找不到问题说起
+
+原创 王工 硬件笔记本 2026-04-21 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/IWMlGMCahqSz1qCYT9EMjA](https://mp.weixin.qq.com/s/IWMlGMCahqSz1qCYT9EMjA)
+
+# ![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+
+# 这篇文章给大家分享两个关于PCB的案例，希望大家在设计产品时多留个心眼，避开那些常见的坑。
+
+01
+
+案例1：QFN芯片功能不良，折腾几天找不出原因
+
+前阵子咱们有个技术交流群特别热闹，连着几天都是成百上千条消息刷屏。
+
+我大概瞟了一下，他们讨论的是一颗QFN芯片功能测试一直不通过。怀疑焊盘设计、怀疑漏锡、怀疑工艺问题，折腾了好几天都没找到最终问题。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacBzJXiaFlWnhqriaZgfuO9WHw025Fr9ulq7XIIS8icwpgkh4F6SnBpibEQRYialRLiao0XdXLyVmrhUTyYqINUt64Twq1NQOfjmoxoY/640?wx_fmt=png&from=appmsg)
+
+# 后来有人看图，发现问题很可能出在中间焊盘上——中间的接地焊盘画得太小了。如果锡膏刷多了，回流焊的时候锡就会把整个芯片顶起来，导致四周的引脚根本没碰到焊盘，全是虚焊。更关键的是，中间那个焊盘一个透锡孔都没打，多余锡膏没地方跑，只能往上顶。其实这个焊盘的大小设计也有讲究，太小不行，太大了也不好。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niacQEJWickgu9Fdfk0VFEibWRTFUInX2qoeKPlPlrH4nxKmykyRTWTgGw7ZFS7YRsLrV20WxdgbVP7dVicibu5s7zcf8E9RD1sQQQvM/640?wx_fmt=png&from=appmsg)
+
+**当时没太留意最终的验证结果，所以**最终原因不太好说死。但单从设计角度看，这个焊盘确实有优化空间。要是板厂的工作人员在工程审核时经验更丰富一些，能顺手提醒一句这个地方可能有风险，那就更贴心了。当然，这本来就不在板厂的职责范围内，能帮忙看是情分，不看是本分。但如果真能发现这类问题，对咱们工程师来说**就帮大忙了**。
+
+02
+
+案例2：贪便宜找小厂打样，板子变形严重
+
+之前在一家小公司，成本卡得很死。有一次画完板子，采购在淘宝上找了个小厂打样。板子调试功能都正常，装成整机放进温箱，没多久就变形严重。经过排查后，决定再换一家正规厂家打样，再测试就正常了。想省钱省时间，结果适得其反。
+
+原来的图片找不到了，换了一张网图，方便大家更直观地看出板子翘曲变形是什么样。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niadE8TvOGTkQ5ukdKvmVtAhZnQ2NMecBh5FWgkDa9IJ4rq0DiaMfOyice1aQZqaKung6eTiaNic6DCTRDEsha1EDj6GpxDdeXBaGGAo/640?wx_fmt=png&from=appmsg)
+
+所以PCB打样，尽量选择正规厂家、优质板材。好的板材（如高TG FR-4）热膨胀系数低且均匀，温度变化时尺寸稳定。差的板材CTE高、不均匀，过回流焊时各层膨胀收缩程度不同，产生内应力导致翘曲。说白了，材料均匀性差、结合力不足，导致板子翘曲变形。
+
+另外，如果采购或同事不清楚这些，一定要重点提出来。最好出一份PCB工艺文件，把板材型号、TG值这些关键要求写清楚，就可以避免后面踩坑。
+
+03
+
+**两个案例，一个道理**
+
+这两个案例看似不相关，一个关于焊盘设计，一个关于板材质量，但背后反映的是同一个问题：**PCB设计里，细节决定成败，选对厂家同样重要。**  
+
+硬件设计本来就杂，从立项、设计、打样、调试到生产，任何一个环节都不能出错。很多小细节当时觉得无所谓，等测试不过的时候查起来真要命。这里分享出来，就是希望大家别再踩同样的坑。
+
+说到这里，就不得不提一下嘉立创了。在他家打样，几乎没操过什么心。他家价格公开透明，所有用户一视同仁，下单前就能看到多少钱，不用跟销售扯皮，光这一点就省了不少心。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/0o3ohHN0niaecALfN13XticQ33c9M3HSowgxBpibmJAzQlEKvvhN9zZWGB718KJSViatyomiaVzc3ANLIOMV9mbicqE5QNW6IKWEXxyOa5afFkMx4/640?wx_fmt=png&from=appmsg)
+
+图源：嘉立创官网
+
+普通板子，用的都是中国台湾南亚、建滔KB、生益、宏瑞兴这些大厂的FR4 A级板料。如果是4到32层的HDI高密度互连板，全部用生益S1000-2M（Tg170）的FR4板料。要是双面高频板（1oz铜厚），用的就是罗杰斯、铁氟龙这类高性能材料。
+
+而且嘉立创不只是板材用得好，他们的**多层板业务**现在也很成熟。下面具体说说：
+
+**层数选择多。** 嘉立创支持4层、6层、8层甚至更高层数的定制。不管你是做简单的4层板，还是复杂的32层HDI，都能接单生产。
+
+**盲埋孔是标配。** 很多板厂对盲埋孔要么做不了，要么加价很高。嘉立创这边盲埋孔是标准工艺，你在设计里用到的盲孔、埋孔，只要符合工艺规范，都能做出来。对于很多焊盘间距＜0.5mm的BGA封装、高密度走线的设计来说，这简直是刚需。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/0o3ohHN0niafE2WyzbAqENtcp968hhr3akwcUIcP2Oszr14VHJ6YX36HplY80rXaiadvbAS3U9EhdzCRnYRCtcpBN8D7vhsGI7g3rb7siaHzCM/640?wx_fmt=png&from=appmsg)
+
+图源：嘉立创官网
+
+**工程审核严格。** 你在嘉立创平台下单的时候，系统里会有详细的工艺参数让你填写，最后还会确认生产稿，每一个环节都把控得很严格，尽可能避免出错。就像案例一提到的，如果板厂有经验丰富的工作人员能多帮咱们看一眼设计，很多问题就能提前发现。
+
+### 写在最后
+
+PCB设计除了布局走线，也要考虑方便生产，工艺要求也同样重要。如果对PCB工艺要求不太清楚，可以去嘉立创官网看看——上面有很多工艺要求的介绍，包括板材选项、层数等许多图文并茂的工艺参数要求，可以作为一个参考。
+
+> 官网链接：https://www.jlc.com/portal/vtechnology.html
+
+**按照他们的工艺要求来设计**，顺便把打样、买器件、贴片一条龙都做了，挺方便的。设计阶段多了解一些信息，总比板子回来再返工强。
+
+今天的分享就到这里，咱们下期再见。

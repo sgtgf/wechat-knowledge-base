@@ -7,7 +7,7 @@
 
 在 C++ 中，long double 是标准浮点类型中精度最高的，如下表所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRETdLuoXm2ukkeicjDumic0KmTwFtVtzlCzPNicfw8tibiauun1CWibyj0whSZcOooLnQKVYkWWUoIQuOUOVDbETL0Q/640?wx_fmt=png&from=appmsg)
+![](C__中_假如long_double精度还不够_有什么办法吗__images/img_000_e13ef7814281.png)
 
 然而，如果 long double 的精度仍然不能满足你的需求，你可以考虑以下几种方法来提高数值计算的精度：
 
@@ -40,8 +40,8 @@
 
   
 
- ![](https://mmbiz.qpic.cn/sz_mmbiz_gif/eRETdLuoXm1hlcFzRLY8530oa5qlVg14Sp7ykiaiaeksse1OriavStBSZ3aOeSRibrictsMImSUmYpM8KlkR2oh16xA/640?wx_fmt=gif&from=appmsg)
+ ![](C__中_假如long_double精度还不够_有什么办法吗__images/img_001_5644ff9b6218.gif)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRETdLuoXm0F1TJuz7SHvpW1zgzV6ZIF0r5H99lwcz5CHLoNtLjOXfQpElKKhKEE3Eiapa05EFDfBlOlExx8iaOw/640?wx_fmt=jpeg&from=appmsg&random=0.07403834435997281&random=0.9548404603232596&random=0.104285335892905&random=0.6465628742284186&random=0.7114643948388735&random=0.39825419144728924&random=0.5036513307316739&random=0.24264210905518024&random=0.8403119589921406&random=0.004225922898027479)
+![](C__中_假如long_double精度还不够_有什么办法吗__images/img_002_9e8283dff97f.jpg)

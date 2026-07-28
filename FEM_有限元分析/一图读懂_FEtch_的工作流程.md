@@ -5,7 +5,7 @@
 
 为了充分减少用户的开发时间，FEtch 系统借助第三方前后处理器 GiD，全面实现了有限元程序开发、前处理、计算和后处理的一体化。让我们在这里一图以蔽之。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVWibJfPDL65wO1QAS82bSHx5ovjaYesiataRwI84wcckSxPvgHeiayqDZjUqKoOALibKicXn2MVh8mUMYw/640?wx_fmt=png&from=appmsg)添加图片注释，不超过 140 字（可选）
+![](一图读懂_FEtch_的工作流程_images/img_000_38020fd0753f.png)添加图片注释，不超过 140 字（可选）
 
   
 
@@ -28,7 +28,7 @@
 
 携手 FEtch，实现有限元程序的私人定制。Good luck !
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](一图读懂_FEtch_的工作流程_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

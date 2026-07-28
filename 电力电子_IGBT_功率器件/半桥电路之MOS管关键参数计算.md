@@ -1,0 +1,83 @@
+# 半桥电路之MOS管关键参数计算
+
+原创 硬件笔记本 硬件笔记本 2020-03-01 19:51 undefined
+
+> 原文地址: [https://mp.weixin.qq.com/s/KXdmKvSybY12oHs2lexlIw](https://mp.weixin.qq.com/s/KXdmKvSybY12oHs2lexlIw)
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tL7WxMmbDN9PhWZwkfEct1iacibwcgPKMvMuR6thb26UWh4kDmGdzM7ITqKrXsRnibED7I2WibWjhbsLA/640?wx_fmt=jpeg)
+
+MOS管选型需要满足几个要求：
+
+1.足够的漏-源电压 VDS
+
+2.足够的漏极电流 ID
+
+3.快速开关的能力和开通、关断延时 
+
+4.低的导通电阻Rds(on)
+
+例：如图，假设该电路输出功率为850W，负载8Ω，MOS管如何选型？
+
+1.Vds电压是多少？
+
+根据P=U\*U/R，得出输出的平均电压U=82V，这是平均值，需要转化成峰值电压Uo=√2\*U=116V。 又因为电源利用率为85%，所以Vp=Uo/85%=136V。Vn=-136V。所以Vds要大于136\*2=272V。
+
+2.ID如何计算？
+
+根据P=I\*I\*R，得出I=10.3A。
+
+所以MOS管的选型应Vds＞272V，ID＞10.3A。
+
+可初步选择仙童的FDAF59N30，主要指标如下
+
+1.漏-源电压 VDS=300V
+
+2.漏极电流 ID=34A
+
+3.上升时间ton=140ns
+
+4.关断时间toff=120ns
+
+5.电阻RDS(on) = 0.056Ω
+
+6.栅极电荷Q g =77nc
+
+从上述几大指标来看，该 MOS管的工作电压、电流均满足需求，在较短的开通和关断迟时间保证了系统的稳定性。
+
+  
+
+MOS管驱动如何选择？
+
+  
+
+可以通过计算得到MOS管在一个完整开关周期内所需要的功率Pg。计算公式为：
+
+Pg=Vgs\*Qg\*fsw，其中Vgs栅极驱动电压，fsw为开关频率。
+
+  
+
+FDAF59N30在栅极驱动电压为 12V，开关频率为200KHZ时的消耗功率为：
+
+Pg=12\*77\*10-9\*200\*103 =0.1848W
+
+  
+
+驱动需要提供的平均电流为： 
+
+I= Pg/ Vgs=15.4mA。
+
+  
+
+根据经验，在保证正常工作条件下FDAF59N30的典型开通和关断时间约为200ns，因此可以反推出驱动需要提供的瞬时电流为：
+
+Imax=Qg/t=77nc/200ns=385mA。
+
+  
+
+所以MOS管驱动需要需要提供的电流大于385mA。
+
+  
+
+因为这是高压MOS管，所以需要提供浮动栅极驱动能力。

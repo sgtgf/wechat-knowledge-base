@@ -8,15 +8,15 @@
 
 本文中我们引入一类新的正交分段多项式函数系-U系统，替代了传统的矩特征中的多项式基函数，构造了一类二维旋转不变U变换（Rotation-invariant U transform, RIUT）。前16个1次U-系统基函数的图像如图1所示，部分RIUT基函数如图1所示。基于U-系统的诸多特殊性质，RIUT能够有效地克服上述传统方法的缺点。最后，将RIUT应用于二值图像检索中，实验结果表明本文的方法比传统方法具有更高的检索精度。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeubwAwN6VdYtr9YuMFSUfRlEcYNUN5gjxhT3D3wvf4FdPRoodLZ6gew/0?wx_fmt=png)
+![](二维旋转不变U_变换及其应用_images/img_000_5249193d2990.png)
 
 图1 U-系统基函数（前16项）
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeprNTkca49RhWWBobBxafkjrq64icGVNVKCS5Hts6HshQK5RIiaenqShg/0?wx_fmt=png)
+![](二维旋转不变U_变换及其应用_images/img_001_fd09df652b69.png)
 
 图2 部分RIUT基函数
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeDeml69rlye0hbec89TENpo82lQm3MjRXXkJRydibuOuU4qT1uXntdhg/0?wx_fmt=png)
+![](二维旋转不变U_变换及其应用_images/img_002_c58ba8b7302a.png)
 
 引用格式
 
@@ -24,7 +24,7 @@
 
 作者简介
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeib3iaPMjQzmibJ1HOMCWJCMmleglzov0Ria9ckl1aFLE7MGALoK3GvTzbQ/0?wx_fmt=jpeg)
+![](二维旋转不变U_变换及其应用_images/img_003_c081644708d6.jpg)
 
 陈伟 江南大学数字媒体学院讲师.2013 年获得澳门科技大学理学博士学位. 主要研究方向为计算机图形学和图像处理. 
 
@@ -32,8 +32,8 @@ E-mail: wchen\_jdsm@163.com
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUebSLGz1hpP6WibDPLMAd2MwpBdpUrjvRkOibPb8ZschhtG07FM3Jdqe6A/0?wx_fmt=jpeg)
+![](二维旋转不变U_变换及其应用_images/img_004_fc87617cc136.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUenP4F0L8F21rwPWBmtJWpkLXXqoVibK77IPHa5KyvibeQTTic3wfR9MAFg/0?wx_fmt=jpeg)
+![](二维旋转不变U_变换及其应用_images/img_005_3e7d3dd74769.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45pNCyPsE5PEBK0ZiaYg2TUeiauOvP7NPYroWvlDiajVPfRt9jHSLNnVCa1HVgfTfZhkN3bxnxxEOqdA/0?wx_fmt=jpeg)
+![](二维旋转不变U_变换及其应用_images/img_006_0b2a907a25e8.jpg)

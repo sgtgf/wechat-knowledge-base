@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/EAF3rK4H-L5yFaGhUspDqw](https://mp.weixin.qq.com/s/EAF3rK4H-L5yFaGhUspDqw)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&randomid=kcffp75f&tp=webp#imgIndex=0)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_000_d723640d07f4.png)
 
 近年来，物理信息神经网络（Physics-Informed Neural Networks, PINN）成为计算科学与人工智能交叉领域的前沿方向。传统数值方法（如有限差分法、有限单元法）在高维、强非线性或反演问题中面临计算效率低、网格依赖性强等瓶颈。PINN通过将控制方程、边界条件等物理先验嵌入神经网络，以无网格方式实现微分方程求解，在流体力学、固体力学、传热学等领域展现出突破性潜力。其核心论文（引用超13,000次）开创了物理驱动深度学习的范式，成为Nature、CMAME等顶刊的研究热点。
 
@@ -29,17 +29,17 @@
 
 课程一、深度学习PINN大模型辅助编程+量子计算
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=fdc49wz1&tp=webp#imgIndex=1)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_001_d04cb1b94ca5.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=bu0puw3h&tp=webp#imgIndex=2)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_002_cd1a5243462f.png)
 
 课程目标
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=60kr6w3x&tp=webp#imgIndex=3)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_003_9631e3bffb9e.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=r877c3dd&tp=webp#imgIndex=4)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_004_224c8eceecb8.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&randomid=udwdmgkg&tp=webp#imgIndex=5)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_005_9c77a1431038.png)
 
 1\. 掌握PINN理论与传统数值方法的核心联系
 
@@ -77,11 +77,11 @@
 
 深度学习PINN大模型辅助编程****+量子计算****大纲
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=9z4cm0pn&tp=webp#imgIndex=6)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_006_092da616f314.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=xy8e9d7c&tp=webp#imgIndex=7)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_007_7d13a547cc1c.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&randomid=q9xe3l2h&tp=webp#imgIndex=8)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_008_7534fdceca57.png)
 
 Day 1 什么是微分方程（固体、流体、传热）？什么是有限差分法和有限单元法？和机器学习有什么联系？
 
@@ -181,7 +181,7 @@ Day 2 什么是深度学习？什么是物理数据双驱动神经网络PINN？
 
 从零开始构建一维谐振子物理信息神经网络（Physics-Informed Neural Networks, PINN）为核心目标，系统讲解如何将物理定律与深度学习结合，实现微分方程的高效求解与物理系统建模。课程从一维谐振子的动力学方程出发，剖析PINN的核心思想：通过神经网络隐式编码控制方程、初始/边界条件等物理约束，将微分方程求解转化为损失函数优化的机器学习问题。学习者将逐步掌握谐振子问题的数学建模方法，利用Python和深度学习框架（如PyTorch）搭建神经网络架构，设计融合数据驱动项与物理残差项（如运动方程残差）的复合损失函数，并通过自动微分技术计算高阶导数，实现从随机初始化到物理规律自洽的模型训练。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/VnGuFeumvdsfLbQCFiageFSsA826oH5WCA2BpSQbBsP8W0EmgLdBxGEGR3IthlzaPOwUxMAia3UkZ63lMWfePEmQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=35)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_009_3f975501b696.png)
 
 Day 3 PINN引用一万三论文详解+深度能量法+ PINN的python库Deep XDE讲解
 
@@ -235,7 +235,7 @@ PINN开山之作：Physics-informed neural networks: A deep learning framework f
 
 5.3 未来方向：优化算法、多保真度融合与物理机理模型
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/VnGuFeumvdsfLbQCFiageFSsA826oH5WCKkrFDzDmTN6ArQpibRbwrGgQIf3PwxP5qQlJEZhn4sOBJYWM1zXIhvQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=36)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_010_10e35e5d8efd.png)
 
 8\. 通过机器学习求解计算力学偏微分方程的能量方法：概念、实现和应用
 
@@ -331,7 +331,7 @@ PINN开山之作：Physics-informed neural networks: A deep learning framework f
 
 5.4 案例四（高维）：参数化PDE的快速求解
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/VnGuFeumvdsfLbQCFiageFSsA826oH5WCTus4Z8V3LlGYibzzpzvocFuUWFdQefv3Urv8ufCNFdLgVDerPnNQ01Q/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=37)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_011_270237ce2415.png)
 
 Day 4 PINN在流体力学中的应用 + Nature子刊详解
 
@@ -387,15 +387,15 @@ Day 4 PINN在流体力学中的应用 + Nature子刊详解
 
 5.3 案例三（反问题）：从稀疏数据中反演拉普拉斯方程源项
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/VnGuFeumvdsfLbQCFiageFSsA826oH5WCiac4nQTwwUlOPK9n8PoibhX4thzyIH93rSGgTm9qic89cNfW19MQvn9rw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=38)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_012_b3c52b4ffb06.png)
 
 11\. 物理信息网络求解不可压缩层流的深度学习问题
 
 近年来，基于物理的深度学习引起了人们对解决计算物理问题的极大兴趣，其基本概念是嵌入物理定律来约束/通知神经网络，需要更少的数据来训练可靠的模型。这可以通过将物理方程的残差纳入损失函数来实现。通过最小化损失函数，网络可以近似解。本文提出了一种用于流体动力学的物理信息神经网络（PINN）的混合变量方案，并将其应用于模拟低雷诺数下的稳态和瞬态层流。参数研究表明，混合变量方案可以提高PINN的可训练性和求解精度。还将所提出的PINN方法预测的速度场和压力场与参考数值解进行了比较。仿真结果表明，所提出的PINN在高精度流体流动模拟方面具有巨大的潜力。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/VnGuFeumvdsfLbQCFiageFSsA826oH5WCicIzxBspE6FaUjtiaVuaXl2Z2v3y4xC19A6r50w5QX0uO7Libyp69HjBg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=39)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_013_48ef3d3845e8.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/VnGuFeumvdsfLbQCFiageFSsA826oH5WCblpbojiatJBdZXoOdqYz06ejcnibcTspczQhhpzcCBSUEckR6TzZQpCQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=40)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_014_caa8e9b0803a.png)
 
 https://github.com/Raocp/PINN-laminar-flow/blob/master/PINN\_steady/SteadyFlowCylinder\_mixed.py
 
@@ -441,7 +441,7 @@ https://github.com/Raocp/PINN-laminar-flow/blob/master/PINN\_steady/SteadyFlowCy
 
 4.3 当前局限性与未来工作方向
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/VnGuFeumvdsfLbQCFiageFSsA826oH5WClbQejsH51QlVOxURU512ccITAAnXAmmkGoj7UDUxJJZJF3WxvmHsWg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=41)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_015_73359bf019a1.png)
 
 13\. 有限差分法转化为神经网络，nature 子刊精讲
 
@@ -459,7 +459,7 @@ Encoding physics to learn reaction–diffusion processes
 
 13.6. 方程发现与强泛化能力
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/VnGuFeumvdsfLbQCFiageFSsA826oH5WC02vEmicbHYvhpwia4PQKI7Fyso5SZZNocCF8sgiaP2OtTyw8sN5HxDNiag/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=42)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_016_4ecfbbb96a20.png)
 
 Day 5 PINN在固体力学中应用 + PINN的库SciANN讲解 + 大模型辅助编程
 
@@ -477,9 +477,9 @@ Day 5 PINN在固体力学中应用 + PINN的库SciANN讲解 + 大模型辅助编
 
 \- PINN框架：论文中PINN实现的核心思路与框架解读
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/VnGuFeumvdsfLbQCFiageFSsA826oH5WCfLN7LuobheToHBMQ8etkCyNGMjm3zz6UsCU215S1egumK4KN5skJVQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=43)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_017_194395ea06e8.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/VnGuFeumvdsfLbQCFiageFSsA826oH5WCTb9AZmcibAiaHIwqlJ5Kr0Mkem5GaxEhQCibOk4mFqVia9nKZkp1AicDwzw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=44)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_018_03f6bf72f28a.png)
 
 16\. Footing问题的逆问题求解
 
@@ -491,9 +491,9 @@ Day 5 PINN在固体力学中应用 + PINN的库SciANN讲解 + 大模型辅助编
 
 \- 代码复现与结果分析：代码实现与结果分析（数据集大小、高斯噪声的影响）
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/VnGuFeumvdsfLbQCFiageFSsA826oH5WCRRAwe8q84aCxxc1Ccib7utSdy6MR8zMQmEInib1RCiafFyuRsia7fC6U0g/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=45)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_019_7eccbf29b564.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/VnGuFeumvdsfLbQCFiageFSsA826oH5WCibsOzmrJ2mziaZtcSgCz9NYGibyPJiaiaicb0vlYevEyQlnkFPgicdCH5icM2g/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=46)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_020_2ba132ccd047.png)
 
 17\. JCP顶刊：混合能量法解决固体力学的应力集中问题
 
@@ -501,13 +501,13 @@ Day 5 PINN在固体力学中应用 + PINN的库SciANN讲解 + 大模型辅助编
 
 物理知情神经网络（PINN）的引入导致人们对深度神经网络作为固体力学界PDE的通用近似器的兴趣日益浓厚。最近，深能法（DEM）被提出。DEM基于能量最小化原理，与基于PDE残差的PINN相反。DEM的一个显著优点是，与基于强形式残差的公式相比，它需要对低阶导数进行近似。然而，DEM和经典PINN公式都难以解决应力场和位移场的精细特征，例如固体力学应用中的浓度特征。提出了对深能法（DEM）的扩展，以解决有限应变超弹性的这些特征。开发的称为混合深能法（mDEM）的框架引入了应力测量，作为最近引入的纯位移公式的NN的额外输出。使用这种方法，可以更准确地近似Neumann边界条件，并提高通常导致高浓度的空间特征的精度。为了使所提出的方法更加通用，我们引入了一种基于Delaunay积分的数值积分方案，该方案使mDEM框架能够用于具有应力集中的计算域（即具有孔、凹口等的域）通常需要的随机训练点位置集。我们强调了所提出方法的优点，同时展示了经典PINN和DEM公式的缺点。该方法在涉及具有精细几何特征和集中载荷的域的具有挑战性的计算实验的正向计算方面提供了与有限元法（FEM）相当的结果，但还为解决超弹性背景下的逆问题和参数估计提供了独特的能力。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/VnGuFeumvdsfLbQCFiageFSsA826oH5WCtTqyHWZMaqBsVQ1L0JFYo7et29DNaf3IVedmpicPzR765NwXymPCWOQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=47)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_021_be930c620812.png)
 
 18\. PINN库：SciANN讲解与实操
 
 SciANN是一个高级人工神经网络API，使用Keras和TensorFlow后端用Python编写。它的开发重点是实现不同网络架构的快速实验，并强调科学计算、基于物理的深度学习和反演。能够用几行代码开始深度学习是做好研究的关键。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/VnGuFeumvdsfLbQCFiageFSsA826oH5WCjjcT2CPUlU9cRkStfgzFeOvskmSXiccssYS2bJKzdI0Q23GJhZQYBKA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=48)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_022_ce99f65118c9.png)
 
 19\. DeepSeek、ChatGPT、Grok生成PINN代码解偏微分方程
 
@@ -545,21 +545,21 @@ SciANN是一个高级人工神经网络API，使用Keras和TensorFlow后端用Py
 
 深度学习PINN+大模型辅助编程老师
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=qpy1mifv&tp=webp#imgIndex=23)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_023_e90380b06ec9.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=obhrr3gb&tp=webp#imgIndex=24)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_024_6b88e9af0732.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&randomid=em7hv51p&tp=webp#imgIndex=25)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_025_6e5b49780067.png)
 
     讲师曾在香港和美国工作和学习，具有计算机和经典数值方法的双重教育背景，在中科院一区Top等计算力学顶刊CMAME以一作发表二十篇SCI论文，包括多篇PINN和传统数值主题的顶刊论文。
 
 前沿背景
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=xplv0ctv&tp=webp#imgIndex=3)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_026_0b0c273aaa21.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=e1504uiw&tp=webp#imgIndex=4)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_027_6b62261674c9.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&randomid=apm13jzv&tp=webp#imgIndex=0)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_028_c8929c0add47.png)
 
 近年来，深度学习技术在多个工程领域取得了显著突破，特别是在疲劳与断裂分析中的应用。传统的疲劳分析方法依赖于物理模型和实验数据，然而，随着结构复杂性的增加和多物理场交互的挑战，传统方法的计算成本和准确性已无法满足高精度要求。深度学习通过强大的数据处理和模式识别能力，能够有效地从大量复杂数据中提取特征，进而提供更高效、更精准的分析。特别是在疲劳寿命预测、裂纹检测与扩展、以及多物理场耦合分析等方面，深度学习展现了巨大的潜力，能够弥补传统方法的不足，提升工程分析的效率与可靠性。
 
@@ -569,17 +569,17 @@ SciANN是一个高级人工神经网络API，使用Keras和TensorFlow后端用Py
 
 课程二、深度学习助力材料疲劳与断裂应用研究
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=kkrpzcb6&tp=webp#imgIndex=1)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_029_b1a67621080e.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=a1jazjo4&tp=webp#imgIndex=2)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_030_6ef552db873d.png)
 
 教学概述
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=xplv0ctv&tp=webp#imgIndex=3)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_031_0b0c273aaa21.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=e1504uiw&tp=webp#imgIndex=4)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_032_6b62261674c9.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&randomid=nxvkgjxf&tp=webp#imgIndex=5)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_033_1bbf4a77ff23.png)
 
 随着航空航天、新能源、高速铁路等重大装备对材料服役性能要求的不断提升，金属材料的疲劳与断裂问题已成为制约结构安全性与寿命的关键瓶颈。传统基于物理模型的疲劳分析方法在面对复杂载荷、多场耦合及微观结构演化时，往往难以兼顾精度与效率。与此同时，深度学习技术在图像识别、时序预测等领域的突破，为解决上述难题提供了全新的研究范式。
 
@@ -591,11 +591,11 @@ SciANN是一个高级人工神经网络API，使用Keras和TensorFlow后端用Py
 
 课程定位
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=naqw3rzs&tp=webp#imgIndex=6)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_034_99147ae533e4.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=tb2fzx08&tp=webp#imgIndex=7)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_035_35d1e17c5ab8.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&randomid=nxvkgjxf&tp=webp#imgIndex=5)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_036_1bbf4a77ff23.png)
 
 适用对象：材料科学与工程、力学、机械工程、航空航天、船舶与海洋工程等相关专业的研究生，以及从事结构健康监测、寿命评估的科研人员与工程师。
 
@@ -605,11 +605,11 @@ SciANN是一个高级人工神经网络API，使用Keras和TensorFlow后端用Py
 
 教学方法
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=naqw3rzs&tp=webp#imgIndex=6)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_037_99147ae533e4.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=tb2fzx08&tp=webp#imgIndex=7)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_038_35d1e17c5ab8.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&randomid=nxvkgjxf&tp=webp#imgIndex=5)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_039_1bbf4a77ff23.png)
 
 本课程采用“四位一体”的教学模式，将理论深度、文献前沿、代码实现与工程案例有机融合。
 
@@ -623,11 +623,11 @@ SciANN是一个高级人工神经网络API，使用Keras和TensorFlow后端用Py
 
 课程目标
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=naqw3rzs&tp=webp#imgIndex=6)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_040_99147ae533e4.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=tb2fzx08&tp=webp#imgIndex=7)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_041_35d1e17c5ab8.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&randomid=08ncxlid&tp=webp#imgIndex=8)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_042_b609c1affaf2.png)
 
 1.理解核心原理：掌握金属疲劳断裂的经典力学理论（应力强度因子、Paris公式、Miner准则），理解CNN、LSTM、Transformer、PINN、GAN等深度学习模型处理力学数据的基本原理。
 
@@ -641,11 +641,11 @@ SciANN是一个高级人工神经网络API，使用Keras和TensorFlow后端用Py
 
 深度学习助力材料疲劳与断裂应用研究大纲
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=tmp6j9e5&tp=webp#imgIndex=10)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_043_5c44fd1a4575.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=v68i2fr5&tp=webp#imgIndex=11)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_044_d56fdfac2ba6.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&randomid=in1fdx8n&tp=webp#imgIndex=12)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_045_be0fed26c0ae.png)
 
 Day 1：深度学习基础与疲劳断裂力学理论
 
@@ -679,15 +679,15 @@ Day 1：深度学习基础与疲劳断裂力学理论
 
 （4）应用场景：裂纹尖端应力场重构、疲劳寿命外推、数据稀疏下的力学行为预测。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/5sO8dm8TZOAvgkDCEibsZB2er8aial6ibO9H32EeTZ6lYicH6yosStHfibfibBvgWoBuULn78MibJkvV7vT9r37nB7YL2BbzsBYT00hv1oiamIc1iaMs/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=18)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_046_d803d4ce2ba3.png)
 
 3.前沿拓展
 
 （1）探讨PINN框架在疲劳裂纹扩展预测中的实现细节与优势。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/5sO8dm8TZOC6G31JG1qdw7ck0qg079avxPicQIIUHNHJfJQlIvVOeKiaDeyOaO43I3FTCLqmkcEGVBumCFfmTT8KhOxnSbnCMnY9XicL5cvPk8/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=19)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_047_90dc948c8e96.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/5sO8dm8TZODoW4ouWNm2WeSo7dzHAgjjMtCPlEyv3qrbulybPlAZcxrJQ82nSb7giaicU3tuY1rI7bevq3v4Iu65UbqEGpMb53bJAGMSVTIUI/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=20)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_048_6f3f5f5b9e08.png)
 
 （2）DeepSeek应用：如何利用DeepSeek大模型辅助文献检索、代码生成与实验设计思路启发。
 
@@ -731,15 +731,15 @@ Python/PyTorch 代码生成：输入自然语言描述（如"构建一个三层�
 
 （4）缺陷主导的疲劳模型：Murakami模型（考虑夹杂物尺寸与位置）、El Haddad模型（短裂纹修正）、Kitagawa-Takahashi图。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOCQI5CEbYiaw54icK1icSK4IhDWPTZOKVmLNKbszUCFhFCv2O4I4UKgQpsn7Djv8DMqic2Yib661rviceu2gNdebhEpUEfpOYGds9QqU/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=21)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_049_6037a0c0fb75.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOBcckZicajF6wbpqmNTZKMibibAg5H5ibrJRaz4vyRsofj2W6dzKST0auef4rBZbNpiakGeWuT9bz90X418geEQe9sw2NMfrJAcIdAE/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=22)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_050_befced15b5ed.png)
 
 3.实践演练：Python实现概率疲劳寿命预测
 
 （1）数据集：使用公开的疲劳S-N数据（如来自NIMS疲劳数据 sheets）或模拟生成的Weibull分布数据。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOB1ibgbEXD12BwpQF3dA0ZGvzaibf5hjgiapcHicQ08GgyACVBLRIgdq7WUaZlHCpibuGrgOzTrqDcn4fq1xBibqbicO8zOB3pibM9icG7k/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=23)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_051_9860f7a65b9a.png)
 
 （2）任务：
 
@@ -751,9 +751,9 @@ Python/PyTorch 代码生成：输入自然语言描述（如"构建一个三层�
 
 ④文献关联：此实践为理解Chang等（2025）中基于机器学习的寿命预测与不确定性量化奠定基础。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOClgtw9cicD3vg0xqoJBiaQKDTZUbUkGcf2pNbr4OoZdSvrXvCHunptBRZSvFNaJrOkKticJ1Dib36HM1ibm9jmLWqetxliaxIfjqR9w/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=24)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_052_254a08972e96.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOBd6picEuE8yRNMRPictfQzMdt722WPMHIbLLEQnm4EumHtvct0uXnKViavOSQYjbyf1KWtf1icsb1q0bHF1Bwru5O6eAN4oajG4xA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=25)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_053_faf8beb59db2.png)
 
 4.Workbench仿真简介
 
@@ -785,13 +785,13 @@ Day 2：金属疲劳裂纹扩展与深度学习核心应用
 
 （4）跨尺度关联：基于微观机制的裂纹萌生寿命模型与宏观Paris法则的衔接。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/5sO8dm8TZOCWH2PaGuDDria05b4TStL6pFDbTkIBGEceo93ydqWXXEMJibSAkTNMEW6xY1HQmxlwMNWnEbxibqXXlT8oLABIicrNP2lo4lY6hMU/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=26)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_054_4686eff9ff74.png)
 
 2.智能裂纹检测与特征提取
 
 （1）数字图像相关（DIC）技术：原理、应变场计算、与深度学习结合的潜力。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOCJJKBicwSXnuTCUUDlUqnt0XAMBJlVRQLHQIfNvk204qmIFfkY1HXSQBYbSLglIHlJTe5IcwR50GO0vKn1WMXUZq1JvIchhfE4/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=27)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_055_c1cd252f53c0.png)
 
 （2）深度学习在裂纹图像分析中的应用：
 
@@ -817,9 +817,9 @@ Day 2：金属疲劳裂纹扩展与深度学习核心应用
 
 ④可视化分割结果，分析模型对微小裂纹的识别能力。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOBTn48MXoE7C4TxfB9DDFRkYicuN12yUGyeYa9TTAPYCRRM7Nv9N6mhpjd58pgcl8jTdNfRwBRjTLvQSBWBUH8RQgI7kkQUsiaFs/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=28)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_056_ed5792f901c5.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/5sO8dm8TZOCWCQtGHMWIChPibTVdBaGA3Dc5BVlMhiaAic73yiaUwwGVc2pkiaGibRgoEJPr3jGHTW5SFe0uqb8uECsugnSoTeJfQDMmBsNicKzXSE/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=29)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_057_530f56a53f3d.png)
 
 4.前沿拓展：基于监测数据的裂纹量化，探讨如何从应变传感器数据中反演裂纹深度与长度
 
@@ -839,9 +839,9 @@ Day 2：金属疲劳裂纹扩展与深度学习核心应用
 
 ③图神经网络（GNN）：处理材料微观结构的图表示（晶粒为节点，晶界为边）。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/5sO8dm8TZODl69TVjM3librmRc3GyCB6nBVLFqmZxfIWB0GyHpsAtwicca7PV2PfDMkWX7TC9ib5Q0WuVOESeaGT2FHSQA8vjQk5KQcuD6GG1o/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=30)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_058_4ef61b051469.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOCZjKiaxRA3wLd7szdPicSgk3SrTiaIBzXajucJqBMheIR9UO5P7CztzpRqlsZWG6en6HlSfcSyVjvuVA0l66fBYcSaHxZic9ZTYcs/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=31)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_059_7b71fa5665d4.png)
 
 （3）多轴疲劳预测：利用深度学习处理复杂应力状态
 
@@ -859,7 +859,7 @@ Day 2：金属疲劳裂纹扩展与深度学习核心应用
 
 （1）数据集：使用疲劳裂纹扩展实验数据（如铝合金2024-T3的a-N曲线），或从文献中提取数据。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZODtoD4MxP14AO0NfRtCsKFj28Iib0bQuxIQPA40s3ZCqEWprZ0ic5YE7BLl1gfXibuOYWZSFNoUTCQLibaBhplD6vj4iaPFQrfbbt2w/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=32)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_060_6806bf216df0.png)
 
 （2）任务：
 
@@ -873,7 +873,7 @@ Day 2：金属疲劳裂纹扩展与深度学习核心应用
 
 4.前沿拓展：大规模疲劳数据集，讨论在模型预训练与基准测试中的价值
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/5sO8dm8TZODtibWE5HnnKBayNXDRIXKRsNHaFGfgJ8V7GY8EJeIAHVM9lrwgBfZYBfhABavnsw8zryZibNQ5EibQppP1BMNuKUqyE6fAc8IwYA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=33)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_061_545c0625a6dc.png)
 
 Day 3：深度学习的工程应用
 
@@ -883,7 +883,7 @@ Day 3：深度学习的工程应用
 
 教学目标：深入理解深度学习在航空结构疲劳分析中的具体应用，掌握多尺度分析框架与超分辨率重建技术，能结合有限元与深度学习构建应力场预测代理模型。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/5sO8dm8TZODWXl2CP6pL7pldZJ3ib4sUghv5SatuF4X700nTXGWbNnjNZHeacPwsxSr8Y4zlXvrjF2Cx7fibv68ZIFsCzlInbdVh9kqdgF8xI/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=34)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_062_e5db32192a0a.png)
 
 1.飞机蒙皮裂纹多尺度分析框架
 
@@ -893,7 +893,7 @@ Day 3：深度学习的工程应用
 
 （3）数据融合：整合微观组织图像、宏观载荷谱、有限元仿真数据为模型多源输入。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/5sO8dm8TZODX37ibkvibZaGhLUGKRYEdeOcPhA1cH9qxM15k1lV1XQqsWv7tUEtTTvHqiaKzz3BPSHeuLX0pfFiczeibibygiaf2j6E3ED6VNYEicDI/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=35)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_063_6b85dd1e6d5f.png)
 
 2.超分辨率重建技术在裂纹检测中的应用
 
@@ -905,7 +905,7 @@ Day 3：深度学习的工程应用
 
 3.裂纹尖端应力场预测与分析
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/5sO8dm8TZOCJTptSznplqs2SDuLuLfnFZ5qlicmFuJ77EniaoQAHmI3oCpGDOQcdNOBHo38Z628f7icfNUA75Xf64PpGs6wO413gWZcB37ckfg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=36)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_064_7ba8ee1f5bf9.png)
 
 （1）有限元-深度学习融合思路：以有限元仿真数据为训练集，构建 CNN/ANN 代理模型快速预测应力强度因子。
 
@@ -921,7 +921,7 @@ Day 3：深度学习的工程应用
 
 （3）验证方法：结合台架试验数据，采用MAE、RMSE、R² 等指标评估模型预测精度。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOAsASLdUtKSxJINpX370fLvBZv4fWulDb9vgVomXUcDsRS0GlGSwIfnBobJrb2vF28WjT6BogYqOvfGw3jJ9HgL9tcNjgDjf5o/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=37)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_065_81348c7b8fd9.png)
 
 （二）新能源装备疲劳分析
 
@@ -929,11 +929,11 @@ Day 3：深度学习的工程应用
 
 1.风电主轴承疲劳分析与寿命预测
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/5sO8dm8TZOBU1N3qNu1g1iaZRuvwoDrcBtViaR8JDiah5UiaWWvS9gR6UGDiaGUIlrVn4pXSJ9WN0pzOwztXJyN7TeomtfmKjStoor3wbNPJ3Hg4/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=38)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_066_8be5770f7d15.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOBVVGLrfeNkp4FMcaibTRprIJlPYqB9J2JaZicb31iaI0HicIpDnjTPzxiausHOUkibXywOm8NZWhQQqypJaxyjaZnpKcrxvt3Kv92Kk/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=39)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_067_d8f3b014b8fb.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/5sO8dm8TZOD11NJTTaDwBStWiaiaOEPb3Mya2Dmoicsy4iaGPkXqQdDFUvfZibGXpsfic4YKaNr3Qbrsnt6f4rjz7YjJVaYXKk8koWt5fGBws97mc/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=40)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_068_3307a301b8cf.png)
 
 （1）风电装备失效特征：风机主轴轴承、塔筒法兰的疲劳失效模式，风载随机性带来的载荷谱非平稳特性。
 
@@ -961,7 +961,7 @@ Day 3：深度学习的工程应用
 
 （2）深度学习应用：基于 YOLO 的桥梁表面裂纹定位、基于 LSTM 的桥梁裂纹扩展趋势预测。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOC0RY8Mq2SfHSajANzunG8y314ExZ87yDMia3Xu3vkWE5Bfaq3xTsBTxLzdGPkPErAqedu7icyEJsicRreib6JY2CXP9BqExI0qRQk/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=41)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_069_68fb5187b407.png)
 
 4.载荷谱分析与多物理场耦合模型
 
@@ -971,7 +971,7 @@ Day 3：深度学习的工程应用
 
 （3）在线更新策略：结合实时监测数据，实现深度学习模型的增量训练与疲劳寿命的动态更新。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOBVwib3h9oCqUgLlqjwQlMEZicgiaRaoLWsQF70ibqqrn2dkKJXXkfb593xMpRaVK3m5dUmSAWQCCccpw9yYrBpZIsbcHFj7xsItgQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=42)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_070_f964d41cedbf.png)
 
 5.实践演练：PyTorch实现风电主轴轴承寿命预测
 
@@ -987,7 +987,7 @@ Day 3：深度学习的工程应用
 
 ④模型轻量化：通过剪枝、量化实现模型压缩，为工程落地做准备。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/5sO8dm8TZOBibCeQicicNrJ6LpBpNtLJM4klSOnaqI6xibgnC5KiaP7vibyQU6o132JEYx0ZL1ibQNe6uMFaq2ZiblggkPKdI9emt3ZzuDNuKRUxacU/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=43)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_071_1252d67b071d.png)
 
 6.实践演练2：简易PINN实现塔筒裂纹应力场预测
 
@@ -1001,9 +1001,9 @@ Day 3：深度学习的工程应用
 
 ③训练模型并对比：有无物理约束下模型对未见过的裂纹工况的应力场预测精度。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/5sO8dm8TZOCck2yANwg6R4b4eEEh5A11ibmFRdu6icpKMiaibqSd3IiaPVe3cP6GicboWkeESib8C0cbNEc2MMj5qvNDu0YEwUQLx6tVb3pLfBLdXw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=44)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_072_f0458375f2df.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOCw5WicfKhk7vAF030K4vRfywLzIofKntSZYpzWXic23DCr4gwp2OUQSkcmQ546Hk6w1QicibDQTYgiajdxTqArGF1iaBG8VQULpUa1c/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=45)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_073_00f8f8464c64.png)
 
 Day 4：先进材料与复杂环境下的疲劳分析
 
@@ -1035,7 +1035,7 @@ Day 4：先进材料与复杂环境下的疲劳分析
 
 3.迁移学习在腐蚀疲劳分析中的应用
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZODUOZeibAlib5juEonlG3YSlZ8G4UPIKlzRpcUvaib8ZfmAVneo3r5o7slmhZsZEficcPIL9C73DQDhcsMH10udsEmzIE5xBdKW4Qc/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=46)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_074_1b9eed7ec1c9.png)
 
 （1）迁移学习适用场景：不同腐蚀介质（实验室盐水→实际海水）、不同材料牌号、不同载荷条件下的疲劳数据稀缺问题。
 
@@ -1073,7 +1073,7 @@ Day 4：先进材料与复杂环境下的疲劳分析
 
 （1）应变图像获取：数字图像相关（DIC）技术采集复合材料疲劳过程中的表面应变分配图。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOAFGgPUPvk80jwHIWz05IcpiaibhfRu2POEflDBIkYq2VMSvwAiaKwMj7HoU4Ds79x7uAs90PmIHQxThBA2mMbaYs0ia8ZvgCGibxK0/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=47)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_075_7a4882715841.png)
 
 （2）CNN特征提取流程：
 
@@ -1101,7 +1101,7 @@ Day 4：先进材料与复杂环境下的疲劳分析
 
 （3）模型泛化：采用交叉验证，验证模型对不同铺层、不同环境条件的复合材料疲劳寿命预测能力。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/5sO8dm8TZOBFr78rUGS7iclFwXorGHKnfJSp78cn0Jqn152IDficIJbia4kibhLbPqibUcVib2WvvZYNsQDybIbE32KZ8mGz8nMSDCadIcd1iadLI4/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=48)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_076_12b362593b39.png)
 
 5.实践演练：Keras构建复合材料疲劳寿命预测模型
 
@@ -1115,7 +1115,7 @@ Day 4：先进材料与复杂环境下的疲劳分析
 
 ③训练模型并对比：有无物理约束、有无图像特征时的模型预测性能。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/5sO8dm8TZOBw2H7QKTohYGoibrntt95zpGeSmM1BXCTBicug44ics8VKMx49oLNS1R89AcrlAY5a02xC5EiakdOgJX0Lpsp1tibMatWQZpy5TRwY/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=49)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_077_4cafae19b3ba.png)
 
 Day5：极端环境与多尺度疲劳分析
 
@@ -1149,7 +1149,7 @@ Day5：极端环境与多尺度疲劳分析
 
 多模态融合：LLM 作为多模态推理的核心，将文本（文献知识）、图像（微观组织、断口形貌）、表格（疲劳数据）统一建模，实现跨模态的疲劳寿命预测与失效分析。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOD35nN9enSqd6CToq70vdJmvrudsuibKSV851hKMcWsPYcDqK7PYKlibSJVyv7j19Ahvzoccbicicjh2OmEXUIaibRicqstAl2OLC3l4/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=50)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_078_88d29dc19b9c.png)
 
 4.蠕变金属材料的多尺度损伤分析方法
 
@@ -1173,7 +1173,7 @@ Day5：极端环境与多尺度疲劳分析
 
 用神经网络替代微观尺度的晶体塑性有限元（CPFEM）。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/5sO8dm8TZOCFeIENWKwXrxCVBt3ibUlZ3Dibdnbk21byjBEBeEAD4zpqsgY5DibzH2JYk75n32WIbDQqpXrQViaNLWlgPLYAfy38H9NYzwg4VZ0/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=51)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_079_622671269cf9.png)
 
 （3）案例：基于深度学习的材料微观结构-宏观性能关系预测。
 
@@ -1213,7 +1213,7 @@ Day5：极端环境与多尺度疲劳分析
 
 某型涡轮盘材料为镍基高温合金，承受复杂的循环热-力载荷，需评估其低循环疲劳寿命。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOCH9HczpFiay6IbONZ3VCy3ticjmX4pkBTUXUTytP5sf8ic0CQKmMcTdIwXQAV2Sb40VxoIobuGnu8Dk59A9UzStaV8fgpRItfIUQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=52)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_080_45e73ff36e70.png)
 
 2.任务
 
@@ -1227,27 +1227,27 @@ Day5：极端环境与多尺度疲劳分析
 
 深度学习助力材料疲劳与断裂应用老师
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=pd1eu9nk&tp=webp#imgIndex=23)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_081_36f487d0702f.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=gzj96hlt&tp=webp#imgIndex=24)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_082_ed3f41e6f7e2.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&randomid=836jmbqx&tp=webp#imgIndex=25)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_083_be7e85225bcd.png)
 
 本课程由长期从事材料疲劳与断裂研究的教师团队授课。主讲教师在疲劳寿命评估、裂纹扩展行为、断裂机理分析与结构健康监测等方向具有系统研究积累，形成了“机理建模—数据驱动—工程验证”相结合的研究路径。近年来，团队围绕人工智能赋能材料疲劳与断裂分析开展持续研究，在《International Journal of Fatigue》《Engineering Fracture Mechanics》《Theoretical and Applied Fracture Mechanics》等行业相关期刊上持续发表学术成果，研究内容面向航空航天、能源装备与高端制造等应用场景。课程将基于上述研究基础，采用理论讲授、文献解读与案例实践相结合的方式，帮助学员建立可迁移的学术与工程分析能力。
 
 课程三、深度学习在岩土工程中的应用与实践
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&tp=webp#imgIndex=1)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_084_e6ca8355ba46.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&tp=webp#imgIndex=2)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_085_554f9aec0e46.png)
 
 前言背景
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&tp=webp#imgIndex=3)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_086_c880ac7786c1.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&tp=webp#imgIndex=4)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_087_bb5e4b6a833f.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=0)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_088_956ee80c8b7a.png)
 
 近年来，人工智能技术快速发展，机器学习、深度学习等方法已广泛应用于图像识别、自然语言处理和科学计算等领域。在岩土工程领域，随着勘察、监测和试验数据的持续积累，利用人工智能技术挖掘数据价值、提升工程分析效率和预测精度，已成为学术研究与工程实践的重要发展方向。
 
@@ -1257,11 +1257,11 @@ Day5：极端环境与多尺度疲劳分析
 
 课程目标
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&tp=webp#imgIndex=3)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_089_c880ac7786c1.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&tp=webp#imgIndex=4)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_090_bb5e4b6a833f.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=5)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_091_7e5d959320e4.png)
 
 1.1理解人工智能与深度学习基础理论
 
@@ -1297,11 +1297,11 @@ Day5：极端环境与多尺度疲劳分析
 
 深度学习在岩土工程中的应用与实践大纲
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&tp=webp#imgIndex=6)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_092_1f75a6033ab3.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&tp=webp#imgIndex=7)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_093_0352a45617ef.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=8)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_094_9fc34cfa5b29.png)
 
 Day1 岩土工程中的基本物理模型及工程问题&Python环境配置与编程基础
 
@@ -1485,33 +1485,33 @@ Day5 论文复现与基于Agent的智能科研实践&结课项目展示与讨论
 
 课程案例图
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&tp=webp#imgIndex=9)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_095_4ea94f9fcb46.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&tp=webp#imgIndex=10)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_096_05f05f68ac89.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=11)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_097_e58f9975bb83.png)
 
 **岩土工程中的基本物理模型及工程问题**
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/dpoWBibUjroRic1I8LXJkFMSQcaiclpk8RAiaj72icWW1bVzJpyssgxzhNSfRa8cA0ibULr8zNc48tRjMfiaZMrzhB0YQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=12)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_098_7b25650415bd.other)
 
 图1 实测值在Robertson经验公式图中的分布（注：空心点指，实心点指）
 
 **Python基础**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/dpoWBibUjroRic1I8LXJkFMSQcaiclpk8RAzEUx5x4c2ibXeUiaflYOIx7icLgN6icCMyKibEj1Syg60WicJ0q5Y0NJlC3Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=13)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_099_9dce20ecd619.other)
 
 **深度学习基础**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/dpoWBibUjroRic1I8LXJkFMSQcaiclpk8RAybtmoKqhOBgur3XVyXRqkWicLMOmWnsLgI7SY2jmNke5oSomK7GlpGA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=14)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_100_6ee89382cfac.other)
 
 图3 回归任务示例
 
 **TensorFlow及PyTorch框架介绍与应用**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/dpoWBibUjroRic1I8LXJkFMSQcaiclpk8RAlyGLw2UKMoriab64Jek3FSm1PyQIicgc6n8fETVSibgSFUeURjGbNjZ4A/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=15)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_101_1833f58afe4c.other)
 
 （a）训练集混淆矩阵 （b）测试集混淆矩阵
 
@@ -1519,55 +1519,55 @@ Day5 论文复现与基于Agent的智能科研实践&结课项目展示与讨论
 
 **岩土工程数据集的获取与数据预处理**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOAS1iafhRRiaC9KX3tJXZhYR8HAnxjVqMnSknCCQlcsoAEBIjwet2q5m2oTqaREPAViaeNrrjDaL3VyibmqTHUUXqVDx24lnYJE8KA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=16)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_102_56018a412372.png)
 
 图5 用于特征重要性分析的XGBoost模型的决策树结构图
 
 **深度学习模型的训练与调优**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/dpoWBibUjroRic1I8LXJkFMSQcaiclpk8RATibaiabicbGiav3LclkiabQia8HicmCP5ib5WHibNspXzEKiabtVgcyE9Qp6NbOw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=17)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_103_1f23f165966f.other)
 
 图6 贝叶斯优化XGBoost超参数的迭代图
 
 CNN、RNN、LSTM的岩土工程应用
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOA8LakHnibxdjTAKjC3sbakhkhzeMQTxO782bCqctlNFbBrvo7IK2H7qO5KTdf6zMG3VodNho9ZV6XvAibrG3B19p8fzBQO0rRHY/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=18)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_104_95ca7c2cdb55.png)
 
 图7 CNN岩芯图像识别结果  
 
 数据驱动、物理驱动与大模型驱动智能岩土分析
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZOBKfx6EMf2JrU9sdaDJaSTUynEhQ91P84CgB0PU23WsNfiavKColvBn7IavgbB6w8f2R6eOXzDicIu8H4OmiaLK6P1Sz7X2jYr1lA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=19)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_105_76e5a611ccf2.png)
 
 图8课程技术路线图
 
 论文复现与基于Agent的智能科研实践
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZODb6tr9NcUvy2DayaREaUbjOtSxU0TlmCY497eS2Mcgb51f9a1cMcoGE8BIZQ3nysJjBU4MicV5wUmibbHiacJ7TwyUUSsWzhN3X8/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=20)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_106_fc1bf890558d.png)
 
 图9 蒙特卡洛模拟评估指标概率密度
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5sO8dm8TZODG1DhZ67F1yKk1XeaQ4uDaP8CWjRsJsqcaHBSmrTickZ97o0uibS26QMK9fz5DDTOsYUXtkWL5ica1kaqWDKHbicwnGItjbuGZO6Y/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=21)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_107_ff178a156bf4.png)
 
 图10 机器学习算法融合预测模型结构简化示意图
 
 岩土工程老师
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&tp=webp#imgIndex=19)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_108_19f467d4bbbf.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&tp=webp#imgIndex=20)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_109_53103807ef4d.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp#imgIndex=21)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_110_76dd2a5ae9e5.png)
 
 主讲老师来自国家重点实验室，发表多篇EI、北大核心论文，多次使用AI撰写核心论文和发明专利经验，拥有多次AI培训讲座经验和UBC海外访学经验。
 
 授课时间
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=o92sq64c&tp=webp#imgIndex=87)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_111_88bd227a271c.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=ns3t8x3d&tp=webp#imgIndex=88)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_112_73a3f2db2c64.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&randomid=grhopygt&tp=webp#imgIndex=89)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_113_1e599be28b35.png)
 
 深度学习PINN大模型辅助编程+量子计算
 
@@ -1609,11 +1609,11 @@ CNN、RNN、LSTM的岩土工程应用
 
 课程费用
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=hcpgqode&tp=webp#imgIndex=90)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_114_e8c88e7f6ecd.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=oz0qwu17&tp=webp#imgIndex=91)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_115_ca491d49f950.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&randomid=9uhvm39k&tp=webp#imgIndex=92)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_116_6e185c455d41.png)
 
 **柔性传感器与人工智能/**深度学习助力材料疲劳与断裂应用研究/深度学习PINN大模型辅助编程+量子计算/**深度学习在岩土工程中的应用与实践**
 
@@ -1651,7 +1651,7 @@ CNN、RNN、LSTM的岩土工程应用
 
 课程培训福利
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&randomid=55mp3pt8&tp=webp#imgIndex=95)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_117_323d50575f67.png)
 
 课后学习完毕提供全程录像视频回放，针对与培训课程内容 进行长期答疑，微信解疑群永不解散，参加本次课程的学员可免费再参加一次本单位后期组织的相同的 专题培训班（任意一期都可以）
 
@@ -1667,21 +1667,21 @@ CNN、RNN、LSTM的岩土工程应用
 
 课程授课方式
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=6npmuc70&tp=webp#imgIndex=96)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_118_4f94a8749300.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=o4amxqzv&tp=webp#imgIndex=97)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_119_60b7b2cf1daa.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&randomid=0utm5mv6&tp=webp#imgIndex=98)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_120_a47f1fcc0f3b.png)
 
 授课方式：通过腾讯会议线上直播，从零基础开始讲解，电子PPT和教程＋预习视频提前发送给学员，所有培训使用软件都会发送给学员，附赠安装教程和指导安装，培训采取开麦共享屏幕和微信群解疑，学员和老师交流、学员与学员交流，培训完毕后老师针对与培训内容长期解疑，培训群不解散，往期培训学员对于培训质量和授课方式一致评价极高
 
 课程咨询报名联系方式
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=ig5lunvt&tp=webp#imgIndex=99)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_121_e38605810942.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=4pdhphy9&tp=webp#imgIndex=100)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_122_bd3fd6040c3f.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/VnGuFeumvdsKVr1HkR1MtsDFcgIze9jz8IKGU5F45KY0N8w4Vaj8JiavqhDgvibmyWX0ZL51PEVQLkWQtdgrNLBw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&randomid=mzr4co5l&tp=webp#imgIndex=101)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_123_093c313d989a.jpg)
 
 联系人：刘老师
 
@@ -1689,12 +1689,12 @@ CNN、RNN、LSTM的岩土工程应用
 
 近期学员好评
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Xib8FL5j0jrak09KPrMzxJEw3C7OD0WXeXnQOZcBSYS9o2kyHgdpicHq5p3Js0iahdg5PNalAqG1kFpNcc3A2GPlQ/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=xkg9wvnl&tp=webp#imgIndex=102)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_124_5fd6b512b818.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/xJRrKHU3wOUjjjloPJF0GxK5NXdI5GbspdUuSRRknY2Wr3000MTnVklXGQEHuBgXPjZjG6CzKVtgFW8XS8SkWg/640?wxfrom=5&wx_lazy=1&wx_co=1&randomid=el5rvi4h&tp=webp#imgIndex=103)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_125_bd0fb57751d7.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/QkjvmbC1CD0zJ9hBlrElSv4ZqETGn3otgH8VHW1QuoOec3JMAbUyr0iaurJy4DPHBwUsDXiadJ3aha4CvJwyYVew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&randomid=tmh9dhuu&tp=webp#imgIndex=104)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_126_b27af6c4ba13.png)
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/VnGuFeumvdupwhJiaKd3oX9rCfx8UKYSpxKXzeE0lGR2bg8fxUScEDib7quh56Tu8UNApiblJjpJco0RicEicqJwm7g/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&randomid=bbo6hg1y&tp=webp#imgIndex=105)
+![图片](颠覆性突破_DeepSeek大模型与有限元分析强强联合_95后女博士连发三篇国际顶刊_引领技术革命__images/img_127_52a5a47a98a6.png)

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/pvi8fxXemEu1\_wV69ecpFw](https://mp.weixin.qq.com/s/pvi8fxXemEu1_wV69ecpFw)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVV7lhk5keKTH584d9LVl2Wct8aUZgIddlKBXKibUuIxM7zOljYuZvOibfMnHZzVicKY0a5icc3vsP83kA/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](Submodule子模块_Fortran模块化编程的新利器_images/img_000_0b14d0f04534.gif)
 
 在现代软件开发中，模块化（modularity）是提高代码可读性、可维护性和复用性的关键。Fortran 作为一门历史悠久但持续演进的科学计算语言，在 Fortran 2008 标准中引入了一项重要特性——Submodule（子模块）。这一机制极大地增强了 Fortran 的模块化能力，尤其在大型项目中能显著提升编译效率与封装性。本文将结合具体算例，深入浅出地介绍 Submodule 的设计动机、语法结构、使用场景及其优势。
 
@@ -173,12 +173,12 @@ Submodule 是 Fortran 2008 带来的革命性特性之一，它不仅解决了�
 
 ‍
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.2312854885901674)
+![](Submodule子模块_Fortran模块化编程的新利器_images/img_001_d8aae6d6bc0e.png)
 
 **给我一组控制方程，还你一套专业软件。**我们长期从事多场耦合有限元算法和软件的研发工作，掌握全流程的 CAE 软件开发技能。如果您需要相关的技术服务，非常欢迎私信交流和扫码咨询。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUiaBXZVo6l0B8M1jCa328awtQ1MFgKXLbF5QKRRbE8zuZqwdfFsLeoRtrCuPhTSQY0t2zictECdFmA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](Submodule子模块_Fortran模块化编程的新利器_images/img_002_18b5c0701c85.png)
 
-**喜欢****作者******，请点********赞********和在看******![](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6459285066781566&random=0.9039664113437702&random=0.10616299980642463&random=0.37943585876598473&random=0.7246305284075434&random=0.1820491079508062&random=0.3136645327514245&random=0.8290227030922905&tp=webp)**
+**喜欢****作者******，请点********赞********和在看******![](Submodule子模块_Fortran模块化编程的新利器_images/img_003_2ab55b5e37e9.gif)**
 
-**![](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.90499299240585&random=0.7427014598159356&random=0.6203706698189717&random=0.17266143983420013&random=0.4502076552242009&random=0.3348111146987862&random=0.5857982594073723&random=0.5924137199896844&tp=webp)**
+**![](Submodule子模块_Fortran模块化编程的新利器_images/img_004_0dc7b9b79564.gif)**

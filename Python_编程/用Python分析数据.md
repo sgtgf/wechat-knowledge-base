@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/y\_UAWklZNyuacc4w7MY-1g](https://mp.weixin.qq.com/s/y_UAWklZNyuacc4w7MY-1g)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/PmF09xO8IzvdDvnA7pW773fNgpEPX40K0xriasxBM3K46hAIuvhNne8h8EKIYGQvAPZlrTQbLHia3aVH2bBLBudA/640?wx_fmt=gif&from=appmsg)
+![](用Python分析数据_images/img_000_c6739c38789a.gif)
 
 你知道吗？Python代码也能跑得贼快！虽然大家都说Python是”慢语言”，但掌握一些性能优化的小技巧，就能让代码提速好几倍。今天咱们就一起来探索几个Python性能优化的黑科技，让你的代码也能像装了氮气一样飞起来~
 
@@ -210,4 +210,4 @@ map、filter这些内置函数也是性能小能手，用它们处理大量数�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/PmF09xO8IzvdDvnA7pW773fNgpEPX40KFLX4z664ohVYLtpNvFfNXMoSgPzYsbKNbibHIgcGnxpQkYJl0PWxMdg/640?wx_fmt=gif&from=appmsg)
+![](用Python分析数据_images/img_001_417757d09258.gif)

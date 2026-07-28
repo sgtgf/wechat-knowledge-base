@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/K0PVMSj2e4Yh9s4T2px-\_w](https://mp.weixin.qq.com/s/K0PVMSj2e4Yh9s4T2px-_w)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWPaTI5ib9rlIAT9XLOVTG09RKyDJUtax4xHXicOuhhn3tc9GLibAH0xOVytfovJa6WhicCg8QyKibCqtQ/640?wx_fmt=jpeg&from=appmsg)
+![](Fortran与OpenMP___Sections指令解析_images/img_000_b98bb3d66472.jpg)
 
 在现代计算中，并行编程已经成为提高程序性能的关键技术之一。OpenMP 是一种广泛使用的并行编程模型，它通过一组编译器指令（即 pragmas）来简化多线程并行程序的开发。对于使用 Fortran 进行科学计算和数值模拟的开发者来说，掌握 OpenMP 可以极大地提升代码的执行效率。本文将重点介绍 OpenMP 中的 `sections` 指令，这是一个非常有用的构造，可以让你轻松地将程序的不同部分分配给多个线程执行，从而实现并行加速。
 
@@ -25,7 +25,7 @@
 
 `parallel sections` 指令会启动一个并行区域。如果在这个区域内定义多个 `section`，每个 `section` 都会被分配给一个线程执行。当所有 `section` 完成后，线程会同步，确保所有指定的任务都已完成。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXvqP4eibk5PcMsTUBvmjAhBuyN3Fu05DVg5s9mtvx85JCk9gGy2Xwya9REhc8mqeAtEAZqJ5SKExA/640?wx_fmt=png&from=appmsg)
+![](Fortran与OpenMP___Sections指令解析_images/img_001_2b258c0eb34e.png)
 
 一个程序中可以定义多个 `sections` 结构。同一个 `sections` 中 `section` 之间处于并行状态，而`sections` 与其他 `sections` 之间处于串行状态。
 
@@ -90,10 +90,10 @@ Fortran与OpenMP | Do指令解析
 
 # 推荐阅读
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.5525099211882534&random=0.9864757539671867&random=0.7575622890331561&random=0.6526959208642249&random=0.3992112753232937)
+![](Fortran与OpenMP___Sections指令解析_images/img_002_a4233b93b256.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 
 有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWPaTI5ib9rlIAT9XLOVTG09BZRqrD4BaTJiaPIJeovJzsbDpxNxPQ3yj9KMlhFhic6oLWeHhC2ScGNQ/640?wx_fmt=jpeg&from=appmsg)
+![](Fortran与OpenMP___Sections指令解析_images/img_003_47795bb5a0db.jpg)

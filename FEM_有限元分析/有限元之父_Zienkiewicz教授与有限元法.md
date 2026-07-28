@@ -7,7 +7,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz/pIvrzIWmlO0IovgEibxFSubsnKPBGD8jk6GYWHBr6kuz9YMZlPBrxVAX2lNwSJT1WErJM8buKibQvYcbMSQcVsrA/640?wx_fmt=jpeg)  
+![](有限元之父_Zienkiewicz教授与有限元法_images/img_000_273d4f376808.jpg)  
 
 Zienkiewicz教授，图片来源于swansea.ac.uk
 
@@ -61,7 +61,7 @@ Zienkiewicz被公认为世界三大有限元法的先驱之一（另两位是Arg
 
 Zienkiewicz是提出有限元法的数位先驱之一，但是他更重要的贡献是对有限元法的推广和普及。Zienkiewicz1967年出版了著名的“The Finite Element Method”一书，是有限元领域最早、最著名的专著。此后该书不断更新、多次修订再版和翻译，从结构、固体扩展到流体，从一卷本扩展到三卷本，凝聚了作者几十年的研究成果，荟萃了近千篇文献的精华，培养了全世界几代计算固体力学的师生和工程师，深受力学界和工程界科技人员的欢迎，成为有限元领域的经典之作，其影响力是独一无二的。如今，世界上有限元法的专著、教科书、论文等数不胜数，可以说都不过是对Zienkiewicz那本专著中某些部分的重复、深化或补充。
 
-![](https://mmbiz.qpic.cn/mmbiz/pIvrzIWmlO0IovgEibxFSubsnKPBGD8jk3G6pJegYI0JD6uwvcMWBGD3BRQszDN8QI5EISGdbK1JClmDWaK66sA/640?wx_fmt=jpeg)
+![](有限元之父_Zienkiewicz教授与有限元法_images/img_001_1f3ea8e82cad.jpg)
 
 有限元法诞生以后，很快成为工程设计的强有力工具，在建筑结构、航空、航天、船舶、核能、石油勘探等领域内解决了大量重大课题，力学也由此走出了殿堂，走向了工程，成为工程设计的有力工具。借助于有限元法，人们对复杂问题可以精细把握，由此可以消除以往过度的保守性，例如，有限元法出现以后，ASME规范的安全系数从以往的4逐步减少为现在的1.5，由此大大节省了工程材料和造价。
 
@@ -71,10 +71,10 @@ Zienkiewicz是提出有限元法的数位先驱之一，但是他更重要的贡
 
 有限元法本身还在不断发展中，主要有两个方向，一是非线性分析技术，用于解决大量物理非线性和几何非线性问题；二是自适应有限元分析技术，即在给定的精度控制要求下，自动调整有限元网格的疏密度，使计算资源得到合理配置，这一技术特别适用与模拟金属材料成型等大变形问题。Zienkiewicz教授晚年还一直致力于上述有限元领域的研究。他的去世是学科的重大损失。
 
-![](https://mmbiz.qpic.cn/mmbiz/pIvrzIWmlO0IovgEibxFSubsnKPBGD8jkepo0ZzKOxQHv16rl4iccN7Rciaqia2Bhapkb6op5HEOj70d7S2xBktJ6A/640?wx_fmt=jpeg)  
+![](有限元之父_Zienkiewicz教授与有限元法_images/img_002_de2767593760.jpg)  
 
 Zienkiewicz教授与李锡夔教授合影，本图片来源于大工新闻网
 
-![](https://mmbiz.qpic.cn/mmbiz/p6Vlqvia1Uicxmfb50jCNmujr5O9ZSnqHuViaga0pgbqxaiawib7Pibwn35epiazXYgeqHrqGwk6JqBQjv6icTmtu7EgXg/640?wx_fmt=gif)
+![](有限元之父_Zienkiewicz教授与有限元法_images/img_003_a2c2aac60985.gif)
 
 本文的相关内容最早见于新浪VincentNuke的博客，小编对文章的结构和内容进行了一定的调整。

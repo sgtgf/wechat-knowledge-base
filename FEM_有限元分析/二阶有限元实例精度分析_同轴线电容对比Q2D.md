@@ -13,15 +13,15 @@
 
 同轴线模型的理论解：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrGl9e1Xiav9frdHM3p0JZOnfHiaBeeiaHkibLCJmrR48tczH8dmjkolUequhVEf0XSH3HFpHt0xUIxKQ/640?wx_fmt=png&from=appmsg)
+![](二阶有限元实例精度分析_同轴线电容对比Q2D_images/img_000_ca47dcb25c1e.png)
 
 Q2d模型与网格如下，网格共计748个单元：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrGl9e1Xiav9frdHM3p0JZOnW6hDZicZLfjOPFwxbny0eZCGnPvGHt46nm7NlPScziaiaXT3eV2iaUfGRg/640?wx_fmt=png)
+![](二阶有限元实例精度分析_同轴线电容对比Q2D_images/img_001_af18f3588b68.png)
 
 电势u的对比结果显示，二者的误差已经控制在4e-8次方以下。这一步说明有限元求解的电势在同网格、同二阶的情况下是一致的。    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrGl9e1Xiav9frdHM3p0JZOn0IR2SNnFflMtqA3Y6M9640ibqbQxiaa0g38icsp5aGia71Mpzw663tibRuw/640?wx_fmt=png)
+![](二阶有限元实例精度分析_同轴线电容对比Q2D_images/img_002_fa04047de8e7.png)
 
 对三角形内采取不同数量的点进行积分求解电容，测试选择被积分点与 积分结果如下：
 
@@ -31,35 +31,35 @@ np
 
 1        
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrGl9e1Xiav9frdHM3p0JZOnKY00c8xpcZUnIsaJWKwticgoqDNJAusuyPmNic97IDJwXkf9MVDnVKYg/640?wx_fmt=png)
+![](二阶有限元实例精度分析_同轴线电容对比Q2D_images/img_003_d39795c391ad.png)
 
 4
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrGl9e1Xiav9frdHM3p0JZOnFAW4NjUaeCGCvuEhUr95gQ1HtkkibmQ54NS3Wa1jQpRcqbTT9elvPog/640?wx_fmt=png)
+![](二阶有限元实例精度分析_同轴线电容对比Q2D_images/img_004_02b7e51dfb2d.png)
 
 9        
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrGl9e1Xiav9frdHM3p0JZOndCkOF3tcsKnXEKhTtApbgR4KKmkhfo8XRaS6vFSDKqJS8hQfPmiahPQ/640?wx_fmt=png)
+![](二阶有限元实例精度分析_同轴线电容对比Q2D_images/img_005_33c6fb2bd995.png)
 
 16
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrGl9e1Xiav9frdHM3p0JZOnpFlpfUCuLKI8XD7qT0c1CJgicdRp031U0rg6XibFxl3BERyqxJMD037g/640?wx_fmt=png)
+![](二阶有限元实例精度分析_同轴线电容对比Q2D_images/img_006_4cc7a57dab0a.png)
 
 64        
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrGl9e1Xiav9frdHM3p0JZOns4eJb3D1TmJNrAQl56pKfnOTfWFAjuufC3UKhroZCHX2hLfC5s7Kbw/640?wx_fmt=png)
+![](二阶有限元实例精度分析_同轴线电容对比Q2D_images/img_007_5aab7e5c8eec.png)
 
 256
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrGl9e1Xiav9frdHM3p0JZOnbx8BX58q0tfia5ICUnTfice8nmwGcsibxjiczZ2xXnVJOuIEkWIic3e6LVA/640?wx_fmt=png)
+![](二阶有限元实例精度分析_同轴线电容对比Q2D_images/img_008_2c4a6106c1dd.png)
 
 二阶高斯积分点        
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrGl9e1Xiav9frdHM3p0JZOn2BcsIDt3TOAMU80TrMpbpL6bTOiau3DX2K0lhibNC62PsCw7YzwtXmHg/640?wx_fmt=png)
+![](二阶有限元实例精度分析_同轴线电容对比Q2D_images/img_009_d10afb81a31a.png)
 
 测试得到的电容结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrGl9e1Xiav9frdHM3p0JZOnWPASTwjd7adLB6uhKUVzybqnm4JYG7bKrWbQj09DUTsZvCbpQJ8miaw/640?wx_fmt=png&from=appmsg)
+![](二阶有限元实例精度分析_同轴线电容对比Q2D_images/img_010_f79900a9b01c.png)
 
 可以发现，随着均匀分布的积分点数逐渐增多，精度也在逐渐提高，并且逐渐收敛于高斯积分点处的精度，在同阶高斯积分点处进行后处理积分，所能得到的精度是最好的，此时，即使继续使用更高阶的高斯积分点也无法继续提高精度。
 
@@ -67,7 +67,7 @@ np
 
 对上篇文章的模型进行优化后，同样可以得到的对比结果与结论：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrGl9e1Xiav9frdHM3p0JZOnjviaosrFPEoT85iaibOjQJVhsHdrxgfhbpQhNUWE0UjqgKU5PQZVNpWDA/640?wx_fmt=png&from=appmsg)
+![](二阶有限元实例精度分析_同轴线电容对比Q2D_images/img_011_f5fef0bbc16e.png)
 
 可以发现，虽然数值依然和Q2D存在一定差异，但是在二阶高斯点处的积分结果差异已经在千分之一。
 

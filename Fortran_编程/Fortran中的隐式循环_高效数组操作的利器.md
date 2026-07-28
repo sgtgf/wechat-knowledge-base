@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Suj\_pd8bmYu8WDGLDk7vSA](https://mp.weixin.qq.com/s/Suj_pd8bmYu8WDGLDk7vSA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+![](Fortran中的隐式循环_高效数组操作的利器_images/img_000_8bcddb233e93.jpg)
 
 在科学计算领域，Fortran 语言以其高效的数值计算能力而著称，其中隐式循环（Implicit Looping）作为一种特殊的语法结构，特别适用于数组处理，能够极大提高代码的简洁性和执行效率。本文将深入浅出地介绍 Fortran 中隐式循环的概念、语法结构以及具体示例，帮助读者掌握这一高效的编程技巧。
 
@@ -101,7 +101,7 @@ Fortran 的隐式循环是处理数组的一种高效且优雅的方式，它简
 
 # 推荐阅读
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](Fortran中的隐式循环_高效数组操作的利器_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

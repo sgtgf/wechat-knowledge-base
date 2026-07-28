@@ -44,13 +44,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44xTGnXllqCgwg8QhB32x5mJXBD1zJ7MJ6rVKAbu5q9u9nIrpRF6Tib9ovkvEDrASSjtQ6Oic5JIvkg/640?wx_fmt=png)
+![](一种学习稀疏BN最优结构的改进K均值分块学习算法_images/img_000_1879fb1250a6.png)
 
 K均值划分后使用MMPC习得的网络结构示意图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44xTGnXllqCgwg8QhB32x5mcwWCErCq8JTybdIEibknAib5hl8qiaFicozGF0DsEtuaU3MQvVDdx7wenA/640?wx_fmt=png)
+![](一种学习稀疏BN最优结构的改进K均值分块学习算法_images/img_001_9fd608b98093.png)
 
 根据Merge函数找到的所有块间可能的图结构
 
@@ -66,19 +66,19 @@ K均值划分后使用MMPC习得的网络结构示意图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44xTGnXllqCgwg8QhB32x5mxOXVVqBQVclibEAeIvfAmiaISl6nGiaxNMn1gnzUVX0NktzN6QYV3NW5w/640?wx_fmt=png)
+![](一种学习稀疏BN最优结构的改进K均值分块学习算法_images/img_002_a9e46cc2886c.png)
 
 高晓光 西北工业大学电子信息学院教授. 1989 年获得西北工业大学飞行器导航与控制系统博士学位. 主要研究方向为贝叶斯和航空火力控制.
 
 E-mail: cxg2012@nwpu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44xTGnXllqCgwg8QhB32x5mlxRiaxQNL2WaBHJFB9OnibnnMqqthgHaqY8Nk8teH4Ivf9AYSKSulEiag/640?wx_fmt=jpeg)
+![](一种学习稀疏BN最优结构的改进K均值分块学习算法_images/img_003_cffeae3f70c7.jpg)
 
 王晨凤 西北工业大学电子信息学院硕士研究生. 2017年获得西北工业大学学士学位. 主要研究方向为贝叶斯网络和数据挖掘. 本文通信作者.
 
 E-mail: chen-cc@mail.nwpu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44xTGnXllqCgwg8QhB32x5m9h4sY9wBlHALQtMQHKxRABcJ0UnNNjAABauYibJj3iciaMr2TkLHglBAQ/640?wx_fmt=jpeg)
+![](一种学习稀疏BN最优结构的改进K均值分块学习算法_images/img_004_99ec6e841133.jpg)
 
 邸若海 西北工业大学电子信息学院博士后研究生. 2016年获得西北工业大学系统工程专业博士学位. 主要研究方向为小数据集条件下贝叶斯网络结构学习和参数学习. 
 
@@ -204,21 +204,21 @@ E-mail: diruohai@nwpu.edu.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44xTGnXllqCgwg8QhB32x5mZcKGB9bpXTlJNnIU3EVXvY5fPmecrWNvnaPxY9Rib8YKFRZkgjtkrgg/640?wx_fmt=png)
+![](一种学习稀疏BN最优结构的改进K均值分块学习算法_images/img_005_a06e51d3b894.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44xTGnXllqCgwg8QhB32x5mZyTNjUbhUkNWDhm5ev81gdWxibwTIWZYK37Fw116SfibrWDA5icyXNkYA/640?wx_fmt=jpeg)
+![](一种学习稀疏BN最优结构的改进K均值分块学习算法_images/img_006_2a153cd53614.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44xTGnXllqCgwg8QhB32x5mZcKGB9bpXTlJNnIU3EVXvY5fPmecrWNvnaPxY9Rib8YKFRZkgjtkrgg/640?wx_fmt=png)
+![](一种学习稀疏BN最优结构的改进K均值分块学习算法_images/img_007_a06e51d3b894.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44xTGnXllqCgwg8QhB32x5m3sEsiaDFcvuZMWXxS3ZQ7ialzA0grYPr8A4oRAE0coz7F5ZUR1jVrqrw/640?wx_fmt=jpeg)
+![](一种学习稀疏BN最优结构的改进K均值分块学习算法_images/img_008_03b24fda492e.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44xTGnXllqCgwg8QhB32x5mZcKGB9bpXTlJNnIU3EVXvY5fPmecrWNvnaPxY9Rib8YKFRZkgjtkrgg/640?wx_fmt=png)
+![](一种学习稀疏BN最优结构的改进K均值分块学习算法_images/img_009_a06e51d3b894.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44xTGnXllqCgwg8QhB32x5myIw63l2EBLxT4eTpjDGfiaeWZzDxETgpL4Veb9LEgIJBXV5CgiaCcficw/640?wx_fmt=jpeg)
+![](一种学习稀疏BN最优结构的改进K均值分块学习算法_images/img_010_ddb25bab69be.jpg)
 
 自动化学报订阅号
 

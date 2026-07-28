@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/wEjdz0WR0BmqxVkMjH9ABQ](https://mp.weixin.qq.com/s/wEjdz0WR0BmqxVkMjH9ABQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+![](实测___Fortran_中常用的_4_种时间函数_images/img_000_8bcddb233e93.jpg)
 
 在现代科学计算与工程应用领域中，Fortran 作为一种历史悠久且功能强大的编程语言，至今仍被广泛使用。为了帮助开发者更好地理解和控制程序的执行过程，Fortran 提供了一系列用于测量时间的功能。本文将详细介绍在 Fortran 中常用的 4 种时间函数：`seconds()`, `system_clock()`, `cpu_time()` 以及 `date_and_time()`，并提供相应的示例代码和解释。
 
@@ -165,10 +165,10 @@
 
 # 推荐阅读
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](实测___Fortran_中常用的_4_种时间函数_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 
 有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV9ibz7dKOUdBCkXba3yW0tnJFuGOh8Jke9ME4CT0VZYEOZ3l1QtoO51n3LI2x62Ot4yYbhnJLUoMw/640?wx_fmt=jpeg&from=appmsg)
+![](实测___Fortran_中常用的_4_种时间函数_images/img_002_dae872c29c08.jpg)

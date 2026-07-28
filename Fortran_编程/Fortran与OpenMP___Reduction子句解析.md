@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/CUa0sikyG3xqGUREkCDZ-Q](https://mp.weixin.qq.com/s/CUa0sikyG3xqGUREkCDZ-Q)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWPaTI5ib9rlIAT9XLOVTG09RKyDJUtax4xHXicOuhhn3tc9GLibAH0xOVytfovJa6WhicCg8QyKibCqtQ/640?wx_fmt=jpeg&from=appmsg)
+![](Fortran与OpenMP___Reduction子句解析_images/img_000_b98bb3d66472.jpg)
 
 在高性能计算领域，Fortran 语言以其强大的数值计算能力和广泛的应用基础，一直占据着重要的地位。随着多核处理器的普及，如何充分利用多核并行计算资源，提高程序的执行效率，成为了程序员们关注的焦点。OpenMP（Open Multi-Processing）作为一种广泛使用的并行编程模型，为 Fortran 程序员提供了一种简单而有效的方法来实现并行计算。
 
@@ -182,10 +182,10 @@ Fortran与OpenMP | 从"Hello World"启航
 
 # 推荐阅读
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.5525099211882534&random=0.9864757539671867&random=0.7575622890331561&random=0.6526959208642249&random=0.3992112753232937)
+![](Fortran与OpenMP___Reduction子句解析_images/img_001_a4233b93b256.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 
 有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWPaTI5ib9rlIAT9XLOVTG09BZRqrD4BaTJiaPIJeovJzsbDpxNxPQ3yj9KMlhFhic6oLWeHhC2ScGNQ/640?wx_fmt=jpeg&from=appmsg)
+![](Fortran与OpenMP___Reduction子句解析_images/img_002_47795bb5a0db.jpg)

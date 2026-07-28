@@ -8,25 +8,25 @@
 
 压缩感知（Compressed sensing），又称压缩采样、压缩传感，是一种寻找欠定线性系统的稀疏解的理论，它通过开发信号的稀疏特性，在远小于Nyquist 采样率的条件下，用随机采样获取信号的离散样本，然后通过非线性重建算法完美的重建信号。其基础理论由菲尔兹奖获得者华裔科学家陶哲轩， 斯坦福大学教授 Candes、Donoho 创立，该理论一经提出就引起学术界和工业界的广泛关注。它在信息论、图像处理、地球科学、光学、微波成像、模式识别、无线通信、大气、地质等领域受到高度关注，并被美国科技评论评为2007年度十大科技进展。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46BRJ5ZwaxhtXnWUOfia2jdnwHueibmFfvehA1Um1tdaUyXzHxpNr2V7Gstfk7ECpDlKsme3dhYAbGQ/640?wx_fmt=png)
+![](一种基于CGLS和LSQR的联合优化的匹配追踪算法_images/img_000_165bf118b46b.png)
 
 图1. 压缩感知的采集过程
 
 在压缩感知理论中, 设计好的稀疏重构算法是一个比较重要, 同时也是一个具有挑战性的问题. 稀疏重构的基本目标是用较少的数据样本, 通过解一个优化问题完成信号或者图像重构. 关于稀疏重构过程, 一个重要的研究方向是在数据受噪声干扰的情况下, 如何高效快速地重建原信号. 本文提出了基于共轭梯度最小二乘法 (Conjugate gradient least squares,CGLS) 和最小二乘 QR 分解 (Least squares QR, LSQR) 的联合优化的匹配追踪算法（CoCLOMP）. 该算法采用 Alpha 散度来测量 CGLS和 LSQR 之间的离散度 (差异度), 并通过离散度来选择最优的解序列. 实验选取了图像处理标准测试图库中Lena 、aerial、man、boat四幅图，分析结果表明基于CGLS 和 LSQR 的联合优化的匹配追踪算法在压缩采样的信号受噪声干扰情况下具有较好的恢复能力。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46BRJ5ZwaxhtXnWUOfia2jdnosiclDC5o368LdpG1QmIFmaXFoaJBqYyRv882oBc0NXMkrMStf9DkRQ/640?wx_fmt=png)
+![](一种基于CGLS和LSQR的联合优化的匹配追踪算法_images/img_001_1f2fa277acf2.png)
 
 a.噪声下重构boat图的PSNR值 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46BRJ5ZwaxhtXnWUOfia2jdn3pmsPpYo0icxGVooH6WbfdGPabV0qPOuWNZNzPZWMxg7zibPKkOrqoAQ/640?wx_fmt=png)
+![](一种基于CGLS和LSQR的联合优化的匹配追踪算法_images/img_002_38f4fce96a2c.png)
 
 b.噪声下重构Lena图的PSNR值
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46BRJ5ZwaxhtXnWUOfia2jdnfzBxRcw4NUnDicdpCrCojicMlfticjxCGtiaobia4oxbI2YCxiadY2vCicI0g/640?wx_fmt=png)
+![](一种基于CGLS和LSQR的联合优化的匹配追踪算法_images/img_003_f702117096e7.png)
 
 c.噪声下重构aerial图的PSNR值
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46BRJ5ZwaxhtXnWUOfia2jdnWTumebUaLdibdlkTlDCw7ibx2j5ibeCYwxiacJeQqAD5kK8eKSlECaodHA/640?wx_fmt=png)
+![](一种基于CGLS和LSQR的联合优化的匹配追踪算法_images/img_004_367e89d0e22c.png)
 
 d.噪声下重构man图的PSNR值
 
@@ -38,31 +38,31 @@ d.噪声下重构man图的PSNR值
 
 作者简介
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46BRJ5ZwaxhtXnWUOfia2jdn4FpH7F1eh22ibZUFl3ud6n5HVYjxrKb8fibKd7TKNiaXolJshiaWXOceYA/640?wx_fmt=jpeg)
+![](一种基于CGLS和LSQR的联合优化的匹配追踪算法_images/img_005_bb64641b0b8a.jpg)
 
 陈善雄 西南大学计算机与信息科学学院副教授. 2013 年获得重庆大学计算机科学与技术博士学位. 主要研究方向为数据挖掘, 模式识别, 压缩感知. 本文通信作者. 
 
 E-mail: csxpml@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46BRJ5ZwaxhtXnWUOfia2jdnzBvE0iaUickDTpulLwz2c51t8GxFhkhSicVJiavIwlPJ4KbdQqlKkiayPwA/640?wx_fmt=jpeg)
+![](一种基于CGLS和LSQR的联合优化的匹配追踪算法_images/img_006_dcd3d32977ed.jpg)
 
 熊海灵 西南大学计算机与信息科学学院教授. 2007 年获得西南大学数字农业方向农学博士学位. 主要研究方向为数据库与智能信息处理, 计算机模拟及其应用. 
 
 E-mail: xionghl@swu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46BRJ5ZwaxhtXnWUOfia2jdnGN5w9rQdNKSHgV5JrlHPXd1qkQa1hIKogVAfEnFZxU2doKqiaGD7XKA/640?wx_fmt=png)
+![](一种基于CGLS和LSQR的联合优化的匹配追踪算法_images/img_007_3e590888ab2f.png)
 
 廖剑伟 西南大学计算机与信息科学学院副教授. 2012 年获日本东京大学计算机科学博士学位. 主要研究方向为系统软件和高性能分布式存储.
 
 E-mail: liaotoad@gmail.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46BRJ5ZwaxhtXnWUOfia2jdn3hSzsGfmibnLC0V05OJlk2eJte1KAje0zjrrkvPrGD9CeL0ZCIdc7Iw/640?wx_fmt=jpeg)
+![](一种基于CGLS和LSQR的联合优化的匹配追踪算法_images/img_008_f57009a2efbd.jpg)
 
 周 骏 西南大学计算机与信息科学学院副教授. 2013 年获得电子科技大学计算机应用技术博士学位.主要研究方向为图像处理, 计算机视觉, 分子影像.
 
 E-mail: zhouj@swu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46BRJ5ZwaxhtXnWUOfia2jdn3cBr1sSkVTvKuz6Eh0sks9jJIbh55Uzxg2uYdaHe67k9TtZNwF1CpQ/640?wx_fmt=jpeg)
+![](一种基于CGLS和LSQR的联合优化的匹配追踪算法_images/img_009_eb6a2e93779f.jpg)
 
 左俊森 西南大学计算机与信息科学学院硕士研究生. 主要研究方向为数据库与智能检索技术, 计算机模拟及其应用.
 
@@ -102,21 +102,21 @@ E-mail: zuojunsen@email.swu.edu.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46BRJ5ZwaxhtXnWUOfia2jdnC181OCnE3Uc6uPzRzw8QPsUoQfEicdGaQ2MjPrYVMpuum6PsoFdajCg/640?wx_fmt=png)
+![](一种基于CGLS和LSQR的联合优化的匹配追踪算法_images/img_010_c3e9bf639a0f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46BRJ5ZwaxhtXnWUOfia2jdnKODBNxlyt9Q8xiaicIlEicX4eQnsSlZ64DSE46WfociaR4YzLdTNwzXunw/640?wx_fmt=jpeg)
+![](一种基于CGLS和LSQR的联合优化的匹配追踪算法_images/img_011_d2fe42158bf4.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46BRJ5ZwaxhtXnWUOfia2jdnC181OCnE3Uc6uPzRzw8QPsUoQfEicdGaQ2MjPrYVMpuum6PsoFdajCg/640?wx_fmt=png)
+![](一种基于CGLS和LSQR的联合优化的匹配追踪算法_images/img_012_c3e9bf639a0f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46BRJ5ZwaxhtXnWUOfia2jdn1arGj2rGuurI31KXlabotpja9ic14SQ8o4SRmyoMM8eodaDNuCwf8iaA/640?wx_fmt=jpeg)
+![](一种基于CGLS和LSQR的联合优化的匹配追踪算法_images/img_013_7bbdc8002520.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46BRJ5ZwaxhtXnWUOfia2jdnC181OCnE3Uc6uPzRzw8QPsUoQfEicdGaQ2MjPrYVMpuum6PsoFdajCg/640?wx_fmt=png)
+![](一种基于CGLS和LSQR的联合优化的匹配追踪算法_images/img_014_c3e9bf639a0f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46BRJ5ZwaxhtXnWUOfia2jdngTLktaUJdibFdM1iaqEtxHMvXfAeuA4GPDeLFvLy9UZzbZ1dkKBRNyrA/640?wx_fmt=jpeg)
+![](一种基于CGLS和LSQR的联合优化的匹配追踪算法_images/img_015_c64b4b1e35f9.jpg)
 
 自动化学报订阅号
 

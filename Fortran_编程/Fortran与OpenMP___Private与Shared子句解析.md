@@ -5,11 +5,11 @@
 
 ###   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/FYIoDNM5kDM1JN5ytib41Rxtf2icJHLeicngNfPvWLpgAPh6DEvfqAEXR9N0TeBb6C0PUODNd3bHJt006etyh2BAg/640?wx_fmt=gif&random=0.5207702098580795)
+![](Fortran与OpenMP___Private与Shared子句解析_images/img_000_2cb90f2f5666.gif)
 
 点击上方蓝字  关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_png/FYIoDNM5kDM1JN5ytib41Rxtf2icJHLeicnl2rUicg56XjvOOBibzm5BDyUNep8QwqWNPuqRP2Ua3lQPMBcING28Sbg/640?wx_fmt=png&random=0.9816884813078028)
+![](Fortran与OpenMP___Private与Shared子句解析_images/img_001_48e52784b055.png)
 
 在高性能计算领域，Fortran凭借其对数值计算的强大支持和悠久历史，依然是科学计算和工程应用中的重要编程语言。随着多核处理器的普及，利用并行计算技术来加速计算密集型任务变得日益重要。OpenMP（Open Multi-Processing）作为一种广泛应用于共享内存架构上的并行编程模型，为Fortran程序员提供了一套简洁而强大的工具，用以实现代码的并行化。本文将深入探讨OpenMP的核心概念之一——数据环境，特别是`private`和`shared`子句的应用，通过具体示例帮助读者理解这些概念。
 
@@ -17,7 +17,7 @@
 
 OpenMP程序的一个显著特点是内存空间的共享，这意味着多个线程能够直接访问共享空间中的变量，从而实现线程间的数据通信。在此框架下，`private`和`shared`变量成为并行计算的基石，它们分别代表线程独有的私有副本和所有线程共用的共享资源。此外，`default`子句作为补充，为并行区域内的数据访问权限提供了默认配置。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVX5icIdxke0r1FbibMpRQchu0a18q7udTPXgpWWL5z8XpT1vRycQqqFOfRTtkqVVDBlTgOSHibWwwrvg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1&random=0.9618621530262874&random=0.9013066667831051&random=0.38866931453860354&random=0.2635083660104134)
+![](Fortran与OpenMP___Private与Shared子句解析_images/img_002_03b8e94b64a7.other)
 
 ## Private子句：线程间的隔离
 
@@ -37,7 +37,7 @@ program example_private  use omp_lib  implicit none  integer :: tid 
 
 在上述代码中，`tid`变量被声明为`private`，因此每个线程都会获得其独立的副本，打印出各自线程ID对应的`tid`值。并行结束后，主线程中的`tid`值不受并行区域的影响，依然保持初始值`10`，体现了私有变量的独立性。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVlacYAoNhz6bueZny018Cw0XJ0Ud3kCcIVVzouay1NJoTUQavibXfB7SccjOxelF5lniastVfQo8yw/640?wx_fmt=jpeg&random=0.9457221184860769&random=0.9113607789612483&random=0.8529454002052426&random=0.8875534890077537)
+![](Fortran与OpenMP___Private与Shared子句解析_images/img_003_dc50100cd74f.jpg)
 
 ## Shared子句：并行中的协作
 
@@ -88,7 +88,7 @@ program example_shared  use omp_lib  implicit none  integer :: tid, 
 
 # 推荐阅读
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.5525099211882534&random=0.9864757539671867&random=0.7575622890331561&random=0.6526959208642249&random=0.3992112753232937)
+![](Fortran与OpenMP___Private与Shared子句解析_images/img_004_a4233b93b256.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

@@ -22,7 +22,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46TEtpYDa2HgCcDhH01cDr7DCpvjqXeNymL5bfuAQ7CFsHq9vqBtWb7LmhTWdWcf8xCJMf4GzutMw/640?wx_fmt=png)
+![](北京理工大学夏元清教授等_基于压缩动量项的增量型ELM虚拟机能耗预测_images/img_000_d136be2ebee8.png)
 
 ELM网络结构
 
@@ -32,7 +32,7 @@ ELM网络结构
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46TEtpYDa2HgCcDhH01cDr7FXdYS5nycCibVQPktejA2IzSYibReta4h3dWI0gsrCABa6icedsNglXFg/640?wx_fmt=png)
+![](北京理工大学夏元清教授等_基于压缩动量项的增量型ELM虚拟机能耗预测_images/img_001_b847df6c7388.png)
 
 基于压缩动量项的增量型极限学习机拓扑结构图
 
@@ -44,13 +44,13 @@ ELM网络结构
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46TEtpYDa2HgCcDhH01cDr7OxfT98VcbaSMqTujkJiasEXMJUB0UBSwRLvttN0UsrvLmdjdkoYGJhw/640?wx_fmt=png)
+![](北京理工大学夏元清教授等_基于压缩动量项的增量型ELM虚拟机能耗预测_images/img_002_080afdfffb78.png)
 
 邹伟东, 北京理工大学自动化学院博士后. 主要研究方向为极限学习机、云数据中心优化调度管理. 
 
 E-mail: zouweidong1985@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46TEtpYDa2HgCcDhH01cDr7uGxfsRprVdlU4JT3JvjubRRsDBeKqxWb095yOpPiaEvaVB7u9VkQMqA/640?wx_fmt=png)
+![](北京理工大学夏元清教授等_基于压缩动量项的增量型ELM虚拟机能耗预测_images/img_003_9141062686af.png)
 
 夏元清, 北京理工大学自动化学院教授. 主要研究方向为云控制、云数据中心优化调度管理、智能交通、模型预测控制、自抗扰控制、飞行器控制和空天地一体化网络协同控制. 本文通信作者. 
 
@@ -148,21 +148,21 @@ E-mail: xia\_yuanqing@bit.edu.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46TEtpYDa2HgCcDhH01cDr7D8ZdyRhsKxiaNRkCCOfp185GgFAy3rR4WwaQ1R8rPCTyaaw9JllI4lQ/640?wx_fmt=png)
+![](北京理工大学夏元清教授等_基于压缩动量项的增量型ELM虚拟机能耗预测_images/img_004_6ac54236d0ee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46TEtpYDa2HgCcDhH01cDr7TfL8FDMnLPG385HibWnMDW2XFeIgx6y9LDhvZIqDrZ9H4uIhLDkmPcw/640?wx_fmt=jpeg)
+![](北京理工大学夏元清教授等_基于压缩动量项的增量型ELM虚拟机能耗预测_images/img_005_2a178cb0d06d.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46TEtpYDa2HgCcDhH01cDr7D8ZdyRhsKxiaNRkCCOfp185GgFAy3rR4WwaQ1R8rPCTyaaw9JllI4lQ/640?wx_fmt=png)
+![](北京理工大学夏元清教授等_基于压缩动量项的增量型ELM虚拟机能耗预测_images/img_006_6ac54236d0ee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46TEtpYDa2HgCcDhH01cDr78KRPzYxic9Wam0FhSBhzld1EN1te9yzshAxVGyYy7L7CdarQxnk4b4Q/640?wx_fmt=jpeg)
+![](北京理工大学夏元清教授等_基于压缩动量项的增量型ELM虚拟机能耗预测_images/img_007_9f5b46e8d959.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46TEtpYDa2HgCcDhH01cDr7D8ZdyRhsKxiaNRkCCOfp185GgFAy3rR4WwaQ1R8rPCTyaaw9JllI4lQ/640?wx_fmt=png)
+![](北京理工大学夏元清教授等_基于压缩动量项的增量型ELM虚拟机能耗预测_images/img_008_6ac54236d0ee.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46TEtpYDa2HgCcDhH01cDr7NpZoQWDsUF8H9icCwcP8ZnXuxs1ibn6oy5tUfKJic1clNb4DJ0F5Pvs4Q/640?wx_fmt=jpeg)
+![](北京理工大学夏元清教授等_基于压缩动量项的增量型ELM虚拟机能耗预测_images/img_009_5bf8dd2a55b3.jpg)
 
 自动化学报订阅号
 

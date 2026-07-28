@@ -54,19 +54,19 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190459?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3XLJyrHzfeNB9D96uCq9QDFmc51J7YbKZ4kibvVqduoj5WDia1I1rcDAAA/640?wx_fmt=jpeg)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_000_b805b8a84121.jpg)
 
 图 3  SealGAN网络结构
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3XtO7AbI8D9cNFibicXynv02KEmZ9F3wVSbWGETxPVaLPZl00IZDb9gJkw/640?wx_fmt=jpeg)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_001_3473e9977144.jpg)
 
 图 7  三种网络在不同数据集划分比例下的性能指标
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3X0S1Y0GVtKBdqWTXia9qF0o999QRAo2nEBJNeoKpiaicz7Uic1bHF89QeNQ/640?wx_fmt=jpeg)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_002_6c0e6e3b9044.jpg)
 
 图 8  基于二次分割、CycleGAN-ResNet、CycleGAN-UNet和SealGAN的印章消除对比  
 
@@ -78,7 +78,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190459?viewType=HTML
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3XxEqfMWqY16I1ITYickXhkUy17kI2RnXHSpfvUxSVgjbosST7WA8YWjQ/640?wx_fmt=jpeg)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_003_ab0541dcaf80.jpg)
 
 **李新利**
 
@@ -86,7 +86,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190459?viewType=HTML
 
 E-mail: lixinli@ncepu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3X46atrUia2lL4lkpHP57n3BOtJ2wTPr67pYNzXnLUM22DdIXMXzP9dAg/640?wx_fmt=jpeg)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_004_d7b982d04ef8.jpg)
 
 **邹昌铭**
 
@@ -94,7 +94,7 @@ E-mail: lixinli@ncepu.edu.cn
 
 E-mail: 1172227195@ncepu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3XMZub1mMiciasMCfRO5qI1nwZqSicpSchF6ib2Eiac0lR15QcmQVNESbib3TQ/640?wx_fmt=jpeg)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_005_92dd5417c31e.jpg)
 
 **杨国田**
 
@@ -102,7 +102,7 @@ E-mail: 1172227195@ncepu.edu.cn
 
 E-mail: ygt@ncepu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3X5DekMlAsdPNptTBQHraYUySF0oKiavfhV4SrXhupr0gxA2PssQxfPfg/640?wx_fmt=jpeg)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_006_563b80ed9fbd.jpg)
 
 **刘   禾**
 
@@ -352,49 +352,49 @@ http://www.aas.net.cn/cn/article/doi/10.3724/SP.J.1004.2012.00870?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3XjeacyThUKKib4P4365wBsCnTkqmvJ5Lib9JoQ0gn6icGxsdkbZPICxZUA/640?wx_fmt=png)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_007_77287c04ca4a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3X3cAhicQF6CaeCkSb3so5ysOKYnUDVh5Fkm1vqVjEKNtPGkuoToqcyiaw/640?wx_fmt=png)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_008_374dc92842e2.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3Xdahmh4vyWNUTD0kp4QdresMAuygWnh0e9HhkAQpv6ZHlIPgmOxxLFw/640?wx_fmt=gif)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_009_2a8eaf2e3311.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3Xdahmh4vyWNUTD0kp4QdresMAuygWnh0e9HhkAQpv6ZHlIPgmOxxLFw/640?wx_fmt=gif)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_010_2a8eaf2e3311.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3XkqnWvDibec96F4oERx9hguCiaAxiaAUkwkALGia77wpicbnkAmibccUBHTbA/640?wx_fmt=jpeg)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_011_e753f9ec1462.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3Xdahmh4vyWNUTD0kp4QdresMAuygWnh0e9HhkAQpv6ZHlIPgmOxxLFw/640?wx_fmt=gif)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_012_2a8eaf2e3311.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3Xdahmh4vyWNUTD0kp4QdresMAuygWnh0e9HhkAQpv6ZHlIPgmOxxLFw/640?wx_fmt=gif)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_013_2a8eaf2e3311.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3Xdahmh4vyWNUTD0kp4QdresMAuygWnh0e9HhkAQpv6ZHlIPgmOxxLFw/640?wx_fmt=gif)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_014_2a8eaf2e3311.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3Xdahmh4vyWNUTD0kp4QdresMAuygWnh0e9HhkAQpv6ZHlIPgmOxxLFw/640?wx_fmt=gif)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_015_2a8eaf2e3311.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3Xpeicv1tWYZ4gshyG3xFWOzLCs1wjRY7Vb89PE4GxgewumSBbZGpLSaw/640?wx_fmt=jpeg)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_016_ceed03e32515.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3Xdahmh4vyWNUTD0kp4QdresMAuygWnh0e9HhkAQpv6ZHlIPgmOxxLFw/640?wx_fmt=gif)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_017_2a8eaf2e3311.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3Xdahmh4vyWNUTD0kp4QdresMAuygWnh0e9HhkAQpv6ZHlIPgmOxxLFw/640?wx_fmt=gif)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_018_2a8eaf2e3311.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3Xdahmh4vyWNUTD0kp4QdresMAuygWnh0e9HhkAQpv6ZHlIPgmOxxLFw/640?wx_fmt=gif)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_019_2a8eaf2e3311.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3Xdahmh4vyWNUTD0kp4QdresMAuygWnh0e9HhkAQpv6ZHlIPgmOxxLFw/640?wx_fmt=gif)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_020_2a8eaf2e3311.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3XWUn4jYu2mxXc9Gvbib74qEvYRc2IncLgbfiaLNYIoBekZmhPZZNt1hOw/640?wx_fmt=jpeg)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_021_4ef74581720c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3Xdahmh4vyWNUTD0kp4QdresMAuygWnh0e9HhkAQpv6ZHlIPgmOxxLFw/640?wx_fmt=gif)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_022_2a8eaf2e3311.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46PuFjia1TZ0XXmlA1UHqq3Xdahmh4vyWNUTD0kp4QdresMAuygWnh0e9HhkAQpv6ZHlIPgmOxxLFw/640?wx_fmt=gif)
+![](SealGAN__基于生成式对抗网络的印章消除研究_images/img_023_2a8eaf2e3311.gif)
 
 **长按二维码｜关注我们**
 

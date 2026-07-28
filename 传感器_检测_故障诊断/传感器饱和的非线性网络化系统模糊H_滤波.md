@@ -32,25 +32,25 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c180778?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZiarwXGcqtZD0EB49WIN13ff6Zicia9wKIfrMB6USxAhNtg0FibGgy33DfA/640?wx_fmt=jpeg)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_000_f695dc21db51.jpg)
 
 _工业互联网_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZlS1Iaial6bvrC2icict7stEibe4iaiadJnoQR6PW3uW4smzbCaCPAhZWyiaMA/640?wx_fmt=png)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_001_98ca7934cfbf.png)
 
 _电力系统_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZ5A0HIeEXmSKmVKz2Nib3E7FRhZDM4tLHhG1KcbPQYrFmDx8jhibUOJ0A/640?wx_fmt=jpeg)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_002_cb9b914dae9a.jpg)
 
 _远程医疗_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZrGo19LYFiakq3Jibw90kFhuVPJkncicZeaticIicKZ5qWcEMJVPvnCN43Fg/640?wx_fmt=jpeg)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_003_67198884581e.jpg)
 
 _军事应用_
 
@@ -82,7 +82,7 @@ _军事应用_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZZRMKyiaBovIfAalJC9N2ODRJIJMpe2GOhNfXiblRkVXGkoqjlaqGEnnA/640?wx_fmt=png)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_004_45adbd02af5b.png)
 
 **李秀英**
 
@@ -92,7 +92,7 @@ E-mail: xiuxiu4480@sina.com
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZPxawlClduIhBVZchrYAic9UFeH0BGASAkcFyuib2NS7ncJGfcemgjhXA/640?wx_fmt=jpeg)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_005_60a301a00cab.jpg)
 
 **尹  帅**
 
@@ -102,7 +102,7 @@ E-mail: ys944083357@163.com
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZaPj5ZzAksDUnUQRZOwBKqVKKVVFlx6R2pdreIGF8gsnH8BYdTrzk3w/640?wx_fmt=jpeg)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_006_5cfb174e1423.jpg)
 
 **孙书利**
 
@@ -180,49 +180,49 @@ E-mail: sunsl@hlju.edu.cn
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZVwtw0UsbIzbrLA4St3k4wE7NiaIJkmobKpT9RLw6ZF6FibqlhJkictt6A/640?wx_fmt=jpeg)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_007_2b9f2cc002cd.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZ8Llj9GyEEiawRQXI2B7icnqyXwyiblqqDPZmB8JlpAmEnOF5eJrkWxzfA/640?wx_fmt=jpeg)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_008_d0ad725106b8.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZhVhwjjNFI0kibEKQBsxtoAVBPXC0307PN7oyibpky48WThosu3EL8rSA/640?wx_fmt=gif)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_009_34cda277996a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZhVhwjjNFI0kibEKQBsxtoAVBPXC0307PN7oyibpky48WThosu3EL8rSA/640?wx_fmt=gif)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_010_34cda277996a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZsszYxa2ChaE373s8FGMygic2RqBNicbt4mFbFTjmicnJbcqWZkWQ5cSpg/640?wx_fmt=jpeg)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_011_6efa7d9759fd.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZhVhwjjNFI0kibEKQBsxtoAVBPXC0307PN7oyibpky48WThosu3EL8rSA/640?wx_fmt=gif)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_012_34cda277996a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZhVhwjjNFI0kibEKQBsxtoAVBPXC0307PN7oyibpky48WThosu3EL8rSA/640?wx_fmt=gif)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_013_34cda277996a.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZhVhwjjNFI0kibEKQBsxtoAVBPXC0307PN7oyibpky48WThosu3EL8rSA/640?wx_fmt=gif)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_014_34cda277996a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZhVhwjjNFI0kibEKQBsxtoAVBPXC0307PN7oyibpky48WThosu3EL8rSA/640?wx_fmt=gif)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_015_34cda277996a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZ7NMQnZKAabrsvUrNLbDO1yp4ekoQ7YO5ILH5vu6o18u12ejKQKDXNw/640?wx_fmt=jpeg)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_016_039c7e88ce65.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZhVhwjjNFI0kibEKQBsxtoAVBPXC0307PN7oyibpky48WThosu3EL8rSA/640?wx_fmt=gif)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_017_34cda277996a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZhVhwjjNFI0kibEKQBsxtoAVBPXC0307PN7oyibpky48WThosu3EL8rSA/640?wx_fmt=gif)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_018_34cda277996a.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZhVhwjjNFI0kibEKQBsxtoAVBPXC0307PN7oyibpky48WThosu3EL8rSA/640?wx_fmt=gif)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_019_34cda277996a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZhVhwjjNFI0kibEKQBsxtoAVBPXC0307PN7oyibpky48WThosu3EL8rSA/640?wx_fmt=gif)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_020_34cda277996a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZYuXEbzfkKesffwaicMog1S0ichv1CvXBzeUPsET3KPwOPlD7K7crvGMw/640?wx_fmt=jpeg)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_021_bb411226df8e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZhVhwjjNFI0kibEKQBsxtoAVBPXC0307PN7oyibpky48WThosu3EL8rSA/640?wx_fmt=gif)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_022_34cda277996a.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46zk5bl2JIW9QhV1prF5NWZhVhwjjNFI0kibEKQBsxtoAVBPXC0307PN7oyibpky48WThosu3EL8rSA/640?wx_fmt=gif)
+![](传感器饱和的非线性网络化系统模糊H_滤波_images/img_023_34cda277996a.gif)
 
 **长按二维码｜关注我们**
 

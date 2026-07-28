@@ -1,0 +1,402 @@
+# I2C“死锁”原因
+
+原创 硬件笔记本 2024-03-12 07:51 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/E6\_TMmVspawrrc-VnhNJcQ](https://mp.weixin.qq.com/s/E6_TMmVspawrrc-VnhNJcQ)
+
+## ![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+  
+
+  
+
+  
+
+一、什么是I2C协议
+
+  
+
+  
+
+  
+
+I2C协议是一个允许一主多从进行通讯的协议。它就像串行外设接口（SPI）一样，只能用于短距离通信。又像异步串行接口（如RS232或UART）， 只需要两根信号线来交换信息。
+
+实现I2C需要两根信号线完成信息交换，SCL时钟信号线，SDA数据输入/输出线。它属于同步通信，由于输入输出数据均使用一根线，因此通信方向为半双工。
+
+总结：短距离、一主多从、半双工、两根线、同步通讯
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGZVibQwpntLQlrBdwYXX8F6m9ysFfRa5v2DnI8sGAgOzbqLbxERfG4Xw/640?wx_fmt=png)
+
+  
+
+  
+
+  
+
+  
+
+二、名词解释
+
+  
+
+  
+
+  
+
+什么是半双工呢？什么是同步通讯？什么是异步通讯？  
+
+1 什么是半双工？
+
+数据通信中，数据在线路上的传送方式可以分为单工通信、半双工通信和全双工通信三种。
+
+单工通信：是指消息只能单方向传输的工作方式。例如遥控、遥测(一部分)，就是单工通信方式。单工通信信道是单向信道，发送端只能发送信息，不能接收信息；接收端只能接收信息，不能发送信息。
+
+半双工：是指数据可以沿两个方向传送，但同一时刻一个信道只允许单方向传送，因此又被称为双向交替通信。半双工方式要求收发两端都有发送和接收能力。由于这种方式要频繁变换信道方向，故效率低，但可以节约传输线路。
+
+全双工：是指在通信的任意时刻，线路上可以同时存在A到B和B到A的双向信号传输。在全双工方式下，通信系统的每一端都设置了发送器和接收器，因此，能控制数据同时在两个方向上传送。全双工方式无需进行方向的切换，因此，没有切换操作所产生的时间延迟，这对那些不能有时间延误的交互式应用（例如远程监测和控制系统）十分有利。比如，电话机则是一种全双工设备，其通话双方可以同时进行对话。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGIbXnibm3dC1FHnC2nHRqVbvFvAB6qNdMO9Q74l0MTnQcBDxqqXhYLTQ/640?wx_fmt=png)
+
+  
+
+2.2 什么是同步通讯
+
+同步通信：发送端在发送串行数据的同时，提供一个时钟信号，并按照一定的约定（例如：在时钟信号的上升沿的时候，将数据发送出去）发送数据，接收端根据发送端提供的时钟信号，以及大家的约定，接收数据。如：I2C、SPI等有时钟信号的协议，都属于这种通信方式。
+
+异步通信：接收方并不知道数据什么时候会到达，收发双方可以有各自自己的时钟。发送方发送的时间间隔可以不均，接收方是在数据的起始位和停止位的帮助下实现信息同步的。这种传输通常是很小的分组，比如：一个字符为一组，数据组配备起始位和结束位。所以这种传输方式的效率是比较低的，因为额外加入了很多的辅助位作为负载，常用在低速的传输中。
+
+同步通信与异步通信区别：
+
+（1）同步通信要求接收端时钟频率和发送端时钟频率一致，发送端发送连续的比特流；异步通信时不要求接收端时钟和发送端时钟同步，发送端发送完一个字节后，可经过任意长的时间间隔再发送下一个字节。
+
+（2）同步通信效率高，异步通信效率较低。
+
+（3）同步通信较复杂，双方时钟的允许误差较小；异步通信简单，双方时钟可允许一定误差。
+
+（4）同步通信可用于点对多点；异步通信只适用于点对点。
+
+  
+
+  
+
+  
+
+  
+
+三、I2C的功能特点
+
+  
+
+  
+
+  
+
+I2C最重要的功能包括：
+
+-   只需要两条总线；
+    
+-   没有严格的波特率要求，例如使用RS232，主设备生成总线时钟；
+    
+-   所有组件之间都存在简单的主/从关系，连接到总线的每个设备均可通过唯一地址进行软件寻址；
+    
+-   I²C是真正的多主设备总线，可提供仲裁和冲突检测；
+    
+-   传输速度：
+    
+
+-   标准模式：Standard Mode = 100 Kbps
+    
+-   快速模式：Fast Mode = 400 Kbps
+    
+-   高速模式：High speed mode = 3.4 Mbps
+    
+-   超快速模式：Ultra fast mode = 5 Mbps
+    
+
+-   最大主设备数：无限制；
+    
+-   最大从机数：理论上是127；
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGhlocECAgRW5G5huZM3Up2cGHUic60D3LVgicGlVoM5BjoKua0xS76DBQ/640?wx_fmt=png)
+
+  
+
+  
+
+  
+
+  
+
+四、I2C的高阻态
+
+  
+
+  
+
+  
+
+漏极开路（Open Drain）即高阻状态，适用于输入/输出，其可独立输入/输出低电平和高阻状态，若需要产生高电平，则需使用外部上拉电阻
+
+高阻状态：高阻状态是三态门电路的一种状态。逻辑门的输出除有高、低电平两种状态外，还有第三种状态——高阻状态的门电路。电路分析时高阻态可做开路理解。
+
+我们知道IIC的所有设备是接在一根总线上的，那么我们进行通信的时候往往只是几个设备进行通信，那么这时候其余的空闲设备可能会受到总线干扰，或者干扰到总线，怎么办呢？
+
+为了避免总线信号的混乱，IIC的空闲状态只能有外部上拉， 而此时空闲设备被拉到了高阻态，也就是相当于断路， 整个IIC总线只有开启了的设备才会正常进行通信，而不会干扰到其他设备。
+
+  
+
+  
+
+  
+
+  
+
+五、数据传输协议
+
+  
+
+  
+
+  
+
+主设备和从设备进行数据传输时遵循以下协议格式。数据通过一条SDA数据线在主设备和从设备之间传输0和1的串行数据。串行数据序列的结构可以分为：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricG6c6OV2C0wRD0FvELFhkqKggOCgf4HQXtYZeV1eWHiaRKEODd8XqOfjQ/640?wx_fmt=png)
+
+1 起始位
+
+当主设备决定开始通讯时，需要发送开始信号，并且执行以下过程：
+
+-   将SDA线由高电平切换成低电平；
+    
+-   将SCL线由高电平切换成低电平；
+    
+
+在主设备发送开始条件信号之后，所有从机即使处于睡眠模式也将变为活动状态，并等待接收地址位。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGTicpqyeyY2PKA3ibvunz2ZIIFonlUZiaVRN2ibR6HviaZ7ZiaCykG3vMrXlg/640?wx_fmt=png)
+
+2 地址位
+
+地址位支持7bit、10bit，主设备如果需要向从机发送/接收数据，首先要发送对应从机的地址，然后会匹配总线上挂载的从机的地址，故地址为主要用来辨识不同设备。
+
+地址位由主机发送，从设备负责接受并识别该地址是否位自己地址。
+
+3 读写位
+
+由于I2C是半双工通讯，所以设备需要确定数据传输的方向，故引入了读写位。
+
+-   如果主设备需要将数据发送到从设备，则该位设置为 0；
+    
+-   如果主设备需要往从设备接收数据，则将其设置为 1 ；
+    
+
+读写位由主机发送；1表示读操作，0表示写操作。
+
+4 应答位
+
+I2C最大的一个特点就是有完善的应答机制，从机接收到主机的数据时，会回复一个应答信号来通知主机表示“我收到了”。
+
+应答信号：出现在1个字节传输完成之后，即第9个SCL时钟周期内，此时主机需要释放SDA总线，把总线控制权交给从机，由于上拉电阻的作用，此时总线为高电平，如果从机正确的收到了主机发来的数据，会把SDA拉低，表示应答响应。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGCBPkA53GbhP30g7Gc7AOCia04cvJnxY9Is6WLrY0yPmG1t0M403U3cg/640?wx_fmt=png)
+
+非应答信号：当第9个SCL时钟周期时，SDA保持高电平，表示非应答信号。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGGW0Lopk5D5z3hCz5Evkbtnl0KAyAJK4NoGQ9icqn45VjeLiblZL1oxzg/640?wx_fmt=png)
+
+非应答信号可能是主机产生也可能是从机产生，产生非应答信号的情况主要有以下几种：
+
+-   I2C总线上没有主机所指定地址的从机设备；
+    
+-   从机正在执行一些操作，处于忙状态，还没有准备好与主机通讯；
+    
+-   主机发送的一些控制命令，从机不支持；
+    
+-   主机接收从机数据时，主机产生非应答信号，通知从机数据传输结束，不要再发数据了；
+    
+      
+    
+
+5 数据位
+
+I2C数据总线传输要保证在SCL为高电平时，SDA数据稳定，所以SDA上数据变化只能在SCL为低电平时
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGtxaPdbdrFyL5aaVp4kKrRxgPSggOG2tffB4BywYvH90cW9OLV7q7iag/640?wx_fmt=png)
+
+一次传输的数据总共有8位，由发送方设置，它需要将数据位传输到接收方。
+
+发送之后会紧跟一个ACK / NACK位，如果接收器成功接收到数据，则从机发送ACK。否则，从机发送NACK。
+
+数据可以重复发送多个，直到接收到停止位为止。
+
+6 停止位
+
+当主设备决定结束通讯时，需要发送结束信号，需要执行以下动作：
+
+-   先将SDA线从低电压电平切换到高电压电平；
+    
+-   再将SCL线从高电平拉到低电平；
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGcvibILEic14UTqR9UuKjjR9ftHjAXGWP08ibKib6vFwtQ259AX6oIGdJQg/640?wx_fmt=png)
+
+总结，写寄存器的标准流程为：
+
+1\. Master发起START
+
+2\. Master发送I2C addr（7bit）和w操作0（1bit），等待ACK
+
+3\. Slave发送ACK
+
+4\. Master发送reg addr（8bit），等待ACK
+
+5\. Slave发送ACK
+
+6\. Master发送data（8bit），即要写入寄存器中的数据，等待ACK
+
+7\. Slave发送ACK
+
+8\. 第6步和第7步可以重复多次，即顺序写多个寄存器
+
+9\. Master发起STOP
+
+读寄存器的标准流程为：
+
+1\. Master发送I2C addr（7bit）和w操作1（1bit），等待ACK
+
+2\. Slave发送ACK
+
+3\. Master发送reg addr（8bit），等待ACK
+
+4\. Slave发送ACK
+
+5\. Master发起START
+
+6\. Master发送I2C addr（7bit）和r操作1（1bit），等待ACK
+
+7\. Slave发送ACK
+
+8\. Slave发送data（8bit），即寄存器里的值
+
+9\. Master发送ACK
+
+10\. 第8步和第9步可以重复多次，即顺序读多个寄存器
+
+  
+
+  
+
+  
+
+  
+
+六、仲裁机制
+
+  
+
+  
+
+  
+
+在多主的通信系统中。总线上有多个节点，它们都有自己的寻址地址，可以作为从节点被别的节点访问，同时它们都可以作为主节点向其他的节点发送控制字节和传送数据。
+
+但是如果有两个或两个以上的节点都向总线上发送启动信号并开始传送数据，这样就形成了冲突。要解决这种冲突，就要进行仲裁的判决，这就是I2C总线上的仲裁。
+
+I2C总线上的仲裁分两部分：SCL线的同步和SDA线的仲裁。
+
+1 SCL线的同步
+
+SCL同步是由于总线具有线 “与” 的逻辑功能（开漏输出），即只要有一个节点发送低电平时，总线上就表现为低电平。当所有的节点都发送高电平时，总线才能表现为高电平。正是由于线“与”逻辑功能的原理，当多个节点同时发送时钟信号时，在总线上表现的是统一的时钟信号，这就是SCL的同步原理。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricG7yQP90ibyhQEpA2g2KAQ24icHMnGoibhmD2UQSyvp3ibjCPrW8CEzchGrw/640?wx_fmt=png)
+
+2 SDA线的仲裁
+
+总线仲裁是为了解决多设备同时竞争中线控制权的问题，通过一定的裸机来决定哪个设备能够获得最终的总线控制权。
+
+SDA线的仲裁也是建立在总线具有线与逻辑功能的原理上的。节点在发送1位数据后，比较总线上所呈现的数据与自己发送的是否一致（类似于CAN总线的回读机制）。
+
+-   是，继续发送；
+    
+-   否则，退出竞争；
+    
+      
+    
+
+I2C总线的控制逻辑：低电平优先
+
+SDA线的仲裁可以保证I2C总线系统在多个主节点同时企图控制总线时通信正常进行并且数据不丢失，总线系统通过仲裁只允许一个主节点可以继续占据总线。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGvJQGicib8Sc5N05dKiamxlZDic9FmuqM6CKxZkHGfrEGjvj0DfgTTQGQlQ/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj09URZ178vrJllUfYKkricGPK5rib1mLnKlAMkT8jVAqicZ4VRc8nuLees7ibak76muOJDIOCqXMSzDA/640?wx_fmt=png)
+
+上图过程分析：
+
+第一个周期：所有设备发送1，做与运算后的结果为1，与自己发送的数据相同，继续发送；
+
+第二个周期：所有设备发送1，做与运算后的结果为1，与自己发送的数据相同，继续发送；
+
+第三个周期：所有设备发送0，做与运算后的结果为0，与自己发送的数据相同，继续发送；
+
+第四个周期：AB设备发送1，C设备发送0，做与运算后结果为0，与AB发送的数据不同，则AB退出竞争，节点C获胜；
+
+注：若AB两个设备发送0，C设备发送1，这最后与运算结果为0，与AB数据格式相同，与C数据格式不同，则C退出，AB继续发送，直至AB中有一个退出。
+
+SDA仲裁和SCL时钟同步处理过程没有先后关系，而是同时进行的。
+
+  
+
+  
+
+  
+
+  
+
+七、I2C死锁
+
+  
+
+  
+
+  
+
+在实际使用过程中，I2C比较容易出现的一个问题就是死锁 ，死锁在I2C中主要表现为：I2C死锁时表现为SCL为高，SDA一直为低。
+
+  
+
+在I2C主设备进行读写操作的过程中，主设备在开始信号后控制SCL产生8个时钟脉冲，然后拉低SCL信号为低电平，在这个时候，从设备输出应答信号，将SDA信号拉为低电平。
+
+如果这个时候主设备异常复位，SCL就会被释放为高电平。此时，如果从设备没有复位，就会继续I2C的应答，将SDA一直拉为低电平，直到SCL变为低电平，才会结束应答信号。
+
+而对于I2C主设备来说，复位后检测SCL和SDA信号，如果发现SDA信号为低电平，则会认为I2C总线被占用，会一直等待SCL和SDA信号变为高电平。
+
+这样，I2C主设备等待从设备释放SDA信号，而同时I2C从设备又在等待主设备将SCL信号拉低以释放应答信号，两者相互等待，I2C总线进人一种死锁状态。
+
+同样，当I2C进行读操作，I2C从设备应答后输出数据，如果在这个时刻I2C主设备异常复位而此时I2C从设备输出的数据位正好为0，也会导致I2C总线进入死锁状态。
+
+## 
+
+**声明：**
+
+  
+
+声明：本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+投稿/招聘/推广/宣传 请加微信：woniu26a
+
+**推荐阅读▼**
+
+-   [电路设计-电路分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2811359150088683521#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

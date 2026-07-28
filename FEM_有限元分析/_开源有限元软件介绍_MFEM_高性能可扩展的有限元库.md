@@ -5,7 +5,7 @@
 
 > 在科学计算领域，有限元方法（FEM）是处理偏微分方程（PDE）问题的常用数值工具。无论是结构力学、电磁场还是流体力学，FEM都能为复杂的物理问题提供高效的计算解决方案。本文将介绍一款广泛应用于各类高性能计算平台的开源库——**MFEM**。该库以其灵活、可扩展和高性能的特点，助力科研工作者和工程师在不同计算环境下开发先进的有限元算法。同时该开源求解器也得到了关注本号的部分网友的推荐🎈。
 > 
-> ![](https://mmbiz.qpic.cn/sz_mmbiz_png/114Mib4UdUMcQBAA9G9WIUV16tZtiahfmMmSsQ79t2lzlGWlGNqBkibauE9m9BwcO6jUEjJkuiaGfbhBr6wiadksKtQ/640?wx_fmt=png&from=appmsg)
+> ![](_开源有限元软件介绍_MFEM_高性能可扩展的有限元库_images/img_000_1bade19be083.png)
 > 
 > MFEM官网，参考资料\[1\]
 > 
@@ -36,7 +36,7 @@ MFEM，全称“Modular Finite Element Methods”，是由**LLNL**（劳伦斯�
     
 -   不连续 Petrov-Galerkin（DPG）方法
     
-    ![](https://mmbiz.qpic.cn/sz_mmbiz_png/114Mib4UdUMcQBAA9G9WIUV16tZtiahfmMcicNFFRexUnaNwFeyRiamxhtCdH7Y2iadvH3EC1DwW01uW0QbEKJPhxzA/640?wx_fmt=png&from=appmsg)
+    ![](_开源有限元软件介绍_MFEM_高性能可扩展的有限元库_images/img_001_8d5d8d33d13c.png)
     
     Discontinuous Petrov-Galerkin (DPG) method, 选自参考资料\[2\]
     
@@ -69,7 +69,7 @@ MFEM，全称“Modular Finite Element Methods”，是由**LLNL**（劳伦斯�
 12.  **丰富的示例代码**  
      对于初学者和高级用户，MFEM 提供了从简单到复杂的大量示例代码，涵盖了拉普拉斯问题、线性弹性、电磁场问题、不连续Galerkin法等各类有限元应用，帮助用户快速上手开发，部分示例代码如下图所示，相信你也能找到感兴趣的例子🍖：
      
-     ![](https://mmbiz.qpic.cn/sz_mmbiz_png/114Mib4UdUMcQBAA9G9WIUV16tZtiahfmMyl6DNTVQh8qugH0YHNfpVHO1V0SF4nTYvVdPRbuXCFIkglfX99Ggvw/640?wx_fmt=png&from=appmsg)
+     ![](_开源有限元软件介绍_MFEM_高性能可扩展的有限元库_images/img_002_4cd1c852c267.png)
      
      官方提供的大量示例代码，选自参考资料\[6\]
      
@@ -86,11 +86,11 @@ MFEM 已在多个知名科研项目中被广泛应用，例如：
     
 -   **CEED**：Exascale 计算项目中的高效离散化研究中心
     
-    ![](https://mmbiz.qpic.cn/sz_mmbiz_png/114Mib4UdUMcQBAA9G9WIUV16tZtiahfmMJyzkcutvEZOk6Ke1JNamTZte8lgPdPAvwFKCDiaPqFYbdBUerCvbuOg/640?wx_fmt=png&from=appmsg)
+    ![](_开源有限元软件介绍_MFEM_高性能可扩展的有限元库_images/img_003_2c427419c323.png)
     
     非线性弹性力学问题的MFEM求解，选自参考资料\[2\]
     
-    ![](https://mmbiz.qpic.cn/sz_mmbiz_png/114Mib4UdUMcQBAA9G9WIUV16tZtiahfmMenZxPLjQao9jAqjRLOQYuGdLnoficlgMX6C7anDEfspSxzZfcZQicH7A/640?wx_fmt=png&from=appmsg)
+    ![](_开源有限元软件介绍_MFEM_高性能可扩展的有限元库_images/img_004_c4f29ae3e7a0.png)
     
     基于MFEM，使用LLNL的LiDO项目对无人机机身进行拓扑优化，选自参考资料\[3,4\]
     
@@ -101,7 +101,7 @@ MFEM 已在多个知名科研项目中被广泛应用，例如：
 
 MFEM 兼容多个可视化工具，如 GLVis、VisIt 和 ParaView，能够准确地展示高阶网格和有限元函数。这些工具使用户能够轻松查看和分析仿真结果。此外，MFEM 采用模块化设计，代码量小，便于跨平台使用，并且具有高度的扩展性。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/114Mib4UdUMcQBAA9G9WIUV16tZtiahfmMm81bGAPygYfwQe0icCsK8Q6CV7zPLJnfUX5op58kO1ZOr9XwqRc4Wcg/640?wx_fmt=png&from=appmsg)
+![](_开源有限元软件介绍_MFEM_高性能可扩展的有限元库_images/img_005_d1844f4cfd7b.png)
 
 MFEM平台下，通过并行计算两个磁球的静磁相互作用得到的磁场流线,并使用VTK进行可视化，选自参考资料\[4\]
 

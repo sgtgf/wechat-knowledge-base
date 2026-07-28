@@ -19,35 +19,35 @@
 
 中间环境的代码没有保存，因此也无法展示没有bool运算的结果了。只能看看一步步生成的文件夹内容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNoe03jMVbSYcT56tw1312jeXJ26rm1xHI72e58kwNSL8FjjUibkpRhkW1IVV2H0UlzUFKAD86hHctg/640?wx_fmt=png)
+![](Cursor实践心得_附有问答过程_images/img_000_8d0813aad07c.png)
 
 **2.想了想，那就看看能不能实现简单的网格剖分**
 
 想着Cursor可能比较笨，因此就选择毕竟容易的python语言。最先让它帮我写了一个markdown，现在里面写好各个步骤的流程与一些能想到的细节。    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNoe03jMVbSYcT56tw1312je5EArzW8oQs2PZUxABlLlT6sEpibTfkIfXgLMicU6naYY5piaUoCP23gqg/640?wx_fmt=png)
+![](Cursor实践心得_附有问答过程_images/img_001_066f6e160de1.png)
 
 然后给它正确的读入几何模型的格式（直接用triangle的input格式）。解析好后，然后使用delaunay网格剖分，很快最简单的实现了，这时候吸取教训，保存的结果：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNoe03jMVbSYcT56tw1312jeY6OWjC18jXvibTNeKl0KeMguMBE4TMLNm7W5YoMGSRgCtsYroVGFpKA/640?wx_fmt=png)    
+![](Cursor实践心得_附有问答过程_images/img_002_9b2c3fe7c90b.png)    
 
 然后让Cursor帮我添加面积约束，也实现了，只不过网格质量很差：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNoe03jMVbSYcT56tw1312jeibmXFIDN7nvkD2W9aztCFafwia7oPwziadcFDZZCI3wO0PKLIf8XrCKXw/640?wx_fmt=png)
+![](Cursor实践心得_附有问答过程_images/img_003_ecb718911967.png)
 
 然后想着和tiangle一样，实现区域的面积控制，也基本上实现了，虽然网格质量还是很差：  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNoe03jMVbSYcT56tw1312je4sUibjFV9J99r4nUItbXYlVFvK7ibicGD5qBr9icEt3mn8qOB3QIq6FdxQ/640?wx_fmt=png)
+![](Cursor实践心得_附有问答过程_images/img_004_0182d771e2e8.png)
 
 这里我预感后面的优化可能会出问题，于是备份代码。
 
 接下来，我尝试让其帮我优化网格质量，根据角度、长短边比之类的。这里就开始卡住了，始终解决不了问题，而且在一次次的修改bug中也打乱了没有优化网格的代码，结果再一次导致整个代码无法修复，最终的结果就出现如下问题：    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNoe03jMVbSYcT56tw1312jeT6RIWgaoTTGNH6jfkk4FA8vcakJzBbtBXeBC6A4UIcvamXVvNnoBQA/640?wx_fmt=png)
+![](Cursor实践心得_附有问答过程_images/img_005_0c26fdb2016a.png)
 
 无论如何调试，始终不对，直到Cursor试用期到了。下面是生成的文件名，可以看到mesh\_generator.py修改了110次了还没有成功。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNoe03jMVbSYcT56tw1312jeua44ZKWO3ib7I4vgK17GYfGLYMDdHC9I0cedUaMWicKSEA6wmFACuH1Q/640?wx_fmt=png)
+![](Cursor实践心得_附有问答过程_images/img_006_efd1be83d14a.png)
 
 **使用心得：**
 
@@ -63,41 +63,41 @@
 
 6.Cursor的试用期是两周，到期后就不能使用claude-3.5-sonnet了，只能使用mini。但是mini基本上都没有上下文而且很“笨”，如果调试操过三次没有成功，基本上就陷入了答非所问的结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNoe03jMVbSYcT56tw1312jescvaBMG83MXovdOTNdXj2nc6NVWPpVCliahIeqX8d9nsHfmBCxsia2SA/640?wx_fmt=png)
+![](Cursor实践心得_附有问答过程_images/img_007_cb16713c83b6.png)
 
 7.之前有朋友问具体步骤怎么实现了。觉得用多了就有感觉了，下面截图一些我个人的提问和回答内容，不喜勿喷。
 
 问1：给出你想要做的事情，可以先写在md里面。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNoe03jMVbSYcT56tw1312jeBOhLbHWlB9UeBn5OQI0aicYWy4EwKTLick23CJaCyWc6vaZtBQUW3akg/640?wx_fmt=png)
+![](Cursor实践心得_附有问答过程_images/img_008_85702f21dd31.png)
 
 问2：直接上截图
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNoe03jMVbSYcT56tw1312jeVBlnticg4nfCygh1tevYYFiaOVSicolf2jK3JNT74MfdibngHLP22xRMOA/640?wx_fmt=png)
+![](Cursor实践心得_附有问答过程_images/img_009_a23a5201a65d.png)
 
 问3：让cursor推荐语言    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNoe03jMVbSYcT56tw1312jePKF57bkNicjI2zbmxX6MbMMleUdOfzdTldu7xmhXQMuVaIibHeKfDuEQ/640?wx_fmt=png)
+![](Cursor实践心得_附有问答过程_images/img_010_126ad966c812.png)
 
 问4：根据cursor提示继续
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNoe03jMVbSYcT56tw1312jew9POMia1A0NXX2EyJ5qwfGnox47WXTWr4vAWYlpoVPhu7Evcttx3Uyg/640?wx_fmt=png)
+![](Cursor实践心得_附有问答过程_images/img_011_f8b6483aba15.png)
 
 ....
 
 自己查看markdown，觉得差不多了，就可以让cursor写代码了。    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNoe03jMVbSYcT56tw1312jeKKfhxOvwQ0Tw0rsMNLqIaxTQ04mZpmPd0pchyFCMn5N2Jaib1PgMNqA/640?wx_fmt=png)
+![](Cursor实践心得_附有问答过程_images/img_012_611b9e2893a3.png)
 
 想要个测试代码，问cursor
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNoe03jMVbSYcT56tw1312jeQoYz1xspJOeA8sheiaz0PMtFmf7icsF6b4UOUqNKibPqLMwYyr2SqHcag/640?wx_fmt=png)
+![](Cursor实践心得_附有问答过程_images/img_013_943b8dba10c8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNoe03jMVbSYcT56tw1312je8mEYOJk5xKIu2QI6NqL00ISSgRGk1fL4nPDGGJibTKx9Fib6usN1FC3A/640?wx_fmt=png)
+![](Cursor实践心得_附有问答过程_images/img_014_2d412caaef46.png)
 
 第一次生成的文件有错误，于是提示它修改：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNoe03jMVbSYcT56tw1312je7lhibnWicxTy8WkwghqOKaWk6TmBZqyO54yy54zOfIiauXJIMaXrmvl9w/640?wx_fmt=png)
+![](Cursor实践心得_附有问答过程_images/img_015_febbc8d6548b.png)
 
 .....
 

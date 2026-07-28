@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/g9ow9DQ7ITG5igXeR7qLiA](https://mp.weixin.qq.com/s/g9ow9DQ7ITG5igXeR7qLiA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibmU8fiadC7xR22rerMJSe0xD8bYAicbAH1X1WibsJSiaKibib289np5jq3sBw/640?wx_fmt=jpeg)
+![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_000_41b73a79e41b.jpg)
 
 来源： AI科技大本营（ID；rgznai100）
 
@@ -14,7 +14,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibwzSJ8HhFCX3eevCbVkJspcBHraw8wshNCoXcGRUGHoDZHJMUsmtChg/640?wx_fmt=jpeg)
+![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_001_91cfb8119029.jpg)
 
   
 
@@ -28,7 +28,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibMW0DmJM6YmUXrdmu97ia2nqiafUCAyEWIoUEO2icGAoBwHJY3DuRuSqTQ/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_002_d9733d6ab5d6.jpg)﻿
 
   
 
@@ -36,7 +36,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibCutwVZVFBxyd26TFYZlBkTNibC51fQo3Gas6uF0TmbpSE5mFOMnXfiaw/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_003_6bf67ceaa64f.jpg)﻿
 
   
 
@@ -44,7 +44,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGib2FWlTquFBMJtyM2rgcazc6yW3Y7PLe2c1icH5rQLgjQkIJ1zVNt3ibLw/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_004_269448fd5676.jpg)﻿
 
   
 
@@ -52,7 +52,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibJZMW6o5icSWnU44yN0tEecCGynibKFrUR5kaPjWTXJtcY0A5KU76RiabQ/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_005_ea94346437f0.jpg)﻿
 
   
 
@@ -60,7 +60,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibicib0oqdHCBFLJwcCib1fLdx8M7qInjds5anKpWJqcIZrGAx3VJxlXXIA/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_006_b4c9c698f3b9.jpg)﻿
 
   
 
@@ -68,7 +68,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGib8ZumHt6oLAWRARKbmlkzkFU18c8KcfmPVF8NuQmHawPprvrFvhGU1A/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_007_8f6714040a19.jpg)﻿
 
   
 
@@ -76,7 +76,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibuF4zdsHgEYbx3ub98IwpxaImYXEfibfvJMShgtIicriam6klZXlg4KW6Q/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_008_ac0b745cb260.jpg)﻿
 
   
 
@@ -84,7 +84,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibBlcGrIu7dy7ZjnVNXwfPmG9ILuVHw4hjjDaeEkqEayudic0FwOI2iagQ/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_009_a96505f1a27b.jpg)﻿
 
   
 
@@ -92,7 +92,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibdQ9PWhavCxvVkf5jIL7TqjNicH06ogibvibOAOicBx8kOqQX00iaYKN3AUA/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_010_c86c1b94f97b.jpg)﻿
 
   
 
@@ -104,7 +104,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibeftxbnibBVN0iaChSTLLgklPU7jQRls2Z15hpC57jT8arFWoDnOGJjFg/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_011_ca8be2e1f8f1.jpg)﻿
 
   
 
@@ -112,7 +112,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibNE91ib8ubwgRxrhscMNx3SWA62Pre4ro6lAhvsaIc33Xibb8k4TyXvqA/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_012_a2eedb1a4066.jpg)﻿
 
   
 
@@ -120,7 +120,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibwQCxMzRaxs3vicb8o3gmpZLiamVic2gyLbibqLyYPiaXfNfBqCvnVrad4eg/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_013_94c5cf2b7fe5.jpg)﻿
 
   
 
@@ -128,7 +128,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibJFhdpwHk6bLFDeIITLdzHLIXV9X1gAsdC9YcAIRPxWKQoe6RTfO2iag/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_014_7c5af93f2277.jpg)﻿
 
 # 
 
@@ -152,7 +152,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGib5UQyVicnI94sibCXmtCiaDiaHLic50m4iav0pYL41eoDasCpVHLIvP8a0Elw/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_015_2bfccbccc4e4.jpg)﻿
 
   
 
@@ -160,7 +160,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibZUtgI3lWb2LFCgkXQTGzLv5l8IdVCnxj1LmvUu4BbGbO5FtFIN6TrA/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_016_8d2206a84f62.jpg)﻿
 
   
 
@@ -168,7 +168,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibeBic3uiawJXPqTUUvN5zrFSunViaTmnCyOC2FVaNPwic4AI5O1RK4pvSMQ/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_017_2ece4152a1e8.jpg)﻿
 
   
 
@@ -176,7 +176,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGib5yuMW7k5Eyn8uico3wp5lSg0Rbn8OC2HHKD2SUY0guflIicWUbRkf5vg/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_018_3166dabe1b1e.jpg)﻿
 
   
 
@@ -184,7 +184,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibt1SIRdHChpJfW1ssHn7vicbjjKqFIUQBibTyCcaicHNVmqbia03cA9G6pQ/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_019_8877f1760676.jpg)﻿
 
   
 
@@ -200,7 +200,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibVv5uCot4439hGWJT4uBeXyNdXWLcBjcmeQ4YIIoBHbQMLGib4WtRI6A/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_020_2dbc2e96fdf3.jpg)﻿
 
   
 
@@ -208,7 +208,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibVmGc45WIianDD4kMUmbT2u6pGwbDxB0Xiceeu91b0c7K3pzHWcLP2wpA/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_021_1e7b789811bf.jpg)﻿
 
   
 
@@ -216,7 +216,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGib3V9Mney0oenRNge5jMHBCIt2NDjF1YPxeeQOM45e6Wic466WP4jicqKg/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_022_9eb3956d47f3.jpg)﻿
 
   
 
@@ -224,7 +224,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibf5LOtBo3ibkvgvSw7anz1KnbmSvbfWRicobKCP7cQziaPqH9M05picq3icw/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_023_24afe1aaf70e.jpg)﻿
 
   
 
@@ -232,7 +232,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibJqrTXG3BkGib1WK9RWlZTibJd16usk3BVfrr93JJMycVFT9T1aHN1vaw/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_024_2cb47730d485.jpg)﻿
 
   
 
@@ -240,7 +240,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibY2dQdbfcEkNAcZZte3qOdF5yScYF8kxx9WcwwxgMbzFJE2aS0DHVAg/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_025_e0accb320604.jpg)﻿
 
   
 
@@ -248,7 +248,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGib7RXD60lqIIqoIC66tKxiaeXso99vJ97e2Z0icUTMBUsK5QDNERHLtQVg/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_026_5eb6f440ddc2.jpg)﻿
 
   
 
@@ -256,7 +256,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibu6meib4nbW26tMic8Ufia58T3sDEc4UAsgicOGsK8K8eEpLjiaibCGHcCichA/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_027_bd30a254caea.jpg)﻿
 
   
 
@@ -264,13 +264,13 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibwgfQfToT5jn4e5rKc1mKLxQTlYI2FaNjBXau1UJHauw2ic6YOcrGdjQ/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_028_0b694a6fd8bf.jpg)﻿
 
   
 
 我们进行了对抗性训练，比如说我们可以训练机器来了解哪个分项是更可能的，或者在实际生活中会产生什么样的结果。对于发生的可能性它也会来做出预测，可能有的时候有的结果是虚假的，不是真实的。通过这么做我们就能够得到不同机器产生的结果，之后得到了很多的影像和图片。
 
-    ﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibpPW5saV6lQ50BEoYSC1NrILlg36sfhwdOPbK8REAYMZYDwv91b2F3A/640?wx_fmt=jpeg)﻿
+    ﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_029_f0664c677886.jpg)﻿
 
   
 
@@ -282,7 +282,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibBzgEETjmSHhsrenicsJ0lf486flM3gMib8hGgvmp39pOIIQjFNoy89Pg/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_030_f90ab0acd205.jpg)﻿
 
   
 
@@ -294,7 +294,7 @@
 
   
 
-﻿![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibMvzKugq2ib646MMlNplQTd2eOQLt3QUs2734IJNV56kAILp295gH73Q/640?wx_fmt=jpeg)﻿
+﻿![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_031_44f1a3b27f36.jpg)﻿
 
   
 
@@ -314,7 +314,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibK7pA3OxXwu2o4uL0JKUibJ1u7bMxMUbSu7qFqo0rXibmbXWH4LGFhjhQ/640?wx_fmt=jpeg)
+![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_033_c5622019c6eb.jpg)
 
   
 
@@ -324,7 +324,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibbBic997ZUqcRzXsI1Co4yDHTtcadYjFWSlfu7URUSIgM8q5sjuEE45w/640?wx_fmt=jpeg)
+![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_034_a8ff6e690c7e.jpg)
 
   
 
@@ -334,7 +334,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH0CbmWtsyxzbOJ3axAx7LGibrxAfMGRIMUHDClyHhWicEGgvnVDZPNhFa5Bp2868JmyDRNT6P9YbqicA/640?wx_fmt=jpeg)
+![](Yann_LeCun_距离_真正的__AI_我们还缺什么__images/img_035_e31d683ad041.jpg)
 
   
 

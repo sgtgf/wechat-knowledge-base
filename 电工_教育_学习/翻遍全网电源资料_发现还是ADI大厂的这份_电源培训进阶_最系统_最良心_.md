@@ -1,0 +1,312 @@
+# 翻遍全网电源资料，发现还是ADI大厂的这份《电源培训进阶》最系统、最良心！
+
+原创 王工 硬件笔记本 2025-12-01 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/nJ-0\_mVyEPWfFeCbY56wcA](https://mp.weixin.qq.com/s/nJ-0_mVyEPWfFeCbY56wcA)
+
+![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=1 "音符")
+
+  
+
+前段时间和大家分享了电源知识的基础版，反响非常热烈。今天，咱们来点更硬核的——由 **ADI 官方出品**的 **《电源培训进阶》版**！这份资料在工程师圈子里口碑极佳，内容扎实、图文并茂，看过的同行都表示收获很大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh3bFY6UDCveZgO6BPllMfKs2z4LKlOgYBlAIuvcvhxNhm0IicicOWehqFia0tp1iaGiaOXMeGU1GxtPkA/640?wx_fmt=png&from=appmsg)
+
+进阶版资料共分为三大部分，总篇幅超过两百页，从核心原理到实战布局，系统覆盖电源设计的关键要点，全是不可多得的干货。接下来，我将为大家梳理这份资料的精华内容，并附上一些个人见解与解读，希望能助力各位进一步提升电源设计能力。
+
+资料已整理打包，文末附有《电源培训进阶》完整版PDF的下载方式，欢迎需要的朋友获取收藏。
+
+  
+
+01
+
+电荷泵、LED驱动和浪涌保护
+
+这第一部分，就像是给我们打地基，重点讲了三个既基础又关键的技术点：电荷泵、LED驱动和浪涌保护。
+
+#### **1、电荷泵**
+
+大家别再以为电源只有LDO和开关变换器了，电荷泵在特定场景下是真正的神器。
+
+**电荷泵是什么？**电荷泵利用电容来传输能量，所以它**不需要电感**。这就让它天生具备了体积小、结构简单的优势。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9Jib5kcROeaibep4YK1IyV95wokDNP2vZQkHYok8ce3H9LGSqzvkqibicKg/640?wx_fmt=png&from=appmsg)
+
+-   **优势对比**：
+    
+
+-   相比**LDO**，它的效率高出一大截，发热也小很多。
+    
+-   相比传统的**Buck/Boost开关变换器**，它省掉了那个又大又贵的电感，布局更简单。
+    
+-   当然，缺点也很明显：输出电流能力通常不大。
+    
+
+  
+
+-   **应用：高功率密度降压**。资料里重点介绍了用电荷泵做电**压转换（比如48V转24V）**。通过用电容替代电感，轻松实现了超过98%的效率和高得惊人的功率密度，对于解决咱们主板寸土寸金的布局难题非常有帮助。
+    
+    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9Ar4EYG2O1x4KkMalicp0rcM0hvb9I8vtokuKlLkoy8ofSMfP4qXHciaw/640?wx_fmt=png&from=appmsg)
+    
+
+#### 
+
+#### **2、LED特性及驱动电路**
+
+-   **王工认为**，驱动LED的核心就一句话：**把它当成一个电流型器件，而不是电压型器件**。
+    
+    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9ICiaOH0Iyf8elicQrAEhdfoCNk7Rk8Bf2ZrxeBXpoqbA25X90UKia5ibJA/640?wx_fmt=png&from=appmsg)
+    
+      
+    
+-   **LED的特性**：
+    
+
+-   **非线性**：电压微小的变化，可能导致电流巨大的波动，直接烧掉LED。
+    
+-   **怕热**：温度一高，亮度就下降，寿命也缩短。
+    
+-   **一致性差**：同一批买的LED，它们的电压-电流曲线也可能不一样。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9IZoMRmwHXtOVH7IgcompxJSmROGvA6HicLPLb0u25f8s457GHwHYMZA/640?wx_fmt=png&from=appmsg)
+
+所以，LED建议用恒流来驱动，这样才能保证每颗灯的亮度一致，并且用得长久。说到调光，PWM调光更常见一些。
+
+资料里还介绍了几种LED的连接方式，比如串联、并联或者混联。无论用哪种，都别忘了在驱动回路里加上限流电阻。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9dpsquVzazvuaK3Zticg5WZ2KYovcRxib1lq0oKhhxwtmFXvEg5vL8FFg/640?wx_fmt=png&from=appmsg)
+
+#### **关于调光方式，我们平时用得比较多的主要是这三种：模拟调光（需要芯片支持,需要DAC），带滤波器的PWM调光（准模拟），直接PWM调光。像咱们手机、显示器这些设备，就经常结合光感自动调节，同时用到模拟调光和PWM调光。**
+
+#### 
+
+#### **3、浪涌特性及保护电路**
+
+-   **王工感触**：咱们平时做防护，就是保险丝、TVS二极管一堆堆，有时候也可以走出去看看别人用了什么更好的方案来学习。
+    
+    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9wia3oOXByTicicPFHP0bCXHl2LE1IW1frRJVLwmh7kicKv0HTX7u0zWeNQ/640?wx_fmt=png&from=appmsg)
+    
+      
+    
+-   **传统方案的痛点**：
+    
+
+-   **机械保险丝**：反应慢，炸了就得换，不可恢复。
+    
+-   **TVS管**：钳位电压不精确，离散性大，而且有短路失效的风险。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9zJhCaVdcbMZTxDodMBiam5AU6FBjRmI2FXVnibXia7XibibtDDRYQLbUKYg/640?wx_fmt=png&from=appmsg)
+
+除此之外，咱们还可以利用常用的MOS管，利用MOS管的线性区来钳位尖峰（类似LDO工作)，利用MOS管的可变电阻区来有效抑制电流，从而降低功率。
+
+或者可以考虑更优的解决方案，集成浪涌抑制器（如ADI的LT4363）。这种芯片可以理解为一个智能的电子保险丝。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9dmz2sgnfh236kWqkGAk5X9w2gq8FpAicxASgoxAyDlRzAdh1HzzJv3A/640?wx_fmt=png&from=appmsg)
+
+-   **功能强大**：过压、欠压、过流保护阈值都可以精确设定，并且是**可恢复的**——故障排除后自动恢复，不用跑去现场换保险丝。
+    
+-   还集成了**理想二极管**功能，实现低损耗的防反接，以及**可控的上电斜率**，有效抑制浪涌电流。
+    
+
+王工一开始觉得这芯片不错，但一查价格，单个就要37块钱，用不起啊！对于咱们做的大多数对成本敏感的产品来说，这价格确实有点高攀了。所以，还是老老实实用回咱们的传统方案更实惠——比如保险丝、TVS管、气体放电管（GDT）、NTC热敏电阻或者MOS管这些。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9xdZmTtkBSDx5icWeQqFbVXZlMoEksMrlibJ6FNxwQvF0vHpCz9D6IREw/640?wx_fmt=png&from=appmsg)
+
+看来，这类高大上的集成芯片，还是留给那些不差钱或者有特殊高要求的项目吧。
+
+  
+
+02
+
+系统思维——低功耗设计、隔离与备份
+
+第二部分将我们的视角从单个电路提升到了整个系统，重点关注如何做出一款好用又可靠的产品。
+
+#### **4、系统级低功耗设计**
+
+-   **王工观点**：功耗设计，重载看效率，轻载看静态电流。很多电池供电设备，待机功耗才是决定系统寿命的关键。
+    
+-   **一个生动的例子**：资料里用3100mAh电池举例，在100μA的待机电流下，用一个静态电流5mA的LDO供电，只能待机25天。
+    
+
+如果换用静态电流更小的仅2.5μA的开关变换器（如LT8645S），理论待机时间将大大延长。当然，实际应用中还需要考虑**电池的自放电效应**，但这恰恰说明了降低静态电流对提升续航的极端重要性。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9Ymibo6RYDruEWZRIKL6ZgRJPiant0J6l9oI0d4j2xZN4OtXndA9Jw8Xg/640?wx_fmt=png&from=appmsg)
+
+要实现超低静态电流，电源芯片的工作模式选择至关重要：
+
+-   **三种工作模式**：
+    
+
+**1、**Burst Mode****  
+核心是牺牲性能换取极致效率。轻载时完全关断开关进入休眠，静态电流极低，能极大延长电池续航。但代价是输出电压纹波较大。它是物联网传感器等超低功耗设备的首选。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9IsVYm5ZmHwicdFS8qpzujmvUj7vHFzTUFEd9SN9MoyoKXkFL617wTBA/640?wx_fmt=png&from=appmsg)
+
+**2、**Pulse Skip Mode****  
+核心是效率与性能的折中。通过智能跳过不必要的开关脉冲来降低损耗，其效率优于强制连续模式，同时输出的电压纹波又远小于突发模式。适用于对两者均有要求的通用场景。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9qHKYib5ialTBgFa0jB5WL1VibwNN3uggicZXYNVlm1mlPmD4kwmQ3mQx8w/640?wx_fmt=png&from=appmsg)
+
+**3、**Forced Continuous Mode****  
+核心是牺牲效率换取最佳性能。始终保持固定频率的开关动作，因此输出电压纹波最小、噪声频谱纯净且瞬态响应最快。缺点是轻载时效率最低，主要服务于DDR内存、射频芯片等对电源质量极其敏感的负载。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9pyBYQ6LQ1HoPeRFO54o8uYMictvAHBGHJd0ZN17ibnDwiaSTCykuXatHQ/640?wx_fmt=png&from=appmsg)
+
+王工总结：要省电，用突发模式；要稳定，用强制连续模式；折中方案，用跳脉冲模式。
+
+除了芯片选型，系统级优化也至关重要：
+
+-   **注意I/O漏电**！别小看那些上拉/下拉电阻，用1K电阻和用100K电阻，整机功耗可能差出10mA！
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9GYqYuJhlqpAW7P2PJ0JhAT79kLkd0VaWlMbCPvISZYpDkWK2ygoPyQ/640?wx_fmt=png&from=appmsg)
+
+  
+
+-   **电源管理**：用MOS管或者专用芯片实现优雅的开关机时序，关断不用的模块，从系统架构上省电。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9hspej6nKto2QtdSJFHjuoe8DbJ5MPiaeq2X1Agfm6sY3NMMAQxJHo7Q/640?wx_fmt=png&from=appmsg)
+
+  
+
+#### **5、板级小功率隔离电源设计**
+
+-   **王工认为**，反激电源是咱们电源工程师的入门必修课。资料中图文并茂地讲解了隔离拓扑的起源和典型的AC/DC反激构成，有助于初学者的理解，降低了学习门槛。
+    
+
+图文并茂讲了隔离拓扑的起源
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9aKxebb3ow1hCibjoXPGLj0FtJumsneGsba0IMWj18HcLXaS3sXcyORg/640?wx_fmt=png&from=appmsg)
+
+反激变换器的由来
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS97HbkdGlo1eDe1Gr00P0C8hibDZZGEP3lPMFAgevkXgxx5BeSZbmn5GA/640?wx_fmt=png&from=appmsg)
+
+典型的AC/DC反激构成
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9lbXIpTzVUHwVOc7Uunu82b2DPoSib9JddZxrRiaPPPbibE5icmNHjGcePw/640?wx_fmt=png&from=appmsg)
+
+咱们传统的反激方案都有光耦，作为反馈电路，光耦本身有寿命、有延迟，还占地方。这里有一款ADI的创新：LT8301/LT8304等芯片，通过检测变压器辅助绕组的电压来间接感知输出，从而**取消了光耦和次级侧的反馈电路**。
+
+这带来的好处是显而易见的：电路更简化、可靠性更高。当然，这款芯片价格相对较高（约15元左右），在成本敏感的产品中，传统光耦方案仍是主流，但LT8304无疑为我们提供了一个高可靠性的备用方案，具体选择需视应用场景而定。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9GleLGVtFpFjDFnQlDHtdWfm1fAWbu9zCKt2ICez4ke4cYJIsYia2cSw/640?wx_fmt=png&from=appmsg)
+
+本节还详细讲解了反激电源的几种工作模式（DCM、CCM）、变压器的设计流程、气隙计算、漏感影响以及尖峰吸收电路等关键内容。由于内容非常丰富，建议大家下载资料原文进行深入研读。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9MQfCVqd2cdlTBJ7H8AzCbiae9sruqlRTdqGld3c9CynbGbL2nx0VJrg/640?wx_fmt=png&from=appmsg)
+
+  
+
+#### **6、系统备份电源方案与能量监控**
+
+-   **王工觉得，**这是产品走向高可靠性的关键一步，尤其是在数据至关重要的工业、通信领域。
+    
+
+大多数朋友在有备用电源时，可能会首选简单的二极管隔离方案（即二极管或电路）。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9OjaDibWDMMkSKrNvRDBBoex1utwADnrK7X7ibSvMuv85Aq1ltXsjtAXQ/640?wx_fmt=png&from=appmsg)
+
+这个方案虽然简单，但不够好，因为二极管的正向压降会带来额外的功耗和热量。关于更优的设计思路，大家可以参照我之前写得下面这篇文章：
+
+[这个电路该怎么设计？点评几位兄弟的电路图，第四个有点意思](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553100&idx=1&sn=66890199e2f3ccc0d030022550725be1&scene=21#wechat_redirect)
+
+对于开发手持电池类产品的朋友，这一部分内容非常值得关注。它详细探讨了超级电容、锂电池等不同储能元件的特性，并介绍了一些ADI的先进电源管理和能量监控方案，帮助我们构建更智能、更可靠的供电系统。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9uXpyltsGy0ZAUwTf5jtUjSo5wRjCj1xhPzfFicqdyAl6liao3c7WjM8A/640?wx_fmt=png&from=appmsg)
+
+  
+
+03
+
+实战进阶——参数计算、PCB布局与尖端技术
+
+第三部分是实战环节，教我们如何计算、如何PCB布局，并介绍了ADI相关技术来解决实际问题。
+
+#### **7、电源关键参数的测试与优化**
+
+-   **王工观点**：一个优秀的电源工程师，必须能定性和定量。不能光说效率高，要能算出损耗在哪，并知道如何优化。
+    
+
+那么，评价一个电源性能好坏，我们需要关注哪些核心指标呢？主要是这几点：**效率、纹波、动态响应、体积和温升**。这些指标共同决定了电源的性能、可靠性和适用场景。
+
+为了让大家有更直观的理解，资料中给出了一个非常详尽的Buck变换器设计实例，其规格如下：
+
+-   **输入电压**：6.5V - 16V
+    
+-   **输出电压/电流**：1.8V / 20A (这是一个大电流、低电压的应用，对设计要求很高)
+    
+-   **目标效率**：90% (在12V输入，满载条件下)
+    
+-   **目标纹波**：30mV峰峰值
+    
+
+**这个实例一步步演示了完整的工程设计流程：开关频率选择、电感计算、MOS管选型、计算和电容选型。。。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9A9Pd5ktW6EhUb9dhJ9PuD1QQ802TmpLVV1vwV254J9sDyzCfcrH2Dw/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9qOrssNfElHibCXicC1gBIuWvvzicibhs8ZgMibKSAnqymByFJH8j4ltOyQw/640?wx_fmt=png&from=appmsg)
+
+由于整个计算过程篇幅较长且非常专业，这里不再展开，建议大家下载原版资料，跟着步骤亲手计算一遍，这对理解整个电源设计流程至关重要。
+
+  
+
+#### **8、PCB布局、布线、 调试要点及注意事项**
+
+王工一再强调：**布局必须全方面考虑，一定要提前和结构工程师、Layout工程师充分沟通。** 原理图再完美，如果PCB布局不当，导致噪声巨大、系统不稳定甚至过热，整个方案很可能需要推倒重来，代价巨大。
+
+1、正确选择叠层
+
+好的叠层能为关键信号提供完整的地平面作为回流路径，有效控制特性阻抗，并帮助电源分布和散热。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9tlqtUNp8QQACLEUtp9rfHm9HsjU2gPkmnGmx4bbSb7D7LoFvz5sdLQ/640?wx_fmt=png&from=appmsg)
+
+**2、处理敏感的信号地**  
+
+对于小信号走线（如反馈网络），必须保证其下方有完整的地平面作为参考。如果走线不得不跨越参考层上的分割间隙，文章指出一个关键技巧：**应选择对阻抗影响最小的方向（如沿缝隙方向）走线，而非横跨缝隙，以最大限度降低对电源参考层完整性的破坏。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9S9XU7t0ibYCDEJYRQk7Kdy2ibMexTdH3MGx1tx0ZO2JnR0CJmRjwphGA/640?wx_fmt=png&from=appmsg)
+
+  
+
+3、文章通过Buck和Boost电路的布局实例详细展示了如何摆放功率器件（MOSFET、电感）、输入/输出电容以及控制IC，以确保功率路径顺畅、环路面积最小，同时将开关节点产生的噪声与敏感的反馈区域隔离开。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS99VVS6IQc1iaORBgBKMpicOADHXu5KJYNxd3KwOickZV1ibLveeKgUeiaXPA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9hqkeoRrCdRgbrBV7otvibppv2uWx1uMlvdTpL6jVskfGicF5CQdhTwfA/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaqfgg6uyYXfia5RvLAbzSS9ONVLTStZBmibTHDM3ZOJCt0jtABpx4bBdY4q3gjo1Sibcmyz5LSyDw2Q/640?wx_fmt=png&from=appmsg)
+
+**由于这部分内容非常详实且配有大量图示，**大家自己下载查看吧。仔细研究其中的布局对比和走线示范，这对于提升实战能力会有比较好的效果。****
+
+05
+
+资料获取
+
+通读这份ADI的培训资料，王工最大的感受是：电源设计是一个从微观（元件特性）到宏观（系统架构），从理论（公式计算）到实践（布局调试）的完整体系，内容较为丰富。
+
+以上就是王工对这份《ADI电源培训进阶》资料的解读和思考，希望能对大家有所帮助。
+
+**如何下****载《ADI电源培训进阶****》，更好****的学习硬件电路基础知识**
+
+关注公众号：硬件笔记本，并在公众号里发送对应的下载关键字获取下载链接
+
+在公众号里给王工发消息:
+
+## 
+
+下载|**ADI电源培训进阶**
+
+## 建议复制粘贴过去，就不容易码错字哟！
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgQahibn8wADyJSmp94aib4n4XTrUWhVEXaPQ5ict1hHPl2exBdSBVByTFm6Hicfsta4OSSYZL19g68Fw/640?wx_fmt=png&from=appmsg)
+
+加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgQahibn8wADyJSmp94aib4n4oa1dFCr3yYdxoVZv6DXW3pOgPvRWGCoBiadce5VaWVKibSEOqsO0fAjw/640?wx_fmt=jpeg&from=appmsg)
+
+注：为支持知识产权，建议通过正规渠道购买正版书籍。此处提及的PDF仅用于个人学习交流，请勿用于商业用途。获取方式通常可通过技术社区、图书馆资源或在线学术平台查询。

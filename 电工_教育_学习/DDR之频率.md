@@ -1,0 +1,198 @@
+# DDR之频率
+
+原创 蜗牛 硬件笔记本 2023-01-03 07:30 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/q00ZC8D\_31QHr3IyfL4\_mQ](https://mp.weixin.qq.com/s/q00ZC8D_31QHr3IyfL4_mQ)
+
+#   ![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")  点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+大家好，我是蜗牛兄。  
+
+本文主要介绍DDR常用的三种频率，以及梳理内存频率是怎样提升的。可能这篇文章对于电路设计用处不大，但多了解一点总是没坏处的。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgyA3y8qRbs7DIE286GUsd0E8B8RWibmOyBoCJ9OvWwqERrjK3JBwaeF6XMpyyrG926P7ibVysvliabw/640?wx_fmt=png)
+
+图1  文章框图  
+
+通过下面这张表，我们一起来了解一下内存DDR的频率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaOdFy53ZvjpbvIjUy7Gv1CA1W3hQAYN5yAAzEQQAPrHpA8G78IsqGBCOVW3ayyAM3RSB23lOpabg/640?wx_fmt=png)
+
+图2  内存频率表格
+
+从表中可以看出内存有三种频率，分别是核心频率，工作频率和等效频率。而我们平时所说的频率就是等效频率。
+
+  
+
+从表格中我们可以得出以下信息：
+
+1、**核心频率**，指真正读写内存颗粒的频率，它是固定不变的，一般是133，166，和200MHz三类，这个频率提升很难。
+
+  
+
+2、**工作频率**，DDR工作频率是颗粒核心频率的两倍。 两倍是指在一个时钟周期内传输两次数据。
+
+  
+
+3、**等效频率**，就是对外宣称的频率，只不过加上了预存取功能，比如DDR2 800中800MHz表示的就是等效频率，它和内存的预读取有关。
+
+等效频率 = 颗粒核心频率 x prefect。
+
+  
+
+4、在核心频率相同的时候，
+
+SDR等效频率是核心频率的**1**倍，
+
+DDR等效频率是核心频率的**2**倍，
+
+DDR2等效频率是核心频率的**4**倍，
+
+DDR3等效频率是核心频率的**8**倍，
+
+DDR4等效频率是核心频率的**8**倍。
+
+  
+
+  
+
+**那么DDR内存频率是怎样提升的呢？**
+
+## 1、DDR在一个时间周期内进行了两次数据传输，提升了工作频率
+
+  
+
+以前的SDR在一个周期内进行一次数据传输，现在DDR一个周期内进行了两次数据传输（上升沿+下降沿）。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9SC9icp0WRYUp75UIb8cba537xA6t4oWaYKAQ0d9Lnk2QFuRuIvBFG9PPonAHFMHJGgia9ibicnLnog/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  
+
+图3  SDR一个周期内传输一次数据
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia9SC9icp0WRYUp75UIb8cba0VD18av61OJZ0XmTt3YLDnf5Z3cWD5pvSgLSjM1Ku60U3HSibI4VCcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图4  DDR一个周期内传输两次数据
+
+  
+
+  
+
+  
+
+## 2、增加了预读取技术**prefect**
+
+  
+
+怎么理解内存的预读取？
+
+  
+
+就好比我们的跑步比赛，每个人都有快慢之分。有的人跑步速度1m/秒，有的人跑步速度1.5m/秒。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgqnX8NictaGpxONgfr0UjTXXVClgYDpj8d40ibxe9EPyduDibdN7AyFLTe0yuOUbl7EdR4Oz4qiaOawg/640?wx_fmt=png)
+
+图5  跑步来形容预读取
+
+  
+
+DDR内存预读取是2bit，  
+
+DDR2内存预读取是4bit，
+
+DDR3内存预读取是8bit，
+
+DDR4内存预读取是8bit。
+
+  
+
+以上是SDR到DDR3频率增加的2个原因。不过DDR4在预读取位数上和DDR3内存一样是8bit，因为想翻倍到16bit在当时来说难度太大了。
+
+  
+
+  
+
+## 3、Bank Group分组设计
+
+  
+
+那么DDR4怎么在之前的基础上进行频率提升呢？这次我们要换个思路：
+
+  
+
+于是提出了**Bank Group**分组设计。包括使用两个或者四个可选择的Bank Group分组，允许各个Bank Group具备独立启动操作读、写等动作特性，从而改进内存的整体效率和带宽。所以等效频率可以提升到核心频率的16倍或32倍。
+
+  
+
+**点对点总线是DDR4整个存储系统的关键性设计。**
+
+  
+
+怎么说呢？
+
+  
+
+DDR3内存和内存控制器链接依靠的是多点分支总线。这种总线允许在一个接口上挂接许多同样规格的芯片。比如主板上往往为双通道设计四根内存插槽，每个通道在物理结构上只允许扩展更大容量。
+
+打个比方说，这种设计类似于为每次只能双向通行一对车的道路边修建仓库，仓库直连道路，虽然每个仓库都有自己的运输车和运输能力，但道路只允许每次双向通行一对车，因此这种设计如果不停的加修仓库，只是扩大了存储能力而已，对运输能力帮助不大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQ8iaIufKUM36iaSicjuRF1PuaP4jkVpyzqxyHD1ic0PqicIqgsW5DNziaXmZKxeW8xcVpGXHNoXCz8qw/640?wx_fmt=png)
+
+图6  DDR4点对点总线提高带宽
+
+  
+
+DDR4采用点对点总线，内存控制器每通道只能支持唯一的一根内存。
+
+  
+
+相比多点分支总线，点对点相当于为每个仓库都设计了一条道路，有效利用了仓库本身的运输能力，相当于有效利用了每个内存的位宽。
+
+  
+
+看到这里大概明白了，DDR4频率的提高主要是Bank Group的设计，其实本身的预读取能力并没有变。
+
+  
+
+## 4、降低工作电压
+
+  
+
+当然频率的提升除了以上原因外，还有一个特点，就是我们的工作电压也在不断降低。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPQ8iaIufKUM36iaSicjuRF1PLKGjdsLJ72VXLibLjNGteYWCcKUbFEDxFyeZ0Ns3d6sGjes1Yw9A7yw/640?wx_fmt=png)
+
+图7  降低电压提升频率
+
+  
+
+  
+
+降低工作电压直接带来两个好处：
+
+①降低功耗。（频率越高，功耗越大，所以降低电压有利于降低功耗）；  
+
+②速率提升。（这个好理解）
+
+  
+
+今天的文章就分享到这里，希望对你有帮助。  
+
+**推荐阅读▼**
+
+-   [硬件精选文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2531417028063166464#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

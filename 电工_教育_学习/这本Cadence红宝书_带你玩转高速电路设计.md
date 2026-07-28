@@ -1,0 +1,107 @@
+# 这本Cadence红宝书，带你玩转高速电路设计
+
+原创 王工 硬件笔记本 2025-09-26 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/ljHUACjhQY0fUviCcBPORQ](https://mp.weixin.qq.com/s/ljHUACjhQY0fUviCcBPORQ)
+
+![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=frjerr2t&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=x41xcyk9&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+
+  
+
+大家好，今天给大家分享一本高速电路设计书籍——陈兰兵的《Cadence高速电路设计——Allegro Sigrity SI/PI/EMI设计指南》！
+
+文末附493页完整版PDF文档获取方式。  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhIQnGuyvu3nhN9Tu1stno5eCJicAo3oC23VzibVCib7wtf6KHhBhNLCkj7iadc4iaK3zGmZJrGOMS8pAw/640?wx_fmt=jpeg&from=appmsg)
+
+现在咱们身边，什么云计算、5G、AI、物联网，这些听起来高大上的技术，其实核心都得靠高速集成电路来驱动。信号传输速度越来越快，电路设计就成了个大挑战。说白了，信号完不完整、电源稳不稳定、会不会电磁干扰，这些事儿从项目一开始就得操心，再也不能等设计完了才去补救了。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhIQnGuyvu3nhN9Tu1stno52M1JHus9OFAz1FblP0Mzy1UGnPYtl4lkTUh406QnuXibna0oCeC5slQ/640?wx_fmt=png&from=appmsg)
+
+这本《Cadence高速电路设计》它不像那些光讲理论的教科书那么枯燥，也不是死板的软件说明书，而是把理论用在实际工程里。书是由Cadence的专家陈兰兵老师带头，集合了几十位一线工程师的经验，目的就是帮你掌握设计高速、高可靠性电路板的硬核能力。
+
+  
+
+011
+
+书籍特色
+
+#### **理论、工具与实践的融合。**
+
+**1、基础理论，讲得透**
+
+> 这本书开篇就把那些核心理论，比如信号完整性、电源完整性是咋回事，讲得明明白白。就算你是初学者，也能轻松跟上。它会带你从传输线、S参数，一路学到反射、串扰这些常见问题的根上，让你不仅知道“是什么”，更明白“为什么”，以后自己遇到新问题也能琢磨出门道来。
+
+**2、依托Cadence，上手快**
+
+> 全书都基于业界顶流的Cadence Allegro Sigrity平台来教学。书里手把手教你怎么用SystemSI、PowerSI这些专业工具，把学到的理论变成看得见的仿真结果和具体数据。跟着操作一遍，你就能掌握这套核心工具的使用逻辑，自己动手仿真分析。
+> 
+> ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhIQnGuyvu3nhN9Tu1stno5XxN3jUTprEt69nolxhGslEvkR0SHt85DziaVh9qb3lzWwJlgk7YaISA/640?wx_fmt=png&from=appmsg)
+
+**3、实战案例，接地气**
+
+> 书里不讲“空中楼阁”，全是实打实的项目案例，特别是像DDR内存、PCIe/USB这些常用高速总线。从规划、建模到仿真、问题排查，整个流程都给你掰开揉碎了讲。这些案例里的方法，你完全可以拿来解决自己手头的实际难题，参考价值非常大。
+
+  
+
+  
+
+021
+
+详细目录解读
+
+本书的目录结构精心编排，遵循从基础到专题、从分析到测试的系统性学习路径。以下是各章节的重点内容导读：
+
+**第1章：信号完整性基础**  
+这一章是打地基的部分。它会帮你把信号完整性的基本概念搞明白，比如时域频域怎么看、传输线是怎么回事、特征阻抗怎么理解，还有微带线和带状线这些常见结构。重点是讲清楚信号出问题的根源（比如反射、串扰、噪声），并教你怎么通过阻抗匹配、差分走线这些方法来控制。最后还会用DDR实例带你上手仿真工具，轻松入门。
+
+**第2章：电源完整性设计**  
+电源稳不稳，直接决定系统能不能跑得动。这一章会拆解电源噪声是怎么产生的，电源系统（PDN）里各个部件怎么配合，以及怎么去分析它的频域和时域特性。最关键的是，它会教你如何优化去耦电容、分析直流压降，甚至做电热联合仿真，最后再用Sigrity PI工具实战一遍，帮你彻底掌握怎么设计一个可靠的电源系统。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhIQnGuyvu3nhN9Tu1stno5zUZYLLNNwmhFUWRu3J2BAibb3cZxUmaJnFXdlsQLf5RYnrYH2sEG1dg/640?wx_fmt=png&from=appmsg)
+
+**第3章：高速时钟系统设计**  
+时钟就像系统的心跳，这一章专注讲解共同时钟系统是怎么工作的。重点是建立/保持时间这些关键时序参数，以及怎么用SigXplorer工具做飞行时间仿真、算时序余量。学完这一章，你就能理解时序的基本逻辑，为后面更复杂的系统打下基础。
+
+**第4章：高速DDRx总线设计**  
+这一章绝对是干货满满！随着DDR技术越来越快，设计也变得复杂。除了介绍ODT、Write Leveling这些关键技术，还会重点教你源同步时序怎么计算。书里会通过一个完整的DDR实例，手把手演示如何用SystemSI做信号-电源联合仿真和时序验证，还会解答像Fly-by和T拓扑怎么选、容性负载怎么补偿这些实际难题。
+
+**第5章：高速串行总线**  
+想要搞定PCIe、USB、以太网这些高速接口？这一章就是必读。它会系统讲解均衡技术、AMI模型、眼图怎么看、误码率怎么评估等关键知识，还会教你怎么进行通道建模、过孔优化、线长控制，最后通过实例带你学会如何用统计和时域分析的方法去优化通道性能。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhIQnGuyvu3nhN9Tu1stno5qNyaPB2TnibdOLicLiaFeQ2icfI7n8cPJc5NozNzGtx7ZY6FY9icvhGcHog/640?wx_fmt=png&from=appmsg)
+
+**第6章：电磁兼容设计**  
+产品老是被干扰？过不了EMC测试？这一章就是你的救星。它会从板级讲到系统级，教你接地、屏蔽、滤波这些实用方法，并演示怎么用Sigrity工具（比如SPEED2000、PowerSI）提前仿真EMI问题，实现信号、电源和电磁兼容的协同设计。
+
+**第7章：信号与电源完整性测试**  
+仿真做得再好，也得实测验证。这一章就是教你怎么用真实设备去测抖动、眼图、TDR阻抗、电源阻抗、DDR一致性等等。它会强调校准、夹具这些实操细节，帮你打通从仿真到测试的最后一公里。
+
+**第8章：芯片级全流程仿真**  
+最后一章视野升级，带你玩转“芯片-封装-电路板”协同仿真。内容包括怎么准备芯片模型、封装参数，怎么做直流、交流、热仿真联合分析。这部分代表了高速设计的最前沿方向，想成为系统级设计高手，一定不能错过。
+
+  
+
+031
+
+PDF电子版获取方式
+
+如何下载《Cadence高速电路设计》，更好的学习高速电路设计相关知识
+
+关注公众号：硬件笔记本，并在公众号里发送对应的下载关键字获取下载链接
+
+在公众号里给王工发消息:
+
+## 
+
+下载|Cadence高速电路设计
+
+## 建议复制粘贴过去，就不容易码错字哟！
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiahxbbtsEY7PeaUTd5q8A7YNTYz41mPc4kVSz5zMmUpKju2O67NKhicBHUZQLjib3iabN7MwibqQqKWmw/640?wx_fmt=jpeg&from=appmsg)
+
+加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiahxbbtsEY7PeaUTd5q8A7YR8ve37cOiaNYFzblxYLiamPBFpuCYWzCGPwmvxksnU6doqCNv1fLouFA/640?wx_fmt=jpeg&from=appmsg)
+
+注：本资源仅供学习交流，请勿用于商业用途。

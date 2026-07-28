@@ -1,0 +1,350 @@
+# 有点意思！不用菜单点菜？让AI来猜猜你吃的是啥
+
+原创 利哥AI实例探险 硬件笔记本 2025-11-14 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/D\_wRoteOD4nVSrW9UzLTkg](https://mp.weixin.qq.com/s/D_wRoteOD4nVSrW9UzLTkg)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/u3IjerbQOXj0eHBXT4IplJXlGFdsQZTzxJnzHgn1sGiaeT2c2OsJ6CW8JGBRiaZ4ZiaQlHnsCNfLs4e8TvmuiaY4ibQ/640?wx_fmt=png&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=0)
+
+> ❝
+> 
+> 不用菜单点菜，拍个照，AI就能告诉你菜名——这听起来有点像科幻电影里的场景？但现在，我们手头一台巴掌大的边缘计算盒子就能做到。
+> 
+> 这一切是怎么实现的？靠的就是它肚子里那颗名为RK3576的强力芯片。这家伙自带独立的NPU（神经网络处理单元），相当于给设备装了一个专为AI设计的“大脑”，让它不用依赖云端，自己就能在本地飞快地完成识别任务。
+> 
+> 本文将分享我们如何在一台米尔MYD-LR3576边缘计算盒子上，从零开始部署这套菜品识别应用的真实过程。看完你就会明白，强大的AI能力，是如何被浓缩在这个小盒子里的。
+
+# 实机演示
+
+-   本地部署，实时推理。在这段实机视频中，MYD-LR3576正同步运行YOLOv11s（目标检测）与PPLCNetV2（特征提取）模型。其性能核心在于：两个模型的NPU推理时间均被压缩至惊人的20ms/帧，为高性能边缘AI应用提供了坚实底座。
+    
+
+> ❝
+> 
+> 本文以米尔电子的MYD-LR3576边缘计算盒子为例，讲解如何在Android平台部署yolo11s、PPLCNETV2模型实现实时菜品识别。为开发者与研究者提供一份兼具实践参考与技术洞察的模型端到端的部署指南。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17SrnMeZcPowaicBM1BPtdCDSv5Zm1Sl0jF6gMWua8sFefibp5eI7j7jN4w/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=1)
+
+# 1\. 基本介绍
+
+## 1.1 边缘计算盒
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17SFbEAqSbJibN7M9UrTst7ptD4QQGf58A8LD7Izfdxv4K1mM8DzX4tS0w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=2)**米尔MYD-LR3576-B边缘计算盒是一款基于瑞芯微RK3576处理器设计的高性能嵌入式AI设备。** 该处理器集成八核CPU架构（4×Cortex-A72 + 4×Cortex-A53）与算力达6 TOPS的NPU（2核心），具备强大的边缘端AI推理能力。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17SYmib0F4vgHzmY6SRdbeBoBlfHaiaWKRaFrs5qbA62yt6up4qpsR6UmAg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=3)
+
+产品标配8GB LPDDR4X内存与64GB eMMC存储，支持双千兆网口、WiFi 6、多路USB 3.0及4K显示输出，提供完整的Debian/Linux软件开发环境。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17SJ3SkKHib1cKNENq4ubznYXBIZmPTXxvLvGwvr9T0eeybxlKdE3mFFRA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=4)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17SzGBz9Bmtiagia9xExgMkgIWKl5rUwJWF7ib2ibcZRSrnGYEGdXIMCj34Qg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=5)
+
+凭借其高性能NPU与丰富接口，该设备可高效支撑计算机视觉、智能分析等边缘AI场景，为菜品识别、工业质检等应用提供稳定可靠的硬件平台。
+
+## 1.2 RKNN-Toolkit2 SDK
+
+要将YOLOv11s、PPLCNetV2等主流AI模型高效地部署在MYD-LR3576-B这样的边缘设备上，并充分发挥其NPU的算力，离不开一个关键的软件工具链——RKNN-Toolkit2。这是由瑞芯微官方提供的核心SDK，专为其RK系列芯片的NPU（神经网络处理单元）设计。
+
+GitHub仓库： https://github.com/airockchip/rknn-toolkit2
+
+### 1.2.1 RKNN-Toolkit2 是什么？
+
+RKNN-Toolkit2是一个功能完整的模型转换、推理和性能评估工具包。它的核心作用在于充当一个“翻译官”和“优化器”，将开发者们在主流深度学习框架（如PyTorch, TensorFlow, ONNX等）上训练好的模型，转换成可以在瑞芯微NPU上高效运行的专用格式——RKNN模型。
+
+### 1.2.2 核心功能与工作流程
+
+该工具链为AI模型在边缘端的部署提供了全流程支持：
+
+**1\. 模型转换**
+
+-   **支持多框架输入：** 可直接加载PyTorch（.pt）、TensorFlow（.pb）、ONNX（.onnx）等格式的模型。
+    
+-   **量化优化：** 支持将FP32模型量化为INT8或INT16精度，在保证精度的同时，大幅减小模型体积、提升推理速度、降低功耗。这正是实现20ms超快推理的关键步骤之一。
+    
+-   **模型优化：** 工具会自动对模型图结构进行编译和优化，使其适配RKNPU的硬件架构，提取最大性能。
+    
+
+**2\. 仿真推理与精度分析**
+
+-   在模型部署到物理设备（如MYD-LR3576-B）之前，可以在PC上进行仿真推理，验证模型转换后的正确性和精度，极大方便了前期的调试工作。
+    
+
+**3\. 性能评估**
+
+-   提供模型性能分析工具，可以评估模型在NPU上的理论推理时间和内存占用，帮助开发者进行模型选型和优化。
+    
+
+**4\. 跨平台部署支持**
+
+-   除了Python环境下的开发工具，RKNN-Toolkit2还提供了C/C++版本的运行时库（RKNN API）。这使得开发者可以轻松地将优化后的RKNN模型集成到最终的生产环境中，无论是Linux、Android还是Debian系统（正如MYD-LR3576-B所搭载的），都能实现高效、低延迟的推理。
+    
+
+### 1.2.3 与MYD-LR3576的完美协同
+
+在本文的菜品识别Demo中，正是利用了RKNN-Toolkit2的强大能力：
+
+-   **步骤一：** 在PC端将预训练好的YOLOv11s（目标检测）和PPLCNetV2（图像分类）模型通过该工具链转换为.rknn格式文件。
+    
+-   **步骤二：** 将转换好的RKNN模型文件与调用RKNN Runtime的应用程序一同部署到MYD-LR3576边缘计算盒上。
+    
+-   **步骤三：** 应用程序通过RKNN Runtime API加载模型，调用NPU执行计算，最终实现了双模型协同、单次推理均仅20ms的卓越性能。
+    
+
+总结而言，RKNN-Toolkit2是释放MYD-LR3576-B内部6 TOPS NPU潜力的钥匙。 它大大降低了开发者将AI模型部署到瑞芯微边缘计算平台的技术门槛和开发周期，使得构建像实时菜品识别这样的高性能AI应用变得简单而高效。
+
+## 1.3 RKNN Model Zoo
+
+RKNN Model Zoo 是一个专为瑞芯微NPU打造的 “模型商店” 或 “开箱即用模型库” 。该项目收集了大量经典的、高性能的深度学习模型，并已经过预转换和调优，直接提供了现成的 RKNN格式模型文件，同时附带了完整的示例代码。
+
+Github地址：https://github.com/airockchip/rknn\_model\_zoo
+
+RKNN Model Zoo优点：
+
+-   **开箱即用的体验：** 开发者无需从头开始进行模型训练和复杂的转换调试，可以直接下载所需的RKNN模型文件，利用提供的示例代码在MYD-LR3576等设备上快速运行起来，立即看到效果，极大地缩短了概念验证（PoC）的周期。
+    
+-   **官方性能保证：** 仓库中的模型都提供了详细的性能基准数据，包括在特定RK芯片上的推理速度和精度。这为开发者选型提供了权威参考，确保模型在目标设备上能够达到预期的性能。
+    
+-   **最佳实践范例：** 每个模型都附带完整的C++和Python示例代码，清晰地展示了如何加载RKNN模型、进行数据预处理、执行推理以及解析输出结果。这对于学习如何在自己的应用程序中集成和调用RKNN模型而言，是极具价值的学习资料。
+    
+
+# 2\. 搭建环境
+
+## 2.1 刷入Android系统
+
+米尔的MYD-LR3576边缘盒子默认是Linux系统，在我们的场景中，需要先刷机为Android系统。
+
+### 2.1.1 获取资料
+
+登录米尔开发者中心(https://dev.myir.cn/auth/login.html)，在开发者平台注册绑定产品信息，在包装盒侧面会有一个产品型号系列号，可通过微信扫码绑定。 绑定成功后，依次点击我的产品->软件资料->Android14操作系统：
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17Szh26I6KEibywCYZa8lceCNdcpNY2zxFCa30fUSj7swavic8E38b4WsBg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=6)
+
+然后复制提取码后点击“阿里云盘”字样即可打开米尔提供的所有相关资料文件。如：
+
+`01-Docs(ZH)/MYD-LR3576-GK Android 软件开发指南-V1.0.pdf   02-Images/myir-image-lr3576-android14.zip   03-Tools   `
+
+是我们需要的文件，分别是软件开发指南、安卓系统镜像文件以及工具，下载上述文件。
+
+### 2.1.2 镜像烧录
+
+在软件开发指南中的第四章有详细的镜像编译步骤，开发者可以根据情况自行编译镜像，方便进行自定义。本文直接使用了资料中已经编译好的Android镜像进行烧录。
+
+**1\. 安装驱动**
+
+驱动安装工具压缩包位于 03-Tools/DriverAssitant 目录下，解压运行 DriverAssitant工具，出现以下界面，首先点击卸载驱动，然后点击驱动安装：
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17SC9Awpv7vUyFF0cXckibytnvBWx7vgbbDDsXO4LqgHclhjkS9I9icUknw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=7)
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17S1vUAg2Gtp9zwcuHBOhTxxhgicqv7LuW09Hw8B0bJEjTztE4pq5dcIbA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=8)
+
+**2\. 烧录镜像到EMMC**
+
+RKDevTool是瑞芯微提供的适用于 RK 系列芯片的 windows 下的便捷开发工具，为开发人员提供了固件烧录/镜像烧录|设备擦除|设备切换/固件解包等功能。
+
+1.  首先登陆边缘盒子，使用Type-C线将边缘盒子的DEBUG（电源接口旁写着Type-C字样）口连接到windows电脑；然后打开设备管理器，配置COM口参数：
+    
+
+-   波特率：115200
+    
+-   数据位：8
+    
+-   停止位：1
+    
+-   校验位：无
+    
+-   流控：无
+    
+-   打开串口终端软件填入上述参数，然后给盒子上电，即可进入系统；
+    
+
+2.  进入系统后在终端输入reboot loader即可进入loader模式；
+    
+3.  打开工具文件夹下的RKDevTool（没有解压请解压），双击RKDevTool.exe，会看到提示：发现一个LOADER设备；
+    
+4.  此时点击升级固件->固件，选择刚刚下载的Android镜像文件（刚下载的为zip文件，解压出里面的镜像文件）,然后点击升级按钮并等待完成：
+    
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17SFowibDTibtfvFGAQboPOpPScZ38QjQyR0jUwf4YsZxaibE9rqDGWVXWIg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=9)
+
+5.  此时已经完成Android系统的烧录。
+    
+
+## 2.2 准备RKNN-Toolkit2环境
+
+> ❝
+> 
+> 注意：这里的操作是在另外一台电脑上操作，并且已经配置了python环境或Conda环境。为模型转换、量化以及测试提供基础环境。
+
+**1\. 可以直接通过网络安装：**
+
+`pip install rknn-toolkit2 -i https://pypi.org/simple   # 如果已安装 RKNN-Toolkit2，可通过以下命令升级 RKNN-Toolkit2   pip install rknn-toolkit2 -i https://pypi.org/simple --upgrade   `
+
+**2\. 通过本地 wheel 包安装**
+
+首先克隆RKNN-Toolkit2项目文件：
+
+`git clone https://github.com/airockchip/rknn-toolkit2.git -d 1` 
+
+或者手动下载下面涉及到的文件。
+
+然后进入项目根目录后：
+
+`# 请根据不同的 python 版本及处理器架构，选择不同的 requirements 文件:   # 其中 cpxx 是 python 版本号   pip install -r packages/arm64/arm64_requirements_cpxx.txt      # 安装 RKNN-Toolkit2   # 请根据不同的 python 版本及处理器架构，选择不同的 wheel 安装包文件：   # 其中 x.x.x 是 RKNN-Toolkit2 版本号，cpxx 是 python 版本号   pip install packages/arm64/rknn_toolkit2-2.3.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl   `
+
+# 3\. 模型转换
+
+rknn\_model\_zoo中包含了很多官方已经适配的模型，包括模型训练以及模型转换脚本。
+
+## 3.1 yolo11模型转换
+
+rknn\_model\_zoo中已经包含了yolo全系列模型，因此yolo11模型的转换非常简单，我们直接将训练好的模型（通常是.pt格式）先转为onnx格式。该转换过程通常建议在与训练模型相同的环境中进行，如何进行yolo11的模型训练不是本文重点，可参考： https://github.com/airockchip/ultralytics\_yolo11 进行训练。 转换命令：
+
+`# 调整 ./ultralytics/cfg/default.yaml 中 model 文件路径，默认为 yolo11n.pt   # 在 ultralytics_yolo11 的项目根目录执行   export PYTHONPATH=./   python ./ultralytics/engine/exporter.py   `
+
+执行完毕后，会生成 ONNX 模型。假如原始模型为 yolo11s.pt，则生成 yolo11s.onnx 模型。 然后进入rknn\_model\_zoo项目根目录，再依次进入examples/yolo11/python路径下，有一个python转换脚本：convert.py，可通过python convert.py 查看脚本帮助文档：
+
+`python convert.py    Usage: python3 convert.py onnx_model_path [platform] [dtype(optional)] [output_rknn_path(optional)]          platform choose from [rk3562, rk3566, rk3568, rk3576, rk3588, rv1126b, rv1109, rv1126, rk1808]          dtype choose from [i8, fp] for [rk3562, rk3566, rk3568, rk3576, rk3588, rv1126b]          dtype choose from [u8, fp] for [rv1109, rv1126, rk1808]   `
+
+根据文档可知，脚本的第一个参数是要被转换的onnx模型路径，第二个参数是平台，即SOC型号，第三个参数是量化相关，我们的平台是rk3576，如果量化则选i8，不量化则选fp。我们这里选择量化：
+
+> ❝
+> 
+> ⚠️ 选择量化需要准备校准数据，读取的数据路径在脚本中已经固定为../../../datasets/COCO/coco\_subset\_20.txt，这里需要修改为我们自己的数据，数量建议至少20张。
+
+`python convert.py onnx模型路径/yolo11s.onnx rk3576 i8   `
+
+转换成功后可看到：
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17S7qykQfvyQ0PoBfvbeYHEYBXFphREicCmoHZaoLwnmqAFS3ibibugQfjKw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=10)
+
+脚本默认将转换后的模型存储在../model中。
+
+## 3.2 PPLCNETV2模型转换
+
+PPLCNETV2网络是Paddle提供的，因此需要使用paddle2onnx工具，先将paddle格式转为onnx格式：
+
+`paddle2onnx \     --model_dir models/ \     --model_filename inference.pdmodel \     --params_filename inference.pdiparams \     --save_file paddle_feature_one_batch.onnx \     --opset_version 11 \     -isd "{'x':[ 1, 3, 320, 320 ]}"   `
+
+由于RKNN官方没有PPLCNET模型的Demo，因此我们需要自己根据模型转换的API文档编写rknn模型的转换脚本，可复制一份Yolo11的转换脚本进行修改，重点修改模型的输入输出形状、归一化参数等。然后参考yolo11的转换命令进行转换。
+
+# 4\. 菜品识别案例
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/C0CxiceZffNUnyWmiaz9mVhibjlicfWMz17SpMkeFZCKCu2MFEJFbdHO2txaFY2KUIDJ9Ciaib5FNkOvcKu4oddkR0jw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=11)
+
+本章将详细介绍基于米尔MYD-LR3576边缘计算盒开发的菜品识别安卓Demo应用。该案例完整展示了从特征库构建到实时识别的全流程，充分体现了设备在端侧AI应用中的实用性与高性能。
+
+## 4.1 特征注册
+
+特征注册是构建可扩展菜品识别系统的关键第一步，其目的是为系统创建一个本地的、可定制的菜品特征库。
+
+-   **操作流程：** 用户在Demo界面点击“特征注册”按钮后选择一个事先准备好的文件夹。该文件夹内部包含多个子文件夹，每个子文件夹代表一道唯一的菜品，并以菜品名称命名（例如：“红烧肉”、“清蒸鲈鱼”）。子文件夹内则包含该菜品从不同角度、在不同光照条件下拍摄的若干张图片。
+    
+-   **技术实现：** Demo应用会遍历整个文件夹结构。对于每一张图片，系统会调用内置的PPLCNetV2特征提取模型进行特征提取。该模型会将输入的菜品图片转换成一个高维、紧凑的特征向量（也就是老生常谈的特征嵌入）。最后，系统将每道菜所有图片的特征向量与其名称关联起来，使用向量数据库存储于设备本地，形成一个结构化且高效查询的特征数据库。
+    
+
+该设计的优势在于：用户无需重新训练庞大的深度学习模型，仅需提供数十张示例图片，即可快速、灵活地扩充或修改系统所能识别的菜品库，极大地提升了应用的实用性和适应性。
+
+## 4.2 菜品识别
+
+Demo提供了三种识别模式，以适应不同场景下的需求：
+
+### 4.2.1 拍照识别
+
+用户可以直接调用设备摄像头，现场对菜品进行拍照。拍完后，系统立即对照片进行识别，并绘制识别结果。
+
+### 4.2.2 本地图片识别
+
+用户可以从手机相册中选择已有的菜品图片进行识别。
+
+### 4.2.3 实时视频流识别
+
+Demo启动设备摄像头并开启实时预览，视频流中的每一帧都会被送入识别流水线。系统能够连续、不间断地进行识别，并将结果实时覆盖显示在视频画面上，提供流畅的“所见即所识”体验。
+
+## 4.3 识别流水线与性能表现
+
+无论采用哪种识别模式，其核心的识别流水线是相同的，并且都得益于MYD-LR3576强大的NPU算力：
+
+**1\. 目标检测：** 当一张图片或视频帧输入后，首先由 YOLOv11s模型进行推理。它的任务是精准定位图片中菜品所在的位置，并输出其边界框，为后续处理划定了关键区域。
+
+**2\. 特征提取：** 系统将YOLOv11s检测出的菜品区域裁剪出来，并送入 PPLCNetV2特征提取模型中，生成该区域的特征向量。
+
+**3\. 特征比对：** 最后，系统将这个新生成的特征向量与特征注册阶段建立的数据库中的所有已知特征向量进行相似度计算（通常使用余弦相似度）。找出相似度最高的已知菜品，并将其名称作为识别结果输出。
+
+**性能亮点：** 在MYD-LR3576上，经过RKNN-Toolkit2优化后，YOLOv11s和PPLCNetV2这两个模型在NPU上的单次推理时间均稳定在20ms左右，这确保了即使在最耗费资源的实时视频流模式下，系统也能保持较流畅的识别帧率。
+
+## 4.4 准确率评估功能
+
+为了量化识别系统的可靠性，Demo还内置了准确率评估功能。用户可以选择一个包含已标注图片的测试集，系统会自动运行批量识别，并将识别结果与真实标签进行比对，最终生成一份包含准确率等关键指标的评估报告，为模型优化和特征库完善提供了数据依据。
+
+## 4.5 案例总结
+
+该菜品识别Demo仅实现了基础功能，且没有做针对性优化，如所有操作都是同步进行，即摄像头数据获取或读取本地图像->格式转换->色彩空间转换->预处理->模型推理->结果后处理这一整套流程都是同步进行，且模型推理时仅使用了一个NPU核心（共两个），如果使用NPU进行图像处理并配合图像队列异步处理以及充分利用NPU核心，其性能可以达到15-20帧。即便Demo没有针对优化，RK3576的性能同样足够支撑端侧复杂AI流水线的能力。从高效的特征注册到实时的多模型推理，其强劲的NPU算力是实现所有功能流畅运行的基石，为智慧餐饮等领域提供了可靠的硬件解决方案。
+
+MYD-LR3576-B边缘计算盒：
+
+![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/u3IjerbQOXjK5OvYORCN5bJ770kPIQsmZFicSpK74JHu1AicO93pAzGlJ7DCJBvicZsHtAOGM9kr9QT8RfQFicZkCw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=10005&wx_lazy=1#imgIndex=12)
+
+产品链接：https://www.myir.cn/shows/138/24.html
+
+天猫链接：https://detail.tmall.com/item.htm?id=886580845138
+
+**米尔新用户专属福利！首发钜惠！**
+
+首次购买米尔RK系列开发板，即可享受**最高400元专属补贴**！多款热门平台惊喜价上线，助您项目快速启航：
+
+-   **支持RK3506、RK3576、RK3562等多款开发板**
+    
+-   **新客专享价低至79元起**
+    
+-   **仅限200套**，售完即止
+    
+
+📦 **下单即赠**：成功购买用户还可额外获赠**1000元SMT贴片代金券**，助力产品快速打样与量产！
+
+赶快报暗号【王工】领取你的专属福利吧！
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaXCmXQ28W4WssqY9u81nUUf4OQj3BZoBeNKq0zz4E5pmicIGqMSqaicRB0LMibMWtIWLCNcCSSia7ESA/640?wx_fmt=png&from=appmsg)
+
+R**K系列****新客活动价**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaXCmXQ28W4WssqY9u81nUULmzDVKSiayLGwcBV8ues6001BeltOdiaKXaTXjgyv8aBJ3NQGFSMSKzQ/640?wx_fmt=png&from=appmsg)
+
+🔔 【活动说明】
+
+**1、活动时间**：即日起至2025年11月30日
+
+**2、参与对象**：限**未购买过米尔国产RK系列产品**的公司客户
+
+**3、资格验证**：需提供公司名片或开票信息等有效证明（同一公司/联系人/地址视为同一用户，限购1套）
+
+**4、参与方式**：
+
+-   添加对应区域销售经理微信，报暗号【王工】审核资格；
+    
+-   审核通过后领取优惠券，前往官方“myir旗舰店”下单使用；
+    
+-   本优惠不与其他活动叠加。
+    
+
+⚡ 数量有限，先到先得！立即行动，开启您的RK开发之旅！
+
+**马上扫码添加微信领取优惠**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaXCmXQ28W4WssqY9u81nUU2Jo1Upf5nfSyfiaAdzickIMOfyeNdFf4H7pshd4RPM7Lic0wnYrxBCu7w/640?wx_fmt=png&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaXCmXQ28W4WssqY9u81nUULK78Qs7e6rTz6xpOwrHicezjRS8B8WF10495QzO7zb2HN76NibQhzQlw/640?wx_fmt=png&from=appmsg)
+
+  
+ **产品链接：**
+
+**MYD-LR3576开发板**
+
+**https://www.myir.cn/shows/151/81.html**
+
+**MYD-YR3562开发板**
+
+**https://www.myir.cn/shows/152/83.html**
+
+**MYD-YR3506开发板**
+
+**https://www.myir.cn/shows/156/87.html**

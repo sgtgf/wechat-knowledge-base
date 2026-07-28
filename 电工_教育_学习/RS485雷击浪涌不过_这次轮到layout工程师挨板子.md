@@ -1,0 +1,77 @@
+# RS485雷击浪涌不过，这次轮到layout工程师挨板子
+
+原创 王工 硬件笔记本 2024-08-01 07:41 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/gQM4NrSHHpXK56QklZgU6A](https://mp.weixin.qq.com/s/gQM4NrSHHpXK56QklZgU6A)
+
+# ![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic "音符")
+
+**前言**
+
+大家好，我是王工。
+
+做硬件的都知道EMC的重要性，它是产品的最后一关，也是最重要的一关，哪怕你产品功能再强大，EMC过不了，你的产品就卖不出去。
+
+EMC有时候真的很让人头大，凡是解不了的问题，都成了大家口中的玄学。那些所谓的玄学根本原因其实是在自己的认知范围之外，因为不懂，所以觉得它很神奇，很莫名其妙。
+
+怎么提高自己在EMC方面处理问题的能力，提高个人的核心竞争力呢？我认为除了系统学习相关知识，还有就是接触大量案例，就像那些学霸，刷题多了，考试成绩当然不会差。
+
+刚好有这个机会，推荐岛主刚发行的两本新书，里面涵盖了大量案例，而且都是平时经历过的真实案例：
+
+1\. 《EMC设计开发内参Ⅰ——技术提阶》，**目前全网找不到**
+
+2\. 《EMC设计开发内参Ⅱ——案例字典》
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjHLEOOyKQamkUKzribpltIicncP8nXgefBH8wZuEdviafVbvfSOlZS5nGQqPQNxnp7Qd6ic9muIQDPjg/640?wx_fmt=png&from=appmsg)
+
+**这两本新书由我向岛主提出了申请，凡是公众号硬件笔记本粉丝，均可享受内部优惠价，感兴趣的同学加微信私聊。**
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+**作者简介**  
+
+岛主老师，毕业于西安电子科技大学，国家重点EMC教研室硕士，16年电磁兼容设计与整改实践。陕西省电源学会电磁兼容与防护分会秘书长，长期在一线大型企业从事产品EMC设计开发、故障诊断与整改工作，具有扎实的理论和丰富的实战经验，迄今设计和整改的产品有通信、医疗、军工、风电、无人机、高铁、电梯、汽车电子、汽车整车等几十家企业上百个产品，且多次在现场和远程诊断后一把搞定产品EMC问题。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjHLEOOyKQamkUKzribpltIicibTVAqwsDvZPjXtibnRibowmd1p4r3uq0UfoeObPE6kDVuQTnlbn38zuw/640?wx_fmt=png&from=appmsg)
+
+其根据实践和积累所著的《EMC设计开发内参资料Ⅰ》，不到两年销量2800册，好评率超高；
+
+  
+
+《内参Ⅱ》由电子工业出版社出版。其开创的“授人以渔”技术培训，内训的企业有数十家，公开培训和研讨会讲座参与培训的企业有上千家，极受好评；其淬炼的“电流”和“环路”、“共模”和“疏导”电磁兼容设计思路和方法，一举解决了EMC设计从“理论上升到实践”、“经验上升到方法”、“单元上升到系统”的痛点，被众多方案公司和研发公司引用。
+
+  
+
+**案例**
+
+由于篇幅有限，咱们大概描述一个案例，节选自内参2《某系统接口转接板优化设计解决雷击案例》。
+
+  
+
+这个案例大概讲的就是RS485浪涌雷击击穿，最后发现是layout走线问题，文章会一步步告诉你是怎么发现问题，解决问题。感兴趣的在公众号后台回复“案例”，即可获取文档。
+
+  
+
+我个人看了这个案例的感受就是很有条理，不像其它书籍，整个篇幅文字特别多。有时候还得回头看，然后自己总结。
+
+一个案例主要分为：  
+
+1.问题描述
+
+2.故障诊断
+
+3.原因分析
+
+4.整改措施
+
+### 4.1原理图优化设计
+
+#### 4.1.1雷击信号网络
+
+#### 4.1.2优化信号网络
+
+### 4.2 PCB优化设计
+
+5.实践效果
+
+【岛主总结】

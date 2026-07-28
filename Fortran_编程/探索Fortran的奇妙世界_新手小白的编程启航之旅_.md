@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/xtWuro4h-rSFQ6HCnz7rig](https://mp.weixin.qq.com/s/xtWuro4h-rSFQ6HCnz7rig)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXeyiavxwqnVWTiayulib65egdJLmlybm1CzRxebjpicicYsoAxaaWibYUBG9QKhw6ZTHpuibqsxEZFDve7w/640?wx_fmt=jpeg)
+![](探索Fortran的奇妙世界_新手小白的编程启航之旅__images/img_000_193274735e45.jpg)
 
 欢迎来到Fortran编程的奇妙世界！Fortran，这个听起来有点老派的名字，实际上是“Formula Translation”的缩写，它是一种历史悠久的编程语言，自1957年诞生以来，就在科学计算和工程领域扮演着重要角色。不过，别让“历史悠久”这个标签吓倒你，Fortran的魅力在于它的简洁、高效和强大功能。接下来，让我们一起深入了解Fortran，看看它是如何帮助我们解决实际问题的。
 
@@ -15,7 +15,7 @@
 
 在我们开始编程之前，我们需要一个工具来编写和运行Fortran代码。幸运的是，现代的操作系统如Windows、Linux和macOS都有支持Fortran的编译器。安装过程通常很简单，你可以按照这份《[Fortran开发环境极简配置教程](http://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247484344&idx=1&sn=00cfebcdbe4de7f034d5d67513e419d7&chksm=c33797c2f4401ed4d89ba0f627dbe21cf879052d019da81ed667b3bf3bd8c0331daef09f5d6d&scene=21#wechat_redirect)》实现Fortran编译器的快速安装。安装完成后，你就有了探索Fortran世界的钥匙。
 
-[![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXeyiavxwqnVWTiayulib65egdgT08uDt6109ibCeMytXJYsoWtI9kt7HtD5Yz699tx5EZYK0KIVTnz2w/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247484344&idx=1&sn=00cfebcdbe4de7f034d5d67513e419d7&chksm=c33797c2f4401ed4d89ba0f627dbe21cf879052d019da81ed667b3bf3bd8c0331daef09f5d6d&scene=21#wechat_redirect)
+[![](探索Fortran的奇妙世界_新手小白的编程启航之旅__images/img_001_cd3437ffdab2.png)](http://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247484344&idx=1&sn=00cfebcdbe4de7f034d5d67513e419d7&chksm=c33797c2f4401ed4d89ba0f627dbe21cf879052d019da81ed667b3bf3bd8c0331daef09f5d6d&scene=21#wechat_redirect)
 
 ## 三、初识Fortran——Hello, World!
 
@@ -184,7 +184,7 @@ Fortran可能不是最时髦的编程语言，但它的稳定性、效率和在�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](探索Fortran的奇妙世界_新手小白的编程启航之旅__images/img_002_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于 Fortran 90 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

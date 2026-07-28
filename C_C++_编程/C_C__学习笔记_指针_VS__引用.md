@@ -5,13 +5,13 @@
 
 ### 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/kicB09lvgibnnRjv0AAqQxyBODIttZXnQqcTPoF4Pt8tJmnia4CHaYUS3zqicFfKZTWibXTAew2ibFHDjy5Pf8nDnVEQ/640?&random=0.5435628020271572&random=0.7333430426412921&random=0.11768190117034583&random=0.12018774317487124&random=0.31661911194151493&random=0.7635339231703804&random=0.9613365986074616&random=0.1923479600602538&random=0.5088725080122942)
+![](C_C__学习笔记_指针_VS__引用_images/img_000_64cb4aeae99c.png)
 
 点击上方「蓝字」关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kLQoJJzjYaicxneNzbOg7ynx3TfnIwmNTpJQ7orkaUNrJIV4u7PNdSJ25Mtn6XdRQTamLDDicHnYfdic2bsiaNQjCw/640?&random=0.6153869521132325&random=0.3050959118824166&random=0.3425740390684655&random=0.5631073915395226&random=0.3811110885571365&random=0.7586035005343534&random=0.5766395221126888&random=0.5695725227414736&random=0.31459453309857777)
+![](C_C__学习笔记_指针_VS__引用_images/img_001_1386d19ff7d9.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRETdLuoXm1hlcFzRLY8530oa5qlVg14icIZ9hDbNPOkYIRsOWmTDTTFiaxJvPWFTqGXm8cTKIO6bau1qSEqqBDA/640?wx_fmt=png&from=appmsg&random=0.14341926131468363)
+![](C_C__学习笔记_指针_VS__引用_images/img_002_1e88924d9d56.png)
 
 在C++编程中，指针和引用是非常重要的概念，它们各自有着独特的特性和应用场景。正确理解和使用指针和引用不仅可以提高代码的效率和可读性，还可以避免许多常见的错误。本文将详细介绍C++中指针和引用的区别，帮助读者更好地掌握这两个概念。
 
@@ -197,8 +197,8 @@
 
   
 
- ![](https://mmbiz.qpic.cn/sz_mmbiz_gif/eRETdLuoXm1hlcFzRLY8530oa5qlVg14Sp7ykiaiaeksse1OriavStBSZ3aOeSRibrictsMImSUmYpM8KlkR2oh16xA/640?wx_fmt=gif&from=appmsg)
+ ![](C_C__学习笔记_指针_VS__引用_images/img_003_5644ff9b6218.gif)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRETdLuoXm0F1TJuz7SHvpW1zgzV6ZIF0r5H99lwcz5CHLoNtLjOXfQpElKKhKEE3Eiapa05EFDfBlOlExx8iaOw/640?wx_fmt=jpeg&from=appmsg&random=0.07403834435997281&random=0.9548404603232596&random=0.104285335892905&random=0.6465628742284186&random=0.7114643948388735&random=0.39825419144728924&random=0.5036513307316739&random=0.24264210905518024&random=0.8403119589921406&random=0.004225922898027479)
+![](C_C__学习笔记_指针_VS__引用_images/img_004_9e8283dff97f.jpg)

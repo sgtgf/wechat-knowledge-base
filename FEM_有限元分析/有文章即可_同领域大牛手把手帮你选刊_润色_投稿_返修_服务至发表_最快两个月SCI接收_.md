@@ -7,7 +7,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZeicwC72LZjvOGezTt1YTWGdfVbdLq0oJDRcvkyibKOk6lC4YXm2m4mSwhhwjWTnx6CKO7YEMYye0TvmYMSBjtvQ/640?wx_fmt=png&from=appmsg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_000_19479413830f.png)
 
   
 
@@ -17,7 +17,7 @@
 
 说自己没日没夜的搞选题、做实验、一遍一遍地投稿，熬夜到头秃…但是**延毕三年了还是没能投中发表**，情绪很崩溃。
 
-而就在**同一课题组**，却有人**三年发了十几篇SCI**！偷偷打探过，并没有学术不端，说只是因为**会选刊，会投稿，一投就中**![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.3.10/assets/newemoji/Boring.png) ，影响因子还不低。
+而就在**同一课题组**，却有人**三年发了十几篇SCI**！偷偷打探过，并没有学术不端，说只是因为**会选刊，会投稿，一投就中**![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_001_7fefb71e2510.png) ，影响因子还不低。
 
   
 
@@ -29,7 +29,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZeicwC72LZjtr9k3cVVY1IdtrWJ7XqVZXvkWibyvlytjZWkplEkYupa4lcfaTHVnBiciatzsVr6QicY4Rdb9NP5tL7A/640?wx_fmt=png&from=appmsg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_002_0da11dc2b139.png)
 
   
 
@@ -41,7 +41,7 @@
 
   
 
-SCI审稿周期通常在**3-10个月左右**，**投错了耽误的这些时间，创新性若被抢占，则所有努力归零**，甚至可能反过来背上**抄袭**的名头…![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.3.10/assets/newemoji/Sigh.png)
+SCI审稿周期通常在**3-10个月左右**，**投错了耽误的这些时间，创新性若被抢占，则所有努力归零**，甚至可能反过来背上**抄袭**的名头…![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_003_e962720355bb.png)
 
   
 
@@ -55,7 +55,7 @@ SCI审稿周期通常在**3-10个月左右**，**投错了耽误的这些时间�
 
 有调查表明，**国内科研作者发表SCI被拒，50%是败在了投稿选刊上。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZeicwC72LZju2f8fwjaWbCYsluQtttDXUhC2J96IL038sTIf09TFBZMUbrD8dwatBiavMVnWgpjMZlzTZNbAKCeg/640?wx_fmt=jpeg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_004_468fb8e7e40b.jpg)
 
 不过，其实这也不能怪，术业有专攻。
 
@@ -83,7 +83,7 @@ SCI审稿周期通常在**3-10个月左右**，**投错了耽误的这些时间�
 
 甚至包括大小修的回复信审查润色、图表图片细节，都手把手协助我处理好了，才让我看到毕业的希望。
 
-**两个月没到，文章就通知被接收了**![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.3.10/assets/Expression/Expression_29@2x.png)！
+**两个月没到，文章就通知被接收了**![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_005_7fadded3ec5b.png)！
 
   
 
@@ -95,7 +95,7 @@ SCI审稿周期通常在**3-10个月左右**，**投错了耽误的这些时间�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZeicwC72LZju2f8fwjaWbCYsluQtttDXUqzA9PJwEFj4ic7Mwl26gSnmgU8zAcQFGXHXroZvhTQg7ALIufVjL9ZQ/640?wx_fmt=jpeg&from=appmsg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_006_24daf748df79.jpg)
 
   
 
@@ -113,7 +113,7 @@ SCI审稿周期通常在**3-10个月左右**，**投错了耽误的这些时间�
 
 这样下来，一篇资质平平的文章最终发表到一二区不是问题，有了高分SCI打底，后面的路也就不辛苦了！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZeicwC72LZju2f8fwjaWbCYsluQtttDXUv8iclBz1MxrxPXA3Z6FUwibhrEWqYD2ez1BX2yh6ibPnbFAyusUKN0aFg/640?wx_fmt=png&from=appmsg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_007_c34fdef151cc.png)
 
 我用的这个全程无忧套餐，在**润色-选刊-投稿-返修全流程**中，所有服务均为**多轮次不限时间的**。
 
@@ -133,17 +133,17 @@ SCI审稿周期通常在**3-10个月左右**，**投错了耽误的这些时间�
 
 **▼****全流程保姆式投稿发表套餐**  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZeicwC72LZjtr9k3cVVY1IdtrWJ7XqVZXFia64Dt1v2VU3ia6k9vOb7DBGzdhZORpgTy72gDbHuUf0CeOicJIaEmpw/640?wx_fmt=png&from=appmsg) 
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_008_86fa15e8ef17.png) 
 
 就我去年给我们课题组的同事说完我的经历后，师兄师弟一共3人都选了这个套餐。
 
   
 
-有**2篇**在**2个月内成功发表了**，还有一个因为期刊等级较高，审稿周期长，用时**6个月**最终也顺利发表了![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.3.10/assets/Expression/Expression_80@2x.png)  
+有**2篇**在**2个月内成功发表了**，还有一个因为期刊等级较高，审稿周期长，用时**6个月**最终也顺利发表了![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_009_a3b49140ae11.png)  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZeicwC72LZju2f8fwjaWbCYsluQtttDXUwicBXRibYibIlMqkgzibHrtoLfppsSrurgg3888VRia9ZWLpFical4kia5uEA/640?wx_fmt=png&from=appmsg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_010_9d259c31cddd.png)
 
 **艾德思全程无忧投稿套餐服务后发表案例**
 
@@ -171,23 +171,23 @@ SCI审稿周期通常在**3-10个月左右**，**投错了耽误的这些时间�
 
 **锁定直减1200活动优惠**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ls5001Viarhgmk68YnN6g4W5hatFlsorE2ewpQa76twe3x93RLcIPOShC9BRIxwiaAHAZmXG8qOfqKibY7EaibAQQQ/640?wx_fmt=png&from=appmsg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_011_804fbca7a499.png)
 
 ********▲****长按扫码添加学术顾问********▲****
 
   
 
-对了，因为艾德思的**专家资质极高**，对**学科内期刊如数家珍**，**甚至超过了大部分硕博士导师的水平，又比导师有耐心**![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.3.10/assets/newemoji/LetMeSee.png)，所以有些作者在做服务的同时把专家当导师来问问题了，收获也不少~
+对了，因为艾德思的**专家资质极高**，对**学科内期刊如数家珍**，**甚至超过了大部分硕博士导师的水平，又比导师有耐心**![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_012_4f0e561e3014.png)，所以有些作者在做服务的同时把专家当导师来问问题了，收获也不少~
 
   
 
-另外，如果**你是医学相关专业**，那就更占优势了，艾德思最新推出的**医学SCI无忧服务**，在上面“**全程无忧投稿套餐**”的基础上，还增加了**论文逐句修改拔高服务**，并且**可以指定时间中刊**![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.3.10/assets/Expression/Expression_80@2x.png)
+另外，如果**你是医学相关专业**，那就更占优势了，艾德思最新推出的**医学SCI无忧服务**，在上面“**全程无忧投稿套餐**”的基础上，还增加了**论文逐句修改拔高服务**，并且**可以指定时间中刊**![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_013_a3b49140ae11.png)
 
 你仅需提供文章，剩下的交给机构里的同领域学术大牛们！**坐等接收信即可~**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZeicwC72LZjuRxee6AiajC1PRNyaiaCia4yPrmzicicwvMPmUoQhoJfqTrFb6KYnLzvo0r9qYP6IcXTOYHhFBgbjRY0Q/640?wx_fmt=png&from=appmsg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_014_33ca43e8418d.png)
 
   
 
@@ -201,13 +201,13 @@ SCI审稿周期通常在**3-10个月左右**，**投错了耽误的这些时间�
 
 **▼作者约定时间，机构负责发表▼**  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZeicwC72LZjtVib6BQrPEs9svVKlGKaYOFmm28WEp6GDKicziciaF2bkp6mzBghZz36bd13h2exP6qOVsrsibV21Or4Q/640?wx_fmt=jpeg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_015_27072ded332b.jpg)
 
 ************▼********长按下方二维码添加学术顾问********▼************
 
 **立即咨询****医学SCI无忧发表**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ls5001Viarhgmk68YnN6g4W5hatFlsorE2ewpQa76twe3x93RLcIPOShC9BRIxwiaAHAZmXG8qOfqKibY7EaibAQQQ/640?wx_fmt=png&from=appmsg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_016_804fbca7a499.png)
 
   
 
@@ -227,13 +227,13 @@ SCI审稿周期通常在**3-10个月左右**，**投错了耽误的这些时间�
 
 ****▼**艾德****思协助SCI发表的部分实名案例****▼** 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/ZeicwC72LZjtEUMe6swgyMAyC0WFp9WEzWFAaQqULEFCxRX3JHOkoweyXYgkj2OibbIFXIoTYYCaIYM243J38Qibw/640?wx_fmt=gif&from=appmsg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_017_4b554c3fb3f8.gif)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DawoZoYvO67k0mQGaneELH3iasOIEnrTy8stucNhCZhfzOsQBzNnejqaNLKGIuxUcxib3pCyGGzicTslFrM60F1lg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_018_fe35a2846c53.png)
 
   
 
@@ -249,13 +249,13 @@ SCI审稿周期通常在**3-10个月左右**，**投错了耽误的这些时间�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZeicwC72LZjtEUMe6swgyMAyC0WFp9WEzqdB0ibjsmibhdZadldiczGR9RY7L9yDW7hibG77fcbaQDxFibMTvpzw1Mjw/640?wx_fmt=png&from=appmsg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_019_27652e1b63d4.png)
 
   
 
 创始人杨博士于**2008年获得博士学位**，在**哈佛大学**（Harvard University）担任讲师期间，结识了众多**欧****美本土博士、博士后和教授**，并建立了良好的合作关系。以下为几位专家代表：
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/DawoZoYvO67k0mQGaneELH3iasOIEnrTy5DJCcNYEm9t0Sse7ee27NI2Ou659OQa0O4ZO1hQ0TGCgstmw1lO7eg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_020_143b2a4b36f6.gif)
 
   
 
@@ -273,7 +273,7 @@ SCI审稿周期通常在**3-10个月左右**，**投错了耽误的这些时间�
 
 **锁定直减1200活动优惠**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ls5001Viarhgmk68YnN6g4W5hatFlsorE2ewpQa76twe3x93RLcIPOShC9BRIxwiaAHAZmXG8qOfqKibY7EaibAQQQ/640?wx_fmt=png&from=appmsg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_021_804fbca7a499.png)
 
 ********▲****长按扫码添加学术顾问咨询********▲****
 
@@ -283,7 +283,7 @@ SCI审稿周期通常在**3-10个月左右**，**投错了耽误的这些时间�
 
   
 
-_**★**__**艾德思极其严格的质控![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.3.10/assets/Expression/Expression_80@2x.png)**_
+_**★**__**艾德思极其严格的质控![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_022_a3b49140ae11.png)**_
 
   
 
@@ -303,13 +303,13 @@ _**★**__**艾德思极其严格的质控![](https://res.wx.qq.com/t/wx_fed/we-
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZeicwC72LZjtEUMe6swgyMAyC0WFp9WEzxkHLJazt2p5AknTSdDyiagUu3HaO4vDWSKBCRbNp7n8lf45LS3RvChw/640?wx_fmt=png&from=appmsg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_023_4580c8f4b219.png)
 
 部分艾德思各领域SCI发表案例（已获取作者授权）
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZeicwC72LZjtEUMe6swgyMAyC0WFp9WEzm8NVpGf2IlwyfR1rUfgQETG41F2c7Miay6b2ZI444z0JyOC3QPsdx3A/640?wx_fmt=png&from=appmsg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_024_7a908c16aba2.png)
 
 在论文中致谢艾德思的2000+篇案例
 
@@ -323,7 +323,7 @@ _**★**__**艾德思极其严格的质控![](https://res.wx.qq.com/t/wx_fed/we-
 
 **锁定直减1200活动优惠**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ls5001Viarhgmk68YnN6g4W5hatFlsorE2ewpQa76twe3x93RLcIPOShC9BRIxwiaAHAZmXG8qOfqKibY7EaibAQQQ/640?wx_fmt=png&from=appmsg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_025_804fbca7a499.png)
 
 ********▲****长按扫码添加学术顾问咨询********▲****
 
@@ -331,7 +331,7 @@ _**★**__**艾德思极其严格的质控![](https://res.wx.qq.com/t/wx_fed/we-
 
 ****▼**全程投稿服务真实用户评价**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZeicwC72LZjtEUMe6swgyMAyC0WFp9WEzOFzDLB7kNia4M03TzxsvAClTTicbvU8aUamnuoAxS5BKYRAkFiaAcpibJQ/640?wx_fmt=png&from=appmsg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_026_6934bac2a00d.png)
 
   
 
@@ -343,13 +343,13 @@ _**★**__**艾德思极其严格的质控![](https://res.wx.qq.com/t/wx_fed/we-
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZeicwC72LZjstMMSR7aEIibmc798pNLBoaYKsL39o760NPYXlndnFxpgoWuc8Y2naygOIybIUJxpagmka4ZgHlqQ/640?wx_fmt=png&from=appmsg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_027_494c2a8d2783.png)
 
   
 
 **艾德思**的**所有工作人员都受到严格的保密协议约束，一切上传至系统的文件都受最新的 ISO** **(ISO 27001:2013)****信息安全管理体系保护。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZeicwC72LZjtyQrgGRDkFicGeodjtIh4ZpQYEretDY4bLJlOmm6Cq62PJ6Q0DcVa3hmNgmkCztrfhic6MgoL8WYjg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_028_f89b9c4af484.png)
 
 行业官方颁发-三大质量认证证书
 
@@ -359,7 +359,7 @@ _**★**__**艾德思极其严格的质控![](https://res.wx.qq.com/t/wx_fed/we-
 
 **⇩**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ls5001Viarhgmk68YnN6g4W5hatFlsorE2ewpQa76twe3x93RLcIPOShC9BRIxwiaAHAZmXG8qOfqKibY7EaibAQQQ/640?wx_fmt=png&from=appmsg)
+![](有文章即可_同领域大牛手把手帮你选刊_润色_投稿_返修_服务至发表_最快两个月SCI接收__images/img_029_804fbca7a499.png)
 
 ********▲****长按扫码添加学术顾问咨询********▲****
 

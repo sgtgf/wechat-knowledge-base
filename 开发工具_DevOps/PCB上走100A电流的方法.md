@@ -1,0 +1,125 @@
+# PCB上走100A电流的方法
+
+原创 硬件笔记本 2022-07-08 07:30 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/4ogQTKDSsdgw04gcQuV0HA](https://mp.weixin.qq.com/s/4ogQTKDSsdgw04gcQuV0HA)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+通常的PCB设计电流都不会超过10A，尤其是在家用、消费级电子中，通常PCB上持续的工作电流不会超过2A。
+
+  
+
+但有的产品设计动力走线，持续电流能能达到80A左右，**考虑瞬时电流以及为整个系统留下余量，动力走线的持续电流应该能够承受100A以上。**
+
+  
+
+那么问题就来了，怎么样的PCB才能承受住100A的电流？
+
+  
+
+硬件笔记本
+
+1
+
+**方法一：PCB上走线**
+
+  
+
+要弄清楚PCB的过流能力，我们首先从PCB结构下手。以双层PCB为例，这种电路板通常是三层式结构：**铜****皮、板材、铜皮。铜皮也就是PCB中电流、信号要通过的路径。**
+
+  
+
+根据中学物理知识可以知道一个物体的电阻与材料、横截面积、长度有关。由于我们的电流是在铜皮上走，所以电阻率是固定的。横截面积可以看作铜皮的厚度，也就是PCB加工选项中的铜厚。
+
+  
+
+通常铜厚以OZ来表示，1 OZ的铜厚换算过来就是35 um，2 OZ是70 um，依此类推。**那么可以很轻易地得出结论：在PCB上要通过大电流时，布线就要又短又粗，同时PCB的铜厚越厚越好。**
+
+  
+
+实际在工程上，对于布线的长度没有一个严格的标准。工程上通常会用：铜厚/温升/线径，这三个指标来衡量PCB板的载流能力。
+
+  
+
+以下两个表可以参考：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/ju1DzqX8iaOl1mO3HHDgib1EibDmXkadFWgIlxDw6PywLrUwnmfa1aJYYDicy7EaIcPichucvXj1bXJNDmYukzibhViaA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+从表中可以大约知道1 OZ铜厚的电路板，在10°温升时，100 mil (2.5 mm) 宽度的导线能够通过4.5 A的电流。
+
+  
+
+并且随着宽度的增加，PCB载流能力并不是严格按照线性增加，而是增加幅度慢慢减小，这也是和实际工程里的情况一致。**如果提高温升，导线的载流能力也能够得到提高。**
+
+  
+
+通过这两个表，能得到的PCB布线经验是：**增加铜厚、加宽线径、提高PCB散热能够增强PCB的载流能力。**
+
+  
+
+那么如果我要走100 A的电流，我可以选择4 OZ的铜厚，走线宽度设置为15 mm，双面走线，并且增加散热装置，降低PCB的温升，提高稳定性。
+
+  
+
+硬件笔记本
+
+2
+
+**方法二：接线柱**
+
+  
+
+除了在PCB上走线之外，还可以采用接线柱的方式走线。
+
+  
+
+在PCB上或产品外壳上固定几个能够耐受100 A的接线柱如：**表贴螺母、PCB接线端子、铜柱等。**
+
+  
+
+然后采用铜鼻子等接线端子将能承受100 A的导线接到接线柱上。这样大电流就可以通过导线来走。
+
+  
+
+硬件笔记本
+
+3
+
+**方法三：定做铜排**
+
+  
+
+甚至，还可以定做铜排。使用铜排来走大电流是工业上常见的做法，例如变压器，服务器机柜等应用都是用铜排来走大电流。
+
+  
+
+附铜排载流能力表：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/ju1DzqX8iaOl1mO3HHDgib1EibDmXkadFWgFz3lZP1A1kkxvrlP1E251pX9VaIahXxJJsQhcMTEiaVFR5aafsBEF1g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+硬件笔记本
+
+4
+
+**方法四：特殊工艺**
+
+  
+
+另外还有一些比较特殊的PCB工艺，国内不一定能找得到加工的厂家。
+
+  
+
+英飞凌就有一种PCB，采用3层铜层设计，顶层和底层是信号布线层，中间层是厚度为1.5 mm的铜层，专门用于布置电源，**这种PCB可以轻易做到小体积过流100 A以上。**
+
+来源 | EDA365电子论坛
+
+  
+
+后台回复“**加群**”，管理员拉你入技术交流群。

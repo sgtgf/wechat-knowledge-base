@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/cf4wZUg7vv4VZEQL7oRhVg](https://mp.weixin.qq.com/s/cf4wZUg7vv4VZEQL7oRhVg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+![](Fortran编程中的共享变量机制_模块(Module)与公共区(Common)_images/img_000_8bcddb233e93.jpg)
 
 在Fortran编程语言中，虽然不直接支持全局变量的定义，但为了实现在不同程序单元如主程序与函数之间的数据共享，Fortran提供了两种关键的方法：模块（Module）和公共区（Common）。这两种方法都有着大量的应用，而随着Fortran标准的发展，模块已成为更推荐的实践。
 
@@ -62,7 +62,7 @@
 
 总结来说，Fortran通过模块（Module）实现了更为现代、严谨的数据共享机制，它不仅提供了一种组织代码的有效手段，还支持细致的访问控制，从而极大地提高了代码质量和开发效率。虽然公共区（Common）作为一种历史遗留方式在旧版代码中仍有应用，但在新的开发实践中，模块应当成为首选解决方案。对于追求代码可靠性和可维护性的开发者而言，熟练掌握并应用模块这一特性至关重要。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](Fortran编程中的共享变量机制_模块(Module)与公共区(Common)_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

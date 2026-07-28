@@ -69,7 +69,7 @@ FEtch 是近四十年来不断发展和完善的有限元语言的全新生成�
 
 毫不夸张地说，**掌握了 FEtch，你可以在数天甚至数小时内完成通常需要一个月甚至数月才能完成的编程工作。**如果你正在编写有限元程序或者有志于开发属于自己的专用有限元程序，那么，非常欢迎你一起加入 FEtch 学习的大家庭！
 
-[![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVWibJfPDL65wO1QAS82bSHx5C6f9wKfd5KeOibY5WuHvXJwAZbZUGTzEK6IbEB0oJZLicb6gWdPGr27g/640?wx_fmt=png&from=appmsg)](http://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247483747&idx=1&sn=4e71fd2527371b74127a09177e745692&chksm=c3379519f4401c0f06b1415fbbe5287b528e00f66284b4eea5d6215c49cc16b6a06ff74b6acb&scene=21#wechat_redirect)
+[![](谈谈有限元程序开发_兼谈_FEtch_入门_images/img_000_594b14d7a2f4.png)](http://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247483747&idx=1&sn=4e71fd2527371b74127a09177e745692&chksm=c3379519f4401c0f06b1415fbbe5287b528e00f66284b4eea5d6215c49cc16b6a06ff74b6acb&scene=21#wechat_redirect)
 
   
 
@@ -123,6 +123,6 @@ FEtch 是近四十年来不断发展和完善的有限元语言的全新生成�
 
 欢迎使用 FEtch ，Gook Luck ！
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](谈谈有限元程序开发_兼谈_FEtch_入门_images/img_001_d981f1eb49d0.png)
 
 有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的免费试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。

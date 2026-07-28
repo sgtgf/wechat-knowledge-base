@@ -17,7 +17,7 @@
 
 这个操作反复进行若干次后，乒乓球沿着最短的路径到达了图像的底部，也就是函数的最小值点。梯度下降法就模拟了这个球的移动过程。
 
-![image.png](https://mmbiz.qpic.cn/mmbiz_png/Oed3sd2oUsXQtgSTY1HuOjabSuvr1MXEnQib1Wol1ntmzXxtWKjWFRMYa2VbHlleW0f70PcnoztAkjwhrXQQPvmwCztkBw4evtkrKGZRoWYI/640?wx_fmt=png&from=appmsg)
+![image.png](LLM从入门到放弃_梯度下降法_images/img_000_bc2176acefe1.png)
 
 image.png
 
@@ -97,7 +97,7 @@ def gd(eta, f_grad):    x = 10.0    results = [x]    for i in range(
 def show_trace(results, f):    n = max(abs(min(results)), abs(max(results)))    f_line = torch.arange(-n, n, 0.01)    d2l.set_figsize()    d2l.plot([f_line, results], [[f(x) for x in f_line], [        f(x) for x in results]], 'x', 'f(x)', fmts=['-', '-o'])show_trace(results, f)
 ```
 
-![image.png#pic_center](https://mmbiz.qpic.cn/mmbiz_png/Oed3sd2oUsVWKGt5uWjATJF90RIXCW5Hrvn2uCn4ZR6rsyAI9jooFqKIESrmvK2elbvhHgGcia1WPvmQrc4NdwFlK0CLcn8TDnzJNdNK6D9Q/640?wx_fmt=png&from=appmsg)
+![image.png#pic_center](LLM从入门到放弃_梯度下降法_images/img_001_89685fbbffdc.png)
 
 image.png#pic\_center
 

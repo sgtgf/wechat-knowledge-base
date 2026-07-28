@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/kUIresTIPqRPQF9RFISf7Q](https://mp.weixin.qq.com/s/kUIresTIPqRPQF9RFISf7Q)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg&random=0.0820070738268468&random=0.31282056215456144)
+![](Fortran中数学函数的前缀（D_C_Q_等）_加还是不加__images/img_000_95288e77a873.jpg)
 
 在编程的世界里，Fortran 以其高效性和稳定性在科学计算领域占据了重要的位置。尤其在处理复杂的数学运算时，Fortran 提供了一系列内置的数学函数，以满足不同精度需求的计算。然而，随着计算需求的多样化，简单的数学函数已经不能完全满足用户的需求。为此，Fortran 在其标准中引入了带有特定前缀的数学函数，如 `dsin`、`csin` 等，这些前缀分别代表了不同的计算精度和数据类型。本文将详细介绍这些前缀的意义及其使用方法，帮助 Fortran 程序员更好地理解和应用这些函数。
 
@@ -84,10 +84,10 @@ Fortran 的数学函数前缀提供了一种灵活的方式来指定计算的精
 
 # 推荐阅读
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.7859774657664518&random=0.8259684789707029)
+![](Fortran中数学函数的前缀（D_C_Q_等）_加还是不加__images/img_001_491883a93c20.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 
 有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV9ibz7dKOUdBCkXba3yW0tnJFuGOh8Jke9ME4CT0VZYEOZ3l1QtoO51n3LI2x62Ot4yYbhnJLUoMw/640?wx_fmt=jpeg&from=appmsg&random=0.5346201377881008&random=0.568730761369296)
+![](Fortran中数学函数的前缀（D_C_Q_等）_加还是不加__images/img_002_bff20742ef8d.jpg)

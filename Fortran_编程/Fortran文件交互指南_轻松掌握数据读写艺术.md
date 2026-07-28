@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/TsR\_I9yZ4YqPHTseh-kc6w](https://mp.weixin.qq.com/s/TsR_I9yZ4YqPHTseh-kc6w)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWzF5T1NAjeuWJkDK0pWW6RxxXXtgLiaUCZiaIIULiat4jAdIlEfO4SUKImZh46Ik8rP2UkUaksYzKvA/640?wx_fmt=jpeg)
+![](Fortran文件交互指南_轻松掌握数据读写艺术_images/img_000_8a607b0d775a.jpg)
 
 在科学计算领域，Fortran凭借其高效的数值运算能力和悠久的历史，一直是众多研究人员的首选语言之一。今天，让我们一起深入浅出地探索Fortran中的文件交互——如何让程序与外部世界的数据顺畅沟通。
 
@@ -86,7 +86,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](Fortran文件交互指南_轻松掌握数据读写艺术_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

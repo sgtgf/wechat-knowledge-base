@@ -6,7 +6,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaxzY2iaFnkPoXkEsN3w56lZnw9xkSicYr9vQAZ4WSj6L7vEQLv8eKZayM48cMic6iaHwbh92nSgtqRpsWcnHRcJ93g/640)  
+![](自动化所研发全球首个图文音三模态预训练模型_让AI更接近人类想象力__images/img_000_ad0376e689cf.png)  
 
   
 
@@ -50,7 +50,7 @@
 
 团队首次提出了视觉-文本-语音三模态预训练模型，实现了三模态间相互转换和生成。其核心原理是视觉、文本、语音不同模态通过各自编码器映射到统一语义空间，然后通过多头自注意力机制（Multi-head Self-attention）学习模态之间的语义关联以及特征对齐，形成多模态统一知识表示，再利用编码后的多模态特征，然后通过多头自注意力机制进行通过解码器分别生成文本、图像和语音。这里三模态互相转化和相互生成示意如图1所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iaxzY2iaFnkPoOpyfgJtMb5oXxELHEh86kfJNb7ROPiaicxicDxkTib2NaHpBItWo4HCc1nPeMurLkn6rTuEYCMcupVA/640)
+![](自动化所研发全球首个图文音三模态预训练模型_让AI更接近人类想象力__images/img_001_f732df166540.png)
 
 图1. 图文音三模态相互转换与生成
 
@@ -144,6 +144,6 @@ http://arxiv.org/abs/2107.00249
 
 如需转载或投稿，请后台私信。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/YeYEOicfKO63ibN9oeSopBHKgvcz59lbT4qHBzrPhJj40VY9aFZpSJ2woSNRxIrpDbyagfPibhMic9ouurqLibvukDw/640)
+![](自动化所研发全球首个图文音三模态预训练模型_让AI更接近人类想象力__images/img_002_05c3a6a79923.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YeYEOicfKO63ibN9oeSopBHKgvcz59lbT4YnkuwMibVicmQtFkzc2GZdDBS6TxZ5Plm89VM3XtFlRuK5ibboWLQQRDQ/640)
+![](自动化所研发全球首个图文音三模态预训练模型_让AI更接近人类想象力__images/img_003_d3abf46b44c3.png)

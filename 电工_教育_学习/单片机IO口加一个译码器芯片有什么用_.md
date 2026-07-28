@@ -1,0 +1,57 @@
+# 单片机IO口加一个译码器芯片有什么用？
+
+原创 杨杨 硬件笔记本 2022-02-10 07:00 undefined
+
+> 原文地址: [https://mp.weixin.qq.com/s/AEBn9\_AK4FwkbU2Wkhn-ZQ](https://mp.weixin.qq.com/s/AEBn9_AK4FwkbU2Wkhn-ZQ)
+
+# 点击关注下方公众号了解更多▼
+
+  
+
+有些时候根据项目的变动，单片机引脚会有增加和调整的功能，可能会导致之前选择的单片机的IO引脚数量不够；针对单片机的IO引脚数量不够时，工程师该如何去较好地解决呢？
+
+  
+
+工程师可能会重新选择单片机的型号，直接通过简单地增加IO引脚数量来解决；此方案虽然可以解决，但不推荐，因为软件也要重新调试，硬件电路也要重新改，相当于之前的工作都白做了。
+
+  
+
+那有没有其他方案可以更好地解决呢？单片机的IO引脚数量不够时，除了重新选择新的单片机型号解决方案之外，还存在使用IO引脚扩展芯片的方案。比如74LS48译码器。
+
+  
+
+译码器74LS48 芯片，是一种常用的七段数码管译码器驱动器，常用在各种数字电路和单片机系统的显示系统中。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vRsNplMsPQcbQjDctMRrPvGQwgY0Htuciczm8bn8Tfwa4ECpzHPDtibicWjgfRkoeu9DmIhEr5iaj0glQ/640?wx_fmt=png)
+
+  
+
+上图给出了74LS48的符号图。由符号图可以知道，4号管脚端具有输入和输出双重功能。作为输入（BI）低电平时，G21为0，所有字段输出置0，即实现消隐功能。作为输出（RBO），相当于LT，即LT=1，RBI=0，DCBA=0000时输出低电平，可实现动态灭零功能。3号（LT）端有效低电平时，V20=1，所有字段置1，实现灯测试功能。
+
+  
+
+  
+
+以驱动数码管为例：  
+
+  
+
+如果没有74LS48译码器，单片机则需要7个IO口分别控制a、b、c、d、e、f、g数码管的7个引脚，所以直接驱动占用的IO比较多。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vRsNplMsPQcbQjDctMRrPvGLLB7Rhicf4YnGiaF8Wbw39zuKrIwzObLtvkNTIltJpicZHSDxWtF2gqng/640?wx_fmt=png)
+
+  
+
+  
+
+如果加上74LS48译码器，单片机IO口只需要A、B、C、D四个引脚就可以控制数码管，相当于节约了3个单片机引脚，实现了IO口扩展功能。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/O3bgxOa59vRsNplMsPQcbQjDctMRrPvGjfuX4yWDGc0b9A9XLkGZv5hsn65EIRQYSmutpV6p7jZROzuKtBpORA/640?wx_fmt=png)
+
+  
+
+今天的分享就到这里，希望能到帮到你。

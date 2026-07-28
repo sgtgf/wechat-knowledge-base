@@ -24,19 +24,19 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8Ywv44JkF5xGVq7vKGyHdQpCY1Q7We9P4sZtkYQuROyOm21A7yz8ZaXSgQAsA3sz0wo0dtBpOPMLGPmkmHRjxf70/640?wx_fmt=svg)
+![](加权M_ller算法的广义加权规则_images/img_000_cd7ce51206ac.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH458mWhKuKB5YxULnOl6MN8e4zOvAh7duicHrGON8WDrJiaf5Tqepp1ia49M5laVu7VicRMP1Ps7LUXUCg/640?wx_fmt=jpeg)
+![](加权M_ller算法的广义加权规则_images/img_001_e87b9f86c6aa.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH458mWhKuKB5YxULnOl6MN8e3jAA5Ij6vZ6Py6vfbTEwn1pEyNl8J4Wg5Js9ibAEXf16JRBy6GvsNAA/640?wx_fmt=jpeg)
+![](加权M_ller算法的广义加权规则_images/img_002_ee4237504578.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8Ywv44JkF5xGVq7vKGyHdQpCY1Q7We9P4sZtkYQuROyOm21A7yz8ZaXSgQAsA3sz0wo0dtBpOPMLGPmkmHRjxf70/640?wx_fmt=svg)
+![](加权M_ller算法的广义加权规则_images/img_003_cd7ce51206ac.svg)
 
 语音增强与阵列麦克风
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH458mWhKuKB5YxULnOl6MN8eQ0heYZCJQF5cEsKN3CxUgbqoMFdZk6DS6iaHjbG3A6EYiaBjdTG8jnCA/640?wx_fmt=gif)
+![](加权M_ller算法的广义加权规则_images/img_004_f2e4f8109b29.gif)
 
 雷达探测未知飞行物
 
@@ -58,31 +58,31 @@
 
 作者简介
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH458mWhKuKB5YxULnOl6MN8eDiajeV7XQLgRxfticMmobkbm6fwQwTcLe0UjN1OBdicN1f9EnXxttLPibg/640?wx_fmt=png)
+![](加权M_ller算法的广义加权规则_images/img_005_e7c2c7707e3b.png)
 
 杜柏阳, 西安高科技研究所博士研究生. 主要研究方向为信号特征提取. 
 
 E-mail: duboyangepgc@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH458mWhKuKB5YxULnOl6MN8ej2tznc925IjMrgoDCYzspxzX98wcXBzkHQJS0GwhqXQuBIBduN3xlg/640?wx_fmt=png)
+![](加权M_ller算法的广义加权规则_images/img_006_3aafa3c7a8bb.png)
 
 孔祥玉, 西安高科技研究所教授. 主要研究方向为多元信号分析, 信号处理. 本文通信作者.  
 
 E-mail: xiangyukong01@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH458mWhKuKB5YxULnOl6MN8eXnDecadR5yRyCQ372fIlAEO9dTf5BwMRZ4QI941A5TUSvqhOD2VFqQ/640?wx_fmt=png)
+![](加权M_ller算法的广义加权规则_images/img_007_fa24b147ad94.png)
 
 冯晓伟, 西安高科技研究所讲师.主要研究方向为特征提取, 信号处理. 
 
 E-mail: xiaowei121416@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH458mWhKuKB5YxULnOl6MN8eBxuB6vRHAVtwibmPMPqJdf4sJ3Yxfwib08JhibmP1R0M2gAeANn4sn5fw/640?wx_fmt=png)
+![](加权M_ller算法的广义加权规则_images/img_008_ce4a2099ebe6.png)
 
 高迎彬, 中国石油大学(北京) 信息科学与工程学院讲师.主要研究方向为特征提取, 信号处理. 
 
 E-mail: welcome8793@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH458mWhKuKB5YxULnOl6MN8e0CWIr0ObUWQYzFMWvIutpgtfgSN46jrjDEsjnyyhh497iad70j0dY5g/640?wx_fmt=png)
+![](加权M_ller算法的广义加权规则_images/img_009_a96dd17e6182.png)
 
 曹泽豪, 西安高科技研究所硕士研究生. 主要研究方向为多元信号分析. 
 
@@ -210,21 +210,21 @@ E-mail: czh17782759319@163.com
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH458mWhKuKB5YxULnOl6MN8ephL8b4tY4fwwLMueksSVJyMFHxyIsQPqp412L7DykjT25pOVib0nXbQ/640?wx_fmt=png)
+![](加权M_ller算法的广义加权规则_images/img_010_ac20859cb13b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH458mWhKuKB5YxULnOl6MN8eEJTnslwIMf3Upe6apH3lWywSRrP4BsznC9xc9LK4iayLH2llELVWZwg/640?wx_fmt=jpeg)
+![](加权M_ller算法的广义加权规则_images/img_011_358876cd6c03.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH458mWhKuKB5YxULnOl6MN8ephL8b4tY4fwwLMueksSVJyMFHxyIsQPqp412L7DykjT25pOVib0nXbQ/640?wx_fmt=png)
+![](加权M_ller算法的广义加权规则_images/img_012_ac20859cb13b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH458mWhKuKB5YxULnOl6MN8eGB5KSlFwiclibOv8QF0eNQ90edaIb41pluYf76PLic3QgZu0lg6z2Xsxg/640?wx_fmt=jpeg)
+![](加权M_ller算法的广义加权规则_images/img_013_fa934c1816a8.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH458mWhKuKB5YxULnOl6MN8ephL8b4tY4fwwLMueksSVJyMFHxyIsQPqp412L7DykjT25pOVib0nXbQ/640?wx_fmt=png)
+![](加权M_ller算法的广义加权规则_images/img_014_ac20859cb13b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH458mWhKuKB5YxULnOl6MN8eNuHGty13AJWwZaquW7RQIVIuA9XuibibPhO8hricJ8v0TFaUxEibVarKRA/640?wx_fmt=jpeg)
+![](加权M_ller算法的广义加权规则_images/img_015_5c2eb0ab4743.jpg)
 
 自动化学报订阅号
 

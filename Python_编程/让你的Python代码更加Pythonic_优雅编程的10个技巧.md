@@ -3,15 +3,15 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/IaifLfLOtDveMB4G1TSzoA](https://mp.weixin.qq.com/s/IaifLfLOtDveMB4G1TSzoA)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/VIM0SmWQpWvsQIEAS5b228jQGB4FurcBibs2iaubicTaW5IkOa3r4XpLaPyzmen89DAcSJr1ObOucT9iceic0xehFcg/640?&random=0.7208003402280347&random=0.16634114621985852&random=0.8658017081419105)
+![图片](让你的Python代码更加Pythonic_优雅编程的10个技巧_images/img_000_ae4a0e03c729.png)
 
 点击上方「蓝字」关注我们
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2MhiaCtgicxW6hVicfNzL5yE9b4tViaWuriaVsWhgzqbAxD0eIYhziaLtLI1uwLENGob23fQJEVe1M77eMPRP8yNHrKQ/640?&random=0.5083455645781676&random=0.6902606942797083&random=0.5006165306553911)
+![图片](让你的Python代码更加Pythonic_优雅编程的10个技巧_images/img_001_8878d722fd8a.png)
 
   
 
-![Python中文网_派森| CNPython](https://mmbiz.qpic.cn/mmbiz_jpg/XWmWoeAjJ1Mbib6OVWshxzEmT53DqXZSWIkwRWcjGYFfQtHHdfc3t3iclSd25RPCP8vGweVFYCpvCbxJun4PWiaNw/640?wx_fmt=jpeg&from=appmsg)
+![Python中文网_派森| CNPython](让你的Python代码更加Pythonic_优雅编程的10个技巧_images/img_002_f708fef9d3fd.jpg)
 
 在软件开发的世界里，Python以其简洁和可读性而闻名。"Pythonic"这一术语不仅捕捉了这种语言的核心特质，也成为了高效、直观编码风格的代名词。本文将深入探讨10个技巧，帮助你提升Python代码的质量，使其既符合Python的设计哲学，又能在团队协作中作为“通用语言”。无论你是新手还是经验丰富的开发者，这些技巧都将助你在Python编程之旅上更进一步。
 
@@ -283,6 +283,6 @@ PEP 8（Python Enhancement Proposal 8）是Python社区广泛认可的代码风�
 
   
 
-**喜欢****作者******，请点********赞********和在看******![图片](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)**
+**喜欢****作者******，请点********赞********和在看******![图片](让你的Python代码更加Pythonic_优雅编程的10个技巧_images/img_003_ccb6b1d5c075.gif)**
 
-**![图片](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)**
+**![图片](让你的Python代码更加Pythonic_优雅编程的10个技巧_images/img_004_3079cfee603e.gif)**

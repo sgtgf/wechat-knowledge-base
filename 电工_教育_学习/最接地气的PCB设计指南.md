@@ -1,0 +1,209 @@
+# 最接地气的PCB设计指南
+
+原创 硬件笔记本 2024-03-28 07:45 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/AdJJhQ3KlUKFHso8v3b4Qw](https://mp.weixin.qq.com/s/AdJJhQ3KlUKFHso8v3b4Qw)
+
+## ![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic "音符")
+
+我们开始新设计时，因为将大部分时间都花在了电路设计和元件的选择上，在 PCB 布局布线阶段往往会因为经验不足，考虑不够周全。
+
+如果没有为 PCB 布局布线阶段的设计提供充足的时间和精力，可能会导致设计从数字领域转化为物理现实的时候，在制造阶段出现问题，或者在功能方面产生缺陷。  
+  
+那么设计一个在纸上和物理形式上都真实可靠的电路板的关键是什么？  
+  
+让我们探讨设计**一个可制造，功能可靠的 PCB 时需要了解以下6个 PCB 设计指南。**
+
+**1\. 微调你的元件布置**  
+  
+PCB 布局过程的元件放置阶段既是科学又是艺术，需要对电路板上可用的主要元器件进行战略性考虑。虽然这个过程可能具有挑战性，但你放置电子元件的方式将决定你的电路板的制造难易程度，以及它如何满足你的原始设计要求。  
+  
+**虽然存在元件放置的常规通用顺序，如按顺序依次放置连接器，印刷电路板的安装器件，电源电路，精密电路，关键电路等**，但也有一些具体的指导方针需要牢记，包括：  
+  
+**取向** - 确保将相似的元件定位在相同的方向上，这将有助于实现高效且无差错的焊接过程。  
+  
+**布置** \- 避免将较小元件放置在较大元件的后面，这样小元件有可能受大元件焊接的影响而产生装贴问题。  
+  
+**组织** - 建议将所有表面贴装（SMT）元件放置在电路板的同一侧，并将所有通孔（TH）元件放置在电路板顶部，以尽量减少组装步骤。  
+  
+**最后还要注意的一条 PCB 设计指南** - 即当使用混合技术元件（通孔和表面贴装元件）时，制造商可能需要额外的工艺来组装电路板，这将增加你的总体成本。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OdnhCO4mSzia3wCuaw3x8tWgZEvb3QQKAOlgcFsdKsYVRkdUG4tLwA4g/640?wx_fmt=png&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+
+良好的芯片元件方向(左)和不良的芯片元件方向(右)  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60ODTwOz7kCJiaEuC2yyuA8ASOqlIN70OtoTYLEByVdPq6GCalbZBWcvjw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+良好的元件布置(左)和不良元件布置(右)
+
+  
+
+  
+
+**2.合适放置电源，接地和信号走线**
+
+放置元件后，接下来可以放置**电源，接地和信号走线**，以确保你的信号具有干净无故障的通行路径。在布局过程的这个阶段，请记住以下一些准则：
+
+**1）定位电源和接地平面层**
+
+  
+
+始终建议将电源和接地平面层置于电路板内部，同时保持对称和居中。这有助于防止你的电路板弯曲，这也关系到你的元件是否正确定位。  
+  
+对于给 IC 供电，建议为每路电源使用公共通道，确保有坚固并且稳定的走线宽度，并且避免元件到元件之间的菊花链式电源连接。  
+
+**2）信号线走线连接**
+
+ 
+
+接下来，按照原理图中的设计情况连接信号线。建议在元件之间始终采取尽可能短的路径和直接的路径走线。  
+  
+如果你的元件需要毫无偏差地固定放置在水平方向，那么建议在电路板的元件出线的地方基本上水平走线，而出线之后再进行垂直走线。  
+  
+这样在焊接的时候随着焊料的迁徙，元件会固定在水平方向。如下图上半部分所示。而下图下半部分的信号走线方式，在焊接的时候随着焊料的流动，有可能会造成元件的偏转。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OaTvnRVsGkaibHYdSiaianNcMz9LCIcojF2iaOico7wxMAXbvpk6SAmn9fDQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+建议的布线方式 (箭头指示焊料流动方向)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60Oz3LHHwadhichYbKW6RCfEqoN9LyMQ2rcANiaS7XwdwXJn6rt8FNibY0ibA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+不建议的布线方式 (箭头指示焊料流动方向) 
+
+  
+
+ 
+
+**3）定义网络宽度**
+
+  
+
+你的设计可能需要不同的网络，这些网络将承载各种电流，这将决定所需的网络宽度。考虑到这一基本要求，建议为低电流模拟和数字信号提供 0.010’’(10mil）宽度。当你的线路电流超过 0.3 安培时，它应该进行加宽。这里有一个免费的线路宽度计算器，使这个换算过程变得简单。
+
+  
+
+**3\. 有效隔离**  
+
+你可能已经体验到电源电路中的**大电压和电流尖峰**如何干扰你的低压电流的控制电路。**要尽量减少此类干扰问题，请遵循以下准则：**  
+  
+**隔离 -** 确保每路电源都保持电源地和控制地分开。如果你必须将它们在 PCB 中连接在一起，请确保它尽可能地靠近电源路径的末端。  
+  
+**布置 -** 如果你已在中间层放置了地平面，请确保放置一个小阻抗路径，以降低任何电源电路干扰的风险，并帮助保护你的控制信号。可以遵循相同的准则，以保持你的数字和模拟的分开。  
+  
+**耦合 -** 为了减少由于放置了大的地平面以及在其上方和下方走线的电容耦合，请尝试仅通过模拟信号线路交叉模拟地。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OicibxiaPdDaRE6TO87fLItNdnlD85v0dplfxO5laNeKtO9guRQWVWzibfg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+元件隔离示例（数字和模拟）
+
+  
+
+**4\. 解决热量问题**
+
+你是否曾因热量问题而导致电路性能的降低甚至电路板损坏？由于没有考虑散热，出现过很多问题困扰许多设计者。这里有一些指导要记住，以帮助解决散热问题：  
+
+**1）识别麻烦的元件** 
+
+ 
+
+**第一步是开始考虑哪些元件会耗散电路板上的最多热量。**这可以通过首先在元件的数据表中找到“热阻”等级，然后按照建议的指导方针来转移产生的热量来实现。当然，可以添加散热器和冷却风扇以保持元件温度下降，并且还要记住使关键元件远离任何高热源。  
+
+  
+
+2）添加热风焊盘 添加热风焊盘对于生产可制造的电路板非常有用，它们对于高铜含量元件和多层电路板上的波峰焊接应用至关重要。由于难以保持工艺温度，因此始终建议在通孔元件上使用热风焊盘，以便通过减慢元件管脚处的散热速率，使焊接过程尽可能简单。  
+  
+**作为一般准则，始终对连接到地平面或电源平面的任何通孔或过孔使用热风焊盘方式连接。**除了热风焊盘外，你还可以在焊盘连接线的位置添加泪滴，以提供额外的铜箔/金属支撑。这将有助于减少机械应力和热应力。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60O0dv8ic5DDEDqyJuuYgT6vNggKvne00I7dJZcUhvmC5VxiblOgIrsamdw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+典型的热风焊盘连接方式
+
+  
+
+**5\. 热风焊盘科普**  
+
+许多工厂内负责制程(Process)或是 SMT 技术的工程师经常会碰到电路板元件发生空焊(solder empty)、假焊(de-wetting)或冷焊(cold solder)等等这类焊不上锡(non-wetting)的不良问题，不论制程条件怎么改或是回流焊的炉温再怎么调，就是有一定焊不上锡的比率。这究竟是怎么回事？  
+  
+撇开元件及电路板氧化的问题，究其根因后发现有**很大部分这类的焊接不良其实都来自于电路板的布线(layout)设计缺失**，而最常见的就是在元件的某几个焊脚上连接到了大面积的铜皮，造成这些元件焊脚经过回流焊后发生焊接不良，有些手焊元件也可能因为相似情形而造成假焊或包焊的问题，有些甚至因为加热过久而把元件给焊坏掉。
+
+  
+
+**一般 PCB 在电路设计时经常需要铺设大面积的铜箔来当作电源(Vcc、Vdd 或 Vss)与接地(GND，Ground)之用。**这些大面积的铜箔一般会直接连接到一些控制电路(IC)及电子元件的管脚。  
+  
+不幸的是如果我们想要将这些大面积的铜箔加热到融锡的温度时，比起独立的焊垫通常需要花比较多的时间（就是加热会比较慢），而且散热也比较快。当这样大面积的铜箔布线一端连接在小电阻、小电容这类 小元器件，而另一端不是时，就容易因为融锡及凝固的时间不一致而发生焊接问题；  
+
+  
+
+如果回流焊的温度曲线又调得不好，预热时间不足时，这些连接在大片铜箔的元件焊脚就容易因为达不到融锡温度而造成虚焊的问题。  
+  
+人工焊接（Hand Soldering）时，这些连接在大片铜箔的元件焊脚则会因为散热太快，而无法在规定时间内完成焊接。
+
+  
+
+**最常见到的不良现象就是包焊、虚焊，焊锡只有焊在元件的焊脚上而没有连接到电路板的焊盘。**从外观看起来，整个焊点会形成一个球状；更甚者，作业员为了要把焊脚焊上电路板而不断调高烙铁的温度，或是加热过久，以致造成元件超过耐热温度而毁损而不自知。如下图所示。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OWiaV9iaJsbSPLzj6ibm2NldYxUBCP4EiaUibb7tx4IppuuSa35z9XSYdibCg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+包焊、冷焊或虚焊
+
+  
+既然知道了问题点就可以有解决的方法，**一般我们都会要求采用所谓 Thermal Relief pad（热风焊垫）设计来解决这类因为大片铜箔连接元件焊脚所造成的焊接问题。**
+
+  
+
+如下图所示，左边的布线没有采用热风焊盘，而右边的布线则已经采用了热风焊盘的连接方式，可以看到焊盘与大片铜箔的接触面积只剩下几条细小的线路，这样就可以大大限制焊垫上温度的流失，达到较佳的焊接效果。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OExxSZhIWoEoca4xjVsC9pVv50DkWjEciabF3fiaS9AKR7SDqDKQge1Ww/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+采用 Thermal Relief pad（热风焊垫）对比
+
+  
+
+**6\. 检查你的工作**
+
+当你马不停蹄地哼哧哼哧地将所有的部分组合在一起进行制造时，很容易在设计项目结束时才发现问题，不堪重负。因此，在此阶段对你的设计工作进行双重和三重检查可能意味着制造是成功还是失败。  
+  
+**为了帮助完成质量控制过程，我们始终建议你从电气规则检查（ERC）和设计规则检查（DRC）开始，以验证你的设计是否完全满足所有的规则及约束。**使用这两个系统，你可以轻松进行间隙宽度，线宽，常见制造设置，高速要求和短路等等方面的检查。  
+  
+当你的 ERC 和 DRC 产生无差错的结果时，建议你检查每个信号的布线情况，从原理图到 PCB，一次检查一条信号线的方式仔细确认你没有遗漏任何信息。另外，使用你的设计工具的探测和屏蔽功能，以确保你的 PCB 布局材料与你的原理图相匹配。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FNaqqxaicwlxTQ4SlKiaCx60OicYR2hTNFZ6A7nmZtPTYU9xzsuuMoXrlklTkn0bF4sbn7lic6KIaVHIA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+仔细检查你的设计，PCB 和约束规则
+
+  
+
+**7.结语**  
+
+当你掌握了PCB 设计师都需要知道的这几个设计指南，通过遵循这些建议，你将很快就能够得心应手地设计出功能强大且可制造的电路板，并拥有真正优质的印刷电路板。  
+  
+良好的 PCB 设计实践对于成功至关重要，这些设计规则为构建和巩固所有设计实践中持续改进的实践经验奠定了基础。
+
+  
+
+硬件工程师及从业者都在关注我们
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761&tp=wxpic)
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052&tp=wxpic) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437&tp=wxpic)
+
+## 
+
+**声明：**
+
+  
+
+声明：文章来源网络。本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+投稿/招聘/推广/宣传 请加微信：woniu26a
+
+**推荐阅读▼**
+
+-   [电路设计-电路分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2811359150088683521#wechat_redirect)  
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

@@ -1,0 +1,236 @@
+# MOS管驱动电路设计指南
+
+原创 王工 硬件笔记本 2025-08-13 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/Ogekz1j-z0oThlf4gJfWzw](https://mp.weixin.qq.com/s/Ogekz1j-z0oThlf4gJfWzw)
+
+![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=frjerr2t&wxfrom=5&wx_lazy=1&tp=wxpic "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=x41xcyk9&wxfrom=5&wx_lazy=1&tp=wxpic "音符")
+
+  
+
+大家好，今天给大家分享一份SiC MOS管驱动电路设计资料，这份18页的PDF文档图文并茂，特别适合正在做功率电子设计的工程师朋友们。  
+
+合计18页，文件见PDF领取方式。
+
+之所以分享给大家这份资料，是因为SiC（碳化硅）MOS管在新能源车、充电桩、光伏逆变器等高压大功率应用中越来越重要。相比传统硅器件，SiC器件具有耐高压、耐高温、开关速度快等优势，但要把这些优势充分发挥出来，关键在于栅极驱动电路的设计。  
+
+下面我给大家梳理下这份文档的核心内容：
+
+011
+
+基础原理部分
+
+文档首先详细讲解了SiC MOSFET的结构特点
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaztkK6CiclmkvuRaUQofEa6JGicygRMNdr4rlI8lEycnPtfE7sDiazKIbQ/640?wx_fmt=png&from=appmsg)
+
+平面型和沟槽型两种结构对比
+
+  
+
+关键的寄生电容参数（Cgs、Cgd、Cds），以及栅极充电特性的三个阶段。
+
+这些内容我公众号以前已经写了很多，这里不再重复说了。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxa43uia9zakunjB27mluefRI8j5s13gPjgAaHYau2Z3710EuncWHyQ0Kw/640?wx_fmt=png&from=appmsg)
+
+寄生电容等价回路
+
+  
+
+这些基础知识对理解后续驱动设计非常重要。
+
+  
+
+021
+
+驱动设计中的关键问题
+
+SiC MOS管开关快是优点，但也带来一堆头疼问题：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaRhyLmvOVFvJUiavVSibJUicCuoqvHBaia6hGX4Gfibl0jF9F2FhKXL4Cicdw/640?wx_fmt=png&from=appmsg)
+
+同步整流方式 BOOST 回路
+
+  
+
+-   **开关损耗大**：开关频率越高，损耗越高，器件发热越大。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaGjf5sV0ZLRicRmsV6Gb8jcqRypEiaG42HfuOkHoknvkEIVE1xvWNb9ow/640?wx_fmt=png&from=appmsg)
+
+器件的损失波形
+
+  
+
+-   **浪涌电压**：关断瞬间，可能产生很高的浪涌电压，一不小心就超压炸管。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaJb9U0W9GBqW55mDvs39k52wubUibD2jh9TeLic1WKJcaPwWaN7QMEibXA/640?wx_fmt=png&from=appmsg)
+
+VDS 浪涌波形- RG\_EXT 特性
+
+  
+
+浪涌电压是指MOS管开关过程中，由于电流快速变化(di/dt)和寄生参数影响，在栅源极间产生的异常电压尖峰，主要包括两种现象：
+
+一是"正电压上升"（由米勒电容耦合和回路电感引起，可能导致自导通）
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxa2hI3UgrXWy2FShAXKrEpGHG1mAJR5ShUIq9jkGibibwQNcoP3hYRO3IQ/640?wx_fmt=png&from=appmsg)
+
+栅极-源极电压的动作示意等效回路图（LS 侧导通时）
+
+  
+
+  
+
+二是"负浪涌"（电流换流时源极电感效应将栅极电压拉低）。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxa4GEF8GOkTEPQGgyyVLOxbO1EvKSJko9CGBiawxkpZJIXdsteJOpxOCw/640?wx_fmt=png&from=appmsg)
+
+栅极源极电压的动作示意等效回路图（LS 侧关闭时）
+
+  
+
+这种瞬态电压波动与开关速度、栅极电阻值和PCB布局寄生电感密切相关，较大的栅极电阻可以抑制浪涌但会增加开关损耗，需要通过优化驱动电阻、添加栅源电容或采用负压驱动等措施来有效控制。
+
+  
+
+  
+
+-   **自导通**：
+    
+
+MOS管在不应导通时，因栅极电压异常升高而意外导通，这种现象通常发生在半桥电路中当一侧开关管快速导通时，通过米勒电容(Cgd)耦合使另一侧管子的栅极产生正电压尖峰，若超过阈值电压(VGS(th))就会导致上下管同时导通形成短路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaxgcxtYSYvBgtFdLaw9KEXfSGZagJmibH42kyYpW0XNf8GVRTV0iaJh0A/640?wx_fmt=png&from=appmsg)
+
+自导通时的 LS 电流
+
+这种现象与开关速度、栅极电阻密切相关，表现为电流波形中出现异常导通电流，可能引发器件损坏，需要通过优化栅阻、添加米勒钳位电路或负压关断等措施来预防。
+
+  
+
+031
+
+驱动器选型要点
+
+1、普通MCU那点输出电流根本带不动 SiC MOS管，必须靠栅极驱动器IC来放大信号。栅极驱动电压是确保功率器件可靠工作的关键参数，ROHM的SiC MOS管推荐使用15~18V的正向驱动电压(VGH)和0V的关断电压(VGL)。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaUfYjQuLXWED8xLjKWA4V2dAicNYD6JjOU8LNhF1yseZbXHQRMBRgUeQ/640?wx_fmt=png&from=appmsg)
+
+LowSide 型”栅极驱动回路概要
+
+  
+
+  
+
+2、控制电路的电平转换
+
+ 在大多数时候，咱们的栅极信号源的微控制器 (MCU) 的 GND电平与功率器件的源电平（VS\_HS,VS\_LS）往往是不同的，为了施加最佳的栅极-源极电压，需要对 MCU 信号进行电平转换。这也是栅极驱动器的重要作用之一。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaYocibZ3BnF2ufV3RvRRwImQmGLCJwxicqUBQMVicicq5YUABFLchl6Kxbg/640?wx_fmt=png&from=appmsg)
+
+电平转换”型栅极驱动回路
+
+  
+
+3、隔离控制电路和电源电路
+
+在高压大电流应用中，主电路可能达到几百伏电压和几十安电流。如果控制系统和功率电路之间没有电气隔离，一旦发生故障可能导致漏电甚至触电危险。因此必须使用带隔离功能的栅极驱动IC，这样即使功率侧出现异常，也能有效保护控制电路和使用者的安全。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaJAjrkUFib4QB4F9N4t31nmJgicELVk9AIHd3iaszPYGCJkXbkmldibl5Jg/640?wx_fmt=png&from=appmsg)
+
+“绝缘型”栅极驱动回路
+
+  
+
+041
+
+驱动电路设计指南
+
+这一节的内容较多，大家可以自己下来查看，简单介绍一下，栅极驱动器集成电路隔离的三种方法：光耦隔离、磁隔离和容隔离。
+
+  
+
+光耦隔离：光耦合由一个发光元件（发光端）和一个受光元件（受光端）组成，输入光耦合器的电流信号通过内部元件转换成光信号，并从发光端传输到受光端。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaUvRUdMTH54iaoyaXD6NicQEVGrIDRhBxuRcdbbSX7T1UR3buHlATSibbg/640?wx_fmt=png&from=appmsg)
+
+光耦隔离
+
+磁隔离：这种方法在输入和输出端使用线圈，在隔离的线圈之间传递信号。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxaxQLY3mxF0fUzRB57PUd1bBpYVo8bvpnYbCVfV6p7KH0EhqSlcAdMicg/640?wx_fmt=png&from=appmsg)
+
+磁隔离
+
+容隔离：使用 SiO2 电容、实现输入侧(Transmitter)和输出侧(Receiver)的绝缘、在被绝缘的电容之间传递 AC 信号。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxavCricV1UFfMtHRMUFbUJI7DfuvSJX3e0rgicfzdicURiatibOQjXmllMianQ/640?wx_fmt=png&from=appmsg)
+
+容隔离
+
+光耦隔离虽然成本低，但存在寿命短、速度慢的缺点；
+
+磁隔离和容隔离则具有集成度高、寿命长的优势，特别是CMTI（虑共模瞬态抗扰度）抗干扰能力更强（100V/ns vs 光耦的50V/ns），更适合SiC MOS管等高速开关应用。
+
+后面还讲了栅极驱动电压，电流能力，峰值电流的计算，电路功耗，驱动电阻的选择，保护回路的设计。
+
+  
+
+  
+
+051
+
+驱动电路设计的具体案例
+
+案例有元件选型依据和计算过程，并附有完整参考电路图，照着抄作业也能少走弯路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7EhXBQvrwYOgS7CLRyfxa6FX1ibEZZpqDtBoYGNuqMnlevVYzCle7L6ggicd1g7l1alTkLMbKdCQQ/640?wx_fmt=png&from=appmsg)
+
+SCT4018KR 栅极电路图示例
+
+SiC MOS管性能强，但驱动设计得仔细——电压、电阻、布线、保护一个都不能马虎。
+
+  
+
+061
+
+总结
+
+1、新手先啃透寄生电容和米勒平台，这是理解开关过程的关键。
+
+2、调电路时，示波器盯紧Vds和Vgs波形，比公式更直观。
+
+3、散热设计要留足余量。
+
+实在搞不定？可以参考大厂设计，准没错！
+
+  
+
+内容就介绍这么多了，如何下载《MOS管驱动电路设计》，更好的学习MOS管驱动电路
+
+关注公众号：硬件笔记本，并在公众号里发送对应的下载关键字获取下载链接
+
+在公众号里给王工发消息:
+
+## 
+
+下载|MOS管驱动电路设计
+
+## 建议复制粘贴过去，就不容易码错字哟！
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaANjctV2YKFSIgYZbB3T1sr0kLVdbfEJJFneWHVibia1JDiczKhUcFUVcP67kGuVqCCxrRmfA0xZib4A/640?wx_fmt=jpeg&from=appmsg)
+
+加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjmwtF6nMUAQqAa1cyEdlvL3NYQBBqsVhlXicpGsSN3s8GxXDtribFvaq668JcbrraxY8tAmCibN0iaJA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&randomid=o4zljwmu&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjmwtF6nMUAQqAa1cyEdlvLOiasB7xzWboEIvUYzElWJprquOpg9xDHKiaZ0G8LeW13BDyGR3oUGP1Q/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&randomid=8kynb692&tp=wxpic)
+
+## 
+
+**声明：**
+
+  
+
+声明：参考内容：ROHM官网。本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。

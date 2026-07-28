@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/LwQXzbuBjqRW0CtdyJ5QjA](https://mp.weixin.qq.com/s/LwQXzbuBjqRW0CtdyJ5QjA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVV6GUal5MQQmOiaibBt0gFuzAna2vCrs1c8VR8ylO2fuzVYANnicsjkqjXycSLdHwxutxgjD5JbAJbVA/640?wx_fmt=png&from=appmsg)
+![](Fortran_仍然在被使用的_5_个重要原因_images/img_000_0ff3d22222e3.png)
 
 时不时地会被一些编程小白问到，Fortran这么古老的编程语言还有前途吗？
 
@@ -109,7 +109,7 @@ MPI 作为一个标准化的网络层，已经成为了过去 25 年集群计算
 
 Fortran的学习之路永无止境，随着你不断地深入，你会发现更多的宝藏。无论是高性能计算、并行编程还是优化算法，Fortran都有着广泛的应用。在这个过程中，你不仅会学到编程技巧，还会培养出解决问题的能力，这将是你宝贵的财富。祝你在Fortran的世界中探索愉快！
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](Fortran_仍然在被使用的_5_个重要原因_images/img_001_d981f1eb49d0.png)
 
 FEtch 系统是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于 Fortran 90 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

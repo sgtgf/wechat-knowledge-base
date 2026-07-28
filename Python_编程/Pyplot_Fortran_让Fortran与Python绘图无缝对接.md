@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ljrIk5G3it4z-seBCMQ0Lw](https://mp.weixin.qq.com/s/ljrIk5G3it4z-seBCMQ0Lw)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/kicB09lvgibnnRjv0AAqQxyBODIttZXnQqcTPoF4Pt8tJmnia4CHaYUS3zqicFfKZTWibXTAew2ibFHDjy5Pf8nDnVEQ/640?)
+![](Pyplot_Fortran_让Fortran与Python绘图无缝对接_images/img_000_504b9a0acd89.png)
 
 点击上方「蓝字」关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kLQoJJzjYaicxneNzbOg7ynx3TfnIwmNTpJQ7orkaUNrJIV4u7PNdSJ25Mtn6XdRQTamLDDicHnYfdic2bsiaNQjCw/640?)
+![](Pyplot_Fortran_让Fortran与Python绘图无缝对接_images/img_001_92b2749bca28.png)
 
 Fortran 作为一种历史悠久且被广泛应用于科学计算领域的编程语言，在数值计算方面表现出色。然而，尽管 Fortran 在处理复杂的数学运算上具有无可比拟的优势，但在数据可视化方面却显得力不从心。这主要是因为 Fortran 的设计初衷并没有将图形界面作为其核心功能之一。
 
@@ -19,7 +19,7 @@ Fortran 作为一种历史悠久且被广泛应用于科学计算领域的编程
 
 `pyplot-fortran` 是一个 Fortran 模块，它为 Fortran 程序员提供了一种简单的方法来生成图形。通过这个模块，用户可以像在 Python 中使用 matplotlib 一样轻松地在 Fortran 中创建各种类型的图表。这使得 Fortran 成为一个更加全面的科学计算平台，不仅擅长于计算，也能够方便地进行数据可视化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXVxzBeGA2PfIq7qNQoQEOXz1kCFoQdWTvuRARyIdBgCPicm3sIfThCy5006VMkr9tULvsyerWk7Ng/640?wx_fmt=png&from=appmsg)
+![](Pyplot_Fortran_让Fortran与Python绘图无缝对接_images/img_002_2f85968cc6c2.png)
 
 ## 下载和配置
 
@@ -67,11 +67,11 @@ https://jacobwilliams.github.io/pyplot-fortran/index.html
 
 `sinx.png` 就是我们需要的正弦波形图。这张图包含了清晰的标题、坐标轴标签和网格线，以及一条带有标签的正弦曲线。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXVxzBeGA2PfIq7qNQoQEOX5TVn0HcMmuvPs23dpTVN0kb6YrEN2yiaZEibZ8FDb3jY8Spm1OAkLxXw/640?wx_fmt=png&from=appmsg)
+![](Pyplot_Fortran_让Fortran与Python绘图无缝对接_images/img_003_ad8321e9f4c0.png)
 
 Python 脚本文件 `sinx.py`包含了生成该图形的所有必要代码，可以单独使用 Python 来运行。感兴趣的话，当然也可以打开查看一下里面的具体内容。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXVxzBeGA2PfIq7qNQoQEOXPoAZClN665pGxczAibY7pic4CbjbAGPF256Kq80nRO7CjaBGjmbbDDMg/640?wx_fmt=png&from=appmsg)
+![](Pyplot_Fortran_让Fortran与Python绘图无缝对接_images/img_004_3b8b1f8d2a58.png)
 
   
 
@@ -109,16 +109,16 @@ Fortran开发环境极简配置教程
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=other&from=appmsg&random=0.0965554259264445&random=0.9895281602039818&random=0.3664148676365735&random=0.5989733001058846&random=0.9136350951431036&random=0.27261325097762934&random=0.5049900438385353&random=0.45326657236812573&random=0.12638990505896563&random=0.06837728990196523&random=0.4716313130946752&random=0.8901801752736267&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](Pyplot_Fortran_让Fortran与Python绘图无缝对接_images/img_005_a43309e53088.other)
 
   
 
 我们目前正和专业SCI论文英文润色机构**艾德思**开展全方位合作。如果您需要**论文和基金标书辅导服务**，欢迎扫描下方二维码，获取您的专属学术顾问，**锁定直减活动优惠**👇  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUeXf7YasV5XlZrWTDeHnFTLRgbic8U3BBZN3UKTunl1YG7DYcrZicpOXFibwa5WTo58ia2iaS1OaZwmIQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&random=0.3029447436928385&random=0.13296826418253938&random=0.8159401609522359&tp=webp)
+![](Pyplot_Fortran_让Fortran与Python绘图无缝对接_images/img_006_0cc72b672a55.other)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ls5001Viarhgmk68YnN6g4W5hatFlsorE2ewpQa76twe3x93RLcIPOShC9BRIxwiaAHAZmXG8qOfqKibY7EaibAQQQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&random=0.7239950771244579&random=0.8992467804414803&random=0.44055310068440034&tp=webp)
+![](Pyplot_Fortran_让Fortran与Python绘图无缝对接_images/img_007_e9181a395fa1.other)
 
 ********▲****长按扫码添加学术顾问咨询********▲****
 
-****![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUeXf7YasV5XlZrWTDeHnFTym7hL9kzBibkonm3BATcKZXJNFE6uxtD61Bc4c3e0LWcdPiaMu2js6mg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&random=0.9553989173419446&random=0.3184402686203158&random=0.7575201251418384&tp=webp)****
+****![](Pyplot_Fortran_让Fortran与Python绘图无缝对接_images/img_008_257d3c543e63.other)****

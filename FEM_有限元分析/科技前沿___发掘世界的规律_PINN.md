@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/6WrvT0AygOAqn2i4L8SOMg](https://mp.weixin.qq.com/s/6WrvT0AygOAqn2i4L8SOMg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUOs3freLVIClXtum3BChmXu0QibvYt4SIRpib3UibOLYUN4twSgTnD9x6A/640?wx_fmt=gif&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_000_6033c05e49e5.gif)
 
 本期是同小航与您相伴的【第450期】
 
@@ -15,17 +15,17 @@
 
 ——利用方程归纳自然现象
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUdTPvYic3SwvInhDicRjHAJLfcqcuLbR1NvPCjwD0ribvYuF3DunjzdkYQ/640?wx_fmt=jpeg&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_001_43420caf5059.jpg)
 
 给我一个支点，我能撬动地球
 
 对“规律”的研究可以追溯到古希腊科学家**阿基米德**在《论平面图形的平衡》一书中提出的**杠杆原理**。人类开始使用等式与不等式来阐释我们在世界中观察到的现象。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUCuEvMqXh8PmIHN6tyDlMQlWwCu75ibbQuwia4gozdCfNF9WTiaYw5ekRw/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_002_d23b0c0cb288.png)
 
 这一公式也成为了“给我一个支点，我能撬动整个地球”的最好佐证。随着时代的发展，人类逐渐意识到自然界中广泛充斥着诸多规律，这些规律的描述与论证帮助人们以更加精确的视角认识自然。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUvPUMUibEeoNJOndTZP2zMibukgMiadcvUIfRN2Jm6HZWY2ZUZ8icfrqHhw/640?wx_fmt=jpeg&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_003_95870c48aa5c.jpg)
 
 约翰尼斯·开普勒
 
@@ -37,11 +37,11 @@
 
 **⚪调和定律**：所有行星绕太阳一周的时间平方与他们轨道半长轴的立方成比例。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLU4Bm3XMNj1oslQcDM7ibqhYz3fxxAksHOIDxIY98dYAicibJTcuuTziccbQ/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_004_1187213b766b.png)
 
 开普勒三定律的总结引发了天文学的革命，他彻底摧毁了托勒密所构建的繁杂本轮宇宙体系，大大完善与简化了哥白尼的日心说体系。或许开普勒也没有想到，这一规律的总结不仅对天体运动学产生了影响，在一个世纪以后，数学领域由此诞生了一场风暴变革。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLU7ialyUcSjnhWxS0r4Mtcc1OEHbaMkcpKZrTYoiaUpKIiauj6sHcH6Ofnw/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_005_1c95d319f7ab.png)
 
 **发展**
 
@@ -49,11 +49,11 @@
 
 17世纪**艾萨克·牛顿**在《自然哲学的数学原理》中阐述了一种存在于太阳与地球间的相互作用。这种作用与质量的乘积与太阳与地球间距离的平方成反比。这种作用与质心距离间的关系被牛顿使用以下公式所刻画：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUVgZvh4ibHL2WaZpLrCibGJHQHfAu8qOFgVEpLbib7pYIuBsARVBPe1Xhg/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_006_518bf22a19b6.png)
 
 暗含在这一公式背后的，是牛顿对这一现象更深刻的思考——“地球吸引月球的作用与太阳吸引地球的作用很可能是同一种作用”，这一规律不仅仅描述了地日之间的规律，进一步的，这一规律发生在任何两个行星之间！而这样的具有广泛性质的作用被赋予了一个响亮的名字——**万有引力**。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUnWZJ1wicCax0OFN3DVOp8OIia31QXFOlMYtRYzuRV8W0jWQA6H9Xe3jg/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_007_3885368c0299.png)
 
 艾萨克·牛顿
 
@@ -61,23 +61,23 @@
 
 科学家们首先将目光转向了一个从15世纪以来一直困扰他们的问题：**流体的流动是否也遵循着某种统一的规律呢？**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUFV3tETz2hqJVdrhafibXBADCQPnGEmULeicFemibeXmjI6Zibrbhv6fGvw/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_008_bd93853cdf34.png)
 
 达芬奇流体研究手稿
 
 被誉为超越了时代的天才——**列奥纳多·达·芬奇**（1452-1519）的研究手稿中，可以看到达芬奇研究了太阳光线如何传播到地球与月球的理论。而在其中，占据了绝大部分版面的是关于“水”的研究：达芬奇利用水槽与水源系统的研究了流体中“涡”的移动，并进一步将发现的规律应用在人体血流与古代地质海洋模型的推断中。“流体”后来继续被欧拉、纳维、柯西利用方程形式描述，并最终由**乔治·斯托克斯**在19世纪完成了利用偏微分方程组对**粘性流体**的完整刻画。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUqq89RdroZAVDY005HOKXypUOYHAxzV9TTkqKq9iaEHnTPVFYvSp609Q/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_009_57b4dc1abdeb.png)
 
 进一步的，科学家们利用强大的数学工具在固体力学、量子力学等各种不同的学科内大显身手。越来越多的统一规律被发现，并被使用方程来准确地刻画。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUP6f6PJtEUZooxVsNyzVhxGyh0w6J3enokHeRSq8licof892yFqWDDOA/640?wx_fmt=gif&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_010_ee2265671413.gif)
 
 **求精**
 
 ——计算机的引入
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUYlOYqnYFHZNXqgiaIWN1bUgJJjaiaUY27qIVmvHE4guFLdjxuIrTDhWA/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_011_38a8aec5e89b.png)
 
 风暴系统
 
@@ -85,13 +85,13 @@
 
 **难道复杂方程注定会阻碍我们了解自然界的真相吗？**一个又一个统一且简明的规律被人们发现并总结，我们究竟要如何利用和分析它们呢？20世纪40年代，随着计算机的出现，科学家们看到了一丝曙光。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLU7YXZDJ7ohtQZfGYJiakAVxBA4ndL9czibhZiaxb5tdzvqu0yA2j5bmH2A/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_012_6126840a43ac.png)
 
 第一台通用计算机ENIAC
 
 “**如果我们距离正确答案的距离仅仅是枯燥乏味的计算，那么计算机恰好可以胜任这一工作**”。我们仅仅需要将一个复杂方程组离散化，便可以将一个复杂的分析问题转换成对一个庞大矩阵的联立求解问题。对于人而言，这只是将一个复杂且难以解决的问题转换为了另一个复杂且难以解决的问题。但对于计算机而言，这样的变换正好使得其算力得到充分的发挥。利**用计算机求解方程组**成为了我们研究“统一规律”的重要工具。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLU3MhD69PO4joPENSxtqfadJdHGGtRfSrOgvic0cyaUtiau5dDGfsMFicRg/640?wx_fmt=jpeg&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_013_ecbe206fe447.jpg)
 
 天气系统示意图
 
@@ -132,7 +132,7 @@ PINN的全称为**内嵌知识的物理信息神经网络（Physics Informed Neu
 
 **“谁来扮演小朋友？”**让我们想一想“小朋友”的关键特征。小朋友需要有足够强的学习与反思能力，一开始我们不需要要求它做的很好，但它需要不断地成长。Nice!一个**未经训练的原始神经网络模型**正好满足这一特征。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUeKHic82ic8A4cRZmFhXriadTeNPYlQTXLMJFYpWvk8mFp1T949pjw2tNw/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_014_33fa8a1f1bec.png)
 
 多层感知机示意
 
@@ -140,7 +140,7 @@ PINN的全称为**内嵌知识的物理信息神经网络（Physics Informed Neu
 
 **“谁来扮演老师？”**让我们想一想“老师”的关键特征。无论小朋友提供了一个怎样的答案，老师都需要对这一答案进行评价，并准确告诉小朋友“这次做的如何”。科学家敏锐的意识到：**“这正是方程所能够描述的！”**。方程使用等式描述统一的规律，我们只需要**将小朋友的答案代入方程内，便可精确分析这一答案“偏移”了多少(Loss值)。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLU73Zq2gVJD1opLbM3O33yFfics35Gnkuzzp7vkp0ewLm05YCCn01SBFg/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_015_b07580c7eaab.png)
 
 NS方程构造的Loss
 
@@ -148,7 +148,7 @@ NS方程构造的Loss
 
 **“老师布置的习题册(作业本)如何构造？”**让我们想一想习题册的关键特征，他要包含足够多的习题覆盖每一个知识点，关键的章节最好能多加两道题巩固一下。**我们可以使用采样点技术！**科学家们在问题的求解域内**选取诸多的“采样点”作为“习题册”，每次神经网络预测并输出这些“题目”上的结果。**这样在问题分析的关键位置（例如流体问题中的边界层）只需要多添加点便可保证学习精度。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUkxt8iba0Tu7lwzQIRhChdJofbKSox92ru1srSZvNbR1wZnhO5ecxUag/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_016_32706d3126f1.png)
 
 不同的采样点构造方式
 
@@ -156,13 +156,13 @@ NS方程构造的Loss
 
 **“小朋友如何通过答案对自己的过程进行反思与修正？”**看似最为困难的问题实际在机器学习漫长的发展史中，已经得到了最好的解答——**“反向传播”技术**。通过一个给定的Loss值（反映结果的好坏）自动修正网络参数。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUFEichocMx8IVHDWdSlQtUUV5fhrMRAr3Dia336Qow3CzKd3ZSIT1l7Vw/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_017_1814abaf44f2.png)
 
 神经网络结构
 
 科学家们已经准备并检查好了所有的工具，让我们出发！
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUP6f6PJtEUZooxVsNyzVhxGyh0w6J3enokHeRSq8licof892yFqWDDOA/640?wx_fmt=gif&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_018_ee2265671413.gif)
 
 PINN对偏微分方程的求解仅需要三步：
 
@@ -174,13 +174,13 @@ PINN对偏微分方程的求解仅需要三步：
 
 由于这种方法**将网络模型作为解函数**，因此无需在计算前对网格进行离散，仅仅需要制定观测点（用于告知计算机在哪些点上最需要满足已有的约束方程），即可利用**梯度下降**的方式逐步收敛至结果。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUqsWnWCpLztSNcbjAShVN7d0kficQnKgjgjfJQ33FkrkExFgUwDIz0jQ/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_019_26dec2e8abf3.png)
 
 利用PINN对颅内动脉内3维流场进行分析\[3\]
 
 由于能够学习偏微分方程，**PINN与传统方法相比有着许多优势**。首先，PINN作为一种**无网格方法**，利用解函数来刻画结果，这**保证了结果的连续特性**，而不像有限元等空间离散方法存在最小的解析尺度。同时，PINN方法**不仅可以正向应用作为一个通用的偏微分方程求解器，还能够反向作为“物理规律”再发现与结构优化等问题的好帮手\[****2\]**。另外，**PINN的无网格特征也使得其可以处理非常复杂的几何形状与高维度的偏微分方程组求解问题**，而这些问题无论是解析解求法还是数值计算的方法都备受阻力。最后，PINN的另一个优点是其**极强的迁移性能**。相较于一般的神经网络，PINN的结构并没有发生大的改变，仅通过对loss项的修改即可完成简单的训练任务。也正是由于其能够与现有的神经网络框架高度适应的匹配在一起，PINN在**生物医学工程、海洋波浪分析、工程水利、经济学**等诸多领域得以迅速发展。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUOfJm1b3mcN9xxnCkHGWOtelh3J3zgZx5zGnYTPFicOhicGKDnS5wqaLg/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_020_213066443043.png)
 
 利用PINN对流场结果进行解析 左侧为数值模拟结果 右侧为PINN得到结果
 
@@ -190,17 +190,17 @@ PINN对偏微分方程的求解仅需要三步：
 
 ——PINN的未来挑战与方向
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUwYGLZngdjSrNzq1PqowpP8SBY3Y2xYySS9RPnhOWzx0uNTx6J40fYQ/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_021_b2118c3314cc.png)
 
 利用PINN对圆柱绕流进行分析
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUP6f6PJtEUZooxVsNyzVhxGyh0w6J3enokHeRSq8licof892yFqWDDOA/640?wx_fmt=gif&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_022_ee2265671413.gif)
 
 虽然目前关于PINN效率增强的方向有了一些研究，但**仍存在许多尚未解决的问题**。例如方程边界条件实施、PINN结构的理论优化方式、PINN损失项间的平衡等。PINN和其他机器学习方法可能**成为解决高维度PDE的有效方式**，这对物理、金融、大气科学都有着很强的推动意义。另一方面，PINN与现有的数值方法对比，**在算法部署上具备优势，而在运算效率、运算精确度、对多尺度问题的分析上，还没能取得令人满意的表现**。在**粘性流体**中，高雷诺数导致的湍流现象使得PINN无法正确的学习到物理规律，在**可压缩流体的激波捕捉问题**中，数值的大幅度间断也使得PINN的表现不尽如人意。
 
 总体而言，PINN具备有应用于关键科学与技术挑战的**巨大潜力**，与此同时，这一领域还存在**诸多的问题**尚未能完整的解决，期待未来的研究中，大家能对这一方法做进一步的探索。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLU7ialyUcSjnhWxS0r4Mtcc1OEHbaMkcpKZrTYoiaUpKIiauj6sHcH6Ofnw/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_023_1c95d319f7ab.png)
 
   
 
@@ -228,7 +228,7 @@ PINN对偏微分方程的求解仅需要三步：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUWRHSNXicQIZGumJ0Y1ddgRl1ia7yIZ3mIyrFeY0rUQT7hMias2PhF0mhA/640?wx_fmt=png&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_024_d59fbb042062.png)
 
     **出品|**与你同航工作室
 
@@ -244,14 +244,14 @@ PINN对偏微分方程的求解仅需要三步：
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUCaRvc5Byu79DQK8XH6ibDRhQ9kg6xLeBYIxxfojUp7dWmyf9T2pa21w/640?wx_fmt=gif&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_025_cf8442a327b5.gif)
 
 **分享**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUCaRvc5Byu79DQK8XH6ibDRhQ9kg6xLeBYIxxfojUp7dWmyf9T2pa21w/640?wx_fmt=gif&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_026_cf8442a327b5.gif)
 
 **点赞**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vgaOiaL45npRR5wx6Ha9g6gjLu5EqNbLUCaRvc5Byu79DQK8XH6ibDRhQ9kg6xLeBYIxxfojUp7dWmyf9T2pa21w/640?wx_fmt=gif&from=appmsg)
+![](科技前沿___发掘世界的规律_PINN_images/img_027_cf8442a327b5.gif)
 
 **在看**

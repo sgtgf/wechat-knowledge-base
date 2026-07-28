@@ -7,21 +7,21 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/B2EfAOZfS1j0P2KhxNF226xt1M5SKuS7QzH64vfmiaqnJhbmgxWLlxDRYgE1SXmgvZ9F0wgFmibBHsIJgR9DX0ibndoby6FWbK3/640?)
+![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_000_574fea55b33e.png)
 
 点击上方蓝字关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/I1YzhXxW8YCmS3UnN2FuDSNMViapCreWzUpaL8YgOTzLHsLIYzEicsNaJxrXpegibgFtSZHaros5M4C9NkMOFh7aiaEtbQoQibiaqH/640?)
+![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_001_2f7441a5e1cc.png)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/lFubSBSogFqgicIHO1h77GiafPiaUPNMaqGFbhlVt4xgfibicIs2HQl7fUgltjzDdMtOWLmXcfiaticRwYHA4qohl55xA/640?)
+![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_002_bccd104d4e6d.png)
 
 5 月 TIOBE 编程语言榜单已发布，一起来看看本月有什么值得关注的新变化吧！
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/Pn4Sm0RsAujX5kS5KQ6BaBUsy1RqR06QuwjkSP1G6wEJHaJCLTONqlcQexqRgJcIICxofIOJs6B6tWBfibb7now/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp&random=0.07641340045694678&random=0.5026311269458974)**
+**![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_003_db93fded8fbd.other)**
 
 **67 岁老牌语言 Fortran 连续两个月进入 Top10**
 
@@ -54,40 +54,40 @@
 
 “在这些语言的丛林中，Fortran 看起来是快速的，具有原生数学计算支持，成熟且免费。悄然间，Fortran 在慢慢但确定地赢得市场份额。这是令人惊讶但不可否认的。”
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/q7kM1wTg0egdW4srAwAOppxiaRTOLHarJfjNS9YsFhued7LEXBTHJuGFYxFzdQEPu8THjjdicfasTibNDqGl2BNkg/640?wx_fmt=png&from=appmsg&random=0.3344310073417116&random=0.7010002664879786)
+![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_004_71cad6e9feb5.png)
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/Pn4Sm0RsAujX5kS5KQ6BaBUsy1RqR06QDyP5HTUOXsPlJWd79yygiasaqXicpN7ibIfqiak5WFpaxE1mGxxpfmMjiaA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp&random=0.6900937514061085&random=0.16712952827532424)**
+**![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_005_a69b7d28c5ff.other)**
 
 **其他编程语言**
 
 以下为 Top 21-50 的编程语言榜单：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/q7kM1wTg0egdW4srAwAOppxiaRTOLHarJ2QeDzQuibAL8QicNtF0HEmfNaibpiaFthf7Hic5eK3ll9U5jiaoQS2QnYjOA/640?wx_fmt=png&from=appmsg&random=0.43205863781561105&random=0.0982679727414606)
+![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_006_e211d8c52865.png)
 
 第 51-100 名如下，由于它们之间的数值差异较小，仅以文本形式列出（按字母排序）：
 
 -   ABC, ActionScript, Algol, Apex, APL, bc, Boo, Carbon, CIL, CL (OS/400), CLIPS, Clojure, Common Lisp, Curl, DiBOL, Erlang, Factor, Groovy, Hack, Icon, Inform, Io, J, JScript, Ladder Logic, Lingo, LiveCode, LPC, MQL5, NATURAL, Nim, OCaml, OpenEdge ABL, Oxygene, Paradox, PL/I, PowerShell, Pure Data, Q, Ring, RPG, Scheme, Smalltalk, SPARK, Standard ML, WebAssembly, Wolfram, X++, Xojo, XPL 
     
 
-****![](https://mmbiz.qpic.cn/mmbiz_png/Pn4Sm0RsAujX5kS5KQ6BaBUsy1RqR06Q0QtgZAx8xsoTReptvArfwbn9MvHGVfV98Qkl5PMRS6MCt2ljwLJwoQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp&random=0.23704169812153153&random=0.9269648635174652)****
+****![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_007_43e088a0a973.other)****
 
 **Top 10 编程语言 TIOBE 指数走势（2002-2024）**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/q7kM1wTg0egdW4srAwAOppxiaRTOLHarJnZgSficHDpXu1NsKx9LADOBAbO7kYG6o7wH3iaVOVO6UpSM6Rg6nSHNQ/640?wx_fmt=png&from=appmsg&random=0.8583486720621267&random=0.19067236998326975)
+![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_008_130e700193f3.png)
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/Pn4Sm0RsAujX5kS5KQ6BaBUsy1RqR06Q3SAo8dibFicWvibnB5u4gdHLgb2AbA6UJ8VImKnyW92hibqZefwpDbPYAQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp&random=0.8050956917155447&random=0.8665179015770759)**
+**![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_009_969518c11321.other)**
 
 ## **历史排名（1988-2024）**
 
 注：以下排名位次取决于 12 个月的平均值。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/q7kM1wTg0egdW4srAwAOppxiaRTOLHarJeZz7pFeWtSvlQYKzYQRAHmNPkibmTdtVF9CKhtw6o7BHLu1GsOaKE8g/640?wx_fmt=png&from=appmsg&random=0.0007090668806279954&random=0.12271677816501958)
+![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_010_d7be7b74bb2d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Pn4Sm0RsAujX5kS5KQ6BaBUsy1RqR06Q0jqAkXB2hEohZkOqYzXVsmJtnNRQncYh54ZQOpcC5ZGSicYFgtBZP4w/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp&random=0.786072376665895&random=0.7701083457139979)
+![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_011_4d5fe5627e87.other)
 
 ## **编程语言“名人榜”（2003-2023）**
 
-## ![](https://mmbiz.qpic.cn/sz_mmbiz_png/q7kM1wTg0egdW4srAwAOppxiaRTOLHarJddZib61UqUlrx9KI3GicfAC7rQSb1XvpfaZJkngrJoAnpErsdNMvbuXg/640?wx_fmt=png&from=appmsg&random=0.6152903235374381&random=0.10763582669079219)
+## ![](Fortran语言连续两个月进入Top10___TIOBE_5月榜单发布_images/img_012_e19b4aa42405.png)
 
 **【说明】：**
 

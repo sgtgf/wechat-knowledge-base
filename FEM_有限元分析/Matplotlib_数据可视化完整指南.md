@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ykEdDNuA4dvvHNPtGBho6Q](https://mp.weixin.qq.com/s/ykEdDNuA4dvvHNPtGBho6Q)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/lMibj3qXibtF0e3mGcia1GLd4YzmFvHeibDwAdsqhRyAYYY9GwLuBQhdzHFdgqgOVjbvLjSInica1eLq6SXxicAtYLsA/640?wx_fmt=png&from=appmsg)
+![](Matplotlib_数据可视化完整指南_images/img_000_4c535d9a5cfa.png)
 
 ## 1\. 引言
 
@@ -33,7 +33,7 @@ import matplotlib.pyplot as plt
 
 效果图，如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/T7icEaGdCG8xFYibJwYq8YBa7gEMjutficBqqWQUrNrzSCIkWU1vuHPN2tD1MRiau1Qh8Pztf8rJSzEU46ZDRWAcUa36RBmkCpx5J6LmzVkTSWY/640?wx_fmt=png&from=appmsg)
+![](Matplotlib_数据可视化完整指南_images/img_001_8d16091ba8fc.png)
 
     ✅ 优点：趋势清晰、适合连续数据  
     ⚠️ 缺点：类别过多时曲线复杂、难读
@@ -48,7 +48,7 @@ categories = ['A', 'B', 'C', 'D']
 
 效果图，如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/T7icEaGdCG8zlJZSpwicjoDJd0hz6ibfPE2jy6EsxqBBTTt1jaEDL3VYEtkmXrzccnA0VubPheB1iaFy4O1zEjUIaUXm1icqpFZB56ibC8hwDCwEs/640?wx_fmt=jpeg)
+![](Matplotlib_数据可视化完整指南_images/img_002_710ac78a220e.jpg)
 
     ✅ 优点：直观、类别对比清晰  
     ⚠️ 缺点：类别多时，柱子密集、不美观
@@ -63,7 +63,7 @@ x = np.random.rand(100)
 
 效果图，如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/T7icEaGdCG8xnTQHqVAXmzAWsfvMTTwGW4PIvPGdOmY5iaq9ibQcTQITj3PqOhvlVtVgn8VZMibibticJPYOB5GM8FdiauyibbJro8TeLpJ5Xem7lfs/640?wx_fmt=jpeg)
+![](Matplotlib_数据可视化完整指南_images/img_003_b1c3af2ed6bd.jpg)
 
     ✅ 优点：展示变量间关系、密度分析  
     ⚠️ 缺点：点过密时难以分辨
@@ -78,7 +78,7 @@ labels = ['A', 'B', 'C']
 
 效果图，如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/T7icEaGdCG8wFBPnrGA0iauHmq4wE8PKY2rTYjDWQNCIfvO1k2hG6cBZbu2FVZNFicAh8AmalHhKUqO0lbFeDaN8941ObZJ8EibZABMic6kmsbv8/640?wx_fmt=jpeg)
+![](Matplotlib_数据可视化完整指南_images/img_004_3123fbf685dd.jpg)
 
     ✅ 优点：适合少数分类占比  
     ⚠️ 缺点：类别多时不清晰、不适合比较数值大小
@@ -93,7 +93,7 @@ data = [np.random.normal(0, std, 100) for std in range(1, 4)]
 
 效果图，如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/T7icEaGdCG8zdb3HyaV25h6ubmFKHI8gxUP0RXxNugBoMJ59ZLvCuJFG1boWqWvEFJHUr67zTSNtgdW5mwW8F7icmfiaFE340WFmtYicwIAibgMg/640?wx_fmt=jpeg)
+![](Matplotlib_数据可视化完整指南_images/img_005_c3bf681a61dd.jpg)
 
     ✅ 优点：展示分布异常、离散程度  
     ⚠️ 缺点：不直观表达原始数据量
@@ -110,7 +110,7 @@ plt.style.use('default')
 
 官网提供的效果图，如下：
 
-![default, Axes title, ax.grid(True)](https://mmbiz.qpic.cn/mmbiz_png/T7icEaGdCG8yVgzpBNblibwwZL8N3qIf2lReibmFfCbyCpAOhia6RjdhkccX5ZJ4lB2uazbbtiag1votkSY2Fa58yba2HTBZaHiaMOW4anAfOOUUw/640?wx_fmt=png&from=appmsg)
+![default, Axes title, ax.grid(True)](Matplotlib_数据可视化完整指南_images/img_006_4999a56f1986.png)
 
     ✅ 简洁、轻量，适合快速展示  
     ⚠️ 样式有限，视觉吸引力低
@@ -123,7 +123,7 @@ plt.style.use('seaborn-v0_8')
 
 官网提供的效果图，如下：
 
-![seaborn-v0_8, Axes title, ax.grid(True)](https://mmbiz.qpic.cn/sz_mmbiz_png/T7icEaGdCG8xmOw6FXwv8fCkND8Wo7VISxWrMfoib1Nlecf1vnw2yXVKth04LIlWSawZibmicpqNAp6mK4EfiaLiapux3XxPl1lofiaFI82micSzzB8/640?wx_fmt=png&from=appmsg)
+![seaborn-v0_8, Axes title, ax.grid(True)](Matplotlib_数据可视化完整指南_images/img_007_f4e16a2a1d8d.png)
 
     ✅ 学术报告、论文中使用较多  
     ⚠️ 不够现代、交互性弱
@@ -136,7 +136,7 @@ plt.style.use('ggplot')  # 更柔和、适合报告
 
 官网提供的效果图，如下：
 
-![ggplot, Axes title, ax.grid(True)](https://mmbiz.qpic.cn/mmbiz_png/T7icEaGdCG8zDpsF7jOg6bBIzu3J2IJtibyRm5icnJibPzK7amDQMQ6PGJnLYevxCRKibNOBQxoCBjuoEAezONKVZvng5qc6WupSEU4mqwNpxnQs/640?wx_fmt=png&from=appmsg)
+![ggplot, Axes title, ax.grid(True)](Matplotlib_数据可视化完整指南_images/img_008_bb9feff33a18.png)
 
     ✅ 风格现代、适合展示与展示型应用  
     ⚠️ 文件体积较大、加载慢
@@ -149,7 +149,7 @@ plt.style.use('dark_background')
 
 官网提供的效果图，如下：
 
-![dark_background, Axes title, ax.grid(True)](https://mmbiz.qpic.cn/sz_mmbiz_png/T7icEaGdCG8w1kJfwNKNFOX3rf7ibab7kEA89BItic3zE5b3pCprlROibwhRlf3hRmhGGyL3bmYfOydgHF29ibmHgw50g9pex7JgRapqUJmyGGUM/640?wx_fmt=png&from=appmsg)
+![dark_background, Axes title, ax.grid(True)](Matplotlib_数据可视化完整指南_images/img_009_fe661bdbdb35.png)
 
     ✅ 适合大屏展示、暗色背景环境  
     ⚠️ 不适合打印或浅色背景
@@ -162,7 +162,7 @@ months = ['Jan.','Feb.','Mar.','Apr.','May.','Jun.']
 
 效果图，如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/T7icEaGdCG8yvfjQDW6wDkL3OfUx1nqpDRQIw8PZLWsZezuWjS0jUvIzibanLoSaERN9la86Iye1lIYQehxtTibKhEsyPfCqJGcUDpNSh5n4q4/640?wx_fmt=png&from=appmsg)
+![](Matplotlib_数据可视化完整指南_images/img_010_48f9c205af00.png)
 
     ✅ 多指标叠加、可读性强  
     ⚠️ 颜色过多时影响清晰度
@@ -177,7 +177,7 @@ fig, axs = plt.subplots(2, 2, figsize=(12, 10))
 
 效果图，如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/T7icEaGdCG8yxb92w1SlmemTx0ZiaE33sVLnvvxbofohjTAA6O10dGmCoBIxwgLWG6HMm76AsZZaS3wk8rpoc2E4v4KPSSSIONOguZ7VjoRm8/640?wx_fmt=jpeg)
+![](Matplotlib_数据可视化完整指南_images/img_011_9cd277c6fc9a.jpg)
 
     ✅ 多图表整合展示  
     ⚠️ 需手动控制布局

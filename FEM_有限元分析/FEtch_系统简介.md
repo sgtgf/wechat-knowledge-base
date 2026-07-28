@@ -64,7 +64,7 @@ FEtch 面向高校、研究院和设计院等科研单位，旨在将科研人�
 
 FEtch 系统作为一款生成器，它将有限元语言的源代码进行解释后，即可生成完整的有限元计算程序。具体流程如下。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWibJfPDL65wO1QAS82bSHx58gibQCmK8eQ5ReEn5d3H6MSoTfz8xtc4yl6ziaSDChGDCetTxcIZ1qRg/640?wx_fmt=jpeg&from=appmsg)
+![](FEtch_系统简介_images/img_000_97268bfbf358.jpg)
 
 ## 与通用软件的比较
 
@@ -128,12 +128,12 @@ FEtch 系统适用于求解各种领域的各种工程与科学的有限元问�
 
 FEtch 系统的客户对象面向高校、科研院所、企业研究院、设计所和 CAE 公司等，以推动核心科技产品研发及专业人才培养。同时还面向理工科专业的老师和学生，FEtch 系统非常适合于高校进行有限元教学，辅助提升有限元课程在高校和科研单位的相关专业的创新能力。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVWibJfPDL65wO1QAS82bSHx5C6f9wKfd5KeOibY5WuHvXJwAZbZUGTzEK6IbEB0oJZLicb6gWdPGr27g/640?wx_fmt=png&from=appmsg)
+![](FEtch_系统简介_images/img_001_594b14d7a2f4.png)
 
 ## 小结
 
 通用的有限元软件是软件供应商开发并封装好的软件，适用于常规工程计算分析，科研创新能力弱，用户很难改进和优化。FEtch 系统提供了一种开放的有限元编程环境，适用于用户依据自己的理论方法定制自己的专业软件，科研创新能力强，是生成软件的软件（编译器/开发平台）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](FEtch_系统简介_images/img_002_d981f1eb49d0.png)
 
 有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的免费试用活动，感兴趣的朋友可直接私信联系，免费获取**许可证文件**。

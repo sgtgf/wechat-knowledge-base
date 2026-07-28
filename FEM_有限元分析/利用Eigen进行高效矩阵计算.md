@@ -7,9 +7,9 @@
 
 **副标题：Eigen：C++强大开源库**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaDiabnN4Yz6MiaBgRh3l1U1ciag1Ns0Gel3tQkJ09ppkqkVwibcufrzjpibGlk9EJ06dt9oSrl1wghibzxl8ibOgFNRjw/640?wx_fmt=png&from=appmsg)
+![](利用Eigen进行高效矩阵计算_images/img_000_c0527a7dc665.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaDiabnN4Yz6MiaBgRh3l1U1ciag1Ns0Gel30AKciczXQM8qnibDqHPP4zVnjTJgeicYG6nwViaPhQvr19U7ywPxIiadtibQ/640?wx_fmt=png&from=appmsg)
+![](利用Eigen进行高效矩阵计算_images/img_001_61cb48defc83.png)
 
 **01**
 
@@ -30,7 +30,7 @@ Eigen 是一个高性能的 C++ 矩阵和线性代数库，广泛应用于科学
 5.  丰富的功能集：除了基本的矩阵运算外，还包含了高级功能如特征值分解、奇异值分解等。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaDiabnN4Yz6MiaBgRh3l1U1ciag1Ns0Gel30AKciczXQM8qnibDqHPP4zVnjTJgeicYG6nwViaPhQvr19U7ywPxIiadtibQ/640?wx_fmt=png&from=appmsg)
+![](利用Eigen进行高效矩阵计算_images/img_002_61cb48defc83.png)
 
 **02**
 
@@ -43,13 +43,13 @@ Eigen 是一个高性能的 C++ 矩阵和线性代数库，广泛应用于科学
 -   或者直接使用包管理器安装，例如在 Ubuntu 上可以通过 sudo apt-get install libeigen3-dev 命令来安装。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaDiabnN4Yz6MiaBgRh3l1U1ciag1Ns0Gel3BxhUxG61cxXx8cyBZu5lCrkUxTibMMIDR8DumRskcelrX3zibyEykg2g/640?wx_fmt=png&from=appmsg)
+![](利用Eigen进行高效矩阵计算_images/img_003_df3496e7a01e.png)
 
 编译环境设置
 
 Eigen 是一个头文件库，这意味着不需要单独编译步骤。只需将包含 Eigen 文件夹添加到项目的 include 路径即可开始使用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaDiabnN4Yz6MiaBgRh3l1U1ciag1Ns0Gel30AKciczXQM8qnibDqHPP4zVnjTJgeicYG6nwViaPhQvr19U7ywPxIiadtibQ/640?wx_fmt=png&from=appmsg)
+![](利用Eigen进行高效矩阵计算_images/img_004_61cb48defc83.png)
 
 **03**
 
@@ -71,11 +71,11 @@ Eigen 是一个头文件库，这意味着不需要单独编译步骤。只需�
 g++ -I /usr/include/eigen3/  matrix_addition.cpp -o matrix_addition
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaDiabnN4Yz6MiaBgRh3l1U1ciag1Ns0Gel3WQJjzWzaIhm9bUarIdKq5ia30nupcO3AvqPndaKXV0ciaiaUqicU9NOCiaA/640?wx_fmt=png&from=appmsg)
+![](利用Eigen进行高效矩阵计算_images/img_005_c89278bffae2.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaDiabnN4Yz6MiaBgRh3l1U1ciag1Ns0Gel30AKciczXQM8qnibDqHPP4zVnjTJgeicYG6nwViaPhQvr19U7ywPxIiadtibQ/640?wx_fmt=png&from=appmsg)
+![](利用Eigen进行高效矩阵计算_images/img_006_61cb48defc83.png)
 
 **04**
 
@@ -83,7 +83,7 @@ g++ -I /usr/include/eigen3/  matrix_addition.cpp -o matrix_addition
 
 Eigen库分为一个核心模块和几个附加模块。每个模块都有一个对应的头文件，必须包含这些头文件才能使用相应的模块。Dense和Eigen头文件提供了便捷的方式，可以一次性访问多个模块。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaDiabnN4Yz6MiaBgRh3l1U1ciag1Ns0Gel38YFbGaMOYiaJpK0tIUW3j7tQ2B3bRYxZhKyv8BVAgrnAqH2eic8PWQBQ/640?wx_fmt=png&from=appmsg)
+![](利用Eigen进行高效矩阵计算_images/img_007_e97fe2af5c89.png)
 
   
 
@@ -93,7 +93,7 @@ Eigen库分为一个核心模块和几个附加模块。每个模块都有一个
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaDiabnN4Yz6MiaBgRh3l1U1ciag1Ns0Gel3QXpSuFujicUz8ia7IBjYYkWb9erxA5E6lY8FSoSfFiaJVsNGkLSFvCibVg/640?wx_fmt=png&from=appmsg)
+![](利用Eigen进行高效矩阵计算_images/img_008_a6563340eb71.png)
 
 **1**
 
@@ -189,7 +189,7 @@ Eigen::Matrix2d sub = a.block<2,2>(0,0); // 获取前两行两列
 
 以上示例展示了如何使用中的一些核心功能。Eigen 提供了非常丰富且高效的线性代数工具，适用于从简单的数学计算到复杂的科学研究等多种场景。希望这些例子能为你提供一个良好的起点！如果需要更深入地了解特定功能或有其他问题，请随时提问。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaDiabnN4Yz6MiaBgRh3l1U1ciag1Ns0Gel3QXpSuFujicUz8ia7IBjYYkWb9erxA5E6lY8FSoSfFiaJVsNGkLSFvCibVg/640?wx_fmt=png&from=appmsg)
+![](利用Eigen进行高效矩阵计算_images/img_009_a6563340eb71.png)
 
 **2**
 
@@ -216,7 +216,7 @@ Eigen::Matrix2d sub = a.block<2,2>(0,0); // 获取前两行两列
 
 下面通过一些具体的例子来详细介绍这些类的使用方法。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaDiabnN4Yz6MiaBgRh3l1U1ciag1Ns0Gel3QXpSuFujicUz8ia7IBjYYkWb9erxA5E6lY8FSoSfFiaJVsNGkLSFvCibVg/640?wx_fmt=png&from=appmsg)
+![](利用Eigen进行高效矩阵计算_images/img_010_a6563340eb71.png)
 
 **1**
 
@@ -230,7 +230,7 @@ EigenSolver 类可以用来求解任意方阵的特征值和特征向量。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaDiabnN4Yz6MiaBgRh3l1U1ciag1Ns0Gel3QXpSuFujicUz8ia7IBjYYkWb9erxA5E6lY8FSoSfFiaJVsNGkLSFvCibVg/640?wx_fmt=png&from=appmsg)
+![](利用Eigen进行高效矩阵计算_images/img_011_a6563340eb71.png)
 
 **2**
 
@@ -244,7 +244,7 @@ ComplexEigenSolver 类专门处理复数矩阵的特征值问题。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaDiabnN4Yz6MiaBgRh3l1U1ciag1Ns0Gel3QXpSuFujicUz8ia7IBjYYkWb9erxA5E6lY8FSoSfFiaJVsNGkLSFvCibVg/640?wx_fmt=png&from=appmsg)
+![](利用Eigen进行高效矩阵计算_images/img_012_a6563340eb71.png)
 
 **3**
 
@@ -258,7 +258,7 @@ SelfAdjointEigenSolver 类适用于实对称矩阵或复共轭对称矩阵。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaDiabnN4Yz6MiaBgRh3l1U1ciag1Ns0Gel3QXpSuFujicUz8ia7IBjYYkWb9erxA5E6lY8FSoSfFiaJVsNGkLSFvCibVg/640?wx_fmt=png&from=appmsg)
+![](利用Eigen进行高效矩阵计算_images/img_013_a6563340eb71.png)
 
 **4**
 
@@ -272,7 +272,7 @@ GeneralizedSelfAdjointEigenSolver 类用于解决广义特征值问题 \\( Ax = 
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaDiabnN4Yz6MiaBgRh3l1U1ciag1Ns0Gel3QXpSuFujicUz8ia7IBjYYkWb9erxA5E6lY8FSoSfFiaJVsNGkLSFvCibVg/640?wx_fmt=png&from=appmsg)
+![](利用Eigen进行高效矩阵计算_images/img_014_a6563340eb71.png)
 
 **5**
 
@@ -290,7 +290,7 @@ GeneralizedEigenSolver 类用于解决一般的广义特征值问题 \\( Ax = \\
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaDiabnN4Yz6MiaBgRh3l1U1ciag1Ns0Gel30AKciczXQM8qnibDqHPP4zVnjTJgeicYG6nwViaPhQvr19U7ywPxIiadtibQ/640?wx_fmt=png&from=appmsg)
+![](利用Eigen进行高效矩阵计算_images/img_015_61cb48defc83.png)
 
 **05**
 

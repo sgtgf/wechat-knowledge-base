@@ -21,39 +21,39 @@
 
 同样，先从一维出发，同样首先给出最基本上的线单元的线性插值基函数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWI7GUwxALB6SxSlZDQeibIgl2amThMqaX3rZxOCeNXN6kPwTE7LI3seg/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_000_826a4a847c9b.png)
 
 将该线性插值基函数投射到\[-1,1\]的区域内，用以下方式表示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yW0iaTPfFwmm4L5JRtxTg1Zr0w39kqD3iaMxerG4YRiamVfRmyHM3Mt1VEw/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_001_a12d84c029a4.png)
 
 得到映射后的线性插值基函数，同样的处理是为了方便高斯积分。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWwFBSQjZpJDiaMqZZiabgdLiaYW0zTp8QLx1iapjIH73S8RzBow8XEQu9Ug/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_002_229750351c9a.png)
 
 已知，1阶基函数为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWmCD0J6uP8svwQo8veDicZvZv2UUeT5tDoEQq48JTolldvJ4v4j96Bcg/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_003_2b090727178d.png)
 
 2阶叠层基函数的第三个基函数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWHHf76oAiaoHygnpzzsiaZTob34W2whwgHEZePicLCxC3DTqIAfGdBA3hA/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_004_234ab55ecdf5.png)
 
           3阶基函数，在1、2阶基础上，添加第四个基函数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWsaYmOOyj1B6NibmJewaJ1DfLLNdHBp7QHNaVO7r47Z2tfDYmEianRKKw/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_005_e88f3f091f10.png)
 
           可知，N阶基函数，可以表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWx1Fmf9wPLYzLM1BSVyYpIAtWQ9rLxufUReqqLBc4FmTM0bb5ATg1JQ/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_006_d2bff76be4ca.png)
 
 因此，通式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWqb3mAibJbG9bguuS7zCSC7sYUicaSdvricsZAWvib6GcsicuVnTQRG5xH5Q/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_007_8792ff9b6a09.png)
 
 对应的梯度为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yW7zFzGhbtsiayhic0sna5OkZ7ibx354x3GSkQJqPqKvvBl7ItZg4DwwwEA/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_008_42b0b62e98da.png)
 
 可见，一维度的叠层基函数的通式，还是保持着低阶包含高阶的特征，这对于混合阶有限元的实现是非常关键的。
 
@@ -61,17 +61,17 @@
 
 二维叠层基函数就是由一维度基函数通式组合而成，因此，考虑二维两个方向X，Y，则X,Y连个方向分别的通式表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWtngG8VzKoibYso5r7JhoPaDTxLCjzNRuHyhic4nop0JLfXaJRZN7XM0Q/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_009_7b2c81dc5bfe.png)
 
 因此不难获得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWcOyQj1wITo8yY2ChNp03Xoh8fY5iaVZ4rdLziczP4Y4aiad0GcHm5MBCA/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_010_7b244ab07722.png)
 
 **c.三维基函数**
 
 三维叠层基函数的通式，则是X,Y,Z三个方向：    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWAa0SPJdYIN8KtZOAbuc2VJckbu5JyA7GhJdQM0HrpwbCw0wF3UtNHQ/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_011_a440838cb128.png)
 
 因此，一维的通式确定，二维矩形单元，三维六面体单元通式也就都获得，并且实现一维度的推导，高维度通过乘积即可使用。即使更高维度，四维、五维...都可以很容易获得。
 
@@ -79,29 +79,29 @@
 
 针对泊松方程而言，三维的有限元离散方程为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWzz77DeC1Hicdx4nxPYnSGt7Ga4GEricFmRYrZ8gWW2lCg4j2O8PvsmicA/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_012_30520020d52c.png)
 
 一维度而言，对上述式子只取一项：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWibvbVdo9OFXiay5kM7DQj34pIkwN5SM0nJ6XEDib7sWKbBEj0TmDpF3fg/640?wx_fmt=png)    
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_013_cf78c609e140.png)    
 
 将上述等式全部写出高斯积分形式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWsaKApR1JuQwslqdauFicoT7eQIw5vu43K9ZZUxxLib1cicFk8ao5octXQ/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_014_272b2f69cb24.png)
 
 推导如此，就不必要继续推导，对两部分直接单部分求解，然后乘积即可获得被积函数。然后再通过高斯积分获得即可。
 
 对于二维，三维系数矩阵公式，则可以直接写成高斯积分公式，首先定义：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWOMP0r6V0xEx4kHE86Jy5M3xGzQS0jH2cszZAw5r1k9y7XZ0WELtA5w/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_015_816e0ea18d34.png)
 
 所以，二维系数矩阵通式表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWcxjiczl9KlwGfVkkpXPngJMDn1ENSbCCtcsfMqHaedMpKIKxiabHdzqg/640?wx_fmt=png)    
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_016_26c63357cd27.png)    
 
 三维系数矩阵通式为：
 
-          ![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWAIyU2M4VwFshT6VB6AV4P06EaS7xm52IH1sHzibb70w0GYIA7bIz4nA/640?wx_fmt=png)
+          ![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_017_e3e3fdead3ca.png)
 
 至此，推导完成，如果想要写成更高维度的通式，也可直接按规律获得。
 
@@ -123,11 +123,11 @@
 
 稀疏矩阵的非零元素分布如下：    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWd8ll8UHxuOqByd7UdN0Rya7HSgA8tiaP36z38XsLjn7ocGa7iaFECb3w/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_018_cf9955a9e6c8.png)
 
 求解结果如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWgMe66mrRRRRrngicASEibibCFFicFBzYicFHlu6TkF0S0Yk6EPkIznnQnUw/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_019_d45ed707f9db.png)
 
 **_Eg2 二维6阶有限元泊松方程结果_**    
 
@@ -135,11 +135,11 @@
 
 稀疏矩阵的非零元素分布如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yW0IFssegP0byiaXu8N2x3eX6Zq0zl1IP0ibkWxTOdp0Cn73dhxWKnSs1w/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_020_35eb4b776fc7.png)
 
 结果可视化如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWAh8ad7t9PJibicEic2tP7icdd8JOPbpVQsPNohaEjuFTc5I753CkMCnvoA/640?wx_fmt=png)    
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_021_52b9daeded6b.png)    
 
 **_Eg3 三维5阶有限元泊松方程结果_**
 
@@ -147,11 +147,11 @@
 
 稀疏矩阵非零元素分布：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWhHh2fSPZuzYZ91dM3WnApmgQonmqHlc0ZCribeqLkI7ppa70Yu1cmhg/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_022_522b84d673d9.png)
 
 求解结果显示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNrYyxMXtR9QsVZDrFW0H7yWVIs7HVmUOvOg4qicVoNPnDfcuAoAiap5fHvHFES7jQnaaoPnlnhW7Ycg/640?wx_fmt=png)
+![](Poisson方程基于叠层基函数的高阶有限元通式（三合一）_images/img_023_adbf6d45340d.png)
 
 参考插值基函数的结果可以了解，二者的结果是一致的。
 

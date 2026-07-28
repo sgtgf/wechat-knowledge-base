@@ -1,0 +1,160 @@
+# 稳压、TVS二极管和压敏电阻的区别是什么？
+
+原创 硬件笔记本 2023-02-06 07:40 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/B1lhOYrE33NleiiRehu1lA](https://mp.weixin.qq.com/s/B1lhOYrE33NleiiRehu1lA)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+  
+
+  
+
+贴片压敏电阻和TVS二极管可作为过电压保护部件使用。这些产品的结构和制造方法完全不同，但作为静电保护器件却具有相似的性质。由此，虽然在电路上都可以使用，但也存在不能使用贴片压敏电阻的情况。的确，由于其历史背景，产品目录和数据表中记载的不同项目很多，难以像电容器和其他通用部件那样，仅靠纸上记载的规格进行特性的比较。因此，在本报道中，将明确压敏电阻和二极管的不同之处，并介绍可以进行二极管和压敏电阻比较的数据。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/FaBiaZpg2pgxeJtZO4Y3RDBlaQm8XribDl3CibYzAJIVy74tuibA9549cG3ps5uUvGQTXyHn6mNbDAHNMc9MdRaleA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+1968年开发的氧化锌压敏电阻用于保护二极管免受雷击。另一方面，二极管主要用于整流，其用途不同。因此，产品目录和数据表中记载的不同项目很多，现在也难以单纯地进行比较。在Automotive Electronics Council（车载电子部件评议会）制定的规格中，AEC-Q101适用于TVS二极管，AEC-Q200适用于压敏电阻，其内容大不相同。 
+
+![](https://mmbiz.qpic.cn/mmbiz_png/FaBiaZpg2pgxeJtZO4Y3RDBlaQm8XribDlk0PAdGrMAibH1ae3q1gaXeBhTNZHzdaicv7qic6ibsWj0ISw2JjDtuD7jw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图1 历史
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/FaBiaZpg2pgxeJtZO4Y3RDBlaQm8XribDlg9CI3qbC3B41losurB0m5rN1oSiaq2unRaXXxqHCB2CDoNVJJUbmXJg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+**结构**
+
+贴片压敏电阻是主要以氧化锌为基础的陶瓷半导体产品。主要采用下图所示的积层结构，通过积层张数、层间的调整，可以控制击穿电压、静电容量。而TVS二极管是P型半导体和N型半导体结合而构成的，是硅基ESD防护器件。在二极管中，也有使用Au丝等的情况。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/FaBiaZpg2pgxeJtZO4Y3RDBlaQm8XribDlXN7ApICE3EBEwibTkib25jqB55L5vlxp7JAjRUjiaicgbI6XicibqLIff2UQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图2 贴片压敏电阻
+
+![](https://mmbiz.qpic.cn/mmbiz_png/FaBiaZpg2pgxeJtZO4Y3RDBlaQm8XribDlwnmI7VKiagtwa3obD3olG7vuV3yphdMo2YeVIGDIapicuKbQmwFAyD3A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图3 TVS二极管
+
+  
+
+**I-V曲线**
+
+贴片压敏电阻和TVS二极管的电阻值会随施加电压的变化而改变。贴片压敏电阻可以进行双向静电保护。TVS二极管以前大多是有方向性的，但最近双向的TVS二极管也增加了。但是，由于存在因方向性不同而不同的情况，所以需要注意。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/FaBiaZpg2pgxeJtZO4Y3RDBlaQm8XribDliaHicdIpg5dKPH6ic4VPQeDCwbwfZapI8ia2W19fuwI0LaRQAM2j1gbCzg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图4 I-V曲线
+
+  
+
+**对施加过电压的反应速度**
+
+从盘型压敏电阻等初期的压敏电阻时的记忆中，压敏电阻的反应速度慢，经常听到这样的话。但是，如下图所示，贴片压敏电阻和TVS二极管对施加过电压的反应速度一样。施加IEC61000-4-2 HBM +8kV后，在1ns以内达到峰值，400ns后施加在保护部件上的电压值几乎为0。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/FaBiaZpg2pgxeJtZO4Y3RDBlaQm8XribDlmswmtuwyCJMw7cicnxCjq8jyxS0xNqK6YZHSGKvq5rIA7K3TnMpIiaCQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图5 对施加过电压的反应速度
+
+  
+
+**静电容量**
+
+压敏电阻和TVS二极管的静电容量幅度大不相同。由于贴片压敏电阻采用积层结构，所以可以通过增加内部电极的层数，增加静电容量。用EIA0805以下的尺寸进行比较时，如下图所示，静电容量的最大值有近100倍的差距。因此，在必须并联放入MLCC的线路中，也有可以用单个贴片压敏电阻应对的情况。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/FaBiaZpg2pgxeJtZO4Y3RDBlaQm8XribDlf9cJcGboysfax9VpO9NBCibwC6WciaibVQ8AkrfzLdmKuOeUZgcjQs6icg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图6 静电容量
+
+  
+
+**其他特性**
+
+其他的温度特性和插入损耗等，虽然贴片压敏电阻和TVS二极管有一些不同，但在用相同规格比较时动作相同。由于在各数据表中记载了它们各自的动作，所以可以与TVS二极管进行比较。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/FaBiaZpg2pgxeJtZO4Y3RDBlaQm8XribDlSSRuvdZklicia0lMgZRmjv4CeHcmIYmdFKdFBv8tNiaWA0MahMbOK3VIw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图7 其他特性
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/FaBiaZpg2pgxeJtZO4Y3RDBlaQm8XribDlQV3Lf2qcPeeWBrND02rQe3gBGXJbUPBDuVQWgPkk8VicC3XiaIgEicpOA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+为了保护CAN Tranceiver，在控制器区域网络(CAN)中使用静电保护部件。在此介绍在CAN线上选定静电保护部件时的要点。 
+
+  
+
+**最大允许电路电压**
+
+在控制器区域网络(CAN)串行总线拓扑结构中，使用CANH、CANL信号后，可获得显性(dominant)和隐性(Recessive)的电平状态。显性时，在CANH线上施加3.5V左右的电压，静电保护部件在此电压时必须作为绝缘体发挥作用。因此，在这次的情况下，需要选择最大允许电路电压为3.5V以上的静电保护部件。
+
+  
+
+此外，静电保护部件的漏电流具有温度依赖性，还需要考虑实际使用时的温度环境。下图是典型的贴片压敏电阻和TVS二极管的漏电流温度特性。随着高温的升高，漏电流会变大，但设计时使之低于50uA。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/FaBiaZpg2pgxeJtZO4Y3RDBlaQm8XribDlwjOqw3hRPPwe7AVh547pdeJjm8kkV5cjMxn1ko2HjJ3WLfcNkc5r5Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图8 漏电流温度特性
+
+  
+
+**静电容量**
+
+CAN的最大通信速度为1Mbps，电路中并联插入的静电保护部件不能妨碍这种通信。1Mbps(=0.5 MHz)时，必须选择插入损耗小的产品。下图表明，可用于CAN通信的贴片压敏电阻和TVS二极管的插入损耗不会影响任何产品的通信。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/FaBiaZpg2pgxeJtZO4Y3RDBlaQm8XribDl5gzYO6wCBXYia7ZEAvgWhAQrmKMWsuHapAQmcFbh6En1JjWGRwSDJNQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图9 贴片压敏电阻和TVS二极管的插入损耗
+
+  
+
+**浪涌保护能力**
+
+静电保护部件用于保护成套使用的IC和外围器件。例如，下面是用于车载CAN Tranceiver的ESD耐量。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/FaBiaZpg2pgxeJtZO4Y3RDBlaQm8XribDlET07ZL8uCJyz328BAXY6ichXibkwMiavGgTmxDf3iaTR5xdicNGTX81Io6A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+表1 ESD Durabitily of CAN Tranceiver for each IC
+
+从这个表可以看出，如果在CAN Tranceiver施加4kV以上的电压，可能会损坏。此外，以下TLP数据表明，在相当于ESD 4kV的测试中，相当于8A的电流流过CAN Tranceiver。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/FaBiaZpg2pgxeJtZO4Y3RDBlaQm8XribDlnsxXAlkciawib0WGzaIeuGqW1h4iaE24ic7wJv0j1R44YM9vVz7chIuicBg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图10 TLP数据
+
+如果不使用静电保护部件，4kV的静电会导致8A电流流向CAN Tranceiver，CAN Tranceiver会损坏。另一方面，从以下图可知，由于施加电压，压敏电阻、TVS二极管的电阻值急剧下降到2Ω以下。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/FaBiaZpg2pgxeJtZO4Y3RDBlaQm8XribDljpQ4zCaf2uib4d0NzrVcdhbo81DckH96WYpYWY1iaLzZR3Zlibpny8d4w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图11 TLP数据
+
+因此，因施加ESD产生的大部分电流流向保护元件，可保护CAN Tranceiver。通过TLP数据，可以在设计时使用模拟的方式来确认流向CAN Tranceiver的电流。这一次，举了一个简单的例子，如果知道其他电子部件的特性值，可以在实际测试之前确认ESD耐量。
+
+  
+
+**ESD耐量**
+
+在许多情况下，需要成套部件的ESD耐量，也要求静电保护元件具有的性能。产品的ESD耐量可以通过数据表确认。 
+
+## 
+
+**声明：**
+
+  
+
+声明：本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+  
+
+**推荐阅读▼**
+
+-   硬件精选文章
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

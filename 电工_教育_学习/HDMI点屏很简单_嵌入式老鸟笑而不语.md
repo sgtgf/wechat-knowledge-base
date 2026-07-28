@@ -1,0 +1,244 @@
+# HDMI点屏很简单？嵌入式老鸟笑而不语
+
+原创 王工 硬件笔记本 2025-04-03 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/oKSdXaISyG8\_j2qQMWZAMg](https://mp.weixin.qq.com/s/oKSdXaISyG8_j2qQMWZAMg)
+
+![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic "音符")
+
+  
+
+大家好，我是王工。
+
+作为嵌入式工程师，我们每天都在和各种接口、协议打交道。这个领域涉及的知识点和细节实在太多，以至于大多数时候我们只能依赖参考设计快速实现功能，赶着样机交付。如果没有遇到问题，自然皆大欢喜，甚至会让人产生"这个接口很简单"的错觉。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiazlTibibn8MSHbrHDO0qUfib3UAqicpRcmib2Vp3a7dkxv0SakjLibE7yDqSHzWUgLic9YoicJqDvo2Uj59Q/640?wx_fmt=png&from=appmsg)
+
+**图源 | 时光之光**
+
+就像最近一个同事说的："HDMI接口点屏很简单啊！"但当被问到细节时——比如最基本的HDMI握手过程——他却答不上来。这种情况很常见：因为没遇到过问题，所以也就没有深究过底层原理。  
+
+今天，我们就来探讨一下HDMI接口的一些基础知识及握手过程。它能更好的帮助我们在调试时更快定位问题，也能让我们对这个看似"简单"的接口有更全面的认识。毕竟，在嵌入式开发中，越是觉得"简单"的地方，往往隐藏着最多的坑。
+
+  
+
+011
+
+**HDMI基础**
+
+基础知识中，我这里只强调几个要点，有助于我们对于产品的设计。
+
+  
+
+通过百度百科，可以简单的了解到HDMI接口的定义：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiazlTibibn8MSHbrHDO0qUfib3uYVygse2qanbgVmjtxCJQZldb7dgxibJcg2kzTXvyMmQvRDkdLgqo8w/640?wx_fmt=png&from=appmsg)
+
+**图源 | 百度百科**
+
+通过这个定义，我们只需要记住以下几个特点：
+
+-   HDMI 是数字信号
+    
+-   HDMI可以传送未压缩的视频信号
+    
+-   HDMI可以传送未压缩的音频信号
+    
+-   支持热拔插功能
+    
+
+* * *
+
+**HDMI接口目前主要有4个版本：1.4、2.0、2.1和最新的2.2。版本越高，带宽越高，就可以支持更高的分辨率和刷新率‌，同时HDMI接口具有向下兼容的特性。**
+
+### 
+
+**HDMI的接口类型包括**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiazlTibibn8MSHbrHDO0qUfib3kV4YrwonHrGb9icvaDtLfkdkQyj2lXVtEa7nDqr48O5Dkcnmqc3bomw/640?wx_fmt=png&from=appmsg)
+
+**图源 | 知乎**
+
+-   **Type A（标准）**：19针，最常见（电视、电脑等）。
+    
+-   **Type B（Dual-link）**：29针，不常见，数据传输能力强（专业显示器、摄像机等）。
+    
+-   **Type C（Mini）**：便携设备（如相机、平板）。
+    
+-   **Type D（Micro）**：超小型设备（部分手机）。
+    
+-   **Type E（车载）**：带锁定机制，抗震动。
+    
+
+可根据具体的应用场景来选型合适的接口。
+
+  
+
+021
+
+**HDMI接口引脚定义**
+
+咱们常用的HDMI接口一般有19个引脚，Type B HDMI比较特殊，有29个引脚（实际应用中王工也没有见过）。
+
+以下是HDMI A接口咱们常用的原理图，19个针脚的具体定义就不一一列举了：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjkY7BDoibwrGxx3ASwZliaTwIBCgu5VFh8tosKdfNsGVj9ZJlWaicWYMDzUr62v06RicZWMxucnRicoAQ/640?wx_fmt=png&from=appmsg)
+
+**图源 |日常原理图**
+
+**HDMI接口的引脚定义，**咱们把它主要分为以下四类****‌：  
+
+‌①**数据信号引脚**‌
+
+1-9引脚用于数据传输，分为0、1、2三组，负责传输视频信号‌。  
+
+每一组包含一对正、负差分信号和地，如：  
+
+TMDS DATA0+/TMDS DATA0-/GND
+
+  
+
+‌②**时钟信号引脚‌**
+
+10-12三个引脚用于传输TMDS时钟信号，用于同步视频和音频数据‌。
+
+只有一组包含一对正、负差分信号和地，如：  
+
+TMDS DATA CLOCK+/TMDS DATA CLOCK-/GND
+
+  
+‌③**控制信号引脚**‌
+
+-   ‌**CEC引脚**‌：13引脚用于控制功能，如通过电视遥控器控制DVD播放。
+    
+
+‌**I2C引脚**‌：15-16引脚用于DDC通信，主要用于EDID和HDCP的传输‌。
+
+-   ‌**Hotplug引脚**‌：19引脚用于监测HDMI设备是否存在，实现热插拔功能‌。
+    
+-     
+    
+
+1.  ④**电源和接地引脚**‌
+    
+
+‌**5V电源引脚**‌：18引脚提供5V电源‌。
+
+‌**接地引脚**‌：17引脚用于接地‌。
+
+  
+
+关于这个原理图，大家可以看到HDMI接口的5V供电回路中串联了一个二极管，这一点咱们着重强调一下：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgIgMFibwcvh6Xy8WfHNgefemEqBBsIh5ZMT79svK2OIbqhDTfhypYkH2cUQnKhpzOEe5jC4a0zIag/640?wx_fmt=png&from=appmsg)
+
+这个二极管主要目的是为了防止电流倒灌。
+
+在HDMI连接中，我们一般只允许电流从 source 端流向 sink 端，而不能反向流动。如果连接到HDMI的设备（ sink 端）尝试供电给发送设备（ source 端），串联的二极管可以防止逆向流动的电流损坏发送设备的电路。
+
+此外，这种设计还有一个目的，用于保持HDMI接口电源电压的稳定。如果 sink 端设备尝试提供一个不同的电压，串联的二极管可以防止这个非标准电压影响到 source 端的敏感电路。
+
+这样，无论是电源供应问题还是连接错误，都可以通过二极管来保护设备不受损害。另外尽量选用漏电流较小的肖特基二极管。
+
+  
+
+031
+
+**HDMI握手过程**
+
+HDMI握手是指Source端（信号源）和Sink端（显示设备）建立连接的过程，其目的是确保主机输出的画面能够正常显示在屏幕上。
+
+通过工作中的实际经验和一些比较好的参考资料，王工把HDMI的握手过程分为一下几点：
+
+①HPD热拔插检测
+
+当HDMI线缆物理连接时，Sink端的HPD引脚（Pin19）会拉高电压（通常至+5V），通知Source端设备已连接。
+
+  
+
+这是HDMI正常通信的第一个步骤，当物理线缆建立物理连接后，如果你有两个屏，一直点亮的那个屏可以看到检测过程中有一个明显缩放的画面。
+
+  
+
+  
+
+②EDID读取
+
+很多人第一次接触HDMI可能不知道EDID是什么，它是显示器一种标准，通过DDC传输，可以提供显示器的详细信息，包括：制造商，尺寸，分辨率支持、色彩格式，基本参数......
+
+可能你还是不太清楚，你只需要知道，它的作用是为了能让主机更好的识别显示器属性，以显示出跟显示器适配的画面。
+
+这个读取过程主要是通过15-16的**I2C引脚，一般在HDMI接口处我们也会预留一个EEPROM，方便信息的存储。**
+
+③TMDS链路训练
+
+首先要知道TMDS链路训练的目的，主要是协商物理层参数，确保信号传输稳定性。
+
+这个过程比较复杂，包括时钟信号的同步，校准，均衡调整，通道对齐，这里就不细说了，感兴趣的同学可以看看如下两篇文章：
+
+https://blog.csdn.net/qq\_40483920/article/details/108164292
+
+https://m.elecfans.com/article/1976734.html
+
+1.    
+    
+
+* * *
+
+### 
+
+### **④**视频/音频传输****
+
+完成上述步骤后，Source端按EDID协商的参数，通过TMDS通道发送视频数据和音频数据。
+
+  
+
+  
+
+了解了HDMI的握手过程，有助于我们解决平时在产品开发中遇到的一些黑屏，无信号，****分辨率显示异常或者**无音频等问题。******
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgIgMFibwcvh6Xy8WfHNgefe9lbpI9uE207qlqK0JFuyiaDpu3BYOBpYiaygZMIaM0bxNN83w9XwNLBw/640?wx_fmt=jpeg&from=appmsg)
+
+  
+
+本文介绍了HDMI接口的基础知识，但实际应用中的注意事项远不止于此。例如，Layout设计、EMC设计、连接线选型等，都会直接影响项目的顺利推进。稍有不慎，就可能导致信号完整性下降、兼容性问题甚至项目延期。
+
+  
+
+如果大家对HDMI相关的深入内容（如高速信号设计、EMC对策或线缆选型技巧）感兴趣，欢迎在评论区留言或提问。后续我们可以根据大家的反馈，展开更详细的专题讨论！
+
+  
+
+如果这篇文章对你有帮助，别忘了**点赞**、**收藏**，并**分享**给更多需要的人！
+
+**写在最后**
+
+都说硬件工程师越老越吃香，这句话也告诉我们硬件也是需要积累的，王工从事硬件多年，也会不定期分享技术好文，感兴趣的同学可以加微信，或后台回复“**加群**”，管理员拉你加入同行技术交流群。
+
+  
+
+  
+
+推荐阅读（点击图片直接进入）
+
+[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+
+[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+
+投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
+
+## 
+
+**声明：**
+
+  
+
+声明：原创文章，转载请注明出处。本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+**推荐阅读▼**
+
+-   [电路设计-电路分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2811359150088683521#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)

@@ -1,0 +1,229 @@
+# I2C、SPI、UART、RGB、LVDS，MIPI，EDP和DP等显示屏接口简要总结
+
+原创 蜗牛 硬件笔记本 2022-05-09 07:30 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/IUzn3j4QeKUPABVE1Kw4Ww](https://mp.weixin.qq.com/s/IUzn3j4QeKUPABVE1Kw4Ww)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif "音符")  
+
+  
+
+显示屏接口一般有I2C、SPI、UART、RGB、LVDS、MIPI、EDP和DP等。下面简要总结一下。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjg0jSsRVticobpfRMhyRWibES8UQ7HvT8Kl6iaWPTmJPvgdicu6U8TLfHKSqSqyeJgia7koz4UthNPdK0w/640?wx_fmt=jpeg)
+
+  
+
+  
+
+**01  
+**
+
+**中小屏****接口I2C、SPI、UART**
+
+一般3.5寸以下的小尺寸LCD屏，显示数据量比较少，普遍采用低速串口，如I2C、SPI、UART。
+
+  
+
+**I2C：**
+
+I2C总线是半双工，两线。
+
+I2C总线的工作速度分为3种：
+
+S(标准模式)：100Kbps，即 100/8 = 12.5KB/s
+
+F(快速模式)：400Kbps，即400/8 = 50KB/s
+
+HS(高速模式)：3.4Mbps，即3.4M/8 = 435KB/s
+
+超高速模式：5Mbit/s，即5M/8 = 525KB/s
+
+  
+
+**SPI：**
+
+SPI总线是全双工，三线或四线制。
+
+SPI没有官方化，速率不统一，根据器件不同传输速率不一，有几M，十几M的，也有几十M的，比I2C速度快。  
+
+  
+
+**UART：**
+
+无限制，速度取决于波特率，常用9600bps（1.2KB/s）和115200bps（14.4KB/s）。
+
+  
+
+**02  
+**
+
+**大屏****接口RGB、LVDS、**MIPI、**EDP和D****P**
+
+  
+高分辨率屏，几乎都是高速串口的接口。主要是LVDS、MIPI-DSI、EDP和DP接口。手机上都是MIPI接口的屏，车载和数码产品上有大量的LVDS接口的屏。
+
+## 2.1、RGB接口
+
+RGB一般是指RGB色彩模型(RGB color model)，是工业界的一种颜色标准。通过对三个颜色通道的变化以及它们相互之间的叠加来得到各式各样的颜色。
+
+  
+
+a. Parallel RGB
+
+分辨率：1920 \* 1080
+
+时钟频率：1920\*1080\*60\*1.2 = 149MHz
+
+  
+
+b. Serial RGB
+
+分辨率：800 \* 480
+
+时钟频率：800\*3\*480\*60\*1.2 = 83MHz
+
+  
+
+**特点：**  
+
+1、RGB接口占用的资源较多，所以这个接口的LCD刷新率非常快，软件控制也比较简单；
+
+2、RGB接口的显示数据不需要写入内存进行处理，可以直接写入LCD进行显示，所以响应速度和刷新速度都比MCU接口快很多；
+
+3、缺点是控制需要增加电路，软件初始化需要增加程序，占用资源较多；
+
+4、时钟频率要设置合适。太快，LCD反应不过来，显示不了，太慢也不合适，这个范围可以根据你的刷新率需求和lcd 的规格书（一般会有一个最少响应周期）来确定。
+
+## 2.2、LVDS接口
+
+LVDS（Low Voltage Differential Signal）即低电压差分信号。1994年由美国国家半导体（NS）公司为克服以TTL电平方式传输宽带高码率数据时功耗大、电磁干扰大等缺点而研制的一种数字视频信号传输方式。它是一种电平标准，广泛应用于液晶屏接口。
+
+  
+
+其中发送端是一个**3.5mA的电流源**，产生的3.5mA的电流通过差分线中的一路到接收端。由于接收端对于直流表现为高阻，电流通过接收端的100Ω的匹配电阻产生350mV的电压，同时电流经过差分线的另一路流回发送端。当发送端进行状态变化时，通过改变流经100Ω电阻的电流方向产生有效的'0'和'1' 态。
+
+  
+
+# 它是电流驱动的，通过在接收端放置一个负载而得到电压，当电流正向流动，接收端输出为1，反之为0。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNj3bVdykvYo9rRxnxcicRXEVj4L3X0sk7XW3Rxicm0O8dEH8siapFYicV5SA/640?wx_fmt=png)
+
+  
+
+**特点：**
+
+# **1、LVDS是电流驱动模式  电压摆幅350mV，加载在100Ω电阻上；**
+
+# 2、传输速度快，推荐最大速率为655Mbps ，理论极限速率为1.923Gbps；
+
+# 3、LVDS不太适合较长距离的信号传送；
+
+4、LVDS接口只用于传输视频数据；
+
+5、LVDS接口主要将RGB TTL非平衡传输信号转换成LVDS平衡传输信号进行传输。
+
+**6、LVDS不支持热插拔。**
+
+## 2.3、MIPI接口
+
+MIPI (Mobile Industry Processor Interface) 是2003年由ARM, Nokia, ST ,TI等公司成立的一个联盟，目的是把手机内部的接口如摄像头、显示屏接口、射频/基带接口等标准化，从而减少手机设计的复杂程度和增加设计灵活性。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh7GFnYo6icU4htEI8HPOOeTic3WbrSthPD8iaibZ8mY4MwVpdcrbRyIQx65piajGDdaCK9piaWrCC5cumQ/640?wx_fmt=png)
+
+MIPI联盟下面有不同的WorkGroup，分别定义了一系列的手机内部接口标准，比如
+
+摄像头接口CSI（Camera Serial Interface）
+
+显示接口DSI（Display Serial Interface）
+
+射频接口DigRF
+
+麦克风 /喇叭接口SLIMbus
+
+  
+
+接口示意图  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj9c9z8wSmn1uUsB58FHkNjCwzF1oNOuC9csuMndWe49p3SJbzibdZHuqgDEj3dguehsWXVyG9ETGQ/640?wx_fmt=png)
+
+  
+
+**特点：**
+
+1、MIPI不仅能够传输**视频数据**，还能传输**控制指令**；
+
+2、MIPI DSI接口是按照特定的握手顺序和指令规则传输屏幕控制所需的视频数据和控制数据；
+
+3、MIPI接口的模组，相较于并口具有速度快，传输数据量大，功耗低，抗干扰好。并且专门为移动设备进行的优化，因而更适合手机和智能平板的连接。
+
+  
+
+## 2.4、EDP接口
+
+全称为Embedded DisplayPort，用于笔记本、平板电脑的一种数字接口。是视讯电子标准协会(VESA)针对行动装置应用。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh7GFnYo6icU4htEI8HPOOeTS7jtYaZORXzvA1ubzwBBujib1Fr85bAfnUcOQiaujQ5NE8R7tQ95kWcw/640?wx_fmt=png)
+
+  
+
+**特点：**  
+
+1、eDP协议是针对DP应用在嵌入式方向架构和协议的拓展，所以eDP协议完全兼容DP协议；
+
+2、eDP接口属内部接口，可以用做芯片与芯片之间的传输，也可用显示屏与驱动板之间的传输；
+
+3、由于该类接口能够实现多数据高速同时传输，且电磁干扰小，目前正在逐渐取代传统的低电压差动讯号（LVDS）接口。
+
+  
+
+## 2.5、DP接口 
+
+DisplayPort（简称DP）是第一个依赖数据包化数据传输技术的显示通信端口。是一个由PC及芯片制造商联盟开发，视频电子标准协会标准化的数字式视频接口标准。主要用于视频源与显示器等设备的连接，它既可以用于内部显示连接，也可以用于外部的显示连接。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjguIP3bfIVtvEo9oxVNzplCZQgW6iaFiaEp6BLaQbsibGTzIvJhNnVgoKtj0u4IyGSibiaicdacVyCvQE5Q/640?wx_fmt=png)
+
+**速度：**  
+  
+
+DP1.0：2006年5月发布。带宽10.8Gbps。DP1.0的最大传输速度是**8.64Gbit/s**，长度是2米。已经废弃。
+
+  
+
+DP1.2：2009年12月22日发布。它最大的改变是传输速度增加两倍到**21.6Gbit/s**，支持4K（4096X2160）60Hz，因此支持更高的分辨率、帧速率及色深。
+
+DP1.3：2014年9月15日发布。带宽速度最高32.4Gbps（HBR3），编码后有效带宽为**25.92Gbps**，可支持4K（3840X2160）120hz、5K（5120X2880）60hz、8K（7680X4320）30hz。
+
+  
+
+DP1.4：2016年2月份最终版的DP1.4通信端口规范，声道也提升到32声道1536KHz采样率，将为笔记本电脑、智能手机及AIO一体机带来8K级别（7680x4320）的60Hz输出，4K的话则可以上到120Hz。
+
+  
+
+推荐游戏玩家用DP，因为DP传输机制可以只传输画面变化部分，理论DP延时更低，带宽更大。
+
+  
+
+**特点：**
+
+1、DP将在传输**视频信号**的同时加入对高清**音频信号**传输的支持，同时支持更高的分辨率和刷新率。
+
+2、DP接口属外部接口，只能用显示器与驱动板之间的传输，不可用做芯片与芯片之间的传输。
+
+3、DP接口常见设备：智能电视，笔记本电脑，独立显卡，显示器。
+
+4、AMD多屏拼接技术必须要DisplayPort接口。
+
+5、带宽更高，成本更低。DP接口可以很轻松的支持2560×1600这样的超高分辨率的显示。
+
+  
+
+****后台回复“**加群**”，管理员拉你入技术交流群。****

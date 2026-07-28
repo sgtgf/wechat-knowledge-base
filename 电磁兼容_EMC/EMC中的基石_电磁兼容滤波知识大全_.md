@@ -1,0 +1,380 @@
+# EMC中的基石-电磁兼容滤波知识大全!
+
+原创 硬件笔记本 2022-05-27 07:30 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/5q-X2oN3uYZmdVr5jPBzFg](https://mp.weixin.qq.com/s/5q-X2oN3uYZmdVr5jPBzFg)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif "音符")
+
+  
+
+  
+
+  
+
+  
+
+  
+
+**1 时域和频域**
+
+  
+
+当我们在示波器上查看电信号时，会看到一条线，表示电压随时间的变 化。在任何特定时刻，信号只有一个电压值。我们在示波器上看到的是信号的时域表示。典型的示波器很直观，但它也有一定的限制性，因为它不直接显示信号的频率内容。与时域表示相反，频域表示（也称为频谱）通过识别同时存在的各种频率分量来传达关于信号的信息。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaKstmtQ7optyOURhwn2c3k9T3AY3WlFZWZaMqFbKibgEn9oEaZvYDNicQ/640?wx_fmt=jpeg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliawBFOLLnTibdh3N1icTGF8ibRRwmXpvicIdcbCefhAjwfYibgywZPsMA6l5A/640?wx_fmt=jpeg)
+
+**正弦波（顶部）和方波（底部）的时域表示**
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaBTU82FxY918oS0l1eYCjcbR6OMU4xLCKR7ickuoUbEs28HnvQR2m3yg/640?wx_fmt=jpeg)
+
+**正弦波（顶部）和方波（底部）的频域表示**
+
+  
+
+  
+
+  
+
+**2 什么是滤波器**
+
+  
+
+滤波器是一个电路，其去除或“过滤掉”特定范围的频率分量。换句话说，它将信号的频谱分离为将要**通过的**频率分量和将**被阻塞的**频率分量。
+
+  
+
+让我们假设我们有一个由完美的5 kHz正弦波组成的音频信号。我们知道时域中的正弦波是什么样的，在频域中我们只能看到5 kHz的频率“尖峰”。现在让我们假设我们激活一个500 kHz振荡器，将高频噪声引入音频信号。
+
+  
+
+在示波器上看到的信号仍然只是一个电压序列，每个时刻有一个值，但信号看起来会有所不同，因为它的时域变化现在必须反映5 kHz正弦波和高频噪音波动。然而，在频域中，正弦波和噪声是在该一个信号中同时存在的单独的频率分量。正弦波和噪声占据了信号频域表示的不同部分（如下图所示），这意味着我们可以通过将信号引导通过低频并阻挡高频的电路来滤除噪声。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMlia8zBzAQ2Rbl8xhQL14Kor46G5g3QXBQLwPMiaShu08h6VLKIyjebG50g/640?wx_fmt=jpeg)
+
+  
+
+  
+
+  
+
+**3 滤波器的类型**
+
+  
+
+如果滤波器通过低频并阻止高频，则称为低通滤波器。如果它阻挡低频并通过高频，它就是一个高通滤波器。还有带通滤波器，其仅通过相对窄的频率范围，以及带阻滤波器，其仅阻挡相对窄的频率范围。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMlia6VGNItkyQdmbvKtzL8WYibjoO8ep2oerjaf2t3SCGyz2qr9wMInW6fA/640?wx_fmt=jpeg)
+
+  
+
+  
+
+还可以根据用于实现电路的组件类型对滤波器进行分类。无源滤波器使用电阻、电容、电感；这些组件不具备提供放大的能力，因此无源滤波器只能维持或减小输入信号的幅度。另一方面，有源滤波器既可以滤波信号又可以应用增益，因为它包括有源元件，如晶体管或运算放大器。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMlia6ROxOWVP6BV48s3r6AzI40p00yTDpiclrJKcUsfic5TqyU42GQxVJC5A/640?wx_fmt=jpeg)
+
+**基于流行的Sallen-Key拓扑结构的有源低通滤波器**
+
+  
+
+  
+
+  
+
+**4 RC低通滤波器**
+
+  
+
+为了创建无源低通滤波器，我们需要将电阻元件与电抗元件组合在一起。换句话说，我们需要一个由电阻器和电容器或电感器组成的电路。从理论上讲，电阻 - 电感（RL）低通拓扑在滤波能力方面与电阻 - 电容（RC）低通拓扑相当。但实际上，电阻 - 电容版本更为常见，因此本文的其余部分将重点介绍RC低通滤波器。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliahUp42NOckw0ibXBn0ApO7qAJ5Rd0dOicQJMmarYFBtibJOA55ic1ib7HFBg/640?wx_fmt=png)
+
+**RC低通滤波器**
+
+  
+
+如图所示，通过将一个电阻与信号路径串联，并将一个电容与负载并联， 可以产生RC低通响应。在图中，负载是单个组件，但在实际电路中，它可能更复杂，例如模拟到数字转换器，放大器或示波器的输入级，用于测量滤波器的响应。
+
+  
+
+如果我们认识到电阻器和电容器形成与频率相关的分压器，我们可以直观地分析RC低通拓扑的滤波动作。
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliawljPG2NhNJibuqAFM3VsbH42IUG4bJwwpzCibdHRmYEH382VltIAVxTw/640?wx_fmt=png)
+
+**重新绘制RC低通滤波器，使其看起来像分压器**
+
+  
+
+当输入信号的频率低时，电容器的阻抗相对于电阻器的阻抗高; 因此，大部分输入电压在电容器上（和负载两端，与电容器并联）下降。当输入频率较高时，电容器的阻抗相对于电阻器的阻抗较低，这意味着电阻器上的电压降低，并且较少的电压传输到负载。因此，低频通过并且高频被阻挡。
+
+  
+
+RC低通功能的这种定性解释是重要的第一步，但是当我们需要实际设计电路时它并不是很有用，因为术语“高频”和“低频”非常模糊。工程师需要创建通过并阻止特定频率的电路。例如，在上述音频系统中，我们希望保留5kHz信号并抑制500kHz信号。这意味着我们需要一个过滤器，从5 kHz到500 kHz之间的传递过渡到阻塞。
+
+  
+
+  
+
+  
+
+**5 截止频率**
+
+  
+
+滤波器不会引起显著衰减的频率范围称为通带，滤波器确实导致显著衰减的频率范围称为阻带。模拟滤波器，例如RC低通滤波器，总是从通带逐渐过渡到阻带。这意味着无法识别滤波器停止传递信号并开始阻塞信号的一个频率。然而，工程师需要一种方便，简洁地总结滤波器频率响应的方法，这就是截止频率概念发挥作用的地方。
+
+  
+
+当我们查看RC滤波器的频率响应图时，会注意到术语“截止频率”不是很准确。信号光谱被“切割”成两半的图像，其中一个被保留而其中一个被丢弃， 不适用，因为随着频率从截止点下方移动到截止值以上，衰减逐渐增加。
+
+  
+
+RC低通滤波器的截止频率实际上是输入信号幅度降低3dB的频率（选择该值是因为幅度降低3dB对应于功率降低50％）。因此，截止频率也称为-3 dB频率，实际上该名称更准确且信息量更大。术语带宽是指滤波器通带的宽度，在低通滤波器的情况下，带宽等于-3 dB频率（如下图所示）。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliazlQlPd8JrPhrOuMcZsAaJMgZBmnfRnzYUA2Bx2Xbicx7gXeUxNnJlkw/640?wx_fmt=jpeg)
+
+**该图表示RC低通滤波器的频率响应的一般特性**
+
+  
+
+  
+
+如上所述，RC滤波器的低通行为是由电阻器的频率无关阻抗与电容器的频率相关阻抗之间的相互作用引起的。为了确定滤波器频率响应的细节，我们需要在数学上分析电阻（R）和电容（C）之间的关系，我们还可以改变这些值，以设计满足精确规格的滤波器。RC低通滤波器的截止频率（f C） 计算如下：
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaFrEUiaxxctQajatfeplCrXsicD1b4tvBU06ernKXaer8M3fb03yLbgQQ/640?wx_fmt=png)
+
+  
+
+我们来看一个简单的设计实例。电容值比电阻值更具限制性，因此我们将从常见的电容值（例如10 nF）开始，然后我们将使用该公式来确定所需的电阻值。目标是设计一个滤波器，它将保留5 kHz音频波形并抑制500 kHz 噪声波形。我们将尝试100 kHz的截止频率，稍后在文章中我们将更仔细地分析此滤波器对两个频率分量的影响。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaXWibhPvvPgTjATj4CGAjJ5gJfr8Dhw7AlLyibWXZLCtb8jXOaZom6sdQ/640?wx_fmt=jpeg)
+
+  
+
+因此，160Ω电阻与10 nF电容相结合，将为我们提供一个非常接近所需频率响应的滤波器。
+
+  
+
+  
+
+  
+
+**6计算过滤器响应**
+
+  
+
+我们可以通过使用典型分压器计算的频率相关版本来计算低通滤波器的理论行为。电阻分压器的输出表示如下：
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaIyibE1ibslzJnibxl9jl5A1pcdyTgps3Zeln14gYuQpiblrd9cwVjHKeRw/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliakWtY6NEicS7iaUYygFKMn4v7sbOKcQQ910oVc91wsANia1Oaj2icoNEmoQ/640?wx_fmt=png)
+
+  
+
+RC滤波器使用等效结构，但是我们有一个电容器代替R 2。首先，我们用电容器的电抗（X C）代替R 2（在分子中）。接下来，我们需要计算总阻抗的大小并将其放在分母中。因此，我们有：
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliakWtY6NEicS7iaUYygFKMn4v7sbOKcQQ910oVc91wsANia1Oaj2icoNEmoQ/640?wx_fmt=png)
+
+  
+
+电容器的电抗表示与电流的相反量，但与电阻不同，相反量取决于通过电容器的信号频率。因此，我们必须计算特定频率的电抗，我们用于此的等式如下：
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaTFNlaYibjk1q3XrJwedibIgu1KWXbBicdKBPSUpLBEVoqYhNQX7W2WB6w/640?wx_fmt=png)
+
+  
+
+在上面的设计实例中，R≈160Ω且C = 10nF。我们假设V IN的幅度是1 V， 这样我们就可以简单地从计算中去掉V IN。首先让我们以正弦波频率计算VOUT的幅度：
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaBuLMBTdLdsXbib1icoROiaZGictO3DhOicYJtLu7NbybtchQmkbcpPQJlibQ/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliapsufMcUQMuU9JDxiaiaQKoeh67YoXJwPq0BFDDtSL1FBHo2yrfGnfWXA/640?wx_fmt=png)
+
+  
+
+正弦波的幅度基本不变。这很好，因为我们的目的是在抑制噪音的同时保持正弦波。这个结果并不令人惊讶，因为我们选择的截止频率（100 kHz） 远高于正弦波频率（5 kHz）。
+
+  
+
+现在让我们看看滤波器如何成功衰减噪声分量。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaEJQswBQgJStiafJdfwiavUMcLToEHcQBzf5P9bbicvkHl5Q9iav7VFibM5g/640?wx_fmt=png)
+
+![](https://mmbiz.qpic.cn/mmbiz_png/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaJF83ZKjOuagl1xF1hOmPYP1EQPvXC8wLnQwVicibDBUZrhsfR2nM4iaRw/640?wx_fmt=png)
+
+  
+
+噪声幅度仅为其原始值的约20％。
+
+  
+
+  
+
+  
+
+**7 可视化过滤器响**
+
+  
+
+应评估滤波器对信号影响的最方便方法是检查滤波器频率响应的图。这些图形通常称为波德图，在垂直轴上具有幅度（以分贝为单位），在水平轴上具有频率; 水平轴通常具有指数标度，使得1Hz和10Hz之间的物理距离与10Hz和100Hz之间，100Hz和1kHz之间的物理距离相同。这种表示方法使我们能够快速准确地评估滤波器在很大频率范围内的作用。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliagzI70gOEC8subibm2chziaHQaIROexlH1JV6jT8HDhHPCIMA7tmWXhLw/640?wx_fmt=jpeg)
+
+**频率响应图的一个例子**
+
+  
+
+曲线上的每个点表示如果输入信号的幅度为1 V且频率等于水平轴上的相应值，则输出信号将具有的幅度。例如，当输入频率为1 MHz时，输出幅度（假设输入幅度为1 V）将为0.1 V（因为-20 dB对应于十倍减少因子）。
+
+  
+
+通带中的曲线几乎完全平坦，然后随着输入频率接近截止频率，它开始下降得更快。最终，衰减的变化率稳定在20 dB / decade。即，输入频率每增加十倍，输出信号的幅度降低20 dB。
+
+  
+
+  
+
+  
+
+**8 评估低通滤波器性能**
+
+  
+
+如果我们仔细绘制我们在本文前面设计的滤波器的频率响应，我们将看到5 kHz时的幅度响应基本上是0 dB（即几乎为零衰减），500 kHz时的幅度响应约为-14 dB（对应于0.2的增益）。这些值与我们在上一节中执行的计算结果一致。
+
+  
+
+由于RC滤波器总是从通带到阻带逐渐过渡，并且因为衰减永远不会达到无穷大，我们无法设计出“完美”的滤波器 - 即对正弦波完全没有影响并完全消除噪声的滤波器。相反，我们总是需要权衡。如果我们将截止频率移近5 kHz， 我们将有更多的噪声衰减，但我们想要发送到扬声器的正弦波衰减更多。如果我们将截止频率移近500 kHz，我们在正弦波频率下的衰减会减少，但噪声频率下的衰减也会减少。
+
+  
+
+  
+
+  
+
+**9 低通滤波器相移**
+
+  
+
+到目前为止，我们已经讨论了滤波器修改信号中各种频率分量幅度的方式。然而，除了幅度效应之外，电抗性电路元件总是引入相移。
+
+  
+
+相位的概念是指周期内特定时刻的周期信号的值。因此，当我们说电路引起相移时，我们的意思是它会在输入信号和输出信号之间产生不对准：输入和输出信号不再在同一时刻开始和结束它们的周期。相移值（例如45°或90°）表示已创建多少未对准。
+
+  
+
+电路中的每个电抗元件都会引入90°的相移，但这种相移不会同时发生。输出信号的相位与输出信号的幅度一样，随着输入频率的增加而逐渐变化。在RC低通滤波器中，我们有一个电抗元件（电容器），因此电路最终会引入90°的相移。
+
+  
+
+与幅度响应一样，通过检查水平轴表示指数频率的曲线图，可以最容易地评估相位响应。下面描述了一般情况，然后我们可以通过检查绘图来填写详细信息。  
+
+  
+
+-   相移最初为0°。
+    
+-   它逐渐增加，直到它在截止频率达到45°; 在这部分响应期间，变化率正在增加。
+    
+-   在截止频率之后，相移继续增加，但变化率正在降低。
+    
+-   随着相移渐近接近90°，变化率变得非常小。
+    
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/iaLLibsB5S6FOy93U7gXnkz6gU3ZqSCMliaCicUgaAQrt36JHKZxHG5OSKQYa4P6QzB16aNpxLZD8KIQ3DKwRwl1uA/640?wx_fmt=jpeg)
+
+**实线是幅度响应，虚线是相位响应。**
+
+  
+
+截止频率为100 kHz。注意，截止频率下的相移为45°
+
+  
+
+  
+
+  
+
+**10 二阶低通滤波器**
+
+  
+
+到目前为止，我们假设RC低通滤波器由一个电阻器和一个电容器组成。此配置是一阶过滤器。
+
+  
+
+无源滤波器的“次序”由电路中存在的电抗元件（即电容器或电感器）的数量决定。高阶滤波器具有更多的无源器件，这导致更多的相移和更陡的衰减。通过向滤波器添加一个电抗元件 ，例如，从一阶到二阶或二阶到三阶，最大斜率就会增加20 dB /十倍。更陡峭的斜率转换为从低衰减到高衰减的更快速转换，所以当一阶滤波器不具有将期望频率分量与噪声分量分离的宽频带时，用多阶滤波器可以实现目的。
+
+  
+
+  
+
+  
+
+**11 总结总结如下**
+
+  
+
+-   所有电信号都包含所需频率分量和不需要的频率分量的混合。不期望的频率分量通常由噪声和干扰引起，并且在某些情况下它们将对系统的性能产生负面影响。
+    
+
+  
+
+-   滤波器是以不同方式对信号频谱的不同部分作出反应的电路。低通滤波器旨在传递低频分量并阻止高频分量。
+    
+      
+    
+-   低通滤波器的截止频率表示滤波器从低衰减转变为显着衰减的频率区域。
+    
+      
+    
+-   RC低通滤波器的输出电压可以通过将电路视为由（频率无关）电阻和（频率相关）电抗组成的分压器来计算。
+    
+      
+    
+-   幅度（以dB为单位，在垂直轴上）与频率（以赫兹为单位，在水平轴上）的曲线图是检查滤波器理论行为的方便有效的方法。我们还可以使用相位与指数频率的关系图来确定将应用于输入信号的相移量。
+    
+      
+    
+-   二阶滤波器提供更陡峭的衰减; 当信号不能在所需频率分量和不需要的频率分量之间提供宽带分离时，这种二阶响应是有用的。
+    
+
+  
+
+文章整理自网络，如有侵权，请联系删除。

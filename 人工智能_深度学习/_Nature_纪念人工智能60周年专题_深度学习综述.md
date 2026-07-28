@@ -94,7 +94,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH3Wx8IAV7k48tgRNBUQ68napDeR2VIXb3AjFguIPibfGRzKToNADGiaR3N1OtxV3DQ9icF1GCIwJjtCQ/640?wx_fmt=jpeg)
+![](_Nature_纪念人工智能60周年专题_深度学习综述_images/img_000_0e837bed48fa.jpg)
 
 图1 多层神经网络和BP算法
 
@@ -178,7 +178,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH3Wx8IAV7k48tgRNBUQ68na7h3ha2zO7icUaH4fByDdk9skprobB8XmabVwiaFIXoIWwjOUicekm7ibVw/640?wx_fmt=jpeg)
+![](_Nature_纪念人工智能60周年专题_深度学习综述_images/img_001_a2a9f67804f7.jpg)
 
 图2 卷积神经网络内部
 
@@ -220,7 +220,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH3Wx8IAV7k48tgRNBUQ68naGSLFL3415pMtxayTeAS31rAzRyHiaslibYcboAIHFDxqQTdeibIkaYhOg/640?wx_fmt=jpeg)
+![](_Nature_纪念人工智能60周年专题_深度学习综述_images/img_002_c697ce692f97.jpg)
 
 图3 从图像到文字
 
@@ -258,7 +258,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH3Wx8IAV7k48tgRNBUQ68nalnpaicyb6JWSPSYsy8WvQ7MrgIOMs9Q5ia6EtfeTz8GiaDtpszVkbPRHQ/640?wx_fmt=jpeg)
+![](_Nature_纪念人工智能60周年专题_深度学习综述_images/img_003_7df9dc1c8b71.jpg)
 
 图4 词向量学习可视化
 
@@ -278,7 +278,7 @@
 
 首次引入反向传播算法时，最令人兴奋的便是使用递归神经网络(recurrent neural networks，下文简称RNNs)训练。对于涉及到序列输入的任务，比如语音和语言，利用RNNs能获得更好的效果。RNNs一次处理一个输入序列元素，同时维护网络中隐式单元中隐式的包含过去时刻序列元素的历史信息的“状态向量”。如果是深度多层网络不同神经元的输出，我们就会考虑这种在不同离散时间步长的隐式单元的输出，这将会使我们更加清晰怎么利用反向传播来训练RNNs(如图5，右)。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH3Wx8IAV7k48tgRNBUQ68nawgLjEV3jibsf7RqE4B6fcPicoAD4dEzRDMGEzBLmp9ZHulibqbyRwB1gQ/640?wx_fmt=jpeg)
+![](_Nature_纪念人工智能60周年专题_深度学习综述_images/img_004_097d16f0d41e.jpg)
 
 图5 递归神经网络
 
@@ -352,7 +352,7 @@ LSTM网络随后被证明比传统的RNNs更加有效，尤其当每一个时间
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH3Wx8IAV7k48tgRNBUQ68nao2euEcWIhWvz69tMGAodStMVWMpxiaO3Yc6iaN9hQkAWdhrhxqjFdYaQ/640?wx_fmt=jpeg)
+![](_Nature_纪念人工智能60周年专题_深度学习综述_images/img_006_7f5ae97a5855.jpg)
 
   
 
@@ -362,7 +362,7 @@ LSTM网络随后被证明比传统的RNNs更加有效，尤其当每一个时间
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH3Wx8IAV7k48tgRNBUQ68naR2bLFFP0Sk8tFDr9pHKpekasqBA5Z93be8mnSJuZV91aPESOibYAnUw/640?wx_fmt=jpeg)
+![](_Nature_纪念人工智能60周年专题_深度学习综述_images/img_007_a0ef0f10c56a.jpg)
 
   
 
@@ -372,7 +372,7 @@ LSTM网络随后被证明比传统的RNNs更加有效，尤其当每一个时间
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH3Wx8IAV7k48tgRNBUQ68naG9DUIQ0Jb1l1Vax0q5CvAdMagButncficauc5lAIG6mxXF3L61U2qMA/640?wx_fmt=jpeg)
+![](_Nature_纪念人工智能60周年专题_深度学习综述_images/img_008_54b0de1a17f6.jpg)
 
   
 

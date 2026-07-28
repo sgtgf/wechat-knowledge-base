@@ -19,7 +19,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/GdFU1Q3Y77VfRyMKBmbqBstCuZbcMWfT7iabUr2GsqJZsUCMlP1nO6gdzBcMiaXuvbfwia8tsVt8ZUIPbKrEzRtjg/640?wx_fmt=jpeg&random=0.7061535587431131)
+![](基于Python的简明数学建模_images/img_000_dc65459ad00d.jpg)
 
 **0****1**
 
@@ -63,7 +63,7 @@
 
 **编辑推荐**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VfRyMKBmbqBstCuZbcMWfTFzfgE6qcp5WIUibvsxk37T7ocmwaHPwC9xfZk1ZibaIYBCjbfJGfz4yQ/640?wx_fmt=png&random=0.3880491529423764)
+![](基于Python的简明数学建模_images/img_001_1e1472fb9ef3.png)
 
   
 
@@ -79,13 +79,13 @@
 
 **本书目录**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiaxu9jl8W4XBwaWs2WxiaDQaLte2uMjLicbQ0f453JMbWSPuBkkdnmw7QWA/640?wx_fmt=png&random=0.7842635057434242)![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiaxo6G7E7QBKBDU7icLRsA7MgDx06PPkic1ZaM2ibymuzdwnjnYG4j6ms5Qw/640?wx_fmt=png&random=0.25520315594117604)![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiaxprrUhsXC84baib7SKp3G8A1NGaJdobcNFYdbicKFibr00cr8KwR4CxOcA/640?wx_fmt=png&random=0.35815665970201294)
+![](基于Python的简明数学建模_images/img_002_da166ce5da9e.png)![](基于Python的简明数学建模_images/img_003_e9f95f3401b1.png)![](基于Python的简明数学建模_images/img_004_cc1f47044980.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiaxprrUhsXC84baib7SKp3G8A1NGaJdobcNFYdbicKFibr00cr8KwR4CxOcA/640?wx_fmt=png&random=0.7038216212703494)
+![](基于Python的简明数学建模_images/img_005_f45482c2f411.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiaxMdgkuaHWjiblVNrnLJZibyibgQI9UJzLYeUsc54f7icu73iceYEZ1QsDg1w/640?wx_fmt=png&random=0.24200186991608574)
+![](基于Python的简明数学建模_images/img_006_68bc23de9bc1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiaxqB2oHjc0RDkBdHblibRGfEPlTPyu6v68zCKj3nOYUOodthMXEUJuk8w/640?wx_fmt=png&random=0.3425958000196774)
+![](基于Python的简明数学建模_images/img_007_6bc9fc6dba97.png)
 
   
 
@@ -95,9 +95,9 @@
 
 **正文展示**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiax3rLBHz5eVrNnmwdDGuGde4rHwTv9xt8wcibS4CwzF9CWkJmHScJWwWg/640?wx_fmt=png&random=0.12320986584367799)![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiaxNxwGxOKR6Noibglq3ERWItkKS3s3Z1wnFPJ6icGCdGnNmCZk8iaaib63PA/640?wx_fmt=png&random=0.260937132558561)![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiax2jYSj5ujssj5MU5GAZ3c0VYpiagw2nfibc4Aw6d39RJv0n9VibtRfcq8A/640?wx_fmt=png&random=0.8320885339153927)
+![](基于Python的简明数学建模_images/img_008_1e413434168f.png)![](基于Python的简明数学建模_images/img_009_6fbefeb93543.png)![](基于Python的简明数学建模_images/img_010_d848b7f65a96.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/GdFU1Q3Y77VuAsKNFLdiceIfLax1GnKiax6wNT5pEx6epyeLZnK2qasjQPBrLZRITv0t4XzmFHqFFEibn8psWr9nw/640?wx_fmt=png&random=0.9844435955368644)
+![](基于Python的简明数学建模_images/img_011_7687f4d0a9c6.png)
 
   
 
@@ -115,4 +115,4 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/DRPKCGMAPjKzncOsqKVQInBQ7RU7WTSXJdmD2OEMiciawJtrbZAicXnwK8cFHw5ddlCRcHWKu2ZxvHlpHmU8UN4Ew/640?wx_fmt=gif&random=0.6248864787615109)
+![](基于Python的简明数学建模_images/img_012_4509519737e0.gif)

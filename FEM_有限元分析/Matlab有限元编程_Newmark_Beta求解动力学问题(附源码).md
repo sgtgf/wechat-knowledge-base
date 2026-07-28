@@ -9,13 +9,13 @@
 
 **首发 |** 仿真秀App
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/KY3BXJeOPhbbcy2pMyJUOM8RRM7PA0Oobw5wwTQLwUjIFkqY8sr52rjbpricODJ7RZibQ7ZOOmoibyBKnHNwAWdeg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_000_a728da844190.gif)
 
 **导读：上一篇《[三维铁木辛柯梁单元Matlab有限元编程案例分析](http://mp.weixin.qq.com/s?__biz=MzI4Mjk2NzQzMQ==&mid=2247562118&idx=1&sn=0e08d91d4bf09d3f5a98b8ae83eb744c&chksm=eb925f6edce5d6781e22a694d5922768cd2cede71a13c1c175a0f62a44855e18c324cc49ee0e&scene=21#wechat_redirect)**》，笔者通过matlab实现了三维铁木辛柯梁单元和弹性支撑单元的有限元编程。
 
 本文主要讲解如何利用Matlab通过有限元编程实现框架结构在地震作用下弹性时程分析，重点介绍了Newmark-Beta求解方法（隐式方法）和瑞丽阻尼矩阵的基本原理及算法流程，并通过Matlab程序介绍了Newmark-Beta方法的和瑞丽阻尼矩阵的程序实现过程，其中框架结构采用铁木辛柯梁单元，其有限元方程的建立过程可参考往期博文《[Matlab梁单元有限元编程：铁木辛柯梁VS欧拉梁讲解](http://mp.weixin.qq.com/s?__biz=MzI4Mjk2NzQzMQ==&mid=2247559011&idx=1&sn=c90be1328bfad9df00ba17e5ff18fb13&chksm=eb924b8bdce5c29d3edce47c8b7a560b48ff380981190ac2b9a8b1da3d13094b67faff5a9a71&scene=21#wechat_redirect)》。最终程序求解得到框架结构整体的位移时程，并通过震动动画进行展示，如下图所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvT6t25Tm5cBFEk5Hmuxr6XOqyoCZdMqibozRlwMfOzgnU2vXiaa3WSywg/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_001_ca3346f67d76.png)
 
 框架结构地震作用下的动画
 
@@ -23,89 +23,89 @@
 
 时间积分法瞬态求解器用于求解各类满足方程
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGv453BL4QpJQXnPJmWrEHfKibGng723mRf3Ricic5IGa14PiazwlVuefuxNg/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_002_bfb01d446e4a.png)
 
-的瞬态物理问题，如结构动力学问题等，其求解过程与时间相关，求解结果为物理量随时间变化的历程。其中，M、C、K为对应物理问题系数矩阵，如结构动力学问题的结构质量矩阵、阻尼矩阵和刚度矩阵；![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvBzIEY6PCDeN9RxGzBLZXibjDb0lPKZ2ASbs64C8H43rmicS9YmRib4ianA/640?wx_fmt=png&from=appmsg)为对应物理问如结构动力学问题的结构位移、速度和加速度；**f**为对应物理问题的外部作用，如结构动力学问题的外部动力荷载。在时间积分技术中，当前时间步的未知值是基于前一个时间步的已知值计算得出的。根据计算过程和应用，时间积分技术可以分为两种类型：隐式和显式。让我们通过以下显示的位移（u）和速度（u'）方程，在时间步（tn+1）上讨论这两种技术之间的差异。
+的瞬态物理问题，如结构动力学问题等，其求解过程与时间相关，求解结果为物理量随时间变化的历程。其中，M、C、K为对应物理问题系数矩阵，如结构动力学问题的结构质量矩阵、阻尼矩阵和刚度矩阵；![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_003_00167249b8cf.png)为对应物理问如结构动力学问题的结构位移、速度和加速度；**f**为对应物理问题的外部作用，如结构动力学问题的外部动力荷载。在时间积分技术中，当前时间步的未知值是基于前一个时间步的已知值计算得出的。根据计算过程和应用，时间积分技术可以分为两种类型：隐式和显式。让我们通过以下显示的位移（u）和速度（u'）方程，在时间步（tn+1）上讨论这两种技术之间的差异。
 
 在隐式时间积分方法中，未知时间步的变量是通过使用未知时间步（tn+1）处的斜率（u'，u''）来计算的。由于位移、速度和加速度在时间步（tn+1）上是未知的，因此不能直接求解这些方程。比较典型的隐式时间积分法是Newmark-beta法，将在后文重点介绍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvUtmwgBIPDpBIoOPbhgl1a1FcAUFOyBMibV6YTJTriaFMA2iahyLloGaxw/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_004_4f2b092fa025.png)
 
 在显式方法中，我们使用已知时间步的斜率（u'，u''）来计算未知时间步（tn+1）处的变量。由于位移、速度和加速度在时间步（tn）上是已知的，因此可以直接求解这些方程。中心差分法是典型的显示求解算法，在求解瞬t+dt时的位移U时，只需t+dt时刻以前的状态变量Ut，和U(t-dt)，然后计算出有效质量矩阵，有效载荷矢量，即可求出U(t+dt)，故称此解法为显式算法。时间步长的选择直接关系到数值算法的稳定性和计算时间。中心差分法的实质是用差分代替微分，并且对位移和加速度采用线性外插，这就限制了步长不可能过大，否则结果可能失真，显式方法可参考SimPC仿真秀专栏的博文《Matlab中心差分法求解单自由度系统受迫振动》或知乎文章https://zhuanlan.zhihu.com/p/702508310。本文重点介绍newmark-beta隐式方法
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvxI3jlicUhogsVD2YFIVbFLhImE2e7ibChmic3ZVIsAeEZ9LV9LP0Nx9iaA/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_005_567bc31cace6.png)
 
 对于线性问题，上述两种方法从计算效率上没有明显的差别，但是对于非线性问题，隐式算法涉及迭代求解会影响计算效率。
 
 # **二、Newmark-Beta****求解方法（隐式）**
 
-有限元计算分析软件的时间积分法瞬态求解器采用![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvpIn2xAcBu0OjUOcabRs6AAetgKe4MpzUv6hshGAFV44TPQkMTISEgQ/640?wx_fmt=png&from=appmsg)作为求解方法。本文以结构动力时程分析问题为例，对![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGv1yvAnZ5YzN2uLg1YcILtns2iacJnWViciaKY0RakxGBSgWMyQlQpUhtgQ/640?wx_fmt=png&from=appmsg)法进行介绍。
+有限元计算分析软件的时间积分法瞬态求解器采用![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_006_ed7c2329de8f.png)作为求解方法。本文以结构动力时程分析问题为例，对![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_007_a58140b0bf34.png)法进行介绍。
 
 结构动力时程问题的基本方程如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvHroLWN9azOm2mTVmkxlCJJPfhkxHWnXwMRoUHicyNIkGCIu8xDeeGtg/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_008_8dfa5e4efe53.png)
 
-其中，M、C、K分别是结构的质量、阻尼和刚度矩阵；![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvNhJI6EuViay6Ylrr6V081cZ5wM58BRSFia4OahBibDm4MVwv1SNvw1I4Q/640?wx_fmt=png&from=appmsg)分别是结构任意时刻的位移、速度和加速度响应；![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvicNLTrdshX4v3k3EOf2sgpXlRgDaeJcl9J8yem5WhQaibIyIiaGjiaLGyw/640?wx_fmt=png&from=appmsg)是结构受到的随时间变化的外部激励。
+其中，M、C、K分别是结构的质量、阻尼和刚度矩阵；![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_009_beb47c465dfd.png)分别是结构任意时刻的位移、速度和加速度响应；![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_010_9b64e3acadcb.png)是结构受到的随时间变化的外部激励。
 
-为求得各时间点的结构响应，![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvyO1UjZ858T5mpqF6NBkbHWlbiaDAx3G9s3hy0CuMibF73d4IcGaOweqg/640?wx_fmt=png&from=appmsg)法对结构响应作如下假定：
+为求得各时间点的结构响应，![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_011_2b6f5d72939e.png)法对结构响应作如下假定：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvtnkvGfoMC8ReqMsmOUDFnnXo9sHiajvTnCS9qW8icNbhhdNJiavV91O8Q/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_012_280887294234.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGv3d7icVaFrQUnNtJwhItrctoZbqRbQrqibYZsJjOAqQFqXh7Rgwfl9ZXQ/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_013_0da4bef9037b.png)
 
-其中，![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGv5DqTbDkYroP8VtJcw7iaBxtXeUPT8M853Ag94NSbESCqo8hTLXqVSew/640?wx_fmt=png&from=appmsg)和![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvMRFm34HpgboRlPicWITKO2Xjepps5RHgh9hm39cYD7CypWxrxo4MQhw/640?wx_fmt=png&from=appmsg)是根据所需积分精度和稳定性来确定的参数，![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvnB6gFvMrY8PY0kHJuZYulwZnZkibbWqRey6qXvSB6D5W9OWoicG5yNTQ/640?wx_fmt=png&from=appmsg)为积分时间步长。
+其中，![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_014_00835293436d.png)和![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_015_5a28663a5aa1.png)是根据所需积分精度和稳定性来确定的参数，![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_016_c8e3d34fe35e.png)为积分时间步长。
 
 由式（3）得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvIrm1BkFgE9lqmK9UZJDUiaD5Qgp56IbrJDEf9dYLKNndornVn5767NA/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_017_c575a348514c.png)
 
 将式（4）代入式（2）并整理得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvu13vSnotAwASYiakDpnIkBvKGnA17WbvUI4UgwthoCn9bcnVgFohvXQ/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_018_a09563766b42.png)
 
 将式（3）、（4）、（5）代入时刻的方程（1）并整理得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGv1Siap0luibQ825NKAiaQt6yaKRNNMu3vmuU5ZJFiaYA4TY8tyicb1LLU67A/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_019_2dc103d311f9.png)
 
 将式（6）整理后得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvhO6GU1bNBEHibknTdvoJn6hJk6FVVydeI4YIdplicrvIShHPqvO7pJog/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_020_88c4942ed232.png)
 
 其中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGv8GVhC4IL37icm6XMj1RaeequwU7sQAYPJTCucHLfKlZx6Wtfl73M2Zw/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_021_3e51ddab6801.png)
 
 由式（4）、（2）得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGv3yg5XR6I5VJIYSyqe9VvGq3rrvHM4Zia2DIyUcrHibrwSIpuBAiceYXsQ/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_022_d1699cf139eb.png)
 
 **其中：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGveqSFpA9Inb2ibe5oTJniafBZVIwfOoNib7fvnn7U8DMEnqhrpSpGdqRTw/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_023_aee7e1d533ae.png)
 
-通过上述推导可知，对于一个结构，只要确定了结构的初始状态（t=0时刻的结构响应）和外部激励，就可以通过公式（7）、（8）和（9），利用t时刻的结构响应，将结构![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvwIdTfwoGQ7tbW9ic6icbicOstEflkjN2ib09iazukQ8ttcicAz4VmR8z94Sw/640?wx_fmt=png&from=appmsg)时刻的动力方程转化为一个等效的静力平衡方程（7），从而计算得到![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvwIdTfwoGQ7tbW9ic6icbicOstEflkjN2ib09iazukQ8ttcicAz4VmR8z94Sw/640?wx_fmt=png&from=appmsg)时刻结构的各个响应，进而逐步积分得到整个结构的动力响应。对每一时刻等效静力平衡方程（7）的求解，可直接采用静力学求解器进行求解，本质依然是求刚度矩阵的逆矩阵。
+通过上述推导可知，对于一个结构，只要确定了结构的初始状态（t=0时刻的结构响应）和外部激励，就可以通过公式（7）、（8）和（9），利用t时刻的结构响应，将结构![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_024_1bcc0c92958b.png)时刻的动力方程转化为一个等效的静力平衡方程（7），从而计算得到![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_025_1bcc0c92958b.png)时刻结构的各个响应，进而逐步积分得到整个结构的动力响应。对每一时刻等效静力平衡方程（7）的求解，可直接采用静力学求解器进行求解，本质依然是求刚度矩阵的逆矩阵。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGv4SRP7dcRyibD9BxGqia0Wh3EX3ibFEGLEZ1fn1OWRGcEZLEfiaJ4ZM6fzQ/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_026_39d0c6d23535.png)
 
 # **三、阻尼矩阵的建立**
 
 本文时程分析采用Rayleigh阻尼阵形式（瑞利阻尼矩阵）即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvdiaWfxiaKvo3jF3UuQn4icBRfXSzn3f7KJ3WgoicljrTtxJJZVuic2D6z7g/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_027_6ba95edd160f.png)
 
 其中\[M\]和\[K\]分别是系统的质量矩阵和刚度矩阵；a0为与质量成比例的系数；a1为与刚度成比例的系数。
 
 在瑞丽阻尼系统中，第i阶振型的阻尼比为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvuCHEdewWNLj0uLibjl5icoyGrO2AcibxPXNMARibbpn9ibrHLibYVg7Lia8EA/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_028_79832a3aa52b.png)
 
 若定义第i,j阶振型的阻尼比，并列上式可以得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvp5P3FfxXUeicaaMO4lKpaYpgYF3FUv0TliaWdWOzGHs8hBZ4fuZvE8kQ/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_029_7e5165a304ea.png)
 
 反解可以得到a0,a1的表达式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvpIDgrb8VKh4zcoj2ibCXSgmAibGibyW1FHOY6XqEnCP2nDs9q0XjlSwhA/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_030_0e7b89c01733.png)
 
 因此在程序中定义瑞丽阻尼矩阵时需要对系统进行模态分析，得到响应各阶模态的频率。带入上式进行a0,a1的计算，进而得到阻尼矩阵。
 
@@ -113,7 +113,7 @@
 
 基于上一节的计算原理可以提炼出编程所需的算法流程，具体如下所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNDmLzyNUDiamZG1CXI6spfGvlsqx4m7lQbwEjkibZOz4n9NrdN6e43bgGiaUUqCaZdD99Qx4VE1WOj6Q/640?wx_fmt=png&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_031_9ab07c358781.png)
 
 与之对应的Matlab代码如下：
 
@@ -125,7 +125,7 @@ function[uu,vv,aa,ttt]=NewmarkBeta1(t,dt,delta,beta,M,C,K,acc_x,Constr)
 
 以上就是笔者关于Matlab有限元编程：Newmark-Beta求解动力学问题分享。推荐大家关注我的原创视频课程里面《[Matlab有元编程从入门到精通30讲](http://mp.weixin.qq.com/s?__biz=MzI4Mjk2NzQzMQ==&mid=2247550237&idx=1&sn=c0d259918b2f780b2c8d9869444d2801&chksm=eb93a9f5dce420e3c84059579329caf3191c2931c7dc9b564dfc19d49b16f5a0bcdcd1a4fc0f&scene=21#wechat_redirect)》强烈推荐学习者订阅。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/5vZeSpd7nNCic5zYadU7olH4wP2uN8DfEawgUczMl3WhB04hdOaNB5EqMSiacLF7gN6lDn5EibMOurCO7NOPicT3xg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_032_bfef03060290.other)
 
 **上新优惠价****（限1****0名）**
 
@@ -137,9 +137,9 @@ function[uu,vv,aa,ttt]=NewmarkBeta1(t,dt,delta,beta,M,C,K,acc_x,Constr)
 
 识别下方二维码，**立即试看**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/ibn9IvQV94yZJ7NFBDlldTiapoFTm9eX0gIxwvsLE2Cn3pkqAARJHFnjCgwxREUg3RWZxVhUDvo7jYOSiblTcC3Zg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_033_b95c1c9ad6df.gif)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVX3iaTQ98tI0JLznEjHNbcHbpicCkyoWDtg11qwG6W9eyXmYibl0sVFYmGySyL5E2EMNjic46pribILM2g/640?wx_fmt=jpeg&from=appmsg)
+![](Matlab有限元编程_Newmark_Beta求解动力学问题(附源码)_images/img_034_d7efe1683510.jpg)
 
 **本课程为matlab有限元编程专题课**，课程主要以**案例的形式进行讲解，**中间会穿插案例中所涉及到的**有限元基本理论**，案例不局限于力学问题的有限元求解，还会涉及**传热学、电学**等问题的有限元求解。
 

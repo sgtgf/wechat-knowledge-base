@@ -6,7 +6,7 @@
 
 CT技术作为一种重要的无损检测手段，最早应用于医学领域 ，在医学领域之外的其他领域也得到了广泛的关注和应用。CT图像的质量直接影响了后续测量与识别的结果。在CT实际成像过程中，受系统本身软、硬件的技术限制，CT图像中通常会存在一些伪影或噪声，其中环形伪影是一种较为普遍和突出的现象。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46EwibvmZ2Ydte49PnianspnXXfZAsCcicAgMskcGBr6ziciadwqDcpZHDrzaPicPQxjw5lXWiaqCHaVKolQ/640?wx_fmt=jpeg)
+![](基于变分的CT图像环形伪影校正_images/img_000_0d62e8a1fb7d.jpg)
 
 开放科学 (资源服务) 标识码 (OSID)
 
@@ -20,9 +20,9 @@ CT技术作为一种重要的无损检测手段，最早应用于医学领域 �
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46EwibvmZ2Ydte49PnianspnXj20dc3nFwbEibibibb9Zw3o094tS5IaibVnUGQad85tckibdALxDBJKtWMA/640?wx_fmt=png)
+![](基于变分的CT图像环形伪影校正_images/img_001_b5593a5f3d69.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46EwibvmZ2Ydte49PnianspnXCloywTaqkDaTgjNBtyr0Ndfgpp2FnGPd6fbQJibaGlTbdzBMzicVZTSw/640?wx_fmt=png)
+![](基于变分的CT图像环形伪影校正_images/img_002_7d7adacbea79.png)
 
 图1  CT扫描方式
 
@@ -36,7 +36,7 @@ CT技术作为一种重要的无损检测手段，最早应用于医学领域 �
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46EwibvmZ2Ydte49PnianspnXdHMd9CLWwibQh4f5RVbAWibr7fvvQ9zSciaJ0thricQmTI78YMmfwibxe4A/640?wx_fmt=png)
+![](基于变分的CT图像环形伪影校正_images/img_003_2a665f68ba0b.png)
 
 图2 含有环形伪影的CT图像
 
@@ -50,7 +50,7 @@ CT技术作为一种重要的无损检测手段，最早应用于医学领域 �
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46EwibvmZ2Ydte49PnianspnXDqVKSH1VJWTXLQOY5fo853E26KHvRj8xGxrXjibtyOuEbhw2Ja3icO9A/640?wx_fmt=png)
+![](基于变分的CT图像环形伪影校正_images/img_004_c640c451b8ab.png)
 
 图3 本文的校正算法流程示意图
 
@@ -74,7 +74,7 @@ CT技术作为一种重要的无损检测手段，最早应用于医学领域 �
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46EwibvmZ2Ydte49PnianspnXZTOx9PNfJyjVDf3esiczkm83TZZGe0c1OldPhwndC2fTYBZV4FKSNtA/640?wx_fmt=png)
+![](基于变分的CT图像环形伪影校正_images/img_005_b703be3ced7a.png)
 
 霍其润, 博士, 首都师范大学信息工程学院讲师. 主要研究方向为图像处理, 计算机视觉, 机器学习. 
 
@@ -82,13 +82,13 @@ E-mail: huoqirun@cnu.edu.cn
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46EwibvmZ2Ydte49PnianspnXjx53ONTcH5abXb7ibm6CVqJAYUj6ALO9Bd0Y6HDUZbApervzEH1MjYQ/640?wx_fmt=png)
+![](基于变分的CT图像环形伪影校正_images/img_006_985f19c7ac42.png)
 
 李建武, 北京理工大学计算机学院副教授. 主要研究方向为图像处理, 超分辨率图像重建技术. 
 
 E-mail: ljw@bit.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46EwibvmZ2Ydte49PnianspnXbJibZqm7lBp1QMQBefDhvvlhEYpQxIoX2xCZSRP7szNCkhLpIfEticOA/640?wx_fmt=png)
+![](基于变分的CT图像环形伪影校正_images/img_007_f8783d74543f.png)
 
 陆耀, 北京理工大学计算机学院教授. 主要研究方向为图像和信号处理, 模式
 
@@ -96,7 +96,7 @@ E-mail: ljw@bit.edu.cn
 
 E-mail: vis yl@bit.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46EwibvmZ2Ydte49PnianspnXiayeSpYI8ZjiawIeSbpTxY03vSAjuibuCo8AzXibSpbiaibKLC1TjOovb08Q/640?wx_fmt=png)
+![](基于变分的CT图像环形伪影校正_images/img_008_abd59824bc5a.png)
 
 秦明, 博士, 中国电力科学研究院有限公司工程师. 主要研究方向为图像与信
 
@@ -196,21 +196,21 @@ E-mail: qinming@epri.sgcc.com.cn
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46EwibvmZ2Ydte49PnianspnXEPQM6LT6I89eEJtC5xdD1icf0lYsjL4P5DIicpGzKVPvBMufa7vU7O0g/640?wx_fmt=png)
+![](基于变分的CT图像环形伪影校正_images/img_009_4488364f3ce8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46EwibvmZ2Ydte49PnianspnXRcMGVmOjCKTNprYibfNuKLTGadXqPdPzB6QAwL6o5NdKTgUKAJjISyw/640?wx_fmt=jpeg)
+![](基于变分的CT图像环形伪影校正_images/img_010_283ec28a42e3.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46EwibvmZ2Ydte49PnianspnXEPQM6LT6I89eEJtC5xdD1icf0lYsjL4P5DIicpGzKVPvBMufa7vU7O0g/640?wx_fmt=png)
+![](基于变分的CT图像环形伪影校正_images/img_011_4488364f3ce8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46EwibvmZ2Ydte49PnianspnXEVfGUD9J2pUlGiaagD7drFia9ySROtuDS4rdTBNEib82PXGMXRo5L1JibA/640?wx_fmt=jpeg)
+![](基于变分的CT图像环形伪影校正_images/img_012_c1876ceff5fb.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46EwibvmZ2Ydte49PnianspnXEPQM6LT6I89eEJtC5xdD1icf0lYsjL4P5DIicpGzKVPvBMufa7vU7O0g/640?wx_fmt=png)
+![](基于变分的CT图像环形伪影校正_images/img_013_4488364f3ce8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46EwibvmZ2Ydte49PnianspnX8fgKDYxmuNOcGvWGuVk20CAyeqBcE1EAaJg7EDOVSItibjxcICpaGBA/640?wx_fmt=jpeg)
+![](基于变分的CT图像环形伪影校正_images/img_014_2e2023e11b8c.jpg)
 
 自动化学报订阅号
 

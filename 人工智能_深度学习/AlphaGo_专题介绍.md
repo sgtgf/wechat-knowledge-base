@@ -24,4 +24,4 @@
 
 ZHOU Zhi-Hua (Nanjing University)
 
-![](http://mmbiz.qpic.cn/mmbiz/47ibaBJyUH44UTmecyD02LGodevDhCsy9hRVeHp34zdVA6oUcb2CVgzUj0gaKVenr3hVq27d9dAqwjWUldcVQhg/0?wx_fmt=jpeg)
+![](AlphaGo_专题介绍_images/img_000_ff7f92e05089.jpg)

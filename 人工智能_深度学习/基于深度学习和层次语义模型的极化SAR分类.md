@@ -10,7 +10,7 @@
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaCJmiaLicTmKJ4UNDBjpCvWbibaoTfyaicePCyI6hic9UA2oQHgahIgm5Iq9g/0?wx_fmt=png)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_000_131a56ba7b46.png)
 
 刘芳
 
@@ -38,7 +38,7 @@
 
 算法示意
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaCK5Dxv3wszQib8aATDP76XjfNV9JVoc0ibrTN6YsnicgHmrqicslPruUPJw/0?wx_fmt=png)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_001_579561fbd916.png)
 
   
 
@@ -46,23 +46,23 @@
 
 为了验证本文算法的有效性，对几幅真实的极化SAR数据进行实验，这些数据来自不同波段不同卫星。为了验证本文算法的优势，Wishart分类算法、Wishart MRF方法和堆叠自编码器(stacked auto-encoder, SAE)分类方法用来进行对比。实验结果如图2所示，分类效果使用主观和客观标准进行评价。与其他算法相比，本文算法对聚集地物能够取得语义一致的分类结果，且能够较好地保持边界。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaCh9UEaVtVEz5GCdoKicdE5PNEIggjgS06U2kl7szlYlIvuxHSeE6mtrQ/0?wx_fmt=png)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_002_8de1e3e8224e.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaCWcsQrTkrBW9bsthnapiba6Fljh2c8FTaY0aicc9P1PHDoib7k2w1iaYBdw/0?wx_fmt=png)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_003_31c19574adf2.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaCo6wZz1ickawqUfrzMPdIFuYYmo8pn7vMaoQzPODPFPDvwLqnfvWmaLA/0?wx_fmt=png)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_004_0d6d860a877b.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaC4Bh62UWlLgBAOhoCLRia23z5XOhF3YRtTay0WY2ibPPgEuWMUicsrHUHA/0?wx_fmt=png)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_005_67c02118cace.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaCicdviaVeibIeVEk0cwLmwB3dNSDU7RKh0Xp7T2a7fSrmZlGch3MQlMfiaw/0?wx_fmt=png)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_006_810b43390aa5.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaCR9933QEibCkeQEB6vhImWaTqpibhfG8FuOdwqxJdUibibZ6U06SRFwEtog/0?wx_fmt=png)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_007_86c5736caa17.png)
 
 西安地区分类结果图。(a) 极化SAR伪彩图；(b) Google Earth光学图像；(c) Wishart分类结果图；(d) Wishart MRF分类结果图；(e) SAE分类结果图；(f) 本文算法分类结果图。
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaCgIMzGfefghKcZzftZvUVBsMXhpUIdzBoRYugIIIicic7YZ3AdukWpWEw/0?wx_fmt=png)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_008_42a268f82ad6.png)
 
 引用格式
 
@@ -70,19 +70,19 @@
 
 作者简介
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaCX1UIHic7x7zIRTSQrV65CJ1x77lPwWDg7ic6ePzwTeshhHjCvzKkKTBw/0?wx_fmt=jpeg)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_009_cc164520100b.jpg)
 
 石俊飞 西安理工大学计算机信息与工程学院讲师，2016年获得西安电子科技大学计算机学院博士学位，2009年获得河南师范大学计算机学院学士学位，主要研究方向为极化SAR图像分类、语义模型和计算机视觉。本文通信作者。
 
 E-mail: shijunfei1@163.com
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaCJmiaLicTmKJ4UNDBjpCvWbibaoTfyaicePCyI6hic9UA2oQHgahIgm5Iq9g/0?wx_fmt=png)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_010_131a56ba7b46.png)
 
 刘 芳 西安电子科技大学计算机学院教授，博士生导师. 1984年获得西安交通大学计算机科学与技术专业学士学位，1995年获得西安电子科技大学计算机学院硕士学位，在期刊和会议上发表论文80余篇，主要研究方向包括图像和信号处理、SAR图像处理、多尺度几何分析、学习理论和算法、优化问题以及数据挖掘。
 
 E-mail: f63liu@163.com
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaCfTeTIPoibsveBY6Lp5AMM37dTOxjp6Th0IibcicftickZEtczLU3c4YECw/0?wx_fmt=jpeg)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_011_94ee7e08e3ed.jpg)
 
 林耀海 福建农林大学计算机与信息学院讲师，主要研究方向有图像处理、智能信号处理。
 
@@ -90,29 +90,29 @@ E-mail: lyh953@qq.com
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaCiahXmvGlbYcSKaA5xZKVFNPupzvM43haQeqqGBgib37ZKLOgqbAaM3nw/0?wx_fmt=jpeg)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_012_f1893d51ff9c.jpg)
 
 刘 璐 西安理工大学计算机信息与工程学院讲师，2015年获得西安电子科技大学电子工程学院博士学位，主要研究方向为极化SAR图像分类。
 
 E-mail: liulu0613@163.com
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaC43P8WEsYeYKrPk7FMUXJAp04uG19DDufLEV2RiajicjGGdk1XoXPO4hg/0?wx_fmt=png)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_013_35012e9e2df9.png)
 
 微信服务号：自动化学报
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaC43P8WEsYeYKrPk7FMUXJAp04uG19DDufLEV2RiajicjGGdk1XoXPO4hg/0?wx_fmt=png)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_014_35012e9e2df9.png)
 
 微信订阅号：aas1963
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaCnicSM1EATfWtpib8ia2a9MicC8YRgxMwTFkJHJxWwncjXX9yPjR2zdsN4g/0?wx_fmt=png)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_015_588c1d7734cd.png)
 
 新浪微博：自动化学报
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaCnicSM1EATfWtpib8ia2a9MicC8YRgxMwTFkJHJxWwncjXX9yPjR2zdsN4g/0?wx_fmt=png)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_016_588c1d7734cd.png)
 
 新浪博客：Automation\_2011
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaC2MTONbcKjJaSu1ib68koG0fge9uLqZGyA5zlicNs5PWibjyIk2D6nLBQA/0?wx_fmt=png)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_017_faf915304fc8.png)
 
 联系我们：
 
@@ -128,4 +128,4 @@ Email: aas@ia.ac.cn（日常咨询和稿件处理）
 
 http://www.aas.net.cn
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45rBD35CwiaHPc38icrrq8WaCQwO6AdrpCx5yMjjU0QicTicevQZPX3Zicp0Nbrbv7dIibso28HDLPENyXQ/0?wx_fmt=png)
+![](基于深度学习和层次语义模型的极化SAR分类_images/img_018_2ffca73f6fce.png)

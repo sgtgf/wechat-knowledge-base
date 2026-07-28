@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/W2U347AYZcfznly8LVHDEA](https://mp.weixin.qq.com/s/W2U347AYZcfznly8LVHDEA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+![](与时俱进的Fortran_可变大小数组与字符串_images/img_000_8bcddb233e93.jpg)
 
 在Fortran编程领域中，传统的数组和字符串往往需要预先设定固定的长度，这在处理不同长度的数据时带来了一定的局限性。不过，随着Fortran标准的进步，尤其是从Fortran 2003版开始引入的创新特性，程序员可以利用可变大小数组和可变长度字符串来更加便捷高效地处理各种动态数组和字符串。
 
@@ -68,7 +68,7 @@
 
 综上所述，无论是可变大小数组还是可变长度字符串，它们均为Fortran提供的重要现代化工具，有助于简化内存管理、提高代码清晰度和可维护性。尤其在处理不确定长度数据的时候，这两种特性大大增强了Fortran语言的实用性。在编写Fortran程序时，合理利用这些特性，无疑会使代码更具弹性，提高编程体验和程序性能。不过，也要注意它们可能带来的效率问题，并根据实际情况做出最佳选择。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](与时俱进的Fortran_可变大小数组与字符串_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

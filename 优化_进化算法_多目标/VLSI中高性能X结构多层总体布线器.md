@@ -46,7 +46,7 @@ VLSI中X结构多层总体布线问题：X结构带来物理设计诸多性能�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45MxWI3UPDVymwwS8CrAm37dGCxqXgq7tT41hcP6nq9rNwKMz9TKrAMCTVMWETd68UJGiaNQGYI6BA/640?wx_fmt=png)
+![](VLSI中高性能X结构多层总体布线器_images/img_000_343edda29a57.png)
 
 (a) N1跨越偶数网格 (b) N1引脚跨越奇数网格 (c) N2
 
@@ -62,7 +62,7 @@ VLSI中X结构多层总体布线问题：X结构带来物理设计诸多性能�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45MxWI3UPDVymwwS8CrAm37C8tBQdEicb0G004aYA8AIGZ6BP3NXS8YmfRLg6CQJDNGAaq0jaXvjEA/640?wx_fmt=png)
+![](VLSI中高性能X结构多层总体布线器_images/img_001_75284604b7af.png)
 
 图2 “PSO与迷宫算法的结合”策略
 
@@ -76,11 +76,11 @@ VLSI中X结构多层总体布线问题：X结构带来物理设计诸多性能�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45MxWI3UPDVymwwS8CrAm37T9DcnIaTQW5TaNZYpB4GBJ8vhpDibcZuDQPN59pibcZYC0TtBqWx5HFQ/640?wx_fmt=png)
+![](VLSI中高性能X结构多层总体布线器_images/img_002_6641ad083d2b.png)
 
 (a) 未采用“初始布线阶段的布线容量缩减”策略
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45MxWI3UPDVymwwS8CrAm37vm2FPicMicrF2c9sjO8o5JNSCMVM9Oia1LnCGScic5RO3XVxnmTIVkcvfw/640?wx_fmt=png)
+![](VLSI中高性能X结构多层总体布线器_images/img_003_56b4598d33ba.png)
 
 (b) 采用“初始布线阶段的布线容量缩减”策略
 
@@ -92,31 +92,31 @@ ML-XGRouter是第一次求解非曼哈顿结构下多层总体布线问题。实
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45MxWI3UPDVymwwS8CrAm37B1UJ8YGpWdPyFy7nicagxeBADRHnmu5mIqAwOE1zbKSxZCSMM9aiaG6w/640?wx_fmt=png)
+![](VLSI中高性能X结构多层总体布线器_images/img_004_30859fde1452.png)
 
   
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45MxWI3UPDVymwwS8CrAm37Kv9jpwAq2n04HVWJZdgCAFWqvAcVgOH3Uq5v8eEWibnniajLUK7wB7Gw/640?wx_fmt=png)
+![](VLSI中高性能X结构多层总体布线器_images/img_005_dadd85020ade.png)
 
 刘耿耿 博士.福州大学数学与计算机科学学院副教授、博士生导师。2015年获福州大学应用数学博士学位.主要研究方向为计算智能及超大规模集成电路物理设计算法研究.
 
 E-mail: liugenggeng@fzu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45MxWI3UPDVymwwS8CrAm37uJVZjA1X5MQxTw0yy2MAThRw7GcLjyHzNkWM7ljY4pQItxFUvayNRg/640?wx_fmt=png)
+![](VLSI中高性能X结构多层总体布线器_images/img_006_95af565eaf55.png)
 
 庄震 福州大学数学与计算机科学学院研究生.主要研究方向为超大规模集成电路物理设计中布线算法研究.
 
 E-mail: zhuang zhen@126.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45MxWI3UPDVymwwS8CrAm3701KGYcAIwQFyy7C1mkkPpuQ5T16Q1J6ic6uVlCicVo6opYsyOEdaNaeA/640?wx_fmt=png)
+![](VLSI中高性能X结构多层总体布线器_images/img_007_ea248c808a60.png)
 
 郭文忠 福州大学数学与计算机科学学院教授. 2010年获福州大学通信与信息系统博士学位.主要研究方向为计算智能及其应用.本文通信作者. 
 
 E-mail: fzugwz@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45MxWI3UPDVymwwS8CrAm37G3vAeEX0l7YK6qW73gILKeViaRXTfH5zTN7e9K419cWdPwb0mKzrcSA/640?wx_fmt=png)
+![](VLSI中高性能X结构多层总体布线器_images/img_008_5f5dca961d39.png)
 
 陈国龙 福州大学数学与计算机科学学院教授. 2002年获西安交通大学计算机科学博士学位. 主要研究方向为计算智能及其应用.
 
@@ -244,21 +244,21 @@ E-mail: fzucgl@163.com
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45MxWI3UPDVymwwS8CrAm37JJ8vicfBuE8DIp1LMaE2jeiaR5QgGD0A8xkrYcsiazBIDGtXK09GONQgA/640?wx_fmt=png)
+![](VLSI中高性能X结构多层总体布线器_images/img_009_c06039ec587f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45MxWI3UPDVymwwS8CrAm379ZlAH5ZpSaVicuyYZXWVpOt3trMIhAyI7xKrTGicZaTeiaEQOhicV8pDhw/640?wx_fmt=jpeg)
+![](VLSI中高性能X结构多层总体布线器_images/img_010_34eaf4aef8cc.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45MxWI3UPDVymwwS8CrAm37JJ8vicfBuE8DIp1LMaE2jeiaR5QgGD0A8xkrYcsiazBIDGtXK09GONQgA/640?wx_fmt=png)
+![](VLSI中高性能X结构多层总体布线器_images/img_011_c06039ec587f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45MxWI3UPDVymwwS8CrAm37tDcnwQHmEdRLa6zMOLf49RYLFDLxmWEj67qwMDrGvQ5lsK3FpDibIBg/640?wx_fmt=jpeg)
+![](VLSI中高性能X结构多层总体布线器_images/img_012_470af13b6d64.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45MxWI3UPDVymwwS8CrAm37JJ8vicfBuE8DIp1LMaE2jeiaR5QgGD0A8xkrYcsiazBIDGtXK09GONQgA/640?wx_fmt=png)
+![](VLSI中高性能X结构多层总体布线器_images/img_013_c06039ec587f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45MxWI3UPDVymwwS8CrAm37WCpiaN6bZibXrv508mSgIcCatEMUOfBv1L5VA5qpWaF9D47nruRfkkSA/640?wx_fmt=jpeg)
+![](VLSI中高性能X结构多层总体布线器_images/img_014_c1acbbbc64aa.jpg)
 
 自动化学报订阅号
 

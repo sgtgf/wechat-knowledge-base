@@ -23,7 +23,7 @@ MS-MPI 是 Windows 下最稳定的 MPI 实现，需安装两个关键组件：
     
 
 下载地址：访问 微软官方页面，需同时下载并安装上述两个文件，否则会出现 “msmpi.dll缺失” 或 “mpiexec命令无法识别” 的问题。  
-![](https://mmbiz.qpic.cn/mmbiz_png/BrAq83gJ8g4Sr4ClrJPNLJo5DujNHTNfkQpUlOTawicib3z7rvGZxQWUIbdVyOqicNkVt8f8dV56XqpGXnOJiae39qXaklnek4oWYXibF29v1icdg/640?wx_fmt=png&from=appmsg)
+![](Microsoft_MPI_在_VS2026_环境下的配置_images/img_000_9c9fdccb3864.png)
 
 安装完成后，系统会自动配置环境变量，默认路径为 C:\\Program Files\\Microsoft MPI\\Bin（运行时）和 C:\\Program Files (x86)\\Microsoft SDKs\\MPI（开发包）。
 
@@ -35,19 +35,19 @@ MS-MPI 是 Windows 下最稳定的 MPI 实现，需安装两个关键组件：
 
 点击 **C/C++** → **常规** → **附加包含目录** ，输入 MS-MPI 头文件路径，通常为 C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include
 
-![](https://mmbiz.qpic.cn/mmbiz_png/BrAq83gJ8g6MczysbhXq3sEJzsNBsnTbHjnhKETMJgkqq8fkEnoyctqsPAAEUvW0vtam0Gjo2guakWVOBmPP3QWfaM0iaKOjAqrzniasb1uwY/640?wx_fmt=png&from=appmsg)
+![](Microsoft_MPI_在_VS2026_环境下的配置_images/img_001_812f99a0de4c.png)
 
 ### 2.2 添加 MPI 库文件路径
 
 点击 **链接器** → **常规** → **附加库目录** ，输入 MS-MPI 库文件路径，通常为 C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64
 
-![](https://mmbiz.qpic.cn/mmbiz_png/BrAq83gJ8g4H857rbyp1h9Z4DovzcHI7Vq0Ojw02JB9PhAka6BU9Jibia2NQyUx5mXngjXkrmXTzddPTofqCDpibJuf9oAQxQbvC8EoWHfT2dg/640?wx_fmt=png&from=appmsg)
+![](Microsoft_MPI_在_VS2026_环境下的配置_images/img_002_c3a383087993.png)
 
 ### 2.3 添加 附加依赖项
 
 点击 **链接器** → **输入** → **附加依赖项** ，添加 msmpi.lib（静态链接）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/BrAq83gJ8g51ZT1qV7QaiaUMUrZUdtbJ7PhImaSy9L3LbicY0ZxChjK0p74iar0rLGiasQ2UZFP3cH5J5ph3mRKb9xHTFXFiaWhsmCiaeQKF9aibOI/640?wx_fmt=png&from=appmsg)
+![](Microsoft_MPI_在_VS2026_环境下的配置_images/img_003_e4a30404b127.png)
 
 ### 2.4 修改调试命令及参数
 
@@ -62,7 +62,7 @@ MS-MPI 是 Windows 下最稳定的 MPI 实现，需安装两个关键组件：
     填写 -n 4 $(TargetPath)（4为进程数，$(TargetPath)自动指向当前编译的 exe 文件）。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/BrAq83gJ8g6aBiaHAI4JLvGGX72PVvVe4RHrEM7X7ndt4wgqcMbukufyxFOK3qr3GiaibV0ojNZ4TaOjfxibG95y4xwz3WNeDWu6pVzJhBIIcsE/640?wx_fmt=png&from=appmsg)
+![](Microsoft_MPI_在_VS2026_环境下的配置_images/img_004_3858efab0188.png)
 
 设置后点击 **启动调试** ，VS2026 将自动调用 mpiexec 启动多进程并附加调试器。
 
@@ -99,4 +99,4 @@ Process 2 of 4: Hello, World!Process 1 of 4: Hello, World!Process 3 of 4: Hello,
 
 VS2026 配置 MPI 的核心是**正确安装 SDK**、**配置项目依赖路径**，并 **通过 mpiexec 显式指定进程数**。若需跨平台开发，可后续学习 OpenMPI 在 Linux 下的配置，但 Windows 环境中 MS-MPI 仍是最便捷的选择。大家在配置时是否遇到过环境变量或权限相关的问题？哈哈，赏花啦，山桃、玉兰、梅花，美美哒。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/BrAq83gJ8g5hnoWh4t4z1KB6Mnh8Kyia1nusYMPp05pibTJQYjygINZTUq4rXDcw1M0hIrHH2q2QxndrIe4RRZCoeInUHk8UHkHoibrTBxFA8k/640?wx_fmt=png)
+![](Microsoft_MPI_在_VS2026_环境下的配置_images/img_005_156bf4211e67.png)

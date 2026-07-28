@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/BnHKCOM1R\_tkOo4Kqm-ZCg](https://mp.weixin.qq.com/s/BnHKCOM1R_tkOo4Kqm-ZCg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/kicB09lvgibnnRjv0AAqQxyBODIttZXnQqcTPoF4Pt8tJmnia4CHaYUS3zqicFfKZTWibXTAew2ibFHDjy5Pf8nDnVEQ/640?)
+![](Fortran中的函数与回调_概念与实践_images/img_000_504b9a0acd89.png)
 
 点击上方「蓝字」关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kLQoJJzjYaicxneNzbOg7ynx3TfnIwmNTpJQ7orkaUNrJIV4u7PNdSJ25Mtn6XdRQTamLDDicHnYfdic2bsiaNQjCw/640?)
+![](Fortran中的函数与回调_概念与实践_images/img_001_92b2749bca28.png)
 
 在编程领域中，回调函数是一种强大而灵活的机制，它们不仅增强了代码的复用性和可维护性，还使得程序结构更加清晰和模块化。在 Fortran 这一经典的编程语言中，也存在着与回调函数相关的概念和技术。本文将深入探讨 Fortran 中的回调函数概念，并通过一个简单示例来演示其应用，以帮助读者更好地理解和掌握这一高级编程技巧。
 
@@ -33,7 +33,7 @@
 
 回调函数，简单来说，就是「将函数作为参数传递给另一个函数」，使得接收函数（主函数）在适当的时候可以“回过头来”调用这个传入的函数（回调函数）。这相当于用户可以根据需要，向通用函数或模块传递自定义功能的代码段，将行为的定义推迟到运行时，从而实现更加动态和灵活的编程。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXiafnibYxiaa2q4iax4n72h0oB1SiawHttmLR8XZnH1AGPKsdYPZOQfhq9LIgnQabJwoictjVsVIo6YqQg/640?wx_fmt=png&from=appmsg&random=0.5684814452441211)
+![](Fortran中的函数与回调_概念与实践_images/img_002_45e972f0af9f.png)
 
 在 Fortran 中，实现这一机制涉及到抽象接口(abstact interface)和过程绑定(procedure binding)的概念。
 
@@ -114,10 +114,10 @@ Fortran调用C语言：应用Gauss-Legendre积分计算圆周率
 
 # 推荐阅读
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.6626969574788906)
+![](Fortran中的函数与回调_概念与实践_images/img_003_6bd3662dab0b.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 
 有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXiafnibYxiaa2q4iax4n72h0oBO2ugrOFEfZ4naE5Xw2IDvh5HwQ3NnQRn6pGwxArdnMMicZJcBvyudOQ/640?wx_fmt=jpeg&from=appmsg)
+![](Fortran中的函数与回调_概念与实践_images/img_004_39edb9918354.jpg)

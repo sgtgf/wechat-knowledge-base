@@ -23,7 +23,7 @@
 
 ### 2\. 计算单元刚度矩阵
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Fo2HISySfpzBYcsjLxKdoa1w5twAiamEVxk9CMlkeFbAhbWiaS4AXO9ySwo6deVpag0nBIHzbwy4FH3fDxPsguKQ/640?wx_fmt=png)
+![](_CAE系列__有限单元法FEM入门_理论和代码_images/img_000_62bf06cd2050.png)
 
 以工程中常用的四结点四面体单元为例，其单元刚度矩阵计算过程如下：
 
@@ -73,7 +73,7 @@
 
 整体刚度矩阵组装示意图如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Fo2HISySfpzBYcsjLxKdoa1w5twAiamEV0r3132G5s2YMGVL9ibILnLxibLoRZzic7opF58YRVELiakybCP6NzWublg/640?wx_fmt=png)
+![](_CAE系列__有限单元法FEM入门_理论和代码_images/img_001_9b3d8170c2bc.png)
 
 由整体刚度矩阵表示的弹性体平衡方程为：
 
@@ -213,4 +213,4 @@ class System(object):    def __init__(self):        self.nodes =�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Fo2HISySfpyGpbxJDSoWq82CqbY9QMd7kOkich08ictVxEJj9yCBltibRwPiag96wzm096gy7Sw2yAmZdnMMXfAxxQ/640?wx_fmt=png)
+![](_CAE系列__有限单元法FEM入门_理论和代码_images/img_002_c1d0d654064c.png)

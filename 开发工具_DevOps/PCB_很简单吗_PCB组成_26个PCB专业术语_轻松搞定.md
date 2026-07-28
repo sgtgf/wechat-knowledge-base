@@ -1,0 +1,333 @@
+# PCB 很简单吗？PCB组成+26个PCB专业术语，轻松搞定
+
+原创 硬件笔记本 2023-07-11 07:40 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/gZN9N2cCHHK6Rkwj3sh5Og](https://mp.weixin.qq.com/s/gZN9N2cCHHK6Rkwj3sh5Og)
+
+## ![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+  
+
+今天给大家分享的是**PCB**、**PCB组成成分**、**PCB专业术语**
+
+**在电子行业工作的人来说，就是整日与 PCB“为伍”，与PCB 抬头不见低头见**。PCB是最基础的，也正是因为基础，也常常容易被人忽略。这篇文章就来讲讲 **PCB，以及 PCB 领域中常使用的一些术语。**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4aB15wOzv4KHZBFGN2egcBgMShIQO6KkLNaz4FzBDuIA1F5TkhIoeebQ/640?wx_fmt=jpeg&wxfrom=13)
+
+PCB实物图
+
+# **一、什么是印刷电路板？**
+
+印刷电路板是最常见的名称。****在PCB出现之前，电路是通过费力的点对点布线过程构建的****。当电线绝缘层开始老化和开裂时，导致电线连接处经常出现故障和短路。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4arufqH3icGqSE5biam3G1e7HpQZM6LvDGlRliafKKMbeSxFJ9xIs3RQ22Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+电路
+
+随着电子产品从真空管和继电器转向硅和集成电路，电子元件的尺寸和成本开始下降。电子产品在消费中变得越来越普遍，****减小电子产品尺寸和制造成本的压力促使制造商寻找更好的解决方案，因此PCB就诞生了。****
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4aMYERxUY0UffL4VwLKruAsRZZvZWyItELmKB92FxwBMXSfmcj9YKDkg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+PCB
+
+PCB是**印刷电路板**的缩写，是一块具有将各个点连接在一起的线和焊盘的电路板。在上图中，存在将各种连接器和组件相互电气连接的迹线。PCB 允许在物理设备之间路由信号和电源。焊料是在 PCB 表面和电子元件之间建立电气连接的金属。作为金属，焊料还可以用作牢固的机械粘合剂。
+
+# **二、PCB组成结构**
+
+****PCB 有点像千层蛋糕，因为有不同材料的交替层****，这些材料通过加热和粘合剂层压在一起，从而形成一个单一的物体。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4aj2CbZ9crkmVLvZn9iayHtuq7prOP8jPIrkXDzsmZoRUeaF6nJ2zac0g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+PCB组成结构
+
+**1、FR4**
+
+**基材**通常是****玻璃纤维****。通常来说玻璃纤维****最常见的代号是“FR4”****。这种实心内核为 PCB ****提供了刚性和厚度****，还有基于柔性高温塑料（Kapton 或同等材料）的柔性 PCB。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4au2LoSiasC2KxP8xkclonDIyolD64cNbW4VWACkicQof4wdy8uI3ySRPQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+穿孔板
+
+更便宜的 PCB 和**穿孔板（如上所示）将由其他材料制成，例如环氧树脂或酚醛塑料**，它们****缺乏 FR4 的耐用性，但价格便宜得多****。当你焊接时，通常会闻到一种非常独特的气味，这些类型的基板通常也用于低端消费电子产品。
+
+酚醛树脂的热分解温度较低，当烙铁在电路板上放置时间过长时，会导致它们分层、冒烟和烧焦。
+
+**2、铜层**
+
+****下一层是薄铜箔，通过加热和粘合剂将其层压到电路板上****。在普通的双面 PCB 上，铜被涂在基板的两面。在成本较低的电子产品中，PCB 可能只有一侧有铜。当我们提到**双面**或**2 层板**时，我们指的是烤宽面条中铜层 (2) 的数量。这可以少至 1 层或多至 16 层或更多。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4apsLMqwIibg6GPF6fz4WpuuNspQDicq4nzjHzZepZPLdCiaYmicgwJ2EGAQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+PCB 裸露铜，无阻焊层或丝印
+
+铜厚度可能会有所不同，并按重量指定，单位为盎司/平方英尺。绝大多数 PCB 每平方英尺含 1 盎司铜，但一些处理非常高功率的 PCB 可能使用 2 或 3 盎司铜。每平方盎司相当于约 35 微米或千分之 1.4 英寸的铜厚度。
+
+**3、阻焊层**
+
+****铜箔顶部的层称为阻焊层****。通常为 PCB 赋予绿色（但也有其他的颜色）。****阻焊层覆盖在铜层上，以防止铜迹线意外接触其他金属、焊料或导电位。****该层可帮助用户焊接到正确的位置并防止焊接跳线。
+
+在下面的示例中，绿色阻焊层应用于 PCB 的大部分，覆盖了细小的走线，但使银环和 SMD 焊盘暴露在外，以便进行焊接。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4azib8YqkaUFnVrVlxY5Ciab1amCHcP1eYULqFicbZgO1VFnY9h72swF8iaw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+PCB阻焊层
+
+阻焊层最常见的颜色是绿色，但还有很多其他的颜色。例如：蓝色、红色、白色。
+
+**4、丝印**
+
+**白色丝印层应用在阻焊层的顶部**。丝网印刷在 PCB 上添加了字母、数字和符号，以便于组装和指示，以便人们更好地理解电路板。我们经常使用丝印标签来标明每个引脚或 LED 的功能。  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4aWy9b0CN9qvxfh1NiadzSomsIph42UPxrfpacbUwwymW2nLTXnIccNug/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+****丝印最常见的是白色，但可以使用任何颜色的墨水****。黑色、灰色、红色，甚至黄色的丝印颜色被广泛使用，但是通常来说比较少见，就是一块PCB上有多种颜色的PCB。
+
+# **三、PCB专业术语**
+
+**1、环形环**
+
+****PCB 中电镀通孔周围的铜环****。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4aAj0kkDH5SWvy9Gib3iayhg8djlzZDlhLM0EJSoZWxsibbAUibPDpbic3BQw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+环形圈
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4aXvndN6l4oK29svIzc48bnrWuMWibYEI16zMeIQKxBUQiaeDhiaicYvovjQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+环形圈
+
+**2、DRC**
+
+****设计规则检查****。对设计进行软件检查，以确保设计不包含错误，例如走线接触不当、走线太细或钻孔太小。
+
+**3、钻孔命中**
+
+****在设计中应该钻孔的位置****，或者它们****实际在电路板上钻孔的位置****。由钝钻头引起的钻头命中不准确是一个常见的制造问题。
+
+**4、金手指**
+
+****沿电路板边缘外露的金属焊盘，用于在两块电路板之间建立连接****。
+
+常见的例子是计算机扩展板或内存板以及较旧的基于盒式磁带的视频游戏的边缘。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4aUMuibIvLPM9BYgQ5zhsYqtH5BaM12Lt1nPlibqq3GRNzaw9Az8ykccbg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+PCB金手指
+
+**5、邮票孔**
+
+**邮票孔**用于****将板与面板分开的 v-score 的替代方法****。许多钻孔集中在一起，形成一个薄弱点，事后很容易打破板子。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4axeJcL8Bc7ZWyAPhT81TM7ia92bE3N5cKOib1ka7hS1BG5icjNQDPoTu5w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+邮票孔
+
+**6、焊盘**
+
+电路板表面裸露的金属部分，****用于焊接元件****。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4aCfsNmcg9UOe7pRKn2CdELnQYvK6EQftCUe176YR87Oibyic8edicdVceQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+PTH（电镀通孔）焊盘
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4aNViaU1SyZmt8soCOWHA2sh63oh9oGEM76Roib4uJ4MkSx6OMzFlUZeuQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+SMD（表面贴装器件）焊盘
+
+**7、面板**
+
+一块较大的电路板，由许多较小的电路板组成，这些电路板在使用前会被拆开。
+
+自动化电路板处理设备经常在处理较小的电路板时出现问题，通过同时****将多块电路板聚集在一起，可以显着加快处理速度。****
+
+**8、粘贴模板**
+
+****位于电路板上的薄金属（有时是塑料）模板****，允许在组装过程中将焊膏沉积在特定区域。
+
+**9、取放**
+
+****将元器件放置在电路板上的机器或过程****。
+
+**10、平面**
+
+****电路板上连续的铜块，由边界而不是路径定义****，通常也称为“倒”。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4aobLZcfQbtfLyibF0eGLaEibR8KOfwicvyPhsv3CCBTwibicFpov4qDxgouA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+PCB 的各个部分没有走线，而是接地
+
+1**1、电镀通孔**
+
+****电路板上的一个孔，它有一个环形圈并且一直电镀穿过电路板****。可能是通孔组件的连接点、信号通过的过孔或安装孔。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4alibUdYpNNoh3NTicR16dCU79QqFfCcgiaibalepQxz5Adl9TGj07C7mxWw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+插入PCB 的 PTH 电阻，准备焊接
+
+**插入PCB 的 PTH 电阻，准备焊接。电阻的腿穿过孔。镀孔可以在 PCB 的正面和 PCB 的背面有连接到它们的迹线。**
+
+**12、弹簧式触点**
+
+弹簧式触点，****用于为测试或编程目的进行临时连接****。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4aFxpnuoQuwA0PZUiawxQ4GibpxtxlZDAEibzvV2NwWR4Iwa1C21hQiaxvqg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+流行的带尖头的弹簧触点
+
+**13、回流焊**
+
+****熔化焊料以在焊盘和元件引线之间形成接头****。
+
+**14、丝网印刷**
+
+****电路板上的字母、数字、符号和图像。****通常只有一种颜色可用，而且分辨率通常很低。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4aaibXeB0xNdSS37Az8VXU7aylgZic3H0WxPZiawKXRpEzWIRYaA8bOwc9Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+丝印将此 LED 标识为电源 LED
+
+**15、插槽**
+
+****板上任何非圆形的孔，插槽可能会或可能不会被电镀****。插槽有时会增加电路板的成本，因为它们需要额外的切割时间。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4aiaKjqlBB1xPIgZZtCvxh9EpMqHgUZH7WHEIiaBNoLR83dPdxRbWEvZXw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+复杂插槽，显示了许多邮票孔
+
+**注意：槽的角不能做成完全正方形，因为它们是用圆形铣刀切割的。**
+
+**16、焊膏**  
+
+**悬浮在凝胶介质中的小焊锡球，在焊膏模板的帮助下，在放置元件之前将其施加到 PCB 上的表面安装焊盘上。**
+
+在回流焊期间，焊膏中的焊料熔化，在焊盘和元件之间形成电气和机械接头。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4au6C8Dibto2ZjjYVdz0YF3vYtUhIbqqMHoMasibh3PBu2BnVWpm8kTiaLA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+在放置元件之前不久，PCB 上的焊膏
+
+**17、焊锡膏**
+
+****用于快速手焊带有通孔元件的电路板的膏****。通常包含少量熔化的焊料，将电路板快速浸入其中，在所有裸露的焊盘上留下焊点。
+
+**18、阻焊层**
+
+****覆盖在金属上的一层保护材料，用于防止短路、腐蚀和其他问题****。通常为绿色，但其他颜色（SparkFun 红色、Arduino 蓝色或 Apple 黑色）也是可能的。有时称为“抵抗”。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4azLrxdu0v9D2zBdDzQKzcNCZobRUw7JUibBia8bW3YmWVNn01fboI7pEg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+阻焊层覆盖了信号走线，但留下了要焊接的焊盘
+
+**19、焊料跳线**
+
+****连接电路板上组件上两个相邻引脚的一小块焊料****，根据设计，焊接跳线可用于将两个焊盘或引脚连接在一起，它还可能导致不必要的短路。
+
+**20、表面贴装**
+
+****允许将组件简单地安装在板上的构造方法，不需要引线穿过板上的孔。****这是当今使用的主要组装方法，可以快速轻松地组装电路板。
+
+**21、散热孔**
+
+****用于将焊盘连接到平面的小迹线，如果焊盘没有散热，就很难使焊盘达到足够高的温度以形成良好的焊点****。当你尝试焊接时，散热不当的焊盘会感觉“粘”，并且回流需要异常长的时间。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4avGGWGoLIEzLKLcyzS9cic0wvaMoZ5zNKnTUg9zbIxtkdGlF1ZGGxAOQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+带有两个小迹线（热线）的焊盘将引脚连接到接地层。在右边，一个没有热量的过孔将它完全连接到地平面
+
+**22、Thieving**
+
+****阴影线、网格线或铜点留在没有平面或迹线的电路板区域****。降低蚀刻难度，因为在槽中去除不需要的铜所需的时间更少。
+
+**23、迹线**
+
+****电路板上铜的连续路径****。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4aAEib74X22TO1HibT2nmC5xbibQx5rVt2ibicdwKrkNa4Oibjiaj9RwsaCSbvg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+将复位焊盘连接到板上其他地方的小迹线。更大、更粗的迹线连接到5V电源引脚
+
+**24、V-score**
+
+****通过板的部分切割，使板可以很容易地沿着一条线折断****。
+
+**25、过孔**
+
+****电路板上用于将信号从一层传递到另一层的孔****。**帐篷**过孔被阻焊层覆盖，以防止它们被焊接到。要连接连接器和组件的过孔通常没有遮盖（未覆盖），因此可以轻松焊接。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4amQb6nbeMU916XxFIp2yyMibT0ficfJ9wrSDU1Licg1FUXh2IRGhYsk7dg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+同一 PCB 的正面和背面显示了一个帐篷状的过孔
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/iayzTbicUDics4Z61ibIxt28lrL1sfHpbO4aO7l8UsddxSxSrjkD2JFibao0KNv4OdHf93Mm5K1olxLZicKNqBUAxdug/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+过孔
+
+**同一 PCB 的正面和背面显示了一个帐篷状的过孔。该过孔将信号从 PCB 的正面通过电路板的中间带到背面。**
+
+**26、波峰焊**
+
+**一种用于带有通孔元件的电路板的焊接方法**，其中电路板通过熔融焊料的驻波，粘附在裸露的焊盘和元件引线上。
+
+# 
+
+# **四、如何设计PCB？**
+
+关于PCB设计涉及的非常广，不是一下子能讲清楚的，这里有一些建议。
+
+**1、查找 CAD 软件包**
+
+市场上有许多用于 PCB 设计的低成本或免费选项。在选择时要注意以下几点：
+
+-   是不是有****很多人使用该软件包****？使用的人越多，你就越有可能找包含所需部件的现成库。
+    
+
+-   ****易于使用****吗？如果使用起来很难上手，就没有那么想去用了。
+    
+-   ****功能齐全****吗？有一些可以能会有一些设计，比如：层数、组件数量，电路板尺寸等，大部分都会允许付费升级功能。
+    
+-   可转换性？有一些免费程序不允许导出或者转换设计。
+    
+
+**2、学习别人的布局**
+
+这个是最直接的，学习别人的布局，研究别人都是怎么做的。尤其是现在网上有很多开源资料，拿来学习，可以学到很多东西。
+
+**3、练习，练习，再练习**
+
+**4、降低自己的预期**
+
+刚开始设计的第一个电路板肯定有很多问题，可能你设计到第20个电路板，还会有问题，这个时候就需要调整好自己的心态，有问题是正常的。
+
+**5、原理图**
+
+在没有良好原理图的情况下，设计电路板通常或多或少都有一点问题。所以原理图还是非常重要的。
+
+以上就是关于 ****PCB 的知识****，希望大家多多支持。
+
+原文链接：  
+https://learn.sparkfun.com/tutorials/pcb-basics/all
+
+## 
+
+**声明：**
+
+  
+
+声明：文章来源百芯EMA说DFM本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+**推荐阅读▼**
+
+-   [电路设计-电路分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2811359150088683521#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

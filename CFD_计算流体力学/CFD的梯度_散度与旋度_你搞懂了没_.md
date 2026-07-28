@@ -11,25 +11,25 @@
 
 设想你置身于一片浩渺的流体海洋，想要寻找温度、速度或压力如何随空间位置的变化而变化。这时，梯度的概念就如同一个高精度的导航仪，指向变化最快的方向及其大小。在CFD计算中，梯度运算揭示了物理量在空间上的局部变化率，是理解湍流边界层发展、传热速率分布等问题的核心工具。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Ckta6WpYwOBsCCjPyOguVQC6Jm4VSVibk071nDS9r9Ow3ZhWmZiaT6hcyj5YzqauNGzuVg5IOloWvHTLoGqddb4w/640?wx_fmt=png)
+![](CFD的梯度_散度与旋度_你搞懂了没__images/img_000_46564f1de3e3.png)
 
 二、散度：源头与汇点的洞察者    
 
 当我们在微观层面审视流体微团时，发现每个微小粒子都承载着一个矢量场的信息。散度，则像一位精明的会计师，计算着这些矢量场的“收入”和“支出”，即流入流出某区域的总量。在CFD中，散度反映了流体源或汇的存在情况，对于判断流场是否连续、是否存在质量或动量的积累至关重要，如应用在无粘流中的连续性方程解析。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Ckta6WpYwOBsCCjPyOguVQC6Jm4VSVibk6GQLnyo5wbNsoHP6F74dr3CLiaaMfpruNMZUuvjttebrmuajoGKiciapA/640?wx_fmt=png)
+![](CFD的梯度_散度与旋度_你搞懂了没__images/img_001_0d3288ca6800.png)
 
 三、旋度：旋转与涡旋的编织者
 
 再进一步探究，我们会遇到流体运动中的第三个神秘力量——旋度。它犹如舞者的指尖，在流场中描绘出优美的旋转轨迹。旋度描述的是流体微元围绕自身轴线旋转的速度，是分析流体涡旋结构、漩涡生成与消失过程的关键指标。在CFD模拟湍流流动或者研究螺旋升力等现象时，旋度提供了不可或缺的力学信息。    
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Ckta6WpYwOBsCCjPyOguVQC6Jm4VSVibkLcUaBRSicu3Fb4VQugZcDwK0Ca8xdDEMUWONeTcA7KacHTI3qtZNERw/640?wx_fmt=png)
+![](CFD的梯度_散度与旋度_你搞懂了没__images/img_002_a5e01a9cd001.png)
 
 四、CFD梯度及其应用
 
 在计算流体动力学（CFD）中，梯度是一个基本而重要的概念，它描述了流体中的物理量（如速度、压力、温度等）沿空间坐标方向的变化率。对于标量场函数φ（例如温度或密度），梯度定义为一个向量，其分量是该标量函数对相应坐标的偏导数：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Ckta6WpYwOBsCCjPyOguVQC6Jm4VSVibkO8LD3uGpED4Nzt8H1MbxWDwg7DwtxHdWhZOo5k72g6cpLjh2tXEKlA/640?wx_fmt=png)
+![](CFD的梯度_散度与旋度_你搞懂了没__images/img_003_847542b9a3aa.png)
 
 在CFD的数值模拟中，梯度被广泛应用于以下几个方面：
 
@@ -49,13 +49,13 @@
 
 梯度的准确计算对于确保CFD模拟结果的精度至关重要。为了达到这一目标，现代CFD软件会采用各种高阶精度的梯度恢复技术，这些技术能够有效减少数值误差，特别是在处理复杂几何和非均匀网格时。    
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Ckta6WpYwOBsCCjPyOguVQC6Jm4VSVibk3ulyc9RdKNmk0iaQkxNOlQGRMJCTiaxxBYSbDEjWcg7vibyPVkk9k1zwQ/640?wx_fmt=png)
+![](CFD的梯度_散度与旋度_你搞懂了没__images/img_004_d1e4022a12da.png)
 
 五、CFD散度及其应用
 
 在计算流体动力学（CFD）中，散度是一个描述矢量场变化率的重要概念。对于一个三维速度矢量场u\=(u,v,w)，其散度定义为所有三个坐标方向上速度分量的偏导数之和：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Ckta6WpYwOBsCCjPyOguVQC6Jm4VSVibkk4PycvAMiasZB8MgUibFXkJBZ3C8tE1X4lobIVQ44pyiaicns9bTcZIBcg/640?wx_fmt=png)
+![](CFD的梯度_散度与旋度_你搞懂了没__images/img_005_293691d1c54b.png)
 
 散度值表示了单位体积内流入或流出该点的流体质量流量。若散度为正，则表明存在流体源；若散度为负，则说明该点为流体汇；而当散度为零时，表明没有净的质量增减。
 
@@ -83,13 +83,13 @@ o在一些湍流模型中，如大涡模拟（LES）和雷诺应力模型（RANS
 
 总之，在CFD中，散度是理解和处理流体流动特性的关键工具之一，无论是从理论分析还是实际工程应用层面，都有着不可或缺的地位。    
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/Ckta6WpYwOBsCCjPyOguVQC6Jm4VSVibksyK33mLMhpftdjM3Ys3muHrzTv4bqaS9xJF4MuBBJBRM3MTd7ceTMA/640?wx_fmt=gif&from=appmsg)
+![](CFD的梯度_散度与旋度_你搞懂了没__images/img_006_0dbd863a954e.gif)
 
 六、CFD旋度及其应用
 
 在计算流体动力学（CFD）中，旋度是一个描述矢量场旋转特性的关键概念。对于一个三维速度矢量场 u\=(u,v,w)，其旋度定义为：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Ckta6WpYwOBsCCjPyOguVQC6Jm4VSVibkjSm44saLKCDibgfOMP7BQkrdAiceyBEF66xfA6MUzthquVn8qVuNYsIQ/640?wx_fmt=png)
+![](CFD的梯度_散度与旋度_你搞懂了没__images/img_007_7c48653bd720.png)
 
 旋度结果是一个新的向量，表示原速度场在空间各点处的局部旋转特性。具体应用包括：
 
@@ -121,7 +121,7 @@ o在数值模拟过程中，旋度的计算是不可或缺的一部分，尤其�
 
 综上所述，旋度在CFD中扮演着核心角色，它不仅帮助我们理解和描述流体内部的旋转特性，还直接影响到流体动力学问题的数学表述和数值求解过程。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/Ckta6WpYwOBsCCjPyOguVQC6Jm4VSVibkdwBn6VtQZTL9ibM5e12Km0wrfDH5F4e0luULiaACfVSE7ibLlDtFicKbdA/640?wx_fmt=gif&from=appmsg)
+![](CFD的梯度_散度与旋度_你搞懂了没__images/img_008_7b5f2fccaf65.gif)
 
   
 

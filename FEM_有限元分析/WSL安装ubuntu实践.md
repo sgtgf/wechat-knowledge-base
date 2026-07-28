@@ -26,7 +26,7 @@ WSL 有2个版本：WSL1和WSL2，是两个不同的架构版本，WSL2比WSL1�
 
 硬件要求：BIOS/UEFI 必须启用**硬件虚拟化。**使用任务管理器检查：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/fcvDTmeaG7TYSSwcCaH6rld2Qq97oVxkkibv8vVA5FNmy9aLJLZiaO1ejlgt2Xjr9LLawKuTOnMRdZnNRwYkruhg/640?wx_fmt=png&from=appmsg)
+![](WSL安装ubuntu实践_images/img_000_b5a1f8fe4dff.png)
 
 2\. 启用WSL功能
 
@@ -60,13 +60,13 @@ wsl --set-default-version 2
 
 -   选择需要的版本（如Ubuntu 22.04 LTS）并安装
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/fcvDTmeaG7RsHtFNZ88icviaHcAOhQxAORIIibDgMhm5f3UDzAtZYMrxciaESL2KR8dzict6eoicuNzvdKVJXC72EPXQ/640?wx_fmt=png&from=appmsg)
+![](WSL安装ubuntu实践_images/img_001_35fac5010c8d.png)
 
 ### 5.首次启动和设置
 
 在Windows开始菜单中找到并点击"Ubuntu"；显示安装中，可能花费一点时间耐心等待结束。非常好，已经成功了。提示我们输入系统的用户名和密码，完成后就进入一个全新的linux系统了。可以卸载你的虚拟机，开始你的Linux开发之旅了。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/fcvDTmeaG7RsHtFNZ88icviaHcAOhQxAOR12z43hRqoI5ZVsjwUVjGogTdnSazEUibnx3GOjKUkjRbtI5n2yh7hQw/640?wx_fmt=png&from=appmsg)
+![](WSL安装ubuntu实践_images/img_002_96083a98b290.png)
 
 更新系统包
 
@@ -90,15 +90,15 @@ cd /mnt/c/   # 进入C盘
 
 \- 重启电脑，按特定键（如Del、F2、F10等）进入BIOS/UEFI设置。- 在CPU相关设置中，开启**Intel VT****\-x**（Intel平台）或**AMD-V**（AMD平台）；默认是启用的。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/fcvDTmeaG7RsHtFNZ88icviaHcAOhQxAORt0Upg2oiaTBrPoXTaPPPDzyc0g816u0qT7c2KWzkzsaKqshe5Cc7Fyg/640?wx_fmt=png&from=appmsg)
+![](WSL安装ubuntu实践_images/img_003_321b9519ecd7.png)
 
 （2）提示当前计算机配置不支持WSL2
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/fcvDTmeaG7RsHtFNZ88icviaHcAOhQxAORcq4HpThesINgQzQtDKFDdZrHeQYGfF02zRgVDTXwkszMmH0RBFkqkA/640?wx_fmt=png&from=appmsg)
+![](WSL安装ubuntu实践_images/img_004_1b5609edc762.png)
 
 通过运行提示的命令后重启
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/fcvDTmeaG7RsHtFNZ88icviaHcAOhQxAORR2Qa75WmEoRP6goR7n1tzLZzLpSZbtoeqyEORsMh5Xxxp41uVmKYrQ/640?wx_fmt=png&from=appmsg)
+![](WSL安装ubuntu实践_images/img_005_04aa862502d8.png)
 
 重启后依然不生效，重启后运行wsl --status 还是一样。
 
@@ -114,8 +114,8 @@ bcdedit /set hypervisorlaunchtype auto
 
 好了我们再次重启电脑，使用查看状态，看到设置成功。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/fcvDTmeaG7RsHtFNZ88icviaHcAOhQxAORzuRLLOHJ7NCKoq0ic9L0t3IIiaCwbgFic6PjP0NceamaBFblpK5lvmWGQ/640?wx_fmt=png&from=appmsg)
+![](WSL安装ubuntu实践_images/img_006_c567b9cee501.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/fcvDTmeaG7TflRPoAGL2RHP993Nh62lWsBDE6ibndqkz9PQ0dJLujNgD63vI8seHIkWvacVI7benPZVaSLBmt5g/640?wx_fmt=gif&from=appmsg)
+![](WSL安装ubuntu实践_images/img_007_1da809db8fa9.gif)
 
 **the end**

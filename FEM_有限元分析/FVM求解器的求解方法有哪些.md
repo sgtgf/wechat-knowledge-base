@@ -49,7 +49,7 @@
 
 直接求解方法在处理小型或中型方程组时非常有效，但随着问题规模的增大，它们的计算复杂度和内存需求会急剧增加。因此，在处理大型问题时，通常会考虑使用迭代求解方法或预处理技术来提高求解效率。在实际应用中，选择合适的求解方法需要考虑问题的特性、求解精度要求以及可用的计算资源。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Ckta6WpYwOCyZiaR1WWwxia602LGRYzTdzWFNBUJtcSCJtPOJiaetk0eMibKibuDPKnXwiaTXIkPv7bzVPvY0KiciceDhQ/640?wx_fmt=png)
+![](FVM求解器的求解方法有哪些_images/img_000_85afd082d970.png)
 
 二、迭代求解方法    
 
@@ -107,7 +107,7 @@ FVM的迭代求解方法主要用于求解大型或复杂的线性方程组，�
 
 ▪常见的预处理方法包括雅克比预处理、块雅克比预处理、不完全LU分解（ILU）等。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Ckta6WpYwOCyZiaR1WWwxia602LGRYzTdz2F0MiaJFOoDibkKqnlgvf3cIj2WDVVCKRY8RoA3mN0KBqnl166gryxtw/640?wx_fmt=png)
+![](FVM求解器的求解方法有哪些_images/img_001_db16beb4a95d.png)
 
 三、混合求解方法
 
@@ -159,7 +159,7 @@ FVM混合求解方法结合了直接求解和迭代求解技术的优点，旨�
 
 ▪对于稀疏矩阵，可以使用稀疏直接求解器（如超级LU或PARDISO）作为主要求解器，同时使用迭代求解器处理无法直接求解的部分。    
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Ckta6WpYwOCzs7ucm7IJLREM1mN7PXjFgrQjqKlL4icQ5YZuVlPN0MDmvhhE3HTSfkezHBjXlDibo6jFsB8pbSyA/640?wx_fmt=png)
+![](FVM求解器的求解方法有哪些_images/img_002_7cb9e2ae3e1a.png)
 
   
 

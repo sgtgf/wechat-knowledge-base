@@ -5,15 +5,15 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/kicB09lvgibnnRjv0AAqQxyBODIttZXnQqcTPoF4Pt8tJmnia4CHaYUS3zqicFfKZTWibXTAew2ibFHDjy5Pf8nDnVEQ/640?)
+![](Fortran与OpenMP___从_Hello_World_启航_images/img_000_504b9a0acd89.png)
 
 点击上方「蓝字」关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kLQoJJzjYaicxneNzbOg7ynx3TfnIwmNTpJQ7orkaUNrJIV4u7PNdSJ25Mtn6XdRQTamLDDicHnYfdic2bsiaNQjCw/640?)
+![](Fortran与OpenMP___从_Hello_World_启航_images/img_001_92b2749bca28.png)
 
 在并行计算领域，OpenMP作为一种广泛使用的、基于共享内存的并行编程模型，为开发者提供了一种简便的方式来加速自己的应用程序。对于Fortran程序员而言，OpenMP的集成尤为自然，允许你利用多核处理器的威力，而无需深入复杂的并发编程细节。本文将引导你通过一个简单的“Hello World”示例，开启Fortran与OpenMP结合的并行编程之旅。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVX5icIdxke0r1FbibMpRQchu0iaEPIH4UslDLUdqayEOT8ic1UuknbsXxriclcUyvibS9PvnXQRsD51ZjEQ/640?wx_fmt=jpeg)
+![](Fortran与OpenMP___从_Hello_World_启航_images/img_002_724c813348a1.jpg)
 
 ## OpenMP简介
 
@@ -33,7 +33,7 @@ OpenMP (Open Multi-Processing) 是一种编译器指令集，支持C、C++和For
 
 `program hello_openmp     use omp_lib     implicit none        integer :: tid        call omp_set_num_threads(4) ! 设置线程数为4     !$OMP PARALLEL PRIVATE(tid)       tid = omp_get_thread_num() ! 获取当前线程编号       print *, "Hello, World from thread ", tid, &               " of ", omp_get_num_threads()     !$OMP END PARALLEL      end program hello_openmp   `
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVX5icIdxke0r1FbibMpRQchu0a18q7udTPXgpWWL5z8XpT1vRycQqqFOfRTtkqVVDBlTgOSHibWwwrvg/640?wx_fmt=png&from=appmsg)
+![](Fortran与OpenMP___从_Hello_World_启航_images/img_003_d93b5cc8d68c.png)
 
 在这个版本中，我们做了以下改动：
 
@@ -95,7 +95,7 @@ OpenMP (Open Multi-Processing) 是一种编译器指令集，支持C、C++和For
 
 # 推荐阅读
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.5525099211882534)
+![](Fortran与OpenMP___从_Hello_World_启航_images/img_004_ee8007007b0a.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

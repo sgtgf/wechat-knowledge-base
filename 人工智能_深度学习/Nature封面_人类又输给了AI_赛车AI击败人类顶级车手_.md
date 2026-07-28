@@ -26,7 +26,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSNn8TU9YMIzCAanekyLueicAXrCd8YK1mpC9sLmaIrlY7Qnf53L7V2WA/640?wx_fmt=png)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_000_bcb7e1c8ca4b.png)
 
 （来源：Nature）
 
@@ -40,7 +40,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSqibvjfrM5rY9ZECArM8ae2QvEzUibIKLQzH5OiaMiaoiae0uU05mTLpjSiaA/640?wx_fmt=png)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_001_b9f1cb1a8680.png)
 
 图｜游戏截图（来源：GT赛车）
 
@@ -54,7 +54,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxS8OWTqzbRicA8fm4yjeY0zAVnD19k6n5aE3jiaImp3dwMMTwwX5RzfuMQ/640?wx_fmt=png)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_002_7cd4073a673f.png)
 
 图｜F1方程式赛车比赛（来源：GNEWS）
 
@@ -68,7 +68,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSt22Giah7eZt32licKPa46yxtCRdFdED35vjrJuIUfa0syZ4rl9U5qp9Q/640?wx_fmt=gif)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_003_f75b59b5bb30.gif)
 
   
 
@@ -82,7 +82,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSNum3hLwtanib858msWyvAjy23ibf1FagsCpFPvM0vsP2jmcCuynozEpA/640?wx_fmt=png)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_004_cd2ce1bac783.png)
 
 图｜游戏比赛数据对比（来源：Nature）
 
@@ -110,7 +110,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSCpHDAyfsMUsqzE2OscAtHprZiaUZFzcjbXNHFrribzeIRhhPl0mGHqeA/640?wx_fmt=png)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_005_c99757148066.png)
 
 图｜GT Sophy 的训练（来源：Nature）
 
@@ -124,7 +124,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSIWTay3h7ic7lw1rMWeIdwn6QTEA6aJbK7SkXc7ck7VCnuziagz9TR9HA/640?wx_fmt=png)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_006_e371efe4ede0.png)
 
 图｜AI 车手超越人类玩家（来源：Nature）
 
@@ -166,7 +166,7 @@ https://www.nature.com/articles/d41586-022-00304-2
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSNn8TU9YMIzCAanekyLueicAXrCd8YK1mpC9sLmaIrlY7Qnf53L7V2WA/640?wx_fmt=png)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_007_bcb7e1c8ca4b.png)
 
 Nautre第7896期封面
 
@@ -240,7 +240,7 @@ Sophy在训练环境中会因为不同的行为遭受相应奖励或者惩罚—
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxS9Ca1ERiaaDsYpibibibl02kWfoia5xI3OvOKI74nqUI3l8Nsz8r1Udzbibpw/640?wx_fmt=png)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_008_adaf0c1ba1d9.png)
 
 索尼AI部门为Sophy搭建的“训练场”
 
@@ -250,7 +250,7 @@ Sophy在训练环境中会因为不同的行为遭受相应奖励或者惩罚—
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSqk33615ibPubibwMBJblrrpicPjekyF9jbiapwqRY6GrW6rtw9jrpH6H6Q/640?wx_fmt=png)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_009_e6316e72a333.png)
 
   
 
@@ -258,7 +258,7 @@ Sophy在训练环境中会因为不同的行为遭受相应奖励或者惩罚—
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxS75mibDU1WKSoLXpIEMiaRhIb8NGOEfmYD2Oj2jFgCIJMYo2bWtwyHDVQ/640?wx_fmt=gif)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_010_5bba02c07f3e.gif)
 
   
 
@@ -266,7 +266,7 @@ Sophy在训练环境中会因为不同的行为遭受相应奖励或者惩罚—
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSibpXyicKaegxEblnib4LaicG30SQnvHf2poDkXKeFVISVFWZJqKI8ettbA/640?wx_fmt=png)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_011_e62a9e7653d7.png)
 
   
 
@@ -282,7 +282,7 @@ Sophy在训练环境中会因为不同的行为遭受相应奖励或者惩罚—
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSCWuzrWeg1SrzibrpBFg4jtHl0Ez97VGIpECao1icsRp17pvu0Y6LcxYA/640?wx_fmt=png)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_012_6f898a0ddc48.png)
 
   
 
@@ -360,49 +360,49 @@ https://mp.weixin.qq.com/s/HDcZPIeQE73kpkxZOd12ww
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSNrT0arUqfU582QhbKUYLBopfIJIKBMn9JSqKtFTU4m2viacW4JDR6LQ/640?wx_fmt=png)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_013_d47e67a8f66e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSfPJtzNyr5icNd9S3RHuUDapZGpH07to935I7mIKzaFCqXOTTric1BxiaA/640?wx_fmt=png)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_014_51d60c9bd294.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSE3p2RebFYpQnPwQVic9WPIpF0GEibaIn6UQWtlUx5hfibLwiasg5iad6NEA/640?wx_fmt=gif)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_015_de3cfbdc127c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSE3p2RebFYpQnPwQVic9WPIpF0GEibaIn6UQWtlUx5hfibLwiasg5iad6NEA/640?wx_fmt=gif)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_016_de3cfbdc127c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSic3Wrr65ib7nBQ1dcKRds934S3K5MSeVruGTYiaYKNewEAm5D0a0icM0bQ/640?wx_fmt=jpeg)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_017_0b308190a0bc.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSE3p2RebFYpQnPwQVic9WPIpF0GEibaIn6UQWtlUx5hfibLwiasg5iad6NEA/640?wx_fmt=gif)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_018_de3cfbdc127c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSE3p2RebFYpQnPwQVic9WPIpF0GEibaIn6UQWtlUx5hfibLwiasg5iad6NEA/640?wx_fmt=gif)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_019_de3cfbdc127c.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSE3p2RebFYpQnPwQVic9WPIpF0GEibaIn6UQWtlUx5hfibLwiasg5iad6NEA/640?wx_fmt=gif)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_020_de3cfbdc127c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSE3p2RebFYpQnPwQVic9WPIpF0GEibaIn6UQWtlUx5hfibLwiasg5iad6NEA/640?wx_fmt=gif)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_021_de3cfbdc127c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSiaeBnXO7K04daVBaZk0LPJNy9WXQMG9WWNRBzzZgC6RjBViaEPMzFNQw/640?wx_fmt=jpeg)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_022_e290f7fef6de.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSE3p2RebFYpQnPwQVic9WPIpF0GEibaIn6UQWtlUx5hfibLwiasg5iad6NEA/640?wx_fmt=gif)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_023_de3cfbdc127c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSE3p2RebFYpQnPwQVic9WPIpF0GEibaIn6UQWtlUx5hfibLwiasg5iad6NEA/640?wx_fmt=gif)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_024_de3cfbdc127c.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSE3p2RebFYpQnPwQVic9WPIpF0GEibaIn6UQWtlUx5hfibLwiasg5iad6NEA/640?wx_fmt=gif)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_025_de3cfbdc127c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSE3p2RebFYpQnPwQVic9WPIpF0GEibaIn6UQWtlUx5hfibLwiasg5iad6NEA/640?wx_fmt=gif)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_026_de3cfbdc127c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSibruY5icvzVq63viaWhbaBCG8V4dbTyyyb9MW59bAftXefNic3h8ebJhBQ/640?wx_fmt=jpeg)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_027_0744463bae1c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSE3p2RebFYpQnPwQVic9WPIpF0GEibaIn6UQWtlUx5hfibLwiasg5iad6NEA/640?wx_fmt=gif)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_028_de3cfbdc127c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47lk3GDXXXa8iaeJhYxQZTxSE3p2RebFYpQnPwQVic9WPIpF0GEibaIn6UQWtlUx5hfibLwiasg5iad6NEA/640?wx_fmt=gif)
+![](Nature封面_人类又输给了AI_赛车AI击败人类顶级车手__images/img_029_de3cfbdc127c.gif)
 
 **长按二维码｜关注我们**
 

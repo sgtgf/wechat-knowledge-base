@@ -1,0 +1,164 @@
+# 你说得对 !!! 不懂信号的回流路径，画不好高速PCB
+
+原创 王工 硬件笔记本 2024-12-19 11:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/KS7-Yy3Xc59XaJgAEsw4BQ](https://mp.weixin.qq.com/s/KS7-Yy3Xc59XaJgAEsw4BQ)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp "音符")
+
+  
+
+  
+
+大家好，我是王工。
+
+  
+
+最近在看JT大佬出的一本高速PCB设计书籍，看到回流路径这里，让我想到最近两个群里都提到关于这个知识点的问题。书籍很好，但是也会有一些疑问，带着这些疑问我也查找了相关资料，我想着尽可能的结合书中知识以及自己的理解，把这个问题能给大家讲明白，如果有不对的地方，欢迎大家评论区留言。
+
+**本文要从以下五个小点进行阐述：**
+
+-   **什么是信号的回流路径？**
+    
+-   **为什么要研究信号的回流路径？**
+    
+-   **高速信号的回流路径和低速信号的回流路径有什么不一样？**
+    
+-   **高速信号的回流路径在信号路径的下方，怎么理解？**
+    
+-   **了解回流路径之后，我们在PCB设计时需要注意什么？**
+    
+
+  
+
+## 问题1、什么是信号的回流路径？
+
+我们先看一张很基础的图，电流从电池的正极出发，流向负载RL，再通过负载的另一端返回电池的负极，整个过程形成一个闭环，电流只能在这个环路中流动，这是电源的回流路径。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaNk7Sld7BQOU1iaTSxBB2AUJC2PUyUgUu8n0jkst8VC1dhhgSOEufPBp806IgHibwqxdFnvcK0W80A/640?wx_fmt=png&from=appmsg)
+
+信号的回流路径也差不多，信号从某个芯片的驱动引脚流出，经过传输线输送到终端，被另一芯片或其它电路元件接收。然后在信号驱动电压的驱使下，电流通过连接收发两个芯片地引脚的地线，流回驱动电压源的负极。
+
+简单说，回流路径就是电流在源端流出，通过某个回路后，再返回来形成一个闭合回路，这个往返过程电流流过的路径就是整个信号的回流路径。
+
+  
+
+## 问题2、为什么要研究信号的回流路径？
+
+为什么要研究信号的回流路径？换句话说，我们可以不管信号的回流路径吗？如果我们不管信号的回流路径，会造成什么后果？
+
+1、信号完整性问题，信号的回流路径不连续会导致信号反射、衰减和失真。
+
+2、信号衰减和噪声干扰，当参考平面出现不连续时，信号的回路电流会受到干扰，从而引发噪声问题。
+
+3、电磁干扰EMI，不恰当的回流路径可能导致电磁干扰（EMI），影响系统的稳定运行。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaicggZpoibEEuYLQnOr54m06ZH6TjYups102QNB9UYenKRVpCodBqT6RRy7FAke5U6AYr0WYqia5xQ/640?wx_fmt=png&from=appmsg)
+
+  
+
+之所以会引起以上问题，是因为影响高速信号的最主要的因素是环路的寄生电感，电感量越大，环路阻抗越高，产生的感应电压也越高，就会形成强烈的噪声。这个环路就相当于一个环形线圈，会将干扰信号发射出去，同时也会接收外界的干扰，从而引起EMC问题。
+
+  
+
+## 问题3、高频信号的回流路径和低频信号的回流路径有什么不一样？
+
+对于低频信号来说，信号会沿着阻抗最低的路径返回，这句话毋庸置疑。但是高频信号这么说就不一定对，随着信号频率的提高，导线的感抗逐渐加大，所以返回路径为感抗最低的回路，且集中在信号走线的下方，沿着PCB走线方向流动，大家可以看看下面这张图。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgiaicggZpoibEEuYLQnOr54m0Dfsno2nGC8ibAlf251ibTs3KX0ppJorDwGtCcRc74595IXHn88rLQuvw/640?wx_fmt=png&from=appmsg)
+
+这张图来源群聊，好像是JT大佬视频来的
+
+讲到这里，王工有两个疑问：
+
+1、寄生电感怎么来的？这不仅是本文重点考虑的因素，其它很多地方也都会听到寄生电感这个词，就算工作多年的工程师，你问他为什么，他可能会回答根据以往的经验得来。
+
+2、为什么高速信号返回路径在信号走线的下方？
+
+我们先来看第一点，寄生电感怎么来的？先来百度什么是电感，从最基础的开始抓起
+
+[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzFlZFRiayicLl2uVl3eLyXFXC8w9uiarT34zvjibB7DE2ucuqsLAjibp6dsqw9gwaS41hfQgOOHosekg/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247553249&idx=1&sn=cb285ca0b6e3b92bff564b64a1fec60b&scene=21#wechat_redirect)
+
+从定义可以总结出两点：1、闭合回路；2、感应电流。也就是说只要在闭合回路中，导线上的电流发生变化，就会产生变化的磁场，而变化磁场又会产生反向电场来阻止电流变化，这种属性就是电感，所以我们的电路中都会存在寄生电感。关注公众号硬件笔记本  
+
+而我们的感抗XL=2πfL，可以看出频率越高，感抗越大，所以高频信号必须要把寄生电感考虑进去。
+
+为什么高速信号返回路径在信号走线的下方？请接着往下看
+
+  
+
+## 问题4、高速信号的回流路径在信号路径的下方，怎么理解？
+
+再回到JT大佬的书，最上面是高速信号的一个回流路径示意图，信号走顶层，然后通过底层地平面返回。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaNk7Sld7BQOU1iaTSxBB2AUDYIPOGh2Q4vTWJdxu5QhXWfsicnWOT8QM2iaMvluEbPibgQnqM2COZGAA/640?wx_fmt=png&from=appmsg)
+
+再通过一个公式和电流分布图，可得出：返回电流主要分布在走线中心的正下方，而且电流板层越薄，也就是信号跟地平面越靠近，电流分布就越集中。  
+
+这个公式看起来有点复杂，不太好理解，大家也不用纠结它怎么来的，记住这个结论就好。
+
+  
+
+## 问题5、了解回流路径之后，我们在PCB设计时需要注意什么？
+
+1、减小信号回流的环路面积。环路面积的大小与线圈辐射和接收电磁波的能力成正比。减小环路面积有利用降低EMC。
+
+  
+
+2、走线尽可能短，地平面尽可能完整，且让信号线与回流地平面路径尽可能地靠近。
+
+  
+
+3、在芯片的引脚就近放置高频小电容，为返回电流提供返回通路，否则返回电流将寻找最近的电源平面和地平面的耦合途径进行回流(使得回流途径难以预知和控制，从而对其它走线造成串扰)。
+
+  
+
+以上就是本文的全部内容，王工做了一个简单的介绍，实际应用可能会更复杂，考虑的更多。
+
+  
+
+**写在最后**
+
+  
+
+都说硬件工程师越老越吃香，这句话也证明硬件也是需要积累的，王工从事硬件多年，也会不定期分享技术好文，感兴趣的同学可以加微信，或后台回复“**加群**”，管理员拉你加入同行技术交流群。
+
+  
+
+  
+
+  
+
+  
+
+以下两个电路，是之前技术交流群群友发的，王工做了一个简单的分析，旨在帮助入门或转行的同学理解学习（点击图片直接进入）
+
+[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg2ebSUpbwoG05XbkMxdhUpWXxtPKnAs8qlAZF60KO0b0xYSecfo1Micpm7voSg1ibfIOpn12oo3kkQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](http://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247554185&idx=1&sn=9ae8eb5e426c407262b6de79072e31bf&chksm=c30aca5bf47d434dab17c5ac618a20f6f73d4ee70a2dd5202d3e0005828655059005bfb22e48&scene=21#wechat_redirect)
+
+[![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+
+  
+
+[![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjp9yy0z2QDvC7iaeHMB8Plb72fjzFv31icQfEKicFLricceMych76njNhNG0hjLDic7xB2vBr1mf0hTBA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=MzkwMzI4MTA4NA==&mid=2247498828&idx=1&sn=e91fc5514f5fb14ed26a6ba65a0dd795&scene=21#wechat_redirect)
+
+  
+
+投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+## 
+
+**声明：**
+
+  
+
+声明：原创文章，转载请注明出处。本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+**推荐阅读▼**
+
+-   [电路设计-电路分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2811359150088683521#wechat_redirect)  
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)

@@ -1,0 +1,174 @@
+# USB3.0板子跑出USB2.0的速度，我是这样一步一步排查的
+
+原创 王工 硬件笔记本 2025-06-20 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/qKy92eVUA3x7cM3rM8Vd1Q](https://mp.weixin.qq.com/s/qKy92eVUA3x7cM3rM8Vd1Q)
+
+![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic "音符")
+
+  
+
+大家好，我是王工。  
+
+今天想和大家分享一个最近工作中的小插曲——我们设计的USB3.0 HUB转接板实测速率只有USB2.0水平的排查过程。  
+
+  
+
+011
+
+背景
+
+最近一个客户有个新需求，我们需要设计一款USB3.0 HUB转接板。经过原理图设计、PCB布线和打样后，板子终于到手。当我兴冲冲地插上U盘进行测试时，测速软件显示的数据让我大跌眼镜：30Mb/s，这明明是USB2.0的速度！
+
+"这不可能啊！"我盯着屏幕百思不得其解。明明是按照USB3.0标准设计的，为什么跑不出应有的速度呢？于是，我开始了系统的排查工作。
+
+  
+
+021
+
+基础知识
+
+首先，我们需要明确USB3.0和USB2.0的关键区别。USB3.0在USB2.0的D+和D-两根数据线基础上，新增了两组差分线：SSRX-、SSRX+和SSTX-、SSTX+。正是这两组额外的"高速通道"，使得USB3.0的理论传输速率可以达到5Gbps，远超USB2.0的30Mb/s。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjoIRibr0FbGOV9bopRHL0mmf48A6s7U0ALQDOicGluqluq9aLMjroMWftTf6uIFXZrahHWZJXeQ2Jg/640?wx_fmt=png&from=appmsg)
+
+  
+
+然后咱们就开始进行测试，测试方法也很简单：
+
+存储器（一般是U盘）→ USB数据线 → 主机（也可以是笔记本电脑），然后可以通过测试软件读取USB数据传输过程中的读写速率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjoIRibr0FbGOV9bopRHL0mmLEPM0tiaDlKNIA4RGBvCCrP1cdkicKLeibrFjX6ibWVehgDbalu4lTdGFQ/640?wx_fmt=png&from=appmsg)
+
+在开始测试前，我已确认：
+
+1、测试主机具备USB3.0接口；
+
+2、使用的U盘是正品USB3.0设备。
+
+  
+
+031
+
+第一轮排查：芯片排查
+
+首先怀疑的是USB3.0控制芯片，这个芯片是QFN封装，可能存在虚焊的情况（这种现象比较常见），如果部分引脚未连接或者短路，就会引起电源工作异常，或者只能走"老路"（USB2.0模式），甚至数据不通。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaw0pRiagcPkJhG6QvrUtkvy2vxX0f5gW7gS81iaavPEyicQtccWmib2r2Fib6EibRUok5ZLn9n4nMwgUmw/640?wx_fmt=png&from=appmsg)
+
+我按照以下步骤进行了详细检查：
+
+1、供电测试：使用示波器测量各电压纹波噪声
+
+5V供电：正常  
+
+3.3V供电：正常
+
+1.8V供电：正常
+
+  
+
+2、信号检查：
+
+复位信号：时序正确
+
+时钟波形：晶振正常起震
+
+USB3.0对电源噪声非常敏感，任何微小的干扰都会影响其表现。然而，所有检查结果都显示芯片工作正常，这让我更加困惑了。
+
+  
+
+041
+
+第二轮排查：线材问题
+
+既然芯片没有问题，我开始怀疑连接线材，就像咱们开始说的：USB3.0和USB2.0的接口虽然外形相似，但内部结构大不相同。关注公众号：硬件笔记本
+
+-   USB2.0：仅使用D+和D-两根数据线
+    
+-   USB3.0：除了保留D+/D-外，新增SSRX和SSTX两对差分线
+    
+    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaw0pRiagcPkJhG6QvrUtkvyMelb3qSUFL9AialJVkibTOGplKm01W24afPARlnHpy12KPRxiaLfkgMtA/640?wx_fmt=png&from=appmsg)
+    
+
+我随手拿起一根看起来很粗壮的USB线进行测试，结果... ...中招了！其实也可以直接从接口看到引脚的差距。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaw0pRiagcPkJhG6QvrUtkvyjYDEuzYpo8efShoefSDVdXlNWCoMSGpP9mAmqrDlfKRyibGUEtJibIoQ/640?wx_fmt=png&from=appmsg)
+
+解剖后发现，这根线也确实是USB2.0的四根线芯，缺少USB3.0必需的高速差分对。这就好比给跑车加92号汽油，怎么可能跑出应有的性能？
+
+换上真正的USB3.0线缆后，重新测试——速率立即就提上来了！
+
+  
+
+051
+
+如果问题依旧，该怎么继续找问题？
+
+当然，在实际应用中，有时候问题可能不会这么简单。如果更换线材后速率仍然不达标，我们还需要考虑以下方面：
+
+1、PCB走线设计：
+
+-   差分线阻抗必须控制在90Ω±10%
+    
+
+-   走线长度匹配、过孔数量需要优化
+    
+-   参考平面要完整，避免跨分割
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjoIRibr0FbGOV9bopRHL0mmW41lMnpbNGWIS78dquKtu4hPiby8RNyus5WUwUZbxUib0b5iaZZlicPUYw/640?wx_fmt=png&from=appmsg)
+
+  
+
+2、信号完整性测试：
+
+-   使用示波器进行眼图测试
+    
+
+-   观察信号质量，确保"眼睛"睁开度足够
+    
+
+### ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjoIRibr0FbGOV9bopRHL0mm48f40NHWMLlx6uJwltYibYYuQpN8xWOkyfHOmrlwCI4fP7OwCZWdBGw/640?wx_fmt=png&from=appmsg)
+
+###   
+
+### 结语
+
+这次看似简单的"降速"问题，其实给我们上了很好的一课。在工程实践中，有时候最复杂的问题，原因可能出在最基础的环节。正是通过这样的"破案"过程，我们才能积累宝贵的经验，这也是工程师工作中最大的乐趣所在。
+
+  
+
+如果这篇文章对你有帮助，别忘了**点赞**、**收藏**，并**分享**给更多需要的人！
+
+**写在最后**
+
+都说硬件工程师越老越吃香，这句话也告诉我们硬件也是需要积累的，王工从事硬件多年，也会不定期分享技术好文，感兴趣的同学可以加微信，或后台回复“**加群**”，管理员拉你加入同行技术交流群。
+
+  
+
+  
+
+推荐阅读（点击图片直接进入）
+
+[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+
+[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+
+投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
+
+## 
+
+**声明：**
+
+  
+
+声明：原创文章，转载请注明出处。本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。  
+
+**推荐阅读▼**
+
+-   [电路设计-电路分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2811359150088683521#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)

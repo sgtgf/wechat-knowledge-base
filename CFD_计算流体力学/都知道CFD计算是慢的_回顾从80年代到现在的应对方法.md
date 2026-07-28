@@ -9,29 +9,29 @@
 
 CFD模拟结果要是出得太慢，会有什么后果？（大家多少身有体会，不在这里废话了。）现在CFD在商业上越来越吃香，项目/工程周期却越来越短（卷天卷地卷CFD），所以这事儿的风险也就越来越大了。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Ckta6WpYwOBTbnUsoax2TVUaSo4IFOSia818SmuxjyA2FNNbVrh7rPgKLB3RNfVeK210M9IEmAc4Pkl2DgweI6g/640?wx_fmt=jpeg&from=appmsg)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_000_76ee591bdb72.jpg)
 
 这里尝试回顾过去几十年CFD计算对速度的需求，并看看机器学习是如何在最近几年“及时”出现的。如有不对之处，请各位帮忙指出纠正。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/oDTTu8mAaceytwJ96cytVWic1nwkvJ6icdQUVXEGqeicgWhxsTngiczhBPT52p6lsbTbmHTdjLicgzCMUPrXgibXKw5g/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_001_872ff0d4a78e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DnlfkibawCntv6K6v63xgETZxW8jodELwpzN1Az1ic8sJDm2NkjuwvylsYhBv3fiaE8My6GcmnP7Ie6E31gKGjeXg/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_002_5a76c08e1bed.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/TL37nOJlJquykMFqCZgtOajUKzSUo1rNwHxhKBVKUjkKT14z0Na2Xl7svUFeTKFkMLTGP0icNoILjOnKuibgaVHQ/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_003_5242eff30a90.png)
 
 80年代和90年代
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cIiaa4krtfaaicuTbhN6AjQwQiaWRaFuUvMXeK07ia7xOfWiaUk1nPIpjoYmx7ZMiazHfNrq4DYFtAMgFECayGicdCguw/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_004_9a787d557b0c.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/R7Ot3lRU1k8ViauEVVqR7WobEWUW29MtBibMschmOOVO94FOOUUfffR3C1LPo3sOSJFOLlhiayzdVhXIqmX3sTa3g/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_005_0d6014c804df.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/fnFiaUDx0YFNm0iaUkrcIZ5OOCiba2iadMX3HibjfN5UzzE0ubLTiapN3GQSYyCgbY3uD9MAiaca0BsZIdKwQGLOJ3WDw/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_006_7c18aaed6397.png)
 
 在80年代初，CFD工程师需要**花费数周时间**调整他们的模型。在90年代初，CFD结果的**缓慢交付**，意味着CFD诊断和分析对于项目的推进讨论中来得太晚，无法提供帮助。为了应对这一挑战，CFD软件公司试图采用更直接的方法-将CAD与CFD耦合，试图克服由CFD网格构建所代表的显著瓶颈。另一个问题是求解器的计算缓慢，计算耗时。最后一个问题是计算结果的可视化展示。  
 
@@ -43,29 +43,29 @@ CFD模拟结果要是出得太慢，会有什么后果？（大家多少身有�
 
 **3）更真实的可视化使最终用户能够理解流体模拟和实体对象的“阴影”几何形状。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Ckta6WpYwOBTbnUsoax2TVUaSo4IFOSiaAMr9UNoxicQSSV70h9BkRJeMzUEWkibKDibX0ibD7aWBtR3PYUMxURVUAw/640?wx_fmt=png&from=appmsg)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_007_eb19f5b3cc27.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/oDTTu8mAaceytwJ96cytVWic1nwkvJ6icdQUVXEGqeicgWhxsTngiczhBPT52p6lsbTbmHTdjLicgzCMUPrXgibXKw5g/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_008_872ff0d4a78e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DnlfkibawCntv6K6v63xgETZxW8jodELwpzN1Az1ic8sJDm2NkjuwvylsYhBv3fiaE8My6GcmnP7Ie6E31gKGjeXg/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_009_5a76c08e1bed.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/TL37nOJlJquykMFqCZgtOajUKzSUo1rNwHxhKBVKUjkKT14z0Na2Xl7svUFeTKFkMLTGP0icNoILjOnKuibgaVHQ/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_010_5242eff30a90.png)
 
 00年代（200x年）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cIiaa4krtfaaicuTbhN6AjQwQiaWRaFuUvMXeK07ia7xOfWiaUk1nPIpjoYmx7ZMiazHfNrq4DYFtAMgFECayGicdCguw/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_011_9a787d557b0c.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/R7Ot3lRU1k8ViauEVVqR7WobEWUW29MtBibMschmOOVO94FOOUUfffR3C1LPo3sOSJFOLlhiayzdVhXIqmX3sTa3g/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_012_0d6014c804df.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/fnFiaUDx0YFNm0iaUkrcIZ5OOCiba2iadMX3HibjfN5UzzE0ubLTiapN3GQSYyCgbY3uD9MAiaca0BsZIdKwQGLOJ3WDw/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_013_7c18aaed6397.png)
 
 在00年代初，流体工程问题的**日益复杂和对更快周转时间的需求**导致了CFD行业的转变。这个年代里，期望CFD工程师在几天甚至几小时内交付结果，而不是几周，这意味着他们需要开发新策略来加速纳维-斯托克斯方程和其他相关偏微分方程的解决方案。  
 
@@ -73,31 +73,31 @@ CFD模拟结果要是出得太慢，会有什么后果？（大家多少身有�
 
 **这个时代见证了商业CFD软件的明确巩固，这些软件变得越来越复杂和用户友好，使工程师更容易使用。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Ckta6WpYwOBTbnUsoax2TVUaSo4IFOSiamNibU4KTmibLpxlugGaXQAfCe0h1NtmtNbtMzzLTChiarvLwSGZlVOmlQ/640?wx_fmt=png&from=appmsg)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_014_116a2e1ffbec.png)
 
 图：示意图，公司内部HPC资源或云计算
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/oDTTu8mAaceytwJ96cytVWic1nwkvJ6icdQUVXEGqeicgWhxsTngiczhBPT52p6lsbTbmHTdjLicgzCMUPrXgibXKw5g/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_015_872ff0d4a78e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DnlfkibawCntv6K6v63xgETZxW8jodELwpzN1Az1ic8sJDm2NkjuwvylsYhBv3fiaE8My6GcmnP7Ie6E31gKGjeXg/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_016_5a76c08e1bed.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/TL37nOJlJquykMFqCZgtOajUKzSUo1rNwHxhKBVKUjkKT14z0Na2Xl7svUFeTKFkMLTGP0icNoILjOnKuibgaVHQ/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_017_5242eff30a90.png)
 
 10年代 （201x年）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cIiaa4krtfaaicuTbhN6AjQwQiaWRaFuUvMXeK07ia7xOfWiaUk1nPIpjoYmx7ZMiazHfNrq4DYFtAMgFECayGicdCguw/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_018_9a787d557b0c.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/R7Ot3lRU1k8ViauEVVqR7WobEWUW29MtBibMschmOOVO94FOOUUfffR3C1LPo3sOSJFOLlhiayzdVhXIqmX3sTa3g/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_019_0d6014c804df.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/fnFiaUDx0YFNm0iaUkrcIZ5OOCiba2iadMX3HibjfN5UzzE0ubLTiapN3GQSYyCgbY3uD9MAiaca0BsZIdKwQGLOJ3WDw/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_020_7c18aaed6397.png)
 
 在10年代初，CFD工程师面临与对模拟**准确性和可靠性需求**增加相关的新挑战。随着工程问题的日益复杂，对高保真度模拟的需求增加，这意味着模拟必须以更高的分辨率和更多的细节运行。这对CFD工程师来说是一个重大挑战，因为更高分辨率的模拟需要更多的计算能力和更长的模拟时间。
 
@@ -107,45 +107,45 @@ CFD模拟结果要是出得太慢，会有什么后果？（大家多少身有�
 
 1）**多面体网格**：这个年代，出现了**多面体网格，CFD的终极有限体积形状！**多面体网格化是一种技术，涉及使用多面体元素填充计算域的大部分。例如，STAR-CCM+ / Fluent等成熟商用CFD软件中的多面体网格化算法，使用各种技术生成高质量的网格，这些网格被证明可以显著降低CFD模拟的计算成本，同时保持高水平的准确性并控制内存占用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Ckta6WpYwOBTbnUsoax2TVUaSo4IFOSiaowujpcD6ZGWM1tlicyu1agLL9AO9J9zD4qX3lZFE5pO1J8SHvcr9tSQ/640?wx_fmt=png&from=appmsg)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_021_a6f216b10c41.png)
 
 2）**修剪单元网格**：修剪单元网格化是一种技术，用于为复杂几何形状生成高质量网格，如汽车零部件或飞机部件。该技术涉及在几何的外部表面上生成高质量网格，然后修剪（切割）几何内部的单元以匹配边界条件。该技术已被证明可以减少网格化时间并提高模拟精度，特别是对于具有具有挑战性的内部特征的复杂几何形状。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/lcvJUXvTHKxwkpjPRqQ16yib4YlI5XplpBuub7qiaPd2jLATHEsCSyeENF6YCle23CXR1yicL45XFLiad0Wiamw8Y6A/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_022_754552d094d0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Pvp8YeMs0fdeexVSWRtlaNHm3ibxPgvASzEWMsHFwRntUrH4hYpB3lX52HIEzCPJCUInjYsiaI7jGGANvC2KI8fw/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_023_4976558af0fc.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Ckta6WpYwOBTbnUsoax2TVUaSo4IFOSia8QfgDibmCv3EHzO9jWib8ktupzWJ62qG8vQK4Z93pHVqSCyFRsej3T9g/640?wx_fmt=png&from=appmsg)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_024_3e282d083b12.png)
 
 **修剪单元网格：**示例，如上图，一个2X2X2的六面体组块（左）“遇到”CAD表面；在右边，六面体正在被交叉并生成一个新的由新的绿色边界定的多面体形状。请注意，在这种情况下，剩余的单元没有改变，即网格主要是六面体的，并且这个过程被优化以允许表示边界层的一层棱柱形单元。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/CPWDNgSVM97LAQRic9VW8ezvBKTOSVgTnZxzsg8ZcvE7MGV3adnc6CnFEpTbuTJUBrQnzaxyJ85feiaDfaISuOXw/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_025_79066f4ae2a5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/VDiaodfib8AH1Kob0VY37JTITUQAyVhL52ibak9CHxnmgib0uye8lW4P9IlEhKEd4YcgicRLXOBnL5x2ibT60YrmdbHA/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_026_5ddfe23c41ca.png)
 
 多面体和修剪单元网格化都有助于CFD的演变和加速，使工程师能够模拟日益复杂的几何形状并降低模拟成本。然而，必须提到“网格化时间”和“网格化内存”（RAM）是显著的。像并行网格化这样的进步，即在多个计算节点上分发它，正在使其更快，但远非实时。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/oDTTu8mAaceytwJ96cytVWic1nwkvJ6icdQUVXEGqeicgWhxsTngiczhBPT52p6lsbTbmHTdjLicgzCMUPrXgibXKw5g/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_027_872ff0d4a78e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DnlfkibawCntv6K6v63xgETZxW8jodELwpzN1Az1ic8sJDm2NkjuwvylsYhBv3fiaE8My6GcmnP7Ie6E31gKGjeXg/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_028_5a76c08e1bed.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/TL37nOJlJquykMFqCZgtOajUKzSUo1rNwHxhKBVKUjkKT14z0Na2Xl7svUFeTKFkMLTGP0icNoILjOnKuibgaVHQ/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_029_5242eff30a90.png)
 
 20年代 （202x年，现在）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/cIiaa4krtfaaicuTbhN6AjQwQiaWRaFuUvMXeK07ia7xOfWiaUk1nPIpjoYmx7ZMiazHfNrq4DYFtAMgFECayGicdCguw/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_030_9a787d557b0c.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/R7Ot3lRU1k8ViauEVVqR7WobEWUW29MtBibMschmOOVO94FOOUUfffR3C1LPo3sOSJFOLlhiayzdVhXIqmX3sTa3g/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_031_0d6014c804df.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/fnFiaUDx0YFNm0iaUkrcIZ5OOCiba2iadMX3HibjfN5UzzE0ubLTiapN3GQSYyCgbY3uD9MAiaca0BsZIdKwQGLOJ3WDw/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_032_7c18aaed6397.png)
 
 时间来到了现在的202x年，在过去几年里面，对**实时CFD模拟的需求**显著增加。这对需要优化计算资源的工程师来说是一个挑战。  
 
@@ -159,13 +159,13 @@ CFD模拟结果要是出得太慢，会有什么后果？（大家多少身有�
 
 这种新方法在模拟复杂的工程问题中显示出惊人的结果，为CFD中的实时模拟提供了更多机会。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Ckta6WpYwOBTbnUsoax2TVUaSo4IFOSiagrt1ZxJWibBXsEJmG3Y0uiaXmhobHRNGx3g9wXjG7S6EwuHIU7PdBMHw/640?wx_fmt=png&from=appmsg)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_033_687082df6892.png)
 
   
 
 ss
 
-![](https://mmbiz.qpic.cn/mmbiz_png/wjv6KiajteIMOoYnI1cBlp6fA1qb9er76qBd3mcB4OiaAaHfBkLAqDqEA3HnTLW2SwVeGDzRe5SiakjfORALgAlJg/640?wx_fmt=png)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_034_d317a3ae53b2.png)
 
  小结一下    
 
@@ -214,8 +214,8 @@ ss
 
   
 
-如果写的还可以，请点亮右下角点赞和在看![](https://mmbiz.qpic.cn/sz_mmbiz_png/Ckta6WpYwOBTbnUsoax2TVUaSo4IFOSia7XgVerTmxKJlRb7cnyl97ibG46hbQxPrYnBiaTiaZegj3ibfDY9cx9rrhQ/640?wx_fmt=png&from=appmsg)图标，对小编的小小鼓励噢
+如果写的还可以，请点亮右下角点赞和在看![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_035_ab6d63936aad.png)图标，对小编的小小鼓励噢
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/MGtJN4gibiaekOQzY66t4AjFibH3rnNfZ3RZN164W1ibUj2OpcMssEBu9wdqCPZgRs0sI2NI4sPdNfZXoVOr7BpcdQ/640?tp=webp&wxfrom=5&wx_lazy=1&wx_fmt=gif)
+![](都知道CFD计算是慢的_回顾从80年代到现在的应对方法_images/img_036_ee7c528929c4.gif)
 
 诚邀您 关注本公众号

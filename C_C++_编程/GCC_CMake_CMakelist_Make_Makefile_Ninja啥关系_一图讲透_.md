@@ -15,7 +15,7 @@
 
 **三、新的麻烦又出现了！（Cmake & CMakelist）**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/q9QQ6Djib2Qsk9EcrIX4ec0EP1ia6sAYZGfsWGUpDq9qQrYJR56I08hGiaMec3iaV4jGQKt9bbWlGCVwydQvbcnSKA/640?wx_fmt=png)
+![](GCC_CMake_CMakelist_Make_Makefile_Ninja啥关系_一图讲透__images/img_000_44ea8627f655.png)
 
     makefile在一些简单的工程下，完全可以人工手写，但是当工程非常大的时候，手写makefile也是非常麻烦。而且陆陆续续出现了各种不同平台的makefile，有GNU make、QT 的 qmake，微软的 MSnmake，BSD Make（pmake），Makepp等等。这些 Make 工具遵循着不同的规范和标准，所执行的 Makefile 格式也千差万别。这样就带来了一个严峻的问题：如果软件想跨平台，必须要保证能够在不同平台编译。而如果使用上面的 Make 工具，就得为每一种标准写一次 Makefile ，这将是一件让人抓狂的工作，如果换了个平台makefile又要重新修改。
 
@@ -31,7 +31,7 @@
 
     Cmake可以生成 .ninja 和.makefile 的工具。因为担心很多人不熟悉makefile文件和ninja文件的写法，所以cmake只需要用户通过对源码文件的简单描述（就是CMakeLists.txt文件），就能自动生成一个project的makefile文件或者ninja文件，然后就可以通过ninja或者make进行启动编译了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/q9QQ6Djib2Qsk9EcrIX4ec0EP1ia6sAYZGNuAFJhSRKx85hdLaCMN3YaP9zHQMP59rqUQM2yBDabjzKAzkjG10Vg/640?wx_fmt=png)
+![](GCC_CMake_CMakelist_Make_Makefile_Ninja啥关系_一图讲透__images/img_001_0ccc43b61a87.png)
 
 **人类就是在解决一个又一个麻烦中进步的！**
 

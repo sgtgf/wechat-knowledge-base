@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/8Bz3sC0gmZcJUs3v\_PHzyA](https://mp.weixin.qq.com/s/8Bz3sC0gmZcJUs3v_PHzyA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVwaKXjCAYoWyqbZsK7d6NibsFY7wEXmIhwlicDPgv0qrdhVibIe7OuxEzZniblcyUYohw0DJTeTZdNEQ/640?wx_fmt=jpeg&from=appmsg)
+![](Fortran与OpenMP_释放多核处理器的潜能_images/img_000_efc229d36bd7.jpg)
 
   
 
@@ -106,7 +106,7 @@ OpenMP与Fortran的结合为科学计算和工程模拟提供了强大的并行�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](Fortran与OpenMP_释放多核处理器的潜能_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

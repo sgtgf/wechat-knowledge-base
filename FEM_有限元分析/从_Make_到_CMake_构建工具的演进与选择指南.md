@@ -3,15 +3,15 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/X3KrtO8jpCEyKKUyAAZ7AA](https://mp.weixin.qq.com/s/X3KrtO8jpCEyKKUyAAZ7AA)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVXkszTAU2XWHdU0FE9cibs9dt9GsJA7gZkOA8jojfUlONf2TTgU5VctDMoxjpdxwvicBCg02E4qIu6Q/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](从_Make_到_CMake_构建工具的演进与选择指南_images/img_000_72c346886810.gif)
 
-![make/Makefile/cmake/qmake/nmake/区别与介绍_qmake和cmake区别-CSDN博客](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVP7yIb3yNviaDicfkBibEAIMN4iaIjZJ7V1iaJYsCK2lvVcWspYtX8ZCiaUP8nYPSkiaGvBuIRrMqPQT5cA/640?wx_fmt=jpeg)
+![make/Makefile/cmake/qmake/nmake/区别与介绍_qmake和cmake区别-CSDN博客](从_Make_到_CMake_构建工具的演进与选择指南_images/img_001_5c3624a8b95b.jpg)
 
 在软件开发的世界里，我们常常听到“编译”、“链接”、“构建”这些术语。对于初学者而言，可能以为写完代码后直接点击“运行”就万事大吉了。但事实上，在大型项目中，成百上千个源文件、复杂的依赖关系、跨平台兼容性等问题，使得手动编译几乎不可能完成。于是，**构建工具**应运而生——它们就像厨房里的厨师长，协调各种食材（源代码）、火候（编译选项）和步骤（依赖顺序），最终端出一道可执行程序的大餐。
 
 本文将带你走进构建工具的世界，重点介绍 **Make / Makefile、CMake 和 NMake** 这几类主流工具，解释它们的原理、适用场景以及彼此之间的关系，帮助你理解为何现代 C/C++、Fortran 项目离不开它们。
 
-![编译工具make与Makefile – 标点符](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVP7yIb3yNviaDicfkBibEAIMNq5wp1lCR7WoKwibJxibyPSCjqZiaK3kfDI3CueicYqnWJcTZm4gNCHWjyA/640?wx_fmt=jpeg)
+![编译工具make与Makefile – 标点符](从_Make_到_CMake_构建工具的演进与选择指南_images/img_002_d6bcddb37638.jpg)
 
 ## 一、Make 与 Makefile：自动化构建的起点
 
@@ -64,7 +64,7 @@
 
 `NMake`（全称 Microsoft Program Maintenance Utility）是微软为 Visual Studio 工具链提供的构建工具，功能上对标 Unix 的 `make`，但运行环境为 Windows，并使用 Microsoft C/C++ 编译器（cl.exe）。
 
-![上机实践](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVP7yIb3yNviaDicfkBibEAIMN2goiaSrCZuSvgjSibibLW5q25ia3QaU8BiayFL5Xiapss2zvoJ0qTrf6cm4Q/640?wx_fmt=jpeg)
+![上机实践](从_Make_到_CMake_构建工具的演进与选择指南_images/img_003_188a9b9b600d.jpg)
 
 ### 2.2 NMake 与 Makefile 的差异
 
@@ -96,7 +96,7 @@ NMake 主要用于：
 
 虽然 NMake 解决了 Windows 下“没有 make”的问题，但它并未解决 **跨平台一致性** 的根本痛点。一个为 NMake 编写的 Makefile 几乎无法在 Linux 上运行，反之亦然。开发者不得不为不同平台维护两套甚至多套构建脚本，效率低下且容易出错。
 
-![CMAKE命令详解-CSDN博客](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVP7yIb3yNviaDicfkBibEAIMN62el697R5oSFcATnm79cbibBNCyXpIsclof5TGz7vmibl5ianW09PO6Og/640?wx_fmt=jpeg)
+![CMAKE命令详解-CSDN博客](从_Make_到_CMake_构建工具的演进与选择指南_images/img_004_004275548224.jpg)
 
 ## 三、CMake：跨平台构建的“元工具”
 
@@ -119,7 +119,7 @@ CMake 本身**不是构建工具**，而是一个 **构建系统生成器（Bui
 
 这样，开发者只需维护一份 `CMakeLists.txt`，即可在任意支持 CMake 的平台上构建项目。
 
-![CMake基础 - 可可西 - 博客园](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVP7yIb3yNviaDicfkBibEAIMNicu7DibHDbfFJ1NkaB7nNib3zAicr8sA14LeDRia3gUcia5GUZO5C5icdHNDQ/640?wx_fmt=png&from=appmsg)
+![CMake基础 - 可可西 - 博客园](从_Make_到_CMake_构建工具的演进与选择指南_images/img_005_b5f631da1850.png)
 
 ### 3.2 CMake 的工作流程
 
@@ -132,7 +132,7 @@ CMake 本身**不是构建工具**，而是一个 **构建系统生成器（Bui
 4.  调用本地构建工具（如 `make` 或 `msbuild`）完成实际编译。
     
 
-![cmake、make新手教程|linux_cmake make命令-CSDN博客](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVP7yIb3yNviaDicfkBibEAIMNnG1nk0hXxfCwA4TvgGDhY1BRHC9XSgsiaibfqnmUiaBMJ1iaoSMuZkWtdw/640?wx_fmt=jpeg)
+![cmake、make新手教程|linux_cmake make命令-CSDN博客](从_Make_到_CMake_构建工具的演进与选择指南_images/img_006_ff6efc6ef9ba.jpg)
 
 ### 3.3 CMakeLists.txt 示例
 
@@ -249,12 +249,12 @@ CMake
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.2312854885901674)
+![](从_Make_到_CMake_构建工具的演进与选择指南_images/img_007_d8aae6d6bc0e.png)
 
-**闲鱼小店已上新，欢迎新老粉丝关注和咨询![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/assets/Expression/Expression_64@2x.png)**
+**闲鱼小店已上新，欢迎新老粉丝关注和咨询![](从_Make_到_CMake_构建工具的演进与选择指南_images/img_008_7947c6a54e9b.png)**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVUE19b2lsz1ERESbpqbVoYLlDiarL8cCJent2rfMvsuPiboLTs8JH2qicuBaKrsXxyLzLkfibK0PavQtQ/640?wx_fmt=jpeg&from=appmsg)
+![](从_Make_到_CMake_构建工具的演进与选择指南_images/img_009_f365e7e2bae5.jpg)
 
-**喜欢****作者******，请点********赞********和在看******![](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6459285066781566&random=0.9039664113437702&random=0.10616299980642463&random=0.37943585876598473&random=0.7246305284075434&random=0.1820491079508062&random=0.3136645327514245&random=0.8290227030922905&tp=webp)**
+**喜欢****作者******，请点********赞********和在看******![](从_Make_到_CMake_构建工具的演进与选择指南_images/img_010_2ab55b5e37e9.gif)**
 
-**![](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.90499299240585&random=0.7427014598159356&random=0.6203706698189717&random=0.17266143983420013&random=0.4502076552242009&random=0.3348111146987862&random=0.5857982594073723&random=0.5924137199896844&tp=webp)**
+**![](从_Make_到_CMake_构建工具的演进与选择指南_images/img_011_0dc7b9b79564.gif)**

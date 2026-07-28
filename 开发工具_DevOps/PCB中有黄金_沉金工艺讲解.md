@@ -1,0 +1,88 @@
+# PCB中有黄金，沉金工艺讲解
+
+原创 硬件笔记本 2022-08-08 07:30 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/qptahBsublmrPKLFNB108A](https://mp.weixin.qq.com/s/qptahBsublmrPKLFNB108A)
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+  
+
+ 一  什么是沉金呢？
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/NMBmZoISq1JkrTBIxibiaDQoMRKWkg8Zk5uQibjOTugktAt0vCeco1qvJBhK5FVbuxMqDHm5owXSqiaYv0tCWyzMVw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+简单的来说，沉金就是采用化学沉积的方法，通过化学氧化还原反应在线路板表面产生一层金属镀层。
+
+  
+
+ 二 为什么要沉金呢？
+
+电路板上的铜主要是紫铜，铜焊点在空气中容易被氧化，这样会造成导电性也就是吃锡不良或者接触不良，降低了电路板的性能。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/NMBmZoISq1INgG83SmibfjictYsQ9icO6uFg5AAFr0b8RGjmZrGwL6qAhetEjpnlUABt4Uam0lhZLd42fW2UEd71g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+那么就需要对铜焊点进行表面处理，沉金就是在上面镀金，金可以有效的阻隔铜金属和空气防止氧化掉，所以沉金是表面防氧化的一种处理方式，是通过化学反应在铜的表面覆盖上一层金，又叫做化金。
+
+  
+
+ 三 沉金这种表面处理有什么好处呢？
+
+沉金工艺的好处是在印制线路时表面上沉积颜色很稳定，光亮度很好，镀层很平整，可焊性非常好。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/NMBmZoISq1INgG83SmibfjictYsQ9icO6uFZmvqJM9PtAiaPulAXQRJEn876NE6OF9evTs4cI1bQVuVp5DIsXVyIUQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+沉金一般金的厚度为1-3Uinch，所以沉金这种表面处理方式做出来的金厚一般较厚。
+
+沉金这种表面处理方式目前普遍应用于按键板、金手指板等线路板，因为金的导电性强，抗氧化性好，使用寿命长。  
+
+  
+
+ 四 采用沉金板的的线路板有哪些好处？
+
+-   沉金板颜色鲜艳，色泽好，卖相好看。  
+    
+-   沉金所形成的晶体结构比其他表面处理更易焊接，能拥有较好的性能，保证品质。
+    
+-   因沉金板只在焊盘上有镍金，不会对信号有影响，因为趋肤效应中信号的传输是在铜层。
+    
+-   金的金属属性比较稳定，晶体结构更致密，不易发生氧化反应。
+    
+-   因沉金板只有焊盘上有镍金，所以线路上的阻焊与铜层的结合更牢固，也不容易造成微短路。  
+    
+-   工程在作补偿时不会对间距产生影响。
+    
+-   沉金板的应力更易控制。
+    
+
+ 五 沉金和金手指
+
+金手指我们说的直白些，就是黄铜触点，也可以说是导体。  
+
+详细说就是因为金的抗氧化性极强，而且传导性也很强，所以在内存条上与内存插槽相连接的部件镀上金，那么所有信号都通过金手指来传送的。  
+
+因为金手指由众多的黄色导电触片组成，其表面镀金而且导电触片排列像手指状，因而得名。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/NMBmZoISq1INgG83SmibfjictYsQ9icO6uFg58eCf2DUw9l86nnwRkWaNuFUXichuheODFUahG7PXpuOXrSLwzX8aA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+通俗讲金手指是内存条上与内存插槽之间的连接部件，所有的信号都是通过金手指进行传送的。
+
+金手指由众多金黄色的导电触片组成，金手指实际上是在覆铜板上通过特殊工艺再覆上一层金。
+
+所以，简单区分就是沉金是线路板的一种表面处理工艺，而金手指是线路板上拥有信号连接和导通的部件。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/NMBmZoISq1INgG83SmibfjictYsQ9icO6uFTWaXQkV7BQDjWfhgD0icPKB7Eo1LTorhBVSCo0Ip1zM2IkzT6T2ASKA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+在实际的市场中，金手指未必真正表面为金。因为金昂贵的价格，目前较多的内存都采用镀锡来代替。
+
+从上个世纪90年代，锡材料就开始普及，目前主板、内存和显卡等设备的“金手指”几乎都是采用的锡材料，只有部分高性能服务器/工作站的配件接触点才会继续采用镀金的做法，价格自然不菲的。
+
+文章转自网络，侵删！
+
+  
+
+后台回复“**加群**”，管理员拉你入技术交流群。

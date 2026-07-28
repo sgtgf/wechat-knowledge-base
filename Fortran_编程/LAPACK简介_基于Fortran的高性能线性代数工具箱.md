@@ -3,15 +3,15 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/iAxHrRFmVtcpX8otZytHvw](https://mp.weixin.qq.com/s/iAxHrRFmVtcpX8otZytHvw)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/kicB09lvgibnnRjv0AAqQxyBODIttZXnQqcTPoF4Pt8tJmnia4CHaYUS3zqicFfKZTWibXTAew2ibFHDjy5Pf8nDnVEQ/640?)
+![](LAPACK简介_基于Fortran的高性能线性代数工具箱_images/img_000_504b9a0acd89.png)
 
 点击上方「蓝字」关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kLQoJJzjYaicxneNzbOg7ynx3TfnIwmNTpJQ7orkaUNrJIV4u7PNdSJ25Mtn6XdRQTamLDDicHnYfdic2bsiaNQjCw/640?)
+![](LAPACK简介_基于Fortran的高性能线性代数工具箱_images/img_001_92b2749bca28.png)
 
 在科学计算领域，线性代数作为数学的一个基本分支，其应用广泛且深远。从物理模拟到数据分析，从工程计算到经济建模，线性方程组的求解、特征值问题、奇异值分解等操作都是不可或缺的。为了高效地处理这些计算密集型任务，科学家和工程师们依赖于高度优化的数学库。在众多库中，LAPACK（Linear Algebra PACKage）以其卓越的性能和广泛的适用性，成为了Fortran程序员解决线性代数问题的首选工具。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVUQhwhlZeRGwSiaFxmacU2siaTy6E1tNyg8KXrP94HbCeia6ObCGH2mZPYNInEcfKkekVjfWec1PHX3Q/640?wx_fmt=jpeg)
+![](LAPACK简介_基于Fortran的高性能线性代数工具箱_images/img_002_95a1aab02413.jpg)
 
 ## LAPACK概览
 
@@ -189,7 +189,7 @@ LAPACK作为科学计算领域的基石之一，凭借其丰富的功能、高�
     https://www.intel.com/content/www/us/en/docs/onemkl/code-samples-lapack/2024-1/overview.html
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.5525099211882534&random=0.0028621190268518504)
+![](LAPACK简介_基于Fortran的高性能线性代数工具箱_images/img_003_1b315acc1324.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/zWwVPf-dOxx-SQWoQVJviA](https://mp.weixin.qq.com/s/zWwVPf-dOxx-SQWoQVJviA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXrtdRn25GzZbPhaBCgArQ5bHkaUQXtdydKUrnE9nWoYV7D3EbCL8ItybVVXwCDZUClUCE17mcZjA/640?wx_fmt=png&from=appmsg)
+![](现代Fortran探索之旅___发展历程_images/img_000_055c7f771c99.png)
 
 现代Fortran语言的发展历程始于Fortran 90的发布，这一版本标志着Fortran语言从传统的数值计算工具向现代高级编程语言的转变。自那时起，Fortran经历了一系列的更新和改进，每个新版本都在前一个版本的基础上增加了新的特性和功能，以适应不断变化的计算需求和技术进步。下面，我们将详细回顾从Fortran 90到Fortran 2023的每个版本的重要更新。
 
@@ -98,7 +98,7 @@ Fortran 2023是最新的Fortran标准，它在保持Fortran语言传统优势的
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](现代Fortran探索之旅___发展历程_images/img_001_d981f1eb49d0.png)
 
   
 

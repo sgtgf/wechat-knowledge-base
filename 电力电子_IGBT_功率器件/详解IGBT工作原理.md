@@ -1,0 +1,348 @@
+# 详解IGBT工作原理
+
+原创 硬件笔记本 2023-11-17 07:45 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/fHq00gxzPX3xerA2-RX8jw](https://mp.weixin.qq.com/s/fHq00gxzPX3xerA2-RX8jw)
+
+# ![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+今天给大家分享的是：**IGBT（绝缘栅双极型晶体管)**
+
+在实际应用中最流行和最常见的电子元器件是双极结型晶体管 BJT 和 MOS管。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmPULG2Sq8akyvdsDPCI0SF37PuR1ia7djq00VScDnn3FwcNWTd43ibfaA/640?wx_fmt=png&wxfrom=13&wx_lazy=1&wx_co=1)
+
+IGBT实物图+电路符号图
+
+_你可以**把 IGBT 看作 BJT 和 MOS 管的融合体，IGBT具有 BJT 的输入特性和 MOS 管的输出特性**。_
+
+与 BJT 或 MOS管相比，绝缘栅双极型晶体管 IGBT 的优势在于它提供了比标准双极型晶体管更大的功率增益，以及更高的工作电压和更低的 MOS 管输入损耗。
+
+  
+
+# **一、什么是IGBT？**
+
+#   
+
+# **IGBT** 是**绝缘栅双极晶体管**的简称，是一种三端半导体开关器件，可用于多种电子设备中的高效快速开关。
+
+#   
+
+# _IGBT 主要用于**放大器**，用于通过脉冲宽度调制 (PWM) 切换/处理复杂的波形。_
+
+#   
+
+# _你可以看到**输入侧代表具有栅极端子的 MOS管**，**输出侧代表具有集电极和发射极的 BJT。**_
+
+#   
+
+# 集电极和发射极是导通端子，栅极是控制开关操作的控制端子。
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmyr2In5BwYc2juWFwJzYhjTbYIA572HVt0IY9D2Ra1I3oSyjyr5kuEQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT的电路符号与等效电路图
+
+  
+
+# **二、IGBT内部结构**
+
+#   
+
+# IGBT 有三个端子（**集电极**、**发射极**和栅极）都附有金属层。然而，栅极端子上的金属材料具有二氧化硅层。
+
+#   
+
+# _IGBT结构是一个四层半导体器件。四层器件是通过组合 PNP 和 NPN 晶体管来实现的，它们构成了 PNPN 排列。_
+
+  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmxSOXy5riaHicZ2laGR4aCVslOeRakJtapfF6YxBLeMicNSibyxiascRQjOA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT的内部结构图
+
+  
+
+如上图所示，最靠近集电极区的层是 (p+) 衬底，即**注入区**；在它上面是 N **漂移区域**，包括 N 层。注入区将大部分载流子（空穴电流）从 (p+) 注入 N- 层。
+
+**漂移区**的厚度决定了 **IGBT 的电压阻断能力。**
+
+漂移区域的上面是**主体区域**，它由 (p) 基板组成，靠近发射极，在主体区域内部，有 (n+) 层。
+
+注入区域和 N 漂移区域之间的连接点是 J2。类似地，N-区域 和 主体区域之间的结点是结点 J1。
+
+**注意：**IGBT 的结构在拓扑上类似于“MOS”栅极的晶闸管。但是，晶闸管动作和功能是可抑制的，这意味着在 **IGBT 的整个器件工作范围内只允许晶体管动作。**
+
+IGBT 比晶闸管更可取，因为晶闸管等待过零的快速切换。
+
+  
+
+# **三、IGBT工作原理**
+
+#   
+
+# **IGBT 的工作原理是通过激活或停用其栅极端子来开启或关闭。**
+
+如果正输入电压通过栅极，发射极保持驱动电路开启。另一方面，如果 IGBT 的栅极端电压为零或略为负，则会关闭电路应用。
+
+  
+
+_由于 **IGBT 既可用作 BJT 又可用作 MOS管**，因此它实现的放大量是其输出信号和控制输入信号之间的比率。_
+
+对于传统的 BJT，增益量与输出电流与输入电流的比率大致相同，我们将其称为 Beta 并表示为 β。
+
+另一方面，对于 MOS管，没有输入电流，因为栅极端子是主通道承载电流的隔离。我们**通过将输出电流变化除以输入电压变化来确定 IGBT 的增益。**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmaRPuw2O2dMsjFIkAvxbBaMrhictCwSSHDMs77ibX2AmV3rhQRsTicBKhg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT 结构图
+
+  
+
+如下图所示，_**当集电极相对于发射极处于正电位时，N 沟道 IGBT 导通，而栅极相对于发射极也处于足够的正电位 (>V GET )。这种情况导致在栅极正下方形成反型层，从而形成沟道，并且电流开始从集电极流向发射极。**_
+
+IGBT 中的集电极电流 **Ic** 由两个分量 **Ie**和 **Ih** 组成。**Ie** 是由于注入的电子通过注入层、漂移层和最终形成的沟道从集电极流向发射极的电流。**Ih** 是通过 **Q1** 和体电阻 **Rb**从集电极流向发射极的空穴电流。因此
+
+    尽管 Ih几乎可以忽略不计，因此 Ic ≈ Ie。
+
+在 IGBT 中观察到一种特殊现象，称为 IGBT 的**闩锁**。这发生在集电极电流超过某个阈值（ICE）。**在这种情况下，寄生晶闸管被锁定，栅极端子失去对集电极电流的控制，即使栅极电位降低到 VGET以下，IGBT 也无法关闭。**
+
+现在要关断 IGBT，我们需要典型的换流电路，例如晶闸管强制换流的情况。如果不尽快关闭设备，可能会损坏设备。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kC0s2vHwSXz4ARV6BWTv73ZnPkFmGHr3kQ68dApVCNF79T5lMYFtNgcibKRmlBKEib7e13klCx8lPdw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)集电极电流公式
+
+  
+
+下图很好地解释**IGBT的工作原理，描述了 IGBT 的整个器件工作范围。**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmFVmgWgqvy41nmuUxM5F5iaDLXRWokJEZSobZT9J6mOVW69SwR6Fm1qw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT的工作原理图
+
+  
+
+**IGBT 仅在栅极端子上有电压供应时工作，它是栅极电压**，即 **VG**。
+
+如上图所示，一旦存在栅极电压 ( **VG** ) ，栅极电流 ( **IG** ) 就会增加，然后它会增加栅极-发射极电压 ( **VGE** )。
+
+_因此，栅极-发射极电压增加了集电极电流 ( **IC** )。因此，集电极电流 ( **IC** ) 降低了集电极到发射极电压 ( **VCE** )。_
+
+**注意：**IGBT 具有类似于二极管的电压降，通常为 2V 量级，仅随着电流的对数增加。
+
+IGBT 使用续流二极管传导反向电流，续流二极管放置在 IGBT 的集电极-发射极端子上。
+
+  
+
+# **四、IGBT的等效电路**
+
+#   
+
+# **IGBT的近似等效电路**由 **MOS 管**和 **PNP 晶体管**(Q1 )组成,考虑到 n- 漂移区提供的电阻，电阻 Rd已包含在电路中，如下图所示：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zm0T8qymZLRzpG1zYU7SMWTJkxrJmUXicibyDuAhjnlS9oZdI8TcKaxGxQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT 的近似等效电路
+
+  
+
+仔细检查 IGBT 的基本结构，可以得出这个等效电路，基本结构如下图所示。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmhr1p9ia30jsFrBnKMvdBHsPMCmfQPMcV1bLMYE3lIaibRwcfEXmFsiaiag/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)等效电路图的基本结构
+
+穿通 IGBT、PT-IGBT：穿通 IGBT、PT-IGBT 在发射极接触处具有 N+ 区。
+
+观察上面显示 IGBT 的基本结构，可以看到到从集电极到发射极存在另一条路径，**这条路径是集电极、p+、n- 、 p（n 通道）、n+ 和发射极。**
+
+_因此，在 IGBT 结构中存在另一个晶体管 Q2作为 n – pn+，因此，我们需要**在近似等效电路中加入这个晶体管 Q2以获得精确的等效电路。**_
+
+**IGBT 的精确等效电路**如下所示：
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmT7BiapPIdYNYCkJ5P2oKp2icb0153TCrAXSc9ibEKC9YuJWxaT8sm6qZA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT的精确等效电路图
+
+该电路中的 **Rby** 是 p 区对空穴电流的流动提供的电阻。
+
+_众所周知，IGBT是 MOS 管的输入和 BJT 的输出的组合，它具有与N沟道MOS管和达林顿配置的PNP BJT等效的结构，因此也可以加入漂移区的电阻。_
+
+  
+
+# **五、IGBT 的特性--静态 VI 特性**
+
+#   
+
+# 下图显示了 **n 沟道 IGBT 的静态 VI 特性以及标有参数的电路图**，该图与 BJT 的图相似，只是图中保持恒定的参数是 VGE，因为 IGBT 是电压控制器件，而 BJT 是电流控制器件。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmsODt8KEZSyvgxFrfshN1iarG2GtTAgoLfAuGbPqNLGEFYKOz0uEunRQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT的静态特性图
+
+**当 IGBT 处于关闭模式时（VCE为正且 VGE < VGET），反向电压被 J 2 阻断，当它被反向偏置时，即 VCE为负，J 1 阻断电压。**
+
+  
+
+# **六、IGBT 的特性--开关特性**
+
+#   
+
+# IGBT 是电压控制器件，因此它只需要一个很小的电压到栅极即可保持导通状态。
+
+#   
+
+# 由于是单向器件， **IGBT 只能在从集电极到发射极的正向切换电流。**IGBT的典型开关电路如下所示，**栅极电压 VG施加到栅极引脚以从电源电压 V+ 切换电机 (M)。电阻 Rs 大致用于限制通过电机的电流。**
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmyNUl9sJL8R02IocTDPadGUbVQ7Imeyhh7vLnbN9abHrvKJWcQSbWkg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT的典型开关电路图
+
+  
+
+下图显示了**IGBT 的典型开关特性**。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmr5oJYCgVN3vh9TU2Uds34rS9xtGQeb5ZILse7r12Aicol3wwjLlYMuw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT 的典型开关特性
+
+**导通时间（ t on）**：通常由延迟时间 (t dn ) 和上升时间 (t r ) 两部分组成。
+
+**延迟时间 （t dn )**：定义为集电极电流从漏电流 ICE上升到 0.1 IC（最终集电极电流）和集电极发射极电压从 VCE下降到 0.9VCE的时间。
+
+**上升时间 （t r )**：定义为集电极电流从 0.1 IC上升到 IC以及集电极-发射极电压从 0.9V CE下降到 0.1 VCE的时间。
+
+**关断时间（ t off**）:由三个部分组成，延迟时间 (t df )、初始下降时间 (t f1 ) 和最终下降时间 (t f2 )。
+
+**延迟时间 （t df )**：定义为集电极电流从 I C下降到 0.9 I C并且 V CE开始上升的时间。
+
+**初始下降时间 （t f1 )**：集电极电流从 0.9 I C下降到 0.2 I C并且集电极发射极电压上升到 0.1 V CE的时间。
+
+**最终下降时间 （t f2 )**：定义为集电极电流从 0.2 I C下降到 0.1 I C并且 0.1V CE上升到最终值 V CE的时间。
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmianyMBOUUWKBxjY787FBlC8HAWMoSqiaTdruBl7YicHxPJXKhABteoWyw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+关断时间公式
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmw9CMvhWLIicOc3FhpjeQ5gBUaXhbZod33yUK1SrkumnwqGJyic23I1OQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+导通时间公式
+
+  
+
+# **七、IGBT 的特性--输入特性**
+
+#   
+
+# 下图可以理解IGBT的输入特性。开始，当没有电压施加到栅极引脚时，IGBT 处于关闭状态，没有电流流过集电极引脚。
+
+  
+
+当施加到栅极引脚的电压超过阈值电压时，IGBT 开始导通，集电极电流 I G开始在集电极和发射极端子之间流动。集电极电流相对于栅极电压增加，如下图所示。  
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmCBPcZZmo8OBrC5GqtdxGZSCdRtAUqYic8ic4wkKdeYRPoAmXpZVUBZMA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT的输入特性图
+
+# **八、IGBT 的特性--输出特性**
+
+#   
+
+# 由于 IGBT 的工作依赖于电压，因此**只需要在栅极端子上提供极少量的电压即可保持导通。**
+
+#   
+
+# IGBT 与双极功率晶体管相反，双极功率晶体管需要在基极区域有连续的基极电流流动以保持饱和。**IGBT 是单向器件，这意味着它只能在“正向”（从集电极到发射极）开关。**
+
+#   
+
+# IGBT 与具有双向电流切换过程的 MOS 管正好相反。MOS管正向可控，反向电压不受控制。
+
+#   
+
+# 在动态条件下，当 IGBT 关闭时， 可能会经历闩锁电流，当连续导通状态驱动电流似乎超过临界值时，这就是**闩锁电流。**
+
+#   
+
+# _此外，当栅极-发射极电压低于阈值电压时，会有少量漏电流流过 IGBT ，此时，集电极-发射极电压几乎等于电源电压，因此，四层器件 IGBT 工作在截止区。_
+
+![](https://mmbiz.qpic.cn/sz_mmbiz_png/w1mISk442kChBhzeNP3xDuRYezOxy8zmamwlGsOSt9jyXCgmPaYl93NFVNVBKaSNelVICaWvDdrHS1fBU2d0ew/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)IGBT 的输出特性图
+
+IGBT 的输出特性分为三个阶段：
+
+**第一阶段**：当栅极电压 VGE 为零时，IGBT 处于**关断状态**，这称为**截止区。**
+
+**第二阶段**：当 VGE 增加时，如果它小于阈值电压，那么会有很小的漏电流流过 IGBT ，但I GBT 仍然**处于截止区**。
+
+**第三阶段**：当 VGE增加到超过阈值电压时，IGBT 进入**有源区**，电流开始流过 IGBT 。如上图所示，**电流将随着电压 VGE的增加而增加**。
+
+  
+
+# **九、IGBT 的优缺点**
+
+#   
+
+# IGBT作为一个整体**兼有BJT和MOS管的优点**。
+
+#   
+
+# **1、优点**
+
+-   具有更高的电压和电流处理能力。
+    
+-   具有非常高的输入阻抗。
+    
+-   可以使用非常低的电压切换非常高的电流。
+    
+-   电压控制装置，即它没有输入电流和低输入损耗。
+    
+-   栅极驱动电路简单且便宜，降低了栅极驱动的要求
+    
+-   通过施加正电压可以很容易地打开它，通过施加零电压或负电压可以很容易地关闭它。
+    
+-   具有非常低的导通电阻。
+    
+-   具有高电流密度，使其能够具有更小的芯片尺寸。
+    
+-   具有比 BJT 和 MOS 管更高的功率增益。
+    
+-   具有比 BJT 更高的开关速度。
+    
+-   可以使用低控制电压切换高电流电平。
+    
+-   由于双极性质，增强了传导性。
+    
+-   更安全
+    
+
+  
+
+**2、缺点**
+
+-   开关速度低于 MOS管。
+    
+-   单向的，在没有附加电路的情况下无法处理AC波形。
+    
+-   不能阻挡更高的反向电压。
+    
+-   比 BJT 和 MOS管 更昂贵。
+    
+-   类似于晶闸管的 PNPN 结构，它存在锁存问题。
+    
+-   与 PMOS 管 相比，关断时间长。
+    
+-   类似于晶闸管的 PNPN 结构，它存在锁存问题。
+    
+-   与 PMOS 管 相比，关断时间长。
+    
+
+  
+
+以上就是关于 **IGBT（绝缘栅双极型晶体管)内部结构、工作原理、特性、优缺点等的内容。**
+
+硬件工程师及从业者都在关注我们
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+
+## 
+
+**声明：**
+
+  
+
+声明：文章来源网络。本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+投稿/招聘/推广/宣传 请加微信：woniu26a
+
+**推荐阅读▼**
+
+-   [电路设计-电路分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2811359150088683521#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

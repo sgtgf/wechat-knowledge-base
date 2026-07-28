@@ -1,0 +1,9 @@
+# 这两个巧妙电路，可加快MOS管的关断
+
+原创 蜗牛 硬件笔记本 2023-06-05 07:40 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/tFc7LRBKqqJdnjNFtD8RwQ](https://mp.weixin.qq.com/s/tFc7LRBKqqJdnjNFtD8RwQ)
+
+付费内容 · 49 元
+
+本文为付费文章，完整内容需购买后查看

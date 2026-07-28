@@ -25,21 +25,21 @@
 
 假设原始矩阵是`10*10`的稀疏矩阵，如下图所示,如何将其进行分解(当稀疏矩阵是对称正定时，LU分解可以变成L^TL分解)之后会变成为第二张图的样子，其中红色区域为填充元。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r0nBw8fAZAuIo8dZicWXPPuiaqibsgYFhrs3fcoAgodm92dWeFuCiaE3zF7zV9k2ASicWZ3jqQlSsfd6iasjFZzLD0Fw/640?wx_fmt=png)
+![](metis图分解在稀疏矩阵中的使用_images/img_000_a164ffe714e3.png)
 
 稀疏矩阵
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r0nBw8fAZAuIo8dZicWXPPuiaqibsgYFhrs2O2auFicy4YiaibbRRusZDPczbKNX1f4ic1EF0s6dWhSyyxDrvNOvttAAQ/640?wx_fmt=png)
+![](metis图分解在稀疏矩阵中的使用_images/img_001_cb453fd115a0.png)
 
 分解之后的稀疏矩阵
 
 可以明显发现LU分解之后填充到稀疏矩阵位置的非零元变多了。这样会增多内存的使用。 但是当我们把最开始的稀疏矩阵的某些行列进行交换位置，此时填充元会明显变少。这个过程叫做重排序，可以通过`metis`进行实现。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r0nBw8fAZAuIo8dZicWXPPuiaqibsgYFhrskd2Jibia0pF1Bniagib8gcZIev0kZ0DR9sEAu0j1AM8Xlwb6PqBkZd7BCA/640?wx_fmt=png)
+![](metis图分解在稀疏矩阵中的使用_images/img_002_306cf46b625b.png)
 
 重排序后的矩阵对比图
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r0nBw8fAZAuIo8dZicWXPPuiaqibsgYFhrsDfKJXJbtGdM0ewFGELj1icnL8Zf8LsXLfTNrVMjk4wYFaBJodZxhC3Q/640?wx_fmt=png)
+![](metis图分解在稀疏矩阵中的使用_images/img_003_ecf01ebdea97.png)
 
 重排序后的矩阵分解对比图
 
@@ -53,11 +53,11 @@
 
 给一个工程实际矩阵的分区效果。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r0nBw8fAZAuIo8dZicWXPPuiaqibsgYFhrs1saD77zYDux3kxtsQIzlzplCqicptBAz58ibdDfsngBzw3MwmIZuKf6w/640?wx_fmt=png)
+![](metis图分解在稀疏矩阵中的使用_images/img_004_011d4ff2dff4.png)
 
 重排序前
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r0nBw8fAZAuIo8dZicWXPPuiaqibsgYFhrs1YicI6ZF3rJEBw7GPtGnwMr6avty19W0ibQqgwxPCZoAqXaM8GUujlmQ/640?wx_fmt=png)
+![](metis图分解在稀疏矩阵中的使用_images/img_005_a6f1a6ce524b.png)
 
 重拍序后
 

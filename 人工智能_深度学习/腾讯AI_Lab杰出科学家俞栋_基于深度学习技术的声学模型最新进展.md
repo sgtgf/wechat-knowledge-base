@@ -36,15 +36,15 @@ Dong Yu and Jinyu Li，Recent progresses in deep learning based acoustic models
 
 长按图片识别二维码或通过“阅读原文”查看全文
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMrLFn3msfjm8SzDjn0ylRhJBFRnfr1ojs1y92ekql1SO1MUcsAHJHO1Q/0?wx_fmt=png)
+![](腾讯AI_Lab杰出科学家俞栋_基于深度学习技术的声学模型最新进展_images/img_000_1269ba8bdcae.png)
 
 作者简介
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMrUROg0SzdzlXP0NvZia9lquCib7XlrWJic4xq3vZYqtaC7LFkdVicticMDMw/0?wx_fmt=png)
+![](腾讯AI_Lab杰出科学家俞栋_基于深度学习技术的声学模型最新进展_images/img_001_6fa70bdb75e0.png)
 
 俞栋博士于2017年加入腾讯，现任腾讯人工智能实验室杰出科学家和副总经理。加入腾讯前，他在微软公司工作了19年并任职微软研究院首席研究员。他是语音识别和深度学习方向的资深专家，出版了两本专著和160多篇论文，是深度学习开源软件CNTK的发起人和主要作者之一。他在基于深度学习的语音识别技术上的开创性工作，带来了语音识别研究方向的转变，极大的推动了语音识别领域的发展，并获得2013年和2016年IEEE 信号处理协会最佳论文奖。俞栋博士现担任IEEE语音语言处理专业委员会委员，IEEE西雅图分会副主席，及APSIPA杰出讲师，曾担任IEEE/ACM音频、语音及语言处理汇刊、和IEEE信号处理杂志等期刊的副编辑，以及多个国际会议的技术委员会和组织委员会成员。
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMrUROg0SzdzlXP0NvZia9lquCib7XlrWJic4xq3vZYqtaC7LFkdVicticMDMw/0?wx_fmt=png)
+![](腾讯AI_Lab杰出科学家俞栋_基于深度学习技术的声学模型最新进展_images/img_002_6fa70bdb75e0.png)
 
 李锦宇博士现任微软AI&Research部门Principal Applied Scientist。他于2000年加入英特尔中国研究中心任研究员，之后作为研究经理在讯飞创建语音识别组，在获得佐治亚理工博士学位后，加入微软工作至今。作为技术带头人，他的工作重点是提升微软语音产品的竞争力，主导了近年来微软语音识别产品的研究和开发工作，对诸如Cortana等一系列微软语音识别产品贡献了大量核心技术。他的研究方向涵盖语音识别声学模型的各个领域，特别是在深度学习和鲁棒性领域，出版了一本专著和发表了70多篇论文，现任IEEE/ACM语音及语言处理期刊的副编辑。
 
@@ -54,7 +54,7 @@ Dong Yu and Jinyu Li，Recent progresses in deep learning based acoustic models
 
 http://www.aas.net.cn/CN/abstract/abstract18871.shtml
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMrklnQjYC2M09z3YB2YzThxUB2VtHhBAsNeg3t3bWXSKQhQz33R0Cy5Q/0?wx_fmt=png)
+![](腾讯AI_Lab杰出科学家俞栋_基于深度学习技术的声学模型最新进展_images/img_003_2cf6f8403b1d.png)
 
 **网站**：
 
@@ -76,25 +76,25 @@ www.ieee-jas.org
 
 **Tel:** 010-82544459, 010-82544746  
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMrZwBEGXNzP2U3uMpJCmS4zJkIvhBWNDiaCmCCrsKibYa1CV2JUu0CLeVQ/0?wx_fmt=png)
+![](腾讯AI_Lab杰出科学家俞栋_基于深度学习技术的声学模型最新进展_images/img_004_0e10da06223c.png)
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMru00vr9hGF5z0LAkqqXCzZSp6Q7qB8etZ2eTarY5smw9OsYQwLQKDNg/0?wx_fmt=png)
+![](腾讯AI_Lab杰出科学家俞栋_基于深度学习技术的声学模型最新进展_images/img_005_ce78fda32387.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMrNLw9sQZoaqTopEcJxKibXdniagag2khicvgaicMF3KkIXlldpAmPNFyLLQ/0?wx_fmt=jpeg)
+![](腾讯AI_Lab杰出科学家俞栋_基于深度学习技术的声学模型最新进展_images/img_006_933ba112c404.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMru00vr9hGF5z0LAkqqXCzZSp6Q7qB8etZ2eTarY5smw9OsYQwLQKDNg/0?wx_fmt=png)
+![](腾讯AI_Lab杰出科学家俞栋_基于深度学习技术的声学模型最新进展_images/img_007_ce78fda32387.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMrNicF9iaGHh9phYLMkle9ZQCoHzXuolh1iaiaSAAcOE5Uo2coa2ibiazvVx1w/0?wx_fmt=jpeg)
+![](腾讯AI_Lab杰出科学家俞栋_基于深度学习技术的声学模型最新进展_images/img_008_77667de8201e.jpg)
 
 自动化学报服务号
 
-![](http://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMru00vr9hGF5z0LAkqqXCzZSp6Q7qB8etZ2eTarY5smw9OsYQwLQKDNg/0?wx_fmt=png)
+![](腾讯AI_Lab杰出科学家俞栋_基于深度学习技术的声学模型最新进展_images/img_009_ce78fda32387.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46CrNt8bgN4fib82L0tTNhMrSjVwPfiaDUbV198PKPxUz2eciawEM6Z7yuBib7dRkVN6NvrTd8mIURCdw/0?wx_fmt=jpeg)
+![](腾讯AI_Lab杰出科学家俞栋_基于深度学习技术的声学模型最新进展_images/img_010_a304c18ce202.jpg)
 
 自动化学报订阅号
 

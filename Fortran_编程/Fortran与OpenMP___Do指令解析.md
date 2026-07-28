@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/YDAj18yUWct8xzvo4\_LHEQ](https://mp.weixin.qq.com/s/YDAj18yUWct8xzvo4_LHEQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWPaTI5ib9rlIAT9XLOVTG09RKyDJUtax4xHXicOuhhn3tc9GLibAH0xOVytfovJa6WhicCg8QyKibCqtQ/640?wx_fmt=jpeg&from=appmsg)
+![](Fortran与OpenMP___Do指令解析_images/img_000_b98bb3d66472.jpg)
 
 在高性能计算领域，并行编程技术是提高程序运行效率的关键手段之一。OpenMP（Open Multi-Processing）作为一款广泛应用于共享内存并行系统的编程接口，为开发者提供了简单而强大的工具来实现多线程并行计算。本文将重点介绍 OpenMP 中的 `do` 指令，通过具体示例帮助 Fortran 程序员理解如何利用这一指令实现代码的高效并行化。
 
@@ -60,7 +60,7 @@ nthreads,tid,i,a(i)=     1     0     1    10nthreads,tid,i,a(
 
 (2) 下图给出了利用 `!$omp do` 指令实现循环并行的过程。实际过程如下：如果要实现将一个 `do` 循环的工作量 (例如：i=1~10) 分配给不同线程，那么 `do` 循环必须位于并行区域中且在 `do` 循环体前增加 `!$omp do` 指令。这样就能实现对循环工作量的划分和分配。上面例子中循环指标变量 (i=1~10) 的工作量基本均匀地分配给了 3 个线程：主线程 0 负责 (i=1~4)，子线程 1 负责 (i=5~7)，子线程 2 负责 (i=8~10)。当 3 个线程都完成了各自的工作后，程序才继续往下执行。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVwaBiaKoEyAaFON6S9XTONiasoDAGtUzLWJZ4moBQ020PL7ce0IIokr0MeicZ1HKFicsqDlicSSt1zTAg/640?wx_fmt=jpeg&from=appmsg)
+![](Fortran与OpenMP___Do指令解析_images/img_001_887b2120da7f.jpg)
 
 (3) 在对循环进行并行时，循环指标变量 `i` 被定义成私有变量，数组 `a`、`b` 和 `c` 被定义为共享变量。如果不加以声明，循环指标变量 `i` 通常被默认为私有变量。
 
@@ -98,7 +98,7 @@ do i=1,9  a(i)=a(i)+a(i+1)end do 
 
 下图表示采用 3 个线程对数组元素 `a(i)` 的值进行更新的情形。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVwaBiaKoEyAaFON6S9XTONiaLX6uEaUv3NWAickInqvqr3LxlgKpdxSpOgyN8zN8VWjHv8MialXMAJPw/640?wx_fmt=png&from=appmsg)
+![](Fortran与OpenMP___Do指令解析_images/img_002_2eae32232ed8.png)
 
 主线程 0 从内存读取数组 `a(1)~a(4)`，并对数组 `a(1)~a(3)` 进行写操作；子线程 1 从内存读取数组 `a(4)~a(7)`，并对数组 `a(4)~a(6)` 进行写操作；子线程 2 从内存读取数组 `a(7)~a(10)`，并对数组 `a(7)~a(9)` 进行写操作。换言之，子线程 0 对数组元素 `a(4)` 进行读操作，而子线程 1 对数组元素 `a(4)` 进行写操作。因此，子线程 0 和子线程 1 对数组元素 `a(4)` 存在数据竞争。同理，子线程 1 和子线程 2 对数组元素 `a(7)` 存在数据竞争。
 
@@ -108,10 +108,10 @@ do i=1,9  a(i)=a(i)+a(i+1)end do 
 
 # 推荐阅读
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.5525099211882534&random=0.9864757539671867&random=0.7575622890331561&random=0.6526959208642249&random=0.3992112753232937)
+![](Fortran与OpenMP___Do指令解析_images/img_003_a4233b93b256.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 
 有任何疑问或建议，欢迎加Q群 "**FEtch有限元开发系统(519166061)**" 留言讨论。我们长期开展 FEtch 系统的试用活动，感兴趣的朋友入群后可直接联系管理员，免费获取**许可证文件**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWPaTI5ib9rlIAT9XLOVTG09BZRqrD4BaTJiaPIJeovJzsbDpxNxPQ3yj9KMlhFhic6oLWeHhC2ScGNQ/640?wx_fmt=jpeg&from=appmsg)
+![](Fortran与OpenMP___Do指令解析_images/img_004_47795bb5a0db.jpg)

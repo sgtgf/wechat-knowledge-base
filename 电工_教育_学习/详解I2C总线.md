@@ -1,0 +1,125 @@
+# 详解I2C总线
+
+原创 硬件笔记本 2024-03-15 07:41 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/cjyDosOhf1SMihzL-E28zA](https://mp.weixin.qq.com/s/cjyDosOhf1SMihzL-E28zA)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic "音符")
+
+  
+
+  
+
+**I2C总线物理拓扑结构**
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjfJFIecw3AAmiaWlLkW41zgsECIAtFByJ40E1zibSfCjZotDNtlMMzg8ah81VNUpFauvmrZXpU6F7Q/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+
+  
+
+I2C 总线在物理连接上非常简单，分别由SDA(串行数据线)和SCL(串行时钟线)及上拉电阻组成。通信原理是通过对SCL和SDA线高低电平时序的控制，来产生I2C总线协议所需要的信号进行数据的传递。在总线空闲状态时，这两根线一般被上面所接的上拉电阻拉高，保持着高电平。
+
+  
+
+**I2C总线特征**
+
+I2C总线上的每一个设备都可以作为主设备或者从设备，而且每一个设备都会对应一个唯一的地址(可以从I2C器件的数据手册得知)，主从设备之间就通过这个地址来确定与哪个器件进行通信，在通常的应用中，我们把CPU带I2C总线接口的模块作为主设备，把挂接在总线上的其他设备都作为从设备。
+
+  
+
+I2C总线上可挂接的设备数量受总线的最大电容400pF限制，如果所挂接的是相同型号的器件，则还受器件地址位的限制。  
+
+  
+
+I2C总线数据传输速率在标准模式下可达100kbit/s，快速模式下可达400kbit/s，高速模式下可达3.4Mbit/s。一般通过I2C总线接口可编程时钟来实现传输速率的调整，同时也跟所接的上拉电阻的阻值有关。
+
+  
+
+I2C总线上的主设备与从设备之间以字节(8位)为单位进行双向的数据传输。
+
+  
+
+**I2C总线协议**
+
+  
+
+I2C协议规定，总线上数据的传输必须以一个起始信号作为开始条件，以一个结束信号作为传输的停止条件。起始和结束信号总是由主设备产生。
+
+  
+
+总线在空闲状态时，SCL和SDA都保持着高电平，当SCL为高电平而SDA由高到低的跳变，表示产生一个起始条件；当SCL为高而SDA由低到高的跳变，表示产生一个停止条件。
+
+  
+
+在起始条件产生后，总线处于忙状态，由本次数据传输的主从设备独占，其他I2C器件无法访问总线；而在停止条件产生后，本次数据传输的主从设备 将释放总线，总线再次处于空闲状态。如图所示：
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjfJFIecw3AAmiaWlLkW41zgmibS2987icyFVQ64DUia2g8dvGmeETuIXhGMj2icO3yNb3raB85Q0TJLkw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+在了解起始条件和停止条件后，我们再来看看在这个过程中数据的传输是如何进行的。前面我们已经提到过，数据传输以字节为单位。主设备在SCL线上产生每个 时钟脉冲的过程中将在SDA线上传输一个数据位，当一个字节按数据位从高位到低位的顺序传输完后，紧接着从设备将拉低SDA线，回传给主设备一个应答位， 此时才认为一个字节真正的被传输完成。当然，并不是所有的字节传输都必须有一个应答位，比如：当从设备不能再接收主设备发送的数据时，从设备将回传一个否定应答位。
+
+  
+
+在前面我们还提到过，I2C总线上的每一个设备都对应一个唯一的地址，主从设备之间的数据传输是建立在地址的基础上，也就是说，主设备在传输有效数据之前 要先指定从设备的地址，地址指定的过程和上面数据传输的过程一样，只不过大多数从设备的地址是7位的，然后协议规定再给地址添加一个最低位用来表示接下来 数据传输的方向，0表示主设备向从设备写数据，1表示主设备向从设备读数据。如图所示：
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/K9mVOHgVt7yKldTkJAhKuFYvhBmsHdTISDQ0gRBjbbL5SrXtcDK8WVGh1NibAn9P18qcibDpVmtbRGFWFHIz85jw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+  
+
+  
+
+**I2C总线操作**
+
+  
+
+对I2C总线的操作实际就是主从设备之间的读写操作。大致可分为以下三种操作情况：  
+  
+
+第一，主设备往从设备中写数据。数据传输格式如下：
+
+    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjfJFIecw3AAmiaWlLkW41zgzN6Diaosgbd2FhiaaCB64oteFTROE64lK3dB6UyMaHyWxZogBymicyuKw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+第二，主设备从从设备中读数据。数据传输格式如下：
+
+    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjfJFIecw3AAmiaWlLkW41zgyWeJK31etURoaYbXrW0WyRxYsmsXvQFO2MFBlQRkBR2WlUlFZgfZfQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+第三，主设备往从设备中写数据，然后重启起始条件，紧接着从从设备中读取数据；或者是主设备从从设备中读数据，然后重启起始条件，紧接着主设备往从设备中写数据。这种操作在单个主设备系统中，重复的开启起始条件机制要比用STOP终止传输后又再次开启总线更有效率。数据传输格式如下：
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjfJFIecw3AAmiaWlLkW41zgloZQAibmV9eQb9nN1TibLQ5zlNEsJxqGyy0pcDoD5Df1aJMoYKgFmX2Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+## 
+
+**声明：**
+
+  
+
+声明：文章来源网络。本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+投稿/招聘/推广/宣传 请加微信：woniu26a
+
+**推荐阅读▼**
+
+-   [电路设计-电路分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2811359150088683521#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

@@ -5,11 +5,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/VIM0SmWQpWvsQIEAS5b228jQGB4FurcBibs2iaubicTaW5IkOa3r4XpLaPyzmen89DAcSJr1ObOucT9iceic0xehFcg/640)
+![](割圆术与极限思想_古代数学智慧的_Python_实现_images/img_000_36e0b309c459.png)
 
 点击上方「蓝字」关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2MhiaCtgicxW6hVicfNzL5yE9b4tViaWuriaVsWhgzqbAxD0eIYhziaLtLI1uwLENGob23fQJEVe1M77eMPRP8yNHrKQ/640)
+![](割圆术与极限思想_古代数学智慧的_Python_实现_images/img_001_b82552b73c23.png)
 
   
 
@@ -19,13 +19,13 @@
 
 公元 3 世纪左右，魏晋时期的著名数学家刘徽在其著作《九章算术注》中首次提出了割圆术的概念。在此之前，“周三径一”的说法广泛流传，即认为圆的直径与周长之比为 。然而，刘徽意识到这种简单的比例关系并不能准确描述圆形的真实属性。于是他开始探索更加精确的方法来计算圆周率 π（圆的周长与其直径的比例），并最终发展出了割圆术。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRETdLuoXm16ocC8VjMMM1B7sBC38QgVRxQTBEyRTTX3ic00WB9NZVoM5nNImPyN0oYYz10jQlWWAic3qCFKicRYA/640?wx_fmt=jpeg&from=appmsg)
+![](割圆术与极限思想_古代数学智慧的_Python_实现_images/img_002_86dd9933f47c.jpg)
 
 ## 割圆术的基本原理
 
 割圆术的核心在于利用圆内接正多边形的周长或面积逐渐逼近圆的实际值。具体来说，从一个已知边数的正多边形开始（例如六边形），每次都将该多边形的边数加倍，从而形成新的内接正多边形。随着边数的增加，这些多边形越来越接近于圆本身；当边数趋于无穷大时，它们就完全变成了圆。因此，通过不断迭代地构造更多的边，我们可以得到越来越精确的 π 值估计。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRETdLuoXm16ocC8VjMMM1B7sBC38QgVicNNyU5Vvicgxv8M8kSUsk1uBFTiaMbbkRemMulSGOibswRMh5y79xmzpw/640?wx_fmt=jpeg&from=appmsg)
+![](割圆术与极限思想_古代数学智慧的_Python_实现_images/img_003_3d1940cc6dd8.jpg)
 
 ## 极限思想的体现
 
@@ -43,17 +43,17 @@
 
 运行一下，首先绘制圆内接正多边形为 6 条边的效果图。我们发现圆内接正多边形的面积和圆的面积还是有很大差距的。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRETdLuoXm16ocC8VjMMM1B7sBC38QgVKnTIf6aZeeHfaDtdDeozl9EZxtbcbJib4yuFGmmLr0V6IpJMFgS8sBQ/640?wx_fmt=png&from=appmsg)
+![](割圆术与极限思想_古代数学智慧的_Python_实现_images/img_004_823c9692aa03.png)
 
 继续绘制圆内接正多边形为 12 条边的效果图。观察图像可以发现，内接正多边形的面积离圆的面积愈来愈近了。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRETdLuoXm16ocC8VjMMM1B7sBC38QgVIibEhdXFtHjOia6cdQfM0Lib0joV7vOYkdoKyZFvQ28vG9FIGe9ibDuEIw/640?wx_fmt=png&from=appmsg)
+![](割圆术与极限思想_古代数学智慧的_Python_实现_images/img_005_c2741b10897a.png)
 
 接着绘制圆内接正多边形为 48 条边、96 条边的效果图。仔细观察图像，几乎看不到内接正多边形的痕迹，内接正多边形的面积已经非常逼近圆的面积了。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRETdLuoXm16ocC8VjMMM1B7sBC38QgVQW2w4Dib0IMHZxCleXSbWbnLHwJQWw8iaTl3kyficBuHDwIib7aGPX2M6A/640?wx_fmt=png&from=appmsg)
+![](割圆术与极限思想_古代数学智慧的_Python_实现_images/img_006_8bedb77fb693.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRETdLuoXm16ocC8VjMMM1B7sBC38QgVQcQqBFDO8D5F8bppwVRTYxgnHTJ1GkG8EZWvcsdM1GN3drEnfqqfYQ/640?wx_fmt=png&from=appmsg)
+![](割圆术与极限思想_古代数学智慧的_Python_实现_images/img_007_de0d98b46e24.png)
 
 ## 小结
 
@@ -71,4 +71,4 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/DRPKCGMAPjKzncOsqKVQInBQ7RU7WTSXJdmD2OEMiciawJtrbZAicXnwK8cFHw5ddlCRcHWKu2ZxvHlpHmU8UN4Ew/640?wx_fmt=gif)
+![](割圆术与极限思想_古代数学智慧的_Python_实现_images/img_008_12e3d19c8d42.gif)

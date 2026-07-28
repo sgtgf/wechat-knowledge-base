@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/YX25\_Psz8Q6OnyyUJTOFig](https://mp.weixin.qq.com/s/YX25_Psz8Q6OnyyUJTOFig)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXUibmbzvSnbTBlZn4d6KSHHia4QCUeRTbj4wJOiamXqskS5GyVS9CCPy7WPIjhnMwNVL1icSOZmV1Kog/640?wx_fmt=png&from=appmsg)
+![](数字迷航_Fortran数值计算中的溢出（Overflow）和非数（NaN）_images/img_000_c598c8d54a3a.png)
 
 在计算机科学与工程领域，数值计算是研究和应用中不可或缺的一环。无论是复杂的物理模拟、大规模数据分析，还是日常的算法设计，我们都离不开对数字的操作。然而，在这个看似简单的操作背后，却隐藏着一些微妙且重要的概念，尤其是当涉及数值的边界情况时——比如溢出（Overflow）和非数（NaN）现象。本文将深入探讨Fortran语言中的这两个主题，并通过实例代码帮助读者理解这些概念在实践中的体现。
 
@@ -74,7 +74,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](数字迷航_Fortran数值计算中的溢出（Overflow）和非数（NaN）_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

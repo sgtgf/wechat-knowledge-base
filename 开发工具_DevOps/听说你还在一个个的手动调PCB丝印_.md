@@ -1,0 +1,178 @@
+# 听说你还在一个个的手动调PCB丝印？
+
+原创 硬件笔记本 2022-11-07 07:30 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/aO-sbkN5paEt\_mPCVTmuug](https://mp.weixin.qq.com/s/aO-sbkN5paEt_mPCVTmuug)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+初学画PCB的朋友们一定有过这样的操作，一个个手动调整元件的丝印位号，非常繁琐枯燥，效率低下...
+
+  
+
+**那有没有什么好的解决方法呢？**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/NMBmZoISq1IuI2NoculFXoss3f41uQjyz3dpyTiaqpCeheGWtgHS9Sia9wRcABjZ5p3MKwia7YTlKZrIGpk3ibyGQw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+生产时PCB上丝印位号可以进行显示或者隐藏，但是不影响装配图的输出。按快捷键“L”，按所有图层关闭按钮，即关闭所有层，再单独勾选只打开丝印层及相对应的阻焊层，即可对丝印进行调整了。
+
+**以下是丝印位号调整遵循的原则及常规推荐尺寸：**
+
+（1）丝印位号不上阻焊，放置丝印生产之后缺失。
+
+（2）丝印位号清晰，字号推荐字宽/字高尺寸为4/25mil、5/30mil、6/45mil。
+
+（3）保持方向统一性，一般一块PCB上不要超过两个方向摆放，推荐字母在左或在下，如图11-21所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/XZMicpgcYibXEs3GjVoXEiaeicLVwU5p1biaIOiciaUx3s32bqic1QJiaJ7SpaPMZqwPC0UZ7Po14qIY0jVyXs4mRYOia39Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图11-21 丝印位号显示方向
+
+（4）对于一些摆布下的丝印标识，可以用放置2D辅助线或者放置方块进行标记，方便读取，如图11-22所示。
+
+　　![](https://mmbiz.qpic.cn/mmbiz_png/XZMicpgcYibXEs3GjVoXEiaeicLVwU5p1biaILN6nthibvA4P6dZNOOG6G1H6qibm1DDbGgwQc6JM9G2SCSXqFfKEF6dw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图11-22 辅助线及方块
+
+  
+
+  
+
+**丝印位号的调整方法**
+
+AltiumDesigner提供一个快速调整丝印的方法，即“元器件文本位置”功能，可以快速地把元件的丝印放置在元件的四周或者元件的中心。
+
+（1）选中需要操作的元件。
+
+（2）按快捷键“AP”，进入“元器件文本位置”对话框，如图11-23所示，该对话框中提供“标识符”和“注释”两种摆放方式，这里以“标识符”为例进行说明。
+
+（3）“标识符”提供向上、向下、向右、向左、左上、左下、右上、右下几种方向，可以与小键盘上的数字键进行对应。通过对“元器件文本位置”命令设置快捷键的方法，想让其快速地把选中元件的丝印位号放置到元件的上方时，在小键盘上按数字键“5”和“2”就可以完成此操作，如图11-24所示。其他方向摆放类似。例如，按数字键“5”和“6”放置到元件的右方，按数字键“5”和“8”放置到元件的下方。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/XZMicpgcYibXEs3GjVoXEiaeicLVwU5p1biaId2pcT89ic90ECSOcSy53HKNOqlYpibQ7GBo0TfJxJu5TaKJRWhSMTQSQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图11-23 “元器件文本位置”对话框
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/XZMicpgcYibXEs3GjVoXEiaeicLVwU5p1biaIGdPncTSXUpItickeuDBT7gRclxvwiaPwptBzf40VwqDI5MbQviatXLXcg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图11-24 丝印位号快速放置到元件的上方
+
+  
+
+  
+
+**PCB设计的一些小技巧**
+
+**1、如何选择PCB板材？**
+
+选择PCB板材必须在满足设计需求和可量产性及成本中间取得平衡点。设计需求包含电气和机构这两部分。通常在设计非常高速的PCB板子(大于GHz的频率)时这材质问题会比较重要。
+
+例如，现在常用的FR-4材质，在几个GHz的频率时的介质损(dielectricloss)会对信号衰减有很大的影响，可能就不合用。就电气而言，要注意介电常数(dielectricconstant)和介质损在所设计的频率是否合用。
+
+  
+
+**2、如何避免高频干扰？**
+
+避免高频干扰的基本思路是尽量降低高频信号电磁场的干扰，也就是所谓的串扰(Crosstalk)。可用拉大高速信号和模拟信号之间的距离，或加groundguard/shunttraces在模拟信号旁边。还要注意数字地对模拟地的噪声干扰。
+
+  
+
+**3、在高速PCB设计中，如何解决信号的完整性问题？**
+
+信号完整性基本上是阻抗匹配的问题。而影响阻抗匹配的因素有信号源的架构和输出阻抗(outputimpedance)，走线的特性阻抗，负载端的特性，走线的拓朴(topology)架构等。解决的方式是靠端接(termination)与调整走线的拓朴。
+
+  
+
+**4、差分信号线中间可否加地线？**
+
+差分信号中间一般是不能加地线。因为差分信号的应用原理最重要的一点便是利用差分信号间相互耦合(coupling)所带来的好处，如fluxcancellation，抗噪声(noiseimmunity)能力等。若在中间加地线，便会破坏耦合效应。
+
+  
+
+**5、在布时钟时，有必要两边加地线屏蔽吗？**
+
+是否加屏蔽地线要根据板上的串扰/EMI情况来决定，而且如对屏蔽地线的处理不好，有可能反而会使情况更糟。
+
+  
+
+**6、allegro布线时出现一截一截的线段（有个小方框）如何处理？**
+
+出现这个的原因是模块复用后，自动产生了一个自动命名的group，所以解决这个问题的关键就是重新打散这个group，在placementedit状态下选择group然后打散即可。
+
+完成这个命令后，移动所有小框的走线敲击ix00坐标即可。
+
+  
+
+**7、如何尽可能的达到EMC要求，又不致造成太大的成本压力？**
+
+PCB板上会因EMC而增加的成本通常是因增加地层数目以增强屏蔽效应及增加了ferritebead、choke等抑制高频谐波器件的缘故。除此之外，通常还是需搭配其它机构上的屏蔽结构才能使整个系统通过EMC的要求。以下仅就PCB板的设计技巧提供几个降低电路产生的电磁辐射效应：
+
+-   尽可能选用信号斜率(slewrate)较慢的器件，以降低信号所产生的高频成分。
+    
+-   注意高频器件摆放的位置，不要太靠近对外的连接器。
+    
+-   注意高速信号的阻抗匹配，走线层及其回流电流路径(returncurrentpath)，以减少高频的反射与辐射。
+    
+-   在各器件的电源管脚放置足够与适当的去耦合电容以缓和电源层和地层上的噪声。特别注意电容的频率响应与温度的特性是否符合设计所需。
+    
+-   对外的连接器附近的地可与地层做适当分割，并将连接器的地就近接到chassisground。
+    
+-   可适当运用groundguard/shunttraces在一些特别高速的信号旁。但要注意guard/shunttraces对走线特性阻抗的影响。
+    
+-   电源层比地层内缩20H，H为电源层与地层之间的距离。
+    
+
+  
+
+**8、2G以上高频PCB设计，微带的设计应遵循哪些规则？**
+
+射频微带线设计，需要用三维场分析工具提取传输线参数。所有的规则应该在这个场提取工具中规定。
+
+  
+
+**9、PCB板上高速信号上的AC耦合靠近哪一端效果更好？**
+
+经常看见不同的处理方式，有靠近接收端的，有靠近发射端的。
+
+我们先看看AC耦合电容的作用，无外乎三点：①source和sink端DC不同，所以隔直流；②信号传输时可能会串扰进去直流分量，所以隔直流使信号眼图更好；③AC耦合电容还可以提供直流偏压和过流的保护。说到底，AC耦合电容的作用就是提供直流偏压，滤除信号的直流分量，使信号关于0轴对称。
+
+那为什么要添加这个AC耦合电容？当然是有好处的，增加AC耦合电容肯定是使两级之间更好的通信，可以改善噪声容限。要知道AC耦合电容一般是高速信号阻抗不连续的点，并且会导致信号边沿变得缓慢。
+
+-   一些协议或者手册会提供设计要求，我们按照designguideline要求放置。
+    
+-   没有第一条的要求，如果是IC到IC，请靠近接收端放置。
+    
+-   如果是IC到连接器，请靠近连接器放置。
+    
+
+  
+
+**10、PCB在出厂时如何检查是否达到了设计工艺要求？**
+
+很多PCB厂家在PCB加工完成出厂前，都要经过加电的网络通断测试，以确保所有联线正确。同时，越来越多的厂家也采用x光测试，检查蚀刻或层压时的一些故障。对于贴片加工后的成品板，一般采用ICT测试检查，这需要在PCB设计时添加ICT测试点。如果出现问题，也可以通过一种特殊的X光检查设备排除是否加工原因造成故障。
+
+## 
+
+**声明：**
+
+  
+
+声明：本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+  
+
+**推荐阅读▼**
+
+-   [硬件精选文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2531417028063166464#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

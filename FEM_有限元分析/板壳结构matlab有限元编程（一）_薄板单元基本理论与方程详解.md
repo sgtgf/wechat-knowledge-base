@@ -9,17 +9,17 @@
 
 **首发 | 仿真秀APP**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/KY3BXJeOPhbbcy2pMyJUOM8RRM7PA0Oobw5wwTQLwUjIFkqY8sr52rjbpricODJ7RZibQ7ZOOmoibyBKnHNwAWdeg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_000_a728da844190.gif)
 
 **导读：**板壳结构是工程上常见的结构形式，应用也非常广泛，因此有限元仿真计算中板壳单元也是非常重要的单元。这里的板壳单元严格意义上可分为板单元和壳单元，板单元自由度包含挠度、法线转动，而壳单元自由度要比板单元多出两个面内的平动自由度。因此商业软件中并不单独设置板单元。但是从有限元理论发展的角度讲，有必要将板单元与壳单元区分开来，这样也有助于理论的理解。
 
 本系列博文将系统介绍板壳单元的有限元理论基础及Matlab编程实现，具体包括Kirchhoff薄板理论与Mindlin/Reissner 板壳理论，这是进行有限元离散的基础，基于上述理论建立的板壳结构的三大类方程，几何方程、物理方程和平衡方程，在三大类方程基础上离散得到的有限元相关方程，此外针对的物理问题包括了板壳结构的静力求解和模态分析的内容。首先第一篇博文我们来介绍板单元的有限元编程相关内容。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjzlnXPjbeqBDBhWSvoQfhibXsl87iaCACkQFQXDnBnLwxodvWubEkT8iaw/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_001_49b8cf98b663.png)
 
 与本文所讲内容相对应的视频，是我的仿真专栏——SimPC在仿真秀精品课《**Matlab有限元编程从入门到精通35讲**》（课程持续加餐中，点击文尾阅读原文试看）和《**8节点空壳单元matlab有限元编程**》课程中同样对板壳单元进行了详尽的讲解，欢迎订阅学习。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjia3uVpGcjp3vE8uElvyl281345uTsS7GiaAciaibNWw1ibsLghMrWkWHuhg/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_002_85aa7efcc741.png)
 
 **一、板壳理论概述**
 
@@ -43,37 +43,37 @@
 
 ①直法线假设，即原来垂直于薄板中面的一段直线在板弯曲变形时始终垂直于薄板中面且保持长度不变。这意味着不考虑横向剪切变形和挠度沿板厚的变化，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjEb1ib1nicfib5puVAV3LC5nkdic1xhDEsvia4YGE9PjuV5BV2c1clG58Bqg/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_003_749320690387.png)
 
 式中：z是垂直于板面的坐标方向。由z向应变为0可得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjicBSNtcr6tQ61yhaLGoH2obtuAibaQhmk9e3pmq7EMjALcsUxlhibSTsQ/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_004_8b89592c6592.png)
 
 ②薄板中面没有面内位移，即在中面内有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjCb1l1ofG7Q0Znxrk5y4xFDYHTJiaWmETYIMTicbdHJmmvZwKktU04KNw/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_005_2e6fe3c52da0.png)
 
 根据Kirchhoff假设，板面上任何一点的面内位移u和v为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjj0UZt8HGWDKIFYq9Jmu9awfeutXOdzicdwSnR22rU317BfXIAqjbMPHw/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_006_2ac94df3539d.png)
 
 因为薄板的面外应力分量远小于面内应力分量，所以在薄板理论中采用平面应力问题的物理方程（注意平面应力问题的基本假设），于是有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjj5N9UxK7ePT0Eke8PncibPDUUmYHia50ribDia5hIPb8mswdpU4NBzaf2PQ/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_007_0ff840f442f6.png)
 
 由弯矩和扭矩的定义可知，沿板厚积分（辛普森/高斯积分）即可得弯矩和扭矩与曲率和扭率的关系，得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjj2LaianwoWibS94mKeYg8MZXtUnJkEnV3BiaLQDGJp9Uvhk2PYMSD1rKrw/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_008_09ace736d61a.png)
 
 其中，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjeauKxLzeB1vcELBFyZISjfccAicERlpNFBnK8iajw8I2a5eNKK9RQmsg/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_009_c2ee03ab2b6f.png)
 
 上式是薄板广义应力M与广义应变K的关系，或称薄板的本构关系。
 
 在薄板理论中不考虑横向剪切变形，故作用在单位宽度上的剪力是根据微元的平衡条件求出的，即
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjjQbOOebdHtAjSUE18FDwWjfkfyKRMF27iamabuXqia64gzPgS2XiaKsicQ/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_010_9ac6e8608487.png)
 
 **2、厚壳理论**
 
@@ -85,41 +85,41 @@ Mindlin/Reissner 理论其中比较典型的有三种：①Reissner理论；②M
 
 **Reissner-Mindlin板壳理论中的三个假定：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjpN4wF3iatlGqrJoC8nh81WMkFrGl1YzGekXlWbonT6nTianOlWDZymeA/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_011_3f39695104ea.png)
 
 薄板理论中 Kirchhoff给出了直法线假设，Reissner 则放松了该假设中中面法线变形后仍垂直于中面的限制。只是保留了中面法线仍然为直线的假设。基于Reissner-Mindlin假设的中厚板壳理论假设的推导：
 
 选取板的中面为xy平面，z轴与xy平面垂直，板内任一点的位移为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjqRQnYlxSrd0xQoxZofIxcto60vGT99xE2FgJOsACMxlfmGYdl2SAzQ/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_012_baa3b6877f6c.png)
 
-式中![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjsw0RV5y8JmDy9cr5VicZTe48epsHkCJBRD8nEoVDrJNcr3BswujV73A/640?wx_fmt=png&from=appmsg)和![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjg1cXpoY8gmcfI7y6LAmcyHkSibZicL9rh1kpVIIPLGwQ2Al8iawH8EvDA/640?wx_fmt=png&from=appmsg),是二个未知的转角位移。在薄板理论中它们分别等于![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjPoFVHoJz8mBcOnuAVGnfqicF1iarMeiapMh10QMkZ6PFVRUDPGSBN6upQ/640?wx_fmt=png&from=appmsg)和![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjPOcZRcNiayEeEpLrMUmdnHLxHegLGS3Xk0aNoORSXQTUNpPVp0tqcyQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjRHyibxAFuf6hIbQ9waFn6kHO34WlrfRFagTickrRia0W51lM4kS41ibSYQ/640?wx_fmt=png&from=appmsg)，而在一阶剪切板理论中它们是独立于挠度w的，所以该理论中就有三个广义位移。那么板内非零的应变分量有
+式中![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_013_42bfe5352302.png)和![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_014_89976ccd907c.png),是二个未知的转角位移。在薄板理论中它们分别等于![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_015_62fd7355a1d1.png)和![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_016_8f99dd4a99da.png)![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_017_07837f63a4a4.png)，而在一阶剪切板理论中它们是独立于挠度w的，所以该理论中就有三个广义位移。那么板内非零的应变分量有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjKvyflibEnjAvvemxIwjicLSpD2ZzBBW0d3PXVUJWzqJeuCzTnHaRYZibg/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_018_6cb72397c469.png)
 
 在薄板理论中为零的两个剪切应变不再为零，而是在截面上成为一个常数。这也是一阶剪切变形板理论名称的由来。
 
 与薄板理论中一样，同样忽略掉σ，那么板理论中的应力和应变关系可以写成
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjY6azsmjR7LDPvleKypSIf33CA9FVblhbwVtYXFia5ssAyAs9K9zTsGg/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_019_450799123eec.png)
 
-虽然现在我们能够考虑板的横向剪切变形，从而避免了薄板理论剪切应变和为零，而剪应力不为零的矛盾。但是剪应变![](https://mmbiz.qpic.cn/mmbiz_jpg/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjTgsbvFJZTx9fMK9fUhtib1AWo6prfmobU4UcicSibtic5ISS28Z01sNiaTw/640?wx_fmt=jpeg)和![](https://mmbiz.qpic.cn/mmbiz_jpg/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjsKKpv87lZQkicu5cUALj33ZYkZ3vGdqOOVZUF7TeoLyPhWPqqA4iavzA/640?wx_fmt=jpeg),在截面上是个常数同样引入另一个无法调和的问题，因为在板截面上横向剪应力是按抛物线分布的，所以必须引入一个剪切修正系数κ，用来修正剪力![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjFDzfoGVTdLrhibibloTSypfNXEOddemGYo5Zuf8bGhVic3ZQV7yibgJ7PA/640?wx_fmt=png&from=appmsg)和![](https://mmbiz.qpic.cn/mmbiz_jpg/5vZeSpd7nNC2oK19zR9zGz060hXXOUjj8GoJEU0KblUFauCIIqcJCTNOw0ATG5WjF7I55OKYbRHznOk0LAEZcA/640?wx_fmt=jpeg)的计算。
+虽然现在我们能够考虑板的横向剪切变形，从而避免了薄板理论剪切应变和为零，而剪应力不为零的矛盾。但是剪应变![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_020_c61474826c07.jpg)和![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_021_32772bddba75.jpg),在截面上是个常数同样引入另一个无法调和的问题，因为在板截面上横向剪应力是按抛物线分布的，所以必须引入一个剪切修正系数κ，用来修正剪力![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_022_ae3a25a46999.png)和![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_023_e2eeaf1a2d96.jpg)的计算。
 
 板内的内力矩沿厚度积分后，那么我们可以得到它们与2个转角位移之间的关系
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjVYlWGshq9nYib0cgBnfRib0ylZpUILQTialcWxib7Cecg2yhdyrcQRCYzQ/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_024_12636fef1cd0.png)
 
 沿厚度方向积分的弯矩与曲率关系为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjRQ8shxa8y30ibiapcib3cnvEzxq3xHicXJfdaibeQr9xwj82qyZPIvSfjXw/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_025_972d242d63b4.png)
 
 式中D是板的抗弯刚度。而板内的剪力则是剪应力的积分
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjicOL1PRvy0ibE2nap9msmqh9zyf6QS5uicCPDMypEEtxZhdfN2tMjiay9Q/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_026_9d52c625f7dd.png)
 
 式中κ就是前面提到的剪切修正系数，所以有
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjeAhl2RzQDS9hcIzhBdKFfHSNjAyRfIddyq09XqnuDtWbZZNLXWOsIg/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_027_fb6604ba0039.png)
 
 式中：k是剪切修正系数，当材料沿板厚均匀分布时，通常k=5/6（矩形截面），也有人用k=pi^2/12。
 
@@ -137,55 +137,55 @@ Mindlin/Reissner 理论其中比较典型的有三种：①Reissner理论；②M
 
 **1、矩形薄板单元有限元方程**
 
-考虑如下图所示矩形单元，每个角结点有 3个自由度参数:挠度转动.和绕x和y轴的转动![](https://mmbiz.qpic.cn/mmbiz_jpg/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjLRYNN2Gb2icoqt1895iaz6upaEC7Ekycq4zc0ZibKYl9xoGrC2KgmdqCg/640?wx_fmt=jpeg)即![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjj8RUcyWa91helBx8F7ribnuLKKYaibib8eia5edrTsJjZa2uB3yEDQxzkSw/640?wx_fmt=png&from=appmsg)。
+考虑如下图所示矩形单元，每个角结点有 3个自由度参数:挠度转动.和绕x和y轴的转动![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_028_93018b25b132.jpg)即![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_029_60feeeb033f1.png)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjAbvqB76dOyljxUzN1icZeOrHkKIFUAmWDtnSPZLRKR8TK3xUtjFqnQQ/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_030_10bbf0495db0.png)
 
 可以用含有 12 个待定系数(广义坐标)的多项式来定义位移函数，这时 4 次式必须略去某些项,为保持对于 x,y 的对称性,可以方便地采用下式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjGP44n0rOIjz0OGxvZsuRmVzyf1hQx2bITVxgkuK4FFwibMyWKwPADyA/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_031_b26c5bab778a.png)
 
 根据单元4个结点坐标和结点位移代入上式，可求得，将它们代回上式，整理得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjj6UxbFYw1jkg0AVN4DsGBdgnuDZDQXYIottdbYEeicZpibqlkqrfib4saQ/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_032_6840915385ba.png)
 
 其中薄板的形函数矩阵为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjtaKyyrPFYVZt0f6OPmtmqzcA4dW9bmhK5G8XdA9pmUNprWsnNzv1DQ/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_033_bf3c7ba354cd.png)
 
 对应的参数化表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjQQczEWnw1tU3aQRJibwrxVITAbbeiaia8x1z4gcyVDgU4aNbPm4ZSGAiag/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_034_66b9c001b861.png)
 
 其中，矩形板沿x轴的长度为2a，沿y轴的长度为2b
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjj4QIhm7fyvvCOLJ2ffelTNoFFblZjMLgDNbdo1Y4ibaVVTXoRHUIMYiaQ/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_035_ddf073bce8d7.png)
 
 将上述离散后的位移场带入到几何方程中，可以得到应变矩阵的表达式为
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjklGkApzIWULvCt9yYqiaRfS4ev3TIK1y2RPvhwcn6eOeJkJOC7iar4jQ/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_036_c032ebe0ac25.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjX20GORWJ86ONdNJicrRicBoOmOxASqBDZG0oDJSDYeg1dZ56AFKjoiaQQ/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_037_89293c3ff3ac.png)
 
 将上述应变矩阵代入薄板的刚度矩阵
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjsozDicFZh9V0zDBcgwy0d2u2ic3VPJGveibJwVv1AvHgicL6icXRSdzASgA/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_038_768eb1465ada.png)
 
 **式中**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjT6B1V4LfuxibojtuicccteibfM4QTUVTy8BmMic7G5C0g8OPhrU6q4zlaw/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_039_994a312eab66.png)
 
 **令**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjWTP74iaa92PQ2cO0It4zBa3XwiahgqbnxTY4I1AbB2mzYib2zicVJp4ibyQ/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_040_0d73bd7d9590.png)
 
 经积分计算得到薄板单元刚度矩阵各元素如下
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjia8ID8wntmRbEO8gHW4tKK3Rt9UXAreiaZyW03l5No4pwu6PBEHm4Ktw/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_041_522d281d3050.png)
 
 式中C1~C13元素的表达式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/5vZeSpd7nNC2oK19zR9zGz060hXXOUjjARw2mlyX8uiaGocRnIpQHpvXL76koHx8CLoX8BOrf9UYyS0xhfkaP3Q/640?wx_fmt=png&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_042_20e1d01ea72a.png)
 
 根据上述表达式，可通过程序完成板单元的刚度矩阵的建立，进而进行静力分析，篇幅限制，本篇博文就到这里。
 
@@ -193,7 +193,7 @@ Mindlin/Reissner 理论其中比较典型的有三种：①Reissner理论；②M
 
 后续系列博文将继续介绍Mindlin板单元的有限元基本理论，以及板单元和壳单元的Matlab编程实现，包括静力分析和模态分析。推荐大家关注我的原创视频课程里面《[Matlab有元编程从入门到精通](http://mp.weixin.qq.com/s?__biz=MzI4Mjk2NzQzMQ==&mid=2247550237&idx=1&sn=c0d259918b2f780b2c8d9869444d2801&chksm=eb93a9f5dce420e3c84059579329caf3191c2931c7dc9b564dfc19d49b16f5a0bcdcd1a4fc0f&scene=21#wechat_redirect)》目前加餐到第35期。我还会持续更新，强烈推荐学习者订阅。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/5vZeSpd7nNCic5zYadU7olH4wP2uN8DfEawgUczMl3WhB04hdOaNB5EqMSiacLF7gN6lDn5EibMOurCO7NOPicT3xg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_043_aea80b19dca9.other)
 
   
 
@@ -207,14 +207,14 @@ Mindlin/Reissner 理论其中比较典型的有三种：①Reissner理论；②M
 
 识别下方二维码，**立即试看**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/ibn9IvQV94yZJ7NFBDlldTiapoFTm9eX0gIxwvsLE2Cn3pkqAARJHFnjCgwxREUg3RWZxVhUDvo7jYOSiblTcC3Zg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_044_b95c1c9ad6df.gif)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXekAp9ichqaXu3Ro7TbCUZKPmicFiaYftMdBqxzfYqgfX8JhN3k6GuqyRMMibv7w9m6eO8vAhOibiaPrUQ/640?wx_fmt=jpeg&from=appmsg)
+![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_045_720590731fa1.jpg)
 
 **本课程为matlab有限元编程专题课**，课程主要以**案例的形式进行讲解，**中间会穿插案例中所涉及到的**有限元基本理论**，案例不局限于力学问题的有限元求解，还会涉及**传热学、电学**等问题的有限元求解。
 
 因为固体力学领域我最熟悉，所以我们从固体力学开始，所涉及的单元有**杆单元，梁单元，平面三角形单元，薄板单元，厚板单元，四面体实体单元**等等，力学问题有**静力学问题**，也有**动力学问题**，后期还会涉及材料非线性、几何非线性、接触非线性等非线性问题，内容丰富，不断更新完善。
 
-**喜欢****作者******，请点********赞********和在看******![](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)**
+**喜欢****作者******，请点********赞********和在看******![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_046_ccb6b1d5c075.gif)**
 
-**![](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)**
+**![](板壳结构matlab有限元编程（一）_薄板单元基本理论与方程详解_images/img_047_3079cfee603e.gif)**

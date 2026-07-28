@@ -6,7 +6,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/iaxzY2iaFnkPoXkEsN3w56lZnw9xkSicYr9vQAZ4WSj6L7vEQLv8eKZayM48cMic6iaHwbh92nSgtqRpsWcnHRcJ93g/640)  
+![](Little_brain__Big_deal__自动化所团队发现人类小脑功能异质背后的遗传学证据_images/img_000_ad0376e689cf.png)  
 
   
 
@@ -28,19 +28,19 @@
 
 近日，中科院自动化所脑网络组研究中心樊令仲研究组联合国科大中丹科教中心、德国于利希研究中心等国内外研究机构，在国际精神疾病领域知名期刊《Molecular Psychiatry》上发表了题为“Uncovering the genetic proﬁles underlying the intrinsic organization of the human cerebellum”的研究论文。**该研究揭示了小脑功能异质性及其驱动因素（即小脑连接、小脑-皮层连接）的遗传基础，为解析自发状态下小脑内在功能组织模式提供证据。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YeYEOicfKO62RxokwSLeA19ickMP8R81fYWxKCOxy4RkjenyEFABq80wszbQ40FrvQUn6G9Tfem3TZHibTzVicDauA/640)
+![](Little_brain__Big_deal__自动化所团队发现人类小脑功能异质背后的遗传学证据_images/img_001_c95011f49c22.png)
 
 该研究运用了脑影像-转录组关联分析的思路，结合人脑转录组图谱（Allen Human Brain Atlas）和多模态人类脑影像数据，不仅鉴定出了443个小脑功能网络特异性基因，而且发现这些基因的共表达模式与静息状态下小脑自发的功能连接（Functional connectivity, FC）密切相关。其中90个基因还与大-小脑的情绪和认知功能网络的功能连接有关。
 
 通过观察基因共表达和功能连接之间偶联关系的变化，这443个小脑功能网络特异性基因被"虚拟敲除"分为了两个子集：基因贡献指标为正的基因集（positive gene contribution indicator，）和基因贡献指标为负的基因集（negative gene contribution indicator，）。通过后续的基因功能注释发现，主要参与小脑的神经发育过程，并在小脑延长的发育期显著高表达。而与神经递质传递有关，并且在婴儿晚期、儿童早期、青春期和成年早期显著表达。更有趣的发现是，与情绪认知行为高度关联, 同时与许多表现为小脑功能异常的神经精神疾病显著相关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YeYEOicfKO62RxokwSLeA19ickMP8R81fYibibI0jiafynzQrAWchZpXe5BoMs8mB9huib8a6qFnMPa4nrsxugeiclOMw/640)
+![](Little_brain__Big_deal__自动化所团队发现人类小脑功能异质背后的遗传学证据_images/img_002_ed895cc2059a.png)
 
 基因"虚拟敲除"：基因共表达和功能连接之间偶联关系
 
 综上，该研究发现了小脑功能分离背后的网络特异性基因与小脑内部以及大-小脑之间功能连接的高度相关。这些结果有助于重新思考小脑功能高度异质性背后的遗传基础，并为小脑参与高级功能以及神经精神疾病的功能障碍，提供微观-宏观相交互的可能性机制解释。同时，该研究还确定了重要的遗传标志物，支撑了小脑功能网络在情绪认知行为和许多脑部疾病中发挥的关键作用。这些发现暗示了建立小脑**"基因—连接—功能/功能障碍"**关联性假说的可能性，同时也为之后揭示小脑在自闭症、精神分裂症等神经发育障碍性疾病中扮演的角色提供了基础。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/YeYEOicfKO62RxokwSLeA19ickMP8R81fYVNgXPGDhGkWSXEZNJG4LZMtRPHQ3lKckWCv8ZQu33DbXqiaVYBjofYQ/640)
+![](Little_brain__Big_deal__自动化所团队发现人类小脑功能异质背后的遗传学证据_images/img_003_090f47ac09cd.png)
 
 人类小脑功能异质的遗传学基础研究思路
 
@@ -82,6 +82,6 @@ https://rdcu.be/cIAFV
 
 如需转载或投稿，请后台私信。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/YeYEOicfKO62RxokwSLeA19ickMP8R81fYYibWWVuISRm6u3A45a0GVo9QFWszDE9QkxtAicQJ6LoDIFDhNSrzwV4Q/640)
+![](Little_brain__Big_deal__自动化所团队发现人类小脑功能异质背后的遗传学证据_images/img_004_dd3e35277ffd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YeYEOicfKO62RxokwSLeA19ickMP8R81fY9rtTSrGWU8olOS0jzUqCZSXLFmpz084xsAVL1oNib5giaUvOKj86JDWA/640)
+![](Little_brain__Big_deal__自动化所团队发现人类小脑功能异质背后的遗传学证据_images/img_005_a1fe34e78296.png)

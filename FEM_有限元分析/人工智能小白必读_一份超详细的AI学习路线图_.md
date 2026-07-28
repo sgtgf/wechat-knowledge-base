@@ -198,7 +198,7 @@
 
 -   作者：\[美\] 埃里克·马瑟斯
     
--   简介：该书的特点是一半基础语法知识讲解，一半游戏案例练习，所谓寓教于乐，通过案例练习的方式巩固基础知识。![](https://mmbiz.qpic.cn/mmbiz_png/s8ydofJykicl6skcT53PNFy87G2ryhVCXdiaxjs9DiahhTXfTyna66wa5mmcN5hcBOX0h3mzICFOsjFJxSvGh0rFg/640?wx_fmt=png&from=appmsg)
+-   简介：该书的特点是一半基础语法知识讲解，一半游戏案例练习，所谓寓教于乐，通过案例练习的方式巩固基础知识。![](人工智能小白必读_一份超详细的AI学习路线图__images/img_000_5a6ae7bc574c.png)
     
 
 2.  《利用Python进行数据分析》
@@ -206,7 +206,7 @@
 
 -   作者：\[美\] Wes McKinney
     
--   简介：这本书是很多Python数据科学爱好者的入门导师。它讲解了Python数据科学库IPython、Pandas、Numpy、Matplotlib、sklearn的使用，如果玩转这几大工具，任何复杂的数据处理、建模任务都能搞定。![](https://mmbiz.qpic.cn/mmbiz_png/s8ydofJykicl6skcT53PNFy87G2ryhVCXu9XHtUPL2E8edMsEg9DenSfcYxOjrKroTGXQCMyEGiagF5zDTtl8tkg/640?wx_fmt=png&from=appmsg)
+-   简介：这本书是很多Python数据科学爱好者的入门导师。它讲解了Python数据科学库IPython、Pandas、Numpy、Matplotlib、sklearn的使用，如果玩转这几大工具，任何复杂的数据处理、建模任务都能搞定。![](人工智能小白必读_一份超详细的AI学习路线图__images/img_001_06e9c6d77c16.png)
     
 
 3.  《Python数据科学手册》
@@ -214,7 +214,7 @@
 
 -   作者：\[美\] Jake VanderPlas
     
--   简介：这本书提供了Python中用于数据科学的工具和库的指南，包括NumPy、Pandas、Matplotlib等，这些都是进行人工智能实验不可或缺的工具。![](https://mmbiz.qpic.cn/mmbiz_png/s8ydofJykicl6skcT53PNFy87G2ryhVCXLLr5FAE95RcWF0pNlOUeCpiadfIX4JdOBxI9Bl7Wib0W9GPDk2CsgTdg/640?wx_fmt=png&from=appmsg)
+-   简介：这本书提供了Python中用于数据科学的工具和库的指南，包括NumPy、Pandas、Matplotlib等，这些都是进行人工智能实验不可或缺的工具。![](人工智能小白必读_一份超详细的AI学习路线图__images/img_002_59ce6f7a5d23.png)
     
 
 * * *
@@ -258,7 +258,7 @@
 
 -   作者：吴军
     
--   简介：这本书以通俗易懂的方式介绍了数学在计算机科学中的应用，特别适合对人工智能感兴趣但缺乏数学基础的同学。![](https://mmbiz.qpic.cn/mmbiz_png/s8ydofJykicl6skcT53PNFy87G2ryhVCXYONgS7OGTwPRDwt1OQE7mscmDwLls21HBraFSdGPecTkMuFG28kDMg/640?wx_fmt=png&from=appmsg)
+-   简介：这本书以通俗易懂的方式介绍了数学在计算机科学中的应用，特别适合对人工智能感兴趣但缺乏数学基础的同学。![](人工智能小白必读_一份超详细的AI学习路线图__images/img_003_20806bc4f487.png)
     
 
 2.  **《白话机器学习的数学》**
@@ -266,7 +266,7 @@
 
 -   作者： \[日\]立石贤吾
     
--   简介：本书通过正在学习机器学习的程序员绫乃和她朋友美绪的对话，结合回归和分类的具体问题，逐步讲解了机器学习中实用的数学基础知识。![](https://mmbiz.qpic.cn/mmbiz_png/s8ydofJykicl6skcT53PNFy87G2ryhVCXdic4uv2mAVL26XuKroQW6j7en8micK9j8288QuAias5oKG2FsnWF1buQg/640?wx_fmt=png&from=appmsg)
+-   简介：本书通过正在学习机器学习的程序员绫乃和她朋友美绪的对话，结合回归和分类的具体问题，逐步讲解了机器学习中实用的数学基础知识。![](人工智能小白必读_一份超详细的AI学习路线图__images/img_004_cf3afd316e56.png)
     
 
 * * *
@@ -380,7 +380,7 @@
 
 -   作者：李航
     
--   简介：这是一本较为深入的机器学习教材，详细介绍了各种经典的机器学习方法。![](https://mmbiz.qpic.cn/mmbiz_png/s8ydofJykicl6skcT53PNFy87G2ryhVCXXQ1xdyhjeoRysIiawl9siagQkibNnxXSRDG9icc0OCib6E74jBs3WbhwP9g/640?wx_fmt=png&from=appmsg)
+-   简介：这是一本较为深入的机器学习教材，详细介绍了各种经典的机器学习方法。![](人工智能小白必读_一份超详细的AI学习路线图__images/img_005_743602a064fb.png)
     
 
 2.  《机器学习》（又称西瓜书）
@@ -388,13 +388,13 @@
 
 -   作者：周志华著
     
--   简介：这本书系统全面地介绍了机器学习的基础知识，包括监督学习、非监督学习、半监督学习、强化学习等内容，并且配有丰富的案例。![](https://mmbiz.qpic.cn/mmbiz_png/s8ydofJykicl6skcT53PNFy87G2ryhVCXxuwJ9sDYxu48MMdlk2WB6ThfzvX7ibk6wFnicgAaua9ZPzxBYkovT4ibw/640?wx_fmt=png&from=appmsg)
+-   简介：这本书系统全面地介绍了机器学习的基础知识，包括监督学习、非监督学习、半监督学习、强化学习等内容，并且配有丰富的案例。![](人工智能小白必读_一份超详细的AI学习路线图__images/img_006_cc87e8b8b60e.png)
     
 
 3.  《Scikit-Learn官方文档》：
     
 
--   推荐理由：虽然是文档，但是非常实用，可以快速掌握各种机器学习算法的具体实现。![](https://mmbiz.qpic.cn/mmbiz_png/s8ydofJykicl6skcT53PNFy87G2ryhVCXwe3XaNrCuAKSe6A2ELLrIAagJIGkuAS7gg132f5oDJn0YsAPVI1Bww/640?wx_fmt=png&from=appmsg)
+-   推荐理由：虽然是文档，但是非常实用，可以快速掌握各种机器学习算法的具体实现。![](人工智能小白必读_一份超详细的AI学习路线图__images/img_007_90c803032438.png)
     
 
 * * *
@@ -537,7 +537,7 @@
 
 -   作者：\[美\]伊恩·古德费洛、\[加\]约书亚·本吉奥、\[加\]亚伦·库维尔.
     
--   简介：这本书被广泛认为是深度学习领域的圣经。它详细介绍了深度学习的理论基础，包括神经网络、卷积神经网络、循环神经网络等，并提供了大量的实践案例。![](https://mmbiz.qpic.cn/mmbiz_png/s8ydofJykicl6skcT53PNFy87G2ryhVCXuiaFNCeicszqKU56LF1zymhwczVayU4ECgGhHw5MVNiapyg4NNPky34kw/640?wx_fmt=png&from=appmsg)
+-   简介：这本书被广泛认为是深度学习领域的圣经。它详细介绍了深度学习的理论基础，包括神经网络、卷积神经网络、循环神经网络等，并提供了大量的实践案例。![](人工智能小白必读_一份超详细的AI学习路线图__images/img_008_91ae42e65abb.png)
     
 
 2.  《Python深度学习》（第2版）
@@ -545,7 +545,7 @@
 
 -   作者：弗朗索瓦·肖莱(Keras库的创建者)
     
--   简介：这本书用简洁明了的语言介绍了深度学习的概念，并提供了大量的实例和代码示例。![](https://mmbiz.qpic.cn/mmbiz_png/s8ydofJykicl6skcT53PNFy87G2ryhVCXX4YYiaMVXKsgy2JOWkQFAVA7tkcLX6KdIdYnbOFRERia5kdyr4NWwd7A/640?wx_fmt=png&from=appmsg)
+-   简介：这本书用简洁明了的语言介绍了深度学习的概念，并提供了大量的实例和代码示例。![](人工智能小白必读_一份超详细的AI学习路线图__images/img_009_d552330d19d4.png)
     
 
 3.  《动手学深度学习》
@@ -553,7 +553,7 @@
 
 -   作者：阿斯顿·张（Aston Zhang）、李沐（Mu Li）等
     
--   简介：本书旨在向读者交付有关深度学习的交互式学习体验。本书同时覆盖深度学习的方法和实践。与传统图书不同，本书的每一节都是一个可以下载并运行的 Jupyter记事本，它将文字、公式、图像、代码和运行结果结合在了一起。![](https://mmbiz.qpic.cn/mmbiz_png/s8ydofJykicl6skcT53PNFy87G2ryhVCXQXsAa0jmgVrGmHCicejPnS4WAPydA6akhmpQKaQYU6pFYia7Oibucvx4A/640?wx_fmt=png&from=appmsg)
+-   简介：本书旨在向读者交付有关深度学习的交互式学习体验。本书同时覆盖深度学习的方法和实践。与传统图书不同，本书的每一节都是一个可以下载并运行的 Jupyter记事本，它将文字、公式、图像、代码和运行结果结合在了一起。![](人工智能小白必读_一份超详细的AI学习路线图__images/img_010_d74a11d68177.png)
     
 
 * * *

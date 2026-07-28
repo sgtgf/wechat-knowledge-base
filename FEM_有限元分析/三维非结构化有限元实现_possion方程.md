@@ -13,41 +13,41 @@
 
     不同于六面体，四面体的插值函数是由体积坐标推导而来，如图所示，四面体任意一点的插值结果可以通过该点与四面体任意三点围成的新四面体体积与原本四面体体积的比值相关。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KUy6qtt0xPFFRGXngH7hibYPQ1Vw7tNOfF1rprKOMImasDpzib7bpsp5tA/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_000_910dfb238eff.png)
 
 因此，用体积坐标推导插值基函数，可以表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KUlSBh4adf9RqmQKMJRJWibzG6DZ7XrricMBEHFIuq7LNIAIl7AwibgKQAA/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_001_743e2f46a814.png)
 
 其中，V1234表示点1，2，3，4围成的四面体体积；Vp234表示点p,2,3,4围成的体积，其他体积以此类推。其中V1234的体积公式如下:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KUOgkicb3ibnsHx5lXha8pVOaOvJeicwZzKIw9eSWhTmricmbY79Unwz0UZQ/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_002_95b66299fb85.png)
 
 由于p点是任意一点，所以Vp234体积可以表示为x,y,z的函数，：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KUlmGn83KoMG5ZOWxaib1ko6xV42tnXwefbouNmv7Ix4NmhyVPhxmICzg/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_003_e03f57f3f239.png)
 
 其他四面体体积也可以通过行列式运算获得类似Vp234的行列式结构：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KUlE4nuqc0U8OITjU69iaBMGxmTvmVOnQp9b28mlxzovGhoZicMd8FSiaKw/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_004_e7bb414d5b79.png)
 
 由此，通过体积比，可以获得四个插值基函数对应的系数矩阵，简写可以表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KUyyEKiatsRkJUn67AEFKX1B1R2ZiayyqAjTrjicaE1eJiaOfxlGCfj3EMjA/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_005_1d4859130eb0.png)
 
 其中，插值基函数的梯度可以表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KUST2hxYJBPOV4ltOtcAJ1sWzPcAZicNyAiaFIsuFCibrcqfKibD2SO27laA/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_006_8db787129000.png)
 
 可以发现，对于插值基函数，其各方向的梯度为常系数。
 
 本次文章使用一阶基函数，因此有：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KUxEgUiaF9JNmicNHsMq0HQeu2rXG2HnX7paETQejiawgSiaXPSVFQibVibU6Q/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_007_6a13382b2384.png)
 
 则任意一点p的数值结果的插值公式表示为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KUjic5xgHuhdCX8sS2ibMjNfDLia43ldqy9oFGdWV8Csb6tWia0xJK2icT83g/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_008_f8a80f2d3c58.png)
 
 结合四面体图中，不难分析插值公式的意义：当插值点p移动到1号节点的时候，可以发现Vp234=V1234，此时N1=1，而N2,N3,N4都等于0，因此得到p点数值结果up=u1，与图形分析结果一致。进一步思考发现，Ni其实表示四个节点位置数值的权重，而这个权重值则由p围成的新四面体体积与原本四面体体积比确定，因此Ni的数值一定是小于等于1的。  
 
@@ -55,23 +55,23 @@
 
 针对三维泊松方程的第一项：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KUv10vBMvy2Q5vCEVluTOUqOFsjCmdicwlJUBUWUh7bkFuph7ADyfE0nw/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_009_12be2542fac0.png)
 
 将1中推导的基函数梯度带入上述公式中得到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KUAg5NqtQ6U9rvGStKyTsJxUbHlq2QibdUicVhTmfyhVbrkwP9YM8Vsu3g/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_010_705d27052a1c.png)
 
 第二项右端项推导可以通过查表获得：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KU9NZrFDwv2L1iarz4xVX6hhVtkHLVZZuNGwXrLXBxXKjSVVenVq5GhyA/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_011_3ac19dcc1361.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KU2vgE9hpMWiaS22wN5Lrug8ryKxpWL794HeMveeBfJR3QsibCBuAU9JOQ/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_012_e4382e96af1c.png)
 
 **3.系数矩阵组装**
 
 对于四面体网格而言，本文使用开源代码tetgen实现网格剖分，获得ele、node、face等网格信息，以下展示网格：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KUwtMVReALkElDmSgDuezfNMR7hwwPhkK5tdFEwfTFllPoedpu8iaSfpg/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_013_2d9fba0cc308.png)
 
 ele文件中包含每个四面体节点信息，node中包含节点坐标信息，face中包含标记边界面的信息，读取三者后，就可以确定一个四面体网格的基本拓扑关系。
 
@@ -87,23 +87,23 @@ ele文件中包含每个四面体节点信息，node中包含节点坐标信息�
 
 首先求解拉普拉斯方程，也就是把右端项置零，然后使用第一类边界条件，在Y=0处放置0，Y=10处放置1，其他边界不进行处理。绘制结果切片图如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KUDqbbG4BM0mln5PW5m4emSibFI9AbsOLAeuibFhiaCUk9jSamuKL70PLQA/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_014_00bc555156e2.png)
 
 不难发现上述结果与理论解u=y/10是一致的，因此基本上可以确定整个有限元流程是没有问题的。
 
 进而，我们再加入右端项：对每个单元加载负载，并且对所有边界处理成第一类边界条件赋值为零，将节点上的数值结果插值在y=5切片上，x\*z=20\*20，绘制结果如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KUeHp90WGmchUkUtibHibokuFU5xIDvhxtkRL1onH1neO9ffUheNBDByUw/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_015_707bb76b9209.png)
 
 b**.四面体网格节点个数：4277;四面体个数：20503**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KUiam24cicoheFdIR3zubYaMohT9bBGkNpTQZgxEqxyfBJGcgQeNoCiabmA/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_016_8cc0bfbf64aa.png)
 
 可以发现，当网格量加大后，插值结构也更加的光滑。但是计算时间也急剧增加，网格单元为2234个的时候，仅需要2.27s,而网格单元为20503个的时候，需要21s时间。
 
 三维切片显示如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNpzHSxqZ8OonS1uxbapt7KU7H2KiakZWqOgaXnjQGibWpaJR8wpMGaZpjZslx1oekuvKexhrFgUafHA/640?wx_fmt=png&from=appmsg)
+![](三维非结构化有限元实现_possion方程_images/img_017_e724f9f72142.png)
 
 **5.结论**
 

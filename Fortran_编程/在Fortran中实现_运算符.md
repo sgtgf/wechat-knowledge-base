@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/xGqcDOND2AhgW4SIhVPW7Q](https://mp.weixin.qq.com/s/xGqcDOND2AhgW4SIhVPW7Q)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWrn7o7smSdbpRDfYMwJPnEC8UW3Kx0LXkvibtz4Csq8xsDpRXPjK4O3n5zVWMoBLibptbR3oumk65A/640?wx_fmt=jpeg)
+![](在Fortran中实现_运算符_images/img_000_1cc32dc57e4f.jpg)
 
 在数值计算中，浮点数的等价性比较是一个常见需求。然而，由于浮点数的表示方式，直接使用等号（==）来判断两个数是否相等往往不是最佳选择。在Fortran中，我们可以通过自定义一个近似等价运算符（≈）来简化这一过程。本文将介绍如何在Fortran中实现这一功能，并展示其在实数标量和数组等价性比较中的应用。
 
@@ -57,7 +57,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](在Fortran中实现_运算符_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

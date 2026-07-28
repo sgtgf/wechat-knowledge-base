@@ -30,7 +30,7 @@
 
 此外，Notepad++ 还有大量的插件可供选择安装。有人评价说，几乎你能想到的处理文本的方法都可以用 Notepad++ 来实现。其他的更多的功能就需要靠大家自己来挖掘了。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWWrM1x0rBJv8IKeb5C67FJ18iaD4lK6rcXibwGzBpdA9aKG0MqZ0YoENL7vLqoVAHGuNHcaKKT0E5A/640?wx_fmt=jpeg&from=appmsg)
+![](有限元编程调试_(debug)_技巧_images/img_000_124f5c69ce2f.jpg)
 
 ## 学会看报错信息
 
@@ -107,7 +107,7 @@ dat 文件具体内容主要包括以下 5 部分：
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](有限元编程调试_(debug)_技巧_images/img_001_d981f1eb49d0.png)
 
 FEtch 系统是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

@@ -15,7 +15,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/DRPKCGMAPjKzncOsqKVQInBQ7RU7WTSXJdmD2OEMiciawJtrbZAicXnwK8cFHw5ddlCRcHWKu2ZxvHlpHmU8UN4Ew/640?wx_fmt=gif&random=0.8826494882670834&random=0.2878116825071684)
+![](国产Matlab开发的难点在哪里__images/img_000_03bb5a8291e4.gif)
 
   
 
@@ -48,7 +48,7 @@ Matlab 拥有一个庞大且成熟的生态系统，包括各种工具箱、Simu
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/DRPKCGMAPjKzncOsqKVQInBQ7RU7WTSXJdmD2OEMiciawJtrbZAicXnwK8cFHw5ddlCRcHWKu2ZxvHlpHmU8UN4Ew/640?wx_fmt=gif&random=0.6136562959557268)
+![](国产Matlab开发的难点在哪里__images/img_001_d292cc6af3fd.gif)
 
   
 
@@ -56,13 +56,13 @@ Matlab 拥有一个庞大且成熟的生态系统，包括各种工具箱、Simu
 
 道阻且长，行则将至。欢迎各位有志之士贡献自己的力量！
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVWib99Zl4NLmmoHwp92VjmMNSqAyM049iaxqAKRyKMWhoVGHB5sJhjV4YT1n6RFc6j8cawYA0d7j2gg/640?wx_fmt=png&from=appmsg)
+![](国产Matlab开发的难点在哪里__images/img_002_1e184cea1409.png)
 
   
 
   推荐阅读
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1&random=0.37045841736508&random=0.7879705548228597&random=0.9882141539371987)
+![](国产Matlab开发的难点在哪里__images/img_003_769e2f69401f.other)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

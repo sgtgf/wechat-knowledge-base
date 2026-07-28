@@ -1,0 +1,33 @@
+# PCB Layout爬电距离和走线的设计要求
+
+原创 硬件笔记本 2020-09-04 17:57 undefined
+
+> 原文地址: [https://mp.weixin.qq.com/s/mVa9G5YKE0qcmk83wTfNZw](https://mp.weixin.qq.com/s/mVa9G5YKE0qcmk83wTfNZw)
+
+爬电距离：沿绝缘表面测得的两个导电零部件之间或导电零部件与设备防护界面之间的最短路径。如下图所示:
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tIsUBJBa82CCEpro2utia6sGhxBEvDMIYIdIgmoJOiaQhpJ5N55ZCx0C12vftJfkxdf4udibw4mpHIDQ/640?wx_fmt=jpeg)
+
+  
+
+一、爬电距离要求，通常情况下：
+
+（1）输入交流部分：L—N之间≥2.5mm，L、N 和大地之间≥2.5mm；
+
+（2）整流后310v电压到地1.5mm；
+
+（3）变压器初级地和次级地之间≥6.4mm。
+
+备注:
+
+间距设计原则为，一般1mm间距耐压300v，在条件满足的情况下，距离设置越大越好；
+
+当爬电距离不够怎么办，可以开槽，开槽能增加爬电距离，开槽时要注意槽的位置、长短是否合适，以满足爬电距离的要求。
+
+  
+
+二、走线要求，通常如下:
+
+（1）根据PCB生产厂家的加工能力，导线和导线之间，导线到焊盘之间的间距不得低于4mil。一般常规间距在10mil。
+
+（2）走线宽度根据电流大小来确定，举个例子，铜厚1OZ，1mm线宽可按耐电流1A来取值，在条件满足的情况下，走线尽量宽。

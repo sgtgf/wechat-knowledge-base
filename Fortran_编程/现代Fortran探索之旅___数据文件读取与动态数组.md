@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/d4wYoYy\_\_IK\_ZdK1h5OqGA](https://mp.weixin.qq.com/s/d4wYoYy__IK_ZdK1h5OqGA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+![](现代Fortran探索之旅___数据文件读取与动态数组_images/img_000_8bcddb233e93.jpg)
 
 在科学计算和数据处理的领域中，Fortran语言因其高效的数值计算能力和对数组操作的强大支持而广受欢迎。在处理实际问题时，在处理大规模数据时，文件的读取和存储成为了一个不可或缺的环节。本文将基于一个具体的案例，探讨如何使用Fortran进行数据文件的读取，以及如何有效地利用动态数组来处理不确定大小的数据集。
 
@@ -83,7 +83,7 @@
 
 通过本文的讨论，我们了解了如何使用Fortran读取数据文件，并利用动态数组来处理不确定大小的数据集。同时，我们也探讨了两种解决子程序中动态数组参数编译错误的有效方法。这些技术将有助于编写更加高效、灵活和可维护的Fortran程序。通过合理地使用动态数组和模块化设计，我们可以提升程序的性能，简化代码结构，并为未来的扩展和维护打下坚实的基础。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](现代Fortran探索之旅___数据文件读取与动态数组_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于 Fortran 90 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

@@ -1,0 +1,68 @@
+# 清晰明了的晶振电路PCB设计
+
+原创 硬件笔记本 2023-06-13 07:40 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/oN1WTg9AT0EgNrXImVPVTA](https://mp.weixin.qq.com/s/oN1WTg9AT0EgNrXImVPVTA)
+
+## ![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+  
+
+我们常把晶振比喻为数字电路的心脏，这是因为，数字电路的所有工作都离不开时钟信号，晶振直接控制着整个系统，若晶振不运作那么整个系统也就瘫痪了，所以晶振是决定了数字电路开始工作的先决条件。
+
+  我们常说的晶振，是石英晶体振荡器和石英晶体谐振器两种，他们都是利用石英晶体的压电效应制作而成。在石英晶体的两个电极上施加电场会使晶体产生机械变形，反之，如果在晶体两侧施加机械压力就会在晶体上产生电场。并且，这两种现象是可逆的。利用这种特性，在晶体的两侧施加交变电压，晶片就会产生机械振动，同时产生交变电场。这种震动和电场一般都很小，但是在某个特定频率下，振幅会明显加大，这就是压电谐振，类似于我们常见到的LC回路谐振。             
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaGtXUy6tkicG5cMAwXYibhhf9lOsXVe6PX04ia4NicjOiac2Sjt3GJHPpVEnENIxvDjskApG3OvkE8HGw/640?wx_fmt=png)
+
+  
+
+由于晶振在数字电路中的重要性，在使用和设计的时候我们需要小心处理：
+
+1\. 晶振内部存在石英晶体，受到外部撞击或跌落时易造成石英晶体断裂破损，进而造成晶振不起振，所以在设计电路时要考虑晶振的可靠安装，其位置靠近CPU 芯片优先放置，远离板边。
+
+2\. 在手工焊接或机器焊接时，要注意焊接温度。晶振对温度比较敏感，焊接时温度不能过高，并且加热时间尽量短｡
+
+3\. 耦合电容应尽量靠近晶振的电源引脚，位置摆放顺序：按电源流入方向，依容值从大到小依次摆放，容值最小的电容最靠近电源引脚。
+
+4\. 晶振的外壳必须接地，可以防止晶振向外辐射，也可以屏蔽外来信号对晶振的干扰。
+
+5\. 晶振下面不要布线，保证完全铺地，同时在晶振的300mil范围内不要布线，这样可以防止晶振干扰其他布线、器件和层的性能。
+
+6\. 时钟信号的走线应尽量短，线宽大一些，在布线长度和远离发热源上寻找平衡。
+
+7\. 进行包地处理
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaGtXUy6tkicG5cMAwXYibhhf6XUicCr00CibcTS6libRGD9hMQ6PV2ujiauAQVOvCc59p0y0KacEqqKoHg/640?wx_fmt=png)
+
+（圆柱形晶振）在外壳接地时加一个和晶振外形差不多的矩形焊盘,让晶振"平躺"在这一焊盘上,在焊盘的两条长边附近各开一个孔(孔要落在焊盘内,若能用一个多层焊盘代替孔则更佳,这两个多层焊盘要与矩形焊盘相连),然后用一根铜丝或其他裸导线将晶振"箍"住,铜丝的两端则焊接在你所开的两个孔或焊盘里里.这样可以避免高温焊接对晶振的破坏,又能保证接地良好。
+
+当然，也有人在晶振上加焊点，进行接地处理。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaGtXUy6tkicG5cMAwXYibhhfEuj9umDC6mS9vV2aCU3QHxqticUC5uMicav74bt4r4ib1fmU2icWcp7jUA/640?wx_fmt=png)
+
+通过堆砌锡膏或焊接导线接入接地电路的方式（存在损坏晶振性能风险），作为样机测试尚可。批量生产不建议这么做，而且外观不太好看。
+
+## 
+
+**声明：**
+
+  
+
+声明：本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+  
+
+**推荐阅读▼**
+
+-   [电路设计-电路分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2811359150088683521#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

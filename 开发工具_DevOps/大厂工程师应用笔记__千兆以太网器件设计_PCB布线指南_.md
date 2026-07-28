@@ -1,0 +1,424 @@
+# 大厂工程师应用笔记——千兆以太网器件设计、PCB布线指南！
+
+原创 硬件笔记本 2023-12-25 07:44 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/JuJsFz\_ubu3S12VqcXQ-dQ](https://mp.weixin.qq.com/s/JuJsFz_ubu3S12VqcXQ-dQ)
+
+# ![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+本应用笔记旨在帮助客户使用Microchip的10/100/1000 Mbps以太网器件系列设计PCB。本文档提供有关PCB布线建议， PCB 布线是保持信号完整性和减少EMI问题的关键环节。**本文涵盖以下主题：**
+
+• 通用PCB布线指南
+
+• 以太网布线指南
+
+• EMI注意事项
+
+• ESD注意事项
+
+• 常见布线问题疑难解答
+
+  
+
+**_01_****_._**
+
+**低通用PCB布线指南**
+
+  
+
+**电源注意事项：**
+
+确保足够的电源额定值。确认所有电源和稳压器都能提供所需的电流大小。
+
+电源输出纹波应限制在50 mV以下（为了获得最佳性能，最好小于10 mV）。
+
+所有电源和地平面上的噪声水平应限制在50 mV以下。
+
+铁氧体磁珠的额定电流应为预期提供电流的4-6倍。另外，还应考虑因温度产生  的降额。
+
+**器件去耦：**
+
+PCB装配上的每个高速半导体器件都需要去耦电容。每个电源引脚都需要一个去耦电容。
+
+去耦电容值取决于应用。典型的去耦电容值范围为0.001 μF至0.1 μF。
+
+总去耦电容应大于提供给数字输出缓冲器的负载电容，以避免将噪声引入电源。
+
+通常，选择II类介电电容进行去耦。首选方案是X7R介电陶瓷电容，因为它具有出色的稳定性、合理的封装尺寸以及优异的电容特性。设计人员的第二个选择是X5R介电电容，因为它具有出色的稳定性。但是，X5R在封装尺寸与电容特性方面可能会存在一定的限制。考虑去耦电容特性时，低电感至关重要。
+
+每个去耦电容都应尽可能靠近要去耦的电源引脚。
+
+所有去耦电容引线应尽可能短。最佳做法是将电容直接连接到地以及顶层的电源引脚。如果不得不使用过孔，则焊盘到过孔的连接长度应小于10 mil。走线连接应尽可能宽，以降低电感。
+
+强烈建议考虑通过两个过孔连接所有旁路电容的地，以极大地减小该连接的电感。
+
+  
+
+**PCB旁路：**
+
+➤ 旁路电容应放置在靠近PCB上所有电源入口点的位置。这些电容从高速数字负载吸收高频电流。
+
+➤ 设计中的所有电源连接和所有稳压器均应使用旁路电容。
+
+➤ 旁路电容的值取决于应用，由电源的频率以及负载瞬态幅值和频率决定。
+
+➤ 所有旁路电容引线应尽可能短。最佳做法是将电容直接连接到地以及顶层的电源引脚。如果不得不在表面贴装焊盘外使用过孔，则焊盘到过孔的连接长度应小于10 mil。走线连接应尽可能宽，以降低电感。
+
+➤ 强烈建议考虑通过两个过孔连接所有旁路电容的地，以极大地减小该连接的电感。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/p8ejy8cSKCabI9Z0govHsRPQCv9PI9RxcLPrhFXnRJayozuf1De028gJrL0XUtpbtr1yXFf0pI164nuhhzLCmw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图1 PCB旁路技术示例
+
+**PCB大电容：**
+
+➤必须适当利用大电容，以将开关噪声降至最低。大电容有助于保持恒定的直流电压和电流大小。
+
+➤设计中的所有电源平面和稳压器均应使用大电容。
+
+➤旁路电容的值取决于应用，由电源的频率以及负载瞬态幅值和频率决定。
+
+➤所有大电容引线应尽可能短。最佳解决方案是在表面贴装焊盘内使用平面连接过孔。在表面贴装焊盘外使用过孔时，焊盘到过孔的连接长度应小于10mil。走线连接应尽可能宽，以降低电感。
+
+➤遵循良好的设计原则，只要在电路中使用铁氧体磁珠，就应在铁氧体磁珠的每一侧放置大电容。
+
+➤如果在USB连接器上使用铁氧体磁珠来对VCC进行滤波，则建议不要在USB连接器侧使用大电容。这是限制USB电路浪涌电流的一种尝试。Microchip强烈建议在铁氧体磁珠内侧使用4.7μF的大电容。
+
+PCB层策略：
+
+➤所有以太网LAN设计至少使用4层PCB。
+
+➤在典型的PCB层叠结构中，顶层（元件侧）为信号，第2层为固定连续地平面，第3层为固定电源平面，第4层为另一个信号。第1层被视为主要的关键布线和元件层，因为其正下方是固定数字地平面。另外，第1层不需要通过过孔来连接位于第1层的元件。
+
+➤所有PCB走线（尤其是高速和关键信号走线）应在固定连续地平面层相邻的第1层上布线。这些走线必须具有连续的参考平面，才能满足其整个传导长度的要求。应避免信号走线穿过平面分割处（图2），因为这会导致不可预测的返回路径电流，并且可能引起信号完整性问题以及产生EMI问题。如果不得不穿过参考平面中的分割处，请考虑添加拼接电容。
+
+➤需要将以太网机架地平面与数字地平面分离。
+
+➤避免在PCB设计和系统设计中形成接地回路。
+
+➤为了便于布线并最大程度减少信号串扰问题，多层设计中的相邻层应以正交方式布线。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/p8ejy8cSKCabI9Z0govHsRPQCv9PI9RxRcRUJVZho6L5yPqkVIH2I8zSUH6u8OTRQGkv7kq1p5Bbyv7ArnNEicA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图2 信号穿过平面分割处的示例
+
+  
+
+**推荐的层叠布局** 
+
+•  四层板
+
+\-  信号 1 （顶层）
+
+\-  GND
+
+\-   电源平面/GND 
+
+\-  信号2
+
+•  六层板
+
+\-  信号 1 （顶层）
+
+\-   电源平面/GND
+
+\-  信号2（最适合时钟和高速信号）
+
+\-  信号3（最适合时钟和高速信号） 
+
+\-  GND
+
+\-  信号4
+
+  
+
+**信号完整性问题：**
+
+➤ 根据需要为所有高速开关信号和时钟线提供交流端接。在走线的负载端进行上述端接。随着PCB上走线长度的增加，这一设计问题变得更加关键。
+
+➤ 提供阻抗匹配的串联端接，以最大程度地减小关键信号（地址、数据和控制线）中的振铃、过冲和下冲。这些串联端接应位于走线的驱动器端，而不是走线的负载端。随着PCB上走线长度的增加，这一设计问题变得更加关键。
+
+➤ 尽量减少在整个设计中使用过孔。过孔会增加信号走线的电感。
+
+➤ 请务必查看整个PCB设计，了解是否有走线在任何参考平面切口上方穿过。这很有可能会引起EMC问题。
+
+➤ 通常，应查看所有信号串扰设计规则以避免串扰问题。确保走线间有足够的间隔，以避免串扰问题。
+
+➤ 也可使用保护走线来最大程度地减少串扰问题。
+
+  
+
+**PCB走线注意事项：**
+
+➤ 避免在高速数据走线中使用90度角。这类角度会影响走线宽度和快速信号的阻抗控制。
+
+➤ 要使 PCB 走线能够提供所需电流量，应为其设计合理的宽度。在顶层或底层的局部区域中使用迷你平面，这样可确保提供足够的电流。
+
+➤ 连接任何电源平面或地平面的所有元件引线应尽可能短。最佳解决方案是在表面贴装焊盘内使用平面连接过孔。在表面贴装焊盘外使用过孔时，焊盘到过孔的连接长度应小于10 mil。走线连接应尽可能宽，以降低电感。这包括为电源层供电的任何铁氧体磁珠以及为电源层供电的熔丝等 。
+
+  
+
+**晶振电路：**  
+
+➤ 将所有晶振电路元件置于顶层。这将使所有这些元件及其走线以同一数字地平面为参考。
+
+➤ 尽可能将所有晶振元件和走线与其他信号隔离。晶振对杂散电容和其他信号的噪声敏感。晶振还可能干扰其他信号并引起EMI噪声。
+
+➤ 负载电容、晶振和并联电阻应靠近彼此放置。负载电容的接地连接应较短，并远离USB和VBUS电源线的返回电流。负载电容的返回路径应连接到数字逻辑电源的地平面。
+
+➤ 从以太网器件到晶振、电阻和电容的PCB走线应在长度上匹配，彼此应尽可能靠近，同时保持最短的路径。长度匹配的优先级应高于最短的路径长度。
+
+➤ 验证晶振电路在应用的整个工作范围内工作时是否符合规范（+/-50 PPM）。这包括温度、时间和应用容差。
+
+  
+
+**接地标志（外露焊盘）中的过孔：**
+
+➤ 在GND标志上打满过孔，以确保到地平面的热连接和电气连接良好。地平面应为1 oz或更高值，以确保器件具有固定的GND参考。这将有助于降低GND噪声并为器件提供理想的散热效果。图3给出了标志焊盘中的接地过孔区示例。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/p8ejy8cSKCabI9Z0govHsRPQCv9PI9Rx0UHldCTf8msONJHpEiaRcmkRkcYLAIcdpeyviazkHapIj2zNfAoaUUoQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图3 标志焊盘中的接地过孔区示例
+
+  
+
+**_02_****_._**
+
+**标志焊盘中的接地过孔区示例**
+
+以太网差分对：
+
+➤ 每个TRxP/TRxN信号组都应作为差分对布线。这包括从RJ45 连接器到LAN器件的整段走线。
+
+➤ 单个差分对应尽可能靠近布线。通常，在开始计算阻抗时，选择最小的走线间距（4-5 mil）。然后调整走线宽度以 获得必要的阻抗。
+
+➤ 差分对应构造为 100Ω受控阻抗对。
+
+➤ 差分对应远离所有其他走线布线。尝试使所有其他高速走线与以太网前端保持至少0.300英寸的距离。
+
+➤ 确保器件与RJ45 之间的对内和对间偏移分别小于50 mil和600 mil。
+
+➤ 差分对的长度应尽可能短。
+
+➤ 尽可能不要过孔。如果使用过孔，请保持最小值并始终匹配过孔，以便平衡差分对。
+
+➤ 最大程度减少层变化。尽可能使差分对以相同的电源/地平面为参考。
+
+➤ 通常，将千兆位以太网的四个差分对连接到RJ45连接器时，至少有一对需要通过过孔连接到相对的外部层。在这种 情况下，必须确保电路板另一侧（通常是第4层）上的布线经过对地阻抗较低的连续参考平面。切勿越过平面边界 布线。
+
+➤ 为获得最佳抗扰度，布线时尽可能使每个差分对互相远离。
+
+➤ 端接应始终使用与差分布线相同的参考平面。
+
+➤ 应先对差分对进行布线。确定布线后再添加端接。只需将端接“放在”差分布线上即可。
+
+➤ 太网前端的所有电阻端接应具有 1.0%容差值。
+
+➤ 以太网前端的所有电容端接都应具有严格的容差和高质量的电介质。
+
+➤ 为了实现最佳分离效果，可以通过在差分对之间插入地平面孤岛来进行实验。应使该地平面与任何走线的间距保持 为电解质距离（PCB内铜层的间距）的3至5倍。
+
+➤ 如果存在端口串扰问题，则可以使用上文所述的相同分离技术来分离不同的以太网端口。可以在以太网通道之间插 入地平面。应使该地平面与任何走线的间距保持为电解质距离的3至5倍。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/p8ejy8cSKCabI9Z0govHsRPQCv9PI9RxTINs9vpVf53bDLQmwDiclPCnOvqajI8sjEYLp5yNsUibyUYGhIwsluicw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图4 芯片到磁件差分对布线示例
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/p8ejy8cSKCabI9Z0govHsRPQCv9PI9Rx5xgESdXIPaXQc3nu6GOa5WjO2AXib5cgkqbDUsICN10Qz4rC4xb6hfQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图5 磁件到RJ45差分对布线示例
+
+  
+
+**RJ45连接器：**
+
+磁件能够隔离本地电路和以太网信号连接的其他设备。IEEE 隔离测试在隔离侧施加压力，以测试隔离的介电强度。隔 离绕组的中心抽头有一个“Bob Smith”端接， 通过75Ω电阻和 1000 pF电容连接到机架地。端接电容应具有3 kV的电 压容差。
+
+**要通过EMI兼容性测试，可参考以下实用建议：**
+
+➤ 建议将RJ45 连接器的金属屏蔽层连接到机架地以减少EMI发射。
+
+➤ 为了进一步减少EMI 问题，可以在适当平面之间放置带状线来代替外层的微带线。请注意，将带状线直接放在彼此 的顶部可能会导致通道之间出现电容耦合。不过，对于差分对，这种耦合可能是有益的。
+
+➤ 最好不要使电路地平面与形成耦合的机架地重叠，而应使机架地成为一个隔离孤岛，并在机架地和电路地之间留出 空隙。在机架地和电路地空隙上放置两到三个1206焊盘。这样就能通过实验选择合适的感性、容性或阻性元件，以 通过EMI发射测试。1206焊盘的位置应尽可能靠近电路板上的电源入口，以使两个地之间的电流远离任何敏感电路。
+
+➤ 为了最大程度提高ESD 性能，设计人员应考虑选择不带LED 的RJ45 模块。这将简化布线并允许以太网前端中具有 更大的间隔，以改善ESD/敏感性性能。
+
+➤ 此外，还可通过使用表面贴装触点 RJ45 连接器来提高 ESD 性能。这可以简化布线并允许以太网前端中具有更大的 间隔，以改善ESD敏感性性能。
+
+➤ 分立和嵌入式RJ45 和磁件模块的元件放置：
+
+以太网器件与磁件之间的距离应小于 1英寸。如果无法实现，则最大值不得超过3英寸。
+
+➤ 磁件与RJ45 之间的距离应小于 1英寸。
+
+从以太网器件到RJ-45 连接器测得的差分对的总长度应小于4英寸。
+
+  
+
+**磁件：**
+
+➤ 以太网的磁件可以是集成的，也可以是分立的。建议使用分立模块以更好地控制EMI。
+
+➤ 为了最大程度地提高ESD性能，设计人员应考虑选择分立变压器，而不是集成磁件/RJ45模块。这可以简化布线并 允许以太网前端中具有更大的间隔，以改善ESD/敏感性性能。
+
+➤ 使用分立磁件时， 务必使用端接：四个 75Ω 端接用于线缆侧中心抽头， 未使用的引脚连接到 EFT（电快速瞬变） 电容。
+
+➤ 使用连接到地平面的EFT电容以及75Ω端接。建议值为 1500 pF/2 KV或 1000 pF/3 KV。电容与走线和元件的间距至少应保持50 mil。
+
+➤ 实现地分割以进行高压安装（不需要集成磁件）。通常，在 PCB 上磁件到 RJ45 连接器的中间区域清除所有平面。TRxP/TRxN对应是这一清除区域中仅有的走线，从而形成LAN应用所需的高压势垒的一部分。
+
+➤ 阻抗不连续会导致意外的信号反射。最大程度减少过孔（信号通孔）和其他不规则传输线的数量。如果必须使用过 孔，合理的做法是每段差分走线经过两个过孔。
+
+  
+
+**ETHRBIAS/ISET：**
+
+ETHRBIAS/ISET电阻设置内部参考电流源。因此，ETHRBIAS/ISET引脚是一个高阻抗节点，在ETHRBIAS/ISET走线上 产生的任何噪声都会直接影响内部参考电流，从而对眼图质量造成负面影响。ETHRBIAS/ISET 电阻应放置在靠近 ETHRBIAS/ISET引脚的位置，并且接地回路应尽可能短且直接连接地平面。电阻走线应非常短，并与附近的走线隔离。
+
+  
+
+**_03_****_._**
+
+**EMI注意事项**
+
+**PCB EMI设计指南：**
+
+➤ 在原理图和PCB设计周期中都必须考虑如何实现EMC设计。
+
+➤ 最好从产生EMC的根源解决EMC 问题。
+
+  
+
+**标识关键电路：**
+
+➤ 发射—— 时钟、总线和其他重复电路。
+
+    •如果使用晶振，则确保热引线尽可能短且匹配。
+
+    •向时钟振荡器添加较小的阻尼电阻或铁氧体。
+
+    •控制时钟布线
+
+    •当心有噪声的振荡器模块。
+
+    •如有可能，应避免使用振荡器。振荡器会增加EMI、功耗和抖动。
+
+    •如有可能，应使用晶振。
+
+➤ 抗扰度—— 复位、中断和关键控制线。
+
+    •向电路输入端添加高频滤波器。
+
+    •控制走线布线。
+
+    •不要使高速信号走线穿过任何平面分割处。
+
+  
+
+**谨慎选择需要考虑EMI的器件：**
+
+➤ 越慢越好—— 上升时间和时钟。
+
+➤ 对于信号和电源，使用高速CMOS时需要小心。
+
+  
+
+**电路板设计：**
+
+➤ 多层板在发射和抗扰度方面的性能要出色得多。
+
+➤ 不要在电源和地平面中嵌入走线。
+
+  
+
+**密切注意电源去耦：**
+
+➤ 用高频电容为每个器件去耦。
+
+➤ 使用高频电容旁路电路板的每个电源输入。
+
+➤ 电容引线应尽可能短。
+
+➤ 为了在超高速设计中改善噪声和EMI，可以组合使用 0.1 μF、0.01 μF和容值更低的电容。
+
+  
+
+**I/O电路注意事项：**
+
+➤ 信号、电源和地是通过I/O的三个EMI路径。
+
+➤ 向所有I/O线路添加高频滤波器，即使是慢速线路也是如此。
+
+➤ 正确实现I/O平面的隔离。
+
+  
+
+**_04_****_._**
+
+**ESD注意事项**
+
+➤ RJ45 连接器必须具有金属屏蔽层，以确保最高的ESD性能。
+
+➤ RJ45 连接器的金属屏蔽层必须直接连接到系统机架地平面的两个点。
+
+➤ 必须在磁件到RJ45 连接器的中间区域清除所有电源平面和非以太网走线。间隔至少应保持0.250 英寸。
+
+➤ N/S和E/W磁件的固定方式不同；因此，磁件的选择和位置对于ESD 性能至关重要。
+
+➤ 正确布局高压势垒。
+
+➤ 选择带有机架接地片的特定RJ45 连接器，并将它安装在远离8引脚连接的位置，这已被证实是ESD的最佳配置。
+
+➤ RJ45 连接器相对于其他连接器和整个PCB的位置对于整体ESD性能非常重要。
+
+➤ 确保与高压势垒区域相关和位于其中的所有电路仅以机架地为参考。高压势垒区域中的LED、电容和反并联二极管 如果以数字地为参考，会对高压势垒带来不利影响（见图6）。
+
+➤ 电源电压线应与其返回线紧密缠绕在一起。
+
+➤ PCB的所有电源入口都必须正确旁路，尽可能靠近PCB上的电源连接器。
+
+➤ 接地连接应远离敏感电路。这种策略将迫使ESD流远离敏感电路，并将其引向地。
+
+➤ 整个设计中的所有信号走线均应保持最短。考虑向长度超过 12英寸的信号线添加数字地“保护走线”。
+
+➤ 如果允许 ESD 进入数字地平面，则可能导致数字接地层发生“接地反弹”。这可能导致意外的系统行为和/ 或系统 故障。应尽一切努力确保不允许任何ESD源进入PCB上的任何数字地或电源平面。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/p8ejy8cSKCabI9Z0govHsRPQCv9PI9RxGuCQ1VE6uvV5q74Z3THexAn2viaX7WLJeAiaspVIuCjgIrIncDyBIUew/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+图6 高压势垒—— 延伸到磁件的中间位置
+
+硬件工程师及从业者都在关注我们
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibv0jw5viaBYm5nD5TdLGkxJ7chbkrvv8w6Z2kZ2c1DyEzpdMibNDBHTicQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5054496377466782&random=0.5133948505097592&random=0.7769476948866769&random=0.6468124489998228&random=0.06667202688917673) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibftdyHGriaP8kZBib744qBp5uw6InGEhRzImvabUhoiab90dPsWmxicQ8icw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.904452114270103&random=0.9160747576157886&random=0.648690737236044&random=0.35236404612537364&random=0.7237151732939693) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibia0CVNol5icAKhrugad81mQkcScvoUgqkLib7CeqaLKM67CYlpnEuByDQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.38981271029841835&random=0.1605435912341453&random=0.3886610286024954&random=0.14231024487351296&random=0.84335213885373) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtqSHzpEw5UxfkKibNLooMbR8OkAJST2ysfic4qZJLA4FHESOULSqe8hg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.7322134073819782&random=0.9765188965971499&random=0.4768783745730849&random=0.7034455287790187&random=0.20096127587485246) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibmT7GSMXo7pibcqg5qoxQbNXm5guFIgAYofq0fNGy1p2icicFO6IrkHvdA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.21103238255962142&random=0.4819954240231532&random=0.9493330616615481&random=0.30080924810850385&random=0.14814862677802054) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibKMFicAKxMETWjpP3KD0ribaicicqcc21VtOh9yof80kpLGm75CFOoaPibxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.11665064872242814&random=0.24650296453132392&random=0.09450394713146593&random=0.5427719894354532&random=0.4485686292360689) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibEXk4adO3MMV21FV1vPZFsAmSUR87W82W45pnJ7pTcxwjQtx5epKQxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5061542588694028&random=0.7195812446453251&random=0.14580903127691824&random=0.10960684530002984&random=0.729464641551083) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib2juaHkRNwUWYn4AaQLK3zWichymELV11lPafwXFGB8zUezZa7M8QgLA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.8890979885256949&random=0.5618908447013322&random=0.8320467362132846&random=0.03610058117467263&random=0.590024396487761)
+
+![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVib9KD1YnYQnDL40p4frXm7Znlnve1InQuDrTeaxd4j1Ixhv61pFBmHUw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.44832742996567765&random=0.7246591515962928&random=0.43812030576078564&random=0.3431586338772843&random=0.5236152018157212) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibDNHnFoE8BibGpDq8O2yS1Pw3kKXZDKsicubAtJtKUzJEwb9ntve07ibxg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.4188635323163339&random=0.8591335926528374&random=0.634229425088352&random=0.6374058713153454&random=0.36623278854146557) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibpXQDyg5Y0PtAG10IwRhNnrSdGicQlTgB9uoPM2o57IJ9Ewq0wceyMeQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.16111233120603652&random=0.22716502488063006&random=0.061382635385311524&random=0.3150403072690464&random=0.22462879228240218) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibtoibkSWEuCrqOp2CDzH4WPicB02eUeiazpdUvgGMyHicHlqxic4mysClB6w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3002982208935414&random=0.4051465421808764&random=0.8580815150661867&random=0.01942252714771464&random=0.9782769224552956) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibhaqj5IIhqg2ia8cEBJn3l3cXcMicnVsrn0PN24yxica3H1U0iaqR7PhUew/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3084112606789575&random=0.35073840820589464&random=0.1784751385805421&random=0.6162656292383069&random=0.931359908363258) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibJH5dxjiaNQ0ePAHaJsDKfsYC7SIqbAMbCoodImJ2ejKcHhH03Hq7Wtw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.3906515119996328&random=0.6215738809573381&random=0.9612535238547657&random=0.5542414285478323&random=0.7860076265242306) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibcYhExJhZI1aicmyDMAZt4icbnQuOW7IicSAdq6wrofgSNNQgIibweMNWEQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.5436065950715283&random=0.4242095548217244&random=0.4158422582858312&random=0.2788540531248822&random=0.644775451296052) ![](https://mmbiz.qpic.cn/mmbiz_gif/C8CLmfneqjHATQI6gMPO3oP1yOSG0pVibNVsExqHPfmQILYOcu4ibAKGXHMht5PPnx0RkNCYRv1sPmTr2n0aSIsw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6207533412411326&random=0.1846190526935092&random=0.6100512744379307&random=0.7171869860499893&random=0.47058666701129437)
+
+## 
+
+**声明：**
+
+  
+
+声明：文章来源智芯player。本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+投稿/招聘/推广/宣传 请加微信：woniu26a
+
+**推荐阅读▼**
+
+-   [电路设计-电路分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2811359150088683521#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

@@ -16,9 +16,9 @@
 
   
 
-![](http://mmbiz.qpic.cn/mmbiz_png/bPcM14JicetYZb5JJ2wFOWmib6Hqmc3hS2InX2czlKTvxucuJ8AlmibGlRRyVWcFKdhqCHwicd0l6qiaDlibaeqxQ9Mw/640?wx_fmt=png)
+![](2017GAITC丨刘成林_技术融合是趋势_人工智能的边界在扩大_images/img_000_2c594ff39ae3.png)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/bPcM14JicetaZI84ZmCMib1mWU5mQTtcFN69ibnm68QOlFBKoYRM4ibm3EUY5wNUpNaFyItKzMmq0SSFLzzHv1c5Ig/640?wx_fmt=png) 刘成林研究员
+![](2017GAITC丨刘成林_技术融合是趋势_人工智能的边界在扩大_images/img_001_773c39c2fe0b.png) 刘成林研究员
 
 中科院自动化研究所副所长，中国人工智能学会（CAAI）常务理事，中国人工智能学会模式识别专业委员会主任，模式识别国家重点实验室主任，IEEE Fellow, IAPR Fellow。 研究领域：模式识别、图像处理、机器学习、文字识别、文档分析。 
 
@@ -140,9 +140,9 @@
 
 5月22日，13:30 - 17:00
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/bPcM14JicetYZb5JJ2wFOWmib6Hqmc3hS2TVmk29xxYmS6DaOTlHcjGKs6G3zKwJL8EIEArnzicKNAricEkCibxMTMA/640?wx_fmt=jpeg)
+![](2017GAITC丨刘成林_技术融合是趋势_人工智能的边界在扩大_images/img_003_54a8c82b3d6f.jpg)
 
-![](http://mmbiz.qpic.cn/mmbiz_png/bPcM14JicetYibsjANfEObUn7Yl5XAAgNErHh1nat5SYhNaKCIxJcpMdXfPCUcLicR5668Ichxd94Rsm0AjIH7fjA/640?wx_fmt=png)
+![](2017GAITC丨刘成林_技术融合是趋势_人工智能的边界在扩大_images/img_004_ff5842588b43.png)
 
 活动详情页面：**2017GAITC.caai.cn**
 

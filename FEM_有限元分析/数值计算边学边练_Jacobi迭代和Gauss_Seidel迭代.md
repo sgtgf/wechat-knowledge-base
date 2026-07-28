@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/RqB2CkTps4D6CvQVwpAMWg](https://mp.weixin.qq.com/s/RqB2CkTps4D6CvQVwpAMWg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVr2WH3Niafz96LyGks2YE3owE0FAvkUSqV4MdDu8lsl8rvZfpAUqAEvecG6efcdF5TUGRSdAj6DtA/640?wx_fmt=jpeg)
+![](数值计算边学边练_Jacobi迭代和Gauss_Seidel迭代_images/img_000_b7866a3adb2d.jpg)
 
 在科学计算和工程领域，线性代数问题无处不在。无论是求解物理系统的平衡状态，还是优化复杂的数学模型，线性方程组的求解都是核心任务之一。
 
@@ -121,7 +121,7 @@ Gauss-Seidel迭代法公式为
 
 需要指出的是，Gauss-Seidel法与Jacobi法收敛范围仅部分重合。另外，相对而言，Gauss-Seidel进行了超前迭代，收敛速度通常会加快。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVLtI9dMJYts2SEVOibYEFKZv2kibKQf3bns1KqtkRHJic42fNW1RrPHlxcicldIgJECAjKoFiaItb6aWg/640?wx_fmt=png&from=appmsg)
+![](数值计算边学边练_Jacobi迭代和Gauss_Seidel迭代_images/img_001_c012172f32ed.png)
 
 ## 实例分析
 
@@ -145,11 +145,11 @@ Gauss-Seidel迭代法公式为
 
 Jacobi迭代收敛过程记录在`jacobi_res.txt`文件中：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVLtI9dMJYts2SEVOibYEFKZCF8ibRViapJzsCVYZrF558b6DoLkGxOwAicIuFZT3m2icssic3Y0Xa4zeOg/640?wx_fmt=png&from=appmsg)
+![](数值计算边学边练_Jacobi迭代和Gauss_Seidel迭代_images/img_002_1588a8a05893.png)
 
 Gauss-Seidel迭代收敛过程记录在`GS_res.txt`文件中：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVLtI9dMJYts2SEVOibYEFKZnOs79yficwxhTIcWwj221xfO5cFYvD6XticbXwsWw4457ia5PLHH2h9yA/640?wx_fmt=png&from=appmsg)
+![](数值计算边学边练_Jacobi迭代和Gauss_Seidel迭代_images/img_003_2633c1075333.png)
 
 实际上，该方程组的准确解为： ，，。对比发现，为了达到  的精度要求，Jacobi迭代使用了 16 次迭代，Gauss-Seidel迭代仅使用 10 次，可见此例中Gauss-Seidel迭代的收敛速度较快。
 
@@ -207,18 +207,18 @@ Jacobi迭代法和Gauss-Seidel迭代法都是有效的数值计算工具，尤�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.2312854885901674)
+![](数值计算边学边练_Jacobi迭代和Gauss_Seidel迭代_images/img_004_d8aae6d6bc0e.png)
 
 **我们目前正和专业SCI论文英文润色机构****艾德思**开展全方位合作。如果您需要**论文和基金标书辅导服务**，欢迎扫码下方二维码，获取您的专属学术顾问，**锁定直减活动优惠**👇
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUeXf7YasV5XlZrWTDeHnFTLRgbic8U3BBZN3UKTunl1YG7DYcrZicpOXFibwa5WTo58ia2iaS1OaZwmIQ/640?wx_fmt=png&from=appmsg)
+![](数值计算边学边练_Jacobi迭代和Gauss_Seidel迭代_images/img_005_7ea1bd427cbc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ls5001Viarhgmk68YnN6g4W5hatFlsorE2ewpQa76twe3x93RLcIPOShC9BRIxwiaAHAZmXG8qOfqKibY7EaibAQQQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](数值计算边学边练_Jacobi迭代和Gauss_Seidel迭代_images/img_006_552ee99c53ad.other)
 
 ********▲****长按扫码添加学术顾问咨询********▲****
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUeXf7YasV5XlZrWTDeHnFTym7hL9kzBibkonm3BATcKZXJNFE6uxtD61Bc4c3e0LWcdPiaMu2js6mg/640?wx_fmt=png&from=appmsg)
+![](数值计算边学边练_Jacobi迭代和Gauss_Seidel迭代_images/img_007_8b880a0d91d3.png)
 
-**喜欢****作者******，请点********赞********和在看******![](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6459285066781566&random=0.9039664113437702&random=0.10616299980642463&random=0.37943585876598473&random=0.7246305284075434&random=0.1820491079508062&random=0.3136645327514245&random=0.8290227030922905&tp=webp)**
+**喜欢****作者******，请点********赞********和在看******![](数值计算边学边练_Jacobi迭代和Gauss_Seidel迭代_images/img_008_2ab55b5e37e9.gif)**
 
-**![](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.90499299240585&random=0.7427014598159356&random=0.6203706698189717&random=0.17266143983420013&random=0.4502076552242009&random=0.3348111146987862&random=0.5857982594073723&random=0.5924137199896844&tp=webp)**
+**![](数值计算边学边练_Jacobi迭代和Gauss_Seidel迭代_images/img_009_0dc7b9b79564.gif)**

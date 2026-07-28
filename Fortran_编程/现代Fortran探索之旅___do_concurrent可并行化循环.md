@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/wcXZszoEJEgpEMrUqEml\_Q](https://mp.weixin.qq.com/s/wcXZszoEJEgpEMrUqEml_Q)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+![](现代Fortran探索之旅___do_concurrent可并行化循环_images/img_000_8bcddb233e93.jpg)
 
 在高性能计算领域，Fortran语言因其对科学计算和工程应用的强大支持而久负盛名。随着多核处理器和大规模并行计算平台的普及，如何高效利用这些资源成为软件开发中的关键问题。Fortran 2008标准引入了`do concurrent`结构，为开发者提供了一种简洁而强大的方式来实现循环的并行执行，极大地提高了代码的执行效率。本文将深入探讨`do concurrent`的语法、工作原理，并通过具体示例展示其在实际编程中的应用。
 
@@ -58,7 +58,7 @@
 
 `do concurrent`结构是Fortran语言向现代并行计算迈出的重要一步，它使得科学家和工程师能够更加便捷地利用多核及分布式计算资源，加速他们的计算密集型应用。尽管其设计意图是简化并行编程，开发者仍需深刻理解并行计算的基本原则和潜在挑战，才能充分发挥这一特性的作用。随着并行计算技术的不断进步和编译器优化技术的成熟，`do concurrent`在未来的高性能计算领域无疑将扮演更加重要的角色。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](现代Fortran探索之旅___do_concurrent可并行化循环_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

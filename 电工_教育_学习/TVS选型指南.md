@@ -1,0 +1,218 @@
+# TVS选型指南
+
+原创 硬件笔记本 2023-03-12 08:27 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/5ZEpaTw9NONivn69ZY\_AMA](https://mp.weixin.qq.com/s/5ZEpaTw9NONivn69ZY_AMA)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+提到TVS，大部分电子工程师基本都知道是用来端口防护的，防止端口瞬间的电压冲击造成后级电路的损坏。今天我们就一起了解一下TVS如何选型。
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JaFvPvvA2J1Clvz4XjNkCCVBtkQpCltfeUCXf9ZIy5iabeyU9OpE347LBN0rHfLxDmwibicgY4DKcwdFhQYbJkicNQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+**0****1**
+
+**工作原理**
+
+TVS（Transient Voltage Suppressors），即瞬态电压抑制器，又称雪崩击穿二极管。它是采用半导体工艺制成的单个 PN 结或多个 PN 结集成的器件。TVS 有单向与双向之分，单向 TVS 一般应用于直流供电电路，双向 TVS 应用于电压交变的电路。
+
+  
+
+如图 1 所示，应用于直流电路时单向 TVS 反向并联于电路中，当电路正常工作时，TVS 处于截止状态（高阻态），不影响电路正常工作。当电路出现异常过电压并达到TVS（雪崩）击穿电压时，TVS 迅速由高电阻状态突变为低电阻状态，泄放由异常过电压导致的瞬时过电流到地，同时把异常过电压钳制在较低的水平，从而保护后级电路免遭异常过电压的损坏。当异常过电压消失后，TVS 阻值又恢复为高阻态。   
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhzFnqxQ3IicaUIhhx0gZ5KwKCfq1UpyUE77GkBD9UNTZYHC7abNtItib84F3IiaQD6iczVeSsjosDuBA/640?wx_fmt=png)
+
+图1：TVS工作原理
+
+  
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JaFvPvvA2J1Clvz4XjNkCCVBtkQpCltfeUCXf9ZIy5iabeyU9OpE347LBN0rHfLxDmwibicgY4DKcwdFhQYbJkicNQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+**0****2**
+
+**关键参数**
+
+工欲善其事，必先利其器，要用好TVS，必须先了解其关键的参数。
+
+  
+
+**(1) Vrwm截止电压**
+
+TVS 的最高工作电压，可连续施加而不引起 TVS 劣化或损坏的最高工作峰值电压或直流峰值电压**。**对于交流电压，用最高工作电压有效值表示，在 V RWM 下，TVS 认为是不工作的，即是不导通的。换一句话，电路的最高工作电压必须小于Vrwm，否则将会导致TVS动作导致电路异常。
+
+  
+
+**(2)** **I R 漏电流**
+
+漏电流，也称待机电流。在规定温度和最高工作电压条件下，流过 TVS 的最大电流。TVS 的漏电流一般是在截止电压下测量，对于某一型号 TVS, I R 应在规定值范围内。对 TVS 两端施加电压值为 V RWM ，从电流表中读出的电流值即为 TVS的漏电流 I R 。对于同功率和同电压的 TVS，在 V RWM ≤10V 时，双向 TVS 漏电流是单向 TVS 漏电流的 2 倍。对于一些模拟端口，漏电流会影响AD的采样值，所以TVS的漏电流越小越好。
+
+  
+
+**(3)** **VBR 击穿电压**
+
+击穿电压，指在 V-I 特性曲线上，在规定的脉冲直流电流 I T 或接近发生雪崩的电流条件下测得 TVS 两端的电压。测试的电流It一般选取10mA左右，施加的电流的时间不应超过400ms，以免损坏器件，VBR MIN 和 VBR MAX 是 TVS 击穿电压的一个偏差，一般 TVS 为±5%的偏差。测量时，V BR 落在 V BR MIN .和 V BR MAX .之间视为合格品。
+
+  
+
+**(4)** **I PP 峰值脉冲电流 ，V C 钳位电压**
+
+峰值脉冲电流，给定脉冲电流波形的峰值。TVS 一般选用 10/1000μs 电流波形。钳位电压，施加规定波形的峰值脉冲电流 I PP 时，TVS 两端测得的峰值电压。I PP 及 V C 是衡量 TVS 在电路保护中抵抗浪涌脉冲电流及限制电压能力的参数，这两个参数是相互联系的。对于 TVS 在防雷保护电路中的钳位特性，可以参考 V C 这个参数。对于相同型号 TVS，在相同 I PP 下的V C 越小，说明 TVS 的钳位特性越好。TVS 的耐脉冲电流冲击能力可以参考 I PP ，同型号的 TVS，I PP 越大，耐脉冲电流冲击能力越强。
+
+  
+
+**(5)****结电容CI，漏电流Ir**
+
+结电容是TVS中的寄生电容，在高速IO端口保护需要重点关注，过大的结电容可能会影响信号的质量**。**漏电流主要带来了功率的损耗，或者是在模拟信号中，会影响AD信号的采样值。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhzFnqxQ3IicaUIhhx0gZ5KwBLVIgWr8skRk201BsDYWXer4cT8a6YFSL9w0M2hQsicHOqf3t58FaZA/640?wx_fmt=png)
+
+图2 ：厂家一般都是提供10/1000μs的测试波形
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhzFnqxQ3IicaUIhhx0gZ5KwKlkWyfobF5cXtPDI4zM3GPpbQlzncK2pbNB8ibdnVaFVCEZcXTo99iaw/640?wx_fmt=png)
+
+图3 ：TVS的关键参数
+
+  
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JaFvPvvA2J1Clvz4XjNkCCVBtkQpCltfeUCXf9ZIy5iabeyU9OpE347LBN0rHfLxDmwibicgY4DKcwdFhQYbJkicNQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+**0****3**
+
+**选型过程**
+
+了解了TVS的基本参数，我们就开始进入最重要的TVS选型的过程了。选择TVS之前，我们首先要明白选择的终极目标：
+
+**1.电压合适能保护后级电路；**
+
+**2.引入的TVS的结电容不能影响电路；**
+
+**3.TVS功率余量充足，满足测试标准，且不能比保险管先挂。**
+
+选型的过程可以按照以下的步骤进行：
+
+    1.选择TVS最高工作电压Vrmw；
+
+    2. 选择TVS钳位电压VC；
+
+    3.选择TVS的功率；
+
+    4.评估漏电流Ir的影响；
+
+    5.评估结电容的影响。
+
+  
+
+**【选择TVS最高工作电压Vrmw】**
+
+在电路正常工作情况下，TVS 应该是不工作的，即处于截止状态，所以 TVS 的截止电压应大于被保护电路的最高工作电压。这样才能保证 TVS 在电路正常工作下不会影响电路工作。但是 TVS 的工作电压高低也决定了 TVS 钳位电压的高低，在截止电压大于线路正常工作电压的情况下，TVS 工作电压也不能选取的过高，如果太高，钳位电压也会较高，所以在选择 Vrwm 时，要综合考虑被保护电路的工作电压及后级电路的承受能力。要求Vrwm要大于工作电压，否则工作电压大于Vrwm会导致TVS反向漏电流增大，接近导通，或者雪崩击穿，影响正常电路工作。综合考虑，Vrwm可以参考以下的公式：
+
+Vrwm≈1.1~1.2\*VCC ；--------其中VCC为电路的最高工作电压。
+
+  
+
+**【选择选择TVS钳位电压VC】**
+
+TVS 钳位电压应小于后级被保护电路最大可承受的瞬态安全电压，VC 与 TVS 的雪崩击穿电压及 I PP 都成正比。对于同一功率等级的 TVS，其击穿电压越高 V C 也越高，所选TVS的最大箝位电压Vc不能大于被防护电路可以承受的最大电压。否则，当TVS钳在Vc时会对电路造成损坏。Vc可以参考以下的公式：
+
+VC＜Vmax ；-----其中Vmax为电路能承受的最高电压。
+
+  
+
+**【选择TVS的功率Pppm（或者Ipp）】**
+
+TVS 产品的额定瞬态功率应大于电路中可能出现的最大瞬态浪涌功率，理论上，TVS的功率越大越好，能够承受更多的冲击能量和次数，但是功率越高，TVS的封装越大，价钱也越高，所以，TVS的功率满足要求即可。对于不同功率等级的 TVS，相同电压规格的 TVS 其 V C 值是一样的，只是 I PP 不同。故 Pppm 与 Ippm成正比，Ippm 越大，Pppm 也越大。对于某一电路 ，有对应的测试要求，设实际电路中的最大测试电流为 Iactual ，则 Iactual 可估算为：
+
+Iactual=Uactual/Ri；---------其中 Uactual 为测试电压，Ri为测试内阻。
+
+TVS 要通过测试，故实际电路中要求 10/1000μs 波形下 TVS 的最小功率 P actual 为：-------其中di/dt为波形转换系数，如实际测试波形为其他波形，如 8/20μs波形，建议di/dt取，如测试波形为 10/1000μs，取，实际选型中，TVS 应留有一定的裕量，TVS 的功率PPMP 选择应遵循Pppm＞Pactual。
+
+  
+
+**根据所选的TVS的结电容和漏电流评估影响**
+
+如果TVS 用在高速IO端口防护、模拟信号采样、低功耗设备场合，就需要考虑结电容和漏电流的影响，两则的参数越小越好。
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/JaFvPvvA2J1Clvz4XjNkCCVBtkQpCltfeUCXf9ZIy5iabeyU9OpE347LBN0rHfLxDmwibicgY4DKcwdFhQYbJkicNQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  
+
+**0****4**
+
+**选型举例**
+
+数据都是无趣的，我们以实际的案例举例：
+
+电路的正常工作电压VCC是24V，最高工作电压Vmax是26V,后级电路可承受的最高瞬态电压为50V，实验的测试波形为 8/20μs波形，测试电压500V，测试电源内阻及PPTC的静态电阻合计为2Ω。根据上述信息选择合适的TVS。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhzFnqxQ3IicaUIhhx0gZ5KwxibSciav3ZdRiamMkhsMwKicLrMSDQkOTtbbMkR3Ffe7M22PbakCwmIQAQ/640?wx_fmt=png)
+
+图4：设计举例
+
+**1) 选择TVS最高工作电压**
+
+Vrmw≈1.1~1.2\*VCC=26~28V
+
+  
+
+**2) 选择选择TVS钳位电压**
+
+VC＜Vmax=50V
+
+  
+
+**3) 计算实际测试波形功率：**
+
+Pact=50\*（500/3）\*1/2=4166W
+
+根据计算结果，可以选用5.0SMDJ26A这个TVS，由于这个TVS用在电源端口，结电容和漏电流基本可以忽略不计。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhzFnqxQ3IicaUIhhx0gZ5KwLI2hUP5yBibUd4oZduia4C7icPpxmdPKzjOh0V5MgWgTs92e8cgmIpHWg/640?wx_fmt=png)
+
+## 
+
+**声明：**
+
+  
+
+声明：本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+  
+
+**推荐阅读▼**
+
+-   硬件精选文章
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

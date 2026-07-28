@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/PXdha12ZvK3Jvb8r-lOMbA](https://mp.weixin.qq.com/s/PXdha12ZvK3Jvb8r-lOMbA)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVXkszTAU2XWHdU0FE9cibs9dt9GsJA7gZkOA8jojfUlONf2TTgU5VctDMoxjpdxwvicBCg02E4qIu6Q/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](现代_Fortran_的推荐范式_从混乱走向规范_images/img_000_72c346886810.gif)
 
 Fortran（Formula Translation）作为世界上最早出现的高级编程语言之一，自1957年诞生以来，已经走过了近七十年的历程。它曾是科学计算领域的绝对霸主，如今虽不再如当年那般显赫，但在高性能计算、量子化学、材料模拟、气候建模等核心科研领域，依然占据着不可替代的地位。然而，Fortran 的悠久历史也带来了一个显著的问题：**语言范式的割裂与混乱**。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVlsEsPAdyyibhrmKQUY1Rd90xt2Zhn3BskxkcZ7Ywr5khN3PpJz3pyknNX7lWTFKGB5wR7mojiaZMQ/640?wx_fmt=png&from=appmsg)
+![](现代_Fortran_的推荐范式_从混乱走向规范_images/img_001_94629385cc54.png)
 
 在 Fortran 77 时代，代码以固定格式书写，大量使用 `GOTO`、`COMMON` 块和隐式类型声明，虽然高效且节省内存，但可读性极差，几乎无法进行现代意义上的软件工程管理。而 Fortran 90 标准的发布，则是一场革命性的变革，引入了模块（`module`）、自由格式、动态内存分配、数组操作等现代特性，使 Fortran 开始向结构化、模块化、面向对象（F2003 起）的方向演进。
 
@@ -194,12 +194,12 @@ Fortran 并非一门垂死的语言。恰恰相反，凭借其在数值计算领
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.2312854885901674)
+![](现代_Fortran_的推荐范式_从混乱走向规范_images/img_002_d8aae6d6bc0e.png)
 
-**闲鱼小店已上新，欢迎新老粉丝关注和咨询![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/assets/Expression/Expression_64@2x.png)**
+**闲鱼小店已上新，欢迎新老粉丝关注和咨询![](现代_Fortran_的推荐范式_从混乱走向规范_images/img_003_7947c6a54e9b.png)**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXGjL9AskORRpMqtYibGichN8pF8NLWtOVar1b39x9cI4dKNg7lISX1MibBa1HRECAY9bClZrLWuRLUA/640?wx_fmt=jpeg&from=appmsg)
+![](现代_Fortran_的推荐范式_从混乱走向规范_images/img_004_92dd42f5e05f.jpg)
 
-**喜欢****作者******，请点********赞********和在看******![](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6459285066781566&random=0.9039664113437702&random=0.10616299980642463&random=0.37943585876598473&random=0.7246305284075434&random=0.1820491079508062&random=0.3136645327514245&random=0.8290227030922905&tp=webp)**
+**喜欢****作者******，请点********赞********和在看******![](现代_Fortran_的推荐范式_从混乱走向规范_images/img_005_2ab55b5e37e9.gif)**
 
-**![](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.90499299240585&random=0.7427014598159356&random=0.6203706698189717&random=0.17266143983420013&random=0.4502076552242009&random=0.3348111146987862&random=0.5857982594073723&random=0.5924137199896844&tp=webp)**
+**![](现代_Fortran_的推荐范式_从混乱走向规范_images/img_006_0dc7b9b79564.gif)**

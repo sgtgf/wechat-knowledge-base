@@ -1,0 +1,351 @@
+# 倒反天罡！这年头DDR4都比DDR5贵了？老项目血亏，新项目赶紧换平台吧。
+
+原创 王工 硬件笔记本 2025-10-24 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/nuBUIfmc2ZgOipfcU50CxA](https://mp.weixin.qq.com/s/nuBUIfmc2ZgOipfcU50CxA)
+
+![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif "音符")
+
+  
+
+最近存储市场又热闹起来了，DDR4、LPDDR4X 还有 NAND Flash 这些存储芯片，价格是一路看涨。而且不少行业机构都判断，这波涨价才刚起步，估计还得持续好几年。这对做咱们嵌入式开发和智能硬件的朋友来说，可不是啥好消息，意味着产品成本又要往上走了。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaBqy899uTFe3cEUSIBOGicvlYP4NchzV3Eayb7UC2H8W653WhlqCM3HIiaD3KAGeMDSxVGqwx3aSfg/640?wx_fmt=png)
+
+更有意思的是，现在市场出现了一个历史性的反转：**DDR4 的价格居然比 DDR5 还要贵**，而且贵不少，同样容量的DDR4 差不多是 DDR5 价格的两倍。这种倒挂现象确实挺少见的。
+
+在这种背景下，那些能支持新一代 LPDDR5 内存的芯片平台，优势就越来越明显了。比如瑞芯微的 RK3576，它不仅能直接用上带宽更高、功耗更低的 LPDDR5，本身在算力和能效方面也提升很大。眼看着 DDR4 越来越贵，像 RK3576 这类支持 LPDDR5 的芯片，性价比反而会越来越突出，逐步成为替代 RK3568 这些老一代芯片的主流选择。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhBQohgwibdb4jPvoWJdmapFAJ8BV69LNAw2Hf98RC91CPQ9ibqdBCj0SjYH5zO53qtFTgeuPJUJoLQ/640?wx_fmt=png)
+
+今天要跟大家介绍的，就是基于这颗 RK3576 芯片打造的一款高性能开发板——**触觉智能推出的 Purple Pi OH2**。这块板子不光是 CPU、GPU 和 NPU 全面升级，更重要的是它直接搭载了 LPDDR5 高速内存。这样一来，既避开了 DDR4 涨价的供应链风险，又为咱们开发者提供了一个既稳定又高性能的硬件基础，算是真正面向未来的一个选择。
+
+下面，我们就从硬件、软件以及开发资料各个方面，来看看这款开发板究竟有什么不一样。
+
+01
+
+硬件资源介绍
+
+这款开发板尺寸小巧（119x80mm），采用“底板+核心板”结构，并通过邮票孔将核心板直接焊接。这样做主要有三大好处：
+
+一是连接稳定可靠，抗振动能力强；
+
+二是省去了连接器，成本更低；
+
+三是模块化设计方便未来升级，非常有利于小型化产品的开发。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhBQohgwibdb4jPvoWJdmapF1Srrd1B8SrhS6jiaBHBD4Xua25tkiajdPUwbJSVMy7CzcT0B30wiaiaaYQ/640?wx_fmt=png)
+
+### **核心板介绍**
+
+### **触觉智能的SOM7609核心板，**简单说，就是把**RK3576 SoC、LPDDR内存、eMMC存储以及PMIC电源管理芯片，**统统打包在了**一块仅40.5 x 40.5mm的极小型电路板上。**通过152Pin LCC+148Pin LGA**，完整地引出了RK3576的**全功能引脚资源**，为咱们开发者提供了极大的灵活性。**
+
+**内存有两个版本可选：**
+
+**SOM7609-S1：** 用的是LPDDR4/4x。性能对于大部分项目来说完全够用，关键是成本上有优势。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhBQohgwibdb4jPvoWJdmapFH2Kn6Cac4fRvmaFEIfMn2Gaxj473t30a7v2a1ob2Veic5G3Z5kk5Pew/640?wx_fmt=png)
+
+**SOM7609-S2：** 升级到了LPDDR5/5x，带宽更大。如果你做的项目对AI算力要求极高，用S2版本能更好地把RK3576的性能榨干。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhBQohgwibdb4jPvoWJdmapFtbq4Zc4Pq2ibw7IPJa5MliaktpsSHLEfhp9WxGcq3c4ibQwm8qdsyYFlA/640?wx_fmt=png)
+
+**用核心板的好处，说白了，就是帮咱们把最难、最贵、最费事的部分给干了。像高速的DDR布线、eMMC，他们都在高密度PCB上搞定了，保证信号质量。咱们自己只需要设计一个相对简单的底板，实现具体的功能接口就行，大大降低了开发难度和风险，项目周期也能缩短。**
+
+### **底板介绍**
+
+### **光有核心板还不行，得有个评估板让你快速上手。Purple Pi OH2就是这个角色。这块评估板基本上把RK3576能用的接口都给你引出来了。**
+
+### **咱们先来看下底板正面和背面整体布局，十分美观。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh3yXKR2ic1fBiadYSda4l2c6EX22UPUuaUQvDxlwDB0T9sic3G46PZGHnLfnXIULVqoRibn0xhM11DzA/640?wx_fmt=png)
+
+底板正面图片  图源触觉智能官网
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh3yXKR2ic1fBiadYSda4l2c66pnvYmPsrCaFH1E6dLUUYeIHXtsmA62EVSialHa7p4nTDc4IncYiakicw/640?wx_fmt=png)
+
+### **
+
+底板背面图片  图源触觉智能官网
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjh3yXKR2ic1fBiadYSda4l2c66BnutBB27OcPvTvp0OoibjMtC9mLgG3Rtq9Z2WJSkibtic7pUIRCwl9aw/640?wx_fmt=png)
+
+咱们从左到右依次介绍一下这些接口：
+
+**🔍 最左边：Type-C 调试口**  
+这是用来做调试的，板子上直接集成了 **CH340E 芯片**，把调试信号转成了 USB Type-C，所以你只需要一根普通的 C 口线，就能连电脑进行开发调试。
+
+  
+
+**🎧 音频部分：耳机 + 麦克风**  
+接着是一个 **3.5mm 耳机接口**，标准 CTIA 制式，插普通耳机就能用。  
+紧挨着它后面还有一个 **米白色的 2Pin 麦克风接口**，用的是 1.25mm 间距的立贴插座，可以直接接驻极体麦克风，录音或者语音输入都很方便。
+
+  
+
+**⬆️ 侧出接口：Type-C OTG（功能超强）**  
+这个侧放的 **Type-C 口支持 USB 3.0 OTG**，还带 **DP 1.4 显示输出**！  
+也就是说，你不仅能用它**下载固件、做 ADB 调试、接 U 盘**，还能**外接便携显示器**，一口多用，非常灵活。
+
+  
+
+**📺 侧出 HDMI 2.1**  
+同样侧出，不占板子空间，支持 **最高 4K@120Hz** 输出，接大屏玩游戏或者放高帧率视频都很流畅，画质体验拉满。  
+
+  
+
+**🔄 双层 USB 口设计**
+
+-   **下层是 USB 3.2**，传输速度快，还能提供 **5V/900A 供电**；
+    
+-   **上层是 USB 2.0**，适合接键鼠、耳机等不要求高速的设备。  
+    这样叠放设计，极大地节省了空间。
+    
+
+  
+**🌐 双千兆网口**  
+再往右是两个千兆以太网口，支持 **WAN + LAN 双 IP**，可以同时接入两个网络，适合做软路由、网络网关或者轻量服务器，非常实用。
+
+  
+
+**⚡ 最右边：DC 电源输入**  
+供电范围是 **9~24V**，宽电压设计，适应性很强。
+
+  
+
+这一排接口虽然紧凑，但种类齐全，布局合理。特别是**侧出的 Type-C 和 HDMI**，加上那个**双层 USB**，既省空间又保证功能，选型真的很到位。不管是开发调试，还是接外设、显示、网络，都考虑得很周到，是一个既实用又让人眼前一亮的设计。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7IGjVUcc0Fj90EVaaMw47XMpbNc9B94mTz4jIwVb52wIsTRJibEPibclh2oEImBDhAJcE8icJt5K9A/640?wx_fmt=png)
+
+眼前这一排就是主板的 **2x20 双排针**，也就是咱们我们常说的 **GPIO（通用输入输出）接口**。它的规格是 **2.54mm 间距**，总共40个引脚，而且**完全兼容树莓派4B**的引脚定义。
+
+**🎨 设计上最大的亮点：彩色标识！**
+
+**厂家特别用心地给不同功能的信号引脚配上了不同的颜色。比如：**
+
+-   **电源引脚**可能是红色或黄色。
+    
+-   **地线引脚**是黑色。
+    
+-   **特殊的通信总线**（像I2C、SPI）可能是蓝色、绿色等。
+    
+
+这样一来，我们调试的时候，**一眼就能锁定目标引脚**，再也不用像以前那样，一二三四……地低着头一个个数过去了，大大减少了接错线的概率，也节省了宝贵的时间。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgAFibFfm4S1VuGsch8Qar2kUicN5eVvHZCicnT9oWvVb3nop1wcPboumicZKYu3EyOErex4Qr2gicJmNg/640?wx_fmt=png)
+
+### **
+
+主板留有一个RTC电池座，使用CR1220电池。当主板完全断电后，这个电池就会自动接管，保证系统时钟继续“滴答”走时。这样下次你再开机的时候，时间、日期都依然是准的。
+
+**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7IGjVUcc0Fj90EVaaMw47McniabjeTY6CH2u9tg2FNsicCBqt9NynuvFUibhH4gOKcHOAgux9P79KQ/640?wx_fmt=png)
+
+从这边看有一个比较显眼的黄色方形的插件，可能有些同学会比较好奇这是什么元件呢？在这里有什么作用？
+
+大家经常做产品的，应该一眼就看出来，这是DC电源输入端的保险丝FUSE。结合原理图，咱们可以知道它的具体型号和参数，这是一款自恢复保险丝，**当过流发生时它能自动断电保护电路，故障排除后又能自动恢复，无需人工更换，一劳永逸。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjj2vAlyFbfwRLyX3eu7SNN1JC5e3Ey0N9kSEU41fQN9UhXpnzcyLicUICnNGAQnAv3VrpUBpA2JLJA/640?wx_fmt=png)
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7IGjVUcc0Fj90EVaaMw47YickjoFbJGVyGEfl5pqSBENDk7aiaW6tKlFugFJ3MibetR0BJx5TDzBicQ/640?wx_fmt=png)
+
+  
+
+我们再来看看这一组主要用于显示和摄像的高性能接口！从左到右依次是：
+
+  
+
+**📺 最左边：MIPI DSI 显示接口**  
+这是一个 **1x40x0.5mm间距** 的FPC座子。  
+连接显示屏后，**最高能输出 2560x1600@60fps** 的超高清画面。无论是接高分辨率的平板屏还是高刷屏，显示效果都会非常细腻流畅，绝对是视觉享受。
+
+  
+
+**👆 中间：TP 触摸接口**  
+这个 **1x6x0.5mm间距** 的FPC座子专为触摸屏设计。  
+当你外接触摸屏时，就是通过它来传输你的点击和滑动操作，实现灵敏的触控交互，用起来就像在用手机或平板一样顺手。
+
+  
+
+**📷 右边三个：MIPI CSI 摄像接口**  
+这三个 **1x40x0.5mm间距** 的FPC座子主要用于视频输入，它们非常灵活，支持多种**通道组合模式**，比如：
+
+-   **4+4+4 lane**  
+    
+
+-   **4+2+2+2+2 lane**  
+    
+
+###  **### 
+
+-    4+4+2+2lane**
+
+这意味着咱们可以搭建多摄像头系统，轻松玩转**双目视觉、全景监控、或者多路同步录像**等高级应用，扩展性非常强。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7IGjVUcc0Fj90EVaaMw47yvAlUDibqgEwz8g0juhnOq539E4L1fQ1ibcZyUS2PS5FeibkbpKeIKHtw/640?wx_fmt=png)
+
+  
+
+我们再来看看这一排整齐的2.0mm间距接口，它们虽然看起来小巧，但功能都非常实用！
+
+  
+
+**📶 最左边：IPEX 天线接口**  
+这是一个标准的 **IPEX 连接器**，专门用来外接WIFI和蓝牙天线。这里的WIFI/BT支持双频2.4G/5.8G，802.11a/b/g/n/ac，WIFi5，支持BT5.2。装上外置天线后，无线信号的强度和稳定性会大大提升，告别卡顿！
+
+  
+
+**💨 往右第一个（1x2）：风扇供电接口**  
+这个 **2针的插座** 是**风扇专用接口**。当整机运行高负载任务发热时，接上一个小风扇，就能有效辅助散热，保证主板持续高性能运行。
+
+  
+
+**
+
+**🔄 中间两个（1x4）：USB 2.0 扩展接口**
+
+**这两个 4针的插座都是USB 2.0 接口。它们的用处可大了，可以引出来连接机箱的前置USB口、或者接一些不需要高速传输的外设，比如指纹模块，USB摄像头等，大大增强了扩展的灵活性。**
+
+**
+
+  
+
+**🔊 最右边（1x4）：扬声器接口**  
+这个 **4针的插座** 是专门用来接**立体声喇叭**的。为什么要用4个针脚呢？因为它**直接支持左右声道**！这样在组装整机时，就能轻松实现立体声输出。
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7IGjVUcc0Fj90EVaaMw47Ef32JCLQk6LnZQmkAib699jibTpH9Qp7egMSNSXTJvrkK3A5amzgYhKg/640?wx_fmt=png)
+
+板子背面还有一个TF卡座支持SD3.0，支持高速SD卡。
+
+右边SW1为按键RECOVERY KEY，烧录按键，用于通过USB升级烧录系统固件。
+
+  
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjia7IGjVUcc0Fj90EVaaMw47ja92jZG9zgS7c7NlxydWajvuUqfQ4j4yzGD9QHluaDODZIyjVyejeg/640?wx_fmt=png)
+
+板子另一侧的左边为1x5x1.25mm间距米白色贴片卧式针座，用于ADC检测。
+
+  
+
+右边还有一个M.2接口的卡槽，连接器采用标准M2 NGFF-M-KEY座，支持PCIe2.1，适用2280尺寸SSD固态硬盘。
+
+**
+
+这个评估板就相当于一个参考设计，有配套的原理图和PCB源文件。咱们自己做底板的时候，很多电路都可以直接参考它，能省下不少查资料、反复调试的时间。
+
+  
+
+02
+
+软件资料介绍
+
+芯片和板子再好，软件跑不起来、资料不全也是白搭。触觉智能在这方面做得挺到位。
+
+**1、系统支持全面：**
+
+它支持安卓Android、开源鸿蒙OpenHarmony、**统信OS**，以及像Debian、Ubuntu这样的Linux系统。选择非常丰富，这样在产品研发和批量生产时，就能大大方便咱们根据需求来灵活选用。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgIibaCqiaobwrmgL7lbCloyqh7s8knQLjzFVc0Ps3ib41l6RIvLqV5TCSc9kFTbMjTXu6Ehe1o4CWibQ/640?wx_fmt=jpeg)
+
+**2、资料获取方便：**
+
+官网产品页面直接就能下载数据手册、原理图、PCB库文件（这点太重要了！）、尺寸图。软件开发包（SDK）和详细的编译指南也都能找到。
+
+像Purple Pi OH2的系统镜像，他们直接提供了百度网盘的链接，Linux、Android、OpenHarmony三个版本随便下，解压烧录就能体验，对新手极其友好。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhBQohgwibdb4jPvoWJdmapFyBVXkCfy55xF2ibRaTsjgzAa2pZ6S3WwjdEmgBos2nwwuwH85biak15g/640?wx_fmt=png)
+
+  
+
+3、开发环境友好：
+
+跟着他们提供的文档，搭建编译环境、编译源码、烧录系统，过程都比较清晰。这对于快速启动软件开发，特别是驱动调试和应用移植，帮助巨大。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhBQohgwibdb4jPvoWJdmapFJUFWV8C4SMjpaZvNzmu63Q5HM6NxQJQQwL8PTrU6NGicR6ic1OjBprYQ/640?wx_fmt=png)
+
+  
+
+03
+
+总结
+
+聊了这么多，最后总结一下。这套RK3576开发板，特别适合以下情况：
+
+-   你正在做**工业HMI、AIoT网关、NVR、边缘计算盒子、商用显示设备**等项目。
+    
+-   你需要一定的**AI算力**，但又不想额外增加成本和设计复杂度。
+    
+-   你希望**快速成型**，不想在核心系统调试上花费太多时间。
+    
+-   你的产品对**稳定性要求高**，需要可靠的硬件基础。
+    
+
+**它的优势在于：**
+
+**1、性能均衡：** RK3576本身性能足够强，接口也丰富，能应对大部分中高端应用场景。
+
+**2、设计可靠：** 核心板用料扎实，接口稳定，为产品打下了好基础。
+
+**3、开发省心：** 资料齐全，软件生态支持好，能大大缩短从立项到量产的时间。
+
+触觉智的能这套方案，是实实在在地在帮咱们硬件工程师和项目团队“减负”。它把最棘手的部分标准化、产品化了，让咱们能把精力更多地集中在产品本身的特色功能和创新上。如果你正在为下一个项目选型发愁，真可以花点时间了解一下它，说不定就能帮你打开新思路。
+
+  
+
+  
+
+04
+
+**限时福利，手慢无！**
+
+最近，触觉智能正在举办专场活动，现在正是入手开发板的最佳时机！我们为大家争取到了 **整整200套** 活动专属名额，**售完即止，绝不补货！** 机会非常难得。  
+
+如果您正计划升级项目，或者希望抢占新一代AIoT开发的先机，请立刻点击下方链接，前往 **触觉智能官方企业店** 选购：  
+👉 **industio.taobao.com**  
+
+为了帮助您快速上手，我们准备了完整的技术文档、开发工具与实战教程。请按以下步骤操作：
+
+**1、首先**，关注 **“触觉智能”** 官方微信公众号；
+
+2、然后，添加客服专员13423856106，即可获取全部资料和技术支持！
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaBqy899uTFe3cEUSIBOGicvUGj8uwIfAibnrZHVgx9UNdSVj2HDiaHMQrkocc0jvrxz3ob1ibhdghiaHA/640?wx_fmt=png)
+
+触觉智能RK3506开发板购买链接：
+
+https://item.taobao.com/item.htm?ft=t&id=894713325273
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaBqy899uTFe3cEUSIBOGicv4QMtpsGEAWGYwB8Xc7l6fJ5P7wXpnSLefibFMRwt9G6AuPSZ53ZO0icQ/640?wx_fmt=png)
+
+触觉智能RK3562开发板购买链接：
+
+https://item.taobao.com/item.htm?ft=t&id=739666345147
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaBqy899uTFe3cEUSIBOGicvHQXDib9XGojVic3r3chdJ0wQ9RbtSetCYOGnLiaBFEeTtQlzBhVQufPXg/640?wx_fmt=png)
+
+触觉智能RK3576开发板购买链接：
+
+https://item.taobao.com/item.htm?ft=t&id=978595600333
+
+**机会就在眼前，立即行动，为您的项目装备一颗面向未来的智能大脑！**

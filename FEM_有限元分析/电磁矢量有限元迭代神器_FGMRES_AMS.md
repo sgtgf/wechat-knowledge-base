@@ -13,29 +13,29 @@
 
 FGMRES 之所以称为“灵活”广义最小残差法，是因为它在迭代过程中**允许动态更换预条件子**；而 AMS（Auxiliary-space Maxwell Solver）正是针对 Maxwell 方程体系专门构造的一类代数预条件子，可与 FGMRES 无缝配合
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqpcK0gOH12VmngbaibSQeiansc7pjZwzgqIjYXnCHk5eo4xmzibpia5OQpz73OCCWZIlPHFJsWfeib2sA/640?wx_fmt=png)
+![](电磁矢量有限元迭代神器_FGMRES_AMS_images/img_000_62af1912cb9d.png)
 
 对于上述FGMRES迭代求解器流程而言，其中
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqpcK0gOH12VmngbaibSQeianugGC4VLQoEOatytnzFbzQTAYCBpsfhbGFEYFoP6XNvfwsOYRhIC6GA/640?wx_fmt=png)
+![](电磁矢量有限元迭代神器_FGMRES_AMS_images/img_001_d12b83412da0.png)
 
 这里M即是预处理矩阵，根据这个系统，构造一种基于物理或者原方程特征的预条件矩阵，使得该矩阵足够逼近原始矩阵的同时，又能高效求解。进一步说明，则是预处理矩阵M的逆与原矩阵相乘得到的系统矩阵的条件数足够的小，这就能保证预处理后的线性系统能够很容易迭代收敛。
 
 具体处理方式：首先对于Maxwell方程而言，都可以获得复数形式的方程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqpcK0gOH12VmngbaibSQeianoHBrt1Zu4Txd0bu8PpicDxibgUcvtLhgsKRfibmABIicNmN4RiajJIwiaJZA/640?wx_fmt=png)
+![](电磁矢量有限元迭代神器_FGMRES_AMS_images/img_002_4921549c8a96.png)
 
 将之转化为实数系统：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqpcK0gOH12VmngbaibSQeian51f5rSMvHhibSvwWccKiaErhchnSNP0lCozOYAYxnaoMwOVZbblGN8cQ/640?wx_fmt=png)
+![](电磁矢量有限元迭代神器_FGMRES_AMS_images/img_003_8ba65e32a2ff.png)
 
 其中：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqpcK0gOH12VmngbaibSQeianuiaOrcUbZ4xib4r9jWrtYs6v4aDVXGtq7SqOEDzMsvRVuO0DgSPszmHg/640?wx_fmt=png)
+![](电磁矢量有限元迭代神器_FGMRES_AMS_images/img_004_bb35a225f627.png)
 
 接下来，构造预条件矩阵M，将原始矩阵的实部虚部相加，此时的M矩阵既包含了原始方程的所有信息：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqpcK0gOH12VmngbaibSQeianmk9GGw4eU36zlbZrxV6ibmicfW4t0B9kf35nTonQ88fxM9LkecUENibCw/640?wx_fmt=png)
+![](电磁矢量有限元迭代神器_FGMRES_AMS_images/img_005_7cf597a647e5.png)
 
 有了预条件矩阵，进一步需要求解关于Mz=v的内部方程，从M矩阵的构造可见，有两部分组成，并且一致，因此无论是使用直接求解还是迭代求解，这部分的内存相比于原矩阵会减小了一半。
 
@@ -59,7 +59,7 @@ git clone -b release https://gitlab.com/petsc/petsc.git petsc
 
 标准的CSR格式的行个数、列索引、非零原始实部虚部、右端项实部虚部；网格信息：棱边到节点的映射关系、节点的坐标信息。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqpcK0gOH12VmngbaibSQeianeCiaDXfTE5lapeNS809pwcbL4KcW71P6hHTrLCjeAQ7mGYIpUSe4smA/640?wx_fmt=png&from=appmsg)
+![](电磁矢量有限元迭代神器_FGMRES_AMS_images/img_006_6f733895329d.png)
 
 FGMRES-AMS整个代码流程：
 
@@ -75,17 +75,17 @@ FGMRES-AMS整个代码流程：
 
 测试信息，矩阵维度是3124个未知数：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqpcK0gOH12VmngbaibSQeian350ic7hic4RBCgiaI63XA2V6hqy8iaq5xppKuWwEJ2FBgNbeVcVlhvTElw/640?wx_fmt=png)
+![](电磁矢量有限元迭代神器_FGMRES_AMS_images/img_007_45dd16ea7ef9.png)
 
 测试结果，25次迭代完成。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqpcK0gOH12VmngbaibSQeianGpfciaNmjpa3GQicMcwrZzUHlpdsWeCyp4wwibNbJHQvVE3wfn94VO1MA/640?wx_fmt=png)
+![](电磁矢量有限元迭代神器_FGMRES_AMS_images/img_008_cd2e7e1b3f15.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqpcK0gOH12VmngbaibSQeiantvzNfKJLsKgGFuMIc87BGVD0KGbZYoGw1F14C2xricDRFRzEiaRnoickw/640?wx_fmt=png&from=appmsg)
+![](电磁矢量有限元迭代神器_FGMRES_AMS_images/img_009_59cfd1228ff1.png)
 
 求解结果与matlab结果一致。下面展示下不同情况下的计算效率：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqpcK0gOH12VmngbaibSQeiandllSgSiaUo5KbY23xlQWlH7PavicibG3Zvia4vyACr4DICCjTtDqwVAMicQ/640?wx_fmt=png&from=appmsg)
+![](电磁矢量有限元迭代神器_FGMRES_AMS_images/img_010_d13570c14612.png)
 
 对比结果，仅使用外循环FGMRES，不使用预处理器完全无法收敛，使用传统的sor简单处理收敛精度也只能达到1e-7次方量级，但是依然无法完全收敛，并且迭代次数已经达到5万次，收敛的时间也在半分钟左右。对于这个自由度在3000左右的矩阵速度是非常慢的。
 

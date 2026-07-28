@@ -4,13 +4,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/xLKH0mD7FgItNSlBUiNOCw](https://mp.weixin.qq.com/s/xLKH0mD7FgItNSlBUiNOCw)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeE5HicTsXFyXY98yorqLgQS7tv2YJ3VSmEzhE5H9vZwgNykTnKv3oXLeg/640?wx_fmt=gif)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_000_6757082ce6c8.gif)
 
 **点击蓝字 关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeE5HicTsXFyXY98yorqLgQS7tv2YJ3VSmEzhE5H9vZwgNykTnKv3oXLeg/640?wx_fmt=gif)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_001_6757082ce6c8.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEZVpIOHeia8EicxWOBuQwaMHzuKxDz3hiaBNMfOjwGibomRcJAI6V04jicDw/640?wx_fmt=jpeg)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_002_bbfe4e933ba8.jpg)
 
   
 
@@ -74,7 +74,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c210807?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEpJT9Qfu9eFa7UiahH9m6hXXgROUYEKp62rJY24X1cDp4VXJI0hOBZvw/640?wx_fmt=jpeg)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_003_6892878a5771.jpg)
 
 图 1  双网络桥梁表观病害快速检测算法整体框架
 
@@ -96,25 +96,25 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c210807?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEn0lqxnwn7CMCPB8NMtgfSvS78SibFIQOFsXibXLLuoWTtutJKrFq6LVA/640?wx_fmt=jpeg)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_004_5144ba10f8d9.jpg)
 
 图 2  GAN网络生成的桥梁表观病害图像  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEXib3O7I6MziaaeBo2YB1Geriaj5ILtP2Jl6kV5vjIGNjZ38iakrOiaMhrKQ/640?wx_fmt=jpeg)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_005_9794e0f5300c.jpg)
 
 图 5  BIR-X-LITE机器人数据采集过程  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeERaUz3icbzApNzU0DRz99BruC9Uibx1VRV3Qd8SPxKgfYyZMd8oo88oGA/640?wx_fmt=jpeg)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_006_cdc56f123dd4.jpg)
 
 图 9  本文方法和其他方法在不同桥梁表观图像上的测试结果
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEneFMQHcbIuHjEomWpHpcxSPEujfoUXahHCQj6zicorqttvtVKYic7sbQ/640?wx_fmt=jpeg)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_007_993727fa72ab.jpg)
 
 图 11  Grad-CAM++可视化结果
 
@@ -126,7 +126,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c210807?viewType=HTML
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEnDWEq4Fg2DnXQXC4Av3JDVjESXGRzAA1sO0a5eDfUWODZdKYrgvKmw/640?wx_fmt=png)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_008_f91a83a809a4.png)
 
 **彭雨诺**
 
@@ -134,7 +134,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c210807?viewType=HTML
 
 E-mail: pengyunuo@hnu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEgkUjRxsKyppDpFPyWaRv0e7u1mib0wK7VSjXaYOEibrDKxja0icv6EUng/640?wx_fmt=png)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_009_d1632fd9e482.png)
 
 **刘   敏**
 
@@ -142,7 +142,7 @@ E-mail: pengyunuo@hnu.edu.cn
 
 E-mail: liu\_min@hnu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEsvxfWVAx6TjibCSOficU0hK719Lsgln08guYibyaVyAgCSicZVQzAMaopQ/640?wx_fmt=jpeg)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_010_124e8728cea5.jpg)
 
 **万   智**
 
@@ -150,7 +150,7 @@ E-mail: liu\_min@hnu.edu.cn
 
 E-mail: xbh0n3@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeE1niaXSU94kpWpb7vuDTiaddQ0WSeA9oElLedYvHkkCEPFJGwggLFlruQ/640?wx_fmt=jpeg)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_011_c436384a7b68.jpg)
 
 **蒋文博**
 
@@ -158,7 +158,7 @@ E-mail: xbh0n3@163.com
 
 E-mail: jiang\_wenbo@hnu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEsKyqjswQR432NT72yYeic8z3EK5HJN4sryiaOHTHqbsMpNUcJWcjVXNA/640?wx_fmt=jpeg)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_012_5e81a3c7e284.jpg)
 
 **何文轩**
 
@@ -166,7 +166,7 @@ E-mail: jiang\_wenbo@hnu.edu.cn
 
 E-mail: hwx@hnu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEgibrQ0ry0L3U0iajSlPF7PpBeDcFbRYrB5VLb9aoWcGVbcJvuUsy1YibA/640?wx_fmt=jpeg)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_013_796aed4e2a19.jpg)
 
 **王耀南**
 
@@ -366,49 +366,49 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.2016.c150718?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeENbzM2A2DJ45eovZ4f8Fa6zIWHaFGVE3tDf9SiaNicOib72XlNagEM96kg/640?wx_fmt=png)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_014_1a9d2ce098be.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEibyoLCLRIwjZiaXicC987jzptuP74jVCfHR5S7rWK3tN7N4wFDKoxYkwA/640?wx_fmt=png)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_015_d0a6e3324344.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEhib67iat8BXbHCnpAwu22qeVSuQxpicpmWEXDeq4p5ZNyNGgpWy1VPCicA/640?wx_fmt=gif)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_016_3f4b1f69a079.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEhib67iat8BXbHCnpAwu22qeVSuQxpicpmWEXDeq4p5ZNyNGgpWy1VPCicA/640?wx_fmt=gif)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_017_3f4b1f69a079.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeESqr4wF6rZoibKJv6aWsh9icN8gaLGMM040YOJHqPvAX2picG636Fx35vA/640?wx_fmt=jpeg)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_018_3ca26d90ffcf.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEhib67iat8BXbHCnpAwu22qeVSuQxpicpmWEXDeq4p5ZNyNGgpWy1VPCicA/640?wx_fmt=gif)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_019_3f4b1f69a079.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEhib67iat8BXbHCnpAwu22qeVSuQxpicpmWEXDeq4p5ZNyNGgpWy1VPCicA/640?wx_fmt=gif)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_020_3f4b1f69a079.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEhib67iat8BXbHCnpAwu22qeVSuQxpicpmWEXDeq4p5ZNyNGgpWy1VPCicA/640?wx_fmt=gif)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_021_3f4b1f69a079.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEhib67iat8BXbHCnpAwu22qeVSuQxpicpmWEXDeq4p5ZNyNGgpWy1VPCicA/640?wx_fmt=gif)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_022_3f4b1f69a079.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeE8gWiaOfdVgiceHg2EWMBboick5qzia1oy9yk5DA5Ca8vMq7suuL1RvVcsA/640?wx_fmt=jpeg)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_023_84600a5daeeb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEhib67iat8BXbHCnpAwu22qeVSuQxpicpmWEXDeq4p5ZNyNGgpWy1VPCicA/640?wx_fmt=gif)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_024_3f4b1f69a079.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEhib67iat8BXbHCnpAwu22qeVSuQxpicpmWEXDeq4p5ZNyNGgpWy1VPCicA/640?wx_fmt=gif)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_025_3f4b1f69a079.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEhib67iat8BXbHCnpAwu22qeVSuQxpicpmWEXDeq4p5ZNyNGgpWy1VPCicA/640?wx_fmt=gif)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_026_3f4b1f69a079.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEhib67iat8BXbHCnpAwu22qeVSuQxpicpmWEXDeq4p5ZNyNGgpWy1VPCicA/640?wx_fmt=gif)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_027_3f4b1f69a079.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEy66qUdalbxFBeO85ju8Fzg7sU4WIHjdCD7GPnQLQP0OkrLuUTyAGoA/640?wx_fmt=jpeg)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_028_a784abaf467e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEhib67iat8BXbHCnpAwu22qeVSuQxpicpmWEXDeq4p5ZNyNGgpWy1VPCicA/640?wx_fmt=gif)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_029_3f4b1f69a079.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH45Z969s5zE0Vicy2HgyHPibeEhib67iat8BXbHCnpAwu22qeVSuQxpicpmWEXDeq4p5ZNyNGgpWy1VPCicA/640?wx_fmt=gif)
+![](基于改进YOLO的双网络桥梁表观病害快速检测算法_images/img_030_3f4b1f69a079.gif)
 
 **长按二维码｜关注我们**
 

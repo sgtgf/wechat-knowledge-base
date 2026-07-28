@@ -6,7 +6,7 @@
 
 成人ADHD相关静息态脑网络是指：通过对一组成人注意力缺陷多动障碍患者的静息态fMRI数据进行分析，获得与ADHD量表诊断分统计相关的、由结构上独立功能上有连接的脑区构成的脑网络。对成人ADHD相关静息态脑网络的研究，有利于提高人们对ADHD的潜在神经机制的了解。 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46WAEicfRI0IXwPuJXkjkUsk2cSfZbJcOmnLOOYUULsVBFaIIxTeksSZeu3SXE0353DgQPbTjWItbg/640?wx_fmt=gif)
+![](基于时空双稀疏表示的成人ADHD脑网络检测与分析_images/img_000_3d5af51b1593.gif)
 
   
 
@@ -30,7 +30,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46WAEicfRI0IXwPuJXkjkUskjbU0JoyDNv3EYk2tc3DSdZvWicUwQNNMxO6sBy20nCQoIdGvkj3JVaw/640?wx_fmt=png)
+![](基于时空双稀疏表示的成人ADHD脑网络检测与分析_images/img_001_0dc7c7b7ff84.png)
 
 图1 基于DTSSR的ADHD相关静息态脑网络（ADHD\_RSN）的检测方法整体框图
 
@@ -56,7 +56,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46WAEicfRI0IXwPuJXkjkUsknrNPA27ubS40egz4lkWFMia2Sx84kicvu0evEVibwpJWlwsAYU9ME30Wg/640?wx_fmt=png)
+![](基于时空双稀疏表示的成人ADHD脑网络检测与分析_images/img_002_e7e2705c564c.png)
 
 图2  ADHD相关静息态脑网络空间分布图 (‘激活’体素采用MELODIC推断)。(a) 背侧注意网络；(b) 执行控制网络。
 
@@ -64,29 +64,29 @@
 
 需要指出的是，ADHD是一种复杂的混合型精神障碍，其潜在神经机制较为复杂，本文研究中没有对ADHD亚型患者进行区分，这将是我们下一步的研究重点。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH46WAEicfRI0IXwPuJXkjkUskYU8oqjVGib2drPsBbicy8Hwgico3xvTcuhibJF4gg4dPFlGCOrpsW0HQSg/640?wx_fmt=gif)
+![](基于时空双稀疏表示的成人ADHD脑网络检测与分析_images/img_003_757f43c9cb0f.gif)
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46WAEicfRI0IXwPuJXkjkUskmHzIY8DqP4nib083T1Ul0qtmjMlHytayL63icT37drpgg1ibaUicHpiasmA/640?wx_fmt=png)
+![](基于时空双稀疏表示的成人ADHD脑网络检测与分析_images/img_004_e56fc85fa8dc.png)
 
 龚军辉  湖南大学电气与信息工程学院博士研究生，主要研究方向为医学图像处理与分析，生物信息检测与识别。
 
 E-mail：gongjunhui2003@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46WAEicfRI0IXwPuJXkjkUskUnPzhq4b5VicxdedDNYul6nKwyZIdQ4nmDic8NfA4f7DfRC1Ng2utBYQ/640?wx_fmt=png)
+![](基于时空双稀疏表示的成人ADHD脑网络检测与分析_images/img_005_93082dda3b6b.png)
 
 刘小燕  湖南大学电气与信息工程学院教授，主要研究方向为医学图像处理与分析, 复杂系统建模与控制。本文通讯作者。
 
 E-mail：xiaoyan.liu@ hnu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46WAEicfRI0IXwPuJXkjkUskArnr38XsEgovbuXVWaKCZiaa4VfhFasQiau7ibOYKMW6Nw3wkDCKqIA9w/640?wx_fmt=png)
+![](基于时空双稀疏表示的成人ADHD脑网络检测与分析_images/img_006_7e1379d75a79.png)
 
 周建松  中南大学湘雅二医院精神卫生研究所教授，主要研究方向为青少年精神疾病诊断与研究、精神应激研究。
 
 E-mail：zhoujs2003@aliyun.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46WAEicfRI0IXwPuJXkjkUskyHHU2erxeSUjZIvL0CocNibj8fgCI1OOLamN1icoKBIkQsibRKJMOoR8Q/640?wx_fmt=png)
+![](基于时空双稀疏表示的成人ADHD脑网络检测与分析_images/img_007_6b1c039b4326.png)
 
 孙刚  湖南大学电气与信息工程学院博士研究生，主要研究方向为医学图像处理与分析。
 
@@ -184,21 +184,21 @@ E-mail：gangsun@hnu.edu.cn@163.com
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46WAEicfRI0IXwPuJXkjkUsk10Mp3AOdEyw0uRicjaZicicBt7Hctu2k9acr1uSm3Xgu4adK9Ln3f2ehQ/640?wx_fmt=png)
+![](基于时空双稀疏表示的成人ADHD脑网络检测与分析_images/img_008_d3b479ea9796.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46WAEicfRI0IXwPuJXkjkUskmTTRDR2qOYsUvA6eibqXkBT62DDdGUZobQJiaaxGKiblM7mh9gEBWEVvw/640?wx_fmt=jpeg)
+![](基于时空双稀疏表示的成人ADHD脑网络检测与分析_images/img_009_5fcb7cf4d8da.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46WAEicfRI0IXwPuJXkjkUsk10Mp3AOdEyw0uRicjaZicicBt7Hctu2k9acr1uSm3Xgu4adK9Ln3f2ehQ/640?wx_fmt=png)
+![](基于时空双稀疏表示的成人ADHD脑网络检测与分析_images/img_010_d3b479ea9796.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46WAEicfRI0IXwPuJXkjkUskbM8AkVhFWxictGbXgAwcvxk8EaSoR4kpl0gmmmBYyPcej41oBTrf3qA/640?wx_fmt=jpeg)
+![](基于时空双稀疏表示的成人ADHD脑网络检测与分析_images/img_011_09d539780963.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH46WAEicfRI0IXwPuJXkjkUsk10Mp3AOdEyw0uRicjaZicicBt7Hctu2k9acr1uSm3Xgu4adK9Ln3f2ehQ/640?wx_fmt=png)
+![](基于时空双稀疏表示的成人ADHD脑网络检测与分析_images/img_012_d3b479ea9796.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH46WAEicfRI0IXwPuJXkjkUskM4YOkibiakZ001aEn1oicr8hRavAVAqTxYDf5fc8VsNemRGyelZDkC1Pw/640?wx_fmt=jpeg)
+![](基于时空双稀疏表示的成人ADHD脑网络检测与分析_images/img_013_eac4f0856bbf.jpg)
 
 自动化学报订阅号
 

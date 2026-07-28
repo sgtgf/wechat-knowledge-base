@@ -1,0 +1,376 @@
+# UPS电源知识整理
+
+原创 硬件笔记本 2023-07-28 07:40 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/Zj7j6eYBuzKS9YFzuR014w](https://mp.weixin.qq.com/s/Zj7j6eYBuzKS9YFzuR014w)
+
+## ![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+UPS，就是不间断电源。通常是弱电机房工程子系统之一，是将蓄电池与主机设备相连接，主要用于给设备提供稳定、不间断的电力供应。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepcqTPHUzlVPpGcU3Q7Sp8V3V99ribHPF99T8jjiatfkg1uEaqUoIVKP4g/640?wx_fmt=png)
+
+  
+
+当市电输入正常时，UPS 将市电稳压后供应给负载使用，此时的UPS就是一台交流式电稳压器，同时它还向机内电池充电；当市电中断（事故停电）时， UPS 立即将电池的直流电能，通过逆变器切换转换的方法向负载继续供应220V交流电，使负载维持正常工作并保护负载软、硬件不受损坏。
+
+UPS 设备通常对电压过高或电压过低都能提供保护。下面我们一起来看下UPS的基础知识。
+
+  
+
+01
+
+**UPS的基本原理**
+
+  
+
+**什么是UPS？**
+
+利用电池化学能作为后备能量，在市电断电等电网故障时，不间断地为用户设备提供（交流）电能的一种能量转换装置。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepAB0019l7ETw44y6dicgwfjuPEKGr4rRIhlqlDoG82g6NeleInVrCGaw/640?wx_fmt=png)
+
+  
+
+  
+
+  
+
+**为什么需要UPS？**
+
+市电电网提供的电力供应，看上去正常，可是不可靠:表面正常的电力，实际上危机四伏。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepGKNNNNPlU65Jwu6OG8Pd5rgwSctYVUFkE3CicuoofWiaEvTZz9iaqJTibA/640?wx_fmt=png)
+
+  
+
+  
+
+  
+
+**电源中断**
+
+-   数据丢失，通信中断，商机延误......
+    
+    —— 直接损失以每分钟5000-100000元计
+    
+-   设备停运，仪表失灵，手术中断......
+    
+    —— 间接经济损失无法估量
+    
+
+  
+
+**电源污染**
+
+-   瞬态尖峰、电源浪涌、高压脉冲
+    
+    造成服务器、路由器、磁盘阵列 等设备硬件损坏
+    
+
+-   谐波污染、线间噪声、频率漂移
+    
+    造成网络传输误码率大增，数据传输速度低下
+    
+
+  
+
+**UPS的四大功能**
+
+不停电功能——解决电网停电问题
+
+交流稳压功能——能解决网压剧烈波动问题
+
+净化功能——解决电网与电源污染问题
+
+管理功能——解决交流动力维护问题
+
+  
+
+  
+
+**UPS系统结构**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepUCerVxfpnFx7of0SdEL4TnsNAEtDTdj90qoW1xx2YMnMPibgNoMZInA/640?wx_fmt=png)
+
+  
+
+  
+
+  
+
+监控平台也是UPS的最重要组成部分之一
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepT2Xj1XsWBmuSNuUh15Vzgf5FeZR3xzIe3h9ibc73pD2xrZSKs1Cwa9w/640?wx_fmt=png)
+
+  
+
+  
+
+  
+
+  
+
+02
+
+**UPS的主要技术参数**
+
+  
+
+  
+
+**输入特性：**
+
+1、输入电压范围   输入电压范围宽可减小电池放电机会，延长电池寿命。
+
+2、输入功率因数   功率因数低，输入无功功率大，谐波电流污染电网，影响干扰其它设备。
+
+3、主电源频率允许范围。
+
+4、输入电流谐波分量。（PFC、6/12脉冲变压器）
+
+  
+
+**输出特性：**
+
+1、静态稳定度。大型为1%，中小型为2%。
+
+2、输出瞬态特性。大型5%，中小型8%。
+
+3、输出过载能力。（如：过载125% 5MIN;150% 10S)
+
+4、输出功率因数。（0.8、0.9、1）
+
+5、输出电压谐波失真度。典型3%以内。
+
+  
+
+03
+
+**UPS相关配置及计算**
+
+  
+
+**UPS系统基本由以下部分组成：**
+
+-    UPS主机
+    
+-   必选功能件(如BCB BOX等)
+    
+-   蓄电池
+    
+-   配套电池柜/架, 电池开关等
+    
+-   功能选件( 如防雷, 监控,谐波治理，上出线等)
+    
+-     
+    
+
+**需要进行的计算：**
+
+-   UPS主机容量计算与选择
+    
+-   UPS后备电池的容量计算与选择
+    
+
+  
+
+  
+
+04
+
+**UPS容量计算与选择**
+
+  
+
+  
+
+首先获得负载的总功耗,并统一单位到KVA。
+
+例如:一般个人计算机负载约200VA，小型服务器负载约1500VA，大中型服务器负载约3000VA。
+
+电流I(A安培)及 功耗W（瓦特）与VA的转换关系：
+
+-   VA= I\*220
+    
+-   VA= W/0.8(计算时通常考虑20KVA以下为0.7，20KVA以上为0.8)
+    
+
+考虑到UPS运行在60-80%的区间是最佳运行状态,一般建议在计算时将上面的结果除以0.8再一次放大。
+
+然后在产品手册中选取最靠近的功率产品，采用恒功率模式计算方式
+
+   W/cell ＝ PL/(N×6×η)
+
+  
+
+05
+
+**UP供电方案介绍**
+
+  
+
+**集中供电方式：**
+
+优点：可以实现网络设备资源的等电位控制，减小传输误码率。
+
+缺点：初期投资大，单机故障影响大。
+
+  
+
+**分散供电方式：**
+
+优点：方案布置灵活，故障影响小。
+
+缺点：如整个设备不能保持同地线，易引发干扰。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepBUJVXoUZ3InSZH7libKfRwzfAibnk3OXdAGzj1UH2Oh6SrCJKPicREL5A/640?wx_fmt=png)
+
+  
+
+  
+
+**单机供电：**
+
+-   UPS解决方案中最简单的一种
+    
+-   每一分散地点交流供电系统容量多为6KVA以下
+    
+-   各点交流负载独立地由一台UPS提供动力保护
+    
+-   市电通常就近采用插座输入
+    
+-     
+    
+
+**主从机串联“热备份”：**
+
+-   适合于中小型网络、服务器群、办公、仪表等应用场合
+    
+-   由UPS主机、UPS从机、电池系统、配电系统组成
+    
+-   配电设计和工程施工简单
+    
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepRxqgonMFcCTf0FIOmyoAeAlT8Ut2PGK5wOf4tWVposiaM3ZrAoDzbTQ/640?wx_fmt=png)
+
+  
+
+  
+
+优点：
+
+1、两台甚至多台UPS基本处于相对独立、互不干扰的运行状态。
+
+2、对于UPS同步跟踪性能要求较低。
+
+3、采用不同型号、不同容量UPS构成串联热备份方式。
+
+  
+
+缺点：
+
+1、从机长期处于空载运行状态、效率低。
+
+2、从机电池组长期处于浮充状态，得到定期带载放电维护机会少，会影响电池寿命。
+
+3、从机必须有良好的带阶跃负载能力。
+
+4、长期运行，主机逆变器=静态旁路转换功能良好是关键
+
+无扩容功能。
+
+5、相对于“并联”冗余系统平均无故障时间偏低。
+
+  
+
+**模块并联供电：**
+
+-   全部交流负载集中供电，由1台模块化并联UPS供电
+    
+-   模块化UPS包括：机架、可并联功率模块、可并联电池模块、充电模块等
+    
+-   适合于中小型网络、服务器群、办公、仪表等应用场合
+    
+-   由机架、UPS功率模块、电池模块、配电系统组成
+    
+-   功率模块配置为N+1冗余，减少了MTTR
+    
+-   共用输入、输出、并联的电池系统、控制系统
+    
+-     
+    
+
+**N+1直接并联冗余**
+
+-   适合于中大型网络、数据中心、大楼集中供电、工业厂矿等应用场合。
+    
+-   由直接并机的N+1台UPS、电池模块、配电系统组成。
+    
+-   系统N+1冗余，可靠性高于单机UPS。
+    
+-   易于扩容，维护便捷。
+    
+-   是应用最为广泛的方案。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjDV3IIiawjMxb2TLGDicozepWEzoZ7L0cpX0YicFWqmZ4YKzXehEk3wDvnzcL3oNqVibdfH99qqJhJeA/640?wx_fmt=png)
+
+  
+
+  
+
+优点：
+
+1、完善的锁相同步技术保证多台UPS直接并联时可均分负载电流。
+
+2、良好的扩容性能（N+1）。
+
+3、避免了“串联”热备份方式的缺点。
+
+  
+
+缺点：
+
+1、对设备本身同步锁相技术要求高。
+
+2、对设备制造技术要求高——输出阻抗接近。
+
+3、对逆变器输出电压调节性能要求高——分相调节。
+
+4、UPS必须同型号、同容量。
+
+5、多台并联时，旁路也需增加“均流电感”。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/QGdTFs3UHdic8wg66IWAJLEaQuanAoCj4gSv01cMlsF8hUy9ZlMeLTHntRoczHo6PQyUU0AiaibgQdQcOuTDwFgsQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+**双母线：**
+
+解决单母线运行方式存在的单点“瓶颈”问题。进一步提高系统可靠性。系统配置复杂，投资大，安装调试要求高。
+
+## 
+
+**声明：**
+
+  
+
+声明：文章来源网络。本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+**推荐阅读▼**
+
+-   [电路设计-电路分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2811359150088683521#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

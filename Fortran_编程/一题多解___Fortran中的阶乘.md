@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/L\_QCYRsfH9T037SM13\_e-A](https://mp.weixin.qq.com/s/L_QCYRsfH9T037SM13_e-A)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVUQCn96bP7hPmBV5GGjKib0wNzqs8XdcrZNjaE0M2HXKcduVw15D4bb5rhyQy2IrwCnADB5HhB1uGg/640?wx_fmt=jpeg&from=appmsg)
+![](一题多解___Fortran中的阶乘_images/img_000_ef9914d23e82.jpg)
 
   
 
@@ -59,7 +59,7 @@ Fortran未直接提供阶乘函数的原因，在于其拥有更为泛化的`gam
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](一题多解___Fortran中的阶乘_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

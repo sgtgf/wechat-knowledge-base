@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Be3pJomCHHsJBmr9jqU2Tg](https://mp.weixin.qq.com/s/Be3pJomCHHsJBmr9jqU2Tg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVX9SCMdbpeicN0Vgv8DSEoE7Za2icpGZCmMBJq3jmvPEmictNP8OJs56EnKVMic4FyBIr3YiaHMqFZM5MQ/640?wx_fmt=jpeg&from=appmsg)
+![](使用标准_Fortran_过程获取命令行参数_images/img_000_25d93288b2eb.jpg)
 
 在 Fortran 编程领域，有效地处理命令行参数是提升程序灵活性和用户交互性的重要环节。本文将基于 Fortran 2003 标准，详细介绍如何运用 Fortran 语言的标准过程来获取并处理命令行参数，确保代码的可移植性和标准化。
 
@@ -52,7 +52,7 @@ Fortran 程序中获取命令行参数的关键在于使用 `get_command_argumen
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](使用标准_Fortran_过程获取命令行参数_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Z85dEk\_TB\_knCS\_uz0SAEw](https://mp.weixin.qq.com/s/Z85dEk_TB_knCS_uz0SAEw)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVXkszTAU2XWHdU0FE9cibs9dt9GsJA7gZkOA8jojfUlONf2TTgU5VctDMoxjpdxwvicBCg02E4qIu6Q/640?wx_fmt=gif&from=appmsg)
+![](Python与Fortran语言对照学习指南_images/img_000_5353dd2570b8.gif)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVQb0fLQXUcbDxK8ict3C8ysRWHYictEdkLyYZdpwN9IjGWSVj171arV3FJOR3UTun6KLsKtL91aWcQ/640?wx_fmt=jpeg)
+![](Python与Fortran语言对照学习指南_images/img_001_5ed98516c649.jpg)
 
 随着计算机科学的发展，编程语言不断涌现，每种语言都有其独特的特性和优势。Python作为一种通用的高级编程语言，因其简洁易读的语法、丰富的库和社区支持而广受欢迎；Fortran则是数值计算和科学计算领域的老牌选手，以其高效的编译器优化和直接访问硬件的能力而闻名。本文将探讨这两种语言在表达能力和功能特性上的相似之处，并提供一份详细的对照手册，帮助开发者更好地理解如何在这两种语言之间进行转换。
 
@@ -157,12 +157,12 @@ _科学计算_中的编程语言：Fortran、C/C++、Python、Matlab 和 Julia
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.2312854885901674)
+![](Python与Fortran语言对照学习指南_images/img_002_d8aae6d6bc0e.png)
 
 **给我一组控制方程，还你一套专业软件。**我们长期从事多场耦合有限元算法和软件的研发工作，掌握全流程的 CAE 软件开发技能。如果您需要相关的技术服务，非常欢迎私信交流和扫码咨询。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVWOboiawHS9a0aZP73ss6jaKwHtTRFgyVZWmADYcYibSN0SVa6JMZFTtPziaBdnnkaEK7r9IPLicM5MdQ/640?wx_fmt=png&from=appmsg)
+![](Python与Fortran语言对照学习指南_images/img_003_039c938f471d.png)
 
-**喜欢****作者******，请点********赞********和在看******![](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6459285066781566&random=0.9039664113437702&random=0.10616299980642463&random=0.37943585876598473&random=0.7246305284075434&random=0.1820491079508062&random=0.3136645327514245&random=0.8290227030922905&tp=webp)**
+**喜欢****作者******，请点********赞********和在看******![](Python与Fortran语言对照学习指南_images/img_004_2ab55b5e37e9.gif)**
 
-**![](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.90499299240585&random=0.7427014598159356&random=0.6203706698189717&random=0.17266143983420013&random=0.4502076552242009&random=0.3348111146987862&random=0.5857982594073723&random=0.5924137199896844&tp=webp)**
+**![](Python与Fortran语言对照学习指南_images/img_005_0dc7b9b79564.gif)**

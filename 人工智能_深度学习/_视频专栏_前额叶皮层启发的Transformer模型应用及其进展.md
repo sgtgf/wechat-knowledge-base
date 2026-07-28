@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/vl3v5RZCkwjESnFimb5Ceg](https://mp.weixin.qq.com/s/vl3v5RZCkwjESnFimb5Ceg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/RXx7THRlLH2D35J4LUGZKibQ6Kkg5JxDkI3zOp1DhWJClEvEGMLJXTETVSJYjXcxktqnztKtociaAvqqiaN5VLGvg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](_视频专栏_前额叶皮层启发的Transformer模型应用及其进展_images/img_000_f76a7fe84cb4.png)
 
 点击上方**蓝字**关注我们
 
@@ -36,7 +36,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/RXx7THRlLH39gicQx4rVxCBuwF6wEBMj3bfKictqSOrhicsRFQ2pQaIeNstwibf3T3evtGpIL4XdfvqPLeBtjzNVYQ/640?wx_fmt=jpeg&from=appmsg)
+![](_视频专栏_前额叶皮层启发的Transformer模型应用及其进展_images/img_001_fe783c978bf5.jpg)
 
 图 1  PFC启发Transformer结构
 
@@ -88,7 +88,7 @@ Fig. 1  PFC-inspired Transformer structure
 
 **张铁林**，中国科学院脑智卓越中心, 脑认知与类脑智能国重实验室研究员, 课题组长, 兼职中科院自动化所复杂系统认知与决策实验室. 主要从事类脑脉冲神经网络算法, 类脑芯片及AI for Neuroscience研究. 本文通信作者.
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/hNWCQ9bibbzHiaCJb9KfdpL2BoibejlGR8z5V62T1Td8xhibKGsLzbLmiaZHLdOAalnlmU5lpibU5w1tGaXBhwmPT4ib7PwYibx4xfx3/640?wx_fmt=svg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](_视频专栏_前额叶皮层启发的Transformer模型应用及其进展_images/img_002_51820040135e.svg)
 
   
 
@@ -404,19 +404,19 @@ Fig. 1  PFC-inspired Transformer structure
 
   
 
-[![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/RXx7THRlLH2icTibl7RGC8TAx8n5IahELVBciaSZ8pibl2fjhzhCpmhvC5aiasNbXCB6DO0MjAqWVr67k7mrNnBBvDg/640?wx_fmt=jpeg&from=appmsg)](http://www.aas.net.cn/)
+[![](_视频专栏_前额叶皮层启发的Transformer模型应用及其进展_images/img_003_9312e2f23a26.jpg)](http://www.aas.net.cn/)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=10005&wx_lazy=1&tp=webp)
+![](_视频专栏_前额叶皮层启发的Transformer模型应用及其进展_images/img_004_409e145c41f9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=10005&wx_lazy=1&tp=webp)
+![](_视频专栏_前额叶皮层启发的Transformer模型应用及其进展_images/img_005_409e145c41f9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafXj5OHBUy7QPVp2aHenUdtEzbIP3uxk1ZQKCv6EkiaibIgpsosdF2WUWg/640?wx_fmt=other&wxfrom=10005&wx_lazy=1&wx_co=1&tp=webp)
+![](_视频专栏_前额叶皮层启发的Transformer模型应用及其进展_images/img_006_d1e21947407a.other)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=10005&wx_lazy=1&tp=webp)
+![](_视频专栏_前额叶皮层启发的Transformer模型应用及其进展_images/img_007_409e145c41f9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/RXx7THRlLH02k9YyqiaoksLfoW7oJ3IafvpXmRsias6qryr6ibTZibfXSD6LbEgpIH5HLjjZeL1QXj0e1f1kfOf5jQ/640?wx_fmt=gif&wxfrom=10005&wx_lazy=1&tp=webp)
+![](_视频专栏_前额叶皮层启发的Transformer模型应用及其进展_images/img_008_409e145c41f9.gif)
 
 **长按二维码｜关注我们**
 

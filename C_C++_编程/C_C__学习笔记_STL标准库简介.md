@@ -5,17 +5,17 @@
 
 ### 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/VIM0SmWQpWvsQIEAS5b228jQGB4FurcBibs2iaubicTaW5IkOa3r4XpLaPyzmen89DAcSJr1ObOucT9iceic0xehFcg/640?)
+![](C_C__学习笔记_STL标准库简介_images/img_000_c86aef6f3bea.png)
 
 点击上方「蓝字」关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_png/2MhiaCtgicxW6hVicfNzL5yE9b4tViaWuriaVsWhgzqbAxD0eIYhziaLtLI1uwLENGob23fQJEVe1M77eMPRP8yNHrKQ/640?)
+![](C_C__学习笔记_STL标准库简介_images/img_001_782af324a974.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRETdLuoXm1hlcFzRLY8530oa5qlVg14icIZ9hDbNPOkYIRsOWmTDTTFiaxJvPWFTqGXm8cTKIO6bau1qSEqqBDA/640?wx_fmt=png&from=appmsg&random=0.14341926131468363&random=0.8233414758095003)
+![](C_C__学习笔记_STL标准库简介_images/img_002_1a657d642326.png)
 
 在C++的世界里，有一把钥匙能开启高效编程的大门，那就是STL（Standard Template Library，标准模板库）。STL不仅提供了丰富的容器类型，还囊括了算法和迭代器，几乎涵盖了所有常见的数据结构与算法需求，极大地简化了程序设计过程，提高了开发效率。本文将带你初步了解STL的核心组件，包括容器、算法和迭代器，并通过实例代码展示它们的使用方法。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRETdLuoXm1IH4Zen6SCAza8nYMW3j0JXv1m3e1qd5jp0k0Q0Hp6rsUzIflAGsUL1Jk3OwuUcFyhmHguUTqhTQ/640?wx_fmt=png&from=appmsg&random=0.38964926640857445)
+![](C_C__学习笔记_STL标准库简介_images/img_003_fef80fdbea65.png)
 
 ## STL概述
 
@@ -75,7 +75,7 @@ STL提供的算法是一系列通用的函数模板，可以应用于任何支�
 
 迭代器是STL中的一个重要概念，它提供了一种统一的方式来访问容器中的元素。迭代器类似于指针，但更加灵活，可以用于不同类型的容器。通过迭代器，算法可以遍历容器中的元素，执行各种操作。
 
-**![](https://mmbiz.qpic.cn/sz_mmbiz_png/eRETdLuoXm1IH4Zen6SCAza8nYMW3j0JRWlm2BO6uRyWBoXzxwWtDOv3Wn4uYRzEZDEJOAme1FOePpNjFUqVicw/640?wx_fmt=png&from=appmsg&random=0.8654707085349422)**
+**![](C_C__学习笔记_STL标准库简介_images/img_004_24ba21186e2f.png)**
 
 以下是一些常用的迭代器操作：
 
@@ -101,8 +101,8 @@ STL作为C++标准库的重要组成部分，提供了丰富的容器、算法�
 
   
 
- ![](https://mmbiz.qpic.cn/sz_mmbiz_gif/eRETdLuoXm1hlcFzRLY8530oa5qlVg14Sp7ykiaiaeksse1OriavStBSZ3aOeSRibrictsMImSUmYpM8KlkR2oh16xA/640?wx_fmt=gif&from=appmsg&random=0.18107513163102862)
+ ![](C_C__学习笔记_STL标准库简介_images/img_005_a6c465eb1d57.gif)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRETdLuoXm0F1TJuz7SHvpW1zgzV6ZIF0r5H99lwcz5CHLoNtLjOXfQpElKKhKEE3Eiapa05EFDfBlOlExx8iaOw/640?wx_fmt=jpeg&from=appmsg&random=0.07403834435997281&random=0.9548404603232596&random=0.104285335892905&random=0.6465628742284186&random=0.7114643948388735&random=0.39825419144728924&random=0.5036513307316739&random=0.24264210905518024&random=0.8403119589921406&random=0.004225922898027479&random=0.0628489452365717)
+![](C_C__学习笔记_STL标准库简介_images/img_006_6ea74a5c645d.jpg)

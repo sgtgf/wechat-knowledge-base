@@ -1,0 +1,227 @@
+# 最近在做一个USB3.0的板子，我是这样做阻抗匹配设计的
+
+原创 王工 硬件笔记本 2025-05-30 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/4jdo2uXRDkFq3bHRThDH1A](https://mp.weixin.qq.com/s/4jdo2uXRDkFq3bHRThDH1A)
+
+![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic "音符")
+
+  
+
+大家好，我是王工。
+
+最近在做一个USB3.0的转接板项目，过程中积累了一些关于高速差分线阻抗控制的经验，今天就来和大家分享一下这方面的知识。
+
+  
+
+011
+
+为什么高速差分线阻抗控制这么重要？
+
+先讲个真实案例：去年有个朋友做USB3.0设备，信号老是断断续续的，折腾了两周才发现是差分线阻抗没控制好。然后重新打板子就好了，耽误了项目进度，老板脸都绿了...
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg672zLsftpiboK5wLM8YkhnlUc0ZLjHy32m27DVicxAxLC4JmmEaVGluxMNQURC4NSqibhVYvOz1buA/640?wx_fmt=png&from=appmsg)
+
+你看，**差分阻抗控制不好，钱包和心情都会很糟糕**。对于USB3.0这种高速接口（理论上是5Gbps，相当于625MB/s），差分线的阻抗匹配简直就是生命线。它直接影响着：
+
+1、信号完整性：阻抗不匹配会导致信号反射，眼图闭合。
+
+**2、****传输质量**：可能引起数据错误、连接不稳定
+
+**3、****EMI性能**：差模噪声增加，可能影响电磁兼容测试。
+
+  
+
+021
+
+差分阻抗控制跟哪些因素相关？
+
+这里以表层走USB线的差分微带线阻抗模型的参数进行描述
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg672zLsftpiboK5wLM8YkhncDlQIhM1DKG7Cua5wXnQR2CtL4AFTJAlfFBd5W6JzPdIkGONnrOeNw/640?wx_fmt=png&from=appmsg)
+
+看中间PCB示意图，对着右边需要填写的数据，咱们挨着来解释一下：
+
+H1：半固化片的介质厚度，是PCB的关键材料，它是走线层和参考层的距离（是固定参数，由板厂提供）；
+
+Er1：介电常数，（是固定参数，由板厂提供);
+
+S1：差分线的线间距（可更改）;
+
+W1：差分信号线的底层宽度（可更改）;
+
+W2：差分信号线的顶层宽度（可更改）;
+
+T1：走线的铜厚(一般为1盎司，也就是35μm或1.4mil);
+
+C1：基材的阻焊，也就是板子的绿油厚度（是固定参数，由板厂提供);
+
+C2：走线的阻焊，也就是板子的绿油厚度（是固定参数，由板厂提供);
+
+C3：差分线之间的基材阻焊，也就是板子的绿油厚度（是固定参数，由板厂提供);
+
+CEr:阻抗的介电常数（是固定参数，由板厂提供);
+
+以上叠层可根据实际模型进行选择，他们之间的关系可通过参数调整尝试。
+
+  
+
+031
+
+## 手把手教你用SI9000计算USB3.0差分阻抗
+
+理论讲多了容易睡着，咱们直接上实战！USB3.0的差分阻抗标准是90Ω，下面看我如何用SI9000这个神器来计算。
+
+  
+
+### 第一步：了解你的PCB叠层
+
+假设我们使用常见的4层板结构：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg672zLsftpiboK5wLM8YkhnarEciaFM0d645WnkXVYYnoiaVt2IM9VKt8kNplMr4h4ozUe9TVfT2MbA/640?wx_fmt=png&from=appmsg)
+
+-   顶层：信号层
+    
+-   第二层：完整地平面
+    
+-   第三层：电源层
+    
+-   底层：信号层
+    
+
+###   
+
+### 第二步：SI9000参数设置
+
+1、选择模型：**"Edge-Coupled Microstrip 1B"**（表层差分微带线模型）
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg672zLsftpiboK5wLM8YkhnfjVjbWDV2DVcMVaRBAK1icBicicTjPUqnxyORFvPIbL3rkITEEE8wl3pA/640?wx_fmt=png&from=appmsg)
+
+2、填写参数：
+
+-   H1（介质厚度）：4.2mil；
+    
+-   Er1（介电常数）：FR4板材通常为4.2mil；
+    
+-   W1（线宽）：这个我们先猜个值，比如6mil；
+    
+-   W6（线宽）：假如也是6mil；
+    
+-   S1（线间距）：先设8mil；
+    
+-   T1（铜厚）：走线的铜厚(一般为1盎司，也就是35μm或1.4mil)；
+    
+-   C1/C2/C3（基材走线的阻焊层）：一般1mil；
+    
+-   CEr（阻抗的介电常数）：4.2mil
+    
+
+3、目标阻抗设为90Ω，点击计算！
+
+  
+
+### 第三步：调整参数达到目标阻抗
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg672zLsftpiboK5wLM8Ykhn5DIqpquGVqF2Welpibm4NbKuQFsiazULfH2fVx1PBrgolicxYjNNgrmSA/640?wx_fmt=png&from=appmsg)
+
+第一次计算可能不准确，需要微调：
+
+-   如果阻抗偏高：可以适当增加线宽或减小线距；
+    
+-   如果阻抗偏低：减小线宽或增加线距；
+    
+
+最后尽可能达到90Ω目标阻抗，虽然差分线阻抗已经设计出来，但不是最终结果，还要考虑等长设计。等长可以采用单端走蛇形线的方法，做到等长匹配。
+
+  
+
+### 第四步：考虑工艺能力
+
+别忘了咨询PCB厂家：
+
+-   他们的最小线宽/线距能力（一般5mil/5mil没问题）
+    
+-   实际介电常数可能有偏差（建议要厂家提供测试数据）
+    
+-   铜厚的实际值（加工后可能不是精确的1oz）
+    
+
+  
+
+041
+
+## 布线注意事项及常见问题解答
+
+## ①布线注意事项
+
+计算好了只是开始，实际布线时还有这些坑要避开：
+
+**1、****等长处理**：尽可能等长；
+
+**2、****避免锐角**：转弯用45°或圆弧，别玩直角漂移；
+
+**3、****远离干扰源**：别和时钟线、电源线挤在一起；
+
+**4、****过孔处理**：尽量减少过孔，必须用时旁边加接地过孔。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjg672zLsftpiboK5wLM8YkhnwDfSLx8alRVJkc73Bvmic85uEBoaKJQb16NsL4iaybcicPf0XQloQhqSA/640?wx_fmt=png&from=appmsg)
+
+## ②常见问题解答
+
+**Q：阻抗一定要精确到90Ω吗？**  
+A：±10%通常可以接受。
+
+**Q：4层板和6层板设计有区别吗？**  
+A：有！介质厚度不同，需要重新计算。6层板通常有更薄的介质层，线宽可能需要调整。
+
+**Q：差分线可以换层吗？**  
+
+A：可以，但需注意：每个过孔都会引入阻抗不连续，要尽量减少，过孔旁边必须加地孔，换层时参考面会变化，需保证回流路径顺畅。
+
+  
+
+小结
+
+记住，**好的差分线设计 = 准确计算 + 谨慎布线 + 充分验证**。第一次可能觉得复杂，多做几次就会像骑自行车一样自然了。
+
+在微信公众号硬件笔记本的后台回复“SI9000”，即可获取软件安装包链接。
+
+最后提醒：投板前可以把设计参数发给PCB厂家确认。
+
+大家有什么USB设计中的趣事或问题，欢迎在评论区分享交流！
+
+  
+
+**写在最后**
+
+都说硬件工程师越老越吃香，这句话也告诉我们硬件也是需要积累的，王工从事硬件多年，也会不定期分享技术好文，感兴趣的同学可以加微信，或后台回复“**加群**”，管理员拉你加入同行技术交流群。
+
+  
+
+  
+
+推荐阅读（点击图片直接进入）
+
+[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+
+[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+
+投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaSeo5AHcp5WPibobK2CJ3WqxQIeic9KCQjyuuAHria7zt3JpyqOE6XErw2ic5lOib9V91ia3t8Bwn1v6iaA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgRZ0H54epM5GAlv5LDiaMIChlibetxZnsYhWeGYuvoiaPqNFUa57LqCkNjJhoEjczSpDRmVkaLLLbsg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+
+## 
+
+**声明：**
+
+  
+
+声明：原创文章，转载请注明出处。本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。  
+
+**推荐阅读▼**
+
+-   [电路设计-电路分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2811359150088683521#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)

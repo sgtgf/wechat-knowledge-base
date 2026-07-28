@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/udgotyxz32x7w2lY-914YA](https://mp.weixin.qq.com/s/udgotyxz32x7w2lY-914YA)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/kicB09lvgibnnRjv0AAqQxyBODIttZXnQqcTPoF4Pt8tJmnia4CHaYUS3zqicFfKZTWibXTAew2ibFHDjy5Pf8nDnVEQ/640?)
+![](半小时快速入门___Python_简明教程_images/img_000_504b9a0acd89.png)
 
 点击上方「蓝字」关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kLQoJJzjYaicxneNzbOg7ynx3TfnIwmNTpJQ7orkaUNrJIV4u7PNdSJ25Mtn6XdRQTamLDDicHnYfdic2bsiaNQjCw/640?)
+![](半小时快速入门___Python_简明教程_images/img_001_92b2749bca28.png)
 
 Python是一种高级编程语言，以其代码的清晰性和相对简单的语法而闻名。Python的设计哲学强调代码的可读性，这使得即使是编程新手也能较容易地学习和使用。
 
@@ -19,11 +19,11 @@ Python是一种高级编程语言，以其代码的清晰性和相对简单的�
 
 https://www.python.org/downloads
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVjCnGKXlxHDNPLabH9IicJPE0e1kX1A2HA5FxPGrfjL8tRnExnKWWPwhKLxJatXV8TpXnKuVKnNibg/640?wx_fmt=png&from=appmsg)
+![](半小时快速入门___Python_简明教程_images/img_002_9a7d3ebfd0a1.png)
 
 安装好后，调出命令提示符，输入“python”，检查是否安装成功。正常的话会出现下图所示的界面，看到“\>>>”符号：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVjCnGKXlxHDNPLabH9IicJPnpnibCCzhA1tGmlr7lcO39tVIfWaa6DqInJzzby1LEhuJlogIRVwTIA/640?wx_fmt=png&from=appmsg)
+![](半小时快速入门___Python_简明教程_images/img_003_ad189f88511d.png)
 
 这样就可以输入代码进行编程了。  
 
@@ -442,7 +442,7 @@ https://www.python.org/downloads
 
 `from matplotlib import pyplot   x = numpy.linspace(0, 5)   y = numpy.sin(x)   pyplot.plot(x, y)   pyplot.show()   `
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVjCnGKXlxHDNPLabH9IicJPUGPmVauXzpUhA8KLt4bj40ovNibsqYl2n1IwpYmx2efeUNUqcsmPlTQ/640?wx_fmt=png&from=appmsg)
+![](半小时快速入门___Python_简明教程_images/img_004_85c6e73fc09e.png)
 
   
 
@@ -450,13 +450,13 @@ https://www.python.org/downloads
 
 `x = numpy.linspace(0, 5)   y = numpy.sin(x)   pyplot.plot(x, y)   pyplot.xlabel("x")   pyplot.ylabel("sin(x)")   pyplot.xlim(1, 4)   pyplot.ylim(-1.1, 1.1)   pyplot.title("A plot")   pyplot.show()   `
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVjCnGKXlxHDNPLabH9IicJPEATg18FAEHg9T6lqzz9kQXRgVf00nia2HBcL4ghzH7Ok4GpnV3uHZlA/640?wx_fmt=png&from=appmsg)
+![](半小时快速入门___Python_简明教程_images/img_005_5f8f2b08dc43.png)
 
 为了更漂亮的数学表达式，我们可以使用 LaTeX，将文本用 `$ $` 包围。但是，我们应该通过在前面加上 `r` 来确保字符串是_原始_的：
 
 `x = numpy.linspace(0, 5)   y = numpy.sin(x)   pyplot.plot(x, y)   pyplot.xlabel(r"$x$")   pyplot.ylabel(r"$\sin(x)$")   pyplot.show()   `
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVjCnGKXlxHDNPLabH9IicJPIr4QGq81WWhDVgBGtjhfC5t7hSFnezEQI3tRP7Nh5VcvxwGr0Y8pFw/640?wx_fmt=png&from=appmsg)
+![](半小时快速入门___Python_简明教程_images/img_006_a6f81f025c76.png)
 
 对于曲面绘图，我们需要为坐标和要绘制的内容构造矩阵或数组。
 
@@ -466,13 +466,13 @@ https://www.python.org/downloads
 
 `fig = pyplot.figure()   axis = fig.add_subplot(1, 1, 1, projection='3d')      axis.plot_surface(X, Y, Z)   pyplot.show()   `
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVjCnGKXlxHDNPLabH9IicJPXdicXEXW5YD1G9txhy7nnUrQGYIb9QKXQiaWelPMOZliaDAvVicKLftxWw/640?wx_fmt=png&from=appmsg)
+![](半小时快速入门___Python_简明教程_images/img_007_d99df4c17433.png)
 
 我们可以通过更改参数来绘制每行和每列的线条，并更改颜色映射：
 
 `from matplotlib import cm      fig = pyplot.figure()   axis = fig.add_subplot(1, 1, 1, projection='3d')      axis.plot_surface(X, Y, Z, rstride=2, cstride=2, cmap=cm.viridis)   pyplot.show()   `
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVjCnGKXlxHDNPLabH9IicJPZ6BZnewhMMLcTiaYvOjmPp0iceCicTWSwRMibTicGZDe0nWPicB0FP95mrpw/640?wx_fmt=png&from=appmsg)
+![](半小时快速入门___Python_简明教程_images/img_008_3c05dbe7a42d.png)
 
 ## 求解器
 
@@ -500,7 +500,7 @@ https://www.python.org/downloads
 
 ‍
 
-‍![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=other&from=appmsg&random=0.0965554259264445&random=0.9895281602039818&random=0.3664148676365735&random=0.5989733001058846&random=0.9136350951431036&random=0.27261325097762934&random=0.5049900438385353&random=0.45326657236812573&random=0.12638990505896563&random=0.06837728990196523&random=0.4716313130946752&random=0.8901801752736267&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)‍
+‍![](半小时快速入门___Python_简明教程_images/img_009_a43309e53088.other)‍
 
 ‍
 
@@ -508,10 +508,10 @@ https://www.python.org/downloads
 
 我们目前正和专业SCI论文英文润色机构**艾德思**开展全方位合作。如果您需要**论文和基金标书辅导服务**，欢迎扫描下方二维码，获取您的专属学术顾问，**锁定直减活动优惠**👇  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUeXf7YasV5XlZrWTDeHnFTLRgbic8U3BBZN3UKTunl1YG7DYcrZicpOXFibwa5WTo58ia2iaS1OaZwmIQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&random=0.3029447436928385&random=0.13296826418253938&random=0.8159401609522359&tp=webp)
+![](半小时快速入门___Python_简明教程_images/img_010_0cc72b672a55.other)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ls5001Viarhgmk68YnN6g4W5hatFlsorE2ewpQa76twe3x93RLcIPOShC9BRIxwiaAHAZmXG8qOfqKibY7EaibAQQQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&random=0.7239950771244579&random=0.8992467804414803&random=0.44055310068440034&tp=webp)
+![](半小时快速入门___Python_简明教程_images/img_011_e9181a395fa1.other)
 
 ********▲****长按扫码添加学术顾问咨询********▲****
 
-****![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUeXf7YasV5XlZrWTDeHnFTym7hL9kzBibkonm3BATcKZXJNFE6uxtD61Bc4c3e0LWcdPiaMu2js6mg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&random=0.9553989173419446&random=0.3184402686203158&random=0.7575201251418384&tp=webp)****
+****![](半小时快速入门___Python_简明教程_images/img_012_257d3c543e63.other)****

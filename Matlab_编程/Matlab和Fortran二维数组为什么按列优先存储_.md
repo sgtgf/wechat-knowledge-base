@@ -24,6 +24,6 @@ MATLAB 和 Fortran 选择按列优先（也称为列主序）存储二维数组�
 
 列优先或行优先并没有绝对的优劣，效率取决于具体的应用场景和处理器架构。在现代计算机体系结构中，高速缓存行为、内存访问模式以及编译器优化等因素对性能的影响可能远超过存储顺序的选择。不过，在进行大量矩阵运算时，列优先存储往往能更好地适应矩阵操作的自然流程，从而在某些情况下提供更好的性能。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXUibmbzvSnbTBlZn4d6KSHHYeXneRAAdvOQgewo6x3tOkM4rnRDAwOVZJZVraubgsGzHrNiclPeOgg/640?wx_fmt=jpeg&from=appmsg)
+![](Matlab和Fortran二维数组为什么按列优先存储__images/img_000_5718dcb97efb.jpg)
 
 好书推荐

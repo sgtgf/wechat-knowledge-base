@@ -32,31 +32,31 @@ _http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c180662?viewType=HTML_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebfeYDQogWuHRrYKzeI4ibwd4ic9Yic2lho6XCicqNOFvACBHq6w7uJm8mAw/640?wx_fmt=png)
+![](基于乳腺X线摄影的肿块检测综述_images/img_000_dad6c771bc1f.png)
 
 _图1  基于乳腺X线摄影的计算机辅助检测与诊断系统框架_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebl2mGfkCmmyqKeXuEdCIM0mzqDYxqYDXqTaP55o2rXiag2eS4pzicKyZw/640?wx_fmt=png)
+![](基于乳腺X线摄影的肿块检测综述_images/img_001_d7f1650eb787.png)
 
 _图2  基于候选框的乳腺肿块检测任务结构示意图_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebnn0s7FYMPysiczarNiaDUtXw62Cfc4N608ROg1YYuTPLKXnHPv69WEDQ/640?wx_fmt=png)
+![](基于乳腺X线摄影的肿块检测综述_images/img_002_6a7c1036e659.png)
 
 _图3  基于回归的乳腺肿块检测任务结构示意图_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebiaicFZpianEGFg7XDF6uTLqy5tpkYpTb11zoicS2yhhIIcr7vKiaXGv0EAw/640?wx_fmt=png)
+![](基于乳腺X线摄影的肿块检测综述_images/img_003_5b29bdb591a1.png)
 
 _图4  基于弱监督和自迁移学习的乳腺肿块定位任务结构示意图_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebiagkuZOQhm1brpibd4tnxkfDYghibLk5KNjLhxXsTdxicVFoQLqD591HBA/640?wx_fmt=png)
+![](基于乳腺X线摄影的肿块检测综述_images/img_004_413db761c82a.png)
 
 _图5  基于全卷积网络的乳腺肿块检测和分割任务结构示意图_
 
@@ -92,9 +92,9 @@ _图5  基于全卷积网络的乳腺肿块检测和分割任务结构示意图
 
 **●** **作者简介****●**
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIX2ZicxB0JpFEkBqtQ9PzDpMGpWoib0KS1vj0ovzGsENe1Gjo6ias1VfLyMPTjcR385YMeQX1jYkI3w/640?wx_fmt=svg)
+![](基于乳腺X线摄影的肿块检测综述_images/img_005_34ddb14395e5.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCeb16rFyD8Gs6sXko22W0hDNfaOicUcNsicGpo8HudwG3grDt0NsiaEop8tg/640?wx_fmt=jpeg)
+![](基于乳腺X线摄影的肿块检测综述_images/img_006_1cfee5d178f8.jpg)
 
 **王俊茜**
 
@@ -102,13 +102,13 @@ _图5  基于全卷积网络的乳腺肿块检测和分割任务结构示意图
 
 E-mail: wangjunqian@stu.hit.edu.cn；wangjunqian1993@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIX2ZicxB0JpFEJibcF37gHibJy33RSvbDdLC5LprKKOYbO96dd2REKITFyBD0rv3nY2zpVoeJ2KKL9L/640?wx_fmt=svg)
+![](基于乳腺X线摄影的肿块检测综述_images/img_007_d5bf68c8a081.svg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIX2ZicxB0JpFEkBqtQ9PzDpMGpWoib0KS1vj0ovzGsENe1Gjo6ias1VfLyMPTjcR385YMeQX1jYkI3w/640?wx_fmt=svg)
+![](基于乳腺X线摄影的肿块检测综述_images/img_008_34ddb14395e5.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCeb9guaHq5LMAoaVtq6rGZuLwggLOWicSsX0wpQicvCIAQH7479S0yBAUJQ/640?wx_fmt=jpeg)
+![](基于乳腺X线摄影的肿块检测综述_images/img_009_54c9cfffa45d.jpg)
 
 **徐  勇**
 
@@ -116,13 +116,13 @@ E-mail: wangjunqian@stu.hit.edu.cn；wangjunqian1993@163.com
 
 E-mail: laterfall@hit.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIX2ZicxB0JpFEJibcF37gHibJy33RSvbDdLC5LprKKOYbO96dd2REKITFyBD0rv3nY2zpVoeJ2KKL9L/640?wx_fmt=svg)
+![](基于乳腺X线摄影的肿块检测综述_images/img_010_d5bf68c8a081.svg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIX2ZicxB0JpFEkBqtQ9PzDpMGpWoib0KS1vj0ovzGsENe1Gjo6ias1VfLyMPTjcR385YMeQX1jYkI3w/640?wx_fmt=svg)
+![](基于乳腺X线摄影的肿块检测综述_images/img_011_34ddb14395e5.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebUMcmIl1y4Whoh1rDdYOgicib2AEia9ODzLssw6TNyeLqhnzDgU8Libo6Gw/640?wx_fmt=jpeg)
+![](基于乳腺X线摄影的肿块检测综述_images/img_012_afe1a22c2ac3.jpg)
 
 **孙利雷**
 
@@ -130,13 +130,13 @@ E-mail: laterfall@hit.edu.cn
 
 E-mail: sunlileisun@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIX2ZicxB0JpFEJibcF37gHibJy33RSvbDdLC5LprKKOYbO96dd2REKITFyBD0rv3nY2zpVoeJ2KKL9L/640?wx_fmt=svg)
+![](基于乳腺X线摄影的肿块检测综述_images/img_013_d5bf68c8a081.svg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIX2ZicxB0JpFEkBqtQ9PzDpMGpWoib0KS1vj0ovzGsENe1Gjo6ias1VfLyMPTjcR385YMeQX1jYkI3w/640?wx_fmt=svg)
+![](基于乳腺X线摄影的肿块检测综述_images/img_014_34ddb14395e5.svg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCeb1Iq7G5de3K5mCS3RKvBnmj0Tl7mCfMbP1YfZ1a2IS6DKYeTMPQkP2g/640?wx_fmt=jpeg)
+![](基于乳腺X线摄影的肿块检测综述_images/img_015_5ad2e2323813.jpg)
 
 **蒲祖辉**
 
@@ -144,7 +144,7 @@ E-mail: sunlileisun@163.com
 
 E-mail: pupeter190@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/3a3QxMHZ8YzUnzboffufIX2ZicxB0JpFEJibcF37gHibJy33RSvbDdLC5LprKKOYbO96dd2REKITFyBD0rv3nY2zpVoeJ2KKL9L/640?wx_fmt=svg)
+![](基于乳腺X线摄影的肿块检测综述_images/img_016_d5bf68c8a081.svg)
 
   
 
@@ -232,49 +232,49 @@ E-mail: pupeter190@163.com
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebhKotzTO2SAhjN8Cp8Evn1MB3Qsyiax80sYBp8mETQNxUIkndhmSgBYQ/640?wx_fmt=jpeg)
+![](基于乳腺X线摄影的肿块检测综述_images/img_017_319dc8204976.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebXwFMyB4Fv0UsOP4GnSmseCdoaBSlqDEYQTiaOf370XvoOZJRia9ACA9A/640?wx_fmt=jpeg)
+![](基于乳腺X线摄影的肿块检测综述_images/img_018_56c500e02956.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebnq0YMSSCacuUmLXyI8VGE2OeibI55pnJvZiaftjseS3iaick6eHUvdl9Zw/640?wx_fmt=gif)
+![](基于乳腺X线摄影的肿块检测综述_images/img_019_d8e9cd32d4bb.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebnq0YMSSCacuUmLXyI8VGE2OeibI55pnJvZiaftjseS3iaick6eHUvdl9Zw/640?wx_fmt=gif)
+![](基于乳腺X线摄影的肿块检测综述_images/img_020_d8e9cd32d4bb.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebBdCqBvORUudpY3ibtuOFeCjjVFU52d8aylc8iarMBny1JpImE11VcVOA/640?wx_fmt=jpeg)
+![](基于乳腺X线摄影的肿块检测综述_images/img_021_6fdae63c9d6e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebnq0YMSSCacuUmLXyI8VGE2OeibI55pnJvZiaftjseS3iaick6eHUvdl9Zw/640?wx_fmt=gif)
+![](基于乳腺X线摄影的肿块检测综述_images/img_022_d8e9cd32d4bb.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebnq0YMSSCacuUmLXyI8VGE2OeibI55pnJvZiaftjseS3iaick6eHUvdl9Zw/640?wx_fmt=gif)
+![](基于乳腺X线摄影的肿块检测综述_images/img_023_d8e9cd32d4bb.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebnq0YMSSCacuUmLXyI8VGE2OeibI55pnJvZiaftjseS3iaick6eHUvdl9Zw/640?wx_fmt=gif)
+![](基于乳腺X线摄影的肿块检测综述_images/img_024_d8e9cd32d4bb.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebnq0YMSSCacuUmLXyI8VGE2OeibI55pnJvZiaftjseS3iaick6eHUvdl9Zw/640?wx_fmt=gif)
+![](基于乳腺X线摄影的肿块检测综述_images/img_025_d8e9cd32d4bb.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebOWt2a3YK6z01c0E9EO5hFBsapc2X4CVwZ1qZeoCLvzpdkSg9VbcqcA/640?wx_fmt=jpeg)
+![](基于乳腺X线摄影的肿块检测综述_images/img_026_f90edc6b4bd0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebnq0YMSSCacuUmLXyI8VGE2OeibI55pnJvZiaftjseS3iaick6eHUvdl9Zw/640?wx_fmt=gif)
+![](基于乳腺X线摄影的肿块检测综述_images/img_027_d8e9cd32d4bb.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebnq0YMSSCacuUmLXyI8VGE2OeibI55pnJvZiaftjseS3iaick6eHUvdl9Zw/640?wx_fmt=gif)
+![](基于乳腺X线摄影的肿块检测综述_images/img_028_d8e9cd32d4bb.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebnq0YMSSCacuUmLXyI8VGE2OeibI55pnJvZiaftjseS3iaick6eHUvdl9Zw/640?wx_fmt=gif)
+![](基于乳腺X线摄影的肿块检测综述_images/img_029_d8e9cd32d4bb.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebnq0YMSSCacuUmLXyI8VGE2OeibI55pnJvZiaftjseS3iaick6eHUvdl9Zw/640?wx_fmt=gif)
+![](基于乳腺X线摄影的肿块检测综述_images/img_030_d8e9cd32d4bb.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebs3ibQsEyOmAF7XebqUwRNzRgywRbzMBA5ibRx1uldZrFN77UmpibHLsfA/640?wx_fmt=jpeg)
+![](基于乳腺X线摄影的肿块检测综述_images/img_031_f129943c8985.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebnq0YMSSCacuUmLXyI8VGE2OeibI55pnJvZiaftjseS3iaick6eHUvdl9Zw/640?wx_fmt=gif)
+![](基于乳腺X线摄影的肿块检测综述_images/img_032_d8e9cd32d4bb.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47bUcBTgR2Zpr2ezgNQvCebnq0YMSSCacuUmLXyI8VGE2OeibI55pnJvZiaftjseS3iaick6eHUvdl9Zw/640?wx_fmt=gif)
+![](基于乳腺X线摄影的肿块检测综述_images/img_033_d8e9cd32d4bb.gif)
 
 **长按二维码｜关注我们**
 

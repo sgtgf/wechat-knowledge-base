@@ -24,52 +24,52 @@ MiKTeX是一个用于生成包含大量数学和科学表达式的文档的排�
 
 下载网址：https://miktex.org/download
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icGG6Aibt1vOI6w5iaydicVRL13Ju7oELHryf3kyno53pbxS7ps1cuxGX2Qu8KDwnXyH1ev8kh0FR9qn5ZpeXDIK7A/640?wx_fmt=png&from=appmsg)
+![](MikTex使用简介_images/img_000_66932b8df793.png)
 
 下载完以后，就一路安装，箭头处记得选择  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icGG6Aibt1vOI6w5iaydicVRL13Ju7oELHryzvrn4YK7mC93YRDicpkVmZ8sHC2kT9pVBO19QmllHUYwLxIoYnvp38Q/640?wx_fmt=png&from=appmsg)
+![](MikTex使用简介_images/img_001_0bb8e5420eec.png)
 
 点击下一步，这里建议选择第二个，为使用电脑的全部用户安装，继续点击下一步  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icGG6Aibt1vOI6w5iaydicVRL13Ju7oELHryhZYbGUWp3g2icdfd2iaexZzE1ib90RaAPgB63GQAw5PJFDEicwnxAaHnVQ/640?wx_fmt=png&from=appmsg)
+![](MikTex使用简介_images/img_002_44be9cfdfd78.png)
 
 安装路径的选择，可以选择自己喜欢的路径。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icGG6Aibt1vOI6w5iaydicVRL13Ju7oELHrywWmCLFDjmhODCn9RGBWVwPXm25W8Xww4ADhFjxWUHFOodIOl2FS6UA/640?wx_fmt=png&from=appmsg)
+![](MikTex使用简介_images/img_003_896564ce42e1.png)
 
 安装完成以后，在cmd界面输入Tex --version可以检测是否安装成功
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icGG6Aibt1vOI6w5iaydicVRL13Ju7oELHry2WJOtl1WklrEosPPEAZY4vHjAjAQsfNJzcNMIBAGgdtLqL4EVlwHdg/640?wx_fmt=png&from=appmsg)
+![](MikTex使用简介_images/img_004_2ffbf87ad8c2.png)
 
 然后在下面这个位置查看两个软件（MikTex Console 和 TeXworks）是否安装成功。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icGG6Aibt1vOI6w5iaydicVRL13Ju7oELHryerRTVvWibMIXpS6dZbg8hsVABaEbsDF7AQx0IwREKOlZpWh15ghkqkw/640?wx_fmt=png&from=appmsg)
+![](MikTex使用简介_images/img_005_dcf78162af30.png)
 
 然后是更新宏包。（这一步至关重要呀，可能由于宏包未更新导致不能运行latex源码）  
 
 首先，打开MikTex Console 这个软件  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icGG6Aibt1vOI6w5iaydicVRL13Ju7oELHryjYGSlH6eDWRE7xuA1LzQh98nmVTgtyNvFR9eoq704yusDea9kpMfnQ/640?wx_fmt=png&from=appmsg)
+![](MikTex使用简介_images/img_006_0428137dc74f.png)
 
 然后点击 文件  。切换到管理员模式
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icGG6Aibt1vOI6w5iaydicVRL13Ju7oELHryHQ30UK20j9HBrnASqcGCyOBCDhG3ucL93U5VMGQFnGhicibOon7H18ZQ/640?wx_fmt=png&from=appmsg)
+![](MikTex使用简介_images/img_007_4adb91e6be2d.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icGG6Aibt1vOI6w5iaydicVRL13Ju7oELHry3PPEGnRia9xkM381ZBMK6IZZBblB7k4DKKibNLAFURnsOcAnAUoEUKrQ/640?wx_fmt=png&from=appmsg)
+![](MikTex使用简介_images/img_008_dc2a3c399376.png)
 
 依次点击更新-检查更新-立即更新。更新完毕以后，关闭MikTex Console
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icGG6Aibt1vOI6w5iaydicVRL13Ju7oELHry8UwuaYDaBPx1tcNTqvkVeNq9r4LawRrTe40PDVicnUUd4bgMl2yUyPQ/640?wx_fmt=png&from=appmsg)
+![](MikTex使用简介_images/img_009_eb570734913f.png)
 
 这张图为更新过程图  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icGG6Aibt1vOI6w5iaydicVRL13Ju7oELHryC2GeuIoCibpqrdFEpEoGG5WSpsIBxGWc3ZNMnKsibljrVQUg70bkxn4A/640?wx_fmt=png&from=appmsg)
+![](MikTex使用简介_images/img_010_01d389b0df7f.png)
 
 更新完成以后，就可以随便找一个模板运行啦！！打开一个包含latex模板的文件，然后，双击后缀为tex的文件。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icGG6Aibt1vOI6w5iaydicVRL13Ju7oELHry6IpvjKIW4iaTWeeLvYtOOD8UTSxhzhhebFHW4KcDJN93sTsvbhKso6w/640?wx_fmt=png&from=appmsg)
+![](MikTex使用简介_images/img_011_3daf8afabb12.png)
 
 左侧为latex源码文件，右侧为运行结果的pdf文件
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icGG6Aibt1vOI6w5iaydicVRL13Ju7oELHryiasoDfINzINPAOP5yngWZ5WsQ1A1skuVP2libDia02YEsqNib7sgM5GiahQ/640?wx_fmt=png&from=appmsg)
+![](MikTex使用简介_images/img_012_463283983e41.png)

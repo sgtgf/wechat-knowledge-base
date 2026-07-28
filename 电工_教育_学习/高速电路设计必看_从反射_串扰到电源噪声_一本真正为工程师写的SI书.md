@@ -1,0 +1,141 @@
+# 高速电路设计必看！从反射、串扰到电源噪声：一本真正为工程师写的SI书
+
+原创 王工 硬件笔记本 2025-09-19 11:01 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/d3GgpW41XS2k7y9tq1snNQ](https://mp.weixin.qq.com/s/d3GgpW41XS2k7y9tq1snNQ)
+
+![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=frjerr2t&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&randomid=x41xcyk9&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+
+  
+
+大家好，今天给大家分享一本超实用的硬件设计宝典——于博士的《信号完整性揭秘》！文末附352页完整版PDF文档获取方式。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfibxfyzARA5pC3l6y4bqwvzh8v8asNhRBxj4nAGwaYYX8MS7B02Xs8Xrg/640?wx_fmt=jpeg&from=appmsg)
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfibpml5ILANtW83mnyoEgLbdIuG9B1Ho83iclECw20zmh8X9MuGywicDzgQ/640?wx_fmt=jpeg&from=appmsg)
+
+如今电子产品越做越小、速度越来越快，信号完整性问题也越来越让人头疼——反射、串扰、损耗、电源噪声，每一个都可能成为项目延期甚至失败的“元凶”。不管是做硬件设计、测试，还是搞系统开发，不懂点信号完整性（SI），真可能踩坑无数！
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfibkHpaicjicScm6A6BdV09r74MZR90YVBS00gkc5licuZHKxU5hQ2msQ68A/640?wx_fmt=png&from=appmsg)
+
+如果你也曾在设计中遇到过信号波形畸变、时序不满足、误码率高等问题，那么今天推荐的这本书，或许能帮到你！
+
+  
+
+011
+
+书籍评价
+
+不同于许多偏重理论推导的学术著作，于博士的《信号完整性揭秘》完全从工程实践出发，讲解直观，通俗易懂。当然啦，如果你是新手，刚开始看可能觉得有点难——这很正常，就像学任何新技能一样，多翻几遍、多理解一些基本概念，慢慢就会了。
+
+作者于争博士毕业于中国科学院电子所，有近15年的一线工程设计经验，曾就职于大型通信企业，并为航天科技、京东方、西门子等企业提供过技术咨询和培训。他深刻理解工程师在实际工作中面临的困惑和需求，书中的内容都源于其丰富的实战笔记和经验总结，极具参考价值。
+
+  
+
+021
+
+书籍内容简介
+
+本书系统性地讲解了信号完整性的核心知识，着重阐述了与工程设计密切相关的部分。内容涵盖：
+
+-   数字信号的频谱特征与带宽
+    
+-   传输线理论基础及返回电流机制
+    
+-   反射的形成与端接解决方案
+    
+-   串扰的产生机理与抑制措施
+    
+-   S参数的实际工程意义与应用
+    
+-   差分互连的设计要点与误区
+    
+-   抖动的分类、测量及其对系统的影响
+    
+-   均衡技术的原理与实现
+    
+-   电源完整性（PI）入门与去耦设计
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfibTCL68xcWPLTEpQQzeGY60r4ibwJt7ncEY3qcr3F1Nd3Rn4oNibUDMhXA/640?wx_fmt=png&from=appmsg)
+
+全书尽量避免繁琐的数学推导，侧重于用直观的方式解释物理概念。例如，在讲解传输线返回电流的分布时，书中通过形象的图示，让读者理解高频条件下电流的路径选择机制，从而更好理解。
+
+  
+
+031
+
+详细目录与重点内容介绍
+
+第1章 概述  
+明确信号完整性的定义，指出SI问题的根源在于阻抗变化、耦合及噪声等因素，并澄清常见的设计误区，强调仿真与实测结合的重要性。
+
+第2章 数字信号频谱与带宽  
+从周期信号频谱分析入手，推导方波和梯形波的频谱特征，重点讲解信号带宽与上升时间的关系，阐明“0.35/Tr”和“0.5/Tr”两个经验公式的适用场合。
+
+第3章 传输线  
+深入讲解分布参数模型，解释特性阻抗的物理意义，分析返回电流的分布规律，介绍耦合传输线的模态分析，并讨论有损线下的趋肤效应和介质损耗。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfibsiao8NthaSdGdzjxaeUlbz9KT17bx0Rhe3TiaibrcBN6kaQZ59BwJmATw/640?wx_fmt=png&from=appmsg)
+
+第4章 信号的反射与端接  
+详细分析反射的形成机制，介绍容性、感性负载对信号的影响，提出端接策略与拓扑选择原则，并说明TDR的应用及阻抗测量中的注意事项。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfibUcQicQEBysRaXmSWRCAfQwZ3miaLvKKEWrzXjPXMibkszkjH9KwwtLMibw/640?wx_fmt=png&from=appmsg)
+
+第5章 串扰  
+阐释容性串扰与感性串扰的产生机理，分析近端串扰和远端串扰的饱和特性，提出减小串扰的常用方法，并讨论蛇形走线对延时的影响。
+
+第6章 S参数  
+从网络分析基础入手，明确S参数的定义和物理意义，讲解S11与输入阻抗的关系、S21与通道响应的联系，并介绍多端口S参数及在串扰分析中的应用。
+
+第7章 互连线中的阻抗不连续  
+分析分支结构、参考平面宽度变化、跨分割及过孔等常见结构对阻抗连续性的影响。
+
+第8章 差分互连  
+说明差分传输的抗噪声原理，分析差分对的阻抗参数及端接方法，讨论差分S参数的意义，并对“松耦合还是紧耦合”这一经典问题给出建议。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfibicicGW2qkkUpzxkWyMkJqOEXvFrk1t4BdCpiaOK3nmOgVqk8OSPic6jicwg/640?wx_fmt=png&from=appmsg)
+
+第9章 抖动  
+介绍抖动的描述方法和统计特性，分析抖动与误码率、眼图之间的关系，讲解抖动的分类及分离技术，并讨论时钟抖动与相位噪声的关联。
+
+第10章 均衡  
+分析码间干扰的产生原因，介绍均衡的基本原理，对比无源CTLE、有源CTLE、FFE等均衡技术的优缺点及适用场景。
+
+第11章 电源完整性  
+阐述电源噪声的来源及其对信号的影响，介绍目标阻抗设计方法，分析去耦电容的选型、配置、摆放及安装原则，并讨论直流压降问题。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfib0g2AsibzxjoUZ4ObrjtuAcUiaZ7yqKP1ict9u3iaSL3pU019NnnF8L4tGQ/640?wx_fmt=png&from=appmsg)
+
+信号完整性问题的本质是多因素耦合作用的结果。阻抗不连续会引发反射，直接影响时序；串扰耦合会导致信号畸变和噪声；传输延时差异可能造成时序违规；电源噪声则会引入扰动和不确定性。此外，传输线损耗会劣化信号边沿并降低噪声容限。
+
+这些因素之间还存在复杂的相互作用：串扰会在阻抗不连续点反射，反射信号又会产生新的串扰，电源噪声为整个系统提供额外激励，而传输损耗会放大所有噪声的影响。
+
+因此，解决信号完整性问题必须采用系统级分析方法，统筹考虑所有因素的协同效应，不可孤立处理单个问题。
+
+  
+
+041
+
+PDF电子版获取方式
+
+如何下载《信号完整性揭秘》，更好的高速电路信号完整性计相关知识
+
+关注公众号：硬件笔记本，并在公众号里发送对应的下载关键字获取下载链接
+
+在公众号里给王工发消息:
+
+## 
+
+下载|信号完整性揭秘
+
+## 建议复制粘贴过去，就不容易码错字哟！
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjiaptgI1G8AiaI32icUjHTNibfibwxZONNtPEgPhXB22XVLA1bSomW8Rxiczo6oIM4u1Lgmt1dB1eO9JWZA/640?wx_fmt=jpeg&from=appmsg)
+
+加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhWGbM0O6pSywUJJazTbcV5bOY5T2tvnmV36D9x724ibeXTQia5Gw4eGgpBwcOXNyuXkoZu531V1kEw/640?wx_fmt=jpeg&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=21)
+
+注：本资源仅供学习交流，请勿用于商业用途。

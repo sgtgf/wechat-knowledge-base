@@ -1,0 +1,332 @@
+# ESD保护电路及PCB设计要点
+
+原创 硬件笔记本 2023-08-16 07:40 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/gVZ2tuavWGZG0ipn-Q9y0w](https://mp.weixin.qq.com/s/gVZ2tuavWGZG0ipn-Q9y0w)
+
+## ![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+  
+
+# **一、什么是ESD?**
+
+ESD代表静电放电。许多材料可以导电并积累电荷。ESD 是由于摩擦带电（材料之间的摩擦）或静电感应而发生的。每当发生这种情况时，物体都会在其表面形成固定电荷（静电）。当这个物体放置得太靠近另一个带电物体或材料时，电压差会导致电流在它们之间流动，直到恢复电荷平衡。
+
+因此，可以将静电放电定义为两种带电材料或物体之间由接触、短路或电介质击穿引起的瞬时电流流动。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbDN4eQ4ZELogfjm30Cib1GNHU96QIfNAK4WNw70ePQEbanUojBE5aia1Q/640?wx_fmt=png)
+
+  
+
+对于消费类产品，ESD 和空气中的介质击穿通常发生在两点之间的电场大于 40 kV/cm 时。气压、温度和湿度等因素会影响电场强度。例如，某些环境中的高湿度会导致空气更具导电性，这会耗散一些电荷并增加 ESD 所需的电压。
+
+  
+
+# **二、ESD如何影响PCB？**
+
+静电在生活中比较常见，但是静电荷的电压可以达到几千伏，可以对元件造成很大的危害。
+
+当这个电压差足够大时，就会有电流的传导路径，从而产生巨大的电流脉冲。随着电流脉冲的发展，高热量会在 PCB 本身的元件和导体内消散。在极端场强和产生的电流下，PCB 可能会损坏，组件可能会被毁坏。
+
+这种散热基本上是 IR 压降，其中 PCB 中元件的自然直流电阻会产生压降并达到高温。ESD 可能发生在 PCB 上的一些常见位置，因此 PCB 中的 ESD 保护应重点放在某些特定区域。如下例如：
+
+1、集成电路中的ESD
+
+ESD 脉冲会导致电流流过集成电路上的管芯，产生会损坏组件的高热。下面显示了集成电路封装的示例和半导体芯片上的走线。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcb2bQaXEHv2ddNh72JmdG3TCpAOI6WnRcEDBtpEjawCB9vBIiar44U6rg/640?wx_fmt=png)
+
+集成电路封装（左）和管芯（右）上的极端 ESD 损坏
+
+尤其是现在很多芯片都是使用光刻特性制造的，不能承受高压降，虽然说可能只是高于工作电压的DC值，也会对芯片造成影响。
+
+  
+
+2、连接器中的ESD
+
+连接器本身不是ESD源，但是在上面积聚的静电荷都可能导致ESD。有人插入芯片，拔出电缆或者按下按钮都会给设备带来静电风险。由于浮动导体上静电荷传递，浮动引脚可能会产生ESD。最后当连接器插入插座时，可能会产生ESD，从而产生火花。
+
+连接器上的金属护罩和浮动引脚是某些消费和工业产品中发生 ESD 事件的常见位置。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbbeFGS43KSyWYnK1fIic1m5L8NkDFbjgNQXhbKGdZRrTibheXNEULXeqA/640?wx_fmt=jpeg)
+
+连接器上的金属护罩和浮动引脚是某些消费和工业产品中发生 ESD 事件的常见位置
+
+  
+
+处理浮动引脚的简单解决方案是将它们接地。屏蔽连接器还应具有连接到机箱的接地屏蔽层，并最终连接到大地。应该是直接连接到底盘的低阻抗连接，不通过电容提供此连接，也不通过 PCB 将 ESD 电流路由到地。
+
+PCB 设计的几乎每个元素（走线、布线、层、电子元件放置和间距）都会影响电路板上的 PCB ESD 保护。因此必须在设计早期就考虑到ESD保护电路。
+
+  
+
+# **三、ESD保护电路设计**
+
+1、TVS 二极管和二极管电路
+
+TVS 二极管保护电路是非工业低电压设置中最常见的电路之一。与嵌入在电源管理 IC 或微控制器中的其他 ESD 保护元件相比，TVS 浪涌二极管保护器可以提供更高的电压抑制，如下例所示。
+
+下图为ESD 保护电路示例，该电路由差分 I/O 上的并联 TVS 二极管组成。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbf5rYvZZxSIDZH9KxSNibn4sOicvnvfafIzjIibREfnowibfsUXSiagusPfA/640?wx_fmt=jpeg)
+
+ESD 保护电路示例
+
+  
+
+1）典型的电压钳位二极管电路
+
+典型的电压钳位二极管电路如下所示。该电压钳位电路主要是限制缓冲器输入端的电压累积。
+
+在正常情况下，二极管 D1 和 D2 是反向偏置的，只要输入端的电压大于电源轨电压，二极管 D1 就会正向偏置并导通。类似地，当输入电压低于地时，二极管 D2 正向偏置并从地向输入导通。
+
+下图为单端缓冲器 I/O 上的 ESD 保护电路中使用的齐纳二极管。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbDeNGaOwItdRVpZAY2ekQjeuHkP11icnF6oLJkkBrwLEGO9ftxmTYicdg/640?wx_fmt=png)
+
+单端缓冲器 I/O 上的 ESD 保护电路中使用的齐纳二极管。
+
+  
+
+上述电路可以使用一些具有高反向偏置击穿电压的简单二极管（例如齐纳二极管），或者并联或背靠背配置组合的TVS二极管。用于确定使用哪种类型二极管的主要因素是击穿电压和正向电流。
+
+TVS 二极管分为两种类型，两种类型的 TVS 二极管都在正常工作条件下充当开路，并且在发生 ESD 浪涌时充当接地短路。
+
+  
+
+2）单向瞬态抑制二极管
+
+用于 ESD 保护的单向 TVS 浪涌二极管如下所示。TVS 二极管不一定是简单的齐纳二极管，也可以是专门作为 TVS 二极管销售的组件，如下图所示。
+
+下图为受保护组件电源轨上的单向 TVS 抑制二极管。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbibHfoJYDncrFmMIYNQsWFX8xB729QDsag85FZlrTxbZ5LWejTO5ulfw/640?wx_fmt=jpeg)
+
+受保护组件电源轨上的单向 TVS 抑制二极管
+
+  
+
+在 ESD的正周期期间，该二极管变为反向偏置并以雪崩模式运行，导致 ESD 电流从输入端流向地。在负周期期间，此 TVS 二极管变为正向偏置并传导 ESD 电流。
+
+单向 TVS 二极管保护电路免受 ESD 影响的方式：通过阻止或允许 ESD 电流流动，具体取决于其极性。
+
+  
+
+3）双向瞬态抑制二极管
+
+下图显示了双向 TVS 浪涌二极管保护 ESD 敏感元件的典型用法。这里只是一个简单的布置，如果需要额外的电流限制，可以添加一个额外的电阻。
+
+下图为受保护组件电源轨上的双向 TVS 抑制二极管。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbKEpcCWNlA8PWYRxpk1psBPC5BeFicvYUnkPWubibwRMZvmJRStNKZZTg/640?wx_fmt=jpeg)
+
+受保护组件电源轨上的双向 TVS 抑制二极管。
+
+  
+
+在瞬态 ESD 的正周期期间，两个二极管中的一个正向偏置，另一个反向偏置，这意味着一个二极管由于其正向偏置而导通，而另一个二极管则以雪崩模式工作。通过这种方式，两个二极管都形成了一条从 ESD 源通向地的路径。在负 ESD 循环期间，二极管交换它们的模式，再次创建通路并且电路保持受保护。
+
+  
+
+2、使用 TISP4350 过压保护器代替 TVS 二极管
+
+这种电路专为电信线路上的过压而设计。与 TVS 二极管阵列相比，TISP4 针对 ESD 事件和其他来源的过压事件提供了某种程度的通用保护。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbl4BeeMrj0eJG1jnKrddRp38TXu1jiar9ShmU4yZ7jnndbUicjxyF60eA/640?wx_fmt=png)
+
+使用 TISP4350 过压保护器代替 TVS 二极管
+
+  
+
+保护装置的选择取决于许多因素。不同的型号和类型针对不同的电压范围、工作电压、事件持续时间、响应时间等而设计。
+
+  
+
+3、其他 ESD 抑制器组件
+
+除以上介绍的外，还有其他几种 ESD 抑制器组件，例如多层变阻、气体放电管和基于聚合物的抑制器。ESD 抑制组件用于将 ESD 电压降低到特定限值以下，从而保护电路或组件组。
+
+抑制器组件或电路并联到易受攻击的线路，将低 ESD 电压保持在一定限度内，并将主要的 ESD 电流分流到地。一般来说都可以datasheet上找到相关的电路示例。
+
+  
+
+4、具体案例：气体放电管 + TVS 二极管
+
+处理高电压的一种策略是使用与 TVS 二极管和电感并联的气体放电管。电感和 TVS 二极管就像一个低通 RL 电路，提供额外的滤波并减慢 ESD 脉冲的上升时间。
+
+下面这个电路基本上是一个具有大时间常数的低通滤波器，因此该电路将允许标称直流电压通过，同时为通过放电管的 ESD 电流提供高阻抗。输入端的保险丝提供了针对大 ESD 电压的额外保护。
+
+下图为采用TVS二极管和气体放电管的ESD保护电路设计。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbczDKhlhWNIVP6YRpSnwZCUskewicpyW87vImeiaSIT2CezexCOr7uFnw/640?wx_fmt=jpeg)
+
+采用TVS二极管和气体放电管的ESD保护电路设计
+
+  
+
+# **四、PCB布局中的ESD保护**
+
+1、优化 TVS 周围的阻抗
+
+所有 PCB 元件和走线都有寄生电感。在典型的保护方案中，有四个：ESD 源 和 TVS 阵列之间的电感（L1 和 L2）、TVS 和地之间的电感（L3）以及 TVS 和受保护集成电路之间的电感.。
+
+只有当 L4 大于 L1-3 时，ESD 电流才能被强制接地。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbV4sWDicvgrIEC1y9Qc1EicSByNbKjF7ZNGDRL2ria5Q2ovvVtuObhzxvA/640?wx_fmt=png)
+
+优化 TVS 周围的阻抗
+
+  
+
+下图显示了一个项目的PCB布局。从下图中可以看出来，PCB的这一部分有一个USB端口，为了保护 FT231X UART (U1)，我们在它和端口之间的路径上放置了一个 USBLC6-4SC6 ESD 抑制器 (U2)。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbCmNSPkXYlKwdFYCD5PA7mcq9DpicQ3PaNeYH8PkhMHSZZnWbSGicMdiaQ/640?wx_fmt=png)
+
+PCB ESD保护布局
+
+  
+
+这里有2点需要注意：
+
+-   抑制器 (U2) 放置在靠近 ESD 源（USB 端口）的位置，电感 L4 变得比 L1 大得多，这迫使 ESD 电流流向 TVS。
+    
+-   抑制器直接放置在从 ESD 源到受保护 IC 的路径上，从而完全移除 L2。
+    
+
+  
+
+2、限制静电放电的 EMI
+
+ESD 产生强电压脉冲，可对附近的其他信号线产生电磁干扰 (EMI)。辐射的主要来源位于 ESD 源和用作天线的抑制器之间。
+
+如果可能，在设计上应该使抑制器区域远离其他电路和未受保护的走线，否则它们会将 ESD 信号传送到其他 IC。即使不考虑每条线路的电感，受保护线路和相邻的未受保护线路也可以充当电容，从而允许电压浪涌在两条线路之间传递。下图说明了 ESD 脉冲如何耦合到未受保护的线路：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbNEPINzPGJviaMVwN4USVEv9xS1DkJh0Ncymhsvk5XbtNkHBMic683e7A/640?wx_fmt=png)
+
+ESD 耦合到附近的走线，因为这两条走线就像一个电容
+
+  
+
+限制 EMI 的另一种方法是使用直线和短路径，因为拐角会辐射 EMI。在这种情况下，使用直线是不可能的。相反，我们使用了 45° 弯曲。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbEgZxRiawuvVwnicQfiblrTGdQic5yXR6uHBDRyBYRK2UTzN0YzpYWIl7Dw/640?wx_fmt=png)
+
+PCB ESD保护电路布局
+
+  
+
+3、正确使用VIA
+
+在多层 PCB 中，过孔可以用作带有寄生电感，减少不必要走线。下图中，ESD源和受保护IC在同一层，而TVS在另一层，在这里，VIA 作为 L2 工作，导致 ESD 电流在 TVS 和 IC 之间分流，因此必须要避免这种布局。
+
+在这种情况下，尽管 TVS 在其路径上，但一部分 ESD 电流将流向受保护的 IC。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbBzvbh1PqkOiaFm9M46wGSVF7BLPYzGlpky3wIQ250ibiatWN0yuLYw7pQ/640?wx_fmt=png)
+
+PCB 最差布局
+
+  
+
+理想情况下，ESD 源和 TVS 应该放在同一层，如下图所示。这样，ESD 电流先流过 TVS 保护引脚，然后再通过 VIA 流向受保护电路。在这种情况下，TVS 直接位于从 ESD 源到受保护电路的路径上。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbsGiaWomHS6CozeqXoQRmKrDJy5A7gWn0A21WiaemYjibRk24o0A3hgPKg/640?wx_fmt=png)
+
+用于ESD保护的最佳PCB布局
+
+  
+
+在这个特殊的 PCB 设计中，ESD 源（USB 连接器）在两个不同的层上有两条走线。但是将ESD源和TVS放同一个水平面是不可能的，因此采用了一个可以接受的布局。
+
+这里也可能会遇到一种相反的情况：TVS 和受保护的 IC 位于同一层，但 ESD 源（来自 USB 的两条走线）位于不同的层。虽然如此，但这样设计VIA也是正确的，因为TVS 保护引脚会在 ESD 电流流向 IC 之前接收它。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbx39gzKgBD26JwYpXiccku1F9YgLOVMGDAlIPHKBaQDcib5Lkibk5OB1kw/640?wx_fmt=png)
+
+用于ESD保护的VIA布局
+
+  
+
+如果无法实现理想的布局，可接受的折中方案是按以下方式将 ESD 电流强制流向 TVS：虽然这种布线对于 ESD 保护来说并不完美，但如果没有其他选择，也可以采用这个方式。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbbkXQz9PYhYe8y02KibPS7ZoTpibw1NOgaERxiaNcJR6xGFEEfzOOEDZJw/640?wx_fmt=png)
+
+使用VIAS妥协路由
+
+  
+
+4、放置ESD 抑制器
+
+选择与电路电气特性兼容的 ESD 抑制器后，下一个需要考虑的是放在哪里。放置时应使 IC 在发生 ESD 时接收到尽可能低的电压浪涌。
+
+对于中频信号和典型的 ESD 脉冲，PCB 走线就像电感一样，意味着它们的阻抗随频率 (ωL) 增加。带有 TVS 二极管的电路现在如下所示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbwPlXRS7AOFudY6HavD4MXZEA1cCF72icb6TUicjibE41EC7ibZk6ia1ic6ww/640?wx_fmt=png)
+
+线路电感对 ESD 的影响
+
+  
+
+从上图中我们可以清楚的看到，当L2>>L1时，二极管会快速触发。这也意味着大部分电流将被引导离开受保护线路，L2 还将耗散留在受保护线路上的任何 ESD。
+
+这意味着我们需要将 TVS 二极管放置在尽可能靠近可能发生 ESD 的位置。ESD 抑制器连接到线路或地的电感应该最小。ESD脉冲的能量随着走线长度的增加而降低，因此ESD抑制器与被保护IC之间的走线长度应尽可能长。
+
+  
+
+5、ESD 源和抑制器之间正确添加过孔
+
+如果 ESD 源和抑制器之间有过孔，过孔也会导致耦合到未受保护的线路。理想情况下，ESD 源和抑制器之间不应有任何过孔，因为它会增加线路的长度，从而导致线路上的电感增加。这有两个不利影响：
+
+-   会增加被保护线路中的ESD脉冲能量
+    
+-   会通过 EMI 增加未受保护的线路产生的信号
+    
+
+  
+
+如果工程师没有其他办法，必须要添加过孔，那么就必须要确保保护线和抑制器在PCB的同一个侧，且源极在过孔后连接保护线（下图中的案例一）。
+
+最差的是源线和保护西安在同一侧，而ESD抑制器在另一侧，必须要避免这种情况（下图中的案例二）。在这种情况下，最好使用另一个过孔在ESD抑制器之后连接受保护线路，而不是直接将ESD源直接连接到受保护线路（下图中案例3）。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbD4kk4vLRenSA7EN1KJ2wBdI5VibTR83ibbTIlDOaPNQMO2FvFcDtKXuA/640?wx_fmt=jpeg)
+
+挣钱去添加过孔以减少 ESD 对受保护线路的影响
+
+  
+
+6、适当的接地布线
+
+在上面的内容中已经有说明，我们需要降低源极和TVS二极管之间的走线电感，将电压脉冲远离我们需要保护的IC，在那里我们是假定ESD抑制器具有良好的接地。但实际上，ESD源TVS二极管之间或者TVS二极管和地之间可能存在一些电感，如下图所示：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhJ2TInYF4EucnXSgH0OWcbbFnIbREUIUuooDEWZzSCasFMI7Cul0y9eKEWmLUibgaQIKoRHd9ibR8Q/640?wx_fmt=png)
+
+抑制器上的寄生电感可以将更多的 ESD 电压引导回 IC
+
+  
+
+我们可以通过将 TVS 放置在尽可能靠近信号源的位置来降低 L3。为了减少 L4，我们使用过孔将 TVS 接地引脚直接连接到接地层。如果无法直接连接，则在通往地平面的走线上并联使用多个过孔。
+
+这样的话应该让每个过孔和焊盘尺寸上的钻孔直径更大，以增加表面积（以对抗集肤效应）。TVS 抑制器上的接地过孔应填充非导电材料，以保持较大的表面积。
+
+## 
+
+**声明：**
+
+  
+
+声明：文章来源头条号张工谈DFM。本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+投稿/招聘/推广/宣传 请加微信：woniu26a
+
+**推荐阅读▼**
+
+-   [电路设计-电路分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2811359150088683521#wechat_redirect)  
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

@@ -3,9 +3,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Vdsk2VyD3Ag\_94bkal3\_7Q](https://mp.weixin.qq.com/s/Vdsk2VyD3Ag_94bkal3_7Q)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVWW6ES7rREta1ia1wYm6LYKU7UEfrk6y2F99z1w1XJwuTee0aeiclpE8iaiagyJibrHdBXh2GYibmvuX15A/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](深度对比_CFD领域的有限元法与有限体积法_images/img_000_d12add5532eb.gif)
 
-# ![Mathematical modelling and computational fluid dynamics informing ...](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXnPAW0j5ao3vvZUkr8rl2KwQkw6wLTm5fX2odE9giamfF8xlScYusmh66sqiaNRkZsqr4secq9ODgg/640?wx_fmt=jpeg&from=appmsg)
+# ![Mathematical modelling and computational fluid dynamics informing ...](深度对比_CFD领域的有限元法与有限体积法_images/img_001_946746ce55d5.jpg)
 
 在计算流体力学（CFD）领域，有限元法（FEM）和有限体积法（FVM）是两种关键的数值模拟技术。自20世纪中叶发展以来，这两种方法在流体流动、传热传质等领域扮演了重要角色。尽管两者均基于偏微分方程的离散化，但其数学基础、物理特性和工程应用存在显著差异。本文将从数学理论、数值实现、应用领域及优缺点等维度系统分析FEM与FVM的异同，并探讨其在现代CFD中的发展趋势。
 
@@ -19,7 +19,7 @@
 
 这个数学模型可以描述流体流动等物理现象，用于表示空间中动量和质量的守恒。然而，解析求解这些方程通常非常困难或不可能。因此，我们需要建立接近数学模型的**数值模型**，并使用计算机程序来求解这些数值模型方程。
 
-![网格剖分中不同尺寸设置的最佳方式 - 知乎](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXnPAW0j5ao3vvZUkr8rl2KQiadQFVmXmWvqs0ZngwHnWW5dcvdiasGXbwBAjeqSPdeXHzqDiaYAdBPA/640?wx_fmt=jpeg&from=appmsg)
+![网格剖分中不同尺寸设置的最佳方式 - 知乎](深度对比_CFD领域的有限元法与有限体积法_images/img_002_1f89b93c215c.jpg)
 
 对于微分方程，时间和空间的离散通常采用某种网格化格式来实现。上述定义的数学模型有如下数值模型：
 
@@ -75,11 +75,11 @@
 
 如果我们使用三角剖分法作为这两种方法的基础，下面我们继续分析有限元和有限体积公式可能的离散形式。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXnPAW0j5ao3vvZUkr8rl2KBy33ITfEJV6a5KfficKSznt2tf4iaw6ib1DKVibdmo8W1yyHfPprR6KZtQ/640?wx_fmt=jpeg&from=appmsg)
+![](深度对比_CFD领域的有限元法与有限体积法_images/img_003_f2d6a12cf7a6.jpg)
 
 对于有限元方法，试函数仅在节点（局部支持函数）附近是非零的，这意味着只需对这附近的 element（这里是三角形）计算积分。边界通量的贡献（方程 1 左边第三项）只需包含在边界上有面（三维）或边（二维）的 element 中，这是因为，element 间边界贡献抵消了连续基函数。对于图域中突出显示的节点，只有周围的灰色 element 对（ 域上）域积分有贡献。对于边界上突出显示的节点，只有两个相邻的浅蓝色 element 对  域上的积分有边界通量贡献。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXnPAW0j5ao3vvZUkr8rl2KQCZDhnZKUxGnQvC4iazW4jnzS1s0cbICeJstztrrDheclILK4PibenSg/640?wx_fmt=jpeg&from=appmsg)
+![](深度对比_CFD领域的有限元法与有限体积法_images/img_004_b55d8bf6b90c.jpg)
 
 观察常见的有限体积法，即 cell 中心法，会发现每个 cell（三角形）都被视为一个单独的域。通量的边界项（方程 2 左边第二项）对所有 cell（包括内部 cell 和边界上有面（三维）或边（二维）的 cell）进行积分。
 
@@ -89,7 +89,7 @@
 
 相反，在有限体积法离散化中，边界上的解没有很好地定义。该方法仅为每个 cell 定义解的值，通常解释为 cell 中心的值。因此，有限体积法需要通过某种重建方法来完成。通常，在考虑相邻 cell 值的情况下，使用局部插值方法；见下图中的示例。为了得到解和通量的高阶插值，需要考虑更多的 cell 值，这不仅非常复杂，而且会阻碍方法的局部化。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXnPAW0j5ao3vvZUkr8rl2Kg4Jj229EFwiaCggXGC6ru9GOIQFPsAcYmLYLEahdOETLvUEavctF0LA/640?wx_fmt=jpeg&from=appmsg)
+![](深度对比_CFD领域的有限元法与有限体积法_images/img_005_75dd47c46085.jpg)
 
 ## FEM与FVM的核心差异
 
@@ -205,7 +205,7 @@
 -   **灵活性:** 适用于非结构化网格，且可结合显式/隐式时间积分。
     
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXnPAW0j5ao3vvZUkr8rl2Ky1JG7RXnXVm7PGHGrAy6cbUGibC1cFQK03ZwTWmIgWX6gWLhjk556lg/640?wx_fmt=jpeg&from=appmsg)
+![](深度对比_CFD领域的有限元法与有限体积法_images/img_006_ad8ad72ab4be.jpg)
 
 DG方法已被应用于高超声速流动、可压缩湍流等复杂问题，其计算成本虽高于传统FVM，但精度与鲁棒性的平衡使其成为下一代CFD工具的核心方向。
 
@@ -252,12 +252,12 @@ _[有限](http://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247484564&idx=1&
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.2312854885901674)
+![](深度对比_CFD领域的有限元法与有限体积法_images/img_007_d8aae6d6bc0e.png)
 
 **给我一组控制方程，还你一套专业软件。**我们长期从事多场耦合有限元算法和软件的研发工作，掌握全流程的 CAE 软件开发技能。如果您需要相关的技术服务，非常欢迎私信交流和扫码咨询。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUiaBXZVo6l0B8M1jCa328awtQ1MFgKXLbF5QKRRbE8zuZqwdfFsLeoRtrCuPhTSQY0t2zictECdFmA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](深度对比_CFD领域的有限元法与有限体积法_images/img_008_18b5c0701c85.png)
 
-**喜欢****作者******，请点********赞********和在看******![](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6459285066781566&random=0.9039664113437702&random=0.10616299980642463&random=0.37943585876598473&random=0.7246305284075434&random=0.1820491079508062&random=0.3136645327514245&random=0.8290227030922905&tp=webp)**
+**喜欢****作者******，请点********赞********和在看******![](深度对比_CFD领域的有限元法与有限体积法_images/img_009_2ab55b5e37e9.gif)**
 
-**![](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.90499299240585&random=0.7427014598159356&random=0.6203706698189717&random=0.17266143983420013&random=0.4502076552242009&random=0.3348111146987862&random=0.5857982594073723&random=0.5924137199896844&tp=webp)**
+**![](深度对比_CFD领域的有限元法与有限体积法_images/img_010_0dc7b9b79564.gif)**

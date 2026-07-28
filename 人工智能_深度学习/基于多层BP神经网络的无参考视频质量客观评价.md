@@ -84,19 +84,19 @@ VQA一般分为3类: 全参考(Full-reference, FR)、部分参考(Reduced-refere
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxYP2DOOia0BLt7W0ViaQUlgQRhibD7DbbrrqPjNEaKoAsKiarMsfk7g6XGA/640?wx_fmt=jpeg)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_000_5acbb4b6baab.jpg)
 
 图 1  基于多层BP神经网络的无参考视频质量客观评价方法流程图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxkTVez1ic3xDic0e1ibGp8zdDXYvKC3eGI8QpQrKciafEw1ppvvQDb6PZVA/640?wx_fmt=jpeg)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_001_b2db682c7aec.jpg)
 
 图 9  所提BP-VQA模型与6种现有FR-VQA模型的精度对比
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxtiaaD9QzpQPfiak1Hb2etX3t1zhEcFNmnh89lCibx4bWC0k5SMqo76teA/640?wx_fmt=jpeg)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_002_ef6ba2df8b1b.jpg)
 
 图 10  所提模型与10种现有VQA模型的运算耗时对比
 
@@ -104,7 +104,7 @@ VQA一般分为3类: 全参考(Full-reference, FR)、部分参考(Reduced-refere
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxjMHJW5mtuw2GLQVFSd3EibXTgaSe78tW9oxBMzR6icydMwib0cOiazwhbw/640?wx_fmt=png)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_003_d05efe18dfaf.png)
 
 **姚军财**
 
@@ -112,7 +112,7 @@ VQA一般分为3类: 全参考(Full-reference, FR)、部分参考(Reduced-refere
 
 E-mail: yjc4782@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxrrVaQyw9Mt8lwibwjBOVcMIfVarCdAscU4iavGMSGjXx7COV6AOYLBhg/640?wx_fmt=png)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_004_630514c99ac9.png)
 
 **申   静**
 
@@ -120,7 +120,7 @@ E-mail: yjc4782@163.com
 
 E-mail: shenjingtg@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciax85rTVJeJ09l3yQTmT0W3fRwicXE1IJS3mHiciapjnmy5KOn1yY6mulA4Q/640?wx_fmt=png)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_005_9a9f2a9e676c.png)
 
 **黄陈蓉**
 
@@ -344,49 +344,49 @@ http://www.aas.net.cn/cn/article/id/14629
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxOKDOh5NYBLtD9PS1HA6Vic3hokr9O8dVEQeUePAEKs7t8bVjgMtDJLg/640?wx_fmt=png)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_006_f40960ef775f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxbxSrTXQ4NiaYz8wKxiaqf6TYaNSnINkprVHwuZsS71V1ZkyWKPlsGwkQ/640?wx_fmt=png)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_007_db562cbf2bd1.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxyPePfG42aiaMEcHmL0U2vnghfCB0fRYIa9W7rrobEngzGCku6qJrQBA/640?wx_fmt=gif)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_008_e360c13bde4d.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxyPePfG42aiaMEcHmL0U2vnghfCB0fRYIa9W7rrobEngzGCku6qJrQBA/640?wx_fmt=gif)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_009_e360c13bde4d.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxbAdszKKGvoe6LsZTcbbwUvWWLXBicEcMEC7eFnmweht7Jc2DKslviakw/640?wx_fmt=jpeg)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_010_40599c6bebf0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxyPePfG42aiaMEcHmL0U2vnghfCB0fRYIa9W7rrobEngzGCku6qJrQBA/640?wx_fmt=gif)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_011_e360c13bde4d.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxyPePfG42aiaMEcHmL0U2vnghfCB0fRYIa9W7rrobEngzGCku6qJrQBA/640?wx_fmt=gif)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_012_e360c13bde4d.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxyPePfG42aiaMEcHmL0U2vnghfCB0fRYIa9W7rrobEngzGCku6qJrQBA/640?wx_fmt=gif)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_013_e360c13bde4d.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxyPePfG42aiaMEcHmL0U2vnghfCB0fRYIa9W7rrobEngzGCku6qJrQBA/640?wx_fmt=gif)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_014_e360c13bde4d.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxjOe80niaKicuCVem1RZbuylLZWVmica9rvczQsJ26PUyBpwCPtGJBxjCA/640?wx_fmt=jpeg)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_015_b1426bb5773b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxyPePfG42aiaMEcHmL0U2vnghfCB0fRYIa9W7rrobEngzGCku6qJrQBA/640?wx_fmt=gif)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_016_e360c13bde4d.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxyPePfG42aiaMEcHmL0U2vnghfCB0fRYIa9W7rrobEngzGCku6qJrQBA/640?wx_fmt=gif)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_017_e360c13bde4d.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxyPePfG42aiaMEcHmL0U2vnghfCB0fRYIa9W7rrobEngzGCku6qJrQBA/640?wx_fmt=gif)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_018_e360c13bde4d.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxyPePfG42aiaMEcHmL0U2vnghfCB0fRYIa9W7rrobEngzGCku6qJrQBA/640?wx_fmt=gif)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_019_e360c13bde4d.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciax8aVC3ibHAbricpYFS2cdrmlezxadkrloksJf7r7JRm9FsKLib3pjWiaJUg/640?wx_fmt=jpeg)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_020_bc89458ffa09.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxyPePfG42aiaMEcHmL0U2vnghfCB0fRYIa9W7rrobEngzGCku6qJrQBA/640?wx_fmt=gif)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_021_e360c13bde4d.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH44Bp8Wyk6nJdojJNRjATciaxyPePfG42aiaMEcHmL0U2vnghfCB0fRYIa9W7rrobEngzGCku6qJrQBA/640?wx_fmt=gif)
+![](基于多层BP神经网络的无参考视频质量客观评价_images/img_022_e360c13bde4d.gif)
 
 **长按二维码｜关注我们**
 

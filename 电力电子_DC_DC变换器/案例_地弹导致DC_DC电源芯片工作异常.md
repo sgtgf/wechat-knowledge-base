@@ -1,0 +1,104 @@
+# 案例｜地弹导致DC/DC电源芯片工作异常
+
+原创 硬件笔记本 2023-05-20 09:21 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/-dRBVFqgik\_GeumfD9-Bkg](https://mp.weixin.qq.com/s/-dRBVFqgik_GeumfD9-Bkg)
+
+## ![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+很多读者都应该听过地弹，但是实际遇到的地弹的问题应该很少。本案例就是一个DCDC电源芯片的案例。
+
+  
+
+**1\. 问题描述**
+
+如下图1 ，产品其中一个供电是12V转3.3V的电路，产品发货50K左右以后，大约有1%的产品无法启动，经过解耦定位，问题出在下图中的电源芯片。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaE0noA1HgCY4kvvwkCNicuYTkQXvXQBBO1ZVIBxstRUcrGreDpgL7PWnlQibG6j3XtsTdz4lWn6JIw/640?wx_fmt=png)
+
+图1 12V 转3.3V电路
+
+  
+
+**2. 原因分析**
+
+经过最终的分析，问题最终定位在与PCB的布局和布线有关，其中涉及一个重要容易忽略的技术：地弹。
+
+如下图，左图是芯片内部的原理框图，右图是实际PCB中的布局图，在高频开关电源中，提供能量来源的有两个器件：输入电容Cvin和电感Lbuck；
+
+（1）当高端开关闭合，低端开关断开时，电流的路径如红色箭头所示；
+
+（2）当高端开关断开，低端开关闭合时，电流的路径如蓝色的箭头所示。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaE0noA1HgCY4kvvwkCNicuYtiaqZWiaAjrhXuqVMclKdVVAMl2yiawPyCIrW0Yich2FJfp3QP2q2OYpDg/640?wx_fmt=png)
+
+图2 芯片内部的高低开关（左图）、实际的工作示意图（右图）
+
+  
+
+根据电磁感应定理：e=-dФ/dt=-d(Li)/dt=-Ldi/dt，由于红色和蓝色的环路面积变化较大，最终的体现会在低端开关和Cvin之间产生感应电动势。
+
+厂商内部手册中显示，电源芯片满足以下两个的条件，就可以进入测试模式，测试模式下，电源芯片不工作，电源无输出。
+
+（1）pin5 引脚FB 电压大于3V；
+
+（2）pin6引脚COMP电压小于-0.5V；
+
+我们实际设计的PCB示意图如下图所示，环路1由Cvin、高端开关、L、Cbuck、负载组成，环路2由Cbuck、负载组成，环路3由低端开关、L、负载组成。其中环路面积变化A最大，同时电流突变最最迅速，实测引脚6 COMP 最高可达到-0.6V。如果FB引脚耦合的干扰达到3V，是可以将芯片进入到测试模式的，导致无法输出。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaE0noA1HgCY4kvvwkCNicuYIiauXvhibMe4G7lYtOTEN5ekyIfmVP2RTfQB9IroI4gutpll6XxkTy4A/640?wx_fmt=png)
+
+图3 较差的布局产生3个环路
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaE0noA1HgCY4kvvwkCNicuYAAClMrPic1XtMdobdoiaQRRHysv5Qr4sj0OEqhr9S3deI1ibibChu3iaxdA/640?wx_fmt=png)
+
+图4 较差的布局产生3个环路
+
+  
+
+**3\. 解决方案**
+
+问题的原因主要时两种开关状态时的环路面积不一样，导致感应电动势变化太大，导致芯片内部的逻辑混乱。重新布局后的措施如下：
+
+（1）将输入电容、高低端开关尽量在同一水平线；
+
+（2）将输出电容和负载尽量靠近用电端，消灭上图中的环路2导致的变化。同时可以应付用电设备的突发电流，突发电流大部分由输出电容供电，而不是通过电源芯片转换而来。
+
+（3）重新布局后的环路面积变化=变化的长度X板厚度。板厚为2mm，此时的面积变化基本可以忽略不计。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaE0noA1HgCY4kvvwkCNicuYDbYC8PszfYCpibcshsQn2iagS8WIFsXEztGPFmrZjn0DF2ibF21KbibMVA/640?wx_fmt=png)
+
+图5  优化布局，环路变化基本可以忽略不计
+
+  
+
+**4.  总结**
+
+对于DCDC电源芯片，厂商不会对外公布其内部的具体逻辑电路，但是有一点可以肯定，高低开关两种不同的状态导致的环路面积变化，如果没有处理好，产生的地弹会影响内部逻辑，使得进入不确定的工作状态。
+
+## 
+
+**声明：**
+
+  
+
+声明：本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+  
+
+**推荐阅读▼**
+
+-   [电路设计-电路分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2811359150088683521#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

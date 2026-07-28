@@ -3,13 +3,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Dfl\_1kg8yX-j7oultTRLDQ](https://mp.weixin.qq.com/s/Dfl_1kg8yX-j7oultTRLDQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/XWmWoeAjJ1PMBbg7O08dyCOPcc8slPOezyDmeSHRoDvPjRT3fFXhW2ovMyNItFsnlic8XwTzHh9Yn0YPiaDNc6Vg/640?wx_fmt=png&from=appmsg)
+![](一作_vs__通讯_有啥区别_一作能当通讯吗__images/img_000_cca7569df6ce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/XWmWoeAjJ1PMBbg7O08dyCOPcc8slPOeeAloTCCnuRGoS0vdgR4eHqLZIxt0xnoDRbccvS9OgKArzibzHQO12Qw/640?wx_fmt=png&from=appmsg)
+![](一作_vs__通讯_有啥区别_一作能当通讯吗__images/img_001_5578cd5fc748.png)
 
 点击上方蓝字关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/XWmWoeAjJ1O6kkBUuosA6oHMv27D5gZZcFXfny4M9J3PGw3iaibbAMocpCCdaibEp8SIgfRvLA3uPKoOiaYqgO1jhA/640?wx_fmt=jpeg&from=appmsg)
+![](一作_vs__通讯_有啥区别_一作能当通讯吗__images/img_002_eaef4fed0610.jpg)
 
 在学术界，论文的署名不仅仅是名字的排列组合，它更深层次地反映了研究团队内部成员对项目贡献的不同方面。正确理解并合理安排作者顺序和角色，对于促进科研合作、明确责任归属以及个人职业发展都至关重要。今天，我们就来详细探讨一下“第一作者”与“通讯作者”的具体职责差异，以及它们各自在学术生涯中的价值体现。
 
@@ -95,6 +95,6 @@
 
   
 
-**喜欢****作者******，请点********赞********和在看******![图片](https://mmbiz.qpic.cn/mmbiz_gif/XWmWoeAjJ1PMBbg7O08dyCOPcc8slPOecA1fDtKtaChRO2nFic9NJbZmsq7zvviaVyibwyDKZPlPialnLkn5uPnguw/640?wx_fmt=gif&from=appmsg)**
+**喜欢****作者******，请点********赞********和在看******![图片](一作_vs__通讯_有啥区别_一作能当通讯吗__images/img_003_2aef94a7eddd.gif)**
 
-**![图片](https://mmbiz.qpic.cn/mmbiz_gif/XWmWoeAjJ1PMBbg7O08dyCOPcc8slPOeLe4Yrdoib16Rib9ooklIXOLEkdw9myYFveK1A9MMvz4kMhRN81GnAzSQ/640?wx_fmt=gif&from=appmsg)**
+**![图片](一作_vs__通讯_有啥区别_一作能当通讯吗__images/img_004_e3b1f6b1dd5b.gif)**

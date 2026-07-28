@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ovz0p7o8EEQv-qbpBGx45Q](https://mp.weixin.qq.com/s/ovz0p7o8EEQv-qbpBGx45Q)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVWW6ES7rREta1ia1wYm6LYKU7UEfrk6y2F99z1w1XJwuTee0aeiclpE8iaiagyJibrHdBXh2GYibmvuX15A/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](精简你的公式_一文入门张量分析中的指标记号（Index_Notation）_images/img_000_d12add5532eb.gif)
 
 # 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVV0VAT6T4cEibtk9vFJmMia7FZHmib2bWvDEtl8HceibE4DRSXpCVUrZPQCMrr0m1pFVv1vyYF8k11yug/640?wx_fmt=png&from=appmsg)
+![](精简你的公式_一文入门张量分析中的指标记号（Index_Notation）_images/img_001_3c7d3f07ea57.png)
 
 在数学、物理和工程领域，张量分析是描述复杂系统的重要工具。无论是研究流体动力学、电磁学还是广义相对论，张量分析都扮演着核心角色。然而，张量的高维性和复杂的运算规则常常让人望而生畏。幸运的是，**指标记号**（Index Notation）的引入为张量分析提供了简洁而强大的表达方式。本文将详细介绍指标记号的基本概念、规则及其在张量运算中的应用，帮助读者掌握这一简化复杂运算的“艺术”。
 
@@ -15,7 +15,7 @@
 
 张量分析的核心在于处理多维数组的运算。例如，一个二阶张量在三维空间中需要9个分量（3×3），而三阶张量则需要27个分量（3×3×3）。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVV0VAT6T4cEibtk9vFJmMia7F1tl7tpF2iaO8dhxgqNZbHadkrIxGXoz4z8DsvARicGDibtvoicuHefrxIQ/640?wx_fmt=png&from=appmsg)
+![](精简你的公式_一文入门张量分析中的指标记号（Index_Notation）_images/img_002_75abc09730ec.png)
 
 如果直接通过传统符号（如矩阵或向量）表示这些运算，公式会变得冗长且难以管理。例如，二阶张量的点乘可能需要写出所有9个分量的乘积和求和，过程繁琐且容易出错。
 
@@ -153,7 +153,7 @@ Levi-Civita符号（列维-奇维塔符号）的定义为：
 
 旋度的结果是一个向量，描述向量场的旋转特性。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVW3Fj4ibwnl6LeNJCr2EtZNpxtbiaG0bibE58PYKQGxmNeyxk8F2VVNQIXjOp51Crl140yf3qxzZeVbg/640?wx_fmt=png&from=appmsg&random=0.7649361563812627&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](精简你的公式_一文入门张量分析中的指标记号（Index_Notation）_images/img_003_677349f24ff2.png)
 
 **例子**：拉普拉斯算子 ：
 
@@ -224,12 +224,12 @@ Levi-Civita符号（列维-奇维塔符号）的定义为：
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.2312854885901674)
+![](精简你的公式_一文入门张量分析中的指标记号（Index_Notation）_images/img_004_d8aae6d6bc0e.png)
 
 **给我一组控制方程，还你一套专业软件。**我们长期从事多场耦合有限元算法和软件的研发工作，掌握全流程的 CAE 软件开发技能。如果您需要相关的技术服务，非常欢迎私信交流和扫码咨询。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUiaBXZVo6l0B8M1jCa328awtQ1MFgKXLbF5QKRRbE8zuZqwdfFsLeoRtrCuPhTSQY0t2zictECdFmA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+![图片](精简你的公式_一文入门张量分析中的指标记号（Index_Notation）_images/img_005_18b5c0701c85.png)
 
-**喜欢****作者******，请点********赞********和在看******![](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6459285066781566&random=0.9039664113437702&random=0.10616299980642463&random=0.37943585876598473&random=0.7246305284075434&random=0.1820491079508062&random=0.3136645327514245&random=0.8290227030922905&tp=webp)**
+**喜欢****作者******，请点********赞********和在看******![](精简你的公式_一文入门张量分析中的指标记号（Index_Notation）_images/img_006_2ab55b5e37e9.gif)**
 
-**![](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.90499299240585&random=0.7427014598159356&random=0.6203706698189717&random=0.17266143983420013&random=0.4502076552242009&random=0.3348111146987862&random=0.5857982594073723&random=0.5924137199896844&tp=webp)**
+**![](精简你的公式_一文入门张量分析中的指标记号（Index_Notation）_images/img_007_0dc7b9b79564.gif)**

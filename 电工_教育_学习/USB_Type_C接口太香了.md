@@ -1,0 +1,185 @@
+# USB Type-C接口太香了
+
+原创 王工 硬件笔记本 2025-07-16 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/HhjVWxB8P\_cLemHh-49HvQ](https://mp.weixin.qq.com/s/HhjVWxB8P_cLemHh-49HvQ)
+
+![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=13&wx_lazy=1&tp=wxpic "音符")
+
+  
+
+最近几年，不得不说**USB Type-C已经相当普及了，**除了咱爸妈用了多年舍不得换的老手机用的是****Micro  USB接口****，Android手机几乎都是**Type-C接口**，当然还有其它包括笔记本电脑充电口，就连智能电烙铁也都是******Type-C接口了。**********
+
+**********Type-C接口**********它不仅是业界通用的连接器，还能通过一个接口同时传输**数据和电力**，甚至支持视频输出。今天，我们就来聊聊USB Type-C的基础知识，看看它为什么能成为现代电子设备的“万能接口”。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgl1X5J97nfzbLeSLvB2pOcbiaDxlAia3XygWg5Yx6n2xFEhuvtzCDicTznWic3WxODHWyuLAd6mFp63g/640?wx_fmt=png&from=appmsg)
+
+  
+
+011
+
+Type-C 的核心优势：数据、电力和视频传输
+
+Type\-C的最大特点就是**多功能**。它支持通过单个接口传输数据和电力。借助**USB PD**，让接口的能力更上一层楼：
+
+**1、最高240W功率**（48V/5A）——可以给高性能笔记本甚至电动工具充电！
+
+****2、**最高80Gbps数据传输**（USB4）——比USB3.0 还快十几倍！
+
+**3、支持视频和其他高级功能**——比如**DisplayPort**（视频输出）和**Thunderbolt**（高速数据传输）。
+
+简单来说，**一根Type**\-C线，就能搞定充电、数据传输、外接显示器，再也不用带一堆不同的线了！
+
+  
+
+### **1、数据传输速度：从蜗牛到闪电**
+
+USB标准一直在升级，速度越来越快：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgl1X5J97nfzbLeSLvB2pOc019LY7u0N54k1oFwwTMgmmJlQapDI6Eljf1yr14eKudg7TicNqXQ6YA/640?wx_fmt=png&from=appmsg)
+
+  
+
+### **2、功率输出：从2.5W到240W**
+
+**USB Type**\-C的供电能力也在不断提升：
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgl1X5J97nfzbLeSLvB2pOcyoAgk03Gt1v2oY7LmGlEgXeicxD3Ct08ztG9acWxOCC33icqpoOPrlIg/640?wx_fmt=png&from=appmsg)
+
+这意味着：
+
+**不带PD**的USB Type-C最大只能提供**5V/3A（15W）**，勉强够手机快充。带PD的USB Type-C可以支持**240W**，能轻松给游戏本甚至电动工具供电！
+
+## 
+
+## **3、**DisplayPort视频信号****
+
+## **咱们设计产品中可能会用到视频信号的传输，这就要用到咱们的全功能Type**\-C，也就是它的24个pin全都要用上，它是具有12Pin引脚所具有的全部功能，且多了一个USB3.0/3.1高速传输功能。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjjeZDR8Q8FVnHcOaNc3U757C7UPUUq5ymJcMRO9EsJzuwFVKicMR1ELSUrTRrOQ5ICA1fw2qpdRg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+
+##   
+
+021
+
+Type-C 的数据和电源角色
+
+## **USB Type**\-C设备在连接时，会扮演不同的“角色”：
+
+### **1、数据角色（谁发数据，谁收数据）**
+
+**DFP（下行端口，Downstream Facing Port）**：通常是**主机**（如电脑），负责发送数据并供电。
+
+**UFP（上行端口，Upstream Facing Port）**：通常是**设备**（如显示器、U盘），接收数据并取电。
+
+**DRD（双角色数据端口）**：既能当主机，也能当设备（如手机、笔记本）。
+
+  
+
+### **2、电源角色（谁供电，谁受电）**
+
+**供电方（Source）**：提供电力（如充电器）。
+
+**受电方（Sink）**：消耗电力（如手机）。
+
+**DRP（双角色电源）**：既能供电，也能受电（如笔记本，可以充电，也能给手机充电）。
+
+  
+
+##   
+
+031
+
+Type-C 的正反插原理  
+
+引脚排列，对称设计，支持正反插
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgl1X5J97nfzbLeSLvB2pOcm9LDnCxV3t4iapV5ibFA2icRZJ7GU8bYRO6dYYlJQsz6dd3DFTv5xH9Eg/640?wx_fmt=png&from=appmsg)
+
+## **USB Type**\-C的接口有24个引脚，**上下对称**，所以正反插都能用。下面对引脚功能进行简述：
+
+### **
+
+可以很明显看出，插口内的Pin功能相对于中心对称。公头插入母头，无论正反插，引脚功能都完美契合。而且电源VBUS/GND都拥有4个Pin，最大支持5A电流，在保证高速数据传输的同时也提高了电流承载能力。
+
+**
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgsG3bKJSLDfTO178GDzhh7dbWGHiaeROs5NUGgAYvUBI3R6zBhYFvzjpS1RrMSs8noWUHWicicLrvqQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+
+### 母头/母座引脚定义
+
+###   
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjjeZDR8Q8FVnHcOaNc3U70fnr2SJNuEYrIGAyeq6FLo4ZX940ibzib4iaLjRBtCXO29SCibzePmVNyA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1)
+
+### 公头/插头引脚定义
+
+  
+
+辅助信号 SUB1 和SUB2，在特定的一些传输模式时才用。平时可以不管，直接忽略。
+
+另外，从图得知。相比较母头，公头只有一对D+/D-(母头有两对)，且有一个CC1+VCONN(母头有CC1，CC2)。
+
+所以可以得知：尽管母头有两对D+/D-，但实际传输数据的时候，仅仅有一对在工作。
+
+另外，对于CC引脚而言，当连接在一起的时候，有以下两种情况：
+
+1.  正接：母CC1对公CC1，母CC2对公VCONN
+    
+2.  反接：母CC2对公CC1，母CC1对公VCONN
+    
+
+这里不得不强调一下CC1、CC2的作用，主要用于设备识别，PD快充。大家最早认识快充应该是从高通CPU的QC开始的。通过提高输电电压，来提高输送功率。但QC协议中，通信使用的是USB的DP、DM，这就导致充电的时候会对USB通信造成影响。
+
+但是USB-PD对电源设备的识别依靠CC1、CC2引脚，避免了QC标准与DP、DM的冲突。使得USB-PD在传输电力的同时，数据传输不会受到影响。
+
+  
+
+041
+
+CC线的检测逻辑
+
+USB-C 规范中引入的配置通道 (CC) 逻辑块提供电缆检测、电缆方向和载流能力。当我们连接线两端都是Type\-C接头时，电缆就会有一个检测过程，
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgl1X5J97nfzbLeSLvB2pOckv8icoaBua7iaxEwq1kjD09k900ibGkDf3PotqxdabNRZR2UUbNPgOugQ/640?wx_fmt=png&from=appmsg)
+
+DFP 的两个 CC 引脚通过电阻 Rp 上拉，而UFP 的两个 CC 引脚则通过电阻 Rd 下拉。当 DFP 处理器检测到其中一个 CC 线路被下拉后，DFP 就会知道已建立连接。
+
+  
+
+电缆方向取决于下拉的 CC 线路（如果 CC1 下拉，则电缆不翻转；但如果 CC2 下拉，电缆会翻转）。对于无源电缆，另一条 CC 线路保持开路状态；对于有源电缆，另一条 CC 线路将通过 Ra 下拉。
+
+  
+
+Rp 的值决定载流能力。USB-C 原生支持 1.5A 或 3A。DFP 可以通过具有特定值的上拉电阻广播其载流能力。UFP 包含一个具有固定值的下拉电阻器 (Rd)，能够在连接时与 Rp 一起形成一个分压器。通过检测分压器中心抽头处的电压，UFP 可以检测到 DFP 的广播电流。
+
+  
+
+##   
+
+051
+
+小结
+
+✅ **一根线搞定充电、数据、视频**，告别杂乱线缆。  
+✅ **最高240W供电**，能充笔记本甚至电动工具。  
+✅ **最高80Gbps传输**，比传统USB快几十倍。  
+✅ **正反随便插**，再也不用“盲插”了！
+
+所以，下次看到**USB Type-C**接口，别忘了它不仅仅是个充电口——它可能是你设备的**万能中枢，**USB Type-C接口真的太香了****。  
+
+  
+
+投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
+
+![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjbR7gLHibpDE1YFh8RMzXibJA9HKLic7VdjAJYzXdOgHO7T1a0R62tVWpaq3Hiateb2ZicLpq54yBdKjA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjbR7gLHibpDE1YFh8RMzXibJSSzaiczyyCxVwNibExcDbFlbLmh8PZWkwOkmM4wzpbrmN33BHzkhZLnQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&watermark=1&tp=wxpic)
+
+## 
+
+**声明：**
+
+  
+
+声明：参考内容来源TI官网，原创文章，转载请注明出处。本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。

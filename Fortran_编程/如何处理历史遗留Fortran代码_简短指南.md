@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/u-s8jkylQ1dDhsBNw1KDgA](https://mp.weixin.qq.com/s/u-s8jkylQ1dDhsBNw1KDgA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVaPxDdWYXVDa2mN7wPRfSkjZo5WykIYWwrVxlk0F75L1Ij0uZoibC8sBOWUN7d3SI2LicAyricia6yPg/640?wx_fmt=png&from=appmsg)
+![](如何处理历史遗留Fortran代码_简短指南_images/img_000_eaa39a1085bf.png)
 
 当面临历史悠久的Fortran代码时，作为开发者往往面临巨大的挑战。一方面，这类代码可能积累了数十年的专业领域知识，另一方面，其编码风格和结构可能与现代软件工程规范大相径庭。
 
-新手常会冲动地想用自己擅长的语言彻底重写这些代码，我只能说：“Too young too naïve”。![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.3.10/assets/Expression/Expression_1@2x.png)
+新手常会冲动地想用自己擅长的语言彻底重写这些代码，我只能说：“Too young too naïve”。![](如何处理历史遗留Fortran代码_简短指南_images/img_001_84247e2bc5d4.png)
 
 ## 不要从头开始重写：目标是逐步进步
 
@@ -85,7 +85,7 @@ Fortran并不是这里唯一的问题。软件工程师也经常会被诱惑着�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](如何处理历史遗留Fortran代码_简短指南_images/img_002_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

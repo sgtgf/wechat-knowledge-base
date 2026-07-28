@@ -1,0 +1,116 @@
+# 画Type-C原理图？先把这个5.1K电阻圈起来
+
+原创 王工 硬件笔记本 2026-01-30 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/61-ZX8-rS2Shw8PmGKXp0Q](https://mp.weixin.qq.com/s/61-ZX8-rS2Shw8PmGKXp0Q)
+
+![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=0 "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic#imgIndex=1 "音符")
+
+  
+
+最近不知道写什么了，突然翻到以前写的一些关于Type-C的基础知识点和相关踩坑记录，今天再跟大家聊一聊。
+
+Type-C接口的应用确实已经相当广泛了，但实际上，这个小小的接口背后有着复杂的机制，如果没有真正理解它的工作原理，很容易在设计中出现看似低级却影响重大的错误。
+
+让我从一个真实案例说起。以前我们团队设计了一款产品，使用Type-C接口进行供电和数据传输。第一次测试时，同事使用传统的Type-A to C线缆，一切正常。但当第二次测试时，另一位同事使用了Type-C to C线缆，产品竟然无法上电，完全无法工作。
+
+这个问题的根源，正是我们对Type-C接口的基础知识理解不够深入。
+
+  
+
+01
+
+Type-C接口的种类与功能
+
+首先，我们需要明白，Type-C接口不只是单一的规格。它主要有三种引脚配置：
+
+**1、6PinType-C**  
+
+这是最简单的版本，只包含VBUS（电源）、GND（地）以及CC1、CC2引脚。它适用于只需要通过USB取电而不需要数据通信的场合。CC引脚用于PD设备识别和功率协商。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjjeZDR8Q8FVnHcOaNc3U7icQl0tVrYxqo5WDUNog2OQ6GKWib7gibibDxNHjicKDRDGbiamL6hv8p8olQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=3)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgsG3bKJSLDfTO178GDzhh7g0snZUCysnb5gLvdTNQe9nKrm7In4tt19ufLJwKVwdl5k90VSmcChw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=4)
+
+  
+
+**2、12**Pin** Type-C**  
+
+在6引脚基础上增加了数据线（D+/D-）和SBU1/2引脚，支持USB 2.0数据传输、PD快充以及部分视频传输功能。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjjeZDR8Q8FVnHcOaNc3U7Xia84rswnEibHwQmTXUjyT5HBaficsQicOo8GrIHLQlZRMDKa5lncU5nyQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=5)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjjeZDR8Q8FVnHcOaNc3U7ROWwAjMBjSM3tvvpxlzNCxCoibYtviaf2xhp0m8UQV92DWtdTJibFj7Cw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=6)
+
+  
+
+**3、24**Pin** Type-C（全功能型）**  
+
+这就是我们常说的全功能Type-C，它在12引脚基础上增加了完整的USB 3.0/3.1高速数据传输所需的所有差分信号对。只有这种配置才能同时实现高速数据传输、视频输出和PD快充。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjjeZDR8Q8FVnHcOaNc3U757C7UPUUq5ymJcMRO9EsJzuwFVKicMR1ELSUrTRrOQ5ICA1fw2qpdRg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=7)
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgsG3bKJSLDfTO178GDzhh7dbWGHiaeROs5NUGgAYvUBI3R6zBhYFvzjpS1RrMSs8noWUHWicicLrvqQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=8)
+
+### 母头/母座引脚定义
+
+###   
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhjjeZDR8Q8FVnHcOaNc3U70fnr2SJNuEYrIGAyeq6FLo4ZX940ibzib4iaLjRBtCXO29SCibzePmVNyA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=9)
+
+### 公头/插头引脚定义
+
+这些接口的引脚都是**对称设计**的，这也是Type-C能够正反插的物理基础。但更重要的是，无论哪种配置，**CC（配置通道）引脚都是整个系统的核心**。
+
+  
+
+02
+
+CC引脚的关键作用
+
+这里不得不强调一下CC1、CC2的作用，主要用于设备识别，PD快充。大家最早认识快充应该是从高通CPU的QC开始的。通过提高输电电压，来提高输送功率。但QC协议中，通信使用的是USB的DP、DM，这就导致充电的时候会对USB通信造成影响。
+
+但是USB-PD对电源设备的识别依靠CC1、CC2引脚，避免了QC标准与DP、DM的冲突。使得USB-PD在传输电力的同时，数据传输不会受到影响。
+
+在我们的案例中，问题就出在CC引脚的处理上。当使用Type-A to C线缆时，由于Type-A端没有CC引脚逻辑，通常由电源端强制供电，因此设备能够正常工作。但使用Type-C to C线缆时，两端都需要通过CC引脚进行协商来确定供电关系。
+
+**供电端与受电端的识别机制**
+
+在Type-C规范中：
+
+-   **供电端（Source）**：如充电器、电脑，其CC引脚通过上拉电阻（Rp）接到电源。
+    
+-   **受电端（Sink）**：如我们的设备、U盘，其CC引脚应通过下拉电阻（Rd，标准值为5.1kΩ）接地。
+    
+    ![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPktTI5yu022oC3HlGjHpt05YK4EicqmEicBJWRs8PktWz2rjAicibLhEt9wJHPUgz4UpDZdhSVnWiaxg/640?wx_fmt=png&from=appmsg)
+    
+
+当两者通过C to C线缆连接时，供电端会检测CC引脚上的电平。如果检测到被下拉电阻拉低，就会识别出对面是需要供电的设备，然后打开VBUS开关输出电力。如果检测不到下拉电阻，则认为对面也是供电端或连接异常，保持VBUS关闭。
+
+在我们的设计中，很可能只把Type-C接口当作传统USB接口，只连接了VBUS、GND和D+/D-，而忽略了CC引脚的正确处理，或者没有在CC引脚上添加必要的5.1kΩ下拉电阻。这就导致当使用C to C线缆时，供电端无法识别我们的设备，自然也就不会供电。
+
+  
+
+03
+
+小结
+
+在作为受电端的产品Type-C接口电路中，**必须在CC1和CC2引脚上分别添加5.1kΩ的下拉电阻到地**。我们在样品板上飞线添加这两颗电阻后，问题立即解决。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgPktTI5yu022oC3HlGjHptdhNNicDMyfwWqUXVmiau1mO5RjxttcMOib1lqThia7e2eiaIg4KxQfibaehA/640?wx_fmt=png&from=appmsg)
+
+测试时，不能只用传统的A to C线，一定要用C to C线完整测一遍。画原理图做检查，也要把CC引脚电路当作必查项。
+
+硬件设计无小事，细节决定兼容性。希望这个实际踩过的坑，能帮大家省点调试时间。咱们下回见。
+
+推荐阅读（点击如下三个图片分别进入）
+
+[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiatEWXA0ZKHERoLBhtKEwfRnEclicce8icmY2Iibicic1bZicEvb4zqqcaxqibn4g0MaBfiaZv3TlxecCv8gw/640?wx_fmt=png&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=27)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561890&idx=1&sn=4fd14261f9dcadcedf7fc2454707818e&scene=21#wechat_redirect)
+
+[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiatEWXA0ZKHERoLBhtKEwfRefz57EqtooVELnOnBUyvYHfiamuVicoWgrYpooXuJHhnU3Kqiavdnvv2Q/640?wx_fmt=png&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=28)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561879&idx=1&sn=c52935989030351a5dad4d9aa91d7504&scene=21#wechat_redirect)
+
+[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiatEWXA0ZKHERoLBhtKEwfRibI3baT1Jljt2v4ewYYCtIP5IL4W6zCLbf20A4B2MzRhv1vftsysKmA/640?wx_fmt=png&from=appmsg&watermark=1&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=29)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247561530&idx=1&sn=17ec3e2817c30d0cb8480e84a98e933f&scene=21#wechat_redirect)
+
+加群/投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgPktTI5yu022oC3HlGjHptYyicop42QGicIfrojNWqMicbcQpGrCCURUunqAXEEZHE63YQJKJiah0f2Q/640?wx_fmt=jpeg&from=appmsg)

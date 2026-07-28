@@ -1,0 +1,51 @@
+# MOS管充放电原理
+
+原创 蜗牛 硬件笔记本 2020-03-15 20:01 undefined
+
+> 原文地址: [https://mp.weixin.qq.com/s/re-EZlN8aFtvBb4spbVbHw](https://mp.weixin.qq.com/s/re-EZlN8aFtvBb4spbVbHw)
+
+一.基本原理
+
+MOS管本身有Cgs，Cgd，Cds寄生电容，这是由制作工艺决定的。MOS管的开通和关断其实就是对Cgs充放电的过程。开启时通过栅极R1电阻对Cgs充电，充电时间常数=R1\*Cgs。所以R1较大的话，时间常数就大了。这样如果开关频率很高的话，在脉宽的时间内管子很可能无法正常导通。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJEYoSLZJMgqo07wjm0IbpkQ13uS1f1xPB0d71x5zDSBwUZXUcWib9sh0HjoRPK82GibCaP045GqU7w/640?wx_fmt=jpeg)
+
+一般用方波来驱动MOS管，由于Cgs的电容效应，驱动波形发生畸变，如上图。所以gs波形的上升沿和下降沿会变缓，有时会产生振荡，所以在布板的时候，驱动环路一定要短，驱动芯片周围尽可能敷铜用地包起来，防止产生不必要的干扰。
+
+  
+
+二.参考电路
+
+为了快速开通和关断，提供以下两种电路作为参考:
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJEYoSLZJMgqo07wjm0IbpkjibAOIURVIXBbgwibEXYvA7TDnE4IKJuMxma2sWAepIeb4OYePVV980g/640?wx_fmt=jpeg)
+
+当OUT为高，由于D2反相，只能通过R1向MOS管充电，
+
+当OUT为低，gs电容通过R2，D2向驱动放电。
+
+R1，R2的值一般在10R左右，可根据测试的驱动波形适当调整参数。
+
+  
+
+下图原理分析类似
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJEYoSLZJMgqo07wjm0Ibpko4fXeyPfh6TU3FI36HuOLc8IGWq3QXyIjPfPbDEa18DkD4icsCjAmTg/640?wx_fmt=jpeg)
+
+  
+
+三.注意事项
+
+MOS管gs间必须加一个5-10KΩ的放电电阻，这一点非常重要。
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/bsiaOicpwT9tJEYoSLZJMgqo07wjm0IbpkwETuG0j6HsFTialGCcfz4LTxV5j6ZIzHEca1J0BKicBbicia0ybVkNXjsg/640?wx_fmt=jpeg)
+
+理由有二:
+
+A. 防止在静电作用下，电荷没有释放回路，容易引起静电击穿；
+
+  
+
+B. MOS管在开关状态工作时，就是不断的给Cgs充放电，当断开电源时，Cgs内部可能储存有一部分电荷，但是没有释放回路，MOS管栅极电场仍然存在且能保持很长时间，建立导电沟道的条件没有消失。在下次开机时，在导电沟道的作用下，MOS管立即产生不受控的巨大漏极电流Id，引起MOS管烧坏。

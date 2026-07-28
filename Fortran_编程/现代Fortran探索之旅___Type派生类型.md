@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/d8g4jElcKE8kUeqwKkrCRA](https://mp.weixin.qq.com/s/d8g4jElcKE8kUeqwKkrCRA)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+![](现代Fortran探索之旅___Type派生类型_images/img_000_8bcddb233e93.jpg)
 
 Fortran 中提供了整型、实型等5种内置的数据类型，而在实际计算中，计算对象往往并不只限于这些内置数据类型，而需要一些特定的数据结构。为了便于组织数据，现代Fortran增加了派生类型的新内容。
 
@@ -220,7 +220,7 @@ Fortran 2003 标准中增加了 `extends` 属性，它引入了面向对象范�
 
 通过上述教程，我们了解了派生类型的基本概念，包括如何创建、初始化、访问成员、实现继承和绑定过程。派生类型是Fortran编程中一个非常强大的特性，它提供了极大的灵活性和组织能力。在实际应用中，你可能需要根据项目的具体需求来创建更复杂的派生类型，并深入理解派生类型的高级特性，如操作符重载、创建数组等。希望这篇入门教程能够帮助你更好地使用Fortran派生类型，为你的Fortran编程之旅打下坚实的基础。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](现代Fortran探索之旅___Type派生类型_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于 Fortran 90 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

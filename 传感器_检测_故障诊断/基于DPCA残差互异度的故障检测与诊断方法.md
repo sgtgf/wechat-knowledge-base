@@ -56,19 +56,19 @@ DPCA方法能够提取过程的动态变化信息, 其在化工过程故障检�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgexTRLiaC55iboYeo8uibYEslKsXeUziaZ5icpskZZAUheO3ybibxWAGhqZvw/640?wx_fmt=jpeg)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_000_06be8053f9e8.jpg)
 
 图 1  主元累计方差贡献率
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgoAjwacBmbQGjIXEyVUicKTaibXtpY7WKWJcJEJEzuHnPHSKapFg46HnQ/640?wx_fmt=jpeg)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_001_bd7bf8cc661a.jpg)
 
 图 2  DPCA残差得分自相关性
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgFBV0HchAdCnYoOjqFOLLzU5Du7hNJ9MI4IVvK4UicOO3hPZZ3ibvbS9A/640?wx_fmt=jpeg)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_002_badee504e0fc.jpg)
 
 图 9  TE过程
 
@@ -80,7 +80,7 @@ DPCA方法能够提取过程的动态变化信息, 其在化工过程故障检�
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH457UfY7WG6dLpSe0071ia2lg2l1Qtud7puhQ3LKG6hqK1DS0FKkocN3NJ9MsnGkYp9NjicyGugl3jQw/640?wx_fmt=jpeg)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_003_ece23b820958.jpg)
 
 **张   成**
 
@@ -88,7 +88,7 @@ DPCA方法能够提取过程的动态变化信息, 其在化工过程故障检�
 
 E-mail: zhangcheng@syuct.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgMUh8hJHibFMb2g0bnYws8NVwEnNl2yZZvKgwZxE4FKVuHlJ9ACRGCxA/640?wx_fmt=png)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_004_788d3301ae26.png)
 
 **戴絮年**
 
@@ -96,7 +96,7 @@ E-mail: zhangcheng@syuct.edu.cn
 
 E-mail: daixunian1996@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgTXRicE9v9hbtjicRUibPE6CktpLUGrW7bPcpic1EiaUnYrPpPbiaAjXuTMug/640?wx_fmt=jpeg)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_005_0f2916959ab0.jpg)
 
 **李   元**
 
@@ -350,49 +350,49 @@ http://www.aas.net.cn/cn/article/id/14635?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgAXxpXqwKOqrodM7U2Q59UxHR2hczKy8hmfW3UtNwRQTe1g0EUjicgcA/640?wx_fmt=png)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_006_b37ca2f535cd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH457UfY7WG6dLpSe0071ia2lg7QiaTXOEl8SqJq64lKTEmu7ibwrYTYBZQVmzfCiciawk5BJZAlnD6Macng/640?wx_fmt=png)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_007_f690797f1187.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_008_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_009_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH457UfY7WG6dLpSe0071ia2lg4XsTthicRmriaU56XI3DSaVWVfwricxKdlSLKZZg0455DSsux2D2QTNGg/640?wx_fmt=jpeg)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_010_2ae9d9626243.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_011_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_012_f7d112bc293b.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_013_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_014_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgwOvlgX0rA4WZS5zufH2Gg0ibOmXd6ibGUkxG5lpwBJqo6vYUAwOBYWKg/640?wx_fmt=jpeg)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_015_684a459c6b2b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_016_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_017_f7d112bc293b.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_018_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_019_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgqLXfvliaZtAmBLiaypIZSzgpnQLmqKGQiaXDZlCbBmxNjVs0HpXO4FCHA/640?wx_fmt=jpeg)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_020_519d252254f9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_021_f7d112bc293b.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH457UfY7WG6dLpSe0071ia2lgpJxJxZoJCcn98YuYbEXskQMkF1gf7HCdaYqarGNaBHgpTBbeib52LlQ/640?wx_fmt=gif)
+![](基于DPCA残差互异度的故障检测与诊断方法_images/img_022_f7d112bc293b.gif)
 
 **长按二维码｜关注我们**
 

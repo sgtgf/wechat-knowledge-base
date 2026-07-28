@@ -11,7 +11,7 @@
 
 **简介**：Fortran（Formula Translation）是一种早期的高级编程语言，最初设计用于科学和工程计算。它在20世纪50年代由IBM的约翰·巴克斯等人开发。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eRETdLuoXm175LmsJsqoWDOhsAMrUyW3tmUJtUdOVgrxlAC7nmNqDUOcGmmTII16ApUzynsiaAroSUSuPjhfCPA/640?wx_fmt=jpeg)
+![](科学计算中的编程语言_Fortran_C_C___Python_Matlab_和_Julia_images/img_000_d0792714f5c6.jpg)
 
 **优点**：
 
@@ -33,7 +33,7 @@
 
 **简介**：C语言是一种广泛使用的计算机编程语言，最初由丹尼斯·里奇在1972年开发。C++是C语言的一个扩展，增加了面向对象编程特性。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWE2dQ18csMAU8QbVCciaia28J7ob2ZFUHuoGsOjjfggLN1jAToE13b2spxiaAOicJ0KkBqAmib0vhyJbA/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](科学计算中的编程语言_Fortran_C_C___Python_Matlab_和_Julia_images/img_001_c766908dec9e.other)
 
 **优点**：
 
@@ -55,7 +55,7 @@
 
 **简介**：Python是一种高级编程语言，以其简洁的语法和强大的库支持而闻名。它最初由吉多·范罗苏姆在1991年开发。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWE2dQ18csMAU8QbVCciaia28whUARAp5JicSnyFmFeJgbWNT8vbxxbeqolNMNsMGJUgT8CI1IwvCZ6A/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](科学计算中的编程语言_Fortran_C_C___Python_Matlab_和_Julia_images/img_002_8f1e9026f876.other)
 
 **优点**：
 
@@ -77,7 +77,7 @@
 
 **简介**：Matlab（Matrix Laboratory）是一种数学软件，主要用于数值计算、矩阵运算和数据可视化。它由MathWorks公司开发。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWE2dQ18csMAU8QbVCciaia28ZyNrP9mkpkGktn2vqV8ich8yyjEfzqluTIOmPpibVclBGZIHUsKsdfhg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](科学计算中的编程语言_Fortran_C_C___Python_Matlab_和_Julia_images/img_003_aa7483375452.other)
 
 **优点**：
 
@@ -101,7 +101,7 @@
 
 **简介**：Julia是一种相对较新的编程语言，专为科学计算而设计。它结合了Python的易用性和C/C++的性能。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVWE2dQ18csMAU8QbVCciaia28pLSB4qhzPEbRQF0CxaP9rVE2Heud7vicMGAGicSpcZTkicQr6ho6BR3CA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](科学计算中的编程语言_Fortran_C_C___Python_Matlab_和_Julia_images/img_004_cff31ed082d1.other)
 
 **优点**：
 
@@ -138,4 +138,4 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/DRPKCGMAPjKzncOsqKVQInBQ7RU7WTSXJdmD2OEMiciawJtrbZAicXnwK8cFHw5ddlCRcHWKu2ZxvHlpHmU8UN4Ew/640?wx_fmt=gif)
+![](科学计算中的编程语言_Fortran_C_C___Python_Matlab_和_Julia_images/img_005_12e3d19c8d42.gif)

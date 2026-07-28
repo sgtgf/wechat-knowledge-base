@@ -161,7 +161,7 @@
 
 将数值模拟结果保存为动图展示如下：
 
-![一维波动方程数值结果](https://mmbiz.qpic.cn/mmbiz_gif/UVRG6znrWiamunLbAnWvxVFgDKntLicegKvgUeyIlCesJQg3Pdd222hzLlNR9Co0yNib5lNPxNalhDhHN2oXzdGOA/640?wx_fmt=gif&from=appmsg)
+![一维波动方程数值结果](FDM_波动方程数值模拟_附程序源码_images/img_000_aac38e8d5036.gif)
 
 一维波动方程数值结果
 

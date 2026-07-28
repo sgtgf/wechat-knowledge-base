@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/G679coZ9CbUOYA9r10kNLw](https://mp.weixin.qq.com/s/G679coZ9CbUOYA9r10kNLw)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVXkszTAU2XWHdU0FE9cibs9dt9GsJA7gZkOA8jojfUlONf2TTgU5VctDMoxjpdxwvicBCg02E4qIu6Q/640?wx_fmt=gif&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](LU分解到底有什么用_不止是把矩阵拆开这么简单_images/img_000_72c346886810.gif)
 
 学过线性代数的人，求解n阶线性方程组
 
@@ -31,7 +31,7 @@
 
 换句话说， 记录了“消元结束后的最终矩阵”， 记录了“消元是按怎样的系数一步步完成的”。把这个过程保存下来，后续再求解方程时，就不用从头到尾重做一遍消元了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/o7bJfzdLv3c2gUxKvlm5MpvschKuwXTfwdJ2W0HPgrUk0AziaA0OLzxJ0QQVj3WXcoz09iaOmLKO3hUicEn9x0q7HN59OtrXMVdgziasCee9BxU/640?wx_fmt=png&from=appmsg)
+![](LU分解到底有什么用_不止是把矩阵拆开这么简单_images/img_001_cb7e10daf905.png)
 
 ## LU分解的核心价值：一次分解，多次复用
 
@@ -57,7 +57,7 @@ LU分解真正的优势，体现在“同一个系数矩阵，对应多组右端
 
 两者的差距非常直观：当矩阵阶数 、右端项数量  时，反复消元的浮点操作量接近  次；而复用LU分解后，总操作量仅约  次，效率提升一个数量级。这就是典型的“一次投入，多次受益”。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/o7bJfzdLv3fUTA1rMfz7icBZP3mBKAibjRssuNJmsoSZPsic5ncsuRluX5XrsBq3YaicMNiaqcFzSZNZ7LEWwobwxNn4iaxiaqxhIjTcEiapl7xgu3U/640?wx_fmt=png&from=appmsg)
+![](LU分解到底有什么用_不止是把矩阵拆开这么简单_images/img_002_b682eee3605f.png)
 
 除此之外，LU分解还让“显式求逆”变成了多余步骤。如果我们的目标只是算出解 ，直接通过三角方程回代求解，通常比先构造完整的逆矩阵再相乘更快、更省内存，还能减少额外的舍入误差。很多编程语言中名为`solve`的线性求解函数，内部执行的都是各类矩阵分解，而非直接计算逆矩阵。
 
@@ -69,7 +69,7 @@ LU分解不是给高斯消元换个名字就足够稳定，实际工程应用里
 
 随后将第  行与第  行交换，再继续消元。这也就是  中行交换矩阵  的由来。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/o7bJfzdLv3eDEPqPuTEuuiaEQIiaGtoL8GYHdX33SaADVSibZB2wYnpOq6icpqUpW8wZL1UJmnmKVywfeVMicE7psN0ia7o7GsPuV9glF9ToicTYgw/640?wx_fmt=png&from=appmsg)
+![](LU分解到底有什么用_不止是把矩阵拆开这么简单_images/img_003_cf193fd2bd86.png)
 
 其次是量纲与尺度。工程矩阵的各行往往对应不同物理量，有的单位是牛顿，有的是伏特，有的是摄氏度，数值量级可能相差数倍甚至数十倍。计算机选主元只看浮点数的绝对值，并不等同于物理上的重要性。
 
@@ -81,7 +81,7 @@ LU分解不是给高斯消元换个名字就足够稳定，实际工程应用里
 
 第三是稀疏性。有限元、有限差分、电路网络这类问题的矩阵，原本大部分元素都是0，属于稀疏矩阵。但直接做LU分解的过程中，很多原本为0的位置会变成非零，也就是所谓的“填充”。填充会急剧增加内存占用和计算量，因此大规模稀疏LU分解会高度重视矩阵重排序、块结构优化、超节点与并行分解等工程技巧，以此控制填充带来的开销。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/o7bJfzdLv3fCiagl3F9KZ5Wa8znbFwzoPYNaSiayicjdh4UicUA7OlowXAvT7ibupia9avicuAw8fZBtHtHA5PQEkryicqgBPXqFehmia9kZic7Y7L0P0/640?wx_fmt=png&from=appmsg)
+![](LU分解到底有什么用_不止是把矩阵拆开这么简单_images/img_004_a5164b44e762.png)
 
 ## LU分解不是万能解法
 
@@ -136,10 +136,10 @@ LU分解之所以在现代数值计算中依然占据核心位置，从来不是
 
 ](https://mp.weixin.qq.com/s?__biz=Mzk0MzI0NDU2NQ==&mid=2247484084&idx=1&sn=502e3294fbc243895143fc4041c4d8ce&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg&random=0.2312854885901674)
+![](LU分解到底有什么用_不止是把矩阵拆开这么简单_images/img_005_d8aae6d6bc0e.png)
 
-**闲鱼小店已上新，欢迎新老粉丝关注和咨询![](https://res.wx.qq.com/t/wx_fed/we-emoji/res/assets/Expression/Expression_64@2x.png)**
+**闲鱼小店已上新，欢迎新老粉丝关注和咨询![](LU分解到底有什么用_不止是把矩阵拆开这么简单_images/img_006_7947c6a54e9b.png)**
 
-**喜欢****作者******，请点********赞********和在看******![](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.6459285066781566&random=0.9039664113437702&random=0.10616299980642463&random=0.37943585876598473&random=0.7246305284075434&random=0.1820491079508062&random=0.3136645327514245&random=0.8290227030922905&tp=webp)**
+**喜欢****作者******，请点********赞********和在看******![](LU分解到底有什么用_不止是把矩阵拆开这么简单_images/img_007_2ab55b5e37e9.gif)**
 
-**![](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&random=0.90499299240585&random=0.7427014598159356&random=0.6203706698189717&random=0.17266143983420013&random=0.4502076552242009&random=0.3348111146987862&random=0.5857982594073723&random=0.5924137199896844&tp=webp)**
+**![](LU分解到底有什么用_不止是把矩阵拆开这么简单_images/img_008_0dc7b9b79564.gif)**

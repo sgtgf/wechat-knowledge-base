@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/sCPt5t0989SQnrhzbwosqg](https://mp.weixin.qq.com/s/sCPt5t0989SQnrhzbwosqg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVV0Z1EwtEn9svQy6dNAOcDdXLtaaGiaL0xrianiblaSbiavmRgSmJJF4vBFxIgIrlqmxUg2dSn9wa4RwQ/640?wx_fmt=jpeg)
+![](现代Fortran探索之旅___Subroutine_和_Function_images/img_000_8bcddb233e93.jpg)
 
 Fortran语言作为一种高级编程语言，它在科学和工程计算领域有着广泛的应用。在Fortran中，Subroutine（子程序）和Function（函数）是两种非常重要的程序结构，它们都允许程序员将代码组织成模块化的单元，以提高代码的可读性和可维护性。
 
@@ -113,7 +113,7 @@ Fortran语言作为一种高级编程语言，它在科学和工程计算领域�
 
 总之，掌握子程序和函数的用法对于Fortran程序员来说是非常重要的。通过合理地使用这两种结构，我们可以编写出更加高效、清晰和可维护的Fortran程序。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](现代Fortran探索之旅___Subroutine_和_Function_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于 Fortran 90 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

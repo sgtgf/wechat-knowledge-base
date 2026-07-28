@@ -3,15 +3,15 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/JTtQUXLGWXTPChGVCjcGGw](https://mp.weixin.qq.com/s/JTtQUXLGWXTPChGVCjcGGw)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/VIM0SmWQpWvsQIEAS5b228jQGB4FurcBibs2iaubicTaW5IkOa3r4XpLaPyzmen89DAcSJr1ObOucT9iceic0xehFcg/640?&random=0.7208003402280347&random=0.16634114621985852&random=0.8658017081419105)
+![图片](参考文献管理工具_EndNote_vs___Mendeley_vs__Zotero_如何选择__images/img_000_ae4a0e03c729.png)
 
 点击上方「蓝字」关注我们
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/2MhiaCtgicxW6hVicfNzL5yE9b4tViaWuriaVsWhgzqbAxD0eIYhziaLtLI1uwLENGob23fQJEVe1M77eMPRP8yNHrKQ/640?&random=0.5083455645781676&random=0.6902606942797083&random=0.5006165306553911)
+![图片](参考文献管理工具_EndNote_vs___Mendeley_vs__Zotero_如何选择__images/img_001_8878d722fd8a.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/XWmWoeAjJ1NwN5AMoaBuDduCGN8Ae840gvThuvHUMsdUibJU1bHPkMxBxUibJrI2nHx1E4Lib4ibNQP24DJibh6Jj1g/640?wx_fmt=png&from=appmsg)
+![](参考文献管理工具_EndNote_vs___Mendeley_vs__Zotero_如何选择__images/img_002_19658ac0344c.png)
 
 在科研和学术写作过程中，文献管理工具已经成为不可或缺的助手。它们不仅可以帮助我们高效地整理、标注和引用文献，还能提升写作效率、规范参考文献格式。目前市面上主流的文献管理工具有 **EndNote**、**Mendeley** 和 **Zotero**，它们各有特色，适合不同类型的用户。本文将从功能、易用性、平台支持、协作能力等方面进行详细对比，帮助你根据自身需求选择最适合的工具。
 
@@ -324,6 +324,6 @@ Zotero
 
   
 
-**喜欢****作者******，请点********赞********和在看******![图片](https://mmbiz.qpic.cn/mmbiz_gif/6BxCiaoAkhCpmWx6ic8Sg6X6PXsnJWo7a3hOSHEicIvYJO3nOPdf6GiaqmlM1gXnia8Ppu76xY0hiaTBXSjQNRsr6Dkg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)**
+**喜欢****作者******，请点********赞********和在看******![图片](参考文献管理工具_EndNote_vs___Mendeley_vs__Zotero_如何选择__images/img_003_ccb6b1d5c075.gif)**
 
-**![图片](https://mmbiz.qpic.cn/mmbiz_gif/pn1AOBGTwDVWGtThsMX1L4lk0EffmPg1BKAYaooibsaRwoYMzqxhJ1seOlZialOpryLocgAFt7Yb97uwwseMCLxA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=webp)**
+**![图片](参考文献管理工具_EndNote_vs___Mendeley_vs__Zotero_如何选择__images/img_004_3079cfee603e.gif)**

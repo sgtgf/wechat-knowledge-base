@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/y3uuOziKqZeRNK7Lh4EQ6A](https://mp.weixin.qq.com/s/y3uuOziKqZeRNK7Lh4EQ6A)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUNialibTWyeprL9sIK5f4Mviajt2sNgaicG7cKZF6WUJz0pXNsBFDuzlLkSA2OwPvAic7wNwp3tKKibR2w/640?wx_fmt=png&from=appmsg)
+![](浮点之巅_Fortran科学计算中的精度艺术_images/img_000_396eef141026.png)
 
 在科学计算的广阔天地里，精度是衡量一切数值计算准确性的标尺。而提到高精度计算，就不得不提一个历史悠久却依然活力四射的语言——Fortran。作为科学计算领域的常青树，Fortran凭借其在数值处理上的强大优势，至今仍是众多科学家和工程师的首选工具。本文将带您深入了解Fortran是如何通过精细地控制浮点数精度，来为复杂计算保驾护航的。
 
@@ -67,7 +67,7 @@ Fortran对于浮点数精度的严格控制，不仅体现了语言设计者对�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](浮点之巅_Fortran科学计算中的精度艺术_images/img_001_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

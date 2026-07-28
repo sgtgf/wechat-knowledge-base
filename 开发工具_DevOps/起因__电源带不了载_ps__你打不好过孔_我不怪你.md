@@ -1,0 +1,220 @@
+# 起因: 电源带不了载，ps: 你打不好过孔，我不怪你
+
+原创 王工 硬件笔记本 2025-03-24 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/wyhwyVRR7LRQazYd-Wms2w](https://mp.weixin.qq.com/s/wyhwyVRR7LRQazYd-Wms2w)
+
+![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif "音符")点击上方名片关注了解更多![图片](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif "音符")
+
+  
+
+大家好，我是王工。
+
+小小的过孔看起来不起眼，实则很有讲究，新手最容易翻车。之前，一个新同事在画DC/DC电源的时候，因为过孔没打好，板子回来调试发现电源带不起载，后来只有重新画板，如下是更新后的PCB图，一个12V转5V的DC/DC电源。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9TBiclyZlPibYXLOTfuGRCGIMCYibfYHfyEKQv945QX6GCe8w24YlalwsIg/640?wx_fmt=png)
+
+DC/DC电源建议lay板遵循以下参考设计原则，该打过孔的地方，一定不能省。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9Tgm2NtSC9xdJ0vPsgy4hc6ibbEbtTPl7AadGHKCibv7NFbdb2j0BlJFtA/640?wx_fmt=png)
+
+在PCB设计中，过孔看似只是一个小孔，却承载着信号、电源、地线的流通重任，它不仅是连接多层板的桥梁，更是影响电路性能的关键因素。
+
+今天，我们就从一个“小小的过孔”说起，聊聊过孔的作用、种类，以及如何打好一个过孔。  
+
+  
+
+01
+
+**过孔的**作用**和****种类**
+
+过孔，简单来说，就是PCB板上用来连接不同层之间电气信号的小孔。从图片来看，过孔一般分为**通孔，埋孔和盲孔**。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9TrukL6BJguBU0VyxTgic2h0mZQbOtpDr4ueX2qmeNFyu3P3NICykaWYA/640?wx_fmt=png)
+
+**1、通孔（Through Hole Via）**  
+这是最常见的过孔类型，从**顶层贯穿到底层**，适合连接多层板。它的优点是结构简单、可靠性高，但缺点是占用空间大。
+
+**2、盲孔（Blind Via）**  
+盲孔只从表层连接到内层，不会贯穿整个板子。它的优点是可以节省空间，适合高密度设计，但工艺复杂，**成本较高，**一般不用。
+
+**3、埋孔（Buried Via）**  
+埋孔完全隐藏在PCB内部，**只连接内层**。它的优点是不占用表层空间，适合超复杂设计，但制作难度大，**成本最高，**一般不用。
+
+**4、盘中孔（Via in Pad）**  
+这是一种“高级”过孔，直接将过孔打在焊盘上，来看一张嘉立创官网的图片，可以形象的解释。它的优点是**节省空间**、**提高信号完整性**，特别适合高密度、高速电路设计，但它的工艺要求极高。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9TbFQ9AwFZbyDvicgMicCe2XroIRwGsa2Ficu8PCdWCdBKuX3Jmv14piaVjw/640?wx_fmt=png)
+
+看到这里，你可能会问：“既然盘中孔这么好，为什么大家不都用它？”  
+答案很简单：工艺难度大，普通工厂做不了。  
+但别急，后面我们会提到一家公司，他们的盘中孔工艺堪称一绝。
+
+  
+
+02
+
+**过孔容易引起的一些问题**
+
+咱们一般的电源或者单片机产品，不用过多考虑工作速度，其寄生电容、电感可以忽略。但高速信号，比如PCIE，DDR，HDMI等，过孔的寄生效应对信号完整性的影响就不能忽略。
+
+**高速信号中，引起过孔问题的主要原因是过孔产生的寄生电容和寄生电感。**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9T7ibQnnqFekWhV21tPRH21RZxAqldzHlCsZvBSzhJZEAXztH3IjbYibuw/640?wx_fmt=png)
+
+**寄生电容的计算，公式如下：**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9T6yWiaCFCRVWLegnOYb11CaGoD9w3LTjoQWCfCBg1Ly7bvRroIGJnjSw/640?wx_fmt=png)
+
+C 是过孔的寄生电容；
+
+ε 是PCB板基材的介电常数（通常用**FR-4**，介电常数约为4.2 ~ 4.7）；
+
+T 是PCB板的厚度（一般是1.6mm）；
+
+D1 是过孔焊盘的直径；
+
+D2 是过孔在铺地层上的隔离孔直径。
+
+从公式可以看出，我们可以通过**尽量减小过孔焊盘直径**，适当**增加过孔焊盘与地平面之间的隔离距离**和**尽量使用较薄的PCB板**以减小寄生电容。
+
+  
+
+**寄生电感计算**，******公式如下：**
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9TYOjf9kUrFNiaMzEhzSVSZc9hHsw28RdC31s8HD4icgDMrnmLOYHY9r2g/640?wx_fmt=png)
+
+L 是过孔的电感；
+
+h 是过孔的长度；
+
+d 是中心钻孔的直径。
+
+从公式可以看出，对过孔寄生电感影响最大的是**过孔的长度**，尽量使用较短的过孔以减小寄生电感，尽量将过孔放置在靠近信号源或电源引脚的位置，以减少引线长度和电感。
+
+  
+
+总之，**过孔的寄生电容和寄生电感会延长信号的上升时间**，同时引入了走线的阻抗，从而造成传输线上阻抗的不连续，就会产生一些列的问题，比如：反射，波形失真，信号完整性降低，甚至可能导致电路功能失效。
+
+  
+
+03
+
+**PCB过孔设计建议**
+
+过孔太大，会占用较多空间，也会增加寄生电容；过孔太小，会增加寄生电感，同时制造工艺难度加大，成本也会增加。
+
+在高速PCB设计过程中，咱们从成本和信号质量两个方便考虑，推荐过孔型号有：
+
+-   10/20±2mil（10/18, 10/20, 10/22，一般情况）
+    
+-   8/16±2mil（8/14, 8/16, 8/18，适合高密度的板子）
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9TYiczHPn6yibHQtObxqgicQYNibwpyicjBmEIwTg9iadUFeReIzDsgxlZ4q1A/640?wx_fmt=png)
+
+在信号线中打一次过孔影响不大，但是如果打的过孔次数过多，信号多次在层间进行切换，出问题的概率就会大大增加。所以，我们要求layout工程师，高速信号线优先走线，尽量少换层，少打过孔。
+
+  
+
+对于电源或地线的过孔，我们尽量选用较大尺寸，以减小回路中的阻抗。咱们常用的有以下两种（每个公司可能略有差异）：
+
+-   12/20±2mil
+    
+-   20/30±2mil
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9Tqiclp5Svo7ZUrh9VuyUUric1uDB6EsZrKhFFgw6sxPLyEYAepMccyyLw/640?wx_fmt=png)
+
+还要注意以下几点：  
+
+1、当回路中电流流通能力不足时，计算过孔的流通能力，可多打几个过孔。
+
+2、电源和地的管脚要就近打过孔，它们会导致寄生电感的增加，连线要尽量粗，以减少阻抗。
+
+3、对关键信号，时钟线进行包地处理，并在信号线周围的敷铜地面上打过孔，对高频的性能会更好，也能有效抑制EMI。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9Tpfmc5XHbDhGBiaiccMibib3XN17Pj3GZYFjM47b5AR3a0PCF5ibTeEbM9yQ/640?wx_fmt=png)
+
+  
+
+04
+
+**有了盘中孔工艺，以上问题解决一半**
+
+通过以上分析，我们得出：
+
+过孔的寄生电容和寄生电感是高速信号走线中的**罪魁祸首**，虽然我们可以通过更改过孔焊盘直径，长度，以及其它方式尽可能减小过孔对信号的影响，但是总体来说还不够好。
+
+**还有没有其它办法或生产工艺，能够更好的解决过孔对信号的影响呢？当然有，就是我上面所说嘉立创的盘中孔工艺，作为PCB行业的领先企业，嘉立创的盘中孔工艺堪称一绝。**
+
+**嘉立创的盘中孔工艺是直接把过孔打在焊盘上**，在孔内塞上树脂，烤干树脂磨平，然后进行电镀面铜，在焊盘上完全看不到孔，还可以避免传统工艺引起的漏锡问题。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9TkdH5d8bUVzkeJuJdPz3bRnicbSV2MP7jquQsuHNSwIUTyFJYCp7wia5w/640?wx_fmt=png)
+
+那它是怎么来提高信号的完整性呢？
+
+-   在焊盘上打孔，减少了焊盘和过孔之间的引线，**降低了寄生电容**，从而减少信号上升时间的延迟，提高了信号的传输速度。
+    
+-   在焊盘上打孔，消除了引线长度，**减少了寄生电感**，从而减少信号反射和延时，提高信号传输质量。
+    
+-   在焊盘上打孔，**节省了布线空间**，使布局更加紧凑和优化，特别适合高密度设计。从而减少信号之间的串扰，提高整体电路性能和可靠性。
+    
+
+除了提高信号的完整性，在焊盘上打孔，还可以让板子整体看起来更加美观。以下来自嘉立创官网网友的晒单图片
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaP5ria1JaEmPvDne35eTp9TBqD09yiblb1TjMY1FHm5lXJrJUWCOhgicRVeXIJtTDOjpibQMHicW8ZMtw/640?wx_fmt=png)
+
+盘中孔工艺的优点这么多，那它的价格如何呢？咱们对比几个比较大的板厂一起来看看，就拿63mmx72.5mm，6层核心板，打样5片为例：
+
+A厂总价621元，无优惠。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhM1h7Ut5bRZxycv9rw8n0kzng8t2WAykK4HJp0BBXfDHYajicQsFbIkrLRzGpA2g6icVmrpdadibicRA/640?wx_fmt=png)
+
+B厂总价398元，我个人有50元的优惠券，券后价348元。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhM1h7Ut5bRZxycv9rw8n0kFiaXr8qvezr8lpdmB231AMDe3yjD88a43Jp7CQffNibPWlUw2a1wRf4w/640?wx_fmt=png)
+
+嘉立创总价274.65元，可以看到各项价格计算很细，用下单助手下单优惠51.35元，只需支付223.3元。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhM1h7Ut5bRZxycv9rw8n0kAEy7DNZKtGwYOlA01lB7HicMtiaOrB5Vv3DOtjwicDF98ibmyNcLMHnxpw/640?wx_fmt=png)
+
+如果用嘉立创的券，可以免费打样
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjhSSvHFEmeVzoiafd9mdibtRnicXYleFibvwiaM04dibic9yZPQBwFvPRw65DkofqpKh0yEXSuVk27uQIdtw/640?wx_fmt=png)
+
+综上，嘉立创价格最低，真正做到了物美价廉，如果你想做6层及以上板子，建议你到嘉立创PCB去试试。  
+
+今天的分享就到这里，如果这篇文章对你有帮助，别忘了点赞、收藏，并分享给更多需要的人！
+
+  
+
+  
+
+推荐阅读（点击图片直接进入）
+
+[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjgzfuoN0611riacBaXWMz1bf4VhibuwTs50lL1Ciblge3EhmVfonwqsN2GezDxt6zkrUfQ910APuKiaxA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247500681&idx=1&sn=117bdaa8c04eecdda16fb1d0c0e9fa37&scene=21#wechat_redirect)
+
+[![图片](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiaj1a1Ebg5vIlfWGTLM1ztXHUzapW5aF3DvQtjsqASs1fQibnMCpibwjbR1O0aiaqYPSbHvzhiclDkSMQ/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzk0NjI3NzMwOQ==&mid=2247505291&idx=1&sn=2a9d3e27af00369a4b4abec91356fb55&scene=21#wechat_redirect)
+
+投稿/招聘/推广/宣传/技术咨询 请加微信：woniu26a
+
+  
+
+## 
+
+**声明：**
+
+  
+
+声明：原创文章，转载请注明出处。本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+**推荐阅读▼**
+
+-   [电路设计-电路分析](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2811359150088683521#wechat_redirect)  
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)

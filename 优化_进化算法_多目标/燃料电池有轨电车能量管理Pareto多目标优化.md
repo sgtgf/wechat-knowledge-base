@@ -48,7 +48,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4632dxBbDR5sJmkZNFxu4N3skCE3zJr4ibwKTsY4lBjWpBXYtwyvjibWTRSkgMtOvXXCTYOL5O9vWwg/640?wx_fmt=jpeg)
+![](燃料电池有轨电车能量管理Pareto多目标优化_images/img_000_5428d7ef88d6.jpg)
 
 上海有轨电车
 
@@ -58,7 +58,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4632dxBbDR5sJmkZNFxu4N3kc0XJLrKBn8xiaQk7fa5dQ9fYNyWtibic9JB2tKzUujA79qRJReZqLm4w/640?wx_fmt=png)
+![](燃料电池有轨电车能量管理Pareto多目标优化_images/img_001_a1975f4dd2ab.png)
 
 燃料电池有轨电车
 
@@ -72,37 +72,37 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4632dxBbDR5sJmkZNFxu4N3sp6yefVoIBgiawRqazFeqMA96BK7NkDQIBib4ia5ClaQDIInicJWRok5LA/640?wx_fmt=png)
+![](燃料电池有轨电车能量管理Pareto多目标优化_images/img_002_08e2bc6069de.png)
 
   
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4632dxBbDR5sJmkZNFxu4N3jp2zTL3q9JhjCNRNPSKounM9wKC4WibCbMzeS6wVia1uuG6s1Lic9OI2g/640?wx_fmt=jpeg)
+![](燃料电池有轨电车能量管理Pareto多目标优化_images/img_003_fe087d966f27.jpg)
 
 张晗, 西南交通大学信息科学与技术学院博士研究生. 主要研究方向为新能源车辆功率控制, 多目标优化, 电池管理系统, 交通流模拟. 
 
 E-mail: h.zhang.phd@foxmail.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4632dxBbDR5sJmkZNFxu4N3XBibEtfsEicbwQJZQ9LfpuozhtJGmMnuvwlibUq2WibAJiczxUEHzo3sV2w/640?wx_fmt=jpeg)
+![](燃料电池有轨电车能量管理Pareto多目标优化_images/img_004_3407b3865557.jpg)
 
 杨继斌, 西华大学汽车与交通学院讲师. 主要研究方向车辆混合动力系统控制与优化. 
 
 E-mail: yangjibin08@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4632dxBbDR5sJmkZNFxu4N3Veq4Y8L6a1dBaCCKKSoucUlN8sBpOIHMWOvWlne8IkRWKmyjGyfdLQ/640?wx_fmt=jpeg)
+![](燃料电池有轨电车能量管理Pareto多目标优化_images/img_005_99870fea49fb.jpg)
 
 张继业, 西南交通大学牵引动力国家重点实验室教授. 主要研究方向为高速列车流固耦合动力学, 复杂系统的稳定性与控制和混合动力车辆. 本文通信作者. 
 
 E-mail: jyzhang@home.swjtu.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4632dxBbDR5sJmkZNFxu4N3vO2LbbBYQHQcnIYqJgsicmwciaODvVX3Eq8TrcfKce5D310shCoicg24w/640?wx_fmt=jpeg)
+![](燃料电池有轨电车能量管理Pareto多目标优化_images/img_006_b9fb2c87df0b.jpg)
 
 宋鹏云, 西南民族大学电气信息工程学院讲师. 主要研究方向为动力学与控制和电力电子技术. 
 
 E-mail: songpy23@foxmail.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4632dxBbDR5sJmkZNFxu4N3bR9GqhYic7MZTibUs4VByImWZMtCJCiaPoQfLlKCk6Mh9XSYDDGeax0bw/640?wx_fmt=jpeg)
+![](燃料电池有轨电车能量管理Pareto多目标优化_images/img_007_71737775d127.jpg)
 
 徐晓惠, 西华大学汽车与交通学院车辆工程系副教授. 主要研究方向为非线性关联系统的稳定性分析和控制, 包含人工神经网络, 车辆自动跟随控制系统, 混沌系统. 
 
@@ -228,21 +228,21 @@ E-mail: xhxu@163.com
 
 欢迎扫描二维码、长按图片识别关注《自动化学报》中文版订阅号aas1963，服务号自动化学报和英文版服务号！
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4632dxBbDR5sJmkZNFxu4N3CiaC7pLWLfD4ye1W0mcpsajIPVodhhTcdYPc7XBAZX1ah4EibCN0toicA/640?wx_fmt=png)
+![](燃料电池有轨电车能量管理Pareto多目标优化_images/img_008_2cc1d26d08a7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4632dxBbDR5sJmkZNFxu4N3UCBoOkh2BfyccTy0icRWLEk1JVkicQSR6niakhISN397vfHicI20bFbKUQ/640?wx_fmt=jpeg)
+![](燃料电池有轨电车能量管理Pareto多目标优化_images/img_009_683517afbc1f.jpg)
 
 JAS《自动化学报》（英文版）
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4632dxBbDR5sJmkZNFxu4N3CiaC7pLWLfD4ye1W0mcpsajIPVodhhTcdYPc7XBAZX1ah4EibCN0toicA/640?wx_fmt=png)
+![](燃料电池有轨电车能量管理Pareto多目标优化_images/img_010_2cc1d26d08a7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4632dxBbDR5sJmkZNFxu4N33oXH3ZcT12jN9QXbYLUL9wtSGJunVejqTbOTWjh7SQusicJNs0lruDg/640?wx_fmt=jpeg)
+![](燃料电池有轨电车能量管理Pareto多目标优化_images/img_011_4fc6efd3a36f.jpg)
 
 自动化学报服务号
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH4632dxBbDR5sJmkZNFxu4N3CiaC7pLWLfD4ye1W0mcpsajIPVodhhTcdYPc7XBAZX1ah4EibCN0toicA/640?wx_fmt=png)
+![](燃料电池有轨电车能量管理Pareto多目标优化_images/img_012_2cc1d26d08a7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH4632dxBbDR5sJmkZNFxu4N3k3Rf9ibvwAKZKic7gxickRrNYpcazazKSZLLGjszWzEGibp16vBcQ7CkHg/640?wx_fmt=jpeg)
+![](燃料电池有轨电车能量管理Pareto多目标优化_images/img_013_1950298df4ac.jpg)
 
 自动化学报订阅号
 

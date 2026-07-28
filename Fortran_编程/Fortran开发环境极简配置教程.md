@@ -16,7 +16,7 @@
 
 一个用于编辑，一个用于编译。这两个安装包加起来也就 140 MB。它们全部是开源免费的，可放心使用。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXC7SHjyUicC3IYjybm5umpy38YFZtjZNtjta1AkdIriaeOPia3aRoJFEU8J0OdibGF1y8jicCwWSjv0jw/640?wx_fmt=png&from=appmsg)
+![](Fortran开发环境极简配置教程_images/img_000_a78a3b3ca0db.png)
 
 **安装文件已经打包好，欢迎自行下载**：
 
@@ -30,7 +30,7 @@
 
 这个非常容易，直接双击 **npp.8.6.4.Installer.x64.exe** 安装文件，按提示步骤，一步一步操作即可。界面效果如下。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVXYiaT8z7Igt8kWPjWt9l1kfKiaibzBK2OxHibIHfeiciazuQ2mI74lwnkg96LYfkEtHIo8YkaIV8G52M6A/640?wx_fmt=png&from=appmsg)
+![](Fortran开发环境极简配置教程_images/img_001_29f825d1e186.png)
 
 Notepad++ 是用来编辑 Fortran 代码的，下面是对它的特点介绍，可以简单了解一下。
 
@@ -51,7 +51,7 @@ Notepad++ 是用来编辑 Fortran 代码的，下面是对它的特点介绍，�
 
 1.  **解压 MinGW-w64 压缩包**：将下载的 MinGW-w64 压缩包中的文件解压缩到你选择的目录，如 `C:\mingw64`。
     
-    ![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXYiaT8z7Igt8kWPjWt9l1kf37zcm3IO3IwmndChzicSKPygGXUkdDEtzVutw4sTiaTs5eCcnebCqGKQ/640?wx_fmt=jpeg&from=appmsg)
+    ![](Fortran开发环境极简配置教程_images/img_002_eeed32894dd2.jpg)
     
       
     
@@ -70,7 +70,7 @@ Notepad++ 是用来编辑 Fortran 代码的，下面是对它的特点介绍，�
     
 -   点击“确定”保存更改。
     
-    ![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVXYiaT8z7Igt8kWPjWt9l1kficCqia4Y8QPtVDgsNVg7mXHrev1V34iciaibJnlmGL9CPOfnVb0vUVgKuUw/640?wx_fmt=jpeg&from=appmsg)
+    ![](Fortran开发环境极简配置教程_images/img_003_5eb97175836d.jpg)
     
 
 ## 运行测试
@@ -124,7 +124,7 @@ Notepad++ 是用来编辑 Fortran 代码的，下面是对它的特点介绍，�
 
 接下来做什么呢？你可以进一步地学习 Fortran 语言的语法，探索更多 gfortran 的编译选项和命令行模式操作技巧。一定要将已搭建好的开发环境顺畅地运用起来，一步一个脚印地积累编程经验。记住，实践是提高编程技能的关键，所以不断地编写和测试你的代码，享受 Fortran 编程带来的乐趣吧！
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](Fortran开发环境极简配置教程_images/img_004_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于 Fortran 90 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

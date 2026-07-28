@@ -5,7 +5,7 @@
 
 FEM（有限元）是Finite Element Method的缩写，FDM（有限差分）是Finite Difference Method的缩写，都是常用的数值分析技术，用以求解偏微分方程和其他数学问题，二者都要把连续问题转化为离散问题，但是离散的方式又有所不同，主要体现在网格上。本文将通过简单的案例来说明二者在网格上的区别。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/E2Y5iaDTbrZMSXpuBAaN5GIWh2SdRKM3pXSPfWpibYBonvlkSmBzvTauK76cic40eSSpBHMV4Q246afVib1s7l4Pvw/640?wx_fmt=png)
+![](有限元（FEM）和有限差分（FDM）网格对比_images/img_000_3ec29dd43057.png)
 
 如图是一个带中心孔平板的四分之一模型，现在我们将运用两种方法对此模型进行网格划分，当然今天涉及到的仅仅是二维网格。
 
@@ -59,7 +59,7 @@ plt.show()
 
 图形如下:
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/E2Y5iaDTbrZMSXpuBAaN5GIWh2SdRKM3pNzELarHW2bJPAxI0GFYQ3kIe3lpa4tKCwExL44Yq1z3gjovphKImZQ/640?wx_fmt=png)
+![](有限元（FEM）和有限差分（FDM）网格对比_images/img_001_53977eb8aa2f.png)
 
 ###进行网格划分
 
@@ -75,7 +75,7 @@ plt.plot(points\[:,0\],points\[:,1\],'o')
 
 plt.show()
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/E2Y5iaDTbrZMSXpuBAaN5GIWh2SdRKM3pe8cxKkwXHU9AEBanaTmia3ibXqJiaBjZdLgk8iahwtUYooMbArmIXdCzSw/640?wx_fmt=png)
+![](有限元（FEM）和有限差分（FDM）网格对比_images/img_002_dfb022c81c62.png)
 
 可以看到，在中心孔处，生成了一些多余的网格，接下来把这些网格去除掉。
 
@@ -101,7 +101,7 @@ plt.plot(points\[:,0\],points\[:,1\],'o')
 
 plt.show()
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/E2Y5iaDTbrZMSXpuBAaN5GIWh2SdRKM3pibcjicmJ0t7go3D0UvKgiclEhicSiaibG8cAabG6VrwPLibbHhicHvQ35icZ8EA/640?wx_fmt=png)
+![](有限元（FEM）和有限差分（FDM）网格对比_images/img_003_354df6cbde67.png)
 
 以上是使用FEM方法绘制的网格图，当然除了三角形网格还可以绘制四边形网格，不过过程比较复杂，此处仅仅是作为演示，因此调用了现有成熟的方法进行三角形网格划分。Delaunay三角剖分有很多有意思的内容，包括剖分思路以及如何写网格算法，之后有时间将和大家进行探讨。
 
@@ -173,7 +173,7 @@ plt.show()
 
 最终结果图如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/E2Y5iaDTbrZMSXpuBAaN5GIWh2SdRKM3pp6QibroEsXCEUrKfUQTylL2Tck4N6GB166lsjMujEgJL9LRokkPjiaNw/640?wx_fmt=png)
+![](有限元（FEM）和有限差分（FDM）网格对比_images/img_004_44fff835d990.png)
 
 我们可以看到网格的边界处（红色线条）不是很平滑，因此我们更改网格参数
 
@@ -183,6 +183,6 @@ num\_points\_y = 100
 
 结果如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/E2Y5iaDTbrZMSXpuBAaN5GIWh2SdRKM3pAktAvic8hfL7cYmGPtHYtmIEiaHiagibpnhFcx9tIBMeoJqvAljBO0nusw/640?wx_fmt=png)
+![](有限元（FEM）和有限差分（FDM）网格对比_images/img_005_b0b46be6a857.png)
 
 可以看到边界处比较顺滑，但是此时的节点数过多，如果进行计算，则计算时间会很长。通过对比可以发现，同等情况下，有限元网格对于曲面的处理效果要比有限差分网格好得多，这也会影响到最终计算结果的精度。

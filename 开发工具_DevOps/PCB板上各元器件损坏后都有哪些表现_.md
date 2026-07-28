@@ -1,0 +1,72 @@
+# PCB板上各元器件损坏后都有哪些表现?
+
+原创 硬件笔记本 2023-05-02 19:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/YqIm6nTKSXYO4FkPJDLGTw](https://mp.weixin.qq.com/s/YqIm6nTKSXYO4FkPJDLGTw)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+电子元件是有寿命的，除了与它本身的结构、性质有关，也和它的使用环境和在电路中所起作用密切相关。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiagfoVyA049Apsu8kHlJwOtBnO9TerLSzwxgQYbGIL79KThxyQwvibY2oRZAzKNASbU78ZekZl9EIw/640?wx_fmt=png)
+
+在电路中电子元件有强弱之分，电子元器件抵抗能力排行榜如下：
+
+电阻、电感，电容、半导体器件(包括二极管、三极管、场管、集成电路)，也就是说，在同样的工作条件下，半导体器件损坏概率最大。
+
+在查找故障元件时要优先检查二极管、三极管、场管、集成电路等，一般半导体器件损坏时以击穿为多见，万用表二极管蜂鸣档测这些器件的任意两脚最低也应有一个PN结的阻值500左右，若是蜂鸣八成是坏了，可拆下再测以确认。
+
+在电路中，工作在高电压、大电流、大功率状态下的元件无疑承受的压力也大，损坏的可能性大，同时也是电路的关键元件、功能性元件。
+
+凡在大电流的地方发热就大(焦耳楞次定律——热量与电流的平方成正比)，所以凡是加有散热片的元件都是易损件。大功率的电阻也是易损件。在电路中，保险丝、保险电阻是最不保险的元件，首先因为它的熔点低，容易断，又因为它是保别人的险，冲到第一线，当警卫员，所以坏时先坏。
+
+元件损坏的方式，有过压损坏、过流损坏，当然还有机械损坏。过压损坏如雷击，击穿桥式整流管。过流损坏如显示器行管热击穿。
+
+过压损坏的元件外观看不出明显的变化，只是参数全变了。过流损坏的元件表面温度很高，有裂纹、变色、小坑等明显变化。严重时元件周围的线路板变黄、变黑。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiagfoVyA049Apsu8kHlJwOtWRohzDzN1ibXbL1am3SLNh87jX7GGphnibk0lN6kiabGm8fjuFbvSET7w/640?wx_fmt=png)
+
+常用电子元器件在外表看上去无异常时可以用数字万用表做一些简单的测试。
+
+电阻：这个很简单，测试阻值对不对。
+
+二极管：用数字万用表测试PN结的压降，可与同型号的完好的二极管做对比。
+
+三极管：不管是N管还是P管可以用数字万用表测量测试两个PN结是否正常。
+
+场效应管：测试场效应管的体内二极管的PN结是否正常，测试GD,GS是否有短路。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjiagfoVyA049Apsu8kHlJwOtuMdic9IanvQJKW8PNPCRAaDNQTibwSWuWc9IvB5WhlvCcbtFzXvj0JGg/640?wx_fmt=png)
+
+电容：无极性电容，击穿短路或脱焊，漏电严重或电阻效应。
+
+电解电容的实效特性是：击穿短路，漏电增大，容量变小或断路。
+
+电感：实效特性为：断线，脱焊
+
+芯片：集成电路内部结构复杂，功能很多，任何一部分损坏都无法正常工作。集成电路的损坏也有两种：彻底损坏、热稳定性不良。彻底损坏时，可将其拆下，与正常同型号集成电路对比测其每一引脚对地的正、反向电阻，总能找到其中一只或几只引脚阻值异常。对热稳定性差的，可以在设备工作时，用无水酒精冷却被怀疑的集成电路，如果故障发生时间推迟或不再发生故障，即可判定。通常只能更换新集成电路来排除。
+
+无论是自然损耗所出现的故障，还是人为损坏所出现的故障，一般可归结为电路接点开路，电子元器件损坏和软件故障三种故障。接点开路，如果是导线的折断，拨插件的断开，接触不良等，检修起来一般比较容易。而电子元器件的损坏，（除明显的烧坏，发热外），一般很难凭观察员发现，在许多情况下，必须借助仪器才能检测判断，因此对于技术人员来说，首先必需了解各种器件实效的特点，这对于检修电路故障，提高检修效率是极为重要的。
+
+## 
+
+**声明：**
+
+  
+
+声明：本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+**推荐阅读▼**
+
+-   [硬件精选文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2531417028063166464#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

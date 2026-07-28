@@ -3,11 +3,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/KwEqqs-Q9feOc0mEzlDNAQ](https://mp.weixin.qq.com/s/KwEqqs-Q9feOc0mEzlDNAQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/kicB09lvgibnnRjv0AAqQxyBODIttZXnQqcTPoF4Pt8tJmnia4CHaYUS3zqicFfKZTWibXTAew2ibFHDjy5Pf8nDnVEQ/640?)
+![](小试牛刀_使用Gnuplot轻松绘制动图_images/img_000_504b9a0acd89.png)
 
 点击上方「蓝字」关注我们
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kLQoJJzjYaicxneNzbOg7ynx3TfnIwmNTpJQ7orkaUNrJIV4u7PNdSJ25Mtn6XdRQTamLDDicHnYfdic2bsiaNQjCw/640?)
+![](小试牛刀_使用Gnuplot轻松绘制动图_images/img_001_92b2749bca28.png)
 
 在数据分析和科学可视化领域，Gnuplot 是一款强大的工具，它能够帮助用户快速生成高质量的图形。对于那些想要深入了解数据趋势、模式或周期性变化的初学者而言，掌握如何使用 Gnuplot 绘制动图是一项非常实用的技能。本文将从零开始，逐步引导你学会使用 Gnuplot 制作动图，让数据“活”起来。
 
@@ -15,7 +15,7 @@
 
 Gnuplot 是一个免费、开源、跨平台的命令行工具，用于绘制二维和三维图形。自1986年问世以来，它凭借其灵活性和可扩展性，在科研、工程、教育等领域得到了广泛的应用。尽管Gnuplot可以通过简单的命令行指令操作，但其功能却十分强大，可以满足从基础到高级的各种绘图需求。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVV75HfibvS6PSLMjcUJ0ibvVrX1FPMRGNibggoNy6sPBibZ0rgoZeic4PIKJ2A3vvwsBY7UhFPJcEm29qA/640?wx_fmt=other&from=appmsg&random=0.9237953578639921&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1&random=0.8713487572780234&random=0.719557676666833)
+![](小试牛刀_使用Gnuplot轻松绘制动图_images/img_002_fc35fe50e165.other)
 
 ## 安装与环境设置
 
@@ -80,7 +80,7 @@ macOS用户可以通过Homebrew来安装Gnuplot，首先确保已安装Homebrew�
 
 动图效果如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVUBMWld4lh8EV4zzvicqhs5kzbRISlIuL0ibQu5KC08a4eZPzc3PqHFbHhTiaxticv5BIc9ibVbbL1hHlg/640?wx_fmt=gif&from=appmsg&random=0.343658181572152&random=0.6174712774137274)
+![](小试牛刀_使用Gnuplot轻松绘制动图_images/img_003_3b58c991badd.gif)
 
 ### 结束与保存
 
@@ -96,11 +96,11 @@ Gnuplot的一个重要功能是读取数据文件并直接作图。这些数据�
 
 假设我们有多个数据文件，分别命名为`data_001.dat`, `data_002.dat`, ..., `data_200.dat`，
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUBMWld4lh8EV4zzvicqhs5kLXQPwBHjdCV0P6A4RnFHGcJnKHYg8MleMqub9IaHFRbSM1ib7V3apFg/640?wx_fmt=png&from=appmsg&random=0.8329316963830817&random=0.5396121595229744)
+![](小试牛刀_使用Gnuplot轻松绘制动图_images/img_004_ed1145deff99.png)
 
 每个文件内部有两列数据，例如：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVUBMWld4lh8EV4zzvicqhs5kEH6fQ7aGnWibEZ5OViaFQ8AANAPhiauCIbxseT82CYzBHUL4KhGkqdgeg/640?wx_fmt=jpeg&random=0.23154176909076596&random=0.883428655673796)
+![](小试牛刀_使用Gnuplot轻松绘制动图_images/img_005_a2e776118e94.jpg)
 
 我们可以使用循环来处理它们：
 
@@ -108,11 +108,11 @@ Gnuplot的一个重要功能是读取数据文件并直接作图。这些数据�
 
 这段代码使用`sprintf`函数动态生成文件名`filename`，并用`plot`命令绘制每一个文件作为每一帧。`using 1:2`指定了从数据文件中读取第一列作为x坐标，第二列作为y坐标。动图效果如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVUBMWld4lh8EV4zzvicqhs5kfSBEhaS8VEwTHfschpePgvW5pwvTLId6nctQmsFCJghvnrhUmWurIw/640?wx_fmt=gif&from=appmsg&random=0.8314624110033566&random=0.8973475861356273)
+![](小试牛刀_使用Gnuplot轻松绘制动图_images/img_006_ff33c7b01ba5.gif)
 
 Gnuplot默认绘制的是散点图，线图可以在`plot`命令后继续添加`with lines`选项来实现：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/icVUVTFlBCVUBMWld4lh8EV4zzvicqhs5keHxevDy96ZjkMDVIJW7rnLvfHvOavNlVf8dTYPnehourzhOSvMMp5w/640?wx_fmt=gif&from=appmsg&random=0.894858467329368&random=0.12645112058652197)
+![](小试牛刀_使用Gnuplot轻松绘制动图_images/img_007_49e2d3df02b6.gif)
 
 ### 调整动画速度
 
@@ -128,7 +128,7 @@ Gnuplot默认绘制的是散点图，线图可以在`plot`命令后继续添加`
 
 如果生成的GIF文件体积较大，可以使用如`gifsicle`或在线工具进一步优化，减小文件大小。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVUBMWld4lh8EV4zzvicqhs5kylc3auicP88vQ6oV65iaXQUrYRgZpTUyevefYNgfqgQbGJT8xrqZExfA/640?wx_fmt=png&from=appmsg&random=0.974787371612178&random=0.9998236931869315)
+![](小试牛刀_使用Gnuplot轻松绘制动图_images/img_008_0b0adff7d77f.png)
 
 ## 结语
 

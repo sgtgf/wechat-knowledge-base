@@ -80,7 +80,7 @@ SPS的运作可以被划分为SeruSeru构建与SeruSeru调度两个部分, Seru
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBrXLjibTnibYY7icfhiaZn48nj5OGqkBVVsibY73pYmTNIN7XicWWUxMERskng/640?wx_fmt=jpeg)
+![](带有资源冲突的Seru在线并行调度算法_images/img_000_aa1c90c7c010.jpg)
 
 三个算法的竞争比
 
@@ -88,7 +88,7 @@ SPS的运作可以被划分为SeruSeru构建与SeruSeru调度两个部分, Seru
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBr8uuJ7Ij1Zib6YouMnzVGlozYwOw37OSodxwwfTQP4icEKqJXQVQiaLHeQ/640?wx_fmt=png)
+![](带有资源冲突的Seru在线并行调度算法_images/img_001_649523247fc1.png)
 
 **江煜舟**
 
@@ -96,7 +96,7 @@ SPS的运作可以被划分为SeruSeru构建与SeruSeru调度两个部分, Seru
 
 E-mail: jiang\_yuzhou@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBribHW9NdDnAacUgbMJhhdKVeKbJia7mAIxAb0jibiaDPjej6mU4XGz6hyhA/640?wx_fmt=jpeg)
+![](带有资源冲突的Seru在线并行调度算法_images/img_002_c142fc5a5f00.jpg)
 
 **李冬妮**
 
@@ -104,7 +104,7 @@ E-mail: jiang\_yuzhou@163.com
 
 E-mail: ldn@bit.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBroHLic16bKDzIIUfNSzU0pmQzxDBmwxeKAAmlicicyWG185DPwAbpVBfbQ/640?wx_fmt=png)
+![](带有资源冲突的Seru在线并行调度算法_images/img_003_e2d45f01990e.png)
 
 **靳洪博**
 
@@ -112,7 +112,7 @@ E-mail: ldn@bit.edu.cn
 
 E-mail: hb@bit.edu.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBrPyiatHiaqd2tY1txoVjf0dZticVjfju4kich1PAdofHsh8to0IsHrSCic0Q/640?wx_fmt=png)
+![](带有资源冲突的Seru在线并行调度算法_images/img_004_01c3baffa5ad.png)
 
 **殷  勇**
 
@@ -278,49 +278,49 @@ http://www.aas.net.cn/cn/article/id/16430?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBrHM2MkbrX4D9z4v1pDHXld1sNk3MibNANFfHqwmEMtQ1xR48TF083O0Q/640?wx_fmt=png)
+![](带有资源冲突的Seru在线并行调度算法_images/img_005_b57d39fe904d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBruADoRtnu6ykDMar8ytEsDnCgErMGVdeblMIN4qCibZJdZHeRL7DTcfw/640?wx_fmt=png)
+![](带有资源冲突的Seru在线并行调度算法_images/img_006_62544a224eb4.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBrCk5JQ2nsmQ6MwHdSQgNavPXd6rlPPK7zfPicTy6S7WvIpnKd3vakFCg/640?wx_fmt=gif)
+![](带有资源冲突的Seru在线并行调度算法_images/img_007_f5cb907df7c5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBrCk5JQ2nsmQ6MwHdSQgNavPXd6rlPPK7zfPicTy6S7WvIpnKd3vakFCg/640?wx_fmt=gif)
+![](带有资源冲突的Seru在线并行调度算法_images/img_008_f5cb907df7c5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBrZVVFnoKfGy1hEdydXGfUia6hfhhSibpSMWInVaMwme1HHyT4cQAKDzlg/640?wx_fmt=jpeg)
+![](带有资源冲突的Seru在线并行调度算法_images/img_009_c77521b65e9e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBrCk5JQ2nsmQ6MwHdSQgNavPXd6rlPPK7zfPicTy6S7WvIpnKd3vakFCg/640?wx_fmt=gif)
+![](带有资源冲突的Seru在线并行调度算法_images/img_010_f5cb907df7c5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBrCk5JQ2nsmQ6MwHdSQgNavPXd6rlPPK7zfPicTy6S7WvIpnKd3vakFCg/640?wx_fmt=gif)
+![](带有资源冲突的Seru在线并行调度算法_images/img_011_f5cb907df7c5.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBrCk5JQ2nsmQ6MwHdSQgNavPXd6rlPPK7zfPicTy6S7WvIpnKd3vakFCg/640?wx_fmt=gif)
+![](带有资源冲突的Seru在线并行调度算法_images/img_012_f5cb907df7c5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBrCk5JQ2nsmQ6MwHdSQgNavPXd6rlPPK7zfPicTy6S7WvIpnKd3vakFCg/640?wx_fmt=gif)
+![](带有资源冲突的Seru在线并行调度算法_images/img_013_f5cb907df7c5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBr3c2FMKkYiatYndzCgvl334VjCBdhEdOUrkPKgffgDbpsXszN9TCuydQ/640?wx_fmt=jpeg)
+![](带有资源冲突的Seru在线并行调度算法_images/img_014_61797e6e03eb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBrCk5JQ2nsmQ6MwHdSQgNavPXd6rlPPK7zfPicTy6S7WvIpnKd3vakFCg/640?wx_fmt=gif)
+![](带有资源冲突的Seru在线并行调度算法_images/img_015_f5cb907df7c5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBrCk5JQ2nsmQ6MwHdSQgNavPXd6rlPPK7zfPicTy6S7WvIpnKd3vakFCg/640?wx_fmt=gif)
+![](带有资源冲突的Seru在线并行调度算法_images/img_016_f5cb907df7c5.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBrCk5JQ2nsmQ6MwHdSQgNavPXd6rlPPK7zfPicTy6S7WvIpnKd3vakFCg/640?wx_fmt=gif)
+![](带有资源冲突的Seru在线并行调度算法_images/img_017_f5cb907df7c5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBrCk5JQ2nsmQ6MwHdSQgNavPXd6rlPPK7zfPicTy6S7WvIpnKd3vakFCg/640?wx_fmt=gif)
+![](带有资源冲突的Seru在线并行调度算法_images/img_018_f5cb907df7c5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBrqv3k4b38F0hBR7OJ4zPUnUHtYFpumaTGKEfynWvd4jmYGN423NAFDQ/640?wx_fmt=jpeg)
+![](带有资源冲突的Seru在线并行调度算法_images/img_019_b71670530031.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBrCk5JQ2nsmQ6MwHdSQgNavPXd6rlPPK7zfPicTy6S7WvIpnKd3vakFCg/640?wx_fmt=gif)
+![](带有资源冲突的Seru在线并行调度算法_images/img_020_f5cb907df7c5.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47xcRGhyrOlq6dFYhHdQTBrCk5JQ2nsmQ6MwHdSQgNavPXd6rlPPK7zfPicTy6S7WvIpnKd3vakFCg/640?wx_fmt=gif)
+![](带有资源冲突的Seru在线并行调度算法_images/img_021_f5cb907df7c5.gif)
 
 **长按二维码｜关注我们**
 

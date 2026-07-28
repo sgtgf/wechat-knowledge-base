@@ -1,0 +1,200 @@
+# EMC电磁屏蔽：静电、磁场与天线耦合
+
+原创 工程师看海 硬件笔记本 2022-11-15 07:28 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/5sG-WglDMmrvWCmYbdfrbQ](https://mp.weixin.qq.com/s/5sG-WglDMmrvWCmYbdfrbQ)
+
+▼关注公众号：硬件笔记本▼
+
+  
+
+  
+
+不管什么电子产品，EMC始终是其需要面对的问题，EMC全拼是Electromagnetic Compatibility即电磁兼容性，EMC分为EMS（electromagnetic susceptibility）电磁抗扰度和EMI（ Electromagnetic interference）电磁干扰两部分，一个是评估产品自身稳定性的，另一个是评估产品对外噪声水平的，都是产品质量的重要指标，本文以手机为例，介绍EMC、静电浪涌的基本原理以及常见解决措施，有助于指导工程师PCB layout以及解决实际EMC问题。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMu3G8pQrU4WMiafkJKmy8UIgxqAiaBerRL8oQpCGk4QIVrxJbiazL4moX6g/640?wx_fmt=png)
+
+万事万物皆有干扰，有干扰才有抗干扰，解决EMC问题就有3大方向，围绕这三大方向，可以幻化出非常多的解决措施，太极生两仪，两仪生四象，四象生八卦，八卦千变万化。这3大方向分别是干扰源、干扰传播路径、干扰受体。
+
+  
+
+世界上没有无缘无故的爱，也没有无缘无故的恨，咱们就先从干扰源谈起。
+
+  
+
+而按照干扰传播路径，有空间和传导两种干扰，不同的路径有不同的干扰源。
+
+  
+
+咱们就说说静电耦合、磁场耦合和天线耦合。
+
+  
+
+  
+
+**1\. 静电耦合**
+
+静电耦合对电场敏感，也叫电场耦合或容性耦合，一般电压大电流小，其简化模型如下：干扰方和受害方之间通过电容耦合，干扰方产生的电场会通过电容（pF级别）作用于受害方，进而在受害方产生噪声，这就是静电干扰。
+
+如果受害方阻抗大，那么产生的干扰也会变大，这就是高阻抗电路更容易接收噪声的原因之一。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuC1oPqpObkcCz9U5Vk9Q8qyjAuu4tn8icd0aH7IKLiaZib5bZQlWZvakaA/640?wx_fmt=png)
+
+  
+
+那么缓解静电耦合引起的干扰手段有哪些呢？
+
+1.  增加间距。通过减小耦合电容，来降低干扰。
+    
+2.  缩短耦合长度。减小两条走线平行部分的长度，相当于减少了并联的电容，进而降低耦合电容引起的干扰。
+    
+3.  静电屏蔽。金属接地屏蔽，阻断干扰方和受害方，如下图。
+    
+4.  降低干扰源电压。
+    
+5.  在干扰源源端滤波。
+    
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuk34icKtYPaeofnmXtqXTwicIfXjHITVyEVz9M8YLGKLW5gaKpXoibwLfA/640?wx_fmt=png)
+
+2\. 磁场耦合
+
+有爱必有恨，有电容就有电感，二者是对偶器件，磁场耦合就是基于感性的耦合，也叫感性耦合，电压小电流大，当导线流过电流时，会产生磁场，磁场会通过互感作用于受害线路，进而产生干扰，这就是磁场耦合。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuuaXxsqmo8gJJRp1qGmXONvo6tpr27BJHahysKGw8HdX8AHHlibtQBVQ/640?wx_fmt=png)
+
+  
+
+那么缓解电磁耦合引起的干扰手段有哪些呢？
+
+1.  增加间距。通过减小互感系数，来降低干扰。
+    
+2.  缩短耦合长度，垂直交叉走线。减小两条走线平行部分的长度，相当于减少了互感。
+    
+3.  电磁屏蔽。通过金属板涡流阻断磁场，可以不接地，如果金属板用于回流，则接地。
+    
+4.  降低干扰源电流。
+    
+5.  在干扰源源端滤波。
+    
+
+  
+
+3\. 电磁耦合与天线
+
+静电耦合和磁场耦合对距离很敏感，属于近距离干扰，增加距离可以大幅降低干扰，但是无线电波的干扰，属于远距离干扰，对距离并不是很敏感，又叫做辐射耦合。
+
+天线可以产生无线电波，天线可以分为偶极子天线和环形天线两种，如下图所示，这些天线既可以发射信号，又可以接收信号（拾取噪声），因此，作为发射天线时，我们要尽量避免天线产生干扰；对于受害器件而言尽量避免内部设计产生无用的天线，导致拾取到无线电波干扰。
+
+偶极子天线对电压敏感，环形天线对电流敏感。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuoZNgricoXZuFtibY4CIeyt3u7DkIxwTpF7t299icIzuEcpAHmvY2wm9uQ/640?wx_fmt=png)
+
+4\. 偶极子天线
+
+对于偶极子而言，长度为1/2波长时更容易发生无线电波，比如对于750MHz信号而言，被发射到空中后的速度为光速3\*10^8 m/s，波长就是400mm，波长的一半就是200mm，所以如果天线长度小于200mm就有助于减小干扰；
+
+λ=C/f，λ:波长；C:速度；f:频率
+
+在天线前面加入LC滤波器，既可以抑制高频谐波降低EMI，又可以做阻抗匹配实现最佳发射功率。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMukdFPjGKIkQkMA8oonZ8cmCQibwrlND0RQJx9ZnAPhib8HKevYpS6ib11w/640?wx_fmt=png)
+
+我们在走线时也要避免出现单独线头，这种线头可能成为发射或接收天线。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuibCiaGr7HhxQibuGfrubTmibazeJQbzsrp7iaHmSqHR9eqjatReBMdlibx9w/640?wx_fmt=png)
+
+  
+
+5\. 环形天线
+
+很多基于法拉第电磁感应定律的磁场检测设备，就是使用探查线圈来拾取磁场。环形天线既可以发射电波又可以接收电波，降低发射环形天线的面积，是降低干扰的有效方法之一。我们PCB layout时也要缩短走线长度，避免形成发射或接收的环形天线。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuIE0nJCbuGxDCRBibHdtDOOR2wAdHNzvIBicmEvh5Kt0O6LJlKyFozg8A/640?wx_fmt=png)
+
+5\. 近场与远场
+
+近场与远场是一对非常重要的概念，对于指导我们优化EMC有重要作用。
+
+近场与远场的分界线是d=λ/2π，λ是波长，当天线距离小于d时是近场，大于d时是远场。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuRlcjP1PgSLIVp06TsFrFJqJcHbP8s1exoibYCqXYC1M0JchrXc1BRug/640?wx_fmt=png)
+
+图来自村田官网  
+
+偶极子近场范围内电场更强，电场随距离衰减更快。
+
+环形天线近场范围内磁场更强，磁场随距离衰减更快。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMulxY7yL3DRKDnLjf6gViaxw8HlqQEYWyEgILS64ZOyMwehyQFG7x45Uw/640?wx_fmt=png)
+
+但不管是偶极子天线还是环形天线，在远场范围内，电、磁场随距离衰减速度一致，此时的波阻抗为377Ω，这是重要的参数，后面会用到。
+
+  
+
+6\. 空间传导噪声抑制
+
+对于静电耦合和电磁耦合的噪声抑制方法，前文已经介绍了，这里不做赘述，这部分介绍屏蔽材料对电波干扰的抑制，也叫做电磁屏蔽。
+
+屏蔽效果可以用SE = R + A近似表示，R表示反射损耗，A表示衰减损耗。
+
+反射损耗R是利用阻抗不匹配，将噪声反射，来抑制干扰，和阻抗非常相关，记不记得前文的377Ω？一会就会用到。
+
+而衰减损耗是利用高频趋肤效应来衰减电磁波，和屏蔽材料、频率有关。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuPibicaqkrtCCFbMsiaN103Z8icjgFp60DNyzNIVOhHjKltPTJWeIicO2KibA/640?wx_fmt=png)
+
+前文提到过远场波阻抗是377Ω，而铜板等屏蔽材料是高电导率材料，其阻抗非常非常小，10MHZ时，铜的固有阻抗大约只有1mΩ，相差了30万倍，铁的阻抗也非常小，远场波阻抗与屏蔽材料阻抗差距巨大，产生反射，因此单看反射系数，就可以达到100dB的衰减效果。
+
+如果使用导电率更高的材料，反射损耗就更多，屏蔽效果就越好。
+
+从下图也可以看出，使用更厚的材料，衰减损耗就更多，屏蔽效果也越好。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuRD2VclWwSOXNsjtOMyEhnlIxj6qluDq5sic4Qmv1Go2LUXtqhhLTV5w/640?wx_fmt=png)
+
+图来自村田官网
+
+趋肤深度是评价趋肤效应强度的参数，相同尺寸的不同材料，趋肤深度更小的材料对干扰衰减更强，抑制干扰的效果越好。
+
+**下图是本节重点！**
+
+铁的电导率比铜低，但磁导率比铜高。
+
+从下图可以解读出，相同频率时，铁比铜趋肤深度更小，即由于铁的磁导率高，衰减损耗更大，衰减损耗引起的抗干扰效果更好。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2aJeN2dC5t64EyAx8MIIBrBRnbldHMMuM29DQDhcTk56MPv390XHkdU8OhIOD5ibZ5naSvM5xpE9Y32wMl7hRicA/640?wx_fmt=png)
+
+从上图还可以解读出，频率越高，趋肤深度就越小，因此高频时即使用非常薄的金属材料就可以实现良好的屏蔽效果。
+
+但是！
+
+如果频率很低，那么趋肤深度就很大，抑制低频干扰需要非常厚的屏蔽材料，此时使用高磁导率的铁等材料屏蔽效果更好。
+
+高频干扰屏蔽电场，选用较薄材料；
+
+低频干扰屏蔽磁场，使用胶厚材料就是这么来的。
+
+## 
+
+**声明：**
+
+  
+
+声明：本号对所有原创、转载文章的陈述与观点均保持中立，推送文章仅供读者学习和交流。文章、图片等版权归原作者享有，如有侵权，联系删除。
+
+  
+
+**推荐阅读▼**
+
+-   [硬件精选文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2531417028063166464#wechat_redirect)
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

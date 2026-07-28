@@ -1,0 +1,105 @@
+# 划重点！PCB走线不要随便拉
+
+原创 硬件笔记本 2022-06-18 11:21 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/vIYx3kvZNmt9jCwbKXwvKA](https://mp.weixin.qq.com/s/vIYx3kvZNmt9jCwbKXwvKA)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif "音符")
+
+  
+
+盲目的拉线，拉了也是白拉！  
+
+  
+
+有些小伙伴在pcb布线时，板子到手就是干，由于前期分析工作做的不足或者没做，导致后期处理时举步维艰。比如电源线、杂线拉完了，却漏掉一组重要的信号线，导致这组线没办法同组同层，甚至都没有完整的参考平面，需要对前面的布线工作做大修改才能完成，费时费力。如果将PCB板比作我们的城市，元器件就像鳞次栉比的各类建筑，信号线便是城里的大街小巷、天桥环岛，每条道路的出现都是有它的详细规划，布线亦是如此。
+
+  
+
+  
+
+  
+
+1  
+
+ **布线优先次序要求**
+
+  
+
+  
+
+a) 关键信号线优先：电源、摸拟小信号、高速信号、时钟信号和同步信号等关键信号优先。
+
+b) 布线密度优先原则：从单板上连接关系最复杂的器件着手布线。从单板上连线最密集的区域开始布线。
+
+c) 关键信号处理注意事项：尽量为时钟信号、高频信号、敏感信号等关键信号提供专门的布线层，并保证其最小的回路面积。必要时应采取屏蔽和加大安全间距等方法。保证信号质量。
+
+d) 有阻抗控制要求的网络应布置在阻抗控制层上，须避免其信号跨分割。  
+
+  
+
+  
+
+2  
+
+ **布线窜扰控制**
+
+  
+
+a) 3W原则释义
+
+线与线之间的距离保持3倍线宽。是为了减少线间串扰，应保证线间距足够大，如果线中心距不少于3倍线宽时，则可保持70%的线间电场不互相干扰，称为3W规则。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/nyJUhrkzoHAG6Q8Z5TNCZnY1CrNriaHU164W9vC5zOwRUwelOEWawrD2Q0iaCRoGSDzVIticJ0U6L48eu3VxWUPRw/640?wx_fmt=png)
+
+b) 窜扰控制：串扰（CrossTalk)是指PCB上不同网络之间因较长的平行布线引起的相互干扰，主要是由于平行线间的分布电容和分布电感的作用。克服串扰的主要措施是：  
+
+i. 加大平行布线的间距，遵循3W规则；
+
+ii. 在平行线间插入接地的隔离线
+
+iii. 减小布线层与地平面的距离。
+
+  
+
+  
+
+3  
+
+ **布线的一般规则要求**
+
+  
+
+a) 相邻平面走线方向成正交结构。避免将不同的信号线在相邻层走成同一方向，以减少不必要的层间窜扰；当由于板结构限制（如某些背板）难以避免出现该情况，特别是信号速率较高时，应考虑用地平面隔离各布线层，用地信号线隔离各信号线。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/nyJUhrkzoHAG6Q8Z5TNCZnY1CrNriaHU1wcRxzffmFLaw5yWxLkiaSz0JaiaibcVkQflAUlmGcibqjia67bOPAhdmCBg/640?wx_fmt=jpeg)
+
+b) 小的分立器件走线须对称，间距比较密的SMT焊盘引线应从焊盘外部连接，不允许在焊盘中间直接连接。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/nyJUhrkzoHAG6Q8Z5TNCZnY1CrNriaHU1ibq7aczOvXJMnKs0wXbxaNiaUoVfZyxZ1WCSVpB8JWxYPWW5ib3XUU6LQ/640?wx_fmt=png)
+
+c) 环路最小规则，即信号线与其回路构成的环面积要尽可能小，环面积越小，对外的辐射越少，接收外界的干扰也越小。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/nyJUhrkzoHAG6Q8Z5TNCZnY1CrNriaHU1Q3Llbu25CdkzZKejaQUuqMIxsL9e4nuJSXibyNeTmKzz36Xibe5Ya8fQ/640?wx_fmt=png)
+
+d) 走线不允许出现STUB。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/nyJUhrkzoHAG6Q8Z5TNCZnY1CrNriaHU1TLrscgCfQ6a43wXUpJHT8ta7YemNhoveUxFyl3TpibvGqc4toH8ibtjQ/640?wx_fmt=png)
+
+e) 同一网络的布线宽度应保持一致，线宽的变化会造成线路特性阻抗的不均匀，当传输的速度较高时会产生反射。在某些条件下，如接插件引出线，BGA封装的引出线类似的结构时，因间距过小可能无法避免线宽的变化，应该尽量减少中间不一致部分的有效长度。  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/nyJUhrkzoHAG6Q8Z5TNCZnY1CrNriaHU19LHayrRjgQcAvGB7GfVYY1EBp1AVgmeopWugOcAthhKaIvBYgG17Ww/640?wx_fmt=png)
+
+f) 防止信号线在不同层间形成自环。在多层板设计中容易发生此类问题，自环将引起辐射干扰。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/nyJUhrkzoHAG6Q8Z5TNCZnY1CrNriaHU1SWhhLcNnY3CojqibEGFH5cmP2NoF2YUpoFcxRyhsdhnAKZnahky0YmA/640?wx_fmt=png)
+
+g) PCB设计中应避免产生锐角和直角，产生不必要的辐射，同时PCB生产工艺性能也不好。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/nyJUhrkzoHAG6Q8Z5TNCZnY1CrNriaHU1rs8MSu4UZtbcIzXNtpw7dAD7QjM0NTwJttmVA4kj8pRQnTTiaiafKwicg/640?wx_fmt=png)
+
+文章转自网络，侵删！
+
+  
+
+后台回复“**加群**”，管理员拉你入技术交流群。

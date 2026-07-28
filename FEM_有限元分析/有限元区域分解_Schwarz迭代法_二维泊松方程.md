@@ -13,23 +13,23 @@
 
 求解最简单的二维泊松方程：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqIMNzDu1CUAFicG34UYkjLOic9B0gaWXzgrlMIb9QHUL2j8TsXGlQQ3QxHciaSibDIwpV084V9pEPueg/640?wx_fmt=png)
+![](有限元区域分解_Schwarz迭代法_二维泊松方程_images/img_000_41a6d9beb704.png)
 
 右端项为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqIMNzDu1CUAFicG34UYkjLOwWFxIVNaaZa9kqO833KPtkNqvNXnCdVkadEiagKianFZotvgMpFsldnQ/640?wx_fmt=png)
+![](有限元区域分解_Schwarz迭代法_二维泊松方程_images/img_001_c2904134431e.png)
 
 解析解：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqIMNzDu1CUAFicG34UYkjLOkNeCibOBichp1xniaGW7yk5mXDCN5icYt6IoiaAlNd8XXr3ejaYyIWRwZvQ/640?wx_fmt=png)
+![](有限元区域分解_Schwarz迭代法_二维泊松方程_images/img_002_b27c4e60fcb1.png)
 
 泊松方程对应的有限元弱形式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqIMNzDu1CUAFicG34UYkjLOUtbJN8XpqjeLd19weLcXC9XaicyEmlS6StUk2O08k5SZgfemficnTs1A/640?wx_fmt=png)
+![](有限元区域分解_Schwarz迭代法_二维泊松方程_images/img_003_d431db94dcdb.png)
 
 采用三角形网格剖分，将整个研究域剖分为具有重叠区域的两个区域，如下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqIMNzDu1CUAFicG34UYkjLOjaYbiaVsHUHVw5FvH0BpiaqOicRScLC6MsCKeCMia7jqREGxSa2e9x35ww/640?wx_fmt=png)
+![](有限元区域分解_Schwarz迭代法_二维泊松方程_images/img_004_b04aa62a0c02.png)
 
 红色区域1和蓝色区域2在中间部分重叠。
 
@@ -47,27 +47,27 @@
 
 详细的公式推导，区域1上的求解公式：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqIMNzDu1CUAFicG34UYkjLOqhxHphb5IpIn64KsnaxXvjDwHkg2IX6ZTyKJfyd6NCMK0XvNQYGARg/640?wx_fmt=png)
+![](有限元区域分解_Schwarz迭代法_二维泊松方程_images/img_005_99a970765f62.png)
 
 迭代中，已知u1,b的值，因此，上述式子进一步推导：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqIMNzDu1CUAFicG34UYkjLO4xOAoGePZqx2WqwBRm4Kge48yTw8Oy7G41WmdyyiaNWhiaMdobfMU34w/640?wx_fmt=png)
+![](有限元区域分解_Schwarz迭代法_二维泊松方程_images/img_006_2fac812c772a.png)
 
 子域中本质上是求解上述方程，右端项是随着迭代过程，不断的被区域2的解进行修正。
 
 区域2上求解过程与区域1完全一致：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqIMNzDu1CUAFicG34UYkjLOsStQ1vlKUntVpHDR00Sr9OSUgvWG9ReECsHCiblgibSs0fCttBLZhiaJQ/640?wx_fmt=png)
+![](有限元区域分解_Schwarz迭代法_二维泊松方程_images/img_007_08bce33b0338.png)
 
 最终判断各自区域的解收敛条件，满足以下条件：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqIMNzDu1CUAFicG34UYkjLOt4K2kyurZm5aiblpx2GKuselx0152fygtqEouaGDyyIDSxfj889Vt1Q/640?wx_fmt=png)
+![](有限元区域分解_Schwarz迭代法_二维泊松方程_images/img_008_814d89da55bc.png)
 
 3 求解结果
 
 针对以下网格，重叠区域有4列网格。虽然网格棱边并不完全重合，但是节点有限元不关心棱边，仅关系节点，因此无影响。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqIMNzDu1CUAFicG34UYkjLOwOQIicpYFOziar0sEAAK5lE67gwYOGZWP7OlfP3RTicSywJ6vM5jTxPsA/640?wx_fmt=png)
+![](有限元区域分解_Schwarz迭代法_二维泊松方程_images/img_009_ab0b43e19679.png)
 
 ```
 迭代结果：
@@ -75,21 +75,21 @@
 
 结果显示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqIMNzDu1CUAFicG34UYkjLOQ1jsUerghsQxqgjMt9pkAabwIlCJHlbtD9eqX3YACYp7XBc9oj2LKA/640?wx_fmt=png&from=appmsg)
+![](有限元区域分解_Schwarz迭代法_二维泊松方程_images/img_010_17620a91c707.png)
 
 使用区域1（红色圆圈），区域2（红色三角形），全域有限元（蓝色加号）分别求解得到u然后和理论解析解对比，在x方向显示，如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqIMNzDu1CUAFicG34UYkjLO4LPsoxVia9BSALVuYibUmud93DTxF7IVnVnfIsfLzhIsqcUHM50RiaficA/640?wx_fmt=png)
+![](有限元区域分解_Schwarz迭代法_二维泊松方程_images/img_011_65cc20d9a1db.png)
 
 可以发现，红色和蓝色的误差分布基本上在一个量级，说明区域分解能和全域求解达到一个量级。此外细心还可以发现，红色圆圈和红色三角形在中间区域的各自边界上的解的误差是一致的，说明其本身的解也是一致的，这也是迭代的结果，前一次的区域2的解是作为第一类边界条件加入到区域1中的。
 
 下面测试不同重叠区域对收敛次数的影响：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqIMNzDu1CUAFicG34UYkjLOtb2icb21oBO84iaSSeKibkqcxXGhs4Bg0wo0SuwVyjZOcGgpOVCfPB0gQ/640?wx_fmt=png)
+![](有限元区域分解_Schwarz迭代法_二维泊松方程_images/img_012_8f30a471e38e.png)
 
 其对应的收敛到1e-8以下的迭代次数如下表格：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/atV33WFsFNqIMNzDu1CUAFicG34UYkjLOic66AxpWokic942hzrC7jPu3J9FTFJUNN0icxRQy8cVpnNIqicQGNBu3oA/640?wx_fmt=png)
+![](有限元区域分解_Schwarz迭代法_二维泊松方程_images/img_013_4f7dc036f879.png)
 
 可以发现，基本上符合原理，重叠越大，迭代次数越少，但是必须得有重合，否则耦合区域没有点可供更新。
 

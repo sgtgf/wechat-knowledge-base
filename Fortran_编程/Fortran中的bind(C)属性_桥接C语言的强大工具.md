@@ -72,7 +72,7 @@
 
 总结起来，Fortran中的`bind(C)`机制极大地简化了Fortran与C语言之间的混合编程流程，显著提升了跨语言开发大型项目的效率。通过这一特性，开发者能够在保持Fortran强大的数值计算能力和内存管理优势的同时，便捷地整合C语言提供的丰富库资源，进而推动科学计算、工程计算及其他领域软件开发技术的进步。无论是利用Fortran高效计算能力解决复杂的数学问题，还是借助C语言丰富的系统级功能和第三方库支持，`bind(C)`属性都成为了连接两种语言的重要纽带，让开发者能够跨越语言界限，充分挖掘二者潜力，实现更高层次的应用融合和技术创新。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](Fortran中的bind(C)属性_桥接C语言的强大工具_images/img_000_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

@@ -46,7 +46,7 @@ matplotlib是Python的2D绘图库，支持生成出版级图表，提供丰富�
 # juzicode.com/VX公众号:juzicodeimport matplotlib.pyplot as pltplt.rcParams['font.family']=['YouYuan']plt.rcParams['axes.unicode_minus']=Falsex =[1,2,3,4,5]y =[2,4,6,8,10]plt.plot(x, y,'r--')plt.title('销售增长趋势')plt.xlabel('季度')plt.ylabel('销售额（百万）')plt.savefig('line_chart.png')
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/AxENKPbXjqjxE6uqBVoBvkU9lN7E19sBF7DJNJ04QOtv9PnicZawQEMRSMoqSfPTibn42bribm5dOj7icU5d7mautg/640?wx_fmt=png&from=appmsg)
+![](数据可视化神器_matplotlib_images/img_000_f84a3d024f3f.png)
 
 #### 2）柱状图比较
 
@@ -56,7 +56,7 @@ matplotlib是Python的2D绘图库，支持生成出版级图表，提供丰富�
 # juzicode.com/VX公众号:juzicodeimport matplotlib.pyplot as pltplt.rcParams['font.family']=['YouYuan']plt.rcParams['axes.unicode_minus']=Falsecategories =['A','B','C','D']values =[23,45,56,37]plt.bar(categories, values, color=['#4CAF50','#2196F3','#FF9800','#E91E63'])plt.grid(axis='y', alpha=0.5)plt.savefig('bar_chart.png')
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/AxENKPbXjqjxE6uqBVoBvkU9lN7E19sBtCSun6IHM0EsPCVYibwAKfQ0VOakpoqicVEicdLqf5Yw0drpOPkIMjvcw/640?wx_fmt=png&from=appmsg)
+![](数据可视化神器_matplotlib_images/img_001_493bf6d9b9fb.png)
 
 #### 3）散点图分析
 
@@ -66,7 +66,7 @@ matplotlib是Python的2D绘图库，支持生成出版级图表，提供丰富�
 # juzicode.com/VX公众号:juzicodeimport matplotlib.pyplot as pltplt.rcParams['font.family']=['YouYuan']plt.rcParams['axes.unicode_minus']=Falseimport numpy as npx = np.random.randn(100)y = x *2+ np.random.randn(100)*0.5plt.scatter(x, y, alpha=0.6, c=np.arctan2(y, x))plt.colorbar(label='角度值')plt.savefig('scatter_plot.png')
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/AxENKPbXjqjxE6uqBVoBvkU9lN7E19sBV2Xbia4QORB8ebkk20mNphVDRbe798HHgxr0mLewvbPNBiaVOu2aftWg/640?wx_fmt=png&from=appmsg)
+![](数据可视化神器_matplotlib_images/img_002_95256de15237.png)
 
 #### 4）多子图布局
 
@@ -76,7 +76,7 @@ matplotlib是Python的2D绘图库，支持生成出版级图表，提供丰富�
 # juzicode.com/VX公众号:juzicodeimport matplotlib.pyplot as pltplt.rcParams['font.family']=['YouYuan']plt.rcParams['axes.unicode_minus']=Falseimport numpy as npx = np.random.randn(100)y = x *2+ np.random.randn(100)*0.5categories =['A','B','C','D']values =[23,45,56,37]fig, axs = plt.subplots(2,2, figsize=(10,8))axs[0,0].plot(x, y,'tab:blue')axs[0,1].scatter(x, y, c='tab:orange')axs[1,0].bar(categories, values, color='tab:green')axs[1,1].pie(values, labels=categories, autopct='%1.1f%%')plt.savefig('subplots.png')
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/AxENKPbXjqjxE6uqBVoBvkU9lN7E19sBsGc0IjgMjNHC7TZUzkVTDcQEgibUFibB05FpIOwpics7s81BZcjCLYE0w/640?wx_fmt=png&from=appmsg)
+![](数据可视化神器_matplotlib_images/img_003_604c0820bab9.png)
 
 #### 5）3D曲面图
 
@@ -86,7 +86,7 @@ matplotlib是Python的2D绘图库，支持生成出版级图表，提供丰富�
 # juzicode.com/VX公众号:juzicodeimport matplotlib.pyplot as pltplt.rcParams['font.family']=['YouYuan']plt.rcParams['axes.unicode_minus']=Falsefrom mpl_toolkits.mplot3d import Axes3Dimport numpy as npX = np.arange(-5,5,0.25)Y = np.arange(-5,5,0.25)X, Y = np.meshgrid(X, Y)R = np.sqrt(X**2+ Y**2)Z = np.sin(R)fig = plt.figure()ax = fig.add_subplot(111, projection='3d')ax.plot_surface(X, Y, Z, cmap='viridis')plt.savefig('3d_surface.png')
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/AxENKPbXjqjxE6uqBVoBvkU9lN7E19sBGlYlHjZVh2ZcIUZE8smV2Zjiavw15bIfuenDH1eToHB1S4rIo34gUHA/640?wx_fmt=png&from=appmsg)
+![](数据可视化神器_matplotlib_images/img_004_cde49cbe0240.png)
 
 #### 6）动态实时绘图
 
@@ -96,7 +96,7 @@ matplotlib是Python的2D绘图库，支持生成出版级图表，提供丰富�
 # juzicode.com/VX公众号:juzicodeimport matplotlib.pyplot as pltplt.rcParams['font.family']=['YouYuan']plt.rcParams['axes.unicode_minus']=Falseplt.ion()# 开启交互模式fig, ax = plt.subplots()x = np.linspace(0,4*np.pi,200)for phase in np.linspace(0,10*np.pi,100):    ax.clear()    y = np.sin(x + phase)    ax.plot(x, y,'b-')    ax.set_ylim(-1.5,1.5)    plt.pause(0.1)plt.ioff()
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/AxENKPbXjqjxE6uqBVoBvkU9lN7E19sByS0dibS6EsibZiclSkOt3Nru9fgoKNqRyHvJf4HWDkApocFPRTt2ENGLQ/640?wx_fmt=gif&from=appmsg)
+![](数据可视化神器_matplotlib_images/img_005_5f699a09b959.gif)
 
 #### 7）绘制阶梯图
 
@@ -106,7 +106,7 @@ matplotlib是Python的2D绘图库，支持生成出版级图表，提供丰富�
 # juzicode.com/VX公众号:juzicodeimport matplotlib.pyplot as pltplt.rcParams['font.family']=['YouYuan']plt.rcParams['axes.unicode_minus']=Falseimport numpy as npx = np.arange(20)y = np.sin(x /2)plt.step(x, y +2, label='pre')#默认where='pre'     #step画图方式plt.plot(x, y +2,'o--', color='green', alpha=0.3)#plot 画图方式plt.step(x, y +1, where='mid', label='mid')plt.plot(x, y +1,'*--', color='red', alpha=0.3)plt.step(x, y, where='post', label='post')plt.plot(x, y,'<--', color='blue', alpha=0.3)plt.grid(axis='both', color='0.8')#axis可以为'x','y','both'三种plt.legend(title='参数where:')plt.title('step画图 By 桔子code')plt.show()
 ```
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/AxENKPbXjqjxE6uqBVoBvkU9lN7E19sBtibGo5OpLgAXtKCxccsIGruYBUc5PwdqOvAsXogc8weHYiaXqLtBCBtg/640?wx_fmt=png&from=appmsg)
+![](数据可视化神器_matplotlib_images/img_006_25f9f2d5e84e.png)
 
 ### 总结
 
@@ -134,7 +134,7 @@ Matplotlib核心优势：
 
 \-----动动手指，bug敲起来\-----  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/AxENKPbXjqiadOLynjf4DjUj2YhapKXchklZNI4I80bkGZCed4B0ciaN9JibYlOzeyxaDmvRXhnlFTZBowrK8lgKA/640?wx_fmt=gif)
+![](数据可视化神器_matplotlib_images/img_007_53bb8f423bf7.gif)
 
   
 
@@ -142,7 +142,7 @@ Matplotlib核心优势：
 
 关注微信公众号"桔子code"，不错过更多精彩。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/AxENKPbXjqjPpmYA1JZBsPPPgpg7Uf6grcdOTyJjlTiaV6cnicaDGicicPdkCI8lU3eV4L3M6VpSVvSXaTXG4ibvMqw/640?wx_fmt=png)
+![](数据可视化神器_matplotlib_images/img_008_c60c2ed74ad2.png)
 
 **推荐阅读：**
 

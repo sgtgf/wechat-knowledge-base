@@ -3,7 +3,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/XBk06OFrHcR7zjGG1XCmgQ](https://mp.weixin.qq.com/s/XBk06OFrHcR7zjGG1XCmgQ)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icVUVTFlBCVVD8PfRibLSshCSibRmWHepdFOD2qh33jViaNicEvGlctlicQnhLP5Jct7MkrVLDNLQrZjM55kq7iaLBeDA/640?wx_fmt=jpeg)
+![](实测___Fortran中_4_种整数转换方法_images/img_000_a8c013774ab0.jpg)
 
 浮点数在编程中扮演着重要角色，但有时我们需要将其转换为整数。在Fortran中，这种转换可以通过几种不同的方式进行，每种方式都有其特定的用途和效果。本文将探讨Fortran中浮点数的整数转换方法，并结合实际算例，展示这些方法的应用。
 
@@ -34,7 +34,7 @@
 
 将输出结果汇总成如下表格：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVWDiaibQCexwZN8KJyguSj4FcfficehJWjicsz6M4sSIwMa53ibZgCEHDFia6ib04f6opGW5wlrRhZCHVF3A/640?wx_fmt=png&from=appmsg)
+![](实测___Fortran中_4_种整数转换方法_images/img_001_f676b96bd051.png)
 
 从结果中可以看出，
 
@@ -51,7 +51,7 @@
 
 Fortran提供了多种浮点数到整数的转换方法，每种方法都有其特定的用途。在实际应用中，选择合适的转换方法对于保证程序的准确性和效率至关重要。通过上述算例，我们可以看到正确使用这些转换函数的重要性。希望本文能够帮助读者更好地理解和应用Fortran中的浮点数整数转换。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icVUVTFlBCVVKPaBk6IMGvUnuicNQJxIo3KEorLicIia2iclYzr6GQ6yLEomn1XIT3VHvMZ7wpNMJicuH41Dib23myUwQ/640?wx_fmt=png&from=appmsg)
+![](实测___Fortran中_4_种整数转换方法_images/img_002_d981f1eb49d0.png)
 
 **FEtch 系统**是笔者团队开发的新一代有限元软件开发平台。只需按照有限元语言格式填写脚本文件，即可在线自动生成基于**现代 Fortran** 的有限元计算程序，从而大幅提高 CAE 软件的开发效率。欢迎私信交流。
 

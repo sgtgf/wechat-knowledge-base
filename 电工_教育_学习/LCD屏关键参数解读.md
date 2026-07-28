@@ -1,0 +1,130 @@
+# LCD屏关键参数解读
+
+原创 蜗牛 硬件笔记本 2022-06-01 07:30 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/6-ztmEWImlwpkHXYABU1QA](https://mp.weixin.qq.com/s/6-ztmEWImlwpkHXYABU1QA)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif "音符")
+
+  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjgSZ0VVm6yfvicU0gnlAGDGeaBBnD9EbxdkkDG1T1ppTErZV4PVakia3Z8uV2BXz5zlNiaagakGZHuBw/640?wx_fmt=jpeg)
+
+  
+
+现在很多电子产品都带有人机交互界面，都有显示屏来增强体感，比如汽车充电桩，平板电脑，电视，再到每个人都离不开的手机。
+
+  
+
+对于一般的要求不高的LCD屏，可能我们关注的点没有那么多，能正常显示就OK。但对于平板电脑和手机来说，体感非常重要，因此屏的很多指标就需要特别关注 。规格书中一般都会有哪些关键参数呢，一起来了解一下吧。
+
+  
+
+## 1、TFT-LCD
+
+我们一般用的屏，在规格书中的第一条，一般都会写上TFT-LCD。
+
+  
+
+TFT（Thin Film Transistor）即薄膜场效应晶体管。所谓薄膜晶体管，是指液晶显示器上的每一液晶像素点都是由集成在其后的薄膜晶体管来驱动。从而可以做到高速度、高亮度、高对比度显示屏幕信息。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjEVYy1FNkPzEiafcnSRK3Rlw7DS3S3m67DmlyqbRSuzpCegskpDudMicibohg5NEqcichRo850EiaQibUA/640?wx_fmt=png)
+
+  
+
+TFT属于有源矩阵液晶显示器，TFT-LCD液晶显示屏是“真彩”（TFT）。
+
+  
+
+  
+
+## 2、亮度brightness 
+
+亮度指画面的明亮程度。LCD有背光，背光是由串并联的发光二极管点亮形成。发光二极管的亮度一般用发光强度(Luminous Intensity)表示，单位是坎德拉cd，1000ucd(微坎德拉)=1 mcd(毫坎德拉)。  
+
+亮度不是越高越好，亮度越高常常会让人感觉不适，一方面容易引起视觉疲劳，同时也使纯白和纯黑的对比降低，影响色阶和灰阶的表现。因此在提高亮度的同时也要提高对比度，否则整个显示屏就会出现发白的现象。  
+
+  
+
+我们接触的产品，一般典型的亮度值在300-500cd/m2，一般在厂家的规格书里面会有说明。  
+
+  
+
+  
+
+## 3、像素pixel 
+
+我们看到的图像是由很多个小点构成，这些小点我们称之为像素，也叫像素点。
+
+  
+
+相同物理面积下，像素点越多，显示的图像就越清晰，像素点越少，显示的图像就越模糊。举个例子，一张人像照片，如果有2000万个像素点，可能连毛孔都看得很清晰，如果只有100万个像素点可能鼻子眼睛都会模糊，这就是用像素的多少来描述图片的清晰程度。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjEVYy1FNkPzEiafcnSRK3RlyfiaF4v1g8kNHWeqC8micd8gtyyNMdibxf2wwyL7aWaUrVgGIPFdBIW9Q/640?wx_fmt=png)
+
+  
+
+单位物理面积内，像素数越多，代表清晰度越高。
+
+  
+
+## 4、分辨率Pixels H x V 
+
+分辨率一般描述为M x N，M代表水平方向即横向像素数，N代表垂直方面即竖向像素数，两者相乘即为此图像的像素总数。
+
+  
+
+例如，一张1920X1080分辨率的图片，即代表横向有1920个像素点，竖向有1080个像素点，这张图的像素总数为1920 x 1080 = 2073600。分辨率说白了还是在描述一张图的像素总数，只不过是换了一种描述方法而已。 
+
+  
+
+## 5、色深
+
+色深即色彩深度，色深并不是指涵盖了多少种颜色，而是同一种颜色到底拥有多少种灰阶（可以简单理解为一种颜色的不同亮度）划分，色深的世界里“每一种颜色，都不只一种颜色”。因为每一种颜色都有好多个灰阶，单位是bit。
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_jpg/2vmCEf4iaGjjIv8NYJMtZHl9yH2gx8dv4iblfJJia3icOUXpF8jIM8fArR9KLsXiarickHWU1iaDxonAUSS0a5nXs9d8g/640?wx_fmt=jpeg)
+
+  
+
+比如一个8bit的显示屏，如果是单通道的话，那么就是每一色光通道都以8位元表示，那就是3个2的8次方相乘，等于2的24次方，也就是我们常说的“真彩色深”，其总色数达到了16.7M色，目前主流的显示器几乎都是采用的这个标准。
+
+  
+
+## 6、清晰度definition 
+
+我们一般在看电影或电视剧的时候，可以选择标清480P、高清720P、超清1080P甚至还有专门的4K（指4096P）。  
+
+  
+
+480P中480的意思是构成视频的每一帧图片的竖向像素数至少达到480，P是逐行扫描的意思。因为显示器都是对屏幕上的像素点进行逐行扫描，动态刷新的。
+
+  
+
+横向像素数达到4000左右就可以被称为4K屏，而不一定非要达到某个具体的数值，像4096 x 2160和3840 x 2160都可以称之为4K屏。
+
+  
+
+## 7、帧率
+
+帧，就是影像动画中最小单位的单幅影像画面。一帧就是一副静止的画面，连续的帧就形成动画，造成了运动的假象，如电视图像等。  
+
+  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/2vmCEf4iaGjjEVYy1FNkPzEiafcnSRK3RlEQib73ibKDr7FicOOwsibk3D67PqsvgliclcqtjNEXAc1nPYSUowYWX3YlQ/640?wx_fmt=png)
+
+  
+
+所谓帧率，指的是相机在1秒钟内拍摄下多少幅连续的画面，它的单位是fps，即 frame per second(每秒传输帧数)。众所周知，人的视觉系统对画面有短暂的记忆能力，在同一形象不同动作连续出现的时候，只要形象的动作切换速度足够快，观者在看下一张画面时，会重叠之前一张的印象，因此产生形象在“运动的幻觉”。
+
+  
+
+人类眼睛的视觉暂留现象是每秒24帧，所以理论上大于24帧就可以视为流畅。但是由于游戏画面的变化速率很高，所以一般是越高越好。如果开启垂直同步，帧数一般应维持在60左右。 
+
+  
+（以上图片来源于网络）

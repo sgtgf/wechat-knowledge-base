@@ -1,0 +1,84 @@
+# 三极管和MOS管下拉电阻的作用
+
+原创 硬件笔记本 2023-03-15 08:00 四川
+
+> 原文地址: [https://mp.weixin.qq.com/s/fGPTSySG7Vt7FL68ShRTrA](https://mp.weixin.qq.com/s/fGPTSySG7Vt7FL68ShRTrA)
+
+![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")点击上方名片关注了解更多![](https://mmbiz.qpic.cn/mmbiz/cZV2hRpuAPiaJQXWGyC9wrUzIicibgXayrgibTYarT3A1yzttbtaO0JlV21wMqroGYT3QtPq2C7HMYsvicSB2p7dTBg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1 "音符")
+
+  
+
+**关于三极管**
+
+简单讲解一下三极管，如果三极管工作在饱和区（完全导通），Rce≈0，Vce≈0.3V，且这个0.3V，我们就认为它直接接地了。那么就需要让Ib大于等于1mA，若Ib=1mA, Ic=100mA，它的放大倍数β=100，三极管完全导通。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tLe31Pvpmf9deT7UAIibTztcw1Qmdh5CibOILEjHSnCHUXv7jfck18libVZRYBM0vkIzz7Lic2pccmYxg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图1  NPN三极管
+
+  
+
+三极管属于电流型驱动元器件，因此一般在基极都会串一个限流电阻，一般小于等于10K，但是在基极为什么会下拉一个电阻呢？举例说明。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tLe31Pvpmf9deT7UAIibTztc0217u7ISRfX1oZDSzMvLibGJ1StFB8UzUqMlyiaILlibLgE68ib6Bnkb4w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图2  温度开关控制马达电路
+
+  
+
+如图是温度开关控制马达转和停，温度开关相当于一个按键开关。在B极串个开关，N管就能够做个开关管使用。图中马达是一个直流有刷马达，只要正极接通12V，负极接地，马达就开始转。
+
+当温度开关导通，回路I流过的电流的为  
+
+![](https://mmbiz.qpic.cn/mmbiz_png/4icyRNr5vPb3E5JhCyVz7wMjUpDQHHbMzgiaX6tCnYqZAOuseDwfR5MScD8Ob8NDJpiaKaAm6IPIxUd8Q9denFiccw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+三极管CE完全导通，Vce » 0.3V，这时候，马达两端的电压压降接近 12V,它就能够转动，因为三极管be的导通后阻抗远远小于2K电阻R2，所以电流大部分流过三极管；当温度开关断开，ib 就没有电流，ic 也没有电流。
+
+由于温度开关在关断的瞬间，三级管ib、ic上的电流并不能够一下子降到零，而是慢慢降到零，这是制造工艺必然存在的，在这段时间，三极管是工作在放大区，是最容易受到干扰。因此需要接个下拉电阻R2，这个电阻一是给三极管提供了个放电回路，二是为点A提供一个能量分散的通路。
+
+  
+
+**放电回路怎么理解？**
+
+如下图，三极管实际工艺制造模型，三极管BE、BC、CE之间分别有电容C1、C2、C3。这三个电容的存在一方面是我们不需要的，另一方面，又是工艺中无法避免克服的，是制造工艺过程中必然存在的现象。我们把这种电容一般称之为杂散电容，或者说是寄生电容。
+
+由于有电容的存在，三极管势必有延时。当ib没有电流时，电容C1开始放电，形成回路I，这个时候B点的电压从0.7V降到0V，工作在放大区，最容易受到干扰，在C1两端加个电阻R2，电容上的电一部分就会从电阻R2上释放掉，并且电阻阻值越小，电容放电越快。因此，电阻R2给电容提供了一个通路释放电荷，大大减短了三极管工作在放大区的时间。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tLe31Pvpmf9deT7UAIibTztcCUlFu5oETv6ZWa9Nnavk1RgxP1xDA2xl9R5eicWl95wwIYjibucPkklg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+图3 三极管寄生电容
+
+  
+
+**给能量提供一个分散通路怎么理解？**
+
+为什么说电阻 R2 为点A提供了一个能量分散通路。如图2所示，温度开关断开时，此时点A是悬空的，A点电压不确定，为高阻态（阻抗无穷大），容易出现误导通的现象，而且也容易受到周围环境干扰，比如静电、雷击等使器件永久损坏。
+
+当使用环境出现雷击，高压静电等情况，在点A下拉一个电阻接到地，大部分电流就会顺着电阻流入地，给能量提供一个分散通路。如果没有接这个电阻，当发生雷击时，由于A点左边阻抗无穷大，A点右边接三极管，阻抗相对左边来说是很低的，因此电流会全部往阻抗低的方向跑，流入三极管，造成电流过大，使器件永久性损坏。
+
+  
+
+**关于MOS管**
+
+具体可以看我之前的文章《[MOS管充放电原理》](http://mp.weixin.qq.com/s?__biz=MzAwMzMyODc5OQ==&mid=2247483685&idx=1&sn=3ad087f1e3c697e86c5bb9e7b0a31eb2&chksm=9b3d9f55ac4a164357fcd6270d6a2540ce3ba9d1f862db019e062c4034fcd975983569c9f99b&scene=21#wechat_redirect)，介绍的比较详细。
+
+**下拉电阻的作用有两个：**
+
+A. 防止在静电作用下，电荷没有释放回路，容易引起静电击穿；
+
+B. MOS管在开关状态工作时，就是不断的给Cgs充放电，当断开电源时，Cgs内部可能储存有一部分电荷，但是没有释放回路，MOS管栅极电场仍然存在且能保持很长时间，建立导电沟道的条件没有消失。在下次开机时，在导电沟道的作用下，MOS管立即产生不受控的巨大漏极电流Id，引起MOS管烧坏。
+
+![](https://mmbiz.qpic.cn/mmbiz_png/bsiaOicpwT9tLe31Pvpmf9deT7UAIibTztcP123vadOBeyTjOPjy3icKIh0AT0H8zFemZ4NicicHQRdTEpcuD1Mnog4Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+
+**推荐阅读▼**
+
+-   硬件精选文章
+    
+-   [EMC相关文章](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035870297278545920#wechat_redirect)
+    
+-   [电子元器件](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjI3NzMwOQ==&action=getalbum&album_id=2035859110969114626#wechat_redirect)
+    
+
+  
+
+后台回复“加群”，管理员拉你加入同行技术交流群。

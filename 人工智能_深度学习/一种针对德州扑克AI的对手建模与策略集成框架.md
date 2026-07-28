@@ -4,13 +4,13 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/nTLKCxyPMu9YfSOL-uE75g](https://mp.weixin.qq.com/s/nTLKCxyPMu9YfSOL-uE75g)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZfiag2lX90rBpQltwQfUUbWpdIKzoUH8QoVFtrfS79j0c2njXPPTdIiaA/640?wx_fmt=gif)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_000_778b0e965a59.gif)
 
 **点击蓝字 关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZfiag2lX90rBpQltwQfUUbWpdIKzoUH8QoVFtrfS79j0c2njXPPTdIiaA/640?wx_fmt=gif)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_001_778b0e965a59.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZrZMvnCjNcFyElUL93VsoKO3PxZ4F02OllfgrxnTGMficqyibhOiaOkHCQ/640?wx_fmt=jpeg)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_002_900c014dd423.jpg)
 
   
 
@@ -70,19 +70,19 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c210127?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZrsqBckxlNnmqWxZiaP9fJPRZy5hCfvCH5bVI4vwdpSL26GvRTWy8H1Q/640?wx_fmt=jpeg)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_003_1c8d724a8451.jpg)
 
 图 1  德州扑克游戏牌型大小规则
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZnRN9rLlyK8bu3bn91J9RWI7Emibb1dibbAk8jvnvsTWwb4dIvRo87SeA/640?wx_fmt=jpeg)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_004_dcc0cfaeb345.jpg)
 
 图 3  对手池策略空间与博弈风格类型定义
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZKzqjKlBFQRBpiaS6Axv4cS1jic4ZvM4XufUxLqWP24zZmVn1FF90jbew/640?wx_fmt=jpeg)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_005_47dda496f1aa.jpg)
 
 图 11  对打测评过程中博弈性能变化
 
@@ -94,7 +94,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c210127?viewType=HTML
 
 **作者简介**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZvM8pzuibfWsXzAQdzH206Etg167WS485RqOFiatiats9P2ZBWMMmv1JHg/640?wx_fmt=png)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_006_30c29ab2a011.png)
 
 **张   蒙**
 
@@ -102,7 +102,7 @@ http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c210127?viewType=HTML
 
 E-mail: acrida@163.com
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZwNGdiboavj4bn0pSdjW4sbS8vD9sic41zrsPZDvJ9SQibSicZvfJEyib1hg/640?wx_fmt=jpeg)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_007_d439e6188895.jpg)
 
 **李   凯**
 
@@ -110,7 +110,7 @@ E-mail: acrida@163.com
 
 E-mail: kai.li@ia.ac.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZbz5r5ERlIGiaBkwExl1dtyxFN4xQ0hOdUMEzN2ZIYgjzXUPf24zVibAw/640?wx_fmt=png)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_008_79d29924169a.png)
 
 **吴   哲**
 
@@ -118,7 +118,7 @@ E-mail: kai.li@ia.ac.cn
 
 E-mail: wuzhe2019@ia.ac.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZFfdicMkeKn22KvlqOJzP6vMHFyQVwqz1qMCe6iaFNc6OH81vYQqc8pPw/640?wx_fmt=png)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_009_0f7078f25d32.png)
 
 **臧一凡**
 
@@ -126,7 +126,7 @@ E-mail: wuzhe2019@ia.ac.cn
 
 E-mail: zangyifan2019@ia.ac.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZicvweNy0gSF2Jb7ERvbV6FNGvQ8rs98FhXhLkJ3GFSj4JGp4aggd0EA/640?wx_fmt=jpeg)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_010_6e4863551b28.jpg)
 
 **徐   航**
 
@@ -134,7 +134,7 @@ E-mail: zangyifan2019@ia.ac.cn
 
 E-mail: xuhang2020@ia.ac.cn
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZJDqEJFPc640eU3EMgQMJFApr8sEY68gNTY6N5ibnlYmPtSdPPjvpntw/640?wx_fmt=jpeg)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_011_553a707d8963.jpg)
 
 **兴军亮**
 
@@ -334,49 +334,49 @@ http://www.aas.net.cn/cn/article/id/15418?viewType=HTML
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZL0iaKic1fiaDxqfrgyPy7ozoREjwfz79BOFsf2LYyL7eefkEnoYy90zRA/640?wx_fmt=png)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_012_ebfa0f55304a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZgs2IWR7sgTTg1vdOhsOCbc9RDbeF94K0JqbmJub54rVDK3ruuFCUicQ/640?wx_fmt=png)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_013_0de79183e15c.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZb7vNv7iaQypK2x07Rr6ic5sic2wcIKcjgTdoCGfqjydxHlia4FtUtzafSw/640?wx_fmt=gif)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_014_e8309b813d62.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZb7vNv7iaQypK2x07Rr6ic5sic2wcIKcjgTdoCGfqjydxHlia4FtUtzafSw/640?wx_fmt=gif)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_015_e8309b813d62.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZJCTRKkyMsLwUxQX6yXM0AEsTa0uZB79gjjdDzticLtuaNBGZLDV9Zmg/640?wx_fmt=jpeg)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_016_d2f49e1d7d18.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZb7vNv7iaQypK2x07Rr6ic5sic2wcIKcjgTdoCGfqjydxHlia4FtUtzafSw/640?wx_fmt=gif)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_017_e8309b813d62.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZb7vNv7iaQypK2x07Rr6ic5sic2wcIKcjgTdoCGfqjydxHlia4FtUtzafSw/640?wx_fmt=gif)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_018_e8309b813d62.gif)
 
 **长按二维码｜关注我们**
 
 **IEEE/CAA Journal of Automatica Sinica (JAS)**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZb7vNv7iaQypK2x07Rr6ic5sic2wcIKcjgTdoCGfqjydxHlia4FtUtzafSw/640?wx_fmt=gif)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_019_e8309b813d62.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZb7vNv7iaQypK2x07Rr6ic5sic2wcIKcjgTdoCGfqjydxHlia4FtUtzafSw/640?wx_fmt=gif)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_020_e8309b813d62.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZc3GBqGiaFxBB5Bzoz41alvRYicjoibqqhYY5ghVq2RN8b42rK6RjoAFtA/640?wx_fmt=jpeg)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_021_f7832e71c5be.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZb7vNv7iaQypK2x07Rr6ic5sic2wcIKcjgTdoCGfqjydxHlia4FtUtzafSw/640?wx_fmt=gif)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_022_e8309b813d62.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZb7vNv7iaQypK2x07Rr6ic5sic2wcIKcjgTdoCGfqjydxHlia4FtUtzafSw/640?wx_fmt=gif)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_023_e8309b813d62.gif)
 
 **长按二维码｜关注我们**
 
 **《自动化学报》服务号**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZb7vNv7iaQypK2x07Rr6ic5sic2wcIKcjgTdoCGfqjydxHlia4FtUtzafSw/640?wx_fmt=gif)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_024_e8309b813d62.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZb7vNv7iaQypK2x07Rr6ic5sic2wcIKcjgTdoCGfqjydxHlia4FtUtzafSw/640?wx_fmt=gif)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_025_e8309b813d62.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZAxY3PTDaZW5Zpte141QBzexEib19vI3OZibWwYogEYK8BIjJNiaWdicT5A/640?wx_fmt=jpeg)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_026_a60a95fc7f19.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZb7vNv7iaQypK2x07Rr6ic5sic2wcIKcjgTdoCGfqjydxHlia4FtUtzafSw/640?wx_fmt=gif)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_027_e8309b813d62.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/47ibaBJyUH47n9er3d4KnzWsDgae8B2CZb7vNv7iaQypK2x07Rr6ic5sic2wcIKcjgTdoCGfqjydxHlia4FtUtzafSw/640?wx_fmt=gif)
+![](一种针对德州扑克AI的对手建模与策略集成框架_images/img_028_e8309b813d62.gif)
 
 **长按二维码｜关注我们**
 

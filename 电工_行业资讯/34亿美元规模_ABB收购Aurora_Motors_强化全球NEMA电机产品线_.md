@@ -4,14 +4,14 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/JQVcxP8-x3yQEEhVxtciQw](https://mp.weixin.qq.com/s/JQVcxP8-x3yQEEhVxtciQw)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sLB6yRHPNibY2p1IZCPD8ojhaZzicgjGhe4NDHr93cjPHzibO9mC2eVaOP2jNkUAickATHxicTLlmv6mA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\34亿美元规模_ABB收购Aurora_Motors_强化全球NEMA电机产品线__images\img_000_4c53e1cc3f55.jpg)
 
 
 来源：电机通
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/IZWdlvibHmj9r0hUSX4nXplQVL8Q0JRnS2fGdnas7G7ywEHiaDZUj19PFagsMreAkAcYKM168SWmN1blQ3Qg7a7A/640?wx_fmt=jpeg&from=appmsg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\34亿美元规模_ABB收购Aurora_Motors_强化全球NEMA电机产品线__images\img_001_79bb2d102613.jpg)
 
   
 
@@ -49,11 +49,11 @@ ABB宣布已签署收购Aurora Motors的协议。此次收购为公司带来了�
 # [华为都“活不下去了”！电机中小企业未来三年要怎么过](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247575025&idx=1&sn=800a15fe2572766ef1632371ee7475f2&chksm=cedfe435f9a86d23f050893e070245640fbc59fce832cb6264e6ecf8b6c43c0fe9a0c6565a38&scene=21#wechat_redirect)？
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\34亿美元规模_ABB收购Aurora_Motors_强化全球NEMA电机产品线__images\img_002_9967d1607b24.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\34亿美元规模_ABB收购Aurora_Motors_强化全球NEMA电机产品线__images\img_003_fb0ff5197498.png)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tMzMevYpPAySDyFiaafVt6hlnBk2MabwiahKl2h63picic7sVYg0g3DojZDAtHn0rMCIUhye6HKw5rdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\34亿美元规模_ABB收购Aurora_Motors_强化全球NEMA电机产品线__images\img_004_5591b15b40b7.png)

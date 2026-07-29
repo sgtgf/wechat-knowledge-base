@@ -8,7 +8,7 @@
 
 **关注我们**
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vyvdvAWIec3SO8vVjAWxibWvykjIO7ibxtpVoqKTkc4wShVT1wxpOZEbRZibdzYs1TWAsgPCxnuwNLA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247604627&idx=1&sn=088f72297c96fac8deab834e6782c326&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成_应用领域及工作原理详解__images\img_000_0cdbef7924ed.png)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247604627&idx=1&sn=088f72297c96fac8deab834e6782c326&scene=21#wechat_redirect)
 
 **来源：网络**  
 
@@ -18,7 +18,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cg2OzC4mnJXBt9g0X8iaCPXaC7OxicEic2JA844jR0ylNYPluXPbhEmCLpZnAIk2NYMRcGCnqA8hTXXw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成_应用领域及工作原理详解__images\img_001_f00c08a082a6.jpg)
 
   
 
@@ -30,7 +30,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ia6xz4YD3VLu0FBtIsnfSgcwf0RXpfIt9nDPK7vraMxvjoIZn7ceLDWic9asLfrtl9zMpwxFl54YEE9F59iayr7HQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成_应用领域及工作原理详解__images\img_002_348a1bfbad5c.jpg)
 
   
 
@@ -38,13 +38,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cg2OzC4mnJXBt9g0X8iaCPXarbt53utAa4SFkKskAVO1AB3ibTeXKeZer6jgdwqf5ofkWu3awfLicrBw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成_应用领域及工作原理详解__images\img_003_a0e96b54edfa.jpg)
 
 直流电机模型示意图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/9FT4EOoS5cg2OzC4mnJXBt9g0X8iaCPXaVrW5xqnglbW8gw0PnuZl19vnCgoaY9rgsX9WmEnMDo4o3rftLCicIfg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成_应用领域及工作原理详解__images\img_004_89f6593da7b6.gif)
 
 DC电机（有刷电机）的运转示意图
 
@@ -76,13 +76,13 @@ BLDC电机中的“BL”意为“无刷”，就是DC电机（有刷电机）中
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cg2OzC4mnJXBt9g0X8iaCPXa5STmaGJ7buADican0FRdDK5xaltod9zzcpkzYdIBOWYJ6gm3CCxwejw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成_应用领域及工作原理详解__images\img_005_652614f1975d.jpg)
 
 图1、无刷直流电机模型
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/9FT4EOoS5cg2OzC4mnJXBt9g0X8iaCPXaw6M5ut0HG2wpLnMn0U0sHEquZOvvQgoIAdooSebrOuIsklNFcRBIZg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成_应用领域及工作原理详解__images\img_006_07766a39cd50.gif)
 
 BLDC电机的运转示意图
 
@@ -126,7 +126,7 @@ BLDC电机的运转示意图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cg2OzC4mnJXBt9g0X8iaCPXaPFwO5EwnXWic2bDu1wE11qhDeatFT5SRmCFOy5iaSmcfsRYF2naud9GQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成_应用领域及工作原理详解__images\img_007_c6663eb5386e.jpg)
 
 图2：无刷直流电机转动原理示意图
 
@@ -136,7 +136,7 @@ BLDC电机的运转示意图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cg2OzC4mnJXBt9g0X8iaCPXaZ8mMXicMVicXc7aXur2icBPcKpaNAyvKickJKk4d2A22aNyUApwUowEX4Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成_应用领域及工作原理详解__images\img_008_cba93e7fab36.jpg)
 
 无刷直流电机结构示意图
 
@@ -218,7 +218,7 @@ BLDC电机的运转示意图
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成_应用领域及工作原理详解__images\img_009_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
 
   
 

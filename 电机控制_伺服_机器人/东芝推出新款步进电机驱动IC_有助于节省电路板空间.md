@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tbNsCFC0AHia37KF8iciapax1xHicVnLQN4FKqwxAqCXibgXqQ0e3aqvYQ26pvERgY4JibS8LYZOPWa5pA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\东芝推出新款步进电机驱动IC_有助于节省电路板空间_images\img_000_86070280ef99.png)
 
 
 来源：电机控制设计加油站
@@ -143,12 +143,12 @@ https://toshiba-semicon-storage.com/cn/semiconductor/where-to-buy/stockcheck.TB6
 
 如需了解有关东芝电子元件及存储装置株式会社的更多信息，请访问以下网址：https://toshiba-semicon-storage.com
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0stfSStzzDcbfsJbicnUlRKX8lZ5xOob5gHhNBgt33cniaxicjRhcoqUnDBgFoowtwgmpeiad3q5dddjw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\东芝推出新款步进电机驱动IC_有助于节省电路板空间_images\img_002_2a95e979a0b6.gif)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s0OaHsxVicqRwsd1jffsZ1SInziao432K25CLbwomI8aoRfBsD0ibko7MJkWIcoEm08ia03Vpey2IyxQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\东芝推出新款步进电机驱动IC_有助于节省电路板空间_images\img_003_a42af9525055.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\东芝推出新款步进电机驱动IC_有助于节省电路板空间_images\img_004_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
 
   
 

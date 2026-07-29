@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/QS75UPL5-1e1qw0ELvp45w](https://mp.weixin.qq.com/s/QS75UPL5-1e1qw0ELvp45w)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vE2ZIG5VErUiaic5Uovdb28y7P5QYtqjXS963OUGN1gZticMCCPchusnOMBhEuCvwJ9JdO7pugDP1XA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一台电机应该配多少个IO点__images\img_000_a02001b809a1.jpg)
 
   
 
@@ -40,13 +40,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9Eqk62sKS7zzS5OjIBqO0GsyXtYvA36K6M8Y4R59y7jcq8yoiaI9byJpDQKW9AuODJGicL57iaTMoW18Dg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一台电机应该配多少个IO点__images\img_001_c4da659fc316.png)
 
 （仅为配图）
 
   
 
-以下是热心电友给的帮助，看看你同意哪个呢？![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9Eqk62sKS7zzS5OjIBqO0GsyXCY7M67yH9icwmkdaZNwrkiaPxianuJ32bCwib1sY351ZOUO0gPX1uSlx0Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+以下是热心电友给的帮助，看看你同意哪个呢？![](D:\电脑文件\公众号知识库\电工_教育_学习\一台电机应该配多少个IO点__images\img_002_8e2c90811de1.png)
 
   
 
@@ -108,7 +108,7 @@
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一台电机应该配多少个IO点__images\img_003_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\一台电机应该配多少个IO点__images\img_004_e8e68bdfc1b3.png)

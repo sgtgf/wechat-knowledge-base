@@ -26,8 +26,8 @@ LME镍价：**29010**美元/吨，跌**480**美元/吨
 
 （1美元 ≈6.784500人民币，2023.1.28数据仅供参考）
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\LME铜价下跌__images\img_000_31a98b8e3167.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\LME铜价下跌__images\img_001_ec5921db28d2.png)
 

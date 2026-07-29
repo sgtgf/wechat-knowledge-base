@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ZPLW6sGHfxmY9DoMKNXfKQ](https://mp.weixin.qq.com/s/ZPLW6sGHfxmY9DoMKNXfKQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sMbBonyabbMJFFicNSPBJZxjIlcnpkUdwCQq9j2FX5HEZibS1X99sloHwDNtVbw2qc32ibmbdcVpaxQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\三台电机卖80多万_小米SU7_Ultra到底用了什么电机__images\img_000_2a1bf02851b1.jpg)
 
 
 来源：今日电机
@@ -15,11 +15,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bic7NEXbtHCXtiaLyW9ucb1owuQDXTxEfIn7Q9IKO29DhD9Rl4eQA311I9IFKmKdLMiamic3s0Gq3HeoiabJAmt1R0Q/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\三台电机卖80多万_小米SU7_Ultra到底用了什么电机__images\img_001_51d9eb5297a7.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bic7NEXbtHCXtiaLyW9ucb1owuQDXTxEfIG6b1L4YvbYfSTg0Ll5ycibXaw8rvLIOHybMfwDibmBrKeYNiafICByficw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\三台电机卖80多万_小米SU7_Ultra到底用了什么电机__images\img_002_b0859cc2f6a6.jpg)
 
   
 
@@ -27,7 +27,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/bic7NEXbtHCXtiaLyW9ucb1owuQDXTxEfISYiaYI9bz1icf02yLB8TIbEicbicgyHqCotmSVCYgwDc0dJvqOGUvN8C4A/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\三台电机卖80多万_小米SU7_Ultra到底用了什么电机__images\img_003_45d014e5c270.jpg)
 
   
 
@@ -37,7 +37,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/SYlC2M8Pzac6gp1VxOavviasXf4oGVgJS79sPLTA3B2f1Y3RSkjVSONk0Hb4bWnyfwYeajy8mYH490nTNbaWYPQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\三台电机卖80多万_小米SU7_Ultra到底用了什么电机__images\img_004_0ca22bc80c5d.jpg)
 
   
 
@@ -67,7 +67,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZmBgPlKTGd75H1NtdibVzMc2hn8zuyNHabxJOvra79tJ9RORVDWqwHocibOsAwBkRBEMxHDx5zjDofwjPaqawEcQ/640?&wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\三台电机卖80多万_小米SU7_Ultra到底用了什么电机__images\img_005_f1babe2bb4ea.png)
 
   
 
@@ -117,11 +117,11 @@
 # [华为都“活不下去了”！电机中小企业未来三年要怎么过](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247575025&idx=1&sn=800a15fe2572766ef1632371ee7475f2&chksm=cedfe435f9a86d23f050893e070245640fbc59fce832cb6264e6ecf8b6c43c0fe9a0c6565a38&scene=21#wechat_redirect)？
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\三台电机卖80多万_小米SU7_Ultra到底用了什么电机__images\img_006_9967d1607b24.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\三台电机卖80多万_小米SU7_Ultra到底用了什么电机__images\img_007_fb0ff5197498.png)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tMzMevYpPAySDyFiaafVt6hlnBk2MabwiahKl2h63picic7sVYg0g3DojZDAtHn0rMCIUhye6HKw5rdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\三台电机卖80多万_小米SU7_Ultra到底用了什么电机__images\img_008_5591b15b40b7.png)

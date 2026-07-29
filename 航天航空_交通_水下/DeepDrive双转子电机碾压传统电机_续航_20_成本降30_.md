@@ -6,9 +6,9 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0slLZrK8icrAxiasOzvBauyjAGpAZKhl6uicc6SuJN8icBNwhqTMvBBrO7DL7Pgyx0ZkaXuQreu6Lfh1A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\DeepDrive双转子电机碾压传统电机_续航_20_成本降30__images\img_000_fd15c4bf9c5d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\DeepDrive双转子电机碾压传统电机_续航_20_成本降30__images\img_001_d8cb52582ba8.jpg)
 
 
 来源：电动新视界
@@ -23,25 +23,25 @@ DeepDrive公司开发的是一种高效、高性能、低成本的双转子径�
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT463Pt9p3reuMicZibU8KrzENQUdzxl47gAvlBcJGv3wlshOHHov7IOPCQ/640?wx_fmt=png&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\航天航空_交通_水下\DeepDrive双转子电机碾压传统电机_续航_20_成本降30__images\img_002_0bbaac7cebfe.png)
 
 测试中的DeepDrive双转子轴向磁通电机
 
 双转子径向磁通电机系统整机系统DeepDrive的双转子径向磁通电机有两种结构形式，一种是可以用于轮毂的轮毂电机。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT4qYnViaTEb43I3MJUxwPIbXPqFwjiaics1VicU6aZ5ZpydTroG33Hd7XCjg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)DeepDrive双转子轮毂电机
+![图片](D:\电脑文件\公众号知识库\航天航空_交通_水下\DeepDrive双转子电机碾压传统电机_续航_20_成本降30__images\img_003_196b197f9b8c.png)DeepDrive双转子轮毂电机
 
   
 
 另一种结构形式可以用于集中驱动，电机为细长形。  
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT4EjJSK1qdGjWUxYaBsKZqfR1DIGJH3QjN2RibwwgOWeaia9HJFvwzvREA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)DeepDrive双转子集中驱动电机  
+![图片](D:\电脑文件\公众号知识库\航天航空_交通_水下\DeepDrive双转子电机碾压传统电机_续航_20_成本降30__images\img_004_78b87ded93cc.png)DeepDrive双转子集中驱动电机  
 
   
 
 两种电机设计理念是一样的，下面以双转子轮毂电机为主进行介绍。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT4QTEGYKlVWrWvdGWoot1M6206jx3X9IzUnqtTFYoHUicMc04sK8Y1RwA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)DeepDrive双转子轴向磁通电机RM1250效率map及外特性曲线
+![图片](D:\电脑文件\公众号知识库\航天航空_交通_水下\DeepDrive双转子电机碾压传统电机_续航_20_成本降30__images\img_005_680240bc4883.png)DeepDrive双转子轴向磁通电机RM1250效率map及外特性曲线
 
   
 
@@ -75,7 +75,7 @@ DeepDrive公司开发的是一种高效、高性能、低成本的双转子径�
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT4QvOq6QR09s4dhX0pN6nGacwDsMTDfowGllzZSVgIic8Oc4JnD1ZXGbQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)DeepDrive双转子轮毂电机定子
+![图片](D:\电脑文件\公众号知识库\航天航空_交通_水下\DeepDrive双转子电机碾压传统电机_续航_20_成本降30__images\img_006_15e1c7f02c95.png)DeepDrive双转子轮毂电机定子
 
   
 
@@ -85,7 +85,7 @@ DeepDrive公司开发的是一种高效、高性能、低成本的双转子径�
 
 转子为内外两层转子，磁钢分别贴于表面。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT4Iic9YibcmW1MLwOtpuFC0e0cBfLQyYic7bSKdyHZfDQbFXbWj4xwTYYiaQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\航天航空_交通_水下\DeepDrive双转子电机碾压传统电机_续航_20_成本降30__images\img_007_663146a35bbb.png)
 
 DeepDrive双转子轮毂电机转子转子
 
@@ -93,7 +93,7 @@ DeepDrive双转子轮毂电机转子转子
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT4skoCYAPibgdbak8aseSibo5fPbCUxqnnjNke3vmCmhBfDIrq7ezqibymg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)DeepDrive双转子轮毂电机转子-外转子
+![图片](D:\电脑文件\公众号知识库\航天航空_交通_水下\DeepDrive双转子电机碾压传统电机_续航_20_成本降30__images\img_008_a1775fabb9dc.png)DeepDrive双转子轮毂电机转子-外转子
 
   
 
@@ -101,7 +101,7 @@ DeepDrive双转子电机采用的磁钢不含贵重的重稀土镝和铽，这�
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT4r364qWdZdhKa1SQicRtJiboiclPy907J8nI6cCEL2sI7xyUDDgzceFtNQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)DeepDrive双转子轮毂电机转子-内转子
+![图片](D:\电脑文件\公众号知识库\航天航空_交通_水下\DeepDrive双转子电机碾压传统电机_续航_20_成本降30__images\img_009_ba85abcf8a1d.png)DeepDrive双转子轮毂电机转子-内转子
 
 控制器部分DeepDrive双转子轮毂电机的控制器集成在电机上，也就是圆圈所示位置。
 
@@ -111,7 +111,7 @@ DeepDrive双转子电机采用的磁钢不含贵重的重稀土镝和铽，这�
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT4xSGt3ianj2mp2jc6pgfZmLBLlicw4Roliaxp1JlO8GrnmOY8qd2Dib9Zog/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)DeepDrive双转子轮毂电机控制器
+![图片](D:\电脑文件\公众号知识库\航天航空_交通_水下\DeepDrive双转子电机碾压传统电机_续航_20_成本降30__images\img_010_daa3c0c6dbed.png)DeepDrive双转子轮毂电机控制器
 
   
 
@@ -148,17 +148,17 @@ DeepDrive驱动单元可以提供超过98%的最高系统效率。可帮助车�
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\DeepDrive双转子电机碾压传统电机_续航_20_成本降30__images\img_011_3ccc50bba2ef.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88HJkEmpYqlKiaC4tFrnTia7L7pjBnCvUZtV9MV1HRf7nRn8kPs7bKsmQQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\DeepDrive双转子电机碾压传统电机_续航_20_成本降30__images\img_012_bcb57d883039.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\DeepDrive双转子电机碾压传统电机_续航_20_成本降30__images\img_013_1862cf7fbcf8.jpg)
 
 扫码报名了解变压器会议
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6OxT5YrmvxSnbaaDeXF4bqovY9IfrC6SxJMBQtp4dnM1tPnlKziaSEUguw/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6Ox2gll6RtjpK3FFYmgTBOGo4FeTnVZtkL7ZlKEclXqTtZ7vtFY28R0ew/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\DeepDrive双转子电机碾压传统电机_续航_20_成本降30__images\img_014_ccd55559c531.jpg)![](D:\电脑文件\公众号知识库\航天航空_交通_水下\DeepDrive双转子电机碾压传统电机_续航_20_成本降30__images\img_015_56b163a836a8.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\DeepDrive双转子电机碾压传统电机_续航_20_成本降30__images\img_016_dac57d0b3024.png)

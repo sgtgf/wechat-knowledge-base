@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uXO3dXanLcBY9EajvVGEsibnqEWET6x8scWMSOKibmbOcxPMIQsnqib4ian5Cgmkzk5owW3411xEp4Gg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\当传统PLC上云之后_是否会引发工业自动化大变革__images\img_000_1d8a6e83a8ab.jpg)
 
 
 来源：网络  
@@ -31,7 +31,7 @@
 
 目前，云基站势头渐盛。日本国内大型通信运营商的高管曾指出，通信基础设施的构建可能会由“构建通信网”转变成“构建数据中心网”。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/29ICh41UtfSP45ot0wiasbulicGkhaIjpfbib0FtarkApZskhXT92a8kSN8QyjTA6zuyXSGkOvb9rHBUhuCAQy29w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\当传统PLC上云之后_是否会引发工业自动化大变革__images\img_001_81d8b5a45870.jpg)
 
 **对工业专网意味着什么？**
 
@@ -41,7 +41,7 @@
 
 这次5G工业基站的发布和成功验证，将5G专网的极致和确定性网络能力引入到工业控制系统中，对于深化5G与工业的融合，实现5G一网到底承载IT和OT域的全部工业应用，促进工业互联网的云化、无线化、国产化发展具有重要意义。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/29ICh41UtfTBdZjAMqTUW5kXibVtboqia9ibYyc5KITqKd0ic11eETkzmoa1umZe3vAKTZATAs3MomtiaUWs8Ww0HpA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\当传统PLC上云之后_是否会引发工业自动化大变革__images\img_002_05d101781f19.jpg)
 
 **在云化方面，5G工业基站方案将传统PLC硬件实体软件化**，并集成于基站算力中，可实现多个PLC云化集中部署，有效扩展PLC算力、提升部署效率、降低部署成本，成为工厂降本增效的新途径。
 
@@ -49,8 +49,8 @@
 
 在国产化方面，工业基站结合我国5G通信产业优势，为后续制定我国自主知识产权的工业协议，推进5G与工业控制的深度协同奠定了坚实基础，有利于进一步推动构筑我国“5G+工业互联网”，尤其是在工业控制领域的全球技术先进性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\当传统PLC上云之后_是否会引发工业自动化大变革__images\img_003_31a98b8e3167.jpg)
 
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\当传统PLC上云之后_是否会引发工业自动化大变革__images\img_004_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
 

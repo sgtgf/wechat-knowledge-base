@@ -4,14 +4,14 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/2-0TJtP3rFJE24SgVnuiVw](https://mp.weixin.qq.com/s/2-0TJtP3rFJE24SgVnuiVw)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tbEIibqxeWZ5oftfXb9IjNR1DictRq6DGSosJdxEe9NRDDib0mfG2aaRfcfiajDpj7P3JkzC43xeFJzQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_000_9048cc15bd31.jpg)
 
 
 来源：电驱动技术笔记
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/icrlIsZGPBvyokNic4JvGNA3jKsVNf1qetvQY78kokibWsFndypjOUicU3ERKwyy6kU62eeTEUUzqK8p07ib50pbZtg/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_001_e532dba355d8.gif)
 
   
 
@@ -23,7 +23,7 @@
 
 **应用拓展：**eVTOL的应用将从货物运输和人员运输开始，逐步发展到私人飞行器，最终目标是私人消费市场。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ov1du3Xyb8lf7l9fwicKCEBK8vE8KlfSz8m2tMN956ycHT5hDEL44YEtaicqcxZhLGdjoS7QK5rDx9GHIruvQ4yg/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_002_a0c139c012b6.png)
 
   
 
@@ -39,7 +39,7 @@
 
 **3）普及期（2035-）**：eVTOL将进入个人和家庭消费市场。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ov1du3Xyb8lf7l9fwicKCEBK8vE8KlfSz3TPulKFSGicHylojGdtmffXMRUO5MbSODsLz326XLqjE51jSBwDHIXQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&random=0.32433986002151993&tp=wxpic)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_003_7a32c9b1d6ba.png)
 
   
 
@@ -57,7 +57,7 @@
 
 3）或建立相应的基础设施，如垂直起降场、充电站和维护设施。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ov1du3Xyb8lf7l9fwicKCEBK8vE8KlfSz6e6qI4RKFefVejGPeeNVlrsN1nnXgw2e1jTJVXibhHMZeEvLh0B2Rlg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_004_72a74e8d1d9d.png)
 
   
 
@@ -73,11 +73,11 @@
 
 ✓ 螺旋桨驱动要求：必须承受来自不同方向的突发载荷。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ov1du3Xyb8lf7l9fwicKCEBK8vE8KlfSz26oibcOy4j0CT7AaARicibJCickMWonxAUQ5Zmv3QrlN9UdBM52icoETOCg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_005_00eb3eb97b72.png)
 
 无人机普遍使用无刷直流电机， 而**永磁同步电机**因其高效率和功率密度成为eVTOL的首选。eVTOL电机特点：低速高扭矩，高转速控制带宽，发展目标是提升功率密度，同时满足低转速、大扭矩、高裕度、良好散热和高效率的需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ov1du3Xyb8lf7l9fwicKCEBK8vE8KlfSzUXtD5JVyjnCc61eD5GcAyEJAnGbhhHhH3fB2UPibCPBUJpHKlG97HgA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&random=0.7051973356154995&tp=wxpic)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_006_31f0bc16415b.png)
 
   
 
@@ -91,7 +91,7 @@
 
 **非晶材料**：与硅钢相比，非晶合金的电阻率高、磁导率高、矫顽力低，这些特性使得它在高速电机应用中能够显著降低铁损。尽管非晶材料在理论上适合高速电机环境，但鉴于eVTOL电机通常工作在较低转速，非晶材料的优势在这一领域并不明显。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ov1du3Xyb8lf7l9fwicKCEBK8vE8KlfSzqMP5gYkts5zgItsnTQfzs82tRE6LKt6BeZ0HFPIyVIyiapwdYXbe4jg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&random=0.9181977304281592&tp=wxpic)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_007_f72de200c78f.png)
 
   
 
@@ -105,7 +105,7 @@
 
 卧龙电驱在资金、技术和规模方面具有显著优势，与其他国内电机制造商相比，它拥有先发优势。该公司与商飞合作，建立了航空电动力系统创新中心，致力于开发广泛的电动航空动力系统，包括为4座和19座电动飞机提供动力系统，构建了“3+1”航空动力产品体系。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ov1du3Xyb8lf7l9fwicKCEBK8vE8KlfSzuswLEw2M634zojFu2s9ibx07mhvzYIrG3THuksRykP1zSricEfLWQVOg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&random=0.41555967457475296&tp=wxpic)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_008_3d507a2f6005.png)
 
   
 
@@ -115,7 +115,7 @@
 
 电推进系统的操控和动力融合在适航认证中构成了一项重要挑战，因为它们可能导致飞行控制和推力之间的耦合问题，这在eVTOL、eSTOL和eCTOL的适航过程中尤为关键。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ov1du3Xyb8lf7l9fwicKCEBK8vE8KlfSzLVFYuH2VH1aI7b5k4jbsicdLtL4InsSTtjL8yW15vhI3LxvD1Yc6jgQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_009_09165eb2aa61.png)
 
 为了降低整机制造商的适航成本和技术难度，电机和电控系统等关键部件的独立适航认证正逐渐成为一种行业趋势。通过为这些通用部件制定CTSO，可以减轻制造商的适航负担，从而促进航空产业的发展。
 
@@ -123,7 +123,7 @@
 
 在中国，eVTOL的电机制造商目前通常与整机一同进行适航认证。国内的电机和控制系统的CTSO草案已经完成，目前正在民航局进行审查，未来可能会根据情况推进后续的适航安排。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Ov1du3Xyb8lf7l9fwicKCEBK8vE8KlfSzBqd7tI6jhVqtfkFDfE5y08MlJYSuoNRvo3ANo5BBTqubjUcwdhxxug/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_010_fa733f44165b.png)
 
   
 
@@ -137,9 +137,9 @@
 
 通过在线整体后充磁技术，可以确保零件在充磁过程中保持稳定的磁场分布，提高产品的性能和可靠性。在使用了这种技术后，电机的磁场分布更加均匀，减少了因磁场不均而产生的额外能耗。同时，由于整体充磁的工艺稳定性好，产品的故障率也大大降低，为客户带来了更高的价值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxWqYfhty8bewzoU2IxjSb9hHWtKLIp8BC8pcAn4qy3HEJout5Kiau3P5aQcIHNFPsFyEYGcBne9t3A/640?wx_fmt=png&from=appmsg&random=0.05503727850169371&random=0.17295287246475066&random=0.706288387341989&wxfrom=5&wx_lazy=1&wx_co=1&random=0.8319604709607324&random=0.6309638654915617&random=0.3909574954611239&random=0.10072137448636642&random=0.7242829786633533&random=0.08988098306097503&random=0.46354878487542495&random=0.8970612680618892&random=0.6440366305530871&random=0.3650556779006098&random=0.3485250775192825&random=0.6034975344792795&random=0.4330216101012099&random=0.18082771253942553&random=0.3474935191382271&random=0.4587644576486276&random=0.9577299929685197&tp=wxpic)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_011_e53614aad024.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxXicM4euRWTZ8B9j4MkO5oxRHulTUs6PXCw8ibPcU4YpHEuZNBLwT5wRyAXlbnyIIYdgF6aRZZibefnA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&random=0.36836552796222954&random=0.9149343108870225&random=0.515738418512901&random=0.2143364903549756&random=0.11194011623096167&random=0.9463646036903244&random=0.05829286210706064&random=0.31865019904786474&random=0.35109416191465814&random=0.7294363460492392&random=0.8083512830666733&random=0.10748630538745574&random=0.44169536806132736&random=0.6780795704759537&random=0.6321345199842352&random=0.21809390536433315&tp=wxpic)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_012_14b1d32c14ae.png)
 
   
 
@@ -151,22 +151,22 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxWqYfhty8bewzoU2IxjSb9hicYaIL6cfPicNkfE0TwoTVIGvj8NATVuY0Ik1u447ibAXJ3NbcgicpwG6w/640?wx_fmt=png&from=appmsg&random=0.8980714572143911&random=0.0377420636179675&random=0.5887382083732386&wxfrom=5&wx_lazy=1&wx_co=1&random=0.19148257845532668&random=0.4342399318153116&random=0.12879832779483014&random=0.2434930371133468&random=0.6455781659760893&random=0.6767947258922908&random=0.47603845465747674&random=0.4978188966505557&random=0.5707902197385613&random=0.891063437116365&random=0.3016430953224263&random=0.4061292649547601&random=0.047142442925218964&random=0.45936717593840304&random=0.9637444914477469&random=0.07568906527725905&random=0.7850437296343475&random=0.7219738337079062&tp=wxpic)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_013_a5d0998b9e9a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxWqYfhty8bewzoU2IxjSb9hNnOCXxDGuhS58bTBib7BFUeyZ4wQeQ21C0wyeibB3iagP9lby9a65B62Q/640?wx_fmt=png&from=appmsg&random=0.9374212045300774&random=0.6569587652369691&random=0.678873844303558&wxfrom=5&wx_lazy=1&wx_co=1&random=0.5163248261125266&random=0.03402700732576114&random=0.4296967558351663&random=0.8846465759753388&random=0.17179414274988392&random=0.4129658752681964&random=0.17831977002660593&random=0.8660645094552657&random=0.7716598538820567&random=0.401528460539752&random=0.17222736569829133&random=0.3693684300063964&random=0.7570330902697036&random=0.3715295026038925&random=0.6741995897296247&random=0.5062523971769519&random=0.4114326119118068&tp=wxpic)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_014_15bd1a293615.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxXzo7Kj2QLnSG3uiaq7FoUtwcnmUDJ9Cy7f42uSFvnQevhTR3j2GN2AlACCxxRbu9YslU1SVtxJFgw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&random=0.8898274111038351&random=0.1720512265239338&random=0.6002033759700456&random=0.6949254785639667&random=0.750881470055311&random=0.8442615404995779&random=0.6988565803395892&random=0.6118178658200673&random=0.523702003770613&random=0.7824399818702514&random=0.4766205675779407&random=0.4331846644997166&random=0.2528179350295445&random=0.5457484280698774&random=0.8234854253090367&random=0.4950968287301909&random=0.8224343075626583&tp=wxpic)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_015_77fc0f207941.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxXzo7Kj2QLnSG3uiaq7FoUtwcgjrPrY8ZmOz19kGK0WhBhMPQAr43ic08enjSjCEpl2OVnxmIIQJb8Q/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&random=0.5612772592749704&random=0.34750646179655775&random=0.47266156163519235&random=0.13850694192576474&random=0.931274297481623&random=0.5861771291061701&random=0.7667353577100309&random=0.0855489172696986&random=0.006723315517623618&random=0.812282369222022&random=0.39013269068401946&random=0.02608659433889926&random=0.6628101062268164&random=0.5708220333538849&random=0.21321097424408775&random=0.508741794670547&random=0.8822776498346103&tp=wxpic)
-
-  
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_016_57f3b3cd3be4.png)
 
   
 
-
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tpibX2T64L9GPvkgfmNpsERLcwbXfNlW8Ke2WCEdemIEOqp9iaaBbpm6wteXWZqOWZCqh8yfeYfQicg/640?wx_fmt=jpeg&from=appmsg)
-
-扫码报名了解变压器会议![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tpibX2T64L9GPvkgfmNpsERLBAj6iaI79wGosSSx5ibk4mlibB7wSFcecluQibpV7t8ZV5NtvyUeXGMZw/640?wx_fmt=jpeg&from=appmsg)
+  
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_017_fb0ff5197498.png)![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_018_8037bba82dbb.jpg)
+
+扫码报名了解变压器会议![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_019_e27a7e44b9aa.jpg)
+
+
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\一文梳理_eVTOL_电机现状_images\img_020_dac57d0b3024.png)

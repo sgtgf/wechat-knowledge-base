@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/9SoOZ9kK2aHQcSQiZqFreA](https://mp.weixin.qq.com/s/9SoOZ9kK2aHQcSQiZqFreA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vnX1lWHoFibqUI1eNcg9vflNcVlSB8kBgOtVA8Ygm35kunaly4sHD18CNj06oiabQHJB1eodW2qulg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么4kW以上的电动机用三角形接法___images\img_000_4ba30b821cde.jpg)
 
   
 
@@ -29,7 +29,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9EqmrkboCVAL6RnuROVlWawdjuvoEs7Dzv9ZJE3agh2Cq6H34M4U5gYcrW9ia1Ehc9jibq9fntbic1Bq4g/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么4kW以上的电动机用三角形接法___images\img_001_bfa00499c942.png)
 
   
 
@@ -39,7 +39,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9Eqk8ibh3roXLKejPdxGhRspIoIl7JlEnJHgzYKiaNiaibiaiaWeIkfgWLnuWAmSuprEkOxXzDKvcwibn3JZzQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么4kW以上的电动机用三角形接法___images\img_002_b63090eb4da6.png)
 
   
 
@@ -51,7 +51,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9Eqk8ibh3roXLKejPdxGhRspIoGKEYH4rJXd9SphQ1t6lq7VsGPtEnqNmicWeYxicDSvdsmw4NclyUYfvQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么4kW以上的电动机用三角形接法___images\img_003_63a3a705f336.png)
 
   
 
@@ -63,7 +63,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9Eqk8ibh3roXLKejPdxGhRspIo3Qkqd3cHicE0l33aRWn02cwC6d5MGpzDgUpicibomVstrTRXQ4NqyA38w/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么4kW以上的电动机用三角形接法___images\img_004_77775d9dc3a2.png)
 
   
 
@@ -75,7 +75,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9Eqk8ibh3roXLKejPdxGhRspIoRcRKUibb8tw5XbRqaDQs5Vzia2ndDVW46wC9GjeCruqnuDmcpgEmYacQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么4kW以上的电动机用三角形接法___images\img_005_7d8bfd7f1870.png)
 
   
 
@@ -91,9 +91,9 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9EqmrkboCVAL6RnuROVlWawdj6wEX0TmsfEDXbPdHo89ZpRfeiazYz4ic1O6zYGTI4YS6ym3DRFV3QU8g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么4kW以上的电动机用三角形接法___images\img_006_633a7bf11caf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9EqmrkboCVAL6RnuROVlWawdjBnm4PsEYXNaIXZNqOpOmUagLicBD1ceVz1QL2iaQGyMCCo4qmQay6JiaA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么4kW以上的电动机用三角形接法___images\img_007_3ad6af4cd9e3.png)
 
   
 
@@ -111,7 +111,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9EqmrkboCVAL6RnuROVlWawdjdFALFkDUaypRF76dfzpDPoZIl5iaUq19dJMHK95kibwgNQITHr9ib9s0g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么4kW以上的电动机用三角形接法___images\img_008_dd24b3c56c95.png)
 
   
 
@@ -123,9 +123,9 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9EqmrkboCVAL6RnuROVlWawdjYfAon5VwbsEibB3NgLKaNu8oNEb8kQ3riaR2I1O6dB3Hygnst7e5O6xA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么4kW以上的电动机用三角形接法___images\img_009_d4e70f4016b9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9EqmrkboCVAL6RnuROVlWawdjoFKI7RDmADibbQEYEs9ltusz46jM1ymKBnfmd5icnsCsGxpKXYcSwJYw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么4kW以上的电动机用三角形接法___images\img_010_076984254565.png)
 
   
 
@@ -140,7 +140,7 @@
 例如电源的线电压为380V，电动机定子绕组的额定相电压为220V，则绕组必须接成星形；如绕组的额定电压为380V，则绕组必须按成三角形。只有这样，才能保证各相绕组在其额定电压下工作。
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么4kW以上的电动机用三角形接法___images\img_011_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\为什么4kW以上的电动机用三角形接法___images\img_012_e8e68bdfc1b3.png)

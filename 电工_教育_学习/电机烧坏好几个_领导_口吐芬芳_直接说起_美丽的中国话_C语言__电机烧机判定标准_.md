@@ -8,7 +8,7 @@
 
 **关注我们**
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vyvdvAWIec3SO8vVjAWxibWvykjIO7ibxtpVoqKTkc4wShVT1wxpOZEbRZibdzYs1TWAsgPCxnuwNLA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247604627&idx=1&sn=088f72297c96fac8deab834e6782c326&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\电机烧坏好几个_领导_口吐芬芳_直接说起_美丽的中国话_C语言__电机烧机判定标准__images\img_000_0cdbef7924ed.png)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247604627&idx=1&sn=088f72297c96fac8deab834e6782c326&scene=21#wechat_redirect)
 
 **来源：电机通**  
 
@@ -18,7 +18,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VQTzO3WbbI6RqrK0YVianIF8mCsjcTDya4E3nbNicHMMicAicB45JOn9NmGOSujaWXia6sOF99eD9f9MWrlO6iaYaPDw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机烧坏好几个_领导_口吐芬芳_直接说起_美丽的中国话_C语言__电机烧机判定标准__images\img_001_9128e2e92b3a.jpg)
 
   
 
@@ -36,7 +36,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VQTzO3WbbI6RqrK0YVianIF8mCsjcTDyan8beS6cEZ86ibXOY4iauhIbJ438kJ6U3DxtR7HBQI5LiarbBxR6an87FQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机烧坏好几个_领导_口吐芬芳_直接说起_美丽的中国话_C语言__电机烧机判定标准__images\img_002_64f8d54d4953.jpg)
 
   
 
@@ -78,7 +78,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VQTzO3WbbI6RqrK0YVianIF8mCsjcTDyapVUHN5jeFs9h4FlnuL7A5aA0D2FOfS7wF5rFWUoDjQh0X58OdeS0aw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机烧坏好几个_领导_口吐芬芳_直接说起_美丽的中国话_C语言__电机烧机判定标准__images\img_003_c5cf9ddf1115.jpg)
 
   
 
@@ -112,7 +112,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VQTzO3WbbI6RqrK0YVianIF8mCsjcTDyaMQRiaXuFqgwE2CraR0K92lFTADblVdfqGnP7fb6iaR88gdnkgicianXKVw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机烧坏好几个_领导_口吐芬芳_直接说起_美丽的中国话_C语言__电机烧机判定标准__images\img_004_86d0a281d593.jpg)
 
   
 
@@ -138,11 +138,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VQTzO3WbbI6RqrK0YVianIF8mCsjcTDyakJLzK887yV7icszibK7aYXhib9HxY32829jibMIXZhOuUicV8NKkOMHJoCA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机烧坏好几个_领导_口吐芬芳_直接说起_美丽的中国话_C语言__电机烧机判定标准__images\img_005_0c6433a8d655.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VQTzO3WbbI6RqrK0YVianIF8mCsjcTDyakIGZY7blK1opr9xU5pxWnDt8693WVvWgOj6BJEvF0xe99YjN20WIEg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机烧坏好几个_领导_口吐芬芳_直接说起_美丽的中国话_C语言__电机烧机判定标准__images\img_006_64ae2571679b.jpg)
 
   
 
@@ -164,11 +164,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VQTzO3WbbI6RqrK0YVianIF8mCsjcTDyaIrk3DwESiaunjNiaJMuvyW2D1oKpPyh8ic0vpqkyv8EnEnibUaBueEcN7g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机烧坏好几个_领导_口吐芬芳_直接说起_美丽的中国话_C语言__电机烧机判定标准__images\img_007_00c30907efb3.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VQTzO3WbbI6RqrK0YVianIF8mCsjcTDya9sjK4iauTlN4Yg4HEN7kUbKcAXmufMaxxqjl5EIiaCOe3sfjHAzPyHYg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机烧坏好几个_领导_口吐芬芳_直接说起_美丽的中国话_C语言__电机烧机判定标准__images\img_008_7b43018c3866.jpg)
 
   
 
@@ -192,13 +192,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VQTzO3WbbI6RqrK0YVianIF8mCsjcTDyaiam2ehhtqRiat0NXfdLUjWVDtjESibZ8SgtCnLlqDQESWKUrw7wewbVXg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机烧坏好几个_领导_口吐芬芳_直接说起_美丽的中国话_C语言__电机烧机判定标准__images\img_009_9c98a5c37245.jpg)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VQTzO3WbbI6RqrK0YVianIF8mCsjcTDyaHY7hdGLunHvKaHDiarHc19vib5kuwcia105Dl3xCxnIJUgMVqdvvIT4hA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机烧坏好几个_领导_口吐芬芳_直接说起_美丽的中国话_C语言__电机烧机判定标准__images\img_010_65f2351b86b0.jpg)
 
   
 
@@ -216,7 +216,7 @@
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\电机烧坏好几个_领导_口吐芬芳_直接说起_美丽的中国话_C语言__电机烧机判定标准__images\img_011_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
 
   
 

@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/hAgmlCypdwRANfF2fEQAHQ](https://mp.weixin.qq.com/s/hAgmlCypdwRANfF2fEQAHQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vnX1lWHoFibqUI1eNcg9vflNcVlSB8kBgOtVA8Ygm35kunaly4sHD18CNj06oiabQHJB1eodW2qulg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\直流电机h桥驱动方式有哪些_images\img_000_4ba30b821cde.jpg)
 
   
 
@@ -15,7 +15,7 @@
 
 在现代工业控制系统中，直流电机因其出色的速度和位置控制性能而得到广泛应用。其中，H桥电路作为一种常见的电机驱动方案，能够实现电机的正反转及速度调节。今天，我们就来深入探讨H桥电路的三种基本驱动方式：受限单机、单极和双极模式，并分析它们的工作原理与应用场景。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/GJ0wqfRCxtuqka7HVdgHq0HDlKxibQLGDBPou9iazePpOiakiaMehf0Ec0ao63XSjovv6K3KsjEVllaQFaic6qSAakA/640?wx_fmt=png&from=appmsg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\直流电机h桥驱动方式有哪些_images\img_001_eea60f2986a4.png)
 
 电机电枢驱动电压极性是单一的，这意味着它只能通过改变PWM控制信号来调节电机的转速。这种控制方式的优点在于其简单性，因为只需要对一个MOS进行PWM控制即可实现电机的调速。然而，这种控制方式也存在一些缺点。
 
@@ -32,7 +32,7 @@
 总结来说，受限单机、单极和双极模式各有千秋，它们都是H桥电路驱动直流电机的不同策略，了解这三种驱动方式的特点和应用，对于电机控制系统的设计和维护至关重要，它们就像是工匠精心打磨的工具，能够帮助我们更好地驾驭电机，完成各项复杂的任务。
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\直流电机h桥驱动方式有哪些_images\img_002_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\直流电机h桥驱动方式有哪些_images\img_003_e8e68bdfc1b3.png)

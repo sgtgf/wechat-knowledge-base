@@ -16,7 +16,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xq3e4397Upprs7vguIXU303jhCKbxHICCWFsJP3CefRgmeYYicO5zhKKOtQCw8mPP8JwvELeQICUhAVD63KWjfA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB完成收购西门子低压NEMA电机业务_images\img_000_3f0c6a1ecdcc.png)
 
   
 
@@ -43,5 +43,5 @@ ABB是电气化和自动化领域的技术企业，致力于实现更可持续�
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB完成收购西门子低压NEMA电机业务_images\img_001_ec5921db28d2.png)
 

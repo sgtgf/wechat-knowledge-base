@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/HhaQaflGVSJApuhVi6KtTg](https://mp.weixin.qq.com/s/HhaQaflGVSJApuhVi6KtTg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tx2UUQMiaekzttE3Wyxwxqichzmk6TPhblJtseMFwghh73Pa6c70fwC3cjxBB0SSibjlQnuDXqr3cVA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\PLC工程师都应了解的3种伺服电机控制方式_images\img_000_fce3ac30e4c2.jpg)
 
 
 来源：机械自动化圈子
@@ -13,7 +13,7 @@
 
 伺服电机速度控制和转矩控制都是用模拟量来控制，位置控制是通过发脉冲来控制。具体采用什么控制方式要根据客户的要求以及满足何种运动功能来选择。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9Eqka0EOSUqCLjrkHBzZlg2TLCLOib5d21iabHKAc4tURLcIhTyyKTrrZW9GuMicz3DTUBEviaVmwrscEZA/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\PLC工程师都应了解的3种伺服电机控制方式_images\img_001_724200a03653.png)
 
   
 
@@ -131,7 +131,7 @@
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\PLC工程师都应了解的3种伺服电机控制方式_images\img_002_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\PLC工程师都应了解的3种伺服电机控制方式_images\img_003_e8e68bdfc1b3.png)

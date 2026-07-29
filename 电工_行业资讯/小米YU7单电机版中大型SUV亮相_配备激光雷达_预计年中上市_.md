@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ZejCckiw8aFDdBXIiPM-CA](https://mp.weixin.qq.com/s/ZejCckiw8aFDdBXIiPM-CA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tbEIibqxeWZ5oftfXb9IjNR1DictRq6DGSosJdxEe9NRDDib0mfG2aaRfcfiajDpj7P3JkzC43xeFJzQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\小米YU7单电机版中大型SUV亮相_配备激光雷达_预计年中上市__images\img_000_9048cc15bd31.jpg)
 
 
 来源：第一点动网
@@ -27,7 +27,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0u5g4WGInBUssOjjlFzf15uRhiaaqia5Bksac1OAI7x8qibbqzAKXaf7sYodnu6ib7CTLotxytmuwBCjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\小米YU7单电机版中大型SUV亮相_配备激光雷达_预计年中上市__images\img_001_7a00479bbf76.png)
 
   
 
@@ -41,13 +41,13 @@
 
 动力方面，小米YU7单电机版搭载了一台最大功率为235千瓦的电动机，最高时速可达240公里每小时。该车型配备的磷酸铁锂电池不仅提供了良好的续航性能，还在减重方面表现出色。与双电机版相比，单电机版的整备质量减轻至2315公斤，这一设计有效提升了车辆的能效表现，为消费者带来了更具吸引力的驾驶体验。总体而言，YU7单电机版在动力性能和续航能力之间取得了良好的平衡，满足了不同用户的多样化需求。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0u5g4WGInBUssOjjlFzf15uHsaBysTATQe96o8I83aqvjOSwRtQdntRIgCiahWO0Z0JaHrW6UY8KVw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\小米YU7单电机版中大型SUV亮相_配备激光雷达_预计年中上市__images\img_002_5e14f89a3729.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0u5g4WGInBUssOjjlFzf15urzCe9mOcyxaUYFVy59uyzmU5HYzXUQGMS35ZWJ2EgUm2rWeUc7icVbg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\小米YU7单电机版中大型SUV亮相_配备激光雷达_预计年中上市__images\img_003_b156321c79a1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0u5g4WGInBUssOjjlFzf15ueHVaibquSNN8xHamAXhfibhjhtHe2iazQBbqc7Kv8TBSt0ibr3vg8icPZxQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\小米YU7单电机版中大型SUV亮相_配备激光雷达_预计年中上市__images\img_004_f2ae32a1b7aa.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0u5g4WGInBUssOjjlFzf15ujTElCKIyYDsyht2DicI2GSauaW8Zf5bfIYOE29qdSOKQKreb8nUlFEA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\小米YU7单电机版中大型SUV亮相_配备激光雷达_预计年中上市__images\img_005_2dcfe625bcf1.jpg)
 
 来源：第一电动网
 
@@ -81,17 +81,17 @@
 # [华为都“活不下去了”！电机中小企业未来三年要怎么过](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247575025&idx=1&sn=800a15fe2572766ef1632371ee7475f2&chksm=cedfe435f9a86d23f050893e070245640fbc59fce832cb6264e6ecf8b6c43c0fe9a0c6565a38&scene=21#wechat_redirect)？
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\小米YU7单电机版中大型SUV亮相_配备激光雷达_预计年中上市__images\img_006_3ccc50bba2ef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88HJkEmpYqlKiaC4tFrnTia7L7pjBnCvUZtV9MV1HRf7nRn8kPs7bKsmQQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\小米YU7单电机版中大型SUV亮相_配备激光雷达_预计年中上市__images\img_007_bcb57d883039.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\小米YU7单电机版中大型SUV亮相_配备激光雷达_预计年中上市__images\img_008_1862cf7fbcf8.jpg)
 
 扫码报名了解变压器会议
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sQNLaA0qhowhVdIXXfDRdJpgO1KpyEeKg6MJQZExj5bicNFrgnKwqlRXeeRRrv1HMeYNKvGFEKyxg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\小米YU7单电机版中大型SUV亮相_配备激光雷达_预计年中上市__images\img_009_44a5e81b140f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sQNLaA0qhowhVdIXXfDRdJ16S6nvQamhIcxMazj3J5ib014iauia0y30dcKCM4bOHwlh7mQicWNxFebA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\小米YU7单电机版中大型SUV亮相_配备激光雷达_预计年中上市__images\img_010_545b70785fa4.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\小米YU7单电机版中大型SUV亮相_配备激光雷达_预计年中上市__images\img_011_dac57d0b3024.png)

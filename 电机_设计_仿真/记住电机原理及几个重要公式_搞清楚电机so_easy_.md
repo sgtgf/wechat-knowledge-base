@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0teiceibxaxXjXW1A56HF7tkg1BqF80Fy26bEAcYgkwymmYr8esIUc8xHrJXFogdcvjAtgMicfQLJOLA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\记住电机原理及几个重要公式_搞清楚电机so_easy__images\img_000_2a1ae17a00a1.jpg)  
 
 **来源：****电力知识课堂**
 
@@ -56,7 +56,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/1iaZ3MP0A6GcMNgs444ia96K650GeddUsTpDbykt4ZzvEctrlR83BRtvicqe72mtTlUtHrDKX3SdXkZatOLl1Tnmg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\记住电机原理及几个重要公式_搞清楚电机so_easy__images\img_001_a610c3eaa9f7.jpg)
 
   
 
@@ -84,7 +84,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/1iaZ3MP0A6GcMNgs444ia96K650GeddUsTwcuTznKXxSArHa2CCDJ1vricwKffXY6D2XH8ZzUt6Kl2yfwj5yCxTJw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\记住电机原理及几个重要公式_搞清楚电机so_easy__images\img_002_73ccf343afe0.jpg)
 
   
 
@@ -108,7 +108,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/1iaZ3MP0A6GcMNgs444ia96K650GeddUsTP9ribCvme5QtyEspmxNcXGt8Wau9Zf8ml7uoYBw7mULJGDd5rfY0bxA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\记住电机原理及几个重要公式_搞清楚电机so_easy__images\img_003_d122d39d5770.gif)
 
   
 
@@ -130,7 +130,7 @@
 
 **电机的其他部件**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/1iaZ3MP0A6GcMNgs444ia96K650GeddUsTjqugz6U7gZqo8KYP5ajlM2NibiarkJnXv71kpP2Uset3LIefDxRgicsxQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\记住电机原理及几个重要公式_搞清楚电机so_easy__images\img_004_deca1fcd7d02.jpg)
 
   
 

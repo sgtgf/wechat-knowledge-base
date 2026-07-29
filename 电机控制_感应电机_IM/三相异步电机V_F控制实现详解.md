@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Vno4heD63msSGAnKTcqtuQ](https://mp.weixin.qq.com/s/Vno4heD63msSGAnKTcqtuQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sJibYo1mjjlBUy3ZgNmrzLy9yFB55M3ia3QbhTHkPD89jpIuyCLbLz50mBiaPaJlTXvbMzevSff3vsw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_000_c09be187dbee.jpg)
 
 
 来源：ServoMan
@@ -15,7 +15,7 @@
 
       VF控制整体框图如下图所示，
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5XqENia3afvR2ojcD1jQ3Nu5ibaoibibBYVoGagSK9XuFiaZBC2XvT2PgXIL7g/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_001_fc335b053ce8.png)
 
 图 1.1
 
@@ -27,7 +27,7 @@
 
       该模块的作用就是为了实现电动机的平滑变速控制。试想如果我们将电动机从200rpm变速到1000rpm，如果不加斜坡函数，电动机会一下子从200猛涨到1000，很突然，为了让电动机慢慢的变速到高速或者低速，我们添加此模块。这个模块有三个接口，一个输入TargetValue，两个输出SetpointValue和EqualFlag。**软件工作原理是**：比如我设定一个TargetValue为100,而此时我的SetPontValue是0，那么两个数值不相等，SetPontValue小于TargetValue，SetPontValue就要进行增操作。当然每次增加或者减少的步长自己设定，最好是设定最小单位1或者更小，打个比方，如果设定为15，那么SetPontValue到达90的时候，再增加一次是105，SetPontValue大于TargetValue，又会减操作，来回震荡，电动机不稳定。我们还是以1来讨论，因为试验中我们设定的1每中断一次，SetPointValue就会加1 （减1），这样中断100次才能到目标值，如果觉得时间太短，可以设置一个内部延时，来统计中断次数，比如中断20次，SetPontValue加1。这样，当我们设定好TargetValue时，会平滑的去靠近它。它的实现方式是一个结构体，在后面讲解时，每个软件模块都是一个结构体。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5XqscmSLYXKrdWTqogvibMbKAicmmWTvQLvibkIpdkQ8Yrp44I125HYHvGGA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_002_ba065e7ff5fc.png)
 
       结构体中，\_iq我们已经定义为long类型的数据，因为在软件模块中，所有的数据都是采用IQ格式进行的。试验中，我采用的是IQ20格式进行计算的。IQ格式是为了提高计算精度，IQ是这样运算的，\_IQ(0.5) = 0.5乘以2的20次幂。20是我自己设定的，当然，你可以设置成任何次幂。我们分析一下上面的结构体，TargetValue是目标数值，RampDelayMax是内部延时，RampLowLimit是最小输出，RamHighLimit是最大输出，我分别设置为\_IQ(0.0)和\_IQ(1.0)。
 
@@ -127,19 +127,19 @@ E/f≈U/f= 常数 (1-6)
 
 在本次试验中我采用的补偿曲线是这样的：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5XqWRb54hibQr5KxVLEwEJiaCytexepdVDfIspESH6UhHTF3poT3XPFtHVA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_003_7536734736a5.png)
 
 图 1.2
 
       就是在频率低于10Hz时，供电电压稳定在75V，这样在低速的时候，电动机的机械特性比较硬。当然上面默认的是逆变器的供电电压是380V。但平时实验室，实验室供电时220V，所以我们还需要将上面的特性曲线改写称如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5XqBseiapbnHdXwpG8IVm9CYxu77mwib77cvMrfKwMtE1bLWc4yB9uic2ngA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_004_55c9f8daf53d.png)
 
 图 1.3
 
       到这里我们大家应该就明白了为什么不只是单单控制频率，而是同时要改变电压了吧。在此模块中，利用软件来构造图1.3所示的曲线就可以啦。该模块的结构体如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5XqzZFOIlojdicoKFtXHzic1Z82GgF7ibFGICYy1WbiaUoTlSjjMHYjzXaJibA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_005_f6744951e2a6.png)
 
       按照图1.3的曲线图来解释这个结构体，LowFreq就是图1.3中的10Hz，HighFreq就是30Hz，FreMax就是50Hz，VoltMax就是220V，VoltMin就是75V。
 
@@ -149,15 +149,15 @@ E/f≈U/f= 常数 (1-6)
 
       此模块结构如下：
 
-**![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5Xq7859OYY7PmRHQv7Nq5tIXFPJ0vtHtBiagDAFOom9kcEZtWrzUgaiaMpw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)**
+**![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_006_efdf21c1b969.png)**
 
       可以看出，该模块有三个输入，三个输出，输入分别是：Gain，OffSet和Freq。**Gain是前一个模块的电压输出**，当Gain等于0时，输出波形幅值为0，当Gain等于1时，输出波形幅值最大。Freq决定了输出波形的变换频率。OffSet设置偏移量，此处为0即可。输出为Ta，Tb，Tc。这三个量的输出类似于正弦波，可以看出，经过该模块，可以产生类似于模拟正弦波的波形，再通过PWM控制电动机。输出波形如图1.4和1.5：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5Xq52cfnFyHFJvPKvVoLo4DUBryFsPoHLe0JqylJmZib9Rj9nd9SNsyDCg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_007_e9f14ef37506.png)
 
 图 1.4
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5Xq48ibaCgJcqWg1uNpJV9FM0nKxV8t4wZtVfFkvEM2yj13rYPuOyUJGww/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_008_0d00455f4d52.png)
 
 图 1.5
 
@@ -165,45 +165,45 @@ E/f≈U/f= 常数 (1-6)
 
       我们前面讲过，逆变电路两端的供电电源是交流电经过整流之后的直流电DC。逆变器的示意图如图1.6所示：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5XqSaAASuJXZiceiajVzlXcYOCMAx0132mFu2f9GIicg3SQQ5PXWjmkX95Bw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_009_a3c656506ecf.png)
 
 图 1.6
 
       对于上面的开关管，我们用a，b，c来表示，1表示关闭，0表示打开，因为a和a’不可能同时关闭，所以知道了a，b，c的状态，就知道了a’，b’，c’的状态了。a,b,c一共有八种组合状态，电动机的接线方式为星形接线，其线电压VAB，VBC，VAC，相电压VAN，VBN，VCN以及直流母线电压VDC见图1.7。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5XqxBX5jQTLIibfQPfDcIgJyrAYDNE6AMPP8xa6fPFTyGoszCWgfxB3yGg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_010_7325fd5c8fd0.png)
 
 图 1.7
 
       上面是三相相差120度的A,B,C三个坐标轴，为了便于分析，我们可以将其变换成相差90度的两个坐标轴(d-q轴)来分析，这个变换叫做clark变换，变换公式如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUSAzEckK4s27P26rcEDsym5Yx0AAuZc9ZSPqtUHvzkSmBAWJFtsJK4FVACSxfn5R3Hhf5DFgxmryw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_011_f13ec5140b04.png)
 
       为了更形象的说明这种变化，我们拿两幅图片来说明，图1.8是相差120°的三相电流，图1.9是相差90°的两相电流模型。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5XqU0t1DYbu9bwMUUnerjRtTUrxfWfMNxgPialribziaM57qY78PJibL4JGQA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_012_0136272742a2.png)
 
 图 1.8
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5Xq3XPTqe5rDXwRK4Bo493mW4l0gFzUNg84RqG7Mtzq3TtNEZAUaK3DSg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_013_9f4e3ae756ba.png)
 
 图 1.9
 
       经过clark变换之后，a，b，c三相开关的开关状态和Vds和Vqs的数值之间对应关系如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5XqQsvoCkc8nuiabyhaRuCsL0xIegO4iblE3Pjurdrf6O9tL1qoTsp3zfxg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_014_143cfd8dc262.png)
 
 图 1.10
 
       虽然a，b，c有8种组合，但是全0和全1不会使电动机转动，称为**零扇区**。所以一共有六种组合状态，这6种组合状态分别对应6个扇区，U0(001)表示(c,b,a) = 001时对应U0扇区。扇区如图1.11所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5Xquj4eOTJ8ESicJSHteZZmiaSTa8sDEdpVJaVNQwZJKc3ibrjQLQwxZyNCw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_015_a872acd21a11.png)
 
 图 1.11
 
       每个扇区的电压大小如图1.12所示。它的大小已经被最大相电压所归一化。我们知道当母线电压是VDC时，那么线电压也就是VDC，那么最大的相电压就是VDC/√3。那么由表1.10可知道，基本扇区的电压大小是2VDC/3,那么被相电压归一化之后变成2/√3。合成电压的大小和所处扇区由上面表格中的a,b,c组合来合成。例如合成电压处于扇区1，也就是U60和U0之间，这时候，合成电压的大小和角度可以由U60和U0来组合，但是也可以由dq两个相互垂直的电压表示，只是表示方式不同罢了。我们通过下面的一幅图片来说明这个公式的推导：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5XqAy7ibwXMEdhtJCHHJnz2wnIIXsYAum8InUETssx5ibiaiamemQvwmq8n3w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_016_59a53ad1758d.png)
 
 图 1.12
 
@@ -217,17 +217,17 @@ V\*\= MVmaxeja = dxUx + dyUy + dzUz
 
 M是调制参数，Vmax所使用的相电压。将V\*分解成两个扇区的表示形式为：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5XqhpMLX0SADDicnI9PvxyRQibGwbJXXEtuFibqBQZyria7lh47vFA3K0edHA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_017_042c443de3be.png)
 
   因为电压已经被相电压归一化，所以Vmax = 1，我们知道|Ux|和|Uy| = 2/√3，可以得出：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5XqOhrZtKFGwUibz85p5vribY22XosGml3qMwlHSFSIA7A374TWFI0gxlTw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_018_acb6cf8aa642.png)
 
       这个公式可以应用到任何扇区，因为我们知道了α和M，就可以求出dx和dy，问题是我们怎么得出M和α呢？其实这里的M就是我们所输入的参考电压增益Gain，当**Gain = 1**的时候，是**满调制**，电动机供电电压达到最大。那么α怎么的出来呢？我是这样实现的：在初始化的时候将α的数值设置为零。我们使用T1周期匹配中断来执行电动机驱动程序的，中断频率为10KHz,我们已经知道了电动机需要的频率Freq，那么旋转角度的计算公式是这样：
 
 α=α+ Freq\*50\*2\*π/10K,当Freq = 1的时候，也就是电动机在全速运行，那么α每秒钟走过的角度为：100π，说白了就是50圈，即电动机供电频率是50Hz，正好和我们的交流电频率一样，当然如果电动机允许，可以提高Freq来提高电动机供电频率。这样，我们的α数值可以像打点一样做旋转运动，响应的合成电压矢量也就跟着转，产生旋转磁场，驱动电动机。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5Xq8UrKzpKEsfDcTba4o8eqicLV3hic97h954lkWLPSjHKpCnX4pxNLGqOg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_019_5bd9822e593f.png)
 
 图 1.13
 
@@ -241,7 +241,7 @@ Tc = T - Ta
 
       如果我们将第一项用T1来表示，即：T1 = (T – dx –dy )/2，那么Ta,Tb,Tc的表示在下表中给出了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xXA9hI7SeUQOHA96IXhWQuruicmNnj5XqicUPdmT5Xz8KMow1dpl96ckTfnN7PziagJ2tTOC0WYkc5g2nv4V5ItaQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_020_1a8f956203fd.png)
 
       当我们根据α判断出所处的扇区后，根据这个表，可以得出Ta，Tb,Tc的比例数值，乘以周期后，可以得出CMP1，CMP2和CMP3的数值，我们更新一下就OK了，这样可以产生近似正弦波的波形啦。**一定注意**：这里的Ta,Tb,Tc是一个小于1的比例数值，这个比例是相对于T的。T是定时器的中断周期。
 
@@ -285,7 +285,7 @@ Tc = T - Ta
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_021_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\三相异步电机V_F控制实现详解_images\img_022_e8e68bdfc1b3.png)

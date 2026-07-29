@@ -16,7 +16,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/hXib6lHJ92DmI4X1qTTBFNlBqDVSlC7AfAKvJibeeGYWXBGPL1eavMddpUTLTwgM4ukonssbtGuaLjSGUAUXorOA/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川技术收购韩国SBC_加速精密传动领域的战略进程_images\img_000_3ff1808f50fc.jpg)
 
   
 
@@ -24,7 +24,7 @@
 
 INOVANCE
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/icTdbqWNOwNSEaZjJoUWHchkTW5xmXAhGf5iaqjvAZFP3kjbfnGyVNZnyKEI9Vs1PYkPe6ibuNbQ9DkFn6ICE6Q9N3bGHBgRficM/640?wx_fmt=svg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川技术收购韩国SBC_加速精密传动领域的战略进程_images\img_001_405bc974ba9f.svg)
 
 “汇川精密丝杠+SBC直线导轨”，承继30年的技术底蕴，产品强强联合，为行业打造更具竞争力的直线传动解决方案；通过引进、吸收和优化高精度直线导轨技术及装备，有效解决国内高端装备的国产化需求；
 
@@ -87,10 +87,10 @@ SBC公司产品主要包括：滚珠直线导轨（Ball Guide）、滚柱直线�
 [【重磅】5部门发布最新电机能效准入水平！虚标能效将被重点打击整治！](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247535908&idx=3&sn=6eec1347ec795a83176cc4f901ec55fa&chksm=cede0ce0f9a985f64ce0e07697e68c6ddb191072645aa6d8de6370bcd597bb610675d2897b02&token=66697538&lang=zh_CN&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uJ0iaMsib71XrGfnh5nZZTzZrO66PbGjcmwiblddCq5SI7BLRuCkxIzUK9eopgL6Sesuxj3EwODicv4g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川技术收购韩国SBC_加速精密传动领域的战略进程_images\img_002_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川技术收购韩国SBC_加速精密传动领域的战略进程_images\img_003_057ea6bf47e1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川技术收购韩国SBC_加速精密传动领域的战略进程_images\img_004_31a98b8e3167.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川技术收购韩国SBC_加速精密传动领域的战略进程_images\img_005_ec5921db28d2.png)
 

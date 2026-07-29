@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0teiceibxaxXjXW1A56HF7tkg1BqF80Fy26bEAcYgkwymmYr8esIUc8xHrJXFogdcvjAtgMicfQLJOLA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_000_2a1ae17a00a1.jpg)  
 
 **来源：哈尔滨工业大学 博士贵献国**
 
@@ -16,79 +16,79 @@
 
 **文末有完整资料获取方式！**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLVfic3eiarWO5liameBJD2zyIp8YC4YZRKAGQpN9IJGHjZ1ibxNLKZjJVZA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_001_abc9eca9220c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLD24MKaLc0iaftWZj7kWkT0QrMXTUgBn3XYBrSsbTtFNKiaItOeOgUGIA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_002_d3b5cab0cf3f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLEcBZWHsMtbXQLweqWuhtLsMrqt9u6WEalc0eOWEcXOtpSXn81SibCqg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_003_7f6deb6fda59.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLdAVgIkDNJ5O9uyYC9CWGYh9RUJDwCiakAnn7SibAjSJxkFhib7ib1GPq6g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_004_10a7b7c578d5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLOysYVUk1mKvwT5wOf82dqQiaCm6YnriaFyMHVyHzq2q3NetFv6NfqYXg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_005_23ad02f05f3d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLgvdf3GdWMCG3CvWoFF4iaMxhicW8vAQvDQOKk8Wb9SDoE8bwdicowgluQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_006_e112f25b248e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtL8uWSjliciceNibJuTnY3ryfKevh3laXXEwGMLBKtaga0ZBSzz02cnQw2g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_007_af7ff23047ae.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLnlVyPsmICQomtEericics95iaMEtiaX9NQjnfFEQUOcdJCJmdJSA85MtSQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_008_fa526723b654.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtL5nsd7vWF8Vhl3JwialkVGRwAtwe06Zjaiaa8b0cRk8WH9t1CORVHsT8Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_009_c4c257666149.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLH158cd9xgFf961VYDfVoZx2dnmpjeQ1cicA9vyBQZmjFhaGFyvGNXHQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_010_5cc45fb8769d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLLbqjF85q3jPQhvXJGKdR36yGONrPzFbHCfmBjibHq2oQicrS4v2YKtHg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_011_f0e07805b141.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLA6EYhkJyyCy80NVznmtCN2icWfQ70gfUibGbfwPia9v6NpNSFmDpjE0Mg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_012_f1a0db525cc9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLtvbLrcV0ibvgWPb2WllYYxpWfzb6g2CResI7z7FLB838kntrtEwIeNg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_013_ca0287953b97.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLF8o1YZuzmJCUicXty4cqO5jZBsNY83UNCm6CbMKFNEukSvdG4X9GYiag/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_014_5130c883adc3.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLzvibmpE3ickAWlrgBiaiajkAmuNC35jibZcicoicISx3UgUz3PhakglIPKKIw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_015_db54c18d0093.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLPGib113uicgmJkA7ibpvg2noJ5BBYib2JOW6DqTCepEbybJXHjHGSJvnDA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_016_7463ccf10efd.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLKrPcQjLkCM7gTmdf8cln5iazNZIXyuoanMty32aOic9TcydZYC67E0iag/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_017_f03b791ad2df.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLdpdWibiaDdWxNmcIOHeaVef7aNfuIoZJE7CJd88Txst0UFEsOibWAibbdw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_018_8e8f2903ada5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLt4jkD60R3iaoJGXVuhsgo8m8ymKicsxbKqO06Ts0R54Al708vTkCsXIg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_019_58641cc917ad.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtL1ynlGakhhxnnYiara8deRUl53XOlG1Wb60wxBrfU10Eor0PGdgPMaGw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_020_8a56a1401310.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtL6CMwKhBdcWlsvM1zUsibQ8BOlmhGdb9iaxSRfoGmyBx75YjsVuztrZgQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_021_0106b2e75853.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLSiamSP0dkMzdJnhz3l6WEexbl43BwibTGSWQicTmbVn5wjmymAiaNkAuKQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_022_41ae25661da4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLv6hicraBqF0QmxofjKARNKU25OeiaWTyOB34y0hCQic88E3dFP6fzibWicQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_023_0eb1e71cf0a5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtL0gVc2HfUsJkQyn9WBalhEVK4BibkNs4tyNy1eiaFlJt2GnB3IL9QlZxQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_024_a4368c655c1a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLk4iahFdzyK6VrSdtMk5YgtokSlnMVnObKCo9ekQIIKfIAjjyeUmseJA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_025_f1aad2632d4e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLu2odBCWibXeFQXhOArejGXpnd9pDTPsCYHTZKIt32Hd3yrtOWWia9MuA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_026_82760cafb1ac.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLonepwssCdMTgms9xKUUhvjjHZT6iavBibCX0jmLRic3cZwTuHia54R3veQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_027_b89dc7772c99.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLAiapic5D49ib66KFNwPS9e7Nicuey7Tr0pN8sX3D6fAG0EeAxyQNaxRpBg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_028_7f5563663b9f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLc4ypzvRBiccCk4jU0vVRXM17hW3mxZn6BDfddyxIbgxOc2iauJf1icJQA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_029_3480b583a7a4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtL70FxUmaD9A0AawfibQStJl8EK4FGe4hOuMaS4w73mUeOz9hxmicPzulw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_030_24fd52362fbf.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLjjnnY0ybsMXCFclMxatBDxhkhRBBTP3PQMoKewf5eOBb4gRCABCQTw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_031_1dbe135b17d0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLyVj4JFILTYE8bM3h6FC4wL9ZA1gGkkly95y1Cr01NYlL6IZdSiaiaGVA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_032_1ec771d5416a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLnsibu88d2QZ4pFFPwELMyaU6SzXpyicAB07o5iceku4bRtwNfePaXLEdg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_033_491a13692d48.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLzftOQhlURDfI0Ww2YAib7tKKoag7lNG386YvchlSkcfGN6Gb1FuALww/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_034_17023e1ac3b1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLVGbsIEW5XwBYLUiaUROBnOz2qv9GCExywpabdcpibK3rdFMr6wPnPAxQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_035_b830eeca79ac.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtL4Z3BsDLQD7b9ibibVCUTZVOsuDyWEZ9dv3IQWMZ36GzGibGU0PAiac33AQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_036_0fd19a69a9b1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7MzEghTp31VSLH0D7MAtLia2uJW33teLTPXjfcpAnBlUZq8yuMhrNvKuHU5C3s7aBMDblib2xPzeg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_037_0ee441ebc109.jpg)
 
   
 
@@ -100,7 +100,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbKpNn0fSdakyibfILD48SjKvpB2D74dVDWQA7QhHtibv7Tqkfy0bfoOjg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_高速无槽永磁电机设计_images\img_038_103649f2287c.gif)
 
   
 

@@ -6,7 +6,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vgs97DnCfgz39UztTsg6cibJ9ibWEXTJHgdhm4qRvpACAmicDupX05p24oJk2G4OCMwRdcZxV0F2TsQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_000_75b3f5622a48.jpg)
 
 
 来源：EDC电驱未来
@@ -25,7 +25,7 @@ AC是大小和极性（方向）随时间呈周期性变化的电流。
 
 电流极性在1秒内的变化次数被称为频率，以Hz为单位表示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWQTMwqribfbmgJJnb91vgATwhicIQkuty3uYPlcfvCnLFr6Gpe9tbo64w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_001_95d96bbec8da.jpg)
 
   
 
@@ -35,14 +35,14 @@ Direct Current（直流）的首字母缩写。DC是极性（方向）不随时�
 
 ①流动极性（方向）和大小皆不随时间变化的电流通常被称为DC。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWt2Trcbj4Foks93kYwaSJzyicMrm70w71dicLeBCMnMic4hDGvzyLH8y2A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_002_890841200348.jpg)
 
   
 
 ②流动极性不随时间变化，但大小随时间变化的电流也是DC，  
 通常被称为纹波电流 (Ripple current)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWPK2ibNOPMSoKJxpRAXD0Upr72Fl5icRhX0HHaSt0CL1fFHUEdnVwq4Fw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_003_2b83c8ea6103.jpg)
 
   
 
@@ -62,7 +62,7 @@ AC/DC转换器是指将AC（交流电压）转换成DC（直流电压）的元�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWbAPSf8LNybsa4kYcbb0fsibgBYr3C5ExWYsFW0lyJ877EOxBvZAWIicw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_004_608398c8cb20.jpg)
 
   
 
@@ -85,7 +85,7 @@ AC/DC转换器是指将AC（交流电压）转换成DC（直流电压）的元�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWy3lSibPaOMyXSWjwEZgMsyne8a39alqWJWXhOMWWRXfMfrhq5ia9wE5Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_005_f80c242d182f.jpg)
 
   
 
@@ -112,7 +112,7 @@ AC/DC转换有变压器方式和开关方式。
 
 【变压器方式的电路结构示例】
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWTZFLjEIialoXE75yfrUngiaQqtqwb0DumCEJEnqeiaictRxmL0uvzVVKIw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_006_a4588492bf78.jpg)
 
   
 
@@ -123,7 +123,7 @@ AC/DC转换有变压器方式和开关方式。
 
 【变压器方式的波形推移】
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWYX3ibm6uibrB2uvIeDoiafRM50VVAicQX0SrJ3SaHQQvbpw43xUL2icdgEg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_007_fc215182fa0e.jpg)
 
   
 
@@ -133,7 +133,7 @@ AC/DC转换有变压器方式和开关方式。
 
 【开关方式的电路结构示例】
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWh1iaDrf2qEzjzC74bBt9CudVQnamDq3T1AelMbQYGNbWQAvUqU0cDCw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_008_44696b47efa6.jpg)
 
   
 
@@ -149,7 +149,7 @@ AC/DC转换有变压器方式和开关方式。
 
 【开关方式的波形推移】
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflczRPIUh7FwxdcVVkpY6UW01a9QZiaPcyWKiaqkxxRd9kVicFNmKiabKldLl5ROsdhSsRgzJaEL0sFEg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_009_74fdb2463ba9.jpg)
 
 在二次侧利用整流二极管对方波进行半波整流，之后用电容器对其进行平滑，并输出直流电压。
 
@@ -167,7 +167,7 @@ AC/DC转换有变压器方式和开关方式。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWo5ABGCy6eIBjDP3MIqK3ouwrEnRicbsIcuoJCl0p0UqHtqDE39Fjy2g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_010_40437958628a.jpg)
 
   
 
@@ -181,7 +181,7 @@ FB控制电路检测实际输出的该电压值是否达到规定的目标电压
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWRDibQvMtgbsNVAOL2Van0sBs2TeCK2zotOsa9FTyj5tCX2jbAT1mH5g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_011_73edcaede669.jpg)
 
   
 
@@ -207,7 +207,7 @@ FB控制电路检测实际输出的该电压值是否达到规定的目标电压
 
 周期恒定（PWM控制）时，即使ON/OFF时间比有变化，其次数在单位时间内也是恒定的。因此，自身功耗量也是恒定的，轻负载时这种转换漏电流造成的损失会导致效率降低。故此，在使用电流少的情况下，通过频率调制（PFM控制）将周期拉长、变慢，从而减少单位时间内的ON/OFF转换次数，以减少损失。这种技术就叫做轻负载模式。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWlMljGL57We4qABe1iaffvhX8orfjV1qFMicZx3EG84grFzpBm1zic7Zjg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_012_3fe762261243.jpg)
 
 【PWM方式和PFM方式】
 
@@ -234,9 +234,9 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
 
 它常被称为线性稳压器或开关稳压器等，以转换方式的名称命名。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflczRPIUh7FwxdcVVkpY6UW22sfGMXd5owPrtwpzStYHhBOPzRib6FuF9HzOLWp7vzSWSJ5C0GCwSA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_013_d20fe1f639f8.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaa3AhnaTkdUmhVqNTZCjxdblVGyBZLgJX9OAUn4JHPGsSUj735oPvibWrbKlmde4qRfpndOfECjQ5iatia7zkicVkQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_014_6373d3ca743c.png)
 
   
 
@@ -250,7 +250,7 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
 
 因此，需使用"DC/DC转换器"转换为所需的电压并实现稳定化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWyTxMMsQM250T78YNFXFKHgV08EouHSAHv6hHbHcIZDwp3llROqGUxw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_015_2ccab4fea36d.jpg)
 
 通过DC/DC转换器实现电压稳定的装置被称为电压稳压器。
 
@@ -272,7 +272,7 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
 
 【电源IC种类】
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTflczRPIUh7FwxdcVVkpY6UW92h5dNkawnkuysryk1aT8LyEUn7SvQErcFykv0iaf0cKibvaSkas7HGQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_016_264b20c28315.jpg)
 
 **线性稳压器和开关稳压器**
 
@@ -286,13 +286,13 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
 因工作时输入与输出的关系呈线型，故被称为"线性稳压器"。  
 因输入与输出间串联有控制元件，有时也被称为"串联稳压器"。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWpVhzpxIYr2ibgy2C5I7Ubr6ficmmpoWu9rZibHribw9JLpcPUMNfLGVHXQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_017_bd4d83c32e2e.jpg)
 
 通过控制元件降压，因此输入与输出的电压差（降压程度）越大损耗就越大，效率也越低。
 
 因此适用于小功率的电源。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaa3AhnaTkdUmhVqNTZCjxdblVGyBZLgJOXiaRhJUBymVJwPyCicPPXbKVgX6sqPMl4CcbUMW4rWetWicQ9zEIhneQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_018_39af6505592a.png)
 
 **开关稳压器**
 
@@ -302,13 +302,13 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
 
 通过高速重复这一动作，将输出电压调节到规定值。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWJOPs11d2VhkubOfWa8INwFicHbEsTmeyrq5picTicIZPXDYx9ThhUQHLg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_019_8ef7edfb485e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWCIoQqjTiaBQic3m8pKBojR4pa3OjPomUjODUmJibXzt6b8b0FRJ1aOibgg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_020_b316699ed469.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/iaa3AhnaTkdUmhVqNTZCjxdblVGyBZLgJ7icEm984t8n0d4nBdnfjonHXAuzj53yMHNXCWNsiadEE6F5f3ickeX0AA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_021_51c3717019ea.png)
 
   
 
@@ -321,7 +321,7 @@ DC/DC转换器是指将直流转换为直流的装置的名称。
 
 简单来说，电压固定型是内置了电压可变型的外接电阻的稳压器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWwMTNdj5b2WYsrc4ENDRLqnlZXxzIGeY4AOW3rlewapM4ZBjbCzMK7g/640?wx_fmt=png)内部电路
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_022_a5a491356c44.png)内部电路
 
 线性稳压器的内部电路概要如下图所示。
 
@@ -331,7 +331,7 @@ Vo=\[ (R1+R2) / R2 \] x VREF
 
 下图的输出晶体管为MOSFET，不过也有使用双极晶体管的产品。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWpuD4lg32kyibmYkTIlDUyhN1lzEbbcOjefT0oo6Z7FWfWJg2w3gmiaEg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_023_050272e0e697.png)
 
 **线性稳压器的分类**
 
@@ -345,13 +345,13 @@ Vo=\[ (R1+R2) / R2 \] x VREF
 
 【按功能分类】
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWBLkpHFvbXFnrO0KQNRCmnfXaTgXvfhkA7KzkTFGiawC06e33pqiaARBw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_024_333f454ed908.png)
 
 其次，还可分为电压固定型和电压可变型两种。固定型由输入、输出、GND三个引脚构成，内置有输出电压设定用电阻。
 
 可变型为GND基准型时，添加反馈引脚变成四个引脚。可变型中也有无GND引脚的浮动工作型，这种情况为三个引脚。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWwMTNdj5b2WYsrc4ENDRLqnlZXxzIGeY4AOW3rlewapM4ZBjbCzMK7g/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_025_a5a491356c44.png)
 
 电压固定型和电压可变型之后还可分为标准型和LDO两种。
 
@@ -378,12 +378,12 @@ LDO是Low Dropout的缩写，是即使较低的输入输出间电位差也可进
 
 输入输出间电压差低于压降时，晶体管难以维持稳定的工作，输出电压会降低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTflczRPIUh7FwxdcVVkpY6UWOuxPg8njgAQhdemgjibzCwRusr701T3hQ3JtT6EXqic0vCYYeHLHqKxg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_026_bd554820f137.png)
 
 这样，为了使含有LDO的线性稳压器工作，设定了所需的最低输入电压值，此时(VO + 压降) 即为稳压器的最低工作电压值。
 
 输入电压值 (VIN) 低于最低工作电压时，输出电压不能稳定工作。
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_027_9967d1607b24.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\AC_DC_DC_DC转换器基础_images\img_028_fb0ff5197498.png)
 

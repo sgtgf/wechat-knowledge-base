@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Ft8\_QQLLTOT7M0OAgu3jVA](https://mp.weixin.qq.com/s/Ft8_QQLLTOT7M0OAgu3jVA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tR6ibHibXQwRvAgf6ia352mOJAgKa3qV8nHpFhYYibslVUltyib6naMTdyzG46f4SEoMicmAfx0VbynC0A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\记住这几个重要公式_搞清楚电机so_easy__images\img_000_ea977e48a43f.jpg)
 
 
 来源：电力四射
@@ -34,7 +34,7 @@
 -   转子绕组：切割定子旋转磁场产生感应电动势及电流，并形成电磁转矩从而使电动机旋转；
     
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/1iaZ3MP0A6GcMNgs444ia96K650GeddUsTpDbykt4ZzvEctrlR83BRtvicqe72mtTlUtHrDKX3SdXkZatOLl1Tnmg/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\记住这几个重要公式_搞清楚电机so_easy__images\img_001_eb3115b8e4b1.jpg)
 
 ★电机的几个计算公式：
 
@@ -48,7 +48,7 @@
 
 磁通量计算公式Φ=B\*S\*COSθ，当面积为S的平面与磁场方向垂直的时候，角θ为0，COSθ就等于1，公式就变成Φ=B\*S。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/1iaZ3MP0A6GcMNgs444ia96K650GeddUsTwcuTznKXxSArHa2CCDJ1vricwKffXY6D2XH8ZzUt6Kl2yfwj5yCxTJw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\记住这几个重要公式_搞清楚电机so_easy__images\img_002_7bf39278d34f.jpg)
 
 将上面两个公式结合一下，就可以得到电机磁通强度计算公式为：B=E/（4.44\*f\*N\*S）。
 
@@ -60,7 +60,7 @@
 
 3、电机转矩、功率计转速的关系：T=9550P/n（P是电机功率、n是电机转速），可以从上面序号1内容中推导出来，不过我们没必要学会推导，记住这个计算公式就可以。不过再次提醒，公式中功率P不是输入功率，而是输出功率，由于电机有损耗，输入功率不等于输出功率。但是书本上往往理想化，将输入功率等于输出功率了。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/1iaZ3MP0A6GcMNgs444ia96K650GeddUsTP9ribCvme5QtyEspmxNcXGt8Wau9Zf8ml7uoYBw7mULJGDd5rfY0bxA/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\记住这几个重要公式_搞清楚电机so_easy__images\img_003_5532bc98dc33.gif)
 
 4、电机功率（输入功率）：
 
@@ -72,7 +72,7 @@
 
 ★电机的其他部件
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/1iaZ3MP0A6GcMNgs444ia96K650GeddUsTjqugz6U7gZqo8KYP5ajlM2NibiarkJnXv71kpP2Uset3LIefDxRgicsxQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\记住这几个重要公式_搞清楚电机so_easy__images\img_004_e1bfafabdc97.jpg)
 
 1）风扇：一般安装在电机尾部，用于给电机散热；
 
@@ -116,9 +116,9 @@
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0uibkIvkAHOPtHA9gym3XODEWrQGWXmjNHrmp8Mp3Mv8wdYjoiaNyL1EPibFpmHlcYK1m1wplSBia5vXg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\记住这几个重要公式_搞清楚电机so_easy__images\img_005_a3efb375477c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\记住这几个重要公式_搞清楚电机so_easy__images\img_006_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\记住这几个重要公式_搞清楚电机so_easy__images\img_007_e8e68bdfc1b3.png)

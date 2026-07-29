@@ -18,18 +18,18 @@
 
 **ABB最新涨价通知函**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ibbYNjL8QYGc4Cibe9zAptEq7WXicwnRZewoDeG63iaQlZLMhPcKPWEpt4mNd9y6L1BTuK7LuDSUg0hPReEt1v4DDw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子和ABB产品_开年再度涨价__images\img_000_c31f28080290.jpg)
 
 **西门子最新涨价通知函**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ibbYNjL8QYGc4Cibe9zAptEq7WXicwnRZewQ593ePZibR3MqWT3SianiasCD0ALV3yCGaYY6noVqaYgnoIKPEu2rxIPw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子和ABB产品_开年再度涨价__images\img_001_4dca09763d1e.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子和ABB产品_开年再度涨价__images\img_002_31a98b8e3167.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子和ABB产品_开年再度涨价__images\img_003_ec5921db28d2.png)
 

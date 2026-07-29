@@ -4,22 +4,22 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/MYKqruTHzSW8mzzAGYAuaw](https://mp.weixin.qq.com/s/MYKqruTHzSW8mzzAGYAuaw)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0s1u4ztdWjDoyDhYIW9MOhDMGrAzeDVuvZ2dfZib765WVhdyXHexcxMPBNzR0QYNDlLNEbmuUSibq4w/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzg4NzgyMjIwNg==&mid=2247526151&idx=1&sn=f2ad16b6fe06f9d5bd954057834bb252&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\全球首台_格力造_远超IE5能效电机__images\img_000_29f68faced42.jpg)](https://mp.weixin.qq.com/s?__biz=Mzg4NzgyMjIwNg==&mid=2247526151&idx=1&sn=f2ad16b6fe06f9d5bd954057834bb252&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t8PE1jut6syNaXWztwMIKfloy7NO3ltUjCw33CwMdkozLu7wSA3UI6qibZLEn27wSRVUEjCYBfiaFA/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247717560&idx=1&sn=e29e07e0eb7d394a5b7ff41eff76da7e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\全球首台_格力造_远超IE5能效电机__images\img_001_064aca60e3a4.jpg)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247717560&idx=1&sn=e29e07e0eb7d394a5b7ff41eff76da7e&scene=21#wechat_redirect)
 
 
 来源：电机通
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0snmanjzPVOx3N5icCsAJ2ViaRT7bksoNCmaOV6GqFZoQiaxJb0AgXsaAAWmticcGCsHjQC2ZmI6QKENw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\全球首台_格力造_远超IE5能效电机__images\img_002_315bc73fba48.png)
 
   
 
 7月26日，**格力电器“磁悬浮电机系统关键技术及应用”经中国电工技术学会组织院士领衔的专家组鉴定为“国际领先”水平**，格力隆重举办以“进·取”为主题的磁悬浮战略产品发布会。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/he5hK5CWOiaiaiaCx6VIMPCR2vOMibTcJaLWicvf9TIpjeza6icsd8Sy3BzJuNpd18F7tArJazj7ZzEVicuVsMHgJVZvw/640?wx_fmt=png&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\全球首台_格力造_远超IE5能效电机__images\img_003_30d8f199737b.png)
 
 （图为格力磁悬浮战略产品发布会现场）
 
@@ -27,7 +27,7 @@
 
 此次发布会上，格力连发多款重磅产品：全球制冷量最大1300RT磁悬浮压缩机、突破行业冷量范围的宽幅集成式磁悬浮压缩机、远超行业最高IE5能效标准的磁悬浮电机、比传统螺杆空压机节电20%以上的磁悬浮空压机。目前，格力电器已经实现磁悬浮所有核心部件100%自研、自产、自检、自销，不断塑造竞争新优势。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/he5hK5CWOiaiaiaCx6VIMPCR2vOMibTcJaLWwZcOnOqqfDcib5Xl4PZ8XhACcXkySHibmibbialECrY1OT87MZdrbbBgeA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\全球首台_格力造_远超IE5能效电机__images\img_004_5060292bd849.other)
 
 （图为“磁悬浮电机系统关键技术及应用”项目鉴定会）
 
@@ -77,9 +77,9 @@
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t8PE1jut6syNaXWztwMIKflTUnuEXWxPibLJDokYVjA047arWNC64WjZJstawXXntEkpuzS14LA6A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\全球首台_格力造_远超IE5能效电机__images\img_005_30f20d6608ae.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\全球首台_格力造_远超IE5能效电机__images\img_006_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\全球首台_格力造_远超IE5能效电机__images\img_007_e8e68bdfc1b3.png)

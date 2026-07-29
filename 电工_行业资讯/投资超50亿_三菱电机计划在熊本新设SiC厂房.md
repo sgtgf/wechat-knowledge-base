@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Qn9bCwhYwZBKOpmwETpcjg](https://mp.weixin.qq.com/s/Qn9bCwhYwZBKOpmwETpcjg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vE2ZIG5VErUiaic5Uovdb28y7P5QYtqjXS963OUGN1gZticMCCPchusnOMBhEuCvwJ9JdO7pugDP1XA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\投资超50亿_三菱电机计划在熊本新设SiC厂房_images\img_000_a02001b809a1.jpg)
 
   
 
@@ -16,7 +16,7 @@
 
 三菱电机将投资约1,000亿日元（折合人民币约48.56亿元）来生产具有高节能性能的碳化硅（SiC）功率半导体，该厂房计划于2026年4月投入运营。三菱电机表示，与2022年相比，公司2026年的晶片产能将扩大约5倍。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/5h6oiaOib5un4nfJIrzvCrlIgU5icYobEpPaSG8kKXRmLTCic6JqibqfjYa0rnEl1vPDeLXLTMK5FSZznuYCQiaPbZLA/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1)图源：三菱电机
+![](D:\电脑文件\公众号知识库\电工_行业资讯\投资超50亿_三菱电机计划在熊本新设SiC厂房_images\img_001_367cc16f9342.jpg)图源：三菱电机
 
 据介绍，新大楼共六层，总建筑面积约42,000平方米。它具备生产直径为200毫米（8 英寸）的 SiC 晶圆的功率半导体的前端工艺。所有的工序将接入自动输送系统，打造高效率生产线。三菱电机计划根据不断增长的需求逐步提高产能。
 
@@ -25,7 +25,7 @@
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0tVhvPWHF1RtjFb6lSjJvGKDEsTf4dBEnHibc2WNMHuumjVsPibcqpHbicODesZGxrppSlVMWzNrdVeA/640?wx_fmt=gif&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\投资超50亿_三菱电机计划在熊本新设SiC厂房_images\img_002_20d1b4b136b4.gif)![](D:\电脑文件\公众号知识库\电工_行业资讯\投资超50亿_三菱电机计划在熊本新设SiC厂房_images\img_003_a6c2e413e6e0.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\投资超50亿_三菱电机计划在熊本新设SiC厂房_images\img_004_d84912f96aa9.png)

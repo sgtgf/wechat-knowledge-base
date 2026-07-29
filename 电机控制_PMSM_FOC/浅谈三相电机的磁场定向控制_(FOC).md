@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/sUXKFHKWcRBgpQnDz9bLAw](https://mp.weixin.qq.com/s/sUXKFHKWcRBgpQnDz9bLAw)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9ibzv2CYiaZGO7Tq4h3lZxuvbQmbL3AwLGGfwck7yBqibEwbUCQj5X4H0WeBKrlQ4VFeOHLNADNpcQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\浅谈三相电机的磁场定向控制_(FOC)_images\img_000_7ff8877defea.jpg)
 
   
 
@@ -22,7 +22,7 @@ FOC技术通过监测和控制电机的三相电流来工作。这些电流的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vibUoMURfNlKH8aPd8EB68A3MRjobI0aSDB7u9fRwXaYsf7Z41zFuoVWdorJQ163K15X3M1icYraRw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\浅谈三相电机的磁场定向控制_(FOC)_images\img_001_bbd5129f7db4.jpg)
 
 电机磁通
 
@@ -36,11 +36,11 @@ FOC技术通过监测和控制电机的三相电流来工作。这些电流的�
 
 克拉克变换将三相电流转换为两个直交的轴，通常称为α轴和β轴。这种变换简化了电流的处理和分析。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vibUoMURfNlKH8aPd8EB68A7c9Pj7txAxknvpszpxJnrBmpvOetEaK6HsicSicQDavJHXmURq5lTqUg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\浅谈三相电机的磁场定向控制_(FOC)_images\img_002_428e6655ba0c.jpg)
 
 克拉克变换
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vibUoMURfNlKH8aPd8EB68A1wf1bbficWxAOCupRvFWRC0IWoSvbVNhQ717heSFzfOlicyuBjZyXeicA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\浅谈三相电机的磁场定向控制_(FOC)_images\img_003_59504f67eb6c.jpg)
 
 帕克变换
 
@@ -54,7 +54,7 @@ FOC的主要目标是维持定子和转子磁场之间的正交关系，从而�
 
 正确的磁场角度关系对于电机在不同负载和速度条件下的高效运行至关重要。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vibUoMURfNlKH8aPd8EB68AgvVx9yYaqxiaR2Gkcg9ibQAnDjnR0U14YrFypBfKcUriauMAXtGRl9sfQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\浅谈三相电机的磁场定向控制_(FOC)_images\img_004_4a96f584a32e.jpg)
 
 定子和转子
 
@@ -64,7 +64,7 @@ FOC的主要目标是维持定子和转子磁场之间的正交关系，从而�
 
 无传感器的实现则利用算法估算转子位置，通常基于电机的电气特性，如反电动势。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vibUoMURfNlKH8aPd8EB68AW4BJ8hAVrx3wF0VW1F0iauHgfgniaRF9n16ib7q5cUQqxlUqSKp4qZxWw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\浅谈三相电机的磁场定向控制_(FOC)_images\img_005_5b877fc15e46.jpg)
 
 反电动势
 
@@ -72,7 +72,7 @@ FOC的主要目标是维持定子和转子磁场之间的正交关系，从而�
 
 无论是有传感器还是无传感器的实现方式，准确测量相电流都是FOC的关键。这有助于确保电机的扭矩输出和整体性能。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vibUoMURfNlKH8aPd8EB68A42cYfGwj1iaDFMhRmFbeT3X0XbWcMGIMgkGnFoDCtictqKHjicfNo4hvA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\浅谈三相电机的磁场定向控制_(FOC)_images\img_006_1efa357c88ac.jpg)
 
 电流检测
 
@@ -80,7 +80,7 @@ FOC的主要目标是维持定子和转子磁场之间的正交关系，从而�
 
 FOC技术因其提高电机效率和适应不同运行条件的能力而在多种应用中得到了广泛使用，从家用电器到工业机器人和汽车。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vibUoMURfNlKH8aPd8EB68Aet80ELH5ta20sc0x9T00K6RjrNaWtRGzvoJnVvQOV3VicC7FGGdH7vQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\浅谈三相电机的磁场定向控制_(FOC)_images\img_007_76bde6e014ce.jpg)
 
 电动车
 
@@ -91,7 +91,7 @@ FOC技术因其提高电机效率和适应不同运行条件的能力而在多�
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\浅谈三相电机的磁场定向控制_(FOC)_images\img_008_a6c2e413e6e0.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\浅谈三相电机的磁场定向控制_(FOC)_images\img_009_d84912f96aa9.png)

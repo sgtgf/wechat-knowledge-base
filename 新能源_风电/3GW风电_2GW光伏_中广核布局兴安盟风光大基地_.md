@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0teiceibxaxXjXW1A56HF7tkg1BqF80Fy26bEAcYgkwymmYr8esIUc8xHrJXFogdcvjAtgMicfQLJOLA/640?wx_fmt=jpeg)  
+![](3GW风电_2GW光伏_中广核布局兴安盟风光大基地__images/img_000_2a1ae17a00a1.jpg)  
 
 **来源：中广核**  
 
@@ -16,7 +16,7 @@
 
 中国风电新闻网讯：12月6日，在中国广核集团有限公司党委书记、董事长杨长利和内蒙古自治区兴安盟盟委书记张晓兵的共同见证下，中国广核集团有限公司党委常委、副总经理李亦伦和兴安盟盟委委员、常务副盟长姜天虎分别代表双方签署了《深化战略合作协议》，共同打造清洁能源示范基地。**根据协议，“十四五”期间中国广核集团（简称“中广核”）将重点开发建设兴安盟500万千瓦风光基地、索伦120万千瓦抽蓄项目、生物质天然气项目、阿尔山零碳小镇及综合能源等项目。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/zRoMjibgdwtJymp4FsddrAStcvBHqC5TMNLZOqcuRNvgmFDL0dX3odiaGbv0rN1SB2MpXNjvViclUHRGdBEftCStA/640?wx_fmt=png)
+![](3GW风电_2GW光伏_中广核布局兴安盟风光大基地__images/img_001_05cca1abc47b.png)
 
   
 
@@ -28,7 +28,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zRoMjibgdwtJymp4FsddrAStcvBHqC5TM2yW2eh1BibhSShGYQ4Xwj5odn4iaOVCHoLib0cxhmPU12icb1zzM7FmSUA/640?wx_fmt=jpeg)
+![](3GW风电_2GW光伏_中广核布局兴安盟风光大基地__images/img_002_5c66cf6fd6d0.jpg)
 
   
 
@@ -40,7 +40,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/zRoMjibgdwtJymp4FsddrAStcvBHqC5TMdxvKK9nKbxEd2UT9fMKiatLj90BqRrXYn5laf8V30BS0CFW7dm6hMSA/640?wx_fmt=png)
+![](3GW风电_2GW光伏_中广核布局兴安盟风光大基地__images/img_003_5f5e3ae52739.png)
 
   
 
@@ -52,7 +52,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zRoMjibgdwtJymp4FsddrAStcvBHqC5TMzTQQvGeyiaYQN2pGYf8aqnXuwOFLAOtedo9tn8z5MEdw8T5oSMxKCtA/640?wx_fmt=jpeg)
+![](3GW风电_2GW光伏_中广核布局兴安盟风光大基地__images/img_004_a79c3f7f2683.jpg)
 
   
 
@@ -64,7 +64,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zRoMjibgdwtJymp4FsddrAStcvBHqC5TM4MicldvwLsLbdXdzaa7SodpjCuQCV9q3jia7nSibgjbLuUibwPaHFKeOicA/640?wx_fmt=jpeg)
+![](3GW风电_2GW光伏_中广核布局兴安盟风光大基地__images/img_005_04a106a627fb.jpg)
 
   
 

@@ -6,7 +6,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0slLZrK8icrAxiasOzvBauyjAGpAZKhl6uicc6SuJN8icBNwhqTMvBBrO7DL7Pgyx0ZkaXuQreu6Lfh1A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺有哪些区别__images\img_000_fd15c4bf9c5d.jpg)
 
 
 来源：线束专家
@@ -25,7 +25,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHIxUaecqDHvZLz2EW5y8ZvXIJmy2qnM48QHxABNlAdOrTBMxib2LO9L9w/640?wx_fmt=png&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺有哪些区别__images\img_001_b40225565e14.png)
 
 不同绕组技术的端部高度，来源：联合电子
 
@@ -35,7 +35,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHIARld0EicOTRLb11dkJkuKXVMCRnrPtHvNk3mDegxjsPpBU2cjM50U0Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺有哪些区别__images\img_002_a9e1be277958.jpg)
 
 博格华纳HVH270 X-pin电机定子 拍摄于上海车展
 
@@ -49,7 +49,7 @@
 
 线成型工艺与传统Hairpin成型差别不大，需重点关注成型精度，因为X-pin无切平工艺，成型后pin角一致性要求较高，因去漆长度仅需5mm左右，如机械去漆会导致断面无法完全贴合，焊接漏激光，所以只能采用激光去漆方式。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHIV9H7bE9rFj2gOkRgFicPM9Zickib7HNxnEkQDNibqsAGJcJWWGkFBgaxiaQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺有哪些区别__images\img_003_4be5edf7e4c4.jpg)
 
   
 
@@ -61,7 +61,7 @@
 
 **扭头方式**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHITxiakbuBibiaKdicsxibRZ6iaTNRRUD2yevOZ3HNicqd0YPENlvicKlnUCb1ow/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺有哪些区别__images\img_004_b1c034b44ed7.jpg)
 
 X-pin相对Hairpin扭头最大的变化点是取消了直线段，无法实现入桶扭转方式，并且因为无切平工艺，端部不是平面，如何实现扭转且扭转后的切面保持一致性是扭转的关键。
 
@@ -75,7 +75,7 @@ Hair-pin和X-pin的焊接方式有所不同。
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHIeehaC1HiaIIY4kpUg8wXtFh84CEZmNseIFcicjiae6gRGNtwEvNDasljA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺有哪些区别__images\img_005_4911bea49aff.jpg)
 
 Hair-pin采用热熔焊，端部形成焊球，热影响区域较大，一般在8-10mm²左右，熔接面积为110%截面积作用，拉拔力一般800-1000N左右。
 
@@ -83,7 +83,7 @@ X-pin采用低温焊，端部不再形成焊球，需向下穿透，热影响区
 
 **绝缘处理**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHIdZBmXCouxcVRBmW7kUBCZPOaOcmuJell7E6F5VL8xianvVH0UoFtAOA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺有哪些区别__images\img_006_c455b1c44c47.jpg)
 
 Hair-pin采用浸渍漆+涂敷工艺即可保证绝缘性能及强度。
 
@@ -118,17 +118,17 @@ X\-pin亦可采用浸渍漆+涂敷工艺，但X-pin的熔接面积及拉拔力�
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺有哪些区别__images\img_007_3ccc50bba2ef.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88HJkEmpYqlKiaC4tFrnTia7L7pjBnCvUZtV9MV1HRf7nRn8kPs7bKsmQQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺有哪些区别__images\img_008_bcb57d883039.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺有哪些区别__images\img_009_1862cf7fbcf8.jpg)
 
 扫码报名了解变压器会议
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6OxT5YrmvxSnbaaDeXF4bqovY9IfrC6SxJMBQtp4dnM1tPnlKziaSEUguw/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6Ox2gll6RtjpK3FFYmgTBOGo4FeTnVZtkL7ZlKEclXqTtZ7vtFY28R0ew/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺有哪些区别__images\img_010_ccd55559c531.jpg)![](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺有哪些区别__images\img_011_56b163a836a8.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺有哪些区别__images\img_012_dac57d0b3024.png)

@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/0dBif4Yiye1f\_GGIE4SiOg](https://mp.weixin.qq.com/s/0dBif4Yiye1f_GGIE4SiOg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0s4KiaT4hZdtXZfpsvCVjK8JEBv7tI77qibWfocRTXANicyNSMk4XDsaqE23NibJqb3gcia8DoZicPJicz7g/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\新能源汽车驱动电机X_pin和Hair_pin核心工艺对比_images\img_000_9419ab11aabe.jpg)
 
 
 来源： 电驱动Benchmarker
@@ -25,7 +25,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHIxUaecqDHvZLz2EW5y8ZvXIJmy2qnM48QHxABNlAdOrTBMxib2LO9L9w/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\新能源汽车驱动电机X_pin和Hair_pin核心工艺对比_images\img_001_5ba6421b3164.png)
 
 不同绕组技术的端部高度，来源：联合电子
 
@@ -35,7 +35,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHIARld0EicOTRLb11dkJkuKXVMCRnrPtHvNk3mDegxjsPpBU2cjM50U0Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\新能源汽车驱动电机X_pin和Hair_pin核心工艺对比_images\img_002_992756b73d73.jpg)
 
 博格华纳HVH270 X-pin电机定子 拍摄于上海车展  
 
@@ -51,7 +51,7 @@
 
 线成型工艺与传统Hairpin成型差别不大，需重点关注成型精度，因为X-pin无切平工艺，成型后pin角一致性要求较高，因去漆长度仅需5mm左右，如机械去漆会导致断面无法完全贴合，焊接漏激光，所以只能采用激光去漆方式。  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHIV9H7bE9rFj2gOkRgFicPM9Zickib7HNxnEkQDNibqsAGJcJWWGkFBgaxiaQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\新能源汽车驱动电机X_pin和Hair_pin核心工艺对比_images\img_003_cb9a3d13d2aa.jpg)
 
   
 
@@ -67,7 +67,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHITxiakbuBibiaKdicsxibRZ6iaTNRRUD2yevOZ3HNicqd0YPENlvicKlnUCb1ow/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\新能源汽车驱动电机X_pin和Hair_pin核心工艺对比_images\img_004_cdab5c58bd0e.jpg)
 
   
 
@@ -85,7 +85,7 @@ Hair-pin和X-pin的焊接方式有所不同。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHIeehaC1HiaIIY4kpUg8wXtFh84CEZmNseIFcicjiae6gRGNtwEvNDasljA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\新能源汽车驱动电机X_pin和Hair_pin核心工艺对比_images\img_005_834cb6c943cb.jpg)
 
   
 
@@ -99,7 +99,7 @@ X-pin采用低温焊，端部不再形成焊球，需向下穿透，热影响区
 
 **绝缘处理**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHIdZBmXCouxcVRBmW7kUBCZPOaOcmuJell7E6F5VL8xianvVH0UoFtAOA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\新能源汽车驱动电机X_pin和Hair_pin核心工艺对比_images\img_006_ff23d80d0078.jpg)
 
   
 
@@ -155,11 +155,11 @@ X-pin亦可采用浸渍漆+涂敷工艺，但X-pin的熔接面积及拉拔力相
 # [华为都“活不下去了”！电机中小企业未来三年要怎么过](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247575025&idx=1&sn=800a15fe2572766ef1632371ee7475f2&chksm=cedfe435f9a86d23f050893e070245640fbc59fce832cb6264e6ecf8b6c43c0fe9a0c6565a38&scene=21#wechat_redirect)？
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\新能源汽车驱动电机X_pin和Hair_pin核心工艺对比_images\img_007_9967d1607b24.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\新能源汽车驱动电机X_pin和Hair_pin核心工艺对比_images\img_008_fb0ff5197498.png)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tMzMevYpPAySDyFiaafVt6hlnBk2MabwiahKl2h63picic7sVYg0g3DojZDAtHn0rMCIUhye6HKw5rdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\新能源汽车驱动电机X_pin和Hair_pin核心工艺对比_images\img_009_5591b15b40b7.png)

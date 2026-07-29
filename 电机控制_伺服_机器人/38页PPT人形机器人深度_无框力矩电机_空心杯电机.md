@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/9qKWfXa\_vBWVk5ZZc2sLAw](https://mp.weixin.qq.com/s/9qKWfXa_vBWVk5ZZc2sLAw)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tx2UUQMiaekzttE3Wyxwxqichzmk6TPhblJtseMFwghh73Pa6c70fwC3cjxBB0SSibjlQnuDXqr3cVA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_000_fce3ac30e4c2.jpg)
 
 
 来源：上海证券
@@ -19,77 +19,77 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaD24IAUT2yWV7n7VEeNeazSzbopnrqsr8SwsqAC3zPejxme43ic6NVVAw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_001_403ea6f174e9.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDh5ThvHluT6fdxiaEF83ARufGL8KrZ76LYo7f779IFjKPsqib9qJOS1Fw/640?wx_fmt=png&from=appmsg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_002_00060e655a80.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDoxw5icibbIkbU3xlc5Pheh50T4Qb5dC4Ejj0KMP94lbibNTRYUXCsfTkA/640?wx_fmt=png&from=appmsg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_003_6ccef355e7c1.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDBmFjIhgnJhykfTjqNfzhDx1TvDg66TZOEIVsxTVKTVBwvt7SnBxh6g/640?wx_fmt=png&from=appmsg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_004_c1ad6d545dd4.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDjibQFpmzxY57E2eKoogeLwBibib5aicN6hdibOWpFh0qvM7pCtarqvanVVA/640?wx_fmt=png&from=appmsg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_005_853e5f94f75e.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDIGcMrfIdPUnsOzuEMqUGjNhKibk0olhduWCOyyW4WGpUTY66yGtPSTA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_006_d04e517072b2.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDbFY9DwARO2ye17N85pZWEibyk3r1R80SW7K1Qqo6UxKyQvmxPAqTcIw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_007_4d87d3b12fa1.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDJlrNJIKeEPqhWgPe45suaiaZVw5ASwicj1pV1wvZCU32cgRibx2YcTo4w/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_008_0506f945b84d.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDXyb8iactDc4TgISZRZEb94W18Licf2WribAk9caKN4163q7ZEcLswWmfA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_009_f2209bbaf135.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDfG7UzL6ELGMBx43BKws1OFckicLJvhomn9bIh0ZW7TaJY6OmexWsqXg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_010_a7c72250df99.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaD2aP5MMQVG6Ufb9NQYtF4ZwbmbL3GcY7jUBwVGDyjLY29vPkf6WwUHw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_011_a5608c3fa9c3.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDzG5kPZjWZnpdZqaviab3icNdmRKwOYzuJKic5H44ic0Wk0aHqI9F5C1Y3A/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_012_414da770daf7.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDhBiadkUjfHBgibZMzpFWNAGykOfpAoS1IFiaOqDhjNxZHia1esdNrLQu0w/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_013_4ce1407cf119.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaD7aN0LxqIbib1IViboC9XDW6GWOIvyhKaaOWvQMVEQ8Oa4N9hNtKiaogdQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_014_825a7f8bab53.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDaljcFCIcDOUTsPOgEf08WAEJsBFiaT1eZblMog1UgCvAclDvaTuuAbg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_015_eee73bc529ef.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDj0fTTJk70B6V3azagCZvpWBibd3XDUSn42ES3ElqmqL3qUJPB0QnqtA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_016_817589d231a9.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDhedLRicjmf4QenBciajFAoMiceMdaOpulrt893jSbPlA0daWXHUeWJBBg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_017_8f1d70fd5473.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDbxmau7DlXkNc2d1LhTiajW3jW5NP49On8AxjhUL1sXUuEms1MyT5iaBA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_018_aa492bcafdc0.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDWCTWiaBIDqx6IjP9qCOh1Gel135IZVgd1WXW8PcicmDicIkf1ic5iaXUQEg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_019_8101a74fe897.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaD9NT7cFhjYjcPbmSLsotz6ty1oUGa0xXMP1eS2VGmicyAJz6ibicQdUAjw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_020_bc76dbc1f129.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDYD5ImxNw8yyrqukyTIFhguYZKmyXNLoRVAKIDRKLBpv1c450wXk0JA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_021_2ac5ce64b730.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDT9VaR97Ydk7Z4bwES72IHczAAvMLPaUvIA6fVkticIIjZ10Jxqo26MQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_022_f8c266497418.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaD03UFXTkVMZNreianDr4QtJau3lbs8vAlTsYsZR7YTOZiclicSTFB1MY6Q/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_023_7291e29a54bd.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDvRK9R0lktmKCk3prKNK9ibhYCjycdpzs3hZibVNLIwwvQ6PHqCl4ziaBw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_024_c1c28d08fadd.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDGE3ToTCVy4O1Uuxj9rHh7o9jJfLIicPTYgmC9MZJU3dkzancEsbhdLA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_025_e85365dc80e6.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDC41kA4Myq00Aibb935HzgF4ADVnv19zrKrvycicYJtGG1c29wUdkxWYA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_026_c9e1ca6e9096.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaD3MoHibnsICia1iciafhwGWicwm9GLvumuMmw95es7bXbC7xVwBtCaXMeicrQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_027_4d10ff553c44.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDoiaQCe9ic4NEjEVtJxTrEBofGjUTKzrvJzA4HNefFpkl1wql9iakKBK1w/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_028_992e61efaf14.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDR8GbwkI0T10wEVpXTEFCeAmjwh5ZATDsmSEbQprAwGo3jyHwnh7Fmg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_029_539f4c75b507.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDDGNXknYFZ9QME4aPKXCB7BgYw7Hq6RVHmhTb7getqwAFvrJUBfcOsg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_030_ebd0e0b011d4.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDcwlekjK50jfPrnDF62XMgrTHyhHXic3cJJR0G90f0iaeNyibgBIugHLSg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_031_30e203d5dd37.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDRDfiaMVFzVpT00Z9L2TfOv0bXibmxfaef9uXmFYugCicEAc5jG80hUn9Q/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_032_434ee8612c7a.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaD4OCFyl1giaoK45Ovg4S72YrfzJVKSlVQpicFIpPVek7icQIrPVvTjicrgg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_033_514af667d5e3.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDpmYicbbvFkpFibxqwpV9cIoz4UhN9JBfU2tvoCWDHibibza2rGe2LDRMug/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_034_1f5bed5d9f35.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaDY8ibv3oTZoZYL5exl0bXSZiaN6IcIich6T6vic4Xy0NxnEuDaMIVcQnHyA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_035_3017b9524d37.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/TNRmunHpyv5NJEcR5bmUEmp1iaib3ic9NiaD2MFMbQZksPIEYTpHicV9Ts0picumE0KBibf8MwEzQpwBtUFvQPnnOO0WA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_036_8466eea4bb5b.other)
 
   
 
@@ -125,7 +125,7 @@
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_037_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\38页PPT人形机器人深度_无框力矩电机_空心杯电机_images\img_038_e8e68bdfc1b3.png)

@@ -16,7 +16,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xq3e4397UppmiadVM5uPwib6juDwjVRTAynKfvQrIOR4InTADkhK8HmQvfiahyT49blGq77StKIaGJzZNQc9jTIlQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机年产超10亿台_BLDC电机渗透率有望持续提升__images\img_000_fed0c94e0a61.jpg)
 
   
 
@@ -24,7 +24,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xq3e4397UppmiadVM5uPwib6juDwjVRTAyxibia8CQT4QEmYTgukeibX5lGLHhWghicrmibxg7OkabxJX0WChocZAIu2w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机年产超10亿台_BLDC电机渗透率有望持续提升__images\img_001_ec4187b5a45b.jpg)
 
   
 
@@ -54,7 +54,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xq3e4397UppmiadVM5uPwib6juDwjVRTAyvicK5Mk7HvmlOq9jpVS3t9HKq8OtF07dTaXtpcAwaL86ics34c6ZAv0Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机年产超10亿台_BLDC电机渗透率有望持续提升__images\img_002_4289b44429d3.jpg)
 
   
 
@@ -76,7 +76,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZB8TQg7NL3BWiacuWePf3iaT6GlYgnibr3eiaZG9sa9fuw0fkyaMTBSF4V8MMYOaar4uWvWrJxr6SfQbolP5bTVVcA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机年产超10亿台_BLDC电机渗透率有望持续提升__images\img_003_3ce312c8e197.png)
 
   
 
@@ -116,7 +116,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZB8TQg7NL3BWiacuWePf3iaT6GlYgnibr3eTkfZVYUn5d2iaDvCV7UibIGEcLhkNdhibDExK2kjThRNxlh7CXN20OjaQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机年产超10亿台_BLDC电机渗透率有望持续提升__images\img_004_406aabaa330b.png)
 
   
 
@@ -132,7 +132,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZB8TQg7NL3BWiacuWePf3iaT6GlYgnibr3eA6G6YYmvz9RIawJ4xicC9TZpGaiaTnedvGr5HgpsH4b4U9lDfESjq3qw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机年产超10亿台_BLDC电机渗透率有望持续提升__images\img_005_caedf201e83a.png)
 
 图：洗地机产品
 
@@ -152,7 +152,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZB8TQg7NL3BWiacuWePf3iaT6GlYgnibr3eXJC8d3oTibaGAhmc0N6AAVicDfwuRWcrIpXWeiaKSTw3nwrOT7iaHK0MVQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机年产超10亿台_BLDC电机渗透率有望持续提升__images\img_006_3d258c3082a3.png)
 
   
 
@@ -180,7 +180,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZB8TQg7NL3BWiacuWePf3iaT6GlYgnibr3eLmMFsBib2XHl6ia4a5jOia4BkrZibrNcZS7DagKILs8eXpuEh9ndpicj6RQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机年产超10亿台_BLDC电机渗透率有望持续提升__images\img_007_ca3b562e6be5.png)
 
   
 
@@ -202,7 +202,7 @@ BLDC电机在家电市场的渗透率
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ZB8TQg7NL3BWiacuWePf3iaT6GlYgnibr3eX9QBHj5MzibKXgzCWJcDpzKoRsbiaWp4e9H7cRUJiaf0aA8YLePibNIapQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机年产超10亿台_BLDC电机渗透率有望持续提升__images\img_008_72a6d719eb63.png)
 
   
 
@@ -214,7 +214,7 @@ BLDC电机在家电市场的渗透率
 
   
 
-**![](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tPT0FJzsRKoxRqOCBsjl1fqSSRKpDD6o8u94O5wuKrqBHkPoibRTOLeNOpEY3PIxD45VN0uf0J70qg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)**
+**![](D:\电脑文件\公众号知识库\电工_行业资讯\电机年产超10亿台_BLDC电机渗透率有望持续提升__images\img_009_9a19915b621e.jpg)**
 
   
 
@@ -224,7 +224,7 @@ BLDC电机在家电市场的渗透率
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tPT0FJzsRKoxRqOCBsjl1fqm9z8ArvEjywygE2HTG54V8YzUXZV7wR4dDQPFC4msicXNcTXl62Qmrg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机年产超10亿台_BLDC电机渗透率有望持续提升__images\img_010_c99288565216.jpg)
 
   
 
@@ -238,7 +238,7 @@ BLDC电机在家电市场的渗透率
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tPT0FJzsRKoxRqOCBsjl1fqIgicfc3S7WONaY6lWAl4RLuvbadYQSx9NgbCtlqTmrib6yVoNlMp7Jxw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机年产超10亿台_BLDC电机渗透率有望持续提升__images\img_012_e99f1b4f8c73.gif)
 
 DC电机（有刷电机）的运转示意图
 
@@ -278,7 +278,7 @@ BLDC电机中的“BL”意为“无刷”，就是DC电机（有刷电机）中
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tPT0FJzsRKoxRqOCBsjl1fqG7ibovug684ky0HAH5Zqkbev5PkBXjG1mOG8q4kOLBgs7uthcckiae5g/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机年产超10亿台_BLDC电机渗透率有望持续提升__images\img_014_9be42314b152.gif)
 
 BLDC电机的运转示意图
 
@@ -410,8 +410,8 @@ BLDC电机的运转示意图
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机年产超10亿台_BLDC电机渗透率有望持续提升__images\img_017_31a98b8e3167.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机年产超10亿台_BLDC电机渗透率有望持续提升__images\img_018_ec5921db28d2.png)
 

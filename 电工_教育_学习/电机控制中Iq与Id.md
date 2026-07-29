@@ -4,20 +4,20 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/C-UW40I7jjl5C\_CP\_bRq3g](https://mp.weixin.qq.com/s/C-UW40I7jjl5C_CP_bRq3g)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tR6ibHibXQwRvAgf6ia352mOJAgKa3qV8nHpFhYYibslVUltyib6naMTdyzG46f4SEoMicmAfx0VbynC0A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制中Iq与Id_images\img_000_ea977e48a43f.jpg)
 
 
 来源：电机通
 
 所有的电机原理都如下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fOM55InTTqxJRBLGXQf9Qia86bZ3BBWU96W7KDALcvKFv7BLAiaEmM1mcfVia453RAYwO0oruicMXM5RmlsSpRA7vg/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制中Iq与Id_images\img_001_3e38e0377408.png)
 
 两个灰色的轮子一个是定子，另一个是转子，具体哪个做定子，哪个做转子随意。所有电机的原理都是这么简单，转动其中一个轮子，另一个轮子就会跟着转，就是初中物理讲的”异性相吸“。
 
 参考上图，磁铁都紧紧的吸在了一起如果错开任何一个角度，比如下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fOM55InTTqxJRBLGXQf9Qia86bZ3BBWU9wn7Tj4QTVQVLpctSUIM9y1sLmvCqbgDj5oBCbXNFv6UDo9jtgdBxGQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制中Iq与Id_images\img_002_07a24d6eca9a.png)
 
 看上去是不是不稳定？有一种如果松手肯定会发生什么的感觉。不错，这就是力，力就这么产生了！力乘以距离就是力矩，在这里我们就称之为转矩。
 
@@ -42,7 +42,7 @@
 
 那么，这个力跟什么有关呢？前面说了和两个内外磁铁的空间位置有关：两个磁铁错开太少没有力，错开太多了力又不够，貌似角度错开成某个值的时候有一个最大值的感觉。不错，这个结论的得出是在磁铁磁力不变的前提下得到的，如果磁铁的强弱是可以调节的会发生什么？请看下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fOM55InTTqxJRBLGXQf9Qia86bZ3BBWU9huKDo98wS1uoSEGYaaJ2a17sIHwQZ1l6WFLE24qtwdMTgxEaokUZvQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制中Iq与Id_images\img_003_46ed6f3cbcd5.png)
 
 磁铁怎么这么小？再看原来的图片是不是有一种器大活好的怀旧感？凭直觉，上图所示的电机感觉上力量就比原来的电机弱，因为他磁铁小啊，力不从心。现实中磁场的强弱就是可调节的，因为外部的旋转磁场是由三相电流产生的，所以通过控制正弦电流的幅值你就可以调节磁场的强弱。有的同学可能会有一个问题，那么对于永磁电机来说，里面的磁铁是不是应该保持不变呀？没错，这个问题我们放一放，
 
@@ -57,7 +57,7 @@
 
 可是这两个问题耦合在一起好难分析，因为如果磁铁变大但空间错的很开，那电磁力矩是变大了还是变小了啊？如果磁铁变小但是错开的又近了一些，那力矩到底是小了还是大了啊？有两个因素都在变，很难单独分析。于是我们就想，能不能把这两个因素通过一种简单的方法解耦呢？这就是Park变换和DQ轴出现的大背景，来看下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fOM55InTTqxJRBLGXQf9Qia86bZ3BBWU9OYDZChLPooMiakQxhRtErH5ibZBlRbfT6yhaKOBXenaroL0nyCjibf1IQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制中Iq与Id_images\img_004_c5d7aea352a1.png)
 
 内部磁铁在空间有一个磁场，外部磁铁会产生一个磁场，说到底，其实力的产生就是和这两个磁场的大小和方向有关系。
 
@@ -65,7 +65,7 @@
 
 上面这个公式（电机转矩正比于转子磁场叉乘定子磁场）是电机学最最最最最本质的公式！平行四边形什么的最有意思，因为他可以被拆成矩形，七巧板的感觉：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/fOM55InTTqxJRBLGXQf9Qia86bZ3BBWU9EOo5dUEIPEeAhbY7o90t8ficIbMvl9Yo3RqnjrCxNfURI4UECq0BlYg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制中Iq与Id_images\img_005_82556a477d02.png)
 
 一个平行四边形就这么被拆成矩形，为什么这么拆？因为好看啊，上面两个图形的面积是一样的，所以分析起来不必担心。我们把原来的Bin称之为d轴磁场（d是direct的缩写，意思是直接的；d轴中文翻译为直轴），把新拆出来的垂直于Bin的磁场称之为q轴磁场（q是quadrature的缩写，意思是垂直的、正交的、90度的；q轴中文翻译为交轴）。
 
@@ -117,9 +117,9 @@
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0uibkIvkAHOPtHA9gym3XODEWrQGWXmjNHrmp8Mp3Mv8wdYjoiaNyL1EPibFpmHlcYK1m1wplSBia5vXg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制中Iq与Id_images\img_006_a3efb375477c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制中Iq与Id_images\img_007_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机控制中Iq与Id_images\img_008_e8e68bdfc1b3.png)

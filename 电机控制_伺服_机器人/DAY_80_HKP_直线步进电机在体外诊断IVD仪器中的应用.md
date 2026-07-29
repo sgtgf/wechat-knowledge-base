@@ -16,7 +16,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/hT9Xd6v4Ru0ZPGaa8OFX3vSkdaibSEF5608VrbuaWqtuUN1Xu3lpWWIb7Ub4ExC3dgJ3ygQCw890xlWMPjl0k0A/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\DAY_80_HKP_直线步进电机在体外诊断IVD仪器中的应用_images\img_000_6a4d1050f6d5.jpg)
 
   
 
@@ -30,9 +30,9 @@ HKP 直线步进电机根据**励磁方式**不同，分为混合式直线步进
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hT9Xd6v4Ru0ZPGaa8OFX3vSkdaibSEF56IWeD2VwvibXDGBhoA5A2nLZzPdSushtfLCJlXdibbRqySFImlLkAW0FA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\DAY_80_HKP_直线步进电机在体外诊断IVD仪器中的应用_images\img_001_c3ce8a193d00.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hT9Xd6v4Ru0ZPGaa8OFX3vSkdaibSEF56QqrDtl9WyoU9L2BgHxxXpv0I1Ut7dicUqm8zjv38ibf8dLxwUjthiaNEw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\DAY_80_HKP_直线步进电机在体外诊断IVD仪器中的应用_images\img_002_0801889b92a4.png)
 
   
 
@@ -62,7 +62,7 @@ HKP 直线步进电机根据**励磁方式**不同，分为混合式直线步进
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/hT9Xd6v4Ru0ZPGaa8OFX3vSkdaibSEF566LU1vVhCIH2xAUxqNy1uAtLjDso3DZnLPUy34MWbsT5Usd88LpkUvA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\DAY_80_HKP_直线步进电机在体外诊断IVD仪器中的应用_images\img_003_4062685634e0.jpg)
 
 HKP 混合式的电机在生化分析仪中的应用示例
 
@@ -72,7 +72,7 @@ HKP 混合式的电机在生化分析仪中的应用示例
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/hT9Xd6v4Ru0ZPGaa8OFX3vSkdaibSEF56icozRCjhZcu1zADshLNialttdIMeVRGWGjvnq6PRricxKXwZdvkBia90bQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\DAY_80_HKP_直线步进电机在体外诊断IVD仪器中的应用_images\img_004_ec9f2b32168b.jpg)
 
 HKP G4-19000电机
 
@@ -86,8 +86,8 @@ HKP G4-19000电机
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\DAY_80_HKP_直线步进电机在体外诊断IVD仪器中的应用_images\img_005_31a98b8e3167.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\DAY_80_HKP_直线步进电机在体外诊断IVD仪器中的应用_images\img_006_ec5921db28d2.png)
 

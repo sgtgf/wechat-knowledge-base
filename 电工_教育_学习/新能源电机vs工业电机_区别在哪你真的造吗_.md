@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0teiceibxaxXjXW1A56HF7tkg1BqF80Fy26bEAcYgkwymmYr8esIUc8xHrJXFogdcvjAtgMicfQLJOLA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新能源电机vs工业电机_区别在哪你真的造吗__images\img_000_2a1ae17a00a1.jpg)  
 
 **来源：伺服与运动控制**  
 
@@ -24,7 +24,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3t177selbFdlwjmicoM3QKsXW3OjxSojibV9vPIlThpcOafwSumaeyynJV0yhlqkQ0Faia2nsvOMcR4aA3nPM9ybg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新能源电机vs工业电机_区别在哪你真的造吗__images\img_001_8ed92462f69b.jpg)
 
   
 
@@ -68,7 +68,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3t177selbFdlwjmicoM3QKsXW3OjxSojibgY9oVKoPCvVj07w2BlycsmBh6YhmBzlT5ZJCIhzXJib8bC5d4cOzTPg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新能源电机vs工业电机_区别在哪你真的造吗__images\img_002_a5d42c5b64f1.jpg)
 
   
 
@@ -82,7 +82,7 @@
 
 驱动电机作为新能源汽车三大主要零件之一，如果说**电池系统是电动汽车的血液，电控系统是电动汽车的大脑，那么电机系统是电动汽车的心脏。**在新能源汽车中使用电动机取代发动机并在电机控制器的控制下，将电能转换为机械能来驱动汽车行驶，是纯电动汽车的唯一驱动装置。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xqwozZXfMRgBD2nv1Zbr9iciccDKKTUSxqHSHpZDcKNAeeXMZpZ9W7X378HiaPwKSf6JrPt56PJkqgibfx4oHKFDDQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新能源电机vs工业电机_区别在哪你真的造吗__images\img_003_f0c4de57d254.jpg)
 
   
 
@@ -104,7 +104,7 @@
 
 **开关磁阻电机价格低、电路简单可靠、调速范围宽；但震动、噪声大，控制系统复杂，且对直流电源会产生很大的脉冲电流，**用于大型客车。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xqwozZXfMRgBD2nv1Zbr9iciccDKKTUSxqbCr2fgms5TQu31C3IaIrgJ0DvhkLyEHTaRe4Z1SUoKsicK9veWIZCcw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新能源电机vs工业电机_区别在哪你真的造吗__images\img_004_da72bc685cef.jpg)
 
 驱动电机性能指标对比
 

@@ -6,7 +6,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\半年营收80亿_全球电驱动_龙头_冲刺港股IPO__images\img_000_d8cb52582ba8.jpg)
 
 
 来源：电机通
@@ -19,7 +19,7 @@
 
 全球电驱动龙头，半年营收80亿
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/NRdmZasKgBibrnQ8cmvA8aaykVATeOVgleZcLrur2xJFKNdfYrQic11ot3sV5jzbLIDBkmIulpOUjSmrkaSRdSYg/640?wx_fmt=jpeg&from=appmsg&wxfrom=13&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\半年营收80亿_全球电驱动_龙头_冲刺港股IPO__images\img_001_a419cee2adcd.jpg)
 
 公众号后台回复**“卧龙电驱”**获取完整招股书信息
 
@@ -53,9 +53,9 @@
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\半年营收80亿_全球电驱动_龙头_冲刺港股IPO__images\img_002_3ccc50bba2ef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGTdAQI2qpV97qAmOqeibaIiaKVLIks3YeQgIOyX5ia8tqVf9AFgW3XZ8Lw/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGk0C4HQwvywiaCRaw753uY4ZQdjaYicMhbrRdySb1xNFYzMAMNV8icFb3Q/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\半年营收80亿_全球电驱动_龙头_冲刺港股IPO__images\img_003_6eec1b7fb41b.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\半年营收80亿_全球电驱动_龙头_冲刺港股IPO__images\img_004_1798abd6d288.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\半年营收80亿_全球电驱动_龙头_冲刺港股IPO__images\img_005_1862cf7fbcf8.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\半年营收80亿_全球电驱动_龙头_冲刺港股IPO__images\img_006_dac57d0b3024.png)

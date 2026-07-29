@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/hhnIUyyTnKgD26eHFOEJpA](https://mp.weixin.qq.com/s/hhnIUyyTnKgD26eHFOEJpA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vE2ZIG5VErUiaic5Uovdb28y7P5QYtqjXS963OUGN1gZticMCCPchusnOMBhEuCvwJ9JdO7pugDP1XA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\特斯拉机器人再次提升的关键_轴向电机与SMC材料_images\img_000_a02001b809a1.jpg)
 
   
 
@@ -15,9 +15,9 @@
 
 轴向磁通电机特点在于其磁场方向为轴向，软磁复合材料SMC的出现有助于解决轴向磁通电机生产工艺难题，可以提升轴向磁通电机生产效率，降低生产成本。轴向磁通电机质量轻、体积小，具备更高的功率/扭矩密度，在电动汽车、人形机器人、机器狗等领域具有应用潜力。随着生产工艺的不断完善及成本下行，轴向电机有望助力人形机器人实现轻量化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hd0icE4NfrqWo5BBYkrMaOuUlIgFez04qC8YUQvAMMxEsISGk0xrEl2TBdcCsASK05E9jFpYCT4LzibgvdQ4tXnw/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\特斯拉机器人再次提升的关键_轴向电机与SMC材料_images\img_001_1815d0c6576f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hd0icE4NfrqWo5BBYkrMaOuUlIgFez04qozCe24ibTgvFF2gPujWiciaOYhEemhDO3ic2YfmSS6ZAlaTRcA9J3v1ialQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\特斯拉机器人再次提升的关键_轴向电机与SMC材料_images\img_002_698d4b3c48ba.png)
 
   
 
@@ -31,7 +31,7 @@
 
 与传统径向磁通电机对比，轴向磁通电机具备轻量化优势，能够节省空间，功率密度、扭矩密度更高，可匹配小减速比减速器，铜、铁等材料使用更少、损耗更低，具备更高的效率，但对轴承的强度有较高要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hd0icE4NfrqWo5BBYkrMaOuUlIgFez04qC0AEzuXo4rYnuIDDDloHt2Hlf8sUVMyKazZibF36Sc3DlkBOyjvZohw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\特斯拉机器人再次提升的关键_轴向电机与SMC材料_images\img_003_46956b7ae442.png)
 
  
 
@@ -47,11 +47,11 @@
 
 轴向磁通电机有望助力人形机器人实现轻量化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hd0icE4NfrqWo5BBYkrMaOuUlIgFez04qxContBlnNkzicPJMtKKNKaAU6WW5kDb71fUQxfBibu4K37pdavA49yuw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1) 
+![](D:\电脑文件\公众号知识库\电工_行业资讯\特斯拉机器人再次提升的关键_轴向电机与SMC材料_images\img_004_f62fb76f7df2.png) 
 
 根据人形机器人的设计原则，机器人关节需要满足质量轻、体积小、大扭矩的要求，相比普通伺服电机，轴向磁通电机结构更紧凑、扭矩密度高，契合人形机器人要求。随着生产工艺不断完善，我们认为轴向磁通电机有望助力人形机器人实现轻量化。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hd0icE4NfrqWo5BBYkrMaOuUlIgFez04qw2licT43CicibNRA7KZ8JLxr1eicpybs7WlzLOIysSg17UyetrIBr8RQyg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\特斯拉机器人再次提升的关键_轴向电机与SMC材料_images\img_005_fcda7fcbd898.png)
 
   
 
@@ -89,7 +89,7 @@
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\特斯拉机器人再次提升的关键_轴向电机与SMC材料_images\img_006_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\特斯拉机器人再次提升的关键_轴向电机与SMC材料_images\img_007_e8e68bdfc1b3.png)

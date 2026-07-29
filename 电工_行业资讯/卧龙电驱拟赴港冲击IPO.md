@@ -4,11 +4,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/BR4K8K\_ge39\_fsHbo5Jw9A](https://mp.weixin.qq.com/s/BR4K8K_ge39_fsHbo5Jw9A)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0suic3j0yP9NUhBMgibzkibDRE64T0hpovEibp9cYwo8Iw2sibQROwkibiaz4IIhmtPnFIuskfiaG28XRSmmw/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247580512&idx=2&sn=f8e9cd497def449e2bc7f9f0e5aa4791&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\卧龙电驱拟赴港冲击IPO_images\img_000_c66cd6ca6268.jpg)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247580512&idx=2&sn=f8e9cd497def449e2bc7f9f0e5aa4791&scene=21#wechat_redirect)
 
 △点击图片报名参加
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\卧龙电驱拟赴港冲击IPO_images\img_001_d8cb52582ba8.jpg)
 
 
 来源：电机新视界
@@ -19,7 +19,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/7KcgpBE2Jbp5HnqvzN0c2WLZVuPqMG0ENHdK9rqf2IqufmCWhtCQQmnIn6TzQUKhRyZENJ3XUrORTKLbjJqQgA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\卧龙电驱拟赴港冲击IPO_images\img_002_0b8fc9e8332a.png)
 
 ******卧龙电驱**指********，公司计划与相关中介机构就本次H股发行并上市的具体推进工作进行商讨，关于本次 H 股发行并上市的具体细节尚未确定。****
 
@@ -31,7 +31,7 @@
 
   
 
-![上市公司｜跌回“起点”的卧龙电驱 卧龙从年初的香饽饽，已经慢慢变得无人问津。但是，基本上有电出现的地方，就需要用到电机，卧龙下游客户群体丰富 ...](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0u7fjZOWJrQ4qXJQ79WT0Xk825L6HxtCaAMianAT1ohwV2cTOUcyzzvC3MqsKZB9g6oZuMloWtlAog/640?wx_fmt=jpeg&from=appmsg)
+![上市公司｜跌回“起点”的卧龙电驱 卧龙从年初的香饽饽，已经慢慢变得无人问津。但是，基本上有电出现的地方，就需要用到电机，卧龙下游客户群体丰富 ...](D:\电脑文件\公众号知识库\电工_行业资讯\卧龙电驱拟赴港冲击IPO_images\img_003_58ff6ae4b945.jpg)
 
   
 
@@ -69,11 +69,11 @@
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\卧龙电驱拟赴港冲击IPO_images\img_004_3ccc50bba2ef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGTdAQI2qpV97qAmOqeibaIiaKVLIks3YeQgIOyX5ia8tqVf9AFgW3XZ8Lw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\卧龙电驱拟赴港冲击IPO_images\img_005_6eec1b7fb41b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGk0C4HQwvywiaCRaw753uY4ZQdjaYicMhbrRdySb1xNFYzMAMNV8icFb3Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\卧龙电驱拟赴港冲击IPO_images\img_006_1798abd6d288.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\卧龙电驱拟赴港冲击IPO_images\img_007_1862cf7fbcf8.jpg)
 

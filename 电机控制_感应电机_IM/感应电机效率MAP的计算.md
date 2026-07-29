@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/et08XXZRb-lDv1hU1COWWQ](https://mp.weixin.qq.com/s/et08XXZRb-lDv1hU1COWWQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tR6ibHibXQwRvAgf6ia352mOJAgKa3qV8nHpFhYYibslVUltyib6naMTdyzG46f4SEoMicmAfx0VbynC0A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_000_ea977e48a43f.jpg)
 
   
 
@@ -49,7 +49,7 @@
 
  - 绕组相电阻:0.015Ω
 
-![](https://mmbiz.qpic.cn/mmbiz_png/l1rwDPAH441kmc3S8K3eqLiaj6Lgbet4hBDA3CyJKrvNhliczMicPLJHMpG8g8dlic0dhxonHVjaibc4YkFIHlJjaGg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_001_847cd9979643.png)
 
   
 
@@ -79,7 +79,7 @@
 
 ▫ 周期TDM: 定子和转子同频率可以调用周期或半周期TDM算法
 
-![](https://mmbiz.qpic.cn/mmbiz_png/l1rwDPAH441kmc3S8K3eqLiaj6Lgbet4h8Gj2eiaBN1RBYTKF9UKtdArQm9O0TibThSN5IQer9w8Np3VBNc8XvzXw/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_002_e12bffadf71b.png)
 
   
 
@@ -105,7 +105,7 @@ c. 在工程名上右键，然后选择Project Variables → Add
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/l1rwDPAH441kmc3S8K3eqLiaj6Lgbet4hBy3RNnId3G7fQiasv5Xh57ShlsibibqPXiajN6zQl5QjPjrFdA3Sxia9eJA/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_003_a958518196ed.png)
 
   
 
@@ -119,9 +119,9 @@ c. 在工程名上右键，然后选择Project Variables → Add
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/l1rwDPAH441kmc3S8K3eqLiaj6Lgbet4hjztC8iafe8H6sssMu8QO4NzibEsogdfKMK5cbVKvFO21TI4KXnib5V79w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_004_638a03215b77.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/l1rwDPAH441kmc3S8K3eqLiaj6Lgbet4h4Mj4mxdaMuwtDhTBGRpXBwvKsX0ykDU9wqbPAuO7zD4Y026ADFFZ0w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_005_786a61ea50de.png)
 
   
 
@@ -133,7 +133,7 @@ c. 在工程名上右键，然后选择Project Variables → Add
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/l1rwDPAH441kmc3S8K3eqLiaj6Lgbet4hJ3KFxFrMdKXyFzib8yRdAdUmgUicC9xlO2RsOZ9ex8H8wHlE463t35UA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_006_7181ae7c6936.png)
 
   
 
@@ -143,7 +143,7 @@ c. 在工程名上右键，然后选择Project Variables → Add
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/l1rwDPAH441kmc3S8K3eqLiaj6Lgbet4hN8WAS5GMFmsMYPicKgUqzRNMoGLRuibf28e5cpOYUXGRXUhjOKB871tg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_007_1da4d25dbf82.png)
 
   
 
@@ -167,7 +167,7 @@ c. 在工程名上右键，然后选择Project Variables → Add
 
 ▫ 仿真的电机运行模式:Motor
 
-![](https://mmbiz.qpic.cn/mmbiz_png/l1rwDPAH441kmc3S8K3eqLiaj6Lgbet4hrDAQA1FAwcUbEOZjoAdybQeGRj8eIrWe2HIEbADaRRzrPC0kca9qqA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_008_7d7a4c4e88ef.png)
 
   
 
@@ -187,7 +187,7 @@ c. 在工程名上右键，然后选择Project Variables → Add
 
 ▫ 最大转差率: 0.8
 
-![](https://mmbiz.qpic.cn/mmbiz_png/l1rwDPAH441kmc3S8K3eqLiaj6Lgbet4hZAiaib0y9d6NwopiceZqeGPMWnhWHgmuRGicarsiaezvSeSV8dTHVEw18pQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_009_815de7930a3e.png)
 
   
 
@@ -203,7 +203,7 @@ c. 在工程名上右键，然后选择Project Variables → Add
 
 ▫ 机械损耗：摩擦损耗 87.5W，风损 87.5W，参考转速 4000 rpm
 
-![](https://mmbiz.qpic.cn/mmbiz_png/l1rwDPAH441kmc3S8K3eqLiaj6Lgbet4hunweXvCHJKBejYXakcW8FXb0nXnCfNKgLiamJDaQjBiayyUjwoC03w9w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_010_b72d702f09c0.png)
 
   
 
@@ -219,7 +219,7 @@ c. 在工程名上右键，然后选择Project Variables → Add
 
 ▫ Toolkit将会自动创建新的仿真设计分析文件，求解参数列表方案，创建图示结果
 
-![](https://mmbiz.qpic.cn/mmbiz_png/l1rwDPAH441kmc3S8K3eqLiaj6Lgbet4hjpDyTaHKibYBRY8snM9fFYJAEzdcAElGXt9HHYYUVSsfzvGWy8aoicuQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_011_e2b8dc53c49e.png)
 
   
 
@@ -241,7 +241,7 @@ Vmax TSC:285.77V【极限的线电压有效值: 350V，单相峰值电压=350V\*
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/l1rwDPAH441kmc3S8K3eqLiaj6Lgbet4hYyyianp1ib5JcEZiasrdvFTMm8cO1DZ6snW4FlR8ac3qxL9efzGPPPcvQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_012_576eb7f152aa.png)
 
   
 
@@ -249,14 +249,14 @@ Vmax TSC:285.77V【极限的线电压有效值: 350V，单相峰值电压=350V\*
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/l1rwDPAH441kmc3S8K3eqLiaj6Lgbet4h3cKVl7Yxqc0VsvNZcNvs9gS3s2zvtloPgDQcjHRwten6SSPqHS9Ktg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_013_9fdccd9c469f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/l1rwDPAH441kmc3S8K3eqLiaj6Lgbet4hYWMD50u0XDiaPNJyQBygoMmKybK4iaWezCNfAAQjbunMwrLXnrD5LWqA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_014_9469a7667787.png)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0uibkIvkAHOPtHA9gym3XODEWrQGWXmjNHrmp8Mp3Mv8wdYjoiaNyL1EPibFpmHlcYK1m1wplSBia5vXg/640?wx_fmt=gif)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_015_a3efb375477c.gif)![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_016_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\感应电机效率MAP的计算_images\img_017_e8e68bdfc1b3.png)

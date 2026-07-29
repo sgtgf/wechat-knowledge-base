@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0teiceibxaxXjXW1A56HF7tkg1BqF80Fy26bEAcYgkwymmYr8esIUc8xHrJXFogdcvjAtgMicfQLJOLA/640?wx_fmt=jpeg)  
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_000_2a1ae17a00a1.jpg)  
 
 **来源：网络  侵删**  
 
@@ -18,7 +18,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7gibDcI60BAm78Z4bygVzhTics2ILxDhTMGdKpOgcicTgEJoBBzQWnqc9eYffI0E4AFfflFia2ibtZp2yic4sZWtndxg/640?wx_fmt=jpeg)
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_001_0610d9f30237.jpg)
 
   
 
@@ -30,7 +30,7 @@ IGBT(Insulated GateBipolar Transistor)，绝缘栅双极型晶体管，是由BJT
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7gibDcI60BAm78Z4bygVzhTics2ILxDhTM9zSvyHKgHzZ37gKarXIiaLficwnRFh8icRzNeAvmKRY7lsQmEQ4KUxQxQ/640?wx_fmt=jpeg)
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_002_f5133d975404.jpg)
 
   
 
@@ -38,7 +38,7 @@ IGBT(Insulated GateBipolar Transistor)，绝缘栅双极型晶体管，是由BJT
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7gibDcI60BAm78Z4bygVzhTics2ILxDhTMd3BS2qXOlSsCv7ReKBOakR2DnS8LONe2ZVKgPgzGxL75CYlGoQL4Ow/640?wx_fmt=jpeg)
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_003_2888d26c0544.jpg)
 
   
 
@@ -50,7 +50,7 @@ IGBT(Insulated GateBipolar Transistor)，绝缘栅双极型晶体管，是由BJT
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7gibDcI60BAm78Z4bygVzhTics2ILxDhTMC7WKyawC5amlJFoRNKibBD0xnUMo9PAmUduyz7BvtavdrcPiadhfVwOQ/640?wx_fmt=jpeg)
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_004_d57771fd3c80.jpg)
 
   
 
@@ -102,7 +102,7 @@ IGBT(Insulated GateBipolar Transistor)，绝缘栅双极型晶体管，是由BJT
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7gibDcI60BAm78Z4bygVzhTics2ILxDhTMhoicV1uyibej9DTdGBm4XVgW2FNK6iapKP9gm3QCymFxeImIeMolR6rMw/640?wx_fmt=jpeg)
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_005_3a84cb058a0c.jpg)
 
   
 
@@ -128,11 +128,11 @@ IGBT主要运用于电力驱动系统、车载空调系统和充电桩。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7gibDcI60BAm78Z4bygVzhTics2ILxDhTMxaNqfIuun6dxqQcHBvQnkmTSttpQ0434tDQ3hhOwzV9QiauBJib0z7OQ/640?wx_fmt=jpeg)
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_006_dcbfb4977d4b.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7gibDcI60BAm78Z4bygVzhTics2ILxDhTMbbXBusSyG7xtjdjyDet1N1l0g1Jpia2lSKOIH5jQkgCicpoPkibiadINhg/640?wx_fmt=jpeg)
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_007_4f7a82d7bedd.jpg)
 
   
 
@@ -148,7 +148,7 @@ IGBT主要运用于电力驱动系统、车载空调系统和充电桩。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7gibDcI60BAm78Z4bygVzhTics2ILxDhTMI6aic38uqfqmjBF7IFzbMlL8ibOZEwicQ8qJ0OEicQmygyoIjpzz7oMrYA/640?wx_fmt=jpeg)
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_008_f1b19db60df3.jpg)
 
   
 
@@ -176,7 +176,7 @@ IGBT在轨交领域已经实现了技术突破和全面的国产化。动车组�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7gibDcI60BAm78Z4bygVzhTics2ILxDhTMB9oCy2jb1cB0qHSroXM2Dbk3XPPMYwicqSjyK2QnII6yFrdkzVXtM3Q/640?wx_fmt=jpeg)
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_009_bf2c2b3dd3f7.jpg)
 
   
 
@@ -190,7 +190,7 @@ IGBT在轨交领域已经实现了技术突破和全面的国产化。动车组�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7gibDcI60BAm78Z4bygVzhTics2ILxDhTMycAlY3c8T47BoZx2R8icKy1jke6TGI1ueeVKac5kYd5LJKoNU5XWkzA/640?wx_fmt=jpeg)
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_010_da8e79e7a17c.jpg)
 
   
 
@@ -210,7 +210,7 @@ IGBT在轨交领域已经实现了技术突破和全面的国产化。动车组�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7gibDcI60BAm78Z4bygVzhTics2ILxDhTM5gaqOxZKpTU3RzYgtKwhzPF9Sib4SXte3bdLtpEXPNQ33qIOC83oibicw/640?wx_fmt=jpeg)
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_011_db3fbc0eef24.jpg)
 
   
 
@@ -222,7 +222,7 @@ IGBT在智能电网的发电端、输电端、变电端和用电端均有广泛�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7gibDcI60BAm78Z4bygVzhTics2ILxDhTMylqibpwLMN6XDkPTiaUQwyfdJgcKonwxG76xibqaaqaJbemqVh1on4y4w/640?wx_fmt=jpeg)
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_012_5ba9c52cae3b.jpg)
 
   
 
@@ -230,7 +230,7 @@ IGBT在智能电网的发电端、输电端、变电端和用电端均有广泛�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7gibDcI60BAm78Z4bygVzhTics2ILxDhTM6kXp9KIbraWaMoe22RPqUEGuKwl81Lqkzy6haBcfZvAa1fNwVqc9tA/640?wx_fmt=jpeg)
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_013_209ccf92e483.jpg)
 
   
 
@@ -254,11 +254,11 @@ IGBT在智能电网的发电端、输电端、变电端和用电端均有广泛�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7gibDcI60BAm78Z4bygVzhTics2ILxDhTMaaic5HnNaqXnMAJ5HLgGP1JMg08XZsYRib6SiczUCRRk5KvrXF77uwGwQ/640?wx_fmt=jpeg)
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_014_fd735970bc72.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7gibDcI60BAm78Z4bygVzhTics2ILxDhTMOjaHA3rssicibsybZiauR1OYC5S8GCSWPOr49ibJnCl1nsuzZqzGTla3icg/640?wx_fmt=jpeg)
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_015_6ef4eb6a4e67.jpg)
 
   
 
@@ -270,7 +270,7 @@ IGBT在智能电网的发电端、输电端、变电端和用电端均有广泛�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7gibDcI60BAm78Z4bygVzhTics2ILxDhTMMuHqB758ohrV1SLtkYmQGWLiaA7ncY3REGgW6tUia04Votp86waO0IHQ/640?wx_fmt=jpeg)
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_016_cbd1f644f1fd.jpg)
 
   
 
@@ -282,7 +282,7 @@ IGBT在智能电网的发电端、输电端、变电端和用电端均有广泛�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7gibDcI60BAm78Z4bygVzhTics2ILxDhTMzicfbIdicWRn3exxLiaianXOWICksiaNynPdCSzQqLFriccaLu2iaJGC6r2Pg/640?wx_fmt=png)
+![](绝缘栅双极型晶体管（IGBT）行业发展研究_images/img_017_792b9705d108.png)
 
   
 

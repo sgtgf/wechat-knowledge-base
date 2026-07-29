@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t9SFhkt1HAm4WT89Y7MgPIcE263x4dAC4wt5Fiao2obORomDjicvEF3U1v13KYFKjtmZTtJVggnDCA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\GMCC___Welling获评国家级_绿色工厂__引领绿色制造新高度_images\img_000_3d78c7467519.png)
 
 **
 
@@ -86,14 +86,14 @@ GMCC & Welling不仅是绿色制造的践行者，更是赋能者，以自身的
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\GMCC___Welling获评国家级_绿色工厂__引领绿色制造新高度_images\img_004_31a98b8e3167.jpg)
 
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\GMCC___Welling获评国家级_绿色工厂__引领绿色制造新高度_images\img_005_ec5921db28d2.png)
 
   
 

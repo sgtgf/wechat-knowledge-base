@@ -1,5 +1,6 @@
 # Boost升压电路图解看得明白不复杂
 
+原创 电路一点通 2026-07-24 11:28 广东
 
 > 原文地址: [https://mp.weixin.qq.com/s/yXMuGWhGeJyXQXDVETOC\_Q](https://mp.weixin.qq.com/s/yXMuGWhGeJyXQXDVETOC_Q)
 
@@ -32,34 +33,34 @@ SW节点面积不要太大；
   
 来源:Ian的硬件调试笔记
 
-![图1](Boost升压电路图解看得明白不复杂_images/img_000_7c537cf5ef89.jpg)
+![图1](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\Boost升压电路图解看得明白不复杂_images\img_000_7c537cf5ef89.jpg)
 
 图1
 
-![图2](Boost升压电路图解看得明白不复杂_images/img_001_d3603480cb6d.jpg)
+![图2](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\Boost升压电路图解看得明白不复杂_images\img_001_d3603480cb6d.jpg)
 
 图2
 
-![图3](Boost升压电路图解看得明白不复杂_images/img_002_6bf4e650c343.jpg)
+![图3](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\Boost升压电路图解看得明白不复杂_images\img_002_6bf4e650c343.jpg)
 
 图3
 
-![图4](Boost升压电路图解看得明白不复杂_images/img_003_f78c7349f76d.jpg)
+![图4](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\Boost升压电路图解看得明白不复杂_images\img_003_f78c7349f76d.jpg)
 
 图4
 
-![图5](Boost升压电路图解看得明白不复杂_images/img_004_43c927d2d112.jpg)
+![图5](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\Boost升压电路图解看得明白不复杂_images\img_004_43c927d2d112.jpg)
 
 图5
 
-![图6](Boost升压电路图解看得明白不复杂_images/img_005_1fe7ca1bd54b.jpg)
+![图6](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\Boost升压电路图解看得明白不复杂_images\img_005_1fe7ca1bd54b.jpg)
 
 图6
 
-![图7](Boost升压电路图解看得明白不复杂_images/img_006_543c8cf894a5.jpg)
+![图7](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\Boost升压电路图解看得明白不复杂_images\img_006_543c8cf894a5.jpg)
 
 图7
 
-![图8](Boost升压电路图解看得明白不复杂_images/img_007_fe21b9f441b8.jpg)
+![图8](D:\电脑文件\公众号知识库\电力电子_DC_DC变换器\Boost升压电路图解看得明白不复杂_images\img_007_fe21b9f441b8.jpg)
 
 图8

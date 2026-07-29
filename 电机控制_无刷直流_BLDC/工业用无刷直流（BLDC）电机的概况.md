@@ -8,7 +8,7 @@
 
 **关注我们**
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vyvdvAWIec3SO8vVjAWxibWvykjIO7ibxtpVoqKTkc4wShVT1wxpOZEbRZibdzYs1TWAsgPCxnuwNLA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247604627&idx=1&sn=088f72297c96fac8deab834e6782c326&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\工业用无刷直流（BLDC）电机的概况_images\img_000_0cdbef7924ed.png)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247604627&idx=1&sn=088f72297c96fac8deab834e6782c326&scene=21#wechat_redirect)
 
 **来源：网络**  
 
@@ -18,13 +18,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/MVK3XX1g9Kw9taSEjOvkA4CVOoc1ocCpOXV9SanWKSib0jh3ZnLwGszYiclkeKxOW5goib2TaiaomutvSicH99GZ18A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\工业用无刷直流（BLDC）电机的概况_images\img_001_b548dafd342c.jpg)
 
      尽管需要复杂的电机控制器，但是BLDC电机的结构简单，在低能耗，高转矩和非常宽的转速范围方面，提供了BLDC电机无法提供的一些固有优势。BLDC电机采用由内而外的配置，转子由一系列永磁体和一个固定电枢组成，转子由电子换向控制器激励，与有刷直流电机相比，BLDC电机具有更好的散热，更高的效率和更高的功率密度。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/MVK3XX1g9Kw9taSEjOvkA4CVOoc1ocCpwAEF9x5PH5JEaD0XbicST0OqppM3TZYzV9sLNJhNXcwg4XWWYZ8qrQQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\工业用无刷直流（BLDC）电机的概况_images\img_002_b0333f8c732f.jpg)
 
   
 
@@ -46,7 +46,7 @@
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\工业用无刷直流（BLDC）电机的概况_images\img_003_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
 
   
 

@@ -8,187 +8,187 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tbNsCFC0AHia37KF8iciapax1xHicVnLQN4FKqwxAqCXibgXqQ0e3aqvYQ26pvERgY4JibS8LYZOPWa5pA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_000_86070280ef99.png)
 
 
 来源：电机及拖动基础  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlQkicibO0RzQRVLwdro52eUA3WrgoyCnDThOIkW9QeJYRr8OnDNkZySGQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_001_d63e7f9c83fb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHllSnXIEBP1qUeEGCI5fLgHR0ZLsST2krCwtIAMFg0nkibXOJFH8qw1iaQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_002_d7847a94c658.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHle2PON8ZcHBXMZWOE6gdq3WaIXQSibKibQsXwictRhbiaibxPicYic9mPdNqjA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_003_e74569bd0b0d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlzp1ibnlkRcaMsbrxPkYLXB9HNkicsMZ7W8naFbibej7gHHex4l4CHQa9A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_004_127d2c617901.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlF3UMQpXMXHcIPhib4BI0hcu26GP6dFYnZabuTY3Hpzed8OSDhyxgr6w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_005_a7924aa9cc61.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlSXicAgpGezBsgkDp9O6kQgDj9WwYTP2wibBymc6uwBvy6licjhgwvOK5w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_006_93f6b715c828.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHl3Z4l0Rjia2HEABjPyO7K4xhrAUZrY3z0cTyuakicib2q7BXCW8icatibBicg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_007_1c10680862b3.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlaoldz9xjvSHAsuGwAadvExh0BnXibpZN5VHzq19sIlS1voVTibsbbdEA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_008_6fdad25bca0d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHl7viak7zSy2ONZxiaLlCvckibXt6dvgkOLu8AP1ZW1PN8nEN3f78e3t7bQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_009_55777bb5a5b5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlVS3DfUgRDVrJIKncoGk294XZsicEw9sOrh27bdo6VyJd9nrK5xyS0lw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_010_e8509a79a9f2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHl4xPic8KUNvNyEjSiaVJN0ykh0TAXHRtQDqIBu46ee4BEBnOnnzU5ojZA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_011_766f1f6a8ac6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlq9ewJRRm9BYD17ZaEmGXXIwibcrcFNmlszKDibia7vicxV9WVnQZ4YPvdg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_012_c27c804cca30.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlhSCRxguPtYFx0dvQbicwEmryCMVcSQJZyz8Vkjbj9oVyVVpUTw6yazA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_013_51b5260e0231.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHl6WroYYNhbHl5e0MHKcjj1licxHSMGmVCT98SoxF3eb4VdAQmThsfiaQA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_014_863da9d9619e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHl7QyO8FqAj2mpjUdRMu4WA4XxTSgxPQzAeMaPRprntz1t2tkUmNAKVg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_015_be6f04d3f835.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlHD8s4LKT8jaM5hYBQmzY1OSOI9tPMkInMRYnQXzZUomRcMvusKVq8A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_016_1bdcdc5f35c0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlfib1J6ibHX1wgVce6B89otTJHTEicLicGmsEyKdAHl6reUiagK7jtVH43BA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_017_14ecf82fa162.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlnGIIicEWy69vexibTL2UQw9fp6EZogvZ7G41UMgAOLcAPLKX1wryCvkg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_018_c3b6d947f510.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHl31ACRae0ULJgEUlAKLxcWnYanibcjm9ZUicrRDV3ObiabpFSBMhJBicHicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_019_d80a4fcf70d2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHl8oDMiasoYSs3jRLJhqCLlAibLAe0DfxkCZNUewkziauj6x7worFAWPCKA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_020_a626ef3b50d8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlfVFgdGulicljhhEkKACLfwvsut9zgiaWRGicellRJjibdBInMKGSPSld9A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_021_42e38f3096f6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlqnfUriaSFNzbQNGZ8M0N0hIdIy6Ut0m7IThRlqr424IBF9rSoPoWvNw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_022_504e940085ca.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlZqdLp6UQWeXsypdic9McwYB0z0Y58yY2Y81jAXO8BMcwPicXGCnrTP5w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_023_ec71c35d8053.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlsK4ylB4lowCsia3xokRECIEkoMaxKKswhqsvcB7yrG3mMAg1O6pFO4Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_024_c674c571defe.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlIaOGlvputEheaTCq4ERCo3rzTMyYibBH4bQEbDXfoqeS0T364O1eRUw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_025_14abdf4b40f4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlLhQ0RFrnT3ULHIRiaDufPZYqEGujfrwU8lfOic6rAIG6ZbJABuwnT6Vw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_026_ca021c162e60.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlLVJ6YNKR7huPWWOPiakKP0VokMpQJjkeMLwst5Y5ib2Zsdh62S8XRicibA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_027_033eaed65b1d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlzv7n4u98RNR5CcoLJILKHQoXiaqGGGWzw5micsPshVTQ5zpanApUiaRCg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_028_d500672e8adc.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlOOZ4edHLj1oMtDgcX1U3Wgvib2g7CNMqJYKg7AaqG1GnyRs2ZWnVkuw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_029_901ef78cb665.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlyAf8pAiaxYJUwRpzWOH733Ds7EBbqJf531GLcDycBZ4sYpdtDlsEw1g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_030_3adc18b5aa45.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlvTfiaibM0nRAMUr61NMgHrTa65nQty1CVFWMHAdxS1gkZYOeOf2NcTsQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_031_d3680e8e5298.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHll69g9yNFic4pz5ViaGtVDQIaibOSm9t3WK2o3jxTm16Eh0JCABXaLmLYA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_032_c984b758fdaa.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlS47IVKGRsTgxFDFTM7FWibON2DGZVFG0V75ibAickOxhNibhdyBI0SUObw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_033_ff1c2cc22b55.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlUxXsJxoDWiaR2c4HOkEV8DRiabicyYQ78NdROmpMLdul6qFIHCF5zbLFA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_034_4de085708b15.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlwczIhc1YNldDwjNiaMf707Bc9ynYyZXloJUSib1zicZnYiaYiaWNIqqhpnQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_035_cc4e9c617153.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlVqL9HOiaypFErGUCutwibG0Whahtf5nAVmlKfAjF9R0lk5bYU0rserMA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_036_d3ec01c824eb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlDujZk5kUPJmJaQa6b9Vw495XPWy73H52sYUN1koSdvTeY9xwj32micw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_037_b53c8a323fc6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlOubOv0Nib4ibvvn18m8AkECTKfmapFsIW2CnrYAsSUjtcqLFVbuN4Wag/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_038_075509adf3e6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlWicwadnc8wmjT0giaWYicIUtibJo5SDTuNDvm4J3KXhtTlU9eQ0nAoKxXg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_039_2629aeb11399.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHluTMS3ZgBibFECTAciczpjhFoQlnAXuGZtibHDRXh4fYqLgxiawFNHybKrQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_040_3b35357a902e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlSW6z0EU6xtqs95egc02YU1RzW36BdX3XYNTKPYL8U2mCOibebFY6pUw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_041_263e0dd73140.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlIdsQIbRLhGnUauxqps4bY0fM4OXyUyBBumiaSjcpa6ChibOFiaYvq7WEw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_042_a5c8b82115b7.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlwOojwiaQ9Hjnxl6yRxvWkCyqsyoaqwv9qGtzxEzrEIcE4X7aaPXM5ow/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_043_a768f824505d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHl4yoVcM5Kn6ffUfEf4eAwC4wAQ6y9Rml9pI2diavIzjVDKUyoYpEAa4A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_044_24462cfda089.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHl5iaCJpsV5ibOK3t87Dwx5xISJVUej4CAIpFYUiaPSLXsibR8xt5owanicjQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_045_302aa1d06d1f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlW6u01oB8Rk5VMJnuUTRV4eqTzKFbmagbhHk3SJZMPfiazm1libkmYadQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_046_7273e48d9b24.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlohUfVZxQz9UxvVxRQguEnJxQ3QiaW5UqbIPRdicuXGsBR9PeIu9nDtrw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_047_e9ad528fec99.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlhjYRs7zE6GMkwEia1G4ompzAgzznUHbtFyls4ibhlNteCic19eEVvbvxw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_048_2e6d77ea3ea4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlx7xAePCaTlLAtptdStxTnuRPqKA73X5gC6gkcj6Jnvuicy9vibDeHoMQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_049_55e816b6dc3e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHleIV07UsNFTlHaotTL3Lyk5IEbQ296ViaP1TLqfUoNrDB1dSOqGvpoXQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_050_66aa64b8a338.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlQsks2dNeGXrPyOdnzATRJ2PxeGTt5gnG1MEp4bX6msMt13kSTAchCg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_051_6891c7a6e411.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlicrYfbMbXXQmiaOA8hPZwSyxzvPv0lajjK4d5kS1niahJ9J8Bmg5vjZSw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_052_2f4bf2bbb1d9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlGhuQWsd4C8j24luApI0wFbmTGnmZ1LxKXiaU8d3bFzVxov0VFfxPuaQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_053_1b3932637760.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlyjeAiazN0j126FReeTjHbYGwxFIUaicBicaahEB5IoGn59BzLVoKEDvTA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_054_e7c9771011d1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHliaU6yK9TwnMdXcKhbalMNIHQLic9p4AczIcJH66Yqo9a5ugJm6lAd7HQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_055_82c2adca06b0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlIqNLFdkHUsiasUfuNuX1lQcZAkhT6LSVbmnUbejYmSmjMIKNW1SjE1w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_056_7a793f36b5ba.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlNTA9OatwPXIft8ibl0ia7awW7xmxRMTbFHUy2dqEI1szwfoPfptMlVdg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_057_917566cb363d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlRP4S4Tn9oDUxq72ia7OVbdBlgb8qsKne834h2IKib8iapFG3YWmICJTAw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_058_291458f11740.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlibkpv796E7o2vrffMA9PK9wJbE6iaibukeZa8Zlz8Efnaz7LWib51HO2hw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_059_17dd15d39e96.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHljhqs8WVfLzSbCEjpl8ngRho9YzIHLsBrsxUySOvePibrsOUHvaBUkXw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_060_29ba1051a658.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlvwicSSVTDcwpwg13P6gYCxRzWwTNyr5nwcY6go72FibLtYwoFgnWsQiaA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_061_af88dab5c608.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlC5YzG872ILtm8rfpXjGvibkDQELoiaz0yQXKES30OuyCq0aKQTB92qLQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_062_f14de55dff7b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlNzfZDBbSFRy64kH9WtCznlG0YFz04zkC7fqcAwiaYQJxbRqNVH9YT3A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_063_7aa2caaa427a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHljYg4SsduWYZLx665prOib6icCHRBTJ1LCc4GAjl3SheNYvmu2Q165f9w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_064_07852fd1785d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlzLYDsqNB5anX5q0V91ibMSJqHJf7YFSEH66cydHLosPcBkIFicG0dkqg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_065_0f0aba3973ea.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlibcVPQC8vYE7qqWkwMS66E3turOL97Tj9I1P8Lia8RbTbQYHib1955euQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_066_5a2c3830f348.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlxZnEkPic3BseXYT42zySq9Jp7P9spXWZwCncPqpTDdXyMaia1QRLiaeHQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_067_afccb36a86ef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlLHLq4FZKTicsic2zibNibtfYFjE7nLN6emIIkuAEJBErqpmicw7rfqqfSuQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_068_0e35fa7495a8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHljgUhibKIVn4u0DxsrVicl7OZib1I29V2S2vqDPuDZlBazzFS0niaTKGqqg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_069_767172927a76.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHl1cuCbibicKYpIyQlxBeedbM8lWmeb78XhxhpLXnRVnHvJqg60FCcAxxQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_070_89ba934445ec.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHls0NA856T7puxRQANSO8feic7B0K7w6wlBeQHVAcBrNZPJGsUg6J1mzg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_071_8d134b0f689c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlziaSUymiaWeDD6obOlRfgbpnIzHkmEqtcOleib2x8SXO06RkJibovbQuSw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_072_93664bfefb1a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHl0zFzymTKbKTXVUAIb9micOnSB2WTmpkzIgLib2ctJD5N7iadics5SBsuHA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_073_2080176aab4b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlwqHJRFfdP5neVz8osrsbuU7KKq9zmibd08iblUHXx283g9V6DicKEibSOw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_074_d77a1c61faab.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlXWtf9bxYwiaMxYOxOdWUjQobCJ9oDNPSzsTYRuqGJX8l7lKgdYxoYtA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_075_63178e5bc88a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlq6YpXaTkgpvRqCZY4mjsgOfG1SPtBiaaZtHg1me23of0KWRKC06p9WA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_076_4be4344df634.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHl5RFph7099xLhFgvhbVPFMOSb0nXVnty3QEcSkNLpX6uwko0yFGS3Eg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_077_35c8d048e254.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlNj4tsluwwYEozKjuFwbicsVyXmH0rKP8mCIpwaG9oiayydPRzdTeWDRw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_078_4a9337e7031b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlU5aVJmJ1lDyS4rB2MHYXWSLhltiayqRwphmfQ5KFq9oBoXf5NRYjNDQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_079_90627aadecba.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlgics6qZRlEOZKeVDP6f0rvpRYpsRvb2zqLaSzgkvjrIWHgPdq1mBusA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_080_0292f3967d2e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHl1J8Nqg7bjm1Be6KLMdIvDgwlkAo8f0ZFd9goje91HCJ13iaK5PbuujQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_081_3daebb645ebb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlz9mqCBeQdfqGiaBtEFx8a1iclj6tEE8tRjJG7By5dAEUsXtjjAOVXkrA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_082_702dca0360bb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHlg7acqgJ1TAztnDoGhu6xorQcPsEbFjpyzdCOjib64s1NCeZAF7CVJsA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_083_4723ab2815d1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Gxlj2N1XftxZ0HXuXf9Lra7v3UhSoEHllkzIGsXmg06SYe8Rr81vqDbS9byBw3LgERnLneqZKKhmbaY08LM57A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_084_d46834045932.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_085_31a98b8e3167.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s0OaHsxVicqRwsd1jffsZ1SInziao432K25CLbwomI8aoRfBsD0ibko7MJkWIcoEm08ia03Vpey2IyxQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_086_a42af9525055.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_感应电机_IM\PPT详解___三相异步电动机_images\img_087_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
 

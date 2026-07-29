@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sQrbuvhJOzQeNFp6Xwx4P7Nns8eYBib3TwCRTyCYYg96rb41ne9EQ9VFfibXqoRBoL7u3oLEy08pDQ/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sQrbuvhJOzQeNFp6Xwx4P7TJTjXQNE5Lv92HQ6cFPfMSC5kLG2zTfalv3m3Mae3GQiaM4jJuZfHtA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机铭牌Y__接法的说明_搞清楚后不再烧电机__images\img_000_6bdacbcd236c.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\电机铭牌Y__接法的说明_搞清楚后不再烧电机__images\img_001_0a6840ab3f0f.jpg)
 
 **
 
@@ -18,7 +18,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/NVbloW08A4xic82JjI9H42brtwXAA6nftibKpUrDFhRlPZOhkJicfHLXZ2sRv31aYomPO8Q2yWh2wyice2RStCzeCA/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机铭牌Y__接法的说明_搞清楚后不再烧电机__images\img_002_573366d73e9a.jpg)
 
 电机铭牌描述  
 
@@ -48,7 +48,7 @@ Y型的接法就是把三根线的尾部(U2、V2、W2)接在一块组成了中�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9EqlL4QOpuy6ibGxMygY0ic5icCibXlDUbSicRMhFz2WqxcPMPVibpsmelqjjrY081wKJiatYsIsqpEPicnHUKA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机铭牌Y__接法的说明_搞清楚后不再烧电机__images\img_003_1cdf4e9be186.png)
 
 电机不同接法
 
@@ -64,7 +64,7 @@ Y型的接法就是把三根线的尾部(U2、V2、W2)接在一块组成了中�
 
 我们不考虑功率因数和效率，三相电机的额功率就等于：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9EqlL4QOpuy6ibGxMygY0ic5icCibOscyba14aCyrGxiczFWvQm6s4270xS52JwgvLwAyUDzwK7bGibewI5ZQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机铭牌Y__接法的说明_搞清楚后不再烧电机__images\img_004_1af8915b42d3.png)
 
 功率、电压、电流关系
 
@@ -104,7 +104,7 @@ Y型的接法就是把三根线的尾部(U2、V2、W2)接在一块组成了中�
 
 另外，对于电机铭牌上的△220V和Y380V的理解，就是如果三相工业用电是380V小功率电机可采用Y型接法大功率电机可采用△型接法(采用Y-△降低启动电流)，如果三相工业用电时220V，必须选用△型接法，不能使用Y型。注意电机中标明的电压都是线电压而不是相电压。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/NVbloW08A4xic82JjI9H42brtwXAA6nftmbhYnFkt1VFibodwINjEverJAicZqe6VTSGgTDfj1aoIicDbYMWoH41rw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机铭牌Y__接法的说明_搞清楚后不再烧电机__images\img_005_309882835b00.jpg)
 
   
 
@@ -115,8 +115,8 @@ Y型的接法就是把三根线的尾部(U2、V2、W2)接在一块组成了中�
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamVK9gBdcF4HYg2ia6FxJR10aoxdBKO6kSt8uPiakr3iaBpEYoZ9wxsSFSQ/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机铭牌Y__接法的说明_搞清楚后不再烧电机__images\img_006_37fac5a47911.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\电机铭牌Y__接法的说明_搞清楚后不再烧电机__images\img_007_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\电机铭牌Y__接法的说明_搞清楚后不再烧电机__images\img_008_a6e4e8e00379.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机铭牌Y__接法的说明_搞清楚后不再烧电机__images\img_009_ec5921db28d2.png)
 

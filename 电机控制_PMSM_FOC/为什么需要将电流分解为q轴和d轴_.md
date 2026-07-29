@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sV0InUwQ7pz0PLqLNA42RJ48yWhDcjTHCIxRFaRcqkFcMnde2Vbs0wkb5EWAibHSbia4iaqVWmjlFibg/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vGDII2wlWBSZHYWvOibzG5sX4mQAaVxxNWXhGicXticozfsicjKhdlCFcZI4KG0HnVXuFlm8Z2ZknEtA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\为什么需要将电流分解为q轴和d轴__images\img_000_0b38cfab2d9b.jpg)![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\为什么需要将电流分解为q轴和d轴__images\img_001_da31943e789e.jpg)
 
 **
 
@@ -35,8 +35,8 @@
 总之，永磁同步电机的q轴和d轴电流分解是为了更好地控制电机的运行状态，提高电机的效率和性能。
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\为什么需要将电流分解为q轴和d轴__images\img_002_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\为什么需要将电流分解为q轴和d轴__images\img_003_a6e4e8e00379.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\为什么需要将电流分解为q轴和d轴__images\img_004_ec5921db28d2.png)
 

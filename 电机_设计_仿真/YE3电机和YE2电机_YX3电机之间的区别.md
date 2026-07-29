@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/34\_dt5vTtwM-WlC1kDTCZA](https://mp.weixin.qq.com/s/34_dt5vTtwM-WlC1kDTCZA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vnX1lWHoFibqUI1eNcg9vflNcVlSB8kBgOtVA8Ygm35kunaly4sHD18CNj06oiabQHJB1eodW2qulg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\YE3电机和YE2电机_YX3电机之间的区别_images\img_000_4ba30b821cde.jpg)
 
 
 来源：酒店工程解决方案
@@ -27,7 +27,7 @@ YX3高效电机是国内第一个以冷轧硅钢为导磁材料的高效电机�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIyscnPOsYCCA5t8NicK6hx0D1JlWc6MZ7seSZF2X2rUqGQomdyo9Gex7V8H4MkuibYhFiaphTWgjDibictw/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\YE3电机和YE2电机_YX3电机之间的区别_images\img_001_fd79fe762a18.jpg)
 
   
 
@@ -78,7 +78,7 @@ YX3高效电机是国内第一个以冷轧硅钢为导磁材料的高效电机�
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\YE3电机和YE2电机_YX3电机之间的区别_images\img_002_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\YE3电机和YE2电机_YX3电机之间的区别_images\img_003_e8e68bdfc1b3.png)

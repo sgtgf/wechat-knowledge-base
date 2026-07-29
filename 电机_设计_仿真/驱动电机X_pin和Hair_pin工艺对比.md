@@ -4,9 +4,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/OkBt1ursNTjcQhCN9Aublg](https://mp.weixin.qq.com/s/OkBt1ursNTjcQhCN9Aublg)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vVzniaJLlic39Dz12BCFAZj7AWkWzuNibGJdicvKpp96atY6HXBudPQPnwHaLIUMU8bzYtnGzHWGjibIg/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzU4MDY1Mzk2Nw==&mid=2247696859&idx=1&sn=9eb96c0e080b2c91b5969ca0495891d2&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺对比_images\img_000_4e02116f074e.jpg)](https://mp.weixin.qq.com/s?__biz=MzU4MDY1Mzk2Nw==&mid=2247696859&idx=1&sn=9eb96c0e080b2c91b5969ca0495891d2&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺对比_images\img_001_d8cb52582ba8.jpg)
 
 
 来源：汇智易学
@@ -37,7 +37,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHIxUaecqDHvZLz2EW5y8ZvXIJmy2qnM48QHxABNlAdOrTBMxib2LO9L9w/640?wx_fmt=png&wxfrom=10005&tp=wxpic&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺对比_images\img_002_dc72af440053.png)
 
 不同绕组技术的端部高度，来源：联合电子
 
@@ -47,7 +47,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHIARld0EicOTRLb11dkJkuKXVMCRnrPtHvNk3mDegxjsPpBU2cjM50U0Q/640?wx_fmt=jpeg&wxfrom=10005&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺对比_images\img_003_0d38a078a968.jpg)
 
 博格华纳HVH270 X-pin电机定子 拍摄于上海车展
 
@@ -77,7 +77,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHIV9H7bE9rFj2gOkRgFicPM9Zickib7HNxnEkQDNibqsAGJcJWWGkFBgaxiaQ/640?wx_fmt=jpeg&wxfrom=10005&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺对比_images\img_004_d644a6f26e56.jpg)
 
   
 
@@ -91,7 +91,7 @@
 
 **扭头方式**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHITxiakbuBibiaKdicsxibRZ6iaTNRRUD2yevOZ3HNicqd0YPENlvicKlnUCb1ow/640?wx_fmt=jpeg&wxfrom=10005&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺对比_images\img_005_054b9a19b1f4.jpg)
 
   
 
@@ -111,7 +111,7 @@ Hair-pin和X-pin的焊接方式有所不同。
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHIeehaC1HiaIIY4kpUg8wXtFh84CEZmNseIFcicjiae6gRGNtwEvNDasljA/640?wx_fmt=jpeg&wxfrom=10005&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺对比_images\img_006_2752c0900579.jpg)
 
   
 
@@ -127,7 +127,7 @@ X-pin采用低温焊，端部不再形成焊球，需向下穿透，热影响区
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9Vbx4gQfay0uSiaZibftXIHIdZBmXCouxcVRBmW7kUBCZPOaOcmuJell7E6F5VL8xianvVH0UoFtAOA/640?wx_fmt=jpeg&wxfrom=10005&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺对比_images\img_007_3c6697acf0a3.jpg)
 
 Hair-pin采用浸渍漆+涂敷工艺即可保证绝缘性能及强度。
 
@@ -190,19 +190,19 @@ X-pin亦可采用浸渍漆+涂敷工艺，但X-pin的熔接面积及拉拔力相
 # [华为都“活不下去了”！电机中小企业未来三年要怎么过](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247575025&idx=1&sn=800a15fe2572766ef1632371ee7475f2&chksm=cedfe435f9a86d23f050893e070245640fbc59fce832cb6264e6ecf8b6c43c0fe9a0c6565a38&scene=21#wechat_redirect)？
 
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vAFjNjgs25tqibVUnHhKtqEDibUPDEujzIicS3PhXH2y8OJz6cAQY2noeyldbvNbT7ibRjE3iccc4KyLw/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzkzMjc2MDYzMg==&mid=2247498858&idx=1&sn=cbdd1df5338cc64e8c770d5972e4b69e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺对比_images\img_008_924c6fc5162f.png)](https://mp.weixin.qq.com/s?__biz=MzkzMjc2MDYzMg==&mid=2247498858&idx=1&sn=cbdd1df5338cc64e8c770d5972e4b69e&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺对比_images\img_009_3ccc50bba2ef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88HJkEmpYqlKiaC4tFrnTia7L7pjBnCvUZtV9MV1HRf7nRn8kPs7bKsmQQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺对比_images\img_010_bcb57d883039.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺对比_images\img_011_1862cf7fbcf8.jpg)
 
 扫码报名了解变压器会议
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6OxT5YrmvxSnbaaDeXF4bqovY9IfrC6SxJMBQtp4dnM1tPnlKziaSEUguw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺对比_images\img_012_ccd55559c531.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6Ox2gll6RtjpK3FFYmgTBOGo4FeTnVZtkL7ZlKEclXqTtZ7vtFY28R0ew/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺对比_images\img_013_56b163a836a8.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\驱动电机X_pin和Hair_pin工艺对比_images\img_014_dac57d0b3024.png)

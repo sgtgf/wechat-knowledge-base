@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/a7mxjIyqHfmVPlIJT3pZQw](https://mp.weixin.qq.com/s/a7mxjIyqHfmVPlIJT3pZQw)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vE2ZIG5VErUiaic5Uovdb28y7P5QYtqjXS963OUGN1gZticMCCPchusnOMBhEuCvwJ9JdO7pugDP1XA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电路驱动有刷直流电机_images\img_000_a02001b809a1.jpg)
 
   
 
@@ -32,19 +32,19 @@
 
 ④是电源端子之间的连接。当将SW1和SW3关断（OFF）并且将SW2和SW4接通（ON）时，就处于端子之间相互连接的状态。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/QfOX6PoObkBicibdImUcdBfHumrJuwVictshDxAGMqcWHrBQNqic2p6P9d7lWibp3MUTZ109bZdXFvU1k2CSlfw14gw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电路驱动有刷直流电机_images\img_001_cf1a3668cd8f.other)
 
 ## 有刷直流电机 更改连接用的电路实际的H桥电路示例
 
 在上图中，为了便于理解连接的组合方式而使用了开关，但是在实际的电子电路中，四个开关使用半导体功率晶体管。右图所示的配置就是实际的H桥电路。在该电路中，电源的（+）侧晶体管（Q1，Q3）使用的是P通道MOSFET，（-）侧晶体管（Q2，Q4）使用的是N通道MOSFET。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/QfOX6PoObkBicibdImUcdBfHumrJuwVictsuaDDVict89wvsBHlCXqwzLfhjodfljOYVF0SicbUpTUUO3OCauXUm2eA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电路驱动有刷直流电机_images\img_002_2b27e95dc217.other)
 
 ## 实际的驱动电路配置示例
 
 要改变有刷直流电机的转速，就需要改变施加到有刷直流电机的电压。为此，在电源和有刷直流电机之间插入电压控制电路，以直接或间接控制施加到有刷直流电机的电压。有两种控制方法，一种是在（-）侧直接连接有刷直流电机，另一种是插入控制电路来同时控制（-）侧。实际的驱动电路由可以改变连接状态的H桥电路和电压控制电路组成。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/QfOX6PoObkBicibdImUcdBfHumrJuwVictsvtEqtYCrjIzUmdVdmILAQPNuicRLzJlADkNAz2RNuhN9AEdjo7micF0w/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电路驱动有刷直流电机_images\img_003_82ec5d4c62e6.other)
 
 上面我们介绍了有刷直流电机驱动的H桥电路的原理。本文将介绍有刷直流电机驱动的H桥的实际控制（切换）。
 
@@ -59,11 +59,11 @@
 
 如果可以输入2位二进制值，则可以通过它们的组合来创建这四种状态。举一个简单的例子，如果有2个逻辑输入端子，则可以获得2\*2=4种组合。下面是内置H桥电路的有刷直流电机驱动器的示例，这里给出了大致的内部功能框图。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/QfOX6PoObkBicibdImUcdBfHumrJuwVictsuCMo1Dia4gV2OHoY8dG9trrkNVMnM3L9CUdibYsiatsKT0pEJCjBXTL7Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电路驱动有刷直流电机_images\img_004_f77de6df4862.other)
 
 用于切换H桥状态的逻辑电路是以IN1和IN2作为输入、由虚线围起来的部分。该逻辑电路的真值表如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/QfOX6PoObkBicibdImUcdBfHumrJuwVictsIhIIibYAZeL5NkA9KU3ruWZAyiaBRdDFB8k3blZrDfQNHZIfkyzjOBhA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电路驱动有刷直流电机_images\img_005_c989a9ad4e3a.other)
 
 可以看出相对于IN输入逻辑的VG状态。VG是Q1～Q4的各MOSFET的栅极电压状态。例如，Q1的VG为H，这表示施加了H电平的电压，而不是直接表示Q1的ON/OFF。
 
@@ -88,7 +88,7 @@ OUT对应创建四种所需状态。OPEN表示所有MOSFET均关断且处于高�
 
 在该有刷直流电机驱动的驱动器电路示例中，可以通过线性控制高边Pch MOSFET来更改OUT引脚的H电压，从而控制施加到电机的电压。OUT引脚的H电压由施加到Vref引脚的直流电压控制，理论上的电压与施加到Vref的电压相同。这就可以控制电机的转速/转矩。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/QfOX6PoObkBicibdImUcdBfHumrJuwVictsAnibt0GYrkhnqEuUQuVJ5g3x94pVOg3aboCiaafgQjhwZsaEEUsZjCUg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电路驱动有刷直流电机_images\img_006_c1896c62d750.other)
 
 在该示例中，当高边MOSFET（Q1，Q3）通过H桥切换控制逻辑导通时，运算放大器会给高边MOSFET的栅极偏压，使MOSFET导通，并且MOSFET的漏极电压被反馈至运算放大器的同相输入。根据运算放大器反馈电路的原理，该电路执行反馈控制，以使反相输入和同相输入具有相同的电压。在该示例中，施加到Vref引脚的电压=运算放大器的反相引脚电压等于运算放大器同相引脚=MOSFET的漏极电压=OUT引脚的H电压。由于该反馈电路的增益为+1，因此Vref和OUT的电压比也为1:1。
 
@@ -130,9 +130,9 @@ OUT对应创建四种所需状态。OPEN表示所有MOSFET均关断且处于高�
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0uibkIvkAHOPtHA9gym3XODEWrQGWXmjNHrmp8Mp3Mv8wdYjoiaNyL1EPibFpmHlcYK1m1wplSBia5vXg/640?wx_fmt=gif&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电路驱动有刷直流电机_images\img_007_22d59179e018.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电路驱动有刷直流电机_images\img_008_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\H桥电路驱动有刷直流电机_images\img_009_e8e68bdfc1b3.png)

@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0teiceibxaxXjXW1A56HF7tkg1BqF80Fy26bEAcYgkwymmYr8esIUc8xHrJXFogdcvjAtgMicfQLJOLA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_000_2a1ae17a00a1.jpg)  
 
 **来源：BOSCH**
 
@@ -16,83 +16,83 @@
 
 **文末有完整资料获取方式！**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbq8zqCr4y630voJv8Q3wtDVnKJayYJ2qia76Fnibyk7oIgDSSfaMn9EXg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_001_b9c50e3edfa9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbp6az5BJb1MG7sLicurI3HKNWHkqHNaNLNdKsI9Bywc7ibXeIhaaRz3Rw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_002_8eeb3542e5c9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbyAicvUzgwz6FpUPd7JQHLq6e9GkZDG8FI1sDGoxMTZ1jwYuAkO7CdEg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_003_61e11a60d3cf.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbrCeobOCCcYljoibmzDWPHicjOkkwARBQmlu4IvticdiaElQbJibiaGunQajQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_004_eb957477a34f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbllClzelGybC1ae0ESgKWbTJibug5p06WAEIh5fydEACOuvqSbQ5IR8w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_005_64cf1347b0d1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbMgUdODNCsXZE5koktBzfkibHPYAqXxzpwDUbib3ZCMwtiber8VqOsSNicQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_006_3c3802ba8434.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbccfytMj1ukic2XxX7o7tW3Ky9q2lX5A3CT4coRU6KbgPa9Ou5Rsp0Kw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_007_54f615b7034a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbsnK3pzEdxYNTWx945SdwYCLmqV2IKeQwvcObdOnCS6XeUkF2BibrwXA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_008_7eea09c8cbec.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbhmcPlCib1KgQ84VLA6FVrqbfAvj91fuibJe7qXoyT4oczHawszIZzDkA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_009_a5b36ede6437.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbVWZkUkzjbbqeHvIn5xzrI8v6OYe9ezQX2sORfthJVvGRy3WEgvficQg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_010_1bd892b9bf7f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbgAdDodU6g9icJfAGwPUsiaZLsC8qDAiaMFTbUMHKhm646pibJSgutAdFSw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_011_8374f8687a53.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbANdB4PFhzmzqSWiciaTE9lk6dtxS7x8iclYadIn8weS0XbbgfqXoiak7ng/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_012_a9703a331bf6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbKicKKtHibFicffWic6mxbrEhshdLUugQvgicLgAVJL9XBqSy7PAvAwkXWGA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_013_90e2dd20d346.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbicBEybDUcno8p2iaVCGKLoM7tnfUPpUGHoDib4cOWeGSzrfsjYIsI9eUQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_014_a602e220f697.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbkaPUNkj1RRUibI7DOSHCqRahdGicL9qLUaVOeVdcT28EAKC7icDhGStXA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_015_7c4033216685.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbqIiblaMUBmXfichNLqib7CNWy3GNyTLYOjYIAL0L8RQIbvhW9BnrlicmiaA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_016_0436cf946ccb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbzAZTGxyTwAP8UIyozF7SJk6JsaibMs5lMmSbsraDbooV8E3Kibbia3AJw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_017_7a77f31716cc.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbRp55JjPYmc4ChicHlmNDFcRguJ71ibABNmicL5FFrdDE6EEdh3y7mYrHg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_018_fbcb40d7e0a1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbr3WIKyibylxII3sYibfveAELItffqjvAMN66LSLuHkfqkIeZJsGSvyRA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_019_ada4971ad028.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbMr4eCicUmFic2kBMZw5J637cyVWmwVzglWfFDicMynUD1r7gmZp8mUCWA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_020_90c5000683fd.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbcoleuViaSnX1oibCKZAbQfGHSlA10T4vqp8dtgHCbTYPWS5AhGzg4CGw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_021_5849e13d89c5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbibnibiccTmhISCjMbsib5NiadyH6bKy7CjxjH0t1tR93fIhRREQ5jZbj4mA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_022_43366785a658.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbtooqiaUUiaw6dQzhNJz2EUVM74fyXo13wPHA9x6rwrg0KPSJ25KSQCCg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_023_546d1e13b40c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDb9WBicMIgnWVB9aaaicBXdJvEr5aa2OQnVIypPyuXAEbQhudqe75zoRdg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_024_77def8bebe6a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbJULva4EVX57ib3hibvtewNoc3TtCqH7XleDzuAiaribCf0n0YOhqw7DpYw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_025_212694c903e2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbfSpoVyYaa3GXndxcsSr1IjNSqwwJQdrKOREgz3TSJOuoicAm26OpFrg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_026_84baf89f8825.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbwxuHqaCoNeyOj4heKRUIJnCIXbywO42Ldhzn25QMDsRjbKKsIiaiaNLg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_027_0e7d621221c9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDb7RibBf8H8jDwpGPdIWeVJSAjLGaVxtc288hxsav1Bnb30vhh9jnxYQA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_028_33fc666b0ea6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbkHXjnBKeGIbBR8iaPm1UoicEQpkWBwcz3IKD4Z0iaT0gnGJQzGCzCCxuw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_029_02436d85ac27.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDb4239uiandu561PdLdZiaxA1S0CTCqHfNn9vMXRhLjiaPLIqyicXmJCwHWA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_030_feb3c504b7e0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbHLC43qh6HZr8RpaNmEzqOWBkRbG08TTBnUgDibErgoFOmvnEFJetxPw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_031_87333d0df72d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbzG4tibyibAtnmZiaEJaKvuWzj0D17S4cACojkBAfibBriblHeNusPRrV7ww/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_032_1cee4214e6bb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDb0lQ4yYM2F2LPeqgTjic8QSuZicnc3Vg7KC5UYDoLib8l3L6897scym9mA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_033_cd7b14d66190.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbFC5DYmvFmZl4xHKPbpDJRqdCWMm3n0an89RTmgeeY6vP0oBckug9ag/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_034_979022a0dd79.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDb3K8P7my4K8yvDLA0aX7nFLkWTvNia3XeahBicib8JWUd0eJYZtXvibOavw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_035_c5d51eabff79.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbf9aEAzL9GOW7p8VLaOE6UrGeYiaObACntu4DlwxG2yRQlvxz2iaIMtpg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_036_cd52e220130b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDb0icbKlS7KguQb7KOC6WQ1pNGCpjhunkBzZao33P1XibPX1BQYv5icYCHA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_037_aeae11552504.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbamib4Kb81wEjBOhCOfU7w7HMbq14rNia79QT7JdCPz4m1XKMDVG6RhIg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_038_df5ad874ccfc.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbUshMzH9C7lmB0j4jJ2icHicvZLz6ZFUFyrIGr3PxKrxoYNDxMSB5OpSg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_039_c91285f64185.jpg)
 
   
 
@@ -104,7 +104,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbKpNn0fSdakyibfILD48SjKvpB2D74dVDWQA7QhHtibv7Tqkfy0bfoOjg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_博世发电机控制系统介绍_images\img_040_103649f2287c.gif)
 
   
 

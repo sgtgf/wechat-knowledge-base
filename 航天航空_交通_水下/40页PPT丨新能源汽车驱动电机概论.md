@@ -6,93 +6,93 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vgs97DnCfgz39UztTsg6cibJ9ibWEXTJHgdhm4qRvpACAmicDupX05p24oJk2G4OCMwRdcZxV0F2TsQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_000_75b3f5622a48.jpg)
 
 
 来源：麦格雷博 磁能产业专家
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpeXwcjRwDF76WWzznsNaStw0ZIuJSM4q9iaPTLdDicKSwskdk9LPJ9uTQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_001_dff4aeabf756.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpxkO29ZibL7uOy4LDGk0SjxeBIpDEn0YGlktiazFbUInIEbpAAuzGCfmw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_002_69597b572c48.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpDTld7Eroy4PgjLh5O2R510ficyJr2VAI8uyrVXOQHpQpxZxNHDjMvCQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_003_9cddd28c0ba6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpEezLurfezria4XiankRFbInkQ3CMNJLRMb8ASYlzUia5PicW3gptBTgVGA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_004_3b9f520579d4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpaPw7e3IBUePwRUUWGHTQAVXg1dDth0X7NMs8QFQNc8XAQibwrN64ggQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_005_92bfee6f7503.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpR2HYibexWRuWHMDZ37PgLmxTib5zI2fY5wQliaLHibkktd6MaURQFLgzQw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_006_1371a2302ce1.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpVe7Cc90gdotnAhTdD07kP2kxzR1piaibMH5BA9YvtLH5PoHNG7ibShia1w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_007_d178693726f5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpjqEstcDzpmZcwWqCT8wOF15yAJsuz3cZY71Zbibkd2HCRiblRtyvraIg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_008_7e91c033a668.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwprWibibIYb37VKaDNAiaweGXatzp3TrdezibgSmqIt4avyQFs9naEZfVhQA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_009_1537304274cb.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpibMlsHMMV10V6JibP1RxRIHvjuBqtXNt0D2zGyAicicOH09EaXBHSU0R0g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_010_343e65df4818.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpsbrZnnHhW556R2sV7afFmqnV6cfXbicZNMiafQO1Qib5CKBcHSx7aKmicg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_011_ae0024808744.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpG9cgO7mKTYGDaG4icTJVnlGTaNNe5zGQPniaJ2knxT021XVbHHb3lywA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_012_2ae0247e7daf.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpZKibXcSdQMIAbEJeCvaZkA6hibz82joZ5G1icYo2bNwPukfrGKSFLaHJw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_013_51242f31a525.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwprLMCwFDVTPicDLYlXCqo3nZE2Llue0GgVw8HFCR3KDMBeaic6GYEa59Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_014_a622d6dd2ac0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpDEMvoYH7d1PupPlalscKpCRyah1XTsb8AgicPkRTxqicmVRCRojWXjBQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_015_3e984cf903b4.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpfnS5BI73DzZY3H3plXH2xYvbXnK1DAPx3Qr87f0ibGP0qbKvnVNkg6w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_016_7ae526636a97.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpVcCibNnBdC9ru3yL4ChlFNAf7ZcD1PDsSlrGRnuhcfF8MuenL0rftjg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_017_7aef70581d81.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpLsycmibZtL1LeKujRBGG314vfLn8nGqtNibGI39aZRtEQ9piaUMGO3ToA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_018_3adfdf86fcd3.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6Ssskwpoop9lW8fiaaiagKjncHf38bFR6utsEzflCyt0h12Pm1ia8J59pWwVDBrQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_019_cc8db042055e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpIPel5TVxwLl7udeRu7IHEccdumHnVubtPw6iboNs5RzrYwchDOm7p1w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_020_eaf6c0645812.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6Ssskwp69qyVGXE65K1pleiamacsVgibVDU7ws4YicxwJfGQSgcUWCVswwTapG7g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_021_3780e93237db.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpjW8FsHia5yEf5n11xkc7h0654UiakVq72EyX5uwTEP17XPEfdicLmq64Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_022_be36d633ad79.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpOXqHrgQG4jfMMfbkZFwQzq262RcSfFz1SzSVRkUOXqribo77BEkiafiaw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_023_a1302b02919f.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpaApZU08Vb0y2JjT1MKyoLich4HSCWG3ic0wvhWthibQMvlIucOoGpJxpA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_024_42c81b586555.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpvP4nwaUFA8y2dIfBNFGSONqdkZxkX2ibJEKsAW6b4W1a9s9ibfic7iaANw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_025_b5264199e6b7.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpNmsSLfDFmiaNZ8goMTgqYrbic0ek7IWyTxbxbRZWgcOp63TyicKJJicd0Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_026_d33871d352fc.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpO6825x0AW9oL0UMAjWtC3GhBE2x8gw9PCMGxC0ua7zt02Zre7Rk58g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_027_0dde384f0f98.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpH2MC11poVVC4ZgegCTYRE3FcWssyHzFa594kibLH81Fd9dXQIVnROJA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_028_327bce0c5d3c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6Ssskwpvku1DzKkxRnppP7WBg31VKJN7BwnEYBkqb5TQI6DaHIduzibBHzVciaw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_029_74d60b086f6b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpUMoFhHlOyhBOA2FZbGDVrhwxtiavbDUb27AJVcv6aVvmZV6JVXDGFibw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_030_6ca969a72e3c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwptbJaY5IWZ165ibJ2EDibjmEByTbnJkpvibhE8HSqibzUlbiaEicSqLD9V0Rg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_031_0c413b61aa42.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6Ssskwpl2HW6fT2icj3FrvekWxJThvR5gpHakHFfQAxcgPKa2RM7jVxicONshxw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_032_b27219e4e0be.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpOEWMD8Eecb6QXlssOWzfeIzbHcSz9bbD6ZbZ8O9CBjTjGjWdlM57aQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_033_dc921c042c92.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpnSxqfERiao4PISBAAPaTHJfqZ0YhsicAvql2rzTyTAFHyHShjlmCvAtA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_034_beb1c812ddfd.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpSQMIKCORRLBPFTia31AhhiahpDrsQ07J7k02qxb7TTvPU7ibMwF41CLZQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_035_b0925ae23865.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpfpGKlicm7IPB30rWNuXA8R9JQnXib8FUsDk0RNFZc1f8Ghsb7l8usepA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_036_c4ddadb31e1c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpGx6U86PWL0I0m0Y5fMytX4DhJib1EGtFxF8JqqGshpZRibmwxdvIc1Og/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_037_fed776bd7317.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpsMzEH49N5KIM3PxF7ecIJWMYRgEBxSL22x9o7cyMEvJ6qROvbaLmeQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_038_3edccfb60b24.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6Ssskwp528vghuIOTwmGo9ibLjEySb5qP3zvv6icMEux3nAhibNGPiafiaKs5PEQpQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_039_08f3344edf63.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/51tvgJ3HcxUM1VNLYSyYDibPibP6SsskwpnibfqibicliacdQrO8NM45AD4Ip6JQtUXPhXMd8jricia638V9AKOcdyKuLA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_040_23b47ae1ce58.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_041_9967d1607b24.jpg)![](D:\电脑文件\公众号知识库\航天航空_交通_水下\40页PPT丨新能源汽车驱动电机概论_images\img_042_fb0ff5197498.png)
 

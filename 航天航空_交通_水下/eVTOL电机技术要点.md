@@ -4,9 +4,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/CN4I3-sUps6lzzoBq9eA1w](https://mp.weixin.qq.com/s/CN4I3-sUps6lzzoBq9eA1w)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vVzniaJLlic39Dz12BCFAZj7AWkWzuNibGJdicvKpp96atY6HXBudPQPnwHaLIUMU8bzYtnGzHWGjibIg/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzU4MDY1Mzk2Nw==&mid=2247696859&idx=1&sn=9eb96c0e080b2c91b5969ca0495891d2&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\航天航空_交通_水下\eVTOL电机技术要点_images\img_000_4e02116f074e.jpg)](https://mp.weixin.qq.com/s?__biz=MzU4MDY1Mzk2Nw==&mid=2247696859&idx=1&sn=9eb96c0e080b2c91b5969ca0495891d2&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\eVTOL电机技术要点_images\img_001_d8cb52582ba8.jpg)
 
 
 来源：电动车千人会
@@ -19,7 +19,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/Uyic5VYxfCqiatVFrCvTVXvFbowTuCnpBqdpp4mrtyDrC5zlIS2GMUQ9k7kU7icSXm7jF0KibZQsHpjuD874KEQuRw/640?wx_fmt=other&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\航天航空_交通_水下\eVTOL电机技术要点_images\img_002_1665c715218a.other)
 
 （图片来源：网络/赛峰官网）
 
@@ -41,7 +41,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/Uyic5VYxfCqiatVFrCvTVXvFbowTuCnpBqjMrAnLIhLHznIgyFWltmFFicF3t36ia6FibB9CCIS6Zw6tCMH3kMdZRDw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\航天航空_交通_水下\eVTOL电机技术要点_images\img_003_1a1faf19a537.other)
 
   
 
@@ -49,7 +49,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/Uyic5VYxfCqiatVFrCvTVXvFbowTuCnpBqblZ0JEx9tktIhRqick21l8qOXsZnXhRwNrO8ib7njnLwMkXTJ8K51lNA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\航天航空_交通_水下\eVTOL电机技术要点_images\img_004_bfa819108616.other)
 
 （图片来源：中投顾问，中投产业研究院整理）
 
@@ -59,7 +59,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/Uyic5VYxfCqiatVFrCvTVXvFbowTuCnpBqZkPZerounkwFhD7ib6briam4rRflOdlawGTfmhPiaxGK4x8NUibibXNnSPQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\航天航空_交通_水下\eVTOL电机技术要点_images\img_005_2c07f4ad209a.other)
 
 （图片来源：网络/赛峰官网）
 
@@ -69,7 +69,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/Uyic5VYxfCqiatVFrCvTVXvFbowTuCnpBqhVKbHCpkl85S3aUz3QPVAdB8o38xmFjQ3o3ZfSxyLxVJ9wTn3598Zw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\航天航空_交通_水下\eVTOL电机技术要点_images\img_006_2f4b931cfae0.other)
 
 （图片来源：网络）
 
@@ -100,19 +100,19 @@
 # [华为都“活不下去了”！电机中小企业未来三年要怎么过](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247575025&idx=1&sn=800a15fe2572766ef1632371ee7475f2&chksm=cedfe435f9a86d23f050893e070245640fbc59fce832cb6264e6ecf8b6c43c0fe9a0c6565a38&scene=21#wechat_redirect)？
 
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vAFjNjgs25tqibVUnHhKtqEDibUPDEujzIicS3PhXH2y8OJz6cAQY2noeyldbvNbT7ibRjE3iccc4KyLw/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzkzMjc2MDYzMg==&mid=2247498858&idx=1&sn=cbdd1df5338cc64e8c770d5972e4b69e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\航天航空_交通_水下\eVTOL电机技术要点_images\img_007_924c6fc5162f.png)](https://mp.weixin.qq.com/s?__biz=MzkzMjc2MDYzMg==&mid=2247498858&idx=1&sn=cbdd1df5338cc64e8c770d5972e4b69e&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\eVTOL电机技术要点_images\img_008_3ccc50bba2ef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88HJkEmpYqlKiaC4tFrnTia7L7pjBnCvUZtV9MV1HRf7nRn8kPs7bKsmQQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\eVTOL电机技术要点_images\img_009_bcb57d883039.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\eVTOL电机技术要点_images\img_010_1862cf7fbcf8.jpg)
 
 扫码报名了解变压器会议
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6OxT5YrmvxSnbaaDeXF4bqovY9IfrC6SxJMBQtp4dnM1tPnlKziaSEUguw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\eVTOL电机技术要点_images\img_011_ccd55559c531.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6Ox2gll6RtjpK3FFYmgTBOGo4FeTnVZtkL7ZlKEclXqTtZ7vtFY28R0ew/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\eVTOL电机技术要点_images\img_012_56b163a836a8.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\eVTOL电机技术要点_images\img_013_dac57d0b3024.png)

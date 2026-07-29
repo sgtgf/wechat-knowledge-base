@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0ueic716ApEBoelb21DwrX7wnY7J2l0S3maoQPDZmSwMH46KerGsSYYUKSofwaSOicVjn77DkEfkRTA/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0ueic716ApEBoelb21DwrX7wibxoDS5FRfpDk1MGuOOqZ7mzXqiaMCPJDricQXj7LDDVJzX1IgEe4H3JA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PPS在超声电机中的研究与应用全面分析_images\img_000_33a3bcb4db79.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\PPS在超声电机中的研究与应用全面分析_images\img_001_e89f21199448.jpg)
 
 **
 
@@ -18,7 +18,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/R6ibyBicZ1ibVhgnYWHrhd0icsaDUne5smIktJGX9tOJicvd6HgDXuHDnkbUM9XW0PTKWCT0cfYNyjsmTuI45lACH7g/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PPS在超声电机中的研究与应用全面分析_images\img_002_53c3c88a6090.png)
 
   
 
@@ -26,7 +26,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/R6ibyBicZ1ibVhgnYWHrhd0icsaDUne5smIkObGcBHA0VfEK25BxY5byrSfg9ibnYEKvyXGr6F3T2FtRQILWEy0TYMw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PPS在超声电机中的研究与应用全面分析_images\img_003_8b64ebebb305.png)
 
 超声电机
 
@@ -36,7 +36,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/R6ibyBicZ1ibVhgnYWHrhd0icsaDUne5smIkPQ7tbiafDJnb3LxqASbncBOKbUjTIVAvXpESn3R6eEhloqdrzBHMSEA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PPS在超声电机中的研究与应用全面分析_images\img_004_18149d91fc30.png)
 
 超声电机
 
@@ -94,7 +94,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/R6ibyBicZ1ibVhgnYWHrhd0icsaDUne5smIkIYXFG1Lr4icLuf75WsD4fLCMVzTTHDTkp0txKKDnD7Zk6icZ2KHib1Ysw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PPS在超声电机中的研究与应用全面分析_images\img_005_b8a806159292.png)
 
 图1 聚合物基旋转超声电机模型
 
@@ -208,7 +208,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/R6ibyBicZ1ibVhgnYWHrhd0icsaDUne5smIkt9UgByeyrfFZicezk0Vw2UiahS9CbtMsfS3hC4GcSQheMKzofXtPAFicA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PPS在超声电机中的研究与应用全面分析_images\img_006_1dd4bbbc14ff.png)
 
 图 2 聚苯硫醚 / 氧化铝 / 压电陶瓷三层振子
 
@@ -308,7 +308,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/R6ibyBicZ1ibVhgnYWHrhd0icsaDUne5smIkC9xndNHFf26EE8G5S1H4pk5JINibGjtjRdz238s80xvK9Kud9og4YvA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PPS在超声电机中的研究与应用全面分析_images\img_007_0b6336b7b164.png)
 
 图 3 换能器结构
 
@@ -388,7 +388,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/R6ibyBicZ1ibVhgnYWHrhd0icsaDUne5smIkjlHpoSRiariaQRGrModeJT5dtpaJcn8moxNRCdDumnicCdQUw12ibf6bVw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PPS在超声电机中的研究与应用全面分析_images\img_008_cacda6b34fa8.png)
 
 图 4 不同材料超声换能器的品质因数与振动速度关系
 
@@ -400,7 +400,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/R6ibyBicZ1ibVhgnYWHrhd0icsaDUne5smIkiaR0V5YEkljx0afbkcbC05ZmlbL9MUDtuXBCUgtOhx6WYIoyHTlav1g/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PPS在超声电机中的研究与应用全面分析_images\img_009_8e58ba6e6f9c.png)
 
 图 5 双模压电电机
 
@@ -408,7 +408,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/R6ibyBicZ1ibVhgnYWHrhd0icsaDUne5smIkgkCNQfN2Pe1cicJ2ScAKiciahE3aV8Hb2IibNpNnAAKCblmMOXh5icqvRRQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PPS在超声电机中的研究与应用全面分析_images\img_010_3bf9e4f3941e.png)
 
 图 6 Kelvin-Voigt 模型的示意图
 
@@ -450,8 +450,8 @@
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PPS在超声电机中的研究与应用全面分析_images\img_011_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电工_教育_学习\PPS在超声电机中的研究与应用全面分析_images\img_012_a6e4e8e00379.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PPS在超声电机中的研究与应用全面分析_images\img_013_ec5921db28d2.png)
 

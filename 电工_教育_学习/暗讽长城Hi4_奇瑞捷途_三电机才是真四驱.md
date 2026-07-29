@@ -4,9 +4,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/3c5upuq7DsIEPmCCY1xYJA](https://mp.weixin.qq.com/s/3c5upuq7DsIEPmCCY1xYJA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7PRoBOR11UkBSgoXIqyicH5gpzwndo5s9MAbQggNRbCia9I83Mt0ibmV4t9PpPLGo61vh2awCzbW3Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\暗讽长城Hi4_奇瑞捷途_三电机才是真四驱_images\img_000_6fdf41d5eb40.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\暗讽长城Hi4_奇瑞捷途_三电机才是真四驱_images\img_001_d8cb52582ba8.jpg)
 
 
 来源：快科技
@@ -19,7 +19,7 @@
 
 后面图里展示的是P1+P3+P4电机结构，其中P1为发电机，馈电时，P1带动P3和P4驱动电机，依旧形成四驱。
 
-![暗讽长城Hi4！奇瑞捷途：三电机才是真四驱](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0thtSvNX8lBeRdRJmu5TbmOicglW1CPMjyjbM4MI0BRicp14psomDIDyHb9KM4bFNHzuXgeW0KGxiblA/640?wx_fmt=jpeg&from=appmsg)
+![暗讽长城Hi4！奇瑞捷途：三电机才是真四驱](D:\电脑文件\公众号知识库\电工_教育_学习\暗讽长城Hi4_奇瑞捷途_三电机才是真四驱_images\img_002_1874c49655a4.jpg)
 
 **虽然官方没有明说，但明眼人很容易看出前面P2+P4电机的双电机车型其实就是长城的Hi4。**
 
@@ -37,7 +37,7 @@ Hi4系统由混动专用发动机、前驱动模块总成、后驱动模块总�
 
 **比如全系Hi4的哈弗枭龙Max起售价仅11.38万，顶配不过15万出头，而这个价格只能买到昨晚上市的山海T1单电机两驱版**，后者“三电机四驱”的售价则接近18万，差额确实不是一般的大。
 
-![暗讽长城Hi4！奇瑞捷途：三电机才是真四驱](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0thtSvNX8lBeRdRJmu5TbmOzcEmiazytLd9LK7BYEQsbsLxNZ0VHrzcUKCzhJ8VpLPnzhH8KYVyhGA/640?wx_fmt=png&from=appmsg)
+![暗讽长城Hi4！奇瑞捷途：三电机才是真四驱](D:\电脑文件\公众号知识库\电工_教育_学习\暗讽长城Hi4_奇瑞捷途_三电机才是真四驱_images\img_003_bbc22cd11356.png)
 
   
 
@@ -46,9 +46,9 @@ Hi4系统由混动专用发动机、前驱动模块总成、后驱动模块总�
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\暗讽长城Hi4_奇瑞捷途_三电机才是真四驱_images\img_004_3ccc50bba2ef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGTdAQI2qpV97qAmOqeibaIiaKVLIks3YeQgIOyX5ia8tqVf9AFgW3XZ8Lw/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGk0C4HQwvywiaCRaw753uY4ZQdjaYicMhbrRdySb1xNFYzMAMNV8icFb3Q/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\暗讽长城Hi4_奇瑞捷途_三电机才是真四驱_images\img_005_6eec1b7fb41b.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\暗讽长城Hi4_奇瑞捷途_三电机才是真四驱_images\img_006_1798abd6d288.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\暗讽长城Hi4_奇瑞捷途_三电机才是真四驱_images\img_007_1862cf7fbcf8.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\暗讽长城Hi4_奇瑞捷途_三电机才是真四驱_images\img_008_dac57d0b3024.png)

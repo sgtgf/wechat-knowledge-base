@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0teiceibxaxXjXW1A56HF7tkg1BqF80Fy26bEAcYgkwymmYr8esIUc8xHrJXFogdcvjAtgMicfQLJOLA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\工业电机驱动为什么需要IGBT__images\img_000_2a1ae17a00a1.jpg)  
 
 **来源：网络**  
 
@@ -24,7 +24,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ksLbeBwpfOft2eE5YhoOVUicty52no6MJB2KrHsnqibkmZ6Mzb82VDa0cd3G9e2jROjm8iciaMG4KgwcichkrKwFEQA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\工业电机驱动为什么需要IGBT__images\img_001_e6025d1a0bc4.jpg)
 
 图1 工业电机驱动中的典型短路事件
 
@@ -54,7 +54,7 @@ IGBT短路耐受时间与其跨导或增益以及IGBT芯片热容量有关。更
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ksLbeBwpfOft2eE5YhoOVUicty52no6MJhtnVtWrg3TETIcG1bOQE8otmxbdqFxuOLgF7ocSQ3wiaqaBdIoxg7icg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\工业电机驱动为什么需要IGBT__images\img_002_1d2e04ce5655.jpg)
 
   
 
@@ -78,7 +78,7 @@ IGBT短路耐受时间与其跨导或增益以及IGBT芯片热容量有关。更
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ksLbeBwpfOft2eE5YhoOVUicty52no6MJEYwibW2BcThkCqb8oicLXYcb0qeMo83bdfxpq13cYVibVku0CCs2C4OrA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\工业电机驱动为什么需要IGBT__images\img_003_89f5179ee614.jpg)  
 
 图2 IGBT过流保护技术示例
 
@@ -100,7 +100,7 @@ IGBT短路耐受时间与其跨导或增益以及IGBT芯片热容量有关。更
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ksLbeBwpfOft2eE5YhoOVUicty52no6MJoia0MiarxIP8AU0TaWMWEuoRBvI4xScjZ6fMXp06qf7pSxAfFew3VW6g/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\工业电机驱动为什么需要IGBT__images\img_004_77b6f757d92b.jpg)  
 
   
 
@@ -112,7 +112,7 @@ IGBT短路耐受时间与其跨导或增益以及IGBT芯片热容量有关。更
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ksLbeBwpfOft2eE5YhoOVUicty52no6MJCT4aSEuaJG0DFluZPOgKcmD7zqIm86gMkOibicdw3rqvgzR4pL3kfic1Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\工业电机驱动为什么需要IGBT__images\img_005_4f70d9c2997f.jpg)
 
 图3 密勒感应逆变器直通
 

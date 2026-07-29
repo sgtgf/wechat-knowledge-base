@@ -24,13 +24,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/V58YWtNiavIc9AhTiaDCibsVZuZbD0DCNic9zMiclzn3czFN0NkuH9rt0PS4ficic2lSXNGnJft8nlnDCHcVXcibChz1eQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么客户一定要IE5电机_IE5电机到底好在那__images\img_000_c6b560dff33f.png)
 
   
 
 1、三相异步电机国家能效标准对应效率值与IEC标准是一样的。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/V58YWtNiavIc9AhTiaDCibsVZuZbD0DCNic9rFVzLO9Qd7dibY8z57kxtKgoMeN1BBdDhNF8RAN1cfk7QlF5rWtpu1Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么客户一定要IE5电机_IE5电机到底好在那__images\img_001_0706b92e63e6.png)
 
   
 
@@ -40,7 +40,7 @@
 
 GB 18613-2020：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/V58YWtNiavIc9AhTiaDCibsVZuZbD0DCNic9qkG5smjSicetpNxibGnz06u46y3IbxmyTI2LRJ2qKnkOibLF6PSaUGqGA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么客户一定要IE5电机_IE5电机到底好在那__images\img_002_db97e3b34eb5.png)
 
   
 
@@ -72,13 +72,13 @@ IEC60034-30-1和IEC60034-30-2（GB/T32891.1和 GB/T32891.2）：
 
 首先我们要看到，在2014年IEC 60034-30-1标准中有这样一段话：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/V58YWtNiavIc9AhTiaDCibsVZuZbD0DCNic9FO5OxtLB2GIAkk1DUWE5U376ChO1ia4PRS3nmSXOwmdT9VAE9Pd2alA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么客户一定要IE5电机_IE5电机到底好在那__images\img_003_12519508bf3e.png)
 
   
 
 2014年的时候，IEC判断IE5的电机“尚不具有商业化价值”。现如今情况怎么样呢？在2021年《电机与控制应用》中，有一篇文章《IE5 能效等级三相异步电动机的研制》，其中写到：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/V58YWtNiavIc9AhTiaDCibsVZuZbD0DCNic9Llug1UKDPTbibpCE9iaJoOibJJmU8mniazByZbX8Fcz2LH3Bo42WXpBJgQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么客户一定要IE5电机_IE5电机到底好在那__images\img_004_e2b772fca6fb.png)
 
   
 
@@ -96,7 +96,7 @@ IE5能效到底能提高多少呢？
 
 如果以每年运行8000h，每度电的价格0.7元来估算一下成本与收益
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/V58YWtNiavIc9AhTiaDCibsVZuZbD0DCNic9hGgQrKCrvxfGHBA2axHmoqW5Z51B2CeqOe7pmnL8e21ggKRz52szwQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么客户一定要IE5电机_IE5电机到底好在那__images\img_005_e077ae92e031.jpg)
 
   
 
@@ -116,8 +116,8 @@ IE5能效到底能提高多少呢？
 
 \-END-
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么客户一定要IE5电机_IE5电机到底好在那__images\img_006_31a98b8e3167.jpg)  
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\为什么客户一定要IE5电机_IE5电机到底好在那__images\img_007_ec5921db28d2.png)
 

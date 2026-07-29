@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/qEpoSBHoR36omoVKK4ZjjQ](https://mp.weixin.qq.com/s/qEpoSBHoR36omoVKK4ZjjQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vE2ZIG5VErUiaic5Uovdb28y7P5QYtqjXS963OUGN1gZticMCCPchusnOMBhEuCvwJ9JdO7pugDP1XA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机_IP防护等级是什么__images\img_000_a02001b809a1.jpg)
 
   
 
@@ -18,7 +18,7 @@
 
 * * *
 
- ![](https://mmbiz.qpic.cn/mmbiz_jpg/kShpXSP8YH6zR9WQoStKpdDw1daKKAO1yxzQF7CiatQIO3LmNX02QcnBwMkjSM0VHYpT0vTIJFspJ55icE8VvTdA/640?wx_fmt=jpeg&wxfrom=13&wx_lazy=1&wx_co=1&tp=wxpic)
+ ![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机_IP防护等级是什么__images\img_001_a6f650ad9ca3.jpg)
 
 界定电器设备如喷码机设备的外壳密封性能，国际上普遍采用EN60529标准。这个标准将量化的不同类别的防护等级主要包括针对固体异物侵入外壳的防护（包括工具、手指或者灰尘等）和对于水的防护（水以凝结、冲洗、沉浸等方式进入壳内对设备造成有害影响）。 
 
@@ -28,9 +28,9 @@ IP后面的两位数字，表示该设备外壳对于固体异物和水侵入的
 
 两个标示数字所表示的防护等级如下表： 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/kShpXSP8YH6zR9WQoStKpdDw1daKKAO1YN9UAoeTQtfM3ibkygTyHIgSiavIJicgyxKvB3avhgWUGicoejGGBuVmUw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机_IP防护等级是什么__images\img_002_7e775f7db23c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/kShpXSP8YH6zR9WQoStKpdDw1daKKAO1xibJQKmEtic9RQS9fpm6ub1YIFp1BSemrBdsDguTibAZFRv8KQPSQtRhg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机_IP防护等级是什么__images\img_003_4139a2f37fd5.jpg)
 
 另外，当防护要求的等级高于上述特征数字表示的等级时，将通过在前2位数字后增加附件字母的方式来表达扩展范围，其也需要满足这些附加字母各自的要求。
 
@@ -188,7 +188,7 @@ D=12.5mm防水防护等级6。
 试验时间：每个位置30 秒×4 共120秒。
 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0uibkIvkAHOPtHA9gym3XODEWrQGWXmjNHrmp8Mp3Mv8wdYjoiaNyL1EPibFpmHlcYK1m1wplSBia5vXg/640?wx_fmt=gif&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机_IP防护等级是什么__images\img_004_22d59179e018.gif)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机_IP防护等级是什么__images\img_005_a6c2e413e6e0.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机_IP防护等级是什么__images\img_006_d84912f96aa9.png)

@@ -16,11 +16,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ibyEKkZQHK6VwQp8wUGrKOiaawrOqsiangPwvRib7OVNVPmEoFf7KIaIic9aYd4tdvBfOVPJia7n6TBh9gFIia01HRvhw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\发电机出口这几个PT结构功能都是什么__images\img_000_8df8b7aeb344.png)
 
 PT结构功能及故障处理：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ibyEKkZQHK6VwQp8wUGrKOiaawrOqsiangPoga9PQAQmKAx89pQPia3YQDxoBqg1wAo3Iahs1YLICgLAV4KApIm1TA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\发电机出口这几个PT结构功能都是什么__images\img_001_7f2e12efd6a6.png)
 
 **发电机电压互感器1PT断线**
 
@@ -60,7 +60,7 @@ PT结构功能及故障处理：
 
 (e)正常运行中，机炉协调方式投入或汽机在功率控制方式运行时，当发电机1PT发生断线时，电气人员要立即通知机炉人员解除协调，将汽机切至阀位运行，参考炉侧压力、流量维持负荷不变，尽量少调整，电气人员检查处理，正常后恢复原运行方式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ibyEKkZQHK6VwQp8wUGrKOiaawrOqsiangPLxfLhV9FvHZyzyWUlOowLrVA3rdotibSWVDHhlRGibxq1LV6gz7ee88A/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\发电机出口这几个PT结构功能都是什么__images\img_002_0ddb1fe32bd1.png)
 
 **发电机电压互感器2PT断线**
 
@@ -100,7 +100,7 @@ PT结构功能及故障处理：
 
 (e)一次保险熔断时，停电测绝缘无问题后更换保险，再次熔断后通知检修处理。处理过程注意穿绝缘鞋，戴绝缘手套。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ibyEKkZQHK6VwQp8wUGrKOiaawrOqsiangP8AKSrRcibBbcdVUrzGz0bzjqslKXqqurMRjLvvCBmCEzjGTYR9JJu4g/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\发电机出口这几个PT结构功能都是什么__images\img_003_9929e917ba10.png)
 
 **发电机电压互感器3PT断线**
 
@@ -210,8 +210,8 @@ PT结构功能及故障处理：
 
 [【重磅】5部门发布最新电机能效准入水平！虚标能效将被重点打击整治！](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247535908&idx=3&sn=6eec1347ec795a83176cc4f901ec55fa&chksm=cede0ce0f9a985f64ce0e07697e68c6ddb191072645aa6d8de6370bcd597bb610675d2897b02&token=66697538&lang=zh_CN&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\发电机出口这几个PT结构功能都是什么__images\img_004_31a98b8e3167.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\发电机出口这几个PT结构功能都是什么__images\img_005_ec5921db28d2.png)
 

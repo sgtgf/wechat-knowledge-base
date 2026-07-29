@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0ueic716ApEBoelb21DwrX7wnY7J2l0S3maoQPDZmSwMH46KerGsSYYUKSofwaSOicVjn77DkEfkRTA/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0ueic716ApEBoelb21DwrX7wibxoDS5FRfpDk1MGuOOqZ7mzXqiaMCPJDricQXj7LDDVJzX1IgEe4H3JA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE5电动机采用什么技术__images\img_000_33a3bcb4db79.jpg)![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE5电动机采用什么技术__images\img_001_e89f21199448.jpg)
 
 **
 
@@ -22,7 +22,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/r6cceWT88P38CI2cktvbs2lD2ibzaQ1e7xcPeeIGwEthrDgha29JQ2JcYCUrMnfnicicL22PrC8PEocmJnOZg7FNw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE5电动机采用什么技术__images\img_002_b2da577b0330.jpg)
 
   
 
@@ -34,7 +34,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/r6cceWT88P2DAwhrWtiaVyzNsSVHBwlHTeqrMvxWwqAayLIWap9NpIcrPM1b0jFANww7Iw66eoHuBtELR9iaCRbA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE5电动机采用什么技术__images\img_003_e5aeb09959ac.jpg)
 
   
 
@@ -54,7 +54,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/r6cceWT88P2DAwhrWtiaVyzNsSVHBwlHTAfXU5zUriaWBBxxEdwBeQtr0ko56rCRWMwnyHEXtpibzep3fXG8vibWpA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE5电动机采用什么技术__images\img_004_8d07843a9fce.png)
 
   
 
@@ -65,8 +65,8 @@
 尤其对于永磁电机、同步磁阻电机、IE5+同步电机还必须配套相应控制器、变频器，电气单元无形中增加了最终用户的投入成本。采用铸铝转子、铸铜转子、永磁转子、同步磁阻电机、IE5+同步电机均需要注意的是，我们是以理论效率来计算的，但是实际运行中，效率并不是一个定值，而是根据负载的情况有变化，所以实际运行的效果还要具体评估。但不管采用何种技术使电机达到IE5效率等级，仅通过堆材料、提工艺，意味着成本急剧增高。
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamVK9gBdcF4HYg2ia6FxJR10aoxdBKO6kSt8uPiakr3iaBpEYoZ9wxsSFSQ/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE5电动机采用什么技术__images\img_005_37fac5a47911.jpg)![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE5电动机采用什么技术__images\img_006_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE5电动机采用什么技术__images\img_007_a6e4e8e00379.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE5电动机采用什么技术__images\img_008_ec5921db28d2.png)
 

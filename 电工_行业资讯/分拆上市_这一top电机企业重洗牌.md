@@ -4,18 +4,18 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/BxtOuzPSxYOCCYnlvNescA](https://mp.weixin.qq.com/s/BxtOuzPSxYOCCYnlvNescA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tR6ibHibXQwRvAgf6ia352mOJAgKa3qV8nHpFhYYibslVUltyib6naMTdyzG46f4SEoMicmAfx0VbynC0A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\分拆上市_这一top电机企业重洗牌_images\img_000_ea977e48a43f.jpg)
 
 
 **来源：电机新视界**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sgc4VFEQHo2hzXIro7jiaTu0sjTA8Bu27ic1bEJ9jOZPErib0ahrf9zdk1aKclWKePHdlVDRuff7asA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\分拆上市_这一top电机企业重洗牌_images\img_001_241a73f9b405.png)
 
 **产业资讯**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sgc4VFEQHo2hzXIro7jiaTuBHW5UgtIVVwH9qlWyzSffstYae1yhshw8orEkYfp8Jp3NBajbQz2iag/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\分拆上市_这一top电机企业重洗牌_images\img_002_ec9603ed1bb3.png)
 
 近日，汇川技术（股票代码：300124）发布公告称，公司已成功召开第五届董事会会议，并经过审议，通过了关于分拆上市的议案。根据该议案，汇川技术计划将其控股子公司——苏州汇川联合动力系统股份有限公司（简称“联合动力”）分拆至深圳证券交易所创业板进行上市。
 
@@ -76,7 +76,7 @@ PM45电机：这是一款基于OD180电机平台设计的高速发卡电机，�
 总的来说，分拆后，联合动力和汇川技术都将迎来新的发展机遇和挑战，需要不断调整和优化战略，以适应市场变化和客户需求，实现可持续发展。
 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0uibkIvkAHOPtHA9gym3XODEWrQGWXmjNHrmp8Mp3Mv8wdYjoiaNyL1EPibFpmHlcYK1m1wplSBia5vXg/640?wx_fmt=gif)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\分拆上市_这一top电机企业重洗牌_images\img_003_a3efb375477c.gif)![](D:\电脑文件\公众号知识库\电工_行业资讯\分拆上市_这一top电机企业重洗牌_images\img_004_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\分拆上市_这一top电机企业重洗牌_images\img_005_e8e68bdfc1b3.png)

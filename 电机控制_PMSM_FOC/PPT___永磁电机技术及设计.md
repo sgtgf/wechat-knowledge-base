@@ -8,175 +8,175 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tbNsCFC0AHia37KF8iciapax1xHicVnLQN4FKqwxAqCXibgXqQ0e3aqvYQ26pvERgY4JibS8LYZOPWa5pA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_000_86070280ef99.png)
 
 
 来源：  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOJtZWHWKqvkAwnfS3Etky1dSiaUQcda9fRywApBYOa0EXSgx9jL5x1rg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_001_51c8e05de19f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOdtsckqkjYNCmauYpTnOic5kpHmNAWFICGUWZgkUPVib01of0QvyuozoA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_002_3df80937bcdd.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOHJBoqlOoBEXT1ibVDjxjTqiaze4npHQcgm1SuaQ3ofenlOO8W0Xx4IDA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_003_9a73816a5255.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MObfsn2icD7pWRKd5brUHtiaocMLHloAWYRf6SB0jgl4QVnibBcYODcic37Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_004_5b900bfaf276.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOPQVhO5oYg6Js3uXkia7kT4Lv4wGVQibiaH5VpxNEJgJNaibgMZ7hSnYomg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_005_1ef1c1984871.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOiabMQqwzhQe4kZHCWib0cUjsWH6Qslf3ZOpd7vsoMWPWjho1LbmgiaWBw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_006_00c96a99733d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOpqZaSsUTm3ssZQwc0q1VSfVzaKg2ptUr33ZxoMo3BKicOoPe6TKiaGvQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_007_a21e7fc0822c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOBhuThwUYSIDxOLcsfP5ibNtXzkQqwd9NxBN2pdGlDvFkGlpC3IoofSw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_008_7c38d70e5b90.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOtysmNBwtkqamFiczMABpzpks8lia2avtiaksxO3Uaic4qjnO8ySJq9qic6Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_009_8915d731c89a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MODNyVCku6zI3zsxd0txfmbeHgYXjkAaq1IcOruNdyDe8KZkCsu65TRA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_010_1fb455c84ca4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOKXfRmDGHzV1ciada1bKz96P27lVYwTicFqyGwu4KmAGjFpacVicrtEvZw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_011_ebd9477891a2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOsJEB12dggG7xib0dtcZVm0jZRycka0buClxib6qXRY9mTcqCPoOj1ic5Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_012_b3345b79c458.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOmpnt2evubtyKEQa89qL66MtRVFrpabtwiaF1jLibXt4X39us9sry3Vcw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_013_bde50411610a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOnymuE2ibCibYoa1zicWKRJqKsdIsEgxn1vuia5HFsGtosyQFD2C0jQaefQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_014_d41e076aa85d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MO30GyV9a5ujTcEES2Yj2oZd9EW8IPwrT2IjVWmv2X7uAABQ64hMFsPQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_015_fa6fe949f8e8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOOKN4cZDCKoV8yPaictmtLPCAH3TwMWggHZYNkdWQTiaColTEE2nRH5nA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_016_8468380dda37.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOjsnkdv13mohgBFzicO9NIHReftT6ymRjo1NBAqJoe98dDHmOcS9jS7w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_017_29ecde8d6245.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOPtUh4s2WJbiaGXMyqCjm0woysG3l5xzCugOXqu3xr3Ov2ZBf20wpiaJg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_018_6b2202dd43c6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MO3epsFXhKn0XHnHyN1kwwHiaEYUMmCvibgNRdnvIJ28dKK77TsmALkwTA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_019_6c3e6e0e53b0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MO5xYyf8pzFdGtDGIEhAZmQ1iasiab1jjiayvIcG1RQO3kGo10GxZ8r4oug/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_020_8f0ad470f880.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOeHB9wrcVUBu3xpBCPFFjmPTOPxsRfaWgARibCc70hicACmerEibvQbZQQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_021_ba95ad916abd.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOLxOHsXH18BoqD4tMDdxtA7SGnXkA5GT21HfLicPcTmiaur0tLyXUapjQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_022_f506b959653e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOSyIGh9nPicRRXERaI58jCVc3fyqmHMACe8sIGrxSxeQb5ygv6u0n8ZQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_023_402d01e93f38.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOrCeQkXHILBQRniannMlaLW2ibbKFntIewY5jmRBMxt3Dia30HPzWXpGMQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_024_fa26dc1c5d79.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MO7RVrr1TMSgxMoq7E6m9uymWibiaKg0YnVQpHgRcjUxOKQXNvoib0e1zgA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_025_485a2308e3d4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOGCzHVydy3YNriadibPia2CDke7prKAbfrZQNTj7qeGRjb5KqkFwMYxhUg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_026_56f1f7128b14.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOQBPlNFDvB93WABGEhUojUegic100TdHxV8aEDkAV992DBrDgMDMcg5A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_027_e9575aee707e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOBozBtUahpLR07mYtibo1qIergUYDuWntXaCZoTaV2rFCuDuFqelg2Zg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_028_0006c0fbf90e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOSiaQCx5UicRFE8CptIynoltDNZaYiaz32ibXzztnNIEeibYv8N4zqKia99TA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_029_1c0b742a48d1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOthN2tAqicPkcmibvhmlfE6T8bkbWs7KognnibbicwXQHnCFw5ll43dtDxw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_030_8619a4df5cf7.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOX4ddQYJNlaZ4onwOyxOCK2T6iaNyH8swUKKPLOEtmonAUlHPXSrliaYQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_031_4ded483dd59a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOA5ujVVSIhfe1bDf4qicS2lUlhzRSw8GN5Libh0y412icLaN0qSnBwRt4w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_032_d0e67d74b0ba.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOCXbX9KjQZJOZuCS9y2c1sUib73WHA5G6XWx0u8duYHicy8a2WtCibpbNg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_033_ca8724315d5c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MO9yftNzs6Xw9wYjq2rkITEQ4VNY2OGffYq7UZZUBj7cHrVGGibCFOcZA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_034_674fee4f10d0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOEnUtkl2wSMCdO9L4fbswWfPzicoxwba084FVhBcm3BPEPXy58zwibjibg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_035_f3d782ff3cef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOAz8ah108MRVD2wSfQcfaLzdVWia9Zben2icQWj1KIPM2a4Pukk8KRfRg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_036_2f5327f1144b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MORCcQeRAHkr68l0Pv8FtAUsbjibTCoKmqibiajReO437vzMiaDxVP72rVqA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_037_c9bed2a7c7c0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOo4HNxXMl8H7ibNwnFzyeBf0lNmz7yGBTf4L66Mb58sl2nT0znTicSwcA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_038_4de44b478ef0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOYSgV7ULnIz3xVSiaElERJ646y8ZjMzfHA7KfH03ACzXKvW0Wichd9vCQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_039_6cc9a157005a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOQ04dMg1apGkpmVhXdsNbyX27h2WQZO3Rgb0pWC29dQGEUU2RYdFNeA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_040_16b78d111b3e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MO96VaAxtOU8bgWdGAZ42GkJbL4T2QVGDhaNFFTiakqPqYm5YvTqb3qYA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_041_efa8f71eb2bb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MO5hzauBzDulTozI5ibpBOBCAOqXtTsHZciaVIFsubDK29cWCd9TXpH6zQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_042_940482eb9ae5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOKUHmFw6eqbsiaf6yQ7kKbibfQevb2TlSuAxnvicTfSJbMTia16YVBeBLcw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_043_e91b6e716be0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOSHMiavZmQschMb7RVzs5P5GibpRX69mwdFHG1VX95T1jqQibrTcDHpvbQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_044_d43a4085da80.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOJhPvKhnhKgpwzeibensLOfNQPUOTzM9s7NPppForD2FV1PL1TYI15sw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_045_545bbebf6a22.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOtJnDMQNSBE09Wiayh90BO3qSnBFKdsWjjc2yOtbg7NFxgx1dnrjFOdA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_046_9246ae9c0195.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOnPxEyjoEKI6rckBiaJYAMPChUYxgOzt3dKpJpmZZIqhLHegLJJpictXg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_047_c13730822808.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOEQ8uButnECicgeWnicFzJRSwDeMkibBz0u9HxPh5R1TMh9srebeIjJaNQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_048_3132627019c1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOyANmib7oBOYFdl4X5Z09mIGFVbSMtYtGqI2M0nNtiaI3FSGFNOTCIuYA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_049_33f7a1e56228.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOCgOJso7O6BWkCnuYLIGWl5rxUMFVtcxaYk4jlfClYVjv2jJ2c4PXMQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_050_8c8d108de91f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOGZCZsbUpPibv30UkoWibYlicg9hAV0NpiagjyLFP3utmh2wqK1ibvJefFQg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_051_d1f8419e32b5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOKdbtyjJGKTceqpYTxFHtMJAKckU9UvtF056P2Pias8qianKdVrQKb7cw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_052_e7c09fdf9ec4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MO8y8XhOPwhV2oic0F8KQsMlIFOxQb3iasahLIuiaWeT6pslJQ9nNrON6MA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_053_774a9de70688.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOLdHtaBQ1j0dU9TOuBCnw6nicJ6WtF1dricelckq1qmoChsAqOpXvliaLA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_054_bb194499e34e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MO52ykXmaALf6Au5ic6wxO2HXn6ZXJWGEmlQ0Ypxv0ic20dTfvPQC2CJlw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_055_c1e1bb871ffc.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOlMLQ8Ee11AGhYUfa0duzbQnnia2bkdzDQl3FjmcJydwFht6CroKPttg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_056_80a5b9d2c69f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOCYetA3OTtDPAyJkCbRWarRWhZythApdm0rgf9lQibVg3qdzr9FAG2DA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_057_062621c93c86.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOgpqpT2mWfAu4GZM96QI4dOdv1mL0zKw7RMmcqQ1B9zrG6bu0zBVbJQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_058_423ba5d8e161.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MON0CVkyd7YmQaTiaMgFVjU0FEYzibdKO3gH4I4IOvAcn6EHFJk0UASDGw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_059_a2f32d1f1737.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MO2IcBic5l66jdX5MGGro3jNIRW2wibWgFkzFDtOTDMUOFN7QROS1kD98Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_060_31ff15449135.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOYW7G59OBvnib32Jicyw71eDoXKq2Nz5ou06Mn3IpaSg3kpwFkV4AlYFQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_061_5830a711ce0c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOwSHXFnjQE9jwgFPLpsiarOmYVribMKznowT7dTzWuWhRLRPFsJnO1o7A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_062_b51537179f2e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOcKv98JNAXdeHFWw4Irdz4BCnGM333E9jdRuH90cJCePSE6OU3WvhGg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_063_b35c2af2fd73.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOcb9mD2rVzzQBhFEA3qG0aic10aqnu5xcB4ziarhZJl0Aheib4X9LQbCUg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_064_ea930b110dd3.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOgZicM3EQicVKRXV5ZhODTSnT2s2YxcCiagHE1JrljafricRxrfVqAUfdHw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_065_9c7de104406f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MO7sDzxpUpgvgatLicObydfVZuiasyrsAw65oFntgxaKSibjEPj37qiclOKg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_066_383ab21d0b9f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOicJF4d8Va2JxkqZSSzN4gZHFs9MFKWbiayE63m9iaC7FTbjMfmCQ9VSxw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_067_aa7f2f858831.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MO782hZJsOliaEPhKAjUK2KQHxDL12KHwAbyLiaPj8066g2BtQEwVplZibQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_068_291c5665d2fa.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MO3sAYD6yic6otDvdyZGX6u34pibR3JvLyria5eaGl33pAz0oHo8L6tbS4Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_069_2fb00ef1e819.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOhuaibu8QptpJBZm5vSSuI5Kn08bq5ZVY6pIa9JrHOoHqhDFxOYibN2aA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_070_f92871a6c517.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOK1SYzZDqRBMNiaHZaezGiciav6YCafxcgc8dclH54f0hXyU7d3yoFa0WA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_071_da6493100346.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOXViaohqXYxT67zR9X5IRFLXpmsFHib4Xrgm2gR7cjluLjyyfyduWC3nw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_072_e3d317fdcefb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOwlHIn50CGlKxPmEFyoFr2jicRvPoyRe57ySNWicTn0dHibYLbtKU5MrSg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_073_076e1dbd13bd.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOKU7ESgRBAkxnSOActhWk2w1icEbWHdlUMHDOZFZDcMcc1l1QzZiaiccnA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_074_b5f22f95230f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MO3IwmaItic0wWF5cMhbs7dkaUVcc4dcaPTyWznLKHSeXbHiavx5OeeNIQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_075_62a5e4b09abf.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOnAWEVxQ36TYjqgALYul3AfiaHPMQedKBibcPYvqxbptMoV58hvBb9zKw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_076_04a38ed1bd1b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOmtialonaSkNE0psd4H3MlTk4pwDPKtql2FtL0pIo89YTTwQFKOmicehQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_077_5f44af91e193.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MObQbQ3WrU7vwL2zKLVdu4e3LiaRuQCrh1I6gMvqU8whoEmEgwsyGiaGSQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_078_8c0e6ccf73a6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/zGLT0m1O2wiaGDBWWFZY7Bbj2DslQt9MOH7j1kfVlgnEWBLX6PWriazGfK39hMFW1AmO0VraKsdaqapUkHXp5dag/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_079_1a68b62f449e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_080_31a98b8e3167.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s0OaHsxVicqRwsd1jffsZ1SInziao432K25CLbwomI8aoRfBsD0ibko7MJkWIcoEm08ia03Vpey2IyxQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_081_a42af9525055.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\PPT___永磁电机技术及设计_images\img_082_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
 

@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/\_ndA1d0fCNoygKDHXflZrg](https://mp.weixin.qq.com/s/_ndA1d0fCNoygKDHXflZrg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_000_d8cb52582ba8.jpg)
 
 
 来源：EDC电驱未来
@@ -13,11 +13,11 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/oMlX8Lll9JiaCPEYRo0V5zGW5KGQIiaTlxNCs3dOqibvmSbF8og2SwKUOkXmuLfyLs1H393HjQ4nAAxiaq1DRENNcQ/640?wxfrom=13&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_002_4bed5b8db64d.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/oMlX8Lll9JiaCPEYRo0V5zGW5KGQIiaTlxNCs3dOqibvmSbF8og2SwKUOkXmuLfyLs1H393HjQ4nAAxiaq1DRENNcQ/640?wxfrom=13&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_001_4bed5b8db64d.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/oMlX8Lll9JiaCPEYRo0V5zGW5KGQIiaTlxNCs3dOqibvmSbF8og2SwKUOkXmuLfyLs1H393HjQ4nAAxiaq1DRENNcQ/640?wxfrom=13&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_003_4bed5b8db64d.png)
 
   
 
@@ -62,7 +62,7 @@ _**控制算法**_
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tOBNsl7emt2YkRvBiaISDWoYFEedSwOfSibXufHByLP6kZicDXlib1N3YjxHPLdKXGIhRp0F56R2T6ETQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_004_06685e3f66ec.jpg)
 
 _图1_  
 
@@ -76,7 +76,7 @@ _**BLDC电机的梯形整流换向**_
 
 对于直流无刷电机采用所谓的梯形整流换向是最简单的方法之一。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tOBNsl7emt2YkRvBiaISDWoYlS35egicUqaV7XAicVJW2te83LiaIxjQ2nh4LhrwHnJP5rMyvWaU0HibnQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_005_bc1a3481a604.jpg)
 
 _图2：用于BLDC电机的梯形控制器的简化框图_
 
@@ -84,7 +84,7 @@ _图2：用于BLDC电机的梯形控制器的简化框图_
 
 嵌入大电机中的三种霍尔器件用于提供数字信号，它们在60度的扇形区内测量转子位置，并在电机控制器上提供这些信息。由于每次两个绕组上的电流量相等，而第三个绕组上的电流为零，这种方法仅能产生具有六个方向其中之一的电流空间矢量。随着电机的转动，电机终端的电流在每转60度时，实现一次电开关（整流换向），因此电流空间矢量总是在90度相移的最接近30度的位置。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tOBNsl7emt2YkRvBiaISDWoYISmlib7NgqYDmugAJV0Q7HLt3iayqxZEic2xEH4cjWIiacUHjJtlQM8I6Q/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_006_f8fd99cc3e7a.jpg)
 
 _图3：梯形控制：驱动波形和整流处的转矩_
 
@@ -125,7 +125,7 @@ _**BLDC电机的正弦整流换向**_
 
 为了随着电机的旋转，生成电机电流的平稳的正弦波调制，就要求对于转子位置有一个精确有测量。霍尔器件仅提供了对于转子位置的粗略计算，还不足以达到目的要求。基于这个原因，就要求从编码器或相似器件发出角反馈。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tOBNsl7emt2YkRvBiaISDWoY3zxmiatfmdK9EWDgZP4zaibPteTKkPwqt0YtupPhiarK2MqRaEQIicRQzw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_007_fc395052a6bb.jpg)
 
 _图4：BLDC电机正弦波控制器的简化框图_
 
@@ -182,7 +182,7 @@ Clark变换：Clark数学转换将一个三相系统修改成两个坐标系统�
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tOBNsl7emt2YkRvBiaISDWoY02WwDZEp09C3oZ0IMegYs26ZgahFvfX1edIuzcnxOt2HFFI8nmgEUQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_008_7b0d2aa00d06.png)
 
   
 
@@ -190,13 +190,13 @@ Clark变换：Clark数学转换将一个三相系统修改成两个坐标系统�
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tOBNsl7emt2YkRvBiaISDWoY33XSoxJbyAt4KAWyqScgUaWAAHw9z9huOxzShtaqxhCwTbuZg3LOSw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_009_b1b7881ed0f2.jpg)
 
 _图5：三相转子电流与转动参考系的关系_
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tOBNsl7emt2YkRvBiaISDWoYTcRE1Os0JJeUGdueZAd082ZO0LledKj7y4waTafzMuicMibg7IYZZIxg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_010_b7dd0b2a5a53.jpg)
 
   
 
@@ -212,7 +212,7 @@ _**AC电机的磁场定向矢量控制的基本结构**_
 
 Clarke变换采用三相电流IA，IB以及IC，其中IA和IB在固定座标定子相中的电流被变换成Isd和Isq，成为Park变换d，q中的元素。其通过电机通量模型来计算的电流Isd，Isq以及瞬时流量角θ被用来计算交流感应电机的电动扭矩。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/Ric7NYAOlvUlszeKeWzhW5TBiaqrLjE1jwWT3hRiaFpia42sBssvqCib2jOPNBHxZ5McSt5NOK9plT0tvW0TPN8H5Zw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_011_d8af8becec7a.jpg)
 
 _图6：矢量控制交流电机的基本原理_
 
@@ -220,7 +220,7 @@ _图6：矢量控制交流电机的基本原理_
 
 这些导出值与参考值相互比较，并由PI控制器更新。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/Ric7NYAOlvUlszeKeWzhW5TBiaqrLjE1jwf0wRY92XRRbYIRb55tLxW7K7r6QFahhOaZqrn4QPEx9FPLWqiawLChw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_012_55580e1da273.jpg)
 
 _表1：电动机标量控制和矢量控制的比较_  
 
@@ -236,7 +236,7 @@ BLDC电机是磁场定向矢量控制的主要选择。采用了FOC的无刷电�
 
  **1、步进电机控制** 
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tOBNsl7emt2YkRvBiaISDWoYAsYOsoyaqEEZS9JnlMnyLtic1tbG48ibziaV6ELV80lzq9VBnLVtrgj4A/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_013_5b4b4e4e73fa.jpg)
 
 _图7_
 
@@ -273,7 +273,7 @@ _图7_
 
 相角控制是通用电机速度控制的最简单的方法。通过TRIAC的点弧角的变动来控制速度。相角控制是非常经济的解决方案，但是，效率不太高，易于电磁干扰（EMI）。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tOBNsl7emt2YkRvBiaISDWoYYhvYTCChoGxPuJsiaeS3buTgEklIVB0W0BBicAiceVQrXqicwpbzicJmgpA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_014_9ef9fb78a7c9.png)
 
 _图8：通用电机的相角控制_
 
@@ -283,7 +283,7 @@ _图8：通用电机的相角控制_
 
 PWM控制是通用电机速度控制的，更先进的解决方案。在这一解决方案中，功率MOSFET，或者IGBT接通高频整流AC线电压，进而为电机产生随时间变化的电压。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tOBNsl7emt2YkRvBiaISDWoYr9PR6ohXib5dOmAiaVsn2XT80DPuCFuSak6JAWTgmbI70HYrtGlIAkHg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_015_476c6b7aee22.png)
 
 _图9：通用电机的PWM斩波控制_
 
@@ -294,9 +294,9 @@ _图9：通用电机的PWM斩波控制_
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88HJkEmpYqlKiaC4tFrnTia7L7pjBnCvUZtV9MV1HRf7nRn8kPs7bKsmQQ/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_016_3ccc50bba2ef.jpg)![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_017_bcb57d883039.jpg)![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_018_1862cf7fbcf8.jpg)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\超全BLDC电机控制总结_images\img_019_dac57d0b3024.png)

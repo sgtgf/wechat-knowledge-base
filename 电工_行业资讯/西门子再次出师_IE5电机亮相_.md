@@ -10,7 +10,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0ueic716ApEBoelb21DwrX7wnY7J2l0S3maoQPDZmSwMH46KerGsSYYUKSofwaSOicVjn77DkEfkRTA/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0ueic716ApEBoelb21DwrX7wibxoDS5FRfpDk1MGuOOqZ7mzXqiaMCPJDricQXj7LDDVJzX1IgEe4H3JA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子再次出师_IE5电机亮相__images\img_000_33a3bcb4db79.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子再次出师_IE5电机亮相__images\img_001_e89f21199448.jpg)
 
 
 来源：网络整合
@@ -43,7 +43,7 @@
 
 **该电机具备超高能效和极高的可靠性等优点，覆盖中大型机座号。其能效等级达到GB18613-2020国标一级能效。**借助于数字化以及全球研发团队的合作，在原有的技术上对绝缘系统，机械仿真设计等方面的改进升级，IE5三相异步电机不到一年便在市场上快速推出。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0ubDhe0YibuY0LDer2ELuFjuOBu50FOMOolb1781aZXuE40LK6iamYWMYcLPLng7iaS8cMGicQvCWOA8A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子再次出师_IE5电机亮相__images\img_002_2232d165b89e.png)
 
 图：IE5三相异步电机
 
@@ -67,7 +67,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0ubDhe0YibuY0LDer2ELuFjurC6aFicPOv5Umr3jwE6qx4K8oUpuJxhicGtCNF5TicYt4IyZhqenMeHew/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子再次出师_IE5电机亮相__images\img_003_9cfad920b5e7.jpg)
 
 Michael Reichle  茵梦达全球首席执行官
 
@@ -77,7 +77,7 @@ Michael Reichle  茵梦达全球首席执行官
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0ubDhe0YibuY0LDer2ELuFjugcuRlYPS9T2zOM0vMY7oLibq61iaC2Frz3pU6AtXtYDJvAqicCTyK8nlw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子再次出师_IE5电机亮相__images\img_004_0ae0488961e6.png)
 
 崔岩     茵梦达中国首席执行官
 
@@ -137,8 +137,8 @@ Michael Reichle  茵梦达全球首席执行官
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子再次出师_IE5电机亮相__images\img_005_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子再次出师_IE5电机亮相__images\img_006_a6e4e8e00379.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子再次出师_IE5电机亮相__images\img_007_ec5921db28d2.png)
 

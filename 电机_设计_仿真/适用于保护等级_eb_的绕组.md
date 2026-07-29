@@ -8,7 +8,7 @@
 
 **关注我们**
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0ue9X3ztsThAP6Rx6VwJx2YZxCwMN2iajkZd1icvCtd27p4yDUdcm0icMAsewJ36JxdBYiaBXDbFpKeag/640?wx_fmt=jpeg&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247676742&idx=1&sn=eafbdf1502f9ce7b8b3f7c96b73fbdd3&chksm=e9154c68de62c57e3a4acce8424a51833fde0cf4e49374db85915370d1e5d075b4390e7a6b2e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\适用于保护等级_eb_的绕组_images\img_000_615a6cd99316.jpg)](http://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247676742&idx=1&sn=eafbdf1502f9ce7b8b3f7c96b73fbdd3&chksm=e9154c68de62c57e3a4acce8424a51833fde0cf4e49374db85915370d1e5d075b4390e7a6b2e&scene=21#wechat_redirect)
 
 **
 
@@ -16,7 +16,7 @@
 
 “**eb**”级绕组在增安型的电机、电器和仪表中应用较广，绕组浸渍及绕制绕组用的绝缘导线的线径及绝缘要求如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/33lsL40vqCkkCkXRoe2ZJOp1oeUGUV579zickDoFYfY01sYicx2hVJMH1IqWBv0diax09ibMHeNeSkQIs0oEyklSfg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\适用于保护等级_eb_的绕组_images\img_001_7a17ec2917ca.png)
 
   
 
@@ -60,7 +60,7 @@ c）符合GB/T 6109.2、GB/T 6109.5、GB/T 6109.20或GB/T  6109.22规定的3级
 
 （4）当采用含有溶剂的浸渍剂时，浸渍和干燥处理至少进行两次。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/33lsL40vqCkkCkXRoe2ZJOp1oeUGUV57IpXmNcxznuO09hYYNLX5ibvOMjibz7G4yg5Uw5AmseVuNia6hzRMWNoRA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\适用于保护等级_eb_的绕组_images\img_002_0cca502c35db.png)
 
   
 
@@ -73,8 +73,8 @@ c）符合GB/T 6109.2、GB/T 6109.5、GB/T 6109.20或GB/T  6109.22规定的3级
 用于绕组的导线的最小公称尺寸应是0.25mm。
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamVK9gBdcF4HYg2ia6FxJR10aoxdBKO6kSt8uPiakr3iaBpEYoZ9wxsSFSQ/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\适用于保护等级_eb_的绕组_images\img_003_37fac5a47911.jpg)![](D:\电脑文件\公众号知识库\电机_设计_仿真\适用于保护等级_eb_的绕组_images\img_004_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\适用于保护等级_eb_的绕组_images\img_005_a6e4e8e00379.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\适用于保护等级_eb_的绕组_images\img_006_ec5921db28d2.png)
 

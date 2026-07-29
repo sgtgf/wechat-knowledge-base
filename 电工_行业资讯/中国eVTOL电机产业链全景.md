@@ -4,9 +4,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/xorRLFZiKGF93p1N7v9UfQ](https://mp.weixin.qq.com/s/xorRLFZiKGF93p1N7v9UfQ)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0suic3j0yP9NUhBMgibzkibDRE64T0hpovEibp9cYwo8Iw2sibQROwkibiaz4IIhmtPnFIuskfiaG28XRSmmw/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247580512&idx=2&sn=f8e9cd497def449e2bc7f9f0e5aa4791&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\中国eVTOL电机产业链全景_images\img_000_c66cd6ca6268.jpg)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247580512&idx=2&sn=f8e9cd497def449e2bc7f9f0e5aa4791&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\中国eVTOL电机产业链全景_images\img_001_d8cb52582ba8.jpg)
 
 
 来源：ATC新能源三电
@@ -34,7 +34,7 @@ eVTOL（Electric Vertical Take off and Landing）,电动垂直起降飞行器, �
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/0eevEP1m7wD9uXXXjpTBEwdNicylGYmao44IKAelzyvjwUjXw6ksYJhljVgX1dg4quU4Iib3dQPicCq3eCTE9bCdA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\中国eVTOL电机产业链全景_images\img_002_9ba3b849fbc6.png)
 
 数据来源：观研天下数据中心整理
 
@@ -44,7 +44,7 @@ eVTOL（Electric Vertical Take off and Landing）,电动垂直起降飞行器, �
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/0eevEP1m7wD9uXXXjpTBEwdNicylGYmaoWib4ricSgd5kSHYbJnfSZ1K2v6SzZf170jZEYvwoTSRm795dEMBowM0g/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\中国eVTOL电机产业链全景_images\img_003_94e95fbfb2b7.png)
 
 数据来源：观研天下数据中心整理
 
@@ -60,7 +60,7 @@ eVTOL使用寿命约 15-20 年，电机需更换 3-4 次。假设 eVTOL 使用�
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/0eevEP1m7wD9uXXXjpTBEwdNicylGYmaoTL4zC5EBTJDuVoekoom5AMMSnVu9pllUnTe6EonnBWQNc4BU3U7M3Q/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\中国eVTOL电机产业链全景_images\img_004_2c4496d6ec48.png)
 
 数据来源：观研天下数据中心整理
 
@@ -76,7 +76,7 @@ eVTOL电机主要分为无刷电机和永磁同步电机两类。无刷直流电
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/0eevEP1m7wD9uXXXjpTBEwdNicylGYmaoQbbdsrRU0SwqWsGLNXbSVE5kGXLKdqj4SGqOuBGgeDpR0Zs78xmiaxg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\中国eVTOL电机产业链全景_images\img_005_500c3368f6ac.png)
 
 资料来源：观研天下整理
 
@@ -150,7 +150,7 @@ eVTOL 用非晶材料已有产业化进展，中研非晶&北极鸥合作，非�
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/0eevEP1m7wD9uXXXjpTBEwdNicylGYmaolegvwRM90icaiaccV3gWwK5yLTXWqQDLqDgFKQibwn1WdxibPz4bSUJ4eA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\中国eVTOL电机产业链全景_images\img_006_a0649d120dd9.png)
 
 数据来源：观研天下数据中心整理
 
@@ -209,9 +209,9 @@ eVTOL 用非晶材料已有产业化进展，中研非晶&北极鸥合作，非�
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\中国eVTOL电机产业链全景_images\img_007_3ccc50bba2ef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGTdAQI2qpV97qAmOqeibaIiaKVLIks3YeQgIOyX5ia8tqVf9AFgW3XZ8Lw/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGk0C4HQwvywiaCRaw753uY4ZQdjaYicMhbrRdySb1xNFYzMAMNV8icFb3Q/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\中国eVTOL电机产业链全景_images\img_008_6eec1b7fb41b.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\中国eVTOL电机产业链全景_images\img_009_1798abd6d288.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\中国eVTOL电机产业链全景_images\img_010_1862cf7fbcf8.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\中国eVTOL电机产业链全景_images\img_011_dac57d0b3024.png)

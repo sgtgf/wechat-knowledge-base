@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/5ity\_lG6DgC8X7X71\_z9JA](https://mp.weixin.qq.com/s/5ity_lG6DgC8X7X71_z9JA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vE2ZIG5VErUiaic5Uovdb28y7P5QYtqjXS963OUGN1gZticMCCPchusnOMBhEuCvwJ9JdO7pugDP1XA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机盈利Top10_谁是盈利最强企业__images\img_000_a02001b809a1.jpg)
 
   
 
@@ -120,20 +120,20 @@
 
 ****电机**盈利能力前十企业，近三年净资产收益率、毛利率、净利率：**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sgVKlsFzibfstvQZCpZ2cRdFKwIm8yVguHlfglyTkFW5QaicpsWyOhVfSPyxJdvHXdpWzkkRviaWIicfrwhWxOeD0Q/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机盈利Top10_谁是盈利最强企业__images\img_001_d301356922d9.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sgVKlsFzibfstvQZCpZ2cRdFKwIm8yVgumesrfCQHncm0E36ibyopOEkdxHu5M5hrQDuaCZE4sTet0DnSqlbqXGg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机盈利Top10_谁是盈利最强企业__images\img_002_86311480935b.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/sgVKlsFzibfstvQZCpZ2cRdFKwIm8yVguibFsM3tQyzOce9SNXmabKP334h60ggVhQfAgf5CBralUSc8jwFdyxxw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机盈利Top10_谁是盈利最强企业__images\img_003_63ea41c18cc9.png)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0uibkIvkAHOPtHA9gym3XODEWrQGWXmjNHrmp8Mp3Mv8wdYjoiaNyL1EPibFpmHlcYK1m1wplSBia5vXg/640?wx_fmt=gif&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机盈利Top10_谁是盈利最强企业__images\img_004_22d59179e018.gif)![](D:\电脑文件\公众号知识库\电工_教育_学习\电机盈利Top10_谁是盈利最强企业__images\img_005_a6c2e413e6e0.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机盈利Top10_谁是盈利最强企业__images\img_006_d84912f96aa9.png)

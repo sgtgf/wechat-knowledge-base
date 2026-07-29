@@ -4,11 +4,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/sYtDTf0zcpWPdnB0wjmF0Q](https://mp.weixin.qq.com/s/sYtDTf0zcpWPdnB0wjmF0Q)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0suic3j0yP9NUhBMgibzkibDRE64T0hpovEibp9cYwo8Iw2sibQROwkibiaz4IIhmtPnFIuskfiaG28XRSmmw/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247580512&idx=2&sn=f8e9cd497def449e2bc7f9f0e5aa4791&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_000_c66cd6ca6268.jpg)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247580512&idx=2&sn=f8e9cd497def449e2bc7f9f0e5aa4791&scene=21#wechat_redirect)
 
 △点击图片报名参加
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_001_d8cb52582ba8.jpg)
 
 
 来源：驱动视界、车圈大佬
@@ -19,7 +19,7 @@
 
 径向嵌装绕组是指将铜导体绕制成型后，沿定子铁芯齿部的极靴口将绕组从径向方向装配进铁芯槽内。初期绕组技术以分布式圆线径向嵌装绕组为主，1942年又逐渐衍生出集中式圆线径向嵌装绕组，随后到1995年发展出集中式扁线绕组以及分布式波绕扁线绕组。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4h7u3OQmpvxsj5O2KTsiaOVZDDu4YiaK0DkLQNC46aQiaj3QpDmHZAKNtw/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_002_a88a5e955f34.jpg)
 
 径向嵌装式绕组技术由于其铁芯槽口极靴形状的结构设计受限，会直接影响到电机的峰值/持续特性以及NVH性能，此外在生产工艺上往往还需要手工介入调整，难以实现高节拍（60s以内）的自动化生产。
 
@@ -27,9 +27,9 @@
 
 从1958年开始，随着绕组技术的进一步成熟，第二代轴向嵌装绕组技术开始进入市场应用，轴向嵌装绕组是指将半成型或者未经预成型的扁铜线导体，沿定子铁芯的端面槽口将绕组从轴向方向装配进铁芯槽内。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4NTWozQZLv6ostbeqtGv4yGLecONWich3Jl4E3zeicE270z6XvC7CDdgA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_003_fb909ef49f9d.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4UwdrLHhDoxHwLEpsuicIQVOyNUnjj8J0VWmY6oy4cf0a5dMAu0eSeUQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_004_3e46ab3cee06.jpg)
 
 ▲扁线电机定子绕组技术路线  
 
@@ -43,7 +43,7 @@
 
 （4）X-pin以联电和博格华纳为代表  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4icMsfNcxrG08TPHRiaHPebnoUia02pKxw5lGgj2kJVQ18FeSfgIsVIkbQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_005_003d40fe6832.jpg)
 
 ▲不同绕组优劣势对比
 
@@ -55,7 +55,7 @@ Hairpin绕组可以大大减少绕组嵌装所需的装配预留空间和导体�
 
 其优势：电磁设计灵活、产品设计与制造均衡度最好。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2wnto25iaSo1jZRndsn1wez44ljRZHDtpKZSCW1u6x7ftfqwSJsRrqDwb3w1NOuY0tRBibrU4vCK0hw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_006_ef56ddb4bdf3.png)
 
 **轴向嵌装之：I-Pin绕组**
 
@@ -63,7 +63,7 @@ I-Pin绕组无需预成型且为单槽装配，可以进一步降低绕组的装
 
 I-pin的制造难度最低，但焊接工艺繁琐，端部高度也高（端部尺寸较大）。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2wnto25iaSo1jZRndsn1wez4CM6ibC33L7z0LlibxSubm6CKYSCAiczXIlGLJpbdibZibFv7840gG1kYPDw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_007_5dadd035487b.png)
 
 ▲上图（左）：I-pin示意图  （右）：I-pin绕组 示意图
 
@@ -81,11 +81,11 @@ S-winding绕组优势：
 
 2018年博格华纳开发出S-winding型绕组导线成型技术。该方案尤其适用于安装空间有限的P2混合动力汽车，S-winding绕组比集成绕组定子短30%左右，而扭矩密度提高了50%以上。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2wnto25iaSo1jZRndsn1wez4KicpG8q4zJ82UcdCFTUcntlIQnYpFbyd7yeAIERSBa1VYHhO47AuEnw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_008_002e7df421f4.png)
 
 2021年6月长安汽车发布的蓝鲸iDD混合动力系统就是采用S-winding绕组的电机。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4qaIWuSR6oIeUj5Q6WvquBuTBJeJz219CRaojJarpibHzRib5rD0OdIRg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_009_d39b81ae2a62.jpg)
 
 相较于目前的常见工艺，该工艺无需焊接，装配环节简单，工艺更稳健。
 
@@ -101,15 +101,15 @@ x-pin绕组定子一旦开发成功，将极大地冲击现有发卡、i-pin和�
 
 但由于焊接、爬电距离等问题还无法彻底解决，X-pin目前应用场景受限。  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4nX3DOMlauzzhKqgO0nWaOVO28nFPcODRQSg4uFASSPkYd8bkfhh4xA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_010_4d98486eb1e9.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4ogVzML6SkBNcHLmVYANrsBAQ7xkNfaJQFIEUkYmSCSKPoErSGCBibkw/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_011_0dfeef69ec3c.jpg)
 
 联合电子于2022年推出的X-pin预计在2024年量产。
 
 **X-pin绕组（BorgWarner）**  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4iaiaIYEkwcE2TvBib1ib3DicWkVcHgDu9dic1OxmHwMYvYvp3lpl2d8f78wQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_012_5c7c8051e331.jpg)
 
 端部高度优势（BorgWarner）：
 
@@ -117,7 +117,7 @@ x-pin绕组定子一旦开发成功，将极大地冲击现有发卡、i-pin和�
 
 （2）X-pin产品尺寸17mm，端部高度下降明显，更有利于整车轴向空间的布置
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4qjbxYuOUibgvRcmUPknPcOUKtLeX2mTdcU3T3uKes2od0h1oF5kNribQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_013_ee0d3890d72b.jpg)
 
 焊点设计和焊接工艺：
 
@@ -125,13 +125,13 @@ x-pin绕组定子一旦开发成功，将极大地冲击现有发卡、i-pin和�
 
 （2）采用低温焊接工艺保障不破坏绝缘的同时焊点强度仍处于行业较高水平
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4YA6u4K9ja5ibsW9BV7RMEsVpE3uCNTPLulXrI6UXzdgqFohRMAic2egg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_014_400d8cbe4c77.jpg)
 
 ▲X-pin工艺与I-pin及Hair-pin工艺对比
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4adaE0uddH3FibQEpa7BNh0GK5JZhGcP5CzDUep5T0c4Vke83KjXibVbA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_015_05665b389504.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4MFibegy47s9SR7vMWkWu7PrL808QfTDAjqZq5jdDbBDUVZZsdP5XTlQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_016_eac1cdae138d.jpg)
 
 ▲实测数据
 
@@ -141,7 +141,7 @@ x-pin绕组定子一旦开发成功，将极大地冲击现有发卡、i-pin和�
 
 （2）静态电性能参数均能达到设计需求，其中电阻下降明显
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez45zHnos5ib6uzT3h7T1ypS2fgXqzepz5pTCdtFr1ZEcXDF0Djvkyiankg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_017_6c69b93ef514.jpg)
 
 ▲同款电机不同工艺对比
 
@@ -149,23 +149,23 @@ x-pin绕组定子一旦开发成功，将极大地冲击现有发卡、i-pin和�
 
 （1）X-pin绕组没有直线段部分，扭转工装无法“抓住”铜线，如何将整圈铜线同时扭斜？  
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez42ibTLEu6MpeJ5SgibcdkFwjQ40U59GSZLuvo3Cp52n1TRz9sibtSzqMsA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_018_0afd2ffb0b15.jpg)
 
 （2）由于线成型、铜线压入、扭斜等工序存在误差，如何保证扭斜后两根铜线端部能够实现“完美搭接”？
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4rJML4pyWfGBcLT53ovSRACX5lD7OYEGcdF7ZCaK7BzKQHiaBTLbxRYA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_019_b6d7e9c657c2.jpg)
 
 （3）发卡定子可使用整体夹紧盘对所有焊点从4个面同时夹紧；但X-pin没有直线段部分，没有易于夹持的着力点，夹紧空间小，自动化夹具设计困难。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4c1cLZnXDDFBNFZc64KnRdiceBS5b4lRlldXqWdusYHPm5UyZFyQILsQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_020_841292f99b82.jpg)
 
 （4）为了保证交叉区的爬电距离，X-pin定子需要尽可能减少去漆皮长度（2～3mm），焊接时要想办法降低高温对漆膜边界的灼烧。  
 
 槽数越多，槽距越小，爬电距离风险越大，800V电机根据清洁度等级要求爬电距离最少10mm以上，只靠漆膜长度很难满足。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez45v0oCerGxARGicw6tSP8zuk9phqSfGic8PuNTwvGictCoaYKvwUxUUTwg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_021_ba52b80163ec.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez43e0SB5aC4AdD89yricDWV4huiaAibl1Xk8OZichrT3IQ8GCIKbLicnTicgzQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_022_1eb342830a3e.jpg)
 
 ▲不同绕组主要工艺对比
 
@@ -177,27 +177,27 @@ x-pin绕组定子一旦开发成功，将极大地冲击现有发卡、i-pin和�
 
 （3）机壳、定子铁芯端部（两个）、定子铁芯中部构成散热结构，油液进入铁芯中部散热结构内部，在油阻的作用下油液会充满铁芯中部散热结构空间中，所有的表面都能与油液接触起到散热的效果。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez48leicnlW3liawamJfz25Lf5h6pWibuvrXpAYxwWKWfp1E7sAmzfEOhlTw/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_023_6d8ca3d3c500.jpg)
 
 ▲向心油路工作展示
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4ANFf8FPBlR3BmzSzotnwYyfdNN5w3uPeuDHNJ9kJSk3YhQpVjgtL4w/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_024_f24e7a6a62a8.jpg)
 
 ▲与同类电机散热结构对比
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4xe1lXUibIhWdvzKRfqsl8r5iagBwYqicPsRDD4YBdp9ZQy5aoMtyNG36Q/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_025_1371c467d062.jpg)
 
 ▲传统电机散热结构
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4icyk09kgqGkrQKIMGUsnVLL1egPAVO9VpGMiamvvOAQMIJtViaGGDczgw/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_026_6634659c5c1c.jpg)
 
 ▲直瀑式电机散热结构
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4bqQm9WZnCoRqtQM7zPnt8IibOzSMK28w99m4B3c3Htia6iaNvUE7uhjBA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_027_c30967f8b113.jpg)
 
 ▲Lucid电机散热结构
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2wnto25iaSo1jZRndsn1wez4YfEoRUwCj3sqw4IK1zia3jr70CEdSPAauBSm9NavypZneJkXfIr1sFw/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_028_92c68f807315.jpg)
 
 ▲特斯拉电机散热结构
 
@@ -225,11 +225,11 @@ x-pin绕组定子一旦开发成功，将极大地冲击现有发卡、i-pin和�
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_029_3ccc50bba2ef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGTdAQI2qpV97qAmOqeibaIiaKVLIks3YeQgIOyX5ia8tqVf9AFgW3XZ8Lw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_030_6eec1b7fb41b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGk0C4HQwvywiaCRaw753uY4ZQdjaYicMhbrRdySb1xNFYzMAMNV8icFb3Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_031_1798abd6d288.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\Hair_pin_I_pin_S_winding_X_pin_绕组技术差异全解_images\img_032_1862cf7fbcf8.jpg)
 

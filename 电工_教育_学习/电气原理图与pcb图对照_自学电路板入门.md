@@ -1,0 +1,78 @@
+# 电气原理图与pcb图对照，自学电路板入门
+
+原创 电路一点通 2024-09-22 11:28 广东
+
+> 原文地址: [https://mp.weixin.qq.com/s/61FnhDQQNUBQbt17C6kxKw](https://mp.weixin.qq.com/s/61FnhDQQNUBQbt17C6kxKw)
+
+# 循环彩灯电路原理框图  
+
+  
+
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电气原理图与pcb图对照_自学电路板入门_images\img_000_6557eefed3a0.jpg)
+
+**👇👇👇更多技术资料👇👇👇**
+
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电气原理图与pcb图对照_自学电路板入门_images\img_001_04220958ac2f.jpg)
+
+# 电气原理图
+
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电气原理图与pcb图对照_自学电路板入门_images\img_002_95e4950cc7bd.jpg)
+
+  
+
+# 计数器74LS161功能表
+
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电气原理图与pcb图对照_自学电路板入门_images\img_003_e9ed14b48b22.jpg)
+
+  
+
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电气原理图与pcb图对照_自学电路板入门_images\img_004_535bc8e0707a.jpg)
+
+  
+
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电气原理图与pcb图对照_自学电路板入门_images\img_005_103a06f45889.jpg)
+
+  
+
+# 译码输出74LS138
+
+  
+
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电气原理图与pcb图对照_自学电路板入门_images\img_006_f6eb72d17b4e.jpg)
+
+  
+
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电气原理图与pcb图对照_自学电路板入门_images\img_007_236320a6330f.jpg)
+
+  
+
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电气原理图与pcb图对照_自学电路板入门_images\img_008_0819de0e24fa.jpg)
+
+  
+
+# NE555
+
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电气原理图与pcb图对照_自学电路板入门_images\img_009_9f790ab01a4d.jpg)
+
+  
+
+# PCB
+
+  
+
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电气原理图与pcb图对照_自学电路板入门_images\img_010_76380f53922f.jpg)
+
+**![](D:\电脑文件\公众号知识库\电工_教育_学习\电气原理图与pcb图对照_自学电路板入门_images\img_011_cb5cc6fe4a4a.png)**
+
+-   [一张图看会汽车多种驱动形式区别及优缺点  
+    ](http://mp.weixin.qq.com/s?__biz=Mzk0MjY5ODk2Mw==&mid=2247489190&idx=1&sn=8c5e50e7ee09c5328c0bf491e7eebcdf&chksm=c33e6e1af449e70c8a0bcbd08a19433cbb41582cd5cf3c549a6a4d36809de3c39b6fad257f7d&scene=21#wechat_redirect)
+    
+-   [汽车电器系统分布与零部件组成、结构原理图  
+    ](http://mp.weixin.qq.com/s?__biz=Mzk0MjY5ODk2Mw==&mid=2247489359&idx=1&sn=6af1b87f2a9f1e025c5db14ca9e995b7&chksm=c33e6ff3f449e6e54bc87fd9651d8769b5a5d3204ad8e4223339789f69343a32160762b2a79c&scene=21#wechat_redirect)
+    
+-   [新能源汽车电控系统图解:三电、高/低压电控](https://mp.weixin.qq.com/s?__biz=Mzk0MjY5ODk2Mw==&mid=2247489670&idx=1&sn=1443107b0c27f2c4f48165b44871c175&chksm=c33e603af449e92c6d5a9bdeb0b632f4f2c23e3eba07fd5dd810e5e62ca65aa22fdba6df3296&token=352447290&lang=zh_CN&scene=21#wechat_redirect)
+    
+-   [三大自动变速箱（AT、CVT、双离合）原理图解、优缺点对比  
+    ](http://mp.weixin.qq.com/s?__biz=Mzk0MjY5ODk2Mw==&mid=2247489974&idx=1&sn=5ffe9255cf57563a4113a194dea980c9&chksm=c33e610af449e81cb39c8ef5eaad76dafbd792f2308a8e3ce9488d773e93f2fea8adf071ad53&scene=21#wechat_redirect)
+    
+-   [新能源汽车三电系统知识](http://mp.weixin.qq.com/s?__biz=Mzk0MjY5ODk2Mw==&mid=2247490031&idx=3&sn=0a2a5054eef5d1008d18a8ede371f4ed&chksm=c33e6153f449e845cfb9bac9570fddbb657b273c8ab781834c06f0c7157beecc167fd8014bcc&scene=21#wechat_redirect)

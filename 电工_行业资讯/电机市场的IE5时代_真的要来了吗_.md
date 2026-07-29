@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sV0InUwQ7pz0PLqLNA42RJ48yWhDcjTHCIxRFaRcqkFcMnde2Vbs0wkb5EWAibHSbia4iaqVWmjlFibg/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sOWJ2pKd9vra3WQQiaKdkmWWlFZFlFbCQGhFkiaDDHk1xgH2xk0C7cTJypzWsv5YXPLQVL9O4kGgibA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机市场的IE5时代_真的要来了吗__images\img_000_0b38cfab2d9b.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\电机市场的IE5时代_真的要来了吗__images\img_001_ec294f4462a0.jpg)
 
 **
 
@@ -30,7 +30,7 @@
 
 首先了解什么是IE5电机？**IE5电机指能效等级达到国际电工委员会（IEC）最高标准IE5级别的电机。它采用了最新的技术和材料，具备卓越的能效和控制性能。**与传统电机相比，IE5电机能够以更高的效率转换电能为机械能，从而实现能源的最大节约和环境的最小影响。除此之外，它还具备了与传统电机不同的优势：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sOWJ2pKd9vra3WQQiaKdkmWoNYn4pFMwfUBwfUM89C9d2bFBPTADa7jXCcyBSliboLtIia67dCIlcCA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机市场的IE5时代_真的要来了吗__images\img_002_bb7fed1afd69.jpg)
 
   
 
@@ -71,7 +71,7 @@
 
 国家发展改革委联合工业和信息化部等九部门印发《关于统筹节能降碳和回收利用加快重点领域产品设备更新改造的指导意见》（以下简称《指导意见》）。《指导意见》明确提出，**到2025年，通过统筹推进重点领域产品设备更新改造和回收利用，进一步提升高效节能产品设备市场占有率。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sOWJ2pKd9vra3WQQiaKdkmWHoA5jgia9zKIyy9aiakNUx9icfH0q2VdLfo2pib5MicGmIVVvo8CL1fpGlg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机市场的IE5时代_真的要来了吗__images\img_003_cb5f5b46a7d1.jpg)
 
   
 
@@ -95,7 +95,7 @@
 
 从产品层面看目前已有企业开始生产IE5电机，从产品开发的层面分析，量大面广的中小型三相异步电动机所对应的能效标准GB18613中，其规定的1级能效已达到了IE5的能效水平，即目前的IEC标准规定的最高能效等级，但是不是所有的电机厂家都有能力研发IE5电机，这显然是不可能的。目前，陆陆续续有多家企业在IE5电机的开发方面取得了突破性进展，但在推广方面还是面临了很多挑战：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sOWJ2pKd9vra3WQQiaKdkmWtS54BOISAfSK5U848WDCbbc1tiaXJ7IKgF0JXjv322UcbkwDAgOQ2LQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机市场的IE5时代_真的要来了吗__images\img_004_a8d1abced053.jpg)
 
   
 
@@ -155,8 +155,8 @@
 [【重磅】5部门发布最新电机能效准入水平！虚标能效将被重点打击整治！](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247535908&idx=3&sn=6eec1347ec795a83176cc4f901ec55fa&chksm=cede0ce0f9a985f64ce0e07697e68c6ddb191072645aa6d8de6370bcd597bb610675d2897b02&token=66697538&lang=zh_CN&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机市场的IE5时代_真的要来了吗__images\img_005_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\电机市场的IE5时代_真的要来了吗__images\img_006_a6e4e8e00379.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机市场的IE5时代_真的要来了吗__images\img_007_ec5921db28d2.png)
 

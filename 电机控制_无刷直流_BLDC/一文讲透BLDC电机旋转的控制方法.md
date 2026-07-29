@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/w4TQkezI6jM1y\_ECrCHZrw](https://mp.weixin.qq.com/s/w4TQkezI6jM1y_ECrCHZrw)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tlGYYnI1X80vmnTNfpxZp6PUCYWiabBhoxXQLVibuapnxsuKtetMicy8ia6GjfxZg1hDpIodPkWSMeHQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\一文讲透BLDC电机旋转的控制方法_images\img_000_bd428ad1b932.jpg)
 
 
 来源：电子工程世界
@@ -23,7 +23,7 @@
   
 最基本的电机是“DC电机（有刷电机）”。在磁场中放置线圈，通过流动的电流，线圈会被一侧的磁极排斥，同时被另一侧磁极所吸引，在这种作用下不断旋转。在旋转过程中令通向线圈中的电流反向流动，使其持续旋转。电机中有个叫"换向器"的部分是靠"电刷"供电的，"电刷"的位置在"转向器"上方，随着旋转不断移动。通过改变电刷的位置，可使电流方向发生变化。换向器和电刷是DC电机的旋转所不可或缺的结构（图一）。  
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfkXXsZ8iayic5ud7CianQVkcVGWvjlXSUKMgQiavVBIBtIOY6zQ76wwfJ9CHia7ASxzoXanKic4mPvOEFfg/640?wx_fmt=gif&from=appmsg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\一文讲透BLDC电机旋转的控制方法_images\img_001_4c78b6d8379a.gif)
 
 图一：DC电机（有刷电机）的运转示意图。
 
@@ -33,7 +33,7 @@
 **  
 我们按电源种类和转动原理对电机进行了分类（图2）。让我们来简单看看各类电机的特点和用途吧。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkXXsZ8iayic5ud7CianQVkcVGCJMQHRpuJ4OxnwT8LBRAl9GfH87qFWuAye2JglpFMFaC99NJliaSvibA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\一文讲透BLDC电机旋转的控制方法_images\img_002_5e886d93e2ba.jpg)
 
 图2：电机的主要类型
 
@@ -51,7 +51,7 @@ BLDC电机中的“BL”意为“无刷”，就是DC电机（有刷电机）中
   
 DC电机（有刷电机）中被固定的永磁体所制造出的磁场是不会动的，通过控制线圈（转子）在其内部产生的磁场来旋转。要通过改变电压来改变旋转数。BLDC电机的转子是永磁体，通过改变周围的线圈所产生的磁场的方向使转子旋转。通过控制通向线圈的电流方向和大小来控制转子的旋转。  
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfkXXsZ8iayic5ud7CianQVkcVGwcT8buQtAlrKIYdawnicPqZiaia5HUFAtw7OvlNSoDmlV5kT56hMiceoWQ/640?wx_fmt=gif&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\一文讲透BLDC电机旋转的控制方法_images\img_003_6bb71ef3a844.gif)
 
 图3：BLDC电机的运转示意图。
 
@@ -91,7 +91,7 @@ BLDC电机具备效率高、可小型化、寿命长、易控制等优点，受�
   
 另一方面，与DC电机相比，控制也变得更难了。并不是只要将电机上的电缆接上电源就好了。本来就连电缆数目都不一样。和“将正极（+）和负极（-）连上电源”的方式不同。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/4uXLf4TOmvZe9bSzHBwibVibvPybtxwUnzzrbfPu6IZOfeNwGdjHq3kibAgHic533uRnEaWTfntNvOT9U7toW7HfaQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\一文讲透BLDC电机旋转的控制方法_images\img_004_f63b76c24417.png)
 
 图1：BLDC电机的外观及内部构造
 
@@ -101,7 +101,7 @@ BLDC电机具备效率高、可小型化、寿命长、易控制等优点，受�
 **  
 为了转动BLDC电机，必须控制线圈的电流方向及时机。图2-A是将BLDC电机的定子（线圈）和转子（永磁体）模式化的结果。使用该图片，思考一下转子旋转的情况吧。思考使用3个线圈的情况。虽然实际上也有使用6个或以上的线圈的情况，但在考虑原理的基础上，每120度放一个线圈，使用3个线圈。电机将电气（电压、电流）转换为机械性旋转。图2-A的BLDC电机又是如何转动呢？先来看一看电机中发生了什么吧。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfkXXsZ8iayic5ud7CianQVkcVGZ3Vt1lD9PcbMYlFiamwD5ZHPZ2t4EsqkRaJcRhjwQUSsHWQicRh3NBmA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\一文讲透BLDC电机旋转的控制方法_images\img_007_6005fdd2e09d.png)
 
 图2-A：BLDC电机转动原理
 
@@ -109,19 +109,19 @@ BLDC电机中每隔120度放置一个线圈，总共放置三个线圈，控制�
   
 如图2-A所示，BLDC电机使用3个线圈。这三个线圈用以在通电后生成磁通量，将其命名为U、V、W。将该线圈通电试试看吧。线圈U（以下简称为“线圈”）上的电流路径记为U相，V的记录为V相，W的记录为W相。接下来看一看U相吧。向U相通电后，将产生如图2-B所示的箭头方向的磁通量。但实际上，U、V、W的电缆都是互相连接着的，因此无法仅向U相通电。在这里，从U相向W相通电，会如图2-C所示在U、W产生磁通量。合成U和W的两个磁通量，变为图2-D所示的较大的磁通量。永磁体将进行旋转，以使该合成磁通量与中央的永磁体（转子）的N极方向相同。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfkXXsZ8iayic5ud7CianQVkcVGOzkHJ6aDE1L4pXU7CS7sI63lb67AK1qCWckKqzsyRPsdVXF3OnSLnQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\一文讲透BLDC电机旋转的控制方法_images\img_006_3415aa17cdb3.png)
 
 图2-B：BLDC电机的转动原理
 
 从U相向W向通电。首先，只关注线圈U部分，则发现会产生如箭头般的磁通量  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfkXXsZ8iayic5ud7CianQVkcVGZ3Vt1lD9PcbMYlFiamwD5ZHPZ2t4EsqkRaJcRhjwQUSsHWQicRh3NBmA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\一文讲透BLDC电机旋转的控制方法_images\img_005_6005fdd2e09d.png)
 
 图2-C：BLDC电机的转动原理
 
 从U相向W相通电，则会产生方向不同的2个磁通量  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xML2GYBfTfkXXsZ8iayic5ud7CianQVkcVGiakwRg0pWyTmK2x5EWHj9KRQHJrC0V8eMcOsHZZylSe9TGCTGW4zibtA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\一文讲透BLDC电机旋转的控制方法_images\img_008_7a72f684ccc9.png)
 
 图2-D：BLDC电机的转动原理
 
@@ -132,7 +132,7 @@ BLDC电机中每隔120度放置一个线圈，总共放置三个线圈，控制�
 图3所示的是通电相与合成磁通量的关系。在该例中，按顺序从1-6变更通电模式，则合成磁通量将顺时针旋转。通过变更合成磁通量的方向，控制速度，可控制转子的旋转速度。将切换这6种通电模式，控制电机的控制方法称为“120度通电控制”。  
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfkXXsZ8iayic5ud7CianQVkcVGmYFianFnL5BUDo31MRiatUMqicdK63aTiaXic8HpQbXWrcFys5ojCrTiarag/640?wx_fmt=gif&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\一文讲透BLDC电机旋转的控制方法_images\img_009_302ae1b2bcb9.gif)
 
 图3：转子的永久磁石会像被合成磁通量牵引一样旋转，电机的轴也会因此旋转
 
@@ -142,7 +142,7 @@ BLDC电机中每隔120度放置一个线圈，总共放置三个线圈，控制�
   
 能消除120度通电控制的缺点，实现流畅的转动的正是“正弦波控制”。在120度通电控制中，合成磁通量被固定在了6个方向。进行控制，使其进行连续的变化。在图2-C的例子中，U和W生成的磁通量大小相同。但是，若能较好地控制U相、V相、W相，则可让线圈各自生成大小各异的磁通量，精密地控制合成磁通量的方向。调整U相、V相、W相各相的电流大小，与此同时生成了合成磁通量。通过控制这一磁通量连续生成，可使电机流畅地转动。  
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/xML2GYBfTfkXXsZ8iayic5ud7CianQVkcVGEWRYHYoKKNWt5hPUicYics0Eeq6aLrZnsAzaAKicKnbiawzgv6Fkm65HXA/640?wx_fmt=gif&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\一文讲透BLDC电机旋转的控制方法_images\img_010_7528e75873cb.gif)
 
 图4：正弦波控制
 
@@ -158,7 +158,7 @@ BLDC电机中每隔120度放置一个线圈，总共放置三个线圈，控制�
   
 为了实现PWM，现在还有配备了专用硬件的微电脑。进行正弦波控制时需控制3相的电压，因此比起只有2相通电的120度通电控制来说，软件要稍稍复杂一些。逆变器是对驱动BLDC电机必要的电路。交流电机中也使用了逆变器，但可以认为家电产品中所说的“逆变器式”几乎使用的是BLDC电机。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/4uXLf4TOmvZe9bSzHBwibVibvPybtxwUnzjFbVjlbDqblgBVCic16wwk6OJDlfS5QwFmBMxkibAbVjl60ph5FibWyDg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\一文讲透BLDC电机旋转的控制方法_images\img_011_ca17505a3eaf.jpg)
 
 图5：PWM输出与输出电压的关系
 
@@ -175,7 +175,7 @@ ON时间越长，有效值越接近施加100%电压时（ON时）的电压
   
 通过使用这些传感器可以检测出位置，但也会带来一些缺点。传感器防尘能力较弱，而且维护也是不可或缺的。可使用的温度范围也会缩小。使用传感器或为此增加配线都会造成成本的上升，而且高精度传感器本身就价格高昂。于是，“无传感器”这一方式登场了。它不使用位置检测用传感器，以此控制成本，且不需要传感器相关的维护。但此次为了说明原理，因此假定已从位置传感器获得了信息来吧。  
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xML2GYBfTfkXXsZ8iayic5ud7CianQVkcVGwUTQZReeZQYWtzGIEWfBLicMHF235nVR33KJ3sFwoHZXSqqjZjNaSrw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\一文讲透BLDC电机旋转的控制方法_images\img_012_e8faa8eaa197.jpg)
 
 表1：位置检测专用传感器的种类及特征
 
@@ -188,7 +188,7 @@ ON时间越长，有效值越接近施加100%电压时（ON时）的电压
 但是，矢量控制中需要进行使用三角函数的坐标变换，或复杂的计算处理。因此，大多情况下都会使用计算能力较强的微电脑作为控制用微电脑，比如配备了FPU（浮点运算器）的微电脑等。
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\一文讲透BLDC电机旋转的控制方法_images\img_013_9967d1607b24.jpg)![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\一文讲透BLDC电机旋转的控制方法_images\img_014_fb0ff5197498.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\一文讲透BLDC电机旋转的控制方法_images\img_015_e8e68bdfc1b3.png)

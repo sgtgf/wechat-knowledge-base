@@ -4,9 +4,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/8nyECZs8axk03yooEeSP1A](https://mp.weixin.qq.com/s/8nyECZs8axk03yooEeSP1A)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0s1u4ztdWjDoyDhYIW9MOhDMGrAzeDVuvZ2dfZib765WVhdyXHexcxMPBNzR0QYNDlLNEbmuUSibq4w/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzg4NzgyMjIwNg==&mid=2247526151&idx=1&sn=f2ad16b6fe06f9d5bd954057834bb252&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\电机槽满率VS铜满率_你了解吗__images\img_000_29f68faced42.jpg)](https://mp.weixin.qq.com/s?__biz=Mzg4NzgyMjIwNg==&mid=2247526151&idx=1&sn=f2ad16b6fe06f9d5bd954057834bb252&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t8PE1jut6syNaXWztwMIKfloy7NO3ltUjCw33CwMdkozLu7wSA3UI6qibZLEn27wSRVUEjCYBfiaFA/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247717560&idx=1&sn=e29e07e0eb7d394a5b7ff41eff76da7e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\电机槽满率VS铜满率_你了解吗__images\img_001_064aca60e3a4.jpg)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247717560&idx=1&sn=e29e07e0eb7d394a5b7ff41eff76da7e&scene=21#wechat_redirect)
 
 
 来源：旺材电机与电控
@@ -23,7 +23,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticlEuQsFcCkb25AXDLWqbLEXBRMYyrfrYEoF5O1HBO3W6xtqz4xkA0ePpCibsiaT9r5CwVVTNSibzXRg/640?wx_fmt=png&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机槽满率VS铜满率_你了解吗__images\img_002_39c664d641fd.png)
 
 槽满率对比示意图  
 
@@ -41,7 +41,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticlEuQsFcCkb25AXDLWqbLEricgPF6gAgn08CjSOSrvtp44miaibABkr0tryIFO0gHIvH98ybSQwqWkQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机槽满率VS铜满率_你了解吗__images\img_003_88c8b014b9b4.other)
 
   
 
@@ -57,7 +57,7 @@ A有效面积为裸槽总面积减去槽绝缘（如绝缘纸等）的面积。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticlEuQsFcCkb25AXDLWqbLExXnEu33B6cATT10wRd49TKhg5av2pw7bacfsWfTiaMd905qcjQ2VEdQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机槽满率VS铜满率_你了解吗__images\img_004_1ece76f8f771.other)
 
 导线  
 
@@ -67,7 +67,7 @@ A有效面积为裸槽总面积减去槽绝缘（如绝缘纸等）的面积。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticlEuQsFcCkb25AXDLWqbLEEJna2Tk24ARcgEjL2lY5Xia8dbX6wu8ibVmoZBkicAsHFQYWYBEEwprLQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机槽满率VS铜满率_你了解吗__images\img_005_4ecdf15df533.other)
 
 电机槽满率模型  
 
@@ -81,7 +81,7 @@ A有效面积为裸槽总面积减去槽绝缘（如绝缘纸等）的面积。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticlEuQsFcCkb25AXDLWqbLEAFib74MtpHYSXzSVjAI3SoqMEsrJ8kaKGicGOnP9uegUrWKuDa3tcCag/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机槽满率VS铜满率_你了解吗__images\img_006_219659be5004.other)
 
 集肤效应简图  
 
@@ -115,7 +115,7 @@ Fraunhofer IWU（德国弗劳恩霍夫机床与成型技术研究所）通过使
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticlEuQsFcCkb25AXDLWqbLETTPXv0AAC0Z9TkGFdGicMoFSiaDmUjCZWF6qADPKK0xxWBhQ4gKZiaJgQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机槽满率VS铜满率_你了解吗__images\img_007_e76706d63f06.other)
 
 常规的扁线电机矩形槽  
 
@@ -123,13 +123,13 @@ Fraunhofer IWU（德国弗劳恩霍夫机床与成型技术研究所）通过使
 
 与常见扁线电机的矩形槽不同，Fraunhofer IWU将电机定子槽设计成梯形，对应着铜线也经过特殊设计：铜线采用变截面设计，为保持相同的载流能力，每一层铜线截面积都相等，但是梯形截面的上下底和高都不相等，越靠近电机轴线的越窄越厚，越远离电机轴线的越宽越薄，如下图所示。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7FticlEuQsFcCkb25AXDLWqbLEXxFzLqoMOqZaJEupTD4YHSUBjbd1jcsJfI5hhWrelsaWkO21ZEgKrQ/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机槽满率VS铜满率_你了解吗__images\img_008_9b1b69939d86.other)
 
 采用梯形槽的扁线电机  
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7FticlEuQsFcCkb25AXDLWqbLEe7YG3HOmkUXKYRqIgaC1Mxsiaibxduy3U56XFWxpOwzjP9mDv84JKoQA/640?wx_fmt=other&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机槽满率VS铜满率_你了解吗__images\img_009_6026837f9f98.other)
 
 变截面的绕组  
 
@@ -175,13 +175,13 @@ Fraunhofer IWU研究所推出的变截面扁线成型技术，不仅能够显著
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t8PE1jut6syNaXWztwMIKflTUnuEXWxPibLJDokYVjA047arWNC64WjZJstawXXntEkpuzS14LA6A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机槽满率VS铜满率_你了解吗__images\img_010_30f20d6608ae.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)
-
-  
-
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机槽满率VS铜满率_你了解吗__images\img_011_9967d1607b24.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+
+  
+
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机槽满率VS铜满率_你了解吗__images\img_012_e8e68bdfc1b3.png)

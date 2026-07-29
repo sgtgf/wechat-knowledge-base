@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sV0InUwQ7pz0PLqLNA42RJ48yWhDcjTHCIxRFaRcqkFcMnde2Vbs0wkb5EWAibHSbia4iaqVWmjlFibg/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tywDFYsoZou9fk6E5ic63W6rRcvlia5q93rMUFhuzFRvDhibA66MoiauWwtWjkk9tDs05RrkEz4iaOicPQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\YE5电机生产厂家常用到的节能技术都有哪些__images\img_000_0b38cfab2d9b.jpg)![](D:\电脑文件\公众号知识库\电机_设计_仿真\YE5电机生产厂家常用到的节能技术都有哪些__images\img_001_1a0faf5d775d.jpg)
 
 **
 
@@ -45,8 +45,8 @@ YE5电机是一种高效节能型的三相异步电机，不同的厂家一般�
 节能监测与优化：引入节能监测系统，实时监控电机运行情况，分析和优化电能消耗，提供精确的节能控制。
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\YE5电机生产厂家常用到的节能技术都有哪些__images\img_002_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\YE5电机生产厂家常用到的节能技术都有哪些__images\img_003_a6e4e8e00379.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\YE5电机生产厂家常用到的节能技术都有哪些__images\img_004_ec5921db28d2.png)
 

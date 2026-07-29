@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/BBkmFU5wSBY5BSj0eZtfyA](https://mp.weixin.qq.com/s/BBkmFU5wSBY5BSj0eZtfyA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vjGIo9iajU7GEdaXRKJvE70gXD3hHQicuj2xINk1PgTmRnbHlq7BFI0qoZEuO3wrDNZjBBrp5z0PPw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\伺服电机的三种控制方式_PLC工程师特别需要了解_images\img_000_ec1393343387.jpg)
 
 
 来源：PLC自动化知多点
@@ -13,7 +13,7 @@
 
 **伺服电机速度控制和转矩控制都是用模拟量来控制，位置控制是通过发脉冲来控制。**具体采用什么控制方式要根据客户的要求以及满足何种运动功能来选择。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/1u5ia2Aq5aF7QiaevfJ6WTcXN4nBmSRH6lyhHeFpXbvE65sZpw8vEA0dS91gCzZTBuVs9FWxwn1d3Lb4LPkqksXg/640?wx_fmt=other&from=appmsg&random=0.36946554837786016&random=0.020295719966695325&random=0.8715287812424548&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\伺服电机的三种控制方式_PLC工程师特别需要了解_images\img_001_d308ba6af43f.other)
 
   
 
@@ -36,7 +36,7 @@
     
       
     
-    ![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/1u5ia2Aq5aF7QiaevfJ6WTcXN4nBmSRH6lhCHZZTJymbYdCpuPXf0cicxZoicfic9ctWibwfDJiaBQA90qvoTiaAutcxUA/640?wx_fmt=other&from=appmsg&random=0.02890323435487785&random=0.46688787657468&random=0.013234736570793881&random=0.9444717981605253&random=0.19286531905103876&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+    ![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\伺服电机的三种控制方式_PLC工程师特别需要了解_images\img_002_df736d347505.other)
     
 
   
@@ -92,7 +92,7 @@
 
 位置控制模式一般是通过外部输入的脉冲的频率来确定转动速度的大小，通过脉冲的个数来确定转动的角度，也有些伺服可以通过通讯方式直接对速度和位移进行赋值。由于位置模式可以对速度和位置都有很严格的控制，所以一般应用于定位装置。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/1u5ia2Aq5aF7QiaevfJ6WTcXN4nBmSRH6lnYhAD8iaUvLx5YK70594jMiaytrmbBktfkLZj0smj7lhCYo5oZMC5aaw/640?wx_fmt=other&from=appmsg&random=0.3241938039377019&tp=webp&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\伺服电机的三种控制方式_PLC工程师特别需要了解_images\img_003_f07bbfcef3b8.other)
 
   
 
@@ -160,7 +160,7 @@
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\伺服电机的三种控制方式_PLC工程师特别需要了解_images\img_004_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\伺服电机的三种控制方式_PLC工程师特别需要了解_images\img_005_e8e68bdfc1b3.png)

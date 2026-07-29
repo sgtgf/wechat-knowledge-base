@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/y8cEYQCXbLbsShY9GYFINg](https://mp.weixin.qq.com/s/y8cEYQCXbLbsShY9GYFINg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tbEIibqxeWZ5oftfXb9IjNR1DictRq6DGSosJdxEe9NRDDib0mfG2aaRfcfiajDpj7P3JkzC43xeFJzQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\年底IPO_太嗨了__一汽车发电机制造企业冲刺IPO_images\img_000_9048cc15bd31.jpg)
 
 
 来源：SMM电机资讯
@@ -17,7 +17,7 @@
 
 **2024 年 12 月 26 日，公司向中国证券监督管理委员会安徽监管局（简称“安徽证监局”）报送了辅导备案申请材料，辅导机构为国元证券。**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/GL6AQIJGGibc9QKjzeM6dibibIcgmE96sHgNkPcaclMV8f92aD8libCRBtWH3JfIULKNnzmSIqoRkLJ04RIx8xYRfQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\年底IPO_太嗨了__一汽车发电机制造企业冲刺IPO_images\img_001_b14c4efdaf60.other)
 
   
 
@@ -69,9 +69,9 @@
 # [华为都“活不下去了”！电机中小企业未来三年要怎么过](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247575025&idx=1&sn=800a15fe2572766ef1632371ee7475f2&chksm=cedfe435f9a86d23f050893e070245640fbc59fce832cb6264e6ecf8b6c43c0fe9a0c6565a38&scene=21#wechat_redirect)？
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\年底IPO_太嗨了__一汽车发电机制造企业冲刺IPO_images\img_002_fb0ff5197498.png)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\年底IPO_太嗨了__一汽车发电机制造企业冲刺IPO_images\img_003_dac57d0b3024.png)

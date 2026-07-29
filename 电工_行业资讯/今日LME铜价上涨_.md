@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0ueic716ApEBoelb21DwrX7wnY7J2l0S3maoQPDZmSwMH46KerGsSYYUKSofwaSOicVjn77DkEfkRTA/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0ueic716ApEBoelb21DwrX7wibxoDS5FRfpDk1MGuOOqZ7mzXqiaMCPJDricQXj7LDDVJzX1IgEe4H3JA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\今日LME铜价上涨__images\img_000_33a3bcb4db79.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\今日LME铜价上涨__images\img_001_e89f21199448.jpg)
 
 **
 
@@ -29,8 +29,8 @@ LME镍价：18515.0美元/吨，涨130.0美元/吨
 LME锡价：24630.0美元/吨，涨505.0美元/吨
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\今日LME铜价上涨__images\img_002_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\今日LME铜价上涨__images\img_003_a6e4e8e00379.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\今日LME铜价上涨__images\img_004_ec5921db28d2.png)
 

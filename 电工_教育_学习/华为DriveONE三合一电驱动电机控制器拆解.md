@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/a5wGy9owcKM8cukIiPR\_Xg](https://mp.weixin.qq.com/s/a5wGy9owcKM8cukIiPR_Xg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v60sr7wQibxMRQRCwtMXEWpj8JC0JQfLhhib40j4yCogTRUEqz0DPcRZiaIXEaCthfOtnN5p7n6SRow/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_000_253b3ed942c1.jpg)
 
 
 来源：车规半导体硬件
@@ -15,17 +15,17 @@ DriveON电驱系统E是华为推出的三合一电驱系统，在极狐、阿维
   
 首先咱看看官方的宣传图。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/CvyFYUrD5pcdo7jZ3M29jhicLCxMrSlicSf0CznoaefhRTIfalbGFjF5h82HDRRl0tOLrZcOWQLnWwnvArYx46yg/640?wx_fmt=gif&from=appmsg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_001_ebad95c72d7d.gif)
 
 如图所示，为拆解后的主控板，主控板内包含了电源模块以及电机控制模块，具体拆解结果见下表。  
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZrYhkdB01mHXhLTaa1SHCNztqavTwx1uD42RYuLspvZNxiaNR7iaxtHog/640?wx_fmt=other&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_002_88fe65adc8f7.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZQMG7LFMPkxPDnjNuiaaPkSSafp0MhaLloficDMCNeXplKPOhQeYZiaQLg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_003_b5e0a6e96bdb.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZKbib7yQqvMgXDnDwHjka27iczgdZ7cmbZ4TjhMZrmnjnpPm3rn4dRXOA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_004_11313efb8b9a.other)
 
   
 
@@ -47,7 +47,7 @@ DriveON电驱系统E是华为推出的三合一电驱系统，在极狐、阿维
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZzkHZo4ibq7Kf0Yc0BISJh3K1MaaOhuuFa6H0ianZcJJdYI2DplYyHePw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_005_3db0b58b62e9.other)
 
   
 
@@ -55,7 +55,7 @@ DriveON电驱系统E是华为推出的三合一电驱系统，在极狐、阿维
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZvjjxmWVbRln9053jGnl0k2kU1BHn5Iwr7YqcBoDOTvicgSTeMWEb9IQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_006_eab2d6dac504.other)
 
   
 
@@ -113,7 +113,7 @@ DriveON电驱系统E是华为推出的三合一电驱系统，在极狐、阿维
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZwhKJfOHb3eluRAgdMKhrZVNULJ8FNrmMRIDzByToVaUsfoMiaj3Xic2g/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_007_cd90ae60fd6b.other)
 
   
 
@@ -127,7 +127,7 @@ DriveON电驱系统E是华为推出的三合一电驱系统，在极狐、阿维
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZt8WuxpTuEOYn7cPZm2OSlmY0uUO3Vw4UcjKDJyA3QiaT4Gpu7MOhylg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_008_73a13dc81e9d.other)
 
   
 
@@ -177,7 +177,7 @@ DriveON电驱系统E是华为推出的三合一电驱系统，在极狐、阿维
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZuicwuPhS5QMzSHeHSvZyKe5vGVT9kP51dpfHVvCyfm7oh9RxAc2lQtw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_009_00df117fc03a.other)
 
   
 
@@ -185,7 +185,7 @@ DriveON电驱系统E是华为推出的三合一电驱系统，在极狐、阿维
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZQib02u0hfiau5Svw4wspZcNxQic9wya5r1wI4jLM1lwDqPKicc1k6I21JQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_010_2b910de3b7ed.other)
 
   
 
@@ -233,7 +233,7 @@ MC33GD3100EK的设计旨在满足汽车应用的严格要求，完全符合AEC-Q
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZWASQicY3KsaSAGl1w5xtvQLtn1ghRuic93Qeqgm4icPQRxheh8jP7h7DQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_011_9a60bf4b559d.other)
 
   
 
@@ -241,7 +241,7 @@ MC33GD3100EK的设计旨在满足汽车应用的严格要求，完全符合AEC-Q
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZibib9UDHh2uH3TozwvET7tgth5Og90Nk18qcFibvbYfQIB5Xbr31VkaMw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_012_ea50ec34968f.other)
 
   
 
@@ -289,7 +289,7 @@ MC33GD3100EK的设计旨在满足汽车应用的严格要求，完全符合AEC-Q
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZniaIpib5JYJJNlwvBuJlQibeF9VuYXbU6zFt9QsdfKOiaYFZYdhuTCBhNg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_013_d269ec4e5528.other)
 
   
 
@@ -339,7 +339,7 @@ BAV99在电路设计中常用于保护电路免受静电干扰和过电压的影
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZFjuJ5LXFsehZxI3jZqCRSDMJrsevTn1ibPZmmBXcWlj0rXdvTofcDlg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_014_e63a751efdcc.other)
 
   
 
@@ -391,7 +391,7 @@ TJA1145TFD产品具有CAN FD帧检测功能，因此不会存在假唤醒的情�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZ9z8znIWgHnjlRSQFddq54VKnh8e7lRhw7h20qcoXE2nIVqBXHajeHw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_015_9364e56ce848.other)
 
   
 
@@ -403,7 +403,7 @@ TJA1145TFD的高级ECU电源管理系统包括极低电流待机和睡眠模式�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZgvw5iapFnzib5DbzjCYprZUgpCUdfR2mW5hWLrL0wr7nIQ6vybmTesQw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_016_34921be1e1c0.other)
 
   
 
@@ -411,7 +411,7 @@ TJA1145TFD还具有保护功能，如16、24或32位SPI用于配置、控制和�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZrBt6IAlVDDxJPVrnbdenArvnxZChHPNcbYnwxicqFjLiawGPeIVrZMRg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_017_19dc43b0ac66.other)
 
   
 
@@ -459,7 +459,7 @@ TJA1145TFD还具有保护功能，如16、24或32位SPI用于配置、控制和�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZbL2l8GSyLEzic6m1SpOYdTvlfyozUqQSRoyAX5FZXXicq6Buyia8oZEtQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_018_497f3d8e5a6c.other)
 
   
 
@@ -507,7 +507,7 @@ TJA1145TFD还具有保护功能，如16、24或32位SPI用于配置、控制和�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZXllzyVQVpmcWicE0cRbk6PURCUx3W2a9vN4nu3pDXV9pyR1BlxaOVYA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_019_533007e269a1.other)
 
   
 
@@ -515,7 +515,7 @@ TJA1145TFD还具有保护功能，如16、24或32位SPI用于配置、控制和�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZPpiabfRIEWKaTCB6UgBTK2A2d2M81dB0g3TbKibL5BJoEXRdu7cLS3Rw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_020_6bea0d151a6e.other)
 
   
 
@@ -561,7 +561,7 @@ TJA1145TFD还具有保护功能，如16、24或32位SPI用于配置、控制和�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZoGDaVciaRMsicjUaYFHbMoW7EYhA9H2LsjqSOrYibg1dwDl0w3fEQiaVRQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_021_fb6e8e0ee34a.other)
 
   
 
@@ -603,7 +603,7 @@ TJA1145TFD还具有保护功能，如16、24或32位SPI用于配置、控制和�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZv2QBFyp34kXovN521K3VyjljjzCLsKziay7toEibBYOdv03Ttm7q3vqQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_022_6fe2c285fd39.other)
 
   
 
@@ -659,7 +659,7 @@ BA3472YF-C适用于需要高速性能、高增益和宽工作电压范围的多�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZQSC9ATOW6Hicab9QPHf9vwuLR2z6xia5uzPlcCApoAlq7LAJ0NRBsy2w/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)![](https://mmbiz.qpic.cn/mmbiz_png/SwFULVVNhkaH5kHVrXPtzpJicrrL4b7cTCDL2jBnYWa65HgynTlSDawtuUcy0svTuZJPOTqbqJ9LiaWWCc4cAicFA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_023_a6c758f8bdf0.other)![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_024_d8287d3c2144.png)
 
   
 
@@ -667,7 +667,7 @@ BA3472YF-C适用于需要高速性能、高增益和宽工作电压范围的多�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FtibTaY4c3fGIyyCam3LPWZAZrsQKG5lp5eX5sU0ibyick85zaCIgRcCNtPiauiaH0NYWJwicRKRQKZB9T2A/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_025_897ea7b13edf.other)
 
   
 
@@ -751,11 +751,11 @@ BA3472YF-C适用于需要高速性能、高增益和宽工作电压范围的多�
 # [华为都“活不下去了”！电机中小企业未来三年要怎么过](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247575025&idx=1&sn=800a15fe2572766ef1632371ee7475f2&chksm=cedfe435f9a86d23f050893e070245640fbc59fce832cb6264e6ecf8b6c43c0fe9a0c6565a38&scene=21#wechat_redirect)？
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sib5wZiatdKpxSTgRDG9vM6BrpiceLL0kK81U42flFXKkzfxialicRjg5Sh9vNvA86y00A5wSGFiaNWnnQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_026_cd9a9dce0bfc.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_027_fb0ff5197498.png)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tMzMevYpPAySDyFiaafVt6hlnBk2MabwiahKl2h63picic7sVYg0g3DojZDAtHn0rMCIUhye6HKw5rdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\华为DriveONE三合一电驱动电机控制器拆解_images\img_028_5591b15b40b7.png)

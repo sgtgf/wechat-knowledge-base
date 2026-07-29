@@ -12,9 +12,9 @@
 
 **来源：网络**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aSSfNZEW1Qx4qJRzsmtY2URqqjP7Ca4dIQToia1eNgibSwGib0SL8Y32AA7AKaD0D2ZicFWIP8mmraiane9dGsI1sUg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PLC与这7种外围设备的连接方式_最后一种最方便__images\img_000_78aa49aeff45.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9Eqkw35yzmIlDhv9Lp7krGE0y1pIQCUzlgYsggCnEDIRteUs3VibNNh8zaPuibXJsqyr2rPacSrvzpDXw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PLC与这7种外围设备的连接方式_最后一种最方便__images\img_001_370ba3e25e28.png)
 
   
 
@@ -34,7 +34,7 @@ PLC常见的输入设备有按钮、行程开关、接近开关、转换开关�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aSSfNZEW1Qx4qJRzsmtY2URqqjP7Ca4dGJMPLdb7CXH5uYlgZ4eamUXBibzJQCXdvYuG4NMKw9NgtfOpZLYVScA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PLC与这7种外围设备的连接方式_最后一种最方便__images\img_002_8e6d20cabdfd.png)
 
 ▲图1 PLC与主令电器类输入设备的连接
 
@@ -52,7 +52,7 @@ PLC常见的输入设备有按钮、行程开关、接近开关、转换开关�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aSSfNZEW1Qx4qJRzsmtY2URqqjP7Ca4dpwMKG53u5HC786OA2cISIMN0nibBHic2gIxLLLyGuh5g4rl7SGrj8bicQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PLC与这7种外围设备的连接方式_最后一种最方便__images\img_003_300df7fd2bef.png)
 
 ▲图2 旋转编码器与PLC的连接
 
@@ -74,7 +74,7 @@ PLC常见的输入设备有按钮、行程开关、接近开关、转换开关�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aSSfNZEW1Qx4qJRzsmtY2URqqjP7Ca4d1DLNlmXk7nDejy1iaef5R0UROfA2I2Rplg3NI9bicgKIARicL5UDPfYsA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PLC与这7种外围设备的连接方式_最后一种最方便__images\img_004_7a6e37e1558a.png)
 
   
 
@@ -90,7 +90,7 @@ PLC常见的输入设备有按钮、行程开关、接近开关、转换开关�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aSSfNZEW1Qx4qJRzsmtY2URqqjP7Ca4dNew4ppFWTKgzdW2qQH3bCePfic3p2WaePKFcyNVUstn3CNYzoAP1wBg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PLC与这7种外围设备的连接方式_最后一种最方便__images\img_005_a05ce545724e.png)
 
 ▲图4 一位拨码开关的示意图
 
@@ -100,7 +100,7 @@ PLC常见的输入设备有按钮、行程开关、接近开关、转换开关�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aSSfNZEW1Qx4qJRzsmtY2URqqjP7Ca4d1mzBCVgibc5U4e1IZcjCBsybLE1EnabjxFRpJcgPzueTwkWe0aQSTibQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PLC与这7种外围设备的连接方式_最后一种最方便__images\img_006_e8c6be4075cd.png)
 
 ▲图5 4位拨码开关与PLC的连接
 
@@ -118,7 +118,7 @@ PLC与输出设备连接时，不同组（不同公共端）的输出点，其�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aSSfNZEW1Qx4qJRzsmtY2URqqjP7Ca4dqFYwupGNRwgSBzeNzoNbMic1ZkS9uwIW9iaGWJcSLWiaJsqhbv0aledHg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PLC与这7种外围设备的连接方式_最后一种最方便__images\img_007_5926f92b97f7.png)
 
 ▲图6 PLC与输出设备的连接
 
@@ -136,7 +136,7 @@ PLC的输出端经常连接的是感性输出设备（感性负载），为了�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aSSfNZEW1Qx4qJRzsmtY2URqqjP7Ca4dUEE2HLpVnqxm69TpPGvic1ttVqzgHwFSox7CzK9Gx03drxxiaApic2Evg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PLC与这7种外围设备的连接方式_最后一种最方便__images\img_008_4f3569c045fb.png)
 
 ▲图7 PLC与感性输出设备的连接
 
@@ -156,7 +156,7 @@ PLC可直接用开关量输出与七段LED显示器的连接，但如果PLC控�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aSSfNZEW1Qx4qJRzsmtY2URqqjP7Ca4dNB5DMar0XYEyQJdhgickeIr9BlvENaQUFz3GLbRKz1icS208ib6AYltzA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PLC与这7种外围设备的连接方式_最后一种最方便__images\img_009_31c80710b3ba.png)
 
 ▲图8 PLC与两位七段LED灯显示器的连接
 
@@ -168,8 +168,8 @@ PLC可直接用开关量输出与七段LED显示器的连接，但如果PLC控�
 
 如果PLC使用继电器输出模块，应在与CD4513相连的PLC各输出端接一下拉电阻，以避免在输出继电器的触点断开时CD4513的输入端悬空。PLC输出继电器的状态变化时，其触点可能抖动，因此应先送数据输出信号，待该信号稳定后，再用LE信号的上升沿将数据锁存进CD4513。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PLC与这7种外围设备的连接方式_最后一种最方便__images\img_010_31a98b8e3167.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\PLC与这7种外围设备的连接方式_最后一种最方便__images\img_011_ec5921db28d2.png)
 

@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/5H21G75gsI8pZ2H\_Rtl2EQ](https://mp.weixin.qq.com/s/5H21G75gsI8pZ2H_Rtl2EQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tlGYYnI1X80vmnTNfpxZp6PUCYWiabBhoxXQLVibuapnxsuKtetMicy8ia6GjfxZg1hDpIodPkWSMeHQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川联合动力_Si_IGBT和SiC_MOSFET混合模块电机控制器__PD4H混碳电控_images\img_000_bd428ad1b932.jpg)
 
 
 来源：汇川联合动力
@@ -23,7 +23,7 @@
 
 PD4H混碳电控基于第四代电机控制器平台进行开发，采用英飞凌新一代的IGBT和SiC MOSFET混合模块，优化并利用EDT3 IGBT 和Gen2 SiC的技术优势，使得两种芯片性能兼容匹配，发挥不同芯片在不同工况下的技术优势，具备效率高、兼容性强、性能强劲等特点，其峰值功率可覆盖150~250kW的动力总成系统，满足A/B/C级轿车、中大型SUV和MPV等多种车型的动力输出要求。当前该产品已完成A样的开发与验证。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aJG5QWxqLslYwxm3CXUzgxsEuNakTQib5pGaPGY0EotBadavJ6RhPL0vc4lxYfS171zRa3pyzHvuxOyJzl0dtMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川联合动力_Si_IGBT和SiC_MOSFET混合模块电机控制器__PD4H混碳电控_images\img_001_0088d6455d5f.png)
 
   
 
@@ -41,7 +41,7 @@ PD4H混碳电控基于第四代电机控制器平台进行开发，采用英飞�
 
 PD4H混碳电控CLTC工况实测效率高达98.5%，较采用同代Si基器件的电机控制器效率提升1.5%。混碳电控的高效率得益于其优异的动静态特性。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7Ftibib3Kb1MyT8aicZwI5GqzssoHTWwVicaqgsfwdTQBhyFkd9uDTLURx9mP0JhThEP8WXRKF5djWlgSrA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川联合动力_Si_IGBT和SiC_MOSFET混合模块电机控制器__PD4H混碳电控_images\img_002_f9456c77c1bc.other)
 
   
 
@@ -53,7 +53,7 @@ Si-SiC混合功率模块的静态特性
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7Ftibib3Kb1MyT8aicZwI5GqzssoRA3e3fs7QkIxhibd8sI8QyEuJCRvic5ib9YwCDFOKpZOo0bZFLiccib8sKA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川联合动力_Si_IGBT和SiC_MOSFET混合模块电机控制器__PD4H混碳电控_images\img_003_344f03912d47.other)
 
   
 
@@ -61,7 +61,7 @@ Si-SiC混合功率模块的静态特性
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7Ftibib3Kb1MyT8aicZwI5GqzssomalqaCnPBkmZvUFa8jialLLK746o71YOicdcz3cRgZF4aUK7ibZTXpEicA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川联合动力_Si_IGBT和SiC_MOSFET混合模块电机控制器__PD4H混碳电控_images\img_004_62eb055d229a.other)
 
   
 
@@ -73,7 +73,7 @@ PD4H混碳电控为客户在效率和成本之间提供了优秀的解决方案�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslYwxm3CXUzgxsEuNakTQib5OGicUJeCZFVeu9A7XvBicshG9AliaXvicutrXkASiaKrTpicahMppNUmZC5A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川联合动力_Si_IGBT和SiC_MOSFET混合模块电机控制器__PD4H混碳电控_images\img_005_dfd1f7b4a774.jpg)
 
   
 
@@ -87,7 +87,7 @@ PD4H混碳电控产品功率模块采用的是标准HPD封装，与当前主流�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aJG5QWxqLslYwxm3CXUzgxsEuNakTQib5IQoBJb95ueRbtsaCH8UGcdZgKbQaqqee86s5VrkyQJ4JqYUb8NBMmw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川联合动力_Si_IGBT和SiC_MOSFET混合模块电机控制器__PD4H混碳电控_images\img_006_e9172f0d98ec.jpg)
 
   
 
@@ -107,7 +107,7 @@ PD4H混碳电控产品功率模块采用的是标准HPD封装，与当前主流�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7Ftibib3Kb1MyT8aicZwI5GqzssoW1RTCg6w4VXTicROmYiaYATHNyMKp0emzOiczEUoYddPicYk7qBWUV4S5g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川联合动力_Si_IGBT和SiC_MOSFET混合模块电机控制器__PD4H混碳电控_images\img_007_bf931a9d1981.other)
 
   
 
@@ -145,7 +145,7 @@ Si-SiC混合模块采用了Si-IGBT、SiC-MOSFET和Si-FRD三者并联的方案。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7Ftibib3Kb1MyT8aicZwI5GqzssoWwXzrxiaV5gDDIUGMm4S6KDb1kst0iceOUWjAWnicrzWwVJibrGA30iaJkQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川联合动力_Si_IGBT和SiC_MOSFET混合模块电机控制器__PD4H混碳电控_images\img_008_aff0b594aab5.other)
 
   
 
@@ -153,7 +153,7 @@ Si-SiC混合模块采用了Si-IGBT、SiC-MOSFET和Si-FRD三者并联的方案。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ftibib3Kb1MyT8aicZwI5GqzssoJSgGjmVu0S2Nev6068yL15Wy24eQibpXxySoMlfP1mscakWtVCltuug/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川联合动力_Si_IGBT和SiC_MOSFET混合模块电机控制器__PD4H混碳电控_images\img_009_34b0da7b536c.other)
 
   
 
@@ -178,5 +178,5 @@ Si-SiC混合模块存在两条控制通路，即IGBT+FRD通路和MOSFET通路。
 ▶  灵活切换控制通路，实现一路控制通路异常时的整车跛行控制，减少了整车抛锚的概率
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川联合动力_Si_IGBT和SiC_MOSFET混合模块电机控制器__PD4H混碳电控_images\img_010_9967d1607b24.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\汇川联合动力_Si_IGBT和SiC_MOSFET混合模块电机控制器__PD4H混碳电控_images\img_011_fb0ff5197498.png)
 

@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/qdeMHDza\_CcMPZZIxQ\_oWA](https://mp.weixin.qq.com/s/qdeMHDza_CcMPZZIxQ_oWA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vE2ZIG5VErUiaic5Uovdb28y7P5QYtqjXS963OUGN1gZticMCCPchusnOMBhEuCvwJ9JdO7pugDP1XA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_ABB电机与发电机历史_ABB_AMA400型老爷机的非凡故事_images\img_000_a02001b809a1.jpg)
 
   
 
@@ -12,20 +12,20 @@
 
 **来源：ABB电机与发电机**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eY4I4U3gWjshL7MiaOGv2ZgbibriafdY407kILZf4acuL3LFB8LpK2NcQlvAPFibibFOpFjpiaSBUPLuAAjuYtVVSM8Q/640?wx_fmt=jpeg&from=appmsg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_ABB电机与发电机历史_ABB_AMA400型老爷机的非凡故事_images\img_001_9fd3dfc49fcd.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eY4I4U3gWjshL7MiaOGv2ZgbibriafdY407P0gf4XkVF4zGbhlicb9tZ4miaPbA7vhkfgK3zCzGcztw2u8e4zCmpFuw/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_ABB电机与发电机历史_ABB_AMA400型老爷机的非凡故事_images\img_002_1e95d8d78631.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eY4I4U3gWjshL7MiaOGv2ZgbibriafdY407K9duXgaJRSRaJQBFaxNjpOicXkoiacVexae0d2cL4mPPkRSGGA9QcDrg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_ABB电机与发电机历史_ABB_AMA400型老爷机的非凡故事_images\img_003_76ab9a1b5d7c.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eY4I4U3gWjshL7MiaOGv2ZgbibriafdY4077oQB9uibd4w9GOD8dtSTRSkicXDv60l5t3OacAx7DpQoLcyz032Zvu3g/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_ABB电机与发电机历史_ABB_AMA400型老爷机的非凡故事_images\img_004_fc06070ab09d.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/eY4I4U3gWjshL7MiaOGv2ZgbibriafdY407hmt15Ta9AW6GmWnwvVHUr05ZSfiaOe6jnNRtO4nvU2t9zhYF7kj8qCQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_ABB电机与发电机历史_ABB_AMA400型老爷机的非凡故事_images\img_005_58c6c5897161.jpg)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_ABB电机与发电机历史_ABB_AMA400型老爷机的非凡故事_images\img_006_a6c2e413e6e0.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_ABB电机与发电机历史_ABB_AMA400型老爷机的非凡故事_images\img_007_d84912f96aa9.png)

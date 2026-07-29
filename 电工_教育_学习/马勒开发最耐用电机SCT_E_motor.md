@@ -8,7 +8,7 @@
 
 **关注我们**
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vyvdvAWIec3SO8vVjAWxibWvykjIO7ibxtpVoqKTkc4wShVT1wxpOZEbRZibdzYs1TWAsgPCxnuwNLA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247604627&idx=1&sn=088f72297c96fac8deab834e6782c326&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\马勒开发最耐用电机SCT_E_motor_images\img_000_0cdbef7924ed.png)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247604627&idx=1&sn=088f72297c96fac8deab834e6782c326&scene=21#wechat_redirect)
 
 
 来源：网络  
@@ -21,7 +21,7 @@
 
 “制造短期高性能的大型电机很容易。但到目前为止，市场上仍然缺乏耐用而紧凑、能使电动汽车的日常使用不受限制的驱动，”马勒集团研发及前期工程副总裁Martin Berger表示。“而我们的新型电机SCT E-motor就是能满足上述要求的解决方案。”
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/I5tjbZcD6yeUhh22uRlnnbwib3tnGxG3tlqk0StiarOqWnhQZksibo3qBYFDicW5Piam0AiasmMabukPGeYQ9fmjjsicA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\马勒开发最耐用电机SCT_E_motor_images\img_001_0267acbc9fae.jpg)
 
 在动力传动系统方面，SCT E-motor为所有车辆更换内燃机扫清了道路。2021年，马勒集团为乘用车推出了一款突破性的无磨损、可拓展的牵引电机，可在较宽的转速范围内高效运行。
 
@@ -29,7 +29,7 @@
 
 冷却技术的逐步改进，也使得电机技术飞跃发展成为可能。马勒全新电机通过使用创新的集成冷却油，不仅更耐用，而且还能将产生的余热用于车辆的整个系统。同时，新电机极其紧凑的设计在材料和重量成本方面具有优势——更轻的电机在制造过程中需要更少的材料，并增加了商用车可能的净负载。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/I5tjbZcD6yeUhh22uRlnnbwib3tnGxG3tOFcgibs0IUXDqr8sibN8frA59w8NhSNfRlgtGqCyeNBAGTZ3jvzVwdXg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\马勒开发最耐用电机SCT_E_motor_images\img_002_158da00d4a6e.jpg)
 
 在设计该产品时，马勒选择了永磁电机，因为这种电机可实现非常紧凑的设计，而且不需要将能量作为“励磁电流（excitation current）”转移到转子上，进而使得电机更加高效且无磨损。钕磁铁是目前可以生产的最强的永磁，用于产生电机中的磁场。然而，为了降低原材料价格和地缘政治对供应链的影响，SCT E-motor也可以设计成无稀土。由于马勒集团开发的独特的无接触变压器（contactless transformer），这款无稀土版本也将具备无磨损和高效运行的优势，并且只需要稍微多一点的组装空间。
 
@@ -38,7 +38,7 @@
 电动出行是马勒集团未来的重要战略领域之一。截至目前为止，该集团超过60%的销售额来自非乘用车内燃机。到2030年，这一比例将提升到75%。而新型电机将是该集团电动化战略的重要组成部分。
 
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\马勒开发最耐用电机SCT_E_motor_images\img_003_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
 
   
 

@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sV0InUwQ7pz0PLqLNA42RJ48yWhDcjTHCIxRFaRcqkFcMnde2Vbs0wkb5EWAibHSbia4iaqVWmjlFibg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_000_0b38cfab2d9b.jpg)
 
 **
 
@@ -40,7 +40,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DhQfPwOHHtDHupiajVeR91BibcvvkpRVvHK1BibIxkJjd9ibddiaVAHycjjiaibmlmlMAzfXtRynjTRiakJXYjYuvsmENA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_001_e643a9f6d0bf.jpg)
 
   
 
@@ -54,7 +54,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DhQfPwOHHtDHupiajVeR91BibcvvkpRVvHX0VMSJ3UD53JtvfcpsApGLwAXnLzDu3HyerO9HCqcoqIcTrtznEhjg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_002_e1b0193ea6b8.jpg)
 
   
 
@@ -64,7 +64,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DhQfPwOHHtDHupiajVeR91BibcvvkpRVvHOGHcDBJ1T0ibLibQGo2ibWZEuW0nG6H9uxaEibTwdVoCAXm7DP43FtZYKA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_003_f559177d4afb.jpg)
 
   
 
@@ -72,7 +72,7 @@
 
 5、工业电机只有某一种特定的性能要求，而电动汽车驱动电机要求工作可控性高、稳态精度高、动态性能好。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/xq3e4397UpoDUF3Wuas9GxCxX1Pib60EV698f35OjjxsfPvnMZoN0alxYWkORaogyoDpE98vfmVx1HTud1yjy3A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_004_d89013a85ccb.png)
 
 6、工业电机通常在某一个固定位置工作，而电动汽车驱动电机被装在机动车上，空间小，工作在高温、坏天气、及频繁振动等等恶劣环境下。
 
@@ -126,7 +126,7 @@ A.铁心中的磁场从零开始增强—起始磁化曲线
 
 图1为表示铁心材料所处磁场H和铁心材料磁通密度B之间关系曲线的一个例子。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DhQfPwOHHtB4P54c4EP6WDp1sRjGT6FlKHWgwEPw2ysUlCqbj079wA6k2MyxasibXoDVia3JydFkLehfibqeRUCyA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)图1：起始磁化曲线的一个例子
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_005_830a28d015d5.jpg)图1：起始磁化曲线的一个例子
 
 它显示了对完全没有磁化的铁心材料(消磁后的铁心材料，如铁)缓缓地增强磁场会发生怎样的变化，铁心材料开始被磁化了。结果是铁心材料的磁通密度也逐渐增大。此图为起始磁化曲线。
 
@@ -144,7 +144,7 @@ C.励磁电流和磁通密度
 
 事实上，不管是何种磁性材料，都具有这样的曲线，饱和磁通密度是一定的。另外，使用由磁化曲线决定的H，通过公式
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DhQfPwOHHtB4P54c4EP6WDp1sRjGT6FlHAb72cuwsHw0XCSSMKzXDHZl8XCgtAcxWbNicRJ3mMJdhbhia9ywtOZA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_006_2339f4cb84cc.png)
 
 求得的电流称为励磁电流。
 
@@ -152,11 +152,11 @@ D.磁滞回线的形状有多种
 
 如图2所示，同时包含BS和-BS这两个饱和点的曲线称为极限磁滞回线。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DhQfPwOHHtB4P54c4EP6WDp1sRjGT6FlxQWrs9tiaJwzSeGUnYJGSND35M5mYlSGK8lPcLgWstibLm5MRZoQBTqg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)图2：磁滞回线
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_007_2f3343216320.jpg)图2：磁滞回线
 
 与之相对，不包含上述两个饱和点的曲线称为局部磁滞回线。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DhQfPwOHHtB4P54c4EP6WDp1sRjGT6Fl68iaiasiavib5icqlfn43X9ARTU4KHkQiaw1WKLsk80Ta34icJUovEYkFyWnw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_008_62a8674427e8.jpg)
 
 图3：局部磁滞回线
 
@@ -194,7 +194,7 @@ C.磁场中的材料变形—磁致伸缩
 
 另外，无刷直流电机的转子为永磁体(内转子)时，转子侧的永磁体通过铁心材料连接。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DhQfPwOHHtB4P54c4EP6WDp1sRjGT6FlwbqAib94Zu48w7O02PbhtibYYyAF4WK1AGH3kRTZj52rP9KYrRibpaqYA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)图A：电机构造(有刷电机)▼
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_009_a76f4d0d75af.jpg)图A：电机构造(有刷电机)▼
 
 专栏B：磁体的另一种分类
 
@@ -232,7 +232,7 @@ C.磁场中的材料变形—磁致伸缩
 
 这些软磁材料的饱和磁通密度BS和频率为1kHz时Bm=0.1T的铁损W1/1k的关系如图1所示。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DhQfPwOHHtB4P54c4EP6WDp1sRjGT6FlIBTb7vJFicJdoddJDpaz3CzUEyENhI3gPiaibtJUwXoN0o14nRrOnofKQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)图1：主要软磁材料的饱和磁通密度BS和铁损W1/1k  
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_010_65dc5523dd35.jpg)图1：主要软磁材料的饱和磁通密度BS和铁损W1/1k  
 
 从图1中可以看到，频率1kHz时，高BS方面，波明德合金有优势；低铁损方面，则纳米晶软磁合金和PC型坡莫合金(高磁导率材料)比较有优势。
 
@@ -314,7 +314,7 @@ C.比较铁基非晶材料和无取向电工钢
 
 铁基非晶合金SA1和无取向电工钢35H300的起始磁化曲线的比较，如图2所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DhQfPwOHHtB4P54c4EP6WDp1sRjGT6Flclriaicg03ibhEuvPRPTohg5mibiaTsGyj7JxsOiaNcRk33lNeZPZHwdxibibg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)图2：铁基非晶合金SA1和无取向电工钢35H300的起始磁化曲线比较  
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_011_e39c62760d5c.jpg)图2：铁基非晶合金SA1和无取向电工钢35H300的起始磁化曲线比较  
 
 对于SA1，为了缓和铸造时施加于合金上的应力，通过氮气环境中的无磁场热处理，可以获得磁特性的改善。然而，由于热处理下SA1会脆化，因此用于电机时，大多不进行热处理。超过Bm=0.8T时，SA1的磁化磁场强度变得比35H300要大(磁导率则变小)。
 
@@ -342,7 +342,7 @@ D.困难的铁心加工现实
 
 E.评估铁心加工
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DhQfPwOHHtB4P54c4EP6WDp1sRjGT6Fl9x5sOkIVqIPp6kPAQNqLiaiaXw5LTwuq7njsJXDSfbKibVbuzlJ11WqMw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)图3：铁基非晶合金SA1和无取向电工钢35H300铁心的铁损比较  
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_012_f79c8df684f1.jpg)图3：铁基非晶合金SA1和无取向电工钢35H300铁心的铁损比较  
 
 图3为未经热处理的SA1与35H300开缝切断铁心的铁损比较。在400Hz、Bm=1.0T的情况下，SA1铁心的铁损为2W/kg，35H300铁心的铁损为20W/kg。前者是后者的1/10。基于此，它对提高电机的效率极为有效，如在电池驱动的电机中，有延长电池寿命的效果。
 
@@ -367,14 +367,14 @@ C.增大磁通密度实现小型化
 铁心材料的有效磁通密度上限受饱和磁通密度Bs的制约，实际的有效磁通密度Bm必须设置为比Bs更小，不会达到铁心饱和磁通密度。
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vNgDWjDGOEdV8YZbXlLiaVlzL6d9aRqxQbhryqmntUDfnXZAKzJFTmkmV8clqKzz2Au7Kos0YMKWw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_013_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_014_2b0460b8b917.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamVK9gBdcF4HYg2ia6FxJR10aoxdBKO6kSt8uPiakr3iaBpEYoZ9wxsSFSQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_015_37fac5a47911.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_016_a6e4e8e00379.jpg)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\电机铁心材料选择__非晶材料VS电工钢__images\img_017_ec5921db28d2.png)
 

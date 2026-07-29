@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0teiceibxaxXjXW1A56HF7tkg1BqF80Fy26bEAcYgkwymmYr8esIUc8xHrJXFogdcvjAtgMicfQLJOLA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你应该了解的电机IGBT知识__images\img_000_2a1ae17a00a1.jpg)  
 
 **来源：电动之家**  
 
@@ -20,7 +20,7 @@
 
 工业电机驱动器的工作环境相对恶劣，可能出现高温、交流线路瞬变、机械过载、接线错误以及其它突发情况。其中有些事件可能会导致较大的过流流入电机驱动器的功率电路中。图1显示了三种典型的短路事件。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/0dIexjicLDEqOcK5d0GLfg0bExofXaqFZDn6WTvGLAxEycDSwVbI6NqBicM3VlfkoqvoQFbWaY7onrYMicGOKmQ1g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你应该了解的电机IGBT知识__images\img_001_0309841e7e4f.jpg)
 
 图1 工业电机驱动中的典型短路事件
 
@@ -46,7 +46,7 @@ IGBT短路耐受时间与其跨导或增益以及IGBT芯片热容量有关。更
 
 对于电流测量而言，逆变器臂和相位输出都需要诸如分流电阻等测量器件，以便应付直通故障和电机绕组故障。控制器和/或栅极驱动器中的快速执行跳变电路必须及时关断IGBT，防止超出短路耐受时间。**这种方法的最大好处是它要求在每个逆变器臂上各配备两个测量器件，并配备一切相关的信号调理和隔离电路。只需在正直流总线线路和负直流总线线路上添加分流电阻即可缓解这种情况。**然而，在很多情况下，驱动架构中要么存在臂分流电阻，要么存在相位分流电阻，以便为电流控制环路服务，并提供电机过流保护；它们同样可能用于IGBT过流保护——前提是信号调理的响应时间足够快，可以在要求的短路耐受时间内保护IGBT。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/0dIexjicLDEqOcK5d0GLfg0bExofXaqFZlEf8yTKNOHC68upWUOR4honW2VrlSXj7YHYKxy96Cux13ibbTY5OIbg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你应该了解的电机IGBT知识__images\img_002_4c0d822a8a94.jpg)
 
 图2 IGBT过流保护技术示例
 
@@ -58,13 +58,13 @@ IGBT短路耐受时间与其跨导或增益以及IGBT芯片热容量有关。更
 
 由于线焊和PCB走线杂散电感导致的集电极-发射极电路寄生电感可能会使较大的过压电平瞬间到达IGBT(因为VLSTRAY = LSTRAY × di/dt)。因此，在去饱和事件发生期间，关断IGBT时，提供阻抗较高的关断路径很重要，这样可以降低di/dt以及一切具有潜在破坏性的过压电平。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/0dIexjicLDEqOcK5d0GLfg0bExofXaqFZDTMyFM8Ot1TqgOZhFibhvwEP5A14SSVr3uWrtLu5PmdFqJloCwQxicLg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你应该了解的电机IGBT知识__images\img_003_cbcd090e222d.jpg)
 
 除了系统故障导致的短路，瞬时逆变器直通同样会发生在正常工作条件下。此时，IGBT导通要求IGBT驱动至饱和区域，在该区域中导通损耗最低。这通常意味着导通状态时的栅极-发射极电压大于12 V。IGBT关断要求IGBT驱动至工作截止区域，以便在高端IGBT导通时成功阻隔两端的反向高电压。原则上讲，可以通过使IGBT栅极-发射极电压下降至0 V实现该目标。**但是，必须考虑逆变器臂上低端晶体管导通时的副作用。**
 
 导通时开关节点电压的快速变化导致容性感应电流流过低端IGBT寄生密勒栅极-集电极电容(图3中的CGC)。该电流流过低端栅极驱动器(图3中的ZDRIVER)关断阻抗，在低端IGBT栅极发射极端创造出一个瞬变电压增加，如图所示。如果该电压上升至IGBT阈值电压VTH以上，则会导致低端IGBT的短暂导通，从而形成瞬态逆变器臂直通——因为两个IGBT都短暂导通。这一般不会破坏IGBT，但却能增加功耗，影响可靠性。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/0dIexjicLDEqOcK5d0GLfg0bExofXaqFZWlcEapBH4libtNKRgt1ze9zXUU7f4qAzOjibibqfSjGMiaofPBvRdYG9EQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\你应该了解的电机IGBT知识__images\img_004_c40cdc24f3c3.jpg)
 
 图3 密勒感应逆变器直通
 

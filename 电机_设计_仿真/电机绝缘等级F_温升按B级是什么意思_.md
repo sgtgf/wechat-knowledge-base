@@ -6,7 +6,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9ibzv2CYiaZGO7Tq4h3lZxuvbQmbL3AwLGGfwck7yBqibEwbUCQj5X4H0WeBKrlQ4VFeOHLNADNpcQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机绝缘等级F_温升按B级是什么意思__images\img_000_f83937bbb314.jpg)
 
   
 
@@ -61,7 +61,7 @@
 上表中温升是电动机与环境的温度差，是由电动机发热引起的。运行中的电动机铁心处在交变磁场中会产生铁损。绕组通电后会产生铜损，还有其他杂散损耗等。
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机绝缘等级F_温升按B级是什么意思__images\img_001_a6c2e413e6e0.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机绝缘等级F_温升按B级是什么意思__images\img_002_d84912f96aa9.png)

@@ -24,25 +24,25 @@ DeepDrive公司开发的是一种高效、高性能、低成本的双转子径�
 
 这套电驱系统可用于分布驱动系统（轮毂或轮边），也可以用于集中驱动系统。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT463Pt9p3reuMicZibU8KrzENQUdzxl47gAvlBcJGv3wlshOHHov7IOPCQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\BMW领投的DeepDrive双转子径向磁通电机有何特殊之处__images\img_000_5dfbd22742fc.png)
 
 测试中的DeepDrive双转子轴向磁通电机
 
 双转子径向磁通电机系统整机系统DeepDrive的双转子径向磁通电机有两种结构形式，一种是可以用于轮毂的轮毂电机。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT4qYnViaTEb43I3MJUxwPIbXPqFwjiaics1VicU6aZ5ZpydTroG33Hd7XCjg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)DeepDrive双转子轮毂电机
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\BMW领投的DeepDrive双转子径向磁通电机有何特殊之处__images\img_001_196b197f9b8c.png)DeepDrive双转子轮毂电机
 
   
 
 另一种结构形式可以用于集中驱动，电机为细长形。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT4EjJSK1qdGjWUxYaBsKZqfR1DIGJH3QjN2RibwwgOWeaia9HJFvwzvREA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)DeepDrive双转子集中驱动电机  
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\BMW领投的DeepDrive双转子径向磁通电机有何特殊之处__images\img_002_78b87ded93cc.png)DeepDrive双转子集中驱动电机  
 
   
 
 两种电机设计理念是一样的，下面以双转子轮毂电机为主进行介绍。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT4QTEGYKlVWrWvdGWoot1M6206jx3X9IzUnqtTFYoHUicMc04sK8Y1RwA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)DeepDrive双转子轴向磁通电机RM1250效率map及外特性曲线
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\BMW领投的DeepDrive双转子径向磁通电机有何特殊之处__images\img_003_680240bc4883.png)DeepDrive双转子轴向磁通电机RM1250效率map及外特性曲线
 
   
 
@@ -76,7 +76,7 @@ DeepDrive公司开发的是一种高效、高性能、低成本的双转子径�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT4QvOq6QR09s4dhX0pN6nGacwDsMTDfowGllzZSVgIic8Oc4JnD1ZXGbQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)DeepDrive双转子轮毂电机定子
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\BMW领投的DeepDrive双转子径向磁通电机有何特殊之处__images\img_004_15e1c7f02c95.png)DeepDrive双转子轮毂电机定子
 
 **转子部分**
 
@@ -84,19 +84,19 @@ DeepDrive公司开发的是一种高效、高性能、低成本的双转子径�
 
 转子为内外两层转子，磁钢分别贴于表面。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT4Iic9YibcmW1MLwOtpuFC0e0cBfLQyYic7bSKdyHZfDQbFXbWj4xwTYYiaQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\BMW领投的DeepDrive双转子径向磁通电机有何特殊之处__images\img_005_663146a35bbb.png)
 
 DeepDrive双转子轮毂电机转子转子
 
 转子铁心材料为低碳钢的实心材料，采用冲卷工艺。使用低碳钢做转子铁心的原因估计是因轮毂电机转速低，铁耗低的原因。同时低碳钢加工制造简单，材料利用率高。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT4skoCYAPibgdbak8aseSibo5fPbCUxqnnjNke3vmCmhBfDIrq7ezqibymg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)DeepDrive双转子轮毂电机转子-外转子
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\BMW领投的DeepDrive双转子径向磁通电机有何特殊之处__images\img_006_a1775fabb9dc.png)DeepDrive双转子轮毂电机转子-外转子
 
   
 
 DeepDrive双转子电机采用的磁钢不含贵重的重稀土镝和铽，这个点和近期的特斯拉、日产、尼得科的电机设计理念一至，就是去稀土化。也是欧、美、日近来电机设计的一大趋势。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT4r364qWdZdhKa1SQicRtJiboiclPy907J8nI6cCEL2sI7xyUDDgzceFtNQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)DeepDrive双转子轮毂电机转子-内转子
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\BMW领投的DeepDrive双转子径向磁通电机有何特殊之处__images\img_007_ba85abcf8a1d.png)DeepDrive双转子轮毂电机转子-内转子
 
 控制器部分DeepDrive双转子轮毂电机的控制器集成在电机上，也就是圆圈所示位置。
 
@@ -106,7 +106,7 @@ DeepDrive双转子电机采用的磁钢不含贵重的重稀土镝和铽，这�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FticvWQfPAl2CwhhKWttVhHT4xSGt3ianj2mp2jc6pgfZmLBLlicw4Roliaxp1JlO8GrnmOY8qd2Dib9Zog/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)DeepDrive双转子轮毂电机控制器
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\BMW领投的DeepDrive双转子径向磁通电机有何特殊之处__images\img_008_daa3c0c6dbed.png)DeepDrive双转子轮毂电机控制器
 
   
 
@@ -162,6 +162,6 @@ DeepDrive驱动单元可以提供超过98%的最高系统效率。可帮助车�
 
 [【重磅】5部门发布最新电机能效准入水平！虚标能效将被重点打击整治！](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247535908&idx=3&sn=6eec1347ec795a83176cc4f901ec55fa&chksm=cede0ce0f9a985f64ce0e07697e68c6ddb191072645aa6d8de6370bcd597bb610675d2897b02&token=66697538&lang=zh_CN&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\BMW领投的DeepDrive双转子径向磁通电机有何特殊之处__images\img_009_31a98b8e3167.jpg)
 
 

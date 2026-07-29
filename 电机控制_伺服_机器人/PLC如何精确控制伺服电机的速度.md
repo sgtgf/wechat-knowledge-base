@@ -4,9 +4,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/5MapLu6AZlug8DkCnUSB-A](https://mp.weixin.qq.com/s/5MapLu6AZlug8DkCnUSB-A)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0s1u4ztdWjDoyDhYIW9MOhDMGrAzeDVuvZ2dfZib765WVhdyXHexcxMPBNzR0QYNDlLNEbmuUSibq4w/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzg4NzgyMjIwNg==&mid=2247526151&idx=1&sn=f2ad16b6fe06f9d5bd954057834bb252&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\PLC如何精确控制伺服电机的速度_images\img_000_29f68faced42.jpg)](https://mp.weixin.qq.com/s?__biz=Mzg4NzgyMjIwNg==&mid=2247526151&idx=1&sn=f2ad16b6fe06f9d5bd954057834bb252&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vvEGxj2u6j2wRGLcZfDcOVdKstRpeevsIKJBu4SUqbXiaGtG7AAwEicibg5KmWmibEiaoyP3Bjnd5tq6A/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247717560&idx=1&sn=e29e07e0eb7d394a5b7ff41eff76da7e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\PLC如何精确控制伺服电机的速度_images\img_001_354271592484.jpg)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247717560&idx=1&sn=e29e07e0eb7d394a5b7ff41eff76da7e&scene=21#wechat_redirect)
 
 
 来源：AI的冰度十九的AI
@@ -35,7 +35,7 @@ PLC（可编程逻辑控制器）精确控制伺服电机的速度主要通过�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/8DcIdHViauvjI09B6fRDiaEYmkybQ4STezhcegDDAHXaoOTg8q5Uy0J48qGhEfI3dnbibdQ12CFScjibeaF4YyISsw/640?wx_fmt=jpeg&wxfrom=5&tp=wxpic&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\PLC如何精确控制伺服电机的速度_images\img_002_12490bbcb454.jpg)
 
   
 
@@ -98,7 +98,7 @@ PLC（可编程逻辑控制器）精确控制伺服电机的速度主要通过�
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\PLC如何精确控制伺服电机的速度_images\img_003_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\PLC如何精确控制伺服电机的速度_images\img_004_e8e68bdfc1b3.png)

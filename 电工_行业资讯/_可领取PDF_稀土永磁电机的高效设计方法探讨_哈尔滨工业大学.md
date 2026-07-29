@@ -8,87 +8,87 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0teiceibxaxXjXW1A56HF7tkg1BqF80Fy26bEAcYgkwymmYr8esIUc8xHrJXFogdcvjAtgMicfQLJOLA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_000_2a1ae17a00a1.jpg)  
 
 **来源：郑萍**
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebzu7AWIbia40XyUEUabwIESCibulEP1ib0XNia7S9tpbiaRMiauLzp2zpCj0w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_001_cd0a45934c56.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebsClRdlyKU1zbT0jRJHTAw2CDfGTjbG2MdYMIEtibdUESY8F2tTXVUvw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_002_61cc4bfc1fbf.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJeb0CxJAaDvKGQN3x7oNvrlE77PHL45mM0Dbt7JibKEEYoRYPmdoBcjgRg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_003_c6d2b94de76a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebfFg7CATBmRgKPPxojZOldV7jqZaib1ic5BoJGibesa3iawXJmAHvkUKfyw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_004_af0421fc75ea.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJeb2ZDollY5UlPn4ZM29OOH8cjWqSjLzd9els6zafCKCXSgibPw2TeTHxg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_005_bebaca2d25e2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebSkic57CXMxmpiagom1JrZ9wI6toQ8AJ8Ger1kiauMzxSv6xztBIkSnP3Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_006_b1a64d913180.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebpFTHIk863gv7eXibHom2Br6iaJJZcyt7FGZQoDTQdOSRkGZ0Gsic73LqQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_007_e75ceb373aa0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebFicr3MuBrQu772zVe4oBMJsSUCuk4OFZEbXfo8tSqk5WtXAnasNMZJw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_008_d1f7182bae2e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebz1JOaNXOsS26vyRAvqJnlKYhuvCzdhqNrEicuuaUNKxdUSiajGQnDaxw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_009_849f288afa8e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebFibmO3LNdlNe3UvDn2qfaIYlpZDajLAd94eWhhjjIV1kOVFCjibiaRB4Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_010_6ba600a31ce5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebf2vp4XlGoNiaQK858nmtVvvpbR7Jq58ZSSpYzhvAh81ATXzfdWSRrEg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_011_7da2ccc26cb4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebCp3ibeia1DGzEv0tVbT9MWibicmSTFBUmov1fdYVeQ1zmXhD1niaOyO62VQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_012_e475cc8b7786.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebjO8Aw8Q0pNib5TBzNgdgeyznjHhibrTNDjic6p60icn8VGhg4SAAoJ783w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_013_b5340cc1c383.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebN6X98Oic25troibj0K2CG9OAoBsxwX8MY8MB1OgYY5Hh5O6r2O8140Cg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_014_9959ba1b072e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJeb59LSzdWkXInZiadaVpIdNibcOJpCNibicoqSuV9K6ZkticrgibPN0JscOBicQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_015_2f464ce18712.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebYo9icdfJwGpvVCvRbnUia52VgFlg8FtweaUlunV6OGbVpyFRj13Eq5AA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_016_836036ace9a0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebibpeKibdiblVemtaVW1QY9yFOCwiawVxh8OtojQricia0PsL4rXkgChg2mJQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_017_8e78358279a6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebXO7dpEluiabXNAMVd4XsFLJ32YWwR43sBU4qfm8dcicFyZM8CicsUUauw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_018_1396dc4145b0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJeb8ofdvImqmPFibrl59gqpNbUiaRyPMvX0UXY06HVcTodtQaclGu3tTDXw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_019_33009354ed09.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebk4IrIrDZ5puLqAAYZxAkYpWoztRfZLE5GzgbC0PzZicOjzxKFCv8rog/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_020_309ec0dabf56.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebVw70okVEc3yJ4MibIDrLNkticH7okqdjiaJ60GGeMynkRyLawCcRoJs0g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_021_3c27212f94c7.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebiajWPOfN4uTVBzC0tx0q7FstUCB842S6goVnkiac6TIBDUDhLic0ceu8w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_022_0fdbda654752.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebVVLUUwYU4XcbicOgelzibxqiamHyc0t5Picy1vH2OwMJmRkrf3mTibILOiag/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_023_d034d6b585b5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebayftMX5BJBbLBu6fY1icsOU6w4xaRATAFvjl5GqB2nicLdyxaCuRmq0Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_024_980a04cac7ab.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJeb9RHF8pINGyMOXKiaXT1ru33XxnM73WqiczjNZXRFCsNqkuia8rncZyF3A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_025_92573db675fe.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJeboyfiaakc94hRaic7xW98Ll58A8XD6gNUTRs8J511ics0oiaMQ2nH2IicKxw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_026_1c50484d01a2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJeblsuxVXKy4oOJ2RpCoedFVpfxNOT1nR1gXicsHbukp7zOia7P0Tia3RYbw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_027_efe9f0ebaf55.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebGfSWqxGZADuwnhibQEqoY72iancYqMria6B60eoDWtTqJbJ2SbSjMlulw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_028_68b787557d10.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebbqdy1bqDibkAHdYZHUXrQzSMHkTfkRAV1nBZJJJOIRMNXaicmjpGyL6g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_029_2241e07d2305.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebxBfTRM7GV05OmPyibJOoKMOfmQ3RpCR93fvMawrymVzd0wP0zCjxGsw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_030_fc7e76492dd3.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebDjG8MooYArh7ncRKIPzJCYlMsh8HpNDPKJPkStef1YrU8h98Fh2KnQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_031_e363a54df5db.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebXCNDXM1YtjrJG5fzBJN7PuK1bBfBjf4Nzrgiax6zz1f6bofCsUnzlHQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_032_b3b5234233be.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebYXa5KYoYHFnKEmOVLe2YdEn2icP0hOTNv08ShiayicInRf7PjPNlsszoA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_033_a59afb23ecc6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebMAsc7aJx5GMLibuX1g01ZvZCjVicqpUMaGDdicrOE4o6fqCsYLz1bIYAw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_034_1e362b81a82d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJeb6y6uBCTAzAz1hic4vlSJJ5LaNvwaz57CVbpYoibFbIZzuMEXJ5lT7z0A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_035_7ec62673792c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebl7UbXNRDjmUerlBV1ia8sAKcgM1nV5s1g4UB8GzFNMniaR26iaTJDFgLg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_036_2c8afc53e37e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJebA9jovnSs2U5stEWTiasicEnsAsHjp5EvwZgYnC6umHFuuqOvlnkZicicUA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_037_36f862b183ed.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sws5fTSbt6icxGuhiconiaJeb8GuN3b9GvDR2drYNAZCyxY64oJK91UYpXTPnYKsm8tMFfdyg9oRGqQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_038_1132b7eb0c41.jpg)
 
   
 
@@ -102,7 +102,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbKpNn0fSdakyibfILD48SjKvpB2D74dVDWQA7QhHtibv7Tqkfy0bfoOjg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_稀土永磁电机的高效设计方法探讨_哈尔滨工业大学_images\img_039_103649f2287c.gif)
 
   
 

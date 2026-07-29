@@ -20,7 +20,7 @@
 
 近日，舜驱定子打样项目在豪森工厂内，迎来了首批下线的72槽10层Hair-pin电机定子产品。这证明了豪森已经成功突破10层Hair-pin电机定子生产关键技术，让国产10层扁线电机的商业化应用加速实现。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FtichWweOhEgaUGx5QAib7ibsm07GbkYAITKVjWUv3w8mdqJdXqxUWce9oicoiaLib7BpVPOGtoCDrohUKWA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\突破_72槽10层Hair_pin电机定子生产关键技术实现商业应用_images\img_000_465b115e8002.png)
 
   
 
@@ -52,11 +52,11 @@ Hair-pin电机定子制造过程非常复杂，需要先将铜线制作成发卡
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FtichWweOhEgaUGx5QAib7ibsm0BvrQ6pJ7Mic4Micnic81dHvV0Bp6FZUiaKiaLMKdcShg8y33Np7TibxsE52Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\突破_72槽10层Hair_pin电机定子生产关键技术实现商业应用_images\img_001_1f5fc4115dd9.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FtichWweOhEgaUGx5QAib7ibsm0icKI6HxAT5TOezKhf94bD3EfxM0okavzChwAZ3wIib6XqIQwibtUYLoWg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\突破_72槽10层Hair_pin电机定子生产关键技术实现商业应用_images\img_002_f5379489bec6.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FtichWweOhEgaUGx5QAib7ibsm0tG8YB3S5iapcaKE6mq4on43J9N6DibrjmMibdkfWDibXu1hTV6Hx8DSSMQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\突破_72槽10层Hair_pin电机定子生产关键技术实现商业应用_images\img_003_4962c63cd25e.png)
 
   
 
@@ -90,7 +90,7 @@ Hair-pin电机定子制造过程非常复杂，需要先将铜线制作成发卡
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7FtichWweOhEgaUGx5QAib7ibsm0ZzpYvibYPJd1TdIyicnib5VBM4Gibm8tJVic3leDEPXnT3Nwu2pOWEBl0icg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\突破_72槽10层Hair_pin电机定子生产关键技术实现商业应用_images\img_004_d9130e55a58a.png)
 
   
 
@@ -149,10 +149,10 @@ Hair-pin电机定子制造过程非常复杂，需要先将铜线制作成发卡
 
 [【重磅】5部门发布最新电机能效准入水平！虚标能效将被重点打击整治！](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247535908&idx=3&sn=6eec1347ec795a83176cc4f901ec55fa&chksm=cede0ce0f9a985f64ce0e07697e68c6ddb191072645aa6d8de6370bcd597bb610675d2897b02&token=66697538&lang=zh_CN&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\突破_72槽10层Hair_pin电机定子生产关键技术实现商业应用_images\img_005_31a98b8e3167.jpg)
 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\突破_72槽10层Hair_pin电机定子生产关键技术实现商业应用_images\img_006_ec5921db28d2.png)
 

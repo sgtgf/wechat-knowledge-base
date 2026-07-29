@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/n22xQcDofyqFI1rP4SQIEw](https://mp.weixin.qq.com/s/n22xQcDofyqFI1rP4SQIEw)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vgs97DnCfgz39UztTsg6cibJ9ibWEXTJHgdhm4qRvpACAmicDupX05p24oJk2G4OCMwRdcZxV0F2TsQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_000_75b3f5622a48.jpg)
 
 
 来源：驱动视界
@@ -19,121 +19,121 @@
 
 这种全方位的拆解，旨在通过剖析小米SU7的每一个构造，来理解其背后的技术逻辑和制造工艺。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd4F0tuHrerPVkDTib1Ps8f3ic7KIItZQ6kvyOGmjE4a59qDtxs4X6nLq8Efibu8QdeZshfklXMemv6Xg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_001_d632c7ea8d4e.jpg)
 
 小米SU7 Ultra的三电机扭矩矢量控制技术，系统每秒可以刷新500次指令，并在15毫秒内完成0-90%的扭矩调节
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsA7bVPSAtGDic41EDAe9P4zlHoVZ9BxmKCbeOcEZIKiaOPmfH8aw7fVLTw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_002_03c8e303288b.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAhugu0zIJD4vGSvEBOWnCPbPboIRFX9yBrIVo4ialg4YXuCkYe3z4t6Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_003_900616a816b0.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAiaDg8HtKASbyX7XRuXdf55YyTvP4nicoWYBbbM1xZYBXKkiapxzvXQXlA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_004_72348f437dd1.jpg)
 
 小米 SU7 Ultra V8s双电机总成
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAWdltfGtDAtrCpRSL0ibUgKJ7CXIH8hSVBQXCJlRUpJdhHy1EXqdflVg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_005_898f62d3c17f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAW7YYwrIunmyajAgHk9pwmgIvCFTDYWFuS7zjRYsy43CRibwQAlRtORQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_006_6f27f839060d.png)
 
 用于小米 SU7 Ultra后轴，单电机控制一侧车轮，实现扭矩矢量控制
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAyqwZiaVQlBxgZn4xzIn2Qiaicea9XBBP0iauHHJwPH1KhygUsI4uGraiabQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_007_db37b78c8d49.png)
 
 整体布局上，两个电机布置在两侧，各自带减速器，两个电机控制器分别布置在电机后面，朝着车尾的方向  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAFvnGYKod5hib7PIu7ZUCpknNnu2fpo6ibeJn9K3YlMhib0NRCkGrHkNnw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_008_a544fe3a8f43.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAzIrjlhKiaDs9ibdhBb10FlwZnqcZMsf8FbFctic0pO7waOtwia2GV5T83Q/640?wx_fmt=png&from=appmsg)  
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_009_0b2a75aee95c.png)  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAe1lpoNE1YGtWygKibFTZWPHJoBraFGcPMIaTTdpCstGFj1GibMRCPhGw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_010_92b7942eb7b2.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsA8zexj1e9jTOVlzwwT81kOaT3NTMfzom7YfZUlcEUwZ4vM6OH5yBUFA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_011_64c123387fdd.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsASFrIlC6YiahKXbugbODmNlzLIjpfttfou0I9lbRNA7qtmGHR6SHWBXA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_012_e2dee0aab382.png)
 
 小米V8s单电机功率425kW，重量39.9kg
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAjblJ7OS92aO1ZV4kuNL3a3OnWNNgCSjbuic8nldkt70I09G0PHcaYJQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_013_0a34f4c0b74f.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsA9GuYvq0wDz1IC3nmr3JY5sX52szgespuwuKok3wEO0g97dJs8g8Kbw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_014_058f5885fa10.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAKu14ToyGZf4rMqCMnZticoaKR6a4aWdibia2XOico9xBaJTyDbTSpJuu1g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_015_c9aabd2359e9.png)
 
 整体布局与Tesla Model S Plaid比较相似
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsA9gYSTia5FmnBJHrR27OibRic854DaLw48ef8uAdrsX4RTHNP9jJOFmibmQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_016_a48699f1e90a.png)
 
 小米电机壳采用专利新型高强铝合金，减重3kg，强度提升27%，耐腐蚀性提升100%，屈服强度提升40%，抗拉强度提升17%
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAyan4LJpecknbb9oiafOAlzKmVzcibDecbR2SVdC6GeKOoyRxg6w6icGMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_017_6bd10ae581db.png)
 
 ▲小米 SU7 Ultra 双V8s 超级电机转子  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAseJP4iaibVolwbib3yAdSeNZR95zI9n61ticgKiaGtCYj62rckZYT4btumQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_018_343888f93deb.png)
 
 为了提高高速电机转子的强度，通常做法是采用碳纤维材料包覆，如Tesla Model S Plaid，极氪001fr  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsA1J1E5ngY2kxkef7aVUtYB6je9tRF9NCWqsUKRY5fZVtdsc2Ajlnj4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_019_a21088976fca.png)
 
 但碳纤维包裹层的存在会影响气隙，导致电磁转换效率的降低  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAg6RHJNuiaGLZrhsZJOIjFBfGAavT84HdgTmoh5OKKQAwhXIu5icOhrqA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_020_9a57b0c50dd5.png)
 
 为了承受转子的高速离心力，小米联合首钢开发了强度为960MPa的硅钢片
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAJfZIsTAd4aJQQUpcdU0AWHXSXCh8BwRVwzLtzRz0QOoiaWNw7MZ52sg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_021_25dd4aae4cea.png)
 
 厚度0.35mm  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsA1NcweAYdwf5yxv0ykEcAhz5qDK4dYgn7Phe4zLOvV5EXcCkkc7Er9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_022_554817f0bc69.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAMWyO0DIR49Mdt98rNTBNeXykhBHeVc84lx78KFgwyQQNiaHCTKofHfw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_023_4915ad8865ee.png)
 
 小米在传统电机铜耗控制的基础上，把过去很难预测的铁耗也做了全新的控制算法，实现了Maximum Torque Per Loss (MTPL)的控制策略
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsADHP0N2r0W3ge80sTrCIyHXMrjFfccBBicuhl0kiaRVmj0EpCicbWic4ia7A/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_024_aceac671ff09.png)
 
 比如在线寻优特定载波比控制策略，解决了电机转速超过22000rpm以上因为采样重叠而导致电机谐波损耗过大的问题
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAZZsn02Oa2WjBKSiajZ4ianO1NARRziaKwlwIJSOfGCqHrl8U1ALAkORvg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_025_47a956b0456c.png)
 
 转速和功率这么高，要解决的两个最重要的问题是：1，电机转子强度足够高，能够抵抗超强的离心力；2，散热足够好，能够发挥出最高的性能  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAyDugADaIUYUxlKbfKO8xyPB57gEdWlVUQPB72CTGN5wpzROOkO8Mbg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_026_623f5ab3eb79.png)
 
 定子铁心采用0.2mm厚度硅钢片，使用点胶工艺组合在一起，降低电机铁耗，提高电机效率  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAjn32bzEkha7ic0TDibqELZFgGYSIggKrwuJIIGCsAN9FgDdNXqy7G2jA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_027_4a8907db80f1.png)
 
 采用54槽6极设计+8层Hairpin扁线绕组，定子的槽满率达到77％
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAcAlcFUfqNlnWDEZmTgg9icg4xN7wuEyI4ibfZG3A5LnuWPBmHyyGWNIw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_028_5abf10c8f7c6.png)
 
 定子采用双循环的双向冷却技术
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAdaHHhJdoeicSsjNoBDVF73c01ytcPatPQDeABwsIGd6IptWiaYVkDWRg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_029_0dacac1aa4ad.png)
 
 冷却油从油环进入到定子铁心的散热通道
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAic0uPFn5lEkhBx4KxAho06YibBuvHIWHF99nm24E0kgdjsF5P5WZh6kg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_030_84cb12f09a11.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsArVyhp1sQqicuhCZyHBmqd4vWSOTNCrQ2lMtNFcQSsmiby9tBUYTcorww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_031_fd2a7d8a3b39.png)
 
 沿着定子的轴向有一个旋转错位，再从另一端流出，两端的油环都是这样设计，错位主要是为了冷却油和定子有一个充分的接触面积，提高散热效率
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAzRrmPWTfFIL8DgG05fgFiaorJNpa3OY1Qzy3pqP15m5YicIzahFPzfjw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_032_1f6af07f8ffa.png)
 
 转子也是双向冷却，两端进油、两端出油，中间是一个S形的冷却通道
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAIpXJzpHibxxlMbeJyhzQ12NWSvzb7jYoMjM0JdwJyuxibCxy4CCRdjZA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_033_0d935dc4a94d.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAYoQ72bnic3cvHWkicMyYR3YGUBPiboYiabPIBc1sibNIBlEXGFfKUR6j9UA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_034_934e76e8f1ea.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAneYOlEBJ536hrF1kdUZEFZxCnprdBoZKfAnVWnVQAQ0zqYHHdQHHHw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_035_2a109048341e.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAAzBKwibTEZwK3XLBmABbg5N2dxXhq5Mlf7VibNDhtdo1aJmDohCicdjEQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_036_3be63d8cc35c.jpg)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/jm3IALKDa2xDMDXC0kPIicvdeb3v3upsAaEIJYI9ick5AloKKQqaC4RCeLtGVGPEHgh17VicjHY0JMuicVSpljXtng/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_037_3b7ac0b4e17d.png)
 
   
 
@@ -159,11 +159,11 @@
 # [华为都“活不下去了”！电机中小企业未来三年要怎么过](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247575025&idx=1&sn=800a15fe2572766ef1632371ee7475f2&chksm=cedfe435f9a86d23f050893e070245640fbc59fce832cb6264e6ecf8b6c43c0fe9a0c6565a38&scene=21#wechat_redirect)？
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_038_9967d1607b24.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_039_fb0ff5197498.png)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tMzMevYpPAySDyFiaafVt6hlnBk2MabwiahKl2h63picic7sVYg0g3DojZDAtHn0rMCIUhye6HKw5rdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\全网首拆小米V8s超级双电机_原来里面的工艺这么复杂_images\img_040_5591b15b40b7.png)

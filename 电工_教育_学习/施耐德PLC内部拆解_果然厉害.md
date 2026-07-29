@@ -36,7 +36,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aWpUSOEFicFRicZ2iblibC8y52m4GJWKStDN3gR19sr9XL3mrZ06E0MCd1yPXRP8micEP6UPmEEJib3rIWEDyBpZcicrQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\施耐德PLC内部拆解_果然厉害_images\img_000_fd2f7a8d994d.jpg)
 
   
 
@@ -60,7 +60,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aWpUSOEFicFRicZ2iblibC8y52m4GJWKStDNtt67Iutibo2Pv0xJbnWXc4WfZiaibn5twcxFXp55FBI3LQh3Svjd31uRg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\施耐德PLC内部拆解_果然厉害_images\img_001_093e518a5f09.jpg)
 
   
 
@@ -76,7 +76,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/aWpUSOEFicFRicZ2iblibC8y52m4GJWKStDNz6ZhALKRXmGBeG8aBpWPcmLB0gib60a9e12j1a88kVO7uV7zTNMhafg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\施耐德PLC内部拆解_果然厉害_images\img_002_0f2d472c8d38.gif)
 
 **下面，重点来了，**  
 
@@ -84,7 +84,7 @@
 
 **使得它自诞生之日起就受到控制工程师的青睐呢？**
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/aWpUSOEFicFRicZ2iblibC8y52m4GJWKStDNz6ZhALKRXmGBeG8aBpWPcmLB0gib60a9e12j1a88kVO7uV7zTNMhafg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\施耐德PLC内部拆解_果然厉害_images\img_003_0f2d472c8d38.gif)
 
   
 
@@ -98,7 +98,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aWpUSOEFicFRicZ2iblibC8y52m4GJWKStDN8Vf6pO4ryfj8WllqVOnylg2s9WdGL6qSehaqKjYsGowIXpFNcOPcbQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\施耐德PLC内部拆解_果然厉害_images\img_004_87fa9c4be9ca.jpg)
 
   
 
@@ -108,7 +108,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aWpUSOEFicFRicZ2iblibC8y52m4GJWKStDNMBvLKgdFXKyNoyg863jtibL7NMw16ZOCniazEyYn1yiciaWt9bhdskOBBA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\施耐德PLC内部拆解_果然厉害_images\img_005_8fa2b31b717e.jpg)
 
   
 
@@ -118,7 +118,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aWpUSOEFicFRicZ2iblibC8y52m4GJWKStDNkHhzv00rlI8e6H3CUTlqOxy8ROuQN7KgwPDic6SskWD0lXgpUV5icnkA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\施耐德PLC内部拆解_果然厉害_images\img_006_6003aba0a785.jpg)
 
   
 
@@ -126,7 +126,7 @@
 
 打开后盖后，就可以看到M262的主板背面了，采用的绿色的PCB板，做工精良，颜色均匀，表面光滑、平整，没有任何气味。密密麻麻的焊点布置整齐，而且做过专门的固定处理，不像普通商业电脑主板那样都有毛刺，摸上去一点也不剌手。特别值得一提的是，上盖内侧附有一个不锈钢薄板，其上有2个卡扣供轨道安装时使用，这一整张不锈钢板不仅可以防止灰尘等进入PLC，而且可以很好的屏蔽EMI电磁干扰，这一点对PLC稳定性来说十分重要，一会打开上盖会看到同样的设计。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aWpUSOEFicFRicZ2iblibC8y52m4GJWKStDNiapK7scaTdicn9GQVnlfZDY9MR1ZbHwzNlxRWGtuHSh6ubEK97Sp343g/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\施耐德PLC内部拆解_果然厉害_images\img_007_99a7b0240027.jpg)
 
   
 
@@ -136,7 +136,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/aWpUSOEFicFRicZ2iblibC8y52m4GJWKStDNtxUJv5TWwIT3Jy74rFdc91VDWyWoLAtftlGiciclGfP6zyGLpibfia6kMg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\施耐德PLC内部拆解_果然厉害_images\img_008_a3c0a324abea.jpg)
 
   
 
@@ -146,7 +146,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aWpUSOEFicFRicZ2iblibC8y52m4GJWKStDNcLoTtyN7HMT7ibV4JTDIqiaTX09gW4L3MDiaVZibOjdnaI9S6bYBC9Zspw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\施耐德PLC内部拆解_果然厉害_images\img_009_324fd486457a.jpg)
 
   
 
@@ -160,11 +160,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aWpUSOEFicFRicZ2iblibC8y52m4GJWKStDNrbRXXBptYmEJHL8XoupmTZNokmSiccdFxlfTkJEtOicduPKIEib6xyz0g/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\施耐德PLC内部拆解_果然厉害_images\img_010_11393230b412.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aWpUSOEFicFRicZ2iblibC8y52m4GJWKStDN7F5HbIEqxRpxyxP2VibnIrQMapNviar32e3Mibkz1Wmm9dE4iabMEaciaaw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\施耐德PLC内部拆解_果然厉害_images\img_011_1e1241dd1d80.jpg)
 
   
 
@@ -174,7 +174,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aWpUSOEFicFRicZ2iblibC8y52m4GJWKStDNLh2DTlic5k6eFibOpCpwpwd98JTWARepKic0ys2HGkRLd5ia7zQkcB9qAw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\施耐德PLC内部拆解_果然厉害_images\img_012_ed99548f5eac.jpg)
 
   
 
@@ -184,7 +184,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aWpUSOEFicFRicZ2iblibC8y52m4GJWKStDNfPxjib90wKL7tHYqG7PaUrf0PC6B7tOiaADud74GSwDlf19BricibjeE0w/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\施耐德PLC内部拆解_果然厉害_images\img_013_9f0cefcd6c31.jpg)
 
   
 
@@ -194,7 +194,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/aWpUSOEFicFRicZ2iblibC8y52m4GJWKStDNx4q1umNIvEEgAPcmJRbfZSMC0wajfcZxU05H6caWibmXEDLyN9YsNnQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\施耐德PLC内部拆解_果然厉害_images\img_014_89f86d7a0445.jpg)
 
   
 
@@ -224,8 +224,8 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\施耐德PLC内部拆解_果然厉害_images\img_015_31a98b8e3167.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\施耐德PLC内部拆解_果然厉害_images\img_016_ec5921db28d2.png)
 

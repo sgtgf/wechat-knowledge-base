@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ws8KWgWIFiZlXSAuPjb5Iw](https://mp.weixin.qq.com/s/ws8KWgWIFiZlXSAuPjb5Iw)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9ibzv2CYiaZGO7Tq4h3lZxuvbQmbL3AwLGGfwck7yBqibEwbUCQj5X4H0WeBKrlQ4VFeOHLNADNpcQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\BLDC电机技术瓶颈_设计方向及市场趋势_7大潜力应用市场_机会您把握住了嘛__images\img_000_f83937bbb314.jpg)
 
 
 来源：华秋商城
@@ -21,7 +21,7 @@
 
 相应的解决措施是有的。因为国外一直有这方面的成熟技术，我们慢慢都在引进。只是说投入和客户的产出比能不能对等。如果有好的客户，有一个共同成长的环境，那么企业是可以投钱去做这个事情的。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xq3e4397UpqPx8DQiaHCVcPXLtLlZIANPWKiagqVqdogc8S9nkuWHOBnfwF9DI2qjvWwXaHIHpauIE04m9JlZCicg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\BLDC电机技术瓶颈_设计方向及市场趋势_7大潜力应用市场_机会您把握住了嘛__images\img_001_5b5f51eb0714.jpg)
 
 **BLDC电机设计的方向是什么?有哪些创新应用？**
 
@@ -49,7 +49,7 @@ BLDC电机未来一定会在量上面有一个大幅度的爆发，同时在细�
 
 10个是基础，多至200。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xq3e4397UpqPx8DQiaHCVcPXLtLlZIANP5SibnaDKG1IVjTTeQsTxTyn2Fx18kn3ZQBeknTicRamfJYN3VxiajDrOQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\BLDC电机技术瓶颈_设计方向及市场趋势_7大潜力应用市场_机会您把握住了嘛__images\img_002_6d9b2340221f.png)
 
 未来汽车中，驱动电机、电动助力转向系统、电子悬架系统、汽车稳定性控制系统、汽车巡航控制系统、ABS、车身系统（车窗、门锁、座椅、后视镜、雨刷、天窗等）都将会大量使用到电机。
 
@@ -65,7 +65,7 @@ BLDC电机还用于电动自行车/电踏车。BLDC电机具有更高的精度�
 
 电机是电踏车电气系统的核心部件。由于电机小型化、轻量化、运行效率及外观可靠性直接决定了电踏车的性能，因此电机企业一般要根据电踏车的需求对电机进行定制化开发。电机占电踏车成本的10%~30%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xq3e4397UpqPx8DQiaHCVcPXLtLlZIANPkInI0icorRFOqSwOD8nJTGCQw399Zuf7oz7RbibohiaTMzWF1MUCGR1iag/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\BLDC电机技术瓶颈_设计方向及市场趋势_7大潜力应用市场_机会您把握住了嘛__images\img_003_4084f8f26826.png)
 
 目前全球对电踏车的需求旺盛。根据欧洲自行车行业协会数据统计，2006年到2018年，欧洲市场电踏车销量从9.8万辆，增长到了250万辆。年均复合增长率达到31%。日本市场也在稳步增长中，日本多为丘陵地形，道路崎岖不平，老龄化严重，电踏车成为了必要的选择。而国内市场处于起步阶段，未来成长空间可观。
 
@@ -77,7 +77,7 @@ BLDC电机还用于电动自行车/电踏车。BLDC电机具有更高的精度�
 
 服务机器人方面，BLDC电机得到了广泛应用。如扫地机器人/吸尘器近几年的开发热点主要集中在高速电机上，对电机的速度、定位和力量性能提出了更高的要求，相较于其他电机，BLDC电机更合适。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xq3e4397UpqPx8DQiaHCVcPXLtLlZIANPwwRNicrNUlOwkBzTTJ6uTY6NaWp3NSh6vMojZRwPxwracibnZs2mhxkg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\BLDC电机技术瓶颈_设计方向及市场趋势_7大潜力应用市场_机会您把握住了嘛__images\img_004_4425bbfdc48e.png)
 
 消费级机器人方面，现在很多无人机都在向无刷电机转换，以获得更长轻的机身，更长的续航时间。据Droneii报告，2018年，全球无人机市场规模为141亿美元，预计到2024年，全球无人机市场规模将达到431亿美元，其中增速最快的是亚洲和北美地区。复合增长率为20.5。
 
@@ -95,7 +95,7 @@ BLDC电机还用于电动自行车/电踏车。BLDC电机具有更高的精度�
 
 在制造商开始在便携式呼吸机中使用BLDC电机之前，看护者及其家人需要在患者转移期间处理笨重且笨拙的呼吸器。而BLDC电机凭着紧凑的尺寸，使得新时代的迷你呼吸机能够像一盒巧克力一样小。此外，与有刷电动机不同，BLDC电机不易产生火花，这使其可安全用于呼吸设备等易燃设备。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xq3e4397UpqPx8DQiaHCVcPXLtLlZIANPvqicdbM0cLytArCGBGooJkibgd9kibfMvV3ibTTuicfJ16ibpwc2Z692ziadQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\BLDC电机技术瓶颈_设计方向及市场趋势_7大潜力应用市场_机会您把握住了嘛__images\img_005_db417d441416.png)
 
 事实上，BLDC电机在整个医疗保健行业中已广泛使用，包括医院病床，手术工具，PAP呼吸器（用于治疗睡眠呼吸暂停），医疗分析仪，自动分配器，假肢，临床诊断，实验室自动化，MRI机器，活检设备等。
 
@@ -105,7 +105,7 @@ BLDC电机还用于电动自行车/电踏车。BLDC电机具有更高的精度�
 
 无刷电机可以连续使用大约十年，因此对于电机控制，致动系统和制造领域的定位特别有用。由于其耐用性，无刷电机目前在全国各地用于一系列工业和制造用途，包括发电，风能，真空，塑料和钢铁生产。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xq3e4397UpqPx8DQiaHCVcPXLtLlZIANPp5hE5klEQWrZfsyPSicgvgBdQ2ynjO23QZeAxcq67P2bvby0GcMia0Iw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\BLDC电机技术瓶颈_设计方向及市场趋势_7大潜力应用市场_机会您把握住了嘛__images\img_006_a7d35f84d6a1.png)
 
   
 
@@ -115,7 +115,7 @@ BLDC电机还用于电动自行车/电踏车。BLDC电机具有更高的精度�
 
 泵可细分为气泵、水泵和油泵等，从技术的角度来说，BLDC电机是比较适合在泵类领域应用的。相比于碳刷电机和其他有刷电机，无刷直流电机具有体积小、重量轻、出力大、效率高（电机本身没有励磁损耗和碳刷损耗，消除了多级减速耗，综合节电率可达20%~60%）、可靠性高，稳定性好、适应性强、维修与保养简单等优点。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xq3e4397UpqPx8DQiaHCVcPXLtLlZIANPkFTPOj6YVSodQzqqJicNNSSjeahzQ0Zkp72k7kgjhkbOMKF6zJTJXjw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\BLDC电机技术瓶颈_设计方向及市场趋势_7大潜力应用市场_机会您把握住了嘛__images\img_007_05e91d563ce6.jpg)
 
 我国泵行业近年来一直保持着产销两旺、高速发展的状态，产能高速增长。2012年至2015年，总产量从8500万台增长至约12000万台，年复合增长率高达20%。
 
@@ -166,7 +166,7 @@ BLDC电机还用于电动自行车/电踏车。BLDC电机具有更高的精度�
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\BLDC电机技术瓶颈_设计方向及市场趋势_7大潜力应用市场_机会您把握住了嘛__images\img_008_a6c2e413e6e0.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\BLDC电机技术瓶颈_设计方向及市场趋势_7大潜力应用市场_机会您把握住了嘛__images\img_009_d84912f96aa9.png)

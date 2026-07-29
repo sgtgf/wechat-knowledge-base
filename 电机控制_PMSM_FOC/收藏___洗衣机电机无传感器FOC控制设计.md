@@ -22,7 +22,7 @@
 
   
 
-**![](https://mmbiz.qpic.cn/mmbiz/dlfgia9iaDHGLxrCwogr9kHHm3tdRvUk14n5anick0IZ00gdZE0ibt1rpboAoIuuKHA1SkCLuxLTZJ7Eic5edKEJ26w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)图1新型洗衣机的构造**
+**![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\收藏___洗衣机电机无传感器FOC控制设计_images\img_000_09729a02a5f6.jpg)图1新型洗衣机的构造**
 
   
 
@@ -46,19 +46,19 @@
 
 第一个变换称为Clarke变换，将以定子作为参照物的3轴二维坐标系转换为2轴坐标系，并保持相同的参照物。如图2所示，其中，Ia、Ib和Ic是各个相电流。  
 
-　　**![](https://mmbiz.qpic.cn/mmbiz/dlfgia9iaDHGLxrCwogr9kHHm3tdRvUk14iaJJvnVXlXk0JJHr55TZ0icToHnv1RbsseRUfYIFIiaXOfAORZOItNkAw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+　　**![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\收藏___洗衣机电机无传感器FOC控制设计_images\img_001_7605891d62c8.jpg)  
 图2 Clarke变换**
 
 此时，定子电流相量可以在使用α-β轴的2轴正交坐标系上表示。下一步是变换为另一个2轴坐标系，称为d-q轴坐标系，它会随转子磁通而旋转，通过图3所示的Park变换实现。
 
-　　![](https://mmbiz.qpic.cn/mmbiz/dlfgia9iaDHGLxrCwogr9kHHm3tdRvUk141R31XQMMD9Fp6MxgiakKaCXoLc53nAjric5oCGzVxH3X22p11fPSn9aQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+　　![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\收藏___洗衣机电机无传感器FOC控制设计_images\img_002_7d55dfde22bd.jpg)  
 图3 Park变换
 
 当正弦输入电流施加到定子上时，会产生旋转磁通。转子的速度与旋转磁通矢量直接相关。磁通矢量必须始终与转子磁极保持对齐，以使电机产生最大的转矩。
 
 图4给出了整个过程的图示，包括坐标变换、PI迭代、逆变换和产生PWM，还描述了FOC控制所需的功能。误差信号根据Id、Iq和各自的参考值而产生。Id参考电流控制转子磁通。请记住，只有在负载稳定的条件下，Id和Iq(代表转矩和磁通)才具有时间不变性。Iq参考电流控制电机的转矩输出。PI控制器的输出提供Vd和Vq，它们构成发送到电机的电压矢量。新的变换角根据由Park逆变换产生的电压和由Park变换产生的电流进行估计。
 
-![](https://mmbiz.qpic.cn/mmbiz/dlfgia9iaDHGLxrCwogr9kHHm3tdRvUk144beXibD1icnJyNdt45RKP3kv7z6BegBYVzvHGFrCwPAr464Biaict3L5Vw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\收藏___洗衣机电机无传感器FOC控制设计_images\img_003_b0743fcd54d1.jpg)  
 **图4 采用无传感器FOC算法控制的直接驱动洗衣机PMSM电机的应用框图**      
 
 **FOC算法使用新的变换角来确定下一个电压矢量的位置。**通过使用新的变换角，PI控制器的Vd和Vq输出值被旋转变换到静止参考坐标系。该计算产生正交电压值vα和vβ。下一步，对vα和vβ值进行逆变换，得到三相值va、vb和vc。三相电压值用于计算新的PWM占空比值，产生所需的电压矢量。　
@@ -85,7 +85,7 @@ dsPIC DSC系列的所有器件均提供了故障和诊断接口，它们包含�
 
   
 
-**![](https://mmbiz.qpic.cn/mmbiz/dlfgia9iaDHGLxrCwogr9kHHm3tdRvUk14iaw0ic5icYeiavcJo1ibNcgrO59ozrt2kWvO0quB2MV8jZ2n2XeHicJ1Hib1Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+**![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\收藏___洗衣机电机无传感器FOC控制设计_images\img_004_36263b17a5c3.jpg)  
 图5 基于dsPIC DSC的洗衣机的系统框图**　　
 
 输入转换器部分中的整流桥将来自墙式电源插座的交流电压转换为直流电压。根据电器的类型，可能还会有EMI抑制模块。通常，使用NTC(负温度系数)电阻来防止涌入电流。高压尖峰使用金属氧化物变阻器(MOV)进行抑制。在二极管整流桥的输出端，使用一组电容来滤除直流纹波。　　
@@ -102,7 +102,7 @@ dsPIC DSC系列的所有器件均提供了故障和诊断接口，它们包含�
 
   
 
-**![](https://mmbiz.qpic.cn/mmbiz/dlfgia9iaDHGLxrCwogr9kHHm3tdRvUk14T1KItOVn1cKZmVM24Y7NZX0yp0HFSJPZILjBU3c48MXS6rZZicqPuicQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+**![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\收藏___洗衣机电机无传感器FOC控制设计_images\img_005_7f5b84c185a3.jpg)  
 图6 在洗衣机中用作系统控制器的DSC**
 
 通用I/O用于接口开关和LCD或LED显示。在一些应用中，系统可以使用单个控制器来同时处理电机和系统控制。此外，还可以使用dsPIC DSC上的串行端口进行系统校准，以及诊断系统中的任意故障。
@@ -145,10 +145,10 @@ dsPIC DSC系列的所有器件均提供了故障和诊断接口，它们包含�
 
 [【重磅】5部门发布最新电机能效准入水平！虚标能效将被重点打击整治！](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247535908&idx=3&sn=6eec1347ec795a83176cc4f901ec55fa&chksm=cede0ce0f9a985f64ce0e07697e68c6ddb191072645aa6d8de6370bcd597bb610675d2897b02&token=66697538&lang=zh_CN&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\收藏___洗衣机电机无传感器FOC控制设计_images\img_006_31a98b8e3167.jpg)
 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\收藏___洗衣机电机无传感器FOC控制设计_images\img_007_ec5921db28d2.png)
 

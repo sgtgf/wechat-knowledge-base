@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Pzcwx6Ee2cnSEZldtxb6Gg](https://mp.weixin.qq.com/s/Pzcwx6Ee2cnSEZldtxb6Gg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sJibYo1mjjlBUy3ZgNmrzLy9yFB55M3ia3QbhTHkPD89jpIuyCLbLz50mBiaPaJlTXvbMzevSff3vsw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\扛不住了_ABB_茵梦达等电机巨头集体涨价__images\img_000_c09be187dbee.jpg)
 
   
 
@@ -29,38 +29,38 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/hXib6lHJ92DmQkRWcL7LqfkIpGp8gR12SDdclhT9o7OVcz9m6zE7SUMRYHYUxe7rej4ov4I6taGOiaupLpbzL9FQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\扛不住了_ABB_茵梦达等电机巨头集体涨价__images\img_001_94365b68e538.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/hXib6lHJ92DmQkRWcL7LqfkIpGp8gR12S9qzGglGUIfYtLvYvGKfsffo3UaMgMofGUibVTvbzOVEoIdZykR88IiaA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\扛不住了_ABB_茵梦达等电机巨头集体涨价__images\img_002_1e4763fc1791.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/hXib6lHJ92DmQkRWcL7LqfkIpGp8gR12S2og8hVJcWu9xFpsviaCLPveJlUpv5cYPQicVib0cn7AFp7vgXONQGniaGQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\扛不住了_ABB_茵梦达等电机巨头集体涨价__images\img_003_eb040a293b14.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/hXib6lHJ92DmQkRWcL7LqfkIpGp8gR12S1oR7Oa673Boj4AciaPBw9TUKGauXufIgDDLEpsTiadWM4ibY7uXulOKRA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\扛不住了_ABB_茵梦达等电机巨头集体涨价__images\img_004_1ee7ac57eb95.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/hXib6lHJ92DmQkRWcL7LqfkIpGp8gR12SIpb8JH8C7WqicXAWJOx8ed61X6ObG4GW1h8GGT61IBRfeoxXuwTegHg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\扛不住了_ABB_茵梦达等电机巨头集体涨价__images\img_005_9b41cfb2bc81.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/hXib6lHJ92DmQkRWcL7LqfkIpGp8gR12SA2ECbH5jtsAIY0CatVthwssL6SY1rQlnqr54y549PxJkmswofTU1gQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\扛不住了_ABB_茵梦达等电机巨头集体涨价__images\img_006_b7a0462f1ae2.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/hXib6lHJ92DmQkRWcL7LqfkIpGp8gR12SKQiaRdhobTtheHiaQshB9ibiaOYEpjMnFhFCCZ0Mic9cFHiau8YquX6d0CXA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\扛不住了_ABB_茵梦达等电机巨头集体涨价__images\img_007_beac641f031e.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/hXib6lHJ92DmQkRWcL7LqfkIpGp8gR12SbngHtfuYibAgSDwO5FZRo1o9N4lCDZUhBFNsMyVaVlVaFw9z1yFib0fA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\扛不住了_ABB_茵梦达等电机巨头集体涨价__images\img_008_deb71a0e8158.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\扛不住了_ABB_茵梦达等电机巨头集体涨价__images\img_009_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\扛不住了_ABB_茵梦达等电机巨头集体涨价__images\img_010_e8e68bdfc1b3.png)

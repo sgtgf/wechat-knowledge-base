@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0ue8kGZ3FKfShpibHOiaothcRQKbhTTNOEv3kWYZezoNcviaMz9rdlGqfEUctXcfIXne5256xHpplJNw/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t9SFhkt1HAm4WT89Y7MgPIcE263x4dAC4wt5Fiao2obORomDjicvEF3U1v13KYFKjtmZTtJVggnDCA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\格力电器早有布局_特斯拉研发下一代电机燃爆A股__未卜先知_还是_未雨绸缪_呢__images\img_000_79cd99eb9a22.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\格力电器早有布局_特斯拉研发下一代电机燃爆A股__未卜先知_还是_未雨绸缪_呢__images\img_001_3d78c7467519.png)
 
 **
 
@@ -40,7 +40,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VuZKe64g19fdRR3mziajLpbOOOW79hnXmvt3tEpkFmtqMllfibRWEunsvFaEJNPO3yCsPYkibmqW9nxN7Lka7J23A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\格力电器早有布局_特斯拉研发下一代电机燃爆A股__未卜先知_还是_未雨绸缪_呢__images\img_002_df531a97a25b.jpg)
 
   
 
@@ -68,7 +68,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VuZKe64g19fdRR3mziajLpbOOOW79hnXmHeD0uIGIRk1ux695DfXiaT0fVPCVt0gicIPZSApzecNt63n9oichuJhSg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\格力电器早有布局_特斯拉研发下一代电机燃爆A股__未卜先知_还是_未雨绸缪_呢__images\img_003_3b52a7b192c7.jpg)
 
   
 
@@ -80,7 +80,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VuZKe64g19fdRR3mziajLpbOOOW79hnXmxW4rtI6r4225K3ekBjQ3cAueogUAvlcFH7mwsJxWcray7nJB3E09uw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\格力电器早有布局_特斯拉研发下一代电机燃爆A股__未卜先知_还是_未雨绸缪_呢__images\img_004_8e1ec00c4e1f.jpg)
 
   
 
@@ -116,7 +116,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VuZKe64g19fdRR3mziajLpbOOOW79hnXmdtGFzVdBtRlu8bhicAeicW7OvpsPQsSUwf3taPobdiaVHuic5QDpTd47bg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\格力电器早有布局_特斯拉研发下一代电机燃爆A股__未卜先知_还是_未雨绸缪_呢__images\img_005_4af82e903252.jpg)
 
   
 
@@ -132,7 +132,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VuZKe64g19fdRR3mziajLpbOOOW79hnXmkCAcpKzI8P4jic2bBA7C7Lc5ib2aUh1DibyZAln9ibryicEUttJdl2mpqIg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\格力电器早有布局_特斯拉研发下一代电机燃爆A股__未卜先知_还是_未雨绸缪_呢__images\img_006_f63b9fa172b4.jpg)
 
   
 
@@ -148,7 +148,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VuZKe64g19fdRR3mziajLpbOOOW79hnXm39mJZ86mjZn3rxwBC2QYEhcnw233DoBCy2icaVLmj71IXPrSfPpHSicw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\格力电器早有布局_特斯拉研发下一代电机燃爆A股__未卜先知_还是_未雨绸缪_呢__images\img_007_f36427490ec1.jpg)
 
   
 
@@ -176,7 +176,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VuZKe64g19fdRR3mziajLpbOOOW79hnXm1ibsx5S8qlsgRrtQOeD5YKEFXfk1ibC3sGRbziceiaiciao1Aw9Vib6UyGULA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\格力电器早有布局_特斯拉研发下一代电机燃爆A股__未卜先知_还是_未雨绸缪_呢__images\img_008_c821324e5ed4.jpg)
 
   
 
@@ -192,7 +192,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VuZKe64g19fdRR3mziajLpbOOOW79hnXmgRjXNl0L9ECSdNSLxQxDfY0kG3lLaN0AXGAnoumQgibNsmcY7mn7CHw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\格力电器早有布局_特斯拉研发下一代电机燃爆A股__未卜先知_还是_未雨绸缪_呢__images\img_009_fe12517396af.jpg)
 
   
 
@@ -236,10 +236,10 @@
 
 [【重磅】5部门发布最新电机能效准入水平！虚标能效将被重点打击整治！](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247535908&idx=3&sn=6eec1347ec795a83176cc4f901ec55fa&chksm=cede0ce0f9a985f64ce0e07697e68c6ddb191072645aa6d8de6370bcd597bb610675d2897b02&token=66697538&lang=zh_CN&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\格力电器早有布局_特斯拉研发下一代电机燃爆A股__未卜先知_还是_未雨绸缪_呢__images\img_010_31a98b8e3167.jpg)
 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\格力电器早有布局_特斯拉研发下一代电机燃爆A股__未卜先知_还是_未雨绸缪_呢__images\img_011_ec5921db28d2.png)
 

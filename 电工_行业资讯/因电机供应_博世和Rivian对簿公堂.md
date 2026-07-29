@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/waQBBaUYcQ5g8SjzUSzIpQ](https://mp.weixin.qq.com/s/waQBBaUYcQ5g8SjzUSzIpQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sMbBonyabbMJFFicNSPBJZxjIlcnpkUdwCQq9j2FX5HEZibS1X99sloHwDNtVbw2qc32ibmbdcVpaxQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\因电机供应_博世和Rivian对簿公堂_images\img_000_2a1bf02851b1.jpg)
 
 
 来源：SMM电机资讯
@@ -63,7 +63,7 @@ Rivian与博世之间的案件，给我们提供了一扇了解困扰Rivian的�
 Rivian指责博世在电机供应合同中存在“鲁莽的失误”，并指责博世影响了Rivian的产量，导致2022年比计划少生产了3万辆汽车，仅生产了24337辆汽车。Rivian总部位于加利福尼亚州欧文市，在密歇根州普利茅斯设有一家工厂。
 
   
-![](https://mmbiz.qpic.cn/mmbiz_png/aSdqrB9ibm0UcYyYlWmUGI40lsYf3YrUme9UI3vMABW7uFFUxnrWcrxS09S5ZF6ORwl5jfczicCrcBFMGSgX3dFg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\因电机供应_博世和Rivian对簿公堂_images\img_001_4ff2ba795e18.other)
 
   
 
@@ -84,7 +84,7 @@ Rivian公司和博世之间的相互指控是在2024年7月份开始的，当时
 该诉讼称：“鉴于这些重大投资以及Rivian是一家从未制造过汽车的电动汽车初创公司，如果Rivian提前终止该计划，Rivian应向博世赔偿其未摊销的全部成本。”
 
   
-![](https://mmbiz.qpic.cn/mmbiz_png/aSdqrB9ibm0UcYyYlWmUGI40lsYf3YrUmkN4CIaNC7p6KXTquoQCtjrDHbnja72A42sSoucgicwXIdL3WjI8xTiaw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\因电机供应_博世和Rivian对簿公堂_images\img_002_184ddddf4fc9.other)
 
   
 
@@ -99,7 +99,7 @@ Rivian一直在设计自己的电机和驱动单元——“Enduro”系统，�
 博世指责Rivian“暗中”计划用Enduro系统取代博世的所有业务，尽管Rivian告诉博世，该系统将与博世的系统并行运行或在后续车型上使用。
 
   
-![](https://mmbiz.qpic.cn/mmbiz_png/aSdqrB9ibm0UcYyYlWmUGI40lsYf3YrUmBtibkQjm0apic6MLt5uc8H1k41MeMxEicwG5kSia6cTfibibxaGhlYLu1hVw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\因电机供应_博世和Rivian对簿公堂_images\img_003_cb8c7ba0a4c8.other)
 
   
 
@@ -144,7 +144,7 @@ Rivian反诉称：“Rivian车辆设计的核心是四个电机。为了为这�
 该电动汽车制造商称，博世同时向许多供应商夸大承诺，导致其无法交付产品。诉讼称：“博世公司进行了一次有计划的赌博，对多家初创电动汽车公司夸下海口，其理论是至少其中一些公司很快就会倒闭。”
 
   
-![](https://mmbiz.qpic.cn/mmbiz_png/aSdqrB9ibm0UcYyYlWmUGI40lsYf3YrUmq8DE7amAE7ib3eIeNUpgKiadwSQBrPHr6H3zvbreSIia1s6zYNuvQV0Uw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\因电机供应_博世和Rivian对簿公堂_images\img_004_02312e3e3902.other)
 
   
 
@@ -163,7 +163,7 @@ Rivian反诉称：“Rivian车辆设计的核心是四个电机。为了为这�
 对于博世声称劣质“A形框架”导致电机生产问题的说法，Rivian表示，在出现该问题之前，交货已经延误，并称这是“博世失败的方便借口”。Rivian还表示，该公司已经“花费了数百万美元”聘请了另一家A形框架供应商。
 
   
-![](https://mmbiz.qpic.cn/mmbiz_png/aSdqrB9ibm0UcYyYlWmUGI40lsYf3YrUmf5cR9sXJxKNoWSHGWqZNicDtelye34taicEwmiaCibnEPgrVjlt6z0QHWA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\因电机供应_博世和Rivian对簿公堂_images\img_005_e1b103651d16.other)
 
   
 
@@ -197,11 +197,11 @@ Rivian反诉称：“Rivian车辆设计的核心是四个电机。为了为这�
 # [华为都“活不下去了”！电机中小企业未来三年要怎么过](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247575025&idx=1&sn=800a15fe2572766ef1632371ee7475f2&chksm=cedfe435f9a86d23f050893e070245640fbc59fce832cb6264e6ecf8b6c43c0fe9a0c6565a38&scene=21#wechat_redirect)？
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\因电机供应_博世和Rivian对簿公堂_images\img_006_9967d1607b24.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\因电机供应_博世和Rivian对簿公堂_images\img_007_fb0ff5197498.png)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tMzMevYpPAySDyFiaafVt6hlnBk2MabwiahKl2h63picic7sVYg0g3DojZDAtHn0rMCIUhye6HKw5rdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\因电机供应_博世和Rivian对簿公堂_images\img_008_5591b15b40b7.png)

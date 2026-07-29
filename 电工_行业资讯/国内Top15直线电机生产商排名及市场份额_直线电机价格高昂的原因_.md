@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/EsVaMzsGFf3w5LbhRWd38g](https://mp.weixin.qq.com/s/EsVaMzsGFf3w5LbhRWd38g)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vgs97DnCfgz39UztTsg6cibjuZhQsgaWNI29gSN1lTTVrdn7vGL9SSqn8HSCTT9jC2j0ugEvfFkRg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\国内Top15直线电机生产商排名及市场份额_直线电机价格高昂的原因__images\img_000_ea0e30bb5f34.jpg)
 
 
 来源：电机通
@@ -15,13 +15,13 @@
 
 根据QYResearch最新调研报告显示，预计2030年中国直线电机市场生产规模将达到3.01亿美元，未来几年年复合增长率CAGR为14.1%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PefnbmQ7K8TDA4u9Be0ibr5kibQfA4rVAweO5UKg1RWkeBfHXMvteeq6IvfF6RibXicFCBElVhFAjB6Z9q8J0zOERw/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\国内Top15直线电机生产商排名及市场份额_直线电机价格高昂的原因__images\img_001_236173f7787e.png)
 
 根据QYResearch头部企业研究中心调研，中国范围内直线电机生产商主要包括深圳市汇川技术股份有限公司、深圳德康威尔科技有限公司、深圳市大族电机科技有限公司、上银科技(中国)有限公司、广州市昊志机电股份有限公司、江苏群科智能科技股份有限公司、横川机器人(深圳)有限公司、东莞市智赢智能装备有限公司、安川电机（中国）有限公司、苏州灵猴机器人有限公司等。2022年，中国前十强厂商占有大约385.0%的市场份额。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PefnbmQ7K8TDA4u9Be0ibr5kibQfA4rVAw6RpvVBrSVVcmic7RUeI67kicFlDUHEWoV3XG7Ync6Mdp9eFicfXKA24iaw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\国内Top15直线电机生产商排名及市场份额_直线电机价格高昂的原因__images\img_002_85cc69efbb3b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PefnbmQ7K8TDA4u9Be0ibr5kibQfA4rVAwpmqZYqJGXPK8aiaErdgiasY2ibf4pyqDZAJZzFTCuYAQ0KnFYkJ7neAUw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\国内Top15直线电机生产商排名及市场份额_直线电机价格高昂的原因__images\img_003_d7f0f1780fbb.png)
 
 就产品类型而言，目前Flat Plate Type是最主要的细分产品，占据大约76.7%的份额
 
@@ -67,11 +67,11 @@
 # [华为都“活不下去了”！电机中小企业未来三年要怎么过](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247575025&idx=1&sn=800a15fe2572766ef1632371ee7475f2&chksm=cedfe435f9a86d23f050893e070245640fbc59fce832cb6264e6ecf8b6c43c0fe9a0c6565a38&scene=21#wechat_redirect)？
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\国内Top15直线电机生产商排名及市场份额_直线电机价格高昂的原因__images\img_004_9967d1607b24.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\国内Top15直线电机生产商排名及市场份额_直线电机价格高昂的原因__images\img_005_fb0ff5197498.png)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tMzMevYpPAySDyFiaafVt6hlnBk2MabwiahKl2h63picic7sVYg0g3DojZDAtHn0rMCIUhye6HKw5rdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\国内Top15直线电机生产商排名及市场份额_直线电机价格高昂的原因__images\img_006_5591b15b40b7.png)

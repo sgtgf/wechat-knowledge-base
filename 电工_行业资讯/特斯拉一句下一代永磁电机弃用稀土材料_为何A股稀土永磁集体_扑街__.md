@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t9SFhkt1HAm4WT89Y7MgPIcE263x4dAC4wt5Fiao2obORomDjicvEF3U1v13KYFKjtmZTtJVggnDCA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\特斯拉一句下一代永磁电机弃用稀土材料_为何A股稀土永磁集体_扑街___images\img_000_3d78c7467519.png)
 
 **
 
@@ -26,9 +26,9 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/yxeoXWTlViaeCykslpohYX5IhqMjYqEyTuNklu19muuuLPRiaFMQLwv9gjsabzJwE5Jnl8bCP9tK0yTspzwSo7mg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\特斯拉一句下一代永磁电机弃用稀土材料_为何A股稀土永磁集体_扑街___images\img_001_5ee646cf8572.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/yxeoXWTlViaeCykslpohYX5IhqMjYqEyTy2ic2XAiaicp4LiaCSnycKibQ6ECBXZENcgd4kuW89BNLPsCWgQUCl9eXeQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\特斯拉一句下一代永磁电机弃用稀土材料_为何A股稀土永磁集体_扑街___images\img_002_22c8f3380ef5.png)
 
   
 
@@ -36,7 +36,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/yxeoXWTlViaeCykslpohYX5IhqMjYqEyT8GSmSVWB7DtT2xibpBsgTLqnIF9ibg0adVhgcp1xjt0gEuGdHrPvd53w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\特斯拉一句下一代永磁电机弃用稀土材料_为何A股稀土永磁集体_扑街___images\img_003_9066c5679a83.jpg)
 
   
 
@@ -114,10 +114,10 @@
 
 [【重磅】5部门发布最新电机能效准入水平！虚标能效将被重点打击整治！](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247535908&idx=3&sn=6eec1347ec795a83176cc4f901ec55fa&chksm=cede0ce0f9a985f64ce0e07697e68c6ddb191072645aa6d8de6370bcd597bb610675d2897b02&token=66697538&lang=zh_CN&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\特斯拉一句下一代永磁电机弃用稀土材料_为何A股稀土永磁集体_扑街___images\img_004_31a98b8e3167.jpg)
 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\特斯拉一句下一代永磁电机弃用稀土材料_为何A股稀土永磁集体_扑街___images\img_005_ec5921db28d2.png)
 

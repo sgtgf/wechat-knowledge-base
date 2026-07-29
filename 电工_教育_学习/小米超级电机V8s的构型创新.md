@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/-Cu\_Nrp5bu3tUu4ZheILjg](https://mp.weixin.qq.com/s/-Cu_Nrp5bu3tUu4ZheILjg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0s52G6UU2VicLvdgSzP3oMJmlWFrQKy6eKucRu0CxZHCZfNWkDOD1dhibbjnqcgSWPlib8Odjq2vlz2A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_000_0b05bad4301d.jpg)
 
 
 来源：懂车老王official
@@ -31,7 +31,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJGD03Gpnjr0iaShyENm7JdqYAs0hPPXBntciabxkqe9lOxNcmPCvyayzA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_001_9062ebef5f4a.jpg)
 
   
 
@@ -45,7 +45,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJyGjn1ZF05RicHSplicerrByIicjRe17rEIDTwVghbEFNhicDTghG5H1lew/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_002_db68a8d75e80.jpg)
 
   
 
@@ -53,7 +53,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJvfljjD15pk5sdDtbib07Me3Kgx5iaZMQvhicEBftxicue6GtRKnNMrZgUQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_003_de67984f3006.jpg)
 
   
 
@@ -61,7 +61,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJ6T5AwHMdSKdtHUQXTks8Hh9C6IQ0iakcea2vwJlPlNY4saa140Sib9bg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_004_03226902618c.jpg)
 
   
 
@@ -75,7 +75,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJjpXAicuW4dJnPunewpHU7iaBKHibshIE5Mia3fibPiawia1PqfwpOa0h2bh3A/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_005_440b43383401.jpg)
 
   
 
@@ -83,7 +83,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJvHQibOT1B3ZicibZ1gpoVRZGxibEsJG9kxRvHibhG9LjE2977YTxeLV1a9g/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_006_0d61cc7f55e2.jpg)
 
   
 
@@ -97,9 +97,9 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJH6promhmyLUPbNQfrcicA6FUd9aSXYptWF7ibuqdAhWibcPlGkXPkEI0Q/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_007_6029f31e5fb7.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJ925vMa9DBMOhWz95fShW5XNWErnAPeXNibj6QJvdIibpAqPthl7PfDjQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_008_77fb2b7a6107.jpg)
 
   
 
@@ -123,7 +123,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJV3ickJqOZibxkWpaibSz1qx9ruCYLZTTnLDSxlmKibrFuvJET4LiaVhzLQw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_009_5546f762279b.jpg)
 
   
 
@@ -131,23 +131,23 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJNl6Nsr4MzLTBzVOx3kjQVg5xgHHz3ufIvSGueia6Ktv1bOQLBmKwBAA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_010_7b1fda5cb47c.jpg)
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJ45vGzP8UNUwssDZHMeoiaibWJTRqvB20J3iaEphwA94Fq06WYeHumAv1A/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_011_6a2aaf5e110d.jpg)
 
   
 
 目前解决方案有消除电势差和轴承绝缘两种，前者，是让轴承内外圈的电势与端盖一样，怎么做呢？目前大多数方案就是加入一个阻抗较低的导电滑环和弹片。其中滑环内圈随着轴转动，外圈不动，通过导电弹片使得轴的电势与端盖相同，理论上就不存在轴电流，但实际上还是会有，因为轴与端盖不可能做到0阻抗。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJjA7CIQiakVwfcuAekngiaQEWfG6dNHWSS7Isl5FDF8ALBj9vfRVbYuBw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_012_4b6cc11b0600.jpg)
 
 除了消除电势差，直接中断轴承电流是更加靠谱的，这就要靠陶瓷轴承了，因为陶瓷根本不导电，轴电腐蚀能得到根除，缺点就是成本会贵3-5倍。在这个领域有这么几家公司非常厉害，老牌的有SKF、NSK还有Schaeffler，国内的有天马、人本（C&U）、洛轴，这些大家记住了，以后要考。
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJagL6fSA5ibxZY40lPMlUEClM51CVImrBBTGajczwwFB02Zb6UYB1uXQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_013_9d721d191047.jpg)
 
   
 
@@ -155,7 +155,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJibKSibicfDEtDHo14poHnbNMghicqqsEBT6FFIGyvhoCViapTZnBl2FuA5w/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_014_44cd49779acc.jpg)
 
   
 
@@ -169,11 +169,11 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJgof4ibw9pQ5yqaRur5vibicnT45dbrMTB8M8x37ibrPlRAW6oQRHQ9X4Tw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_015_b8eed075cf3d.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJkVUwP4ceeLCicBrx9bWmgpt0mFiavtiajibgE71bjLteKB5jGibeXQ7V1kg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_016_b5938d359873.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJ4YZtZ6xIlGYRPpK7kGuAr0F6ZACQ7ib3IKjwVccMWRMp7qf1GvKyHJQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_017_1c9782e35d7f.jpg)
 
   
 
@@ -189,7 +189,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJCmFstMicVYFg8VN42YY2U8qcAU0NscCPWWltmZEteSKXJIm3jbu8MEA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_018_f00adf1ef2a0.jpg)
 
   
 
@@ -201,9 +201,9 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJ1owExUkicKLaOIqbInpddoIsQtGwmtXgprvCgCcLfJFBjJ8W092blmg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_019_b2c8de6ef960.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJ3DGvzIIZ3vES3J7goIVsFzlOEhwGfZc5teSrSfEL4aYtXkkjXAHQcA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_020_7344ee8888f7.jpg)
 
   
 
@@ -211,7 +211,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJsn2wbPqlqD1G8OTsl1Cw9ZNl72h5Q0HJpiav3ZxbkbbZWaJkDECS2Vg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_021_51deab907aef.jpg)
 
   
 
@@ -225,9 +225,9 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJSHruaqTC3icRnZuzYSNqFKFjn8yBwdfGDusJqMv7tCVDL5mYHe29K8Q/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_022_17152020811e.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJrDCvZBqFkxxnHiccczIoSaqQf2DgXAohUr9Ac9qbZHploj0Hj0KTVvA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_023_c9e27234c176.jpg)
 
   
 
@@ -237,7 +237,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJQOadyibDY0CrTqlUtEJAshiak1ZGuQBCiaNV3RIzkfJb6iaV1M8B2buv1A/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_024_a1128495b253.jpg)
 
   
 
@@ -245,9 +245,9 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJZ07kPKR02EwNMX9F90BnpkPAbwnu7WYAox08zptxTGTibzLvIo8B8KQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_025_3ad293ab2411.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJ09PtNiblQj6phZ40JpiaTzUibxQ90aiaQf0qAphmPGibFRb1UpNF8iaiaHdOA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_026_f550b1562394.jpg)
 
   
 
@@ -259,7 +259,7 @@ V8s的定子还有一个地方值得讲，就是冷却，目前主流电机基�
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJ4iaqUjgXUiciaia4zMvN4dBqXtTjCzOFRARCbI1yZj8G55zQ9NfUTaVTHg/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_027_7731833dcf13.jpg)
 
   
 
@@ -267,11 +267,11 @@ V8s的定子还有一个地方值得讲，就是冷却，目前主流电机基�
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJdUqLZhiaLyvwmRfO1l29kNx3V8sbT4lGNAIcT21HvY8FhjlpNibia5KSQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_028_da330e757153.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJjJ6micO4l3wAwD2sHGL1V6ylQicSfXPRicyP2oqs8ibr1yPibqgdiauFm7lw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_029_5e9806d33f14.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJZmHiawlENX1xB8gbeVwpTK7lA9E60vv8MtQ6UVfN287HZd597NIg6sw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_030_968784f13525.jpg)
 
   
 
@@ -289,9 +289,9 @@ V8s的定子还有一个地方值得讲，就是冷却，目前主流电机基�
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJlxapticLTVQMwJcorPKiahoNQB2nuEZdtqrXnA0waywytH1xS4zAevOA/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_031_ef512aa79346.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJ05XWR74zKNW8DVNQibtB3Vc9kZNNyPeLibVibyhz7Elprc5QhgEGzNV7A/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_032_469b4aeaa46f.jpg)
 
   
 
@@ -303,7 +303,7 @@ V8s的定子还有一个地方值得讲，就是冷却，目前主流电机基�
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/DpeVq9ia7Ft9PAyibCv3jVsVCXDpFmdTCJc21HWmkEc1uLSD2K5h7mqCFZabVDZ7icyFvWwZPPx9dhnXWGntxBXyw/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_033_f003e6b5ea07.jpg)
 
   
 
@@ -337,17 +337,17 @@ V8s的定子还有一个地方值得讲，就是冷却，目前主流电机基�
 # [华为都“活不下去了”！电机中小企业未来三年要怎么过](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247575025&idx=1&sn=800a15fe2572766ef1632371ee7475f2&chksm=cedfe435f9a86d23f050893e070245640fbc59fce832cb6264e6ecf8b6c43c0fe9a0c6565a38&scene=21#wechat_redirect)？
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_034_3ccc50bba2ef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88HJkEmpYqlKiaC4tFrnTia7L7pjBnCvUZtV9MV1HRf7nRn8kPs7bKsmQQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_035_bcb57d883039.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_036_1862cf7fbcf8.jpg)
 
 扫码报名了解变压器会议
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6OxT5YrmvxSnbaaDeXF4bqovY9IfrC6SxJMBQtp4dnM1tPnlKziaSEUguw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_037_ccd55559c531.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6Ox2gll6RtjpK3FFYmgTBOGo4FeTnVZtkL7ZlKEclXqTtZ7vtFY28R0ew/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_038_56b163a836a8.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\小米超级电机V8s的构型创新_images\img_039_dac57d0b3024.png)

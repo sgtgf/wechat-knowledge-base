@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Ff5-sLyUuNB6JYk0RtxlnA](https://mp.weixin.qq.com/s/Ff5-sLyUuNB6JYk0RtxlnA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tx2UUQMiaekzttE3Wyxwxqichzmk6TPhblJtseMFwghh73Pa6c70fwC3cjxBB0SSibjlQnuDXqr3cVA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\bldc电机和dd电机区别是什么_images\img_000_fce3ac30e4c2.jpg)
 
   
 
@@ -17,7 +17,7 @@ BLDC(无刷直流电机)和DD(直接驱动电机)是两种不同类型的电机�
 
 本文将详细介绍这两种电机的特点、优缺点以及它们在不同领域的应用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/qN3UYbqW4yibaQLIheibiaWAjsq2miaWjSeNib1JQX5PHDvR0MOhQiccQuaahJ8UHM47nh9DMYhRfyB1GbRKjxmhAs5w/640?wx_fmt=png&from=appmsg&wxfrom=5&tp=wxpic&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\bldc电机和dd电机区别是什么_images\img_001_f159b88a0b91.png)
 
 **1\. BLDC电机(无刷直流电机)**
 
@@ -108,7 +108,7 @@ BLDC(无刷直流电机)和DD(直接驱动电机)是两种不同类型的电机�
 　　BLDC电机和DD电机各有优缺点，它们在不同的应用领域有着各自的优势。BLDC电机以其高效率、低噪音、良好的控制性能等特点，在工业自动化、家用电器等领域得到了广泛应用。而DD电机以其高精度、高刚性、高响应速度等特点，在数控机床、半导体设备等领域具有优势。
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\bldc电机和dd电机区别是什么_images\img_002_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\bldc电机和dd电机区别是什么_images\img_003_e8e68bdfc1b3.png)

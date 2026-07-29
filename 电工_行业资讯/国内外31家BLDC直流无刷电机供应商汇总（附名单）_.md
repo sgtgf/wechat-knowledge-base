@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/2AMwdZhcyxok7JCHBWx-lg](https://mp.weixin.qq.com/s/2AMwdZhcyxok7JCHBWx-lg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0s52G6UU2VicLvdgSzP3oMJmlWFrQKy6eKucRu0CxZHCZfNWkDOD1dhibbjnqcgSWPlib8Odjq2vlz2A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_000_0b05bad4301d.jpg)
 
   
 
@@ -17,7 +17,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHmAzffO7lGkicbwYTE1tXQgdWx5Q7DUuo1NlchMIEk9o4m5JL7JLZIVw/640?wx_fmt=gif&from=appmsg&wxfrom=13&wx_lazy=1&tp=wxpic)理想L9智能座椅
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_001_e7bc1da41a9e.gif)理想L9智能座椅
 
   
 
@@ -29,7 +29,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibbicCoiaAXiaZAS9ricwgMdGsWLJtUVn96wQs2GhX9CTiaOT1xnYEARvrqsFaf2wkHKibk91OTPuXP17XSug/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_002_5e915efd8b7c.png)
 
 图源搜狐智能建筑电气技术杂志
 
@@ -77,7 +77,7 @@
 
 _https://www.fdm.com.cn/_
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHlrGJ9fyngricUiaFLIgTQuQFFJFrtR7YmwH4MUN1SYSkM9z9IiaKSqm8Q/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_004_97d325c66094.png)
 
 ###   
 
@@ -89,19 +89,19 @@ _https://www.fdm.com.cn/_
 
 https://www.moons.com.cn/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHibnoIE2dYRBM0JHH3swtd59RhEeEnnEOXTnGUAhnuwl8icgObmYej7lw/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_005_2da6949fc615.jpg)
 
   
 
 鸣志是一家运动控制领域综合制造商。公司成立于1994年，20多年来，始终秉持对专业应用技术和国际化科学管理手段的追求。从工厂自动化专业部件到智能LED照明驱动器，从大型工厂设备的智能管理系统到汽车通信设备的控制执行机构，致力为客户提供各种解决方案，不断追求创新和高品质。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHOgrzaUYqcFP56J8hzgdM73sc5IVNNXicwAzPKOEAwuibZLEOYEubg5FQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_006_2eb1178ac513.png)
 
 ### **3. 江苏雷利电机**
 
 https://www.czleili.com/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHGMqnV886Wzic9gnIWfsbSgbcvMvicj3S7I5pmUJicJYS6ea05JV1xaKQA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_007_21caeb4cb5d4.jpg)
 
   
 
@@ -113,19 +113,19 @@ https://www.czleili.com/
 
 https://www.johnsonelectric.com
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHuOJWgebUsaicKc5hZFypN2dEckXycPibTTkF6C0EvnJUVUia7H5qfRMvg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_008_35bff15fb838.png)
 
   
 
 德昌电机控股有限公司(港交所：0179,OTCBB：JELCY) 是一家成立于1959年的工业公司。德昌电机是香港第一家制造电机的公司，巅峰时期是全球最大微型马达生产商，该公司在1984年7月11日于香港交易所上市。它的主要业务是设计、制造及经销微型马达产品。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHQIAIjHPRhClOWpSenvBSTIwsibmW8ulRW2ib2Drbt8SWayAJDISMXdiaw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_009_30ba9f6badc6.png)
 
 ### **5. 捷和电机**
 
 https://www.cclmotors.com
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHiaZU9Rq0TyAzKrY2au5uprWEIndXial0lyF7AHiaemSuNA3hrpa4CmzAA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_010_f4397a43799f.png)
 
   
 
@@ -141,7 +141,7 @@ https://www.cclmotors.com
 
 http://www.motorpump.com/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHSIMTTld6jcfuqSrTw29O4zFuib7ib4NEQwgEo1k2RvMVJxbJ976pWMXg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_011_4d652d050d86.png)
 
   
 
@@ -157,7 +157,7 @@ http://www.motorpump.com/
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHHR8IOBLvBYbiadhcfrtQeksRwx2y3uWjej1f4Ezr4szSuYrG58o84FQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_012_8fc09da2cd01.png)
 
 ### 
 
@@ -165,7 +165,7 @@ http://www.motorpump.com/
 
 https://www.videtech.com/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXH6LcQibVciblaaW4zh4FCSw5dVStQVqA37JOic6mVjtU77HqvH1CICvftQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_013_8cc4cf082171.png)
 
   
 
@@ -177,7 +177,7 @@ https://www.videtech.com/
 
 http://shanbomotor.com/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHYXVR5LRSGiacDvltss6zzBNDG6ibwctZDuWlia25AD0Y81ibzuias2kPibEw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_014_851872b94b37.jpg)
 
   
 
@@ -187,7 +187,7 @@ http://shanbomotor.com/
 
 山东山博集团各企业生产的微电机、车辆电机、齿轮减速机、交流电机等产品,广泛应用于军工、航天、航空、交通、能源、矿山、冶金、机械、轻工、纺织、医疗器械等各个领域。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHMssbrcV93C0ArrJGiaxTOHUib8wHeCXzCFZMz5qJSwN2hQDnyNB0d6fQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_015_d56fa864829a.png)
 
 ###   
 
@@ -195,7 +195,7 @@ http://shanbomotor.com/
 
 http://3xmotion.cn/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHJiblXNRf27X5WVTVTocuaTOsqS1icXn3wic7KFOcYibbKwz1VseNocxS2Q/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_016_394ebfbbe1b1.png)
 
   
 
@@ -207,7 +207,7 @@ http://3xmotion.cn/
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXH7wtBsiaOhG7xbXwKZaibic9ZgKnYFPHQVdcgCnIZiauibMkTeIKMG3no27w/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_017_62cf2d77f5cf.png)
 
 ### 
 
@@ -215,7 +215,7 @@ http://3xmotion.cn/
 
 https://www.hengdrive.com/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHo6nogKwR65d4sfKlWfAib9BubN64iaoLcMVksuTsxC51CYEoZ3WBL7Tg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_018_877dcf9b83b7.png)
 
   
 
@@ -231,7 +231,7 @@ https://www.hengdrive.com/
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHUe39Lc0T0ChKtNE9Pn6MX1GN7LgzyDLG3NWvDf1zlQBcNLLfSj1icfA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHdw6qibchicorBna7YkuHz9qDOqx3uiaYOIrdmsm9GGITLUd3f1DeyVr1A/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_019_6827e0188dee.jpg)![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_020_c14a23cf1bb8.jpg)
 
 ### 
 
@@ -239,7 +239,7 @@ https://www.hengdrive.com/
 
 http://www.nbjingcheng.com/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXH2CSZ5u5H2vXogNt71icmvden81b8DWN6DRNJpHwO3ydeAAQB5Ria2LzA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_021_cd2790a12a8e.png)
 
   
 
@@ -255,7 +255,7 @@ http://www.nbjingcheng.com/
 
 http://www.constarmotor.com.cn
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHTEBrjka1tqZwWliaddd3pDFicics1tYnFfjyk05aiaowxIhx6GTIAolqMg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_022_d08f331621b0.jpg)
 
   
 
@@ -265,7 +265,7 @@ http://www.constarmotor.com.cn
 
 激光雷达在智能汽车应用中主要作用是测距，大多数激光雷达传感器会连接到一个旋转它们的驱动马达，激光雷达的视场完全取决于电机转动它的角度。仓兴达高精密无刷电机可满足激光雷达对电机高精度、长寿命的要求。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icrlIsZGPBvwcJxu3VgQmwtFo3m6EZPj1bZmxCv5KVtiaicssiarAosKiarmTmgiaicibjEGR3s9KoJl8kQCsDfdayo5gA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_023_9636561f16f4.jpg)
 
 ### 
 
@@ -273,7 +273,7 @@ http://www.constarmotor.com.cn
 
 http://cn.jkongmotor.com/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHSza9kIKofOEUkefVWnpibYaRz72X21xnHOOgyN8VeJsnGuqV3949IVA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_024_72a4efaeb56f.png)
 
   
 
@@ -287,13 +287,13 @@ http://cn.jkongmotor.com/
 
 精控电机向主要的制造业公司出售了自动化、医疗和护理设备、3d打印机、包装设备、信息技术、家用电器产品。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHqoP7vF3Nm925bfsxRCCKXHhEbpU56SHiaJG1ZbGmv9fYib3Uc0gfjyqQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_025_13959296716d.png)
 
 ### **14\. 深圳市金茂展微电机有限公司**
 
 https://kinmore.com.cn/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHeDoEI23WJISVPiaIfanbyTay0wichdBcFYWPAgcI9M0SGibQMSia1bLwFw/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_026_3841a3161f67.png)
 
   
 
@@ -303,13 +303,13 @@ https://kinmore.com.cn/
 
 金茂展电机多年以来大力深耕于汽车零配件的研发与生产，目前在汽车零配件领域的应用主要有ETC电子节气门，EPB电子驻车系统 , 中央控制门锁，汽车空调挡板，电动后视镜，车载屏幕支架等等。
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icrlIsZGPBvwcJxu3VgQmwtFo3m6EZPj1AHc05Ro7ohfmgq9bjibZx3zZetyMJKhstRoPCjaaMeIzTUH9OxWH61g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_027_2cb0a72a6352.jpg)
 
 ### **15\. 深圳市华创升电机有限公司**
 
 https://www.hcsmotors.com/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHaic99icLxJDHVtiaSIiaibiazOwV5NF1clZTCLxFnAnClalHZosXt1icqia3yA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_028_5a407e8494e2.png)
 
   
 
@@ -323,7 +323,7 @@ https://www.hcsmotors.com/
 
 力华电机多年以来大力深耕于汽车零配件的研发与生产，目前在汽车零配件领域的应用主要有ETC电子节气门，EPB电子驻车系统 , 中央控制门锁，汽车空调挡板，电动后视镜，车载屏幕支架等等。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHhNJmmTAKFquiazRvjibA4p7uds5b8zvZpvuDQCXtYfnZ8q0WSRyTibv5w/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_029_1ff7be486ddc.png)
 
   
 
@@ -331,19 +331,19 @@ https://www.hcsmotors.com/
 
 https://www.wzmotor.com.cn/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXH3Vc3Nfhna9V3Ny7FOdhs9ibkiadnLyy3UaCQZPHwvYPs0r3yoyueuWQg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_030_d0ba978f3926.png)
 
   
 
 深圳市唯真电机发展有限公司，国家高新技术企业，超过二十年的专业开发和生产微特电机经验，具有很强的技术开发能力和制造能力，在深圳、合肥拥有2个生产基地，已获得40多项国家级专利。产品广泛应用于无人机、服务型机器人、汽车系统、视听音响、办公设备、通讯设备、数码相机、家用电器、办公家具、电动工具、医疗器械、智能家居（智能门锁/智能窗帘）、安防监控、智能电机继电器、个人护理、银行设备、航模、卫浴电器、平衡车、电动车、自动化控制设备(Auto-control equipment)、仪器仪表(instrument)等众多行业。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHmXrP5kXEHtbHB9ia9ia2ssKkOWCntaGjVPiaWicSdn1b93zLpArv4Xu6AA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_031_c5adb7bd1761.jpg)
 
 **1****7.深圳市力辉电机有限公司**
 
 http://www.power-motor.cn/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHufiabiaicI67Gb0CG10lmsjo1pYEK7xe04JtnZ8icKHApK9KX2Zjic2gicdQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_032_78423b7f2733.png)
 
   
 
@@ -353,7 +353,7 @@ http://www.power-motor.cn/
 
 力辉电机可定制多种电机方案，包括通用交流，有刷直流，无刷直流和齿轮减速电机方案。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHaaMmKGSLCHQY3uomdW0VZaCKOqkh5Cu4mFIibDOh3E43akXBTvd56NA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_033_73fa93db0504.png)
 
 24V电动公交电池冷却水泵无刷直流电机
 
@@ -365,7 +365,7 @@ http://www.power-motor.cn/
 
 https://www.brose.com/
 
-**![图片](https://mmbiz.qpic.cn/mmbiz_svg/BA8GZZ2EGwUMRmEDbiahSLe0wXPgRCjOliaZRbMZwGiblCicibxZWCwMvWT6nK9ia4Sb7STgZmbj7MsCWXfcPpuNK2aEoHFUEsIMe2/640?wx_fmt=svg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)**
+**![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_034_4eefc48dbd17.svg)**
 
   
 
@@ -375,7 +375,7 @@ https://www.brose.com/
 
 **集成电子元件的无刷直流电机**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHHcz71m678GYbVibdKnAK0iaibLCUibpNFnwORQjYzC1n2lIwQkLE1zyiaNg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_035_a983f485ef6d.png)
 
 -   用于新一代座椅调节器的高效电机  
     
@@ -394,7 +394,7 @@ https://www.brose.com/
 
 https://www.cebi.com/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXH9GKhgmzwfuR83gMnatl6LLeC0HiaPurg6NnARxwicIIOCTnkcYXFo9rQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_036_3dabb84f5b4f.png)
 
   
 
@@ -406,7 +406,7 @@ Cebi 已成为执行器和洗车系统（包括泵）的全球领导者，以及
 
 https://www.denso.com/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXH8SzI514Y58djFve8yEUyKmBibSlndUBVqHH2IoFgdJTX1XnfBVebBXg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_037_cc6c74fc73aa.png)
 
   
 
@@ -418,7 +418,7 @@ https://www.denso.com/
 
 https://www.minebeamitsumi.com.cn
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHr9ibYt42RhVIYq6jfyqHEEFl6WGt541UDZsTjZGyHfJoKpXUNMR1KXA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_038_297b1aacc149.png)
 
   
 
@@ -428,19 +428,19 @@ https://www.minebeamitsumi.com.cn
 
 美蓓亚三美的直流无刷电机、具有小型、高转矩、低噪音等特性，适用于汽车、家用电器、办公机械、住宅建筑等多种用途，满足客户轻量化、节能的需求。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHJBvxEyACVqKz4laVmyHrAZVS3SLOYib8Ak3Y3OPjwExYkxyJhIuIolg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_039_df9d2090c6a9.png)
 
 ### **5. MITSUBA三叶**
 
 https://www.mitsuba.co.jp/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHMgicBlRqGU9qxB2LXnicAQLMLL4aIzUGiab8k5xuIPRbklKw5oyL15FqQ/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_040_55fdae8f9f8f.png)
 
   
 
 三叶株式会社成立于1946 年 3 月 8 日，主营产品是雨刮系统、起动机、电动助力转向电机、摇窗电机、座椅电机等，截至 2020 年 3 月，员工总数超 28,000 人，主要客户包括宝马、本田、马自达、三菱汽车、日产、雷诺、铃木、丰田、大众集团等知名企业。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHqRwn9To0ZjYCQdW3ENN7TsyvbkyibUOlngwnJ4fYEHwjUyBGxcicmpPA/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_041_c5a1cf1b4ea7.jpg)
 
 ### 
 
@@ -448,13 +448,13 @@ https://www.mitsuba.co.jp/
 
 http://www.cn-igarashi.com/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHm0f5Vb72CmF5lHPCV81OzRrh87DpefwCOsSzYWz5Wibicr1vgqUIuOKw/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_042_16eeea1a8c57.jpg)
 
   
 
 五十岚电机制造株式会社成立于1952 年 1 月 19 日，致力于小型直流电机的开发、制造、销售，国内的地址是深圳市龙岗区园山街道保安社区横坪公路77号仁信大福工业区。  
 
-**![图片](https://mmbiz.qpic.cn/mmbiz_jpg/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHSbgz5icFo6wic4jbz4531tALQrUZvlbSjEph6D8Yq6wRskPvppPzwLEg/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)**
+**![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_043_6d76cf1db3da.jpg)**
 
 ### 
 
@@ -462,7 +462,7 @@ http://www.cn-igarashi.com/
 
 https://www.st.com.cn/
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXH6tjV7QhNGmenrqQpPMfUZYpibDkWWPI2JlN3Cllr7D55xiaUHGG2YDEA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_044_ff151e315441.png)
 
   
 
@@ -476,7 +476,7 @@ https://www.st.com.cn/
 
 # **车规无刷直流电机：**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHzr6kxLB6g6GG9iaWvjhOsnfPtIJ8ib2UU5yA3w6KibB66r9ibTHVuXg0eA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_045_c00e15fd319e.png)
 
 ### 
 
@@ -484,7 +484,7 @@ https://www.st.com.cn/
 
 https://www.keyang.co.kr/front/main.do
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHkYbEXl2mJq00XlQicdwFIbgRAmucr4jcZv1kT5wX2X5f4ibDpqoibKN9A/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_046_85f412de1c5c.png)
 
   
 
@@ -496,7 +496,7 @@ KEYANG ELECTRIC MACHINERY 总部位于韩国，主要从事工业工具和汽车
 
 https://www.aspina-group.cn
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/bBTiacraNibb9gT1P0ibzcAhRN0g3ul8gXHP36mQVU0aMyDmdYcqicxwEQgI3zcpqKmicZFBSP79sIVznia8DibrJeIGA/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_047_387159bb5439.png)
 
   
 
@@ -510,7 +510,7 @@ https://www.aspina-group.cn
 
 **10.尼得科**
 
-**![图片](https://mmbiz.qpic.cn/mmbiz_png/zhkKn4GLhJ0O05iaYXPiaFDa5eX0sImdCyc8LXMBguYLZwj9Qjm8BSJeFUgvzkDYMxbeEibgchFUo6khEwMEZflFA/640?wx_fmt=png&from=appmsg&wxfrom=5&tp=wxpic&wx_lazy=1&wx_co=1)**
+**![图片](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_048_597916c57a0c.png)**
 
 尼得科集团旗下子公司的业务广泛覆盖了从消费电子产品到工业设备、汽车零部件、新能源储能等多个领域，并且在多个领域展现出显著的技术优势，具体表现在以下几个方面：
 
@@ -541,19 +541,19 @@ https://www.aspina-group.cn
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_049_3ccc50bba2ef.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88HJkEmpYqlKiaC4tFrnTia7L7pjBnCvUZtV9MV1HRf7nRn8kPs7bKsmQQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_050_bcb57d883039.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_051_1862cf7fbcf8.jpg)
 
 扫码报名了解变压器会议
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6OxT5YrmvxSnbaaDeXF4bqovY9IfrC6SxJMBQtp4dnM1tPnlKziaSEUguw/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6Ox2gll6RtjpK3FFYmgTBOGo4FeTnVZtkL7ZlKEclXqTtZ7vtFY28R0ew/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_052_ccd55559c531.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_053_56b163a836a8.jpg)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\国内外31家BLDC直流无刷电机供应商汇总（附名单）__images\img_054_dac57d0b3024.png)

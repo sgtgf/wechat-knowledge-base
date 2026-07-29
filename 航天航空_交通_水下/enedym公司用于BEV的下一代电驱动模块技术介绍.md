@@ -6,57 +6,57 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vgs97DnCfgz39UztTsg6cibJ9ibWEXTJHgdhm4qRvpACAmicDupX05p24oJk2G4OCMwRdcZxV0F2TsQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_000_75b3f5622a48.jpg)
 
 
 来源：电动新视界
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZOTSUgLPVJYyiaVibgvJmL67btX6uloy9a03G5l3DZz6AjANRGqfEKBgw/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_001_c2d0cbcc3dc0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZia2EVuUe2eicpwPnNGTHeyQmtsicZgb4muHeVL6Wic9ZNLMdwWkGZasIrA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_002_d2cac2a858f2.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZN9icGjaZ6FePq4NLBdzZZoob8qPXdnPOgu4vAImJEL6r7lHwWHh3WPg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_003_821786143cce.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZFLlVDOVGXp9vI5yxjClN7ybo6oFDhQjWD7gVl01FExk6ibZqsxC9FWQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_004_197405c4046e.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZ4wARFrfz6NCpXr9wVHiaB8icrhhGN4qOicsO7Tcib5mwJxCicjDQiaYkmlzw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_005_796eeee31c25.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZPHOIADsOfOA6YQibBaHf1ZPpS6Hm8IEmX0MUJNVwqYKfiao35ak4sMMw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_006_354e4e67268b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZeK9MwZNlUpFTpATRAlpomVS4Q2RGqZYjQNc3R2OtTNMBWOUgX9MF4Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_007_45bd231d60e8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZhQMiceuw7thGUTFDpsVJRTXcnoviaFbzqaic2fEN1M1dh7ykdJDhos95Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_008_64070e632355.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZ3pZPq2soNBB1gOVSgDicibySw9F3ibbacbSGWSYyGlEFtpdrAzrN1AUVQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_009_e361bee1fb9d.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZAsdQ22YwFTiaxrhnqKQlQrwvHbicPAWAYzhHnL4uJGicmib5DelftCShSQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_010_27e03230c19a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZLpcpJc6DETBhg8me80NyP9Uj4X112RHX2ia7GaShjnYTBmJfjwsqfEA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_011_1b1fe9ca3a77.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZrmsePtqqsTDcOkJ0XuLBjXicmnxs95LuAoqNEmiaTNcotqwlvnU7aqUQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_012_bd8ae050d712.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZysGPvHbsibw8UyhfpAFn8hd5QxricQHM7JeYwxdlFria9oiayx2lgiaCibgQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_013_8a7723bf2e8c.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZaanpq4ickkBjPYziaibXhleYeGe1JOrichia2jUeX2cSlYT0ke5GmfcibIFA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_014_594c2a503b91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZufpG1QxHmvalh70KpFO17LzLxzoHQpzeBnyq5AXKOE7kx532bycAqA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_015_cf35cd21f79b.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZ7CicI9RzzXfTokbq8qq9LO16bib6wlHmIQaLiccoblswWYtibKlCB4Lzow/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_016_df19425b14b5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZTiaiaeniap2WFoZQWyr3rOooSnrO6Qz76CzXaDk8oKOkw1iashTSddfMtg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_017_b6a71e442ae0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZGKW3yY5lHsrrHW8lIk1eJN1iaxgvP8tZ1XTNBRfiamaX4aCvCjTav2Xw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_018_291662951e91.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZX8DtyrhLQNzfUpow2TpLFDXcuBw3semHDYu3Lia6KeDjibsC3Um4Zs9w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_019_0a889a0eac02.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZLZiatRp6joc49FCibMDNib7dNH70r807FYhaico2E9ia9ibHRnSfWf96huCA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_020_d399e54f49f5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IibNhTgZiczCiaia7NWKD6Tia2qRFdn6vMnXZLyOcLmXZsCAZudS9Jn66TbsRJSiavfkgA5bG0tyW0uuvoaRLu7zbfpg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_021_2732607a1d67.png)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_022_9967d1607b24.jpg)![](D:\电脑文件\公众号知识库\航天航空_交通_水下\enedym公司用于BEV的下一代电驱动模块技术介绍_images\img_023_fb0ff5197498.png)
 

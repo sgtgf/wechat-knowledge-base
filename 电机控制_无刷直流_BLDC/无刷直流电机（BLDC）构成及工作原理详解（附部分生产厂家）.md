@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/OMBTYnS14O8isuQh3\_Vj3A](https://mp.weixin.qq.com/s/OMBTYnS14O8isuQh3_Vj3A)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tx2UUQMiaekzttE3Wyxwxqichzmk6TPhblJtseMFwghh73Pa6c70fwC3cjxBB0SSibjlQnuDXqr3cVA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成及工作原理详解（附部分生产厂家）_images\img_000_fce3ac30e4c2.jpg)
 
   
 
@@ -15,7 +15,7 @@
 
 无刷直流电机（BLDC）是永磁式同步电机的一种，而并不是真正的直流电机，英文简称BLDC。区别于有刷直流电机，无刷直流电机不使用机械的电刷装置，采用方波自控式永磁同步电机，以霍尔传感器取代碳刷换向器，以钕铁硼作为转子的永磁材料，性能上相较一般的传统直流电机有很大优势，是当今最理想的调速电机。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/9FT4EOoS5cg2OzC4mnJXBt9g0X8iaCPXaC7OxicEic2JA844jR0ylNYPluXPbhEmCLpZnAIk2NYMRcGCnqA8hTXXw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成及工作原理详解（附部分生产厂家）_images\img_001_3e1a481e449d.jpg)
 
   
 
@@ -29,17 +29,17 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ia6xz4YD3VLu0FBtIsnfSgcwf0RXpfIt9nDPK7vraMxvjoIZn7ceLDWic9asLfrtl9zMpwxFl54YEE9F59iayr7HQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成及工作原理详解（附部分生产厂家）_images\img_002_679da1a5e184.jpg)
 
 直流电机以良好的启动性能、调速性能等优点著称，其中属于直流电机一类的有刷直流电机采用机械换向器，使得驱动方法简单，其模型示意图如下图  所示。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cg2OzC4mnJXBt9g0X8iaCPXarbt53utAa4SFkKskAVO1AB3ibTeXKeZer6jgdwqf5ofkWu3awfLicrBw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成及工作原理详解（附部分生产厂家）_images\img_003_fb70a6d11266.jpg)
 
 _直流电机模型示意图_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/9FT4EOoS5cg2OzC4mnJXBt9g0X8iaCPXaVrW5xqnglbW8gw0PnuZl19vnCgoaY9rgsX9WmEnMDo4o3rftLCicIfg/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成及工作原理详解（附部分生产厂家）_images\img_004_00f84c659a6b.gif)
 
 _DC电机（有刷电机）的运转示意图_
 
@@ -83,11 +83,11 @@ BLDC电机中的“BL”意为“无刷”，就是DC电机（有刷电机）中
 
 无刷直流电机(BLDC)以电子换向器取代了机械换向器，所以无刷直流电机既具有直流电机良好的调速性能等特点，又具有交流电机结构简单、无换向火花、运行可靠和易于维护等优点。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cg2OzC4mnJXBt9g0X8iaCPXa5STmaGJ7buADican0FRdDK5xaltod9zzcpkzYdIBOWYJ6gm3CCxwejw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成及工作原理详解（附部分生产厂家）_images\img_005_84f3a48ac750.jpg)
 
 _图1、无刷直流电机模型_  
 
-_![](https://mmbiz.qpic.cn/mmbiz_gif/9FT4EOoS5cg2OzC4mnJXBt9g0X8iaCPXaw6M5ut0HG2wpLnMn0U0sHEquZOvvQgoIAdooSebrOuIsklNFcRBIZg/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)_
+_![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成及工作原理详解（附部分生产厂家）_images\img_006_798d19a2252e.gif)_
 
 _BLDC电机的运转示意图_
 
@@ -141,7 +141,7 @@ _BLDC电机的运转示意图_
 
 如图2所示为无刷直流电机的转动原理示意图，为了方便描述，电机定子的线圈中心抽头接电机电源 POWER，各相的端点接功率管，位置传感器导通时使功率管的 G极接 12V，功率管导通，对应的相线圈被通电。由于三个位置传感器随着转子的转动，会依次导通，使得对应的相线圈也依次通电，从而定子产生的磁场方向也不断地变化，电机转子也跟着转动起来，这就是无刷直流电机的基本转动原理——检测转子的位置，依次给各相通电，使定子产生的磁场的方向连续均匀地变化。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cg2OzC4mnJXBt9g0X8iaCPXaPFwO5EwnXWic2bDu1wE11qhDeatFT5SRmCFOy5iaSmcfsRYF2naud9GQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成及工作原理详解（附部分生产厂家）_images\img_007_96a28a79e04e.jpg)
 
 _图2：无刷直流电机转动原理示意图_
 
@@ -149,7 +149,7 @@ _图2：无刷直流电机转动原理示意图_
 
 为了方便理解，本文以下内容统一用如下图所示的这两种符号作为模型简介，图 A为电机转子和定子在同一圆心上，图B 为不同一圆心上，是为了方便说明电机内部磁场。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/9FT4EOoS5cg2OzC4mnJXBt9g0X8iaCPXaZ8mMXicMVicXc7aXur2icBPcKpaNAyvKickJKk4d2A22aNyUApwUowEX4Q/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成及工作原理详解（附部分生产厂家）_images\img_008_652684e679b6.jpg)
 
 _无刷直流电机结构示意图_
 
@@ -286,7 +286,7 @@ _无刷直流电机结构示意图_
 ………………
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成及工作原理详解（附部分生产厂家）_images\img_009_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷直流电机（BLDC）构成及工作原理详解（附部分生产厂家）_images\img_010_e8e68bdfc1b3.png)

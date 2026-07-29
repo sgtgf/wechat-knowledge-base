@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/qDDfl9nX4tL6Ii1-RElQJA](https://mp.weixin.qq.com/s/qDDfl9nX4tL6Ii1-RElQJA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tlGYYnI1X80vmnTNfpxZp6PUCYWiabBhoxXQLVibuapnxsuKtetMicy8ia6GjfxZg1hDpIodPkWSMeHQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\对比分析扁线电机VS圆线电机_images\img_000_bd428ad1b932.jpg)
 
 
 来源：EDC电驱未来
@@ -37,7 +37,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DpeVq9ia7Ft8Q5t8OCJHLibDPLBbQjZW1BHINkaxibr6KKyITbqzu0oZ82HiaOAEsic2oovIc9Dcg9wnxdL3iadXgLzA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\对比分析扁线电机VS圆线电机_images\img_001_a16f1efb97b3.jpg)
 
   
 
@@ -73,7 +73,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DpeVq9ia7Ft8Q5t8OCJHLibDPLBbQjZW1Bpt8HwCY5sOZv1L4iaqI7hZwQjz4FcINTMciaIYjs827Wb4WamrC3nF5w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\对比分析扁线电机VS圆线电机_images\img_002_638cd7d24c7a.jpg)
 
   
 
@@ -109,7 +109,7 @@ NVH也是当前电驱动的热门话题之一。扁线电机能使电枢**具备
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DpeVq9ia7Ft8Q5t8OCJHLibDPLBbQjZW1BPgYwFwxgE9o2e4Vqv0xTHWvSxqKA18nYCedPDnvTe0iaJzOYvSaQouA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\对比分析扁线电机VS圆线电机_images\img_003_7314dff86745.jpg)
 
 圆线和扁线绕组截面对比
 
@@ -155,7 +155,7 @@ NVH也是当前电驱动的热门话题之一。扁线电机能使电枢**具备
 
 值得一提的是，**日立金属还专门为普锐斯电机开发了铜线，来解决这方面的问题。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DpeVq9ia7Ft8Q5t8OCJHLibDPLBbQjZW1Bs0jD8vyyTfjEmJrkHNiaNUibGYkc6Sjg4lsfbtrTlytZPNdE4F78wScg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\对比分析扁线电机VS圆线电机_images\img_004_7c0a8f861818.jpg)
 
   
 
@@ -169,7 +169,7 @@ NVH也是当前电驱动的热门话题之一。扁线电机能使电枢**具备
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DpeVq9ia7Ft8Q5t8OCJHLibDPLBbQjZW1BCibgtwbibqjliaPYibucdW4UKNevicNic0wmh9BnT7D57lHuuFaickPaSicZLw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\对比分析扁线电机VS圆线电机_images\img_005_c3a0ed207219.jpg)
 
 发卡式扁线电机制备工艺较繁琐
 
@@ -199,7 +199,7 @@ NVH也是当前电驱动的热门话题之一。扁线电机能使电枢**具备
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/DpeVq9ia7Ft8Q5t8OCJHLibDPLBbQjZW1BGKnd3bMykEmX3QgibCQiakxgvcrGOibpUfKWibGO9lJmkw7juicIibSvicMtA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\对比分析扁线电机VS圆线电机_images\img_006_cf7c13d22ac6.png)
 
 来源：科技部高新司《“新能源汽车”
 
@@ -223,7 +223,7 @@ NVH也是当前电驱动的热门话题之一。扁线电机能使电枢**具备
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DpeVq9ia7Ft8Q5t8OCJHLibDPLBbQjZW1B8L8MFVh1vSia8OEQmPIu2y2hybSaLuNBw6DkiclxAlz5ZPtsqD8d24bQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\对比分析扁线电机VS圆线电机_images\img_007_5f29fe142d14.jpg)
 
   
 
@@ -231,7 +231,7 @@ NVH也是当前电驱动的热门话题之一。扁线电机能使电枢**具备
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/DpeVq9ia7Ft8Q5t8OCJHLibDPLBbQjZW1BHiaokqJ3uricHXKJCDkOebq3hWAtN5ic188hmSiazsJf9oex1IGD49oSXg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\对比分析扁线电机VS圆线电机_images\img_008_3a4b4036c47a.jpg)
 
   
 
@@ -290,13 +290,13 @@ NVH也是当前电驱动的热门话题之一。扁线电机能使电枢**具备
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\对比分析扁线电机VS圆线电机_images\img_009_9967d1607b24.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
-
-  
-
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\对比分析扁线电机VS圆线电机_images\img_010_fb0ff5197498.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+
+  
+
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\对比分析扁线电机VS圆线电机_images\img_011_e8e68bdfc1b3.png)

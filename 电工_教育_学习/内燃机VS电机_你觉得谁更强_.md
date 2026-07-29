@@ -24,7 +24,7 @@
 
 混合动力车相比于纯汽油车，它能够在内燃机不擅长的工况大幅提高效率，比内燃机直接驱动的效率更高、运转品质更好。同时与纯电动车相比，内燃机+电机+小动力电池的组合仍然比电机+大动力电池的综合成本更低，而且用户在使用过程中也不会出现续航焦虑。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0uO0QPCMnm9Phg5V5icbQhruG1JSaw6dYEeTnxXP7YX9JAdAduYiaE9wkZQzVQAH01WA1KYl5c1oxlw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\内燃机VS电机_你觉得谁更强__images\img_000_8b869c9f8b1e.png)
 
 说了很多，最后做一个总结吧：
 
@@ -40,8 +40,8 @@
 
 6，以现阶段的技术水平而言，在动力、效率、综合成本等各个方面，内燃机+电机+小动力电池共存的方案属于最优解。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\内燃机VS电机_你觉得谁更强__images\img_001_31a98b8e3167.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\内燃机VS电机_你觉得谁更强__images\img_002_ec5921db28d2.png)
 

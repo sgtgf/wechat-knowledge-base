@@ -8,123 +8,123 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0teiceibxaxXjXW1A56HF7tkg1BqF80Fy26bEAcYgkwymmYr8esIUc8xHrJXFogdcvjAtgMicfQLJOLA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_000_2a1ae17a00a1.jpg)  
 
 **来源：北京交通大学**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NkYy4duhSJObfoRTe7mhPWia3eyCC4lyzictVVTr5Gypgvfxjy4xiamrfQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_001_570fd8f9423d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NE2iccWMRRiavhDkx6ib8UhkCKpSic25qM3JGUia6yB95xWQyDnffwzXpUlw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_002_198c99fc688b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NmIMaMHAPrs2Mq75mlwfeySPTLfeQAxrXQqn30h1FQnViabBE16f3Dbw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_003_f8877ac695e6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8N1zlkNnyHp5SeTLoNcu3n5avvwfM5Phmnpp7SYeg1ELoFRr14mdHvmw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_004_90b6eeada379.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NRBODqrD3lW19bia4DYdh1qpp5hJfkV8IRKI3bkmsxiap3y8YbGtpSszg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_005_9c93111f8261.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NJMicV8yChiaK6iceVUL4up7OadB01DeHW9NRbgA4PLLmnqq3HMlxdEXKQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_006_f7bc87e81ce4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8N2Sz6H2Xm0jXibt8ibicU88nQZoGnFVyro5my1myK8EaR2jZ8eu4eE7aUg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_007_715aa5f55637.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NcTSibE5nlNbCIAG2MSqjVvOqCvK02XuicS9o36Lr32oe89hEicvK8woXA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_008_00df3fd22f53.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NHJ2Uj51h6fUKPlnVbc5kQ6ibY8z3n2C5dVEjvYyzB4yIiawTiaY8gwN3A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_009_971cd87b77d1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8Nbpeu0LS5Ajt9pj7njeWicI5ibTLEy5giaWEk9mvP0lNe1p0m4ToYbqH6Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_010_eae52127bada.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NqUNvcXUlpibFbzvZJc7tjfiahiaG97Zve768vD8VszXsT3TZmkSR5S0ww/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_011_51ae2032ae7f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NgjaZXPP9NZvrEfoHASg176OowpJvRgW3quX3wndIb5T3PKg2dRDvgA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_012_957958e68d1d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NGEyydiade0khQgg8fdBCpKBlX03etmuoica1kJteOXmJWY8etBLQMTug/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_013_372a77f38f2b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8N1r8SldflV76pVb9kuXicZLgygugPFOMlCICmufP4m27fgIXvVHJBSLw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_014_d9de4b70b372.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NcHTVIuZKqOoVG17DJy0oicdwFrc2oVISybdRhXKc7tKAtsEWsPe9LmQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_015_7b9ea64e9dec.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8Nf5BWB6mYTy5q7oEBDm2h6MzPjL2UpxiceX1EQEicvPNlaG1vmtpOU1hQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_016_e4814432a46a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NTr7NjvqgASzkg3xic9hnUEMicOn3v5VessaO6HtK8ATcIJwLpdoDd2oA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_017_d11d593d4da1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NdLeHPtvRecbNRTrBu8CX0cibVNwHL3tUCTXXSOF18vNpUlJiaJBZWHqg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_018_4c237a044417.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NRltVAqClUq4HBuo2a9aZeMEE0CqRtiaLJkQIAsSGG3yes9Y32WzdcKQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_019_e3f07b2f81cc.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NB1YwkSMwJs7HCwMKYL1NaSTj8709iaibduk9kbJldicC9TqPJXfbeOfKQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_020_05db1195f5b7.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NXMRh6QOxvHqPEDuYttB9Uhj1GlgwVlgZ30B7DfRXccNF2AkCtkyHcA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_021_799d4e00c6a9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NZknZuUU4p3GOSuBEj014hpuTgMthsaXhkKtibXZ2F7AJfMOqeFst7rA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_022_a8b386fe7d64.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NtRgkN8ApCAQbdMSJPJZ6JOvTdibibGTCrxHNTYQGibtKlImoHcdVFJ0ag/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_023_6aa018f91484.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NuSsRTPx1Gu9sdrOeqIMu7g1CZsHNkiaIPa0f6p2xxYfd3OIEfqIl4pg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_024_9d2ea639714b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NgZYtd6q1XqNtfabzU0rN4fnCRfxR2xAynH20FicMoscvhPWogT3V90w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_025_d09de38a367a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NaQjQibyjaxynsybGEH1HmDJvzzT1uA88YWDuRtvyY3XIgUOFric6nCBQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_026_0b708dcab090.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NIBTXcGIYc9o3y1PyDNyQ2otzqMuDT2xk0IWAjYFibYCu4ibGIs8qPD0A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_027_954eaeea16b9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NakIWiayosjAunnJtdsKUrB0ibRFXic0MQV311p9ESBQuY4MQ4DPDUVGIA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_028_a0a774fcf925.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NZcVaFY1Zibiad1kp1jibibS2BlUGibDibUGSAVTr3b8sEIYDh79v7atNYPOA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_029_04883927380f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NyvEyX752GqQAZIiavptVDcDeibWtib56KCXnNIDzQicsjiaShh9IbfO04BA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_030_3a2675983824.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NTX0Xocfm02ibpskZSFQnZPgRPzoWRt2Kluj9uHrRG3MgwyW7pxspdJg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_031_aaf3e2da1f75.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NlbfrhjBJjeHhgooicfAU1dKSm6OmcgT2q7ULbzPCWWEgKKuySwObEtQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_032_dc0adbb5b378.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NuOUCc8ENTanjSrAtZcepyQTJoHHTkEEsPZdeeep87QdyGgKicnGwibKQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_033_e192dfe3d64c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NpJWMUxH1uFZpWb1WV2qg6va6gyEsjXjr85icKNSc0Pp3ZVbwpSvB2yg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_034_c663565c4575.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8Nic14bRqeceA6GiczSWO2ImwE2xHJh4JtpmiaI08nbm8ibgn4xGGbJ2CJxw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_035_6ed7fe35ef55.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NUNhibDvwY7KdJ5CFn8pSqno44sbmDibZsGA1OOUztUXwKa3qrlx2exHw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_036_6d3a35dfe8d5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NAscmwgHWOYjCjd9R85bTtEys2iadTicjfYlspkibv4ibiblWP5vz0iaQqLRQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_037_c1795af95119.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8N7NkrSyGXUqATqIaax1UwDVEvdFgGicjQAvft2jbh2p8KeicrHjDC00jg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_038_65b0ad1c6231.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NFhiahKvnj6bRxL1TIQTsc9kxCaI1G9xNC57EGYfTIcRfrR1JvPCiar7g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_039_afa3ca043894.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8Nk73w7K7kHrVvFsJ0q9tq9sPZ4nXxI8cIzjiav1yV2X5e3GvBLgLn6dQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_040_5aa9cecccc53.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8N86WDdQPRLviarNU1O7VZaR0iawuCVseq8GZ3WYO9goOXwL5cUicp0Q8VQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_041_a088ffedc29f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8Nk4FpmCqAK0Hbj8wRibU5ZCdAqCdcURiaRAia34rBjvADIP9aGDEIibqBIQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_042_014229579a00.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NDraU1Y62qWEFlGyLmQLP1lhN2flbTvj8CicEVZialfskXugyO5UWFjxg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_043_45e2236d143f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8Ngr44sL7UIwdwLRsGQwGrcYfFd4MUuGqtZbL0QpMZuN9s9TavlROaaA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_044_93dbe5d251b2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NR52O9xhsKPVwUYqvCVAcKvohd5xnV5ibY5rKfVRDtgmFuxHx4AicuOPQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_045_47ffe22ea1cb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8N3ycrcg2N5sXEgZLIC2VI0RWUdeiaK3auwAOnSBIm7jPkibqQ7NK3uTjQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_046_01480a7fcbc5.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NtqMuh1jKqynEG27sMoFN2Zd8hVelxqhLQ5GL2lE3iaRtIOutH5LTQDw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_047_eef4977433e8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NwGSmzYiaic9gOY82SpAkia6AAptuoH1SVrbQxqU94fd7ByM7189lzicM1w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_048_2a9c236e79b3.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NVgkD5RViapKSJowyCicWsFSD4iahDoHX5fshV7rBqkPbSUut3ZB8Roo6A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_049_0b19a92c85d6.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8Nrib4spB4cI2zMcwq5ETWpX0GK54E6G16jK8Q7UDKge3IqV1z4Pf0rkQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_050_86b69b57f8a1.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8N9ib1hsMF2QG2DgphN5ZDCmfGoePstq8jtiaJIdTqibmY5pyQ4QGSj5q4Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_051_1159daf693e4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NIMY8zdXcl9kbib1OM6ica5Gz0r4Zcqic0xdQMuKwhia7fHTSyTiarib6yWBA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_052_ed735b595927.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NdjKy6mCcRuXc7RPO5y6oW7biahOq7ZVtKEso3MCibqnib6K0jd8icRwHUQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_053_19a4f9025037.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NMbCyaHybUQcBd73C5bNSmgTgybI1yiavXKwe39PEn9Km3Wg7Pjbsj3Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_054_60a5623458d4.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NNABQwkObKOQOicyTh0NRRq589UVVAHD0jdHCuNfvqVLsk3jaFVVcckQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_055_b13ccc4bf281.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NpkiaoBKGribejYUqxytnuoWW1kVBZsZlACtkI7TwTUXQkb4uIlx8muWQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_056_d29cc8b37645.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v3mKXSCAMczXU16T6HCU8NQ5IPXPECfqwV3IuagxnsAFdyhdh4Z54FYZLqrVtmK1qXS4ukkNKEpA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_057_21c8f28887d9.jpg)
 
   
 
@@ -138,7 +138,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbKpNn0fSdakyibfILD48SjKvpB2D74dVDWQA7QhHtibv7Tqkfy0bfoOjg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_异步电机的动态数学模型和坐标变换_北京交通大学_images\img_058_103649f2287c.gif)
 
   
 

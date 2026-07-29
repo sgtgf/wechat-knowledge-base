@@ -4,9 +4,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/49sWCFaJ5cPU0LJYoImpDA](https://mp.weixin.qq.com/s/49sWCFaJ5cPU0LJYoImpDA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7PRoBOR11UkBSgoXIqyicH5gpzwndo5s9MAbQggNRbCia9I83Mt0ibmV4t9PpPLGo61vh2awCzbW3Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\轮毂电机vs侧挂电机vs中置电机_怎么选__images\img_000_6fdf41d5eb40.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\轮毂电机vs侧挂电机vs中置电机_怎么选__images\img_001_d8cb52582ba8.jpg)
 
 
 来源：电控技术大师
@@ -15,7 +15,7 @@
 
 **轮毂电机（Hub Motor）**
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/osQRSWssicLcEEBMMQ8stWY8HwVAp9OC6NPFxOoZWhb0VBc9ke2HgQVL6Zz5UwxZk3T95UFobEyAoLkITsxueUA/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\轮毂电机vs侧挂电机vs中置电机_怎么选__images\img_002_02ceb94d38a5.png)
 
   
 
@@ -41,9 +41,9 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/osQRSWssicLcEEBMMQ8stWY8HwVAp9OC62vml1BUkUqImApyxXSp3Q4pxGAe62iaUZW94Z7M0iaj5Yc0OJiaXWia5cA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\轮毂电机vs侧挂电机vs中置电机_怎么选__images\img_003_2523c14c65b6.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/osQRSWssicLcEEBMMQ8stWY8HwVAp9OC6wwbT2Sy2569EqaJAjTcNKaC5jUETXfwWT6He8D4pfasDYHpzJB3jTQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\轮毂电机vs侧挂电机vs中置电机_怎么选__images\img_004_73f42bc122a4.png)
 
   
 安装位置：固定在车架后轮一侧（类似传统摩托车电机布局）。
@@ -62,9 +62,9 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/osQRSWssicLcEEBMMQ8stWY8HwVAp9OC65QibZpP26Ecia14IHFBUmITXqwbGj0FjhicjPA2WPEFjUMD6dKfVjyia0g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\轮毂电机vs侧挂电机vs中置电机_怎么选__images\img_005_ccc9aeff6e26.png)
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/osQRSWssicLcEEBMMQ8stWY8HwVAp9OC6w6bvc7MnM6AhsrzcMPqmbJmo6qHLrQC8cv6FoNibRptConthtpEtySg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\轮毂电机vs侧挂电机vs中置电机_怎么选__images\img_006_fea9ca8f24a3.png)
 
   
 安装位置：车架中部（通常靠近脚踏位置），通过链条/皮带传动到后轮。
@@ -94,7 +94,7 @@
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGTdAQI2qpV97qAmOqeibaIiaKVLIks3YeQgIOyX5ia8tqVf9AFgW3XZ8Lw/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGk0C4HQwvywiaCRaw753uY4ZQdjaYicMhbrRdySb1xNFYzMAMNV8icFb3Q/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\轮毂电机vs侧挂电机vs中置电机_怎么选__images\img_007_3ccc50bba2ef.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\轮毂电机vs侧挂电机vs中置电机_怎么选__images\img_008_6eec1b7fb41b.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\轮毂电机vs侧挂电机vs中置电机_怎么选__images\img_009_1798abd6d288.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\轮毂电机vs侧挂电机vs中置电机_怎么选__images\img_010_1862cf7fbcf8.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\轮毂电机vs侧挂电机vs中置电机_怎么选__images\img_011_dac57d0b3024.png)

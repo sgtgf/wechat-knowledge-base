@@ -6,7 +6,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_000_d8cb52582ba8.jpg)
 
 
 来源：电动新视界
@@ -225,46 +225,46 @@ SIB+轮毂电机
 
 > **“轮毂电机是否只是技术狂想？答案取决于我们如何定义‘未来车辆’的边界。”**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/IibNhTgZiczCiaTCafSdxlGXicaf3tJNMP6c3ky9RtfHj4C5Gdoux3eDWmJguIFOq6vINgKM0trfb6GKiaDuVgW21PA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_001_80d066ea63b7.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/IibNhTgZiczCiaTCafSdxlGXicaf3tJNMP6cVsKTKN4W9BrnPtJxib1UszfwH7ynr8AhU7icScPgdPcGUwRShjXZicY6A/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_002_634ea6aedc43.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/IibNhTgZiczCiaTCafSdxlGXicaf3tJNMP6cYdWNzsmxRleObenNYTQQ34hkLkib60TczBGIHFqYw0kDY7xXJ6YUEvQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_003_da550d7f3e44.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/IibNhTgZiczCiaTCafSdxlGXicaf3tJNMP6cXpqnhicmQPSBVJkIkSdI1Locu8D5cerZzuibuqutITVQibvQZD6ibRfKoA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_004_a4fe1d5de67e.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/IibNhTgZiczCiaTCafSdxlGXicaf3tJNMP6c7EH6hH7bShq5J6nhXPFvltySsl0taCGolulvjDaSAkUWo6KTQgBgPg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_005_28fd9022d131.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/IibNhTgZiczCiaTCafSdxlGXicaf3tJNMP6c8kQmjxziayFWwY6qt0spuKufB1fKB34o16YH5jgeiarJpXkfs2g9J8MA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_006_0f45744b285a.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/IibNhTgZiczCiaTCafSdxlGXicaf3tJNMP6cUuYdB9esJCDGSLveoj4f3KIpG18rfCqxPnT8NXNOBQkNRha9wG1ECA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_007_d3a52d5ffe9f.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/IibNhTgZiczCiaTCafSdxlGXicaf3tJNMP6cJAF6mmFYuT4g6kZeN0z0AooMT7iaHnKfZ1hU6pCqJhtbMSpicqeytpYQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_008_dee2e81d3216.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/IibNhTgZiczCiaTCafSdxlGXicaf3tJNMP6co7DEmBCTbad5iaHxFtLtvk9YHE48HZC6UxiaKbGsbIuY5x9BntPM6mfw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_009_61d28cf6697e.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/IibNhTgZiczCiaTCafSdxlGXicaf3tJNMP6cvPD4KWlOGGic3hLrR50vZrSIJhWcULcmaWBjWSyaZ4vNyH4bpjcvibtQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_010_2f349a3bd8c9.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/IibNhTgZiczCiaTCafSdxlGXicaf3tJNMP6c0HicTxqa8HMvlHOePTLRkRc4tt5v6uCr4eUtqiarhCEtuljDSb3ibZKyQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_011_fe9220fd41e7.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/IibNhTgZiczCiaTCafSdxlGXicaf3tJNMP6cXOYhBsicj5QUyTKu4R7CA33620ib52kmXEC8tRricdT0v4ZW45f0S0Ejw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_012_997698fdb71c.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/IibNhTgZiczCiaTCafSdxlGXicaf3tJNMP6cra7aVSpoJyJ9E6WGmEAq8qMqJEvwicZ4KQLwNFv09kLJgCVJEYCb8oQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_013_80da8ad69562.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/IibNhTgZiczCiaTCafSdxlGXicaf3tJNMP6cjjFcOOa7RTmvDDgbQibZpQNjzqZpRXQTxA1RQVxBRJy3J7V2RribPWLA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_014_377f6cd8d572.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/IibNhTgZiczCiaTCafSdxlGXicaf3tJNMP6cM6QT27ic6VH6Cnubfpwua9DXmemNDQdeVXicoh7ankUUPdicGh8Mb6BQA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_015_9e1ce02d6e8b.png)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/IibNhTgZiczCiaTCafSdxlGXicaf3tJNMP6cJyCuDYDbiaiaiby2tzCicwUsznzKonicUaKKohNT2s5mE4yH7obWibXuo4Eg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_016_070c437ecc6a.png)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88HJkEmpYqlKiaC4tFrnTia7L7pjBnCvUZtV9MV1HRf7nRn8kPs7bKsmQQ/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_017_3ccc50bba2ef.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_018_bcb57d883039.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_019_1862cf7fbcf8.jpg)
 
 扫码报名了解变压器会议
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6OxT5YrmvxSnbaaDeXF4bqovY9IfrC6SxJMBQtp4dnM1tPnlKziaSEUguw/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6Ox2gll6RtjpK3FFYmgTBOGo4FeTnVZtkL7ZlKEclXqTtZ7vtFY28R0ew/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_020_ccd55559c531.jpg)![](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_021_56b163a836a8.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\未来汽车动力架构的革命_Schaeffler轮毂电机的机遇与挑战（附PPT原文）_images\img_022_dac57d0b3024.png)

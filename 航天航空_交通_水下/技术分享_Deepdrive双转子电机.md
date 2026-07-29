@@ -4,56 +4,56 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ZjcB1fGptuXX-\_uaywizbA](https://mp.weixin.qq.com/s/ZjcB1fGptuXX-_uaywizbA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v60sr7wQibxMRQRCwtMXEWpj8JC0JQfLhhib40j4yCogTRUEqz0DPcRZiaIXEaCthfOtnN5p7n6SRow/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_000_253b3ed942c1.jpg)
 
 
 来源：今日电机
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1ZlS3J4ibpUXRQO3SZm7gficsJanrvTnorkQX5hEu7ibXJWecGYLbzduDBA/640?wx_fmt=other&from=appmsg&wxfrom=13&tp=webp&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_001_39bd04d53a61.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1Zgd8mJhjJvJs2nOHGQscqjxjcUBtrZ15sp3K1uHXN4I0k5CpZv1ibhyA/640?wx_fmt=other&from=appmsg&wxfrom=13&tp=webp&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_002_6d4b3841996b.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1ZQDGrsvuNHq4PknhD6LIjv20njgDMZG1KNXJUpic8ERJIUNm5nPeCOicQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_003_c585e49809ef.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1ZFTPnE0F5mMdssepbZDlen0AzOricmBPfibj8o0FUdnNFiahGHibLe9yuSQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_004_732c63f41cc5.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1ZKvelicdHtNMTiba4N8FwQymNKVXQ6C86qWCicFRCQ7x1EIMmZvBFYEmLQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_005_27769aa85887.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1ZPDPG2WIJl105yl5m9ibjgibGibAmjJoibxvickFp6IMgsXhSzxssmzERj8Q/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_006_86393be974b0.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1Zz7aib1I3uxibdZiaS19QUC8O2EWz8co1Kv8V5wnQib3P4JRwZup0Cfx5tA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_007_211fa6e4cc72.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1ZlGYROf1yqZ3DaictXgOfw33xSNcHPNmu2c8bFgwPCnnLo2NRKL20YQw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_008_bcc7a295092d.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1ZibFgBtgNHJyg2xoDE4Ga0PcC7CEicysByJ05WgakIxIwyJ0EMX3kTMoQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_009_b6b25b1ea026.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1Z79GdeXeJpkH9D08v0j6d1JCzP51MINIjEnhxfbNNk86A9k1IzrEqYw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_010_1f37e6fe4b04.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1Zjas4oWBD5TuTPWjib6vEkicdSiby5dZjXGgG45Kbn4LBZu1uBkII0qu9A/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_011_5a2fa541bb01.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1Zjje3pKiaUGfWYrVDnibkdGPHeHtSWzliaQRprfrkrWDmLmhN60iaggdxpw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_012_2aacfc6e9089.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1ZoKW9s77jhQoiaZfhXTPoNaLKHSjQ0Hx8tyl1ico9zIWDIuibeZ8F3ps7A/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_013_4e23b8b19e61.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1ZI6Ob9alt4JISvg0cZK2LHRFyWrraWED7aZndiaRXSYqyibXC5YvZg45g/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_014_d8e7ae4b82f1.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1ZJxehK2rRw9XibD50HLadGehHiaJhrxcxPwGibTsrtWa8ZwpRibXgwrqexQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_015_19761c8170b3.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1ZzhBmZjZdpWIzlXUXOGfRiabWFsZbqKAXAttmPaNpA4bGcRAsGHiaYZeg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_016_9bcd80fb2c0c.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1ZZZp29k43c7ichHd2hmgfDQuRfHM8RmX9SibRkvHtotLoXzX0rQCHA3nA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_017_77d200d480be.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1ZLXwU8XdEcIKcREb3F26eM0BWFp5n78c0CzyiaAm507pMyL4GsVeaiaOQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_018_0765bb68489b.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1Zrp4SbLAP7ydFZcYOrYSlYhYPYt4HllxQoODulyJ5EfYU0ezCwibPhAA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_019_f30bab73f281.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1ZagJan3ibjngw4nHUcuPThmXDVHudzu7QicuVwY8Jic2Krwia9icviaZQC1bQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_020_ba9ee894856e.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1ZicYUfic3RqVBNbdlkL9eAyiaPJzUiaRWDjTWgyqkdkQGbfErWR3zeRteiaA/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_021_1087c864007a.other)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/36c4PTpEoUhd74A8ibpvFnRFIKb1f1Z1Z0fJwwmSTtcdv6icYGBD13KR3t4ic8COR20eTaR7gcD5EXtZk16ozQ2Cg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_022_1a821365a3bb.other)
 
   
 
@@ -79,11 +79,11 @@
 # [华为都“活不下去了”！电机中小企业未来三年要怎么过](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247575025&idx=1&sn=800a15fe2572766ef1632371ee7475f2&chksm=cedfe435f9a86d23f050893e070245640fbc59fce832cb6264e6ecf8b6c43c0fe9a0c6565a38&scene=21#wechat_redirect)？
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sib5wZiatdKpxSTgRDG9vM6BrpiceLL0kK81U42flFXKkzfxialicRjg5Sh9vNvA86y00A5wSGFiaNWnnQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_023_cd9a9dce0bfc.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_024_fb0ff5197498.png)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tMzMevYpPAySDyFiaafVt6hlnBk2MabwiahKl2h63picic7sVYg0g3DojZDAtHn0rMCIUhye6HKw5rdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\技术分享_Deepdrive双转子电机_images\img_025_5591b15b40b7.png)

@@ -11,13 +11,13 @@
 
 **来源：电机新视界**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0u5uyiaRTNBkaHGwX2H508MFzwugibBnP6UzXMficCL7KluqKTIFX4IKjhZwxoNQwtE5do10TiaSFK4Cg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_非晶高效电机的研究现状_images\img_000_5e087903fda0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0u5uyiaRTNBkaHGwX2H508MFE0StxIACtnmcUxCIMur9obLF2z2Q2ia5g1glmz08ocLbNXmkPnyPCAA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_非晶高效电机的研究现状_images\img_001_8fb3f85dc491.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0u5uyiaRTNBkaHGwX2H508MFXM1JKLe4icLRN1yLUXN6RStcdC0LVvmNEsr5dqpI1Q0icBIiaA4xWxb7Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_非晶高效电机的研究现状_images\img_002_cb13a8555931.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0u5uyiaRTNBkaHGwX2H508MFgRnvmPrU7Rau6CIlMfGrDDY3NzTP0ZrUW8UibTMTRz8XLzWYFfaZGhA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_非晶高效电机的研究现状_images\img_003_2f251732d94f.png)
 
 完整资料领取方式：  
 
@@ -27,7 +27,7 @@
 **2.扫码下方二维码，回复想要领取的资料**  
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_非晶高效电机的研究现状_images\img_004_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_非晶高效电机的研究现状_images\img_005_a6e4e8e00379.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0svcOpvfv0woWysh88DV1nxqXFMFSibF16baytV1nBZicbykENdq8p82HYlkhdhNlO6p1P1AaCdpr1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_非晶高效电机的研究现状_images\img_006_aa47967c67cb.png)

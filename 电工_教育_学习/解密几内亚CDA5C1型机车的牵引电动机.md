@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0teiceibxaxXjXW1A56HF7tkg1BqF80Fy26bEAcYgkwymmYr8esIUc8xHrJXFogdcvjAtgMicfQLJOLA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\解密几内亚CDA5C1型机车的牵引电动机_images\img_000_2a1ae17a00a1.jpg)  
 
 **来源：中车株洲电机**  
 
@@ -18,7 +18,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/hpGGJLphwRqgvtg49qia5GwUH9cge9ia9QoLAYAFut0gI6W26W2tMO9G5bnzOicNxB97S4VVDEdCWcSKqGfPu9WLg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\解密几内亚CDA5C1型机车的牵引电动机_images\img_001_498098ac8c4a.jpg)
 
 **关于几内亚CDA5C1型机车牵引电动机**
 
@@ -26,7 +26,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/5Uiaha9srEnLmN2eWFV3jIia1EDvNM0Oatubw02l1SZnnhx4BoPODjOYeXuicaJvpEIlx40eE6T5TB0g5cXMQzDGQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\解密几内亚CDA5C1型机车的牵引电动机_images\img_002_75a1df5a87ef.jpg)
 
   
 ▲该电机具有启动转矩大、重量轻等优点；同时，定子线圈两端端部采用了一体化设计，提高了线圈的抗振能力。
@@ -41,7 +41,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\解密几内亚CDA5C1型机车的牵引电动机_images\img_003_509372e3b2b3.png)
 
   
 

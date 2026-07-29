@@ -8,14 +8,14 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tbNsCFC0AHia37KF8iciapax1xHicVnLQN4FKqwxAqCXibgXqQ0e3aqvYQ26pvERgY4JibS8LYZOPWa5pA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\自动地测量电机参数_简单_旋智发布基于LMS算法的电机参数自动识别源程序_算法和软件工具_images\img_000_86070280ef99.png)
 
 
 来源：天天IC  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/FVUttoa5ciaYJ5xftes4JicJlgkQMrzldBRTG10OO3rP3tWlARJRHb59DnbKDZrprtr6eicyJVEWSnhuicicvLHuYxg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\自动地测量电机参数_简单_旋智发布基于LMS算法的电机参数自动识别源程序_算法和软件工具_images\img_006_176ecb65ceb2.png)  
 
 为了帮助客户更快和更便捷的测量永磁同步电机的参数，从而方便快捷的计算和调试电机FOC矢量控制参数，旋智科技提出了基于LMS算法的永磁同步电机参数辨识方法，并设计了电机辨识工具软件，该软件不需要客户掌握具体的测量方法和流程，实现了“一键式”测量。该软件集成的源程序，可以在静止情况下，对不同型号的电机进行参数识别。
 
@@ -37,7 +37,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/FVUttoa5ciaYJ5xftes4JicJlgkQMrzldBBib9gf3SISgGo0iageibrJLZBWSDLRpUt8pG4oKglNbJEwLszHhpatYMg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\自动地测量电机参数_简单_旋智发布基于LMS算法的电机参数自动识别源程序_算法和软件工具_images\img_002_1317c76e9351.png)
 
   
 
@@ -45,7 +45,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/FVUttoa5ciaYJ5xftes4JicJlgkQMrzldBaBoHArzFXHSCUY0RmO9ZFScNxpBZZM1z7IsiatPzm3NbfBbqIH8r4Ow/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\自动地测量电机参数_简单_旋智发布基于LMS算法的电机参数自动识别源程序_算法和软件工具_images\img_003_8f5b8483ac08.png)
 
   
 
@@ -57,7 +57,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/FVUttoa5ciaYJ5xftes4JicJlgkQMrzldBa5ZnxQcPhopUV8axcOgRcXJUhGxtwZ39DoYtibVfrw7OkFhEcchWIiaA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\自动地测量电机参数_简单_旋智发布基于LMS算法的电机参数自动识别源程序_算法和软件工具_images\img_004_4402c9f165e5.png)
 
   
 
@@ -69,7 +69,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/FVUttoa5ciaYJ5xftes4JicJlgkQMrzldBjYRwJDmulp1ApfBicOIwTXoma2uKqWFh6018hmhuJ9QmRJGXc2QJBdg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\自动地测量电机参数_简单_旋智发布基于LMS算法的电机参数自动识别源程序_算法和软件工具_images\img_005_d40004a93f54.png)
 
   
 
@@ -77,7 +77,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/FVUttoa5ciaYJ5xftes4JicJlgkQMrzldBRTG10OO3rP3tWlARJRHb59DnbKDZrprtr6eicyJVEWSnhuicicvLHuYxg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\自动地测量电机参数_简单_旋智发布基于LMS算法的电机参数自动识别源程序_算法和软件工具_images\img_001_176ecb65ceb2.png)
 
   
 
@@ -93,7 +93,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/FVUttoa5ciaYJ5xftes4JicJlgkQMrzldBnbEOgtsymUPkRxR2Fic0p5pBiceOF2e67zt7642F7GJUy38COymCqUfQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\自动地测量电机参数_简单_旋智发布基于LMS算法的电机参数自动识别源程序_算法和软件工具_images\img_007_1e27f9b11e4a.png)
 
   
 
@@ -101,14 +101,14 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/FVUttoa5ciaYJ5xftes4JicJlgkQMrzldBiajoH6pJ2I0TqWic3tp4ETABVbDCNvhiaYCDokLNachVc6PyFWAvZib4LA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\自动地测量电机参数_简单_旋智发布基于LMS算法的电机参数自动识别源程序_算法和软件工具_images\img_008_892e8bc7db74.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0stfSStzzDcbfsJbicnUlRKX8lZ5xOob5gHhNBgt33cniaxicjRhcoqUnDBgFoowtwgmpeiad3q5dddjw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\自动地测量电机参数_简单_旋智发布基于LMS算法的电机参数自动识别源程序_算法和软件工具_images\img_009_2a95e979a0b6.gif)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s0OaHsxVicqRwsd1jffsZ1SInziao432K25CLbwomI8aoRfBsD0ibko7MJkWIcoEm08ia03Vpey2IyxQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\自动地测量电机参数_简单_旋智发布基于LMS算法的电机参数自动识别源程序_算法和软件工具_images\img_010_a42af9525055.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\自动地测量电机参数_简单_旋智发布基于LMS算法的电机参数自动识别源程序_算法和软件工具_images\img_011_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
 
   
 

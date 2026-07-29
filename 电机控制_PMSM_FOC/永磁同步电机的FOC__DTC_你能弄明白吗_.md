@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0teiceibxaxXjXW1A56HF7tkg1BqF80Fy26bEAcYgkwymmYr8esIUc8xHrJXFogdcvjAtgMicfQLJOLA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_000_2a1ae17a00a1.jpg)  
 
 **来源：网络**  
 
@@ -42,7 +42,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4McQHqjJcUhmes3Zk4K8nanUqZB0DPIIfNRURGCrhyXTyyr6D3U7fJWg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_018_19ab79be694c.jpg)
 
   
 
@@ -52,7 +52,7 @@
 
 那么电流是如何产生的呢？我们可以把电机的每一个绕组想象成一个在磁场中旋转的电阻+电感，如下面的等效电路：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MRad1lGdFoQyPhFKRBotfia6VKb4UKUZ3ic87kmp2vElQggm1BZQeIfXA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_002_1552b40aac05.jpg)
 
   
 
@@ -70,7 +70,7 @@
 
 因此笔者在实际工作过程中，喜欢把大量相关的矢量都揉在一起，见下图：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4M8z6n3YW9ClaFKF7ZMkicTfw8bSicVyC9apSdnibSAJDIo6PNA0X8dqic3A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_003_a87810e35c79.jpg)
 
   
 
@@ -120,7 +120,7 @@ FOC的控制的基本思路就是将三相静止ABC坐标系下的相关变量�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MaKsxxxjcKp67ia0mgH2gOYLfwSRyhOcYDyQeX2icOWOQweFicA1ialKWYg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_021_911cab50e1a6.jpg)
 
   
 
@@ -154,7 +154,7 @@ FOC的控制的基本思路就是将三相静止ABC坐标系下的相关变量�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MibZbL39GJvgnssibUJfrf1bwoNvoZfy9d8t1EjjcpmjDxHYBJmo7rC9g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_005_70312aed3f69.jpg)
 
   
 
@@ -214,7 +214,7 @@ DTC的出现比FOC晚了十多年，是上世纪80年代中期由德国学者Dep
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MIPN4eop4sfsRE7zB7LK37DzTwqYDM00QQNubkvLzhdzy8RNBqNgHAw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_006_d0d9f9095fa8.jpg)
 
   
 
@@ -232,7 +232,7 @@ DTC的出现比FOC晚了十多年，是上世纪80年代中期由德国学者Dep
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4M9ZzTLSCHjIyAyu0RQRKkKibaKrJ5F6HlXxr8KQgRRH2LQTibEXqHzBBw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_007_26b72a23e067.jpg)
 
   
 
@@ -246,7 +246,7 @@ DTC的出现比FOC晚了十多年，是上世纪80年代中期由德国学者Dep
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MU7icjxY1XX7FeVaK4KwwCxvjwQ8HwricgtjN1SKpNEgTrvD0OBt4JaBA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_025_fbcb8bb4c739.jpg)
 
   
 
@@ -256,7 +256,7 @@ DTC的出现比FOC晚了十多年，是上世纪80年代中期由德国学者Dep
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MeGggiagHVCW2jJY1GyYKcX2RfhNb4yic3VeVHK6iatRzepQJjFRMQgXRw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_009_581e1eba546f.jpg)
 
   
 
@@ -266,7 +266,7 @@ DTC的出现比FOC晚了十多年，是上世纪80年代中期由德国学者Dep
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4M1avVf9icYHbeJgAlDgAtf5tV0T5Fgk5Lu2s9aG9ZtvxQzFq5cu3vjRQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_027_2f04c202997e.jpg)
 
   
 
@@ -294,7 +294,7 @@ DTC的出现比FOC晚了十多年，是上世纪80年代中期由德国学者Dep
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4Mqk27icosr1D3nuUkeRbxQdczLZtjF5bbgV791dq0WNib1Boo04KdDcfw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_028_8bf6b59625e8.jpg)
 
   
 
@@ -304,7 +304,7 @@ DTC的出现比FOC晚了十多年，是上世纪80年代中期由德国学者Dep
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MeWUo3Ek97jNNuN2ibmQicZz6l2ibANtqtCH65SicP1aqaqpAMwe2DVFagw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_012_a36044d58ca4.jpg)
 
   
 
@@ -332,7 +332,7 @@ DTC的出现比FOC晚了十多年，是上世纪80年代中期由德国学者Dep
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MLXiaicxdxPHWag3iaSmORaTBGCyF6H74oP43uHAdBTc2P1ToQvBjr5SZA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_030_7b40611e1cba.jpg)
 
   
 
@@ -362,7 +362,7 @@ DTC的出现比FOC晚了十多年，是上世纪80年代中期由德国学者Dep
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4M1BDsyxNczK1ZZsnhIOu3swbOPa3pbibpx0LPfruSRWo4hftHQZqlCjQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_014_7f0b7bb6e2a0.jpg)
 
   
 
@@ -370,7 +370,7 @@ DTC的出现比FOC晚了十多年，是上世纪80年代中期由德国学者Dep
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MJMkQrr7giavK8n6GkXdknAQY9ltl5vpmun6gk2CZ670R6wcjQa1urgg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_015_c68fbbe8f2f7.jpg)
 
   
 
@@ -386,7 +386,7 @@ DTC的出现比FOC晚了十多年，是上世纪80年代中期由德国学者Dep
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MibLytlXsPvhCZrOl7kIdeGjgg5uUPR06KF8umFEsRibjVKEYckyGiaaXA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_033_eec65c278275.jpg)
 
   
 
@@ -394,7 +394,7 @@ DTC的出现比FOC晚了十多年，是上世纪80年代中期由德国学者Dep
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MaELpDibbib7EZvA1uJU7qWWNpOK3ibed8Rd9Ywc3FGEicwv3O2O8FswUibQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_017_fc2d67867ee4.jpg)
 
   
 
@@ -410,83 +410,83 @@ Hall信号的一般经过一个简单的整形电路以后直接接入单片机�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4McQHqjJcUhmes3Zk4K8nanUqZB0DPIIfNRURGCrhyXTyyr6D3U7fJWg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_001_19ab79be694c.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MRad1lGdFoQyPhFKRBotfia6VKb4UKUZ3ic87kmp2vElQggm1BZQeIfXA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_019_1552b40aac05.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4M8z6n3YW9ClaFKF7ZMkicTfw8bSicVyC9apSdnibSAJDIo6PNA0X8dqic3A/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_020_a87810e35c79.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MaKsxxxjcKp67ia0mgH2gOYLfwSRyhOcYDyQeX2icOWOQweFicA1ialKWYg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_004_911cab50e1a6.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MibZbL39GJvgnssibUJfrf1bwoNvoZfy9d8t1EjjcpmjDxHYBJmo7rC9g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_022_70312aed3f69.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MIPN4eop4sfsRE7zB7LK37DzTwqYDM00QQNubkvLzhdzy8RNBqNgHAw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_023_d0d9f9095fa8.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4M9ZzTLSCHjIyAyu0RQRKkKibaKrJ5F6HlXxr8KQgRRH2LQTibEXqHzBBw/640?wx_fmt=jpeg)
-
-  
-
-  
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MU7icjxY1XX7FeVaK4KwwCxvjwQ8HwricgtjN1SKpNEgTrvD0OBt4JaBA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_024_26b72a23e067.jpg)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MeGggiagHVCW2jJY1GyYKcX2RfhNb4yic3VeVHK6iatRzepQJjFRMQgXRw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_008_fbcb8bb4c739.jpg)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4M1avVf9icYHbeJgAlDgAtf5tV0T5Fgk5Lu2s9aG9ZtvxQzFq5cu3vjRQ/640?wx_fmt=jpeg)
-
-  
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4Mqk27icosr1D3nuUkeRbxQdczLZtjF5bbgV791dq0WNib1Boo04KdDcfw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_026_581e1eba546f.jpg)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MeWUo3Ek97jNNuN2ibmQicZz6l2ibANtqtCH65SicP1aqaqpAMwe2DVFagw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_010_2f04c202997e.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MLXiaicxdxPHWag3iaSmORaTBGCyF6H74oP43uHAdBTc2P1ToQvBjr5SZA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_011_8bf6b59625e8.jpg)
 
   
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4M1BDsyxNczK1ZZsnhIOu3swbOPa3pbibpx0LPfruSRWo4hftHQZqlCjQ/640?wx_fmt=jpeg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MJMkQrr7giavK8n6GkXdknAQY9ltl5vpmun6gk2CZ670R6wcjQa1urgg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_029_a36044d58ca4.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MibLytlXsPvhCZrOl7kIdeGjgg5uUPR06KF8umFEsRibjVKEYckyGiaaXA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_013_7b40611e1cba.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/PBEVNXIcIysGNgUPPhUiawrYPiawQbVC4MaELpDibbib7EZvA1uJU7qWWNpOK3ibed8Rd9Ywc3FGEicwv3O2O8FswUibQ/640?wx_fmt=jpeg)
+  
+
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_031_7f0b7bb6e2a0.jpg)
+
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_032_c68fbbe8f2f7.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_016_eec65c278275.jpg)
+
+  
+
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_034_fc2d67867ee4.jpg)
+
+  
+
+![](D:\电脑文件\公众号知识库\电机控制_PMSM_FOC\永磁同步电机的FOC__DTC_你能弄明白吗__images\img_035_509372e3b2b3.png)
 
   
 

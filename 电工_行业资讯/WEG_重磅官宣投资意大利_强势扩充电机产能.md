@@ -4,9 +4,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/dcZLO4CImg2xGoH0xyG94A](https://mp.weixin.qq.com/s/dcZLO4CImg2xGoH0xyG94A)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vVzniaJLlic39Dz12BCFAZj7AWkWzuNibGJdicvKpp96atY6HXBudPQPnwHaLIUMU8bzYtnGzHWGjibIg/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzU4MDY1Mzk2Nw==&mid=2247696859&idx=1&sn=9eb96c0e080b2c91b5969ca0495891d2&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\WEG_重磅官宣投资意大利_强势扩充电机产能_images\img_000_4e02116f074e.jpg)](https://mp.weixin.qq.com/s?__biz=MzU4MDY1Mzk2Nw==&mid=2247696859&idx=1&sn=9eb96c0e080b2c91b5969ca0495891d2&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\WEG_重磅官宣投资意大利_强势扩充电机产能_images\img_001_d8cb52582ba8.jpg)
 
 
 来源：WEG
@@ -15,15 +15,15 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/qFKmPmbrgqYVrE0YRKruw6j6dXbJRUicV0TZ5zXpVGQVEasH9XxjXjicOHy8QH8aR5URu9UEiac7DtB207oQCZJIg/640?wx_fmt=gif&from=appmsg&wxfrom=13&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\WEG_重磅官宣投资意大利_强势扩充电机产能_images\img_003_1a2965638842.gif)
 
 全新的结构布局，不仅强化了协同效应，还促使公司在意大利的生产能力得到显著拓展。
 
-![图片](https://mmbiz.qpic.cn/mmbiz_gif/qFKmPmbrgqYVrE0YRKruw6j6dXbJRUicV0TZ5zXpVGQVEasH9XxjXjicOHy8QH8aR5URu9UEiac7DtB207oQCZJIg/640?wx_fmt=gif&from=appmsg&wxfrom=13&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\WEG_重磅官宣投资意大利_强势扩充电机产能_images\img_002_1a2965638842.gif)
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/qFKmPmbrgqYVrE0YRKruw6j6dXbJRUicVMAvJRhqjN11AcTITZh9uxF01vSp8ibPmicdNqCZ1e2FfpnRsricBCxjMg/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\WEG_重磅官宣投资意大利_强势扩充电机产能_images\img_004_8e2ad2f9dc8d.png)
 
 WEG 集团宣布在意大利利索内地区投资约400万欧元，用于扩大低压电机的生产能力，这是该项目的第一阶段投资。
 
@@ -62,13 +62,13 @@ Founded in 1961, WEG is a global electro-electronic equipment company, operating
   
 
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vAFjNjgs25tqibVUnHhKtqEDibUPDEujzIicS3PhXH2y8OJz6cAQY2noeyldbvNbT7ibRjE3iccc4KyLw/640?wx_fmt=png&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzkzMjc2MDYzMg==&mid=2247498858&idx=1&sn=cbdd1df5338cc64e8c770d5972e4b69e&scene=21#wechat_redirect)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88HJkEmpYqlKiaC4tFrnTia7L7pjBnCvUZtV9MV1HRf7nRn8kPs7bKsmQQ/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\WEG_重磅官宣投资意大利_强势扩充电机产能_images\img_005_924c6fc5162f.png)](https://mp.weixin.qq.com/s?__biz=MzkzMjc2MDYzMg==&mid=2247498858&idx=1&sn=cbdd1df5338cc64e8c770d5972e4b69e&scene=21#wechat_redirect)![](D:\电脑文件\公众号知识库\电工_行业资讯\WEG_重磅官宣投资意大利_强势扩充电机产能_images\img_006_3ccc50bba2ef.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\WEG_重磅官宣投资意大利_强势扩充电机产能_images\img_007_bcb57d883039.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\WEG_重磅官宣投资意大利_强势扩充电机产能_images\img_008_1862cf7fbcf8.jpg)
 
 扫码报名了解变压器会议
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6OxT5YrmvxSnbaaDeXF4bqovY9IfrC6SxJMBQtp4dnM1tPnlKziaSEUguw/640?wx_fmt=jpeg&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uKdXjFpsB1RDrRBMYRO6Ox2gll6RtjpK3FFYmgTBOGo4FeTnVZtkL7ZlKEclXqTtZ7vtFY28R0ew/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\WEG_重磅官宣投资意大利_强势扩充电机产能_images\img_009_ccd55559c531.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\WEG_重磅官宣投资意大利_强势扩充电机产能_images\img_010_56b163a836a8.jpg)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\WEG_重磅官宣投资意大利_强势扩充电机产能_images\img_011_dac57d0b3024.png)

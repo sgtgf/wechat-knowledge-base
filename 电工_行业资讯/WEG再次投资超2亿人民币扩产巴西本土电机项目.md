@@ -6,14 +6,14 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\WEG再次投资超2亿人民币扩产巴西本土电机项目_images\img_000_d8cb52582ba8.jpg)
 
 
 来源：WEG
 
   
 
-![图片](https://mmbiz.qpic.cn/mmecoa_png/gPh38aHLj75GzCn7aL27AJoI6reJ4ehUTMGtoS72IzV53YQIALkvUBTFdsDUAESc2uoIfffjDGguRXwRpx6fgQ/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic&watermark=1)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\WEG再次投资超2亿人民币扩产巴西本土电机项目_images\img_001_60482ebe0168.png)
 
   
 
@@ -31,7 +31,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/ZmBgPlKTGd4ndTAqaB636xkEfo5ClDsibFQRDsw7WQVGt7mFHZas7LvUtcuQibQCdu9TwMkKX1icz2libOdTA9gwmw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\WEG再次投资超2亿人民币扩产巴西本土电机项目_images\img_002_826a9aebee62.png)
 
   
 
@@ -53,14 +53,14 @@ WEG成立于1961年，是一家全球性的电子电气设备公司，在资本�
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\WEG再次投资超2亿人民币扩产巴西本土电机项目_images\img_003_3ccc50bba2ef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vFdbQBcRvGmgRg8Ao0tzGicg5GDbOZaxXCePhXlaYjFRicr41aeW7iaSpvXibOWo95VLyySibia48OZnvA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\WEG再次投资超2亿人民币扩产巴西本土电机项目_images\img_004_0b06b9969608.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vFdbQBcRvGmgRg8Ao0tzGicdCO7ibiaJVnp0B8Wicfh4YdGd0e03zcibEWbp8wepeniar8mic1E3a366uNQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\WEG再次投资超2亿人民币扩产巴西本土电机项目_images\img_005_e882608f8821.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vFdbQBcRvGmgRg8Ao0tzGicmbLeF01Zgqdp7OrJeiak8MgAVJ0Pib5ZOPeBNv0gCOt1QMbqWMcxpqiaA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\WEG再次投资超2亿人民币扩产巴西本土电机项目_images\img_006_56e89a58bda9.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\WEG再次投资超2亿人民币扩产巴西本土电机项目_images\img_007_dac57d0b3024.png)
 

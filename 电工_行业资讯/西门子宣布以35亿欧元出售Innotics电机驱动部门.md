@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/vJ4Wm1bMoYbGS0V4Kbbtyg](https://mp.weixin.qq.com/s/vJ4Wm1bMoYbGS0V4Kbbtyg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vnX1lWHoFibqUI1eNcg9vflNcVlSB8kBgOtVA8Ygm35kunaly4sHD18CNj06oiabQHJB1eodW2qulg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子宣布以35亿欧元出售Innotics电机驱动部门_images\img_000_4ba30b821cde.jpg)
 
   
 
@@ -52,7 +52,7 @@ Innotics首席执行官Michael Reichle强调:"与KPS的合作，不仅仅是资�
 分析认为，KPS作为私募股权集团，可能会对Innotics进行资本重组，以及业务方向和产品线的调整，以提高运营效率和盈利能力。与此同时，在KPS的支持下，Innotics的独立可能会增强其在电机驱动领域的市场竞争力。
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子宣布以35亿欧元出售Innotics电机驱动部门_images\img_001_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子宣布以35亿欧元出售Innotics电机驱动部门_images\img_002_e8e68bdfc1b3.png)

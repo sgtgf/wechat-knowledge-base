@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/S8J69gx5SG5GOCkL1PwKjA](https://mp.weixin.qq.com/s/S8J69gx5SG5GOCkL1PwKjA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tR6ibHibXQwRvAgf6ia352mOJAgKa3qV8nHpFhYYibslVUltyib6naMTdyzG46f4SEoMicmAfx0VbynC0A/640?wx_fmt=jpeg&from=appmsg)
+![](双燃料发电机组的pid控制_images/img_000_ea977e48a43f.jpg)
 
   
 
@@ -41,12 +41,12 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/qRk6eDhpI5wFW9PlJPeP834RCKMGJAbC4Q2bDZ8PZQGv7wRPWnIbSciaPSjajFDIU8MobacyXdrsXgjInibRFS9w/640?wx_fmt=jpeg&tp=wxpic&wxfrom=13&wx_lazy=1&wx_co=1)
+![](双燃料发电机组的pid控制_images/img_001_c37204305bb0.jpg)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0uibkIvkAHOPtHA9gym3XODEWrQGWXmjNHrmp8Mp3Mv8wdYjoiaNyL1EPibFpmHlcYK1m1wplSBia5vXg/640?wx_fmt=gif)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](双燃料发电机组的pid控制_images/img_002_a3efb375477c.gif)![](双燃料发电机组的pid控制_images/img_003_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](双燃料发电机组的pid控制_images/img_004_e8e68bdfc1b3.png)

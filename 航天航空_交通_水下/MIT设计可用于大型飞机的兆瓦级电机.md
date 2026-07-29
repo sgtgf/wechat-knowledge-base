@@ -8,13 +8,13 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sQXXMU3PBtQljOEWlK5gtZhuDrrbzsz9mXb7KibjQ6sZO5RJTkNsEiazAQQq7wv3iaGK2wcYCIYrUYw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\MIT设计可用于大型飞机的兆瓦级电机_images\img_000_8b1f3bc71406.jpg)
 
 **
 
 **来源：** **IEEE电气电子工程师**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3011tpKQA8XvlgcnXE6duJGTa1ywQS8QbpCbjibicKnYia7wnfPqMl8oMxlU0Hrmeo1YhL3flnLKFfZwMHxpU7Gyw/640?wx_fmt=png&wxfrom=13)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\MIT设计可用于大型飞机的兆瓦级电机_images\img_001_44dffdab9666.png)
 
 AIRBUS  
 
@@ -41,7 +41,7 @@ AIRBUS
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/3011tpKQA8XvlgcnXE6duJGTa1ywQS8QTdu4F9KNUd12a4R7GX8vMvBvtaNiaJ0havdmicbTyV39TjQGpueAq8iaw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\MIT设计可用于大型飞机的兆瓦级电机_images\img_002_cfeca750a8e1.png)
 
 MIT  
 
@@ -130,10 +130,10 @@ Spakovszky说：“我相信，要实现净零排放，未来的飞机必须看�
 [【重磅】5部门发布最新电机能效准入水平！虚标能效将被重点打击整治！](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247535908&idx=3&sn=6eec1347ec795a83176cc4f901ec55fa&chksm=cede0ce0f9a985f64ce0e07697e68c6ddb191072645aa6d8de6370bcd597bb610675d2897b02&token=66697538&lang=zh_CN&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vNgDWjDGOEdV8YZbXlLiaVlzL6d9aRqxQbhryqmntUDfnXZAKzJFTmkmV8clqKzz2Au7Kos0YMKWw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\MIT设计可用于大型飞机的兆瓦级电机_images\img_003_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\航天航空_交通_水下\MIT设计可用于大型飞机的兆瓦级电机_images\img_004_2b0460b8b917.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamVK9gBdcF4HYg2ia6FxJR10aoxdBKO6kSt8uPiakr3iaBpEYoZ9wxsSFSQ/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\MIT设计可用于大型飞机的兆瓦级电机_images\img_005_37fac5a47911.jpg)![](D:\电脑文件\公众号知识库\航天航空_交通_水下\MIT设计可用于大型飞机的兆瓦级电机_images\img_006_a6e4e8e00379.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\MIT设计可用于大型飞机的兆瓦级电机_images\img_007_ec5921db28d2.png)
 

@@ -8,14 +8,14 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tbNsCFC0AHia37KF8iciapax1xHicVnLQN4FKqwxAqCXibgXqQ0e3aqvYQ26pvERgY4JibS8LYZOPWa5pA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\江苏科技大学_Nano_Energy__通过峰移修正电荷泵浦的超高电荷密度和直流输出的摩擦电纳米发电机_images\img_000_86070280ef99.png)
 
 
 来源：宫商角徵羽的羽 微纳传感与柔性电子  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/mkqb8YRz1kopBnFPnss3ufSQZw6ERbnPxCvQtNbR5FvfGqYmMs4gwsMPl3ws2KlRtuWEdDZKYpTNCvoNuCKyicw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\江苏科技大学_Nano_Energy__通过峰移修正电荷泵浦的超高电荷密度和直流输出的摩擦电纳米发电机_images\img_001_6f381d55f3f8.png)
 
   
 
@@ -33,19 +33,19 @@
 
 **图文解析**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/mkqb8YRz1kopBnFPnss3ufSQZw6ERbnPrp26wSOvgmWsVwHaXofkicpwTaCN5ibgzYwPpibqibKz531IZ5heiaJBlNw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\江苏科技大学_Nano_Energy__通过峰移修正电荷泵浦的超高电荷密度和直流输出的摩擦电纳米发电机_images\img_002_cdb790567155.png)
 
 图1  结构原理图和设备图片。(a)多级电荷泵送TENG示意图。(b)活动层尺寸为9 × 9 cm2的整体TENG器件图像。(c,d) PTFE和PDMS薄膜摩擦材料的SEM图像。(e)每个TENG之间泵送的连接方式示意图。(f)多级电荷泵浦TENG的直流Voc输出
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/mkqb8YRz1kopBnFPnss3ufSQZw6ERbnP4iaNpZPt0rF3wW0QjnI9PmhhUJoplXrQDXlJh1yNfKE4icbSIhqVZ8jw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\江苏科技大学_Nano_Energy__通过峰移修正电荷泵浦的超高电荷密度和直流输出的摩擦电纳米发电机_images\img_003_29d0a20b57b4.png)
 
 图2 具有泵送结构的TENG的电输出特性。(a)由不同电压的外部电压源泵送的各种TENGs的电压输出。(b,c)多级泵浦TENG的Voc和Isc波形。(d,e)多级泵浦TENG的Voc和Isc与频率相关。(f)不同尺寸的多级泵浦、单级泵浦和主TENGs的峰值电压值
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/mkqb8YRz1kopBnFPnss3ufSQZw6ERbnPaVWNm2bZQtficPE16BBT1dmQztcJmIGxCrWr4uQOcfKI3wAsom7Iztw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\江苏科技大学_Nano_Energy__通过峰移修正电荷泵浦的超高电荷密度和直流输出的摩擦电纳米发电机_images\img_004_19b750f0119b.png)
 
 图3 TENG的工作原理，以实现增强电荷密度和直流输出。(a)整体、主、泵- i和泵- iiTENG的Voc。(b)整体、主、泵i和泵iiTENG的Isc。(c)整体、主、泵- i和泵- ii的TENG峰值Voc和Isc值比较。(d)多级电荷泵送结构的TENG和串联连接的TENG的Voc输出比较。(e)多级电荷泵浦TENG工作模式示意图。(f)从能量守恒的角度说明泵送前后脉冲峰值变化的工作原理。(g)双级泵浦TENG、单级泵浦TENG和无泵浦主TENG的转移电荷量
 
@@ -55,13 +55,13 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/mkqb8YRz1kopBnFPnss3ufSQZw6ERbnP8iaacB3YvunoMeCa5QPtHugibJRJnnkKqojN4maFMI8aw5SK7byoY4lA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\江苏科技大学_Nano_Energy__通过峰移修正电荷泵浦的超高电荷密度和直流输出的摩擦电纳米发电机_images\img_005_41cca54a0fda.png)
 
 图4 带泵浦或不带泵浦的输出功率。(a)多级泵浦TENG、一级泵浦TENG和无泵浦的主TNEG在各种负载电阻下的电压、(b)电流和(c)功率输出。(d)多级泵浦TENG在不同负载电阻下的充电和平均功率输出
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/mkqb8YRz1kopBnFPnss3ufSQZw6ERbnPnPgzeCT1hd2WZfqsdpMVFhM7IN45W1z2anLkiczDfeBwZlQB3SjsG0Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\江苏科技大学_Nano_Energy__通过峰移修正电荷泵浦的超高电荷密度和直流输出的摩擦电纳米发电机_images\img_006_b761d9e640c9.png)
 
 图5 TENG的应用演示。(a) 3.3 μF和4.7 μF的快速充电电容，直接使用TENG的直流输出到高压。(b) TENG的耐用性能，可工作15,000次。在耐久性测试的开始和结束时，插图是详细的Voc波形。(c) TENG点亮led灯图像。(d) TENG的充放电曲线和(e)电路示意图，通过TENG的一个200 μF电容在可持续模式下为热湿度计供电。(f)加热温湿计的照片。(g) EPD装置照片和(h)由TENG直接供电的Fe2O3薄膜镀膜电路示意图。(i,j) TENG沉积Fe2O3涂层的照片和截面SEM图像
 
@@ -77,13 +77,13 @@ Gang Jian\*, Qingzhen Meng, Ning Yang, Liang Feng, Fengwei Wang, Yun Chen, Ching
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s0OaHsxVicqRwsd1jffsZ1SInziao432K25CLbwomI8aoRfBsD0ibko7MJkWIcoEm08ia03Vpey2IyxQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\江苏科技大学_Nano_Energy__通过峰移修正电荷泵浦的超高电荷密度和直流输出的摩擦电纳米发电机_images\img_007_a42af9525055.png)
 
   
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\江苏科技大学_Nano_Energy__通过峰移修正电荷泵浦的超高电荷密度和直流输出的摩擦电纳米发电机_images\img_008_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
 
   
 

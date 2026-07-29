@@ -6,7 +6,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9ibzv2CYiaZGO7Tq4h3lZxuvbQmbL3AwLGGfwck7yBqibEwbUCQj5X4H0WeBKrlQ4VFeOHLNADNpcQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NEMA电机与IEC电机的区别_那种到底更节能__images\img_000_f83937bbb314.jpg)
 
   
 
@@ -26,7 +26,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd62KINBqAbFqXd5CEjH0KSuckTb1komgs66HBz5a1Z4l3hoO0qVibjVQIxW5cwAI4aCSpA3Vy2bfJg/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NEMA电机与IEC电机的区别_那种到底更节能__images\img_001_585f9cf65a12.jpg)
 
 **NEMA标准电机**
 
@@ -38,7 +38,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd62KINBqAbFqXd5CEjH0KSuGaXTx0nytlcyH6ChsRzJ0pib4rN4OyhwRuVf4501uKQW554cb9l0pIg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NEMA电机与IEC电机的区别_那种到底更节能__images\img_002_3a121b37e90c.jpg)
 
 **IEC标准电机**
 
@@ -54,17 +54,17 @@
 
 整体来说主要是机械尺寸安装差别较大，IEC对于密封更严格；电气方面Nema电气要求，有1.15的长期过载系数和UL常见的高绝缘要求
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jdkIUw6IQK7k7JTzxbb7WQELshfMOiaF5JHmy9lFZfOJIgdEJ2CbMZDh16Rv4ib32rVCiaw5yJcWjrgAag8DdPtCA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NEMA电机与IEC电机的区别_那种到底更节能__images\img_003_fec0d7b4f9c4.jpg)
 
 Nema和IEC电机基座号的对比：  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/jdkIUw6IQK7k7JTzxbb7WQELshfMOiaF5BOrogWRTJFEKvTZd3ZtdmH1Y81SFokjEYWOdCYIEzYrtg1cGBnMUSQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NEMA电机与IEC电机的区别_那种到底更节能__images\img_004_99239857513f.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd6ZiactaPdrjYVRETbCbBgoFG3KecZFviaA00wFJ0D6ee1a6zCvia3jicATE9SqE1Waon2wJ2r683TH3g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NEMA电机与IEC电机的区别_那种到底更节能__images\img_005_3d9297491e72.jpg)
 
   
 
@@ -79,7 +79,7 @@ Nema和IEC电机基座号的对比：
 
 NEMA 在北美市场尚未为 IE5 提供定义标准，尽管一些制造商正在销售 VFD 驱动的电机驱动对，称为"超高级效率"。同样的概念也适用于通过全负载和部分负载的变速驱动器实现 IE5 等效效率水平。使用铁氧体辅助同步磁阻技术的集成电机驱动器是另一种解决方案，可提供 IE5 级别的效率并简化设置，同时消除昂贵的布线和安装时间。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd6ZiactaPdrjYVRETbCbBgoFJ9biaADk9Lbrxwb5ssh7hb67e8OhSev4qZH2oJQvPGyiauFsIdq56dibQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NEMA电机与IEC电机的区别_那种到底更节能__images\img_006_673c9d576399.jpg)
 
   
 
@@ -100,7 +100,7 @@ NEMA 在北美市场尚未为 IE5 提供定义标准，尽管一些制造商正�
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NEMA电机与IEC电机的区别_那种到底更节能__images\img_007_a6c2e413e6e0.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\NEMA电机与IEC电机的区别_那种到底更节能__images\img_008_d84912f96aa9.png)

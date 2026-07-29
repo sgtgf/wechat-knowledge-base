@@ -17,11 +17,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icrlIsZGPBvwaeFYiaUggKpYQa0qzwwqXv3QobnUuBL9vDVlf84NyyRIdWBolicJ2POGH9E3PUKpHf1qNxNTbk0Zg/640?wx_fmt=png&from=appmsg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\_平衡大师_登场_PLC_触控机_images\img_000_085ad3fe570d.png)
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icrlIsZGPBvwaeFYiaUggKpYQa0qzwwqXvERricuiazK5uUZldWWic5OpLlZohZJibVYR6s6eiaoyLUOI4u4a4GaOYRoA/640?wx_fmt=png&from=appmsg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\_平衡大师_登场_PLC_触控机_images\img_001_ff91f7dbe9d0.png)
 
 本装置是用于测量新能源电机转子动平衡的机电一体化设备，采用了以PLC作为主控机，完成测试修正相关计算及转子相位控制，以触摸屏作为人机交流界面，进行参数的设定以及对机器的操作，使操作变得非常简便。采用PLC系统控制，对转子参数的设定、转子品种的录入、不平衡量数据的处理，测量单元的工夹具置换、自动钻削等工作都能很容易完成。同时还具有数据数据记录的功能。
 
@@ -35,7 +35,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icrlIsZGPBvwaeFYiaUggKpYQa0qzwwqXvS8gewdbd0KSlOJhwjQa0ZsjdQg0IyMXD3Jnib8xAicMTJia4ON5a49sLw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\_平衡大师_登场_PLC_触控机_images\img_002_5e01e4a292a6.other)
 
   
 
@@ -79,7 +79,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icrlIsZGPBvwaeFYiaUggKpYQa0qzwwqXv1sUv86cymJVd6lHhY7UtrO7v7lXyP70GyOFz1MawY2iaFXyMWC1hN2g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\_平衡大师_登场_PLC_触控机_images\img_005_e8deaa58aae5.other)
 
   
 
@@ -91,7 +91,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icrlIsZGPBvwaeFYiaUggKpYQa0qzwwqXvbEE2gILxDz11Se8JjLOicQ9KMTCo6MO1hJrlBy5mKtV7qCAFjgs1ukA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\_平衡大师_登场_PLC_触控机_images\img_004_4ffb49e53650.other)
 
 **扫码关注集智股份**
 
@@ -101,7 +101,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icrlIsZGPBvwaeFYiaUggKpYQa0qzwwqXv1sUv86cymJVd6lHhY7UtrO7v7lXyP70GyOFz1MawY2iaFXyMWC1hN2g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\_平衡大师_登场_PLC_触控机_images\img_003_e8deaa58aae5.other)
 
 **杭州集智机电股份有限公司 已确认参展**  
 
@@ -117,7 +117,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/icrlIsZGPBvwaeFYiaUggKpYQa0qzwwqXvM9LecLUxgnIeS7IHFPXMUf3ZZnkpPomEftDJZg0m8OricARaAG6ibdfg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\_平衡大师_登场_PLC_触控机_images\img_006_3d0c8d265af4.other)
 
   
 
@@ -135,7 +135,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/icrlIsZGPBvwaeFYiaUggKpYQa0qzwwqXvB2t6jvdqxxteYQ0A45FggxQCtwGW9XbZYA6cUCIopibqnuSgncOicIAw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\_平衡大师_登场_PLC_触控机_images\img_007_49bd4f57d7bd.other)
 
   
 
@@ -146,11 +146,11 @@
 **9月19-20日**，**广州**将汇聚行业智慧，围绕扁线电机深入探讨**电机数字化与低碳化**转型之路。**新能源乘用车、商用车、工业自动化及机器人、新兴应用领域**四大专场论坛，携手行业领袖，共谋未来发展。更有**【佳腾】**主办的**PEEK线材技术创新与供应链协同发展高端闭门会**，揭秘最新技术趋势，促进产业链深度融合。这是一场不容错过的行业盛宴，期待您的精彩参与，共同开启新能源扁线电机新篇章！
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t8PE1jut6syNaXWztwMIKflTUnuEXWxPibLJDokYVjA047arWNC64WjZJstawXXntEkpuzS14LA6A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\_平衡大师_登场_PLC_触控机_images\img_008_30f20d6608ae.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\_平衡大师_登场_PLC_触控机_images\img_009_9967d1607b24.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\_平衡大师_登场_PLC_触控机_images\img_010_fb0ff5197498.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\_平衡大师_登场_PLC_触控机_images\img_011_e8e68bdfc1b3.png)

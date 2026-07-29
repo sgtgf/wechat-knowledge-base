@@ -36,7 +36,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/VWicKpE6mozOVB0jrqXWcoo25OgXc301Nu2iaUwzqor6nlYicObdUuaVleXh1FMYoxMkeCEYBweUHxp3YquK2JKIw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\投资1_5亿美元_ABB机器人超级工厂在沪落成投产_images\img_000_68e9e7faad4d.png)
 
 值得关注的是，超级工厂内新的研发中心占地8000平方米，将加速在人工智能、数字化和软件方面的创新，着力于自主移动、数字孪生、机器视觉和低代码编程软件等领域，使机器人更智能、更灵活、更安全、更易于使用。
 
@@ -72,7 +72,7 @@ ABB机器人进入中国市场近30年来，一直为包括汽车、电子、金
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VWicKpE6mozOVB0jrqXWcoo25OgXc301N9wIShblKSThcbRjTgricjcoumxXXwX9YicdkjBZ6c161dGRAgET7ny1Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\投资1_5亿美元_ABB机器人超级工厂在沪落成投产_images\img_001_7557e82bd135.jpg)
 
   
 
@@ -109,10 +109,10 @@ ABB机器人进入中国市场近30年来，一直为包括汽车、电子、金
 
 [【重磅】5部门发布最新电机能效准入水平！虚标能效将被重点打击整治！](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247535908&idx=3&sn=6eec1347ec795a83176cc4f901ec55fa&chksm=cede0ce0f9a985f64ce0e07697e68c6ddb191072645aa6d8de6370bcd597bb610675d2897b02&token=66697538&lang=zh_CN&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\投资1_5亿美元_ABB机器人超级工厂在沪落成投产_images\img_002_31a98b8e3167.jpg)
 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\投资1_5亿美元_ABB机器人超级工厂在沪落成投产_images\img_003_ec5921db28d2.png)
 

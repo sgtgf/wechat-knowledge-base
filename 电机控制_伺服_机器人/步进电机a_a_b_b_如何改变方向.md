@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/\_uQ4rVfr7Xcw8ID6gYP81A](https://mp.weixin.qq.com/s/_uQ4rVfr7Xcw8ID6gYP81A)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vjGIo9iajU7GEdaXRKJvE70gXD3hHQicuj2xINk1PgTmRnbHlq7BFI0qoZEuO3wrDNZjBBrp5z0PPw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\步进电机a_a_b_b_如何改变方向_images\img_000_ec1393343387.jpg)
 
   
 
@@ -15,7 +15,7 @@
 
 步进电机是一种将电脉冲信号转换为机械角位移的执行元件，广泛应用于自动化设备、机器人、数控机床等领域。步进电机的工作原理是通过控制电机内部的线圈电流，实现电机的步进运动。在步进电机的驱动方式中，a+a-b+b-是一种常见的驱动方式，它通过控制四个线圈的电流，实现电机的正反转和步进运动。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/GJ0wqfRCxttLVpqAN9AChCZ2nib9DOVYMpwHxdibmpKEeNkHSTKvO3fLL55tIvLxrBbyLW68qdHs4SooZd5azrgQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\步进电机a_a_b_b_如何改变方向_images\img_001_2e015b9ac461.png)
 
       本文将详细介绍步进电机a+a-b+b-驱动方式的原理、特点、应用以及如何改变方向。
 
@@ -56,7 +56,7 @@
       步进电机a+a-b+b-驱动方式具有控制简单、响应速度快、运动平稳和控制精度高等特点，广泛应用于自动化设备、机器人、数控机床等领域。通过改变线圈电流的相位或顺序，可以方便地改变电机的正反转，实现不同的运动要求。
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\步进电机a_a_b_b_如何改变方向_images\img_002_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\步进电机a_a_b_b_如何改变方向_images\img_003_e8e68bdfc1b3.png)

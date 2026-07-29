@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t5GIESw2o2KribJYmIOEVaO9hxhmCxPaYUOcTGTAOGIDJ7jiaMO8KUKtCWgEcuUu1JSI2wG85mebGw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_技术解析__E_型电机的防爆原理及设计要点_images\img_000_2ca94972b893.jpg)
 
 
 来源：今日电机
@@ -52,7 +52,7 @@
 (5)不同电位的导电零件之间的电器间隙和爬电距离大于普通电机的规定值，应符合GB3836.3-2021 的规定要求。  
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/uicPDfgiaod4mQRzrpc9wMMxZMXicWkamLoug1YiaeNRNVibvoIn00G2HFgFibI12TI5dGwaibUj7vRxzoRlyP6TEmBbA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_技术解析__E_型电机的防爆原理及设计要点_images\img_001_9f56c7c4a7dd.jpg)
 
   
 
@@ -76,7 +76,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/uicPDfgiaod4mQRzrpc9wMMxZMXicWkamLon3taKFVgItKSrkN8ib2e6O2nob3aAgIcH19iblwUMgyoNvibKWKlfmVAg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_技术解析__E_型电机的防爆原理及设计要点_images\img_002_586c3d0387ff.jpg)
 
   
 
@@ -84,7 +84,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd7meHtwHGmyiahPkNgGJ8YFgNkaiaYiacUwOqmmAwDDRXRqNg9M4GiamGvxzkiaL8GphpHPiatezZqp1FHQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_技术解析__E_型电机的防爆原理及设计要点_images\img_003_aa0e34cf5d6d.jpg)
 
   
 
@@ -118,7 +118,7 @@
 
 电动机堵转时，定子绕组的温升△θ，与时间t的比可按下列公式计算：
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd7meHtwHGmyiahPkNgGJ8YFgibtiaYuR5LhibDRzZCIJe9yCFBVMhcdNHllhb4h9AHiciaxToJzUX9UIrgw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_技术解析__E_型电机的防爆原理及设计要点_images\img_004_aedf6130dffd.jpg)
 
   
 
@@ -128,7 +128,7 @@ a是常数, (对铜绕组,a=0.0065)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd7meHtwHGmyiahPkNgGJ8YFggAFk7KpJwGQzTRpPXBrTcr7195Rr0fDztr3WATKianUspr5Mqxa9uEw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_技术解析__E_型电机的防爆原理及设计要点_images\img_005_1cd9809a2794.jpg)
 
   
 
@@ -144,7 +144,7 @@ tE值一般应大于10s,同时还要求tE时间应不小于转子堵转时过电
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd7meHtwHGmyiahPkNgGJ8YFgOf2CL1z5ibxKiaEu3nyHQao50ibVe7libLEs7uZ7opkqu0MChpU6icczhtQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_技术解析__E_型电机的防爆原理及设计要点_images\img_006_a571154088ab.jpg)
 
   
 
@@ -156,14 +156,14 @@ tE值和启动电流比IA/IN均应在铭牌上标明，以便用户选用保护�
 
 采用过电流延时保护装置的电机一般只允许用于轻载启动和不频繁启动的连续工作状态。对于启动困难(即启动时间超过1.7倍tE)或频繁启动的电机，须采用特殊保护装置。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd7meHtwHGmyiahPkNgGJ8YFgOf2CL1z5ibxKiaEu3nyHQao50ibVe7libLEs7uZ7opkqu0MChpU6icczhtQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_技术解析__E_型电机的防爆原理及设计要点_images\img_007_a571154088ab.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\_技术解析__E_型电机的防爆原理及设计要点_images\img_008_31a98b8e3167.jpg)
 
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\_技术解析__E_型电机的防爆原理及设计要点_images\img_009_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
 

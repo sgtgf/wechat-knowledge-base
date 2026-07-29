@@ -8,170 +8,166 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tbNsCFC0AHia37KF8iciapax1xHicVnLQN4FKqwxAqCXibgXqQ0e3aqvYQ26pvERgY4JibS8LYZOPWa5pA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_000_86070280ef99.png)
 
 
 来源：网络  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcyRiarPuciaz3F3tWyCLYejbFh9ma1owViaeHDcYPmW2HCZ1Nm7En6O2bw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_001_d3add8c4cd3d.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdc0sQ9X1LbWtbnQULWRyYvc1m8ffY6LnU9oo7OTXtBX8NdmiaMGjiaC4Ww/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_002_d73a84f4b973.jpg)  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcFicVpRcJICbSA3omAPrbWqY8VWCZPPK2eibW3BAy7mwo3YLXfXrmXkGg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_003_1892015357f7.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcwWYUM1I1I7WlXwIcVu5uuhdbSial3rShIqicA84SutnmwzGCEMtqwF1A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_004_124a9947fcf7.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcvswJicJqGleIR4BEHZdxSGA9icIxtbz8WlsCXRsLbzpjz4WHzBMBVzDA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_005_11d563c5f6be.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcEPFrNLDNXJ6ctjsFxpdwrPkXu59a080ea08Oibibx8Q2ah670AOnx67w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_006_2ad757747a23.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdc9rR2F2hQlvJPMnJkibH9yOQyllwZib4PyPnt859yrNvuQ3jvxLicXbacA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_007_5e74828707f9.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcOpWmdMKvHyULjjia2ibBIVSxuhAERRj86qWqBOhoJurdZbx9Pj8T4ibJg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_008_5ebdb2f81859.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcN6FhDtKzpOlicYULFYg55P5oJciaDribTamv74wduwfSRRZ34eRG82Lkg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_009_c0747e64a914.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcia2mF6voyQsCw5w0NOc1nx8LKxgqkyXEibhFicic3pbjqR1e57GwFs0lSQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_010_90d0d37635a1.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcyFmJxDiaiaWCQrwF74YUXmkQZVZsuibPUdLSW5ugK3t23qngOwQjtMEWA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_011_96f6e8d8d195.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdc2QDEkVB5H3UAomIhXY6BibbCiaeTZOlTUZduTjlbpeWRW3w0r8VkkdXQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_012_857751f076a9.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdc3ACDeKRJmtj2dYLs5fiabLmEQm3a1lOvicicUqZ3ribp1HLYJ3fkF8iaVxw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_013_115482e77046.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcia0nHbZoiayfOjl5DKF70YGQ0wsV7ssmceIqtMS4SNWokd7ZTcXhJeFQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_014_7f34e3ec5d43.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdchpk8zCZNaEsxIiaeEpSnMWHd94fe6Rkq7KDstxE6HLmicjE0Y1nLicTIA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_015_4531d3e000fa.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcLN3xSAq1BuvNsuia37NNkGmpcS0ByHZW4kowUoWx4z5xzO006Cusmwg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_016_a0dc069d04c8.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcvBOpLpvOOG4VqmdN3eBQOTYccWDaKkEdQR2jLhGU4MFPMmpBpDpVxQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_017_cec506a6906c.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdclkicjA11eY8tNqZKXJYPY3ib5hJuBJLiaaMj8QtaDYs89muLAriaRW3zMg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_018_19d6c5dee4f3.jpg)  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcI5fcsXia7t0tACYCRzzaia3lJibfeXsIdWibkg6ySkm6pS9AyRvStM7tLA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_019_8908dc35a893.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcLU9oQNrBPdNU5PiaIhPicQX4aAribgXFcg8Afph7BrV3LBFoL7j47rliag/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_020_a6cdd5c5184e.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdc9eMDHaAMEjO1zdPvKdly19dhb9IkX14XQmhHBUPzTpaNEODMspWNGQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_021_66d419677fa6.jpg)  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdct8lHaYwBODmNlGvLrxteO6Yqz4gKcOAl3E52s4md642xXpSOylr2og/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_022_4f7a2dcad63b.jpg)  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdckRhicGAlRHia9r9S7K44etzVs3XwuuaE7KhvkPbs2qA1vyBbyte6bjJg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_023_d69a9ec44681.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ClS7iaIqI9fZJcGicd5Ro1h9u1jdh1drG8pCDbRLpyOoyt3VYS4IKpVnXhLpib2nvgBw2wniac3iaRbjzUPmKpJ5rPg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_024_e9103c46bca0.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdc15w3gv1nian3QuJYwAr9nCWa2LUyWwZYnWMxetlXHD4ShicPDcfGDT1g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_025_6de70163e03b.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdceW4Q2fHPEAfor3KiaLurvoJw3bS9d3YsmSGsm3Sgib1oDqiaB7X8GoiaLg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_026_3ac757f67157.jpg)  
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcOVEH9MuIQDibhTEqsaKRGmz7lR7YoeajQvicJFkjian3EEb7uKrp5gEbw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_027_df7e6a695ea7.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdc6q1Sh6iaQ63YXw5B4qMp9axFbfYdapFoELr84bXk6icnTusIrUr2BsAg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_028_a2190aafd88b.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdc0CZQ7vySpPpAs9oA7h8jIPcSibia8OKXyb34KFUsoYykaQkX2ujpuLUw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_029_a54c9980949a.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcP4PRBlK9TypLvEAQeBiceia0GhSdde14oZYMtRuwicJbJeBf2OEBe6acw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_030_dd89d51472fb.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdc5zVibhsl5CybWQcMs6VuOicF5JibyOstaftO9LDnEc4h8TWBdGKI3DzIg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_031_6acf2170b393.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcibPZ0VMTbC2ho0jUdf8LQfLXtT9aRYPz6ics6z75jMV4KtWiciacJaV4MQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
-
-  
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdchd4ic3PpOLiariaiatQrtImuwgbYZkIVzbCSX2E3O9C37uHylQnm4Xd16w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_032_e8cc939a1f93.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcXyJNPcWO2eSbVNTQMGQX5OgdpAD6FEALGCtldUZ7h2t9MR9EVARHRw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcHlM8W5enrJq9JpGnJ0Se12ibZ5clxEEnT285MDunyTP9Usrc7v2yVlA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_033_726e8098e8a8.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcUiaHcaj6ogzqb0Bj7xetL1BsCyNee4DyX2siaKowh2BjQfnHyNJYkGpA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_034_28a3ae399fb7.jpg)
+
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_035_11019cbd562f.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcclORA8G1krwavIxmptZAN4K0NTLicVoZ4bMWVOj4VrfDPnQyBaZWD7Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_036_6e662077dda6.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcoP91dVDX2nqmKjnVKSYJjvUfHFL0AEOiaH6vBRnPuqEG4NUZOoYFR7g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_037_909920a4c82f.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdcWZobk776J77nyl4FsANKaIQR9FzicsicRWIH5G7PD8eNYh3B8DiatcwxA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)  
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_038_13ccfd503e31.jpg)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/IbK8vRh9Eqn6BplLoTJEO1tEYy9gOcdc5HeNibv8ZZPHj1z3KyTZ9frEjL4RmvnHJUOktvS2wZfSGegwvHNbkFg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_039_75efd59e8d6d.jpg)  
 
   
 
-  
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_040_155d24b3e284.jpg)
 
   
 
@@ -187,10 +183,14 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+  
+
+  
+
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_041_31a98b8e3167.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s0OaHsxVicqRwsd1jffsZ1SInziao432K25CLbwomI8aoRfBsD0ibko7MJkWIcoEm08ia03Vpey2IyxQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_042_a42af9525055.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\40页PPT详解步进电机_images\img_043_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
 

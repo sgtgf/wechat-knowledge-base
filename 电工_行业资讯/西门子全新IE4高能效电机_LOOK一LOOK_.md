@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vCgHTOeYuNghJolhyn0IFTBs9UHCKMbEjjbl9wMMjBrOg3UMESkT8V7gibE3QlyCmutQCmo0kgOng/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子全新IE4高能效电机_LOOK一LOOK__images\img_000_4bae7403cf13.jpg)
 
 
 来源：电机通
@@ -29,7 +29,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_svg/INk4JvWfe8W5oBxsoNZRuIkFeAPttVLVxUvUnumexcJabwdSbjUwUckk4s65mOGIP1oudPGxqS6thJuibDTbg0rFxNeOicQibTA/640?wx_fmt=svg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子全新IE4高能效电机_LOOK一LOOK__images\img_001_3eb405565d72.svg)
 
 低碳转型已成为制造业发展的重要方向。电机作为高耗能设备，其能效提升对于制造业的绿色低碳发展具有重要意义。作为一家专注的科技公司，西门子在电机研发制造领域有着逾150年的丰富经验，是电机技术创新的引导者。在可持续发展理念的驱动下，西门子针对中国市场研发SIMOTICS 1LE0 IE4高能效电机，以创新助力客户加速绿色低碳发展。
 
@@ -41,12 +41,12 @@
 
 **高级副总裁兼运动控制部总经理**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/M26ibyyXAicpyghyVLick9nXg5TohFDBqz3xST7thJN1TAiceSoeIkkOf2rDPrYHXlB8nmCI9LTLEKKPb1x3UEtDFw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子全新IE4高能效电机_LOOK一LOOK__images\img_002_b22b1b7c25b0.jpg)
 
   
 **降本增效，提升价值**。SIMOTICS 1LE0 IE4高能效电机能够帮助客户提高运营效率，大幅减少设备故障率，节省维护费用，进一步降低企业运营成本。其高效能特性帮助客户在使用过程中持续减少能源消耗，其节省的能源成本最终将高于电机自身的采购成本，从而缩短客户成本的回收时间。因此SIMOTICS 1LE0 IE4高效电机在其整个生命周期中，均能够通过节能增效降低能耗和企业运营成本，帮助客户提升竞争力。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/M26ibyyXAicpxmnxVkTQPoQwc9lzzdRDDXVeyQTGiaYrCPkiaicCTDWdicqayYjxyicvdXMFIJBohL0KkZ5FlJImUxbVA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子全新IE4高能效电机_LOOK一LOOK__images\img_003_71f058ab484f.png)
 
 IE4电机节能显著，有着更优的投资回报周期，此组数据对比基于西门子品牌电机
 
@@ -62,7 +62,7 @@ IE4电机节能显著，有着更优的投资回报周期，此组数据对比�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/M26ibyyXAicpxmnxVkTQPoQwc9lzzdRDDXHJ7FQeS1z0Lu3ZTjLiaKV2gFUqlPBFlibSyCzib4BaEOWHK6icZXK9QQ2g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子全新IE4高能效电机_LOOK一LOOK__images\img_004_72e16e5a0d38.jpg)
 
   
 
@@ -82,7 +82,7 @@ IE4电机节能显著，有着更优的投资回报周期，此组数据对比�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eAVsZbpicOLTFcEQicnYPLDech0ibict5bGGvk0ls8NoB6eQwcSTUiauUKTXkAgfqkV4rMjHD8NLH9anGrVP5qP99pw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子全新IE4高能效电机_LOOK一LOOK__images\img_005_32933f8625df.jpg)
 
 **1978年** | 就在十一届三中全会会议公报公布前的二十天，西门子在上海举办了“西门子公司电子和电气技术展览会”
 
@@ -112,7 +112,7 @@ IE4电机节能显著，有着更优的投资回报周期，此组数据对比�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eAVsZbpicOLTFcEQicnYPLDech0ibict5bGG5NsAcicuRjQlll1lKNgY4ebLvk13wWUGZkekuAMUEAkaWbuT4ma2dIg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子全新IE4高能效电机_LOOK一LOOK__images\img_006_00e5b461b641.jpg)
 
 **1972年** | 中国与联邦德国建交时德方赠送给中国的“国礼”就是西门子病房监护系统
 
@@ -130,7 +130,7 @@ IE4电机节能显著，有着更优的投资回报周期，此组数据对比�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eAVsZbpicOLTFcEQicnYPLDech0ibict5bGGIic61iaN6194LyUhe8y8HMe2OS68TZicQC7ITf8uZZUTsfpMmVAELoH8A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子全新IE4高能效电机_LOOK一LOOK__images\img_007_58d461c66efe.jpg)
 
 **1985年** | 西门子和中国政府在北京签署《西门子公司与中华人民共和国在机械工业、电气工程和电子工业等领域开展合作的备忘录》，西门子是在中国改革开放后第一家应邀与中国进行如此深入合作的外国企业
 
@@ -154,7 +154,7 @@ IE4电机节能显著，有着更优的投资回报周期，此组数据对比�
 
 2016年6月13日，在中德两国政府领导人的见证下，我们与中国宝钢集团签署了《宝钢与西门子智慧制造（“工业4.0”）战略协议》，涉及数字化咨询、先导项目、人才培养、智能制造标准的建设等方面。这个协议被誉为德国“工业4.0”与中国制造业转型升级开展对接的最佳实践。其实，西门子与宝钢，这两个中德两国最富有历史色彩的工业传奇企业的“对接”恰恰就始于四十年前改革开放最初的日子。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eAVsZbpicOLTFcEQicnYPLDech0ibict5bGGtI5r9zjsteF8Ga5haoRuJmoNX4zrEN1cKiccQb6971k1kRmZ9Dzd3gg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子全新IE4高能效电机_LOOK一LOOK__images\img_008_0a5bfde68baa.jpg)
 
 ▲ 四十年间，西门子与众多中国企业建立了长期、可持续的合作伙伴关系。图为西门子支持建设的宝钢冷轧车间控制中心（1989年）
 
@@ -172,7 +172,7 @@ IE4电机节能显著，有着更优的投资回报周期，此组数据对比�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eAVsZbpicOLTFcEQicnYPLDech0ibict5bGGxpicr6h8fVV8dkYDT9qUkltRFgVdEFIUvmL20scloriaSINh6y7fTxEQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子全新IE4高能效电机_LOOK一LOOK__images\img_009_d45c80e36879.jpg)
 
 **1989年** | 西门子参建的位于上海附近的中国第一条高压直流线变电所。截至2018年初，西门子参与了中国18条高压直流输电线路的建设
 
@@ -204,7 +204,7 @@ IE4电机节能显著，有着更优的投资回报周期，此组数据对比�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eAVsZbpicOLTFcEQicnYPLDech0ibict5bGGBavvKibEOEJnX8BkXuF4UfYDgMGdHVNPuMRedSv1Ac4j0siaiaIRTyiakQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子全新IE4高能效电机_LOOK一LOOK__images\img_010_d22a7dd87e28.jpg)
 
 **1985年前后** | 西门子北京代表处员工合影。今天，西门子在中国已经有约34,000名员工，是中国最大的外商投资企业之一
 
@@ -212,7 +212,7 @@ IE4电机节能显著，有着更优的投资回报周期，此组数据对比�
 
 西门子在1989年成立第一个合资企业时，在中国仅有200名员工。今天，这个数字已经猛增到约34,000人，是当年的170倍。我的同事们有着丰富的经验、纯熟的技能和超凡的能力，更重要的是99%都是中国本地人。同样是在上世纪80年代，西门子在北京的办事处就设在长安街旁的民族饭店的一间客房，当年的同事告诉我，因为没有文件柜，大量的文件只能堆放在客房的浴盆里。而今天，西门子在中国几乎所有重要城市都开设了办事机构，仅在北京望京，我们投资一亿欧元建成的西门子北京中心就容纳了数千名员工，也成为西门子在全球最大的房地资产项目之一。如果有什么能解释这些巨变，那一定就是“信心”。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eAVsZbpicOLTFcEQicnYPLDech0ibict5bGGJuhcsInk0icj3OiawFYeecyvJkEg5ZQvMHwghqLHBDy1b6f414WP73Fw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子全新IE4高能效电机_LOOK一LOOK__images\img_011_35d265de93fa.jpg)
 
 **2009年** | 西门子在北京望京地区的总部办公楼为庆祝建国60周年用灯光组成了“60”的字样
 
@@ -242,7 +242,7 @@ IE4电机节能显著，有着更优的投资回报周期，此组数据对比�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eAVsZbpicOLTFcEQicnYPLDech0ibict5bGGUEA4DUJNegtHbHknjiciaIheCj6iaxYqEQv26v70Z1vuhPZibZ7GrrmULg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子全新IE4高能效电机_LOOK一LOOK__images\img_012_dadc1196c20a.jpg)
 
 **1986年** | 西门子为中国高校装备了总价值超过5000万马克的高性能电脑，并在德国为来自中国大学的老师提供技术培训
 
@@ -256,7 +256,7 @@ IE4电机节能显著，有着更优的投资回报周期，此组数据对比�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eAVsZbpicOLTFcEQicnYPLDech0ibict5bGGia9VaJO8tmaicSQ2hPXh5qrPfgiayrza92PvUkU4v8Po0mLcDBVCPVTyg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子全新IE4高能效电机_LOOK一LOOK__images\img_013_d0d5721e0a35.jpg)
 
 ▲ “为社会创造价值”——西门子员工在多个城市的外来务工人员子弟学校中教授环保教育课程，使超过两万余名学生了解并增强环保意识
 
@@ -302,10 +302,10 @@ IE4电机节能显著，有着更优的投资回报周期，此组数据对比�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/eAVsZbpicOLTFcEQicnYPLDech0ibict5bGGkveseibpEFKmj1GNZ0ZRJ9zTPVmKOAGXWJibXR4G5wb5P4icCsibDicVw4g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子全新IE4高能效电机_LOOK一LOOK__images\img_014_5414afc4f0c2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子全新IE4高能效电机_LOOK一LOOK__images\img_015_31a98b8e3167.jpg)
 
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子全新IE4高能效电机_LOOK一LOOK__images\img_016_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
 

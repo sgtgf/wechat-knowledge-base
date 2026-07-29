@@ -6,7 +6,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\最新进展_江苏一电机厂家IPO注册获批_电机圈再添_准上市公司__images\img_000_d8cb52582ba8.jpg)
 
 
 来源：中国证券报、中国证监会
@@ -17,7 +17,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_jpg/kgosth2zhjI7ibdPoI513ziaTJKFrDib9HHZiadbYDqr1oVic1wuoAGkmEEKseqjk7Tia8SBwDwoiaibKeEicRc8Y4OUlSw/640?wx_fmt=jpeg&from=appmsg&randomid=mwqnkjpn&wxfrom=13&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电工_行业资讯\最新进展_江苏一电机厂家IPO注册获批_电机圈再添_准上市公司__images\img_001_d0d478f5e7e7.jpg)
 
   
 
@@ -95,11 +95,11 @@
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\最新进展_江苏一电机厂家IPO注册获批_电机圈再添_准上市公司__images\img_002_3ccc50bba2ef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGTdAQI2qpV97qAmOqeibaIiaKVLIks3YeQgIOyX5ia8tqVf9AFgW3XZ8Lw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\最新进展_江苏一电机厂家IPO注册获批_电机圈再添_准上市公司__images\img_003_6eec1b7fb41b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGk0C4HQwvywiaCRaw753uY4ZQdjaYicMhbrRdySb1xNFYzMAMNV8icFb3Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\最新进展_江苏一电机厂家IPO注册获批_电机圈再添_准上市公司__images\img_004_1798abd6d288.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\最新进展_江苏一电机厂家IPO注册获批_电机圈再添_准上市公司__images\img_005_1862cf7fbcf8.jpg)
 

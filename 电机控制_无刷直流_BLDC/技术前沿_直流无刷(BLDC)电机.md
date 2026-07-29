@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/ibSsyAd1-ndvUVSaEIic0w](https://mp.weixin.qq.com/s/ibSsyAd1-ndvUVSaEIic0w)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tR6ibHibXQwRvAgf6ia352mOJAgKa3qV8nHpFhYYibslVUltyib6naMTdyzG46f4SEoMicmAfx0VbynC0A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_000_ea977e48a43f.jpg)
 
   
 
@@ -17,7 +17,7 @@
 
 最基本的电机是“DC电机（有刷电机）”。在磁场中放置线圈，通过流动的电流，线圈会被一侧的磁极排斥，同时被另一侧磁极所吸引，在这种作用下不断旋转。在旋转过程中令通向线圈中的电流反向流动，使其持续旋转。电机中有个叫"换向器"的部分是靠"电刷"供电的，"电刷"的位置在"转向器"上方，随着旋转不断移动。通过改变电刷的位置，可使电流方向发生变化。换向器和电刷是DC电机的旋转所不可或缺的结构（图一）。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgyhIcmIk6uHibpBVOhePUE0JBKwUzthOHglbCdmmR6CPp62VnrUpTCOA/640?wx_fmt=gif&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_001_dca35433a0e8.gif)
 
 图一：DC电机（有刷电机）的运转示意图。
 
@@ -27,7 +27,7 @@
 
 我们按电源种类和转动原理对电机进行了分类（图2）。让我们来简单看看各类电机的特点和用途吧。    
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgOfPXpB47XOkXX2K3uF3V4bgnTiaQDibw09L1q2IFpSUGBwAVVc2PZc1A/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_002_3bb14d9f34c8.jpg)
 
 图2：电机的主要类型
 
@@ -45,7 +45,7 @@ BLDC电机中的“BL”意为“无刷”，就是DC电机（有刷电机）中
 
 DC电机（有刷电机）中被固定的永磁体所制造出的磁场是不会动的，通过控制线圈（转子）在其内部产生的磁场来旋转。要通过改变电压来改变旋转数。BLDC电机的转子是永磁体，通过改变周围的线圈所产生的磁场的方向使转子旋转。通过控制通向线圈的电流方向和大小来控制转子的旋转。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgIicpnzIkj8LY7ibyzNbYhhFkicErfZxCVaH0AdV5cmUyeaiaEOpMG0fN8Q/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_003_0c9a99d91b71.gif)
 
 图3：BLDC电机的运转示意图。
 
@@ -83,7 +83,7 @@ BLDC电机有望被应用在更广泛的领域中。BLDC电机将会在小型机
 
 另一方面，与DC电机相比，控制也变得更难了。并不是只要将电机上的电缆接上电源就好了。本来就连电缆数目都不一样。和“将正极（+）和负极（-）连上电源”的方式不同。    
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgubSlwle7l6zricG5asBRBNlOHnETwibjUCNBrL5Ojia1vhCbjb6EvicokA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_004_931e93218b40.jpg)
 
 图1：BLDC电机的外观及内部构造
 
@@ -93,7 +93,7 @@ BLDC电机有望被应用在更广泛的领域中。BLDC电机将会在小型机
 
 为了转动BLDC电机，必须控制线圈的电流方向及时机。图2-A是将BLDC电机的定子（线圈）和转子（永磁体）模式化的结果。使用该图片，思考一下转子旋转的情况吧。思考使用3个线圈的情况。虽然实际上也有使用6个或以上的线圈的情况，但在考虑原理的基础上，每120度放一个线圈，使用3个线圈。电机将电气（电压、电流）转换为机械性旋转。图2-A的BLDC电机又是如何转动呢？先来看一看电机中发生了什么吧。    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgw9xDGfWicEWJEKV2iaeJxaZKer0bCBIg1bBiaRiblbWwRNhAQ3YIqtR5Zg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_005_0c4dd26e42e9.png)
 
 图2-A：BLDC电机转动原理
 
@@ -103,19 +103,19 @@ BLDC电机中每隔120度放置一个线圈，总共放置三个线圈，控制�
 
 但实际上，U、V、W的电缆都是互相连接着的，因此无法仅向U相通电。在这里，从U相向W相通电，会如图2-C所示在U、W产生磁通量。合成U和W的两个磁通量，变为图2-D所示的较大的磁通量。永磁体将进行旋转，以使该合成磁通量与中央的永磁体（转子）的N极方向相同。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgtSLUibNshMHGkgEFUibicLk8FjLaubeAcx4s94Tzibrr0F9f0TGseoTf5g/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_006_cdb8bd407928.png)
 
 图2-B：BLDC电机的转动原理
 
 从U相向W向通电。首先，只关注线圈U部分，则发现会产生如箭头般的磁通量    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgw9xDGfWicEWJEKV2iaeJxaZKer0bCBIg1bBiaRiblbWwRNhAQ3YIqtR5Zg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_007_0c4dd26e42e9.png)
 
 图2-C：BLDC电机的转动原理
 
 从U相向W相通电，则会产生方向不同的2个磁通量
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDg0oHMPwtFhzQBWsUpprZYeW0AobHzA5lrmXjqfvBt9F0KKYiaFQwj5gQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_008_4732f2def95b.png)
 
 图2-D：BLDC电机的转动原理从U相向W相通电，可以认为产生了两个磁通量合成的磁通量
 
@@ -123,7 +123,7 @@ BLDC电机中每隔120度放置一个线圈，总共放置三个线圈，控制�
 
 图3所示的是通电相与合成磁通量的关系。在该例中，按顺序从1-6变更通电模式，则合成磁通量将顺时针旋转。通过变更合成磁通量的方向，控制速度，可控制转子的旋转速度。将切换这6种通电模式，控制电机的控制方法称为“120度通电控制”。    
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgsZWTGm4I4WjpUwLic2yx5FEiaLC1nc1zWzrFbdKDSjjTWmCXD5RSLyaQ/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_009_fd1a3249b953.gif)
 
 图3：转子的永久磁石会像被合成磁通量牵引一样旋转，电机的轴也会因此旋转
 
@@ -133,7 +133,7 @@ BLDC电机中每隔120度放置一个线圈，总共放置三个线圈，控制�
 
 能消除120度通电控制的缺点，实现流畅的转动的正是“正弦波控制”。在120度通电控制中，合成磁通量被固定在了6个方向。进行控制，使其进行连续的变化。在图2-C的例子中，U和W生成的磁通量大小相同。但是，若能较好地控制U相、V相、W相，则可让线圈各自生成大小各异的磁通量，精密地控制合成磁通量的方向。调整U相、V相、W相各相的电流大小，与此同时生成了合成磁通量。通过控制这一磁通量连续生成，可使电机流畅地转动。    
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgpX0PTJLuWm6buXdt643BjXpXRfcALqjiahBKAGYeScncGFAHhfeG3NA/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_010_d6ceceebcd59.gif)
 
 图4：正弦波控制
 
@@ -149,7 +149,7 @@ BLDC电机中每隔120度放置一个线圈，总共放置三个线圈，控制�
 
 为了实现PWM，现在还有配备了专用硬件的微电脑。进行正弦波控制时需控制3相的电压，因此比起只有2相通电的120度通电控制来说，软件要稍稍复杂一些。逆变器是对驱动BLDC电机必要的电路。交流电机中也使用了逆变器，但可以认为家电产品中所说的“逆变器式”几乎使用的是BLDC电机。    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgDuTnb7MWl9kKaVJwgFq38R6jdI7YCyf2uuNR0hEZy7QRG0wPibPbNzA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_011_cd018e83f6f5.png)
 
 图5：PWM输出与输出电压的关系
 
@@ -233,7 +233,7 @@ BLDC电机（BrushlessDirectCurrentMotor）可以根据应用要求采用边排�
 
 跟随Sturgeon的脚步，美国佛蒙特州的托马斯·达文波特（ThomasDavenport）于1834年发明了第一台正式的电池供电的电机，从而创造了历史。这是第一台具有足够功率执行任务的电动马达，他的发明被用于为小型印刷机提供动力。1837年，托马斯·达文波特和他的妻子艾米莉·达文波特（EmilyDavenport）获得了第一项直流电机专利。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgibz9PzIrkA2m51fFUsjW05LqhsYGEZnKKT4dYJPzC6OaeTlRFqBNpSg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_012_3572630be708.jpg)
 
 托马斯和艾米丽·达文波特的专利电机
 
@@ -241,7 +241,7 @@ BLDC电机（BrushlessDirectCurrentMotor）可以根据应用要求采用边排�
 
 1886年，第一台可以在可变重量下恒速运行的实用直流电机面世。弗兰克·朱利安·斯普拉格（FrankJulianSprague）是其发明者。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDg1SSXrcEibQmRKZyD1xZkgkYAeib0g30xc9sfFBfIwu2cFOiaO4IibRCBmA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)FrankJulianSprague的“实用”马达
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_013_3bf19084760f.jpg)FrankJulianSprague的“实用”马达
 
 值得一提的是，该实用性电机采用无刷形式，即交流式鼠笼式异步电机，它不仅消除了火花、绕组两端的电压损失，可以以恒定速度输送功率。但是，异步电机有许多无法克服的缺陷，以致电机技术发展缓慢。
 
@@ -281,13 +281,13 @@ BLDCM控制系统结构包括电机本体、驱动电路与控制电路三个主
 
 BLDC电机的定子结构与感应电机相似。它由堆叠的钢叠片组成，并带有轴向切槽以用于缠绕。BLDC中的绕组与传统感应电机的绕组略有不同。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgZ1uC1zK9ibiamAB2lpL27QrjGDdfS2Nia0gV418FKzB8nGJ1qxTP3ibdVw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)    
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_014_70b94220f9e6.jpg)    
 
 BLDC电机定子
 
 通常，大多数BLDC电机由三个定子绕组组成，这三个定子绕组以星形或“Y”形连接（无中性点）。另外，基于线圈互连，定子绕组进一步分为梯形和正弦电动机。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDg2NgUbbPw28eg6mjpezIek8Ec7jKzu9Z96MrHLZgMYwRLoCEv2v8vibQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)BLDC电机反电动势
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_015_f3a44230458b.jpg)BLDC电机反电动势
 
 在梯形电动机中，驱动电流和反电动势均呈梯形形状（在正弦电动机的情况下为正弦形）。通常，在汽车和机器人技术（混合动力汽车和机器人手臂）中使用额定48V（或以下）的电动机。
 
@@ -303,7 +303,7 @@ BLDC电动机的转子部分由永磁体（通常是稀土合金磁体，例如�
 
 （c）将磁体插入转子的铁芯中。    
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgaeL29fbhFibdSp9s7ADvba319pEEC2BxmckKfyS3CpH72aR0nrLh8cw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)BLDC电机转子
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_016_5f0f3e943187.jpg)BLDC电机转子
 
 位置传感器（霍尔传感器）
 
@@ -323,7 +323,7 @@ BLDCM选择全桥三相星形接线六状态二-二导通方式，在同一时�
 
 在BLDC电机中，永磁体（转子）是运动的，而载流导体（定子）是固定的。    
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgE20jLGEv74QfocBYTND7eR2TrOHA7O3DSmiaXicGDPB3fAnnhRoxWThQ/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_017_1f1f66692f7a.gif)
 
 BLDC电机运转示意图
 
@@ -331,7 +331,7 @@ BLDC电机运转示意图
 
 通过将绕组切换为高和低信号，相应的绕组被激励为北极和南极。带有南极和北极的永磁转子与定子极对齐，从而导致电机旋转。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgdLBP4ZS5Ip1ic1PaR3WO5v5V5QsCu2f6spnQBxWzicm7wjY9I01jP8IQ/640?wx_fmt=gif&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_018_763e66e934aa.gif)
 
 一对极和两对极的BLDC电机运行动图    
 
@@ -379,7 +379,7 @@ BLDC电机运转示意图
 
 无刷直流电机与有刷直流电机的区别:
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgXhtc8SSica4EM4Qo9IsdNn1ib6EVQEFArk2ibWOVjn0TM4sh5DU3sHIOQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)无刷直流电机与有刷直流电机的对比
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_019_9e135369460f.png)无刷直流电机与有刷直流电机的对比
 
 全球BLDC电机主流制造商（Top10）
 
@@ -393,7 +393,7 @@ BLDC电机运转示意图
 
 直流无刷电机的结构图如下图所示(有槽、外转子、无传感器电机为例)：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgfd3ac890rEq7uChWoCE2TwYwwZuoxmX8pH9FeaN4s0YyPBXIicJ8Bqg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_020_155e2283bb40.png)
 
 上图无刷电机由前盖、中盖、磁铁、硅钢片、漆包线、轴承、转轴以及后盖组成。其中，磁铁、轴承、转轴组成电机的转子；硅钢片、漆包线组成电机的定子；前盖、中盖、后盖组成电机的外壳。重要组成说明如下表所示：
 
@@ -427,25 +427,25 @@ BLDC电机运转示意图
 
 作为线圈绕组的通电导体；通过电流交变频率和波形，在定子周围形成磁场，驱动转子转动；
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgWrMkw7vgkQ5japfnaG8cfbpeVTqcH3NTtPjDiaWz7wuFzOTza29WvQw/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_021_dae816138191.jpg)
 
 转子描述
 
 直流无刷电机(BLDC)的转子由永磁体制成，多对磁极按照N极和S极交替排列(涉及极对数参数)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDg6X7tjXEm5s55p41ZhvcAf1sxgJm7XZgkhMyJdQShnpjibLG08nTwxvw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_022_36e89c1658fd.png)
 
 定子描述
 
 直流无刷电机(BLDC)的定子由硅钢片组成(如下图)，定子绕组置于沿内部轴轴向开凿的槽中(涉及铁芯极数(槽数N)参数)。每个定子绕组由许多线圈相互连接而成。常见的绕组分布呈三连接星型的方式。    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgV1If8pt2OeJbWWI201iaURXiaVic7IS2VlRSAq0uKVVeWRGk2pPdkyIwA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_023_5d4783f47ebe.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgLhicZ6eI4wzFwF1fiaMvN1qVCLLFuC6ZibozW9LjPM4S6jaeIoEHx16GA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_024_61a923ddfbad.png)
 
 三连接星型绕组线圈，按照线圈连接的方式，可将定子绕组分为梯形、正弦波绕组。两者的区别主要是产生的反电动势的波形。顾名思义：梯形定子绕组产生梯形的反电动势，正弦波绕组产生正弦波的反电动势。如下图所示：    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgPSocc23gpk5fGSFAMU1s2aqtJmGEYsclicHYicP6bngaRnSuliccszsAQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_025_57ece3421fbb.png)
 
 PS：电机无负载供电时，通过示波器可测出波形.
 
@@ -471,7 +471,7 @@ PS：电机无负载供电时，通过示波器可测出波形.
 
 内部永磁体与转轴联动为转子，通电线圈绕组与外壳作为定子。通俗来说：转子在内、定子在外；
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgVVTJe49mnqCiaPYlGbOLCFI8WV351QicXKoxDD9ibicH4GSiaL1qFxFBYTw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_026_f7ceae72e02c.png)
 
 内、外转子电机区别
 
@@ -583,7 +583,7 @@ KV值
 
 BLDC电机控制    
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgcicdibia3ZicPLHs7p4OcbJP8qOxZfrryb8oQ6foM5o27NIHRc5Z5uXJOg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_027_e27087590db4.jpg)
 
 BLDC电机控制算法
 
@@ -613,7 +613,7 @@ BLDC电机可以根据应用要求采用边排列或中心排列PWM信号。大�
 
 脉冲宽度调制仅用于将可变电压应用到电机绕组。有效电压与PWM占空度成正比。当得到适当的整流换向时，BLDC的扭矩速度特性与以下直流电机相同。可以用可变电压来控制电机的速度和可变转矩。    
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDg7mZu4PTYGUUSMZSIGXVvGFzLxqjPrTCLCibgP14upVJUsFDlFAJ5ubg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_028_fe1fec4c1432.jpg)
 
 功率晶体管的换向实现了定子中的适当绕组，可根据转子位置生成最佳的转矩。在一个BLDC电机中，MCU必须知道转子的位置并能够在恰当的时间进行整流换向。
 
@@ -621,11 +621,11 @@ BLDC电机的梯形整流换向
 
 对于直流无刷电机的最简单的方法之一是采用所谓的梯形整流换向。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgM1x0f0qZdEy43UfictA95Rl088iawhIrBNSkTBcmah8cgM2ZSC06R0KQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)用于BLDC电机的梯形控制器的简化框图
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_029_6282d5c6c557.jpg)用于BLDC电机的梯形控制器的简化框图
 
 在这个原理图中，每一次要通过一对电机终端来控制电流，而第三个电机终端总是与电源电子性断开。    
 
-嵌入大电机中的三种霍尔器件用于提供数字信号，它们在60度的扇形区内测量转子位置，并在电机控制器上提供这些信息。由于每次两个绕组上的电流量相等，而第三个绕组上的电流为零，这种方法仅能产生具有六个方向共中之一的电流空间矢量。随着电机的转向，电机终端的电流在每转60度时，电开关一次(整流换向)，因此电流空间矢量总是在90度相移的最接近30度的位置。![](https://mmbiz.qpic.cn/mmbiz_jpg/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgVCDqOTDTnVB8TONxEwalDlFJGXv5UcV8DvbUnSLRmCwn5uE3d4wTnQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+嵌入大电机中的三种霍尔器件用于提供数字信号，它们在60度的扇形区内测量转子位置，并在电机控制器上提供这些信息。由于每次两个绕组上的电流量相等，而第三个绕组上的电流为零，这种方法仅能产生具有六个方向共中之一的电流空间矢量。随着电机的转向，电机终端的电流在每转60度时，电开关一次(整流换向)，因此电流空间矢量总是在90度相移的最接近30度的位置。![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_030_c833df124660.jpg)
 
 梯形控制：驱动波形和整流处的转矩
 
@@ -649,7 +649,7 @@ BLDC电机的正弦整流换向
 
 为了随着电机的旋转，生成电机电流的平稳的正弦波调制，就要求对于转子位置有一个精确有测量。霍尔器件仅提供了对于转子位置的粗略计算，还不足以达到目的要求。基于这个原因，就要求从编码器或相似器件发出角反馈。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgIg2nmOia83VzUCI6pUAQQnrqmWW7hIjOCOiaVSE6kbiaOrKQsrHfia5h2Q/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_031_de56778428e1.jpg)
 
 BLDC电机正弦波控制器的简化框图
 
@@ -695,13 +695,13 @@ AC电机的矢量控制：深入了解
 
 矢量控制算法的核心是两个重要的转换:Clark转换，Park转换和它们的逆运算。采用Clark和Park转换，带来可以控制到转子区域的转子电流。这种做充许一个转子控制系统决定应供应到转子的电压，以使动态变化负载下的转矩最大化。
 
-Clark转换：Clark数学转换将一个三相系统修改成两个坐标系统：![](https://mmbiz.qpic.cn/mmbiz_png/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgpuF9IGy0Cia3dkkPy8H6c0teVT3aGYwvrD9KI9G1iaUMl0rPwsblIX0w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)其中Ia和Ib正交基准面的组成部分，Io是不重要的homoplanar部分    
+Clark转换：Clark数学转换将一个三相系统修改成两个坐标系统：![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_032_6105075e84a2.png)其中Ia和Ib正交基准面的组成部分，Io是不重要的homoplanar部分    
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgmjYFAxjhsiaWUqMpTkxkUGMVvkc36H2UCMXeAeFv93sX7LTf53C6apg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_033_b3b3a367e2d6.jpg)
 
 三相转子电流与转动参考系的关系
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgCfK8VTzqTPryK0aCy1sRCfibgkyO6LgLtFibHmNu1ymuWUvFwviaQbuibQ/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_034_7c747af46271.jpg)
 
 Park转换：Park数学转换将双向静态系统转换成转动系统矢量
 
@@ -711,11 +711,11 @@ AC电机的磁场定向矢量控制的基本结构
 
 Clarke变换采用三相电流IA,IB以及IC，这两个在固定座标定子相中的电流被变换成Isd和Isq，成为Park变换d,q中的元素。其通过电机通量模型来计算的电流Isd,Isq以及瞬时流量角θ被用来计算交流感应电机的电动扭矩。    
 
-![](https://mmbiz.qpic.cn/mmbiz_png/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgA0HuML0XBrtTwCVBYaZB7jnaNTIthtTWnqwmm7KPCdotf6S1Pplu6w/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_035_b5c44e5258ce.png)
 
 矢量控制交流电机的基本原理
 
-这些导出值与参考值相互比较，并由PI控制器更新。![](https://mmbiz.qpic.cn/mmbiz_jpg/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgzjUBRFjCHgykbN9SkSDDQfqYsib7NGKgQCpBrUExhCelxAUVH92ibgHg/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)基于矢量的电机控制的一个固有优势是，可以采用同一原理，选择适合的数学模型去分别控制各种类型的AC,PM-AC或者BLDC电机。
+这些导出值与参考值相互比较，并由PI控制器更新。![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_036_9dfb282d8eff.jpg)基于矢量的电机控制的一个固有优势是，可以采用同一原理，选择适合的数学模型去分别控制各种类型的AC,PM-AC或者BLDC电机。
 
 BLDC电机的矢量控制    
 
@@ -723,7 +723,7 @@ BLDC电机是磁场定向矢量控制的主要选择。采用了FOC的无刷电�
 
 步进电机控制
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgqz3vTeAJYm1b0l4R0mmeN6Is5Fpt5qsHcn1eUyKBIIDMGbPwianYaVA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_037_2a86c5ba84bc.jpg)
 
 步进电机控制通常采用双向驱动电流，其电机步进由按顺序切换绕组来实现。通常这种步进电机有3个驱动顺序：
 
@@ -749,7 +749,7 @@ BLDC电机是磁场定向矢量控制的主要选择。采用了FOC的无刷电�
 
 相角控制
 
-相角控制是通用电机速度控制的最简单的方法。通过TRIAC的点弧角的变动来控制速度。相角控制是非常经济的解决方案，但是，效率不太高，易于电磁干扰(EMI)。![](https://mmbiz.qpic.cn/mmbiz_png/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgzkxdd1iaeax4LB5GqtyUMAUMye8U56u9LS98ibibYQnbA3aTv5sAE5UKg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+相角控制是通用电机速度控制的最简单的方法。通过TRIAC的点弧角的变动来控制速度。相角控制是非常经济的解决方案，但是，效率不太高，易于电磁干扰(EMI)。![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_038_28ba76c06fcb.png)
 
 通用电机的相角控制
 
@@ -757,7 +757,7 @@ BLDC电机是磁场定向矢量控制的主要选择。采用了FOC的无刷电�
 
 PWM斩波控制
 
-PWM控制是通用电机速度控制的，更先进的解决方案。在这一解决方案中，功率MOFSET，或者IGBT接通高频整流AC线电压，进而为电机产生随时间变化的电压。![](https://mmbiz.qpic.cn/mmbiz_png/YIbBCAJq8txlbmGcecQr6tP6Hjiau2JDgicnJTfvtiaNYPXJx6HInaC07l2RFkQiblYPMgv2HNZzvU7qNDxoVSsMAA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+PWM控制是通用电机速度控制的，更先进的解决方案。在这一解决方案中，功率MOFSET，或者IGBT接通高频整流AC线电压，进而为电机产生随时间变化的电压。![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_039_17640d32b9c7.png)
 
 通用电机的PWM斩波控制
 
@@ -766,7 +766,7 @@ PWM控制是通用电机速度控制的，更先进的解决方案。在这一�
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0uibkIvkAHOPtHA9gym3XODEWrQGWXmjNHrmp8Mp3Mv8wdYjoiaNyL1EPibFpmHlcYK1m1wplSBia5vXg/640?wx_fmt=gif)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_040_a3efb375477c.gif)![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_041_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\技术前沿_直流无刷(BLDC)电机_images\img_042_e8e68bdfc1b3.png)

@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/XrpCSorkYRvPhLFhz7xj\_g](https://mp.weixin.qq.com/s/XrpCSorkYRvPhLFhz7xj_g)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tbEIibqxeWZ5oftfXb9IjNR1DictRq6DGSosJdxEe9NRDDib0mfG2aaRfcfiajDpj7P3JkzC43xeFJzQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\雷军_千万奖金_小米超级电机V8s打破电机转速天花板__images\img_000_9048cc15bd31.jpg)
 
 
 来源：界面新闻
@@ -17,7 +17,7 @@
 
 **今年获得大奖的项目是“小米超级电机V8s”项目组。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/l4sfibEYR5pX3zfhbdVw6Awp8S3Ynqj2Ecz3XWVlCChgGIvJa18gUKNicJV7SPGuibHyR1kR3vnwQ1gia90bicboecg/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\雷军_千万奖金_小米超级电机V8s打破电机转速天花板__images\img_001_fa02d2a9d799.png)
 
 在2023年12月28日召开的小米汽车技术发布会上，雷军宣布完全由小米自研生产的小米超级电机V8s正式发布，号称**转速达到27200rpm全球第一**。
 
@@ -71,15 +71,15 @@
 # [华为都“活不下去了”！电机中小企业未来三年要怎么过](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247575025&idx=1&sn=800a15fe2572766ef1632371ee7475f2&chksm=cedfe435f9a86d23f050893e070245640fbc59fce832cb6264e6ecf8b6c43c0fe9a0c6565a38&scene=21#wechat_redirect)？
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\雷军_千万奖金_小米超级电机V8s打破电机转速天花板__images\img_002_fb0ff5197498.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tpibX2T64L9GPvkgfmNpsERLcwbXfNlW8Ke2WCEdemIEOqp9iaaBbpm6wteXWZqOWZCqh8yfeYfQicg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\雷军_千万奖金_小米超级电机V8s打破电机转速天花板__images\img_003_8037bba82dbb.jpg)
 
 扫码报名了解变压器会议
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tpibX2T64L9GPvkgfmNpsERLBAj6iaI79wGosSSx5ibk4mlibB7wSFcecluQibpV7t8ZV5NtvyUeXGMZw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\雷军_千万奖金_小米超级电机V8s打破电机转速天花板__images\img_004_e27a7e44b9aa.jpg)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\雷军_千万奖金_小米超级电机V8s打破电机转速天花板__images\img_005_dac57d0b3024.png)

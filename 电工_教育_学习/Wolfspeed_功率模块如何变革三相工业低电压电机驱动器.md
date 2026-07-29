@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/tv7OszQyjd6W4\_tYU6ef6Q](https://mp.weixin.qq.com/s/tv7OszQyjd6W4_tYU6ef6Q)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vE2ZIG5VErUiaic5Uovdb28y7P5QYtqjXS963OUGN1gZticMCCPchusnOMBhEuCvwJ9JdO7pugDP1XA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Wolfspeed_功率模块如何变革三相工业低电压电机驱动器_images\img_000_a02001b809a1.jpg)
 
   
 
@@ -28,7 +28,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pRaJ1XG0AZn8iaLh7jWBdQib6xviaVuauTNj36gFhOO874aWUKHIdGfRIxnYcIWvRVzK4Wmdibm3nicslMkrHBqCnrA/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Wolfspeed_功率模块如何变革三相工业低电压电机驱动器_images\img_001_94ba601d9b97.png)
 
   
 
@@ -52,7 +52,7 @@ Wolfspeed 碳化硅（SiC）为提高工业电机驱动器的效率，提供了�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pRaJ1XG0AZn8iaLh7jWBdQib6xviaVuauTNFicJI8Qvdq5CAh2XDVeIibGwrGdoGDhgmde98rT2fb675hqZfB0CKJAg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Wolfspeed_功率模块如何变革三相工业低电压电机驱动器_images\img_002_81b87a47c2bf.png)
 
 图 1：25 kW 逆变器，Fsw = 8 kHz，碳化硅 MOSFET 散热器减小 77%：0.31 L（1.6℃/W）与1.37 L（0.73℃/W）
 
@@ -66,7 +66,7 @@ Wolfspeed 碳化硅（SiC）为提高工业电机驱动器的效率，提供了�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pRaJ1XG0AZn8iaLh7jWBdQib6xviaVuauTNK8dE9R1jDeCeI8IzSTBfxQsT8dcvoRUURcSzibx7Hysao7B12Mt9iblw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Wolfspeed_功率模块如何变革三相工业低电压电机驱动器_images\img_003_14a734d61a7e.png)
 
 图 2：25 kW 逆变器，Fsw = 8 kHz，较大的硅 IGBT 散热器：1.37 L（0.7℃/W），较小的碳化硅散热器 0.8 L（0.99℃/W）
 
@@ -88,7 +88,7 @@ Wolfspeed 碳化硅（SiC）为提高工业电机驱动器的效率，提供了�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pRaJ1XG0AZn8iaLh7jWBdQib6xviaVuauTNU9nOLS4UGiagL2yttkbmWU81Ah5W7YCeyMz1jLSRSr78K0T5FVqKrTw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Wolfspeed_功率模块如何变革三相工业低电压电机驱动器_images\img_004_a937edc28e14.png)
 
 图 3：25 kW 逆变器，Fsw = 16 kHz，碳化硅 MOSFET 散热器减小 41%：0.80 L（0.99℃/W）对比 1.37 L（0.73℃/W）
 
@@ -109,7 +109,7 @@ Wolfspeed 碳化硅（SiC）为提高工业电机驱动器的效率，提供了�
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Wolfspeed_功率模块如何变革三相工业低电压电机驱动器_images\img_005_a6c2e413e6e0.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\Wolfspeed_功率模块如何变革三相工业低电压电机驱动器_images\img_006_d84912f96aa9.png)

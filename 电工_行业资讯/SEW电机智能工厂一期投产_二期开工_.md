@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sV0InUwQ7pz0PLqLNA42RJ48yWhDcjTHCIxRFaRcqkFcMnde2Vbs0wkb5EWAibHSbia4iaqVWmjlFibg/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sV0InUwQ7pz0PLqLNA42RJqx9W5EYjBcmAsQpIPeD2oicvNrbiaT4FW0k45vTdaBVIC5YZuria0IZmA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\SEW电机智能工厂一期投产_二期开工__images\img_000_0b38cfab2d9b.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\SEW电机智能工厂一期投产_二期开工__images\img_001_031931f83e9a.jpg)
 
 **
 
@@ -16,9 +16,9 @@
 
 今天上午，SEW电机智能工厂一期投产暨二期开工仪式成功举办，为园区产业发展注入新动能、打造新样板。市委常委、园区党工委书记沈觅，园区党工委委员、管委会副主任刘华出席活动。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/FCMzv1ttDIAiaJIqUP830Rl9u91Y0SibCg8nB49qX39N0mxic3IeBuUnlicYbDdibd0LogPNWicereqSnosMhn865OgQ/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\SEW电机智能工厂一期投产_二期开工__images\img_002_0c2abe1f4f19.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/FCMzv1ttDIAiaJIqUP830Rl9u91Y0SibCgw4NspMf30GoChW5Q3brPU74KiaKmGlHCjTAibpA50Qm7gab8UJtrVMUA/640?wx_fmt=jpeg&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\SEW电机智能工厂一期投产_二期开工__images\img_003_870d999f7c4f.jpg)
 
   
 
@@ -30,7 +30,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/FCMzv1ttDIAiaJIqUP830Rl9u91Y0SibCgm5DJnianm5iaqPlB3fmRcGn0YicLbl7qAqmJVyBwB13B7APUQSoPACDqQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\SEW电机智能工厂一期投产_二期开工__images\img_004_0d54c1d55d5f.png)
 
 ∆一期工厂
 
@@ -40,7 +40,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/FCMzv1ttDIAiaJIqUP830Rl9u91Y0SibCgRqgkamnX4Fv25p5iastmjaCrMyMHu13809a4psP6jn8J9z9cYLeRiaRg/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\SEW电机智能工厂一期投产_二期开工__images\img_005_2d85f6d84873.png)
 
 ∆二期工厂
 
@@ -50,15 +50,15 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/FCMzv1ttDIAiaJIqUP830Rl9u91Y0SibCgZm2EZibtRwNTfY1yCXuJtIUbfYAibljF0OM5wTibImZeMqLe9r5kb7BFA/640?wx_fmt=jpeg&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\SEW电机智能工厂一期投产_二期开工__images\img_006_bc00b91ec423.jpg)
 
   
 
 SEW中国公司执行董事长张胜利在致辞中对园区一直以来的支持与帮助表达感谢，他表示，SEW中国将继续加大国产化力度，把德国工业化4.0智能制造的核心技术引进到国内生产，实现从减速机和电机产品供应商向根据客户需求订制化系统解决方案供应商的转变。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/FCMzv1ttDIAiaJIqUP830Rl9u91Y0SibCg8nB49qX39N0mxic3IeBuUnlicYbDdibd0LogPNWicereqSnosMhn865OgQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\SEW电机智能工厂一期投产_二期开工__images\img_007_4399ea48ebc7.png)
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/UjEsCAGGk3BaCOQSeqvnwibgegWbYs0ibhh7IUFPe1Kttuc0cZbER9oucjAmY7WLZHic4ibW404KtbhRXUIpHh3p0Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\SEW电机智能工厂一期投产_二期开工__images\img_008_a79fc0085269.jpg)
 
   
 
@@ -95,8 +95,8 @@ SEW中国公司执行董事长张胜利在致辞中对园区一直以来的支�
 [【重磅】5部门发布最新电机能效准入水平！虚标能效将被重点打击整治！](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247535908&idx=3&sn=6eec1347ec795a83176cc4f901ec55fa&chksm=cede0ce0f9a985f64ce0e07697e68c6ddb191072645aa6d8de6370bcd597bb610675d2897b02&token=66697538&lang=zh_CN&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\SEW电机智能工厂一期投产_二期开工__images\img_009_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\SEW电机智能工厂一期投产_二期开工__images\img_010_a6e4e8e00379.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\SEW电机智能工厂一期投产_二期开工__images\img_011_ec5921db28d2.png)
 

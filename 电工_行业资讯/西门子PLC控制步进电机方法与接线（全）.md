@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/w5unEWBFec22g\_CKpCBJCA](https://mp.weixin.qq.com/s/w5unEWBFec22g_CKpCBJCA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tR6ibHibXQwRvAgf6ia352mOJAgKa3qV8nHpFhYYibslVUltyib6naMTdyzG46f4SEoMicmAfx0VbynC0A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子PLC控制步进电机方法与接线（全）_images\img_000_ea977e48a43f.jpg)
 
 
 来源：电子开发网
@@ -34,7 +34,7 @@
 
 当步进驱动器接收到一个脉冲信号，它就驱动步进电机按设定的方向转动一个固定的角度 (称为"步距角")，它的旋转是以固定的角度一步一步运行的。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCRwX2ECZ6AOcdhXD2N3Qgf8FmbicolaRhIRlP3KA8V8grhqBJSFesJNA/640?wx_fmt=gif&from=appmsg&wxfrom=13) 
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子PLC控制步进电机方法与接线（全）_images\img_001_0e25c1585cc5.gif) 
 
 步进电机输出的角位移与输入的脉冲数成正比，转速与脉冲频率成正比，改变绕组通电的顺序，电机就会反转。因此：
 
@@ -82,19 +82,19 @@
 
 # 四、步进驱动器原理
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCZctxD44SO8Hlq2WYtIo0NgujzSCV5fGq6wNxJTXFDHibibBUR5XBJg7A/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子PLC控制步进电机方法与接线（全）_images\img_002_9e6c391b515b.other)
 
 #### 3.1 控制信号接口
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCUbJJoJoqdZeQcJy9ht7ULs9Ht0JMouszibSWW0YPdBgMBoMlHaUl7FQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子PLC控制步进电机方法与接线（全）_images\img_003_01810bfd6c15.other)
 
 #### 3.2 功率接口
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSC6DDicqqyD5lW4wCJncPoyzFZICQv9OccHZ6YyDiagzSVj0fcicaUZERiaA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1) 
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子PLC控制步进电机方法与接线（全）_images\img_004_eb3736f3026a.other) 
 
 #### 3.3 拨码含义
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCufTiajqf96Fsic6CWF43fQd2Tw55nOXz1g30gglYgKficdpfCG7cqTQpw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子PLC控制步进电机方法与接线（全）_images\img_005_b83595ce529d.other)
 
 #### 3.4 状态指示
 
@@ -104,7 +104,7 @@
 
 直到故障被用户清除，红色 LED常灭。故障类型对应的闪烁次数如下表：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCmuuSrlu5ViaCvraiagmzF2ibrlx6nCphkSb2qDAiboq26rPzJzjYSeI9HQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1) 
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子PLC控制步进电机方法与接线（全）_images\img_006_37bf35e46b59.other) 
 
 #### 3.5 两相步进电机区分相序的方法
 
@@ -122,11 +122,11 @@
 
 日系PLC（欧姆龙、倍福等）输出Q点是低电平，因此接步进驱动器的PUL-/DIR-，步进驱动器的PUL+/DIR+共阳极，接24V。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCG4YDtX0T9NtUUngwfIPnLrhrG3e4ywiashK3CpLYgiaT2Won8cTyrZRg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1) 
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子PLC控制步进电机方法与接线（全）_images\img_007_813d0672dbf7.other) 
 
 欧系PLC（西门子等）输出Q点是高电平，因此接步进驱动器的PUL+/DIR+，步进驱动器的PUL-/DIR-共阴极，接0V。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCrd9AUZZ3IhkAC1GJFaQJSNsOjmWsLfMS4RiabnA5clEgS5Xt3icnds5g/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1) 
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子PLC控制步进电机方法与接线（全）_images\img_008_b903d6d34bab.other) 
 
 Ena+/Ena-为脱机信号
 
@@ -142,7 +142,7 @@ Ena+/Ena-为脱机信号
 
 目前常用的有二相步进电机、三相步进电机、五相步进电机：两相步进电机步进角一般为1.8度和0.9度，三相步进电机步距角为1.2度，五相步进电机步进角一般为 0.72度。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCMkBDWqnjjOsXDZhVAJOA3aE5gNuOV6RoMA0s0amia644ibcq0jmZ7daA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1) 
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子PLC控制步进电机方法与接线（全）_images\img_009_19b5ff6dd199.other) 
 
 #### 5.1 步进电机固有步距角
 
@@ -254,9 +254,9 @@ Ena+/Ena-为脱机信号
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0uibkIvkAHOPtHA9gym3XODEWrQGWXmjNHrmp8Mp3Mv8wdYjoiaNyL1EPibFpmHlcYK1m1wplSBia5vXg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子PLC控制步进电机方法与接线（全）_images\img_010_a3efb375477c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子PLC控制步进电机方法与接线（全）_images\img_011_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子PLC控制步进电机方法与接线（全）_images\img_012_e8e68bdfc1b3.png)

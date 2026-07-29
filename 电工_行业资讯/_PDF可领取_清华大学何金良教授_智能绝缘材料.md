@@ -10,25 +10,25 @@
 
 **关注我们**
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0ue9X3ztsThAP6Rx6VwJx2YZxCwMN2iajkZd1icvCtd27p4yDUdcm0icMAsewJ36JxdBYiaBXDbFpKeag/640?wx_fmt=jpeg&from=appmsg)](http://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247676742&idx=1&sn=eafbdf1502f9ce7b8b3f7c96b73fbdd3&chksm=e9154c68de62c57e3a4acce8424a51833fde0cf4e49374db85915370d1e5d075b4390e7a6b2e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_清华大学何金良教授_智能绝缘材料_images\img_000_615a6cd99316.jpg)](http://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247676742&idx=1&sn=eafbdf1502f9ce7b8b3f7c96b73fbdd3&chksm=e9154c68de62c57e3a4acce8424a51833fde0cf4e49374db85915370d1e5d075b4390e7a6b2e&scene=21#wechat_redirect)
 
 **
 
 **来源：电气技术**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tYZsxQmNTgvm6cK9YABTI4gVq8qIkRT83sATO8MibrxqtbuBgrELQyB6AUXf4HydFAWbyibwnv9gyA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_清华大学何金良教授_智能绝缘材料_images\img_001_da84d2075060.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tYZsxQmNTgvm6cK9YABTI4RjCntgFLYO70s8f2H43mpuZibQSmk8cPeIicoriaqh23JftcIRz7micXCQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_清华大学何金良教授_智能绝缘材料_images\img_002_82e98b02f020.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tYZsxQmNTgvm6cK9YABTI4yCIlnt4BGng7E0POpHKBmk03L557AGPbkdLm0lbUpDu6ksRfzp45KA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_清华大学何金良教授_智能绝缘材料_images\img_003_80f75e32ec68.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tYZsxQmNTgvm6cK9YABTI4ofrQibicFp80DBWzTEm91g3Q4J9RaZiaDGVWH2pxybn0PDYhVjwqQBYSw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_清华大学何金良教授_智能绝缘材料_images\img_004_6a52d98f88d8.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tYZsxQmNTgvm6cK9YABTI4PrcZ3cH7ibaIw5lMNfhlM7wSNDtEzU01G0iaQAaGtv0LL2DozhaKQ9Xg/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_清华大学何金良教授_智能绝缘材料_images\img_005_8c3ac9cb3d62.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tYZsxQmNTgvm6cK9YABTI4NbEicIM5KZYZoL2IFiaI4ibJV3h3FJiaYpiaBsZfplo94cQjIlcDZLhzRcQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_清华大学何金良教授_智能绝缘材料_images\img_006_b0fa1395fa4a.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tYZsxQmNTgvm6cK9YABTI4HTxMDxh0zSib0SSHFfjBt6DUq2cAdkPbyP1PIoM0siabSOMibHEzrgggA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_清华大学何金良教授_智能绝缘材料_images\img_007_188ae16796ee.png)
 
 **完整资料领取方式：**  
 
@@ -39,8 +39,8 @@
 2.扫描下方小编号，回复想要的资料  
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamVK9gBdcF4HYg2ia6FxJR10aoxdBKO6kSt8uPiakr3iaBpEYoZ9wxsSFSQ/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_清华大学何金良教授_智能绝缘材料_images\img_008_37fac5a47911.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_清华大学何金良教授_智能绝缘材料_images\img_009_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_清华大学何金良教授_智能绝缘材料_images\img_010_a6e4e8e00379.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_清华大学何金良教授_智能绝缘材料_images\img_011_ec5921db28d2.png)
 

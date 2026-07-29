@@ -12,13 +12,13 @@
 
 **来源：网络**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tF5iaU9rfWOEwxEWDt4yofD2uGnV8NVc3ydjibSEHIyDRLSIqE6SK13FtcVcN6aSADdud0E4Cbjyiag/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\高效电动机检测技术_PDF可领取__images\img_000_17cca82fdab0.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tF5iaU9rfWOEwxEWDt4yofDp4teW7CgI1PoriaDIVTzUSOHb02OQspYJz5UHFH6F1ZNVSY7uqOcsZw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\高效电动机检测技术_PDF可领取__images\img_001_f7f9b540996f.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tF5iaU9rfWOEwxEWDt4yofDV5lKvNThn08icB48CfRLJvcyiaA9e8ichmML8pzJbQPfZhIMYOUIxGAow/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\高效电动机检测技术_PDF可领取__images\img_002_4b11edf2fe1a.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tF5iaU9rfWOEwxEWDt4yofDZrACZcvcG8RuM5JsohdWOyty8YJmxI673hgxibIoFw1aw3tmo6kCKMg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\高效电动机检测技术_PDF可领取__images\img_003_29bad39a1656.jpg)
 
 **文末有完整资料获取方式！**
 
@@ -29,10 +29,10 @@
 **2、扫描下方二维码，联系小编**
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sib2GV88N4ED1kkgkq7k9cy0QBvcEhFKAvJY4dK3AS1aRwe8mickXfkqGJbQqYXhcWb55XuiaCBGZ3g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\高效电动机检测技术_PDF可领取__images\img_004_2dd9e414dca2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\高效电动机检测技术_PDF可领取__images\img_005_31a98b8e3167.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\高效电动机检测技术_PDF可领取__images\img_006_ec5921db28d2.png)
 

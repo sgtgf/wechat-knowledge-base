@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vyvdvAWIec3SO8vVjAWxibWvykjIO7ibxtpVoqKTkc4wShVT1wxpOZEbRZibdzYs1TWAsgPCxnuwNLA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷电机VS有刷电机的区别_无刷取代有刷是大势所趋__images\img_000_0cdbef7924ed.png)
 
 **来源：电机通**  
 
@@ -22,11 +22,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZngiaTuJ9KfkOeMTSA0ucXA1Hg737HjicmYdq8DZhBKuM4j96Eyo5Y6wOA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷电机VS有刷电机的区别_无刷取代有刷是大势所趋__images\img_001_1f150c2f266a.png)
 
 **无刷电机与有刷电机工作原理的区别**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnkrPdPHqyxmWBsTKQXm5W0dWJZOpxgK6WiaicHdntXicYtCMMMiciaRLvrSg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷电机VS有刷电机的区别_无刷取代有刷是大势所趋__images\img_002_8cb02b18cb3f.png)
 
   
 
@@ -38,9 +38,9 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnGPXF67jS6tvicHf1nz32Lg0icefav9iaAXsJn3gYalJxek02skLahfsAw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷电机VS有刷电机的区别_无刷取代有刷是大势所趋__images\img_003_00b3ebc306a9.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnIBpSjUrcdz7iapsutnHgdv1xXHPUArvn94AvKmw2frjShBl4U5SFNEQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷电机VS有刷电机的区别_无刷取代有刷是大势所趋__images\img_004_dfe453a91916.jpg)
 
                有刷电机采用机械换向，磁极不动，线圈旋转。电机工作时，线圈和换向器旋转，磁钢和碳刷不转，线圈电流方向的交替变化是随电机转动的换相器和电刷来完成的。 
 
@@ -64,9 +64,9 @@
 
        无刷电机中，换相的工作交由控制器中的控制电路(一般为霍尔传感器+控制器，更先进的技术是磁编码器)来完成。 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnpyFJaiaZ1qgwkJItnoAe8CiaXmicy7pv1nNxFXufoibuZs6micchNP0KZ2Q/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷电机VS有刷电机的区别_无刷取代有刷是大势所趋__images\img_005_6f64d2773a99.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnFnCjDjZiae43bg7s4JjnPYOcOhsgVTiapSkkbgDRCDcjKw0D09ApRm9g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷电机VS有刷电机的区别_无刷取代有刷是大势所趋__images\img_006_1a4b628ce7b9.jpg)
 
   
 
@@ -82,11 +82,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZngiaTuJ9KfkOeMTSA0ucXA1Hg737HjicmYdq8DZhBKuM4j96Eyo5Y6wOA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷电机VS有刷电机的区别_无刷取代有刷是大势所趋__images\img_010_1f150c2f266a.png)
 
 **无刷电机与有刷电机的性能差异**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnkrPdPHqyxmWBsTKQXm5W0dWJZOpxgK6WiaicHdntXicYtCMMMiciaRLvrSg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷电机VS有刷电机的区别_无刷取代有刷是大势所趋__images\img_011_8cb02b18cb3f.png)
 
   
 
@@ -116,7 +116,7 @@
 
        有刷电机是通过调压调速，所以起动和制动平稳，恒速运行时也平稳。无刷电机通常是数字变频控制，先将交流变成直流，直流再变成交流，通过频率变化控制转速，所以无刷电机在起动和制动时运行不平稳，振动大，只有在速度恒定时才会平稳。 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8Znkmt76IgheSPWvibbSJuPsMNXJ3nvhcfjsR7RXcdv2ib0HW8MKPsVpfyA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷电机VS有刷电机的区别_无刷取代有刷是大势所趋__images\img_009_f9d5b9a1ab2a.jpg)
 
   
 
@@ -160,11 +160,11 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZngiaTuJ9KfkOeMTSA0ucXA1Hg737HjicmYdq8DZhBKuM4j96Eyo5Y6wOA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷电机VS有刷电机的区别_无刷取代有刷是大势所趋__images\img_007_1f150c2f266a.png)
 
 **有刷电机与无刷电机调速方式的区别**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Hlibq5A7Z6tNG0kgCW701mlcMgfOUw8ZnkrPdPHqyxmWBsTKQXm5W0dWJZOpxgK6WiaicHdntXicYtCMMMiciaRLvrSg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷电机VS有刷电机的区别_无刷取代有刷是大势所趋__images\img_008_8cb02b18cb3f.png)
 
        实际上两种电机的控制都是调压，只是由于无刷直流采用了电子换向，所以要有数字控制才可以实现了，而有刷直流是通过碳刷换向的，利用可控硅等传统模拟电路都可以控制，比较简单。 
 
@@ -202,7 +202,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\无刷电机VS有刷电机的区别_无刷取代有刷是大势所趋__images\img_012_509372e3b2b3.png)
 
   
 

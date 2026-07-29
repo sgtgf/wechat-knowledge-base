@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/aNskHVMQdn42ar7DpVnPNg](https://mp.weixin.qq.com/s/aNskHVMQdn42ar7DpVnPNg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sMbBonyabbMJFFicNSPBJZxjIlcnpkUdwCQq9j2FX5HEZibS1X99sloHwDNtVbw2qc32ibmbdcVpaxQ/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子_ABB_WEG_卧龙_汇川___电机巨头的_能效大战__IE5电机企业哪家强__images\img_000_2a1bf02851b1.jpg)
 
 
 来源：电机通
@@ -35,7 +35,7 @@ INNOMOTICS 1LE8005具备超高能效和极高的可靠性等优点，能够满�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/1oAsjnxcXJibtgePfnDPf2ibibqn7rgWW3DvpfygOkerdV7AiavcabiaQEtPe7vpPfDdvEhVag9eb9uoBz5kiaea1ZWw/640?wx_fmt=png&from=appmsg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子_ABB_WEG_卧龙_汇川___电机巨头的_能效大战__IE5电机企业哪家强__images\img_001_58715268adda.png)
 
 **02**
 
@@ -45,7 +45,7 @@ ABB推出IE5 synRM液冷电机，设立电机效率和动力输出领域的新�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/1oAsjnxcXJibtgePfnDPf2ibibqn7rgWW3DQPbxnWohQfxYuGphnomA309vbetn0NDyVibwHX4WaBLxhFjSrytesqA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子_ABB_WEG_卧龙_汇川___电机巨头的_能效大战__IE5电机企业哪家强__images\img_002_ac8f4b839102.other)
 
 **03**
 
@@ -55,7 +55,7 @@ ABB推出IE5 synRM液冷电机，设立电机效率和动力输出领域的新�
 
 作为能效等级达到IE5的永磁同步电机，SEW DR2C电机具有节能减排、高灵活性、结构紧凑、安装便捷等优势，并支持SEW全球快速服务响应。SEW DR2C电机特别适用于机场、汽车、物流等行业的输送系统以及工业领域中搅拌机、压缩机、风扇和泵等设备，是一款面向未来的、工厂自动化的理想驱动产品。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/1oAsjnxcXJibtgePfnDPf2ibibqn7rgWW3D6sLPKmYjfuNYfZNVFRu5ROyDCIjIozfYQNA4c0ssD0v7viatEjD4Rsw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子_ABB_WEG_卧龙_汇川___电机巨头的_能效大战__IE5电机企业哪家强__images\img_003_95dd74d4a839.other)
 
   
 
@@ -69,7 +69,7 @@ WEG去年在德国SPS展会上推出W23 Sync+ IE5电机系列。IE6的效率等�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/1oAsjnxcXJibtgePfnDPf2ibibqn7rgWW3DnQZDWR3AdRo3g8YvXk22OeHkKaWFz98qop4HEdcUJ7WgibJTic8Co68w/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子_ABB_WEG_卧龙_汇川___电机巨头的_能效大战__IE5电机企业哪家强__images\img_004_b477c05cb88b.other)
 
 **05**
 
@@ -77,7 +77,7 @@ WEG去年在德国SPS展会上推出W23 Sync+ IE5电机系列。IE6的效率等�
 
 基于其丰富的专业知识和大量的应用经验，利莱森玛开发了全新的超高效永磁辅助同步磁阻电机，Dyneo+系列。该系列电机与变频驱动同步开发，优化了整体性能，无论是否配有位置反馈，均可让调试和运行更简单；同时，Dyneo+的设计可更好地集成在用户的设备中，以最佳成本效益带来最高性能。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/1oAsjnxcXJibtgePfnDPf2ibibqn7rgWW3D4MurFdks5JN8icmlHaibPibuSZdtKq3MVrB3BKdQdtVqSNUrpZw8D48qQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子_ABB_WEG_卧龙_汇川___电机巨头的_能效大战__IE5电机企业哪家强__images\img_005_25c457704c34.other)
 
 **06**
 
@@ -87,7 +87,7 @@ WEG去年在德国SPS展会上推出W23 Sync+ IE5电机系列。IE6的效率等�
 
 自2021年7月卧龙推出IE5能效隔爆三相异步电机YBX5系列以来，研发部门加快产品升级换代步伐，在目前卧龙最先进、技术最成熟的WE平台上，陆续推出多种IE5能效三相异步电机WE系列。能效水平符合国标GB 18613-2020的一级能效。达到国际标准IEC 60034的IE5效率，相比IE4效率平均提升1.5%左右。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/1oAsjnxcXJibtgePfnDPf2ibibqn7rgWW3DwY5cfbQpM52ETakiaIb4dxbIAXGuIdibhSOshicjkJscImvQhjSksz4wQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子_ABB_WEG_卧龙_汇川___电机巨头的_能效大战__IE5电机企业哪家强__images\img_006_e1d946cb1f88.other)
 
 **07**
 
@@ -99,7 +99,7 @@ WEG去年在德国SPS展会上推出W23 Sync+ IE5电机系列。IE6的效率等�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/1oAsjnxcXJibtgePfnDPf2ibibqn7rgWW3DhZMUicx2FlHCGmGfDticibO3cYicGib05wCkqMyWDyxZvfWED0x78sbaEUw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子_ABB_WEG_卧龙_汇川___电机巨头的_能效大战__IE5电机企业哪家强__images\img_007_64b68c05ba1b.other)
 
 **08**
 
@@ -109,7 +109,7 @@ WEG去年在德国SPS展会上推出W23 Sync+ IE5电机系列。IE6的效率等�
 
 东元电机多年来深耕电机产品领域，通过不断研发与测试，力争从材质、加工及设计等各方面提升电机效率。东元IE5超高效三相异步电机和隔爆电机，功率范围均从0.75kW涵盖至315kW，多种安装方式及不同防护等级，GB能效认证、3C认证、俄罗斯CU-TR认证、CE(自我宣告)以及防爆合格证等认证齐全，广泛满足不同实际应用场合。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/1oAsjnxcXJibtgePfnDPf2ibibqn7rgWW3DRP4oV72MLl4hQ7Cowwf1goFib6OBqOKiae2GowL2REKe4tCVicUXe3z7A/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子_ABB_WEG_卧龙_汇川___电机巨头的_能效大战__IE5电机企业哪家强__images\img_008_8ed617f10de1.other)
 
 东元超高效电机效率提升图
 
@@ -121,7 +121,7 @@ WEG去年在德国SPS展会上推出W23 Sync+ IE5电机系列。IE6的效率等�
 
 诺德IE5+永磁同步电机的效率值显著超过了IE5能效等级的要求。这款结构特别紧凑的高效节能电机在广泛的扭矩范围内可始终保持高达93%以上的高效率，因此在部分负载和部分速度范围内能实现更佳的节能效果。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/1oAsjnxcXJibtgePfnDPf2ibibqn7rgWW3D4DpYMDHPBTqCDkYtuUK8jicoKS7IA50fPUASeXMXcU4bFx4SjbpnOeg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子_ABB_WEG_卧龙_汇川___电机巨头的_能效大战__IE5电机企业哪家强__images\img_009_479efc9f27d1.other)
 
 **10**
 
@@ -131,7 +131,7 @@ WEG去年在德国SPS展会上推出W23 Sync+ IE5电机系列。IE6的效率等�
 
 2023年10月，东芝在日本首次上市销售达到IE5能效的高效磁阻电机（SynRM：Synchronous Reluctance Motor）。新产品与三相诱导感应电动机的标准框架号相同，易于互换，且达到了公司最高效率水平IE5。此外，这是一种环保的电动机，其转子部分不使用磁铁（稀土）。这是一款满足客户对应对气候变化、循环经济等多种需求的，更加节省资源的产品。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/1oAsjnxcXJibtgePfnDPf2ibibqn7rgWW3DLtn92h00QsTwQYW3AyLPI7JmqC2A3pjoRWcXntmtzMjibNkO1pMCoVw/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子_ABB_WEG_卧龙_汇川___电机巨头的_能效大战__IE5电机企业哪家强__images\img_010_ca0db9700a6c.other)
 
   
 
@@ -157,11 +157,11 @@ WEG去年在德国SPS展会上推出W23 Sync+ IE5电机系列。IE6的效率等�
 # [华为都“活不下去了”！电机中小企业未来三年要怎么过](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247575025&idx=1&sn=800a15fe2572766ef1632371ee7475f2&chksm=cedfe435f9a86d23f050893e070245640fbc59fce832cb6264e6ecf8b6c43c0fe9a0c6565a38&scene=21#wechat_redirect)？
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子_ABB_WEG_卧龙_汇川___电机巨头的_能效大战__IE5电机企业哪家强__images\img_011_9967d1607b24.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子_ABB_WEG_卧龙_汇川___电机巨头的_能效大战__IE5电机企业哪家强__images\img_012_fb0ff5197498.png)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tMzMevYpPAySDyFiaafVt6hlnBk2MabwiahKl2h63picic7sVYg0g3DojZDAtHn0rMCIUhye6HKw5rdQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\西门子_ABB_WEG_卧龙_汇川___电机巨头的_能效大战__IE5电机企业哪家强__images\img_013_5591b15b40b7.png)

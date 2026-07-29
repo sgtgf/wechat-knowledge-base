@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0ue8kGZ3FKfShpibHOiaothcRQKbhTTNOEv3kWYZezoNcviaMz9rdlGqfEUctXcfIXne5256xHpplJNw/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t9SFhkt1HAm4WT89Y7MgPIcE263x4dAC4wt5Fiao2obORomDjicvEF3U1v13KYFKjtmZTtJVggnDCA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机从业者必备知识体系你知道多少吗_记住原理及公式_搞清楚电机so_easy__images\img_000_79cd99eb9a22.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机从业者必备知识体系你知道多少吗_记住原理及公式_搞清楚电机so_easy__images\img_001_3d78c7467519.png)
 
 **
 
@@ -36,7 +36,7 @@
 
 转子绕组：切割定子旋转磁场产生感应电动势及电流，并形成电磁转矩从而使电动机旋转；
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd4icjcsxYCWDDf8eoUTibeIf6WvuooB9rVbYABxHZzVoYApWS8sVbywW8UAxolMdrVRmcO98UrYpTFg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机从业者必备知识体系你知道多少吗_记住原理及公式_搞清楚电机so_easy__images\img_002_142bb231e93b.jpg)
 
 **★电机的几个计算公式：**
 
@@ -50,7 +50,7 @@
 
 磁通量计算公式Φ=B\*S\*COSθ，当面积为S的平面与磁场方向垂直的时候，角θ为0，COSθ就等于1，公式就变成Φ=B\*S。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd4icjcsxYCWDDf8eoUTibeIf6TSRos07MggjbahHjaibD7klno65yyyOVhWKfmAeXAKkr6TYHF6kFibAw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机从业者必备知识体系你知道多少吗_记住原理及公式_搞清楚电机so_easy__images\img_003_702f9b7e9672.jpg)
 
 将上面两个公式结合一下，就可以得到电机磁通强度计算公式为：  
 
@@ -68,7 +68,7 @@ B=E/（4.44\*f\*N\*S）。
 
 可以从上面序号1内容中推导出来，不过我们没必要学会推导，记住这个计算公式就可以。不过再次提醒，公式中功率P不是输入功率，而是输出功率，由于电机有损耗，输入功率不等于输出功率。但是书本上往往理想化，将输入功率等于输出功率了。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/ZmBgPlKTGd4icjcsxYCWDDf8eoUTibeIf6ZJ4rMGrxB0qD6kmQCiaBzaOTSZqyVKQoSN0B05d7HEgBbUh15UV3BVg/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机从业者必备知识体系你知道多少吗_记住原理及公式_搞清楚电机so_easy__images\img_004_5cfe8f72fdca.gif)
 
 4、电机功率（输入功率）：  
 
@@ -82,7 +82,7 @@ B=E/（4.44\*f\*N\*S）。
 
 **★电机的其他部件：**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd4icjcsxYCWDDf8eoUTibeIf6E4s6980CMyOSCCEkecYwcyWkTBA31Kiax9M16K9qicNzQ4GAJcxEFia5w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机从业者必备知识体系你知道多少吗_记住原理及公式_搞清楚电机so_easy__images\img_005_82b96b43afac.jpg)
 
 1）风扇：一般安装在电机尾部，用于给电机散热；
 
@@ -100,11 +100,11 @@ B=E/（4.44\*f\*N\*S）。
 
 **电工基本知识**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/XYbhsxBrNIIVo5UuDticZhqWEiaibiaAiaNs1rMwuCwpPa3icnUudhtSRI5BoHNickhd2TFGNJyXt2rWofRpLG9HfMyZQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机从业者必备知识体系你知道多少吗_记住原理及公式_搞清楚电机so_easy__images\img_006_c1aad4964814.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/XYbhsxBrNIIVo5UuDticZhqWEiaibiaAiaNs1vTteAwBfzj7tsdF7licxdWUlakjJ6SykSgvAh1oyZYLXT9AGgFKn6oQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机从业者必备知识体系你知道多少吗_记住原理及公式_搞清楚电机so_easy__images\img_007_a03643621bba.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/XYbhsxBrNIIVo5UuDticZhqWEiaibiaAiaNs1S8Gl2UF5RoQNKGbiaRrrIemMjQGlic4MknrFMMO0pRWR3tZrjooicgdKw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机从业者必备知识体系你知道多少吗_记住原理及公式_搞清楚电机so_easy__images\img_008_f36ebe5831cd.png)
 
   
 
@@ -112,7 +112,7 @@ B=E/（4.44\*f\*N\*S）。
 
 **电气性能容差**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/XYbhsxBrNIIVo5UuDticZhqWEiaibiaAiaNs15xVSEVbzpMB4pdBWiaZWpvsZmXDiaMTvK4xr4dh9jHNqKA5zVnJggHfQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机从业者必备知识体系你知道多少吗_记住原理及公式_搞清楚电机so_easy__images\img_009_a9b837d681f7.png)
 
 **3**
 
@@ -174,12 +174,12 @@ C
 
 **类电动机适用的负载特性**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/XYbhsxBrNIIVo5UuDticZhqWEiaibiaAiaNs1ArEWvjyH60Corn9mLiaT2O7d4aqSnIIau3WqhjvHJZjiarcdMk5uCPiaQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机从业者必备知识体系你知道多少吗_记住原理及公式_搞清楚电机so_easy__images\img_010_8cad74e91044.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机从业者必备知识体系你知道多少吗_记住原理及公式_搞清楚电机so_easy__images\img_011_31a98b8e3167.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机从业者必备知识体系你知道多少吗_记住原理及公式_搞清楚电机so_easy__images\img_012_ec5921db28d2.png)
 

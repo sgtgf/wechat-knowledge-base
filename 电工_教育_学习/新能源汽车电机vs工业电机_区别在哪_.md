@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tbNsCFC0AHia37KF8iciapax1xHicVnLQN4FKqwxAqCXibgXqQ0e3aqvYQ26pvERgY4JibS8LYZOPWa5pA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新能源汽车电机vs工业电机_区别在哪__images\img_000_86070280ef99.png)
 
 
 来源：网络  
@@ -17,7 +17,7 @@
 
 整体而言，电动汽车电机和工业电机都是是电机的一种，分类及控制的理论和方法相同。而与电机的工业应用不同的是，用于电动汽车的电机通常要求频繁起停，快速动态响应，低速恒转矩运行且过载能力强，转速变化范围宽，可以四象限运行，在充分满足汽车运行功能的同时还应满足行驶时的舒适性，适应环境的能力等。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/3t177selbFdlwjmicoM3QKsXW3OjxSojibV9vPIlThpcOafwSumaeyynJV0yhlqkQ0Faia2nsvOMcR4aA3nPM9ybg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新能源汽车电机vs工业电机_区别在哪__images\img_001_14cea65cdec8.jpg)
 
 电动汽车电机所用驱动器相比于工业用电机的驱动器来说，在尺寸、工作环境、可靠性、功率密度、冷却方式等方面有较大差异，对电动汽车电机驱动技术的基本要求总结如下：
 
@@ -39,7 +39,7 @@
 
 下面的图片清楚的指出了汽车电机和工业电机的相关区别：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/3t177selbFdlwjmicoM3QKsXW3OjxSojibgY9oVKoPCvVj07w2BlycsmBh6YhmBzlT5ZJCIhzXJib8bC5d4cOzTPg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新能源汽车电机vs工业电机_区别在哪__images\img_002_f4f41dbd22c4.jpg)
 
   
 
@@ -53,7 +53,7 @@
 
 驱动电机作为新能源汽车三大主要零件之一，如果说**电池系统是电动汽车的血液，电控系统是电动汽车的大脑，那么电机系统是电动汽车的心脏。**在新能源汽车中使用电动机取代发动机并在电机控制器的控制下，将电能转换为机械能来驱动汽车行驶，是纯电动汽车的唯一驱动装置。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xqwozZXfMRgBD2nv1Zbr9iciccDKKTUSxqHSHpZDcKNAeeXMZpZ9W7X378HiaPwKSf6JrPt56PJkqgibfx4oHKFDDQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新能源汽车电机vs工业电机_区别在哪__images\img_003_282938ac23a9.jpg)
 
   
 
@@ -75,7 +75,7 @@
 
 **开关磁阻电机价格低、电路简单可靠、调速范围宽；但震动、噪声大，控制系统复杂，且对直流电源会产生很大的脉冲电流，**用于大型客车。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/xqwozZXfMRgBD2nv1Zbr9iciccDKKTUSxqbCr2fgms5TQu31C3IaIrgJ0DvhkLyEHTaRe4Z1SUoKsicK9veWIZCcw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新能源汽车电机vs工业电机_区别在哪__images\img_004_c8a2568640c5.jpg)
 
 驱动电机性能指标对比
 
@@ -121,12 +121,12 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_教育_学习\新能源汽车电机vs工业电机_区别在哪__images\img_005_31a98b8e3167.jpg)  
 
 
   
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\新能源汽车电机vs工业电机_区别在哪__images\img_006_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
 

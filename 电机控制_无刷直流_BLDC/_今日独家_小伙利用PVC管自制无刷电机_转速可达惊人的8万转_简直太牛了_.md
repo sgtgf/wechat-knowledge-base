@@ -4,12 +4,12 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/t8m8Qsek5IWOcjXtxs1Y1w](https://mp.weixin.qq.com/s/t8m8Qsek5IWOcjXtxs1Y1w)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sib2GV88N4ED1kkgkq7k9cyS2dP3SAI4omdN32ymGX0FgwrvBhvrlMGFk4FPlVdoAcTs0vkUdMeeQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\_今日独家_小伙利用PVC管自制无刷电机_转速可达惊人的8万转_简直太牛了__images\img_000_22e7ef107232.png)
 
 **【今日独家】**为**电机行业观察**平台开设全新内容板块，主要以短视频的形式分享电机相关的热点，从另一个角度了解电机，捕捉电机最新动向！
 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0sib2GV88N4ED1kkgkq7k9cyYRq4x0E5gsLLOTNdzMW7HDX4jAE6wv1doMkBYgC1p5oS1WkwUPHjUA/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\_今日独家_小伙利用PVC管自制无刷电机_转速可达惊人的8万转_简直太牛了__images\img_001_ecbf3ea61015.gif)
 
 【**小伙利用PVC管自制无刷电机，转速可达惊人的8万转，简直太牛了！**】
 
@@ -27,10 +27,10 @@
 **04**【发明电动马达的人真是天才，你知道它是如何高速旋转的吗？】
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sib2GV88N4ED1kkgkq7k9cy0QBvcEhFKAvJY4dK3AS1aRwe8mickXfkqGJbQqYXhcWb55XuiaCBGZ3g/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\_今日独家_小伙利用PVC管自制无刷电机_转速可达惊人的8万转_简直太牛了__images\img_002_2dd9e414dca2.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\_今日独家_小伙利用PVC管自制无刷电机_转速可达惊人的8万转_简直太牛了__images\img_003_31a98b8e3167.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\_今日独家_小伙利用PVC管自制无刷电机_转速可达惊人的8万转_简直太牛了__images\img_004_ec5921db28d2.png)
 

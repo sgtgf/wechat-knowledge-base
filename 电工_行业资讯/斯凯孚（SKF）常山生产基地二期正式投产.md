@@ -14,7 +14,7 @@
 
 5月18日，斯凯孚（SKF）宣布其常山圆锥滚子轴承及圆柱滚子轴承生产基地二期正式投产。据了解，常山工厂超过半数业务与汽车相关。二期工厂的投产，再度提升了乘用车、商用车尤其是新能源汽车领域的产能空间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kpUwLoxLBdVdYphGNEibRsOtG6jwOQgpSibg2pkIXBAPTTFFlic6qpZr8nXEnswClE85XpXnpwxefBTohdXslOtNg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)斯凯孚常山圆锥滚子轴承及圆柱滚子轴承生产基地二期开业庆典（图片来源：斯凯孚）
+![](D:\电脑文件\公众号知识库\电工_行业资讯\斯凯孚（SKF）常山生产基地二期正式投产_images\img_000_8e7f6f1d692d.png)斯凯孚常山圆锥滚子轴承及圆柱滚子轴承生产基地二期开业庆典（图片来源：斯凯孚）
 
 **加码在华布局****，****多地扩建产能**  
 
@@ -22,7 +22,7 @@
 
 常山基地原由旗下品牌皮尔于1999年建立，初期主要生产农机轴承。2008年斯凯孚收购皮尔后，逐步将业务扩展至工业、商用车、乘用车、工程机械等领域。随着业务提速，2017年斯凯孚在常山投建生产基地，一期项目于2019年建成投产，并于2022年正式启动二期项目建设。据介绍，常山基地一期年产能约3600万套轴承，二期年产能约4000万套轴承，除了满足中国市场需求外，还辐射北美和欧洲市场。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/kpUwLoxLBdVdYphGNEibRsOtG6jwOQgpSN02Fsdqq33xFzcibNPaiakh0Bic6tRt2ibYxzxEcasOJAvGMXiamAUznUNw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)斯凯孚常山生产基地全景图
+![](D:\电脑文件\公众号知识库\电工_行业资讯\斯凯孚（SKF）常山生产基地二期正式投产_images\img_001_2c422d226058.png)斯凯孚常山生产基地全景图
 
 除了扩建常山基地外，斯凯孚近年在提升本地产能方面动作频频。斯凯孚中国区副总裁施波指出，过去三年内，斯凯孚先后建成了常山生产基地一期项目，新昌生产基地一期、二期项目、芜湖工厂、大连生产基地三期等项目。本月底，斯凯孚济南生产基地二期项目即将正式投产，新昌生产基地三期项目、大连四期项目也正在稳步建设中。以上这些，将进一步夯实斯凯孚在华的产能产力。
 
@@ -34,14 +34,14 @@
 
 据悉，常山二期项目投产后，将新增圆锥滚子轴承及圆柱滚子轴承产品，并将产品加工的尺寸段增加至420mm的轴承。另面对新能源汽车高转速带来的能量损耗痛点，斯凯孚推出的**新一代圆锥滚子轴承，**可以降低60%摩擦力矩能耗损失，从而帮助客户提升0.5%整机效率，继而起到延长电动车续航里程的作用。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/kpUwLoxLBdVdYphGNEibRsOtG6jwOQgpSd69DoQXFCf6yfxOLIhBDYyTtj0NpnbcGvnpfZubejfYxIoqia04NB6Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)新一代圆锥滚子轴承（图片来源：SKF）  
+![](D:\电脑文件\公众号知识库\电工_行业资讯\斯凯孚（SKF）常山生产基地二期正式投产_images\img_002_637ca6baa531.jpg)新一代圆锥滚子轴承（图片来源：SKF）  
 
 除了提升整体研发能力外，为快速响应客户需求，斯凯孚的生产基地同步拥有工程能力。如常山工厂拥有“本土产品设计与开发+快速试制+台架测试+失效分析”能力，可以实现一站式全价值链服务。
 
 从以上来看，斯凯孚再度发力中国市场的号角已吹响。如此快速的加码产能，并深化本地技术能力，一方面呈现了这家在中国已历经百年的老牌企业应对中国市场新需求的信心，另一方面印证了其植根中国的决心。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_行业资讯\斯凯孚（SKF）常山生产基地二期正式投产_images\img_003_31a98b8e3167.jpg)  
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\斯凯孚（SKF）常山生产基地二期正式投产_images\img_004_ec5921db28d2.png)
 

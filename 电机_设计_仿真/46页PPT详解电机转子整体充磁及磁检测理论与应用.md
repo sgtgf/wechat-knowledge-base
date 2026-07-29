@@ -4,108 +4,108 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/DPR9TQjNUVkKqWNE8RJhLA](https://mp.weixin.qq.com/s/DPR9TQjNUVkKqWNE8RJhLA)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t7PRoBOR11UkBSgoXIqyicH5gpzwndo5s9MAbQggNRbCia9I83Mt0ibmV4t9PpPLGo61vh2awCzbW3Q/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247580512&idx=2&sn=f8e9cd497def449e2bc7f9f0e5aa4791&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_000_6fdf41d5eb40.jpg)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247580512&idx=2&sn=f8e9cd497def449e2bc7f9f0e5aa4791&scene=21#wechat_redirect)
 
 △点击图片报名参加
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_001_d8cb52582ba8.jpg)
 
 
 来源：麦格雷博电子
 
   
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRd0DaftwQnBuxiasSauEAMTibDSWzpbGm9q2z1RDvO24ZRjr4p9nSwJKPw/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_002_29bca7efba19.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdgrXJiczy4AsuZ0oSFElUicAic96rKMOLen8N9RZuwiaOt4zQ3vXOo7jIpw/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_003_bc2daf3e35c4.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRd8gEia5Xibia4FSMQBzu2bYsPAnXAovc2s5yWHjfL3N0pdoWsb6AH9rCRg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_004_3c8c5b337137.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdBhiccMoNN1pyz0gZZ4tf8pN9wIj053GQRlcEAfrMkcVKLJSrhXFLIgA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_005_7efae8aaf19e.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdpEtNxxUlL4RHuuYvjicaHcOywfkmcend3et0CYIvP64K760nI8W1KGA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_006_90e9c1815960.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdibXzfZIHLOl3yW3bKENnXfxUUYiahyr702ibq7yvMy6EGNibOG8gQgibQ4g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_007_c198edabfc61.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdp28o792spGRibbjgT9iaqVMTFVbW08w2NFQdCpoe3jAkl5OYIX40Pe6g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_008_9b4140a726f8.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdzfgAKG2IZOGrwMovaKOorK30GuL5uY72cKKHl51N726dEo7UkVMiaEg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_009_ed0a4e01a848.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdm1P4SvkP7wPTe8eQias3mnYSZvstszdArlCJugwCl2wiaZiaiaqj3ibOsAg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_010_2771a074a774.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRddKicMia0EUsL8phiaCAR6ycJrvMMGX7sru1Zzj1hBDWSYOQ3MFPVuSldw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_011_93b19da990e9.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRd5cZ9j6R1A16wGQpmEics3k6csOxKPwrBInxml9z3F5nezjmfctMNfcg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_012_bcd7de31d35a.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdkG27vhXU1OXxcKgCiaJ3FNKADPsORPDjYhcyxXchEANm97WtoFYq3VA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_013_204261754abd.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdFd0QrpIKmqMPkZpnnzOU604Fbu3tIXf60ia5cqWx0amQc9aXYSkoNUw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_014_a6cfd399fc87.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdMpoIoOiaYNkctnxvjzMSnYgdg30BCY4OoBYhNhD7HLyUtTibqtvKHjaw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_015_381b67afd914.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdicEdDkeORteohPhvicnGdNvQnHmfJl6BlQ17doZ1tibxIQqezZpXicy4lA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_016_e483f7087807.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdElUviaqMGZlfmrOIbF7ZRdSXjcAamIGoNsfibnfs6vF1XE0KL9Zg0ibXw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_017_9f69faf70cf4.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdlKfFIRnAHYypgQcJnOhkAEzLrh4iarIbhfXTI4oZcAkCwuuBI77dsiaA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_018_81bad7e4798f.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdM7icofibJUVKjv9P6hevS2nP9NOge9qmmk2OibIibBAJWrBmiau4dBE3ctQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_019_1089ad60b8fb.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdRDBEmgU6Yiar8z9aPyYL08rWCicfGEHe0ic1XyhWPUuBLK6aNePAictkNA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_020_8a29eed0e639.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdkcqhlrBdpvulIZetDLO32OAmZ8PJIYyubLjXjJ0ty2uibkIXmLg30YA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_021_39725857b282.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdfznM2BCV0yox85YO1Ks0mBsjjTC6dWIQ9Ma5FFveS0ppNpTN9szucQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_022_d1068a169961.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdaz6HhNyicxvvJ5IRFdY4wLqXKibribrIJQ9c9LcKNFkUPu3Je2JjkibO1Q/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_023_033500ead00f.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdJicdI8jWTLh6NzZRN1DH5EicOxFkgg9OjMAmD4Emc9t2v8ic5KG7t2fiag/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_024_0507b0ab5333.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdpLJ8jMXSicbb62NOQSfgTBsdFSkG9icZrDkTRXrm822SjlkqCWYprxyg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_025_fd53e4f8a3d6.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdVeibo4TSsnVFOm0bcvziaIiajy3VYA4UnypdYK7VibaSibEx7qwt0wPQLFQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_026_8d704077ddd0.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdUadG1zjzyGyia42zxkNfKH8iabK1vcVm14GFPjN8kkQVE0kVWxE84lnA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_027_209fff09bb49.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdbZmjT6xlibbGRoKeyDtl2pNoNbgJZ3ZKjAAQN6LsOfuYFXibFvXCZnicg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_028_7e602b930d98.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRd8hkOAGkBfDQYXeoDnywXFpDyqBg2vde1icf1erI3yibyic1kyYfWqj3icQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_029_9ddacbf4733e.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdsVSQpN6kPV3GfzsrcMiayOCU8PGf8NJAnavKL78UhNhUJWwRuzkylhw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_030_0d86d4fd1195.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdQEJBllEaicFyQdKfdeRXarfHBe5BiaUAoOs0QOpktjBLficZnqwgz8OqQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_031_23eda0d8205c.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdUGK2YWWGvuXWyfQbIQAR3G3TPjAH4KVFb9l0hS9x74BNdA01DpicUfQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_032_e8e2863f42a0.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdc3Xg8criaB4y0pLzgsW4qcADXpSBLicsFwQgLUkiahH419t1CUf4MrCmg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_033_1a27c9dc662e.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdhDN4EYBmoKzMa93ZPicPIiahUGOibxJFIpEoONicsJbAsWqcYibiad7S2icWg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_034_7b9d222e145e.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdB0aR6A9cFIYj5WrcXgKg1OSVz22Kqd55icFACS6YuPtCM5SVLY02ntQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_035_75efb1415f6d.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdbpUZq6wkZjckpn1FQR2Tp8MgmDwdeRA9112XuDQ9jlYxRwicvQhEe2g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_036_05e518987407.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdXOxO8ANl3y9Nngn4ia7wLCFGBJqr1D8WcAibLvf3ZHqb0SCWISLoApiag/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_037_84d359f7a27e.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdD6IxmBBNIxyXiaTlqiaurUMhStFafCw2I3ZdjStH7WIqBkeUndd53WgA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_038_dbc53ae9957b.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdpBY7qkqEeJZ8QbzDmWEsz2eYEvJeD4LKHftVlmJDtVXody3RArFXPQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_039_239384f485fd.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdt0hnGSEddaDFRAUhFQXUNc8eZFLuliczdvFq4QLZJR577ia09dFXhGEg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_040_11f8c90cf4f7.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRduTn59HhAV2bibFjicfVv6Nnib1abfG4JahxshDNgKNpCkwM5zZGA20d3w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_041_8d6625d22586.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdoelPLRXAxTj5xWnP3YXoXy8KEQnDmtVzYQxdZ2oU4R7XZMjNclEwpQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_042_6eb3846ce12e.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdhOA04AoBlL6pe96zaIs2u7icgf8gyWFz3ZG2NpgAIo8l6icMichUcUlsg/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_043_e996e2e9b3b3.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdnMoZPkiaibaz0SoqicpY6g0xE0icHUDI67VC0YGRenOsQdrlRs49d5Cib3g/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_044_8436079051b0.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRd4kficdhalbZy7tgULibNLVTnCFXv7oW38ucn5U8MqOibRgXWmWSZUuBVQ/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_045_30ac32858f8b.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRd2ossPhvVXa2GADtsEg61Z3VyOUgtLJwK0z7C8S2lWdJ9Nd6WGpSibPw/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_046_1f687957d7ff.png)
 
-![图片](https://mmecoa.qpic.cn/sz_mmecoa_png/b0efeM4g5NkdFDxHYicuogoMwmldAYGRdkN44XBJOTJeQdWicrVlRtbjMNkQibQ3phNofdXcN5UPxbjlSrgL0cm6w/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_047_5fb5e32eb1a4.png)
 
   
 
@@ -123,11 +123,11 @@
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_048_3ccc50bba2ef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGTdAQI2qpV97qAmOqeibaIiaKVLIks3YeQgIOyX5ia8tqVf9AFgW3XZ8Lw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_049_6eec1b7fb41b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGk0C4HQwvywiaCRaw753uY4ZQdjaYicMhbrRdySb1xNFYzMAMNV8icFb3Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_050_1798abd6d288.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\46页PPT详解电机转子整体充磁及磁检测理论与应用_images\img_051_1862cf7fbcf8.jpg)
 

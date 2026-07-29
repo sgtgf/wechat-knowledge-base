@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0teiceibxaxXjXW1A56HF7tkg1BqF80Fy26bEAcYgkwymmYr8esIUc8xHrJXFogdcvjAtgMicfQLJOLA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_行业资讯\一文读懂发那科_ABB和安川电机三巨头工业机器人技术布局有何不同_images\img_000_2a1ae17a00a1.jpg)  
 
 **来源：****前瞻产业研究院 卢正源**  
 
@@ -20,7 +20,7 @@
 
 根据IFR统计，发那科、ABB与安川电机的市占率排行全球前三，分别是17.3%、15.7%与12.9%。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/07B1RzHXu3dMgoEaK5JHLibBoWiczh8FqbI78FWUybg9XRPQpUJAvhq2NzJhlMfOx9KGPLQ9dhVibBXXsibjiatd8eQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\一文读懂发那科_ABB和安川电机三巨头工业机器人技术布局有何不同_images\img_001_691d4956ccc7.png)
 
   
 
@@ -36,13 +36,13 @@
 
 在工业机器人专利申请量方面，ABB瑞士股份有限公司的申请总量远高于另外两家企业，截至2021年8月，ABB瑞士股份有限公司的总申请量为25858项，其中PCT申请量有6793项。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/07B1RzHXu3dMgoEaK5JHLibBoWiczh8FqbYsajsgiaT4yA3xHIqibux01dibxwibhicPfe1Otm09ic9BtibrCoB1FWrOaqQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\一文读懂发那科_ABB和安川电机三巨头工业机器人技术布局有何不同_images\img_002_b0a8414f6711.png)
 
   
 
 从趋势上看，2010-2017年，ABB瑞士股份有限公司的申请量一直远高于另外两家，在2017-2021年8月，发那科株式会社的申请量开始与ABB水平逐渐齐平，安川电机的申请量则一直处于较低的水平平稳变化。2020年ABB瑞士股份有限公司的专利申请量为470项，发那科株式会社为398项，安川电机的为52项。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/07B1RzHXu3dMgoEaK5JHLibBoWiczh8Fqbptr7Xw4IalaQANTuRm4zIK7Ip9lKAqPuVxiahpplPNDuQ8n2XoibcWOg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\一文读懂发那科_ABB和安川电机三巨头工业机器人技术布局有何不同_images\img_003_32c2f206dc7d.png)
 
   
 
@@ -52,13 +52,13 @@
 
 ABB瑞士股份有限公司的专利总价值高达318904.13万美元，发那科的稍低，为238455.17万美元，安川电机远低于前两家，仅有49258.5万美元。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/07B1RzHXu3dMgoEaK5JHLibBoWiczh8FqbtllyWBxZwbDDgHRGxribBAHBnxNRQGPYolPysNibN5OdH24adrAA9xqA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\一文读懂发那科_ABB和安川电机三巨头工业机器人技术布局有何不同_images\img_004_83619189724f.png)
 
   
 
 从价值分布来看，ABB的工业机器人相关专利的价值大多低于3万美元，而发那科与安川电机的专利价值则主要分布在3万-30万美元的区间。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/07B1RzHXu3dMgoEaK5JHLibBoWiczh8Fqbp6O1VUm48caflox8mEWicA6RZhJfwJREgVSTtl8NaV4WF8ETdnRhK3Q/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\一文读懂发那科_ABB和安川电机三巨头工业机器人技术布局有何不同_images\img_005_58fdbbe75485.png)
 
   
 
@@ -68,7 +68,7 @@ ABB瑞士股份有限公司的专利总价值高达318904.13万美元，发那�
 
 从专利合作情况来看，目前智慧芽仅有发那科的合作情况有记录，据统计，发那科关于工业机器人专利的合作申请数量共有18项。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/07B1RzHXu3dMgoEaK5JHLibBoWiczh8Fqb32ZGJd0k1Uv4TLVBUGG5aD2BadJb6iaJSiaicjzM3pnnpV4CJQYGxiafvQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\一文读懂发那科_ABB和安川电机三巨头工业机器人技术布局有何不同_images\img_006_c0a798165829.png)
 
   
 
@@ -82,7 +82,7 @@ ABB瑞士股份有限公司的专利总价值高达318904.13万美元，发那�
 
 目前，三家企业的主要申请区域家中在日本，同时美国、中国与德国也布局较多。其中发那科在日本的专利布局有1637项，ABB与安川电机在日本的工业机器人专利布局则分别是67项与595项。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/07B1RzHXu3dMgoEaK5JHLibBoWiczh8FqbwauGLlkuic3KMicJ7RXsraVXHyEBIoYNycleZB0Ie0obzjaZWtc6OtKg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\一文读懂发那科_ABB和安川电机三巨头工业机器人技术布局有何不同_images\img_007_7c708f60985f.png)
 
   
 
@@ -92,7 +92,7 @@ ABB瑞士股份有限公司的专利总价值高达318904.13万美元，发那�
 
 从专利类型来看，三家企业的专利均以发明专利为主，其中发那科发明专利的占比达到了95.71%，为三者中最高，ABB与安川电机分别为88.12%与90.28%。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/07B1RzHXu3dMgoEaK5JHLibBoWiczh8FqbDEfIVJ5Jp2wZmoLichcJ23zWIcwicg9goKm1AVro7G090Iia8wyJwibHxA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\一文读懂发那科_ABB和安川电机三巨头工业机器人技术布局有何不同_images\img_008_b6986ac0d7c4.png)
 
   
 
@@ -102,17 +102,17 @@ ABB瑞士股份有限公司的专利总价值高达318904.13万美元，发那�
 
 目前，“程序控制系统(特殊应用见有关位置，例如A47L15/46;附带或内装有在预定时间间隔操作任一器件的装置的时钟入G04C23/00;记录或读取数字信息的记录载体入G06K;信息存储器入G11;在程序执行完了后自动终止其运行的时间或时间程序开关入H01H43/00)\[2006.01\]”是发那科与安川电机的主要布局领域，二者在这一领域的专利申请数量分别为5275项与1389项，“带有灭弧或防弧装置的高压或大电流开关\[2006.01\]”是ABB的主要布局领域，专利数量为1250项。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/07B1RzHXu3dMgoEaK5JHLibBoWiczh8Fqbzx6tF1GBtZUXKDiapLQN7N8CeKXL6xKMtEN9MH9xPNlRhC1BdUzOMJA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\一文读懂发那科_ABB和安川电机三巨头工业机器人技术布局有何不同_images\img_009_4848c8a6c484.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/07B1RzHXu3dMgoEaK5JHLibBoWiczh8FqbibU5iafqyBwqdLQLicbrgMian8QoatKHsj7YwMRorkzleBP59LibsoPONQA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\一文读懂发那科_ABB和安川电机三巨头工业机器人技术布局有何不同_images\img_010_555eca084b64.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/07B1RzHXu3dMgoEaK5JHLibBoWiczh8FqbHXt4rvGhjgda0tCRYV5XgicHzm3q1jiaq7mBGialF0LfyQdYz3oFraGSQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\一文读懂发那科_ABB和安川电机三巨头工业机器人技术布局有何不同_images\img_011_bfc09014e691.png)
 
 从工业机器人专利聚焦领域来看机器人是主要的聚焦领域，其次还有机器人系统、控制器以及控制装置等。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/07B1RzHXu3dMgoEaK5JHLibBoWiczh8FqbujlWoDmE0m7w10oZOuGEI8egXDrANMQ9ubBq3DaY7RIgDV3Dm4htoA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\一文读懂发那科_ABB和安川电机三巨头工业机器人技术布局有何不同_images\img_012_10786916f0d4.png)
 
   
 
@@ -122,7 +122,7 @@ ABB瑞士股份有限公司的专利总价值高达318904.13万美元，发那�
 
 在重点专利布局上，ABB重点布局的专利“robotic wash cell using recycled pure water(可回收纯水的机器人清洗槽)”，该专利被引用次数166次，专利家族规模为7项，具体情况如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/07B1RzHXu3dMgoEaK5JHLibBoWiczh8FqbN94zP4Aam1TVSJGOocuVzAwiaRicptEZzJzZd3fmnibXd2EgB8g7awJPA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\一文读懂发那科_ABB和安川电机三巨头工业机器人技术布局有何不同_images\img_013_c56a6b5032e2.png)
 
   
 
@@ -140,7 +140,7 @@ ABB瑞士股份有限公司的专利总价值高达318904.13万美元，发那�
 
 整体来看，ABB在国际化上较占优势，发那科数量增长最佳，安川电机则在质量增长方面优势较大，其他方面例如多样化、专业化与市场推动三者相差不大。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/07B1RzHXu3dMgoEaK5JHLibBoWiczh8FqbDNjDSgWMW5UWNJlrEHhfdTk5CEto3rTkUt6nL2Rnd96H8W3DAD0sZg/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\一文读懂发那科_ABB和安川电机三巨头工业机器人技术布局有何不同_images\img_014_36f48ea458c4.png)
 
   
 

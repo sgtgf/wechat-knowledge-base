@@ -6,63 +6,63 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_000_d8cb52582ba8.jpg)
 
 
 来源：EDT电驱时代
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/VQQBrHoY3PEKEQcKJShToib1icuTaicn4RSGNM4tTibib7ZTyjBvzx7gRuh2DnWZm6hTXC89YZLl2xARSZgECsADBAA/640?wx_fmt=jpeg&watermark=1&tp=wxpic&wxfrom=13&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_001_1af012d20011.jpg)
 
   
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/VQQBrHoY3PEKEQcKJShToib1icuTaicn4RS7nfrrloibYG5Dd3NXgXs3QE4iaBBVIl6yvtRGTicibJx9VosR0IPHDGVfA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_002_5b511da99e29.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/VQQBrHoY3PEKEQcKJShToib1icuTaicn4RSibISyUbiaAjySIoIvWdXoz2qIxvM8QY0Ov3kdkibpcjDKGhQjp6tr29PQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_003_f985aad127fe.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/VQQBrHoY3PEKEQcKJShToib1icuTaicn4RSiaUkMnMufu4Akp5LdibOqcT96nhm6eZicyTKTA0oPbQTcyVfHDKibwVV0w/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_004_273c5b359ec2.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/VQQBrHoY3PEKEQcKJShToib1icuTaicn4RSumhc7eb8Kzia8pYS7CqFjfFamGIyibaDcfaAwib2myXiatktKq5gmUZvVA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_005_3bc051d17ee0.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/VQQBrHoY3PEKEQcKJShToib1icuTaicn4RSeGl2hUbSicKJ8fGHUte0HH5DOtruiagxzGzOxvAicVDW8hV9a0TlIckxg/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_006_a7f52c0829ea.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/VQQBrHoY3PEKEQcKJShToib1icuTaicn4RSqLeV8YMP7jUuricr96icMIygCgEEibibm2r0KS00rAXCHT8p2dyI62EVng/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_007_82722f70cc58.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/VQQBrHoY3PEKEQcKJShToib1icuTaicn4RSAHjG04CE1Kh1yQMzNJiaHXRkK2sZk30aJjQmRrGjC39mJmkaq4PqhoQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_008_864c32c83bd9.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/VQQBrHoY3PEKEQcKJShToib1icuTaicn4RSicicc1FNJ5B9cWc4NGmk2kH2ZCTW6YN7zYGRENjn897oAqJNRhIltGqA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_009_480d8eee0ac2.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/VQQBrHoY3PEKEQcKJShToib1icuTaicn4RSHMXzUz9UTtuyrh2sialkZMX3QnKRTgLeicK2hAr6sHAosLvLGDPWHdVA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_010_29d01b301018.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/VQQBrHoY3PEKEQcKJShToib1icuTaicn4RSGwpoCiceibc73Mkp1PynzHRpkRHSRvy2ljdNavAyTQW1NDhr0EZX3c7Q/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_011_1177434be8ac.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/VQQBrHoY3PEKEQcKJShToib1icuTaicn4RS6W5ibYCF3aLrD2IuI2eiaE5frNdZe9NIBOY5uTfIIAGvcY2ICN3QpcQw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_012_cafb0fd3f386.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/VQQBrHoY3PEKEQcKJShToib1icuTaicn4RSAv6jjSgAjkq5jxYfxMJdvbQfwWKF2SZcUph4xVJYI26GYnT5pFibhtA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_013_38fe8808552f.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/VQQBrHoY3PEKEQcKJShToib1icuTaicn4RSZUXRzhXoS3RzrpSvfIEnHvicSXLDNpXINRSVjVTIsvMADTvTjyX1pGw/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_014_df6688e4b83e.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/VQQBrHoY3PEKEQcKJShToib1icuTaicn4RShuadz3pNkOx8gkVLqxBibfeze7Soiae3vmImIrSqCe5B3bZhWf7QmBIA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_015_0e5d5973d28e.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/VQQBrHoY3PEKEQcKJShToib1icuTaicn4RSAlseiaic2gSMoNgsheIwuIDEVs9F0FfPIrrEbriccZVVoibZpUibaJqrgGQ/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_016_3c4689b237e2.jpg)
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_jpg/VQQBrHoY3PEKEQcKJShToib1icuTaicn4RSQLPfItZZNiaEToDrpIEQCzr03WkvdhcGTHTMfJiawVVK1rhG5hjUj4HA/640?wx_fmt=jpeg&watermark=1&wxfrom=5&wx_lazy=1&tp=wxpic)
-
-  
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_017_b0acb578cd4f.jpg)
 
   
 
   
 
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vFdbQBcRvGmgRg8Ao0tzGicg5GDbOZaxXCePhXlaYjFRicr41aeW7iaSpvXibOWo95VLyySibia48OZnvA/640?wx_fmt=jpeg&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vFdbQBcRvGmgRg8Ao0tzGicdCO7ibiaJVnp0B8Wicfh4YdGd0e03zcibEWbp8wepeniar8mic1E3a366uNQ/640?wx_fmt=jpeg&from=appmsg)
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vFdbQBcRvGmgRg8Ao0tzGicmbLeF01Zgqdp7OrJeiak8MgAVJ0Pib5ZOPeBNv0gCOt1QMbqWMcxpqiaA/640?wx_fmt=jpeg&from=appmsg)
+  
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0t1sNKPl7b3fvXjBZ5n0zqWv9bKebxXm1TmYGTjkrJbvI0JtF4TibavniaFHiavc18KnuUoQMicVG09yw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_018_3ccc50bba2ef.jpg)
+
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_019_0b06b9969608.jpg)
+
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_020_e882608f8821.jpg)
+
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_021_56e89a58bda9.jpg)
+
+
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\EVK商用车用高效电机的开发_images\img_022_dac57d0b3024.png)

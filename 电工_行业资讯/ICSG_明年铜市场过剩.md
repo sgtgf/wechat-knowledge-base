@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sQrbuvhJOzQeNFp6Xwx4P7Nns8eYBib3TwCRTyCYYg96rb41ne9EQ9VFfibXqoRBoL7u3oLEy08pDQ/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sQrbuvhJOzQeNFp6Xwx4P7TJTjXQNE5Lv92HQ6cFPfMSC5kLG2zTfalv3m3Mae3GQiaM4jJuZfHtA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ICSG_明年铜市场过剩_images\img_000_6bdacbcd236c.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\ICSG_明年铜市场过剩_images\img_001_0a6840ab3f0f.jpg)
 
 **
 
@@ -24,7 +24,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/c6AmjdGTSic3LAV8ofibIkpgfNw2Mp8VJb6TBKOkVAF4CunyvIe8Fr9zRSjVB6TAkVIzc2axDRAicicIH9HRFUzt5Q/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ICSG_明年铜市场过剩_images\img_002_6ebee8b627f1.jpg)
 
   
 
@@ -112,7 +112,7 @@ ICSG估计的明年市场过剩惊动了市场。但是，其对今年供需将�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/c6AmjdGTSic0vc4MQwJsT7YQku5EwOjkryibYme4exB0jdRXN47otJqPxPbOfcM0QtHPnEt78zYmmDx37XByWJNQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ICSG_明年铜市场过剩_images\img_003_7715819af39b.jpg)
 
   
 
@@ -135,8 +135,8 @@ ICSG估计的明年市场过剩惊动了市场。但是，其对今年供需将�
 众所周知，铜在能源转型中将发挥重要作用，但目前短期供过于求将使市场承压。
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ICSG_明年铜市场过剩_images\img_004_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\ICSG_明年铜市场过剩_images\img_005_a6e4e8e00379.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ICSG_明年铜市场过剩_images\img_006_ec5921db28d2.png)
 

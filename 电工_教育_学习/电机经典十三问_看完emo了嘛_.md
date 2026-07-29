@@ -8,7 +8,7 @@
 
 **关注我们**
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vyvdvAWIec3SO8vVjAWxibWvykjIO7ibxtpVoqKTkc4wShVT1wxpOZEbRZibdzYs1TWAsgPCxnuwNLA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247604627&idx=1&sn=088f72297c96fac8deab834e6782c326&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\电机经典十三问_看完emo了嘛__images\img_000_0cdbef7924ed.png)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247604627&idx=1&sn=088f72297c96fac8deab834e6782c326&scene=21#wechat_redirect)
 
 **来源：电机通**
 
@@ -126,7 +126,7 @@ c：用风机送入热空气或加热元件加热。
 
 电机设计时一般使硅钢片工作在磁化曲线的饱合区，当电源电压一定时，降低频率会使磁通增加，励磁电流增加，导致电机电流增加，铜耗增加，最终导致电机温升增高，严重时还可能因线圈过热而烧毁电机。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/xq3e4397UprLGgibzpqfvQRXwsUFib3VmbKPV2cCs35RmPP7cyBzFZbFUEhhtl07XaCXKwNopGnBuXkfYO127vIQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\电机经典十三问_看完emo了嘛__images\img_001_e8078d7d7735.jpg)
 
 9、电机缺相的原因有哪些？
 
@@ -218,7 +218,7 @@ c：用风机送入热空气或加热元件加热。
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzkxODI0MjA3MQ==&mid=2247523300&idx=4&sn=ebad8b1c17bb62f63ead372f550cc734&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\电机经典十三问_看完emo了嘛__images\img_002_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=MzkxODI0MjA3MQ==&mid=2247523300&idx=4&sn=ebad8b1c17bb62f63ead372f550cc734&scene=21#wechat_redirect)
 
   
 

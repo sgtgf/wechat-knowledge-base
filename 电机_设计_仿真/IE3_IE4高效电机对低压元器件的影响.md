@@ -10,7 +10,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0ueic716ApEBoelb21DwrX7wnY7J2l0S3maoQPDZmSwMH46KerGsSYYUKSofwaSOicVjn77DkEfkRTA/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0ueic716ApEBoelb21DwrX7wibxoDS5FRfpDk1MGuOOqZ7mzXqiaMCPJDricQXj7LDDVJzX1IgEe4H3JA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_000_33a3bcb4db79.jpg)![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_001_e89f21199448.jpg)
 
 **
 
@@ -28,7 +28,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7nSmAVo930sUxR1Usvd9vDD9FGMuibs5icDLf3lTVUFmBAEb9W1KhD6Hwu2DChDrbv5Ct3sOLdeGrWO5fbngFtdw/640?wx_fmt=png&wxfrom=13&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_002_ac2db4c2d8e8.png)
 
   
 
@@ -60,7 +60,7 @@ IE5-No specific name defined
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7nSmAVo930sUxR1Usvd9vDD9FGMuibs5icQ4FKjNWYuzLrFj5L9gunydj5xa7ZicKwgTt3vIpKUiazmictR5icjq5ISA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_003_71f81a2174ef.png)
 
   
 
@@ -76,7 +76,7 @@ IE1~IE4电动机之间最大的差异在于其效率，相同功率下IE3/IE4的
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7nSmAVo930sUxR1Usvd9vDD9FGMuibs5ic36MCzS5sSjL6IyuUTppdFjIOB4kSwZFTph9JbBuSsJic8520S9MMZ8Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_004_9f0a7f216dd1.png)
 
   
 
@@ -86,7 +86,7 @@ IE1~IE4电动机之间最大的差异在于其效率，相同功率下IE3/IE4的
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7nSmAVo930sUxR1Usvd9vDD9FGMuibs5icFpvj1iaib3ISgFFH8PcMnexb8ic5Damm3sxxwhvxYzOibib7b6T0eyLrDuw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_005_ca9a410550ad.png)
 
   
 
@@ -98,7 +98,7 @@ IE1~IE4电动机之间最大的差异在于其效率，相同功率下IE3/IE4的
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7nSmAVo930sUxR1Usvd9vDD9FGMuibs5icmeD8PwpTMsia0mwqOg0MOGzv5eicgsmukp1mtdyGBq0NrG2s5wIMSjyw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_006_818799edfa8d.png)
 
   
 
@@ -106,7 +106,7 @@ IE3/4电动机相对于IE1/2电机，在结构上做了很多变化来实现高�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7nSmAVo930sUxR1Usvd9vDD9FGMuibs5icqXY5twjKmLPc2Kf2Yic3u0fgy0OiaoSot37m5GobEGUgjrujoRqcxumQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_007_da547ae8d378.png)
 
   
 
@@ -116,7 +116,7 @@ IE3/4电动机相对于IE1/2电机，其额定电流更低所以长期运行时�
 
 下图中橙色线代表IE2电机的电流曲线，绿色线代表IE3电动机的电流曲线，可以看到起动瞬间的冲击电流最大为16In，比起我们常说的14In，冲击电流值更高，同时IE3电动机的起动电流曲线也在IE2曲线上面，这些差异对断路器和接触器提出了更高要求。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7nSmAVo930sUxR1Usvd9vDD9FGMuibs5ic9B9F3fhaJhTEbPsuMClG4yGic2KicnqQ9lN5Jpu3EEFOmKbbsbzfzUQw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_008_05ef86b5bdb3.png)
 
   
 
@@ -124,7 +124,7 @@ IE3/4电动机相对于IE1/2电机，其额定电流更低所以长期运行时�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7nSmAVo930sUxR1Usvd9vDD9FGMuibs5ic1oj2ibm0nBbKkiagfIibib1DOB4ZpkO3WqIIw2tN7PS1AqVIDZDzSePtLw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_009_d78adb621598.png)
 
   
 
@@ -132,7 +132,7 @@ IE3/4电动机相对于IE1/2电机，其额定电流更低所以长期运行时�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7nSmAVo930sUxR1Usvd9vDD9FGMuibs5icD85VD86Go3pIMmYVwtuDRptdTQNVSCxb0GwKFrZIia3sib63N9j0DFrw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_010_be5d45512d1f.png)
 
   
 
@@ -140,7 +140,7 @@ IE3/4电动机相对于IE1/2电机，其额定电流更低所以长期运行时�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7nSmAVo930sUxR1Usvd9vDD9FGMuibs5icoBBibkzZeb2K5aQWyRP7lWlZLfbgPADUZPDw7nFSicC1gwrn9UiaALlSA/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_011_ea520b5637f3.png)
 
   
 
@@ -148,7 +148,7 @@ IE3/4电动机相对于IE1/2电机，其额定电流更低所以长期运行时�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7nSmAVo930sUxR1Usvd9vDD9FGMuibs5icRXVDKmR8tcFU6Vr3KEMpT7ktSk8wHM63aYSpaZy4ZjRibmtX007MpicQ/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_012_4f6c9c392f48.png)
 
   
 
@@ -192,7 +192,7 @@ IEC60942-4-1/GB/T14048.4-2020标准只对接触器的能力做了提升，断路
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/7nSmAVo930sUxR1Usvd9vDD9FGMuibs5ic1pvL3icfZgfdoSwgwMoGJb8xs91qRee291IrobM5xV8FibYc0zcxT1Kw/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_013_6f278ead235d.png)
 
   
 
@@ -211,8 +211,8 @@ GB50055中断路器瞬时过电流脱扣器的整定原则，是以电动机起�
 为了满足高效电机的应用，产品标准已经对接触器的通断能力有明确要求，必须按照AC-3e使用类别验证。断路器产品虽然在标准里没有做具体规定，但是断路器厂家都已经在做相应的变化，比如一方面直接提高断路器磁脱扣电流阈值，另一方面通过调整断路器选型来满足高效电机的应用。
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamVK9gBdcF4HYg2ia6FxJR10aoxdBKO6kSt8uPiakr3iaBpEYoZ9wxsSFSQ/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_014_37fac5a47911.jpg)![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_015_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_016_a6e4e8e00379.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\IE3_IE4高效电机对低压元器件的影响_images\img_017_ec5921db28d2.png)
 

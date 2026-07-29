@@ -18,7 +18,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VuZKe64g19eBa9LoCEy0IzXdFeUMl7MYNdp8MRIGymPAGcP1qOhkrUrx3KuC61BibIM24WjibJQeicCiaRKl0UGMLQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\博格华纳自主开发X_pin工艺电机试制成功_images\img_000_1bbc2797aa76.jpg)
 
   
 
@@ -30,9 +30,9 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VuZKe64g19eBa9LoCEy0IzXdFeUMl7MYBm9Rxj52Nd8DpjiaW9z2smL58AAlreMSylkNVyEoibIr6bcQ4QKSlV9w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\博格华纳自主开发X_pin工艺电机试制成功_images\img_001_251b34342fad.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/VuZKe64g19eBa9LoCEy0IzXdFeUMl7MYVlCsExBoMxLXw7icTx0uiab6YvVDOg63VzSgLdX2nHApvibbLLDQvAVJw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\博格华纳自主开发X_pin工艺电机试制成功_images\img_002_f4843a3cc6c2.png)
 
   
 
@@ -44,15 +44,15 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VuZKe64g19eBa9LoCEy0IzXdFeUMl7MYVmIicuVXI51s59kYXglBp2T1EpTEOYFZanecpPA3iatxFPV3fSKE1g4w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\博格华纳自主开发X_pin工艺电机试制成功_images\img_003_04997635a22f.jpg)
 
   
 欲穷千里目，更上一层楼。在电动汽车行业动荡不安的时代，原有的电机工艺将会逐渐失去竞争优势，产品革新永远是各大主机厂和OEM考虑的重要因素。唯有持续革新才能在市场上占领优势。综合来讲，X-pin工艺电机的主要优势在于：铜损降低、提升效率的同时经济性有优势；散热性高，高温时动力性强；体积小功率密度高，动力更强劲；电磁噪音低，整车更静谧。随着X-pin电机的推出，博格华纳的电机工艺技术再次上升一个台阶，在2023年，我司将持续引领电动出行时代，一同蓄势·前行，实现2030碳中和目标。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\博格华纳自主开发X_pin工艺电机试制成功_images\img_004_31a98b8e3167.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\博格华纳自主开发X_pin工艺电机试制成功_images\img_005_ec5921db28d2.png)
 

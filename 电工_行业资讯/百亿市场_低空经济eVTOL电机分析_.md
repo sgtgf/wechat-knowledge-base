@@ -4,9 +4,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/snAeBTP9sfX6tRFcmLKxNA](https://mp.weixin.qq.com/s/snAeBTP9sfX6tRFcmLKxNA)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0s1u4ztdWjDoyDhYIW9MOhDMGrAzeDVuvZ2dfZib765WVhdyXHexcxMPBNzR0QYNDlLNEbmuUSibq4w/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzg4NzgyMjIwNg==&mid=2247526151&idx=1&sn=f2ad16b6fe06f9d5bd954057834bb252&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\百亿市场_低空经济eVTOL电机分析__images\img_000_29f68faced42.jpg)](https://mp.weixin.qq.com/s?__biz=Mzg4NzgyMjIwNg==&mid=2247526151&idx=1&sn=f2ad16b6fe06f9d5bd954057834bb252&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t8PE1jut6syNaXWztwMIKfloy7NO3ltUjCw33CwMdkozLu7wSA3UI6qibZLEn27wSRVUEjCYBfiaFA/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247717560&idx=1&sn=e29e07e0eb7d394a5b7ff41eff76da7e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\百亿市场_低空经济eVTOL电机分析__images\img_001_064aca60e3a4.jpg)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247717560&idx=1&sn=e29e07e0eb7d394a5b7ff41eff76da7e&scene=21#wechat_redirect)
 
 
 来源：网络
@@ -17,7 +17,7 @@ eVTOL指**以电力作为飞行动力来源**且具备**垂直起降功能**的�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/hiaHRMm1nWR9xicYvYlLs7gayGPOWMdE2DNL1vkCPryFT7tcqZvmlY4Y2tcqSjZm7pAgZTm6CpKqxDYDnMVOLu3g/640?wx_fmt=gif&from=appmsg&wxfrom=13&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\百亿市场_低空经济eVTOL电机分析__images\img_002_cab48cc39b96.gif)
 
 亿航EH216-S
 
@@ -43,11 +43,11 @@ eVTOL指**以电力作为飞行动力来源**且具备**垂直起降功能**的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0ttlia7qGiaQLkkE2PSnweY0EFdaar2pPtvKXHFcGax7ggzB4p1jlPzMcDCfBiaZkFyg1WQnWqbanjiaQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\百亿市场_低空经济eVTOL电机分析__images\img_003_a9b4fae8d456.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/PKwzD72HEp5mJPLFJKSTITiaiczsIt0Bsv1k35JedPbWBrkD6ibY6FqibeSicGLHKTywO7T07ltDliaZ8waW2jg63ZyA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\百亿市场_低空经济eVTOL电机分析__images\img_004_ee803ebdee05.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/PKwzD72HEp5mJPLFJKSTITiaiczsIt0BsvcGJCSjC9iagzr9MPfeTqUiawffRDj9ty5BRibuJCSnvedghWibGL36PkKQ/640?wx_fmt=gif&from=appmsg&tp=wxpic&wxfrom=13&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\百亿市场_低空经济eVTOL电机分析__images\img_005_641dd8443a1d.gif)
 
 **规模：eVTOL带来百亿级电机前装市场，更换频率高后市场规模可观。**
 
@@ -69,7 +69,7 @@ eVTOL指**以电力作为飞行动力来源**且具备**垂直起降功能**的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0ttlia7qGiaQLkkE2PSnweY0EXzlSy1icdUslksB8AIUflw1pohto9CFlaYH1ynUaCwPodiaSMa7Kbk2g/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\百亿市场_低空经济eVTOL电机分析__images\img_006_6808640f10de.png)
 
 Lilium eVTOL 成本拆分
 
@@ -87,7 +87,7 @@ Lilium eVTOL 成本拆分
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0ttlia7qGiaQLkkE2PSnweY0E61GtsytdbxX4fDdWOtIXR0G0CAdzp6xdBslhNGQZye0t2aCmT8s9dw/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\百亿市场_低空经济eVTOL电机分析__images\img_007_cb448562ca97.png)
 
 车用（上）与 eVTOL（下）电机转矩与转速曲线
 
@@ -115,7 +115,7 @@ Lilium eVTOL 成本拆分
 
 **当前电动垂直起降飞行器，如JobyS4、ArcherMidnight等均采用了永磁同步电机。**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0ttlia7qGiaQLkkE2PSnweY0EicvYhO3ZWkFG3hvzJE4EpNpoeWHYtOr4mpgLENPda6HvdmLG0TMGX0Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\百亿市场_低空经济eVTOL电机分析__images\img_008_d002af090a9d.png)
 
 不同电机特点对比
 
@@ -149,7 +149,7 @@ Lilium eVTOL 成本拆分
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/hiaHRMm1nWR9xicYvYlLs7gayGPOWMdE2Ddn0ltVmbsKYrq65QWWYicnPWIvzdpF0aibbcsTSFrzCANiaO1hreFemJQ/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\百亿市场_低空经济eVTOL电机分析__images\img_009_f6dfb8e8059f.other)
 
 广汽集团GOVE飞行汽车
 
@@ -188,7 +188,7 @@ ED-112A要求采用ED-14G或RTCA/DO-160G；对于软件鉴定，规定说明如�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/hiaHRMm1nWR9xicYvYlLs7gayGPOWMdE2Dm3l9ZDa34eXYEMYEpW8xIMlKxbFaSegFgLaw22oHAsVvlCpf0rR4rg/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\百亿市场_低空经济eVTOL电机分析__images\img_010_389126a9b8aa.other)
 
 小鹏飞行汽车“陆地航母”
 
@@ -214,7 +214,7 @@ Volocopter、沃兰特、时的科技均采用赛峰提供的高性能、高功�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/hiaHRMm1nWR9xicYvYlLs7gayGPOWMdE2DYpWWw8Fwcs1NicAevWoJRmj7c1MHe4h1BynGSthbZ65JIpeib30suaIw/640?wx_fmt=other&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=webp)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\百亿市场_低空经济eVTOL电机分析__images\img_011_957414362833.other)
 
 时的科技 E20 eVTOL
 
@@ -228,7 +228,7 @@ Volocopter、沃兰特、时的科技均采用赛峰提供的高性能、高功�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0ttlia7qGiaQLkkE2PSnweY0Efia5zo5XKQbNUOxpdandicFMVLicBTUE5Kjn4uUDXzKy9pZB8VTA43x9Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\百亿市场_低空经济eVTOL电机分析__images\img_012_5f26588dcb0e.png)
 
 卧龙电驱入选《2023 中国低空经济领军企业 TOP20》
 
@@ -275,15 +275,15 @@ Volocopter、沃兰特、时的科技均采用赛峰提供的高性能、高功�
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t8PE1jut6syNaXWztwMIKflTUnuEXWxPibLJDokYVjA047arWNC64WjZJstawXXntEkpuzS14LA6A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\百亿市场_低空经济eVTOL电机分析__images\img_013_30f20d6608ae.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\百亿市场_低空经济eVTOL电机分析__images\img_014_9967d1607b24.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
-
-  
-
+![](D:\电脑文件\公众号知识库\电工_行业资讯\百亿市场_低空经济eVTOL电机分析__images\img_015_fb0ff5197498.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+
+  
+
+![](D:\电脑文件\公众号知识库\电工_行业资讯\百亿市场_低空经济eVTOL电机分析__images\img_016_e8e68bdfc1b3.png)

@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/MvNgLCckE-qPJAb-pCDLvQ](https://mp.weixin.qq.com/s/MvNgLCckE-qPJAb-pCDLvQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tx2UUQMiaekzttE3Wyxwxqichzmk6TPhblJtseMFwghh73Pa6c70fwC3cjxBB0SSibjlQnuDXqr3cVA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\何谓DD马达_与伺服电机有何区别__images\img_000_fce3ac30e4c2.jpg)
 
 
 来源：数控百科
@@ -21,7 +21,7 @@ DD是direct driver的简称，包括力矩电机和直线电机，后面加上�
 
 DD马达结构独特，具有高效率、高扭矩和精确控制等特点，已被广泛应用于各个领域。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Lpljeju3ztq2FxzAKibYOuBOibzwCibG8YHfW8G7WiaQeotZpjibvv3F3T6YM2LwVhOxqllONXEly7WPIByMnomX2Ww/640?wx_fmt=jpeg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\何谓DD马达_与伺服电机有何区别__images\img_001_fe1c410e5df0.jpg)
 
 DD马达的结构主要包括定子、转子和磁场。
 
@@ -51,7 +51,7 @@ DD马达是一种高效、高扭矩、精确控制的驱动装置，其结构由
 
 下图展示了DD马达和普通伺服马达的对比。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Lpljeju3ztq5egiciazSyQEmwqiaOiaDYfKCzCVH1p0bPGzcQkPrvU4p9lwrzkLhdfr1Qu6IFndm7mic1TwCduxdKVQ/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\何谓DD马达_与伺服电机有何区别__images\img_002_7aa4625f681b.other)
 
 **DD马达的特点：**
 
@@ -107,7 +107,7 @@ DD马达是一种高效、高扭矩、精确控制的驱动装置，其结构由
 
 **DD马达、凸轮分度器、伺服马达的对比：**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/Lpljeju3ztq5egiciazSyQEmwqiaOiaDYfKCp5w6WLic2iaSicb6hzRsLTOib7s2w7Ir88OXQc4qqg5JPYibFcjVHpOunuA/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\何谓DD马达_与伺服电机有何区别__images\img_003_4e6189af417c.other)
 
   
 
@@ -143,7 +143,7 @@ DD马达是一种高效、高扭矩、精确控制的驱动装置，其结构由
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\何谓DD马达_与伺服电机有何区别__images\img_004_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\何谓DD马达_与伺服电机有何区别__images\img_005_e8e68bdfc1b3.png)

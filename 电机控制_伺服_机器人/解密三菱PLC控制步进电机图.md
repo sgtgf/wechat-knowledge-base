@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/R0iKLmNbCiI58jPNR-6oYQ](https://mp.weixin.qq.com/s/R0iKLmNbCiI58jPNR-6oYQ)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tR6ibHibXQwRvAgf6ia352mOJAgKa3qV8nHpFhYYibslVUltyib6naMTdyzG46f4SEoMicmAfx0VbynC0A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\解密三菱PLC控制步进电机图_images\img_000_ea977e48a43f.jpg)
 
 
 来源：电子开发网
@@ -21,7 +21,7 @@
 
 度量单位，也就是如何衡量步进马达行走的距离---步进角，就是一个脉冲马达转动的角度。步进马达的步进角一般为1.8°。0.9°，0.72°，0.36°，0.0288°，等等。步进角越小，则步进马达的控制精度越高。我们根据步进角可以控制马达行走的精确距离。比如说，步进角0.72°，马达旋转一周需要的脉冲数为360/0.72=500脉冲，也就是对步进马达驱动器发出500个脉冲信号，马达才旋转一周。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCZctxD44SO8Hlq2WYtIo0NgujzSCV5fGq6wNxJTXFDHibibBUR5XBJg7A/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\解密三菱PLC控制步进电机图_images\img_001_9e6c391b515b.other)
 
 _步进驱动器TB6600说明_
 
@@ -31,13 +31,13 @@ _步进驱动器TB6600说明_
 
 附图如下：
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCC7kLWecWUp6cqvd6sNictmPfbCtXzudRlndRYxzhhQK5KN479xQwaTg/640?wx_fmt=jpeg&from=appmsg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\解密三菱PLC控制步进电机图_images\img_002_e72ed1d58321.jpg)
 
 _三菱plc控制步进电机，三菱plc通过步进驱动器控制步进电机_
 
 3、至于程序的话，看你的要求，是自动正反转还是手动控制正反转。应用PLSY指令控制步进速度和行走距离。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/h1KwVFrY69D6FV4361cgZ3p3kkx6aPSCZKhLczq0jicZ0ZTlnl04dR3AXctU8bwlhibIicZrUfoGmz9xua0vbPRfQ/640?wx_fmt=png&from=appmsg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\解密三菱PLC控制步进电机图_images\img_003_5c120e2d719a.png)
 
   
 
@@ -73,9 +73,9 @@ _三菱plc控制步进电机，三菱plc通过步进驱动器控制步进电机_
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0uibkIvkAHOPtHA9gym3XODEWrQGWXmjNHrmp8Mp3Mv8wdYjoiaNyL1EPibFpmHlcYK1m1wplSBia5vXg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\解密三菱PLC控制步进电机图_images\img_004_a3efb375477c.gif)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\解密三菱PLC控制步进电机图_images\img_005_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_伺服_机器人\解密三菱PLC控制步进电机图_images\img_006_e8e68bdfc1b3.png)

@@ -11,7 +11,7 @@
 
 **来源：电机新视界**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sy1CMniciaVSs1CKZg5HSxetLolnH9Uawicf5eaWXHDYK8gvgGIgZMatMwBKmaGgyq8EvhVshQf5qmg/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sy1CMniciaVSs1CKZg5HSxetjG6BGKA2bhS2YebwabCMhoZMpyNCqyJYlgQTLchIZBKRG2ATfasEww/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sy1CMniciaVSs1CKZg5HSxetJaEB3v4vAfTuZ7WWg97ehZdWicWn0dAKRltSunzXKpCzbJs89tyV6DQ/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sy1CMniciaVSs1CKZg5HSxetumJ8iaH13ib9s550FtOXMkH4Fy53yrh9h91vsuDrOQ07n6136OoXfZFA/640?wx_fmt=png&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sy1CMniciaVSs1CKZg5HSxetGVLFQYXsSHO7vsJVGWibHHpVVr9q8Of07CvuIX2RxhxhiaJsquGozoCA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_高效电机推动船舶智能化发展_images\img_000_3994e1e85476.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_高效电机推动船舶智能化发展_images\img_001_727f33ff2d0f.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_高效电机推动船舶智能化发展_images\img_002_b3e40c86c314.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_高效电机推动船舶智能化发展_images\img_003_065f0886bf67.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_高效电机推动船舶智能化发展_images\img_004_6c663c902e1d.png)
 
 完整资料领取方式：  
 
@@ -20,7 +20,7 @@
 2.扫码下方二维码，回复想要领取的资料  
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_高效电机推动船舶智能化发展_images\img_005_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_高效电机推动船舶智能化发展_images\img_006_a6e4e8e00379.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0svcOpvfv0woWysh88DV1nxqXFMFSibF16baytV1nBZicbykENdq8p82HYlkhdhNlO6p1P1AaCdpr1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_高效电机推动船舶智能化发展_images\img_007_aa47967c67cb.png)

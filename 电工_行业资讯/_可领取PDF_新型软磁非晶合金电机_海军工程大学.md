@@ -8,57 +8,57 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0teiceibxaxXjXW1A56HF7tkg1BqF80Fy26bEAcYgkwymmYr8esIUc8xHrJXFogdcvjAtgMicfQLJOLA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_000_2a1ae17a00a1.jpg)  
 
 **来源：高嵬**
 
 ****文末有完整资料获取方式！****
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3OMCh7ywIK4mhbdmAibN3JLrr7Y7RZ7agCH2GrOzAdbzwqzaMT8HRYpjA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_001_281bcbe14d8c.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3O4VBS3ObsKe7dByz4KxNNadzibqhWHuFDcWXHmn8KwDH2ibED7QrzneVA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_002_00e113c1cffe.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3OtyoFNnaaDU0beG1JP5JcRIWyb3k8VBnv1GykBbmibjSVHmlZPqibVmhQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_003_c7b3cde42e1b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3OsqlZkcibp3m0vQTmeXZPiboSW1frkHvpesgrKEpgJSO8TsOpfGiaInNuw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_004_8624426ec165.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3OxdvhRox7NRg3x3MTnZKRfj1w5l4H9MnfRIvl1dHRhcAHLfdlMgfDmw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_005_5059514e2ebf.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3Onp0AS72eVRakoQ5MPdyzXOXK75RnPly2UVG6SH6Ztt4YeOgSQEcvHw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_006_d36cd5a7ee97.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3OibUNZeIgEFeS8jqCfkwVPN60XqREne015G1N5UHSQoSGrXHlNyianaVQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_007_65259938a8e7.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3O6sezfXafy7yQWhicHv2knfg9gR0llAbzQm8bCSB0WleapGObYleUbXQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_008_0d5009bc5a29.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3OZ3ap8MkuB53MGu36Nt4rXYpIKatt7qhrnzXpvRiaYEJrxQvnEYp3Wzg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_009_6edf527636b8.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3O2ntYqK069aqaiaibhQBTK2fRFZ4lKyMcuDfoLiaqJfo3p0ZuVFDibYWVDA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_010_59db55824774.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3OSkRY06w6hLH1dL4MeXYEzhrBfy0y5VgPE5GLeOAosyncWEjzyXORsg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_011_54194baf105e.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3OGNbweGwyHS7UAsfugpmPMAgOYeszPAF52iaMcbczXqxRb4WxmFxY9iaQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_012_5982eebffb86.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3OtyrXxM64y5t0EChW0qBUvYKFOib721NboicyNXOibcxF3GEGKNLquic5OQ/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_013_9665598a9020.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3OMsibia6zfVaIVzBHJKTGX167EQM43w0JX7kOfib3gel5q3yHcmZ0NqSqw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_014_56ae9fb372b9.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3OtMAbxTDYsfDlicT7iakHmWBdtEqxwczjOw31n5hDQJavibGwNH1JEHtAw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_015_903dd7884854.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3OZYy40Zh0HI6GH4qaGEA9Xd9UbOWxgex39PPVvicvG7j3dWpvam6oHLg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_016_c4a3d3fbe430.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3OApyoj3jT76Xy3BicU1JNYp6A0KjeuJMlZU8ApkjJXm9Gujiaw3GdtC0Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_017_8cec9edf5f2d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3O6SEnOXsqpMmEcJdAoh08bZLm3ZRCLZ2cfjukpOXehicLeAjIGVorzmw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_018_b85e60bb3506.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3OkcgMKriawFC4aIdPuFzrV0I2kYUOP6oGKmNyzTwLmQTLzhVPSU4LOwg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_019_03401a6853eb.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3OP9COg8mrCVJz7kJqcMib9RRyCQLvOvddtGWAn4OMVBUZH2dnN0yMq6w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_020_6c8e551dfb28.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3ORN7VYhicmU4pqVDhGbRnrKHtMP6evkp8dy4lzYuTz9WH4A0cC0bbY4Q/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_021_4dc484f0262d.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3OluP3ojh9zEKJ5wtqN6BgHKPibDYjrhTz1OEfU4TZneicMicEdjb2Vh0Eg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_022_7f2b424dcace.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t9vvnD06k971ibYRr9HGp3OWI0WtjZC66jL4eRlCMW2B2OxBqMqZrJP0FibRA9SBuEqbatR44rGBnA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_023_a32be634e297.jpg)
 
 **领取方式：**  
   
@@ -69,7 +69,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0tZtLO9TDiaCj1Bx5jib0pvDbKpNn0fSdakyibfILD48SjKvpB2D74dVDWQA7QhHtibv7Tqkfy0bfoOjg/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_可领取PDF_新型软磁非晶合金电机_海军工程大学_images\img_024_103649f2287c.gif)
 
   
 

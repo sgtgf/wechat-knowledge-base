@@ -4,9 +4,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/jKW34ndihHkDodRyMtrHZw](https://mp.weixin.qq.com/s/jKW34ndihHkDodRyMtrHZw)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0s1u4ztdWjDoyDhYIW9MOhDMGrAzeDVuvZ2dfZib765WVhdyXHexcxMPBNzR0QYNDlLNEbmuUSibq4w/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzg4NzgyMjIwNg==&mid=2247526151&idx=1&sn=f2ad16b6fe06f9d5bd954057834bb252&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB推出无磁电机_实现预期IE6超高能效_images\img_000_29f68faced42.jpg)](https://mp.weixin.qq.com/s?__biz=Mzg4NzgyMjIwNg==&mid=2247526151&idx=1&sn=f2ad16b6fe06f9d5bd954057834bb252&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t8PE1jut6syNaXWztwMIKfloy7NO3ltUjCw33CwMdkozLu7wSA3UI6qibZLEn27wSRVUEjCYBfiaFA/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247717560&idx=1&sn=e29e07e0eb7d394a5b7ff41eff76da7e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB推出无磁电机_实现预期IE6超高能效_images\img_001_064aca60e3a4.jpg)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247717560&idx=1&sn=e29e07e0eb7d394a5b7ff41eff76da7e&scene=21#wechat_redirect)
 
 
 来源：ABB电机与发电机
@@ -25,7 +25,7 @@ ABB成为首家可提供实现预期 IE6 能效水平无磁同步磁阻电机的
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qC3VyuGUQTEmCTelWpemGa5vibaD58WTVQSKjKZQuoxGZZ1zvfsYTm7QIPZzbRYKXQNy6pX8R1F9oqZdEYXK8OQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=13)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB推出无磁电机_实现预期IE6超高能效_images\img_002_5d7fbabe596a.jpg)
 
   
 
@@ -45,7 +45,7 @@ ABB目前广泛应用的同步磁阻电机系列已成为无磁设计的标杆�
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/qC3VyuGUQTEmCTelWpemGa5vibaD58WTV6FYOGTBlyYZ9NHIGdJibTFxpQNsHic6XHt8RvVlyKSNiawnx1q0TAmehg/640?wx_fmt=other&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB推出无磁电机_实现预期IE6超高能效_images\img_003_a2c8d220d57a.other)
 
   
 
@@ -69,7 +69,7 @@ ABB同步磁阻电机是 ABB EcoSolutions™ 产品组合的一部分，我们�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vVLMibJQ8kn08a8xxCEZdpibqJ2nGRickNQwJsG1VIYSUkWdG5b8um4PzbCMVKDQ17u4VAvLqqp47wA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB推出无磁电机_实现预期IE6超高能效_images\img_004_361f5da4d44a.png)
 
   
 
@@ -85,16 +85,16 @@ ABB同步磁阻电机是 ABB EcoSolutions™ 产品组合的一部分，我们�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vVLMibJQ8kn08a8xxCEZdpiboicicrhyL0UBTlibFrOjibVXrlyQ0UFb9Mc1EaaWaz240VhMrLbOvk7bjQ/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB推出无磁电机_实现预期IE6超高能效_images\img_005_ee026591e4be.png)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t8PE1jut6syNaXWztwMIKflTUnuEXWxPibLJDokYVjA047arWNC64WjZJstawXXntEkpuzS14LA6A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB推出无磁电机_实现预期IE6超高能效_images\img_006_30f20d6608ae.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB推出无磁电机_实现预期IE6超高能效_images\img_007_9967d1607b24.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB推出无磁电机_实现预期IE6超高能效_images\img_008_fb0ff5197498.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB推出无磁电机_实现预期IE6超高能效_images\img_009_e8e68bdfc1b3.png)

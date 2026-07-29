@@ -32,25 +32,25 @@
 
 为了控制无刷直流电动机的转矩和转速以减小转矩脉动，研究提出了基于GEO-RBFNN的PID控制器。所提出的无刷直流电机无传感器控制结构如图所示。研究中，PID控制器作为建议的控制器来整定控制参数。该PID控制器产生PWM信号进行控制参数的最优整定，为改进的无桥SEPIC变换器提供PWM信号，实现无传感器无刷直流电动机的最优速度控制和转矩脉动抑制。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/02okRyF75yESodqWgibUueWfzrOsGFxq69coKhRcYFp0SoIeJCgOicLyoV2jZdaKpcSHLtgic94XyMCWFqf2Zx7Uw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\基于SEPIC变换器的无刷直流电机转矩脉动抑制方法_images\img_000_23a42756ffd7.png)
 
 如图所示，研究采用GEO - RBFNN算法实现了转速、转矩控制和转矩脉动最小化，通过在MATLAB/Simulink平台上建立了GEO-RBFNN模型，结果表明，采用该方法计算的定子电流、功率因数和转矩脉动分别为1.26%、0.9951和7.4，与现有的FA和PSO方法相比，该方法的有效性提高了计算效率。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/02okRyF75yESodqWgibUueWfzrOsGFxq63XxdKxfT8r0QDRSXADGKJ89m1zVdEffr6j2O1G75fdEgCfRb3TGRIQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\基于SEPIC变换器的无刷直流电机转矩脉动抑制方法_images\img_001_c80a4026beb5.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/02okRyF75yESodqWgibUueWfzrOsGFxq6yicZuMovNVz6HQVQTXAHT3mmD27IWTtQ6eD5yk2xoiaYVMxSmp7ibJyicw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\基于SEPIC变换器的无刷直流电机转矩脉动抑制方法_images\img_002_efa83fb48428.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/02okRyF75yESodqWgibUueWfzrOsGFxq6CHUY27eYz2ia07T2tDWMu94z18AapcNxRTNshqicDufiahl8n1ZSicxd8w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\基于SEPIC变换器的无刷直流电机转矩脉动抑制方法_images\img_003_635a7caad672.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/02okRyF75yESodqWgibUueWfzrOsGFxq6W90GaYiaC5EI0tI5y11SKe8XmYVAJa3a6cYDYc3wJTI6wJJQYiaWFJNg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\基于SEPIC变换器的无刷直流电机转矩脉动抑制方法_images\img_004_4974f84569d2.png)
 
      如图所示，研究在没有控制器的情况下，分析了基于转子转速、转矩变化、定子电流、定子电动势的对转矩脉动抑制的效果以及转矩脉动抑制的实现方法。
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/02okRyF75yESodqWgibUueWfzrOsGFxq68rXgy1ic7xsLmfh2ia9ECIGIBjSYjia7fvYRtvjQiaiarXsaKwxqrZf9fvA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\基于SEPIC变换器的无刷直流电机转矩脉动抑制方法_images\img_005_22264d624075.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/02okRyF75yESodqWgibUueWfzrOsGFxq6ZSTnKwFZJXD5kLc08NG5ytSTAhCdGK1YkDficvdDVWX9f8qy1zjWuibg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\基于SEPIC变换器的无刷直流电机转矩脉动抑制方法_images\img_006_1276a43a090f.png)
 
 研究采用的GEO-RBFNN方法以较少的迭代次数提供可靠的结果，GEO-RBFNN支持简单的计算，并提供了较低的难度，但研究所建立的控制算法对于高转速的大功率系统，其控制模型的性能有限，与此同时，该研究未实现控制器参数的自适应整定，因此无法保证系统在复杂工作阶段下的稳定性。
 
@@ -94,10 +94,10 @@
 
 [【重磅】5部门发布最新电机能效准入水平！虚标能效将被重点打击整治！](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247535908&idx=3&sn=6eec1347ec795a83176cc4f901ec55fa&chksm=cede0ce0f9a985f64ce0e07697e68c6ddb191072645aa6d8de6370bcd597bb610675d2897b02&token=66697538&lang=zh_CN&scene=21#wechat_redirect)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\基于SEPIC变换器的无刷直流电机转矩脉动抑制方法_images\img_007_31a98b8e3167.jpg)
 
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机控制_无刷直流_BLDC\基于SEPIC变换器的无刷直流电机转矩脉动抑制方法_images\img_008_ec5921db28d2.png)
 

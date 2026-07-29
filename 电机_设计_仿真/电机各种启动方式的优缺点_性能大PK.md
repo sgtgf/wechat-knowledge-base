@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/l6VwJY1PPA-MnYC3j-SkMA](https://mp.weixin.qq.com/s/l6VwJY1PPA-MnYC3j-SkMA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0u443Vvl7vIDBrqg8dQaI2KAv3icUqTfLG5nGsCvf6Bib5ib7Gq2QDCOpianndiaN29kKWHzfr51L9ZWYA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机各种启动方式的优缺点_性能大PK_images\img_000_2e816e0264d0.jpg)
 
   
 
@@ -50,7 +50,7 @@
 
 直接启动电流很大，因此一般用于功率小于15KW的电机或者在供电、动力部门允许的情况下放宽电机功率范围。是否能直接启动主要取决于电机功率与变压器容量之比。在有独立变压器，电机欲频繁启动，电动机的功率一般要小于变压器容量的20%。如果不用频繁启动，该值可为30%。如果直接接入电力公司电网，没有独立变压器，按如下公式进行估算：  
 
-![](https://mmbiz.qpic.cn/mmbiz/ibCht2CJIy26JNdxKibCLJX3a7eTopd46811PK12DkVKicTAibQOIFUAEp9lypZgicbJEibaJkYdDZnWa2hID73N8KxQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机各种启动方式的优缺点_性能大PK_images\img_001_7b437315b9ad.jpg)
 
 **自耦减压启动**
 
@@ -68,7 +68,7 @@
 
 自耦减压启动是笼型感应电动机(又称异步电动机)的启动方法之一。它具有线路结构紧凑、不受电动机绕组接线方式限制的优点，还可按允许的启动电流和所需要的启动转矩选用不同的变压器电压抽头，故适用于容量较大的电动机。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/00ZqcUMf1QpoEA4DzZ5sIHOvuib6ibb8xeibicCX5fkUh1mcVGw2wgicUkH5VvicM81icxVqDHZbaBNnz28IlNaZprf7g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)  
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机各种启动方式的优缺点_性能大PK_images\img_002_191a6dcac7f4.jpg)  
 图1 自耦减压启动
 
 工作原理如图1所示：启动电动机时，将刀柄推向启动位置，此时三相交流电源通过自耦变压器与电动机相连接。待启动完毕后，把刀柄扳至运行位置切除自耦变压器，使电动机直接接到三相电源上，电动机正常运转。此时吸合线圈KV得电吸合，通过连锁机构保持刀柄在运行位置。停转时，按下SB按钮即可。
@@ -93,7 +93,7 @@
 
 对于正常运行的定子绕组为三角形接法的鼠笼式异步电机来说，如果在启动时将定子绕组接成星形，待启动完毕后再接成三角形，就可以降低启动电流，减轻它对电网的冲击。这样的启动方式称为星三角减压启动，或简称为星三角启动（Y-Δ 启动）。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Yic2SiaBEeEr5nImnuukySy1IUCvI3jKfKa4quMPXiclKiaKjVPnjjRUIwqgA0aKMDnW0UjtZmSEqEx1iakXJxRI7ibw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机各种启动方式的优缺点_性能大PK_images\img_003_e285d40e6476.jpg)
 
 采用星三角启动时，启动电流只是原来按三角形接法直接启动时的1/3。如果直接启动时的启动电流以6～7Ie 计，则在星三角启动时，启动电流才2～2.3 倍。这就是说采用星三角启动时，启动转矩也降为原来按三角形接法直接启动时的1/3。
 
@@ -249,7 +249,7 @@ Y-Δ、自耦减压启动简单，但仅仅只是启动。但在自动化程度�
 
 5\. 变频器能完成实现电机的软起软停，所以在相对负载较大的场合，Y-Δ、自耦减压启动或软启动都比不上变频器。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/Yic2SiaBEeEr5nImnuukySy1IUCvI3jKfK8XN7ztoJNtAv8ZIMuPuWJXTuMCH5V63X7ictSvnUGC8k1wR0dqg7rkw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机各种启动方式的优缺点_性能大PK_images\img_004_c93b88ff4334.jpg)
 
   
 
@@ -283,9 +283,9 @@ Y-Δ、自耦减压启动简单，但仅仅只是启动。但在自动化程度�
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机各种启动方式的优缺点_性能大PK_images\img_005_a6c2e413e6e0.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机各种启动方式的优缺点_性能大PK_images\img_006_a6e4e8e00379.jpg)  
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0svcOpvfv0woWysh88DV1nxqXFMFSibF16baytV1nBZicbykENdq8p82HYlkhdhNlO6p1P1AaCdpr1Q/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\电机各种启动方式的优缺点_性能大PK_images\img_007_aa47967c67cb.png)

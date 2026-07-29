@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tbNsCFC0AHia37KF8iciapax1xHicVnLQN4FKqwxAqCXibgXqQ0e3aqvYQ26pvERgY4JibS8LYZOPWa5pA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB宣布收购西门子低压NEMA电机业务_images\img_000_86070280ef99.png)
 
 
 来源：中自网  
@@ -25,7 +25,7 @@ _► 预计收购将在2年内为ABB运动控制业务带来利润增长点_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VuZKe64g19fETcuOEymneZmYEreSbkATwQVI1YUnLWXcH6n9W4JRl9QfxiaAQ2jOXxlmt8ySy68d4IicotxyqmkQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB宣布收购西门子低压NEMA电机业务_images\img_001_3a53afff08c7.jpg)
 
   
 
@@ -33,7 +33,7 @@ _► 预计收购将在2年内为ABB运动控制业务带来利润增长点_
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/VuZKe64g19fETcuOEymneZmYEreSbkATg9QeY6X4JfhphQUhSj0pzm7eemruIlI1wtMeTBTEwibdyNeg0icHv7rg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB宣布收购西门子低压NEMA电机业务_images\img_002_530a2886126c.jpg)
 
   
 
@@ -97,7 +97,7 @@ The global NEMA motor industry, roughly $2.7 billion in size, comprises industri
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s0OaHsxVicqRwsd1jffsZ1SInziao432K25CLbwomI8aoRfBsD0ibko7MJkWIcoEm08ia03Vpey2IyxQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB宣布收购西门子低压NEMA电机业务_images\img_003_a42af9525055.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB宣布收购西门子低压NEMA电机业务_images\img_004_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
 

@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Z1vdekDJjm9JJBqlKdtXtg](https://mp.weixin.qq.com/s/Z1vdekDJjm9JJBqlKdtXtg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tx2UUQMiaekzttE3Wyxwxqichzmk6TPhblJtseMFwghh73Pa6c70fwC3cjxBB0SSibjlQnuDXqr3cVA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\ai电机精度比bi精度高_有用吗__images\img_000_fce3ac30e4c2.jpg)
 
   
 
@@ -13,13 +13,13 @@
 
 来源：屹高CNC
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iah9f1g3QlHJqWfBmVQ6sPhL0mYk5iciaBE5PcuDwDwRc0Vk1qia0oUyWPsH9yAP2Z7JJkxiayMl7xyZmzT9hCVuF4Q/640?wx_fmt=png&tp=wxpic&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\ai电机精度比bi精度高_有用吗__images\img_001_f0056e9de14d.png)
 
     FANUC OIF系统，伺服电机编码器从原来的αiA1000升级到αiA4000，脉冲数从100万升价到了400万。bi编码器从12.8万脉冲，提高到了100万秒冲，那么机床精度会提高吗？
 
    我们先了解下一般机床的传动图，如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/iah9f1g3QlHJqWfBmVQ6sPhL0mYk5iciaBEaWiawEvJnslkWRQKL8E0jhcHVxdGtq3oekXc47iblMricWEKN2Vk33nEQ/640?wx_fmt=png&tp=wxpic&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\ai电机精度比bi精度高_有用吗__images\img_002_41087f0ff2a2.png)
 
 **机床精度能提高吗？**
 
@@ -34,7 +34,7 @@
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\ai电机精度比bi精度高_有用吗__images\img_003_afbf5570e61d.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\ai电机精度比bi精度高_有用吗__images\img_004_e8e68bdfc1b3.png)

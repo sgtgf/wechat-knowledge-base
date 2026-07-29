@@ -8,14 +8,14 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vCgHTOeYuNghJolhyn0IFTBs9UHCKMbEjjbl9wMMjBrOg3UMESkT8V7gibE3QlyCmutQCmo0kgOng/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\列装_三峡芯__白鹤滩大型水电机组PLC打破国外技术垄断_images\img_000_4bae7403cf13.jpg)
 
 
 来源：微科网工控  
 
 本月初，世界在建规模最大水电站——白鹤滩水电站11号机组顺利通过72小时试运行，正式投入商业运行，这是白鹤滩水电站第14台投产发电的百万千瓦水轮发电机组。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/X0lVibHyoGnJia91qLjeZ4gufkuc3NiaicoZYyiabLib77jKibvOITRVZFz30a1LwyicUEpT9egicMib24yO9ia7kNY8F3K0w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\列装_三峡芯__白鹤滩大型水电机组PLC打破国外技术垄断_images\img_005_f6389d58aece.gif)
 
 **世界第二大水电站白鹤滩助力双碳目标实现**
 
@@ -23,11 +23,11 @@
 
 **白鹤滩水电站全面建成投产后，将成为仅次于三峡电站的世界第二大水电站**。多年平均发电量可达624.43亿千瓦时，可替代标准煤约1968万吨，减排二氧化碳约5200万吨。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/29ICh41UtfSqsTfbhP4BiaypKdQJqSklEQ7icYvuiaoRTzcm17dYm8cF8NPyZgcibpcdN7FA0I9j5mvaf8lyuFAl0w/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\列装_三峡芯__白鹤滩大型水电机组PLC打破国外技术垄断_images\img_002_3b276ca548ff.jpg)
 
 届时，三峡集团在长江干流建成投产的水电机组将达到110台，总装机容量达7169.5万千瓦，世界最大清洁能源走廊将全面建成，并有效缓解华中、华东地区及川、滇、粤等省份用电紧张局面，提升区域清洁能源比重，维护电网安全稳定运行，助力实现国家碳达峰、碳中和目标。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/X0lVibHyoGnJia91qLjeZ4gufkuc3NiaicoZYyiabLib77jKibvOITRVZFz30a1LwyicUEpT9egicMib24yO9ia7kNY8F3K0w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\列装_三峡芯__白鹤滩大型水电机组PLC打破国外技术垄断_images\img_001_f6389d58aece.gif)
 
 **打破国外PLC在大型水电机组调速控制系统上的垄断**
 
@@ -35,13 +35,13 @@
 
 **白鹤滩水电站调速控制系统项目由三峡集团机电技术中心组织完成核心技术攻关**，以三峡科创园入园企业三峡智控科技有限公司为依托平台，整合具有十年以上清洁能源工业控制系统自主研发设计、生产制造和售后服务核心研发团队，以及50余项核心专利和软著，完成**基于ACS400型可编程自动化控制器的自主可控大型机组调速控制系统研发，开发出具有自主知识产权的调速控制系统通用控制平台。**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/29ICh41UtfSqsTfbhP4BiaypKdQJqSklEMhIYuiaXia6lib5ygBf4bxKID10cJubhwlvbXwSibGP0ZlxaoAMjyBrIPw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\列装_三峡芯__白鹤滩大型水电机组PLC打破国外技术垄断_images\img_004_050df78dc103.jpg)
 
   
 
 **该系统的成功研发，一举突破此领域的“卡脖子”关键核心技术****，****打破了国外品牌PLC（可编程逻辑控制器**）**在大型水电机组调速控制系统上的垄断**，并将通过在白鹤滩水电站的示范应用，逐步实现大型水电站核心控制系统全面自主可控。
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/X0lVibHyoGnJia91qLjeZ4gufkuc3NiaicoZYyiabLib77jKibvOITRVZFz30a1LwyicUEpT9egicMib24yO9ia7kNY8F3K0w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\列装_三峡芯__白鹤滩大型水电机组PLC打破国外技术垄断_images\img_003_f6389d58aece.gif)
 
 **国产工控厂商加速PLC产品自主化进程**
 
@@ -51,7 +51,7 @@
 
 在2020年外媒《Robotics&Automation》评选出的前22名可编程逻辑控制器制造商榜单中，西门子、霍尼韦尔、施耐德、ABB、三菱电机等众多工控巨头企业赫然在列，仍然是欧美日占主导地位，其中日本公司有9家，德国公司5家，美国公司2家，中国1家。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/29ICh41UtfRghQCNYgXAU3sF0vuKtrfkIpr9HS0fwOicGQ9oOMnJT14GfRPrEjUxQtC47lHicDZp5748tWuQ0JOw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\列装_三峡芯__白鹤滩大型水电机组PLC打破国外技术垄断_images\img_006_88950ba09418.jpg)
 
 由于种种原因，国产品牌的PLC在国内PLC市场份额所占比例很小，一直没有形成产业化规模，主要集中在小型PLC领域。特别是疫情红利和电子半导体、锂电池以及光伏等新兴行业的快速拉动作用，使得像汇川、信捷等国产厂商2020年PLC市场份额迅速增长。
 
@@ -63,8 +63,8 @@
 
 与国外工控巨头相比，国内公司在开展PLC业务时有较大的竞争优势，如需求优势、产品定制优势、成本优势、服务优势、响应速度优势等。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tEibvMRb5SGtflb73T1Lz2IJibuLLVvYddsbpxkKAGJL4EqjTb1nwdtp4dLCAmcdicXySick1872uA2w/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\列装_三峡芯__白鹤滩大型水电机组PLC打破国外技术垄断_images\img_007_31a98b8e3167.jpg)
 
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\自动化_智能制造_过程控制\列装_三峡芯__白鹤滩大型水电机组PLC打破国外技术垄断_images\img_008_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
 

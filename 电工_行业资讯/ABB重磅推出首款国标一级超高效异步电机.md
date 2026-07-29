@@ -4,7 +4,7 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/Xhqg4SPHaNlfyE19S3p6GA](https://mp.weixin.qq.com/s/Xhqg4SPHaNlfyE19S3p6GA)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0vE2ZIG5VErUiaic5Uovdb28y7P5QYtqjXS963OUGN1gZticMCCPchusnOMBhEuCvwJ9JdO7pugDP1XA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB重磅推出首款国标一级超高效异步电机_images\img_000_a02001b809a1.jpg)
 
   
 
@@ -16,7 +16,7 @@ ABB发布了首款符合国家一级能效标准的低压三相异步电机—�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/hXib6lHJ92DkrrefPBFl8WFacChSVZGQs4GnuRavj5j4Wov0rFptnm0Emuh1UcfMNBwuNyyfjMkWm2nJVaATLcQ/640?wx_fmt=jpeg&from=appmsg&tp=wxpic&wxfrom=13&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB重磅推出首款国标一级超高效异步电机_images\img_001_883b12f7bb19.jpg)
 
   
 
@@ -28,7 +28,7 @@ ABB发布了首款符合国家一级能效标准的低压三相异步电机—�
 
 **超高能效，应势而生**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hXib6lHJ92DkrrefPBFl8WFacChSVZGQsUtX8GRnZcOdfNTr2OqlEfk9wDDH2ib1Gq42mGTicKveP5vmZq3GHCwgg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB重磅推出首款国标一级超高效异步电机_images\img_003_c49eadb26113.png)
 
   
 
@@ -44,7 +44,7 @@ M2QA系列电机作为ABB的经典之作，具有高效、可靠、经济、耐�
 
 **更耐用、更安心、更智能、更多定制可能**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hXib6lHJ92DkrrefPBFl8WFacChSVZGQsUtX8GRnZcOdfNTr2OqlEfk9wDDH2ib1Gq42mGTicKveP5vmZq3GHCwgg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB重磅推出首款国标一级超高效异步电机_images\img_002_c49eadb26113.png)
 
   
 
@@ -68,7 +68,7 @@ M2QA IE5的问世不仅是对ABB在电机制造领域领导地位的再度印证
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hXib6lHJ92DkrrefPBFl8WFacChSVZGQsyDYEt9iaxksRy95yacCPyiasW3LI4Ampj80yPKp4wuSF67CpSaNibSgibg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB重磅推出首款国标一级超高效异步电机_images\img_004_31008e6fcb38.png)
 
 **产**
 
@@ -78,14 +78,14 @@ M2QA IE5的问世不仅是对ABB在电机制造领域领导地位的再度印证
 
 **数**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/hXib6lHJ92DkrrefPBFl8WFacChSVZGQsyDYEt9iaxksRy95yacCPyiasW3LI4Ampj80yPKp4wuSF67CpSaNibSgibg/640?wx_fmt=png&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB重磅推出首款国标一级超高效异步电机_images\img_005_31008e6fcb38.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/hXib6lHJ92DkrrefPBFl8WFacChSVZGQstOqWS0zkianUDQiciaDq2ZOftDtxkBA8KgltaG7WibdCcM4kG141vTTBbQ/640?wx_fmt=jpeg&from=appmsg&wxfrom=5&wx_lazy=1&wx_co=1&tp=wxpic)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB重磅推出首款国标一级超高效异步电机_images\img_006_d62fc007d6fa.jpg)
 
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0uibkIvkAHOPtHA9gym3XODEWrQGWXmjNHrmp8Mp3Mv8wdYjoiaNyL1EPibFpmHlcYK1m1wplSBia5vXg/640?wx_fmt=gif&from=appmsg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s3XKZR1KtlxFAuIoGYBDeHH3cUQjZhhwP3ibXQ70NSJO9zrLzszLTuWdV18EcNU3gKvQ0G5AfvRMA/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB重磅推出首款国标一级超高效异步电机_images\img_007_22d59179e018.gif)![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB重磅推出首款国标一级超高效异步电机_images\img_008_a6c2e413e6e0.png)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png&from=appmsg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\ABB重磅推出首款国标一级超高效异步电机_images\img_009_d84912f96aa9.png)

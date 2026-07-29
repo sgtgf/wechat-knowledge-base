@@ -4,11 +4,11 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/8uHyxkESGFpn0N5aw\_ekXw](https://mp.weixin.qq.com/s/8uHyxkESGFpn0N5aw_ekXw)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0suic3j0yP9NUhBMgibzkibDRE64T0hpovEibp9cYwo8Iw2sibQROwkibiaz4IIhmtPnFIuskfiaG28XRSmmw/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247580512&idx=2&sn=f8e9cd497def449e2bc7f9f0e5aa4791&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电机_设计_仿真\仅1_17kg_德国品牌TQ推出轻质_高效Ebike电机_images\img_000_c66cd6ca6268.jpg)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247580512&idx=2&sn=f8e9cd497def449e2bc7f9f0e5aa4791&scene=21#wechat_redirect)
 
 △点击图片报名参加
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sGaiavWQDOVENcCsibmWmaQGzk3OXovmMVEL37OmORheybicVl0VGU62HlgibGJtUBhDtpkkbyiapw1LA/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\仅1_17kg_德国品牌TQ推出轻质_高效Ebike电机_images\img_001_d8cb52582ba8.jpg)
 
 
 来源：上海自行车行业协会
@@ -19,7 +19,7 @@
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/W73KWicjfMlZv9declrJEHGDx3Q5w5xrxw7VS1XLRiasCiajEAFdFKFlFWtHoP16wns3Mka5RZpLUWkh6MZsWJiboA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\仅1_17kg_德国品牌TQ推出轻质_高效Ebike电机_images\img_002_cdd0416f37f3.png)
 
   
 
@@ -39,7 +39,7 @@ HPR40专为公路和砾石电动自行车设计，重量仅1.17kg，能提供40N
 
   
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/W73KWicjfMlZv9declrJEHGDx3Q5w5xrxohJChn5Xx0dfvEianvTicxYUxQzlxmmibLfloPzTwV2NSJ0lkku4VO4UA/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1)
+![图片](D:\电脑文件\公众号知识库\电机_设计_仿真\仅1_17kg_德国品牌TQ推出轻质_高效Ebike电机_images\img_003_9e5505f5d099.png)
 
   
 
@@ -59,11 +59,11 @@ HPR40的高扭矩密度意味着即使只有200W的电力加持，也足以将�
   
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ic1cyT6sT4Eb9gB9NyuTGgwBM45cpIiayzA9KliaEhiasA8MFU1dzKPcjg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\仅1_17kg_德国品牌TQ推出轻质_高效Ebike电机_images\img_004_3ccc50bba2ef.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGTdAQI2qpV97qAmOqeibaIiaKVLIks3YeQgIOyX5ia8tqVf9AFgW3XZ8Lw/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\仅1_17kg_德国品牌TQ推出轻质_高效Ebike电机_images\img_005_6eec1b7fb41b.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0tV2icnicqLdH1mJNyQfBrYibGk0C4HQwvywiaCRaw753uY4ZQdjaYicMhbrRdySb1xNFYzMAMNV8icFb3Q/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\仅1_17kg_德国品牌TQ推出轻质_高效Ebike电机_images\img_006_1798abd6d288.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0v0ZV7sRibAYoRKHdqMsgS88ULU9yWwiclQtG6BjIghiafsrrnPXJxjrGQfbnkeibicOsWjPXsyjwG4zdg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\电机_设计_仿真\仅1_17kg_德国品牌TQ推出轻质_高效Ebike电机_images\img_007_1862cf7fbcf8.jpg)
 

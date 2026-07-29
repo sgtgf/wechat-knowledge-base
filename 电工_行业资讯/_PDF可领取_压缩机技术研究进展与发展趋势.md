@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sQrbuvhJOzQeNFp6Xwx4P7Nns8eYBib3TwCRTyCYYg96rb41ne9EQ9VFfibXqoRBoL7u3oLEy08pDQ/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0sQrbuvhJOzQeNFp6Xwx4P7TJTjXQNE5Lv92HQ6cFPfMSC5kLG2zTfalv3m3Mae3GQiaM4jJuZfHtA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_压缩机技术研究进展与发展趋势_images\img_000_6bdacbcd236c.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_压缩机技术研究进展与发展趋势_images\img_001_0a6840ab3f0f.jpg)
 
 **
 
@@ -16,7 +16,7 @@
 
 ****全文共33页****
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sQrbuvhJOzQeNFp6Xwx4P7mmzuOPrxBofUETElxhqILM3xRdoUtz128Eib8VY87BhCUnsJGcGXEeg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sQrbuvhJOzQeNFp6Xwx4P7Lmk2lZibtia7bHEWmkDMJem8Bev2lG104Vdvda8t7fghe6ZL4jugkCpw/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sQrbuvhJOzQeNFp6Xwx4P7ribf8lobQWu85QZvPxr6hrUYNnOEH8Nicsltd0Eavg9GlpO95W9Z0alA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sQrbuvhJOzQeNFp6Xwx4P75yJS1wt0crJGGhnDmTFGfiaO3n66yOoEUnnmDhWFmaDoPP08H4T4DCg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sQrbuvhJOzQeNFp6Xwx4P7M0ia6FuBdia4M5NIhoRWFNspFALicKqiakSdZw530yCGbFXtG3kfRb73JQ/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sQrbuvhJOzQeNFp6Xwx4P7nF2leIltqTnBDb4uPYu1hibb5gF3QPZiaU4vhh0aCRYPRnuQOsHiacdHg/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sQrbuvhJOzQeNFp6Xwx4P70yZNKCnNIHpW1vYRY8Za3SFFibn40CX9p3A8tJTgC2cibx7h3qWosjYw/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sQrbuvhJOzQeNFp6Xwx4P7xgdBOpP9ES0iccHvR5dYvTt0Uoeoc02d9LemwaOWKCeqdjHOWZCdexw/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sQrbuvhJOzQeNFp6Xwx4P7J9qj3iaMLFibemPE7pY2fpK4tpYpf7D8p4xNWKBgnpibEImyasNrtjU1A/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_压缩机技术研究进展与发展趋势_images\img_002_b313901dc22b.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_压缩机技术研究进展与发展趋势_images\img_003_ffa30c97d287.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_压缩机技术研究进展与发展趋势_images\img_004_65c0a34f4ec8.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_压缩机技术研究进展与发展趋势_images\img_005_adc539a784cb.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_压缩机技术研究进展与发展趋势_images\img_006_63d96cd84bcd.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_压缩机技术研究进展与发展趋势_images\img_007_ee2bf3d36f71.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_压缩机技术研究进展与发展趋势_images\img_008_e053a93dc99e.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_压缩机技术研究进展与发展趋势_images\img_009_169d48ebba61.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_压缩机技术研究进展与发展趋势_images\img_010_3c116d1e4896.png)
 
 由于文章篇幅较长，要想获得完整资料
 
@@ -27,8 +27,8 @@
     
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamVK9gBdcF4HYg2ia6FxJR10aoxdBKO6kSt8uPiakr3iaBpEYoZ9wxsSFSQ/640?wx_fmt=jpeg)![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sCR1GjicN5H3JA9CTnM9VxoUy9Bd0yvn19ibwZGKBNia444otV7JxK15UuicSszIkCibouLHyjVQr0cGA/640?wx_fmt=png)![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0svhebfD6r7PqegibNW9FLiamErwvhicuUI9ldicWPzXL63R7M90Z8sqoMEPtuncae7nc1VaqLYLoKiboA/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_压缩机技术研究进展与发展趋势_images\img_011_37fac5a47911.jpg)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_压缩机技术研究进展与发展趋势_images\img_012_fd93dd927fd8.png)![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_压缩机技术研究进展与发展趋势_images\img_013_a6e4e8e00379.jpg)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sfqJ1JicA3UjnxeCgI2rnhVnib826LrxCBmrmSdvAZhshAibDgtDsDxnlJW0IMeoyFv0gfYCK3nPzDw/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\_PDF可领取_压缩机技术研究进展与发展趋势_images\img_014_ec5921db28d2.png)
 

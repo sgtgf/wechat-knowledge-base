@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0tbNsCFC0AHia37KF8iciapax1xHicVnLQN4FKqwxAqCXibgXqQ0e3aqvYQ26pvERgY4JibS8LYZOPWa5pA/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纳芯微直流有刷电机驱动NSD731x系列发布多款新品_images\img_000_86070280ef99.png)
 
 
 来源：电机控制设计加油站  
@@ -17,7 +17,7 @@
 
 纳芯微全新推出NSD731x系列直流有刷电机驱动芯片，该系列产品包括NSD7310, NSD7312, NSD7310A, NSD7312A, NSD7312-Q1, NSD7312A-Q1等多款芯片，可广泛适用于扫地机、家电、直流有刷电机模组、新能源汽车等多种应用场景。  
 
-![](https://mmbiz.qpic.cn/mmbiz_png/FdFtibibs15yCCxCNvzMrd9KF2GiaC5Op3OsKYI2ZzkK7dMjHKQ1f6KHRuvRbY1xTUPDud60YnPc8ibP9TjQgic2yTw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纳芯微直流有刷电机驱动NSD731x系列发布多款新品_images\img_001_77522466fa31.png)
 
 **NSD731x** **产品特性**
 
@@ -68,14 +68,14 @@ NSD7312/NSD7312A Q1可满足电动锁止装置对电机瞬态力矩与峰值电�
 
 **NSD731x****系列产品选型表**
 
-![](https://mmbiz.qpic.cn/mmbiz_png/FdFtibibs15yCCxCNvzMrd9KF2GiaC5Op3OuDl3qjiaEliaSs2Mm3uHKY9mRKbvoPmbWHQBOWAknfEmEwicMTA49libNA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纳芯微直流有刷电机驱动NSD731x系列发布多款新品_images\img_004_1e026c3c6e77.png)
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/vibkgHlPVq0stfSStzzDcbfsJbicnUlRKX8lZ5xOob5gHhNBgt33cniaxicjRhcoqUnDBgFoowtwgmpeiad3q5dddjw/640?wx_fmt=gif)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纳芯微直流有刷电机驱动NSD731x系列发布多款新品_images\img_005_2a95e979a0b6.gif)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s0OaHsxVicqRwsd1jffsZ1SInziao432K25CLbwomI8aoRfBsD0ibko7MJkWIcoEm08ia03Vpey2IyxQ/640?wx_fmt=png)
+![](D:\电脑文件\公众号知识库\电工_教育_学习\纳芯微直流有刷电机驱动NSD731x系列发布多款新品_images\img_006_a42af9525055.png)
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\电工_教育_学习\纳芯微直流有刷电机驱动NSD731x系列发布多款新品_images\img_007_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247525821&idx=1&sn=3113091b400a6dbbdaeb4a408d475eba&chksm=cede2479f9a9ad6fa0d04b5f33407354cc6670c75781173cde92b5e552cd29d99cbb13031c6e&token=1102902197&lang=zh_CN&scene=21#wechat_redirect)
 
   
 

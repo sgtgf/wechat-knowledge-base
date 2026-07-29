@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0teiceibxaxXjXW1A56HF7tkg1BqF80Fy26bEAcYgkwymmYr8esIUc8xHrJXFogdcvjAtgMicfQLJOLA/640?wx_fmt=jpeg)  
+![](D:\电脑文件\公众号知识库\电工_行业资讯\售出Flender后_西门子再瘦身_或剥离大型传动应用业务_images\img_000_2a1ae17a00a1.jpg)  
 
 **来源：网络 侵删**  
 
@@ -20,7 +20,7 @@
 
 报道称，西门子集团基本已经确认要进行分拆。据集团发言人称：“我们现在决定将LDA的业务活动划分为独立的法律实体。我们希望赋予该公司更多的自主权和商业自由，使其能够更加专注于其市场和客户。”该公司拒绝透露该业务的财务细节。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd57EbVUxPGOLWziaIicPfJzgCl81VfRbHgJmzgwkVAOUO0nO1aAHCc9T2lnKjShSb8psLzJbZLwic6Gg/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\售出Flender后_西门子再瘦身_或剥离大型传动应用业务_images\img_001_5023c87fc29d.jpg)
 
 西门子官网截图
 
@@ -32,7 +32,7 @@
 
 今年3月，西门子表示已完成向凯雷投资集团（Carlyle Group）出售弗兰德（Flender），企业价值为20.25亿欧元（24.1亿美元）。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd57EbVUxPGOLWziaIicPfJzgCwrM6GqzRtHH8qX1zSsLLUrmoMrh0bkgfib8e3XzJwB6Tv6uN6ycWDfw/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\售出Flender后_西门子再瘦身_或剥离大型传动应用业务_images\img_002_de27e782765d.jpg)
 
 Flender是西门子旗下的独立机构，是全球领先的传动技术公司，产品和服务组合非常广泛，包括适用于各行业的变速箱、联轴器和发电机，在风能领域重要性正在凸显。弗兰德全球员工约8600人，业务遍及包括亚洲在内的35个国家，2020财年的销售额预计为22亿欧元。
 
@@ -52,7 +52,7 @@ Flender隶属于集团的投资组合公司旗下，除传统系统业务外，�
 
 西门子的邮政和机场物流解决方案部门Siemens Logistics也是被列入出售名单的“投资组合公司”之一，一旦旅游业从新冠病毒大流行造成的低迷中反弹之后，该部门有望进行出售。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ZmBgPlKTGd57EbVUxPGOLWziaIicPfJzgCHDch4fE6xfUT2fVOG1ltTVsicsRZpd6YJ97tKNlbicmrvQWX4uolOnng/640?wx_fmt=jpeg)
+![](D:\电脑文件\公众号知识库\电工_行业资讯\售出Flender后_西门子再瘦身_或剥离大型传动应用业务_images\img_003_510ab9d92b93.jpg)
 
 在西门子集团内部，“投资组合公司”拥有约15400名员工，贡献了约32亿欧元的销售额。除了大型传动应用和物流业务外，投资组合公司还包括西门子商用车公司（作为公交车和挖掘机等电动商用车的传动系统供应商），以及机械系统和组件公司，后者负责Sykatec品牌下的钣金加工业务。此外，法雷奥正考虑收购其与西门子的合资企业——Valeo Siemens eAutomotive中，后者所持有的股份。
 

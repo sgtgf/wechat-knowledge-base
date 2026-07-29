@@ -4,9 +4,9 @@
 
 > 原文地址: [https://mp.weixin.qq.com/s/YqSKyEN13BRYDYctsODjGQ](https://mp.weixin.qq.com/s/YqSKyEN13BRYDYctsODjGQ)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0s1u4ztdWjDoyDhYIW9MOhDMGrAzeDVuvZ2dfZib765WVhdyXHexcxMPBNzR0QYNDlLNEbmuUSibq4w/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=Mzg4NzgyMjIwNg==&mid=2247526151&idx=1&sn=f2ad16b6fe06f9d5bd954057834bb252&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_000_29f68faced42.jpg)](https://mp.weixin.qq.com/s?__biz=Mzg4NzgyMjIwNg==&mid=2247526151&idx=1&sn=f2ad16b6fe06f9d5bd954057834bb252&scene=21#wechat_redirect)
 
-[![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t8PE1jut6syNaXWztwMIKfloy7NO3ltUjCw33CwMdkozLu7wSA3UI6qibZLEn27wSRVUEjCYBfiaFA/640?wx_fmt=jpeg&from=appmsg)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247717560&idx=1&sn=e29e07e0eb7d394a5b7ff41eff76da7e&scene=21#wechat_redirect)
+[![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_001_064aca60e3a4.jpg)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247717560&idx=1&sn=e29e07e0eb7d394a5b7ff41eff76da7e&scene=21#wechat_redirect)
 
 
 来源：电机通
@@ -31,7 +31,7 @@
 
 目前可以说的是，谁把技术方案或者解决方案搞得越来越好，性价比越来越高，让乘客出行的费用越来越低，谁在行业内的优势就会越来越明显。
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQkTz3MP1diamtX8kO6ia1xhhfwCDyJp3J3qIWa8GQxbzDvRaxtt8xZ2S5Q/640?wx_fmt=png&wx_&wxfrom=13)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_002_e3ca437b5cd7.png)
 
   
 
@@ -61,7 +61,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQkeRKiaVz59s2hQgTogXGqVK01ibFpSXoltyaOia72bAePXyzoug8Cg5t3g/640?wx_fmt=png&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_003_8e6402220754.png)
 
 全球市场分析
 
@@ -75,7 +75,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQkAbc1TUNYYNSIAB3l96LPXtNWDe9kicg56mhibvE7azC2UHicrB41mEGRA/640?wx_fmt=png&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_004_bad9f7a6e157.png)
 
   
 
@@ -113,7 +113,7 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQkR8fJQzQOIMA48cEhjfLj2uvr3uvQ0EttO358BAewiaXMxTxDbOV4q2g/640?wx_fmt=png&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_005_ca015487fb00.png)
 
  E20 eVTOL起降场效果
 
@@ -145,103 +145,103 @@
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQkrqgmEGpAUC0cP6w9ZKYkuMxeNcXGDYLEZY5v39SlydibvDn2UQVNUXQ/640?wx_fmt=gif&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_016_edf0c02dc091.gif)
 
 **01**
 
 **江苏迈吉易威电动科技有限公司**  
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQk29rpH53ASsqQupcibjvdiav4Wsl1xCrAMSTAicGaqQFZicdbicSmhqkiarwA/640?wx_fmt=png&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_007_0e6e72f6b0f1.png)
 
 江苏迈吉易威早先从事军用高功率密度轮毂电机系统，并且已有多个型号产品在部队投放应用。目前也推出了面向eVTOL的电机系统配套产品，目标客户群体和之前相似偏向于军口。日前在中国电机博览会上，展出了多款航空电推进产品。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQkrqgmEGpAUC0cP6w9ZKYkuMxeNcXGDYLEZY5v39SlydibvDn2UQVNUXQ/640?wx_fmt=gif&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_014_edf0c02dc091.gif)
 
 **02**
 
 **卧龙电气（上海）中央研究院**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQknUUoz71e3arluveyibl2tme5LqiapEypZLQiaic8McibxslGzy6lMdRMAdA/640?wx_fmt=png&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_009_eb8b20a5fda9.png)
 
 卧龙电气涉足航空动力电气化较早，根据其官方的信息，卧龙电气和商飞以及山河航空的合作有相关的公开报道，尤其是和商飞成立了航空电动力系统创新中心，目标是开发10kw-2WM的电动力系统；但是对于其具体的产品在官网并没有看到，这或许是因为航空业务对于卧龙电气来说份额太小了，但却是支撑起未来增量发展的一关键营销点。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQkrqgmEGpAUC0cP6w9ZKYkuMxeNcXGDYLEZY5v39SlydibvDn2UQVNUXQ/640?wx_fmt=gif&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_010_edf0c02dc091.gif)
 
 **03**
 
 **天津市松正电动汽车技术股份有限公司** 
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQka9e83iaX76rav2Q4CTf6qicOLZa79NuTnq76mia6owM78hYe8iaaoibic5eA/640?wx_fmt=png&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_011_81fb6f979ad8.png)
 
 松正携电动航空、电动叉车、电动滑板车、电动自行车、电动摩托车等多领域核心产品亮相美国、德国和土耳其等多个国际展会，并对电动航空配套的发展寄予了期望；松正针对载人级电动航空领域专注于高效功重比的电推进系统的开发，在纯电驱多旋翼垂直起降、涵道风扇等不同构型的飞行器均有研究及产品应用；同时在混动驱动机载大功率增程电机及驱动器具备开发和制造能力。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQkrqgmEGpAUC0cP6w9ZKYkuMxeNcXGDYLEZY5v39SlydibvDn2UQVNUXQ/640?wx_fmt=gif&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_020_edf0c02dc091.gif)
 
 **04**
 
 **南昌三瑞智能科技有限公司**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQkic7jDK9ZsUJWYKmhVP26zYZ8icOa1eiaPaP7tB4Bn8FBjrgdU1nOYcQZQ/640?wx_fmt=png&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_013_7299c9751530.png)
 
 三瑞智能最知名的产品莫过T-Motor，根据其官网信息，也有载人动力相关的产品，其中单桨最大推力为100kg水平，对于目前的百公斤级无人机或者eVTOL缩比验证机会是一个不错的选择。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQkrqgmEGpAUC0cP6w9ZKYkuMxeNcXGDYLEZY5v39SlydibvDn2UQVNUXQ/640?wx_fmt=gif&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_006_edf0c02dc091.gif)
 
 **05**
 
 **山东精创磁电产业技术研究院有限公司**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQkiacXNa4zfGbmCsn0ibyHfrAJyyD7Vz3TBqB8U0uyxZicYicCWpKicBCUxng/640?wx_fmt=png&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_015_d1249de9175d.png)
 
 根据其公众号的宣传，其高效电机涉及的领域包括电动飞机、新能源汽车、电动摩托车、特种车辆等，一款峰值功率为68kw，重量为13kg的轻量化电机可应用电动航空领域。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQkrqgmEGpAUC0cP6w9ZKYkuMxeNcXGDYLEZY5v39SlydibvDn2UQVNUXQ/640?wx_fmt=gif&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_022_edf0c02dc091.gif)
 
 **06**
 
 **安徽智鸥驱动科技有限公司**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQkicH1NebDX6KXVoVzicR1l3pibhXkdZwsFwrkric0zjD7fmnlCIDQoAicVKQ/640?wx_fmt=png&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_017_fb048e153997.png)
 
 主要开发的面向无人机的高压动力套件，其定位和T-motor差不多，目标客户偏向于大载重无人机，包括运动级单人eVTOL飞行应该可以使用。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQkrqgmEGpAUC0cP6w9ZKYkuMxeNcXGDYLEZY5v39SlydibvDn2UQVNUXQ/640?wx_fmt=gif&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_018_edf0c02dc091.gif)
 
 **07**
 
  **深圳市北极鸥非晶动力有限公司**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQkSdaBKrsXj7pLapZeibYOpNSKicFPSJ2ugt1XG35rk19MP5cPr23ibicGWA/640?wx_fmt=png&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_019_85440566852b.png)
 
 北极鸥差不太多，其动力套件主要面向大载重无人机，同时为载人动力提供产品和定制化的服务。北极鸥公司主要以研发和生产非晶盘式高速电机为主。非晶盘式电机在高速时具有优异的电磁性能、低损耗、高效率、高节能等诸多优良特性。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQkrqgmEGpAUC0cP6w9ZKYkuMxeNcXGDYLEZY5v39SlydibvDn2UQVNUXQ/640?wx_fmt=gif&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_008_edf0c02dc091.gif)
 
 **08**
 
 **宁波诺云驱动科技有限公司**
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQk95uT9jdL5wWrGicP3hdSvoe4bwDQJm9NwL0Ga7FqfyGCaVEI7bEIUoQ/640?wx_fmt=png&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_021_02de40e33225.png)
 
 诺云驱动是由宁波诺丁汉大学支持的一家企业，依托宁波诺丁汉大学的电推进实验室，目前还没有到关于融资和产品方面的信息。致力于为电推进飞行器提供动力系统解决方案，解决电动航空、电推进eVTOL等领域先进动力系统的卡脖子问题，针对未来交通、电推进飞行器飞机领域，提供高可靠、高安全级别的电驱动系统。
 
   
 
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/DpeVq9ia7FticyEQNgSxVzlv7ibssGJwWQkrqgmEGpAUC0cP6w9ZKYkuMxeNcXGDYLEZY5v39SlydibvDn2UQVNUXQ/640?wx_fmt=gif&wx_&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_012_edf0c02dc091.gif)
 
 **09**
 
@@ -305,15 +305,15 @@
 [三十年磨一剑！卧龙电气背后不为人知的秘密！](http://mp.weixin.qq.com/s?__biz=Mzg3MzY5OTQ5OQ==&mid=2247553465&idx=1&sn=ce7240d5584ea18953b6e135546f0b7e&chksm=cede507df9a9d96b56d7b338b3f7006b29e5756c9c90bc5606002a402f4c3ffe5d991ac8ba3b&scene=21#wechat_redirect)
 
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0t8PE1jut6syNaXWztwMIKflTUnuEXWxPibLJDokYVjA047arWNC64WjZJstawXXntEkpuzS14LA6A/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_023_30f20d6608ae.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0uvwUyrFWszpp9eIGyDibzTRGtuJD4wgepVTRmtwU9x1PP28X6vB0fFOzebt0zQtgfPhPbXpTZM8dg/640?wx_fmt=jpeg&from=appmsg)
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_024_9967d1607b24.jpg)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0s2cdPOwTWgsSfzkhVTn3PSF8TM2U217jHJaFWgRbGL5MrtpRXfTP9CtYJAR2n35XkklSk9EFIP4Q/640?wx_fmt=png&from=appmsg)
-
-  
-
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_025_fb0ff5197498.png)
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vTicAlmdAM5kmIicsPkDYY96WxUU7Fgeicr3EF8TShjxlP65ccvCvqh45flVSeAdLP2t4dNfPxicjicww/640?wx_fmt=png)
+
+  
+
+![](D:\电脑文件\公众号知识库\航天航空_交通_水下\国内电机谁在_涉足_eVTOL赛道_这万亿产业的泼天富贵_怎么接__images\img_026_e8e68bdfc1b3.png)

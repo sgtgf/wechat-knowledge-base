@@ -8,7 +8,7 @@
 
 **关注我们**
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/vibkgHlPVq0teiceibxaxXjXW1A56HF7tkg1BqF80Fy26bEAcYgkwymmYr8esIUc8xHrJXFogdcvjAtgMicfQLJOLA/640?wx_fmt=jpeg)  
+![](飞碟技术__瑟尔效应发电机SEG是真是假__images/img_000_2a1ae17a00a1.jpg)  
 
 **来源：宇宙解码**  
 
@@ -16,7 +16,7 @@ Robert Searl 1932年5月2日出生于英国旺蒂奇(Wantage)的一个贫困的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/X5E8Shn8XbBBjkiaEsuCq9moKpJ70kxarg0QleLFI3PTiaJIUgOceJVKuEk9ZkVHXrMmdFW0vqN6UsfRyHeib760w/640?wx_fmt=jpeg)
+![](飞碟技术__瑟尔效应发电机SEG是真是假__images/img_001_93ea047ad055.jpg)
 
   
 
@@ -24,7 +24,7 @@ Robert Searl 1932年5月2日出生于英国旺蒂奇(Wantage)的一个贫困的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/X5E8Shn8XbAcN9UDQDhDaasuyYZnw2enxyuIwv7iaKJibnFLLRuq14b2NqGCX85azu8CZfacmevicQWYV8CSKNhow/640?wx_fmt=jpeg)
+![](飞碟技术__瑟尔效应发电机SEG是真是假__images/img_002_55b2c5dd3f9c.jpg)
 
   
 
@@ -36,7 +36,7 @@ Robert Searl 1932年5月2日出生于英国旺蒂奇(Wantage)的一个贫困的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/X5E8Shn8XbCUE10DoRIg7qBZyT85NRBlUUyEJAmeedLIF5yTo9mAN0drvc9PCVm9MYNoDTbia7mADXOMYC5Jrcw/640?wx_fmt=jpeg)
+![](飞碟技术__瑟尔效应发电机SEG是真是假__images/img_003_c29cceefd92a.jpg)
 
   
 
@@ -44,7 +44,7 @@ SEG是一部不需要能源的发电机，它可以收集遍及宇宙空间的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/X5E8Shn8XbCUE10DoRIg7qBZyT85NRBliaaqv92ug13fny9C64XaDZApia9rcUuibMFibSY2O9FQWox8yAhJV6Iy1A/640?wx_fmt=jpeg)
+![](飞碟技术__瑟尔效应发电机SEG是真是假__images/img_004_463f76c36ab3.jpg)
 
   
 
@@ -56,7 +56,7 @@ SEG是一部不需要能源的发电机，它可以收集遍及宇宙空间的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_gif/X5E8Shn8XbCUE10DoRIg7qBZyT85NRBla6OHf4l72IazJSydlK92ZkZXRqYGmfTO2iaq85OJgjY00AibjWOLxtyg/640?wx_fmt=gif)
+![](飞碟技术__瑟尔效应发电机SEG是真是假__images/img_005_a79610b00262.gif)
 
   
 
@@ -76,7 +76,7 @@ SEG是一部不需要能源的发电机，它可以收集遍及宇宙空间的�
 
   
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/X5E8Shn8XbCUE10DoRIg7qBZyT85NRBlNvXiaNcYkzPrtbeby9UM5qh4NUetRqE5DBIYMkt4vaVUtRAEg4iagucA/640?wx_fmt=jpeg)
+![](飞碟技术__瑟尔效应发电机SEG是真是假__images/img_006_bd78b699391c.jpg)
 
   
 

@@ -8,7 +8,7 @@
 
 **关注我们**
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0vyvdvAWIec3SO8vVjAWxibWvykjIO7ibxtpVoqKTkc4wShVT1wxpOZEbRZibdzYs1TWAsgPCxnuwNLA/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247604627&idx=1&sn=088f72297c96fac8deab834e6782c326&scene=21#wechat_redirect)
+[![](发电机进相运行VS迟相运行__images/img_000_0cdbef7924ed.png)](https://mp.weixin.qq.com/s?__biz=MzI0MDU0NDMyMQ==&mid=2247604627&idx=1&sn=088f72297c96fac8deab834e6782c326&scene=21#wechat_redirect)
 
 **来源：发电机技术**  
 
@@ -67,7 +67,7 @@
 
   
 
-[![](https://mmbiz.qpic.cn/mmbiz_png/vibkgHlPVq0sGmXk8Cm0QNxGDTWzSMHRqdFkxlYib69DQy8MMHGCnZJicR76IgShmuhcbPeHKXGQUU33LKN7ibz7iaw/640?wx_fmt=png)](https://mp.weixin.qq.com/s?__biz=MzkxODI0MjA3MQ==&mid=2247523300&idx=4&sn=ebad8b1c17bb62f63ead372f550cc734&scene=21#wechat_redirect)
+[![](发电机进相运行VS迟相运行__images/img_001_509372e3b2b3.png)](https://mp.weixin.qq.com/s?__biz=MzkxODI0MjA3MQ==&mid=2247523300&idx=4&sn=ebad8b1c17bb62f63ead372f550cc734&scene=21#wechat_redirect)
 
   
 
